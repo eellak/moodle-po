@@ -1,0 +1,1363 @@
+#. extracted from lang/en/mplayer.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'mplayer', language 'en', branch 'MOODLE_31_STABLE'
+#.  *
+#.  * @package   mplayer
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['above']
+msgid "Above"
+msgstr ""
+
+#: $string['advanced']
+msgid "Advanced"
+msgstr ""
+
+#: $string['allowtechnologychoice']
+msgid "Authors can choose"
+msgstr ""
+
+#: $string['allowtechnologychoicedesc']
+msgid ""
+"If enabled, authors can override the site level technology choice per "
+"instance."
+msgstr ""
+
+#: $string['appearance']
+msgctxt "$string['appearance']"
+msgid "Appearance"
+msgstr ""
+
+#: $string['audiodescription']
+msgid "Audio Description"
+msgstr ""
+
+#: $string['audiodescriptionfile']
+msgid "MP3 File"
+msgstr ""
+
+#: $string['audiodescriptionstate']
+msgctxt "$string['audiodescriptionstate']"
+msgid "Auto Start"
+msgstr ""
+
+#: $string['audiodescriptionvolume']
+msgctxt "$string['audiodescriptionvolume']"
+msgid "Volume"
+msgstr ""
+
+#: $string['author']
+msgid "Source"
+msgstr ""
+
+#: $string['autostart']
+msgctxt "$string['autostart']"
+msgid "Auto Start"
+msgstr ""
+
+#: $string['backcolor']
+msgid "Back Color"
+msgstr ""
+
+#: $string['backtocourse']
+msgid "Back to course"
+msgstr ""
+
+#: $string['behaviour']
+msgctxt "$string['behaviour']"
+msgid "Behaviour"
+msgstr ""
+
+#: $string['bottom']
+msgid "Beneath"
+msgstr ""
+
+#: $string['bufferlength']
+msgid "Buffer Length (seconds)"
+msgstr ""
+
+#: $string['captions']
+msgctxt "$string['captions']"
+msgid "Captions"
+msgstr ""
+
+#: $string['captionsback']
+msgid "Transparent Background"
+msgstr ""
+
+#: $string['captionsfile']
+msgid "Captions File"
+msgstr ""
+
+#: $string['captionsfontsize']
+msgid "Font Size"
+msgstr ""
+
+#: $string['captionsstate']
+msgid "Show Captions"
+msgstr ""
+
+#: $string['clearconfigxml']
+msgid "Clear XML config file"
+msgstr ""
+
+#: $string['clearplaylist']
+msgid "Clear play list file"
+msgstr ""
+
+#: $string['completionmediaviewed']
+msgid "marked when student has finished to view the full media"
+msgstr ""
+
+#: $string['config']
+msgid "Config XML"
+msgstr ""
+
+#: $string['confighttpmediacontentdir']
+msgid ""
+"HTTP physical storage dir should be a remote NFS mounted point onto remote "
+"HTTP volumes."
+msgstr ""
+
+#: $string['confighttpmediapath']
+msgid "/path/to/medias"
+msgstr ""
+
+#: $string['confighttpmediaserver']
+msgid "http://medias.my-domaine.com"
+msgstr ""
+
+#: $string['configskin']
+msgid "Skin (JW Player)"
+msgstr ""
+
+#: $string['configstretching']
+msgid "Stretching (JW Player)"
+msgstr ""
+
+#: $string['configsubtitles']
+msgid "Subtitles options"
+msgstr ""
+
+#: $string['configwowzaapplication']
+msgid "Usually /vod for playing videos"
+msgstr ""
+
+#: $string['configwowzacontentdir']
+msgid ""
+"This content dir should be a remote mounted network storage volume on the "
+"streaming server"
+msgstr ""
+
+#: $string['configwowzaserver']
+msgid "rtmp://your.server.name"
+msgstr ""
+
+#: $string['configxml']
+msgid "File"
+msgstr ""
+
+#: $string['controlbar']
+msgid "Control Bar"
+msgstr ""
+
+#: $string['cueininvite']
+msgid ""
+"Before continuing watching this video, you are proposed to execute a "
+"{$a->type} activity.<br/><br/>{$a->link}"
+msgstr ""
+
+#: $string['cueininviteoptional']
+msgid ""
+"Before continuing watching this video, you are proposed to execute a "
+"{$a->type} activity.<br/><br/>{$a->link}<br/><a "
+"href=\"javascript:cuepoint_resume_from_id('{$a->playerid}')\">Resume now</a>"
+msgstr ""
+
+#: $string['cuelaunch']
+msgid "Launch the {$a}"
+msgstr ""
+
+#: $string['cue_list']
+msgid "Cuelists"
+msgstr ""
+
+#: $string['cue_list_help']
+msgid ""
+"<div class=\"indent\">\n"
+"  <p><strong>video|timestamp1|url|timestamp2;</strong></p>\n"
+"  <ul>\n"
+"    <li>video = numero video in play list </li>\n"
+"    <li>timestamp1 = timestamp cuepoint</li>\n"
+"    <li>url = url cuepoint</li>\n"
+"    <li>timestamp2 = not required:\n"
+"        <ul>\n"
+"            <li>0: video re-played when popup it closed</li>\n"
+"            <li>timestamp: popup it closed and video re-played after "
+"timestamp</li>\n"
+"            <li>empty: no specific action</li>\n"
+"        </ul>\n"
+"    </li>\n"
+"  </ul>\n"
+"</div>"
+msgstr ""
+
+#: $string['description']
+msgid "Media Description"
+msgstr ""
+
+#: $string['displayclick']
+msgid "Display Click"
+msgstr ""
+
+#: $string['dots']
+msgid "Dots"
+msgstr ""
+
+#: $string['duration']
+msgid "Duration (seconds)"
+msgstr ""
+
+#: $string['embederror1']
+msgid ""
+"<h3>Oops! There's a problem.</h3>\n"
+"<h4>Flash Player"
+msgstr ""
+
+#: $string['embederror2']
+msgid "or later is required.</h4>"
+msgstr ""
+
+#: $string['external']
+msgid "External Url"
+msgstr ""
+
+#: $string['fpversion']
+msgid "Flash Player Version"
+msgstr ""
+
+#: $string['frontcolor']
+msgid "Front Color"
+msgstr ""
+
+#: $string['fullscreen']
+msgid "Full Screen"
+msgstr ""
+
+#: $string['fullurl']
+msgid "Full URL"
+msgstr ""
+
+#: $string['hd']
+msgid "HD Video"
+msgstr ""
+
+#: $string['hdbitrate']
+msgid "Bitrate"
+msgstr ""
+
+#: $string['hdfile']
+msgid "HD Video File"
+msgstr ""
+
+#: $string['hdfullscreen']
+msgid "Switch to HD on Fullscreen"
+msgstr ""
+
+#: $string['hdstate']
+msgid "Default HD"
+msgstr ""
+
+#: $string['height']
+msgid "Height"
+msgstr ""
+
+#: $string['httpmediacontentdir']
+msgid "HTTP storage dir"
+msgstr ""
+
+#: $string['httpmediapath']
+msgid "HTTP media path"
+msgstr ""
+
+#: $string['httpmediaserver']
+msgid "HTTP media server"
+msgstr ""
+
+#: $string['httpxmlplaylist']
+msgid "Remote XML Playlist (by http)"
+msgstr ""
+
+#: $string['icons']
+msgid "Show Icons"
+msgstr ""
+
+#: $string['image']
+msgid "Poster Image"
+msgstr ""
+
+#: $string['infobox']
+msgid "Info Box"
+msgstr ""
+
+#: $string['infoboxcolor']
+msgid "Background Color"
+msgstr ""
+
+#: $string['infoboxposition']
+msgctxt "$string['infoboxposition']"
+msgid "Position"
+msgstr ""
+
+#: $string['infoboxsize']
+msgctxt "$string['infoboxsize']"
+msgid "Size"
+msgstr ""
+
+#: $string['invalidmplayerid']
+msgid "This player ID is invalid"
+msgstr ""
+
+#: $string['item']
+msgid "Start Item"
+msgstr ""
+
+#: $string['langcourse']
+msgid "Course language"
+msgstr ""
+
+#: $string['langforced']
+msgid "Force language"
+msgstr ""
+
+#: $string['langfreechoice']
+msgid "Free choice"
+msgstr ""
+
+#: $string['langselection']
+msgid "Subtitle language"
+msgstr ""
+
+#: $string['langteacherchoice']
+msgid "Teacher choice"
+msgstr ""
+
+#: $string['languser']
+msgid "User profile language"
+msgstr ""
+
+#: $string['left']
+msgid "At left"
+msgstr ""
+
+#: $string['lightcolor']
+msgid "Light Color"
+msgstr ""
+
+#: $string['livestream']
+msgid "Live Stream"
+msgstr ""
+
+#: $string['livestreamfile']
+msgid "RTMP Stream"
+msgstr ""
+
+#: $string['livestreamimage']
+msgctxt "$string['livestreamimage']"
+msgid "Image"
+msgstr ""
+
+#: $string['livestreaminterval']
+msgid "Interval"
+msgstr ""
+
+#: $string['livestreammessage']
+msgid "Message"
+msgstr ""
+
+#: $string['livestreamstreamer']
+msgctxt "$string['livestreamstreamer']"
+msgid "Streamer"
+msgstr ""
+
+#: $string['livestreamtags']
+msgctxt "$string['livestreamtags']"
+msgid "Tags"
+msgstr ""
+
+#: $string['loadingplayer']
+msgid "Loading player..."
+msgstr ""
+
+#: $string['logo']
+msgid "Logo (licenced players only)"
+msgstr ""
+
+#: $string['logobox']
+msgctxt "$string['logobox']"
+msgid "Logo Box"
+msgstr ""
+
+#: $string['logoboxalign']
+msgid "Align"
+msgstr ""
+
+#: $string['logoboxfile']
+msgctxt "$string['logoboxfile']"
+msgid "Image"
+msgstr ""
+
+#: $string['logoboxlink']
+msgctxt "$string['logoboxlink']"
+msgid "Link"
+msgstr ""
+
+#: $string['logoboxmargin']
+msgid "Margin"
+msgstr ""
+
+#: $string['logoboxposition']
+msgctxt "$string['logoboxposition']"
+msgid "Position"
+msgstr ""
+
+#: $string['logofile']
+msgctxt "$string['logofile']"
+msgid "Image"
+msgstr ""
+
+#: $string['logohide']
+msgid "Auto Hide"
+msgstr ""
+
+#: $string['logolink']
+msgctxt "$string['logolink']"
+msgid "Link"
+msgstr ""
+
+#: $string['logoposition']
+msgctxt "$string['logoposition']"
+msgid "Position"
+msgstr ""
+
+#: $string['mediaviewed']
+msgid "Viewing media"
+msgstr ""
+
+#: $string['metadata']
+msgctxt "$string['metadata']"
+msgid "Metadata"
+msgstr ""
+
+#: $string['metaviewer']
+msgid "Metaviewer"
+msgstr ""
+
+#: $string['metaviewerposition']
+msgctxt "$string['metaviewerposition']"
+msgid "Position"
+msgstr ""
+
+#: $string['metaviewersize']
+msgctxt "$string['metaviewersize']"
+msgid "Size"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Media Player"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"the MPlayer module offers a rich, flexible and full featured way to "
+"integrate videos\n"
+"into a Moodle course with strong pedagogic interaction.\n"
+"\n"
+"You may publish video as local files, remote URLs, make playlists, display "
+"subtitles and break the video flow\n"
+"with pedagogic cuepoints."
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Media Players"
+msgstr ""
+
+#: $string['mplayer']
+msgctxt "$string['mplayer']"
+msgid "Media Player"
+msgstr ""
+
+#: $string['mplayer:addinstance']
+msgid "Add an instance"
+msgstr ""
+
+#: $string['mplayer_advanced']
+msgid "Advanced features"
+msgstr ""
+
+#: $string['mplayer_advanced_help']
+msgid ""
+"<div class=\"indent\">\n"
+"  <p><strong>Flash Player Version</strong>: minimum Flash Player version "
+"required by JW FLV Player.</p>\n"
+"  <p><strong>Trace Call</strong>: (for development and debugging purposes "
+"only)</p>\n"
+"<p>Activity Module Developed by Matt Bury - <a href=\"http://matbury.com/\" "
+"target=\"_blank\">http://matbury.com/</a></p>\n"
+"<p>JW FLV Player Developed By Jeroen Wijering - <a "
+"href=\"http://www.longtailvideo.com/\" "
+"target=\"_blank\">http://www.longtailvideo.com/</a></p>\n"
+"</div>"
+msgstr ""
+
+#: $string['mplayer_appearance']
+msgctxt "$string['mplayer_appearance']"
+msgid "Appearance"
+msgstr ""
+
+#: $string['mplayer_appearance_help']
+msgid ""
+"<div class=\"indent\">\n"
+"  <p><strong>Notes</strong>: A web page displayed under the video window. "
+"Supports rich text, links, images, plugins, Flash, etc.</p>\n"
+"  <p><strong>Width</strong>: 0 - 9999 (% values are also possible)</p>\n"
+"  <p><strong>Height</strong>: 0 - 9999</p>\n"
+"  <p><strong>Skin</strong>: change the design of the video player "
+"interface</p>\n"
+"  <p><strong>Poster Image</strong>: JPG, GIF, PNG or SWF to display before "
+"video playback starts (Behaviour &gt; Auto Start must be set to "
+"&quot;false&quot;)</p>\n"
+"  <p><strong>Show Icons</strong>: show pause/play/streaming icons in centre "
+"of video window</p>\n"
+"  <p><strong>Control Bar</strong>: </p>\n"
+"  <ul>\n"
+"    <li>none = no playback controls</li>\n"
+"    <li>bottom = playback controls under the video window</li>\n"
+"    <li>over  = playback controls on top of the video window</li>\n"
+"  </ul>\n"
+"  <p><strong>Control Bar Colors</strong>:</p>\n"
+"  <ul>\n"
+"    <li>Back Color - control bar background color</li>\n"
+"    <li>Light Color - control bar icons and text color</li>\n"
+"    <li>Front Color - control bar video position scrubber and volume control "
+"color</li>\n"
+"    <li>Screen Color - video window background color</li>\n"
+"  </ul>\n"
+"  <p><strong>Smoothing</strong>: smooths out pixels in video image (leave as "
+"&quot;true&quot; unless users have very slow computers)</p>\n"
+"  <p><strong>Quality</strong>: overall display quality of Flash Player "
+"plugin  (leave as &quot;best&quot; unless users have very slow "
+"computers)</p>\n"
+"  <p><strong></strong>Colors are  hexidecimal values - e.g. black = 000000, "
+"white = FFFFFF, red = FF0000, green = 00FF00 and blue = 0000FF</p>\n"
+"<p>Activity Module Developed by Matt Bury - <a href=\"http://matbury.com/\" "
+"target=\"_blank\">http://matbury.com/</a></p>\n"
+"<p>JW FLV Player Developed By Jeroen Wijering - <a "
+"href=\"http://www.longtailvideo.com/\" "
+"target=\"_blank\">http://www.longtailvideo.com/</a></p>\n"
+"</div>"
+msgstr ""
+
+#: $string['mplayer_audiodescription']
+msgid "Audio description"
+msgstr ""
+
+#: $string['mplayer_audiodescription_help']
+msgid ""
+"<div class=\"indent\">\n"
+"  <p><strong>MP3 File</strong>: Audio file that is synchronised with video "
+"playback.</p>\n"
+"  <p><strong>Auto Start</strong>: start playing audio file as soon as web "
+"page has loaded</p>\n"
+"  <p><strong>Volume</strong>: volume of audio playback</p>\n"
+"<p>Activity Module Developed by Matt Bury - <a href=\"http://matbury.com/\" "
+"target=\"_blank\">http://matbury.com/</a></p>\n"
+"<p>JW FLV Player Developed By Jeroen Wijering - <a "
+"href=\"http://www.longtailvideo.com/\" "
+"target=\"_blank\">http://www.longtailvideo.com/</a></p>\n"
+"</div>"
+msgstr ""
+
+#: $string['mplayer_behaviour']
+msgctxt "$string['mplayer_behaviour']"
+msgid "Behaviour"
+msgstr ""
+
+#: $string['mplayer_behaviour_help']
+msgid ""
+"<div class=\"indent\">\n"
+"  <p><strong>Auto Start</strong>: start playing video as soon as page "
+"loads</p>\n"
+"  <p><strong>Full Screen</strong>: allow users to switch video to take up "
+"the whole screen</p>\n"
+"  <p><strong>Stretching</strong>: </p>\n"
+"  <ul>\n"
+"    <li>none = no stretching</li>\n"
+"    <li>uniform = largest possible while maintaining aspect ratio, no "
+"cropping</li>\n"
+"    <li>exactfit = ignore aspect ratio</li>\n"
+"    <li>fill = fill the player window, some cropping may occur</li>\n"
+"  </ul>\n"
+"  <p><strong>Volume</strong>: audio volume (users adjust it on control "
+"bar)</p>\n"
+"  <p><strong>Mute</strong>: mute audio (users can turn it on on control "
+"bar)</p>\n"
+"  <p><strong>Start</strong>: start position of video in seconds (This option "
+"works for HTTP pseudostreaming, RTMP streaming, MP3 and YouTube files. It "
+"does not work for regular videos.)</p>\n"
+"  <p><strong>Buffer Length</strong>: number of seconds of video to pre-"
+"download before playing (set this to higher values for users with "
+"slow/unreliable/intermittent internet connections)</p>\n"
+"  <p><strong>Plugins</strong>: add additional functions to the video player. "
+"See:   <a href=\"http://www.longtailvideo.com/addons/plugins\">http://www.lon"
+"gtailvideo.com/addons/plugins</a></p>\n"
+"<p>Activity Module Developed by Matt Bury - <a href=\"http://matbury.com/\" "
+"target=\"_blank\">http://matbury.com/</a></p>\n"
+"<p>JW FLV Player Developed By Jeroen Wijering - <a "
+"href=\"http://www.longtailvideo.com/\" "
+"target=\"_blank\">http://www.longtailvideo.com/</a></p>\n"
+"</div>"
+msgstr ""
+
+#: $string['mplayer_captions']
+msgctxt "$string['mplayer_captions']"
+msgid "Captions"
+msgstr ""
+
+#: $string['mplayer_captions_help']
+msgid ""
+"<div class=\"indent\">\n"
+"  <p><strong>Transparent Background</strong>: If set to true, the plugin "
+"will render a semi-transparent background instead of a black outline.</p>\n"
+"  <p><strong>Captions File</strong>: supports SMIL TimedText.xml and "
+"SubRip.srt*</p>\n"
+"  <p><strong>Font Size</strong>: size of captions text</p>\n"
+"  <p><strong>Show Captions</strong>: show captions by default (users can "
+"switch them on or off)</p>\n"
+"  <p>* Subtitles displayed using the captions plugin are much clearer and "
+"easier to read than embedded captions and you have more control over their "
+"appearance. Here's a useful tool for extracting embedded subtitles from "
+"video files: <a href=\"http://zuggy.wz.cz/\">http://zuggy.wz.cz/</a></p>\n"
+"  <p>More details about this plugin:   <a href=\"http://developer.longtailvid"
+"eo.com/trac/wiki/PluginsCaptions\">http://developer.longtailvideo.com/trac/wi"
+"ki/PluginsCaptions</a></p>\n"
+"  <p>Activity Module Developed by Matt Bury - <a href=\"http://matbury.com/\" "
+"target=\"_blank\">http://matbury.com/</a></p>\n"
+"<p>JW FLV Player Developed By Jeroen Wijering - <a "
+"href=\"http://www.longtailvideo.com/\" "
+"target=\"_blank\">http://www.longtailvideo.com/</a></p>\n"
+"</div>"
+msgstr ""
+
+#: $string['mplayer_configxml']
+msgid "XML configuration"
+msgstr ""
+
+#: $string['mplayer_configxml_help']
+msgid ""
+"<div class=\"indent\">\n"
+"  <p><strong>File</strong>: Configuration XML file that can be used to set "
+"all the parameters on this page.</p>\n"
+"  <p>Particularly useful if you want to have one external file that "
+"determines the parameters of serveral Media Player instances allowing you to "
+"edit them all by editing a single file.</p>\n"
+"  <p>Activity Module Developed by Matt Bury - <a href=\"http://matbury.com/\" "
+"target=\"_blank\">http://matbury.com/</a></p>\n"
+"<p>JW FLV Player Developed By Jeroen Wijering - <a "
+"href=\"http://www.longtailvideo.com/\" "
+"target=\"_blank\">http://www.longtailvideo.com/</a></p>\n"
+"</div>"
+msgstr ""
+
+#: $string['mplayerdate']
+msgid "Added"
+msgstr ""
+
+#: $string['mplayerfiles']
+msgid "Media definition files"
+msgstr ""
+
+#: $string['mplayer_hd']
+msgid "HD"
+msgstr ""
+
+#: $string['mplayer_hd_help']
+msgid ""
+"<div class=\"indent\">\n"
+"  <p><strong>Bitrate</strong>: This only needs to be set for RTMP streaming "
+"to enable automated bandwidth switching</p>\n"
+"  <p><strong>HD Video File</strong>: alternative HD video file</p>\n"
+"  <p><strong>Switch to HD on Full Screen</strong>: when user clicks on full "
+"screen button, stream switches to HD version</p>\n"
+"  <p><strong>Default HD</strong>: play HD video by default</p>\n"
+"  <p>With progressive download, video will restart when switching between HD "
+"and normal streams.</p>\n"
+"  <p>For more information see:   <a href=\"http://developer.longtailvideo.com"
+"/trac/wiki/PluginsHd\">http://developer.longtailvideo.com/trac/wiki/PluginsHd"
+"</a></p>\n"
+"<p>Activity Module Developed by Matt Bury - <a href=\"http://matbury.com/\" "
+"target=\"_blank\">http://matbury.com/</a></p>\n"
+"<p>JW FLV Player Developed By Jeroen Wijering - <a "
+"href=\"http://www.longtailvideo.com/\" "
+"target=\"_blank\">http://www.longtailvideo.com/</a></p>\n"
+"</div>"
+msgstr ""
+
+#: $string['mplayer_infobox']
+msgid "Infobox"
+msgstr ""
+
+#: $string['mplayer_infobox_help']
+msgid ""
+"<div class=\"indent\">\n"
+"  <p><strong>Background Color</strong>: hexidecimal number e.g. "
+"black=000000, white=FFFFFF, red=FF0000, etc.</p>\n"
+"  <p><strong>Position</strong>:</p>\n"
+"  <ul>\n"
+"    <li>none = no Infobox</li>\n"
+"    <li>bottom = under the video window</li>\n"
+"    <li>over = in the video window, is hidden when video plays</li>\n"
+"    <li>top = above the video window</li>\n"
+"  </ul>\n"
+"  <p><strong>Size</strong>: 0 - 999</p>\n"
+"  <p>For more information see:   <a href=\"http://developer.longtailvideo.com"
+"/trac/wiki/PluginsInfobox\">http://developer.longtailvideo.com/trac/wiki/Plug"
+"insInfobox</a></p>\n"
+"<p>Activity Module Developed by Matt Bury - <a href=\"http://matbury.com/\" "
+"target=\"_blank\">http://matbury.com/</a></p>\n"
+"<p>JW FLV Player Developed By Jeroen Wijering - <a "
+"href=\"http://www.longtailvideo.com/\" "
+"target=\"_blank\">http://www.longtailvideo.com/</a></p>\n"
+"</div>"
+msgstr ""
+
+#: $string['mplayerintro']
+msgctxt "$string['mplayerintro']"
+msgid "Description"
+msgstr ""
+
+#: $string['mplayer_livestream']
+msgid "Live Streaming"
+msgstr ""
+
+#: $string['mplayer_livestream_help']
+msgid ""
+"<div class=\"indent\">\n"
+"  <p><strong>RTMP Stream</strong>: name of RTMP stream to check and load</p>\n"
+"  <p><strong>Image</strong>: image to show user when stream ends</p>\n"
+"  <p><strong>Interval</strong>: interval in seconds to check for RTMP "
+"stream</p>\n"
+"  <p><strong>Message</strong>: shown to user while plugin checks for RTMP "
+"stream</p>\n"
+"  <p><strong>Streamer</strong>: RTMP server to pull stream from</p>\n"
+"  <p><strong>Tags</strong>: (advanced only)</p>\n"
+"  <p>For more information see:   <a href=\"http://developer.longtailvideo.com"
+"/trac/wiki/PluginsLivestream\">http://developer.longtailvideo.com/trac/wiki/P"
+"luginsLivestream</a></p>\n"
+"<p>Activity Module Developed by Matt Bury - <a href=\"http://matbury.com/\" "
+"target=\"_blank\">http://matbury.com/</a></p>\n"
+"<p>JW FLV Player Developed By Jeroen Wijering - <a "
+"href=\"http://www.longtailvideo.com/\" "
+"target=\"_blank\">http://www.longtailvideo.com/</a></p>\n"
+"</div>"
+msgstr ""
+
+#: $string['mplayer_logo']
+msgid "Logo"
+msgstr ""
+
+#: $string['mplayer_logobox']
+msgctxt "$string['mplayer_logobox']"
+msgid "Logo Box"
+msgstr ""
+
+#: $string['mplayer_logobox_help']
+msgid ""
+"<div class=\"indent\">\n"
+"  <p><strong>Align</strong>: alignment of logo</p>\n"
+"  <p><strong>Image</strong>: JPG, GIF, PNG or SWF logo to display</p>\n"
+"  <p><strong>Link</strong>: URL to open (new window) when user clicks on "
+"logo</p>\n"
+"  <p><strong>Margin</strong>: area/border around logo</p>\n"
+"  <p><strong>Position</strong>: when set to &quot;over&quot;, the box "
+"background is hidden</p>\n"
+"  <p>For more information see:   <a href=\"http://developer.longtailvideo.com"
+"/trac/wiki/PluginsLogobox\">http://developer.longtailvideo.com/trac/wiki/Plug"
+"insLogobox</a></p>\n"
+"<p>Activity Module Developed by Matt Bury - <a href=\"http://matbury.com/\" "
+"target=\"_blank\">http://matbury.com/</a></p>\n"
+"<p>JW FLV Player Developed By Jeroen Wijering - <a "
+"href=\"http://www.longtailvideo.com/\" "
+"target=\"_blank\">http://www.longtailvideo.com/</a></p>\n"
+"</div>"
+msgstr ""
+
+#: $string['mplayer_logo_help']
+msgid ""
+"<div class=\"indent\">\n"
+"  <p><strong>Image:</strong> JPG, GIF, PNG or SWF logo to display</p>\n"
+"  <p><strong>Link:</strong> opens a web page (new window)</p>\n"
+"  <p><strong>Auto Hide</strong>: logo fades out when there is no mouse "
+"activity</p>\n"
+"  <p><strong>Position</strong>:</p>\n"
+"  <ul>\n"
+"    <li>bottom-left</li>\n"
+"    <li>bottom-right</li>\n"
+"    <li>top-left</li>\n"
+"    <li>top-right</li>\n"
+"  </ul>\n"
+"  <p><strong>Please note:</strong> Logo &amp; logo link only function in "
+"licensed versions of the JW Player. See Logo Box for unlicenced players.</p>\n"
+"  <p>Activity Module Developed by Matt Bury - <a href=\"http://matbury.com/\" "
+"target=\"_blank\">http://matbury.com/</a></p>\n"
+"<p>JW FLV Player Developed By Jeroen Wijering - <a "
+"href=\"http://www.longtailvideo.com/\" "
+"target=\"_blank\">http://www.longtailvideo.com/</a></p>\n"
+"</div>"
+msgstr ""
+
+#: $string['mplayer_metadata']
+msgctxt "$string['mplayer_metadata']"
+msgid "Metadata"
+msgstr ""
+
+#: $string['mplayer_metadata_help']
+msgid ""
+"<div class=\"indent\">\n"
+"  <p><strong>Source</strong>: Author or creator of the video (automatically "
+"inserts current user's name)</p>\n"
+"<p><strong>Added</strong>: Date video was added to Moodle (automatically "
+"inserts today's date)</p>\n"
+"  <p><strong>Title</strong>: Title of video</p>\n"
+"  <p><strong>Media Description</strong>: Short description of video (255 "
+"characters)</p>\n"
+"  <p><strong>Tags</strong>:   keywords associated with the media file "
+"(separated by commas)</p>\n"
+"  <p>To display metadata to users, see Infobox.</p>\n"
+"  <p>Activity Module Developed by Matt Bury - <a href=\"http://matbury.com/\" "
+"target=\"_blank\">http://matbury.com/</a></p>\n"
+"<p>JW FLV Player Developed By Jeroen Wijering - <a "
+"href=\"http://www.longtailvideo.com/\" "
+"target=\"_blank\">http://www.longtailvideo.com/</a></p>\n"
+"</div>"
+msgstr ""
+
+#: $string['mplayer_metaviewer']
+msgid "Metadata Viewer"
+msgstr ""
+
+#: $string['mplayer_metaviewer_help']
+msgid ""
+"<div class=\"indent\">\n"
+"  <p><strong>Position</strong>: </p>\n"
+"  <ul>\n"
+"    <li>none = no metaviewer</li>\n"
+"    <li>over = on top of video window</li>\n"
+"    <li>left</li>\n"
+"    <li>right</li>\n"
+"    <li>top</li>\n"
+"    <li>bottom</li>\n"
+"  </ul>\n"
+"  <p><strong>Size</strong>: 0 - 999</p>\n"
+"  <p>NB: Useful for debugging or examining video file properties but not "
+"much else.</p>\n"
+"<p>Activity Module Developed by Matt Bury - <a href=\"http://matbury.com/\" "
+"target=\"_blank\">http://matbury.com/</a></p>\n"
+"<p>JW FLV Player Developed By Jeroen Wijering - <a "
+"href=\"http://www.longtailvideo.com/\" "
+"target=\"_blank\">http://www.longtailvideo.com/</a></p>\n"
+"</div>"
+msgstr ""
+
+#: $string['mplayername']
+msgid "Name"
+msgstr ""
+
+#: $string['mplayer_playlist']
+msgctxt "$string['mplayer_playlist']"
+msgid "Playlist"
+msgstr ""
+
+#: $string['mplayer_playlist_help']
+msgid ""
+"<div class=\"indent\">\n"
+"  <p><strong>Position</strong>: </p>\n"
+"  <ul>\n"
+"    <li>none = no playlist</li>\n"
+"    <li>bottom = under the video window</li>\n"
+"    <li>right = to the right of the video window</li>\n"
+"    <li>over = playlist covers the screen, disappears when user plays "
+"video</li>\n"
+"  </ul>\n"
+"  <p><strong>Size</strong>: 0 - 9999 pixels</p>\n"
+"  <p><strong>Start Item</strong>: 0 - 99</p>\n"
+"  <p><strong>Repeat</strong>: </p>\n"
+"  <ul>\n"
+"    <li>none = don't repeat</li>\n"
+"    <li>list = play entire playlist once</li>\n"
+"    <li>always = repeat entire playlist</li>\n"
+"    <li>single = repeat selected item on playlist</li>\n"
+"  </ul>\n"
+"  <p><strong>Shuffle</strong>: play playlist items in random order</p>\n"
+"  <p>Activity Module Developed by Matt Bury - <a href=\"http://matbury.com/\" "
+"target=\"_blank\">http://matbury.com/</a></p>\n"
+"<p>JW FLV Player Developed By Jeroen Wijering - <a "
+"href=\"http://www.longtailvideo.com/\" "
+"target=\"_blank\">http://www.longtailvideo.com/</a></p>\n"
+"</div>"
+msgstr ""
+
+#: $string['mplayerrepeat']
+msgid "Repeat"
+msgstr ""
+
+#: $string['mplayerresources']
+msgctxt "$string['mplayerresources']"
+msgid "Media Resources"
+msgstr ""
+
+#: $string['mplayer_resources']
+msgctxt "$string['mplayer_resources']"
+msgid "Media Resources"
+msgstr ""
+
+#: $string['mplayer_resources_help']
+msgid ""
+"<div class=\"indent\">\n"
+"  <ul>\n"
+"    <li>Manage all your media resource files in this file manager. </li>\n"
+"    <li>Video file types can be an FLV, F4V, MOV, MP4 or any file type "
+"supported by Flash Player. </li>\n"
+"    <li>If the video file is on a different domain to your Moodle, there "
+"must be a crossdomain.xml policy file on that domain. i.e. If your site URL "
+"is &quot;http://mymoodle.com/&quot;, and the video file URL is "
+"&quot;http://someotherserver.com/videos/sample_video.flv&quot;, then there "
+"must be a crossdomain.xml file at "
+"&quot;http://someotherserver.com/crossdomain.xml&quot;. Some video hosting "
+"sites such as YouTube.com already have a &quot;catchall&quot; "
+"crossdomain.xml policy file installed, allowing you to consume media from "
+"them without any configuration being necessary. For further details, see: <a "
+"href=\"http://kb2.adobe.com/cps/142/tn_14213.html\">http://kb2.adobe.com/cps/"
+"142/tn_14213.html</a></li>\n"
+"    <li>You can also link to an XML playlist here. For more information "
+"about playlists, see:   <a href=\"http://code.google.com/p/moodle-flv-"
+"player/wiki/UsingXMLPlaylists\">http://code.google.com/p/moodle-flv-"
+"player/wiki/UsingXMLPlaylists</a></li>\n"
+"  </ul>\n"
+"  <p><strong>Type:</strong> The type of media and type of delivery to be "
+"used for the Video URL provided. The settings are:</p>\n"
+"  <ul>\n"
+"    <li><strong>default</strong> - a URL link to a video file available over "
+"the Internet. Must start with http://...</li>\n"
+"    <li><strong>Sound</strong> - a link to an MP3 or AAC file in the Moodle "
+"course files directory</li>\n"
+"    <li><strong>Image</strong> - a link to an image file in the Moodle "
+"course files directory</li>\n"
+"    <li><strong>Video</strong> - a link to a video file in the Moodle course "
+"files directory</li>\n"
+"    <li><strong>YouTube</strong> - a URL link to a video file hosted on "
+"YouTube</li>\n"
+"    <li><strong>Camera</strong> -  (advanced) accesses the user's web camera "
+"if present and turned on</li>\n"
+"    <li><strong>HTTP Streaming</strong> - (advanced) consume media streams "
+"from an HTTP media server</li>\n"
+"    <li><strong>Lighttpd Streaming</strong> - (advanced) consume media "
+"streams from a Lighttpd media server</li>\n"
+"    <li><strong>RTMP Streaming</strong> - (advanced) consume media streams "
+"from an RTMP media server such Red5, Flash Media Server or Wowza. Please "
+"note: Do not include file extensions when using RTMP, i.e. "
+"&quot;myvideofile&quot; not &quot;myvideofile.flv&quot;.</li>\n"
+"  </ul>\n"
+"  <p><strong>Streamer:</strong> (advanced) the gateway of the streaming "
+"server to be used (requires configuration by a developer). More than one "
+"streaming server configuration is possible.</p>\n"
+"  <p>&nbsp;</p>\n"
+"  <p>Activity Module originally developed by Matt Bury - <a "
+"href=\"http://matbury.com/\" target=\"_blank\">http://matbury.com/</a></p>\n"
+"<p>JW FLV Player Developed By Jeroen Wijering - <a "
+"href=\"http://www.longtailvideo.com/\" "
+"target=\"_blank\">http://www.longtailvideo.com/</a></p>\n"
+"</div>"
+msgstr ""
+
+#: $string['mplayer_searchbar']
+msgctxt "$string['mplayer_searchbar']"
+msgid "Search Bar"
+msgstr ""
+
+#: $string['mplayer_searchbar_help']
+msgid ""
+"<div class=\"indent\">\n"
+"  <p><strong>Color</strong>: color of search button (hexidecimal number)</p>\n"
+"  <p><strong>Label</strong>: text on search button</p>\n"
+"  <p><strong>Position</strong>:</p>\n"
+"  <ul>\n"
+"    <li>none = no search bar</li>\n"
+"    <li>top = above video window</li>\n"
+"    <li>bottom = under video window</li>\n"
+"  </ul>\n"
+"  <p><strong>Script</strong>: default is YouTube.com API. Custom search "
+"scripts can also be used. Contact your IT support for more details.</p>\n"
+"  <p>NB: Requires playlist to display results. If no playlist parameters are "
+"set, it creates a default playlist.</p>\n"
+"  <p>For more information see:   <a href=\"http://developer.longtailvideo.com"
+"/trac/wiki/PluginsSearchbar\">http://developer.longtailvideo.com/trac/wiki/Pl"
+"uginsSearchbar</a></p>\n"
+"<p>Activity Module Developed by Matt Bury - <a href=\"http://matbury.com/\" "
+"target=\"_blank\">http://matbury.com/</a></p>\n"
+"<p>JW FLV Player Developed By Jeroen Wijering - <a "
+"href=\"http://www.longtailvideo.com/\" "
+"target=\"_blank\">http://www.longtailvideo.com/</a></p>\n"
+"</div>"
+msgstr ""
+
+#: $string['mplayer_snapshot']
+msgctxt "$string['mplayer_snapshot']"
+msgid "Snapshot"
+msgstr ""
+
+#: $string['mplayer_snapshot_help']
+msgid ""
+"<div class=\"indent\">\n"
+"  <p><strong>WARNING! Experimental plugin which is not secure. This should "
+"not be deployed on a publicly accessible server.</strong></p>\n"
+"  <p><strong>Bitmap</strong>: either sends bitmap image to server "
+"(implemented) or sends position of video frame to server for server-side "
+"snapshot (not implemented)</p>\n"
+"  <p><strong>Script</strong>: script to receive and write snapshots on "
+"server</p>\n"
+"  <p>For more information see:   <a href=\"http://developer.longtailvideo.com"
+"/trac/wiki/PluginsSnapshot\">http://developer.longtailvideo.com/trac/wiki/Plu"
+"ginsSnapshot</a></p>\n"
+"  <p>Activity Module Developed by Matt Bury - <a href=\"http://matbury.com/\" "
+"target=\"_blank\">http://matbury.com/</a></p>\n"
+"<p>JW FLV Player Developed By Jeroen Wijering - <a "
+"href=\"http://www.longtailvideo.com/\" "
+"target=\"_blank\">http://www.longtailvideo.com/</a></p>\n"
+"</div>"
+msgstr ""
+
+#: $string['mplayerstart']
+msgid "Start (position in seconds)"
+msgstr ""
+
+#: $string['mplayer_technology']
+msgctxt "$string['mplayer_technology']"
+msgid "Technology"
+msgstr ""
+
+#: $string['mplayer_technology_help']
+msgid ""
+"<p>The MPlayer supports both Flowplayer HTML5 and JW player technology. "
+"Moodle administrator may choose to force the technology for the whole "
+"platform,\n"
+"or let the teacher choose which to use.</p>\n"
+"<p>When changing the technology, do a first save of the settings and edit "
+"the settings back to load the alternate tecnhology parameters.</p>"
+msgstr ""
+
+#: $string['mplayer_track']
+msgid "Subtitles"
+msgstr ""
+
+#: $string['mplayer_track_help']
+msgid ""
+"Admits a VTT file which is a simply text formatted file that gives subtitles\n"
+"mapped to timestamps.\n"
+"\n"
+"----\n"
+"WEBVTT FILE\n"
+"\n"
+"1\n"
+"00:00:01.000 --> 00:00:04.000\n"
+"The first subtitle from 1 seconds to 4 seconds\n"
+"This is a second line\n"
+"And a third one\n"
+"\n"
+"2\n"
+"00:00:05.000 --> 00:00:06.000\n"
+"<b>Bold</b>, <i>italic</i> and <u>underlines</u> are supported\n"
+"\n"
+"...\n"
+"----\n"
+"\n"
+"Refer to http://www.delphiki.com/webvtt/ for a full format specification."
+msgstr ""
+
+#: $string['mplayer:view']
+msgid "View"
+msgstr ""
+
+#: $string['mute']
+msgid "Mute"
+msgstr ""
+
+#: $string['nativefullscreen']
+msgid "Native fullscreen controls (flowplayer)"
+msgstr ""
+
+#: $string['nohtml5']
+msgid "<h2>HTML5 video is not supported by your browser.</h2>"
+msgstr ""
+
+#: $string['nomplayers']
+msgid "There are no mplayers in this course"
+msgstr ""
+
+#: $string['none']
+msgid "None"
+msgstr ""
+
+#: $string['nosplash']
+msgid "Disabled"
+msgstr ""
+
+#: $string['notes']
+msgid "Notes"
+msgstr ""
+
+#: $string['over']
+msgid "Over"
+msgstr ""
+
+#: $string['player']
+msgid "Player"
+msgstr ""
+
+#: $string['playlist']
+msgctxt "$string['playlist']"
+msgid "Position"
+msgstr ""
+
+#: $string['playlistfile']
+msgid "Play list files"
+msgstr ""
+
+#: $string['playlistlocalpath']
+msgid "Local path url template"
+msgstr ""
+
+#: $string['playlists']
+msgctxt "$string['playlists']"
+msgid "Playlist"
+msgstr ""
+
+#: $string['playlistsize']
+msgid "Size (pixels)"
+msgstr ""
+
+#: $string['playliststyle']
+msgid "Layout"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Media Player Administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Media Player"
+msgstr ""
+
+#: $string['plugins']
+msgid "Plugins"
+msgstr ""
+
+#: $string['quality']
+msgid "Quality"
+msgstr ""
+
+#: $string['resizing']
+msgid "Resizing"
+msgstr ""
+
+#: $string['resumefromcue']
+msgid "You can now resume your video."
+msgstr ""
+
+#: $string['right']
+msgid "At right"
+msgstr ""
+
+#: $string['screencolor']
+msgid "Screen Color"
+msgstr ""
+
+#: $string['searchbar']
+msgctxt "$string['searchbar']"
+msgid "Search Bar"
+msgstr ""
+
+#: $string['searchbarcolor']
+msgid "Color"
+msgstr ""
+
+#: $string['searchbarlabel']
+msgid "Label"
+msgstr ""
+
+#: $string['searchbarposition']
+msgctxt "$string['searchbarposition']"
+msgid "Position"
+msgstr ""
+
+#: $string['searchbarscript']
+msgctxt "$string['searchbarscript']"
+msgid "Script"
+msgstr ""
+
+#: $string['showdebugcode']
+msgid "Show debug code"
+msgstr ""
+
+#: $string['shuffle']
+msgid "Shuffle"
+msgstr ""
+
+#: $string['skin']
+msgid "Skin"
+msgstr ""
+
+#: $string['smoothing']
+msgid "Smoothing"
+msgstr ""
+
+#: $string['snapshot']
+msgctxt "$string['snapshot']"
+msgid "Snapshot"
+msgstr ""
+
+#: $string['snapshotbitmap']
+msgid "Bitmap"
+msgstr ""
+
+#: $string['snapshotscript']
+msgctxt "$string['snapshotscript']"
+msgid "Script"
+msgstr ""
+
+#: $string['splashenabled']
+msgid "Enabled"
+msgstr ""
+
+#: $string['splashmode']
+msgid "Splash mode"
+msgstr ""
+
+#: $string['streamer']
+msgctxt "$string['streamer']"
+msgid "Streamer"
+msgstr ""
+
+#: $string['stretching']
+msgid "Stretching"
+msgstr ""
+
+#: $string['summary']
+msgctxt "$string['summary']"
+msgid "Description"
+msgstr ""
+
+#: $string['tags']
+msgctxt "$string['tags']"
+msgid "Tags"
+msgstr ""
+
+#: $string['technology']
+msgctxt "$string['technology']"
+msgid "Technology"
+msgstr ""
+
+#: $string['thumbs']
+msgid "Thumbs"
+msgstr ""
+
+#: $string['title']
+msgid "Title"
+msgstr ""
+
+#: $string['tracecall']
+msgid "Trace Call (debugging)"
+msgstr ""
+
+#: $string['type']
+msgid "Type"
+msgstr ""
+
+#: $string['updatetechnology']
+msgid "Change the player technology"
+msgstr ""
+
+#: $string['uploadtomediapool']
+msgid "Upload to media pool"
+msgstr ""
+
+#: $string['video']
+msgid "Internal video(s)"
+msgstr ""
+
+#: $string['videomedia']
+msgid "Media Video"
+msgstr ""
+
+#: $string['videomplayer']
+msgid "Video"
+msgstr ""
+
+#: $string['volume']
+msgctxt "$string['volume']"
+msgid "Volume"
+msgstr ""
+
+#: $string['width']
+msgid "Width"
+msgstr ""
+
+#: $string['wowzaapplication']
+msgid "Streaming application"
+msgstr ""
+
+#: $string['wowzacontentdir']
+msgid "Content Directory"
+msgstr ""
+
+#: $string['wowzaserver']
+msgid "RTMP Streaming source"
+msgstr ""
+
+#: $string['xmlplaylist']
+msgid "XML Playlist"
+msgstr ""
+
+#: $string['youtube']
+msgid "Youtube"
+msgstr ""

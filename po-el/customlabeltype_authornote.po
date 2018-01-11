@@ -1,0 +1,91 @@
+#. extracted from lang/en/customlabeltype_authornote.php, lang/el/customlabeltype_authornote.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:14+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'customlabeltype_authornote', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   customlabeltype_authornote
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['authornote']
+msgctxt "$string['authornote']"
+msgid "Authoring note"
+msgstr ""
+
+#: $string['authornote:addinstance']
+msgid "Can add an instance"
+msgstr "Προσθήκη στιγμιότυπου"
+
+#: $string['authornote:view']
+msgid "Can view the content"
+msgstr ""
+
+#: $string['configtypename']
+msgid "Enable subtype Authoring note"
+msgstr ""
+
+#: $string['family']
+msgid "meta"
+msgstr ""
+
+#: $string['initiallyvisible']
+msgid "Initially visible"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Course element : Authoring note"
+msgstr ""
+
+#: $string['template']
+msgid ""
+"<div class=\"custombox-control authornote\"><a "
+"href=\"javascript:togglecustom('<%%customid%%>', '<%%wwwroot%%>')\"><img "
+"id=\"customctl<%%customid%%>\" src=\"<%%initialcontrolimage%%>\" /></a>\n"
+"<span class=\"custombox-header-caption authornote\"><b>Authoring "
+"note</b></span></div>\n"
+"<div class=\"custombox-content authornote\" id=\"custom<%%customid%%>\">\n"
+"<p class=\"custombox-helper authornote\"><b>(This note is only visible for "
+"course authors)</b></p>\n"
+"<table width=\"100%\" class=\"custombox-authornote\">\n"
+"    <tr valign=\"top\">\n"
+"        <td class=\"custombox-thumb authornote\" style=\"background-image : "
+"url(<%%icon%%>);\" width=\"2%\"></td>\n"
+"        <td class=\"custombox-content authornote\"><%%authornote%%></td>\n"
+"    </tr>\n"
+"</table>\n"
+"</div>\n"
+"<script type=\"text/javascript\">\n"
+"setupcustom('<%%customid%%>', '<%%initiallyvisible%%>', '<%%wwwroot%%>');\n"
+"</script>"
+msgstr ""
+
+#: $string['typename']
+msgctxt "$string['typename']"
+msgid "Authoring note"
+msgstr ""

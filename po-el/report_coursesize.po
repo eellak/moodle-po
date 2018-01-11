@@ -1,0 +1,127 @@
+#. extracted from lang/en/report_coursesize.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'report_coursesize', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   report_coursesize
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['backupsize']
+msgid "Backup size"
+msgstr ""
+
+#: $string['catsystembackupuse']
+msgid "System and category backup use is {$a}."
+msgstr ""
+
+#: $string['catsystemuse']
+msgid "System and category use outside users and courses is {$a}."
+msgstr ""
+
+#: $string['coursebackupbytes']
+msgid "{$a->backupbytes} bytes used for backup by course {$a->shortname}"
+msgstr ""
+
+#: $string['coursebytes']
+msgid "{$a->bytes} bytes used by course {$a->shortname}"
+msgstr ""
+
+#: $string['coursereport']
+msgid ""
+"Summary of plugin types - NOTE this may be lower than the main course "
+"listing and is probably more accurate."
+msgstr ""
+
+#: $string['coursesize']
+msgctxt "$string['coursesize']"
+msgid "Course size"
+msgstr ""
+
+#: $string['coursesize_desc']
+msgid ""
+"<p>This report only provides approximate values, if a file is used multiple "
+"times within a course or in multiple courses the report counts each instance "
+"even though Moodle only stores one physical version on disk.</p>"
+msgstr ""
+
+#: $string['coursesize:view']
+msgid "View course size report"
+msgstr ""
+
+#: $string['coursesummary']
+msgid "(view stats)"
+msgstr ""
+
+#: $string['diskusage']
+msgid "Total"
+msgstr ""
+
+#: $string['emptycourseshidden']
+msgid ""
+"Courses that do not use any file storage have been excluded from this "
+"report."
+msgstr ""
+
+#: $string['nouserfiles']
+msgid "No user files listed."
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Course size"
+msgstr ""
+
+#: $string['sharedusage']
+msgid "Shared Usage"
+msgstr ""
+
+#: $string['sharedusagecourse']
+msgid "Approx {$a} is shared with other courses."
+msgstr ""
+
+#: $string['sitefilesusage']
+msgid "File usage report"
+msgstr ""
+
+#: $string['sizepermitted']
+msgid "(Permitted usage {$a}MB)"
+msgstr ""
+
+#: $string['sizerecorded']
+msgid "(Recorded {$a})"
+msgstr ""
+
+#: $string['totalsitedata']
+msgid "Total sitedata usage: {$a}"
+msgstr ""
+
+#: $string['userstopnum']
+msgid "Users (top {$a})"
+msgstr ""

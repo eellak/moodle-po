@@ -1,0 +1,625 @@
+#. extracted from lang/en/local_fm.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'local_fm', language 'en', branch 'MOODLE_23_STABLE'
+#.  *
+#.  * @package   local_fm
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['actionwithselected']
+msgid "Action with selected"
+msgstr ""
+
+#: $string['actionwithselected_help']
+msgid ""
+"<p>The selected answers are marked with a checked checkbox in the rightmost "
+"column of the answers table.\n"
+"An action performed on selected answers will be apply to all selected, even "
+"those not visible on the\n"
+"presently displayed page.</p>\n"
+"\n"
+"<p><b>Assign tag</b> assigns the selected tag to all selected answers or in "
+"the case when no\n"
+"tag is selected, the action removes the current tag assignment.</p>\n"
+"\n"
+"<p><b>Assign grade</b> assigns the grade set in the input field next to the "
+"\"Assign grade\" button.\n"
+"However, if the grade set exceeds the maximum allowable points indicated to "
+"the right of the field,\n"
+"zero will be assigned.</p>"
+msgstr ""
+
+#: $string['addcategory']
+msgid "Add category"
+msgstr ""
+
+#: $string['addfeedback']
+msgid "Add feedback"
+msgstr ""
+
+#: $string['addfilter']
+msgid "Add filter"
+msgstr ""
+
+#: $string['assignedby']
+msgid "Assigned by: {$a}"
+msgstr ""
+
+#: $string['category']
+msgid "Feedback category"
+msgstr ""
+
+#: $string['categoryinfo']
+msgid "Description"
+msgstr ""
+
+#: $string['categoryname']
+msgid "Category name"
+msgstr ""
+
+#: $string['clearallconfirm']
+msgid ""
+"All changes not yet saved on this page will be deleted. Are you sure you "
+"want to continue?"
+msgstr ""
+
+#: $string['coursereport']
+msgctxt "$string['coursereport']"
+msgid "Quiz Email Feedback Course Report"
+msgstr ""
+
+#: $string['coursereport_help']
+msgid ""
+"<h2>Quiz attempts</h2>\n"
+"\n"
+"<p>Quizzes are listed across the top of the report as column headers.  Click "
+"on\n"
+"the quiz name to view the results summary for the quiz.  The grade for each "
+"student attempt\n"
+"is shown on a separate line in the corresponding cell in the quiz's column. "
+" Click on the\n"
+"grade to view the student's attempt.  Your feedback in response to the "
+"student's attempt is\n"
+"displayed on the attempt review page.</p>\n"
+"\n"
+"<h2>Email feedback message date</h2>\n"
+"\n"
+"<p>If a feedback message has been sent to the student for an attempt, the "
+"date on which it was\n"
+"sent is noted next to the grade for that attempt.</p>\n"
+"\n"
+"<h2>Link to the gradebook</h2>\n"
+"\n"
+"<p>The column to the right of the student name column contains links to the "
+"student's grade book\n"
+"summary page.</p>"
+msgstr ""
+
+#: $string['coursereportname']
+msgctxt "$string['coursereportname']"
+msgid "Quiz Email Feedback Course Report"
+msgstr ""
+
+#: $string['coursereportpreference']
+msgid "Report Preference"
+msgstr ""
+
+#: $string['coursereportshorttitle']
+msgid "Course Report"
+msgstr ""
+
+#: $string['createdby']
+msgid "Created by"
+msgstr ""
+
+#: $string['customfeedback']
+msgctxt "$string['customfeedback']"
+msgid "Individual feedback"
+msgstr ""
+
+#: $string['editcategories']
+msgid "Edit categories"
+msgstr ""
+
+#: $string['editcategory']
+msgid "Edit category"
+msgstr ""
+
+#: $string['editfeedback']
+msgid "Edit feedback"
+msgstr ""
+
+#: $string['editfilter']
+msgid "Edit filter"
+msgstr ""
+
+#: $string['feedback']
+msgid "Feedback"
+msgstr ""
+
+#: $string['feedbackdate']
+msgid "feedback date"
+msgstr ""
+
+#: $string['feedbackname']
+msgid "Feedback name"
+msgstr ""
+
+#: $string['feedbackreport']
+msgctxt "$string['feedbackreport']"
+msgid "Feedback report"
+msgstr ""
+
+#: $string['feedbackreport_help']
+msgid ""
+"<p>An instructor's feedback report displays a summary of feedback provided\n"
+"to students.  The report includes any question for which feedback has been\n"
+"provided.  The question is displayed followed by any feedback marked to be "
+"shown.\n"
+"To mark feedback to be shown, check the \"show\" checkbox that appears to the\n"
+"left of the feedback editing box.  By default feedback is not shown in the\n"
+"report.</p>\n"
+"<p>By default, feedback messages are displayed in descending order of how "
+"frequently they\n"
+"were assigned to student responses.  This order can be\n"
+"overridden by setting the order in the \"ord\" (order) field that appears to "
+"the\n"
+"left of the feedback editing box.</p>\n"
+"\n"
+"<p>To show the report to students in a block on the course home page, check\n"
+"the \"Show reports in reports block\" checkbox.  Until this checkbox is "
+"checked,\n"
+"the report will not be shown to students.  This allows you to edit the "
+"report\n"
+"before releasing it to students.  The block on the course home page where "
+"instructors\n"
+"edit the email feedback template is used to show links to the feedback "
+"reports\n"
+"to students.  The block is labeled \"Quiz Feedback Reports\" when viewed by a\n"
+"student.  The block will only be displayed to students when there is at "
+"least one report available.\n"
+"This block is labeled \"Feedback Manager\" when viewed by instructors.</p>\n"
+"\n"
+"<p>Typical student responses can be shown in the report either before or "
+"after\n"
+"the instructor's feedback.  If students were instructed to ask a question as "
+"their\n"
+"open-ended response, then\n"
+"placing the student above the feedback makes the feedback appear as an "
+"answer\n"
+"to the question.</p>\n"
+"\n"
+"<p>Feedback assignment counts can be displayed in the report.</p>\n"
+"\n"
+"<p>To create a feedback report, press the \"Generate report\" button. The\n"
+"report can be re-generated if feedback message have been edited or their "
+"settings\n"
+"changed.  A template, which can be edited on the same page as the email\n"
+"template, is used when generating the report.</p>\n"
+"\n"
+"<p>Once a report has been created, it can be edited and previewed.</p>\n"
+"\n"
+"<p><b>In addition to reports displayed in the \"Quiz Feedback Reports\" block, "
+"feedback\n"
+"reports can be generated and displayed as a course resource.</b>  Turn "
+"editing on\n"
+"on the course home page, then select \"Quiz feedback report\" under the\n"
+"\"Add a resource\" dropdown box.  This allows instructors to create a number "
+"of\n"
+"specialized reports for each quiz.</p>"
+msgstr ""
+
+#: $string['feedbacktext']
+msgid "Feedback text"
+msgstr ""
+
+#: $string['filter_answer']
+msgid "Question answer"
+msgstr ""
+
+#: $string['filter_feedback']
+msgid "Assigned feedback"
+msgstr ""
+
+#: $string['filter_feedback_custom']
+msgctxt "$string['filter_feedback_custom']"
+msgid "Individual feedback"
+msgstr ""
+
+#: $string['filter_grade']
+msgid "Question grade"
+msgstr ""
+
+#: $string['filter_group']
+msgid "Group membership"
+msgstr ""
+
+#: $string['filter_message_count']
+msgid "User message count"
+msgstr ""
+
+#: $string['filter_message_last']
+msgid "Last user message date"
+msgstr ""
+
+#: $string['fm:componentname']
+msgid "Feedback manager"
+msgstr ""
+
+#: $string['fm:manage']
+msgid "Manage all feedback"
+msgstr ""
+
+#: $string['fm:managefeedback']
+msgid "Manage other feedback"
+msgstr ""
+
+#: $string['fm:manageownfeedback']
+msgid "Manage own feedback"
+msgstr ""
+
+#: $string['fm:messageconfig']
+msgid "Configure feedback messages"
+msgstr ""
+
+#: $string['fm:viewreports']
+msgid "View feedback reports"
+msgstr ""
+
+#: $string['fm:viewstudentnames']
+msgid "See student names while grading / assigning feedback"
+msgstr ""
+
+#: $string['gradebooklinktitle']
+msgid "Click to view $a for this student"
+msgstr ""
+
+#: $string['gradedby']
+msgid "Graded by Feedback Manager"
+msgstr ""
+
+#: $string['includequestion']
+msgid "Include question in feedback block"
+msgstr ""
+
+#: $string['instructorfeedback']
+msgid "Instructor's feedback"
+msgstr ""
+
+#: $string['instructorfeedback_help']
+msgid ""
+"<p>Each feedback message has five fields.</p>\n"
+"<ol>\n"
+"    <li>The tag field contains a short name that will appear in then \"Tag\"\n"
+"    dropdown box to the right of each student's response.</li>\n"
+"    <li>The \"report?\" checkbox is used to mark the feedback for display in\n"
+"    a feedback report.</li>\n"
+"    <li>The \"order\" field is used to override the default order of feedback\n"
+"        shown in a feedback report.  By default, feedback are displayed by\n"
+"        descending frequency of assignment to student responses.  Enter "
+"integer\n"
+"    values in the \"ord\" field to set the order explicitly.</li>\n"
+"    <li>The feedback field is where the feedback is edited.</li>\n"
+"    <li>The checkbox to the right of the feedback field is used in "
+"conjunction\n"
+"    with the \"With checked feedback\" actions.</li>\n"
+"</ol>"
+msgstr ""
+
+#: $string['invalidassignsubmission']
+msgid ""
+"Invalid submission data. Ensure grades are within range and operations are "
+"allowed."
+msgstr ""
+
+#: $string['invalidinput']
+msgid "Invalid input given"
+msgstr ""
+
+#: $string['message']
+msgid "Message"
+msgstr ""
+
+#: $string['messagecount']
+msgid "#"
+msgstr ""
+
+#: $string['messageexample']
+msgid ""
+"<p>Dear \\$studentfirstname,<br/><br/>\n"
+"Here is feedback for the recent quiz, \\$quizname, in \\$courselongname: "
+"<br/><br/>\n"
+"\\$feedback<br/><br/>\n"
+"You can view the graded quiz here: \\$linktoquiz<br/><br/>\n"
+"Please contact me if you have questions.<br/><br/>\n"
+"\\$userfirstname \\$userlastname"
+msgstr ""
+
+#: $string['messageoptions']
+msgid "Message options"
+msgstr ""
+
+#: $string['messageprovider:question_feedback']
+msgid "Question feedback"
+msgstr ""
+
+#: $string['messagesubject']
+msgid "Message subject"
+msgstr ""
+
+#: $string['modifiedby']
+msgid "Modified by"
+msgstr ""
+
+#: $string['namecantbeblank']
+msgid "Name cannot be blank"
+msgstr ""
+
+#: $string['nomessagepermissions']
+msgid "You do not have permission to edit the email feedback template."
+msgstr ""
+
+#: $string['notypical']
+msgid "Not typical"
+msgstr ""
+
+#: $string['notypical_help']
+msgid "Click to mark as typical"
+msgstr ""
+
+#: $string['noviewreportpermissions']
+msgid "You do not have permission to view this quiz feedback report."
+msgstr ""
+
+#: $string['parentcategory']
+msgid "Parent category"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Feedback Manager"
+msgstr ""
+
+#: $string['preferencessave']
+msgid "Save preference"
+msgstr ""
+
+#: $string['question']
+msgid "Question"
+msgstr ""
+
+#: $string['quizheaderlinktitle']
+msgid "Click to review this quiz"
+msgstr ""
+
+#: $string['quizreviewlinktitle']
+msgid "Click to review the quiz attempt for this student"
+msgstr ""
+
+#: $string['report']
+msgctxt "$string['report']"
+msgid "Feedback report"
+msgstr ""
+
+#: $string['reporttext']
+msgid "Report text"
+msgstr ""
+
+#: $string['reportvariables']
+msgid ""
+"Include the following variable somewhere in your report template to mark "
+"where the feedback block should be placed.\n"
+"<ul><li>\\$feedback</li></ul>"
+msgstr ""
+
+#: $string['resourceinstructions']
+msgid ""
+"A quiz feedback resource summarizes quiz feedback developed in the Feedback "
+"Manager.  The resource can be edited to\n"
+"suite a particular purpose.<br/><br/>\n"
+"\n"
+"To generate the quiz feedback resource for the first time or to regenerate "
+"it, select a quiz below and select the desired generation options.\n"
+"Typical student responses can be included before or after feedback.  "
+"Feedback counts, i.e. the number of times a feedback was assiged, can be "
+"displayed or not.\n"
+"Save this page using one of the save buttons below to generate the feedback "
+"resource.  You can then edit this resource.  Regenerating the resource will "
+"overwrite your edits.  So,\n"
+"to save your edits to the existing resource be sure not to select a quiz "
+"from the dropdown list below.<br/><br/>\n"
+"A quiz feedback resource differs from the quiz feedback report in two small "
+"details.  First, a resource, when visible, is always visible to students.  "
+"Second, a resource cannot be\n"
+"configured to display the points assigned to the typical student answer.\n"
+"<br/>"
+msgstr ""
+
+#: $string['save']
+msgid "Save"
+msgstr ""
+
+#: $string['saveallconfirm']
+msgid ""
+"All changes not yet submitted on this page will be saved. Are you sure you "
+"want to continue?"
+msgstr ""
+
+#: $string['savechanges']
+msgid "Save changes"
+msgstr ""
+
+#: $string['selectfilter']
+msgid "Selecting and/or filtering answers"
+msgstr ""
+
+#: $string['selectfilter_help']
+msgid ""
+"<p>Selected answers will be marked with a checked checkbox in the rightmost "
+"column of\n"
+"the answers table.  Filtering answers causes only those answers that satisfy "
+"the filter\n"
+"criteria to be displayed.  When a filter is active, the filter criteria are "
+"shown and\n"
+"any actions, including selecting using criteria, will be applied only to "
+"answers that\n"
+"satisfy the filter.</p>\n"
+"\n"
+"<p><b>AND</b> is implied when more that one criterion are set.</p>\n"
+"\n"
+"<p>Additions of filter criteria will restrict the filter further for each "
+"filter operation;\n"
+"however, changing a filter criterion replaces the previous setting for that "
+"criterion in the\n"
+"filter.</p>\n"
+"\n"
+"<p>If changes are made to data while a filter is in effect that cause the "
+"record to no longer\n"
+"satisfy the filter, the record will be excluded from those displayed "
+"<b>and</b> if that\n"
+"record had been selected (checked), it will be deselected.  When filtering "
+"is not active, changes\n"
+"in the data have no effect on the selected state of a record.</p>\n"
+"\n"
+"<p><strong>When filtering on the student's answer or instructor's notes, the "
+"boolean operators\n"
+"\"and\" \"or\" and \"not\" may be used. The operators themselves will be treated "
+"as words if they are\n"
+"enclosed in double quotes.  Parentheses may be used to nest conditions. To "
+"have multple words\n"
+"treated as a phrase, enclose the whole phrase in double quotes.</strong></p>\n"
+"\n"
+"<p>By default, successive filtering operations will operate on records that "
+"matched previous\n"
+"filtering operations, thus refining the filter.  Unchecking the \"Refine "
+"filter\" checkbox will cause\n"
+"the filtering operation to be applied to all records (except those excluded "
+"because an message for\n"
+"them has been sent.)</p>\n"
+"\n"
+"<p>All filters and selections are cleared when a new question is selected "
+"from the questions list\n"
+"drop down box and when a \"Separate groups\" selection is made (available when "
+"groups are used in the course).</p>"
+msgstr ""
+
+#: $string['selectquestion']
+msgid "Question:"
+msgstr ""
+
+#: $string['sendemailorpostcomments']
+msgid "Send messages or post comments"
+msgstr ""
+
+#: $string['sendemailorpostcomments_help']
+msgid ""
+"<p>Clicking the \"Send email\" button does three things:</p>\n"
+"<ol>\n"
+"    <li>Generates the feedback message from the tags assigned and saves it "
+"to the\n"
+"    comments field for the student's answer.</li>\n"
+"    <li>Saves the grade assigned to the answer to the gradebook.</li>\n"
+"    <li>Sends an email message containing the feedback messages to the "
+"student.</li>\n"
+"</ol>\n"
+"<p>Clicking on the \"Post comments\" button does the first two of these "
+"without sending\n"
+"sending the email message.</p>"
+msgstr ""
+
+#: $string['sentby']
+msgid "Sent by: {$a}"
+msgstr ""
+
+#: $string['shareusers']
+msgid "Users with sharing"
+msgstr ""
+
+#: $string['shareusersmatching']
+msgid "Users with sharing matching '{$a}\\"
+msgstr ""
+
+#: $string['shareuserspotential']
+msgid "Potential share users"
+msgstr ""
+
+#: $string['shareuserspotentialmatching']
+msgid "Potential share users matching '{$a}\\"
+msgstr ""
+
+#: $string['sharing']
+msgid "Sharing"
+msgstr ""
+
+#: $string['sharing_help']
+msgid ""
+"Configure sharing for this feedback:\n"
+"<p><ul>\n"
+"<li> No general sharing (Default) - No general sharing in this context </li>\n"
+"<li> Shared - Share this feedback with all feedback managers in this context "
+"</li>\n"
+"<li> Private - Do not allow any sharing of this feedback </li>\n"
+"</ul></p>"
+msgstr ""
+
+#: $string['template']
+msgid "Template"
+msgstr ""
+
+#: $string['templateconfigure']
+msgid "Configure email template for $a"
+msgstr ""
+
+#: $string['templatesaved']
+msgid "Template saved"
+msgstr ""
+
+#: $string['this_answer_emaildate']
+msgid "This msg sent"
+msgstr ""
+
+#: $string['typical']
+msgid "Typical"
+msgstr ""
+
+#: $string['typical_help']
+msgid "Click to mark as not typical"
+msgstr ""
+
+#: $string['unknowajaxaction']
+msgid "Unknown AJAX action"
+msgstr ""
+
+#: $string['use']
+msgid "Use"
+msgstr ""
+
+#: $string['userinfo']
+msgid "User information"
+msgstr ""

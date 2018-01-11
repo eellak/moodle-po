@@ -1,0 +1,4257 @@
+#. extracted from lang/en/quiz.php, lang/el/quiz.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'quiz', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   quiz
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['accessnoticesheader']
+msgid ""
+"You can preview this quiz, but if this were a real attempt, you would be "
+"blocked because:"
+msgstr ""
+"Μπορείτε να προεπισκοπήσετε αυτό το κουίζ αλλά αν αυτή ήταν μια κανονική "
+"προσπάθεια δε θα είχατε αυτή τη δυνατότητα επειδή:"
+
+#: $string['action']
+msgid "Action"
+msgstr "Ενέργεια"
+
+#: $string['activityoverview']
+msgid "You have quizzes that are due"
+msgstr "Έχετε κουίζ που είναι μέχρι"
+
+#: $string['adaptive']
+msgid "Adaptive mode"
+msgstr "Κατάσταση προσαρμογής"
+
+#: $string['adaptive_help']
+msgid ""
+"If enabled, multiple responses to a question are allowed within the same "
+"attempt at the quiz. So for example if a response is marked as incorrect, "
+"the student will be allowed to try again immediately. However, depending on "
+"the \"Apply penalties\" setting, a penalty will usually be subtracted for each "
+"wrong attempt."
+msgstr ""
+
+#: $string['add']
+msgid "Add"
+msgstr "Προσθήκη"
+
+#: $string['addaquestion']
+msgid "a new question"
+msgstr "Προσθήκη ερώτησης ..."
+
+#: $string['addarandomquestion']
+msgid "a random question"
+msgstr "Προσθήκη τυχαίας ερώτησης ..."
+
+#: $string['addarandomquestion_help']
+msgid ""
+"When a random question is added, it results in a randomly-chosen question "
+"from the category being inserted into the quiz. This means that different "
+"students are likely to get a different selection of questions, and when a "
+"quiz allows multiple attempts then each attempt is likely to contain a new "
+"selection of questions."
+msgstr ""
+
+#: $string['addarandomselectedquestion']
+msgid "Add a random selected question ..."
+msgstr "Προσθέστε μια τυχαία επιλεγμένη ερώτηση ..."
+
+#: $string['addasection']
+msgid "a new section heading"
+msgstr ""
+
+#: $string['adddescriptionlabel']
+msgid "Add a description item"
+msgstr "Προσθήκη περιγραφής/ετικέτας"
+
+#: $string['addingquestion']
+msgid "Adding a question"
+msgstr "Προσθήκη ερώτησης"
+
+#: $string['addingquestions']
+msgid ""
+"<p>This side of the page is where you manage your database of questions. "
+"Questions are stored in categories to help you keep them organised, and can "
+"be used by any quiz in your course or even other courses if you choose to "
+"'publish' them.</p>\n"
+"<p>After you select or create a question category you will be able to create "
+"or edit questions. You can select any of these questions to add to your "
+"quiz over on the other side of this page.</p>"
+msgstr ""
+"Αυτή η πλευρά της σελίδας είναι όπου διαχειρίζεστε τη βάση δεδομένων των "
+"ερωτημάτων. Τα ερωτήματα αποθηκεύονται σε κατηγορίες ώστε να τηρούνται "
+"οργανωμένα και μπορούν να χρησιμοποιηθούν στο μάθημά σας ή ακόμη και σε άλλα "
+"μαθήματα αν επιλέξετε να τα 'δημοσιοποιήσετε'.<br /><br />Αφού επιλέξετε ή "
+"δημιουργήσετε μια κατηγορία ερωτημάτων τότε θα είστε σε θέση να "
+"δημιουργήσετε ή να επεξεργαστείτε ερωτήματα. Μπορείτε να επιλέξετε "
+"οποιοδήποτε από αυτά τα ερωτήματα για να το προσθέσετε στο κουίζ σας στην "
+"άλλη πλευρά αυτής της σελίδας."
+
+#: $string['addmoreoverallfeedbacks']
+msgid "Add {no} more feedback fields"
+msgstr "Προσθήκη {no} περισσότερων πεδίων ανατροφοδότησης"
+
+#: $string['addnewgroupoverride']
+msgid "Add group override"
+msgstr ""
+
+#: $string['addnewpagesafterselected']
+msgid "Add new pages after selected questions"
+msgstr "Προσθήκη νέων σελίδων μετά από την επιλογή ερωτήσεων"
+
+#: $string['addnewquestionsqbank']
+msgid "Add questions to the category {$a->catname}: {$a->link}"
+msgstr "Προσθήκη νέων ερωτήσεων στην κατηγορία {$a->catname}: {$a->link}"
+
+#: $string['addnewuseroverride']
+msgid "Add user override"
+msgstr ""
+
+#: $string['addpagebreak']
+msgid "Add page break"
+msgstr "Προσθήκη αλλαγής σελίδας"
+
+#: $string['addpagehere']
+msgid "Add page here"
+msgstr "Προσθήκη σελίδας εδώ"
+
+#: $string['addquestion']
+msgid "Add question"
+msgstr "Προσθήκη ερώτησης"
+
+#: $string['addquestionfrombankatend']
+msgid "Add from the question bank at the end"
+msgstr "Προσθήκη από την τράπεζα ερωτήσεων στο τέλος"
+
+#: $string['addquestionfrombanktopage']
+msgid "Add from the question bank to page {$a}"
+msgstr "Προσθήκη από την τράπεζα ερωτήσεων στη σελίδα {$a}"
+
+#: $string['addquestions']
+msgid "Add questions"
+msgstr "Προσθήκη ερωτημάτων"
+
+#: $string['addquestionstoquiz']
+msgid "Add questions to current quiz"
+msgstr "Προσθήκη ερωτημάτων σε υπάρχον κουίζ"
+
+#: $string['addrandom']
+msgid "Add {$a} random questions"
+msgstr "Πρόσθεσε {$a} τυχαίες ερωτήσεις"
+
+#: $string['addrandom1']
+msgid "<< Add"
+msgstr "<<Πρόσθεσε"
+
+#: $string['addrandom2']
+msgid "random questions"
+msgstr "τυχαίες ερωτήσεις"
+
+#: $string['addrandomfromcategory']
+msgid "Add random questions from category:"
+msgstr "Προσθήκη τυχαίων ερωτήσεων από την κατηγορία:"
+
+#: $string['addrandomquestion']
+msgid "Add random question"
+msgstr "Προσθήκη τυχαίας ερώτησης"
+
+#: $string['addrandomquestionatend']
+msgid "Add a random question at the end"
+msgstr "Προσθήκη μιας τυχαίας ερώτησης στο τέλος"
+
+#: $string['addrandomquestiontopage']
+msgid "Add a random question to page {$a}"
+msgstr "Προσθήκη μία τυχαίας ερώτησης στην σελίδα {$a}"
+
+#: $string['addrandomquestiontoquiz']
+msgid "Add a random question to quiz {$a}"
+msgstr "Προσθήκη τυχαίας ερώτησης στο κουίζ {$a}"
+
+#: $string['addselectedquestionstoquiz']
+msgid "Add selected questions to the quiz"
+msgstr "Προσθήκη επιλεγμένων ερωτήσεων στο κουίζ"
+
+#: $string['addselectedtoquiz']
+msgid "Add selected to quiz"
+msgstr "Προσθήκη επιλεγμένων στο κουίζ"
+
+#: $string['addtoquiz']
+msgid "Add to quiz"
+msgstr "Προσθήκη στο κουίζ"
+
+#: $string['affectedstudents']
+msgid "Affected {$a}"
+msgstr "Επηρεασμένα {$a}"
+
+#: $string['aftereachquestion']
+msgid "After adding each question"
+msgstr "Μετά την προσθήκη της κάθε ερώτησης"
+
+#: $string['afternquestions']
+msgid "After adding {$a} questions"
+msgstr "Μετά την προσθήκη {$a} ερωτήσεων"
+
+#: $string['age']
+msgid "age"
+msgstr "ηλικία"
+
+#: $string['allattempts']
+msgid "All attempts"
+msgstr "Όλες οι προσπάθειες"
+
+#: $string['allinone']
+msgid "Unlimited"
+msgstr "Χωρίς όριο"
+
+#: $string['allowreview']
+msgid "Allow review"
+msgstr "Επιτρέπεται η αναθεώρηση"
+
+#: $string['alreadysubmitted']
+msgid "It is likely that you have already submitted this attempt"
+msgstr "Είναι πιθανό να έχετε ήδη καταχωρίσει αυτή τη προσπάθεια"
+
+#: $string['alternativeunits']
+msgid "Alternative units"
+msgstr "Εναλλακτικές μονάδες"
+
+#: $string['alwaysavailable']
+msgid "Always available"
+msgstr "Πάντα διαθέσιμο"
+
+#: $string['analysisoptions']
+msgid "Analysis options"
+msgstr "Επιλογές ανάλυσης"
+
+#: $string['analysistitle']
+msgid "Item analysis table"
+msgstr "Πίνακας ανάλυσης αντικειμένου"
+
+#: $string['answer']
+msgid "Answer"
+msgstr "Απάντηση"
+
+#: $string['answered']
+msgid "Answered"
+msgstr "Απαντημένη"
+
+#: $string['answerhowmany']
+msgid "One or multiple answers?"
+msgstr "Μια ή πολλαπλές απαντήσεις;"
+
+#: $string['answers']
+msgid "Answers"
+msgstr "Απαντήσεις"
+
+#: $string['answersingleno']
+msgid "Multiple answers allowed"
+msgstr "Επιτρέπονται πολλαπλές απαντήσεις"
+
+#: $string['answersingleyes']
+msgid "One answer only"
+msgstr "Μια απάντηση μόνο"
+
+#: $string['answertoolong']
+msgid "Answer too long after line {$a} (255 char. max)"
+msgstr "Η απάντηση είναι πολύ μεγάλη μετά από τη γραμμή {$a} (255 χαρ. μέγιστο)"
+
+#: $string['aon']
+msgid "AON format"
+msgstr "Μορφή AON"
+
+#: $string['areyousureremoveselected']
+msgid "Are you sure you want to remove all the selected questions?"
+msgstr ""
+"Είστε σίγουρος/η πως θέλετε να αφαιρέσετε όλες τις επιλεγμένες ερωτήσεις;"
+
+#: $string['asshownoneditscreen']
+msgid "As shown on the edit screen"
+msgstr "Όπως φαίνεται στην οθόνη επεξεργασίας"
+
+#: $string['attempt']
+msgid "Attempt {$a}"
+msgstr "Προσπάθεια {$a}"
+
+#: $string['attemptalreadyclosed']
+msgid "This attempt has already been finished."
+msgstr "Αυτή η προσπάθεια έχει ήδη τελειώσει."
+
+#: $string['attemptclosed']
+msgid "Attempt has not closed yet"
+msgstr "προσπάθεια δεν έχει κλείσει ακόμη"
+
+#: $string['attemptduration']
+msgctxt "$string['attemptduration']"
+msgid "Time taken"
+msgstr "Χρόνος που απαιτήθηκε"
+
+#: $string['attemptedon']
+msgid "Attempted on"
+msgstr "Δοκιμάστηκε στις"
+
+#: $string['attempterror']
+msgid "You are not allowed to attempt this quiz at this time because: {$a}"
+msgstr "Δεν μπορείτε να προσπαθήσετε αυτό το κουίζ αυτή τη στιγμή επειδή: {$a}"
+
+#: $string['attemptfirst']
+msgid "First attempt"
+msgstr "Πρώτη προσπάθεια"
+
+#: $string['attemptincomplete']
+msgid "That attempt (by {$a}) is not yet completed."
+msgstr "Η προσπάθεια (από το χρήστη {$a}) δεν έχει ολοκληρωθεί ακόμα."
+
+#: $string['attemptlast']
+msgid "Last attempt"
+msgstr "Τελευταία προσπάθεια"
+
+#: $string['attemptnumber']
+msgid "Attempt"
+msgstr "Προσπάθεια"
+
+#: $string['attemptquiznow']
+msgid "Attempt quiz now"
+msgstr "Προσπάθεια κουίζ τώρα"
+
+#: $string['attempts']
+msgid "Attempts"
+msgstr "Προσπάθειες"
+
+#: $string['attemptsallowed']
+msgid "Attempts allowed"
+msgstr "Επιτρεπόμενες προσπάθειες"
+
+#: $string['attemptsdeleted']
+msgid "Quiz attempts deleted"
+msgstr "διεγραμμένες προσπάθειες κουίζ"
+
+#: $string['attemptselection']
+msgid "Select which attempts to analyze per user:"
+msgstr "Επίλεξε ποιες προσπάθειες θα αναλυθούν ανά χρήστη:"
+
+#: $string['attemptsexist']
+msgid "You can no longer add or remove questions."
+msgstr "Δεν μπορείτε πλέον να προσθέσετε ή να αφαιρέσετε ερωτήσεις."
+
+#: $string['attempts_help']
+msgid ""
+"The total number of attempts allowed (not the number of extra attempts)."
+msgstr ""
+
+#: $string['attemptsnum']
+msgid "Attempts: {$a}"
+msgstr "Προσπάθειες: {$a}"
+
+#: $string['attemptsnumthisgroup']
+msgid "Attempts: {$a->total} ({$a->group} from this group)"
+msgstr "Προσπάθειες: {$a->total} ({$a->group} από αυτήν την ομάδα)"
+
+#: $string['attemptsnumyourgroups']
+msgid "Attempts: {$a->total} ({$a->group} from your groups)"
+msgstr "Προσπάθειες: {$a->total} ({$a->group} από αυτές τις ομάδες)"
+
+#: $string['attemptsonly']
+msgid "Show only students with attempts"
+msgstr "Δείξτε μόνο τους μαθητές που έχουν προσπαθήσει"
+
+#: $string['attemptstate']
+msgid "State"
+msgstr "Κατάσταση"
+
+#: $string['attemptstillinprogress']
+msgid "Attempt still in progress"
+msgstr "Προσπάθεια ακόμη σε εξέλιξη"
+
+#: $string['attemptsunlimited']
+msgid "Unlimited attempts"
+msgstr "Απεριόριστες προσπάθειες"
+
+#: $string['autosaveperiod']
+msgid "Auto-save delay"
+msgstr "Καθυστέρηση αυτό-αποθήκευσης"
+
+#: $string['autosaveperiod_desc']
+msgid ""
+"Responses can be saved automatically during quiz attempts. The responses are "
+"saved whenever one is changed, and then after this delay. There is a trade-"
+"off: a shorter delay increases the server load, but reduces the chance that "
+"students lose their work. If you are going to make this delay much shorter, "
+"you should change the value gradually and monitor the server load. If the "
+"load gets too high, make the delay longer again. Setting the delay to 0 "
+"turns off auto-saving."
+msgstr ""
+
+#: $string['back']
+msgid "Back to preview question"
+msgstr "Επιστροφή στην προηγούμενη ερώτηση"
+
+#: $string['backtocourse']
+msgid "Back to the course"
+msgstr "Επιστροφή στο μάθημα"
+
+#: $string['backtoquestionlist']
+msgid "Back to question list"
+msgstr "Επιστροφή στη Λίστα Ερωτήσεων"
+
+#: $string['backtoquiz']
+msgid "Back to quiz editing"
+msgstr "Επιστροφή στην επεξεργασία του κουίζ"
+
+#: $string['basicideasofquiz']
+msgid "The basic ideas of quiz-making"
+msgstr "Οι βασικές ιδέες της κατασκευής κουίζ"
+
+#: $string['bestgrade']
+msgid "Best grade"
+msgstr "Καλύτερος βαθμός"
+
+#: $string['bothattempts']
+msgid "Show students with and without attempts"
+msgstr "Εμφάνιση μαθητών με και χωρίς προσπάθειες"
+
+#: $string['browsersecurity']
+msgid "Browser security"
+msgstr "Ασφάλεια φυλλομετρητή"
+
+#: $string['browsersecurity_help']
+msgid ""
+"If \"Full screen pop-up with some JavaScript security\" is selected,\n"
+"\n"
+"* The quiz will only start if the student has a JavaScript-enabled web-"
+"browser\n"
+"* The quiz appears in a full screen popup window that covers all the other "
+"windows and has no navigation controls\n"
+"* Students are prevented, as far as is possible, from using facilities like "
+"copy and paste"
+msgstr ""
+"Αν επιλεγεί \"Αναδυόμενο παράθυρο πλήρης οθόνης με κάποια  JavaScript "
+"ασφάλεια\", * Το κουίζ θα ξεκινήσει μόνο αν ο μαθητής έχει φυλλομετρητή με "
+"ενεργοποιημένη την JavaScript * Το κουίζ θα εμφανιστεί σε ένα πλήρης οθόνης "
+"αναδυόμενο παράθυρο, το οποίο θα καλύπτει όλα τα άλλα παράθυρα και δεν θα "
+"έχει επιλογές πλόηγησης * Οι εκπαιδευόμενοι περιορίζονται, όσο αυτό είναι "
+"δυνατό, από τη χρήση παροχών όπως η αντιγραφή και η επικόλληση"
+
+#: $string['calculated']
+msgid "Calculated"
+msgstr "Υπολογισμένο"
+
+#: $string['calculatedquestion']
+msgid ""
+"Calculated question not supported at line {$a}. The question will be ignored"
+msgstr ""
+"Η υπολογισμένη ερώτηση δεν υποστηρίζεται στην γραμμή {$a}. Η ερώτηση θα "
+"αγνοηθεί"
+
+#: $string['cannotcreatepath']
+msgid "Path cannot be created ({$a})"
+msgstr "Δεν είναι δυνατή η δημιουργία της διαδρομής ({$a})"
+
+#: $string['cannoteditafterattempts']
+msgid ""
+"You cannot add or remove questions because this quiz has been attempted. "
+"({$a})"
+msgstr ""
+"Δεν μπρείτε να προσθέσετε ή να διαγράψετε ερωτήσεις επειδή έχει ήδη γίνει "
+"προσπάθεια γι'αυτό το κουίζ. ({$a})"
+
+#: $string['cannotfindprevattempt']
+msgid "Cannot find previous attempt to build on."
+msgstr ""
+"Αδυναμία εύρεσης προηγούμενης προσπάθειας για να χρησιμοποιηθεί ως βάση."
+
+#: $string['cannotfindquestionregard']
+msgid "Failed to get questions for regrading!"
+msgstr "Αδυναμία ανάκτησης ερωτήσεων για αναβαθμολόγηση!"
+
+#: $string['cannotinsert']
+msgid "Cannot insert question"
+msgstr "Αδυναμία εισαγωγής ερώτησης"
+
+#: $string['cannotinsertrandomquestion']
+msgid "Could not insert new random question!"
+msgstr "Αδυναμία εισαγωγής νέας τυχαίας ερώτησης!"
+
+#: $string['cannotloadquestion']
+msgid "Could not load question options"
+msgstr "Αδυναμία φόρτωσης επιλογών ερώτησης"
+
+#: $string['cannotloadtypeinfo']
+msgid "Unable to load questiontype specific question information"
+msgstr "Αδυναμία φόρτωσης πληροφοριών για τον τύπο ερώτησης"
+
+#: $string['cannotopen']
+msgid "Cannot open export file ({$a})"
+msgstr "Δεν είναι δυνατή η εξαγωγή του αρχείου ({$a})"
+
+#: $string['cannotrestore']
+msgid "Could not restore question sessions"
+msgstr "Αδυναμία επαναφοράς συνόδων ερώτησης"
+
+#: $string['cannotreviewopen']
+msgid "You cannot review this attempt, it is still open."
+msgstr "Δεν μπορείτε να επιθεωρήσετε αυτήν την προσπάθεια, είναι ακόμη ανοιχτή."
+
+#: $string['cannotsavelayout']
+msgid "Could not save layout"
+msgstr "Αδυναμία αποθήκευσης διάταξης"
+
+#: $string['cannotsavenumberofquestion']
+msgid "Could not save number of questions per page"
+msgstr "Αδυναμία αποθήκευσης αριθμού ερωτήσεων ανά σελίδα"
+
+#: $string['cannotsavequestion']
+msgid "Cannot save question list"
+msgstr "Αδυναμία αποθήκευσης λίστας ερωτήσεων"
+
+#: $string['cannotsetgrade']
+msgid "Could not set a new maximum grade for the quiz"
+msgstr "Αδυναμία ορισμού νέου μέγιστου βαθμού για το κουίζ"
+
+#: $string['cannotsetsumgrades']
+msgid "Failed to set sumgrades"
+msgstr "Αδυναμία ορισμού sumgrades"
+
+#: $string['cannotstartgradesmismatch']
+msgid ""
+"Cannot start an attempt at this quiz. The quiz is set to be graded out of "
+"{$a->grade}, but none of the questions in the quiz have a grade. This can be "
+"fixed on the 'Edit quiz' page."
+msgstr ""
+
+#: $string['cannotstartmissingquestion']
+msgid ""
+"Cannot start an attempt at this quiz. The quiz definition includes a "
+"question that does not exist."
+msgstr ""
+
+#: $string['cannotstartnoquestions']
+msgid ""
+"Cannot start an attempt at this quiz. The quiz has not been set up yet. No "
+"questions have been added."
+msgstr ""
+
+#: $string['cannotwrite']
+msgid "Cannot write to export file ({$a})"
+msgstr "Δεν είναι δυνατή η εγγραφή στο εξαγόμενο αρχείο ({$a})"
+
+#: $string['canredoquestions']
+msgid "Allow redo within an attempt"
+msgstr "Επέτρεψε να ξανά απαντηθεί μία ερώτηση μέσα σε μία προσπάθεια"
+
+#: $string['canredoquestions_desc']
+msgctxt "$string['canredoquestions_desc']"
+msgid ""
+"If enabled, then when students have finished attempting particular question, "
+"they will see a Redo question button. This allows them to attempt another "
+"version of the same question, without having to submit the entire quiz "
+"attempt and start another one. This option is mainly useful for practice "
+"quizzes.\n"
+"\n"
+"This setting only affects questions (for example not Essay questions) and "
+"behaviours (for example Immediate feedback, or Interactive with multiple "
+"tries) where it is possible for student to finish the question before the "
+"attempt is submitted."
+msgstr ""
+
+#: $string['canredoquestions_help']
+msgctxt "$string['canredoquestions_help']"
+msgid ""
+"If enabled, then when students have finished attempting particular question, "
+"they will see a Redo question button. This allows them to attempt another "
+"version of the same question, without having to submit the entire quiz "
+"attempt and start another one. This option is mainly useful for practice "
+"quizzes.\n"
+"\n"
+"This setting only affects questions (for example not Essay questions) and "
+"behaviours (for example Immediate feedback, or Interactive with multiple "
+"tries) where it is possible for student to finish the question before the "
+"attempt is submitted."
+msgstr ""
+
+#: $string['canredoquestionsyes']
+msgid "Students may redo another version of any finished question"
+msgstr ""
+
+#: $string['caseno']
+msgid "No, case is unimportant"
+msgstr "Όχι, δεν υπάρχει διαφορά μεταξύ μικρών και κεφαλαίων"
+
+#: $string['casesensitive']
+msgid "Case sensitivity"
+msgstr "Διάκριση μικρών/κεφαλαίων"
+
+#: $string['caseyes']
+msgid "Yes, case must match"
+msgstr "Ναι, μικρά/κεφαλαία πρέπει να ταιριάζουν"
+
+#: $string['categoryadded']
+msgid "The category '{$a}' was added"
+msgstr "Προστέθηκε η κατηγορία '{$a}'"
+
+#: $string['categorydeleted']
+msgid "The category '{$a}' was deleted"
+msgstr "Διαγράφηκε η κατηγορία '{$a}'"
+
+#: $string['categorynoedit']
+msgid "You do not have editing privileges in the category '{$a}'."
+msgstr "Δεν έχετε δικαίωμα επεξεργασίας της κατηγορίας '{$a}'."
+
+#: $string['categoryupdated']
+msgid "The category was successfully updated"
+msgstr "Η κατηγορία ενημερώθηκε επιτυχώς"
+
+#: $string['close']
+msgid "Close window"
+msgstr "Κλείσιμο παραθύρου"
+
+#: $string['closebeforeopen']
+msgid ""
+"Could not update the quiz. You have specified a close date before the open "
+"date."
+msgstr ""
+"Δεν είναι δυνατή η ενημέρωση του κουίζ. Έχετε ορίσει ημερομηνία τερματισμού "
+"πριν την ημερομηνία έναρξης."
+
+#: $string['closed']
+msgid "Closed"
+msgstr "Κλειστό"
+
+#: $string['closepreview']
+msgid "Close preview"
+msgstr "Κλείσιμο προεπισκόπισης"
+
+#: $string['closereview']
+msgid "Close review"
+msgstr "Κλείσιμο αναθεώρησης"
+
+#: $string['comment']
+msgid "Comment"
+msgstr "Σχόλιο"
+
+#: $string['commentorgrade']
+msgid "Make comment or override grade"
+msgstr "Εισαγάγετε σχόλιο ή παρακάμψτε το βαθμό"
+
+#: $string['comments']
+msgid "Comments"
+msgstr "Σχόλια"
+
+#: $string['completedon']
+msgid "Completed on"
+msgstr "Ολοκληρώθηκε στις"
+
+#: $string['completionattemptsexhausted']
+msgid "Or all available attempts completed"
+msgstr "Ή όλες οι διαθέσιμες προσπάθειες ολοκληρώθηκαν"
+
+#: $string['completionattemptsexhausteddesc']
+msgid "Complete if all available attempts are exhausted"
+msgstr ""
+
+#: $string['completionattemptsexhausted_help']
+msgid ""
+"Mark quiz complete when the student has exhausted the maximum number of "
+"attempts."
+msgstr ""
+"Κατέταξε το κουίζ ολοκληρωμένο όταν ο μαθητής έχει εξαντλήσει το μέγιστο "
+"αριθμό προσπαθειών."
+
+#: $string['completionpass']
+msgid "Require passing grade"
+msgstr "Απαίτηση προβιβάσιμου βαθμού"
+
+#: $string['completionpassdesc']
+msgid "Student must achieve a passing grade to complete this activity"
+msgstr ""
+
+#: $string['completionpass_help']
+msgid ""
+"If enabled, this activity is considered complete when the student receives a "
+"passing grade, with the pass grade set in the gradebook."
+msgstr ""
+
+#: $string['configadaptive']
+msgid ""
+"If you choose Yes for this option then the student will be allowed multiple "
+"responses to a question even within the same attempt at the quiz."
+msgstr ""
+"Εάν επιλέξετε Ναι σε αυτήν την επιλογή τότε ο σπουδαστής θα μπορεί να "
+"απαντάει πολλές φορές σε μια ερώτηση ακόμη και στην ίδια προσπάθεια του "
+"κουίζ."
+
+#: $string['configattemptsallowed']
+msgid "Restriction on the number of attempts students are allowed at the quiz."
+msgstr "Περιορισμός του αριθμού προσπαθειών των σπουδαστών στο κουίζ."
+
+#: $string['configdecimaldigits']
+msgid ""
+"Number of digits that should be shown after the decimal point when "
+"displaying grades."
+msgstr "Αριθμός ψηφίων που θα προβάλλονται μετά την υποδιαστολή στους βαθμούς."
+
+#: $string['configdecimalplaces']
+msgid ""
+"Number of digits that should be shown after the decimal point when "
+"displaying grades for the quiz."
+msgstr ""
+"Αριθμός ψηφίων που θα προβάλλονται μετά την υποδιαστολή κατά την προβολή των "
+"βαθμών του κουίζ."
+
+#: $string['configdecimalplacesquestion']
+msgid ""
+"Number of digits that should be shown after the decimal point when "
+"displaying the grade for individual questions."
+msgstr ""
+"Αριθμός ψηφίων που θα προβάλλονται μετά την υποδιαστολή κατά την προβολή "
+"βαθμών για ξεχωριστές ερωτήσεις."
+
+#: $string['configdelay1']
+msgid ""
+"If you set a time delay, then a student has to wait for that time before "
+"they can attempt a quiz after the first attempt."
+msgstr ""
+"Εάν θέσετε μια χρονική καθυστέρηση, τότε ο σπουδαστής θα πρέπει να περιμένει "
+"αυτό το χρονικό διάστημα πριν να μπορεί να ξαναπροσπαθήσει στο κουίζ μετά "
+"την πρώτη προσπάθεια."
+
+#: $string['configdelay1st2nd']
+msgid ""
+"If you set a time delay here, the student cannot start their second attempt "
+"until this much time has passed since the end of their first attempt."
+msgstr ""
+"Εάν θέσετε μια χρονική καθυστέρηση, ο σπουδαστής δε θα μπορεί να αρχίσει τη "
+"δεύτερη προσπάθειά του πριν ο χρόνος αυτός έχει περάσει από το τέλος της "
+"πρώτης προσπάθειάς τους."
+
+#: $string['configdelay2']
+msgid ""
+"If you set a time delay here, then a student has to wait for that time "
+"before they can attempt their third or later attempts."
+msgstr ""
+"Εάν θέσετε μια χρονική καθυστέρηση, ο σπουδαστής θα πρέπει να περιμενει τόσο "
+"χρονικό διάστημα πριν τη δεύτερη ή τρίτη προσπάθεια."
+
+#: $string['configdelaylater']
+msgid ""
+"If you set a time delay here, the student cannot start their third, fourth, "
+"... attempt until this much time has passed since the end of their previous "
+"attempt."
+msgstr ""
+"Εάν θέσετε μια χρονική καθυστέρηση, ο σπουδαστής δε θα μπορεί να εκκινήσει "
+"την τρίτη, τέταρτη, ... προσπάθεια μέχρι αυτός ο χρόνος να έχει περάσει από "
+"το τέλος της προηγούμενης προσπάθειας."
+
+#: $string['configeachattemptbuildsonthelast']
+msgid ""
+"If multiple attempts are allowed then each new attempt contains the results "
+"of the previous attempt."
+msgstr ""
+"Εάν οι πολλαπλές προσπάθειες επιτρέπονται τότε κάθε νέα προσπάθεια θα "
+"περιέχει τα αποτελέσματα της προηγούμενης προσπάθειας."
+
+#: $string['configgrademethod']
+msgid ""
+"When multiple attempts are allowed, which method should be used to calculate "
+"the student's final grade for the quiz."
+msgstr ""
+"Όταν επιτρέπουνται πολλαπλές προσπάθειες, ποια μέθοδος θα χρησιμοποιείται "
+"για τον υπολογισμό του τελικού βαθμού του σπουδαστή για το κουίζ."
+
+#: $string['configintro']
+msgid ""
+"The values you set here define the default values that are used in the "
+"settings form when you create a new quiz. You can also configure which quiz "
+"settings are considered advanced."
+msgstr ""
+"Οι τιμές που θα ορίσετε εδώ ορίζουν τις προεπιλεγμένες τιμές που θα "
+"χρησιμοποιούνται στη φόρμα ρυθμίσεων κατά τη δημιουργία νέου κουίζ. Μπορείτε "
+"επίσης να ρυθμίσετε ποιες ρυθμίσεις κουίζ θα θεωρούνται προηγμένες."
+
+#: $string['configmaximumgrade']
+msgid "The default grade that the quiz grade is scaled to be out of."
+msgstr ""
+"Ο προεπιλεγμένος βαθμός που θα χρησιμοποιείται ως κλίμακα του βαθμού για το "
+"κουίζ."
+
+#: $string['confignavmethod']
+msgid ""
+"In Free navigation, questions may be answered in any order using navigation. "
+"In Sequential, questions must be answered in strict sequence."
+msgstr ""
+
+#: $string['confignewpageevery']
+msgid ""
+"When adding questions to the quiz page breaks will automatically be inserted "
+"according to the setting you choose here."
+msgstr ""
+"Κατά την προσθήκη ερωτήσεων στο κουίζ, οι αλλαγές σελίδας θα εισάγονται "
+"αυτόματα ανάλογα με τη ρύθμισή σας εδώ."
+
+#: $string['configoutcomesadvanced']
+msgid ""
+"If this option is turned on, then the Outcomes on the quiz editing form are "
+"advanced settings."
+msgstr ""
+
+#: $string['configpenaltyscheme']
+msgid "Penalty subtracted for each wrong response in adaptive mode."
+msgstr ""
+"Ποινή που θα αφαιρείται για κάθε λάθος απάντηση στην προσαρμοστική "
+"λειτουργία."
+
+#: $string['configpopup']
+msgid ""
+"Force the attempt to open in a popup window, and use JavaScript tricks to "
+"try to restrict copy and paste, etc. during quiz attempts."
+msgstr ""
+"Επιβολή του ανοίγματος της προσπάθειας σε αναδυόμενο παράθυρο και χρήση "
+"τεχνασμάτων JavaScript για τον εμποδισμό αντιγραφής-επικόλλησης, κτλ κατά "
+"την προσπάθεια κουίζ."
+
+#: $string['configrequirepassword']
+msgid "Students must enter this password before they can attempt the quiz."
+msgstr ""
+"Οι σπουδαστές θα πρέπει να εισάγουν αυτό το συνθηματικό προτού προσπαθήσουν "
+"ένα κουίζ."
+
+#: $string['configrequiresubnet']
+msgid "Students can only attempt the quiz from these computers."
+msgstr ""
+"Οι σπουδαστές μπορούν να προσπαθήσουν κουίζ μόνον από αυτούς τους "
+"υπολογιστές."
+
+#: $string['configreviewoptions']
+msgid ""
+"These options control what information users can see when they review a quiz "
+"attempt or look at the quiz reports."
+msgstr ""
+"Οι επιλογές αυτές ελέγχουν ποια πληροφορία θα βλεπουν οι χρήστες όταν "
+"αναθεωρούν μια προσπάθεια κουίζ ή όταν βλέπουν τις αναφορές κουίζ."
+
+#: $string['configshowblocks']
+msgid "Show blocks during quiz attempts."
+msgstr "Εμφάνιση μπλοκ κατά τη διάρκεια των προσπαθειών"
+
+#: $string['configshowuserpicture']
+msgid "Show the user's picture on screen during attempts."
+msgstr "Προβολή της εικόνας χρήστη στην οθόνη κατά τη διάρκεια προσπαθειών."
+
+#: $string['configshufflewithin']
+msgid ""
+"If you enable this option, then the parts making up the individual questions "
+"will be randomly shuffled each time a student starts an attempt at this "
+"quiz, provided the option is also enabled in the question settings."
+msgstr ""
+"Εάν ενεργοποιήσετε αυτήν την επιλογή, τα τμήματα που αποτελούν τις "
+"ανεξάρτητες ερωτήσεις θα ανακατεύονται τυχαία κάθε φορά που ένας σπουδαστείς "
+"αρχίζει μια προσπάθεια στο κουίζ, δεδομένου ότι αυτή η επιλογή είναι επίσης "
+"ενεργοποιημένη στις ρυθμίσεις της ερώτησης."
+
+#: $string['configtimelimit']
+msgid "Default time limit for quizzes in minutes. 0 mean no time limit."
+msgstr ""
+"Προεπιλεγμένο όριο χρόνου για κουίζ σε λεπτά. Το 0 σημαίνει πως δεν υπάρχει "
+"όριο."
+
+#: $string['configtimelimitsec']
+msgid "Default time limit for quizzes in seconds. 0 mean no time limit."
+msgstr ""
+"Προεπιλεγμένο όριο χρόνου για κουίζ σε δευτερόλεπτα. Το 0 σημαίνει πως δεν "
+"υπάρχει όριο."
+
+#: $string['configurerandomquestion']
+msgid "Configure question"
+msgstr "Ρύθμιση ερώτησης"
+
+#: $string['confirmclose']
+msgid ""
+"Once you submit, you will no longer be able to change your answers for this "
+"attempt."
+msgstr ""
+"Πρόκειται να τερματίσετε αυτήν την προσπάθεια. Από τη στιγμή που θα "
+"τερματίσετε την προσπάθειά σας δεν θα είστε σε θέση να αλλάξετε τις "
+"απαντήσεις σας."
+
+#: $string['confirmremovequestion']
+msgid "Are you sure you want to remove this {$a} question?"
+msgstr "Είστε βέβαιοι ότι θέλετε να καταργήσετε αυτήν την ερώτηση {$a};"
+
+#: $string['confirmremovesectionheading']
+msgid "Are you sure you want to remove the '{$a}' section heading?"
+msgstr ""
+
+#: $string['confirmserverdelete']
+msgid "Are you sure you want to remove the server <b>{$a}</b> from the list?"
+msgstr ""
+"Είστε σίγουρος ότι θέλετε να διαγράψετε το διακομιστή <b>{$a}</b> από τη "
+"λίστα;"
+
+#: $string['connectionerror']
+msgid ""
+"Network connection lost. (Autosave failed).\n"
+"\n"
+"Make a note of any responses entered on this page in the last few minutes, "
+"then try to re-connect.\n"
+"\n"
+"Once connection has been re-established, your responses should be saved and "
+"this message will disappear."
+msgstr ""
+
+#: $string['connectionok']
+msgid "Network connection restored. You may continue safely."
+msgstr ""
+"Η σύνδεση δικτύου έχει αποκατασταθεί. Μπορείτε να συνεχίσετε με ασφάλεια."
+
+#: $string['containercategorycreated']
+msgid ""
+"This category has been created to store all the original categories moved to "
+"site level due to the causes specified below."
+msgstr ""
+"Αυτή η κατηγορία έχει δημιουργηθεί για την αποθήκευση όλων των αρχικών "
+"κατηγοριών που μετακινήθηκαν στο επίπεδο δικτυακού τόπου εξαιτίας των λόγων "
+"που αναφέρονται παρακάτω."
+
+#: $string['continueattemptquiz']
+msgid "Continue the last attempt"
+msgstr "Συνέχιση της τελευταίας προσπάθειας"
+
+#: $string['continuepreview']
+msgid "Continue the last preview"
+msgstr "Συνέχιση της τελευταίας προεπισκόπισης"
+
+#: $string['copyingfrom']
+msgid "Creating a copy of the question '{$a}'"
+msgstr "Δημιουργία αντιγράφου της ερώτησης '{$a}'"
+
+#: $string['copyingquestion']
+msgid "Copying a question"
+msgstr "Αντιγραφή ερώτησης"
+
+#: $string['correct']
+msgid "Correct"
+msgstr "Σωστό"
+
+#: $string['correctanswer']
+msgid "Correct answer"
+msgstr "Σωστή απάντηση"
+
+#: $string['correctanswerformula']
+msgid "Correct answer formula"
+msgstr "Φόρμουλα σωστής απάντησης"
+
+#: $string['correctansweris']
+msgid "Correct answer: {$a}"
+msgstr "Σωστή απάντηση: {$a}"
+
+#: $string['correctanswerlength']
+msgid "Significant figures"
+msgstr "Σημαντικές Τιμές"
+
+#: $string['correctanswers']
+msgid "Correct answers"
+msgstr "Σωστές απαντήσεις"
+
+#: $string['correctanswershows']
+msgid "Correct answer shows"
+msgstr "Εμφάνιση σωστών απαντήσεων"
+
+#: $string['corrresp']
+msgid "Correct response"
+msgstr "Σωστή απόκριση"
+
+#: $string['countdown']
+msgid "Countdown"
+msgstr "Αντίστροφη μέτρηση"
+
+#: $string['countdownfinished']
+msgid "The quiz is closing, you should submit your answers now."
+msgstr "Το κουίζ κλείνει, πρέπει να υποβάλλετε τις απαντήσεις σας τώρα."
+
+#: $string['countdowntenminutes']
+msgid "The quiz will be closing in ten minutes."
+msgstr "Το κουίζ θα κλείσει σε δέκα λεπτά."
+
+#: $string['coursetestmanager']
+msgid "Course Test Manager format"
+msgstr "Μορφή Διαχειριστή Τεστ Μαθήματος"
+
+#: $string['createcategoryandaddrandomquestion']
+msgid "Create category and add random question"
+msgstr "Δημιουργία κατηγορίας και προσθήκη τυχαίας ερώτησης"
+
+#: $string['createfirst']
+msgid "You must create some short-answer questions first."
+msgstr "Πρέπει πρώτα να δημιουργήσετε μία ερώτηση σύντομης απάντησης."
+
+#: $string['createmultiple']
+msgid "Add several random questions to quiz"
+msgstr "Προσθήκη πολλών τυχαίων ερωτήσεων στο κουίζ"
+
+#: $string['createnewquestion']
+msgid "Create new question"
+msgstr "Δημιουργήστε νέα ερώτηση"
+
+#: $string['createquestionandadd']
+msgid "Create a new question and add it to the quiz."
+msgstr "Δημιουργία νεάς ερώτησης και προσθήκη στο κουίζ."
+
+#: $string['custom']
+msgid "Custom format"
+msgstr "Προσαρμοσμένη μορφή"
+
+#: $string['dataitemneed']
+msgid "You need to add at least one set of data items to get a valid question"
+msgstr ""
+"Θα πρέπει να προσθέσετε τουλάχιστον ένα σύνολο αντικειμένων για να πάρετε "
+"μία έγκυρη ερώτηση"
+
+#: $string['datasetdefinitions']
+msgid "Reusable dataset definitions for category {$a}"
+msgstr "Επαναχρησιμοποιούμενοι ορισμοί ομάδας δεδομένων για την κατηγορία {$a}"
+
+#: $string['datasetnumber']
+msgid "Number"
+msgstr "Αριθμός"
+
+#: $string['daysavailable']
+msgid "Days available"
+msgstr "Διαθέσιμες ημέρες"
+
+#: $string['decimaldigits']
+msgid "Decimal digits in grades"
+msgstr "Δεκαδικά ψηφία στους βαθμούς"
+
+#: $string['decimalplaces']
+msgid "Decimal places in grades"
+msgstr "Θέσεις δεκωαδικών στους βαθμούς"
+
+#: $string['decimalplaces_help']
+msgid ""
+"This setting specifies the number of digits shown after the decimal point "
+"when displaying grades. It only affects the display of grades, not the "
+"grades stored in the database, nor the internal calculations, which are "
+"carried out to full accuracy."
+msgstr ""
+"<p align=\"center\"><strong>Δεκαδικά Ψηφία</strong></p>\n"
+"\n"
+"<p align=\"center\"><br />\n"
+"  Με τη χρησιμοποίηση αυτής της ρύθμισης μπορείτε να επιλέξετε τον αριθμό "
+"ψηφίων\n"
+"  που μπορεί να παρουσιαστεί μετά από την υποδιαστολή κατά το επίδειξη των\n"
+"  αποτελεσμάτων ή των βαθμών σπουδαστών. Παραδείγματος χάριν η επιλογή "
+"&quot;0&quot;\n"
+"  σημαίνει ότι οι εμφανιζόμενοι βαθμοί θα στρογγυλευτούν σε ακέραιους "
+"αριθμούς. <br />\n"
+"  Αυτή η ρύθμιση επηρεάζει μόνο τον τρόπο που εμφανίζονται οι βαθμοί. Δεν "
+"έχει επιπτώσεις στους\n"
+"  εσωτερικούς υπολογισμούς και στη στρογγυλοποίηση των βαθμών. </p>"
+
+#: $string['decimalplacesquestion']
+msgid "Decimal places in question grades"
+msgstr "Θέσεις δεκωαδικών στους βαθμούςερώτησης"
+
+#: $string['decimalplacesquestion_help']
+msgid ""
+"This setting specifies the number of digits shown after the decimal point "
+"when displaying the grades for individual questions."
+msgstr ""
+"Αυτή η ρύθμιση καθορίζει τον αριθμό των ψηφίων που εμφανίζονται μετά την "
+"υποδιαστολή όταν εμφανίζονται βαθμοί για τα επιμέρους ερωτήματα."
+
+#: $string['decimalpoints']
+msgid "Decimal points"
+msgstr "Δεκαδικά ψηφία"
+
+#: $string['default']
+msgid "Default"
+msgstr "Προεπιλογή"
+
+#: $string['defaultgrade']
+msgid "Default question grade"
+msgstr "Προεπιλεγμένη βαθμολόγηση ερώτησης"
+
+#: $string['defaultinfo']
+msgid "The default category for questions."
+msgstr "Η προεπιλεγμένη κατηγορία για αυτή την ερώτηση."
+
+#: $string['delay1']
+msgid "Time delay between first and second attempt"
+msgstr "Χρονικό όριο μεταξύ πρώτης και δεύτερης προσπάθειας"
+
+#: $string['delay1st2nd']
+msgid "Enforced delay between 1st and 2nd attempts"
+msgstr "Επιβαλλόμενη καθυστέρηση μεταξύ 1ης και 2ης προσπάθειας"
+
+#: $string['delay1st2nd_help']
+msgid ""
+"If enabled, a student must wait for the specified time to elapse before "
+"being able to attempt the quiz a second time."
+msgstr ""
+"<p>Αν ορίσετε χρονοκαθυστέρηση, τότε κάθε μαθητής πρέπει να περιμένει\n"
+"   για όσο χρόνο έχετε ορίσει μετά την πρώτη του απόπειρα προκειμένου να\n"
+"   αποπειραθεί ξανά το κουίζ.</p>"
+
+#: $string['delay2']
+msgid "Time delay between later attempts"
+msgstr "Χρονικό όριο μεταξύ επόμενων προσπαθειών"
+
+#: $string['delaylater']
+msgid "Enforced delay between later attempts"
+msgstr "Επιβαλλόμενη καθυστέρηση μεταξύ επόμενων προσπαθειών"
+
+#: $string['delaylater_help']
+msgid ""
+"If enabled, a student must wait for the specified time to elapse before "
+"attempting the quiz a third time and any subsequent times."
+msgstr ""
+"<p>Αν ορίσετε χρονοκαθυστέρηση, τότε κάθε μαθητής πρέπει να περιμένει\n"
+"   για όσο χρόνο έχετε ορίσει μετά κάθε απόπειρα προκειμένου να\n"
+"   αποπειραθεί ξανά το κουίζ.</p>"
+
+#: $string['deleteattemptcheck']
+msgid "Are you absolutely sure you want to completely delete these attempts?"
+msgstr ""
+"Είστε απολύτως σίγουρος/η ότι θέλετε να διαγράψετε αυτές τις προσπάθειες;"
+
+#: $string['deleteselected']
+msgid "Delete selected"
+msgstr "Διαγραφή επιλεγμένου"
+
+#: $string['deletingquestionattempts']
+msgid "Deleting question attempts"
+msgstr "Διαγραφή προσπαθειών ερώτησης"
+
+#: $string['description']
+msgctxt "$string['description']"
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: $string['disabled']
+msgid "Disabled"
+msgstr "Απενεργοποιημένο"
+
+#: $string['displayoptions']
+msgctxt "$string['displayoptions']"
+msgid "Display options"
+msgstr "Επιλογές εμφάνισης"
+
+#: $string['donotuseautosave']
+msgid "Do not use auto-save"
+msgstr "Μην χρησιμοποιείτε αυτόματη αποθήκευση"
+
+#: $string['download']
+msgid "Click to download the exported category file"
+msgstr "Κάντε κλικ για να κατεβάσετε το εξαγόμενο αρχείο κατηγορίας"
+
+#: $string['downloadextra']
+msgid ""
+"(file is also stored in the course files in the /backupdata/quiz folder)"
+msgstr ""
+"(το αρχείο αποθηκεύτηκε επίσης στα αρχεία του μαθήματος στο φάκελο "
+"/backupdata/κουίζ)"
+
+#: $string['dragtoafter']
+msgid "After {$a}"
+msgstr "Μετά {$a}"
+
+#: $string['dragtostart']
+msgid "To the start"
+msgstr "Στην αρχή"
+
+#: $string['duplicateresponse']
+msgid ""
+"This submission has been ignored because you gave an equivalent answer "
+"earlier."
+msgstr ""
+"Αυτή η υποβολή έχει αγνοηθεί γιατί δώσατε την ίδια απάντηση προηγουμένως."
+
+#: $string['eachattemptbuildsonthelast']
+msgid "Each attempt builds on the last"
+msgstr "Κάθε προσπάθεια στηρίζεται στο τελευταίο"
+
+#: $string['eachattemptbuildsonthelast_help']
+msgid ""
+"If multiple attempts are allowed and this setting is enabled, each new quiz "
+"attempt will contain the results of the previous attempt. This allows a quiz "
+"to be completed over several attempts."
+msgstr ""
+"<p>Αν το κουίζ επιτρέπει πολλαπλές απόπειρες και αυτή η επιλογή είναι "
+"ενεργοποιημένη,\n"
+"   τότε κάθε απόπειρα πέραν της πρώτης θα περιέχει τις απαντήσεις της "
+"προηγούμενης.\n"
+"   Αυτό επιτρέπει σ' ένα κουίζ να ολοκληρωθεί σταδιακά και όχι μόνο "
+"μονομιάς.</p>\n"
+"\n"
+"<p>Για να εμφανίζεται κάθε φορά η ίδια \"λευκή κόλλα\" σαν κουίζ, μην "
+"ενεργοποιήσετε\n"
+"   αυτή την επιλογή.</p>"
+
+#: $string['editcategories']
+msgid "Edit categories"
+msgstr "Επεξεργασία κατηγορίων"
+
+#: $string['editcategory']
+msgid "Edit category"
+msgstr "Επεξεργασία κατηγορίας"
+
+#: $string['editcatquestions']
+msgid "Edit category questions"
+msgstr "Επεξεργασία ερωτήσεων κατηγορίας"
+
+#: $string['editingquestion']
+msgid "Editing a question"
+msgstr "Επεξεργασία μιας ερώτησης"
+
+#: $string['editingquiz']
+msgid "Editing quiz"
+msgstr "Επεξεργασία κουίζ"
+
+#: $string['editingquiz_help']
+msgid ""
+"When creating a quiz, the main concepts are:\n"
+"\n"
+"* The quiz, containing questions over one or more pages\n"
+"* The question bank, which stores copies of all questions organised into "
+"categories\n"
+"* Random questions -  A student gets different questions each time they "
+"attempt the quiz and different students can get different questions"
+msgstr ""
+
+#: $string['editingquiz_link']
+msgid "mod/quiz/edit"
+msgstr ""
+
+#: $string['editingquizx']
+msgid "Editing quiz: {$a}"
+msgstr "Επεξεργασία κουίζ: {$a}"
+
+#: $string['editmaxmark']
+msgid "Edit maximum mark"
+msgstr "Επεξεργασία μέγιστου βαθμού"
+
+#: $string['editoverride']
+msgid "Edit override"
+msgstr ""
+
+#: $string['editqcats']
+msgid "Edit questions categories"
+msgstr "Επεξεργασία κατηγοριών ερωτήσεων"
+
+#: $string['editquestion']
+msgid "Edit question"
+msgstr "Επεξεργασία ερώτησης"
+
+#: $string['editquestions']
+msgid "Edit questions"
+msgstr "Επεξεργασία ερωτήσεων"
+
+#: $string['editquiz']
+msgid "Edit quiz"
+msgstr "Επεξεργασία Κουίζ"
+
+#: $string['editquizquestions']
+msgid "Edit quiz questions"
+msgstr "Επεξεργασία Ερωτήσεων του Κουίζ"
+
+#: $string['emailconfirmbody']
+msgid ""
+"Hi {$a->username},\n"
+"\n"
+"Thank you for submitting your answers to '{$a->quizname}' in course "
+"'{$a->coursename}' at {$a->submissiontime}.\n"
+"\n"
+"This message confirms that your answers have been saved.\n"
+"\n"
+"You can access this quiz at {$a->quizurl}."
+msgstr ""
+"Αγαπητέ {$a->username},\n"
+"\n"
+"Ευχαριστούμε που υποβάλατε τις απαντήσεις σας στο\n"
+"'{$a->quizname}'\n"
+"για το μάθημα '{$a->coursename}'\n"
+"στις {$a->submissiontime}.\n"
+"\n"
+"Αυτό το email επιβεβαιώνει ότι οι απαντήσεις σας έχουν ληφθεί με ασφάλεια.\n"
+"\n"
+"Μπορείτε να δείτε το κουίζ στο {$a->quizurl}."
+
+#: $string['emailconfirmsmall']
+msgid "Thank you for submitting your answers to '{$a->quizname}'"
+msgstr "Ευχαριστούμε για την υποβολή των απαντήσεων σας στο '{$a->quizname}'"
+
+#: $string['emailconfirmsubject']
+msgid "Submission confirmation: {$a->quizname}"
+msgstr "επιβεβαίωση υποβολής κουίζ: {$a->quizname}"
+
+#: $string['emailnotifybody']
+msgid ""
+"Hi {$a->username},\n"
+"\n"
+"{$a->studentname} has completed '{$a->quizname}' ({$a->quizurl}) in course "
+"'{$a->coursename}'.\n"
+"\n"
+"You can review this attempt at {$a->quizreviewurl}."
+msgstr ""
+"Αγαπητέ {$a->username},\n"
+"\n"
+"ο {$a->studentname} έχει ολοκληρώσει το κουίζ\n"
+"'{$a->quizname}' ({$a->quizurl})\n"
+"για το μάθημα '{$a->coursename}'\n"
+"\n"
+"Μπορείτε να δείτε την προσπάθεια αυτή στο {$a->quizreviewurl}."
+
+#: $string['emailnotifysmall']
+msgid "{$a->studentname} has completed {$a->quizname}. See {$a->quizreviewurl}"
+msgstr ""
+
+#: $string['emailnotifysubject']
+msgid "{$a->studentname} has completed {$a->quizname}"
+msgstr "{$a->studentname} έχει ολοκληρώσει το κουίζ {$a->quizname}"
+
+#: $string['emailoverduebody']
+msgid ""
+"Hi {$a->studentname},\n"
+"\n"
+"You started an attempt at '{$a->quizname}' in course '{$a->coursename}', but "
+"you never submitted it. It should have been submitted by "
+"{$a->attemptduedate}.\n"
+"\n"
+"If you would still like to submit this attempt, please go to "
+"{$a->attemptsummaryurl} and click the submit button. You must do this before "
+"{$a->attemptgraceend} otherwise your attempt will not be counted."
+msgstr ""
+
+#: $string['emailoverduesmall']
+msgid ""
+"You did not submit your attempt at {$a->quizname}. Please go to "
+"{$a->attemptsummaryurl} before {$a->attemptgraceend} if you would still like "
+"to submit."
+msgstr ""
+
+#: $string['emailoverduesubject']
+msgid "Attempt now overdue: {$a->quizname}"
+msgstr ""
+
+#: $string['empty']
+msgid "Empty"
+msgstr "Κενό"
+
+#: $string['enabled']
+msgid "Enabled"
+msgstr "Ενεργοποιημένο"
+
+#: $string['endtest']
+msgid "Finish attempt ..."
+msgstr "Τέλος τεστ ..."
+
+#: $string['erroraccessingreport']
+msgid "You cannot access this report"
+msgstr "Δεν μπορείτε να προσπελάσετε αυτήν την αναφορά"
+
+#: $string['errorinquestion']
+msgid "Error in question"
+msgstr "Σφάλμα στην ερώτηση"
+
+#: $string['errormissingquestion']
+msgid "Error: The system is missing the question with id {$a}"
+msgstr "Σφάλμα: Το σύστημα δεν βρίσκει την ερώτηση με id {$a}"
+
+#: $string['errornotnumbers']
+msgid "Error - answers must be numeric"
+msgstr "Σφάλμα - οι απαντήσεις πρέπει να είναι αριθμητικές"
+
+#: $string['errorunexpectedevent']
+msgid ""
+"Unexpected event code {$a->event} found for question {$a->questionid} in "
+"attempt {$a->attemptid}."
+msgstr ""
+"Απρόσμενο συμβάν με κωδικό {$a->event} βρέθηκε για την ερώτηση "
+"{$a->questionid} στην προσπάθεια {$a->attemptid}."
+
+#: $string['essay']
+msgid "Essay"
+msgstr "Έκθεση"
+
+#: $string['essayquestions']
+msgctxt "$string['essayquestions']"
+msgid "Questions"
+msgstr "Ερωτήσεις"
+
+#: $string['eventattemptdeleted']
+msgid "Quiz attempt deleted"
+msgstr ""
+
+#: $string['eventattemptpreviewstarted']
+msgid "Quiz attempt preview started"
+msgstr ""
+
+#: $string['eventattemptreviewed']
+msgid "Quiz attempt reviewed"
+msgstr "Η προσπάθεια στο κουίζ επανεξετάστηκε"
+
+#: $string['eventattemptsummaryviewed']
+msgid "Quiz attempt summary viewed"
+msgstr ""
+
+#: $string['eventattemptviewed']
+msgid "Quiz attempt viewed"
+msgstr ""
+
+#: $string['eventeditpageviewed']
+msgid "Quiz edit page viewed"
+msgstr ""
+
+#: $string['eventoverridecreated']
+msgid "Quiz override created"
+msgstr ""
+
+#: $string['eventoverridedeleted']
+msgid "Quiz override deleted"
+msgstr ""
+
+#: $string['eventoverrideupdated']
+msgid "Quiz override updated"
+msgstr ""
+
+#: $string['eventquestionmanuallygraded']
+msgid "Question manually graded"
+msgstr "Η ερώτηση βαθμολογήθηκε χειροκίνητα"
+
+#: $string['eventquizattemptabandoned']
+msgid "Quiz attempt abandoned"
+msgstr "Η προσπάθεια στο κουίζ εγκαταλείφθηκε"
+
+#: $string['eventquizattemptstarted']
+msgid "Quiz attempt started"
+msgstr "Η προσπάθεια στο κουίζ ξεκίνησε"
+
+#: $string['eventquizattemptsubmitted']
+msgid "Quiz attempt submitted"
+msgstr "Η προσπάθεια στο κουίζ υποβλήθηκε"
+
+#: $string['eventquizattempttimelimitexceeded']
+msgid "Quiz attempt time limit exceeded"
+msgstr ""
+
+#: $string['eventreportviewed']
+msgid "Quiz report viewed"
+msgstr ""
+
+#: $string['everynquestions']
+msgid "Every {$a} questions"
+msgstr "Κάθε {$a} ερωτήσεις"
+
+#: $string['everyquestion']
+msgid "Every question"
+msgstr "Κάθε ερώτηση"
+
+#: $string['everythingon']
+msgid "Everything on"
+msgstr "Όλα σε"
+
+#: $string['exportcategory']
+msgid "export category"
+msgstr "εξαγωγή κατηγορίας"
+
+#: $string['exporterror']
+msgid "An error occurred during export processing"
+msgstr "Εντοπίστηκε σφάλμα κατά τη διαδικασία εξαγωγής"
+
+#: $string['exportingquestions']
+msgid "Questions are being exported to file"
+msgstr "Οι ερωτήσεις εξάγονται σε αρχείο"
+
+#: $string['exportname']
+msgid "File name"
+msgstr "Όνομα αρχείου"
+
+#: $string['exportquestions']
+msgid "Export questions to file"
+msgstr "Εξαγωγή ερωτήσεων σε αρχείο"
+
+#: $string['extraattemptrestrictions']
+msgid "Extra restrictions on attempts"
+msgstr "Εξτρά περιορισμοί στις προσπάθειες"
+
+#: $string['false']
+msgid "False"
+msgstr "Λάθος"
+
+#: $string['feedback']
+msgid "Feedback"
+msgstr "Ανάδραση"
+
+#: $string['feedbackerrorboundaryformat']
+msgid ""
+"Feedback grade boundaries must be either a percentage or a number. The value "
+"you entered in boundary {$a} is not recognised."
+msgstr ""
+"Τα όρια του βαθμού ανάδρασης πρέπει να είναι ποσοστό ή αριθμός. Η τιμή που "
+"εισαγάγατε στο όριο {$a} δεν είναι αναγνωρίσιμη."
+
+#: $string['feedbackerrorboundaryoutofrange']
+msgid ""
+"Feedback grade boundaries must be between 0% and 100%. The value you entered "
+"in boundary {$a} is out of range."
+msgstr ""
+"Τα όρια του βαθμού ανάδρασης πρέπει να είναι μεταξύ 0% και 100%. Η τιμή που "
+"εισαγάγατε στο όριο {$a} είναι εκτός ορίων."
+
+#: $string['feedbackerrorjunkinboundary']
+msgid ""
+"You must fill in the feedback grade boundary boxes without leaving any gaps."
+msgstr ""
+"Πρέπει να συμπληρώσετε τα πεδία για τα όρια του βαθμού ανάδρασης χωρίς να "
+"αφήσετε κενά."
+
+#: $string['feedbackerrorjunkinfeedback']
+msgid "You must fill in the feedback boxes without leaving any gaps."
+msgstr "Πρέπει να συμπληρώσετε τα πεδία της ανάδρασης χωρίς να αφήσετε κενά."
+
+#: $string['feedbackerrororder']
+msgid ""
+"Feedback grade boundaries must be in order, highest first. The value you "
+"entered in boundary {$a} is out of sequence."
+msgstr ""
+"Τα όρια του βαθμού ανάδρασης πρέπει να είναι σε σειρά με το μεγαλύτερο "
+"πρώτο. Η τιμή που εισαγάγατε στο όριο {$a} δεν είναι σε σειρά."
+
+#: $string['file']
+msgid "File"
+msgstr "Αρχείο"
+
+#: $string['fileformat']
+msgid "File format"
+msgstr "Μορφή αρχείου"
+
+#: $string['fillcorrect']
+msgid "Fill with correct"
+msgstr "Συμπληρώστε με το σωστό"
+
+#: $string['filloutnumericalanswer']
+msgid ""
+"You provide at least one possible answer and tolerance. The first matching "
+"answer will be used to determine the grade and feedback. If you supply some "
+"feedback with no answer at the end, that will be shown to students whose "
+"response is not matched by any of the other answers."
+msgstr ""
+"Δίνετε τουλάχιστον μια σωστή απάντηση και βαθμό ανοχής. Η πρώτη απάντηση που "
+"θα ταιριάζει θα καθορίζει το βαθμό και την ανάδραση. Αν δώσετε ανάδραση "
+"χωρίς απάντηση στο τέλος, αυτή θα εμφανίζεται στου μαθητές των οποίων οι "
+"απαντήσεις δεν ταιριάζουν με καμία απάντηση."
+
+#: $string['filloutoneanswer']
+msgid ""
+"You must provide at least one possible answer. Answers left blank will not "
+"be used. '*' can be used as a wildcard to match any characters. The first "
+"matching answer will be used to determine the grade and feedback."
+msgstr ""
+"Πρέπει να συμπληρώσετε τουλάχιστον μία πιθανή απάντηση. Οι κενές απαντήσεις "
+"δε θα χρησιμοποιηθούν. '*' μπορεί να χρησιμοποιηθεί σαν μπαλαντέρ για να "
+"ταιριάζει σε κάθε χαρακτήρα. Η πρώτη απάντηση που ταιριάζει θα "
+"χρησιμοποιηθεί για τον καθορισμό του βαθμού και της ανάδρασης."
+
+#: $string['filloutthreequestions']
+msgid ""
+"You must provide at least three questions with matching answers. You can "
+"provide extra wrong answers by giving an answer with a blank question. "
+"Entries where both the question and the answer are blank will be ignored."
+msgstr ""
+"Πρέπει να συμπληρώσετε τουλάχιστον τρεις ερωτήσεις με αντίστοιχες "
+"απαντήσεις. Μπορείτε να παρέχετε επιπλέον λάθος απαντήσεις δίνοντας μια "
+"απάντηση με κενή ερώτηση. Εισαγωγές όπου η ερώτηση και η απάντηση αφήνονται "
+"κενές θα αγνοηθούν."
+
+#: $string['fillouttwochoices']
+msgid ""
+"You must fill out at least two choices.  Choices left blank will not be "
+"used."
+msgstr ""
+"Πρέπει να συμπληρώσετε τουλάχιστον δυο επιλογές. Οι κενές επιλογές δε θα "
+"χρησιμοποιηθούν."
+
+#: $string['finishattemptdots']
+msgid "Finish attempt..."
+msgstr "Τελειώστε την προσπάθεια ..."
+
+#: $string['finishreview']
+msgid "Finish review"
+msgstr "Τερματισμός ανασκόπησης"
+
+#: $string['forceregeneration']
+msgid "force regeneration"
+msgstr "επιβολή επαναδημιουργίας"
+
+#: $string['formatnotfound']
+msgid "Import/export format {$a} not found"
+msgstr "Μορφή εισαγωγής/εξαγωγής {$a} δε βρέθηκε"
+
+#: $string['formulaerror']
+msgid "Formula errors!"
+msgstr "Σφάλματα!"
+
+#: $string['fractionsaddwrong']
+msgid ""
+"The positive grades you have chosen do not add up to 100%<br />Instead, they "
+"add up to {$a}%<br />Do you want to go back and fix this question?"
+msgstr ""
+"Οι θετικές βαθμολογίες που επιλέξατε δεν αθροίζονται ως το 100%\n"
+"<br />Αντίθετα, αθροίζονται στο {$a}%\n"
+"<br />Θέλετε να γυρίσετε πίσω και να τροποποιήσετε την ερώτηση;"
+
+#: $string['fractionsnomax']
+msgid ""
+"One of the answers should be 100%, so that it is<br />possible to get a full "
+"grade for this question.<br />Do you want to go back and fix this question?"
+msgstr ""
+"Μια από τις ερωτήσεις θα έπρεπε να είναι 100%, έτσι ώστε να είναι δυνατό\n"
+"<br />να πάρει κάποιος το σύνολο της βαθμολογίας σε αυτή την ερώτηση.\n"
+"<br />Θέλετε να επιστρέψετε και να τροποποιήσετε την ερώτηση;"
+
+#: $string['fromfile']
+msgid "from file:"
+msgstr "από αρχείο:"
+
+#: $string['functiondisabledbysecuremode']
+msgid "That functionality is currently disabled"
+msgstr "Αυτή η λειτουργία είναι απενεργοποιημένη"
+
+#: $string['generalfeedback']
+msgid "General feedback"
+msgstr "Γενική ανάδραση"
+
+#: $string['generalfeedback_help']
+msgid ""
+"General feedback is text which is shown after a question has been attempted. "
+"Unlike feedback for a specific question which depends on the response "
+"given, the same general feedback is always shown."
+msgstr ""
+"<p>Η γενική ανάδραση για μια ερώτηση είναι το κείμενο που εμφανίζεται σε "
+"όλους τους μαθητές αφότου απαντήσουν στην ερώτηση αυτή.\n"
+"Σε αντίθεση με την ανάδραση, η οποία εξαρτάται από το είδος της ερώτησης και "
+"την απάντηση του μαθητή, η γενική ανάδραση προβάλλεται σε όλους τους "
+"μαθητές και είναι πάντα η ίδια.</p>\n"
+"\n"
+"<p> Μπορείτε να ορίσετε πότε επιθυμείτε να προβάλλεται η γενική ανάδραση "
+"στους μαθητές χρησιμοποιώντας τις επιλογές στη φόρμα επεξεργασίας του "
+"κουίζ.</p>\n"
+"\n"
+"<p>Μπορείτε να χρησιμοποιήσετε τη γενική ανάδραση για να δώσετε στους "
+"μαθητές πληροφορίες σχετικά με το αντικείμενο που ελέγχει η εκάστοτε "
+"ερώτηση, ή να συμπεριλάβετε συνδέσμους προς περισσότερες πληροφορίες για "
+"όσους τις χρειάζονται.</p>"
+
+#: $string['graceperiod']
+msgid "Submission grace period"
+msgstr ""
+
+#: $string['graceperiod_desc']
+msgid ""
+"If what to do when time expires is set to 'Allow a grace period to submit, "
+"but not change any responses', this is the default amount of extra time that "
+"is allowed."
+msgstr ""
+
+#: $string['graceperiod_help']
+msgid ""
+"If what to do when time expires is set to 'Allow a grace period to submit, "
+"but not change any responses', this is the amount of extra time that is "
+"allowed."
+msgstr ""
+
+#: $string['graceperiodmin']
+msgid "Last submission grace period"
+msgstr ""
+
+#: $string['graceperiodmin_desc']
+msgid ""
+"There is a potential problem right at the end of the quiz. On the one hand, "
+"we want to let students continue working right up until the last second - "
+"with the help of the timer that automatically submits the quiz when time "
+"runs out. On the other hand, the server may then be overloaded, and take "
+"some time to get to process the responses. Therefore, we will accept "
+"responses for up to this long after time expires, so they are not penalised "
+"for the server being slow. However, the student could cheat and get this "
+"many seconds to answer the quiz. You have to make a trade-off based on how "
+"much you trust the performance of your server during quizzes."
+msgstr ""
+
+#: $string['graceperiodtoosmall']
+msgid "The grace period must be more than {$a}."
+msgstr "Η περίοδος χάριτος πρέπει να είναι περισσότερο από {$a}."
+
+#: $string['grade']
+msgid "Grade"
+msgstr "Βαθμός"
+
+#: $string['gradeall']
+msgid "Grade all"
+msgstr "Βαθμολόγηση Όλων"
+
+#: $string['gradeaverage']
+msgid "Average grade"
+msgstr "Μέσος βαθμός"
+
+#: $string['gradeboundary']
+msgid "Grade boundary"
+msgstr "Όριο βαθμού"
+
+#: $string['gradeessays']
+msgid "Grade essays"
+msgstr "Βαθμολόγηση Εκθέσεων"
+
+#: $string['gradehighest']
+msgid "Highest grade"
+msgstr "Ο υψηλότερος βαθμός"
+
+#: $string['grademethod']
+msgid "Grading method"
+msgstr "Μέθοδος βαθμολόγησης"
+
+#: $string['grademethod_help']
+msgid ""
+"When multiple attempts are allowed, the following methods are available for "
+"calculating the final quiz grade:\n"
+"\n"
+"* Highest grade of all attempts\n"
+"* Average (mean) grade of all attempts\n"
+"* First attempt (all other attempts are ignored)\n"
+"* Last attempt (all other attempts are ignored)"
+msgstr ""
+"<p>Όταν επιτρέπονται οι πολλαπλές προσπάθειες, υπάρχουν διαφορετικοί\n"
+"τρόποι τους οποίους μπορείτε να χρησιμοποιήσετε τους βαθμούς για να "
+"υπολογίσετε\n"
+"τον τελικό βαθμό κάθε μαθητή.</p>\n"
+"\n"
+"<h2>Ο μεγαλύτερος βαθμός</h2>\n"
+"<p>Ο τελικός βαθμός είναι ο υψηλότερος (καλύτερος) βαθμός από όλες τις "
+"προσπάθειες.</p>\n"
+"\n"
+"<h2>Μέσος όρος</h2>\n"
+"<p>Ο τελικός βαθμός είναι ο μέσος όρος όλων των προσπαθειών.</p>\n"
+"\n"
+"<h2>Πρώτος βαθμός</h2>\n"
+"<p>Ο τελικός βαθμός είναι ο βαθμός που αποκτάται κατά την πρώτη προσπάθεια "
+"(τυχόν επόμενες προσπάθειες αγνοούνται).</p>\n"
+"\n"
+"<h2>Τελικός βαθμός</h2>\n"
+"<p>Ο τελικός βαθμός είναι ο βαθμός μόνο από τη πιο πρόσφατη προσπάθεια (οι "
+"προηγούμενες προσπάθειες αγνοούνται).</p>"
+
+#: $string['gradesdeleted']
+msgid "Quiz grades deleted"
+msgstr "Οι βαθμοί του κουίζ διαγραφηκαν"
+
+#: $string['gradesofar']
+msgid "{$a->method}: {$a->mygrade} / {$a->quizgrade}."
+msgstr "{$a->method}: {$a->mygrade} / {$a->quizgrade}."
+
+#: $string['gradetopassmustbeset']
+msgid ""
+"Grade to pass cannot be zero as this quiz has its completion method set to "
+"require passing grade. Please set a non-zero value."
+msgstr ""
+
+#: $string['gradetopassnotset']
+msgid ""
+"This quiz does not have a grade to pass set so you cannot use this option. "
+"Please use the require grade setting instead."
+msgstr ""
+
+#: $string['gradingdetails']
+msgid "Marks for this submission: {$a->raw}/{$a->max}."
+msgstr "Βαθμοί για αυτήν την υποβολή:  {$a->raw}/{$a->max}."
+
+#: $string['gradingdetailsadjustment']
+msgid ""
+"With previous penalties this gives <strong>{$a->cur}/{$a->max}</strong>."
+msgstr ""
+"Με τις προηγούμενες ποινές αυτό δίνει <strong>{$a->cur}/{$a->max}</strong>."
+
+#: $string['gradingdetailspenalty']
+msgid "This submission attracted a penalty of {$a}."
+msgstr "Αυτή η υποβολή είχε ποινή {$a}."
+
+#: $string['gradingdetailszeropenalty']
+msgid "You were not penalized for this submission."
+msgstr "Δεν δεχθήκατε ποινή για αυτήν την υποβολή."
+
+#: $string['gradingmethod']
+msgid "Grading method: {$a}"
+msgstr "Μέθοδος βαθμολόγησης: {$a}"
+
+#: $string['groupoverrides']
+msgid "Group overrides"
+msgstr ""
+
+#: $string['groupoverridesdeleted']
+msgid "Group overrides deleted"
+msgstr ""
+
+#: $string['groupsnone']
+msgid "There are no groups in this course"
+msgstr "Δεν υπάρχουν ομάδες σε αυτό το μάθημα"
+
+#: $string['guestsno']
+msgid "Sorry, guests cannot see or attempt quizzes"
+msgstr "Δυστυχώς οι επισκέπτες δε μπορούν να δουν ή να συμμετέχουν σε κουίζ"
+
+#: $string['hidebreaks']
+msgid "Hide page breaks"
+msgstr "Απόκρυψη αλλαγών σελίδας"
+
+#: $string['hidereordertool']
+msgid "Hide the reordering tool"
+msgstr "Απόκρυψη του εργαλείου αναταξινόμησης"
+
+#: $string['history']
+msgid "History of responses:"
+msgstr "Ιστορικό αποκρίσεων:"
+
+#: $string['howquestionsbehave_desc']
+msgid "Default setting for how questions behave in a quiz."
+msgstr ""
+"Προεπιλεγμένη ρύθμιση για το πώς συμπεριφέρονται οι ερωτήσεις στο κουίζ."
+
+#: $string['imagedisplay']
+msgid "Image to display"
+msgstr "Εικόνα πρός εμφάνιση"
+
+#: $string['importcategory']
+msgid "import category"
+msgstr "εισαγωγή κατηγορίας"
+
+#: $string['importerror']
+msgid "An error occurred during import processing"
+msgstr "Εντοπίστηκε σφαλμα κατά τη διαδικασία εισαγωγής"
+
+#: $string['importfilearea']
+msgid "Import from file already in course files..."
+msgstr "Εισαγωγή από αρχείο που ήδη υπάρχει σε μάθημα..."
+
+#: $string['importfileupload']
+msgid "Import from file upload..."
+msgstr "Εισαγωγή από αρχείο..."
+
+#: $string['importfromthisfile']
+msgid "Import from this file"
+msgstr "Εισαγωγή από αυτό το αρχείο"
+
+#: $string['import_help']
+msgid ""
+"This function allows you to import questions from external text files.\n"
+"\n"
+"If your file contains non-ascii characters then it must use UTF-8 encoding. "
+"Be particularly cautious with files generated by Microsoft Office "
+"applications, as these commonly use special encoding which will not be "
+"handled correctly.\n"
+"\n"
+"Import and Export formats are a pluggable resource. Other optional formats "
+"may be available in the Modules and Plugins database."
+msgstr ""
+
+#: $string['importingquestions']
+msgid "Importing {$a} questions from file"
+msgstr "Εισαγωγή {$a} ερωτήσεων από αρχείο"
+
+#: $string['import_link']
+msgid "question/import"
+msgstr ""
+
+#: $string['importmax10error']
+msgid ""
+"There is an error in the question. You may not have more than ten answers"
+msgstr ""
+"Υπάρχει σφάλμα στην ερώτηση. Δεν μπορείτε να έχετε περισσότερες από δέκα "
+"απαντήσεις"
+
+#: $string['importmaxerror']
+msgid "There is an error in the question. There are too many answers."
+msgstr "Υπάρχει σφάλμα στην ερώτηση. Υπάρχουν πάρα πολλές απαντήσεις."
+
+#: $string['importquestions']
+msgid "Import questions from file"
+msgstr "Εισαγωγή ερωτήσεων από αρχείο"
+
+#: $string['inactiveoverridehelp']
+msgid "* Student does not have the correct group or role to attempt the quiz"
+msgstr ""
+
+#: $string['incorrect']
+msgid "Incorrect"
+msgstr "Λάθος"
+
+#: $string['indicator:cognitivedepth']
+msgid "Quiz cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepth_help']
+msgid ""
+"This indicator is based on the cognitive depth reached by the student in a "
+"Quiz activity."
+msgstr ""
+
+#: $string['indicator:socialbreadth']
+msgid "Quiz social"
+msgstr ""
+
+#: $string['indicator:socialbreadth_help']
+msgid ""
+"This indicator is based on the social breadth reached by the student in a "
+"Quiz activity."
+msgstr ""
+
+#: $string['indivresp']
+msgid "Responses of individuals to each item"
+msgstr "Απαντήσεις χρηστών σε κάθε αντικείμενο"
+
+#: $string['info']
+msgid "Info"
+msgstr "Πληροφορίες"
+
+#: $string['infoshort']
+msgid "i"
+msgstr "i"
+
+#: $string['initialnumfeedbacks']
+msgid "Initial number of overall feedback fields"
+msgstr ""
+
+#: $string['initialnumfeedbacks_desc']
+msgid ""
+"When creating a new quiz, provide this many blank overall feedback boxes. "
+"Once the quiz has been created, the form shows the number of fields required "
+"for the number of feedbacks in the quiz. The setting must be at least 1."
+msgstr ""
+
+#: $string['inprogress']
+msgctxt "$string['inprogress']"
+msgid "In progress"
+msgstr "Σε εξέλιξη"
+
+#: $string['introduction']
+msgctxt "$string['introduction']"
+msgid "Description"
+msgstr "Εισαγωγή"
+
+#: $string['invalidattemptid']
+msgid "No such attempt ID exists"
+msgstr "Δεν υπάρχει αυτή η προσπάθεια"
+
+#: $string['invalidcategory']
+msgid "Category ID is invalid"
+msgstr "Το ID της κατηγορίας είναι λάθος"
+
+#: $string['invalidoverrideid']
+msgid "Invalid override id"
+msgstr ""
+
+#: $string['invalidquestionid']
+msgid "Invalid question id"
+msgstr "Λανθασμένο id ερώτησης"
+
+#: $string['invalidquizid']
+msgid "Invalid quiz ID"
+msgstr "Λανθασμένο ID κουίζ"
+
+#: $string['invalidsource']
+msgid "The source is not accepted as valid."
+msgstr "Μη έγκυρη πηγή."
+
+#: $string['invalidsourcetype']
+msgid "Invalid source type."
+msgstr "Λάθος τύπος πηγής."
+
+#: $string['invalidstateid']
+msgid "Invalid state id"
+msgstr "Λανθασμένο id κατάστασης"
+
+#: $string['lastanswer']
+msgid "Your last answer was"
+msgstr "Η τελευταία σας απάντηση ήταν"
+
+#: $string['layout']
+msgid "Layout"
+msgstr "Διάταξη"
+
+#: $string['layoutasshown']
+msgid "Page layout as shown."
+msgstr "Διάταξη σελίδας όπως φαίνεται."
+
+#: $string['layoutasshownwithpages']
+msgid ""
+"Page layout as shown. <small>(Automatic new page every {$a} "
+"questions.)</small>"
+msgstr ""
+"Διάταξη σελίδας όπως φαίνεται. <small>(Νέα σελίδα κάθε {$a} "
+"ερωτήσεις.)</small>"
+
+#: $string['layoutshuffledandpaged']
+msgid "Questions randomly shuffled with {$a} questions per page."
+msgstr "Οι ερωτήσεις ανακατεύονται τυχαία με {$a} ερωτήσεις ανά σελίδα."
+
+#: $string['layoutshuffledsinglepage']
+msgid "Questions randomly shuffled, all on one page."
+msgstr "Οι ερωτήσεις ανακατεύονται τυχαία, όλες σε μια σελίδα."
+
+#: $string['link']
+msgid "Link"
+msgstr "Σύνδεσμος"
+
+#: $string['listitems']
+msgid "Listing of items in quiz"
+msgstr "Λίστα αντικειμένων στο κουίζ"
+
+#: $string['literal']
+msgid "Literal"
+msgstr "Κυριολεκτικά"
+
+#: $string['loadingquestionsfailed']
+msgid "Loading questions failed: {$a}"
+msgstr "Η φόρτωση ερωτήσεων απέτυχε: {$a}"
+
+#: $string['makecopy']
+msgid "Save as new question"
+msgstr "Αποθήκευση ως νέα ερώτηση"
+
+#: $string['managetypes']
+msgid "Manage question types and servers"
+msgstr "Διαχείριση τύπων ερωτήσεων και servers"
+
+#: $string['manualgradequestion']
+msgid "Manually grade question {$a->question} in {$a->quiz} by {$a->user}"
+msgstr ""
+
+#: $string['manualgrading']
+msgid "Grading"
+msgstr "Βαθμολόγηση"
+
+#: $string['mark']
+msgid "Submit"
+msgstr "Υποβολή"
+
+#: $string['markall']
+msgid "Submit page"
+msgstr "Υποβολή σελίδας"
+
+#: $string['marks']
+msgid "Marks"
+msgstr "Βαθμοί"
+
+#: $string['marks_help']
+msgid "The numerical marks for each question, and the overall attempt score."
+msgstr ""
+
+#: $string['match']
+msgid "Matching"
+msgstr "Αντιστοιχούν"
+
+#: $string['matchanswer']
+msgid "Matching answer"
+msgstr "Αντίστοιχη απάντηση"
+
+#: $string['matchanswerno']
+msgid "Matching answer {$a}"
+msgstr "Αντίστοιχη απάντηση {$a}"
+
+#: $string['max']
+msgid "Max"
+msgstr "Μέγιστο"
+
+#: $string['maxmark']
+msgid "Maximum mark"
+msgstr "Μέγιστος βαθμός"
+
+#: $string['messageprovider:attempt_overdue']
+msgid "Warning when your quiz attempt becomes overdue"
+msgstr ""
+
+#: $string['messageprovider:confirmation']
+msgid "Confirmation of your own quiz submissions"
+msgstr "Επιβεβαίωση για την υποβολή quiz"
+
+#: $string['messageprovider:submission']
+msgid "Notification of quiz submissions"
+msgstr "Ειδοποίηση υποβολών κουίζ"
+
+#: $string['min']
+msgid "Min"
+msgstr "Ελάχιστο"
+
+#: $string['minutes']
+msgid "Minutes"
+msgstr "Λεπτά"
+
+#: $string['missingcorrectanswer']
+msgid "Correct answer must be specified"
+msgstr "Η σωστή απάντηση πρέπει να προσδιοριστεί"
+
+#: $string['missingitemtypename']
+msgid "Missing name"
+msgstr "Απόν όνομα"
+
+#: $string['missingquestion']
+msgid "This question no longer seems to exist"
+msgstr "Αυτή η ερώτηση δεν φαίνεται πλέον να υπάρχει"
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Quiz"
+msgstr "Κουίζ"
+
+#: $string['modulename_help']
+msgid ""
+"The quiz activity enables a teacher to create quizzes comprising questions "
+"of various types, including multiple choice, matching, short-answer and "
+"numerical.\n"
+"\n"
+"The teacher can allow the quiz to be attempted multiple times, with the "
+"questions shuffled or randomly selected from the question bank. A time limit "
+"may be set.\n"
+"\n"
+"Each attempt is marked automatically, with the exception of essay questions, "
+"and the grade is recorded in the gradebook.\n"
+"\n"
+"The teacher can choose when and if hints, feedback and correct answers are "
+"shown to students.\n"
+"\n"
+"Quizzes may be used\n"
+"\n"
+"* As course exams\n"
+"* As mini tests for reading assignments or at the end of a topic\n"
+"* As exam practice using questions from past exams\n"
+"* To deliver immediate feedback about performance\n"
+"* For self-assessment"
+msgstr ""
+
+#: $string['modulename_link']
+msgid "mod/quiz/view"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Quizzes"
+msgstr "Κουίζ"
+
+#: $string['moveselectedonpage']
+msgid "Move selected questions to page: {$a}"
+msgstr "Μετακίνηση επιλεγμένων ερωτήσεων στη σελίδα: {$a}"
+
+#: $string['multichoice']
+msgid "Multiple choice"
+msgstr "Πολλαπλή επιλογή"
+
+#: $string['multipleanswers']
+msgid "Choose at least one answer."
+msgstr "Επιλέξτε τουλάχιστον μία απάντηση."
+
+#: $string['mustbesubmittedby']
+msgid "This attempt must be submitted by {$a}."
+msgstr "Αυτή η προσπάθεια πρέπει να υποβληθεί από {$a}."
+
+#: $string['name']
+msgid "Name"
+msgstr "Όνομα"
+
+#: $string['navigatenext']
+msgid "Next page"
+msgstr "Επόμενη σελίδα"
+
+#: $string['navigateprevious']
+msgid "Previous page"
+msgstr "Προηγούμενη σελίδα"
+
+#: $string['navmethod']
+msgid "Navigation method"
+msgstr "Μέθοδο πλοήγησης"
+
+#: $string['navmethod_free']
+msgid "Free"
+msgstr ""
+
+#: $string['navmethod_help']
+msgid ""
+"When sequential navigation is enabled a student must progress through the "
+"quiz in order and may not return to previous pages nor skip ahead."
+msgstr ""
+
+#: $string['navmethod_seq']
+msgid "Sequential"
+msgstr "Διαδοχική"
+
+#: $string['navnojswarning']
+msgid ""
+"Warning: these links will not save your answers. Use the next button at the "
+"bottom of the page."
+msgstr ""
+
+#: $string['neverallononepage']
+msgid "Never, all questions on one page"
+msgstr "Ποτέ, όλες οι έρωτήσεις σε μια σελίδα"
+
+#: $string['newattemptfail']
+msgid "Error: Could not start a new attempt at the quiz"
+msgstr "Σφάλμα: Δεν ήταν δυνατή η εκκίνηση νέας προσπάθειας στο κουίζ"
+
+#: $string['newpage']
+msgid "New page"
+msgstr "Νέα σελίδα"
+
+#: $string['newpageevery']
+msgid "Automatically start a new page"
+msgstr "Αυτόματο ξεκίνημα νέας σελίδας"
+
+#: $string['newpage_help']
+msgid ""
+"For longer quizzes it makes sense to stretch the quiz over several pages by "
+"limiting the number of questions per page. When adding questions to the "
+"quiz, page breaks will automatically be inserted according to this setting. "
+"However page breaks may later be moved manually on the editing page."
+msgstr ""
+"<p>Για τα κουίζ μεγαλύτερου μεγέθους είναι καλό να \"σπάει\" το κουίζ σε "
+"πολλές σελίδες,\n"
+"   μειώνοντας έτσι τον αριθμό των ερωτήσεων που εμφανίζονται ταυτόχρονα σε "
+"κάθε σελίδα.\n"
+"   Όταν προσθέτετε ερωτήσεις στο κουίζ, προστίθενται αυτόματα και αλλαγές "
+"σελίδων με βάση\n"
+"   την επιλογή που έχετε κάνει εδώ. Σε κάθε περίπτωση, μπορείτε να "
+"μετακινείτε τις αλλαγές\n"
+"   σελίδων χειροκίνητα.</p>"
+
+#: $string['newsectionheading']
+msgid "New heading"
+msgstr ""
+
+#: $string['noanswers']
+msgid "No answers were selected!"
+msgstr "Δεν επιλέχθηκε καμία απάντηση!"
+
+#: $string['noattempts']
+msgid "No attempts have been made on this quiz"
+msgstr "Καμιά προσπάθεια δεν έγινε γι' αυτό το κουίζ"
+
+#: $string['noattemptsfound']
+msgid "No attempts found."
+msgstr "Δεν βρέθηκαν προσπάθειες."
+
+#: $string['noattemptstoshow']
+msgid "There are no attempts to show"
+msgstr "Δεν υπάρχουν προσπάθειες για εμφάνιση"
+
+#: $string['nocategory']
+msgid "Incorrect or no category specified"
+msgstr "Εσφαλμένη ή μη επιλεγμένη κατηγορία"
+
+#: $string['noclose']
+msgid "No close date"
+msgstr "Καμία ημερομηνία κλεισίματος"
+
+#: $string['nocommentsyet']
+msgid "No comments yet."
+msgstr "Δεν υπάρχουν σχόλια προς το παρόν."
+
+#: $string['noconnection']
+msgid ""
+"There is currently no connection to a web service that can process this "
+"question. Please contact your administrator"
+msgstr ""
+"Δεν υπάρχει αυτή τη στιγμή σύνδεση σε μία web service για την επεξεργασία "
+"αυτής της ερώτησης. Παρακαλώ επικοινωνήστε με το διαχειριστή"
+
+#: $string['nodataset']
+msgid "nothing - it is not a wild card"
+msgstr "τίποτα - δεν είναι μπαλαντέρ"
+
+#: $string['nodatasubmitted']
+msgid "No data was submitted."
+msgstr "Δεν υποβλήθηκαν δεδομένω."
+
+#: $string['noessayquestionsfound']
+msgid "No manually graded questions found"
+msgstr "Δεν βρέθηκαν ερωτήσεις που να βαθμολογήθηκαν χειροκίνητα"
+
+#: $string['nogradewarning']
+msgid ""
+"This quiz is not graded, so you cannot set overall feedback that differs by "
+"grade."
+msgstr ""
+"Αυτό το κουίζ δε βαθμολογείται, συνεπώς δεν μπορείτε να ορίσετε συνολική "
+"ανατροφοδότηση που διαφέρει ανάλογα με το βαθμό."
+
+#: $string['nomoreattempts']
+msgid "No more attempts are allowed"
+msgstr "Δεν επιτρέπονται άλλες προσπάθειες"
+
+#: $string['none']
+msgid "None"
+msgstr "Κανένα"
+
+#: $string['noopen']
+msgid "No open date"
+msgstr "Καμία ημερομηνία ανοιχτή"
+
+#: $string['nooverridedata']
+msgid "You must override at least one of the quiz settings."
+msgstr ""
+
+#: $string['nopossibledatasets']
+msgid "No possible datasets"
+msgstr "Κανένα πιθανό σύνολο δεδομένων"
+
+#: $string['noquestionintext']
+msgid "The question text does not contain any embedded questions"
+msgstr "Το κείμενο της ερώτησης δεν περιέχει ενσωματωμένες ερωτήσεις"
+
+#: $string['noquestions']
+msgid "No questions have been added yet"
+msgstr "Καμία ερώτηση δεν έχει προστεθεί ακόμα"
+
+#: $string['noquestionsfound']
+msgid "No questions found"
+msgstr "Δεν βρέθηκαν ερωτήσεις"
+
+#: $string['noquestionsinquiz']
+msgid "There are no questions in this quiz."
+msgstr "Δεν υπαχουν ερωτήσεις σε αυτό το κουίζ."
+
+#: $string['noquestionsnotinuse']
+msgid "This random question is not in use, since its category is empty."
+msgstr ""
+"Αυτή η τυχαία ερώτηση δε χρησιμοποιείται από τη στιγμή που η κατηγορία της "
+"είναι κενή."
+
+#: $string['noquestionsonpage']
+msgid "Empty page"
+msgstr "Κενή σελίδα"
+
+#: $string['noresponse']
+msgid "No response"
+msgstr "Καμία απόκριση"
+
+#: $string['noreview']
+msgid "You are not allowed to review this quiz"
+msgstr "Δε σας επιτρέπεται να αναθεωρήσετε αυτό το κουίζ"
+
+#: $string['noreviewattempt']
+msgid "You are not allowed to review this attempt."
+msgstr "Δεν επιτρέπεται να επανεξετάσετε αυτήν την προσπάθεια."
+
+#: $string['noreviewshort']
+msgid "Not permitted"
+msgstr "Δεν επιτρέπεται"
+
+#: $string['noreviewuntil']
+msgid "You are not allowed to review this quiz until {$a}"
+msgstr "Δε σας επιτρέπεται να αναθεωρήσετε αυτό το κουίζ μέχρι {$a}"
+
+#: $string['noreviewuntilshort']
+msgid "Available {$a}"
+msgstr "Διαθέσιμο {$a}"
+
+#: $string['noscript']
+msgid "JavaScript must be enabled to continue!"
+msgstr "Η Javascript πρέπει να είναι ενεργοποιημένη για να συνεχίσετε!"
+
+#: $string['notavailabletostudents']
+msgid "Note: This quiz is not currently available to your students"
+msgstr ""
+"Σημείωση: Αυτό το κουίζ δεν είναι προς το παρόν διαθέσιμο για τους μαθητές"
+
+#: $string['notenoughrandomquestions']
+msgid ""
+"There are not enough questions in category {$a->category} to create the "
+"question {$a->name} ({$a->id})."
+msgstr ""
+"Δεν υπάρχουν αρκετά ερωτήματα στην κατηγορία {$a->category} να δημιουργήσετε "
+"το ερώτημα {$a->name} ({$a->id})."
+
+#: $string['notenoughsubquestions']
+msgid ""
+"Not enough sub-questions have been defined!<br />Do you want to go back and "
+"fix this question?"
+msgstr ""
+"Δεν έχουν οριστεί αρκετά υποερωτήματα!<br />\n"
+"Θέλετε να επιστρέψετε και να διορθώσετε αυτήν την ερώτηση;"
+
+#: $string['notimedependentitems']
+msgid ""
+"Time dependent items are not currently supported by the quiz module. As a "
+"work around, set a time limit for the whole quiz. Do you wish to choose a "
+"different item (or use the current item regardless)?"
+msgstr ""
+"Αντικείμενα που σχετίζονται με χρονικό όριο δεν υποστηρίζονται από το "
+"μηχανισμό του κουίζ. Εναλλακτικά, μπορείτε να θέσετε ένα χρονικό όριο για "
+"όλα το κουίζ. Θέλετε να επιλέξετε άλλο αντικείμενο (η να χρησιμοποιήσετε "
+"αυτό ανεξαρτήτως χρόνου);"
+
+#: $string['notyetgraded']
+msgid "Not yet graded"
+msgstr "Δεν έχει βαθμολογηθεί ακόμη"
+
+#: $string['notyetviewed']
+msgid "Not yet viewed"
+msgstr "Καμία προβολή ακόμη"
+
+#: $string['notyourattempt']
+msgid "This is not your attempt!"
+msgstr "Αυτή δεν είναι δική σας προσπάθεια!"
+
+#: $string['noview']
+msgid "Logged-in user is not allowed to view this quiz"
+msgstr "Ο εισηγμένος χρήσης δεν έχει δικαίωμα προβολής αυτού του κουίζ"
+
+#: $string['numattempts']
+msgid ""
+"{$a->studentnum} {$a->studentstring} have made {$a->attemptnum} attempts"
+msgstr ""
+"{$a->studentnum} {$a->studentstring} έχουν κάνει {$a->attemptnum} "
+"προσπάθειες"
+
+#: $string['numattemptsmade']
+msgid "{$a} attempts made on this quiz"
+msgstr "{$a} προσπάθειες έχουν γίνει σε αυτό το κουίζ"
+
+#: $string['numberabbr']
+msgid "#"
+msgstr "#"
+
+#: $string['numerical']
+msgid "Numerical"
+msgstr "Αριθμητικό"
+
+#: $string['numquestionsx']
+msgid "Questions: {$a}"
+msgstr "ερωτήσεις: {$a}"
+
+#: $string['oneminute']
+msgid "1 minute"
+msgstr "1 λεπτό"
+
+#: $string['onlyteachersexport']
+msgid "Only teachers can export questions"
+msgstr "Μόνο οι καθηγητές μπορούν να εξαγάγουν ερωτήσεις"
+
+#: $string['onlyteachersimport']
+msgid "Only teachers with editing rights can import questions"
+msgstr ""
+"Μόνο οι καθηγητές με δικαίωμα επεξεργασίας μπορούν να εισαγάγουν ερωτήσεις"
+
+#: $string['onthispage']
+msgid "This page"
+msgstr "Αυτή η σελίδα"
+
+#: $string['open']
+msgid "Not answered"
+msgstr "Άρχισε"
+
+#: $string['openafterclose']
+msgid ""
+"Could not update the quiz. You have specified an open date after the close "
+"date."
+msgstr ""
+
+#: $string['openclosedatesupdated']
+msgid "Quiz open and close dates updated"
+msgstr "κουίζ ανοιχτό και οι ημερομηνίες κλεισίματος έχουν ανανεωθεί"
+
+#: $string['optional']
+msgid "optional"
+msgstr "προαιρετικό"
+
+#: $string['orderandpaging']
+msgctxt "$string['orderandpaging']"
+msgid "Order and paging"
+msgstr "Σειρά και σελιδοποίηση"
+
+#: $string['orderandpaging_help']
+msgid ""
+"The numbers 10, 20, 30, ... opposite each question indicate the order of the "
+"questions. The numbers increase in steps of 10 to leave space for "
+"additional questions to be inserted. To reorder the questions, change the "
+"numbers then click the \"Reorder questions\" button.\n"
+"\n"
+"To add page breaks after particular questions, tick the checkboxes next to "
+"the questions then click the \"Add new pages after selected questions\" "
+"button.\n"
+"\n"
+"To arrange the questions over a number of pages, click the Repaginate button "
+"and select the desired number of questions per page."
+msgstr ""
+
+#: $string['orderingquiz']
+msgctxt "$string['orderingquiz']"
+msgid "Order and paging"
+msgstr "Σειρά και σελιδοποίηση"
+
+#: $string['orderingquizx']
+msgid "Order and paging: {$a}"
+msgstr ""
+
+#: $string['outcomesadvanced']
+msgid "Outcomes are advanced settings"
+msgstr ""
+
+#: $string['outof']
+msgid "{$a->grade} out of {$a->maxgrade}"
+msgstr "{$a->grade} από ένα μέγιστο {$a->maxgrade}"
+
+#: $string['outofpercent']
+msgid "{$a->grade} out of {$a->maxgrade} ({$a->percent}%)"
+msgstr "{$a->grade} από ένα μέγισο {$a->maxgrade} ({$a->percent}%)"
+
+#: $string['outofshort']
+msgid "{$a->grade}/{$a->maxgrade}"
+msgstr "{$a->grade}/{$a->maxgrade}"
+
+#: $string['overallfeedback']
+msgctxt "$string['overallfeedback']"
+msgid "Overall feedback"
+msgstr "Συνολική ανάδραση"
+
+#: $string['overallfeedback_help']
+msgid ""
+"Overall feedback is text that is shown after a quiz has been attempted. By "
+"specifying additional grade boundaries (as a percentage or as a number), the "
+"text shown can depend on the grade obtained."
+msgstr ""
+"<p>Η γενική ανάδραση είναι κάποιο κείμενο που εμφανίζεται στον μαθητή μόλις "
+"αυτός ολοκληρώσει\n"
+"την προσπάθειά του σε ένα κουίζ. Το κείμενο αυτό μπορεί να βασίζεται στη "
+"βαθμολογία που επιτεύχθηκε.</p>\n"
+"\n"
+"<p>Για παράδειγμα, αν εισάγετε:</p>\n"
+"\n"
+"<p>Όριο βαθμολόγησης: 100%<br />\n"
+"Ανατροφοδότηση: πολύ καλά, συγχαρητήρια!<br />\n"
+"Όριο βαθμολόγησης: 40%<br />\n"
+"Ανατροφοδότηση: Παρακαλώ ξαναμελετήστε την ύλη της εβδομάδας<br />\n"
+"...<br />\n"
+"Όριο βαθμολόγησης: 0%</p>\n"
+"\n"
+"<p>τότε στους διδασκόμενους με επίδοση από 100% ως 40% θα εμφανιστεί το "
+"μήνυμα \"πολύ καλά, συγχαρητήρια\", ενώ σε\n"
+"αυτούς με επίδοση 39,99% ως 0% θα εμφανιστεί το άλλο μήνυμα. Tα όρια "
+"βαθμολόγησης ορίζουν το εύρος των βαθμών\n"
+"και κάθε μήνυμα ανάδρασης αναφέρεται στο σχετικό διάστημα.</p>\n"
+"\n"
+"<p>Τα όρια βαθμολόγησης μπορούν να οριστούν με ποσοστά επι τοις εκατό, π.χ. "
+"\"31,41%\", ή απλά με έναν αριθμό, π.χ. \"7\". Αν\n"
+"η άσκηση τύπου κουίζ δίνει μέγιστη βαθμολογία 10 βαθμών, το όριο "
+"βαθμολόγησης \"7\" σημαίνει 7/10 ή περισσότερο.</p>"
+
+#: $string['overdue']
+msgctxt "$string['overdue']"
+msgid "Overdue"
+msgstr "Καθυστερημένο"
+
+#: $string['overduehandling']
+msgid "When time expires"
+msgstr "Όταν παρέλθει ο χρόνος"
+
+#: $string['overduehandlingautoabandon']
+msgid "Attempts must be submitted before time expires, or they are not counted"
+msgstr ""
+"Οι προσπάθειες πρέπει να υποβληθούν πριν από τη λήξη του χρόνου, αλλιώς δεν "
+"υπολογίζονται"
+
+#: $string['overduehandlingautosubmit']
+msgid "Open attempts are submitted automatically"
+msgstr "Οι ανοιχτές προσπάθειες υποβάλλονται αυτόματα"
+
+#: $string['overduehandling_desc']
+msgid ""
+"What should happen by default if a student does not submit the quiz before "
+"time expires."
+msgstr ""
+
+#: $string['overduehandlinggraceperiod']
+msgid ""
+"There is a grace period when open attempts can be submitted, but no more "
+"questions answered"
+msgstr ""
+
+#: $string['overduehandling_help']
+msgid ""
+"This setting controls what happens if the Student fails to submit their quiz "
+"attempt before time expires. If the student is actively working on the quiz "
+"at the time, then the countdown timer will always automatically submit the "
+"attempt for them, but if they have logged out, then this setting controls "
+"what happens."
+msgstr ""
+
+#: $string['overduehandling_link']
+msgctxt "$string['overduehandling_link']"
+msgid "mod/quiz/timing"
+msgstr ""
+
+#: $string['overduemustbesubmittedby']
+msgid ""
+"This attempt is now overdue. It should already have been submitted. If you "
+"would like this quiz to be graded, you must submit it by {$a}. If you do not "
+"submit it by then, no marks from this attempt will be counted."
+msgstr ""
+
+#: $string['override']
+msgid "Override"
+msgstr "Παράκαμψη"
+
+#: $string['overridedeletegroupsure']
+msgid "Are you sure you want to delete the override for group {$a}?"
+msgstr ""
+
+#: $string['overridedeleteusersure']
+msgid "Are you sure you want to delete the override for user {$a}?"
+msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε την παράκαμψη για χρήστη  {$a};"
+
+#: $string['overridegroup']
+msgid "Override group"
+msgstr ""
+
+#: $string['overridegroupeventname']
+msgid "{$a->quiz} - {$a->group}"
+msgstr ""
+
+#: $string['overrides']
+msgid "Overrides"
+msgstr ""
+
+#: $string['overrideuser']
+msgid "Override user"
+msgstr "Παράκαμψη χρήστη"
+
+#: $string['overrideusereventname']
+msgid "{$a->quiz} - Override"
+msgstr ""
+
+#: $string['page-mod-quiz-attempt']
+msgid "Attempt quiz page"
+msgstr ""
+
+#: $string['page-mod-quiz-edit']
+msgid "Edit quiz page"
+msgstr "Επεξεργασία σελίδας κουίζ"
+
+#: $string['page-mod-quiz-report']
+msgid "Any quiz report page"
+msgstr ""
+
+#: $string['page-mod-quiz-review']
+msgid "Review quiz attempt page"
+msgstr ""
+
+#: $string['page-mod-quiz-summary']
+msgid "Quiz attempt summary page"
+msgstr ""
+
+#: $string['page-mod-quiz-view']
+msgid "Quiz information page"
+msgstr "Σελίδα πληροφοριών κουίζ"
+
+#: $string['page-mod-quiz-x']
+msgid "Any quiz module page"
+msgstr ""
+
+#: $string['pageshort']
+msgid "P"
+msgstr ""
+
+#: $string['pagesize']
+msgid "Page size"
+msgstr "Προσπάθειες που εμφανίζονται ανά σελίδα:"
+
+#: $string['parent']
+msgid "Parent"
+msgstr "Γονέας"
+
+#: $string['parentcategory']
+msgid "Parent category"
+msgstr "Κατηγορία-γονέας"
+
+#: $string['parsingquestions']
+msgid "Parsing questions from import file."
+msgstr "Ανάλυση ερωτήσεων από αρχείο εισαγωγής."
+
+#: $string['partiallycorrect']
+msgid "Partially correct"
+msgstr "Μερικώς σωστή"
+
+#: $string['penalty']
+msgid "Penalty"
+msgstr "Ποινή"
+
+#: $string['penaltyscheme']
+msgid "Apply penalties"
+msgstr "Εφαρμογή ποινών"
+
+#: $string['penaltyscheme_help']
+msgid ""
+"If enabled, a penalty is subtracted from the final mark for a question for a "
+"wrong response. The amount of penalty is specified in the question "
+"settings. This setting only applies if adaptive mode is enabled."
+msgstr ""
+"<p>Αν ένα κουίζ λειτουργεί σε προσαρμοστικό περιβάλλον, τότε οι μαθητές "
+"επιτρέπεται να δοκιμάσουν ξανά\n"
+"μετά από κάποια λάθος απάντηση. Στην περίπτωση αυτή ίσως επιθυμείτε να "
+"επιβάλετε μια ποινή (που αφαιρείται από τον βαθμό της εκάστοτε ερώτησης) για "
+"κάθε λάθος απάντηση. Το μέγεθος της ποινής ορίζεται για κάθε ερώτηση "
+"ξεχωριστά κατά την επιλογή των ρυθμίσεων και την επεξεργασία της "
+"ερώτησης.</p>\n"
+"\n"
+"<p>Η ρύθμιση αυτή έχει σημασία μόνο αν το κουίζ λειτουργεί σε προσαρμοστικό "
+"περιβάλλον.</p>"
+
+#: $string['percentcorrect']
+msgid "Percent correct"
+msgstr "Ποσοστό σωστό"
+
+#: $string['pleaseclose']
+msgid "Your request has been processed. You can now close this window"
+msgstr "Η αίτησή σας έχει ολοκληρωθεί. Μπορείτε να κλείσετε αυτό το παράθυρο"
+
+#: $string['pluginadministration']
+msgid "Quiz administration"
+msgstr "Διαχείριση κουίζ"
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Quiz"
+msgstr "Κουίζ"
+
+#: $string['popup']
+msgid "Show quiz in a &quot;secure&quot; window"
+msgstr "Εμφάνιση κουίζ σε \"ασφαλές\" παράθυρο"
+
+#: $string['popupblockerwarning']
+msgid ""
+"This section of the test is in secure mode, this means that you need to take "
+"the quiz in a secure window. Please turn off your popup blocker. Thank you."
+msgstr ""
+"Αυτή η ενότητα του τεστ είναι σε ασφαλή λειτουργία, αυτό σημαίνει ότι πρέπει "
+"να συμπληρώσετε το κουίζ σε ένα ασφαλές παράθυρο. Παρακαλώ απενεργοποιήστε "
+"τον popup blocker. Ευχαριστώ."
+
+#: $string['popupnotice']
+msgid "Students will see this quiz in a secure window"
+msgstr "Οι φοιτητές θα δουν αυτό το κουίζ σε ασφαλές παράθυρο"
+
+#: $string['preprocesserror']
+msgid "Error occurred during pre-processing!"
+msgstr "Συνέβη σφάλμα κατά την προ-επεξεργασία!"
+
+#: $string['preview']
+msgid "Preview"
+msgstr "Προεπισκόπηση"
+
+#: $string['previewquestion']
+msgid "Preview question"
+msgstr "Προεπισκόπηση ερώτησης"
+
+#: $string['previewquiz']
+msgid "Preview {$a}"
+msgstr "Προεπισκόπηση {$a}"
+
+#: $string['previewquiznow']
+msgid "Preview quiz now"
+msgstr "Προεπισκόπηση κουίζ"
+
+#: $string['previous']
+msgid "Previous state"
+msgstr "Προηγούμενη κατάσταση"
+
+#: $string['publish']
+msgid "Publish"
+msgstr "Δημοσίευση"
+
+#: $string['publishedit']
+msgid ""
+"You must have permission in the publishing course to add or edit questions "
+"in this category"
+msgstr ""
+"Πρέπει να έχετε δικαιώματα στο μάθημα για να προσθέσετε ή να επεξεργαστείτε "
+"ερωτήσεις σε αυτήν την κατηγορία"
+
+#: $string['qbrief']
+msgid "Q. {$a}"
+msgstr ""
+
+#: $string['qname']
+msgid "name"
+msgstr "όνομα"
+
+#: $string['qti']
+msgid "IMS QTI format"
+msgstr "Μορφή IMS QTI"
+
+#: $string['qtypename']
+msgid "type, name"
+msgstr "τύπος, όνομα"
+
+#: $string['question']
+msgid "Question"
+msgstr "Ερώτηση"
+
+#: $string['questionbank']
+msgid "from question bank"
+msgstr "από τράπεζα ερωτήσεων"
+
+#: $string['questionbankmanagement']
+msgid "Question bank management"
+msgstr "διαχείριση τράπεζας ερωτήσεων"
+
+#: $string['questionbehaviour']
+msgid "Question behaviour"
+msgstr "συμπεριφορά τράπεζας ερωτήσεων"
+
+#: $string['questioncats']
+msgid "Question categories"
+msgstr "Κατηγορίες Ερωτήσεων"
+
+#: $string['questiondeleted']
+msgid "This question has been deleted. Please contact your teacher"
+msgstr "Αυτή η ερώτηση έχει διαγραφεί. Παρακαλώ επικοινωνήστε με τον καθηγητή"
+
+#: $string['questiondependencyadd']
+msgid ""
+"No restriction on when question {$a->thisq} can be attempted • Click to "
+"change"
+msgstr ""
+
+#: $string['questiondependencyfree']
+msgid "No restriction on this question"
+msgstr ""
+
+#: $string['questiondependencyremove']
+msgid ""
+"Question {$a->thisq} cannot be attempted until the previous question "
+"{$a->previousq} has been completed • Click to change"
+msgstr ""
+
+#: $string['questiondependsonprevious']
+msgid ""
+"This question cannot be attempted until the previous question has been "
+"completed."
+msgstr ""
+
+#: $string['questioninuse']
+msgid ""
+"The question '{$a->questionname}' is currently being used in: <br "
+"/>{$a->quiznames}<br />The question will not be deleted from these quizzes "
+"but only from the category list."
+msgstr ""
+"H ερώτηση '{$a->questionname}' χρησιμοποιείται στο:<br/>{$a->quiznames}<br "
+"/> Η ερώτηση δεν θα διαγραφεί από τα κουίζ αλλά μόνο από την λίστα "
+"κατηγοριών."
+
+#: $string['questionmissing']
+msgid "Question for this session is missing"
+msgstr "Η ερώτηση γι' αυτή τη σύνοδο λείπει"
+
+#: $string['questionname']
+msgid "Question name"
+msgstr "Όνομα ερώτησης"
+
+#: $string['questionnonav']
+msgid ""
+"<span class=\"accesshide\">Question </span>{$a->number}<span "
+"class=\"accesshide\"> {$a->attributes}</span>"
+msgstr ""
+
+#: $string['questionnonavinfo']
+msgid ""
+"<span class=\"accesshide\">Information </span>{$a->number}<span "
+"class=\"accesshide\"> {$a->attributes}</span>"
+msgstr ""
+
+#: $string['questionnotloaded']
+msgid "Question {$a} has not been loaded from the database"
+msgstr "Η ερώτηση {$a} δεν έχει φορτωθεί από τη βάση"
+
+#: $string['questionorder']
+msgid "Question order"
+msgstr "Σειρά ερώτησης"
+
+#: $string['questionposition']
+msgid "New position in order for question {$a}"
+msgstr ""
+
+#: $string['questions']
+msgctxt "$string['questions']"
+msgid "Questions"
+msgstr "Ερωτήσεις"
+
+#: $string['questionsinclhidden']
+msgid "Questions (including hidden)"
+msgstr "Ερωτήσεις (συμπεριλαμβανομένων των κρυμμένων)"
+
+#: $string['questionsinthisquiz']
+msgid "Questions in this quiz"
+msgstr "Ερωτήσεις σε αυτό το κουίζ"
+
+#: $string['questionsperpage']
+msgid "Questions per page"
+msgstr "Ερωτήσεις ανά σελίδα"
+
+#: $string['questionsperpageselected']
+msgid ""
+"Questions per page has been set so the paging is currently fixed. As a "
+"result, the paging controls have been disabled. You can change this in {$a}."
+msgstr ""
+"Οι ερωτήσεις ανά σελίδα έχουν οριστεί ώστε η σελιδοποίηση είναι δεδομένη. Ως "
+"αποτέλεσμα, τα χειριστήρια σελιδοποίησης έχουν απενεργοποιηθεί. Μπορείτε να "
+"το αλλάξετε αυτό στο {$a}."
+
+#: $string['questionsperpagex']
+msgid "Questions per page: {$a}"
+msgstr "ερωτήσεις per σελίδα: {$a}"
+
+#: $string['questiontext']
+msgid "Question text"
+msgstr "Κείμενο ερώτησης"
+
+#: $string['questiontextisempty']
+msgid "[Empty question text]"
+msgstr "[Κενό κείμενο ερώτησης]"
+
+#: $string['questiontype']
+msgid "Question type {$a}"
+msgstr "Τύπος ερώτησης {$a}"
+
+#: $string['questiontypesetupoptions']
+msgid "Setup options for question types:"
+msgstr "Ρυθμίσεις για ερωτήσεις τύπων:"
+
+#: $string['quiz:addinstance']
+msgid "Add a new quiz"
+msgstr "Προσθέστε ένα νέο κουίζ"
+
+#: $string['quiz:attempt']
+msgid "Attempt quizzes"
+msgstr "Συμμετοχή σε κουίζ"
+
+#: $string['quizavailable']
+msgid "The quiz is available until: {$a}"
+msgstr "Το κουίζ είναι διαθέσιμο μέχρι: {$a}"
+
+#: $string['quizclose']
+msgid "Close the quiz"
+msgstr "Κλείσιμο κουίζ"
+
+#: $string['quizclosed']
+msgid "This quiz closed on {$a}"
+msgstr "Αυτό το κουίζ έκλεισε {$a}"
+
+#: $string['quizcloses']
+msgid "Quiz closes"
+msgstr "Το κουίζ κλείνει"
+
+#: $string['quizcloseson']
+msgid "This quiz will close at {$a}"
+msgstr "Το κουίζ θα κλείσει στις {$a}"
+
+#: $string['quiz:deleteattempts']
+msgid "Delete quiz attempts"
+msgstr "Διαγραφή προσπαθειών του κουίζ"
+
+#: $string['quiz:emailconfirmsubmission']
+msgid "Get a confirmation message when submitting"
+msgstr "Λήψη επιβεβαίωσης email κατά την υποβολή"
+
+#: $string['quiz:emailnotifysubmission']
+msgid "Get a notification message when an attempt is submitted"
+msgstr "Λήψη επιβεβαίωσης email των υποβολών"
+
+#: $string['quiz:emailwarnoverdue']
+msgid ""
+"Get a notification message when an attempt becomes overdue and needs to be "
+"submitted."
+msgstr ""
+
+#: $string['quizeventcloses']
+msgid "{$a} closes"
+msgstr ""
+
+#: $string['quizeventopens']
+msgid "{$a} opens"
+msgstr ""
+
+#: $string['quiz:grade']
+msgid "Grade quizzes manually"
+msgstr "Χειροκίνητη βαθμολόγηση των κουίζ"
+
+#: $string['quiz:ignoretimelimits']
+msgid "Ignores time limit on quizzes"
+msgstr "Αγνοεί το όριο χρόνου στα κουίζ"
+
+#: $string['quizisclosed']
+msgid "This quiz is closed"
+msgstr "Το κουίζ είναι κλειστό"
+
+#: $string['quizisclosedwillopen']
+msgid "Quiz closed (opens {$a})"
+msgstr "Το κουίζ έκλεισε (ανοίγει {$a})"
+
+#: $string['quizisopen']
+msgid "This quiz is open"
+msgstr "Το κουίζ είναι ανοιχτό"
+
+#: $string['quizisopenwillclose']
+msgid "Quiz open (closes {$a})"
+msgstr "Κουίζ ανοιχτό (κλείνει {$a})"
+
+#: $string['quiz:manage']
+msgid "Manage quizzes"
+msgstr "Διαχείριση των κουίζ"
+
+#: $string['quiz:manageoverrides']
+msgid "Manage quiz overrides"
+msgstr "Διαχείριση παρακάμψεων (overrides) κουίζ"
+
+#: $string['quiznavigation']
+msgid "Quiz navigation"
+msgstr "Πλοήγηση κουίζ"
+
+#: $string['quizopen']
+msgid "Open the quiz"
+msgstr "Άνοιγμα του κουίζ"
+
+#: $string['quizopenclose']
+msgid "Open and close dates"
+msgstr "Ημερομηνίες ανοίγματος και κλεισίματος"
+
+#: $string['quizopenclose_help']
+msgid ""
+"Students can only start their attempt(s) after the open time and they must "
+"complete their attempts before the close time."
+msgstr ""
+"Οι μαθητές μπορούν να αρχίσουν τις προσπάθειες τους μόνο μετά τον εναρκτήριο "
+"χρόνο και πρέπει να ολοκληρώσουν τις προσπάθειες τους πριν το κλείσιμό του."
+
+#: $string['quizopenclose_link']
+msgctxt "$string['quizopenclose_link']"
+msgid "mod/quiz/timing"
+msgstr ""
+
+#: $string['quizopened']
+msgid "This quiz is open."
+msgstr "Το κουίζ είναι ανοιχτό."
+
+#: $string['quizopenedon']
+msgid "This quiz opened at {$a}"
+msgstr "Το κουίζ άνοιξε στις {$a}"
+
+#: $string['quizopens']
+msgid "Quiz opens"
+msgstr "Άνοιγμα κουίζ"
+
+#: $string['quizopenwillclose']
+msgid "This quiz is open, will close on {$a} at"
+msgstr "Το κουίζ αυτό είναι ανοιχτό, θα κλείσει στις {$a} στις"
+
+#: $string['quizordernotrandom']
+msgid "Order of quiz not shuffled"
+msgstr "Σειρά του κουίζ όχι ανακατεμένη"
+
+#: $string['quizorderrandom']
+msgid "* Order of quiz is shuffled"
+msgstr "* Σειρά του κουίζ ανακατεμένη"
+
+#: $string['quiz:preview']
+msgid "Preview quizzes"
+msgstr "Προεπισκόπιση των κουίζ"
+
+#: $string['quiz:regrade']
+msgid "Regrade quiz attempts"
+msgstr "Αναβαθμολόγηση προσπαθειών κουίζ"
+
+#: $string['quiz:reviewmyattempts']
+msgid "Review your own attempts"
+msgstr "Ανασκόπηση των δικών σου προσπαθειών"
+
+#: $string['quizsettings']
+msgid "Quiz settings"
+msgstr "Ρυθμίσεις κουίζ"
+
+#: $string['quiztimer']
+msgid "Quiz Timer"
+msgstr "Χρονόμετρο του κουίζ"
+
+#: $string['quiz:view']
+msgid "View quiz information"
+msgstr "Εμφάνιση πληροφοριών του κουίζ"
+
+#: $string['quiz:viewreports']
+msgid "View quiz reports"
+msgstr "Εμφάνιση των αναφορών του κουίζ"
+
+#: $string['quizwillopen']
+msgid "This quiz will open {$a}"
+msgstr "Το κουίζ αυτό θα ανοίξει {$a}"
+
+#: $string['random']
+msgid "Random question"
+msgstr "Τυχαία ερώτηση"
+
+#: $string['randomcreate']
+msgid "Create random questions"
+msgstr "Δημιουργία τυχαίων ερωτήσεων"
+
+#: $string['randomfromcategory']
+msgid "Random question from category:"
+msgstr "Τυχαία ερώτηση από κατηγορία:"
+
+#: $string['randomfromexistingcategory']
+msgid "Random question from an existing category"
+msgstr "Τυχαίες ερωτήσεις από μία υπάρχουσα κατηγορία"
+
+#: $string['randomnosubcat']
+msgid "Questions from this category only, not its subcategories."
+msgstr ""
+"Ερωτήσεις από αυτήν την κατηγορία και μόνο, όχι από τις υποκατηγορίες της."
+
+#: $string['randomnumber']
+msgid "Number of random questions"
+msgstr "Αριθμός τυχαίων ερωτήσεων"
+
+#: $string['randomquestionusinganewcategory']
+msgid "Random question using a new category"
+msgstr "Τυχαίες ερωτήσεις χρησιμοποιώντας μία νέα κατηγορία"
+
+#: $string['randomwithsubcat']
+msgid "Questions from this category and its subcategories."
+msgstr "Ερωτήσεις από αυτήν την κατηγορία και από τις υποκατηγορίες της."
+
+#: $string['readytosend']
+msgid ""
+"You are about to send your whole quiz to be graded.  Are you sure you want "
+"to continue?"
+msgstr ""
+"Πρόκειται να στείλετε ολόκληρο το κουίζ σας για βαθμολόγηση. Είστε σίγουροι "
+"οτι θέλετε να συνεχίσετε;"
+
+#: $string['reattemptquiz']
+msgid "Re-attempt quiz"
+msgstr "Επαναπροσπάθεια του κουίζ"
+
+#: $string['recentlyaddedquestion']
+msgid "Recently added question!"
+msgstr "Πρόσφατα προστιθεμένη ερώτηση!"
+
+#: $string['recurse']
+msgid "Include questions from subcategories too"
+msgstr "Δείξε τις ερωτήσεις από τις υποκατηγορίες"
+
+#: $string['redoesofthisquestion']
+msgid "Other questions attempted here: {$a}"
+msgstr ""
+
+#: $string['redoquestion']
+msgid "Try another question like this one"
+msgstr ""
+
+#: $string['regrade']
+msgid "Regrade all attempts"
+msgstr "Επαναβαθμολόγηση όλων των προσπαθειών"
+
+#: $string['regradecomplete']
+msgid "All attempts have been regraded"
+msgstr "Όλες οι προσπάθειες έχουν επαναβαθμολογηθεί"
+
+#: $string['regradecount']
+msgid "{$a->changed} out of {$a->attempt} grades were changed"
+msgstr "{$a->changed} από {$a->attempt} βαθμοί άλλαξαν"
+
+#: $string['regradedisplayexplanation']
+msgid ""
+"Attempts that change during regrading are displayed as hyperlinks to the "
+"question review window"
+msgstr ""
+"Δοκιμές που αλλάζουν κατά την επαναβαθμολόγηση εμφανίζονται ως υπερσύνδεσμοι "
+"στο παράθυρο αναθεώρησης ερωτήσεων"
+
+#: $string['regradenotallowed']
+msgid "You do not have permission to regrade this quiz"
+msgstr "Δεν έχετε δικαίωμα να επαναβαθμολογήσετε αυτό το κουίζ"
+
+#: $string['regradingquestion']
+msgid "Regrading \"{$a}\"."
+msgstr "Επαναβαθμολόγηση \"{$a}\""
+
+#: $string['regradingquiz']
+msgid "Regrading quiz \"{$a}\""
+msgstr "Επαναβαθμολόγηση κουίζ \"{$a}\""
+
+#: $string['remove']
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+#: $string['removeallgroupoverrides']
+msgid "Delete all group overrides"
+msgstr ""
+
+#: $string['removeallquizattempts']
+msgid "Delete all quiz attempts"
+msgstr "Διαγραφή όλων των προσπαθειών κουίζ"
+
+#: $string['removealluseroverrides']
+msgid "Delete all user overrides"
+msgstr ""
+
+#: $string['removeemptypage']
+msgid "Remove empty page"
+msgstr "Διαγραφή κενής σελίδας"
+
+#: $string['removepagebreak']
+msgid "Remove page break"
+msgstr ""
+
+#: $string['removeselected']
+msgid "Remove selected"
+msgstr "Διαγραφή επιλεγμένων"
+
+#: $string['rename']
+msgid "Rename"
+msgstr "Μετονομασία"
+
+#: $string['renderingserverconnectfailed']
+msgid ""
+"The server {$a} failed to process an RQP request. Check that the URL is "
+"correct."
+msgstr ""
+"Ο διακομιστής {$a} απέτυχε να επεξεργαστεί το αίτημα RQP. Ελέγξτε ότι το URL "
+"είναι σωστό."
+
+#: $string['reorderquestions']
+msgid "Reorder questions"
+msgstr "Ανακατανομή ερωτήσεων"
+
+#: $string['reordertool']
+msgid "Show the reordering tool"
+msgstr "Εμφάνιση εργαλείου ανακατάταξης"
+
+#: $string['repaginate']
+msgid "Repaginate with {$a} questions per page"
+msgstr "Ξανά-οργάνωση σε σελίδες με {$a} ερωτήσεις ανά σελίδα"
+
+#: $string['repaginatecommand']
+msgid "Repaginate"
+msgstr "Επανασελιδοποίηση"
+
+#: $string['repaginatenow']
+msgid "Repaginate now"
+msgstr "Επανασελιδοποίηση τώρα"
+
+#: $string['replace']
+msgid "Replace"
+msgstr "Αντικατάσταση"
+
+#: $string['replacementoptions']
+msgid "Replacement options"
+msgstr "Επιλογές Αντικατάστασης"
+
+#: $string['report']
+msgctxt "$string['report']"
+msgid "Reports"
+msgstr "Αναφορές"
+
+#: $string['reportanalysis']
+msgid "Item analysis"
+msgstr "Ανάλυση αντικειμένου"
+
+#: $string['reportattemptsfrom']
+msgid "Attempts from"
+msgstr "Προσπάθειες από"
+
+#: $string['reportattemptsthatare']
+msgid "Attempts that are"
+msgstr "Προσπάθειες που είναι"
+
+#: $string['reportdisplayoptions']
+msgctxt "$string['reportdisplayoptions']"
+msgid "Display options"
+msgstr "Επιλογές εμφάνισης"
+
+#: $string['reportfullstat']
+msgid "Detailed statistics"
+msgstr "Λεπτομερή στατιστικά"
+
+#: $string['reportmulti_percent']
+msgid "Multi-percentages"
+msgstr "Πολυ-ποσοστά"
+
+#: $string['reportmulti_q_x_student']
+msgid "Multi-student choices"
+msgstr "Επιλογές πολυ-μαθητών"
+
+#: $string['reportmulti_resp']
+msgid "Individual responses"
+msgstr "Ατομικές απαντήσεις"
+
+#: $string['reportmustselectstate']
+msgid "You must select at least one state."
+msgstr "Πρέπει να επιλέξετε τουλάχιστον μία κατάσταση."
+
+#: $string['reportnotfound']
+msgid "Report not known ({$a})"
+msgstr "Άγνωστη αναφορά ({$a})"
+
+#: $string['reportoverview']
+msgid "Overview"
+msgstr "Επισκόπηση"
+
+#: $string['reportregrade']
+msgid "Regrade attempts"
+msgstr "Επαναβαθμολόγηση προσπαθειών"
+
+#: $string['reportresponses']
+msgid "Detailed responses"
+msgstr "Λεπτομερείς απαντήσεις"
+
+#: $string['reports']
+msgctxt "$string['reports']"
+msgid "Reports"
+msgstr "Αναφορές"
+
+#: $string['reportshowonly']
+msgid "Show only attempts"
+msgstr "Εμφάνιση μόνο προσπαθειών"
+
+#: $string['reportshowonlyfinished']
+msgid "Show at most one finished attempt per user ({$a})"
+msgstr ""
+
+#: $string['reportsimplestat']
+msgid "Simple statistics"
+msgstr "Απλά στατιστικά"
+
+#: $string['reportusersall']
+msgid "all users who have attempted the quiz"
+msgstr "όλους τους χρήστες που έχουν προσπαθήσει το κουίζ"
+
+#: $string['reportuserswith']
+msgid "enrolled users who have attempted the quiz"
+msgstr "εγγεγραμμένους χρήστες που έχουν προσπαθήσει το κουίζ"
+
+#: $string['reportuserswithorwithout']
+msgid "enrolled users who have, or have not, attempted the quiz"
+msgstr "εγγεγραμμένους χρήστες που έχουν ή δεν έχουν προσπαθήσει το κουίζ"
+
+#: $string['reportuserswithout']
+msgid "enrolled users who have not attempted the quiz"
+msgstr "εγγεγραμμένους χρήστες που δεν έχουν προσπαθήσει το κουίζ"
+
+#: $string['reportwhattoinclude']
+msgid "What to include in the report"
+msgstr "Τι να συμπεριληφθεί στην αναφορά"
+
+#: $string['requirepassword']
+msgid "Require password"
+msgstr "Απαιτείται κωδικός"
+
+#: $string['requirepassword_help']
+msgid ""
+"If a password is specified, a student must enter it in order to attempt the "
+"quiz."
+msgstr ""
+"<p>Αυτό το πεδίο είναι προαιρετικό.</p>\n"
+"\n"
+"<p>Εάν ορίσετε έναν κωδικό εδώ, τότε οι μαθητές πρέπει να εισάγουν τον ίδιο\n"
+"    κωδικό προτού κάνουν μπορέσουν να αποπειραθούν το κουίζ.</p>"
+
+#: $string['requiresubnet']
+msgid "Require network address"
+msgstr "Απαιτείται διεύθυνση δικτύου"
+
+#: $string['requiresubnet_help']
+msgid ""
+"Quiz access may be restricted to particular subnets on the LAN or Internet "
+"by specifying a comma-separated list of partial or full IP address numbers. "
+"This can be useful for an invigilated (proctored) quiz, to ensure that only "
+"people in a certain location can access the quiz."
+msgstr ""
+"<p>Αυτό το πεδίο είναι προαιρετικό.</p>\n"
+"\n"
+"<p>Μπορείτε να περιορίσετε την πρόσβαση στο κουίζ σε συγκεκριμένα υποδίκτυα\n"
+"   ενός τοπικού δικτύου ή του διαδικτύου ορίζοντας μια λίστα από μερικούς ή "
+"πλήρεις\n"
+"   αριθμούς διευθύνσεων IP διαχωρισμένους με κόμματα.</p>\n"
+"\n"
+"<p>Αυτό είναι πολύ χρησιμο για κουίζ που επιβλέπονται, όπου επιθυμείτε να "
+"είστε\n"
+"   σίγουροι πως συμμετέχουν μόνο άτομα που βρίσκονται σε μια συγκεκριμένη "
+"αίθουσα.</p>\n"
+"\n"
+"<p>Για παράδειγμα: <b>192.168. , 231.54.211.0/20, 231.3.56.211, "
+"231.3.56.10-20</b></p>\n"
+"\n"
+"<p>Υπάρχουν 4 τύποι αριθμών που μπορείτε να χρησιμοποιήσετε (δεν "
+"επιτρέπονται\n"
+"   ονόματα τομέων όπως example.com):</p>\n"
+"\n"
+"<ol>\n"
+"<li>Πλήρεις διευθύνσεις IP, όπως <b>192.168.10.1</b>, οι οποίες αντιστοιχούν "
+"σε ένα\n"
+"    συγκεκριμένο υπολογιστή (ή διαμεσολαβητή).</li>\n"
+"<li>Μερικές διευθύνσεις, όπως <b>192.168</b>, οι οποίες αντιστοιχούν σε "
+"οποιαδήποτε\n"
+"    διεύθυνση IP που ξεκινά με αυτούς τους αριθμούς.</li>\n"
+"<li>Μορφή CIDR, όπως <b>231.54.211.0/20</b>, η οποία σας επιτρέπει να "
+"καθορίσετε\n"
+"    σαφώς τα υποδίκτυα στα οποία αναφέρεστε.</li>\n"
+"<li>Διάστημα διευθύνσεων IP, όπως <b>231.3.56.10-20</b>. Το διάστημα "
+"αντιστοιχεί στο\n"
+"    τελευταίο μέρος της διεύθυνσης, οπότε το συγκεκριμένο παράδειγμα "
+"σημαίνει \"όλες\n"
+"    οι διευθύνσεις από 231.3.56.10 μέχρι και 231.3.56.20.</li>\n"
+"</ol>\n"
+"\n"
+"<p>Τα κενά παραβλέπονται.</p>"
+
+#: $string['response']
+msgid "Response"
+msgstr "Απάντηση"
+
+#: $string['responses']
+msgid "Responses"
+msgstr "Απαντήσεις"
+
+#: $string['results']
+msgid "Results"
+msgstr "Αποτελέσματα"
+
+#: $string['returnattempt']
+msgid "Return to attempt"
+msgstr "Επιστροφή στην προσπάθεια"
+
+#: $string['reuseifpossible']
+msgid "reuse previously removed"
+msgstr "επαναχρησιμοποιήση αφαιρούμενων"
+
+#: $string['reverttodefaults']
+msgid "Revert to quiz defaults"
+msgstr ""
+
+#: $string['review']
+msgid "Review"
+msgstr "Αναθεώρηση"
+
+#: $string['reviewafter']
+msgid "Allow review after quiz is closed"
+msgstr "Επιτρέπεται η αναθεώρηση μετά το κλείσιμο του κουίζ"
+
+#: $string['reviewalways']
+msgid "Allow review at any time"
+msgstr "Επιτρέπεται η αναθεώρηση σε οποιαδήποτε χρονική στιγμή"
+
+#: $string['reviewattempt']
+msgid "Review attempt"
+msgstr ""
+
+#: $string['reviewbefore']
+msgid "Allow review while quiz is open"
+msgstr "Επιτρέπεται η αναθεώρηση ενώ το κουίζ είναι ανοιχτό"
+
+#: $string['reviewclosed']
+msgid "After the quiz is closed"
+msgstr "Μετά το κλείσιμο του κουίζ"
+
+#: $string['reviewduring']
+msgid "During the attempt"
+msgstr "Κατά τη διάρκεια της προσπάθειας"
+
+#: $string['reviewimmediately']
+msgid "Immediately after the attempt"
+msgstr "Αμέσως μετά την προσπάθεια"
+
+#: $string['reviewnever']
+msgid "Never allow review"
+msgstr "Δεν επιτρέπεται η αναθεώρηση"
+
+#: $string['reviewofattempt']
+msgid "Review of attempt {$a}"
+msgstr "αναθεώρηση προσπάθειας {$a}"
+
+#: $string['reviewofpreview']
+msgid "Review of preview"
+msgstr "Ανασκόπηση της προεπισκόπησης"
+
+#: $string['reviewofquestion']
+msgid "Review of question {$a->question} in {$a->quiz} by {$a->user}"
+msgstr ""
+
+#: $string['reviewopen']
+msgid "Later, while the quiz is still open"
+msgstr "Αργότερα, ενώ το κουίζ είναι ακόμα ανοιχτό"
+
+#: $string['reviewoptions']
+msgid "Students may review"
+msgstr "Οι σπουδαστές μπορούν να αναθεωρήσουν"
+
+#: $string['reviewoptionsheading']
+msgid "Review options"
+msgstr "Επιλογές ανασκόπησης"
+
+#: $string['reviewoptionsheading_help']
+msgid ""
+"These options control what information students can see when they review a "
+"quiz attempt or look at the quiz reports.\n"
+"\n"
+"**During the attempt** settings are only relevant for some behaviours, like "
+"'interactive with multiple tries', which may display feedback during the "
+"attempt.\n"
+"\n"
+"**Immediately after the attempt** settings apply for the first two minutes "
+"after 'Submit all and finish' is clicked.\n"
+"\n"
+"**Later, while the quiz is still open** settings apply after this, and "
+"before the quiz close date.\n"
+"\n"
+"**After the quiz is closed** settings apply after the quiz close date has "
+"passed. If the quiz does not have a close date, this state is never reached."
+msgstr ""
+
+#: $string['reviewoverallfeedback']
+msgctxt "$string['reviewoverallfeedback']"
+msgid "Overall feedback"
+msgstr ""
+
+#: $string['reviewoverallfeedback_help']
+msgid ""
+"The feedback given at the end of the attempt, depending on the student's "
+"total mark."
+msgstr ""
+
+#: $string['reviewresponse']
+msgid "Review response"
+msgstr "Απάντηση αναθεώρησης"
+
+#: $string['reviewresponsetoq']
+msgid "Review response (question {$a})"
+msgstr ""
+
+#: $string['reviewthisattempt']
+msgid "Review your responses to this attempt"
+msgstr "Ανασκόπηση των απαντήσεών σας σε αυτήν την προσπάθεια"
+
+#: $string['rqp']
+msgid "Remote question"
+msgstr "Απομακρυσμένη Ερώτηση"
+
+#: $string['rqps']
+msgid "Remote questions"
+msgstr "Απομακρυσμένες Ερωτήσεις"
+
+#: $string['sameasoverall']
+msgid "Same as for overall grades"
+msgstr "Το ίδιο με τους συνολικούς βαθμούς"
+
+#: $string['save']
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: $string['saveandedit']
+msgid "Save changes and edit questions"
+msgstr "Αποθήκευση αλλαγών και επεξεργασία ερωτήσεων"
+
+#: $string['saveattemptfailed']
+msgid "Failed to save the current quiz attempt."
+msgstr "Αποτυχία αποθήκευσης της τρέχουσας προσπάθειας κουίζ."
+
+#: $string['savedfromdeletedcourse']
+msgid "Saved from deleted course \"{$a}\""
+msgstr "Αποθηκευμένο από το διαγραμμένο μάθημα \"{$a}\""
+
+#: $string['savegrades']
+msgid "Save grades"
+msgstr "Αποθήκευση βαθμών"
+
+#: $string['savemyanswers']
+msgid "Save my answers"
+msgstr "Αποθήκευση των απαντήσεων μου"
+
+#: $string['savenosubmit']
+msgid "Save without submitting"
+msgstr "Αποθήκευση χωρίς υποβολή"
+
+#: $string['saveoverrideandstay']
+msgid "Save and enter another override"
+msgstr ""
+
+#: $string['savequiz']
+msgid "Save this whole quiz"
+msgstr "Αποθήκευση όλου του κουίζ"
+
+#: $string['saving']
+msgid "Saving"
+msgstr ""
+
+#: $string['savingnewgradeforquestion']
+msgid "Saving new grade for question id {$a}."
+msgstr ""
+
+#: $string['savingnewmaximumgrade']
+msgid "Saving new maximum grade."
+msgstr "Αποθήκευση νέου μέγιστου βαθμού."
+
+#: $string['score']
+msgid "Raw score"
+msgstr "Αρχικός βαθμός"
+
+#: $string['scores']
+msgid "Scores"
+msgstr "Βαθμοί"
+
+#: $string['search:activity']
+msgid "Quiz - activity information"
+msgstr ""
+
+#: $string['sectionheadingedit']
+msgid "Edit heading '{$a}'"
+msgstr ""
+
+#: $string['sectionheadingremove']
+msgid "Remove heading '{$a}'"
+msgstr ""
+
+#: $string['seequestions']
+msgid "(See questions)"
+msgstr ""
+
+#: $string['select']
+msgid "Select"
+msgstr "Επιλογή"
+
+#: $string['selectall']
+msgid "Select all"
+msgstr "Επιλογή όλων"
+
+#: $string['selectcategory']
+msgid "Select category"
+msgstr "Επιλογή κατηγορίας"
+
+#: $string['selectedattempts']
+msgid "Selected attempts..."
+msgstr "Επιλεγμένες προσπάθειες..."
+
+#: $string['selectmultipleitems']
+msgid "Select multiple items"
+msgstr ""
+
+#: $string['selectmultipletoolbar']
+msgid "Select multiple toolbar"
+msgstr ""
+
+#: $string['selectnone']
+msgid "Deselect all"
+msgstr "Απεπιλογή όλων"
+
+#: $string['selectquestiontype']
+msgid "-- Select question type --"
+msgstr "-- Επιλογή τύπου ερώτησης --"
+
+#: $string['serveradded']
+msgid "Server added"
+msgstr "Προστέθηκε διακομιστής"
+
+#: $string['serveridentifier']
+msgid "Identifier"
+msgstr "Αναγνωριστικό"
+
+#: $string['serverinfo']
+msgid "Server information"
+msgstr "Πληροφορίες διακομιστή"
+
+#: $string['servers']
+msgid "Servers"
+msgstr "Διακομιστές"
+
+#: $string['serverurl']
+msgid "Server URL"
+msgstr "URL διακομιστή"
+
+#: $string['settingsoverrides']
+msgid "Settings overrides"
+msgstr ""
+
+#: $string['shortanswer']
+msgid "Short answer"
+msgstr "Σύντομη απάντηση"
+
+#: $string['show']
+msgid "Show"
+msgstr "Δείξε"
+
+#: $string['showall']
+msgid "Show all questions on one page"
+msgstr "Εμφάνιση όλων των ερωτήσεων σε μία σελίδα"
+
+#: $string['showblocks']
+msgid "Show blocks during quiz attempts"
+msgstr "Εμφάνιση μπλοκ κατά τη διάρκεια των προσπαθειών"
+
+#: $string['showblocks_help']
+msgid "If set to yes then normal blocks will be shown during quiz attempts"
+msgstr ""
+"Αν ορισθεί ναι τότε τα μπλοκς θα εμφανίζονται κατά τη διάρκεια προσπαθειών "
+"επίλυσης του κουίζ"
+
+#: $string['showbreaks']
+msgid "Show page breaks"
+msgstr "Εμφάνιση αλλαγών σελίδας"
+
+#: $string['showcategorycontents']
+msgid "Show category contents {$a->arrow}"
+msgstr "Προβολή περιεχομένων κατηγορίας {$a->arrow}"
+
+#: $string['showcorrectanswer']
+msgid "In feedback, show correct answers?"
+msgstr "Στην ανάδραση, προβολή σωστών απαντήσεων;"
+
+#: $string['showdetailedmarks']
+msgid "Show mark details"
+msgstr "Εμφάνιση λεπτομερειών σήμανσης"
+
+#: $string['showeachpage']
+msgid "Show one page at a time"
+msgstr "Προβολή μία σελίδα την φορά"
+
+#: $string['showfeedback']
+msgid "After answering, show feedback?"
+msgstr "Μετά την απάντηση, προβολή ανάδρασης;"
+
+#: $string['showinsecurepopup']
+msgid "Use a 'secure' popup window for attempts"
+msgstr "Χρήση 'ασφαλούς' αναδυόμενου παραθύρου για τις προσπάθειες"
+
+#: $string['showlargeimage']
+msgid "Large image"
+msgstr "Μεγάλη εικόνα"
+
+#: $string['shownoattempts']
+msgid "Show students with no attempts"
+msgstr "Εμφάνιση μαθητών χωρίς προσπάθειες"
+
+#: $string['shownoattemptsonly']
+msgid "Show only students with no attempts"
+msgstr "Εμφάνιση μόνο των μαθητών χωρίς προσπάθειες"
+
+#: $string['shownoimage']
+msgid "No image"
+msgstr "Καμία εικόνα"
+
+#: $string['showreport']
+msgid "Show report"
+msgstr "Προβολή αναφοράς"
+
+#: $string['showsmallimage']
+msgid "Small image"
+msgstr "Μικρή εικόνα"
+
+#: $string['showteacherattempts']
+msgid "Show teacher attempts"
+msgstr "Εμφάνιση προσπαθειών καθηγητών"
+
+#: $string['showuserpicture']
+msgid "Show the user's picture"
+msgstr "Εμφάνιση εικόνας χρήστη"
+
+#: $string['showuserpicture_help']
+msgid ""
+"If enabled, the student's name and picture will be shown on-screen during "
+"the attempt, and on the review screen, making it easier to check that the "
+"student is logged in as themself in an invigilated (proctored) exam."
+msgstr ""
+"Αν είναι ενεργοποιημένο, το όνομα και η εικόνα του μαθητή θα εμφανίζονται "
+"στην οθόνη κατά τη διάρκεια της προσπάθειας και στην οθόνη της επανεξέτασης, "
+"κάνοντας ευκόλοτερο τον έλεγχο ότι ο εκπαιδευόμενος είναι συνδεδεμένος ο "
+"ίδιος σε μια επιτηρούμενη (εποπτούμενη) εξέταση."
+
+#: $string['shuffle']
+msgctxt "$string['shuffle']"
+msgid "Shuffle"
+msgstr "Ανακάτεμα"
+
+#: $string['shuffleanswers']
+msgid "Shuffle answers"
+msgstr "Ανακάτεμα απαντήσεων"
+
+#: $string['shuffledrandomly']
+msgid "Shuffled randomly"
+msgstr "Τυχαίο ανακάτεμα"
+
+#: $string['shufflequestions']
+msgctxt "$string['shufflequestions']"
+msgid "Shuffle"
+msgstr "Ανακάτεμα ερωτήσεων"
+
+#: $string['shufflequestions_help']
+msgid ""
+"If you turn this on, then every time the quiz is attempted, the order of the "
+"questions in this section will be shuffled into a different random order.\n"
+"\n"
+"This can make it harder for students to share answers, but it also makes it "
+"harder for students discuss a particular question with you."
+msgstr ""
+
+#: $string['shufflewithin']
+msgid "Shuffle within questions"
+msgstr "Ανακάτεμα εντός των ερωτήσεων"
+
+#: $string['shufflewithin_help']
+msgid ""
+"If enabled, the parts making up each question will be randomly shuffled each "
+"time a student attempts the quiz, provided the option is also enabled in "
+"the question settings. This setting only applies to questions that have "
+"multiple parts, such as multiple choice or matching questions."
+msgstr ""
+"<p>Άν ενεργοποιήσετε αυτή την επιλογή, τότε οι τυχόν υποερωτήσεις σε κάθε "
+"ερώτηση\n"
+"   θα εμφανίζονται με τυχαία σειρά σε κάθε απόπειρα του κουίζ (θα πρέπει "
+"επίσης να\n"
+"   έχετε ενεργοποιήσει την ίδια επιλογή σε κάθε ερώτηση ξεχωριστά).</p>\n"
+"\n"
+"<p>Ο στόχος είναι απλά να γίνει κάπως πιο δύσκολο για τους μαθητές να "
+"αντιγράψουν μεταξύ τους.</p>\n"
+"\n"
+"<p>Φυσικά αυτό ισχύει μόνο για τις ερωτήσεις που έχουν υποερωτήματα, όπως "
+"των πολλαπλών επιλογών\n"
+"   και της αντιστοίχισης. Για τις ερωτήσεις πολλαπλής επιλογής η σειρά των "
+"απαντήσεων είναι\n"
+"   τυχαία μόνο όταν αυτή επιλογή είναι ενεργοποιημένη. Για ερωτήσεις "
+"αντιστοίχισης οι απαντήσεις\n"
+"   είναι πάντα με τυχαία σειρά, και η επιλογή αυτή ελέγχει εάν επιπρόσθετα "
+"εμφανίζονται με τυχαία\n"
+"   σειρά και οι ερωτήσεις.</p>\n"
+"\n"
+"<p>Αυτή η επιλογή δε σχετίζεται με τη χρήση των τυχαίων ερωτήσεων.</p>"
+
+#: $string['singleanswer']
+msgid "Choose one answer."
+msgstr "Επιλογή μίας απάντησης."
+
+#: $string['sortage']
+msgid "Sort by age"
+msgstr "Ταξινόμηση κατά ηλικία"
+
+#: $string['sortalpha']
+msgid "Sort by name"
+msgstr "Ταξινόμηση κατά όνομα"
+
+#: $string['sortquestionsbyx']
+msgid "Sort questions by: {$a}"
+msgstr "Ταξινόμηση ερωτήσεων κατά: {$a}"
+
+#: $string['sortsubmit']
+msgid "Sort questions"
+msgstr "Ταξινόμηση ερωτήσεων"
+
+#: $string['sorttypealpha']
+msgid "Sort by type, name"
+msgstr "Ταξινόμηση κατά τύπο, όνομα"
+
+#: $string['specificapathnotonquestion']
+msgid "The specified file path is not on the specified question"
+msgstr "Η συγκεκριμένη διαδρομή αρχείου δε βρίσκεται στη συγκεκριμένη ερώτηση"
+
+#: $string['specificquestionnotonquiz']
+msgid "Specified question is not on the specified quiz"
+msgstr "Η συγκεκριμένη ερώτηση δε βρίσκεται στο συγκεκριμένο κουίζ"
+
+#: $string['startagain']
+msgid "Start again"
+msgstr "Επανέναρξη"
+
+#: $string['startattempt']
+msgid "Start attempt"
+msgstr "Έναρξη προσπάθειας"
+
+#: $string['startedon']
+msgid "Started on"
+msgstr "Ξεκίνησε στις"
+
+#: $string['startnewpreview']
+msgid "Start a new preview"
+msgstr "Ξεκίνησε μία νέα επισκόπηση"
+
+#: $string['stateabandoned']
+msgid "Never submitted"
+msgstr "Δεν έχει υποβληθεί"
+
+#: $string['statefinished']
+msgid "Finished"
+msgstr "Ολοκληρωμένο"
+
+#: $string['statefinisheddetails']
+msgid "Submitted {$a}"
+msgstr "Υποβλήθηκε {$a}"
+
+#: $string['stateinprogress']
+msgctxt "$string['stateinprogress']"
+msgid "In progress"
+msgstr "Σε εξέλιξη"
+
+#: $string['statenotloaded']
+msgid "The state for question {$a} has not been loaded from the database"
+msgstr ""
+"Η κατάσταση για την ερώτηση {$a} δεν έχει φορτωθεί από τη βάση δεδομένων"
+
+#: $string['stateoverdue']
+msgctxt "$string['stateoverdue']"
+msgid "Overdue"
+msgstr ""
+
+#: $string['stateoverduedetails']
+msgid "Must be submitted by {$a}"
+msgstr "Πρέπει να υποβληθεί μέχρι {$a}"
+
+#: $string['status']
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: $string['stoponerror']
+msgid "Stop on error"
+msgstr "Στοπ στα λάθη"
+
+#: $string['submitallandfinish']
+msgid "Submit all and finish"
+msgstr "Υποβολή όλων και τέλος"
+
+#: $string['subneterror']
+msgid ""
+"Sorry, this quiz has been locked so that it is only accessible from certain "
+"locations.  Currently your computer is not one of those allowed to use this "
+"quiz."
+msgstr ""
+"Συγνώμη, αυτό το κουίζ είναι κλειδωμένο έτσι ώστε να είναι προσπελάσιμο μόνο "
+"από ορισμένες διευθύνσεις. Αυτή τη στιγμή ο υπολογιστής σας δεν έχει άδεια "
+"πρόσβασης στο κουίζ."
+
+#: $string['subnetnotice']
+msgid ""
+"This quiz has been locked so that it is only accessible from certain "
+"locations. Your computer is not on an allowed subnet. As teacher you are "
+"allowed to preview anyway."
+msgstr ""
+"Αυτό το κουίζ είναι κλειδωμένο έτσι ώστε να είναι προσπελάσιμο μόνο από "
+"ορισμένες διευθύνσεις. Αυτή τη στιγμή ο υπολογιστής σας δεν είναι σε ένα από "
+"τα επιτρεπόμενα δίκτυα. Ωστόσο, ως καθηγητής έχετε το δικαίωμα "
+"προεπισκόπησης."
+
+#: $string['subplugintype_quiz']
+msgid "Report"
+msgstr "Αναφορά"
+
+#: $string['subplugintype_quizaccess']
+msgid "Access rule"
+msgstr ""
+
+#: $string['subplugintype_quizaccess_plural']
+msgid "Access rules"
+msgstr ""
+
+#: $string['subplugintype_quiz_plural']
+msgctxt "$string['subplugintype_quiz_plural']"
+msgid "Reports"
+msgstr "Αναφορές"
+
+#: $string['substitutedby']
+msgid "will be substituted by"
+msgstr "θα αντικατασταθεί από"
+
+#: $string['summaryofattempt']
+msgid "Summary of attempt"
+msgstr "Περίληψη προσπάθειας"
+
+#: $string['summaryofattempts']
+msgid "Summary of your previous attempts"
+msgstr "Περίληψη προηγούμενων προσπαθειών"
+
+#: $string['temporaryblocked']
+msgid ""
+"You are temporarily not allowed to re-attempt the quiz.<br /> You will be "
+"able to take another attempt on:"
+msgstr ""
+"Προς το παρόν δεν έχετε το δικαίωμα να ξανασυμπληρώσετε το κουίζ. <br/>Θα "
+"έχετε το δικαίωμα για νέα προσπάθεια:"
+
+#: $string['theattempt']
+msgid "The attempt"
+msgstr "Η προσπάθεια"
+
+#: $string['theattempt_help']
+msgid "Whether the student can review the attempt at all."
+msgstr ""
+
+#: $string['time']
+msgid "Time"
+msgstr "Χρόνος"
+
+#: $string['timecompleted']
+msgid "Completed"
+msgstr "Συμπληρωμένο"
+
+#: $string['timedelay']
+msgid ""
+"You are not allowed to do the quiz since you have not passed the time delay "
+"before attempting another quiz"
+msgstr ""
+"Δεν έχετε το δικαίωμα να ξανακάνετε το κουίζ, εφόσον δεν έχει περάσει η "
+"απαιτούμενη χρονική καθυστέρηση πριν συμπληρώσετε άλλο κουίζ."
+
+#: $string['timeleft']
+msgid "Time left"
+msgstr "Υπολειπόμενος χρόνος"
+
+#: $string['timelimit']
+msgid "Time limit"
+msgstr "Χρονικό όριο"
+
+#: $string['timelimitexeeded']
+msgid "Sorry! Quiz time limit exceeded!"
+msgstr "Συγνώμη! Ο χρόνος του κουίζ έχει λήξει!"
+
+#: $string['timelimit_help']
+msgid ""
+"If enabled, the time limit is stated on the initial quiz page and a "
+"countdown timer is displayed in the quiz navigation block."
+msgstr ""
+"<p>Οι εξορισμού ρυθμίσεις δεν προβλέπουν χρονικό περιορισμό για την "
+"ολοκλήρωση\n"
+"   του κουίζ, κάτι που επιτρέπει στους μαθητές να διαθέσουν όσο χρόνο θέλουν\n"
+"   προκειμένου να ολοκληρώσουν το κουίζ (αρκεί αυτό να γίνει πριν την "
+"ημερομηνία\n"
+"   κλεισίματος, αν έχει οριστεί).</p>\n"
+"\n"
+"<p>Αν ορίσετε ένα χρονικό περιορισμό, τότε ένα ρολόι αντίστροφης μέτρησης\n"
+"    εμφανίζεται στην οθόνη και η προσπάθεια ολοκληρώνεται αυτομάτως όταν ο "
+"χρόνος\n"
+"    τελειώσει. Οι μαθητές πρέπει να κάνουν υποβολή των απαντήσεών τους "
+"προτού\n"
+"    τελειώσει ο χρόνος, διαφορετικά δεν θα βαθμολογηθούν καθόλου.</p>"
+
+#: $string['timelimit_link']
+msgctxt "$string['timelimit_link']"
+msgid "mod/quiz/timing"
+msgstr ""
+
+#: $string['timestr']
+msgid "%H:%M:%S on %d/%m/%y"
+msgstr "%H:%M:%S on %d/%m/%y"
+
+#: $string['timesup']
+msgid "Time is up!"
+msgstr "Έληξε ο χρόνος!"
+
+#: $string['timetaken']
+msgctxt "$string['timetaken']"
+msgid "Time taken"
+msgstr "Χρόνος που χρειάστηκε"
+
+#: $string['timing']
+msgid "Timing"
+msgstr ""
+
+#: $string['tofile']
+msgid "to file"
+msgstr "στο αρχείο"
+
+#: $string['tolerance']
+msgid "Tolerance"
+msgstr "Ανοχή"
+
+#: $string['toomanyrandom']
+msgid ""
+"The number of random questions required is more than are still available in "
+"the category!"
+msgstr ""
+"Ο αριθμός των τυχαίων ερωτημάτων που απαιτήθηκε είναι μεγαλύτερος από των "
+"αριθμό ερωτημάτων που έχει αυτή η κατηγορία! ({$a})"
+
+#: $string['top']
+msgid "Top"
+msgstr "Κορυφή"
+
+#: $string['totalmarksx']
+msgid "Total of marks: {$a}"
+msgstr "Σύνολο βαθμών: {$a}"
+
+#: $string['totalquestionsinrandomqcategory']
+msgid "Total of {$a} questions in category."
+msgstr "Σύνολο {$a} ερωτήσεων στην κατηγορία."
+
+#: $string['true']
+msgid "True"
+msgstr "Σωστό"
+
+#: $string['truefalse']
+msgid "True/false"
+msgstr "Σωστό/Λάθος"
+
+#: $string['type']
+msgid "Type"
+msgstr "Τύπος"
+
+#: $string['unfinished']
+msgid "open"
+msgstr "ανοιχτό"
+
+#: $string['ungraded']
+msgid "Ungraded"
+msgstr "μη-βαθμολογημένο"
+
+#: $string['unit']
+msgid "Unit"
+msgstr "Μονάδα"
+
+#: $string['unknowntype']
+msgid "Question type not supported at line {$a}. The question will be ignored"
+msgstr ""
+"Μη υποστηριζόμενος τύπος ερώτησης στη γραμμή {$a}. Η ερώτηση θα παραληφθεί"
+
+#: $string['updatesettings']
+msgid "Update quiz settings"
+msgstr "Ανανέωση ρυθμίσεων κουίζ"
+
+#: $string['updatingatttemptgrades']
+msgid "Updating attempt grades."
+msgstr ""
+
+#: $string['updatingfinalgrades']
+msgid "Updating final grades."
+msgstr ""
+
+#: $string['updatingthegradebook']
+msgid "Updating the gradebook."
+msgstr ""
+
+#: $string['upgradesure']
+msgid ""
+"<div>In particular the quiz module will perform an extensive change of the "
+"quiz tables and this upgrade has not yet been sufficiently tested. You are "
+"very strongly urged to backup your database tables before proceeding.</div>"
+msgstr ""
+"<div style=\"color: red;\"> συγκεκριμένα το άρθρωμα του κουίζ θα εκτελέσει "
+"εκτενή αλλαγή των πινάκων κουίζ και αυτή η ανανέωση δεν έχει ελεγχθεί ακόμα. "
+"Καλό θα ήταν να πάρετε ένα αντίγραφο ασφαλείας των  πινάκων της βάσης "
+"δεδομένων πριν προχωρήσετε.</div>"
+
+#: $string['upgradingquizattempts']
+msgid ""
+"Upgrading quiz attempts: quiz {$a->done}/{$a->outof} (Quiz id {$a->info})"
+msgstr ""
+
+#: $string['upgradingveryoldquizattempts']
+msgid "Upgrading very old quiz attempts: {$a->done}/{$a->outof}"
+msgstr ""
+
+#: $string['url']
+msgid "URL"
+msgstr "Τοποθεσία URL"
+
+#: $string['usedcategorymoved']
+msgid ""
+"This category has been preserved and moved to the site level because it is a "
+"published category still in use by other courses."
+msgstr ""
+"Αυτή η κατηγορία έχει διατηρηθεί και έχει μετακινηθεί στο επίπεδο δικτυακού "
+"τόπου γιατί είναι δημοσιευμένη κατηγορία που χρησιμοποιείται από άλλα "
+"μαθήματα."
+
+#: $string['useroverrides']
+msgid "User overrides"
+msgstr ""
+
+#: $string['useroverridesdeleted']
+msgid "User overrides deleted"
+msgstr ""
+
+#: $string['usersnone']
+msgid "No students have access to this quiz"
+msgstr ""
+
+#: $string['validate']
+msgid "Validate"
+msgstr "Επικυρώστε"
+
+#: $string['viewallanswers']
+msgid "View {$a} quiz attempts"
+msgstr "Δείτε {$a} τα ολοκληρωμένα κουίζ"
+
+#: $string['viewallreports']
+msgid "View reports for {$a} attempts"
+msgstr "Δείτε τις αναφορές για {$a} προσπάθειες"
+
+#: $string['viewed']
+msgid "Viewed"
+msgstr ""
+
+#: $string['warningmissingtype']
+msgid ""
+"<b>This question is of a type that has not been installed on your Moodle "
+"yet.<br />Please alert your Moodle administrator.</b>"
+msgstr ""
+"<b>Ο τύπος αυτής της ερώτησης δεν έχει εγκατασταθεί στο Moodle προς το "
+"παρόν. <br>Παρακαλώ ειδοποιήστε το διαχειριστή του Moodle. </b>"
+
+#: $string['wheregrade']
+msgid "Where's my grade?"
+msgstr "Πού είναι ο βαθμός μου;"
+
+#: $string['wildcard']
+msgid "Wild card"
+msgstr "Μπαλαντέρ"
+
+#: $string['windowclosing']
+msgid "This window will close shortly."
+msgstr "Αυτό το παράθυρο θα κλείσει σύντομα."
+
+#: $string['withsummary']
+msgid "with summary statistics"
+msgstr "με Συνοπτικά Στατιστικά"
+
+#: $string['wronguse']
+msgid "You can not use this page like that"
+msgstr "Δεν μπορείτε να χρησιμοποιήσετε αυτή την σελίδα έτσι"
+
+#: $string['xhtml']
+msgid "XHTML"
+msgstr "Μορφή XHTML"
+
+#: $string['youneedtoenrol']
+msgid "You need to enrol in this course before you can attempt this quiz"
+msgstr ""
+"Πρέπει να εγγραφείτε σε αυτό το μάθημα πριν εκκινήσετε προσπάθεια γι' αυτό "
+"το κουίζ"
+
+#: $string['yourfinalgradeis']
+msgid "Your final grade for this quiz is {$a}."
+msgstr "Ο τελικός σας βαθμός γι' αυτό το κουίζ είναι {$a}"

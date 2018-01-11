@@ -1,0 +1,424 @@
+#. extracted from lang/en/collaborate.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'collaborate', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   collaborate
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['apidiagnostics']
+msgid "API diagnostics"
+msgstr ""
+
+#: $string['apidiagnosticsavenotice']
+msgid "Note: You must submit this form before running the api test"
+msgstr ""
+
+#: $string['apisettings']
+msgid "Production Moodle Integration"
+msgstr ""
+
+#: $string['attendance']
+msgid "Attendance"
+msgstr ""
+
+#: $string['boundaryminutes']
+msgid "Boundary Time"
+msgstr ""
+
+#: $string['cachedef_recordingcounts']
+msgid "Cache for Collaborate recording views and downloads"
+msgstr ""
+
+#: $string['chair']
+msgid "Chair"
+msgstr ""
+
+#: $string['cleanupsessionstask']
+msgid "Clean up sessions task"
+msgstr ""
+
+#: $string['collaborate']
+msgctxt "$string['collaborate']"
+msgid "Collaborate"
+msgstr ""
+
+#: $string['collaborate:addinstance']
+msgid "Add Collaborate instance"
+msgstr ""
+
+#: $string['collaborate:deleterecordings']
+msgid "Delete recordings"
+msgstr ""
+
+#: $string['collaboratefieldset']
+msgid "Custom example fieldset"
+msgstr ""
+
+#: $string['collaborate:moderate']
+msgid "Moderate Collaborate instance"
+msgstr ""
+
+#: $string['collaboratename']
+msgid "Session name"
+msgstr ""
+
+#: $string['collaboratename_help']
+msgid ""
+"This is the content of the help tooltip associated with the collaboratename "
+"field. Markdown syntax is supported."
+msgstr ""
+
+#: $string['collaborate:participate']
+msgid "Join Collaborate instance"
+msgstr ""
+
+#: $string['collaborate:view']
+msgid "View Collaborate instance"
+msgstr ""
+
+#: $string['collaborate:viewattendance']
+msgid "View Attendance"
+msgstr ""
+
+#: $string['completionlaunch']
+msgid "Student must launch the collaborate session to complete it"
+msgstr ""
+
+#: $string['configlogging']
+msgctxt "$string['configlogging']"
+msgid "Logging"
+msgstr ""
+
+#: $string['configloggingdesc']
+msgid ""
+"Logging levels - determines how much data is logged for debugging purposes. "
+"Note: This is different to moodle event based logs which are not designed "
+"for logging errors, soap calls, etc.."
+msgstr ""
+
+#: $string['configpassword']
+msgid "Password"
+msgstr ""
+
+#: $string['configserver']
+msgid "URL"
+msgstr ""
+
+#: $string['configserverdesc']
+msgid "The server your Collaborate sessions are created on."
+msgstr ""
+
+#: $string['configusername']
+msgid "Username"
+msgstr ""
+
+#: $string['configwsdebug']
+msgid "Web Services Debugging"
+msgstr ""
+
+#: $string['configwsdebugdesc']
+msgid ""
+"Turn on Web Services debugging: useful when you are receiving Fault errors "
+"using this module but prints out a lot of extra information"
+msgstr ""
+
+#: $string['connectionfailed']
+msgid "Connection failed - please check credentials"
+msgstr ""
+
+#: $string['connectionstatusunknown']
+msgid "Connection status unknown"
+msgstr ""
+
+#: $string['connectionverified']
+msgid "Credentials verified"
+msgstr ""
+
+#: $string['copiedlink']
+msgid "Link copied to clipboard."
+msgstr ""
+
+#: $string['copylink']
+msgid "Copy link"
+msgstr ""
+
+#: $string['crontask']
+msgid "Collaborate scheduled task"
+msgstr ""
+
+#: $string['debugging']
+msgid "Debugging"
+msgstr ""
+
+#: $string['deleterecording']
+msgid "Delete recording entitled \"{$a}\""
+msgstr ""
+
+#: $string['deleterecordingconfirmation']
+msgid "Are you sure you want to delete the recording entitled \"{$a}\"?"
+msgstr ""
+
+#: $string['downloadrec']
+msgid "Download recording"
+msgstr ""
+
+#: $string['duration']
+msgid "Duration"
+msgstr ""
+
+#: $string['ends']
+msgid "Ends - {$a}"
+msgstr ""
+
+#: $string['error:apicallfailed']
+msgid "API call failed ({$a})"
+msgstr ""
+
+#: $string['error:apifailure']
+msgid ""
+"An error occurred whilst talking to the collaborate server - please try "
+"again later. If the problem persists, please contact support."
+msgstr ""
+
+#: $string['error:failedtocreateurl']
+msgid "Failed to generate url for session"
+msgstr ""
+
+#: $string['error:failedtodeletesession']
+msgid "Failed to delete collaborate session"
+msgstr ""
+
+#: $string['error:invalidmoduleid']
+msgid "You must specify a valid course_module ID or an instance ID"
+msgstr ""
+
+#: $string['error:noconfiguration']
+msgid "Collaborate module is not configured - please contact an administrator"
+msgstr ""
+
+#: $string['error:serviceunreachable']
+msgid "WSDL unreachable"
+msgstr ""
+
+#: $string['error:unknownaction']
+msgid "Unknown action"
+msgstr ""
+
+#: $string['eventrecordingdeleted']
+msgid "Recording deleted"
+msgstr ""
+
+#: $string['eventrecordingdownloaded']
+msgid "Recording downloaded"
+msgstr ""
+
+#: $string['eventrecordingviewed']
+msgid "Recording viewed"
+msgstr ""
+
+#: $string['eventsessionlaunched']
+msgid "Collab session launched"
+msgstr ""
+
+#: $string['exitapidiagnostics']
+msgid "Exit API diagnostics"
+msgstr ""
+
+#: $string['guestaccessenabled']
+msgid "Allow Collaborate guest access"
+msgstr ""
+
+#: $string['guestlink']
+msgid "Collaborate guest link"
+msgstr ""
+
+#: $string['guestrole']
+msgid "Collaborate guest role"
+msgstr ""
+
+#: $string['hour']
+msgid "1 Hour"
+msgstr ""
+
+#: $string['hourminutes']
+msgid "1 Hour and {$a->minutes} Minutes"
+msgstr ""
+
+#: $string['hours']
+msgid "{$a} Hours"
+msgstr ""
+
+#: $string['hoursminutes']
+msgid "{$a->hours} Hours and {$a->minutes} Minutes"
+msgstr ""
+
+#: $string['lastjoined']
+msgid "Last Joined: {$a}"
+msgstr ""
+
+#: $string['lastleft']
+msgid "Last Left: {$a}"
+msgstr ""
+
+#: $string['log:all']
+msgid "All"
+msgstr ""
+
+#: $string['logging']
+msgctxt "$string['logging']"
+msgid "Logging"
+msgstr ""
+
+#: $string['log:light']
+msgid "Light - Emergency|Alert|Critical"
+msgstr ""
+
+#: $string['log:medium']
+msgid "Medium - Emergency|Alert|Critical|Error|Warning"
+msgstr ""
+
+#: $string['log:none']
+msgid "None"
+msgstr ""
+
+#: $string['meetingtimecurrent']
+msgid "Session in progress"
+msgstr ""
+
+#: $string['meetingtimejoin']
+msgid "Join session"
+msgstr ""
+
+#: $string['meetingtimepast']
+msgid "Session ended"
+msgstr ""
+
+#: $string['minutes']
+msgid "{$a} Minutes"
+msgstr ""
+
+#: $string['moderator']
+msgid "Moderator"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Collaborate"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"Use Blackboard Collaborate with the Ultra experience to connect with one "
+"student or your entire class. Create virtual classrooms, offices and meeting "
+"spaces to engage your students in a more collaborative and interactive "
+"learning experience."
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Collaborate instances"
+msgstr ""
+
+#: $string['noguestentry']
+msgid "Sorry, guests are not allowed to take part in discussions"
+msgstr ""
+
+#: $string['openended']
+msgid "Duration of course"
+msgstr ""
+
+#: $string['participant']
+msgid "Participant"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Collaborate administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Collaborate"
+msgstr ""
+
+#: $string['presenter']
+msgid "Presenter"
+msgstr ""
+
+#: $string['recording']
+msgid "Recording {$a}"
+msgstr ""
+
+#: $string['recordingcounts']
+msgid "{$a->views} view(s)"
+msgstr ""
+
+#: $string['recordingdeleted']
+msgid "The recording entitled \"{$a}\" has been deleted."
+msgstr ""
+
+#: $string['recordings']
+msgid "Recordings"
+msgstr ""
+
+#: $string['sessiongroup']
+msgid "Group {$a}"
+msgstr ""
+
+#: $string['sessionstart']
+msgid "Start"
+msgstr ""
+
+#: $string['sessionstarthelp']
+msgid "Participants can join the session 15 minutes before it starts"
+msgstr ""
+
+#: $string['starts']
+msgid "Starts - {$a}"
+msgstr ""
+
+#: $string['testapi']
+msgid "Test connection"
+msgstr ""
+
+#: $string['timezone']
+msgid "Timezone: {$a}"
+msgstr ""
+
+#: $string['unrestored']
+msgid "A moderator must view or join the session before you can access it."
+msgstr ""
+
+#: $string['verifyingapi']
+msgid "Verifying API connection. Please wait..."
+msgstr ""
+
+#: $string['viewrec']
+msgid "View recording"
+msgstr ""

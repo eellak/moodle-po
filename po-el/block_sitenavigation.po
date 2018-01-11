@@ -1,0 +1,360 @@
+#. extracted from lang/en/block_sitenavigation.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_sitenavigation', language 'en', branch 'MOODLE_23_STABLE'
+#.  *
+#.  * @package   block_sitenavigation
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['blocktitle']
+msgctxt "$string['blocktitle']"
+msgid "sitenavigation"
+msgstr ""
+
+#: $string['configloginrequired']
+msgid ""
+"<ul><li>If enabled, the sitenavigation is displayed only after a user has "
+"logged in.</li><li>Otherwise the sitenavigation will be displayed for "
+"everybody, even without login.</li></ul>"
+msgstr ""
+
+#: $string['configshow']
+msgid ""
+"<ul><li>If enabled, the sitenavigation will be displayed.</li><li>Otherwise "
+"it is not displayed.</li></ul>"
+msgstr ""
+
+#: $string['configshowallcourseslink']
+msgctxt "$string['configshowallcourseslink']"
+msgid ""
+"<ul><li>If enabled, the footer will display the <b>Show all courses</b> "
+"link.</li><li>Otherwise the link will not be displayed.</li></ul>"
+msgstr ""
+
+#: $string['configshowcategorylinks']
+msgctxt "$string['configshowcategorylinks']"
+msgid ""
+"<ul><li>If enabled, categories/folders will be displayed with a hyperlink to "
+"the corresponding Moodle page.</li><li>Otherwise categories/folders will "
+"have no active links.</li></ul>"
+msgstr ""
+
+#: $string['configshowflatlist']
+msgctxt "$string['configshowflatlist']"
+msgid ""
+"<ul><li>If enabled, the courses will be displayed line by "
+"line.</li><li>Otherwise the courses will appear in their categories/folders "
+"structure.</li></ul>"
+msgstr ""
+
+#: $string['configshowhiddencourses']
+msgid ""
+"<ul><li>If enabled, inactive/hidden courses are displayed.</li><li>Otherwise "
+"they are not displayed.</li></ul>"
+msgstr ""
+
+#: $string['configshowinpopupwindow']
+msgid ""
+"<ul><li>If enabled, the sitenavigation is displayed in a separate Pop-Up-"
+"Window which can be left open for navigation.</li><li>Otherwise the "
+"sitenavigation is displayed inside the block.</li></ul>"
+msgstr ""
+
+#: $string['configshowlongnames']
+msgctxt "$string['configshowlongnames']"
+msgid ""
+"<ul><li>If enabled, categories and courses will be displayed with long "
+"names.</li><li>Otherwise the short names will be used.</li></ul>"
+msgstr ""
+
+#: $string['configshowsearchbox']
+msgctxt "$string['configshowsearchbox']"
+msgid ""
+"<ul><li>If enabled, a course search box will be displayed.</li><li>Otherwise "
+"no search box is displayed.</li></ul>"
+msgstr ""
+
+#: $string['configsitenavigationbycategory']
+msgid ""
+"<ul><li>If enabled, only categories are shown (no "
+"courses).</li><li>Otherwise all categories and all courses are "
+"displayed.</li><li>Use categories for a fast rendering.</li><li>Use all "
+"categories and all courses if the rendering is not too slow for your site. I "
+"am looking for a faster HTML-rendering code to implement in the next "
+"version.</li></ul>"
+msgstr ""
+
+#: $string['configwithscrollbars']
+msgctxt "$string['configwithscrollbars']"
+msgid ""
+"<ul><li>If enabled, the block will be displayed with vertical and horizontal "
+"scroll bars.</li><li>Otherwise the block will have no scroll "
+"bars.</li></ul>"
+msgstr ""
+
+#: $string['couldnotopenmycoursesfile']
+msgid "The mycourses file could not be opened."
+msgstr ""
+
+#: $string['couldnotopensitenavigationfile']
+msgid "The sitenavigation file could not be opened."
+msgstr ""
+
+#: $string['couldnotwritetomycoursesfile']
+msgid "The mycourses file could not be written."
+msgstr ""
+
+#: $string['couldnotwritetositenavigationfile']
+msgid "The sitenavigation file could not be written."
+msgstr ""
+
+#: $string['enablejs']
+msgid "Enable JavaScript to show navigation."
+msgstr ""
+
+#: $string['loginrequired']
+msgid "sitenavigation: Login required"
+msgstr ""
+
+#: $string['mycourses_adminshowactivecourses']
+msgid "mycourses: Toggle active courses"
+msgstr ""
+
+#: $string['mycourses_adminshowinactivecourses']
+msgid "mycourses: Toggle inactive courses"
+msgstr ""
+
+#: $string['mycourses_adminshowmycourses']
+msgid "mycourses: Toggle own courses"
+msgstr ""
+
+#: $string['mycourses_blocktitle']
+msgid "mycourses"
+msgstr ""
+
+#: $string['mycourses_configadminshowactivecourses']
+msgid ""
+"<ul><li>If enabled, the Admin sees the active courses.</li><li>Otherwise "
+"they are not displayed.</li></ul>"
+msgstr ""
+
+#: $string['mycourses_configadminshowinactivecourses']
+msgid ""
+"<ul><li>If enabled, the Admin sees the inactive courses.</li><li>Otherwise "
+"they are not displayed.</li></ul>"
+msgstr ""
+
+#: $string['mycourses_configadminshowmycourses']
+msgid ""
+"<ul><li>If enabled, the Admin sees his own courses.</li><li>Otherwise they "
+"are not displayed.</li></ul>"
+msgstr ""
+
+#: $string['mycourses_confignotvisitedsince']
+msgid ""
+"<ul><li>If zero, students and teachers see all courses.</li><li>Otherwise "
+"courses not visited during the last given number of days are not displayed "
+"when users toggle the green button.</li></ul>"
+msgstr ""
+
+#: $string['mycourses_configshow']
+msgid ""
+"<ul><li>If enabled, mycourses are displayed.</li><li>Otherwise they are not "
+"displayed.</li></ul>"
+msgstr ""
+
+#: $string['mycourses_configshowallcourseslink']
+msgctxt "$string['mycourses_configshowallcourseslink']"
+msgid ""
+"<ul><li>If enabled, the footer will display the <b>Show all courses</b> "
+"link.</li><li>Otherwise the link will not be displayed.</li></ul>"
+msgstr ""
+
+#: $string['mycourses_configshowcategorylinks']
+msgctxt "$string['mycourses_configshowcategorylinks']"
+msgid ""
+"<ul><li>If enabled, categories/folders will be displayed with a hyperlink to "
+"the corresponding Moodle page.</li><li>Otherwise categories/folders will "
+"have no active links.</li></ul>"
+msgstr ""
+
+#: $string['mycourses_configshowflatlist']
+msgctxt "$string['mycourses_configshowflatlist']"
+msgid ""
+"<ul><li>If enabled, the courses will be displayed line by "
+"line.</li><li>Otherwise the courses will appear in their categories/folders "
+"structure.</li></ul>"
+msgstr ""
+
+#: $string['mycourses_configshowinpopupwindow']
+msgid ""
+"<ul><li>If enabled, mycourses are displayed in a separate Pop-Up-Window "
+"which can be left open for navigation.</li><li>Otherwise mycourses are "
+"displayed inside the block.</li></ul>"
+msgstr ""
+
+#: $string['mycourses_configshowlongnames']
+msgctxt "$string['mycourses_configshowlongnames']"
+msgid ""
+"<ul><li>If enabled, categories and courses will be displayed with long "
+"names.</li><li>Otherwise the short names will be used.</li></ul>"
+msgstr ""
+
+#: $string['mycourses_configshowsearchbox']
+msgctxt "$string['mycourses_configshowsearchbox']"
+msgid ""
+"<ul><li>If enabled, a course search box will be displayed.</li><li>Otherwise "
+"no search box is displayed.</li></ul>"
+msgstr ""
+
+#: $string['mycourses_configwithscrollbars']
+msgctxt "$string['mycourses_configwithscrollbars']"
+msgid ""
+"<ul><li>If enabled, the block will be displayed with vertical and horizontal "
+"scroll bars.</li><li>Otherwise the block will have no scroll "
+"bars.</li></ul>"
+msgstr ""
+
+#: $string['mycourses_hideactivecourses']
+msgid "Hide active courses"
+msgstr ""
+
+#: $string['mycourses_hideinactivecourses']
+msgid "Hide inactive courses"
+msgstr ""
+
+#: $string['mycourses_hidemycourses']
+msgid "Hide my courses"
+msgstr ""
+
+#: $string['mycourses_hideoldcourses']
+msgid "Hide old courses"
+msgstr ""
+
+#: $string['mycourses_notvisitedsince']
+msgid "Not visited since (number of days)"
+msgstr ""
+
+#: $string['mycourses_show']
+msgid "mycourses: Show"
+msgstr ""
+
+#: $string['mycourses_showactivecourses']
+msgid "Show active courses"
+msgstr ""
+
+#: $string['mycourses_showallcourseslink']
+msgid "mycourses: Show <b>all courses</b> link"
+msgstr ""
+
+#: $string['mycourses_showcategorylinks']
+msgid "mycourses: Show Category Links"
+msgstr ""
+
+#: $string['mycourses_showflatlist']
+msgid "mycourses: Show flat list"
+msgstr ""
+
+#: $string['mycourses_showinactivecourses']
+msgid "Show inactive courses"
+msgstr ""
+
+#: $string['mycourses_showinpopupwindow']
+msgid "mycourses: Show in a Pop-Up-Window"
+msgstr ""
+
+#: $string['mycourses_showlongnames']
+msgid "mycourses: Show long names"
+msgstr ""
+
+#: $string['mycourses_showmycourses']
+msgid "Show my courses"
+msgstr ""
+
+#: $string['mycourses_showoldcourses']
+msgid "Show old courses"
+msgstr ""
+
+#: $string['mycourses_showsearchbox']
+msgid "mycourses: Show Course Search Box"
+msgstr ""
+
+#: $string['mycourses_withscrollbars']
+msgid "mycourses: Show scrollbars"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "sitenavigation"
+msgstr ""
+
+#: $string['show']
+msgid "sitenavigation: Show"
+msgstr ""
+
+#: $string['showallcourses']
+msgid "Show all courses"
+msgstr ""
+
+#: $string['showallcourseslink']
+msgid "sitenavigation: Show <b>all courses</b> link"
+msgstr ""
+
+#: $string['showcategorylinks']
+msgid "sitenavigation: Show Category Links"
+msgstr ""
+
+#: $string['showflatlist']
+msgid "sitenavigation: Show flat list"
+msgstr ""
+
+#: $string['showhiddencourses']
+msgid "sitenavigation: Toggle inactive/hidden courses"
+msgstr ""
+
+#: $string['showinpopupwindow']
+msgid "sitenavigation: Show in a Pop-Up-Window"
+msgstr ""
+
+#: $string['showlongnames']
+msgid "sitenavigation: Show long names"
+msgstr ""
+
+#: $string['showsearchbox']
+msgid "sitenavigation: Show Course Search Box"
+msgstr ""
+
+#: $string['sitenavigationbycategory']
+msgid "sitenavigation: By categories"
+msgstr ""
+
+#: $string['withscrollbars']
+msgid "sitenavigation: Show scrollbars"
+msgstr ""

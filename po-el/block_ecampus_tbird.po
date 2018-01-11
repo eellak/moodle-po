@@ -1,0 +1,449 @@
+#. extracted from lang/en/block_ecampus_tbird.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_ecampus_tbird', language 'en', branch 'MOODLE_26_STABLE'
+#.  *
+#.  * @package   block_ecampus_tbird
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['accessdenied']
+msgid "Access denied: you are not allow to purge the book list cache!"
+msgstr ""
+
+#: $string['booklinktypeimage']
+msgid "Book cover image"
+msgstr ""
+
+#: $string['booklinktypeno']
+msgid "Do not show"
+msgstr ""
+
+#: $string['booklinktypetext']
+msgid "Book title"
+msgstr ""
+
+#: $string['cachepurged']
+msgid "The eCampus book list cache has been purged!"
+msgstr ""
+
+#: $string['clickhereforbook']
+msgid "Click here to access your purchased eCampus eBook"
+msgstr ""
+
+#: $string['clicktoaccessecampus']
+msgctxt "$string['clicktoaccessecampus']"
+msgid "eCampus Login"
+msgstr ""
+
+#: $string['configadditionalcontent']
+msgid "Additional content between link and footer"
+msgstr ""
+
+#: $string['configallowcustom']
+msgid "Allow custom config"
+msgstr ""
+
+#: $string['configallowcustomconfig']
+msgid "Allow custom settings"
+msgstr ""
+
+#: $string['configallowcustomconfigdescr']
+msgid ""
+"Allow per-block settings of book title vs. image, image size, and title "
+"length"
+msgstr ""
+
+#: $string['configallowcustomdescr']
+msgid ""
+"If set, in each block instance allow additional custom content to be added "
+"below eCampus link and before footer."
+msgstr ""
+
+#: $string['configallownewtitle']
+msgid "Allow custom title"
+msgstr ""
+
+#: $string['configallownewtitledescr']
+msgid "If set, in each block instance allow a custom title."
+msgstr ""
+
+#: $string['configbookimagesize']
+msgid "Book image size"
+msgstr ""
+
+#: $string['configbookimagesizedescr']
+msgid ""
+"Set the max height and width (in pixels) for the eCampus provided book "
+"image. 0 means do not limit."
+msgstr ""
+
+#: $string['configbooktitlelength']
+msgid "Book title length"
+msgstr ""
+
+#: $string['configbooktitlelengthdescr']
+msgid ""
+"Set the max number of characters of the book title. 0 means do not limit. If "
+"limit set, title will be cut of at that length, followed by \"...\""
+msgstr ""
+
+#: $string['configchangetitle']
+msgid "Change block title"
+msgstr ""
+
+#: $string['configconnecttimeout']
+msgid "Connection timeout"
+msgstr ""
+
+#: $string['configconnecttimeoutdescr']
+msgid ""
+"Connection timeout in second for getting the temporary eCampus access code "
+"for single-sign-in"
+msgstr ""
+
+#: $string['configcourseidtype']
+msgid "eCampus course id"
+msgstr ""
+
+#: $string['configcourseidtypedescr']
+msgid "Which Moodle course attribute will be sent to eCampus as the course id"
+msgstr ""
+
+#: $string['configcustomerrormsg']
+msgid "Custom error message"
+msgstr ""
+
+#: $string['configcustomerrormsgdescr']
+msgid ""
+"Custom error message that will be shown below the eCampus actual error text."
+msgstr ""
+
+#: $string['configdebugfile']
+msgid "Debug file"
+msgstr ""
+
+#: $string['configdebugfiledescr']
+msgid "Debug file path, must be writable by web server"
+msgstr ""
+
+#: $string['configdebugsettings']
+msgid ""
+"The following settings do not normally require changing. Only set if you "
+"know what you are doing, or as requested by support."
+msgstr ""
+
+#: $string['configdefaulterrormsg']
+msgid "Please contact the site administrator for assistance."
+msgstr ""
+
+#: $string['configecampuscustomersettings']
+msgid ""
+"The settings below are customer/school specific, and can be obtained from "
+"your eCampus representative."
+msgstr ""
+
+#: $string['configenabledebug']
+msgid "Enable debugging"
+msgstr ""
+
+#: $string['configenabledebugdescr']
+msgid ""
+"If checked, enable debugging into the debug file. Primarily for development."
+msgstr ""
+
+#: $string['configenablelog']
+msgid "Enable extra logging"
+msgstr ""
+
+#: $string['configenablelogdescr']
+msgid ""
+"Enable activity logging into an extra log file. Primarily for development. "
+"(Moodle system logging always occurs)."
+msgstr ""
+
+#: $string['configfooter']
+msgid "Footer"
+msgstr ""
+
+#: $string['configfooterdescr']
+msgid ""
+"If set, show as centered footer text in block. You can use HTML tags to "
+"format."
+msgstr ""
+
+#: $string['configimageurl']
+msgid "Image URL"
+msgstr ""
+
+#: $string['configimageurldescr']
+msgid ""
+"If using image, external URL to override built-in image on My Moodle page."
+msgstr ""
+
+#: $string['configinstancesettings']
+msgid ""
+"The following settings allow per-instance customizations. In most cases this "
+"may not be needed."
+msgstr ""
+
+#: $string['configlinktext']
+msgid "Link text"
+msgstr ""
+
+#: $string['configlinktextdefault']
+msgid "eCampus Bookstore"
+msgstr ""
+
+#: $string['configlinktextdescr']
+msgid "The text for the link to the eCampus Bookstore"
+msgstr ""
+
+#: $string['configlinktitle']
+msgid "Link title"
+msgstr ""
+
+#: $string['configlinktitledefault']
+msgid "Click here to access the eCampus Bookstore"
+msgstr ""
+
+#: $string['configlinktitledescr']
+msgid "The hover-over text for the link to the eCampus Bookstore"
+msgstr ""
+
+#: $string['configlinktype']
+msgid "Link type"
+msgstr ""
+
+#: $string['configlinktypedescr']
+msgid "Select either a textual or graphical link to the eCampus Bookstore"
+msgstr ""
+
+#: $string['configlogfile']
+msgid "Log file"
+msgstr ""
+
+#: $string['configlogfiledescr']
+msgid "Log file path, must be writable by web server"
+msgstr ""
+
+#: $string['configmyimageurl']
+msgid "My Image URL"
+msgstr ""
+
+#: $string['configmyimageurldescr']
+msgid ""
+"If using image, external URL to override built-in image outside courses (eg. "
+"My Moodle)."
+msgstr ""
+
+#: $string['confignologoifbook']
+msgid "No logo if books"
+msgstr ""
+
+#: $string['confignologoifbookdescr']
+msgid ""
+"If course has eBooks associated with it, hide the eCampus logo button, and "
+"show only book links or images"
+msgstr ""
+
+#: $string['configschoolid']
+msgid "eCampus School ID"
+msgstr ""
+
+#: $string['configschooliddescr']
+msgctxt "$string['configschooliddescr']"
+msgid "School specific, see your eCampus rep for details."
+msgstr ""
+
+#: $string['configsharedsecret']
+msgid "eCampus Shared Secret"
+msgstr ""
+
+#: $string['configsharedsecretdescr']
+msgctxt "$string['configsharedsecretdescr']"
+msgid "School specific, see your eCampus rep for details."
+msgstr ""
+
+#: $string['configshowbooklink']
+msgid "Show book links"
+msgstr ""
+
+#: $string['configshowbooklinkdescr']
+msgid ""
+"Choose if you want to show links to the individual books for a course, "
+"either a textual (book title) or graphical (book cover) link"
+msgstr ""
+
+#: $string['configtitle']
+msgid "Title"
+msgstr ""
+
+#: $string['configtitledescr']
+msgid "If set, show as title in block header. Default is to not show header."
+msgstr ""
+
+#: $string['configuseridtype']
+msgid "eCampus user id"
+msgstr ""
+
+#: $string['configuseridtypedescr']
+msgid "Which Moodle user attribute will be sent to eCampus as the student id"
+msgstr ""
+
+#: $string['configusesecureimage']
+msgid "Use secure image"
+msgstr ""
+
+#: $string['configusesecureimagedescr']
+msgid ""
+"If available, use secure (https) url to show the book image from eCampus"
+msgstr ""
+
+#: $string['courseidtypeidnumber']
+msgctxt "$string['courseidtypeidnumber']"
+msgid "idnumber"
+msgstr ""
+
+#: $string['courseidtypeshortname']
+msgid "shortname"
+msgstr ""
+
+#: $string['curlerror']
+msgid "ERROR: cannot get eCampus access code, curl error"
+msgstr ""
+
+#: $string['curlerror_invalidpage']
+msgid "ERROR: eCampus returned invalid page"
+msgstr ""
+
+#: $string['curlerror_ssl']
+msgid "SSL related error"
+msgstr ""
+
+#: $string['curlerror_timeout']
+msgid "Connection Timeout"
+msgstr ""
+
+#: $string['curlerror_unknown']
+msgid "Unknown"
+msgstr ""
+
+#: $string['debugsettings']
+msgid "Connection and Debug settings"
+msgstr ""
+
+#: $string['ecampusbookshelf']
+msgid "eCampus Bookshelf"
+msgstr ""
+
+#: $string['ecampuscoursebookshelf']
+msgid "eCampus Course Bookshelf"
+msgstr ""
+
+#: $string['ecampuscustomersettings']
+msgid "eCampus customer specific settings"
+msgstr ""
+
+#: $string['ecampuslogin']
+msgctxt "$string['ecampuslogin']"
+msgid "eCampus Login"
+msgstr ""
+
+#: $string['ecampus_tbird:addinstance']
+msgid "Add a new eCampus block"
+msgstr ""
+
+#: $string['ecampus_tbird:myaddinstance']
+msgid "Add a new eCampus block to My home"
+msgstr ""
+
+#: $string['ecampus_tbird:purgecache']
+msgid "Purge the course book list cache"
+msgstr ""
+
+#: $string['ecampus_tbird_settings']
+msgid "eCampus block custom settings"
+msgstr ""
+
+#: $string['erroroccured']
+msgid "An error occured trying to sign in to eCampus!"
+msgstr ""
+
+#: $string['errorpagetitle']
+msgid "An eCampus login error has occured!"
+msgstr ""
+
+#: $string['erroruseridnumbernotset']
+msgid ""
+"User idnumber needed for eCampus login, but idnumber not set for this user."
+msgstr ""
+
+#: $string['instancesettings']
+msgid "Per Instance settings"
+msgstr ""
+
+#: $string['javascriptdisabled']
+msgid ""
+"Since your browser has Javascript disabled, you will need to click the "
+"button above to login to eCampus"
+msgstr ""
+
+#: $string['linktypeimage']
+msgid "Image link"
+msgstr ""
+
+#: $string['linktypetext']
+msgid "Text link"
+msgstr ""
+
+#: $string['pluginname']
+msgid "eCampus"
+msgstr ""
+
+#: $string['purgecachetitle']
+msgid "eCampus Book List Cache Purging"
+msgstr ""
+
+#: $string['redirectfollowsshortly']
+msgid "You will shortly be redirected to the eCampus site"
+msgstr ""
+
+#: $string['useridtypeemail']
+msgid "email"
+msgstr ""
+
+#: $string['useridtypeidnumber']
+msgctxt "$string['useridtypeidnumber']"
+msgid "idnumber"
+msgstr ""
+
+#: $string['useridtypeusername']
+msgid "username"
+msgstr ""

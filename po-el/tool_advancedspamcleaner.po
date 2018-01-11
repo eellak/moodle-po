@@ -1,0 +1,427 @@
+#. extracted from lang/en/tool_advancedspamcleaner.php, lang/el/tool_advancedspamcleaner.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'tool_advancedspamcleaner', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   tool_advancedspamcleaner
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['akismetkey']
+msgid "Your akismet key"
+msgstr ""
+
+#: $string['akismetkey_desc']
+msgid "Enter the key that you got from akismet.com"
+msgstr ""
+
+#: $string['alreadyreported']
+msgid "You've already reported this content as spam."
+msgstr ""
+
+#: $string['apilimit']
+msgid "Api limit"
+msgstr ""
+
+#: $string['apilimit_help']
+msgid "Maximum amount of Api calls to make. (0 = unlimited)"
+msgstr ""
+
+#: $string['blogpost']
+msgid "Blog post"
+msgstr ""
+
+#: $string['blogsummary']
+msgid "Blog summary"
+msgstr ""
+
+#: $string['cannotdelete']
+msgid "Cannot delete content for this user."
+msgstr ""
+
+#: $string['commment']
+msgid "Comment"
+msgstr "Σχόλιο"
+
+#: $string['confirmdelete']
+msgid "Delete spammer"
+msgstr ""
+
+#: $string['confirmdeletemsg']
+msgid ""
+"Are you sure, you want to mark <strong>{$a->firstname} {$a->lastname} "
+"({$a->username})</strong> as spammer? Data belonging to this user will be "
+"blanked out or removed."
+msgstr ""
+
+#: $string['confirmspamreportmsg']
+msgid "Are you sure you wish to report this content as spam?"
+msgstr ""
+
+#: $string['countcomment']
+msgid "Comments: {$a}"
+msgstr "Σχόλια: {$a}"
+
+#: $string['countforum']
+msgid "Forum posts: {$a}"
+msgstr ""
+
+#: $string['countmessageread']
+msgid "Read messages: {$a}"
+msgstr "Διαβασμένα μηνύματα: {$a}"
+
+#: $string['countmessageunread']
+msgid "Unread messages: {$a}"
+msgstr "Αδιάβαστα μηνύματα: {$a}"
+
+#: $string['counttags']
+msgid "Unique tags: {$a}"
+msgstr ""
+
+#: $string['datelimits']
+msgid "Date limits"
+msgstr ""
+
+#: $string['deletebutton']
+msgid "Nuke spammer"
+msgstr ""
+
+#: $string['enddate']
+msgid "End date"
+msgstr ""
+
+#: $string['forummessage']
+msgid "Forum message"
+msgstr ""
+
+#: $string['forumsubject']
+msgid "Forum subject"
+msgstr ""
+
+#: $string['hitlimit']
+msgid "Hit limit"
+msgstr ""
+
+#: $string['hitlimit_help']
+msgid ""
+"Stop after this amount of spam entries have been detected (0 = unlimited)"
+msgstr ""
+
+#: $string['keywordstouse']
+msgid "Keywords to use"
+msgstr ""
+
+#: $string['limithit']
+msgid "Set limit was hit. Results that follow may not be complete.."
+msgstr ""
+
+#: $string['limits']
+msgid "Limits"
+msgstr ""
+
+#: $string['message']
+msgid "Message"
+msgstr "Μήνυμα"
+
+#: $string['messageblocked']
+msgid ""
+"Your post has been blocked, as our spam prevention system has flagged it as "
+"possibly containing spam. If this is not the case, please see 'My post has "
+"been incorrectly flagged as containing spam' in <a href=\"http://docs.moodle."
+"org/en/Moodle.org_FAQ#My_post_has_been_incorrectly_flagged_as_containing_spa"
+"m\">http://docs.moodle.org/en/Moodle.org_FAQ</a>. Your message is below if "
+"you need to copy and paste it."
+msgstr ""
+
+#: $string['messageblockedtitle']
+msgid "Potential spam detected!"
+msgstr ""
+
+#: $string['messageprovider:spamreport']
+msgid "Spam report"
+msgstr ""
+
+#: $string['method']
+msgid "Method to use"
+msgstr ""
+
+#: $string['methodoptions']
+msgid "Method options"
+msgstr ""
+
+#: $string['methodused']
+msgid "Spam detection method used: {$a}"
+msgstr ""
+
+#: $string['missingkeywords']
+msgid "Keywords cannot be empty"
+msgstr ""
+
+#: $string['missingmethod']
+msgid "Method to use cannot be empty"
+msgstr ""
+
+#: $string['missingscope']
+msgid "No scope specified to search"
+msgstr ""
+
+#: $string['noakismetkey']
+msgid "Set api key from settings page before using this option"
+msgstr ""
+
+#: $string['notrecentlyaccessed']
+msgid ""
+"Beware! The first access date of this account is more than 1 month ago. Make "
+"double sure it is really a spammer."
+msgstr ""
+
+#: $string['nukeuser']
+msgid "Nuke user"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Advanced spam cleaner"
+msgstr ""
+
+#: $string['pluginpage']
+msgid "Plugin page"
+msgstr ""
+
+#: $string['pluginsettings']
+msgid "Advanced spam cleaner sub-plugins settings for {$a}"
+msgstr ""
+
+#: $string['reportasspam']
+msgid "Report as spam"
+msgstr ""
+
+#: $string['reportcontentasspam']
+msgid "Report content as spam"
+msgstr ""
+
+#: $string['reportissue']
+msgid "Report an issue"
+msgstr ""
+
+#: $string['searchblogs']
+msgid "Include blogs"
+msgstr ""
+
+#: $string['searchcomments']
+msgid "Include comments"
+msgstr "Συμπερίληψη σχολίων"
+
+#: $string['searchforums']
+msgid "Include forums"
+msgstr ""
+
+#: $string['searchmsgs']
+msgid "Include messages"
+msgstr ""
+
+#: $string['searchscope']
+msgid "Scope of spam search"
+msgstr ""
+
+#: $string['searchusers']
+msgid "Include user profiles"
+msgstr ""
+
+#: $string['settingpage']
+msgid "Advanced spam cleaner settings"
+msgstr ""
+
+#: $string['showstats']
+msgid ""
+"Following number of entries were checked for spam : <br/> Blogs: "
+"{$a->blogs}, User Profiles: {$a->users}, Comments: {$a->comments},\n"
+"    Messages: {$a->msgs}, Forum Posts: {$a->forums} <br/> Time used was "
+"{$a->time} seconds approximately"
+msgstr ""
+
+#: $string['spamauto']
+msgid "Auto detect spam using common spam keywords"
+msgstr ""
+
+#: $string['spamcannotdelete']
+msgid "Cannot delete this user"
+msgstr ""
+
+#: $string['spamcannotfinduser']
+msgid "No users matching your search"
+msgstr ""
+
+#: $string['spamcleanerintro']
+msgid ""
+"This script allows you to search all user profiles , comments, blogposts, "
+"forum posts and messages for certain strings and then delete those accounts "
+"which are obviously created by spammers.\n"
+"    You can search for multiple keywords using commas (eg casino, porn) or "
+"use a third party system to scan your site (eg Akismet).\n"
+"    Please note this can take a while based on your method of search. Use "
+"limits to reduce scope of search."
+msgstr ""
+
+#: $string['spamcount']
+msgid "Spam count"
+msgstr ""
+
+#: $string['spamdeleteall']
+msgid "Delete all these user accounts"
+msgstr ""
+
+#: $string['spamdeleteallconfirm']
+msgid ""
+"Are you sure you want to delete all these user accounts?  You can not undo "
+"this."
+msgstr ""
+
+#: $string['spamdeleteconfirm']
+msgid "Are you sure you want to delete this entry?  You can not undo this."
+msgstr ""
+
+#: $string['spam_deletion:addinstance']
+msgid "Add delete spammer block"
+msgstr ""
+
+#: $string['spam_deletion:spamdelete']
+msgid "Delete Spam"
+msgstr ""
+
+#: $string['spam_deletion:viewspamreport']
+msgid "View spam reports"
+msgstr ""
+
+#: $string['spamdesc']
+msgid "Description"
+msgstr ""
+
+#: $string['spamdescription']
+msgid "Spammer - spam deleted and account blocked {$a}"
+msgstr ""
+
+#: $string['spameg']
+msgid "eg:  casino, porn, xxx"
+msgstr ""
+
+#: $string['spamfromblog']
+msgid "From blog post:"
+msgstr ""
+
+#: $string['spamfromcomments']
+msgid "From comments:"
+msgstr ""
+
+#: $string['spamfromforumpost']
+msgid "From forum post:"
+msgstr ""
+
+#: $string['spamfrommessages']
+msgid "From messages:"
+msgstr ""
+
+#: $string['spaminvalidresult']
+msgid "Unknown but invalid result"
+msgstr ""
+
+#: $string['spamoperation']
+msgid "Operation"
+msgstr ""
+
+#: $string['spamreportmessage']
+msgid ""
+"{$a->spammer} may be a spammer.\n"
+"View spam reports at {$a->url}"
+msgstr ""
+
+#: $string['spamreportmessagetitle']
+msgid "{$a->spammer} may be a spammer."
+msgstr ""
+
+#: $string['spamreports']
+msgid "Spam reports: {$a}"
+msgstr ""
+
+#: $string['spamresult']
+msgid ""
+"Please note deleting a user doesnt delete the spammed entry <br /> Results "
+"of searching user profiles containing:"
+msgstr ""
+
+#: $string['spamsearch']
+msgid "Search for spam"
+msgstr ""
+
+#: $string['spamtext']
+msgid "Spam text"
+msgstr ""
+
+#: $string['spamtype']
+msgid "Spam type"
+msgstr ""
+
+#: $string['startdate']
+msgid "Start date"
+msgstr ""
+
+#: $string['thanksspamrecorded']
+msgid "Thanks, your spam report has been recorded."
+msgstr ""
+
+#: $string['totalcount']
+msgid "Total records by this user:-"
+msgstr ""
+
+#: $string['usedatestartlimit']
+msgid "Use date limits"
+msgstr ""
+
+#: $string['usedatestartlimit_help']
+msgid ""
+"Enable to run the spam search on entities only between the selected date "
+"range"
+msgstr ""
+
+#: $string['usekeywords']
+msgid "Use the entered keywords"
+msgstr ""
+
+#: $string['uselimits']
+msgid "Use limits"
+msgstr ""
+
+#: $string['uselimits_help']
+msgid ""
+"Use limits to reduce resource usage <br /> (Note that limits are not used "
+"for auto detect and keyword methods)"
+msgstr ""
+
+#: $string['userdesc']
+msgid "User description"
+msgstr ""

@@ -1,0 +1,320 @@
+#. extracted from lang/en/block_formal_langs.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_formal_langs', language 'en', branch 'MOODLE_31_STABLE'
+#.  *
+#.  * @package   block_formal_langs
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addnewlanguage']
+msgid "Add new language"
+msgstr ""
+
+#: $string['affectedcourses']
+msgid "Affected courses:"
+msgstr ""
+
+#: $string['changevisibility']
+msgid "Change visibility in current context"
+msgstr ""
+
+#: $string['clanguagemulticharliteral']
+msgid ""
+"There are several characters in character literal at {$a->line}:{$a->col}"
+msgstr ""
+
+#: $string['clanguageunknownsymbol']
+msgid "There is unknown character \"{$a->symbol}\" at {$a->line}:{$a->position}"
+msgstr ""
+
+#: $string['clanguageunmatchedquote']
+msgid "There is unmatched quote at {$a->line}:{$a->col}"
+msgstr ""
+
+#: $string['clanguageunmatchedsquote']
+msgid "There is unmatched single quote at {$a->line}:{$a->col}"
+msgstr ""
+
+#: $string['defaultlangdescription']
+msgid "Language selected by default when creating a new {$a}"
+msgstr ""
+
+#: $string['defaultlanglabel']
+msgid "Default language"
+msgstr ""
+
+#: $string['deletelanguage']
+msgid "Delete language \"{$a}\""
+msgstr ""
+
+#: $string['editinglanguage']
+msgid "Editing language \"{$a}\""
+msgstr ""
+
+#: $string['editingnewlanguage']
+msgid "Editing new language"
+msgstr ""
+
+#: $string['editlanguage']
+msgid "Edit language \"{$a}\""
+msgstr ""
+
+#: $string['editpermissionslink']
+msgid "Edit permissions in current context"
+msgstr ""
+
+#: $string['editpermissionspagename']
+msgid "Edit permissions"
+msgstr ""
+
+#: $string['extraseparatormsg']
+msgid "there may be an extra separator inside {$a->correct0}"
+msgstr ""
+
+#: $string['formal_langs:addinstance']
+msgid "Add new formal languages block to current module"
+msgstr ""
+
+#: $string['formal_langs:addlanguage']
+msgid "Can add new formal language"
+msgstr ""
+
+#: $string['formal_langs:changelanguagevisibility']
+msgid "Can change language visibility in forms"
+msgstr ""
+
+#: $string['formal_langs:editalllanguages']
+msgid "Can edit all registered formal languages (except for system)"
+msgstr ""
+
+#: $string['formal_langs:editownlanguages']
+msgid "Can edit only own created formal languages"
+msgstr ""
+
+#: $string['formallangsglobalsettings']
+msgid "Site settings for formal language block"
+msgstr ""
+
+#: $string['formal_langs:viewlanguagelist']
+msgid "Can view formal language list"
+msgstr ""
+
+#: $string['formallangsvisibilitysettings']
+msgid "Global settings for language visibility"
+msgstr ""
+
+#: $string['inherited']
+msgid "(Inherited)"
+msgstr ""
+
+#: $string['inherited_course']
+msgid "Course"
+msgstr ""
+
+#: $string['inherited_site']
+msgid "Site"
+msgstr ""
+
+#: $string['lang_c_language']
+msgid "C programming language"
+msgstr ""
+
+#: $string['lang_c_language_help']
+msgid "C programming language. Scanning only."
+msgstr ""
+
+#: $string['lang_cpp_language']
+msgctxt "$string['lang_cpp_language']"
+msgid "C++ programming language"
+msgstr ""
+
+#: $string['lang_cpp_language_help']
+msgid "C++ programming language. Scanning only."
+msgstr ""
+
+#: $string['lang_cpp_parseable_language']
+msgctxt "$string['lang_cpp_parseable_language']"
+msgid "C++ programming language"
+msgstr ""
+
+#: $string['lang_cpp_parseable_language_help']
+msgid "C++ programming language with basic preprocessor support"
+msgstr ""
+
+#: $string['lang_not_found']
+msgid "Language not found"
+msgstr ""
+
+#: $string['lang_printf_language']
+msgid "Language for formatting string (C language, like in printf)."
+msgstr ""
+
+#: $string['lang_printf_language_help']
+msgid ""
+"Language for formatting string (C language, like in printf). Scanning only."
+msgstr ""
+
+#: $string['lang_simple_english']
+msgid "English"
+msgstr ""
+
+#: $string['lang_simple_english_help']
+msgid ""
+"English Language with support for words, numbers and punctuation marks. "
+"Scanning only."
+msgstr ""
+
+#: $string['language_editing_field_description']
+msgid "Description:"
+msgstr ""
+
+#: $string['language_editing_field_lexemname']
+msgid "Name of token in language"
+msgstr ""
+
+#: $string['language_editing_field_name']
+msgid "Idenrifying  name for a language"
+msgstr ""
+
+#: $string['language_editing_field_parserules']
+msgid "Parsing rules for language"
+msgstr ""
+
+#: $string['language_editing_field_scanrules']
+msgid "Lexical rules for language"
+msgstr ""
+
+#: $string['language_editing_field_uiname']
+msgid "Visible name"
+msgstr ""
+
+#: $string['language_editing_field_version']
+msgid "Version"
+msgstr ""
+
+#: $string['language_editing_field_visible']
+msgid "Visible in global context of site"
+msgstr ""
+
+#: $string['language_editing_submit_add']
+msgid "Add language and return"
+msgstr ""
+
+#: $string['language_editing_submit_edit']
+msgid "Edit language and return"
+msgstr ""
+
+#: $string['language_editing_submit_save_as_new']
+msgid "Save language as new"
+msgstr ""
+
+#: $string['lexeme']
+msgid "lexeme"
+msgstr ""
+
+#: $string['lexical_error_message']
+msgid "Cannot match input {$a->symbol} near {$a->line}:{$a->position}"
+msgstr ""
+
+#: $string['maximumlexicalbacktrackingexecutuiontimesettingdescription']
+msgid ""
+"Maximal execution time for recursive backtracking for analysis for typos. An "
+"algortithm for recursive backtracking can be very time-consuming, so you "
+"can constrain it to avoid problems with very long answers"
+msgstr ""
+
+#: $string['maximumlexicalbacktrackingexecutuiontimesettingname']
+msgid ""
+"Maximal execution time for recursive backtracking for analysis for typos (in "
+"seconds)"
+msgstr ""
+
+#: $string['maximumvariationsoftypocorrectionsettingdescription']
+msgid ""
+"Sometimes, when student makes a lot of typos in answer, plugin can generate "
+"plenty of variations to fix them, taking too much time to analyze them all. "
+"In such cases, you should decrease this setting. Note, that this affects "
+"amount of found typos. If you set it too low, it could fail to found some "
+"typos"
+msgstr ""
+
+#: $string['maximumvariationsoftypocorrectionsettingname']
+msgid "Maximum amount of variations of typo correction in student response"
+msgstr ""
+
+#: $string['missingseparatormsg']
+msgid "there is no separator between {$a->correct0} and {$a->correct1}"
+msgstr ""
+
+#: $string['missingseparatornodescriptionmsg']
+msgid "there is missing separator in {$a->compared}"
+msgstr ""
+
+#: $string['part']
+msgid "part"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Formal languages block"
+msgstr ""
+
+#: $string['quote']
+msgid "\"{$a}\""
+msgstr ""
+
+#: $string['quoteat']
+msgid "\"{$a->value}\" starting from position {$a->line}:{$a->column}"
+msgstr ""
+
+#: $string['quoteatsingleline']
+msgid "\"{$a->value}\" starting from character {$a->column}"
+msgstr ""
+
+#: $string['tokenseparatorpart']
+msgid "{$a->correct0} and {$a->correct1}"
+msgstr ""
+
+#: $string['typomsg']
+msgid "there may be a typo in {$a->correct0}"
+msgstr ""
+
+#: $string['visiblelangsdescription']
+msgid ""
+"Users on you site could only use these languages, other languages will be "
+"hidden from them"
+msgstr ""
+
+#: $string['visiblelangslabel']
+msgid "Visible languages"
+msgstr ""
+
+#: $string['word']
+msgid "word"
+msgstr ""

@@ -1,0 +1,1136 @@
+#. extracted from lang/en/calendar.php, lang/el/calendar.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'calendar', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   calendar
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['activityevent']
+msgid "Activity event"
+msgstr ""
+
+#: $string['addevent']
+msgid "Add events"
+msgstr "Προσθέστε γεγονότα"
+
+#: $string['advancedoptions']
+msgid "Advanced options"
+msgstr "Για προχωρημένους"
+
+#: $string['allday']
+msgid "All day"
+msgstr "Ολοήμερο"
+
+#: $string['annually']
+msgid "Annually"
+msgstr "Ετησίως"
+
+#: $string['calendar']
+msgctxt "$string['calendar']"
+msgid "Calendar"
+msgstr "Ημερολόγιο"
+
+#: $string['calendarheading']
+msgid "{$a} Calendar"
+msgstr "Ημερολόγιο {$a}"
+
+#: $string['calendarpreferences']
+msgid "Calendar preferences"
+msgstr "Ρυθμίσεις ημερολογίου"
+
+#: $string['calendartypes']
+msgid "Calendar types"
+msgstr "Τύποι ημερολογίου"
+
+#: $string['calendarurl']
+msgid "Calendar URL: {$a}"
+msgstr "Ημερολόγιο URL: {$a}"
+
+#: $string['categoryevent']
+msgctxt "$string['categoryevent']"
+msgid "Category event"
+msgstr ""
+
+#: $string['categoryevents']
+msgid "Category events"
+msgstr ""
+
+#: $string['clickhide']
+msgid "click to hide"
+msgstr "πατήστε για απόκρυψη"
+
+#: $string['clickshow']
+msgid "click to show"
+msgstr "πατήστε για εμφάνιση"
+
+#: $string['colactions']
+msgid "Actions"
+msgstr "Ενέργειες"
+
+#: $string['colcalendar']
+msgctxt "$string['colcalendar']"
+msgid "Calendar"
+msgstr "Ημερολόγιο"
+
+#: $string['collastupdated']
+msgid "Last updated"
+msgstr "Τελευταία ενημέρωση"
+
+#: $string['colpoll']
+msgid "Update"
+msgstr "Ενημέρωση"
+
+#: $string['commontasks']
+msgid "Options"
+msgstr "Διεργασίες"
+
+#: $string['confirmeventdelete']
+msgid "Are you sure you want to delete the \"{$a}\" event?"
+msgstr "Θέλετε σίγουρα να διαγράψετε αυτό το γεγονός \"{$a}\";"
+
+#: $string['confirmeventseriesdelete']
+msgid ""
+"The \"{$a->name}\" event is part of a series. Do you want to delete just this "
+"event, or all {$a->count} events in the series?"
+msgstr ""
+
+#: $string['course']
+msgid "Course"
+msgstr "Μάθημα"
+
+#: $string['courseevent']
+msgctxt "$string['courseevent']"
+msgid "Course event"
+msgstr "Γεγονός μαθήματος"
+
+#: $string['courseevents']
+msgid "Course events"
+msgstr "Γεγονότα μαθήματος"
+
+#: $string['courses']
+msgid "Courses"
+msgstr "Μαθήματα"
+
+#: $string['customexport']
+msgid "Custom range ({$a->timestart} - {$a->timeend})"
+msgstr "Προσαρμοσμένο εύρος ({$a->timestart} - {$a->timeend})"
+
+#: $string['daily']
+msgid "Daily"
+msgstr "Καθημερινά"
+
+#: $string['daynext']
+msgid "Next day"
+msgstr ""
+
+#: $string['dayprev']
+msgid "Previous day"
+msgstr ""
+
+#: $string['dayviewfor']
+msgid "Day view for:"
+msgstr "Ημερήσια προβολή για:"
+
+#: $string['dayviewtitle']
+msgid "Day view: {$a}"
+msgstr "Ημερήσια προβολή: {$a}"
+
+#: $string['daywithnoevents']
+msgid "There are no events this day."
+msgstr "Δεν υπάρχουν γεγονότα για αυτή την ημέρα."
+
+#: $string['default']
+msgid "Default"
+msgstr "Προεπιλογή"
+
+#: $string['deleteallevents']
+msgid "Delete all events"
+msgstr ""
+
+#: $string['deleteevent']
+msgctxt "$string['deleteevent']"
+msgid "Delete event"
+msgstr "Διαγραφή γεγονότος"
+
+#: $string['deleteevents']
+msgid "Delete events"
+msgstr "Διαγραφή γεγονότων"
+
+#: $string['deleteoneevent']
+msgid "Delete this event"
+msgstr ""
+
+#: $string['detailedmonthviewfor']
+msgid "Detailed month view for:"
+msgstr "Λεπτομερή μηναία προβολή για:"
+
+#: $string['detailedmonthviewtitle']
+msgid "Detailed month view: {$a}"
+msgstr "Λεπτομερή μηναία προβολή: {$a}"
+
+#: $string['durationminutes']
+msgid "Duration in minutes"
+msgstr "Διάρκεια σε λεπτά"
+
+#: $string['durationnone']
+msgid "Without duration"
+msgstr "Χωρίς διάρκεια"
+
+#: $string['durationuntil']
+msgid "Until"
+msgstr "Μέχρι"
+
+#: $string['editevent']
+msgid "Editing event"
+msgstr "Επεξεργασία γεγονότος"
+
+#: $string['erroraddingevent']
+msgid "Failed to add event"
+msgstr "Αποτυχία να προσθέσετε το γεγονός"
+
+#: $string['errorbadsubscription']
+msgid "Calendar subscription not found."
+msgstr "Δεν βρέθηκε συνδρομή στο ημερολόγιο"
+
+#: $string['errorbeforecoursestart']
+msgid "Cannot set event before course start date"
+msgstr "Το γεγονός δεν μπορεί να οριστεί πριν την έναρξη του μαθήματος"
+
+#: $string['errorcannotimport']
+msgid "You cannot set up a calendar subscription at this time."
+msgstr ""
+"Δεν είναι δυνατή ο ορισμός μιας συνδρομής στο ημερολόγιο αυτή τη στιγμή."
+
+#: $string['errorhasuntilandcount']
+msgid ""
+"Either UNTIL or COUNT may appear in a recurrence rule, but UNTIL and COUNT "
+"MUST NOT occur in the same recurrence rule."
+msgstr ""
+
+#: $string['errorinvalidbydayprefix']
+msgid ""
+"Integer values preceding BYDAY rules can only be present for a MONTHLY or "
+"YEARLY recurrence rule."
+msgstr ""
+
+#: $string['errorinvalidbydaysuffix']
+msgid ""
+"Valid values for the day of the week parts of the BYDAY rule are MO, TU, WE, "
+"TH, FR, SA and SU"
+msgstr ""
+
+#: $string['errorinvalidbyhour']
+msgid "Valid values for the BYHOUR rule are 0 to 23."
+msgstr ""
+
+#: $string['errorinvalidbyminute']
+msgid "Valid values for the BYMINUTE rule are 0 to 59."
+msgstr ""
+
+#: $string['errorinvalidbymonth']
+msgid "Valid values for the BYMONTH rule are 1 to 12."
+msgstr ""
+
+#: $string['errorinvalidbymonthday']
+msgid "Valid values for the BYMONTHDAY rule are 1 to 31 or -31 to -1."
+msgstr ""
+
+#: $string['errorinvalidbysecond']
+msgid "Valid values for the BYSECOND rule are 0 to 59."
+msgstr ""
+
+#: $string['errorinvalidbysetpos']
+msgid "Valid values for the BYSETPOS rule are 1 to 366 or -366 to -1."
+msgstr ""
+
+#: $string['errorinvalidbyweekno']
+msgid "Valid values for the BYWEEKNO rule are 1 to 53 or -53 to -1."
+msgstr ""
+
+#: $string['errorinvalidbyyearday']
+msgid "Valid values for the BYYEARDAY rule are 1 to 366 or -366 to -1."
+msgstr ""
+
+#: $string['errorinvaliddate']
+msgid "Invalid date"
+msgstr "Μη έγκυρη ημερομηνία"
+
+#: $string['errorinvalidicalurl']
+msgid "The given iCal URL is invalid."
+msgstr "Η συγκεκριμένη διεύθυνση URL iCal είναι άκυρη."
+
+#: $string['errorinvalidinterval']
+msgid "The value for the INTERVAL rule must be a positive integer."
+msgstr ""
+
+#: $string['errorinvalidminutes']
+msgid "Specify duration in minutes by giving a number between 1 and 999."
+msgstr ""
+"Προσδιορίστε την διάρκεια σε λεπτά δίνοντας έναν αριθμό από το 1 ως το 999."
+
+#: $string['errorinvalidrepeats']
+msgid "Specify the number of events by giving a number between 1 and 99."
+msgstr ""
+"Προσδιορίστε το πλήθος των γεγονότων δίνοντας έναν αριθμό από το 1 ως το 99."
+
+#: $string['errormustbeusedwithotherbyrule']
+msgid ""
+"The BYSETPOS rule must only be used in conjunction with another BYxxx rule "
+"part."
+msgstr ""
+
+#: $string['errornodescription']
+msgid "Description is required"
+msgstr "Η περιγραφή απαιτείται"
+
+#: $string['errornoeventname']
+msgid "Name is required"
+msgstr "Το όνομα απαιτείται"
+
+#: $string['errornonyearlyfreqwithbyweekno']
+msgid "The BYWEEKNO rule is only valid for YEARLY rules."
+msgstr ""
+
+#: $string['errorrequiredurlorfile']
+msgid "Either a URL or a file is required to import a calendar."
+msgstr ""
+"Είτε μια διεύθυνση URL ή ένα αρχείο είναι υποχρεωτικό για να εισαγάγετε ένα "
+"ημερολόγιο."
+
+#: $string['errorrrule']
+msgid "The passed recurrence rule seems incorrect."
+msgstr "Ο κανόνας προβιβασμού είναι λάθος"
+
+#: $string['errorrruleday']
+msgid "The recurrence rule has an invalid day parameter."
+msgstr "Ο κανόνας έχει μια μη έγκυρη παράμετρο"
+
+#: $string['errorrrulefreq']
+msgid "The recurrence rule has an invalid frequency parameter."
+msgstr "Ο κανόνας έχει μια μη έγκυρη παράμετρο συχνότητας"
+
+#: $string['eventcalendareventcreated']
+msgid "Calendar event created"
+msgstr "Το ημερολογιακό γεγονός δημιουργήθηκε"
+
+#: $string['eventcalendareventdeleted']
+msgid "Calendar event deleted"
+msgstr "Το ημερολογιακό γεγονός διαγράφηκε"
+
+#: $string['eventcalendareventupdated']
+msgid "Calendar event updated"
+msgstr "Το ημερολογιακό γεγονός ενημερώθηκε"
+
+#: $string['eventdate']
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: $string['eventdescription']
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: $string['eventduration']
+msgid "Duration"
+msgstr "Διάρκεια"
+
+#: $string['eventendtime']
+msgid "End time"
+msgstr "Ώρα λήξης"
+
+#: $string['eventendtimewrapped']
+msgid "{$a} (End time)"
+msgstr ""
+
+#: $string['eventinstanttime']
+msgctxt "$string['eventinstanttime']"
+msgid "Time"
+msgstr "Ώρα"
+
+#: $string['eventkind']
+msgid "Type of event"
+msgstr "Είδος γεγονότος"
+
+#: $string['eventname']
+msgid "Event title"
+msgstr "Τίτλος γεγονότος"
+
+#: $string['eventnameandcategory']
+msgid "{$a->category}: {$a->name}"
+msgstr ""
+
+#: $string['eventnameandcourse']
+msgid "{$a->course}: {$a->name}"
+msgstr ""
+
+#: $string['eventnone']
+msgid "No events"
+msgstr "Κανένα γεγονός"
+
+#: $string['eventrepeat']
+msgid "Repeats"
+msgstr "Επαναλήψεις"
+
+#: $string['eventsall']
+msgid "All events"
+msgstr "Όλα τα γεγονότα"
+
+#: $string['eventsdeleted']
+msgid "Events deleted"
+msgstr "Τα γεγονότα διαγράφηκαν"
+
+#: $string['eventsfor']
+msgctxt "$string['eventsfor']"
+msgid "{$a} events"
+msgstr "Γεγονότα: {$a}"
+
+#: $string['eventsimported']
+msgid "Events imported: {$a}"
+msgstr "Τα γεγονότα που εισήχθηκαν: {$a}"
+
+#: $string['eventskey']
+msgid "Events key"
+msgstr "Υπόμνημα"
+
+#: $string['eventsource']
+msgid "Event source"
+msgstr ""
+
+#: $string['eventspersonal']
+msgid "My personal events"
+msgstr "Τα προσωπικά μου γεγονότα"
+
+#: $string['eventsrelatedtocourses']
+msgid "Events related to courses"
+msgstr "Γεγονότα σχετικά με τα μαθήματα"
+
+#: $string['eventsrelatedtogroups']
+msgid "Events related to groups"
+msgstr "Γεγονότα σχετικά με ομάδες"
+
+#: $string['eventstarttime']
+msgid "Start time"
+msgstr "Ώρα έναρξης"
+
+#: $string['eventstoexport']
+msgid "Events to export"
+msgstr "Γεγονότα για εξαγωγή"
+
+#: $string['eventsubscriptioncreated']
+msgid "Calendar subscription created"
+msgstr "Η συνδρομή στο ημερολόγιο δημιουργήθηκε"
+
+#: $string['eventsubscriptiondeleted']
+msgid "Calendar subscription deleted"
+msgstr "Η συνδρομή στο ημερολόγιο διαγράφηκε"
+
+#: $string['eventsubscriptioneditwarning']
+msgid ""
+"This calendar event is part of a subscription.  Any changes you make to this "
+"event will be lost if the subscription is deleted."
+msgstr ""
+
+#: $string['eventsubscriptionupdated']
+msgid "Calendar subscription updated"
+msgstr "Η συνδρομή στο ημερολόγιο ενημερώθηκε"
+
+#: $string['eventsupdated']
+msgid "Events updated: {$a}"
+msgstr "Τα γεγονότα που ενημερώθηκαν: {$a}"
+
+#: $string['eventtime']
+msgctxt "$string['eventtime']"
+msgid "Time"
+msgstr "Ώρα"
+
+#: $string['eventtype']
+msgid "Event type"
+msgstr ""
+
+#: $string['eventtypecategory']
+msgid "category"
+msgstr ""
+
+#: $string['eventtypecourse']
+msgid "course"
+msgstr ""
+
+#: $string['eventtypeglobal']
+msgctxt "$string['eventtypeglobal']"
+msgid "global"
+msgstr ""
+
+#: $string['eventtypegroup']
+msgid "group"
+msgstr ""
+
+#: $string['eventtypemodule']
+msgid "module"
+msgstr ""
+
+#: $string['eventtypesite']
+msgctxt "$string['eventtypesite']"
+msgid "global"
+msgstr ""
+
+#: $string['eventtypeuser']
+msgid "user"
+msgstr ""
+
+#: $string['eventview']
+msgid "Event details"
+msgstr "Λεπτομέρειες γεγονότος"
+
+#: $string['expired']
+msgid "Expired"
+msgstr "Έληξε"
+
+#: $string['explain_site_timeformat']
+msgid ""
+"You can choose to see times in either 12 or 24 hour format for the whole "
+"site. If you choose \"default\", then the format will be automatically chosen "
+"according to the language you use in the site. This setting can be "
+"overridden by user preferences."
+msgstr ""
+"Μπορείτε να επιλέξετε να προβάλλονται οι ώρες σε 12ωρη ή 24ωρη μορφή. Αν "
+"επιλέξετε \"προεπιλογή\", τότε η μορφή θα επιλεγεί αυτόματα με βάση τη γλώσσα "
+"που ορίσατε ως προεπιλεγμένη. Κάθε χρήστης μπορεί πάντως να αλλάξει τη "
+"ρύθμιση αυτή για τον εαυτό του."
+
+#: $string['export']
+msgctxt "$string['export']"
+msgid "Export"
+msgstr "Εξαγωγή"
+
+#: $string['exportbutton']
+msgctxt "$string['exportbutton']"
+msgid "Export"
+msgstr "Εξαγωγή"
+
+#: $string['exportcalendar']
+msgid "Export calendar"
+msgstr "Εξαγωγή ημερολογίου"
+
+#: $string['exporthelp']
+msgid ""
+"How do I subscribe to this calendar from a calendar application "
+"(Google/Outlook/Other)?"
+msgstr ""
+
+#: $string['for']
+msgid "for"
+msgstr "για"
+
+#: $string['forcecalendartype']
+msgid "Force calendar"
+msgstr "Επέβαλε ημερολόγιο"
+
+#: $string['fri']
+msgid "Fri"
+msgstr "Παρ"
+
+#: $string['friday']
+msgid "Friday"
+msgstr "Παρασκευή"
+
+#: $string['generateurlbutton']
+msgid "Get calendar URL"
+msgstr "URL ημερολογίου"
+
+#: $string['global']
+msgid "Global"
+msgstr "Συστήματος"
+
+#: $string['globalevent']
+msgid "Global event"
+msgstr "Γεγονός συστήματος"
+
+#: $string['globalevents']
+msgid "Global events"
+msgstr "Γεγονότα συστήματος"
+
+#: $string['gotoactivity']
+msgid "Go to activity"
+msgstr ""
+
+#: $string['gotocalendar']
+msgid "Go to calendar"
+msgstr "Μετάβαση στο ημερολόγιο"
+
+#: $string['group']
+msgid "Group"
+msgstr "Ομάδα"
+
+#: $string['groupevent']
+msgctxt "$string['groupevent']"
+msgid "Group event"
+msgstr "Ομαδικό γεγονός"
+
+#: $string['groupevents']
+msgid "Group events"
+msgstr "Ομαδικά γεγονότα"
+
+#: $string['hidecourseevents']
+msgid "Hide course events"
+msgstr "Απόκρυψη γεγονότων μαθήματος"
+
+#: $string['hideeventtype']
+msgid "Hide {$a} events"
+msgstr ""
+
+#: $string['hideglobalevents']
+msgid "Hide global events"
+msgstr "Απόκρυψη καθολικών γεγονότων"
+
+#: $string['hidegroupsevents']
+msgid "Hide group events"
+msgstr "Απόκρυψη γεγονότων ομάδων"
+
+#: $string['hideuserevents']
+msgid "Hide user events"
+msgstr "Απόκρυψη γεγονότων χρηστών"
+
+#: $string['hourly']
+msgid "Hourly"
+msgstr "Ωριαία"
+
+#: $string['ical']
+msgid "iCal"
+msgstr "iCal"
+
+#: $string['importcalendar']
+msgid "Import calendar"
+msgstr "Εισαγωγή ημερολογίου"
+
+#: $string['importcalendarfrom']
+msgid "Import from"
+msgstr "Εισαγωγή από"
+
+#: $string['importcalendarheading']
+msgid "Import calendar..."
+msgstr "Εισαγωγή ημερολογίου ..."
+
+#: $string['importfromfile']
+msgid "Calendar file (.ics)"
+msgstr "Αρχείο ημερολογίου (.ics)"
+
+#: $string['importfrominstructions']
+msgid "Please provide either a URL to a remote calendar, or upload a file."
+msgstr ""
+"Παρακαλώ δώστε μια διεύθυνση URL για ένα απομακρυσμένο ημερολόγιο, ή "
+"ανεβάστε ένα αρχείο."
+
+#: $string['importfromurl']
+msgid "Calendar URL"
+msgstr "Ημερολόγιο URL"
+
+#: $string['invalideventtype']
+msgid "The event type you have selected is invalid."
+msgstr ""
+
+#: $string['invalidtimedurationminutes']
+msgid ""
+"The duration in minutes you have entered is invalid. Please enter the "
+"duration in minutes greater than 0 or select no duration."
+msgstr ""
+"Η διάρκεια σε λεπτά που έχετε εισάγει δεν είναι έγκυρη. Παρακαλώ εισάγετε "
+"την διάρκεια σε λεπτά μεγαλύτερη από 0 ή επιλέξτε Όχι διάρκεια."
+
+#: $string['invalidtimedurationuntil']
+msgid ""
+"The date and time you selected for duration until is before the start time "
+"of the event. Please correct this before proceeding."
+msgstr ""
+"Η ημερομηνία και η ώρα που επιλέξατε για διάρκεια έως είναι προγενέστερη από "
+"την ώρα έναρξης του γεγονότος. Παρακαλώ διορθώστε πριν προχωρήσετε."
+
+#: $string['iwanttoexport']
+msgctxt "$string['iwanttoexport']"
+msgid "Export"
+msgstr "Θέλω να εξάγω το ημερολόγιο σε άλλο πρόγραμμα"
+
+#: $string['less']
+msgid "Less"
+msgstr ""
+
+#: $string['managesubscriptions']
+msgid "Manage subscriptions"
+msgstr "Διαχείριση συνδρομών"
+
+#: $string['manyevents']
+msgctxt "$string['manyevents']"
+msgid "{$a} events"
+msgstr "{$a} γεγονότα"
+
+#: $string['mon']
+msgid "Mon"
+msgstr "Δευ"
+
+#: $string['monday']
+msgid "Monday"
+msgstr "Δευτέρα"
+
+#: $string['monthly']
+msgid "Monthly"
+msgstr "Μηνιαία"
+
+#: $string['monthlyview']
+msgid "Monthly view"
+msgstr "Εμφάνιση μήνα"
+
+#: $string['monthnext']
+msgid "Next month"
+msgstr "Επόμενος μήνας"
+
+#: $string['monthprev']
+msgid "Previous month"
+msgstr ""
+
+#: $string['monththis']
+msgid "This month"
+msgstr "Τρέχων μήνας"
+
+#: $string['more']
+msgid "More"
+msgstr ""
+
+#: $string['namewithsource']
+msgid "{$a->name} ({$a->source})"
+msgstr "{$a->name}({$a->source})"
+
+#: $string['never']
+msgid "Never"
+msgstr "Ποτέ"
+
+#: $string['newevent']
+msgid "New event"
+msgstr "Νέο γεγονός"
+
+#: $string['nocalendarsubscriptions']
+msgid "You have no calendar subscriptions."
+msgstr "Δεν έχεις καμία συνδρομή σε ημερολόγιο"
+
+#: $string['notitle']
+msgid "no title"
+msgstr "χωρίς τίτλο"
+
+#: $string['noupcomingevents']
+msgid "There are no upcoming events"
+msgstr "Δεν υπάρχουν επικείμενα γεγονότα"
+
+#: $string['oneevent']
+msgid "1 event"
+msgstr "1 γεγονός"
+
+#: $string['pollinterval']
+msgid "Update interval"
+msgstr "Διάστημα ενημέρωσης"
+
+#: $string['pollinterval_help']
+msgid "How often you would like the calendar to update with new events."
+msgstr "Πόσο συχνά θα θέλατε το ημερολόγιο να ενημερώνεται με νέα γεγονότα."
+
+#: $string['preferences']
+msgid "Preferences"
+msgstr "Προτιμήσεις"
+
+#: $string['preferences_available']
+msgid "Your personal preferences"
+msgstr "Οι προσωπικές σας προτιμήσεις"
+
+#: $string['preferredcalendar']
+msgid "Preferred calendar"
+msgstr "Προτεινόμενο ημερολόγιο"
+
+#: $string['pref_lookahead']
+msgid "Upcoming events look-ahead"
+msgstr "Προεπισκόπηση επικείμενων γεγονότων"
+
+#: $string['pref_lookahead_help']
+msgid ""
+"This sets the (maximum) number of days in the future that an event has to "
+"start in in order to be displayed as an upcoming event. Events that start "
+"beyond this will never be displayed as upcoming. Please note that "
+"<strong>there is no guarantee</strong> that all events starting in this time "
+"frame will be displayed; if there are too many (more than the \"Maximum "
+"upcoming events\" preference) then the most distant events will not be shown."
+msgstr ""
+"Ορίζει το (μέγιστο) αριθμό ημερών στο μέλλον που θα ξεκινήσεις ένα γεγονός "
+"προκειμένου να εμφανιστεί ως επερχόμενο γεγονός. Γεγονότα που ξεκινούν πέρα "
+"από αυτό δεν θα εμφανίζονται ως επικείμενα. Παρακαλώ σημειώστε ότι "
+"<strong>δεν υπάρχει καμία εγγύηση</strong> ότι όλα τα γεγονότα που ξεκινούν "
+"σε αυτό το το χρονικό πλαίσιο θα εμφανιστούν. Αν υπάρχουν πάρα πολλά (πάνω "
+"από την προτίμηση \"Μέγιστος αριθμός επικείμενων γεγονότων\"), τότε τα πιο "
+"μακρινά γεγονότα δεν θα εμφανίζονται."
+
+#: $string['pref_maxevents']
+msgid "Maximum upcoming events"
+msgstr "Μέγιστο πλήθος επικείμενων γεγονότων"
+
+#: $string['pref_maxevents_help']
+msgid ""
+"This sets the maximum number of upcoming events that can be displayed. If "
+"you pick a large number here it is possible that upcoming events displays "
+"will take up a lot of space on your screen."
+msgstr ""
+"Εδώ ορίζεται ο μέγιστος αριθμός επικείμενων γεγονότων που μπορούν να "
+"εμφανιστούν. Αν επιλέξετε μεγάλο αριθμό γεγονότων, τότε υπάρχει περίπτωση να "
+"χρησιμοποιηθεί μεγάλο μέρος της οθόνης σας για την εμφάνισή τους."
+
+#: $string['pref_persistflt']
+msgid "Remember filter settings"
+msgstr "Αποθήκευση ρυθμίσεων φίλτρου"
+
+#: $string['pref_persistflt_help']
+msgid ""
+"If this is enabled, then Moodle will remember your last event filter "
+"settings and automatically restore them each time you login."
+msgstr ""
+"Αν είναι ενεργοποιημένο, τότε το Moodle θα θυμάται τις τελευταίες ρυθμίσεις "
+"φίλτρου για την περίπτωση σας και θα τις επαναφέρει αυτόματα κάθε φορά που "
+"θα συνδέεστε."
+
+#: $string['pref_startwday']
+msgid "First day of week"
+msgstr "Πρώτη μέρα εβδομάδας"
+
+#: $string['pref_startwday_help']
+msgid ""
+"Calendar weeks will be shown as starting on the day that you select here."
+msgstr ""
+"Οι εβδομάδες στο ημερολόγιο θα εμφανίζονται ως αρχής γενομένης από την ημέρα "
+"που θα επιλέξετε εδώ."
+
+#: $string['pref_timeformat']
+msgid "Time display format"
+msgstr "Μορφή εμφάνισης ώρας"
+
+#: $string['pref_timeformat_help']
+msgid ""
+"You can choose to see times in either 12 or 24 hour format. If you choose "
+"\"default\", then the format will be automatically chosen according to the "
+"language you use in the site."
+msgstr ""
+"Μπορείτε να επιλέξετε να δείτε την ώρα σε 12 ή 24 ωρη μορφή. Αν επιλέξετε "
+"\"προεπιλογή\", τότε η μορφή θα επιλεγεί αυτόματα ανάλογα με τη γλώσσα που "
+"χρησιμοποιείτε στον ιστοχώρο."
+
+#: $string['quickdownloadcalendar']
+msgid "Quick download / subscribe to calendar"
+msgstr "Συνδρομή στο ημερολόγιο"
+
+#: $string['recentupcoming']
+msgid "Recent and next 60 days"
+msgstr "Πρόσφατα και επικείμενα"
+
+#: $string['repeatedevents']
+msgid "Repeated events"
+msgstr "Επαναλαμβανόμενα γεγονότα"
+
+#: $string['repeateditall']
+msgid "Also apply changes to the other {$a} events in this repeat series"
+msgstr ""
+"Εφαρμογή αλλαγών σε όλα τα γεγονότα ({$a}) σε αυτήν την επαναλαμβανόμενη "
+"σειρά."
+
+#: $string['repeateditthis']
+msgid "Apply changes to this event only"
+msgstr "Εφαρμογή αλλαγών σε αυτό το γεγονός μόνο"
+
+#: $string['repeatevent']
+msgid "Repeat this event"
+msgstr "Επαναλάβετε αυτό το γεγονός"
+
+#: $string['repeatnone']
+msgid "No repeats"
+msgstr "Χωρίς επαναλήψεις"
+
+#: $string['repeatweeksl']
+msgid "Repeat weekly, creating altogether"
+msgstr "Εβδομαδιαία επανάληψη, γενική δημιουργία"
+
+#: $string['repeatweeksr']
+msgid "events"
+msgstr "γεγονότων"
+
+#: $string['sat']
+msgid "Sat"
+msgstr "Σαβ"
+
+#: $string['saturday']
+msgid "Saturday"
+msgstr "Σάββατο"
+
+#: $string['showcourseevents']
+msgid "Show course events"
+msgstr "Εμφάνισε τα γεγονότα του μαθήματος"
+
+#: $string['showeventtype']
+msgid "Show {$a} events"
+msgstr ""
+
+#: $string['showglobalevents']
+msgid "Show global events"
+msgstr "Εμφάνιση καθολικών γεγονότων"
+
+#: $string['showgroupsevents']
+msgid "Show group events"
+msgstr "Εμφάνισε τα γεγονότα των ομάδων"
+
+#: $string['shown']
+msgid "shown"
+msgstr "εμφανίζονται"
+
+#: $string['showuserevents']
+msgid "Show user events"
+msgstr "Εμφάνισε τα γεγονότα του χρήστη"
+
+#: $string['siteevents']
+msgid "Site events"
+msgstr "Γεγονότα ιστοχώρου"
+
+#: $string['spanningevents']
+msgid "Events underway"
+msgstr "Γεγονότα σε εξέλιξη"
+
+#: $string['subscriptionname']
+msgid "Calendar name"
+msgstr "Όνομα ημερολογίου"
+
+#: $string['subscriptionremoved']
+msgid "Calendar subscription {$a} removed"
+msgstr "Η συνδρομή στο ημερολόγιο {$a} αφαιρέθηκε"
+
+#: $string['subscriptions']
+msgid "Subscriptions"
+msgstr "Συνδρομές"
+
+#: $string['subscriptionsource']
+msgid "Event source: {$a}"
+msgstr ""
+
+#: $string['subscriptionupdated']
+msgid "Calendar subscription {$a} updated"
+msgstr "Η συνδρομή στο ημερολόγιο {$a} ενημερώθηκε"
+
+#: $string['subsource']
+msgid "Event source: {$a->name}"
+msgstr "Πηγή γεγονότος: {$a->name}"
+
+#: $string['sun']
+msgid "Sun"
+msgstr "Κυρ"
+
+#: $string['sunday']
+msgid "Sunday"
+msgstr "Κυριακή"
+
+#: $string['thu']
+msgid "Thu"
+msgstr "Πεμ"
+
+#: $string['thursday']
+msgid "Thursday"
+msgstr "Πέμπτη"
+
+#: $string['timeformat_12']
+msgid "12-hour (am/pm)"
+msgstr "12ωρη (πμ/μμ)"
+
+#: $string['timeformat_24']
+msgid "24-hour"
+msgstr "24ωρη"
+
+#: $string['timeperiod']
+msgid "Time period"
+msgstr "Χρονική περίοδος"
+
+#: $string['today']
+msgid "Today"
+msgstr "Σήμερα"
+
+#: $string['todayplustitle']
+msgid "Today {$a}"
+msgstr ""
+
+#: $string['tomorrow']
+msgid "Tomorrow"
+msgstr "Αύριο"
+
+#: $string['tt_deleteevent']
+msgctxt "$string['tt_deleteevent']"
+msgid "Delete event"
+msgstr "Διαγραφή γεγονότος"
+
+#: $string['tt_editevent']
+msgid "Edit event"
+msgstr "Επεξεργασία γεγονότος"
+
+#: $string['tt_hidecourse']
+msgid "Course events are shown (click to hide)"
+msgstr "Τα γεγονότα μαθήματος φαίνονται (κλικ για απόκρυψη)"
+
+#: $string['tt_hideglobal']
+msgid "Global events are shown (click to hide)"
+msgstr "Τα γενικά γεγονότα συστήματος φαίνονται (κλικ για απόκρυψη)"
+
+#: $string['tt_hidegroups']
+msgid "Group events are shown (click to hide)"
+msgstr "Τα ομαδικά γεγονότα φαίνονται (κλικ για απόκρυψη)"
+
+#: $string['tt_hideuser']
+msgid "User events are shown (click to hide)"
+msgstr "Τα προσωπικά γεγονότα φαίνονται (κλικ για απόκρυψη)"
+
+#: $string['tt_showcourse']
+msgid "Course events are hidden (click to show)"
+msgstr "Τα γεγονότα μαθήματος δε φαίνονται (κλικ για εμφάνιση)"
+
+#: $string['tt_showglobal']
+msgid "Global events are hidden (click to show)"
+msgstr "Τα γεγονότα συστήματος δε φαίνονται (κλικ για εμφάνιση)"
+
+#: $string['tt_showgroups']
+msgid "Group events are hidden (click to show)"
+msgstr "Τα ομαδικά γεγονότα δε φαίνονται (κλικ για εμφάνιση)"
+
+#: $string['tt_showuser']
+msgid "User events are hidden (click to show)"
+msgstr "Τα προσωπικά γεγονότα δε φαίνονται (κλικ για εμφάνιση)"
+
+#: $string['tue']
+msgid "Tue"
+msgstr "Τρι"
+
+#: $string['tuesday']
+msgid "Tuesday"
+msgstr "Τρίτη"
+
+#: $string['typecategory']
+msgctxt "$string['typecategory']"
+msgid "Category event"
+msgstr ""
+
+#: $string['typeclose']
+msgid "Close event"
+msgstr ""
+
+#: $string['typecourse']
+msgctxt "$string['typecourse']"
+msgid "Course event"
+msgstr "Γεγονός μαθήματος"
+
+#: $string['typedue']
+msgid "Due event"
+msgstr ""
+
+#: $string['typegradingdue']
+msgid "Grading due event"
+msgstr ""
+
+#: $string['typegroup']
+msgctxt "$string['typegroup']"
+msgid "Group event"
+msgstr "Ομαδικό γεγονός"
+
+#: $string['typeopen']
+msgid "Open event"
+msgstr ""
+
+#: $string['typesite']
+msgid "Site event"
+msgstr "Γεγονός συστήματος"
+
+#: $string['typeuser']
+msgctxt "$string['typeuser']"
+msgid "User event"
+msgstr "Προσωπικό γεγονός"
+
+#: $string['upcomingevents']
+msgid "Upcoming events"
+msgstr "Επικείμενα γεγονότα"
+
+#: $string['upcomingeventsfor']
+msgid "Upcoming events for:"
+msgstr "Επερχόμενα γεγονότα για:"
+
+#: $string['urlforical']
+msgid "URL for iCalendar export, for subscribing to calendar"
+msgstr "URL ημερολογίου για εξαγωγή σε μορφή iCalendar"
+
+#: $string['user']
+msgid "User"
+msgstr "Χρήστης"
+
+#: $string['userevent']
+msgctxt "$string['userevent']"
+msgid "User event"
+msgstr "Προσωπικό γεγονός"
+
+#: $string['userevents']
+msgid "User events"
+msgstr "Προσωπικά γεγονότα"
+
+#: $string['wed']
+msgid "Wed"
+msgstr "Τετ"
+
+#: $string['wednesday']
+msgid "Wednesday"
+msgstr "Τετάρτη"
+
+#: $string['weekly']
+msgid "Weekly"
+msgstr "Εβδομαδιαία"
+
+#: $string['weeknext']
+msgid "Next week"
+msgstr "Επόμενη εβδομάδα"
+
+#: $string['weekthis']
+msgid "This week"
+msgstr "Τρέχουσα εβδομάδα"
+
+#: $string['when']
+msgid "When"
+msgstr ""
+
+#: $string['yesterday']
+msgid "Yesterday"
+msgstr "Χθές"
+
+#: $string['youcandeleteallrepeats']
+msgid ""
+"This event is part of a repeating event series. You can delete this event "
+"only, or all {$a} events in the series at once."
+msgstr ""
+"Αυτό το γεγονός αποτελεί τμήμα μιας επαναλαμβανόμενης σειράς γεγονότων. "
+"Μπορείτε να διαγράψετε αυτό το γεγονός μόνο του, ή όλα τα γεγονότα {$a} της "
+"σειράς μονομιάς."

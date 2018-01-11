@@ -1,0 +1,219 @@
+#. extracted from lang/en/qtype_multianswer.php, lang/el/qtype_multianswer.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:14+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qtype_multianswer', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   qtype_multianswer
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['confirmquestionsaveasedited']
+msgid "I confirm that I want the question to be saved as edited"
+msgstr ""
+
+#: $string['confirmsave']
+msgid "Confirm then save {$a}"
+msgstr ""
+
+#: $string['correctanswer']
+msgid "Correct answer"
+msgstr "Σωστή Απάντηση"
+
+#: $string['correctanswerandfeedback']
+msgid "Correct answer and feedback"
+msgstr "Σωστή Απάντηση και Σχόλια"
+
+#: $string['decodeverifyquestiontext']
+msgid "Decode and verify the question text"
+msgstr "Αποκωδικοποίηση και Επιβεβαίωση του Κείμενου της Ερώτησης"
+
+#: $string['layout']
+msgid "Layout"
+msgstr "Διάταξη"
+
+#: $string['layouthorizontal']
+msgid "Horizontal row of radio-buttons"
+msgstr "Οριζόντια σειρά από κουμπιά τύπου radio"
+
+#: $string['layoutmultiple_horizontal']
+msgid "Horizontal row of checkboxes"
+msgstr ""
+
+#: $string['layoutmultiple_vertical']
+msgid "Vertical column of checkboxes"
+msgstr ""
+
+#: $string['layoutselectinline']
+msgid "Dropdown menu in-line in the text"
+msgstr "Αναδυόμενο μενού εμβόλιμα στο κείμενο"
+
+#: $string['layoutundefined']
+msgid "Undefined layout"
+msgstr "Μη ορισμένη διάταξη"
+
+#: $string['layoutvertical']
+msgid "Vertical column of radio buttons"
+msgstr "Κάθετη στήλη από κουμπιά τύπου radio"
+
+#: $string['nooptionsforsubquestion']
+msgid ""
+"Unable to get options for question part # {$a->sub} (question->id={$a->id})"
+msgstr ""
+"Αδυναμία λήψης επιλογών για το τμήμα # {$a->sub} (question->id={$a->id}) της "
+"ερώτησης"
+
+#: $string['noquestions']
+msgid ""
+"The Cloze(multianswer) question \"<strong>{$a}</strong>\" does not contain any "
+"question"
+msgstr ""
+"Η ερώτηση τύπου Cloze (με πολλές απαντήσεις) \"<strong>{$a}</strong>\" δεν "
+"περιέχει καμία ερώτηση"
+
+#: $string['pleaseananswerallparts']
+msgid "Please answer all parts of the question."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Embedded answers (Cloze)"
+msgstr "Ενσωματωμένες Απαντήσεις (Cloze)"
+
+#: $string['pluginnameadding']
+msgid "Adding an Embedded answers (Cloze) question"
+msgstr "Προσθήκη μιας ερώτησης με Ενσωματωμένες Απαντήσεις (Cloze)"
+
+#: $string['pluginnameediting']
+msgid "Editing an Embedded answers (Cloze) question"
+msgstr "Τροποποίηση μιας ερώτησης με Ενσωματωμένες Απαντήσεις (Cloze)"
+
+#: $string['pluginname_help']
+msgid ""
+"Embedded answers (Cloze) questions consist of a passage of text with "
+"questions such as multiple-choice and short answer embedded within it."
+msgstr ""
+
+#: $string['pluginname_link']
+msgid "question/type/multianswer"
+msgstr ""
+
+#: $string['pluginnamesummary']
+msgid ""
+"Questions of this type are very flexible, but can only be created by "
+"entering text containing special codes that create embedded multiple-choice, "
+"short answers and numerical questions."
+msgstr ""
+"Οι ερωτήσεις αυτού του τύπου είναι πολύ ευέλικτες, αλλά μπορούν να "
+"δημιουργηθούν μόνο με την εισαγωγή κειμένου το οποίο περιέχει ειδικούς "
+"κωδικούς που δημιουργούν ενσωματωμένες ερωτήσεις πολλαπλής επιλογής, "
+"σύντομης απάντησης και αριθμητικές."
+
+#: $string['qtypenotrecognized']
+msgid "questiontype {$a} not recognized"
+msgstr "Ο τύπος {$a} της ερώτησης δεν είναι αναγνωρίσιμος"
+
+#: $string['questiondefinition']
+msgid "Question definition"
+msgstr "Ορισμός ερώτησης"
+
+#: $string['questiondeleted']
+msgid "Question deleted"
+msgstr ""
+
+#: $string['questioninquiz']
+msgid ""
+"<ul>\n"
+"  <li>add or delete questions, </li>\n"
+"  <li>change the questions order in the text,</li>\n"
+"  <li>change their question type (numerical, shortanswer, multiple choice). "
+"</li></ul>"
+msgstr ""
+
+#: $string['questionnotfound']
+msgid "Unable to find question of question part #{$a}"
+msgstr "Αδυναμία εύρεσης της ερώτησης του τμήματος ερώτησης #{$a}"
+
+#: $string['questionsadded']
+msgid "Question added"
+msgstr ""
+
+#: $string['questionsaveasedited']
+msgid "The question will be saved as edited"
+msgstr ""
+
+#: $string['questionsless']
+msgid ""
+"{$a} question(s) less than in the multianswer question stored in the "
+"database"
+msgstr ""
+
+#: $string['questionsmissing']
+msgid "The question text must include at least one embedded answer."
+msgstr "Μη έγκυρες ερωτήσεις, δημιουργήστε τουλάχιστον μια ερώτηση"
+
+#: $string['questionsmore']
+msgid ""
+"{$a} question(s) more than in the multianswer question stored in the "
+"database"
+msgstr ""
+
+#: $string['questiontypechanged']
+msgid "Question type changed"
+msgstr ""
+
+#: $string['questiontypechangedcomment']
+msgid ""
+"At least one question type has been changed.<br />Did you add, delete or "
+"move a question?<br />Look ahead."
+msgstr ""
+
+#: $string['questionusedinquiz']
+msgid ""
+"This question is used in {$a->nb_of_quiz} quiz(s), total attempt(s) : "
+"{$a->nb_of_attempts}"
+msgstr ""
+
+#: $string['storedqtype']
+msgid "Stored question type {$a}"
+msgstr ""
+
+#: $string['subqresponse']
+msgid "part {$a->i}: {$a->response}"
+msgstr ""
+
+#: $string['unknownquestiontypeofsubquestion']
+msgid "Unknown question type: {$a->type} of question part # {$a->sub}"
+msgstr "Άγνωστος τύπος ερώτησης: {$a->type} του τμήματος ερώτησης # {$a->sub}"
+
+#: $string['warningquestionmodified']
+msgid "<b>WARNING</b>"
+msgstr ""
+
+#: $string['youshouldnot']
+msgid "<b>YOU SHOULD NOT</b>"
+msgstr ""

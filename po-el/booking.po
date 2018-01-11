@@ -1,0 +1,2545 @@
+#. extracted from lang/en/booking.php, lang/el/booking.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'booking', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   booking
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['activitycompleted']
+msgctxt "$string['activitycompleted']"
+msgid "Activity completed"
+msgstr ""
+
+#: $string['activitycompletionsuccess']
+msgid "All selected users have been marked for activity completion"
+msgstr ""
+
+#: $string['addcategory']
+msgid "Edit categories"
+msgstr ""
+
+#: $string['addeditbooking']
+msgid "Edit booking"
+msgstr ""
+
+#: $string['addmorebookings']
+msgid "Add more bookings"
+msgstr ""
+
+#: $string['addnewbookingoption']
+msgid "Add a new booking option"
+msgstr ""
+
+#: $string['addnewcategory']
+msgid "Add new category"
+msgstr ""
+
+#: $string['addnewinstitution']
+msgid "Add new institution"
+msgstr ""
+
+#: $string['addnewtagtemplate']
+msgid "Add new tag template"
+msgstr ""
+
+#: $string['address']
+msgid "Address"
+msgstr "Διεύθυνση"
+
+#: $string['addteachers']
+msgid "Add teachers"
+msgstr ""
+
+#: $string['addtocalendar']
+msgid "Add to calendar"
+msgstr ""
+
+#: $string['addtogroup']
+msgid "Automatically enrol users in group"
+msgstr ""
+
+#: $string['addtogroup_help']
+msgid ""
+"Automatically enrol users in group - group will be created automatically "
+"with name \"Bookin name - Option name\""
+msgstr ""
+
+#: $string['addusertogroup']
+msgid "Add user to group:"
+msgstr ""
+
+#: $string['advancedoptions']
+msgid "Advanced options"
+msgstr ""
+
+#: $string['aftercompletedtext']
+msgid "After activity completed"
+msgstr ""
+
+#: $string['aftercompletedtext_help']
+msgctxt "$string['aftercompletedtext_help']"
+msgid ""
+"Leave this blank to use the site default text. You can use any of the "
+"following placeholders in the text:\n"
+"<ul>\n"
+"<li>{status}</li>\n"
+"<li>{participant}</li>\n"
+"<li>{email} - User email</li>\n"
+"<li>{title}</li>\n"
+"<li>{duration}</li>\n"
+"<li>{starttime}</li>\n"
+"<li>{endtime}</li>\n"
+"<li>{startdate}</li>\n"
+"<li>{enddate}</li>\n"
+"<li>{courselink}</li>\n"
+"<li>{bookinglink}</li>\n"
+"<li>{pollurl}</li>\n"
+"<li>{pollurlteachers}</li>\n"
+"<li>{location}</li>\n"
+"<li>{institution}</li>\n"
+"<li>{address}</li>\n"
+"<li>{eventtype}</li>\n"
+"<li>{teacher}</li>\n"
+"<li>{teacherN} - N is number of teacher ex. {teacher1}</li>\n"
+"<li>{pollstartdate}</li>\n"
+"<li>{qr_id} - Insert QR code with user id</li>\n"
+"<li>{qr_username} - Insert QR code with user username</li>\n"
+"<li>{times} - Session times</li>\n"
+"<li>{shorturl} - Short url ob option</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['agreetobookingpolicy']
+msgid "I have read and agree to the following booking policies"
+msgstr ""
+
+#: $string['allbookingoptions']
+msgid "Download users for all booking options"
+msgstr ""
+
+#: $string['allchangessave']
+msgid "All changes have been saved."
+msgstr ""
+
+#: $string['allcomments']
+msgid "Everybody can comment"
+msgstr ""
+
+#: $string['allmailssend']
+msgid "All e-mails to the users have been sent!"
+msgstr ""
+
+#: $string['allowdelete']
+msgid "Allow users to cancel their booking themselves"
+msgstr ""
+
+#: $string['allowupdate']
+msgid "Allow booking to be updated"
+msgstr ""
+
+#: $string['allratings']
+msgid "Everybody can rate"
+msgstr ""
+
+#: $string['allusersbooked']
+msgid ""
+"All {$a} selected users have successfully been assigned to this booking "
+"option."
+msgstr ""
+
+#: $string['answer']
+msgid "Answer"
+msgstr ""
+
+#: $string['answered']
+msgid "Answered"
+msgstr ""
+
+#: $string['associatedcourse']
+msgid "Associated course"
+msgstr ""
+
+#: $string['attachedfiles']
+msgid "Attached files"
+msgstr ""
+
+#: $string['attachical']
+msgid "Attach single ical event per booking"
+msgstr ""
+
+#: $string['attachicaldesc']
+msgid ""
+"Email notifications will include an attached ical event, if this is enabled. "
+"The ical will include only one start time and one end time either defined\n"
+"in the booking option settings or start time of the first session to end "
+"time of the last session"
+msgstr ""
+
+#: $string['attachicalsess']
+msgid "Attach all session dates as ical events"
+msgstr ""
+
+#: $string['attachicalsessdesc']
+msgid ""
+"Email notifications will include all session dates defined for a booking "
+"option as ical attachment."
+msgstr ""
+"Οι ειδοποιήσεις μέσω ηλεκτρονικού ταχυδρομείου θα περιλαμβάνουν όλες τις "
+"ημερομηνίες συνεδριών που ορίζονται για μια επιλογή κράτησης ως συνημμένο "
+"ical."
+
+#: $string['autoenrol']
+msgid "Automatically enrol users"
+msgstr ""
+
+#: $string['autoenrol_help']
+msgid ""
+"If selected, users will be enrolled onto the relevant course as soon as they "
+"make the booking and unenrolled from that course as soon as the booking is "
+"cancelled."
+msgstr ""
+
+#: $string['availability']
+msgid "Still available"
+msgstr ""
+
+#: $string['available']
+msgid "Places available"
+msgstr ""
+
+#: $string['backtoresponses']
+msgid "<< Back to responses"
+msgstr ""
+
+#: $string['banusernames']
+msgid "Ban usernames"
+msgstr ""
+
+#: $string['banusernames_help']
+msgid ""
+"To limit which usernames can't apply just write in this field, and separate "
+"with coma. To ban usernames, that end with gmail.com and yahoo.com just "
+"write: gmail.com, yahoo.com"
+msgstr ""
+
+#: $string['banusernameswarning']
+msgid "Your username is banned so you can't book."
+msgstr ""
+
+#: $string['beforebookedtext']
+msgid "Before booked"
+msgstr ""
+
+#: $string['beforebookedtext_help']
+msgctxt "$string['beforebookedtext_help']"
+msgid ""
+"Leave this blank to use the site default text. You can use any of the "
+"following placeholders in the text:\n"
+"<ul>\n"
+"<li>{status}</li>\n"
+"<li>{participant}</li>\n"
+"<li>{email} - User email</li>\n"
+"<li>{title}</li>\n"
+"<li>{duration}</li>\n"
+"<li>{starttime}</li>\n"
+"<li>{endtime}</li>\n"
+"<li>{startdate}</li>\n"
+"<li>{enddate}</li>\n"
+"<li>{courselink}</li>\n"
+"<li>{bookinglink}</li>\n"
+"<li>{pollurl}</li>\n"
+"<li>{pollurlteachers}</li>\n"
+"<li>{location}</li>\n"
+"<li>{institution}</li>\n"
+"<li>{address}</li>\n"
+"<li>{eventtype}</li>\n"
+"<li>{teacher}</li>\n"
+"<li>{teacherN} - N is number of teacher ex. {teacher1}</li>\n"
+"<li>{pollstartdate}</li>\n"
+"<li>{qr_id} - Insert QR code with user id</li>\n"
+"<li>{qr_username} - Insert QR code with user username</li>\n"
+"<li>{times} - Session times</li>\n"
+"<li>{shorturl} - Short url ob option</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['beforecompletedtext']
+msgid "After booked"
+msgstr ""
+
+#: $string['beforecompletedtext_help']
+msgctxt "$string['beforecompletedtext_help']"
+msgid ""
+"Leave this blank to use the site default text. You can use any of the "
+"following placeholders in the text:\n"
+"<ul>\n"
+"<li>{status}</li>\n"
+"<li>{participant}</li>\n"
+"<li>{email} - User email</li>\n"
+"<li>{title}</li>\n"
+"<li>{duration}</li>\n"
+"<li>{starttime}</li>\n"
+"<li>{endtime}</li>\n"
+"<li>{startdate}</li>\n"
+"<li>{enddate}</li>\n"
+"<li>{courselink}</li>\n"
+"<li>{bookinglink}</li>\n"
+"<li>{pollurl}</li>\n"
+"<li>{pollurlteachers}</li>\n"
+"<li>{location}</li>\n"
+"<li>{institution}</li>\n"
+"<li>{address}</li>\n"
+"<li>{eventtype}</li>\n"
+"<li>{teacher}</li>\n"
+"<li>{teacherN} - N is number of teacher ex. {teacher1}</li>\n"
+"<li>{pollstartdate}</li>\n"
+"<li>{qr_id} - Insert QR code with user id</li>\n"
+"<li>{qr_username} - Insert QR code with user username</li>\n"
+"<li>{times} - Session times</li>\n"
+"<li>{shorturl} - Short url ob option</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['booked']
+msgid "Booked"
+msgstr ""
+
+#: $string['bookedpast']
+msgid "Booked (course terminated)"
+msgstr ""
+
+#: $string['bookedtext']
+msgid "Booking confirmation"
+msgstr ""
+
+#: $string['bookedtext_help']
+msgid ""
+"Leave this blank to use the site default text. You can use any of the "
+"following placeholders in the text:\n"
+"<ul>\n"
+"<li>{status}</li>\n"
+"<li>{participant}</li>\n"
+"<li>{email} - User email</li>\n"
+"<li>{title}</li>\n"
+"<li>{duration}</li>\n"
+"<li>{starttime}</li>\n"
+"<li>{endtime}</li>\n"
+"<li>{startdate}</li>\n"
+"<li>{enddate}</li>\n"
+"<li>{courselink}</li>\n"
+"<li>{bookinglink}</li>\n"
+"<li>{location}</li>\n"
+"<li>{institution}</li>\n"
+"<li>{address}</li>\n"
+"<li>{eventtype}</li>\n"
+"<li>{teacher}</li>\n"
+"<li>{teacherN} - N is number of teacher ex. {teacher1}</li>\n"
+"<li>{pollstartdate}</li>\n"
+"<li>{qr_id} - Insert QR code with user id</li>\n"
+"<li>{qr_username} - Insert QR code with user username</li>\n"
+"<li>{times} - Session times</li>\n"
+"<li>{shorturl} - Short url ob option</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['bookedusers']
+msgid "Booked users"
+msgstr ""
+
+#: $string['booking']
+msgctxt "$string['booking']"
+msgid "Booking"
+msgstr ""
+
+#: $string['booking:addeditownoption']
+msgid "Add new option and edit own options."
+msgstr ""
+
+#: $string['booking:addinstance']
+msgid "Add new booking"
+msgstr ""
+
+#: $string['bookingattachment']
+msgid "Attachment"
+msgstr "Συνημμένο"
+
+#: $string['bookingcategory']
+msgctxt "$string['bookingcategory']"
+msgid "Category"
+msgstr ""
+
+#: $string['booking:choose']
+msgid "Book"
+msgstr ""
+
+#: $string['bookingclose']
+msgid "Until"
+msgstr ""
+
+#: $string['booking:comment']
+msgid "Add comments"
+msgstr ""
+
+#: $string['booking:communicate']
+msgid "Can communicate"
+msgstr ""
+
+#: $string['bookingdeleted']
+msgid "Your booking was cancelled"
+msgstr ""
+
+#: $string['booking:deleteresponses']
+msgid "Delete responses"
+msgstr ""
+
+#: $string['booking:downloadresponses']
+msgid "Download responses"
+msgstr ""
+
+#: $string['bookingduration']
+msgid "Duration"
+msgstr "Διάρκεια"
+
+#: $string['bookingfull']
+msgid "There are no available places"
+msgstr ""
+
+#: $string['bookingfulldidntregister']
+msgid "Option is full, so I didn't transfer all users!"
+msgstr ""
+
+#: $string['booking:managecomments']
+msgid "Manage comments"
+msgstr ""
+
+#: $string['bookingmanagererror']
+msgid ""
+"The username entered is not valid. Either it does not exist or there are "
+"more then one users with this username (example: if you have mnet and local "
+"authentication enabled)"
+msgstr ""
+
+#: $string['bookingmeanwhilefull']
+msgid "Meanwhile someone took already the last place"
+msgstr ""
+
+#: $string['bookingname']
+msgid "Booking name"
+msgstr ""
+
+#: $string['bookingopen']
+msgid "Open"
+msgstr ""
+
+#: $string['bookingoptionsmenu']
+msgid "Booking options"
+msgstr ""
+
+#: $string['bookingoptiontext']
+msgid "Booking option text depending on booking status"
+msgstr ""
+
+#: $string['bookingorganizatorname']
+msgctxt "$string['bookingorganizatorname']"
+msgid "Organizer name"
+msgstr ""
+
+#: $string['bookingpoints']
+msgid "Course points"
+msgstr ""
+
+#: $string['bookingpolicy']
+msgid "Booking policy"
+msgstr ""
+
+#: $string['bookingpollurl']
+msgctxt "$string['bookingpollurl']"
+msgid "Poll url"
+msgstr ""
+
+#: $string['bookingpollurlteachers']
+msgctxt "$string['bookingpollurlteachers']"
+msgid "Teachers poll url"
+msgstr ""
+
+#: $string['booking:rate']
+msgid "Rate chosen booking options"
+msgstr ""
+
+#: $string['booking:readallinstitutionusers']
+msgid "Show all users"
+msgstr ""
+
+#: $string['booking:readresponses']
+msgid "Read responses"
+msgstr ""
+
+#: $string['bookingsaved']
+msgid ""
+"Your booking was successfully saved. You can now proceed to book other "
+"courses."
+msgstr ""
+
+#: $string['booking:sendpollurl']
+msgctxt "$string['booking:sendpollurl']"
+msgid "Send poll url"
+msgstr ""
+
+#: $string['booking:sendpollurltoteachers']
+msgid "Send poll url to teachers"
+msgstr ""
+
+#: $string['booking:subscribeusers']
+msgid "Make bookings for other users"
+msgstr ""
+
+#: $string['bookingtags']
+msgid "Tags"
+msgstr ""
+
+#: $string['bookingtext']
+msgid "Booking text"
+msgstr ""
+
+#: $string['booking:updatebooking']
+msgid "Manage booking options"
+msgstr ""
+
+#: $string['booking:viewallratings']
+msgid "View all raw ratings given by individuals"
+msgstr ""
+
+#: $string['booking:viewanyrating']
+msgid "View total ratings that anyone received"
+msgstr ""
+
+#: $string['booking:viewrating']
+msgid "View the total rating you received"
+msgstr ""
+
+#: $string['booknow']
+msgid "Book now"
+msgstr ""
+
+#: $string['bookotherusers']
+msgid "Book other users"
+msgstr ""
+
+#: $string['booktootherbooking']
+msgid "Book users to other booking"
+msgstr ""
+
+#: $string['btnbooknowname']
+msgid "Name of button \"Book now\""
+msgstr ""
+
+#: $string['btncacname']
+msgid "Name of button \"Confirm activity completion\""
+msgstr ""
+
+#: $string['btncancelname']
+msgid "Name of button \"Cancel booking\""
+msgstr ""
+
+#: $string['cancancelbook']
+msgid "Allow user to cancel or book their booking when it is started?"
+msgstr ""
+
+#: $string['cancel']
+msgid "Cancel"
+msgstr ""
+
+#: $string['cancelbooking']
+msgid "Cancel booking"
+msgstr ""
+
+#: $string['cannotremovesubscriber']
+msgid ""
+"You have to remove the activity completion prior to cancel the booking. "
+"Booking was not cancelled!"
+msgstr ""
+
+#: $string['categories']
+msgid "Categories"
+msgstr ""
+
+#: $string['category']
+msgctxt "$string['category']"
+msgid "Category"
+msgstr ""
+
+#: $string['categoryname']
+msgid "Category name"
+msgstr ""
+
+#: $string['cfgsignin']
+msgid "Sign-In Sheet Configuration"
+msgstr ""
+
+#: $string['cfgsignin_desc']
+msgid "Configure the sign-in sheet settings"
+msgstr ""
+
+#: $string['choosecourse']
+msgid "Choose a course"
+msgstr ""
+
+#: $string['choosepdftitle']
+msgid "Select a title for the sign-in sheet"
+msgstr ""
+
+#: $string['closed']
+msgid "Booking closed"
+msgstr ""
+
+#: $string['comments']
+msgid "Comments"
+msgstr ""
+
+#: $string['completed']
+msgid "Completed"
+msgstr ""
+
+#: $string['completedcomments']
+msgctxt "$string['completedcomments']"
+msgid "Only with completed activity"
+msgstr ""
+
+#: $string['completedratings']
+msgctxt "$string['completedratings']"
+msgid "Only with completed activity"
+msgstr ""
+
+#: $string['completionmodule']
+msgctxt "$string['completionmodule']"
+msgid "Activity completed"
+msgstr ""
+
+#: $string['completionmodule_help']
+msgid ""
+"Delete all users, that completed this activity. Users will be deleted with a "
+"click of button on report page!"
+msgstr ""
+
+#: $string['conectedbooking']
+msgid "Connected booking"
+msgstr ""
+
+#: $string['conectedbooking_help']
+msgid ""
+"Booking instance eligible for transferring booked users. You can define from "
+"which option within the selected booking instance and how many users you "
+"will accept."
+msgstr ""
+
+#: $string['confirmactivitycompletion']
+msgid "Confirm activity completion"
+msgstr ""
+
+#: $string['confirmationmessage']
+msgctxt "$string['confirmationmessage']"
+msgid ""
+"Your booking has been registered\n"
+"\n"
+"\n"
+"Booking status: {$a->status}\n"
+"Participant:   {$a->participant}\n"
+"Course:   {$a->title}\n"
+"Date: {$a->startdate} {$a->starttime} - {$a->enddate} {$a->endtime}\n"
+"To view all your booked courses click on the following link: "
+"{$a->bookinglink}\n"
+"The associated course can be found here: {$a->courselink}"
+msgstr ""
+
+#: $string['confirmationmessagesettings']
+msgid "Confirmation e-mail settings"
+msgstr ""
+
+#: $string['confirmationmessagewaitinglist']
+msgid ""
+"Hello {$a->participant},\n"
+"\n"
+"Your booking request has been registered\n"
+"\n"
+"Booking status: {$a->status}\n"
+"Participant:   {$a->participant}\n"
+"Course:   {$a->title}\n"
+"Date: {$a->startdate} {$a->starttime} - {$a->enddate} {$a->endtime}\n"
+"To view all your booked courses click on the following link: "
+"{$a->bookinglink}"
+msgstr ""
+
+#: $string['confirmationsubject']
+msgid "Booking confirmation for {$a->title}"
+msgstr ""
+
+#: $string['confirmationsubjectbookingmanager']
+msgid "New booking for {$a->title} by {$a->participant}"
+msgstr ""
+
+#: $string['confirmationsubjectwaitinglist']
+msgctxt "$string['confirmationsubjectwaitinglist']"
+msgid "Booking status for {$a->title}"
+msgstr ""
+
+#: $string['confirmationsubjectwaitinglistmanager']
+msgctxt "$string['confirmationsubjectwaitinglistmanager']"
+msgid "Booking status for {$a->title}"
+msgstr ""
+
+#: $string['confirmbookingoffollowing']
+msgid "Please confirm the booking of following course"
+msgstr ""
+
+#: $string['confirmdeletebookingoption']
+msgid "Do you really want to delete this booking option?"
+msgstr ""
+
+#: $string['confirmpresence']
+msgid "Confirm presence"
+msgstr ""
+
+#: $string['copyonlythisbookingurl']
+msgid "Copy this booking URL"
+msgstr ""
+
+#: $string['copypollurl']
+msgid "Copy poll URL"
+msgstr ""
+
+#: $string['copytoclipboard']
+msgid "Copy to clipboard: Ctrl+C, Enter"
+msgstr ""
+
+#: $string['coursedate']
+msgctxt "$string['coursedate']"
+msgid "Date"
+msgstr ""
+
+#: $string['courseendtime']
+msgid "End time of the course"
+msgstr ""
+
+#: $string['coursestarttime']
+msgid "Start time of the course"
+msgstr ""
+
+#: $string['createdby']
+msgid "Booking module created by edulabs.org"
+msgstr ""
+
+#: $string['csvfile']
+msgid "CSV file"
+msgstr ""
+
+#: $string['csvfile_help']
+msgid "CSV file must contain only one column named Institution."
+msgstr ""
+
+#: $string['customfield']
+msgid ""
+"Custom field to be set in the booking option settings. It will then be shown "
+"in the booking option overview."
+msgstr ""
+
+#: $string['customfieldconfigure']
+msgctxt "$string['customfieldconfigure']"
+msgid "Custom booking option fields"
+msgstr ""
+
+#: $string['customfielddef']
+msgid "Custom booking option field"
+msgstr ""
+
+#: $string['customfielddesc']
+msgid ""
+"After adding a custom field, you can define the value for the field in the "
+"booking option settings. The value will be shown in the booking option "
+"description."
+msgstr ""
+
+#: $string['customfieldtype']
+msgid "Field type"
+msgstr ""
+
+#: $string['customlabels']
+msgid "Custom labels"
+msgstr ""
+
+#: $string['dateerror']
+msgid "Wrong date in line {$a}:"
+msgstr ""
+
+#: $string['datenotset']
+msgid "Date not set"
+msgstr ""
+
+#: $string['dateparseformat']
+msgid "Date parse format"
+msgstr ""
+
+#: $string['dateparseformat_help']
+msgid ""
+"Please, use date format like specified in CSV file. Help with <a "
+"href=\"http://php.net/manual/en/function.date.php\">this</a> resource for "
+"options."
+msgstr ""
+
+#: $string['days']
+msgid "{$a} days"
+msgstr ""
+
+#: $string['daystonotify']
+msgid "Number of days in advance of the event-start to notify participatants"
+msgstr ""
+
+#: $string['daystonotify2']
+msgid "Second notification before start of event to notify participatants."
+msgstr ""
+
+#: $string['daystonotify_help']
+msgid ""
+"Will work only if start and end date of option are set! 0 for disabling this "
+"functionality."
+msgstr ""
+
+#: $string['defaultbookingoption']
+msgid "Default booking options"
+msgstr ""
+
+#: $string['defaultdateformat']
+msgid "j.n.Y H:i:s"
+msgstr ""
+
+#: $string['delcustfield']
+msgid ""
+"Delete this field and all associated field settings in the booking options"
+msgstr ""
+
+#: $string['deletebooking']
+msgid ""
+"Do you really want to unsubscribe from following course? <br /><br /> "
+"<b>{$a} </b>"
+msgstr ""
+
+#: $string['deletebookingoption']
+msgid "Delete this booking option"
+msgstr ""
+
+#: $string['deletecategory']
+msgctxt "$string['deletecategory']"
+msgid "Delete"
+msgstr ""
+
+#: $string['deletedbookingmessage']
+msgid ""
+"Booking for following course deleted: {$a->title}\n"
+"\n"
+"User: {$a->participant}\n"
+"Title: {$a->title}\n"
+"Date: {$a->startdate} {$a->starttime} - {$a->enddate} {$a->endtime}\n"
+"Course: {$a->courselink}\n"
+"Booking link: {$a->bookinglink}"
+msgstr ""
+
+#: $string['deletedbookingsubject']
+msgid "Deleted booking: {$a->title} by {$a->participant}"
+msgstr ""
+
+#: $string['deletedbookingusermessage']
+msgid ""
+"Hello {$a->participant},\n"
+"\n"
+"Your booking for {$a->title} ({$a->startdate} {$a->starttime}) has been "
+"cancelled."
+msgstr ""
+
+#: $string['deletedbookingusersubject']
+msgid "Booking for {$a->title} cancelled"
+msgstr ""
+
+#: $string['deletedrule']
+msgid "Rule deleted."
+msgstr ""
+
+#: $string['deletedtext']
+msgid "Cancelled booking message"
+msgstr ""
+
+#: $string['deletedtext_help']
+msgctxt "$string['deletedtext_help']"
+msgid ""
+"Leave this blank to use the site default text. You can use any of the "
+"following placeholders in the text:\n"
+"<ul>\n"
+"<li>{status}</li>\n"
+"<li>{participant}</li>\n"
+"<li>{email} - User email</li>\n"
+"<li>{title}</li>\n"
+"<li>{duration}</li>\n"
+"<li>{starttime}</li>\n"
+"<li>{endtime}</li>\n"
+"<li>{startdate}</li>\n"
+"<li>{enddate}</li>\n"
+"<li>{courselink}</li>\n"
+"<li>{bookinglink}</li>\n"
+"<li>{pollurl}</li>\n"
+"<li>{pollurlteachers}</li>\n"
+"<li>{location}</li>\n"
+"<li>{institution}</li>\n"
+"<li>{address}</li>\n"
+"<li>{eventtype}</li>\n"
+"<li>{teacher}</li>\n"
+"<li>{teacherN} - N is number of teacher ex. {teacher1}</li>\n"
+"<li>{pollstartdate}</li>\n"
+"<li>{qr_id} - Insert QR code with user id</li>\n"
+"<li>{qr_username} - Insert QR code with user username</li>\n"
+"<li>{times} - Session times</li>\n"
+"<li>{shorturl} - Short url ob option</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['deleteresponsesactivitycompletion']
+msgid "Delete all users with completed activity: {$a}"
+msgstr ""
+
+#: $string['deleterule']
+msgctxt "$string['deleterule']"
+msgid "Delete"
+msgstr ""
+
+#: $string['deletesubcategory']
+msgid "Please, first delete all subcategories of this category!"
+msgstr ""
+
+#: $string['deleteuserfrombooking']
+msgid "Do you really want to delete the users from the booking?"
+msgstr ""
+
+#: $string['delnotification']
+msgctxt "$string['delnotification']"
+msgid ""
+"You deleted {$a->del} of {$a->all} users. Users, that have completed "
+"activity, can't be deleted!"
+msgstr ""
+
+#: $string['delnotificationactivitycompletion']
+msgctxt "$string['delnotificationactivitycompletion']"
+msgid ""
+"You deleted {$a->del} of {$a->all} users. Users, that have completed "
+"activity, can't be deleted!"
+msgstr ""
+
+#: $string['disablebookingusers']
+msgid "Disable booking of users - hide Book now button."
+msgstr ""
+
+#: $string['disabled']
+msgid "Disabled"
+msgstr ""
+
+#: $string['donotselectcourse']
+msgid "No course selected"
+msgstr ""
+
+#: $string['download']
+msgid "Download"
+msgstr ""
+
+#: $string['downloadallresponses']
+msgid "Download all responses for all booking options"
+msgstr ""
+
+#: $string['downloadusersforthisoptionods']
+msgid "Download users as .ods"
+msgstr ""
+
+#: $string['downloadusersforthisoptionxls']
+msgid "Download users as .xls"
+msgstr ""
+
+#: $string['duplicatebooking']
+msgid "Duplicate this booking option"
+msgstr ""
+
+#: $string['editcategory']
+msgctxt "$string['editcategory']"
+msgid "Edit"
+msgstr ""
+
+#: $string['editingoptiondate']
+msgid "You are currently editing this session"
+msgstr ""
+
+#: $string['editinstitutions']
+msgid "Edit institutions"
+msgstr ""
+
+#: $string['editotherbooking']
+msgid "Other booking rules"
+msgstr ""
+
+#: $string['editrule']
+msgctxt "$string['editrule']"
+msgid "Edit"
+msgstr ""
+
+#: $string['edittag']
+msgctxt "$string['edittag']"
+msgid "Edit"
+msgstr ""
+
+#: $string['editteachers']
+msgctxt "$string['editteachers']"
+msgid "Edit"
+msgstr ""
+
+#: $string['editteacherslink']
+msgid "Edit teachers"
+msgstr ""
+
+#: $string['enablecompletion']
+msgid "Enable manual activity completion in booking option responses"
+msgstr ""
+
+#: $string['enablecompletiongroup']
+msgid "Manual activity completion"
+msgstr ""
+
+#: $string['enablepresence']
+msgid "Enable presence"
+msgstr ""
+
+#: $string['endtimenotset']
+msgid "End date not set"
+msgstr ""
+
+#: $string['enrolledcomments']
+msgctxt "$string['enrolledcomments']"
+msgid "Only enrolled"
+msgstr ""
+
+#: $string['enrolledinoptions']
+msgid "alredy booked in booking options:"
+msgstr ""
+
+#: $string['enrolledratings']
+msgctxt "$string['enrolledratings']"
+msgid "Only enrolled"
+msgstr ""
+
+#: $string['entervalidurl']
+msgid "Please, enter a valid URL!"
+msgstr ""
+
+#: $string['error:failedtosendconfirmation']
+msgid ""
+"The following user did not receive a confirmation mail\n"
+"\n"
+"Booking status: {$a->status}\n"
+"Participant:   {$a->participant}\n"
+"Course:   {$a->title}\n"
+"Date: {$a->startdate} {$a->starttime} - {$a->enddate} {$a->endtime}\n"
+"Link: {$a->bookinglink}\n"
+"Associated course: {$a->courselink}"
+msgstr ""
+
+#: $string['errorpagination']
+msgid "Please enter a number bigger than 0"
+msgstr ""
+
+#: $string['eventbooking_cancelled']
+msgid "Booking cancelled"
+msgstr ""
+
+#: $string['eventbookingoption_booked']
+msgid "Booking option booked"
+msgstr ""
+
+#: $string['eventduration']
+msgid "Event duration"
+msgstr "Διάρκεια γεγονότος"
+
+#: $string['eventpoints']
+msgid "Points"
+msgstr ""
+
+#: $string['eventreport_viewed']
+msgid "Report viewed"
+msgstr ""
+
+#: $string['eventteacher_added']
+msgid "Teacher added"
+msgstr ""
+
+#: $string['eventteacher_removed']
+msgid "Teacher removed"
+msgstr ""
+
+#: $string['eventtype']
+msgid "Event type"
+msgstr ""
+
+#: $string['eventuserprofilefields_updated']
+msgid "Userprofile updated"
+msgstr ""
+
+#: $string['excelfile']
+msgid "CSV file with activity completion"
+msgstr ""
+
+#: $string['existingsubscribers']
+msgid "Existing subscribers"
+msgstr ""
+
+#: $string['expired']
+msgid "Sorry, this activity closed on {$a} and is no longer available"
+msgstr ""
+
+#: $string['fields']
+msgid "Fields to display in different contexts"
+msgstr ""
+
+#: $string['fillinatleastoneoption']
+msgid "You need to provide at least two possible answers."
+msgstr ""
+
+#: $string['forcourse']
+msgid "for course"
+msgstr ""
+
+#: $string['full']
+msgid "Full"
+msgstr ""
+
+#: $string['fullname']
+msgid "Full name"
+msgstr "Πλήρες όνομα"
+
+#: $string['generatenewurl']
+msgid "Generate new short url"
+msgstr ""
+
+#: $string['generaterecnum']
+msgid "Generate numbers"
+msgstr ""
+
+#: $string['generaterecnumareyousure']
+msgid "This will generate new numbers and permanently delete the old one!"
+msgstr ""
+
+#: $string['generaterecnumnotification']
+msgid "New numbers have been generated."
+msgstr ""
+
+#: $string['goenrol']
+msgid "Go to registration"
+msgstr ""
+
+#: $string['googleapikey']
+msgid "Google API key"
+msgstr ""
+
+#: $string['googleapikey_desc']
+msgid ""
+"API key for Google URL Shortener. Get it here: https://developers.google.com"
+"/url-shortener/v1/getting_started#APIKey"
+msgstr ""
+
+#: $string['gotobooking']
+msgid "<< Bookings"
+msgstr ""
+
+#: $string['gotop']
+msgid "Go to top"
+msgstr ""
+
+#: $string['groupdeleted']
+msgid ""
+"This booking instance creates groups automatically in the target course. But "
+"the group has been manually deleted in the target course. Activate the "
+"following checkbox in order to recreate the group"
+msgstr ""
+
+#: $string['groupexists']
+msgid ""
+"The group already exists in the target course, please choose another name "
+"for the booking option"
+msgstr ""
+
+#: $string['groupname']
+msgid "Group name"
+msgstr ""
+
+#: $string['havetologin']
+msgid "You have to log in before you can submit your booking"
+msgstr ""
+
+#: $string['hidedescription']
+msgid "Hide description"
+msgstr ""
+
+#: $string['hours']
+msgid "{$a} hours"
+msgstr ""
+
+#: $string['howmanyusers']
+msgid "How many users you can book?"
+msgstr ""
+
+#: $string['howmanyusers_help']
+msgctxt "$string['howmanyusers_help']"
+msgid ""
+msgstr ""
+
+#: $string['icalcancel']
+msgid "Include ical event when booking is cancelled as cancelled event"
+msgstr ""
+
+#: $string['icalcanceldesc']
+msgid ""
+"When a users cancels a booking or is removed from the booked users list, "
+"then attach an ical attachment as cancelled event."
+msgstr ""
+"Όταν ένας χρήστης ακυρώσει μια κράτηση ή αφαιρεθεί από τη λίστα κρατήσεων, "
+"τότε να γίνει επισύναψη ενός συνημμένου ical ως ακυρωμένο γεγονός."
+
+#: $string['importcsvbookingoption']
+msgid "Import CSV with booking options"
+msgstr ""
+
+#: $string['importcsvtitle']
+msgid "Import CSV"
+msgstr ""
+
+#: $string['importexcelbutton']
+msgctxt "$string['importexcelbutton']"
+msgid "Import activity completion"
+msgstr ""
+
+#: $string['importexceltitle']
+msgctxt "$string['importexceltitle']"
+msgid "Import activity completion"
+msgstr ""
+
+#: $string['importfinished']
+msgid "Importing finished!"
+msgstr ""
+
+#: $string['includeteachers']
+msgid "Include teachers in the sign-in sheet"
+msgstr ""
+
+#: $string['infonobookingoption']
+msgid "Please use the block {$a} in order to add your first booking option"
+msgstr ""
+
+#: $string['institution']
+msgid "Institution"
+msgstr ""
+
+#: $string['institutionname']
+msgid "Institution name"
+msgstr ""
+
+#: $string['institutions']
+msgid "Institutions"
+msgstr ""
+
+#: $string['lblacceptingfrom']
+msgid "Name of label \"Accepting from\""
+msgstr ""
+
+#: $string['lblbooking']
+msgid "Name of label \"Booking\""
+msgstr ""
+
+#: $string['lblbooktootherbooking']
+msgid "Name of button \"Book users to other booking option\""
+msgstr ""
+
+#: $string['lblinstitution']
+msgid "Name of label \"Institution\""
+msgstr ""
+
+#: $string['lbllocation']
+msgid "Name of label \"Location\""
+msgstr ""
+
+#: $string['lblname']
+msgid "Name of label \"Name\""
+msgstr ""
+
+#: $string['lblnumofusers']
+msgid "Name of label \"Num. of users\""
+msgstr ""
+
+#: $string['lblsputtname']
+msgid "Name of label \"Send poll url to teachers\""
+msgstr ""
+
+#: $string['lblsurname']
+msgid "Name of label \"Surname\""
+msgstr ""
+
+#: $string['lblteachname']
+msgid "Name of label \"Teachers\""
+msgstr ""
+
+#: $string['leftandrightdate']
+msgid "{$a->leftdate} to {$a->righttdate}"
+msgstr ""
+
+#: $string['limit']
+msgctxt "$string['limit']"
+msgid "Limit"
+msgstr ""
+
+#: $string['limitanswers']
+msgid "Limit the number of participants"
+msgstr ""
+
+#: $string['limitanswers_help']
+msgid ""
+"If you change this option and you have booked people, you can remove them "
+"without notification!"
+msgstr ""
+
+#: $string['location']
+msgid "Location"
+msgstr ""
+
+#: $string['mailconfirmationsent']
+msgid "You will shortly receive a confirmation e-mail"
+msgstr ""
+
+#: $string['managebooking']
+msgid "Manage"
+msgstr ""
+
+#: $string['maxoverbooking']
+msgid "Max. number of places on waiting list"
+msgstr ""
+
+#: $string['maxparticipantsnumber']
+msgid "Max. number of participants"
+msgstr ""
+
+#: $string['maxperuser']
+msgid "Max current bookings per user"
+msgstr ""
+
+#: $string['maxperuser_help']
+msgid ""
+"The maximum number of bookings an individual user can make in this activity "
+"at once. After an event end time has passed, it is no longer counted against "
+"this limit."
+msgstr ""
+
+#: $string['maxperuserwarning']
+msgid ""
+"You currently have used {$a->count} out of {$a->limit} maximum available "
+"bookings ({$a->eventtype}) for your user account"
+msgstr ""
+
+#: $string['messageprovider:bookingconfirmation']
+msgid "Booking confirmations"
+msgstr ""
+
+#: $string['messagesend']
+msgid "Your message has been sent."
+msgstr ""
+
+#: $string['messagesubject']
+msgid "Subject"
+msgstr ""
+
+#: $string['messagetext']
+msgid "Message"
+msgstr ""
+
+#: $string['minutes']
+msgid "{$a} minutes"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Booking"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Bookings"
+msgstr ""
+
+#: $string['mustchooseone']
+msgid "You must choose an option before saving. Nothing was saved."
+msgstr ""
+
+#: $string['mustfilloutuserinfobeforebooking']
+msgid ""
+"Befor proceeding to the booking form, please fill in some personal booking "
+"information"
+msgstr ""
+
+#: $string['myoptions']
+msgid "My options ({$a})"
+msgstr ""
+
+#: $string['no']
+msgid "No"
+msgstr ""
+
+#: $string['nobookingselected']
+msgid "No booking option selected"
+msgstr ""
+
+#: $string['nocomments']
+msgid "Commenting disabled"
+msgstr ""
+
+#: $string['nocourse']
+msgid "No course selected for this booking option"
+msgstr ""
+
+#: $string['nodateset']
+msgid "Course date not set"
+msgstr ""
+
+#: $string['noguestchoose']
+msgid "Sorry, guests are not allowed to enter data"
+msgstr ""
+
+#: $string['noratings']
+msgid "Ratings disabled"
+msgstr ""
+
+#: $string['noresultsviewable']
+msgid "The results are not currently viewable."
+msgstr ""
+
+#: $string['norighttobook']
+msgid ""
+"Booking is not possible for your user role. Please contact the site "
+"administrator to give you the appropriate rights or sign in."
+msgstr ""
+
+#: $string['nosubscribers']
+msgid "There are no teachers assigned!"
+msgstr ""
+
+#: $string['notallbooked']
+msgid ""
+"The following users could not be booked due to reaching the max number of "
+"bookings per user or lack of available places for the booking option: {$a}"
+msgstr ""
+
+#: $string['notbooked']
+msgid "Not yet booked"
+msgstr ""
+
+#: $string['notconectedbooking']
+msgid "Not connected"
+msgstr ""
+
+#: $string['noteacherfound']
+msgid "No teacher found in line {$a}:"
+msgstr ""
+
+#: $string['notificationsubject']
+msgid "Upcoming course..."
+msgstr ""
+
+#: $string['notificationtext']
+msgid "Notification text shown on activity completion."
+msgstr ""
+
+#: $string['notificationtext_help']
+msgctxt "$string['notificationtext_help']"
+msgid ""
+"Leave this blank to use the site default text. You can use any of the "
+"following placeholders in the text:\n"
+"<ul>\n"
+"<li>{status}</li>\n"
+"<li>{participant}</li>\n"
+"<li>{email} - User email</li>\n"
+"<li>{title}</li>\n"
+"<li>{duration}</li>\n"
+"<li>{starttime}</li>\n"
+"<li>{endtime}</li>\n"
+"<li>{startdate}</li>\n"
+"<li>{enddate}</li>\n"
+"<li>{courselink}</li>\n"
+"<li>{bookinglink}</li>\n"
+"<li>{pollurl}</li>\n"
+"<li>{pollurlteachers}</li>\n"
+"<li>{location}</li>\n"
+"<li>{institution}</li>\n"
+"<li>{address}</li>\n"
+"<li>{eventtype}</li>\n"
+"<li>{teacher}</li>\n"
+"<li>{teacherN} - N is number of teacher ex. {teacher1}</li>\n"
+"<li>{pollstartdate}</li>\n"
+"<li>{qr_id} - Insert QR code with user id</li>\n"
+"<li>{qr_username} - Insert QR code with user username</li>\n"
+"<li>{times} - Session times</li>\n"
+"<li>{shorturl} - Short url ob option</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['notificationtextmessage']
+msgid ""
+"Course will start:\n"
+"\n"
+"Course:   {$a->title}\n"
+"Date: {$a->startdate} {$a->starttime} - {$a->enddate} {$a->endtime}"
+msgstr ""
+
+#: $string['notificationtextsubject']
+msgid "Info about course start!"
+msgstr ""
+
+#: $string['notifyemail']
+msgid "Notification before start"
+msgstr ""
+
+#: $string['notifyemaildefaultmessage']
+msgctxt "$string['notifyemaildefaultmessage']"
+msgid ""
+"Your booking has been registered\n"
+"\n"
+"\n"
+"Booking status: {$a->status}\n"
+"Participant:   {$a->participant}\n"
+"Course:   {$a->title}\n"
+"Date: {$a->startdate} {$a->starttime} - {$a->enddate} {$a->endtime}\n"
+"To view all your booked courses click on the following link: "
+"{$a->bookinglink}\n"
+"The associated course can be found here: {$a->courselink}"
+msgstr ""
+
+#: $string['notifyemail_help']
+msgctxt "$string['notifyemail_help']"
+msgid ""
+"Leave this blank to use the site default text. You can use any of the "
+"following placeholders in the text:\n"
+"<ul>\n"
+"<li>{status}</li>\n"
+"<li>{participant}</li>\n"
+"<li>{email} - User email</li>\n"
+"<li>{title}</li>\n"
+"<li>{duration}</li>\n"
+"<li>{starttime}</li>\n"
+"<li>{endtime}</li>\n"
+"<li>{startdate}</li>\n"
+"<li>{enddate}</li>\n"
+"<li>{courselink}</li>\n"
+"<li>{bookinglink}</li>\n"
+"<li>{pollurl}</li>\n"
+"<li>{pollurlteachers}</li>\n"
+"<li>{location}</li>\n"
+"<li>{institution}</li>\n"
+"<li>{address}</li>\n"
+"<li>{eventtype}</li>\n"
+"<li>{teacher}</li>\n"
+"<li>{teacherN} - N is number of teacher ex. {teacher1}</li>\n"
+"<li>{pollstartdate}</li>\n"
+"<li>{qr_id} - Insert QR code with user id</li>\n"
+"<li>{qr_username} - Insert QR code with user username</li>\n"
+"<li>{times} - Session times</li>\n"
+"<li>{shorturl} - Short url ob option</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['notopenyet']
+msgid "Sorry, this activity is not available until {$a}"
+msgstr "Συγνώμη, αυτή η δραστηριότητα δεν είναι διαθέσιμη μέχρι {$a}"
+
+#: $string['nouserfound']
+msgid "No user found:"
+msgstr ""
+
+#: $string['nousers']
+msgid "No users!"
+msgstr ""
+
+#: $string['numberrows']
+msgid "Number rows"
+msgstr ""
+
+#: $string['numberrowsdesc']
+msgid ""
+"Number each row of the sign-in sheet. Number will be displayed left of the "
+"name in the same column"
+msgstr ""
+
+#: $string['numgenerator']
+msgid "Enable rec. number generation?"
+msgstr ""
+
+#: $string['numrec']
+msgid "Rec. num."
+msgstr ""
+
+#: $string['onlythisbookingurl']
+msgid "Link to this booking URL"
+msgstr ""
+
+#: $string['onwaitinglist']
+msgid "You are on the waiting list"
+msgstr ""
+
+#: $string['optiondates']
+msgid "Multiple dates session"
+msgstr ""
+
+#: $string['optiondatesmessage']
+msgid ""
+"Session {$a->number}: {$a->date} <br> From: {$a->starttime} <br> To: "
+"{$a->endtime}"
+msgstr ""
+
+#: $string['optiondatessuccessfullydelete']
+msgid "Session time was deleted."
+msgstr ""
+
+#: $string['optiondatessuccessfullysaved']
+msgid "Session time was saved."
+msgstr ""
+
+#: $string['optiondatestime']
+msgid "Session time"
+msgstr ""
+
+#: $string['optionid']
+msgid "Option ID"
+msgstr ""
+
+#: $string['optionmenu']
+msgid "This booking option"
+msgstr ""
+
+#: $string['optionsfields']
+msgid "Fields on the booking options overview page"
+msgstr ""
+
+#: $string['organizatorname']
+msgctxt "$string['organizatorname']"
+msgid "Organizer name"
+msgstr ""
+
+#: $string['otherbookingaddrule']
+msgid "Add new rule"
+msgstr ""
+
+#: $string['otherbookinglimit']
+msgctxt "$string['otherbookinglimit']"
+msgid "Limit"
+msgstr ""
+
+#: $string['otherbookinglimit_help']
+msgid ""
+"How many users you accept from option. If 0, you can accept unlimited users."
+msgstr ""
+
+#: $string['otherbookingnumber']
+msgid "Num. of users"
+msgstr ""
+
+#: $string['otherbookingoptions']
+msgid "Accepting from"
+msgstr ""
+
+#: $string['otherbookingsuccessfullysaved']
+msgid "Rule saved!"
+msgstr ""
+
+#: $string['paginationnum']
+msgid "N. of records - pagination"
+msgstr ""
+
+#: $string['pdfdate']
+msgid "Booking Date(s):"
+msgstr ""
+
+#: $string['pdflandscape']
+msgid "Landscape"
+msgstr ""
+
+#: $string['pdflocation']
+msgid "Location:"
+msgstr ""
+
+#: $string['pdfportrait']
+msgid "Portrait"
+msgstr ""
+
+#: $string['pdfroom']
+msgid "Room:"
+msgstr "Αίθουσα:"
+
+#: $string['pdfsignature']
+msgctxt "$string['pdfsignature']"
+msgid "Signature"
+msgstr ""
+
+#: $string['pdfstudentname']
+msgid "Student Name"
+msgstr ""
+
+#: $string['pdftodaydate']
+msgid "Date:"
+msgstr ""
+
+#: $string['placesavailable']
+msgid "Places available: {$a->available} of {$a->maxanswers}"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Booking administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Booking"
+msgstr ""
+
+#: $string['pollstrftimedate']
+msgid "%Y-%m-%d"
+msgstr ""
+
+#: $string['pollurl']
+msgctxt "$string['pollurl']"
+msgid "Poll url"
+msgstr ""
+
+#: $string['pollurl_help']
+msgctxt "$string['pollurl_help']"
+msgid ""
+"You can use any of the following placeholders in the text:\n"
+"<ul>\n"
+"<li>{status}</li>\n"
+"<li>{participant}</li>\n"
+"<li>{email} - User email</li>\n"
+"<li>{title}</li>\n"
+"<li>{duration}</li>\n"
+"<li>{starttime}</li>\n"
+"<li>{endtime}</li>\n"
+"<li>{startdate}</li>\n"
+"<li>{enddate}</li>\n"
+"<li>{courselink}</li>\n"
+"<li>{bookinglink}</li>\n"
+"<li>{location}</li>\n"
+"<li>{institution}</li>\n"
+"<li>{address}</li>\n"
+"<li>{eventtype}</li>\n"
+"<li>{teacher}</li>\n"
+"<li>{teacherN} - N is number of teacher ex. {teacher1}</li>\n"
+"<li>{pollstartdate}</li>\n"
+"<li>{qr_id} - Insert QR code with user id</li>\n"
+"<li>{qr_username} - Insert QR code with user username</li>\n"
+"<li>{times} - Session times</li>\n"
+"<li>{shorturl} - Short url ob option</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['pollurlteachers']
+msgctxt "$string['pollurlteachers']"
+msgid "Teachers poll url"
+msgstr ""
+
+#: $string['pollurlteachers_help']
+msgctxt "$string['pollurlteachers_help']"
+msgid ""
+"You can use any of the following placeholders in the text:\n"
+"<ul>\n"
+"<li>{status}</li>\n"
+"<li>{participant}</li>\n"
+"<li>{email} - User email</li>\n"
+"<li>{title}</li>\n"
+"<li>{duration}</li>\n"
+"<li>{starttime}</li>\n"
+"<li>{endtime}</li>\n"
+"<li>{startdate}</li>\n"
+"<li>{enddate}</li>\n"
+"<li>{courselink}</li>\n"
+"<li>{bookinglink}</li>\n"
+"<li>{location}</li>\n"
+"<li>{institution}</li>\n"
+"<li>{address}</li>\n"
+"<li>{eventtype}</li>\n"
+"<li>{teacher}</li>\n"
+"<li>{teacherN} - N is number of teacher ex. {teacher1}</li>\n"
+"<li>{pollstartdate}</li>\n"
+"<li>{qr_id} - Insert QR code with user id</li>\n"
+"<li>{qr_username} - Insert QR code with user username</li>\n"
+"<li>{times} - Session times</li>\n"
+"<li>{shorturl} - Short url ob option</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['pollurlteacherstext']
+msgid "Message for the poll url sent to teachers"
+msgstr ""
+
+#: $string['pollurlteacherstext_help']
+msgctxt "$string['pollurlteacherstext_help']"
+msgid ""
+"Leave this blank to use the site default text. You can use any of the "
+"following placeholders in the text:\n"
+"<ul>\n"
+"<li>{status}</li>\n"
+"<li>{participant}</li>\n"
+"<li>{email} - User email</li>\n"
+"<li>{title}</li>\n"
+"<li>{duration}</li>\n"
+"<li>{starttime}</li>\n"
+"<li>{endtime}</li>\n"
+"<li>{startdate}</li>\n"
+"<li>{enddate}</li>\n"
+"<li>{courselink}</li>\n"
+"<li>{bookinglink}</li>\n"
+"<li>{pollurl}</li>\n"
+"<li>{pollurlteachers}</li>\n"
+"<li>{location}</li>\n"
+"<li>{institution}</li>\n"
+"<li>{address}</li>\n"
+"<li>{eventtype}</li>\n"
+"<li>{teacher}</li>\n"
+"<li>{teacherN} - N is number of teacher ex. {teacher1}</li>\n"
+"<li>{pollstartdate}</li>\n"
+"<li>{qr_id} - Insert QR code with user id</li>\n"
+"<li>{qr_username} - Insert QR code with user username</li>\n"
+"<li>{times} - Session times</li>\n"
+"<li>{shorturl} - Short url ob option</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['pollurlteacherstextmessage']
+msgid ""
+"Please, take the survey\n"
+"\n"
+"Survey url {pollurlteachers}"
+msgstr ""
+
+#: $string['pollurlteacherstextsubject']
+msgctxt "$string['pollurlteacherstextsubject']"
+msgid "Please, take the survey"
+msgstr ""
+
+#: $string['pollurltext']
+msgid "Message for sending poll url to booked users"
+msgstr ""
+
+#: $string['pollurltext_help']
+msgctxt "$string['pollurltext_help']"
+msgid ""
+"Leave this blank to use the site default text. You can use any of the "
+"following placeholders in the text:\n"
+"<ul>\n"
+"<li>{status}</li>\n"
+"<li>{participant}</li>\n"
+"<li>{email} - User email</li>\n"
+"<li>{title}</li>\n"
+"<li>{duration}</li>\n"
+"<li>{starttime}</li>\n"
+"<li>{endtime}</li>\n"
+"<li>{startdate}</li>\n"
+"<li>{enddate}</li>\n"
+"<li>{courselink}</li>\n"
+"<li>{bookinglink}</li>\n"
+"<li>{pollurl}</li>\n"
+"<li>{pollurlteachers}</li>\n"
+"<li>{location}</li>\n"
+"<li>{institution}</li>\n"
+"<li>{address}</li>\n"
+"<li>{eventtype}</li>\n"
+"<li>{teacher}</li>\n"
+"<li>{teacherN} - N is number of teacher ex. {teacher1}</li>\n"
+"<li>{pollstartdate}</li>\n"
+"<li>{qr_id} - Insert QR code with user id</li>\n"
+"<li>{qr_username} - Insert QR code with user username</li>\n"
+"<li>{times} - Session times</li>\n"
+"<li>{shorturl} - Short url ob option</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['pollurltextmessage']
+msgid ""
+"Please, take the survey\n"
+"\n"
+"Survey url {pollurl}"
+msgstr ""
+
+#: $string['pollurltextsubject']
+msgctxt "$string['pollurltextsubject']"
+msgid "Please, take the survey"
+msgstr ""
+
+#: $string['potentialsubscribers']
+msgid "Potential subscribers"
+msgstr ""
+
+#: $string['presence']
+msgid "Presence"
+msgstr ""
+
+#: $string['question']
+msgid "Question"
+msgstr ""
+
+#: $string['ratings']
+msgid "Bookingoption ratings"
+msgstr ""
+
+#: $string['ratingsuccess']
+msgid "The ratings were successfully updated"
+msgstr ""
+
+#: $string['recreategroup']
+msgid "Recreate group in the target course and enrol users in group"
+msgstr ""
+
+#: $string['removeafterminutes']
+msgid "Remove activity completion after N minutes"
+msgstr ""
+
+#: $string['removeresponses']
+msgid "Remove all responses"
+msgstr ""
+
+#: $string['reportfields']
+msgid "Downlodable responses fields (csv, xls-Download)"
+msgstr ""
+
+#: $string['reset']
+msgid "Reset"
+msgstr ""
+
+#: $string['responses']
+msgid "Responses"
+msgstr ""
+
+#: $string['responsesfields']
+msgid "Fields on the \"manage responses\" page"
+msgstr ""
+
+#: $string['responsesto']
+msgid "Responses to {$a}"
+msgstr ""
+
+#: $string['rootcategory']
+msgid "Root"
+msgstr ""
+
+#: $string['savenewtagtemplate']
+msgid "Save"
+msgstr ""
+
+#: $string['searchdate']
+msgctxt "$string['searchdate']"
+msgid "Date"
+msgstr ""
+
+#: $string['searchfinished']
+msgid "Course completed"
+msgstr ""
+
+#: $string['searchname']
+msgid "First name"
+msgstr ""
+
+#: $string['searchsurname']
+msgid "Last name"
+msgstr ""
+
+#: $string['searchtag']
+msgid "Search tags"
+msgstr ""
+
+#: $string['searchwaitinglist']
+msgid "On waiting list"
+msgstr ""
+
+#: $string['select']
+msgid "Selection"
+msgstr ""
+
+#: $string['selectanoption']
+msgid "Please, select a booking option"
+msgstr ""
+
+#: $string['selectatleastoneuser']
+msgid "Please, select at least 1 user!"
+msgstr ""
+
+#: $string['selectcategory']
+msgid "Select category"
+msgstr ""
+
+#: $string['selectoptionid']
+msgid "Please, select option!"
+msgstr ""
+
+#: $string['selectoptioninotherbooking']
+msgid "Option"
+msgstr ""
+
+#: $string['selectpresencestatus']
+msgid "Choose presence status"
+msgstr ""
+
+#: $string['sendconfirmmail']
+msgid "Send confirmation e-mail"
+msgstr ""
+
+#: $string['sendconfirmmailtobookingmanger']
+msgid "Send confirmation e-mail to booking manager"
+msgstr ""
+
+#: $string['sendcustommessage']
+msgid "Send custom message"
+msgstr ""
+
+#: $string['sendmailtobooker']
+msgid ""
+"Book other users page: Send mail to user who books instead to users who are "
+"booked"
+msgstr ""
+
+#: $string['sendmailtobooker_help']
+msgid ""
+"Activate this option in order to send booking confirmation mails to the user "
+"who books other users instead to users, who have been added to a booking "
+"option. This is only relevant for bookings made on the page \"book other "
+"users\"."
+msgstr ""
+
+#: $string['sendpollurltoteachers']
+msgctxt "$string['sendpollurltoteachers']"
+msgid "Send poll url"
+msgstr ""
+
+#: $string['sendreminderemail']
+msgid "Send reminder e-mail"
+msgstr ""
+
+#: $string['sendreminderemailsuccess']
+msgid "Notification e-mail has been sent!"
+msgstr ""
+
+#: $string['shorturl']
+msgid "Short URL of this option"
+msgstr ""
+
+#: $string['showactive']
+msgid "Active bookings"
+msgstr ""
+
+#: $string['showallbookings']
+msgid "All bookings"
+msgstr ""
+
+#: $string['showcustomfields']
+msgctxt "$string['showcustomfields']"
+msgid "Custom booking option fields"
+msgstr ""
+
+#: $string['showcustomfields_desc']
+msgid ""
+"Select the custom booking option fields to be shown on the sign-in sheet"
+msgstr ""
+
+#: $string['showdescription']
+msgid "Show description"
+msgstr ""
+
+#: $string['showhelpfullnavigationlinks']
+msgid "Show navigation links."
+msgstr ""
+
+#: $string['showhelpfullnavigationlinks_helt']
+msgid "Show \"Go to registration\" and \"Go to top\" links."
+msgstr ""
+
+#: $string['showinapi']
+msgid "Show in API?"
+msgstr ""
+
+#: $string['showmybookingsonly']
+msgid "My bookings"
+msgstr ""
+
+#: $string['showonlymyinstitutions']
+msgid "My institution"
+msgstr ""
+
+#: $string['signature']
+msgctxt "$string['signature']"
+msgid "Signature"
+msgstr ""
+
+#: $string['signinaddemptyrows']
+msgid "Number of empty rows to add for people who did not sign up"
+msgstr ""
+
+#: $string['signincustfields']
+msgid "Custom profile fields"
+msgstr ""
+
+#: $string['signincustfields_desc']
+msgid "Select the custom profiles fields to be shown on the sign-in sheet"
+msgstr ""
+
+#: $string['signinextracols']
+msgid "Additional column"
+msgstr ""
+
+#: $string['signinextracols_desc']
+msgid ""
+"You can print up to 3 additional columns on the sign-in sheet. Fill in the "
+"column title or leave it blank for no additional column"
+msgstr ""
+
+#: $string['signinextracols_heading']
+msgid "Additional columns on the sign-in sheet"
+msgstr ""
+
+#: $string['signinlogo']
+msgid "Logo to display on the sign-in sheet"
+msgstr ""
+
+#: $string['signinlogofooter']
+msgid "Logo in footer to display on the sign-in sheet"
+msgstr ""
+
+#: $string['signinlogoheader']
+msgid "Logo in header to display on the sign-in sheet"
+msgstr ""
+
+#: $string['signinonesession']
+msgid "Display selected session time on the sign-in sheet"
+msgstr ""
+
+#: $string['sign_in_sheet_download']
+msgid "Download Sign in Sheet"
+msgstr ""
+
+#: $string['signinsheetfields']
+msgid "Sign-in sheet fields (PDF)"
+msgstr ""
+
+#: $string['spaceleft']
+msgid "space available"
+msgstr ""
+
+#: $string['spacesleft']
+msgid "spaces available"
+msgstr ""
+
+#: $string['startendtimeknown']
+msgid "Start and end time of course are known"
+msgstr ""
+
+#: $string['starttimenotset']
+msgid "Start date not set"
+msgstr ""
+
+#: $string['status_attending']
+msgid "Attending"
+msgstr ""
+
+#: $string['statuschangebookedmessage']
+msgid ""
+"Hello {$a->participant},\n"
+"\n"
+"Your booking status has changed. You are now registered in {$a->title}.\n"
+"\n"
+"Booking status: {$a->status}\n"
+"Participant:   {$a->participant}\n"
+"Course:   {$a->title}\n"
+"Date: {$a->startdate} {$a->starttime} - {$a->enddate} {$a->endtime}\n"
+"To view all your booked courses click on the following link: "
+"{$a->bookinglink}\n"
+"The associated course can be found here: {$a->courselink}"
+msgstr ""
+
+#: $string['statuschangebookedsubject']
+msgid "Booking status changed for {$a->title}"
+msgstr ""
+
+#: $string['statuschangetext']
+msgid "Status change message"
+msgstr ""
+
+#: $string['statuschangetext_help']
+msgctxt "$string['statuschangetext_help']"
+msgid ""
+"Leave this blank to use the site default text. You can use any of the "
+"following placeholders in the text:\n"
+"<ul>\n"
+"<li>{status}</li>\n"
+"<li>{participant}</li>\n"
+"<li>{email} - User email</li>\n"
+"<li>{title}</li>\n"
+"<li>{duration}</li>\n"
+"<li>{starttime}</li>\n"
+"<li>{endtime}</li>\n"
+"<li>{startdate}</li>\n"
+"<li>{enddate}</li>\n"
+"<li>{courselink}</li>\n"
+"<li>{bookinglink}</li>\n"
+"<li>{pollurl}</li>\n"
+"<li>{pollurlteachers}</li>\n"
+"<li>{location}</li>\n"
+"<li>{institution}</li>\n"
+"<li>{address}</li>\n"
+"<li>{eventtype}</li>\n"
+"<li>{teacher}</li>\n"
+"<li>{teacherN} - N is number of teacher ex. {teacher1}</li>\n"
+"<li>{pollstartdate}</li>\n"
+"<li>{qr_id} - Insert QR code with user id</li>\n"
+"<li>{qr_username} - Insert QR code with user username</li>\n"
+"<li>{times} - Session times</li>\n"
+"<li>{shorturl} - Short url ob option</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['status_complete']
+msgid "Complete"
+msgstr ""
+
+#: $string['status_failed']
+msgid "Failed"
+msgstr ""
+
+#: $string['status_incomplete']
+msgid "Incomplete"
+msgstr ""
+
+#: $string['status_noshow']
+msgid "No show"
+msgstr ""
+
+#: $string['status_unknown']
+msgid "Unknown"
+msgstr ""
+
+#: $string['submitandaddnew']
+msgid "Save and add new"
+msgstr ""
+
+#: $string['subscribersto']
+msgid "Teachers for '{$a}\\"
+msgstr ""
+
+#: $string['subscribetocourse']
+msgid "Enrol users in the course"
+msgstr ""
+
+#: $string['subscribeuser']
+msgid "Do you really want to enrol the users in the following course"
+msgstr ""
+
+#: $string['successfulldeleted']
+msgid "Category was deleted!"
+msgstr ""
+
+#: $string['successfulldeletedinstitution']
+msgid "Institution was deleted"
+msgstr ""
+
+#: $string['tagsuccessfullysaved']
+msgid "Tag was saved."
+msgstr ""
+
+#: $string['tagtag']
+msgid "Tag"
+msgstr ""
+
+#: $string['tagtemplates']
+msgid "Tag templates"
+msgstr ""
+
+#: $string['tagtext']
+msgid "Text"
+msgstr ""
+
+#: $string['taken']
+msgid "Taken"
+msgstr ""
+
+#: $string['teachers']
+msgid "Teachers"
+msgstr "Διδάσκοντες:"
+
+#: $string['textfield']
+msgid "Single line text input"
+msgstr ""
+
+#: $string['timecloseoption']
+msgid "Limit the availability of this booking option until a certain date"
+msgstr ""
+
+#: $string['timecreated']
+msgid "Time created"
+msgstr ""
+
+#: $string['timerestrict']
+msgid ""
+"Restrict answering to this time period: This is deprecated and will be "
+"removed. Please use \"Restrict Access\" settings for making the booking "
+"activity available for a certain period"
+msgstr ""
+
+#: $string['to']
+msgid "to"
+msgstr ""
+
+#: $string['toomuchusersbooked']
+msgid "The max number of users you can book is: {$a}"
+msgstr ""
+
+#: $string['topic']
+msgid "Topic"
+msgstr ""
+
+#: $string['transfer']
+msgid "Transfer"
+msgstr ""
+
+#: $string['transferheading']
+msgid "Transfer selected users to the selected booking option"
+msgstr ""
+
+#: $string['transferproblem']
+msgid ""
+"The following could not be transferred due to booking option limitation or "
+"user limitation: {$a}"
+msgstr ""
+
+#: $string['transfersuccess']
+msgid "The users have successfully been transferred to the new booking option"
+msgstr ""
+
+#: $string['unlimited']
+msgid "Number of available places is not limited"
+msgstr ""
+
+#: $string['updatebooking']
+msgid "Edit this booking option"
+msgstr ""
+
+#: $string['usedinbooking']
+msgid "You can't delete this category, because you're using it in booking!"
+msgstr ""
+
+#: $string['userdownload']
+msgid "Download users"
+msgstr ""
+
+#: $string['userid']
+msgid "UserID"
+msgstr ""
+
+#: $string['userleave']
+msgid "User has cancelled his/her own booking"
+msgstr ""
+
+#: $string['userleavebookedmessage']
+msgid ""
+"Hello {$a->participant},\n"
+"\n"
+"You have been unsubscribed from {$a->title}."
+msgstr ""
+
+#: $string['userleavebookedsubject']
+msgid "You successfully unsubscribed from {$a->title}"
+msgstr ""
+
+#: $string['userleave_help']
+msgctxt "$string['userleave_help']"
+msgid ""
+"Leave this blank to use the site default text. You can use any of the "
+"following placeholders in the text:\n"
+"<ul>\n"
+"<li>{status}</li>\n"
+"<li>{participant}</li>\n"
+"<li>{email} - User email</li>\n"
+"<li>{title}</li>\n"
+"<li>{duration}</li>\n"
+"<li>{starttime}</li>\n"
+"<li>{endtime}</li>\n"
+"<li>{startdate}</li>\n"
+"<li>{enddate}</li>\n"
+"<li>{courselink}</li>\n"
+"<li>{bookinglink}</li>\n"
+"<li>{pollurl}</li>\n"
+"<li>{pollurlteachers}</li>\n"
+"<li>{location}</li>\n"
+"<li>{institution}</li>\n"
+"<li>{address}</li>\n"
+"<li>{eventtype}</li>\n"
+"<li>{teacher}</li>\n"
+"<li>{teacherN} - N is number of teacher ex. {teacher1}</li>\n"
+"<li>{pollstartdate}</li>\n"
+"<li>{qr_id} - Insert QR code with user id</li>\n"
+"<li>{qr_username} - Insert QR code with user username</li>\n"
+"<li>{times} - Session times</li>\n"
+"<li>{shorturl} - Short url ob option</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['usernameofbookingmanager']
+msgid "Username of the booking manager"
+msgstr ""
+
+#: $string['usernameofbookingmanager_help']
+msgid ""
+"Username of the user who will be displayed in the \"From\" field of the "
+"confirmation notifications. If the option \"Send confirmation e-mail to "
+"booking manager\" is enabled, this is the user who receives a copy of the "
+"confirmation notifications."
+msgstr ""
+
+#: $string['users']
+msgid "<< Manage responses"
+msgstr ""
+
+#: $string['usersonlist']
+msgid "User on list"
+msgstr ""
+
+#: $string['userssuccessfullenrolled']
+msgid "All users have been enrolled!"
+msgstr ""
+
+#: $string['userssuccessfullybooked']
+msgid "All users have been booked to the other booking option."
+msgstr ""
+
+#: $string['userssuccessfullygetnewpresencestatus']
+msgid "All users have a new presence status."
+msgstr ""
+
+#: $string['userssucesfullygetnewpresencestatus']
+msgid "Presence status for selected users successfully updated"
+msgstr ""
+
+#: $string['viewallresponses']
+msgid "Manage {$a} responses"
+msgstr ""
+
+#: $string['waitinglist']
+msgid "Waiting list"
+msgstr ""
+
+#: $string['waitinglisttaken']
+msgid "On the waiting list"
+msgstr ""
+
+#: $string['waitinglistusers']
+msgid "Users on waiting list"
+msgstr ""
+
+#: $string['waitingplacesavailable']
+msgid ""
+"Waiting list places available: {$a->overbookingavailable} of "
+"{$a->maxoverbooking}"
+msgstr ""
+
+#: $string['waitingtext']
+msgid "Waiting list confirmation"
+msgstr ""
+
+#: $string['waitingtext_help']
+msgctxt "$string['waitingtext_help']"
+msgid ""
+"Leave this blank to use the site default text. You can use any of the "
+"following placeholders in the text:\n"
+"<ul>\n"
+"<li>{status}</li>\n"
+"<li>{participant}</li>\n"
+"<li>{email} - User email</li>\n"
+"<li>{title}</li>\n"
+"<li>{duration}</li>\n"
+"<li>{starttime}</li>\n"
+"<li>{endtime}</li>\n"
+"<li>{startdate}</li>\n"
+"<li>{enddate}</li>\n"
+"<li>{courselink}</li>\n"
+"<li>{bookinglink}</li>\n"
+"<li>{pollurl}</li>\n"
+"<li>{pollurlteachers}</li>\n"
+"<li>{location}</li>\n"
+"<li>{institution}</li>\n"
+"<li>{address}</li>\n"
+"<li>{eventtype}</li>\n"
+"<li>{teacher}</li>\n"
+"<li>{teacherN} - N is number of teacher ex. {teacher1}</li>\n"
+"<li>{pollstartdate}</li>\n"
+"<li>{qr_id} - Insert QR code with user id</li>\n"
+"<li>{qr_username} - Insert QR code with user username</li>\n"
+"<li>{times} - Session times</li>\n"
+"<li>{shorturl} - Short url ob option</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['waitspaceavailable']
+msgid "Places on waiting list available"
+msgstr ""
+
+#: $string['week']
+msgid "Week"
+msgstr ""
+
+#: $string['whichview']
+msgid "Default view for booking options"
+msgstr ""
+
+#: $string['withselected']
+msgid "With selected users:"
+msgstr ""
+
+#: $string['wrongdataallfields']
+msgid "Please, fill out all fields!"
+msgstr ""
+
+#: $string['wrongfile']
+msgid "Wrong file!"
+msgstr ""
+
+#: $string['yes']
+msgid "Yes"
+msgstr ""
+
+#: $string['yourselection']
+msgid "Your selection"
+msgstr ""

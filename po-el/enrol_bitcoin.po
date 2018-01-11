@@ -1,0 +1,228 @@
+#. extracted from lang/en/enrol_bitcoin.php, lang/el/enrol_bitcoin.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'enrol_bitcoin', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   enrol_bitcoin
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['apikey']
+msgid "Bitcoin API key"
+msgstr ""
+
+#: $string['apisecret']
+msgid "Bitcoin API secret key"
+msgstr ""
+
+#: $string['assignrole']
+msgid "Assign role"
+msgstr ""
+
+#: $string['bitcoin:config']
+msgid "Configure Bitcoin enrol instances"
+msgstr ""
+
+#: $string['bitcoin:manage']
+msgid "Manage enrolled users"
+msgstr ""
+
+#: $string['bitcoin:unenrol']
+msgid "Unenrol users from course"
+msgstr "Ακύρωση εγγραφής χρηστών στο μάθημα"
+
+#: $string['bitcoin:unenrolself']
+msgid "Unenrol self from the course"
+msgstr "Ακύρωση εγγραφής στο μάθημα"
+
+#: $string['BTC']
+msgctxt "$string['BTC']"
+msgid "Bitcoin"
+msgstr ""
+
+#: $string['checkproductionmode']
+msgid "Check for production mode"
+msgstr ""
+
+#: $string['clientid']
+msgid "Bitcoin Client ID"
+msgstr ""
+
+#: $string['clientsecret']
+msgid "Bitcoin Client secret"
+msgstr ""
+
+#: $string['cost']
+msgid "Enrol cost"
+msgstr ""
+
+#: $string['costerror']
+msgid "The enrolment cost is not numeric"
+msgstr ""
+
+#: $string['costorkey']
+msgid "Please choose one of the following methods of enrolment."
+msgstr ""
+
+#: $string['currency']
+msgid "Currency"
+msgstr ""
+
+#: $string['defaultrole']
+msgid "Default role assignment"
+msgstr ""
+
+#: $string['defaultrole_desc']
+msgid "Select role which should be assigned to users during Bitcoin enrolments"
+msgstr ""
+
+#: $string['EEK']
+msgid "Estonian Kroon"
+msgstr ""
+
+#: $string['enrolenddate']
+msgid "End date"
+msgstr ""
+
+#: $string['enrolenddate_help']
+msgid "If enabled, users can be enrolled until this date only."
+msgstr ""
+
+#: $string['enrolenddaterror']
+msgid "Enrolment end date cannot be earlier than start date"
+msgstr ""
+
+#: $string['enrolperiod']
+msgid "Enrolment duration"
+msgstr ""
+
+#: $string['enrolperiod_desc']
+msgid ""
+"Default length of time that the enrolment is valid. If set to zero, the "
+"enrolment duration will be unlimited by default."
+msgstr ""
+
+#: $string['enrolperiod_help']
+msgid ""
+"Length of time that the enrolment is valid, starting with the moment the "
+"user is enrolled. If disabled, the enrolment duration will be unlimited."
+msgstr ""
+
+#: $string['enrolstartdate']
+msgid "Start date"
+msgstr ""
+
+#: $string['enrolstartdate_help']
+msgid "If enabled, users can be enrolled from this date onward only."
+msgstr ""
+
+#: $string['expiredaction']
+msgid "Enrolment expiration action"
+msgstr ""
+
+#: $string['expiredaction_help']
+msgid ""
+"Select action to carry out when user enrolment expires. Please note that "
+"some user data and settings are purged from course during course "
+"unenrolment."
+msgstr ""
+"Επιλέξτε την ενέργεια που θα εκτελεστεί όταν λήξει η εγγραφή του χρήστη. "
+"Παρακαλώ σημειώστε ότι ορισμένα δεδομένα χρήστη και ρυθμίσεις εκκαθαρίζονται "
+"από το μάθημα κατά την ακύρωση εγγραφής στο μάθημα."
+
+#: $string['JEP']
+msgid "Jersey Pound"
+msgstr ""
+
+#: $string['mailadmins']
+msgid "Notify admin"
+msgstr ""
+
+#: $string['mailstudents']
+msgid "Notify students"
+msgstr ""
+
+#: $string['mailteachers']
+msgid "Notify teachers"
+msgstr ""
+
+#: $string['MTL']
+msgid "Maltese Lira"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Bitcoin"
+msgstr ""
+
+#: $string['pluginname_desc']
+msgid ""
+"The Bitcoin module allows you to set up paid courses.  If the cost for any "
+"course is zero, then students are not asked to pay for entry.  There is a "
+"site-wide cost that you set here as a default for the whole site and then a "
+"course setting that you can set for each course individually. The course "
+"cost overrides the site cost."
+msgstr ""
+
+#: $string['redirecturi']
+msgid "Bitcoin redirect/callback URL"
+msgstr ""
+
+#: $string['status']
+msgid "Allow Bitcoin enrolments"
+msgstr ""
+
+#: $string['status_desc']
+msgid "Allow users to use Bitcoin to enrol into a course by default."
+msgstr ""
+
+#: $string['TMM']
+msgid "Turkmenistan Manat"
+msgstr ""
+
+#: $string['unenrolselfconfirm']
+msgid "Do you really want to unenrol yourself from course \"{$a}\"?"
+msgstr ""
+"Είστε βεβαιοι ότι θέλετε να ακυρώσετε την εγγραφή σας στο μάθημα \"{$a}\";"
+
+#: $string['XAG']
+msgid "Ounces of Silver"
+msgstr ""
+
+#: $string['XAU']
+msgid "Ounces of Gold"
+msgstr ""
+
+#: $string['XDR']
+msgid "IMF Special Drawing Rights"
+msgstr ""
+
+#: $string['ZMW']
+msgid "Zambian Kwacha"
+msgstr ""

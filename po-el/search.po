@@ -1,0 +1,419 @@
+#. extracted from lang/en/search.php, lang/el/search.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'search', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   search
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['advancedsearch']
+msgid "Advanced search"
+msgstr "Σύνθετη αναζήτηση"
+
+#: $string['all']
+msgid "All"
+msgstr "Όλα"
+
+#: $string['allareas']
+msgid "All areas"
+msgstr ""
+
+#: $string['allcourses']
+msgid "All courses"
+msgstr ""
+
+#: $string['author']
+msgid "Author"
+msgstr "Συγγραφέας"
+
+#: $string['authorname']
+msgid "Author name"
+msgstr "Όνομα συγγραφέα"
+
+#: $string['back']
+msgid "Back"
+msgstr "Επιστροφή"
+
+#: $string['beadmin']
+msgid "You need to be an admin user to use this page."
+msgstr "Για να χρησιμοποιήσετε τη σελίδα αυτή πρέπει να είστε διαχειριστής."
+
+#: $string['checkdb']
+msgid "Check database"
+msgstr "Έλεγχος βάσης δεδομένων"
+
+#: $string['checkdbadvice']
+msgid "Check your database for any problems."
+msgstr "Ελέξτε αν η βάση δεδομένων έχει κάποιο πρόβλημα."
+
+#: $string['checkdir']
+msgid "Check dir"
+msgstr "Έλεγχος καταλόγων"
+
+#: $string['checkdiradvice']
+msgid "Ensure the data directory exists and is writable."
+msgstr ""
+"Βεβαιωθείτε ότι ο κατάλογος δεδομένων υπάρχει και η εγγραφή σε αυτόν "
+"επιτρέπεται."
+
+#: $string['commenton']
+msgid "Comment on"
+msgstr "Σχολιασμός του"
+
+#: $string['createanindex']
+msgid "create an index"
+msgstr "δημιουργία ευρετηρίου"
+
+#: $string['createdon']
+msgid "Created on"
+msgstr "Δημιουργήθηκε την"
+
+#: $string['database']
+msgid "Database"
+msgstr "Βάση δεδομένων"
+
+#: $string['databasestate']
+msgid "Indexing database state"
+msgstr "Δημιουργείται ευρετήριο της βάσης δεδομένων"
+
+#: $string['datadirectory']
+msgid "Data directory"
+msgstr "Κατάλογος δεδομένων"
+
+#: $string['deleteindex']
+msgid "Delete index {$a}"
+msgstr ""
+
+#: $string['deletionsinindex']
+msgid "Deletions in index"
+msgstr "Διαγραφές στο ευρετήριο"
+
+#: $string['docmodifiedon']
+msgid "Last modified on {$a}"
+msgstr ""
+
+#: $string['doctype']
+msgid "Doctype"
+msgstr "Τύπος εγγράφου"
+
+#: $string['doctypenotsupported']
+msgid "The specified doc type is not yet supported"
+msgstr ""
+
+#: $string['documents']
+msgid "documents"
+msgstr "έγγραφα"
+
+#: $string['documentsfor']
+msgid "Documents for"
+msgstr "Έγγραφα για"
+
+#: $string['documentsindatabase']
+msgid "Documents in database"
+msgstr "Έγγραφα στη βάση δεδομένων"
+
+#: $string['documentsinindex']
+msgid "Documents in index"
+msgstr "Έγγραφα στο ευρετήριο"
+
+#: $string['duration']
+msgid "Duration"
+msgstr "Διάρκεια"
+
+#: $string['emptydatabaseerror']
+msgid "Database table is not present, or contains no index records."
+msgstr ""
+"Ο πίνακας της βάσης δεδομένων δεν υπάρχει ή δεν περιέχει εγγραφές "
+"ευρετηρίου."
+
+#: $string['enginenotfound']
+msgid "Engine {$a} not found."
+msgstr "Αδυναμία εύρεσης μηχανισμού {$a}"
+
+#: $string['enginenotinstalled']
+msgid "Engine {$a} is not installed."
+msgstr ""
+
+#: $string['enginenotselected']
+msgid "You have not selected any search engine."
+msgstr ""
+
+#: $string['engineserverstatus']
+msgid "The search engine is not available. Please contact your administrator."
+msgstr ""
+
+#: $string['enteryoursearchquery']
+msgid "Enter your search query"
+msgstr "Δώστε τους όρους για έρευνα"
+
+#: $string['errorareanotavailable']
+msgid "{$a} search area is not available."
+msgstr ""
+
+#: $string['errors']
+msgid "Errors"
+msgstr "Σφάλματα"
+
+#: $string['everywhere']
+msgid "Everywhere you can access"
+msgstr ""
+
+#: $string['filesinindexdirectory']
+msgid "Files in index directory"
+msgstr "Αρχεία στον κατάλογο ευρετηρίου"
+
+#: $string['filterheader']
+msgid "Filter"
+msgstr ""
+
+#: $string['fromtime']
+msgid "Modified after"
+msgstr ""
+
+#: $string['globalsearch']
+msgid "Global search"
+msgstr "Καθολική αναζήτηση"
+
+#: $string['globalsearchdisabled']
+msgid "Global searching is not enabled."
+msgstr "Η καθολική έρευνα δεν είναι ενεργοποιημένη."
+
+#: $string['gradualreindex']
+msgid "Gradual reindex {$a}"
+msgstr ""
+
+#: $string['gradualreindex_confirm']
+msgid ""
+"Are you sure you want to reindex {$a}? This may take some time, although "
+"existing data will remain available during the reindex."
+msgstr ""
+
+#: $string['gradualreindex_queued']
+msgid ""
+"Reindexing has been requested for {$a->name} ({$a->count} contexts). This "
+"indexing will be carried out by the &lsquo;Global search indexing&rsquo; "
+"scheduled task."
+msgstr ""
+
+#: $string['incourse']
+msgid "in course {$a}"
+msgstr ""
+
+#: $string['index']
+msgid "Index"
+msgstr ""
+
+#: $string['invalidindexerror']
+msgid "Index directory either contains an invalid index, or nothing at all."
+msgstr "Ο κατάλογος ευρετηρίου περιέχει εσφαλμένα ή καθόλου δεδομένα."
+
+#: $string['ittook']
+msgid "It took"
+msgstr "Χρειάστηκαν"
+
+#: $string['matchingfile']
+msgid "Matched from file <span class=\"filename\">{$a}</span>"
+msgstr ""
+
+#: $string['matchingfiles']
+msgid "Matched from files:"
+msgstr ""
+
+#: $string['next']
+msgid "Next"
+msgstr "Επόμενο"
+
+#: $string['noindexmessage']
+msgid "Admin: There appears to be no search index. Please"
+msgstr "Διαχειριστές: Φαίνεται πως δεν υπάρχει ευρετήριο. Παρακαλώ"
+
+#: $string['noresults']
+msgid "No results"
+msgstr ""
+
+#: $string['normalsearch']
+msgid "Normal search"
+msgstr "Κανονική έρευνα"
+
+#: $string['notitle']
+msgid "No title"
+msgstr ""
+
+#: $string['openedon']
+msgid "opened on"
+msgstr "ανοίχτηκε στις"
+
+#: $string['optimize']
+msgid "Optimize"
+msgstr ""
+
+#: $string['priority']
+msgid "Priority"
+msgstr ""
+
+#: $string['priority_normal']
+msgid "Normal"
+msgstr ""
+
+#: $string['priority_reindexing']
+msgid "Reindexing"
+msgstr ""
+
+#: $string['progress']
+msgid "Progress"
+msgstr ""
+
+#: $string['queryerror']
+msgid "The query you provided could not be parsed by the search engine: {$a}"
+msgstr ""
+
+#: $string['queueheading']
+msgid "Additional indexing queue ({$a} items)"
+msgstr ""
+
+#: $string['resultsreturnedfor']
+msgid "results returned for"
+msgstr "αποτελέσματα βρέθηκαν για"
+
+#: $string['runindexer']
+msgid "Run indexer (real)"
+msgstr "Δημιουργία ευρετηρίου"
+
+#: $string['runindexertest']
+msgid "Run indexer test"
+msgstr "Δημιουργία ευρετηρίου (δοκιμή)"
+
+#: $string['score']
+msgid "Score"
+msgstr "Βαθμολογία"
+
+#: $string['search']
+msgid "Search"
+msgstr "Έρευνα"
+
+#: $string['searcharea']
+msgid "Search area"
+msgstr ""
+
+#: $string['searching']
+msgid "Searching in ..."
+msgstr "Γίνεται έρευνα στο..."
+
+#: $string['search:message_received']
+msgid "Messages - received"
+msgstr ""
+
+#: $string['search:message_sent']
+msgid "Messages - sent"
+msgstr ""
+
+#: $string['search:mycourse']
+msgid "My courses"
+msgstr ""
+
+#: $string['searchnotpermitted']
+msgid "You are not allowed to do a search"
+msgstr ""
+
+#: $string['searchsetupdescription']
+msgid "The following steps help you to set up Moodle global search."
+msgstr ""
+
+#: $string['search:user']
+msgid "Users"
+msgstr ""
+
+#: $string['searchwithin']
+msgid "Search within"
+msgstr ""
+
+#: $string['seconds']
+msgid "seconds"
+msgstr "δευτερόλεπτα"
+
+#: $string['solutions']
+msgid "Solutions"
+msgstr "Λύσεις"
+
+#: $string['statistics']
+msgid "Statistics"
+msgstr "Στατιστικά"
+
+#: $string['step']
+msgid "Step"
+msgstr ""
+
+#: $string['thesewordshelpimproverank']
+msgid "These words help improve rank"
+msgstr "Οι παρακάτω λέξεις έχουν μεγαλύτερη προτεραιότητα"
+
+#: $string['thesewordsmustappear']
+msgid "These words must appear"
+msgstr "Οι παρακάτω λέξεις πρέπει να εμφανίζονται"
+
+#: $string['thesewordsmustnotappear']
+msgid "These words must not appear"
+msgstr "Οι παρακάτω λέξεις πρέπει να μην εμφανίζονται"
+
+#: $string['title']
+msgid "Title"
+msgstr "Τίτλος"
+
+#: $string['tofetchtheseresults']
+msgid "to fetch these results"
+msgstr "για την εύρεση αυτών των αποτελεσμάτων"
+
+#: $string['totalsize']
+msgid "Total size"
+msgstr "Συνολικό Μέγεθος"
+
+#: $string['totime']
+msgid "Modified before"
+msgstr ""
+
+#: $string['type']
+msgid "Type"
+msgstr "Τύπος"
+
+#: $string['uncompleteindexingerror']
+msgid "Indexing was not successfully completed, please restart it."
+msgstr "Η δημιουργία ευρετηρίου δεν ολοκληρώθηκε, παρακαλώ εκκινήστε την ξανά."
+
+#: $string['versiontoolow']
+msgid "Sorry, global search requires PHP 5.0.0 or later"
+msgstr "Η καθολική έρευνα απαιτεί PHP έκδοση 5.0.0 ή επόμενη"
+
+#: $string['viewresultincontext']
+msgid "View this result in context"
+msgstr ""
+
+#: $string['wordsintitle']
+msgid "Words in title"
+msgstr "Λέξεις στον τίτλο"

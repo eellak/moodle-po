@@ -1,0 +1,76 @@
+#. extracted from lang/en/mlbackend_php.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'mlbackend_php', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   mlbackend_php
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['datasetsizelimited']
+msgid ""
+"Only part of the dataset has been evaluated due to its size. Set "
+"$CFG->mlbackend_php_no_memory_limit if you are confident that your system "
+"can cope with a {$a} dataset."
+msgstr ""
+
+#: $string['errorcantloadmodel']
+msgid ""
+"Model file {$a} does not exist. The model should been trained before using "
+"it to predict."
+msgstr ""
+
+#: $string['errorlowscore']
+msgid ""
+"The evaluated model prediction accuracy is not very high, so some "
+"predictions may not be accurate. Model score = {$a->score}, minimum score = "
+"{$a->minscore}"
+msgstr ""
+
+#: $string['errornotenoughdata']
+msgid ""
+"There is not enough data to evaluate this model using the time-splitting "
+"method."
+msgstr ""
+
+#: $string['errornotenoughdatadev']
+msgid ""
+"The evaluation results varied too much. It is recommended that more data is "
+"gathered to ensure the model is valid. Evaluation results standard deviation "
+"= {$a->deviation}, maximum recommended standard deviation = "
+"{$a->accepteddeviation}"
+msgstr ""
+
+#: $string['errorphp7required']
+msgid "The PHP machine learning backend requires PHP 7"
+msgstr ""
+
+#: $string['pluginname']
+msgid "PHP machine learning backend"
+msgstr ""

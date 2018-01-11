@@ -1,0 +1,215 @@
+#. extracted from lang/en/qtype_jme.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qtype_jme', language 'en', branch 'MOODLE_29_STABLE'
+#.  *
+#.  * @package   qtype_jme
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addmoreanswerblanks']
+msgid "Blanks for {no} More Answers"
+msgstr ""
+
+#: $string['answer']
+msgid "Answer: {$a}"
+msgstr ""
+
+#: $string['answermustbegiven']
+msgid "You must enter an answer if there is a grade or feedback."
+msgstr ""
+
+#: $string['answerno']
+msgid "Answer {$a}"
+msgstr ""
+
+#: $string['author']
+msgid "by Peter Ertl and Bruno Bienfait"
+msgstr ""
+
+#: $string['configjmeoptions']
+msgid ""
+"Comma separated list of JSME applet options (see <a "
+"href=\"http://www.molinspiration.com/jme/doc/jme_functions.html\">list of "
+"available options</a>)"
+msgstr ""
+
+#: $string['correctansweris']
+msgid "The correct answer is: {$a}."
+msgstr ""
+
+#: $string['correctanswers']
+msgid "Correct answers"
+msgstr ""
+
+#: $string['enablejava']
+msgid ""
+"Tried but failed to load JME editor. You have not got a JAVA runtime "
+"environment working in your browser. You will need one to attempt this "
+"question."
+msgstr ""
+
+#: $string['enablejavaandjavascript']
+msgid ""
+"Loading JME editor.... If this message does not get replaced by the JME "
+"editor then you have not got javascript and a JAVA runtime environment "
+"working in your browser."
+msgstr ""
+
+#: $string['enablejavascript']
+msgid ""
+"Loading JME editor.... If this message does not get replaced by the JSME "
+"editor then you have not got javascript working in your browser."
+msgstr ""
+
+#: $string['filloutanswers']
+msgid ""
+"Use the JavaScript Molecular editor to create the answers, then press the "
+"\"Insert from editor\" buttons to insert the SMILES code into the answer boxes"
+msgstr ""
+
+#: $string['filloutoneanswer']
+msgid ""
+"Use the Javascript Molecular editor to create the answer, then press the "
+"\"Insert from editor\" button to insert the SMILES code into the answer box"
+msgstr ""
+
+#: $string['height']
+msgid "Height"
+msgstr ""
+
+#: $string['insert']
+msgctxt "$string['insert']"
+msgid "Insert from editor"
+msgstr ""
+
+#: $string['insertfromeditor']
+msgctxt "$string['insertfromeditor']"
+msgid "Insert from editor"
+msgstr ""
+
+#: $string['jmeeditor']
+msgid "JSME Editor"
+msgstr ""
+
+#: $string['jmeoptions']
+msgctxt "$string['jmeoptions']"
+msgid "JSME Applet options"
+msgstr ""
+
+#: $string['jme_options']
+msgctxt "$string['jme_options']"
+msgid "JSME Applet options"
+msgstr ""
+
+#: $string['jmeoptions_help']
+msgid ""
+"Enter a comma separated list of JSME applet options:<ul>\n"
+"<li><strong>xbutton, noxbutton</strong> - show / hide the X button (even "
+"when not visible the X button functionality is accessible through the X and "
+"H key shortcuts</li>\n"
+"<li><strong>rbutton, norbutton</strong> - show / hide the R button (to mark "
+"connection of substituent with the main scaffold)</li>\n"
+"<!--r1button, r2button, r3button - show buttons with R1, R2 and R3 (useful "
+"for creation of scaffolds for combinatorial chemistry)<br>-->\n"
+"<li><strong>atommovebutton, noatommovebutton</strong> - show / hide the atom "
+"move button</li>\n"
+"<li><strong>hydrogens, nohydrogens</strong> - display / hide hydrogens</li>\n"
+"<li><strong>query, noquery</strong> - enable / disable query features</li>\n"
+"<li><strong>autoez, noautoez</strong> - automatic generation of SMILES with "
+"E,Z stereochemistry</li>\n"
+"<li><strong>nocanonize</strong> - SMILES canonicalization and detection of "
+"aromaticity supressed</li>\n"
+"<li><strong>nostereo</strong> - stereochemistry not considered when creating "
+"SMILES</li>\n"
+"<li><strong>reaction, noreaction</strong> - enable / disable reaction "
+"input</li>\n"
+"<li><strong>multipart</strong> - possibility to enter multipart "
+"structures</li>\n"
+"<li><strong>polarnitro</strong> - prevent automatic conversion of nitro (and "
+"similar) groups into nonpolar form</li>\n"
+"<li><strong>number/ autonumber</strong> - possibility to number (mark) "
+"atoms</li>\n"
+"<li><strong>depict</strong> - the applet will appear without editing butons, "
+"this is used for structure display only</li>\n"
+"<li><strong>border</strong> (used together with the depict option) - "
+"displays a border around depicted molecule</li>\n"
+"<li><strong>newlook, oldlook</strong> - turn on/off the old Java based JME "
+"look (default is off)</li></ul>"
+msgstr ""
+
+#: $string['notenoughanswers']
+msgid "This type of question requires at least {$a} answers"
+msgstr ""
+
+#: $string['pleaseenterananswer']
+msgid "Please enter an answer."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Javascript Molecular Editor"
+msgstr ""
+
+#: $string['pluginnameadding']
+msgid "Adding a JavaScript Molecular Editor question"
+msgstr ""
+
+#: $string['pluginnameediting']
+msgid "Editing a Javascript Molecular Editor question"
+msgstr ""
+
+#: $string['pluginname_help']
+msgctxt "$string['pluginname_help']"
+msgid ""
+"Allows a response of a molecule that is graded by comparing against various "
+"model answers."
+msgstr ""
+
+#: $string['pluginname_link']
+msgid "question/type/jme"
+msgstr ""
+
+#: $string['pluginnamesummary']
+msgctxt "$string['pluginnamesummary']"
+msgid ""
+"Allows a response of a molecule that is graded by comparing against various "
+"model answers."
+msgstr ""
+
+#: $string['setoptions']
+msgid "Set JSME options"
+msgstr ""
+
+#: $string['width']
+msgid "width"
+msgstr ""
+
+#: $string['youranswer']
+msgid "Your answer: {$a}"
+msgstr ""

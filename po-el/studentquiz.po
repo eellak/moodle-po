@@ -1,0 +1,1158 @@
+#. extracted from lang/en/studentquiz.php, lang/el/studentquiz.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:14+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'studentquiz', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   studentquiz
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['add_comment']
+msgid "Add comment"
+msgstr ""
+
+#: $string['approve']
+msgid "Approve"
+msgstr ""
+
+#: $string['approved']
+msgctxt "$string['approved']"
+msgid "✓"
+msgstr ""
+
+#: $string['approved_column_name']
+msgctxt "$string['approved_column_name']"
+msgid "Approved"
+msgstr ""
+
+#: $string['approveselectedscheck']
+msgid ""
+"Are you sure you want to un-/approve the following questions?<br /><br "
+"/>{$a}"
+msgstr ""
+
+#: $string['approve_toggle']
+msgid "Un/Approve"
+msgstr ""
+
+#: $string['average_column_name']
+msgid "Average"
+msgstr ""
+
+#: $string['comment_column_name']
+msgctxt "$string['comment_column_name']"
+msgid "Comments"
+msgstr ""
+
+#: $string['comment_help']
+msgid "Write a comment"
+msgstr ""
+
+#: $string['comment_help_help']
+msgid "Write a comment to the question"
+msgstr ""
+
+#: $string['createnewquestion']
+msgid "Create new question"
+msgstr ""
+
+#: $string['createnewquestionfirst']
+msgid "Create first question"
+msgstr ""
+
+#: $string['creator_anonym_firstname']
+msgid "Anonymous"
+msgstr ""
+
+#: $string['creator_anonym_lastname']
+msgid "Student"
+msgstr ""
+
+#: $string['difficulty_all_column_name']
+msgid "Community Difficulty"
+msgstr ""
+
+#: $string['difficulty_level_column_name']
+msgctxt "$string['difficulty_level_column_name']"
+msgid "Difficulty"
+msgstr ""
+
+#: $string['emailapprovedbody']
+msgid ""
+"Dear {$a->recepientname},\n"
+"\n"
+"Your question '{$a->questionname}' in course '{$a->coursename}' in "
+"StudentQuiz activity '{$a->modulename}' has been approved by "
+"'{$a->actorname}' at '{$a->timestamp}'.\n"
+"\n"
+"You can review this question at: {$a->questionurl}."
+msgstr ""
+
+#: $string['emailapprovedsmall']
+msgid ""
+"Your question '{$a->questionname}' has been approved by {$a->actorname}."
+msgstr ""
+
+#: $string['emailapprovedsubject']
+msgid "Question has been approved: {$a->questionname}"
+msgstr ""
+
+#: $string['emailchangedbody']
+msgid ""
+"Dear {$a->recepientname},\n"
+"\n"
+"Your question '{$a->questionname}' in course '{$a->coursename}' in "
+"StudentQuiz activity '{$a->modulename}' has been modified by "
+"'{$a->actorname}' at '{$a->timestamp}'.\n"
+"\n"
+"You can review this question at: {$a->questionurl}."
+msgstr ""
+
+#: $string['emailchangedsmall']
+msgid ""
+"Your question '{$a->questionname}' has been modified by {$a->actorname}."
+msgstr ""
+
+#: $string['emailchangedsubject']
+msgid "Question has been modified: {$a->questionname}"
+msgstr ""
+
+#: $string['emailcommentaddedbody']
+msgid ""
+"Dear {$a->recepientname},\n"
+"\n"
+"Your question '{$a->questionname}' in StudentQuiz activity "
+"'{$a->modulename}' in course '{$a->coursename}' has been commented by "
+"'{$a->actorname}' at '{$a->timestamp}'.\n"
+"\n"
+"The comment is: '{$a->commenttext}'\n"
+"\n"
+"You can review this question at: {$a->questionurl}."
+msgstr ""
+
+#: $string['emailcommentaddedsmall']
+msgid ""
+"Your question '{$a->questionname}' has been commented by {$a->username}."
+msgstr ""
+
+#: $string['emailcommentaddedsubject']
+msgid "Question has been commented: {$a->questionname}"
+msgstr ""
+
+#: $string['emailcommentdeletedbody']
+msgid ""
+"Dear {$a->recepientname},\n"
+"\n"
+"The comment on '{$a->commenttime}' to your question '{$a->questionname}' in "
+"StudentQuiz activity '{$a->modulename}' in course '{$a->coursename}' has "
+"been deleted by '{$a->actorname}' at '{$a->timestamp}'.\n"
+"\n"
+"The comment was: '{$a->commenttext}'\n"
+"\n"
+"You can review this question at: {$a->questionurl}."
+msgstr ""
+
+#: $string['emailcommentdeletedsmall']
+msgid ""
+"The comment to your question '{$a->questionname}' has been deleted by "
+"{$a->actorname}."
+msgstr ""
+
+#: $string['emailcommentdeletedsubject']
+msgctxt "$string['emailcommentdeletedsubject']"
+msgid "Comment has been deleted to question: {$a->questionname}"
+msgstr ""
+
+#: $string['emaildeletedbody']
+msgid ""
+"Dear {$a->recepientname},\n"
+"\n"
+"Your question '{$a->questionname}' in StudentQuiz activity "
+"'{$a->modulename}' in course '{$a->coursename}' has been deleted by "
+"'{$a->actorname}' at '{$a->timestamp}'."
+msgstr ""
+
+#: $string['emaildeletedsmall']
+msgid "Your question '{$a->questionname}' has been deleted by {$a->actorname}."
+msgstr ""
+
+#: $string['emaildeletedsubject']
+msgid "Question has been deleted: {$a->questionname}"
+msgstr ""
+
+#: $string['emailminecommentdeletedbody']
+msgid ""
+"Dear {$a->recepientname},\n"
+"\n"
+"Your comment on '{$a->commenttime}' to the question '{$a->questionname}' in "
+"StudentQuiz activity '{$a->modulename}' in course '{$a->coursename}' has "
+"been deleted by '{$a->actorname}' at '{$a->timestamp}'.\n"
+"\n"
+"The comment was: '{$a->commenttext}'\n"
+"\n"
+"You can review this question at: {$a->questionurl}."
+msgstr ""
+
+#: $string['emailminecommentdeletedsmall']
+msgid ""
+"Your comment to question '{$a->questionname}' has been deleted by "
+"{$a->actorname}."
+msgstr ""
+
+#: $string['emailminecommentdeletedsubject']
+msgctxt "$string['emailminecommentdeletedsubject']"
+msgid "Comment has been deleted to question: {$a->questionname}"
+msgstr ""
+
+#: $string['emailunapprovedbody']
+msgid ""
+"Dear {$a->recepientname},\n"
+"\n"
+"The approval of your question '{$a->questionname}' in StudentQuiz activity "
+"'{$a->modulename}' in course '{$a->coursename}' has been revoked by "
+"'{$a->actorname}' at '{$a->timestamp}'.\n"
+"\n"
+"You can review this question at: {$a->questionurl}."
+msgstr ""
+
+#: $string['emailunapprovedsmall']
+msgid ""
+"The approval of your question '{$a->questionname}' has been revoked by "
+"{$a->actorname}."
+msgstr ""
+
+#: $string['emailunapprovedsubject']
+msgid "Question approval has been revoked: {$a->questionname}"
+msgstr ""
+
+#: $string['filter']
+msgid "Filter"
+msgstr ""
+
+#: $string['filter_ishigher']
+msgid "Is higher"
+msgstr ""
+
+#: $string['filter_islower']
+msgid "Is lower"
+msgstr ""
+
+#: $string['filter_label_approved']
+msgid "Approved questions"
+msgstr ""
+
+#: $string['filter_label_comment']
+msgctxt "$string['filter_label_comment']"
+msgid "Comments"
+msgstr ""
+
+#: $string['filter_label_createdate']
+msgid "Creation"
+msgstr ""
+
+#: $string['filter_label_difficulty_level']
+msgctxt "$string['filter_label_difficulty_level']"
+msgid "Difficulty"
+msgstr ""
+
+#: $string['filter_label_fast_filters']
+msgid "Fast filter for questions"
+msgstr ""
+
+#: $string['filter_label_firstname']
+msgid "Firstname"
+msgstr ""
+
+#: $string['filter_label_myattempts']
+msgid "My attempts"
+msgstr ""
+
+#: $string['filter_label_mydifficulty']
+msgid "My difficulty"
+msgstr ""
+
+#: $string['filter_label_mylastattempt']
+msgid "My latest attempt"
+msgstr ""
+
+#: $string['filter_label_myrate']
+msgctxt "$string['filter_label_myrate']"
+msgid "My Rating"
+msgstr ""
+
+#: $string['filter_label_onlyapproved']
+msgctxt "$string['filter_label_onlyapproved']"
+msgid "Approved"
+msgstr ""
+
+#: $string['filter_label_onlyapproved_help']
+msgid "Questions approved by your teacher"
+msgstr ""
+
+#: $string['filter_label_onlydifficult']
+msgid "Difficult for all"
+msgstr ""
+
+#: $string['filter_label_onlydifficultforme']
+msgid "Difficult for me"
+msgstr ""
+
+#: $string['filter_label_onlydifficultforme_help']
+msgid "Question with my difficulty of more than {$a}%"
+msgstr ""
+
+#: $string['filter_label_onlydifficult_help']
+msgid "Question with an average difficulty of more than {$a}%"
+msgstr ""
+
+#: $string['filter_label_onlygood']
+msgid "Good"
+msgstr ""
+
+#: $string['filter_label_onlygood_help']
+msgid "Question with an average rating of at at least {$a} stars"
+msgstr ""
+
+#: $string['filter_label_onlymine']
+msgctxt "$string['filter_label_onlymine']"
+msgid "Mine"
+msgstr ""
+
+#: $string['filter_label_onlymine_help']
+msgid "Questions you created."
+msgstr ""
+
+#: $string['filter_label_onlynew']
+msgid "Unanswered"
+msgstr ""
+
+#: $string['filter_label_onlynew_help']
+msgid "Questions you have never answered before"
+msgstr ""
+
+#: $string['filter_label_practice']
+msgctxt "$string['filter_label_practice']"
+msgid "Attempts"
+msgstr ""
+
+#: $string['filter_label_question']
+msgid "Question title"
+msgstr ""
+
+#: $string['filter_label_questiontext']
+msgid "Question content"
+msgstr ""
+
+#: $string['filter_label_rates']
+msgctxt "$string['filter_label_rates']"
+msgid "Rating"
+msgstr ""
+
+#: $string['filter_label_show_mine']
+msgid "My questions"
+msgstr ""
+
+#: $string['filter_label_surname']
+msgid "Lastname"
+msgstr ""
+
+#: $string['filter_label_tags']
+msgid "Tag"
+msgstr ""
+
+#: $string['finish_button']
+msgid "Finish"
+msgstr ""
+
+#: $string['lastattempt_right']
+msgctxt "$string['lastattempt_right']"
+msgid "✓"
+msgstr ""
+
+#: $string['lastattempt_wrong']
+msgctxt "$string['lastattempt_wrong']"
+msgid "✗"
+msgstr ""
+
+#: $string['latest_column_name']
+msgid "Latest"
+msgstr ""
+
+#: $string['messageprovider:approved']
+msgctxt "$string['messageprovider:approved']"
+msgid "Question approved notification"
+msgstr ""
+
+#: $string['messageprovider:changed']
+msgctxt "$string['messageprovider:changed']"
+msgid "Question changed notification"
+msgstr ""
+
+#: $string['messageprovider:commentadded']
+msgctxt "$string['messageprovider:commentadded']"
+msgid "Comment added notification"
+msgstr ""
+
+#: $string['messageprovider:commentdeleted']
+msgctxt "$string['messageprovider:commentdeleted']"
+msgid "Comment deleted notification"
+msgstr ""
+
+#: $string['messageprovider:deleted']
+msgctxt "$string['messageprovider:deleted']"
+msgid "Question deleted notification"
+msgstr ""
+
+#: $string['messageprovider:minecommentdeleted']
+msgid "My comment deleted notification"
+msgstr ""
+
+#: $string['messageprovider:unapproved']
+msgid "Question unapproved notification"
+msgstr ""
+
+#: $string['mine_column_name']
+msgctxt "$string['mine_column_name']"
+msgid "Mine"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "StudentQuiz"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"The StudentQuiz activity allows students to add questions for the crowd. In "
+"the StudentQuiz overview the students can filter questions. They also can "
+"use the filtered questions in the crowd to practice. The teacher has an "
+"option to anonymize the created by column.<br><br>The StudentQuiz activity "
+"awards the students with points to motivate them to add and practice. The "
+"Points are listed in a ranking table.<br><br>For more information read the "
+"<a href=\"https://github.com/frankkoch/moodle-"
+"mod_studentquiz/blob/master/manuals/User-Manual.pdf\">student manual</a>."
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "StudentQuizzes"
+msgstr ""
+
+#: $string['myattempts_column_name']
+msgid "My Attempts"
+msgstr ""
+
+#: $string['mydifficulty_column_name']
+msgid "My Difficulty"
+msgstr ""
+
+#: $string['mylastattempt_column_name']
+msgid "My Last Attempt"
+msgstr ""
+
+#: $string['myrate_column_name']
+msgctxt "$string['myrate_column_name']"
+msgid "My Rating"
+msgstr ""
+
+#: $string['nav_export']
+msgid "Export"
+msgstr "Εξαγωγή"
+
+#: $string['nav_import']
+msgid "Import"
+msgstr ""
+
+#: $string['needtoallowatleastoneqtype']
+msgid "You need to allow at least one question type"
+msgstr ""
+
+#: $string['next_button']
+msgid "Next"
+msgstr ""
+
+#: $string['no_comment']
+msgctxt "$string['no_comment']"
+msgid "n.a."
+msgstr ""
+
+#: $string['no_comments']
+msgid "No comments"
+msgstr ""
+
+#: $string['no_difficulty_level']
+msgctxt "$string['no_difficulty_level']"
+msgid "n.a."
+msgstr ""
+
+#: $string['no_myattempts']
+msgctxt "$string['no_myattempts']"
+msgid "n.a."
+msgstr ""
+
+#: $string['no_mydifficulty']
+msgctxt "$string['no_mydifficulty']"
+msgid "n.a."
+msgstr ""
+
+#: $string['no_mylastattempt']
+msgctxt "$string['no_mylastattempt']"
+msgid "n.a."
+msgstr ""
+
+#: $string['no_myrate']
+msgctxt "$string['no_myrate']"
+msgid "n.a."
+msgstr ""
+
+#: $string['no_practice']
+msgctxt "$string['no_practice']"
+msgid "n.a."
+msgstr ""
+
+#: $string['no_questions_add']
+msgid ""
+"There are no questions in this StudentQuiz. Feel free to add some questions."
+msgstr ""
+
+#: $string['no_questions_filter']
+msgid ""
+"None of the questions matched your filter criteria. Reset the filter to see "
+"all."
+msgstr ""
+
+#: $string['no_questions_selected_message']
+msgid "Please select at least one question to start the quiz."
+msgstr ""
+
+#: $string['no_rates']
+msgctxt "$string['no_rates']"
+msgid "n.a."
+msgstr ""
+
+#: $string['no_tags']
+msgctxt "$string['no_tags']"
+msgid "n.a."
+msgstr ""
+
+#: $string['not_approved']
+msgctxt "$string['not_approved']"
+msgid "✗"
+msgstr ""
+
+#: $string['number_column_name']
+msgid "Number"
+msgstr ""
+
+#: $string['pagesize']
+msgid "Page size:"
+msgstr ""
+
+#: $string['please_enrole_message']
+msgid "Please enroll in this course to see your personal progress"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "StudentQuiz Administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "StudentQuiz"
+msgstr ""
+
+#: $string['practice_column_name']
+msgctxt "$string['practice_column_name']"
+msgid "Attempts"
+msgstr ""
+
+#: $string['previous_button']
+msgid "Previous"
+msgstr ""
+
+#: $string['progress_bar_caption']
+msgid "Your progress in this StudentQuiz activity"
+msgstr ""
+
+#: $string['questions']
+msgid "questions"
+msgstr ""
+
+#: $string['questionsinuse']
+msgid "(* Questions marked by an asterisk are already in use in some quizzes.)"
+msgstr ""
+
+#: $string['ranking_block_title']
+msgctxt "$string['ranking_block_title']"
+msgid "Ranking"
+msgstr ""
+
+#: $string['rankingsettingsdescription']
+msgid ""
+"The values you set here define the ranking default values that are used in "
+"the settings form when you create a new studentquiz."
+msgstr ""
+
+#: $string['rankingsettingsheader']
+msgid "Ranking settings"
+msgstr ""
+
+#: $string['rate_all_column_name']
+msgid "Community Rating"
+msgstr ""
+
+#: $string['rate_column_name']
+msgctxt "$string['rate_column_name']"
+msgid "Rating"
+msgstr ""
+
+#: $string['rate_error']
+msgid "Please Rate"
+msgstr ""
+
+#: $string['rate_help']
+msgid "Rate this question"
+msgstr ""
+
+#: $string['rate_help_help']
+msgid "Rate this question. \\n 1 star is very bad and 5 stars is very good"
+msgstr ""
+
+#: $string['rate_points']
+msgctxt "$string['rate_points']"
+msgid "Points"
+msgstr ""
+
+#: $string['rate_title']
+msgid "Rate"
+msgstr ""
+
+#: $string['reportquiz_admin_title']
+msgid "Student statistics"
+msgstr ""
+
+#: $string['reportquiz_stats_all_last_attempt_correct']
+msgid "Community average of last correct answers"
+msgstr ""
+
+#: $string['reportquiz_stats_all_last_attempt_incorrect']
+msgid "Community average of last incorrect answers"
+msgstr ""
+
+#: $string['reportquiz_stats_all_percentage_correct_answers']
+msgid "Community percentage of correct answers"
+msgstr ""
+
+#: $string['reportquiz_stats_all_percentage_correct_answers_help']
+msgid "Sum of correct answers / sum of all answers."
+msgstr ""
+
+#: $string['reportquiz_stats_all_progress']
+msgid "Average Community Progress"
+msgstr ""
+
+#: $string['reportquiz_stats_all_progress_help']
+msgid "Average community progress based on all community members."
+msgstr ""
+
+#: $string['reportquiz_stats_all_question_attempts_correct']
+msgid "Community average of correct answers"
+msgstr ""
+
+#: $string['reportquiz_stats_all_question_attempts_incorrect']
+msgid "Community average of incorrect answers"
+msgstr ""
+
+#: $string['reportquiz_stats_all_questions_answered']
+msgid "Community average of all answers"
+msgstr ""
+
+#: $string['reportquiz_stats_all_questions_answered_help']
+msgid "Average number of answers given by all community members."
+msgstr ""
+
+#: $string['reportquiz_stats_all_questions_approved']
+msgid "Number of approved questions"
+msgstr ""
+
+#: $string['reportquiz_stats_all_questions_approved_help']
+msgid ""
+"Teachers can approve questions to verify correctness. This is the number of "
+"all approved questions within this StudentQuiz."
+msgstr ""
+
+#: $string['reportquiz_stats_all_questions_created']
+msgid "Number of questions in this StudentQuiz"
+msgstr ""
+
+#: $string['reportquiz_stats_all_questions_created_help']
+msgid "Number of questions created by the community"
+msgstr ""
+
+#: $string['reportquiz_stats_all_rates_average']
+msgid "Rating average of all questions"
+msgstr ""
+
+#: $string['reportquiz_stats_all_rates_average_help']
+msgid ""
+"The rating of each question is the average of stars it received from the "
+"community.  Example: The community created 4 questions. If  question A was "
+"rated 3 stars by the community, question B = 4 stars, question C = 2 stars "
+"and question D = 5 stars, then the rating average of all questions is 3.5."
+msgstr ""
+
+#: $string['reportquiz_stats_own_last_attempt_correct']
+msgid "Number of your last correct answers"
+msgstr ""
+
+#: $string['reportquiz_stats_own_last_attempt_incorrect']
+msgid "Number of your last incorrect answers"
+msgstr ""
+
+#: $string['reportquiz_stats_own_percentage_correct_answers']
+msgid "Percentage of your correct answers"
+msgstr ""
+
+#: $string['reportquiz_stats_own_percentage_correct_answers_help']
+msgid ""
+"Percentage of all your correct answers from the set of all your given "
+"answers in this StudentQuiz. Partly correct answers count as wrong answers."
+msgstr ""
+
+#: $string['reportquiz_stats_own_progress']
+msgid "Personal Progress"
+msgstr ""
+
+#: $string['reportquiz_stats_own_progress_help']
+msgid ""
+"Percentage of your last correct answers from the set of all questions within "
+"this StudentQuiz. Partly correct answers count as wrong answers."
+msgstr ""
+
+#: $string['reportquiz_stats_own_question_attempts_correct']
+msgid "Total of your correct answers"
+msgstr ""
+
+#: $string['reportquiz_stats_own_question_attempts_incorrect']
+msgid "Total of your incorrect answers"
+msgstr ""
+
+#: $string['reportquiz_stats_own_questions_answered']
+msgid "Total of all your answers"
+msgstr ""
+
+#: $string['reportquiz_stats_own_questions_answered_help']
+msgid "Number of all your given answers within this StudentQuiz."
+msgstr ""
+
+#: $string['reportquiz_stats_own_questions_approved']
+msgid "Number of your approved questions"
+msgstr ""
+
+#: $string['reportquiz_stats_own_questions_approved_help']
+msgid ""
+"Teachers can approve questions to verify correctness. This is the number of "
+"your approved questions within this StudentQuiz."
+msgstr ""
+
+#: $string['reportquiz_stats_own_questions_created']
+msgid "Number of questions you have contributed"
+msgstr ""
+
+#: $string['reportquiz_stats_own_questions_created_help']
+msgid "Number of questions you have contributed to this StudentQuiz."
+msgstr ""
+
+#: $string['reportquiz_stats_own_rates_average']
+msgid "Your received rating average"
+msgstr ""
+
+#: $string['reportquiz_stats_own_rates_average_help']
+msgid ""
+"The rating of each question is the average of stars it received from the "
+"community.  Example: You created the questions A and B. If your question A "
+"was rated 3 stars by the community and your question B was rated 4 stars, "
+"then your received rating average is 3.5."
+msgstr ""
+
+#: $string['reportquiz_stats_title']
+msgid "Statistics"
+msgstr ""
+
+#: $string['reportquiz_total_attempt']
+msgid "Times user run the quiz"
+msgstr ""
+
+#: $string['reportquiz_total_obtained_marks']
+msgid "Grade total"
+msgstr ""
+
+#: $string['reportquiz_total_questions_answered']
+msgid "Total of answers"
+msgstr ""
+
+#: $string['reportquiz_total_questions_right']
+msgid "Total of correct answers"
+msgstr ""
+
+#: $string['reportquiz_total_questions_wrong']
+msgid "Wrong answers"
+msgstr ""
+
+#: $string['reportquiz_total_users']
+msgid "Number of participants"
+msgstr "Αριθμός συμμετεχόντων"
+
+#: $string['reportrank_table_column_approvedquestions']
+msgid "Points for approved questions"
+msgstr ""
+
+#: $string['reportrank_table_column_communitystatus']
+msgid "Community Statistics"
+msgstr ""
+
+#: $string['reportrank_table_column_correctanswers']
+msgid "Correct answers"
+msgstr ""
+
+#: $string['reportrank_table_column_countquestions']
+msgid "Points for questions created"
+msgstr ""
+
+#: $string['reportrank_table_column_description']
+msgid "Description"
+msgstr ""
+
+#: $string['reportrank_table_column_factor']
+msgid "Factor"
+msgstr ""
+
+#: $string['reportrank_table_column_fullname']
+msgid "Fullname"
+msgstr ""
+
+#: $string['reportrank_table_column_incorrectanswers']
+msgid "Incorrect Answers"
+msgstr ""
+
+#: $string['reportrank_table_column_lastcorrectanswers']
+msgid "Points for latest correct attemps"
+msgstr ""
+
+#: $string['reportrank_table_column_lastincorrectanswers']
+msgid "Points for latest wrong attempts"
+msgstr ""
+
+#: $string['reportrank_table_column_points']
+msgctxt "$string['reportrank_table_column_points']"
+msgid "Points"
+msgstr ""
+
+#: $string['reportrank_table_column_progress']
+msgid "Personal progress"
+msgstr ""
+
+#: $string['reportrank_table_column_quantifier_name']
+msgid "Name"
+msgstr ""
+
+#: $string['reportrank_table_column_rank']
+msgid "Rank"
+msgstr ""
+
+#: $string['reportrank_table_column_summeanrates']
+msgid "Points for stars received"
+msgstr ""
+
+#: $string['reportrank_table_column_total_points']
+msgid "Total Points"
+msgstr ""
+
+#: $string['reportrank_table_column_value']
+msgid "Value"
+msgstr ""
+
+#: $string['reportrank_table_column_yourstatus']
+msgid "Personal Statistics"
+msgstr ""
+
+#: $string['reportrank_table_quantifier_caption']
+msgid "How your points are calculated"
+msgstr ""
+
+#: $string['reportrank_table_title']
+msgid "Student ranking - Top 10"
+msgstr ""
+
+#: $string['reportrank_table_title_for_manager']
+msgid "Student ranking"
+msgstr ""
+
+#: $string['reportrank_title']
+msgctxt "$string['reportrank_title']"
+msgid "Ranking"
+msgstr ""
+
+#: $string['review_button']
+msgid "Review"
+msgstr ""
+
+#: $string['settings_allowallqtypes']
+msgid "Allow all question types"
+msgstr ""
+
+#: $string['settings_allowedqtypes']
+msgid "Allowed question types"
+msgstr ""
+
+#: $string['settings_allowedqtypes_help']
+msgid "Here you specify the type of questions that are allowed"
+msgstr ""
+
+#: $string['settings_anonymous']
+msgid "Student anonymizer"
+msgstr ""
+
+#: $string['settings_anonymous_help']
+msgid "Students cannot see each other’s names."
+msgstr ""
+
+#: $string['settings_anonymous_label']
+msgid "Make students anonymous"
+msgstr ""
+
+#: $string['settings_approvedquantifier']
+msgid "Approved question factor"
+msgstr ""
+
+#: $string['settings_approvedquantifier_help']
+msgid "Points for each approved question"
+msgstr ""
+
+#: $string['settings_approvedquantifier_label']
+msgid "Points for each question approved"
+msgstr ""
+
+#: $string['settings_lastcorrectanswerquantifier']
+msgid "Latest correct answer factor"
+msgstr ""
+
+#: $string['settings_lastcorrectanswerquantifier_help']
+msgid "Points for each correct answer on the last attempt"
+msgstr ""
+
+#: $string['settings_lastcorrectanswerquantifier_label']
+msgid "Points for latest correct answers"
+msgstr ""
+
+#: $string['settings_lastincorrectanswerquantifier']
+msgid "Latest wrong answer factor"
+msgstr ""
+
+#: $string['settings_lastincorrectanswerquantifier_help']
+msgid "Points for each wrong or partially wrong answer on the last attempt"
+msgstr ""
+
+#: $string['settings_lastincorrectanswerquantifier_label']
+msgid "Points for latest wrong answers"
+msgstr ""
+
+#: $string['settings_questionquantifier']
+msgid "Created question factor"
+msgstr ""
+
+#: $string['settings_questionquantifier_help']
+msgid "Points for each created question"
+msgstr ""
+
+#: $string['settings_questionquantifier_label']
+msgid "Points for each question created"
+msgstr ""
+
+#: $string['settings_quizpracticebehaviour']
+msgctxt "$string['settings_quizpracticebehaviour']"
+msgid "Rating and commenting"
+msgstr ""
+
+#: $string['settings_quizpracticebehaviour_help']
+msgid "Allow students to rate and comment questions during the quiz attempt"
+msgstr ""
+
+#: $string['settings_quizpracticebehaviour_label']
+msgctxt "$string['settings_quizpracticebehaviour_label']"
+msgid "Rating and commenting"
+msgstr ""
+
+#: $string['settings_ratequantifier']
+msgid "Rating factor"
+msgstr ""
+
+#: $string['settings_ratequantifier_help']
+msgid "Points for each star received."
+msgstr ""
+
+#: $string['settings_ratequantifier_label']
+msgid "Multiplier for the average of stars received for a question"
+msgstr ""
+
+#: $string['settings_removeqbehavior']
+msgctxt "$string['settings_removeqbehavior']"
+msgid "Remove question behavior plugin StudentQuiz"
+msgstr ""
+
+#: $string['settings_removeqbehavior_help']
+msgid ""
+"This info should appear only once during update. We inform you that we "
+"detected our question behavior plugin StudentQuiz is installed. This plugin "
+"is not required anymore and thus we try to automatically remove it. If you "
+"still see this setting, please uninstall the question behavior plugin "
+"StudentQuiz manually <a href=\"{$a}\">here</a>."
+msgstr ""
+
+#: $string['settings_removeqbehavior_label']
+msgctxt "$string['settings_removeqbehavior_label']"
+msgid "Remove question behavior plugin StudentQuiz"
+msgstr ""
+
+#: $string['show_less']
+msgid "Show less"
+msgstr ""
+
+#: $string['show_more']
+msgid "Show more"
+msgstr ""
+
+#: $string['slot_of_slot']
+msgid "Question {$a->slot} of {$a->slots} in this set"
+msgstr ""
+
+#: $string['start_quiz_button']
+msgid "Start Quiz"
+msgstr ""
+
+#: $string['statistic_block_approvals']
+msgid "Questions approved"
+msgstr ""
+
+#: $string['statistic_block_created']
+msgid "Questions created"
+msgstr ""
+
+#: $string['statistic_block_progress_available']
+msgid "Questions available"
+msgstr ""
+
+#: $string['statistic_block_progress_last_attempt_correct']
+msgid "Latest attempt correct"
+msgstr ""
+
+#: $string['statistic_block_progress_last_attempt_incorrect']
+msgid "Latest attempt wrong"
+msgstr ""
+
+#: $string['statistic_block_progress_never']
+msgid "Questions never answered"
+msgstr ""
+
+#: $string['statistic_block_title']
+msgid "My Progress"
+msgstr ""
+
+#: $string['studentquiz']
+msgid "studentquiz"
+msgstr ""
+
+#: $string['studentquiz:addinstance']
+msgid "Add new instance for StudentQuiz"
+msgstr ""
+
+#: $string['studentquiz:emailnotifyapproved']
+msgctxt "$string['studentquiz:emailnotifyapproved']"
+msgid "Question approved notification"
+msgstr ""
+
+#: $string['studentquiz:emailnotifychanged']
+msgctxt "$string['studentquiz:emailnotifychanged']"
+msgid "Question changed notification"
+msgstr ""
+
+#: $string['studentquiz:emailnotifycommentadded']
+msgctxt "$string['studentquiz:emailnotifycommentadded']"
+msgid "Comment added notification"
+msgstr ""
+
+#: $string['studentquiz:emailnotifycommentdeleted']
+msgctxt "$string['studentquiz:emailnotifycommentdeleted']"
+msgid "Comment deleted notification"
+msgstr ""
+
+#: $string['studentquiz:emailnotifydeleted']
+msgctxt "$string['studentquiz:emailnotifydeleted']"
+msgid "Question deleted notification"
+msgstr ""
+
+#: $string['studentquiz:manage']
+msgid "Moderate questions on StudentQuiz"
+msgstr ""
+
+#: $string['studentquizname']
+msgid "StudentQuiz Name"
+msgstr ""
+
+#: $string['studentquizname_help']
+msgid "The name of this StudentQuiz Activity"
+msgstr ""
+
+#: $string['studentquiz:previewothers']
+msgid "Preview questions of others on StudentQuiz"
+msgstr ""
+
+#: $string['studentquiz:submit']
+msgid "Submit questions on StudentQuiz"
+msgstr ""
+
+#: $string['studentquiz:unhideanonymous']
+msgid "Can see real names even when anonymize is active"
+msgstr ""
+
+#: $string['studentquiz:view']
+msgid "View questions on StudentQuiz"
+msgstr ""
+
+#: $string['tags']
+msgid "Tags"
+msgstr ""
+
+#: $string['task_delete_quiz_after_migration']
+msgid ""
+"Delete quiz activities after data migration from an import or plugin update"
+msgstr ""
+
+#: $string['unapprove']
+msgid "Unapprove"
+msgstr ""

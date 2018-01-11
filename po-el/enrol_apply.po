@@ -1,0 +1,336 @@
+#. extracted from lang/en/enrol_apply.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'enrol_apply', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   enrol_apply
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['applicationcancelednotification']
+msgid "Your course enrolment application was canceled."
+msgstr ""
+
+#: $string['applicationconfirmednotification']
+msgid "Your course enrolment application was confirmed."
+msgstr ""
+
+#: $string['applicationdeferrednotification']
+msgid ""
+"Your course enrolment application was deferred (you are currently on the "
+"waiting list)."
+msgstr ""
+
+#: $string['apply:config']
+msgid "Configure apply enrol instances"
+msgstr ""
+
+#: $string['applydate']
+msgid "Enrol date"
+msgstr ""
+
+#: $string['applymanage']
+msgid "Manage enrolment applications"
+msgstr ""
+
+#: $string['apply:manageapplications']
+msgid "Manage apply enrolment"
+msgstr ""
+
+#: $string['apply:unenrol']
+msgid "Cancel users from the course"
+msgstr ""
+
+#: $string['apply:unenrolself']
+msgid "Cancel self from the course"
+msgstr ""
+
+#: $string['applyuser']
+msgid "First name / Surname"
+msgstr ""
+
+#: $string['applyusermail']
+msgid "Email"
+msgstr ""
+
+#: $string['btncancel']
+msgid "Cancel requests"
+msgstr ""
+
+#: $string['btnconfirm']
+msgid "Confirm requests"
+msgstr ""
+
+#: $string['btnwait']
+msgid "Defer requests"
+msgstr ""
+
+#: $string['cancelmailcontent']
+msgid "Cancelation email content"
+msgstr ""
+
+#: $string['cancelmailcontent_desc']
+msgctxt "$string['cancelmailcontent_desc']"
+msgid ""
+"Please use the following special marks to replace email content with data "
+"from Moodle.<br/>{firstname}:The first name of the user; {content}:The "
+"course name;{lastname}:The last name of the user;{username}:The users "
+"registration username"
+msgstr ""
+
+#: $string['cancelmail_desc']
+msgctxt "$string['cancelmail_desc']"
+msgid ""
+msgstr ""
+
+#: $string['cancelmail_heading']
+msgid "Cancelation email"
+msgstr ""
+
+#: $string['cancelmailsubject']
+msgid "Cancelation email subject"
+msgstr ""
+
+#: $string['cancelmailsubject_desc']
+msgctxt "$string['cancelmailsubject_desc']"
+msgid ""
+msgstr ""
+
+#: $string['comment']
+msgid "Comment"
+msgstr ""
+
+#: $string['confirmenrol']
+msgid "Manage application"
+msgstr ""
+
+#: $string['confirmmailcontent']
+msgid "Confirmation email content"
+msgstr ""
+
+#: $string['confirmmailcontent_desc']
+msgctxt "$string['confirmmailcontent_desc']"
+msgid ""
+"Please use the following special marks to replace email content with data "
+"from Moodle.<br/>{firstname}:The first name of the user; {content}:The "
+"course name;{lastname}:The last name of the user;{username}:The users "
+"registration username"
+msgstr ""
+
+#: $string['confirmmail_desc']
+msgctxt "$string['confirmmail_desc']"
+msgid ""
+msgstr ""
+
+#: $string['confirmmail_heading']
+msgid "Confirmation email"
+msgstr ""
+
+#: $string['confirmmailsubject']
+msgid "Confirmation email subject"
+msgstr ""
+
+#: $string['confirmmailsubject_desc']
+msgctxt "$string['confirmmailsubject_desc']"
+msgid ""
+msgstr ""
+
+#: $string['confirmusers']
+msgid "Enrol Confirm"
+msgstr ""
+
+#: $string['confirmusers_desc']
+msgid "Users in gray colored rows are on the waiting list."
+msgstr ""
+
+#: $string['coursename']
+msgid "Course"
+msgstr ""
+
+#: $string['editdescription']
+msgid "Textarea description"
+msgstr ""
+
+#: $string['enrolname']
+msgctxt "$string['enrolname']"
+msgid "Course enrol confirmation"
+msgstr ""
+
+#: $string['enrolusers']
+msgid "Enrol users"
+msgstr ""
+
+#: $string['mailtoteacher_suject']
+msgid "New Enrolment request!"
+msgstr ""
+
+#: $string['maxenrolled']
+msgid "Max enrolled users"
+msgstr ""
+
+#: $string['maxenrolled_help']
+msgid ""
+"Specifies the maximum number of users that can self enrol. 0 means no limit."
+msgstr ""
+
+#: $string['maxenrolledreached_left']
+msgid "Maximum number of users allowed"
+msgstr ""
+
+#: $string['maxenrolledreached_right']
+msgid "has already been reached."
+msgstr ""
+
+#: $string['maxenrolled_tip_1']
+msgid "out of"
+msgstr ""
+
+#: $string['maxenrolled_tip_2']
+msgid "seats already booked."
+msgstr ""
+
+#: $string['messageprovider:application']
+msgid "Course enrolment application notifications"
+msgstr ""
+
+#: $string['messageprovider:cancelation']
+msgid "Course enrolment application cancelation notifications"
+msgstr ""
+
+#: $string['messageprovider:confirmation']
+msgid "Course enrolment application confirmation notifications"
+msgstr ""
+
+#: $string['messageprovider:waitinglist']
+msgid "Course enrolment application defer notifications"
+msgstr ""
+
+#: $string['newapplicationnotification']
+msgid "There is a new course enrolment application awaiting review."
+msgstr ""
+
+#: $string['notification']
+msgid ""
+"<b>Enrolment application successfully sent</b>. <br/><br/>You will be "
+"informed by email when your enrolment has been confirmed."
+msgstr ""
+
+#: $string['notifycoursebased']
+msgid ""
+"New enrolment application notification (instance based, eg. course teachers)"
+msgstr ""
+
+#: $string['notifycoursebased_desc']
+msgid ""
+"Default for new instances: Notify everyone who have the 'Manage apply "
+"enrolment' capability for the corresponding course (eg. teachers and "
+"managers)"
+msgstr ""
+
+#: $string['notify_desc']
+msgid "Define who gets notified about new enrolment applications."
+msgstr ""
+
+#: $string['notifyglobal']
+msgid ""
+"New enrolment application notification (global, eg. global managers and "
+"admins)"
+msgstr ""
+
+#: $string['notifyglobal_desc']
+msgid ""
+"Define who gets notified about new enrolment applications for any course."
+msgstr ""
+
+#: $string['notify_heading']
+msgid "Notification settings"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Course enrol confirmation"
+msgstr ""
+
+#: $string['pluginname_desc']
+msgid ""
+"With this plug-in users can apply to be enrolled in a course. A teacher or "
+"site manager will then have to approve the enrolment before the user gets "
+"enroled."
+msgstr ""
+
+#: $string['show_extra_user_profile']
+msgid "Show extra user profile fields on enrolment screen"
+msgstr ""
+
+#: $string['show_standard_user_profile']
+msgid "Show standard user profile fields on enrolment screen"
+msgstr ""
+
+#: $string['status']
+msgid "Allow Course enrol confirmation"
+msgstr ""
+
+#: $string['status_desc']
+msgid "Allow course access of internally enrolled users."
+msgstr ""
+
+#: $string['user_profile']
+msgid "User Profile"
+msgstr ""
+
+#: $string['waitmailcontent']
+msgid "Waiting list mail content"
+msgstr ""
+
+#: $string['waitmailcontent_desc']
+msgctxt "$string['waitmailcontent_desc']"
+msgid ""
+"Please use the following special marks to replace email content with data "
+"from Moodle.<br/>{firstname}:The first name of the user; {content}:The "
+"course name;{lastname}:The last name of the user;{username}:The users "
+"registration username"
+msgstr ""
+
+#: $string['waitmail_desc']
+msgctxt "$string['waitmail_desc']"
+msgid ""
+msgstr ""
+
+#: $string['waitmail_heading']
+msgid "Waiting list email"
+msgstr ""
+
+#: $string['waitmailsubject']
+msgid "Waiting list mail subject"
+msgstr ""
+
+#: $string['waitmailsubject_desc']
+msgctxt "$string['waitmailsubject_desc']"
+msgid ""
+msgstr ""

@@ -1,0 +1,146 @@
+#. extracted from lang/en/enrol_saml.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'enrol_saml', language 'en', branch 'MOODLE_31_STABLE'
+#.  *
+#.  * @package   enrol_saml
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['assignrole']
+msgid "Assignrole"
+msgstr ""
+
+#: $string['defaultperiod']
+msgid "Default enrolment period"
+msgstr ""
+
+#: $string['defaultperiod_desc']
+msgid "Default length of the default enrolment period setting (in seconds)."
+msgstr ""
+
+#: $string['enrolledincourserole']
+msgid "Enrolled in \"{$a->course}\" as \"{$a->role}\""
+msgstr ""
+
+#: $string['enrolusers']
+msgctxt "$string['enrolusers']"
+msgid "Enrol users"
+msgstr ""
+
+#: $string['error_instance_creation']
+msgid ""
+"Exists an inactive instance of this SAML plugin for this course \"{$a}\", "
+"activate it instead create new one"
+msgstr ""
+
+#: $string['pluginname']
+msgid "SAML enrolments"
+msgstr ""
+
+#: $string['pluginname_desc']
+msgid ""
+"The saml enrolments plugin allows users to be auto-enrolled in courses when "
+"login using the auth/saml plugin based on the data provided by the Identity "
+"Provider. (be sure you provide the course mapping and the role mapping on "
+"the settings of the auth/saml plugin"
+msgstr ""
+
+#: $string['saml:config']
+msgid "Configure saml enrol instances"
+msgstr ""
+
+#: $string['saml:enrol']
+msgctxt "$string['saml:enrol']"
+msgid "Enrol users"
+msgstr ""
+
+#: $string['saml:manage']
+msgid "Manage user enrolments"
+msgstr ""
+
+#: $string['saml:unenrol']
+msgid "Unenrol users from the course"
+msgstr ""
+
+#: $string['saml:unenrolself']
+msgid "Unenrol self from the course"
+msgstr ""
+
+#: $string['status']
+msgid "Enable saml enrolments"
+msgstr ""
+
+#: $string['status_desc']
+msgid ""
+"Allow course access of internally enrolled users. This should be kept "
+"enabled in most cases."
+msgstr ""
+
+#: $string['statusdisabled']
+msgid "Disabled"
+msgstr ""
+
+#: $string['statusenabled']
+msgid "Enabled"
+msgstr ""
+
+#: $string['status_help']
+msgid ""
+"This setting determines whether users can be auto-enrolled via saml login."
+msgstr ""
+
+#: $string['unenrolselfconfirm']
+msgid "Do you really want to unenrol yourself from course \"{$a}\"?"
+msgstr ""
+
+#: $string['unenroluser']
+msgid "Do you really want to unenrol \"{$a->user}\" from course \"{$a->course}\"?"
+msgstr ""
+
+#: $string['unenrolusers']
+msgid "Unenrol users"
+msgstr ""
+
+#: $string['wscannotenrol']
+msgid ""
+"SAML plugin instance cannot enrol a user in the course id = {$a->courseid}"
+msgstr ""
+
+#: $string['wsnoinstance']
+msgid ""
+"SAML enrolment plugin instance doesn't exist or is disabled for the course "
+"(id = {$a->courseid})"
+msgstr ""
+
+#: $string['wsusercannotassign']
+msgid ""
+"You don't have the permission to assign this role ({$a->roleid}) to this "
+"user ({$a->userid}) in this course({$a->courseid})."
+msgstr ""

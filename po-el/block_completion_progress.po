@@ -1,0 +1,379 @@
+#. extracted from lang/en/block_completion_progress.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_completion_progress', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   block_completion_progress
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['completed_colour']
+msgid "#73A839"
+msgstr ""
+
+#: $string['completed_colour_descr']
+msgid "HTML Colour code for elements that have been completed"
+msgstr ""
+
+#: $string['completed_colour_title']
+msgid "Completed colour"
+msgstr ""
+
+#: $string['completion_not_enabled']
+msgid "Completion tracking is not enabled on this site."
+msgstr ""
+
+#: $string['completion_not_enabled_course']
+msgid "Completion tracking is not enabled in this course."
+msgstr ""
+
+#: $string['completion_progress:addinstance']
+msgid "Add a new Completion Progress block"
+msgstr ""
+
+#: $string['completion_progress:myaddinstance']
+msgid "Add a Completion Progress block to My home page"
+msgstr ""
+
+#: $string['completion_progress:overview']
+msgid "View course overview of Completion Progress for all students"
+msgstr ""
+
+#: $string['completion_progress:showbar']
+msgid "Show the bar in the Completion Progress block"
+msgstr ""
+
+#: $string['config_activitiesincluded']
+msgid "Activities included"
+msgstr ""
+
+#: $string['config_activitycompletion']
+msgid "All activities with completion set"
+msgstr ""
+
+#: $string['config_default_title']
+msgctxt "$string['config_default_title']"
+msgid "Completion Progress"
+msgstr ""
+
+#: $string['config_group']
+msgid "Visible only to group"
+msgstr ""
+
+#: $string['config_header_monitored']
+msgid "Monitored"
+msgstr ""
+
+#: $string['config_icons']
+msgid "Use icons in bar"
+msgstr ""
+
+#: $string['config_longbars']
+msgid "How to present long bars"
+msgstr ""
+
+#: $string['config_orderby']
+msgid "Order bar by"
+msgstr ""
+
+#: $string['config_orderby_course_order']
+msgid "Ordering in course"
+msgstr ""
+
+#: $string['config_orderby_due_time']
+msgid "Time using \"{$a}\" date"
+msgstr ""
+
+#: $string['config_percentage']
+msgid "Show percentage to students"
+msgstr ""
+
+#: $string['config_scroll']
+msgid "Scroll"
+msgstr ""
+
+#: $string['config_selectactivities']
+msgid "Select activities"
+msgstr ""
+
+#: $string['config_selectedactivities']
+msgid "Selected activities"
+msgstr ""
+
+#: $string['config_squeeze']
+msgid "Squeeze"
+msgstr ""
+
+#: $string['config_title']
+msgid "Alternate title"
+msgstr ""
+
+#: $string['config_wrap']
+msgid "Wrap"
+msgstr ""
+
+#: $string['coursenametoshow']
+msgid "Course name to show on Dashboard"
+msgstr ""
+
+#: $string['defaultlongbars']
+msgid "Default presentation for long bars"
+msgstr ""
+
+#: $string['fullname']
+msgid "Full course name"
+msgstr ""
+
+#: $string['futureNotCompleted_colour']
+msgid "#025187"
+msgstr ""
+
+#: $string['futureNotCompleted_colour_descr']
+msgid "HTML colour code for future elements that have not yet been completed"
+msgstr ""
+
+#: $string['futureNotCompleted_colour_title']
+msgid "Future not-completed colour"
+msgstr ""
+
+#: $string['how_activitiesincluded_works']
+msgctxt "$string['how_activitiesincluded_works']"
+msgid "How including activities works"
+msgstr ""
+
+#: $string['how_activitiesincluded_works_help']
+msgid ""
+"<p>By default, all activities with Activity completion settings set are "
+"included in the bar.</p><p>You can also manually select activities to be "
+"included.</p>"
+msgstr ""
+
+#: $string['how_group_works']
+msgid "How visible group works"
+msgstr ""
+
+#: $string['how_group_works_help']
+msgid ""
+"<p>Selecting a group will limit the display of the this block to that group "
+"only.</p>"
+msgstr ""
+
+#: $string['how_longbars_works']
+msgid "How long bars are presented"
+msgstr ""
+
+#: $string['how_longbars_works_help']
+msgid ""
+"<p>When bars exceed a set length, how they can be presented in one of the "
+"following ways.</p><ul><li>Squeezed into one horizontal "
+"bar</li><li>Scrolling sideways to show overflowing bar "
+"segments</li><li>Wrapping to show all bar segments on multiple "
+"lines</li></ul><p>Note that when the bar is wrapped, the NOW indicator will "
+"not be shown.</p>"
+msgstr ""
+
+#: $string['how_ordering_works']
+msgid "How ordering works"
+msgstr ""
+
+#: $string['how_ordering_works_help']
+msgid ""
+"<p>There are two ways to order activities in the Completion Progress "
+"block.</p><ul><li><em>Time using \"Expect completion on\" date</em> "
+"(default)<br />The expected completion dates of activities/resources are "
+"used to order the bar. Where activities/resources don't have an expected "
+"completion date, ordering in the course is used instead. When this option is "
+"used, the NOW indicator is shown.</li><li><em>Ordering in course</em><br "
+"/>Activities/resources are presented in the same order as they are on the "
+"course page. When this option is used, expected completion dates are "
+"ignored. When this option is used, the NOW indicator is not shown.</li></ul>"
+msgstr ""
+
+#: $string['how_selectactivities_works']
+msgctxt "$string['how_selectactivities_works']"
+msgid "How including activities works"
+msgstr ""
+
+#: $string['how_selectactivities_works_help']
+msgid ""
+"<p>To manually select activities to be include in the bar, ensure that "
+"\"Activities included\" is set to \"selected activities\".</p><p>Only activities "
+"with activity completion settings set can be included.</p><p>Hold the CTRL "
+"key to select multiple activities.</p>"
+msgstr ""
+
+#: $string['lastonline']
+msgid "Last in course"
+msgstr ""
+
+#: $string['mouse_over_prompt']
+msgid "Mouse over or touch bar for info."
+msgstr ""
+
+#: $string['no_activities_config_message']
+msgid ""
+"There are no activities or resources with activity completion set or no "
+"activities or resources have been selected. Set activity completion on "
+"activities and resources then configure this block."
+msgstr ""
+
+#: $string['no_activities_message']
+msgid ""
+"No activities or resources are being monitored. Use config to set up "
+"monitoring."
+msgstr ""
+
+#: $string['no_blocks']
+msgid "No Completion Progress blocks are set up for your courses."
+msgstr ""
+
+#: $string['no_courses']
+msgid ""
+"You are not enrolled in any courses. Only bars from enrolled courses will be "
+"shown."
+msgstr ""
+
+#: $string['not_all_expected_set']
+msgid "Not all activities with completion have an \"{$a}\" date set."
+msgstr ""
+
+#: $string['notCompleted_colour']
+msgid "#C71C22"
+msgstr ""
+
+#: $string['notCompleted_colour_descr']
+msgid "HTML colour code for current elements that have not yet been completed"
+msgstr ""
+
+#: $string['notCompleted_colour_title']
+msgid "Not-completed colour"
+msgstr ""
+
+#: $string['no_visible_activities_message']
+msgid "None of the monitored activities are currently visible."
+msgstr ""
+
+#: $string['now_indicator']
+msgid "NOW"
+msgstr ""
+
+#: $string['overview']
+msgid "Overview of students"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Completion Progress"
+msgstr ""
+
+#: $string['progress']
+msgid "Progress"
+msgstr ""
+
+#: $string['progressbar']
+msgctxt "$string['progressbar']"
+msgid "Completion Progress"
+msgstr ""
+
+#: $string['shortname']
+msgid "Short course name"
+msgstr ""
+
+#: $string['showallinfo']
+msgid "Show all info"
+msgstr ""
+
+#: $string['showinactive']
+msgid "Show inactive students in Overview"
+msgstr ""
+
+#: $string['submitted']
+msgid "Submitted"
+msgstr ""
+
+#: $string['submittednotcomplete_colour']
+msgid "#FFCC00"
+msgstr ""
+
+#: $string['submittednotcomplete_colour_descr']
+msgid ""
+"HTML colour code for elements that have been submitted, but are not yet "
+"complete"
+msgstr ""
+
+#: $string['submittednotcomplete_colour_title']
+msgid "Submitted but not complete colour"
+msgstr ""
+
+#: $string['time_expected']
+msgid "Expected"
+msgstr ""
+
+#: $string['why_set_the_title']
+msgid "Why you might want to set the block instance title?"
+msgstr ""
+
+#: $string['why_set_the_title_help']
+msgid ""
+"<p>There can be multiple instances of the Completion Progress block. You may "
+"use different Completion Progress blocks to monitor different sets of "
+"activities or resources. For instance you could track progress in "
+"assignments in one block and quizzes in another. For this reason you can "
+"override the default title and set a more appropriate block title for each "
+"instance.</p>"
+msgstr ""
+
+#: $string['why_show_precentage']
+msgid "Why show a progress percentage to students?"
+msgstr ""
+
+#: $string['why_show_precentage_help']
+msgid ""
+"<p>It is possible to show an overall percentage of progress to "
+"students.</p><p>This is calculated as the number of activities completed "
+"divided by the total number of activities in the bar.</p><p>The progress "
+"percentage appears until the student mouses over an item in the bar.</p>"
+msgstr ""
+
+#: $string['why_use_icons']
+msgid "Why you might want to use icons?"
+msgstr ""
+
+#: $string['why_use_icons_help']
+msgid ""
+"<p>You may wish to add tick and cross icons in the Completion Progress to "
+"make this block more visually accessible for students with colour-"
+"blindness.</p><p>It may also make the meaning of the block clearer if you "
+"believe colours are not intuitive, either for cultural or personal "
+"reasons.</p>"
+msgstr ""
+
+#: $string['wrapafter']
+msgid "When wrapping, limit rows to"
+msgstr ""

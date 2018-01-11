@@ -1,0 +1,638 @@
+#. extracted from lang/en/webexactivity.php, lang/el/webexactivity.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'webexactivity', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   webexactivity
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['additionalsettings']
+msgid "Additional meeting settings"
+msgstr ""
+
+#: $string['allchat']
+msgid "Participants can chat with other participants"
+msgstr ""
+
+#: $string['apipassword']
+msgid "WebEx Admin password"
+msgstr ""
+
+#: $string['apipassword_help']
+msgid "The password for an admin account on your site."
+msgstr ""
+
+#: $string['apisettings']
+msgid "API Settings"
+msgstr ""
+
+#: $string['apiusername']
+msgid "WebEx Admin username"
+msgstr ""
+
+#: $string['apiusername_help']
+msgid ""
+"The username for an admin account on your site. This should be an accounted "
+"dedicated for Moodle for security reasons."
+msgstr ""
+
+#: $string['availabilityendtime']
+msgid "Extended availability end time"
+msgstr ""
+
+#: $string['badpassword']
+msgid "Your WebEx username and password do not match."
+msgstr ""
+
+#: $string['badpasswordexception']
+msgid "Your WebEx password is incorrect and could not be updated."
+msgstr ""
+
+#: $string['confirmrecordingdelete']
+msgid ""
+"Are you sure you want to delete the recording <b>{$a->name}</b>, with a "
+"length of {$a->time}? This cannot be undone."
+msgstr ""
+
+#: $string['confirmrecordingsdelete']
+msgid ""
+"Are you sure you want to delete the selected recordings? This cannot be "
+"undone."
+msgstr ""
+
+#: $string['connectionexception']
+msgid "An error occurred while trying to connect: {$a->error}"
+msgstr ""
+
+#: $string['curlsetupexception']
+msgid "An error occurred while setting up curl."
+msgstr ""
+
+#: $string['defaultmeetingtype']
+msgid "Default meeting type"
+msgstr ""
+
+#: $string['defaultmeetingtype_help']
+msgid "The meeting type that will be preselected when creating a new meeting."
+msgstr ""
+
+#: $string['deletelink']
+msgid "<a href=\"{$a->url}\">Delete</a>"
+msgstr ""
+
+#: $string['deletetime']
+msgid "Deletion Time"
+msgstr ""
+
+#: $string['deletionin']
+msgid "<div>{$a->time} until deletion.</div>"
+msgstr ""
+
+#: $string['deletionsoon']
+msgid "<div>Will be deleted soon.</div>"
+msgstr ""
+
+#: $string['description']
+msgid "Description"
+msgstr ""
+
+#: $string['directlinks']
+msgid "Direct links"
+msgstr ""
+
+#: $string['directlinkstext']
+msgid ""
+"<p>These links provide direct access to the recordings on the Moodle server. "
+"Access to them doesn't require a logging in, and are not logged.</p><br />\n"
+"Streaming: <a target=\"_blank\" href=\"{$a->streamurl}\" alt=\"Streaming "
+"link\">{$a->streamurl}</a><br />\n"
+"Download: <a target=\"_blank\" href=\"{$a->fileurl}\" alt=\"Streaming "
+"link\">{$a->fileurl}</a><br />"
+msgstr ""
+
+#: $string['duration']
+msgid "Expected duration"
+msgstr ""
+
+#: $string['duration_help']
+msgid ""
+"The anticipated duration of the meeting. It is just for informational "
+"purposes, and does not effect how long the meeting can run for."
+msgstr ""
+
+#: $string['enablecallin']
+msgid "Enable Telephone Callin"
+msgstr ""
+
+#: $string['enablecallin_help']
+msgid ""
+"Enable telephony callin support for newly created meetings. Do not enable "
+"unless you have CALLIN telephony support."
+msgstr ""
+
+#: $string['error_']
+msgctxt "$string['error_']"
+msgid ""
+msgstr ""
+
+#: $string['errordeletingrecording']
+msgid "Error deleting recording"
+msgstr ""
+
+#: $string['error_HM_AccessDenied']
+msgid "Access was denied to host this meeting."
+msgstr ""
+
+#: $string['error_JM_InvalidMeetingKey']
+msgid ""
+"There was a meeting key error in WebEx and you cannot join this meeting."
+msgstr ""
+
+#: $string['error_JM_InvalidMeetingKeyOrPassword']
+msgid ""
+"There was a meeting key or password error in WebEx and you cannot join this "
+"meeting."
+msgstr ""
+
+#: $string['error_JM_MeetingLocked']
+msgid "This meeting is locked and you cannot join it."
+msgstr ""
+
+#: $string['error_JM_MeetingNotInProgress']
+msgid ""
+"The meeting is not currently in progress. It may have not started yet, or "
+"already ended."
+msgstr ""
+
+#: $string['error_LI_AccessDenied']
+msgid "The user could not be logged into WebEx."
+msgstr ""
+
+#: $string['error_LI_AccountLocked']
+msgid "The WebEx user account is locked."
+msgstr ""
+
+#: $string['error_LI_AutoLoginDisabled']
+msgid "Auto logins are disable for this user"
+msgstr ""
+
+#: $string['error_LI_InvalidSessionTicket']
+msgid "The session ticket is invalid. Please try again."
+msgstr ""
+
+#: $string['error_LI_InvalidTicket']
+msgid "The login ticket is invalid. Please try again."
+msgstr ""
+
+#: $string['error_unknown']
+msgid "An unknown error occurred."
+msgstr ""
+
+#: $string['event_meeting_ended']
+msgid "Meeting ended"
+msgstr ""
+
+#: $string['event_meeting_hosted']
+msgid "Meeting hosted"
+msgstr ""
+
+#: $string['event_meeting_joined']
+msgid "meeting joined"
+msgstr ""
+
+#: $string['event_meeting_started']
+msgid "Meeting started"
+msgstr ""
+
+#: $string['event_recording_created']
+msgid "Recording created"
+msgstr ""
+
+#: $string['event_recording_deleted']
+msgid "Recording deleted"
+msgstr ""
+
+#: $string['event_recording_downloaded']
+msgid "Recording downloaded"
+msgstr ""
+
+#: $string['event_recording_undeleted']
+msgid "Recording undeleted"
+msgstr ""
+
+#: $string['event_recording_viewed']
+msgid "Recording viewed"
+msgstr ""
+
+#: $string['externallinktext']
+msgid ""
+"<p>This link is for participants who are not enrolled in this course. "
+"Students in the course will not need to be emailed this link, as they can "
+"just click on the Join meeting link on the previous page. This link should "
+"be distributed carefully - anybody with this link will be able to access "
+"this meeting.  To invite others to the meeting, copy the URL below and send "
+"it to them.  If this is a public meeting, this link can also be placed on a "
+"web site.</p>"
+msgstr ""
+
+#: $string['externalpassword']
+msgid "Participants will also need to know the meeting password: <b>{$a}</b>"
+msgstr ""
+
+#: $string['getexternallink']
+msgid "<a href=\"{$a->url}\">Get external participant link</a>"
+msgstr ""
+
+#: $string['host']
+msgid "Host"
+msgstr ""
+
+#: $string['hostmeetinglink']
+msgid "<a href=\"{$a->url}\">Host Meeting</a>"
+msgstr ""
+
+#: $string['hostschedulingexception']
+msgid "User cannot scheduling a meeting for this host."
+msgstr ""
+
+#: $string['inprogress']
+msgid "In progress"
+msgstr "Σε εξέλιξη"
+
+#: $string['invalidtype']
+msgid "Invalid type"
+msgstr ""
+
+#: $string['joinmeetinglink']
+msgid "<a href=\"{$a->url}\">Join Meeting</a>"
+msgstr ""
+
+#: $string['longavailability']
+msgid "Extended Availability"
+msgstr ""
+
+#: $string['longavailability_help']
+msgid ""
+"Setting this option will leave the meeting available to host until the "
+"Extended availability end time. Allows reusable meetings for things like "
+"office hours."
+msgstr ""
+
+#: $string['manageallrecordings']
+msgid "Manage all WebEx recordings"
+msgstr ""
+
+#: $string['manageallrecordings_help']
+msgid ""
+"Manage all recordings from the WebEx server, not just ones with a Moodle "
+"activity."
+msgstr ""
+
+#: $string['meetingclosegrace']
+msgid "Meeting grace period"
+msgstr ""
+
+#: $string['meetingclosegrace_help']
+msgid ""
+"The number of minutes after the start time plus duration after which the "
+"meeting will be considered complete."
+msgstr ""
+
+#: $string['meetingpassword']
+msgid "Meeting password"
+msgstr ""
+
+#: $string['meetingpast']
+msgid "This meeting has past."
+msgstr ""
+
+#: $string['meetingsettings']
+msgid "Meeting Settings"
+msgstr ""
+
+#: $string['meetingtemplate']
+msgid "WebEx template"
+msgstr ""
+
+#: $string['meetingtemplate_help']
+msgid ""
+"Name of the template you have setup on your WebEx account for this meeting "
+"type. Leave blank to use default settings. Note: indicating a non-existing "
+"template name will prevent creating sessions of this meeting type."
+msgstr ""
+
+#: $string['meetingtype']
+msgid "Meeting type"
+msgstr ""
+
+#: $string['meetingtypes']
+msgid "Meeting Types"
+msgstr ""
+
+#: $string['meetingtypes_desc']
+msgid ""
+"These are WebEx meeting types supported by this module. For each type, you "
+"can select if it is \"Available\" (you have a license for it in WebEx, and you "
+"want it to be able for use it from Moodle), and if you want it to be "
+"\"Available to all users\". Types that are \"Available\", but not \"Available to "
+"all users\" will only be selectable by people with the "
+"mod/webexactivity:allavailabletypes permission. \"Meeting password required\" "
+"is to tell the plugin if WebEx requires a password. Use the \"Generate "
+"required passwords\" below to allows a user to not supply a password."
+msgstr ""
+
+#: $string['meetingupcoming']
+msgid "This meeting is not yet available to join."
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "WebEx Meeting"
+msgstr "Σύσκεψη WebEx"
+
+#: $string['modulename_help']
+msgid ""
+"The WebEx Meeting activity allows instructors to schedule meetings into the "
+"WebEx web conferencing system*.\n"
+"\n"
+"When you add the WebEx Meeting activity, you define the date and time of the "
+"meeting, as well a number of other optional parameters (such as expected "
+"duration, a description, etc). Participants (enrolled students) are then "
+"able to enter the WebEx meeting by clicking on a \"join meeting\" link under "
+"the activity in Moodle (teachers will see a link that says \"host meeting\"). "
+"If the meeting is recorded, students will be able to view the recording "
+"after the meeting is over.\n"
+"\n"
+"* WebEx is a web conferencing system that allows students and teachers to "
+"synchronously collaborate. It transmits real-time audio and video, and "
+"includes tools such as whiteboard, chat, and desktop sharing."
+msgstr ""
+
+#: $string['modulenameplural']
+msgctxt "$string['modulenameplural']"
+msgid "WebEx Meetings"
+msgstr "Συσκέψεις WebEx"
+
+#: $string['page_managerecordings']
+msgid "Manage Recordings"
+msgstr ""
+
+#: $string['page_manageusers']
+msgid "Manage Users"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "WebEx Meeting administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "WebEx Meeting"
+msgstr "Σύσκεψη WebEx"
+
+#: $string['pluginnamepural']
+msgctxt "$string['pluginnamepural']"
+msgid "WebEx Meetings"
+msgstr "Συσκέψεις WebEx"
+
+#: $string['prefix']
+msgid "Username Prefix"
+msgstr ""
+
+#: $string['prefix_help']
+msgid "This string will be prefixed to all usernames created by this module."
+msgstr ""
+
+#: $string['recordingfileurl']
+msgid "Download"
+msgstr ""
+
+#: $string['recordinglength']
+msgid "({$a->time}, {$a->size})"
+msgstr ""
+
+#: $string['recordingname']
+msgid "Recording name"
+msgstr ""
+
+#: $string['recordings']
+msgid "Recordings"
+msgstr ""
+
+#: $string['recordingsettings']
+msgid "Recordings Settings"
+msgstr ""
+
+#: $string['recordingstreamurl']
+msgid "Play"
+msgstr ""
+
+#: $string['recordingtrashtime']
+msgid "Recording trash time"
+msgstr ""
+
+#: $string['recordingtrashtime_help']
+msgid ""
+"Number of hours a recording will be held before being deleted permanently."
+msgstr ""
+
+#: $string['requiremeetingpassword']
+msgid "Require meeting passwords"
+msgstr ""
+
+#: $string['requiremeetingpassword_help']
+msgid ""
+"Require a user to enter a meeting password. If unchecked, and the meeting "
+"type is marked as requiring a password above, a password will be randomly "
+"generated."
+msgstr ""
+
+#: $string['search:activity']
+msgid "WebEx Meeting - activity information"
+msgstr "Σύσκεψη WebEx - πληροφορίες δραστηριότητας"
+
+#: $string['selectnone']
+msgid "Deselect all"
+msgstr ""
+
+#: $string['settings']
+msgid "WebEx Meeting settings"
+msgstr ""
+
+#: $string['sitename']
+msgid "Site Name"
+msgstr ""
+
+#: $string['sitename_help']
+msgid ""
+"The url part before .webex.com. If your site url was "
+"\"https://example.webex.com\", you would enter \"example\" above."
+msgstr ""
+
+#: $string['startssoon']
+msgid "Starts soon"
+msgstr ""
+
+#: $string['starttime']
+msgid "Start time"
+msgstr "Ώρα έναρξης"
+
+#: $string['stream']
+msgid "Stream"
+msgstr ""
+
+#: $string['studentdownload']
+msgid "Allow students to download recordings"
+msgstr ""
+
+#: $string['studentdownload_help']
+msgid "Allow students access to the download link for recordings."
+msgstr ""
+
+#: $string['studentvisible']
+msgid "Visible to students"
+msgstr ""
+
+#: $string['task_deleterecordings']
+msgid "Purge deleted recordings"
+msgstr ""
+
+#: $string['task_updateallrecordings']
+msgid "Update all recordings"
+msgstr ""
+
+#: $string['task_updatemediumrecordings']
+msgid "Update medium past recordings"
+msgstr ""
+
+#: $string['task_updateopensessions']
+msgid "Update open sessions"
+msgstr ""
+
+#: $string['task_updaterecentrecordings']
+msgid "Update recent past recordings"
+msgstr ""
+
+#: $string['typeforall']
+msgid "Available to all users"
+msgstr ""
+
+#: $string['typeinstalled']
+msgid "Available"
+msgstr ""
+
+#: $string['typemeetingcenter']
+msgid "Meeting Center"
+msgstr ""
+
+#: $string['typemeetingcenter_desc']
+msgctxt "$string['typemeetingcenter_desc']"
+msgid ""
+msgstr ""
+
+#: $string['typepwreq']
+msgid "Meeting password required"
+msgstr ""
+
+#: $string['typetrainingcenter']
+msgid "Training Center"
+msgstr ""
+
+#: $string['typetrainingcenter_desc']
+msgctxt "$string['typetrainingcenter_desc']"
+msgid ""
+msgstr ""
+
+#: $string['undeletelink']
+msgid "<a href=\"{$a->url}\">Undelete</a>"
+msgstr ""
+
+#: $string['unknownhostwebexidexception']
+msgid "WebEx Host ID doesn't exist"
+msgstr ""
+
+#: $string['usereditauto']
+msgid "Your WebEx user is managed internally, and cannot be edited."
+msgstr ""
+
+#: $string['usereditbad']
+msgid "You should not have arrived at this page."
+msgstr ""
+
+#: $string['usereditunabletoload']
+msgid "Unable to load your user from WebEx."
+msgstr ""
+
+#: $string['userexistsexplanation']
+msgid ""
+"Your email address ({$a->email}) is already in user by the WebEx User "
+"<b>{$a->username}</b>. Please enter your WebEx password below."
+msgstr ""
+
+#: $string['webexactivity:addinstance']
+msgid "Add a new WebEx Meeting"
+msgstr ""
+
+#: $string['webexactivity:allavailabletypes']
+msgid "Create meetings of all installed types"
+msgstr ""
+
+#: $string['webexactivity:hostmeeting']
+msgid "Host and manage WebEx Meeting"
+msgstr ""
+
+#: $string['webexactivityname']
+msgid "Meeting name"
+msgstr "Όνομα σύσκεψης"
+
+#: $string['webexactivity:reports']
+msgid "Use WebEx reports"
+msgstr ""
+
+#: $string['webexactivity:view']
+msgid "View WebEx Meeting"
+msgstr "Προβολή Σύσκεψης WebEx"
+
+#: $string['webexid']
+msgid "WebEx ID"
+msgstr ""
+
+#: $string['webexrecordings']
+msgid "WebEx Recordings"
+msgstr ""
+
+#: $string['webexusercollision']
+msgid "Collision with existing WebEx user."
+msgstr ""
+
+#: $string['webexxmlexception']
+msgid ""
+"An error occurred in WebEx while processing XML: {$a->errorcode} {$a->error}"
+msgstr ""

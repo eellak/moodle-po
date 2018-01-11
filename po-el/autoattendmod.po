@@ -1,0 +1,226 @@
+#. extracted from lang/en/autoattendmod.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'autoattendmod', language 'en', branch 'MOODLE_30_STABLE'
+#.  *
+#.  * @package   autoattendmod
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['autoattendmod:addinstance']
+msgid "Add a new auto attendance module"
+msgstr ""
+
+#: $string['autoattendmod_options']
+msgid "Options of Auto Attendance module"
+msgstr ""
+
+#: $string['autoattendmod:receivemail']
+msgid "Receive email notification"
+msgstr ""
+
+#: $string['autoattendmod:view']
+msgid "View module"
+msgstr ""
+
+#: $string['autoattendmod:viewreports']
+msgid "View reports"
+msgstr ""
+
+#: $string['backup_block']
+msgid ""
+"When this course is backupped, attendance data is backedupped that "
+"Autoattendance block maneged."
+msgstr ""
+
+#: $string['backup_block_help']
+msgid ""
+"In this version, Autoattendance block manages attendance data. Even if you "
+"delete a autoattendmod, attendamce data of the course remains on the "
+"database."
+msgstr ""
+
+#: $string['backup_block_title']
+msgid "Backup of Attendance Data"
+msgstr ""
+
+#: $string['description']
+msgid "Description"
+msgstr ""
+
+#: $string['email_allrep']
+msgid "Send all reports to teachers by e-mail"
+msgstr ""
+
+#: $string['email_allrep_help']
+msgid ""
+"If e-mail is enable and you check on this, all days attendances reports are "
+"sent by e-mail. And you check off this, only one attendance report is sent"
+msgstr ""
+
+#: $string['email_allrep_title']
+msgid "Send all Reports"
+msgstr ""
+
+#: $string['email_enable']
+msgid "Enable e-mail notification of attenance data to Teachers"
+msgstr ""
+
+#: $string['email_enable_help']
+msgid ""
+"If you check on this, when a session ended, attendance data is sent to "
+"teachers using e-mail. However, you must add \"Teacher\" to the "
+"autoattendmod:receivemail capability."
+msgstr ""
+
+#: $string['email_enable_title']
+msgid "E-mail Notification to Teachers (Result)"
+msgstr ""
+
+#: $string['email_key']
+msgid "Enable e-mail notification of attendance keyword to Teachers"
+msgstr ""
+
+#: $string['email_key_help']
+msgid ""
+"If you check on this, when a session started, attendance keyword is sent to "
+"teachers using e-mail. However, you must add \"Teacher\" to the "
+"autoattendmod:receivemail capability."
+msgstr ""
+
+#: $string['email_key_title']
+msgid "E-mail Notification to Teachers (Keyword)"
+msgstr ""
+
+#: $string['email_user']
+msgid "Enable e-mail notification of attendance to Students"
+msgstr ""
+
+#: $string['email_user_help']
+msgid ""
+"If you check on this, when attendance of student changes, notification is "
+"sent to student using e-mail. However, you must add \"Student\" to the "
+"autoattendmod:receivemail capability."
+msgstr ""
+
+#: $string['email_user_title']
+msgid "E-mail Notification to Students"
+msgstr ""
+
+#: $string['feedback_disp']
+msgid "Display Feedback link"
+msgstr ""
+
+#: $string['feedback_disp_help']
+msgid "If you check off this, links to the Feedback are not displayed"
+msgstr ""
+
+#: $string['feedback_title']
+msgid "Feedback Link"
+msgstr ""
+
+#: $string['misconfigured']
+msgid "Course is misconfigured"
+msgstr ""
+
+#: $string['modidincorrect']
+msgid "Course Module ID was incorrect"
+msgstr ""
+
+#: $string['modincorrect']
+msgid ""
+"Course module is incorrect<br />It is possible that Auto Attenndance Block "
+"is not installed"
+msgstr ""
+
+#: $string['modulename']
+msgid "Auto Attendance"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"You can add only one module AutoAttendance per course. If you remove this "
+"module it don't affect on attendances! <br />\n"
+"You can use this module only together with block AutoAttendance. Please add "
+"an autoattendand block before adding this module.<br />\n"
+"This module need for semi-automatic attendance and include grades of "
+"attendances to main course's grades."
+msgstr ""
+
+#: $string['modulenameplural']
+msgctxt "$string['modulenameplural']"
+msgid "Autoattend"
+msgstr ""
+
+#: $string['modulenamesimple']
+msgctxt "$string['modulenamesimple']"
+msgid "Autoattend"
+msgstr ""
+
+#: $string['name']
+msgid "Name"
+msgstr ""
+
+#: $string['permit_homeroom']
+msgid "Permit access from Homeroom module"
+msgstr ""
+
+#: $string['permit_homeroom_help']
+msgid ""
+"If you check off this, Homeroom module does not access this autoattend "
+"module/block"
+msgstr ""
+
+#: $string['permit_homeroom_title']
+msgid "Permission for Homeroom"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Auto Attendance Module Admin"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Auto Attendance Module"
+msgstr ""
+
+#: $string['session_num']
+msgid "The number of sessions"
+msgstr ""
+
+#: $string['use_item']
+msgid "use {$a}"
+msgstr ""
+
+#: $string['username_manage']
+msgid "Management of Username"
+msgstr ""
+
+#: $string['username_manage_help']
+msgid "You can select displied name pattern in this module."
+msgstr ""

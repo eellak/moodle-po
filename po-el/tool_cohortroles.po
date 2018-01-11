@@ -1,0 +1,128 @@
+#. extracted from lang/en/tool_cohortroles.php, lang/el/tool_cohortroles.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'tool_cohortroles', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   tool_cohortroles
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['acohortroleassignmentssaved']
+msgid "{$a} cohort role assignments were saved."
+msgstr "Αποθηκεύτηκαν {$a} αναθέσεις ρόλου στην ομάδα χρηστών"
+
+#: $string['assign']
+msgid "Assign"
+msgstr ""
+
+#: $string['assignroletocohort']
+msgid "Assign user-context roles to all cohort members"
+msgstr "Ανάθεση ρόλων στο πλαίσο χρήστη σε όλα τα μέλη της ομάδας χρηστών"
+
+#: $string['backgroundsync']
+msgid ""
+"Note: New cohort role assignments will not take effect immediately. Role "
+"assignment changes will be made by a scheduled task."
+msgstr ""
+"Σημείωση: Οι νέες αναθέσεις ρόλου στην ομάδα χρηστών δεν θα τεθούν σε ισχύ "
+"αμέσως. Οι αλλαγές ανάθεσης ρόλου θα γίνουν από μια προγραμματισμένη "
+"εργασία."
+
+#: $string['cohortroleassignmentnotremoved']
+msgid "The cohort role assignment was not removed."
+msgstr "Η ανάθεση ρόλου στην ομάδα χρηστών δεν αφαιρέθηκε."
+
+#: $string['cohortroleassignmentremoved']
+msgid "The cohort role assignment was removed."
+msgstr "Η ανάθεση ρόλου στην ομάδα χρηστών αφαιρέθηκε."
+
+#: $string['cohortroles']
+msgid "Cohort roles"
+msgstr "Ρόλοι ομάδας χρηστών"
+
+#: $string['existingcohortroles']
+msgid "Existing cohort role assignments"
+msgstr "Υπάρχουσες αναθέσεις ρόλου στην ομάδα χρηστών"
+
+#: $string['managecohortroles']
+msgid "Assign user roles to cohort"
+msgstr "Ανάθεση ρόλων χρήστη στην ομάδα χρηστών"
+
+#: $string['noassignableroles']
+msgid ""
+"There are currently no roles that can be assigned in the user context. <a "
+"href=\"../../roles/manage.php\">Manage roles</a>"
+msgstr ""
+"Δεν έχουν ανατεθεί ρόλοι στο πλαίσιο χρήστη. <a "
+"href=\"../../roles/manage.php\">Διαχείριση ρόλων</a>"
+
+#: $string['nocohortroleassignmentssaved']
+msgid "No cohort role assignments were saved."
+msgstr "Δεν αποθηκεύτηκαν αναθέσεις ρόλου στην ομάδα χρηστών"
+
+#: $string['onecohortroleassignmentsaved']
+msgid "One cohort role assignment was saved."
+msgstr "Αποθηκεύτηκε μια ανάθεση ρόλου στην ομάδα χρηστών"
+
+#: $string['pluginname']
+msgid "Cohort roles management"
+msgstr "Διαχείριση ρόλων ομάδας χρηστών"
+
+#: $string['removecohortroleassignment']
+msgid "Remove cohort role assignment"
+msgstr "Αφαίρεση ανάθεσης ρόλου στην ομάδα χρηστών"
+
+#: $string['removecohortroleassignmentconfirm']
+msgid ""
+"Are you sure you want to remove this cohort role assignment? This role will "
+"be removed for this user in all other user contexts."
+msgstr ""
+"Είστε βέβαιοι ότι θέλετε να αφαιρέσετε αυτήν την ανάθεση ρόλου στην ομάδα "
+"χρηστών; Ο ρόλος αυτός θα αφαιρεθεί για τον χρήστη σε όλες τις άλλες "
+"περιπτώσεις χρήστη."
+
+#: $string['selectcohorts']
+msgid "Select cohorts"
+msgstr "Επιλογή ομάδων χρηστών"
+
+#: $string['selectrole']
+msgid "Select role"
+msgstr ""
+
+#: $string['selectusers']
+msgid "Select users to assign role"
+msgstr ""
+
+#: $string['taskname']
+msgid "Sync cohort role assignments"
+msgstr "Συγχρονισμός αναθέσων ρόλου στην ομάδα χρηστών"
+
+#: $string['thisuserroles']
+msgid "Roles assigned relative to this user"
+msgstr ""

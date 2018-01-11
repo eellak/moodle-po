@@ -1,0 +1,246 @@
+#. extracted from lang/en/local_course_merge.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'local_course_merge', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   local_course_merge
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['childcategorypermissions']
+msgid "You do not have permission to move courses into that category"
+msgstr ""
+
+#: $string['course_merge:categorize_course']
+msgid "Recategorize source courses"
+msgstr ""
+
+#: $string['course_merge:create_course']
+msgctxt "$string['course_merge:create_course']"
+msgid "Create merged course shell"
+msgstr ""
+
+#: $string['course_merge:override_format']
+msgid "Allow override of template format"
+msgstr ""
+
+#: $string['coursemergesamecategory']
+msgid "Courses in the same category"
+msgstr ""
+
+#: $string['coursemergesameparent']
+msgid "Courses with the same parent category"
+msgstr ""
+
+#: $string['coursemergeunlimited']
+msgid "No restrictions"
+msgstr ""
+
+#: $string['coursenameformat']
+msgid "Course name format"
+msgstr ""
+
+#: $string['coursenameformat_desc']
+msgid ""
+"Regular expression describing the standard course fullname. Leave blank to "
+"disable fullname prepopulation."
+msgstr ""
+
+#: $string['coursestomerge']
+msgid "Courses to merge"
+msgstr ""
+
+#: $string['coursestoodeep']
+msgid "The following courses cannot be merged with this course: {$a}"
+msgstr ""
+
+#: $string['create']
+msgctxt "$string['create']"
+msgid "Create merged course shell"
+msgstr ""
+
+#: $string['defaultcategory']
+msgid "Default child course category"
+msgstr ""
+
+#: $string['defaultcategory_desc']
+msgid "Optionally move child courses into this category by default"
+msgstr ""
+
+#: $string['defaultcategorytop']
+msgid "Do not move courses by default"
+msgstr ""
+
+#: $string['extractname']
+msgid "Extract name"
+msgstr ""
+
+#: $string['extractnamedept']
+msgid "Department"
+msgstr ""
+
+#: $string['extractnamedept_desc']
+msgid "The department code. Used to populate [DEPT]."
+msgstr ""
+
+#: $string['extractnameinfo']
+msgid ""
+"Use these settings to define regular expressions for extracting course name "
+"information from a course"
+msgstr ""
+
+#: $string['extractnamenum']
+msgid "Number"
+msgstr ""
+
+#: $string['extractnamenum_desc']
+msgid "The course number. Used to populate [NUM]."
+msgstr ""
+
+#: $string['extractnamesection']
+msgid "Section number"
+msgstr ""
+
+#: $string['extractnamesection_desc']
+msgid "The section number. Used to populate [SECTION]."
+msgstr ""
+
+#: $string['extractnameterm']
+msgid "Term"
+msgstr ""
+
+#: $string['extractnameterm_desc']
+msgid "The term name. Used to populate [TERM]."
+msgstr ""
+
+#: $string['extractnametitle']
+msgid "Course title"
+msgstr ""
+
+#: $string['extractnametitle_desc']
+msgid "The full title of the course. Used to populate [TITLE]."
+msgstr ""
+
+#: $string['extracttermcode']
+msgid "Term code"
+msgstr ""
+
+#: $string['extracttermcode_desc']
+msgid ""
+"The term code. Used to populate [TERMCODE]. Derived from course idnumber."
+msgstr ""
+
+#: $string['generalsettings']
+msgid "General settings"
+msgstr ""
+
+#: $string['generalsettingsinfo']
+msgctxt "$string['generalsettingsinfo']"
+msgid ""
+msgstr ""
+
+#: $string['hidecourses']
+msgid "Hide original courses from students"
+msgstr ""
+
+#: $string['idnumberexists']
+msgid ""
+"Could not create merged course shell: a course with the idnumber {$a} "
+"already exists."
+msgstr ""
+
+#: $string['maxcategorydepth']
+msgid "Maximum category depth"
+msgstr ""
+
+#: $string['maxcategorydepth_desc']
+msgid "Restrict the courses which can be merged together by category depth."
+msgstr ""
+
+#: $string['mergedcourseidnumberformat']
+msgid "Merged course idnumber format"
+msgstr ""
+
+#: $string['mergedcourseidnumberformat_desc']
+msgid "The format to suggest for a merged course idnumber."
+msgstr ""
+
+#: $string['mergedcoursenameformat']
+msgid "Merged course name format"
+msgstr ""
+
+#: $string['mergedcoursenameformat_desc']
+msgid "The format to suggest for a merged course name."
+msgstr ""
+
+#: $string['mergedcourseshortnameformat']
+msgid "Merged course shortname format"
+msgstr ""
+
+#: $string['mergedcourseshortnameformat_desc']
+msgid "The format to suggest for a merged course shortname."
+msgstr ""
+
+#: $string['metalinknotenabled']
+msgid ""
+"This tool requires that the Course Meta Link enrolment method be enabled."
+msgstr ""
+
+#: $string['newchildcategory']
+msgid "Move child courses to this category"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Course Merge Helper"
+msgstr ""
+
+#: $string['respectpermissions']
+msgid "Respect standard permissions"
+msgstr ""
+
+#: $string['respectpermissions_desc']
+msgid ""
+"By default this plugin uses its own capabilities and disregards whether "
+"teachers are allowed to create courses. Check this setting to force the "
+"plugin to respect those permissions."
+msgstr ""
+
+#: $string['shortnameexists']
+msgid ""
+"Could not create merged course: a course with the shortname {$a} already "
+"exists."
+msgstr ""
+
+#: $string['usenametemplates']
+msgid "Use name templates"
+msgstr ""
+
+#: $string['usenametemplates_desc']
+msgid "Use the name extraction settings defined below."
+msgstr ""

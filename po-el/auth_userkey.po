@@ -1,0 +1,137 @@
+#. extracted from lang/en/auth_userkey.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:07+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'auth_userkey', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   auth_userkey
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['auth_userkeydescription']
+msgid "Log in to Moodle using one time user key."
+msgstr ""
+
+#: $string['createuser']
+msgid "Create user?"
+msgstr ""
+
+#: $string['createuser_desc']
+msgid "If enabled, a new user will be created if fail to find one in LMS."
+msgstr ""
+
+#: $string['incorrectkeylifetime']
+msgid "User key life time should be a number"
+msgstr ""
+
+#: $string['incorrectredirecturl']
+msgctxt "$string['incorrectredirecturl']"
+msgid "You should provide valid URL"
+msgstr ""
+
+#: $string['incorrectssourl']
+msgctxt "$string['incorrectssourl']"
+msgid "You should provide valid URL"
+msgstr ""
+
+#: $string['iprestriction']
+msgid "IP restriction"
+msgstr ""
+
+#: $string['iprestriction_desc']
+msgid ""
+"If enabled, a web call has to contain \"ip\" parameter when requesting login "
+"URL.\n"
+"A user has to have provided IP to be able to use a key to login to LMS."
+msgstr ""
+
+#: $string['keylifetime']
+msgid "User key life time"
+msgstr ""
+
+#: $string['keylifetime_desc']
+msgid "Life time in seconds of the each user login key."
+msgstr ""
+
+#: $string['mappingfield']
+msgid "Mapping field"
+msgstr ""
+
+#: $string['mappingfield_desc']
+msgid "This user field will be used to find relevant user in the LMS."
+msgstr ""
+
+#: $string['noip']
+msgid "Unable to fetch IP address of client."
+msgstr ""
+
+#: $string['pluginisdisabled']
+msgid "The userkey authentication plugin is disabled."
+msgstr ""
+
+#: $string['pluginname']
+msgid "User key authentication"
+msgstr ""
+
+#: $string['redirecterrordetected']
+msgid "Unsupported redirect to {$a} detected, execution terminated."
+msgstr ""
+
+#: $string['redirecturl']
+msgid "Logout redirect URL"
+msgstr ""
+
+#: $string['redirecturl_desc']
+msgid ""
+"Optionally you can redirect users to this URL after they logged out from "
+"LMS."
+msgstr ""
+
+#: $string['ssourl']
+msgid "URL of SSO host"
+msgstr ""
+
+#: $string['ssourl_desc']
+msgid ""
+"URL of the SSO host to redirect users to. If defined users will be "
+"redirected here on login instead of the Moodle Login page"
+msgstr ""
+
+#: $string['updateuser']
+msgid "Update user?"
+msgstr ""
+
+#: $string['updateuser_desc']
+msgid ""
+"If enabled, users will be updated with the properties supplied when the "
+"webservice is called."
+msgstr ""
+
+#: $string['userkey:generatekey']
+msgid "Generate login user key"
+msgstr ""

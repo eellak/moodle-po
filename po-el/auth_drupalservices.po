@@ -1,0 +1,216 @@
+#. extracted from lang/en/auth_drupalservices.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'auth_drupalservices', language 'en', branch 'MOODLE_28_STABLE'
+#.  *
+#.  * @package   auth_drupalservices
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['auth_drupalservicescantinsert']
+msgid "Moodle DB error. Cannot insert user: {$a}"
+msgstr ""
+
+#: $string['auth_drupalservicescantupdate']
+msgid "Moodle DB error. Cannot update user: {$a}"
+msgstr ""
+
+#: $string['auth_drupalservices_cohorts']
+msgid "Create cohorts by looking at a custom view on drupal."
+msgstr ""
+
+#: $string['auth_drupalservices_cohorts_key']
+msgid "Create cohorts"
+msgstr ""
+
+#: $string['auth_drupalservices_cohort_view']
+msgid "The path to the cohort view."
+msgstr ""
+
+#: $string['auth_drupalservices_cohort_view_key']
+msgid "Path to cohort view"
+msgstr ""
+
+#: $string['auth_drupalservicescreateaccount']
+msgid "Unable to create Moodle account for user {$a}"
+msgstr ""
+
+#: $string['auth_drupalservicesdeleteuser']
+msgid "Deleted user {$a->name} id {$a->id}"
+msgstr ""
+
+#: $string['auth_drupalservicesdeleteusererror']
+msgid "Error deleting user {$a}"
+msgstr ""
+
+#: $string['auth_drupalservicesdescription']
+msgid ""
+"This authentication plugin enables Single Sign-on (SSO) with Drupal. This "
+"module will look for a Drupal cookie that represents a valid, authenticated "
+"session, and will use it to create an authenticated Moodle session for the "
+"same user. The Drupal user will be synchronized with the corresponding user "
+"in Moodle. If the user does not yet exist in Moodle, it will be created. "
+"Drupal services must be installed and configured on drupal. Please read the "
+"README file for installation instructions."
+msgstr ""
+
+#: $string['auth_drupalservices_host_uri']
+msgid ""
+"Hostname and path of the Drupal site you use for SSO. Include protocol "
+"(http:// or https://) and no trailing slash."
+msgstr ""
+
+#: $string['auth_drupalservices_host_uri_key']
+msgid "Drupal Website URL"
+msgstr ""
+
+#: $string['auth_drupalservices_logout_drupal']
+msgid ""
+"This should normally be checked. If your drupal site is using the masquerade "
+"or devel switch user modules, you will want to disable this to allow for "
+"easier switching between users."
+msgstr ""
+
+#: $string['auth_drupalservices_logout_drupal_key']
+msgid "Log out of Drupal when Moodle Logout happens"
+msgstr ""
+
+#: $string['auth_drupalservicesnorecords']
+msgid "The Drupal database has no user records!"
+msgstr ""
+
+#: $string['auth_drupalservices_remote_pw']
+msgid "This is the remote user password."
+msgstr ""
+
+#: $string['auth_drupalservices_remote_pw_key']
+msgid "Remote user password"
+msgstr ""
+
+#: $string['auth_drupalservices_remote_user']
+msgid ""
+"This is the drupal user used to get index of all users when syncing. Must be "
+"able to get unlimited indexes, so set this permission for this user. See "
+"docs."
+msgstr ""
+
+#: $string['auth_drupalservices_remote_user_key']
+msgid "Remote username"
+msgstr ""
+
+#: $string['auth_drupalservicesremove_user']
+msgid ""
+"Specify what to do with internal user accounts during mass synchronization "
+"when users were removed from Drupal. Only suspended users are automatically "
+"revived if they reappear in Drupal."
+msgstr ""
+
+#: $string['auth_drupalservicesremove_user_key']
+msgid "Removed Drupal User"
+msgstr ""
+
+#: $string['auth_drupalservicessuspenduser']
+msgid "Suspended user {$a->name} id {$a->id}"
+msgstr ""
+
+#: $string['auth_drupalservicessuspendusererror']
+msgid "Error suspending user {$a}"
+msgstr ""
+
+#: $string['auth_drupalservicesupdateuser']
+msgid "Updated user {$a}"
+msgstr ""
+
+#: $string['auth_drupalservicesuserstoremove']
+msgid "User entries to remove: {$a}"
+msgstr ""
+
+#: $string['auth_drupalservicesuserstoupdate']
+msgid "User entries to update: {$a}"
+msgstr ""
+
+#: $string['fieldmap']
+msgid "Drupal value for {$a}"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Drupal Services"
+msgstr ""
+
+#: $string['servicesettings_header']
+msgid "Drupal Webservice Settings"
+msgstr ""
+
+#: $string['servicesettings_header_info']
+msgid ""
+"The following settings tell Moodle how to reach the Drupal Site to establish "
+"SSO."
+msgstr ""
+
+#: $string['servicesettings_header_info_firsttime']
+msgid ""
+"This appears to be the first time this plugin is being configured. Moodle "
+"has attempted to automatically discover\n"
+"  the correct SSO configuration. Please check that the Drupal Host URL is "
+"correct."
+msgstr ""
+
+#: $string['servicestatus_header']
+msgid "Drupal Service Status"
+msgstr ""
+
+#: $string['servicestatus_header_info']
+msgid "The status of the Moodle/Drupal SSO connection is listed below"
+msgstr ""
+
+#: $string['userfieldmap_header']
+msgid "User field mappings"
+msgstr ""
+
+#: $string['userfieldmap_header_desc']
+msgid ""
+"The user field mappings correlate Moodle user profile fields with Drupal "
+"user profile fields. Theses will be updated when users first log in to "
+"moodle, and each time the moodle session refreshes. Should bulk user "
+"importing be configured and enabled below, Moodle user profiles will also be "
+"updated on the next sync run after they are changed."
+msgstr ""
+
+#: $string['userimport_header']
+msgid "User import/migration settings"
+msgstr ""
+
+#: $string['userimport_header_desc']
+msgid ""
+"These settings apply to bulk importing users from Drupal to Moodle via the "
+"sync_users.php script. A user account must be created in Drupal that has the "
+"\"Moodle Services\" role associated with it. That users credentials need to "
+"be supplied below. Each user imported will have profile values that use the "
+"field mappings set in the previous section."
+msgstr ""

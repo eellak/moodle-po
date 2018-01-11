@@ -1,0 +1,232 @@
+#. extracted from lang/en/local_openid_idp.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'local_openid_idp', language 'en', branch 'MOODLE_24_STABLE'
+#.  *
+#.  * @package   local_openid_idp
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['add_rp']
+msgid "Add new site"
+msgstr ""
+
+#: $string['ax_field_city']
+msgid "City"
+msgstr ""
+
+#: $string['ax_field_country']
+msgctxt "$string['ax_field_country']"
+msgid "Country"
+msgstr ""
+
+#: $string['ax_field_email']
+msgctxt "$string['ax_field_email']"
+msgid "Email address"
+msgstr ""
+
+#: $string['ax_field_firstname']
+msgid "First name"
+msgstr ""
+
+#: $string['ax_field_fullname']
+msgctxt "$string['ax_field_fullname']"
+msgid "Full name"
+msgstr ""
+
+#: $string['ax_field_language']
+msgctxt "$string['ax_field_language']"
+msgid "Preferred language"
+msgstr ""
+
+#: $string['ax_field_lastname']
+msgid "Last name"
+msgstr ""
+
+#: $string['ax_field_mobilephone']
+msgid "Mobile phone"
+msgstr ""
+
+#: $string['ax_field_nickname']
+msgctxt "$string['ax_field_nickname']"
+msgid "Username"
+msgstr ""
+
+#: $string['ax_field_phone']
+msgid "Phone"
+msgstr ""
+
+#: $string['ax_field_timezone']
+msgctxt "$string['ax_field_timezone']"
+msgid "Timezone"
+msgstr ""
+
+#: $string['ax_field_url']
+msgid "Web page"
+msgstr ""
+
+#: $string['ax_field_userid']
+msgid "User ID"
+msgstr ""
+
+#: $string['cannot_edit']
+msgid "Adding/editing sites can only be done at the system level"
+msgstr ""
+
+#: $string['confirm_delete']
+msgid "Are you sure you want to remove the site <code>{$a}</code>?"
+msgstr ""
+
+#: $string['description']
+msgid ""
+"This is an OpenID provider for Moodle, which will allow you to use your\n"
+"Moodle account to log in to other sites that support OpenID."
+msgstr ""
+
+#: $string['incorrect_identity']
+msgid "You specified an incorrect OpenID for your account."
+msgstr ""
+
+#: $string['invalid_id']
+msgid "Invalid site ID"
+msgstr ""
+
+#: $string['no_request']
+msgid "There is no OpenID request to process."
+msgstr ""
+
+#: $string['no_trusted_rps']
+msgid "No sites have been configured yet."
+msgstr ""
+
+#: $string['openid_idp:logintoremote']
+msgid "Log into a remote site using OpenID"
+msgstr ""
+
+#: $string['pluginname']
+msgid "OpenID provider"
+msgstr ""
+
+#: $string['rp_added']
+msgid "The site <code>{$a}</code> has been added."
+msgstr ""
+
+#: $string['rp_deleted']
+msgid "The site <code>{$a}</code> has been deleted."
+msgstr ""
+
+#: $string['rp_modified']
+msgid "The site <code>{$a}</code> has been modified."
+msgstr ""
+
+#: $string['rp_url']
+msgid "Site URL"
+msgstr ""
+
+#: $string['sreg_config_sent']
+msgid "User profile fields to send"
+msgstr ""
+
+#: $string['sreg_field_country']
+msgctxt "$string['sreg_field_country']"
+msgid "Country"
+msgstr ""
+
+#: $string['sreg_field_email']
+msgctxt "$string['sreg_field_email']"
+msgid "Email address"
+msgstr ""
+
+#: $string['sreg_field_fullname']
+msgctxt "$string['sreg_field_fullname']"
+msgid "Full name"
+msgstr ""
+
+#: $string['sreg_field_language']
+msgctxt "$string['sreg_field_language']"
+msgid "Preferred language"
+msgstr ""
+
+#: $string['sreg_field_nickname']
+msgctxt "$string['sreg_field_nickname']"
+msgid "Username"
+msgstr ""
+
+#: $string['sreg_field_timezone']
+msgctxt "$string['sreg_field_timezone']"
+msgid "Timezone"
+msgstr ""
+
+#: $string['sreg_optional']
+msgid "Optional information:"
+msgstr ""
+
+#: $string['sreg_requested']
+msgid "The following information was requested:"
+msgstr ""
+
+#: $string['sreg_required']
+msgid "Required information:"
+msgstr ""
+
+#: $string['trust_always']
+msgid "Always allow login"
+msgstr ""
+
+#: $string['trusted_rp_description']
+msgid ""
+"Usually, when you log into another site using OpenID, Moodle will ask for "
+"your confirmation first.  On this page, you can configure which sites will "
+"not ask for confirmation."
+msgstr ""
+
+#: $string['trusted_rp_description_global']
+msgid "These settings will apply to all users on this Moodle site."
+msgstr ""
+
+#: $string['trust_no']
+msgid "Do not log in"
+msgstr ""
+
+#: $string['trust_once']
+msgid "Log in just this once"
+msgstr ""
+
+#: $string['trust_prompt']
+msgid ""
+"Are you sure you want to log into <code>{$a}</code> using your Moodle "
+"account?"
+msgstr ""
+
+#: $string['user_add_rp']
+msgid ""
+"To add a new site, you must first log into the site once using OpenID.  When "
+"prompted to log in using your Moodle account, click on the \"Always allow "
+"login\" button."
+msgstr ""

@@ -1,0 +1,252 @@
+#. extracted from lang/en/atto_recordrtc.php, lang/el/atto_recordrtc.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:14+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'atto_recordrtc', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   atto_recordrtc
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['allowedtypes']
+msgid "Allowed types"
+msgstr ""
+
+#: $string['allowedtypes_desc']
+msgid "Which recording buttons should appear in Atto"
+msgstr ""
+
+#: $string['annotation:audio']
+msgid "Audio annotation"
+msgstr ""
+
+#: $string['annotationprompt']
+msgid "What should the annotation appear as?"
+msgstr ""
+
+#: $string['annotation:video']
+msgid "Video annotation"
+msgstr ""
+
+#: $string['attachrecording']
+msgid "Attach Recording as Annotation"
+msgstr ""
+
+#: $string['audiobitrate']
+msgid "Audio bitrate"
+msgstr "Ρυθμός μετάδοσης δεδομένων ήχου"
+
+#: $string['audiobitrate_desc']
+msgid "Quality of audio recording (larger number means higher quality)"
+msgstr ""
+
+#: $string['audiortc']
+msgid "Insert audio recording"
+msgstr ""
+
+#: $string['both']
+msgid "Audio and Video"
+msgstr ""
+
+#: $string['browseralert']
+msgid "Use Firefox >= 29, Chrome >= 49 or Opera >= 36 for best experience"
+msgstr ""
+
+#: $string['browseralert_title']
+msgid "Warning!"
+msgstr ""
+
+#: $string['gumabort']
+msgid ""
+"Something strange happened which prevented the webcam/microphone from being "
+"used"
+msgstr ""
+
+#: $string['gumabort_title']
+msgid "Something happened"
+msgstr ""
+
+#: $string['gumnotallowed']
+msgid "The user must allow the browser access to the webcam/microphone"
+msgstr ""
+
+#: $string['gumnotallowed_title']
+msgid "Wrong permissions"
+msgstr ""
+
+#: $string['gumnotfound']
+msgid "There is no input device connected or enabled"
+msgstr ""
+
+#: $string['gumnotfound_title']
+msgid "Device missing"
+msgstr ""
+
+#: $string['gumnotreadable']
+msgid ""
+"Something is preventing the browser from accessing the webcam/microphone"
+msgstr ""
+
+#: $string['gumnotreadable_title']
+msgid "Hardware error"
+msgstr ""
+
+#: $string['gumoverconstrained']
+msgid ""
+"The current webcam/microphone can not produce a stream with the required "
+"constraints"
+msgstr ""
+
+#: $string['gumoverconstrained_title']
+msgid "Problem with constraints"
+msgstr ""
+
+#: $string['gumsecurity']
+msgid ""
+"Your browser does not support recording over an insecure connection and must "
+"close the plugin"
+msgstr ""
+
+#: $string['gumsecurity_title']
+msgid "No support for insecure connection"
+msgstr ""
+
+#: $string['gumtype']
+msgid ""
+"Tried to get stream from the webcam/microphone, but no constraints were "
+"specified"
+msgstr ""
+
+#: $string['gumtype_title']
+msgid "No constraints specified"
+msgstr ""
+
+#: $string['insecurealert']
+msgid ""
+"Your browser might not allow this plugin to work unless it is used either "
+"over HTTPS or from localhost"
+msgstr ""
+
+#: $string['insecurealert_title']
+msgid "Insecure connection!"
+msgstr ""
+
+#: $string['nearingmaxsize']
+msgid "You have attained the maximum size limit for file uploads"
+msgstr ""
+
+#: $string['nearingmaxsize_title']
+msgid "Recording stopped"
+msgstr ""
+
+#: $string['norecordingfound']
+msgid ""
+"Something appears to have gone wrong, it seems nothing has been recorded"
+msgstr ""
+
+#: $string['norecordingfound_title']
+msgid "No recording found"
+msgstr ""
+
+#: $string['nowebrtc']
+msgid ""
+"Your browser offers limited or no support for WebRTC technologies yet, and "
+"cannot be used with this plugin. Please switch or upgrade your browser"
+msgstr ""
+
+#: $string['nowebrtc_title']
+msgid "WebRTC not supported"
+msgstr ""
+
+#: $string['onlyaudio']
+msgid "Audio only"
+msgstr ""
+
+#: $string['onlyvideo']
+msgid "Video only"
+msgstr ""
+
+#: $string['pluginname']
+msgid "RecordRTC"
+msgstr ""
+
+#: $string['recordagain']
+msgid "Record Again"
+msgstr ""
+
+#: $string['recordingfailed']
+msgid "Recording failed, try again"
+msgstr ""
+
+#: $string['settings']
+msgid "RecordRTC settings"
+msgstr ""
+
+#: $string['startrecording']
+msgid "Start Recording"
+msgstr ""
+
+#: $string['stoprecording']
+msgid "Stop Recording"
+msgstr ""
+
+#: $string['timelimit']
+msgid "Time limit in seconds"
+msgstr ""
+
+#: $string['timelimit_desc']
+msgid "Maximum recording length allowed for the audio/video clips"
+msgstr ""
+
+#: $string['uploadaborted']
+msgid "Upload aborted:"
+msgstr ""
+
+#: $string['uploadfailed']
+msgid "Upload failed:"
+msgstr ""
+
+#: $string['uploadfailed404']
+msgid "Upload failed: file too large"
+msgstr ""
+
+#: $string['uploadprogress']
+msgid "completed"
+msgstr ""
+
+#: $string['videobitrate']
+msgid "Video bitrate"
+msgstr "Ρυθμός μετάδοσης δεδομένων βίντεο"
+
+#: $string['videobitrate_desc']
+msgid "Quality of video recording (larger number means higher quality)"
+msgstr ""
+
+#: $string['videortc']
+msgid "Insert video recording"
+msgstr ""

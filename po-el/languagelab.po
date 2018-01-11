@@ -1,0 +1,1137 @@
+#. extracted from lang/en/languagelab.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'languagelab', language 'en', branch 'MOODLE_28_STABLE'
+#.  *
+#.  * @package   languagelab
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['adapter_access']
+msgid "Secure access to Red5 Adapter Plugin?"
+msgstr ""
+
+#: $string['adapter_access_help']
+msgid "Is the RAP server protected with a certificate? ie: https"
+msgstr ""
+
+#: $string['adapter_file']
+msgid "File name for the Red5 Adapter Plugin"
+msgstr ""
+
+#: $string['adapter_file_help']
+msgid ""
+"Enter the file name (with no extension) given to you by the Red5 "
+"administrator. The Red5 Adapter Plugin (RAP) is used to manipulate streams "
+"recorded on the Red5 Server. Example: When deleting a Language Lab activity, "
+"the RAP\n"
+"                                    deletes the associated audio and video "
+"files, keeping the Red5 Server clean. In the next release, It will also be "
+"used to backup the audio and video files\n"
+"                                    when doing a Moodle backup. This feature "
+"is not yet available. The file name is used for security reasons. This way "
+"if someone accesses the Red5 server, no default home page will show up.\n"
+"                                    This is the only file in the folder, "
+"making it harder to figure out. Of course, directory browsing must be "
+"disabled."
+msgstr ""
+
+#: $string['adapter_server']
+msgid "Server address to access to the adapter."
+msgstr ""
+
+#: $string['adapter_server_help']
+msgid ""
+"Server address to access to the adapter. Generally the same as the Red5 "
+"server. You can add a port at the end of the server address if different "
+"from the classic http port. (ex: 123.456.789:8081)"
+msgstr ""
+
+#: $string['adminconfig_header']
+msgid ""
+"After complete, you can click <a href=\"{$a}\">here</a> to test the RAP "
+"configuration."
+msgstr ""
+
+#: $string['advanced']
+msgid "Advanced settings"
+msgstr ""
+
+#: $string['agoAfter']
+msgid "ago"
+msgstr ""
+
+#: $string['agoBefore']
+msgctxt "$string['agoBefore']"
+msgid ""
+msgstr ""
+
+#: $string['april']
+msgid "Apr"
+msgstr ""
+
+#: $string['async']
+msgid "Discussion (forum like)"
+msgstr ""
+
+#: $string['attempts']
+msgid "One recording per student"
+msgstr ""
+
+#: $string['attempts_help']
+msgid "Check this box if you want your students to record only to one file."
+msgstr ""
+
+#: $string['attempts_warning']
+msgid ""
+"Note: Only one submission is allowed.<br>You can return and record over the "
+"previous submission. This will delete the previous recording.<br>Only the "
+"last submitted recording will be evaluated"
+msgstr ""
+
+#: $string['august']
+msgid "Aug"
+msgstr ""
+
+#: $string['availabledate']
+msgid "Available from:"
+msgstr ""
+
+#: $string['btnCancel']
+msgctxt "$string['btnCancel']"
+msgid "Cancel"
+msgstr ""
+
+#: $string['btnDiscard']
+msgid "Discard changes"
+msgstr ""
+
+#: $string['cancel']
+msgctxt "$string['cancel']"
+msgid "Cancel"
+msgstr ""
+
+#: $string['classmonitor']
+msgid "Monitor your class"
+msgstr ""
+
+#: $string['classmonitor_help']
+msgid "Click here to access to the class monitor"
+msgstr ""
+
+#: $string['confirmDeleteHistory']
+msgid "Are you sure you want to delete recording"
+msgstr ""
+
+#: $string['connectClient']
+msgid "Connecting..."
+msgstr ""
+
+#: $string['connected_class']
+msgid ""
+"You are now connected with the class. Click on the button Close to finish "
+"the discussion"
+msgstr ""
+
+#: $string['connected_class_btnStop']
+msgctxt "$string['connected_class_btnStop']"
+msgid "Close"
+msgstr ""
+
+#: $string['connected_class_title']
+msgid "Connected with the class"
+msgstr ""
+
+#: $string['connected_error']
+msgid "Connection error"
+msgstr ""
+
+#: $string['connected_no_student_connected']
+msgid "No student connected"
+msgstr ""
+
+#: $string['connected_student']
+msgid ""
+"You are now connected with the student. Click on the button Close to finish "
+"the discussion"
+msgstr ""
+
+#: $string['connected_student_btnStop']
+msgctxt "$string['connected_student_btnStop']"
+msgid "Close"
+msgstr ""
+
+#: $string['connected_student_title']
+msgid "Connected with a student"
+msgstr ""
+
+#: $string['connectiongServer']
+msgid "Connecting to server..."
+msgstr ""
+
+#: $string['content']
+msgid "Language lab"
+msgstr ""
+
+#: $string['corrNotes']
+msgid "Enter correction notes here"
+msgstr ""
+
+#: $string['days']
+msgid "days"
+msgstr ""
+
+#: $string['december']
+msgid "Dec"
+msgstr ""
+
+#: $string['defaultTitleNewRecording']
+msgctxt "$string['defaultTitleNewRecording']"
+msgid "New Recording"
+msgstr ""
+
+#: $string['deletealldata']
+msgid "Delete all students recordings"
+msgstr ""
+
+#: $string['deletealldata_notice']
+msgid "<b>Warning</b>: Deleting all students data is irreversible."
+msgstr ""
+
+#: $string['deleteRecord']
+msgid "Delete"
+msgstr ""
+
+#: $string['deleteRecord_help']
+msgid "Select a record and click to delete it"
+msgstr ""
+
+#: $string['description']
+msgid "Description"
+msgstr ""
+
+#: $string['dialogue']
+msgid "Dialogue"
+msgstr ""
+
+#: $string['disconnectClient']
+msgid "Disconnecting..."
+msgstr ""
+
+#: $string['downloadRecord']
+msgid "Download"
+msgstr ""
+
+#: $string['downloadRecord_help']
+msgid "Click to download Recording"
+msgstr ""
+
+#: $string['duedate']
+msgid "Due date:"
+msgstr ""
+
+#: $string['emailbodydelete']
+msgid ""
+"I would like you to restart your recording. Please return to the activity "
+"and record yourself again."
+msgstr ""
+
+#: $string['emailbodynewreply']
+msgid ""
+"I have added a comment to your recording. Please return to the activity and "
+"listen/read my comments."
+msgstr ""
+
+#: $string['emailgreeting']
+msgid "Hello"
+msgstr ""
+
+#: $string['emailsubject']
+msgid "Activity -"
+msgstr ""
+
+#: $string['emailthankyou']
+msgid "Thank you"
+msgstr ""
+
+#: $string['enableGradebook']
+msgid "Enable gradebook integration to access grading interface"
+msgstr ""
+
+#: $string['error_activity_not_available']
+msgid "This activity is no longer available"
+msgstr ""
+
+#: $string['error_activity_not_available_delete']
+msgid "This activity is no longer available, deletion not possible"
+msgstr ""
+
+#: $string['error_cannot_connect_student']
+msgid "Cannot connect to the student"
+msgstr ""
+
+#: $string['error_delete_notexists']
+msgid "This record was not found, deletion not completed"
+msgstr ""
+
+#: $string['error_delete_permission']
+msgid "You don't have the permission to delete this record"
+msgstr ""
+
+#: $string['error_grade_notsaved']
+msgid "An error has occured during the saving of the grade. Grade not saved."
+msgstr ""
+
+#: $string['error_grade_permission']
+msgid "You don't have the permission to grade a student"
+msgstr ""
+
+#: $string['error_grade_user_notexists']
+msgid "This user not exists for this activity. Grade not saved"
+msgstr ""
+
+#: $string['error_insert_feedback_parent_notexists']
+msgid "The student recording does not exist, the feedback can not be inserted"
+msgstr ""
+
+#: $string['error_insert_feedback_permission']
+msgid "You don't have the permission to create a feedback"
+msgstr ""
+
+#: $string['error_missing_camera']
+msgid "No camera detected. Please, connect a camera and restart the browser."
+msgstr ""
+
+#: $string['error_missing_microphone']
+msgid ""
+"No microphone detected. Please, connect a microphone and restart the "
+"browser."
+msgstr ""
+
+#: $string['error_record_save']
+msgid "An error has occured, recording not saved"
+msgstr ""
+
+#: $string['errorTitle']
+msgid "Error"
+msgstr ""
+
+#: $string['error_user_max_attempts']
+msgid ""
+"You can't create anymore recordings. You have to delete one recording in "
+"order to create a new one"
+msgstr ""
+
+#: $string['february']
+msgid "Feb"
+msgstr ""
+
+#: $string['feedback']
+msgid "Feedback"
+msgstr ""
+
+#: $string['filterStudents']
+msgid "Students filter:"
+msgstr ""
+
+#: $string['filterStudents_help']
+msgid "Type student's name to display only this student"
+msgstr ""
+
+#: $string['folder']
+msgid "The name of the folder on the Red5 Server where files are saved"
+msgstr ""
+
+#: $string['folder_help']
+msgid "Type the name of the folder where are saved files for THIS moodle."
+msgstr ""
+
+#: $string['friday']
+msgid "Fri"
+msgstr ""
+
+#: $string['fullscreen_student']
+msgid "Student interface in fullscreen"
+msgstr ""
+
+#: $string['fullscreen_student_help']
+msgid ""
+"If this option is checked, student will have the language lab in fullscreen "
+"mode without a header/footer or blocs. (depends on the theme)"
+msgstr ""
+
+#: $string['general']
+msgid "General"
+msgstr ""
+
+#: $string['goBackCourse']
+msgctxt "$string['goBackCourse']"
+msgid "Go back to course"
+msgstr ""
+
+#: $string['goBackCourse_help']
+msgctxt "$string['goBackCourse_help']"
+msgid "Go back to course"
+msgstr ""
+
+#: $string['grade']
+msgid "Grade"
+msgstr ""
+
+#: $string['gradeStudentWithRecordings']
+msgid "Only students with at least one recording can be graded"
+msgstr ""
+
+#: $string['grading']
+msgid "Grading"
+msgstr ""
+
+#: $string['group_type']
+msgid "Group type"
+msgstr ""
+
+#: $string['group_type_help']
+msgid ""
+"<b>Note: Only use this setting if you are using seperate groups or visible "
+"groups</b><br>\n"
+"                               <ul><li><i>Discussion:</i> Use this type if "
+"you would like your students to record asynchronously. A forum like thread "
+"will display the conversation</li>\n"
+"                               <li><i>Dialogue:</i> Use this type if you "
+"want your group of students to have a recorded conversation.</li></ul>"
+msgstr ""
+
+#: $string['hours']
+msgid "hours"
+msgstr ""
+
+#: $string['january']
+msgid "Jan"
+msgstr ""
+
+#: $string['july']
+msgid "Jul"
+msgstr ""
+
+#: $string['june']
+msgid "Jun"
+msgstr ""
+
+#: $string['languagelab']
+msgctxt "$string['languagelab']"
+msgid "Language lab - OWLL"
+msgstr ""
+
+#: $string['languagelab:addinstance']
+msgid "Add a new Language lab"
+msgstr ""
+
+#: $string['languagelab:manage']
+msgid "Language lab: Manager."
+msgstr ""
+
+#: $string['languagelab:studentview']
+msgid "Language lab: Student view."
+msgstr ""
+
+#: $string['languagelab:teacherview']
+msgid "Language lab: Teacher view."
+msgstr ""
+
+#: $string['languagelab:view']
+msgid "View Language lab"
+msgstr ""
+
+#: $string['listened']
+msgid "Your teacher is listening you right now"
+msgstr ""
+
+#: $string['listRecordings']
+msgctxt "$string['listRecordings']"
+msgid "Recordings"
+msgstr ""
+
+#: $string['listRecordings_help']
+msgid "Click here to open the recordings in a pop-up"
+msgstr ""
+
+#: $string['LLnext']
+msgid "Next"
+msgstr ""
+
+#: $string['LLnext_help']
+msgid "Go to next language lab"
+msgstr ""
+
+#: $string['LLprevious']
+msgid "Previous"
+msgstr ""
+
+#: $string['LLprevious_help']
+msgid "Go to previous language lab"
+msgstr ""
+
+#: $string['load_prev_master']
+msgid "Revert to previous mastertrack"
+msgstr ""
+
+#: $string['march']
+msgid "Mar"
+msgstr ""
+
+#: $string['master_track']
+msgid "Master track (mp3 only)"
+msgstr ""
+
+#: $string['master_track_file']
+msgid "Master track currently used"
+msgstr ""
+
+#: $string['master_track_help']
+msgid ""
+"Similarily, if you have previous recordings in MP3 format, you can choose to "
+"upload the MP3 file and use it as the Master Track.\n"
+"                                If you do use the MP3 file, it is important "
+"that you check the following checkbox '<i>Use the Uploaded MP3 as Master "
+"Track.</i>' Otherwise, the manually\n"
+"                                recorded track above will be used.<br>If you "
+"have previously uploaded an MP3, but would like to use the manual "
+"recording, uncheck the checkbox\n"
+"                                from '<i>Use the Uploaded MP3 as Master "
+"Track.</i>'"
+msgstr ""
+
+#: $string['master_track_recorder']
+msgid "Master track"
+msgstr ""
+
+#: $string['master_track_recorder_help']
+msgid ""
+"A master track is an audio sample with blank spaces allowing students to\n"
+"                                record themselves during the blank "
+"spaces.<br>Simply press the round record button and record your\n"
+"                                exercise. For example, you could record the "
+"following exercise:\n"
+"                                <ul><li>\n"
+"                                Please say the word bonjour <i>(leave a 5 "
+"second pause)</i> Now, say the words bon soir <i>(again, leave a 5 second "
+"pause)</i>\n"
+"                                </li></ul> This recording will play back "
+"when the student presses the record button. During the 5 second pauses, the "
+"student can say the\n"
+"                                words and they will be recorded. As the "
+"teacher, when you listen to the student recordings, the Master Track will be "
+"played with the students response\n"
+"                                allowing you to easliy compare.<br>Note: We "
+"had to integrate in this fashion because Flash does not\n"
+"                                allow pausing while recording."
+msgstr ""
+
+#: $string['max_users']
+msgid "Maximum number of users."
+msgstr ""
+
+#: $string['max_users_help']
+msgid "Maximum number of users that can use the language lab simultaniously."
+msgstr ""
+
+#: $string['may']
+msgid "May"
+msgstr ""
+
+#: $string['message']
+msgid "You may type a message here."
+msgstr ""
+
+#: $string['micConfig']
+msgid "Configuration"
+msgstr ""
+
+#: $string['minutes']
+msgid "minutes"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Language lab - OWLL"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"OWLL (OOHOO Web-based Language Lab) is a Moodle plugin replicating all "
+"functions of a traditional language lab, with added features that stem from "
+"its being web-based.\n"
+"It allows for synchronous as well as asynchronous use, in a face-to-face as "
+"well as in a distance learning setting."
+msgstr ""
+
+#: $string['modulename_link']
+msgid ""
+"http://oohoo.biz/index.php/en/plug-ins/language-learning/owll-oohoo-web-"
+"based-language-lab/"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Language labs - OWLL"
+msgstr ""
+
+#: $string['monday']
+msgid "Mon"
+msgstr ""
+
+#: $string['months']
+msgid "months"
+msgstr ""
+
+#: $string['name']
+msgid "Activity name"
+msgstr ""
+
+#: $string['newMastertrack']
+msgid "New Mastertrack"
+msgstr ""
+
+#: $string['newRecording']
+msgctxt "$string['newRecording']"
+msgid "New Recording"
+msgstr ""
+
+#: $string['newReply']
+msgid "Teacher reply"
+msgstr ""
+
+#: $string['no_available_date']
+msgid "No start date entered."
+msgstr ""
+
+#: $string['no_due_date']
+msgid "No due date entered."
+msgstr ""
+
+#: $string['nonStreamingBasePath']
+msgid "HTTP Path to audio/video files."
+msgstr ""
+
+#: $string['nonStreamingBasePath_help']
+msgid ""
+"This is a path to the actual audio/video files through http. This is "
+"required for improved scrubbing. You can leave this blank if you do not have "
+"this path."
+msgstr ""
+
+#: $string['norappermission']
+msgid "You do not have the required permissions to view this page."
+msgstr ""
+
+#: $string['not_available']
+msgid ""
+"This activity expired. You can read/listen to your teachers notes. However, "
+"you will be unable to do any new recordings."
+msgstr ""
+
+#: $string['note_play_mastertrack']
+msgid ""
+"<i><b>Note: </b> If you upload a MP3 master track, this sound will not be "
+"able to be played in the player above until you save this form.</i>"
+msgstr ""
+
+#: $string['notesCorrection']
+msgid "Notes & Correction"
+msgstr ""
+
+#: $string['november']
+msgid "Nov"
+msgstr ""
+
+#: $string['october']
+msgid "Oct"
+msgstr ""
+
+#: $string['playeroptionsBtnOk']
+msgid "Ok"
+msgstr ""
+
+#: $string['playeroptionstxt1']
+msgid ""
+"In order to use the Language Lab, you need to authorize access to your "
+"microphone. To do so:"
+msgstr ""
+
+#: $string['playeroptionstxt2']
+msgid "On the tab \"{$a} Privacy\""
+msgstr ""
+
+#: $string['playeroptionstxt3']
+msgid "Select \"{$a} Allow\""
+msgstr ""
+
+#: $string['playeroptionstxt4']
+msgid "Check the {$a} box next to Remember"
+msgstr ""
+
+#: $string['playeroptionstxt5']
+msgid "Click on Close"
+msgstr ""
+
+#: $string['playeroptionstxt6']
+msgid "Click on OK at the bottom of the window to save your changes."
+msgstr ""
+
+#: $string['pluginadministration']
+msgctxt "$string['pluginadministration']"
+msgid "Language lab - OWLL"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Language lab - OWLL"
+msgstr ""
+
+#: $string['prefix']
+msgid "Enter a prefix for recorded streams."
+msgstr ""
+
+#: $string['prefix_help']
+msgid ""
+"The prefix here is usefull if the red5 server is used to stream other "
+"material. You will be able to easily identify recorded streams"
+msgstr ""
+
+#: $string['prerequisitesNotMet']
+msgid "Target server unspecified. Contact your webmaster."
+msgstr ""
+
+#: $string['previous_recording']
+msgid "Your previous recordings:"
+msgstr ""
+
+#: $string['prev_next_lab']
+msgid "Add Prev/Next buttons"
+msgstr ""
+
+#: $string['prev_next_lab_help']
+msgid ""
+"Add two buttons Previous and Next at the bottom of the activity in order to "
+"go to the previous or next language lab of the course."
+msgstr ""
+
+#: $string['privateNotes']
+msgid "Private Notes"
+msgstr ""
+
+#: $string['raiseHand']
+msgid "Raise hand"
+msgstr ""
+
+#: $string['raiseHand_help']
+msgid "Click here to raise your hand to your teacher"
+msgstr ""
+
+#: $string['recorderdescription']
+msgid "Recorder"
+msgstr ""
+
+#: $string['recording_exists']
+msgid ""
+"Notice: you already have a recording. Please review the recording before "
+"pressing the record button.<br>Pressing the record button will erase the "
+"previous recording."
+msgstr ""
+
+#: $string['recording_failed_save']
+msgid "Failed to save your recording to the database"
+msgstr ""
+
+#: $string['recordingRequired']
+msgid "You have to record before submit"
+msgstr ""
+
+#: $string['recordings']
+msgctxt "$string['recordings']"
+msgid "Recordings"
+msgstr ""
+
+#: $string['recording_saved']
+msgid "Your recording has been submitted"
+msgstr ""
+
+#: $string['recordingsHistory']
+msgctxt "$string['recordingsHistory']"
+msgid "Recordings"
+msgstr ""
+
+#: $string['recording_timelimit']
+msgid "Recoding time limit in minutes. (0 = unlimited)"
+msgstr ""
+
+#: $string['recordingTitle']
+msgid "Title"
+msgstr ""
+
+#: $string['red5config']
+msgid ""
+"Enter the IP address or the fully qualified name for your red5 server. "
+"Localhost will not work!"
+msgstr ""
+
+#: $string['red5server']
+msgid "Path to your Red5 server"
+msgstr ""
+
+#: $string['red5serverfolder']
+msgid "Path to your Red5 server folder (ex: oflaDemo)"
+msgstr ""
+
+#: $string['red5serverfolder_help']
+msgid ""
+"Your RTMP server first folder. This folder is the application that read and "
+"record files."
+msgstr ""
+
+#: $string['red5server_help']
+msgid ""
+"Enter the IP address or the fully qualified name for your red5 server. "
+"Localhost will not work! You can specify the port if different from default "
+"at the end (ex: 123.456.789:12345)"
+msgstr ""
+
+#: $string['red5serverprotocol']
+msgid "Your RTMP server protocol"
+msgstr ""
+
+#: $string['red5serverprotocol_help']
+msgid "The protocol of your RTMP server. Generally rtmp."
+msgstr ""
+
+#: $string['reFeedBack']
+msgid "Re:"
+msgstr ""
+
+#: $string['refresh']
+msgid "Refresh History"
+msgstr ""
+
+#: $string['salt']
+msgid "Password salt value:"
+msgstr ""
+
+#: $string['salt_help']
+msgid ""
+"Enter the password salt value for your red5 instance as provided by your "
+"red5 administrator."
+msgstr ""
+
+#: $string['saturday']
+msgid "Sat"
+msgstr ""
+
+#: $string['search']
+msgid "Search:"
+msgstr ""
+
+#: $string['seconds']
+msgid "seconds"
+msgstr ""
+
+#: $string['secondsRefreshClassmonitor']
+msgid "Nb of microseconds before the next auto class monitor refresh"
+msgstr ""
+
+#: $string['secondsRefreshClassmonitor_help']
+msgid ""
+"Type the number of microseconds to auto refresh the students list in the "
+"class monitor."
+msgstr ""
+
+#: $string['secondsRefreshHistory']
+msgid "Nb of microseconds before the next auto history refresh"
+msgstr ""
+
+#: $string['secondsRefreshHistory_help']
+msgid "Type the number of microseconds to auto refresh the recordings."
+msgstr ""
+
+#: $string['secondsRefreshStudentView']
+msgid "Nb of microseconds before the next auto refresh for students"
+msgstr ""
+
+#: $string['secondsRefreshStudentView_help']
+msgid ""
+"Type the number of microseconds to auto refresh the student view. Used for "
+"the live"
+msgstr ""
+
+#: $string['select_group_type']
+msgid "Select group type"
+msgstr ""
+
+#: $string['september']
+msgid "Sept"
+msgstr ""
+
+#: $string['simplified_interface_student']
+msgid "Simplified interface for students"
+msgstr ""
+
+#: $string['simplified_interface_student_help']
+msgid ""
+"If you want a simplified interface for the student with just the recorder "
+"and the submit button. Only available if \"one recording per student\" is "
+"activated."
+msgstr ""
+
+#: $string['speakToClass']
+msgid "Speak to class"
+msgstr ""
+
+#: $string['speakToClasshelp']
+msgid "Allow you to speak in live to all online students"
+msgstr ""
+
+#: $string['startOver']
+msgid "Require student to start over"
+msgstr ""
+
+#: $string['stealth']
+msgid "Stealth"
+msgstr ""
+
+#: $string['stealthActive']
+msgid "Currently Active"
+msgstr ""
+
+#: $string['stealthInactive']
+msgid "Currently Inactive"
+msgstr ""
+
+#: $string['stealthMode']
+msgid "Activate stealth mode?"
+msgstr ""
+
+#: $string['stealthMode_help']
+msgid ""
+"When activated, students will not know that they are being monitored when "
+"the teacher uses the classroom monitor."
+msgstr ""
+
+#: $string['student_delete_recordings']
+msgid "Allow students to delete their recordings"
+msgstr ""
+
+#: $string['student_delete_recordings_help']
+msgid ""
+"If this checkbox is checked, students can delete their recordings, except: "
+"if there is a teacher answer to this recording, the activity is unavailable"
+msgstr ""
+
+#: $string['student_recording']
+msgid "Students recording"
+msgstr ""
+
+#: $string['studentsOffline']
+msgid "Students offline"
+msgstr ""
+
+#: $string['studentsOnline']
+msgid "Students online"
+msgstr ""
+
+#: $string['subject']
+msgctxt "$string['subject']"
+msgid "Recording"
+msgstr ""
+
+#: $string['submit']
+msgctxt "$string['submit']"
+msgid "Submit"
+msgstr ""
+
+#: $string['submitBlank']
+msgctxt "$string['submitBlank']"
+msgid "Submit"
+msgstr ""
+
+#: $string['submitChanges']
+msgid "Submit changes"
+msgstr ""
+
+#: $string['submitGrade']
+msgctxt "$string['submitGrade']"
+msgid "Submit"
+msgstr ""
+
+#: $string['submitGrade_help']
+msgid "Click to submit the student grade"
+msgstr ""
+
+#: $string['submitNew']
+msgid "Submit recording"
+msgstr ""
+
+#: $string['submitRecord']
+msgctxt "$string['submitRecord']"
+msgid "Submit"
+msgstr ""
+
+#: $string['submitRecord_help']
+msgid "Click to submit your record"
+msgstr ""
+
+#: $string['submit_recording']
+msgid "Submit your recording"
+msgstr ""
+
+#: $string['sunday']
+msgid "Sun"
+msgstr ""
+
+#: $string['talkToStudent_help']
+msgid "Click here to talk to this student"
+msgstr ""
+
+#: $string['teacher_class_speak']
+msgid "<div class=\"dialogTeacherPic\">{$a}</div> <br />talk to the class"
+msgstr ""
+
+#: $string['teacher_class_speak_title']
+msgid "The teacher speak to the class"
+msgstr ""
+
+#: $string['teacher_student_speak']
+msgid ""
+"<div class=\"dialogTeacherPic\">{$a}</div> <br />has started a discussion with "
+"you. You are now connected."
+msgstr ""
+
+#: $string['teacher_student_speak_title']
+msgid "Discussion with a teacher"
+msgstr ""
+
+#: $string['thumbsUp_help']
+msgid "Clic here to send a &quot;Thumbs Up&quot; to this student"
+msgstr ""
+
+#: $string['thumbsup_student']
+msgid "Good Job!"
+msgstr ""
+
+#: $string['thursday']
+msgid "Thur"
+msgstr ""
+
+#: $string['timesOut']
+msgid "Time is up"
+msgstr ""
+
+#: $string['titleConfirm']
+msgid "Confirmation"
+msgstr ""
+
+#: $string['titlePlayerOptions']
+msgid "Microphone options"
+msgstr ""
+
+#: $string['titleRecording']
+msgctxt "$string['titleRecording']"
+msgid "Recording"
+msgstr ""
+
+#: $string['tuesday']
+msgid "Tues"
+msgstr ""
+
+#: $string['use_grade_book']
+msgid "Use grade book"
+msgstr ""
+
+#: $string['use_grade_book_help']
+msgid ""
+"By default, no grading will be given for language lab activities. That way "
+"you can create as many language activities\n"
+"                                   for exercise purposes, without filling up "
+"your gradebook. If you do want to grade this particular activity, check "
+"this box."
+msgstr ""
+
+#: $string['use_mp3']
+msgid "Use the Uploaded MP3 as master track?"
+msgstr ""
+
+#: $string['use_mp3_help']
+msgid ""
+"If you use an uploaded file, you want to make sure that the check box is "
+"checked. Otherwise, when saving, the Manual recording will be\n"
+"                            used as the Master track. On the other hand, if "
+"you do want to use the manual recording, make sure that this check box is "
+"unchecked. Remember to save the changes"
+msgstr ""
+
+#: $string['use_video']
+msgid "Allow video"
+msgstr ""
+
+#: $string['video']
+msgid "Allowing video."
+msgstr ""
+
+#: $string['video_help']
+msgid ""
+"Check this box if you would like your students to use video and audio while "
+"recording. This can be helpful, for example, for sign language."
+msgstr ""
+
+#: $string['video_unavailable']
+msgid "Video option under development."
+msgstr ""
+
+#: $string['warningLossOfWork']
+msgid ""
+"You are attempting to navigate away from a recording on which you made "
+"submitable changes. Are you sure you want to discard your changes?"
+msgstr ""
+
+#: $string['wednesday']
+msgid "Wed"
+msgstr ""
+
+#: $string['weeks']
+msgid "weeks"
+msgstr ""
+
+#: $string['words']
+msgid "List of words for the students to record"
+msgstr ""
+
+#: $string['XMLLoadFail']
+msgid "XML couldn't be loaded. Contact your webmaster."
+msgstr ""
+
+#: $string['years']
+msgid "years"
+msgstr ""

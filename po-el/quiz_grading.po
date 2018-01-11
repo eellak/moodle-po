@@ -1,0 +1,281 @@
+#. extracted from lang/en/quiz_grading.php, lang/el/quiz_grading.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:14+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'quiz_grading', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   quiz_grading
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['alldoneredirecting']
+msgid ""
+"All selected attempts have been graded. Returning to the list of questions."
+msgstr ""
+
+#: $string['alreadygraded']
+msgid "Already graded"
+msgstr ""
+
+#: $string['alsoshowautomaticallygraded']
+msgid "Also show questions that have been graded automatically"
+msgstr ""
+
+#: $string['attemptstograde']
+msgid "Attempts to grade"
+msgstr ""
+
+#: $string['automaticallygraded']
+msgid "Automatically graded"
+msgstr ""
+
+#: $string['backtothelistofquestions']
+msgid "Back to the list of questions"
+msgstr ""
+
+#: $string['bydate']
+msgid "By date"
+msgstr ""
+
+#: $string['bystudentfirstname']
+msgid "By student first name"
+msgstr ""
+
+#: $string['bystudentidnumber']
+msgid "By student id number"
+msgstr ""
+
+#: $string['bystudentlastname']
+msgid "By student last name"
+msgstr ""
+
+#: $string['cannotgradethisattempt']
+msgid "Cannot grade this attempt."
+msgstr ""
+
+#: $string['cannotloadquestioninfo']
+msgid "Unable to load questiontype specific question information"
+msgstr ""
+"Δεν ήταν δυνατόν να φορτωθούν οι πληροφορίες ερώτησεις για τον συγκεκριμένο "
+"τύπο ερωτήσεων"
+
+#: $string['changeoptions']
+msgid "Change options"
+msgstr ""
+
+#: $string['essayonly']
+msgid "The following questions need to be graded manually"
+msgstr "Οι παρακάτω ερωτήσεις πρέπει να βαθμολογηθούν χειροκίνητα"
+
+#: $string['grade']
+msgid "grade"
+msgstr ""
+
+#: $string['gradeall']
+msgid "grade all"
+msgstr "Βαθμολόγηση και των {$a} προσπαθειών"
+
+#: $string['gradeattemptsall']
+msgid "All ({$a})"
+msgstr ""
+
+#: $string['gradeattemptsautograded']
+msgid "Those that have been graded automatically ({$a})"
+msgstr ""
+
+#: $string['gradeattemptsmanuallygraded']
+msgid "Those that have previously been graded manually ({$a})"
+msgstr ""
+
+#: $string['gradeattemptsneedsgrading']
+msgid "Those that need grading ({$a})"
+msgstr ""
+
+#: $string['graded']
+msgid "(graded)"
+msgstr "(βαθμολογημένο)"
+
+#: $string['gradenextungraded']
+msgid "Grade next {$a} ungraded attempts"
+msgstr "Βαθμολόγηση των επόμενων {$a} μη βαθμολογημένων προσπαθειών"
+
+#: $string['gradeungraded']
+msgid "Grade all {$a} ungraded attempts"
+msgstr "Βαθμολόγηση και των {$a} μη βαθμολογημένων προσπαθειών"
+
+#: $string['grading']
+msgctxt "$string['grading']"
+msgid "Manual grading"
+msgstr "Χειροκίνητη βαθμολόγηση"
+
+#: $string['gradingall']
+msgid "All {$a} attempts on this question."
+msgstr "Και οι {$a} προσπάθειες σε αυτή την ερώτηση."
+
+#: $string['gradingattempt']
+msgid "Attempt number {$a->attempt} for {$a->fullname}"
+msgstr "Προσπάθεια υπαριθμόν {$a->attempt} για τον {$a->fullname}"
+
+#: $string['gradingattemptsxtoyofz']
+msgid "Grading attempts {$a->from} to {$a->to} of {$a->of}"
+msgstr ""
+
+#: $string['gradingattemptwithidnumber']
+msgid "Attempt number {$a->attempt} for {$a->fullname} ({$a->idnumber})"
+msgstr ""
+
+#: $string['grading:componentname']
+msgctxt "$string['grading:componentname']"
+msgid "Manual grading report"
+msgstr "Αναφορά χειροκίνητης βαθμολόγησης"
+
+#: $string['gradingnextungraded']
+msgid "Next {$a} ungraded attempts"
+msgstr "Επόμενες {$a} μη βαθμολογημένες προσπάθειες"
+
+#: $string['gradingnotallowed']
+msgid "You do not have permission to manually grade responses in this quiz"
+msgstr ""
+"Δεν έχετε το δικαίωμα να βαθμολογήσετε χειροκίνητα απαντήσεις σε αυτό το "
+"κουίζ"
+
+#: $string['gradingquestionx']
+msgid "Grading question {$a->number}: {$a->questionname}"
+msgstr ""
+
+#: $string['gradingreport']
+msgctxt "$string['gradingreport']"
+msgid "Manual grading report"
+msgstr "Αναφορά χειροκίνητης βαθμολόγησης"
+
+#: $string['gradingungraded']
+msgid "{$a} ungraded attempts"
+msgstr "{$a} μη βαθμολογημένες προσπάθειες"
+
+#: $string['gradinguser']
+msgid "Attempts for {$a}"
+msgstr "Προσπάθειες για {$a}"
+
+#: $string['grading:viewidnumber']
+msgid "See student idnumbers while grading"
+msgstr "Εμφάνιση των idnumbers των μαθητών κατά τη διάρκεια της βαθμολόγησης"
+
+#: $string['grading:viewstudentnames']
+msgid "See student names while grading"
+msgstr "Εμφάνιση των ονομάτων των μαθητών κατά τη διάρκεια της βαθμολόγησης"
+
+#: $string['hideautomaticallygraded']
+msgid "Hide questions that have been graded automatically"
+msgstr ""
+
+#: $string['inprogress']
+msgid "In progress"
+msgstr "Σε εξέλιξη"
+
+#: $string['invalidattemptid']
+msgid "No such attempt ID exists"
+msgstr "Δεν υπάρχει τέτοιο αναγνωριστικό προσπάθειας"
+
+#: $string['invalidquestionid']
+msgid "Gradeable question with id {$a} not found"
+msgstr "Η βαθμολογήσιμη ερώτηση με αναγνωριστικό {$a} δεν βρέθηκε"
+
+#: $string['noquestionsfound']
+msgid "No manually graded questions found"
+msgstr ""
+
+#: $string['nothingfound']
+msgid "Nothing to display"
+msgstr ""
+
+#: $string['options']
+msgid "Options"
+msgstr "Επιλογές"
+
+#: $string['orderattempts']
+msgid "Order attempts"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Manual grading"
+msgstr "Χειροκίνητη βαθμολόγηση"
+
+#: $string['qno']
+msgid "Q #"
+msgstr ""
+
+#: $string['questionname']
+msgid "Question name"
+msgstr ""
+
+#: $string['questionsperpage']
+msgid "Questions per page"
+msgstr ""
+
+#: $string['questionsthatneedgrading']
+msgid "Questions that need grading"
+msgstr ""
+
+#: $string['questiontitle']
+msgid ""
+"Question {$a->number} : \"{$a->name}\" "
+"({$a->openspan}{$a->gradedattempts}{$a->closespan} / {$a->totalattempts} "
+"attempts {$a->openspan}graded{$a->closespan})."
+msgstr ""
+"Ερώτηση {$a->number} : \"{$a->name}\" "
+"({$a->openspan}{$a->gradedattempts}{$a->closespan} / {$a->totalattempts} "
+"προσπάθειες {$a->openspan}βαθμολογημένες{$a->closespan})."
+
+#: $string['randomly']
+msgid "Randomly"
+msgstr ""
+
+#: $string['saveandnext']
+msgid "Save and go to next page"
+msgstr ""
+
+#: $string['showstudentnames']
+msgid "Show student names"
+msgstr ""
+
+#: $string['tograde']
+msgid "To grade"
+msgstr ""
+
+#: $string['total']
+msgid "Total"
+msgstr ""
+
+#: $string['unknownquestion']
+msgid "Unknown question"
+msgstr ""
+
+#: $string['updategrade']
+msgid "update grades"
+msgstr ""

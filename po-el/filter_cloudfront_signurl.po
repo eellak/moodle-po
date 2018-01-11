@@ -1,0 +1,83 @@
+#. extracted from lang/en/filter_cloudfront_signurl.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'filter_cloudfront_signurl', language 'en', branch 'MOODLE_29_STABLE'
+#.  *
+#.  * @package   filter_cloudfront_signurl
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['distributionurl']
+msgid "Distribution base URLs"
+msgstr ""
+
+#: $string['distributionurldesc']
+msgid ""
+"The cloudfront URLs of the distributions e.g. d111111abcdef8.cloudfront.net"
+msgstr ""
+
+#: $string['errornokeyid']
+msgid "Missing Key Pair ID"
+msgstr ""
+
+#: $string['errornoprivatekey']
+msgid "Missing Key Private SSH Key File"
+msgstr ""
+
+#: $string['errornourl']
+msgid "No distribution URL provided"
+msgstr ""
+
+#: $string['filtername']
+msgid "Cloudfront URL Signer"
+msgstr ""
+
+#: $string['keyid']
+msgid "Key Pair ID"
+msgstr ""
+
+#: $string['keyiddesc']
+msgid "The ID of the AWS Key Pair to use for signing"
+msgstr ""
+
+#: $string['privatekey']
+msgid "SSH Private Key"
+msgstr ""
+
+#: $string['privatekeydesc']
+msgid "SSH Private Key file to use for signing"
+msgstr ""
+
+#: $string['validduration']
+msgid "Validity Duration"
+msgstr ""
+
+#: $string['validdurationdesc']
+msgid "How long should the signed URL be valid for"
+msgstr ""

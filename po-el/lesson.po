@@ -1,0 +1,2875 @@
+#. extracted from lang/en/lesson.php, lang/el/lesson.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'lesson', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   lesson
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['accesscontrol']
+msgid "Access control"
+msgstr "Έλεγχος πρόσβασης"
+
+#: $string['actionaftercorrectanswer']
+msgid "Action after correct answer"
+msgstr "Ενέργεια μετά από σωστή απάντηση"
+
+#: $string['actionaftercorrectanswer_help']
+msgid ""
+"After answering a question correctly, there are 3 options for the following "
+"page:\n"
+"\n"
+"* Normal - Follow lesson path\n"
+"* Show an unseen page - Pages are shown in a random order with no page shown "
+"twice\n"
+"* Show an unanswered page - Pages are shown in a random order, with pages "
+"containing unanswered questions shown again"
+msgstr ""
+"Έπειτα από τη σωστή απάντηση σε μία ερώτηση, υπάρχουν 3 επιλογές για την "
+"επόμενη σελίδα: * Κανονικό - Ακολουθήστε την πορεία του μαθήματος * Εμφάνιση "
+"μιας σελίδας μου δεν έχει εμφανιστεί - Οι σελίδες εμφανίζονται με τυχαία "
+"σειρά με καμία σελίδα να μην εμφανίζεται δύο φορές * Εμφάνιση μιας μη "
+"απαντημένης σελίδας - Οι σελίδες εμφανίζονται με τυχαία σειρά, με τις "
+"σελίδες που περιλαμβάνουν αναπάντητες ερωτήσεις να εμφανίζονται ξανά"
+
+#: $string['actions']
+msgid "Actions"
+msgstr "Δράσεις"
+
+#: $string['activitylink']
+msgid "Link to next activity"
+msgstr "Σύνδεση με μία δραστηριότητα"
+
+#: $string['activitylink_help']
+msgid ""
+"To provide a link at the end of the lesson to another activity in the "
+"course, select the activity from the dropdown list."
+msgstr ""
+"<p align=\"center\"><b>Συνδεσμος δραστηριοτητας</b></p>\n"
+"\n"
+"<p>Το μενού περιέχει όλες τις δραστηριότητες για αυτό το μάθημα. Εάν γίνει "
+"επιλογή, τότε ένας σύνδεσμος προς αυτή τη δραστηριότητα θα εμφανιστεί στο "
+"τέλος του Μαθήματος.</p>"
+
+#: $string['activitylinkname']
+msgid "Go to {$a}"
+msgstr "Πήγαινε στο: {$a}"
+
+#: $string['activityoverview']
+msgid "You have lessons that are due"
+msgstr ""
+
+#: $string['addabranchtable']
+msgctxt "$string['addabranchtable']"
+msgid "Add a content page"
+msgstr "Προσθήκη ενός πίνακα διακλαδώδεων"
+
+#: $string['addanendofbranch']
+msgid "Add an end of branch"
+msgstr "Προσθήκη ενός τέλους διακλάδωσης"
+
+#: $string['addanewpage']
+msgid "Add a new page"
+msgstr "Προσθήκη νέας σελίδας"
+
+#: $string['addaquestionpage']
+msgid "Add a question page"
+msgstr "Προσθήκη σελίδας ερωτήσεων"
+
+#: $string['addaquestionpagehere']
+msgid "Add a question page here"
+msgstr "Προσθήκη σελίδας ερωτήσεων εδώ"
+
+#: $string['addbranchtable']
+msgctxt "$string['addbranchtable']"
+msgid "Add a content page"
+msgstr "Προσθήκη σελίδας περιεχομένου"
+
+#: $string['addcluster']
+msgid "Add a cluster"
+msgstr "Προσθήκη συστοιχίας"
+
+#: $string['addedabranchtable']
+msgid "Added a content page"
+msgstr "Προστέθηκε ένας πίνακας διακλαδώδεων"
+
+#: $string['addedanendofbranch']
+msgid "Added an end of branch"
+msgstr "Προστέθηκε ένα τέλος διακλάδωσης"
+
+#: $string['addedaquestionpage']
+msgid "Added a question page"
+msgstr "Προστέθηκε μια σελίδα ερωτήσεων"
+
+#: $string['addedcluster']
+msgid "Added a cluster"
+msgstr "Προστέθηκε συστοιχία"
+
+#: $string['addedendofcluster']
+msgid "Added an end of cluster"
+msgstr "Προστέθηκε τέλος συστοιχίας"
+
+#: $string['addendofbranch']
+msgid "Add end of branch"
+msgstr "Προσθήκη τέλους διακλάδωσης"
+
+#: $string['addendofcluster']
+msgid "Add an end of cluster"
+msgstr "Προσθήκη τέλους συστοιχίας"
+
+#: $string['addessay']
+msgid "Create an Essay question page"
+msgstr ""
+
+#: $string['additionalattemptsremaining']
+msgid "Completed, You can re-attempt this lesson"
+msgstr ""
+
+#: $string['addmatching']
+msgid "Create a Matching question page"
+msgstr ""
+
+#: $string['addmultichoice']
+msgid "Create a Multichoice question page"
+msgstr ""
+
+#: $string['addnewgroupoverride']
+msgid "Add group override"
+msgstr ""
+
+#: $string['addnewuseroverride']
+msgid "Add user override"
+msgstr ""
+
+#: $string['addnumerical']
+msgid "Create a Numerical question page"
+msgstr ""
+
+#: $string['addpage']
+msgid "Add a page"
+msgstr "Προσθήκη μίας σελίδας"
+
+#: $string['addshortanswer']
+msgid "Create a Short answer question page"
+msgstr ""
+
+#: $string['addtruefalse']
+msgid "Create a True/false question page"
+msgstr ""
+
+#: $string['allowofflineattempts']
+msgid "Allow lesson to be attempted offline using the mobile app"
+msgstr ""
+
+#: $string['allowofflineattempts_help']
+msgid ""
+"If enabled, a mobile app user can download the lesson and attempt it "
+"offline.\n"
+"All the possible answers and correct responses will be downloaded as well.\n"
+"Note: It is not possible for a lesson to be attempted offline if it has a "
+"time limit."
+msgstr ""
+
+#: $string['anchortitle']
+msgid "Start of main content"
+msgstr "Αρχή κύριου περιεχόμενου"
+
+#: $string['and']
+msgid "AND"
+msgstr "ΚΑΙ"
+
+#: $string['answer']
+msgid "Answer"
+msgstr "Απάντηση"
+
+#: $string['answeredcorrectly']
+msgid "answered correctly."
+msgstr "απαντήθηκε σωστά."
+
+#: $string['answersfornumerical']
+msgid ""
+"Answers for numerical questions should be matched pairs of minimum and "
+"maximum values"
+msgstr ""
+"Οι απαντήσεις σε αριθμητικές ερωτήσεις πρέπει να είναι ζευγάρια από "
+"Ελάχιστες και Μέγιστες τιμές"
+
+#: $string['arrangebuttonshorizontally']
+msgid "Arrange content buttons horizontally?"
+msgstr "Οργάνωση κουμπιών διακλάδωσης οριζόντια σε μορφή παρουσίασης;"
+
+#: $string['attempt']
+msgid "Attempt: {$a}"
+msgstr "Προσπάθεια: {$a}"
+
+#: $string['attemptheader']
+msgid "Attempt"
+msgstr ""
+
+#: $string['attempts']
+msgid "Attempts"
+msgstr "Προσπάθειες"
+
+#: $string['attemptsdeleted']
+msgid "Deleted attempts"
+msgstr "Διεγραμμένες προσπάθειες"
+
+#: $string['attemptsremaining']
+msgid "You have {$a} attempt(s) remaining"
+msgstr "Σας απομένουν {$a} προσπάθειες"
+
+#: $string['available']
+msgid "Available from"
+msgstr "Διαθέσιμο από"
+
+#: $string['averagescore']
+msgid "Average score"
+msgstr "Μέσος βαθμός"
+
+#: $string['averagetime']
+msgid "Average time"
+msgstr "Μέσος χρόνος"
+
+#: $string['branch']
+msgctxt "$string['branch']"
+msgid "Content"
+msgstr "Περιεχόμενο"
+
+#: $string['branchtable']
+msgctxt "$string['branchtable']"
+msgid "Content"
+msgstr "Πίνακας διακλάδωσης"
+
+#: $string['cancel']
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: $string['cannotfindanswer']
+msgid "Error: could not find answer"
+msgstr "Σφάλμα: αποτυχία εύρεσης απάντησης"
+
+#: $string['cannotfindattempt']
+msgid "Error: could not find attempt"
+msgstr "Σφάλμα: αποτυχία εύρεσης απάντησης"
+
+#: $string['cannotfindessay']
+msgid "Error: could not find essay"
+msgstr "Σφάλμα: αποτυχία εύρεσης έκθεσης"
+
+#: $string['cannotfindfirstgrade']
+msgctxt "$string['cannotfindfirstgrade']"
+msgid "Error: could not find grades"
+msgstr "Σφάλμα: αποτυχία εύρεσης βαθμών"
+
+#: $string['cannotfindfirstpage']
+msgid "Could not find first page"
+msgstr "Αποτυχία εύρεσης πρώτης σελίδας"
+
+#: $string['cannotfindgrade']
+msgctxt "$string['cannotfindgrade']"
+msgid "Error: could not find grades"
+msgstr "Σφάλμα: αποτυχία εύρεσης βαθμών"
+
+#: $string['cannotfindnewestgrade']
+msgid "Error: could not find newest grade"
+msgstr "Σφάλμα: αποτυχία εύρεσης του νεώτερου βαθμού"
+
+#: $string['cannotfindnextpage']
+msgid "Lesson backup: Next page not found!"
+msgstr "Αντίγραφο ασφαλείας μαθήματος: Η επόμενη σελίδα δεν βρέθηκε!"
+
+#: $string['cannotfindpagerecord']
+msgid "Add end of branch: page record not found"
+msgstr "Προσθήκη τέλους διακλάδωσης: η εγγραφή της σελίδας δεν βρέθηκε"
+
+#: $string['cannotfindpages']
+msgid "Could not find lesson pages"
+msgstr "Αποτυχία εύρεσης Σελίδων Ενότητας"
+
+#: $string['cannotfindpagetitle']
+msgid "Confirm delete: page title not found"
+msgstr "Επιβεβαίωση διαγραφής: ο τίτλος της σελίδας δεν βρέθηκε"
+
+#: $string['cannotfindpreattempt']
+msgid "Previous attempt record could not be found!"
+msgstr "Αποτυχία εύρεσης της εγγραφής προηγούμενης προσπάθειας!"
+
+#: $string['cannotfindrecords']
+msgid "Error: could not find lesson records"
+msgstr "Σφάλμα: αποτυχία εύρεσης εγγραφών ενότητας"
+
+#: $string['cannotfindtimer']
+msgid "Error: could not find lesson_timer records"
+msgstr "Σφάλμα: αποτυχία εύρεσης των εγγραφών του πίνακα lesson_timer"
+
+#: $string['cannotfinduser']
+msgid "Error: could not find users"
+msgstr "Σφάλμα: αποτυχία εύρεσης χρηστών"
+
+#: $string['canretake']
+msgid "{$a} can re-take"
+msgstr "{$a} μπορεί να το ξανακάνει"
+
+#: $string['casesensitive']
+msgid "Use regular expressions"
+msgstr "Χρήση κανονικών εκφράσεων"
+
+#: $string['casesensitive_help']
+msgid "Tick the checkbox to use regular expressions for analysing responses."
+msgstr ""
+
+#: $string['checkbranchtable']
+msgid "Check content page"
+msgstr "Έλεγχος πίνακα διακλάδωσης"
+
+#: $string['checkedthisone']
+msgid "Checked this one."
+msgstr "ελέγχθηκε αυτό."
+
+#: $string['checknavigation']
+msgid "Check navigation"
+msgstr "Έλεγχος πλοήγησης"
+
+#: $string['checkquestion']
+msgid "Check question"
+msgstr "Έλεγχος ερώτησης"
+
+#: $string['classstats']
+msgid "Class statistics"
+msgstr "Στατιστικά τάξης"
+
+#: $string['clicktodownload']
+msgid "Click on the following link to download the file."
+msgstr "Πατήστε στον παρακάτω σύνδεσμο για να κατεβάσετε το αρχείο."
+
+#: $string['closebeforeopen']
+msgid ""
+"Could not update the lesson. You have specified a close date before the open "
+"date."
+msgstr ""
+
+#: $string['cluster']
+msgctxt "$string['cluster']"
+msgid "Cluster"
+msgstr ""
+
+#: $string['clusterjump']
+msgid "Unseen question within a cluster"
+msgstr "Ερώτηση μέσα σε συστοιχεία που δεν εμφανίστηκε"
+
+#: $string['clustertitle']
+msgctxt "$string['clustertitle']"
+msgid "Cluster"
+msgstr "Συστοιχεία"
+
+#: $string['collapsed']
+msgid "Collapsed"
+msgstr "Ξεδιπλωμένο"
+
+#: $string['comments']
+msgid "Your comments"
+msgstr "Τα σχόλιά σας"
+
+#: $string['completed']
+msgid "Completed"
+msgstr "Ολοκληρώθηκε"
+
+#: $string['completederror']
+msgid "Complete the lesson"
+msgstr "Ολοκληρώστε την ενότητα"
+
+#: $string['completethefollowingconditions']
+msgid ""
+"You must complete the following condition(s) in <b>{$a}</b> lesson before "
+"you can proceed."
+msgstr ""
+"Πρέπει να εκλπληρώνετε τις ακόλουθες προϋποθέσεις στην <b>{$a}</b> ενότητα "
+"προκειμένου να συνεχίσετε."
+
+#: $string['completionendreached']
+msgid "Require end reached"
+msgstr ""
+
+#: $string['completionendreached_desc']
+msgid "Student must reach the end of lesson page to complete this activity"
+msgstr ""
+
+#: $string['completiontimespent']
+msgid "Student must do this activity at least for"
+msgstr ""
+
+#: $string['completiontimespentdesc']
+msgid "Student must do this activity for at least {$a}"
+msgstr ""
+
+#: $string['completiontimespentgroup']
+msgid "Require time spent"
+msgstr ""
+
+#: $string['conditionsfordependency']
+msgid "Condition(s) for the dependency"
+msgstr "Προϋποθέσεις για την εξάρτηση"
+
+#: $string['configactionaftercorrectanswer']
+msgid "The default action to take after a correct answer"
+msgstr "Η προεπιλεγμένη ενέργεια μετά από μια σωστή απάντηση"
+
+#: $string['configintro']
+msgid ""
+"The values set here define the default values that are used in the settings "
+"form when creating a new lesson activity. Settings specified as advanced are "
+"only shown when the 'Show more...' link is clicked."
+msgstr ""
+
+#: $string['configmaxanswers']
+msgid "Default maximum number of answers per page"
+msgstr "Προεπιλογή του μέγιστου αριθμού απαντήσεων ανά σελίδα"
+
+#: $string['configmediaclose']
+msgid ""
+"Displays a close button as part of the popup generated for a linked media "
+"file"
+msgstr ""
+"Εμφανίζεται ένα κουμπί εξόδου ως μέρος του αναδυόμενου παραθύρου που "
+"δημιουργείται για ένα συνδεδεμένο αρχείο πολυμέσων"
+
+#: $string['configmediaheight']
+msgid "Sets the height of the popup displayed for a linked media file"
+msgstr ""
+"Ορίζει το ύψος του αναδυόμενου παράθυρου που εμφανίζεται για ένα συνδεδεμένο "
+"αρχείο πολυμέσων"
+
+#: $string['configmediawidth']
+msgid "Sets the width of the popup displayed for a linked media file"
+msgstr ""
+"Ορίζει το πλάτος του αναδυόμενου παράθυρου που εμφανίζεται για ένα "
+"συνδεδεμένο αρχείο πολυμέσων"
+
+#: $string['configpassword_desc']
+msgid "Whether a password is required in order to access the lesson."
+msgstr ""
+
+#: $string['configslideshowbgcolor']
+msgid "Background colour to for the slideshow if it is enabled"
+msgstr "Το χρώμα του φόντου της παρουσίασης αν είναι ενεργοποιημένο"
+
+#: $string['configslideshowheight']
+msgid "Sets the height of the slideshow if it is enabled"
+msgstr "Ορίζει το ύψος της παρουσίασης αν είναι ενεργοποιημένο"
+
+#: $string['configslideshowwidth']
+msgid "Sets the width of the slideshow if it is enabled"
+msgstr "Ορίζει το πλάτος της παρουσίασης αν είναι ενεργοποιημένο"
+
+#: $string['configtimelimit_desc']
+msgid ""
+"If a time limit is set, a warning is displayed at the beginning of the "
+"lesson and there is a countdown timer. If set to zero, then there is no time "
+"limit."
+msgstr ""
+
+#: $string['confirmdelete']
+msgid "Delete page"
+msgstr ""
+
+#: $string['confirmdeletionofthispage']
+msgid "Confirm deletion of this page"
+msgstr "Επιβεβαίωση διαγραφής αυτής της σελίδας"
+
+#: $string['congratulations']
+msgid "Congratulations - end of lesson reached"
+msgstr "Συγχαρητήρια - τελειώσατε την ενότητα"
+
+#: $string['continue']
+msgid "Continue"
+msgstr "Συνέχεια"
+
+#: $string['continuetoanswer']
+msgid "Continue to change answers."
+msgstr "Συνεχίστε για να αλλάξετε τις απαντήσεις."
+
+#: $string['continuetonextpage']
+msgid "Continue to next page."
+msgstr ""
+
+#: $string['correctanswerjump']
+msgid "Correct answer jump"
+msgstr "Διορθώστε την μεταπήδηση ερώτησης"
+
+#: $string['correctanswerscore']
+msgid "Correct answer score"
+msgstr "Βαθμός σωστής απάντησης"
+
+#: $string['correctresponse']
+msgid "Correct response"
+msgstr "Σωστή ανταπόκριση"
+
+#: $string['createaquestionpage']
+msgid "Create a question page"
+msgstr ""
+
+#: $string['credit']
+msgid "Credit"
+msgstr "Βαθμός"
+
+#: $string['customscoring']
+msgid "Custom scoring"
+msgstr "Ατομικός τρόπος βαθμολόγησης"
+
+#: $string['customscoring_help']
+msgid ""
+"If enabled, then each answer may be given a numerical point value (positive "
+"or negative)."
+msgstr ""
+"<p align=\"center\"><strong>Προσωπικός Τρόπος Βαθμολόγησης</strong></p>\n"
+"\n"
+"<p align=\"center\"><br />\n"
+"  Αυτό θα σας επιτρέψει να βάλετε ένα αριθμητικό βαθμό σε κάθε απάντηση. Οι\n"
+"  απαντήσεις μπορούν να έχουν αρνητικές τιμές ή θετικές\n"
+"  τιμές. Στις εισαγόμενες ερωτήσεις θα οριστεί αυτόματα 1 μονάδα για την "
+"σωστή\n"
+"  απάντηση και 0 για τις λανθασμένες, αν και μπορείτε να αλλάξετε αυτό (δηλ. "
+"την\n"
+"  βαθμολογία) μετά από την\n"
+"  εισαγωγή.</p>"
+
+#: $string['deadline']
+msgid "Deadline"
+msgstr "Προθεσμία"
+
+#: $string['defaultessayresponse']
+msgid "Your essay will be graded by your teacher."
+msgstr "Η έκθεσή σας θα βαθμολογηθεί από τον καθηγητή του μαθήματος."
+
+#: $string['deleteallattempts']
+msgid "Delete all lesson attempts"
+msgstr "Διαγραφή όλων των προσπαθειών της ενότητας"
+
+#: $string['deletedefaults']
+msgid "Deleted {$a} x lesson default"
+msgstr "Διαγραφή {$a} x προεπιλογής ενότητας"
+
+#: $string['deletedpage']
+msgid "Deleted page"
+msgstr "Διεγραμμένη σελίδα"
+
+#: $string['deletepagenamed']
+msgid "Delete page: {$a}"
+msgstr ""
+
+#: $string['deleting']
+msgid "Deleting"
+msgstr "Διαγραφή"
+
+#: $string['deletingpage']
+msgid "Deleting page: {$a}"
+msgstr "Διαγραφή σελίδας: {$a}"
+
+#: $string['dependencyon']
+msgid "Dependent on"
+msgstr "Εξαρτάται από"
+
+#: $string['dependencyon_help']
+msgid ""
+"This setting allows access to this lesson to be dependent upon a student's "
+"performance in another lesson in the same course. Any combination of time "
+"spent, completed or \"grade better than\" may be used."
+msgstr ""
+"<p align=\"center\"><strong>Εξάρτηση</strong></p>\n"
+"\n"
+"<p align=\"center\"><br />\n"
+"  Αυτή η ρύθμιση επιτρέπει στην τρέχουσα ενότητα να είναι εξαρτημένη από την\n"
+"  απόδοση των σπουδαστών σε μία άλλη ενότητα που ανήκει στο ίδιο μάθημα. Εάν "
+"η\n"
+"  απόδοση που έχει τεθεί σαν προαπαίτηση δεν καλύπτεται, τότε ο σπουδαστής "
+"δεν θα είναι σε θέση\n"
+"  να έχει πρόσβαση σε αυτό το μάθημα.<br />\n"
+"  Οι όροι για την εξάρτηση περιλαμβάνουν: </p>\n"
+"<ul type=\"disc\">\n"
+"  <li><strong>Χρόνος που πρέπει να ξοδευτεί:</strong> ο σπουδαστής πρέπει να\n"
+"    ξοδέψει το καθορισμένο αυτό χρονικό διάστημα στην προαπαιτούμενη "
+"ενότητα. </li>\n"
+"  <li><strong>Ολοκλήρωση:</strong> ο σπουδαστής πρέπει να ολοκληρώσει την\n"
+"    προαπαιτούμενη ενότητα. </li>\n"
+"  <li><strong>Βαθμός καλύτερος από:</strong> ο σπουδαστής πρέπει να κερδίσει "
+"έναν\n"
+"    βαθμό στην προαπαιτούμενη ενότητα που να είναι καλύτερος από αυτόν που "
+"διευκρινίζεται\n"
+"    εδώ. </li>\n"
+"</ul>\n"
+"<p>Οποιοσδήποτε συνδυασμός των ανωτέρω μπορεί να χρησιμοποιηθεί εάν είναι\n"
+"  απαραίτητο.</p>"
+
+#: $string['description']
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: $string['detailedstats']
+msgid "Detailed statistics"
+msgstr "Αναλυτικά στατιστικά"
+
+#: $string['didnotanswerquestion']
+msgid "Did not answer this question."
+msgstr "Δεν απάντησε αυτήν την ερώτηση."
+
+#: $string['didnotreceivecredit']
+msgid "Did not receive credit"
+msgstr "Δεν έλαβε βαθμό"
+
+#: $string['disabled']
+msgid "Disabled"
+msgstr ""
+
+#: $string['displaydefaultfeedback']
+msgid "Use default feedback"
+msgstr "Εμφάνιση προκαθορισμένης ανάδρασης"
+
+#: $string['displaydefaultfeedback_help']
+msgid ""
+"If enabled, when a response is not found for a particular question, the "
+"default response of \"That's the correct answer\" or \"That's the wrong answer\" "
+"will be shown."
+msgstr ""
+"<p align=\"center\"><strong>Αναπαράσταση ανατροφοδότησης</strong></p>\n"
+"\n"
+"<p>Εάν <strong>ΝΑΙ</strong>, όταν δεν υπάρχει απάντηση για μια συγκεκριμένη "
+"ερώτηση, οι προκαθορισμένες απαντήσεις \"Αυτή είναι η σωστή απάντηση\" και\n"
+"    \"Αυτή είναι η λάθος απάντηση\" χρησιμοποιούνται.</p>\n"
+"<p> Εάν <strong>ΟΧΙ</strong>, όταν δεν υπάρχει απάντηση για μια συγκεκριμένη "
+"ερώτηση, δεν εμφανίζεται ανατροφοδότηση. Ο χρήστης που συμμετέχει σε αυτό "
+"το Μάθημα κατευθύνεται στην επόμενη σελίδα Μαθήματος.</p>"
+
+#: $string['displayinleftmenu']
+msgid "Display in menu?"
+msgstr "Εμφάνιση στο αριστερό μενού;"
+
+#: $string['displayleftif']
+msgid "Minimum grade to display menu"
+msgstr "και εμφάνιση μόνο αν {$a} έχει βαθμό υψηλότερο από:"
+
+#: $string['displayleftif_help']
+msgid ""
+"This setting determines whether a student must obtain a certain grade before "
+"viewing the lesson menu. This forces the student to go through the entire "
+"lesson on their first attempt, then after obtaining the required grade they "
+"can use the menu for review."
+msgstr ""
+"Αυτή η ρύθμιση καθορίζει αν ο μαθητής πρέπει να επιτύχει κάποιο βαθμό πριν "
+"την εμφάνιση του αριστερού μενού. Αυτό αναγκάζει τον μαθητή να περάσει από "
+"όλο το μάθημα για την πρώτη του προσπάθεια, έπειτα μετά την επίτευξη του "
+"απαιτούμενου βαθμού θα μπορεί να χρησιμοποιήσει το μενού στα αριστερά για "
+"επανεξέταση."
+
+#: $string['displayleftmenu']
+msgid "Display menu"
+msgstr "Εμφάνιση αριστερού μενού"
+
+#: $string['displayleftmenu_help']
+msgid ""
+"If enabled, a menu allowing users to navigate through the list of pages is "
+"displayed."
+msgstr ""
+"<p align=\"center\"><strong>Εμφάνιση του αριστερού καταλόγου "
+"επιλογών</strong></p>\n"
+"\n"
+"<p align=\"left\"><br />\n"
+"  Αυτό θα παρουσιάσει έναν κατάλογο των σελίδων σε αυτή την ενότητα του "
+"μαθήματος.</p>\n"
+"Επίσης, ορίζοντας μια βαθμολογία μεγαλύτερη του μηδενός, ο χρήστης που "
+"παίρνει\n"
+"μέρος σε αυτή την ενότητα πρέπει να έχει έναν βαθμό ίσο ή μεγαλύτερο από το "
+"βαθμό που τίθεται\n"
+"ως στόχος προκειμένου να είναι σε θέση να δει τις επιλογές που υπάρχουν στο\n"
+"αριστερό μέρος της σελίδας. Αυτό επιτρέπει\n"
+"στους σχεδιαστές (δημιουργούς) της ενότητας να αναγκάσουν τους χρήστες\n"
+"(σπουδαστές) να παρακολουθήσουν όλες τις ενότητες του μαθήματος από την αρχή "
+"αν\n"
+"είναι η πρώτη φορά που παρακολουθούν αυτό το μάθημα. Κατόπιν, εάν\n"
+"ένας χρήστης (σπουδαστής) επαναλαμβάνει την ενότητα και αφού έχει την "
+"απαραίτητη\n"
+"βαθμολογία, μπορεί να δει (να έχει πρόσβαση) στον αριστερό κατάλογο επιλογών "
+"που\n"
+"θα τον βοηθήσει στην επανάληψη."
+
+#: $string['displayofgrade']
+msgid "Display of grade (for students only)"
+msgstr "Εμφάνιση βαθμού (μόνο για μαθητές)"
+
+#: $string['displayreview']
+msgid "Provide option to try a question again"
+msgstr "Εμφάνιση κουμπιού αναθεώρησης"
+
+#: $string['displayreview_help']
+msgid ""
+"If enabled, when a question is answered incorrectly, the student is given "
+"the option to try it again for no point credit, or continue with the lesson."
+msgstr ""
+"<p align=\"center\"><b>Προβολή Κουμπιού Αναθεώρησης</b></p>\n"
+"\n"
+"<p>Αυτό θα προβάλει ένα κουμπί έπειτα από μια λανθασμένα απαντημένη ερώτηση, "
+"επιτρέποντας στο μαθητή να ξαναπροσπαθήσει. Δεν είναι συμβατό με ερωτήσεις "
+"διαγωνίσματος για αυτό αγνοήστε το, εάν χρησιμοποιείτε ερωτήσεις "
+"διαγωνίσματος.</p>"
+
+#: $string['displayscorewithessays']
+msgid ""
+"<p>You earned {$a->score} out of {$a->tempmaxgrade} for the automatically "
+"graded questions.</p>\n"
+"<p>Your {$a->essayquestions} essay question(s) will be graded and added into "
+"your final score at a later date.</p>\n"
+"<p>Your current grade without the essay question(s) is {$a->score} out of "
+"{$a->grade}.</p>"
+msgstr ""
+"Πήρατε {$a->score} στα {$a->tempmaxgrade} για τις αυτόματα βαθμολογούμενες "
+"ερωτήσεις.<br>Οι {$a->essayquestions} ερωτήσεις έκθεσης θα βαθμολογηθούν και "
+"θα προστεθούν<br />στον τελικό σας βαθμό αργότερα.<br /><br />Ο τρέχον "
+"βαθμός σας χωρίς τις ερωτήσεις έκθεσης είναι {$a->score} στα {$a->grade}"
+
+#: $string['displayscorewithoutessays']
+msgid "Your score is {$a->score} (out of {$a->grade})."
+msgstr "Ο βαθμός σας είναι {$a->score} (στα {$a->grade})."
+
+#: $string['duplicatepagenamed']
+msgid "Duplicate page: {$a}"
+msgstr ""
+
+#: $string['edit']
+msgid "Edit"
+msgstr "Edit"
+
+#: $string['editbranchtable']
+msgid "Editing a content page"
+msgstr ""
+
+#: $string['editcluster']
+msgid "Editing a cluster"
+msgstr ""
+
+#: $string['editendofbranch']
+msgid "Editing an end of branch page"
+msgstr "Επεξεργασία σελίδας τέλους διακλάδωσης"
+
+#: $string['editendofcluster']
+msgid "Editing an end of cluster page"
+msgstr ""
+
+#: $string['editessay']
+msgid "Editing an Essay question page"
+msgstr ""
+
+#: $string['editingquestionpage']
+msgid "Editing {$a} question page"
+msgstr ""
+
+#: $string['editlessonsettings']
+msgid "Edit lesson settings"
+msgstr "Επεξεργασία ρυθμίσεων ενότητας"
+
+#: $string['editmatching']
+msgid "Editing a Matching question page"
+msgstr ""
+
+#: $string['editmultichoice']
+msgid "Editing a Multichoice question page"
+msgstr ""
+
+#: $string['editnumerical']
+msgid "Editing a Numerical question page"
+msgstr ""
+
+#: $string['editoverride']
+msgid "Edit override"
+msgstr ""
+
+#: $string['editpage']
+msgctxt "$string['editpage']"
+msgid "Edit page contents"
+msgstr ""
+
+#: $string['editpagecontent']
+msgctxt "$string['editpagecontent']"
+msgid "Edit page contents"
+msgstr "Επεξεργασία περιεχομένων σελίδας"
+
+#: $string['editquestion']
+msgid "Editing a question page"
+msgstr ""
+
+#: $string['editshortanswer']
+msgid "Editing a Short answer question page"
+msgstr ""
+
+#: $string['edittruefalse']
+msgid "Editing a True/false question page"
+msgstr ""
+
+#: $string['email']
+msgid "Email"
+msgstr "Ηλεκτρονικό Ταχυδρομείο"
+
+#: $string['emailallgradedessays']
+msgid "Email ALL graded essays"
+msgstr ""
+"Αποστολή με ηλεκτρονικό ταχυδρομείο ΟΛΩΝ <br /> των βαθμολογημένων εκθέσεων"
+
+#: $string['emailgradedessays']
+msgid "Email graded essays"
+msgstr "Αποστολή με ηλεκτρονικό ταχυδρομείο τις βαθμολογημένες εκθέσεις"
+
+#: $string['emailsuccess']
+msgid "Emails sent successfully"
+msgstr "Τα μηνύματα ηλεκτρονικού ταχυδρομείου στάλθηκαν με επιτυχία"
+
+#: $string['emptypassword']
+msgid "Password cannot be empty"
+msgstr "Ο κωδικός πρόσβασης δεν μπορεί να είναι κενός"
+
+#: $string['enabled']
+msgid "Enabled"
+msgstr "Ενεργοποιημένο"
+
+#: $string['endofbranch']
+msgid "End of branch"
+msgstr "Τέλος διακλάδωσης"
+
+#: $string['endofcluster']
+msgctxt "$string['endofcluster']"
+msgid "End of cluster"
+msgstr ""
+
+#: $string['endofclustertitle']
+msgctxt "$string['endofclustertitle']"
+msgid "End of cluster"
+msgstr "Τέλος συστοιχίας"
+
+#: $string['endoflesson']
+msgid "End of lesson"
+msgstr "Τέλος ενότητας"
+
+#: $string['enteredthis']
+msgid "entered this."
+msgstr "εισήχθει αυτό."
+
+#: $string['enterpassword']
+msgid "Please enter the password:"
+msgstr "Παρακαλώ εισάγετε τον κωδικό:"
+
+#: $string['eolstudentoutoftime']
+msgid ""
+"Attention:  You ran out of time for this lesson.  Your last answer may not "
+"have counted if it was answered after the time was up."
+msgstr ""
+"Προσοχή: Βγήκατε εκτός χρόνου σε αυτή την ενότητα. Η τελευταία απάντησή σας "
+"μπορεί να μη μετρήσει αν δόθηκε μετά το τέλος του χρόνου."
+
+#: $string['eolstudentoutoftimenoanswers']
+msgid ""
+"You did not answer any questions.  You have received a 0 for this lesson."
+msgstr "Δεν απαντήσατε καμία ερώτηση. Πήρατε 0 σε αυτή την ενότητα."
+
+#: $string['essay']
+msgid "Essay"
+msgstr "Έκθεση"
+
+#: $string['essayemailmessage2']
+msgid ""
+"<p>Essay prompt: {$a->question}</p><p>Your response: "
+"<em>{$a->response}</em></p><p>Grader's comments: "
+"<em>{$a->comment}</em></p><p>You have received {$a->earned} out of "
+"{$a->outof} for this essay question.</p><p>Your grade for the {$a->lesson} "
+"lesson has been changed to {$a->newgrade}&#37;.</p>"
+msgstr ""
+"<p>Έκθεση:<blockquote>{$a->question}</blockquote></p><p>Η απάντησή "
+"σας:<blockquote><em>{$a->response}</em></blockquote></p><p>Τα σχόλια του "
+"βαθμολογητή:<blockquote><em>{$a->comment}</em></blockquote></p><p>Πήρατε  "
+"{$a->earned} στα {$a->outof} για αυτήν την ερώτηση έκθεσης.</p><p>Ο βαθμός "
+"σας στην ενότητα έχει αλλάξει σε {$a->newgrade}&#37;.</p>"
+
+#: $string['essayemailsubject']
+msgid "Grade available for lesson question"
+msgstr "Ο βαθμός σας για την {$a} ερώτηση"
+
+#: $string['essayresponses']
+msgid "Essay responses"
+msgstr ""
+
+#: $string['essays']
+msgid "Essays"
+msgstr "Εκθέσεις"
+
+#: $string['essayscore']
+msgid "Essay score"
+msgstr "Βαθμός έκθεσης"
+
+#: $string['eventcontentpageviewed']
+msgid "Content page viewed"
+msgstr ""
+
+#: $string['eventessayassessed']
+msgid "Essay assessed"
+msgstr ""
+
+#: $string['eventessayattemptviewed']
+msgid "Essay attempt viewed"
+msgstr ""
+
+#: $string['eventlessonended']
+msgid "Lesson ended"
+msgstr ""
+
+#: $string['eventlessonrestarted']
+msgid "Lesson restarted"
+msgstr ""
+
+#: $string['eventlessonresumed']
+msgid "Lesson resumed"
+msgstr ""
+
+#: $string['eventlessonstarted']
+msgid "Lesson started"
+msgstr ""
+
+#: $string['eventoverridecreated']
+msgid "Lesson override created"
+msgstr ""
+
+#: $string['eventoverridedeleted']
+msgid "Lesson override deleted"
+msgstr ""
+
+#: $string['eventoverrideupdated']
+msgid "Lesson override updated"
+msgstr ""
+
+#: $string['eventpagecreated']
+msgid "Page created"
+msgstr ""
+
+#: $string['eventpagedeleted']
+msgid "Page deleted"
+msgstr ""
+
+#: $string['eventpagemoved']
+msgid "Page moved"
+msgstr ""
+
+#: $string['eventpageupdated']
+msgid "Page updated"
+msgstr ""
+
+#: $string['eventquestionanswered']
+msgid "Question answered"
+msgstr ""
+
+#: $string['eventquestionviewed']
+msgid "Question viewed"
+msgstr ""
+
+#: $string['false']
+msgid "False"
+msgstr "Λάθος"
+
+#: $string['fileformat']
+msgid "File format"
+msgstr "Μορφή αρχείου"
+
+#: $string['finalwrong']
+msgid "Not quite."
+msgstr ""
+
+#: $string['finish']
+msgid "Finish"
+msgstr ""
+
+#: $string['firstanswershould']
+msgid "First answer should jump to the \"Correct\" page"
+msgstr "Η πρώτη απάντηση να μεταπηδά στην \"Σωστή\" σελίδα"
+
+#: $string['firstwrong']
+msgid ""
+"You have answered incorrectly. Would you like to attempt the question again? "
+"(If you now answer the question correctly, it will not count towards your "
+"final score.)"
+msgstr ""
+"Δυστυχώς δεν μπορείτε να κερδίσετε αυτό το βαθμό γιατί η απάντησή σας ήταν "
+"λάθος. Θέλετε να συνεχίσετε να μαντεύετε, μόνο για τη χαρά της μάθησης (δεν "
+"θα λάβετε το βαθμολογικό μπόνους);"
+
+#: $string['flowcontrol']
+msgid "Flow control"
+msgstr "Έλεγχος ροής"
+
+#: $string['fractionsaddwrong']
+msgid ""
+"The positive grades you have chosen do not add up to 100%<br />Instead, they "
+"add up to {$a}%<br />Do you want to go back and fix this question?"
+msgstr ""
+"Οι θετικές βαθμολογίες που επιλέξατε δεν αθροίζονται ως το 100%\n"
+"<br />Αντίθετα, αθροίζονται στο {$a}%\n"
+"<br />Θέλετε να γυρίσετε πίσω και να τροποποιήσετε την ερώτηση;"
+
+#: $string['fractionsnomax']
+msgid ""
+"One of the answers should be 100%, so that it is<br />possible to get a full "
+"grade for this question.<br />Do you want to go back and fix this question?"
+msgstr ""
+"Μια από τις ερωτήσεις θα έπρεπε να είναι 100%, έτσι ώστε να είναι δυνατό\n"
+"<br />να πάρει κάποιος το σύνολο της βαθμολογίας σε αυτή την ερώτηση.\n"
+"<br />Θέλετε να επιστρέψετε και να τροποποιήσετε την ερώτηση;"
+
+#: $string['full']
+msgid "Expanded"
+msgstr "Επεκτάθηκε"
+
+#: $string['general']
+msgid "General"
+msgstr "Γενικά"
+
+#: $string['gotoendoflesson']
+msgid "Go to the end of the lesson"
+msgstr ""
+
+#: $string['grade']
+msgid "Grade"
+msgstr "Βαθμός"
+
+#: $string['gradebetterthan']
+msgid "Grade better than (&#37;)"
+msgstr "Βαθμός καλύτερος από (%)"
+
+#: $string['gradebetterthanerror']
+msgid "Earn a grade better than {$a} percent"
+msgstr "Βαθμολογηθείτε καλύτερα από {$a} τις εκατό"
+
+#: $string['graded']
+msgid "Graded"
+msgstr "Βαθμολογήθηκε"
+
+#: $string['gradeessay']
+msgid ""
+"Grade essay questions ({$a->notgradedcount} not graded and "
+"{$a->notsentcount} not sent)"
+msgstr ""
+"Βαθμολογήστε τις ερωτήσεις της έκθεσης ({$a->notgradedcount} δεν "
+"βαθμολογήθηκαν και {$a->notsentcount} δεν στάλθηκαν)"
+
+#: $string['gradeis']
+msgid "Grade is {$a}"
+msgstr "Ο βαθμός είναι {$a}"
+
+#: $string['gradeoptions']
+msgid "Grade options"
+msgstr "Ρυθμίσεις βαθμού"
+
+#: $string['groupoverrides']
+msgid "Group overrides"
+msgstr ""
+
+#: $string['groupoverridesdeleted']
+msgid "Group overrides deleted"
+msgstr ""
+
+#: $string['groupsnone']
+msgid "There are no groups in this course"
+msgstr ""
+
+#: $string['handlingofretakes']
+msgid "Handling of re-takes"
+msgstr "Χειρισμός επανασυμπληρώσεων"
+
+#: $string['handlingofretakes_help']
+msgid ""
+"If re-takes are allowed, this setting specifies whether the grade for the "
+"lesson is the mean or maximum of all attempts."
+msgstr ""
+"<p align=\"center\"><b>Ο βαθμός σε περίπτωση επανεξέτασης</b></p>\n"
+"\n"
+"<p>Σε περίπτωση που οι διδασκόμενοι επανεξεταστούν σε ένα μάθημα, ο διδάσκων "
+"έχει τη δυνατότητα\n"
+"να επιλέξει να εμφανίσει στη σελίδα με τους βαθμούς του μαθήματος είτε το "
+"<b>μέσο όρο</b> από τις δυο ή περισσότερες εξετάσεις,\n"
+"είτε <b>την καλύτερη επίδοση</b>. </p>\n"
+"\n"
+"<p>Η επιλογή του αυτή αλλάζει ανά πάσα στιγμή.</p>"
+
+#: $string['havenotgradedyet']
+msgid "Have not graded yet."
+msgstr "Δεν έχει βαθμολογηθεί ακόμα"
+
+#: $string['here']
+msgid "here"
+msgstr "εδώ"
+
+#: $string['highscore']
+msgid "High score"
+msgstr "Υψηλός βαθμός"
+
+#: $string['hightime']
+msgid "High time"
+msgstr "Υψηλός χρόνος"
+
+#: $string['importcount']
+msgid "Importing {$a} questions"
+msgstr "Εισαγωγή {$a} ερωτήσεων"
+
+#: $string['importquestions']
+msgid "Import questions"
+msgstr "Εισαγωγή ερωτήσεων"
+
+#: $string['importquestions_help']
+msgid ""
+"This feature enables questions in a variety of formats to be imported via "
+"text file."
+msgstr ""
+"<p align=\"center\"><strong> Εισάγοντας νέες ερωτήσεις </strong></p>\n"
+"<p>&nbsp; </p>\n"
+"<p> Αυτή η λειτουργία σας επιτρέπει για να εισαγάγει ερωτήσεις από εξωτερικά "
+"αρχεία κειμένων, που φορτώνονται μέσω μιας μορφής. Διάφορες μορφές αρχείων "
+"υποστηρίζονται: </p>\n"
+"<p><strong>Μορφή GIFT </strong></p>\n"
+"<p>Το GIFT είναι το καλύτερο διαθέσιμο φορμάτ για την εισαγωγή ασκήσεων "
+"τύπου κουίζ σε Moodle από αρχεία κειμένου. Είχε σκοπό να αποτελεί μια εύκολη "
+"μέθοδος για τους διδάσκοντες που γράφουν τις ερωτήσεις σε αρχείο κειμένων. "
+"Υποστηρίζει ερωτήσεις πολλαπλής επιλογής, σωστού-λάθους, σύντομης απάντησης, "
+"ταιριάσματος, αριθμητικές ερωτήσεις, καθώς και την εισαγωγή κενού ( _____ ) "
+"για ερωτήσεις συμπλήρωσης κενών. Διάφοροι τύποι ερωτήσεων μπορούν να "
+"συνυπάρξουν σε μια άσκηση. Υποστηρίζονται επίσης γραμμές για σχόλια, τίτλοι "
+"ερωτήσεων, η ανατροφοδότηση και ποσοστά %. </p>\n"
+"<p> Ακολουθούν μερικά παραδείγματα: </p>\n"
+"<p>Ποιος τάφηκε στον τάφο Grant ; { ~ο Grant ~οJefferson = κανένας} </p>\n"
+"<p>Ο Grant είναι {~βαλμένος =ενταφιασμένος ~ζωντανός} στον τάφο Grant </p>\n"
+"<p>Ο Grant τάφηκε στον τάφο Grant {ΛΑΘΟΣ} </p>\n"
+"<p>Ποιος τάφηκε στον τάφο Grant ; { =κανείς = κανένας} </p>\n"
+"<p>Πότε γεννήθηκε ο Ulysses S . Grant ; {#1822}  </p>\n"
+"<ul>\n"
+"  <p align=\"right\"><a "
+"href=\"help.php?file=formatgift.html&module=quiz\">Περισσότερες πληροφορίες "
+"για τη μορφή GIFT</a></p>\n"
+"</ul>\n"
+"<p>&nbsp;</p>\n"
+"<p><strong>Μορφή Aiken </strong></p>\n"
+"<p>Η μορφή Aiken είναι ένας πολύ απλός τρόπος και πολύ φιλικός για "
+"δημιουργία ερωτήσεων πολλαπλής επιλογής. Για παράδειγμα: </p>\n"
+"<p>Ποιος είναι ο σκοπός των πρώτων βοηθειών; </p>\n"
+"<p> Α. Να σώσουμε τη ζωή, να αποτρέψουμε τον περαιτέρω τραυματισμό, να "
+"διατηρήσουμε την καλή υγεία </p>\n"
+"<p> Β. Να παρέχουν την ιατρική περίθαλψη σε οποιαδήποτε τραυματισμένο ή "
+"πληγωμένο πρόσωπο </p>\n"
+"<p> Γ. Να αποτρέψουν τον περαιτέρω τραυματισμό </p>\n"
+"<p> Δ. Να βοηθήσουν θύματα που ζητούν τη βοήθεια </p>\n"
+"<p> ΑΠΑΝΤΗΣΗ: Α </p>\n"
+"<ul><p align=\"right\"><a "
+"href=\"help.php?file=formataiken.html&module=quiz\">Περισσότερες πληροφορίες "
+"για το μορφή &quot;Aiken &quot;</a></p>\n"
+"</ul>\n"
+"<p>&nbsp; </p>\n"
+"<p><strong> Μορφή Λέξης που λείπει </strong></p>\n"
+"<p>Αυτή η μορφή υποστηρίζει μόνο τις ερωτήσεις πολλαπλής επιλογής. Κάθε "
+"απάντηση έχει μπροστά το (~), και η σωστή απάντηση το (=). Για παράδειγμα: "
+"</p>\n"
+"<p>Μόλις αρχίζουμε να ερευνάμε τα μέρη του σώματός μας όταν είμαστε ακόμη "
+"νήπια γινόμαστε ήδη σπουδαστές { = ανατομίας και φυσιολογίας ~πειράματος "
+"~επιστήμης ~ρεφλεξολογίας} , και από μία άποψη παραμένουμε τέτοιοι "
+"σπουδαστές για όλη μας τη ζωή. </p>\n"
+"<p align=\"right\"><a "
+"href=\"help.php?file=formatmissingword.html&module=quiz\">Περισσότερες "
+"πληροφορίες για τη μορφή Λέξης που λείπει</a></p>\n"
+"<p>&nbsp; </p>\n"
+"<p><strong> Μορφή AON </strong></p>\n"
+"<p>Πρόκειται για μορφή αντίστοιχη με τη μορφή Λέξης που λείπει. Η διαφορά "
+"είναι ότι, μόλις εισάγουμε τις ερωτήσεις, όλες οι ερωτήσεις σύντομης "
+"απάντησης μετατρέπονται ανά τέσσερις σε ερωτήσεις ταιριάσματος . </p>\n"
+"<p> Επιπλέον, οι απαντήσεις των ερωτήσεων πολλαπλής επιλογής τοποθετούνται "
+"τυχαία κατά τη διάρκεια της εισαγωγής. </p>\n"
+"<p>Το όνομα ΑΟΝ προέκυψε από μια οργάνωση που υποστήριξε την ανάπτυξη πολλών "
+"χαρακτηριστικών για ασκήσεις τύπου κουίζ. </p>\n"
+"<p>&nbsp;</p>\n"
+"<p><strong>Μορφή Blackboard </strong></p>\n"
+"<p>Πρόκειται για μέθοδο εισαγωγής ερωτήσεων που έχουν εξαχθεί από την "
+"πλατφόρμα Blackboard. Στηρίζεται στις λειτουργίες XML που συντάσσονται μέσω "
+"PHP . </p>\n"
+"<ul>\n"
+"  <p align=\"right\"><a "
+"href=\"help.php?file=formatblackboard.html&module=quiz\">Περισσότερες "
+"πληροφορίες για τη μορφή Blackboard</a></p>\n"
+"</ul>\n"
+"<p>&nbsp; </p>\n"
+"<p><strong> Μορφή Course Test Manager (CTM)</strong></p>\n"
+"<p>Πρόκειται για μέθοδο εισαγωγής ερωτήσεων από τράπεζες ερωτήσεων CTM . "
+"Στηρίζεται στους διάφορους τρόπους πρόσβασης μιας τράπεζας ερωτήσεων, η "
+"οποία είναι σε μια βάση δεδομένων της Microsoft Access . Παίζει ρόλο αν η "
+"πλατφόρμα Moodle τρέχει στα Windows ή σε Linux . </p>\n"
+"<p>Στα Windows φορτώνετε τη βάση δεδομένων ακριβώς όπως οποιοδήποτε άλλο "
+"αρχείο εισαγωγής στοιχείων. </p>\n"
+"<p>Σε Linux , πρέπει να εγκαταστήσετε Windows στο ίδιο δίκτυο με τη βάση "
+"δεδομένων CTM και ένα κομμάτι του λογισμικού που λέγεται ODBC Socket Server "
+", ο οποίος χρησιμοποιεί XML για να μεταφέρει στοιχεία στο Μoodle στον "
+"κεντρικό υπολογιστή Linux . </p>\n"
+"<p>Παρακαλώ διαβάστε το πλήρες αρχείο βοήθειας κατωτέρω, πριν "
+"χρησιμοποιήσετε αυτή τη μορφή. </p>\n"
+"<ul><p align=\"right\"><a "
+"href=\"help.php?file=formatctm.html&module=quiz\">Περισσότερες πληροφορίες για "
+"τη μορφή CTM</a></p>\n"
+"</ul>\n"
+"<p>&nbsp; </p>\n"
+"<p><strong> Μη αυτοματοποιημένη μορφή </strong></p>\n"
+"<p>Εάν έχετε μια δική σας μορφή, μπορείτε να την εγκαταστήσετε οι ίδιοι μέσω "
+"mod /quiz /format /custom .php </p>\n"
+"<p>Το ποσό νέου κώδικα που απαιτείται είναι πολύ μικρό &ndash; απλά πρέπει "
+"να προκύψει μια ενιαία ερώτηση από το δεδομένο κείμενο.</p>\n"
+"<ul><p align=\"right\"><a "
+"href=\"help.php?file=formatcustom.html&module=quiz\">Περισσότερες πληροφορίες "
+"για μη αυτοματοποιημένες μορφες</a></p>\n"
+"</ul>\n"
+"<p>&nbsp;</p>\n"
+"<p>Αναμένονται περισσότερες σχετικές μορφές, όπως WebCT , IMS , QTI και ό,τι "
+"άλλο οι χρήστες Moodle μπορούν να συνεισφέρουν! </p>\n"
+"<p>&nbsp; </p>"
+
+#: $string['inactiveoverridehelp']
+msgid ""
+"* Student does not have the correct group or role to view/attempt the lesson"
+msgstr ""
+
+#: $string['indicator:cognitivedepth']
+msgid "Lesson cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepth_help']
+msgid ""
+"This indicator is based on the cognitive depth reached by the student in a "
+"Lesson activity."
+msgstr ""
+
+#: $string['indicator:socialbreadth']
+msgid "Lesson social"
+msgstr ""
+
+#: $string['indicator:socialbreadth_help']
+msgid ""
+"This indicator is based on the social breadth reached by the student in a "
+"Lesson activity."
+msgstr ""
+
+#: $string['insertedpage']
+msgid "Inserted page"
+msgstr "Εισαχθείσα σελίδα"
+
+#: $string['invalidfile']
+msgid "Invalid file"
+msgstr ""
+
+#: $string['invalidid']
+msgid "No course module ID or lesson ID were passed"
+msgstr ""
+"Δεν δόθηκε κανένα αναγνωριστικό αρθρώματος μαθήματος ή αναγνωριστικό "
+"ενότητας"
+
+#: $string['invalidlessonid']
+msgid "lesson ID was incorrect"
+msgstr "Το αναγνωριστικό του μαθήματος δεν ήταν σωστό"
+
+#: $string['invalidoverrideid']
+msgid "Invalid override id"
+msgstr ""
+
+#: $string['invalidpageid']
+msgid "Invalid page ID"
+msgstr "Μη έγκυρο αναγνωριστικό σελίδας"
+
+#: $string['jump']
+msgid "Jump"
+msgstr "Μεταπήδηση"
+
+#: $string['jumps']
+msgid "Jumps"
+msgstr "Μεταπηδήσεις"
+
+#: $string['jumps_help']
+msgid ""
+"Each answer (for questions) or description (for content pages) has a "
+"corresponding jump. The jump can be relative, such as this page or next "
+"page, or absolute, specifying any one of the pages in the lesson."
+msgstr ""
+"<p align=\"center\"><b>Ο σύνδεσμος μετάβασης (jump-to)</b></p>\n"
+"\n"
+"<p>Κάθε Απάντηση (για ερωτήσεις) και κάθε Περιγραφή (για τις "
+"σελίδες-κλάδους) έχει ένα σύνδεσμο μετάβασης.\n"
+"Όταν επιλέγει την απάντηση, ο διδασκόμενος λαμβάνει μια απόκριση στην "
+"απάντηση. Στη συνέχεια βλέπει\n"
+"τη σελίδα του συνδέσμου μετάβασης. Ο σύνδεσμος αυτός είναι είτε σχετικός "
+"είτε απόλυτος. Οι σχετικοί σύνδεσμοι\n"
+"είναι <b>Αυτή η σελίδα</b> και <b>Επόμενη σελίδα</b>. Ο σύνδεσμος <b>Αυτή η "
+"σελίδα</b> οδηγεί τον διδασκόμενο να δει\n"
+"ξανά την ίδια σελίδα. Ο σύνδεσμος <b>Επόμενη σελίδα</b> οδηγεί στη σελίδα "
+"που ακολουθεί κατά τη λογική\n"
+"σειρά που έχουν τοποθετηθεί οι σελίδες. Ένας απόλυτος σύνδεσμος υλοποιείται "
+"με την επιλογή του <b>τίτλου</b>\n"
+"της σελίδας.</p>\n"
+"<p>Σημείωση: οι σχετικοί σύνδεσμοι, όπως οι σύνδεσμοι <b>Αυτή η σελίδα</b> "
+"και <b>Επόμενη σελίδα</b>, μπορεί να παραπέμπουν σε διαφορετικές σελίδες, αν "
+"η σελιδοποίηση έχει αλλάξει, ενώ\n"
+"απόλυτοι σύνδεσμοι μετάβασης στον <b>τίτλο</b> μιας σελίδας παραπέμπουν στην "
+"ίδια σελίδα,\n"
+"ακόμη κι αν αλλάξει η σελιδοποίηση.</p>\n"
+"<p>Μεταβάσεις ειδικού τύπου</p>\n"
+"<p>Μη ορατές ερωτήσεις μέσα σε ένα κλάδο</p>\n"
+"<p>Ο σύνδεσμος οδηγεί με τυχαίο τρόπο σε ερώτηση που δε βλέπει ο "
+"διδασκόμενος. Η ερώτηση βρίσκεται\n"
+"ανάμεσα σε αυτό τον πίνακα-κλάδο και στο τέλος της διδακτικής ενότητας ή στο "
+"επόμενο τέλος κλάδου.</p>\n"
+"\n"
+"<p>Τυχαίες ερωτήσεις μέσα σε ένα κλάδο</p>\n"
+"<p> Ο σύνδεσμος οδηγεί σε τυχαία ερώτηση ανάμεσα σε αυτό τον πίνακα-κλάδο "
+"και στο τέλος της διδακτικής ενότητας\n"
+"ή στο επόμενο τέλος κλάδου. Αν ο διδασκόμενος έχει ήδη δει την ερώτηση, θα "
+"έχει την ευκαιρία να απαντήσει\n"
+"και να κερδίσει τους πόντους της ερώτησης (σε περίπτωση που έχει πάνω από 1 "
+"προσπάθειες). Αν ο αριθμός των προσπαθειών\n"
+" περιορίζεται στη 1, η ερώτηση θα παραλειφθεί και άλλη τυχαία ερώτηση θα "
+"εμφανιστεί.</p>\n"
+"\n"
+"<p>Τυχαίος πίνακας - κλάδος</p>\n"
+"<p>Ο σύνδεσμος οδηγεί σε τυχαίο πίνακα - κλάδο ανάμεσα σε αυτό τον "
+"πίνακα-κλάδο και στο τέλος\n"
+"της διδακτικής ενότητας σρο επόμενο τέλος κλάδου.</p>"
+
+#: $string['jumpsto']
+msgid "Jumps to <em>{$a}</em>"
+msgstr "Μεταπήδηση σε <em>{$a}</em>"
+
+#: $string['leftduringtimed']
+msgid ""
+"You have left during a timed lesson.<br />Please click on Continue to "
+"restart the lesson."
+msgstr ""
+"Αποχωρήσατε κατά τη διάρκεια χρονομετρημένης ενότητας. <br />Παρακαλώ, "
+"πατήστε Συνέχεια για να επανεκκινήσετε την ενότητα."
+
+#: $string['leftduringtimednoretake']
+msgid ""
+"You have left during a timed lesson and you are<br />not allowed to retake "
+"or continue the lesson."
+msgstr ""
+"Αποχωρήσατε κατά τη διάρκεια χρονομετρημένης ενότητας και <br />δεν έχετε το "
+"δικαίωμα να επαναλάβεται ή να συνεχίσετε την ενότητα."
+
+#: $string['leftduringtimedsession']
+msgid "You have left during a timed lesson."
+msgstr ""
+
+#: $string['lesson:addinstance']
+msgid "Add a new lesson"
+msgstr ""
+
+#: $string['lessonclosed']
+msgid "This lesson closed on {$a}."
+msgstr "Αυτή η ενότητα έκλεισε {$a}."
+
+#: $string['lessoncloses']
+msgid "Lesson closes"
+msgstr "Κλείσιμο ενότητας"
+
+#: $string['lessoncloseson']
+msgid "Lesson closes on {$a}"
+msgstr "Η ενότητα κλείνει στις {$a}"
+
+#: $string['lesson:edit']
+msgid "Edit a lesson activity"
+msgstr "Επεξεργασία δραστηριότητας ενότητας"
+
+#: $string['lessoneventcloses']
+msgid "{$a} closes"
+msgstr ""
+
+#: $string['lessoneventopens']
+msgid "{$a} opens"
+msgstr ""
+
+#: $string['lessonformating']
+msgid "Lesson formatting"
+msgstr "Μορφοποίηση ενότητας"
+
+#: $string['lesson:grade']
+msgid "Grade lesson essay questions"
+msgstr ""
+
+#: $string['lesson:manage']
+msgid "Manage a lesson activity"
+msgstr "Διαχείριση δραστηριότητας ενότητας"
+
+#: $string['lesson:manageoverrides']
+msgid "Manage lesson overrides"
+msgstr ""
+
+#: $string['lessonmenu']
+msgid "Lesson menu"
+msgstr "Μενού ενότητας"
+
+#: $string['lessonname']
+msgid "Lesson: {$a}"
+msgstr ""
+
+#: $string['lessonnotready']
+msgid "This lesson is not ready to be taken.  Please contact your {$a}."
+msgstr ""
+"Η ενότητα δεν είναι έτοιμη για παρακολούθηση. Παρακαλώ επικοινωνήστε με "
+"{$a}."
+
+#: $string['lessonnotready2']
+msgid "This lesson is not ready to be taken."
+msgstr "Αυτή η ενότητα δεν είναι έτοιμη για διεξαγωγή."
+
+#: $string['lessonopen']
+msgid "This lesson will be open on {$a}."
+msgstr "Αυτή η ενότητα θα είναι ανοιχτή στις {$a}."
+
+#: $string['lessonopens']
+msgid "Lesson opens"
+msgstr "Άνοιγμα ενότητας"
+
+#: $string['lessonpagelinkingbroken']
+msgid ""
+"First page not found.  Lesson page linking must be broken.  Please contact "
+"an admin."
+msgstr ""
+"Δεν βρέθηκε η πρώτη σελίδα. Η σύνδεση με τη σελίδα της ενότητας πρέπει να "
+"έχει διακοπεί. Παρακαλώ επικοινωνήστε με το διαχειριστή."
+
+#: $string['lessonstats']
+msgid "Lesson statistics"
+msgstr "Στατιστικά ενότητας"
+
+#: $string['lesson:view']
+msgid "View lesson activity"
+msgstr ""
+
+#: $string['lesson:viewreports']
+msgid "View lesson reports"
+msgstr ""
+
+#: $string['linkedmedia']
+msgctxt "$string['linkedmedia']"
+msgid "Linked media"
+msgstr "Συνδεδεμένα πολυμέσα"
+
+#: $string['loginfail']
+msgid "Login failed, please try again..."
+msgstr "Αποτυχημένη είσοδος, παρακαλώ προσπαθήστε ξανά..."
+
+#: $string['lowscore']
+msgid "Low score"
+msgstr "Χαμηλός βαθμός"
+
+#: $string['lowtime']
+msgid "Low time"
+msgstr "Χαμηλός χρόνος"
+
+#: $string['manualgrading']
+msgid "Grade essays"
+msgstr "Βαθμολόγηση Εκθέσεων"
+
+#: $string['matchesanswer']
+msgid "Matches with answer"
+msgstr "Ταιριάζει με την απάντηση"
+
+#: $string['matching']
+msgid "Matching"
+msgstr ""
+
+#: $string['matchingpair']
+msgid "Matching pair {$a}"
+msgstr ""
+
+#: $string['maxgrade']
+msgid "Maximum grade"
+msgstr "Μέγιστος βαθμός"
+
+#: $string['maxgrade_help']
+msgid ""
+"This setting specifies the maximum grade for the lesson. If set to 0, the "
+"lesson does not appear in the grades pages."
+msgstr ""
+"<p align=\"center\"><b>Βαθμολογία εργασιών που έχουν υποβληθεί</b></p>\n"
+"\n"
+"<p>Πρόκειται για το μέγιστο βαθμό που μπορεί να δοθεί σε μια εργασία που "
+"έχει υποβληθεί για εξέταση και βαθμολόγηση.</p>\n"
+"\n"
+"<p>Ο γενικός βαθμός μιας άσκησης προκύπτει από το άθροισμα της διδακτικής "
+"επίδοσης του διδασκόμενου\n"
+"και των βαθμών από τις εργασίες που έχει υποβάλει. Επομένως, αν ο μέγιστος "
+"βαθμός διδακτικής επίδοσης\n"
+"διδασκόμενου έχει οριστεί να είναι το 30 και ο μέγιστος βαθμός για τις "
+"υποβληθείσες εργασίες το 70,\n"
+"τότε ο μέγιστος γενικός βαθμός της άσκησης είναι το 100.</p>\n"
+"\n"
+"<p>Ο βαθμός μπορεί να αλλάξει εύκολα και να γίνει άμεσα αντιληπτός από "
+"διδάσκοντες και διδασκόμενους.</p>"
+
+#: $string['maximumnumberofanswersbranches']
+msgid "Maximum number of answers"
+msgstr "Μέγιστος αριθμός απαντήσεων/διακλαδώσεων"
+
+#: $string['maximumnumberofanswersbranches_help']
+msgid ""
+"This setting specifies the maximum number of answers that may be used in the "
+"lesson. If only true/false questions are used, it can be set to 2. The "
+"setting may be changed at any time, since it only affects what the teacher "
+"sees, not the data."
+msgstr ""
+"<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" "
+"\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n"
+"<html xmlns=\"http://www.w3.org/1999/xhtml\">\n"
+"<head>\n"
+"<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n"
+"<title>Ο μέγιστος αριθμός απαντήσεων σε μία ενότητα</title></head>\n"
+"\n"
+"<body>\n"
+"<p align=\"center\"><b>Ο μέγιστος αριθμός απαντήσεων σε μία ενότητα </b></p>\n"
+"<p>Αυτή η τιμή προσδιορίζει τον μέγιστο αριθμό απαντήσεων που μπορεί να "
+"χρησιμοποιήσει ο καθηγητής.\n"
+"  Η προκαθορισμένη τιμή είναι 4 .Εάν η ενότητα χρησιμοποιεί μόνο, για "
+"παράδειγμα, TRUE or FALSE ερωτήσεις είναι λογικό να τεθεί αυτή η τιμή σε "
+"2.</p>\n"
+"<p>Αυτή η παράμετρος θέτει επίσης το μέγιστο αριθμό διακλαδώσεων που μπορεί "
+"να χρησιμοποιηθεί σε έναν πίνακα διακλαδώσεων.</p>\n"
+"<p>Στην πραγματικότητα εάν θέλετε να προσθέσετε μια ερώτηση με πολλές  "
+"επιλογές ή έναν μακρύ πίνακα διακλαδώσεων η αλλαγή αυτής της παραμέτρου  θα "
+"είναι απαραίτητη.Μετά την προσθήκη της ερώτησης ή του πίνακα διακλαδώσεων η "
+"παράμετρος αυτή μπορεί να μειωθεί σε μια πιο &quot;standard&quot; τιμή. </p>\n"
+"</body>\n"
+"</html>"
+
+#: $string['maximumnumberofattempts']
+msgid "Maximum number of attempts"
+msgstr "Μέγιστος αριθμός προσπαθειών"
+
+#: $string['maximumnumberofattempts_help']
+msgid ""
+"This setting specifies the maximum number of attempts allowed for each "
+"question. If answered incorrectly repeatedly, when the maximum is reached, "
+"the next page of the lesson is displayed."
+msgstr ""
+"<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" "
+"\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n"
+"<html xmlns=\"http://www.w3.org/1999/xhtml\">\n"
+"<head>\n"
+"<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n"
+"<title>Μέγιστος αριθμός προσπαθειών (από Μαθητές)</title></head>\n"
+"\n"
+"<body>\n"
+"<p align=\"center\"><b>Μέγιστος αριθμός προσπαθειών (από Μαθητές)</b></p>\n"
+"<p>Αυτή η τιμή καθορίζει τον μέγιστο αριθμό προσπαθειών που έχει ένας "
+"μαθητής να απαντήσει <strong>οποιαδήποτε </strong>από τις ερωτήσεις της "
+"ενότητας.Σε περίπτωση ερωτήσεων που δεν παρέχουν την απάντηση , για "
+"παράδειγμα σύντομη απάντηση ή αριθμητική ερώτηση, αυτή η τιμή δίνει μια "
+"απαραίτητη ρουτίνα διαφυγής στην επόμενη σελίδα της ενότητας. </p>\n"
+"<p>Η προεπιλεγμένη τιμή είναι 5 .Μικρότερες τιμές ίσως αποθαρρύνουν τον "
+"μαθητή από το να σκεφτεί τις ερωτήσεις.Μεγαλύτερες τιμές ίσως οδηγήσουν σε "
+"περισσότερη απογοήτευση.Αλλάζοντας την τιμή σε ένα δίνει μόνο μία ευκαιρία "
+"στον μαθητή να απαντήσει στην ερώτηση. </p>\n"
+"<p>Σημειώστε ότι αυτή η τιμή είναι καθολική παράμετρος και  ισχύει για  όλες "
+"τις ερωτήσεις στην ενότητα ανεξάρτητα από τον τύπο τους.</p>\n"
+"<p>Σημειώστε ότι αυτή η παράμετρος <b>δεν</b> αφορά τους καθηγητές όταν "
+"ελέγχουν ερωτήσεις ή πλοηγούντε στο μάθημα. Ο έλεγχος του πλήθους των "
+"προσπαθειών εξαρτάται από τις τιμές που αποθηκέυονται στην βάση δεδομένων "
+"και τις προσπάθειες ερωτήσεων από καθηγητές δεν καταγράφονται. Ο καθηγητής "
+"πρέπει να γνωρίζει τις ερωτήσεις!</p>\n"
+"</body>\n"
+"</html>"
+
+#: $string['maximumnumberofattemptsreached']
+msgid "Maximum number of attempts reached - Moving to next page"
+msgstr ""
+"Συμπληρώθηκε ο μέγιστος αριθμός προσπαθειών - Μετάβαση στην επόμενη σελίδα"
+
+#: $string['mediaclose']
+msgid "Show close button"
+msgstr "Εμφάνιση κουμπιού εξόδου:"
+
+#: $string['mediafile']
+msgctxt "$string['mediafile']"
+msgid "Linked media"
+msgstr "Άνοιγμα αναδυόμενου παράθυροτ σε αρχείο ή ιστοσελίδα"
+
+#: $string['mediafile_help']
+msgid ""
+"A media file may be uploaded for use in the lesson. A 'Click here to view' "
+"link will then be displayed in a block called 'Linked media' on each page of "
+"the lesson."
+msgstr ""
+"<p align=\"center\"><b>Αναδυόμενο αρχείο ή ιστοσελίδα</b></p>\n"
+"\n"
+"<p>Αυτό θα δημιουργήσει ένα αναδυόμενο παράθυρο όταν αρχίζει η ενότητα σε "
+"ένα αρχείο (π.χ : ένα mp3 αρχείο) ή σε μία ιστοσελίδα. Επίσης, ένας "
+"σύνδεσμος θα τυπωθείσε όλες τις σελίδες της ενότητας ωστέ να μπορεί να "
+"ανοιχτεί πάλι το pop-up παράθυρο άν είναι αναγκαίο. </p>\n"
+"<p>Προαιρετικά δημιουργήτε ένα κουμπί &quot;κλείσιμο παραθύρου&quot; στο "
+"κάτω μέρους του pop-up  επίσης το ύψος και πλάτος του παραθύρου μπορεί να "
+"τροποποιηθεί . </p>\n"
+"<p>&nbsp;</p>"
+
+#: $string['mediafilepopup']
+msgid "Click here to view"
+msgstr "Πατήστε εδώ για να δείτε τα αρχεία πολυμέσων αυτής της ενότητας"
+
+#: $string['mediaheight']
+msgid "Popup window height"
+msgstr "Ύψος παραθύρου:"
+
+#: $string['mediawidth']
+msgid "Popup window width"
+msgstr "πλάτος:"
+
+#: $string['messageprovider:graded_essay']
+msgid "Lesson essay graded notification"
+msgstr "Ειδοποίηση βαθμολόγησης έκθεσης"
+
+#: $string['minimumnumberofquestions']
+msgid "Minimum number of questions"
+msgstr "Ελάχιστος αριθμός ερωτήσεων"
+
+#: $string['minimumnumberofquestions_help']
+msgid ""
+"This setting specifies the minimum number of questions that will be used to "
+"calculate a grade for the activity."
+msgstr ""
+"Αυτή η ρύθμιση καθορίζει τον ελάχιστο αριθμό ερωτήσεων που χρειάζονται για "
+"να υπολογιστεί ένας βαθμός για την δραστηριότητα. Αν το μάθημα περιέχει μία "
+"ή περισσότερες σελίδες περιεχομένου, ο ελάχιστος αριθμός ερωτήσεων πρέπει να "
+"ορισθεί στο μηδέν. Αν καθοριστεί το 20, προτείνετε το ακόλουθο κείμενο να "
+"προσθεθεί στην αρχική σελίδα του μαθήματος: \"Σε αυτό το μάθημα αναμένεται να "
+"επιχειρήσετε τουλάχιστον 20 ερωτήσεις. Μπορείτε να επιχειρήσετε "
+"περισσότερες αν το επιθυμείτε. Ωστόσο, αν επιχειρήσετε λιγότερες από 20 "
+"ερωτήσεις, ο βαθμός σας θα υπολογιστεί σαν να επιχειρήσατε 20.\""
+
+#: $string['missingname']
+msgid "Please enter a nickname"
+msgstr "Παρακαλώ εισάγετε ένα παρατσούκλι"
+
+#: $string['modattempts']
+msgid "Allow student review"
+msgstr "Να επιτρέπεται η αναθεώρηση από μαθητή"
+
+#: $string['modattempts_help']
+msgid ""
+"If enabled, students can navigate through the lesson again from the start."
+msgstr ""
+"<p align=\"center\"><b>Επιτρέπεται η επισκόπηση μαθητή</b></p>\n"
+"\n"
+"<p>Αυτό θα αφήσει το σπουδαστή να πλοηγηθεί πίσω μέσα στο μαθήμα  για να "
+"αλλάξει τις απαντήσεις τους.</p>\n"
+"<p>&nbsp;</p>"
+
+#: $string['modattemptsnoteacher']
+msgid "Student review only works for students."
+msgstr "Η αναθεώρηση από μαθητή δουλεύει μόνο για τους μαθητές"
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Lesson"
+msgstr "Ενότητα"
+
+#: $string['modulename_help']
+msgid ""
+"The lesson activity module enables a teacher to deliver content and/or "
+"practice activities in  interesting and flexible ways. A teacher can use the "
+"lesson to create a linear set of content pages or instructional activities "
+"that offer a variety of paths or options for the learner. In either case, "
+"teachers can choose to increase engagement and ensure understanding by "
+"including a variety of questions, such as multiple choice, matching and "
+"short answer. Depending on the student's choice of answer and how the "
+"teacher develops the lesson, students may progress to the next page, be "
+"taken back to a previous page or redirected down a different path entirely.\n"
+"\n"
+"A lesson may be graded, with the grade recorded in the gradebook.\n"
+"\n"
+"Lessons may be used\n"
+"\n"
+"* For self-directed learning of a new topic\n"
+"* For  scenarios or simulations/decision-making exercises\n"
+"* For differentiated revision, with different sets of revision questions "
+"depending upon answers given to initial questions"
+msgstr ""
+"<p><img alt=\"\" src=\"<?php echo $CFG->wwwroot?>/mod/exercise/icon.gif\" "
+"/>&nbsp;<b>Μάθημα</b></p>\n"
+"<div class=\"indent\">\n"
+"Ένα μάθημα εμφανίζει περιεχόμενο με έναν ενδιαφέρον και ευέλικτο τρόπο. "
+"Αποτελείται από ένα πλήθος σελίδων. Κάθε σελίδα κανονικά τελειώνει με μια "
+"ερώτηση και έναν αριθμό από πιθανές απαντήσεις. Ανάλογα με την απάντηση του "
+"φοιτητή είτε προχωράνε στην επόμενη σελίδα είτε πηγαίνουν στην προηγούμενη. "
+"Η πλοήγηση μέσα στο μάθημα μπορεί να είναι απλή ή πολύπλοκη  και εξαρτάται "
+"από την δομή του υλικού που παρουσιάζεται.  </div>"
+
+#: $string['modulename_link']
+msgid "mod/lesson/view"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Lessons"
+msgstr "Ενότητες"
+
+#: $string['move']
+msgid "Move page"
+msgstr ""
+
+#: $string['movedpage']
+msgid "Moved page"
+msgstr "Μεταφερθείσα σελίδα"
+
+#: $string['movepagehere']
+msgid "Move page to here"
+msgstr "Μεταφορά σελίδας εδώ"
+
+#: $string['movepagenamed']
+msgid "Move page: {$a}"
+msgstr ""
+
+#: $string['moving']
+msgid "Moving page: {$a}"
+msgstr "Μεταφορά σελίδας: {$a}"
+
+#: $string['multianswer']
+msgid "Multiple-answer"
+msgstr "Πολλαπλή απάντηση"
+
+#: $string['multianswer_help']
+msgid "Tick the checkbox if more than one response is a correct answer."
+msgstr ""
+
+#: $string['multichoice']
+msgid "Multichoice"
+msgstr ""
+
+#: $string['multipleanswer']
+msgid "Multiple answer"
+msgstr "Πολλαπλή απάντηση"
+
+#: $string['nameapproved']
+msgid "Name approved"
+msgstr "Το όνομα εγκρίθηκε"
+
+#: $string['namereject']
+msgid ""
+"Sorry, your name has been rejected by the filter.<br />Please try another "
+"name."
+msgstr ""
+"Συγνώμη, το όνομά σας απορρίφθηκε από το φίλτρο.<br />Παρακαλώ επιλέξτε "
+"κάποιο άλλο όνομα."
+
+#: $string['new']
+msgid "new"
+msgstr ""
+
+#: $string['nextpage']
+msgid "Next page"
+msgstr "Επόμενη σελίδα"
+
+#: $string['noanswer']
+msgid ""
+"One or more questions have no answer given.  Please go back and submit an "
+"answer."
+msgstr ""
+"Καμία απάντηση δεν δόθηκε. Παρακαλώ, πηγαίνετε πίσω και καταχωρήστε την "
+"απαντησή σας."
+
+#: $string['noattemptrecordsfound']
+msgid "No attempt records found: no grade given"
+msgstr "Δεν βρέθηκαν προσπάθειες: δεν δόθηκε βαθμός"
+
+#: $string['nobranchtablefound']
+msgid "No content page found"
+msgstr "Δεν βρέθηκε πίνακας διακλάδωσης"
+
+#: $string['noclose']
+msgid "No close date"
+msgstr ""
+
+#: $string['nocommentyet']
+msgid "No comment yet."
+msgstr "Κανένα σχόλιο ακόμα."
+
+#: $string['nocoursemods']
+msgid "No activities found"
+msgstr "Δεν βρέθηκε καμία δραστηριότητα"
+
+#: $string['nocredit']
+msgid "No credit"
+msgstr "Χωρίς βαθμό"
+
+#: $string['nodeadline']
+msgid "No deadline"
+msgstr "Χωρίς προθεσμία"
+
+#: $string['noessayquestionsfound']
+msgid "No essay questions found in this lesson."
+msgstr "Δεν βρέθηκαν ερωτήσεις έκθεσης σε αυτή την ενότητα"
+
+#: $string['nohighscores']
+msgid "No high scores"
+msgstr "Χωρίς υψηλούς βαθμούς"
+
+#: $string['nolessonattempts']
+msgid "No attempts have been made on this lesson."
+msgstr "Δεν πραγματοποιήθηκαν προσπάθειες σε αυτή την ενότητα."
+
+#: $string['nolessonattemptsgroup']
+msgid "No attempts have been made by {$a} group members on this lesson."
+msgstr ""
+
+#: $string['none']
+msgid "None"
+msgstr "Κανένα"
+
+#: $string['nooneansweredcorrectly']
+msgid "No one answered correctly."
+msgstr "Κανένας δεν απάντησε σωστά."
+
+#: $string['nooneansweredthisquestion']
+msgid "No one answered this question."
+msgstr "Κανένας δεν απάντησε αυτή την ερώτηση."
+
+#: $string['noonecheckedthis']
+msgid "No one checked this."
+msgstr "Κανένας δεν το επέλεξε αυτό."
+
+#: $string['nooneenteredthis']
+msgid "No one entered this."
+msgstr "Κανένας δεν μπήκε σε αυτό."
+
+#: $string['noonehasanswered']
+msgid "No one has answered an essay question yet."
+msgstr "Κανένας δεν απάντησε σε ερώτηση έκθεσης ακόμα."
+
+#: $string['noonehasansweredgroup']
+msgid "No one in {$a} has answered an essay question yet."
+msgstr ""
+
+#: $string['noopen']
+msgid "No open date"
+msgstr ""
+
+#: $string['nooverridedata']
+msgid "You must override at least one of the lesson settings."
+msgstr ""
+
+#: $string['noretake']
+msgid "You are not allowed to retake this lesson."
+msgstr "Δεν έχετε το δικαίωμα να επαναλάβετε αυτή την ενότητα."
+
+#: $string['normal']
+msgid "Normal - follow lesson path"
+msgstr "Κανονικό - ακολουθήστε τη διαδρομή της ενότητας"
+
+#: $string['notcompleted']
+msgid "Not completed"
+msgstr "Δεν ολοκληρώθηκε"
+
+#: $string['notdefined']
+msgid "Not defined"
+msgstr "Δεν καθορίστηκε"
+
+#: $string['notenoughsubquestions']
+msgid "Not enough sub-questions have been defined!"
+msgstr ""
+"Δεν έχουν οριστεί αρκετά υποερωτήματα!<br />\n"
+"Θέλετε να επιστρέψετε και να διορθώσετε αυτήν την ερώτηση;"
+
+#: $string['notenoughtimespent']
+msgid ""
+"You completed this lesson in {$a->timespent}, which is less than the "
+"required time of {$a->timerequired}. You might need to attempt the lesson "
+"again."
+msgstr ""
+
+#: $string['notgraded']
+msgid "Not graded"
+msgstr "Χωρίς βαθμό"
+
+#: $string['notitle']
+msgid "No title"
+msgstr "Χωρίς τίτλο"
+
+#: $string['notyetcompleted']
+msgid "Lesson has been started, but not yet completed"
+msgstr ""
+
+#: $string['numberofcorrectanswers']
+msgid "Number of correct answers: {$a}"
+msgstr "Αριθμός σωστών απαντήσεων: {$a}"
+
+#: $string['numberofcorrectanswersheader']
+msgid "Number of correct answers"
+msgstr ""
+
+#: $string['numberofcorrectmatches']
+msgid "Number of correct matches: {$a}"
+msgstr "Αριθμός σωστών αντιστοιχιών: {$a}"
+
+#: $string['numberofpagestoshow']
+msgid "Number of pages to show"
+msgstr "Αριθμός σελιδών (καρτών) προς εμφάνιση"
+
+#: $string['numberofpagestoshow_help']
+msgid ""
+"This setting specifies the number of pages shown in a lesson. It is only "
+"applicable for lessons with pages shown in a random order (when \"Action "
+"after correct answer\" is set to \"Show an unseen page\" or \"Show an unanswered "
+"page\"). If set to zero, then all pages are shown."
+msgstr ""
+"<title>Αριθμός σελίδων (κάρτες) που παρουσιάζονται</title><p "
+"align=\"center\"><strong>Αριθμός σελίδων (κάρτες) που "
+"παρουσιάζονται</strong></p>\n"
+"\n"
+"Αυτή η παράμετρος χρησιμοποιείται μόνο στα μαθήματα τύπου Flash . Η "
+"προκαθορισμένη τιμή είναι μηδέν που σημαίνει ότι όλες οι  σελίδες/οι κάρτες "
+"παρουσιάζονται σε μία ενότητα . Ο καθορισμός αυτής της  παραμέτρου σε "
+"διαφορετική από το μηδέν τιμή δείχνει τον  αριθμό σελίδων/καρτών. Αφότου "
+"έχει παρουσιαστεί ο αριθμός σελίδων/  καρτών έχουμε τέλος της ενότητας και  "
+"παρουσιάζεται ο βαθμό του μαθητή .\n"
+"<p>Εάν η παράμετρος έχει ορισθεί σε αριθμό μεγαλύτερο από τον αριθμό των "
+"σελίδων της ενότητας τότε το τέλος της ενότητας φτάνει όταν έχουν "
+"παρουσιαστεί όλες οι σελίδες. </p>\n"
+"\n"
+"<p>&nbsp;</p>"
+
+#: $string['numberofpagesviewed']
+msgid "Number of questions answered: {$a}"
+msgstr "Αριθμός απαντημένων ερωτήσεων: {$a}"
+
+#: $string['numberofpagesviewedheader']
+msgid "Number of questions answered"
+msgstr ""
+
+#: $string['numberofpagesviewednotice']
+msgid ""
+"Number of questions answered: {$a->nquestions} (You should answer at least "
+"{$a->minquestions})"
+msgstr ""
+"Αριθμός απαντημένων ερωτήσεων: {$a->nquestions} (πρέπει να απαντήσετε "
+"τουλάχιστον: {$a->minquestions})"
+
+#: $string['numerical']
+msgid "Numerical"
+msgstr ""
+
+#: $string['offlinedatamessage']
+msgid ""
+"You have worked on this attempt using a mobile device. Data was last saved "
+"to this site {$a} ago. Please check that you do not have any unsaved work."
+msgstr ""
+
+#: $string['ongoing']
+msgid "Display ongoing score"
+msgstr "Εμφάνιση τρέχοντος βαθμού"
+
+#: $string['ongoingcustom']
+msgid ""
+"You have earned {$a->score} point(s) out of {$a->currenthigh} point(s) thus "
+"far."
+msgstr ""
+"Έχετε πάρει {$a->score} από τους τους {$a->currenthigh} βαθμούς μέχρι τώρα ."
+
+#: $string['ongoing_help']
+msgid ""
+"If enabled, each page will display the student's current points earned out "
+"of the total possible thus far."
+msgstr ""
+"<p align=\"center\"><b>Τρέχον σκορ</b></p>\n"
+"\n"
+"<p>Εάν ενεργοποιημένο, κάθε σελίδα εμφανίζει την τρέχουσα βαθμολογία του "
+"μαθητή σε σχέση με το μέγιστο. Π.χ.:  ένας μαθητής έχει απαντήσει 4 "
+"ερωτήσεις 5 πόντων σωστά και μια λάθος, το τρέχον σκορ είναι 15/20 "
+"πόντοι.</p>"
+
+#: $string['ongoingnormal']
+msgid "You have answered {$a->correct} correctly out of {$a->viewed} attempts."
+msgstr "Έχετε απαντήσει {$a->correct} σωστά από τις {$a->viewed} προσπάθειες."
+
+#: $string['onpostperpage']
+msgid "Only one posting per grade"
+msgstr "Μια δημοσίευση μόνο ανά βαθμό"
+
+#: $string['openafterclose']
+msgid "You have specified an open date after the close date"
+msgstr ""
+
+#: $string['options']
+msgid "Options"
+msgstr "Επιλογές"
+
+#: $string['or']
+msgid "OR"
+msgstr "Ή"
+
+#: $string['ordered']
+msgid "Ordered"
+msgstr "Ταξινομημένο"
+
+#: $string['other']
+msgid "Other"
+msgstr "Άλλο"
+
+#: $string['outof']
+msgid "Out of {$a}"
+msgstr "Από τα {$a}"
+
+#: $string['override']
+msgid "Override"
+msgstr ""
+
+#: $string['overridedeletegroupsure']
+msgid "Are you sure you want to delete the override for group {$a}?"
+msgstr ""
+
+#: $string['overridedeleteusersure']
+msgid "Are you sure you want to delete the override for user {$a}?"
+msgstr ""
+
+#: $string['overridegroup']
+msgid "Override group"
+msgstr ""
+
+#: $string['overridegroupeventname']
+msgid "{$a->lesson} - {$a->group}"
+msgstr ""
+
+#: $string['overrides']
+msgid "Overrides"
+msgstr ""
+
+#: $string['overrideuser']
+msgid "Override user"
+msgstr ""
+
+#: $string['overrideusereventname']
+msgid "{$a->lesson} - Override"
+msgstr ""
+
+#: $string['overview']
+msgid "Overview"
+msgstr "Σύνοψη"
+
+#: $string['overview_help']
+msgid ""
+"A lesson is made up of a number of pages and optionally content pages. A "
+"page contains some content and usually ends with a question. Associated with "
+"each answer to the question is a jump. The jump can be relative, such as "
+"this page or next page, or absolute, specifying any one of the pages in the "
+"lesson. A content page is a page containing a set of links to other pages in "
+"the lesson, for example a Table of Contents."
+msgstr ""
+"<p align=\"center\">&nbsp;</p>\n"
+"<p align=\"center\"><strong> Επισκόπηση </strong></p>\n"
+"<p>1. Ένα μάθημα αποτελείται από διάφορες <strong>σελίδες</strong> και "
+"προαιρετικά από <strong>πίνακες κλάδους</strong>. </p>\n"
+"<p>2. Μια σελίδα περιέχει κάποιο <strong>περιεχόμενο</strong> και τελειώνει "
+"κανονικά με μια ερώτηση, εξ&rsquo; ου και ο όρος <strong>Σελίδα "
+"Ερώτησης</strong>. </p>\n"
+"<p>3. Για τις ερωτήσεις ανάπτυξης, δεν προβλέπεται απάντηση, μόνο "
+"βαθμολόγηση, ανατροφοδότηση, και ένα <strong>άλμα</strong> σε σελίδα. </p>\n"
+"<p>4. Κάθε απάντηση μπορεί να έχει ένα μικρό κομμάτι κειμένου που "
+"εμφανίζεται όταν η απάντηση επιλέγεται. Αυτό το κομμάτι του κειμένου "
+"καλείται <strong>απόκριση</strong> (response ). </p>\n"
+"<p>5. Ένα &lsquo;άλμα&rsquo; συνδέεται με κάθε απάντηση. Το "
+"&lsquo;άλμα&rsquo; μπορεί να είναι σχετικό &ndash; &lsquo;αυτή η "
+"σελίδα&rsquo;, &lsquo;επόμενη σελίδα&rsquo; - ή απόλυτο &ndash; αναφερόμενο "
+"σε κάποια από τις σελίδες ή το τέλος της διδακτικής ενότητας. </p>\n"
+"<p>6. Εξ ορισμού, η πρώτη απάντηση μεταπηδά στην <strong>επόμενη "
+"σελίδα</strong> της διδακτικής ενότητας. Οι επόμενες απαντήσεις μεταπηδούν "
+"στην ίδια σελίδα. Δηλαδή στο διδασκόμενο παρουσιάζεται ότι η ίδια σελίδα της "
+"διδακτικής ενότητας ξανά, εάν δεν επέλεξε την πρώτη απάντηση. Εάν έχετε "
+"δημιουργήσει ήδη μια συστάδα με ένα τέλος της συστάδας, και η ερώτηση είναι "
+"μέσα σε αυτήν, μπορείτε επίσης να επιλέξετε να μεταπηδήσετε σε μια "
+"Απαρατήρητη Ερώτηση μέσα στη συστάδα. Αυτή η επιλογή δεν θα παρουσιαστεί εάν "
+"δεν είστε σε μια συστάδα. Μπορείτε να περιβάλετε ένα σύνολο ερωτήσεων με "
+"συστάδα και τέλος της συστάδας οποιαδήποτε στιγμή. </p>\n"
+"<p>7. Η επόμενη σελίδα καθορίζεται από τη <strong>λογική δομή </strong>της "
+"διδακτικής ενότητας. Πρόκειται για τη δομή των σελίδων όπως φαίνεται στο "
+"διδάσκοντα. Αυτή η δομή μπορεί να αλλάξει με τη μετακίνηση των σελίδων μέσα "
+"στη διδακτική ενότητα. </p>\n"
+"<p>8. Μια διδακτική ενότητα έχει επίσης μια <strong>δομή πλοήγησης</strong>. "
+"Πρόκειται για τη δομή των σελίδων όπως φαίνεται στους διδασκόμενους. Αυτή "
+"καθορίζεται από τα άλματα που ορίζονται για μεμονωμένες απαντήσεις και "
+"μπορεί να είναι πολύ διαφορετική από τη λογική δομή. (Αν και, σε περίπτωση "
+"που τα άλματα δεν παρεκλίνουν από τις προκαθορισμένες αξίες τους, τα δύο "
+"συσχετίζονται έντονα.) Ο διδάδκων έχει την επιλογή να ελέγξει τη δομή "
+"πλοήγησης. </p>\n"
+"<p>9. Όταν επιδεικνύονται στους διδασκόμενους, οι απαντήσεις συνήθως "
+"μετατίθενται. Δηλαδή η πρώτη απάντηση όπως είναι ορατή στο διδάσκοντα , δεν "
+"θα είναι απαραιτήτως η πρώτη απάντηση στον κατάλογο που παρουσιάζεται στους "
+"διδασκόμενους. (Περαιτέρω, κάθε φορά που το ίδιο σύνολο απαντήσεων "
+"επιδεικνύεται, είναι πιθανό αυτές να εμφανίζονται με διαφορετική διάταξη.) Η "
+"εξαίρεση είναι σύνολα απαντήσεων για τις ερωτήσεις τύπου ταιριάσματος, όπου "
+"οι απαντήσεις παρουσιάζονται στη διάταξη με την οποία τις εισήγαγε ο "
+"διδάσκων. </p>\n"
+"<p>10. Ο αριθμός απαντήσεων μπορεί να ποικίλει από σελίδα σε σελίδα. "
+"Παραδείγματος χάριν, επιτρέπεται μερικές σελίδες να τελειώσουν με ερώτηση "
+"τύπου Σωστού-Λάθους, ενώ άλλες έχουν τις ερωτήσεις με μια σωστή απάντηση και "
+"τρεις λανθασμένες για να μπερδέψουν τον διδασκόμενο. </p>\n"
+"<p>11. Είναι δυνατό να οργανωθεί μια σελίδα χωρίς απαντήσεις. Στους "
+"διδασκόμενους παρουσιάζεται ένας σύνδεσμος "
+"&lsquo;<strong>Συνέχεια</strong>&rsquo; (&lsquo;Continue link &rsquo;) αντί "
+"για ένα σύνολο απαντήσεων. </p>\n"
+"<p>12. Εάν η μη αυτόματη βαθμολόγηση είναι απενεργοποιημένη: για τους "
+"σκοπούς της βαθμολόγησης των διδακτικών ενοτήτων, οι <strong>σωστές "
+"απαντήσεις</strong> είναι αυτές που μεταπηδούν σε μια σελίδα που είναι πιο "
+"κάτω στη λογική διάταξη από την τρέχουσα σελίδα. Οι <strong>λανθασμένες "
+"απαντήσεις</strong> είναι αυτές που είτε μεταπηδούν στην ίδια σελίδα είτε σε "
+"μια σελίδα πιο πάνω στη λογική διάταξη από την τρέχουσα σελίδα. Κατά "
+"συνέπεια, εάν τα άλματα δεν αλλάξουν, η πρώτη απάντηση είναι η σωστή "
+"απάντηση και οι άλλες απαντήσεις είναι λανθασμένες απαντήσεις. </p>\n"
+"<p>Εάν η μη αυτόματη βαθμολόγηση είναι ενεργοποιημένη: η βαθμολόγηση μιας "
+"απάντησης καθορίζεται από την αξία της απάντησης. Το σύνολο των βαθμών "
+"αποτελεί μέρος της συνολικής αξίας της διδακτικής ενότητας, μέχρι ποσοστού "
+"100%. </p>\n"
+"<p>13. Οι ερωτήσεις μπορούν να έχουν περισσότερες από μια σωστές απαντήσεις. "
+"Παραδείγματος χάριν, εάν δύο από τις απαντήσεις μεταπηδούν στην επόμενη "
+"σελίδα, τότε καθεμία από τις δυο απαντήσεις λαμβάνεται ως σωστή. (Αν και η "
+"ίδια σελίδα προορισμού παρουσιάζεται στους διδασκόμενους, οι αποκρίσεις "
+"μπορεί να είναι διαφορετικές για τις δύο απαντήσεις.) </p>\n"
+"<p>14. Όπως φαίνεται στο διδάσκοντα, οι σωστές απαντήσεις έχουν "
+"υπογραμμισμένες Ετικέτες Απάντησης. </p>\n"
+"<p>15. Οι <strong>πίνακες κλάδοι</strong> είναι απλά σελίδες που έχουν ένα "
+"σύνολο συνδέσεων προς άλλες σελίδες στη διδακτική ενότητα. Μια διδακτική "
+"ενότητα μπορεί να αρχίζει με έναν πίνακα κλάδο που ενεργεί ως "
+"<strong>πίνακας περιεχομένων</strong>. </p>\n"
+"<p>16. Κάθε σύνδεση σε έναν πίνακα κλάδο έχει δύο συστατικά, μια περιγραφή "
+"και τον τίτλο της σελίδας μεταπήδησης. </p>\n"
+"<p>17. Ένας πίνακας κλάδος διαιρεί το μάθημα σε διάφορους κλάδους (ή "
+"τμήματα). Κάθε κλάδος μπορεί να περιέχει διάφορες σελίδες (πιθανώς όλες "
+"σχετικές με το ίδιο θέμα). Το τέλος ενός κλάδου χαρακτηρίζεται συνήθως από "
+"ένα Τέλος της σελίδας κλάδων. Πρόκειται για ειδική σελίδα που επαναφέρει τον "
+"διδασκόμενο πίσω στον προηγούμενο πίνακα κλάδο. (Το άλμα "
+"&lsquo;επιστροφής&rsquo; σε ένα Τέλος της σελίδας κλάδων μπορεί να αλλάξει, "
+"αν είναι απαραίτητο, μεσω της επεξεργασίας της σελίδας). </p>\n"
+"<p>18. Μπορούν να υπάρξουν περισσότεροι από ένας πίνακες κλάδων σε μια "
+"διδακτική ενότητα. Παραδείγματος χάριν, μια διδακτική ενότητα μπορεί ωφέλιμα "
+"να κτιστεί έτσι ώστε τα ειδικά σημεία να είναι υπο-κλάδοι μέσα στους "
+"κλάδους κύριων θεμάτων. </p>\n"
+"<p>19. Είναι σημαντικό να δοθεί στους διδασκόμενους ένας τρόπος να "
+"τελειώνουν μια διδακτική ενότητα. Αυτό να γίνει με τη συμπερίληψη μιας "
+"σύνδεσης &quot;<strong>Τέλους μαθήματος</strong>&quot; στον κύριο πίνακα "
+"κλάδο. Έτσι μεταπηδά στο (φανταστικό) τέλος της σελίδας μαθήματος. Μια άλλη "
+"επιλογή είναι ο τελευταίος κλάδος της διδακτικής ενότητας (εδώ "
+"&quot;τελευταίος&quot; με τη έννοια της λογικής διαταγής) απλά να "
+"ολοκληρώνει τη διδακτική ενότητα, δηλαδή να μην υπάρχει Τέλος της σελίδας "
+"κλάδων. </p>\n"
+"<p>20. Εάν η μη αυτόματη βαθμολόγηση είναι απενεργοποιημένη: όταν μια "
+"διδακτική ενότητα περιλαμβάνει έναν ή περισσότερους πίνακες κλάδους, "
+"προτείνεται να τεθεί η παράμετρος &quot;ελάχιστου αριθμού ερωτήσεων&quot; σε "
+"κάποια λογική τιμή. Αυτό θέτει ένα χαμηλότερο όριο στον αριθμό σελίδων που "
+"φαίνονται όταν υπολογίζεται ο βαθμός. Χωρίς αυτήν την παράμετρο ένας "
+"διδασκόμενος μπορεί να επισκεφτεί έναν κλάδο στη διδακτική ενότητα, να "
+"απαντήσει σε όλες τις ερωτήσεις του σωστά και να αφήσει τη διδακτική ενότητα "
+"με το μέγιστο βαθμό. </p>\n"
+"<p>Εάν η μη αυτόματη βαθμολόγηση είναι ενεργοποιημένη: ένας διδασκόμενος "
+"βαθμολογείται με βάση τον αριθμό σημείων που έχει κερδίσει ως ποσοστό των "
+"συνολικών σημείων για το μάθημα. </p>\n"
+"<p>21. Επιπλέον, εάν η μη αυτόματη βαθμολόγηση είναι απενεργοποιημένη, όταν "
+"ένας πίνακας κλάδων είναι ανοιχτός, ένας διδασκόμενος έχει την ευκαιρία να "
+"επισκευτεί τον ίδιο κλάδο περισσότερο από μία φορά. Εντούτοις, ο βαθμός "
+"υπολογίζεται χρησιμοποιώντας τον αριθμό μοναδικών ερωτήσεων που απαντώνται. "
+"Άρα το να απαντά κανείς επανειλημμένα στο ίδιο σύνολο ερωτήσεων δεν αυξάνει "
+"το βαθμό. (Στην πραγματικότητα, ισχύει το αντίστροφο, δηλ. χαμηλώνει ο "
+"βαθμός, αφού η αρίθμηση του αριθμού σελίδων που επισκέπτεται κανείς "
+"χρησιμοποιείται στον παρονομαστή κατά την υπολογισμό των βαθμών, και "
+"περιλαμβάνει και τις επανεπισκέψεις). Προκειμένου να δοθεί στους σπουδαστές "
+"μια δίκαιη ιδέα της προόδου τους στη διδακτική ενότητα, παρουσιάζονται "
+"λεπτομέρειες πόσων ερωτήσεων απαντώνται σωστά, ο αριθμός σελίδων που έχει "
+"κανείς επισκεφτεί, και ο τρέχων βαθμός τους σε κάθε σελίδα κλάδων. </p>\n"
+"<p>Εάν η μη αυτόματη βαθμολόγηση είναι ενεργοποιημένη, ένας διδασκόμενος "
+"μπορεί να ξαναεπισκεφτεί μια ερώτηση εάν η πορεία πλοήγησης τού το "
+"επιτρέπει, και να ξανακερδίζει τους πόντους για εκείνη την ερώτηση, εάν οι "
+"προσπάθειες είναι μεγαλύτερες από 1. Για να το αποτρέψετε αυτό, θέστε τις "
+"προσπάθειες σε 1. </p>\n"
+"<p>22. Το <strong>τέλος του μαθήματος</strong> επιτυγχάνεται είτε με "
+"μεταπήδηση σε εκείνη την θέση αποκλειστικά είτε με το άλμα στην επόμενη "
+"σελίδα από την τελευταία (λογική) σελίδα της διδακτικής ενότητας. Εάν η μη "
+"αυτόματη βαθμολόγηση είναι απενεργοποιημένη, με το τέλος της διδακτικής "
+"ενότητας ο διδασκόμενος λαμβάνει ένα μήνυμα συγχαρητηρίων και παρουσιάζεται "
+"ο βαθμό του. Ο βαθμός είναι (ο αριθμός ερωτήσεων που απαντώνται "
+"σωστά/αριθμός σελίδων που έχει επισκεφτεί) * ο βαθμός της διδακτικής "
+"ενότητας. Εάν η μη αυτόματη βαθμολόγηση είναι ενεργοποιημένη, ο βαθμός είναι "
+"οι πόντοι που κερδίζονται ως ποσοστό % των συνολικών πόντων (π.χ. 3 πόντοι "
+"που κερδίζονται για μια διδακτική ενότητα αξίας 3 πόντων = 100% από 3 "
+"πόντους). </p>\n"
+"<p>23. Εάν η διδακτική ενότητα δεν ολοκληρωθεί και ο διδασκόμενος απλά "
+"αποχωρήσει, όταν πηγαίνει ο διδασκόμενος στο μάθημα πάλι, του δίνεται η "
+"επιλογή της έναρξης από την αρχή ή να συνεχίσει στη διδακτική ενότητα από το "
+"σημείο όπου έδωσε την τελευταία σωστή απάντηση. </p>\n"
+"<p>24. Για μια διδακτική ενότητα όπου επιτρέπεται η επανεξέταση, ο διδάσκων "
+"έχει την επιλογή της χρησιμοποίησης του καλύτερου βαθμού ή του μέσου όρου "
+"των βαθμών ως &quot;τελικό&quot; βαθμό για τη διδακτική ενότητα. Αυτός ο "
+"βαθμός θα παρουσιαστεί για παράδειγμα στη Σελίδα Βαθμών. </p>\n"
+"<p>25. Σελίδες συστάδων: μια συστάδα αντιπροσωπεύει ένα σύνολο ερωτήσεων από "
+"το οποίο μία ή περισσότερες μπορούν να επιλεχτούν τυχαία. Οι συστάδες "
+"πρέπει να ολοκληρωθούν με ένα Τέλος της σελίδας συστάδων για καλύτερα "
+"αποτελέσματα (ειδάλλως αντιμετωπίζουν το τέλος της διδακτικής ενότητας ως "
+"EOC ). Οι ερωτήσεις μέσα σε μια συστάδα επιλέγονται τυχαία με την επιλογή "
+"της &quot;Τυχαίας ερώτησης μέσα σε μια συστάδα&quot; ως άλμα. Οι ερωτήσεις "
+"μέσα σε μια συστάδα μπορούν είτε να συνδέουν με το EOC για να βγουν από τη "
+"συστάδα, είτε μεταπηδούν σε μια απαρατήρητη ερώτηση μέσα στη συστάδα, είτε "
+"μεταπηδούν σε οποιαδήποτε άλλη σελίδα στη διδακτική ενότητα. Αυτό επιτρέπει "
+"επίσης τη δημιουργία σεναρίων με ένα τυχαίο στοιχείο χρησιμοποιώντας την "
+"ενότητα μαθήματος. </p>\n"
+"<p align=\"center\">&nbsp;</p>"
+
+#: $string['page']
+msgid "Page: {$a}"
+msgstr "Σελίδα: {$a}"
+
+#: $string['pageanswers']
+msgid "Page answers"
+msgstr ""
+
+#: $string['pagecontents']
+msgid "Page contents"
+msgstr "Περιεχόμενα σελίδας"
+
+#: $string['page-mod-lesson-edit']
+msgid "Edit lesson page"
+msgstr ""
+
+#: $string['page-mod-lesson-view']
+msgid "View or preview lesson page"
+msgstr ""
+
+#: $string['page-mod-lesson-x']
+msgid "Any lesson page"
+msgstr ""
+
+#: $string['pageresponses']
+msgid "Page responses"
+msgstr ""
+
+#: $string['pages']
+msgid "Pages"
+msgstr "Σελίδες"
+
+#: $string['pagetitle']
+msgid "Page title"
+msgstr "Τίτλος σελίδας"
+
+#: $string['password']
+msgid "Password"
+msgstr "Κωδικός"
+
+#: $string['passwordprotectedlesson']
+msgid "{$a} is a password protected lesson."
+msgstr "Η {$a} είναι μια προστατευμένη με συνθηματικό ενότητα."
+
+#: $string['pleasecheckoneanswer']
+msgid "Please check one answer"
+msgstr "Παρακαλώ, επιλέξτε μία απάντηση"
+
+#: $string['pleasecheckoneormoreanswers']
+msgid "Please check one or more answers"
+msgstr "Παρακαλώ, επιλέξτε μία ή περισσότερες απαντήσεις"
+
+#: $string['pleaseenteryouranswerinthebox']
+msgid "Please enter your answer in the box"
+msgstr "Παρακαλώ, εισάγετε την απάντησή σας στο πλαίσιο"
+
+#: $string['pleasematchtheabovepairs']
+msgid "Please match the above pairs"
+msgstr "Παρακαλώ, αντιστοιχίστε τα παραπάνω ζεύγη"
+
+#: $string['pluginadministration']
+msgid "Lesson administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Lesson"
+msgstr "Ενότητα"
+
+#: $string['pointsearned']
+msgid "Points earned"
+msgstr "Κερδισμένοι πόντοι"
+
+#: $string['postprocesserror']
+msgid "Error occurred during post-processing!"
+msgstr "Ένα σφάλμα συνέβη κατά την μετάεπεξεργασία!"
+
+#: $string['postsuccess']
+msgid "Post successful"
+msgstr "Επιτυχής αποστολή"
+
+#: $string['practice']
+msgid "Practice lesson"
+msgstr "Μάθημα για εξάσκηση"
+
+#: $string['practice_help']
+msgid "A practice lesson does not appear in the gradebook."
+msgstr ""
+"<p align=\"center\"><b>Εξάσκηση Ενότητας</b></p>\n"
+"\n"
+"<p>Ένα μάθημα πρακτικής δεν θα εμφανίζεται στό βαθμολόγιο.</p>"
+
+#: $string['preprocesserror']
+msgid "Error occurred during pre-processing!"
+msgstr "Ένα σφάλμα συνέβη κατά την προεπεξεργασία!"
+
+#: $string['prerequisiteisobsolete']
+msgid ""
+"The prerequisite lesson option is due to be removed. Please use access "
+"restrictions instead."
+msgstr ""
+
+#: $string['prerequisitelesson']
+msgid "Prerequisite lesson"
+msgstr ""
+
+#: $string['preview']
+msgid "Preview"
+msgstr "Προεπισκόπιση"
+
+#: $string['previewlesson']
+msgid "Preview {$a}"
+msgstr "Προεπισκόπηση {$a}"
+
+#: $string['previewpagenamed']
+msgid "Preview page: {$a}"
+msgstr ""
+
+#: $string['previouspage']
+msgid "Previous page"
+msgstr "Προηγούμενη σελίδα"
+
+#: $string['processerror']
+msgid "Error occurred during processing!"
+msgstr "Ένα σφάλμα συνέβη κατά την επεξεργασία!"
+
+#: $string['progressbar']
+msgid "Progress bar"
+msgstr "Μπάρα προόδου"
+
+#: $string['progressbar_help']
+msgid ""
+"If enabled, a bar is displayed at the bottom of lesson pages showing "
+"approximate percentage of completion."
+msgstr ""
+"Αν είναι ενεργοποιημένο, μια μπάρα εμφανίζεται στο κάτω μέρος των σελίδων "
+"του μαθήματος παρουσιάζοντας το κατά προσέγγιση ποσοστό ολοκλήρωσης."
+
+#: $string['progressbarteacherwarning']
+msgid "Progress bar does not display for {$a}"
+msgstr "Η μπάρα προόδου δεν εμφανίζεται για {$a}"
+
+#: $string['progressbarteacherwarning2']
+msgid "You will not see the progress bar because you can edit this lesson"
+msgstr ""
+"Δεν θα δείτε την μπάρα προόδου γιατί μπορείτε να επεξεργαστείτε αυτή την "
+"ενότητα"
+
+#: $string['progresscompleted']
+msgid "You have completed {$a}% of the lesson"
+msgstr ""
+
+#: $string['qtype']
+msgid "Page type"
+msgstr "Τύπος σελίδας"
+
+#: $string['question']
+msgctxt "$string['question']"
+msgid "Question"
+msgstr "Ερώτηση"
+
+#: $string['questionoption']
+msgctxt "$string['questionoption']"
+msgid "Question"
+msgstr "Ερώτηση"
+
+#: $string['questiontype']
+msgid "Question type"
+msgstr "Τύπος Ερώτησης"
+
+#: $string['randombranch']
+msgid "Random content page"
+msgstr "Σελίδα τυχαίας διακλάδωσης"
+
+#: $string['randompageinbranch']
+msgid "Random question within a content page"
+msgstr "Τυχαία ερώτηση σε διακλάδωση"
+
+#: $string['rank']
+msgid "Rank"
+msgstr "Κατάταξη"
+
+#: $string['rawgrade']
+msgid "Raw grade"
+msgstr "Βαθμός χωρίς επεξεργασία"
+
+#: $string['receivedcredit']
+msgid "Received credit"
+msgstr "Λάβατε βαθμό"
+
+#: $string['redisplaypage']
+msgid "Redisplay page"
+msgstr "Επανεμφάνιση σελίδας"
+
+#: $string['removeallgroupoverrides']
+msgid "Delete all group overrides"
+msgstr ""
+
+#: $string['removealluseroverrides']
+msgid "Delete all user overrides"
+msgstr ""
+
+#: $string['report']
+msgid "Report"
+msgstr "Αναφορά"
+
+#: $string['reports']
+msgid "Reports"
+msgstr "Αναφορές"
+
+#: $string['response']
+msgid "Response"
+msgstr "Ανταπόκριση"
+
+#: $string['retakesallowed']
+msgid "Re-takes allowed"
+msgstr "Επιτρέπονται οι επαναλήψεις της ενότητας"
+
+#: $string['retakesallowed_help']
+msgid "If enabled, students can attempt the lesson more than once."
+msgstr ""
+"<p align=\"center\"><b>Επιτρέποντας στους μαθητές να ξαναπάρουν ένα "
+"μάθημα</b></p>\n"
+"\n"
+"<p>Αυτή η ρύθμιση ορίζει εάν οι μαθητές μπορούν να πάρουν ένα μάθημα "
+"παραπάνω από 1 φορά. Ο διδάσκοντας μπορεί να αποφασίσει ότι το μάθημα "
+"περιλαμβάνει υλικό το οποίο οι μαθητές πρέπει να το μελετήσουν περισσότερο "
+"και λεπτομερέστερα. Σε αυτή την περίπτωση, η επαναλαμβανόμενη προβολή του "
+"μαθήματος μπορεί να επιτραπεί. Αν, όμως, το υλικό χρησιμοποιηθεί περισσότερο "
+"ως εξετάσεις τότε οι μαθητές δε θα δικαιούνται να ξαναπάρουν το μάθημα.</p>\n"
+"\n"
+"<p>Όταν οι μαθητές επιτρέπεται να ξαναπαίρνουν το μάθημα, οι βαθμοί που "
+"φαίνονται στη σελίδα των βαθμών είναι ή ο μέσος όρος των μαθημάτων ή οι "
+"καλύτεροι βαθμοί των ενοτήτων. Η επόμενη παράμετρος ορίζει ποιο από τις 2 "
+"επιλογές βαθμολόγησης θα χρησιμοποιείται.</p>\n"
+"\n"
+"<p>Σημειώστε ότι η <b>Ανάλυση ερωτήσεων </b> πάντα χρησιμοποιεί απαντήσεις "
+"από τις πρώτες προσπάθειες της ενότητας.</p>\n"
+"\n"
+"<p>Προεπιλεγμένα, αυτή η επιλογή είναι <b>Yes</b>, σημαίνοντας πως οι "
+"μαθητές επιτρέπονται να ξαναπαίρνουν το μάθημα. Αναμένεται πως μόνο σε "
+"ειδικές συνθήκες αυτή η επιλογή θα πάει <b>No</b>.</p>"
+
+#: $string['returnto']
+msgid "Return to {$a}"
+msgstr "Επιστροφή στο {$a}"
+
+#: $string['returntocourse']
+msgid "Return to the course"
+msgstr "Επιστροφή στην ενότητα"
+
+#: $string['reverttodefaults']
+msgid "Revert to lesson defaults"
+msgstr ""
+
+#: $string['review']
+msgid "Review"
+msgstr "Αναθεώρηση"
+
+#: $string['reviewlesson']
+msgid "Review lesson"
+msgstr "Αναθεώρηση ενότητας"
+
+#: $string['reviewquestionback']
+msgid "Yes, I'd like to try again"
+msgstr "Ναι, θα ήθελα να δοκιμάσω πάλι"
+
+#: $string['reviewquestioncontinue']
+msgid "No, I just want to go on to the next question"
+msgstr "Όχι, θα ήθελα να πάω στην επόμενη ερώτηση"
+
+#: $string['sanitycheckfailed']
+msgid "Sanity check failed: This attempt has been deleted"
+msgstr "Αποτυχημένος έλεγχος σύνεσης: Αυτή η προσπάθεια έχει διαγραφεί"
+
+#: $string['save']
+msgid "Save"
+msgstr ""
+
+#: $string['savechanges']
+msgid "Save changes"
+msgstr "Αποθήκευση αλλαγών"
+
+#: $string['savechangesandeol']
+msgid "Save all changes and go to the end of the lesson."
+msgstr "Αποθήκευση των αλλαγών και μετάβαση στο τέλος της ενότητας"
+
+#: $string['saveoverrideandstay']
+msgid "Save and enter another override"
+msgstr ""
+
+#: $string['savepage']
+msgid "Save page"
+msgstr "Αποθήκευση σελίδας"
+
+#: $string['score']
+msgid "Score"
+msgstr "Βαθμός"
+
+#: $string['score_help']
+msgid ""
+"Score is only used when custom scoring is enabled. Each answer can then be "
+"given a numerical point value (positive or negative)."
+msgstr ""
+
+#: $string['scores']
+msgid "Scores"
+msgstr "Βαθμοί"
+
+#: $string['search:activity']
+msgid "Lesson - activity information"
+msgstr ""
+
+#: $string['secondpluswrong']
+msgid "Not quite.  Would you like to try again?"
+msgstr "Όχι ακριβώς. Θέλετε να δοκιμάσετε ξανά;"
+
+#: $string['selectaqtype']
+msgid "Select a question type"
+msgstr ""
+
+#: $string['sent']
+msgid "Sent"
+msgstr ""
+
+#: $string['shortanswer']
+msgid "Short answer"
+msgstr ""
+
+#: $string['showanunansweredpage']
+msgid "Show an unanswered page"
+msgstr "Εμφάνιση μίας μη απαντημένης σελίδας"
+
+#: $string['showanunseenpage']
+msgid "Show an unseen page"
+msgstr "Εμφάνιση μίας σελίδας που δεν έχει εμφανιστεί"
+
+#: $string['singleanswer']
+msgid "Single answer"
+msgstr "Μοναδική απάντηση"
+
+#: $string['skip']
+msgid "Skip navigation"
+msgstr "Παράληψη πλοήγησης"
+
+#: $string['slideshow']
+msgid "Slideshow"
+msgstr "Παρουσίαση"
+
+#: $string['slideshowbgcolor']
+msgid "Slideshow background colour"
+msgstr "Χρώμα φόντου παρουσίασης"
+
+#: $string['slideshowheight']
+msgid "Slideshow height"
+msgstr "Ύψος παρουσίασης"
+
+#: $string['slideshow_help']
+msgid ""
+"If enabled, the lesson is displayed as a slideshow, with a fixed width and "
+"height."
+msgstr ""
+"<p align=\"center\"><b>Προβολή παρουσίασης</b></p>\n"
+"\n"
+"<p>Αυτό ενεργοποιεί την προβολή του μαθήματος σαν προβολή παρουσίασης, με "
+"συγκεκριμένο πλάτος ύψος και προσαρμόσιμο χρώμα background. Μια μπάρα "
+"κύλισης CSS based θα εμφανιστεί εάν το πλάτος και το ύψος ξεπερνόνται από το "
+"περιοχόμενο της σελίδας. Οι ερωτήσεις θα εκτοπιστούν από την προβολή "
+"παρουσίασης, μόνο οι σελίδες θα φαίνονται προεπιλεγμένα. Θα εμφανίζονται "
+"αριστερά και δεξιά της παρουσίασης κουμπιά \"Next\" και \"Back\" εάν επιλεχθεί "
+"αυτή η ρύθμιση στη σελίδα. ’λλα κουμπιά θα είναι κεντραρισμένα κάτω από την "
+"παρουσίαση.</p>"
+
+#: $string['slideshowwidth']
+msgid "Slideshow width"
+msgstr "Πλάτος παρουσίασης"
+
+#: $string['startlesson']
+msgid "Start lesson"
+msgstr "Έναρξη ενότητας"
+
+#: $string['studentattemptlesson']
+msgid "{$a->lastname}, {$a->firstname}'s attempt number {$a->attempt}"
+msgstr ""
+"Αριθμός προσπάθειας {$a->attempt} του χρήστη {$a->firstname} {$a->lastname}"
+
+#: $string['studentname']
+msgid "{$a} Name"
+msgstr "{$a} Όνομα"
+
+#: $string['studentoneminwarning']
+msgid "Warning: You have 1 minute or less to finish the lesson."
+msgstr "Προσοχή: Έχετε ένα λεπτό ή λιγότερο για να τελειώσετε την ενότητα."
+
+#: $string['studentoutoftimeforreview']
+msgid "Attention: You ran out of time for reviewing this lesson"
+msgstr ""
+
+#: $string['studentresponse']
+msgid "{$a}'s response"
+msgstr "απάντηση του χρήστη {$a}"
+
+#: $string['submit']
+msgid "Submit"
+msgstr "Υποβολή"
+
+#: $string['submitname']
+msgid "Submit name"
+msgstr "Καταχώρηση ονόματος"
+
+#: $string['teacherjumpwarning']
+msgid ""
+"An {$a->cluster} jump or an {$a->unseen} jump is being used in this lesson. "
+" The next page jump will be used instead.  Login as a student to test these "
+"jumps."
+msgstr ""
+"Μία μεταπήδηση {$a->cluster}  ή μια μεταπήδηση {$a->unseen} χρησιμοποιείται "
+"σε αυτή την ενότητα. Η μεταπήδηση επόμενης σελίδας θα χρησιμοποιηθεί αντί "
+"αυτών. Εισέλθετε ως φοιτητής για να δοκιμάσετε αυτές τις μεταπηδήσεις."
+
+#: $string['teacherongoingwarning']
+msgid ""
+"Ongoing score is only displayed for student.  Login as a student to test "
+"ongoing score"
+msgstr ""
+"Η τρέχουσα βαθμολογία εμφανίζεται μόνο στους μαθητές. Συνδεθείτε ως μαθητής "
+"για να δείτε την τρέχουσα βαθμολογία"
+
+#: $string['teachertimerwarning']
+msgid ""
+"Timer only works for students.  Test the timer by logging in as a student."
+msgstr ""
+"Το χρονόμετρο λειτουργεί μόνο για τους μαθητές. Συνδεθείτε ως μαθητής για να "
+"δοκιμάσετε το χρονόμετρο."
+
+#: $string['thatsthecorrectanswer']
+msgid "That's the correct answer"
+msgstr "Αυτή είναι η σωστή απάντηση"
+
+#: $string['thatsthewronganswer']
+msgid "That's the wrong answer"
+msgstr "Αυτή είναι η λάθος απάντηση"
+
+#: $string['thefollowingpagesjumptothispage']
+msgid "The following pages jump to this page"
+msgstr "Οι επόμενες σελίδες μεταπηδούν σε αυτήν"
+
+#: $string['thispage']
+msgid "This page"
+msgstr "Αυτή η σελίδα"
+
+#: $string['timeisup']
+msgid "Time is up"
+msgstr ""
+
+#: $string['timelimit']
+msgid "Time limit"
+msgstr ""
+
+#: $string['timelimit_help']
+msgid ""
+"If enabled, a warning about the time limit is displayed at the beginning of "
+"the lesson and a countdown timer is displayed. Any answers given after the "
+"time has elapsed are not graded."
+msgstr ""
+
+#: $string['timelimitwarning']
+msgid "You have {$a} to finish the lesson."
+msgstr ""
+
+#: $string['timeremaining']
+msgid "Time remaining"
+msgstr "Υπολοιπόμενος χρόνος"
+
+#: $string['timespenterror']
+msgid "Spend at least {$a} minutes in the lesson"
+msgstr "Πρέπει να αφιερώσετε τουλάχιστον {$a} λεπτά στην ενότητα"
+
+#: $string['timespentminutes']
+msgid "Time spent (minutes)"
+msgstr "Χρόνος που Πέρασε (σε λεπτά)"
+
+#: $string['timetaken']
+msgid "Time taken"
+msgstr "Χρόνος που χρειάστηκε"
+
+#: $string['totalpagesviewedheader']
+msgid "Number of pages viewed"
+msgstr ""
+
+#: $string['true']
+msgid "True"
+msgstr "Σωστό"
+
+#: $string['truefalse']
+msgid "True/false"
+msgstr ""
+
+#: $string['unabledtosavefile']
+msgid "The file you uploaded could not be saved"
+msgstr ""
+
+#: $string['unknownqtypesnotimported']
+msgid "{$a} questions with unsupported question types were not imported"
+msgstr ""
+
+#: $string['unseenpageinbranch']
+msgid "Unseen question within a content page"
+msgstr "Ερώτηση μέσα σε διακλάδωση που δεν εμφανίσθηκε"
+
+#: $string['unsupportedqtype']
+msgid "Unsupported question type ({$a})!"
+msgstr "Μη υποστηριζόμενος τύπος ερώτησης ({$a})!"
+
+#: $string['updatedpage']
+msgid "Updated page"
+msgstr "Ανανεωμένη σελίδα"
+
+#: $string['updatefailed']
+msgid "Update failed"
+msgstr "Η ανανέωση απέτυχε"
+
+#: $string['updatepagenamed']
+msgid "Update page: {$a}"
+msgstr ""
+
+#: $string['usemaximum']
+msgid "Use maximum"
+msgstr "Χρήση μέγιστου"
+
+#: $string['usemean']
+msgid "Use mean"
+msgstr "Χρήση μέσου όρου"
+
+#: $string['usepassword']
+msgid "Password protected lesson"
+msgstr "Η ενότητα προστατεύεται με κωδικό"
+
+#: $string['usepassword_help']
+msgid "If enabled, a password is required in order to access the lesson."
+msgstr ""
+"<p align=\"center\"><b>Χρήση Συνθηματικού</b></p>\n"
+"\n"
+"<p>Ανοίγοντας μία άσκηση, άν η άσκηση είναι ορατή, οι μαθητές μπορούν να "
+"δουν τα περιεχόμενα της άσκησης.Η διαθεσιμότητα της άσκησης σε μία ενότητα "
+"μπορεί να διαχειριστεί καλύτερα μέσα από τη Visible/Hide δράση. </p>\n"
+"<p>Η επιλογή Χρήση Συνθηματικού χρησιμοποιείται για να συνδέσει ένα ενεργό "
+"κωδικό με την άσκηση.Υπάρχουν υποθέσεις πότε είναι απαραίτητη η προστασία "
+"της άσκησης με κωδικό. Για παράδειγμα, μία άσκηση μπορεί να χρησιμοποιείται "
+"από αρκετές ομάδες μαθητών σε μιά ενότητα και κάθε ομάδα χρησιμοποιεί την "
+"άσκηση σε διαφορετικές ώρες. Ο ενεργός κωδικός χρησιμοποιείται ωστέ να "
+"εμποδίσει την &quot;δεύτερη&quot; ομάδα μαθητών, να κάνει την άσκηση όταν η "
+"άσκηση έχει ανοιχτεί από το &quot;πρώτη&quot; ομάδα. </p>\n"
+"<p>&nbsp;</p>"
+
+#: $string['useroverrides']
+msgid "User overrides"
+msgstr ""
+
+#: $string['useroverridesdeleted']
+msgid "User overrides deleted"
+msgstr ""
+
+#: $string['usersnone']
+msgid "No students have access to this lesson"
+msgstr ""
+
+#: $string['viewgrades']
+msgid "View grades"
+msgstr "Προβολή βαθμών"
+
+#: $string['viewreports']
+msgid "View {$a->attempts} completed {$a->student} attempts"
+msgstr ""
+"Εμφάνιση {$a->attempts} ολοκληρωμένων προσπαθειών του χρήστη {$a->student}"
+
+#: $string['viewreports2']
+msgid "View {$a} completed attempts"
+msgstr "Εμφάνιση των {$a} ολοκληρωμένων προσπαθειών"
+
+#: $string['warning']
+msgid "Warning"
+msgstr ""
+
+#: $string['welldone']
+msgid "Well done!"
+msgstr "Μπράβο!"
+
+#: $string['whatdofirst']
+msgid "What would you like to do first?"
+msgstr "Τι θα θέλατε να κάνετε πρώτα;"
+
+#: $string['wronganswerjump']
+msgid "Wrong answer jump"
+msgstr "Λάθος απάντηση μεταπήδησης"
+
+#: $string['wronganswerscore']
+msgid "Wrong answer score"
+msgstr "Λάθος βαθμός απάντησης"
+
+#: $string['wrongresponse']
+msgid "Wrong response"
+msgstr "Λάθος απάντηση"
+
+#: $string['xattempts']
+msgid "{$a} attempts"
+msgstr "{$a} προσπάθειες"
+
+#: $string['youhaveseen']
+msgid ""
+"You have seen more than one page of this lesson already.<br />Do you want to "
+"start at the last page you saw?"
+msgstr ""
+"Έχετε δει περισσότερες από μία σελίδες αυτής της ενότητας.<br />Θέλετε να "
+"ξεκινήσετε από την τελευταία σελίδα που είδατε;"
+
+#: $string['youranswer']
+msgid "Your answer"
+msgstr "Η απάντησή σας"
+
+#: $string['yourcurrentgradeis']
+msgid "Your current grade is {$a}"
+msgstr "Ο τρέχων βαθμός σας είναι {$a}"
+
+#: $string['yourcurrentgradeisoutof']
+msgid "Your current grade is {$a->grade} out of {$a->total}"
+msgstr "Ο τρέχον βαθμός σας είναι {$a->grade} στα {$a->total}"
+
+#: $string['youshouldview']
+msgid "You should answer at least: {$a}"
+msgstr "Πρέπει να απαντήσετε τουλάχιστον: {$a}"

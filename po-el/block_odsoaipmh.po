@@ -1,0 +1,372 @@
+#. extracted from lang/en/block_odsoaipmh.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_odsoaipmh', language 'en', branch 'MOODLE_28_STABLE'
+#.  *
+#.  * @package   block_odsoaipmh
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['blockstring']
+msgid "Block string"
+msgstr ""
+
+#: $string['checkaccess']
+msgid "Query and check your Data-Provider"
+msgstr ""
+
+#: $string['desc_allowed_ip']
+msgid ""
+"<p>The list of all allowed networks for harversters. You can use any network "
+"format to specify allowed network.</p>\n"
+"<p>Eg.</p>\n"
+"    10.168.1.0-10.168.1.100\n"
+"    10.168.*.*\n"
+"    10.168.0.0/16\n"
+"<p>Each network should be specified in a separate line.</p>\n"
+"<p>If the field is empty then harvesters from the entire Internet are "
+"allowed to harvest the Moodle’s OAI-PMH target. </p>"
+msgstr ""
+
+#: $string['desc_allowed_ip_refresh']
+msgid ""
+"List of clients and servers that are allowed to refresh data. Data will be "
+"automatically refreshed after one of the listed clients/servers tries to "
+"access data after expiration time. If there are no clients/servers on list, "
+"then any client/server that accesses the expired data through Moodle’s OAI-"
+"PMH target will cause cache regeneration."
+msgstr ""
+
+#: $string['desc_default_is_shared']
+msgid ""
+"What is the default value for harvesting if the course hasn't specified "
+"harvesting"
+msgstr ""
+
+#: $string['desc_default_language']
+msgid "Default language if the course does not have \"language\" specified"
+msgstr ""
+
+#: $string['descfoo']
+msgid "Config description"
+msgstr ""
+
+#: $string['desc_force_license']
+msgid ""
+"If enabled course administrators will not be able to select their own "
+"license for their materials. Server ones will be used instead."
+msgstr ""
+
+#: $string['desc_license_en']
+msgid "Custom license information (in English)"
+msgstr ""
+
+#: $string['desc_license_local']
+msgid "Custom license information (in course language)"
+msgstr ""
+
+#: $string['desc_license_type']
+msgid ""
+"Default license type for the course. If “custom” is selected then values in "
+"License (English) and License (course language) will be used."
+msgstr ""
+
+#: $string['desc_limited_share']
+msgid ""
+"If the default is set to 'No',  metadata of all modules will be harvested. "
+"If the default is set to 'Yes', only metadata from the modules selected "
+"below will be harvested using OAI-PMH protocol. Teachers can override this "
+"option for their courses."
+msgstr ""
+
+#: $string['desc_limit_records']
+msgid ""
+"Number of metadata records to limit per request. The records will be sent to "
+"the harvester in chunks of the chosen number until all records are "
+"successfully returned."
+msgstr ""
+
+#: $string['desc_max_seconds_refresh']
+msgid ""
+"Default expiration time for cached OAI-PMH data. \"0\" means - no caching, "
+"each request will trigger creation of request to the database. In most cases "
+"users will not notice the slowdown, since it is not that resource "
+"demanding. It is recommended for Moodle servers with average and above-"
+"average server/harware performance."
+msgstr ""
+
+#: $string['desc_server_admin']
+msgctxt "$string['desc_server_admin']"
+msgid "Moodle's administrator"
+msgstr ""
+
+#: $string['desc_server_id']
+msgid "OAI-PMH server id (hostname)"
+msgstr ""
+
+#: $string['desc_server_name']
+msgid "Moodle’s name as an ODS repository (OAI-PMH target)"
+msgstr ""
+
+#: $string['desc_server_url']
+msgctxt "$string['desc_server_url']"
+msgid "OAI-PMH target URL"
+msgstr ""
+
+#: $string['desc_shared_modules']
+msgid ""
+"This option is used only if harvesting metadata from some modules (as oppose "
+"to all) is enabled. Only metadata from selected modules will be harvested."
+msgstr ""
+
+#: $string['details']
+msgid "Show details"
+msgstr ""
+
+#: $string['english']
+msgid "English:"
+msgstr ""
+
+#: $string['info_access']
+msgid "Access settings"
+msgstr ""
+
+#: $string['info_license']
+msgid "License settings"
+msgstr ""
+
+#: $string['info_server']
+msgid "System settings"
+msgstr ""
+
+#: $string['info_share']
+msgid "Share settings"
+msgstr ""
+
+#: $string['label_allowed_ip']
+msgid "Allowed networks (harversters)"
+msgstr ""
+
+#: $string['label_allowed_ip_refresh']
+msgid "Allowed IP for refresh"
+msgstr ""
+
+#: $string['label_default_is_shared']
+msgid "Harvesting information"
+msgstr ""
+
+#: $string['label_default_language']
+msgid "Default language"
+msgstr ""
+
+#: $string['labelfoo']
+msgid "Config label"
+msgstr ""
+
+#: $string['label_force_license']
+msgid "Force server license"
+msgstr ""
+
+#: $string['label_license_en']
+msgid "Custom license (English)"
+msgstr ""
+
+#: $string['label_license_local']
+msgid "Custom license (course language)"
+msgstr ""
+
+#: $string['label_license_type']
+msgid "Default license type"
+msgstr ""
+
+#: $string['label_limited_share']
+msgid "Harvest only some modules"
+msgstr ""
+
+#: $string['label_limit_records']
+msgid "Limit records per request"
+msgstr ""
+
+#: $string['label_max_seconds_refresh']
+msgid "Caching duration"
+msgstr ""
+
+#: $string['label_server_admin']
+msgctxt "$string['label_server_admin']"
+msgid "Moodle's administrator"
+msgstr ""
+
+#: $string['label_server_id']
+msgid "OAI-PMH server id"
+msgstr ""
+
+#: $string['label_server_name']
+msgid "Moodle's hostname"
+msgstr ""
+
+#: $string['label_server_url']
+msgctxt "$string['label_server_url']"
+msgid "OAI-PMH target URL"
+msgstr ""
+
+#: $string['label_shared_modules']
+msgid "Harvested modules"
+msgstr ""
+
+#: $string['lic_1']
+msgid "Public domain"
+msgstr ""
+
+#: $string['lic_2_1_1']
+msgid "Attribution alone\tBY"
+msgstr ""
+
+#: $string['lic_2_1_2']
+msgid "Attribution + NoDerivatives\tBY-ND"
+msgstr ""
+
+#: $string['lic_2_2_1']
+msgid "Attribution + ShareAlike\tBY-SA"
+msgstr ""
+
+#: $string['lic_2_2_2']
+msgid "Attribution + Noncommercial\tBY-NC"
+msgstr ""
+
+#: $string['lic_2_3_1']
+msgid "Attribution + Noncommercial + NoDerivatives\tBY-NC-ND"
+msgstr ""
+
+#: $string['lic_2_3_2']
+msgid "Attribution + Noncommercial + ShareAlike\tBY-NC-SA"
+msgstr ""
+
+#: $string['lic_3']
+msgid "Copyrighted work"
+msgstr ""
+
+#: $string['lic_4']
+msgid "Custom license"
+msgstr ""
+
+#: $string['lic_5']
+msgid "Same as system"
+msgstr ""
+
+#: $string['license_type']
+msgid "License type"
+msgstr ""
+
+#: $string['local']
+msgid "Course:"
+msgstr ""
+
+#: $string['odsoaipmh:addinstance']
+msgid "Add ODS OAI-PMH block"
+msgstr ""
+
+#: $string['odsoaipmh:myaddinstance']
+msgid "Add ODS OAI-PMH block to my course"
+msgstr ""
+
+#: $string['pluginname']
+msgid "ODS OAI-PMH"
+msgstr ""
+
+#: $string['server_license']
+msgid "System default license type"
+msgstr ""
+
+#: $string['server_sharing']
+msgid "System default indexed modules"
+msgstr ""
+
+#: $string['server_sharing_allow']
+msgid "System default course harvesting"
+msgstr ""
+
+#: $string['share_course_allow']
+msgid "Course content harvesting"
+msgstr ""
+
+#: $string['share_course_allow_1']
+msgid "Use system default settings"
+msgstr ""
+
+#: $string['share_course_allow_2']
+msgid "Allow course content harvesting"
+msgstr ""
+
+#: $string['share_course_allow_3']
+msgid "Deny course content harvesting"
+msgstr ""
+
+#: $string['share_type']
+msgid "Harvested modules:"
+msgstr ""
+
+#: $string['share_type_1']
+msgid "Same as in system configuration"
+msgstr ""
+
+#: $string['share_type_2']
+msgid "All modules"
+msgstr ""
+
+#: $string['share_type_3']
+msgid "Some modules"
+msgstr ""
+
+#: $string['url_lic_2_1_1']
+msgid "by"
+msgstr ""
+
+#: $string['url_lic_2_1_2']
+msgid "by-nd"
+msgstr ""
+
+#: $string['url_lic_2_2_1']
+msgid "by-sa"
+msgstr ""
+
+#: $string['url_lic_2_2_2']
+msgid "by-nc"
+msgstr ""
+
+#: $string['url_lic_2_3_1']
+msgid "by-nc-nd"
+msgstr ""
+
+#: $string['url_lic_2_3_2']
+msgid "by-nc-sa"
+msgstr ""
+
+#: $string['url_lic_2_base']
+msgid "http://creativecommons.org/licenses/__LICENSE__/4.0/"
+msgstr ""

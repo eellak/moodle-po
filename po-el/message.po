@@ -1,0 +1,593 @@
+#. extracted from lang/en/message.php, lang/el/message.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:14+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'message', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   message
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addcontact']
+msgid "Add contact"
+msgstr "Προσθήκη επαφής"
+
+#: $string['addtoyourcontacts']
+msgid "Add to your contacts"
+msgstr "Προσθήκη στις επαφές σας"
+
+#: $string['ago']
+msgid "{$a} ago"
+msgstr "{$a} πρίν"
+
+#: $string['allusers']
+msgid "All messages from all users"
+msgstr "Όλα τα μηνύματα από όλους τους χρήστες"
+
+#: $string['backupmessageshelp']
+msgid ""
+"If enabled, then instant messages will be included in SITE automated backups"
+msgstr ""
+"Αν είναι ενεργοποιημένα τότε τα άμεσα μηνύματα θα συμπεριληφθούν στα "
+"αυτόματα αντίγραφα ασφαλείας του site."
+
+#: $string['blockcontact']
+msgid "Block contact"
+msgstr "Φραγμός επαφής"
+
+#: $string['blocknoncontacts']
+msgid "Prevent non-contacts from messaging me"
+msgstr ""
+"Φραγή όλων των νέων μηνυμάτων που προέρχονται από χρήστες που δεν βρίσκονται "
+"στη λίστα επαφών σας."
+
+#: $string['canceledit']
+msgid "Cancel editing messages"
+msgstr ""
+
+#: $string['contactblocked']
+msgid "Contact blocked"
+msgstr ""
+
+#: $string['contacts']
+msgid "Contacts"
+msgstr "Επαφές"
+
+#: $string['context']
+msgid "context"
+msgstr "πλαίσιο"
+
+#: $string['defaultmessageoutputs']
+msgid "Default message outputs"
+msgstr "Προεπιλεγμένα μηνύματα που παράγονται"
+
+#: $string['defaults']
+msgid "Defaults"
+msgstr "Προεπιλογές"
+
+#: $string['deleteallconfirm']
+msgid "Are you sure you would like to delete this entire conversation?"
+msgstr ""
+
+#: $string['deleteallmessages']
+msgid "Delete all messages"
+msgstr "Διαγραφή όλων των μηνυμάτων"
+
+#: $string['deleteselectedmessages']
+msgid "Delete selected messages"
+msgstr "Διαγραφή επιλεγμένων μηνυμάτων"
+
+#: $string['disableall']
+msgid "Disable notifications"
+msgstr "Προσωρινή απενεργοποίηση ειδοποιήσεων"
+
+#: $string['disabled']
+msgid "Messaging is disabled on this site"
+msgstr "Η ανταλλαγή μυνημάτων έχει απενεργοποιηθεί σε αυτό τον ιστοχώρο"
+
+#: $string['disallowed']
+msgid "Disallowed"
+msgstr "Απογορεύεται"
+
+#: $string['discussion']
+msgid "Discussion"
+msgstr "Συζήτηση"
+
+#: $string['editmessages']
+msgid "Edit messages"
+msgstr "Επεξεργασία μηνυμάτων"
+
+#: $string['emailtagline']
+msgid ""
+"This is a copy of a message sent to you at \"{$a->sitename}\". Go to {$a->url} "
+"to reply."
+msgstr ""
+"Αυτό το μήνυμα ηλεκτρονικού ταχυδρομείου είναι αντίγραφο του μηνύματος που "
+"σας  στάλθηκε στις \"{$a}\""
+
+#: $string['emptysearchstring']
+msgid "You must search for something"
+msgstr "Πρέπει να ψάξετε για κάτι"
+
+#: $string['enabled']
+msgid "Enabled"
+msgstr "Ενεργοποιημένο"
+
+#: $string['errorcallingprocessor']
+msgid "Error calling defined output"
+msgstr "Σφάλμα κατά την κλήση του ορισμένου επεξεργαστή"
+
+#: $string['errortranslatingdefault']
+msgid ""
+"Error translating default setting provided by plugin, using system defaults "
+"instead."
+msgstr ""
+
+#: $string['eventmessagecontactadded']
+msgid "Message contact added"
+msgstr ""
+
+#: $string['eventmessagecontactblocked']
+msgid "Message contact blocked"
+msgstr ""
+
+#: $string['eventmessagecontactremoved']
+msgid "Message contact removed"
+msgstr ""
+
+#: $string['eventmessagecontactunblocked']
+msgid "Message contact unblocked"
+msgstr ""
+
+#: $string['eventmessagedeleted']
+msgid "Message deleted"
+msgstr ""
+
+#: $string['eventmessagesent']
+msgid "Message sent"
+msgstr "Το μήνυμα σταλθηκε"
+
+#: $string['eventmessageviewed']
+msgid "Message viewed"
+msgstr ""
+
+#: $string['forced']
+msgid "Locked"
+msgstr "Επιβάλλεται"
+
+#: $string['formorethan']
+msgid "For more than"
+msgstr "Για περισσότερο από"
+
+#: $string['guestnoeditmessage']
+msgid "Guest user can not edit messaging options"
+msgstr "Οι επισκέπτες δεν μπορούν να τροποποιήσουν τις επιλογές μυνημάτων"
+
+#: $string['guestnoeditmessageother']
+msgid "Guest user can not edit other user messaging options"
+msgstr ""
+"Οι επισκέπτες δεν μπορούν να τροποποιήσουν τις επιλογές μυνημάτων άλλων "
+"χρηστών"
+
+#: $string['hidemessagewindow']
+msgid "Hide message window"
+msgstr ""
+
+#: $string['hidenotificationwindow']
+msgid "Hide notification window"
+msgstr ""
+
+#: $string['keywords']
+msgid "Keywords"
+msgstr "Λέξεις κλειδιά"
+
+#: $string['loggedin']
+msgctxt "$string['loggedin']"
+msgid "Online"
+msgstr "Συνδεδεμένος"
+
+#: $string['loggedindescription']
+msgid "When you are logged into Moodle"
+msgstr "Όταν είμαι συνδεδεμένος"
+
+#: $string['loggedin_help']
+msgid ""
+"Configure how you would like to receive notifications when you are logged "
+"into Moodle"
+msgstr ""
+"Προσαρμόστε το πώς επιθυμείτε να λαμβάνετε ειδοποιήσεις όταν είστε "
+"συνδεδεμένος/η στη πλατφόρμα"
+
+#: $string['loggedoff']
+msgctxt "$string['loggedoff']"
+msgid "Offline"
+msgstr "Μη συνδεδεμένος"
+
+#: $string['loggedoffdescription']
+msgid "When you are not logged into Moodle"
+msgstr "Όταν δεν είμαι συνδεδεμένος"
+
+#: $string['loggedoff_help']
+msgid ""
+"Configure how you would like to receive notifications when you are not "
+"logged into Moodle"
+msgstr ""
+"Προσαρμόστε το πώς επιθυμείτε να λαμβάνετε ειδοποιήσεις όταν δεν είστε "
+"συνδεδεμένος/η στη πλατφόρμα"
+
+#: $string['managemessageoutputs']
+msgid "Manage message outputs"
+msgstr "Διαχείριση μηνυμάτων που παράγονται"
+
+#: $string['message']
+msgid "Message"
+msgstr "Μήνυμα"
+
+#: $string['messagehistory']
+msgid "Message history"
+msgstr "Ιστορικό μηνυμάτων"
+
+#: $string['messageoutputs']
+msgid "Message outputs"
+msgstr "Μηνύματα που παράγονται"
+
+#: $string['messagepreferences']
+msgid "Message preferences"
+msgstr "Προτιμήσεις μηνύματος"
+
+#: $string['messages']
+msgid "Messages"
+msgstr "Μηνύματα"
+
+#: $string['messagingdisabled']
+msgid "Messaging is disabled on this site, emails will be sent instead"
+msgstr ""
+"Η ανταλλαγή μυνημάτων έχει απενεργοποιηθεί σε αυτό τον ιστοχώρο, αντί αυτών "
+"θα σταλούν μυνήματα ηλεκτρονικού ταχυδρομείου"
+
+#: $string['newmessage']
+msgid "New message"
+msgstr "Νέο μήνυμα"
+
+#: $string['newmessagesearch']
+msgid "Select or search for a contact to send a new message."
+msgstr "Επιλέξτε ή αναζητήστε μια επαφή για να στείλετε μήνυμα."
+
+#: $string['newonlymsg']
+msgid "Show only new"
+msgstr "Εμφάνιση μόνο νέων"
+
+#: $string['newsearch']
+msgid "New search"
+msgstr "Νέα αναζήτηση"
+
+#: $string['nocontacts']
+msgid "No contacts"
+msgstr "Καμία επαφή"
+
+#: $string['noframesjs']
+msgid "Use more accessible interface"
+msgstr "Χρήση μιας περισσότερο προσβάσιμης διεπαφής"
+
+#: $string['nomessages']
+msgid "No messages"
+msgstr "Δεν υπάρχουν μηνύματα σε αναμονή"
+
+#: $string['nomessagesfound']
+msgid "No messages were found"
+msgstr "Δε βρέθηκαν μηνύματα"
+
+#: $string['noncontacts']
+msgid "Non-contacts"
+msgstr ""
+
+#: $string['nonotifications']
+msgid "You have no notifications"
+msgstr "Δεν έχετε καμία ειδοποίηση"
+
+#: $string['noreply']
+msgid "Do not reply to this message"
+msgstr ""
+
+#: $string['nosearchresults']
+msgid "There were no results from your search"
+msgstr "Δε βρέθηκαν αποτελέσματα για την αναζήτησή σας"
+
+#: $string['notificationimage']
+msgid "Notification image"
+msgstr ""
+
+#: $string['notificationpreferences']
+msgid "Notification preferences"
+msgstr "Προτιμήσεις ειδοποιήσεων"
+
+#: $string['notifications']
+msgid "Notifications"
+msgstr "Ειδοποιήσεις"
+
+#: $string['notificationwindow']
+msgid "Notification window"
+msgstr ""
+
+#: $string['off']
+msgid "Off"
+msgstr ""
+
+#: $string['offline']
+msgctxt "$string['offline']"
+msgid "Offline"
+msgstr "Αποσυνδεδεμένος"
+
+#: $string['on']
+msgid "On"
+msgstr ""
+
+#: $string['online']
+msgctxt "$string['online']"
+msgid "Online"
+msgstr "Συνδεδεμένος"
+
+#: $string['onlymycourses']
+msgid "Only in my courses"
+msgstr "Μόνο στα μαθήματά μου"
+
+#: $string['outputdisabled']
+msgid "Output disabled"
+msgstr ""
+
+#: $string['outputdoesnotexist']
+msgid "Message output does not exists"
+msgstr ""
+
+#: $string['outputenabled']
+msgid "Output enabled"
+msgstr "Ενεργοποιημένη έξοδος"
+
+#: $string['outputnotavailable']
+msgid "Not available"
+msgstr ""
+
+#: $string['outputnotconfigured']
+msgid "Not configured"
+msgstr "Δεν έχει ρυθμιστεί"
+
+#: $string['page-message-x']
+msgid "Any message pages"
+msgstr ""
+
+#: $string['pagerefreshes']
+msgid "This page refreshes automatically every {$a} seconds"
+msgstr "Αυτή η σελίδα ανανεώνεται αυτόματα κάθε {$a} δευτερόλεπτα"
+
+#: $string['permitted']
+msgid "Permitted"
+msgstr "Επιτρέπεται"
+
+#: $string['processorsettings']
+msgid "Processor settings"
+msgstr ""
+
+#: $string['recent']
+msgid "Recent"
+msgstr ""
+
+#: $string['removecontact']
+msgid "Remove contact"
+msgstr "Αφαίρεσε την επαφή"
+
+#: $string['removecoursefilter']
+msgid "Remove filter for course {$a}"
+msgstr ""
+
+#: $string['removefromyourcontacts']
+msgid "Remove from your contacts"
+msgstr "Αφαίρεση από τις επαφές σας"
+
+#: $string['requiresconfiguration']
+msgid "Requires configuration"
+msgstr ""
+
+#: $string['savemysettings']
+msgid "Save my settings"
+msgstr "Αποθήκευσε τις ρυθμίσεις μου"
+
+#: $string['search']
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: $string['searchcombined']
+msgid "Search people and messages"
+msgstr "Αναζήτηση επαφών και μηνυμάτων"
+
+#: $string['searchforuser']
+msgid "Search for a user"
+msgstr ""
+
+#: $string['searchforuserorcourse']
+msgid "Search for a user or course"
+msgstr "Ψάξτε για χρήστη ή για μάθημα"
+
+#: $string['searchmessages']
+msgid "Search messages"
+msgstr "Αναζήτηση μηνυμάτων"
+
+#: $string['seeall']
+msgid "See all"
+msgstr "Όλα τα μηνύματα"
+
+#: $string['selectmessagestodelete']
+msgid "Select messages to delete"
+msgstr "Επιλέξτε τα μηνύματα που θα διαγραφούν"
+
+#: $string['selectnotificationtoview']
+msgid "Select from the list of notifications on the side to view more details"
+msgstr ""
+"Επιλέξτε από τη λίστα των ειδοποιήσεων για να δείτε περισσότερες "
+"λεπτομέρειες"
+
+#: $string['send']
+msgid "Send"
+msgstr "Αποστολή"
+
+#: $string['sendbulkmessage']
+msgid "Send message to {$a} people"
+msgstr ""
+
+#: $string['sendbulkmessagesent']
+msgid "Message sent to {$a} people"
+msgstr ""
+
+#: $string['sendbulkmessagesentsingle']
+msgid "Message sent to 1 person"
+msgstr ""
+
+#: $string['sendbulkmessagesingle']
+msgid "Send message to 1 person"
+msgstr ""
+
+#: $string['sendingvia']
+msgid "Sending \"{$a->provider}\" via \"{$a->processor}\""
+msgstr ""
+
+#: $string['sendingviawhen']
+msgid "Sending \"{$a->provider}\" via \"{$a->processor}\" when {$a->state}"
+msgstr ""
+
+#: $string['sendmessage']
+msgid "Send message"
+msgstr "Αποστολή μηνύματος"
+
+#: $string['sendmessageto']
+msgid "Send message to {$a}"
+msgstr "Αποστολή μηνύματος σε {$a}"
+
+#: $string['sendmessagetopopup']
+msgid "Send message to {$a} - new window"
+msgstr "Αποστολή μυνήματος σε {$a} - νέο παράθυρο"
+
+#: $string['settings']
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: $string['settingssaved']
+msgid "Your settings have been saved"
+msgstr "Οι ρυθμίσεις σας έχουν αποθηκευτεί"
+
+#: $string['showmessagewindownonew']
+msgid "Show message window with no new messages"
+msgstr ""
+
+#: $string['showmessagewindowwithcount']
+msgid "Show message window with {$a} new messages"
+msgstr ""
+
+#: $string['shownotificationwindownonew']
+msgid "Show notification window with no new notifications"
+msgstr ""
+
+#: $string['shownotificationwindowwithcount']
+msgid "Show notification window with {$a} new notifications"
+msgstr ""
+
+#: $string['strftimedaydatetime']
+msgid "%A, %d %B %Y, %I:%M %p"
+msgstr "%A, %d %B %Y, %I:%M %p"
+
+#: $string['timenosee']
+msgid "Minutes since I was last seen online"
+msgstr "Λεπτά από την τελευταία φορά που ήμουν συνδεδεμένος/η"
+
+#: $string['timesent']
+msgid "Time sent"
+msgstr "Χρόνος αποστολής"
+
+#: $string['togglemessagemenu']
+msgid "Toggle messages menu"
+msgstr ""
+
+#: $string['togglenotificationmenu']
+msgid "Toggle notifications menu"
+msgstr "Μενού εναλλαγής ειδοποιήσεων"
+
+#: $string['touserdoesntexist']
+msgid "You can not send a message to a user id ({$a}) that doesn't exist"
+msgstr ""
+
+#: $string['unblockcontact']
+msgid "Unblock contact"
+msgstr "Ξεμπλόκαρε την επαφή"
+
+#: $string['unreadnewmessage']
+msgid "New message from {$a}"
+msgstr "Νέο μήνυμα από {$a}"
+
+#: $string['unreadnotification']
+msgid "Unread notification: {$a}"
+msgstr "Αδιάβαστη ειδοποίηση: {$a}"
+
+#: $string['userisblockingyou']
+msgid "This user has blocked you from sending messages to them"
+msgstr "Αυτός ο χρήστης έχει μπλοκάρει την αποδοχή μηνυμάτων από σας"
+
+#: $string['userisblockingyounoncontact']
+msgid "{$a} only accepts messages from their contacts."
+msgstr ""
+"Αυτός ο χρήστης δέχεται μηνύματα μόνο από ανθρώπους που βρίσκονται στη λίστα "
+"επαφών του και προς το παρόν εσείς δεν βρίσκεστε στη λίστα αυτή."
+
+#: $string['userssearchresults']
+msgid "Users found: {$a}"
+msgstr "Αποτελέσματα αναζήτησης: {$a} χρήστες βρέθηκαν"
+
+#: $string['viewfullnotification']
+msgid "View full notification"
+msgstr "Ολόκληρη η ειδοποίηση"
+
+#: $string['viewinganotherusersmessagearea']
+msgid "You are viewing another user's message area."
+msgstr ""
+
+#: $string['viewmessageswith']
+msgid "View messages with {$a}"
+msgstr ""
+
+#: $string['viewnotificationresource']
+msgid "Go to: {$a}"
+msgstr ""
+
+#: $string['viewunreadmessageswith']
+msgid "View unread messages with {$a}"
+msgstr "Προβολή αδιάβαστων μηνυμάτων με {$a}"
+
+#: $string['writeamessage']
+msgid "Write a message..."
+msgstr "Γράψτε ένα μήνυμα..."
+
+#: $string['you']
+msgid "You:"
+msgstr "Εσείς:"

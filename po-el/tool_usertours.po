@@ -1,0 +1,638 @@
+#. extracted from lang/en/tool_usertours.php, lang/el/tool_usertours.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:14+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'tool_usertours', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   tool_usertours
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['above']
+msgid "Above"
+msgstr ""
+
+#: $string['actions']
+msgid "Actions"
+msgstr "Ενέργειες"
+
+#: $string['appliesto']
+msgid "Applies to"
+msgstr ""
+
+#: $string['backdrop']
+msgid "Show with backdrop"
+msgstr ""
+
+#: $string['backdrop_help']
+msgid ""
+"You can use a backdrop to highlight the part of the page that you are "
+"pointing to.\n"
+"\n"
+"Note: Backdrops are not compatible with some parts of the page such as the "
+"navigation bar."
+msgstr ""
+
+#: $string['below']
+msgid "Below"
+msgstr ""
+
+#: $string['block']
+msgctxt "$string['block']"
+msgid "Block"
+msgstr ""
+
+#: $string['block_named']
+msgid "Block named '{$a}'"
+msgstr ""
+
+#: $string['cachedef_stepdata']
+msgid "List of user tour steps"
+msgstr ""
+
+#: $string['cachedef_tourdata']
+msgid "List of enabled user tours information which is fetched on every page"
+msgstr ""
+
+#: $string['confirmstepremovalquestion']
+msgid "Are you sure that you wish to remove this step?"
+msgstr ""
+
+#: $string['confirmstepremovaltitle']
+msgid "Confirm step removal"
+msgstr ""
+
+#: $string['confirmtourremovalquestion']
+msgid "Are you sure that you wish to remove this tour?"
+msgstr ""
+
+#: $string['confirmtourremovaltitle']
+msgid "Confirm tour removal"
+msgstr ""
+
+#: $string['content']
+msgctxt "$string['content']"
+msgid "Content"
+msgstr ""
+
+#: $string['content_heading']
+msgctxt "$string['content_heading']"
+msgid "Content"
+msgstr ""
+
+#: $string['content_help']
+msgid ""
+"Content describing the step may be added as plain text, enclosed in "
+"multilang tags (for use with the multi-language content filter) if required.\n"
+"\n"
+"Alternatively, a language string ID may be entered in the format "
+"identifier,component (with no brackets or space after the comma)."
+msgstr ""
+
+#: $string['cssselector']
+msgid "CSS selector"
+msgstr ""
+
+#: $string['defaultvalue']
+msgid "Default ({$a})"
+msgstr ""
+
+#: $string['delay']
+msgid "Delay before showing the step"
+msgstr ""
+
+#: $string['delay_help']
+msgid ""
+"You can optionally choose to add a delay before the step is displayed.\n"
+"\n"
+"This delay is in milliseconds."
+msgstr ""
+
+#: $string['description']
+msgid "Description"
+msgstr ""
+
+#: $string['done']
+msgid "Done"
+msgstr ""
+
+#: $string['editstep']
+msgid "Editing \"{$a}\""
+msgstr ""
+
+#: $string['enabled']
+msgid "Enabled"
+msgstr "Ενεργοποιημένο"
+
+#: $string['endtour']
+msgid "End tour"
+msgstr ""
+
+#: $string['event_step_shown']
+msgid "Step shown"
+msgstr ""
+
+#: $string['event_tour_ended']
+msgid "Tour ended"
+msgstr ""
+
+#: $string['event_tour_reset']
+msgid "Tour reset"
+msgstr ""
+
+#: $string['event_tour_started']
+msgid "Tour started"
+msgstr ""
+
+#: $string['exporttour']
+msgid "Export tour"
+msgstr ""
+
+#: $string['filter_category']
+msgid "Category"
+msgstr ""
+
+#: $string['filter_category_help']
+msgid ""
+"Show the tour on a page that is associated with a course in the selected "
+"category."
+msgstr ""
+
+#: $string['filter_course']
+msgid "Courses"
+msgstr ""
+
+#: $string['filter_courseformat']
+msgid "Course format"
+msgstr ""
+
+#: $string['filter_courseformat_help']
+msgid ""
+"Show the tour on a page that is associated with a course using the selected "
+"course format."
+msgstr ""
+
+#: $string['filter_course_help']
+msgid "Show the tour on a page that is associated with the selected course."
+msgstr ""
+
+#: $string['filter_header']
+msgid "Tour filters"
+msgstr ""
+
+#: $string['filter_help']
+msgid ""
+"Select the conditions under which the tour will be shown. All of the filters "
+"must match for a tour to be shown to a user."
+msgstr ""
+
+#: $string['filter_role']
+msgid "Role"
+msgstr ""
+
+#: $string['filter_role_help']
+msgid ""
+"A tour may be restricted to users with selected roles in the context where "
+"the tour is shown. For example, restricting a Dashboard tour to users with "
+"the role of student won't work if users have the role of student in a course "
+"(as is generally the case). A Dashboard tour can only be restricted to "
+"users with a system role."
+msgstr ""
+
+#: $string['filter_theme']
+msgid "Theme"
+msgstr ""
+
+#: $string['filter_theme_help']
+msgid "Show the tour when the user is using one of the selected themes."
+msgstr ""
+
+#: $string['importtour']
+msgid "Import tour"
+msgstr ""
+
+#: $string['left']
+msgid "Left"
+msgstr ""
+
+#: $string['modifyshippedtourwarning']
+msgid ""
+"This is a user tour that has shipped with Moodle. Any modifications you make "
+"may be overridden during your next site upgrade."
+msgstr ""
+
+#: $string['movestepdown']
+msgid "Move step down"
+msgstr ""
+
+#: $string['movestepup']
+msgid "Move step up"
+msgstr ""
+
+#: $string['movetourdown']
+msgid "Move tour down"
+msgstr ""
+
+#: $string['movetourup']
+msgid "Move tour up"
+msgstr ""
+
+#: $string['name']
+msgid "Name"
+msgstr ""
+
+#: $string['newstep']
+msgid "New step"
+msgstr ""
+
+#: $string['newtour']
+msgid "Create a new tour"
+msgstr ""
+
+#: $string['next']
+msgid "Next"
+msgstr ""
+
+#: $string['options_heading']
+msgid "Options"
+msgstr ""
+
+#: $string['orphan']
+msgid "Show if target not found"
+msgstr ""
+
+#: $string['orphan_help']
+msgid "Show the step if the target could not be found on the page."
+msgstr ""
+
+#: $string['pathmatch']
+msgid "Apply to URL match"
+msgstr ""
+
+#: $string['pathmatch_help']
+msgid ""
+"Tours will be displayed on any page whose URL matches this value.\n"
+"\n"
+"You can use the % character as a wildcard to mean anything.\n"
+"Some example values include:\n"
+"\n"
+"* /my/% - to match the Dashboard\n"
+"* /course/view.php?id=2 - to match a specific course\n"
+"* /mod/forum/view.php% - to match the forum discussion list\n"
+"* /user/profile.php% - to match the user profile page\n"
+"\n"
+"If you wish to display a tour on the Site Home page, you can use the value: "
+"\"FRONTPAGE\"."
+msgstr ""
+
+#: $string['pausetour']
+msgid "Pause"
+msgstr ""
+
+#: $string['placement']
+msgid "Placement"
+msgstr ""
+
+#: $string['placement_help']
+msgid ""
+"A step may be placed above, below, left or right of the target. Above or "
+"below is recommended, as these adjust better for mobile display.\n"
+"\n"
+"If the step does not fit on a particular page in the specified place, it "
+"will be automatically placed elsewhere."
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "User tours"
+msgstr ""
+
+#: $string['reflex']
+msgid "Proceed on click"
+msgstr ""
+
+#: $string['reflex_help']
+msgid "Proceed to the next step when the target is clicked on."
+msgstr ""
+
+#: $string['resettouronpage']
+msgid "Reset user tour on this page"
+msgstr ""
+
+#: $string['resumetour']
+msgid "Resume"
+msgstr ""
+
+#: $string['right']
+msgid "Right"
+msgstr ""
+
+#: $string['select_block']
+msgid "Select a block"
+msgstr ""
+
+#: $string['selector_defaulttitle']
+msgid "Enter a descriptive title"
+msgstr ""
+
+#: $string['selectordisplayname']
+msgid "A CSS selector matching '{$a}'"
+msgstr ""
+
+#: $string['selecttype']
+msgid "Select step type"
+msgstr ""
+
+#: $string['sharedtourslink']
+msgid "Tour repository"
+msgstr ""
+
+#: $string['skip']
+msgid "Skip"
+msgstr ""
+
+#: $string['target']
+msgid "Target"
+msgstr ""
+
+#: $string['target_block']
+msgctxt "$string['target_block']"
+msgid "Block"
+msgstr ""
+
+#: $string['target_heading']
+msgid "Step target"
+msgstr ""
+
+#: $string['target_selector']
+msgid "Selector"
+msgstr ""
+
+#: $string['target_selector_targetvalue']
+msgid "CSS selectors"
+msgstr ""
+
+#: $string['target_selector_targetvalue_help']
+msgid ""
+"A CSS selector can be used to target almost any element on the page. The "
+"appropriate selector can be easily found using the developer tools for your "
+"web browser."
+msgstr ""
+
+#: $string['targettype']
+msgid "Target type"
+msgstr ""
+
+#: $string['targettype_help']
+msgid ""
+"Each step is associated with a part of the page - the target. Target types "
+"are:\n"
+"\n"
+"* Block - for displaying a step next to a specified block\n"
+"* CSS selector - for accurately defining the target area using CSS\n"
+"* Display in middle of page - for a step which does not need to be "
+"associated with a specific part of the page"
+msgstr ""
+
+#: $string['target_unattached']
+msgid "Display in middle of page"
+msgstr ""
+
+#: $string['title']
+msgid "Title"
+msgstr "Τίτλος"
+
+#: $string['title_help']
+msgid ""
+"The title of a step may be added as plain text, enclosed in multilang tags "
+"(for use with the multi-language content filter) if required.\n"
+"\n"
+"Alternatively, a language string ID may be entered in the format "
+"identifier,component (with no brackets or space after the comma)."
+msgstr ""
+
+#: $string['tour1_content_addingblocks']
+msgid ""
+"In fact, think carefully about including any blocks on your pages. Blocks "
+"are not shown on the Moodle Mobile app, so as a general rule it's much "
+"better to make sure your site works well without any blocks."
+msgstr ""
+
+#: $string['tour1_content_blockregion']
+msgid ""
+"There is still a block region over here. We recommend removing the "
+"Navigation and Administration blocks completely, as all the functionality is "
+"elsewhere in the Boost theme."
+msgstr ""
+
+#: $string['tour1_content_customisation']
+msgid ""
+"To customise the look of your site and the front page, use the settings menu "
+"in the corner of this header. Try turning editing on right now."
+msgstr ""
+
+#: $string['tour1_content_end']
+msgid ""
+"This is the end of your user tour. It won't show again unless you reset it "
+"using the link in the footer. As an admin you can also create your own tours "
+"like this!"
+msgstr ""
+
+#: $string['tour1_content_navigation']
+msgid ""
+"Major navigation is now through this nav drawer. The contents update "
+"depending on where you are in the site. Use the button at the top to hide or "
+"show it."
+msgstr ""
+
+#: $string['tour1_content_welcome']
+msgid ""
+"Welcome to the Boost theme. If you've upgraded from an earlier version, you "
+"might find some things look a bit different with this theme."
+msgstr ""
+
+#: $string['tour1_title_addingblocks']
+msgctxt "$string['tour1_title_addingblocks']"
+msgid "Adding blocks"
+msgstr ""
+
+#: $string['tour1_title_blockregion']
+msgid "Block region"
+msgstr ""
+
+#: $string['tour1_title_customisation']
+msgctxt "$string['tour1_title_customisation']"
+msgid "Customisation"
+msgstr "Προσαρμογή"
+
+#: $string['tour1_title_end']
+msgctxt "$string['tour1_title_end']"
+msgid "End of tour"
+msgstr ""
+
+#: $string['tour1_title_navigation']
+msgctxt "$string['tour1_title_navigation']"
+msgid "Navigation"
+msgstr ""
+
+#: $string['tour1_title_welcome']
+msgctxt "$string['tour1_title_welcome']"
+msgid "Welcome"
+msgstr "Καλώς ήρθατε"
+
+#: $string['tour2_content_addblock']
+msgid ""
+"If you turn editing on you can add blocks from the nav drawer. However, "
+"think carefully about including any blocks on your pages. Blocks are not "
+"shown on the Moodle Mobile app, so for the best user experience it is better "
+"to make sure your course works well without any blocks."
+msgstr ""
+
+#: $string['tour2_content_addingblocks']
+msgid ""
+"You can add blocks to this page using this button. However, think carefully "
+"about including any blocks on your pages. Blocks are not shown on the Moodle "
+"Mobile app, so for the best user experience it is better to make sure your "
+"course works well without any blocks."
+msgstr ""
+
+#: $string['tour2_content_customisation']
+msgid ""
+"To change any course settings, use the settings menu in the corner of this "
+"header. You will find a similar settings menu on the home page of every "
+"activity, too. Try turning editing on right now."
+msgstr ""
+
+#: $string['tour2_content_end']
+msgid ""
+"This is the end of your user tour. It won't show again unless you reset it "
+"using the link in the footer. The site admin can also create further tours "
+"for this site if required."
+msgstr ""
+
+#: $string['tour2_content_navigation']
+msgid ""
+"Navigation is now through this nav drawer. Use the button at the top to hide "
+"or show it. You will see that there are links for sections of your course."
+msgstr ""
+
+#: $string['tour2_content_opendrawer']
+msgid "Try opening the nav drawer now."
+msgstr ""
+
+#: $string['tour2_content_participants']
+msgid ""
+"View participants here. This is also where you go to add or remove students."
+msgstr ""
+
+#: $string['tour2_content_welcome']
+msgid ""
+"Welcome to the Boost theme. If your site has been upgraded from an earlier "
+"version, you might find things look a bit different here on the course page."
+msgstr ""
+
+#: $string['tour2_title_addblock']
+msgid "Add a block"
+msgstr "Προσθήκη μπλοκ"
+
+#: $string['tour2_title_addingblocks']
+msgctxt "$string['tour2_title_addingblocks']"
+msgid "Adding blocks"
+msgstr ""
+
+#: $string['tour2_title_customisation']
+msgctxt "$string['tour2_title_customisation']"
+msgid "Customisation"
+msgstr "Προσαρμογή"
+
+#: $string['tour2_title_end']
+msgctxt "$string['tour2_title_end']"
+msgid "End of tour"
+msgstr ""
+
+#: $string['tour2_title_navigation']
+msgctxt "$string['tour2_title_navigation']"
+msgid "Navigation"
+msgstr ""
+
+#: $string['tour2_title_opendrawer']
+msgid "Open the nav drawer"
+msgstr ""
+
+#: $string['tour2_title_participants']
+msgid "Course participants"
+msgstr "Συμμετέχοντες μαθήματος"
+
+#: $string['tour2_title_welcome']
+msgctxt "$string['tour2_title_welcome']"
+msgid "Welcome"
+msgstr "Καλώς ήρθατε"
+
+#: $string['tourconfig']
+msgid "Tour configuration file to import"
+msgstr ""
+
+#: $string['tourisenabled']
+msgid "Tour is enabled"
+msgstr ""
+
+#: $string['tourlist_explanation']
+msgid ""
+"You can create as many tours as you like and enable them for different parts "
+"of Moodle. Only one tour can be created per page."
+msgstr ""
+
+#: $string['tour_resetforall']
+msgid ""
+"The state of the tour has been reset. It will be displayed to all users "
+"again."
+msgstr ""
+
+#: $string['tours']
+msgid "Tours"
+msgstr ""
+
+#: $string['usertours']
+msgctxt "$string['usertours']"
+msgid "User tours"
+msgstr ""
+
+#: $string['usertours:managetours']
+msgid "Create, edit, and remove user tours"
+msgstr ""
+
+#: $string['viewtour_edit']
+msgid ""
+"You can <a href=\"{$a->editlink}\">edit the tour defaults</a> and <a "
+"href=\"{$a->resetlink}\">force the tour to be displayed</a> to all users "
+"again."
+msgstr ""
+
+#: $string['viewtour_info']
+msgid "This is the '{$a->tourname}' tour. It applies to the path '{$a->path}'."
+msgstr ""

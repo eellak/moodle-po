@@ -1,0 +1,2682 @@
+#. extracted from lang/en/error.php, lang/el/error.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'error', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   error
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['activityisscheduledfordeletion']
+msgid "Activity deletion in progress..."
+msgstr "Διαγραφή δραστηριότητας σε εξέλιξη..."
+
+#: $string['alreadyloggedin']
+msgid ""
+"You are already logged in as {$a}, you need to log out before logging in as "
+"different user."
+msgstr ""
+
+#: $string['authnotexisting']
+msgid "The autorization plugin doesn't exist"
+msgstr "Η υπομονάδα πιστοποίησης δεν υπάρχει"
+
+#: $string['backupcontainexternal']
+msgid ""
+"This backup file contains external Moodle Network Hosts that are not "
+"configured locally"
+msgstr ""
+"Αυτό το αντίγραφο ασφαλείας περιέχει εξωτερικούς Moodle Network Hosts που "
+"δεν είναι ρυθμισμένοι τοπικά"
+
+#: $string['backuptablefail']
+msgid "Backup tables could NOT be set up successfully!"
+msgstr "Οι πίνακες αντιγράφων ασφαλείας ΔΕΝ έχουν στηθεί σωστά!"
+
+#: $string['blockcannotconfig']
+msgid "This block does not support global configuration"
+msgstr "Αυτό το μπλοκ δεν υποστηρίζει καθολικές ρυθμίσεις"
+
+#: $string['blockcannotinistantiate']
+msgid "Problem in instantiating block object"
+msgstr "Πρόβλημα κατά την υλοποίηση αντικειμένου μπλοκ"
+
+#: $string['blockcannotread']
+msgid "Could not read data for blockid= {$a}"
+msgstr "Αδυναμία ανάγνωσης δεδομένων για το blockid= {$a}"
+
+#: $string['blockdoesnotexist']
+msgid "This block does not exist"
+msgstr "Αυτό το μπλοκ δεν υπάρχει"
+
+#: $string['blockdoesnotexistonpage']
+msgid ""
+"This block (id={$a->instanceid}) does not exist on this page ({$a->url})."
+msgstr ""
+
+#: $string['blocknameconflict']
+msgid ""
+"Naming conflict: block {$a->name} has the same title with an existing block: "
+"{$a->conflict}!"
+msgstr ""
+"Σύγκρουση ονοματοδοσίας: το μπλοκ {$a->name} έχει τον ίδιο τίτλο με ένα "
+"υπάρχον μπλοκ: {$a->conflict}!"
+
+#: $string['callbackrejectcomment']
+msgid "Comment callback rejected this comment."
+msgstr ""
+
+#: $string['cannotaddcoursemodule']
+msgid "Could not add a new course module"
+msgstr "Αδυναμία πρόσθεσης νέου αρθρώματος μαθήματος"
+
+#: $string['cannotaddcoursemoduletosection']
+msgid "Could not add the new course module to that section"
+msgstr "Αδυναμία πρόσθεσης του νέου αρθρώματος μαθήματος σε αυτό το τμήμα"
+
+#: $string['cannotaddmodule']
+msgid "{$a} module could not be added to the module list!"
+msgstr "Το {$a} άρθρωμα δεν μπόρεσε να προστεθεί στη λίστα αρθρωμάτων!"
+
+#: $string['cannotaddnewmodule']
+msgid "Could not add a new module of {$a}"
+msgstr "Αδυναμία προσθήκης αρθρώματος {$a}"
+
+#: $string['cannotaddrss']
+msgid "You do not have permission to add rss feeds"
+msgstr "Δεν έχετε δικαιώματα να βλέπετε τα rss feeds"
+
+#: $string['cannotaddthisblocktype']
+msgid "You cannot add a {$a} block to this page."
+msgstr ""
+
+#: $string['cannotassignrole']
+msgid "Cannot assign role in course"
+msgstr "Αδυναμία ανάθεσης ρόλου στο μάθημα"
+
+#: $string['cannotassignrolehere']
+msgid ""
+"You are not allowed to assign this role (id = {$a->roleid}) in this context "
+"({$a->context})"
+msgstr ""
+"Δεν επιτρέπεται να αναθέσετε το ρο αυτόν (id = {$a->roleid}) σε αυτό το "
+"πλαίσιο ({$a->context})"
+
+#: $string['cannotassignselfasparent']
+msgid "Cannot assign self as parent!"
+msgstr "Αδυναμία ανάθεσης ρόλου ως γονέα!"
+
+#: $string['cannotcallscript']
+msgid "You cannot call this script in that way"
+msgstr "Δεν μπορείτε να καλέστε αυτό το script με αυτόν τον τρόπο"
+
+#: $string['cannotcallusgetselecteduser']
+msgid ""
+"You cannot call user_selector::get_selected_user if multi select is true."
+msgstr ""
+"Δεν μπορείτε να καλέστε το user_selector::get_selected_user εάν η επιλογή "
+"multiselect είναι true."
+
+#: $string['cannotcreatebackupdir']
+msgid ""
+"Could not create backupdata folder.  The site administrator needs to fix the "
+"file permissions"
+msgstr ""
+"Αδυναμία δημιουργίας φακέλου backupdata.  Ο διαχειριστής του ιστοχώρου "
+"πρέπει να ρυθμίσει τα δικαιώματα"
+
+#: $string['cannotcreatecategory']
+msgid "The category was not inserted"
+msgstr "Η κατηγορία δεν εισήχθη"
+
+#: $string['cannotcreatedboninstall']
+msgid ""
+"<p>Cannot create the database.</p>\n"
+"<p>The specified database does not exist and the given user does not have "
+"permission to create the database.</p>\n"
+"<p>The site administrator should verify database configuration.</p>"
+msgstr ""
+
+#: $string['cannotcreategroup']
+msgid "Error creating group"
+msgstr "Σφάλμα κατά τη δημιουργία νέας ομάδας"
+
+#: $string['cannotcreatelangbase']
+msgid "Error: Could not create base lang directory"
+msgstr "Σφάλμα: Αποτυχία δημιουργίας φακέλου κύριας γλώσσας"
+
+#: $string['cannotcreatelangdir']
+msgid "Cannot create lang directory"
+msgstr "Δε δημιουργήθηκε φάκελος γλώσσας."
+
+#: $string['cannotcreateorfindstructs']
+msgid "Error finding or creating section structures for this course"
+msgstr "Σφάλμα κατά την εύρεση ή δημιουργία δομών γι' αυτό το μάθημα"
+
+#: $string['cannotcreatepopupwin']
+msgid "Undefined element - cannot create pop-up window"
+msgstr "Μη ορισμένο στοιχείο - αποτυχία δημιουργίας αναδυόμενου παραθύρου"
+
+#: $string['cannotcreatesitedir']
+msgid ""
+"Cannot create site folder. The site administrator needs to fix the file "
+"permissions."
+msgstr ""
+"Αποτυχία δημιουργίας φακέλου ιστοχώρου. Ο διαχειριστής του ιστοχώρου πρέπει "
+"να ρυθμίσει τα δικαιώματα."
+
+#: $string['cannotcreatetempdir']
+msgid "Cannot create temp directory"
+msgstr "Δε δημιουργήθηκε φάκελος temp."
+
+#: $string['cannotcreateuploaddir']
+msgid ""
+"Cannot create upload folder. The site administrator needs to fix the file "
+"permissions."
+msgstr ""
+"Αποτυχία δημιουργίας φακέλου μεταφορτώσεων. Ο διαχειριστής του ιστοχώρου "
+"πρέπει να ρυθμίσει τα δικαιώματα."
+
+#: $string['cannotcustomisefiltersblockuser']
+msgid "You cannot customise filters settings in user or block contexts."
+msgstr ""
+
+#: $string['cannotdeletebackupids']
+msgid "Couldn't delete previous backup ids"
+msgstr "Αποτυχία διαγραφής id προηγούμενων αντιγράφων ασφαλείας"
+
+#: $string['cannotdeletecategorycourse']
+msgid "Course '{$a}' failed to be deleted."
+msgstr ""
+
+#: $string['cannotdeletecategoryquestions']
+msgid "Could not delete questions from category '{$a}'"
+msgstr ""
+
+#: $string['cannotdeletecourse']
+msgid "You do not have the permission to delete this course"
+msgstr "Δεν έχετε τα δικαιώματα να σβήσετε αυτό το μάθημα"
+
+#: $string['cannotdeletecustomfield']
+msgid "Error deleting custom field data"
+msgstr "Σφάλμα κατά τη διαγραφή δεδομένων προσαρμοσμένων πεδίων"
+
+#: $string['cannotdeletedir']
+msgid "Cannot delete ({$a})"
+msgstr "Αποτυχία διαγραφής ({$a})"
+
+#: $string['cannotdeletefile']
+msgid "Cannot delete this file"
+msgstr ""
+
+#: $string['cannotdeleterole']
+msgid "It cannot be deleted, because {$a}"
+msgstr "Δεν μπορεί να διαγραφεί επειδή {$a}"
+
+#: $string['cannotdeleterolewithid']
+msgid "Could not delete role with ID {$a}"
+msgstr "Αποτυχία διαγραφής ρόλου με ID {$a}"
+
+#: $string['cannotdeletethisrole']
+msgid ""
+"You cannot delete this role because it is used by the system, or because it "
+"is the last role with administrator capabilities."
+msgstr ""
+"Δεν μπορείτε να διαγράψετε αυτόν το ρόλο επειδή χρησιμοποιείται από το "
+"σύστημα ή επειδή είναι ο τελευταίος ρόλος με δυνατότητες διαχειριστή."
+
+#: $string['cannotdisableformat']
+msgid "You can not disable the default format"
+msgstr ""
+
+#: $string['cannotdownloadcomponents']
+msgid "Cannot download components"
+msgstr "Δεν κατέβηκαν τα τμήματα."
+
+#: $string['cannotdownloadlanguageupdatelist']
+msgid "Cannot download list of language updates from download.moodle.org"
+msgstr ""
+"Αποτυχία λήψης λίστας ανανεωμένων γλωσσικών πακέτων από το "
+"download.moodle.org"
+
+#: $string['cannotdownloadzipfile']
+msgid "Cannot download ZIP file"
+msgstr "Δεν κατέβηκε το αρχείο ZIP."
+
+#: $string['cannoteditcomment']
+msgid "This comment is not yours to edit!"
+msgstr "Αυτό το σχόλιο δεν είναι δικό σας για να το επεξεργαστείτε!"
+
+#: $string['cannoteditcommentexpired']
+msgid "You can't edit this. The time has expired!"
+msgstr "Δεν μπορείτε να το επεξεργαστείτε. Ο χρόνος έχει λήξει!"
+
+#: $string['cannoteditpostorblog']
+msgid "You cannot post or edit blogs"
+msgstr "Δεν μπορείτε να αναρτήσετε ανακοινώσεις ή να επεξεργαστείτε blog"
+
+#: $string['cannoteditsiteform']
+msgid "You cannot edit the site course using this form"
+msgstr ""
+"Δεν μπορείτε να επεξεργαστείτε το μάθημα ιστοχώρου χρησιμοποιώντας αυτήν τη "
+"φόρμα"
+
+#: $string['cannotedituserpreferences']
+msgid "Cannot edit this user's preferences"
+msgstr ""
+
+#: $string['cannotedityourprofile']
+msgid "Sorry, you cannot edit own profile"
+msgstr "Λυπούμαστε, δεν μπορείτε να επεξεργαστείτε το προφίλ σας"
+
+#: $string['cannotexecduringupgrade']
+msgid "Cannot be executed during upgrade"
+msgstr ""
+
+#: $string['cannotfindcategory']
+msgid "Cannot find category record from database by ID - {$a}"
+msgstr "Αδυναμία εύρεσης εγγραφής κατηγορίας από τη βάση δεδομένων με ID - {$a}"
+
+#: $string['cannotfindcomponent']
+msgid "Cannot find component"
+msgstr "Δεν βρέθηκε το τμήμα."
+
+#: $string['cannotfindcontext']
+msgid "Could not find context"
+msgstr "Δε βρέθηκ το πλαίσιο"
+
+#: $string['cannotfindcourse']
+msgid "Cannot find course"
+msgstr ""
+
+#: $string['cannotfinddocs']
+msgid "Cannot find \"{$a}\" language docs files"
+msgstr "Αδυναμία εύρεσης docs αρχεία της γλώσσας \"{$a}\""
+
+#: $string['cannotfindgradeitem']
+msgid "Cannot find grade_item"
+msgstr "Αδυναμία εύρεσης grade_item"
+
+#: $string['cannotfindgroup']
+msgid "Unable to find group"
+msgstr "Αδυναμία εύρεσης ομάδας"
+
+#: $string['cannotfindhelp']
+msgid "Cannot find \"{$a}\" language help files"
+msgstr "Αδυναμία εύρεσης αρχείων βοήθειας για τη γλώσσα \"{$a}\""
+
+#: $string['cannotfindinfo']
+msgid "Cannot find info for: \"{$a}\""
+msgstr "Αδυναμία εύρεσης πληροφοριών για: \"{$a}\""
+
+#: $string['cannotfindlang']
+msgid "Cannot find \"{$a}\" language pack!"
+msgstr "Αδυναμία εύρεσης γλωσσικού πακέτου \"{$a}\"!"
+
+#: $string['cannotfindteacher']
+msgid "Cannot find teacher"
+msgstr "Αποτυχία εύρεσης διδάσκοντα"
+
+#: $string['cannotfinduser']
+msgid "Cannot find user named \"{$a}\""
+msgstr "Αποτυχία εύρεσης χρήστη με όνομα \"{$a}\""
+
+#: $string['cannotgeoplugin']
+msgid ""
+"Cannot connect to geoPlugin server at http://www.geoplugin.com, please check "
+"proxy settings or better install MaxMind GeoLite City data file"
+msgstr ""
+
+#: $string['cannotgetblock']
+msgid "Could not retrieve blocks from the database"
+msgstr "Αδυναμία ανάκτησης μπλοκ από τη βάση δεδομένων"
+
+#: $string['cannotgetcats']
+msgid "Cannot get category record"
+msgstr "Αποτυχία ανάκτησης εγγραφής κατηγορίας"
+
+#: $string['cannotgetdata']
+msgid "Cannot get data"
+msgstr "Αποτυχία λήψης δεδομένων"
+
+#: $string['cannotgradeuser']
+msgid "Cannot grade this user"
+msgstr "Αποτυχία βαθμολογίας αυτού του χρήστη"
+
+#: $string['cannothaveparentcate']
+msgid "Course category cannot have parent!"
+msgstr "Η κατηγορία μαθήματος δεν μπορεί να έχει γονέα!"
+
+#: $string['cannotimport']
+msgid "Import error"
+msgstr "Σφάλμα εισαγωγής"
+
+#: $string['cannotimportformat']
+msgctxt "$string['cannotimportformat']"
+msgid "Sorry, importing this format is not yet implemented!"
+msgstr "Λυπόμαστε, η εισαγωγή αυτού του φορμάτ δεν έχει υλοποιηθεί ακόμη!"
+
+#: $string['cannotimportgrade']
+msgid "Grade import error"
+msgstr "Σφάλμα εισαγωγής βαθμών"
+
+#: $string['cannotinsertgrade']
+msgid "Cannot insert grade item without course id!"
+msgstr "Αδυναμία εισαγωγής βαθμού χωρίς το id του μαθήματος!"
+
+#: $string['cannotinsertrate']
+msgid "Could not insert a new rating ({$a->id} = {$a->rating})"
+msgstr "Αδυναμία εισαγωγής μιας νέας ταξινόμησης ({$a->id} = {$a->rating})"
+
+#: $string['cannotinsertrecord']
+msgid "Could not insert new record ID {$a}"
+msgstr "Αδυναμία εισαγωγής νέας εγγραφής με ID {$a}"
+
+#: $string['cannotmailconfirm']
+msgid "Error sending password change confirmation email"
+msgstr "Σφάλμα κατά την αποστολή email επιβεβαίωσης για αλλαγή συνθηματικού"
+
+#: $string['cannotmanualctrack']
+msgid "Activity does not provide manual completion tracking"
+msgstr "Η δραστηριότητα δεν παρέχει χειροκίνητο εντοπισμό ολοκλήρωσης"
+
+#: $string['cannotmapfield']
+msgid ""
+"Mapping collision detected - two fields maps to the same grade item {$a}"
+msgstr ""
+"Ανιχνεύτηκε σύγκρουση στη χαρτογράφηση - δύο πεδία αναφέρονται στο ίδιο "
+"στοιχείο βαθμολογίας {$a}"
+
+#: $string['cannotmarktopic']
+msgid "Could not mark that topic for this course"
+msgstr "Δεν ήταν δυνατή η βαθμολόγηση αυτού του θέματος γι'αυτό το μάθημα"
+
+#: $string['cannotmigratedatacomments']
+msgid "Cannot migrate data module comments"
+msgstr ""
+
+#: $string['cannotmodulename']
+msgid "Cannot get the module name in build navigation"
+msgstr "Δεν ήταν δυνατή η ανάκτηση του ονόματος αρθρώματος στο build navigation"
+
+#: $string['cannotmoduletype']
+msgid "Cannot get the module type in build navigation"
+msgstr "Δεν ήταν δυνατή η ανάκτηση του τύπου αρθρώματος στο build navigation"
+
+#: $string['cannotmovecategory']
+msgid "Cannot move category"
+msgstr ""
+
+#: $string['cannotmovecourses']
+msgid "Cannot move courses from the category they are in to another."
+msgstr ""
+
+#: $string['cannotmoverolewithid']
+msgid "Cannot move role with ID {$a}"
+msgstr "Αδυναμία μετακίνησης ρόλου με ID {$a}"
+
+#: $string['cannotopencsv']
+msgid "Cannot open CSV file"
+msgstr "Αδυναμία ανοίγματος αρχείου CSV"
+
+#: $string['cannotopenfile']
+msgid "Cannot open file ({$a})"
+msgstr "Δεν ήταν δυνατό το άνοιγμα του αρχείου ({$a})"
+
+#: $string['cannotopenforwrit']
+msgid "Cannot open for writing: {$a}"
+msgstr "Δεν ήταν δυνατό το άνοιγμα για εγγραφή: {$a}"
+
+#: $string['cannotopentemplate']
+msgid "Cannot open template file ({$a})"
+msgstr "Δεν ήταν δυνατό το άνοιγμα του αρχείου-προτύπου ({$a})"
+
+#: $string['cannotopenzip']
+msgid "Can not open zip file, probably zip extension bug on 64bit os"
+msgstr ""
+"Δεν ήταν δυνατό το άνοιγμα του συμπιεσμένου αρχείου, κατά πάσα πιθανότητα "
+"αυτό είναι πρόβλημα επέκτασης zip σε 64bit λειτουργικό"
+
+#: $string['cannotoverridebaserole']
+msgid "Cannot override base role capabilities"
+msgstr "Δεν ήταν δυνατή η παράκαμψη των δυνατοτήτων βασικού ρόλου"
+
+#: $string['cannotoverriderolehere']
+msgid ""
+"You are not allowed to override this role (id = {$a->roleid}) in this "
+"context ({$a->context})"
+msgstr ""
+"Δεν επιτρέπεται να παρακάμψετε αυτόν το ρόλο (id = {$a->roleid}) σε αυτό το "
+"πλαίσιο ({$a->context})"
+
+#: $string['cannotreadfile']
+msgid "Cannot read file ({$a})"
+msgstr "Δεν είναι δυνατή η ανάγνωση του αρχείου ({$a})"
+
+#: $string['cannotreadtmpfile']
+msgid "Error reading temporary file"
+msgstr "Σφάλμα ανάγνωσης προσωρινού αρχείου"
+
+#: $string['cannotreaduploadfile']
+msgid "Could not read uploaded file"
+msgstr "Δεν ήταν δυνατή η ανάγνωση του μεταφορτωμένου αρχείου"
+
+#: $string['cannotremovefrommeta']
+msgid "Could not remove the selected course from this meta course!"
+msgstr ""
+"Δεν ήταν δυνατή η αφαίρεση του επιλεγμένου μαθήματος από αυτό το "
+"μετα-μάθημα!"
+
+#: $string['cannotreprocessgrades']
+msgid "Could not reprocess grades for this activity {$a}"
+msgstr ""
+
+#: $string['cannotresetguestpwd']
+msgid "You cannot reset the guest password"
+msgstr "Δεν μπορείτε να επαναφέρετε το συνθηματικό επισκέπτη"
+
+#: $string['cannotresetmail']
+msgid "Error resetting password and mailing you"
+msgstr "Σφάλμα επαναφοράς συνθηματικού και αποστολής email"
+
+#: $string['cannotresetthisrole']
+msgid "Cannot reset this role"
+msgstr "Δεν είναι δυνατή η επαναφορά αυτού του ρόλου"
+
+#: $string['cannotrestore']
+msgid "An error has occurred and the restore could not be completed!"
+msgstr "Συνέβη κάποιο σφάλμα και η επαναφορά δεν ήταν δυνατόν να ολοκληρωθεί!"
+
+#: $string['cannotrestoreadminorcreator']
+msgid "You need to be a creator or admin user to restore into new course!"
+msgstr ""
+"Πρέπει να είστε δημιουργός ή χρήστης με διαχειριστικά δικαιώματα ώστε να "
+"επαναφέρετε ένα αντίγραφο ασφαλείας μέσα σε ένα καινούριο μάθημα!"
+
+#: $string['cannotrestoreadminoredit']
+msgid ""
+"You need to be a editing teacher or admin user to restore into selected "
+"course!"
+msgstr ""
+"Πρέπει να είστε διδάσκων με δικαιώματα επεξεργασίας ή χρήστης με "
+"διαχειριστικά δικαιώματα ώστε να επαναφέρετε ένα αντίγραφο ασφαλείας μέσα σε "
+"ένα επιλεγμένο μάθημα!"
+
+#: $string['cannotsaveagreement']
+msgid "Could not save your agreement"
+msgstr "Δεν ήταν δυνατή η αποθήκευση της συμφωνίας σας"
+
+#: $string['cannotsaveblock']
+msgid "Error saving block configuration"
+msgstr "Σφάλμα αποθήκευσης ρυθμίσεων αρθρώματος"
+
+#: $string['cannotsavecomment']
+msgid "Cannot save comment"
+msgstr "Αποτυχία αποθήκευσης σχολίου"
+
+#: $string['cannotsavedata']
+msgid "Cannot save data"
+msgstr "Αποτυχία αποθήκευσης δεδομένων"
+
+#: $string['cannotsavefile']
+msgid "Cannot save the file \"{$a}\"!"
+msgstr "Αποτυχία αποθήκευσης του αρχείου \"{$a}\"!"
+
+#: $string['cannotsavemd5file']
+msgid "Cannot save md5 file"
+msgstr "Δεν αποθηκεύτηκε το αρχείο md5."
+
+#: $string['cannotsavezipfile']
+msgid "Cannot save ZIP file"
+msgstr "Δεν αποθηκεύτηκε το αρχείο ZIP."
+
+#: $string['cannotservefile']
+msgid "Can not serve file - server configuration problem."
+msgstr ""
+
+#: $string['cannotsetparentforcatoritem']
+msgid "Cannot set parent for category or course item!"
+msgstr "Δεν είναι δυνατός ο ορισμός γονέα για την κατηγορία ή το μάθημα!"
+
+#: $string['cannotsetpassword']
+msgid "Could not set user password!"
+msgstr "Δεν ήταν δυνατός ο ορισμός συνθηματικού χρήστη!"
+
+#: $string['cannotsetprefgrade']
+msgid ""
+"Could not set preference aggregationview to {$a} for this grade category"
+msgstr ""
+"Δεν ήταν δυνατός ο ορισμός της προτίμησης aggregationview σε {$a} για αυτήν "
+"την κατηγορία βαθμών"
+
+#: $string['cannotsettheme']
+msgid "Could not set the theme!"
+msgstr "Δεν ήταν δυνατός ο ορισμός του θέματος!"
+
+#: $string['cannotsetupblock']
+msgid "Blocks tables could NOT be set up successfully!"
+msgstr "Οι πίνακες μπλοκ ΔΕΝ έχουν οριστεί σωστά!"
+
+#: $string['cannotsetupcapformod']
+msgctxt "$string['cannotsetupcapformod']"
+msgid "Could not set up the capabilities for {$a}"
+msgstr "Δεν ήταν δυνατός ο ορισμός των δυνατοτήτων για {$a}"
+
+#: $string['cannotsetupcapforplugin']
+msgctxt "$string['cannotsetupcapforplugin']"
+msgid "Could not set up the capabilities for {$a}"
+msgstr "Δεν ήταν δυνατός ο ορισμός των δυνατοτήτων για {$a}"
+
+#: $string['cannotshowhidecoursesincategory']
+msgid "Cannot show/hide the courses in category {$a}."
+msgstr "Δεν ήταν δυνατή η προβολή/απόκρυψη των μαθημάτων στην κατηγορία {$a}."
+
+#: $string['cannotsignup']
+msgid ""
+"You cannot create a new account because you are already logged in as {$a}."
+msgstr ""
+
+#: $string['cannotunassigncap']
+msgid "Could not unassign deprecated capability {$a->cap} from role {$a->role}"
+msgstr ""
+"Δεν τήαν δυνατή η ανάθεση της απαξιωμένης δυνατότητας {$a->cap} από το ρόλο "
+"{$a->role}"
+
+#: $string['cannotunassignrolefrom']
+msgid "Cannot unassign this user from role id: {$a}"
+msgstr "Δεν ήταν δυνατή η κατάργηση αυτού του χρήστη από το id ρόλου: {$a}"
+
+#: $string['cannotunzipfile']
+msgid "Cannot unzip file"
+msgstr "Δεν έγινε αποσυμπίεση του αρχείου."
+
+#: $string['cannotupdatemod']
+msgid "Could not update {$a}"
+msgstr "Δεν ήταν δυνατή η ενημέρωση του {$a}"
+
+#: $string['cannotupdatepasswordonextauth']
+msgid ""
+"Failed to update password on external auth: {$a}. See the server logs for "
+"more details."
+msgstr ""
+"Αδυναμία ενημέρωσης συνθηματικού στην εξωτερική πιστοίηση: {$a}. Δείτε τα "
+"αρχεία καταγραφής του διακομιστή για περισσότερες λεπτομέρειες."
+
+#: $string['cannotupdateprofile']
+msgid "Error updating user record"
+msgstr "Σφάλμα ενημέρωσης εγγραφής χρήστη"
+
+#: $string['cannotupdaterecord']
+msgid "Could not update record ID {$a}"
+msgstr "Δεν ήταν δυνατή η ενημέρωση του ID εγγραφής {$a}"
+
+#: $string['cannotupdaterss']
+msgid "Cannot update RSS"
+msgstr "Δεν είναι δυνατή η ενημέρωση του RSS"
+
+#: $string['cannotupdatesubcourse']
+msgid "Could not update a child course!"
+msgstr "Δεν ήταν δυνατή η ενημέρωση του μαθήματος-παιδιού!"
+
+#: $string['cannotupdateusermsgpref']
+msgid "Cannot update user message preferences"
+msgstr "Δεν είναι δυνατή η ενημέρωση των προτιμήσεων μηνυμάτων χρήστη"
+
+#: $string['cannotupdateuseronexauth']
+msgid ""
+"Failed to update user data on external auth: {$a}. See the server logs for "
+"more details."
+msgstr ""
+"Σφάλμα ενημέρωσης δεδομένων χρήστη σε εξωτερική πιστοποίηση: {$a}. Δείτε τα "
+"αρχεία καταγραφής του διακομιστή για περισσότερες λεπτομέρειες."
+
+#: $string['cannotuploadfile']
+msgid "Error processing upload file"
+msgstr "Σφάλμα επεξεργασίας αρχείου μεταφορτώσεως"
+
+#: $string['cannotuseadmin']
+msgid "You need to be an admin user to use this page"
+msgstr "Πρέπει να είστε διαχειριστής για να χρησιμοποιήσετε αυτήν τη σελίδα"
+
+#: $string['cannotuseadminadminorteacher']
+msgid "You need to be a teacher or admin user to use this page"
+msgstr ""
+"Πρέπει να είστε διδάσκων ή διαχειριστής για να χρησιμοποιήσετε αυτήν τη "
+"σελίδα"
+
+#: $string['cannotusepage']
+msgid "Only teachers and administrators can use this page"
+msgstr ""
+"Μόνο διδάσκοντες και διαχειριστές μπορούν να χρησιμοποιήσουν αυτήν τη σελίδα"
+
+#: $string['cannotusepage2']
+msgid "Sorry, you may not use this page"
+msgstr "Λυπούμαστε, δεν μπορείτε να χρησιμοιήσετε αυτήν τη σελίδα"
+
+#: $string['cannotviewprofile']
+msgid "You cannot view the profile of this user"
+msgstr "Δεν μπορείτε να δείτε το προφίλ αυτού του χρήστη"
+
+#: $string['cannotviewreport']
+msgid "You cannot view this report"
+msgstr ""
+
+#: $string['cannotwritefile']
+msgid "Cannot write to file ({$a})"
+msgstr "Δεν είναι δυνατή η εγγραφή στο αρχείο ({$a})"
+
+#: $string['categoryerror']
+msgid "Category error"
+msgstr ""
+
+#: $string['categoryidnumbertaken']
+msgid "ID number is already used for another category"
+msgstr ""
+
+#: $string['categorynamerequired']
+msgid "Category name is required"
+msgstr ""
+
+#: $string['categorytoolong']
+msgid "Category name too long"
+msgstr ""
+
+#: $string['commentmisconf']
+msgid "Comment ID is misconfigured"
+msgstr "Το ID του σχολίου δεν είναι σωστά σχηματισμένο"
+
+#: $string['componentisuptodate']
+msgid "Component is up-to-date"
+msgstr "Το τμήμα είναι ενημερωμένο."
+
+#: $string['confirmationnotenabled']
+msgid "User confirmation is not enabled on this site"
+msgstr ""
+
+#: $string['confirmsesskeybad']
+msgid ""
+"Sorry, but your session key could not be confirmed to carry out this action. "
+" This security feature prevents against accidental or malicious execution "
+"of important functions in your name.  Please make sure you really wanted to "
+"execute this function."
+msgstr ""
+"Συγνώμη, αλλά το κλειδί της συνεδρίας σας δεν επιβεβαιώθηκε για να την "
+"ολοκλήρωση αυτής της ενέργειας. Αυτό το χαρακτηριστικό ασφαλείας αποτρέπει "
+"την εκτέλεση σημαντικών λειτουργιών κατά λάθος ή επίτηδες στο όνομά σας. "
+"Παρακαλώ βεβαιωθείτε ότι πράγματι θέλετε να εκτελεστεί αυτή η λειτουργία."
+
+#: $string['couldnotassignrole']
+msgid ""
+"A serious but unspecified error occurred while trying to assign a role to "
+"you"
+msgstr ""
+"Ένα σοβαρό αλλά μη-ορισμένο σφάλμα συνέβη ενώ δοκιμάστηκε η απόδοση ρόλου σε "
+"σας."
+
+#: $string['couldnotupdatenoexistinguser']
+msgid "Cannot update the user - user doesn't exist"
+msgstr "Δεν είναι δυνατή η ενημέρωση του χρήστη - ο χρήστης δεν υπάρχει"
+
+#: $string['countriesphpempty']
+msgid ""
+"Error: The file countries.php in language pack {$a} is empty or missing."
+msgstr ""
+"Σφάλμα: Το αρχείο countries.php στο γλωσσικό πακέτο {$a} είναι άδειο ή δεν "
+"υπάρχει."
+
+#: $string['coursedoesnotbelongtocategory']
+msgid "The course doesn't belong to this category"
+msgstr ""
+
+#: $string['courseformatnotfound']
+msgid "The course format '{$a}' doesn't exist or is not recognized"
+msgstr ""
+
+#: $string['coursegroupunknown']
+msgid "Course corresponding to group {$a} not specified"
+msgstr "Το μάθημα που αντιστοιχεί στην ομάδα {$a} δεν έχει οριστεί"
+
+#: $string['courseidnotfound']
+msgid "Course id doesn't exist"
+msgstr "Το id του μαθήματος δεν υπάρχει"
+
+#: $string['courseidnumbertaken']
+msgid "ID number is already used for another course ({$a})"
+msgstr ""
+
+#: $string['coursemisconf']
+msgid "Course is misconfigured"
+msgstr "Το μάθημα δεν είναι σωστά σχηματισμένο"
+
+#: $string['courserequestdisabled']
+msgid "Sorry, but course requests have been disabled by the administrator."
+msgstr ""
+"Λυπούμαστε αλλά οι αιτήσεις για μαθήματα έχουν απενεργοποιηθεί από το "
+"διαειριστή"
+
+#: $string['csvcolumnduplicates']
+msgid "Duplicate columns detected"
+msgstr "Εντοπίστηκαν διπλότυπες στήλες"
+
+#: $string['csvemptyfile']
+msgid "The CSV file is empty"
+msgstr "Το αρχείο CSV είναι άδειο"
+
+#: $string['csvfewcolumns']
+msgid "Not enough columns, please verify the delimiter setting"
+msgstr ""
+"Δεν υπάρχουν αρκετές στήλες, παρακαλώ επιβεβαιώστε τη ρύθμιση του "
+"διαχωριστικού στηλών"
+
+#: $string['csvinvalidcols']
+msgid ""
+"<b>Invalid CSV file:</b> First line must include \"Header Fields\" and the "
+"file must be type of <br />\"Expanded Fields/Comma Separated\"<br />or<br /> "
+"\"Expanded Fields with CAVV Result Code/Comma Separated\""
+msgstr ""
+"<b>Λάθος αρχείο CSV:</b> Η πρώτη γραμμή πρέπει να περιέχει \"Header Fields\" "
+"και το αρχείο πρέπει να είναι τύπου <br />\"Expanded Fields/Comma "
+"Separated\"<br />ή<br /> \"Expanded Fields with CAVV Result Code/Comma "
+"Separated\""
+
+#: $string['csvinvalidcolsnum']
+msgid "Invalid CSV file - each line must include 49 or 70 fields"
+msgstr "Λάθος αρχείο CSV - η κάθε γραμμή πρέπει να περιέχει 49 ή 70 πεδία"
+
+#: $string['csvloaderror']
+msgid "An error occurred while loading the CSV file: {$a}"
+msgstr "Σφάλμα συνέβη κατά το φόρτωμα του αρχείου CSV!"
+
+#: $string['csvweirdcolumns']
+msgid "Invalid CSV file format - number of columns is not constant!"
+msgstr "Μη έγκυρο φορμάτ αρχείου CSV - ο αριθμός των στηλών δεν είναι σταθερά!"
+
+#: $string['dbconnectionfailed']
+msgid ""
+"<p>Error: Database connection failed</p>\n"
+"<p>It is possible that the database is overloaded or otherwise not running "
+"properly.</p>\n"
+"<p>The site administrator should also check that the database details have "
+"been correctly specified in config.php</p>"
+msgstr ""
+"<p>Σφάλμα: Η σύνδεση στη βάση απέτυχε</p>\n"
+"<p>Είναι πιθανόν η βάση να είναι υπερφορτωμένη ή να μην τρέχει σωστά.</p>\n"
+"<p>Ο διαχειριστής του ιστοχώρου θα πρέπει επίσης να ελέγξει ότι οι "
+"λεπτομέρειες της βάσης δεδομένων έχουν οριστεί σωστά στο config.php</p>{$a}"
+
+#: $string['dbdriverproblem']
+msgid ""
+"<p>Error: database driver problem detected</p>\n"
+"<p>The site administrator should verify server configuration</p><p>{$a}</p>"
+msgstr ""
+"<p>Σφάλμα: Ο οδηγός της βάσης εμφάνισε πρόβλημα</p>\n"
+"<p>Ο διαχειριστής του ιστοχώρου θα πρέπει να ελέγξει τις ρυθμίσεις του "
+"διακομιστή</p><p>{$a}</p>"
+
+#: $string['dbsessionbroken']
+msgid ""
+"Serious database session problem detected.<br /><br />Please notify server "
+"administrator."
+msgstr ""
+"Εντοπίστηκε σοβαρό πρόβλημα στη συνεδρία της βάσης δεδομένων.<br /><br "
+"/>Παρακαλώ ειδοποιήστε το διαχειριστή του συστήματος."
+
+#: $string['dbsessionhandlerproblem']
+msgid ""
+"Setting up of database session failed. Please notify the server "
+"administrator."
+msgstr ""
+"Σφάλμα στο στήσιμο της συνεδρίας βάσης δεδομένων.<br /><br />Παρακαλώ "
+"ειδοποιήστε το διαχειριστή του διακομιστή."
+
+#: $string['dbsessionmysqlpacketsize']
+msgid ""
+"A serious session error was detected. Please notify the site administrator. "
+"The problem is most probably caused by small value in max_allowed_packet "
+"MySQL setting."
+msgstr ""
+"Εντοπίστηκε σοβαρό σφάλμα συνεδρίας.<br /><br />Παρακαλώ ειδοποιήστε το "
+"διαχεριστή, αυτό το πρόβλημα πιθανότατα έχει προκληθεί από μικρή τιμή της "
+"max_allowed_packet στη ρύθμιση MySQL."
+
+#: $string['dbupdatefailed']
+msgid "Database update failed"
+msgstr "Απέτυχε η ενημέρωση της βάσης δεδομένων"
+
+#: $string['ddldependencyerror']
+msgid ""
+"{$a->targettype} \"{$a->targetname}\" cannot be modified. Dependency found "
+"with {$a->offendingtype} \"{$a->offendingname}\""
+msgstr ""
+
+#: $string['ddlexecuteerror']
+msgid "DDL sql execution error"
+msgstr "Σφάλμα στην εκτέλεση DDL sql"
+
+#: $string['ddlfieldalreadyexists']
+msgid "Field \"{$a}\" already exists"
+msgstr "Το πεδίο \"{$a}\""
+
+#: $string['ddlfieldnotexist']
+msgid "Field \"{$a->fieldname}\" does not exist in table \"{$a->tablename}\""
+msgstr "Το πεδίο \"{$a->fieldname}\" δεν υπάρχει στον πίνακα \"{$a->tablename}\""
+
+#: $string['ddltablealreadyexists']
+msgid "Table \"{$a}\" already exists"
+msgstr "Ο πίνακας \"{$a}\" υπάρχει ήδη"
+
+#: $string['ddltablenotexist']
+msgid "Table \"{$a}\" does not exist"
+msgstr "Ο πίνακας \"{$a}\" δεν υπάρχει"
+
+#: $string['ddlunknownerror']
+msgid "Unknown DDL library error"
+msgstr "Άγνωστο σφάλμα βιβλιοθήκης DDL"
+
+#: $string['ddlxmlfileerror']
+msgid "XML database file errors found"
+msgstr "Εντοπίστηκαν σφάλματα XML αρχείου βάσης"
+
+#: $string['ddsequenceerror']
+msgid ""
+"Incorrect table \"{$a}\" definition; there can be only one auto column and it "
+"must be defined as a key."
+msgstr ""
+
+#: $string['destinationcmnotexit']
+msgid "The destination course module does not exist"
+msgstr "Το άρθρωμα του μαθήματος-στόχου δεν υπάρχει"
+
+#: $string['detectedbrokenplugin']
+msgid "Plugin \"{$a}\" is defective or outdated, can not continue, sorry."
+msgstr ""
+"Η υπομονάδα \"{$a}\" είναι προβληματική - λυπούμαστε αλλά δεν είναι δυνατή η "
+"συνέχεια."
+
+#: $string['dmlexceptiononinstall']
+msgid ""
+"<p>A database error has occurred [{$a->errorcode}].<br />{$a->debuginfo}</p>"
+msgstr ""
+
+#: $string['dmlreadexception']
+msgid "Error reading from database"
+msgstr "Σφάλμα ανάγνωσης από τη βάση δεδομένων"
+
+#: $string['dmltransactionexception']
+msgid "Database transaction error"
+msgstr ""
+
+#: $string['dmlwriteexception']
+msgid "Error writing to database"
+msgstr "Σφάλμα εγγραφής στη βάση δεδομένων"
+
+#: $string['downgradedcore']
+msgid ""
+"ERROR!!!  The code you are using is OLDER than the version that made these "
+"databases!"
+msgstr ""
+
+#: $string['downloadedfilecheckfailed']
+msgid "Downloaded file check failed"
+msgstr "Το κατέβασμα ελέγχου αρχείου απέτυχε."
+
+#: $string['duplicatefieldname']
+msgid "Duplicate field name \"{$a}\" detected"
+msgstr ""
+
+#: $string['duplicatenosupport']
+msgid ""
+"'{$a->modname}' activity could not be duplicated because the {$a->modtype} "
+"module does not support backup and restore."
+msgstr ""
+
+#: $string['duplicateparaminsql']
+msgid "ERROR: duplicate parameter name in query"
+msgstr "ΣΦΑΛΜΑ: διπλότυπη παράμετρος στο ερώτημα"
+
+#: $string['duplicaterolename']
+msgid "There is already a role with this name!"
+msgstr "Υπάρχει ήδη ένας ρόλος με αυτό το όνομα!"
+
+#: $string['duplicateroleshortname']
+msgid "There is already a role with this short name!"
+msgstr "Υπάρχει ήδη ένας ρόλος με αυτό το σύντομο όνομα!"
+
+#: $string['duplicateusername']
+msgid "Duplicate username - skipping record"
+msgstr "Διπλότυπο όνομα χρήστη - αγνόηση εγγραφής"
+
+#: $string['emailfail']
+msgid "Emailing failed"
+msgstr "Απέτυχε η αποστολή email"
+
+#: $string['enddatebeforestartdate']
+msgid "The course end date must be after the start date."
+msgstr ""
+
+#: $string['error']
+msgid "Error occurred"
+msgstr "Συνέβη κάποιο σφάλμα"
+
+#: $string['errorcleaningdirectory']
+msgid "Error cleaning directory \"{$a}\""
+msgstr "Σφάλμα στο καθαρισμό φακέλου \"{$a}\""
+
+#: $string['errorcopyingfiles']
+msgid "Error copying files"
+msgstr "Σφάλμα στην αντιγραφή αρχείων"
+
+#: $string['errorcreatingdirectory']
+msgid "Error creating directory \"{$a}\""
+msgstr "Σφάλμα στη δημιουργία φακέλου \"{$a}\""
+
+#: $string['errorcreatingfile']
+msgid "Error creating file \"{$a}\""
+msgstr "Σφάλμα στη δημιουργία αρχείου \"{$a}\""
+
+#: $string['errorcreatingrole']
+msgid "Error creating role"
+msgstr "Σφάλμα στη δημιουργία ρόλου"
+
+#: $string['errorfetchingrssfeed']
+msgid "Error fetching RSS feed."
+msgstr ""
+
+#: $string['erroronline']
+msgid "Error on line {$a}"
+msgstr "Σφάλμα στη γραμμή \"{$a}\""
+
+#: $string['erroroutput']
+msgid "Error output, so disabling automatic redirect."
+msgstr ""
+
+#: $string['errorparsingxml']
+msgid ""
+"Error parsing XML: {$a->errorstring} at line {$a->errorline}, char "
+"{$a->errorchar}"
+msgstr ""
+
+#: $string['errorprocessingarchive']
+msgid "Error processing archive file"
+msgstr ""
+
+#: $string['error_question_answers_missing_in_db']
+msgid ""
+"Failed to find an answer matching \"{$a->answer}\" in the question_answers "
+"database table. This occurred while restoring the question with id "
+"{$a->filequestionid} in the backup file, which has been matched to the "
+"existing question with id {$a->dbquestionid} in the database."
+msgstr ""
+
+#: $string['errorreadingfile']
+msgid "Error reading file \"{$a}\""
+msgstr "Σφάλμα στην ανάγνωση του αρχείου \"{$a}\""
+
+#: $string['errorsavingrequest']
+msgid "An error occurred when trying to save your request."
+msgstr "Συνέβη κάποιο σφάλμα κατά την αποθήκευση του αιτήματός σας."
+
+#: $string['errorsettinguserpref']
+msgid "Error setting user preference"
+msgstr "Σφάλμα κατά τον ορισμό της προτίμησης χρήστη"
+
+#: $string['errorunzippingfiles']
+msgid "Error unzipping files"
+msgstr "Σφάλμα στην αποσυμπίεση αρχείων"
+
+#: $string['expiredkey']
+msgid "Expired key"
+msgstr "Ληγμένο κλειδί"
+
+#: $string['externalauthpassworderror']
+msgid "Non-empty password for external authentication"
+msgstr ""
+
+#: $string['externalfilenolocation']
+msgid "External file has no location path"
+msgstr ""
+
+#: $string['failtoloadblocks']
+msgid ""
+"One or more blocks are registered in the database, but they all failed to "
+"load!"
+msgstr ""
+"Ένα ή περισσότερα μπλοκ είναι καταγγεγραμμένα στη βάση αλλά κανένα δεν "
+"μπόρεσε να φορτωθεί!"
+
+#: $string['fieldrequired']
+msgid "\"{$a}\" is a required field"
+msgstr "Το \"{$a}\" είναι απαιτούμενο πεδίο"
+
+#: $string['fileexists']
+msgid "File exists"
+msgstr ""
+
+#: $string['filemismatch']
+msgid ""
+"Non-core file name mismatch. The file \"{$a->current}\" should be {$a->file}"
+msgstr ""
+"Αναντιστοιχία ονόματος αρχείου (μη-πυρήνα). Το αρχείο \"{$a->current}\" θα "
+"έπρεπε να είναι {$a->file}"
+
+#: $string['filenotfound']
+msgid "Sorry, the requested file could not be found"
+msgstr "Συγνώμη, το αρχείο που ζητήθηκε δε βρέθηκε"
+
+#: $string['filenotreadable']
+msgid "File is not readable"
+msgstr "Το αρχείο δεν είναι αναγνώσιμο"
+
+#: $string['filterdoesnothavelocalconfig']
+msgid "The filter {$a} does not allow local configuration."
+msgstr ""
+
+#: $string['filternotactive']
+msgid "Filter {$a} is not currently active"
+msgstr "Το φίλτρο {$a} δεν είναι ενεργό αυτήν τη στιγμή"
+
+#: $string['filternotenabled']
+msgid "Filter not enabled!"
+msgstr ""
+
+#: $string['filternotinstalled']
+msgid "Filter {$a} is not currently installed"
+msgstr "Το φίλτρο {$a} δεν είναι εγκατεστημένο αυτήν τη στιγμή"
+
+#: $string['forumblockingtoomanyposts']
+msgid "You have exceeded the posting threshold set for this forum"
+msgstr "Έχετε ξεπεράσει το επιτρεπόμενο κατώφλι αναρτήσεων για αυτό το forum."
+
+#: $string['generalexceptionmessage']
+msgid "Exception - {$a}"
+msgstr "Εξαίρεση - {$a}"
+
+#: $string['gradecantregrade']
+msgid "An error occurred during grade calculation: {$a}"
+msgstr ""
+
+#: $string['gradepubdisable']
+msgid "Grade publishing disabled"
+msgstr "Απενεργοποιήθηκε η ανάρτηση βαθμών"
+
+#: $string['gradesneedregrading']
+msgid "The course grades need to be recalculated"
+msgstr ""
+
+#: $string['groupalready']
+msgid "User already belongs to group {$a}"
+msgstr "Ο χρήστης ήδη ανήκει στην ομάδα {$a}"
+
+#: $string['groupexistforcourse']
+msgid "Group \"{$a}\" already exists for this course"
+msgstr "Η ομάδα \"{$a}\" ήδη υπάρχει γι' αυτό το μάθημα"
+
+#: $string['groupexistforcoursewithidnumber']
+msgid ""
+"{$a->problemgroup}: Group \"{$a->name}\" with an idnumber of \"{$a->idnumber}\" "
+"already exists for this course"
+msgstr ""
+
+#: $string['grouphasidnumber']
+msgid ""
+"Group \"{$a}\" has an idnumber and may have been automatically created by an "
+"external system. You do not have permission to remove this group."
+msgstr ""
+
+#: $string['groupinghasidnumber']
+msgid ""
+"Grouping \"{$a}\" has an idnumber and may have been automatically created by "
+"an external system. You do not have permission to remove this grouping."
+msgstr ""
+
+#: $string['groupingnotaddederror']
+msgid "Grouping \"{$a}\" not added"
+msgstr ""
+
+#: $string['groupnotaddederror']
+msgid "Group \"{$a}\" not added"
+msgstr "Η ομάδα \"{$a}\" δεν προστέθηκε"
+
+#: $string['groupnotaddedtogroupingerror']
+msgid "Group \"{$a->groupname}\" not added to grouping \"{$a->groupingname}\""
+msgstr ""
+
+#: $string['groupunknown']
+msgid "Group {$a} not associated to specified course"
+msgstr "Η ομάδα {$a} δεν σχετίζεται με το συγκεκριμένο μάθημα"
+
+#: $string['groupusernotmember']
+msgid "User is not member of this group."
+msgstr ""
+
+#: $string['guestcantaccessprofiles']
+msgid ""
+"Guests cannot access user profiles. Log in with a full user account to "
+"continue."
+msgstr ""
+
+#: $string['guestnocomment']
+msgid "Guests are not allowed to post comments!"
+msgstr "Οι επισκέπτες δεν επιτρέπεται να ανεβάζουν σχόλια!"
+
+#: $string['guestnoeditprofile']
+msgid "The guest user cannot edit their profile"
+msgstr "Ο επισκέπτης δεν μπορεί να τροποποιήσει το προφίλ του"
+
+#: $string['guestnoeditprofileother']
+msgid "The guest user profile cannot be edited"
+msgstr "Το προφίλ του επισκέπτη δεν μπορεί να τροποποιηθεί"
+
+#: $string['guestnorate']
+msgid "Guests are not allowed to rate entries"
+msgstr "Οι επισκέπτες δεν επιτρέπεται να αξιολογούν καταχωρήσεις"
+
+#: $string['guestsarenotallowed']
+msgid "The guest user is not allowed to do this"
+msgstr "Ο επισκέπτης δεν επιτρέπεται να εκτελέσει αυτήν την ενέργεια"
+
+#: $string['hackdetected']
+msgid "Hack attack detected!"
+msgstr "Ανιχνεύτηκε επίθεση!"
+
+#: $string['hashpoolproblem']
+msgid "Incorrect pool file content {$a}."
+msgstr "Λανθασμένο περιεχόμενο pool αρχείου {$a}."
+
+#: $string['headersent']
+msgid "Headers already sent"
+msgstr "Οι κεφαλίδες έχουν ήδη αποσταλεί"
+
+#: $string['idnumbertaken']
+msgid "This ID number is already in use"
+msgstr "Ο αριθμός ID ήδη χρησιμοποιείται για κάποιο άλλο μάθημα"
+
+#: $string['idnumbertoolong']
+msgid "ID number is too long"
+msgstr ""
+
+#: $string['importformatnotimplement']
+msgctxt "$string['importformatnotimplement']"
+msgid "Sorry, importing this format is not yet implemented!"
+msgstr "Λυπούμαστε, η εισαγωγή αυτού του φορμάτ δεν έχει υλοποιηθεί ακόμη!"
+
+#: $string['incorrectext']
+msgid "File has an incorrect extension"
+msgstr "Το αρχείο έχει λανθασμένη επέκταση"
+
+#: $string['inplaceeditableerror']
+msgid "Error calling update processor"
+msgstr ""
+
+#: $string['installproblem']
+msgid ""
+"It is usually not possible to recover from errors triggered during "
+"installation, you may need to create a new database or use a different "
+"database prefix if you want to retry the installation."
+msgstr ""
+
+#: $string['internalauthpassworderror']
+msgid "Missing password or invalid password policy for internal authentication"
+msgstr ""
+
+#: $string['invalidaccess']
+msgid "This page was not accessed correctly"
+msgstr "Αυτή η σελίδα δεν προσπελάστηκε απευθείας"
+
+#: $string['invalidaccessparameter']
+msgid "Invalid access parameter"
+msgstr "Μη έγκυρη παράμετρος πρόσβασης"
+
+#: $string['invalidaction']
+msgid "Invalid action parameter"
+msgstr "Μη έγκυρη παράμετρος ενέργειας"
+
+#: $string['invalidactivityid']
+msgid "Invalid activity ID"
+msgstr "Μη έγκυρη ID δραστηριότητας"
+
+#: $string['invalidadminsettingname']
+msgid "Invalid admin setting ({$a})"
+msgstr "Μυ έγκυρη ρύθμιση διαχειριστή ({$a})"
+
+#: $string['invalidargorconf']
+msgid "No valid arguments supplied or incorrect server configuration"
+msgstr ""
+"Δεν έχουν δοθεί έγκυρες παράμετροι ή έχει γίνει λανθασμένη ρύθμιση του "
+"διακομιστή"
+
+#: $string['invalidarguments']
+msgid "No valid arguments supplied"
+msgstr "Δεν έχουν δοθεί έγκυρες παράμετροι"
+
+#: $string['invalidblockinstance']
+msgid "Invalid block instance for: {$a}"
+msgstr "Μη έγκυρο στιγμυότυπο μπλοκ για: {$a}"
+
+#: $string['invalidbulkenrolop']
+msgid "Invalid bulk enrolment operation requested."
+msgstr ""
+
+#: $string['invalidcategory']
+msgid "Incorrect category!"
+msgstr "Λανθασμένη κατηγορία!"
+
+#: $string['invalidcategoryid']
+msgid "Incorrect category id!"
+msgstr "Λανθασμένο id κατηγορίας!"
+
+#: $string['invalidcomment']
+msgid "Comment is incorrect"
+msgstr "Το σχόλιο είναι λανθασμένο"
+
+#: $string['invalidcommentarea']
+msgid "Invalid comment area"
+msgstr ""
+
+#: $string['invalidcommentid']
+msgid "Invalid comment id"
+msgstr ""
+
+#: $string['invalidcommentitemid']
+msgid "Invalid comment itemid"
+msgstr ""
+
+#: $string['invalidcommentparam']
+msgid "Invalid comment parameters"
+msgstr ""
+
+#: $string['invalidcomponent']
+msgid "Invalid component name"
+msgstr "Μη έγκυρο όνομα συστατικού"
+
+#: $string['invalidconfirmdata']
+msgid "Invalid confirmation data"
+msgstr "Μη έγκυρα δεδομένα επιβεβαίωσης"
+
+#: $string['invalidcontext']
+msgid "Invalid context"
+msgstr "Μη έγκυρο πλαίσιο"
+
+#: $string['invalidcourse']
+msgid "Invalid course"
+msgstr "Μη έγκυρο μάθημα"
+
+#: $string['invalidcourseformat']
+msgid "Invalid course format"
+msgstr "Μη έγκυρος τύπος μαθήματος"
+
+#: $string['invalidcourseid']
+msgid "You are trying to use an invalid course ID"
+msgstr "Προσπαθείτε να χρησιμοποιήσετε ένα μη έγκυρο ID μαθήματος: ({$a})"
+
+#: $string['invalidcourselevel']
+msgid "Incorrect context level"
+msgstr "Λανθασμένο επίπεδο πλαισίου"
+
+#: $string['invalidcoursemodule']
+msgid "Invalid course module ID"
+msgstr "Μη έγκυρο ID αρθρώματος μαθήματος"
+
+#: $string['invalidcoursenameshort']
+msgid "Invalid short course name"
+msgstr "Μη έγκυρο σύντομο όνομα μαθήματος"
+
+#: $string['invaliddata']
+msgid "Data submitted is invalid"
+msgstr "Τα υποβληθέντα δεδομένα δεν είναι έγκυρα"
+
+#: $string['invaliddatarootpermissions']
+msgid ""
+"Invalid permissions detected when trying to create a directory. Turn "
+"debugging on for further details."
+msgstr ""
+
+#: $string['invaliddevicetype']
+msgid "Invalid device type"
+msgstr ""
+
+#: $string['invalidelementid']
+msgid "Incorrect element id!"
+msgstr "Λανθασμένο id στοιχείου!"
+
+#: $string['invalidentry']
+msgid "This is not valid entry!"
+msgstr "Αυτή δεν είναι μια έγκυρη εγγραφή!"
+
+#: $string['invalidevent']
+msgid "Invalid event"
+msgstr "Μη έγκυρο γεγονός"
+
+#: $string['invalidfieldname']
+msgid "\"{$a}\" is not a valid field name"
+msgstr "\"{$a}\" δεν είναι έγκυρο όνομα πεδίου"
+
+#: $string['invalidfiletype']
+msgid "\"{$a}\" is not a valid file type"
+msgstr "\"{$a}\" δεν είναι έγκυρος τύπος πεδίου"
+
+#: $string['invalidformatpara']
+msgid "Incorrect format for choose parameter"
+msgstr "Λανθασμένο φορμάτ για την επιλεχθείσα παράμετρο"
+
+#: $string['invalidformdata']
+msgid "Incorrect form data"
+msgstr "Λανθασμένα δεδομένα φόρμας"
+
+#: $string['invalidfunction']
+msgid "Incorrect function"
+msgstr "Λανθασμένη λειτουργία"
+
+#: $string['invalidgradeitemid']
+msgid "Incorrect grade item id"
+msgstr "Λανθασμένο id στοιχείου βαθμού"
+
+#: $string['invalidgroupid']
+msgid "Incorrect group id specified"
+msgstr "Έχει οριστεί λανθασμένο id ομάδας"
+
+#: $string['invalidipformat']
+msgid "Invalid IP address format"
+msgstr "Λανθασμένο φορμάτ διεύθυνσης IP"
+
+#: $string['invaliditemid']
+msgid "Incorrect item id"
+msgstr "Λανθασμένο id στοιχείου"
+
+#: $string['invalidkey']
+msgid "Incorrect key"
+msgstr "Λανθασμένο κλειδί"
+
+#: $string['invalidlegacy']
+msgid "Incorrect legacy role definition for type: {$a}"
+msgstr "Λανθασμένος προσδιορισμός κληροδοτημένου ρόλου για τον τύπο: {$a}"
+
+#: $string['invalidmd5']
+msgid "The check variable was wrong - try again"
+msgstr "Μη έγκυρο md5"
+
+#: $string['invalidmode']
+msgid "Invalid mode ({$a})"
+msgstr "Μη έγκυρη μορφή ({$a})"
+
+#: $string['invalidmodule']
+msgid "Invalid module"
+msgstr "Μη έγκυρο άρθρωμα"
+
+#: $string['invalidmoduleid']
+msgid "Invalid module ID: {$a}"
+msgstr "Μη έγκυρο ID αρθρώματος: {$a}"
+
+#: $string['invalidmodulename']
+msgid "Invalid module name: {$a}"
+msgstr "Μη έγκυρο όνομα αρθρώματος: {$a}"
+
+#: $string['invalidnum']
+msgid "Invalid numeric value"
+msgstr "Μη έγκυρη αριθμητική τιμή"
+
+#: $string['invalidnumkey']
+msgid "$conditions array may not contain numeric keys, please fix the code!"
+msgstr ""
+"Ο πίνακας $conditions δεν μπορεί να περιέχει αριθμητικά κλειδιά, παρακαλώ "
+"διορθώστε τον κώδικα!"
+
+#: $string['invalidoutcome']
+msgid "Incorrect outcome id"
+msgstr "Μη έγκυρο id αποτελέσματος"
+
+#: $string['invalidpagesize']
+msgid "Invalid page size"
+msgstr "Μη έγκυρο μέγεθος σελίδας"
+
+#: $string['invalidpasswordpolicy']
+msgid "Invalid password policy"
+msgstr ""
+
+#: $string['invalidpaymentmethod']
+msgid "Invalid payment method: {$a}"
+msgstr "Μυ έγκυρη μορφή πληρωμής: {$a}"
+
+#: $string['invalidqueryparam']
+msgid ""
+"ERROR: Incorrect number of query parameters. Expected {$a->expected}, got "
+"{$a->actual}."
+msgstr ""
+"ΣΦΑΛΜΑ: Λανθασμένο πλήθως παραμέτρων ερωτήματος. Αναμενόταν {$a->expected}, "
+"ελήφθησαν {$a->actual}."
+
+#: $string['invalidratingarea']
+msgid "Invalid rating area"
+msgstr ""
+
+#: $string['invalidrecord']
+msgid "Can not find data record in database table {$a}."
+msgstr ""
+
+#: $string['invalidrecordunknown']
+msgid "Can not find data record in database."
+msgstr ""
+
+#: $string['invalidrequest']
+msgid "Invalid request"
+msgstr "Μη έγκυρο αίτημα"
+
+#: $string['invalidrole']
+msgid "Invalid role"
+msgstr "Μη έγκυρος ρόλος"
+
+#: $string['invalidroleid']
+msgid "Invalid role ID"
+msgstr "Μη έγκυρο ID ρόλου"
+
+#: $string['invalidscaleid']
+msgid "Incorrect scale id"
+msgstr "Μη έγκυρο id κλίμακας"
+
+#: $string['invalidsection']
+msgid "Course module record contains invalid section"
+msgstr "Η έγγραφή του αρθρώματος μαθήματος περιέχει μη έγκυρο τμήμα"
+
+#: $string['invalidsesskey']
+msgid "Your session has most likely timed out. Please log in again."
+msgstr "Υποβλήθηκε λανθασμένο sesskey, η φόρμα δε γίνεται δεκτή!"
+
+#: $string['invalidshortname']
+msgid "That's an invalid short course name"
+msgstr "Μη έγκυρο σύντομο όνομα μαθήματος"
+
+#: $string['invalidsourcefield']
+msgid "Draft file's source field is invalid"
+msgstr ""
+
+#: $string['invalidstatedetected']
+msgid "Something has gone wrong: {$a}. This should never normally happen."
+msgstr ""
+
+#: $string['invalidurl']
+msgid "Invalid URL"
+msgstr "Μη έγκυρο URL"
+
+#: $string['invaliduser']
+msgid "Invalid user"
+msgstr "Μη έγκυρος χρήστης"
+
+#: $string['invaliduserdata']
+msgid "Invalid user data: {$a}"
+msgstr ""
+
+#: $string['invaliduserfield']
+msgid "Invalid user field: {$a}"
+msgstr ""
+
+#: $string['invaliduserid']
+msgid "Invalid user id"
+msgstr "Μη έγκυρο id χρήστη"
+
+#: $string['invalidusername']
+msgid "The given username contains invalid characters"
+msgstr ""
+
+#: $string['invalidxmlfile']
+msgid "\"{$a}\" is not a valid XML file"
+msgstr "Το \"{$a}\" δεν είναι έγκυρο αρχείο XML"
+
+#: $string['iplookupfailed']
+msgid "Cannot find geo information about this IP address {$a}"
+msgstr ""
+"Δεν ήταν δυνατή η εύρεση πληροφοριών geo σχετικά με αυτήν την IP διεύθυνση "
+"{$a}"
+
+#: $string['iplookupprivate']
+msgid "Cannot display lookup of private IP address"
+msgstr "Δεν είναι δυνατή η προβολή της αναζήτησης ιδιωτικής διεύθυνσης IP"
+
+#: $string['ipmismatch']
+msgid "Client IP address mismatch"
+msgstr "Αναντιστοιχία διεύθυνσης IP πελάτη"
+
+#: $string['listcantmovedown']
+msgid "Failed to move item down, as it is the last of it's peers"
+msgstr "Αποτυχία μεταφοράς στοιχείου προς τα κάτω αφού είναι το τελευταίο"
+
+#: $string['listcantmoveleft']
+msgid "Failed to move item left, as it has no parent"
+msgstr "Αποτυχία μεταφορές του στοιχείου στα αριστερά καθώς δεν έχει γονέα"
+
+#: $string['listcantmoveright']
+msgid ""
+"Failed to move item right, as there is no peer to make it a child of. Move "
+"it below another peer and then you can move it right."
+msgstr ""
+"Αποτυχία μεταφοράς του στοιχείου στα δεξιά καθώς δεν υπάρχει ομότιμος από το "
+"οποίο να μπορεί να δημιουργηθεί υποστοιχείο. Μετακινήστε το κάτω από άλλο "
+"ομότιμο κι έπειτα μπορείτε να το μετακινήσετε στα δεξιά."
+
+#: $string['listcantmoveup']
+msgid "Failed to move the item up, as it is the first of it's peers"
+msgstr ""
+"Αποτυχία μεταφοράς του στοιχείου επάνω καθώς είναι το πρώτο των ομότιμών του"
+
+#: $string['listnochildren']
+msgid "No children of item found"
+msgstr "Δε βρέθηκε υποστοιχείο"
+
+#: $string['listnoitem']
+msgid "Item not found"
+msgstr "Δε βρέθηκε το στοιχείο"
+
+#: $string['listnopeers']
+msgid "No peers of item found"
+msgstr "Δε βρέθηκαν οι peers του στοιχείου"
+
+#: $string['listupdatefail']
+msgid "DB operation failed when editing list hierarchy"
+msgstr ""
+"Απέτυχε η λειτουργία της βάσης δεδομένων κατά την επεξεργασία της ιεραρχίας "
+"της λίστας"
+
+#: $string['logfilenotavailable']
+msgid "Logs not available"
+msgstr "Δεν υπάρχουν διαθέσιμα αρχεία καταγραφής"
+
+#: $string['loginasnoenrol']
+msgid "You cannot use enrol or unenrol when in course \"Login as\" session"
+msgstr ""
+"Δεν μπορείτε να χρησιμοποιήσετε τις λειτουργίες εγγραφής ή αποεγγραφής όταν "
+"βρίσκεστε στη σύνοδο μαθήματος \"Είσοδος ως\""
+
+#: $string['loginasonecourse']
+msgid ""
+"You cannot enter this course.<br /> You have to terminate the \"Login as\" "
+"session before entering any other course."
+msgstr ""
+"Δεν μπορείτε να εισέρθετε σε αυτό το μάθημα.<br /> Πρέπει να τερματίσετε τη "
+"σύνοδο \"Είσοδος ως\" πριν να εισέρθετε σε οποιοδήποτε άλλο μάθημα."
+
+#: $string['maxareabytes']
+msgid "The file is larger than the space remaining in this area."
+msgstr ""
+
+#: $string['maxbytes']
+msgid "The file is larger than the maximum size allowed."
+msgstr ""
+
+#: $string['maxbytesfile']
+msgid ""
+"The file {$a->file} is too large. The maximum size you can upload is "
+"{$a->size}."
+msgstr ""
+
+#: $string['messagingdisable']
+msgid "Messaging is disabled on this site"
+msgstr "Η αποστολή μηνυμάτων είναι απενεργοποιημένη σε αυτόν τον ιστοχώρο"
+
+#: $string['mimetexisnotexist']
+msgid ""
+"Your system is not configured to run mimeTeX. You need to download the "
+"appropriate executable for you PHP_OS platform from <a href=\"http://moodle.o"
+"rg/download/mimetex/\">http://moodle.org/download/mimetex/</a>, or obtain the "
+"C source from <a href=\"http://www.forkosh.com/mimetex.zip\"> "
+"http://www.forkosh.com/mimetex.zip</a>, compile it and put the executable "
+"into your moodle/filter/tex/ directory."
+msgstr ""
+"Το σύστημά σας δεν έχει ρυθμιστεί ώστε να τρεχει mimeTeX. Πρέπει να "
+"κατεβάσετε το κατάλληλο εκτελέσιμο για την πλατφόρμα PHP σας από το <a href="
+"\"http://moodle.org/download/mimetex/\">http://moodle.org/download/mimetex/</a"
+">, ή να αποκτήσετε τον πηγαίο κώδικα C από το <a "
+"href=\"http://www.forkosh.com/mimetex.zip\"> "
+"http://www.forkosh.com/mimetex.zip</a>, να το κάνετε compile και να "
+"τοποθετήσετε το εκτελέσιμο στον κατάλογο moodle/filter/tex/."
+
+#: $string['mimetexnotexecutable']
+msgid "Custom mimetex is not executable!"
+msgstr "Το παραμετροποιημένο mimetex δεν είναι εκτελέσιμο!"
+
+#: $string['missingfield']
+msgid "Field \"{$a}\" is missing"
+msgstr "Το πεδίο \"{$a}\" λείπει"
+
+#: $string['missingkeyinsql']
+msgid "ERROR: missing param \"{$a}\" in query"
+msgstr "ΣΦΑΛΜΑ: λείπει η παράμετρος \"{$a}\" στο ερώτημά σας"
+
+#: $string['missing_moodle_backup_xml_file']
+msgid "Backup is missing XML file: {$a}"
+msgstr ""
+
+#: $string['missingparam']
+msgid "A required parameter ({$a}) was missing"
+msgstr "Η απαιτούμενη παράμετρος ({$a}) λείπει"
+
+#: $string['missingparameter']
+msgid "Parameter missing"
+msgstr "Κάποια απαιτούμενη παράμετρος λείπει"
+
+#: $string['missingrequiredfield']
+msgid "Some required field is missing"
+msgstr "Κάποιο απαιτούμενο πεδίο λείπει"
+
+#: $string['missinguseranditemid']
+msgid "Missing userid and itemid"
+msgstr "Λείπει το userid και το itemid"
+
+#: $string['missingvarname']
+msgid "Required variable name is missing!"
+msgstr "Λείπει το απαιτούμενο όνομα μεταβλητής!"
+
+#: $string['mixedtypesqlparam']
+msgid "ERROR: Mixed types of sql query parameters!!"
+msgstr "ΣΦΑΛΜΑ: Μπερδεμένοι τύποι παραμέτρων του ερωτήματος sql!!"
+
+#: $string['mnetdisable']
+msgid "MNET is disabled"
+msgstr "Το MNET είναι απενεργοποιημένο"
+
+#: $string['mnetlocal']
+msgid "Remote MNET users cannot log in locally"
+msgstr "Οι απομακρυσμένοι χρήστες MNET δεν μπορούν να εισέρθουν τοπικά"
+
+#: $string['moduledisable']
+msgid "This module ({$a}) has been disabled for this particular course"
+msgstr ""
+"Αυτό το άρθρωμα ({$a}) έχει απενεργοποιηθεί γι' αυτό το συγκεκριμένο μάθημα"
+
+#: $string['moduledoesnotexist']
+msgid "This module does not exist"
+msgstr "Το άρθρωμα αυτό δεν υπάρχει"
+
+#: $string['moduleinstancedoesnotexist']
+msgid "The instance of this module does not exist"
+msgstr "Το στιγμυότυπο αυτού του αρθρώματος δεν υπάρχει"
+
+#: $string['modulemissingcode']
+msgid "Module {$a} is missing the code needed to perform this function"
+msgstr ""
+"Λείπει απαιτούμενος κώδικας στο άρθρωμα {$a} για την εκτέλεση αυτής της "
+"λειτουργίας"
+
+#: $string['movecatcontentstoroot']
+msgid ""
+"Moving the category content to root is not allowed. You must move the "
+"contents to an existing category!"
+msgstr ""
+
+#: $string['movecategorynotpossible']
+msgid "You cannot move category '{$a}' into the selected category."
+msgstr ""
+
+#: $string['movecategoryownparent']
+msgid "You cannot make category '{$a}' a parent of itself."
+msgstr ""
+
+#: $string['movecategoryparentconflict']
+msgid ""
+"You cannot make category '{$a}' a subcategory of one of its own "
+"subcategories."
+msgstr ""
+
+#: $string['mssqlrcsmodemissing']
+msgid ""
+"The database is not using the expected READ_COMMITTED_SNAPSHOT mode which "
+"can lead to wrong results, especially under high concurrency scenarios. "
+"Please enable it for correct behaviour. For further information, see the "
+"documentation <a "
+"href=\"https://docs.moodle.org/en/Installing_MSSQL_for_PHP\">Installing MSSQL "
+"for PHP</a>."
+msgstr ""
+
+#: $string['multiplerecordsfound']
+msgid "Multiple records found, only one record expected."
+msgstr ""
+
+#: $string['multiplerestorenotallow']
+msgid "Multiple restore execution not allowed!"
+msgstr "Δεν επιτρέπεται η εκτέλεση πολλαπλών λειτουργιών επαναφοράς!"
+
+#: $string['mustbeloggedin']
+msgid "You must be logged in to do this"
+msgstr "Πρέπει να έχετε εισέλθειστο σύστημα για να το κάνετε αυτό"
+
+#: $string['mustbeteacher']
+msgid "You must be a teacher to look at this page"
+msgstr "Πρέπει να είστε καθηγητής για να δείτε αυτήν τη σελίδα"
+
+#: $string['myisamproblem']
+msgid ""
+"Database tables are using MyISAM database engine, it is recommended to use "
+"ACID compliant engine with full transaction support such as InnoDB."
+msgstr ""
+
+#: $string['needcopy']
+msgid "You need to copy something first!"
+msgstr "Πρέπει να αντιγράψετε κάτι πρώτα!"
+
+#: $string['needcoursecategroyid']
+msgid "Either course id or category must be specified"
+msgstr "Είτε το id μαθήματος ή η κατηγορία πρέπει να έχει οριστεί"
+
+#: $string['needphpext']
+msgid "You need to add {$a} support to your PHP installation"
+msgstr "Πρέπει να προσθέσετε υποστήριξη {$a} στην εγκατάσταση PHP σας"
+
+#: $string['noadmins']
+msgid "No administrators!"
+msgstr "Χωρίς διαχειριστές!"
+
+#: $string['noblocks']
+msgid "No blocks found!"
+msgstr "Δε βρέθηκαν μπλοκ!"
+
+#: $string['nocapabilitytousethisservice']
+msgid "The user hasn't the required capability to use this service"
+msgstr ""
+
+#: $string['nocategorydelete']
+msgid "Category '{$a}' cannot be deleted!"
+msgstr "Η κατηγορία '{$a}' δεν μπορεί να διαγραφεί!"
+
+#: $string['nocontext']
+msgid "Sorry, but that course is not a valid context"
+msgstr "Συγνώμη, αλλά αυτό το μάθημα δεν αποτελεί έγκυρο πλαίσιο"
+
+#: $string['nodata']
+msgid "No data"
+msgstr "Δεν υπάρχουν δεδομένα"
+
+#: $string['noexistingcategory']
+msgid "No existing category"
+msgstr "Δεν υπάρχει κατηγορία"
+
+#: $string['nofile']
+msgid "File not specified"
+msgstr "Δεν έχει οριστεί αρχείο"
+
+#: $string['nofiltersenabled']
+msgid "No filters are enabled."
+msgstr ""
+
+#: $string['nofolder']
+msgid "Requested directory does not exist"
+msgstr "Ο συγκεκριμένος κατάλογος δεν υπάρχει"
+
+#: $string['noformdesc']
+msgid "No formslib form description file found for this activity."
+msgstr "Δε βρέθηκε προσδιορισμός φόρμας formslib γι' αυτήν τη δρστηριότητα."
+
+#: $string['noguest']
+msgid "No guests here!"
+msgstr "Δεν υπάρχουν επισκέπτες εδώ!"
+
+#: $string['noinstances']
+msgid "There are no instances of {$a} in this course!"
+msgstr "Δεν υπάρχουν στιγμιότυπα του {$a} σε αυτό το μάθημα!"
+
+#: $string['nologinas']
+msgid "You are not allowed to log in as that user"
+msgstr "Δεν μπορείτε να εισέλθετε ως ο συγκεκριμένος χρήστης"
+
+#: $string['nonmeaningfulcontent']
+msgid "Non meaningful content"
+msgstr "Περιεχόμενο δίχως σημασία"
+
+#: $string['noparticipants']
+msgid "No participants found for this course"
+msgstr "Δε βρέθηκαν συμμετέχονες γι' αυτό το μάθημα"
+
+#: $string['noparticipatorycms']
+msgid "Sorry, but you have no participatory course modules to report on"
+msgstr ""
+"Συγνώμη, αλλά δεν έχετε αρθρώματα συμμετοχικού μαθήματος για να αναφέρετε."
+
+#: $string['nopermissions']
+msgid "Sorry, but you do not currently have permissions to do that ({$a})"
+msgstr ""
+"Συγνώμη, αλλά επί του τρεχόντως δεν έχετε το δικαίωμα να το κάνετε αυτό "
+"({$a})"
+
+#: $string['nopermissiontocomment']
+msgid "You can't add comments"
+msgstr "Δεν μπορείτε να προσθέσετε σχόλια σε αυτό το γλωσσάρι!"
+
+#: $string['nopermissiontodelentry']
+msgid "You can't delete other people's entries!"
+msgstr "Δεν μπορείτε να διαγράψετε τις καταχωρήσεις άλλων!"
+
+#: $string['nopermissiontoeditcomment']
+msgid "You can't edit other people's comments!"
+msgstr "Δεν μπορείτε να επεξεργαστείτε τις καταχωρήσεις άλλων!"
+
+#: $string['nopermissiontohide']
+msgid "No permission to hide!"
+msgstr "Δεν έχετε το δικαίωμα να κρύψετε το συγκεκριμένο στοιχείο!"
+
+#: $string['nopermissiontoimportact']
+msgid ""
+"You do not have the required permissions to import activities to this course"
+msgstr ""
+"Δεν έχετε τα απαιτούμενα δικαιώματα για να εισαγάγετε δραστηριότητες σε αυτό "
+"το μάθημα"
+
+#: $string['nopermissiontolock']
+msgid "No permission to lock!"
+msgstr "Δεν έχετε το δικαίωμα να κλειδώσετε το συγκεκριμένο στοιχείο"
+
+#: $string['nopermissiontomanagegroup']
+msgid "You do not have the required permissions to manage groups"
+msgstr "Δεν έχετε τα απαιτούμενα δικαιώματα για να διαχειριστείτε ομάδες"
+
+#: $string['nopermissiontorate']
+msgid "Rating of items not allowed!"
+msgstr "Δεν επιτρέπεται η αξιολόγηση στοιχείων!"
+
+#: $string['nopermissiontoshow']
+msgid "No permission to see this!"
+msgstr "Δεν έχετε το δικαίωμα να το προβάλετε αυτό!"
+
+#: $string['nopermissiontounlock']
+msgid "No permission to unlock!"
+msgstr "Δεν έχετε το δικαίωμα να ξεκλειδώσετε το συγκεκριμένο στοιχείο!"
+
+#: $string['nopermissiontoupdatecalendar']
+msgid ""
+"Sorry, but you do not currently have permissions to update calendar event"
+msgstr ""
+
+#: $string['nopermissiontoviewgrades']
+msgid "Can not view grades."
+msgstr "Δεν έχετε δικαίωμα να δείτε τους βαθμούς."
+
+#: $string['nopermissiontoviewletergrade']
+msgid "Missing permission to view letter grades"
+msgstr "Λείπει το δικαίωμα επισκόπησης των βαθμών"
+
+#: $string['nopermissiontoviewpage']
+msgid "You are not allowed to look at this page"
+msgstr "Δεν επιτρέπετε να δείτε αυτήν τη σελίδα"
+
+#: $string['nosite']
+msgid "Could not find a top-level course!"
+msgstr "Δεν ήταν δυνατή η εύρεση μαθήματος αρχικού επιπέδου!"
+
+#: $string['nositeid']
+msgid "No site ID"
+msgstr "Δεν υπάρχει ID ιστοχώρου"
+
+#: $string['nostartdatenoenddate']
+msgid "A course end date can only be set if a start date is also set."
+msgstr ""
+
+#: $string['nostatstodisplay']
+msgid "Sorry, there is no available data to display"
+msgstr "Λυπούμαστε, δεν υπάρχουν διαθέσιμα δεδομένα για προβολή"
+
+#: $string['notallowedtoupdateprefremotely']
+msgid "You are not allowed to update this user preference remotely"
+msgstr ""
+"Δεν έχετε το δικαίωμα να επεξεραστείτε αυτήν την προτίμηση χρήστη "
+"απομακρυσμένα"
+
+#: $string['notavailable']
+msgid "That is not currently available"
+msgstr "Αυτό δεν είναι προσωρινά διαθέσιμο"
+
+#: $string['notlocalisederrormessage']
+msgid "{$a}"
+msgstr "{$a}"
+
+#: $string['notmemberofgroup']
+msgid "You are not a member of this course group"
+msgstr "Δεν είστε μέλος αυτής της ομάδας μαθήματος"
+
+#: $string['notownerofkey']
+msgid "You are not owner of this key"
+msgstr "Δεν είστε ο ιδιοκτήτης αυτού του κλειδιού"
+
+#: $string['nousers']
+msgid "No such user!"
+msgstr "Δεν υπάρχει τέτοιος χρήστης!"
+
+#: $string['oauth1accesstoken']
+msgid "OAuth 1.0 error: We did not obtain the access token."
+msgstr ""
+
+#: $string['oauth1requesttoken']
+msgid ""
+"OAuth 1.0 error: We did not obtain the request token - the service provider "
+"may be temporarily down."
+msgstr ""
+
+#: $string['onlyadmins']
+msgid "Only administrators can do that"
+msgstr "Μόνον οι διαχειριστές μπορούν να το κάνουν αυτό."
+
+#: $string['onlyeditingteachers']
+msgid "Only editing teachers can do that"
+msgstr "Μόνον οι καθηγητές με δικαίωμα επεξεργασίας μπορούν να το κάνουν αυτό."
+
+#: $string['onlyeditown']
+msgid "You can only edit your own information"
+msgstr "Μόνον τις δικές σας πληροφορίες μπορείτε να επεξεργαστείτε"
+
+#: $string['orderidnotfound']
+msgid "Order ID {$a} not found"
+msgstr "Δε βρέθηκε το ID σειράς {$a}"
+
+#: $string['pagenotexist']
+msgid "An unusual error occurred (tried to reach a page that does not exist)"
+msgstr "Συνέβη ένα σφάλμα (προσπάθεια πρόσβασης σε σελίδα που δεν υπάρχει)."
+
+#: $string['pathdoesnotstartslash']
+msgid "No valid arguments supplied, path does not start with slash!"
+msgstr ""
+"Δεν έχετε παράσχει έγυρες παραμέτρους, η διαδρομή δεν αρχίζει με κάθετο!"
+
+#: $string['pleasereport']
+msgid ""
+"If you have time, please let us know what you were trying to do when the "
+"error occurred:"
+msgstr ""
+"Εάν έχετε χρόνο, παρακαλώ ενημερώστε μας τι κάνατε όταν εμφανίστηκε το "
+"σφάλμα:"
+
+#: $string['pluginrequirementsnotmet']
+msgid ""
+"Plugin \"{$a->pluginname}\" ({$a->pluginversion}) could not be installed.  It "
+"requires a newer version of Moodle (currently you are using "
+"{$a->currentmoodle}, you need {$a->requiremoodle})."
+msgstr ""
+"Δεν εγκαταστάθηκε η υπομονάδα λογισμικού \"{$a->pluginname}\" "
+"({$a->pluginversion}). Απαιτεί πιο νέα έκδοση του Moodle (αυτή τη στιγμή "
+"χρησιμοποιείτε {$a->currentmoodle}, χρειάζεστε {$a->requiremoodle})."
+
+#: $string['prefixcannotbeempty']
+msgid ""
+"<p>Error: database table prefix cannot be empty ({$a})</p>\n"
+"<p>The site administrator must fix this problem.</p>"
+msgstr ""
+"<p>Σφάλμα: το πρόθεμα της βάσης δεν μπορεί να είναι κενή ({$a})</p>\n"
+"<p>Ο διαχειριστής του ιστοχώρου θα πρέπει να διορθώσει αυτό το πρόβλημα.</p>"
+
+#: $string['prefixtoolong']
+msgid ""
+"<p>Error: database table prefix is too long ({$a->dbfamily})</p>\n"
+"<p>The site administrator must fix this problem. Maximum length for table "
+"prefixes in {$a->dbfamily} is {$a->maxlength} characters.</p>"
+msgstr ""
+"<p>Σφάλμα: το πρόθεμα της βάσης είναι πολύ μεγάλη ({$a->dbfamily})</p>\n"
+"<p>Ο διαχειριστής του ιστοχώρου θα πρέπει να διορθώσει αυτό το πρόβλημα. Το "
+"μέγιστο μήκος για το πρόθεμα των πινάκων στο {$a->dbfamily} είναι "
+"{$a->maxlength} χαρακτήρες.</p>"
+
+#: $string['privatefilesupload']
+msgid ""
+"Uploading directly to user private files area is no longer supported. Upload "
+"to a draft area and then move the files with "
+"core_user::add_user_private_files"
+msgstr ""
+
+#: $string['processingstops']
+msgid "Processing stops here. Remaining records ignored."
+msgstr "Η επεξεργασία σταματά εδώ. Τα εναπομείναντα αρχεία αγνοούνται."
+
+#: $string['protected_cc_not_supported']
+msgid "Protected cartridges not supported."
+msgstr ""
+
+#: $string['querystringcannotbeempty']
+msgid "The query string cannot be empty."
+msgstr ""
+
+#: $string['redirecterrordetected']
+msgid "Unsupported redirect detected, script execution terminated"
+msgstr ""
+
+#: $string['refoundto']
+msgid "Can be refunded to {$a}"
+msgstr "Μπορεί να σας επιστραφεί το ποσό {$a}"
+
+#: $string['refoundtoorigi']
+msgid "Refunded to original amount: {$a}"
+msgstr "Έγινε επιστροφή στο αρχικό ποσό: {$a}"
+
+#: $string['registrationdisabled']
+msgid "Registration is disabled on this site"
+msgstr ""
+
+#: $string['remotedownloaderror']
+msgid ""
+"<p>The download of the component to your server failed. Please verify proxy "
+"settings; the PHP cURL extension is highly recommended.</p>\n"
+"<p>You must download the <a href=\"{$a->url}\">{$a->url}</a> file manually, "
+"copy it to \"{$a->dest}\" in your server and unzip it there.</p>"
+msgstr ""
+"Απέτυχε η λήψη του τμήματος στο διακομιστή σας, παρακαλώ επιβεβαιώστε τις "
+"ρυθμίσεις του διακομιστή proxy, η επέκταση PHP cURL συνιστάται θερμά.<br "
+"/><br />Πρέπει να κατεβάσετε το <a href=\"{$a->url}\">{$a->url}</a> "
+"χειροκίνητα, να το αντιγράψετε στο \"{$a->dest}\" στο διακομιστή σας και να το "
+"αποσυμπιέσετε εκεί."
+
+#: $string['remotedownloadnotallowed']
+msgid ""
+"Download of components to your server isn't allowed (allow_url_fopen is "
+"disabled).<br /><br />You must download the <a "
+"href=\"{$a->url}\">{$a->url}</a> file manually, copy it to \"{$a->dest}\" in "
+"your server and unzip it there."
+msgstr ""
+"Το κατέβασμα τμημάτων στο διακομιστή δεν επιτρέπεται (το allow_url_fopen "
+"είναι απενεργοποιημένο).<br /><br />Πρέπει να κατεβάσετε το <a "
+"href=\"{$a->url}\">{$a->url}</a> αρχείο χειροκίνητα, αντιγράψτε το στο "
+"\"{$a->dest}\" στο διακομιστή σας και αποσυμπιέστε το εκεί."
+
+#: $string['reportnotavailable']
+msgid "This type of report is only available for the site course"
+msgstr "Αυτός ο τύπος αναφοράς είναι διαθέσιμος μόνο για το μάθημα ιστοχώρου"
+
+#: $string['requirecorrectaccess']
+msgid "Invalid url or port."
+msgstr ""
+
+#: $string['requireloginerror']
+msgid "Course or activity not accessible."
+msgstr ""
+
+#: $string['restorechecksumfailed']
+msgid ""
+"Some problem happened with the restore information stored in your session. "
+"Please check your PHP memory/DB package size limits. Restore stopped."
+msgstr ""
+
+#: $string['restore_path_element_missingmethod']
+msgid "Restore method {$a} is missing. It must be defined by a developer."
+msgstr ""
+
+#: $string['restore_path_element_noobject']
+msgid "Restore object {$a} is not an object."
+msgstr ""
+
+#: $string['restrictedcontextexception']
+msgid "Sorry, execution of external function violates context restriction."
+msgstr ""
+
+#: $string['restricteduser']
+msgid "Sorry, but your current account \"{$a}\" is restricted from doing that"
+msgstr ""
+"Συγνώμη, αλλά ο τρέχων λογαριασμός σας \"{$a}\" δεν επιτρέπεται να το κάνει "
+"αυτό."
+
+#: $string['reverseproxyabused']
+msgid ""
+"Reverse proxy enabled, server can not be accessed directly, sorry.<br "
+"/>Please contact server administrator."
+msgstr ""
+"Έχει ενεργοποιηθεί ο Reverse proxy, ο διακομιστής σας τώρα δεν είναι "
+"προσβάσιμος απευθείας, λυπούμαστε γι' αυτό.<br />Παρακαλώ επικοινωνήστε με "
+"το διαχειριστή του διακομιστή σας."
+
+#: $string['rpcerror']
+msgid ""
+"Ooops! Your MNET communication has failed! Here's that error message to pass "
+"on to your administrator: {$a}"
+msgstr "RPC enrol/mnet/available_courses: ({$a})"
+
+#: $string['scheduledbackupsdisabled']
+msgid "Scheduled backups have been disabled by the server admin"
+msgstr ""
+"Η λήψη προγραμματισμένων αντιγράφων ασφαλείας έχει απενεργοποιηθεί από το "
+"διαχειριστή του διακομιστή"
+
+#: $string['secretalreadyused']
+msgid ""
+"Change password confirmation link was already used, password was not changed"
+msgstr ""
+"Ο σύνδεσμος αλλαγής συνθηματικού έχει ήδη χρησιμοποιηθεί, το συνθηματικό δεν "
+"έχει αλλάξει"
+
+#: $string['sectionnotexist']
+msgid "This section does not exist"
+msgstr "Αυτό το τμήμα δεν υπάρχει"
+
+#: $string['sendmessage']
+msgid "Send message"
+msgstr "Αποστολή μηνύματος"
+
+#: $string['serverconnection']
+msgid "Error connecting to the server"
+msgstr ""
+
+#: $string['servicedonotexist']
+msgid "The service does not exist"
+msgstr ""
+
+#: $string['sessioncookiesdisable']
+msgid ""
+"Incorrect use of require_key_login() - session cookies must be disabled!"
+msgstr ""
+"Λανθασμένη χρήση του require_key_login() - τα cookies συνόδου πρέπει να "
+"είναι απενεργοποιημένα!"
+
+#: $string['sessiondiskfull']
+msgid ""
+"The session partition is full. It is not possible to log in at this time. "
+"Please notify the server administrator."
+msgstr ""
+
+#: $string['sessionerroruser']
+msgid "Your session has timed out. Please log in again."
+msgstr "Η συνδεσή σας έμεινε ανενεργή για πολύ χρόνο. Παρακαλώ συνδεθείτε ξανά."
+
+#: $string['sessionerroruser2']
+msgid ""
+"A server error that affects your login session was detected. Please log in "
+"again or restart your browser."
+msgstr ""
+"Ανιχνεύθηκε ένα σφάλμα στο διακομιστή το οποίο επηρεάζει τη συνεδρία εισόδου "
+"σας. Παρακαλώ εισέλθετε ξανά ή επανεκκινήστε τον περιηγητή σας."
+
+#: $string['sessionhandlerproblem']
+msgid "Session handler is misconfigured"
+msgstr ""
+
+#: $string['sessionipnomatch']
+msgid ""
+"Sorry, but your IP number seems to have changed from when you first logged "
+"in.  This security feature prevents crackers stealing your identity while "
+"logged in to this site.  Normal users should not be seeing this message - "
+"please ask the site administrator for help."
+msgstr ""
+"Λυπούμαστε αλλά το IP σας φαίνεται να έχει αλλάξει από την τελευταία φορά "
+"που εισήλθατε. Αυτό το χαρακτηριστικό ασφαλείας εμποδίζει crackers από το να "
+"κλέψουν την ταυτότητά σας ενώ είστε συνδεδεμένοι στον ιστοχώρο. Οι "
+"κανονικοί χρήστες δε πρέπει να βλέπουν αυτό το μήνυμα - ζητήστε βοήθεια από "
+"το διαχειριστή του συστήματος."
+
+#: $string['sessionipnomatch2']
+msgid ""
+"<p>Sorry, but your IP number seems to have changed from when you first "
+"logged in. This security feature prevents crackers stealing your identity "
+"while logged in to this site. You may see this error if you use wireless "
+"networks or if you are roaming between different networks. Please ask the "
+"site administrator for more help.</p>\n"
+"<p>If you want to continue please press F5 key to refresh this page.</p>"
+msgstr ""
+"Λυπούμαστε αλλά το IP σας φαίνεται να έχει αλλάξει από την πρώτη φορά που "
+"εισήλθατε. Αυτό το χαρακτηριστικό ασφαλείας εμποδίζει crackers από το να "
+"κλέψουν την ταυτότητά σας ενώ είστε συνδεδεμένοι στον ιστοχώρο. Μπορεί να "
+"δείτε αυτό το σφάλμα εάν χρησιμοποιείτε ασύρματο δίκτυο ή εάν μετακινείστε "
+"μεταξύ διαφορετικών δικτύων. Παρακαλώ επικοινωνήστε με το διαχειριστή του "
+"ιστοχώρου σας για περισσότερη βοήθεια.<br /><br />Εάν επιθυμείτε να "
+"συνεχίσετε παρακαλώ πιέστε το πλήκτρο F5 για να ανανεώσετε αυτήν τη σελίδα."
+
+#: $string['sessionwaiterr']
+msgid ""
+"Timed out while waiting for session lock.<br />Wait for your current "
+"requests to finish and try again later."
+msgstr ""
+
+#: $string['shortnametaken']
+msgid "Short name is already used for another course ({$a})"
+msgstr "Το σύντομο όνομα ήδη χρησιμοποιείται από άλλο μάθημα"
+
+#: $string['sitepolicynotagreed']
+msgid ""
+"Site policy not agreed: <a href=\"{$a}\">Click here to open the site "
+"policy.</a>"
+msgstr ""
+
+#: $string['socksnotsupported']
+msgid "SOCKS5 proxy is not supported in PHP4"
+msgstr "Ο SOCKS5 proxy δεν υποστηρίζεται στην PHP4"
+
+#: $string['spellcheckernotconf']
+msgid "Spellchecker not configured"
+msgstr "Ο spellchecker δεν έχει ρυθμιστεί"
+
+#: $string['sslonlyaccess']
+msgid "For security reasons only https connections are allowed, sorry."
+msgstr "Για λόγους ασφαλείας επιτρέπονται μόνο συνδέσεις https, λυπούμαστε."
+
+#: $string['statscatchupmode']
+msgid ""
+"Statistics is currently in catchup mode. So far {$a->daysdone} day(s) have "
+"been processed and {$a->dayspending} are pending. Check back soon!"
+msgstr ""
+"Τα στατιστικά είναι σε φάση πρόφθασης. Μέχρι τώρα έχει γίνει επεξεργασία "
+"{$a->daysdone} ημερών και εκκρεμούν {$a->dayspending}. Ελέγξτε ξανά σύντομα!"
+
+#: $string['statsdisable']
+msgid "Statistics are not enabled."
+msgstr "Τα στατιστικά δεν είναι ενεργοποιημένα"
+
+#: $string['statsnodata']
+msgid ""
+"There is no available data for that combination of course and time period"
+msgstr ""
+"Δεν υπάρχουν διαθέσιμα δεδομένα γι' αυτόν το συνδυασμό μαθημάτων και "
+"χρονικών περιόδων"
+
+#: $string['storedfilecannotcreatefile']
+msgid ""
+"Can not create local file pool file, please verify permissions in dataroot "
+"and available disk space."
+msgstr ""
+
+#: $string['storedfilecannotcreatefiledirs']
+msgid ""
+"Can not create local file pool directories, please verify permissions in "
+"dataroot."
+msgstr ""
+"Δεν είναι δυνατή η δημιουργία τοπικών pool καταλόγων αρχείων, παρακαλώ "
+"ελέγξτε τα δικαιώματα στο dataroot."
+
+#: $string['storedfilecannotread']
+msgid ""
+"Cannot read file. Either the file does not exist or there is a permission "
+"problem."
+msgstr ""
+"Δεν είναι δυνατή η ανάγνωση του αρχείου, είτε το αρχείο δεν υπάρχει ή "
+"υπάρχουν προβλήματα δικαιωμάτων"
+
+#: $string['storedfilecannotreadfile']
+msgid ""
+"Cannot read file '{$a}'. Either the file does not exist or there is a "
+"permission problem."
+msgstr ""
+
+#: $string['storedfilenotcreated']
+msgid ""
+"Can not create file \"{$a->contextid}/{$a->component}/{$a->filearea}/{$a->ite"
+"mid}{$a->filepath}{$a->filename}\""
+msgstr ""
+"Δεν είναι δυνατή η δημιουργία του αρχείου "
+"\"{$a->contextid}/{$a->filearea}/{$a->itemid}{$a->filepath}{$a->filename}\""
+
+#: $string['storedfileproblem']
+msgid "Unknown exception related to local files ({$a})"
+msgstr "Άγνωστη εξαίρεση σχετική με τοπικά αρχεία ({$a})"
+
+#: $string['tagdisabled']
+msgid "Tags are disabled!"
+msgstr "Οι ετικέτες είναι απενεργοποιημένες!"
+
+#: $string['tagnotfound']
+msgid "The specified tag was not found in the database"
+msgstr "Η συγκεκριμένη ετικέτα δε βρέθηκε στη βάση"
+
+#: $string['targetdatabasenotempty']
+msgid "The target database is not empty. Transfer aborted for safety reasons."
+msgstr ""
+"Η βάση-στόχος δεν είναι άδεια. Η μεταφορά εγκαταλείφθηκε για λόγους "
+"ασφαλείας."
+
+#: $string['textconditionsnotallowed']
+msgid ""
+"Comparisons of text column conditions are not allowed. Please use "
+"sql_compare_text() in your query."
+msgstr ""
+
+#: $string['themenotinstall']
+msgid "This theme is not installed!"
+msgstr "Αυτό το θέμα δεν είναι εγκατεστημένο!"
+
+#: $string['TODO']
+msgid "TODO"
+msgstr "TODO"
+
+#: $string['tokengenerationfailed']
+msgid "Cannot generate a new token."
+msgstr ""
+
+#: $string['transactionvoid']
+msgid "Transaction cannot be voided because it has already been voided"
+msgstr "Η συναλλαγή δεν μπορεί να ακυρωθεί επειδή έχει ακυρωθεί ήδη"
+
+#: $string['unenrolerror']
+msgid "An error occurred while trying to unenrol that person"
+msgstr ""
+"Συνέβη κάποιο σφάλμα κατά την προσπάθεια διαγραφής του συγκεκριμένου ατόμου"
+
+#: $string['unicodeupgradeerror']
+msgid ""
+"Sorry, but your database is not already in Unicode, and this version of "
+"Moodle is not able to migrate your database to Unicode.  Please upgrade to "
+"Moodle 1.7.x first and perform the Unicode migration from the Admin page.  "
+"After that is done you should be able to migrate to Moodle {$a}"
+msgstr ""
+"Λυπούμεστα αλλά η βάση δεδομένων σας είναι ήδη σε Unicode κι αυτή η έκδοση "
+"του Moodle δεν μπορεί να μεταφέρει τη βάση σε Unicode. Παρακαλώ πρώτα "
+"αναβαθμίστε σε Moodle 1.7.x κι εκτελέστε τη μεταφορά Unicode από τη σελίδα "
+"του διαχειριστή. Αφού έχει γίνει αυτό θα πρέπει να μπορείτε να μεταφερθείτε "
+"σε Moodle {$a}"
+
+#: $string['unknowaction']
+msgid "Unknown action!"
+msgstr "Άγνωστη ενέργεια!"
+
+#: $string['unknowcategory']
+msgid "Category not known!"
+msgstr "Άγνωστη κατηγορία!"
+
+#: $string['unknowcontext']
+msgid "This is an unknown context ({$a}) in get_child_contexts!"
+msgstr "Άγνωστο πλαίσιο ({$a}) στο get_child_contexts!"
+
+#: $string['unknowformat']
+msgid "Format not known ({$a})"
+msgstr "Άγνωστο φορμάτ ({$a})"
+
+#: $string['unknownbackupexporterror']
+msgid "Unknown error preparing information for import"
+msgstr ""
+
+#: $string['unknownblockregion']
+msgid "The block region '{$a}' is not recognised on this page."
+msgstr ""
+
+#: $string['unknowncontext']
+msgid "This is an unknown context."
+msgstr "Άγνωστο πλαίσιο."
+
+#: $string['unknowncourse']
+msgid "Unknown course named \"{$a}\""
+msgstr "Άγνωστο μάθημα με όνομα  \"{$a}\""
+
+#: $string['unknowncourseidnumber']
+msgid "Unknown course ID \"{$a}\""
+msgstr "Άγνωστο ID μαθήματος \"{$a}\""
+
+#: $string['unknowncourserequest']
+msgid "Unknown course request"
+msgstr "Άγνωστο αίτημα μαθήματος"
+
+#: $string['unknowncoursesection']
+msgid "Unknown course section in course \"{$a}\""
+msgstr ""
+
+#: $string['unknownevent']
+msgid "Unknown event"
+msgstr ""
+
+#: $string['unknownfiletype']
+msgid "Error unknown filtertype"
+msgstr "Σφάλμα: άγνωστο filtertype"
+
+#: $string['unknowngroup']
+msgid "Unknown group \"{$a}\""
+msgstr "Άγνωστη ομάδα \"{$a}\""
+
+#: $string['unknownhelp']
+msgid "Unknown help topic {$a}"
+msgstr "Άγνωστο θέμα βοήθειας {$a}"
+
+#: $string['unknownjsinrequirejs']
+msgid "Can not find JS library: {$a}"
+msgstr ""
+
+#: $string['unknownmodulename']
+msgid "Unknown module name for form"
+msgstr "Άγνωστο όνομα αρθρώματος για τη φόρμα"
+
+#: $string['unknownrole']
+msgid "Unknown role \"{$a}\""
+msgstr "Άγνωστος ρόλος \"{$a}\""
+
+#: $string['unknownsortcolumn']
+msgid "Unknown sort column {$a}"
+msgstr "Άγνωστη στήλη ταξινόμησης {$a}"
+
+#: $string['unknownuseraction']
+msgid "Sorry, I do not understand this user action"
+msgstr "Λυπούμαστε αλλά αυτή η ενέργεια χρήστη δεν είναι κατανοητή."
+
+#: $string['unknownuserselector']
+msgid "Unknown user selector"
+msgstr "Άγνωστος επιλογέας χρήστη"
+
+#: $string['unknoworder']
+msgid "Unknown ordering"
+msgstr "Άγνωστη ταξινόμηση"
+
+#: $string['unknowparamtype']
+msgid "Unknown parameter type: {$a}"
+msgstr "Άγνωστος τύπος παραμέτρου: {$a}"
+
+#: $string['unknowquestiontype']
+msgid "Unsupported question type {$a}"
+msgstr "Μη υποστηριζόμενος τύπος ερώτησης {$a}"
+
+#: $string['unknowuploadaction']
+msgid "Error: Unknown upload action ({$a})"
+msgstr "Σφάλμα: Άγνωστη ενέργεια μεταφόρτωσης ({$a})"
+
+#: $string['unspecifycourseid']
+msgid "Must specify course id, short name or idnumber"
+msgstr "Πεπρει να ορίσετε id μαθήματος, σύντομο όνομα ή idnumber"
+
+#: $string['unsupportedevent']
+msgid "Unsupported event type"
+msgstr "Μη υποστηριζόμενος τύπος γεγονότος"
+
+#: $string['unsupportedstate']
+msgid "Unsupported completion state"
+msgstr "Μη υποστηριζόμενη κατάσταση συμπλήρωσης"
+
+#: $string['unsupportedwebserver']
+msgid "Web server software ({$a}) is not supported, sorry."
+msgstr ""
+"Λυπούμαστε αλλά το λογισμικό διακομιστή δικτύου ({$a}) δεν υποστηρίζεται."
+
+#: $string['upgraderequires19']
+msgid ""
+"Error: New Moodle version was installed on server, unfortunately upgrade "
+"from the previous version is not supported.<br />Please upgrade first to "
+"latest 1.9.x release. You can also return to previous version by "
+"reinstalling original files."
+msgstr ""
+"Σφάλμα: Εγκαταστάθηκε νέα έκδοση Moodle στο διακομιστή σας, δυστυχώς η "
+"αναβάθμιση από την προηγούμενη έκδοση δεν υποστηρίζεται.<br />Παρακαλώ "
+"αναβαθμίστε στην τελευταία έκδοση 1.9.x. Μπορείτε επίσης να επιστρέψετε στην "
+"προηγούμενη έκδοση επανεγκαθιστώντας τα αρχικά αρχεία."
+
+#: $string['upgraderunning']
+msgid "Site is being upgraded, please retry later."
+msgstr ""
+"Ο ιστοχώρος βρίσκεται υπό αναβάθμιση, παρακαλώ ξαναπροσπαθήστε αργότερα."
+
+#: $string['urlnotdefinerss']
+msgid "URL not defined for RSS feed"
+msgstr "Η διεύθυνση URL δεν έχει οριστεί για το RSS"
+
+#: $string['useradmineditadmin']
+msgid "Only administrators are allowed to modify other administrator accounts"
+msgstr ""
+
+#: $string['useradminodelete']
+msgid "Administrator accounts can not be deleted"
+msgstr ""
+
+#: $string['userautherror']
+msgid "Unknown auth plugin"
+msgstr "Άγνωστη υπομονάδα λογισμικού auth"
+
+#: $string['userauthunsupported']
+msgid "Auth plugin not supported here"
+msgstr "Η υπομονάδα λογισμικού auth δεν υποστηρίζεται εδώ"
+
+#: $string['useremailduplicate']
+msgid "Duplicate address"
+msgstr "Διπλότυπη διεύθυνση"
+
+#: $string['usermustbemnet']
+msgid "Users in the MNET access control list must be remote MNET users"
+msgstr ""
+"Ο χρήστες στη λίστα ελέγχου πρόσβασης MNET πρεπει να είναι απομακρυσμένοι "
+"χρήστες MNET"
+
+#: $string['usernotaddederror']
+msgid "User not added - error"
+msgstr "Ο χρήστης \"{$a}\" δεν προστέθηκε - άγνωστο σφάλμα"
+
+#: $string['usernotaddedregistered']
+msgid "User not added - already registered"
+msgstr "Ο χρήστης \"{$a}\" δεν προστέθηκε - ήδη εγγεγραμμένος"
+
+#: $string['usernotavailable']
+msgid "The details of this user are not available to you"
+msgstr "Οι λεπτομέρειες αυτού του χρήστη δεν είναι διαθέσιμες σε εσάς."
+
+#: $string['usernotdeletedadmin']
+msgid "User not deleted - can not delete administrator accounts"
+msgstr ""
+
+#: $string['usernotdeleteddeleted']
+msgid "This user has already been deleted."
+msgstr ""
+
+#: $string['usernotdeletederror']
+msgid "User not deleted - error"
+msgstr "Ο χρήστης δε διαγράφηκε - σφάλμα"
+
+#: $string['usernotdeletedmissing']
+msgid "User not deleted - could not find the username"
+msgstr "Ο χρήστης δε διαγράφηκε - δεν ήταν δυνατή η εύρεση του ονόματος χρήστη"
+
+#: $string['usernotdeletedoff']
+msgid "User not deleted - deleting not allowed"
+msgstr "Ο χρήστης δε διαγράφηκε - δεν επιτρέπεται η διαγραφή"
+
+#: $string['usernotfullysetup']
+msgid "User not fully set-up"
+msgstr ""
+
+#: $string['usernotincourse']
+msgid "This user is not in this course!"
+msgstr "Ο χρήστης δεν υπάρχει σε αυτό το μάθημα!"
+
+#: $string['usernotrenamedadmin']
+msgid "Cannot rename admin accounts"
+msgstr "Δεν είναι δυνατή η μετονομασία λογαριασμών διαχειριστών"
+
+#: $string['usernotrenamedexists']
+msgid "User not renamed - the new username is already in use"
+msgstr ""
+"Ο χρήστης δε μετονομάστηκε -- το καινούργιο όνομα χρήστη χρησιμοποιείται "
+"ήδη."
+
+#: $string['usernotrenamedmissing']
+msgid "User not renamed - could not find the old username"
+msgstr "Ο χρήστης δε μετονομάστηκε -- δε βρέθηκε το παλιό όνομα χρήστη."
+
+#: $string['usernotrenamedoff']
+msgid "User not renamed - renaming not allowed"
+msgstr "Ο χρήστης δε μετονομάστηκε - η μετονομασία δεν επιτρέπεται"
+
+#: $string['usernotupdatedadmin']
+msgid "Cannot update admin accounts"
+msgstr "Δεν είναι δυνατή η ενημέρωση των λογαριασμών διαχειριστών"
+
+#: $string['usernotupdatederror']
+msgid "User not updated - error"
+msgstr "Ο χρήστης δεν ενημερώθηκε - σφάλμα"
+
+#: $string['usernotupdatednotexists']
+msgid "User not updated - does not exist"
+msgstr "Ο χρήστης δεν ενημερώθηκε - δεν υπάρχει"
+
+#: $string['userquotalimit']
+msgid "You have reached your file quota limit."
+msgstr ""
+
+#: $string['userselectortoomany']
+msgid ""
+"user_selector got more than one selected user, even though multiselect is "
+"false."
+msgstr ""
+"Ο user_selector έχει περισσότερους από έναν επιλεγμένους χρήστες, ακόμη κι "
+"αν το multiselect είναι ανενεργό."
+
+#: $string['wrongcall']
+msgid "This script is called wrongly"
+msgstr "Το script καλείται λανθασμένα"
+
+#: $string['wrongcontextid']
+msgid "Context ID was incorrect (cannot find it)"
+msgstr "Το ID πλαισίου ήταν λανθασμένο (δεν είναι δυνατή η εύρεσή του)"
+
+#: $string['wrongdestpath']
+msgid "Wrong destination path"
+msgstr "Λανθασμένη διαδρομή προορισμού."
+
+#: $string['wrongroleid']
+msgid "Incorrect role ID!"
+msgstr "Λανθασμένο ID ρόλου!"
+
+#: $string['wrongsourcebase']
+msgid "Wrong source URL base"
+msgstr "Λανθασμένη βάση πηγής URL."
+
+#: $string['wrongusernamepassword']
+msgid "Wrong user/password"
+msgstr ""
+
+#: $string['wrongzipfilename']
+msgid "Wrong ZIP file name"
+msgstr "Λανθασμένo όνομα αρχείου ZIP."
+
+#: $string['wscouldnotcreateecoursenopermission']
+msgid "WS - Could not create course - No permission"
+msgstr "WS - Δεν ήταν δυνατή η δημιουργία του μαθήματος - Δεν επιτρέπεται"
+
+#: $string['wwwrootmismatch']
+msgid ""
+"Incorrect access detected, this server may be accessed only through \"{$a}\" "
+"address, sorry.<br />Please notify server administrator."
+msgstr ""
+"Ανιχνεύτηκε λανθασμένη πρόσβαση, η πρόσβαση σε αυτόν το διακομιστή μπορεί να "
+"γίνει μόνον από τη διεύθυνση \"{$a}\", λυπούμαστε.<br />Παρακαλώ ενημερώστε "
+"το διαχειριστή του συστήματος."
+
+#: $string['wwwrootslash']
+msgid ""
+"Detected incorrect $CFG->wwwroot in config.php, it must not contain trailing "
+"slash.<br />Please notify server administrator."
+msgstr ""
+"Ανιχνεύτηκε λανθασμένο $CFG->wwwroot στο config.php, πρέπει να περιέχει "
+"τελικά /.<br />Παρακαλώ ενημερώστε το διαχειριστή του διακομιστή."
+
+#: $string['xmldberror']
+msgid "XMLDB error!"
+msgstr "Σφάλμα XMLDB!"
+
+#: $string['youcannotdeletecategory']
+msgid ""
+"You cannot delete category '{$a}' because you can neither delete the "
+"contents, nor move them elsewhere."
+msgstr ""
+"Δεν μπορείτε να διαγράψετε την κατηγορία '{$a}' επειδή δεν μπορείτε ούτε να "
+"διαγράψετε τα περιεχόμενα ούτε να τα μεταφέρετε αλλού."

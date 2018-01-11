@@ -1,0 +1,349 @@
+#. extracted from lang/en/enrol_waitlist.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'enrol_waitlist', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   enrol_waitlist
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['confirmation']
+msgid ""
+"If you proceed you will be enrolled to this course.<br><br>Are you "
+"absolutely sure you want to do this?"
+msgstr ""
+
+#: $string['confirmation_cancel']
+msgid "Cancel"
+msgstr ""
+
+#: $string['confirmationfull']
+msgid ""
+"<strong>This course is presently booked.</strong> If you proceed you will be "
+"placed on a waiting list and will be enrolled automatically and informed by "
+"email in case enough spaces becomes available.<br>"
+msgstr ""
+
+#: $string['confirmation_no']
+msgid "No"
+msgstr ""
+
+#: $string['confirmation_yes']
+msgid "Yes"
+msgstr ""
+
+#: $string['continue']
+msgid "continue"
+msgstr ""
+
+#: $string['customwelcomemessage']
+msgid "Custom welcome message"
+msgstr ""
+
+#: $string['defaultrole']
+msgid "Default role assignment"
+msgstr ""
+
+#: $string['defaultrole_desc']
+msgid "Select role which should be assigned to users during waitlist enrolment"
+msgstr ""
+
+#: $string['disable']
+msgid "You can not enrol yourself in this course."
+msgstr ""
+
+#: $string['enrolenddate']
+msgid "End date"
+msgstr ""
+
+#: $string['enrolenddate_help']
+msgid "If enabled, users can enrol themselves until this date only."
+msgstr ""
+
+#: $string['enrolenddaterror']
+msgid "Enrolment end date cannot be earlier than start date"
+msgstr ""
+
+#: $string['enrolme']
+msgid "Enrol me"
+msgstr ""
+
+#: $string['enrolperiod']
+msgid "Enrolment duration"
+msgstr ""
+
+#: $string['enrolperiod_desc']
+msgid ""
+"Default length of time that the enrolment is valid (in seconds). If set to "
+"zero, the enrolment duration will be unlimited by default."
+msgstr ""
+
+#: $string['enrolperiod_help']
+msgid ""
+"Length of time that the enrolment is valid, starting with the moment the "
+"user enrols themselves. If disabled, the enrolment duration will be "
+"unlimited."
+msgstr ""
+
+#: $string['enrolstartdate']
+msgid "Start date"
+msgstr ""
+
+#: $string['enrolstartdate_help']
+msgid "If enabled, users can enrol themselves from this date onward only."
+msgstr ""
+
+#: $string['enrolusers']
+msgid "Enrol users"
+msgstr ""
+
+#: $string['faculty']
+msgid "Faculty"
+msgstr ""
+
+#: $string['groupkey']
+msgid "Use group enrolment keys"
+msgstr ""
+
+#: $string['groupkey_desc']
+msgid "Use group enrolment keys by default."
+msgstr ""
+
+#: $string['groupkey_help']
+msgid ""
+"In addition to restricting access to the course to only those who know the "
+"key, use of a group enrolment key means users are automatically added to the "
+"group when they enrol in the course.\n"
+"\n"
+"To use a group enrolment key, an enrolment key must be specified in the "
+"course settings as well as the group enrolment key in the group settings."
+msgstr ""
+
+#: $string['lineconfirm']
+msgid "<br>Are you absolutely sure you want to do this?"
+msgstr ""
+
+#: $string['lineinfo']
+msgid "<br>Number of persons waiting in front of you:"
+msgstr ""
+
+#: $string['longtimenosee']
+msgid "Unenrol inactive after"
+msgstr ""
+
+#: $string['longtimenosee_help']
+msgid ""
+"If users haven't accessed a course for a long time, then they are "
+"automatically unenrolled. This parameter specifies that time limit."
+msgstr ""
+
+#: $string['manage::assign']
+msgid "Assign"
+msgstr ""
+
+#: $string['manage::define']
+msgid "Define"
+msgstr ""
+
+#: $string['maxenrolled']
+msgid "Max enrolled users"
+msgstr ""
+
+#: $string['maxenrolled_help']
+msgid ""
+"Specifies the maximum number of users that can waitlist enrol. 0 means no "
+"limit."
+msgstr ""
+
+#: $string['maxenrolledreached']
+msgid "Maximum number of users allowed to waitlist-enrol was already reached."
+msgstr ""
+
+#: $string['nocursefields']
+msgid "No fields"
+msgstr ""
+
+#: $string['password']
+msgid "Enrolment key"
+msgstr ""
+
+#: $string['password_help']
+msgid ""
+"An enrolment key enables access to the course to be restricted to only those "
+"who know the key.\n"
+"\n"
+"If the field is left blank, any user may enrol in the course.\n"
+"\n"
+"If an enrolment key is specified, any user attempting to enrol in the course "
+"will be required to supply the key. Note that a user only needs to supply "
+"the enrolment key ONCE, when they enrol in the course."
+msgstr ""
+
+#: $string['passwordinvalid']
+msgid "Incorrect enrolment key, please try again"
+msgstr ""
+
+#: $string['passwordinvalidhint']
+msgid ""
+"That enrolment key was incorrect, please try again<br />\n"
+"(Here's a hint - it starts with '{$a}')"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Waitlist enrolment"
+msgstr ""
+
+#: $string['pluginname_desc']
+msgid ""
+"The waitlist enrolment plugin allows users to choose which courses they want "
+"to participate in. The courses may be protected by an enrolment key. "
+"Internally the enrolment is done via the manual enrolment plugin which has "
+"to be enabled in the same course."
+msgstr ""
+
+#: $string['profilecreatefield']
+msgid "Create a new waitlist fieled"
+msgstr ""
+
+#: $string['profiledescription2']
+msgid "Description2 of the field"
+msgstr ""
+
+#: $string['profilefield']
+msgid "Field"
+msgstr ""
+
+#: $string['requirepassword']
+msgid "Require enrolment key"
+msgstr ""
+
+#: $string['requirepassword_desc']
+msgid ""
+"Require enrolment key in new courses and prevent removing of enrolment key "
+"from existing courses."
+msgstr ""
+
+#: $string['role']
+msgid "Assign role"
+msgstr ""
+
+#: $string['sendcoursewelcomemessage']
+msgid "Send course welcome message"
+msgstr ""
+
+#: $string['sendcoursewelcomemessage_help']
+msgid ""
+"If enabled, users receive a welcome message via email when they waitlist-"
+"enrol in a course."
+msgstr ""
+
+#: $string['showhint']
+msgid "Show hint"
+msgstr ""
+
+#: $string['showhint_desc']
+msgid "Show first letter of the guest access key."
+msgstr ""
+
+#: $string['status']
+msgid "Allow waitlist enrolments"
+msgstr ""
+
+#: $string['status_desc']
+msgid "Allow users to waitlist enrol into course by default."
+msgstr ""
+
+#: $string['status_help']
+msgid ""
+"This setting determines whether a user can enrol (and also unenrol if they "
+"have the appropriate permission) themselves from the course."
+msgstr ""
+
+#: $string['unenrolwaitlistconfirm']
+msgid "Do you really want to unenrol \"{$a}\"?"
+msgstr ""
+
+#: $string['usepasswordpolicy']
+msgid "Use password policy"
+msgstr ""
+
+#: $string['usepasswordpolicy_desc']
+msgid "Use standard password policy for enrolment keys."
+msgstr ""
+
+#: $string['users_on_waitlist']
+msgid "Users on waitlist"
+msgstr ""
+
+#: $string['waitlist:config']
+msgid "Configure waitlist enrol instances"
+msgstr ""
+
+#: $string['waitlisted_users']
+msgid "Waitlisted users"
+msgstr ""
+
+#: $string['waitlistinfo']
+msgid ""
+"<b>This course is presently booked</b>. <br/><br/>Thank you for your "
+"application request. You have been placed on a waiting list and will be "
+"informed via email in case a space becomes available."
+msgstr ""
+
+#: $string['waitlist:manage']
+msgid "Manage enrolled users"
+msgstr ""
+
+#: $string['waitlist:unenrol']
+msgid "Unenrol users from course"
+msgstr ""
+
+#: $string['waitlist:unenrolself']
+msgid "Unenrol self from the course"
+msgstr ""
+
+#: $string['waitlist:unenrolwaitlist']
+msgid "Unenrol waitlist from the course"
+msgstr ""
+
+#: $string['welcometocourse']
+msgid "Welcome to {$a}"
+msgstr ""
+
+#: $string['welcometocoursetext']
+msgid ""
+"<p>Welcome to {$a->coursename}!</p>\n"
+"\n"
+"\n"
+"<p>Start date: {$a->startdate}</p>\n"
+"\n"
+"<p>Course description: </p>\n"
+"\n"
+"\t<p>{$a->summary}</p>"
+msgstr ""

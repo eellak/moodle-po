@@ -1,0 +1,306 @@
+#. extracted from lang/en/filter_generico.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'filter_generico', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   filter_generico
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['bundle']
+msgid "Bundle"
+msgstr ""
+
+#: $string['commonpageheading']
+msgid "General Settings"
+msgstr ""
+
+#: $string['dataset']
+msgid "Dataset"
+msgstr ""
+
+#: $string['dataset_desc']
+msgid ""
+"Generico allows you to pull a dataset from the database for use in your "
+"template. This is an advanced feature. Enter the sql portion of a "
+"$DB->get_records_sql call here."
+msgstr ""
+
+#: $string['datasetvars']
+msgid "Dataset Variables"
+msgstr ""
+
+#: $string['datasetvars_desc']
+msgid ""
+"Put a comma separated list of variables that make up the vars for the SQL. "
+"You can and probably will want to use variables here."
+msgstr ""
+
+#: $string['filterdescription']
+msgid "Convert filter strings into templates merged with data"
+msgstr ""
+
+#: $string['filtername']
+msgctxt "$string['filtername']"
+msgid "Generico"
+msgstr ""
+
+#: $string['jumpcat_explanation']
+msgid ""
+"The full set of Generico filter settings can be found <a "
+"href=\"{$a}\">here</a>."
+msgstr ""
+
+#: $string['jumpcat_heading']
+msgid "Generico filter settings"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Generico"
+msgstr ""
+
+#: $string['presets']
+msgid "Autofill template with a Preset"
+msgstr ""
+
+#: $string['presets_desc']
+msgid ""
+"Generico comes with some default presets you can use out of the box, or to "
+"help you get started with your own template. Choose one of those here, or "
+"just create your own template from scratch. You can export a template as a "
+"bundle by clicking on the green box above. You can import a bundle by "
+"dragging it onto the green box."
+msgstr ""
+
+#: $string['template']
+msgid "The body of template {$a}"
+msgstr ""
+
+#: $string['templatealternate']
+msgid "Alternate content"
+msgstr ""
+
+#: $string['templatealternate_desc']
+msgid ""
+"Content that can be used when the custom and uploaded CSS and javascript "
+"content is not available. Currently this is used when the template is "
+"processed by a webservice, probably for content on the mobile app"
+msgstr ""
+
+#: $string['templatealternate_end']
+msgid "Alternate content end ((template {$a})"
+msgstr ""
+
+#: $string['templatealternate_end_desc']
+msgid ""
+"Closing alternate content tags for templates that enclose user content with "
+"start and end Generico tags"
+msgstr ""
+
+#: $string['templatecount']
+msgid "Template Count"
+msgstr ""
+
+#: $string['templatecount_desc']
+msgid "The number of templates you can have. Default is 20."
+msgstr ""
+
+#: $string['templatedefaults']
+msgid "variable defaults (template {$a})"
+msgstr ""
+
+#: $string['templatedefaults_desc']
+msgid ""
+"Define the defaults in comma delimited sets of name=value pairs. eg "
+"width=800,height=900,feeling=joy"
+msgstr ""
+
+#: $string['template_desc']
+msgid ""
+"Put the template here, define variables by surrounding them with @@ marks at "
+"either e. eg @@variable@@"
+msgstr ""
+
+#: $string['templateend']
+msgid "End tags(template {$a})"
+msgstr ""
+
+#: $string['templateend_desc']
+msgid ""
+"If your template encloses user content, eg an info box, put the closing tags "
+"here. The user will enter something like {GENERICO:mytag_end} to close out "
+"the filter."
+msgstr ""
+
+#: $string['templateheading']
+msgid "Settings for Generico Template {$a}"
+msgstr ""
+
+#: $string['templateheadingcss']
+msgid "CSS/Style Settings."
+msgstr ""
+
+#: $string['templateheadingjs']
+msgid "Javascript Settings."
+msgstr ""
+
+#: $string['templateinstructions']
+msgid "Instructions (template {$a})"
+msgstr ""
+
+#: $string['templateinstructions_desc']
+msgid ""
+"Any instructions entered here will be displayed on the Generic atto form for "
+"this template is displayed. Keep them short or it will look bad."
+msgstr ""
+
+#: $string['templatekey']
+msgid "The key that identifies template {$a}"
+msgstr ""
+
+#: $string['templatekey_desc']
+msgid ""
+"The key should be one word and only contain numbers and letters, "
+"underscores, hyphens and dots ."
+msgstr ""
+
+#: $string['templatename']
+msgid "Template Name"
+msgstr ""
+
+#: $string['templatename_desc']
+msgid "The name of this template."
+msgstr ""
+
+#: $string['templatepageheading']
+msgid "Template: {$a}"
+msgstr ""
+
+#: $string['templaterequire_amd']
+msgid "Load via AMD"
+msgstr ""
+
+#: $string['templaterequire_amd_desc']
+msgid ""
+"AMD is a javascript loading mechanism. If you upload or link to javascript "
+"libraries in your template, you might have to uncheck this. It only applies "
+"if on Moodle 2.9 or greater"
+msgstr ""
+
+#: $string['templaterequire_css']
+msgid "Requires CSS (template {$a})"
+msgstr ""
+
+#: $string['templaterequire_css_desc']
+msgid ""
+"A link(1 only) to an external CSS file that this template requires. "
+"optional."
+msgstr ""
+
+#: $string['templaterequire_js']
+msgid "Requires JS (template {$a})"
+msgstr ""
+
+#: $string['templaterequire_js_desc']
+msgid ""
+"A link(1 only) to an external JS file that this template requires. optional."
+msgstr ""
+
+#: $string['templaterequirejsshim']
+msgid "Require Shim export"
+msgstr ""
+
+#: $string['templaterequirejsshim_desc']
+msgctxt "$string['templaterequirejsshim_desc']"
+msgid "Leave blank unless you know what shimming is"
+msgstr ""
+
+#: $string['templates']
+msgid "Templates"
+msgstr ""
+
+#: $string['templatescript']
+msgid "Custom JS (template {$a})"
+msgstr ""
+
+#: $string['templatescript_desc']
+msgid ""
+"If your template needs to run custom javascript, enter that here. It will be "
+"run once all the elements have loaded on the page."
+msgstr ""
+
+#: $string['templatestyle']
+msgid "Custom CSS (template {$a})"
+msgstr ""
+
+#: $string['templatestyle_desc']
+msgid ""
+"Enter any custom CSS that your template uses here. Template variables will "
+"not work here. Just plain old css."
+msgstr ""
+
+#: $string['templateuploadjsshim']
+msgid "Upload Shim export"
+msgstr ""
+
+#: $string['templateuploadjsshim_desc']
+msgctxt "$string['templateuploadjsshim_desc']"
+msgid "Leave blank unless you know what shimming is"
+msgstr ""
+
+#: $string['templateversion']
+msgid "The version of this template {$a}"
+msgstr ""
+
+#: $string['templateversion_desc']
+msgid ""
+"When sharing templates it is best to maintain a clear version per release. "
+"The version format is up to you."
+msgstr ""
+
+#: $string['uploadcss']
+msgid "Upload CSS(template {$a})"
+msgstr ""
+
+#: $string['uploadcss_desc']
+msgid ""
+"You can upload one CSS file which will be loaded for your template. Only "
+"one."
+msgstr ""
+
+#: $string['uploadjs']
+msgid "Upload JS (template {$a})"
+msgstr ""
+
+#: $string['uploadjs_desc']
+msgid ""
+"You can upload one js library file which will be loaded for your template. "
+"Only one."
+msgstr ""

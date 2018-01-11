@@ -1,0 +1,282 @@
+#. extracted from lang/en/qtype_musicscale.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qtype_musicscale', language 'en', branch 'MOODLE_24_STABLE'
+#.  *
+#.  * @package   qtype_musicscale
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['A']
+msgid "A"
+msgstr ""
+
+#: $string['addingscale']
+msgid "Adding Musical Scale"
+msgstr ""
+
+#: $string['alto']
+msgid "Alto"
+msgstr ""
+
+#: $string['answer']
+msgid "answer"
+msgstr ""
+
+#: $string['answer_cap']
+msgid "Answer"
+msgstr ""
+
+#: $string['answer_help']
+msgid ""
+"<p>Enter the notes of the scale in this format:</p><p>[Letter name "
+"(C,D,E,F,G,B)] [Accidental (# or b)] [register, using the <a "
+"href=\"http://en.wikipedia.org/wiki/Scientific_pitch_notation\" "
+"target=\"_blank\">scientific pitch notation</a>]</p><p>Insert commas between "
+"the notes, without spaces. Include the tonic note both at the beginning and "
+"at the end of the scale.</p><p>Examples:</p><ul><li>The solution for the E "
+"major scale where the tonic is E4 should be entered as: "
+"<br><strong>E4,F#4,G#4,A4,B4,C#5,D#5,E5</strong></li><li>The solution for "
+"the F# melodic minor scale where the tonic is F#3 should be entered as: <br>"
+"<strong>F#3,G#3,A3,B3,C#4,D#4,E#4,F#4,E4,D4,C#4,B3,A3,G#3,F#3</strong></li><"
+"/ul><p>You can click \"Blanks for 3 More Choices\" to add other answers that "
+"yield a partial grade. At least one of the answers must be assigned a full "
+"grade of 100%.</p>"
+msgstr ""
+
+#: $string['answerno']
+msgid "Answer {$a}"
+msgstr ""
+
+#: $string['b']
+msgid "Flat"
+msgstr ""
+
+#: $string['B']
+msgid "B"
+msgstr ""
+
+#: $string['bass']
+msgid "Bass"
+msgstr ""
+
+#: $string['C']
+msgid "C"
+msgstr ""
+
+#: $string['D']
+msgid "D"
+msgstr ""
+
+#: $string['default']
+msgid "Default"
+msgstr ""
+
+#: $string['E']
+msgid "E"
+msgstr ""
+
+#: $string['editingscale']
+msgid "Editing Musical Scale"
+msgstr ""
+
+#: $string['F']
+msgid "F"
+msgstr ""
+
+#: $string['feedback']
+msgid "Feedback"
+msgstr ""
+
+#: $string['feedbackcorrectanswer']
+msgid "Your answer is correct."
+msgstr ""
+
+#: $string['feedbackwronganswer']
+msgid "The correct answer is:"
+msgstr ""
+
+#: $string['forceclef']
+msgid "Force Clef"
+msgstr ""
+
+#: $string['forceclef_help']
+msgid "This will override the default generated Clef."
+msgstr ""
+
+#: $string['G']
+msgid "G"
+msgstr ""
+
+#: $string['includeks']
+msgid "Include key signature"
+msgstr ""
+
+#: $string['includeks_help']
+msgid ""
+"Specifies whether the key signature is provided. If the key signature isn't "
+"provided, the respondent must enter accidentals for each altered note."
+msgstr ""
+
+#: $string['instructions']
+msgid ""
+"<h5>Instructions</h5><p>Move your mouse over the stave to generate a "
+"note.</p><p>When you have reached the location to place it, left click with "
+"your mouse to lock it.</p><p>If you need to move the note, left click on it, "
+"and move it to the new location, then left click to lock it back "
+"in.</p><p>To add accidentals to the note, Right click on it and a context "
+"menu will appear."
+msgstr ""
+
+#: $string['modescale']
+msgid "Scale type"
+msgstr ""
+
+#: $string['modescale_harmonic_minor']
+msgid "Harmonic minor"
+msgstr ""
+
+#: $string['modescale_help']
+msgid "Specifies the type of scale to be entered."
+msgstr ""
+
+#: $string['modescale_major']
+msgid "Major"
+msgstr ""
+
+#: $string['modescale_melodic_minor']
+msgid "Melodic minor"
+msgstr ""
+
+#: $string['modescale_natural_minor']
+msgid "Natural minor"
+msgstr ""
+
+#: $string['no']
+msgid "No"
+msgstr ""
+
+#: $string['nonexistentkey']
+msgid ""
+"This tonic doesn't have a key signature for the mode of the scale you "
+"selected - please select another tonic or another type of scale."
+msgstr ""
+
+#: $string['noteletterout']
+msgid "You have added a note letter that is out of range."
+msgstr ""
+
+#: $string['orignoteaccidental']
+msgid "Tonic accidental"
+msgstr ""
+
+#: $string['orignoteaccidental_help']
+msgid ""
+"Specifies an accidental applying to the tonic - if no accidental applies, "
+"natural should be selected."
+msgstr ""
+
+#: $string['orignoteletter']
+msgid "Tonic letter"
+msgstr ""
+
+#: $string['orignoteletter_help']
+msgid "Specifies the letter name of the tonic."
+msgstr ""
+
+#: $string['orignoteregister']
+msgid "Tonic register"
+msgstr ""
+
+#: $string['orignoteregister_help']
+msgid ""
+"Specifies the register where the tonic lies, using the <a "
+"href=\"http://en.wikipedia.org/wiki/Scientific_pitch_notation\" "
+"target=\"_blank\">scientific pitch notation</a>."
+msgstr ""
+
+#: $string['outofrange']
+msgid "The clef and note(s) that have been selected are out of range."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Music Scale"
+msgstr ""
+
+#: $string['pluginnameadding']
+msgid "Adding a music scale question"
+msgstr ""
+
+#: $string['pluginnameediting']
+msgid "Editing a music scale question"
+msgstr ""
+
+#: $string['pluginname_help']
+msgid "Flash for Defining Scales"
+msgstr ""
+
+#: $string['pluginname_link']
+msgid "question/type/musicscale"
+msgstr ""
+
+#: $string['pluginnamesummary']
+msgid "Flash Component that allows user to define a scale"
+msgstr ""
+
+#: $string['registerout']
+msgid "You have added a register that is out of range."
+msgstr ""
+
+#: $string['scale']
+msgid "Musical Scale"
+msgstr ""
+
+#: $string['scale_help']
+msgid ""
+"The respondent is given a tonic, mode, clef and scale type, and is asked to "
+"enter the corresponding scale on the staff."
+msgstr ""
+
+#: $string['tenor']
+msgid "Tenor"
+msgstr ""
+
+#: $string['tonic_too_high_for_register']
+msgid ""
+"This register is too high for the given tonic - the input component wouldn't "
+"support it. Please select a lower register."
+msgstr ""
+
+#: $string['treble']
+msgid "Treble"
+msgstr ""
+
+#: $string['yes']
+msgid "Yes"
+msgstr ""

@@ -1,0 +1,872 @@
+#. extracted from lang/en/block_publishflow.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_publishflow', language 'en', branch 'MOODLE_25_STABLE'
+#.  *
+#.  * @package   block_publishflow
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['accesscategory']
+msgid "Authorized Platforms"
+msgstr ""
+
+#: $string['activities']
+msgid "Activity(ies)"
+msgstr ""
+
+#: $string['allowfreecategoryselection']
+msgid "Free selection of target category"
+msgstr ""
+
+#: $string['allowfreecategoryselectiondesc']
+msgid ""
+"If enabled, the user can choose the final remote category (visible or not) "
+"the deployed course will be in, otherwise the preset default category wil be "
+"choosen as setup in the remote configuration."
+msgstr ""
+
+#: $string['alreadypublished']
+msgid ""
+"This course is already published. You may hide it and update it from a new "
+"backup."
+msgstr ""
+
+#: $string['autobackup']
+msgid "Automatic Backup"
+msgstr ""
+
+#: $string['backsettings']
+msgid "Back to the settings page"
+msgstr ""
+
+#: $string['backtocourse']
+msgid "Browse back to course"
+msgstr ""
+
+#: $string['badkey']
+msgid "The key given for deployment is not the expected one."
+msgstr ""
+
+#: $string['badresponse']
+msgid ": client failed to answer"
+msgstr ""
+
+#: $string['blockname']
+msgid "Course Publication"
+msgstr ""
+
+#: $string['catalog']
+msgid "Catalog"
+msgstr ""
+
+#: $string['catupdate']
+msgid "Update Catalog"
+msgstr ""
+
+#: $string['cdprivate']
+msgid "Private sessions."
+msgstr ""
+
+#: $string['cdpublicread']
+msgid "Public sessions. User unchecked."
+msgstr ""
+
+#: $string['cdpublicwrite']
+msgid "Public sessions . User identity checked."
+msgstr ""
+
+#: $string['choosecat']
+msgid "Category:"
+msgstr ""
+
+#: $string['choosecatdefault']
+msgid "Default category"
+msgstr ""
+
+#: $string['choosetarget']
+msgid "Target:"
+msgstr ""
+
+#: $string['clientfailure']
+msgid ""
+":  The client failed to answer, it might be offline or it doesn't have the "
+"required service enabled."
+msgstr ""
+
+#: $string['close']
+msgid "Close"
+msgstr ""
+
+#: $string['closedcategory']
+msgid "Closing Category"
+msgstr ""
+
+#: $string['closedcategory_desc']
+msgid "Category for archived course sessions"
+msgstr ""
+
+#: $string['closehelper']
+msgid ""
+"We strongly recomend you making <b>a complete backup of the course</b> "
+"(including user files and data) and store a copy on your own. Take care that "
+"the \"Generate a package\" process DO NOT perform a complete backup, but only "
+"the content of the course for transfering the course structure to other "
+"nodes in the network."
+msgstr ""
+
+#: $string['closeprivate']
+msgid "Private closure"
+msgstr ""
+
+#: $string['closeprivatehelper']
+msgid ""
+"When being closed in \"private mode\", only administrators and trainers can "
+"see the course content. Other users won't have any more access. Trainees "
+"will still remain enrolled within the session, so opening back the course is "
+"straight away possible, using the course settings."
+msgstr ""
+
+#: $string['closeprotected']
+msgid "Protected closure"
+msgstr ""
+
+#: $string['closeprotectedhelper']
+msgid ""
+"When being closed in \"protected mode\", all trainees are assigned a "
+"\"disabled\" role, and will still have read access to the produced material."
+msgstr ""
+
+#: $string['closepublic']
+msgid "Public closure"
+msgstr ""
+
+#: $string['closepublichelper']
+msgid ""
+"When being closed in \"public mode\", any authenticated user will be allowed "
+"to browse the content of the course and all productions."
+msgstr ""
+
+#: $string['closing']
+msgid "Closing session"
+msgstr ""
+
+#: $string['collection']
+msgid "Collection"
+msgstr ""
+
+#: $string['combined']
+msgid "Combined Type (factory + catalog)"
+msgstr ""
+
+#: $string['combinedname']
+msgid "Factory and Catalog"
+msgstr ""
+
+#: $string['completed']
+msgid ""
+"has concluded. It has been assigned the following Unique Identifier : {$a}"
+msgstr ""
+
+#: $string['configenableretrofit']
+msgid ""
+"If this option is enabled, course can be retrofitted to one of the known "
+"course factory node(s) in the network."
+msgstr ""
+
+#: $string['configmoodlenodetype']
+msgid "Configure Moodle Node Type"
+msgstr ""
+
+#: $string['configsubmitto']
+msgid "Submit config to"
+msgstr ""
+
+#: $string['confirmupgrade']
+msgid "Are you sure you want to upgrade your catalog?"
+msgstr ""
+
+#: $string['contributors']
+msgid "Contributors"
+msgstr ""
+
+#: $string['cost']
+msgid "Cost for use"
+msgstr ""
+
+#: $string['courseclosed']
+msgid "Course closed."
+msgstr ""
+
+#: $string['coursecontrol']
+msgid "Course control:"
+msgstr ""
+
+#: $string['coursedeliveryislocal']
+msgid ""
+"Files won't be distributed by network transfers but through the local file "
+"system. This option only works for moodles sharing the same storage area."
+msgstr ""
+
+#: $string['coursefordelivery']
+msgid "Receiving Course"
+msgstr ""
+
+#: $string['coursefordelivery_desc']
+msgid "Course for receiving course archive downloads"
+msgstr ""
+
+#: $string['courseopen']
+msgid "The course is now open."
+msgstr ""
+
+#: $string['createdfields']
+msgid "Number of fields successfully created:"
+msgstr ""
+
+#: $string['datecreated']
+msgid "Creation date"
+msgstr ""
+
+#: $string['defaultplatform']
+msgid "Local"
+msgstr ""
+
+#: $string['defaultrole']
+msgid "Default role in incoming courses"
+msgstr ""
+
+#: $string['defaultrole_desc']
+msgid ""
+"This role is automatically assigned to the deployer in published, deployed "
+"or retrofitted courses. Beware that this setting acts over courses that are "
+"pushed in in this Moodle. To set up a role on a remote platform where to "
+"push out course volumes, you'll need to setup this setting on the remote "
+"platform."
+msgstr ""
+
+#: $string['deploy']
+msgctxt "$string['deploy']"
+msgid "Deploy"
+msgstr ""
+
+#: $string['deploycategory']
+msgid "Default Category"
+msgstr ""
+
+#: $string['deploycategory_desc']
+msgid "Course category for default deployment of courses"
+msgstr ""
+
+#: $string['deployfortest']
+msgid "Deploy for testing:"
+msgstr ""
+
+#: $string['deployfortest_help']
+msgid ""
+"<h2>Learning Path Deployment</h2>\n"
+"<h3>Deployment for testing</h3>\n"
+"\n"
+"<p>A course can be straightely deployed from a Factory to a Learning Area "
+"for test purpose.</p>\n"
+"\n"
+"<p>The deployment will automatically target the default deployment category "
+"defined in global settings.</p>"
+msgstr ""
+
+#: $string['deployfreeuse']
+msgctxt "$string['deployfreeuse']"
+msgid "Deploy"
+msgstr ""
+
+#: $string['deploying']
+msgid "Deploying a course"
+msgstr ""
+
+#: $string['deployment']
+msgid "Course deployment"
+msgstr ""
+
+#: $string['deploymentkey']
+msgid "Deployment key"
+msgstr ""
+
+#: $string['deploymentkeydesc']
+msgid ""
+"If a key is setup here, the user qill have to give that key to deploy. Leave "
+"blank to disable."
+msgstr ""
+
+#: $string['deployname']
+msgid "Course Deployment"
+msgstr ""
+
+#: $string['deploysuccess']
+msgid "Deployment succeeded."
+msgstr ""
+
+#: $string['disabledstudentdesc']
+msgid ""
+"Disabled students are based on Student role but will (should) not any more "
+"allowed to change any content in a course"
+msgstr ""
+
+#: $string['disabledstudentrole']
+msgid "Disabled students"
+msgstr ""
+
+#: $string['dobackup']
+msgid "Do a backup"
+msgstr ""
+
+#: $string['doclose']
+msgid "Close the course"
+msgstr ""
+
+#: $string['doopen']
+msgctxt "$string['doopen']"
+msgid "Open the course"
+msgstr ""
+
+#: $string['dosynch']
+msgid "Resynch my hosts"
+msgstr ""
+
+#: $string['enableretrofit']
+msgid "Enable retrofeed of courses"
+msgstr ""
+
+#: $string['enterkey']
+msgid "Key to deploy:"
+msgstr ""
+
+#: $string['erroradvice']
+msgid ""
+"Errors in you platform catalog ({$a} error(s)). Please run this script "
+"before using course factories"
+msgstr ""
+
+#: $string['errorbadblockid']
+msgid "Bad block ID"
+msgstr ""
+
+#: $string['errorencountered']
+msgid "has encountered an error:"
+msgstr ""
+
+#: $string['errormonitoring']
+msgid "It appears you have:"
+msgstr ""
+
+#: $string['errornotpublished']
+msgid "course is not published, please publish first."
+msgstr ""
+
+#: $string['errorunpublished']
+msgid "Course has no publishable backup, please make one first."
+msgstr ""
+
+#: $string['factory']
+msgid "Factory"
+msgstr ""
+
+#: $string['factoryprefix']
+msgid "Factory prefix"
+msgstr ""
+
+#: $string['factoryprefix_desc']
+msgid "Prefix of the factory platform"
+msgstr ""
+
+#: $string['failed']
+msgid "Operation failed"
+msgstr ""
+
+#: $string['failedfields']
+msgid "Number of failures:"
+msgstr ""
+
+#: $string['fieldname']
+msgid "Access to platform"
+msgstr ""
+
+#: $string['finish']
+msgid "Finish"
+msgstr ""
+
+#: $string['helpsynch']
+msgid "Synchronising platform"
+msgstr ""
+
+#: $string['ignoredfields']
+msgid "Number of hosts ignored:"
+msgstr ""
+
+#: $string['indexing']
+msgid "Indexation"
+msgstr ""
+
+#: $string['indexingof']
+msgid "Referencing a course"
+msgstr ""
+
+#: $string['islocal']
+msgid "Local Data Storage"
+msgstr ""
+
+#: $string['jumptothecourse']
+msgid "Jump to the new course instance"
+msgstr ""
+
+#: $string['lastmodified']
+msgid "Last modified"
+msgstr ""
+
+#: $string['learningarea']
+msgid "Learning Area"
+msgstr ""
+
+#: $string['leavehere']
+msgid "Leave in his own category"
+msgstr ""
+
+#: $string['mainhostprefix']
+msgid "Main host prefix"
+msgstr ""
+
+#: $string['mainhostprefix_desc']
+msgid "Prefix of the main hosting platform"
+msgstr ""
+
+#: $string['mainuseradvice']
+msgid ""
+"Being a main scope defined user, you do not own any target to deploy to."
+msgstr ""
+
+#: $string['managename']
+msgid "Retrofit and course management"
+msgstr ""
+
+#: $string['managepublishedfiles']
+msgid "Manage Published Files"
+msgstr ""
+
+#: $string['moodlenodetype']
+msgid "Moodle Node Type"
+msgstr ""
+
+#: $string['netupdate']
+msgid "Publishing Network Data Update"
+msgstr ""
+
+#: $string['networkrefreshautomation']
+msgid "Automated Network Refreshment"
+msgstr ""
+
+#: $string['networktransferadvice']
+msgid ""
+"Beware: delivering a complete path package through the network may spend "
+"some amount of time. Although most common cases have been addressed with "
+"actual settings, the transfer of some particularily big files may fail. "
+"Contact your system administrator."
+msgstr ""
+
+#: $string['noassignation']
+msgid "No assignation"
+msgstr ""
+
+#: $string['noautomatednetworkrefreshment']
+msgid "Disabled"
+msgstr ""
+
+#: $string['nocatalog']
+msgid ""
+"No catalog found in network environment. Please review the block central "
+"settings."
+msgstr ""
+
+#: $string['nodeploytargets']
+msgid "We found no deployment target for your profile definition"
+msgstr ""
+
+#: $string['noexistingtargets']
+msgid "No existing targets"
+msgstr ""
+
+#: $string['nofactory']
+msgid "No factory. System configuration is not correct for retrofit action."
+msgstr ""
+
+#: $string['normalmoodle']
+msgid "Standard Moodle"
+msgstr ""
+
+#: $string['notargets_help']
+msgid ""
+"<h2>No deployment targets</h2>\n"
+"\n"
+"<p>The course deployment system did not find any candidate for installing a "
+"working session in. The following situations may be addressed:</p>\n"
+"<ul>\n"
+"<li>You no deployment capability on any of the available training "
+"platforms.</li>\n"
+"<li>Some technical issues do avoid physically connecting to the training "
+"nodes you are responsible of.</li>\n"
+"<li>This course cannot be deployed because of being badly referenced.</li>\n"
+"<ul>\n"
+"<p>In any case, contact your tech support.</p>"
+msgstr ""
+
+#: $string['notification']
+msgid "Open with trainees notification"
+msgstr ""
+
+#: $string['notpublishedyet']
+msgid "Not yet published."
+msgstr ""
+
+#: $string['OKmonitoring']
+msgid ""
+"Network information is up to date. You do not need launching this script."
+msgstr ""
+
+#: $string['oneday']
+msgid "Once a day"
+msgstr ""
+
+#: $string['onemonth']
+msgid "Once a month"
+msgstr ""
+
+#: $string['oneweek']
+msgid "Once a week"
+msgstr ""
+
+#: $string['open']
+msgctxt "$string['open']"
+msgid "Open the course"
+msgstr ""
+
+#: $string['opening']
+msgid "Opening courses"
+msgstr ""
+
+#: $string['opennotifyhelper']
+msgid ""
+"Using this opening mode, you will give access to the training session "
+"workspace and send an opening notification to all registered users in the "
+"course."
+msgstr ""
+
+#: $string['openwithoutnotifyhelper']
+msgid ""
+"Using this opening mode, you <b>silently</b> open the course session for the "
+"users. No mail will be sent."
+msgstr ""
+
+#: $string['perform']
+msgid "Perform the upgrade"
+msgstr ""
+
+#: $string['platformlastupdate']
+msgid "Last Update Perfomed On"
+msgstr ""
+
+#: $string['platformname']
+msgid "Platform Name"
+msgstr ""
+
+#: $string['platformstatus']
+msgid "Platform Type"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Course Publishing Workflow"
+msgstr ""
+
+#: $string['publicsessions']
+msgid "Allow Public Sessions"
+msgstr ""
+
+#: $string['publicsessions_desc']
+msgid ""
+"If enabled, servers can provide you session lists without checking identity "
+"of the user"
+msgstr ""
+
+#: $string['publish']
+msgid "Publish"
+msgstr ""
+
+#: $string['publishconfirm']
+msgid "Visibility in master course catalog is immediate. Continue ?"
+msgstr ""
+
+#: $string['publishedhidden']
+msgid ""
+"This course is in the master course catalog, but set to hidden. You may make "
+"it visible again."
+msgstr ""
+
+#: $string['publishflow']
+msgid "Platform Catalog Renewal"
+msgstr ""
+
+#: $string['publishflow:addinstance']
+msgid "Add the Publication block to the course"
+msgstr ""
+
+#: $string['publishflowbackups']
+msgid "Publishflow Backups"
+msgstr ""
+
+#: $string['publishflowbackupsadvice']
+msgid ""
+"Please note that deleting files from this area will cause possible "
+"malfunction in this course deployment."
+msgstr ""
+
+#: $string['publishflow:deploy']
+msgid "Deploy a course onto a training node"
+msgstr ""
+
+#: $string['publishflow:deployeverywhere']
+msgid "Deploy everywhere"
+msgstr ""
+
+#: $string['publishflow_description']
+msgid ""
+"This service binds all functions dedicated to MNET publishing of courses. "
+"You need subscribe and publish both sides for course transfers to be "
+"enabled."
+msgstr ""
+
+#: $string['publishflow:manage']
+msgid "Manage the training session"
+msgstr ""
+
+#: $string['publishflow:managelpoffer']
+msgid "Manage the local offer on training nodes"
+msgstr ""
+
+#: $string['publishflow:managepublishedfiles']
+msgid "Can manage published archives"
+msgstr ""
+
+#: $string['publishflow_name']
+msgid "Publishflow Services"
+msgstr ""
+
+#: $string['publishflow:publish']
+msgid "Publish courses in main catalog"
+msgstr ""
+
+#: $string['publishflow:retrofit']
+msgid "Can retrofit the course into a Factory"
+msgstr ""
+
+#: $string['publishing']
+msgid "Publication"
+msgstr ""
+
+#: $string['publishname']
+msgid "Course Publishing"
+msgstr ""
+
+#: $string['publishsuccess']
+msgid "Publishing succeeded."
+msgstr ""
+
+#: $string['publishtooltip']
+msgid "Publish in the master course catalog"
+msgstr ""
+
+#: $string['reference']
+msgid "Reference"
+msgstr ""
+
+#: $string['reopen']
+msgid "Open again"
+msgstr ""
+
+#: $string['republish']
+msgid "Update"
+msgstr ""
+
+#: $string['republishconfirm']
+msgid ""
+"You will replace the actually published course with the new content. "
+"Continue ?"
+msgstr ""
+
+#: $string['republishtooltip']
+msgid "Force update"
+msgstr ""
+
+#: $string['retrofeedname']
+msgid "Retrofeed to factory"
+msgstr ""
+
+#: $string['retrofit']
+msgid "Retrofeed in the factory"
+msgstr ""
+
+#: $string['retrofit_help']
+msgid ""
+"<h2>Course publishflow</h2>\n"
+"<h3>Retrofeeding courses to factory</h3>\n"
+"\n"
+"<p>Retrofeeding will copy this course to the designated factory instance in "
+"the network</p>\n"
+"\n"
+"<p>When launching the retrofeeding operation, you will copy the structure "
+"and content of this course\n"
+"as per the last backup stored in the publishing file area of the course.</p>\n"
+"\n"
+"<p>The backup used for retrofeeding IGNORES any user related information and "
+"data\n"
+"of the course, the activities, resources and blocks being reproduced with "
+"the same settings than the original.</p>\n"
+"\n"
+"<p>The retrofed unit will be available in a predefined category.</p>"
+msgstr ""
+
+#: $string['retrofiting']
+msgid "Retrofeed:"
+msgstr ""
+
+#: $string['retrofitsuccess']
+msgid "Retrofeed finished."
+msgstr ""
+
+#: $string['retrofitting']
+msgid "Retrofeeding the path to the factory"
+msgstr ""
+
+#: $string['runningcategory']
+msgid "Active Category"
+msgstr ""
+
+#: $string['runningcategory_desc']
+msgid "Category for active sessions"
+msgstr ""
+
+#: $string['sessionopening']
+msgid "Opening the courses"
+msgstr ""
+
+#: $string['setup']
+msgid "Setup"
+msgstr ""
+
+#: $string['single_full']
+msgid "Synchronise platforms types and categories"
+msgstr ""
+
+#: $string['single_short']
+msgid "Synchronise platforms"
+msgstr ""
+
+#: $string['step']
+msgid "Step"
+msgstr ""
+
+#: $string['submitname']
+msgid "Submit name"
+msgstr ""
+
+#: $string['submittodesc']
+msgid "Submit down"
+msgstr ""
+
+#: $string['synchonizingnetworkconfig']
+msgid "Acquiring the network structure"
+msgstr ""
+
+#: $string['synchplatforms']
+msgid ""
+"<p>If a new Moodle host has been recently added to your network, you may "
+"resync the purpose of this node within the publishing network, and update "
+"its category structure local cache.</p>"
+msgstr ""
+
+#: $string['testdeploy']
+msgid "Test deployement"
+msgstr ""
+
+#: $string['unavailable']
+msgid ""
+"No backup available. You must backup without user data before transfering."
+msgstr ""
+
+#: $string['unpublish']
+msgid "Unpublish"
+msgstr ""
+
+#: $string['unpublishable']
+msgid "Not publishable"
+msgstr ""
+
+#: $string['unpublishconfirm']
+msgid "The effect in master course catalog is immediate. Continue ?"
+msgstr ""
+
+#: $string['unpublishtooltip']
+msgid "Hide the course in the master course catalog"
+msgstr ""
+
+#: $string['unregistered']
+msgid ""
+"This path has not received official agreement. It cannot be published nor "
+"deployed."
+msgstr ""
+
+#: $string['updateok']
+msgid "has been successfully upgraded"
+msgstr ""
+
+#: $string['URL']
+msgid "Url"
+msgstr ""
+
+#: $string['warningadvice']
+msgid ""
+"Warnings in your platform catalog ({$a} warning(s)). Please consider running "
+"this script soon."
+msgstr ""
+
+#: $string['warningload']
+msgid ""
+"WARNING: The operation you are about to launch may consume heavy load. DO "
+"NOT trigger it unless you have thought it through!"
+msgstr ""
+
+#: $string['withoutnotification']
+msgid "Open without notifying the users"
+msgstr ""

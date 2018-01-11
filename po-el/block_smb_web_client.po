@@ -1,0 +1,463 @@
+#. extracted from lang/en/block_smb_web_client.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_smb_web_client', language 'en', branch 'MOODLE_27_STABLE'
+#.  *
+#.  * @package   block_smb_web_client
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['add']
+msgid "Add Server > SMB mapping"
+msgstr ""
+
+#: $string['advancedsettings']
+msgid "Advanced Settings"
+msgstr ""
+
+#: $string['arg']
+msgid "Argument"
+msgstr ""
+
+#: $string['back']
+msgid "Return to Block Settings"
+msgstr ""
+
+#: $string['clamav']
+msgid "Use ClamAV"
+msgstr ""
+
+#: $string['courses']
+msgid "Choose Associated Courses (multiple selections allowed - hold CTRL)"
+msgstr ""
+
+#: $string['del']
+msgid "Delete"
+msgstr ""
+
+#: $string['descadminshares']
+msgid ""
+"Sets whether system-wide shares (eg: windows shares suffixed with $) are "
+"shown"
+msgstr ""
+
+#: $string['descallsharessite']
+msgid ""
+"If set, all shares are displayed throughout the site, otherwise shares are "
+"only displayed when the user is within the courses to which the share is "
+"allocated."
+msgstr ""
+
+#: $string['descanonymous']
+msgid ""
+"If you have public shares in your network (ie: you want absolutely everyone "
+"- *the whole world* - to access it) then tick this *[NB: Not recommended if "
+"Moodle Guest access is enabled]*"
+msgstr ""
+
+#: $string['descauth']
+msgid ""
+"Sets whether SMBClient uses the USER OS environment variable (more secure) "
+"or passes the username via smbclient -U parameter"
+msgstr ""
+
+#: $string['descav']
+msgid ""
+"Use ClamAV to check uploads for viruses. NB: <a "
+"href=\"http://www.clamav.net/lang/en/download/packages/packages-linux/\" "
+"target=\"_blank\">ClamAV</a> must be installed to use this feature"
+msgstr ""
+
+#: $string['descconfig']
+msgid ""
+"Whilst the majority of common settings can be established here, further fine "
+"tuning of less-common settings can be made within the "
+"<i>config_smb_web_client.php</i> file within this block's installation "
+"folder."
+msgstr ""
+
+#: $string['desccustomtitle']
+msgid ""
+"Gives the block a custom title as opposed to the default of \"Windows Shares\""
+msgstr ""
+
+#: $string['descdotfiles']
+msgid "Sets whether users can view files preceeded with a . (Unix file hiding)"
+msgstr ""
+
+#: $string['descforcedl']
+msgid ""
+"Force all files to be downloaded instead of trying to open within browser"
+msgstr ""
+
+#: $string['deschomedirsharerep']
+msgid "Text to replace in home directory string"
+msgstr ""
+
+#: $string['deschomedirsharesrch']
+msgid "Text to search for in home directory string"
+msgstr ""
+
+#: $string['deschomef']
+msgid ""
+"Leave blank to use the default AD homeDirectory field, otherwise, specify "
+"your custom AD field name above."
+msgstr ""
+
+#: $string['deschomet']
+msgid ""
+"If your user's documents are stored within a SUBFOLDER within the AD "
+"homeDirectory path, enable this and specify the subfolder below."
+msgstr ""
+
+#: $string['deschometloc']
+msgid ""
+"Specify the subfolder of the homeDirectory path to use *(only in effect if "
+"'Traverse homeDirectory' is enabled)*"
+msgstr ""
+
+#: $string['desclog']
+msgid ""
+"Sets logging level for Debug purposes (logs written to OS-level default log "
+"daemon - with Linux this is normally /var/log/syslog)"
+msgstr ""
+
+#. RewriteRule ^(.*/[^\\./]*[^/])$ $1/#   RewriteRule ^(.*)$ smbwebclient.php?path=$1 [QSA,L]
+#: $string['descmodrewrite']
+msgid ""
+"If you have Apache mod_rewrite installed you can enable this setting and put "
+"the following within a .htaccess file within this block's root:\n"
+"<pre>\n"
+"&lt;IfModule mod_rewrite.c&gt;\n"
+"    RewriteEngine on\n"
+"    RewriteCond    %{REQUEST_FILENAME}  -d\n"
+"&lt;/IfModule&gt;</pre>\n"
+"\n"
+"Then you will be able to access using \"pretty\" URLs (ie: http://server"
+"/windows-network/DOMAIN/SERVER/SHARE/PATH)"
+msgstr ""
+
+#: $string['descoffice']
+msgid ""
+"Affects Microsoft Office Document formats only - prevents users from opening "
+"within browser, thus opening from 'temporary internet files' local folder, "
+"and forces them ro RightClick and choose 'Save Target As' (the user is "
+"prompted to do this)"
+msgstr ""
+
+#: $string['descprn']
+msgid "If ticked, printer shares are hidden, otherwise they are shown"
+msgstr ""
+
+#: $string['descsmbclient']
+msgid ""
+"Set the path to your smbclient binary.<br />\n"
+"ie: /usr/bin/smbclient (for Linux), /usr/local/bin/smbclient (for FreeBSD), "
+"C:\\cygwin\\bin\\smbclient (for Windows)"
+msgstr ""
+
+#: $string['descssl']
+msgid ""
+"Forces the Windows Share access block to communicate via SSL (recommended)"
+msgstr ""
+
+#: $string['descuserprefix']
+msgid ""
+"If your file server is separate from your domain server its likely that all "
+"usernames will require the domain prefix to login and access shares - e.g. "
+"CITRICITY/guy intead of just guy - in this case you would need a prefix of "
+"CITRICITY/"
+msgstr ""
+
+#: $string['descwebos']
+msgid ""
+"Webserver Operating System - either Linux or Windows. (If BSD or other *NIX "
+"OS, use 'Linux')"
+msgstr ""
+
+#: $string['desczipmax']
+msgid ""
+"When downloading a folder as a Zip file, impose a size maximum in Mb as set "
+"above. (0 = No limit)"
+msgstr ""
+
+#: $string['env']
+msgid "Environment"
+msgstr ""
+
+#: $string['false']
+msgid "false"
+msgstr ""
+
+#: $string['generalsettings']
+msgid "General Settings"
+msgstr ""
+
+#: $string['headerconfig']
+msgid "Windows Share access, aka SMBWebClient for Moodle 2.3+"
+msgstr ""
+
+#: $string['homedir']
+msgid "Home Directory"
+msgstr ""
+
+#: $string['homedirshare']
+msgid "Home Directory Share"
+msgstr ""
+
+#: $string['jsintfilter']
+msgid ""
+"You can filter shares so they only apply to people with specific roles (R), "
+"or be in specific courses (CS), or be in specific cohorts (CH) - e.g. "
+"R[manager,site_learner],CS[1],CH[parents]"
+msgstr ""
+
+#: $string['labeladminshares']
+msgid "Hide Admin Shares"
+msgstr ""
+
+#: $string['labelallsharessite']
+msgid "Display All Shares on Site Page"
+msgstr ""
+
+#: $string['labelanonymous']
+msgid "Allow anonymous login"
+msgstr ""
+
+#: $string['labelauth']
+msgid "Authentication Method"
+msgstr ""
+
+#: $string['labelav']
+msgid "AntiVirus Checking"
+msgstr ""
+
+#: $string['labelcustomtitle']
+msgid "Block Custom Title"
+msgstr ""
+
+#: $string['labeldotfiles']
+msgid "Hide hidden files"
+msgstr ""
+
+#: $string['labelforcedl']
+msgid "Force downloads"
+msgstr ""
+
+#: $string['labelhomedirsharerep']
+msgid "Replace home dir string"
+msgstr ""
+
+#: $string['labelhomedirsharesrch']
+msgid "Search home dir string"
+msgstr ""
+
+#: $string['labelhomef']
+msgid "ActiveDirectory field for HomeDirectory"
+msgstr ""
+
+#: $string['labelhomet']
+msgid "Traverse homeDirectory"
+msgstr ""
+
+#: $string['labelhometloc']
+msgid "Subfolder for Traversal"
+msgstr ""
+
+#: $string['labellog']
+msgid "Logging Level"
+msgstr ""
+
+#: $string['labelmodrewrite']
+msgid "Enable 'mod_rewrite' functionality?"
+msgstr ""
+
+#: $string['labeloffice']
+msgid "Force right-click > Save"
+msgstr ""
+
+#: $string['labelprn']
+msgid "Hide Printer Shares"
+msgstr ""
+
+#: $string['labelsmbclient']
+msgid "SMBClient Location"
+msgstr ""
+
+#: $string['labelssl']
+msgid "Force SSL"
+msgstr ""
+
+#: $string['labeluserprefix']
+msgid "Username Prefix"
+msgstr ""
+
+#: $string['labelwebos']
+msgid "Webserver OS"
+msgstr ""
+
+#: $string['labelzipmax']
+msgid "Max Zip Size (Mb)"
+msgstr ""
+
+#: $string['linux']
+msgid "Linux"
+msgstr ""
+
+#: $string['logact']
+msgid "Basic Actions"
+msgstr ""
+
+#: $string['logbtrace']
+msgid "Log ALL Output and PHP backtrace"
+msgstr ""
+
+#: $string['logfull']
+msgid "Log ALL Output"
+msgstr ""
+
+#: $string['logonerror']
+msgid "Log on error - click here to re-enter credentials."
+msgstr ""
+
+#: $string['manageservers']
+msgid "Windows Share access > Manage Servers"
+msgstr ""
+
+#: $string['manageshares']
+msgid "Windows Share access > Manage Shared Folders"
+msgstr ""
+
+#: $string['manserver']
+msgid "Set Server to SMB Mapping"
+msgstr ""
+
+#: $string['manserver2']
+msgid "Step 1: Configure your Windows Shares for HomeDirectories"
+msgstr ""
+
+#: $string['manshares']
+msgid "Add Shares"
+msgstr ""
+
+#: $string['manshares2']
+msgid "Step 2: Configure any Additional Shares"
+msgstr ""
+
+#: $string['noaccess']
+msgid "Access Denied"
+msgstr ""
+
+#: $string['noav']
+msgid "No AntiVirus checking"
+msgstr ""
+
+#: $string['nomsg']
+msgid "No logging"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Windows Share access"
+msgstr ""
+
+#: $string['serverexp']
+msgid ""
+"You need an entry here for every server which contains your user's "
+"homeDirectories."
+msgstr ""
+
+#: $string['shareformats']
+msgid ""
+"<p>List each share on a separate line in standard smb "
+"format</p><p>e.g.</p><pre>\n"
+"               \\\\admin-server\\staffshared\n"
+"               \\\\192.168.40.2\\www\n"
+"</pre>\n"
+"<p>To limit shares by system roles, append :R[rolename(s)] to the share "
+"(separte multiple roles with commas), e.g.</p>\n"
+"<pre>\n"
+"               \\\\admin-server\\staffshared:R[manager,site_learner]\n"
+"</pre>\n"
+"<p>To limit shares by access to courses, append :CS[courseid(s)] to the "
+"share, e.g.</p>\n"
+"<pre>\n"
+"               \\\\admin-server\\staffshared:CS[100,5]\n"
+"</pre>\n"
+"<p>To limit shares by system cohort membership, append "
+":CH[cohortidnumber(s)] to the share, e.g.</p>\n"
+"<pre>\n"
+"               \\\\admin-server\\studentshared:CH[students,staff]\n"
+"</pre>"
+msgstr ""
+
+#: $string['sharename']
+msgid "Share Path (<i>domain/server/share</i>)"
+msgstr ""
+
+#: $string['shares']
+msgid "Shares"
+msgstr ""
+
+#: $string['sharetitle']
+msgid "Display Name"
+msgstr ""
+
+#: $string['smbcall']
+msgid "SMBClient Calls"
+msgstr ""
+
+#: $string['smbshare']
+msgid "Samba Equivalent (<i>domain/servername</i>)"
+msgstr ""
+
+#: $string['smb_web_client:addinstance']
+msgid "Add SMB web client instance"
+msgstr ""
+
+#: $string['sponsor']
+msgid ""
+"Development of this release (2013101400) is sponsored by Overnet Data Ltd <a "
+"href=\"http://www.overnetdata.com\">www.overnetdata.com</a>"
+msgstr ""
+
+#: $string['true']
+msgid "true"
+msgstr ""
+
+#: $string['winarg']
+msgid "Argument (Win Only)"
+msgstr ""
+
+#: $string['windows']
+msgid "Windows"
+msgstr ""
+
+#: $string['winshare']
+msgid "Windows server (<i>\\\\SERVERNAME</i>)"
+msgstr ""

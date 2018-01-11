@@ -1,0 +1,594 @@
+#. extracted from lang/en/customlabel.php, lang/el/customlabel.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'customlabel', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   customlabel
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['adminmetadata']
+msgid "Classifiers configuration"
+msgstr ""
+
+#: $string['apparence']
+msgid "Apparence"
+msgstr ""
+
+#: $string['category']
+msgid "Category"
+msgstr "Κατηγορία"
+
+#: $string['changetypeadvice']
+msgid ""
+"You are about to thange the internal data structure of this element. Old "
+"content cannot be maintained. Continue?"
+msgstr ""
+
+#: $string['classification']
+msgid "Classification"
+msgstr ""
+
+#: $string['classificationconstrainttable']
+msgid "Constraints table"
+msgstr ""
+
+#: $string['classificationconstrainttable_help']
+msgid "This table is capable to map the value pairs wich are not compatible."
+msgstr ""
+
+#: $string['classificationmodel']
+msgid "Classification model"
+msgstr ""
+
+#: $string['classificationtypetable']
+msgid "Classification dimensions and filters table"
+msgstr ""
+
+#: $string['classificationtypetable_help']
+msgid ""
+"This table provides domains of classification. A domain holds a set of "
+"values."
+msgstr ""
+
+#: $string['classificationvalues']
+msgid "Values"
+msgstr ""
+
+#: $string['classificationvaluetable']
+msgid "classification values table"
+msgstr ""
+
+#: $string['classificationvaluetable_help']
+msgid ""
+"This table provides all values for all classifiers defined in the Type "
+"Table."
+msgstr ""
+
+#: $string['classificationvaluetypekey']
+msgid "classifier Type field"
+msgstr ""
+
+#: $string['classificationvaluetypekey_help']
+msgid ""
+"This must define the table column name that is used to key the type "
+"ownership on values."
+msgstr ""
+
+#: $string['classifiers']
+msgid "Classifiers"
+msgstr ""
+
+#: $string['classifierstypes']
+msgid "Classifiers type"
+msgstr ""
+
+#: $string['cleararea']
+msgid "Clear this file area"
+msgstr ""
+
+#: $string['code']
+msgctxt "$string['code']"
+msgid "Code"
+msgstr ""
+
+#: $string['commands']
+msgid "Commands"
+msgstr ""
+
+#: $string['configclassificationconstrainttable']
+msgid "Constraint table"
+msgstr ""
+
+#: $string['configclassificationconstrainttable_desc']
+msgid ""
+"This table holds the constraints betxween the different types involved into "
+"the classificaiton."
+msgstr ""
+
+#: $string['configclassificationtypetable']
+msgid "Table for classifier types"
+msgstr ""
+
+#: $string['configclassificationtypetable_desc']
+msgid "A classifier type holds a set of values in the value table."
+msgstr ""
+
+#: $string['configclassificationvaluetable']
+msgid "Table for classification values"
+msgstr ""
+
+#: $string['configclassificationvaluetable_desc']
+msgid "This is the table where to find the metadata values"
+msgstr ""
+
+#: $string['configclassificationvaluetypekey']
+msgid "Type key name in value table"
+msgstr ""
+
+#: $string['configclassificationvaluetypekey_desc']
+msgid ""
+"This is the name of the field that serves as datatype foreign key to qualify "
+"the value"
+msgstr ""
+
+#: $string['configcoursemetadatacoursekey']
+msgid "Course key name in metadata binder"
+msgstr ""
+
+#: $string['configcoursemetadatacoursekey_desc']
+msgid ""
+"This is the name of the field that serves as course foreign key in the "
+"metadata table. The content of this field should be a valid COURSE id."
+msgstr ""
+
+#: $string['configcoursemetadatatable']
+msgid "Table for metadata binding"
+msgstr ""
+
+#: $string['configcoursemetadatatable_desc']
+msgid ""
+"This table binds relation between a course record and any metadata pointed "
+"by ab id. The metadata should reside in the following metadata value table."
+msgstr ""
+
+#: $string['configcoursemetadatavaluekey']
+msgid "Value key name in metadata binder"
+msgstr ""
+
+#: $string['configcoursemetadatavaluekey_desc']
+msgid ""
+"This is the name of the filed that serves as data value foreign key in the "
+"metadata table."
+msgstr ""
+
+#: $string['configmetadatabinding']
+msgid "Metadata schema binding"
+msgstr ""
+
+#: $string['configmetadatabinding_desc']
+msgid ""
+"<p>The couse indexer relies on a capability to index courses with some "
+"metadata and classifiers. the course index model uses 4 tables to achieve "
+"this feature, and allows binding those tables from any implementation\n"
+"the integrator would need. The default binding uses the Customlabel module "
+"and its inbound classifier tableset. But the ocurse index might bind to any "
+"other model that respects following defs:</p>\n"
+"<ul>\n"
+"<li>There is a table to store the metadata domain values</li>\n"
+"<li>Metadata values are typed. A table exists to store the metadata types to "
+"which values refer.</li>\n"
+"<li>Metadata types are combined using a constraint table, that tells valid "
+"values combinations</li>\n"
+"<li>A table exists that binds a course to a metadata value (tagging)</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['constraints']
+msgid "Constraints"
+msgstr ""
+
+#: $string['content']
+msgid "Content"
+msgstr ""
+
+#: $string['coursefilter']
+msgid "Course filter"
+msgstr ""
+
+#: $string['coursemetadatacoursekey']
+msgid "Tagging key for course (course to metadata binding)"
+msgstr ""
+
+#: $string['coursemetadatacoursekey_help']
+msgid ""
+"This must define a column name in database that maps a record to a course "
+"ID."
+msgstr ""
+
+#: $string['coursemetadatatable']
+msgid "course metadata tagging table"
+msgstr ""
+
+#: $string['coursemetadatatable_help']
+msgid "This table provides course to metadata bindings."
+msgstr ""
+
+#: $string['coursemetadatavaluekey']
+msgid "Tagging field for values (metadata to value binding)"
+msgstr ""
+
+#: $string['coursemetadatavaluekey_help']
+msgid ""
+"This must define a column name in database that maps a record to a metadata "
+"value."
+msgstr ""
+
+#: $string['cssoverrides']
+msgid "CSS Overrides"
+msgstr ""
+
+#: $string['cssoverridesdesc']
+msgid ""
+"If this field is used, Styling rules herein written will be appended to the "
+"global stylesheet to alter customlabel apparence. this needs your theme has "
+"been tuned to define the insertion point. See README.txt."
+msgstr ""
+
+#: $string['customlabel:addinstance']
+msgid "Can add an instance"
+msgstr ""
+
+#: $string['customlabel:fullaccess']
+msgid "Full access to all fields"
+msgstr ""
+
+#: $string['customlabel:managemetadata']
+msgid "Manage metadata"
+msgstr ""
+
+#: $string['customlabelplugins']
+msgid "Plugins"
+msgstr ""
+
+#: $string['customlabeltools']
+msgid "Mass tools for custom labels"
+msgstr ""
+
+#: $string['disabledsubtypes']
+msgid "Disabled subtypes"
+msgstr ""
+
+#: $string['disabledsubtypesdesc']
+msgid ""
+"Any subtype mentionned in this field will be globally disabled for the whole "
+"site."
+msgstr ""
+
+#: $string['doupdate']
+msgid "Update !!"
+msgstr ""
+
+#: $string['down']
+msgid "Down"
+msgstr ""
+
+#: $string['editclass']
+msgid "Update classifier class&ensp;"
+msgstr ""
+
+#: $string['editvalues']
+msgid "Edit values"
+msgstr ""
+
+#: $string['errorclassloading']
+msgid "Error loading : Null class"
+msgstr ""
+
+#: $string['errorfailedloading']
+msgid ""
+"Failed loading class for custom label {$a}. Reverting to \"text\" customlabel."
+msgstr ""
+
+#: $string['errorinsertvalue']
+msgid "Could not insert a new value"
+msgstr ""
+
+#: $string['errorupdatevalue']
+msgid "Could not update a new value"
+msgstr ""
+
+#: $string['exclude']
+msgid "Exclude"
+msgstr ""
+
+#: $string['exportdata']
+msgid "Export data to XML"
+msgstr ""
+
+#: $string['familygeneric']
+msgid "Generic elements"
+msgstr ""
+
+#: $string['familymeta']
+msgid "Meta-Pedagogy elements"
+msgstr ""
+
+#: $string['familypedagogic']
+msgid "Pedagogy elements"
+msgstr ""
+
+#: $string['familyspecial']
+msgid "Special elements"
+msgstr ""
+
+#: $string['familystructure']
+msgid "Structural elements"
+msgstr ""
+
+#: $string['filter']
+msgid "Filter"
+msgstr ""
+
+#: $string['include']
+msgid "Include"
+msgstr ""
+
+#: $string['labelclass']
+msgid "Label type"
+msgstr ""
+
+#: $string['labelclasses']
+msgid "Element classes"
+msgstr ""
+
+#: $string['labelupdater']
+msgid "{$a} Regeneration Tool"
+msgstr ""
+
+#: $string['languages']
+msgid "Language"
+msgstr "Γλώσσα"
+
+#: $string['lockedsample']
+msgid "Locked field sample"
+msgstr ""
+
+#: $string['managecustomlabeltypeplugins']
+msgid "Manage customlabel plugins"
+msgstr ""
+
+#: $string['metadata']
+msgid "Metadata values"
+msgstr ""
+
+#: $string['metadataset']
+msgid "Classification values"
+msgstr ""
+
+#: $string['missingfields']
+msgid "Mandatory fields have not been defined"
+msgstr ""
+
+#: $string['model']
+msgid "Data Model"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Course element"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"Course Elements provide you with pedagogic modules that are already layout "
+"and\n"
+"designed for serving some high level pedagogic needs. Course elements have "
+"subtypes that address common\n"
+"learning actions : work to do, soluce, see also (optional reference), local "
+"goals, reminder, and some\n"
+"editioral helpers such as course captions. Administrator can integrate "
+"specific models with additional\n"
+"editorial value such as using prefitted image bank, or tagging courses,\n"
+"You just need to enter the appropriate data in each module\n"
+"and register."
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Course elements"
+msgstr ""
+
+#: $string['name']
+msgid "Label"
+msgstr ""
+
+#: $string['noclassifiers']
+msgid "No classifier"
+msgstr ""
+
+#: $string['nocontentforthislanguage']
+msgid "No content available for this language<br/>"
+msgstr ""
+
+#: $string['none']
+msgid "Undefined"
+msgstr ""
+
+#: $string['notypes']
+msgid "No classifier type"
+msgstr ""
+
+#: $string['novalues']
+msgid "No registered value"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Course element administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Course element"
+msgstr ""
+
+#: $string['qualifiers']
+msgid "Qualifiers"
+msgstr ""
+
+#: $string['regenerate']
+msgid "Regenerate"
+msgstr ""
+
+#: $string['regeneration']
+msgid "Content mass regeneration"
+msgstr ""
+
+#: $string['resourcetypecustomlabel']
+msgctxt "$string['resourcetypecustomlabel']"
+msgid "Course element"
+msgstr ""
+
+#: $string['roleaccesstoelements']
+msgid "Access per role"
+msgstr ""
+
+#: $string['sametypes']
+msgid "You cannot constraint twice the same type"
+msgstr ""
+
+#: $string['settings']
+msgid "Settings"
+msgstr ""
+
+#: $string['show']
+msgid "Show&ensp;"
+msgstr ""
+
+#: $string['specifics']
+msgid "Type specific"
+msgstr ""
+
+#: $string['storage']
+msgid "Storage model"
+msgstr ""
+
+#: $string['templatenotfound']
+msgid "Template {$a} not found"
+msgstr ""
+
+#: $string['text']
+msgid "Text"
+msgstr ""
+
+#: $string['title']
+msgid "Element name"
+msgstr ""
+
+#: $string['typecode']
+msgctxt "$string['typecode']"
+msgid "Code"
+msgstr ""
+
+#: $string['typecode_help']
+msgid ""
+"<p>This will help for matching data with external system when extracting "
+"data with custom queries in blocks of type\n"
+"Custom Reports or Dashboard.</p>\n"
+"\n"
+"<p>Note that some codes are implicitely bound to some special features of "
+"course indexation\n"
+"using the Course Classifier subtype. The course classifier subtype is a "
+"classifier utility that helps some other\n"
+"components as the Local Course Index to present a multicategorized, "
+"searchable course catalog.</p>\n"
+"<ul>\n"
+"<li>LEVEL0 : Use this code for defining a first classifier dimension in the "
+"course classifier.</li>\n"
+"<li>LEVEL1 : Use this code for defining a second classifier dimension in the "
+"course classifier.</li>\n"
+"<li>LEVEL2 : Use this code for defining a third classifier dimension in the "
+"course classifier.</li>\n"
+"<li>PEOPLE : Use this code for defining a target audience filter.</li>\n"
+"</ul>\n"
+"\n"
+"</p>for the subtype WorkTodo: </p>\n"
+"<ul>\n"
+"<li>WORKEFFORT : Qualify learning effort</li>\n"
+"<li>WORKTYPE : Qualify nature of the work</li>\n"
+"<li>WORKMODE : Qualify social perimeter of the task</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['typename']
+msgid "Name"
+msgstr ""
+
+#: $string['typetype']
+msgid "Type"
+msgstr ""
+
+#: $string['typetype_help']
+msgid ""
+"<p>Type type can be:</p>\n"
+"<ul>\n"
+"<li>A category: A category interacts with course catalog implementations to "
+"build a multicriteria course taxonomy.</li>\n"
+"<li>A filter: A simple tag some Course Element subtypes can use</p>\n"
+"<li>A course filter: A tag that can be used by some course catalog "
+"implementations fo filtering search results.</p>\n"
+"</ul>"
+msgstr ""
+
+#: $string['up']
+msgid "Up"
+msgstr ""
+
+#: $string['updateall']
+msgid "Update all instances"
+msgstr ""
+
+#: $string['updatelabels']
+msgid "Regenerate instances of {$a}"
+msgstr ""
+
+#: $string['updatescope']
+msgid "Updating scope"
+msgstr ""
+
+#: $string['usedas']
+msgid "Use as&ensp;"
+msgstr ""
+
+#: $string['usesafestorage']
+msgid "Use safe storage for content (base64)"
+msgstr ""
+
+#: $string['value']
+msgid "Value"
+msgstr ""

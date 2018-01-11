@@ -1,0 +1,285 @@
+#. extracted from lang/en/auth_shibboleth.php, lang/el/auth_shibboleth.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'auth_shibboleth', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   auth_shibboleth
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['auth_shib_auth_method']
+msgid "Authentication method name"
+msgstr "Authentication Method Name"
+
+#: $string['auth_shib_auth_method_description']
+msgid ""
+"Provide a name for the Shibboleth authentication method that is familiar to "
+"your users. This could be the name of your Shibboleth federation, e.g. "
+"<tt>SWITCHaai Login</tt> or <tt>InCommon Login</tt> or similar."
+msgstr ""
+"Provide a name for the Shibboleth authentication method that is familiar to "
+"your users. This could be the name of your Shibboleth federation, e.g. "
+"<tt>SWITCHaai Login</tt> or <tt>InCommon Login</tt> or similar."
+
+#: $string['auth_shibbolethdescription']
+msgid ""
+"Using this method users are created and authenticated using <a "
+"href=\"http://shibboleth.internet2.edu/\">Shibboleth</a>.<br />Be sure to read "
+"the <a href=\"../auth/shibboleth/README.txt\">README</a> for Shibboleth on "
+"how to set up your Moodle with Shibboleth"
+msgstr ""
+"Με αυτήν την μέθοδο οι χρήστες δημιουργούνται και πιστοποιούνται "
+"χρησιμοποιώντας <a href=\"http://shibboleth.internet2.edu/\" "
+"target=\"_blank\">Shibboleth</a>.<br> Διαβάστε το a "
+"href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a>  σχετικά με "
+"το πως να ρυθμίσετε το ΠΗΛΕΑΣ με το Shibboleth."
+
+#: $string['auth_shibboleth_errormsg']
+msgid "Please select the organization you are member of!"
+msgstr "Please select the organization you are member of!"
+
+#: $string['auth_shibboleth_login']
+msgid "Shibboleth login"
+msgstr "Είσοδος Shibboleth"
+
+#: $string['auth_shibboleth_login_long']
+msgid "Login to Moodle via Shibboleth"
+msgstr "Login to Moodle via Shibboleth"
+
+#: $string['auth_shibboleth_manual_login']
+msgid "Manual login"
+msgstr "Χειροκίνητη είσοδος"
+
+#: $string['auth_shibboleth_select_member']
+msgid "I'm a member of ..."
+msgstr "I'm a member of ..."
+
+#: $string['auth_shibboleth_select_organization']
+msgid ""
+"For authentication via Shibboleth, please select your organization from the "
+"drop down list:"
+msgstr ""
+"For authentication via Shibboleth, please select your organization from the "
+"drop down list:"
+
+#: $string['auth_shib_changepasswordurl']
+msgid "Password-change URL"
+msgstr "Password-change URL"
+
+#: $string['auth_shib_contact_administrator']
+msgid ""
+"In case you are not associated with the given organizations and you need "
+"access to a course on this server, please contact the <a "
+"href=\"mailto:{$a}\">Moodle Administrator</a>."
+msgstr ""
+
+#: $string['auth_shib_convert_data']
+msgid "Data modification API"
+msgstr "API τροποποίησης δεδομένων"
+
+#: $string['auth_shib_convert_data_description']
+msgid ""
+"You can use this API to further modify the data provided by Shibboleth. Read "
+"the <a href=\"../auth/shibboleth/README.txt\">README</a> for further "
+"instructions."
+msgstr ""
+"Μπορείτε να χρησιμοποιήσετε αυτό το API για να τροποποιήσετε επιπλέον τα "
+"δεδομένα του Shibboleth. Διαβάστε το <a href=\"../auth/shibboleth/README.txt\" "
+"target=\"_blank\">README</a> για περισσότερες πληροφορίες."
+
+#: $string['auth_shib_convert_data_warning']
+msgid "The file does not exist or is not readable by the webserver process!"
+msgstr ""
+"Αυτό το αρχείο δεν υπάρχει ή δεν είναι αναγνώσιμο από την διαδικασία του "
+"webserver."
+
+#: $string['auth_shib_idp_list']
+msgid "Identity providers"
+msgstr "Identity Providers"
+
+#: $string['auth_shib_idp_list_description']
+msgid ""
+"Provide a list of Identity Provider entityIDs to let the user choose from on "
+"the login page.<br />On each line there must be a comma-separated tuple for "
+"entityID of the IdP (see the Shibboleth metadata file) and Name of IdP as "
+"it shall be displayed in the drop-down list.<br />As an optional third "
+"parameter you can add the location of a Shibboleth session initiator that "
+"shall be used in case your Moodle installation is part of a multi federation "
+"setup."
+msgstr ""
+"Provide a list of Identity Provider entityIDs to let the user choose from on "
+"the login page.<br />On each line there must be a comma-separated tuple for "
+"entityID of the IdP (see the Shibboleth metadata file) and Name of IdP as "
+"it shall be displayed in the drop-down list.<br />As an optional third "
+"parameter you can add the location of a Shibboleth session initiator that "
+"shall be used in case your Moodle installation is part of a multi federation "
+"setup."
+
+#: $string['auth_shib_instructions']
+msgid ""
+"Use the <a href=\"{$a}\">Shibboleth login</a> to get access via Shibboleth, if "
+"your institution supports it.<br />Otherwise, use the normal login form "
+"shown here."
+msgstr ""
+"Χρησιμοποιήστε το <a href=\"{$a}\">Shibboleth login</a> για πρόσβαση μέσω "
+"Shibboleth, εάν το ίδρυμά σας το υποστηρίζει.<br /> Ειδάλλως, χρησιμοποιήστε "
+"την κανονική φόρμα εισόδου που εμφανίζεται εδώ."
+
+#: $string['auth_shib_instructions_help']
+msgid ""
+"Here you should provide custom instructions for your users to explain "
+"Shibboleth.  It will be shown on the login page in the instructions section. "
+"The instructions must include a link to \"<b>{$a}</b>\" that users click when "
+"they want to log in."
+msgstr ""
+"Εδώ πρέπει να παρέχετε οδηγίες στους χρήστες για επεξήγηση του Shibboleth. "
+"Θα εμφανίζονται στην σελίδα εισόδου στην ενότητα πληροφοριών. Αυτές οι "
+"πληροφορίες πρέπει να περιλαμβάνουν ένα σύνδεσμο προς \"<b>{$a}</b>\" τον "
+"οποίο θα πατάνε οι χρήστες όταν θέλουν να εισέλθουν."
+
+#: $string['auth_shib_instructions_key']
+msgid "Login instructions"
+msgstr ""
+
+#: $string['auth_shib_integrated_wayf']
+msgid "Moodle WAYF service"
+msgstr "Moodle WAYF Service"
+
+#: $string['auth_shib_integrated_wayf_description']
+msgid ""
+"If you enable this, Moodle will use its own WAYF service instead of the one "
+"configured for Shibboleth. Moodle will display a drop-down list on this "
+"alternative login page where the user has to select his Identity Provider."
+msgstr ""
+"If you check this, Moodle will use its own WAYF service instead of the one "
+"configured for Shibboleth. Moodle will display a drop-down list on this "
+"alternative login page where the user has to select his Identity Provider."
+
+#: $string['auth_shib_logout_return_url']
+msgid "Alternative logout return URL"
+msgstr "Alternative logout return URL"
+
+#: $string['auth_shib_logout_return_url_description']
+msgid ""
+"Provide the URL that Shibboleth users shall be redirected to after logging "
+"out.<br />If left empty, users will be redirected to the location that "
+"moodle will redirect users to"
+msgstr ""
+"Provide the URL that Shibboleth users shall be redirected to after logging "
+"out.<br />If left empty, users will be redirected to the location that "
+"moodle will redirect users to"
+
+#: $string['auth_shib_logout_url']
+msgid "Shibboleth Service Provider logout handler URL"
+msgstr "Shibboleth Service Provider logout handler URL"
+
+#: $string['auth_shib_logout_url_description']
+msgid ""
+"Provide the URL to the Shibboleth Service Provider logout handler. This "
+"typically is <tt>/Shibboleth.sso/Logout</tt>"
+msgstr ""
+"Provide the URL to the Shibboleth Service Provider logout handler. This "
+"typically is <tt>/Shibboleth.sso/Logout</tt>"
+
+#: $string['auth_shib_no_organizations_warning']
+msgid ""
+"If you want to use the integrated WAYF service, you must provide a coma-"
+"separated list of Identity Provider entityIDs, their names and optionally a "
+"session initiator."
+msgstr ""
+"If you want to use the integrated WAYF service, you must provide a coma-"
+"separated list of Identity Provider entityIDs, their names and optionally a "
+"session initiator."
+
+#: $string['auth_shib_only']
+msgid "Shibboleth only"
+msgstr "Μόνο Shibboleth"
+
+#: $string['auth_shib_only_description']
+msgid "Check this option if a Shibboleth authentication shall be enforced"
+msgstr ""
+"Ενεργοποιήστε αυτήν την ρύθμιση εάν πρέπει να επιβληθεί πιστοποίηση "
+"Shibboleth"
+
+#: $string['auth_shib_username_description']
+msgid ""
+"Name of the webserver Shibboleth environment variable that shall be used as "
+"Moodle username"
+msgstr ""
+"Όνομα της Shibboleth webserver μεταβλητής περιβάλλοντος που θα "
+"χρησιμοποιηθεί ως όνομα χρήστη στο ΠΗΛΕΑΣ."
+
+#: $string['pluginname']
+msgid "Shibboleth"
+msgstr "Shibboleth"
+
+#: $string['shib_invalid_account_error']
+msgid ""
+"You seem to be Shibboleth authenticated but Moodle has no valid account for "
+"your username. Your account may not exist or it may have been suspended."
+msgstr ""
+"Φαίνεται ότι έχετε πιστοποιηθεί από το Shibboleth, αλλά το Moodle δεν έχει "
+"έγκυρο λογαριασμό για το όνομα χρήστη σας. Ο λογαριασμός σας ενδέχεται να "
+"μην υπάρχει ή μπορεί να έχει ανασταλεί."
+
+#: $string['shib_no_attributes_error']
+msgid ""
+"You seem to be Shibboleth authenticated but Moodle didn't receive any user "
+"attributes. Please check that your Identity Provider releases the necessary "
+"attributes ({$a}) to the Service Provider Moodle is running on or inform the "
+"webmaster of this server."
+msgstr ""
+"Φαίνεται πως έχετε πιστοποιηθεί με το Shibboleth  αλλά το ΠΗΛΕΑΣ δεν έλαβε "
+"κάποια χαρακτηριστικά χρήστη. Παρακαλώ ελέγξτε ότι ο Identity Provider "
+"απελευθερώνει τα αναγκαία χαρακτηριστικά ({$a}) στο Service Provider στον "
+"οποίο εκτελείται το ΠΗΛΕΑΣ ή ενημερώστε το διαχειριστή του server αυτού."
+
+#: $string['shib_not_all_attributes_error']
+msgid ""
+"Moodle needs certain Shibboleth attributes which are not present in your "
+"case. The attributes are: {$a}<br />Please contact the webmaster of this "
+"server or your Identity Provider."
+msgstr ""
+"Το ΠΗΛΕΑΣ χρειάζεται συγκεκριμένα χαρακτηριστικά του Shibboleth τα οποία δεν "
+"είναι παρόντα στην περίπτωσή σας. Τα χαρακτηριστικά είναι: {$a}<br /> "
+"Παρακαλώ ενημερώστε το διαχειριστή του server ή τον Identity Provider σας."
+
+#: $string['shib_not_set_up_error']
+msgid ""
+"Shibboleth authentication doesn't seem to be set up correctly because no "
+"Shibboleth environment variables are present for this page. Please consult "
+"the <a href=\"README.txt\">README</a> for further instructions on how to set "
+"up Shibboleth authentication or contact the webmaster of this Moodle "
+"installation."
+msgstr ""
+"Η πιστοποίηση Shibboleth δεν έχει εγκατασταθεί σωστά επειδή δεν είναι "
+"παρούσες οι μεταβλήτές περιβάλλοντος του Shibboleth για αυτή τη σελίδα. "
+"Παρακαλώ κοιτάξτε το <a href=\"README.txt\">README</a> για περισσότερες "
+"οδηγίες σχετικά με το πως να εγκαταστήσετε τη Shibboleth πιστοποίηση ή "
+"επικοινωνήστε με το διαχειριστή του ΠΗΛΕΑΣ."

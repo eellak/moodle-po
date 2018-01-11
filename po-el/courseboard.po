@@ -1,0 +1,321 @@
+#. extracted from lang/en/courseboard.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'courseboard', language 'en', branch 'MOODLE_30_STABLE'
+#.  *
+#.  * @package   courseboard
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['alreadyrated']
+msgid "You already rated this post!"
+msgstr ""
+
+#: $string['amountascending']
+msgid "Ratingamount: asc"
+msgstr ""
+
+#: $string['amountdescending']
+msgid "Ratingamount: desc"
+msgstr ""
+
+#: $string['anonymous']
+msgid "Anonymous"
+msgstr ""
+
+#: $string['courseboard:addinstance']
+msgid "Add a new courseboard."
+msgstr ""
+
+#: $string['courseboard:notifynewcomment']
+msgid "Permission to get a notification about a new comment."
+msgstr ""
+
+#: $string['courseboard:notifynewpost']
+msgid "Permission to get a notification about a new post."
+msgstr ""
+
+#: $string['courseboard:notifynewrate']
+msgid "Permission to get a notification when a post got rated."
+msgstr ""
+
+#: $string['courseboard:view']
+msgid "Permission to view a courseboard"
+msgstr ""
+
+#: $string['courseboard:write']
+msgid "Permission to write on a courseboard."
+msgstr ""
+
+#: $string['emptyCommentinput']
+msgid "Write something to send a comment!"
+msgstr ""
+
+#: $string['emptypostinput']
+msgid "Write something to send a post!"
+msgstr ""
+
+#: $string['hideComments']
+msgid "Hide comments"
+msgstr ""
+
+#: $string['intro']
+msgid "Description"
+msgstr ""
+
+#: $string['latestcomment']
+msgid "latest comment"
+msgstr ""
+
+#: $string['latestcomments']
+msgid "latest comments"
+msgstr ""
+
+#: $string['latestpost']
+msgid "latest post"
+msgstr ""
+
+#: $string['latestposts']
+msgid "latest posts"
+msgstr ""
+
+#: $string['latestrating']
+msgid "latest rating"
+msgstr ""
+
+#: $string['latestratings']
+msgid "latest ratings"
+msgstr ""
+
+#: $string['loadingpleasewait']
+msgid "Loading, please wait..."
+msgstr ""
+
+#: $string['messageprovider:newcomment']
+msgid "Notification about a new comment."
+msgstr ""
+
+#: $string['messageprovider:newpost']
+msgid "Notification about a new post."
+msgstr ""
+
+#: $string['messageprovider:newrate']
+msgid "Notification when a post got rated."
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Courseboard"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"This plugin enables the students to give in a quick way the teacher and "
+"other students a short feedback.\n"
+"A feedback can be sent anonymously, so the student will be more likley to "
+"write something.\n"
+"With the option to comment a feedback this eventually leads to a little "
+"discussion about the feedback/course.\n"
+"The plugin allows the teacher to get a good summary, with the help of sort "
+"and rating of the feedbacks, about his course/teaching."
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Courseboards"
+msgstr ""
+
+#: $string['name']
+msgid "Name"
+msgstr ""
+
+#: $string['nameinputdescription']
+msgid "If set to \"Anonymous\", then your name will be Anonymous."
+msgstr ""
+
+#: $string['newcommentmessage']
+msgid ""
+"There is a new comment available on a courseboard({$a->courseboardname}).\n"
+" {$a->author} posted a new comment - {$a->date}.\n"
+" Courseboardlink: {$a->courseboardurl}."
+msgstr ""
+
+#: $string['newcommentsmall']
+msgid "Courseboard: New comment from {$a->author} is available."
+msgstr ""
+
+#: $string['newcommentsubject']
+msgid "Courseboard: New comment - {$a->courseboardname}."
+msgstr ""
+
+#: $string['newpostmessage']
+msgid ""
+"A new post is on a courseboard({$a->courseboardname}) available.\n"
+" {$a->author} posted a new post - {$a->date}.\n"
+" Courseboardlink: {$a->courseboardurl}."
+msgstr ""
+
+#: $string['newpostsmall']
+msgid "{$a->author} posted a new post."
+msgstr ""
+
+#: $string['newpostsubject']
+msgid "Courseboard: New Post - {$a->courseboardname}."
+msgstr ""
+
+#: $string['newratemessage']
+msgid ""
+"A post was rated with {$a->stars} stars. {$a->courseboardname} - {$a->date}.\n"
+" Courseboardlink: {$a->courseboardurl}."
+msgstr ""
+
+#: $string['newratesmall']
+msgid "Courseboard: A post was rated with {$a->stars} stars."
+msgstr ""
+
+#: $string['newratesubject']
+msgid "Courseboard: A post was rated - {$a->courseboardname}."
+msgstr ""
+
+#: $string['newsortdescription']
+msgid "Date: newest first"
+msgstr ""
+
+#: $string['noComments']
+msgid "There are no comments for this post"
+msgstr ""
+
+#: $string['noposts']
+msgid "There are no posts for this Courseboard"
+msgstr ""
+
+#: $string['notcommented']
+msgid "The user did not write a comment yet."
+msgstr ""
+
+#: $string['notposted']
+msgid "The user did not write a post yet."
+msgstr ""
+
+#: $string['notrated']
+msgid "The user did not rated yet."
+msgstr ""
+
+#: $string['offlineerror']
+msgid "You are not logged in, please log in to use this plugin"
+msgstr ""
+
+#: $string['oldsortdescription']
+msgid "Date: oldest first"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Pluginadministration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Courseboard"
+msgstr ""
+
+#: $string['postwall']
+msgctxt "$string['postwall']"
+msgid "Courseboard"
+msgstr ""
+
+#: $string['rate']
+msgid "rate"
+msgstr ""
+
+#: $string['ratefiveStars']
+msgid "(5) Post could have been from me."
+msgstr ""
+
+#: $string['ratefourStars']
+msgid "(4) Post is well said."
+msgstr ""
+
+#: $string['rateoneStar']
+msgid "(1) Post doesn´t interest me."
+msgstr ""
+
+#: $string['ratepost']
+msgid "Rate this post..."
+msgstr ""
+
+#: $string['ratethreeStars']
+msgid "(3) Post concerns me too."
+msgstr ""
+
+#: $string['ratetwoStars']
+msgid "(2) Post partly fits."
+msgstr ""
+
+#: $string['rating']
+msgid "Amount of Ratings done"
+msgstr ""
+
+#: $string['ratingascending']
+msgid "Rating: ascending"
+msgstr ""
+
+#: $string['ratingdescending']
+msgid "Rating: descending"
+msgstr ""
+
+#: $string['send']
+msgid "Send"
+msgstr ""
+
+#: $string['setmodulename']
+msgid "Name of this courseboard"
+msgstr ""
+
+#: $string['showComments']
+msgid "Show comments"
+msgstr ""
+
+#: $string['sortfor']
+msgid "Sort for"
+msgstr ""
+
+#: $string['time']
+msgid "time"
+msgstr ""
+
+#: $string['userpreferences']
+msgid "User preferences"
+msgstr ""
+
+#: $string['writeaComment']
+msgid "Write a comment..."
+msgstr ""
+
+#: $string['writeapost']
+msgid "Write something..."
+msgstr ""

@@ -1,0 +1,704 @@
+#. extracted from lang/en/enrol_arlo.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'enrol_arlo', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   enrol_arlo
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['alert']
+msgid "Alert"
+msgstr ""
+
+#: $string['alertsiteadmins']
+msgid "Site administrators"
+msgstr ""
+
+#: $string['alertsiteadmins_help']
+msgid ""
+"Alert all site administrators through Moodle's messaging system of issues "
+"such as connection problems or duplicate user matches."
+msgstr ""
+
+#: $string['apipassword']
+msgid "Arlo password"
+msgstr ""
+
+#: $string['apipassword_desc']
+msgid ""
+"Forgot your password? <a title=\"{$a->title}\" href=\"{$a->url}\" "
+"target=\"_blank\">Learn how to reset it.</a>"
+msgstr ""
+
+#: $string['apirequests']
+msgid "API requests"
+msgstr ""
+
+#: $string['apistatusclienterror']
+msgid "Client connection error!"
+msgstr ""
+
+#: $string['apistatusok']
+msgid "OK, last request was {$a}"
+msgstr ""
+
+#: $string['apistatusservererror']
+msgid "Service currently unavailable"
+msgstr ""
+
+#: $string['apiusername']
+msgid "Arlo username"
+msgstr ""
+
+#: $string['apiusername_desc']
+msgid ""
+"Important: Your Arlo user account must be API enabled, <a "
+"title=\"{$a->title}\" href=\"{$a->url}\" target=\"_blank\">learn more.</a>"
+msgstr ""
+
+#: $string['arlo:config']
+msgid "Configure Arlo enrolment instances"
+msgstr ""
+
+#: $string['arloconnection']
+msgid "Arlo connection"
+msgstr ""
+
+#: $string['arlo:manage']
+msgid "Manage Arlo enrolment instances"
+msgstr ""
+
+#: $string['arlo:synchronizecore']
+msgid "Manually pull new core resources"
+msgstr ""
+
+#: $string['arlo:synchronizeinstance']
+msgctxt "$string['arlo:synchronizeinstance']"
+msgid ""
+"Manually pull new registrations and push new results for an enrolment "
+"instance"
+msgstr ""
+
+#: $string['arlo:unenrol']
+msgid "Unenrol suspended users"
+msgstr ""
+
+#: $string['assignedgroup']
+msgid "Assigned group"
+msgstr ""
+
+#: $string['assignrole']
+msgid "Assign role"
+msgstr ""
+
+#: $string['associatearlotemplate']
+msgid "Associate Arlo template"
+msgstr ""
+
+#: $string['associatetemplatedanger']
+msgid ""
+"<div class=\"alert alert-danger\" role=\"alert\">\n"
+"<strong>Important!</strong>\n"
+"<p>This will associate every Event or Online Activity based off the "
+"Template. This does not include Events or Online Activities that have "
+"already been added to another course.</p>\n"
+"</div>"
+msgstr ""
+
+#: $string['associatetemplatewithcourse']
+msgid "Associate Arlo Template with Moodle course"
+msgstr ""
+
+#: $string['backtoenrolmentmethods']
+msgid "Back to enrolment methods"
+msgstr ""
+
+#: $string['changessaved']
+msgid "Changes saved"
+msgstr ""
+
+#: $string['communications']
+msgid "Communications"
+msgstr ""
+
+#: $string['completed']
+msgid "Completed"
+msgstr ""
+
+#: $string['configuration']
+msgid "Configuration"
+msgstr ""
+
+#: $string['coursewelcome']
+msgid "Course welcome"
+msgstr ""
+
+#: $string['creategroup']
+msgid "Create new group"
+msgstr ""
+
+#: $string['customwelcomemessage']
+msgid "Custom welcome message"
+msgstr ""
+
+#: $string['customwelcomemessage_help']
+msgid ""
+"A custom welcome message may be added as plain text or Moodle-auto format, "
+"including HTML tags and multi-lang tags.\n"
+"\n"
+"The following placeholders may be included in the message:\n"
+"\n"
+"* Course name {$a->coursename}\n"
+"* Course url {$a->courseurl}\n"
+"* User fullname {$a->fullname}\n"
+"* User username {$a->username}\n"
+"* Forgot password url {$a->forgotpasswordurl}"
+msgstr ""
+
+#: $string['defaultgroupnametext']
+msgid "{$a->name} Arlo group"
+msgstr ""
+
+#: $string['defaultperiod']
+msgid "Default enrolment duration"
+msgstr ""
+
+#: $string['defaultperiod_desc']
+msgid ""
+"Default length of time that the enrolment is valid. If set to zero, the "
+"enrolment duration will be unlimited by default."
+msgstr ""
+
+#: $string['defaultperiod_help']
+msgid ""
+"Default length of time that the enrolment is valid, starting with the moment "
+"the user is enrolled. If disabled, the enrolment duration will be unlimited "
+"by default."
+msgstr ""
+
+#: $string['defaultrole']
+msgid "Default role"
+msgstr ""
+
+#: $string['defaultrole_help']
+msgid "The role which should be assigned to users during enrolment"
+msgstr ""
+
+#: $string['delivered']
+msgid "Delivered"
+msgstr ""
+
+#: $string['enrolment']
+msgid "Enrolment"
+msgstr ""
+
+#: $string['enrolperiod']
+msgid "Enrolment duration"
+msgstr ""
+
+#: $string['enrolusers']
+msgid "Enrol users"
+msgstr ""
+
+#: $string['error_duplicateusers_full']
+msgid ""
+"Duplicate users were found in Moodle when attempting to match against an "
+"Arlo Contact.\n"
+"\n"
+"Found {$a->count} Moodle accounts with following details:\n"
+"First name: {$a->firstname}\n"
+"Last name:  {$a->lastname}\n"
+"Email:      {$a->email}\n"
+"IDNumber:   {$a->idnumber}\n"
+"\n"
+"A new account has been created for this user."
+msgstr ""
+
+#: $string['error_duplicateusers_fullhtml']
+msgid ""
+"<p>Duplicate users were found in Moodle when attempting to match against an "
+"Arlo Contact.</p>\n"
+"<br>\n"
+"<p>Found {$a->count} Moodle accounts with following details:</p>\n"
+"<br>\n"
+"<pre>\n"
+"First name: {$a->firstname}\n"
+"Last name:  {$a->lastname}\n"
+"Email:      {$a->email}\n"
+"IDNumber:   {$a->idnumber}\n"
+"</pre>\n"
+"<br>\n"
+"<p>A new account has been created for this user.</p>"
+msgstr ""
+
+#: $string['error_duplicateusers_smallmessage']
+msgctxt "$string['error_duplicateusers_smallmessage']"
+msgid "Duplicate users found in Moodle when matching Arlo Contact"
+msgstr ""
+
+#: $string['error_duplicateusers_subject']
+msgctxt "$string['error_duplicateusers_subject']"
+msgid "Duplicate users found in Moodle when matching Arlo Contact"
+msgstr ""
+
+#: $string['error_incorrectcontenttype_full']
+msgid ""
+"Plugin detected Incorrect Content-Type in Response from Arlo API.\n"
+"\n"
+"Response Content-type: {$a->contenttype}"
+msgstr ""
+
+#: $string['error_incorrectcontenttype_fullhtml']
+msgid ""
+"<p>Plugin detected Incorrect Content-Type in Response from Arlo API.<p>\n"
+"<br>\n"
+"<p>Response Content-type: {$a->contenttype}</p>"
+msgstr ""
+
+#: $string['error_incorrectcontenttype_smallmessage']
+msgctxt "$string['error_incorrectcontenttype_smallmessage']"
+msgid "[enrol/arlo] Incorrect Content-Type"
+msgstr ""
+
+#: $string['error_incorrectcontenttype_subject']
+msgctxt "$string['error_incorrectcontenttype_subject']"
+msgid "[enrol/arlo] Incorrect Content-Type"
+msgstr ""
+
+#: $string['error_invalidcredentials_full']
+msgid ""
+"Moodle cannot connect to Arlo API\n"
+"\n"
+"There is something wrong with your connection settings. Please check that "
+"the api username and api password are correct.\n"
+"Moodle Arlo connection settings: {$a->url}"
+msgstr ""
+
+#: $string['error_invalidcredentials_fullhtml']
+msgid ""
+"<h3>Moodle cannot connect to Arlo API</h3>\n"
+"<br>\n"
+"<p>There is something wrong with your connection settings. Please check that "
+"the api username and api password are correct.</p>\n"
+"<p>Moodle Arlo connection settings: <a href=\"{$a->url}\">{$a->url}</a></p>"
+msgstr ""
+
+#: $string['error_invalidcredentials_smallmessage']
+msgid ""
+"Moodle cannot connect to Arlo API. Please check connection settings: "
+"{$a->url}"
+msgstr ""
+
+#: $string['error_invalidcredentials_subject']
+msgid "Moodle cannot connect to Arlo API"
+msgstr ""
+
+#: $string['errorselectevent']
+msgid "You must select an Event"
+msgstr ""
+
+#: $string['errorselectonlineactvity']
+msgid "You must select an Online Activity"
+msgstr ""
+
+#: $string['errorselecttemplate']
+msgid "Please select a Event Template"
+msgstr ""
+
+#: $string['errorselecttype']
+msgid "You must select an Type"
+msgstr ""
+
+#: $string['event']
+msgid "Event"
+msgstr ""
+
+#: $string['eventcreated']
+msgid "Event created"
+msgstr ""
+
+#: $string['events']
+msgid "Events"
+msgstr ""
+
+#: $string['eventupdated']
+msgid "Event updated"
+msgstr ""
+
+#: $string['expiredaction']
+msgid "Enrolment expiration action"
+msgstr ""
+
+#: $string['expiredaction_help']
+msgid ""
+"Select action to carry out when user enrolment expires. Please note that "
+"some user data and settings are purged from course during course "
+"unenrolment."
+msgstr ""
+
+#: $string['expirymessagesubject']
+msgid "Enrolment expiry notification"
+msgstr ""
+
+#: $string['expirymessagetext']
+msgid ""
+"Dear {$a->user},\n"
+"\n"
+"This is a notification that your enrolment in the course '{$a->coursename}' "
+"has expired."
+msgstr ""
+
+#: $string['expirynotify']
+msgid "Notify user of enrolment expiration"
+msgstr ""
+
+#: $string['expirynotify_help']
+msgid ""
+"This setting determines whether enrolment expiry notification messages are "
+"sent."
+msgstr ""
+
+#: $string['extra']
+msgid "Extra"
+msgstr ""
+
+#: $string['fail']
+msgid "Fail"
+msgstr ""
+
+#: $string['failed']
+msgid "Failed"
+msgstr ""
+
+#: $string['inprogress']
+msgid "In progress"
+msgstr ""
+
+#: $string['instanceexists']
+msgid "Arlo is already synchronised with selected role"
+msgstr ""
+
+#: $string['locktimeout']
+msgid "The operation timed out while waiting for a lock"
+msgstr ""
+
+#: $string['longtime']
+msgid "This process can take a long time"
+msgstr ""
+
+#: $string['managearlo']
+msgid "Manage Arlo"
+msgstr ""
+
+#: $string['matchbyarlocodeprimary']
+msgid "Arlo Contact CodePrimary"
+msgstr ""
+
+#: $string['matchbyarlouserdetails']
+msgid "Arlo Contact FirstName, LastName and Email"
+msgstr ""
+
+#: $string['matchbyauto']
+msgid ""
+"Arlo Contact FirstName, LastName and Email then Arlo Contact CodePrimary"
+msgstr ""
+
+#: $string['matchuseraccountsby']
+msgid "Match user accounts by"
+msgstr ""
+
+#: $string['matchuseraccountsby_help']
+msgid ""
+"<p>\n"
+"Before creating a new Moodle account the plugin will attempt to match "
+"against an Arlo contact record. The options for matching are:\n"
+"</p>\n"
+"<p>\n"
+"<strong>Method 1</strong>\n"
+"<br>\n"
+"Arlo FirstName, LastName and Email - This will attempt a match between the "
+"group of fields (Arlo Contact FirstName, LastName and Email) and (Moodle "
+"user firstname, lastname and email).\n"
+"</p>\n"
+"<p>\n"
+"<strong>Method 2</strong>\n"
+"<br>\n"
+"Arlo CodePrimary - This will attempt a match between fields Arlo Contact "
+"CodePrimary and Moodle user idnumber.\n"
+"</p>\n"
+"<p>\n"
+"<strong>Method 3</strong>\n"
+"<br>\n"
+"Will try <strong>Method 1</strong> if no match will then try <strong>Method "
+"2</strong>.\n"
+"</p>\n"
+"<p>\n"
+"If no match is found using any of the Methods a Moodle user account will be "
+"created based on Arlo Contact details.\n"
+"</p>"
+msgstr ""
+
+#: $string['messagenotsent']
+msgid "Message not sent"
+msgstr ""
+
+#: $string['messageprovider:alerts']
+msgid "Alert Arlo integration problems"
+msgstr ""
+
+#: $string['messagesent']
+msgid "Message sent"
+msgstr ""
+
+#: $string['newaccountdetails']
+msgid "New account details"
+msgstr ""
+
+#: $string['newuserdefaultemail']
+msgctxt "$string['newuserdefaultemail']"
+msgid "New user default email"
+msgstr ""
+
+#: $string['newuserdefaultemail_help']
+msgctxt "$string['newuserdefaultemail_help']"
+msgid "New user default email"
+msgstr ""
+
+#: $string['noeventsoractivitiesfound']
+msgid "No \"Active\" Events or Online Activities found."
+msgstr ""
+
+#: $string['notifyexpiry']
+msgid "Notify expiry"
+msgstr ""
+
+#: $string['notok']
+msgid "Not OK"
+msgstr ""
+
+#: $string['notstarted']
+msgid "Not started"
+msgstr ""
+
+#: $string['ok']
+msgid "OK"
+msgstr ""
+
+#: $string['onlineactivities']
+msgid "Online Activities"
+msgstr ""
+
+#: $string['onlineactivity']
+msgid "Online Activity"
+msgstr ""
+
+#: $string['onlineactivitycreated']
+msgid "Online activity created"
+msgstr ""
+
+#: $string['onlineactivityupdated']
+msgid "Online activity updated"
+msgstr ""
+
+#: $string['opennewtabtitle']
+msgid "To open in a new tab on Windows: CTRL + click on Mac: command + click"
+msgstr ""
+
+#: $string['operationiscurrentlylocked']
+msgid "The operation is current locked by another process."
+msgstr ""
+
+#: $string['pass']
+msgid "Pass"
+msgstr ""
+
+#: $string['platform']
+msgid "Arlo platform URL"
+msgstr ""
+
+#: $string['platform_desc']
+msgid ""
+"URL of your Arlo management platform 'yourplatform.arlo.co' (excluding "
+"https:// and /). No Arlo platform? <a title=\"{$a->title}\" href=\"{$a->url}\" "
+"target=\"_blank\">Create a free trial.</a>"
+msgstr ""
+
+#: $string['pleasecheckrequestlog']
+msgid "Please check <a href=\"{$a}\">request log</a>"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Arlo enrolment"
+msgstr ""
+
+#: $string['pluginname_desc']
+msgid "<p>These enrolments are managed by local_arlo</p>"
+msgstr ""
+
+#: $string['pluginnotenabled']
+msgid "Plugin not enabled!"
+msgstr ""
+
+#: $string['pluginstatus']
+msgid "Status"
+msgstr ""
+
+#: $string['pusheventresults']
+msgid "Push Event results"
+msgstr ""
+
+#: $string['pusheventresults_help']
+msgid ""
+"Push result information from enrolment instances mapped to "
+"<strong>Events</strong> back to Arlo"
+msgstr ""
+
+#: $string['pushonlineactivityresults']
+msgid "Push OnlineActivity results"
+msgstr ""
+
+#: $string['pushonlineactivityresults_help']
+msgid ""
+"Push result information from enrolment instances mapped to "
+"<strong>OnlineActivities</strong> back to Arlo"
+msgstr ""
+
+#: $string['queued']
+msgid "Queued"
+msgstr ""
+
+#: $string['remove']
+msgid "Remove"
+msgstr ""
+
+#: $string['removetemplatedanger']
+msgid ""
+"<div class=\"alert alert-danger\" role=\"alert\">\n"
+"<strong>Important!</strong>\n"
+"<p>Removing the template association will remove all people from the course "
+"that are in the following enrolment instances:</p>\n"
+"{$a}\n"
+"</div>"
+msgstr ""
+
+#: $string['resulting']
+msgid "Resulting"
+msgstr ""
+
+#: $string['savechanges']
+msgid "Save changes"
+msgstr ""
+
+#: $string['sendcoursewelcomemessage']
+msgid "Send course welcome message"
+msgstr ""
+
+#: $string['sendcoursewelcomemessage_help']
+msgid ""
+"If enabled, users receive a welcome message via email when they are enrolled "
+"in a course."
+msgstr ""
+
+#: $string['status']
+msgid "Active"
+msgstr ""
+
+#: $string['status_help']
+msgctxt "$string['status_help']"
+msgid ""
+msgstr ""
+
+#: $string['synchronize']
+msgid "Synchronize"
+msgstr ""
+
+#: $string['synchronizeinstance']
+msgctxt "$string['synchronizeinstance']"
+msgid ""
+"Manually pull new registrations and push new results for an enrolment "
+"instance"
+msgstr ""
+
+#: $string['synctask']
+msgid "Synchronization of Arlo data"
+msgstr ""
+
+#: $string['template']
+msgid "Template"
+msgstr ""
+
+#: $string['timelogged']
+msgid "Time logged"
+msgstr ""
+
+#: $string['type']
+msgid "Type"
+msgstr ""
+
+#: $string['typeofevent']
+msgid "Type of Event"
+msgstr ""
+
+#: $string['unknown']
+msgid "Unknown"
+msgstr ""
+
+#: $string['unlock']
+msgid "Unlock"
+msgstr ""
+
+#: $string['uri']
+msgid "URI"
+msgstr ""
+
+#: $string['usercreation']
+msgid "User creation"
+msgstr ""
+
+#: $string['welcometocourse']
+msgid "Welcome to {$a}"
+msgstr ""
+
+#: $string['welcometocoursetext']
+msgid ""
+"Welcome to {$a->coursename}!\n"
+"\n"
+"Your username: {$a->username}\n"
+"\n"
+"Forgotten your password?\n"
+"\n"
+"You can reset your password using following url:\n"
+"\n"
+"  {$a->forgotpasswordurl}\n"
+"\n"
+"You may access this course at the following url:\n"
+"\n"
+"  {$a->courseurl}"
+msgstr ""

@@ -1,0 +1,259 @@
+#. extracted from lang/en/openmeetings.php, lang/el/openmeetings.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'openmeetings', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   openmeetings
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['Allow_Recording']
+msgid "Recording allowed"
+msgstr ""
+
+#: $string['Chat_Hidden']
+msgid "Chat hidden"
+msgstr ""
+
+#: $string['Chat_Hidden_TYPE_1']
+msgid "Display chat in the room."
+msgstr ""
+
+#: $string['Chat_Hidden_TYPE_2']
+msgid "Hide chat in the room."
+msgstr ""
+
+#: $string['Conference']
+msgid "Conference (max 16 participants)"
+msgstr ""
+
+#: $string['description']
+msgid "Description"
+msgstr ""
+
+#: $string['download_mp4']
+msgid "Download .mp4"
+msgstr ""
+
+#: $string['host']
+msgid "OpenMeetings Server Host or IP"
+msgstr ""
+
+#: $string['Interview']
+msgid "Interview (2 participants)"
+msgstr ""
+
+#: $string['Max_User']
+msgid "Max users"
+msgstr ""
+
+#: $string['Moderation_Description']
+msgid ""
+"(Moodle Administratoren, teachers and course creators are automatically a "
+"moderator)"
+msgstr ""
+
+#: $string['Moderation_TYPE_1']
+msgid "Participants need to wait till the teacher enters the room"
+msgstr ""
+
+#: $string['Moderation_TYPE_2']
+msgid "Participants can already start (first User in room becomes moderator)"
+msgstr ""
+
+#: $string['Moderation_TYPE_3']
+msgid ""
+"Every participant is automatically moderator when he/she enters the room"
+msgstr ""
+
+#: $string['moduleKey']
+msgid "Module Key"
+msgstr ""
+
+#: $string['moduleKeyDesc']
+msgid ""
+"Advanced setting: OpenMeetings Module key (vary for multiple instances using "
+"same OpenMeetings Server)"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "OpenMeetings"
+msgstr "OpenMeetings"
+
+#: $string['modulename_help']
+msgid ""
+"OpenMeetings is a free browser-based software that allows you to set up "
+"instantly a conference in the Web. You can use your microphone and/or "
+"webcam, share documents on a white board, share your screen or record "
+"meetings.\n"
+"<br><br>This Moodle plugin uses Apache OpenMeetings.\n"
+"<br>You need your own Apache OpenMeetings instance running.<br><br>For more "
+"information see: <a "
+"href=\"http://openmeetings.apache.org\">http://openmeetings.apache.org</a>"
+msgstr ""
+
+#: $string['modulenameplural']
+msgctxt "$string['modulenameplural']"
+msgid "OpenMeetings"
+msgstr "OpenMeetings"
+
+#: $string['openmeetings']
+msgid "openmeetings"
+msgstr "openmeetings"
+
+#: $string['openmeetings:addinstance']
+msgid "Add instance of Openmeetings"
+msgstr ""
+
+#: $string['openmeetings:becomemoderator']
+msgid "Become moderator in an Openmeetings Room"
+msgstr ""
+
+#: $string['pass']
+msgid "OpenMeetings Admin User Password"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "OpenMeetings Administration"
+msgstr "Διαχείριση OpenMeetings"
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "OpenMeetings"
+msgstr "OpenMeetings"
+
+#: $string['port']
+msgid "OpenMeetings Server Port"
+msgstr ""
+
+#: $string['protocol']
+msgid "Protocol"
+msgstr ""
+
+#: $string['protocolDesc']
+msgid ""
+"Protocol to be used while constructing Openmeetings URLs (default: http)"
+msgstr ""
+
+#: $string['Recording']
+msgid ""
+"Show Recording (select recording from drop down to be shown instead of "
+"meeting)"
+msgstr ""
+
+#: $string['recordings_label']
+msgid ""
+"The Recording Field is only used if Room Type is Recording. Instead of the "
+"conference room a recording will be shown."
+msgstr ""
+
+#: $string['recordings_show']
+msgid "Available Recordings to Shows"
+msgstr ""
+
+#: $string['Recording_TYPE_1']
+msgid "Recording functionality is available."
+msgstr ""
+
+#: $string['Recording_TYPE_2']
+msgid "Recording functionality is not available."
+msgstr ""
+
+#: $string['Restricted']
+msgid "Webinar (max 150 participants)"
+msgstr ""
+
+#: $string['Room_Language']
+msgid "Room Language"
+msgstr "Γλώσσα Αίθουσας"
+
+#: $string['Room_Name']
+msgid "Room name"
+msgstr "Όνομα αίθουσας"
+
+#: $string['Room_Type']
+msgid "Room type"
+msgstr "Τύπος αίθουσας"
+
+#: $string['user']
+msgid "OpenMeetings Admin User"
+msgstr ""
+
+#: $string['Version_Bad']
+msgid "You need to update your OpenMeetings, minimum version is:"
+msgstr ""
+
+#: $string['Version_Ok']
+msgid "You have compatible version of OpenMeetings:"
+msgstr ""
+
+#: $string['Wait_for_teacher']
+msgid "Moderation modus"
+msgstr ""
+
+#: $string['webapp']
+msgid "OpenMeetings webapp name"
+msgstr ""
+
+#: $string['webappDesc']
+msgid ""
+"Advanced setting: If you have renamed the OpenMeetings webapp you can enter "
+"your alternative name here."
+msgstr ""
+
+#: $string['whiteboardfieldset']
+msgid "Custom example fieldset"
+msgstr ""
+
+#: $string['whiteboardintro']
+msgid "OpenMeetings Intro"
+msgstr ""
+
+#: $string['whiteboardname']
+msgid "Conference Name"
+msgstr ""
+
+#: $string['whole_window']
+msgctxt "$string['whole_window']"
+msgid "Occupy the entire window"
+msgstr ""
+
+#: $string['whole_window_type_1']
+msgid "Display in frame"
+msgstr ""
+
+#: $string['whole_window_type_2']
+msgctxt "$string['whole_window_type_2']"
+msgid "Occupy the entire window"
+msgstr ""
+
+#: $string['whole_window_type_3']
+msgid "Open in new window"
+msgstr "Άνοιγμα σε νέο παράθυρο"

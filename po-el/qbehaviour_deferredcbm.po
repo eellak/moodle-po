@@ -1,0 +1,211 @@
+#. extracted from lang/en/qbehaviour_deferredcbm.php, lang/el/qbehaviour_deferredcbm.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:14+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qbehaviour_deferredcbm', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   qbehaviour_deferredcbm
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['accuracy']
+msgid "Accuracy"
+msgstr ""
+
+#: $string['accuracyandbonus']
+msgid "Accuracy + Bonus"
+msgstr ""
+
+#: $string['assumingcertainty']
+msgid "You did not select a certainty. Assuming: {$a}."
+msgstr ""
+
+#: $string['averagecbmmark']
+msgid "Average CBM mark"
+msgstr ""
+
+#: $string['basemark']
+msgid "Base mark {$a}"
+msgstr ""
+
+#: $string['breakdownbycertainty']
+msgid "Break-down by certainty"
+msgstr ""
+
+#: $string['cbmbonus']
+msgid "CBM bonus"
+msgstr ""
+
+#: $string['cbmgradeexplanation']
+msgid ""
+"For CBM, the grade above is shown relative to the maximum for all correct at "
+"C=1."
+msgstr ""
+
+#: $string['cbmgrades']
+msgid "CBM grades"
+msgstr ""
+
+#: $string['cbmgrades_help']
+msgid ""
+"With Certainty Based Marking (CBM) getting every question correct with C=1 "
+"(low certainty) gives a grade of 100%. Grades may be as high as 300% if "
+"every question is correct with C=3 (high certainty). Misconceptions "
+"(confident wrong responses) lower grades much more than wrong responses that "
+"are acknowledged to be uncertain. This may even lead to negative overall "
+"grades.\n"
+"\n"
+"**Accuracy** is the % correct ignoring certainty but weighted for the "
+"maximum mark of each question. Successfully distinguishing more and less "
+"reliable responses gives a better grade than selecting the same certainty "
+"for each question. This is reflected in the **CBM Bonus**. **Accuracy** + "
+"**CBM Bonus** is a better measure of knowledge than **Accuracy**. "
+"Misconceptions can lead to a negative bonus, a warning to look carefully at "
+"what is and is not known."
+msgstr ""
+
+#: $string['cbmgrades_link']
+msgid "qbehaviour/deferredcbm/certaintygrade"
+msgstr ""
+
+#: $string['cbmmark']
+msgid "CBM mark {$a}"
+msgstr ""
+
+#: $string['certainty']
+msgid "Certainty"
+msgstr ""
+
+#: $string['certainty1']
+msgid "C=1 (Unsure: <67%)"
+msgstr ""
+
+#: $string['certainty-1']
+msgctxt "$string['certainty-1']"
+msgid "No Idea"
+msgstr ""
+
+#: $string['certainty2']
+msgid "C=2 (Mid: >67%)"
+msgstr ""
+
+#: $string['certainty3']
+msgid "C=3 (Quite sure: >80%)"
+msgstr ""
+
+#: $string['certainty_help']
+msgid ""
+"Certainty-based marking requires you to indicate how reliable you think your "
+"answer is. The available levels are:\n"
+"\n"
+"Certainty level     | C=1 (Unsure) | C=2 (Mid) | C=3 (Quite sure)\n"
+"------------------- | ------------ | --------- | ----------------\n"
+"Mark if correct     |   1          |    2      |      3\n"
+"Mark if wrong       |   0          |   -2      |     -6\n"
+"Probability correct |  <67%        | 67-80%    |    >80%\n"
+"\n"
+"Best marks are gained by acknowledging uncertainty. For example, if you "
+"think there is more than a 1 in 3 chance of being wrong, you should enter "
+"C=1 and avoid the risk of a negative mark."
+msgstr ""
+
+#: $string['certainty_link']
+msgid "qbehaviour/deferredcbm/certainty"
+msgstr ""
+
+#: $string['certaintyshort1']
+msgid "C=1"
+msgstr ""
+
+#: $string['certaintyshort-1']
+msgctxt "$string['certaintyshort-1']"
+msgid "No Idea"
+msgstr ""
+
+#: $string['certaintyshort2']
+msgid "C=2"
+msgstr ""
+
+#: $string['certaintyshort3']
+msgid "C=3"
+msgstr ""
+
+#: $string['dontknow']
+msgid "No idea"
+msgstr ""
+
+#: $string['foransweredquestions']
+msgid "Results for just the {$a} answered questions"
+msgstr ""
+
+#: $string['forentirequiz']
+msgid "Results for the whole quiz ({$a} questions)"
+msgstr ""
+
+#: $string['howcertainareyou']
+msgid "Certainty{$a->help}: {$a->choices}"
+msgstr ""
+
+#: $string['judgementok']
+msgid "OK"
+msgstr ""
+
+#: $string['judgementsummary']
+msgid ""
+"Responses: {$a->responses}. Accuracy: {$a->fraction}. (Optimal range "
+"{$a->idealrangelow} to {$a->idealrangehigh}). You were {$a->judgement} using "
+"this certainty level."
+msgstr ""
+
+#: $string['noquestions']
+msgid "No responses"
+msgstr ""
+
+#: $string['overconfident']
+msgid "over-confident"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Deferred feedback with CBM"
+msgstr "Αναβαλλόμενη ανάδραση με CBM"
+
+#: $string['slightlyoverconfident']
+msgid "a bit over-confident"
+msgstr ""
+
+#: $string['slightlyunderconfident']
+msgid "a bit under-confident"
+msgstr ""
+
+#: $string['underconfident']
+msgid "under-confident"
+msgstr ""
+
+#: $string['weightx']
+msgid "Weight {$a}"
+msgstr "Βαρύτητα {$a}"

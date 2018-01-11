@@ -1,0 +1,1323 @@
+#. extracted from lang/en/block_live_services.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_live_services', language 'en', branch 'MOODLE_21_STABLE'
+#.  *
+#.  * @package   block_live_services
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['alertsCancelButtonText']
+msgctxt "$string['alertsCancelButtonText']"
+msgid "Cancel"
+msgstr ""
+
+#: $string['alertsCannotIdentifyUserError']
+msgid ""
+"Cannot identify user. Please log out and log in again with your Live ID."
+msgstr ""
+
+#: $string['alertsCloseButtonText']
+msgid "Close"
+msgstr ""
+
+#: $string['alertsErrorMessage']
+msgid ""
+"There was an error connecting to the Windows Live Alerts Service. Possible "
+"causes are a network interruption or improper configuration. Please contact "
+"your administrator."
+msgstr ""
+
+#: $string['alertsIconAltText']
+msgid "alerts"
+msgstr ""
+
+#: $string['alertsManageText']
+msgid ""
+"<a href=\\\"javascript:void(0);\\\" onclick=\\\"[[alertsManageUrl]]\\\">Manage</a> "
+"your Windows Live Alerts."
+msgstr ""
+
+#: $string['alertsMessage']
+msgctxt "$string['alertsMessage']"
+msgid "Message"
+msgstr ""
+
+#: $string['alertsNotSubscribed']
+msgid ""
+"You are not receiving alerts for this course. <a "
+"href='[[url]]'>Subscribe</a>"
+msgstr ""
+
+#: $string['alertsNotSubscribedMessage']
+msgid ""
+"You are not currently registered for Windows Live Alerts. Would you like to "
+"register for Windows Live Alerts and begin receiving alerts for "
+"<strong>[[groupDescription]]</strong>?"
+msgstr ""
+
+#: $string['alertsSendAlertMessage']
+msgid ""
+"Send a message to students who subscribed to "
+"<strong>[[groupDescription]]</strong> course alerts."
+msgstr ""
+
+#: $string['alertsSendAnAlertLinkText']
+msgid "Send an alert"
+msgstr ""
+
+#: $string['alertsSendAnAlertText']
+msgid "to members of this course."
+msgstr ""
+
+#: $string['alertsSendButtonText']
+msgctxt "$string['alertsSendButtonText']"
+msgid "Send"
+msgstr ""
+
+#: $string['alertsSubject']
+msgctxt "$string['alertsSubject']"
+msgid "Subject"
+msgstr ""
+
+#: $string['alertsSubscribeButtonText']
+msgid "Subscribe"
+msgstr ""
+
+#: $string['alertsSubscribeConfirmation1']
+msgid ""
+"You are now registered with Windows Live Alerts and you will receive alerts "
+"for <strong>[[groupDescription]]</strong>."
+msgstr ""
+
+#: $string['alertsSubscribeConfirmation2']
+msgid ""
+"You are now registered to receive alerts for "
+"<strong>[[groupDescription]]</strong>."
+msgstr ""
+
+#: $string['alertsSubscribed']
+msgid "You receive alerts for this course. <a href='[[url]]'>Unsubscribe</a>"
+msgstr ""
+
+#: $string['alertsSubscribedNoCoursesMessage']
+msgid ""
+"You have registered for Windows Live Alerts, but you do not currently have "
+"any alert subscriptions.<br/><br/> Subscribing to alerts for this course "
+"will enable you to receive notifications and updates about class events. "
+"Alerts can be sent to Windows Live Messenger, your mobile device, and/or "
+"your Windows Live email account. <br/><br/>Click Subscribe to begin "
+"receiving alerts for <strong>[[groupDescription]]</strong>."
+msgstr ""
+
+#: $string['alertsSubscribedOtherCoursesMessage']
+msgid ""
+"You have registered for Windows Live Alerts, but you do not have a "
+"subscription for <strong>[[groupDescription]]</strong>. Would you like to "
+"begin receiving alerts for this course?"
+msgstr ""
+
+#: $string['alertsSubscribeHeader']
+msgid "Subscribe to Windows Live Alerts"
+msgstr ""
+
+#: $string['alertsUnsubscribeAllButtonText']
+msgid "Unsubscribe All"
+msgstr ""
+
+#: $string['alertsUnsubscribeAllConfirmation']
+msgid "You have been removed from the alerts groups for all courses."
+msgstr ""
+
+#: $string['alertsUnsubscribeButtonText']
+msgid "Unsubscribe"
+msgstr ""
+
+#: $string['alertsUnsubscribeConfirmation']
+msgid ""
+"You have been removed from the alerts group for the "
+"<strong>[[groupDescription]]</strong> course."
+msgstr ""
+
+#: $string['alertsUnsubscribeInstructions']
+msgid ""
+"<p>You currently receive alerts for <strong>[[groupDescription]]</strong>. "
+"Click Unsubscribe to stop receiving alerts for this course.  If you do not "
+"want to receive alerts for any of your courses, click Unsubscribe All.</p>\n"
+"<p>If you change your mind and want to receive alerts again, click Subscribe "
+"in the Windows Live Services block.</p>"
+msgstr ""
+
+#: $string['alertsUntitled']
+msgid "Untitled Alert"
+msgstr ""
+
+#: $string['attachmentsText']
+msgid ""
+"This email has attachments. Open your <a target='_blank' class='actionLink' "
+"href='[[url]]' "
+"onclick='javascript:parentGrayOut(false,null);hideOverlay();'>inbox</a> to "
+"view them."
+msgstr ""
+
+#: $string['block_live_services_help']
+msgid "Live Services Help..."
+msgstr ""
+
+#: $string['blockname']
+msgctxt "$string['blockname']"
+msgid "Microsoft&reg;&nbsp;Live Services"
+msgstr ""
+
+#: $string['calendarAllDayEvent']
+msgid "All Day Event"
+msgstr ""
+
+#: $string['calendarAllDayEventMessage']
+msgid "This is an All Day Event"
+msgstr ""
+
+#: $string['calendarCancel']
+msgctxt "$string['calendarCancel']"
+msgid "Cancel"
+msgstr ""
+
+#: $string['calendarCreateLink']
+msgctxt "$string['calendarCreateLink']"
+msgid "New Event"
+msgstr ""
+
+#: $string['calendarEndDate']
+msgid "End Date"
+msgstr ""
+
+#: $string['calendarEndTime']
+msgid "End Time"
+msgstr ""
+
+#: $string['calendarFetchFailure']
+msgctxt "$string['calendarFetchFailure']"
+msgid "system unavailable"
+msgstr ""
+
+#: $string['calendarIconAltText']
+msgctxt "$string['calendarIconAltText']"
+msgid "View"
+msgstr ""
+
+#: $string['calendarLiveCalendar']
+msgid "Windows Live Calendar"
+msgstr ""
+
+#: $string['calendarManyEvents']
+msgid "upcoming events"
+msgstr ""
+
+#: $string['calendarNoEvents']
+msgid "no upcoming events"
+msgstr ""
+
+#: $string['calendarNotEnoughOptions']
+msgid "Not enough options?"
+msgstr ""
+
+#: $string['calendarOneEvent']
+msgid "1 upcoming event"
+msgstr ""
+
+#: $string['calendarQuickItem']
+msgctxt "$string['calendarQuickItem']"
+msgid "New Event"
+msgstr ""
+
+#: $string['calendarSelect']
+msgid "Select"
+msgstr ""
+
+#: $string['calendarSend']
+msgctxt "$string['calendarSend']"
+msgid "Send"
+msgstr ""
+
+#: $string['calendarStartDate']
+msgid "Start Date"
+msgstr ""
+
+#: $string['calendarStartTime']
+msgid "Start Time"
+msgstr ""
+
+#: $string['calendarToday']
+msgid "Today"
+msgstr ""
+
+#: $string['calendarUntitled']
+msgid "Untitled Event"
+msgstr ""
+
+#: $string['calendarViewLink']
+msgctxt "$string['calendarViewLink']"
+msgid "View"
+msgstr ""
+
+#: $string['configuationErrorMissingAppId']
+msgid ""
+"The Microsoft Live Services Plug-in for Moodle block has not been properly "
+"configured. The application ID or key has not been set. Please contact your "
+"system administrator."
+msgstr ""
+
+#: $string['emailAddAttachment']
+msgid "Add Attachment (select one or more)"
+msgstr ""
+
+#: $string['emailAddAttachmentCourseNotSelected']
+msgid "File attachments are only available in course view"
+msgstr ""
+
+#: $string['emailAddAttachmentNoAttachmentsAvailable']
+msgid "There are no resources available to attach for this course"
+msgstr ""
+
+#: $string['emailAttachments']
+msgid "Attach file"
+msgstr ""
+
+#: $string['emailAttachmentsDone']
+msgid "Done"
+msgstr ""
+
+#: $string['emailBody']
+msgid "Messsage"
+msgstr ""
+
+#: $string['emailCancel']
+msgctxt "$string['emailCancel']"
+msgid "Cancel"
+msgstr ""
+
+#: $string['emailExchangeNotSetUp']
+msgid ""
+"The Exchange server has not been setup or is not configured properly at this "
+"time. Please contact your system administrator"
+msgstr ""
+
+#: $string['emailFetchFailure']
+msgctxt "$string['emailFetchFailure']"
+msgid "system unavailable"
+msgstr ""
+
+#: $string['emailFrom']
+msgid "From"
+msgstr ""
+
+#: $string['emailIconAltText']
+msgctxt "$string['emailIconAltText']"
+msgid "Inbox"
+msgstr ""
+
+#: $string['emailLiveIdMissingCookie']
+msgid ""
+"The system was unable to access your Live ID. Please log out and log in "
+"again with your Live ID."
+msgstr ""
+
+#: $string['emailLoadingContacts']
+msgid "loading contacts..."
+msgstr ""
+
+#: $string['emailManyMessages']
+msgid "new messages"
+msgstr ""
+
+#: $string['emailMessage']
+msgctxt "$string['emailMessage']"
+msgid "Message"
+msgstr ""
+
+#: $string['emailNoMessages']
+msgid "no new messages"
+msgstr ""
+
+#: $string['emailOneMessage']
+msgid "1 new message"
+msgstr ""
+
+#: $string['emailOriginalMessage']
+msgid "Original Message"
+msgstr ""
+
+#: $string['emailQuickMessage']
+msgctxt "$string['emailQuickMessage']"
+msgid "New E-mail"
+msgstr ""
+
+#: $string['emailSend']
+msgctxt "$string['emailSend']"
+msgid "Send"
+msgstr ""
+
+#: $string['emailSendLink']
+msgctxt "$string['emailSendLink']"
+msgid "New E-mail"
+msgstr ""
+
+#: $string['emailSent']
+msgid "Sent"
+msgstr ""
+
+#: $string['emailSubject']
+msgctxt "$string['emailSubject']"
+msgid "Subject"
+msgstr ""
+
+#: $string['emailTo']
+msgid "To"
+msgstr ""
+
+#: $string['emailToTooltip']
+msgid "Separate multiple names with semicolons"
+msgstr ""
+
+#: $string['emailUnreadMessage']
+msgid "New message [[m]] of [[n]]"
+msgstr ""
+
+#: $string['emailUntitled']
+msgid "Untitled Message"
+msgstr ""
+
+#: $string['emailViewLink']
+msgctxt "$string['emailViewLink']"
+msgid "Inbox"
+msgstr ""
+
+#: $string['emailWindowsLiveMail']
+msgid "Windows Live Hotmail&reg;"
+msgstr ""
+
+#: $string['enablebingsearch']
+msgid "Enable Bing Search"
+msgstr ""
+
+#: $string['faqFooter']
+msgid ""
+"Microsoft&reg;, bing&trade;, Hotmail&reg;, MSN&reg; and Windows "
+"Live&trade;&nbsp;are trademarks of the Microsoft group of companies.  All "
+"other trademarks are property of their respective "
+"owners.<br/><br/>&copy;&nbsp;2009 Microsoft Corporation.  All rights "
+"reserved. This documentation is licensed under the Creative Commons "
+"Attribution License. To view a copy of this license, (a) visit <a "
+"href=\\\"http://creativecommons.org/licenses/by/3.0/legalcode\\\" "
+"target=\\\"_blank\\\">http://creativecommons.org/licenses/by/3.0/legalcode</a>; "
+"or, (b) send a letter to Creative Commons, 171 2nd Street, Suite 300, San "
+"Francisco, California, 94105, USA."
+msgstr ""
+
+#: $string['faqMoodleA1']
+msgid ""
+"The Microsoft Live Services Plug-in for Moodle gives you the option to sign "
+"in to your Moodle using your Windows Live ID. In addition, when you're "
+"signed in to your Moodle you can also quickly access some popular Windows "
+"Live services such as Windows Live Mail, Calendar, and Messenger."
+msgstr ""
+
+#: $string['faqMoodleA2']
+msgid ""
+"The first time you sign in to your Moodle using your Windows Live ID you'll "
+"need to give the site access to view your Windows Live Messenger contacts "
+"list, so that Windows Live can send your settings through your Moodle."
+msgstr ""
+
+#: $string['faqMoodleA3']
+msgid ""
+"You can use your current e-mail address or sign up for a free Windows Live "
+"e-mail address. The choice is yours. Keep in mind that some features are "
+"only available for certain e-mail accounts. For example, e-mail access is "
+"limited to Hotmail, MSN&reg;, and Live addresses."
+msgstr ""
+
+#: $string['faqMoodleA4']
+msgid ""
+"This may have been done for you already by your Moodle administrator. If "
+"not, you can link your Moodle and Windows Live ID accounts together with the "
+"following steps:\n"
+"<br/><br/><strong>Note:</strong> If you don't already have a Windows Live "
+"ID, you'll need to sign up for one before continuing.\n"
+"<br/>To link your Moodle and Windows Live ID accounts together:\n"
+"<ol>\n"
+"<li>Log into Moodle.</li>\n"
+"<li>Click your name in the upper-right corner to view your account.</li>\n"
+"<li>Click <strong>Edit Profile.</strong></li>\n"
+"<li>Click <strong>Show Advanced.</strong></li>\n"
+"<li>In the <strong>MSN ID</strong> field, enter your Windows Live ID.</li>\n"
+"<li>Click <strong>Update Profile.</strong></li>\n"
+"</ol>"
+msgstr ""
+
+#: $string['faqMoodleA5']
+msgid ""
+"If you can't sign into Moodle with your Windows Live ID, try the "
+"following:<br/>\n"
+"<ul>\n"
+"<li>Make sure that your whole e-mail address (before and after the @ sign) "
+"is entered in the <strong>Email address</strong> field. </li>\n"
+"<li>Make sure that you entered your password correctly. Passwords are case "
+"sensitive. If you've forgotten your password, try to reset it. </li>\n"
+"<li>If you haven't used your Hotmail or MSN e-mail address for a long time, "
+"it may be deactivated. If your account was deactivated, <a href=\\\"http://log"
+"in.live.com/login.srf?wa=wsignin1.0&rpsnv=10&ct=1244735143&rver=5.5.4177.0&w"
+"p=MBI&wreply=http://mail.live.com/default.aspx&lc=1033&id=64855&mkt=en-US\\\" "
+"target=\\\"_blank\\\">visit the Hotmail registration Web site</a> to open a new "
+"account. </li>\n"
+"<li>Your user name may become unavailable if it doesn't include msn or "
+"hotmail domain after the @ sign, and you haven't used the account for more "
+"than a year. To sign up for new credentials, visit the Windows Live ID Web "
+"site. </li>\n"
+"<li>Make sure that you have configured your browser to allow cookies. If "
+"your browser doesn't allow cookies, you can't sign in with your Windows Live "
+"ID. </li>\n"
+"<li>See if there is an error message telling you that the network is "
+"temporarily out of service.</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['faqMoodleQ1']
+msgid "How is my Windows Live ID used in Moodle?"
+msgstr ""
+
+#: $string['faqMoodleQ2']
+msgid "Why do I have to allow Windows Live access to my Moodle site?"
+msgstr ""
+
+#: $string['faqMoodleQ3']
+msgid ""
+"Do I have to create a new e-mail address or can I use my current e-mail "
+"address?"
+msgstr ""
+
+#: $string['faqMoodleQ4']
+msgid "How do I link my Moodle account to my Windows Live ID?"
+msgstr ""
+
+#: $string['faqMoodleQ5']
+msgid "What should I do if I can't sign in?"
+msgstr ""
+
+#: $string['faqPageHeader']
+msgid ""
+"Frequently Asked Questions: Using Windows Live&trade;&nbsp;Services in "
+"Moodle"
+msgstr ""
+
+#: $string['faqPageIntro']
+msgid ""
+"Find answers to frequently asked questions about setting up your Windows "
+"Live&trade;&nbsp;ID, using your Windows Live ID to sign in to Moodle, and "
+"using Windows Live services."
+msgstr ""
+
+#: $string['faqWLIDA1']
+msgid ""
+"Windows Live ID gives you access to Microsoft&reg;&nbsp;services including "
+"Windows Live Hotmail&reg;, Windows Live Calendar, Windows Live Messenger, "
+"and bing&trade;&nbsp;search. You can create your Windows Live ID (e-mail and "
+"password) once, then use it to sign in to those services and others such as "
+"your Moodle site.\n"
+"To learn more about Windows Live ID, see <a target=\\\"_blank\\\" href=\\\"https:/"
+"/accountservices.passport.net/ppnetworkhome.srf?vv=650&lc=1033\\\">Simplify "
+"your sign in.</a>"
+msgstr ""
+
+#: $string['faqWLIDA2']
+msgid ""
+"You can sign up for a Windows Live ID from the Moodle login site or <a "
+"target=\\\"blank\\\" "
+"href=\\\"https://signup.live.com/signup.aspx?rollrs=12&lic=1\\\">go online and "
+"create an account.</a>"
+msgstr ""
+
+#: $string['faqWLIDA3']
+msgid ""
+"To help protect your personal information, it's recommended that you change "
+"your password frequently.\n"
+"<br/>To change your password:\n"
+"<ol>\n"
+"<li>Sign in to your account summary page with your Windows Live ID.</li>\n"
+"<li>Under <strong>Password reset information</strong>, click "
+"<strong>Change</strong> next to <strong>Password</strong>.</li>\n"
+"<li>Verify that the e-mail address in the <strong>Windows Live ID</strong> "
+"field is correct, and then type your old password in the <strong>Old "
+"password</strong> box.</li>\n"
+"<li>Enter and confirm a new password.</li>\n"
+"<li>To set your password to expire every 72 days, click the <strong>Make my "
+"password expire every 72 days</strong> check box, and then click "
+"<strong>Save</strong>.</li>\n"
+"</ol>\n"
+"Note:  Some services require you to change your password every 72 days. If "
+"you use one of these services, automatic password expiration may be set "
+"already and can't be changed."
+msgstr ""
+
+#: $string['faqWLIDA4']
+msgid ""
+"First follow these steps:\n"
+"<ol>\n"
+"<li>In the sign in area, click <strong>Forgot your password?</strong></li>\n"
+"<li>In the <strong>E-mail address</strong> field, enter the address you used "
+"to create your Windows Live ID.</li>\n"
+"<li>Enter the characters that you see in the <strong>Picture</strong> field, "
+"and then click <strong>Continue</strong>.</li>\n"
+"</ol>\n"
+"Then, you have two options to identify or reset your password. You can send "
+"yourself a message or answer your secret question.\n"
+"To send yourself a message:\n"
+"<ul>\n"
+"<li>Click <strong>Send yourself a password reset e-mail message.</strong> "
+"</li>\n"
+"<li>If you added an alternate e-mail to your credentials, click <strong>Send "
+"an e-mail message to my alternate e-mail address</strong>, and then click "
+"<strong>Send Message</strong>. Or, if you use the Save my e-mail address and "
+"password option when you sign in, click the option to send an e-mail "
+"message to your usual e-mail address, then click Send Message. You'll be "
+"able to access your e-mail, because your password was automatically "
+"saved.</li>\n"
+"<li>Open your alternate e-mail account, and follow the instructions in the "
+"password reset e-mail message.</li>\n"
+"</ul>\n"
+"To answer your secret question:\n"
+"<ul>\n"
+"<li>Click <strong>Provide account information and answer your secret "
+"question.</strong></li>\n"
+"<li>From the <strong>Country/Region</strong> menu, select the name of your "
+"country or region, enter your ZIP code or postal code if prompted to do so. "
+"Then, in the <strong>Secret Answer</strong> area, enter your answer to the "
+"question in the Question area. </li>\n"
+"<li>Click <strong>Continue.</strong></li>\n"
+"<li>Enter and confirm a new password, and then click "
+"<strong>Continue</strong>.</li>\n"
+"<li>Click <strong>Done</strong></li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['faqWLIDQ1']
+msgid "What is a Windows Live ID?"
+msgstr ""
+
+#: $string['faqWLIDQ2']
+msgid "How do I get a Windows Live ID?"
+msgstr ""
+
+#: $string['faqWLIDQ3']
+msgid "How do I change my Windows Live ID password?"
+msgstr ""
+
+#: $string['faqWLIDQ4']
+msgid "What should I do if I forget my Windows Live ID password?"
+msgstr ""
+
+#: $string['faqWLSA1']
+msgid ""
+"The Microsoft Live Services Plug-in for Moodle provides access to Windows "
+"Live Mail, Calendar, Messenger, Alerts, and Bing search.<br/><br/>\n"
+"Note: If Windows Live services are not available from your Moodle site, then "
+"your Moodle administrator may not have installed this option."
+msgstr ""
+
+#: $string['faqWLSA10']
+msgid ""
+"Teachers within a Moodle course can send alerts to the students enrolled in "
+"that course."
+msgstr ""
+
+#: $string['faqWLSA11']
+msgid ""
+"If you have subscribed to Windows Live Alerts, and you <strong>subscribe for "
+"alerts for a particular course</strong>, you can receive alerts sent by the "
+"teacher of that course."
+msgstr ""
+
+#: $string['faqWLSA12']
+msgid ""
+"No, at this time Windows Live Alerts can only be sent to all subscribers in "
+"the same course."
+msgstr ""
+
+#: $string['faqWLSA13']
+msgid ""
+"If the Moodle administrator changes the short name used for the course, "
+"existing alert subscriptions for that course will stop working. To continue "
+"receiving alerts for the course, you'll need to subscribe to the course "
+"alerts again."
+msgstr ""
+
+#: $string['faqWLSA2']
+msgid ""
+"If you signed up for a Windows Live ID using an e-mail address that isn't "
+"from Hotmail, Live, or MSN, you cannot access e-mail within Moodle."
+msgstr ""
+
+#: $string['faqWLSA3']
+msgid ""
+"Yes, even if you don't have full access to your e-mail, you will still be "
+"able to maintain a contacts list using your Windows Live ID."
+msgstr ""
+
+#: $string['faqWLSA4']
+msgid ""
+"Yes, the Windows Live Calendar is available to all Windows Live ID accounts."
+msgstr ""
+
+#: $string['faqWLSA5']
+msgid ""
+"To learn more about setting up and maintaining your calendar, open <a "
+"target=\\\"_blank\\\" "
+"href=\\\"http://help.live.com/help.aspx?project=Calendar&market=en-"
+"WW&querytype=&query=&tmt=main&domain=calendar.live.com\\\">Windows Live "
+"Calendar Help.</a>"
+msgstr ""
+
+#: $string['faqWLSA6']
+msgid ""
+"Make sure you've added your classmates to your contacts list for Windows "
+"Live Messenger. You and your classmates may have to update your Windows Live "
+"Messenger Web settings to allow people to see your presence before you can "
+"see and chat with each other."
+msgstr ""
+
+#: $string['faqWLSA7']
+msgid ""
+"To turn presence on:<br/>\n"
+"<ol>\n"
+"<li>Open <a href=\\\"http://settings.messenger.live.com/applications/websettin"
+"gs.aspx?wa=wsignin1.0\\\" target=\\\"_blank\\\">Windows Live Messenger Web "
+"Settings.</a></li>\n"
+"<li>If you aren't already signed in, you'll need to sign in with your "
+"Windows Live ID.</li>\n"
+"<li>Click <strong>Allow anyone on the web to see my presence and send me "
+"messages.</strong></li>\n"
+"<li>Click <strong>Save.</strong></li>\n"
+"</ol>"
+msgstr ""
+
+#: $string['faqWLSA8']
+msgid ""
+"In order to appear online to your classmates, make sure:\n"
+"<ul>\n"
+"<li>You have Windows Live Messenger running and you are signed in. (If "
+"Windows Live Messenger is not available to you, then your Moodle "
+"administrator may not have installed this option.)</li>\n"
+"<li>Your classmates have added you to their contacts list and you have "
+"accepted their invitation.</li>\n"
+"<li>You have updated your settings to allow people to see your "
+"presence.</li>\n"
+"</ul>\n"
+"See <a target=\\\"_blank\\\" href=\\\"http://help.live.com/help.aspx?mkt=en-"
+"us&project=WL_Messengerv9&querytype=keyword&query=nogol\\\">Windows Live "
+"Messenger Help</a> for more information."
+msgstr ""
+
+#: $string['faqWLSA9']
+msgid ""
+"An alert is a message that is broadcast to a group of teachers and students. "
+"Alerts can be delivered to your e-mail, Windows Live Messenger, and mobile "
+"device. When you subscribe to Windows Live Alerts, you can set your "
+"preferred delivery methods."
+msgstr ""
+
+#: $string['faqWLSQ1']
+msgid "What Windows Live services can I use from my Moodle?"
+msgstr ""
+
+#: $string['faqWLSQ10']
+msgid "Who can send a Windows Live Alert?"
+msgstr ""
+
+#: $string['faqWLSQ11']
+msgid "Who can receive a Windows Live Alert?"
+msgstr ""
+
+#: $string['faqWLSQ12']
+msgid "Can I send a Windows Live Alert to an individual student?"
+msgstr ""
+
+#: $string['faqWLSQ13']
+msgid "Why did my course alerts suddenly stop working?"
+msgstr ""
+
+#: $string['faqWLSQ2']
+msgid "Why can't I access my e-mail?"
+msgstr ""
+
+#: $string['faqWLSQ3']
+msgid "If I can't access my e-mail, can I maintain a contacts list?"
+msgstr ""
+
+#: $string['faqWLSQ4']
+msgid "Is Windows Live Calendar available to everyone with a Windows Live ID?"
+msgstr ""
+
+#: $string['faqWLSQ5']
+msgid "Where can I learn more about using the Windows Live Calendar?"
+msgstr ""
+
+#: $string['faqWLSQ6']
+msgid "Why can't I send instant messages to my classmates?"
+msgstr ""
+
+#: $string['faqWLSQ7']
+msgid "How do I turn on my presence in Windows Live Messenger?"
+msgstr ""
+
+#: $string['faqWLSQ8']
+msgid ""
+"Why do I appear to be offline when my Windows Live Messenger presence is "
+"enabled?"
+msgstr ""
+
+#: $string['faqWLSQ9']
+msgid "What is a Windows Live Alert?"
+msgstr ""
+
+#: $string['identityHelpLink']
+msgid "FAQ"
+msgstr ""
+
+#: $string['identityHomeLink']
+msgid "Windows Live&trade;"
+msgstr ""
+
+#: $string['identityLogoAltText']
+msgid "Windows Live logo"
+msgstr ""
+
+#: $string['identityNotSignedIn']
+msgid "You are not signed into<br />Windows Live&trade;"
+msgstr ""
+
+#: $string['identityPrivacyLink']
+msgctxt "$string['identityPrivacyLink']"
+msgid "Privacy"
+msgstr ""
+
+#: $string['identitySignInButtonText']
+msgid "Sign in"
+msgstr ""
+
+#: $string['identitySignInParagraph']
+msgid ""
+"<a href='[[url]]'>Sign in</a> with your <strong>Microsoft Live ID.</strong>"
+msgstr ""
+
+#: $string['identitySignInText']
+msgid "with your <br/>Windows Live ID"
+msgstr ""
+
+#: $string['live_services']
+msgid "Live Services Help"
+msgstr ""
+
+#: $string['live_services_help']
+msgid ""
+"<!--\n"
+"    <style type=\\\"text/css\\\">\n"
+"\n"
+"        div#faq\n"
+"        {\n"
+"            margin:18px;\n"
+"        }\n"
+"        h1\n"
+"        {\n"
+"            font-size:1.3em;\n"
+"        }\n"
+"\n"
+"        h2\n"
+"        {\n"
+"            font-size:1.1em;\n"
+"        }\n"
+"        h3\n"
+"        {\n"
+"            font-size:1.0em;\n"
+"        }\n"
+"        a.questionLink\n"
+"        {\n"
+"            display:block;\n"
+"            margin:10px 4px;\n"
+"        }\n"
+"\n"
+"</style>  -->\n"
+"\n"
+"    <h1>Frequently Asked Questions: Using Windows Live&trade;&nbsp;Services "
+"in Moodle</h1>\n"
+"    <hr/>\n"
+"    <p>Find answers to frequently asked questions about setting up your "
+"Windows Live&trade;&nbsp;ID, using your Windows Live ID to sign in to "
+"Moodle, and using Windows Live services.</p>\n"
+"\n"
+"    <h2>Windows Live ID</h2>\n"
+"    <a href=\"#WLID1\" class=\"questionLink\">What is a Windows Live ID?</a>\n"
+"    <a href=\"#WLID2\" class=\"questionLink\">How do I get a Windows Live "
+"ID?</a>\n"
+"    <a href=\"#WLID3\" class=\"questionLink\">How do I change my Windows Live ID "
+"password?</a>\n"
+"    <a href=\"#WLID4\" class=\"questionLink\">What should I do if I forget my "
+"Windows Live ID password?</a>\n"
+"    <h2>Moodle</h2>\n"
+"\n"
+"    <a href=\"#Moodle1\" class=\"questionLink\">How is my Windows Live ID used "
+"in Moodle?</a>\n"
+"    <a href=\"#Moodle2\" class=\"questionLink\">Why do I have to allow Windows "
+"Live access to my Moodle site?</a>\n"
+"    <a href=\"#Moodle3\" class=\"questionLink\">Do I have to create a new e-mail "
+"address or can I use my current e-mail address?</a>\n"
+"    <a href=\"#Moodle4\" class=\"questionLink\">How do I link my Moodle account "
+"to my Windows Live ID? </a>\n"
+"    <a href=\"#Moodle5\" class=\"questionLink\">What should I do if I can't sign "
+"in? </a>\n"
+"    <h2>Windows Live Services</h2>\n"
+"\n"
+"    <a href=\"#WLS1\" class=\"questionLink\">What Windows Live services can I "
+"use from my Moodle?</a>\n"
+"    <a href=\"#WLS2\" class=\"questionLink\">Why can't I access my e-mail?</a>\n"
+"    <a href=\"#WLS3\" class=\"questionLink\">If I can't access my e-mail, can I "
+"maintain a contacts list? </a>\n"
+"    <a href=\"#WLS4\" class=\"questionLink\">Is Windows Live Calendar available "
+"to everyone with a Windows Live ID?</a>\n"
+"    <a href=\"#WLS5\" class=\"questionLink\">Where can I learn more about using "
+"the Windows Live Calendar?</a>\n"
+"    <a href=\"#WLS6\" class=\"questionLink\">Why can't I send instant messages "
+"to my classmates? </a>\n"
+"\n"
+"    <a href=\"#WLS7\" class=\"questionLink\">How do I turn on my presence in "
+"Windows Live Messenger?</a>\n"
+"    <a href=\"#WLS8\" class=\"questionLink\">Why do I appear to be offline when "
+"my Windows Live Messenger presence is enabled?</a>\n"
+"    <a href=\"#WLS9\" class=\"questionLink\">What is a Windows Live Alert?</a>\n"
+"    <a href=\"#WLS10\" class=\"questionLink\">Who can send a Windows Live "
+"Alert?</a>\n"
+"    <a href=\"#WLS11\" class=\"questionLink\">Who can receive a Windows Live "
+"Alert?</a>\n"
+"    <a href=\"#WLS12\" class=\"questionLink\">Can I send a Windows Live Alert to "
+"an individual student?</a>\n"
+"\n"
+"    <a href=\"#WLS13\" class=\"questionLink\">Why did my course alerts suddenly "
+"stop working?</a>\n"
+"    <h2>Windows Live ID</h2>\n"
+"    <h3 id=\"WLID1\">What is a Windows Live ID?</h3>\n"
+"    <p>Windows Live ID gives you access to Microsoft&reg;&nbsp;services "
+"including Windows Live Hotmail&reg;, Windows Live Calendar, Windows Live "
+"Messenger, and bing&trade;&nbsp;search. You can create your Windows Live ID "
+"(e-mail and password) once, then use it to sign in to those services and "
+"others such as your Moodle site.\n"
+"To learn more about Windows Live ID, see <a target=\\\"_blank\\\" href=\\\"https:/"
+"/accountservices.passport.net/ppnetworkhome.srf?vv=650&lc=1033\\\">Simplify "
+"your sign in.</a></p>\n"
+"    <h3 id=\"WLID2\">How do I get a Windows Live ID?</h3>\n"
+"\n"
+"    <p>You can sign up for a Windows Live ID from the Moodle login site or "
+"<a target=\\\"blank\\\" "
+"href=\\\"https://signup.live.com/signup.aspx?rollrs=12&lic=1\\\">go online and "
+"create an account.</a></p>\n"
+"    <h3 id=\"WLID3\">How do I change my Windows Live ID password?</h3>\n"
+"    <p>To help protect your personal information, it's recommended that you "
+"change your password frequently.\n"
+"<br/>To change your password:\n"
+"<ol>\n"
+"<li>Sign in to your account summary page with your Windows Live ID.</li>\n"
+"<li>Under <strong>Password reset information</strong>, click "
+"<strong>Change</strong> next to <strong>Password</strong>.</li>\n"
+"\n"
+"<li>Verify that the e-mail address in the <strong>Windows Live ID</strong> "
+"field is correct, and then type your old password in the <strong>Old "
+"password</strong> box.</li>\n"
+"<li>Enter and confirm a new password.</li>\n"
+"<li>To set your password to expire every 72 days, click the <strong>Make my "
+"password expire every 72 days</strong> check box, and then click "
+"<strong>Save</strong>.</li>\n"
+"\n"
+"</ol>\n"
+"Note:  Some services require you to change your password every 72 days. If "
+"you use one of these services, automatic password expiration may be set "
+"already and can't be changed.</p>\n"
+"    <h3 id=\"WLID4\">What should I do if I forget my Windows Live ID "
+"password?</h3>\n"
+"    <p>First follow these steps:\n"
+"<ol>\n"
+"<li>In the sign in area, click <strong>Forgot your password?</strong></li>\n"
+"<li>In the <strong>E-mail address</strong> field, enter the address you used "
+"to create your Windows Live ID.</li>\n"
+"\n"
+"<li>Enter the characters that you see in the <strong>Picture</strong> field, "
+"and then click <strong>Continue</strong>.</li>\n"
+"</ol>\n"
+"Then, you have two options to identify or reset your password. You can send "
+"yourself a message or answer your secret question.\n"
+"To send yourself a message:\n"
+"<ul>\n"
+"<li>Click <strong>Send yourself a password reset e-mail message.</strong> "
+"</li>\n"
+"<li>If you added an alternate e-mail to your credentials, click <strong>Send "
+"an e-mail message to my alternate e-mail address</strong>, and then click "
+"<strong>Send Message</strong>. Or, if you use the Save my e-mail address and "
+"password option when you sign in, click the option to send an e-mail "
+"message to your usual e-mail address, then click Send Message. You'll be "
+"able to access your e-mail, because your password was automatically "
+"saved.</li>\n"
+"\n"
+"<li>Open your alternate e-mail account, and follow the instructions in the "
+"password reset e-mail message.</li>\n"
+"</ul>\n"
+"To answer your secret question:\n"
+"<ul>\n"
+"<li>Click <strong>Provide account information and answer your secret "
+"question.</strong></li>\n"
+"<li>From the <strong>Country/Region</strong> menu, select the name of your "
+"country or region, enter your ZIP code or postal code if prompted to do so. "
+"Then, in the <strong>Secret Answer</strong> area, enter your answer to the "
+"question in the Question area. </li>\n"
+"<li>Click <strong>Continue.</strong></li>\n"
+"\n"
+"<li>Enter and confirm a new password, and then click "
+"<strong>Continue</strong>.</li>\n"
+"<li>Click <strong>Done</strong></li>\n"
+"</ul>\n"
+"</p>\n"
+"    <h2>Moodle</h2>\n"
+"    <h3 id=\"Moodle1\">How is my Windows Live ID used in Moodle?</h3>\n"
+"    <p>The Microsoft Live Services Plug-in for Moodle gives you the option "
+"to sign in to your Moodle using your Windows Live ID. In addition, when "
+"you're signed in to your Moodle you can also quickly access some popular "
+"Windows Live services such as Windows Live Mail, Calendar, and "
+"Messenger.</p>\n"
+"\n"
+"    <h3 id=\"Moodle2\">Why do I have to allow Windows Live access to my Moodle "
+"site?</h3>\n"
+"    <p>The first time you sign in to your Moodle using your Windows Live ID "
+"you'll need to give the site access to view your Windows Live Messenger "
+"contacts list, so that Windows Live can send your settings through your "
+"Moodle. </p>\n"
+"    <h3 id=\"Moodle3\">Do I have to create a new e-mail address or can I use "
+"my current e-mail address?</h3>\n"
+"    <p>You can use your current e-mail address or sign up for a free Windows "
+"Live e-mail address. The choice is yours. Keep in mind that some features "
+"are only available for certain e-mail accounts. For example, e-mail access "
+"is limited to Hotmail, MSN&reg;, and Live addresses. </p>\n"
+"    <h3 id=\"Moodle4\">How do I link my Moodle account to my Windows Live ID? "
+"</h3>\n"
+"    <p>This may have been done for you already by your Moodle administrator. "
+"If not, you can link your Moodle and Windows Live ID accounts together with "
+"the following steps:\n"
+"\n"
+"<br/><br/><strong>Note:</strong> If you don't already have a Windows Live "
+"ID, you'll need to sign up for one before continuing.\n"
+"<br/>To link your Moodle and Windows Live ID accounts together:\n"
+"<ol>\n"
+"<li>Log into Moodle.</li>\n"
+"<li>Click your name in the upper-right corner to view your account.</li>\n"
+"<li>Click <strong>Edit Profile.</strong></li>\n"
+"<li>Click <strong>Show Advanced.</strong></li>\n"
+"<li>In the <strong>MSN ID</strong> field, enter your Windows Live ID.</li>\n"
+"\n"
+"<li>Click <strong>Update Profile.</strong></li>\n"
+"</ol>\n"
+"</p>\n"
+"    <h3 id=\"Moodle5\">What should I do if I can't sign in? </h3>\n"
+"    <p>If you can't sign into Moodle with your Windows Live ID, try the "
+"following:<br/>\n"
+"<ul>\n"
+"<li>Make sure that your whole e-mail address (before and after the @ sign) "
+"is entered in the <strong>Email address</strong> field. </li>\n"
+"\n"
+"<li>Make sure that you entered your password correctly. Passwords are case "
+"sensitive. If you've forgotten your password, try to reset it. </li>\n"
+"<li>If you haven't used your Hotmail or MSN e-mail address for a long time, "
+"it may be deactivated. If your account was deactivated, <a href=\\\"http://log"
+"in.live.com/login.srf?wa=wsignin1.0&rpsnv=10&ct=1244735143&rver=5.5.4177.0&w"
+"p=MBI&wreply=http://mail.live.com/default.aspx&lc=1033&id=64855&mkt=en-US\\\" "
+"target=\\\"_blank\\\">visit the Hotmail registration Web site</a> to open a new "
+"account. </li>\n"
+"<li>Your user name may become unavailable if it doesn't include msn or "
+"hotmail domain after the @ sign, and you haven't used the account for more "
+"than a year. To sign up for new credentials, visit the Windows Live ID Web "
+"site. </li>\n"
+"<li>Make sure that you have configured your browser to allow cookies. If "
+"your browser doesn't allow cookies, you can't sign in with your Windows Live "
+"ID. </li>\n"
+"<li>See if there is an error message telling you that the network is "
+"temporarily out of service.</li>\n"
+"</ul>\n"
+" </p>\n"
+"   <h2>Windows Live Services</h2>\n"
+"\n"
+"    <h3 id=\"WLS1\">What Windows Live services can I use from my Moodle?</h3>\n"
+"    <p>The Microsoft Live Services Plug-in for Moodle provides access to "
+"Windows Live Mail, Calendar, Messenger, Alerts, and Bing search.<br/><br/>\n"
+"Note: If Windows Live services are not available from your Moodle site, then "
+"your Moodle administrator may not have installed this option. </p>\n"
+"    <h3 id=\"WLS2\">Why can't I access my e-mail?</h3>\n"
+"    <p>If you signed up for a Windows Live ID using an e-mail address that "
+"isn't from Hotmail, Live, or MSN, you cannot access e-mail within Moodle. "
+"</p>\n"
+"    <h3 id=\"WLS3\">If I can't access my e-mail, can I maintain a contacts "
+"list? </h3>\n"
+"\n"
+"    <p>Yes, even if you don't have full access to your e-mail, you will "
+"still be able to maintain a contacts list using your Windows Live ID.</p>\n"
+"    <h3 id=\"WLS4\">Is Windows Live Calendar available to everyone with a "
+"Windows Live ID?</h3>\n"
+"    <p>Yes, the Windows Live Calendar is available to all Windows Live ID "
+"accounts.</p>\n"
+"    <h3 id=\"WLS5\">Where can I learn more about using the Windows Live "
+"Calendar?</h3>\n"
+"    <p>To learn more about setting up and maintaining your calendar, open <a "
+"target=\\\"_blank\\\" "
+"href=\\\"http://help.live.com/help.aspx?project=Calendar&market=en-"
+"WW&querytype=&query=&tmt=main&domain=calendar.live.com\\\">Windows Live "
+"Calendar Help.</a></p>\n"
+"    <h3 id=\"WLS6\">Why can't I send instant messages to my classmates? </h3>\n"
+"\n"
+"    <p>Make sure you've added your classmates to your contacts list for "
+"Windows Live Messenger. You and your classmates may have to update your "
+"Windows Live Messenger Web settings to allow people to see your presence "
+"before you can see and chat with each other.</p>\n"
+"    <h3 id=\"WLS7\">How do I turn on my presence in Windows Live "
+"Messenger?</h3>\n"
+"    <p>To turn presence on:<br/>\n"
+"<ol>\n"
+"<li>Open <a href=\\\"http://settings.messenger.live.com/applications/websettin"
+"gs.aspx?wa=wsignin1.0\\\" target=\\\"_blank\\\">Windows Live Messenger Web "
+"Settings.</a></li>\n"
+"<li>If you aren't already signed in, you'll need to sign in with your "
+"Windows Live ID.</li>\n"
+"<li>Click <strong>Allow anyone on the web to see my presence and send me "
+"messages.</strong></li>\n"
+"\n"
+"<li>Click <strong>Save.</strong></li>\n"
+"</ol></p>\n"
+"    <h3 id=\"WLS8\">Why do I appear to be offline when my Windows Live "
+"Messenger presence is enabled?</h3>\n"
+"    <p>In order to appear online to your classmates, make sure:\n"
+"<ul>\n"
+"<li>You have Windows Live Messenger running and you are signed in. (If "
+"Windows Live Messenger is not available to you, then your Moodle "
+"administrator may not have installed this option.)</li>\n"
+"<li>Your classmates have added you to their contacts list and you have "
+"accepted their invitation.</li>\n"
+"<li>You have updated your settings to allow people to see your "
+"presence.</li>\n"
+"</ul>\n"
+"\n"
+"See <a target=\\\"_blank\\\" href=\\\"http://help.live.com/help.aspx?mkt=en-"
+"us&project=WL_Messengerv9&querytype=keyword&query=nogol\\\">Windows Live "
+"Messenger Help</a> for more information.\n"
+"</p>\n"
+"    <h3 id=\"WLS9\">What is a Windows Live Alert?</h3>\n"
+"    <p>An alert is a message that is broadcast to a group of teachers and "
+"students. Alerts can be delivered to your e-mail, Windows Live Messenger, "
+"and mobile device. When you subscribe to Windows Live Alerts, you can set "
+"your preferred delivery methods.</p>\n"
+"    <h3 id=\"WLS10\">Who can send a Windows Live Alert?</h3>\n"
+"    <p>Teachers within a Moodle course can send alerts to the students "
+"enrolled in that course.</p>\n"
+"\n"
+"    <h3 id=\"WLS11\">Who can receive a Windows Live Alert?</h3>\n"
+"    <p>If you have subscribed to Windows Live Alerts, and you "
+"<strong>subscribe for alerts for a particular course</strong>, you can "
+"receive alerts sent by the teacher of that course.</p>\n"
+"    <h3 id=\"WLS12\">Can I send a Windows Live Alert to an individual "
+"student?</h3>\n"
+"    <p>No, at this time Windows Live Alerts can only be sent to all "
+"subscribers in the same course.</p>\n"
+"    <h3 id=\"WLS13\">Why did my course alerts suddenly stop working?</h3>\n"
+"\n"
+"    <p>If the Moodle administrator changes the short name used for the "
+"course, existing alert subscriptions for that course will stop working. To "
+"continue receiving alerts for the course, you'll need to subscribe to the "
+"course alerts again.</p>\n"
+"    <hr>\n"
+"    <p style=\"font-size:0.8em;color:#333333\">Microsoft&reg;, bing&trade;, "
+"Hotmail&reg;, MSN&reg; and Windows Live&trade;&nbsp;are trademarks of the "
+"Microsoft group of companies.  All other trademarks are property of their "
+"respective owners.<br/><br/>&copy;&nbsp;2009 Microsoft Corporation.  All "
+"rights reserved. This documentation is licensed under the Creative Commons "
+"Attribution License. To view a copy of this license, (a) visit <a "
+"href=\\\"http://creativecommons.org/licenses/by/3.0/legalcode\\\" "
+"target=\\\"_blank\\\">http://creativecommons.org/licenses/by/3.0/legalcode</a>; "
+"or, (b) send a letter to Creative Commons, 171 2nd Street, Suite 300, San "
+"Francisco, California, 94105, USA.</p>"
+msgstr ""
+
+#: $string['messengerClassmates']
+msgid "Classmates"
+msgstr ""
+
+#: $string['messengerHeader']
+msgid "Your Windows Live Messenger contacts"
+msgstr ""
+
+#: $string['messengerIconAltText']
+msgid "messenger"
+msgstr ""
+
+#: $string['messengerNoClassmatesInContacts']
+msgid "no classmates are in your contacts list"
+msgstr ""
+
+#: $string['messengerNoStudentsInContacts']
+msgid "no students are in your contacts list"
+msgstr ""
+
+#: $string['messengerNoTeachersInContacts']
+msgid "no teachers are in your contacts list"
+msgstr ""
+
+#: $string['messengerPresenceLink']
+msgid "enable presence"
+msgstr ""
+
+#: $string['messengerStudents']
+msgid "Students"
+msgstr ""
+
+#: $string['messengerTeachersHeader']
+msgid "Teachers"
+msgstr ""
+
+#: $string['outlookurlstr']
+msgid "Outlook URL"
+msgstr ""
+
+#: $string['owaText']
+msgid ""
+"Open your <a target='_blank' href='[[url]]' class='actionLink' "
+"onclick='javascript:parentGrayOut(false,null);hideOverlay();'>inbox</a> in a "
+"new browser window"
+msgstr ""
+
+#: $string['passwordstr']
+msgid "Password"
+msgstr ""
+
+#: $string['placeholderstr']
+msgid "Place Holder String"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Microsoft&reg;&nbsp;Live Services"
+msgstr ""
+
+#: $string['popupQuickEventTitle']
+msgid "Quick Calendar Event"
+msgstr ""
+
+#: $string['popupQuickMessageTitle']
+msgid "Quick E-mail Message"
+msgstr ""
+
+#: $string['popupSendAlertTitle']
+msgid "Send Alert"
+msgstr ""
+
+#: $string['privacy']
+msgctxt "$string['privacy']"
+msgid "Privacy"
+msgstr ""
+
+#: $string['privacyPolicyText']
+msgid ""
+"<p>\n"
+"        If you obtain Microsoft Live Services through a school account, your "
+"school may maintain the privacy policy applicable to your use of those "
+"Microsoft Live Services.  Contact your school to learn more about privacy "
+"and Microsoft Live Services.\n"
+"      </p>\n"
+"      <p>If you do not obtain Microsoft Live Services through a school "
+"account, your use of the Microsoft Live Services you obtain directly from "
+"Microsoft is subject to the Microsoft privacy statement(s) for those "
+"services.  Most Microsoft Live Services are subject to the [[privacyUrl]]  "
+"To learn more, visit the Web pages for the Microsoft Live Services you "
+"use.</p>\n"
+"      <p>Microsoft is not responsible for the privacy policies or practices "
+"of third parties (including schools) or third-party software (including "
+"Moodle).</p>"
+msgstr ""
+
+#: $string['privacyPolicyTitle']
+msgid "Microsoft&reg;&nbsp;Live Services Privacy Policy"
+msgstr ""
+
+#: $string['privacyUrlText']
+msgid "Microsoft Online Privacy Statement."
+msgstr ""
+
+#: $string['profile_str']
+msgid "Profile"
+msgstr ""
+
+#: $string['searchBingAltText']
+msgid "Search the web with bing. Type your query or select words on the page"
+msgstr ""
+
+#: $string['searchHeader']
+msgid "Search the web"
+msgstr ""
+
+#: $string['searchPowersetAltText']
+msgid ""
+"Search the web with Powerset. Type your query or select words on the page"
+msgstr ""
+
+#: $string['serviceaccount']
+msgid "Service Account"
+msgstr ""
+
+#: $string['showcalendar']
+msgid "Show Calendar"
+msgstr ""
+
+#: $string['showemail']
+msgid "Show Email"
+msgstr ""
+
+#: $string['showmessenger']
+msgid "Show Messenger"
+msgstr ""
+
+#: $string['showsearch']
+msgid "Show Search"
+msgstr ""
+
+#: $string['useoutlooklive']
+msgid "Use Outlook Live"
+msgstr ""
+
+#: $string['warningauthmismatch']
+msgid "Warning: Windows Live ID does not match the authenticated user account."
+msgstr ""

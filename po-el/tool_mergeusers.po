@@ -1,0 +1,454 @@
+#. extracted from lang/en/tool_mergeusers.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'tool_mergeusers', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   tool_mergeusers
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['choose_users']
+msgid "Choose users to merge"
+msgstr ""
+
+#: $string['clear_selection']
+msgid "Clear current user selection"
+msgstr ""
+
+#: $string['cligathering:description']
+msgid ""
+"Introduce pairs of user's id to merge the first one into the\\n\n"
+"second one. The first user id (fromid) will 'lose' all its data to be "
+"'migrated'\\n\n"
+"into the second one (toid). The user 'toid' will include data from both "
+"users."
+msgstr ""
+
+#: $string['cligathering:fromid']
+msgid "Source user id (fromid):"
+msgstr ""
+
+#: $string['cligathering:stopping']
+msgid "To stop merging, Ctrl+C or type -1 either on fromid or toid fields."
+msgstr ""
+
+#: $string['cligathering:toid']
+msgid "Target user id   (toid):"
+msgstr ""
+
+#: $string['dbko_no_transactions']
+msgid ""
+"<strong>Merge failed!</strong> <br/>Your database engine\n"
+"    does not support transactions. Therefore, your database <strong>has been "
+"updated</strong>.\n"
+"    Your database status may be inconsistent. <br/>But, take a look at the "
+"merging log\n"
+"    and, please, inform about the error to plugin developers. You will get a "
+"solution\n"
+"    in short time. After updating the plugin to its last version, which will "
+"include the solution\n"
+"    to that problem, repeat the merging action to complete it with success."
+msgstr ""
+
+#: $string['dbko_transactions']
+msgid ""
+"<strong>Merge failed!</strong> <br/>Your database engine\n"
+"    supports transactions. Therefore, the whole current transaction has been "
+"rolled back\n"
+"    and <strong>no modification has been made to your database</strong>."
+msgstr ""
+
+#: $string['dbok']
+msgid "Merge successful"
+msgstr ""
+
+#: $string['deleted']
+msgid "User with ID {$a} was deleted"
+msgstr ""
+
+#: $string['errordatabase']
+msgid "Error: Database type {$a} not supported."
+msgstr ""
+
+#: $string['error_return']
+msgid "Return to search form"
+msgstr ""
+
+#: $string['errorsameuser']
+msgid "Trying to merge the same user"
+msgstr ""
+
+#: $string['errortransactionsonly']
+msgid ""
+"Error: transactions are required, but your database type {$a}\n"
+"    does not support them. If needed, you can allow merging users without "
+"transactions.\n"
+"    Please, review plugin settings to set up them accordingly."
+msgstr ""
+
+#: $string['eventusermergedfailure']
+msgid "Merge failed"
+msgstr ""
+
+#: $string['eventusermergedsuccess']
+msgid "Merging success"
+msgstr ""
+
+#: $string['excluded_exceptions']
+msgid "Exclude exceptions"
+msgstr ""
+
+#: $string['excluded_exceptions_desc']
+msgid ""
+"Experience on this subject suggests\n"
+"    that all these database tables should be excluded from merging. See\n"
+"    README for more details. <br>\n"
+"    Therefore, for applying default plugin behaviour, you need to choose "
+"'{$a}'\n"
+"    to exclude all those tables from the merging process (recommended).<br>\n"
+"    If you prefer, you can exclude any of those tables and include them in "
+"the\n"
+"    merging process (not recommended)."
+msgstr ""
+
+#: $string['form_description']
+msgid ""
+"<p>You may search for users here if you don't\n"
+"    know the user's username/id number. Otherwise you may expand the form to\n"
+"    enter that information directly.  Please see help on fields for more\n"
+"    information</p>"
+msgstr ""
+
+#: $string['form_header']
+msgid "Find users to merge"
+msgstr ""
+
+#: $string['header']
+msgid "Merge two users into a single account"
+msgstr ""
+
+#: $string['header_help']
+msgid ""
+"<p>Given a user to be deleted and a user to keep, this will merge the user "
+"data\n"
+" associated with the former user into the latter user. Note that both users "
+"must\n"
+" already exist and no accounts will actually be deleted. That process is "
+"left to the\n"
+" administrator to do manually.</p>\n"
+" <p><strong>Only do this if you know what you are doing as it is not "
+"reversable!</strong></p>"
+msgstr ""
+
+#: $string['into']
+msgid "into"
+msgstr ""
+
+#: $string['invalid_option']
+msgid "Invalid form option"
+msgstr ""
+
+#: $string['invaliduser']
+msgid "Invalid user"
+msgstr ""
+
+#: $string['logid']
+msgid "For further reference, these results are recorded in the log id {$a}."
+msgstr ""
+
+#: $string['logko']
+msgid "Some error occurred:"
+msgstr ""
+
+#: $string['loglist']
+msgid "All these records are merging actions done, showing if they went ok:"
+msgstr ""
+
+#: $string['logok']
+msgid "Here are the queries that have been sent to the DB:"
+msgstr ""
+
+#: $string['mergeusers']
+msgctxt "$string['mergeusers']"
+msgid "Merge user accounts"
+msgstr ""
+
+#: $string['mergeusersadvanced']
+msgid "<strong>Direct user input</strong>"
+msgstr ""
+
+#: $string['mergeusersadvanced_help']
+msgid ""
+"Here you can enter the below fields if\n"
+"    you know exactly what users that you want to merge.<br /><br />\n"
+"    Click the \"search\" button in order to verify/confirm that the input "
+"entered\n"
+"    are in fact users."
+msgstr ""
+
+#: $string['mergeusers_confirm']
+msgid ""
+"After confirming the merge process will start.\n"
+"    <br /><strong>This will not be reversible!</strong>\n"
+"    Are you sure you want to continue?"
+msgstr ""
+
+#: $string['mergeusers:mergeusers']
+msgctxt "$string['mergeusers:mergeusers']"
+msgid "Merge user accounts"
+msgstr ""
+
+#: $string['mergeusers:view']
+msgid "Merge User Accounts"
+msgstr ""
+
+#: $string['merging']
+msgid "Merged"
+msgstr ""
+
+#: $string['newuser']
+msgid "User to keep"
+msgstr ""
+
+#: $string['newuserid']
+msgid "User ID to be kept"
+msgstr ""
+
+#: $string['newuseridonlog']
+msgid "User kept"
+msgstr ""
+
+#: $string['nologs']
+msgid "There is no merging logs yet. Good for you!"
+msgstr ""
+
+#: $string['no_saveselection']
+msgid "You did not select either an old or new user."
+msgstr ""
+
+#: $string['olduser']
+msgid "User to remove"
+msgstr ""
+
+#: $string['olduserid']
+msgid "User ID to be removed"
+msgstr ""
+
+#: $string['olduseridonlog']
+msgid "User removed"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Merge user accounts"
+msgstr ""
+
+#: $string['qa_action_delete_fromid']
+msgid "Keep attempts from the new user"
+msgstr ""
+
+#: $string['qa_action_delete_toid']
+msgid "Keep attempts from the old user"
+msgstr ""
+
+#: $string['qa_action_remain']
+msgid "Do nothing: do not merge nor delete"
+msgstr ""
+
+#: $string['qa_action_remain_log']
+msgid "User data from table <strong>{$a}</strong> are not updated."
+msgstr ""
+
+#: $string['qa_action_renumber']
+msgid "Merge attempts from both users and renumber"
+msgstr ""
+
+#: $string['qa_chosen_action']
+msgid "Active option for quiz attempts: {$a}."
+msgstr ""
+
+#: $string['qa_grades']
+msgid "Grades recalculated for quizzes: {$a}."
+msgstr ""
+
+#: $string['quizattemptsaction']
+msgid "How to resolve quiz attempts"
+msgstr ""
+
+#: $string['quizattemptsaction_desc']
+msgid ""
+"When merging quiz attempts there may exist three cases:\n"
+"    <ol>\n"
+"    <li>Only the old user has quiz attempts. All attemps will appear as if "
+"they were made by the new user.</li>\n"
+"    <li>Only the new user has quiz attempts. All is correct and nothing is "
+"done.</li>\n"
+"    <li>Both users have attempts for the same quiz. <strong>You have to "
+"choose what to do in this case of conflict.\n"
+"    </strong>. You are required to choose one of the following actions:\n"
+"        <ul>\n"
+"        <li><strong>{$a->renumber}</strong>. Attempts from the old user are "
+"merged with the ones of the new user\n"
+"        and renumbered by the time they were started.</li>\n"
+"        <li><strong>{$a->delete_fromid}</strong>. Attempts from the old user "
+"are removed. Attempts from the new user\n"
+"        are kept, since this option considers them as the most "
+"important.</li>\n"
+"        <li><strong>{$a->delete_toid}</strong>. Attempts from the new user "
+"are removed. Attempts from\n"
+"        the old user are kept, since this option considers them as the most "
+"important.</li>\n"
+"        <li><strong>{$a->remain}</strong> (by default). Attempts are not "
+"merged nor deleted, remaining related to\n"
+"        the user who made them. This is the most secure action, but merging "
+"users from user A to user B or B to A may\n"
+"        produce different quiz grades.</li>\n"
+"        </ul>\n"
+"    </li>\n"
+"    </ol>"
+msgstr ""
+
+#: $string['results']
+msgid "Merging results and log"
+msgstr ""
+
+#: $string['review_users']
+msgid "Confirm users to merge"
+msgstr ""
+
+#: $string['saveselection_submit']
+msgid "Save selection"
+msgstr ""
+
+#: $string['searchuser']
+msgid "Search for User"
+msgstr ""
+
+#: $string['searchuser_help']
+msgid ""
+"Enter a username, first/last name, email address\n"
+"    or user id to search for potential users. You may also specify if you "
+"only\n"
+"    want to search through a particular field."
+msgstr ""
+
+#: $string['suspenduser_setting']
+msgid "Suspend old user"
+msgstr ""
+
+#: $string['suspenduser_setting_desc']
+msgid ""
+"If enabled, it suspends the old user\n"
+"    automatically upon a succesful merging process, preventing the user\n"
+"    from logging in Moodle (recommended). If disabled, the old user remains "
+"active.\n"
+"    In both cases, old user will not have his/her related data."
+msgstr ""
+
+#: $string['tableko']
+msgid "Table {$a} : update NOT OK!"
+msgstr ""
+
+#: $string['tableok']
+msgid "Table {$a} : update OK"
+msgstr ""
+
+#: $string['tableskipped']
+msgid ""
+"For logging or security reasons we are skipping <strong>{$a}</strong>.\n"
+" <br />To remove these entries, delete the old user once this script has run "
+"successfully."
+msgstr ""
+
+#: $string['transactions_not_supported']
+msgid ""
+"For your information, your database\n"
+"    <strong>does not supports transactions</strong>."
+msgstr ""
+
+#: $string['transactions_setting']
+msgid "Only transactions allowed"
+msgstr ""
+
+#: $string['transactions_setting_desc']
+msgid ""
+"If enabled, merge users will not work\n"
+"    at all on databases that do NOT support transactions (recommended).\n"
+"    Enabling it is necessary to ensure that your database remains consistent\n"
+"    in case of merging errors. <br />If disabled, you will always run "
+"merging actions.\n"
+"    In case of errors, the merging log will show you what was the problem.\n"
+"    Reporting it to the plugin supporters will give you a solution in short.\n"
+"    <br />Above all, core Moodle tables and some third party plugins are "
+"already\n"
+"    considered by this plugin. If you do not have any third party plugins\n"
+"    in your Moodle installation, you can be quiet on running this plugin\n"
+"    enabling or disabling this option."
+msgstr ""
+
+#: $string['transactions_supported']
+msgid ""
+"For your information, your database\n"
+"    <strong>supports transactions</strong>."
+msgstr ""
+
+#: $string['uniquekeynewidtomaintain']
+msgid "Keep new user's data"
+msgstr ""
+
+#: $string['uniquekeynewidtomaintain_desc']
+msgid ""
+"In case of conflict,\n"
+"    like when the user.id related column is a unique key, this plugin will "
+"keep\n"
+"    data from new user (by default). This also means that data from old user "
+"is\n"
+"    deleted to keep the consistence. Otherwise, if you uncheck this option,\n"
+"    data from old user will be kept."
+msgstr ""
+
+#: $string['usermergingheader']
+msgid "&laquo;{$a->username}&raquo; (user ID = {$a->id})"
+msgstr ""
+
+#: $string['userreviewtable_legend']
+msgid "<b>Review users to merge</b>"
+msgstr ""
+
+#: $string['userselecttable_legend']
+msgid "<b>Select users to merge</b>"
+msgstr ""
+
+#: $string['viewlog']
+msgid "See merging logs"
+msgstr ""
+
+#: $string['wronglogid']
+msgid "The log you are asking for does not exist."
+msgstr ""

@@ -1,0 +1,223 @@
+#. extracted from lang/en/assignsubmission_changes.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'assignsubmission_changes', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   assignsubmission_changes
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['admin_diff']
+msgid "Enable Difference Detection by default"
+msgstr ""
+
+#: $string['admin_diff_help']
+msgid ""
+"If set, the generation of the differences between the uploades will be "
+"enabled by default for all new assignments.<br>Diff generation requires the "
+"changelog generation."
+msgstr ""
+
+#: $string['allow_changelog']
+msgid "Allow detection of changes in student submissions"
+msgstr ""
+
+#: $string['allow_changelog_help']
+msgid ""
+"If set, a changelog with all updates of the submission can be generated. You "
+"can set this option in the submission settings. If this option is "
+"deactivated, a changelog can not be generated."
+msgstr ""
+
+#: $string['default']
+msgid "Enable Changelog by default"
+msgstr ""
+
+#: $string['default_help']
+msgid ""
+"If set, the changelog will be enabled by default for all new assignments."
+msgstr ""
+
+#: $string['diff']
+msgid "Auto detect diff"
+msgstr ""
+
+#: $string['diff_help']
+msgid "Detect differences in student submissions"
+msgstr ""
+
+#: $string['diff_not_available']
+msgid ""
+"<p>The detection for changes in PDF files is not available because the tool "
+"<code>diff</code> could not be found on your system. If you have enabled the "
+"setting above, have a look in the admin settings of the local Plugin "
+"ChangelogLib to specify the correct path. This message disappears if the "
+"tool could be found.</p>"
+msgstr ""
+
+#: $string['diff_prefix']
+msgid "The following pages of the new file were changed:"
+msgstr ""
+
+#: $string['diff_requires_changelog']
+msgid "You must enable the changelog for the diff generation"
+msgstr ""
+
+#: $string['edit_form_changes']
+msgid "Changelog entry"
+msgstr ""
+
+#: $string['edit_form_changes_help']
+msgid "Describe the changed parts in your submission."
+msgstr ""
+
+#: $string['edit_form_error_empty']
+msgid "The changelog entry must not be empty."
+msgstr ""
+
+#: $string['edit_form_error_too_long']
+msgid ""
+"You can not use more than {$a->max} chars as description text. You submitted "
+"{$a->used} chars."
+msgstr ""
+
+#: $string['edit_form_headline']
+msgid "Edit the displayed changelog text for your submission on {$a}."
+msgstr ""
+
+#: $string['edit_form_link']
+msgid "edit"
+msgstr ""
+
+#: $string['enabled']
+msgid "Changelog"
+msgstr ""
+
+#: $string['enabled_help']
+msgid "Enable the detection of changes."
+msgstr ""
+
+#: $string['is_an_update']
+msgid "is an update of"
+msgstr ""
+
+#: $string['last_grading']
+msgid "The last grading was on"
+msgstr ""
+
+#: $string['long_diff']
+msgid "{$a} pages were changed"
+msgstr ""
+
+#: $string['max_filesize']
+msgid "Max filesize in MB for diff detection"
+msgstr ""
+
+#: $string['max_filesize_help']
+msgid ""
+"The maximum filesize of the submission where differences to a predecessor "
+"will be detected. A higher value can impact the server response time and "
+"workload. Set this value to zero to disable the diff detection."
+msgstr ""
+
+#: $string['new_changes_prefix']
+msgid "The following changes were performed by the user after the last grading"
+msgstr ""
+
+#: $string['no_changes']
+msgid "There are no detected changes."
+msgstr ""
+
+#: $string['no_last_grading']
+msgid "There is no grading until now."
+msgstr ""
+
+#: $string['no_new_changes']
+msgid "There are no changes of the submission after the last grading"
+msgstr ""
+
+#: $string['no_old_changes']
+msgid "The student has not submitted any changes before the last grading"
+msgstr ""
+
+#: $string['no_ungraded_changes']
+msgid "No ungraded changes"
+msgstr ""
+
+#: $string['old_changes_prefix']
+msgid ""
+"The following changes were performed by the user before the last grading"
+msgstr ""
+
+#: $string['pdftotext_not_available']
+msgid ""
+"<p>The detection for changes in PDF files is not available because the tool "
+"<code>pdftotext</code> could not be found on your system. If you have "
+"enabled the setting above, have a look in the admin settings of the local "
+"Plugin ChangelogLib to specify the correct path. This message disappears if "
+"the tool could be found.</p>"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Changes"
+msgstr ""
+
+#: $string['pluginname_desc']
+msgctxt "$string['pluginname_desc']"
+msgid "AssignSubmission Changes"
+msgstr ""
+
+#: $string['pluginname_help']
+msgctxt "$string['pluginname_help']"
+msgid "AssignSubmission Changes"
+msgstr ""
+
+#: $string['pluginname_link']
+msgid "https://github.com/hwuerz/moodle-assignsubmission_changes"
+msgstr ""
+
+#: $string['replaces']
+msgid "replaces"
+msgstr ""
+
+#: $string['ungraded_changes']
+msgid "There are ungraded changes"
+msgstr ""
+
+#: $string['warning']
+msgid "Warning"
+msgstr ""
+
+#: $string['was_added']
+msgid "was added"
+msgstr ""
+
+#: $string['was_deleted']
+msgid "was deleted"
+msgstr ""

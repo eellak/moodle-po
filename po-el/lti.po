@@ -1,0 +1,1655 @@
+#. extracted from lang/en/lti.php, lang/el/lti.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'lti', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   lti
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['accept']
+msgid "Accept"
+msgstr ""
+
+#: $string['accepted']
+msgid "Accepted"
+msgstr ""
+
+#: $string['accept_grades']
+msgctxt "$string['accept_grades']"
+msgid "Accept grades from the tool"
+msgstr ""
+
+#: $string['accept_grades_admin']
+msgctxt "$string['accept_grades_admin']"
+msgid "Accept grades from the tool"
+msgstr ""
+
+#: $string['accept_grades_admin_help']
+msgid ""
+"Specify whether the tool provider can add, update, read, and delete grades "
+"associated with instances of this tool.\n"
+"\n"
+"Some tool providers support reporting grades back to Moodle based on actions "
+"taken within the tool, creating a more integrated\n"
+"experience."
+msgstr ""
+
+#: $string['accept_grades_help']
+msgid ""
+"Specify whether the tool provider can add, update, read, and delete grades "
+"associated only with this external tool instance.\n"
+"\n"
+"Some tool providers support reporting grades back to Moodle based on actions "
+"taken within the tool, creating a more integrated experience.\n"
+"\n"
+"Note that this setting may be overridden in the tool configuration."
+msgstr ""
+
+#: $string['action']
+msgid "Action"
+msgstr ""
+
+#: $string['activate']
+msgid "Activate"
+msgstr ""
+
+#: $string['activatetoadddescription']
+msgid "You will need to activate this tool before you can add a description."
+msgstr ""
+
+#: $string['active']
+msgid "Active"
+msgstr ""
+
+#: $string['activity']
+msgid "Activity"
+msgstr ""
+
+#: $string['addnewapp']
+msgid "Enable external application"
+msgstr ""
+
+#: $string['addserver']
+msgid "Add new trusted server"
+msgstr ""
+
+#: $string['addtype']
+msgid "Add preconfigured tool"
+msgstr ""
+
+#: $string['allow']
+msgid "Allow"
+msgstr ""
+
+#: $string['allowinstructorcustom']
+msgid "Allow teachers to add custom parameters"
+msgstr ""
+
+#: $string['allowsetting']
+msgid "Allow tool to store 8K of settings in Moodle"
+msgstr ""
+
+#: $string['always']
+msgid "Always"
+msgstr ""
+
+#: $string['autoaddtype']
+msgid "Add tool"
+msgstr ""
+
+#: $string['automatic']
+msgid "Automatic, based on tool URL"
+msgstr ""
+
+#: $string['baseurl']
+msgid "Base URL/tool registration name"
+msgstr ""
+
+#: $string['basiclti']
+msgctxt "$string['basiclti']"
+msgid "LTI"
+msgstr ""
+
+#: $string['basicltiactivities']
+msgid "LTI activities"
+msgstr ""
+
+#: $string['basiclti_base_string']
+msgid "LTI OAuth base string"
+msgstr ""
+
+#: $string['basiclti_endpoint']
+msgid "LTI launch endpoint"
+msgstr ""
+
+#: $string['basicltifieldset']
+msgid "Custom example fieldset"
+msgstr ""
+
+#: $string['basiclti_in_new_window']
+msgid "Your activity has opened in a new window"
+msgstr "Η δραστηριότητα έχει ανοίξει σε νέο παράθυρο"
+
+#: $string['basiclti_in_new_window_open']
+msgid "Open in new window"
+msgstr "Άνοιγμα σε νέο παράθυρο"
+
+#: $string['basicltiintro']
+msgid "Activity description"
+msgstr ""
+
+#: $string['basicltiname']
+msgid "Activity name"
+msgstr ""
+
+#: $string['basiclti_parameters']
+msgid "LTI launch parameters"
+msgstr ""
+
+#: $string['basicltisettings']
+msgid "Basic Learning Tool Interoperability (LTI) settings"
+msgstr ""
+
+#: $string['cancel']
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: $string['cancelled']
+msgid "Cancelled"
+msgstr "Ακυρώθηκε"
+
+#: $string['cannot_delete']
+msgid "You may not delete this tool configuration."
+msgstr ""
+
+#: $string['cannot_edit']
+msgid "You may not edit this tool configuration."
+msgstr ""
+
+#: $string['capabilities']
+msgid "Capabilities"
+msgstr ""
+
+#: $string['capabilities_help']
+msgid ""
+"Select those capabilities which you wish to offer to the tool provider.  "
+"More than one capability can be selected."
+msgstr ""
+
+#: $string['capabilitiesrequired']
+msgid "This tool requires access to the following data in order to activate:"
+msgstr ""
+
+#: $string['click_to_continue']
+msgid "<a href=\"{$a->link}\" target=\"_top\">Click to continue</a>"
+msgstr ""
+
+#: $string['comment']
+msgid "Comment"
+msgstr "Σχόλιο"
+
+#: $string['configpassword']
+msgid "Default remote tool password"
+msgstr ""
+
+#: $string['configpreferheight']
+msgid "Default preferred height"
+msgstr ""
+
+#: $string['configpreferwidget']
+msgid "Set widget as default launch"
+msgstr ""
+
+#: $string['configpreferwidth']
+msgid "Default preferred width"
+msgstr ""
+
+#: $string['configresourceurl']
+msgid "Default resource URL"
+msgstr ""
+
+#: $string['configtoolurl']
+msgid "Default remote tool URL"
+msgstr ""
+
+#: $string['configtypes']
+msgid "Enable LTI applications"
+msgstr ""
+
+#: $string['configured']
+msgid "Configured"
+msgstr ""
+
+#: $string['confirmtoolactivation']
+msgid "Are you sure you would like to activate this tool?"
+msgstr ""
+
+#: $string['contentitem']
+msgid "Content-Item Message"
+msgstr ""
+
+#: $string['contentitem_help']
+msgid ""
+"If ticked, the option 'Select content' will be available when adding an "
+"external tool."
+msgstr ""
+
+#: $string['courseactivitiesorresources']
+msgid "Course activities or resources"
+msgstr ""
+
+#: $string['courseid']
+msgid "Course ID number"
+msgstr ""
+
+#: $string['courseinformation']
+msgid "Course information"
+msgstr ""
+
+#: $string['courselink']
+msgid "Go to course"
+msgstr ""
+
+#: $string['coursemisconf']
+msgid "Course is misconfigured"
+msgstr ""
+
+#: $string['course_tool_types']
+msgid "Course tools"
+msgstr ""
+
+#: $string['createdon']
+msgid "Created on"
+msgstr ""
+
+#: $string['curllibrarymissing']
+msgid "PHP Curl library must be installed to use LTI"
+msgstr ""
+
+#: $string['custom']
+msgctxt "$string['custom']"
+msgid "Custom parameters"
+msgstr ""
+
+#: $string['custom_config']
+msgid "Using custom tool configuration."
+msgstr ""
+
+#: $string['custom_help']
+msgid ""
+"Custom parameters are settings used by the tool provider. For example, a "
+"custom parameter may be used to display\n"
+"a specific resource from the provider.  Each parameter should be entered on "
+"a separate line using a format of \"name=value\"; for example, \"chapter=3\".\n"
+"\n"
+"It is safe to leave this field unchanged unless directed by the tool "
+"provider."
+msgstr ""
+
+#: $string['custominstr']
+msgctxt "$string['custominstr']"
+msgid "Custom parameters"
+msgstr ""
+
+#: $string['debuglaunch']
+msgid "Debug option"
+msgstr ""
+
+#: $string['debuglaunchoff']
+msgid "Normal launch"
+msgstr ""
+
+#: $string['debuglaunchon']
+msgid "Debug launch"
+msgstr ""
+
+#: $string['default']
+msgid "Default"
+msgstr ""
+
+#: $string['default_launch_container']
+msgid "Default launch container"
+msgstr ""
+
+#: $string['default_launch_container_help']
+msgctxt "$string['default_launch_container_help']"
+msgid ""
+"The launch container affects the display of the tool when launched from the "
+"course. Some launch containers provide more screen\n"
+"real estate to the tool, and others provide a more integrated feel with the "
+"Moodle environment.\n"
+"\n"
+"* **Default** - Use the launch container specified by the tool "
+"configuration.\n"
+"* **Embed** - The tool is displayed within the existing Moodle window, in a "
+"manner similar to most other Activity types.\n"
+"* **Embed, without blocks** - The tool is displayed within the existing "
+"Moodle window, with just the navigation controls\n"
+"        at the top of the page.\n"
+"* **New window** - The tool opens in a new window, occupying all the "
+"available space.\n"
+"        Depending on the browser, it will open in a new tab or a popup "
+"window.\n"
+"        It is possible that browsers will prevent the new window from "
+"opening."
+msgstr ""
+
+#: $string['delegate']
+msgid "Delegate to teacher"
+msgstr ""
+
+#: $string['delete']
+msgid "Delete"
+msgstr ""
+
+#: $string['delete_confirmation']
+msgid "Are you sure you want to delete this preconfigured tool?"
+msgstr ""
+
+#: $string['deletetype']
+msgid "Delete preconfigured tool"
+msgstr ""
+
+#: $string['display_description']
+msgid "Display activity description when launched"
+msgstr ""
+
+#: $string['display_description_help']
+msgid ""
+"If selected, the activity description (specified above) will display above "
+"the tool provider's content.\n"
+"\n"
+"The description may be used to provide additional instructions for launchers "
+"of the tool, but it is not required.\n"
+"\n"
+"The description is never displayed when the tool's launch container is in a "
+"new window."
+msgstr ""
+
+#: $string['display_name']
+msgid "Display activity name when launched"
+msgstr ""
+
+#: $string['display_name_help']
+msgid ""
+"If selected, the activity name (specified above) will display above the tool "
+"provider's content.\n"
+"\n"
+"It is possible that the tool provider may also display the title. This "
+"option can prevent the activity title from\n"
+"being displayed twice.\n"
+"\n"
+"The title is never displayed when the tool's launch container is in a new "
+"window."
+msgstr ""
+
+#: $string['domain_mismatch']
+msgid "Tool URL's domain does not match tool configuration."
+msgstr ""
+
+#: $string['donot']
+msgid "Do not send"
+msgstr ""
+
+#: $string['donotaccept']
+msgid "Do not accept"
+msgstr ""
+
+#: $string['donotallow']
+msgid "Do not allow"
+msgstr ""
+
+#: $string['duplicateregurl']
+msgid "This registration URL is already in use"
+msgstr ""
+
+#: $string['editdescription']
+msgid "Click here to give this tool a description"
+msgstr ""
+
+#: $string['edittype']
+msgctxt "$string['edittype']"
+msgid "Edit preconfigured tool"
+msgstr ""
+
+#: $string['embed']
+msgid "Embed"
+msgstr ""
+
+#: $string['embed_no_blocks']
+msgid "Embed, without blocks"
+msgstr ""
+
+#: $string['enableemailnotification']
+msgid "Send notification emails"
+msgstr ""
+
+#: $string['enableemailnotification_help']
+msgid ""
+"If enabled, students will receive email notification when their tool "
+"submissions are graded."
+msgstr ""
+
+#: $string['enterkeyandsecret']
+msgid "Enter your consumer key and shared secret"
+msgstr ""
+
+#: $string['enterkeyandsecret_help']
+msgid "If you were given a consumer key and/or shared secret, input them here"
+msgstr ""
+
+#: $string['errorbadurl']
+msgid "URL is not a valid tool URL or cartridge."
+msgstr ""
+
+#: $string['errorincorrectconsumerkey']
+msgid "Consumer key is incorrect."
+msgstr ""
+
+#: $string['errorinvaliddata']
+msgid "Invalid data: {$a}"
+msgstr ""
+
+#: $string['errorinvalidmediatype']
+msgid "Invalid media type: {$a}"
+msgstr ""
+
+#: $string['errorinvalidresponseformat']
+msgid "Invalid Content-Item response format."
+msgstr ""
+
+#: $string['errormisconfig']
+msgid ""
+"Misconfigured tool. Please ask your Moodle administrator to fix the "
+"configuration of the tool."
+msgstr ""
+
+#: $string['errortooltypenotfound']
+msgid "LTI tool type not found."
+msgstr ""
+
+#: $string['existing_window']
+msgid "Existing window"
+msgstr ""
+
+#: $string['extensions']
+msgid "LTI extension services"
+msgstr ""
+
+#: $string['external_tool_type']
+msgid "Preconfigured tool"
+msgstr ""
+
+#: $string['external_tool_type_help']
+msgid ""
+"* **Automatic, based on tool URL** - The best tool configuration is selected "
+"automatically. If the tool URL is not recognised, the tool configuration "
+"details may need to be entered manually.\n"
+"* **A specific preconfigured tool** - The tool configuration for the "
+"specified tool will be used when communicating with the external tool "
+"provider. If the tool URL does not appear to belong to the tool provider, a "
+"warning will be shown. It is not always necessary to enter a tool URL.\n"
+"* **Custom configuration** - A consumer key and shared secret may need to be "
+"entered manually. The consumer key and shared secret may be obtained from "
+"the tool provider. However, not all tools require a consumer key and shared "
+"secret, in which case the fields may be left blank.\n"
+"\n"
+"### Preconfigured tool editing\n"
+"\n"
+"Three icons are available after the preconfigured tool dropdown list:\n"
+"\n"
+"* **Add** - Create a course level tool configuration. All External tool "
+"instances in this course may use the tool configuration.\n"
+"* **Edit** - Select a course level tool from the dropdown, then click this "
+"icon. The details of the tool configuration may be edited.\n"
+"* **Delete** - Remove the selected course level tool."
+msgstr ""
+
+#: $string['external_tool_types']
+msgid "Preconfigured tools"
+msgstr ""
+
+#: $string['failedtoconnect']
+msgid "Moodle was unable to communicate with the \"{$a}\" system"
+msgstr ""
+
+#: $string['failedtocreatetooltype']
+msgid "Failed to create new tool. Please check the URL and try again."
+msgstr ""
+
+#: $string['failedtodeletetoolproxy']
+msgid ""
+"Failed to delete tool registration. You may need to visit \"Manage external "
+"tool registrations\" and delete it manually."
+msgstr ""
+
+#: $string['filter_basiclti_configlink']
+msgid "Configure your preferred sites and their passwords"
+msgstr ""
+
+#: $string['filter_basiclti_password']
+msgid "Password is mandatory"
+msgstr ""
+
+#: $string['filterconfig']
+msgid "LTI administration"
+msgstr ""
+
+#: $string['filtername']
+msgctxt "$string['filtername']"
+msgid "LTI"
+msgstr ""
+
+#: $string['fixexistingconf']
+msgid "Use an existing configuration for the misconfigured instance"
+msgstr ""
+
+#: $string['fixnew']
+msgid "New configuration"
+msgstr ""
+
+#: $string['fixnewconf']
+msgid "Define a new configuration for the misconfigured instance"
+msgstr ""
+
+#: $string['fixold']
+msgid "Use existing"
+msgstr ""
+
+#: $string['forced_help']
+msgid ""
+"This setting has been forced in a course or site level tool configuration. "
+"You may not change it from this interface."
+msgstr ""
+
+#: $string['force_ssl']
+msgid "Force SSL"
+msgstr "Επιβολή SSL"
+
+#: $string['force_ssl_help']
+msgid ""
+"Selecting this option forces all launches to this tool provider to use SSL.\n"
+"\n"
+"In addition, all web service requests from the tool provider will use SSL.\n"
+"\n"
+"If using this option, confirm that this Moodle site and the tool provider "
+"support SSL."
+msgstr ""
+
+#: $string['generaltool']
+msgid "General tool"
+msgstr ""
+
+#: $string['global_tool_types']
+msgid "Global preconfigured tools"
+msgstr ""
+
+#: $string['grading']
+msgid "Grade routing"
+msgstr ""
+
+#: $string['icon_url']
+msgid "Icon URL"
+msgstr ""
+
+#: $string['icon_url_help']
+msgid ""
+"The icon URL allows the icon that shows up in the course listing for this "
+"activity to be modified. Instead of using the default\n"
+"LTI icon, an icon which conveys the type of activity may be specified."
+msgstr ""
+
+#: $string['id']
+msgid "ID"
+msgstr ""
+
+#: $string['indicator:cognitivedepth']
+msgid "LTI cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepth_help']
+msgid ""
+"This indicator is based on the cognitive depth reached by the student in an "
+"LTI activity."
+msgstr ""
+
+#: $string['indicator:socialbreadth']
+msgid "LTI social"
+msgstr ""
+
+#: $string['indicator:socialbreadth_help']
+msgid ""
+"This indicator is based on the social breadth reached by the student in an "
+"LTI activity."
+msgstr ""
+
+#: $string['invalidid']
+msgid "LTI ID was incorrect"
+msgstr ""
+
+#: $string['launch_in_moodle']
+msgid "Launch tool in Moodle"
+msgstr ""
+
+#: $string['launchinpopup']
+msgid "Launch container"
+msgstr ""
+
+#: $string['launch_in_popup']
+msgid "Launch tool in a pop-up"
+msgstr ""
+
+#: $string['launchinpopup_help']
+msgctxt "$string['launchinpopup_help']"
+msgid ""
+"The launch container affects the display of the tool when launched from the "
+"course. Some launch containers provide more screen\n"
+"real estate to the tool, and others provide a more integrated feel with the "
+"Moodle environment.\n"
+"\n"
+"* **Default** - Use the launch container specified by the tool "
+"configuration.\n"
+"* **Embed** - The tool is displayed within the existing Moodle window, in a "
+"manner similar to most other Activity types.\n"
+"* **Embed, without blocks** - The tool is displayed within the existing "
+"Moodle window, with just the navigation controls\n"
+"        at the top of the page.\n"
+"* **New window** - The tool opens in a new window, occupying all the "
+"available space.\n"
+"        Depending on the browser, it will open in a new tab or a popup "
+"window.\n"
+"        It is possible that browsers will prevent the new window from "
+"opening."
+msgstr ""
+
+#: $string['launchoptions']
+msgid "Launch options"
+msgstr ""
+
+#: $string['launch_url']
+msgctxt "$string['launch_url']"
+msgid "Tool URL"
+msgstr ""
+
+#: $string['launch_url_help']
+msgid ""
+"The tool URL indicates the web address of the External Tool, and may contain "
+"additional information, such as the resource to show.\n"
+"If you are unsure what to enter for the tool URL, please check with the tool "
+"provider for more information.\n"
+"\n"
+"You can enter a cartridge URL if you have one, and the rest of the form "
+"details will fill automatically.\n"
+"\n"
+"If you have selected a preconfigured tool, you may not need to enter a tool "
+"URL. If the tool link is used to just launch\n"
+"into the tool provider's system, and not go to a specific resource, this "
+"will likely be the case."
+msgstr ""
+
+#: $string['leaveblank']
+msgid "Leave blank if you do not need them"
+msgstr ""
+
+#: $string['lti']
+msgctxt "$string['lti']"
+msgid "LTI"
+msgstr ""
+
+#: $string['lti:addcoursetool']
+msgid "Add course-specific tool configurations"
+msgstr ""
+
+#: $string['lti:addinstance']
+msgid "Add new external tool activities"
+msgstr ""
+
+#: $string['lti:admin']
+msgid "Be an administrator when the tool is launched"
+msgstr ""
+
+#: $string['lti_administration']
+msgctxt "$string['lti_administration']"
+msgid "Edit preconfigured tool"
+msgstr ""
+
+#: $string['lti_errormsg']
+msgid "The tool returned the following error message: \"{$a}\""
+msgstr ""
+
+#: $string['lti:grade']
+msgid "View grades returned by the external tool"
+msgstr ""
+
+#: $string['lti_launch_error']
+msgid "An error occurred when launching the external tool:"
+msgstr ""
+
+#: $string['lti_launch_error_tool_request']
+msgid ""
+"<p>\n"
+"To submit a request for an administrator to complete the tool configuration, "
+"click <a href=\"{$a->admin_request_url}\" target=\"_top\">here</a>.\n"
+"</p>"
+msgstr ""
+
+#: $string['lti_launch_error_unsigned_help']
+msgid ""
+"<p>This error may be a result of a missing consumer key and shared secret "
+"for the tool provider.</p>\n"
+"<p>If you have a consumer key and shared secret, you may enter it when "
+"editing the external tool instance (make sure advanced options are "
+"visible).</p>\n"
+"<p>Alternatively, you may <a href=\"{$a->course_tool_editor}\">create a course "
+"level tool provider configuration</a>.</p>"
+msgstr ""
+
+#: $string['lti:manage']
+msgid "Be an Instructor when the tool is launched"
+msgstr ""
+
+#: $string['lti:requesttooladd']
+msgid "Request a tool is configured site-wide"
+msgstr ""
+
+#: $string['ltisettings']
+msgid "LTI settings"
+msgstr ""
+
+#: $string['lti_tool_request_added']
+msgid ""
+"Tool configuration request successfully submitted. You may need to contact "
+"an administrator to complete the tool configuration."
+msgstr ""
+
+#: $string['lti_tool_request_existing']
+msgid "A tool configuration for the tool domain has already been submitted."
+msgstr ""
+
+#: $string['ltiunknownserviceapicall']
+msgid "LTI unknown service API call."
+msgstr ""
+
+#: $string['lti:view']
+msgid "Launch external tool activities"
+msgstr ""
+
+#: $string['main_admin']
+msgid "General help"
+msgstr ""
+
+#: $string['main_admin_help']
+msgid ""
+"External tools allow Moodle users to seamlessly interact with learning "
+"resources hosted remotely. Through a special\n"
+"launch protocol, the remote tool will have access to some general "
+"information about the launching user. For example,\n"
+"the institution name, course id, user id, and other information such as the "
+"user's name or e-mail address.\n"
+"\n"
+"Tools listed on this page are separated into three categories:\n"
+"\n"
+"* **Active** - These tool providers have been approved and configured by an "
+"administrator. They can be used from within any\n"
+"        course on this Moodle instance. If a consumer key and shared secret "
+"are entered, a trust relationship is established\n"
+"        between this Moodle instance and the remote tool, providing a secure "
+"communication channel.\n"
+"* **Pending** - These tool providers came in through a package import, but "
+"have not been configured by an administrator.\n"
+"        Teachers may still use tools from these providers if they have a "
+"consumer key and shared secret, or if none is required.\n"
+"* **Rejected** - These tools providers are flagged as ones which an "
+"administrator has no intention of making available to the entire\n"
+"        Moodle instance. Teachers may still use tools from these providers "
+"if they have a consumer key and shared secret, or if none is required."
+msgstr ""
+
+#: $string['manage_external_tools']
+msgid "Manage tools"
+msgstr ""
+
+#: $string['manage_tool_proxies']
+msgid "Manage external tool registrations"
+msgstr ""
+
+#: $string['manage_tools']
+msgid "Manage preconfigured tools"
+msgstr ""
+
+#: $string['manuallyaddtype']
+msgid "Alternatively, you can <a href=\"{$a}\">configure a tool manually</a>."
+msgstr ""
+
+#: $string['miscellaneous']
+msgid "Miscellaneous"
+msgstr ""
+
+#: $string['misconfiguredtools']
+msgid "Misconfigured tool instances were detected"
+msgstr ""
+
+#: $string['missingparameterserror']
+msgid "The page is misconfigured: \"{$a}\""
+msgstr ""
+
+#: $string['module_class_type']
+msgid "Moodle module type"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "External tool"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"The external tool activity module enables students to interact with learning "
+"resources and activities on other web sites. For example, an external tool "
+"could provide access to a new activity type or learning materials from a "
+"publisher.\n"
+"\n"
+"To create an external tool activity, a tool provider which supports LTI "
+"(Learning Tools Interoperability) is required. A teacher can create an "
+"external tool activity or make use of a tool configured by the site "
+"administrator.\n"
+"\n"
+"External tool activities differ from URL resources in a few ways:\n"
+"\n"
+"* External tools are context aware i.e. they have access to information "
+"about the user who launched the tool, such as institution, course and name\n"
+"* External tools support reading, updating, and deleting grades associated "
+"with the activity instance\n"
+"* External tool configurations create a trust relationship between your site "
+"and the tool provider, allowing secure communication between them"
+msgstr ""
+
+#: $string['modulename_link']
+msgid "mod/lti/view"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "External tools"
+msgstr ""
+
+#: $string['modulenamepluralformatted']
+msgid "LTI Instances"
+msgstr ""
+
+#: $string['modulename_shortcut_link']
+msgid "mod/lti/view/custom"
+msgstr ""
+
+#: $string['name']
+msgid "Name"
+msgstr ""
+
+#: $string['never']
+msgid "Never"
+msgstr ""
+
+#: $string['new_window']
+msgid "New window"
+msgstr ""
+
+#: $string['noattempts']
+msgid "No attempts have been made on this tool instance"
+msgstr ""
+
+#: $string['no_lti_configured']
+msgid "There are no active external tools configured."
+msgstr ""
+
+#: $string['no_lti_pending']
+msgid "There are no pending external tools."
+msgstr ""
+
+#: $string['no_lti_rejected']
+msgid "There are no rejected external tools."
+msgstr ""
+
+#: $string['noltis']
+msgid "There are no external tool instances"
+msgstr ""
+
+#: $string['no_lti_tools']
+msgid "There are no external tools configured."
+msgstr ""
+
+#: $string['noprofileservice']
+msgid "Profile service not found"
+msgstr ""
+
+#: $string['noservers']
+msgid "No servers found"
+msgstr ""
+
+#: $string['no_tp_accepted']
+msgid "There are no accepted external tool registrations."
+msgstr ""
+
+#: $string['no_tp_cancelled']
+msgid "There are no cancelled external tool registrations."
+msgstr ""
+
+#: $string['no_tp_configured']
+msgid "There are no unregistered external tool registrations configured."
+msgstr ""
+
+#: $string['no_tp_pending']
+msgid "There are no pending external tool registrations."
+msgstr ""
+
+#: $string['no_tp_rejected']
+msgid "There are no rejected external tool registrations."
+msgstr ""
+
+#: $string['notypes']
+msgid ""
+"There are currently no LTI tools set up in Moodle. Click the Install link "
+"above to add some."
+msgstr ""
+
+#: $string['noviewusers']
+msgid "No users were found with permissions to use this tool"
+msgstr ""
+
+#: $string['optionalsettings']
+msgid "Optional settings"
+msgstr ""
+
+#: $string['organization']
+msgid "Organization details"
+msgstr ""
+
+#: $string['organizationdescr']
+msgid "Organization description"
+msgstr ""
+
+#: $string['organizationid']
+msgid "Organization ID"
+msgstr ""
+
+#: $string['organizationid_help']
+msgid ""
+"A unique identifier for this Moodle instance. Typically, the DNS name of the "
+"organization is used.\n"
+"\n"
+"If this field is left blank, the host name of this Moodle site will be used "
+"as the default value."
+msgstr ""
+
+#: $string['organizationurl']
+msgid "Organization URL"
+msgstr ""
+
+#: $string['organizationurl_help']
+msgid ""
+"The base URL of this Moodle instance.\n"
+"\n"
+"If this field is left blank, a default value will be used based on the site "
+"configuration."
+msgstr ""
+
+#: $string['pagesize']
+msgid "Submissions shown per page"
+msgstr ""
+
+#: $string['parameter']
+msgid "Tool parameters"
+msgstr ""
+
+#: $string['parameter_help']
+msgid ""
+"Tool parameters are settings requested to be passed by the tool provider in "
+"the accepted tool proxy."
+msgstr ""
+
+#: $string['password']
+msgctxt "$string['password']"
+msgid "Shared secret"
+msgstr ""
+
+#: $string['password_admin']
+msgctxt "$string['password_admin']"
+msgid "Shared secret"
+msgstr ""
+
+#: $string['password_admin_help']
+msgid ""
+"The shared secret can be thought of as a password used to authenticate "
+"access to the tool. It should be provided\n"
+"along with the consumer key from the tool provider.\n"
+"\n"
+"Tools which do not require secure communication from Moodle and do not "
+"provide additional services (such as grade reporting)\n"
+"may not require a shared secret."
+msgstr ""
+
+#: $string['password_help']
+msgid ""
+"For pre-configured tools, it is not necessary to enter a shared secret here, "
+"as the shared secret will be\n"
+"provided as part of the configuration process.\n"
+"\n"
+"This field should be entered if creating a link to a tool provider which is "
+"not already configured.\n"
+"If the tool provider is to be used more than once in this course, adding a "
+"course tool configuration is a good idea.\n"
+"\n"
+"The shared secret can be thought of as a password used to authenticate "
+"access to the tool. It should be provided\n"
+"along with the consumer key from the tool provider.\n"
+"\n"
+"Tools which do not require secure communication from Moodle and do not "
+"provide additional services (such as grade reporting)\n"
+"may not require a shared secret."
+msgstr ""
+
+#: $string['pending']
+msgid "Pending"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "External tool administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "External tool"
+msgstr ""
+
+#: $string['preferheight']
+msgid "Preferred height"
+msgstr ""
+
+#: $string['preferwidget']
+msgid "Prefer widget launch"
+msgstr ""
+
+#: $string['preferwidth']
+msgid "Preferred width"
+msgstr ""
+
+#: $string['press_to_submit']
+msgid "Press to launch this activity"
+msgstr ""
+
+#: $string['privacy']
+msgid "Privacy"
+msgstr "Ιδιωτικότητα"
+
+#: $string['quickgrade']
+msgid "Allow quick grading"
+msgstr ""
+
+#: $string['quickgrade_help']
+msgid ""
+"If enabled, multiple tools can be graded on one page. Add grades and "
+"comments then click the \"Save all my feedback\" button to save all changes "
+"for that page."
+msgstr ""
+
+#: $string['redirect']
+msgid ""
+"You will be redirected in few seconds. If you are not, press the button."
+msgstr ""
+
+#: $string['register']
+msgid "Register"
+msgstr ""
+
+#: $string['registertype']
+msgid "Configure a new external tool registration"
+msgstr ""
+
+#: $string['register_warning']
+msgid ""
+"The registration page seems to be taking a while to open. If it does not "
+"appear, check that you entered the correct URL in the configuration "
+"settings. If Moodle is using https, ensure the tool you are configuring "
+"supports https and you are using https in the URL."
+msgstr ""
+
+#: $string['registrationname']
+msgid "Tool provider name"
+msgstr ""
+
+#: $string['registrationname_help']
+msgid "Enter the name of the tool provider being registered."
+msgstr ""
+
+#: $string['registration_options']
+msgid "Registration options"
+msgstr ""
+
+#: $string['registrationurl']
+msgid "Registration URL"
+msgstr ""
+
+#: $string['registrationurl_help']
+msgid ""
+"The registration URL should be available from the tool provider as the "
+"location to which registration requests should be sent."
+msgstr ""
+
+#: $string['reject']
+msgid "Reject"
+msgstr ""
+
+#: $string['rejected']
+msgid "Rejected"
+msgstr ""
+
+#: $string['resource']
+msgid "Resource"
+msgstr ""
+
+#: $string['resourcekey']
+msgctxt "$string['resourcekey']"
+msgid "Consumer key"
+msgstr ""
+
+#: $string['resourcekey_admin']
+msgctxt "$string['resourcekey_admin']"
+msgid "Consumer key"
+msgstr ""
+
+#: $string['resourcekey_admin_help']
+msgid ""
+"The consumer key can be thought of as a username used to authenticate access "
+"to the tool.\n"
+"It can be used by the tool provider to uniquely identify the Moodle site "
+"from which users launch into the tool.\n"
+"\n"
+"The consumer key must be provided by the tool provider. The method of "
+"obtaining a consumer key varies between\n"
+"tool providers. It may be an automated process, or it may require a dialogue "
+"with the tool provider.\n"
+"\n"
+"Tools which do not require secure communication from Moodle and do not "
+"provide additional services (such as grade reporting)\n"
+"may not require a resource key."
+msgstr ""
+
+#: $string['resourcekey_help']
+msgid ""
+"For pre-configured tools, it is not necessary to enter a resource key here, "
+"as the consumer key will be\n"
+"provided as part of the configuration process.\n"
+"\n"
+"This field should be entered if creating a link to a tool provider which is "
+"not already configured.\n"
+"If the tool provider is to be used more than once in this course, adding a "
+"course tool configuration is a good idea.\n"
+"\n"
+"The consumer key can be thought of as a username used to authenticate access "
+"to the tool.\n"
+"It can be used by the tool provider to uniquely identify the Moodle site "
+"from which users launch into the tool.\n"
+"\n"
+"The consumer key must be provided by the tool provider. The method of "
+"obtaining a consumer key varies between\n"
+"tool providers. It may be an automated process, or it may require a dialogue "
+"with the tool provider.\n"
+"\n"
+"Tools which do not require secure communication from Moodle and do not "
+"provide additional services (such as grade reporting)\n"
+"may not require a resource key."
+msgstr ""
+
+#: $string['resourceurl']
+msgid "Resource URL"
+msgstr ""
+
+#: $string['return_to_course']
+msgid ""
+"Click <a href=\"{$a->link}\" target=\"_top\">here</a> to return to the course."
+msgstr ""
+
+#: $string['saveallfeedback']
+msgid "Save all my feedback"
+msgstr ""
+
+#: $string['search:activity']
+msgid "External tool - activity information"
+msgstr ""
+
+#: $string['secure_icon_url']
+msgid "Secure icon URL"
+msgstr ""
+
+#: $string['secure_icon_url_help']
+msgid ""
+"Similar to the icon URL, but used if the user accessing Moodle securely "
+"through SSL. The main purpose for this field is to prevent\n"
+"the browser from warning the user if the underlying page was accessed over "
+"SSL, but requesting to show an unsecure image."
+msgstr ""
+
+#: $string['secure_launch_url']
+msgid "Secure tool URL"
+msgstr ""
+
+#: $string['secure_launch_url_help']
+msgid ""
+"Similar to the tool URL, but used instead of the tool URL if high security "
+"is required. Moodle will use the secure tool URL instead of the tool URL if "
+"the Moodle site is accessed through SSL, or if the tool configuration is set "
+"to always launch through SSL.\n"
+"\n"
+"The tool URL may also be set to an https address to force launching through "
+"SSL, and this field may be left blank."
+msgstr ""
+
+#: $string['selectcontent']
+msgid "Select content"
+msgstr ""
+
+#: $string['send']
+msgid "Send"
+msgstr ""
+
+#: $string['services']
+msgid "Services"
+msgstr ""
+
+#: $string['services_help']
+msgid ""
+"Select those services which you wish to offer to the tool provider.  More "
+"than one service can be selected."
+msgstr ""
+
+#: $string['setupoptions']
+msgid "Set-up options"
+msgstr ""
+
+#: $string['share_email']
+msgid "Share launcher's email with the tool"
+msgstr ""
+
+#: $string['share_email_admin']
+msgid "Share launcher's email with tool"
+msgstr ""
+
+#: $string['share_email_admin_help']
+msgid ""
+"Specify whether the e-mail address of the user launching the tool will be "
+"shared with the tool provider.\n"
+"The tool provider may need launcher's e-mail addresses to distinguish users "
+"with the same name in the UI, or send e-mails\n"
+"to users based on actions within the tool."
+msgstr ""
+
+#: $string['share_email_help']
+msgid ""
+"Specify whether the e-mail address of the user launching the tool will be "
+"shared with the tool provider.\n"
+"\n"
+"The tool provider may need launcher's email addresses to distinguish users "
+"with the same name, or send emails to users based on actions within the "
+"tool.\n"
+"\n"
+"Note that this setting may be overridden in the tool configuration."
+msgstr ""
+
+#: $string['share_name']
+msgid "Share launcher's name with the tool"
+msgstr ""
+
+#: $string['share_name_admin']
+msgid "Share launcher's name with tool"
+msgstr ""
+
+#: $string['share_name_admin_help']
+msgid ""
+"Specify whether the full name of the user launching the tool should be "
+"shared with the tool provider.\n"
+"The tool provider may need launchers' names to show meaningful information "
+"within the tool."
+msgstr ""
+
+#: $string['share_name_help']
+msgid ""
+"Specify whether the full name of the user launching the tool should be "
+"shared with the tool provider.\n"
+"\n"
+"The tool provider may need launchers' names to show meaningful information "
+"within the tool.\n"
+"\n"
+"Note that this setting may be overridden in the tool configuration."
+msgstr ""
+
+#: $string['share_roster']
+msgid "Allow the tool to access this course's roster"
+msgstr ""
+
+#: $string['share_roster_admin']
+msgid "Tool may access course roster"
+msgstr ""
+
+#: $string['share_roster_admin_help']
+msgid ""
+"Specify whether the tool can access the list of users enrolled in courses "
+"from which this tool is launched."
+msgstr ""
+
+#: $string['share_roster_help']
+msgid ""
+"Specify whether the tool can access the list of users enrolled in this "
+"course.\n"
+"\n"
+"Note that this setting may be overridden in the tool configuration."
+msgstr ""
+
+#: $string['show_in_course_activity_chooser']
+msgid "Show in activity chooser and as a preconfigured tool"
+msgstr "Εμφάνιση στον επιλογέα δραστηριοτήτων και ως προ-ρυθμισμένο εργαλείο"
+
+#: $string['show_in_course_lti1']
+msgctxt "$string['show_in_course_lti1']"
+msgid "Tool configuration usage"
+msgstr ""
+
+#: $string['show_in_course_lti1_help']
+msgid ""
+"This tool may be shown in the activity chooser for a teacher to select to "
+"add to a course. Alternatively, it may be shown in the preconfigured tool "
+"dropdown menu when adding an external tool to a course. A further option is "
+"for the tool configuration to only be used if the exact tool URL is entered "
+"when adding an external tool to a course."
+msgstr ""
+"Αυτό το εργαλείο μπορεί να εμφανιστεί στον επιλογέα δραστηριότητας και ένας "
+"διδάσκοντας μπορεί να το επιλέξει για να το προσθέσει σε ένα μάθημα. "
+"Εναλλακτικά, μπορεί να εμφανιστεί στο αναπτυσσόμενο μενού των "
+"προ-ρυθμισμένων εργαλείων κατά την προσθήκη ενός εξωτερικού εργαλείου σε ένα "
+"μάθημα. Μια άλλη επιλογή είναι η διαμόρφωση του εργαλείου να "
+"χρησιμοποιείται μόνο να εισαχθεί η ακριβής διεύθυνση URL του εργαλείου κατά "
+"την προσθήκη ενός εξωτερικού εργαλείου σε ένα μάθημα."
+
+#: $string['show_in_course_lti2']
+msgctxt "$string['show_in_course_lti2']"
+msgid "Tool configuration usage"
+msgstr ""
+
+#: $string['show_in_course_lti2_help']
+msgid ""
+"This tool can be shown in the activity chooser for a teacher to select to "
+"add to a course or in the preconfigured tool dropdown menu when adding an "
+"external tool to a course."
+msgstr ""
+
+#: $string['show_in_course_no']
+msgid "Do not show; use only when a matching tool URL is entered"
+msgstr ""
+
+#: $string['show_in_course_preconfigured']
+msgid "Show as preconfigured tool when adding an external tool"
+msgstr ""
+
+#: $string['size']
+msgid "Size parameters"
+msgstr ""
+
+#: $string['submission']
+msgid "Submission"
+msgstr ""
+
+#: $string['submissions']
+msgid "Submissions"
+msgstr "Υποβολές"
+
+#: $string['submissionsfor']
+msgid "Submissions for {$a}"
+msgstr ""
+
+#: $string['subplugintype_ltiresource']
+msgid "LTI service resource"
+msgstr ""
+
+#: $string['subplugintype_ltiresource_plural']
+msgid "LTI service resources"
+msgstr ""
+
+#: $string['subplugintype_ltiservice']
+msgid "LTI service"
+msgstr ""
+
+#: $string['subplugintype_ltiservice_plural']
+msgid "LTI services"
+msgstr ""
+
+#: $string['subplugintype_ltisource']
+msgid "LTI source"
+msgstr ""
+
+#: $string['subplugintype_ltisource_plural']
+msgid "LTI sources"
+msgstr ""
+
+#: $string['successfullycreatedtooltype']
+msgid "Successfully created new tool!"
+msgstr ""
+
+#: $string['successfullyfetchedtoolconfigurationfromcontent']
+msgid "Successfully fetched tool configuration from the selected content."
+msgstr ""
+
+#: $string['toggle_debug_data']
+msgid "Toggle debug data"
+msgstr ""
+
+#: $string['tool_config_not_found']
+msgid "Tool configuration not found for this URL."
+msgstr ""
+
+#: $string['tooldescription']
+msgid "Tool description"
+msgstr ""
+
+#: $string['tooldescription_help']
+msgid ""
+"The description of the tool that will be displayed to teachers in the "
+"activity list.\n"
+"\n"
+"This should describe what the tool is for and what it does and any "
+"additional information the teacher may need to know."
+msgstr ""
+
+#: $string['toolisbeingused']
+msgid "This tool is being used {$a} times"
+msgstr ""
+
+#: $string['toolisnotbeingused']
+msgid "This tool has not yet been used"
+msgstr ""
+
+#: $string['toolproxy']
+msgid "External tool registrations"
+msgstr ""
+
+#: $string['toolproxy_help']
+msgid ""
+"External tool registrations allow Moodle site administrators to configure "
+"external tools from a tool proxy obtained from a tool provider supporting "
+"LTI 2.0. A registration URL provided by the tool provider is all that is "
+"required to initiate the process. The capabilities and services offered to "
+"the tool provider are selected when configuring a new registration.\n"
+"\n"
+"Tool registrations listed on this page are separated into four categories:\n"
+"\n"
+"* **Configured** - These tool registrations have been set up but the "
+"registration process has not yet been started.\n"
+"* **Pending** - The registration process for these tool registrations has "
+"been started but has not completed. Open and save the settings to move it\n"
+"back to the 'Configured' category.\n"
+"* **Accepted** - These tool registrations have been approved; the resources "
+"specified in the tool proxy will appear on the preconfigured tools page\n"
+"with an initial status of 'Pending'.\n"
+"* **Rejected** - These tool registrations are ones which were rejected "
+"during the registration process. Open and save the settings to move it\n"
+"back to the 'Configured' category so the registration process can be "
+"restarted."
+msgstr ""
+
+#: $string['toolproxyregistration']
+msgctxt "$string['toolproxyregistration']"
+msgid "External tool registration"
+msgstr ""
+
+#: $string['toolregistration']
+msgctxt "$string['toolregistration']"
+msgid "External tool registration"
+msgstr ""
+
+#: $string['tool_settings']
+msgid "Tool settings"
+msgstr ""
+
+#: $string['toolsetup']
+msgid "External tool configuration"
+msgstr ""
+
+#: $string['tooltypeadded']
+msgid "Preconfigured tool added"
+msgstr ""
+
+#: $string['tooltypedeleted']
+msgid "Preconfigured tool deleted"
+msgstr ""
+
+#: $string['tooltypenotdeleted']
+msgid "Could not delete preconfigured tool"
+msgstr ""
+
+#: $string['tooltypes']
+msgid "Tools"
+msgstr ""
+
+#: $string['tooltypeupdated']
+msgid "Preconfigured tool updated"
+msgstr ""
+
+#: $string['toolurl']
+msgctxt "$string['toolurl']"
+msgid "Tool URL"
+msgstr ""
+
+#: $string['toolurl_help']
+msgid ""
+"The tool URL is used to match tool URLs to the correct tool configuration. "
+"Prefixing the URL with http(s) is optional.\n"
+"\n"
+"Additionally, the base URL is used as the tool URL if a tool URL is not "
+"specified in the external tool instance.\n"
+"\n"
+"For example, a base URL of *tool.com* would match the following:\n"
+"\n"
+"* tool.com\n"
+"* tool.com/quizzes\n"
+"* tool.com/quizzes/quiz.php?id=10\n"
+"* www.tool.com/quizzes\n"
+"\n"
+"A base URL of *www.tool.com/quizzes* would match the following:\n"
+"\n"
+"* www.tool.com/quizzes\n"
+"* tool.com/quizzes\n"
+"* tool.com/quizzes/take.php?id=10\n"
+"\n"
+"A base URL of *quiz.tool.com* would match the following:\n"
+"\n"
+"* quiz.tool.com\n"
+"* quiz.tool.com/take.php?id=10\n"
+"\n"
+"If two different tool configurations are for the same domain, the most "
+"specific match will be used.\n"
+"\n"
+"You can also insert a cartridge URL if you have one and the details for the "
+"tool will be automatically filled."
+msgstr ""
+
+#: $string['toolurlplaceholder']
+msgid "Tool URL..."
+msgstr ""
+
+#: $string['typename']
+msgid "Tool name"
+msgstr ""
+
+#: $string['typename_help']
+msgid ""
+"The tool name is used to identify the tool provider within Moodle. The name "
+"entered will be visible\n"
+"to teachers when adding external tools within courses."
+msgstr ""
+
+#: $string['types']
+msgid "Types"
+msgstr ""
+
+#: $string['unabletocreatetooltype']
+msgid "Unable to create tool"
+msgstr ""
+
+#: $string['unabletofindtooltype']
+msgid "Unable to find tool for {$a->id}"
+msgstr ""
+
+#: $string['unknownstate']
+msgid "Unknown state"
+msgstr ""
+
+#: $string['update']
+msgid "Update"
+msgstr ""
+
+#: $string['useraccountinformation']
+msgid "User account information"
+msgstr ""
+
+#: $string['userpersonalinformation']
+msgid "User personal information"
+msgstr ""
+
+#: $string['using_tool_cartridge']
+msgid "Using tool cartridge"
+msgstr ""
+
+#: $string['using_tool_configuration']
+msgid "Using tool configuration:"
+msgstr ""
+
+#: $string['validurl']
+msgid "A valid URL must start with http(s)://"
+msgstr ""
+
+#: $string['viewsubmissions']
+msgid "View submissions and grading screen"
+msgstr ""

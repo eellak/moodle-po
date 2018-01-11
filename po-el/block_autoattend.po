@@ -1,0 +1,1202 @@
+#. extracted from lang/en/block_autoattend.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_autoattend', language 'en', branch 'MOODLE_30_STABLE'
+#.  *
+#.  * @package   block_autoattend
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['about']
+msgid "about"
+msgstr ""
+
+#: $string['acronym']
+msgid "Acronym"
+msgstr ""
+
+#: $string['add']
+msgid "Add"
+msgstr ""
+
+#: $string['add_multi']
+msgid "Add (multi)"
+msgstr ""
+
+#: $string['addmultiplesessions']
+msgid "Add Multiple Sessions"
+msgstr ""
+
+#: $string['add_one']
+msgid "Add (one)"
+msgstr ""
+
+#: $string['addsession']
+msgctxt "$string['addsession']"
+msgid "Add Session"
+msgstr ""
+
+#: $string['add_session']
+msgctxt "$string['add_session']"
+msgid "Add Session"
+msgstr ""
+
+#: $string['Adesc']
+msgid "All Attendance"
+msgstr ""
+
+#: $string['allclasses']
+msgid "All Classes"
+msgstr ""
+
+#: $string['allgrouping']
+msgid "All Groups"
+msgstr ""
+
+#: $string['allstudents']
+msgid "All Students"
+msgstr ""
+
+#: $string['alltaken']
+msgid "All taken"
+msgstr ""
+
+#: $string['Amethod']
+msgctxt "$string['Amethod']"
+msgid "A"
+msgstr ""
+
+#: $string['Amethodfull']
+msgid "Automatic"
+msgstr ""
+
+#: $string['attendance']
+msgctxt "$string['attendance']"
+msgid "Attendance"
+msgstr ""
+
+#: $string['attendanceconfrm']
+msgid "Attendance Confirmation"
+msgstr ""
+
+#: $string['attenddata']
+msgid "Attendance Data"
+msgstr ""
+
+#: $string['attenderror']
+msgid "Attendance has been ERROR taken!!!"
+msgstr ""
+
+#: $string['attendforsession']
+msgid "Attendance for the Session in this Course"
+msgstr ""
+
+#: $string['attendforthecourse']
+msgid "Attendance for the Course"
+msgstr ""
+
+#: $string['attendforuser']
+msgid "Attendance for User in this Course"
+msgstr ""
+
+#: $string['attendgrade']
+msgid "Grade"
+msgstr ""
+
+#: $string['attendgradeshort']
+msgctxt "$string['attendgradeshort']"
+msgid "G"
+msgstr ""
+
+#: $string['attendkey']
+msgid "Attendance Keyword"
+msgstr ""
+
+#: $string['attendkey_help']
+msgid ""
+"When taking attendance with the semiautomatic mode,\n"
+"the keyword (alphabet) which a student should input is specified.\n"
+"When you check the \"Random Key\" checkbox, the small letter of five "
+"characters is generated automatically.<br />\n"
+"In the case of automatic and a manual mode, this is disregarded."
+msgstr ""
+
+#: $string['attendnotstarted']
+msgid "Attendance has not started yet in this course"
+msgstr ""
+
+#: $string['attendpercent']
+msgid "Percent"
+msgstr ""
+
+#: $string['attendreport']
+msgid "Attendance Report"
+msgstr ""
+
+#: $string['attendsubmiterr']
+msgid "Error occurred in submitting attendance"
+msgstr ""
+
+#: $string['attendsubmitted']
+msgid "Attendance is submitted"
+msgstr ""
+
+#: $string['attendsuccess']
+msgid "Attendance has been successfully taken"
+msgstr ""
+
+#: $string['attendtable']
+msgid "Attendances"
+msgstr ""
+
+#: $string['attendupdated']
+msgid "Attendance Successfully Updated"
+msgstr ""
+
+#: $string['autoattend']
+msgctxt "$string['autoattend']"
+msgid "Auto Attendance"
+msgstr ""
+
+#: $string['autoattend:addinstance']
+msgid "Add a new auto attendance block"
+msgstr ""
+
+#: $string['autoattendblock']
+msgctxt "$string['autoattendblock']"
+msgid "Auto Attendance"
+msgstr ""
+
+#: $string['autoattend:view']
+msgid "View block"
+msgstr ""
+
+#: $string['calleddate']
+msgid "Called Date"
+msgstr ""
+
+#: $string['calledtime']
+msgid "Time"
+msgstr ""
+
+#: $string['callmethod']
+msgctxt "$string['callmethod']"
+msgid "Method"
+msgstr ""
+
+#: $string['callstate']
+msgid "State"
+msgstr ""
+
+#: $string['changeclass']
+msgid "Change Class"
+msgstr ""
+
+#: $string['changesession']
+msgid "Change Session"
+msgstr ""
+
+#: $string['choosegrouping']
+msgid "Choose Grouping"
+msgstr ""
+
+#: $string['choosegrouping_help']
+msgid ""
+"Select a grouping. A class for each group in the grouping is created and the "
+"appropriate students will be included in it."
+msgstr ""
+
+#: $string['class_division']
+msgid "Classifications"
+msgstr ""
+
+#: $string['classname']
+msgid "Class"
+msgstr ""
+
+#: $string['class_settings']
+msgid "Class Settings"
+msgstr ""
+
+#: $string['clearall']
+msgid "Clear All"
+msgstr ""
+
+#: $string['correctuser']
+msgid "Correct"
+msgstr ""
+
+#: $string['courseidwrong']
+msgid "Course ID is wrong"
+msgstr ""
+
+#: $string['coursename']
+msgid "Course Name"
+msgstr ""
+
+#: $string['createmultiplesessions']
+msgctxt "$string['createmultiplesessions']"
+msgid "Create multiple sessions"
+msgstr ""
+
+#: $string['createonesession']
+msgid "Create one session"
+msgstr ""
+
+#: $string['Cstate']
+msgid "C"
+msgstr ""
+
+#: $string['Cstatefull']
+msgid "Closed"
+msgstr ""
+
+#: $string['dbrepaired']
+msgid "DB was repaired."
+msgstr ""
+
+#: $string['defaults']
+msgid "Defaults"
+msgstr ""
+
+#: $string['delete']
+msgctxt "$string['delete']"
+msgid "Delete"
+msgstr ""
+
+#: $string['deleteconfirm']
+msgid "Do you really delete?"
+msgstr ""
+
+#: $string['deleteconfirmclasses']
+msgid ""
+"At least one or more classes are already taken attendances.<br />Do you "
+"really delete them?"
+msgstr ""
+
+#: $string['deleteok']
+msgctxt "$string['deleteok']"
+msgid "Delete"
+msgstr ""
+
+#: $string['deleteselect']
+msgid "Delete Select"
+msgstr ""
+
+#: $string['deletesession']
+msgid "Delete Session"
+msgstr ""
+
+#: $string['deletingclasses']
+msgid "Deleting Classes in the Course"
+msgstr ""
+
+#: $string['deletingsession']
+msgid "Deleting Session in the Course"
+msgstr ""
+
+#: $string['denysameip']
+msgid "Deny same IP"
+msgstr ""
+
+#: $string['description']
+msgid "Description"
+msgstr ""
+
+#: $string['display']
+msgid "Display"
+msgstr ""
+
+#: $string['Dmethod']
+msgctxt "$string['Dmethod']"
+msgid "N"
+msgstr ""
+
+#: $string['Dmethodfull']
+msgctxt "$string['Dmethodfull']"
+msgid "Not Called"
+msgstr ""
+
+#: $string['downloadexcel']
+msgid "Download in Excel"
+msgstr ""
+
+#: $string['downloadtext']
+msgid "Download in  Text"
+msgstr ""
+
+#: $string['duration_hour']
+msgctxt "$string['duration_hour']"
+msgid "Hour"
+msgstr ""
+
+#: $string['Eacronym']
+msgctxt "$string['Eacronym']"
+msgid "E"
+msgstr ""
+
+#: $string['Edesc']
+msgid "Early"
+msgstr ""
+
+#: $string['editsession']
+msgid "Edit Session"
+msgstr ""
+
+#: $string['email_teacher_attend']
+msgid ""
+"Attendace data of {$a->fullname} [{$a->date} {$a->starttm}-{$a->endtm}] is "
+"attached to this mail."
+msgstr ""
+
+#: $string['email_teacher_key']
+msgid ""
+"The keyword of {$a->fullname} [{$a->date} {$a->starttm}-{$a->endtm}] is "
+"{$a->key}"
+msgstr ""
+
+#: $string['email_teacher_key_html']
+msgid ""
+"The keyword of {$a->fullname} [{$a->date} {$a->starttm}-{$a->endtm}] is "
+"<strong>{$a->key}</strong>"
+msgstr ""
+
+#: $string['email_user_attend_C']
+msgid ""
+"{$a->fullname} [{$a->date} {$a->starttm}-{$a->endtm}]: Your attendance was "
+"changed. Please check it at Web."
+msgstr ""
+
+#: $string['email_user_attend_L']
+msgid ""
+"{$a->fullname} [{$a->date} {$a->starttm}-{$a->endtm}]: Your attendance "
+"became \"Late\""
+msgstr ""
+
+#: $string['email_user_attend_P']
+msgid ""
+"{$a->fullname} [{$a->date} {$a->starttm}-{$a->endtm}]: Your attendance "
+"became \"Presence\""
+msgstr ""
+
+#: $string['email_user_attend_X']
+msgid ""
+"{$a->fullname} [{$a->date} {$a->starttm}-{$a->endtm}]: Your attendance "
+"became \"Absent\""
+msgstr ""
+
+#: $string['endtime']
+msgid "End"
+msgstr ""
+
+#: $string['errorinaddingsession']
+msgid "Error occurred in adding session"
+msgstr ""
+
+#: $string['erroringeneratingsessions']
+msgid "Error occured in generating sessions"
+msgstr ""
+
+#: $string['Etitle']
+msgctxt "$string['Etitle']"
+msgid "E"
+msgstr ""
+
+#: $string['everymonths']
+msgid "Every Months"
+msgstr ""
+
+#: $string['everyweeks']
+msgid "Every Weeks"
+msgstr ""
+
+#: $string['excludedstudents']
+msgid "Excluded Students"
+msgstr ""
+
+#: $string['exclusion']
+msgid "Excluded"
+msgstr ""
+
+#: $string['feedback']
+msgid "Feedback"
+msgstr ""
+
+#: $string['forprinting']
+msgid "For Printing"
+msgstr ""
+
+#: $string['friday']
+msgid "Fri."
+msgstr ""
+
+#: $string['grade']
+msgctxt "$string['grade']"
+msgid "G"
+msgstr ""
+
+#: $string['grade_settings']
+msgid "Grade Settings"
+msgstr ""
+
+#: $string['hour']
+msgctxt "$string['hour']"
+msgid "Hour"
+msgstr ""
+
+#: $string['hourmin']
+msgid "Hour, Minute"
+msgstr ""
+
+#: $string['indetail']
+msgid "In detail..."
+msgstr ""
+
+#: $string['ip']
+msgid "IP"
+msgstr ""
+
+#: $string['ipaddress']
+msgid "IP Address"
+msgstr ""
+
+#: $string['iperrattention']
+msgid "If you use web proxy, stop to use proxy for this attendance."
+msgstr ""
+
+#: $string['iperroccur']
+msgid "IP address error occurred."
+msgstr ""
+
+#: $string['ipresolv']
+msgid "Reverse lookup URL of IP address"
+msgstr ""
+
+#: $string['ipresolv_desc']
+msgid ""
+"URL for looking up the IP address of student's connection origin in reverse "
+"is specified.\n"
+"An IP address portion is described to be %s"
+msgstr ""
+
+#: $string['ipresolv_url']
+msgid "http://whois.arin.net/rest/nets;q=%s?showDetails=true"
+msgstr ""
+
+#: $string['keyerrattention']
+msgid ""
+"Attendance keyword is mismatch. Please confirm keyword to your teacher.<br "
+"/>And try again!!"
+msgstr ""
+
+#: $string['keyerroccur']
+msgid "Attendance keyword error is occurred."
+msgstr ""
+
+#: $string['keyword']
+msgid "Keyword"
+msgstr ""
+
+#: $string['Lacronym']
+msgctxt "$string['Lacronym']"
+msgid "L"
+msgstr ""
+
+#: $string['Ldesc']
+msgid "Late"
+msgstr ""
+
+#: $string['Ltitle']
+msgctxt "$string['Ltitle']"
+msgid "L"
+msgstr ""
+
+#: $string['minute']
+msgid "Minute"
+msgstr ""
+
+#: $string['mismatchip']
+msgid "Your IP is not corresponding allowed IPs. Your IP is"
+msgstr ""
+
+#: $string['mismatchkey']
+msgid "Not corresponding keyword"
+msgstr ""
+
+#: $string['missinfo']
+msgid "Missing need Information"
+msgstr ""
+
+#: $string['Mmethod']
+msgid "M"
+msgstr ""
+
+#: $string['Mmethodfull']
+msgid "Manual"
+msgstr ""
+
+#: $string['monday']
+msgid "Mon."
+msgstr ""
+
+#: $string['months']
+msgid "Months"
+msgstr ""
+
+#: $string['myvariables']
+msgid "Grade settings"
+msgstr ""
+
+#: $string['needkeyword']
+msgid "This submition need keyword. Please input attendance keyword."
+msgstr ""
+
+#: $string['nevererror']
+msgid "Never Occur ERROR!!!"
+msgstr ""
+
+#: $string['newdate']
+msgid "New date"
+msgstr ""
+
+#: $string['newsessionduration']
+msgid "New Duration"
+msgstr ""
+
+#: $string['newsessionendtime']
+msgid "New End Time"
+msgstr ""
+
+#: $string['newsessionlatetime']
+msgid "New Late Time"
+msgstr ""
+
+#: $string['newsessionmethod']
+msgid "New Method"
+msgstr ""
+
+#: $string['newsessionstarttime']
+msgid "New Start Time"
+msgstr ""
+
+#: $string['noattforuser']
+msgid "No attendances exist for the user"
+msgstr ""
+
+#: $string['nodescription']
+msgid "nothing"
+msgstr ""
+
+#: $string['nonclass']
+msgid "No Class"
+msgstr ""
+
+#: $string['noofdaysabsent']
+msgid "No of days absent"
+msgstr ""
+
+#: $string['noofdaysexcused']
+msgid "No of days excused"
+msgstr ""
+
+#: $string['noofdayslate']
+msgid "No of days late"
+msgstr ""
+
+#: $string['noofdayspresent']
+msgid "No of days present"
+msgstr ""
+
+#: $string['nosessiondayselected']
+msgid "No Session day selected"
+msgstr ""
+
+#: $string['nosessionexists']
+msgid "No Session exist in this course"
+msgstr ""
+
+#: $string['nosuchsession']
+msgid "No such session in this course"
+msgstr ""
+
+#: $string['nosuchuser']
+msgid "No such user in this course"
+msgstr ""
+
+#: $string['notaccessguest']
+msgid "Guests cannot access this page"
+msgstr ""
+
+#: $string['notaccessnoteacher']
+msgid "Except for a teacher cannot access this page"
+msgstr ""
+
+#: $string['notaccessstudent']
+msgid "Students cannot access this page"
+msgstr ""
+
+#: $string['notcallthis']
+msgid "You cannot call this script in that way"
+msgstr ""
+
+#: $string['novalue']
+msgid "-"
+msgstr ""
+
+#: $string['nowtime']
+msgid "Time Now"
+msgstr ""
+
+#: $string['nowtime_help']
+msgid ""
+"When this  displayed time is not in same with the present time, the time of "
+"this autoattendance block are inaccurate. <br />\n"
+"If when the time is absolutely do not match, please check the time zone "
+"(date.timezone) in php.ini of PHP."
+msgstr ""
+
+#: $string['Nstate']
+msgctxt "$string['Nstate']"
+msgid "N"
+msgstr ""
+
+#: $string['Nstatefull']
+msgid "Not Started"
+msgstr ""
+
+#: $string['olddate']
+msgid "Old date"
+msgstr ""
+
+#: $string['oldsessionduration']
+msgid "Old Duration"
+msgstr ""
+
+#: $string['oldsessionendtime']
+msgid "Old End Time"
+msgstr ""
+
+#: $string['oldsessionlatetime']
+msgid "Old Late Time"
+msgstr ""
+
+#: $string['oldsessionmethod']
+msgid "Old Method"
+msgstr ""
+
+#: $string['oldsessionstarttime']
+msgid "Old Start Time"
+msgstr ""
+
+#: $string['Ostate']
+msgid "O"
+msgstr ""
+
+#: $string['Ostatefull']
+msgid "Opened"
+msgstr ""
+
+#: $string['output_idnumber']
+msgid "Output/Display idnumbers of students"
+msgstr ""
+
+#: $string['output_idnumber_desc']
+msgid ""
+"idnumbers of students are included in download data and displayed at Report."
+msgstr ""
+
+#: $string['Pacronym']
+msgctxt "$string['Pacronym']"
+msgid "P"
+msgstr ""
+
+#: $string['page_column_size']
+msgid "Column size of page"
+msgstr ""
+
+#: $string['page_column_size_desc']
+msgid "A user name is displayed for every number of columns of this."
+msgstr ""
+
+#: $string['page_row_size']
+msgid "Row size of page"
+msgstr ""
+
+#: $string['page_row_size_desc']
+msgid "A header is displayed for every number of lines of this."
+msgstr ""
+
+#: $string['Pdesc']
+msgid "Present"
+msgstr ""
+
+#: $string['period']
+msgid "Period"
+msgstr ""
+
+#: $string['pleasefeedback']
+msgid "Please Feedback"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Auto Attendance Block"
+msgstr ""
+
+#: $string['Ptitle']
+msgctxt "$string['Ptitle']"
+msgid "P"
+msgstr ""
+
+#: $string['recalcgrades']
+msgid "Recalc Grades"
+msgstr ""
+
+#: $string['refreshdata']
+msgid "Refresh"
+msgstr ""
+
+#: $string['remarks']
+msgid "Remarks"
+msgstr ""
+
+#: $string['removefeedback']
+msgid "(this link can be turned OFF in settings of mod_autoattendmod Module)"
+msgstr ""
+
+#: $string['repairdb']
+msgid "Repair of DB"
+msgstr ""
+
+#: $string['repairdbconfirm']
+msgid "Do you execute to repair of DB?"
+msgstr ""
+
+#: $string['repairok']
+msgid "Repair"
+msgstr ""
+
+#: $string['report']
+msgid "Report"
+msgstr ""
+
+#: $string['reqinfomiss']
+msgid "Required Information is missing"
+msgstr ""
+
+#: $string['restoredefaults']
+msgid "Restore defaults"
+msgstr ""
+
+#: $string['return']
+msgctxt "$string['return']"
+msgid "Return"
+msgstr ""
+
+#: $string['returnbutton']
+msgctxt "$string['returnbutton']"
+msgid "Return"
+msgstr ""
+
+#: $string['returnto_course']
+msgctxt "$string['returnto_course']"
+msgid "Return"
+msgstr ""
+
+#: $string['returntoN']
+msgid "return to 'Not Started'"
+msgstr ""
+
+#: $string['returntoNconfirm']
+msgid "Do you really return this session to 'Not Started' state?"
+msgstr ""
+
+#: $string['returntoNdesc']
+msgid ""
+"Even if you return this session to 'Not Started' state, attendances taken by "
+"manual and semi-auto mode are not cleared."
+msgstr ""
+
+#: $string['sameusedip']
+msgid "Your IP is corresponding other used IPs. Your IP is"
+msgstr ""
+
+#: $string['saturday']
+msgid "Sat."
+msgstr ""
+
+#: $string['sdaysmiss']
+msgid "Missing days parameter"
+msgstr ""
+
+#: $string['selectall']
+msgid "Select All"
+msgstr ""
+
+#: $string['semiautoattend']
+msgid "Semi Automatic Attendance"
+msgstr ""
+
+#: $string['semiautoconfirm']
+msgid ""
+"You can sumbit an attendance of below session. Do you submit an attendance?"
+msgstr ""
+
+#: $string['session']
+msgid "Session"
+msgstr ""
+
+#: $string['sessionadded']
+msgid "Session successfully added"
+msgstr ""
+
+#: $string['sessionallowip']
+msgid "Allowed IPs"
+msgstr ""
+
+#: $string['sessionallowip_help']
+msgid ""
+"The range of the IP addresses of the terminal which permits attendance are "
+"specified.\n"
+"Basically format is list of \"IP address/submetmask\" that divided with the "
+"blank or the comma. But you can use the following forms, too<br />\n"
+"<br />\n"
+"* The prefix length notation is also possible instead of a subnetmask. <br "
+"/>\n"
+"&nbsp;&nbsp;&nbsp;&nbsp;202.26.155.0/16 => 202.26.0.0/255.255.0.0 <br />\n"
+"<br />\n"
+"* When a part of IP address is omitted, it is regarded as 0. <br />\n"
+"&nbsp;&nbsp;&nbsp;&nbsp;202.26./255.255.255.0 => 202.26.0.0/255.255.255.0<br "
+"/>\n"
+"<br />\n"
+"* When a parts of subnetmask is omitted, it is regarded as 0. <br />\n"
+"&nbsp;&nbsp;&nbsp;&nbsp;202.26.100.2/255.255. => 202.26.0.0/255.255.0.0 <br "
+"/>\n"
+"&nbsp;&nbsp;&nbsp;&nbsp;202.26./255.255.255. => 202.26.0.0/255.255.255.0<br "
+"/>\n"
+"<br />\n"
+"* When all subnet masks are omitted, the portion omitted by the IP address "
+"is 0. <br />\n"
+"&nbsp;&nbsp;&nbsp;&nbsp;202. => 202.0.0.0/255.0.0.0<br />\n"
+"<br />\n"
+"ex.) 192.168.100. 202.26.144.0/255.255.255. 202.26.148.122"
+msgstr ""
+
+#: $string['sessionalreadyexists']
+msgid "Session already exists in this date"
+msgstr ""
+
+#: $string['sessiondate']
+msgid "Session Date"
+msgstr ""
+
+#: $string['sessiondays']
+msgid "Session Days"
+msgstr ""
+
+#: $string['sessiondeleted']
+msgid "Session successfully deleted"
+msgstr ""
+
+#: $string['sessionduration']
+msgid "Duration"
+msgstr ""
+
+#: $string['sessionenddate']
+msgid "Session End Date"
+msgstr ""
+
+#: $string['sessionendtime']
+msgid "End Time"
+msgstr ""
+
+#: $string['sessionexist']
+msgid "Session not added (already exist)!"
+msgstr ""
+
+#: $string['sessionlatetime']
+msgid "Late Time"
+msgstr ""
+
+#: $string['sessionmethod']
+msgctxt "$string['sessionmethod']"
+msgid "Method"
+msgstr ""
+
+#: $string['sessionmulti']
+msgctxt "$string['sessionmulti']"
+msgid "Create multiple sessions"
+msgstr ""
+
+#: $string['sessionscompleted']
+msgid "Completed"
+msgstr ""
+
+#: $string['sessionsgenerated']
+msgid "Sessions successfully generated"
+msgstr ""
+
+#: $string['sessionsnogenerated']
+msgid "There is no generated session"
+msgstr ""
+
+#: $string['sessionstartdate']
+msgid "Session Start Date"
+msgstr ""
+
+#: $string['sessionstarttime']
+msgid "Start Time"
+msgstr ""
+
+#: $string['sessiontable']
+msgid "Sessions"
+msgstr ""
+
+#: $string['sessionupdated']
+msgid "Session successfully updated"
+msgstr ""
+
+#: $string['sessionupdateerror']
+msgid "Session update Error"
+msgstr ""
+
+#: $string['setrandomkey']
+msgid "Random Key"
+msgstr ""
+
+#: $string['showdefaults']
+msgid "Show defaults"
+msgstr ""
+
+#: $string['Smethod']
+msgid "S"
+msgstr ""
+
+#: $string['Smethodfull']
+msgid "Semi Auto"
+msgstr ""
+
+#: $string['starttime']
+msgid "Start"
+msgstr ""
+
+#: $string['status']
+msgid "Status"
+msgstr ""
+
+#: $string['strftimecalled']
+msgid "%H:%M (%d/%m)"
+msgstr ""
+
+#: $string['strftimedm']
+msgctxt "$string['strftimedm']"
+msgid "%d/%m"
+msgstr ""
+
+#: $string['strftimedmshort']
+msgctxt "$string['strftimedmshort']"
+msgid "%d/%m"
+msgstr ""
+
+#: $string['strftimedmy']
+msgctxt "$string['strftimedmy']"
+msgid "%d/%m/%Y"
+msgstr ""
+
+#: $string['strftimedmyw']
+msgid "%d/%m/%y (%a)"
+msgstr ""
+
+#: $string['strftimefull']
+msgid "%H:%M %d/%m/%Y"
+msgstr ""
+
+#: $string['strftimehmshort']
+msgctxt "$string['strftimehmshort']"
+msgid "%H:%M"
+msgstr ""
+
+#: $string['strftimehourmin']
+msgctxt "$string['strftimehourmin']"
+msgid "%H:%M"
+msgstr ""
+
+#: $string['strftimeshortdate']
+msgctxt "$string['strftimeshortdate']"
+msgid "%d/%m/%Y"
+msgstr ""
+
+#: $string['studentid']
+msgid "Student ID"
+msgstr ""
+
+#: $string['students_list']
+msgid "Users List"
+msgstr ""
+
+#: $string['submitattend']
+msgid "Submit Attendance"
+msgstr ""
+
+#: $string['submitok']
+msgid "Submit"
+msgstr ""
+
+#: $string['sunday']
+msgid "Sun."
+msgstr ""
+
+#: $string['takeattendance']
+msgid "Take Attendance"
+msgstr ""
+
+#: $string['takemanualattend']
+msgctxt "$string['takemanualattend']"
+msgid "Attendance"
+msgstr ""
+
+#: $string['thursday']
+msgid "Thu."
+msgstr ""
+
+#: $string['title']
+msgid "Title"
+msgstr ""
+
+#: $string['toNok']
+msgid "OK"
+msgstr ""
+
+#: $string['toNtitle']
+msgid "to Not Started"
+msgstr ""
+
+#: $string['tuesday']
+msgid "Tue."
+msgstr ""
+
+#: $string['unknownclass']
+msgid "Unknown Class"
+msgstr ""
+
+#: $string['update']
+msgid "Update"
+msgstr ""
+
+#: $string['updateordel']
+msgid "Update or Delete"
+msgstr ""
+
+#: $string['updatesessionattend']
+msgid "Update Session Attendance"
+msgstr ""
+
+#: $string['updatesessioninfo']
+msgid "Update Session Information"
+msgstr ""
+
+#: $string['updateuserattend']
+msgid "Update User Attendance"
+msgstr ""
+
+#: $string['use_timeoffset']
+msgid "Use Timeoffset of the Timezone"
+msgstr ""
+
+#: $string['use_timeoffset_desc']
+msgid "Timeoffset of the Timezone is used for Administrator."
+msgstr ""
+
+#: $string['validclasses']
+msgid "Valid Classes"
+msgstr ""
+
+#: $string['variablesupdated']
+msgid "Grade variables successfully updated"
+msgstr ""
+
+#: $string['variablesupdateerror']
+msgid "Grade variables update Error"
+msgstr ""
+
+#: $string['wednesday']
+msgid "Wed."
+msgstr ""
+
+#: $string['week']
+msgid "week(s)"
+msgstr ""
+
+#: $string['weeks']
+msgid "Weeks"
+msgstr ""
+
+#: $string['wiki_url']
+msgid "http://docs.moodle.org/25/en/Autoattendance_block"
+msgstr ""
+
+#: $string['wrongdatesselected']
+msgid "Wrong date selected"
+msgstr ""
+
+#: $string['wrongtimesselected']
+msgid "Wrong time selected"
+msgstr ""
+
+#: $string['Xacronym']
+msgctxt "$string['Xacronym']"
+msgid "A"
+msgstr ""
+
+#: $string['Xdesc']
+msgid "Absent"
+msgstr ""
+
+#: $string['Xtitle']
+msgctxt "$string['Xtitle']"
+msgid "A"
+msgstr ""
+
+#: $string['Yacronym']
+msgctxt "$string['Yacronym']"
+msgid "N"
+msgstr ""
+
+#: $string['Ydesc']
+msgctxt "$string['Ydesc']"
+msgid "Not Called"
+msgstr ""
+
+#: $string['Ytitle']
+msgctxt "$string['Ytitle']"
+msgid "N"
+msgstr ""
+
+#: $string['Zdesc']
+msgid "Absent or Not Called"
+msgstr ""

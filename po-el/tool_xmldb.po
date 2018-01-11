@@ -1,0 +1,895 @@
+#. extracted from lang/en/tool_xmldb.php, lang/el/tool_xmldb.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'tool_xmldb', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   tool_xmldb
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['actual']
+msgid "Actual"
+msgstr "Πραγματικά"
+
+#: $string['aftertable']
+msgid "After table:"
+msgstr "Μετά τον πίνακα:"
+
+#: $string['back']
+msgid "Back"
+msgstr "Πίσω"
+
+#: $string['backtomainview']
+msgid "Back to main"
+msgstr "Επιστροφή στην Κεντρική"
+
+#: $string['cannotuseidfield']
+msgid "Cannot insert the \"id\" field. It is an autonumeric column"
+msgstr "Το πεδίο \"id\" δεν μπορεί να εισαχθεί. Συμπληρώνεται αυτόματα"
+
+#: $string['change']
+msgid "Change"
+msgstr "Αλλαγή"
+
+#: $string['charincorrectlength']
+msgid "Incorrect length for char field"
+msgstr "Λάθος μήκος πεδίου χαρακτήρων"
+
+#: $string['checkbigints']
+msgid "Check integers"
+msgstr "Έλεγχος μεγάλων αριθμών"
+
+#: $string['check_bigints']
+msgid "Look for incorrect DB integers"
+msgstr "Έλεγχος για εσφαλμένους αριθμούς"
+
+#: $string['checkdefaults']
+msgid "Check defaults"
+msgstr "Έλεγχος εξορισμού τιμών"
+
+#: $string['check_defaults']
+msgid "Look for inconsistent default values"
+msgstr "Έλεγχος για εσφαλμένες εξορισμού τιμές"
+
+#: $string['checkforeignkeys']
+msgid "Check foreign keys"
+msgstr "Έλεγχος κλειδιών"
+
+#: $string['check_foreign_keys']
+msgid "Look for foreign key violations"
+msgstr "Έλεγχος για παραβιάσεις κλειδιών"
+
+#: $string['checkindexes']
+msgid "Check indexes"
+msgstr "Έλεγχος ευρετηρίων"
+
+#: $string['check_indexes']
+msgid "Look for missing DB indexes"
+msgstr "Έλεγχος για μη υπάρχοντα ευρετήρια"
+
+#: $string['checkoraclesemantics']
+msgid "Check semantics"
+msgstr ""
+
+#: $string['check_oracle_semantics']
+msgid "Look for incorrect length semantics"
+msgstr ""
+
+#: $string['completelogbelow']
+msgid "(see the complete log of the search below)"
+msgstr "(δείτε το πλήρες ιστορικό της έρευνας παρακάτω)"
+
+#: $string['confirmcheckbigints']
+msgid ""
+"This functionality will search for <a "
+"href=\"http://tracker.moodle.org/browse/MDL-11038\">potential wrong integer "
+"fields</a> in your Moodle server, generating (but not executing!) "
+"automatically the needed SQL statements to have all the integers in your DB "
+"properly defined.\n"
+"\n"
+"Once generated you can copy such statements and execute them safely with "
+"your favourite SQL interface (don't forget to backup your data before doing "
+"that).\n"
+"\n"
+"It's highly recommended to be running the latest (+ version) available of "
+"your Moodle release before executing the search of wrong integers.\n"
+"\n"
+"This functionality doesn't perform any action against the DB (just reads "
+"from it), so can be safely executed at any moment."
+msgstr ""
+"This functionality will search for <a "
+"href=\"http://tracker.moodle.org/browse/MDL-11038\">potential wrong integer "
+"fields</a> in your Moodle server, generating (but not executing!) "
+"automatically the needed SQL statements to have all the integers in your DB "
+"properly defined.<br /><br />\n"
+"Once generated you can copy such statements and execute them safely with "
+"your favourite SQL interface (don't forget to backup your data before doing "
+"that).<br /><br />\n"
+"It's highly recommended to be running the latest (+ version) available of "
+"your Moodle release (1.8, 1.9, 2.x ...) before executing the search of wrong "
+"integers.<br /><br />\n"
+"This functionality doesn't perform any action against the DB (just reads "
+"from it), so can be safely executed at any moment."
+
+#: $string['confirmcheckdefaults']
+msgid ""
+"This functionality will search for inconsistent default values in your "
+"Moodle server, generating (but not executing!) the needed SQL statements to "
+"have all the default values properly defined.\n"
+"\n"
+"Once generated you can copy such statements and execute them safely with "
+"your favourite SQL interface (don't forget to backup your data before doing "
+"that).\n"
+"\n"
+"It's highly recommended to be running the latest (+ version) available of "
+"your Moodle release before executing the search of inconsistent default "
+"values.\n"
+"\n"
+"This functionality doesn't perform any action against the DB (just reads "
+"from it), so can be safely executed at any moment."
+msgstr ""
+"This functionality will search for inconsistent default values in your "
+"Moodle server, generating (but not executing!) the needed SQL statements to "
+"have all the default values properly defined.<br /><br />\n"
+"Once generated you can copy such statements and execute them safely with "
+"your favourite SQL interface (don't forget to backup your data before doing "
+"that).<br /><br />\n"
+"It's highly recommended to be running the latest (+ version) available of "
+"your Moodle release (1.8, 1.9, 2.x ...) before executing the search of "
+"inconsistent default values.<br /><br />\n"
+"This functionality doesn't perform any action against the DB (just reads "
+"from it), so can be safely executed at any moment."
+
+#: $string['confirmcheckforeignkeys']
+msgid ""
+"This functionality will search for potential violations of the foreign keys "
+"defined in the install.xml definitions. (Moodle does not currently generate "
+"actual foreign key constraints in the database, which is why invalid data "
+"may be present.)\n"
+"\n"
+"It's highly recommended to be running the latest (+ version) available of "
+"your Moodle release before executing the search for potential violations of "
+"the foreign keys.\n"
+"\n"
+"This functionality doesn't perform any action against the DB (just reads "
+"from it), so can be safely executed at any moment."
+msgstr ""
+"This functionality will search for potential violations of the foreign keys "
+"defined in the install.xml definitions. (Moodle does not currently generate "
+"acutal foreign key constraints in the database, which is why invalid data "
+"may be present.)<br /><br />\n"
+"It's highly recommended to be running the latest (+ version) available of "
+"your Moodle release (1.8, 1.9, 2.x ...) before executing the search of "
+"missing indexes.<br /><br />\n"
+"This functionality doesn't perform any action against the DB (just reads "
+"from it), so can be safely executed at any moment."
+
+#: $string['confirmcheckindexes']
+msgid ""
+"This functionality will search for potential missing indexes in your Moodle "
+"server, generating (but not executing!) automatically the needed SQL "
+"statements to keep everything updated.\n"
+"\n"
+"Once generated you can copy such statements and execute them safely with "
+"your favourite SQL interface (don't forget to backup your data before doing "
+"that).\n"
+"\n"
+"It's highly recommended to be running the latest (+ version) available of "
+"your Moodle release before executing the search of missing indexes.\n"
+"\n"
+"This functionality doesn't perform any action against the DB (just reads "
+"from it), so can be safely executed at any moment."
+msgstr ""
+"This functionality will search for potential missing indexes in your Moodle "
+"server, generating (but not executing!) automatically the needed SQL "
+"statements to keep everything updated.<br /><br />\n"
+"Once generated you can copy such statements and execute them safely with "
+"your favourite SQL interface (don't forget to backup your data before doing "
+"that).<br /><br />\n"
+"It's highly recommended to be running the latest (+ version) available of "
+"your Moodle release (1.8, 1.9, 2.x ...) before executing the search of "
+"missing indexes.<br /><br />\n"
+"This functionality doesn't perform any action against the DB (just reads "
+"from it), so can be safely executed at any moment."
+
+#: $string['confirmcheckoraclesemantics']
+msgid ""
+"This functionality will search for <a "
+"href=\"http://tracker.moodle.org/browse/MDL-29322\">Oracle varchar2 columns "
+"using BYTE semantics</a> in your Moodle server, generating (but not "
+"executing!) automatically the needed SQL statements to have all the columns "
+"converted to use CHAR semantics instead (better for cross-db compatibility "
+"and increased contents max. length).\n"
+"\n"
+"Once generated you can copy such statements and execute them safely with "
+"your favourite SQL interface (don't forget to backup your data before doing "
+"that).\n"
+"\n"
+"It's highly recommended to be running the latest (+ version) available of "
+"your Moodle release before executing the search of BYTE semantics.\n"
+"\n"
+"This functionality doesn't perform any action against the DB (just reads "
+"from it), so can be safely executed at any moment."
+msgstr ""
+
+#: $string['confirmdeletefield']
+msgid "Are you absolutely sure that you want to delete the field:"
+msgstr "Θέλετε σίγουρα να διαγράψετε το πεδίο:"
+
+#: $string['confirmdeleteindex']
+msgid "Are you absolutely sure that you want to delete the index:"
+msgstr "Θέλετε σίγουρα να διαγράψετε το ευρετήριο:"
+
+#: $string['confirmdeletekey']
+msgid "Are you absolutely sure that you want to delete the key:"
+msgstr "Θέλετε σίγουρα να διαγράψετε το κλειδί:"
+
+#: $string['confirmdeletetable']
+msgid "Are you absolutely sure that you want to delete the table:"
+msgstr "Θέλετε σίγουρα να διαγράψετε τον πίνακα:"
+
+#: $string['confirmdeletexmlfile']
+msgid "Are you absolutely sure that you want to delete the file:"
+msgstr "Θέλετε σίγουρα να διαγράψετε το αρχείο:"
+
+#: $string['confirmrevertchanges']
+msgid "Are you absolutely sure that you want to revert changes performed over:"
+msgstr "Θέλετε σίγουρα να ακυρώσετε τις αλλαγές που κάνατε:"
+
+#: $string['create']
+msgid "Create"
+msgstr "Δημιουργία"
+
+#: $string['createtable']
+msgid "Create table:"
+msgstr "Δημιουργία Πίνακα:"
+
+#: $string['defaultincorrect']
+msgid "Incorrect default"
+msgstr "Λάθος προεπιλογή"
+
+#: $string['delete']
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: $string['delete_field']
+msgid "Delete field"
+msgstr "Διαγραφή Πεδίου"
+
+#: $string['delete_index']
+msgid "Delete index"
+msgstr "Διαγραφή Ευρετηρίου"
+
+#: $string['delete_key']
+msgid "Delete key"
+msgstr "Διαγραφή Κλειδιού"
+
+#: $string['delete_table']
+msgid "Delete table"
+msgstr "Διαγραφή Πίνακα"
+
+#: $string['delete_xml_file']
+msgid "Delete XML file"
+msgstr "Διαγραφή XML Αρχείου"
+
+#: $string['doc']
+msgid "Doc"
+msgstr "Doc"
+
+#: $string['docindex']
+msgid "Documentation index:"
+msgstr ""
+
+#: $string['documentationintro']
+msgid ""
+"This documentation is generated automatically from the XMLDB database "
+"definition. It is available only in English."
+msgstr ""
+
+#: $string['down']
+msgid "Down"
+msgstr "Κάτω"
+
+#: $string['duplicate']
+msgid "Duplicate"
+msgstr "Δημιουργία Αντιγράφου"
+
+#: $string['duplicatefieldname']
+msgid "Another field with that name exists"
+msgstr "Υπάρχει άλλο πεδίο με το ίδιο όνομα"
+
+#: $string['duplicatefieldsused']
+msgid "Duplicate fields used"
+msgstr ""
+
+#: $string['duplicateindexname']
+msgid "Duplicate index name"
+msgstr ""
+
+#: $string['duplicatekeyname']
+msgid "Another key with that name exists"
+msgstr "Υπάρχει άλλο κλειδί με το ίδιο όνομα"
+
+#: $string['duplicatetablename']
+msgid "Another table with that name exists"
+msgstr ""
+
+#: $string['edit']
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: $string['edit_field']
+msgid "Edit field"
+msgstr "Επεξεργασία Πεδίου"
+
+#: $string['edit_field_save']
+msgid "Save field"
+msgstr ""
+
+#: $string['edit_index']
+msgid "Edit index"
+msgstr "Επεξεργασία Ευρετηρίου"
+
+#: $string['edit_index_save']
+msgid "Save index"
+msgstr ""
+
+#: $string['edit_key']
+msgid "Edit key"
+msgstr "Επεξεργασία Κλειδιού"
+
+#: $string['edit_key_save']
+msgid "Save key"
+msgstr ""
+
+#: $string['edit_table']
+msgid "Edit table"
+msgstr "Επεξεργασία Πίνακα"
+
+#: $string['edit_table_save']
+msgid "Save table"
+msgstr ""
+
+#: $string['edit_xml_file']
+msgid "Edit XML file"
+msgstr "Επεξεργασία XML Αρχείου"
+
+#: $string['enumvaluesincorrect']
+msgid "Incorrect values for enum field"
+msgstr "Λάθος τιμή πεδίου απαρίθμησης"
+
+#: $string['expected']
+msgid "Expected"
+msgstr "Αναμενόμενο"
+
+#: $string['extensionrequired']
+msgid ""
+"Sorry - the PHP extension '{$a}' is required for this action. Please install "
+"the extension if you want to use this feature."
+msgstr ""
+"Δε μπορείτε να εκτελέσετε αυτή την ενέργεια γιατί αυτό απαιτεί να είναι "
+"εγκατεστημένη η επέκταση \"{$a}\" της PHP. Εγκαταστήστε την αν θέλετε να "
+"προχωρήσετε."
+
+#: $string['field']
+msgid "Field"
+msgstr "Πεδίο"
+
+#: $string['fieldnameempty']
+msgid "Name field empty"
+msgstr "Άδειο πεδίο ονόματος"
+
+#: $string['fields']
+msgid "Fields"
+msgstr "Πεδία"
+
+#: $string['fieldsnotintable']
+msgid "Field doesn't exist in table"
+msgstr ""
+
+#: $string['fieldsusedinindex']
+msgid "This field is used as index"
+msgstr ""
+
+#: $string['fieldsusedinkey']
+msgid "This field is used as key."
+msgstr "Το πεδίο αυτό χρησιμοποιείται σαν κλειδί."
+
+#: $string['filemodifiedoutfromeditor']
+msgid ""
+"Warning: File locally modified while using the XMLDB Editor. Saving will "
+"overwrite local changes."
+msgstr ""
+
+#: $string['filenotwriteable']
+msgid "File not writeable"
+msgstr "Μη εγγράψιμο αρχείο"
+
+#: $string['fkunknownfield']
+msgid ""
+"Foreign key {$a->keyname} on table {$a->tablename} points to a non-existent "
+"field {$a->reffield} in referenced table {$a->reftable}."
+msgstr ""
+
+#: $string['fkunknowntable']
+msgid ""
+"Foreign key {$a->keyname} on table {$a->tablename} points to a non-existent "
+"table {$a->reftable}."
+msgstr ""
+
+#: $string['fkviolationdetails']
+msgid ""
+"Foreign key {$a->keyname} on table {$a->tablename} is violated by "
+"{$a->numviolations} out of {$a->numrows} rows."
+msgstr ""
+"Το κλειδί {$a->keyname} στον πίνακα {$a->tablename} παραβιάζεται "
+"{$a->numviolations} φορές σε {$a->numrows} συνολικά εγγραφές."
+
+#: $string['float2numbernote']
+msgid ""
+"Notice: Although \"float\" fields are 100% supported by XMLDB, it's "
+"recommended to migrate to \"number\" fields instead."
+msgstr ""
+
+#: $string['floatincorrectdecimals']
+msgid "Incorrect number of decimals for float field"
+msgstr "Λάθος αριθμός δεκαδικών ψηφίων πεδίου πραγματικού αριθμού"
+
+#: $string['floatincorrectlength']
+msgid "Incorrect length for float field"
+msgstr "Λάθος μήκος πεδίου πραγματικού αριθμού"
+
+#: $string['generate_all_documentation']
+msgid "All the documentation"
+msgstr ""
+
+#: $string['generate_documentation']
+msgid "Documentation"
+msgstr "Οδηγίες χρήσης"
+
+#: $string['gotolastused']
+msgid "Go to last used file"
+msgstr "Μετάβαση στο τελευταίο χρησιμοποιούμενο αρχείο"
+
+#: $string['incorrectfieldname']
+msgid "Incorrect name"
+msgstr "Λάθος όνομα"
+
+#: $string['incorrectindexname']
+msgid "Incorrect index name"
+msgstr ""
+
+#: $string['incorrectkeyname']
+msgid "Incorrect key name"
+msgstr ""
+
+#: $string['incorrecttablename']
+msgid "Incorrect table name"
+msgstr ""
+
+#: $string['index']
+msgid "Index"
+msgstr "Ευρετήριο"
+
+#: $string['indexes']
+msgid "Indexes"
+msgstr "Ευρετήρια"
+
+#: $string['indexnameempty']
+msgid "Index name is empty"
+msgstr ""
+
+#: $string['integerincorrectlength']
+msgid "Incorrect length for integer field"
+msgstr "Λάθος μήκος πεδίου ακεραίου αριθμού"
+
+#: $string['key']
+msgid "Key"
+msgstr "Κλειδί"
+
+#: $string['keynameempty']
+msgid "The key name cannot be empty"
+msgstr ""
+
+#: $string['keys']
+msgid "Keys"
+msgstr "Κλειδιά"
+
+#: $string['listreservedwords']
+msgid ""
+"List of Reserved Words<br />(used to keep <a "
+"href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" "
+"target=\"_blank\">XMLDB_reserved_words</a> updated)"
+msgstr ""
+"Λίστα Κλειδωμένων Λέξεων <br/>(χρησιμοποιείται για ενημέρωση των <a "
+"href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" "
+"target=\"_blank\">XMLDB_reserved_words</a>)"
+
+#: $string['load']
+msgid "Load"
+msgstr "Φόρτωση"
+
+#: $string['main_view']
+msgid "Main view"
+msgstr "Κεντρική Όψη"
+
+#: $string['masterprimaryuniqueordernomatch']
+msgid ""
+"The fields in your foreign key must be listed in the same order as they are "
+"listed in the UNIQUE KEY on the referenced table."
+msgstr ""
+
+#: $string['missing']
+msgid "Missing"
+msgstr "Λείπουν"
+
+#: $string['missingindexes']
+msgid "Missing indexes found"
+msgstr "Βρέθηκαν ευρετήρια να λείπουν"
+
+#: $string['mustselectonefield']
+msgid "You must select one field to see field related actions!"
+msgstr "Πρέπει να επιλέξετε ένα πεδίο για να δείτε τις σχετικές ενέργειες"
+
+#: $string['mustselectoneindex']
+msgid "You must select one index to see index related actions!"
+msgstr "Πρέπει να επιλέξετε ένα ευρετήριο για να δείτε τις σχετικές ενέργειες"
+
+#: $string['mustselectonekey']
+msgid "You must select one key to see key related actions!"
+msgstr "Πρέπει να επιλέξετε ένα κλειδί για να δείτε τις σχετικές ενέργειες"
+
+#: $string['newfield']
+msgid "New field"
+msgstr "Νέο πεδίο"
+
+#: $string['newindex']
+msgid "New index"
+msgstr "Νέο Ευρετήριο"
+
+#: $string['newkey']
+msgid "New key"
+msgstr "Νέο Κλειδί"
+
+#: $string['newtable']
+msgid "New table"
+msgstr "Νέος Πίνακας"
+
+#: $string['newtablefrommysql']
+msgctxt "$string['newtablefrommysql']"
+msgid "New table from MySQL"
+msgstr "Νέος Πίνακας από MySQL"
+
+#: $string['new_table_from_mysql']
+msgctxt "$string['new_table_from_mysql']"
+msgid "New table from MySQL"
+msgstr "Νέος Πίνακας από MySQL"
+
+#: $string['nofieldsspecified']
+msgid "No fields specified"
+msgstr ""
+
+#: $string['nomasterprimaryuniquefound']
+msgid ""
+"The column(s) that you foreign key references must be included in a primary "
+"or unique KEY in the referenced table. Note, the column being in a UNIQUE "
+"INDEX is not good enough."
+msgstr ""
+
+#: $string['nomissingindexesfound']
+msgid ""
+"No missing indexes have been found, your DB doesn't need further actions."
+msgstr "Δεν βρέθηκαν ελλειπή ευρετήρια."
+
+#: $string['noreffieldsspecified']
+msgid "No reference fields specified"
+msgstr ""
+
+#: $string['noreftablespecified']
+msgid "Specified reference table not found"
+msgstr ""
+
+#: $string['noviolatedforeignkeysfound']
+msgid "No violated foreign keys found"
+msgstr "Δεν βρέθηκαν παραβιασμένα κλειδιά"
+
+#: $string['nowrongdefaultsfound']
+msgid ""
+"No inconsistent default values have been found, your DB does not need "
+"further actions."
+msgstr "Δεν βρέθηκαν εφαλμένες εξορισμού τιμές"
+
+#: $string['nowrongintsfound']
+msgid ""
+"No wrong integers have been found, your DB doesn't need further actions."
+msgstr "Δεν βρέθηκαν εσφαλμένες αριθμητικές τιμές"
+
+#: $string['nowrongoraclesemanticsfound']
+msgid ""
+"No Oracle columns using BYTE semantics have been found, your DB doesn't need "
+"further actions."
+msgstr ""
+
+#: $string['numberincorrectdecimals']
+msgid "Incorrect number of decimals for number field"
+msgstr "Λάθος αριθμός δεκαδικών ψηφίων αριθμητικού πεδίου πραγματικού αριθμού"
+
+#: $string['numberincorrectlength']
+msgid "Incorrect length for number field"
+msgstr "Λάθος μήκος αριθμητικού πεδίου"
+
+#: $string['numberincorrectwholepart']
+msgid "Too big whole number part for number field"
+msgstr ""
+
+#: $string['pendingchanges']
+msgid ""
+"Note: You have performed changes to this file. They can be saved at any "
+"moment."
+msgstr ""
+
+#: $string['pendingchangescannotbesaved']
+msgid ""
+"There are changes in this file but they cannot be saved! Please verify that "
+"both the directory and the \"install.xml\" within it have write permissions "
+"for the web server."
+msgstr ""
+
+#: $string['pendingchangescannotbesavedreload']
+msgid ""
+"There are changes in this file but they cannot be saved! Please verify that "
+"both the directory and the \"install.xml\" within it have write permissions "
+"for the web server. Then reload this page and you should be able to save "
+"those changes."
+msgstr ""
+
+#: $string['pluginname']
+msgid "XMLDB editor"
+msgstr "Επεξεργαστής XMLDB"
+
+#: $string['primarykeyonlyallownotnullfields']
+msgid "Primary keys cannot be null"
+msgstr ""
+
+#: $string['reserved']
+msgid "Reserved"
+msgstr "Κλειδωμένο"
+
+#: $string['reservedwords']
+msgid "Reserved words"
+msgstr "Κλειδωμένες Λέξεις"
+
+#: $string['revert']
+msgid "Revert"
+msgstr "Επαναφορά"
+
+#: $string['revert_changes']
+msgid "Revert changes"
+msgstr "Επαναφορά Αλλαγών"
+
+#: $string['save']
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: $string['searchresults']
+msgid "Search results"
+msgstr "Αποτελέσματα Εύρεσης"
+
+#: $string['selectaction']
+msgid "Select action:"
+msgstr "Επιλογή Ενέργειας:"
+
+#: $string['selectdb']
+msgid "Select database:"
+msgstr "Επιλογή Βάσης Δεδομένων:"
+
+#: $string['selectfieldkeyindex']
+msgid "Select field/key/index:"
+msgstr "Επιλογή Πεδίου/Κλειδιού/Ευρετηρίου"
+
+#: $string['selectonecommand']
+msgid "Please select one action from the list to view PHP code"
+msgstr "Επιλέξτε μία Ενέργεια από τη λίστα για να δείτε τον κώδικα PHP"
+
+#: $string['selectonefieldkeyindex']
+msgid "Please select one field/key/index from the list to view the PHP code"
+msgstr ""
+"Επιλέξτε ένα Πεδίο/Κλειδί/Ευρετήριο από τη λίστα για να δείτε τον κώδικα PHP"
+
+#: $string['selecttable']
+msgid "Select table:"
+msgstr "Επιλογή Πίνακα:"
+
+#: $string['table']
+msgid "Table"
+msgstr "Πίνακας"
+
+#: $string['tablenameempty']
+msgid "The table name cannot be empty"
+msgstr ""
+
+#: $string['tables']
+msgid "Tables"
+msgstr "Πίνακες"
+
+#: $string['unknownfield']
+msgid "Refers to an unknown field"
+msgstr ""
+
+#: $string['unknowntable']
+msgid "Refers to an unknown table"
+msgstr ""
+
+#: $string['unload']
+msgid "Unload"
+msgstr "Αποφόρτωση"
+
+#: $string['up']
+msgid "Up"
+msgstr "Πάνω"
+
+#: $string['view']
+msgid "View"
+msgstr "Δείτε"
+
+#: $string['viewedited']
+msgid "View edited"
+msgstr "Δείτε το Επεξεργασμένο"
+
+#: $string['vieworiginal']
+msgid "View original"
+msgstr "Δείτε το Αρχικό"
+
+#: $string['viewphpcode']
+msgid "View PHP code"
+msgstr "Δείτε τον Κώδικα PHP"
+
+#: $string['view_reserved_words']
+msgid "View reserved words"
+msgstr "Δείτε Κλειδωμένες Λέξεις"
+
+#: $string['viewsqlcode']
+msgid "View SQL code"
+msgstr "Δείτε τον Κώδικα SQL"
+
+#: $string['view_structure_php']
+msgid "View structure PHP"
+msgstr "Δείτε τη Δομή PHP"
+
+#: $string['view_structure_sql']
+msgid "View structure SQL"
+msgstr "Δείτε τη Δομή SQL"
+
+#: $string['view_table_php']
+msgid "View table PHP"
+msgstr "Δείτε τον Πίνακα PHP"
+
+#: $string['view_table_sql']
+msgid "View table SQL"
+msgstr "Δείτε τον Πίνακα SQL"
+
+#: $string['viewxml']
+msgid "XML"
+msgstr ""
+
+#: $string['violatedforeignkeys']
+msgid "Violated foreign keys"
+msgstr "Παραβιασμένα κλειδιά"
+
+#: $string['violatedforeignkeysfound']
+msgid "Violated foreign keys found"
+msgstr "Βρέθηκαν παραβιασμένα κλειδιά"
+
+#: $string['violations']
+msgid "Violations"
+msgstr "Παραβιάσεις"
+
+#: $string['wrong']
+msgid "Wrong"
+msgstr "Λάθος"
+
+#: $string['wrongdefaults']
+msgid "Wrong defaults found"
+msgstr "Βρέθηκαν εσφαλμένες εξορισμού τιμές"
+
+#: $string['wrongints']
+msgid "Wrong integers found"
+msgstr "Βρέθηκαν εσφαλμένες αριθμητικές τιμές"
+
+#: $string['wronglengthforenum']
+msgid "Incorrect length for enum field"
+msgstr "Λάθος μήκος πεδίου απαρίθμησης"
+
+#: $string['wrongnumberofreffields']
+msgid "Wrong number of reference fields"
+msgstr ""
+
+#: $string['wrongoraclesemantics']
+msgid "Wrong Oracle BYTE semantics found"
+msgstr ""
+
+#: $string['wrongreservedwords']
+msgid ""
+"Currently used reserved words<br />(note that table names aren't important "
+"if using $CFG->prefix)"
+msgstr ""
+"Κλειδωμένες Λέξεις που Χρησιμοποιούνται <br />(τα ονόματα των πινάκων δεν "
+"έχουν σημασία αν χρησιμοποιείτε το $CFG->prefix)"
+
+#: $string['yesmissingindexesfound']
+msgid ""
+"<p>Some missing indexes have been found in your DB. Here are their details "
+"and the needed SQL statements to be executed with your favourite SQL "
+"interface to create all of them. Remember to backup your data first!</p>\n"
+"<p>After doing that, it's highly recommended to execute this utility again "
+"to check that no more missing indexes are found.</p>"
+msgstr ""
+"Some missing indexes have been found in your DB. Here are their details and "
+"the needed SQL statements to be executed with your favourite SQL interface "
+"to create all them (don't forget to backup your data before doing that).<br "
+"/><br />After doing that, it's highly recommended to execute this utility "
+"again to check that no more missing indexes are found."
+
+#: $string['yeswrongdefaultsfound']
+msgid ""
+"<p>Some inconsistent defaults have been found in your DB. Here are their "
+"details and the needed SQL statements to be executed with your favourite SQL "
+"interface to fix them all. Remember to backup your data first!</p>\n"
+"<p>After doing that, it's highly recommended to execute this utility again "
+"to check that no more inconsistent defaults are found.</p>"
+msgstr ""
+"Some inconsistent defaults have been found in your DB. Here are their "
+"details and the needed SQL statements to be executed with your favourite SQL "
+"interface to fix them all (don't forget to backup your data before doing "
+"that).<br /><br />After doing that, it's highly recommended to execute this "
+"utility again to check that no more iconsistent defaults are found."
+
+#: $string['yeswrongintsfound']
+msgid ""
+"<p>Some wrong integers have been found in your DB. Here are their details "
+"and the needed SQL statements to be executed with your favourite SQL "
+"interface to create all them. Remember to backup your data first!</p>\n"
+"<p>After doing that, it's highly recommended to execute this utility again "
+"to check that no more wrong integers are found.</p>"
+msgstr ""
+"Some wrong integers have been found in your DB. Here are their details and "
+"the needed SQL statements to be executed with your favourite SQL interface "
+"to create all them (don't forget to backup your data before doing that).<br "
+"/><br />After doing that, it's highly recommended to execute this utility "
+"again to check that no more wrong integers are found."
+
+#: $string['yeswrongoraclesemanticsfound']
+msgid ""
+"<p>Some Oracle columns using BYTE semantics have been found in your DB. Here "
+"are their details and the needed SQL statements to be executed with your "
+"favourite SQL interface to create all them. Remember to backup your data "
+"first!</p>\n"
+"<p>After doing that, it's highly recommended to execute this utility again "
+"to check that no more wrong semantics are found.</p>"
+msgstr ""

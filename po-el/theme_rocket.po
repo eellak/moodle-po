@@ -1,0 +1,395 @@
+#. extracted from lang/en/theme_rocket.php, lang/el/theme_rocket.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'theme_rocket', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   theme_rocket
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['allclasses']
+msgid "All Classes"
+msgstr ""
+
+#: $string['allcourses']
+msgid "All Courses"
+msgstr ""
+
+#: $string['allmodules']
+msgid "All Modules"
+msgstr ""
+
+#: $string['allunits']
+msgid "All Units"
+msgstr ""
+
+#: $string['autohide']
+msgid "Autohide Functionality"
+msgstr ""
+
+#: $string['autohidedesc']
+msgid ""
+"Enabling this feature will change how moodle looks when editing mode is "
+"turned on. Edit icons only appear when hovering over a particular item or "
+"block. This makes the interface alot cleaner and less intimidating."
+msgstr ""
+
+#: $string['bannerheight']
+msgid "Homepage Banner Height"
+msgstr ""
+
+#: $string['bannerheightdesc']
+msgid ""
+"If you are using the Banner location on the homepage you can change its "
+"defult height here. The max is 250px."
+msgstr ""
+
+#: $string['bannerimage']
+msgid "Banner"
+msgstr ""
+
+#: $string['bannerimagedesc']
+msgid ""
+"Change the banner on the frontpage by entering the URL to a new one (i.e., "
+"http://www.somesite/banner.png). As a reference, the default banner is 750px "
+"by 250px."
+msgstr ""
+
+#: $string['blocklinkcolor']
+msgid "Block Link Color"
+msgstr ""
+
+#: $string['blocklinkcolordesc']
+msgid "Change the color of the links in blocks"
+msgstr ""
+
+#: $string['bootstrap']
+msgid "Bootstrap Stying - BETA"
+msgstr ""
+
+#: $string['bootstrapdesc']
+msgid ""
+"This feature will enable new Bootstrap styling. This project for moodle is "
+"headed by <a href=\"http://moodle.org/user/view.php?id=3152&course=5\">David "
+"Scotson</a> and introduced into Rocket as a Beta status. Bootstrap is a "
+"project from Twitter that provides \"Simple and flexible HTML, CSS, and "
+"Javascript for popular user interface components and interactions.\" For more "
+"information on Bootstrap <a "
+"href=\"http://twitter.github.com/bootstrap/\">click here</a>."
+msgstr ""
+
+#: $string['choosereadme']
+msgid ""
+"<div class=\"clearfix\"><div class=\"theme_screenshot\">\n"
+"<h1>Rocket</h1>\n"
+"<img src=\"rocket/pix/screenshot.jpg\"/>\n"
+"\n"
+"<h2>About</h2>\n"
+"<p>Rocket is a three column fixed-width theme for Moodle 2.1+ originally "
+"designed by Julian Ridden to take Moodle themes to a more website focused "
+"look and feel. While the design is original, much of the CSS and the icons "
+"have come from <a "
+"href=\"http://moodle.org/user/profile.php?id=299683\"><strong>Saun "
+"Daubney's</strong></a> fantastic Aardvark theme and also with support in the "
+"forums from<a "
+"href=\"http://moodle.org/user/profile.php?id=713800\"><strong>Mary "
+"Evans</strong></a>.</p>\n"
+"\n"
+"<p>The theme is highly customisable through Moodle's theme settings. You can "
+"adjust images, text and colurs all without changing code. The theme also "
+"has a function that means that when users log in, courses they are enrolled "
+"in will show up in the dropdown 'custom menu' at the top of the screen.</p>\n"
+"\n"
+"<p>Please note that this is listed as a Beta version. There will probably be "
+"some bugs here and there. It has been proudly built on a Mac and as such is "
+"untested in IE.</p>\n"
+"\n"
+"<h1>Instructions</h1>\n"
+"\n"
+"<h2>Block Regions</h2>\n"
+"<p>This theme is the first, as far as I am aware, to use blocks outside of "
+"the standard left and right column methodology. There are two addional "
+"locations called 'Search/profile' and 'Top Link's.</p>\n"
+"<p>The Top Links region is used on the top right of the homepage and can be "
+"used for whatever you design. I find HTML blocks with links or spotlighted "
+"info works well.</p>\n"
+"<p>The Search/Profile region is specifically designed to have either the "
+"'Global Search' or the \"Logged in user\" block stored in it. This region is "
+"available on all pages\n"
+"\n"
+"<h2>Logo and Homepage Banner Images</b>\n"
+"\n"
+"<h2>Color Schemes</h2>\n"
+"<p>In the theme settings screen for Rocket you will find you are able to "
+"adjust the color of this theme to suit your branding. Both background colors "
+"and menu colors can be adjusted as well as the border colors.</p>\n"
+"\n"
+"<h2 Additional Footer Text</h2>\n"
+"<p>In the theme settings you can also adjust three additonal text fields. "
+"The 'Institution Name' is hsown only on the homepage. This was added as "
+"often the name of thei organisation is different to the name of the Moodle "
+"site itself.</p>\n"
+"<p>"
+msgstr ""
+
+#: $string['configtitle']
+msgid "rocket theme"
+msgstr ""
+
+#: $string['contentlinkcolor']
+msgid "Content Link Color"
+msgstr ""
+
+#: $string['contentlinkcolordesc']
+msgid "Change the color of the links in content areas"
+msgstr ""
+
+#: $string['copyright']
+msgid "Copyright Notice"
+msgstr ""
+
+#: $string['copyrightdesc']
+msgid ""
+"This location is where you can put your copyright notice if you have one."
+msgstr ""
+
+#: $string['customcss']
+msgid "Custom CSS"
+msgstr ""
+
+#: $string['customcssdesc']
+msgid ""
+"For advanced users you can type in your own css here to override any of the "
+"theme defaults"
+msgstr ""
+
+#: $string['disable']
+msgid "Disabled"
+msgstr ""
+
+#: $string['editingmode']
+msgid ""
+"<strong>Editing Mode is now enabled:</strong> Please hover over the topic, "
+"item or block you wish to edit. Drag and drop files onto course sections to "
+"upload them"
+msgstr ""
+
+#: $string['editmode']
+msgid "Edit mode is:"
+msgstr ""
+
+#: $string['editmodetoggle']
+msgid "Edit Mode Toggle"
+msgstr ""
+
+#: $string['edittoggle']
+msgid "click to toggle"
+msgstr ""
+
+#: $string['edittoggledesc']
+msgid ""
+"When enabled this replaces the \"Turn Editing On\" button with a status toggle "
+"instead."
+msgstr ""
+
+#: $string['enable']
+msgid "Enabled"
+msgstr ""
+
+#: $string['fixedwidth']
+msgid "Fixed Width"
+msgstr ""
+
+#: $string['footnote']
+msgid "Footnote"
+msgstr ""
+
+#: $string['footnotedesc']
+msgid ""
+"The content from this textarea will be displayed in the footer of every "
+"page. A great place for links."
+msgstr ""
+
+#: $string['homeblock']
+msgid "banner"
+msgstr ""
+
+#: $string['logo']
+msgid "Logo"
+msgstr ""
+
+#: $string['logodesc']
+msgid ""
+"Change the logo of this theme by entering the URL to a new one (i.e., "
+"http://www.somesite/logo.png). As a reference, the default logo is 250px by "
+"130px. A transparent .png will work best."
+msgstr ""
+
+#: $string['menucolor']
+msgid "Menu Color"
+msgstr ""
+
+#: $string['menucolordesc']
+msgid "Change the color of the menu"
+msgstr ""
+
+#: $string['menuhovercolor']
+msgid "Menu Hover Color"
+msgstr ""
+
+#: $string['menuhovercolordesc']
+msgid "Change the color of the menu items when the mouse hovers over them"
+msgstr ""
+
+#: $string['menulinkcolor']
+msgid "Menu Link Color"
+msgstr ""
+
+#: $string['menulinkcolordesc']
+msgid "Change the color used for links in the menu"
+msgstr ""
+
+#: $string['menutrimcolor']
+msgid "Menu Trim Color"
+msgstr ""
+
+#: $string['menutrimcolordesc']
+msgid "Change the color used to trim the edges of the menu"
+msgstr ""
+
+#: $string['myclasses']
+msgid "My Classes"
+msgstr ""
+
+#: $string['mycourses']
+msgid "My Courses"
+msgstr ""
+
+#: $string['mycoursetitle']
+msgid "Dropdown menu \"My Course\" Terminology"
+msgstr ""
+
+#: $string['mycoursetitledesc']
+msgid "Change the terminology for the \"My Courses\" link in the dropdown menu"
+msgstr ""
+
+#: $string['mymodules']
+msgid "My Modules"
+msgstr ""
+
+#: $string['myunits']
+msgid "My Units"
+msgstr ""
+
+#: $string['navigation']
+msgid "navigation"
+msgstr ""
+
+#: $string['nobanner']
+msgid "Disable Banner"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Rocket"
+msgstr ""
+
+#: $string['region-homeblock']
+msgid "Home Banner"
+msgstr ""
+
+#: $string['region-search']
+msgid "Search/Profile"
+msgstr "Αναζήτηση / Προφίλ"
+
+#: $string['region-side-post']
+msgid "Right"
+msgstr ""
+
+#: $string['region-side-pre']
+msgid "Left"
+msgstr ""
+
+#: $string['region-toplinks']
+msgid "Top Links"
+msgstr ""
+
+#: $string['screenwidth']
+msgid "Screen Width"
+msgstr ""
+
+#: $string['screenwidthdesc']
+msgid ""
+"This allows you to designate if this theme is displayed as a fixed with of "
+"1000px or a variable width of 100%. <br> Please note that for design reasons "
+"the frontpage of the site will always remain fixed width"
+msgstr ""
+
+#: $string['sitename']
+msgid "Institution Name"
+msgstr ""
+
+#: $string['sitenamedesc']
+msgid ""
+"The name of your institution is shown on the frontpage. This is not the name "
+"of your site"
+msgstr ""
+
+#: $string['themecolor']
+msgid "Theme Color"
+msgstr ""
+
+#: $string['themecolordesc']
+msgctxt "$string['themecolordesc']"
+msgid ""
+"What color should your theme be. This will change multiple components to "
+"produce the color you wish across the moodle site"
+msgstr ""
+
+#: $string['themetrimcolor']
+msgid "Theme Trim Color"
+msgstr ""
+
+#: $string['themetrimcolordesc']
+msgctxt "$string['themetrimcolordesc']"
+msgid ""
+"What color should your theme be. This will change multiple components to "
+"produce the color you wish across the moodle site"
+msgstr ""
+
+#: $string['turneditingoff']
+msgid "On"
+msgstr ""
+
+#: $string['turneditingon']
+msgid "Off"
+msgstr ""
+
+#: $string['variablewidth']
+msgid "Variable Width"
+msgstr ""

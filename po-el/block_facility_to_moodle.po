@@ -1,0 +1,762 @@
+#. extracted from lang/en/block_facility_to_moodle.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_facility_to_moodle', language 'en', branch 'MOODLE_25_STABLE'
+#.  *
+#.  * @package   block_facility_to_moodle
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['access']
+msgid "Microsoft Access"
+msgstr ""
+
+#: $string['ad']
+msgid "Address"
+msgstr ""
+
+#: $string['add']
+msgid "Add BDN"
+msgstr ""
+
+#: $string['addstu']
+msgid "Add Groups"
+msgstr ""
+
+#: $string['ag']
+msgid "Policy Agreed"
+msgstr ""
+
+#: $string['back']
+msgid "Return to Block Settings"
+msgstr ""
+
+#: $string['bdn']
+msgid ""
+"BDN<br /><span class=\"babytxt\">(eg: <i>ou=2011, ou=Pupils, ou=Ossett School "
+"Users, dc=ossettschool, dc=co, dc=uk</i>)</span>"
+msgstr ""
+
+#: $string['bdnname']
+msgid "BDN Name<br /><span class=\"babytxt\">(reference only)</span>"
+msgstr ""
+
+#: $string['blockmenutitle']
+msgctxt "$string['blockmenutitle']"
+msgid "Facility To Moodle"
+msgstr ""
+
+#: $string['blockname']
+msgctxt "$string['blockname']"
+msgid "Facility To Moodle"
+msgstr ""
+
+#: $string['ch']
+msgid "Children"
+msgstr ""
+
+#: $string['clgr']
+msgid "Class Group"
+msgstr ""
+
+#: $string['del']
+msgid "Delete"
+msgstr ""
+
+#: $string['descconfig']
+msgid ""
+"<p>You will need to define all your BDNs for your users at the link below, "
+"then return here to enter the rest of your settings.</p>"
+msgstr ""
+
+#: $string['descdbpass']
+msgid "Password required by your server type to access your Facility Database"
+msgstr ""
+
+#: $string['descdbq']
+msgid ""
+"Only needed/used if DBType is set to Access. This is the path to your MS "
+"Access mdb file"
+msgstr ""
+
+#: $string['descdbtype']
+msgid ""
+"Choose your Facility database server type... either MS Access, or MS SQL"
+msgstr ""
+
+#: $string['descdbuser']
+msgid "Username required by your server type to access your Facility Database"
+msgstr ""
+
+#: $string['descdefaults']
+msgid ""
+"The following settings define default values for the remaining profile "
+"fields."
+msgstr ""
+
+#: $string['descdset']
+msgid ""
+"This should be your current dataset, eg: 2011/2012, and will need to be "
+"changed each summer"
+msgstr ""
+
+#: $string['descdsn']
+msgid ""
+"This is the DSN configured within /etc/odbc.ini as part of your webserver's "
+"unixODBC installation"
+msgstr ""
+
+#: $string['descfacdet']
+msgid "The following settings define your Facility database."
+msgstr ""
+
+#: $string['descfauth']
+msgid ""
+"Forces the default authentication type to that specified. Note, this block "
+"is designed for use with the LDAPCapture plugin, therefore this field should "
+"generally be set to 'ldapcapture'. This setting is applied to staff and "
+"student accounts. Parent accounts remain on 'manual' authentication "
+"regardless."
+msgstr ""
+
+#: $string['descfirstyr']
+msgid "The first yeargroup enrolled at your school (usually 7)"
+msgstr ""
+
+#: $string['desciaml']
+msgid ""
+"Enables the ability to export CSV files suitable for upload to <a "
+"href=\\\"https://www.iamlearning.co.uk/\\\" target=\"_blank\">I Am Learning</a>"
+msgstr ""
+
+#: $string['desclastyr']
+msgid "The final yeargroup enrolled at your school (usually 13)"
+msgstr ""
+
+#: $string['descmanage']
+msgid ""
+"<p>The Facility to Moodle Block needs to know the location of your users "
+"within ActiveDirectory. For example...</p><ul><li>BDN Name: Year "
+"7</li><li>BDN: ou=2007, ou=Pupils, ou=School Users, dc=school, dc=co, "
+"dc=uk</li><li>Type: Student</li></ul>"
+msgstr ""
+
+#: $string['descmisc']
+msgid "The following settings fall into the 'Misc' category."
+msgstr ""
+
+#: $string['descparaccs']
+msgid ""
+"The following settings allow you to specify prefixes onto Parent name fields "
+"within Moodle. This can make identification simpler when performing user "
+"management tasks."
+msgstr ""
+
+#: $string['descparforce']
+msgid ""
+"Forces parents to change their password from the generated default on first "
+"login [RECOMMENDED]"
+msgstr ""
+
+#: $string['descparfpref']
+msgid ""
+"Gets added to the beginning of the parent's forename in their Moodle Account"
+msgstr ""
+
+#: $string['descparlpref']
+msgid ""
+"Prefix for the login. This defaults to \"p-\", therefore, all Parent account "
+"usernames will begin with \"p-\""
+msgstr ""
+
+#: $string['descparspref']
+msgid ""
+"Gets added to the beginning of the parent's surname in their Moodle Account"
+msgstr ""
+
+#: $string['descscou']
+msgid "This value becomes the default for the Country field within Moodle"
+msgstr ""
+
+#: $string['descsdomain']
+msgid "The DOMAIN in which your students reside (eg: curriculum)"
+msgstr ""
+
+#: $string['descsdomainsrv']
+msgid ""
+"The machine name of your student domain server (eg: server1). This needs to "
+"be resolvable at command line by your webserver, otherwise, use IP Address"
+msgstr ""
+
+#: $string['descslang']
+msgid "This value becomes the default for the Language field within Moodle"
+msgstr ""
+
+#: $string['descstaaccs']
+msgid ""
+"The following settings allow you to specify prefix and suffixes onto your "
+"staff members' name fields within Moodle. This can make identification "
+"simpler when performing user management tasks."
+msgstr ""
+
+#: $string['descstafai']
+msgid ""
+"Replaces the member of staff's forename within Moodle with their initial."
+msgstr ""
+
+#: $string['descstaffad']
+msgid ""
+"The following settings define the domain and server (domain controller) on "
+"which your staff accounts reside, along with credentials to read those "
+"details."
+msgstr ""
+
+#: $string['descstaffdom']
+msgid "The DOMAIN in which your staff members reside (eg: curriculum)"
+msgstr ""
+
+#: $string['descstaffdserv']
+msgid ""
+"The machine name of your staff domain server (eg: server1). This needs to be "
+"resolvable at command line by your webserver, otherwise, use IP Address"
+msgstr ""
+
+#: $string['descstaffeml']
+msgid ""
+"Presuming that your staff email accounts are in the format "
+"[ADUsername]@somewhere.co.uk, this setting defines what appears AFTER the "
+"ADUsername (eg: @myschool.co.uk)"
+msgstr ""
+
+#: $string['descstaffldpass']
+msgctxt "$string['descstaffldpass']"
+msgid "Password for the above username"
+msgstr ""
+
+#: $string['descstafflduser']
+msgctxt "$string['descstafflduser']"
+msgid "An LDAP / AD based account with READ access to your student OUs"
+msgstr ""
+
+#: $string['descstaffmatch']
+msgid ""
+"<b>Whichever field you specify above, it must contain the user's staffcode "
+"from Facility.</b>"
+msgstr ""
+
+#: $string['descstafpref']
+msgid ""
+"Gets added to the beginning of the staff member's forename in their Moodle "
+"Account"
+msgstr ""
+
+#: $string['descstafsuff']
+msgid ""
+"Gets added to the end of the staff member's forename in their Moodle Account"
+msgstr ""
+
+#: $string['descstaspref']
+msgid ""
+"Gets added to the beginning of the staff member's surname in their Moodle "
+"Account"
+msgstr ""
+
+#: $string['descstassuff']
+msgid ""
+"Gets added to the end of the staff member's surname in their Moodle Account"
+msgstr ""
+
+#: $string['descstown']
+msgid "This value becomes the default for the Town/City field within Moodle"
+msgstr ""
+
+#: $string['descstuaccs']
+msgid ""
+"The following settings allow you to specify prefix and suffixes onto your "
+"students' name fields within Moodle. This can make identification simpler "
+"when performing user management tasks."
+msgstr ""
+
+#: $string['descstuads']
+msgid ""
+"The following settings define the domain and server (domain controller) on "
+"which your student accounts reside, along with credentials to read those "
+"details. <b>Please note, the Description field within AD needs to be pre-"
+"populated with the student's Admin number from Facility.</b>"
+msgstr ""
+
+#: $string['descstufpref']
+msgid ""
+"Gets added to the beginning of the student's forename in their Moodle "
+"Account"
+msgstr ""
+
+#: $string['descstufsuff']
+msgid "Gets added to the end of the student's forename in their Moodle Account"
+msgstr ""
+
+#: $string['descstulpwd']
+msgctxt "$string['descstulpwd']"
+msgid "Password for the above username"
+msgstr ""
+
+#: $string['descstuluser']
+msgctxt "$string['descstuluser']"
+msgid "An LDAP / AD based account with READ access to your student OUs"
+msgstr ""
+
+#: $string['descstuspref']
+msgid ""
+"Gets added to the beginning of the student's surname in their Moodle Account"
+msgstr ""
+
+#: $string['descstussuff']
+msgid "Gets added to the end of the student's surname in their Moodle Account"
+msgstr ""
+
+#: $string['dob']
+msgid "Date of Birth"
+msgstr ""
+
+#: $string['edit']
+msgid "Edit"
+msgstr ""
+
+#: $string['erroradminsonly']
+msgid "You must be an administrator to do this."
+msgstr ""
+
+#: $string['fa']
+msgid "First Access"
+msgstr ""
+
+#: $string['Facility']
+msgctxt "$string['Facility']"
+msgid "Facility To Moodle"
+msgstr ""
+
+#: $string['facility_to_moodle:listparentaccounts']
+msgctxt "$string['facility_to_moodle:listparentaccounts']"
+msgid "Show Parents"
+msgstr ""
+
+#: $string['facility_to_moodle:validateparentdata']
+msgctxt "$string['facility_to_moodle:validateparentdata']"
+msgid "Validate Parents"
+msgstr ""
+
+#: $string['fn']
+msgid "Forename"
+msgstr ""
+
+#: $string['headerconfig']
+msgid "ActiveDirectory User BDNs / OUs"
+msgstr ""
+
+#: $string['headermanage']
+msgid "<h2>Facility to Moodle > Setup BDNs</h2>"
+msgstr ""
+
+#: $string['iOS']
+msgid ""
+"<p style=\"text-align:center\"><b>NB: If you're an iOS user, you're seeing "
+"this due to a conflict between jQuery Mobile and Moodle's YUI library. Don't "
+"worry! Everything should still have worked!</p>"
+msgstr ""
+
+#: $string['la']
+msgid "Last Access"
+msgstr ""
+
+#: $string['labeldbpass']
+msgid "Database Password"
+msgstr ""
+
+#: $string['labeldbq']
+msgid "MS Access DataSource Name"
+msgstr ""
+
+#: $string['labeldbtype']
+msgid "Database Server/Type"
+msgstr ""
+
+#: $string['labeldbuser']
+msgid "Database Username"
+msgstr ""
+
+#: $string['labeldefaults']
+msgid "Account Defaults"
+msgstr ""
+
+#: $string['labeldset']
+msgid "Facility Dataset"
+msgstr ""
+
+#: $string['labeldsn']
+msgid "MSSQL DataSource Name"
+msgstr ""
+
+#: $string['labelfacdet']
+msgid "Facility Database Details"
+msgstr ""
+
+#: $string['labelfauth']
+msgid "Force AuthType"
+msgstr ""
+
+#: $string['labelfirstyr']
+msgid "First Yeargroup"
+msgstr ""
+
+#: $string['labeliaml']
+msgid "Enable 'I am Learning' exports?"
+msgstr ""
+
+#: $string['labellastyr']
+msgid "Last Yeargroup"
+msgstr ""
+
+#: $string['labelmisc']
+msgid "Miscellaneous Options"
+msgstr ""
+
+#: $string['labelparaccs']
+msgid "Parent Moodle Account Creation"
+msgstr ""
+
+#: $string['labelparforce']
+msgid "Force Password Change"
+msgstr ""
+
+#: $string['labelparfpref']
+msgid "Parent Forename Prefix"
+msgstr ""
+
+#: $string['labelparlpref']
+msgid "Parent Login Prefix"
+msgstr ""
+
+#: $string['labelparspref']
+msgid "Parent Surname Prefix"
+msgstr ""
+
+#: $string['labelscou']
+msgid "Default Country"
+msgstr ""
+
+#: $string['labelsdomain']
+msgid "Student LDAP DOMAIN"
+msgstr ""
+
+#: $string['labelsdomainsrv']
+msgid "Student DOMAIN Server"
+msgstr ""
+
+#: $string['labelslang']
+msgid "Default Language"
+msgstr ""
+
+#: $string['labelstaaccs']
+msgid "Staff Moodle Account Creation"
+msgstr ""
+
+#: $string['labelstafai']
+msgid "Replace Staff Forename with Initial"
+msgstr ""
+
+#: $string['labelstaffad']
+msgid "Staff ActiveDirectory Details"
+msgstr ""
+
+#: $string['labelstaffdom']
+msgid "Staff LDAP DOMAIN"
+msgstr ""
+
+#: $string['labelstaffdserv']
+msgid "Staff DOMAIN Server"
+msgstr ""
+
+#: $string['labelstaffeml']
+msgid "Staff E-Mail Domain"
+msgstr ""
+
+#: $string['labelstaffldpass']
+msgctxt "$string['labelstaffldpass']"
+msgid "READ AD Password"
+msgstr ""
+
+#: $string['labelstafflduser']
+msgctxt "$string['labelstafflduser']"
+msgid "READ AD Username"
+msgstr ""
+
+#: $string['labelstaffmatch']
+msgid "AD Field to match"
+msgstr ""
+
+#: $string['labelstafpref']
+msgid "Staff Forename Prefix"
+msgstr ""
+
+#: $string['labelstafsuff']
+msgid "Staff Forename Suffix"
+msgstr ""
+
+#: $string['labelstaspref']
+msgid "Staff Surname Prefix"
+msgstr ""
+
+#: $string['labelstassuff']
+msgid "Staff Surname Suffix"
+msgstr ""
+
+#: $string['labelstown']
+msgid "Default Town/City"
+msgstr ""
+
+#: $string['labelstuaccs']
+msgid "Student Moodle Account Creation"
+msgstr ""
+
+#: $string['labelstuads']
+msgid "Student ActiveDirectory Details"
+msgstr ""
+
+#: $string['labelstufpref']
+msgid "Student Forename Prefix"
+msgstr ""
+
+#: $string['labelstufsuff']
+msgid "Student Forename Suffix"
+msgstr ""
+
+#: $string['labelstulpwd']
+msgctxt "$string['labelstulpwd']"
+msgid "READ AD Password"
+msgstr ""
+
+#: $string['labelstuluser']
+msgctxt "$string['labelstuluser']"
+msgid "READ AD Username"
+msgstr ""
+
+#: $string['labelstuspref']
+msgid "Student Surname Prefix"
+msgstr ""
+
+#: $string['labelstussuff']
+msgid "Student Surname Suffix"
+msgstr ""
+
+#: $string['listparent']
+msgctxt "$string['listparent']"
+msgid "Show Parents"
+msgstr ""
+
+#: $string['ll']
+msgid "Last Login"
+msgstr ""
+
+#: $string['managebdns']
+msgid "Setup BDNs"
+msgstr ""
+
+#: $string['mf']
+msgid "Moodle Firstname"
+msgstr ""
+
+#: $string['ml']
+msgid "Moodle Lastname"
+msgstr ""
+
+#: $string['mssql']
+msgid "Microsoft SQL Server"
+msgstr ""
+
+#: $string['ngts']
+msgid "No groups to sync..."
+msgstr ""
+
+#: $string['noaccess']
+msgid "You do not have access to this area"
+msgstr ""
+
+#: $string['nogtlib']
+msgid "You need to install GT Lib"
+msgstr ""
+
+#: $string['NoJavaScript']
+msgid ""
+"<p style=\"text-align:center\">Sadly this feature depends on Javascript, and "
+"yours is currently disabled.</p>"
+msgstr ""
+
+#: $string['nosession']
+msgid ""
+"Your session key is invalid. Please return to frontpage and try again. (You "
+"may need to log out and back in again to re-establish your session.)"
+msgstr ""
+
+#: $string['noslc']
+msgid "Could not find site-level course"
+msgstr ""
+
+#: $string['nypc']
+msgid "New Year Process Cancelled"
+msgstr ""
+
+#: $string['nypcpw']
+msgid "<h1 class=\"main\">Please wait, this will take some time...</h1>"
+msgstr ""
+
+#: $string['nyproc']
+msgid "NewYear Process"
+msgstr ""
+
+#: $string['pa']
+msgid "Password"
+msgstr ""
+
+#: $string['parent']
+msgid "Parent"
+msgstr ""
+
+#: $string['parent_transfer']
+msgid "Sync Parents"
+msgstr ""
+
+#: $string['pc']
+msgid "Post Code"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Facility To Moodle"
+msgstr ""
+
+#: $string['pu']
+msgid "Password Unknown"
+msgstr ""
+
+#: $string['readdocs']
+msgid "Please refer to the block documentation"
+msgstr ""
+
+#: $string['remestu']
+msgid "Remove Ex-Students"
+msgstr ""
+
+#: $string['remstu']
+msgid "Remove Groups"
+msgstr ""
+
+#: $string['si']
+msgid "StudentID"
+msgstr ""
+
+#: $string['sn']
+msgid "Surname"
+msgstr ""
+
+#: $string['sorry']
+msgid "We're Sorry!"
+msgstr ""
+
+#: $string['staff']
+msgid "Staff"
+msgstr ""
+
+#: $string['staff_transfer']
+msgid "Sync Staff"
+msgstr ""
+
+#: $string['staiala']
+msgid "Staff IAL"
+msgstr ""
+
+#: $string['stid']
+msgid "StaffID"
+msgstr ""
+
+#: $string['student']
+msgid "Student"
+msgstr ""
+
+#: $string['student_transfer']
+msgid "Sync Students"
+msgstr ""
+
+#: $string['stuiala']
+msgid "Student IAL"
+msgstr ""
+
+#: $string['sx']
+msgid "Gender"
+msgstr ""
+
+#: $string['syncgro']
+msgid "Group Synchronisation"
+msgstr ""
+
+#: $string['tegr']
+msgid "Teaching Group"
+msgstr ""
+
+#: $string['transgro']
+msgid "Transferring group"
+msgstr ""
+
+#: $string['tt']
+msgid "Title"
+msgstr ""
+
+#: $string['type']
+msgid "Usertype"
+msgstr ""
+
+#: $string['un']
+msgid "User Name"
+msgstr ""
+
+#: $string['upn']
+msgid "UPN"
+msgstr ""
+
+#: $string['validateparent']
+msgctxt "$string['validateparent']"
+msgid "Validate Parents"
+msgstr ""
+
+#: $string['yg']
+msgid "Year Groups"
+msgstr ""
+
+#: $string['yrgr']
+msgid "Year Group"
+msgstr ""

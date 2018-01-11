@@ -1,0 +1,977 @@
+#. extracted from lang/en/plugin.php, lang/el/plugin.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:14+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'plugin', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   plugin
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['actions']
+msgid "Actions"
+msgstr "Ενέργειες"
+
+#: $string['availability']
+msgid "Availability"
+msgstr "Διαθεσιμότητα"
+
+#: $string['cancelinstallall']
+msgid "Cancel new installations ({$a})"
+msgstr ""
+
+#: $string['cancelinstallhead']
+msgid "Cancelling installation of plugins"
+msgstr ""
+
+#: $string['cancelinstallinfo']
+msgid ""
+"The following plugins are not fully installed yet so their installation may "
+"be cancelled. To do so, the plugin folder must be removed from the server "
+"now. Make sure this is really what you want to prevent accidental data loss "
+"(such as your own code modifications)."
+msgstr ""
+
+#: $string['cancelinstallinfodir']
+msgid "Folder to be deleted: {$a}"
+msgstr ""
+
+#: $string['cancelinstallone']
+msgid "Cancel this installation"
+msgstr ""
+
+#: $string['cancelupgradeall']
+msgid "Cancel upgrades ({$a})"
+msgstr ""
+
+#: $string['cancelupgradehead']
+msgid "Restoring previous version of plugins"
+msgstr ""
+
+#: $string['cancelupgradeone']
+msgid "Cancel this upgrade"
+msgstr ""
+
+#: $string['checkforupdates']
+msgid "Check for available updates"
+msgstr "Έλεγχος για διαθέσιμες ενημερώσεις"
+
+#: $string['checkforupdateslast']
+msgid "Last check done on {$a}"
+msgstr "Τελευταίος έλεγχος έγινε στις {$a}"
+
+#: $string['dependencyavailable']
+msgid "Available"
+msgstr ""
+
+#: $string['dependencyfails']
+msgid "Fails"
+msgstr ""
+
+#: $string['dependencyinstall']
+msgid "Install"
+msgstr ""
+
+#: $string['dependencyinstallhead']
+msgid "Installing missing dependencies"
+msgstr ""
+
+#: $string['dependencyinstallmissing']
+msgid "Install missing dependencies ({$a})"
+msgstr ""
+
+#: $string['dependencymissing']
+msgid "Missing"
+msgstr ""
+
+#: $string['dependencyunavailable']
+msgid "Unavailable"
+msgstr ""
+
+#: $string['dependencyupload']
+msgid "Upload"
+msgstr ""
+
+#: $string['dependencyuploadmissing']
+msgid "Upload ZIP files"
+msgstr ""
+
+#: $string['detectedmisplacedplugin']
+msgid ""
+"Plugin \"{$a->component}\" is installed in incorrect location \"{$a->current}\", "
+"expected location is \"{$a->expected}\""
+msgstr ""
+
+#: $string['displayname']
+msgid "Plugin name"
+msgstr "Όνομα πρόσθετου"
+
+#: $string['err_response_curl']
+msgid "Unable to fetch available updates data - unexpected cURL error."
+msgstr ""
+
+#: $string['err_response_format_version']
+msgid ""
+"Unexpected version of the response format. Please try to re-check for "
+"available updates."
+msgstr ""
+
+#: $string['err_response_http_code']
+msgid "Unable to fetch available updates data - unexpected HTTP response code."
+msgstr ""
+
+#: $string['filterall']
+msgid "Show all"
+msgstr ""
+
+#: $string['filtercontribonly']
+msgid "Show additional plugins only"
+msgstr ""
+
+#: $string['filterupdatesonly']
+msgid "Show updateable only"
+msgstr ""
+
+#: $string['isenabled']
+msgid "Enabled?"
+msgstr ""
+
+#: $string['misdepinfoplugin']
+msgid "Plugin info"
+msgstr ""
+
+#: $string['misdepinfoversion']
+msgid "Version info"
+msgstr ""
+
+#: $string['misdepsavail']
+msgid "Available missing dependencies"
+msgstr ""
+
+#: $string['misdepsunavail']
+msgid "Unavailable missing dependencies"
+msgstr ""
+
+#: $string['misdepsunavaillist']
+msgid "No version found to fulfill the dependency requirements: {$a}."
+msgstr ""
+
+#: $string['misdepsunknownlist']
+msgid "Not in the Plugins directory: <strong>{$a}</strong>."
+msgstr ""
+
+#: $string['moodleversion']
+msgid "Moodle {$a}"
+msgstr ""
+
+#: $string['noneinstalled']
+msgid "No plugins of this type are installed"
+msgstr "Δεν έχουν εγκατασταθεί πρόσθετα αυτού του τύπου"
+
+#: $string['notdownloadable']
+msgid "Can not download the package"
+msgstr ""
+
+#: $string['notdownloadable_help']
+msgid ""
+"ZIP package with the update can not be downloaded automatically. Please "
+"refer to the documentation page for more help."
+msgstr ""
+
+#: $string['notdownloadable_link']
+msgid "admin/mdeploy/notdownloadable"
+msgstr ""
+
+#: $string['notes']
+msgid "Notes"
+msgstr ""
+
+#: $string['notwritable']
+msgid "Plugin files not writable"
+msgstr ""
+
+#: $string['notwritable_help']
+msgid ""
+"Plugin files are not writable by the web server. The web server process must "
+"have write access to the plugin folder and all its contents. Write access "
+"to the root folder of the given plugin type may also be required."
+msgstr ""
+
+#: $string['otherplugin']
+msgid "{$a->component}"
+msgstr ""
+
+#: $string['otherpluginversion']
+msgid "{$a->component} ({$a->version})"
+msgstr ""
+
+#: $string['overviewall']
+msgctxt "$string['overviewall']"
+msgid "All plugins"
+msgstr ""
+
+#: $string['overviewext']
+msgid "Additional plugins"
+msgstr ""
+
+#: $string['overviewupdatable']
+msgid "Available updates"
+msgstr ""
+
+#: $string['packagesdebug']
+msgid "Debugging output enabled"
+msgstr ""
+
+#: $string['packagesdownloading']
+msgid "Downloading {$a}"
+msgstr ""
+
+#: $string['packagesextracting']
+msgid "Extracting {$a}"
+msgstr ""
+
+#: $string['packagesvalidating']
+msgid "Validating {$a}"
+msgstr ""
+
+#: $string['packagesvalidatingfailed']
+msgid "Installation aborted due to validation failure"
+msgstr ""
+
+#: $string['packagesvalidatingok']
+msgid "Validation successful, installation can continue"
+msgstr ""
+
+#: $string['plugincheckall']
+msgctxt "$string['plugincheckall']"
+msgid "All plugins"
+msgstr ""
+
+#: $string['plugincheckattention']
+msgid "Plugins requiring attention"
+msgstr ""
+
+#: $string['pluginchecknone']
+msgid "No plugins require your attention now"
+msgstr ""
+
+#: $string['pluginchecknotice']
+msgid ""
+"This page displays plugins that may require your attention during the "
+"upgrade, such as new plugins to be installed, plugins to be upgraded, "
+"missing plugins etc. Additional plugins are displayed if there is an "
+"available update for them. It is recommended that you check whether there "
+"are more recent versions of plugins available and update their source code "
+"before continuing with this Moodle upgrade."
+msgstr ""
+
+#: $string['plugindisable']
+msgid "Disable"
+msgstr ""
+
+#: $string['plugindisabled']
+msgid "Disabled"
+msgstr "Απενεργοποιημένο"
+
+#: $string['pluginenable']
+msgid "Enable"
+msgstr ""
+
+#: $string['pluginenabled']
+msgid "Enabled"
+msgstr "Ενεργοποιημένο"
+
+#: $string['release']
+msgid "Release"
+msgstr ""
+
+#: $string['requiredby']
+msgid "Required by: {$a}"
+msgstr ""
+
+#: $string['requires']
+msgid "Requires"
+msgstr ""
+
+#: $string['rootdir']
+msgid "Directory"
+msgstr ""
+
+#: $string['settings']
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: $string['source']
+msgid "Source"
+msgstr "Πηγή"
+
+#: $string['sourceext']
+msgid "Additional"
+msgstr ""
+
+#: $string['sourcestd']
+msgid "Standard"
+msgstr "Καθιερωμένη"
+
+#: $string['status']
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: $string['status_delete']
+msgid "To be deleted"
+msgstr ""
+
+#: $string['status_downgrade']
+msgid "Higher version already installed!"
+msgstr ""
+
+#: $string['status_missing']
+msgid "Missing from disk!"
+msgstr "Λείπει από το δίσκο"
+
+#: $string['status_new']
+msgid "To be installed"
+msgstr ""
+
+#: $string['status_nodb']
+msgid "No database"
+msgstr "Δεν υπάρχει βάση δεδομένων"
+
+#: $string['status_upgrade']
+msgid "To be upgraded"
+msgstr ""
+
+#: $string['status_uptodate']
+msgid "Installed"
+msgstr ""
+
+#: $string['supportedconversions']
+msgid "Supported document conversions"
+msgstr ""
+
+#: $string['supportedmoodleversions']
+msgid "Supported Moodle versions"
+msgstr ""
+
+#: $string['systemname']
+msgid "Identifier"
+msgstr "Αναγνωριστικό"
+
+#: $string['type_antivirus']
+msgid "Antivirus plugin"
+msgstr ""
+
+#: $string['type_antivirus_plural']
+msgid "Antivirus plugins"
+msgstr ""
+
+#: $string['type_auth']
+msgid "Authentication method"
+msgstr "Μέθοδος αυθεντικοποίησης"
+
+#: $string['type_auth_plural']
+msgid "Authentication methods"
+msgstr "Υπομονάδες πιστοποίησης"
+
+#: $string['type_availability']
+msgid "Availability restriction"
+msgstr ""
+
+#: $string['type_availability_plural']
+msgid "Availability restrictions"
+msgstr ""
+
+#: $string['type_block']
+msgid "Block"
+msgstr "Μπλοκ"
+
+#: $string['type_block_plural']
+msgid "Blocks"
+msgstr "Blocks"
+
+#: $string['type_cachelock']
+msgid "Cache lock handler"
+msgstr ""
+
+#: $string['type_cachelock_plural']
+msgid "Cache lock handlers"
+msgstr ""
+
+#: $string['type_cachestore']
+msgid "Cache store"
+msgstr ""
+
+#: $string['type_cachestore_plural']
+msgid "Cache stores"
+msgstr ""
+
+#: $string['type_calendartype']
+msgid "Calendar type"
+msgstr ""
+
+#: $string['type_calendartype_plural']
+msgid "Calendar types"
+msgstr ""
+
+#: $string['type_coursereport']
+msgid "Course report"
+msgstr ""
+
+#: $string['type_coursereport_plural']
+msgid "Course reports"
+msgstr "Αναφορές μαθήματος"
+
+#: $string['type_dataformat']
+msgid "Data format"
+msgstr ""
+
+#: $string['type_dataformat_plural']
+msgid "Data formats"
+msgstr ""
+
+#: $string['type_editor']
+msgid "Editor"
+msgstr ""
+
+#: $string['type_editor_plural']
+msgid "Editors"
+msgstr "Συντάκτες"
+
+#: $string['type_enrol']
+msgid "Enrolment method"
+msgstr ""
+
+#: $string['type_enrol_plural']
+msgid "Enrolment methods"
+msgstr "Μέθοδοι εγγραφής"
+
+#: $string['type_fileconverter']
+msgid "Document converter"
+msgstr ""
+
+#: $string['type_fileconvertermanage']
+msgid "Manage document converters"
+msgstr ""
+
+#: $string['type_fileconverter_plural']
+msgid "Document converters"
+msgstr ""
+
+#: $string['type_filter']
+msgid "Text filter"
+msgstr "Φίλτρο"
+
+#: $string['type_filter_plural']
+msgid "Text filters"
+msgstr "Φίλτρα κειμένου"
+
+#: $string['type_format']
+msgid "Course format"
+msgstr "Τύπος μαθήματος"
+
+#: $string['type_format_plural']
+msgid "Course formats"
+msgstr "Τύποι μαθήματος"
+
+#: $string['type_gradeexport']
+msgid "Grade export method"
+msgstr ""
+
+#: $string['type_gradeexport_plural']
+msgid "Grade export methods"
+msgstr "Μέθοδοι εξαγωγής βαθμών"
+
+#: $string['type_gradeimport']
+msgid "Grade import method"
+msgstr ""
+
+#: $string['type_gradeimport_plural']
+msgid "Grade import methods"
+msgstr "Μέθοδοι εισαγωγής βαθμών"
+
+#: $string['type_gradereport']
+msgid "Gradebook report"
+msgstr ""
+
+#: $string['type_gradereport_plural']
+msgid "Gradebook reports"
+msgstr "Αναφορές βιβλίου βαθμολογιών"
+
+#: $string['type_gradingform']
+msgid "Advanced grading method"
+msgstr "Προχωρημένη μέθοδος βαθμολόγησης"
+
+#: $string['type_gradingform_plural']
+msgid "Advanced grading methods"
+msgstr "Προχωρημένες μέθοδοι βαθμολόγησης"
+
+#: $string['type_local']
+msgid "Local plugin"
+msgstr ""
+
+#: $string['type_local_plural']
+msgid "Local plugins"
+msgstr "Τοπικά πρόσθετα"
+
+#: $string['type_media']
+msgid "Media player"
+msgstr ""
+
+#: $string['type_media_plural']
+msgid "Media players"
+msgstr ""
+
+#: $string['type_message']
+msgid "Messaging output"
+msgstr ""
+
+#: $string['type_message_plural']
+msgid "Messaging outputs"
+msgstr ""
+
+#: $string['type_mlbackend']
+msgid "Machine learning backend"
+msgstr ""
+
+#: $string['type_mlbackend_plural']
+msgid "Machine learning backends"
+msgstr ""
+
+#: $string['type_mnetservice']
+msgid "MNet service"
+msgstr ""
+
+#: $string['type_mnetservice_plural']
+msgid "MNet services"
+msgstr "Mnet υπηρεσίες"
+
+#: $string['type_mod']
+msgid "Activity module"
+msgstr "Τμήμα δραστηριότητας"
+
+#: $string['type_mod_plural']
+msgid "Activity modules"
+msgstr "Αρθρώματα δραστηριοτήτων"
+
+#: $string['type_plagiarism']
+msgid "Plagiarism plugin"
+msgstr ""
+
+#: $string['type_plagiarism_plural']
+msgid "Plagiarism plugins"
+msgstr "Πρόσθετα πρόληψης λογοκλοπής"
+
+#: $string['type_portfolio']
+msgid "Portfolio"
+msgstr "Χαρτοφυλάκιο"
+
+#: $string['type_portfolio_plural']
+msgid "Portfolios"
+msgstr "Χαρτοφυλάκια"
+
+#: $string['type_profilefield']
+msgid "Profile field type"
+msgstr ""
+
+#: $string['type_profilefield_plural']
+msgid "Profile field types"
+msgstr "Τύποι πεδίων προφίλ"
+
+#: $string['type_qbehaviour']
+msgid "Question behaviour"
+msgstr ""
+
+#: $string['type_qbehaviour_plural']
+msgid "Question behaviours"
+msgstr "Συμπεριφορά ερωτήσεων"
+
+#: $string['type_qformat']
+msgid "Question import/export format"
+msgstr ""
+
+#: $string['type_qformat_plural']
+msgid "Question import/export formats"
+msgstr "Μορφές εισαγωγής/εξαγωγής ερωτήσεων"
+
+#: $string['type_qtype']
+msgid "Question type"
+msgstr "Τύπος ερώτησης"
+
+#: $string['type_qtype_plural']
+msgid "Question types"
+msgstr "Τύποι ερωτήσεων"
+
+#: $string['type_report']
+msgid "Site report"
+msgstr ""
+
+#: $string['type_report_plural']
+msgid "Reports"
+msgstr "Αναφορές ιστοχώρου"
+
+#: $string['type_repository']
+msgid "Repository"
+msgstr "Χώρος αποθήκευσης"
+
+#: $string['type_repository_plural']
+msgid "Repositories"
+msgstr "Χώροι αποθήκευσης"
+
+#: $string['type_search']
+msgid "Search engine"
+msgstr "Μηχανή αναζήτησης"
+
+#: $string['type_search_plural']
+msgid "Search engines"
+msgstr "Μηχανές αναζήτησης"
+
+#: $string['type_theme']
+msgid "Theme"
+msgstr "Θέμα"
+
+#: $string['type_theme_plural']
+msgid "Themes"
+msgstr "Θέματα"
+
+#: $string['type_tool']
+msgid "Admin tool"
+msgstr ""
+
+#: $string['type_tool_plural']
+msgid "Admin tools"
+msgstr ""
+
+#: $string['type_webservice']
+msgid "Webservice protocol"
+msgstr ""
+
+#: $string['type_webservice_plural']
+msgid "Webservice protocols"
+msgstr "Πρωτόκολλα webservice"
+
+#: $string['uninstall']
+msgid "Uninstall"
+msgstr "Απεγκατάσταση"
+
+#: $string['uninstallconfirm']
+msgid ""
+"You are about to uninstall the plugin <em>{$a->name}</em>. This will "
+"completely delete everything in the database associated with this plugin, "
+"including its configuration, log records, user files managed by the plugin "
+"etc. There is no way back and Moodle itself does not create any recovery "
+"backup. Are you SURE you want to continue?"
+msgstr ""
+
+#: $string['uninstalldelete']
+msgid ""
+"All data associated with the plugin <em>{$a->name}</em> has been deleted "
+"from the database. To prevent the plugin re-installing itself, its folder "
+"<em>{$a->rootdir}</em> must be manually removed from your server now. Moodle "
+"itself cannot remove the folder due to write permissions."
+msgstr ""
+
+#: $string['uninstalldeleteconfirm']
+msgid ""
+"All data associated with the plugin <em>{$a->name}</em> has been deleted "
+"from the database. To prevent the plugin re-installing itself, its folder "
+"<em>{$a->rootdir}</em> must be removed from your server. Do you want to "
+"remove the plugin folder now?"
+msgstr ""
+
+#: $string['uninstalldeleteconfirmexternal']
+msgid ""
+"It appears that the current version of the plugin has been obtained via "
+"source code management system ({$a}) checkout. If you remove the plugin "
+"folder, you may lose important local modifications of the code. Please "
+"ensure that you definitely want to remove the plugin folder before "
+"continuing."
+msgstr ""
+
+#: $string['uninstallextraconfirmblock']
+msgid "There are {$a->instances} instances of this block."
+msgstr ""
+
+#: $string['uninstallextraconfirmenrol']
+msgid "There are {$a->enrolments} user enrolments."
+msgstr ""
+
+#: $string['uninstallextraconfirmmod']
+msgid ""
+"There are {$a->instances} instances of this module in {$a->courses} courses."
+msgstr ""
+
+#: $string['uninstalling']
+msgid "Uninstalling {$a->name}"
+msgstr ""
+
+#: $string['updateavailable']
+msgid "There is a new version {$a} available!"
+msgstr ""
+
+#: $string['updateavailable_moreinfo']
+msgid "More info..."
+msgstr "Περισσότερες πληροφορίες..."
+
+#: $string['updateavailable_release']
+msgid "Release {$a}"
+msgstr ""
+
+#: $string['updatepluginconfirm']
+msgid "Plugin update confirmation"
+msgstr ""
+
+#: $string['updatepluginconfirmexternal']
+msgid ""
+"It appears that the current version of the plugin has been obtained via "
+"source code management system ({$a}) checkout. If you install this update, "
+"you will no longer be able to obtain plugin updates from the source code "
+"management system. Please ensure that you definitely want to update the "
+"plugin before continuing."
+msgstr ""
+
+#: $string['updatepluginconfirminfo']
+msgid ""
+"You are about to install a new version of the plugin "
+"<strong>{$a->name}</strong>. A zip package with version {$a->version} of the "
+"plugin will be downloaded from <a href=\"{$a->url}\">{$a->url}</a> and "
+"extracted to your Moodle installation so it can upgrade your installation."
+msgstr ""
+
+#: $string['updatepluginconfirmwarning']
+msgid ""
+"Please note that Moodle will not automatically make a backup of your "
+"database before the upgrade. We strongly recommend that you make a full "
+"snapshot backup now, to cope with the rare case that the new code has bugs "
+"that make your site unavailable or even corrupts your database. Proceed at "
+"your own risk."
+msgstr ""
+
+#: $string['validationmsg_componentmatch']
+msgid "Full component name"
+msgstr "Πλήρες όνομα συστατικού"
+
+#: $string['validationmsg_componentmismatchname']
+msgid "Plugin name mismatch"
+msgstr ""
+
+#: $string['validationmsg_componentmismatchname_help']
+msgid ""
+"Some ZIP packages, such as those generated by Github, may contain an "
+"incorrect root directory name. You need to fix the name of the root "
+"directory to match the declared plugin name."
+msgstr ""
+
+#: $string['validationmsg_componentmismatchname_info']
+msgid ""
+"The plugin declares its name is '{$a}' but that does not match the name of "
+"the root directory."
+msgstr ""
+
+#: $string['validationmsg_componentmismatchtype']
+msgid "Plugin type mismatch"
+msgstr ""
+
+#: $string['validationmsg_componentmismatchtype_info']
+msgid ""
+"Expected type '{$a->expected}' but the plugin declares its type is "
+"'{$a->found}'."
+msgstr ""
+
+#: $string['validationmsg_filenotexists']
+msgid "Extracted file not found"
+msgstr "Αδυναμία εύρεσης εξαγόμενου αρχείου"
+
+#: $string['validationmsg_filesnumber']
+msgid "Not enough files found in the package"
+msgstr ""
+
+#: $string['validationmsg_filestatus']
+msgid "Unable to extract all files"
+msgstr ""
+
+#: $string['validationmsg_filestatus_info']
+msgid "Attempting to extract file {$a->file} resulted in error '{$a->status}'."
+msgstr ""
+
+#: $string['validationmsg_foundlangfile']
+msgid "Found language file"
+msgstr ""
+
+#: $string['validationmsglevel_debug']
+msgid "Debug"
+msgstr ""
+
+#: $string['validationmsglevel_error']
+msgid "Error"
+msgstr ""
+
+#: $string['validationmsglevel_info']
+msgid "OK"
+msgstr ""
+
+#: $string['validationmsglevel_warning']
+msgid "Warning"
+msgstr ""
+
+#: $string['validationmsg_maturity']
+msgid "Declared maturity level"
+msgstr ""
+
+#: $string['validationmsg_maturity_help']
+msgid ""
+"The plugin can declare its maturity level. If the maintainer considers the "
+"plugin stable, the declared maturity level will read MATURITY_STABLE. All "
+"other maturity levels (such as alpha or beta) should be considered unstable "
+"and a warning is raised."
+msgstr ""
+
+#: $string['validationmsg_missingcomponent']
+msgid "Plugin does not declare its component name"
+msgstr ""
+
+#: $string['validationmsg_missingcomponent_help']
+msgid ""
+"All plugins must provide their full component name via the "
+"`$plugin->component` declaration in the version.php file."
+msgstr ""
+
+#: $string['validationmsg_missingcomponent_link']
+msgid "Development:version.php"
+msgstr ""
+
+#: $string['validationmsg_missingexpectedlangenfile']
+msgid "English language file name mismatch"
+msgstr ""
+
+#: $string['validationmsg_missingexpectedlangenfile_info']
+msgid ""
+"The given plugin type is missing the expected English language file {$a}."
+msgstr ""
+
+#: $string['validationmsg_missinglangenfile']
+msgid "No English language file found"
+msgstr ""
+
+#: $string['validationmsg_missinglangenfolder']
+msgid "Missing English language folder"
+msgstr ""
+
+#: $string['validationmsg_missingversion']
+msgid "Plugin does not declare its version"
+msgstr ""
+
+#: $string['validationmsg_missingversionphp']
+msgid "File version.php not found"
+msgstr "Αδυναμία εύρεσης αρχείου version.php"
+
+#: $string['validationmsg_multiplelangenfiles']
+msgid "Multiple English language files found"
+msgstr ""
+
+#: $string['validationmsg_onedir']
+msgid "Invalid structure of the ZIP package."
+msgstr ""
+
+#: $string['validationmsg_onedir_help']
+msgid ""
+"The ZIP package must contain just one root directory that holds the plugin "
+"code. The name of that root directory must match the name of the plugin."
+msgstr ""
+
+#: $string['validationmsg_pathwritable']
+msgid "Write access check"
+msgstr ""
+
+#: $string['validationmsg_pluginversion']
+msgid "Plugin version"
+msgstr ""
+
+#: $string['validationmsg_release']
+msgid "Plugin release"
+msgstr ""
+
+#: $string['validationmsg_requiresmoodle']
+msgid "Required Moodle version"
+msgstr ""
+
+#: $string['validationmsg_rootdir']
+msgid "Name of the plugin to be installed"
+msgstr ""
+
+#: $string['validationmsg_rootdir_help']
+msgid ""
+"The name of the root directory in the ZIP package forms the name of the "
+"plugin to be installed. If the name is not correct, you may wish to rename "
+"the root directory in the ZIP prior to installing the plugin."
+msgstr ""
+
+#: $string['validationmsg_rootdirinvalid']
+msgid "Invalid plugin name"
+msgstr ""
+
+#: $string['validationmsg_rootdirinvalid_help']
+msgid ""
+"The name of the root directory in the ZIP package violates formal syntax "
+"requirements. Some ZIP packages, such as those generated by Github, may "
+"contain an incorrect root directory name. You need to fix the name of the "
+"root directory to match the plugin name."
+msgstr ""
+
+#: $string['validationmsg_targetexists']
+msgid "Target location already exists and will be removed"
+msgstr ""
+
+#: $string['validationmsg_targetexists_help']
+msgid ""
+"The plugin directory already exists and will be replaced by the plugin "
+"package contents."
+msgstr ""
+
+#: $string['validationmsg_targetnotdir']
+msgid "Target location occupied by a file"
+msgstr ""
+
+#: $string['validationmsg_unknowntype']
+msgid "Unknown plugin type"
+msgstr ""
+
+#: $string['validationmsg_versionphpsyntax']
+msgid "Unsupported syntax detected in version.php file"
+msgstr ""
+
+#: $string['version']
+msgid "Version"
+msgstr "Έκδοση"
+
+#: $string['versiondb']
+msgid "Current version"
+msgstr ""
+
+#: $string['versiondisk']
+msgid "New version"
+msgstr ""

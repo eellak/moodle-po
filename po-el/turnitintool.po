@@ -1,0 +1,2181 @@
+#. extracted from lang/en/turnitintool.php, lang/el/turnitintool.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:14+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'turnitintool', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   turnitintool
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addcomment']
+msgid "Add Comment"
+msgstr "Προσθήκη Σχολίου"
+
+#: $string['addeditcomment']
+msgid "Add / Edit Comment"
+msgstr "Προσθήκη / Επεξεργασία Σχολίου"
+
+#: $string['addsubmission']
+msgid "Add Submission"
+msgstr ""
+
+#: $string['add_turnitintool']
+msgid "Add Turnitin assignment"
+msgstr ""
+
+#: $string['advancedoptions']
+msgid "Turnitin Advanced Options"
+msgstr ""
+
+#: $string['allowlate']
+msgid "Allow Late Submissions"
+msgstr ""
+
+#: $string['allowlate_help']
+msgid ""
+"This setting allows the instructor to select whether they will allow late "
+"submissions to the assignment. If set to yes, students will be able to "
+"submit to the assignment after the due date if they have not previously made "
+"a submission. If set to no, students will not be able to submit after the "
+"due date of the assignment."
+msgstr ""
+
+#: $string['allstudents']
+msgid "All Students"
+msgstr ""
+
+#: $string['allsubmissions']
+msgid "Submission Inbox"
+msgstr ""
+
+#: $string['allsubmissionsmade']
+msgid "All possible submissions have been made"
+msgstr ""
+
+#: $string['alreadysubmitted']
+msgid ""
+"Submission was not accepted as that assignment part has already been submitt"
+"ed to."
+msgstr ""
+
+#: $string['anon']
+msgid "Anonymous"
+msgstr ""
+
+#: $string['anonenabled']
+msgid "Anonymous Marking Enabled"
+msgstr "Ανώνυμη Σήμανση Ενεργοποιημένη"
+
+#: $string['anytype']
+msgid "Any Submission Type"
+msgstr ""
+
+#: $string['apiunavailable']
+msgid "Turnitin API Base URL incorrect or unavailable"
+msgstr ""
+
+#: $string['assigndtdue']
+msgid "Assignment Due Date"
+msgstr ""
+
+#: $string['assigndtpost']
+msgid "Assignment Post Date"
+msgstr ""
+
+#: $string['assigndtstart']
+msgid "Assignment Start Date"
+msgstr ""
+
+#: $string['assigngeterror']
+msgid "Could not get turnitintool data"
+msgstr ""
+
+#: $string['assignmentdeleteprocess']
+msgid "Deleting Assignment Part {$a}"
+msgstr ""
+
+#: $string['assignmentdoesnotexist']
+msgid "The assignment does not exist in Turnitin"
+msgstr ""
+
+#: $string['assignmentindividualise']
+msgid "Processing Assignment Part {$a}"
+msgstr ""
+
+#: $string['assignmentprocess']
+msgid "Initialising Assignment Part {$a}"
+msgstr ""
+
+#: $string['assignmentupdate']
+msgid "Updating Assignment Part {$a}"
+msgstr ""
+
+#: $string['autorefreshgrades']
+msgid "Auto Refresh Grades / Scores"
+msgstr ""
+
+#: $string['autorefreshgrades_help']
+msgid ""
+"By default after each call to Turnitin the Moodle integration plug in will a"
+"ttempt to automatically pull down changes made while in within Turnitin. You"
+" can use this option to turn off this feature, however in order to maintain "
+"synchronisation between both systems you will need to frequently manually re"
+"fresh grades and originality scores from within Moodle."
+msgstr ""
+
+#: $string['autosubmit']
+msgid "Auto Submit"
+msgstr ""
+
+#: $string['autosubmit_help']
+msgid ""
+"To automatically submit user submissions to Turnitin upon upload set this op"
+"tion to &#39;Submit to Turnitin Immediately on Upload&#39;. Alternatively yo"
+"u can set the option to require the submission to be stored in Moodle and ma"
+"nually uploaded to Turnitin by selecting the option &#39;Review Upload befor"
+"e Submitting to Turnitin&#39;."
+msgstr ""
+
+#: $string['autosubmitoff']
+msgid "Review Upload before Submitting to Turnitin"
+msgstr ""
+
+#: $string['autosubmiton']
+msgid "Submit to Turnitin Immediately on Upload"
+msgstr ""
+
+#: $string['bulkupload']
+msgid "Bulk Upload Submissions"
+msgstr ""
+
+#: $string['ced']
+msgid "Class End Date"
+msgstr ""
+
+#: $string['changeowner']
+msgid "Change Owner..."
+msgstr ""
+
+#: $string['changingowner']
+msgid "Change Turnitin Class Owner"
+msgstr ""
+
+#: $string['characters']
+msgid "Characters"
+msgstr ""
+
+#: $string['classcreationerror']
+msgid "Turnitin Class creation failed"
+msgstr ""
+
+#: $string['classprocess']
+msgid "Processing Class Data"
+msgstr ""
+
+#: $string['classupdateerror']
+msgid "Could not update Turnitin Class data"
+msgstr ""
+
+#: $string['comment']
+msgid "Comment"
+msgstr "Σχόλιο"
+
+#: $string['commentby']
+msgid "Comment By"
+msgstr ""
+
+#: $string['commentdeleteerror']
+msgid "Could not delete comment from database"
+msgstr ""
+
+#: $string['commenteditwindow']
+msgid "Comments Remain Editable"
+msgstr ""
+
+#: $string['commenteditwindow_help']
+msgid ""
+"This option allows you to set the window of time in which a user may edit "
+"the comments they make regarding a submission. Users with the ability to "
+"grade submissions e.g. tutors, may change their own comments at any time."
+msgstr ""
+
+#: $string['commentgeterror']
+msgid "Could not get comment from database"
+msgstr ""
+
+#: $string['commentsgeterror']
+msgid "Error retreiving comments data"
+msgstr ""
+
+#: $string['commentssettings']
+msgid "Comments Settings"
+msgstr "Ρυθμίσεις Σχολίων"
+
+#: $string['configureerror']
+msgid ""
+"You must configure this module fully as Administrator before using it within"
+" a course. Please contact your Moodle administrator."
+msgstr ""
+
+#: $string['connecttest']
+msgid "Run Connectivity Test"
+msgstr ""
+
+#: $string['connecttestcommerror']
+msgid "Could not connect to Turnitin. Double check your API URL setting."
+msgstr ""
+
+#: $string['connecttesterror']
+msgid ""
+"There was an error connecting to Turnitin the return error message is below:"
+"<br /><br /><i><b>{$a}</b></i>"
+msgstr ""
+
+#: $string['connecttesting']
+msgid "Running Connectivity Test"
+msgstr ""
+
+#: $string['connecttestsuccess']
+msgid "Moodle has successfully connected to Turnitin."
+msgstr ""
+
+#: $string['connecttimeouterror']
+msgid "Could not connect to Turnitin / connection timed out. Please try again."
+msgstr ""
+
+#: $string['copyassigndata']
+msgid "Copy Turnitin Assignment Data"
+msgstr ""
+
+#: $string['copyassigndataerror']
+msgid "Copy Turnitin Assignment Data Error"
+msgstr ""
+
+#: $string['copyrightagreement']
+msgid ""
+"By checking this box, I confirm that this submission is my own work and I ac"
+"cept all responsibility for any copyright infringement that may occur as a r"
+"esult of this submission."
+msgstr ""
+
+#: $string['correctingovergrade']
+msgid "Correcting Overgraded Paper"
+msgstr ""
+
+#: $string['coursegeterror']
+msgid "Could not get course data"
+msgstr ""
+
+#: $string['courseiderror']
+msgid "Course ID is incorrect"
+msgstr ""
+
+#: $string['created']
+msgid "Created"
+msgstr ""
+
+#: $string['dateformat']
+msgid "Date Format"
+msgstr ""
+
+#: $string['dateformat_help']
+msgid "Use this setting to set the date format used to display dates to users."
+msgstr ""
+
+#: $string['defaultdtdue']
+msgid "Default Due Date"
+msgstr ""
+
+#: $string['defaultdtpost']
+msgid "Default Post Date"
+msgstr ""
+
+#: $string['defaultdtstart']
+msgid "Default Start Date"
+msgstr ""
+
+#: $string['defaults']
+msgid "Default settings"
+msgstr ""
+
+#: $string['defaults_desc']
+msgid ""
+"The following settings will be the default settings used for new instances "
+"of the Moodle Direct Turnitin Assignment"
+msgstr ""
+
+#: $string['defaultsoverwrite']
+msgid "Overwrite Dates"
+msgstr ""
+
+#: $string['defaultsoverwrite_help']
+msgid ""
+"This setting will be displayed when updating an assignment. Selecting yes he"
+"re will reset the assignment start date, due date and post date for all assi"
+"gnment parts to be the same as the values you enter in the default date sett"
+"ings."
+msgstr ""
+
+#: $string['deletable']
+msgid "Deletable"
+msgstr ""
+
+#: $string['delete']
+msgid "Delete"
+msgstr ""
+
+#: $string['deletecomment']
+msgid "Delete Comment"
+msgstr "Διαγραφή Σχολίου"
+
+#: $string['deletecommentconfirm']
+msgid ""
+"Are you sure you want to delete this comment?\\n\\nThis can not be undone."
+msgstr ""
+
+#: $string['deleteconfirm']
+msgid ""
+"Are you sure you want to delete this submission?\\n\\nThis action cannot be un"
+"done."
+msgstr ""
+
+#: $string['deleteerror']
+msgid "Deletion Error"
+msgstr ""
+
+#: $string['deletesubmission']
+msgid "Delete Submission"
+msgstr ""
+
+#: $string['delete_turnitintool']
+msgid "Delete Turnitin assignment"
+msgstr ""
+
+#: $string['deletingsubmission']
+msgid "Deleting Turnitin Submission"
+msgstr ""
+
+#: $string['displaygradesas']
+msgid "Grade Display"
+msgstr ""
+
+#: $string['displaygradesasfraction']
+msgid "Show grades as Fraction (e.g. 89/100)"
+msgstr ""
+
+#: $string['displaygradesas_help']
+msgid ""
+"This option sets the display mode for grades the options are display as a pe"
+"rcentage or display as a fraction ie 45/60."
+msgstr ""
+
+#: $string['displaygradesaspercent']
+msgid "Show grades as Percentage (e.g. 89&#37;)"
+msgstr ""
+
+#: $string['dorequesterror']
+msgid "Could not process page request"
+msgstr ""
+
+#: $string['downloadexport']
+msgid "Export"
+msgstr "Εξαγωγή"
+
+#: $string['downloadgradexls']
+msgid "Grade Export (XLS)"
+msgstr ""
+
+#: $string['downloadingfile']
+msgid "Downloading File"
+msgstr ""
+
+#: $string['downloadingfileerror']
+msgid "Error Downloading File"
+msgstr ""
+
+#: $string['downloadorigzip']
+msgid "ZIP File (Original Format)"
+msgstr ""
+
+#: $string['downloadpdfzip']
+msgid "ZIP File (PDF)"
+msgstr ""
+
+#: $string['downloadsubmission']
+msgid "Download Submission"
+msgstr ""
+
+#: $string['dtdue']
+msgid "Due Date"
+msgstr ""
+
+#: $string['dtpost']
+msgid "Post Date"
+msgstr ""
+
+#: $string['dtstart']
+msgid "Start Date"
+msgstr ""
+
+#: $string['duplicatesfound']
+msgid ""
+"Duplicate copies of the same Turnitin assignments were found, duplicates "
+"occur when one or more Moodle Direct assignment is connected to the same one "
+"Turnitin assignment via the Turnitin API. This is known to cause issues, "
+"most notably submissions made to one of the duplicates will show up in the "
+"submission inbox of the others. To fix this you should either delete the "
+"duplicate assignments or reset the course where the duplicate assignments "
+"are.<br /><br />The following duplicates were found:"
+msgstr ""
+
+#: $string['edit']
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: $string['editcomment']
+msgid "Edit Comment"
+msgstr "Επεξεργασία Σχολίου"
+
+#: $string['edituntil']
+msgid "Post can be deleted or edited until"
+msgstr ""
+
+#: $string['editwindow']
+msgid "Editable For"
+msgstr ""
+
+#: $string['enablepseudo']
+msgid "Enable Student Privacy"
+msgstr "Ενεργοποίηση Ιδιωτικότητας Μαθητή"
+
+#: $string['enablepseudo_desc']
+msgid ""
+"If this option is selected student email addresses will be transformed into "
+"a pseudo equivalent for Turnitin API calls.<br /><i>(<b>Note:</b> This "
+"option can not be changed if any Moodle user data has already been synched "
+"with Turnitin)</i>"
+msgstr ""
+
+#: $string['erater']
+msgid "Enable e-rater grammar check"
+msgstr ""
+
+#: $string['erater_categories']
+msgid "e-rater Categories"
+msgstr ""
+
+#: $string['erater_dictionary']
+msgid "e-rater Dictionary"
+msgstr ""
+
+#: $string['erater_dictionary_en']
+msgid "Both US and UK English Dictionaries"
+msgstr ""
+
+#: $string['erater_dictionary_engb']
+msgid "UK English Dictionary"
+msgstr ""
+
+#: $string['erater_dictionary_enus']
+msgid "US English Dictionary"
+msgstr ""
+
+#: $string['erater_grammar']
+msgid "Grammar"
+msgstr ""
+
+#: $string['erater_handbook']
+msgid "ETS&copy Handbook"
+msgstr ""
+
+#: $string['erater_handbook_advanced']
+msgid "Advanced"
+msgstr ""
+
+#: $string['erater_handbook_elementary']
+msgid "Elementary School"
+msgstr ""
+
+#: $string['erater_handbook_highschool']
+msgid "High School"
+msgstr ""
+
+#: $string['erater_handbook_learners']
+msgid "English Learners"
+msgstr ""
+
+#: $string['erater_handbook_middleschool']
+msgid "Middle School"
+msgstr ""
+
+#: $string['erater_help']
+msgid ""
+"When this setting is enabled, submissions viewed within GradeMark will also "
+"contain feedback marks for grammar and other writing traits."
+msgstr ""
+
+#: $string['erater_mechanics']
+msgid "Mechanics"
+msgstr ""
+
+#: $string['erater_spelling']
+msgid "Spelling"
+msgstr ""
+
+#: $string['erater_style']
+msgid "Style"
+msgstr ""
+
+#: $string['erater_usage']
+msgid "Usage"
+msgstr ""
+
+#: $string['estimatingtime']
+msgid "Estimating Time Remaining"
+msgstr ""
+
+#: $string['excludebiblio']
+msgid "Exclude Bibliography"
+msgstr ""
+
+#: $string['excludebiblio_help']
+msgid ""
+"This setting allows the instructor to choose to exclude text appearing in "
+"the bibliography, works cited, or references sections of student papers from "
+"being checked for matches when generating Originality Reports. This setting "
+"can be overridden in individual Originality Reports."
+msgstr ""
+
+#: $string['excludepercent']
+msgid "Percent"
+msgstr ""
+
+#: $string['excludequoted']
+msgid "Exclude Quoted Material"
+msgstr ""
+
+#: $string['excludequoted_help']
+msgid ""
+"This setting allows the instructor to choose to exclude text appearing in "
+"the quotes from being checked for matches when generating Originality "
+"Reports. This setting can be overridden in individual Originality Reports."
+msgstr ""
+
+#: $string['excludevalue']
+msgid "Exclude Small Matches"
+msgstr ""
+
+#: $string['excludevalue_help']
+msgid ""
+"This setting allows the instructor to choose to exclude matches that are not "
+"of sufficient length (determined by the instructor) from being considered "
+"when generating Originality Reports. This setting can be overridden in "
+"individual Originality Reports."
+msgstr ""
+
+#: $string['excludewords']
+msgid "Words"
+msgstr ""
+
+#: $string['feedback']
+msgid "Comments"
+msgstr "Σχόλια"
+
+#: $string['file']
+msgid "File"
+msgstr ""
+
+#: $string['filebrowser']
+msgid "Moodle Direct File Browser"
+msgstr ""
+
+#: $string['filedeleteconfirm']
+msgid ""
+"Are you sure you want to delete this file? This action cannot be undone."
+msgstr ""
+
+#: $string['filename']
+msgid "Filename"
+msgstr ""
+
+#: $string['filenotfound']
+msgid ""
+"File for submission was not found on Moodle server, it may be corrupt or "
+"missing. This Turnitin submission attempt will be deleted."
+msgstr ""
+
+#: $string['files']
+msgid "Files"
+msgstr ""
+
+#: $string['filetosubmit']
+msgid "File to Submit"
+msgstr ""
+
+#: $string['filetosubmit_help']
+msgid ""
+"When submitting a file to an assignment part, browse your computer for the f"
+"ile to upload using this form element."
+msgstr ""
+
+#: $string['fileupload']
+msgid "File Upload"
+msgstr ""
+
+#: $string['fileuploaderror']
+msgid "File Upload Error"
+msgstr ""
+
+#: $string['filewriteerror']
+msgid "Could not write data to file"
+msgstr ""
+
+#: $string['genduedate']
+msgid "Generate reports on due date"
+msgstr ""
+
+#: $string['generalsettings']
+msgid "General Settings"
+msgstr ""
+
+#: $string['genimmediately1']
+msgid "Generate reports immediately, first report is final"
+msgstr ""
+
+#: $string['genimmediately2']
+msgid "Generate reports immediately, reports can be overwritten until due date"
+msgstr ""
+
+#: $string['genspeednote']
+msgid ""
+"Note: Originality Report generation for resubmissions is subject to a "
+"twenty-four hour delay."
+msgstr ""
+
+#: $string['goback']
+msgid "Go Back"
+msgstr "Επιστροφή"
+
+#: $string['gradessettings']
+msgid "Grading Settings"
+msgstr ""
+
+#: $string['hideall']
+msgid "Hide All"
+msgstr ""
+
+#: $string['hidesubmissions']
+msgid "Hide Submissions"
+msgstr ""
+
+#: $string['hours']
+msgid "Hours"
+msgstr ""
+
+#: $string['hrs']
+msgid "Hrs"
+msgstr ""
+
+#: $string['inactive']
+msgid "Inactive"
+msgstr ""
+
+#: $string['inserterror']
+msgid "Insert Error"
+msgstr ""
+
+#: $string['institutionalrepository']
+msgid "Institutional Repository (Where Applicable)"
+msgstr ""
+
+#: $string['instructor']
+msgid "Instructor"
+msgstr ""
+
+#: $string['internetcheck']
+msgid "Check against internet"
+msgstr ""
+
+#: $string['internetcheck_help']
+msgctxt "$string['internetcheck_help']"
+msgid ""
+"This setting allows the instructor to select which Turnitin repositories "
+"students\\&#39; submissions will be checked against when processing "
+"Originality Reports for papers. The similarity index percentage may decrease "
+"if a repository option is de-selected."
+msgstr ""
+
+#: $string['joiningclass']
+msgid "Joining Turnitin Class {$a}"
+msgstr ""
+
+#: $string['journalcheck']
+msgid "Check against journals,<br />periodicals and publications"
+msgstr ""
+
+#: $string['journalcheck_help']
+msgctxt "$string['journalcheck_help']"
+msgid ""
+"This setting allows the instructor to select which Turnitin repositories "
+"students\\&#39; submissions will be checked against when processing "
+"Originality Reports for papers. The similarity index percentage may decrease "
+"if a repository option is de-selected."
+msgstr ""
+
+#: $string['list_turnitintool']
+msgid "List Turnitin assignments"
+msgstr ""
+
+#: $string['marks']
+msgid "Marks"
+msgstr ""
+
+#: $string['matches']
+msgid "Matches"
+msgstr ""
+
+#: $string['maxcommenterror']
+msgid ""
+"This comment is too long ({$a->actual} characters). Maximum characters "
+"allowed {$a->allowed}."
+msgstr ""
+
+#: $string['maxcommentjserror']
+msgid "This comment is too long. Maximum characters allowed {$a}."
+msgstr ""
+
+#: $string['maxcommentsize']
+msgid "Maximum Comment Length"
+msgstr ""
+
+#: $string['maxcommentsize_help']
+msgid ""
+"This option sets the maximum number of characters allowed in a comment. The "
+"default setting for this option is 800 characters."
+msgstr ""
+
+#: $string['maxfilesize']
+msgid "Maximum File Size"
+msgstr ""
+
+#: $string['maxfilesize_help']
+msgid ""
+"This setting determines the maximum file size for user submissions to each a"
+"ssignment part. The maximum value you can set this value to is dictated by t"
+"he value set in course settings, this value is further capped to a maximum f"
+"ile size of 40Mb which is the maximum allowed filesize for file uploads to T"
+"urnitin."
+msgstr ""
+
+#: $string['maxlength']
+msgid "The maximum length for {$a->field} is {$a->length} characters"
+msgstr ""
+
+#: $string['maxmarks']
+msgid "Max Marks"
+msgstr ""
+
+#: $string['mins']
+msgid "Mins"
+msgstr ""
+
+#: $string['minutes']
+msgid "Minutes"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Turnitin Assignment"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"Creates a Turnitin Moodle Direct assignment which links an activity in "
+"Moodle to an assignment / assignments on Turnitin. Once linked, the activity "
+"allows instructors to assess and provide feedback for student&#39;s written "
+"work using the assessment tools available within Turnitin&#39;s Document "
+"Viewer."
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Turnitin Assignments"
+msgstr ""
+
+#: $string['moduleversion']
+msgid "Version"
+msgstr ""
+
+#: $string['moodle2only']
+msgid "This feature is supported by Moodle 2+ only."
+msgstr ""
+
+#: $string['moreallowed']
+msgid "More Allowed"
+msgstr ""
+
+#: $string['mysubmissions']
+msgid "My Submissions"
+msgstr ""
+
+#: $string['namedparts']
+msgid "Named Parts"
+msgstr ""
+
+#: $string['no']
+msgid "No"
+msgstr ""
+
+#: $string['nocommenterror']
+msgid "You must enter a comment"
+msgstr ""
+
+#: $string['nocomments']
+msgid "There are no comments for this submission"
+msgstr ""
+
+#: $string['noenrolledstudents']
+msgid "There are currently no students enrolled in this course"
+msgstr ""
+
+#: $string['nogrademark']
+msgid "No, use Moodle to grade submissions"
+msgstr ""
+
+#: $string['nogrades']
+msgid "No, I will refresh originality scores and grades manually"
+msgstr ""
+
+#: $string['nolimit']
+msgid "No Limit"
+msgstr ""
+
+#: $string['nonmoodlestudents']
+msgid "Non Moodle Students"
+msgstr ""
+
+#: $string['nonmoodleuser']
+msgid "Non Moodle User"
+msgstr ""
+
+#: $string['nonorsubmission']
+msgid "Non OR Submission"
+msgstr ""
+
+#: $string['norepository']
+msgid "No Repository"
+msgstr ""
+
+#: $string['nosubmission']
+msgid "No Submission"
+msgstr ""
+
+#: $string['nosubmissions']
+msgid "No submissions have been made"
+msgstr ""
+
+#: $string['nosubmissionsdue']
+msgid ""
+"There are no active parts to this assignment i.e. due dates have passed or s"
+"tart dates have not been met."
+msgstr ""
+
+#: $string['notavailableyet']
+msgid "Not available"
+msgstr ""
+
+#: $string['notes']
+msgid "Comments and Feedback"
+msgstr ""
+
+#: $string['notyetsubmitted']
+msgid "Not Yet Submitted"
+msgstr ""
+
+#: $string['numberofparts']
+msgid "Number of Parts"
+msgstr ""
+
+#: $string['numberofparts_help']
+msgid ""
+"Allows for the creation of a multi part assignment, individual users may sub"
+"mit one piece of work to each part."
+msgstr ""
+
+#: $string['objectid']
+msgid "Paper ID"
+msgstr ""
+
+#: $string['of']
+msgid "of"
+msgstr ""
+
+#: $string['oneclasspercourse']
+msgid ""
+"There was an error linking your Turnitin Class. You can have only one Turnit"
+"in Class associated with one Moodle Course, and no two Moodle courses may li"
+"nk to the same Turnitin Class."
+msgstr ""
+
+#: $string['onepartdeleteerror']
+msgid "You can not delete the only part of an assignment"
+msgstr ""
+
+#: $string['options']
+msgid "Options"
+msgstr ""
+
+#: $string['optionsupdateerror']
+msgid "Could not update options data"
+msgstr ""
+
+#: $string['optionsupdatesaved']
+msgid "Successfully updated options data"
+msgstr ""
+
+#: $string['overallgrade']
+msgid "Overall Grade"
+msgstr ""
+
+#: $string['overallgrade_help']
+msgid ""
+"The overall grade determines the maximum allowed grade for the overall assig"
+"nment, each part of an assignment has a maximum mark allocated which is used"
+" to proportionally distribute the grades in order to determine the overall g"
+"rade."
+msgstr ""
+
+#: $string['partdberror']
+msgid "There was a problem entering Part {$a} into the database<br />"
+msgstr ""
+
+#: $string['partdeleteerror']
+msgid "Could not delete assignment part data"
+msgstr ""
+
+#: $string['partdeletewarning']
+msgid ""
+"The assignment part you are trying to delete contains submissions. You will "
+"lose these submissions if you delete this assignment part.\\n\\nAre you sure y"
+"ou want to continue?"
+msgstr ""
+
+#: $string['partdueerror']
+msgid "Start date must be before post date.<br />"
+msgstr ""
+
+#: $string['parterror']
+msgid "There were errors with your entries:<br /><br />"
+msgstr ""
+
+#: $string['partgeterror']
+msgid "Could not get assignment part data"
+msgstr ""
+
+#: $string['partmarkserror']
+msgid "Marks must be a number.<br />"
+msgstr ""
+
+#: $string['partname']
+msgid "Assignment Part"
+msgstr ""
+
+#: $string['partnameerror']
+msgid "Part name can not left blank.<br />"
+msgstr ""
+
+#: $string['partnames']
+msgid "Assignment Parts"
+msgstr ""
+
+#: $string['partnames_help']
+msgid ""
+"<p>Determines whether the Parts of this assignment are Named Parts or this a"
+"ssignment is a Portfolio assignment.</p>"
+msgstr ""
+
+#: $string['partnaming']
+msgid "Part Names"
+msgstr ""
+
+#: $string['partstarterror']
+msgid "Start date must be before due date.<br />"
+msgstr ""
+
+#: $string['partweighterror']
+msgid "Part {$a} weight can not be blank<br />"
+msgstr ""
+
+#: $string['pending']
+msgid "Pending"
+msgstr ""
+
+#: $string['permissiondeniederror']
+msgid "You do not have the correct permission to complete the requested action"
+msgstr ""
+
+#: $string['pleasenote']
+msgid "Please Note"
+msgstr ""
+
+#: $string['pluginadministration']
+msgctxt "$string['pluginadministration']"
+msgid "Turnitin Assignment Administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Turnitin Assignment"
+msgstr ""
+
+#: $string['portfolio']
+msgid "Portfolio"
+msgstr ""
+
+#: $string['posted']
+msgid "Submitted"
+msgstr ""
+
+#: $string['previewtextsubmission']
+msgid "Preview text Submission"
+msgstr ""
+
+#: $string['previewwebpage']
+msgid "Preview Web Page"
+msgstr ""
+
+#: $string['processed']
+msgid "Assignment Processed"
+msgstr ""
+
+#: $string['proxypassword']
+msgid "Proxy Password"
+msgstr ""
+
+#: $string['proxypassword_desc']
+msgid ""
+"<b>[Optional]</b><br />If your proxy requires Authentication enter the "
+"password here."
+msgstr ""
+
+#: $string['proxyport']
+msgid "Proxy Port"
+msgstr ""
+
+#: $string['proxyport_desc']
+msgid ""
+"<b>[Optional]</b><br />If your server uses a Proxy to connect to the "
+"internet enter the proxy port here."
+msgstr ""
+
+#: $string['proxyurl']
+msgid "Proxy URL"
+msgstr ""
+
+#: $string['proxyurl_desc']
+msgid ""
+"<b>[Optional]</b><br />If your server uses a Proxy to connect to the "
+"internet enter the proxy address here."
+msgstr ""
+
+#: $string['proxyuser']
+msgid "Proxy Username"
+msgstr ""
+
+#: $string['proxyuser_desc']
+msgid ""
+"<b>[Optional]</b><br />If your proxy requires Authentication enter the "
+"username here."
+msgstr ""
+
+#: $string['pseudoemailaddress']
+msgid "Pseudo Email Address"
+msgstr ""
+
+#: $string['pseudoemaildomain']
+msgid "Pseudo Email Domain"
+msgstr ""
+
+#: $string['pseudoemaildomain_desc']
+msgid ""
+"<b>[Optional]</b><br />An optional domain for pseudo email addresses. "
+"(Defaults to @tiimoodle.com if left empty)"
+msgstr ""
+
+#: $string['pseudoemailsalt']
+msgid "Pseudo Encryption Salt"
+msgstr ""
+
+#: $string['pseudoemailsalt_desc']
+msgid ""
+"<b>[Optional]</b><br />An optional salt to increase the complexity of the "
+"generated Pseudo Student email address.<br />(<b>Note:</b> The salt should "
+"remain unchanged in order to maintain consistent pseudo email addresses)"
+msgstr ""
+
+#: $string['pseudofirstname']
+msgid "Student Pseudo First Name"
+msgstr ""
+
+#: $string['pseudofirstname_desc']
+msgid ""
+"<b>[Optional]</b><br />The student first name to display in the Turnitin "
+"document viewer"
+msgstr ""
+
+#: $string['pseudolastname']
+msgid "Student Pseudo Last Name"
+msgstr ""
+
+#: $string['pseudolastname_desc']
+msgid "The student last name to display in the Turnitin document viewer"
+msgstr ""
+
+#: $string['pseudolastnamegen']
+msgid "Auto Generate Lastname"
+msgstr ""
+
+#: $string['pseudolastnamegen_desc']
+msgid ""
+"If set to yes and the pseudo lastname is set to a user profile field, "
+"thenthe field will be automatically populated with a unique identifier."
+msgstr ""
+
+#: $string['pushinggrade']
+msgid "Uploading Grade {$a->num} of {$a->total} to Turnitin}"
+msgstr ""
+
+#: $string['redirect']
+msgid "If you are not automatically redirected please click here."
+msgstr ""
+
+#: $string['reducepartserror']
+msgid ""
+"You can not reduce the number of submissions allowed if there has already "
+"been submisions made. Please remove the Assignment Part using the assignment "
+"summary page. Please note that you can not modify the number of submissions "
+"allowed in a Portfolio Assignment without deleting all submissions first."
+msgstr ""
+
+#: $string['refresh']
+msgid "Refresh"
+msgstr ""
+
+#: $string['refreshmatches']
+msgid "Refresh Matches"
+msgstr ""
+
+#: $string['relinkusers']
+msgid "Relink Users"
+msgstr ""
+
+#: $string['remaining']
+msgid "About {$a} Remaining"
+msgstr ""
+
+#: $string['removecoursedata']
+msgid "Remove Turnitin Course Data"
+msgstr ""
+
+#: $string['removesubmissiondata']
+msgid "Remove Turnitin Submission Data"
+msgstr ""
+
+#: $string['removeturnitinassign']
+msgid "Delete Assignment Data from Turnitin"
+msgstr ""
+
+#: $string['replaceassigndata']
+msgid "Replace Turnitin Assignment Data"
+msgstr ""
+
+#: $string['replaceassigndataerror']
+msgid "Replace Turnitin Assignment Data Error"
+msgstr ""
+
+#: $string['reportgenspeed']
+msgid "Report Generation Speed"
+msgstr ""
+
+#: $string['reportgenspeed_help']
+msgid ""
+"There are three options for this assignment setting: &#34;Generate reports "
+"immediately (resubmissions are not allowed)&#34;, &#34;Generate reports "
+"immediately (resubmissions are allowed until due date)&#34;, and "
+"&#34;Generate reports on due date (resubmissions are allowed until due "
+"date)&#34;.<br><br>The option &#34;immediately first report is final&#34; "
+"generates the Originality Report immediately when a student makes a "
+"submission. With this option selected your students will not be able to "
+"resubmit to the assignment.<br><br>To allow resubmissions, select "
+"&#34;immediately (can overwrite reports until due date)&#34; option. This "
+"allows students to continuously resubmit papers to the assignment until the "
+"due date. It may take up to 24 hours to process Originality Reports for "
+"resubmissions.<br><br>The option &#34;on due date&#34; will only generate an "
+"Originality Report on the assignment\\&#39;s due date. This setting will "
+"make it so all papers submitted to the assignment will be compared against "
+"each other when the Originality Reports are created."
+msgstr ""
+
+#: $string['resubmission']
+msgid "Resubmission"
+msgstr ""
+
+#: $string['resubmissiongradewarn']
+msgid ""
+"Resubmissions are allowed for this assignment until the due date passes. Any "
+"and all marks will be deleted when or if the paper is resubmitted. Would "
+"you like to continue?"
+msgstr ""
+
+#: $string['resubmissionnotenabled']
+msgid "Resubmissions Not Enabled"
+msgstr "Επανυποβολές Απενεργοποιημένες"
+
+#: $string['resubmit']
+msgid "Resubmit"
+msgstr ""
+
+#: $string['resultsperpage']
+msgid "Results Per Page"
+msgstr ""
+
+#: $string['resultsperpage_help']
+msgid "Sets the number of results to display in the Submission Inbox."
+msgstr ""
+
+#: $string['reveal']
+msgid "Reveal"
+msgstr ""
+
+#: $string['revealerror']
+msgid "You must include a valid reason for unmasking a students name."
+msgstr ""
+
+#: $string['revealreason']
+msgid "Reason for Unmasking"
+msgstr ""
+
+#: $string['savechanges']
+msgid "Save Changes"
+msgstr ""
+
+#: $string['saveusage']
+msgid "Save Data Dump"
+msgstr ""
+
+#: $string['scorenotavailable']
+msgid "Originality score is not yet available."
+msgstr ""
+
+#: $string['secs']
+msgid "Secs"
+msgstr ""
+
+#: $string['selectoption']
+msgid "Select Option"
+msgstr ""
+
+#: $string['semptytable']
+msgid "No results found."
+msgstr ""
+
+#: $string['showall']
+msgid "Show All"
+msgstr ""
+
+#: $string['shownonsubmissions']
+msgid "List all students"
+msgstr ""
+
+#: $string['showonlysubmissions']
+msgid "List only students that have made submissions"
+msgstr ""
+
+#: $string['showusage']
+msgid "Show Data Dump"
+msgstr ""
+
+#: $string['sinfo']
+msgid "Showing {$a->start} to {$a->end} of {$a->total} entries."
+msgstr ""
+
+#: $string['slengthmenu']
+msgid "Show {$a} Entries"
+msgstr ""
+
+#: $string['snext']
+msgid "Next"
+msgstr ""
+
+#: $string['spapercheck']
+msgid "Check against stored student papers"
+msgstr ""
+
+#: $string['spapercheck_help']
+msgctxt "$string['spapercheck_help']"
+msgid ""
+"This setting allows the instructor to select which Turnitin repositories "
+"students\\&#39; submissions will be checked against when processing "
+"Originality Reports for papers. The similarity index percentage may decrease "
+"if a repository option is de-selected."
+msgstr ""
+
+#: $string['sprevious']
+msgid "Previous"
+msgstr ""
+
+#: $string['sprocessing']
+msgid "Processing..."
+msgstr ""
+
+#: $string['ssearch']
+msgid "Search:"
+msgstr "Αναζήτηση:"
+
+#: $string['stage']
+msgid "Stage"
+msgstr ""
+
+#: $string['standardrepository']
+msgid "Standard Repository"
+msgstr ""
+
+#: $string['status']
+msgid "Status"
+msgstr ""
+
+#: $string['string']
+msgid "{$a}"
+msgstr ""
+
+#: $string['student']
+msgid "Student"
+msgstr ""
+
+#: $string['studentdataprivacy']
+msgid "Student Data Privacy Settings"
+msgstr "Ρυθμίσεις Ιδιωτικότητας Δεδομένων Μαθητή"
+
+#: $string['studentdataprivacy_desc']
+msgid ""
+"The following settings can be configured to ensure that student&#39;s "
+"personal data is not transmitted to Turnitin via the API."
+msgstr ""
+
+#: $string['studentdeleteconfirm']
+msgid ""
+"Deleting this paper will allow you to make a new submission in its "
+"place.\\nYou will not be able to retrieve your submission once it has been "
+"deleted.\\n\\nAre you sure you want to delete this assignment?"
+msgstr ""
+
+#: $string['studentnotallowed']
+msgid ""
+"<b>Note:</b> Students are not able to view originality reports for this "
+"assignment."
+msgstr ""
+
+#: $string['student_notread']
+msgid "The student has not viewed this paper."
+msgstr ""
+
+#: $string['student_read']
+msgid "The student viewed the paper on:"
+msgstr ""
+
+#: $string['studentreports']
+msgid "Student Originality Reports"
+msgstr ""
+
+#: $string['studentreports_help']
+msgid ""
+"Allows you to display Turnitin originality reports to student users. If set "
+"to yes the originality report generated by Turnitin are available for the "
+"student to view."
+msgstr ""
+
+#: $string['studentsname']
+msgid "Students Name"
+msgstr ""
+
+#: $string['studentsname_help']
+msgid ""
+"When making a submission on behalf of a user you should use this selection "
+"box to choose the name of the user the work is to be submitted for."
+msgstr ""
+
+#: $string['studentstatus']
+msgid "Submitted {$a->modified} (Paper ID: {$a->objectid})"
+msgstr ""
+
+#: $string['submission']
+msgid "Submission"
+msgstr ""
+
+#: $string['submissionagreementerror']
+msgid "You must accept the agreement for this submission"
+msgstr ""
+
+#: $string['submissionconnecterror']
+msgid "There was an error connecting to Turnitin. Submission has been queued."
+msgstr ""
+
+#: $string['submissiondelete']
+msgid "Delete&#39;;"
+msgstr ""
+
+#: $string['submissiondeleteerror']
+msgid "Could not delete submissions"
+msgstr ""
+
+#: $string['submissionfileerror']
+msgid "You must attach a file for submission"
+msgstr ""
+
+#: $string['submissionfiletypeerror']
+msgid "File type not allowed. Allowed types are ({$a})"
+msgstr ""
+
+#: $string['submissionfinalgrade']
+msgid "Final grade for this assignment"
+msgstr ""
+
+#: $string['submissionframeseterror']
+msgid "This page appears to contain frames, and can not be submitted."
+msgstr ""
+
+#: $string['submissiongeterror']
+msgid "Could not get submission data"
+msgstr ""
+
+#: $string['submissiongrade']
+msgid "Grade"
+msgstr ""
+
+#: $string['submissiongradetoohigh']
+msgid ""
+"Grade you entered for &#39;{$a->fullname}&#39; - &#39;{$a->part}&#39; was "
+"too high. Maximum is {$a->maximum}.<br />"
+msgstr ""
+
+#: $string['submissioniframeerror']
+msgid "This page appears to contain iframes, and can not be submitted."
+msgstr ""
+
+#: $string['submissionlist']
+msgid "Submission List"
+msgstr ""
+
+#: $string['submissionlist_help']
+msgid ""
+"This option will allow you to list all enrolled users regardless of whether "
+"they have made a submission."
+msgstr ""
+
+#: $string['submissionnotyetuploaded']
+msgid "Not Yet Submitted to Turnitin"
+msgstr ""
+
+#: $string['submissionorig']
+msgid "Similarity"
+msgstr ""
+
+#: $string['submissionpart']
+msgid "Submission Part"
+msgstr ""
+
+#: $string['submissionpart_help']
+msgid ""
+"Select the part of the Turnitin Assignment that this submission is to be "
+"made to."
+msgstr ""
+
+#: $string['submissionprotocolerror']
+msgid ""
+"You must include the http:// or https:// part of the URL for this web page "
+"submission"
+msgstr ""
+
+#: $string['submissions']
+msgid "Submissions"
+msgstr ""
+
+#: $string['submissionstudent']
+msgid "Student Submission"
+msgstr ""
+
+#: $string['submissiontexterror']
+msgid "You must include the text for this submission"
+msgstr ""
+
+#: $string['submissiontitle']
+msgid "Submission Title"
+msgstr ""
+
+#: $string['submissiontitleduplicate']
+msgid "You must enter a different title for each submission"
+msgstr ""
+
+#: $string['submissiontitleerror']
+msgid "You must include a title for this submission"
+msgstr ""
+
+#: $string['submissiontitle_help']
+msgid "Enter the submission title for the piece of work you are submitting."
+msgstr ""
+
+#: $string['submissiontype']
+msgctxt "$string['submissiontype']"
+msgid "Submission Type"
+msgstr ""
+
+#: $string['submissiontype_help']
+msgid ""
+"<p>Indicates the submission type(s) you are allowed to submit to Turnitin. "
+"The options are:</p>"
+msgstr ""
+
+#: $string['submissionupdateerror']
+msgid "Could not update submission data"
+msgstr ""
+
+#: $string['submissionuploadsuccess']
+msgid "Submission successfully uploaded to Turnitin."
+msgstr ""
+
+#: $string['submissionurlerror']
+msgid "You must include the URL for this web page submission"
+msgstr ""
+
+#: $string['submit']
+msgid "Add Submission"
+msgstr ""
+
+#: $string['submitpaper']
+msgid "Submit Paper"
+msgstr ""
+
+#: $string['submitpapersto']
+msgid "Store Student Papers"
+msgstr ""
+
+#: $string['submitpapersto_help']
+msgid ""
+"This setting provides instructors with the ability to select whether papers "
+"are stored in a Turnitin student paper repository. The benefit of submitting "
+"papers to the student paper repository is that student papers submitted to "
+"the assignment are checked against other students\\&#39; submissions within "
+"your current and previous classes. If you select &#34;no repository&#34;, "
+"your students\\&#39; papers will not be stored in the Turnitin student paper "
+"repository."
+msgstr ""
+
+#: $string['submitted']
+msgid "Modified"
+msgstr ""
+
+#: $string['submittedmax']
+msgid "You have made the maximum number of allowed submissions."
+msgstr ""
+
+#: $string['submittoturnitin']
+msgid "Submit to Turnitin"
+msgstr ""
+
+#: $string['synchallconfirm']
+msgid ""
+"&#34;You are about to synchronise all submissions for this set of assignment "
+"parts with the submissions stored on Turnitin, this will pull down any "
+"submissions that were not submitted using Moodle. For large numbers of "
+"students with a large multipart assignment this can take a long time. Please "
+"do not stop the process once started.\\n\\nAre you sure you wish to proceed?"
+msgstr ""
+
+#: $string['synchallsubmissions']
+msgid "Retrieve All Student Data from Turnitin"
+msgstr ""
+
+#: $string['synchassignments']
+msgid "Retrieve Assignment Data from Turnitin"
+msgstr ""
+
+#: $string['synchronisingturnitin']
+msgid "Synchronising Turnitin Data"
+msgstr ""
+
+#: $string['synchstudentsubmissions']
+msgid "Retrieve Student Submissions from Turnitin"
+msgstr ""
+
+#: $string['synchyoursubmissions']
+msgid "Submitted to Turnitin? Click here to retrieve."
+msgstr ""
+
+#: $string['szerorecords']
+msgid "No records to display."
+msgstr ""
+
+#: $string['textsubmission']
+msgid "Text Submission"
+msgstr ""
+
+#: $string['texttosubmit']
+msgid "Text to Submit"
+msgstr ""
+
+#: $string['texttosubmit_help']
+msgid "Copy and paste the text of your submission into this box."
+msgstr ""
+
+#: $string['title']
+msgid "Title"
+msgstr ""
+
+#: $string['transmatch']
+msgid "Translated Matching"
+msgstr ""
+
+#: $string['transmatch_desc']
+msgid ""
+"Determines whether Translated Matching will be available as a setting on the "
+"assignment set up screen.<br /><i>(Enable this option only if Translated "
+"Matching is enabled on your Turnitin account)</i>"
+msgstr ""
+
+#: $string['transmatch_help']
+msgid ""
+"When Translated Matching is enabled Turnitin will generate a separate "
+"Originality Report based on English translations of students\\&#39; non-"
+"English language submissions. The following languages are supported for "
+"Translated Matching:<br><br>Czech, Danish, Dutch, Finnish, French, German, "
+"Greek, Hungarian, Italian, Polish, Portuguese, Romanian, Spanish, Swedish "
+"and Turkish."
+msgstr ""
+
+#: $string['turnitinaccountid']
+msgid "Turnitin Account ID"
+msgstr ""
+
+#: $string['turnitinaccountid_desc']
+msgid "<b>[Required]</b><br />Enter your Turnitin Primary Account ID"
+msgstr ""
+
+#: $string['turnitinanon']
+msgid "Anonymous Marking"
+msgstr ""
+
+#: $string['turnitinanon_help']
+msgid ""
+"You can configure your Turnitin assignment to use Anonymous Marking by "
+"setting this value to Yes. Once anonymous marking has been enabled on an "
+"assignment it can not be disabled."
+msgstr ""
+
+#: $string['turnitinapiurl']
+msgid "Turnitin API URL"
+msgstr ""
+
+#: $string['turnitinapiurl_desc']
+msgid ""
+"<b>[Required]</b><br />Enter the Turnitin API URL<br /><i>(e.g. "
+"https://api.turnitin.com/api.asp)<br />(e.g. "
+"https://api.turnitinuk.com/api.asp)</i>"
+msgstr ""
+
+#: $string['turnitincommunicationerror']
+msgid ""
+"There was an error communicating with the Turnitin server please try again "
+"later."
+msgstr ""
+
+#: $string['turnitindeleteconfirm']
+msgid ""
+"Deleting papers removes them from your submissions list and inbox but does "
+"not completely\\nremove them from the Turnitin database.\\n\\nAre you sure you "
+"want to delete this submission? This action cannot be undone."
+msgstr ""
+
+#: $string['turnitindeletionerror']
+msgid ""
+"Turnitin submission deletion failed. The local VLE copy was removed but the "
+"submission in Turnitin could not be deleted."
+msgstr ""
+
+#: $string['turnitindiagnostic']
+msgid "Enable Diagnostic Mode"
+msgstr ""
+
+#: $string['turnitindiagnostic_desc']
+msgid ""
+"<b>[Caution]</b><br />Enable Diagnostic mode only to track down problems "
+"with the Turnitin API."
+msgstr ""
+
+#: $string['turnitinenrollstudents']
+msgid "Enroll All Students"
+msgstr ""
+
+#: $string['turnitinid']
+msgid "Turnitin ID"
+msgstr ""
+
+#: $string['turnitinloading']
+msgid "Synchronising Data"
+msgstr ""
+
+#: $string['turnitinpart']
+msgid "Part {$a}"
+msgstr ""
+
+#: $string['turnitinpartname']
+msgid "Part Name"
+msgstr ""
+
+#: $string['turnitinreceiptemail']
+msgid "Receipt Emails"
+msgstr ""
+
+#: $string['turnitinreceiptemail_desc']
+msgid ""
+"Sets whether students should receive digital receipt emails when they submit "
+"work to Turnitin via the VLE."
+msgstr ""
+
+#: $string['turnitinrefreshsubmissions']
+msgid "Refresh Submissions"
+msgstr ""
+
+#: $string['turnitinsecretkey']
+msgid "Turnitin Shared Key"
+msgstr ""
+
+#: $string['turnitinsecretkey_desc']
+msgid ""
+"<b>[Required]</b><br />Enter your Turnitin Shared Key<br /><i>(Set by your "
+"Turnitin Administrator)</i>"
+msgstr ""
+
+#: $string['turnitinstudentemail']
+msgid "Student Emails"
+msgstr ""
+
+#: $string['turnitinstudentemail_desc']
+msgid ""
+"Sets whether students should receive emails with account details when a new "
+"Turnitin account is set up for them by the VLE."
+msgstr ""
+
+#: $string['turnitinsubaccountid']
+msgid "Turnitin Sub Account ID"
+msgstr ""
+
+#: $string['turnitinsubaccountid_desc']
+msgid ""
+"<b>[Optional]</b><br />Enter your Turnitin Sub Account ID<br /><i>(Only use "
+"this if configuring for a Sub Account)</i>"
+msgstr ""
+
+#: $string['turnitintool']
+msgid "Turnitin Tool"
+msgstr ""
+
+#: $string['turnitintool:addinstance']
+msgid "Add Turnitin Tool Activity"
+msgstr ""
+
+#: $string['turnitintool:admin']
+msgid "Administer Turnitin Tool"
+msgstr ""
+
+#: $string['turnitintooladministration']
+msgctxt "$string['turnitintooladministration']"
+msgid "Turnitin Assignment Administration"
+msgstr ""
+
+#: $string['turnitintoolagreement']
+msgid "Disclaimer / Agreement"
+msgstr ""
+
+#: $string['turnitintoolagreement_default']
+msgid ""
+"By checking this box, I confirm that this submission is my own work and I "
+"accept all responsibility for any copyright infringement that may occur as a "
+"result of this submission."
+msgstr ""
+
+#: $string['turnitintoolagreement_desc']
+msgid ""
+"<b>[Optional]</b><br />Enter an agreement confirmation statement for "
+"submissions.<br />(<b>Note:</b> If the agreement is left completely blank "
+"then no agreement confirmation will be required by students during "
+"submission)"
+msgstr ""
+
+#: $string['turnitintooldeleteerror']
+msgid "Could not delete turnitintool data"
+msgstr ""
+
+#: $string['turnitintoolgeterror']
+msgid "Could not get turnitintool data"
+msgstr ""
+
+#: $string['turnitintool:grade']
+msgid "Grade Turnitin Tool Assignments"
+msgstr ""
+
+#: $string['turnitintoolintro']
+msgid "Summary"
+msgstr "Σύνοψη"
+
+#: $string['turnitintoolname']
+msgid "Turnitin Assignment Name"
+msgstr ""
+
+#: $string['turnitintoolowner']
+msgid "Turnitin Class Owner"
+msgstr ""
+
+#: $string['turnitintoolowner_help']
+msgid ""
+"Indicates the &#39;owner&#39; or creator of the Turnitin class. All "
+"assignments and submissions will be added to this &#39;owners&#39; Turnitin "
+"account."
+msgstr ""
+
+#: $string['turnitintoolresetdata0']
+msgid ""
+"Copy Turnitin Assignments <i>(Create Duplicates, New Turnitin Class)</i>"
+msgstr ""
+
+#: $string['turnitintoolresetdata1']
+msgid ""
+"Replace Turnitin Assignments <i>(Replace Assignment Parts, Reuse Turnitin "
+"Class)</i>"
+msgstr ""
+
+#: $string['turnitintoolresetdata2']
+msgid "Leave Turnitin Assignments Untouched"
+msgstr ""
+
+#: $string['turnitintoolresetinfo']
+msgid "Choose an option below for the Turnitin Assignments in this course:"
+msgstr ""
+
+#: $string['turnitintool:submit']
+msgid "Submit to Turnitin Tool Assignments"
+msgstr ""
+
+#: $string['turnitintoolupdateerror']
+msgid "Could not update turnitintool data"
+msgstr ""
+
+#: $string['turnitintool:view']
+msgid "View Turnitin Tool Assignments"
+msgstr ""
+
+#: $string['turnitintutoremail']
+msgid "Instructor Emails"
+msgstr ""
+
+#: $string['turnitintutoremail_desc']
+msgid ""
+"Sets whether instructors should receive emails with account details when a "
+"new Turnitin account is set up for them by the VLE."
+msgstr ""
+
+#: $string['turnitintutors']
+msgid "Turnitin Tutors"
+msgstr ""
+
+#: $string['turnitintutorsadd']
+msgid "Add Turnitin Tutor"
+msgstr ""
+
+#: $string['turnitintutorsadding']
+msgid "Adding Turnitin Tutor"
+msgstr ""
+
+#: $string['turnitintutorsallenrolled']
+msgid "All Tutors are enrolled on Turnitin"
+msgstr ""
+
+#: $string['turnitintutors_desc']
+msgid ""
+"The selected Tutors below are enrolled as tutors on this Turnitin Class. "
+"Enrolled tutors can gain access to this class by logging in to the Turnitin "
+"web site."
+msgstr ""
+
+#: $string['turnitintutorsremove']
+msgid "Remove Turnitin Tutors"
+msgstr ""
+
+#: $string['turnitintutorsremove_errorlast']
+msgid ""
+"Error: You must have at least one tutor enrolled on the course in Turnitin"
+msgstr ""
+
+#: $string['turnitintutorsremoving']
+msgid "Removing Turnitin Tutors"
+msgstr ""
+
+#: $string['turnitintutorsretrieving']
+msgid "Retrieving Turnitin Tutors"
+msgstr ""
+
+#: $string['turnitinuseanon']
+msgid "Use Anonymous Marking"
+msgstr ""
+
+#: $string['turnitinuseanon_desc']
+msgid ""
+"Choose whether to allow Anonymous Marking when grading submissions.<br "
+"/><i>(This is only available to those that have Anonymous Marking configured "
+"for their account)</i>"
+msgstr ""
+
+#: $string['turnitinuseerater']
+msgid "Enable ETS&copy;"
+msgstr ""
+
+#: $string['turnitinuseerater_desc']
+msgid ""
+"Choose whether to enable ETS&copy; grammar checking.<br /><i>(Enable this "
+"option only if ETS&copy; e-rater is enabled on your Turnitin account)</i>"
+msgstr ""
+
+#: $string['turnitinusegrademark']
+msgid "Use GradeMark"
+msgstr ""
+
+#: $string['turnitinusegrademark_desc']
+msgid ""
+"Choose whether to use GradeMark to grade submissions or use Moodle.<br "
+"/><i>(This is only available to those that have GradeMark configured for "
+"their account)</i>"
+msgstr ""
+
+#: $string['turnitinusegrademark_help']
+msgid ""
+"Use this setting to choose whether to use Turnitin GradeMark to grade the "
+"submissions or use Moodle to grade submission."
+msgstr ""
+
+#: $string['turnitinuserepository']
+msgid "Enable Institutional Repository"
+msgstr ""
+
+#: $string['turnitinuserepository_desc']
+msgid ""
+"Choose whether to allow use of Institutional Repositories in Turnitin "
+"Assignments.<br /><i>(This is only available to those that have an "
+"Institutional Repository enabled for their account)</i>"
+msgstr ""
+
+#: $string['turnitinuserepository_help']
+msgid ""
+"Use this setting to enable the Institutional Repository option in the "
+"assignment set up screen."
+msgstr ""
+
+#: $string['tutorgeterror']
+msgid "Could not get assignment tutor data"
+msgstr ""
+
+#: $string['tutorstatus']
+msgid ""
+"{$a->submitted}/{$a->total} Student Submissions, {$a->graded} "
+"Submission{$a->gplural} Graded"
+msgstr ""
+
+#: $string['type']
+msgctxt "$string['type']"
+msgid "Submission Type"
+msgstr ""
+
+#: $string['types']
+msgid "Submission Types"
+msgstr ""
+
+#: $string['types_help']
+msgid "<p>Submissions can be made in three different formats.</p>"
+msgstr ""
+
+#: $string['unlinkedusers']
+msgid "Unlinked Users"
+msgstr ""
+
+#: $string['unlinkinfo']
+msgid ""
+"Use this form to break the tie between Moodle and Turnitin Users. This will "
+"remove the Stored Turnitin User ID from the Moodle system forcing Moodle to "
+"try to relink the users on the next call to Turnitin."
+msgstr ""
+
+#: $string['unlinkrelinkusers']
+msgid "Unlink / Relink Turnitin Users"
+msgstr ""
+
+#: $string['unlinkusers']
+msgid "Unlink Users"
+msgstr ""
+
+#: $string['update']
+msgid "Update"
+msgstr ""
+
+#: $string['updateerror']
+msgid "Update Error"
+msgstr ""
+
+#: $string['updatestudent']
+msgid "Updating Submission {$a->from} of {$a->to}"
+msgstr ""
+
+#: $string['update_turnitintool']
+msgid "Update Turnitin assignment"
+msgstr ""
+
+#: $string['updatinggrade']
+msgid "Retrieving Turnitin Grade"
+msgstr ""
+
+#: $string['updatingreport']
+msgid "Retrieving Turnitin Report Score"
+msgstr ""
+
+#: $string['updatingscores']
+msgid "Retrieving Data for {$a->user} / Assignment Part {$a->proc}"
+msgstr ""
+
+#: $string['upgradeavailable']
+msgid "Upgrade Available"
+msgstr ""
+
+#: $string['uploadingtoturnitin']
+msgid "Uploading File to Turnitin"
+msgstr ""
+
+#: $string['urlsnapshot']
+msgid "Grabbing URL Snapshot"
+msgstr ""
+
+#: $string['urltosubmit']
+msgid "Web Page URL to Submit"
+msgstr ""
+
+#: $string['urltosubmit_url']
+msgid ""
+"Enter the address of the web page that you are submitting. Only single web "
+"pages may be submitted. A snapshot of the page will be taken and the html "
+"will be uploaded to Turnitin."
+msgstr ""
+
+#: $string['useaverage']
+msgid "Grade using submission average"
+msgstr ""
+
+#: $string['user']
+msgid "User"
+msgstr ""
+
+#: $string['usercreationerror']
+msgid "Turnitin user creation failed"
+msgstr ""
+
+#: $string['userdeleteerror']
+msgid "Could not delete user data"
+msgstr ""
+
+#: $string['usergeterror']
+msgid "Could not get user data"
+msgstr ""
+
+#: $string['userprocess']
+msgid "Processing User Data"
+msgstr ""
+
+#: $string['userstounlink']
+msgid "Users to Unlink"
+msgstr ""
+
+#: $string['usersunlinkrelink']
+msgid "Users to Unlink / Relink"
+msgstr ""
+
+#: $string['userupdateerror']
+msgid "Could not update user data"
+msgstr ""
+
+#: $string['view']
+msgid "View"
+msgstr ""
+
+#: $string['viewdelete']
+msgid "View/Delete"
+msgstr ""
+
+#: $string['viewreport']
+msgid "View Report"
+msgstr ""
+
+#: $string['viewsubmissions']
+msgid "View Submissions"
+msgstr ""
+
+#: $string['view_turnitintool']
+msgid "View Turnitin assignment"
+msgstr ""
+
+#: $string['webpage']
+msgid "Web Page"
+msgstr ""
+
+#: $string['weight']
+msgid "Marks Ratio"
+msgstr ""
+
+#: $string['wrongaccountid']
+msgid ""
+"There was an error linking your Turnitin Class. The account you have "
+"configured is account {$a->current}. The account this class is from is "
+"{$a->backupid}. You can only restore classes that originated in the same "
+"Turnitin account."
+msgstr ""
+
+#: $string['yes']
+msgid "Yes"
+msgstr ""
+
+#: $string['yesgrademark']
+msgid "Yes, use GradeMark to grade submissions"
+msgstr ""
+
+#: $string['yesgrades']
+msgid "Yes, automatically refresh originality scores and grades"
+msgstr ""

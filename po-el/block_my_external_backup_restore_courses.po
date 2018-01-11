@@ -1,0 +1,335 @@
+#. extracted from lang/en/block_my_external_backup_restore_courses.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_my_external_backup_restore_courses', language 'en', branch 'MOODLE_30_STABLE'
+#.  *
+#.  * @package   block_my_external_backup_restore_courses
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['cantrestorecourseincategorycontext']
+msgid ""
+"User \"{$a->username}\" can't restore course in category "
+"\"{$a->internalcategoryname}\" because hasn't capability "
+"moodle/course:create.\\n The course will be restored in category "
+"\"{$a->defaultcategoryname}\"."
+msgstr ""
+
+#: $string['cantrestorecourseindefaultcategorycontext']
+msgid ""
+"User \"{$a->username}\" can't restore course in default category "
+"\"{$a->defaultcategoryname}\" because hasn't capability moodle/course:create."
+msgstr ""
+
+#: $string['categorytable']
+msgctxt "$string['categorytable']"
+msgid "Database table name where category informations are stored"
+msgstr ""
+
+#: $string['categorytable_categoryfield']
+msgctxt "$string['categorytable_categoryfield']"
+msgid ""
+"Unique database table field that represent category same for current and "
+"foreign moodle implied"
+msgstr ""
+
+#: $string['categorytable_categoryfield_desc']
+msgctxt "$string['categorytable_categoryfield_desc']"
+msgid ""
+"Unique database table field that represent category same for current and "
+"foreign moodle implied"
+msgstr ""
+
+#: $string['categorytable_desc']
+msgctxt "$string['categorytable_desc']"
+msgid "Database table name where category informations are stored"
+msgstr ""
+
+#: $string['categorytable_foreignkey']
+msgctxt "$string['categorytable_foreignkey']"
+msgid "Database table foreign key for category id"
+msgstr ""
+
+#: $string['categorytable_foreignkey_desc']
+msgctxt "$string['categorytable_foreignkey_desc']"
+msgid "Database table foreign key for category id"
+msgstr ""
+
+#: $string['choose_to_restore']
+msgid "Select for restore"
+msgstr ""
+
+#: $string['defaultcategory']
+msgctxt "$string['defaultcategory']"
+msgid "Category id where restoring courses by default"
+msgstr ""
+
+#: $string['defaultcategory_desc']
+msgctxt "$string['defaultcategory_desc']"
+msgid "Category id where restoring courses by default"
+msgstr ""
+
+#: $string['error_mail_main_message']
+msgid ""
+"Errors occured while restoring course \"{$a->externalcoursename}\" from moodle "
+"platform {$a->externalmoodle} to moodle platform {$a->localmoodle}.\\nSee "
+"details below.\\n"
+msgstr ""
+
+#: $string['error_mail_subject']
+msgid "[Moodle course restore] : error while restoring an external course"
+msgstr ""
+
+#: $string['error_mail_task_error_message']
+msgid "{$a->message}.\\n"
+msgstr ""
+
+#: $string['error_mail_task_error_message_courseid']
+msgid "internal courseid {$a->courseid} : {$a->message}.\\n"
+msgstr ""
+
+#: $string['error_msg_admin']
+msgid ""
+"error for course with external id  {$externalcourseid} and internal id "
+"{$courseid}, from {$externalmoodleurl} , for username {$username} "
+":\\n{$message}"
+msgstr ""
+
+#: $string['executiontime']
+msgid "Estimated execution time"
+msgstr ""
+
+#: $string['external_moodle']
+msgid "external moodle list to connect to"
+msgstr ""
+
+#: $string['externalmoodlecourselist']
+msgid "External moodles course list"
+msgstr ""
+
+#: $string['external_moodleDesc']
+msgid ""
+"a formatted list of external moodle as moodle_url1,token_compte_webservice_m"
+"oodle_externe1;moodle_url2,token_compte_webservice_moodle_externe2;..."
+msgstr ""
+
+#: $string['externalmoodlehelpsection']
+msgid ""
+"In the folling table :<ul><li> check to select the remote courses that you "
+"want to restore on the current plate-forme</li><li>Next click on \"Send\" "
+"button</ul>\n"
+"Courses are then scheduled to be restored.<br><br>\n"
+"You can consult the state of your scheduled for restoration courses "
+"(scheduled date, resotoration completed, ...).<br>\n"
+"A message notification will be send once your course will be restored."
+msgstr ""
+
+#: $string['includeexternalurlinmail']
+msgctxt "$string['includeexternalurlinmail']"
+msgid "Include external platform url in notification mail"
+msgstr ""
+
+#: $string['includeexternalurlinmail_desc']
+msgctxt "$string['includeexternalurlinmail_desc']"
+msgid "Include external platform url in notification mail"
+msgstr ""
+
+#: $string['invalidusername']
+msgid "You have no account on this platform"
+msgstr ""
+
+#: $string['keepcategory']
+msgid "Keep original category"
+msgstr ""
+
+#: $string['limitend']
+msgctxt "$string['limitend']"
+msgid "Ending execution time"
+msgstr ""
+
+#: $string['limitend_desc']
+msgctxt "$string['limitend_desc']"
+msgid "Ending execution time"
+msgstr ""
+
+#: $string['limitstart']
+msgctxt "$string['limitstart']"
+msgid "Starting execution time"
+msgstr ""
+
+#: $string['limitstart_desc']
+msgctxt "$string['limitstart_desc']"
+msgid "Starting execution time"
+msgstr ""
+
+#: $string['mailexternalmoodleinfo']
+msgid "{$a->externalmoodlesitename} ({$a->externalmoodleurl})"
+msgstr ""
+
+#: $string['maillocalmoodleinfo']
+msgid "{$a->site} ({$a->siteurl})"
+msgstr ""
+
+#: $string['messageprovider:restorationfailed']
+msgid "Notify that an external course as failed to restore"
+msgstr ""
+
+#: $string['messageprovider:restorationsuccess']
+msgid "Notify that an external course is successfully restored"
+msgstr ""
+
+#: $string['misconfigured_plugin']
+msgid "Misconfigured plugin"
+msgstr ""
+
+#: $string['my_external_backup_restore_courses:addinstance']
+msgid "add instance of retrieve backup restore courses from external moodle"
+msgstr ""
+
+#: $string['my_external_backup_restore_courses:can_retrieve_courses']
+msgid "Retrieve external backup files"
+msgstr ""
+
+#: $string['my_external_backup_restore_courses:can_see_backup_courses']
+msgid "View backup courses"
+msgstr ""
+
+#: $string['my_external_backup_restore_courses:myaddinstance']
+msgid ""
+"add instance of retrieve backup courses from external moodle to Dashboard"
+msgstr ""
+
+#: $string['my_external_backup_restore_courses_task']
+msgid "Restore course from remote Moodles task"
+msgstr ""
+
+#: $string['my_external_backup_restore_courses:view']
+msgid "See 'Restore courses from remote Moodles' block"
+msgstr ""
+
+#: $string['NA']
+msgid "N/A"
+msgstr ""
+
+#: $string['nextruntime']
+msgid "Performed the"
+msgstr ""
+
+#: $string['noexternalmoodleconnected']
+msgid "No external moodle connected"
+msgstr ""
+
+#: $string['notexistinginternalcategory']
+msgid ""
+"User \"{$a->username}\" can't restore course in category "
+"\"{$a->internalcategoryname}\" because the given internal category does not "
+"exists anymore\\n. The course will be restored in category "
+"\"{$a->defaultcategoryname}\"."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Restore courses from remote Moodles"
+msgstr ""
+
+#: $string['restore']
+msgid "Restore a course"
+msgstr ""
+
+#: $string['restorecourseinoriginalcategory']
+msgid "Restore course in its category if possible"
+msgstr ""
+
+#: $string['restorecourseinoriginalcategory_desc']
+msgid ""
+"Restore course in its category if possible. This requires the local "
+"course_category_types plugins (course categories system information "
+"synchronization)."
+msgstr ""
+
+#: $string['restorecourses']
+msgid "Restore courses"
+msgstr ""
+
+#: $string['roles_included_in_external_courses_search']
+msgid "Roles in course to add to the external course search"
+msgstr ""
+
+#: $string['roles_included_in_external_courses_search_Desc']
+msgid ""
+"Roles in course to add to the external course search while searching into "
+"user fields : shortnames delimited by simple quote `' and  separated by ,"
+msgstr ""
+
+#: $string['status_0']
+msgid "Scheduled"
+msgstr ""
+
+#: $string['status_1']
+msgid "In progess"
+msgstr ""
+
+#: $string['status_-1']
+msgid "Error"
+msgstr ""
+
+#: $string['status_2']
+msgid "Performed"
+msgstr ""
+
+#: $string['success_mail_main_message']
+msgid ""
+"course restoration \"{$a->externalcoursename}\" from moodle platform "
+"{$a->externalmoodle} to moodle platform {$a->localmoodle} completed "
+"successfully."
+msgstr ""
+
+#: $string['success_mail_subject']
+msgid "[Moodle course restore] : an external course successfully restore"
+msgstr ""
+
+#: $string['timelimitedmod']
+msgid "Execution beetween two time mod"
+msgstr ""
+
+#: $string['timelimitedmod_desc']
+msgid ""
+"Execution beetween two time mod means that associated task that import and "
+"restore courses from external moodle will not work after before and after "
+"define time limits"
+msgstr ""
+
+#: $string['warningstoowner']
+msgctxt "$string['warningstoowner']"
+msgid "Show warnings to restored course owner"
+msgstr ""
+
+#: $string['warningstoowner_desc']
+msgctxt "$string['warningstoowner_desc']"
+msgid "Show warnings to restored course owner"
+msgstr ""

@@ -1,0 +1,479 @@
+#. extracted from lang/en/auth_outage.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'auth_outage', language 'en', branch 'MOODLE_31_STABLE'
+#.  *
+#.  * @package   auth_outage
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['auth_outagedescription']
+msgid ""
+"Auxiliary plugin that warns users about a future outage and prevents them "
+"from logging in once the outage starts."
+msgstr ""
+
+#: $string['autostart']
+msgid "Auto start maintenance mode."
+msgstr ""
+
+#: $string['autostart_help']
+msgid ""
+"If selected, when the outage starts it will automatically turn on Moodle "
+"maintenance mode."
+msgstr ""
+
+#: $string['clicreatehelp']
+msgid "Creates a new outage."
+msgstr ""
+
+#: $string['clicreateparamautostart']
+msgid ""
+"must be Y or N, sets if the outage automatically triggers maintenance mode."
+msgstr ""
+
+#: $string['clicreateparamblock']
+msgid "blocks until outage starts."
+msgstr ""
+
+#: $string['clicreateparamclone']
+msgid "clone another outage except for the start time."
+msgstr ""
+
+#: $string['clicreateparamdescription']
+msgid "the description of the outage."
+msgstr ""
+
+#: $string['clicreateparamduration']
+msgid "how many seconds should the outage last."
+msgstr ""
+
+#: $string['clicreateparamhelp']
+msgctxt "$string['clicreateparamhelp']"
+msgid "shows parameters help."
+msgstr ""
+
+#: $string['clicreateparamonlyid']
+msgid "only outputs the new outage id, useful for scripts."
+msgstr ""
+
+#: $string['clicreateparamstart']
+msgid "in how many seconds should this outage start. Required."
+msgstr ""
+
+#: $string['clicreateparamtitle']
+msgid "the title of the outage."
+msgstr ""
+
+#: $string['clicreateparamwarn']
+msgid "how many seconds before it starts to display a warning."
+msgstr ""
+
+#: $string['clierrorinvalidvalue']
+msgid "Invalid value for parameter: {$a->param}"
+msgstr ""
+
+#: $string['clierrormissingparamaters']
+msgid "You must specify the start time, use --help for more information."
+msgstr ""
+
+#: $string['clierroroutagechanged']
+msgid "Outage was changed while waiting."
+msgstr ""
+
+#: $string['clierroroutageended']
+msgid "Outage has already ended."
+msgstr ""
+
+#: $string['clierroroutagenotfound']
+msgid "Outage not found."
+msgstr ""
+
+#: $string['clifinishhelp']
+msgid "Finishes an ongoing outage."
+msgstr ""
+
+#: $string['clifinishnotongoing']
+msgid "Outage is not ongoing."
+msgstr ""
+
+#: $string['clifinishparamactive']
+msgid "finishes the currently active outage."
+msgstr ""
+
+#: $string['clifinishparamhelp']
+msgctxt "$string['clifinishparamhelp']"
+msgid "shows parameters help."
+msgstr ""
+
+#: $string['clifinishparamoutageid']
+msgid "the id of the outage to finish."
+msgstr ""
+
+#: $string['clioutagecreated']
+msgid "Outage created, id: {$a->id}"
+msgstr ""
+
+#: $string['cliplugindisabled']
+msgid ""
+"The authentication plugin 'Outage' is disabled. Please enable it in the site "
+"administration it and try again."
+msgstr ""
+
+#: $string['cliwaitforiterroridxoractive']
+msgid "You must use --outageid=# or --active parameter but not both."
+msgstr ""
+
+#: $string['cliwaitforithelp']
+msgid "Waits until an outage starts."
+msgstr ""
+
+#: $string['cliwaitforitoutagestarted']
+msgid "Outage started!"
+msgstr ""
+
+#: $string['cliwaitforitoutagestartingin']
+msgid "Outage starting in {$a->countdown}."
+msgstr ""
+
+#: $string['cliwaitforitparamactive']
+msgid "wait for the currently active outage."
+msgstr ""
+
+#: $string['cliwaitforitparamhelp']
+msgctxt "$string['cliwaitforitparamhelp']"
+msgid "shows parameters help."
+msgstr ""
+
+#: $string['cliwaitforitparamoutageid']
+msgid "the id of the outage to wait until it starts."
+msgstr ""
+
+#: $string['cliwaitforitparamsleep']
+msgid "maximum amount of seconds before status output."
+msgstr ""
+
+#: $string['cliwaitforitparamverbose']
+msgid "enable verbose mode."
+msgstr ""
+
+#: $string['clone']
+msgctxt "$string['clone']"
+msgid "Clone"
+msgstr ""
+
+#: $string['datetimeformat']
+msgid "%a %d %h %Y at %I:%M%P %Z"
+msgstr ""
+
+#: $string['defaultdescription']
+msgid "Description"
+msgstr ""
+
+#: $string['defaultdescriptiondescription']
+msgid ""
+"Default warning message for outages. Use {{start}} and {{stop}} placeholders "
+"as required."
+msgstr ""
+
+#: $string['defaultdescriptionvalue']
+msgid ""
+"There is an scheduled maintenance from {{start}} to {{stop}} and our system "
+"will not be available during that time."
+msgstr ""
+
+#: $string['defaultlayoutcss']
+msgid "Layout CSS"
+msgstr ""
+
+#: $string['defaultlayoutcssdescription']
+msgid "This CSS code will be used to display the Outage Warning Bar."
+msgstr ""
+
+#: $string['defaultoutageautostart']
+msgid "Outage auto start"
+msgstr ""
+
+#: $string['defaultoutageautostartdescription']
+msgid ""
+"If the outage should automatically trigger maintenance mode once it starts, "
+"locking down the whole site."
+msgstr ""
+
+#: $string['defaultoutageduration']
+msgctxt "$string['defaultoutageduration']"
+msgid "Outage duration"
+msgstr ""
+
+#: $string['defaultoutagedurationdescription']
+msgid "Default duration (in minutes) of an outage."
+msgstr ""
+
+#: $string['defaulttitle']
+msgctxt "$string['defaulttitle']"
+msgid "Title"
+msgstr ""
+
+#: $string['defaulttitledescription']
+msgid ""
+"Default title for outages. Use {{start}} and {{stop}} placeholders as "
+"required."
+msgstr ""
+
+#: $string['defaulttitlevalue']
+msgid "System down from {{start}} for {{duration}}."
+msgstr ""
+
+#: $string['defaultwarningduration']
+msgctxt "$string['defaultwarningduration']"
+msgid "Warning duration"
+msgstr ""
+
+#: $string['defaultwarningdurationdescription']
+msgid "Default warning time (in minutes) for outages."
+msgstr ""
+
+#: $string['description']
+msgid "Public Description"
+msgstr ""
+
+#: $string['description_help']
+msgid "A full description of the outage, publicly visible by all users."
+msgstr ""
+
+#: $string['finish']
+msgid "Finish"
+msgstr ""
+
+#: $string['info15secondsbefore']
+msgid "15 seconds before"
+msgstr ""
+
+#: $string['infoendofoutage']
+msgid "end of outage"
+msgstr ""
+
+#: $string['infofrom']
+msgid "From:"
+msgstr ""
+
+#: $string['infopagestaticgenerated']
+msgid "This warning was generated on {$a->time}."
+msgstr ""
+
+#: $string['infostart']
+msgid "start"
+msgstr ""
+
+#: $string['infostartofwarning']
+msgid "start of warning"
+msgstr ""
+
+#: $string['infountil']
+msgid "Until:"
+msgstr ""
+
+#: $string['menudefaults']
+msgid "Default settings"
+msgstr ""
+
+#: $string['menumanage']
+msgid "Manage"
+msgstr ""
+
+#: $string['messageoutagebackonline']
+msgid "We are back online!"
+msgstr ""
+
+#: $string['messageoutagebackonlinedescription']
+msgid "You may resume browsing safely."
+msgstr ""
+
+#: $string['messageoutageongoing']
+msgid "Back online at {$a->stop}."
+msgstr ""
+
+#: $string['messageoutagewarning']
+msgid "Shutting down in {{countdown}}"
+msgstr ""
+
+#: $string['na']
+msgid "n/a"
+msgstr ""
+
+#: $string['notfound']
+msgid "No outages found."
+msgstr ""
+
+#: $string['outageclone']
+msgid "Clone outage"
+msgstr ""
+
+#: $string['outageclonecrumb']
+msgctxt "$string['outageclonecrumb']"
+msgid "Clone"
+msgstr ""
+
+#: $string['outagecreate']
+msgid "Create outage"
+msgstr ""
+
+#: $string['outagecreatecrumb']
+msgid "Create"
+msgstr ""
+
+#: $string['outagedelete']
+msgid "Delete outage"
+msgstr ""
+
+#: $string['outagedeletewarning']
+msgid ""
+"You are about to permanently delete the outage below. This cannot be undone."
+msgstr ""
+
+#: $string['outageduration']
+msgctxt "$string['outageduration']"
+msgid "Outage duration"
+msgstr ""
+
+#: $string['outagedurationerrorinvalid']
+msgid "Outage duration must be positive."
+msgstr ""
+
+#: $string['outageduration_help']
+msgid "How long the outage lasts after it starts."
+msgstr ""
+
+#: $string['outageedit']
+msgid "Edit outage"
+msgstr ""
+
+#: $string['outageeditcrumb']
+msgid "Edit"
+msgstr ""
+
+#: $string['outagefinish']
+msgid "Finish outage"
+msgstr ""
+
+#: $string['outagefinishwarning']
+msgid ""
+"You are about to mark this outage as finished. The system will be "
+"immediately back online."
+msgstr ""
+
+#: $string['outageslistfuture']
+msgid "Planned outages"
+msgstr ""
+
+#: $string['outageslistpast']
+msgid "Outage history"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Outage manager"
+msgstr ""
+
+#: $string['starttime']
+msgid "Start date and time"
+msgstr ""
+
+#: $string['starttime_help']
+msgid ""
+"At which date and time the outage starts, preventing general access to the "
+"system."
+msgstr ""
+
+#: $string['tableheaderduration']
+msgid "Duration"
+msgstr ""
+
+#: $string['tableheaderdurationactual']
+msgid "Actual duration"
+msgstr ""
+
+#: $string['tableheaderdurationplanned']
+msgid "Planned duration"
+msgstr ""
+
+#: $string['tableheaderstarttime']
+msgid "Starts on"
+msgstr ""
+
+#: $string['tableheadertitle']
+msgctxt "$string['tableheadertitle']"
+msgid "Title"
+msgstr ""
+
+#: $string['tableheaderwarnbefore']
+msgid "Warns before"
+msgstr ""
+
+#: $string['taskupdatestaticpage']
+msgid "Update static outage page"
+msgstr ""
+
+#: $string['textplaceholdershint']
+msgid ""
+"You can use {{start}}, {{stop}} and {{duration}} as placeholders on the "
+"title and description."
+msgstr ""
+
+#: $string['title']
+msgctxt "$string['title']"
+msgid "Title"
+msgstr ""
+
+#: $string['titleerrorinvalid']
+msgid "Title cannot be left blank."
+msgstr ""
+
+#: $string['titleerrortoolong']
+msgid "Title cannot have more than {$a} characters."
+msgstr ""
+
+#: $string['title_help']
+msgid ""
+"A short title to for this outage. It will be displayed on the warning bar "
+"and on the calendar."
+msgstr ""
+
+#: $string['warningduration']
+msgctxt "$string['warningduration']"
+msgid "Warning duration"
+msgstr ""
+
+#: $string['warningdurationerrorinvalid']
+msgid "Warning duration must be positive."
+msgstr ""
+
+#: $string['warningduration_help']
+msgid ""
+"How long before the start of the outage should the warning be displayed."
+msgstr ""

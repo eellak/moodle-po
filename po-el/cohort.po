@@ -1,0 +1,313 @@
+#. extracted from lang/en/cohort.php, lang/el/cohort.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'cohort', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   cohort
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addcohort']
+msgid "Add new cohort"
+msgstr "Προσθήκη νέας ομάδας χρηστών"
+
+#: $string['allcohorts']
+msgid "All cohorts"
+msgstr "Όλες οι ομάδες χρηστών"
+
+#: $string['anycohort']
+msgid "Any"
+msgstr "Οποιαδήποτε"
+
+#: $string['assign']
+msgid "Assign"
+msgstr "Ανάθεση"
+
+#: $string['assigncohorts']
+msgid "Assign cohort members"
+msgstr "Ανάθεση μέλων ομάδας χρηστών"
+
+#: $string['assignto']
+msgid "Cohort '{$a}' members"
+msgstr "Μέλη ομάδας χρηστών '{$a}'"
+
+#: $string['backtocohorts']
+msgid "Back to cohorts"
+msgstr "Επιστροφή στις ομάδες χρηστών"
+
+#: $string['bulkadd']
+msgid "Add to cohort"
+msgstr "Προσθήκη στην ομάδα χρηστών"
+
+#: $string['bulknocohort']
+msgid "No available cohorts found"
+msgstr "Δεν βρέθηκαν διαθέσιμες ομάδες χρηστών"
+
+#: $string['categorynotfound']
+msgid ""
+"Category <b>{$a}</b> not found or you don't have permission to create a "
+"cohort there. The default context will be used."
+msgstr ""
+"Η κατηγορία <b>{$a}</b> δεν βρέθηκε ή δεν έχετε δικαιώμα δημιουργία ομάδας "
+"χρηστών. Θα χρησιμοποιηθεί το προεπιλεγμένο πλαίσιο."
+
+#: $string['cohort']
+msgid "Cohort"
+msgstr "Ομάδα χρηστών"
+
+#: $string['cohorts']
+msgid "Cohorts"
+msgstr "Ομάδες χρηστών"
+
+#: $string['cohortsin']
+msgid "{$a}: available cohorts"
+msgstr "{$a}: διαθέσιμες ομάδες χρηστών"
+
+#: $string['component']
+msgid "Source"
+msgstr "Πηγή"
+
+#: $string['contextnotfound']
+msgid ""
+"Context <b>{$a}</b> not found or you don't have permission to create a "
+"cohort there. The default context will be used."
+msgstr ""
+"Το πλαίσιο <b>{$a}</b> δεν βρέθηκε ή δεν έχετε δικαίωμα δημιουργίας ομάδας "
+"χρηστών. Θα χρησιμοποιηθεί το προεπιλεγμένο πλαίσιο."
+
+#: $string['csvcontainserrors']
+msgid "Errors were found in CSV data. See details below."
+msgstr "Βρέθηκαν σφάλματα στα δεδομένα του CSV. Δείτε λεπτομέρειες παρακάτω."
+
+#: $string['csvcontainswarnings']
+msgid "Warnings were found in CSV data. See details below."
+msgstr ""
+"Βρέθηκαν προειδοποιήσεις στα δεδομένα του CSV. Δείτε λεπτομέρειες παρακάτω."
+
+#: $string['csvextracolumns']
+msgid "Column(s) <b>{$a}</b> will be ignored."
+msgstr "Οι στήλες <b>{$a}</b> θα αγνοηθούν."
+
+#: $string['currentusers']
+msgid "Current users"
+msgstr "Τρέχοντες χρήστες"
+
+#: $string['currentusersmatching']
+msgid "Current users matching"
+msgstr "Τρέχοντες χρήστες που ταιριάζουν"
+
+#: $string['defaultcontext']
+msgid "Default context"
+msgstr "Προεπιλεγμένο πλαίσιο"
+
+#: $string['delcohort']
+msgid "Delete cohort"
+msgstr "Διαγραφή ομάδας χρηστών"
+
+#: $string['delconfirm']
+msgid "Do you really want to delete cohort '{$a}'?"
+msgstr "Είστε βέβαιοι οτι θέλετε να διαγράψετε την ομάδα χρηστών '{$a}';"
+
+#: $string['description']
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: $string['displayedrows']
+msgid "{$a->displayed} rows displayed out of {$a->total}."
+msgstr "Εμφάνιση {$a->displayed} γραμμών από {$a->total}."
+
+#: $string['duplicateidnumber']
+msgid "Cohort with the same ID number already exists"
+msgstr "Υπάρχει ήδη ομάδα χρηστών με τον ίδιο αριθμό αναγνωριστικού"
+
+#: $string['editcohort']
+msgid "Edit cohort"
+msgstr "Επεξεργασία ομάδας χρηστών"
+
+#: $string['editcohortidnumber']
+msgid "Edit cohort ID"
+msgstr "Επεξεργασία αναγνωριστικού ομάδας χρηστών"
+
+#: $string['editcohortname']
+msgid "Edit cohort name"
+msgstr "Επεξεργασία ονόματος ομάδας χρηστών"
+
+#: $string['eventcohortcreated']
+msgid "Cohort created"
+msgstr "Η ομάδα χρηστών δημιουργήθηκε"
+
+#: $string['eventcohortdeleted']
+msgid "Cohort deleted"
+msgstr "Η ομάδα χρηστών διαγράφηκε"
+
+#: $string['eventcohortmemberadded']
+msgid "User added to a cohort"
+msgstr "Ο χρήστης προστέθηκε σε μια ομάδα χρηστών"
+
+#: $string['eventcohortmemberremoved']
+msgid "User removed from a cohort"
+msgstr "Ο χρήστης αφαιρέθηκε από μια ομάδα χρηστών"
+
+#: $string['eventcohortupdated']
+msgid "Cohort updated"
+msgstr "Η ομάδα χρηστών ενημερώθηκε"
+
+#: $string['external']
+msgid "External cohort"
+msgstr "Εξωτερική ομάδα χρηστών"
+
+#: $string['idnumber']
+msgid "Cohort ID"
+msgstr "ID ομάδας χρηστών"
+
+#: $string['memberscount']
+msgid "Cohort size"
+msgstr "Μέγεθος ομάδων χρηστών"
+
+#: $string['name']
+msgid "Name"
+msgstr "Όνομα"
+
+#: $string['namecolumnmissing']
+msgid ""
+"There is something wrong with the format of the CSV file. Please check that "
+"it includes column names."
+msgstr ""
+"Υπάρχει κάποιο πρόβλημα με τη μορφή του αρχείου CSV. Παρακαλώ ελέγξτε ότι "
+"περιλαμβάνονται τα ονόματα των στηλών."
+
+#: $string['namefieldempty']
+msgid "Field name can not be empty"
+msgstr "Το όνομα πεδίου δεν μπορεί να είναι κενό"
+
+#: $string['newidnumberfor']
+msgid "New ID number for cohort {$a}"
+msgstr "Νέος αριθμός αναγνωριστικού για την ομάδα χρηστών {$a}"
+
+#: $string['newnamefor']
+msgid "New name for cohort {$a}"
+msgstr "Νέο όνομα για την ομάδα χρηστών {$a}"
+
+#: $string['nocomponent']
+msgid "Created manually"
+msgstr "Δημιουργήθηκε χειροκίνητα"
+
+#: $string['potusers']
+msgid "Potential users"
+msgstr "Πιθανοί χρήστες"
+
+#: $string['potusersmatching']
+msgid "Potential matching users"
+msgstr "Πιθανοί χρήστες που ταιριάζουν"
+
+#: $string['preview']
+msgid "Preview"
+msgstr "Προεπισκόπηση"
+
+#: $string['removeuserwarning']
+msgid ""
+"Removing users from a cohort may result in unenrolling of users from "
+"multiple courses which includes deleting of user settings, grades, group "
+"membership and other user information from affected courses."
+msgstr ""
+"Η αφαίρεση χρηστών από μια ομάδα χρηστών μπορεί να έχει ως αποτέλεσμα την "
+"ακύρωση εγγραφής των χρηστών από πολλαπλά μαθήματα που περιλαμβάνει διαγραφή "
+"ρυθμίσεων χρήστη, βαθμών, συμμετοχής στην ομάδα και άλλες πληροφορίες "
+"χρήστη από τα επηρρεαζόμενα μαθήματα."
+
+#: $string['search']
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: $string['searchcohort']
+msgid "Search cohort"
+msgstr "Αναζήτηση ομάδας χρηστών"
+
+#: $string['selectfromcohort']
+msgid "Select members from cohort"
+msgstr "Επιλογή μελών από ομάδα χρηστών"
+
+#: $string['systemcohorts']
+msgid "System cohorts"
+msgstr "Ομάδες χρηστών συστήματος"
+
+#: $string['unknowncohort']
+msgid "Unknown cohort ({$a})!"
+msgstr "Άγνωστη ομάδα χρηστών ({$a})!"
+
+#: $string['uploadcohorts']
+msgid "Upload cohorts"
+msgstr "Μεταφόρτωση ομάδων χρηστών"
+
+#: $string['uploadcohorts_help']
+msgid ""
+"Cohorts may be uploaded via text file. The format of the file should be as "
+"follows:\n"
+"\n"
+"* Each line of the file contains one record\n"
+"* Each record is a series of data separated by commas (or other delimiters)\n"
+"* The first record contains a list of fieldnames defining the format of the "
+"rest of the file\n"
+"* Required fieldname is name\n"
+"* Optional fieldnames are idnumber, description, descriptionformat, visible, "
+"context, category, category_id, category_idnumber, category_path"
+msgstr ""
+"Οι ομάδες χρηστών μπορούν να μεταφορτωθούν μέσω αρχείου κειμένου. Η μορφή "
+"του αρχείου θα πρέπει να είναι ως εξής:<br/><br/>\n"
+"* Κάθε γραμμή του αρχείου περιέχει μια εγγραφή<br/>\n"
+"* Κάθε εγγραφή είναι μια σειρά δεδομένων που διαχωρίζονται με κόμματα (ή "
+"άλλους οριοθέτες)<br/>\n"
+"* Η πρώτη εγγραφή περιέχει μια λίστα των ονομάτων πεδιών που καθορίζουν τη "
+"μορφή του υπόλοιπου αρχείου<br/>\n"
+"* Απαραίτητο όνομα πεδίου είναι το name<br/>\n"
+"* Προαιρετικά ονόματα πεδίων είναι idnumber, description, descriptionformat, "
+"visible, context, category, category_id, category_idnumber, category_path"
+
+#: $string['uploadedcohorts']
+msgid "Uploaded {$a} cohorts"
+msgstr "Μεταφορτώθηκαν {$a} ομάδες χρηστών"
+
+#: $string['useradded']
+msgid "User added to cohort \"{$a}\""
+msgstr "Ο χρήστης προστέθηκε στην ομάδα χρητών \"{$a}\""
+
+#: $string['visible']
+msgid "Visible"
+msgstr "Ορατό"
+
+#: $string['visible_help']
+msgid ""
+"Any cohort can be viewed by users who have 'moodle/cohort:view' capability "
+"in the cohort context.<br/>\n"
+"Visible cohorts can also be viewed by users in the underlying courses."
+msgstr ""
+"Κάθε ομάδα χρηστών μπορεί να είναι ορατή από χρήστες που τη δυνατότητα "
+"'moodle/cohort:view' στο πλαίσιο ομάδας χρηστών.<br/>\n"
+"Οι ορατές ομάδες χρηστών μπορούν επίσης να είναι οράτες από χρήστες στα "
+"υποκείμενα μαθήματα."

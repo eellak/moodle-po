@@ -1,0 +1,239 @@
+#. extracted from lang/en/report_extendedlog.php, lang/el/report_extendedlog.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'report_extendedlog', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   report_extendedlog
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['eventreportviewed']
+msgid "Extended log search report viewed"
+msgstr ""
+
+#: $string['extendedlog:view']
+msgid "View extended log search report"
+msgstr ""
+
+#: $string['filter_category']
+msgid "Course category"
+msgstr ""
+
+#: $string['filter_category_all']
+msgid "All categories"
+msgstr ""
+
+#: $string['filter_category_options']
+msgid "Search in"
+msgstr ""
+
+#: $string['filter_category_options_category']
+msgid "Specified category"
+msgstr ""
+
+#: $string['filter_category_options_courses']
+msgid "Specified category, all children categories, courses and modules"
+msgstr ""
+
+#: $string['filter_category_options_subcategories']
+msgid "Specified category and all children categories"
+msgstr ""
+
+#: $string['filter_component']
+msgid "Component"
+msgstr ""
+
+#: $string['filter_component_all']
+msgid "All components"
+msgstr ""
+
+#: $string['filter_component_core']
+msgid "Core (core)"
+msgstr ""
+
+#: $string['filter_component_grouptemplate']
+msgid "{$a->typedisplaynameplural} ({$a->typename})"
+msgstr ""
+
+#: $string['filter_component_template']
+msgctxt "$string['filter_component_template']"
+msgid "{$a->displayname} ({$a->name})"
+msgstr ""
+
+#: $string['filter_coursefullname']
+msgid "Course fullname"
+msgstr ""
+
+#: $string['filter_coursefullname_all']
+msgctxt "$string['filter_coursefullname_all']"
+msgid "All courses"
+msgstr ""
+
+#: $string['filter_courseshortname']
+msgid "Course shortname"
+msgstr ""
+
+#: $string['filter_courseshortname_all']
+msgctxt "$string['filter_courseshortname_all']"
+msgid "All courses"
+msgstr ""
+
+#: $string['filter_crud']
+msgid "Action"
+msgstr ""
+
+#: $string['filter_edulevel']
+msgid "Educational level"
+msgstr ""
+
+#: $string['filter_event']
+msgid "Event"
+msgstr ""
+
+#: $string['filter_event_all']
+msgid "All events"
+msgstr ""
+
+#: $string['filter_event_core']
+msgid "Core events (core)"
+msgstr ""
+
+#: $string['filter_event_grouptemplate']
+msgid "{$a->typedisplayname} \"{$a->plugindisplayname}\" ({$a->pluginname})"
+msgstr ""
+
+#: $string['filter_event_template']
+msgctxt "$string['filter_event_template']"
+msgid "{$a->displayname} ({$a->name})"
+msgstr ""
+
+#: $string['filterheader']
+msgid "Filter"
+msgstr ""
+
+#: $string['filter_ip4']
+msgid "IPv4 address"
+msgstr ""
+
+#: $string['filter_ip4_help']
+msgid ""
+"Specify comma-separated list of partial or full IP addresses.\n"
+"\n"
+"Examples:\n"
+"\n"
+"* 192.168.10.1\n"
+"* 192.168.\n"
+"* 231.3.56.10-20\n"
+"* 192.168.10.1,192.168.,231.3.56.10-20"
+msgstr ""
+
+#: $string['filter_ip6']
+msgid "IPv6 address"
+msgstr ""
+
+#: $string['filter_ip6_help']
+msgid "Specify comma-separated list of full IP addresses."
+msgstr ""
+
+#: $string['filter_objectid']
+msgid "Object id"
+msgstr ""
+
+#: $string['filter_objectid_error']
+msgid "Please specify integer value"
+msgstr ""
+
+#: $string['filter_objecttable']
+msgid "Object table"
+msgstr ""
+
+#: $string['filter_objecttable_all']
+msgid "All tables"
+msgstr ""
+
+#: $string['filter_origin']
+msgid "Origin"
+msgstr ""
+
+#: $string['filter_origin_cli']
+msgid "Command line interface"
+msgstr ""
+
+#: $string['filter_origin_web']
+msgid "Web interface"
+msgstr ""
+
+#: $string['filter_relateduser']
+msgid "Affected user"
+msgstr "Χρήστης που επηρεάζεται"
+
+#: $string['filter_timecreatedafter']
+msgid "Event took place after"
+msgstr ""
+
+#: $string['filter_timecreatedbefore']
+msgid "Event took place before"
+msgstr ""
+
+#: $string['filter_user']
+msgid "User"
+msgstr ""
+
+#: $string['filter_user_all']
+msgid "All users"
+msgstr ""
+
+#: $string['filter_useremail']
+msgid "User's email substring"
+msgstr ""
+
+#: $string['logstore']
+msgid "Log store"
+msgstr ""
+
+#: $string['navigationnode']
+msgctxt "$string['navigationnode']"
+msgid "Extended log search"
+msgstr ""
+
+#: $string['notificationhighload']
+msgid ""
+"Attention! This report uses non-optimised database queries. They may take a "
+"long time and produce high database load.<br/>It is highly recomended to "
+"specify time interval to speedup query."
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Extended log search"
+msgstr ""
+
+#: $string['showlogs']
+msgid "Show events"
+msgstr ""

@@ -1,0 +1,274 @@
+#. extracted from lang/en/accredible.php, lang/el/accredible.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'accredible', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   accredible
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['accredible:addinstance']
+msgid "Add a certificate/badge instance"
+msgstr "Προσθήκη πιστοποιητικού / βραβείου"
+
+#: $string['accredible:manage']
+msgid "Manage a certificate/badge instance"
+msgstr "Διαχείριση πιστοποιητικού / βραβείου"
+
+#: $string['accredible:student']
+msgid "Retrieve a certificate or badge"
+msgstr "Ανάκτηση πιστοποιητικού ή βραβείου"
+
+#: $string['accredible:view']
+msgid "View a certificate or badge"
+msgstr "Προβολή ενός πιστοποιητικού ή βραβείου"
+
+#: $string['achievementid']
+msgid "Achievement id / cohort name (must be unique)"
+msgstr ""
+"Αναγνωριστικό επιτεύγματος / όνομα ομάδας χρηστών (πρέπει να είναι μοναδικό)"
+
+#: $string['activitydescription']
+msgid ""
+"This module automatically creates and updates a Credential Group on "
+"Accredible. Any certificates and badges issued are in this group and their "
+"appearance and information can be updated on <a "
+"href=\"https://dashboard.accredible.com\" target=\"_blank\">the dashboard</a>."
+msgstr ""
+"Το άρθρωμα δημιουργεί αυτόματα και ενημερώνει ομάδας διαπιστευτηρίων για "
+"Accredible. Οτιδήποτε πιστοποιητικά και σήματα που εκδίδονται σε αυτή την "
+"ομάδα και την εμφάνισή τους και πληροφορίες μπορούν να ενημερωθούν σχετικά "
+"με <a href=\"https://www.accredible.com/issuer/dashboard\" target=\"_blank\"> το "
+"ταμπλό </a>."
+
+#: $string['activityname']
+msgid "Activity name"
+msgstr "Όνομα δραστηριότητας"
+
+#: $string['additionalactivitiesone']
+msgid ""
+"Warning: You are adding more than one activity to a course.<br/>Both "
+"activities are viewable by students, so be sure to give them different "
+"names."
+msgstr ""
+
+#: $string['additionalactivitiesthree']
+msgid "This is the name that will appear on the ceriticate."
+msgstr "Αυτό είναι το όνομα που θα εμφανιστεί στο πιστοποιητικό."
+
+#: $string['additionalactivitiestwo']
+msgid ""
+"Certificates/Badges will only be listed on the activity page if they were "
+"issued with this achievement id."
+msgstr ""
+"Τα Πιστοποιητικά / Βραβεία θα εμφανίζονται μόνο στη σελίδα δραστηριότητας, "
+"εφόσον έχουν εκδοθεί με αυτό το αναγνωριστικό επιτέυγματος."
+
+#: $string['apikeyhelp']
+msgid "Enter your API key from accredible.com"
+msgstr ""
+
+#: $string['apikeylabel']
+msgid "API key"
+msgstr "Κλειδί API"
+
+#: $string['autoissueheader']
+msgid "Automatic issuing criteria"
+msgstr ""
+
+#: $string['certificatename']
+msgid "Certificate/Badge name"
+msgstr "Όνομα πιστοποιητικού / βραβείου"
+
+#: $string['certificateurl']
+msgid "Certificate/Badge url"
+msgstr "URL Πιστοποιητικού / Βραβείου"
+
+#: $string['chooseexam']
+msgid "Choose final quiz"
+msgstr ""
+
+#: $string['completionissuecheckbox']
+msgid "Yes, issue upon course completion"
+msgstr ""
+
+#: $string['completionissueheader']
+msgid "Auto-issue criteria: by course completion"
+msgstr ""
+
+#: $string['dashboardlink']
+msgid "Accredible dashboard link"
+msgstr ""
+
+#: $string['dashboardlinktext']
+msgid ""
+"To delete or style credentials, log in to the <a "
+"href=\"https://dashboard.accredible.com\" target=\"_blank\">dashboard</a>"
+msgstr ""
+
+#: $string['datecreated']
+msgid "Date created"
+msgstr "Ημερομηνία δημιουργίας"
+
+#: $string['description']
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: $string['eventcertificatecreated']
+msgid "A credential was posted to Accredible"
+msgstr ""
+
+#: $string['gotodashboard']
+msgid ""
+"To update the appearance of your badges and certificates, visit: <a "
+"href=\"https://dashboard.accredible.com\" "
+"target=\"_blank\">https://dashboard.accredible.com</a>"
+msgstr ""
+"Για την επεξεργασία της εμφάνισης των βραβείων και πιστοποιητικών σας, "
+"επισκεφτείτε: <a href=\"https://www.accredible.com/issuer/dashboard\" "
+"target=\"_blank\">https://www.accredible.com/issuer/dashboard</a>"
+
+#: $string['gradeissueheader']
+msgid "Auto-issue criteria: by final quiz grade"
+msgstr ""
+
+#: $string['groupselect']
+msgid "Group"
+msgstr "Ομάδα"
+
+#: $string['id']
+msgid "ID"
+msgstr ""
+
+#: $string['indexheader']
+msgid "All certificates/badges for {$a}"
+msgstr "Όλα τα πιστοποιητικά / βραβεία για {$a}"
+
+#: $string['issued']
+msgid "Issued"
+msgstr "Εκδόθηκε"
+
+#: $string['manualheader']
+msgid "Manually issue certificates/badges"
+msgstr "Χειροκίνητη έκδοση πιστοποιητικών  / βραβείων"
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Accredible certificates & badges"
+msgstr "Accredible πιστοποιητικά & βραβεία"
+
+#: $string['modulename_help']
+msgid ""
+"The Accredible certificate & badge activity module allows you to issue "
+"course certificates or badges to students on accredible.com.\n"
+"\n"
+"Add the activity wherever you want your students see their certificate or "
+"badge."
+msgstr ""
+"Το άρθρωμα διαστηριότητας Accredible πιστοποιητικά & βραβεία επιτρέπει την "
+"έκδοση πιστοποιητικών ή βραβείων μαθημάτων σε μαθήτες στο accredible.com.\n"
+"\n"
+"Προσθέστε τη δραστηριότητα όπου θέλετε οι μαθητές σας να βλέπουν το "
+"πιστοποιητικό ή το βραβείο τους."
+
+#: $string['modulename_link']
+msgid "mod/accredible/view"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Accredible certificates/badges"
+msgstr "Accredible πιστοποιητικά & βραβεία"
+
+#: $string['nocertificates']
+msgid "There are no certificates/badges"
+msgstr "Δεν υπάρχουν πιστοποιητικά / βραβεία"
+
+#: $string['overview']
+msgid "Overview"
+msgstr "Επισκόπηση"
+
+#: $string['passinggrade']
+msgid "Percentage grade needed to pass course (%)"
+msgstr "Ποσοστό βαθμού που χρειάζεται για ολοκλήρωση του μαθήματος (%)"
+
+#: $string['pluginadministration']
+msgid "Accredible certificates/badges administration"
+msgstr "Διαχείριση Accredible πιστοποιητικά & βραβεία"
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Accredible certificates & badges"
+msgstr "Accredible πιστοποιητικά & βραβεία"
+
+#: $string['recipient']
+msgid "Recipient"
+msgstr "Παραλήπτης"
+
+#: $string['templatename']
+msgid "Cohort name (from dashboard)"
+msgstr "Όνομα ομάδας χρηστών (από αρχική σελίδα)"
+
+#: $string['unissueddescription']
+msgid ""
+"These users have met the requirements for this certificate but have not yet "
+"been issued a certificate. Select those you would like to issue certificates "
+"for."
+msgstr ""
+
+#: $string['unissuedheader']
+msgid "Unissued certificates/badges"
+msgstr ""
+
+#: $string['usestemplatesdescription']
+msgid ""
+"Make sure you have a cohort on the dashboard with the same name as your "
+"achievement id."
+msgstr ""
+"Επιβεβαιώστε ότι έχετε μια ομάδα χρηστών στην αρχική σελίδα με το ίδιο όνομα "
+"με το αναγνωριστικό επιτεύγματος."
+
+#: $string['viewheader']
+msgid "Certificates & badges for {$a}"
+msgstr "Πιστοποιητικά & βραβεία για {$a}"
+
+#: $string['viewimgcomplete']
+msgid "Click to view your certificate or badge"
+msgstr "Παρακαλώ πατήστε για να δείτε το πιστοποιητικό ή το βραβείο σας"
+
+#: $string['viewimgincomplete']
+msgid "Course still in progress"
+msgstr ""
+
+#: $string['viewsubheader']
+msgid "Group ID: {$a}"
+msgstr ""
+
+#: $string['viewsubheaderold']
+msgid "Achievement ID: {$a}"
+msgstr ""

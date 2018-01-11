@@ -1,0 +1,2247 @@
+#. extracted from lang/en/questionnaire.php, lang/el/questionnaire.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:14+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'questionnaire', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   questionnaire
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['action']
+msgid "Action"
+msgstr "Ενέργεια"
+
+#: $string['activityoverview']
+msgid "You have questionnaires that are due"
+msgstr ""
+
+#: $string['additionalinfo']
+msgid "Additional Info"
+msgstr "Επιπρόσθετη πληροφορία"
+
+#: $string['additionalinfo_help']
+msgid ""
+"Text to be displayed at the top of the first page of this questionnaire. "
+"(i.e. instructions, background info, etc.)"
+msgstr ""
+
+#: $string['addnewquestion']
+msgid "Adding {$a} question"
+msgstr ""
+
+#: $string['addquestions']
+msgid "Add questions"
+msgstr "Πρόσθεσε ερωτήσεις"
+
+#: $string['addselqtype']
+msgid "Add selected question type"
+msgstr ""
+
+#: $string['alignment']
+msgid "Radio buttons Alignment"
+msgstr ""
+
+#: $string['alignment_help']
+msgid "Select buttons alignment: vertical (default) or horizontal."
+msgstr ""
+
+#: $string['alignment_link']
+msgctxt "$string['alignment_link']"
+msgid "mod/questionnaire/questions#Radio_Buttons"
+msgstr ""
+
+#: $string['all']
+msgid "All"
+msgstr "Όλα"
+
+#: $string['alreadyfilled']
+msgid "You have already filled out this questionnaire for us{$a}. Thank you."
+msgstr ""
+
+#: $string['andaveragevalues']
+msgid "and average values"
+msgstr ""
+
+#: $string['anonymous']
+msgid "Anonymous"
+msgstr ""
+
+#: $string['answergiven']
+msgid "This answer given"
+msgstr ""
+
+#: $string['answernotgiven']
+msgid "This answer not given"
+msgstr ""
+
+#: $string['answerquestions']
+msgid "Answer the questions..."
+msgstr "Απάντησε τις ερωτήσεις..."
+
+#: $string['attempted']
+msgid "This questionnaire has been submitted."
+msgstr "Αυτό το ερωτηματολόγιο έχει υποβληθεί."
+
+#: $string['attemptstillinprogress']
+msgid "In progress. Saved on:"
+msgstr ""
+
+#: $string['autonumbering']
+msgid "Auto numbering"
+msgstr "Αυτόματη αρίθμηση"
+
+#: $string['autonumbering_help']
+msgid ""
+"Automatic numbering of questions and pages. You might want to disable "
+"automatic numbering\n"
+" for questionnaires with conditional branching."
+msgstr ""
+
+#: $string['autonumberno']
+msgid "Do not number questions or pages"
+msgstr ""
+
+#: $string['autonumberpages']
+msgid "Auto number pages"
+msgstr ""
+
+#: $string['autonumberpagesandquestions']
+msgid "Auto number pages and questions"
+msgstr ""
+
+#: $string['autonumberquestions']
+msgid "Auto number questions"
+msgstr ""
+
+#: $string['average']
+msgid "Average"
+msgstr ""
+
+#: $string['averageposition']
+msgid "Average position"
+msgstr ""
+
+#: $string['averagerank']
+msgid "Average rank"
+msgstr ""
+
+#: $string['bodytext']
+msgid "Body text"
+msgstr ""
+
+#: $string['boxesnbexact']
+msgid "exactly {$a} box(es)."
+msgstr ""
+
+#: $string['boxesnbmax']
+msgid "a maximum of {$a} box(es)."
+msgstr ""
+
+#: $string['boxesnbmin']
+msgid "a minimum of {$a} box(es)."
+msgstr ""
+
+#: $string['boxesnbreq']
+msgid "For this question you must tick"
+msgstr ""
+
+#: $string['by']
+msgid "by"
+msgstr ""
+
+#: $string['cannotviewpublicresponses']
+msgid "You cannot view responses to this public questionnaire."
+msgstr ""
+
+#: $string['chart:bipolar']
+msgid "Bipolar bars"
+msgstr ""
+
+#: $string['chart:hbar']
+msgid "Horizontal bars"
+msgstr ""
+
+#: $string['chart:radar']
+msgid "Radar"
+msgstr ""
+
+#: $string['chart:rose']
+msgid "Rose"
+msgstr ""
+
+#: $string['chart:type']
+msgid "Chart type"
+msgstr ""
+
+#: $string['chart:type_help']
+msgid "Select the Chart type you want to use for this feedback"
+msgstr ""
+
+#: $string['chart:vprogress']
+msgid "Vertical Progress bar"
+msgstr ""
+
+#: $string['checkallradiobuttons']
+msgid "Please check <strong>{$a}</strong> radio buttons!"
+msgstr ""
+
+#: $string['checkboxes']
+msgid "Check Boxes"
+msgstr ""
+
+#: $string['checkboxes_help']
+msgid ""
+"Enter one option per line for the user to select one or multiple answers "
+"from."
+msgstr ""
+
+#: $string['checkboxes_link']
+msgid "mod/questionnaire/questions#Check_Boxes"
+msgstr ""
+
+#: $string['checkbreaksadded']
+msgid "New Page Break(s) inserted at position(s):"
+msgstr ""
+
+#: $string['checkbreaksok']
+msgid "All the required Page breaks are present!"
+msgstr ""
+
+#: $string['checkbreaksremoved']
+msgid "Removed {$a} extra Page break(s)."
+msgstr ""
+
+#: $string['checknotstarted']
+msgid "Select not started"
+msgstr ""
+
+#: $string['checkstarted']
+msgid "Select started"
+msgstr ""
+
+#: $string['clicktoswitch']
+msgid "(click to switch)"
+msgstr ""
+
+#: $string['closed']
+msgid "The questionnaire was closed on {$a}. Thanks."
+msgstr ""
+
+#: $string['closedate']
+msgid "Use Close Date"
+msgstr ""
+
+#: $string['closedate_help']
+msgid ""
+"You can specify a date to close the questionnaire here. Check the check box, "
+"and select the date and time you want.\n"
+" Users will not be able to fill out the questionnaire after that date. If "
+"this is not selected, it will never be closed."
+msgstr ""
+
+#: $string['closeson']
+msgid "Questionnaire closes on {$a}"
+msgstr ""
+
+#: $string['completionsubmit']
+msgid "Student must submit this questionnaire to complete it"
+msgstr ""
+
+#: $string['condition']
+msgid "Condition"
+msgstr ""
+
+#: $string['confalts']
+msgid "- OR - <br />Confirmation page"
+msgstr ""
+
+#: $string['configmaxsections']
+msgid "Maximum feedback sections"
+msgstr ""
+
+#: $string['configusergraph']
+msgid "Display charts for \"Personality Test\" feedback"
+msgstr ""
+
+#: $string['configusergraphlong']
+msgid ""
+"Use the <a href=\"http://www.rgraph.net/\">Rgraph</a> library to display "
+"\"Personality Test\" feedback charts."
+msgstr ""
+
+#: $string['confirmdelallresp']
+msgid ""
+"Are you sure you want to delete ALL the responses in this questionnaire?"
+msgstr ""
+
+#: $string['confirmdelchildren']
+msgid ""
+"If you delete this question, its child(ren) question(s) will also be "
+"deleted:"
+msgstr ""
+
+#: $string['confirmdelgroupresp']
+msgid "Are you sure you want to delete ALL the responses of {$a}?"
+msgstr ""
+
+#: $string['confirmdelquestion']
+msgid "Are you sure you want to delete the question at position {$a}?"
+msgstr ""
+
+#: $string['confirmdelquestionresps']
+msgid ""
+"This will also delete the {$a} response(s) already given to that question."
+msgstr ""
+
+#: $string['confirmdelresp']
+msgid "Are you sure you want to delete the response by&nbsp;{$a}&nbsp;?"
+msgstr ""
+
+#: $string['confpage']
+msgctxt "$string['confpage']"
+msgid "Heading text"
+msgstr ""
+
+#: $string['confpagedesc']
+msgid ""
+"Heading (in bold) and body text for the &quot;Confirmation&quot; page "
+"displayed after a user completes this questionnaire. (URL, if present, takes "
+"precedence over confirmation text.)"
+msgstr ""
+
+#: $string['confpage_help']
+msgid ""
+"Heading (in bold) and body text for the \"Confirmation\" page displayed after "
+"a user completes this questionnaire. (URL, if present, takes precedence over "
+"confirmation text.) If you leave this field empty, a default message will "
+"be displayed upon questionnaire completion (Thank you for completing this "
+"Questionnaire)."
+msgstr ""
+
+#: $string['contentoptions']
+msgid "Content options"
+msgstr ""
+
+#: $string['couldnotcreatenewsurvey']
+msgid "Could not create a new survey!"
+msgstr ""
+
+#: $string['couldnotdelresp']
+msgid "Could not delete response"
+msgstr ""
+
+#: $string['createcontent']
+msgid "Define New Content"
+msgstr ""
+
+#: $string['createcontent_help']
+msgid "Select one of the radio button options. 'Create new' is the default."
+msgstr ""
+
+#: $string['createcontent_link']
+msgid "mod/questionnaire/mod#Content_Options"
+msgstr ""
+
+#: $string['createnew']
+msgid "Create new"
+msgstr ""
+
+#: $string['crontask']
+msgid "Questionnaire cleanup job"
+msgstr ""
+
+#: $string['date']
+msgid "Date"
+msgstr ""
+
+#: $string['dateformatting']
+msgid ""
+"Use the day/month/year format, e.g. for March 14th, 1945:&nbsp; "
+"<strong>14/3/1945</strong>"
+msgstr ""
+
+#: $string['date_help']
+msgid ""
+"Use this question type if you expect the response to be a correctly "
+"formatted date."
+msgstr ""
+
+#: $string['date_link']
+msgid "mod/questionnaire/questions#Date"
+msgstr ""
+
+#: $string['deleteallresponses']
+msgid "Delete ALL Responses"
+msgstr ""
+
+#: $string['deletecurrentquestion']
+msgid "Delete question {$a}"
+msgstr ""
+
+#: $string['deletedallgroupresp']
+msgid "Deleted ALL Responses in group {$a}"
+msgstr ""
+
+#: $string['deletedallresp']
+msgid "Questionnaire responses deleted"
+msgstr ""
+
+#: $string['deletedisabled']
+msgid "This item cannot be deleted"
+msgstr ""
+
+#: $string['deletedresp']
+msgid "Deleted Response"
+msgstr ""
+
+#: $string['deleteresp']
+msgid "Delete this Response"
+msgstr ""
+
+#: $string['deletingresp']
+msgid "Deleting Response"
+msgstr ""
+
+#: $string['dependencies']
+msgid "Dependencies"
+msgstr ""
+
+#: $string['dependquestion']
+msgid "Parent Question"
+msgstr "Γονική Ερώτηση"
+
+#: $string['dependquestion_help']
+msgid ""
+"You can select a parent question and a choice option for this question. A "
+"child question will only be displayed\n"
+"                to the student if its parent question and parent choice have "
+"been previously selected."
+msgstr ""
+
+#: $string['dependquestion_link']
+msgid "mod/questionnaire/questions#Parent_Question"
+msgstr ""
+
+#: $string['directwarnings']
+msgid "Direct dependencies to this question will be removed. This will affect:"
+msgstr ""
+
+#: $string['displaymethod']
+msgid "Display method not defined for question."
+msgstr ""
+
+#: $string['download']
+msgid "Download"
+msgstr "Λήψη"
+
+#: $string['downloadtextformat']
+msgid "Download in text format"
+msgstr "Λήψη σε μορφή κειμένου"
+
+#: $string['downloadtextformat_help']
+msgid ""
+"This feature enables you to save all the responses of a questionnaire to a "
+"text file (CSV).\n"
+" This file can then be imported into a spreadsheet (e.g. MS Excel or Open "
+"Office Calc) or a statistical package for further processing the data."
+msgstr ""
+
+#: $string['downloadtextformat_link']
+msgid "mod/questionnaire/report#Download_in_text_format"
+msgstr ""
+
+#: $string['dropdown']
+msgid "Dropdown Box"
+msgstr ""
+
+#: $string['dropdown_help']
+msgid ""
+"There is no real advantage to using the Dropdown Box over using the Radio "
+"Buttons\n"
+" except perhaps for longish lists of options, to save screen space."
+msgstr ""
+
+#: $string['dropdown_link']
+msgid "mod/questionnaire/questions#Dropdown_Box"
+msgstr ""
+
+#: $string['edit']
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: $string['editingquestionnaire']
+msgid "Editing Questionnaire Settings"
+msgstr ""
+
+#: $string['editquestion']
+msgid "Editing {$a} question"
+msgstr ""
+
+#: $string['email']
+msgid "Email"
+msgstr ""
+
+#: $string['errnewname']
+msgid "Sorry, name already in use. Pick a new name."
+msgstr ""
+
+#: $string['erroropening']
+msgid "Error opening questionnaire."
+msgstr ""
+
+#: $string['errortable']
+msgid "Error system table corrupt."
+msgstr ""
+
+#: $string['essaybox']
+msgid "Essay Box"
+msgstr ""
+
+#: $string['essaybox_help']
+msgid ""
+"This question will display a plain text box with x Textarea columns (or area "
+"width) and y Textarea rows (number of text lines).\n"
+"\n"
+"If you leave both x and y to their default 0 value (or if you set it to 0), "
+"then moodle's HTML editor will be displayed\n"
+" with standard height and width (if available in the course/user context & "
+"user profile)."
+msgstr ""
+
+#: $string['event_all_responses_deleted']
+msgid "All Responses deleted"
+msgstr ""
+
+#: $string['event_all_responses_saved_as_text']
+msgid "All Responses saved as text"
+msgstr ""
+
+#: $string['event_all_responses_viewed']
+msgid "All Responses report viewed"
+msgstr ""
+
+#: $string['event_individual_responses_viewed']
+msgid "Individual Responses report viewed"
+msgstr ""
+
+#: $string['event_non_respondents_viewed']
+msgid "Non-respondents viewed"
+msgstr ""
+
+#: $string['event_previewed']
+msgid "Questionnaire previewed"
+msgstr ""
+
+#: $string['event_question_created']
+msgid "Question created"
+msgstr ""
+
+#: $string['event_question_deleted']
+msgid "Question deleted"
+msgstr ""
+
+#: $string['event_response_deleted']
+msgid "Individual Response deleted"
+msgstr ""
+
+#: $string['event_resumed']
+msgid "Attempt resumed"
+msgstr ""
+
+#: $string['event_saved']
+msgid "Responses saved"
+msgstr ""
+
+#: $string['event_submitted']
+msgid "Responses submitted"
+msgstr ""
+
+#: $string['feedback']
+msgid "Feedback"
+msgstr ""
+
+#: $string['feedbackaddmorefeedbacks']
+msgid "Add {no} more feedback fields"
+msgstr ""
+
+#: $string['feedbackbysection']
+msgid "Sections Feedback"
+msgstr ""
+
+#: $string['feedbackeditingglobal']
+msgid "Editing Questionnaire Global Feedback"
+msgstr ""
+
+#: $string['feedbackeditingmessages']
+msgid "Editing Questionnaire Feedback Messages"
+msgstr ""
+
+#: $string['feedbackeditingsections']
+msgid "Editing Questionnaire Feedback Sections"
+msgstr ""
+
+#: $string['feedbackeditmessages']
+msgid "Save Sections settings and edit Feedback Messages"
+msgstr ""
+
+#: $string['feedbackeditsections']
+msgid "Save settings and edit Feedback Sections"
+msgstr ""
+
+#: $string['feedbackerrorboundaryformat']
+msgid ""
+"Feedback score boundaries must be either a percentage or a number. The value "
+"you entered in boundary {$a} is not recognised."
+msgstr ""
+
+#: $string['feedbackerrorboundaryoutofrange']
+msgid ""
+"Feedback score boundaries must be between 0% and 100%. The value you entered "
+"in boundary {$a} is out of range."
+msgstr ""
+
+#: $string['feedbackerrorjunkinboundary']
+msgid ""
+"You must fill in the feedback score boundary boxes without leaving any gaps."
+msgstr ""
+
+#: $string['feedbackerrorjunkinfeedback']
+msgid "You must fill in the feedback boxes without leaving any gaps."
+msgstr ""
+
+#: $string['feedbackerrororder']
+msgid ""
+"Feedback score boundaries must be in order, highest first. The value you "
+"entered in boundary {$a} is out of sequence."
+msgstr ""
+
+#: $string['feedbackglobal']
+msgid "Global Feedback"
+msgstr ""
+
+#: $string['feedbackglobalheading']
+msgid "Global Feedback heading"
+msgstr ""
+
+#: $string['feedbackglobalmessages']
+msgid "Global Feedback messages"
+msgstr ""
+
+#: $string['feedbackhdr']
+msgid "Feedbacks"
+msgstr ""
+
+#: $string['feedbackheading']
+msgid "Feedback heading"
+msgstr ""
+
+#: $string['feedbackheading_help']
+msgid ""
+"In the feedback heading field you can use 2 variables: $scorepercent and "
+"$oppositescorepercent."
+msgstr ""
+
+#: $string['feedback_help']
+msgid "Feedback Help"
+msgstr ""
+
+#: $string['feedback_link']
+msgid ""
+"mod/questionnaire/personality_test#Editing_Questionnaire_Feedback_Messages"
+msgstr ""
+
+#: $string['feedbackmessages']
+msgid "Feedback messages for section {$a}"
+msgstr ""
+
+#: $string['feedbacknextsection']
+msgid "Next section {$a}"
+msgstr ""
+
+#: $string['feedbacknone']
+msgid "No Feedback messages"
+msgstr ""
+
+#: $string['feedbacknotes']
+msgid "Feedback notes"
+msgstr ""
+
+#: $string['feedbacknotes_help']
+msgid ""
+"Text entered here will be displayed to the respondents at the end of their "
+"Feedback Report"
+msgstr ""
+
+#: $string['feedbackoptions']
+msgid "Feedback options"
+msgstr ""
+
+#: $string['feedbackoptions_help']
+msgid ""
+"Feedback options are available if your questionnaire contains the following "
+"question types and question settings:\n"
+"Radio buttons; Dropdown box or Rate. Those questions must be set as "
+"Required, their Question Name field must NOT be empty and the Possible "
+"answers choices must contain a value."
+msgstr ""
+
+#: $string['feedbackoptions_link']
+msgid "mod/questionnaire/personality_test"
+msgstr ""
+
+#: $string['feedbackremovequestionfromsection']
+msgid "This question is part of feedback section [{$a}]"
+msgstr ""
+
+#: $string['feedbackremovesection']
+msgid "Removing this question will completely remove feedback section [{$a}]"
+msgstr ""
+
+#: $string['feedbackreport']
+msgid "Feedback Report"
+msgstr ""
+
+#: $string['feedbackscore']
+msgid "Feedback Score"
+msgstr ""
+
+#: $string['feedbackscoreboundary']
+msgid "Feedback Score boundary"
+msgstr ""
+
+#: $string['feedbackscores']
+msgid "Display Scores"
+msgstr ""
+
+#: $string['feedbackscores_help']
+msgid "Display the table of feedback scores"
+msgstr ""
+
+#: $string['feedbacksection']
+msgid "Section"
+msgstr ""
+
+#: $string['feedbacksectionheading']
+msgid "Feedback heading for section {$a}"
+msgstr ""
+
+#: $string['feedbacksectionheadingmissing']
+msgid "You must enter a Heading for this Feedback section!"
+msgstr ""
+
+#: $string['feedbacksectionheadingtext']
+msgid "Heading"
+msgstr ""
+
+#: $string['feedbacksectionlabel']
+msgctxt "$string['feedbacksectionlabel']"
+msgid "Label"
+msgstr "Ετικέτα"
+
+#: $string['feedbacksectionlabel_help']
+msgid ""
+"This label will be used in the charts/diagrams. Please keep it as short as "
+"possible!"
+msgstr ""
+
+#: $string['feedbacksections']
+msgid "{$a} Feedback sections"
+msgstr ""
+
+#: $string['feedbacksectionsselect']
+msgid "Sections"
+msgstr ""
+
+#: $string['feedbacksectionsselect_help']
+msgid "Place your questions into those Sections"
+msgstr ""
+
+#: $string['feedbacksectionsselect_link']
+msgid ""
+"mod/questionnaire/personality_test#Editing_Questionnaire_Feedback_Sections_2"
+msgstr ""
+
+#: $string['feedbacksettingssaved']
+msgid "Feedback settings saved"
+msgstr ""
+
+#: $string['feedbacktype']
+msgid "Feedback type"
+msgstr ""
+
+#: $string['field']
+msgid "Question {$a}"
+msgstr ""
+
+#: $string['fieldlength']
+msgid "Input box length"
+msgstr ""
+
+#: $string['fieldlength_help']
+msgid ""
+"For the **Text Box** question type, enter the **Input Box length** and the "
+"**Maximum text length** of text to be entered by\n"
+"respondent.\n"
+"\n"
+"Default values are 20 characters for the Input Box width and 25 characters "
+"for the maximum length of text entered."
+msgstr ""
+
+#: $string['finished']
+msgid "You have answered all the questions in this questionnaire!"
+msgstr ""
+
+#: $string['firstrespondent']
+msgid "First Respondent"
+msgstr ""
+
+#: $string['formateditor']
+msgid "HTML editor"
+msgstr ""
+
+#: $string['formatplain']
+msgid "Plain text"
+msgstr ""
+
+#: $string['grade']
+msgid "Submission grade"
+msgstr ""
+
+#: $string['gradesdeleted']
+msgid "Questionnaire grades deleted"
+msgstr ""
+
+#: $string['headingtext']
+msgctxt "$string['headingtext']"
+msgid "Heading text"
+msgstr ""
+
+#: $string['horizontal']
+msgid "Horizontal"
+msgstr ""
+
+#: $string['id']
+msgid "ID"
+msgstr ""
+
+#: $string['includechoicecodes']
+msgid "Include choice codes"
+msgstr ""
+
+#: $string['includechoicetext']
+msgid "Include choice text"
+msgstr ""
+
+#: $string['incorrectcourseid']
+msgid "Course ID is incorrect"
+msgstr ""
+
+#: $string['incorrectmodule']
+msgid "Course Module ID was incorrect"
+msgstr ""
+
+#: $string['incorrectquestionnaire']
+msgid "Questionnaire is incorrect"
+msgstr ""
+
+#: $string['indirectwarnings']
+msgid ""
+"This list shows the indirect dependent questions and the remaining "
+"dependencies for direct dependent questions:"
+msgstr ""
+
+#: $string['invalidresponse']
+msgid "Invalid response specified."
+msgstr ""
+
+#: $string['invalidresponserecord']
+msgid "Invalid response record specified."
+msgstr ""
+
+#: $string['invalidsurveyid']
+msgid "Invalid questionnaire ID."
+msgstr ""
+
+#: $string['kindofratescale']
+msgid "Type of rate scale"
+msgstr ""
+
+#: $string['kindofratescale_help']
+msgid "Right-click on the More Help link below."
+msgstr ""
+
+#: $string['kindofratescale_link']
+msgid "mod/questionnaire/questions#Type_of_rate_scale"
+msgstr ""
+
+#: $string['lastrespondent']
+msgid "Last Respondent"
+msgstr ""
+
+#: $string['length']
+msgid "Length"
+msgstr ""
+
+#: $string['managequestions']
+msgid "Manage questions"
+msgstr ""
+
+#: $string['managequestions_help']
+msgid ""
+"In the Manage questions section of the Edit Questions page, you can conduct "
+"a number of operations on a Questionnaire's questions."
+msgstr ""
+
+#: $string['managequestions_link']
+msgid "mod/questionnaire/questions#Manage_questions"
+msgstr ""
+
+#: $string['mandatory']
+msgid "Mandatory - All these dependencies must be fulfilled."
+msgstr ""
+
+#: $string['maxdigitsallowed']
+msgid "Max. digits allowed"
+msgstr ""
+
+#: $string['maxdigitsallowed_help']
+msgid ""
+"Use **Max. digits allowed** to set a limit to the number of characters "
+"entered for a Numeric question. Note that the\n"
+"decimal point also counts as one character!"
+msgstr ""
+
+#: $string['maxdigitsallowed_link']
+msgctxt "$string['maxdigitsallowed_link']"
+msgid "mod/questionnaire/questions#Numeric"
+msgstr ""
+
+#: $string['maxforcedresponses']
+msgid "Max. forced responses"
+msgstr ""
+
+#: $string['maxforcedresponses_help']
+msgctxt "$string['maxforcedresponses_help']"
+msgid ""
+"Use these parameters to force respondent to tick a minimum of **Min.** boxes "
+"and a maximum of **Max.** check boxes. To\n"
+"force an exact number of check boxes to be ticked, set **Min.** and **Max.** "
+"to the same value. If only a min or a max value is desired, just leave the "
+"other\n"
+"value to its default **0** value. If you set **Min.** or **Max.** to values "
+"other than their default **0** value, a warning message will be displayed if\n"
+"respondent does not comply with your requirements. Obviously you should make "
+"any requirements clear to the respondent either in the general instructions "
+"of\n"
+"your Questionnaire or in the text of relevant questions."
+msgstr ""
+
+#: $string['maxtextlength']
+msgid "Max. text length"
+msgstr ""
+
+#: $string['maxtextlength_help']
+msgctxt "$string['maxtextlength_help']"
+msgid ""
+"For the Text Box question type, enter the Input Box length and the Maximum "
+"text length of text to be entered by respondent.\n"
+"Default values are 20 characters for the Input Box width and 25 characters "
+"for the maximum length of text entered."
+msgstr ""
+
+#: $string['messageprovider:message']
+msgid "Questionnaire reminder"
+msgstr ""
+
+#: $string['messageprovider:notification']
+msgid "Questionnaire submission"
+msgstr ""
+
+#: $string['minforcedresponses']
+msgid "Min. forced responses"
+msgstr ""
+
+#: $string['minforcedresponses_help']
+msgctxt "$string['minforcedresponses_help']"
+msgid ""
+"Use these parameters to force respondent to tick a minimum of **Min.** boxes "
+"and a maximum of **Max.** check boxes. To\n"
+"force an exact number of check boxes to be ticked, set **Min.** and **Max.** "
+"to the same value. If only a min or a max value is desired, just leave the "
+"other\n"
+"value to its default **0** value. If you set **Min.** or **Max.** to values "
+"other than their default **0** value, a warning message will be displayed if\n"
+"respondent does not comply with your requirements. Obviously you should make "
+"any requirements clear to the respondent either in the general instructions "
+"of\n"
+"your Questionnaire or in the text of relevant questions."
+msgstr ""
+
+#: $string['misconfigured']
+msgid "Course is misconfigured"
+msgstr ""
+
+#: $string['missingname']
+msgid ""
+"Question {$a} cannot be used in this feedback section because it does not "
+"have a name."
+msgstr ""
+
+#: $string['missingnameandrequired']
+msgid ""
+"Question {$a} cannot be used in this feedback section because it does not "
+"have a name and it is not required."
+msgstr ""
+
+#: $string['missingquestion']
+msgid "Please answer Required question"
+msgstr ""
+
+#: $string['missingquestions']
+msgid "Please answer Required questions:"
+msgstr ""
+
+#: $string['missingrequired']
+msgid ""
+"Question {$a} cannot be used in this feedback section because it is not "
+"required."
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Questionnaire"
+msgstr "Ερωτηματολόγιο"
+
+#: $string['modulename_help']
+msgid ""
+"The questionnaire module allows you to construct surveys using a variety of "
+"question types, for the purpose of gathering data from users."
+msgstr ""
+"Η δραστηριότητα ερωτηματολόγιο σας επιτρέπει να δημιουργείτε και να "
+"διεξάγετε έρευνες χρησιμοποιώντας μία ποικιλία τύπων ερωτήσεων προκειμένου "
+"να συγκεντρώσετε δεδομένα από τους χρήστες."
+
+#: $string['modulenameplural']
+msgid "Questionnaires"
+msgstr "Ερωτηματολόγια"
+
+#: $string['movedisabled']
+msgid "This item cannot be moved"
+msgstr ""
+
+#: $string['myresponses']
+msgid "All your responses"
+msgstr ""
+
+#: $string['myresponsetitle']
+msgid "Your {$a} response(s)"
+msgstr ""
+
+#: $string['myresults']
+msgid "Your Results"
+msgstr ""
+
+#: $string['name']
+msgid "Name"
+msgstr ""
+
+#: $string['navigate']
+msgid "Allow branching questions"
+msgstr ""
+
+#: $string['navigate_help']
+msgid ""
+"Enable Yes/No and Radio Buttons questions to have Child questions dependent "
+"on their choices in your questionnaire."
+msgstr ""
+
+#: $string['navigate_link']
+msgid "mod/questionnaire/conditional_branching"
+msgstr ""
+
+#: $string['next']
+msgid "Next"
+msgstr ""
+
+#: $string['nextpage']
+msgid "Next Page"
+msgstr ""
+
+#: $string['nlines']
+msgid "{$a} lines"
+msgstr ""
+
+#: $string['noanswer']
+msgid "No answer"
+msgstr ""
+
+#: $string['noattempts']
+msgid "No attempts have been made on this questionnaire"
+msgstr ""
+
+#: $string['nodata']
+msgid "No data posted."
+msgstr ""
+
+#: $string['noduplicates']
+msgid "No duplicate choices"
+msgstr ""
+
+#: $string['noduplicateschoiceserror']
+msgid ""
+"You must enter at least 2 Possible answers for the \"No duplicate choices\" "
+"option!"
+msgstr ""
+
+#: $string['noneinuse']
+msgid "This questionnaire does not contain any questions."
+msgstr ""
+
+#: $string['non_respondents']
+msgid "Users who have not yet submitted their responses to this questionnaire"
+msgstr ""
+
+#: $string['nopublicsurveys']
+msgid "No public questionnaires."
+msgstr ""
+
+#: $string['noresponsedata']
+msgid "No responses for this question."
+msgstr ""
+
+#: $string['noresponses']
+msgid "No responses"
+msgstr ""
+
+#: $string['normal']
+msgid "Normal"
+msgstr ""
+
+#: $string['notanumber']
+msgid "<strong>{$a}</strong> is not an accepted number format."
+msgstr ""
+
+#: $string['notapplicable']
+msgid "N/A"
+msgstr ""
+
+#: $string['notapplicablecolumn']
+msgid "N/A column"
+msgstr ""
+
+#: $string['notavail']
+msgid ""
+"This questionnaire is no longer available. Ask your teacher to delete it."
+msgstr ""
+
+#: $string['noteligible']
+msgid "You are not eligible to take this questionnaire."
+msgstr ""
+
+#: $string['notemplatesurveys']
+msgid "No template questionnaires."
+msgstr ""
+
+#: $string['notenoughscaleitems']
+msgid "You must enter a minimum value of 2 scale items!"
+msgstr ""
+
+#: $string['notifications']
+msgid "Send submission notifications"
+msgstr ""
+
+#: $string['notifications_help']
+msgid ""
+"Notify roles with the \"mod/questionnaire:submissionnotification\" capability "
+"when a submission is made."
+msgstr ""
+
+#: $string['notifications_link']
+msgid "mod/questionnaire/mod#Submission_Notifications"
+msgstr ""
+
+#: $string['notopen']
+msgid "This questionnaire will not open until {$a}."
+msgstr ""
+
+#: $string['notrequired']
+msgid "Response is not required"
+msgstr ""
+
+#: $string['notset']
+msgid "not set"
+msgstr ""
+
+#: $string['not_started']
+msgid "not started"
+msgstr ""
+
+#: $string['nousersselected']
+msgid "No users selected"
+msgstr ""
+
+#: $string['num']
+msgid "#"
+msgstr ""
+
+#: $string['numattemptsmade']
+msgid "{$a} attempts made on this questionnaire"
+msgstr ""
+
+#: $string['numberfloat']
+msgid ""
+"The number you entered <strong>{$a->number}</strong> has been "
+"reformatted/rounded with <strong>{$a->precision}</strong> decimal place(s)."
+msgstr ""
+
+#: $string['numberofdecimaldigits']
+msgid "Nb of decimal digits"
+msgstr ""
+
+#: $string['numberofdecimaldigits_help']
+msgid ""
+"Use **Nb of decimal digits** to specify the format of the Average value "
+"counted and displayed at the Questionnaire Report page."
+msgstr ""
+
+#: $string['numberofdecimaldigits_link']
+msgctxt "$string['numberofdecimaldigits_link']"
+msgid "mod/questionnaire/questions#Numeric"
+msgstr ""
+
+#: $string['numberscaleitems']
+msgid "Nb of scale items"
+msgstr ""
+
+#: $string['numberscaleitems_help']
+msgid ""
+"Nb of scale items is the *number of items* to be used in your rate scale. "
+"You would normally use a value of 3 to 5. Default value: **5**."
+msgstr ""
+
+#: $string['numeric']
+msgid "Numeric"
+msgstr ""
+
+#: $string['numeric_help']
+msgid ""
+"Use this question type if you expect the response to be a correctly "
+"formatted number."
+msgstr ""
+
+#: $string['of']
+msgid "of"
+msgstr ""
+
+#: $string['opendate']
+msgid "Use Open Date"
+msgstr ""
+
+#: $string['opendate_help']
+msgid ""
+"You can specify a date to open the questionnaire here. Check the check box, "
+"and select the date and time you want.\n"
+" Users will not be able to fill out the questionnaire before that date. If "
+"this is not selected, it will be open immediately."
+msgstr ""
+
+#: $string['option']
+msgid "option {$a}"
+msgstr ""
+
+#: $string['optional']
+msgid "Optional - At least one of this dependencies has to be fulfilled."
+msgstr ""
+
+#: $string['optionalname']
+msgid "Question Name"
+msgstr ""
+
+#: $string['optionalname_help']
+msgid ""
+"The Question Name is only used when you export responses to CSV/Excel "
+"format.\n"
+" If you never export to CSV, then you needn't worry about Question names at "
+"all.\n"
+" If you plan to regularly export your questionnaire data to CSV, then you "
+"have a choice of two options for question naming."
+msgstr ""
+
+#: $string['optionalname_link']
+msgid "mod/questionnaire/questions#Question_Name"
+msgstr ""
+
+#: $string['or']
+msgid "- OR -"
+msgstr ""
+
+#: $string['order_ascending']
+msgid "Ascending order"
+msgstr ""
+
+#: $string['order_default']
+msgid "View Default order"
+msgstr ""
+
+#: $string['order_descending']
+msgid "Descending order"
+msgstr ""
+
+#: $string['orderresponses']
+msgid "Order Responses"
+msgstr ""
+
+#: $string['orderresponses_help']
+msgid ""
+"When displaying All Responses you can order the choices by number of "
+"responses (the Average column) for the following\n"
+" 4 types of questions.\n"
+"\n"
+"* single choices radio button\n"
+"* single choices dropdown list\n"
+"* multiple choices (check boxes)\n"
+"* rate questions (including Likert scales).\n"
+"\n"
+"When you arrive on the All Responses page, by default all responses are "
+"ordered in the order that the questionnaire creator entered the question "
+"choices.\n"
+" You can choose to order them by ascending or descending order."
+msgstr ""
+
+#: $string['orderresponses_link']
+msgid "mod/questionnaire/report#Order_Responses"
+msgstr ""
+
+#: $string['osgood']
+msgid "Osgood"
+msgstr ""
+
+#: $string['other']
+msgid "Other:"
+msgstr ""
+
+#: $string['otherempty']
+msgid "If you tick this choice you must enter some text in the text box!"
+msgstr ""
+
+#: $string['overviewnumresplog']
+msgctxt "$string['overviewnumresplog']"
+msgid "responses"
+msgstr ""
+
+#: $string['overviewnumresplog1']
+msgctxt "$string['overviewnumresplog1']"
+msgid "response"
+msgstr ""
+
+#: $string['overviewnumrespvw']
+msgctxt "$string['overviewnumrespvw']"
+msgid "responses"
+msgstr ""
+
+#: $string['overviewnumrespvw1']
+msgctxt "$string['overviewnumrespvw1']"
+msgid "response"
+msgstr ""
+
+#: $string['owner']
+msgid "Owner"
+msgstr ""
+
+#: $string['page']
+msgid "Page"
+msgstr ""
+
+#: $string['pageof']
+msgid "Page {$a->page} of {$a->totpages}"
+msgstr ""
+
+#: $string['parent']
+msgid "Parent"
+msgstr ""
+
+#: $string['participant']
+msgid "Participant"
+msgstr "Συμμετέχοντας"
+
+#: $string['pleasecomplete']
+msgid "Please complete this choice."
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Questionnaire administration"
+msgstr "Διαχείριση ερωτηματολογίου"
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Questionnaire"
+msgstr "Ερωτηματολόγιο"
+
+#: $string['position']
+msgid "position"
+msgstr ""
+
+#: $string['possibleanswers']
+msgid "Possible answers"
+msgstr ""
+
+#: $string['posteddata']
+msgid "Reached page with posted data:"
+msgstr ""
+
+#: $string['previewing']
+msgid "Previewing Questionnaire"
+msgstr ""
+
+#: $string['preview_label']
+msgid "Preview"
+msgstr "Προεπισκόπηση"
+
+#: $string['preview_questionnaire']
+msgid "Questionnaire Preview"
+msgstr "Προεπισκόπηση Ερωτηματολογίου"
+
+#: $string['previous']
+msgid "Previous"
+msgstr ""
+
+#: $string['previouspage']
+msgid "Previous Page"
+msgstr ""
+
+#: $string['print']
+msgid "Print this Response"
+msgstr ""
+
+#: $string['printblank']
+msgid "Print Blank"
+msgstr ""
+
+#: $string['printblanktooltip']
+msgid "Opens printer-friendly window with blank Questionnaire"
+msgstr ""
+
+#: $string['printtooltip']
+msgid "Opens printer-friendly window with current Response"
+msgstr ""
+
+#: $string['private']
+msgid "Private"
+msgstr ""
+
+#: $string['public']
+msgid "Public"
+msgstr ""
+
+#: $string['publiccopy']
+msgid "Copy:"
+msgstr ""
+
+#: $string['publicoriginal']
+msgid "Original:"
+msgstr ""
+
+#: $string['qtype']
+msgid "Type"
+msgstr ""
+
+#: $string['qtypedaily']
+msgid "respond daily"
+msgstr ""
+
+#: $string['qtype_help']
+msgid ""
+"Select whether users will be allowed to respond once, daily, weekly, monthly "
+"or an unlimited number of times (many)."
+msgstr ""
+
+#: $string['qtypemonthly']
+msgid "respond monthly"
+msgstr ""
+
+#: $string['qtypeonce']
+msgid "respond once"
+msgstr ""
+
+#: $string['qtypeunlimited']
+msgid "respond many"
+msgstr ""
+
+#: $string['qtypeweekly']
+msgid "respond weekly"
+msgstr ""
+
+#: $string['questionnaire:addinstance']
+msgid "Add a new questionnaire"
+msgstr "Προσθήκη νέου ερωτηματολογίου"
+
+#: $string['questionnaireadministration']
+msgid "Questionnaire Administration"
+msgstr "Διαχείριση Ερωτηματολογίου"
+
+#: $string['questionnairecloses']
+msgid "Questionnaire Closes"
+msgstr ""
+
+#: $string['questionnaire:copysurveys']
+msgid "Copy template and private questionnaires"
+msgstr ""
+
+#: $string['questionnaire:createpublic']
+msgid "Create public questionnaires"
+msgstr ""
+
+#: $string['questionnaire:createtemplates']
+msgid "Create template questionnaires"
+msgstr ""
+
+#: $string['questionnaire:deleteresponses']
+msgid "Delete any response"
+msgstr ""
+
+#: $string['questionnaire:downloadresponses']
+msgid "Download responses in a CSV file"
+msgstr ""
+
+#: $string['questionnaire:editquestions']
+msgid "Create and edit questionnaire questions"
+msgstr ""
+
+#: $string['questionnaire:manage']
+msgid "Create and edit questionnaires"
+msgstr ""
+
+#: $string['questionnaire:message']
+msgid "Send message to non-respondents"
+msgstr ""
+
+#: $string['questionnaireopens']
+msgid "Questionnaire Opens"
+msgstr ""
+
+#: $string['questionnaire:preview']
+msgid "Preview questionnaires"
+msgstr "Προεπισκόπηση ερωτηματολογίων"
+
+#: $string['questionnaire:printblank']
+msgid "Print blank questionnaire"
+msgstr ""
+
+#: $string['questionnaire:readallresponseanytime']
+msgid "Read all responses any time"
+msgstr ""
+
+#: $string['questionnaire:readallresponses']
+msgid "Read response summaries, subject to open times"
+msgstr ""
+
+#: $string['questionnaire:readownresponses']
+msgid "Read own responses"
+msgstr ""
+
+#: $string['questionnairereport']
+msgid "Questionnaire Report"
+msgstr "Αναφορά Ερωτηματολογίου"
+
+#: $string['questionnaire:submissionnotification']
+msgid "Receive notification for each submission"
+msgstr ""
+
+#: $string['questionnaire:submit']
+msgid "Complete and submit a questionnaire"
+msgstr ""
+
+#: $string['questionnaire:view']
+msgid "View a questionnaire"
+msgstr ""
+
+#: $string['questionnaire:viewsingleresponse']
+msgid "View complete individual responses"
+msgstr ""
+
+#: $string['questionnum']
+msgid "Question #"
+msgstr ""
+
+#: $string['questions']
+msgid "Questions"
+msgstr ""
+
+#: $string['questionsinsection']
+msgid "Questions in this section:"
+msgstr ""
+
+#: $string['questiontypes']
+msgid "Question types"
+msgstr ""
+
+#: $string['questiontypes_help']
+msgctxt "$string['questiontypes_help']"
+msgid "See the Moodle Documentation below"
+msgstr ""
+
+#: $string['questiontypes_link']
+msgid "mod/questionnaire/questions#Question_Types"
+msgstr ""
+
+#: $string['radiobuttons']
+msgid "Radio Buttons"
+msgstr ""
+
+#: $string['radiobuttons_help']
+msgid ""
+"In this question type, the respondent must select one out of the choices "
+"offered."
+msgstr ""
+
+#: $string['radiobuttons_link']
+msgctxt "$string['radiobuttons_link']"
+msgid "mod/questionnaire/questions#Radio_Buttons"
+msgstr ""
+
+#: $string['rank']
+msgid "Rank"
+msgstr ""
+
+#: $string['ratescale']
+msgid "Rate (scale 1..5)"
+msgstr ""
+
+#: $string['ratescale_help']
+msgctxt "$string['ratescale_help']"
+msgid "See the Moodle Documentation below"
+msgstr ""
+
+#: $string['ratescale_link']
+msgid "mod/questionnaire/questions#Rate_.28scale_1..5.29"
+msgstr ""
+
+#: $string['realm']
+msgid "Questionnaire Type"
+msgstr "Τύπος Ερωτηματολογίου"
+
+#: $string['realm_help']
+msgid ""
+"* **There are  three types of questionnaires:**\n"
+" * Private - belongs to the course it is defined in only.\n"
+" * Template - can be copied and edited.\n"
+" * Public - can be shared among courses."
+msgstr ""
+
+#: $string['realm_link']
+msgid "mod/questionnaire/qsettings#Questionnaire_Type"
+msgstr ""
+
+#: $string['redirecturl']
+msgctxt "$string['redirecturl']"
+msgid ""
+"The URL to which a user is redirected after completing this questionnaire."
+msgstr ""
+
+#: $string['remove']
+msgid "Delete"
+msgstr ""
+
+#: $string['removeallquestionnaireattempts']
+msgid "Delete all questionnaire responses"
+msgstr ""
+
+#: $string['removenotinuse']
+msgid ""
+"This questionnaire used to depend on a Public questionnaire which has been "
+"deleted.\n"
+"It can no longer be used and should be deleted."
+msgstr ""
+
+#: $string['required']
+msgid "Response is required"
+msgstr ""
+
+#: $string['required_help']
+msgid ""
+"If you select ***Yes***, response to this question will be required, i.e.\n"
+"the respondent will not be able to submit the questionnaire\n"
+"until this question has been answered."
+msgstr ""
+
+#: $string['required_link']
+msgid "mod/questionnaire/questions#Response_Required"
+msgstr ""
+
+#: $string['requiredparameter']
+msgid "A required parameter was missing."
+msgstr ""
+
+#: $string['reset']
+msgid "Reset"
+msgstr ""
+
+#: $string['respeligiblerepl']
+msgid "(replaced by role overrides)"
+msgstr ""
+
+#: $string['respondent']
+msgid "Respondent"
+msgstr ""
+
+#: $string['respondenteligibleall']
+msgid "all"
+msgstr ""
+
+#: $string['respondenteligiblestudents']
+msgid "students only"
+msgstr ""
+
+#: $string['respondenteligibleteachers']
+msgid "teachers only"
+msgstr ""
+
+#: $string['respondents']
+msgid "Respondents"
+msgstr ""
+
+#: $string['respondenttype']
+msgid "Respondent Type"
+msgstr "Τύπος αποκρινόμενου"
+
+#: $string['respondenttypeanonymous']
+msgid "anonymous"
+msgstr ""
+
+#: $string['respondenttypefullname']
+msgid "fullname"
+msgstr ""
+
+#: $string['respondenttype_help']
+msgid ""
+"You can display your users' full names with each response by setting this to "
+"\"fullname\".\n"
+"You can hide your users' identities from the responses by setting this to "
+"\"anonymous\"."
+msgstr ""
+
+#: $string['respondenttype_link']
+msgid "mod/questionnaire/mod#Respondent_Type"
+msgstr ""
+
+#: $string['response']
+msgid "Response"
+msgstr ""
+
+#: $string['responsefieldlines']
+msgid "Input box size"
+msgstr ""
+
+#: $string['responseformat']
+msgid "Response format"
+msgstr ""
+
+#: $string['responseoptions']
+msgid "Response options"
+msgstr "Επιλογές απόκρισης"
+
+#: $string['responses']
+msgid "Responses"
+msgstr ""
+
+#: $string['responseview']
+msgid "Students can view ALL responses"
+msgstr "Οι μαθητές μπορούν να δουν όλες τις απαντήσεις"
+
+#: $string['responseview_help']
+msgid ""
+"You can specify who can see the responses of all respondents to submitted "
+"questionnaires (general statistics tables)."
+msgstr ""
+
+#: $string['responseview_link']
+msgid "mod/questionnaire/mod#Response_viewing"
+msgstr ""
+
+#: $string['responseviewstudentsalways']
+msgid "Always"
+msgstr ""
+
+#: $string['responseviewstudentsnever']
+msgid "Never"
+msgstr ""
+
+#: $string['responseviewstudentswhenanswered']
+msgid "After answering the questionnaire"
+msgstr ""
+
+#: $string['responseviewstudentswhenclosed']
+msgid "After the questionnaire is closed"
+msgstr ""
+
+#: $string['restrictedtoteacher']
+msgid "These functions are restricted to editing teachers only!"
+msgstr ""
+
+#: $string['resume']
+msgid "Save/Resume answers"
+msgstr "Αποθήκευση/Συνέχιση απαντήσεων"
+
+#: $string['resume_help']
+msgid ""
+"Setting this option allows users to save their answers to a questionnaire "
+"before submitting them.\n"
+" Users can leave the questionnaire unfinished and resume from the save point "
+"at a later date."
+msgstr ""
+
+#: $string['resume_link']
+msgid "mod/questionnaire/mod#Save/Resume_answers"
+msgstr ""
+
+#: $string['resumesurvey']
+msgid "Resume questionnaire"
+msgstr ""
+
+#: $string['return']
+msgid "Return"
+msgstr ""
+
+#: $string['save']
+msgid "Save"
+msgstr ""
+
+#: $string['saveasnew']
+msgid "Save as New Question"
+msgstr ""
+
+#: $string['savedbutnotsubmitted']
+msgid "This questionnaire has been saved but not yet submitted."
+msgstr ""
+
+#: $string['savedprogress']
+msgid ""
+"Your progress has been saved.  You may return at any time to complete this "
+"questionnaire."
+msgstr ""
+
+#: $string['saveeditedquestion']
+msgid "Save question {$a}"
+msgstr ""
+
+#: $string['savesettings']
+msgid "Save settings"
+msgstr ""
+
+#: $string['search:activity']
+msgid "Questionnaire - activity information"
+msgstr ""
+
+#: $string['search:question']
+msgid "Questionnaire - questions"
+msgstr ""
+
+#: $string['section']
+msgid "Description"
+msgstr ""
+
+#: $string['sectionbreak']
+msgctxt "$string['sectionbreak']"
+msgid "----- Page Break -----"
+msgstr ""
+
+#: $string['sectionbreak_help']
+msgctxt "$string['sectionbreak_help']"
+msgid "----- Page Break -----"
+msgstr ""
+
+#: $string['sectionsnotset']
+msgid ""
+"You must select at least ONE question per section!<br />Section(s) not "
+"selected: {$a}"
+msgstr ""
+
+#: $string['sectiontext']
+msgctxt "$string['sectiontext']"
+msgid "Label"
+msgstr "Ετικέτα"
+
+#: $string['sectiontext_help']
+msgid ""
+"This is not a question but a (short) text which will be displayed to "
+"introduce a series of questions."
+msgstr ""
+
+#: $string['selecttheme']
+msgid "Select a theme (css) to use with this questionnaire."
+msgstr ""
+
+#: $string['send']
+msgid "Send"
+msgstr ""
+
+#: $string['sendemail']
+msgid "Send email"
+msgstr ""
+
+#: $string['sendemail_help']
+msgid ""
+"Sends a copy of each submission to the specified address or addresses.\n"
+"You can provide more than one address by separating them with commas.\n"
+"Leave blank for no email backup."
+msgstr ""
+
+#: $string['send_message']
+msgid "Send message to selected users"
+msgstr ""
+
+#: $string['send_message_to']
+msgid "Send message to:"
+msgstr ""
+
+#: $string['set']
+msgid "set"
+msgstr ""
+
+#: $string['settings']
+msgid "Settings"
+msgstr ""
+
+#: $string['settingssaved']
+msgid "Settings saved"
+msgstr ""
+
+#: $string['show_nonrespondents']
+msgid "Non-respondents"
+msgstr ""
+
+#: $string['started']
+msgid "started"
+msgstr ""
+
+#: $string['strfdate']
+msgid "%d/%m/%Y"
+msgstr ""
+
+#: $string['strfdateformatcsv']
+msgid "d/m/Y H:i:s"
+msgstr ""
+
+#: $string['subject']
+msgid "Subject"
+msgstr ""
+
+#: $string['submissionnotificationhtmlanon']
+msgid ""
+"There is a new <a href=\"{$a->submissionurl}\">submission</a> to the "
+"\"{$a->name}\" questionnaire."
+msgstr ""
+
+#: $string['submissionnotificationhtmluser']
+msgid ""
+"There is a new <a href=\"{$a->submissionurl}\">submission</a> to the "
+"\"{$a->name}\" questionnaire from \"<a "
+"href=\"{$a->profileurl}\">{$a->username}</a>\"."
+msgstr ""
+
+#: $string['submissionnotificationsubject']
+msgid "New questionnaire submission"
+msgstr ""
+
+#: $string['submissionnotificationtextanon']
+msgid ""
+"There is a new submission ({$a->submissionurl}) to the \"{$a->name}\" "
+"questionnaire."
+msgstr ""
+
+#: $string['submissionnotificationtextuser']
+msgid ""
+"There is a new submission ({$a->submissionurl}) to the \"{$a->name}\" "
+"questionnaire from \"{$a->username}\" ({$a->profileurl})."
+msgstr ""
+
+#: $string['submitoptions']
+msgid "Submission options"
+msgstr ""
+
+#: $string['submitpreview']
+msgid "Submit preview"
+msgstr ""
+
+#: $string['submitpreviewcorrect']
+msgid "This submission would be accepted as correctly filled in."
+msgstr ""
+
+#: $string['submitsurvey']
+msgid "Submit questionnaire"
+msgstr "Υποβολή ερωτηματολογίου"
+
+#: $string['submitted']
+msgid "Submitted on:"
+msgstr ""
+
+#: $string['subtitle']
+msgid "Subtitle"
+msgstr ""
+
+#: $string['subtitle_help']
+msgid ""
+"Subtitle of this questionnaire. Appears below the title on the first page "
+"only."
+msgstr ""
+
+#: $string['summary']
+msgid "Summary"
+msgstr "Σύνοψη"
+
+#: $string['surveynotexists']
+msgid "questionnaire does not exist."
+msgstr ""
+
+#: $string['surveyowner']
+msgid "You must be a questionnaire owner to perform this operation."
+msgstr ""
+
+#: $string['surveyresponse']
+msgid "Response from questionnaire"
+msgstr ""
+
+#: $string['template']
+msgid "Template"
+msgstr ""
+
+#: $string['templatenotviewable']
+msgid "Template questionnaires are not viewable."
+msgstr ""
+
+#: $string['text']
+msgid "Question Text"
+msgstr ""
+
+#: $string['textareacolumns']
+msgid "Textarea columns"
+msgstr ""
+
+#: $string['textareacolumns_help']
+msgid ""
+"This question will display a plain text box with **x** *Textarea columns* "
+"(or area *width*) and **y** *Textarea rows* (number of text\n"
+"*lines*).\n"
+"If you leave both x and y to their default **0** value (or if you set it to "
+"**0**), then HTML editor will be displayed with standard height and width "
+"(if\n"
+"available in the course/user context &amp; user profile)."
+msgstr ""
+
+#: $string['textarearows']
+msgid "Textarea rows"
+msgstr ""
+
+#: $string['textbox']
+msgid "Text Box"
+msgstr ""
+
+#: $string['textbox_help']
+msgctxt "$string['textbox_help']"
+msgid ""
+"For the Text Box question type, enter the Input Box length and the Maximum "
+"text length of text to be entered by respondent.\n"
+"Default values are 20 characters for the Input Box width and 25 characters "
+"for the maximum length of text entered."
+msgstr ""
+
+#: $string['textdownloadoptions']
+msgid "Options for text download (CSV)"
+msgstr ""
+
+#: $string['thank_head']
+msgid "Thank you for completing this Questionnaire."
+msgstr ""
+
+#: $string['theme']
+msgid "Theme"
+msgstr ""
+
+#: $string['thismonth']
+msgid "this month"
+msgstr ""
+
+#: $string['thisresponse']
+msgid "This response"
+msgstr ""
+
+#: $string['thisweek']
+msgid "this week"
+msgstr ""
+
+#: $string['title']
+msgid "Title"
+msgstr "Τίτλος"
+
+#: $string['title_help']
+msgid ""
+"Title of this questionnaire, which will appear at the top of every page. By "
+"default Title is set to the questionnaire Name, but you can edit it as you "
+"like."
+msgstr ""
+
+#: $string['today']
+msgid "today"
+msgstr ""
+
+#: $string['total']
+msgid "Total"
+msgstr ""
+
+#: $string['type']
+msgid "Question Type"
+msgstr ""
+
+#: $string['undefinedquestiontype']
+msgid "Undefined question type!"
+msgstr ""
+
+#: $string['unknown']
+msgid "Unknown"
+msgstr ""
+
+#: $string['unknownaction']
+msgid "Unknown questionnaire action specified..."
+msgstr ""
+
+#: $string['url']
+msgid "Confirmation URL"
+msgstr ""
+
+#: $string['url_help']
+msgctxt "$string['url_help']"
+msgid ""
+"The URL to which a user is redirected after completing this questionnaire."
+msgstr ""
+
+#: $string['useprivate']
+msgid "Copy existing"
+msgstr ""
+
+#: $string['usepublic']
+msgid "Use public"
+msgstr ""
+
+#: $string['usetemplate']
+msgid "Use template"
+msgstr ""
+
+#: $string['vertical']
+msgid "Vertical"
+msgstr ""
+
+#: $string['view']
+msgid "View"
+msgstr ""
+
+#: $string['viewallresponses']
+msgid "View All Responses"
+msgstr ""
+
+#: $string['viewallresponses_help']
+msgid ""
+"If the questionnaire is set to **Group Mode**: *Visible groups*, or is set "
+"to *Separate groups* and the current user\n"
+" has the *moodle/site:accessallgroups* capability (in the current context), "
+"and groups have been defined in the current course,\n"
+" then the user has access to a dropdown list of groups. This dropdown list "
+"enables the user to \"filter\" the questionnaire responses by groups.\n"
+" If the setting is **Group Mode**: *Separate groups*, then users who do not "
+"have the *moodle/site:accessallgroups* capability\n"
+" (usually students, or non-editing teachers, etc.) will only be able to view "
+"the responses of the group(s) they belong to."
+msgstr ""
+
+#: $string['viewallresponses_link']
+msgid "Viewing_Questionnaire_responses#Group_filtering"
+msgstr ""
+
+#: $string['viewbyresponse']
+msgid "List of responses"
+msgstr ""
+
+#: $string['viewindividualresponse']
+msgid "Individual responses"
+msgstr ""
+
+#: $string['viewindividualresponse_help']
+msgid ""
+"Click on the respondents' names in the list below to view their individual "
+"responses."
+msgstr ""
+
+#: $string['viewresponses']
+msgid "All responses ({$a})"
+msgstr ""
+
+#: $string['viewyourresponses']
+msgid "Your responses- view {$a}"
+msgstr ""
+
+#: $string['warning']
+msgid "Warning, error encountered."
+msgstr ""
+
+#: $string['wronganswers']
+msgid "There is something wrong with your answers (see below)"
+msgstr ""
+
+#: $string['wrongdateformat']
+msgid ""
+"The date entered: <strong>{$a}</strong> does not correspond to the format "
+"shown in the example."
+msgstr ""
+
+#: $string['wrongdaterange']
+msgid "ERROR! The year must be set in the 1902 to 2037 range."
+msgstr ""
+
+#: $string['wrongformat']
+msgid "There is something wrong with your answer to question:&nbsp;"
+msgstr ""
+
+#: $string['wrongformats']
+msgid "There is something wrong with your answer to questions:&nbsp;"
+msgstr ""
+
+#: $string['yesno']
+msgid "Yes/No"
+msgstr ""
+
+#: $string['yesno_help']
+msgid "Simple Yes/No question."
+msgstr ""
+
+#: $string['yourresponse']
+msgid "Your response"
+msgstr ""
+
+#: $string['yourresponses']
+msgid "Your responses"
+msgstr ""

@@ -1,0 +1,157 @@
+#. extracted from lang/en/local_ldap.php, lang/el/local_ldap.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'local_ldap', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   local_ldap
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['attributesynctask']
+msgid "Synchronize cohorts from LDAP attributes"
+msgstr "Συγχρονισμός ομάδων χρηστών με ιδιότητες LDAP"
+
+#: $string['cohort_synching_ldap_attribute_attribute']
+msgid "Attribute name to search"
+msgstr ""
+
+#: $string['cohort_synching_ldap_attribute_attribute_desc']
+msgid "Adjust to the LDAP user's attribute to search for (respect case)"
+msgstr ""
+
+#: $string['cohort_synching_ldap_attribute_autocreate_cohorts']
+msgctxt "$string['cohort_synching_ldap_attribute_autocreate_cohorts']"
+msgid "Autocreate missing cohorts"
+msgstr "Αυτόματη δημιουργία ομάδων χρηστών που λείπουν"
+
+#: $string['cohort_synching_ldap_attribute_autocreate_cohorts_desc']
+msgctxt "$string['cohort_synching_ldap_attribute_autocreate_cohorts_desc']"
+msgid "If selected will create missing cohorts automatically"
+msgstr "Αν επιλεγεί θα δημιουργηθούν αυτόματα οιομάδες χρηστών που λείπουν"
+
+#: $string['cohort_synching_ldap_attribute_idnumbers']
+msgid "Target cohorts idnumbers"
+msgstr "Αριθμοί αναγνωριστικού στοχευμένων ομάδων χρηστών"
+
+#: $string['cohort_synching_ldap_attribute_idnumbers_desc']
+msgid ""
+"A comma-separated list of target cohort idnumbers; if missing all distinct "
+"values of the attribute will produce a synced cohort"
+msgstr ""
+"Μια λίστα διαχωρισμένη με κόμματα των αριθμών αναγνωριστικού των στοχευμένων "
+"ομάδων χρηστών. Αν δεν υπάρχουν όλες οι διακριτές τιμές της ιδιότητας θα "
+"δημιουργήσουν μια συγχρονισμένη ομάδα χρηστών"
+
+#: $string['cohort_synching_ldap_attribute_objectclass']
+msgid "User class"
+msgstr ""
+
+#: $string['cohort_synching_ldap_attribute_objectclass_desc']
+msgid ""
+"Use to override default value inherited from LDAP or CAS auth plugin "
+"(respect case)"
+msgstr ""
+
+#: $string['cohort_synching_ldap_groups_autocreate_cohorts']
+msgctxt "$string['cohort_synching_ldap_groups_autocreate_cohorts']"
+msgid "Autocreate missing cohorts"
+msgstr "Αυτόματη δημιουργία ομάδων χρηστών που λείπουν"
+
+#: $string['cohort_synching_ldap_groups_autocreate_cohorts_desc']
+msgctxt "$string['cohort_synching_ldap_groups_autocreate_cohorts_desc']"
+msgid "If selected will create missing cohorts automatically"
+msgstr "Αν επιλεγεί θα δημιουργηθούν αυτόματα οι ομάδες χρηστών που λείπουν"
+
+#: $string['cohort_synchronized_with_attribute']
+msgid "Cohort synchronized with LDAP attribute {$a}"
+msgstr "Η ομάδα χρηστών συγχρονίστηκε με την ιδιότητα LDAP {$a}"
+
+#: $string['cohort_synchronized_with_group']
+msgid "Cohort synchronized with LDAP group {$a}"
+msgstr "Η ομάδα χρηστών συγχρονίστηκε με την ομάδα LDAP {$a}"
+
+#: $string['group_attribute']
+msgid "Group attribute"
+msgstr ""
+
+#: $string['group_attribute_desc']
+msgid "Naming attribute of your LDAP groups, usually cn"
+msgstr ""
+
+#: $string['group_class']
+msgid "Group class"
+msgstr ""
+
+#: $string['group_class_desc']
+msgid "Set if your groups are of another class such as group, groupOfNames..."
+msgstr ""
+
+#: $string['groupsynctask']
+msgid "Synchronize cohorts from LDAP groups"
+msgstr "Συγχρονισμός ομάδων χρηστών από τις ομάδες LDAP"
+
+#: $string['pluginname']
+msgid "LDAP syncing scripts"
+msgstr ""
+
+#: $string['process_nested_groups']
+msgid "Process nested groups"
+msgstr ""
+
+#: $string['process_nested_groups_desc']
+msgid "If selected, LDAP groups included in groups will be processed"
+msgstr ""
+
+#: $string['real_user_attribute']
+msgid "Real user class"
+msgstr ""
+
+#: $string['real_user_attribute_desc']
+msgid ""
+"Use if your user_attribute is in mixed case in LDAP (sAMAccountName), but "
+"not in Moodle's CAS/LDAP settings"
+msgstr ""
+
+#: $string['synccohortattribute']
+msgid "Sync Moodle's cohorts with LDAP attribute"
+msgstr "Συγχρονισμός ομάδων χρηστών του Moodle με την ιδιότητα LDAP"
+
+#: $string['synccohortattribute_info']
+msgctxt "$string['synccohortattribute_info']"
+msgid ""
+msgstr ""
+
+#: $string['synccohortgroup']
+msgid "Sync Moodle's cohorts with LDAP groups"
+msgstr "Συγχρονισμός ομάδων χρηστών του Moodle με τις ομάδες LDAP"
+
+#: $string['synccohortgroup_info']
+msgctxt "$string['synccohortgroup_info']"
+msgid ""
+msgstr ""

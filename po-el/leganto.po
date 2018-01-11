@@ -1,0 +1,355 @@
+#. extracted from lang/en/leganto.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'leganto', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   leganto
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['apikey']
+msgid "API key"
+msgstr ""
+
+#: $string['apikey_desc']
+msgid ""
+"Your Alma API key (see <a "
+"href=\"https://developers.exlibrisgroup.com/alma/apis#defining\" "
+"target=\"_blank\">https://developers.exlibrisgroup.com/alma/apis#defining</a> "
+"to obtain one)."
+msgstr ""
+
+#: $string['apinotconfigured']
+msgid ""
+"The Alma API settings are not fully configured. Please contact your Moodle "
+"administrator, quoting the error message(s) above."
+msgstr ""
+
+#: $string['apisettings']
+msgid "API settings"
+msgstr ""
+
+#: $string['apiurl']
+msgid "API URL"
+msgstr ""
+
+#: $string['apiurl_default']
+msgid "https://api-xx.hosted.exlibrisgroup.com"
+msgstr ""
+
+#: $string['apiurl_desc']
+msgid ""
+"The URL of your regional Alma API according to <a "
+"href=\"https://developers.exlibrisgroup.com/alma/apis#calling\" "
+"target=\"_blank\">https://developers.exlibrisgroup.com/alma/apis#calling</a>."
+msgstr ""
+
+#: $string['authorsinconfig']
+msgid "Include authors in config form"
+msgstr ""
+
+#: $string['authorsinconfig_desc']
+msgid ""
+"Should citation descriptions in module configuration forms include the names "
+"of authors? By default only the citation title is included, to save space "
+"on the form."
+msgstr ""
+
+#: $string['cachedef_listdata']
+msgid "Cached Leganto reading list / citation data fetched from Alma API"
+msgstr ""
+
+#: $string['citationcount']
+msgid "{$a} citation"
+msgstr ""
+
+#: $string['citationcountplural']
+msgid "{$a} citations"
+msgstr ""
+
+#: $string['codecolumn']
+msgid "Alma course code column"
+msgstr ""
+
+#: $string['codecolumn_desc']
+msgid ""
+"Optional. The name of the column in the custom table containing your Alma "
+"course codes"
+msgstr ""
+
+#: $string['coderegex']
+msgid "Alma course code regex"
+msgstr ""
+
+#: $string['coderegex_desc']
+msgid ""
+"Optional. If using the Moodle course ID number or short name as your code "
+"source, this is a regular expression (including delimiters) matching the "
+"Alma course code part of it. If no regex is provided here it will be assumed "
+"that the field contains the Alma course code only."
+msgstr ""
+
+#: $string['codesettings']
+msgid "Course code settings"
+msgstr ""
+
+#: $string['codesource']
+msgid "Alma course code source"
+msgstr ""
+
+#: $string['codesource_desc']
+msgid ""
+"Select the source of your Alma course codes. If you choose to use a custom "
+"database table you must also specify the table, columns and course attribute "
+"details in the fields below. If no code is found in the custom table for a "
+"particular course, the course ID number will be checked as a fallback."
+msgstr ""
+
+#: $string['codetable']
+msgid "Custom database table"
+msgstr ""
+
+#: $string['codetable_desc']
+msgid ""
+"Optional. The name of a custom table in the Moodle database containing your "
+"Alma course codes mapped against a Moodle course attribute."
+msgstr ""
+
+#: $string['contentheader']
+msgid "Reading list selection"
+msgstr ""
+
+#: $string['courseattribute']
+msgid "Course attribute"
+msgstr ""
+
+#: $string['courseattribute_desc']
+msgid ""
+"Optional. The unique course attribute that is mapped against your Alma "
+"course codes in the custom table (normally id, idnumber or shortname)."
+msgstr ""
+
+#: $string['coursecolumn']
+msgid "Course column"
+msgstr ""
+
+#: $string['coursecolumn_desc']
+msgid ""
+"Optional. The name of the column in the custom table containing the course "
+"attribute that is mapped against your Alma course codes."
+msgstr ""
+
+#: $string['defaultdisplay']
+msgid "Default display mode"
+msgstr ""
+
+#: $string['defaultdisplay_desc']
+msgid ""
+"By default, should new reading lists be displayed on a separate page via a "
+"link, or inline on the course page?"
+msgstr ""
+
+#: $string['display']
+msgid "Display reading list contents"
+msgstr ""
+
+#: $string['display_help']
+msgid ""
+"If you choose to display the reading list contents on the course page, there "
+"will be no link to a separate page. The description will be displayed only "
+"if \"Display description on course page\" is checked."
+msgstr ""
+
+#: $string['displayinline']
+msgid "Inline on the course page"
+msgstr ""
+
+#: $string['displaypage']
+msgid "On a separate page"
+msgstr ""
+
+#: $string['errorcodecolumn']
+msgid ""
+"You must specify the code column if you want to use a custom database table "
+"as your Alma course code source."
+msgstr ""
+
+#: $string['errorcodesource']
+msgid ""
+"You must provide all the table and column details below if you want to use a "
+"custom database table as your Alma course code source."
+msgstr ""
+
+#: $string['errorcodetable']
+msgid ""
+"You must specify the table name if you want to use a custom database table "
+"as your Alma course code source."
+msgstr ""
+
+#: $string['errorcourseattribute']
+msgid ""
+"You must specify a course attribute if you want to use a custom database "
+"table as your Alma course code source."
+msgstr ""
+
+#: $string['errorcoursecolumn']
+msgid ""
+"You must specify the course column if you want to use a custom database "
+"table as your Alma course code source."
+msgstr ""
+
+#: $string['generalsettings']
+msgid "General settings"
+msgstr ""
+
+#: $string['includechildcodes']
+msgid "Include meta child codes"
+msgstr ""
+
+#: $string['includechildcodes_desc']
+msgid ""
+"Check for course meta links and include the Alma course codes associated "
+"with any child courses found."
+msgstr ""
+
+#: $string['insufficientapidata']
+msgid ""
+"Insufficient data to call API method \"{$a->method}\". Missing params: "
+"{$a->params}."
+msgstr ""
+
+#: $string['invalidapimethod']
+msgid "Invalid API method \"{$a}\"."
+msgstr ""
+
+#: $string['leganto']
+msgid "Reading list: {$a}"
+msgstr ""
+
+#: $string['leganto:addinstance']
+msgid "Add a new reading list"
+msgstr ""
+
+#: $string['leganto:view']
+msgid "View reading list content"
+msgstr ""
+
+#: $string['listname']
+msgid "Reading list name"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Leganto reading list"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"<p>The Leganto reading list module enables a teacher to include a selection "
+"of citations from associated Leganto reading lists directly within the "
+"content of their course.</p><p>The reading list can be displayed either in a "
+"separate, linked page, or embedded in the course page itself (hidden "
+"initially, with a link to toggle visibility).</p>"
+msgstr ""
+
+#: $string['modulename_link']
+msgid "mod/leganto/view"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Leganto reading lists"
+msgstr ""
+
+#: $string['nolists']
+msgid "Sorry, there are no reading lists associated with this {$a}."
+msgstr ""
+
+#: $string['page-mod-leganto-view']
+msgid "Reading list module main page"
+msgstr ""
+
+#: $string['page-mod-leganto-x']
+msgid "Any reading list module page"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Leganto reading list administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Leganto reading list"
+msgstr ""
+
+#: $string['requiremodintro']
+msgid "Require reading list description"
+msgstr ""
+
+#: $string['requiremodintro_desc']
+msgid ""
+"Enable this option if you want to force users to enter a description for "
+"each reading list."
+msgstr ""
+
+#: $string['sectionheading']
+msgid "{$a->name} {$a->count}"
+msgstr ""
+
+#: $string['selectcitations']
+msgid "Select citations from \"{$a}\""
+msgstr ""
+
+#: $string['settingnotconfigured']
+msgid "Error: Leganto module admin setting \"{$a}\" empty or misconfigured."
+msgstr ""
+
+#: $string['showhide']
+msgid "Show/hide reading list"
+msgstr ""
+
+#: $string['viewcitation']
+msgid "View citation record in Leganto"
+msgstr ""
+
+#: $string['viewonline']
+msgid "View online"
+msgstr ""
+
+#: $string['yearregex']
+msgid "Year code regex"
+msgstr ""
+
+#: $string['yearregex_desc']
+msgid ""
+"Optional. This is a regular expression (including delimiters) matching the "
+"year code part of your course ID numbers or short names (both will be "
+"checked), and can be used irrespective of the source of the Alma course "
+"codes. If no regex is provided here it will be assumed that there is no year "
+"code, and the latest version of each list will be used."
+msgstr ""

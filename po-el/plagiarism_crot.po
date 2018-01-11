@@ -1,0 +1,505 @@
+#. extracted from lang/en/plagiarism_crot.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'plagiarism_crot', language 'en', branch 'MOODLE_25_STABLE'
+#.  *
+#.  * @package   plagiarism_crot
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['antiword_path']
+msgid ""
+"Path to antiword<br/>Keep it empty if you do not want to use antiword "
+"<br/>to process MS-Word submissions"
+msgstr ""
+
+#: $string['assignments']
+msgid "Assignments"
+msgstr ""
+
+#: $string['assignments_not_displayed']
+msgid "Assignments with similarity score less than {$a}% are not displayed"
+msgstr ""
+
+#: $string['bing_search']
+msgid "<br>Global plagiarism detection is supported by Bing search engine"
+msgstr ""
+
+#: $string['block_name']
+msgid "Anti-Plagiarism"
+msgstr ""
+
+#: $string['cleantables']
+msgid "Clean tables"
+msgstr ""
+
+#: $string['clean_tables']
+msgid "Clean tables (<b>WARNING! Please read help!</b>)"
+msgstr ""
+
+#: $string['cleantables_help']
+msgid ""
+"It removes all Crot data except assignments set for check up! Recalculation "
+"of fingerprints may cause heavy load on the server."
+msgstr ""
+
+#: $string['clusterdistance']
+msgctxt "$string['clusterdistance']"
+msgid "Max Distance between hashes in the text cluster"
+msgstr ""
+
+#: $string['cluster_distance']
+msgctxt "$string['cluster_distance']"
+msgid "Max Distance between hashes in the text cluster"
+msgstr ""
+
+#: $string['clusterdistance_help']
+msgid ""
+"This parameter is used for allocation of hashes into text clusters in the "
+"colouring of similar text fragments. Recommended value is 100."
+msgstr ""
+
+#: $string['clustersize']
+msgctxt "$string['clustersize']"
+msgid "Minimum cluster size"
+msgstr ""
+
+#: $string['cluster_size']
+msgctxt "$string['cluster_size']"
+msgid "Minimum cluster size"
+msgstr ""
+
+#: $string['clustersize_help']
+msgid ""
+"This is a minimum number of hashes in the text cluster used for colouring of "
+"similar text fragments. Recommended value is 2."
+msgstr ""
+
+#: $string['col_course']
+msgid "Course"
+msgstr ""
+
+#: $string['col_name']
+msgid "Name"
+msgstr ""
+
+#: $string['colour']
+msgctxt "$string['colour']"
+msgid "Colours"
+msgstr ""
+
+#: $string['colour_help']
+msgid ""
+"These colours are used for highlighting of similar text fragments in the "
+"side by side comparison of documents. But at the moment colouring function "
+"works only with the one colour (#FF0000)."
+msgstr ""
+
+#: $string['colours']
+msgctxt "$string['colours']"
+msgid "Colours"
+msgstr ""
+
+#: $string['col_similarity_score']
+msgid "Similarity score"
+msgstr ""
+
+#: $string['compareinternet']
+msgid "Compare submitted files with Internet"
+msgstr ""
+
+#: $string['comparestudents']
+msgid "Compare submitted files with other students files"
+msgstr ""
+
+#: $string['course_not_applicable']
+msgid "not applicable"
+msgstr ""
+
+#: $string['course_summary']
+msgid "Course Summary"
+msgstr ""
+
+#: $string['crot']
+msgid "Crot"
+msgstr ""
+
+#: $string['crotexplain']
+msgid ""
+"Crot is an anti-plagiarism tool: it compares assignments copied from peers "
+"from the same institution as well as assignments copied from the Internet. "
+"It uses document fingerprinting technologies for internal document "
+"comparison and the MSN Live search engine to perform global "
+"search.<br/><br/>More information can be found at <a "
+"href=\"http://www.crotsoftware.com\">www.crotsoftware.com</a>"
+msgstr ""
+
+#: $string['crot_help']
+msgid ""
+"Crot is an anti-plagiarism tool which supports doc, docx, pdf, odt, rtf, "
+"txt, cpp and java files."
+msgstr ""
+
+#: $string['cultureinfo']
+msgctxt "$string['cultureinfo']"
+msgid "Culture info for global search"
+msgstr ""
+
+#: $string['culture_info']
+msgctxt "$string['culture_info']"
+msgid "Culture info for global search"
+msgstr ""
+
+#: $string['cultureinfo_help']
+msgid "Culture information is used in queries for Bing search engine."
+msgstr ""
+
+#: $string['defaultthreshold']
+msgctxt "$string['defaultthreshold']"
+msgid "Default Threshold"
+msgstr ""
+
+#: $string['default_threshold']
+msgctxt "$string['default_threshold']"
+msgid "Default Threshold"
+msgstr ""
+
+#: $string['defaultthreshold_help']
+msgid ""
+"Assignments with similarity score less than threshold value are not "
+"displayed on Anti-Plagiarism - Assignments page."
+msgstr ""
+
+#: $string['download_inwicast_message']
+msgid ""
+"<p>INWICAST Publisher is a very simple and powerful tool designed to record "
+"and publish podcasts, videocasts, screencasts and slidecasts for the web and "
+"for mobile devices. INWICAST Publisher allows you to:</p><p>\n"
+"\n"
+"    * record podcasts, videocasts, screencasts and Powerpoint "
+"slidescasts<br/>\n"
+"    * convert recorded medias to various formats: flv, wmv, mp4, mp3, "
+"etc.<br/>\n"
+"    * create multimedia content for mobile players like iPod or Zune<br/>\n"
+"    * create and manage multimedia playlists<br/>\n"
+"    * easily publish your podcasts on your Moodle platform<br/>\n"
+"</p>"
+msgstr ""
+
+#: $string['FILE_FORMAT_NOT_ALLOWED']
+msgid "Sorry but this file format is not allowed for upload"
+msgstr ""
+
+#: $string['file_was_not_found']
+msgid "Cannot find local file. Most likely it was removed from the system"
+msgstr ""
+
+#: $string['global']
+msgid "Global"
+msgstr ""
+
+#: $string['globalsearchquerysize']
+msgctxt "$string['globalsearchquerysize']"
+msgid "Global Search Query Size"
+msgstr ""
+
+#: $string['global_search_query_size']
+msgctxt "$string['global_search_query_size']"
+msgid "Global Search Query Size"
+msgstr ""
+
+#: $string['globalsearchquerysize_help']
+msgid ""
+"This is the number of words in the query for global search. Recommended "
+"value is 7."
+msgstr ""
+
+#: $string['global_search_settings']
+msgid "<b>Global Search settings</b>"
+msgstr ""
+
+#: $string['globalsearchthreshold']
+msgctxt "$string['globalsearchthreshold']"
+msgid "Global search threshold"
+msgstr ""
+
+#: $string['global_search_threshold']
+msgctxt "$string['global_search_threshold']"
+msgid "Global search threshold"
+msgstr ""
+
+#: $string['globalsearchthreshold_help']
+msgid "Reserved for future development. Recommended value is 90."
+msgstr ""
+
+#: $string['grammarsize']
+msgctxt "$string['grammarsize']"
+msgid "Grammar size"
+msgstr ""
+
+#: $string['grammar_size']
+msgctxt "$string['grammar_size']"
+msgid "Grammar size"
+msgstr ""
+
+#: $string['grammarsize_help']
+msgid ""
+"Grammar size is size of text used to calculate one hash in document "
+"fingerprint. Recommended value is 30."
+msgstr ""
+
+#: $string['have_to_be_a_teacher']
+msgid ""
+"<c>The block is under construction. <br> You have to be a teacher to see its "
+"content"
+msgstr ""
+
+#: $string['incorrect_assignmentAid']
+msgid "Assignment A ID is incorrect"
+msgstr ""
+
+#: $string['incorrect_assignmentBid']
+msgid "Assignment B ID is incorrect"
+msgstr ""
+
+#: $string['incorrect_courseAid']
+msgid "Course A ID is incorrect"
+msgstr ""
+
+#: $string['incorrect_courseBid']
+msgid "Course B ID is incorrect"
+msgstr ""
+
+#: $string['incorrect_courseid']
+msgid "Course ID is incorrect"
+msgstr ""
+
+#: $string['incorrect_docAid']
+msgid "Doc A ID is incorrect"
+msgstr ""
+
+#: $string['incorrect_docBid']
+msgid "Doc B ID is incorrect"
+msgstr ""
+
+#: $string['incorrect_fileAid']
+msgid "File A ID is incorrect"
+msgstr ""
+
+#: $string['incorrect_fileBid']
+msgid "File B ID is incorrect"
+msgstr ""
+
+#: $string['incorrect_submAid']
+msgid "Submission A ID is incorrect"
+msgstr ""
+
+#: $string['incorrect_submBid']
+msgid "Submission B ID is incorrect"
+msgstr ""
+
+#: $string['local']
+msgid "Local"
+msgstr ""
+
+#: $string['maxfilesize']
+msgctxt "$string['maxfilesize']"
+msgid "Maximum file size"
+msgstr ""
+
+#: $string['max_file_size']
+msgctxt "$string['max_file_size']"
+msgid "Maximum file size"
+msgstr ""
+
+#: $string['maxfilesize_help']
+msgid ""
+"Files with the size more than this value are not downloaded from the "
+"internet. Recommended value is 1000000."
+msgstr ""
+
+#: $string['MSlivekey']
+msgid "BING Application ID key"
+msgstr ""
+
+#: $string['MS_live_key']
+msgid "MS Application ID key"
+msgstr ""
+
+#: $string['MSlivekey_help']
+msgid ""
+"You need to obtain the MS Application ID key from the Microsoft to use the "
+"global search features."
+msgstr ""
+
+#: $string['name_unknown']
+msgid "name is unknown"
+msgstr ""
+
+#: $string['newexplain']
+msgid "For more information on this plugin see:"
+msgstr ""
+
+#: $string['no_plagiarism']
+msgid "no plagiarism have been detected OR check up was not performed yet"
+msgstr ""
+
+#: $string['no_similarities']
+msgid "no similarities"
+msgstr ""
+
+#: $string['numberofwebdocuments']
+msgctxt "$string['numberofwebdocuments']"
+msgid "Number of web documents to be downloaded"
+msgstr ""
+
+#: $string['number_of_web_documents']
+msgctxt "$string['number_of_web_documents']"
+msgid "Number of web documents to be downloaded"
+msgstr ""
+
+#: $string['numberofwebdocuments_help']
+msgid ""
+"How many web documents will be downloaded to your server from the list of "
+"possible sources on the web. Recommended value is 10."
+msgstr ""
+
+#: $string['percentageofsearchqueries']
+msgid "Percentage of search queries for Web search"
+msgstr ""
+
+#: $string['percentage_of_search_queries']
+msgid "Percentage of search queries for Web search (1-100)"
+msgstr ""
+
+#: $string['percentageofsearchqueries_help']
+msgid ""
+"This is randomly selected percentage of queries from all search queries for "
+"Web search. Recommended value is 40."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Crot Plagiarism Checker"
+msgstr ""
+
+#: $string['registration']
+msgid "<b>Registration</b>"
+msgstr ""
+
+#: $string['report']
+msgid "Report"
+msgstr ""
+
+#: $string['save']
+msgid "Save"
+msgstr ""
+
+#: $string['savedconfigsuccess']
+msgid "Plagiarism Settings Saved"
+msgstr ""
+
+#: $string['select_assignment']
+msgid "Select the assignment"
+msgstr ""
+
+#: $string['settings']
+msgid "Settings"
+msgstr ""
+
+#: $string['settings_cancelled']
+msgid "Antiplagiarism settings have been canceled"
+msgstr ""
+
+#: $string['settings_saved']
+msgid "Antiplagiarism settings have been saved successfully"
+msgstr ""
+
+#: $string['similar']
+msgid "Similar assignments"
+msgstr ""
+
+#: $string['studentdisclosure']
+msgid "Student Disclosure"
+msgstr ""
+
+#: $string['studentdisclosuredefault']
+msgid "All files uploaded will be submitted to a plagiarism detection service"
+msgstr ""
+
+#: $string['studentdisclosure_help']
+msgid "This text will be displayed to all students on the file upload page."
+msgstr ""
+
+#: $string['student_name']
+msgid "Student name"
+msgstr ""
+
+#: $string['tables_cleaned_up']
+msgid "Crot tables were cleaned up!"
+msgstr ""
+
+#: $string['test_global_serach']
+msgid "Check it to perform quick test of global search"
+msgstr ""
+
+#: $string['tools']
+msgid "<b>Tools</b>"
+msgstr ""
+
+#: $string['Topics']
+msgid "Topics"
+msgstr ""
+
+#: $string['usecrot']
+msgid "Enable Crot"
+msgstr ""
+
+#: $string['webdoc']
+msgid "Web document: <br> Source:"
+msgstr ""
+
+#: $string['webdocument']
+msgid "Web document"
+msgstr ""
+
+#: $string['windowsize']
+msgctxt "$string['windowsize']"
+msgid "Window size"
+msgstr ""
+
+#: $string['window_size']
+msgctxt "$string['window_size']"
+msgid "Window size"
+msgstr ""
+
+#: $string['windowsize_help']
+msgid ""
+"Window size represents how granular tech search will be. Recommended value "
+"is 60."
+msgstr ""

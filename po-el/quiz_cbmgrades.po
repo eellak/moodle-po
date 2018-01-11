@@ -1,0 +1,160 @@
+#. extracted from lang/en/quiz_cbmgrades.php, lang/el/quiz_cbmgrades.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'quiz_cbmgrades', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   quiz_cbmgrades
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['accy']
+msgid "Accuracy"
+msgstr ""
+
+#: $string['cbm_accy']
+msgid "CB Accuracy"
+msgstr ""
+
+#: $string['cbm_av']
+msgid "Avg (max=3)"
+msgstr ""
+
+#: $string['cbm_bonus']
+msgid "CB Bonus"
+msgstr ""
+
+#: $string['cbmexplanations']
+msgid "CBM Explanations:"
+msgstr ""
+
+#: $string['cbmgrade']
+msgid "CB Grade"
+msgstr ""
+
+#: $string['cbmgrades']
+msgctxt "$string['cbmgrades']"
+msgid "CBM Grades"
+msgstr ""
+
+#: $string['cbmgradesdownload']
+msgid "CBM download"
+msgstr ""
+
+#: $string['cbmgradesfilename']
+msgid "cbmgrades"
+msgstr ""
+
+#: $string['cbmgrades_help']
+msgid ""
+"With Certainty Based Marking (CBM), all correct at C=1 (low certainty)\n"
+"        will give a Moodle Grade of 100%. Grades may be as high as 300% if "
+"every question is correct with C=3\n"
+"       (high certainty). Simple Moodle Grades with CBM are not easily "
+"compared with Grades without CBM,\n"
+"        unless converted to CB Grades (below).\n"
+"\n"
+"**Accuracy** is the percentage correct, ignoring certainty but weighted with "
+"the max values assigned to each question.\n"
+"        If the student successfully distinguishes more and less reliable "
+"answers, this is reflected in a **CB Bonus**,\n"
+"        which  is positive if the total marks are higher than could be "
+"obtained with the same answers at uniform certainty.\n"
+"        The **CB Accuracy** (=Accuracy + Bonus) is the clearest measure of "
+"knowledge. The **CB Grade** is the\n"
+"        CB Accuracy multiplied by the maximum grade assigned to the quiz."
+msgstr ""
+
+#: $string['cbmgrades_link']
+msgid "qbehaviour/deferredcbm/certaintygrade"
+msgstr ""
+
+#: $string['cbmgradesoptions']
+msgid "CBM Grades options"
+msgstr ""
+
+#: $string['cbmgradesreport']
+msgid "CBM report"
+msgstr ""
+
+#: $string['cbmgradestitle']
+msgctxt "$string['cbmgradestitle']"
+msgid "CBM Grades"
+msgstr ""
+
+#: $string['chosenresps']
+msgid ""
+"Show scores based on chosen questions rather than the whole quiz. &nbsp;"
+msgstr ""
+
+#: $string['grade']
+msgid "Moodle Grade"
+msgstr ""
+
+#: $string['marks']
+msgid "Mark Total"
+msgstr ""
+
+#: $string['pagesize']
+msgid "Page size"
+msgstr ""
+
+#: $string['pluginname']
+msgid "CBM Summary"
+msgstr "Σύνοψη CBM"
+
+#: $string['qdata']
+msgid "Show data for each Q"
+msgstr ""
+
+#: $string['qx']
+msgid "Q{$a}"
+msgstr ""
+
+#: $string['responses']
+msgid "Responses"
+msgstr ""
+
+#: $string['responsex']
+msgid ""
+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>Q{$a}"
+msgstr ""
+
+#: $string['scoreschosenrs']
+msgid ""
+"CBM SCORES: ** NB Scores marked ** are based on the student's chosen "
+"responses, not on the whole quiz."
+msgstr ""
+
+#: $string['scoreswhole']
+msgid "CBM GRADE & SCORES: Showing scores based on the whole quiz."
+msgstr ""
+
+#: $string['showthe']
+msgid "Options:"
+msgstr ""

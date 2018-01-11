@@ -1,0 +1,149 @@
+#. extracted from lang/en/local_eledia_webservicesuite.php, lang/el/local_eledia_webservicesuite.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:14+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'local_eledia_webservicesuite', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   local_eledia_webservicesuite
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['back']
+msgid "back"
+msgstr "επιστροφή"
+
+#: $string['eledia_desc']
+msgid ""
+"Fomular for testing the basic functions of the service.<br />\n"
+"    Be aware of the fact that the services you call here are all executed on "
+"the System.<br />\n"
+"<br />\n"
+"To use this formular you need to aktivate and configure the soap service.<br "
+"/>\n"
+"You can find the generall webservice settinges here: <a "
+"href={$a}>{$a}</a><br />\n"
+"The token generated for the webservice user must be given in the config of "
+"this plugin.<br />\n"
+"<br />"
+msgstr ""
+
+#: $string['eledia_desc_header']
+msgctxt "$string['eledia_desc_header']"
+msgid "eledia webservicesuite"
+msgstr ""
+
+#: $string['eledia_header']
+msgctxt "$string['eledia_header']"
+msgid "eledia webservicesuite"
+msgstr ""
+
+#: $string['eledia_webservicesuite:access']
+msgid "Access right for all functions of this web service"
+msgstr ""
+
+#: $string['idnumbercourse']
+msgid "Course ID number"
+msgstr ""
+
+#: $string['idnumberuser']
+msgid "User ID number"
+msgstr ""
+
+#: $string['missing_token']
+msgid "Webservice token in plugin config is missing."
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "eledia webservicesuite"
+msgstr ""
+
+#: $string['service_choose']
+msgid "chose the function"
+msgstr ""
+
+#: $string['start']
+msgid "call function"
+msgstr ""
+
+#: $string['test_form_desc']
+msgid "Find the form for tests <a href={$a}>here</a>."
+msgstr ""
+
+#: $string['test_header']
+msgid "eledia webservicesuite function tester"
+msgstr ""
+
+#: $string['test_token']
+msgid "token for testscript"
+msgstr ""
+
+#: $string['wscannotenrol']
+msgid ""
+"Plugin instance cannot manually enrol a user in the course id = "
+"{$a->courseid}"
+msgstr ""
+
+#: $string['wscoursenotfound']
+msgid "Course with idnumber = {$a->idnumber} not found."
+msgstr ""
+
+#: $string['wsidnumbersnotfound']
+msgid "Idnumber {$a->idnumber} not found."
+msgstr ""
+
+#: $string['wsmultiplecoursesfound']
+msgid ""
+"Found multiple courses with idnumber = {$a->idnumber}. Idnumber must be "
+"unique"
+msgstr ""
+
+#: $string['wsmultipleidnumbersfound']
+msgid "Idnumber {$a->idnumber} is not unique."
+msgstr ""
+
+#: $string['wsmultipleusersfound']
+msgid ""
+"Found multiple users with idnumber = {$a->idnumber}. Idnumber must be unique"
+msgstr ""
+
+#: $string['wsnoinstance']
+msgid ""
+"Manual enrolment plugin instance doesn't exist or is disabled for the course "
+"(id = {$a->courseid})"
+msgstr ""
+
+#: $string['wsusercannotassign']
+msgid ""
+"You don't have the permission to assign this role ({$a->roleid}) to this "
+"user ({$a->userid}) in this course({$a->courseid})."
+msgstr ""
+
+#: $string['wsusernotfound']
+msgid "User with idnumber = {$a->idnumber} not found."
+msgstr ""

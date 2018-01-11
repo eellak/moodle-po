@@ -1,0 +1,3689 @@
+#. extracted from lang/en/grades.php, lang/el/grades.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'grades', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   grades
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['activities']
+msgid "Activities"
+msgstr "Δραστηριότητες"
+
+#: $string['addcategory']
+msgid "Add category"
+msgstr "Προσθήκη Κατηγορίας"
+
+#: $string['addcategoryerror']
+msgid "Could not add category."
+msgstr "Δεν ήταν δυνατή η προσθήκη κατηγορίας."
+
+#: $string['addexceptionerror']
+msgid "Error occurred while adding exception for userid:gradeitem"
+msgstr ""
+"Παρουσιάστηκε σφάλμα κατά την προσθήκη εξαίρεσης για το userid:gradeitem"
+
+#: $string['addfeedback']
+msgctxt "$string['addfeedback']"
+msgid "Add feedback"
+msgstr "Προσθήκη σχόλιου"
+
+#: $string['addgradeletter']
+msgid "Add a grade letter"
+msgstr "Προσθήκη ενός γράμματος βαθμού"
+
+#: $string['addidnumbers']
+msgid "Add ID numbers"
+msgstr "Προσθήκη αναγνωριστικών αριθμών"
+
+#: $string['additem']
+msgid "Add grade item"
+msgstr "Προσθήκη στοιχείου βαθμού"
+
+#: $string['addoutcome']
+msgid "Add an outcome"
+msgstr "Προσθήκη μιας έκβασης"
+
+#: $string['addoutcomeitem']
+msgid "Add outcome item"
+msgstr "Προσθήκη ενός στοιχείου έκβασης"
+
+#: $string['addscale']
+msgid "Add a scale"
+msgstr "Προσθήκη μιας κλίμακας"
+
+#: $string['adjustedweight']
+msgid "Weight adjusted"
+msgstr ""
+
+#: $string['aggregateextracreditmean']
+msgid "Mean of grades (with extra credits)"
+msgstr "Μέσος βαθμών (με εξτρά έπαινους)"
+
+#: $string['aggregatemax']
+msgid "Highest grade"
+msgstr "Υψηλότερος βαθμός"
+
+#: $string['aggregatemean']
+msgid "Mean of grades"
+msgstr "Μέσος βαθμών"
+
+#: $string['aggregatemedian']
+msgid "Median of grades"
+msgstr "Διάμεσος βαθμών"
+
+#: $string['aggregatemin']
+msgid "Lowest grade"
+msgstr "Χαμηλότερος βαθμός"
+
+#: $string['aggregatemode']
+msgid "Mode of grades"
+msgstr "Φάση βαθμών"
+
+#: $string['aggregatenotonlygraded']
+msgid "Include empty grades"
+msgstr "Συνάθροιση μόνο των άδειων βαθμών"
+
+#: $string['aggregateonlygraded']
+msgid "Exclude empty grades"
+msgstr "Συνάθροιση μόνο των μη άδειων βαθμών"
+
+#: $string['aggregateonlygraded_help']
+msgid ""
+"An empty grade is a grade which is missing from the gradebook. It may be "
+"from an assignment submission which has not yet been graded or from a quiz "
+"which has not yet been attempted etc.\n"
+"\n"
+"This setting determines whether empty grades are not included in the "
+"aggregation or are counted as minimal grades, for example 0 for an "
+"assignment graded between 0 and 100."
+msgstr ""
+"Ένας άδειος βαθμός είναι ένας βαθμός που λέιπει από το βιβλίο βαθμολογιών. "
+"Μπορεί να είναι από την υποβολή ανάθεσης η οποία δεν έχει βαθμολογηθεί ακόμα "
+"ή από ένα κουίζ που δεν έχει απαντηθεί ακόμα κτλ. Αυτή ρύθμιση καθορίζει αν "
+"οι άδειοι βαθμοί δεν περιλαμβάνονται στην συνάθροιση ή υπολογίζονται ως "
+"ελάχιστοι βαθμοί, για παράδειγμα 0 για μια ανάθεση βαθμολογείται μεταξύ 0 "
+"και 100."
+
+#: $string['aggregateoutcomes']
+msgid "Include outcomes in aggregation"
+msgstr "Ενσωμάτωση εκβάσεων στη συνάθροιση"
+
+#: $string['aggregateoutcomes_help']
+msgid ""
+"If enabled, outcomes are included in the aggregation. This may result in an "
+"unexpected category total."
+msgstr ""
+"Αν ενεργοποιηθεί, τα outcomes περιλαμβάνονται στην συνάθροιση. Αυτό μπορεί "
+"να οδηγήσει σε μια απροσδόκητη συνολική κατηγορία."
+
+#: $string['aggregatesonly']
+msgid "Change to aggregates only"
+msgstr "Συναθροίσεις μόνο"
+
+#: $string['aggregatesubcatsupgradedgrades']
+msgid ""
+"Note: The aggregation setting \"Aggregate including subcategories\" has been "
+"removed as part of a site upgrade. Since \"Aggregate including subcategories\" "
+"was previously used in this course, it is recommended that you review this "
+"change in the gradebook."
+msgstr ""
+"Σημείωση: Η ρύθμιση συνάθροισης \"Συνάθροιση  συμπεριλαμβανομένων "
+"υποκατηγοριών\" έχει αφαιρεθεί ως μέρος της αναβάθμισης του ιστοχώρου. Επειδή "
+"στο παρόν μάθημα χρησιμοποιήθηκε προηγουμένως το \"Συνάθροιση  "
+"συμπεριλαμβανομένων υποκατηγοριών\", συνιστάται να εξετάζετε αυτήν την αλλαγή "
+"στο βαθμολόγιο."
+
+#: $string['aggregatesum']
+msgid "Natural"
+msgstr "Φυσικό"
+
+#: $string['aggregateweightedmean']
+msgid "Weighted mean of grades"
+msgstr "Σταθμισμένος μέσος βαθμών"
+
+#: $string['aggregateweightedmean2']
+msgid "Simple weighted mean of grades"
+msgstr "Απλός σταθμισμένος μέσος βαθμών"
+
+#: $string['aggregation']
+msgid "Aggregation"
+msgstr "Συνάθροιση"
+
+#: $string['aggregationcoef']
+msgid "Aggregation coefficient"
+msgstr "Συντελεστής συνάθροισης"
+
+#: $string['aggregationcoefextra']
+msgctxt "$string['aggregationcoefextra']"
+msgid "Extra credit"
+msgstr "Συντελεστής εξτρά επαίνων"
+
+#: $string['aggregationcoefextra_help']
+msgid ""
+"If the aggregation is 'Natural' or 'Simple weighted mean' and the extra "
+"credit checkbox is ticked, the grade item's maximum grade is not added to "
+"the category's maximum grade. This will result in the possibility of "
+"achieving the maximum grade in the category without having the maximum grade "
+"in all the grade items. If the site administrator has enabled grades over "
+"the maximum, there might be grades over the maximum.\n"
+"\n"
+"If the aggregation is 'Mean of grades (with extra credits)' and the extra "
+"credit is set to a value greater than zero, the extra credit is the factor "
+"by which the grade is multiplied before adding it to the total after the "
+"computation of the mean."
+msgstr ""
+
+#: $string['aggregationcoefextra_link']
+msgctxt "$string['aggregationcoefextra_link']"
+msgid "grade/aggregation"
+msgstr ""
+
+#: $string['aggregationcoefextrasum']
+msgctxt "$string['aggregationcoefextrasum']"
+msgid "Extra credit"
+msgstr "Εξτρά έπαινος"
+
+#: $string['aggregationcoefextrasumabbr']
+msgid "+"
+msgstr "+"
+
+#: $string['aggregationcoefextrasum_help']
+msgid ""
+"If the extra credit checkbox is ticked, the grade item's maximum grade is "
+"not added to the category's maximum grade, resulting in the possibility of "
+"achieving the maximum grade (or grades over the maximum if enabled by the "
+"site administrator) in the category without having the maximum grade in all "
+"the grade items."
+msgstr ""
+
+#: $string['aggregationcoefextrasum_link']
+msgctxt "$string['aggregationcoefextrasum_link']"
+msgid "grade/aggregation"
+msgstr ""
+
+#: $string['aggregationcoefextraweight']
+msgid "Extra credit weight"
+msgstr ""
+
+#: $string['aggregationcoefextraweight_help']
+msgid ""
+"If the extra credit weight is set to a value greater than zero, the grade "
+"acts as extra credit during aggregation. The number is the factor by which "
+"the grade is multiplied before adding it to the total for the computation of "
+"the mean."
+msgstr ""
+
+#: $string['aggregationcoefextraweight_link']
+msgctxt "$string['aggregationcoefextraweight_link']"
+msgid "grade/aggregation"
+msgstr ""
+
+#: $string['aggregationcoefweight']
+msgid "Item weight"
+msgstr "Βάρος στοιχείου"
+
+#: $string['aggregationcoefweight_help']
+msgid ""
+"The item weight is used in the category aggregation to influence the "
+"importance of the item compared with other grade items in the same category."
+msgstr ""
+
+#: $string['aggregationcoefweight_link']
+msgctxt "$string['aggregationcoefweight_link']"
+msgid "grade/aggregation"
+msgstr ""
+
+#: $string['aggregation_help']
+msgid ""
+"The aggregation determines how grades in a category are combined, such as\n"
+"\n"
+"* Mean of grades - The sum of all grades divided by the total number of "
+"grades\n"
+"* Median of grades - The middle grade when grades are arranged in order of "
+"size\n"
+"* Lowest grade\n"
+"* Highest grade\n"
+"* Mode of grades - The grade that occurs the most frequently\n"
+"* Natural - The sum of all grade values scaled by weight"
+msgstr ""
+"Η συνάθροιση καθορίζει πως συνδυάζονται οι βαθμοί σε μια κατηγορία, όπως * "
+"Μέση βαθμολογιών - Το σύνολο όλων των βαθμολογιών διαιρεμένο από τον "
+"συνολικό αριθμό των βαθμών * Διάμεσος βαθμολογιών - Ο μεσαίος βαθμός όταν οι "
+"βαθμοί είναι διατεταγμένοι κατά σειρά μεγέθους * Χαμηλότερος βαθμός * "
+"Υψηλότερος βαθμός * Λειτουργία βαθμολογιών - Ο βαθμός που εμφανίζεται πιο "
+"συχνά * Άθροισμα βαθμολογιών - Το άθροισμα όλων των τιμών των βαθμών, με την "
+"κλίμακα βαθμολογίας να αγνοείται"
+
+#: $string['aggregationhintdropped']
+msgid "( Dropped )"
+msgstr ""
+
+#: $string['aggregationhintexcluded']
+msgid "( Excluded )"
+msgstr ""
+
+#: $string['aggregationhintextra']
+msgid "( Extra credit )"
+msgstr ""
+
+#: $string['aggregationhintnovalue']
+msgid "( Empty )"
+msgstr "( Κενό )"
+
+#: $string['aggregation_link']
+msgctxt "$string['aggregation_link']"
+msgid "grade/aggregation"
+msgstr ""
+
+#: $string['aggregationofa']
+msgid "Aggregation of {$a}"
+msgstr ""
+
+#: $string['aggregationposition']
+msgid "Aggregation position"
+msgstr "Θέση συνάθροισης"
+
+#: $string['aggregationposition_help']
+msgid ""
+"This setting determines whether the category and course total columns are "
+"displayed first or last in the gradebook reports."
+msgstr ""
+"Αυτή η ρύθμιση καθορίζει αν η στήλη της κατηγορίας και του συνολικού βαθμού "
+"του μαθήματος θα εμφανίζονται πρώτα ή τελευταία στις αναφορές του βιβλίου "
+"βαθμολογιών."
+
+#: $string['aggregationsvisible']
+msgid "Available aggregation types"
+msgstr "Διαθέσιμοι τύποι συνάθροισης"
+
+#: $string['aggregationsvisiblehelp']
+msgid ""
+"Select all aggregation types that should be available. Hold down the Ctrl "
+"key to select multiple items."
+msgstr ""
+"Επιλέξτε όλους τους τύπους συνάθροισης που θα πρέπει να είναι διαθέσιμοι. "
+"Κρατήστε πατημένο το πλήκτρο Ctrl για να επιλέξετε πολλαπλά στοιχεία."
+
+#: $string['allgrades']
+msgid "All grades by category"
+msgstr "Όλοι οι βαθμοί ανά κατηγορία"
+
+#: $string['allstudents']
+msgid "All students"
+msgstr "Όλοι οι φοιτητές"
+
+#: $string['allusers']
+msgid "All users"
+msgstr "Όλοι οι χρήστες"
+
+#: $string['autosort']
+msgid "Auto-sort"
+msgstr "Αυτόματη ταξινόμηση"
+
+#: $string['availableidnumbers']
+msgid "Available ID numbers"
+msgstr "Διαθέσιμοι αναγνωριστικοί αριθμοί"
+
+#: $string['average']
+msgid "Average"
+msgstr "Μέσος όρος"
+
+#: $string['averagesdecimalpoints']
+msgid "Decimals in column averages"
+msgstr "Δεκαδικά στους μέσους όρους στηλών"
+
+#: $string['averagesdecimalpoints_help']
+msgid ""
+"This setting determines the number of decimal points to display for each "
+"average or whether the overall decimal points setting for the category or "
+"grade item is used (inherit)."
+msgstr ""
+"Αυτή η ρύθμιση καθορίζει τον αριθμό των δεκαδικών ψηφίων που θα εμφανίζονται "
+"για κάθε μέσο όρο ή αν η ρύθμιση του συνόλου δεκαδικών ψηφίων για την "
+"κατηγορία ή το στοιχείο που βαθμολογείται χρησιμοποιείται (κληρονομεί)."
+
+#: $string['averagesdisplaytype']
+msgid "Column averages display type"
+msgstr "Τύπος εμφάνισης μέσων όρων στηλών"
+
+#: $string['averagesdisplaytype_help']
+msgid ""
+"This setting determines whether the average (mean) is displayed as real "
+"grades, percentages or letters, or whether the display type for the category "
+"or grade item is used (inherit)."
+msgstr ""
+"Αυτή η ρύθμιση καθορίζει αν ο μέσος όρος (μέσο) εμφανίζεται ως πραγματικός "
+"βαθμός, ποσοστό ή γράμμα, ή αν ο τύπος εμφάνισης για την κατηγορία ή το "
+"στοιχείο που βαθμολογείται χρησιμοποιείται (κληρονομεί)."
+
+#: $string['backupwithoutgradebook']
+msgid "Backup does not contain gradebook configuration"
+msgstr "Το αντίγραφο ασφαλείας δεν περιέχει τη ρύθμιση του βαθμολόγιου"
+
+#: $string['badgrade']
+msgid "Supplied grade is invalid"
+msgstr "Ο βαθμός που δόθηκε δεν είναι έγκυρος"
+
+#: $string['badlyformattedscale']
+msgid ""
+"Please enter a comma-separated list of values (at least two values "
+"required)."
+msgstr ""
+"Παρακαλούμε εισάγεται μια λίστα τιμών χωρισμένες με κόμμα (απαιτούνται "
+"τουλάχιστον δύο τιμές)."
+
+#: $string['baduser']
+msgid "Supplied user is invalid"
+msgstr "Ο χρήστης που δόθηκε δεν είναι έγκυρος"
+
+#: $string['bonuspoints']
+msgid "Bonus points"
+msgstr "Βαθμοί Μπόνους"
+
+#: $string['bulkcheckboxes']
+msgid "Bulk checkboxes"
+msgstr "Ογκώδη κουτάκια επιλογής"
+
+#: $string['calculatedgrade']
+msgid "Calculated grade"
+msgstr "Υπολογισμένος βαθμός"
+
+#: $string['calculation']
+msgid "Calculation"
+msgstr "Υπολογισμός"
+
+#: $string['calculationadd']
+msgid "Add calculation"
+msgstr "Προσθήκη υπολογισμού"
+
+#: $string['calculationedit']
+msgctxt "$string['calculationedit']"
+msgid "Edit calculation"
+msgstr "Επεξεργασία υπολογισμού"
+
+#: $string['calculation_help']
+msgid ""
+"A grade calculation is a formula used to determine grades. The formula "
+"should start with an equal (=) sign and may use common mathematical "
+"operators, such as max, min and sum. If desired, other grade items may be "
+"included in the calculation by typing the ID numbers in double square "
+"brackets."
+msgstr ""
+
+#: $string['calculation_link']
+msgid "grade/calculation"
+msgstr ""
+
+#: $string['calculationsaved']
+msgid "Calculation saved"
+msgstr "Ο υπολογισμός αποθηκεύθηκε"
+
+#: $string['calculationview']
+msgid "View calculation"
+msgstr "Εμφάνιση υπολογισμού"
+
+#: $string['cannotaccessgroup']
+msgid "Can not access grades of selected group, sorry."
+msgstr ""
+"Δεν είναι δυνατή η πρόσβαση στους βαθμούς της επιλεγμένης ομάδας, συγγνώμη."
+
+#: $string['categories']
+msgid "Categories"
+msgstr "Κατηγορίες"
+
+#: $string['category']
+msgid "Category"
+msgstr "Κατηγορία"
+
+#: $string['categoryedit']
+msgid "Edit category"
+msgstr "Επεξεργασία κατηγορίας"
+
+#: $string['categoryname']
+msgid "Category name"
+msgstr "Όνομα κατηγορίας"
+
+#: $string['categorytotal']
+msgid "Category total"
+msgstr "Σύνολο κατηγορίας"
+
+#: $string['categorytotalfull']
+msgid "{$a->category} total"
+msgstr "{$a->category} συνολικά"
+
+#: $string['categorytotalname']
+msgid "Category total name"
+msgstr "Συνολικό όνομα κατηγορίας"
+
+#: $string['changedefaults']
+msgid "Change defaults"
+msgstr "Αλλαγή προεπιλογών"
+
+#: $string['changereportdefaults']
+msgid "Change report defaults"
+msgstr "Αλλαγή προεπιλογών αναφοράς"
+
+#: $string['chooseaction']
+msgid "Choose an action ..."
+msgstr "Επιλέξτε μια ενέργεια ..."
+
+#: $string['choosecategory']
+msgid "Select category"
+msgstr "Επιλογή Κατηγορίας"
+
+#: $string['combo']
+msgid "Tabs and Dropdown menu"
+msgstr "Καρτέλες και αναδυόμενο μενού"
+
+#: $string['compact']
+msgid "Compact"
+msgstr "Συμπαγές"
+
+#: $string['componentcontrolsvisibility']
+msgid ""
+"Whether this grade item is hidden is controlled by the activity settings."
+msgstr ""
+
+#: $string['contract']
+msgid "Contract category"
+msgstr "Συστολή Κατηγορίας"
+
+#: $string['contributiontocoursetotal']
+msgid "Contribution to course total"
+msgstr "Συνεισφορά στον τελικό βαθμό"
+
+#: $string['controls']
+msgid "Controls"
+msgstr "Έλεγχοι"
+
+#: $string['courseavg']
+msgid "Course average"
+msgstr "Μέσος όρος μαθήματος"
+
+#: $string['coursegradecategory']
+msgid "Course grade category"
+msgstr "Κατηγορία βαθμού μαθήματος"
+
+#: $string['coursegradedisplaytype']
+msgid "Course grade display type"
+msgstr "Τρόπος εμφάνισης βαθμού μαθήματος"
+
+#: $string['coursegradedisplayupdated']
+msgid "The course grade display type has been updated."
+msgstr "Ο τρόπος εμφάνισης βαθμού μαθήματος ανανεώθηκε."
+
+#: $string['coursegradesettings']
+msgid "Course grade settings"
+msgstr "Ρυθμίσεις βαθμολογίου"
+
+#: $string['coursename']
+msgid "Course name"
+msgstr "Όνομα μαθήματος"
+
+#: $string['coursescales']
+msgid "Course scales"
+msgstr "Κλίμακες μαθήματος"
+
+#: $string['coursesettings']
+msgid "Course settings"
+msgstr "Ρυθμίσεις μαθήματος"
+
+#: $string['coursesettingsexplanation']
+msgid ""
+"Course settings determine how the gradebook appears for all participants in "
+"the course."
+msgstr ""
+"Οι ρυθμίσεις του μαθήματος καθορίζουν τον τρόπο εμφάνισης του βαθμολόγιου "
+"για όλους τους συμμετέχοντες στο μάθημα."
+
+#: $string['coursesiamtaking']
+msgid "Courses I am taking"
+msgstr ""
+
+#: $string['coursesiamteaching']
+msgid "Courses I am teaching"
+msgstr ""
+
+#: $string['coursetotal']
+msgid "Course total"
+msgstr "Σύνολο μαθήματος"
+
+#: $string['createcategory']
+msgid "Create category"
+msgstr "Δημιουργία κατηγορίας"
+
+#: $string['createcategoryerror']
+msgid "Could not create a new category"
+msgstr "Δεν ήταν δυνατή η δημιουργία μιας νέας κατηγορίας"
+
+#: $string['creatinggradebooksettings']
+msgid "Creating gradebook settings"
+msgstr "Δημιουργία ρυθμίσεων βαθμολόγιου"
+
+#: $string['csv']
+msgid "CSV"
+msgstr "CSV"
+
+#: $string['currentparentaggregation']
+msgid "Current parent aggregation"
+msgstr "Τρέχουσα συνάθροιση γονέα"
+
+#: $string['curveto']
+msgid "Curve to"
+msgstr "Καμπύλη προς"
+
+#: $string['decimalpoints']
+msgid "Overall decimal points"
+msgstr "Δεκαδικά ψηφία - γενικά"
+
+#: $string['decimalpoints_help']
+msgid ""
+"This setting determines the number of decimal points to display for each "
+"grade. It has no effect on grade calculations, which are made with an "
+"accuracy of 5 decimal places."
+msgstr ""
+"Αυτή η ρύθμιση καθορίζει τον αριθμό των δεκαδικών ψηφίων που θα εμφανίζονται "
+"για κάθε βαθμό. Δεν έχει καμία επίδραση στο βαθμό υπολογισμού, ο οποίος "
+"υπολογίζεται με ακρίβεια 5 δεκαδικών ψηφίων."
+
+#: $string['default']
+msgid "Default"
+msgstr "Προεπιλογή"
+
+#: $string['defaultprev']
+msgid "Default ({$a})"
+msgstr "Προεπιλογή ({$a})"
+
+#: $string['deletecategory']
+msgid "Delete category"
+msgstr "Διαγραφή Κατηγορίας"
+
+#: $string['disablegradehistory']
+msgid "Disable grade history"
+msgstr "Απενεργοποίηση ιστορικού βαθμών"
+
+#: $string['disablegradehistory_help']
+msgid ""
+"Disable history tracking of changes in grades related tables. This may speed "
+"up the server a little and conserve space in database."
+msgstr ""
+"Απενεργοποίηση του ιστορικού παρακολούθησης αλλαγών σε πίνακες σχετιζόμενους "
+"με βαθμούς. Αυτό μπορεί να αυξήσει λίγο την ταχύτητα του εξυπηρετητή και να "
+"περιορίσει το χώρο της βάσης δεδομένων."
+
+#: $string['displaylettergrade']
+msgid "Display letter grades"
+msgstr "Εμφάνιση Γραμματικών Βαθμών"
+
+#: $string['displaypercent']
+msgid "Display percents"
+msgstr "Εμφάνιση Ποσοστών"
+
+#: $string['displaypoints']
+msgid "Display points"
+msgstr "Εμφάνιση Πόντων"
+
+#: $string['displayweighted']
+msgid "Display weighted grades"
+msgstr "Εμφάνιση Βαθμών Βαρύτητας"
+
+#: $string['dropdown']
+msgid "Dropdown menu"
+msgstr "Αναδυόμενο μενού"
+
+#: $string['droplow']
+msgid "Drop the lowest"
+msgstr "Απόρριψη των χαμηλότερων"
+
+#: $string['droplowestvalue']
+msgid "Set drop lowest grade value"
+msgstr ""
+
+#: $string['droplowestvalues']
+msgid "Drop {$a} lowest values"
+msgstr ""
+
+#: $string['droplow_help']
+msgid ""
+"This setting enables a specified number of the lowest grades to be excluded "
+"from the aggregation."
+msgstr ""
+"Αυτή η ρύθμιση επιτρέπει ένας συγκεκριμένος αριθμός από τις χαμηλότερες "
+"βαθμολογίες να εξαιρείται από τη συνάθροιση."
+
+#: $string['dropped']
+msgid "Dropped"
+msgstr "Απορρίφθησαν"
+
+#: $string['dropxlowest']
+msgid "Drop X lowest"
+msgstr "Απόρριψη Χ χαμηλότερων"
+
+#: $string['dropxlowestwarning']
+msgid ""
+"Note: If you use drop x lowest the grading assumes that all items in the "
+"category have the same point value. If point values differ results will be "
+"unpredictable"
+msgstr ""
+"Σημείωση: Εάν χρησιμοποιήσετε το Απόρριψη Χ χαμηλώτερων η βαθμολόγηση "
+"υποθέτει ότι όλα τα αντικείμενα στην κατηγορία έχουν τους ίδιους πόντους. "
+"Εάν οι τιμές πόντων διαφέρουν, τα αποτελέσματα θα είναι απρόβλεπτα."
+
+#: $string['duplicatescale']
+msgid "Duplicate scale"
+msgstr "Αντίγραφο κλίμακας"
+
+#: $string['edit']
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: $string['editcalculation']
+msgctxt "$string['editcalculation']"
+msgid "Edit calculation"
+msgstr "Επεξεργασία υπολογισμού"
+
+#: $string['editcalculationverbose']
+msgid "Edit calculation for {$a->category} {$a->itemmodule} {$a->itemname}"
+msgstr "Επεξεργασία υπολογισμού για {$a->category}$a->itemmodule {$a->itemname}"
+
+#: $string['editfeedback']
+msgctxt "$string['editfeedback']"
+msgid "Edit feedback"
+msgstr "Επεξεργασία σχόλιου"
+
+#: $string['editgrade']
+msgid "Edit grade"
+msgstr "Επεξεργασία βαθμού"
+
+#: $string['editgradeletters']
+msgid "Edit grade letters"
+msgstr "Επεξεργασία γραμμάτων βαθμολόγησης"
+
+#: $string['editoutcome']
+msgid "Edit outcome"
+msgstr "Επεξεργασία έκβασης"
+
+#: $string['editoutcomes']
+msgid "Edit outcomes"
+msgstr "Επεξεργασία εκβάσεων"
+
+#: $string['editscale']
+msgid "Edit scale"
+msgstr "Επεξεργασία κλίμακας"
+
+#: $string['edittree']
+msgid "Setup"
+msgstr "Κατηγορίες και στοιχεία"
+
+#: $string['editverbose']
+msgid "Edit {$a->category} {$a->itemmodule} {$a->itemname}"
+msgstr "Επεξεργασία {$a->category}$a->itemmodule {$a->itemname}"
+
+#: $string['enableajax']
+msgid "Enable AJAX"
+msgstr "Ενεργοποίηση AJAX"
+
+#: $string['enableajax_help']
+msgid ""
+"Adds a layer of AJAX functionality to the grader report, simplifying and "
+"speeding up common operations. Depends on Javascript being switched on at "
+"the user's browser level."
+msgstr ""
+"Προσθέτει ένα επίπεδο λειτουργικότητας AJAX στην αναφορά του βαθμολογητή, "
+"απλοποιώντας και επιταχύνοντας συχνές λειτουργίες. Εξαρτάται από την "
+"ενεργοποίηση της Javascript στο πρόγραμμα περιήγησης του χρήστη."
+
+#: $string['enableoutcomes']
+msgid "Enable outcomes"
+msgstr "Ενεργοποίηση εκβάσεων"
+
+#: $string['enableoutcomes_help']
+msgid ""
+"If enabled, grade items may be graded using one or more scales tied to "
+"outcome statements."
+msgstr ""
+"Η υποστήριξη για Εκβάσεις (γνωστές και ώς Επάρκειες, Στόχοι, Πρότυπα ή "
+"Κριτήρια) σημαίνει οτι μπορούμε να βαθμολογούμε χρησιμοποιώντας μια ή "
+"περισσότερες κλίμακες που είναι δεμένες με δηλώσεις εκβάσεων. Η ενεργοποίηση "
+"των εκβάσεων δίνει την δυνατότητα τέτοιων ειδικών τρόπων βαθμολόγησης σε "
+"όλο τον ιστοχώρο."
+
+#: $string['encoding']
+msgid "Encoding"
+msgstr "Κωδικοποίηση"
+
+#: $string['encoding_help']
+msgid ""
+"Select the character encoding used for the data. (The standard encoding is "
+"UTF-8.) If the wrong encoding is selected by mistake, it will be noticeable "
+"when previewing the data for import."
+msgstr ""
+
+#: $string['errorcalculationbroken']
+msgid "Probably circular reference or broken calculation formula"
+msgstr ""
+
+#: $string['errorcalculationnoequal']
+msgid "Formula must start with equal sign (=1+2)"
+msgstr "Ο τύπος πρέπει να ξεκινάει με το σημάδι του ίσον (=1+2)"
+
+#: $string['errorcalculationunknown']
+msgid "Invalid formula"
+msgstr "Μη έγκυρος τύπος"
+
+#: $string['errorgradevaluenonnumeric']
+msgid "Received non-numeric for low or high grade for"
+msgstr "Παραλήφθηκαν μη-αριθμητικά για χαμηλό ή υψηλό βαθμό για"
+
+#: $string['errornocalculationallowed']
+msgid "Calculations are not allowed for this item"
+msgstr "Οι υπολογισμοί δεν επιτρέπονται για αυτό το στοιχείο"
+
+#: $string['errornocategorisedid']
+msgid "Could not get an uncategorised id!"
+msgstr "Αποτυχία λήψης ενός μη κατηγοριοποιημένου αναγνωριστικού!"
+
+#: $string['errornocourse']
+msgid "Could not get course information"
+msgstr "Δεν παραλήφθηκαν πληροφορίες μαθήματος"
+
+#: $string['errorreprintheadersnonnumeric']
+msgid "Received non-numeric value for reprint-headers"
+msgstr "Παραλήφθηκαν μη-αριθμητικές τιμές για κεφαλίδες επανεκτύπωσης"
+
+#: $string['errorsavegrade']
+msgid "Could not save grade, sorry."
+msgstr "Δεν ήταν δυνατή η αποθήκευση βαθμού, συγγνώμη."
+
+#: $string['errorsettinggrade']
+msgid "Error saving \"{$a->itemname}\" grade for userid {$a->userid}"
+msgstr ""
+"Σφάλμα κατά την αποθήκευση \"{$a->itemname}\" βαθμού για το αναγνωριστικό "
+"χρήστη {$a->userid}"
+
+#: $string['errorupdatinggradecategoryaggregateonlygraded']
+msgid ""
+"Error updating the \"Aggregate only non-empty grades\" setting of grade "
+"category ID {$a->id}"
+msgstr ""
+"Σφάλμα ανανέωσης της ρύθμισης \"Συνάθροιση μόνο βαθμολογημένων στοιχείων\" για "
+"την κατηγορία βαθμών με αναγνωριστικό {$a->id}"
+
+#: $string['errorupdatinggradecategoryaggregateoutcomes']
+msgid ""
+"Error updating the \"Include outcomes in aggregation\" setting of grade "
+"category ID {$a->id}"
+msgstr ""
+"Σφάλμα ανανέωσης της ρύθμισης \"Συνάθροιση εκβάσεων\" για την κατηγορία βαθμών "
+"με αναγνωριστικό {$a->id}"
+
+#: $string['errorupdatinggradecategoryaggregation']
+msgid "Error updating the aggregation type of grade category ID {$a->id}"
+msgstr ""
+"Σφάλμα ανανέωσης του τύπου συνάθροισης για την κατηγορία βαθμών με "
+"αναγνωριστικό {$a->id}"
+
+#: $string['errorupdatinggradeitemaggregationcoef']
+msgid ""
+"Error updating the aggregation coefficient (weight or extra credit) of grade "
+"item ID {$a->id}"
+msgstr ""
+"Σφάλμα ανανέωσης του συντελεστή συνάθροισης (βάρος ή εξτρά έπαινος) για το "
+"στοιχείο βαθμού με αναγνωριστικό ID {$a->id}"
+
+#: $string['eventgradedeleted']
+msgid "Grade deleted"
+msgstr "Ο βαθμός διαγράφηκε"
+
+#: $string['eventgradeviewed']
+msgid "Grades were viewed in the gradebook"
+msgstr ""
+
+#: $string['eventusergraded']
+msgid "User graded"
+msgstr "ο χρήστης βαθμολογήθηκε"
+
+#: $string['excluded']
+msgid "Excluded"
+msgstr "Εξαιρεμένο"
+
+#: $string['excluded_help']
+msgid "If ticked, the grade will not be included in any aggregation."
+msgstr ""
+
+#: $string['expand']
+msgid "Expand category"
+msgstr "Διαστολή κατηγορίας"
+
+#: $string['export']
+msgid "Export"
+msgstr "Εξαγωγή"
+
+#: $string['exportalloutcomes']
+msgid "Export all outcomes"
+msgstr "Εξαγωγή όλων των εκβάσεων"
+
+#: $string['exportfeedback']
+msgid "Include feedback in export"
+msgstr "Ενσωμάτωση σχολίου στην εξαγωγή"
+
+#: $string['exportfeedback_desc']
+msgid "This can be overridden during export."
+msgstr ""
+
+#: $string['exportformatoptions']
+msgid "Export format options"
+msgstr "Επιλογές μορφής εξαγωγής"
+
+#: $string['exportonlyactive']
+msgid "Exclude suspended users"
+msgstr "Εξαίρεση χρηστών που έχουν ανασταλεί"
+
+#: $string['exportonlyactive_help']
+msgid ""
+"Only include students in the export whose enrolment is active and has not "
+"been suspended"
+msgstr ""
+"Να συμπεριληφθούν στην εξαγωγή μόνο μαθητές των οποίων η εγγραφή είναι "
+"ενεργή και δεν έχει ανασταλεί"
+
+#: $string['exportplugins']
+msgid "Export plugins"
+msgstr "Εξαγωγή υπομονάδων λογισμικού"
+
+#: $string['exportsettings']
+msgid "Export settings"
+msgstr "Εξαγωγή ρυθμίσεων"
+
+#: $string['exportto']
+msgid "Export to"
+msgstr "Εξαγωγή σε"
+
+#: $string['externalurl']
+msgid "External URL"
+msgstr ""
+
+#: $string['externalurl_desc']
+msgid "If an external gradebook is used, the URL should be specified here."
+msgstr ""
+
+#: $string['extracreditvalue']
+msgid "Extra credit value for {$a}"
+msgstr ""
+
+#: $string['extracreditwarning']
+msgid ""
+"Note: Setting all items for a category to extra credit will effectively "
+"remove them from the grade calculation. Since there will be no point total"
+msgstr ""
+"Σημείωση: Η ρύθμιση όλων των αντικειμένων μίας κατηγορίας για εξτρά έπαινο, "
+"θα τα αφαιρέσει από τον υπολογισμό βαθμού. Καθώς δεν θα υπάρχει σύνολο "
+"πόντων."
+
+#: $string['feedback']
+msgid "Feedback"
+msgstr "Σχόλιο"
+
+#: $string['feedbackadd']
+msgctxt "$string['feedbackadd']"
+msgid "Add feedback"
+msgstr "Προσθήκη σχόλιου"
+
+#: $string['feedbackedit']
+msgctxt "$string['feedbackedit']"
+msgid "Edit feedback"
+msgstr "Επεξεργασία σχόλιου"
+
+#: $string['feedbackforgradeitems']
+msgid "Feedback for {$a}"
+msgstr ""
+
+#: $string['feedback_help']
+msgid "This box enables any comments about the grade to be added."
+msgstr ""
+
+#: $string['feedbacks']
+msgid "Feedbacks"
+msgstr ""
+
+#: $string['feedbacksaved']
+msgid "Feedback saved"
+msgstr "Το σχόλιο αποθηκεύτηκε"
+
+#: $string['feedbackview']
+msgid "View feedback"
+msgstr "Εμφάνιση σχόλιου"
+
+#: $string['finalgrade']
+msgid "Final grade"
+msgstr "Τελικός βαθμός"
+
+#: $string['finalgrade_help']
+msgid "If the overridden checkbox is ticked, a grade may be added or amended."
+msgstr ""
+
+#: $string['fixedstudents']
+msgid "Static students column"
+msgstr "Στατική στήλη μαθητών"
+
+#: $string['fixedstudents_help']
+msgid ""
+"Allows grades to scroll horizontally without losing sight of the students "
+"column, by making it static."
+msgstr ""
+"Επιτρέπει στους βαθμούς να κυλάνε οριζόντια χωρίς να χάνεται η οπτική της "
+"στήλης των μαθητών, κάνοντας την στατική."
+
+#: $string['forceimport']
+msgid "Force import"
+msgstr ""
+
+#: $string['forceimport_help']
+msgid ""
+"Force import of grades even if the grades were updated after the import file "
+"was exported"
+msgstr ""
+
+#: $string['forceoff']
+msgid "Force: Off"
+msgstr "Υποχρεωτικά: απενεργοποίηση"
+
+#: $string['forceon']
+msgid "Force: On"
+msgstr "Υποχρεωτικά: ενεργοποίηση"
+
+#: $string['forelementtypes']
+msgid "for the selected {$a}"
+msgstr "για τους επιλεγμένου {$a}"
+
+#: $string['forstudents']
+msgid "For students"
+msgstr "Για Μαθητές"
+
+#: $string['full']
+msgid "Full"
+msgstr "Πλήρες"
+
+#: $string['fullmode']
+msgid "Change to full view"
+msgstr "Πλήρης εμφάνιση"
+
+#: $string['generalsettings']
+msgid "General settings"
+msgstr "Γενικές ρυθμίσεις"
+
+#: $string['grade']
+msgctxt "$string['grade']"
+msgid "Grade"
+msgstr "Βαθμός"
+
+#: $string['gradeadministration']
+msgid "Grade administration"
+msgstr "Διαχείριση βαθμολογιών"
+
+#: $string['gradealreadyupdated']
+msgid ""
+"{$a} grades have not been imported because the grades in the import file are "
+"older than in the grader report. To proceed with the grade import anyway, "
+"use the force import option."
+msgstr ""
+
+#: $string['gradeanalysis']
+msgid "Grade analysis"
+msgstr "Ανάλυση Βαθμού"
+
+#: $string['gradebook']
+msgid "Gradebook"
+msgstr "Βαθμολόγιο"
+
+#: $string['gradebookcalculationsfixbutton']
+msgid "Accept grade changes and fix calculation errors"
+msgstr ""
+
+#: $string['gradebookcalculationsuptodate']
+msgid ""
+"The calculations in the gradebook are up to date. You may need to reload "
+"this page to see changes."
+msgstr ""
+
+#: $string['gradebookcalculationswarning']
+msgid ""
+"Note: Some errors have been detected in calculating the grades displayed in "
+"the gradebook. If your course has not started or is in progress, it is "
+"recommended that the errors are fixed by clicking the button below, though "
+"this will result in some grades being changed. If your course has already "
+"ended and grades have been submitted, you probably do not want to fix this "
+"issue.\n"
+"\n"
+"The newer version is {$a->currentversion}; you are using gradebook version "
+"{$a->gradebookversion}. You can see a list of changes in <a "
+"href=\"{$a->url}\">Gradebook calculation changes</a>."
+msgstr ""
+
+#: $string['gradebookhiddenerror']
+msgid "The gradebook is currently set to hide everything from students."
+msgstr "Το βαθμολόγιο έχει ρυθμιστεί να κρύβει τα πάντα από τους φοιτητές."
+
+#: $string['gradebookhistories']
+msgid "Grade histories"
+msgstr "Ιστορικά βαθμού"
+
+#: $string['gradebooksetup']
+msgid "Gradebook setup"
+msgstr "Ρύθμιση βαθμολογίου"
+
+#: $string['gradeboundary']
+msgid "Letter grade boundary"
+msgstr "Όριο βαθμού με γράμματα"
+
+#: $string['gradeboundary_help']
+msgid ""
+"This setting determines the minimum percentage over which grades will be "
+"assigned the grade letter."
+msgstr ""
+"Αυτή η ρύθμιση καθορίζει το ελάχιστο ποσοστό κατά το οποίο οι βαθμοί θα "
+"αποδίδονται στο βαθμό γράμμα."
+
+#: $string['gradecategories']
+msgid "Grade categories"
+msgstr "Κατηγορίες βαθμού"
+
+#: $string['gradecategory']
+msgctxt "$string['gradecategory']"
+msgid "Grade category"
+msgstr "Κατηγορία βαθμού"
+
+#: $string['gradecategoryonmodform']
+msgctxt "$string['gradecategoryonmodform']"
+msgid "Grade category"
+msgstr "Κατηγορία βαθμού"
+
+#: $string['gradecategoryonmodform_help']
+msgid ""
+"This setting controls the category in which this activity's grades are "
+"placed in the gradebook."
+msgstr ""
+"Αυτή η ρύθμιση ελέγχει την κατηγορία, στην οποία οι βαθμοί της "
+"δραστηριότητας θα τοποθετηθούν, στο βιβλίο βαθμολογιών."
+
+#: $string['gradecategorysettings']
+msgid "Grade category settings"
+msgstr "Ρυθμίσεις κατηγορίας βαθμού"
+
+#: $string['gradedisplay']
+msgid "Grade display"
+msgstr "Εμφάνιση βαθμού"
+
+#: $string['gradedisplaytype']
+msgid "Grade display type"
+msgstr "Τρόπος εμφάνισης βαθμού"
+
+#: $string['gradedisplaytype_help']
+msgid ""
+"This setting determines how grades are displayed in the grader and user "
+"reports.\n"
+"\n"
+"* Real - Actual grades\n"
+"* Percentage\n"
+"* Letter - Letters or words are used to represent a range of grades"
+msgstr ""
+"Αυτή η ρύθμιση καθορίζει πως εμφανίζονται οι βαθμοί στις αναφορές "
+"βαθμολογητή και χρήστη. * Πραγματικοί βαθμοί * Ποσοστό * Γράμμα - Γράμματα ή "
+"λέξεις χρησιμοποιούνται για να παρουσιάσουν ένα εύρος βαθμών"
+
+#: $string['gradedon']
+msgid "Graded: {$a}"
+msgstr "Βαθμολογημένα: {$a}"
+
+#: $string['gradeexport']
+msgid "Grade export"
+msgstr "Εξαγωγή βαθμολογίας"
+
+#: $string['gradeexportcolumntype']
+msgid "{$a->name} ({$a->extra})"
+msgstr ""
+
+#: $string['gradeexportcustomprofilefields']
+msgid "Grade export custom profile fields"
+msgstr ""
+
+#: $string['gradeexportcustomprofilefields_desc']
+msgid ""
+"Include these custom profile fields in the grade export, separated by "
+"commas."
+msgstr ""
+
+#: $string['gradeexportdecimalpoints']
+msgid "Grade export decimal points"
+msgstr "Δεδαδικά ψηφία εξαγωγής βαθμού"
+
+#: $string['gradeexportdecimalpoints_desc']
+msgid ""
+"The number of decimal points to display for export. This can be overridden "
+"during export."
+msgstr ""
+"Ο αριθμός των δεκαδικών που θα εμφανίζονται κατά την εξαγωγή. Μπορεί να "
+"παρακαμφθεί κατά την εξαγωγή."
+
+#: $string['gradeexportdisplaytype']
+msgid "Grade export display type"
+msgstr "Τρόπος εμφάνισης εξαγωγής βαθμού"
+
+#: $string['gradeexportdisplaytype_desc']
+msgid ""
+"Grades can be shown as real grades, as percentages (in reference to the "
+"minimum and maximum grades) or as letters (A, B, C etc..) during export. "
+"This can be overridden during export."
+msgstr ""
+"Οι βαθμοί μπορούν να εμφανίζονται σαν πραγματικοί βαθμοί, σαν ποσοστά (σε "
+"σχέση με τον ελάχιστο και μέγιστο βαθμό) ή σαν γράμματα (A, B, C κλπ..) κατά "
+"την εξαγωγή. Μπορεί να παρακαμθεί κατά την εξαγωγή."
+
+#: $string['gradeexportdisplaytypes']
+msgid "Grade export display types"
+msgstr ""
+
+#: $string['gradeexportuserprofilefields']
+msgid "Grade export user profile fields"
+msgstr ""
+
+#: $string['gradeexportuserprofilefields_desc']
+msgid ""
+"Include these user profile fields in the grade export, separated by commas."
+msgstr ""
+
+#: $string['gradeforstudent']
+msgid "{$a->student}<br />{$a->item}{$a->feedback}"
+msgstr ""
+
+#: $string['gradegrademinmax']
+msgid "Initial min and max grades"
+msgstr ""
+
+#: $string['gradehelp']
+msgid "Grade help"
+msgstr "Βοήθεια Βαθμού"
+
+#: $string['gradehistorylifetime']
+msgid "Grade history lifetime"
+msgstr "Διάρκεια ζωής ιστορικού βαθμού"
+
+#: $string['gradehistorylifetime_help']
+msgid ""
+"This specifies the length of time you want to keep history of changes in "
+"grade related tables. It is recommended to keep it as long as possible. If "
+"you experience performance problems or have limited database space, try to "
+"set lower value."
+msgstr ""
+"Ορίζει το μέγεθός του χρόνου για το οποίο θέλετε να κρατάτε το ιστορικό των "
+"αλλαγών στους πίνακες που σχετίζονται με βαθμούς. Προτείνεται να κρατάτε το "
+"ιστορικό όσο γίνεται περισσότερο. Εάν αντιμετωπίσετε προβλήματα απόδοσης ή "
+"έχετε περιορισμένο χώρο βάσης δεδομένων, δοκιμάστε να το ρυθμίσετε σε μια "
+"χαμηλότερη τιμή."
+
+#: $string['gradeimport']
+msgid "Grade import"
+msgstr "Εισαγωγή βαθμολογίας"
+
+#: $string['gradeimportfailed']
+msgid "Grade Import failed during commit. Details:"
+msgstr ""
+
+#: $string['gradeitem']
+msgid "Grade item"
+msgstr "Αντικείμενο Βαθμού"
+
+#: $string['gradeitemaddusers']
+msgid "Exclude from grading"
+msgstr "Εξαίρεση απο Βαθμολόγηση"
+
+#: $string['gradeitemadvanced']
+msgid "Advanced grade item options"
+msgstr "Επιλογές προχωρημένου στοιχείου βαθμού"
+
+#: $string['gradeitemadvanced_help']
+msgid ""
+"Select all elements that should be displayed as advanced when editing grade "
+"items."
+msgstr ""
+"Επιλέξτε όλα τα στοιχεία που πρέπει να εμφανίζονται σαν προχωρημένα όταν "
+"επεξεργάζεστε στοιχεία βαθμών."
+
+#: $string['gradeitemislocked']
+msgid ""
+"This activity is locked in the gradebook. Changes that are made to grades in "
+"this activity will not be copied to the gradebook until it is unlocked."
+msgstr ""
+"Αυτή η δραστηριότητα είναι κλειδωμένη στο βαθμολόγιο. Αλλαγές οι οποίες "
+"γίνονται σε βαθμούς σε αυτή τη δραστηριότητα δεν θα αντιγράφονται στο "
+"βαθμολόγιο μέχρι να ξεκλειδωθεί."
+
+#: $string['gradeitemlocked']
+msgid "Grading locked"
+msgstr "Η βαθμολόγηση είναι κλειδωμένη"
+
+#: $string['gradeitemmembersselected']
+msgid "Excluded from grading"
+msgstr "Εξαιρούνται Βαθμολόγησης"
+
+#: $string['gradeitemminmax']
+msgid "Min and max grades as specified in grade item settings"
+msgstr ""
+
+#: $string['gradeitemnonmembers']
+msgid "Included in grading"
+msgstr "Περιλαμβάνονται στη Βαθμολογία"
+
+#: $string['gradeitemremovemembers']
+msgid "Include in grading"
+msgstr "Περιέλαβε στην βαθμολόγηση"
+
+#: $string['gradeitems']
+msgid "Grade items"
+msgstr "Αντικείμενα βαθμολόγησης"
+
+#: $string['gradeitemsettings']
+msgid "Grade item settings"
+msgstr "Ρυθμίσεις αντικειμένων βαθμολόγησης"
+
+#: $string['gradeitemsinc']
+msgid "Grade items to be included"
+msgstr "Τα αντικείμενα βαθμολόγησης που θα ενσωματωθούν"
+
+#: $string['gradeletter']
+msgid "Grade letter"
+msgstr "Γράμμα Βαθμού"
+
+#: $string['gradeletter_help']
+msgid ""
+"Grade letters are letters, A, B, C, ..., or words, for example Distinction, "
+"Merit, Pass, ..., used to represent a range of grades."
+msgstr ""
+"Οι βαθμοί γράμματα είναι τα γράμματα Α, Β, C, …, ή λέξεις, για παράδειγμα "
+"Άριστα, Μέτρια, Περνάς, …, χρησιμοποιούνται για να αντιπροσωπεύσουν ένα "
+"εύρος βαθμολογιών."
+
+#: $string['gradeletternote']
+msgid ""
+"To delete a grade letter just empty any of the<br /> three text areas for "
+"that letter and click submit."
+msgstr ""
+"Για να διαγράψετε ένα γράμμα βαθμού πρέπει να αδειάσετε οποιαδήποτε από<br "
+"/> τις τρείς περιοχές που σχετίζονται με αυτό το γράμμα και να επιλέξετε "
+"υποβολή."
+
+#: $string['gradeletteroverridden']
+msgid "The default grade letters are currently overridden."
+msgstr ""
+
+#: $string['gradeletters']
+msgid "Grade letters"
+msgstr "Γράμματα βαθμού"
+
+#: $string['gradelocked']
+msgid "Grade is locked"
+msgstr "Ο βαθμός είναι κλειδωμένος"
+
+#: $string['gradelong']
+msgid "{$a->grade} / {$a->max}"
+msgstr "{$a->grade} / {$a->max}"
+
+#: $string['grademax']
+msgctxt "$string['grademax']"
+msgid "Maximum grade"
+msgstr "Μέγιστος βαθμός"
+
+#: $string['grademax_help']
+msgid ""
+"This setting determines the maximum grade when using the value grade type. "
+"The maximum grade for an activity-based grade item is set on the activity "
+"settings page."
+msgstr ""
+
+#: $string['grademin']
+msgid "Minimum grade"
+msgstr "Ελάχιστος βαθμός"
+
+#: $string['grademin_help']
+msgid ""
+"This setting determines the minimum grade when using the value grade type."
+msgstr ""
+
+#: $string['gradeoutcomeitem']
+msgid "Grade outcome item"
+msgstr "Στοιχείο έκβασης βαθμού"
+
+#: $string['gradeoutcomes']
+msgctxt "$string['gradeoutcomes']"
+msgid "Outcomes"
+msgstr "Εκβάσεις"
+
+#: $string['gradeoutcomescourses']
+msgid "Course outcomes"
+msgstr "Εκβάσεις μαθήματος"
+
+#: $string['gradepass']
+msgid "Grade to pass"
+msgstr "Βαθμός με τον οποίο περνάει"
+
+#: $string['gradepassgreaterthangrade']
+msgid ""
+"The grade to pass can not be greater than the maximum possible grade {$a}"
+msgstr ""
+
+#: $string['gradepass_help']
+msgid ""
+"This setting determines the minimum grade required to pass. The value is "
+"used in activity and course completion, and in the gradebook, where pass "
+"grades are highlighted in green and fail grades in red."
+msgstr ""
+
+#: $string['gradepointdefault']
+msgid "Grade point default"
+msgstr ""
+
+#: $string['gradepointdefault_help']
+msgid ""
+"This setting determines the default value for the grade point value "
+"available in a grade item."
+msgstr ""
+
+#: $string['gradepointdefault_validateerror']
+msgid "This setting must be an integer between 1 and the grade point maximum."
+msgstr ""
+
+#: $string['gradepointmax']
+msgid "Grade point maximum"
+msgstr ""
+
+#: $string['gradepointmax_help']
+msgid ""
+"This setting determines the maximum grade point value available in an "
+"activity."
+msgstr ""
+
+#: $string['gradepointmax_validateerror']
+msgid "This setting must be an integer between 1 and 10000."
+msgstr "Αυτή η ρύθμιση πρέπει να είναι ακέραιος αριθμός μεταξύ 1 και 10000."
+
+#: $string['gradepreferences']
+msgid "Grade preferences"
+msgstr "Προτιμήσεις βαθμού"
+
+#: $string['gradepreferenceshelp']
+msgid "Grade preferences Help"
+msgstr "Βοήθεια Επιλογών Βαθμού"
+
+#: $string['gradepublishing']
+msgid "Enable publishing"
+msgstr "Ενεργοποίηση δημοσίευσης"
+
+#: $string['gradepublishing_help']
+msgid ""
+"Enable publishing in exports and imports: Exported grades can be accessed by "
+"accessing a URL, without having to log on to a Moodle site. Grades can be "
+"imported by accessing such a URL (which means that a Moodle site can import "
+"grades published by another site). By default only administrators may use "
+"this feature, please educate users before adding required capabilities to "
+"other roles (dangers of bookmark sharing and download accelerators, IP "
+"restrictions, etc.)."
+msgstr ""
+"Ενεργοποίηση δημοσίευσης εξαγωγών και εισαγωγών: Η πρόσβαση στους "
+"εξαγόμενους βαθμούς γίνεται γίνεται μέσω μιας τοποθεσίας ιστού, χωρίς την "
+"αναγκαιότητα εισόδου σε έναν ιστοχώρο Moodle. Η εισαγωγή των βαθμών μπορεί "
+"να γίνει με την πρόσβαση σε μια τέτοια τοποθεσία ιστού (που σημαίνει οτι "
+"ένας ιστοχώρος Moodle μπορεί να εισάγει βαθμούς που έχουν δημοσιευθεί από "
+"έναν άλλο ιστοχώρο). Εξ'ορισμού μόνο οι διαχειριστές μπορούν να "
+"χρησιμοποιούν αυτό το χαρακτηριστικό, παρακαλούμε εκπαιδεύστε τους χρήστες "
+"πριν προσθέσετε τις απαραίτητες ικανότητες σε άλλους ρόλους (κίνδυνοι "
+"διαμοιρασμού σελιδοδεικτών και επιταχυντών μεταφόρτωσης, περιορισμοί IP "
+"κλπ.)."
+
+#: $string['gradepublishinglink']
+msgid "Download: {$a}"
+msgstr "Λήψη: {$a}"
+
+#: $string['gradereport']
+msgid "Grade report"
+msgstr "Αναφορά βαθμολογίας"
+
+#: $string['graderreport']
+msgid "Grader report"
+msgstr "Αναφορά βαθμολογητή"
+
+#: $string['grades']
+msgid "Grades"
+msgstr "Βαθμοί"
+
+#: $string['gradesforuser']
+msgid "Grades for {$a->user}"
+msgstr "Βαθμοί για {$a->user}"
+
+#: $string['gradesmoduledeletionpendingwarning']
+msgid ""
+"Warning: Activity deletion in progress! Some grades are about to be removed."
+msgstr ""
+"Προειδοποίηση: Διαγραφή δραστηριότητας σε εξέλιξη! Ορισμένοι βαθμοί "
+"πρόκειται να αφαιρεθούν."
+
+#: $string['gradesmoduledeletionprefix']
+msgid "[Deletion in progress]"
+msgstr "[Διαγραφή σε εξέλιξη]"
+
+#: $string['gradesonly']
+msgid "Change to grades only"
+msgstr "Μόνο βαθμοί"
+
+#: $string['gradessettings']
+msgid "Grade settings"
+msgstr "Ρυθμίσεις βαθμού"
+
+#: $string['gradetype']
+msgid "Grade type"
+msgstr "Τύπος βαθμού"
+
+#: $string['gradetype_help']
+msgid ""
+"There are 4 grade types:\n"
+"\n"
+"* None - No grading possible\n"
+"* Value - A numerical value with a maximum and minimum\n"
+"* Scale - An item in a list\n"
+"* Text - Feedback only\n"
+"\n"
+"Only value and scale grade types may be aggregated. The grade type for an "
+"activity-based grade item is set on the activity settings page."
+msgstr ""
+
+#: $string['gradevaluetoobig']
+msgid ""
+"One of the grade values is larger than the allowed grade maximum of {$a}"
+msgstr ""
+
+#: $string['gradeview']
+msgid "View grade"
+msgstr "Εμφάνιση βαθμού"
+
+#: $string['gradewasmodifiedduringediting']
+msgid ""
+"The grade entered for {$a->itemname} for {$a->username} was ignored because "
+"it was more recently updated by someone else."
+msgstr ""
+
+#: $string['gradeweighthelp']
+msgid "Grade weight help"
+msgstr "Βοήθεια Βαρύτητας Βαθμών"
+
+#: $string['groupavg']
+msgid "Group average"
+msgstr "Μέσος όρος ομάδας"
+
+#: $string['hidden']
+msgctxt "$string['hidden']"
+msgid "Hidden"
+msgstr "Κρυμμένο"
+
+#: $string['hiddenasdate']
+msgid "Show submitted date for hidden grades"
+msgstr "Εμφάνιση ημερομηνίας υποβολής για κρυφούς βαθμούς"
+
+#: $string['hiddenasdate_help']
+msgid ""
+"If user can not see hidden grades show date of submission instead of '-'."
+msgstr ""
+"Εάν ο χρήστης δεν μπορεί να δει τους κρυφούς βαθμούς εμφάνισε την ημερομηνία "
+"της υποβολής στη θέση του '-'."
+
+#: $string['hidden_help']
+msgid ""
+"If ticked, grades are hidden from students. A hidden until date may be set "
+"if desired, to release grades after grading is completed."
+msgstr ""
+
+#: $string['hiddenuntil']
+msgid "Hidden until"
+msgstr "Κρυμμένο μέχρι"
+
+#: $string['hiddenuntildate']
+msgid "Hidden until: {$a}"
+msgstr "Κρυμμένο μέχρι: {$a}"
+
+#: $string['hideadvanced']
+msgid "Hide advanced features"
+msgstr "Κρύψτε τα προχωρημένα χαρακτηριστικά"
+
+#: $string['hideaverages']
+msgid "Hide averages"
+msgstr "Απόκρυψη μέσων όρων"
+
+#: $string['hidecalculations']
+msgid "Hide calculations"
+msgstr "Απόκρυψη υπολογισμών"
+
+#: $string['hidecategory']
+msgctxt "$string['hidecategory']"
+msgid "Hidden"
+msgstr "Κρυμμένο"
+
+#: $string['hideeyecons']
+msgid "Hide show/hide icons"
+msgstr "Απόκρυψη εικονίδιων εμφάνισης/απόκρυψης"
+
+#: $string['hidefeedback']
+msgid "Hide feedback"
+msgstr "Απόκρυψη σχόλιου"
+
+#: $string['hideforcedsettings']
+msgid "Hide forced settings"
+msgstr "Απόκρυψη υποχρεωτικών ρυθμίσεων"
+
+#: $string['hideforcedsettings_help']
+msgid "Do not show forced settings in grading UI."
+msgstr "Να μην εμφανίζονται υποχρεωτικές ρυθμίσεις στην βαθμολόγηση UI."
+
+#: $string['hidegroups']
+msgid "Hide groups"
+msgstr "Απόκρυψη ομάδων"
+
+#: $string['hidelocks']
+msgid "Hide locks"
+msgstr "Απόκρυψη κλειδωμάτων"
+
+#: $string['hidenooutcomes']
+msgid "Show outcomes"
+msgstr "Εμφάνιση εκβάσεων"
+
+#: $string['hidequickfeedback']
+msgid "Hide quick feedback"
+msgstr "Απόκρυψη Γρήγορου Σχόλιου"
+
+#: $string['hideranges']
+msgid "Hide ranges"
+msgstr "Απόκρυψη διαστημάτων"
+
+#: $string['hidetotalifhiddenitems']
+msgid "Hide totals if they contain hidden items"
+msgstr "Απόκρυψη συνόλων αν περιέχουν κρυφά στοιχεία"
+
+#: $string['hidetotalifhiddenitems_help']
+msgid ""
+"This setting specifies whether totals which contain hidden grade items are "
+"shown to students or replaced with a hyphen (-). If shown, the total may be "
+"calculated either excluding or including hidden items.\n"
+"\n"
+"If hidden items are excluded, the total will be different to the total seen "
+"by the teacher in the grader report, since the teacher always sees totals "
+"calculated from all items, hidden or unhidden. If hidden items are included, "
+"students may be able to calculate the hidden items."
+msgstr ""
+"Αυτή η ρύθμιση καθορίζει αν τα σύνολα που περιέχουν κρυφά βαθμολογημένα "
+"στοιχεία εμφανίζονται στους μαθητές ή αντικαθίστανται από μία παύλα (-). Αν "
+"εμφανίζονται, το σύνολο μπορεί να υπολογιστεί είτε εξαιρουμένων είτε "
+"συμπεριλαμβανομένων των κρυφών στοιχείων. Αν εξαιρεθούν τα κρυφά στοιχεία, "
+"το σύνολο θα είναι διαφορετικό από το σύνολο που φαίνεται από τον καθηγητή "
+"στην αναφορά βαθμολογητή, δεδομένου ότι ο καθηγητής βλέπει πάντα τα "
+"υπολογισμένα σύνολα από όλα τα στοιχεία, κρυφά ή όχι. Αν τα κρυφά στοιχεία "
+"συμπεριλαμβάνονται, οι μαθητές θα έχουν την δυνατότητα να υπολογίσουν τα "
+"κρυφά στοιχεία."
+
+#: $string['hidetotalshowexhiddenitems']
+msgid "Show totals excluding hidden items"
+msgstr "Εμφάνιση συνόλων εξαιρουμένων των κρυφών στοιχείων"
+
+#: $string['hidetotalshowinchiddenitems']
+msgid "Show totals including hidden items"
+msgstr "Εμφάνιση συνόλων συμπεριλαμβανομένων των κρυφών στοιχείων"
+
+#: $string['hideverbose']
+msgid "Hide {$a->category} {$a->itemmodule} {$a->itemname}"
+msgstr "Απόκρυψη {$a->category}$a->itemmodule {$a->itemname}"
+
+#: $string['highgradeascending']
+msgid "Sort by high grade ascending"
+msgstr "Ταξινόμηση με αύξουσα σειρά υψηλών βαθμών"
+
+#: $string['highgradedescending']
+msgid "Sort by high grade descending"
+msgstr "Ταξινόμηση με φθίνουσα σειρά υψηλών βαθμών"
+
+#: $string['highgradeletter']
+msgid "High"
+msgstr "Υψηλό"
+
+#: $string['identifier']
+msgid "Identify user by"
+msgstr "Αναγνώριση χρήστη με"
+
+#: $string['idnumbers']
+msgid "ID numbers"
+msgstr "Ανανγνωριστικοί αριθμοί"
+
+#: $string['ignore']
+msgid "Ignore"
+msgstr "Αγνοήστε"
+
+#: $string['import']
+msgid "Import"
+msgstr "Εισαγωγή"
+
+#: $string['importcsv']
+msgid "Import CSV"
+msgstr "Εισαγωγή CSV"
+
+#: $string['importcsv_help']
+msgid ""
+"Grades can be imported via a CSV file with format as follows:\n"
+"\n"
+"* Each line of the file contains one record\n"
+"* Each record is a series of data separated by commas or an alternative "
+"separator\n"
+"* The first record contains a list of fieldnames defining the format of the "
+"rest of the file\n"
+"* A fieldname containing user identity data is required - either username or "
+"ID number or email address\n"
+"\n"
+"A file of the correct format can be obtained by first exporting some grades. "
+"The file can then be edited and saved as a CSV file."
+msgstr ""
+
+#: $string['importcsv_link']
+msgid "grade/import/csv/index"
+msgstr ""
+
+#: $string['importcustom']
+msgid "Import as custom outcomes (only this course)"
+msgstr "Εισαγωγή ως προσαρμοσμένες εκβάσεις (μόνο αυτό το μάθημα)"
+
+#: $string['importerror']
+msgid "An error occurred, this script wasn't called with the right parameters."
+msgstr ""
+"Συνέβη ένα σφάλμα, αυτό το σενάριο δεν κλήθηκε με τις σωστές παραμέτρους."
+
+#: $string['importfailed']
+msgid "Import failed. No data was imported."
+msgstr "Η εισαγωγή απέτυχε"
+
+#: $string['importfeedback']
+msgid "Import feedback"
+msgstr "Εισαγωγή σχόλιου"
+
+#: $string['importfile']
+msgid "Import file"
+msgstr "Εισαγωγή αρχείου"
+
+#: $string['importfilemissing']
+msgid ""
+"No file was received, go back to the form and make sure to upload a valid "
+"file."
+msgstr ""
+"Δεν λήφθηκε κανένα αρχείο, πηγαίνετε πίσω στη φόρμα και εξασφαλίστε οτι "
+"ανεβάζετε ένα έγκυρο αρχείο."
+
+#: $string['importfrom']
+msgid "Import from"
+msgstr "Εισαγωή από"
+
+#: $string['importoutcomenofile']
+msgid ""
+"The uploaded file is empty or corrupted.  Please verify this is a valid "
+"file. The problem was detected at line {$a}; this is triggered by the data "
+"lines not having as many columns as the first line (the header line) or if "
+"the imported file is missing expected headers.  Look at the exported file "
+"for an example of a file with valid header."
+msgstr ""
+"Το αρχείο που ανέβηκε είναι άδειο ή κατεστραμμένο. Παρακαλούμε επιβεβαιώστε "
+"οτι είναι ένα έγκυρο αρχείο. Το πρόβλημα εντοπίστηκε στη γραμμή {$a}; "
+"ενεργοποιήθηκε από τις γραμμές δεδομένων που δεν έχουν τόσες στήλες όσες η "
+"πρώτη γραμμή (η γραμμή κεφαλίδας) ή το εισαγόμενο αρχείο υπολείπεται κάποιων "
+"αναμενόμενων κεφαλίδων.  Κοιτάξτε στο εξαγώμενο αρχείο για ένα παράδειγμα "
+"αρχείου με έγκυρες κεφαλίδες."
+
+#: $string['importoutcomes']
+msgid "Import outcomes"
+msgstr "Εισαγωγή εκβάσεων"
+
+#: $string['importoutcomes_help']
+msgid ""
+"Outcomes can be imported via csv file with format as for the export outcomes "
+"csv file."
+msgstr ""
+
+#: $string['importoutcomes_link']
+msgid "grade/outcome"
+msgstr ""
+
+#: $string['importoutcomesuccess']
+msgid "Imported outcome \"{$a->name}\" with ID #{$a->id}"
+msgstr "Εισαγόμενη έκβαση \"{$a->name}\" με αναγνωριστικό #{$a->id}"
+
+#: $string['importplugins']
+msgid "Import plugins"
+msgstr "Εισαγωγή υπομονάδων λογισμικού"
+
+#: $string['importpreview']
+msgid "Import preview"
+msgstr "Εισαγωγή προεπισκόπησης"
+
+#: $string['importsettings']
+msgid "Import settings"
+msgstr "Εισαγωγή ρυθμίσεων"
+
+#: $string['importskippednomanagescale']
+msgid ""
+"You don't have permission to add a new scale, so outcome \"{$a}\" was skipped "
+"as it required creating a new scale"
+msgstr ""
+"Δεν έχετε δικαίωμα προσθήκης μιας νέας κλίμακας, οπότε η έκβαση \"{$a}\" "
+"παραλήφθηκε καθώς απαιτεί την δημιουργία μιας νέας κλίμακας"
+
+#: $string['importskippedoutcome']
+msgid ""
+"An outcome with shortname \"{$a}\" already exists in this context, the one in "
+"the imported file was skipped."
+msgstr ""
+"Μια έκβαση με σύντομο όνομα \"{$a}\" υπάρχει ήδη σε αυτό το πλαίσιο, η "
+"αντίστοιχη στο εισαγώμενο αρχείο παραλήφθηκε."
+
+#: $string['importstandard']
+msgid "Import as standard outcomes"
+msgstr "Εισαγωγή ως πρότυπες εκβάσεις"
+
+#: $string['importsuccess']
+msgid "Grade import success"
+msgstr "Επιτυχία εισαγωγής βαθμών"
+
+#: $string['importxml']
+msgid "Import XML"
+msgstr "Εισαγωγή XML"
+
+#: $string['includescalesinaggregation']
+msgid "Include scales in aggregation"
+msgstr "Ενσωμάτωση κλιμάκων στη συνάθροιση"
+
+#: $string['includescalesinaggregation_help']
+msgid ""
+"You can change whether scales are to be included as numbers in all "
+"aggregated grades across all gradebooks in all courses. CAUTION: changing "
+"this setting will force all aggregated grades to be recalculated."
+msgstr ""
+"Μπορείτε να αλλάξετε το εάν οι κλίμακες θα ενσωματώνονται σαν αριθμοί σε "
+"όλους τους συναθροιζόμενους βαθμούς σε όλα τα βαθμολόγια όλων των μαθημάτων. "
+"ΠΡΟΣΟΧΗ: η αλλαγή αυτής της ρύθμισης θα υποχρεώσει τους συναθροιζόμενους "
+"βαθμούς να επαναϋπολογιστούν."
+
+#: $string['incorrectcourseid']
+msgid "Course ID was incorrect"
+msgstr "Το αναγνωριστικό μαθήματος ήταν λάθος"
+
+#: $string['incorrectcustomscale']
+msgid "(Incorrect custom scale, please change.)"
+msgstr ""
+
+#: $string['incorrectminmax']
+msgid "The minimum must be lower than the maximum"
+msgstr "Το ελάχιστο πρέπει να είναι χαμηλότερα από το μέγιστο"
+
+#: $string['inherit']
+msgid "Inherit"
+msgstr "Κληρονομικότητα"
+
+#: $string['intersectioninfo']
+msgid "Student/Grade info"
+msgstr ""
+
+#: $string['invalidgradeexporteddate']
+msgid ""
+"The export date is invalid because it is more than a year ago, or in the "
+"future, or because the format is invalid."
+msgstr ""
+
+#: $string['item']
+msgid "Item"
+msgstr "Αντικείμενο"
+
+#: $string['iteminfo']
+msgid "Item info"
+msgstr "Πληροφορίες στοιχείου"
+
+#: $string['iteminfo_help']
+msgid ""
+"This setting provides space for entering information about the item. The "
+"information is not displayed anywhere else."
+msgstr ""
+
+#: $string['itemname']
+msgid "Item name"
+msgstr "Όνομα στοιχείου"
+
+#: $string['itemnamehelp']
+msgid "The name of this item, pushed in by the module."
+msgstr "Το όνομα αυτού του στοιχείου, τοποθετημένο μέσα από το άρθρωμα."
+
+#: $string['items']
+msgid "Items"
+msgstr "Αντικείμενα"
+
+#: $string['itemsedit']
+msgid "Edit grade item"
+msgstr "Επεξεργασία στοιχείου βαθμολόγησης"
+
+#: $string['keephigh']
+msgid "Keep the highest"
+msgstr "Διατήρηση υψηλότερων"
+
+#: $string['keephighestvalues']
+msgid "Keep the {$a} highest values"
+msgstr ""
+
+#: $string['keephigh_help']
+msgid ""
+"If set, this option will only keep the X highest grades, X being the "
+"selected value for this option."
+msgstr ""
+"Εάν ρυθμιστεί, αυτή η επιλογή θα διατηρήσει μόνο τους Χ υψηλότερους βαθμούς, "
+"όπου X είναι η επιλεγμένη τιμή για αυτή την επιλογή."
+
+#: $string['keymanager']
+msgid "Key manager"
+msgstr "Διαχειριστής κλειδιών"
+
+#: $string['lessthanmin']
+msgid ""
+"The grade entered for {$a->itemname} for {$a->username} is less than the "
+"minimum allowed"
+msgstr ""
+"Ο βαθμός που εισήχθη για το {$a->itemname} για τον {$a->username} είναι "
+"μικρότερος από τον ελάχιστο επιτρεπτό"
+
+#: $string['letter']
+msgid "Letter"
+msgstr "Γράμμα"
+
+#: $string['lettergrade']
+msgid "Letter grade"
+msgstr "Γράμμα για βαθμό"
+
+#: $string['lettergradenonnumber']
+msgid "Low and/or High grade were non-numeric for"
+msgstr "Χαμηλός και/ή Υψηλό βαθμός ήταν μη-αριθμητικός για"
+
+#: $string['letterpercentage']
+msgid "Letter (percentage)"
+msgstr "Γράμμα (ποσοστό)"
+
+#: $string['letterreal']
+msgid "Letter (real)"
+msgstr "Γράμμα (πραγματικό)"
+
+#: $string['letters']
+msgid "Letters"
+msgstr "Γράμματα"
+
+#: $string['linkedactivity']
+msgid "Linked activity"
+msgstr "Συνδεδεμένη δραστηριότητα"
+
+#: $string['linkedactivity_help']
+msgid ""
+"This setting specifies an activity to which this outcome item is linked. "
+"This may be used to measure student performance on criteria not assessed by "
+"the activity grade."
+msgstr ""
+
+#: $string['linktoactivity']
+msgid "Link to {$a->name} activity {$a->title}"
+msgstr "Σύνδεση στην δραστηριότητα {$a->name}"
+
+#: $string['lock']
+msgid "Lock"
+msgstr "Κλείδωμα"
+
+#: $string['locked']
+msgid "Locked"
+msgstr "Κλειδωμένο"
+
+#: $string['locked_help']
+msgid ""
+"If ticked, grades can no longer be automatically updated by the related "
+"activity."
+msgstr ""
+"Αν ενεργοποιηθεί, οι βαθμοί δεν μπορούν πλέον να ενημερώνονται αυτόματα από "
+"τη σχετική δραστηριότητα."
+
+#: $string['locktime']
+msgid "Lock after"
+msgstr "Κλείδωμα μετά από"
+
+#: $string['locktimedate']
+msgid "Locked after: {$a}"
+msgstr "Κλείδωμα μετά από: {$a}"
+
+#: $string['lockverbose']
+msgid "Lock {$a->category} {$a->itemmodule} {$a->itemname}"
+msgstr "Κλείδωμα {$a->category}$a->itemmodule {$a->itemname}"
+
+#: $string['lowest']
+msgctxt "$string['lowest']"
+msgid "Lowest"
+msgstr "Χαμηλότερο"
+
+#: $string['lowgradeletter']
+msgid "Low"
+msgstr "Χαμηλό"
+
+#: $string['manualitem']
+msgid "Manual item"
+msgstr "Χειροκίνητο στοιχείο"
+
+#: $string['mapfrom']
+msgid "Map from"
+msgstr "Χαρτογράφηση από"
+
+#: $string['mapfrom_help']
+msgid ""
+"Select the column in the spreadsheet containing data for identifying the "
+"user, such as username, user ID or email address."
+msgstr ""
+
+#: $string['mappings']
+msgid "Grade item mappings"
+msgstr "Χαρτογραφήσης στοιχείου βαθμολόγησης"
+
+#: $string['mappings_help']
+msgid ""
+"For each column of grades in the spreadsheet, select the corresponding grade "
+"item to import the grades into."
+msgstr ""
+
+#: $string['mapto']
+msgid "Map to"
+msgstr "Χαρτογράφηση σε"
+
+#: $string['mapto_help']
+msgid "Select the same identifying data as selected for 'Map from'."
+msgstr ""
+
+#: $string['max']
+msgid "Highest"
+msgstr "Υψηλότερο"
+
+#: $string['maxgrade']
+msgid "Max grade"
+msgstr "Μέγιστος Βαθμός"
+
+#: $string['meanall']
+msgid "All grades"
+msgstr "Όλοι οι βαθμοί"
+
+#: $string['meangraded']
+msgid "Non-empty grades"
+msgstr "Οι βαθμοί που δεν είναι άδειοι"
+
+#: $string['meanselection']
+msgid "Grades selected for column averages"
+msgstr "Βαθμοί που επιλέχθηκαν για το μέσο όρο των στηλών"
+
+#: $string['meanselection_help']
+msgid ""
+"This setting determines whether cells with no grade should be included when "
+"calculating the average (mean) for each category or grade item."
+msgstr ""
+"Εάν θα πρέπει τα κελιά χωρίς βαθμό να ενσωματώνονται όταν υπολογίζεται ο "
+"μέσος για κάθε στήλη."
+
+#: $string['median']
+msgid "Median"
+msgstr "Διάμεσος"
+
+#: $string['min']
+msgctxt "$string['min']"
+msgid "Lowest"
+msgstr "Ελάχιστο"
+
+#: $string['minimum_show']
+msgid "Show minimum grade"
+msgstr "Εμφάνιση ελάχιστο βαθμού"
+
+#: $string['minimum_show_help']
+msgid ""
+"Minimum grade is used in calculating grades and weights. If not shown, "
+"minimum grade will default to zero and cannot be edited."
+msgstr ""
+
+#: $string['minmaxtouse']
+msgid "Min and max grades used in calculation"
+msgstr ""
+
+#: $string['minmaxtouse_desc']
+msgid ""
+"This setting determines whether to use the initial minimum and maximum "
+"grades from when the grade was given, or the minimum and maximum grades as "
+"specified in the settings for the grade item, when calculating the grade "
+"displayed in the gradebook. It is recommended that this setting is modified "
+"at an off-peak time, as all grades will be recalculated, which may result in "
+"a high server load."
+msgstr ""
+
+#: $string['minmaxtouse_help']
+msgid ""
+"This setting determines whether to use the initial minimum and maximum "
+"grades from when the grade was given, or the minimum and maximum grades as "
+"specified in the settings for the grade item, when calculating the grade "
+"displayed in the gradebook."
+msgstr ""
+
+#: $string['minmaxtouse_link']
+msgid "Grades_min_max"
+msgstr ""
+
+#: $string['minmaxupgradedgrades']
+msgid ""
+"Note: Some grades have been changed in order to resolve an inconsistency in "
+"the gradebook caused by a change in the minimum and maximum grades used when "
+"calculating the grade displayed. It is recommended that the changes are "
+"reviewed and accepted."
+msgstr ""
+
+#: $string['minmaxupgradefixbutton']
+msgid "Resolve inconsistencies"
+msgstr ""
+
+#: $string['minmaxupgradewarning']
+msgid ""
+"Note: An inconsistency has been detected with some grades due to a change in "
+"the minimum and maximum grades used when calculating the grade displayed in "
+"the gradebook. It is recommended that the inconsistency is resolved by "
+"clicking the button below, though this will result in some grades being "
+"changed."
+msgstr ""
+
+#: $string['missingitemtypeoreid']
+msgid ""
+"Array key (itemtype or eid) missing from 2nd param of "
+"grade_edit_tree_column_select::get_item_cell($item, $params)"
+msgstr ""
+
+#: $string['missingscale']
+msgid "Scale must be selected"
+msgstr "Η κλίμακα πρέπει να επιλεχθεί"
+
+#: $string['mode']
+msgid "Mode"
+msgstr "Φάση"
+
+#: $string['modgrade']
+msgctxt "$string['modgrade']"
+msgid "Grade"
+msgstr "Βαθμός"
+
+#: $string['modgradecantchangegradetype']
+msgid "You cannot change the type, as grades already exist for this item."
+msgstr ""
+
+#: $string['modgradecantchangegradetypemsg']
+msgid ""
+"Some grades have already been awarded, so the grade type cannot be changed. "
+"If you wish to change the maximum grade, you must first choose whether or "
+"not to rescale existing grades."
+msgstr ""
+
+#: $string['modgradecantchangegradetyporscalemsg']
+msgid ""
+"Some grades have already been awarded, so the grade type and scale cannot be "
+"changed."
+msgstr ""
+
+#: $string['modgradecantchangeratingmaxgrade']
+msgid ""
+"You cannot change the maximum grade when grades already exist for an "
+"activity with ratings."
+msgstr ""
+
+#: $string['modgradecantchangescale']
+msgid "You cannot change the scale, as grades already exist for this item."
+msgstr ""
+
+#: $string['modgradecategorycantchangegradetypemsg']
+msgid ""
+"This category has associated grade items which have been overridden. "
+"Therefore some grades have already been awarded, so the grade type cannot be "
+"changed. If you wish to change the maximum grade, you must first choose "
+"whether or not to rescale existing grades."
+msgstr ""
+
+#: $string['modgradecategorycantchangegradetyporscalemsg']
+msgid ""
+"This category has associated grade items which have been overridden. "
+"Therefore some grades have already been awarded, so the grade type and scale "
+"cannot be changed."
+msgstr ""
+
+#: $string['modgradecategoryrescalegrades']
+msgid "Rescale overridden grades"
+msgstr ""
+
+#: $string['modgradecategoryrescalegrades_help']
+msgid ""
+"When changing the maximum grades on a gradebook item you need to specify "
+"whether or not this will cause existing percentage grades to change as well.\n"
+"\n"
+"If this is set to 'Yes', any existing overridden grades will be rescaled so "
+"that the percentage grade remains the same.\n"
+"\n"
+"For example, if this option is set to 'Yes', changing the maximum grade on "
+"an item from 10 to 20 would cause a grade of 6/10 (60%) to be rescaled to "
+"12/20 (60%). With this option set to 'No', the grade will remain unchanged, "
+"requiring manual adjustment of the grade items to ensure correct scores."
+msgstr ""
+
+#: $string['modgradedonotmodify']
+msgid "Do not modify existing grades"
+msgstr ""
+
+#: $string['modgradeerrorbadpoint']
+msgid "Invalid grade value. This must be an integer between 1 and {$a}"
+msgstr ""
+
+#: $string['modgradeerrorbadscale']
+msgid ""
+"Invalid scale selected. Please make sure you select a scale from the "
+"selections below."
+msgstr ""
+
+#: $string['modgrade_help']
+msgid ""
+"Select the type of grading used for this activity. If \"scale\" is chosen, you "
+"can then choose the scale from the \"scale\" dropdown. If using \"point\" "
+"grading, you can then enter the maximum grade available for this activity."
+msgstr ""
+
+#: $string['modgrademaxgrade']
+msgctxt "$string['modgrademaxgrade']"
+msgid "Maximum grade"
+msgstr "Μέγιστος βαθμός"
+
+#: $string['modgraderescalegrades']
+msgid "Rescale existing grades"
+msgstr "Αναπροσαρμογή υπαρχόντων βαθμών"
+
+#: $string['modgraderescalegrades_help']
+msgid ""
+"When changing the maximum grades on a gradebook item you need to specify "
+"whether or not this will cause existing percentage grades to change as well.\n"
+"\n"
+"If this is set to 'Yes', any existing grades will be rescaled so that the "
+"percentage grade remains the same.\n"
+"\n"
+"For example, if this option is set to 'Yes', changing the maximum grade on "
+"an item from 10 to 20 would cause a grade of 6/10 (60%) to be rescaled to "
+"12/20 (60%). With this option set to 'No', the grade would change from 6/10 "
+"(60%) to 6/20 (30%), requiring manual adjustment of the grade items to "
+"ensure correct scores."
+msgstr ""
+
+#: $string['modgradetype']
+msgid "Type"
+msgstr ""
+
+#: $string['modgradetypenone']
+msgctxt "$string['modgradetypenone']"
+msgid "None"
+msgstr "Κανένα"
+
+#: $string['modgradetypepoint']
+msgid "Point"
+msgstr ""
+
+#: $string['modgradetypescale']
+msgctxt "$string['modgradetypescale']"
+msgid "Scale"
+msgstr "Κλίμακα"
+
+#: $string['morethanmax']
+msgid ""
+"The grade entered for {$a->itemname} for {$a->username} is more than the "
+"maximum allowed"
+msgstr ""
+"Ο βαθμός που εισήχθη για το {$a->itemname} για τον {$a->username} είναι "
+"περισσότερο από το μέγιστο επιτρεπτό"
+
+#: $string['moveselectedto']
+msgid "Move selected items to"
+msgstr "Μετακίνηση επιλεγμένων στοιχείων σε:"
+
+#: $string['movingelement']
+msgid "Moving {$a}"
+msgstr "Μετακινώνται {$a}"
+
+#: $string['multfactor']
+msgid "Multiplicator"
+msgstr "Πολλαπλασιαστής"
+
+#: $string['multfactor_help']
+msgid ""
+"The multiplicator is the factor by which all grades for this grade item will "
+"be multiplied, with a maximum value of the maximum grade. For example, if "
+"the multiplicator is 2 and the maximum grade is 100, then all grades less "
+"than 50 are multiplied by 2, and all grades 50 and above are changed to 100."
+msgstr ""
+
+#: $string['multfactorvalue']
+msgid "Multiplicator value for {$a}"
+msgstr "Αξία πολλαπλασιαστή για {$a}"
+
+#: $string['mustchooserescaleyesorno']
+msgid "You must choose whether to rescale existing grades or not."
+msgstr ""
+
+#: $string['mygrades']
+msgid "User menu grades link"
+msgstr ""
+
+#: $string['mygrades_desc']
+msgid ""
+"This setting allows for the option of linking to an external gradebook from "
+"the user menu."
+msgstr ""
+
+#: $string['mypreferences']
+msgid "My preferences"
+msgstr "Οι προτιμήσεις μου"
+
+#: $string['myreportpreferences']
+msgid "My report preferences"
+msgstr "Οι προτιμήσεις μου για αναφορές"
+
+#: $string['navmethod']
+msgid "Navigation method"
+msgstr "Μέθοδος πλοήγησης"
+
+#: $string['neverdeletehistory']
+msgid "Never delete history"
+msgstr "Το ιστορικό δεν διαγράφεται ποτέ"
+
+#: $string['newcategory']
+msgctxt "$string['newcategory']"
+msgid "New category"
+msgstr "Νέα κατηγορία"
+
+#: $string['newitem']
+msgid "New grade item"
+msgstr "Νέο στοιχείο βαθμολόγησης"
+
+#: $string['newoutcomeitem']
+msgid "New outcome item"
+msgstr "Νέο στοιχείο έκβασης"
+
+#: $string['no']
+msgid "No"
+msgstr "Όχι"
+
+#: $string['nocategories']
+msgid "Grade categories could not be added or found for this course"
+msgstr "Δεν ήταν δυνατή η προσθήκη κατηγοριών βαθμών για αυτό το μάθημα"
+
+#: $string['nocategoryname']
+msgid "No category name was given."
+msgstr "Δεν δόθηκε όνομα κατηγορίας."
+
+#: $string['nocategoryview']
+msgid "No category to view by"
+msgstr "Δεν υπάρχουν κατηγορίες για εμφάνιση"
+
+#: $string['nocourses']
+msgid "There are no courses yet"
+msgstr "Δεν υπάρχουν μαθήματα ακόμα"
+
+#: $string['noforce']
+msgid "Do not force"
+msgstr "Χωρίς επιβολή"
+
+#: $string['nogradeletters']
+msgid "No grade letters set"
+msgstr "Δεν έχουν οριστεί γραμματικοί βαθμοί"
+
+#: $string['nogradesreturned']
+msgid "No grades returned"
+msgstr "Δεν επιστράφηκε κανένας βαθμός"
+
+#: $string['noidnumber']
+msgid "No ID number"
+msgstr "Χωρίς αναγνωριστικό αριθμό"
+
+#: $string['nolettergrade']
+msgid "No letter grade for"
+msgstr "Δεν υπάρχει γραμματικός βαθμός για"
+
+#: $string['nomode']
+msgid "NA"
+msgstr "ΧΦ"
+
+#: $string['nonnumericweight']
+msgid "Received non-numeric value for"
+msgstr "Παραλήφθηκε μη-αριθμητική τιμή για"
+
+#: $string['nonunlockableverbose']
+msgid "This grade cannot be unlocked until {$a->itemname} is unlocked."
+msgstr ""
+"Αυτός ο βαθμός δεν μπορεί να ξεκλειδωθεί μέχρι να ξεκλειδωθεί το "
+"{$a->itemname}."
+
+#: $string['nonweightedpct']
+msgid "non-weighted %"
+msgstr "% χωρίς βαρύτητα"
+
+#: $string['nooutcome']
+msgid "No outcome"
+msgstr "Χωρίς έκβαση"
+
+#: $string['nooutcomes']
+msgid ""
+"Outcome items must be linked to a course outcome, but there are no outcomes "
+"for this course. Would you like to add one?"
+msgstr ""
+"Τα στοιχεία έκβασης πρέπει να συνδέονται με μια έκβαση μαθήματος, αλλά δεν "
+"υπάρχουν εκβάσεις για αυτό το μάθημα. Θέλετε να προσθέσετε μια?"
+
+#: $string['nopermissiontoresetweights']
+msgid "No permission to reset the weights"
+msgstr ""
+
+#: $string['nopublish']
+msgid "Do not publish"
+msgstr "Μη δημοσιεύσεις"
+
+#: $string['noreports']
+msgid "You are not enrolled in, nor teaching any courses on this site."
+msgstr ""
+
+#: $string['norolesdefined']
+msgid ""
+"No roles defined in Administration > Grades > General settings > Graded "
+"roles"
+msgstr ""
+"Δεν υπάρχουν ορισμένοι ρόλοι στο Διαχείριση > Βαθμοί > Γενικές ρυθμίσεις > "
+"Βαθμολογημένοι ρόλοι"
+
+#: $string['noscales']
+msgid ""
+"Outcomes must be linked to a course scale or global scale, but there are "
+"none. Would you like to add one?"
+msgstr ""
+"Οι εκβάσεις πρέπει να συνδέονται με μια κλίμακα μαθήματος ή γενική κλίμακα, "
+"αλλά δεν υπάρχει καμία. Θέλετε να προσθέσετε μια?"
+
+#: $string['noselectedcategories']
+msgid "no categories were selected."
+msgstr "Δεν επιλέχθηκαν κατηγορίες."
+
+#: $string['noselecteditems']
+msgid "no items were selected."
+msgstr "Δεν επιλέχθηκαν στοιχεία"
+
+#: $string['notenrolled']
+msgid "You are currently not enrolled in any courses."
+msgstr ""
+
+#: $string['notteachererror']
+msgid "You must be a teacher to use this feature."
+msgstr "Πρέπει να είστε καθηγητής για να χρησιμοποιήσετε αυτό το χαρακτηριστικό"
+
+#: $string['nousersloaded']
+msgid "No users loaded"
+msgstr "Δεν φορτώθηκαν χρήστες"
+
+#: $string['numberofgrades']
+msgid "Number of grades"
+msgstr "Αριθμός βαθμών"
+
+#: $string['onascaleof']
+msgid "on a scale of {$a->grademin} to {$a->grademax}"
+msgstr "σε κλίμακα {$a->grademin} έως {$a->grademax}"
+
+#: $string['operations']
+msgid "Operations"
+msgstr "Λειτουργίες"
+
+#: $string['options']
+msgid "Options"
+msgstr "Επιλογές"
+
+#: $string['others']
+msgid "Others"
+msgstr "Άλλοι"
+
+#: $string['outcome']
+msgid "Outcome"
+msgstr "Έκβαση"
+
+#: $string['outcomeassigntocourse']
+msgid "Assign another outcome to this course"
+msgstr "Ανάθεση άλλης έκβασης σε αυτό το μάθημα"
+
+#: $string['outcomecategory']
+msgid "Create outcomes in category"
+msgstr "Δημιουργία εκβάσεων στην κατηγορία"
+
+#: $string['outcomecategorynew']
+msgctxt "$string['outcomecategorynew']"
+msgid "New category"
+msgstr "Νέα κατηγορία"
+
+#: $string['outcomeconfirmdelete']
+msgid "Are you sure you wish to delete the outcome \"{$a}\"?"
+msgstr "Είστε σίγουροι οτι θέλετε να διαγράψετε την έκβαση \"{$a}\"?"
+
+#: $string['outcomecreate']
+msgid "Add a new outcome"
+msgstr "Προσθήκη μιας νέας έκβασης"
+
+#: $string['outcomedelete']
+msgid "Delete outcome"
+msgstr "Διαγραφή έκβασης"
+
+#: $string['outcomefullname']
+msgid "Full name"
+msgstr "Πλήρες όνομα"
+
+#: $string['outcome_help']
+msgid ""
+"This setting determines the outcome which this grade item will represent in "
+"the gradebook."
+msgstr ""
+"Ορίζει την έκβαση την οποία θα αντιπροσωπεύει στο βαθμολόγιο αυτό το "
+"στοιχείο βαθμολόγησης. Μόνο εκβάσεις συσχετισμένες με αυτό το μάθημα και "
+"εκβάσεις εύρους ιστοχώρου είναι διαθέσιμες"
+
+#: $string['outcomeitem']
+msgid "Outcome item"
+msgstr "Στοιχείο έκβασης"
+
+#: $string['outcomeitemsedit']
+msgid "Edit outcome item"
+msgstr "Επεξεργασία στοιχείου έκβασης"
+
+#: $string['outcomereport']
+msgid "Outcome report"
+msgstr "Αναφορά έκβασης"
+
+#: $string['outcomes']
+msgctxt "$string['outcomes']"
+msgid "Outcomes"
+msgstr "Εκβάσεις"
+
+#: $string['outcomescourse']
+msgid "Outcomes used in course"
+msgstr "Εκβάσεις που χρησιμοποιούνται στο μάθημα"
+
+#: $string['outcomescoursecustom']
+msgid "Custom used (no remove)"
+msgstr "Προσαρμοσμένη χρήση (χωρίς διαγραφή)"
+
+#: $string['outcomescoursenotused']
+msgid "Standard not used"
+msgstr "Το πρότυπο δεν χρησιμοποιείται"
+
+#: $string['outcomescourseused']
+msgid "Standard used (no remove)"
+msgstr "Χρήση προτύπου (χωρίς διαγραφή)"
+
+#: $string['outcomescustom']
+msgid "Custom outcomes"
+msgstr "Προσαρμοσμένες εκβάσεις"
+
+#: $string['outcomeshortname']
+msgid "Short name"
+msgstr "Σύντομο όνομα"
+
+#: $string['outcomesstandard']
+msgid "Standard outcomes"
+msgstr "Πρότυπες εκβάσεις"
+
+#: $string['outcomesstandardavailable']
+msgid "Available standard outcomes"
+msgstr "Διαθέσιμες πρότυπες εκβάσεις"
+
+#: $string['outcomestandard']
+msgid "Standard outcome"
+msgstr "Πρότυπη έκβαση"
+
+#: $string['outcomestandard_help']
+msgid "A standard outcome is available site-wide, for all courses."
+msgstr ""
+"Ένα καθιερωμένο outcome μπορεί να είναι διαθέσιμο σε όλον τον ιστότοπο, για "
+"όλα τα μαθήματα."
+
+#: $string['overallaverage']
+msgid "Overall average"
+msgstr "Γενικός μέσος όρος"
+
+#: $string['overridden']
+msgid "Overridden"
+msgstr "Παρακάμθηκε"
+
+#: $string['overridden_help']
+msgid ""
+"If ticked, the grade can no longer be changed from within the related "
+"activity.\n"
+"\n"
+"When a grade is edited in the grader report, the overridden checkbox is "
+"ticked automatically. However it may be un-ticked to allow the grade to be "
+"changed via the related activity."
+msgstr ""
+
+#: $string['overriddennotice']
+msgid "Your final grade from this activity was manually adjusted."
+msgstr "Ο τελικός βαθμός από αυτή τη δραστηριότητα ρυθμίστηκε χειροκίνητα."
+
+#: $string['overridecat']
+msgid "Allow category grades to be manually overridden"
+msgstr ""
+
+#: $string['overridecat_help']
+msgid ""
+"Disabling this setting makes it impossible for users to override category "
+"grades."
+msgstr ""
+
+#: $string['overridesitedefaultgradedisplaytype']
+msgid "Override site defaults"
+msgstr "Παράκαμψη προεπιλογών ιστοχώρου"
+
+#: $string['overridesitedefaultgradedisplaytype_help']
+msgid ""
+"If ticked, grade letters and boundaries for the course may be set, rather "
+"than using the site defaults."
+msgstr ""
+
+#: $string['overrideweightofa']
+msgid "Override weight of {$a}"
+msgstr ""
+
+#: $string['parentcategory']
+msgid "Parent category"
+msgstr "Κατηγορία γονέας"
+
+#: $string['pctoftotalgrade']
+msgid "% of total grade"
+msgstr "% του συνολικού βαθμού"
+
+#: $string['percent']
+msgid "Percent"
+msgstr "Ποσοστό"
+
+#: $string['percentage']
+msgid "Percentage"
+msgstr "Ποσοστό"
+
+#: $string['percentageletter']
+msgid "Percentage (letter)"
+msgstr "Ποσοστό (γράμμα)"
+
+#: $string['percentagereal']
+msgid "Percentage (real)"
+msgstr "Ποσοστό (πραγματικό)"
+
+#: $string['percentascending']
+msgid "Sort by percent ascending"
+msgstr "Αύξουσα ταξινόμηση με ποσοστό"
+
+#: $string['percentdescending']
+msgid "Sort by percent descending"
+msgstr "Φθίνουσα ταξινόμηση με ποσοστό"
+
+#: $string['percentshort']
+msgid "%"
+msgstr "%"
+
+#: $string['plusfactor']
+msgid "Offset"
+msgstr "Απόκλιση"
+
+#: $string['plusfactor_help']
+msgid ""
+"The offset is a number that is added to every grade for this grade item, "
+"after the multiplicator is applied."
+msgstr ""
+
+#: $string['plusfactorvalue']
+msgid "Offset value for {$a}"
+msgstr ""
+
+#: $string['points']
+msgid "points"
+msgstr "πόντοι"
+
+#: $string['pointsascending']
+msgid "Sort by points ascending"
+msgstr "Αύξουσα ταξινόμηση πόντων"
+
+#: $string['pointsdescending']
+msgid "Sort by points descending"
+msgstr "Φθίνουσα ταξινόμηση πόντων"
+
+#: $string['positionfirst']
+msgid "First"
+msgstr "Πρώτο"
+
+#: $string['positionlast']
+msgid "Last"
+msgstr "Τελευταίο"
+
+#: $string['preferences']
+msgid "Preferences"
+msgstr "Επιλογές"
+
+#: $string['prefgeneral']
+msgid "General"
+msgstr "Γενικα"
+
+#: $string['prefletters']
+msgid "Grade letters and boundaries"
+msgstr "Γράμματα βαθμών και όρια"
+
+#: $string['prefrows']
+msgid "Special rows"
+msgstr "Ειδικές γραμμές"
+
+#: $string['prefshow']
+msgid "Show/hide toggles"
+msgstr "εναλλαγή εμφάνιση/απόκρυψη"
+
+#: $string['previewrows']
+msgctxt "$string['previewrows']"
+msgid "Preview rows"
+msgstr "Προεπισκόπηση γραμμών"
+
+#: $string['profilereport']
+msgid "User profile report"
+msgstr "Αναφορά προφίλ χρήστη"
+
+#: $string['profilereport_help']
+msgid "Grade report used on user profile page."
+msgstr "Η αναφορά βαθμού που χρησιμοποιείται στην σελίδα προφίλ του χρήστη."
+
+#: $string['publishing']
+msgid "Publishing"
+msgstr "Δημοσίευση"
+
+#: $string['publishingoptions']
+msgid "Grade publishing options"
+msgstr ""
+
+#: $string['quickfeedback']
+msgid "Quick feedback"
+msgstr "Γρήγορο Σχόλιο"
+
+#: $string['quickgrading']
+msgid "Quick grading"
+msgstr "Γρήγορη Βαθμολόγηση"
+
+#: $string['quickgrading_help']
+msgid ""
+"If enabled, when editing is turned on, a text input box appears for each "
+"grade, allowing many grades to be edited at the same time. Changes are saved "
+"and highlighted when the update button is clicked.\n"
+"\n"
+"Note that when a grade is edited in the grader report, an overridden flag is "
+"set, meaning that the grade can no longer be changed from within the "
+"related activity."
+msgstr ""
+"Αν είναι ενεργοποιημένο, όταν η επεξεργασία είναι ενεργοποιημένη, ένα "
+"πλαίσιο εισαγωγής κειμένου εμφανίζεται για κάθε βαθμό, επιτρέποντας να "
+"επεξεργάζονται πολλοί βαθμοί την ίδια στιγμή. Οι αλλαγές αποθηκεύονται και "
+"υπογραμμίζονται όταν το κουμπί ενημέρωσης πατηθεί. Σημειώστε ότι όταν ένας "
+"βαθμός καταγραφεί στην αναφορά του βαθμολογητή, μια προεξέχουσα σημαία "
+"ορίζεται, πράγμα που σημαινει ότι ο βαθμός δεν μπορεί πλεόν να αλλάξει μέσα "
+"από τη σχετική δραστηριότητα."
+
+#: $string['range']
+msgid "Range"
+msgstr "Εύρος"
+
+#: $string['rangedecimals']
+msgid "Range decimal points"
+msgstr "Εύρος δεκαδικών ψηφίων"
+
+#: $string['rangedecimals_help']
+msgid "The number of decimal points to display for range."
+msgstr "Ο αριθμός των δεκαδικών ψηφίων που εμαφανίζεται για το εύρος."
+
+#: $string['rangesdecimalpoints']
+msgid "Decimals shown in ranges"
+msgstr "Δεκαδικά που εμφανίζονται σε διαστήματα"
+
+#: $string['rangesdecimalpoints_help']
+msgid ""
+"This setting determines the number of decimal points to display for each "
+"range or whether the overall decimal points setting for the category or "
+"grade item is used (inherit)."
+msgstr ""
+"Ορίζει τον αριθμό των δεκαδικών που θα εμφανίζονται για κάθε εύρος. Μπορεί "
+"να παρακαμθεί ανά στοιχείο βαθμού."
+
+#: $string['rangesdisplaytype']
+msgid "Range display type"
+msgstr "Τρόπος εμφάνισης εύρους"
+
+#: $string['rangesdisplaytype_help']
+msgid ""
+"This setting determines whether the range is displayed as real grades, "
+"percentages or letters, or whether the display type for the category or "
+"grade item is used (inherit)."
+msgstr ""
+"Αυτή η ρύθμιση καθορίζει αν το εύρος εμφανίζεται ως πραγματικός βαθμός, "
+"ποσοστό ή γράμμα, ή αν ο τύπος εμφάνισης για την κατηγορία ή το στοιχείο που "
+"βαθμολογείται χρησιμοποιείται (κληρονομεί)."
+
+#: $string['rank']
+msgid "Rank"
+msgstr "Κατάταξη"
+
+#: $string['rawpct']
+msgid "Raw %"
+msgstr "Αρχικό %"
+
+#: $string['real']
+msgid "Real"
+msgstr "Πραγματικό"
+
+#: $string['realletter']
+msgid "Real (letter)"
+msgstr "Πραγματικό (γράμμα)"
+
+#: $string['realpercentage']
+msgid "Real (percentage)"
+msgstr "Πραγματικό (ποσοστό)"
+
+#: $string['recalculatinggrades']
+msgid "Recalculating grades"
+msgstr ""
+
+#: $string['recovergradesdefault']
+msgid "Recover grades default"
+msgstr ""
+
+#: $string['recovergradesdefault_help']
+msgid "By default recover old grades when re-enrolling a user in a course."
+msgstr ""
+
+#: $string['refreshpreview']
+msgid "Refresh preview"
+msgstr "Ανανέωση προεπισκόπησης"
+
+#: $string['regradeanyway']
+msgid "Regrade anyway"
+msgstr "Αναβαθμολόγηση έτσι κι αλλιώς"
+
+#: $string['removeallcoursegrades']
+msgid "Delete all grades"
+msgstr "Διαγραφή όλων των βαθμών"
+
+#: $string['removeallcoursegrades_help']
+msgid ""
+"If ticked, all grade items which were manually added to the gradebook will "
+"be deleted, together with grades and data on overridden, excluded, hidden "
+"and locked grades. Only grade items associated with activities will remain."
+msgstr ""
+
+#: $string['removeallcourseitems']
+msgid "Delete all items and categories"
+msgstr "Διαγραφή όλων των στοιχείων και κατηγοριών"
+
+#: $string['removeallcourseitems_help']
+msgid ""
+"If ticked, all categories and grade items which were manually added to the "
+"gradebook will be deleted, together with grades and data on overridden, "
+"excluded, hidden and locked grades. Only grade items associated with "
+"activities will remain."
+msgstr ""
+
+#: $string['report']
+msgid "Report"
+msgstr "Αναφορά"
+
+#: $string['reportdefault']
+msgid "Report default ({$a})"
+msgstr "Προεπιλογή αναφοράς ({$a})"
+
+#: $string['reportplugins']
+msgid "Report plugins"
+msgstr "Υπομονάδες λογισμικού αναφοράς"
+
+#: $string['reportsettings']
+msgid "Report settings"
+msgstr "Ρυθμίσεις αναφοράς"
+
+#: $string['reprintheaders']
+msgid "Reprint headers"
+msgstr "Ξανατύπωσε τις Επικεφαλίδες"
+
+#: $string['resetweights']
+msgid "Reset weights of {$a->itemname}"
+msgstr ""
+
+#: $string['resetweightsshort']
+msgid "Reset weights"
+msgstr ""
+
+#: $string['respectingcurrentdata']
+msgid "leaving current configuration unmodified"
+msgstr "η τρέχουσα διαμόρφωση αφήνεται χωρίς αλλαγές"
+
+#: $string['rowpreviewnum']
+msgctxt "$string['rowpreviewnum']"
+msgid "Preview rows"
+msgstr "Προεπισκόπηση γραμμών"
+
+#: $string['rowpreviewnum_help']
+msgid ""
+"Data for import may be previewed before confirming the import. This setting "
+"determines how many rows are displayed in the preview."
+msgstr ""
+
+#: $string['savechanges']
+msgid "Save changes"
+msgstr "Αποθήκευση Αλλαγών"
+
+#: $string['savepreferences']
+msgid "Save preferences"
+msgstr "Αποθήκευση Ρυθμίσεων"
+
+#: $string['scaleconfirmdelete']
+msgid "Are you sure you wish to delete the scale \"{$a}\"?"
+msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε την κλίμακα \"{$a}\";"
+
+#: $string['scaledpct']
+msgid "Scaled %"
+msgstr "Κλιμακωτό %"
+
+#: $string['seeallcoursegrades']
+msgid "See all course grades"
+msgstr "Εμφάνιση όλων των βαθμών μαθήματος"
+
+#: $string['select']
+msgid "Select {$a}"
+msgstr "Επιλέξτε {$a}"
+
+#: $string['selectalloroneuser']
+msgid "Select all or one user"
+msgstr "Επιλέξτε όλους ή έναν χρήστη"
+
+#: $string['selectauser']
+msgid "Select a user"
+msgstr "Επιλέξτε ένα χρήστη"
+
+#: $string['selectdestination']
+msgid "Select destination of {$a}"
+msgstr "Επιλέξτε προορισμό του {$a}"
+
+#: $string['separator']
+msgid "Separator"
+msgstr "Διαχωριστής"
+
+#: $string['separator_help']
+msgid "Select the separator used in the CSV file. (Normally this is a comma.)"
+msgstr ""
+
+#: $string['sepcolon']
+msgid "Colon"
+msgstr ""
+
+#: $string['sepcomma']
+msgid "Comma"
+msgstr "Κόμμα"
+
+#: $string['sepsemicolon']
+msgid "Semicolon"
+msgstr ""
+
+#: $string['septab']
+msgid "Tab"
+msgstr "Χαρακτήρας tab"
+
+#: $string['setcategories']
+msgid "Set categories"
+msgstr "Ορίστε Κατηγορίες"
+
+#: $string['setcategorieserror']
+msgid ""
+"You must first set the categories for your course before you can give "
+"weights to them."
+msgstr ""
+"Πρέπει πρώτα να ορίσετε τις κατηγορίες για το μάθημά σας πριν να τους "
+"αποδώσετε βαθμούς βαρύτητας."
+
+#: $string['setgradeletters']
+msgid "Set grade letters"
+msgstr "Ορίστε τα Γραμματικούς Βαθμούς"
+
+#: $string['setpreferences']
+msgid "Set preferences"
+msgstr "Ορίστε Προτιμήσεις"
+
+#: $string['setting']
+msgid "Setting"
+msgstr "Ρύθμιση"
+
+#: $string['settings']
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: $string['setweights']
+msgid "Set weights"
+msgstr "Ορίστε Βαθμούς Βαρύτητας"
+
+#: $string['showactivityicons']
+msgid "Show activity icons"
+msgstr "Εμφάνιση εικονιδίων δραστηριότητας"
+
+#: $string['showactivityicons_help']
+msgid "If enabled, activity icons are shown next to activity names."
+msgstr ""
+"Εάν θα εμφανίζονται τα εικονίδια δραστηριότητας δίπλα στα ονόματα των "
+"δραστηριοτήτων."
+
+#: $string['showallhidden']
+msgid "Show hidden"
+msgstr "Όλα κρυμμένα"
+
+#: $string['showallstudents']
+msgid "Show all Students"
+msgstr "Εμφάνιση Όλων των Φοιτητών"
+
+#: $string['showanalysisicon']
+msgid "Show grade analysis icon"
+msgstr ""
+
+#: $string['showanalysisicon_desc']
+msgid ""
+"Whether to show grade analysis icon by default. If the activity module "
+"supports it, the grade analysis icon links to a page with more detailed "
+"explanation of the grade and how it was obtained."
+msgstr ""
+
+#: $string['showanalysisicon_help']
+msgid ""
+"If the activity module supports it, the grade analysis icon links to a page "
+"with more detailed explanation of the grade and how it was obtained."
+msgstr ""
+
+#: $string['showaverage']
+msgid "Show average"
+msgstr "Εμφάνιση μέσου όρου"
+
+#: $string['showaverage_help']
+msgid ""
+"Whether to show an average column. Note that participants may be able to "
+"estimate others' grades if the average is calculated from a small number of "
+"grades. For performance reasons the average is approximate if it is "
+"dependent on any hidden items."
+msgstr ""
+"Εμφάνιση της στήλης μέσου όρου; Οι θα μαθητές έχουν την δυνατότητα να "
+"αποτιμήσουν τους βαθμούς άλλων μαθητών αν ο μέσος όρος είναι υπολογισμένος "
+"από μικρό αριθμό βαθμών. Για λόγους απόδοσης ο μέσος όρος είναι κατά "
+"προσέγγιση, αν εξαρτάται από τυχόν κρυφά στοιχεία."
+
+#: $string['showaverages']
+msgid "Show column averages"
+msgstr "Εμφάνιση μέσων όρων στηλών"
+
+#: $string['showaverages_help']
+msgid ""
+"If enabled, the grader report will contain an additional row displaying the "
+"average (mean) for each category and grade item."
+msgstr "Εάν θα εμφανίζεται ο μέσος για κάθε στήλη."
+
+#: $string['showcalculations']
+msgid "Show calculations"
+msgstr "Εμφάνιση υπολογισμών"
+
+#: $string['showcalculations_help']
+msgid ""
+"If enabled, when editing, a calculator icon is shown for each grade item and "
+"category with a visual indicator that a grade item is calculated."
+msgstr ""
+"Εάν θα εμφανίζεται το εικονίδιο του υπολογιστή κοντά σε κάθε στοιχείο βαθμού "
+"και σε κάθε κατηγορία, οι συμβουλές εργαλείων πάνω από τα υπολογισμένα "
+"στοιχεία και μια οπτική ένδειξη οτι μια στήλη είναι υπολογισμένη."
+
+#: $string['showcontributiontocoursetotal']
+msgid "Show contribution to course total"
+msgstr "Προβολή συνεισφοράς στον τελικό βαθμό"
+
+#: $string['showcontributiontocoursetotal_help']
+msgid ""
+"Whether to show a column of percentages indicating how much each grade item "
+"contributes to the user's course total percentage (after weighting is "
+"applied)."
+msgstr ""
+
+#: $string['showeyecons']
+msgid "Show show/hide icons"
+msgstr "Εμφάνιση εικονιδίων εμφάνιση/απόκρυψης"
+
+#: $string['showeyecons_help']
+msgid ""
+"If enabled, when editing is turned on, a show/hide icon is shown for each "
+"grade for controlling its visibility to the student."
+msgstr ""
+"Εάν θα εμφανίζεται ένα εικονίδιο εμφάνισης/απόκρυψης κοντά σε κάθε βαθμό "
+"(ελέγχοντας την εμφάνιση του στον χρήστη)."
+
+#: $string['showfeedback']
+msgid "Show feedback"
+msgstr "Εμφάνιση σχόλιου"
+
+#: $string['showfeedback_help']
+msgid "Whether to show a column for feedback."
+msgstr "Εμφάνιση της στήλης σχολίων;"
+
+#: $string['showgrade']
+msgid "Show grades"
+msgstr "Εμφάνιση βαθμών"
+
+#: $string['showgrade_help']
+msgid "Whether to show a column for grades."
+msgstr "Εμφάνιση της στήλης βαθμών;"
+
+#: $string['showgroups']
+msgid "Show groups"
+msgstr "Εμφάνιση ομάδων"
+
+#: $string['showhiddenitems']
+msgid "Show hidden items"
+msgstr "Εμφάνιση Κρυμμένων Αντικειμένων"
+
+#: $string['showhiddenitems_help']
+msgid ""
+"Whether hidden grade items are hidden entirely or if the names of hidden "
+"grade items are visible to students.\n"
+"\n"
+"* Show hidden - Hidden grade item names are shown but student grades are "
+"hidden\n"
+"* Only hidden until - Grade items with a \"hide until\" date set are hidden "
+"completely until the set date, after which the whole item is shown\n"
+"* Do not show - Hidden grade items are completely hidden"
+msgstr ""
+"Ορίζει το πως εμφανίζονται τα κρυφά στοιχεία βαθμού. Εάν έχει επιλεχθεί η "
+"Απόκρυψη, τότε θα είναι τελείως κρυφά. Εάν έχει επιλεχθεί η Εμφάνιση, τότε "
+"το η στήλη με το κρυφό στοιχείο βαθμού εμφανίζεται με γκρι με τον βαθμό "
+"τελείως κρυφό. Εάν έχει επιλεχθεί το \"Μόνο κρυφό μέχρι\", τότε τα στοιχεία "
+"βαθμού με ρυθμισμένη την ημερομηνία \"κρυφό μέχρι\" φαίνονται με γκρι και οι "
+"βαθμοί είναι κρυμμένοι τελείως εώς την ρυθμισμένη ημερομηνία, μετά την οποία "
+"όλο το στοιχείο θα εμφανίζεται."
+
+#: $string['showhiddenuntilonly']
+msgid "Only hidden until"
+msgstr "Μόνο τα κρυμμένα μέχρι"
+
+#: $string['showingaggregatesonly']
+msgid "Showing aggregates only"
+msgstr ""
+
+#: $string['showingfullmode']
+msgid "Showing full view"
+msgstr ""
+
+#: $string['showinggradesonly']
+msgid "Showing grades only"
+msgstr ""
+
+#: $string['showlettergrade']
+msgid "Show letter grades"
+msgstr "Εμφάνιση βαθμών με γράμμα"
+
+#: $string['showlettergrade_help']
+msgid "Whether to show a column for letter grades."
+msgstr "Εμφάνιση της στήλης βαθμών με γράμμα;"
+
+#: $string['showlocks']
+msgid "Show locks"
+msgstr "Εμφάνιση κλειδωμάτων"
+
+#: $string['showlocks_help']
+msgid ""
+"If enabled, when editing is turned on, a lock/unlock icon is shown for each "
+"grade for controlling whether the grade can be automatically updated by the "
+"related activity."
+msgstr ""
+"Εάν θα εμφανίζεται ένα εικονίδιο κλείδωμα/ξεκλείδωμα κοντά σε κάθε βαθμό."
+
+#: $string['shownohidden']
+msgid "Do not show"
+msgstr "Όχι κρυμμένα"
+
+#: $string['shownooutcomes']
+msgid "Hide outcomes"
+msgstr "Απόκρυψη εκβάσεων"
+
+#: $string['shownumberofgrades']
+msgid "Show number of grades in averages"
+msgstr "Εμφάνιση αριθμού βαθμών στους μέσους όρους"
+
+#: $string['shownumberofgrades_help']
+msgid ""
+"If enabled, the number of grades used when calculating the average (mean) is "
+"displayed in brackets after each average."
+msgstr ""
+"Εάν θα εμφανίζεται ο αριθμός των βαθμών που χρησιμοποιούνται κατά τον "
+"υπολογισμό του μέσου σε αγκύλες μετά από κάθε μέσο όρο, για παράδειγμα 45 "
+"(34)."
+
+#: $string['showonlyactiveenrol']
+msgid "Show only active enrolments"
+msgstr "Εμφάνιση μόνο των ενεργών εγγραφών"
+
+#: $string['showonlyactiveenrol_help']
+msgid ""
+"This setting determines, if only active enrolled users will be visible in "
+"gradebook report. If enabled suspended users will not be shown in gradebook."
+msgstr ""
+"Αυτή η ρύθμιση καθορίζει, αν μόνο οι ενεργοί εγγεγραμμένοι χρήστες θα είναι "
+"ορατοί στην αναφορά βαθμολογίου. Αν είναι ενεργοποιημένη, οι χρήστες σε "
+"αναστολή δεν θα εμφανιστούν στο βαθμολόγιο."
+
+#: $string['showpercentage']
+msgid "Show percentage"
+msgstr "Εμφάνιση ποσοστού"
+
+#: $string['showpercentage_help']
+msgid "Whether to show the percentage value of each grade item."
+msgstr "Εάν θα εμφανίζεται η τιμή ποσοστού κάθε στοιχείου βαθμού."
+
+#: $string['showquickfeedback']
+msgid "Show quick feedback"
+msgstr "Εμφάνιση Γρήγορου Σχόλιου"
+
+#: $string['showquickfeedback_help']
+msgid ""
+"If enabled, when editing is turned on, a feedback text input box with a "
+"dotted border appears for each grade, allowing the feedback for many grades "
+"to be edited at the same time. Changes are saved and highlighted when the "
+"update button is clicked.\n"
+"\n"
+"Note that when feedback is edited in the grader report, an overridden flag "
+"is set, meaning that the feedback can no longer be changed from within the "
+"related activity."
+msgstr ""
+"Το Γρήγορο Σχόλιο προσθέτει ένα πεδίο εισόδου κειμένου σε κάθε κελί βαθμού "
+"στην αναφορά βαθμολογητή, επιτρέποντας την επεξεργασία του σχόλιου για "
+"πολλούς βαθμούς ταυτόχρονα. Μπορείτε έπειτα να πατήσετε το κουμπί Ανανέωση "
+"για να πραγματοποιήσετε όλες αυτές τις αλλαγές κατευθείαν, αντί μια κάθε "
+"φορά."
+
+#: $string['showrange']
+msgctxt "$string['showrange']"
+msgid "Show ranges"
+msgstr "Εμφάνιση εύρους"
+
+#: $string['showrange_help']
+msgid "Whether to show a column for the range."
+msgstr "Εμφάνιση της στήλης εύρους;"
+
+#: $string['showranges']
+msgctxt "$string['showranges']"
+msgid "Show ranges"
+msgstr "Εμφάνιση Διαστημάτων"
+
+#: $string['showranges_help']
+msgid ""
+"If enabled, the grader report will contain an additional row displaying the "
+"range for each category and grade item."
+msgstr ""
+"Εάν θα εμφανίζεται το εύρος των βαθμών για κάθε στήλη σε μια πρόσθετη "
+"γραμμή."
+
+#: $string['showrank']
+msgid "Show rank"
+msgstr "Εμφάνιση κατάταξης"
+
+#: $string['showrank_help']
+msgid ""
+"Whether to show the position of the student in relation to the rest of the "
+"class for each grade item."
+msgstr ""
+"Εάν θα εμφανίζεται η θέση του χρήστη σε σχέση με την υπόλοιπη τάξη, για κάθε "
+"στοιχείο βαθμού."
+
+#: $string['showuserimage']
+msgid "Show user profile images"
+msgstr "Εμφάνιση εικόνων προφίλ χρήστη"
+
+#: $string['showuserimage_help']
+msgid ""
+"Whether to show the user's profile image next to the name in the grader "
+"report."
+msgstr ""
+"Εάν θα εμφανίζεται η εικόνα του προφίλ του χρήστη δίπλα στο όνομα του στην "
+"αναφορά βαθμολογητή."
+
+#: $string['showverbose']
+msgid "Show {$a->category} {$a->itemmodule} {$a->itemname}"
+msgstr "Εμφάνιση {$a->category}$a->itemmodule {$a->itemname}"
+
+#: $string['showweight']
+msgid "Show weightings"
+msgstr "Εμφάνιση συντελεστή"
+
+#: $string['showweight_help']
+msgid "Whether to show a column for the grade weight."
+msgstr "Εμφάνιση της στήλης βαρύτητας βαθμού;"
+
+#: $string['simpleview']
+msgid "Single view"
+msgstr "Απλή προβολή"
+
+#: $string['singleview']
+msgid "Single view for {$a}"
+msgstr ""
+
+#: $string['sitewide']
+msgid "Site-wide"
+msgstr "στο εύρος του ιστοχώρου"
+
+#: $string['sort']
+msgid "sort"
+msgstr "ταξινόμηση"
+
+#: $string['sortasc']
+msgid "Sort in ascending order"
+msgstr "Ταξινόμηση σε αύξουσα σειρά"
+
+#: $string['sortbyfirstname']
+msgid "Sort by first name"
+msgstr "Ταξινόμηση κατα Όνομα"
+
+#: $string['sortbylastname']
+msgid "Sort by last name"
+msgstr "Ταξινόμηση κατα Έπίθετο"
+
+#: $string['sortdesc']
+msgid "Sort in descending order"
+msgstr "Ταξινόμηση σε φθίνουσα σειρά"
+
+#: $string['standarddeviation']
+msgid "Standard deviation"
+msgstr "Τυπική Απόκλιση"
+
+#: $string['stats']
+msgid "Statistics"
+msgstr "Στατιστικά"
+
+#: $string['statslink']
+msgid "Stats"
+msgstr "Στατ"
+
+#: $string['student']
+msgid "Student"
+msgstr "Φοιτητής"
+
+#: $string['studentsperpage']
+msgid "Students per page"
+msgstr "Μαθητές ανά σελίδα"
+
+#: $string['studentsperpage_help']
+msgid ""
+"This setting determines the number of students displayed per page in the "
+"grader report."
+msgstr ""
+"Ο αριθμός των μαθητών που θα εμφανίζονται ανά σελίδα στην αναφορά "
+"βαθμολογητή."
+
+#: $string['studentsperpagereduced']
+msgid ""
+"Reduced maximum students per page from {$a->originalstudentsperpage} to "
+"{$a->studentsperpage}. Consider increasing the PHP setting max_input_vars "
+"from {$a->maxinputvars}."
+msgstr ""
+
+#: $string['subcategory']
+msgid "Normal category"
+msgstr "Απλή κατηγορία"
+
+#: $string['submissions']
+msgid "Submissions"
+msgstr "Υποβολές"
+
+#: $string['submittedon']
+msgid "Submitted: {$a}"
+msgstr "Υποβλήθηκε: {$a}"
+
+#: $string['sumofgradesupgradedgrades']
+msgid ""
+"Note: The aggregation method \"Sum of grades\" has been changed to \"Natural\" "
+"as part of a site upgrade. Since \"Sum of grades\" was previously used in this "
+"course, it is recommended that you review this change in the gradebook."
+msgstr ""
+
+#: $string['switchtofullview']
+msgid "Switch to full view"
+msgstr "Εναλλαγή σε πλήρη προβολή"
+
+#: $string['switchtosimpleview']
+msgid "Switch to simple view"
+msgstr "Εναλλαγή σε απλή προβολή"
+
+#: $string['tabs']
+msgid "Tabs"
+msgstr "Καρτέλες"
+
+#: $string['topcategory']
+msgid "Super category"
+msgstr "Σούπερ κατηγορία"
+
+#: $string['total']
+msgid "Total"
+msgstr "Συνολικό"
+
+#: $string['totalweight100']
+msgid "The total weight is equal to 100"
+msgstr "Το συνολικό βάρος είναι ίσο με 100"
+
+#: $string['totalweightnot100']
+msgid "The total weight is not equal to 100"
+msgstr "Το συνολικό βάρος δεν είναι ίσο με 100"
+
+#: $string['turnfeedbackoff']
+msgid "Turn feedback off"
+msgstr "Απενεργοποίηση σχόλιου"
+
+#: $string['turnfeedbackon']
+msgid "Turn feedback on"
+msgstr "Ενεργοποίηση σχόλιου"
+
+#: $string['typenone']
+msgctxt "$string['typenone']"
+msgid "None"
+msgstr "Κανένα"
+
+#: $string['typescale']
+msgctxt "$string['typescale']"
+msgid "Scale"
+msgstr "Κλίμακα"
+
+#: $string['typescale_help']
+msgid ""
+"This setting determines the scale used when using the scale grade type. The "
+"scale for an activity-based grade item is set on the activity settings page."
+msgstr ""
+"Αυτή η ρύθμιση καθορίζει την κλίμακα που χρησιμοποιείται κατά τη χρήση τύπου "
+"βαθμολογικής κλίμακας. Η κλίμακα για μια δραστηριότητα με βάση το στοιχείο "
+"που βαθμολογείται βρίσκεται στη σελίδα ρυθμίσεων της δραστηριότητας."
+
+#: $string['typetext']
+msgid "Text"
+msgstr "Κείμενο"
+
+#: $string['typevalue']
+msgid "Value"
+msgstr "Τιμή"
+
+#: $string['uncategorised']
+msgid "Uncategorised"
+msgstr "Μη κατηγοριοποιημένο"
+
+#: $string['unchangedgrade']
+msgid "Grade unchanged"
+msgstr "Ο βαθμός δεν άλλαξε"
+
+#: $string['unenrolledusersinimport']
+msgid ""
+"This import included the following grades for users not currently enrolled "
+"in this course: {$a}"
+msgstr ""
+"Αυτή η εισαγωγή συμπεριελάμβανε τους ακόλουθους βαθμούς για χρήστες οι "
+"οποίοι δεν είναι εγγεγραμμένοι προς το παρόν σε αυτό το μάθημα: {$a}"
+
+#: $string['unlimitedgrades']
+msgid "Unlimited grades"
+msgstr "Βαθμοί χωρίς όριο"
+
+#: $string['unlimitedgrades_help']
+msgid ""
+"By default, grades are limited by the maximum and minimum values of the "
+"grade item. Enabling this setting removes this limit, and allows grades of "
+"over 100% to be entered directly in the gradebook."
+msgstr ""
+"Από προεπιλογή οι βαθμοί περιορίζονται από μια μέγιστη και ελάχιστη τιμή του "
+"στοιχείου που βαθμολογείται. Ενεργοποιώντας αυτή τη ρύθμιση αφαιρείται το "
+"όριο και επιτρέπει βαθμούς πάνω από 100% που εισάγονται κατευθείαν στο "
+"βιβλίο βαθμολογιών. Συνιστάται αυτή η ρύθμιση να μην ενεργοποιηθεί σε ώρα "
+"αιχμής, καθώς όλοι οι βαθμοί θα υπολογιστούν εκ νέου, το οποίο μπορεί να "
+"οδηγήσει σε υπερφόρτωση του server."
+
+#: $string['unlock']
+msgid "Unlock"
+msgstr "Ξεκλείδωμα"
+
+#: $string['unlockverbose']
+msgid "Unlock {$a->category} {$a->itemmodule} {$a->itemname}"
+msgstr "Ξεκλείδωμα {$a->category}$a->itemmodule {$a->itemname}"
+
+#: $string['unused']
+msgid "Unused"
+msgstr "Μη χρησιμοποιούμενα"
+
+#: $string['updatedgradesonly']
+msgid "Export new or updated grades only"
+msgstr "Εξαγωγή νέων ή ανανεωμένων βαθμών μόνο"
+
+#: $string['upgradedgradeshidemessage']
+msgid "Dismiss notice"
+msgstr ""
+
+#: $string['upgradedminmaxrevertmessage']
+msgid "Revert the changes"
+msgstr ""
+
+#: $string['uploadgrades']
+msgid "Upload grades"
+msgstr "Ανέβασμα βαθμών"
+
+#: $string['useadvanced']
+msgid "Use advanced features"
+msgstr "Χρησιμοποιήση Προχωρημένων Λειτουργιών"
+
+#: $string['usedcourses']
+msgid "Used courses"
+msgstr "Χρησιμοποιούμενα μαθήματα"
+
+#: $string['usedgradeitem']
+msgid "Used grade item"
+msgstr "Χρησιμοποιούμενα στοιχεία βαθμολόγησης"
+
+#: $string['usenooutcome']
+msgid "Use no outcome"
+msgstr "Χωρίς χρήσης έκβασης"
+
+#: $string['usenoscale']
+msgid "Use no scale"
+msgstr "Χωρίς χρήση κλίμακας"
+
+#: $string['usepercent']
+msgid "Use percent"
+msgstr "Χρησιμοποιήση Ποσοστών"
+
+#: $string['user']
+msgid "User"
+msgstr "Χρήστης"
+
+#: $string['userenrolmentsuspended']
+msgid "User enrolment suspended"
+msgstr "Η εγγραφή χρήστη ανεστάλει"
+
+#: $string['userfields_show']
+msgid "Show user fields"
+msgstr "Εμφάνιση πεδίων χρήστη"
+
+#: $string['userfields_show_help']
+msgid ""
+"Show additional user fields like email address on the grader report. The "
+"specific fields displayed are controlled by the site setting "
+"showuseridentity"
+msgstr ""
+
+#: $string['usergrade']
+msgid "User {$a->fullname} ({$a->useridnumber}) on item {$a->gradeidnumber}"
+msgstr ""
+"Χρήστης {$a->fullname} ({$a->useridnumber}) στο στοιχείο {$a->gradeidnumber}"
+
+#: $string['userid']
+msgid "User ID"
+msgstr "ID χρήστη"
+
+#: $string['useridnumberwarning']
+msgid ""
+"Users without an ID number are excluded from the export as they cannot be "
+"imported"
+msgstr ""
+"Οι χρήστες χωρίς αριθμό ID  εξαιρούνται από την εξαγωγή, δεδομένου ότι δεν "
+"μπορούν να εισαχθούν"
+
+#: $string['usermappingerror']
+msgid ""
+"User mapping error: Could not find user with {$a->field} of \"{$a->value}\"."
+msgstr ""
+
+#: $string['usermappingerrorcurrentgroup']
+msgid "User is not a member of current group."
+msgstr "Ο χρήστης δεν είναι μέλος της τρέχουσας ομάδας."
+
+#: $string['usermappingerrorusernotfound']
+msgid "User mapping error. Could not find user."
+msgstr ""
+
+#: $string['userpreferences']
+msgid "User preferences"
+msgstr "Προτιμήσεις χρήστη"
+
+#: $string['useweighted']
+msgid "Use weighted"
+msgstr "Χρησιμοποιήση Βαθμών Βαρύτητας"
+
+#: $string['verbosescales']
+msgid "Verbose scales"
+msgstr "Αναλυτικές κλίμακες"
+
+#: $string['verbosescales_help']
+msgid ""
+"A verbose scale uses words rather than numbers. Set to 'Yes' if both "
+"numerical and verbose scales are to be imported. Set to 'No' if only "
+"numerical scales are to be imported."
+msgstr ""
+
+#: $string['viewbygroup']
+msgid "Group"
+msgstr "Ομάδα"
+
+#: $string['viewgrades']
+msgid "View grades"
+msgstr "Προβολή Βαθμών"
+
+#: $string['weight']
+msgid "Weight"
+msgstr "βαθμός βαρύτητας"
+
+#: $string['weightcourse']
+msgid "Use weighted grades for course"
+msgstr "Χρήση βαθμών βαρύτητας για το μάθημα"
+
+#: $string['weightedascending']
+msgid "Sort by weighted percent ascending"
+msgstr "Αύξουσα ταξινόμηση κατά ποσοστά βαθμών βαρύτητας"
+
+#: $string['weighteddescending']
+msgid "Sort by weighted percent descending"
+msgstr "Φθίνουσα ταξινόμηση κατά ποσοστά βαθμών βαρύτητας"
+
+#: $string['weightedpct']
+msgid "weighted %"
+msgstr "% βαθμοί βαρύτητας"
+
+#: $string['weightedpctcontribution']
+msgid "weighted % contribution"
+msgstr "συνεισφορά % βαθμοί βαρύτητας"
+
+#: $string['weight_help']
+msgid ""
+"A value used to determine the relative value of multiple grade items in a "
+"category or course."
+msgstr ""
+
+#: $string['weightofa']
+msgid "Weight of {$a}"
+msgstr ""
+
+#: $string['weightorextracredit']
+msgid "Weight or extra credit"
+msgstr "Βάρος ή έξτρα έπαινος"
+
+#: $string['weightoverride']
+msgid "weight adjustment"
+msgstr ""
+
+#: $string['weightoverride_help']
+msgid ""
+"Uncheck this to reset a grade item weight to its automatically calculated "
+"value. Checking this will prevent the weight being automatically adjusted."
+msgstr ""
+
+#: $string['weights']
+msgid "Weights"
+msgstr "Βάρη"
+
+#: $string['weightsadjusted']
+msgid "Your weights have been adjusted to total 100."
+msgstr ""
+
+#: $string['weightsedit']
+msgid "Edit weights and extra credits"
+msgstr "Επεξεργασία βαρών και εξτρά επαίνων"
+
+#: $string['weightuc']
+msgid "Calculated weight"
+msgstr "Υπολογιζόμενο βάρος"
+
+#: $string['writinggradebookinfo']
+msgid "Writing gradebook settings"
+msgstr "Εγγραφή ρυθμίσεων βαθμολόγιου"
+
+#: $string['xml']
+msgid "XML"
+msgstr "XML"
+
+#: $string['yes']
+msgid "Yes"
+msgstr "Ναι"
+
+#: $string['yourgrade']
+msgid "Your grade"
+msgstr "Ο βαθμός σας"

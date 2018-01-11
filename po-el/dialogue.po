@@ -1,0 +1,746 @@
+#. extracted from lang/en/dialogue.php, lang/el/dialogue.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'dialogue', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   dialogue
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['actions']
+msgid "Actions"
+msgstr ""
+
+#: $string['ago']
+msgid "ago"
+msgstr ""
+
+#: $string['attachment']
+msgid "Attachment"
+msgstr ""
+
+#: $string['attachments']
+msgid "Attachments"
+msgstr ""
+
+#: $string['bulkopener']
+msgid "Bulk opener"
+msgstr ""
+
+#: $string['bulkopenrule']
+msgid "Bulk open rule"
+msgstr ""
+
+#: $string['bulkopenrulenotifymessage']
+msgid ""
+"<strong>Note:</strong><br/>When using a bulk opener rule, conversations are "
+"not opened straight away. Conversations will be opened when the system's "
+"cron function is run, typically every 30 minutes."
+msgstr ""
+
+#: $string['bulkopenrules']
+msgid "Bulk open rules"
+msgstr ""
+
+#: $string['cachedef_params']
+msgid "Params - user interface"
+msgstr ""
+
+#: $string['cachedef_participants']
+msgid "Participants id's (basic information)"
+msgstr ""
+
+#: $string['cachedef_unreadcounts']
+msgid "Users unread message counts in conversations"
+msgstr ""
+
+#: $string['cachedef_userdetails']
+msgid "User brief details, all enrolled users"
+msgstr ""
+
+#: $string['cannotclosedraftconversation']
+msgid "You cannot close a conversation that hasn't started!"
+msgstr ""
+
+#: $string['cannotdeleteopenconversation']
+msgid "You cannot delete a open conversation"
+msgstr ""
+
+#: $string['closeconversation']
+msgid "Close conversation"
+msgstr ""
+
+#: $string['closed']
+msgid "Closed"
+msgstr ""
+
+#: $string['completed']
+msgid "Completed"
+msgstr "Ολοκληρωμένο"
+
+#: $string['configmaxattachments']
+msgid "Default maximum number of attachments allowed per post."
+msgstr ""
+
+#: $string['configmaxbytes']
+msgid ""
+"Default maximum size for all dialogue attachments on the site (subject to "
+"course limits and other local settings)"
+msgstr ""
+
+#: $string['configtrackunread']
+msgid "Track unread dialogue messages on course homepage"
+msgstr ""
+
+#: $string['configviewconversationsbyrole']
+msgid ""
+"Experimental: View conversations by role, order conversation listing by "
+"author's role"
+msgstr ""
+
+#: $string['configviewstudentconversations']
+msgid "Experimental: student list with conversations they are involved in"
+msgstr ""
+
+#: $string['conversation']
+msgid "Conversation"
+msgstr ""
+
+#: $string['conversationcloseconfirm']
+msgid "Are you sure you want to close conversation {$a} ?"
+msgstr ""
+
+#: $string['conversationclosed']
+msgid "Conversation {$a} has been closed"
+msgstr ""
+
+#: $string['conversationdeleteconfirm']
+msgid ""
+"Are you sure you want to delete conversation {$a}, this cannot be undone?"
+msgstr ""
+
+#: $string['conversationdeleted']
+msgid "Conversation {$a} has been deleted"
+msgstr ""
+
+#: $string['conversationdiscarded']
+msgid "Conversation discarded"
+msgstr ""
+
+#: $string['conversationlistdisplayheader']
+msgid "Displaying {$a->show} {$a->state} conversations {$a->groupname}"
+msgstr ""
+
+#: $string['conversationopened']
+msgid "Conversation has been opened"
+msgstr ""
+
+#: $string['conversationopenedcron']
+msgid "Conversations will be opened automatically"
+msgstr ""
+
+#: $string['conversationopenedwith']
+msgid "<strong>1</strong> conversation opened with:"
+msgstr ""
+
+#: $string['conversations']
+msgid "Conversations"
+msgstr ""
+
+#: $string['conversationsopenedwith']
+msgid "<strong>{$a}</strong> conversations opened with:"
+msgstr ""
+
+#: $string['cutoffdate']
+msgid "Cut off date"
+msgstr ""
+
+#: $string['datefullyear']
+msgid "{$a->datefull} <small>({$a->time})</small>"
+msgstr ""
+
+#: $string['dateshortyear']
+msgid "{$a->dateshort} <small>({$a->time})</small>"
+msgstr ""
+
+#: $string['day']
+msgid "day"
+msgstr ""
+
+#: $string['days']
+msgid "days"
+msgstr ""
+
+#: $string['deleteallconversations']
+msgid "Delete all conversations"
+msgstr ""
+
+#: $string['deletealldrafts']
+msgid "Delete all drafts"
+msgstr ""
+
+#: $string['deleteallrules']
+msgid "Delete all opener rules"
+msgstr ""
+
+#: $string['deleteconversation']
+msgid "Delete conversation"
+msgstr ""
+
+#: $string['deletereply']
+msgid "Delete reply"
+msgstr ""
+
+#: $string['dialogue:addinstance']
+msgid "Add a Dialogue"
+msgstr ""
+
+#: $string['dialogue:bulkopenrulecreate']
+msgid "Create a bulk opener rule"
+msgstr ""
+
+#: $string['dialogue:bulkopenruleeditany']
+msgid "Allows user to edit any rule, useful for admin's etc"
+msgstr ""
+
+#: $string['dialogue:close']
+msgid "Close a conversation"
+msgstr ""
+
+#: $string['dialogue:closeany']
+msgid "Close any"
+msgstr ""
+
+#: $string['dialoguecron']
+msgid "Dialogue cron"
+msgstr ""
+
+#: $string['dialogue:delete']
+msgid "Delete own"
+msgstr ""
+
+#: $string['dialogue:deleteany']
+msgid "Delete any"
+msgstr ""
+
+#: $string['dialogueintro']
+msgid "Dialogue Introduction"
+msgstr ""
+
+#: $string['dialoguename']
+msgid "Dialogue name"
+msgstr ""
+
+#: $string['dialogue:open']
+msgid "Open a conversation"
+msgstr ""
+
+#: $string['dialogue:receive']
+msgid "Receive, who can be the recipient when opening a conversation"
+msgstr ""
+
+#: $string['dialogue:reply']
+msgctxt "$string['dialogue:reply']"
+msgid "Reply"
+msgstr ""
+
+#: $string['dialogue:replyany']
+msgid "Reply any"
+msgstr ""
+
+#: $string['dialogue:viewany']
+msgid "View any"
+msgstr ""
+
+#: $string['dialogue:viewbyrole']
+msgid "View conversation listing by role, experimental"
+msgstr ""
+
+#: $string['displaybystudent']
+msgid "Display by student"
+msgstr ""
+
+#: $string['displayconversationsheading']
+msgid "Displaying {$a} conversations"
+msgstr ""
+
+#: $string['displaying']
+msgid "Displaying"
+msgstr ""
+
+#: $string['draft']
+msgid "Draft"
+msgstr ""
+
+#: $string['draftconversation']
+msgid "Draft conversation"
+msgstr ""
+
+#: $string['draftconversationtrashed']
+msgid "Draft conversation trashed"
+msgstr ""
+
+#: $string['draftlistdisplayheader']
+msgid "Displaying my drafts"
+msgstr ""
+
+#: $string['draftreply']
+msgid "Draft reply"
+msgstr ""
+
+#: $string['draftreplytrashed']
+msgid "Draft reply trashed"
+msgstr ""
+
+#: $string['drafts']
+msgid "Drafts"
+msgstr "Προσχέδια"
+
+#: $string['errorcutoffdateinpast']
+msgid "Cut off date cannot be set in the past"
+msgstr ""
+
+#: $string['erroremptymessage']
+msgid "Message cannot be empty"
+msgstr "Το μήνυμα δεν επιτρέπεται να είναι κενό"
+
+#: $string['erroremptysubject']
+msgid "Subject cannot be empty."
+msgstr ""
+
+#: $string['errornoparticipant']
+msgid "You must open a dialogue with somebody..."
+msgstr ""
+
+#: $string['eventconversationclosed']
+msgid "Conversation closed"
+msgstr ""
+
+#: $string['eventconversationcreated']
+msgid "Conversation created"
+msgstr ""
+
+#: $string['eventconversationdeleted']
+msgid "Conversation deleted"
+msgstr ""
+
+#: $string['eventconversationviewed']
+msgid "Conversation viewed"
+msgstr ""
+
+#: $string['eventreplycreated']
+msgid "Reply created"
+msgstr ""
+
+#: $string['everybody']
+msgid "Everybody (free for all)"
+msgstr ""
+
+#: $string['everyone']
+msgid "Everyone"
+msgstr ""
+
+#: $string['everyones']
+msgid "everyone's"
+msgstr ""
+
+#: $string['firstname']
+msgid "First name"
+msgstr ""
+
+#: $string['fullname']
+msgid "Full name"
+msgstr ""
+
+#: $string['groupmodenotifymessage']
+msgid ""
+"This activity is running in groupmode, this will affect who you can start a "
+"conversation with and what conversations are displayed."
+msgstr ""
+
+#: $string['hasnotrun']
+msgid "Has not run yet"
+msgstr ""
+
+#: $string['hour']
+msgid "hour"
+msgstr ""
+
+#: $string['hours']
+msgid "hours"
+msgstr ""
+
+#: $string['includefuturemembers']
+msgid "Include future members"
+msgstr ""
+
+#: $string['ingroup']
+msgid "in group {$a}"
+msgstr ""
+
+#: $string['justmy']
+msgid "just my"
+msgstr ""
+
+#: $string['lastname']
+msgid "Last name"
+msgstr ""
+
+#: $string['lastranon']
+msgid "Last ran on"
+msgstr ""
+
+#: $string['latest']
+msgid "Latest"
+msgstr ""
+
+#: $string['listpaginationheader']
+msgid "{$a->start}-{$a->end} of {$a->total}"
+msgstr ""
+
+#: $string['matchingpeople']
+msgid "Matching people ({$a})"
+msgstr ""
+
+#: $string['maxattachments']
+msgid "Maximum number of attachments"
+msgstr ""
+
+#: $string['maxattachments_help']
+msgid ""
+"This setting specifies the maximum number of files that can be attached to a "
+"dialogue post."
+msgstr ""
+
+#: $string['maxattachmentsize']
+msgid "Maximum attachment size"
+msgstr ""
+
+#: $string['maxattachmentsize_help']
+msgid ""
+"This setting specifies the largest size of file that can be attached to a "
+"dialogue post."
+msgstr ""
+
+#: $string['message']
+msgid "Message"
+msgstr "Μήνυμα"
+
+#: $string['messageapibasicmessage']
+msgid ""
+"<p>{$a->userfrom} posted a new message to a conversation you are "
+"participating\n"
+"in with subject: <i>{$a->subject}</i>\n"
+"<br/><br/><a href=\"{$a->url}\">View in Moodle</a></p>"
+msgstr ""
+
+#: $string['messageapismallmessage']
+msgid "{$a} posted a new message to a conversation you are participating in"
+msgstr ""
+
+#: $string['messageprovider:post']
+msgid "Dialogue notifications"
+msgstr ""
+
+#: $string['messages']
+msgid "messages"
+msgstr "μηνύματα"
+
+#: $string['mine']
+msgid "Mine"
+msgstr ""
+
+#: $string['minute']
+msgid "minute"
+msgstr ""
+
+#: $string['minutes']
+msgid "minutes"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Dialogue"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"Dialogues allow students or teachers to start two-way dialogues with another "
+"person. They are course activities that can be useful when the teacher "
+"wants a place to give private feedback to a student on their online "
+"activity. For example, if a student is participating in a language forum and "
+"made a grammatical error that the teacher wants to point out without "
+"embarassing the student, a dialogue is the perfect place. A dialogue "
+"activity would also be an excellent way for counsellors within an "
+"institution to interact with students - all activities are logged and email "
+"is not necessarily required"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Dialogues"
+msgstr ""
+
+#: $string['month']
+msgid "month"
+msgstr ""
+
+#: $string['months']
+msgid "months"
+msgstr ""
+
+#: $string['nobulkrulesfound']
+msgid "No bulk rules found!"
+msgstr ""
+
+#: $string['noconversationsfound']
+msgid "No conversations found!"
+msgstr ""
+
+#: $string['nodraftsfound']
+msgid "No drafts found!"
+msgstr ""
+
+#: $string['nomatchingpeople']
+msgid "No people match '{$a}\\"
+msgstr ""
+
+#: $string['nopermissiontoclose']
+msgid "You do not have permission to close this conversation!"
+msgstr ""
+
+#: $string['nopermissiontodelete']
+msgid "You do not have permission to delete!"
+msgstr ""
+
+#: $string['nosubject']
+msgid "[no subject]"
+msgstr ""
+
+#: $string['numberattachments']
+msgid "{$a} attachments"
+msgstr ""
+
+#: $string['numberunread']
+msgid "{$a} unread"
+msgstr "Δεν έχετε αδιάβαστα"
+
+#: $string['oldest']
+msgid "Oldest"
+msgstr ""
+
+#: $string['onlydraftscanbetrashed']
+msgid "Only drafts can be trashed"
+msgstr ""
+
+#: $string['open']
+msgid "Open"
+msgstr ""
+
+#: $string['openedbyfullyear']
+msgid ""
+"<small>Opened by</small> <strong>{$a->fullname}</strong> <small>on</small> "
+"{$a->datefull} <small>({$a->time})</small>"
+msgstr ""
+
+#: $string['openedbyshortyear']
+msgid ""
+"<small>Opened by</small> <strong>{$a->fullname}</strong> <small>on</small> "
+"{$a->dateshort} <small>({$a->time})</small>"
+msgstr ""
+
+#: $string['openedbytoday']
+msgid ""
+"<small>Opened by</small> <strong>{$a->fullname}</strong> <small>at</small> "
+"{$a->time} <small>({$a->timepast}) ago</small>"
+msgstr ""
+
+#: $string['openwith']
+msgid "Open with"
+msgstr ""
+
+#: $string['participants']
+msgid "participants"
+msgstr "συμμετέχοντες"
+
+#: $string['people']
+msgid "People"
+msgstr "Συμμετέχοντες"
+
+#: $string['pluginadministration']
+msgid "Dialogue administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Dialogue"
+msgstr ""
+
+#: $string['repliedby']
+msgid "<strong>{$a->fullname}</strong> <small>replied</small> {$a->timeago}"
+msgstr ""
+
+#: $string['repliedbyfullyear']
+msgid ""
+"<strong>{$a->fullname}</strong> <small>replied on</small> {$a->datefull} "
+"<small>({$a->time})</small>"
+msgstr ""
+
+#: $string['repliedbyshortyear']
+msgid ""
+"<strong>{$a->fullname}</strong> <small>replied on</small> {$a->dateshort} "
+"<small>({$a->time})</small>"
+msgstr ""
+
+#: $string['repliedbytoday']
+msgid ""
+"<strong>{$a->fullname}</strong> <small>replied at</small> {$a->time} "
+"<small>({$a->timepast}) ago</small>"
+msgstr ""
+
+#: $string['reply']
+msgctxt "$string['reply']"
+msgid "Reply"
+msgstr ""
+
+#: $string['replydeleteconfirm']
+msgid "Are you sure you want to this reply?"
+msgstr ""
+
+#: $string['replydeleted']
+msgid "Reply has been deleted"
+msgstr ""
+
+#: $string['replysent']
+msgid "Your reply has been sent"
+msgstr ""
+
+#: $string['runsuntil']
+msgid "Runs until"
+msgstr ""
+
+#: $string['savedraft']
+msgid "Save draft"
+msgstr ""
+
+#: $string['searchpotentials']
+msgid "Search potentials..."
+msgstr ""
+
+#: $string['second']
+msgid "second"
+msgstr ""
+
+#: $string['seconds']
+msgid "seconds"
+msgstr ""
+
+#: $string['send']
+msgid "Send"
+msgstr ""
+
+#: $string['senton']
+msgid "<small><strong>Sent on: </strong></small>"
+msgstr ""
+
+#: $string['sortedby']
+msgid "Sorted by: {$a}"
+msgstr ""
+
+#: $string['studenttostudent']
+msgid "Student to student"
+msgstr ""
+
+#: $string['subject']
+msgid "Subject"
+msgstr ""
+
+#: $string['teachertostudent']
+msgid "Teacher to student"
+msgstr ""
+
+#: $string['trashdraft']
+msgid "Trash draft"
+msgstr ""
+
+#: $string['unread']
+msgid "Unread"
+msgstr "Αδιάβαστα"
+
+#: $string['unreadmessages']
+msgid "Unread messages"
+msgstr "Αδιάβαστα μηνύματα"
+
+#: $string['unreadmessagesnumber']
+msgid "{$a} unread messages"
+msgstr "{$a} αδιάβαστα μηνύματα"
+
+#: $string['unreadmessagesone']
+msgid "1 unread message"
+msgstr "1 αδιάβαστο μήνυμα"
+
+#: $string['usecoursegroups']
+msgid "Use course groups"
+msgstr ""
+
+#: $string['usecoursegroups_help']
+msgid ""
+"If the course has defined groups a further restriction will be added to who "
+"a dialogue can\n"
+"be opened with. Dialogues can only be opened between group members unless "
+"the person opening the dialogue has the \"Access all groups\"\n"
+"capability set."
+msgstr ""
+
+#: $string['usesearch']
+msgid "Use search to find people to start a dialogue with"
+msgstr ""
+
+#: $string['viewconversations']
+msgid "View conversations"
+msgstr ""
+
+#: $string['viewconversationsbyrole']
+msgid "View conversations by role"
+msgstr ""
+
+#: $string['week']
+msgid "week"
+msgstr ""
+
+#: $string['weeks']
+msgid "weeks"
+msgstr ""
+
+#: $string['year']
+msgid "year"
+msgstr ""
+
+#: $string['years']
+msgid "years"
+msgstr ""

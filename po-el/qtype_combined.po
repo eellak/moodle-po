@@ -1,0 +1,291 @@
+#. extracted from lang/en/qtype_combined.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qtype_combined', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   qtype_combined
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['controlnamegapselect']
+msgid "drop down box"
+msgstr ""
+
+#: $string['controlnamegapselectplural']
+msgid "drop down boxes"
+msgstr ""
+
+#: $string['correct_choice_embed_code']
+msgid "[[{$a->qid}:{$a->qtype}:{correct choice}]]"
+msgstr ""
+
+#: $string['embeddedquestionremovedfromform']
+msgid ""
+"One or more embedded questions have been removed from the question text. The\n"
+"question data for these questions is still shown below, but it will be "
+"permanently removed when you either press the 'Verify the\n"
+"question text ..' or 'Save changes' button, unless you put the embed codes "
+"back in the question text again."
+msgstr ""
+
+#: $string['err_accepts_vertical_or_horizontal_layout_param']
+msgid ""
+"<p>The '{$a}' question type allows you to specify the layout\n"
+"of your question\n"
+"type as follows :<ul>\n"
+" <li>[[{question identifier}:{$a}:v]] vertical OR</li>\n"
+"  <li>[[{question identifier}:{$a}:h]] horizontal.</li></ul>\n"
+"  <p>You should not enter anything else after the second colon.</p>"
+msgstr ""
+
+#: $string['err_duplicateids']
+msgid ""
+"Each embedded question instance should have a different identifier. You have "
+"used the following\n"
+"identifier(s) for more than one question '{$a}'."
+msgstr ""
+
+#: $string['err_fillinthedetailsforsubq']
+msgid "You need to fill in the details to describe the sub question '{$a}'."
+msgstr ""
+
+#: $string['err_fillinthedetailshere']
+msgid "You need to fill in the details for this sub question."
+msgstr ""
+
+#: $string['err_insufficientnoofcodeparts']
+msgid ""
+"Error, your code to embed a question control '{$a->fullcode}' has too few "
+"colon\n"
+"separated\n"
+"parts. You should have at least a question indentifier id, followed by a "
+"question type identifier."
+msgstr ""
+
+#: $string['err_invalid_number']
+msgid ""
+"The '{$a}' question type expects a number after the question type "
+"identifier, your embed code\n"
+"should be [[{your question id}:{$a}:{a number here}]]"
+msgstr ""
+
+#: $string['err_invalidquestionidentifier']
+msgid ""
+"Your question identifier code consist of one or more alphanumeric "
+"characters."
+msgstr ""
+
+#: $string['err_invalid_width_specifier_postfix']
+msgid ""
+"<p>The '{$a}' question type allows you to specify the width of your question\n"
+"type as\n"
+"follows\n"
+" :<ul>\n"
+" <li>[[{question identifier}:{$a}:____]] where the width of the input box "
+"will depend on\n"
+"  the number of underscores or</li>\n"
+"  <li>[[{question identifier}:{$a}:__10__]] where the width of the input box "
+"will depend on\n"
+"  the number.</li></ul>\n"
+"  <p>You should not enter anything else after the second colon.</p>"
+msgstr ""
+
+#: $string['err_questionidentifiertoolong']
+msgid ""
+"The sub question name '{$a}' is too long. You can use up to 10 alphanumeric\n"
+"characters."
+msgstr ""
+
+#: $string['err_subq_not_included_in_question_text']
+msgid ""
+"It seems you have removed this question from the question text.\n"
+"Embed this question in the form with the code {$a} or it will be removed "
+"when you submit this form again."
+msgstr ""
+
+#: $string['err_thisqtypecannothavemorethanonecontrol']
+msgid ""
+"You have tried to embed more than one control for question type\n"
+"'{$a->qtype}' with question\n"
+"instance name '{$a->qid}'. This question type only allows you to embed one "
+"control per question instance."
+msgstr ""
+
+#: $string['err_thisqtypedoesnotacceptextrainfo']
+msgid ""
+"This question type is embedded with the code [[{your question id}:{$a}]].\n"
+"You should not include anything after the qtype identifier, even a second "
+"colon."
+msgstr ""
+
+#: $string['err_unrecognisedqtype']
+msgid ""
+"The question type identifier '{$a->qtype}' you entered in embedded code\n"
+"'{$a->fullcode}'is not known."
+msgstr ""
+
+#: $string['err_weightingsdonotaddup']
+msgid "Weightings for sub questions do not add up to 1."
+msgstr ""
+
+#: $string['err_you_must_provide_third_param']
+msgid "You must provide a third param for question type {$a}."
+msgstr ""
+
+#: $string['incorrectfeedback']
+msgid "Feedback for any incorrect response"
+msgstr ""
+
+#: $string['noembeddedquestions']
+msgid ""
+"You have deleted all embedded sub question elements from the question text!"
+msgstr ""
+
+#: $string['nosubquestiontypesinstalled']
+msgid ""
+"This question type allows for the combination of the functionality of other "
+"question\n"
+"types. You need to install at least one of these other question types which "
+"will be used as sub questions.\n"
+"\n"
+"See the <a "
+"href=\"https://moodle.org/plugins/view.php?plugin=qtype_combined\">entry in "
+"the plug-in db</a> for more details and a\n"
+"list of question types that can be used as sub questions."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Combined"
+msgstr ""
+
+#: $string['pluginnameadding']
+msgid "Adding a combined question"
+msgstr ""
+
+#: $string['pluginnameediting']
+msgid "Editing a combined question"
+msgstr ""
+
+#: $string['pluginname_help']
+msgid ""
+"Create a question with embedded response fields in your question text.\n"
+"\n"
+"Depending on the sub question types installed in your Moodle you may ask the "
+"student to enter a numeric or text value or select a\n"
+"value from a number of options. Embed codes in the question text will be "
+"replaced by either check boxes, select boxes or a text\n"
+"entry field so the student can enter their answer.\n"
+"\n"
+"When you create a new question all the codes to embed available sub question "
+"types are automatically added to the question text\n"
+"as examples of codes you can use. And at the same time the appropriate form "
+"fragments to specify the options for each question\n"
+"appear below the question text entry field. Edit the\n"
+"question text and change the codes in the question text to change which "
+"types of sub questions to include in the question text and\n"
+"then press the \"Verify the question text and update the form\" button to have "
+"the correct parts of the form displayed to edit\n"
+"your sub question settings."
+msgstr ""
+
+#: $string['pluginname_link']
+msgid "question/type/combined"
+msgstr ""
+
+#: $string['pluginnamesummary']
+msgid ""
+"A combined question type which allows the embedding of the response fields "
+"for various available\n"
+"sub questions in the question text.\n"
+"\n"
+"Depending on which question types you have installed, the student can enter "
+"a numeric or short text answer or choose an answer or\n"
+"answers using a select box or check boxes."
+msgstr ""
+
+#: $string['subqheader']
+msgid "'{$a->qtype}' input '{$a->qid}\\"
+msgstr ""
+
+#: $string['subqheader_not_in_question_text']
+msgid "'{$a->qtype}' input '{$a->qid}' (not embedded in question text)."
+msgstr ""
+
+#: $string['subquestiontypenotinstalled']
+msgid ""
+"You are attempting to use a combined question with a sub question type "
+"'{$a}' that\n"
+"is not installed."
+msgstr ""
+
+#: $string['updateform']
+msgid "Verify the question text and update the form"
+msgstr ""
+
+#: $string['validationerror']
+msgid "Part of your answer requires attention : {$a}"
+msgstr ""
+
+#: $string['validationerror_multiplecontrols']
+msgid "Inputs {$a->controlnos} ({$a->controlname}) - {$a->error}"
+msgstr ""
+
+#: $string['validationerrors']
+msgid "Parts of your answer require attention : {$a}"
+msgstr ""
+
+#: $string['validationerror_singlecontrol']
+msgid "Input {$a->controlno} ({$a->controlname}) - {$a->error}"
+msgstr ""
+
+#: $string['vertical_or_horizontal_embed_code']
+msgid ""
+"[[{$a->qid}:{$a->qtype}:v]] or [[{$a->qid}:{$a->qtype}:h]] depending on if "
+"you\n"
+"want\n"
+"the options layed out vertically or horizontally."
+msgstr ""
+
+#: $string['weighting']
+msgid "Weighting"
+msgstr ""
+
+#: $string['widthspecifier_embed_code']
+msgid ""
+"[[{$a->qid}:{$a->qtype}:{width specifier}]] or just "
+"[[{$a->qid}:{$a->qtype}]]"
+msgstr ""
+
+#: $string['yougot1right']
+msgid "1 of your answers is correct."
+msgstr ""
+
+#: $string['yougotnright']
+msgid "{$a->num} of your answers are correct."
+msgstr ""

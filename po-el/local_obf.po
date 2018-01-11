@@ -1,0 +1,1279 @@
+#. extracted from lang/en/local_obf.php, lang/el/local_obf.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:14+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'local_obf', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   local_obf
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['activitycompletedby']
+msgctxt "$string['activitycompletedby']"
+msgid "Completed by"
+msgstr "Ολοκληρώθηκε από"
+
+#: $string['addcourses']
+msgid "Add selected courses"
+msgstr ""
+
+#: $string['addcriteria']
+msgid "Create new awarding rule"
+msgstr ""
+
+#: $string['addemaildescription']
+msgid ""
+"Type your email address. If the address has not been verified, a "
+"verification code will be sent to that address."
+msgstr ""
+
+#: $string['addemailheader']
+msgid "Add and verify you email address"
+msgstr ""
+
+#: $string['addnewcriterion']
+msgctxt "$string['addnewcriterion']"
+msgid "Add course"
+msgstr "Προσθήκη μαθήματος"
+
+#: $string['apidataretrieve']
+msgid "Retrieve events"
+msgstr ""
+
+#: $string['apidataretrieveall']
+msgid "All"
+msgstr ""
+
+#: $string['apidataretrievedesc']
+msgid ""
+"If you select \"All\" badges issued directly from Open Badge Factory will be "
+"included in all (badge) results."
+msgstr ""
+
+#: $string['apidataretrievelocal']
+msgid "Events originated from this system"
+msgstr ""
+
+#: $string['apierror']
+msgctxt "$string['apierror']"
+msgid "Couldn't find OBF service. Please check the API URL from the settings."
+msgstr ""
+
+#: $string['apierror0']
+msgid ""
+"Open Badge Factory service request failed. The site admin needs to configure "
+"the settings of the plugin."
+msgstr ""
+
+#: $string['apierror400']
+msgid "OBF service request failed because of an erroneous/missing parameter."
+msgstr ""
+
+#: $string['apierror403']
+msgid ""
+"Open Badge Factory denied the request. Site administrator needs to "
+"reauthenticate the Open Badge Factory -client."
+msgstr ""
+
+#: $string['apierror404']
+msgctxt "$string['apierror404']"
+msgid "Couldn't find OBF service. Please check the API URL from the settings."
+msgstr ""
+
+#: $string['apierror405']
+msgid "405 Method not allowed"
+msgstr ""
+
+#: $string['apierror411']
+msgid "411 Length required"
+msgstr ""
+
+#: $string['apierror413']
+msgid "413 Request entity too large"
+msgstr ""
+
+#: $string['apierror429']
+msgid "429 Too many requests"
+msgstr ""
+
+#: $string['apierror495']
+msgid "495 Cert error"
+msgstr ""
+
+#: $string['apierror496']
+msgid ""
+"Certificate needs to be generated before Open Badge Factory can be used with "
+"Moodle. Log in to Open Badge Factory to get the request token and paste it "
+"to the field below."
+msgstr ""
+
+#: $string['apierror500']
+msgid "500 Internal server error"
+msgstr ""
+
+#: $string['apierror502']
+msgid "502 Bad gateway"
+msgstr ""
+
+#: $string['apierror503']
+msgid "OBF service is temporarily unavailable. Please try again later."
+msgstr ""
+
+#: $string['authenticate']
+msgid "Authenticate"
+msgstr ""
+
+#: $string['authenticationsuccess']
+msgid "Authentication successful."
+msgstr ""
+
+#: $string['availablecategories']
+msgid "Available categories"
+msgstr ""
+
+#: $string['availablecategorieshelp']
+msgid ""
+"Select the badge categories of which badges can be used in issuance events "
+"of this institution. If none of the categories is selected, the badges from "
+"every category can be issued."
+msgstr ""
+
+#: $string['availablecategoriesselect']
+msgctxt "$string['availablecategoriesselect']"
+msgid "Categories"
+msgstr ""
+
+#: $string['back']
+msgid "Back"
+msgstr "Επιστροφή"
+
+#: $string['backpackconfig']
+msgctxt "$string['backpackconfig']"
+msgid "Backpack settings"
+msgstr ""
+
+#: $string['backpackconnected']
+msgid "Connected"
+msgstr ""
+
+#: $string['backpackdisconnected']
+msgid "Disconnected"
+msgstr ""
+
+#: $string['backpackemail']
+msgid "Email address"
+msgstr "Διεύθυνση ηλεκτρονικού ταχυδρομείου"
+
+#: $string['backpackemailaddexternalbackpackprovider']
+msgid ""
+"<p>Couldn't find a user matching the email "
+"'<strong>{$a->useremail}</strong>' from "
+"{$a->backpackproviderfullname}.</p><p>Make sure you have an account on <a "
+"href=\"{$a->backpackprovidersiteurl}\">{$a->backpackprovidersiteurl}</a> and "
+"'<strong>{$a->useremail}</strong>' is added to your profile.</p>"
+msgstr ""
+
+#: $string['backpackemailaddexternalobp']
+msgid ""
+"<p>Couldn't find a user matching the email '<strong>{$a}</strong>' from Open "
+"Badge Passport.</p><p>To add your email, open <a "
+"href=\"https://openbadgepassport.com\">https://openbadgepassport.com</a> in "
+"your browser and log in. </p><p>After logging in follow the <strong><i>My "
+"account &gt; Account settings &gt; E-mail addresses</i></strong> navigation "
+"path.</p><p>With the <i>E-mail addresses</i> -page open, add "
+"'<strong>{$a}</strong>' in the 'Add new e-mail' -field and save.</p>"
+msgstr ""
+
+#: $string['backpackemail_help']
+msgid "Email address associated with your Mozilla OpenBadges Backpack account."
+msgstr ""
+
+#: $string['backpackemailnotfound']
+msgid "Couldn't find a user by the email '{$a->email}' from {$a->provider}."
+msgstr ""
+
+#: $string['backpackgroups']
+msgid "Badge groups"
+msgstr ""
+
+#: $string['backpackgroups_help']
+msgid "Select the badge groups that are shown in your badge displayer."
+msgstr ""
+
+#: $string['backpackprovideractions']
+msgctxt "$string['backpackprovideractions']"
+msgid "Actions"
+msgstr "Ενέργειες"
+
+#: $string['backpackprovideremailconfigureable']
+msgid "User can define the email-address"
+msgstr ""
+
+#: $string['backpackproviderfullname']
+msgid "Full name"
+msgstr "Πλήρες όνομα"
+
+#: $string['backpackprovidersettings']
+msgid "{$a} -settings"
+msgstr ""
+
+#: $string['backpackprovidershortname']
+msgid "Short name"
+msgstr ""
+
+#: $string['backpackproviderurl']
+msgctxt "$string['backpackproviderurl']"
+msgid "URL"
+msgstr ""
+
+#: $string['backpackproviderurlinvalid']
+msgid ""
+"URL is not properly defined, please use the full URL, ie. "
+"https://openbadgepassport.com/displayer/"
+msgstr ""
+
+#: $string['backpackprovideruserwarning']
+msgid ""
+"Warning: {$a} users already have email associations saved for the provider. "
+"Create new providers when adding new services, do not edit existing "
+"providers to point to other services."
+msgstr ""
+
+#: $string['backpacksettings']
+msgctxt "$string['backpacksettings']"
+msgid "Backpack settings"
+msgstr ""
+
+#: $string['badgeactions']
+msgctxt "$string['badgeactions']"
+msgid "Actions"
+msgstr "Ενέργειες"
+
+#: $string['badgeblacklist']
+msgid "Badge hiding"
+msgstr ""
+
+#: $string['badgecategories']
+msgctxt "$string['badgecategories']"
+msgid "Categories"
+msgstr ""
+
+#: $string['badgecreated']
+msgid "Created on"
+msgstr ""
+
+#: $string['badgecriteria']
+msgid "Awarding rules"
+msgstr ""
+
+#: $string['badgecriteriaurl']
+msgid "Criteria URL"
+msgstr ""
+
+#: $string['badgedescription']
+msgctxt "$string['badgedescription']"
+msgid "Description"
+msgstr ""
+
+#: $string['badgedetails']
+msgid "Badge details"
+msgstr ""
+
+#: $string['badgeemail']
+msgid "Email template"
+msgstr ""
+
+#: $string['badgeexpiresby']
+msgid "Expires by"
+msgstr ""
+
+#: $string['badgeexport']
+msgid "Export badges previously created in Moodle"
+msgstr ""
+
+#: $string['badgeexportdescription']
+msgid "A copy of all selected badges will be made on Open Badge Factory."
+msgstr ""
+
+#: $string['badgeexportzeroexportable']
+msgid "No exportable badges found, or all badges already exported."
+msgstr ""
+
+#: $string['badgehistory']
+msgctxt "$string['badgehistory']"
+msgid "Awarding history"
+msgstr ""
+
+#: $string['badgeimage']
+msgid "Badge"
+msgstr ""
+
+#: $string['badgeissued']
+msgid "Badge was successfully issued."
+msgstr ""
+
+#: $string['badgeissuedwhen']
+msgid ""
+"This badge is automatically awarded when any of the following rule is met:"
+msgstr ""
+
+#: $string['badgelist']
+msgid "Badge list"
+msgstr ""
+
+#: $string['badgelisttitle']
+msgid "All badges"
+msgstr ""
+
+#: $string['badgename']
+msgctxt "$string['badgename']"
+msgid "Name"
+msgstr ""
+
+#: $string['badgetags']
+msgid "Tags"
+msgstr ""
+
+#: $string['badgewasautomaticallyissued']
+msgid "After reviewing the badge was awarded to {$a} recipient(s)."
+msgstr ""
+
+#: $string['blacklistbadge']
+msgid "Don't show badge"
+msgstr ""
+
+#: $string['blacklistdescription']
+msgid ""
+"Select the badges you don't want to display on your profile. You can hide "
+"any badge issued by this Moodle environment."
+msgstr ""
+
+#: $string['blacklistsaved']
+msgid "Blacklist saved."
+msgstr ""
+
+#: $string['cachedef_obf_assertions']
+msgid "OBF badge assertion cache"
+msgstr ""
+
+#: $string['cachedef_obf_assertions_backpacks']
+msgid "External Open Badge service cache"
+msgstr ""
+
+#: $string['cachedef_obf_pub_badge']
+msgid "OBF Badge publicly accessible event specific data cache"
+msgstr ""
+
+#: $string['cancel']
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: $string['cannoteditcriterion']
+msgid ""
+"This rule cannot be edited, because the badge has already been awarded "
+"automatically based on this rule."
+msgstr ""
+
+#: $string['categorysettings']
+msgid "Category settings"
+msgstr "Ρυθμίσεις κατηγορίας"
+
+#: $string['certificateexpirationremindertask']
+msgid "Certificate expiration reminder"
+msgstr ""
+
+#: $string['certrequestfailed']
+msgid "There was an error while requesting the certificate from the API"
+msgstr ""
+
+#: $string['closepopup']
+msgid "Close"
+msgstr ""
+
+#: $string['completedbycriterion']
+msgid "by <strong>{$a}</strong>"
+msgstr ""
+
+#: $string['configurecriteria']
+msgid "Configure"
+msgstr ""
+
+#: $string['confirmcriteriondeletion']
+msgid "Are you sure you want to delete this awarding rule?"
+msgstr ""
+
+#: $string['confirmdelete']
+msgid "Are you sure you want to delete the record {$a} ?"
+msgstr ""
+
+#: $string['confirmrevokation']
+msgid "Are you sure you want to revoke the users badge?"
+msgstr ""
+
+#: $string['connect']
+msgid "Connect {$a}"
+msgstr ""
+
+#: $string['connectionisworking']
+msgid ""
+"OBF connection is up and working. The client certificate expires in "
+"<strong>{$a}</strong>."
+msgstr ""
+
+#: $string['connectionstatus']
+msgid "Connection status"
+msgstr ""
+
+#: $string['coursealreadyincriterion']
+msgid ""
+"The rule of automatic awarding of this badge in this course cannot be "
+"edited, because this course/badge -combination already exists in another "
+"rule containing multiple courses."
+msgstr ""
+
+#: $string['coursebadgelisttitle']
+msgid "Badges related to this course"
+msgstr ""
+
+#: $string['coursecompletedby']
+msgctxt "$string['coursecompletedby']"
+msgid "Completed by"
+msgstr "Ολοκληρώθηκε από"
+
+#: $string['coursecompletionnotenabled']
+msgid ""
+"Completion tracking is not enabled on this course. Enable it in <a "
+"href=\"{$a}\">course settings</a>."
+msgstr ""
+
+#: $string['courseeventhistory']
+msgid "Course awarding history"
+msgstr ""
+
+#: $string['courseobfbadges']
+msgctxt "$string['courseobfbadges']"
+msgid "Badges"
+msgstr ""
+
+#: $string['courserequired']
+msgid "At least one course has to be selected"
+msgstr ""
+
+#: $string['courseuserbadges']
+msgid "User badges"
+msgstr ""
+
+#: $string['criteria_3']
+msgid "Profile fields"
+msgstr ""
+
+#: $string['criteria_3_help']
+msgid "Which profile field(s) need to be filled, to trigger badge awarding."
+msgstr ""
+
+#: $string['criteriaaddcourse']
+msgctxt "$string['criteriaaddcourse']"
+msgid "Add course"
+msgstr "Προσθήκη μαθήματος"
+
+#: $string['criteriaaddendum']
+msgctxt "$string['criteriaaddendum']"
+msgid "Criteria addendum"
+msgstr ""
+
+#: $string['criteriaaddendumadd']
+msgid "Add a criteria addendum"
+msgstr ""
+
+#: $string['criteriaaddendumheader']
+msgctxt "$string['criteriaaddendumheader']"
+msgid "Criteria addendum"
+msgstr ""
+
+#: $string['criteriaaddendum_help']
+msgid ""
+"A criteria addendum will be added to the issued badge. The addendum will be "
+"shown below the badge criteria. Note: Markdown is supported."
+msgstr ""
+
+#: $string['criteriacompletedwhen']
+msgid "This rule is met when..."
+msgstr ""
+
+#: $string['criteriacompletedwhenall']
+msgid "All of the following courses have to be completed:"
+msgstr ""
+
+#: $string['criteriacompletedwhenany']
+msgid "Any of the following courses has to be completed:"
+msgstr ""
+
+#: $string['criteriacompletionmethodall']
+msgid "All of these courses are completed"
+msgstr ""
+
+#: $string['criteriacompletionmethodany']
+msgid "Any of these courses is completed"
+msgstr ""
+
+#: $string['criteriacompletionmethodprofileall']
+msgid "All of the selected profile fields have been completed"
+msgstr ""
+
+#: $string['criteriacompletionmethodprofileany']
+msgid "Any of the selected profile fields has been completed"
+msgstr ""
+
+#: $string['criteriacourses']
+msgid "Courses in this rule"
+msgstr ""
+
+#: $string['criteriapreview']
+msgid "Badge criteria preview"
+msgstr ""
+
+#: $string['criteriatypeactivity']
+msgid "Completing a set of activities"
+msgstr ""
+
+#: $string['criteriatypecourse']
+msgctxt "$string['criteriatypecourse']"
+msgid "Completing a set of courses"
+msgstr ""
+
+#: $string['criteriatypecourseset']
+msgctxt "$string['criteriatypecourseset']"
+msgid "Completing a set of courses"
+msgstr ""
+
+#: $string['criteriatypeprofile']
+msgid "Profile completion"
+msgstr ""
+
+#: $string['criteriatypetotaracertif']
+msgid "Completing a certificate"
+msgstr ""
+
+#: $string['criteriatypetotaraprogram']
+msgid "Completing a program"
+msgstr ""
+
+#: $string['criteriatypeunknown']
+msgid "Incomplete criteria"
+msgstr ""
+
+#: $string['criteriondeleted']
+msgid "Awarding rule was deleted."
+msgstr ""
+
+#: $string['criterionsaved']
+msgid "Awarding rule was saved."
+msgstr ""
+
+#: $string['csrexportfailed']
+msgid ""
+"There was an error while trying to export the certificate signing request"
+msgstr ""
+
+#: $string['dateformatdate']
+msgid "%Y-%m-%d"
+msgstr ""
+
+#: $string['deauthenticate']
+msgid "Disconnect"
+msgstr ""
+
+#: $string['deauthenticationsuccess']
+msgid "Successfully disconnected from Open Badge Factory."
+msgstr ""
+
+#: $string['deletecriterion']
+msgid "Delete awarding rule"
+msgstr ""
+
+#: $string['disableassertioncache']
+msgid "Disable badge assertion cache"
+msgstr ""
+
+#: $string['disableassertioncache_help']
+msgid ""
+"Badges on profile pages will not be cached. Badges issued from outside the "
+"Moodle environment will appear on profile pages without delay, but may "
+"affect profile page loading times."
+msgstr ""
+
+#: $string['disablemoodlebadges']
+msgid "Disable Moodle's own badge-module."
+msgstr ""
+
+#: $string['disablemoodlebadges_help']
+msgid ""
+"Old Moodle badges will be hidden from the user interface, but user badges "
+"that are saved to a Backpack can still be shown, and the badges exported to "
+"Open Badge Factory can still be awarded."
+msgstr ""
+
+#: $string['disconnect']
+msgid "Disconnect {$a}"
+msgstr ""
+
+#: $string['displaymoodlebadges']
+msgid "Display Moodle badges on profiles"
+msgstr ""
+
+#: $string['displaymoodlebadges_help']
+msgid "Old Moodle badges will be displayed on user profile pages."
+msgstr ""
+
+#: $string['edit']
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: $string['editemailmessage']
+msgid "Edit email message"
+msgstr ""
+
+#: $string['emailbadgerevokedbody']
+msgid ""
+"One of your earned badges ({$a->revokedbadgename}) has been revoked by "
+"{$a->revokername}."
+msgstr ""
+
+#: $string['emailbadgerevokedsubject']
+msgid "Your badge has been revoked"
+msgstr ""
+
+#: $string['emailbody']
+msgid "Email body"
+msgstr ""
+
+#: $string['emailfooter']
+msgid "Email footer"
+msgstr ""
+
+#: $string['emaillinktext']
+msgid "Email link text"
+msgstr ""
+
+#: $string['emailmessage']
+msgid "Email message"
+msgstr ""
+
+#: $string['emailsubject']
+msgid "Email subject"
+msgstr ""
+
+#: $string['emailtemplatedescription']
+msgid ""
+"Here you can set the default template for the email that will be sent to the "
+"user receiving this badge. The email can be customized before the badge is "
+"awarded."
+msgstr ""
+
+#: $string['emailtemplatesaved']
+msgid "Email template was successfully saved."
+msgstr ""
+
+#: $string['emailverifytokenemailbody']
+msgid ""
+"You must verify your email address.\\nVerification code: {\\$a->token} "
+"\\nVerification url: {\\$a->tokenurl}"
+msgstr ""
+
+#: $string['emailverifytokenemailsubject']
+msgid "Email verification"
+msgstr ""
+
+#: $string['error:nosuchfield']
+msgid "No such field."
+msgstr ""
+
+#: $string['eventrevoked']
+msgid "Event revoked for {$a}."
+msgstr ""
+
+#: $string['evidence']
+msgid "Evidence"
+msgstr ""
+
+#: $string['expired']
+msgid "Expired"
+msgstr ""
+
+#: $string['expiresby']
+msgid "Expires"
+msgstr ""
+
+#: $string['expiringcertificate']
+msgid ""
+"Open Badge Factory API key is expiring in <b>{$a->days}</b> days. To renew "
+"the API key <a href=\"{$a->obfurl}\">log in to Open Badge Factory</a> with "
+"your organization admin account, go to Admin tools -> Edit Organisation "
+"Details -> More settings, generate the certificate signing request token and "
+"renew the API key at <a href=\"{$a->configurl}\">Open Badges -> Settings -> "
+"OBF request token</a>."
+msgstr ""
+
+#: $string['expiringcertificatesubject']
+msgid "Open Badge Factory client certificate is expiring."
+msgstr ""
+
+#: $string['exportextrasettings']
+msgctxt "$string['exportextrasettings']"
+msgid "Export settings"
+msgstr "Ρυθμίσεις εξαγωγής"
+
+#: $string['exportsettings']
+msgctxt "$string['exportsettings']"
+msgid "Export settings"
+msgstr "Ρυθμίσεις εξαγωγής"
+
+#: $string['gradecriterion']
+msgid "with <strong>minimum grade of {$a}</strong>"
+msgstr ""
+
+#: $string['history']
+msgctxt "$string['history']"
+msgid "Awarding history"
+msgstr ""
+
+#: $string['historyrecipients']
+msgid "{$a} recipients"
+msgstr ""
+
+#: $string['invalidtab']
+msgid "Page not found"
+msgstr "Αδυναμία εύρεσης σελίδας"
+
+#: $string['issuancedetails']
+msgid "Issuance details"
+msgstr ""
+
+#: $string['issue']
+msgid "Issue badge"
+msgstr ""
+
+#: $string['issueandexpiration']
+msgid "Issue and expiration dates"
+msgstr ""
+
+#: $string['issuebadge']
+msgid "Issue a badge"
+msgstr ""
+
+#: $string['issuedon']
+msgid "Issued on"
+msgstr ""
+
+#: $string['issuer']
+msgid "Issuer"
+msgstr ""
+
+#: $string['issuerdescription']
+msgctxt "$string['issuerdescription']"
+msgid "Description"
+msgstr ""
+
+#: $string['issuerdetails']
+msgid "Issuer details"
+msgstr ""
+
+#: $string['issueremail']
+msgid "Email"
+msgstr ""
+
+#: $string['issuername']
+msgctxt "$string['issuername']"
+msgid "Name"
+msgstr ""
+
+#: $string['issuerurl']
+msgctxt "$string['issuerurl']"
+msgid "URL"
+msgstr ""
+
+#: $string['issuethisbadge']
+msgid "Issue this badge"
+msgstr ""
+
+#: $string['makeexporteddrafts']
+msgid "Exported badges are drafts by default"
+msgstr ""
+
+#: $string['messageprovider:revoked']
+msgid "Issued badge is revoked"
+msgstr ""
+
+#: $string['minimumgrade']
+msgid "Minimum grade"
+msgstr ""
+
+#: $string['nobackpackgroups']
+msgid ""
+"No public badge groups in your backpack. Create at least one public group to "
+"your backpack."
+msgstr ""
+
+#: $string['nobadgehistory']
+msgid "This badge hasn't been issued yet."
+msgstr ""
+
+#: $string['nobadges']
+msgid "No badges yet."
+msgstr ""
+
+#: $string['nobadgesincourse']
+msgid "No related badges yet."
+msgstr ""
+
+#: $string['nobadgestoexport']
+msgid "No badges to export."
+msgstr ""
+
+#: $string['nocourseswithcompletionenabled']
+msgid "There are no courses with completion enabled."
+msgstr ""
+
+#: $string['nocriteriayet']
+msgid "No automatic awarding rules created yet."
+msgstr ""
+
+#: $string['nohistory']
+msgid "No badges issued yet."
+msgstr ""
+
+#: $string['noparticipants']
+msgid "No participants."
+msgstr ""
+
+#: $string['nouserbadges']
+msgid "No badges earned yet."
+msgstr ""
+
+#: $string['novalidcourses']
+msgid "There are no courses without awarding rules regarding to this badge."
+msgstr ""
+
+#: $string['numberofbadgesmany']
+msgid "badges"
+msgstr ""
+
+#: $string['numberofbadgessingle']
+msgid "badge"
+msgstr ""
+
+#: $string['obf']
+msgid "Open Badges"
+msgstr ""
+
+#: $string['obf:configure']
+msgid "Configure OBF client settings"
+msgstr ""
+
+#: $string['obf:configureuser']
+msgid "Configure own Open Badge settings"
+msgstr ""
+
+#: $string['obfconnectionconfig']
+msgid "API connection settings"
+msgstr ""
+
+#: $string['obf:earnbadge']
+msgid "Earn an Open Badge"
+msgstr ""
+
+#: $string['obf:editcriterion']
+msgid "Edit badge criterion"
+msgstr ""
+
+#: $string['obf:issuebadge']
+msgid "Issue badge to a user"
+msgstr ""
+
+#: $string['obf:revokeallevents']
+msgid "Revoke event"
+msgstr ""
+
+#: $string['obf:revokecourseevents']
+msgid ""
+"Revoke an event, which was automatically issued based on course criteria."
+msgstr ""
+
+#: $string['obf:seeparticipantbadges']
+msgid "See the badges of course participants"
+msgstr ""
+
+#: $string['obfuserpreferences']
+msgid "Open Badge-settings"
+msgstr ""
+
+#: $string['obf:viewallbadges']
+msgid "View available badges"
+msgstr ""
+
+#: $string['obf:viewallevents']
+msgid "View badge issue events"
+msgstr ""
+
+#: $string['obf:viewbackpack']
+msgid "View backpacks"
+msgstr ""
+
+#: $string['obf:viewcourseevents']
+msgid "View course's badge issue events"
+msgstr ""
+
+#: $string['obf:viewdetails']
+msgid "View badge details"
+msgstr ""
+
+#: $string['obf:viewhistory']
+msgid "View badge issuance history"
+msgstr ""
+
+#: $string['obf:viewownbackpack']
+msgid "View own backpack"
+msgstr ""
+
+#: $string['obpbackpacksettings']
+msgid "Open Badge Passport -settings"
+msgstr ""
+
+#: $string['personalbadgecloudservices']
+msgid "Badge Cloud"
+msgstr ""
+
+#: $string['pkidirnotwritable']
+msgid ""
+"Certificate directory <i>{$a}</i> should be writable for web server user."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Open Badge Factory"
+msgstr ""
+
+#: $string['previewbadge']
+msgid "Preview badge"
+msgstr ""
+
+#: $string['previewcriteria']
+msgctxt "$string['previewcriteria']"
+msgid "Preview"
+msgstr "Προεπισκόπηση"
+
+#: $string['previewemail']
+msgctxt "$string['previewemail']"
+msgid "Preview"
+msgstr ""
+
+#: $string['profilebadgelist']
+msgctxt "$string['profilebadgelist']"
+msgid "Badges"
+msgstr ""
+
+#: $string['profilebadgelistbackpackprovider']
+msgid "{$a} badges"
+msgstr ""
+
+#: $string['profilebadgelistmoz']
+msgid "Backpack badges"
+msgstr ""
+
+#: $string['profilebadgelistobp']
+msgid "Open Badge Passport badges"
+msgstr ""
+
+#: $string['pubkeyextractionfailed']
+msgid "There was an error while extracting public key from certificate."
+msgstr ""
+
+#: $string['pubkeyrequestfailed']
+msgid "There was an error while requesting the public key from the API"
+msgstr ""
+
+#: $string['readmeenablecompletion']
+msgid "Badge earning criteria"
+msgstr ""
+
+#: $string['readmeenablecompletion_help']
+msgid ""
+"<p>In order for the automatic badge earning criteria to function properly, "
+"the completion tracking has to be enabled. </p><p>Easiest way to enable "
+"completion tracking is:</p><ol><li>Locate the \"Settings\" "
+"-block.</li><li>Type \"enablecompletion\" into the search box, and hit "
+"search.</li><li>Enable completion tracking: Yes.</li><li>Optional, but "
+"recommended: Enable completion tracking on course default "
+"settings.</li></ol><strong>Course settings</strong><p>If completion tracking "
+"is not enabled on course default settings, or course tracking is disabled "
+"on a course, the completion tracking can be enabled via the <i>Course "
+"administration-&gt;Edit settings</i> -page.</p>"
+msgstr ""
+
+#: $string['recipientcandidates']
+msgid "Users matching the search"
+msgstr ""
+
+#: $string['recipients']
+msgid "Recipients"
+msgstr ""
+
+#: $string['requesttoken']
+msgid "OBF request token"
+msgstr ""
+
+#: $string['requesttoken_help']
+msgid ""
+"<p>Paste here the token that is used to connect to Open Badge Factory "
+"API.</p><p>To generate the required API key, log in to <a "
+"href=\"https://openbadgefactory.com\">Open Badge Factory</a>,  in the "
+"'<i>Admin tools</i>' -page, open the '<i>API key</i>' -link, and click on "
+"'<i>Generate certificate signing request token</i>'. Copy the generated "
+"token into Moodle.</p>"
+msgstr ""
+
+#: $string['resetfilter']
+msgid "Reset filter"
+msgstr ""
+
+#: $string['reviewcriterionaftersave']
+msgid "Review rule after saving"
+msgstr ""
+
+#: $string['reviewcriterionaftersave_help']
+msgid ""
+"If this checkbox is checked, the rule will be reviewed after saving and if "
+"someone has already met this rule earlier, this badge will then be "
+"automatically awarded."
+msgstr ""
+
+#: $string['revoke']
+msgid "Revoke"
+msgstr ""
+
+#: $string['revokeuserbadges']
+msgid "Revoke user badges"
+msgstr ""
+
+#: $string['saveconfiguration']
+msgid "Continue"
+msgstr ""
+
+#: $string['savecriteria']
+msgctxt "$string['savecriteria']"
+msgid "Save"
+msgstr ""
+
+#: $string['savesettings']
+msgctxt "$string['savesettings']"
+msgid "Save"
+msgstr ""
+
+#: $string['selectactivity']
+msgid "Select activity"
+msgstr ""
+
+#: $string['selectatleastonerecipient']
+msgid "Select at least one recipient"
+msgstr ""
+
+#: $string['selectbadge']
+msgid "Select badge"
+msgstr ""
+
+#: $string['selectbadgestoexport']
+msgid "Select badges you want to export to Open Badge Factory"
+msgstr ""
+
+#: $string['selectcompletionmethod']
+msgid "Select completion method"
+msgstr ""
+
+#: $string['selectcompletionmethod_help']
+msgctxt "$string['selectcompletionmethod_help']"
+msgid "Select the method, by which the badge is earned."
+msgstr ""
+
+#: $string['selectcourses']
+msgid "Select courses"
+msgstr ""
+
+#: $string['selectcourses_help']
+msgid ""
+"Select courses that need to be completed to in order to receive this badge "
+"automatically."
+msgstr ""
+
+#: $string['selectcriteriatype']
+msgid "Select..."
+msgstr ""
+
+#: $string['selectcriteriatype_help']
+msgctxt "$string['selectcriteriatype_help']"
+msgid "Select the method, by which the badge is earned."
+msgstr ""
+
+#: $string['selectprogram']
+msgid "Valitse program"
+msgstr ""
+
+#: $string['selectrecipients']
+msgid "Select recipients"
+msgstr ""
+
+#: $string['settings']
+msgid "Settings"
+msgstr ""
+
+#: $string['settingssaved']
+msgid "Settings saved"
+msgstr ""
+
+#: $string['showassertion']
+msgid "Details"
+msgstr ""
+
+#: $string['showbadgecriteria']
+msgid "Open badge criteria"
+msgstr ""
+
+#: $string['showbadges']
+msgid "Show badges"
+msgstr ""
+
+#: $string['showbadgesonmyprofile']
+msgid "Show badges on profile page"
+msgstr ""
+
+#: $string['showcategories']
+msgid "Display badges from these categories:"
+msgstr ""
+
+#: $string['showconnectionconfig']
+msgid "I know it's working, let me change the token anyway."
+msgstr ""
+
+#: $string['showmorerecipients']
+msgid "more"
+msgstr ""
+
+#: $string['testbackpackapiurlexception']
+msgid ""
+"Error testing API via <a href=\"{$a->url}\">{$a->url}</a> ! Error-code: "
+"{$a->errorcode}."
+msgstr ""
+
+#: $string['toearnthisbadge']
+msgid "To earn this badge this course has to be completed"
+msgstr ""
+
+#: $string['tokendecryptionfailed']
+msgid ""
+"Decrypting the request token failed. Be sure to paste the certificate "
+"signing request token fully."
+msgstr ""
+
+#: $string['totaraprogram']
+msgid "Program"
+msgstr ""
+
+#: $string['totaraprogramexpiresbybadge']
+msgid "Expiry from badge properties"
+msgstr ""
+
+#: $string['totaraprogramexpiresbycertificate']
+msgid "Expiry from certificate properties"
+msgstr ""
+
+#: $string['totaraprogramselectexpires']
+msgid "Select which setting is used for awarded badges"
+msgstr ""
+
+#: $string['unknowncriterion']
+msgid "Incomplete criterion"
+msgstr ""
+
+#: $string['urlgroup']
+msgctxt "$string['urlgroup']"
+msgid "URL"
+msgstr ""
+
+#: $string['urlgroup_help']
+msgid ""
+"<p>If you are not using the default openbadgefactory.com server. Set the "
+"service address here.</p>"
+msgstr ""
+
+#: $string['userpreferences']
+msgid "User-settings"
+msgstr ""
+
+#: $string['userpreferencessaved']
+msgid "User-settings saved."
+msgstr ""
+
+#: $string['userscanmanagedisplayofbadges']
+msgid "Users can choose to display badges"
+msgstr ""
+
+#: $string['usersdisplaybadges']
+msgid "Display of user badges"
+msgstr ""
+
+#: $string['usersforcedtodisplaybadges']
+msgid "Badges are displayed on profile pages"
+msgstr ""
+
+#: $string['usersnotallowedtodisplaybadges']
+msgid "Badges are not displayed on profile pages"
+msgstr ""
+
+#: $string['verification_failed']
+msgid "Backpack verification failed. Reason: {$a}"
+msgstr ""
+
+#: $string['verifytoken']
+msgid "Token"
+msgstr ""
+
+#: $string['verifytokenbutton']
+msgid "Verify"
+msgstr ""
+
+#: $string['verifytokendescription']
+msgid ""
+"An email has been sent to the provided address. Check your email for a "
+"verification code."
+msgstr ""
+
+#: $string['warningcannoteditafterreview']
+msgid ""
+"Note that if the badge is awarded when these rules are being reviewed, the "
+"rule(s) cannot be edited anymore. Once the badge has been automatically "
+"awarded to at least one person, editing of the rules is prohibited. So make "
+"sure the rules are set correctly before reviewing."
+msgstr ""

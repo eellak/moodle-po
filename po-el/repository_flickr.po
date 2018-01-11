@@ -1,0 +1,123 @@
+#. extracted from lang/en/repository_flickr.php, lang/el/repository_flickr.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'repository_flickr', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   repository_flickr
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['apikey']
+msgid "API key"
+msgstr "Κλειδί API"
+
+#: $string['callbackurl']
+msgid "Callback URL"
+msgstr "Τοποθεσία Callback"
+
+#: $string['callbackurltext']
+msgid ""
+"<ol>\n"
+"<li>Visit <a href=\"http://www.flickr.com/services/api/keys/\">Flickr API "
+"Keys</a> again.</li>\n"
+"<li>Make sure you set the callback URL for this Flickr key as "
+"<strong>{$a}</strong></li></ol>"
+msgstr ""
+"<ol>\n"
+"<li>Επισκεφθείτε την σελίδα <a "
+"href=\"http://www.flickr.com/services/api/keys/\">Κλειδιά API του Flickr</a> "
+"ξανά.</li>\n"
+"<li>Σιγουρευτείτε οτι ρυθμίσατε την τοποθεσία callback για αυτό το κλειδί "
+"Flickr σε <strong>{$a}</strong></li></ol>"
+
+#: $string['callbackwarning']
+msgid ""
+"<ol>\n"
+"<li>Get a <a href=\"http://www.flickr.com/services/api/keys/\">Flickr API Key "
+"and Secret</a> from Flickr for this Moodle site.</li>\n"
+"<li>Enter those details here, then click Save and then Settings to come back "
+"to this page.  You will see that Moodle has generated a callback URL for "
+"you.</li>\n"
+"<li>Edit your <a href=\"http://www.flickr.com/services/api/keys/\">Flickr</a> "
+"key details again and set the callback URL.</li></ol>"
+msgstr ""
+"<ol>\n"
+"<li>Λάβετε ένα <a href=\"http://www.flickr.com/services/api/keys/\">Κλειδί API "
+"του Flickr και ένα Συνθηματικό</a> από το Flickr για αυτό τον ιστοχώρο "
+"Moodle.</li>\n"
+"<li>Εισάγετε αυτές τι πληροφορίες εδώ, και μετά κάντε κλικ στο Αποθήκευση "
+"και μετά στο Ρυθμίσεις για να επιστρέψετε σε αυτή τη σελίδα.  Θα δείτε οτι "
+"το Moodle θα έχει δημιουργήσει για εσάς μια τοποθεσία callback.</li>\n"
+"<li>Επεξεργαστείτε τις λεπτομέρειες του κλειδιού σας για το <a "
+"href=\"http://www.flickr.com/services/api/keys/\"></a> ξανά και ρυθμίστε την "
+"τοποθεσία callback.</li></ol>"
+
+#: $string['configplugin']
+msgid "Flickr configuration"
+msgstr "Ρύθμιση Flickr"
+
+#: $string['emailaddress']
+msgid "Email address"
+msgstr "Δι/νση Ηλεκτρονικού Ταχυδρομείου"
+
+#: $string['flickr:view']
+msgid "View Flickr repository"
+msgstr "Εμφάνιση του repository Flickr"
+
+#: $string['invalidemail']
+msgid "Invalid email address for flickr"
+msgstr "Μη έγκυρη δι/νση ηλεκτρονικού ταχυδρομείου για το flickr"
+
+#: $string['notitle']
+msgid "notitle"
+msgstr "Χωρίς Τίτλο"
+
+#: $string['nullphotolist']
+msgid "There are no photos in this account"
+msgstr "Δεν υπάρχουν φωτογραφίες σε αυτό το λογαριασμό"
+
+#: $string['pluginname']
+msgid "Flickr"
+msgstr "Flickr"
+
+#: $string['pluginname_help']
+msgid "Repository on flickr.com"
+msgstr "Χώρος Αποθήκευσης στο flickr.com"
+
+#: $string['remember']
+msgid "Remember me"
+msgstr "Να με θυμάσαι"
+
+#: $string['secret']
+msgid "Secret"
+msgstr "Συνθηματικό"
+
+#: $string['username']
+msgid "Flickr account email"
+msgstr "Δι/νση Ηλεκτρονικού Ταχυδρομείου του λογαριασμού στο Flickr"

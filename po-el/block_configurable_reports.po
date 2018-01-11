@@ -1,0 +1,1601 @@
+#. extracted from lang/en/block_configurable_reports.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_configurable_reports', language 'en', branch 'MOODLE_31_STABLE'
+#.  *
+#.  * @package   block_configurable_reports
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['activitypost']
+msgid "Activity posts"
+msgstr ""
+
+#: $string['activityview']
+msgid "Activity views"
+msgstr ""
+
+#: $string['addreport']
+msgid "Add report"
+msgstr ""
+
+#: $string['anyone']
+msgid "Anyone"
+msgstr ""
+
+#: $string['anyone_summary']
+msgid "Any user in the Campus will be able to view this report"
+msgstr ""
+
+#: $string['availablemarks']
+msgid "Available marks"
+msgstr ""
+
+#: $string['average']
+msgid "Average"
+msgstr ""
+
+#: $string['badconditionexpr']
+msgid "Incorrect condition expression"
+msgstr ""
+
+#: $string['badsize']
+msgid "Incorrect size, it must be in &#37; or px"
+msgstr ""
+
+#: $string['badtablewidth']
+msgid "Incorrect width, it must be in &#37; or absolute value"
+msgstr ""
+
+#: $string['bar']
+msgid "Bar"
+msgstr ""
+
+#: $string['barsummary']
+msgid "A bar graph"
+msgstr ""
+
+#: $string['blockname']
+msgctxt "$string['blockname']"
+msgid "Configurable Reports"
+msgstr ""
+
+#: $string['calcs']
+msgid "Calculations"
+msgstr ""
+
+#: $string['categories']
+msgid "Categories"
+msgstr ""
+
+#: $string['categoryfield']
+msgid "Category field"
+msgstr ""
+
+#: $string['categoryfieldorder']
+msgid "Category field order"
+msgstr ""
+
+#: $string['ccoursefield']
+msgid "Course field condition"
+msgstr ""
+
+#: $string['cellalign']
+msgid "Cell align"
+msgstr ""
+
+#: $string['cellsize']
+msgid "Cell size"
+msgstr ""
+
+#: $string['cellwrap']
+msgid "Cell wrap"
+msgstr ""
+
+#: $string['column']
+msgid "Column"
+msgstr ""
+
+#: $string['columnandcellproperties']
+msgid "Column and cell properties"
+msgstr ""
+
+#: $string['columncalculations']
+msgid "Column Calculations"
+msgstr ""
+
+#: $string['columns']
+msgctxt "$string['columns']"
+msgid "Columns"
+msgstr ""
+
+#: $string['comp_calcs']
+msgctxt "$string['comp_calcs']"
+msgid "Calcs"
+msgstr ""
+
+#: $string['comp_calcs_help']
+msgid ""
+"<p>Here you can add calculations for columns, i.e: average of number of "
+"users enrolled in courses</p>\n"
+"\n"
+"<p>More help: <a "
+"href=\"http://docs.moodle.org/en/blocks/configurable_reports/\" "
+"target=\"_blank\">Plugin documentation</a></p>"
+msgstr ""
+
+#: $string['comp_calculations']
+msgctxt "$string['comp_calculations']"
+msgid "Calcs"
+msgstr ""
+
+#: $string['comp_calculations_help']
+msgid ""
+"<p>Here you can add calculations for columns, i.e: average of number of "
+"users enrolled in courses</p>"
+msgstr ""
+
+#: $string['comp_columns']
+msgctxt "$string['comp_columns']"
+msgid "Columns"
+msgstr ""
+
+#: $string['comp_columns_help']
+msgid ""
+"<p>Here you can choose the different columns of your report depending on the "
+"type of report</p>\n"
+"\n"
+"<p>More help: <a "
+"href=\"http://docs.moodle.org/en/blocks/configurable_reports/\" "
+"target=\"_blank\">Plugin documentation</a></p>"
+msgstr ""
+
+#: $string['comp_conditions']
+msgctxt "$string['comp_conditions']"
+msgid "Conditions"
+msgstr ""
+
+#: $string['comp_conditions_help']
+msgid ""
+"<p>Here you can define the conditions (i.e, only courses from this category, "
+"only users from Spain, etc.. </p>\n"
+"\n"
+"<p>You can add a logical expression if you are using more than one "
+"condition.</p>\n"
+"\n"
+"<p>More help: <a "
+"href=\"http://docs.moodle.org/en/blocks/configurable_reports/\" "
+"target=\"_blank\">Plugin documentation</a></p>"
+msgstr ""
+
+#: $string['comp_customsql']
+msgctxt "$string['comp_customsql']"
+msgid "Custom SQL"
+msgstr ""
+
+#: $string['comp_customsql_help']
+msgid ""
+"<p>Add a working SQL query. Do no use the moodle database prefix "
+"$CFG->prefix instead use \"prefix_\" without quotes</p>\n"
+"<p>Example: SELECT * FROM prefix_course</p>\n"
+"\n"
+"<p>You can find a lot of SQL Reports here: <a "
+"href=\"http://docs.moodle.org/en/ad-hoc_contributed_reports\" target=\"_blank"
+"\">ad-hoc contributed reports</a></p>\n"
+"\n"
+"<p>Since this block supports Tim Hunt's CustomSQL Queries Reports, you can "
+"use any query.</p>\n"
+"\n"
+"<p>Remember to add a \"Time filter\" if you are going to use reports with time "
+"tokens. </p>\n"
+"\n"
+"<p>For using filters see: <a href=\"http://docs.moodle.org/en/blocks/configur"
+"able_reports/#Creating_a_SQL_Report\" target=\"_blank\">Creating a SQL Report "
+"Tutorial</a></p>"
+msgstr ""
+
+#: $string['comp_filters']
+msgctxt "$string['comp_filters']"
+msgid "Filters"
+msgstr ""
+
+#: $string['comp_filters_help']
+msgid ""
+"<p>Here you can choose which filters will be displayed</p>\n"
+"\n"
+"<p>A filter lets an user to choose columns from the report to filter the "
+"report results</p>\n"
+"\n"
+"<p>For using filters if your report type is SQL see: <a href=\"http://docs.mo"
+"odle.org/en/blocks/configurable_reports/#Creating_a_SQL_Report\" "
+"target=\"_blank\">Creating a SQL Report Tutorial</a></p>\n"
+"\n"
+"<p>More help: <a "
+"href=\"http://docs.moodle.org/en/blocks/configurable_reports/\" "
+"target=\"_blank\">Plugin documentation</a></p>"
+msgstr ""
+
+#: $string['componenthelp']
+msgid "Component help"
+msgstr ""
+
+#: $string['comp_ordering']
+msgctxt "$string['comp_ordering']"
+msgid "Ordering"
+msgstr ""
+
+#: $string['comp_ordering_help']
+msgid ""
+"<p>Here you can choose how to order the report using fields and "
+"directions</p>\n"
+"\n"
+"<p>More help: <a "
+"href=\"http://docs.moodle.org/en/blocks/configurable_reports/\" "
+"target=\"_blank\">Plugin documentation</a></p>"
+msgstr ""
+
+#: $string['comp_permissions']
+msgctxt "$string['comp_permissions']"
+msgid "Permissions"
+msgstr ""
+
+#: $string['comp_permissions_help']
+msgid ""
+"<p>Here you can choose who can view a report.</p>\n"
+"\n"
+"<p>You can add a logical expression to calculate the final permission if you "
+"are using more than one condition.</p>\n"
+"\n"
+"<p>More help: <a "
+"href=\"http://docs.moodle.org/en/blocks/configurable_reports/\" "
+"target=\"_blank\">Plugin documentation</a></p>"
+msgstr ""
+
+#: $string['comp_plot']
+msgid "Plot"
+msgstr ""
+
+#: $string['comp_plot_help']
+msgid ""
+"<p>Here you can add graphs to your report based on the report columns and "
+"values</p>\n"
+"\n"
+"<p>More help: <a "
+"href=\"http://docs.moodle.org/en/blocks/configurable_reports/\" "
+"target=\"_blank\">Plugin documentation</a></p>"
+msgstr ""
+
+#: $string['comp_template']
+msgctxt "$string['comp_template']"
+msgid "Template"
+msgstr ""
+
+#: $string['comp_template_help']
+msgid ""
+"<p>You can modify the report's layout by creating a template</p>\n"
+"\n"
+"<p>For creating a template see the replacemnet marks you can use in header, "
+"footer and for each report record using the help buttons or the information "
+"displayed in the same page.</p>\n"
+"\n"
+"<p>More help: <a "
+"href=\"http://docs.moodle.org/en/blocks/configurable_reports/\" "
+"target=\"_blank\">Plugin documentation</a></p>"
+msgstr ""
+
+#: $string['conditionexpr']
+msgctxt "$string['conditionexpr']"
+msgid "Condition"
+msgstr ""
+
+#: $string['conditionexpr_conditions']
+msgctxt "$string['conditionexpr_conditions']"
+msgid "Condition"
+msgstr ""
+
+#: $string['conditionexpr_conditions_help']
+msgctxt "$string['conditionexpr_conditions_help']"
+msgid ""
+"<p>You can combine conditions using a logic expression</p>\n"
+"\n"
+"<p>Enter a valid logic expression with these operators: and, or.</p>"
+msgstr ""
+
+#: $string['conditionexprhelp']
+msgid "Enter a valid condition i.e: (c1 and c2) or (c4 and c3)"
+msgstr ""
+
+#: $string['conditionexpr_permissions']
+msgctxt "$string['conditionexpr_permissions']"
+msgid "Condition"
+msgstr ""
+
+#: $string['conditionexpr_permissions_help']
+msgctxt "$string['conditionexpr_permissions_help']"
+msgid ""
+"<p>You can combine conditions using a logic expression</p>\n"
+"\n"
+"<p>Enter a valid logic expression with these operators: and, or.</p>"
+msgstr ""
+
+#: $string['conditions']
+msgctxt "$string['conditions']"
+msgid "Conditions"
+msgstr ""
+
+#: $string['configurable_reports:addinstance']
+msgid "Add a new configurable reports block"
+msgstr ""
+
+#: $string['configurable_reports:manageownreports']
+msgid "Manage own reports"
+msgstr ""
+
+#: $string['configurable_reports:managereports']
+msgctxt "$string['configurable_reports:managereports']"
+msgid "Manage reports"
+msgstr ""
+
+#: $string['configurable_reports:managesqlreports']
+msgid "Manage SQL reports"
+msgstr ""
+
+#: $string['configurable_reports:myaddinstance']
+msgid "Add a new configurable reports block to MY HOME page"
+msgstr ""
+
+#: $string['configurable_reports:viewreports']
+msgid "View reports"
+msgstr ""
+
+#: $string['confirmdeletereport']
+msgid "Are you sure you want to delete this report?"
+msgstr ""
+
+#: $string['coursecategories']
+msgctxt "$string['coursecategories']"
+msgid "Category course filter"
+msgstr ""
+
+#: $string['coursecategory']
+msgid "Course in category"
+msgstr ""
+
+#: $string['coursechild']
+msgid "Courses that are children of"
+msgstr ""
+
+#: $string['coursededicationtime']
+msgid "Course dedication time"
+msgstr ""
+
+#: $string['coursefield']
+msgid "Course field"
+msgstr ""
+
+#: $string['coursefieldorder']
+msgid "Course field order"
+msgstr ""
+
+#: $string['coursemodules']
+msgctxt "$string['coursemodules']"
+msgid "Course module"
+msgstr ""
+
+#: $string['courseparent']
+msgid "Courses whose parent is"
+msgstr ""
+
+#: $string['courses']
+msgctxt "$string['courses']"
+msgid "Courses"
+msgstr ""
+
+#: $string['coursestats']
+msgid "Course stats"
+msgstr ""
+
+#: $string['cron']
+msgid "Auto run daily"
+msgstr ""
+
+#: $string['crondescription']
+msgctxt "$string['crondescription']"
+msgid "Schedule this query to run each day (At night)"
+msgstr ""
+
+#: $string['cron_help']
+msgctxt "$string['cron_help']"
+msgid "Schedule this query to run each day (At night)"
+msgstr ""
+
+#: $string['crrepository']
+msgctxt "$string['crrepository']"
+msgid "Reports repository"
+msgstr ""
+
+#: $string['crrepositoryinfo']
+msgid ""
+"Remote shared repository with sample reports fully functional (Name of "
+"GitHub account owner + slash + repository name)"
+msgstr ""
+
+#: $string['currentreportcourse']
+msgid "Current report course"
+msgstr ""
+
+#: $string['currentreportcourse_summary']
+msgid "The course where the report has been created"
+msgstr ""
+
+#: $string['currentuser']
+msgid "Current user"
+msgstr ""
+
+#: $string['currentusercourses']
+msgid "Current user enrolled courses"
+msgstr ""
+
+#: $string['currentusercourses_summary']
+msgid "A list of the current users courses (only visible courses)"
+msgstr ""
+
+#: $string['currentuserfinalgrade']
+msgid "Current user final grade in course"
+msgstr ""
+
+#: $string['currentuserfinalgrade_summary']
+msgid "This column shows the final grade of the current user in the row-course"
+msgstr ""
+
+#: $string['currentuser_summary']
+msgid "The user that is viewing the report"
+msgstr ""
+
+#: $string['cuserfield']
+msgid "User field condition"
+msgstr ""
+
+#: $string['custom']
+msgid "Custom"
+msgstr ""
+
+#: $string['customdateformat']
+msgid "Custom date format"
+msgstr ""
+
+#: $string['customsql']
+msgctxt "$string['customsql']"
+msgid "Custom SQL"
+msgstr ""
+
+#: $string['datatables']
+msgid "Enable DataTables JS library"
+msgstr ""
+
+#: $string['datatables_emptytable']
+msgid "No data available in table"
+msgstr ""
+
+#: $string['datatables_first']
+msgid "First"
+msgstr ""
+
+#: $string['datatablesinfo']
+msgid "DataTables JS library (Column sort, fixed header, search, paging...)"
+msgstr ""
+
+#: $string['datatables_info']
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr ""
+
+#: $string['datatables_infoempty']
+msgid "Showing 0 to 0 of 0 entries"
+msgstr ""
+
+#: $string['datatables_infofiltered']
+msgid "(filtered from _MAX_ total entries)"
+msgstr ""
+
+#: $string['datatables_last']
+msgid "Last"
+msgstr ""
+
+#: $string['datatables_lengthmenu']
+msgid "Show _MENU_ entries"
+msgstr ""
+
+#: $string['datatables_loadingrecords']
+msgid "Loading..."
+msgstr ""
+
+#: $string['datatables_next']
+msgid "Next"
+msgstr ""
+
+#: $string['datatables_previous']
+msgid "Previous"
+msgstr ""
+
+#: $string['datatables_processing']
+msgid "Processing..."
+msgstr ""
+
+#: $string['datatables_search']
+msgid "Search:"
+msgstr ""
+
+#: $string['datatables_sortascending']
+msgid ": activate to sort column ascending"
+msgstr ""
+
+#: $string['datatables_sortdescending']
+msgid ": activate to sort column descending"
+msgstr ""
+
+#: $string['datatables_zerorecords']
+msgid "No matching records found"
+msgstr ""
+
+#: $string['date']
+msgid "Date"
+msgstr ""
+
+#: $string['dateformat']
+msgid "Date format"
+msgstr ""
+
+#: $string['dbhost']
+msgid "DB Host"
+msgstr ""
+
+#: $string['dbhostinfo']
+msgid ""
+"Remote Database host name (on which, we will be executing our SQL queries)"
+msgstr ""
+
+#: $string['dbname']
+msgid "DB Name"
+msgstr ""
+
+#: $string['dbnameinfo']
+msgid "Remote Database name (on which, we will be executing our SQL queries)"
+msgstr ""
+
+#: $string['dbpass']
+msgid "DB Password"
+msgstr ""
+
+#: $string['dbpassinfo']
+msgid "Remote Database password (for above username)"
+msgstr ""
+
+#: $string['dbuser']
+msgid "DB Username"
+msgstr ""
+
+#: $string['dbuserinfo']
+msgid "Remote Database username (should have SELECT privileges on above DB)"
+msgstr ""
+
+#: $string['decimals']
+msgid "Number of decimals"
+msgstr ""
+
+#: $string['direction']
+msgid "Direction"
+msgstr ""
+
+#: $string['disabled']
+msgid "Disabled"
+msgstr ""
+
+#: $string['displayglobalreports']
+msgid "Display global reports"
+msgstr ""
+
+#: $string['displayreportslist']
+msgid "Display the reports list in the block body"
+msgstr ""
+
+#: $string['donotshowtime']
+msgid "Do not show date information"
+msgstr ""
+
+#: $string['download']
+msgid "Download"
+msgstr ""
+
+#: $string['downloadreport']
+msgid "Download report"
+msgstr ""
+
+#: $string['email_message']
+msgid "Message"
+msgstr ""
+
+#: $string['email_send']
+msgid "Send"
+msgstr ""
+
+#: $string['email_subject']
+msgid "Subject"
+msgstr ""
+
+#: $string['enabled']
+msgid "Enabled"
+msgstr ""
+
+#: $string['enableglobal']
+msgid "This is a global report (accesible from any course)"
+msgstr ""
+
+#: $string['enablejsordering']
+msgid "Enable JavaScript ordering"
+msgstr ""
+
+#: $string['enablejspagination']
+msgid "Enable JavaScript Pagination"
+msgstr ""
+
+#: $string['endtime']
+msgid "End date"
+msgstr ""
+
+#: $string['enrolledstudents']
+msgid "Enrolled students"
+msgstr ""
+
+#: $string['error_field']
+msgid "Field not allowed"
+msgstr ""
+
+#: $string['error_operator']
+msgid "Operator not allowed"
+msgstr ""
+
+#: $string['error_value_expected_integer']
+msgid "Expected integer value"
+msgstr ""
+
+#: $string['excludedeletedusers']
+msgid "Exclude deleted users (only for SQL reports)"
+msgstr ""
+
+#: $string['executeat']
+msgid "Execute at"
+msgstr ""
+
+#: $string['executeatinfo']
+msgid ""
+"Moodle CRON will run scheduled SQL queries after selected time. Once in 24h"
+msgstr ""
+
+#: $string['export_csv']
+msgid "Export in CSV format"
+msgstr ""
+
+#: $string['export_ods']
+msgid "Export in ODS format"
+msgstr ""
+
+#: $string['exportoptions']
+msgid "Export options"
+msgstr ""
+
+#: $string['exportreport']
+msgid "Export report"
+msgstr ""
+
+#: $string['export_xls']
+msgid "Export in XLS format"
+msgstr ""
+
+#: $string['fcoursefield']
+msgid "Course field filter"
+msgstr ""
+
+#: $string['field']
+msgid "Field"
+msgstr ""
+
+#: $string['filter']
+msgid "Filter"
+msgstr ""
+
+#: $string['filter_all']
+msgid "All"
+msgstr ""
+
+#: $string['filter_apply']
+msgid "Apply"
+msgstr ""
+
+#: $string['filtercategories']
+msgid "Filter categories"
+msgstr ""
+
+#: $string['filtercategories_summary']
+msgid "To filter by category"
+msgstr ""
+
+#: $string['filtercoursecategories']
+msgctxt "$string['filtercoursecategories']"
+msgid "Category course filter"
+msgstr ""
+
+#: $string['filtercoursecategories_summary']
+msgid "Filter courses by their any parent category"
+msgstr ""
+
+#: $string['filtercoursemodules']
+msgctxt "$string['filtercoursemodules']"
+msgid "Course module"
+msgstr ""
+
+#: $string['filtercoursemodules_summary']
+msgid "Filter course modules"
+msgstr ""
+
+#: $string['filtercourses']
+msgctxt "$string['filtercourses']"
+msgid "Courses"
+msgstr ""
+
+#: $string['filtercourses_summary']
+msgid ""
+"This filter shows a list of courses. Only one course can be selected at the "
+"same time"
+msgstr ""
+
+#: $string['filterenrolledstudents']
+msgid "Enrolled course students"
+msgstr ""
+
+#: $string['filterenrolledstudents_summary']
+msgid "Filter a user (by id) from enrolled course students"
+msgstr ""
+
+#: $string['filterrole']
+msgid "role"
+msgstr ""
+
+#: $string['filterrole_summary']
+msgid "Filter system Roles (Teacher, Student, ...)"
+msgstr ""
+
+#: $string['filters']
+msgctxt "$string['filters']"
+msgid "Filters"
+msgstr ""
+
+#: $string['filter_searchtext']
+msgctxt "$string['filter_searchtext']"
+msgid "Search text"
+msgstr ""
+
+#: $string['filter_searchtext_summary']
+msgid "Free text filter"
+msgstr ""
+
+#: $string['filtersemester']
+msgctxt "$string['filtersemester']"
+msgid "Semester (Hebrew)"
+msgstr ""
+
+#: $string['filtersemester_list']
+msgid "סמסטר א,סמסטר ב,סמסטר ג,סמינריון"
+msgstr ""
+
+#: $string['filtersemester_summary']
+msgid "מאפשר סינון לפני סמסטרים (בעברית, למשל: סמסטר א,סמסטר ב)"
+msgstr ""
+
+#: $string['filterstartendtime_summary']
+msgctxt "$string['filterstartendtime_summary']"
+msgid "Start / End date filter"
+msgstr ""
+
+#: $string['filtersubcategories']
+msgctxt "$string['filtersubcategories']"
+msgid "Category (Include sub categories)"
+msgstr ""
+
+#: $string['filtersubcategories_summary']
+msgid "Use: %%FILTER_SUBCATEGORIES:mdl_course_category.path%%"
+msgstr ""
+
+#: $string['filteruser']
+msgid "Current course user"
+msgstr ""
+
+#: $string['filterusers']
+msgid "System user"
+msgstr ""
+
+#: $string['filterusers_summary']
+msgid "Filter a user (by id) from system user list"
+msgstr ""
+
+#: $string['filteruser_summary']
+msgid "Filter a user (id) from current course users"
+msgstr ""
+
+#: $string['filteryearhebrew']
+msgctxt "$string['filteryearhebrew']"
+msgid "Year (Hebrew)"
+msgstr ""
+
+#: $string['filteryearhebrew_list']
+msgid "תשע,תשעא,תשעב,תשעג,תשעד,תשעה"
+msgstr ""
+
+#: $string['filteryearhebrew_summary']
+msgid "Filter is using Hebrew years (תשעג,...)"
+msgstr ""
+
+#: $string['filteryearnumeric']
+msgctxt "$string['filteryearnumeric']"
+msgid "Year (Numeric)"
+msgstr ""
+
+#: $string['filteryearnumeric_summary']
+msgid "Filter is using numeric years (2013,...)"
+msgstr ""
+
+#: $string['filteryears']
+msgctxt "$string['filteryears']"
+msgid "Year (Numeric)"
+msgstr ""
+
+#: $string['filteryears_list']
+msgid "2010,2011,2012,2013,2014,2015"
+msgstr ""
+
+#: $string['filteryears_summary']
+msgid "Filter by years (numeric representation, 2012...)"
+msgstr ""
+
+#: $string['finalgradeincurrentcourse']
+msgid "Final grade in current course"
+msgstr ""
+
+#: $string['fixeddate']
+msgid "Fixed date"
+msgstr ""
+
+#: $string['footer']
+msgid "Footer"
+msgstr ""
+
+#: $string['forcemidnight']
+msgid "Force midnight"
+msgstr ""
+
+#: $string['fsearchuserfield']
+msgid "User field search box"
+msgstr ""
+
+#: $string['fuserfield']
+msgid "User field filter"
+msgstr ""
+
+#: $string['global']
+msgid "Global report"
+msgstr ""
+
+#: $string['global_help']
+msgid ""
+"Global report can be accessed from any course in the platform just appending "
+"&courseid=MY_COURSE_ID in the report URL"
+msgstr ""
+
+#: $string['globalstatsshouldbeenabled']
+msgid "Site statistics must be enabled. Go to Admin -> Server -> Statistics"
+msgstr ""
+
+#: $string['groupseries']
+msgid "Group series"
+msgstr ""
+
+#: $string['groupvalues']
+msgid "Group same values (sum)"
+msgstr ""
+
+#: $string['head_color']
+msgid "Graph background color"
+msgstr ""
+
+#: $string['head_data']
+msgid "Graph data"
+msgstr ""
+
+#: $string['header']
+msgid "Header"
+msgstr ""
+
+#: $string['head_size']
+msgid "Graph size"
+msgstr ""
+
+#: $string['height']
+msgid "Height"
+msgstr ""
+
+#: $string['importfromrepository']
+msgid "Import report from repository"
+msgstr ""
+
+#: $string['importreport']
+msgid "Import report"
+msgstr ""
+
+#: $string['includesubcats']
+msgid "Include subcategories"
+msgstr ""
+
+#: $string['jsordering']
+msgid "JavaScript Ordering"
+msgstr ""
+
+#: $string['jsordering_help']
+msgid ""
+"JavaScript Ordering allow you to order the report table without reloading "
+"the page"
+msgstr ""
+
+#: $string['label_field']
+msgid "Label field"
+msgstr ""
+
+#: $string['label_field_help']
+msgid "The field that provides names for the things represented in the graph"
+msgstr ""
+
+#: $string['lastexecutiontime']
+msgid "Execution time = {$a} (Sec)"
+msgstr ""
+
+#: $string['legacylognotenabled']
+msgid ""
+"Legacy logs must be enabled.\n"
+" Go to Site administration / Plugins / Logging Enable the Legacy log and "
+"inside the log settings check Log legacy data"
+msgstr ""
+
+#: $string['limitcategories']
+msgid "Limit categories in a graph"
+msgstr ""
+
+#: $string['line']
+msgid "Line graph"
+msgstr ""
+
+#: $string['linesummary']
+msgid "A line graph with multiple series of data"
+msgstr ""
+
+#: $string['listofsqlreports']
+msgid ""
+"Press F11 when cursor is in the editor to toggle full screen editing. Esc "
+"can also be used to exit full screen editing.<br/><br/><a "
+"href=\"http://docs.moodle.org/en/ad-hoc_contributed_reports\" "
+"target=\"_blank\">List of SQL Contributed reports</a>"
+msgstr ""
+
+#: $string['managereports']
+msgctxt "$string['managereports']"
+msgid "Manage reports"
+msgstr ""
+
+#: $string['max']
+msgid "Maximum"
+msgstr ""
+
+#: $string['min']
+msgid "Minimum"
+msgstr ""
+
+#: $string['missingcolumn']
+msgid "A column is required"
+msgstr ""
+
+#: $string['module']
+msgid "Module"
+msgstr ""
+
+#: $string['newreport']
+msgid "New report"
+msgstr ""
+
+#: $string['nocalcsyet']
+msgid "No calculations yet"
+msgstr ""
+
+#: $string['nocolumnsyet']
+msgid "No columns yet"
+msgstr ""
+
+#: $string['noconditionsyet']
+msgid "No conditions yet"
+msgstr ""
+
+#: $string['noexplicitprefix']
+msgid "No explicit prefix"
+msgstr ""
+
+#: $string['nofiltersyet']
+msgctxt "$string['nofiltersyet']"
+msgid "No filters yet"
+msgstr ""
+
+#: $string['nofilteryet']
+msgctxt "$string['nofilteryet']"
+msgid "No filters yet"
+msgstr ""
+
+#: $string['noorderingyet']
+msgid "No ordering yet"
+msgstr ""
+
+#: $string['nopermissionsyet']
+msgid "No permissions yet"
+msgstr ""
+
+#: $string['noplotyet']
+msgid "No plots yet"
+msgstr ""
+
+#: $string['norecordsfound']
+msgid "No records found"
+msgstr ""
+
+#: $string['noreportsavailable']
+msgid "No reports available"
+msgstr ""
+
+#: $string['norowsreturned']
+msgid "No rows returned"
+msgstr ""
+
+#: $string['nosemicolon']
+msgid "No semicolon"
+msgstr ""
+
+#: $string['notallowedwords']
+msgid "Not allowed words"
+msgstr ""
+
+#: $string['operator']
+msgid "Operator"
+msgstr ""
+
+#: $string['ordering']
+msgctxt "$string['ordering']"
+msgid "Ordering"
+msgstr ""
+
+#: $string['others']
+msgid "Others"
+msgstr ""
+
+#: $string['pagination']
+msgid "Pagination"
+msgstr ""
+
+#: $string['pagination_help']
+msgid "Number of records to show in each page. Zero means no pagination"
+msgstr ""
+
+#: $string['parentcategory']
+msgid "Parent category"
+msgstr ""
+
+#: $string['permissions']
+msgctxt "$string['permissions']"
+msgid "Permissions"
+msgstr ""
+
+#: $string['pie']
+msgid "Pie"
+msgstr ""
+
+#: $string['pieareaname']
+msgid "Name"
+msgstr ""
+
+#: $string['pieareavalue']
+msgctxt "$string['pieareavalue']"
+msgid "Value"
+msgstr ""
+
+#: $string['piesummary']
+msgid "A pie graph"
+msgstr ""
+
+#: $string['plot']
+msgid "Plot - Graphs"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Configurable Reports"
+msgstr ""
+
+#: $string['previousdays']
+msgid "Previous days"
+msgstr ""
+
+#: $string['previousend']
+msgid "Previous end"
+msgstr ""
+
+#: $string['previousstart']
+msgid "Previous start"
+msgstr ""
+
+#: $string['printreport']
+msgid "Print report"
+msgstr ""
+
+#: $string['puserfield']
+msgid "User field value"
+msgstr ""
+
+#: $string['puserfield_summary']
+msgid "User with the selected value in the selected field"
+msgstr ""
+
+#: $string['queryfailed']
+msgid "Query failed <code><pre>{$a}</pre></code>"
+msgstr ""
+
+#: $string['querysql']
+msgid "SQL Query"
+msgstr ""
+
+#: $string['remote']
+msgid "Run on remote db"
+msgstr ""
+
+#: $string['remotedescription']
+msgctxt "$string['remotedescription']"
+msgid "Do you want to run this query on the remote db"
+msgstr ""
+
+#: $string['remote_help']
+msgctxt "$string['remote_help']"
+msgid "Do you want to run this query on the remote db"
+msgstr ""
+
+#: $string['remotequerysql']
+msgid "SQL query"
+msgstr ""
+
+#: $string['report']
+msgid "Report"
+msgstr ""
+
+#: $string['reportcategories']
+msgid "1) Choose a remote report categories"
+msgstr ""
+
+#: $string['report_categories']
+msgid "Categories report"
+msgstr ""
+
+#: $string['reportcolumn']
+msgid "Other report column"
+msgstr ""
+
+#: $string['report_courses']
+msgid "Courses report"
+msgstr ""
+
+#: $string['reportcreated']
+msgid "Report successfully created"
+msgstr ""
+
+#: $string['reportlimit']
+msgid "Report row limit"
+msgstr ""
+
+#: $string['reportlimitinfo']
+msgid ""
+"Limit the number of rows that are displayed in the report table (Default is "
+"5000 rows. Better to have some limit, so users will not over load the DB "
+"engine)"
+msgstr ""
+
+#: $string['reports']
+msgid "Reports"
+msgstr ""
+
+#: $string['reportscapabilities']
+msgid "Report Capabilities"
+msgstr ""
+
+#: $string['reportscapabilities_summary']
+msgid "Users with the capability moodle/site:viewreports enabled"
+msgstr ""
+
+#: $string['reportsincategory']
+msgid "2) Choose a report form the list"
+msgstr ""
+
+#: $string['report_sql']
+msgid "SQL Report"
+msgstr ""
+
+#: $string['reporttable']
+msgid "Report table"
+msgstr ""
+
+#: $string['reporttable_help']
+msgid ""
+"<p>This is the width of the table that will display the report records.</p>\n"
+"\n"
+"<p>If you use a Template this option has no effect</p>"
+msgstr ""
+
+#: $string['reporttableui']
+msgid "Report table UI"
+msgstr ""
+
+#: $string['reporttableuiinfo']
+msgid ""
+"Display the report table as: Simple scrollable HTML table, jQuery with "
+"column sorting Or DataTables JS library (Column sort, fixed header, search, "
+"paging...)"
+msgstr ""
+
+#: $string['report_timeline']
+msgid "Timeline report"
+msgstr ""
+
+#: $string['report_users']
+msgid "Users report"
+msgstr ""
+
+#: $string['repository']
+msgctxt "$string['repository']"
+msgid "Reports repository"
+msgstr ""
+
+#: $string['repository_help']
+msgid ""
+"You can import sample reports from a public shared repository.\n"
+"\n"
+"Please, notice that there is a daily limit of calls to the repository.\n"
+"\n"
+"If the connection to the repository is not working, you can download "
+"manually here <a href=\"https://github.com/jleyva/moodle-"
+"configurable_reports_repository\" target=\"_blank\">https://github.com/jleyva"
+"/moodle-configurable_reports_repository</a> a report and then import it "
+"using the \"Import report\" feature displayed bellow"
+msgstr ""
+
+#: $string['role']
+msgid "Role"
+msgstr ""
+
+#: $string['roleincourse']
+msgid "User with the selected role/s in the current report course"
+msgstr ""
+
+#: $string['roleusersn']
+msgid "Number of users with role..."
+msgstr ""
+
+#: $string['searchtext']
+msgctxt "$string['searchtext']"
+msgid "Search text"
+msgstr ""
+
+#: $string['semester']
+msgctxt "$string['semester']"
+msgid "Semester (Hebrew)"
+msgstr ""
+
+#: $string['serieid']
+msgid "Serie column"
+msgstr ""
+
+#: $string['sessionlimittime']
+msgid "Limit between clicks (in minutes)"
+msgstr ""
+
+#: $string['sessionlimittime_help']
+msgid ""
+"The limit between clicks defines if two clicks are part of the same session "
+"or not"
+msgstr ""
+
+#: $string['setcourseid']
+msgid "Set courseid"
+msgstr ""
+
+#: $string['sharedsqlrepository']
+msgid "Shared sql repository"
+msgstr ""
+
+#: $string['sharedsqlrepositoryinfo']
+msgid "Name of GitHub account owner + slash + repository name"
+msgstr ""
+
+#: $string['sqlsecurity']
+msgid "SQL Security"
+msgstr ""
+
+#: $string['sqlsecurityinfo']
+msgid "Disable for executing SQL queries with statements for inserting data"
+msgstr ""
+
+#: $string['sqlsyntaxhighlight']
+msgid "Highlight SQL syntax"
+msgstr ""
+
+#: $string['sqlsyntaxhighlightinfo']
+msgid "Highlight SQL syntax in code editor (CodeMirror JS library)"
+msgstr ""
+
+#: $string['startendtime']
+msgctxt "$string['startendtime']"
+msgid "Start / End date filter"
+msgstr ""
+
+#: $string['starttime']
+msgid "Start date"
+msgstr ""
+
+#: $string['stat']
+msgid "Statistic"
+msgstr ""
+
+#: $string['statsactiveenrolments']
+msgid "Active (last week) enrolments"
+msgstr ""
+
+#: $string['statslogins']
+msgid "Logins in the platform"
+msgstr ""
+
+#: $string['statstotalenrolments']
+msgid "Total enrolments"
+msgstr ""
+
+#: $string['student']
+msgid "Student"
+msgstr ""
+
+#: $string['subcategories']
+msgctxt "$string['subcategories']"
+msgid "Category (Include sub categories)"
+msgstr ""
+
+#: $string['sum']
+msgid "Sum"
+msgstr ""
+
+#: $string['tablealign']
+msgid "Table align"
+msgstr ""
+
+#: $string['tablecellpadding']
+msgid "Table cellpadding"
+msgstr ""
+
+#: $string['tablecellspacing']
+msgid "Table cellspacing"
+msgstr ""
+
+#: $string['tableclass']
+msgid "Table class"
+msgstr ""
+
+#: $string['tablewidth']
+msgid "Table width"
+msgstr ""
+
+#: $string['template']
+msgctxt "$string['template']"
+msgid "Template"
+msgstr ""
+
+#: $string['template_marks']
+msgid "Template marks"
+msgstr ""
+
+#: $string['template_marks_help']
+msgid ""
+"<p>You can use any of this replacement marks:</p>\n"
+"\n"
+"<ul>\n"
+"<li>##reportname## - For including the report name</li>\n"
+"<li>##reportsummary## - For including the reports summary</li>\n"
+"<li>##graphs## - For including the graphs</li>\n"
+"<li>##exportoptions## - For including the export options</li>\n"
+"<li>##calculationstable## - For including the calculations table</li>\n"
+"<li>##pagination## - For including the pagination </li>\n"
+"\n"
+"</ul>"
+msgstr ""
+
+#: $string['templaterecord']
+msgid "Record template"
+msgstr ""
+
+#: $string['timeinterval']
+msgid "Time interval"
+msgstr ""
+
+#: $string['timeline']
+msgid "Timeline"
+msgstr ""
+
+#: $string['timemode']
+msgid "Time mode"
+msgstr ""
+
+#: $string['totalrecords']
+msgid "Total record count = {$a->totalrecords}"
+msgstr ""
+
+#: $string['type']
+msgctxt "$string['type']"
+msgid "Type of report"
+msgstr ""
+
+#: $string['typeofreport']
+msgctxt "$string['typeofreport']"
+msgid "Type of report"
+msgstr ""
+
+#: $string['typeofreport_help']
+msgid ""
+"Choose the type of report you want to create.\n"
+"For security, SQL Report requires an additional capability"
+msgstr ""
+
+#: $string['user']
+msgid "Course user (id)"
+msgstr ""
+
+#: $string['usercompletion']
+msgid "User course completion status"
+msgstr ""
+
+#: $string['usercompletionsummary']
+msgid "Course completion status"
+msgstr ""
+
+#: $string['userfield']
+msgid "User profile field"
+msgstr ""
+
+#: $string['userfieldorder']
+msgid "User field order"
+msgstr ""
+
+#: $string['usermodactions']
+msgid "User module actions"
+msgstr ""
+
+#: $string['usermodoutline']
+msgid "User module outline stats"
+msgstr ""
+
+#: $string['users']
+msgid "System user (id)"
+msgstr ""
+
+#: $string['usersincohorts']
+msgid "User who are member of a/several cohorts"
+msgstr ""
+
+#: $string['usersincohorts_summary']
+msgid "Only the users who are members of the selected cohorts"
+msgstr ""
+
+#: $string['usersincoursereport']
+msgctxt "$string['usersincoursereport']"
+msgid "Any user in the current report course"
+msgstr ""
+
+#: $string['usersincoursereport_summary']
+msgctxt "$string['usersincoursereport_summary']"
+msgid "Any user in the current report course"
+msgstr ""
+
+#: $string['usersincurrentcourse']
+msgid "Users in current report course"
+msgstr ""
+
+#: $string['usersincurrentcourse_summary']
+msgid "Users with the role/s selected in the report course"
+msgstr ""
+
+#: $string['userstats']
+msgid "User statistics"
+msgstr ""
+
+#: $string['value']
+msgctxt "$string['value']"
+msgid "Value"
+msgstr ""
+
+#: $string['value_fields']
+msgid "Value fields"
+msgstr ""
+
+#: $string['value_fields_help']
+msgid ""
+"Fields that should be represented in the graph. Ctrl+click (Cmd+click on "
+"Mac) to select multiple. If you select the Label field or a field with non-"
+"numeric values it will be ignored"
+msgstr ""
+
+#: $string['viewreport']
+msgid "View report"
+msgstr ""
+
+#: $string['width']
+msgid "Width"
+msgstr ""
+
+#: $string['xandynotequal']
+msgid "X and Y axis need to be different"
+msgstr ""
+
+#: $string['xaxis']
+msgid "X Axis"
+msgstr ""
+
+#: $string['yaxis']
+msgid "Y Axis"
+msgstr ""
+
+#: $string['yearhebrew']
+msgctxt "$string['yearhebrew']"
+msgid "Year (Hebrew)"
+msgstr ""
+
+#: $string['yearnumeric']
+msgctxt "$string['yearnumeric']"
+msgid "Year (Numeric)"
+msgstr ""
+
+#: $string['years']
+msgctxt "$string['years']"
+msgid "Year (Numeric)"
+msgstr ""
+
+#: $string['youmustselectarole']
+msgid "At least a role is required"
+msgstr ""

@@ -1,0 +1,589 @@
+#. extracted from lang/en/swf.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'swf', language 'en', branch 'MOODLE_25_STABLE'
+#.  *
+#.  * @package   swf
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['allowfullscreen']
+msgid "Allow Full Screen"
+msgstr ""
+
+#: $string['allownetworking']
+msgid "Allow Networking"
+msgstr ""
+
+#: $string['allowscriptaccess']
+msgid "Allow Script Access"
+msgstr ""
+
+#: $string['apikey']
+msgid "API Key"
+msgstr ""
+
+#: $string['attempts']
+msgid "Attempts"
+msgstr ""
+
+#: $string['average']
+msgid "Average"
+msgstr ""
+
+#: $string['bgcolor']
+msgid "Flash Background Color"
+msgstr ""
+
+#: $string['broken1']
+msgid "There is a problem"
+msgstr ""
+
+#: $string['broken2']
+msgid ""
+"This application has not displayed correctly for one or more of the "
+"following reasons:"
+msgstr ""
+
+#: $string['broken3']
+msgid "The application requires Flash Player"
+msgstr ""
+
+#: $string['broken31']
+msgid "to be installed in your browser,"
+msgstr ""
+
+#: $string['broken4']
+msgid "the application requires Javascript to be enabled in your browser,"
+msgstr ""
+
+#: $string['broken5']
+msgid "or the URL to this application is incorrect."
+msgstr ""
+
+#: $string['broken6']
+msgid "Which version of Flash do I have installed?"
+msgstr ""
+
+#: $string['broken7']
+msgid ""
+"Click on the Flash Player logo below to check your browser's Flash Player "
+"version:"
+msgstr ""
+
+#: $string['broken8']
+msgid "Find my Flash Player version"
+msgstr ""
+
+#: $string['configxml']
+msgid "Config XML File"
+msgstr ""
+
+#: $string['configxml_help']
+msgid "Some apps can load files to configure their appearance and behaviour."
+msgstr ""
+
+#: $string['content_dir']
+msgid "Multimedia Content Directory"
+msgstr ""
+
+#. /*/
+#: $string['content_dir_explain']
+msgid ""
+"A directory that must be set up in Site Administration > Plugins > "
+"Repositories > Manage repositories.\n"
+"    Enable File system and add a directory, e.g. "
+"/moodledata/repository/swfcontent/.\n"
+"    This will allow uploading files through Moodle's file manager, as well "
+"as FTP.\n"
+"    These files can then be accessed by Flash apps through "
+"/moodle/mod/swf/file.php with the respective paths and filenames passed in "
+"through FlashVars, SMIL, and/or XML.\n"
+"    This provides native support for XML driven multimedia learning "
+"interactions.\n"
+"    The SWF Activity Module automatically searches for .xml and .smil files "
+"in /moodledata/repository/swfcontent/*/xml/*.xml and *.smil and lists them "
+"in swf/mod_form.php."
+msgstr ""
+
+#: $string['disablegradehistory']
+msgid ""
+"Notice: Grade history has been disabled. Only final grades will be updated "
+"from now on."
+msgstr ""
+
+#: $string['download']
+msgid "Download video/audio"
+msgstr ""
+
+#: $string['downloadrightclick']
+msgid "Right click to download video/audio"
+msgstr ""
+
+#: $string['duration']
+msgid "Duration"
+msgstr ""
+
+#: $string['durationhistory']
+msgid "Duration History"
+msgstr ""
+
+#: $string['exiturl']
+msgid "Exit URL"
+msgstr ""
+
+#: $string['exiturl_help']
+msgid ""
+"Some Flash apps may use this setting to navigate to a new page when the "
+"activity has been completed/finished or to open a new browser page for "
+"further information, e.g. a help page."
+msgstr ""
+
+#: $string['feedback']
+msgid "Feedback"
+msgstr ""
+
+#: $string['fileurl']
+msgid "File Manager"
+msgstr ""
+
+#: $string['fileurl_help']
+msgid ""
+"Pass in a file from Moodle's file manager.\n"
+"\n"
+"Please note that if you pass in a file from a File system repository, it "
+"will be copied to Moodle's main file storage area. Edits to the file in File "
+"system must be updated by deleting the copy in the file manager and "
+"redeploying it, i.e.\n"
+"\n"
+"* Edit file in File system (on your computer, then upload via FTP),\n"
+"* Delete copy of file in File manager,\n"
+"* Select edited file in File system again."
+msgstr ""
+
+#: $string['finalgrade']
+msgid "Final Grade"
+msgstr ""
+
+#: $string['friday']
+msgid "Fri"
+msgstr ""
+
+#: $string['grade']
+msgid "Grade"
+msgstr ""
+
+#: $string['grade_accessed']
+msgid "Grade(s) successfully accessed."
+msgstr ""
+
+#: $string['gradebook']
+msgid "Grades"
+msgstr ""
+
+#: $string['gradebook_title']
+msgid "Go to grade book"
+msgstr ""
+
+#: $string['gradeedit1']
+msgid "Save and return to course"
+msgstr ""
+
+#: $string['gradeedit2']
+msgid "Go to Course administration > Grades > Grader report"
+msgstr ""
+
+#: $string['gradeedit3']
+msgid "Turn editing on"
+msgstr ""
+
+#: $string['gradeedit4']
+msgid "Edit swf grade item (in \"Controls\" table row)"
+msgstr ""
+
+#: $string['gradeedit5']
+msgid "Click \"Show more...\" to see all options"
+msgstr ""
+
+#: $string['gradeedit6']
+msgid "You can edit grade settings in this way at any time."
+msgstr ""
+
+#: $string['gradeeditintro']
+msgid "Pass grade set to 0 by default"
+msgstr ""
+
+#: $string['gradehistory']
+msgid "Grade History"
+msgstr ""
+
+#: $string['grade_no_item']
+msgid "Grade item does not exist."
+msgstr ""
+
+#: $string['grade_no_permission']
+msgid "You do not have permission to access grades."
+msgstr ""
+
+#: $string['grade_saved']
+msgid "Your grade has been sent to the grade book."
+msgstr ""
+
+#: $string['header_swf']
+msgid "Learning Content"
+msgstr ""
+
+#: $string['heatmap']
+msgid "SWF Activity Heatmap"
+msgstr ""
+
+#: $string['height']
+msgid "Height"
+msgstr ""
+
+#: $string['img_no_permission']
+msgid "You do not have permission to save images."
+msgstr ""
+
+#: $string['img_not_saved']
+msgid "There was a problem. Your image was not saved."
+msgstr ""
+
+#: $string['img_not_writeable']
+msgid "is not writeable."
+msgstr ""
+
+#: $string['img_saved']
+msgid "Your image was successfully saved."
+msgstr ""
+
+#: $string['installed_apps_dir']
+msgid "Installed Apps Directory"
+msgstr ""
+
+#: $string['installed_apps_dir_explain']
+msgid ""
+"A standard directory where Flash apps are stored.\n"
+"    The SWF Activity Module searches this directory for any Flash files and "
+"lists them in swf/mod_form.php.\n"
+"    If your Moodle installation is in a subdirectory or a subdomain, you "
+"will need to edit this: e.g. for http://example.com/moodle/ (or "
+"http://moodle.example.com/ where the subdomain is in /moodle/) change "
+"/home/sites/example.com/mod/swf/swfs/ to "
+"/home/sites/example.com/moodle/mod/swf/swfs/"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "SWF"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"<a href=\"http://code.google.com/p/swf-activity-module/\" target=\"_blank\">The "
+"SWF Activity Module</a> deploys Flash learning applications in Moodle. 3rd "
+"party Flash apps can be installed and it supports XML, SMIL and other "
+"external data and media driven learning applications. See the <a "
+"href=\"http://code.google.com/p/swf-activity-module/\" target=\"_blank\">SWF "
+"Activity Module</a> project site for details.\n"
+"\n"
+"Developed by Matt Bury <a href=\"http://matbury.com/\" "
+"target=\"_blank\">matbury.com</a>"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "SWFs"
+msgstr ""
+
+#: $string['monday']
+msgid "Mon"
+msgstr ""
+
+#: $string['namepair']
+msgid "Name"
+msgstr ""
+
+#: $string['namepair_help']
+msgid ""
+"Useful examples of name value pairs...\n"
+"\n"
+"Provide word lists for Word search MILA:\n"
+"\n"
+"* Learning App: swfs/smil_word_search.swf\n"
+"* Name: words\n"
+"* Value: dog,cat,chicken,horse,beaver,platypus,kangaroo,mouse,etc.\n"
+"\n"
+"Enable learners to input paragraphs into C-Test MILA:\n"
+"\n"
+"* Learning App: swfs/smil_c_test.swf\n"
+"* Name: input\n"
+"* Value: true\n"
+"\n"
+"Set higher difficulty level for Quick typing MILA:\n"
+"\n"
+"* Learning App: swfs/smil_quick_typing.swf\n"
+"* Name: difficulty\n"
+"* Value: 0.8\n"
+"\n"
+"For StrobeMediaPlayback:\n"
+"\n"
+"* Learning App: swfs/StrobeMediaPlayback.swf\n"
+"* Name: src\n"
+"* Value: http://download.ted.com/talks/PaoloCardini_2012G-480p.mp4\n"
+"\n"
+"* Learning App: swfs/StrobeMediaPlayback.swf\n"
+"* Plugin: Strobe YouTube\n"
+"* Name: src\n"
+"* Value: https://www.youtube.com/watch?v=ttYapXJRFF4\n"
+"\n"
+"* Learning App: swfs/StrobeMediaPlayback.swf\n"
+"* Plugin: Strobe SMIL\n"
+"* Name: src\n"
+"* Value: "
+"http://mediapm.edgesuite.net/osmf/content/test/smil/elephants_dream.smil\n"
+"\n"
+"JW Player:\n"
+"\n"
+"* Learning App: swfs/player.swf\n"
+"* Name: file\n"
+"* Value: http://download.ted.com/talks/PaoloCardini_2012G-480p.mp4"
+msgstr ""
+
+#: $string['nofile']
+msgid "None"
+msgstr ""
+
+#: $string['nograde']
+msgid "No Grade"
+msgstr ""
+
+#: $string['nohtml5']
+msgid "Your browser does not support the <code>video</code> element."
+msgstr ""
+
+#: $string['noswfs']
+msgid "There are no SWF activities"
+msgstr ""
+
+#: $string['notpassed']
+msgid "Not Passed"
+msgstr ""
+
+#: $string['pagecolor']
+msgid "Page Background Color"
+msgstr ""
+
+#: $string['passed']
+msgid "Passed"
+msgstr ""
+
+#: $string['plugin']
+msgid "Plugin"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "SWF Administration"
+msgstr ""
+
+#: $string['plugin_help']
+msgid ""
+"swfs/StrobeMediaPlayback.swf supports the following plugins...\n"
+"\n"
+"* Strobe SMIL\n"
+"* Strobe YouTube"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "SWF"
+msgstr ""
+
+#: $string['report']
+msgid "SWF Activity Report"
+msgstr ""
+
+#: $string['salign']
+msgid "Stage Align"
+msgstr ""
+
+#: $string['saturday']
+msgid "Sat"
+msgstr ""
+
+#: $string['saved_files_dir']
+msgid "Saved Files Directory"
+msgstr ""
+
+#: $string['saved_files_dir_explain']
+msgid ""
+"A subdirectory of the Multimedia Content Directory where users' saved files "
+"are stored."
+msgstr ""
+
+#: $string['scale']
+msgid "Stage Scale Mode"
+msgstr ""
+
+#: $string['seamlesstabbing']
+msgid "Seamless Tabbing"
+msgstr ""
+
+#: $string['selectfile']
+msgid "Select..."
+msgstr ""
+
+#: $string['sortby']
+msgid "Sort by"
+msgstr ""
+
+#: $string['sortedby']
+msgid "Sorted by"
+msgstr ""
+
+#: $string['sunday']
+msgid "Sun"
+msgstr ""
+
+#: $string['swf']
+msgctxt "$string['swf']"
+msgid "SWF"
+msgstr ""
+
+#: $string['swf:addinstance']
+msgid "Add SWF"
+msgstr ""
+
+#: $string['swffile']
+msgid "App"
+msgstr ""
+
+#: $string['swffile_help']
+msgid ""
+"Choose a Flash app from the drop down list. Adjust the Flash Player settings "
+"to control how the app is displayed. New apps must be installed by a system "
+"administrator with server access. Do not install standalone learning "
+"applications here. Upload them as learning content files and use the "
+"swfs/preloader.swf app to load them.\n"
+"\n"
+"To play a video:\n"
+"\n"
+"* Learning App: swfs/StrobeMediaPlayback.swf\n"
+"* Name: file\n"
+"* Value: http://download.ted.com/talks/PaoloCardini_2012G-480p.mp4\n"
+"\n"
+"To display and standalone Flash app:\n"
+"\n"
+"* Learning App: swfs/preloader.swf\n"
+"* Content URL/File: upload, select, or paste a link to the Flash app\n"
+"* or name value pair:\n"
+"* Name: xmlurl\n"
+"* Value: http://example.com/learning/games/mygame.swf"
+msgstr ""
+
+#: $string['swf:grade']
+msgid "Grade SWF"
+msgstr ""
+
+#: $string['swfhelp']
+msgid "Help"
+msgstr ""
+
+#: $string['swfhelp_title']
+msgid "Moodle docs for this page (Opens new window)"
+msgstr ""
+
+#: $string['swf:submit']
+msgid "Submit SWF"
+msgstr ""
+
+#: $string['swf:view']
+msgid "View SWF"
+msgstr ""
+
+#: $string['thursday']
+msgid "Thur"
+msgstr ""
+
+#: $string['time']
+msgid "Time"
+msgstr ""
+
+#: $string['timecreated']
+msgid "Created"
+msgstr ""
+
+#: $string['total']
+msgid "Total"
+msgstr ""
+
+#: $string['tuesday']
+msgid "Tues"
+msgstr ""
+
+#: $string['uploadedfile']
+msgid "Use File Manager File"
+msgstr ""
+
+#: $string['urledit']
+msgid "SWF Content File"
+msgstr ""
+
+#: $string['usermodified']
+msgid "Modified by"
+msgstr ""
+
+#: $string['valuepair']
+msgid "Value"
+msgstr ""
+
+#: $string['version']
+msgid "Version"
+msgstr ""
+
+#: $string['viewreport']
+msgid "View activity report for"
+msgstr ""
+
+#: $string['wednesday']
+msgid "Wed"
+msgstr ""
+
+#: $string['width']
+msgid "Width"
+msgstr ""
+
+#: $string['xmlurl']
+msgid "Content"
+msgstr ""
+
+#: $string['xmlurl_help']
+msgid ""
+"This setting enables a URL for the content file to be specified, rather than "
+"choosing a file via the file picker."
+msgstr ""

@@ -1,0 +1,2523 @@
+#. extracted from lang/en/dataform.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'dataform', language 'en', branch 'MOODLE_30_STABLE'
+#.  *
+#.  * @package   dataform
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['acccesstypesnotfound']
+msgid ""
+"Sorry, no access types are installed or enabled. Please contact your "
+"administrator for details."
+msgstr ""
+
+#: $string['access']
+msgid "Access"
+msgstr ""
+
+#: $string['accessadd']
+msgid "Add access context"
+msgstr ""
+
+#: $string['accessedit']
+msgctxt "$string['accessedit']"
+msgid "Editing '{$a}\\"
+msgstr ""
+
+#: $string['accessenabled']
+msgctxt "$string['accessenabled']"
+msgid "Enabled"
+msgstr ""
+
+#: $string['accessnew']
+msgid "New {$a}"
+msgstr ""
+
+#: $string['actions']
+msgid "Entry actions"
+msgstr ""
+
+#: $string['activityadministration']
+msgid "Activity administration"
+msgstr ""
+
+#: $string['activityicon']
+msgid "Activity icon"
+msgstr ""
+
+#: $string['activityicon_help']
+msgid ""
+"You can upload an image file to replace the Dataform default activity icon "
+"displayed on the course page next to the activity link."
+msgstr ""
+
+#: $string['alignment']
+msgid "Alignment"
+msgstr ""
+
+#: $string['and']
+msgid "AND"
+msgstr ""
+
+#: $string['andor']
+msgid "and/or"
+msgstr ""
+
+#: $string['anonymousentries']
+msgid "Allow anonymous entries"
+msgstr ""
+
+#: $string['anonymousentries_help']
+msgid ""
+"If enabled guests and not-logged-in users will be able to add entries in "
+"this activity.\n"
+" This may be useful for applications such as 'contact us' where visitors to "
+"the site can submit a contact request. The option must be enabled by admin "
+"in the module settings."
+msgstr ""
+
+#: $string['ascending']
+msgid "Ascending"
+msgstr ""
+
+#: $string['author']
+msgid "Author"
+msgstr ""
+
+#: $string['authorinfo']
+msgid "Author info"
+msgstr ""
+
+#: $string['availablefrom']
+msgctxt "$string['availablefrom']"
+msgid "Available from"
+msgstr ""
+
+#: $string['availableplugins']
+msgid "Available plugins"
+msgstr ""
+
+#: $string['availableto']
+msgid "Available to"
+msgstr ""
+
+#: $string['between']
+msgid "Between"
+msgstr ""
+
+#: $string['browse']
+msgid "Browse"
+msgstr ""
+
+#: $string['cancel']
+msgctxt "$string['cancel']"
+msgid "Cancel"
+msgstr ""
+
+#: $string['cancelbutton']
+msgctxt "$string['cancelbutton']"
+msgid "Cancel"
+msgstr ""
+
+#: $string['cancelbutton_help']
+msgid "Cancels submission and returns to the view."
+msgstr ""
+
+#: $string['cancelbutton_label']
+msgid "Cancel button"
+msgstr ""
+
+#: $string['characterpatterns']
+msgid "Character patterns"
+msgstr ""
+
+#: $string['characterpatterns_help']
+msgid "Character patternss"
+msgstr ""
+
+#: $string['columns']
+msgid "columns"
+msgstr ""
+
+#: $string['comment']
+msgid "Comment"
+msgstr ""
+
+#: $string['commentadd']
+msgid "Add comment"
+msgstr ""
+
+#: $string['commentbynameondate']
+msgid "by {$a->name} - {$a->date}"
+msgstr ""
+
+#: $string['commentdelete']
+msgid "Are you sure you want to delete this comment?"
+msgstr ""
+
+#: $string['commentdeleted']
+msgid "Comment deleted"
+msgstr ""
+
+#: $string['commentedit']
+msgid "Edit comment"
+msgstr ""
+
+#: $string['commentempty']
+msgid "Comment was empty"
+msgstr ""
+
+#: $string['commentinputtype']
+msgid "Comment input type"
+msgstr ""
+
+#: $string['comments']
+msgid "Comments"
+msgstr ""
+
+#: $string['commentsallow']
+msgid "Allow comments?"
+msgstr ""
+
+#: $string['commentsaved']
+msgid "Comment saved"
+msgstr ""
+
+#: $string['commentsn']
+msgid "{$a} comments"
+msgstr ""
+
+#: $string['commentsnone']
+msgid "No comments"
+msgstr ""
+
+#: $string['completionentries']
+msgid "Participants must add entries:"
+msgstr ""
+
+#: $string['completionentriesgroup']
+msgid "Require entries"
+msgstr ""
+
+#: $string['completionentrieshelp']
+msgid "requiring entries to complete"
+msgstr ""
+
+#: $string['completionspecificgrade']
+msgid "Participants must receive the grade:"
+msgstr ""
+
+#: $string['completionspecificgradegroup']
+msgid "Require specific grade"
+msgstr ""
+
+#: $string['completionspecificgradehelp']
+msgid "requiring specific grade to complete"
+msgstr ""
+
+#: $string['configanonymousentries']
+msgid ""
+"This switch will enable the possibility of guest/anonymous entries for all "
+"dataforms. You will still need to turn anonymous on manually in the settings "
+"for each dataform."
+msgstr ""
+
+#: $string['configenablerssfeeds']
+msgid ""
+"This switch will enable the possibility of RSS feeds for all dataforms. You "
+"will still need to add rss views in the Dataform instance to generate a "
+"feed."
+msgstr ""
+
+#: $string['configmaxentries']
+msgid ""
+"This value determines the maximum number of entries that may be added to a "
+"dataform activity."
+msgstr ""
+
+#: $string['configmaxfields']
+msgid ""
+"This value determines the maximum number of fields that may be added to a "
+"dataform activity."
+msgstr ""
+
+#: $string['configmaxfilters']
+msgid ""
+"This value determines the maximum number of filters that may be added to a "
+"dataform activity."
+msgstr ""
+
+#: $string['configmaxviews']
+msgid ""
+"This value determines the maximum number of views that may be added to a "
+"dataform activity."
+msgstr ""
+
+#: $string['configmultigradeitems']
+msgid "Set to Yes to allow multiple grade items in a Dataform activity."
+msgstr ""
+
+#: $string['configplugins']
+msgid ""
+"Please enable all required plugins and arrange them in appropriate order."
+msgstr ""
+
+#: $string['contains']
+msgid "Contains"
+msgstr ""
+
+#: $string['contentview']
+msgid "Content from view"
+msgstr ""
+
+#: $string['conversation']
+msgid "Conversation"
+msgstr ""
+
+#: $string['correct']
+msgid "Correct"
+msgstr ""
+
+#: $string['csscode']
+msgid "CSS code"
+msgstr ""
+
+#: $string['cssinclude']
+msgid "CSS"
+msgstr ""
+
+#: $string['cssincludes']
+msgid "Include external CSS"
+msgstr ""
+
+#: $string['csssaved']
+msgid "CSS saved"
+msgstr ""
+
+#: $string['cssupload']
+msgid "Upload CSS files"
+msgstr ""
+
+#: $string['csvdelimiter']
+msgid "delimiter"
+msgstr ""
+
+#: $string['csvenclosure']
+msgid "enclosure"
+msgstr ""
+
+#: $string['csvfailed']
+msgid "Unable to read the raw data from the CSV file"
+msgstr ""
+
+#: $string['csvoutput']
+msgid "CSV output"
+msgstr ""
+
+#: $string['csvsettings']
+msgid "CSV settings"
+msgstr ""
+
+#: $string['csvwithselecteddelimiter']
+msgid ""
+"<acronym title=\\\"Comma Separated Values\\\">CSV</acronym> text with selected "
+"delimiter:"
+msgstr ""
+
+#: $string['dataform:addinstance']
+msgid "Add a new dataform"
+msgstr ""
+
+#: $string['dataform:approve']
+msgctxt "$string['dataform:approve']"
+msgid "** Deprecated **"
+msgstr ""
+
+#: $string['dataform:comment']
+msgctxt "$string['dataform:comment']"
+msgid "** Deprecated **"
+msgstr ""
+
+#: $string['dataformearly']
+msgid "This activity is scheduled to start {$a}"
+msgstr ""
+
+#: $string['dataform:entryanonymousadd']
+msgid "Anonymous Entry - Add"
+msgstr ""
+
+#: $string['dataform:entryanonymousdelete']
+msgid "Anonymous Entry - Delete"
+msgstr ""
+
+#: $string['dataform:entryanonymousexport']
+msgid "Anonymous Entry - Export"
+msgstr ""
+
+#: $string['dataform:entryanonymousupdate']
+msgid "Anonymous Entry - Update"
+msgstr ""
+
+#: $string['dataform:entryanonymousview']
+msgid "Anonymous Entry - View"
+msgstr ""
+
+#: $string['dataform:entryanyadd']
+msgid "Any Entry - Add"
+msgstr ""
+
+#: $string['dataform:entryanydelete']
+msgid "Any Entry - Delete"
+msgstr ""
+
+#: $string['dataform:entryanyexport']
+msgid "Any Entry - Export"
+msgstr ""
+
+#: $string['dataform:entryanyupdate']
+msgid "Any Entry - Update"
+msgstr ""
+
+#: $string['dataform:entryanyview']
+msgid "Any Entry - View"
+msgstr ""
+
+#: $string['dataform:entryearlyadd']
+msgid "Early Entry - Add"
+msgstr ""
+
+#: $string['dataform:entryearlydelete']
+msgid "Early Entry - Delete"
+msgstr ""
+
+#: $string['dataform:entryearlyupdate']
+msgid "Early Entry - Update"
+msgstr ""
+
+#: $string['dataform:entryearlyview']
+msgid "Early Entry - View"
+msgstr ""
+
+#: $string['dataform:entrygroupadd']
+msgid "Group Entry - Add"
+msgstr ""
+
+#: $string['dataform:entrygroupdelete']
+msgid "Group Entry - Delete"
+msgstr ""
+
+#: $string['dataform:entrygroupexport']
+msgid "Group Entry - Export"
+msgstr ""
+
+#: $string['dataform:entrygroupupdate']
+msgid "Group Entry - Update"
+msgstr ""
+
+#: $string['dataform:entrygroupview']
+msgid "Group Entry - View"
+msgstr ""
+
+#: $string['dataform:entrylateadd']
+msgid "Late Entry - Add"
+msgstr ""
+
+#: $string['dataform:entrylatedelete']
+msgid "Late Entry - Delete"
+msgstr ""
+
+#: $string['dataform:entrylateupdate']
+msgid "Late Entry - Update"
+msgstr ""
+
+#: $string['dataform:entrylateview']
+msgid "Late Entry - View"
+msgstr ""
+
+#: $string['dataform:entryownadd']
+msgid "Own Entry - Add"
+msgstr ""
+
+#: $string['dataform:entryowndelete']
+msgid "Own Entry - Delete"
+msgstr ""
+
+#: $string['dataform:entryownexport']
+msgid "Own Entry - Export"
+msgstr ""
+
+#: $string['dataform:entryownupdate']
+msgid "Own Entry - Update"
+msgstr ""
+
+#: $string['dataform:entryownview']
+msgid "Own Entry - View"
+msgstr ""
+
+#: $string['dataform:exportallentries']
+msgctxt "$string['dataform:exportallentries']"
+msgid "** Deprecated **"
+msgstr ""
+
+#: $string['dataform:exportentry']
+msgctxt "$string['dataform:exportentry']"
+msgid "** Deprecated **"
+msgstr ""
+
+#: $string['dataform:exportownentry']
+msgctxt "$string['dataform:exportownentry']"
+msgid "** Deprecated **"
+msgstr ""
+
+#: $string['dataform:indexview']
+msgid "View index"
+msgstr ""
+
+#: $string['dataform:manageaccess']
+msgid "Manage access rules"
+msgstr ""
+
+#: $string['dataform:managecomments']
+msgctxt "$string['dataform:managecomments']"
+msgid "** Deprecated **"
+msgstr ""
+
+#: $string['dataform:managecss']
+msgid "Manage css"
+msgstr ""
+
+#: $string['dataform:manageentries']
+msgid "Manage entries"
+msgstr ""
+
+#: $string['dataform:managefields']
+msgid "Manage fields"
+msgstr ""
+
+#: $string['dataform:managefilters']
+msgid "Manage filters"
+msgstr ""
+
+#: $string['dataform:managejs']
+msgid "Manage js"
+msgstr ""
+
+#: $string['dataform:managenotifications']
+msgid "Manage notification rules"
+msgstr ""
+
+#: $string['dataform:managepresets']
+msgid "Manage presets"
+msgstr ""
+
+#: $string['dataform:manageratings']
+msgctxt "$string['dataform:manageratings']"
+msgid "** Deprecated **"
+msgstr ""
+
+#: $string['dataform:managetemplates']
+msgid "Manage templates"
+msgstr ""
+
+#: $string['dataform:managetools']
+msgid "Manage tools"
+msgstr ""
+
+#: $string['dataform:manageviews']
+msgid "Manage views"
+msgstr ""
+
+#: $string['dataform:messagingview']
+msgid "View messaging"
+msgstr ""
+
+#: $string['dataformnew']
+msgid "New Dataform"
+msgstr ""
+
+#: $string['dataformnone']
+msgid "No Dataforms found"
+msgstr ""
+
+#: $string['dataformnotready']
+msgid "This activity is not ready for viewing"
+msgstr ""
+
+#: $string['dataformpastdue']
+msgid "This activity was due {$a}"
+msgstr ""
+
+#: $string['dataform:presetsviewall']
+msgid "View presets from all users"
+msgstr ""
+
+#: $string['dataform:rate']
+msgctxt "$string['dataform:rate']"
+msgid "** Deprecated **"
+msgstr ""
+
+#: $string['dataform:ratingsview']
+msgctxt "$string['dataform:ratingsview']"
+msgid "** Deprecated **"
+msgstr ""
+
+#: $string['dataform:ratingsviewall']
+msgctxt "$string['dataform:ratingsviewall']"
+msgid "** Deprecated **"
+msgstr ""
+
+#: $string['dataform:ratingsviewany']
+msgctxt "$string['dataform:ratingsviewany']"
+msgid "** Deprecated **"
+msgstr ""
+
+#: $string['dataform:viewaccess']
+msgid "View - Access"
+msgstr ""
+
+#: $string['dataform:viewaccessdisabled']
+msgid "View - Access disabled"
+msgstr ""
+
+#: $string['dataform:viewaccessearly']
+msgid "View - Access early"
+msgstr ""
+
+#: $string['dataform:viewaccesshidden']
+msgctxt "$string['dataform:viewaccesshidden']"
+msgid "** Deprecated **"
+msgstr ""
+
+#: $string['dataform:viewaccesslate']
+msgid "View - Access late"
+msgstr ""
+
+#: $string['dataform:viewanonymousentry']
+msgctxt "$string['dataform:viewanonymousentry']"
+msgid "** Deprecated **"
+msgstr ""
+
+#: $string['dataform:viewentry']
+msgctxt "$string['dataform:viewentry']"
+msgid "** Deprecated **"
+msgstr ""
+
+#: $string['dataform:viewfilteroverride']
+msgid "View - Filter override"
+msgstr ""
+
+#: $string['dataform:writeentry']
+msgctxt "$string['dataform:writeentry']"
+msgid "** Deprecated **"
+msgstr ""
+
+#: $string['deleteactivity']
+msgid "Delete activity"
+msgstr ""
+
+#: $string['deletenotenrolled']
+msgid "Delete entries by users not enrolled"
+msgstr ""
+
+#: $string['descending']
+msgid "Descending"
+msgstr ""
+
+#: $string['dfupdatefailed']
+msgid "Failed to update dataform!"
+msgstr ""
+
+#: $string['documenttype']
+msgid "Document type"
+msgstr ""
+
+#: $string['dots']
+msgid "..."
+msgstr ""
+
+#: $string['download']
+msgctxt "$string['download']"
+msgid "Download"
+msgstr ""
+
+#: $string['editing']
+msgid "Editing"
+msgstr ""
+
+#: $string['editordisable']
+msgid "Disable editor"
+msgstr ""
+
+#: $string['editorenable']
+msgid "Enable editor"
+msgstr ""
+
+#: $string['email']
+msgid "Email"
+msgstr ""
+
+#: $string['embed']
+msgid "Embed"
+msgstr ""
+
+#: $string['embedded']
+msgid "Embedded"
+msgstr ""
+
+#: $string['embedded_help']
+msgid ""
+"A selected inline view can be embedded on the course page in an iframe to "
+"allow interacting with the view without leaving the course page."
+msgstr ""
+
+#: $string['empty']
+msgid "Empty"
+msgstr ""
+
+#: $string['enabled']
+msgctxt "$string['enabled']"
+msgid "Enabled"
+msgstr ""
+
+#: $string['entries']
+msgid "Entries"
+msgstr ""
+
+#: $string['entriesadded']
+msgid "{$a} entry(s) added"
+msgstr ""
+
+#: $string['entriesconfirmadd']
+msgctxt "$string['entriesconfirmadd']"
+msgid "You are about to duplicate {$a} entry(s). Would you like to proceed?"
+msgstr ""
+
+#: $string['entriesconfirmdelete']
+msgid "You are about to delete {$a} entry(s). Would you like to proceed?"
+msgstr ""
+
+#: $string['entriesconfirmduplicate']
+msgctxt "$string['entriesconfirmduplicate']"
+msgid "You are about to duplicate {$a} entry(s). Would you like to proceed?"
+msgstr ""
+
+#: $string['entriesconfirmupdate']
+msgid "You are about to update {$a} entry(s). Would you like to proceed?"
+msgstr ""
+
+#: $string['entriescount']
+msgid "{$a} entry(s)"
+msgstr ""
+
+#: $string['entriesdeleteall']
+msgid "Delete all entries"
+msgstr ""
+
+#: $string['entriesdeleted']
+msgid "{$a} entry(s) deleted"
+msgstr ""
+
+#: $string['entriesduplicated']
+msgid "{$a} entry(s) duplicated"
+msgstr ""
+
+#: $string['entriesfound']
+msgid "{$a} entry(s) found"
+msgstr ""
+
+#: $string['entriesimport']
+msgid "Import entries"
+msgstr ""
+
+#: $string['entrieslefttoadd']
+msgid "You must add {$a} more entry/entries in order to complete this activity"
+msgstr ""
+
+#: $string['entrieslefttoaddtoview']
+msgid ""
+"You must add {$a} more entry/entries before you can view other participants' "
+"entries."
+msgstr ""
+
+#: $string['entriesmanager']
+msgid "Entries Manager"
+msgstr ""
+
+#: $string['entriesmax']
+msgid "Maximum entries"
+msgstr ""
+
+#: $string['entriesmax_help']
+msgid ""
+"The max number of entries a user without manageentries capability can add to "
+"the activity.\n"
+"<ul>\n"
+"<li><b>-1:</b> Unlimited number of entries allowed.\n"
+"<li><b> 0:</b> No entries allowed.\n"
+"<li><b> N:</b> N entries allowed (where N is any positive number, e.g. 10).\n"
+"</ul>\n"
+"If the activity has intervals this number applies to each interval, and the "
+"max number of entries for the whole activity is this number times the number "
+"of intervals."
+msgstr ""
+
+#: $string['entriesnotsaved']
+msgid "No entry was saved. Please check the format of the uploaded file."
+msgstr ""
+
+#: $string['entriespending']
+msgid "Pending"
+msgstr ""
+
+#: $string['entriesrequired']
+msgid "Required entries"
+msgstr ""
+
+#: $string['entriesrequired_help']
+msgid ""
+"The number of entries a user without manageentries capability is required to "
+"add for the activity to be considered complete (before consideration of "
+"other completion criteria such as grade). If the activity has intervals this "
+"number applies to each interval, and the number of required entries for the "
+"whole activity is this number times the number of intervals."
+msgstr ""
+
+#: $string['entriessaved']
+msgid "{$a} entry(s) saved"
+msgstr ""
+
+#: $string['entriesupdated']
+msgid "{$a} entry(s) updated"
+msgstr ""
+
+#: $string['entry']
+msgid "Entry"
+msgstr ""
+
+#: $string['entryaddmultinew']
+msgid "Add new entries"
+msgstr ""
+
+#: $string['entryaddnew']
+msgid "Add a new entry"
+msgstr ""
+
+#: $string['entryinfo']
+msgid "Entry info"
+msgstr ""
+
+#: $string['entrynew']
+msgid "New entry"
+msgstr ""
+
+#: $string['entrynoneforaction']
+msgid "No entries were found for the requested action"
+msgstr ""
+
+#: $string['entrynoneindataform']
+msgid "No entries in dataform"
+msgstr ""
+
+#: $string['entryrating']
+msgid "Entry rating"
+msgstr ""
+
+#: $string['entrysaved']
+msgid "Your entry has been saved"
+msgstr ""
+
+#: $string['entrysettings']
+msgid "Entry settings"
+msgstr ""
+
+#: $string['entrysettingsupdated']
+msgid "Entry settings updated"
+msgstr ""
+
+#: $string['entrytemplate']
+msgid "Entry template"
+msgstr ""
+
+#: $string['entrytemplate_help']
+msgid ""
+"The entry template allows you to determine content, behaviour and general "
+"layout of an entry both for browsing and for editing. This template "
+"typically contains field elements for displaying and updating the entry "
+"content. When creating a new view, the template is populated automatically "
+"with a default layout that consists of base field patterns, edit action and "
+"delete action. You can then add or remove patterns as needed. The WYSIWYG "
+"editor also allows you to decorate the template and create your own look and "
+"feel with color, font and images."
+msgstr ""
+
+#: $string['entrytimelimit']
+msgid "Editing time limit (minutes)"
+msgstr ""
+
+#: $string['entrytimelimit_help']
+msgid ""
+"The time limit (minutes) within which a user without manage entries "
+"capability can update or delete a new entry.\n"
+"<ul>\n"
+"<li><b>-1:</b> Unlimited.\n"
+"<li><b>&nbsp;0:</b> The entry cannot be updated or deleted after submission.\n"
+"<li><b>&nbsp;N:</b> The entry can be updated or deleted within N minutes "
+"(where N is any positive number, e.g. 30).\n"
+"</ul>"
+msgstr ""
+
+#: $string['equal']
+msgid "Equal"
+msgstr ""
+
+#: $string['err_lowername']
+msgid "The name cannot contain uppercase letters."
+msgstr ""
+
+#: $string['error:cannotbenegative']
+msgid "Value cannot be negative"
+msgstr ""
+
+#: $string['errorinvalidtimeto']
+msgid "Time-to must be later than Time-from"
+msgstr ""
+
+#: $string['errornoitemsselected']
+msgid "At least one item should be selected"
+msgstr ""
+
+#: $string['event']
+msgid "Event"
+msgstr ""
+
+#: $string['event_entry_created']
+msgid "Entry created"
+msgstr ""
+
+#: $string['event_entry_deleted']
+msgid "Entry deleted"
+msgstr ""
+
+#: $string['event_entry_updated']
+msgid "Entry updated"
+msgstr ""
+
+#: $string['event_field_content_updated']
+msgid "Field content updated"
+msgstr ""
+
+#: $string['event_field_created']
+msgid "Field created"
+msgstr ""
+
+#: $string['event_field_deleted']
+msgid "Field deleted"
+msgstr ""
+
+#: $string['event_field_updated']
+msgid "Field updated"
+msgstr ""
+
+#: $string['event_filter_created']
+msgid "Filter created"
+msgstr ""
+
+#: $string['event_filter_deleted']
+msgid "Filter deleted"
+msgstr ""
+
+#: $string['event_filter_updated']
+msgid "Filter updated"
+msgstr ""
+
+#: $string['events']
+msgid "Events"
+msgstr ""
+
+#: $string['event_view_created']
+msgid "View created"
+msgstr ""
+
+#: $string['event_view_deleted']
+msgid "View deleted"
+msgstr ""
+
+#: $string['event_view_updated']
+msgid "View updated"
+msgstr ""
+
+#: $string['event_view_viewed']
+msgid "View accessed"
+msgstr ""
+
+#: $string['export']
+msgctxt "$string['export']"
+msgid "Export"
+msgstr ""
+
+#: $string['exportcontent']
+msgid "Export content"
+msgstr ""
+
+#: $string['field']
+msgid "field"
+msgstr ""
+
+#: $string['fieldadd']
+msgid "Add a field"
+msgstr ""
+
+#: $string['fieldallowautolink']
+msgid "Allow autolink"
+msgstr ""
+
+#: $string['fieldapplydefault']
+msgid "Apply default when editing"
+msgstr ""
+
+#: $string['fieldattributes']
+msgid "Field attributes"
+msgstr ""
+
+#: $string['fieldcreate']
+msgid "Create a new field"
+msgstr ""
+
+#: $string['fielddefaultany']
+msgid "Any entry"
+msgstr ""
+
+#: $string['fielddefaultcontent']
+msgid "Default content"
+msgstr ""
+
+#: $string['fielddefaultnew']
+msgid "New entries only"
+msgstr ""
+
+#: $string['fielddefaultvalue']
+msgid "Default value"
+msgstr ""
+
+#: $string['fielddescription']
+msgid "Field description"
+msgstr ""
+
+#: $string['fieldedit']
+msgctxt "$string['fieldedit']"
+msgid "Editing '{$a}\\"
+msgstr ""
+
+#: $string['fieldeditable']
+msgid "Editable"
+msgstr ""
+
+#: $string['fieldids']
+msgid "Field ids"
+msgstr ""
+
+#: $string['fieldmappings']
+msgid "Field Mappings"
+msgstr ""
+
+#: $string['fieldname']
+msgid "Field name"
+msgstr ""
+
+#: $string['fieldnew']
+msgid "New {$a} field"
+msgstr ""
+
+#: $string['fieldnoneforaction']
+msgid "No fields were found for the requested action"
+msgstr ""
+
+#: $string['fieldnoneindataform']
+msgid "There are no fields defined for this dataform."
+msgstr ""
+
+#: $string['fieldnonematching']
+msgid "No matching fields found"
+msgstr ""
+
+#: $string['fieldnotmatched']
+msgid "The following fields in your file are not known in this dataform: {$a}"
+msgstr ""
+
+#: $string['fieldpatterns']
+msgid "Entry patterns"
+msgstr ""
+
+#: $string['fieldpatterns_help']
+msgid "Patterns whose content is entry sensitive."
+msgstr ""
+
+#: $string['fieldplugins']
+msgid "Field plugins"
+msgstr ""
+
+#: $string['fieldrequired']
+msgid "You must supply a value here."
+msgstr ""
+
+#: $string['fieldrules']
+msgid "Field edit rules"
+msgstr ""
+
+#: $string['fields']
+msgid "Fields"
+msgstr ""
+
+#: $string['fieldsadded']
+msgid "Fields added"
+msgstr ""
+
+#: $string['fieldsconfirmdelete']
+msgid "You are about to delete {$a} field(s). Would you like to proceed?"
+msgstr ""
+
+#: $string['fieldsconfirmduplicate']
+msgid "You are about to duplicate {$a} field(s). Would you like to proceed?"
+msgstr ""
+
+#: $string['fieldsdeleted']
+msgid "Fields deleted. You may need to update the default sort settings."
+msgstr ""
+
+#: $string['fieldsinternal']
+msgid "Internal fields"
+msgstr ""
+
+#: $string['fieldsmax']
+msgid "Maximum fields"
+msgstr ""
+
+#: $string['fieldsnonedefined']
+msgid "No fields defined"
+msgstr ""
+
+#: $string['fieldsupdated']
+msgid "Fields updated"
+msgstr ""
+
+#: $string['fieldtemplate']
+msgid "Template"
+msgstr ""
+
+#: $string['fieldtemplate_help']
+msgid ""
+"The field template allows for specifying a designated field label that can "
+"be added to the view by means of the [[fieldname@]] field pattern. This "
+"field pattern observes the field visibility and is hidden if the field is "
+"set to be hidden. The field template can also serve as a field display "
+"template and it interprets patterns of that field if included in the label. "
+"For example, with a number field called Number and the field label defined "
+"as 'You have earned [[Number]] credits.' and an entry where the number value "
+"is 47 the pattern [[Number@]] would be displayed as 'You have earned 47 "
+"credits.\\"
+msgstr ""
+
+#: $string['fieldvisibility']
+msgid "Visibile to"
+msgstr ""
+
+#: $string['fieldvisibleall']
+msgid "Everyone"
+msgstr ""
+
+#: $string['fieldvisiblenone']
+msgid "Managers only"
+msgstr ""
+
+#: $string['fieldvisibleowner']
+msgid "Owner and managers"
+msgstr ""
+
+#: $string['fieldwidth']
+msgid "Width"
+msgstr ""
+
+#: $string['filemaxsize']
+msgid "Total size of uploded files"
+msgstr ""
+
+#: $string['filesettings']
+msgid "File settings"
+msgstr ""
+
+#: $string['filesmax']
+msgid "Max number of uploaded files"
+msgstr ""
+
+#: $string['filetypeany']
+msgid "Any file type"
+msgstr ""
+
+#: $string['filetypeaudio']
+msgid "Audio files"
+msgstr ""
+
+#: $string['filetypegif']
+msgid "gif files"
+msgstr ""
+
+#: $string['filetypehtml']
+msgid "Html files"
+msgstr ""
+
+#: $string['filetypeimage']
+msgid "Image files"
+msgstr ""
+
+#: $string['filetypejpg']
+msgid "jpg files"
+msgstr ""
+
+#: $string['filetypepng']
+msgid "png files"
+msgstr ""
+
+#: $string['filetypes']
+msgid "Accepted file types"
+msgstr ""
+
+#: $string['filter']
+msgctxt "$string['filter']"
+msgid "Filter"
+msgstr ""
+
+#: $string['filteradd']
+msgid "Add a filter"
+msgstr ""
+
+#: $string['filteradvanced']
+msgid "Advanced filter"
+msgstr ""
+
+#: $string['filterbypage']
+msgid "By page"
+msgstr ""
+
+#: $string['filtercancel']
+msgid "Cancel filter"
+msgstr ""
+
+#: $string['filtercreate']
+msgid "Create a new filter"
+msgstr ""
+
+#: $string['filtercurrent']
+msgid "Current filter"
+msgstr ""
+
+#: $string['filtercustomsearch']
+msgid "Search options"
+msgstr ""
+
+#: $string['filtercustomsort']
+msgid "Sort options"
+msgstr ""
+
+#: $string['filterdescription']
+msgid "Filter description"
+msgstr ""
+
+#: $string['filteredit']
+msgctxt "$string['filteredit']"
+msgid "Editing '{$a}\\"
+msgstr ""
+
+#: $string['filtergroupby']
+msgid "Group by"
+msgstr ""
+
+#: $string['filterincomplete']
+msgid "Search condition must be completed."
+msgstr ""
+
+#: $string['filtername']
+msgid "Dataform auto-linking"
+msgstr ""
+
+#: $string['filternew']
+msgid "New filter"
+msgstr ""
+
+#: $string['filternoneforaction']
+msgid "No filters were found for the requested action ({$a})"
+msgstr ""
+
+#: $string['filterperpage']
+msgctxt "$string['filterperpage']"
+msgid "Per page"
+msgstr ""
+
+#: $string['filterquick']
+msgid "Quick filter"
+msgstr ""
+
+#: $string['filterquickreset']
+msgid "* Reset quick filter"
+msgstr ""
+
+#: $string['filters']
+msgid "Filters"
+msgstr ""
+
+#: $string['filtersadded']
+msgid "{$a} filter(s) added"
+msgstr ""
+
+#: $string['filtersave']
+msgid "Save filter"
+msgstr ""
+
+#: $string['filtersaved']
+msgid "My saved filters"
+msgstr ""
+
+#: $string['filtersavedreset']
+msgid "* Reset saved filters"
+msgstr ""
+
+#: $string['filtersconfirmdelete']
+msgid "You are about to delete {$a} filter(s). Would you like to proceed?"
+msgstr ""
+
+#: $string['filtersconfirmduplicate']
+msgid "You are about to duplicate {$a} filter(s). Would you like to proceed?"
+msgstr ""
+
+#: $string['filtersdeleted']
+msgid "{$a} filter(s) deleted"
+msgstr ""
+
+#: $string['filtersduplicated']
+msgid "{$a} filter(s) duplicated"
+msgstr ""
+
+#: $string['filtersearchfieldlabel']
+msgid "Search field"
+msgstr ""
+
+#: $string['filterselection']
+msgid "Selection"
+msgstr ""
+
+#: $string['filtersimplesearch']
+msgid "Simple search"
+msgstr ""
+
+#: $string['filtersmax']
+msgid "Maximum filters"
+msgstr ""
+
+#: $string['filtersnonedefined']
+msgid "No filters defined"
+msgstr ""
+
+#: $string['filtersnoneindataform']
+msgid "There are no filters defined for this dataform."
+msgstr ""
+
+#: $string['filtersortfieldlabel']
+msgid "Sort field"
+msgstr ""
+
+#: $string['filtersupdated']
+msgid "{$a} filter(s) updated"
+msgstr ""
+
+#: $string['filterupdate']
+msgid "Update an existing filter"
+msgstr ""
+
+#: $string['filterurlquery']
+msgid "Url query"
+msgstr ""
+
+#: $string['first']
+msgid "First"
+msgstr ""
+
+#: $string['firstdayofweek']
+msgid "Monday"
+msgstr ""
+
+#: $string['formemptyadd']
+msgid "You did not fill out any fields!"
+msgstr ""
+
+#: $string['fromfile']
+msgid "Import from zip file"
+msgstr ""
+
+#: $string['generalactions']
+msgid "General actions"
+msgstr ""
+
+#: $string['getstarted']
+msgid "This dataform appears to be new or with incomplete setup."
+msgstr ""
+
+#: $string['getstartedfields']
+msgid "Add fields in the {$a} section"
+msgstr ""
+
+#: $string['getstartedpresets']
+msgid "Apply a preset in the {$a} section"
+msgstr ""
+
+#: $string['getstartedviews']
+msgid "Add views in the {$a} section"
+msgstr ""
+
+#: $string['gradecalc']
+msgid "Grade calculation"
+msgstr ""
+
+#: $string['gradecalc_help']
+msgid ""
+"A grade calculation is a formula that determines the activity grade. The "
+"formula may use common mathematical operators, such as max, min and sum. It "
+"can also use certain field patterns to determine the activity grade based on "
+"user content."
+msgstr ""
+
+#: $string['gradeguide']
+msgid "Grade guide/rubric"
+msgstr ""
+
+#: $string['gradeguide_help']
+msgid ""
+"Choose a grading guide or rubric that should be used for assigning grades in "
+"this activity/grade item."
+msgstr ""
+
+#: $string['gradeitems']
+msgid "Grade items"
+msgstr ""
+
+#: $string['gradeitems_help']
+msgid "This page lets you add/edit grade items for this activity."
+msgstr ""
+
+#: $string['gradeitemsin']
+msgid "Grade items in {$a}"
+msgstr ""
+
+#: $string['greaterorequal']
+msgid "Greater or equal"
+msgstr ""
+
+#: $string['greaterthan']
+msgid "Greater than"
+msgstr ""
+
+#: $string['groupentries']
+msgid "Group entries"
+msgstr ""
+
+#: $string['groupentries_help']
+msgid ""
+"Entries will be added with group info but without author info. This settings "
+"requires group mode."
+msgstr ""
+
+#: $string['headercss']
+msgid "Custom CSS styles for all views"
+msgstr ""
+
+#: $string['headerjs']
+msgid "Custom javascript for all views"
+msgstr ""
+
+#: $string['horizontal']
+msgid "Horizontal"
+msgstr ""
+
+#: $string['import']
+msgid "Import"
+msgstr ""
+
+#: $string['importadd']
+msgid "Add a new Import view"
+msgstr ""
+
+#: $string['importnoneindataform']
+msgid "There are no imports defined for this dataform."
+msgstr ""
+
+#: $string['in']
+msgid "In"
+msgstr ""
+
+#: $string['incorrect']
+msgid "Incorrect"
+msgstr ""
+
+#: $string['index']
+msgid "Index"
+msgstr ""
+
+#: $string['inlineview']
+msgid "Inline view"
+msgstr ""
+
+#: $string['inlineview_help']
+msgid ""
+"You can select one of this Dataform's views to displayed on the course page "
+"instead of the activity link. If this is a new instance you need save it and "
+"create at least one view before selecting an inline view."
+msgstr ""
+
+#: $string['instances']
+msgid "Instances"
+msgstr ""
+
+#: $string['insufficiententries']
+msgid "more entries needed to view this dataform"
+msgstr ""
+
+#: $string['internal']
+msgid "Internal"
+msgstr ""
+
+#: $string['intervalcount']
+msgid "Number of intervals"
+msgstr ""
+
+#: $string['intervalcount_help']
+msgid ""
+"If the activity is set to have more than 1 interval then the availability "
+"settings and the entry settings apply to each interval separately."
+msgstr ""
+
+#: $string['intro']
+msgid "Introduction"
+msgstr ""
+
+#: $string['invalidname']
+msgid "Please choose another name for this {$a}"
+msgstr ""
+
+#: $string['invalidrate']
+msgid "Invalid dataform rate ({$a})"
+msgstr ""
+
+#: $string['invalidurl']
+msgid "The URL you just entered is not valid"
+msgstr ""
+
+#: $string['is']
+msgid "IS"
+msgstr ""
+
+#: $string['jscode']
+msgid "Javascript code"
+msgstr ""
+
+#: $string['jsinclude']
+msgid "JS"
+msgstr ""
+
+#: $string['jsincludes']
+msgid "Include external javascript"
+msgstr ""
+
+#: $string['jssaved']
+msgid "Javascript saved"
+msgstr ""
+
+#: $string['jsupload']
+msgid "Upload javascript files"
+msgstr ""
+
+#: $string['lessorequal']
+msgid "Less or equal"
+msgstr ""
+
+#: $string['lessthan']
+msgid "Less than"
+msgstr ""
+
+#: $string['lock']
+msgid "Lock"
+msgstr ""
+
+#: $string['manage']
+msgid "Manage"
+msgstr ""
+
+#: $string['managefields']
+msgid "Manage field plugins"
+msgstr ""
+
+#: $string['manageviews']
+msgid "Manage view plugins"
+msgstr ""
+
+#: $string['mappingwarning']
+msgid ""
+"All old fields not mapped to a new field will be lost and all data in that "
+"field will be removed."
+msgstr ""
+
+#: $string['max']
+msgid "Maximum"
+msgstr ""
+
+#: $string['maxsize']
+msgid "Maximum size"
+msgstr ""
+
+#: $string['mediafile']
+msgid "Media file"
+msgstr ""
+
+#: $string['message']
+msgid "Message"
+msgstr ""
+
+#: $string['messageprovider:dataform_notification']
+msgid "Dataform notifications"
+msgstr ""
+
+#: $string['min']
+msgid "Minimum"
+msgstr ""
+
+#: $string['modeeditinline']
+msgid "Edited entries inline with other entries"
+msgstr ""
+
+#: $string['modeeditonly']
+msgid "Only edited entries"
+msgstr ""
+
+#: $string['modeeditseparate']
+msgid "Edited entries separated from other entries"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Dataform"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"The dataform module may be used for creating a wide range of "
+"activities/resources by allowing the instructor/manager to design and create "
+"a custom content form from various input elements (e.g.  texts, numbers, "
+"images, files, urls, etc.), and participants to submit content and view "
+"submitted content."
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Dataforms"
+msgstr ""
+
+#: $string['modulesettings']
+msgid "Module settings"
+msgstr ""
+
+#: $string['more']
+msgid "More"
+msgstr ""
+
+#: $string['moreurl']
+msgid "More URL"
+msgstr ""
+
+#: $string['movezipfailed']
+msgid "Can't move zip"
+msgstr ""
+
+#: $string['multidelete']
+msgid "Delete"
+msgstr ""
+
+#: $string['multidownload']
+msgctxt "$string['multidownload']"
+msgid "Download"
+msgstr ""
+
+#: $string['multiduplicate']
+msgid "Duplicate"
+msgstr ""
+
+#: $string['multiedit']
+msgid "Edit"
+msgstr ""
+
+#: $string['multiexport']
+msgctxt "$string['multiexport']"
+msgid "Export"
+msgstr ""
+
+#: $string['multigradeitems']
+msgid "Allow multiple grade items"
+msgstr ""
+
+#: $string['multishare']
+msgctxt "$string['multishare']"
+msgid "Share"
+msgstr ""
+
+#: $string['newvalue']
+msgid "New value"
+msgstr ""
+
+#: $string['newvalueallow']
+msgid "Allow new values"
+msgstr ""
+
+#: $string['noaccess']
+msgid "You do not have access to this page"
+msgstr ""
+
+#: $string['noautocompletioninline']
+msgid ""
+"Automatic completion on viewing of activity can not be selected together "
+"with \"Inline view\" option"
+msgstr ""
+
+#: $string['nomatch']
+msgid "No matching entries found!"
+msgstr ""
+
+#: $string['nomaximum']
+msgid "No maximum"
+msgstr ""
+
+#: $string['noreply']
+msgid "No-reply"
+msgstr ""
+
+#: $string['not']
+msgid "NOT"
+msgstr ""
+
+#: $string['notapplicable']
+msgid "N/A"
+msgstr ""
+
+#: $string['notification']
+msgid "Notification"
+msgstr ""
+
+#: $string['notificationtypesnotfound']
+msgid ""
+"Sorry, no notification types are installed or enabled. Please contact your "
+"administrator for details."
+msgstr ""
+
+#: $string['notopenyet']
+msgid "Sorry, this activity is not available until {$a}"
+msgstr ""
+
+#: $string['or']
+msgid "OR"
+msgstr ""
+
+#: $string['page-mod-dataform-access-index']
+msgid "Dataform activity access rules index page"
+msgstr ""
+
+#: $string['page-mod-dataform-field-index']
+msgid "Dataform activity fields index page"
+msgstr ""
+
+#: $string['page-mod-dataform-notification-index']
+msgid "Dataform activity notification rules index page"
+msgstr ""
+
+#: $string['page-mod-dataform-view-index']
+msgid "Dataform activity views index page"
+msgstr ""
+
+#: $string['page-mod-dataform-x']
+msgid "Any Dataform activity module page"
+msgstr ""
+
+#: $string['pagesize']
+msgid "Entries per page"
+msgstr ""
+
+#: $string['pagingbar']
+msgid "Paging bar"
+msgstr ""
+
+#: $string['patternbroken']
+msgid "Broken patterns found"
+msgstr ""
+
+#: $string['patterncleanup']
+msgid "Clean up"
+msgstr ""
+
+#: $string['patterns']
+msgid "Patterns"
+msgstr ""
+
+#: $string['patternsnonebroken']
+msgid "No broken patterns found"
+msgstr ""
+
+#: $string['patternsreplacement']
+msgid "Patterns Replacement"
+msgstr ""
+
+#: $string['patternsuspect']
+msgid "Suspect patterns found"
+msgstr ""
+
+#: $string['patternvalid']
+msgid "Patterns valid"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Dataform activity administration"
+msgstr ""
+
+#: $string['pluginhasinstances']
+msgid "ATTENTION: This plugin has {$a} instances."
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Dataform"
+msgstr ""
+
+#: $string['presetadd']
+msgid "Add presets"
+msgstr ""
+
+#: $string['presetapply']
+msgid "Apply"
+msgstr ""
+
+#: $string['presetavailableincourse']
+msgid "Course presets"
+msgstr ""
+
+#: $string['presetavailableinsite']
+msgid "Site presets"
+msgstr ""
+
+#: $string['presetchoose']
+msgid "choose a predfined preset"
+msgstr ""
+
+#: $string['presetdata']
+msgid "with user data"
+msgstr ""
+
+#: $string['presetdataanon']
+msgid "with user data anonymized"
+msgstr ""
+
+#: $string['presetfaileddelete']
+msgid "Error deleting a preset!"
+msgstr ""
+
+#: $string['presetfromdataform']
+msgid "Make a preset of this dataform"
+msgstr ""
+
+#: $string['presetfromfile']
+msgid "Upload preset from file"
+msgstr ""
+
+#: $string['presetimportsuccess']
+msgid "The preset has been successfully applied."
+msgstr ""
+
+#: $string['presetinfo']
+msgid ""
+"Saving as a preset will publish this view. Other users may be able to use it "
+"in their dataforms."
+msgstr ""
+
+#: $string['presetmap']
+msgid "map fields"
+msgstr ""
+
+#: $string['presetnodata']
+msgid "without user data"
+msgstr ""
+
+#: $string['presetnodefinedfields']
+msgid "New preset has no defined fields!"
+msgstr ""
+
+#: $string['presetnodefinedviews']
+msgid "New preset has no defined views!"
+msgstr ""
+
+#: $string['presetnoneavailable']
+msgid "No available presets to display"
+msgstr ""
+
+#: $string['presetplugin']
+msgid "Plug in"
+msgstr ""
+
+#: $string['presetrefreshlist']
+msgid "Refresh list"
+msgstr ""
+
+#: $string['presets']
+msgid "Presets"
+msgstr ""
+
+#: $string['presetshare']
+msgctxt "$string['presetshare']"
+msgid "Share"
+msgstr ""
+
+#: $string['presetsharesuccess']
+msgid "Saved successfully. Your preset will now be available across the site."
+msgstr ""
+
+#: $string['presetsource']
+msgid "Preset source"
+msgstr ""
+
+#: $string['presetusestandard']
+msgid "Use a preset"
+msgstr ""
+
+#: $string['random']
+msgid "Random"
+msgstr ""
+
+#: $string['range']
+msgid "Range"
+msgstr ""
+
+#: $string['recipient']
+msgid "Recipient"
+msgstr ""
+
+#: $string['reference']
+msgid "Reference"
+msgstr ""
+
+#: $string['renewactivity']
+msgid "Renew activity"
+msgstr ""
+
+#: $string['renewconfirm']
+msgid ""
+"You are about to completely reset this activity. All the activity structure "
+"and user data will be deleted. Would you like to proceed?"
+msgstr ""
+
+#: $string['requiredall']
+msgid "all required"
+msgstr ""
+
+#: $string['requirednotall']
+msgid "not all required"
+msgstr ""
+
+#: $string['resetsettings']
+msgid "Reset filters"
+msgstr ""
+
+#: $string['returntoimport']
+msgid "Return to import"
+msgstr ""
+
+#: $string['rule']
+msgid "rule"
+msgstr ""
+
+#: $string['ruleadd']
+msgid "Add a rule"
+msgstr ""
+
+#: $string['ruleenabled']
+msgctxt "$string['ruleenabled']"
+msgid "Enabled"
+msgstr ""
+
+#: $string['rulenew']
+msgid "New {$a} rule"
+msgstr ""
+
+#: $string['rules']
+msgid "Rules"
+msgstr ""
+
+#: $string['rulesnone']
+msgid "No rules"
+msgstr ""
+
+#: $string['save']
+msgctxt "$string['save']"
+msgid "Save"
+msgstr ""
+
+#: $string['savebutton']
+msgctxt "$string['savebutton']"
+msgid "Save"
+msgstr ""
+
+#: $string['savebutton_help']
+msgid "Saves the edited entry and returns to the view."
+msgstr ""
+
+#: $string['savebutton_label']
+msgid "Save button"
+msgstr ""
+
+#: $string['savecont']
+msgid "Save and continue"
+msgstr ""
+
+#: $string['savecontbutton']
+msgid "Save and Continue"
+msgstr ""
+
+#: $string['savecontbutton_help']
+msgid ""
+"Saves the edited entry and remains in the form to continue editing the "
+"entry."
+msgstr ""
+
+#: $string['savecontbutton_label']
+msgid "Save Continue button"
+msgstr ""
+
+#: $string['savecontnew']
+msgid "Save and start new"
+msgstr ""
+
+#: $string['savecontnewbutton']
+msgid "Save and Start New"
+msgstr ""
+
+#: $string['savecontnewbutton_help']
+msgid "Saves the edited entry and opens a new entry form."
+msgstr ""
+
+#: $string['savecontnewbutton_label']
+msgid "Save Continue New button"
+msgstr ""
+
+#: $string['savenew']
+msgid "Save new"
+msgstr ""
+
+#: $string['savenewbutton']
+msgid "Save as New"
+msgstr ""
+
+#: $string['savenewbutton_help']
+msgid ""
+"Saves the edited entry as a new entry (the original entry is not changed) "
+"and returns to the view."
+msgstr ""
+
+#: $string['savenewbutton_label']
+msgid "Save New button"
+msgstr ""
+
+#: $string['savenewcont']
+msgid "Save new and continue"
+msgstr ""
+
+#: $string['savenewcontbutton']
+msgid "Save as New and Continue"
+msgstr ""
+
+#: $string['savenewcontbutton_help']
+msgid ""
+"Saves the edited entry as a new entry (the original entry is not changed) "
+"and remains in the form to continue editing the new entry."
+msgstr ""
+
+#: $string['savenewcontbutton_label']
+msgid "Save New Continue button"
+msgstr ""
+
+#: $string['scope']
+msgid "Scope"
+msgstr ""
+
+#: $string['search']
+msgid "Search"
+msgstr ""
+
+#: $string['sender']
+msgid "Sender"
+msgstr ""
+
+#: $string['sendinratings']
+msgid "Send in my latest ratings"
+msgstr ""
+
+#: $string['separateentries']
+msgid "Each entry in a separate file"
+msgstr ""
+
+#: $string['separateparticipants']
+msgctxt "$string['separateparticipants']"
+msgid "Separate participants"
+msgstr ""
+
+#: $string['separateparticipants_help']
+msgctxt "$string['separateparticipants_help']"
+msgid "Separate participants"
+msgstr ""
+
+#: $string['settings']
+msgid "Settings"
+msgstr ""
+
+#: $string['spreadsheettype']
+msgid "Spreadsheet type"
+msgstr ""
+
+#: $string['subject']
+msgid "Subject"
+msgstr ""
+
+#: $string['submission']
+msgid "Submission"
+msgstr ""
+
+#: $string['submissiondefaultmessage']
+msgid "Thank you"
+msgstr ""
+
+#: $string['submissiondisplay']
+msgid "Display when editing"
+msgstr ""
+
+#: $string['submissiondisplayafter']
+msgid "Display only edited entries"
+msgstr ""
+
+#: $string['submissiondisplayafter_help']
+msgid ""
+"By default all the viewable entries will be displayed after submission. Set "
+"to 'Yes' if you want to display only the edited entry(s)."
+msgstr ""
+
+#: $string['submissionmessage']
+msgid "Response to submission"
+msgstr ""
+
+#: $string['submissionmessage_help']
+msgid ""
+"A message to display to user after successful submission and before the user "
+"is redirected to teh target view."
+msgstr ""
+
+#: $string['submissionredirect']
+msgid "Redirect to another view"
+msgstr ""
+
+#: $string['submissionredirect_help']
+msgid ""
+"By default the user remains in the same view after entry submission. If an "
+"alternate view is selected, the user will be redirect to that view after "
+"submission."
+msgstr ""
+
+#: $string['submissionsinpopup']
+msgid "Submissions in popup"
+msgstr ""
+
+#: $string['submissionsview']
+msgid "Submissions view"
+msgstr ""
+
+#: $string['submissiontimeout']
+msgid "Response timeout"
+msgstr ""
+
+#: $string['submissiontimeout_help']
+msgid ""
+"The delay (in seconds) after submission and before the user is redirected to "
+"the target view."
+msgstr ""
+
+#: $string['submitfailure']
+msgid "Your submission could not be saved. Please try again."
+msgstr ""
+
+#: $string['subplugintype_dataformfield']
+msgid "Dataform field type"
+msgstr ""
+
+#: $string['subplugintype_dataformfield_plural']
+msgid "Dataform field types"
+msgstr ""
+
+#: $string['subplugintype_dataformtool']
+msgid "Dataform tool type"
+msgstr ""
+
+#: $string['subplugintype_dataformtool_plural']
+msgid "Dataform tool types"
+msgstr ""
+
+#: $string['subplugintype_dataformview']
+msgid "Dataform view type"
+msgstr ""
+
+#: $string['subplugintype_dataformview_plural']
+msgid "Dataform view types"
+msgstr ""
+
+#: $string['timeavailable']
+msgctxt "$string['timeavailable']"
+msgid "Available from"
+msgstr ""
+
+#: $string['timeavailable_help']
+msgid ""
+"The designated start time of the activity. This time appears in the course "
+"calendar. The 'earlyentry' set of capabilities allows for controling entry "
+"permissions before this time."
+msgstr ""
+
+#: $string['timedue']
+msgid "Due"
+msgstr ""
+
+#: $string['timedue_help']
+msgid ""
+"The designated end time of the activity. This time appears in the course "
+"calendar.  The 'lateentry' set of capabilities allows for controling entry "
+"permissions after this time."
+msgstr ""
+
+#: $string['timeinterval']
+msgid "Duration"
+msgstr ""
+
+#: $string['timeinterval_err']
+msgid "Activity duration is required for multiple intervals."
+msgstr ""
+
+#: $string['timeinterval_help']
+msgid "The duration of the activity from its Available-from time."
+msgstr ""
+
+#: $string['timing']
+msgid "Timing and Intervals"
+msgstr ""
+
+#: $string['toolnoneindataform']
+msgid "There are no tools defined for this dataform."
+msgstr ""
+
+#: $string['toolrun']
+msgid "Run"
+msgstr ""
+
+#: $string['tools']
+msgid "Tools"
+msgstr ""
+
+#: $string['type']
+msgid "Type"
+msgstr ""
+
+#: $string['unlock']
+msgid "Unlock"
+msgstr ""
+
+#: $string['usegradeitemsform']
+msgid ""
+"This instance contains multiple grade items. To edit these items, please use "
+"the <a href=\"{$a}\">grade items form</a>."
+msgstr ""
+
+#: $string['userpref']
+msgid "User preferences"
+msgstr ""
+
+#: $string['view']
+msgid "view"
+msgstr ""
+
+#: $string['viewadd']
+msgid "Add a view"
+msgstr ""
+
+#: $string['viewcreate']
+msgid "Create a new view"
+msgstr ""
+
+#: $string['viewcurrent']
+msgid "Current view"
+msgstr ""
+
+#: $string['viewcustomdays']
+msgid "Custom refresh interval: days"
+msgstr ""
+
+#: $string['viewcustomhours']
+msgid "Custom refresh interval: hours"
+msgstr ""
+
+#: $string['viewcustomminutes']
+msgid "Custom refresh interval: minutes"
+msgstr ""
+
+#: $string['viewdescription']
+msgid "View description"
+msgstr ""
+
+#: $string['viewdescription_help']
+msgid ""
+"Short description of the view purpose and characteristics to allow managers "
+"to see at a glance what each view is intended for. This description is "
+"displayed only in the view management list."
+msgstr ""
+
+#: $string['viewdisabled']
+msgid "Disabled"
+msgstr ""
+
+#: $string['viewedit']
+msgctxt "$string['viewedit']"
+msgid "Editing '{$a}\\"
+msgstr ""
+
+#: $string['vieweditthis']
+msgid "Edit this view"
+msgstr ""
+
+#: $string['viewfilter']
+msgctxt "$string['viewfilter']"
+msgid "Filter"
+msgstr ""
+
+#: $string['viewfilter_help']
+msgid ""
+"A predefined filter from the Filters list (if any) that will be enforced in "
+"the view."
+msgstr ""
+
+#: $string['viewforedit']
+msgid "View for 'edit\\"
+msgstr ""
+
+#: $string['viewformore']
+msgid "View for 'more\\"
+msgstr ""
+
+#: $string['viewfromdate']
+msgid "Viewable from"
+msgstr ""
+
+#: $string['viewgeneral']
+msgctxt "$string['viewgeneral']"
+msgid "View general settings"
+msgstr ""
+
+#: $string['viewgeneral_help']
+msgctxt "$string['viewgeneral_help']"
+msgid "View general settings"
+msgstr ""
+
+#: $string['viewhidden']
+msgid "Hidden"
+msgstr ""
+
+#: $string['viewinterval']
+msgid "When to refresh view content"
+msgstr ""
+
+#: $string['viewintervalsettings']
+msgid "Interval settings"
+msgstr ""
+
+#: $string['viewname']
+msgid "View name"
+msgstr ""
+
+#: $string['viewname_help']
+msgid ""
+"Short name for the view. The view name can be used in certain view patterns "
+"in which case the format of the name should as simple as possible, only "
+"alpha or alphanumeric characters, to avoid pattern parsing problems."
+msgstr ""
+
+#: $string['viewnew']
+msgid "New {$a} view"
+msgstr ""
+
+#: $string['viewnodefault']
+msgid ""
+"Default view is not set. Choose one of the views in the {$a} list as the "
+"default view."
+msgstr ""
+
+#: $string['viewnoneforaction']
+msgid "No views were found for the requested action"
+msgstr ""
+
+#: $string['viewnoneindataform']
+msgid "There are no views defined for this dataform."
+msgstr ""
+
+#: $string['viewoptions']
+msgid "View options"
+msgstr ""
+
+#: $string['viewpagingfield']
+msgid "Paging field"
+msgstr ""
+
+#: $string['viewpatterns']
+msgid "View patterns"
+msgstr ""
+
+#: $string['viewpatterns_help']
+msgid "Patterns whose content is typically entry insensitive."
+msgstr ""
+
+#: $string['viewperpage']
+msgctxt "$string['viewperpage']"
+msgid "Per page"
+msgstr ""
+
+#: $string['viewperpage_help']
+msgid ""
+"The max number of entries to display in the view at any given time. If the "
+"number of viewable entries is higher than the selected per-page a paging bar "
+"will be displayed (provided the ##paging:bar## is added to the view "
+"template)."
+msgstr ""
+
+#: $string['viewplugins']
+msgid "View plugins"
+msgstr ""
+
+#: $string['viewresettodefault']
+msgid "Reset to default"
+msgstr ""
+
+#: $string['viewreturntolist']
+msgid "Return to list"
+msgstr ""
+
+#: $string['views']
+msgid "Views"
+msgstr ""
+
+#: $string['viewsadded']
+msgid "{$a} view(s) added"
+msgstr ""
+
+#: $string['viewsconfirmdelete']
+msgid "You are about to delete {$a} view(s). Would you like to proceed?"
+msgstr ""
+
+#: $string['viewsconfirmduplicate']
+msgid "You are about to duplicate {$a} view(s). Would you like to proceed?"
+msgstr ""
+
+#: $string['viewsdeleted']
+msgid "{$a} view(s) deleted"
+msgstr ""
+
+#: $string['viewsectionpos']
+msgid "Section position"
+msgstr ""
+
+#: $string['viewslidepaging']
+msgid "Slide paging"
+msgstr ""
+
+#: $string['viewsmax']
+msgid "Maximum views"
+msgstr ""
+
+#: $string['viewsupdated']
+msgid "{$a} view(s) updated"
+msgstr ""
+
+#: $string['viewtemplate']
+msgid "View template"
+msgstr ""
+
+#: $string['viewtemplate_help']
+msgid ""
+"The view template allows you to determine content, behaviour and general "
+"layout of a front view page in the Dataform activity. This template "
+"typically contains elements for activity navigation, search and sort, and "
+"entries display. When creating a new view, the template is populated "
+"automatically with a default layout and you can then add or remove elements "
+"as needed. The WYSIWYG editor also allows you to decorate the template and "
+"create your own look and feel with color, font and images."
+msgstr ""
+
+#: $string['viewtiming']
+msgid "View timing"
+msgstr ""
+
+#: $string['viewtiming_help']
+msgid ""
+"Set From and/or To dates to restrict access to the view only between the "
+"specified dates to any one without accessanytime capability. Tick the 'Set "
+"as default' checkbox to set the view as the default view when it becomes "
+"available."
+msgstr ""
+
+#: $string['viewvisibility']
+msgid "Visibility"
+msgstr ""
+
+#: $string['viewvisibility_help']
+msgid ""
+"A Disabled view is accessible only with viewaccessdisabled capability "
+"(typically teachers and managers).\n"
+"A Visible view can be accessed by participants and it appears in navigation.\n"
+"A Hidden view can be accessed by participants but does not appear in "
+"navigation."
+msgstr ""
+
+#: $string['viewvisible']
+msgid "Visible"
+msgstr ""
+
+#: $string['wrongdataid']
+msgid "Wrong dataform id provided"
+msgstr ""

@@ -1,0 +1,102 @@
+#. extracted from lang/en/dbtransfer.php, lang/el/dbtransfer.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:14+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'dbtransfer', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   dbtransfer
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['checkingsourcetables']
+msgid "Checking source table structure"
+msgstr "Γίνεται έλεγχος της δομής των πινάκων"
+
+#: $string['copyingtable']
+msgid "Copying table {$a}"
+msgstr "Αντιγραφή πίνακα {$a}"
+
+#: $string['copyingtables']
+msgid "Copying table contents"
+msgstr "Αντιγραφή περιεχομένων πίνακα"
+
+#: $string['creatingtargettables']
+msgid "Creating the tables in the target database"
+msgstr "Δημιουργία πινάκων στη βάση-προορισμό"
+
+#: $string['dbexport']
+msgid "Database export"
+msgstr "Εξαγωγή βάσης δεδομεων"
+
+#: $string['dbtransfer']
+msgid "Database transfer"
+msgstr "Μεταφορά βάσης δεδομένων"
+
+#: $string['differenttableexception']
+msgid "Table {$a} structure does not match."
+msgstr "Η δομή του πίνακα {$a} δεν ταιριάζει."
+
+#: $string['done']
+msgid "Done"
+msgstr "Έγινε"
+
+#: $string['exportschemaexception']
+msgctxt "$string['exportschemaexception']"
+msgid ""
+"Current database structure does not match all install.xml files. <br /> {$a}"
+msgstr ""
+"Η δομή της τρέχουσας βάσης δεν ταιριάζει με όλα τα αρχεία install.xml. <br "
+"/> {$a}"
+
+#: $string['importschemaexception']
+msgctxt "$string['importschemaexception']"
+msgid ""
+"Current database structure does not match all install.xml files. <br /> {$a}"
+msgstr ""
+"Η δομή της τρέχουσας βάσης δεν ταιριάζει με όλα τα αρχεία install.xml. <br "
+"/> {$a}"
+
+#: $string['importversionmismatchexception']
+msgid ""
+"Current version {$a->currentver} does not match exported version "
+"{$a->schemaver}."
+msgstr ""
+"Η τρέχουσα έκδοση {$a->currentver} δεν ταιριάζει με την εξηχθείσα έκδοση "
+"{$a->schemaver}."
+
+#: $string['malformedxmlexception']
+msgid "Malformed XML found, can not continue."
+msgstr "Βρέθηκε κακοσχηματισμένο XML, είναι αδύνατη η συνέχεια."
+
+#: $string['tablex']
+msgid "Table {$a}:"
+msgstr ""
+
+#: $string['unknowntableexception']
+msgid "Unknown table {$a} found in export file."
+msgstr "Άγνωστος πίνακας {$a} βρέθηκε στο εξαγμένο αρχείο."

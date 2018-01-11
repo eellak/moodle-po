@@ -1,0 +1,1224 @@
+#. extracted from lang/en/filter_poodll.php, lang/el/filter_poodll.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'filter_poodll', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   filter_poodll
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['activate']
+msgid "Activate PoodLL?"
+msgstr ""
+
+#: $string['alwayshtml5']
+msgid "Always use HTML5"
+msgstr ""
+
+#: $string['audiotranscode']
+msgid "Auto Conv. to MP3"
+msgstr ""
+
+#: $string['audiotranscodedetails']
+msgid ""
+"Convert recorded/uploaded audio file to MP3 format before storing in Moodle. "
+"This works for recordings made on tokyo.poodll.com, or uploaded recordings "
+"if using FFMPEG"
+msgstr ""
+
+#: $string['autotryports']
+msgid "Try diff. ports if cannot connect"
+msgstr ""
+
+#: $string['awsregion']
+msgid "Cloud Region (AWS)"
+msgstr ""
+
+#: $string['awsregion_desc']
+msgid ""
+"Choose the closest region to your Moodle server for best performance and to "
+"satisfy any data protection policies or regulations that apply to you."
+msgstr ""
+
+#: $string['awssdkversion']
+msgid "AWS SDK"
+msgstr ""
+
+#: $string['awssdkversion_desc']
+msgid ""
+"PoodLL cloud recording uses Amazon Web Services (AWS). Version 3.x is "
+"supported but not shipped with PoodLL. Version 2.x of the AWS SDK will work "
+"on PHP 5.3 or greater. You should not need to change this, but contact "
+"PoodLL support if the need arises."
+msgstr ""
+
+#: $string['bandwidth']
+msgid "Student connection. bytes/second. Affects webcam qual."
+msgstr ""
+
+#: $string['bgtranscode_audio']
+msgid "Perform Conversions to MP3 Background"
+msgstr ""
+
+#: $string['bgtranscodedetails_audio']
+msgid ""
+"This is more reliable than performing them while user waits. But the user "
+"will not get their audio till cron has run after saving. Only works if you "
+"are using FFMPEG and Moodle 2.7 or higher. For recordings in MP3 with the "
+"MP3 recorder, conversion takes place in the browser, not on the server. So "
+"server side conversion (FFMPEG) will not be used."
+msgstr ""
+
+#: $string['bgtranscodedetails_video']
+msgid ""
+"This is more reliable than performing them while user waits. But the user "
+"will not get their video till cron has run after saving. Only works if you "
+"are using FFMPEG and Moodle 2.7 or higher."
+msgstr ""
+
+#: $string['bgtranscode_video']
+msgid "Perform Conversions to MP4 Background"
+msgstr ""
+
+#: $string['bmr_recorder']
+msgid "Burnt Rose"
+msgstr ""
+
+#: $string['bundle']
+msgid "Bundle"
+msgstr ""
+
+#: $string['burntrose_recorder']
+msgid "Burnt Rose  (old)"
+msgstr ""
+
+#: $string['cameraback']
+msgid "back"
+msgstr ""
+
+#: $string['camerafront']
+msgid "front"
+msgstr ""
+
+#: $string['cancel']
+msgctxt "$string['cancel']"
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: $string['capturefps']
+msgid "Video Recorder Capture FPS"
+msgstr ""
+
+#: $string['captureheight']
+msgid "Video Recorder Capture Height"
+msgstr ""
+
+#: $string['capturewidth']
+msgid "Video Recorder Capture Size"
+msgstr ""
+
+#: $string['cleartemplate']
+msgid "Clear template"
+msgstr ""
+
+#: $string['dataset']
+msgid "Dataset"
+msgstr ""
+
+#: $string['dataset_desc']
+msgid ""
+"Poodll allows you to pull a dataset from the database for use in your "
+"template. This is an advanced feature. Enter the sql portion of a "
+"$DB->get_records_sql call here."
+msgstr ""
+
+#: $string['datasetvars']
+msgid "Dataset Variables"
+msgstr ""
+
+#: $string['datasetvars_desc']
+msgid ""
+"Put a comma separated list of variables that make up the vars for the SQL. "
+"You can and probably will want to use variables here."
+msgstr ""
+
+#: $string['debug_enable']
+msgid "Enable Debugging"
+msgstr ""
+
+#: $string['debug_enable_details']
+msgid ""
+"If enabled, information about recordings will be stored in the Moodle logs. "
+"These are intended to assist in troubleshooting and support from the Poodll "
+"helpdesk. Turn off when not needed or you will have useless junk in your "
+"Moodle log."
+msgstr ""
+
+#: $string['debug_heading']
+msgid "Poodll Debugging"
+msgstr ""
+
+#: $string['default_camera']
+msgid "Default camera"
+msgstr ""
+
+#: $string['defaultwhiteboard']
+msgid "Default whiteboard"
+msgstr ""
+
+#: $string['event_adhoc_completed']
+msgid "Poodll Adhoc task completed"
+msgstr ""
+
+#: $string['event_adhoc_convert_completed']
+msgid "Poodll Adhoc convert task completed"
+msgstr ""
+
+#: $string['event_adhoc_convert_registered']
+msgid "Poodll Adhoc convert task registered"
+msgstr ""
+
+#: $string['event_adhoc_move_completed']
+msgid "Poodll Adhoc move task completed"
+msgstr ""
+
+#: $string['event_adhoc_move_registered']
+msgid "Poodll Adhoc move task registered"
+msgstr ""
+
+#: $string['event_adhoc_registered']
+msgid "Poodll Adhoc task registered"
+msgstr ""
+
+#: $string['event_debug_log']
+msgid "Poodll debug note"
+msgstr ""
+
+#: $string['expired']
+msgid ""
+"PoodLL not displayed because registration has expired. Ask your "
+"teacher/administrator to renew the registration at PoodLL.com."
+msgstr ""
+
+#: $string['exportdiagnostics']
+msgid "Export"
+msgstr "Εξαγωγή"
+
+#: $string['extensions']
+msgid "File Extensions"
+msgstr ""
+
+#: $string['extensions_desc']
+msgid ""
+"A CSV (comma separated value) list of file extensions this filter can parse."
+msgstr ""
+
+#: $string['extensionsettings']
+msgid "File Extension Settings"
+msgstr ""
+
+#: $string['ffmpeg']
+msgid "Convert uploaded media with FFMPEG"
+msgstr ""
+
+#: $string['ffmpeg_details']
+msgid ""
+"FFMPEG must be installed on your Moodle Server and on the system path. It "
+"will need to support converting to mp3, so try it out first on the command "
+"line, eg ffmpeg -i somefile.flv somefile.mp3 ."
+msgstr ""
+
+#: $string['filtername']
+msgctxt "$string['filtername']"
+msgid "PoodLL Filter"
+msgstr ""
+
+#: $string['filter_poodll_audioplayer_heading']
+msgid "Audio Player Settings"
+msgstr ""
+
+#: $string['filter_poodll_camera_heading']
+msgid "Web Camera Settings"
+msgstr ""
+
+#: $string['filter_poodll_flashcards_heading']
+msgid "Flashcards Settings"
+msgstr ""
+
+#: $string['filter_poodll_html5recorder_heading']
+msgid "HTML5 Recorder Settings"
+msgstr ""
+
+#: $string['filter_poodll_mic_heading']
+msgid "Microphone Settings"
+msgstr ""
+
+#: $string['filter_poodll_mp3recorder_heading']
+msgid "MP3 Recorder Settings"
+msgstr ""
+
+#: $string['filter_poodll_network_heading']
+msgid "PoodLL Network Settings"
+msgstr ""
+
+#: $string['filter_poodll_registration_explanation']
+msgid ""
+"PoodLL 3 requires a registration key. If you do not have one visit "
+"Poodll.com to get one."
+msgstr ""
+
+#: $string['filter_poodll_registration_heading']
+msgid "Register your PoodLL"
+msgstr ""
+
+#: $string['filter_poodll_videogallery_heading']
+msgid "Video Gallery Settings"
+msgstr ""
+
+#: $string['filter_poodll_videoplayer_heading']
+msgid "Video Player Settings"
+msgstr ""
+
+#: $string['filter_poodll_whiteboard_heading']
+msgid "Whiteboard Settings"
+msgstr ""
+
+#: $string['flashcardstype']
+msgid "Flashcards Type"
+msgstr ""
+
+#: $string['flashonandroid']
+msgid "Use Flash on Android"
+msgstr ""
+
+#: $string['flashonandroid_desc']
+msgid ""
+"It is possible to use Flash on Android, though in many cases its not "
+"available and difficult to communicate to students what to do. So by default "
+"this is off."
+msgstr ""
+
+#: $string['generalsettings']
+msgid "General Settings"
+msgstr ""
+
+#: $string['gold_recorder']
+msgid "Single Button (beta)"
+msgstr ""
+
+#: $string['handle']
+msgid "Handle {$a}"
+msgstr ""
+
+#: $string['have_recent_event']
+msgid "Found a recently fired move-completed event for: {$a}"
+msgstr ""
+
+#: $string['have_task']
+msgid "Found a waiting move/convert task for: {$a}"
+msgstr ""
+
+#: $string['highquality']
+msgid "high"
+msgstr ""
+
+#: $string['html5ondsafari']
+msgid "Use on desktop Safari"
+msgstr ""
+
+#: $string['html5ondsafaridetails']
+msgid ""
+"Desktop Safari may not select the correct audio device and there is no "
+"option to select a different one. In most cases its ok, but on Mac Mini it "
+"may not detect a working audio device at all."
+msgstr ""
+
+#: $string['html5recorder_skin_audio']
+msgid "HTML5 Recorder Skin(Audio)"
+msgstr ""
+
+#: $string['html5recorder_skin_video']
+msgid "HTML5 Recorder Skin(Video)"
+msgstr ""
+
+#: $string['insert']
+msgid "Insert"
+msgstr ""
+
+#: $string['jumpcat_explanation']
+msgid ""
+"The full set of Poodll filter settings can be found <a href=\"{$a}\">here</a>."
+msgstr ""
+
+#: $string['jumpcat_heading']
+msgid "Poodll filter settings"
+msgstr ""
+
+#: $string['license_details']
+msgid ""
+"<br> -------------- <br> License type: {$a->license_type} <br> Expires(JST): "
+"{$a->expire_date} <br> Registered URL: {$a->registered_url}"
+msgstr ""
+
+#: $string['lowquality']
+msgid "low"
+msgstr ""
+
+#: $string['mediumquality']
+msgid "medium"
+msgstr ""
+
+#: $string['miccanpause']
+msgid "Allow pause (MP3 recorder only)"
+msgstr ""
+
+#: $string['micecho']
+msgid "Mic. Echo"
+msgstr ""
+
+#: $string['micgain']
+msgid "Mic. Gain"
+msgstr ""
+
+#: $string['micloopback']
+msgid "Mic. Loopback"
+msgstr ""
+
+#: $string['micrate']
+msgid "Mic. Rate"
+msgstr ""
+
+#: $string['micsilencelevel']
+msgid "Mic. Silence Level"
+msgstr ""
+
+#: $string['mobileandwebkit']
+msgid "Mobile + Webkit browsers(Safari,Chrome etc)"
+msgstr ""
+
+#: $string['mobile_audio_quality']
+msgid "Audio quality"
+msgstr ""
+
+#: $string['mobileonly']
+msgid "Mobile devices only"
+msgstr ""
+
+#: $string['mobile_os_version_warning']
+msgid ""
+"<p>Your OS Version is too low</p>\n"
+"\t\t<p>Android requires version 4 or greater.</p>\n"
+"\t\t<p>iOS requires version 6 or greater.</p>"
+msgstr ""
+
+#: $string['mobilesettings']
+msgid "iOS App Settings"
+msgstr ""
+
+#: $string['mobile_show']
+msgid "Show mobile"
+msgstr ""
+
+#: $string['mobile_show_desc']
+msgid ""
+"When the user is on an iOS device, instead of a recorder they are shown an "
+"\"upload/record\" button and a \"use PoodLL app\" button. Uncheck this to hide "
+"the PoodLL app button."
+msgstr ""
+
+#: $string['mobile_video_quality']
+msgid "Video quality"
+msgstr ""
+
+#: $string['mp3_nocloud']
+msgid "No Cloud"
+msgstr ""
+
+#: $string['mp3_nocloud_details']
+msgid "Do not submit Flash mp3 recordings to cloud for transcode and copyback."
+msgstr ""
+
+#: $string['mp3opts']
+msgid "FFMPEG MP3 Conversion options"
+msgstr ""
+
+#: $string['mp3opts_details']
+msgid ""
+"Leave this empty if you wish to let FFMPEG make the decisions. Anything you "
+"put here will appear between [ffmpeg -i myfile.xx ] and [ myfile.mp3 ]"
+msgstr ""
+
+#: $string['mp3skin']
+msgid "MP3 Skin"
+msgstr ""
+
+#: $string['mp3skin_details']
+msgid ""
+"If you want to use a recorder skin, ala theme, enter its name here. "
+"Otherwise enter: none."
+msgstr ""
+
+#: $string['mp4opts']
+msgid "FFMPEG MP4 Conversion options"
+msgstr ""
+
+#: $string['mp4opts_details']
+msgid ""
+"Leave this empty if you wish to let FFMPEG make the decisions. Anything you "
+"put here will appear between [ffmpeg -i myfile.xx ] and [ myfile.mp4 ]"
+msgstr ""
+
+#: $string['neverhtml5']
+msgid "Never use HTML5"
+msgstr ""
+
+#: $string['no_event_or_task']
+msgid "Found neither a waiting move task, nor move-completed event for: {$a}"
+msgstr ""
+
+#: $string['normal']
+msgid "Normal"
+msgstr ""
+
+#: $string['onetwothree_recorder']
+msgid "One Two Three"
+msgstr ""
+
+#: $string['picqual']
+msgid "Target webcam qual. 1 - 10"
+msgstr ""
+
+#: $string['plain_recorder']
+msgid "Plain"
+msgstr ""
+
+#: $string['player']
+msgid "Player {$a}"
+msgstr ""
+
+#: $string['playertype']
+msgid "player"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "PoodLL Filter"
+msgstr ""
+
+#: $string['poodll:candownloadmedia']
+msgid "Can download media"
+msgstr ""
+
+#: $string['poodllsupportinfo']
+msgid "PoodLL Support Information"
+msgstr ""
+
+#: $string['poodlltemplatesadmin']
+msgid "Poodll Filter Templates Admin"
+msgstr ""
+
+#: $string['presets']
+msgid "Autofill template with a Preset"
+msgstr ""
+
+#: $string['presets_desc']
+msgid ""
+"PoodLL comes with some default presets you can use out of the box, or to "
+"help you get started with your own template. Choose one of those here, or "
+"just create your own template from scratch. You can export a template as a "
+"bundle by clicking on the green box above. You can import a bundle by "
+"dragging it onto the green box."
+msgstr ""
+
+#: $string['recorderorder']
+msgid "Preferred Recorder Order"
+msgstr ""
+
+#: $string['recorderorder_audio']
+msgid "Audio Recorder Order"
+msgstr ""
+
+#: $string['recorderorder_audio_desc']
+msgctxt "$string['recorderorder_audio_desc']"
+msgid ""
+msgstr ""
+
+#: $string['recorderorder_desc']
+msgid ""
+"PoodLL will choose the best recorder it can if the user browser and platform "
+"support it. You set the order here."
+msgstr ""
+
+#: $string['recorderorder_snapshot']
+msgid "Snapshot Recorder Order"
+msgstr ""
+
+#: $string['recorderorder_snapshot_desc']
+msgctxt "$string['recorderorder_snapshot_desc']"
+msgid ""
+msgstr ""
+
+#: $string['recorderorder_video']
+msgid "Video Recorder Order"
+msgstr ""
+
+#: $string['recorderorder_video_desc']
+msgctxt "$string['recorderorder_video_desc']"
+msgid ""
+msgstr ""
+
+#: $string['recorderorder_whiteboard']
+msgid "Whiteboard Recorder Order"
+msgstr ""
+
+#: $string['recorderorder_whiteboard_desc']
+msgid ""
+"(This setting is currently not used and may be removed from Poodll soon)"
+msgstr ""
+
+#: $string['recui_audiogain']
+msgid "Audio Gain"
+msgstr ""
+
+#: $string['recui_audiorate']
+msgid "Audio Rate"
+msgstr ""
+
+#: $string['recui_awaitingconfirmation']
+msgid "Awaiting confirmation"
+msgstr ""
+
+#: $string['recui_btnupload']
+msgid "Record or Choose a File"
+msgstr ""
+
+#: $string['recui_cancelsnapshot']
+msgctxt "$string['recui_cancelsnapshot']"
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: $string['recui_close']
+msgid "Close"
+msgstr ""
+
+#: $string['recui_continue']
+msgid "Continue"
+msgstr ""
+
+#: $string['recui_converting']
+msgid "converting"
+msgstr ""
+
+#: $string['recui_echo']
+msgid "Echo Suppression"
+msgstr ""
+
+#: $string['recui_inaudibleerror']
+msgid "We can not hear you. Please check flash and browser permissions."
+msgstr ""
+
+#: $string['recui_loopback']
+msgid "Loopback"
+msgstr ""
+
+#: $string['recui_nothingtosaveerror']
+msgid "Nothing was captured. Sorry .. nothing to upload."
+msgstr ""
+
+#: $string['recui_off']
+msgid "Off"
+msgstr ""
+
+#: $string['recui_ok']
+msgid "OK"
+msgstr ""
+
+#: $string['recui_on']
+msgid "On"
+msgstr ""
+
+#: $string['recui_openrecorderapp']
+msgid "PoodLL App"
+msgstr ""
+
+#: $string['recui_pause']
+msgid "Pause"
+msgstr ""
+
+#: $string['recui_play']
+msgid "Play"
+msgstr ""
+
+#: $string['recui_record']
+msgid "Record"
+msgstr ""
+
+#: $string['recui_recordorchoose']
+msgid "Record or Choose"
+msgstr ""
+
+#: $string['recui_restart']
+msgid "Restart"
+msgstr ""
+
+#: $string['recui_save']
+msgid "Upload"
+msgstr ""
+
+#: $string['recui_silencelevel']
+msgid "Silence Level"
+msgstr ""
+
+#: $string['recui_stop']
+msgid "Stop"
+msgstr ""
+
+#: $string['recui_takesnapshot']
+msgid "Take Picture"
+msgstr ""
+
+#: $string['recui_time']
+msgid "Time:"
+msgstr ""
+
+#: $string['recui_timeouterror']
+msgid "The request timed out. Sorry."
+msgstr ""
+
+#: $string['recui_uploadafile']
+msgid "Upload File"
+msgstr "Ανέβασμα αρχείου"
+
+#: $string['recui_uploaderror']
+msgid "An error occurred and your file has NOT been uploaded."
+msgstr ""
+
+#: $string['recui_uploading']
+msgid "uploading"
+msgstr ""
+
+#: $string['recui_uploadsuccess']
+msgid "Uploaded successfully"
+msgstr ""
+
+#: $string['REGION_APN1']
+msgid "Asia Pacific (Tokyo)"
+msgstr ""
+
+#: $string['REGION_APN2']
+msgid "Asia Pacific (Seoul)"
+msgstr ""
+
+#: $string['REGION_APS1']
+msgid "Asia Pacific (Mumbai)"
+msgstr ""
+
+#: $string['REGION_APSE1']
+msgid "Asia Pacific (Singapore)"
+msgstr ""
+
+#: $string['REGION_APSE2']
+msgid "Asia Pacific (Sydney)"
+msgstr ""
+
+#: $string['REGION_CAC1']
+msgid "Canada (Central)"
+msgstr ""
+
+#: $string['REGION_EUC1']
+msgid "EU (Frankfurt)"
+msgstr ""
+
+#: $string['REGION_EUW1']
+msgid "EU (Ireland)"
+msgstr ""
+
+#: $string['REGION_EUW2']
+msgid "EU (London)"
+msgstr ""
+
+#: $string['REGION_SAE1']
+msgid "South America (São Paulo)"
+msgstr ""
+
+#: $string['REGION_USE1']
+msgid "US East (N. Virginia)"
+msgstr ""
+
+#: $string['REGION_USE2']
+msgid "US East (Ohio)"
+msgstr ""
+
+#: $string['REGION_USW1']
+msgid "US West (N. California)"
+msgstr ""
+
+#: $string['REGION_USW2']
+msgid "US West (Oregon)"
+msgstr ""
+
+#: $string['registrationkey']
+msgid "Registration Key"
+msgstr ""
+
+#: $string['registrationkey_explanation']
+msgid ""
+"Enter your PoodLL registration key here. You can obtain a key from <a "
+"href='https://poodll.com/pricing'>https://poodll.com/pricing</a>"
+msgstr ""
+
+#: $string['serverhttpport']
+msgid "PoodLL Server Port (HTTP)"
+msgstr ""
+
+#: $string['serverid']
+msgid "PoodLL Server Id"
+msgstr ""
+
+#: $string['servername']
+msgid "PoodLL Host Address"
+msgstr ""
+
+#: $string['serverport']
+msgid "PoodLL Server Port (RTMP)"
+msgstr ""
+
+#: $string['settings']
+msgid "PoodLL Filter Settings"
+msgstr ""
+
+#: $string['showdownloadicon']
+msgid "Show download button under players"
+msgstr ""
+
+#: $string['showdownloadicon_desc']
+msgid ""
+"This is implemented in some players. native players, mediaelement players, "
+"audiojs_shim, flowplayer first frame and Video JS"
+msgstr ""
+
+#: $string['sitedefault']
+msgid "Site Default"
+msgstr ""
+
+#: $string['size']
+msgid "Size"
+msgstr ""
+
+#: $string['skinstyleaudio']
+msgid "Skin style(audio)"
+msgstr ""
+
+#: $string['skinstyleaudio_details']
+msgid ""
+"A CSS class name that will be added to the audio recorder to assist in "
+"customizing recorder appearance."
+msgstr ""
+
+#: $string['skinstylevideo']
+msgid "Skin style(video)"
+msgstr ""
+
+#: $string['skinstylevideo_details']
+msgid ""
+"A CSS class name that will be added to the video recorder to assist in "
+"customizing recorder appearance."
+msgstr ""
+
+#: $string['studentcam']
+msgid "Preferred device name for camera"
+msgstr ""
+
+#: $string['studentmic']
+msgid "Preferred  device name for microphone"
+msgstr ""
+
+#: $string['supportinfo']
+msgid "Support Info"
+msgstr ""
+
+#: $string['template']
+msgid "The body of template {$a}"
+msgstr ""
+
+#: $string['templatealternate']
+msgid "Alternate content (template {$a})"
+msgstr ""
+
+#: $string['templatealternate_desc']
+msgid ""
+"Content that can be used when the custom CSS and javascript content is not "
+"available. Currently this is used when the template is processed by a "
+"webservice, probably for content on the mobile app"
+msgstr ""
+
+#: $string['templatealternate_end']
+msgid "Alternate content end (template {$a})"
+msgstr ""
+
+#: $string['templatealternate_end_desc']
+msgid ""
+"Closing alternate content tags for templates that enclose user content with "
+"start and end PoodLL tags"
+msgstr ""
+
+#: $string['templatecount']
+msgid "Template Count"
+msgstr ""
+
+#: $string['templatecount_desc']
+msgid "The number of templates you can have. Default is 20."
+msgstr ""
+
+#: $string['templatedefaults']
+msgid "variable defaults (template {$a})"
+msgstr ""
+
+#: $string['templatedefaults_desc']
+msgid ""
+"Define the defaults in comma delimited sets of name=value pairs. eg "
+"width=800,height=900,feeling=joy"
+msgstr ""
+
+#: $string['template_desc']
+msgid ""
+"Put the template here, define variables by surrounding them with @@ marks at "
+"either e. eg @@variable@@"
+msgstr ""
+
+#: $string['templateend']
+msgid "End tags(template {$a})"
+msgstr ""
+
+#: $string['templateend_desc']
+msgid ""
+"If your template encloses user content, eg an info box, put the closing tags "
+"here. The user will enter something like {POODLL:mytag_end} to close out "
+"the filter."
+msgstr ""
+
+#: $string['templateheading']
+msgid "Settings for Poodll Template {$a}"
+msgstr ""
+
+#: $string['templateheadingcss']
+msgid "CSS/Style Settings."
+msgstr ""
+
+#: $string['templateheadingjs']
+msgid "Javascript Settings."
+msgstr ""
+
+#: $string['templateinstructions']
+msgid "Instructions (template {$a})"
+msgstr ""
+
+#: $string['templateinstructions_desc']
+msgid ""
+"Any instructions entered here will be displayed on the PoodLL atto form if "
+"this template is available to be shown there. Keep them short or it will "
+"look bad."
+msgstr ""
+
+#: $string['templatekey']
+msgid "The key that identifies template {$a}"
+msgstr ""
+
+#: $string['templatekey_desc']
+msgid ""
+"The key should be one word and only contain numbers and letters, "
+"underscores, hyphens and dots ."
+msgstr ""
+
+#: $string['templatename']
+msgid "The display name for the template {$a}"
+msgstr ""
+
+#: $string['templatename_desc']
+msgid ""
+"The name can contain numbers and letters, underscores, hyphens and dots ."
+msgstr ""
+
+#: $string['templatepageheading']
+msgid "(T): {$a}"
+msgstr ""
+
+#: $string['templatepageplayerheading']
+msgid "(P): {$a}"
+msgstr ""
+
+#: $string['templatepagewidgetheading']
+msgid "(W): {$a}"
+msgstr ""
+
+#: $string['templaterequire_amd']
+msgid "Load via AMD"
+msgstr ""
+
+#: $string['templaterequire_amd_desc']
+msgid ""
+"AMD is a javascript loading mechanism. If you upload or link to javascript "
+"libraries in your template, you might have to uncheck this. It only applies "
+"if on Moodle 2.9 or greater"
+msgstr ""
+
+#: $string['templaterequire_css']
+msgid "Requires CSS (template {$a})"
+msgstr ""
+
+#: $string['templaterequire_css_desc']
+msgid ""
+"A link(1 only) to an external CSS file that this template requires. "
+"optional."
+msgstr ""
+
+#: $string['templaterequire_jquery']
+msgid "Requires JQuery (template {$a})"
+msgstr ""
+
+#: $string['templaterequire_jquery_desc']
+msgid ""
+"Its best NOT to check this. Many non AMD templates require JQuery. Checking "
+"here will load JQuery, but not very well. Your theme may already load JQuery "
+"anyway. If not, add this string to Site Administration -> Appearance -> "
+"Additional HTML (within HEAD):<br/> &lt;script "
+"src=\"https://code.jquery.com/jquery-1.11.2.min.js\"&gt;&lt;/script&gt;"
+msgstr ""
+
+#: $string['templaterequire_js']
+msgid "Requires JS (template {$a})"
+msgstr ""
+
+#: $string['templaterequire_js_desc']
+msgid ""
+"A link(1 only) to an external JS file that this template requires. optional."
+msgstr ""
+
+#: $string['templaterequire_js_shim']
+msgid "Shim Export(template {$a})"
+msgstr ""
+
+#: $string['templaterequire_js_shim_desc']
+msgid "Enter the shim exports value if and ONLY if you need to shim."
+msgstr ""
+
+#: $string['templates']
+msgid "Templates"
+msgstr ""
+
+#: $string['templatescript']
+msgid "Custom JS (template {$a})"
+msgstr ""
+
+#: $string['templatescript_desc']
+msgid ""
+"If your template needs to run custom javascript, enter that here. It will be "
+"run once all the elements have loaded on the page."
+msgstr ""
+
+#: $string['template_showatto']
+msgid "Show in Atto (template {$a})"
+msgstr ""
+
+#: $string['template_showatto_desc']
+msgid ""
+"Display a button and form for this widget in the PoodLL Widgets dialog for "
+"Atto."
+msgstr ""
+
+#: $string['template_showplayers']
+msgid "Show in players list (template {$a})"
+msgstr ""
+
+#: $string['template_showplayers_desc']
+msgid ""
+"Display in the dropdown list of players available to be associated with a "
+"file extension."
+msgstr ""
+
+#: $string['templatestyle']
+msgid "Custom CSS (template {$a})"
+msgstr ""
+
+#: $string['templatestyle_desc']
+msgid ""
+"Enter any custom CSS that your template uses here. Template variables will "
+"not work here. Just plain old css."
+msgstr ""
+
+#: $string['templateupdated']
+msgid "{$a} Poodll Templates Updated."
+msgstr ""
+
+#: $string['templateversion']
+msgid "The version of this template {$a}"
+msgstr ""
+
+#: $string['templateversion_desc']
+msgid ""
+"When sharing templates it is best to maintain a clear version per release. "
+"The version format is up to you."
+msgstr ""
+
+#: $string['tiny']
+msgid "Tiny"
+msgstr ""
+
+#: $string['transcode_heading']
+msgid "Audio/Video File Conversion Settings"
+msgstr ""
+
+#: $string['transcode_heading_desc']
+msgid ""
+"The settings in this section are for FFMPEG and Red5, and do not apply when "
+"using cloud recording."
+msgstr ""
+
+#: $string['type']
+msgid "Type"
+msgstr ""
+
+#: $string['unregistered']
+msgid ""
+"PoodLL not displayed because it has not been registered. Ask your "
+"teacher/administrator to register PoodLL at PoodLL.com."
+msgstr ""
+
+#: $string['updateall']
+msgid "Update all."
+msgstr ""
+
+#: $string['updatetoversion']
+msgid "Update to {$a}"
+msgstr ""
+
+#: $string['uploadkey']
+msgid "Upload key"
+msgstr ""
+
+#: $string['uploadkey_desc']
+msgid ""
+"PoodLL cloud recording requires an upload key for recording. You should "
+"receive this when you sign up for PoodLL. Enter the upload key here."
+msgstr ""
+
+#: $string['uploadsecret']
+msgid "Upload secret"
+msgstr ""
+
+#: $string['uploadsecret_desc']
+msgid ""
+"PoodLL cloud recording requires an upload secret for recording.  You should "
+"receive this when you sign up for PoodLL. Enter the upload secret here."
+msgstr ""
+
+#: $string['usecloudnotifications']
+msgid "Cloud notifications"
+msgstr ""
+
+#: $string['usecloudnotifications_desc']
+msgid ""
+"PoodLL cloud notifications. This enables instant notification that cloud "
+"transcoding is complete."
+msgstr ""
+
+#: $string['usecloudrecording']
+msgid "Cloud recording"
+msgstr ""
+
+#: $string['usecloudrecording_desc']
+msgid ""
+"PoodLL cloud recording. This enables transcoding and other services in the "
+"cloud. The PoodLL iOS app requires this, and so too do the html5 audio and "
+"video recorders. Recorded files are not hosted in the cloud."
+msgstr ""
+
+#: $string['useplayer']
+msgid "{$a} Player"
+msgstr ""
+
+#: $string['useplayerdesc']
+msgid ""
+"The player selected will use the information from the appropriate template."
+msgstr ""
+
+#: $string['value']
+msgid "value"
+msgstr ""
+
+#: $string['videotranscode']
+msgid "Auto Conv. to MP4"
+msgstr ""
+
+#: $string['videotranscodedetails']
+msgid ""
+"Convert recorded/uploaded video files to MP4 format before storing in "
+"Moodle. This works for recordings made on tokyo.poodll.com, or uploaded "
+"recordings if using FFMPEG"
+msgstr ""
+
+#: $string['wboardautosave']
+msgid "Autosave(milliseconds)"
+msgstr ""
+
+#: $string['wboardautosave_details']
+msgid ""
+"Saves the drawing when the user has paused drawing after X milliseconds. 0 = "
+"no autosave"
+msgstr ""
+
+#: $string['wboardheight']
+msgid "Whiteboard Default Height"
+msgstr ""
+
+#: $string['wboardnozoom']
+msgid "Disable Zoom"
+msgstr ""
+
+#: $string['wboardnozoom_details']
+msgid ""
+"Only applies to LiterallyCanvas. If checked sets the max and min zoom to "
+"1.0, effectively disabling the zoom feature."
+msgstr ""
+
+#: $string['wboardwidth']
+msgid "Whiteboard Default Width"
+msgstr ""
+
+#: $string['whiteboardsave']
+msgid "Save Picture"
+msgstr ""
+
+#: $string['widgetsettings']
+msgid "Widget Settings"
+msgstr ""
+
+#: $string['widgettype']
+msgid "widget"
+msgstr ""

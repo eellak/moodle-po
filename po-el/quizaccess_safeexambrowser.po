@@ -1,0 +1,94 @@
+#. extracted from lang/en/quizaccess_safeexambrowser.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'quizaccess_safeexambrowser', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   quizaccess_safeexambrowser
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['allowedbrowserkeys']
+msgid "Allowed browser keys"
+msgstr ""
+
+#: $string['allowedbrowserkeysdistinct']
+msgid "The keys must all be different."
+msgstr ""
+
+#: $string['allowedbrowserkeys_help']
+msgid ""
+"In this box you can enter the allowed browser keys for versions of Safe Exam "
+"Browser that are permitted to access this quiz. If no keys are entered, "
+"then SEB is not required for this quiz."
+msgstr ""
+
+#: $string['allowedbrowserkeyssyntax']
+msgid ""
+"You must enter the allowed keys one per line. A key should be a 64-character "
+"hex string."
+msgstr ""
+
+#: $string['allowedkeys_adv']
+msgid "Keys are an advanced setting"
+msgstr ""
+
+#: $string['allowedkeys_adv_desc']
+msgid ""
+"If this option is on, then the list of allowed browser keys is an advanced "
+"field on the quiz settings form."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Safe Exam Browser quiz access rule"
+msgstr ""
+
+#: $string['safebrowserdownloadurl']
+msgid "Safe Exam Browser download URL."
+msgstr ""
+
+#: $string['safebrowserdownloadurl_desc']
+msgid ""
+"If you provide a URL here, then users will be told that they can download "
+"the required version of Safe Exam Browser from there."
+msgstr ""
+
+#: $string['safebrowsermustbeused']
+msgid ""
+"You must use an approved version of Safe Exam Browser to attempt this quiz."
+msgstr ""
+
+#: $string['safebrowsermustbeusedwithlink']
+msgid ""
+"You must use an approved version of Safe Exam Browser to attempt this quiz. "
+"You can download it from {$a->link}."
+msgstr ""
+
+#: $string['safeexambrowser:exemptfromcheck']
+msgid "Exempt from Safe Exam Browser check"
+msgstr ""

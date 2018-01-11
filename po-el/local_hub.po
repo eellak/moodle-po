@@ -1,0 +1,1778 @@
+#. extracted from lang/en/local_hub.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'local_hub', language 'en', branch 'MOODLE_21_STABLE'
+#.  *
+#.  * @package   local_hub
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['activities']
+msgid "Activities"
+msgstr ""
+
+#: $string['additionaladmindesc']
+msgid ""
+"Registered: {$a->timeregistered} - Modified: {$a->timemodified} - Privacy: "
+"{$a->privacy} -\n"
+"    Contactable: {$a->contactable} - Email: {$a->emailalert}"
+msgstr ""
+
+#: $string['additionaldesc']
+msgid ""
+"Courses: {$a->courses} - Users: {$a->users} - Enrolments: {$a->enrolments} - "
+"Resources: {$a->resources} - Posts: {$a->posts}\n"
+"    - Questions: {$a->questions} - Average number of participants: "
+"{$a->participantnumberavg} - Average number of course modules: "
+"{$a->modulenumberavg}"
+msgstr ""
+
+#: $string['addscreenshots']
+msgid "Add screenshots"
+msgstr ""
+
+#: $string['addscreenshots_help']
+msgid "Add new screenshots."
+msgstr ""
+
+#: $string['allowglobalsearch']
+msgid "Publish this hub and allow global search of all courses"
+msgstr ""
+
+#: $string['allowpublicsearch']
+msgid "Publish this hub so people can join it"
+msgstr ""
+
+#: $string['audience']
+msgid "Designed for"
+msgstr ""
+
+#: $string['audienceadmins']
+msgid "Moodle Administrators"
+msgstr ""
+
+#: $string['audienceeducators']
+msgid "Educators"
+msgstr ""
+
+#: $string['audience_help']
+msgid ""
+"What kind of course are you looking for?  As well as traditional courses "
+"intended for students, you might search for communities of Educators or "
+"Moodle Administrators"
+msgstr ""
+
+#: $string['audiencestudents']
+msgid "Students"
+msgstr ""
+
+#: $string['badurlformat']
+msgctxt "$string['badurlformat']"
+msgid "Bad URL format"
+msgstr ""
+
+#: $string['blockedsecretdocurl']
+msgid "Blocked_site_secret"
+msgstr ""
+
+#: $string['blocks']
+msgid "Blocks"
+msgstr ""
+
+#: $string['bulkdelete']
+msgid "Delete"
+msgstr ""
+
+#: $string['bulknotvisible']
+msgid "Make not visible"
+msgstr ""
+
+#: $string['bulkoperation']
+msgid "Select"
+msgstr ""
+
+#: $string['bulkoperationperform']
+msgid "Perform"
+msgstr ""
+
+#: $string['bulkselectoperation']
+msgid "With selected courses..."
+msgstr ""
+
+#: $string['bulkvisible']
+msgid "Make visible"
+msgstr ""
+
+#: $string['cannotregisternotavailablesite']
+msgid "This hub cannot access your web site."
+msgstr ""
+
+#: $string['cannotregisterprivatehub']
+msgid "You cannot register your hub. Change the Privacy setting."
+msgstr ""
+
+#: $string['cannotsetpasswordforpublichub']
+msgid ""
+"Cannot set a password for public hub. Either delete your password, either "
+"set the hub as private."
+msgstr ""
+
+#: $string['comments']
+msgid "Comments"
+msgstr ""
+
+#: $string['community']
+msgid "Community"
+msgstr ""
+
+#: $string['confirmbulkdelete']
+msgid "Bulk delete confirmation"
+msgstr ""
+
+#: $string['confirmbulknotvisible']
+msgid "Bulk invisible confirmation"
+msgstr ""
+
+#: $string['confirmbulkvisible']
+msgid "Bulk visible confirmation"
+msgstr ""
+
+#: $string['confirmforceunregistration']
+msgid ""
+"Any existing information will not be modified on the hub directory. Are you "
+"sure you want to force unregistration?"
+msgstr ""
+
+#: $string['confirmmessagebulkdelete']
+msgid "Are you sure you want to delete the following courses:"
+msgstr ""
+
+#: $string['confirmmessagebulknotvisible']
+msgid "Are you sure you want to make the following courses invisible:"
+msgstr ""
+
+#: $string['confirmmessagebulkvisible']
+msgid "Are you sure you want to make the following courses visible:"
+msgstr ""
+
+#: $string['confirmregistration']
+msgid "Confirm registration"
+msgstr ""
+
+#: $string['confirmunregistration']
+msgid "Are you sure you want to unregister from the hub directory?"
+msgstr ""
+
+#: $string['contactemail']
+msgid "Contact email"
+msgstr ""
+
+#: $string['contactemail_help']
+msgid ""
+"The contact email is the email that the hub directory administrator will use "
+"to contact the hub administrator for any important issues."
+msgstr ""
+
+#: $string['contactname']
+msgid "Contact name"
+msgstr ""
+
+#: $string['contactname_help']
+msgid ""
+"The hub administrator is the person that the hub directory administrator "
+"will try to contact about any important issues."
+msgstr ""
+
+#: $string['contentinfo']
+msgid ""
+"Subject: {$a->subject} - Audience: {$a->audience} - Educational level: "
+"{$a->educationallevel}"
+msgstr ""
+
+#: $string['contributornames']
+msgid "Contributor names"
+msgstr ""
+
+#: $string['contributornames_help']
+msgid "other people having contributed to the course."
+msgstr ""
+
+#: $string['contributors']
+msgid "Contributors: {$a}"
+msgstr ""
+
+#: $string['copied']
+msgid "Register a new site"
+msgstr ""
+
+#: $string['country']
+msgctxt "$string['country']"
+msgid "Country"
+msgstr ""
+
+#: $string['country_help']
+msgid "Display only sites from the selected country."
+msgstr ""
+
+#: $string['coursedesc']
+msgctxt "$string['coursedesc']"
+msgid "Description"
+msgstr ""
+
+#: $string['coursedesc_help']
+msgid "course description"
+msgstr ""
+
+#: $string['courselang']
+msgctxt "$string['courselang']"
+msgid "Language"
+msgstr ""
+
+#: $string['courselang_help']
+msgid "course language"
+msgstr ""
+
+#: $string['coursemap']
+msgid "Course map"
+msgstr ""
+
+#: $string['coursename']
+msgctxt "$string['coursename']"
+msgid "Name"
+msgstr ""
+
+#: $string['coursename_help']
+msgid "course name"
+msgstr ""
+
+#: $string['coursenotvisible']
+msgid "{$a} is not visible now."
+msgstr ""
+
+#: $string['courseprivate']
+msgctxt "$string['courseprivate']"
+msgid "Private"
+msgstr ""
+
+#: $string['coursepublic']
+msgid "Public"
+msgstr ""
+
+#: $string['coursepublished']
+msgid "Course published"
+msgstr ""
+
+#: $string['coursesettings']
+msgid "Course settings"
+msgstr ""
+
+#: $string['coursesettingsform']
+msgctxt "$string['coursesettingsform']"
+msgid "\"{$a}\" settings"
+msgstr ""
+
+#: $string['coursesettingsupdated']
+msgid "{$a} has been updated."
+msgstr ""
+
+#: $string['courseshortname']
+msgid "Shortname"
+msgstr ""
+
+#: $string['coursesnumber']
+msgid "Number of courses ({$a})"
+msgstr ""
+
+#: $string['coursetimemodified']
+msgid "Time modified: {$a}"
+msgstr ""
+
+#: $string['coursetotal']
+msgid "{$a} courses have been found."
+msgstr ""
+
+#: $string['coursetype']
+msgid "Type: {$a}"
+msgstr ""
+
+#: $string['courseurl']
+msgid "Course URL"
+msgstr ""
+
+#: $string['courseurl_help']
+msgid "course URL"
+msgstr ""
+
+#: $string['coursevisibility']
+msgctxt "$string['coursevisibility']"
+msgid "Visible"
+msgstr ""
+
+#: $string['coursevisibility_help']
+msgid "When enable, the course is displayed in the course search results."
+msgstr ""
+
+#: $string['coursevisible']
+msgid "{$a} is visible now."
+msgstr ""
+
+#: $string['coverage']
+msgid "Tags: {$a}"
+msgstr ""
+
+#: $string['creatorname']
+msgid "Creator name"
+msgstr ""
+
+#: $string['creatorname_help']
+msgid "the main creator of the course, the initial creator."
+msgstr ""
+
+#: $string['creatornotes']
+msgid "Creator notes"
+msgstr ""
+
+#: $string['creatornotes_help']
+msgid "some notes to how to use the course."
+msgstr ""
+
+#: $string['deleteconfirmation']
+msgid ""
+"The site administrator will be sent an email explaining how he can "
+"unregister his site."
+msgstr ""
+
+#: $string['deletecourseconfirmation']
+msgid "Are you sure to delete the {$a} course ?"
+msgstr ""
+
+#: $string['deleterelatedcourseslink']
+msgid "related courses"
+msgstr ""
+
+#: $string['deletesite']
+msgid "Unregister {$a}"
+msgstr ""
+
+#: $string['demourl']
+msgid "Demo URL"
+msgstr ""
+
+#: $string['demourl_help']
+msgid ""
+"It could be a demo site you install yourself, a demo link will be displayed "
+"in search results."
+msgstr ""
+
+#: $string['description']
+msgctxt "$string['description']"
+msgid "Description"
+msgstr ""
+
+#: $string['description_help']
+msgid "The hub description will always appear on the hub directory."
+msgstr ""
+
+#: $string['donotdeleteormodify']
+msgid "DO NOT DELETE OR MODIFY THIS USER !"
+msgstr ""
+
+#: $string['downloadable']
+msgid "courses I can download"
+msgstr ""
+
+#: $string['downloadablecourses']
+msgid "Downloadable courses"
+msgstr ""
+
+#: $string['editcourse']
+msgid "Edit"
+msgstr ""
+
+#: $string['educationallevel']
+msgid "Educational level"
+msgstr ""
+
+#: $string['educationallevel_help']
+msgid ""
+"What educational level are you searching for?  In the case of communities of "
+"educators, this level describes the level they are teaching."
+msgstr ""
+
+#: $string['edulevelassociation']
+msgid "Association"
+msgstr ""
+
+#: $string['edulevelcorporate']
+msgid "Corporate"
+msgstr ""
+
+#: $string['edulevelgovernment']
+msgid "Government"
+msgstr ""
+
+#: $string['edulevelother']
+msgid "Other"
+msgstr ""
+
+#: $string['edulevelprimary']
+msgid "Primary"
+msgstr ""
+
+#: $string['edulevelsecondary']
+msgid "Secondary"
+msgstr ""
+
+#: $string['eduleveltertiary']
+msgid "Tertiary"
+msgstr ""
+
+#: $string['emailmessage']
+msgid "Message"
+msgstr ""
+
+#: $string['emailmessage_help']
+msgid "The message content."
+msgstr ""
+
+#: $string['emailmessagesiteadded']
+msgid ""
+"A new site just registered with the hub at {$a->huburl}\n"
+"\n"
+"Name: {$a->name}\n"
+"URL: {$a->url}\n"
+"Admin: {$a->contactname} ({$a->contactemail})\n"
+"Language: {$a->language}\n"
+"\n"
+"To manage registered sites, go to: {$a->managesiteurl}"
+msgstr ""
+
+#: $string['emailmessagesitedeleted']
+msgid ""
+"An administrator from {$a->hubname} ({$a->huburl}) deleted {$a->sitename} "
+"({$a->siteurl}) from the hub listing.\n"
+"If you want to register again on this hub, you must first reset your "
+"registration on your server. Go to {$a->unregisterpagelink}."
+msgstr ""
+
+#: $string['emailmessagesiteurlchanged']
+msgid ""
+"{$a->name} site has been updated. (previous name: {$a->oldname})\n"
+"Its new url {$a->url} has been updated from ({$a->oldurl}).\n"
+"\n"
+"Name: {$a->name}\n"
+"URL: {$a->url}\n"
+"Admin: {$a->contactname} ({$a->contactemail})\n"
+"Language: {$a->language}\n"
+"\n"
+"To manage registered sites, go to: {$a->managesiteurl}"
+msgstr ""
+
+#: $string['emailmessageurlalreadyexists']
+msgid ""
+"DO NOT CLICK THE LINK WITHOUT UNDERSTANDING, THIS COULD BE A SITE "
+"REGISTRATION STEALING ATTEMPT!\n"
+"\n"
+"{$a->hubname} hub detected a site trying to register with the "
+"{$a->existingsite}'s url.\n"
+"This issue commonly appears when you try to register a Moodle site on a url "
+"registered ({$a->url}) by a different Moodle site.\n"
+"To register this freshly installed Moodle site (or moved site), you need to "
+"delete the previous registration first: {$a->deletesiteregistration}"
+msgstr ""
+
+#: $string['emailtitlesiteadded']
+msgid "{$a} site has been added to the hub"
+msgstr ""
+
+#: $string['emailtitlesitedeleted']
+msgid "{$a->sitename} has been deleted from {$a->hubname} hub"
+msgstr ""
+
+#: $string['emailtitlesiteurlchanged']
+msgid "{$a} site has changed his name or url (please check it)."
+msgstr ""
+
+#: $string['emailtitleurlalreadyexists']
+msgid "Another site try to register with {$a->existingsite} url."
+msgstr ""
+
+#: $string['enabled']
+msgid "Enabled"
+msgstr ""
+
+#: $string['enabled_help']
+msgid "You can enabled/disabled the hub server."
+msgstr ""
+
+#: $string['enablerssfeeds']
+msgid "RSS feeds"
+msgstr ""
+
+#: $string['enablerssfeeds_help']
+msgid ""
+"If enabled, a RSS feed icon will be displayed at the bottom of the search "
+"page. If disabled, RSS cannot be read."
+msgstr ""
+
+#: $string['enroldownload']
+msgid "Find"
+msgstr ""
+
+#: $string['enroldownload_help']
+msgid ""
+"Some courses listed in this directory are being advertised so that people "
+"can come and participate in them on the original site.\n"
+"\n"
+"Others are course templates provided for you to download and use on your own "
+"Moodle site."
+msgstr ""
+
+#: $string['enrollable']
+msgid "courses I can enrol in"
+msgstr ""
+
+#: $string['enrollablecourses']
+msgid "Enrollable courses"
+msgstr ""
+
+#: $string['errorbadimageheightwidth']
+msgid "The image should have a maximum size of {$a->width} X {$a->height}"
+msgstr ""
+
+#: $string['errorlangnotrecognized']
+msgid "Language code is unknown by Moodle. Please contact {$a}"
+msgstr ""
+
+#: $string['errormaxpublication']
+msgid ""
+"Sorry your site has published  more than {$a->maxpublication} courses today. "
+"You will be able to publish in: {$a->time}."
+msgstr ""
+
+#: $string['errornopublication']
+msgid "The hub server is blocking all new publication."
+msgstr ""
+
+#: $string['errorregistration']
+msgid "An error occured during registration, please try again later. ({$a})"
+msgstr ""
+
+#: $string['errorunregistration']
+msgid "An error occurred during hub unregistration, try again later. ({$a})"
+msgstr ""
+
+#: $string['errorwrongpostdata']
+msgid "Some POST data are missing, please use the Moodle registration form."
+msgstr ""
+
+#: $string['errosecretandnameempty']
+msgid "Enter a secret value or a name"
+msgstr ""
+
+#: $string['failunregistrationofprivate']
+msgid ""
+"Could not unregister from the hub, try again on the register page ({$a})."
+msgstr ""
+
+#: $string['featured']
+msgid "Featured"
+msgstr ""
+
+#: $string['featureddesc']
+msgid "Featured as an exemplary course."
+msgstr ""
+
+#: $string['fileinfo']
+msgid ""
+"Language: {$a->lang} - License: {$a->license} -  Time updated: "
+"{$a->timeupdated}"
+msgstr ""
+
+#: $string['freshmoodleconfmsg']
+msgid ""
+"Are you sure to replace the previous registration by the new registration?"
+msgstr ""
+
+#: $string['freshmoodleregistrationerror']
+msgid ""
+"You are trying to register a site with a url that was previously used by a "
+"registered site.\n"
+"We've sent an email to this previously registered site administrator. This "
+"administrator will have the choice to delete the previous registration "
+"record from the hub.\n"
+"If he/she decide to do it, then you will be able to register your site. "
+"Note: Usually you should be this administrator, but this step is required to "
+"avoid hacking. Thank you."
+msgstr ""
+
+#: $string['freshmoodleregistrationerror2']
+msgid ""
+"You are trying to register a site with a url that was previously used by "
+"another registered site.\n"
+"A request has already been sent to the site administrator of this other "
+"site."
+msgstr ""
+
+#: $string['freshtokenerror']
+msgid "Sorry, the token is invalid or has been used."
+msgstr ""
+
+#: $string['hideguestbutton']
+msgid "Moodle changed the option 'Guest login button' to the value 'Hide'."
+msgstr ""
+
+#: $string['hub']
+msgctxt "$string['hub']"
+msgid "Hub"
+msgstr ""
+
+#: $string['hubcoursessearch']
+msgid "Hub courses"
+msgstr ""
+
+#: $string['hubdetails']
+msgid "Hub details"
+msgstr ""
+
+#: $string['hubforceunregister']
+msgid "Force unregister"
+msgstr ""
+
+#: $string['hubimage']
+msgctxt "$string['hubimage']"
+msgid "Image"
+msgstr ""
+
+#: $string['hubimage_help']
+msgid ""
+"This image is saved on your hub disk. Once your hub is registered, the hub "
+"directory will try to access to this image by HTTP in order to cache it. If "
+"the hub directory cannot access to this image, no image will be displayed on "
+"the hub directory listing."
+msgstr ""
+
+#: $string['hublang']
+msgctxt "$string['hublang']"
+msgid "Language"
+msgstr ""
+
+#: $string['hublang_help']
+msgid "The main language of the hub."
+msgstr ""
+
+#: $string['hubpassword']
+msgctxt "$string['hubpassword']"
+msgid "Password"
+msgstr ""
+
+#: $string['hubpassword_help']
+msgid ""
+"If you enter a password here, any site will be required to enter this "
+"password during registration. We recommend you to communicate this password "
+"personally to the desired site administrators. Only a private hub can set a "
+"password."
+msgstr ""
+
+#: $string['hubregister']
+msgid "Register your hub with Moodle.org"
+msgstr ""
+
+#: $string['hub:registercourse']
+msgid "Register/Update a course on the hub."
+msgstr ""
+
+#: $string['hubregisterupdate']
+msgid "Update your registration on Moodle.org"
+msgstr ""
+
+#: $string['hubregistrationcomment']
+msgid ""
+"You are about to register your hub with Moodle.org.  Moodle.org will "
+"periodically contact this hub to make sure it is still active and also to "
+"refresh this information."
+msgstr ""
+
+#: $string['hubunregister']
+msgid "Unregister"
+msgstr ""
+
+#: $string['hub:unregistercourse']
+msgid "Delete a course from the hub."
+msgstr ""
+
+#: $string['hub:updateinfo']
+msgid "Update registered site."
+msgstr ""
+
+#: $string['hubversion']
+msgid "Hub version"
+msgstr ""
+
+#: $string['hub:view']
+msgid "View courses/sites."
+msgstr ""
+
+#: $string['hub:viewinfo']
+msgid "View detailed hub information (contact, stats)."
+msgstr ""
+
+#: $string['hub:viewsmallinfo']
+msgid "View hub information."
+msgstr ""
+
+#: $string['hubwsroledescription']
+msgid ""
+"WARNING: DO NOT DELETE OR MODIFY THIS ROLE. This role has been internally "
+"created for a registered site, a hub server or Moodle.org."
+msgstr ""
+
+#: $string['hubwsuserdescription']
+msgid ""
+"WARNING: DO NOT DELETE OR MODIFY THIS USER. This user has been internally "
+"created for a registered site, a hub server or Moodle.org."
+msgstr ""
+
+#: $string['image']
+msgctxt "$string['image']"
+msgid "Image"
+msgstr ""
+
+#: $string['information']
+msgid "Information"
+msgstr ""
+
+#: $string['keepcurrentimage']
+msgid "Keep current image"
+msgstr ""
+
+#: $string['keepcurrentimage_help']
+msgid ""
+"Keep the current image saved on the disk. Even if you choose an image below, "
+"the current image will be kept. If you uncheck this, and do not select an "
+"new image, the current image will just be deleted."
+msgstr ""
+
+#: $string['keepscreenshot']
+msgid "Keep screenshot"
+msgstr ""
+
+#: $string['keepscreenshot_help']
+msgid "Uncheck it to delete the screenshot."
+msgstr ""
+
+#: $string['keywords']
+msgctxt "$string['keywords']"
+msgid "Keywords"
+msgstr ""
+
+#: $string['keywords_help']
+msgid ""
+"You can search for courses containing specific text in the name, description "
+"and other fields of the database."
+msgstr ""
+
+#: $string['language']
+msgctxt "$string['language']"
+msgid "Language"
+msgstr ""
+
+#: $string['language_help']
+msgid "You can search for courses written in a specific language."
+msgstr ""
+
+#: $string['lastmodified']
+msgid "Last modified"
+msgstr ""
+
+#: $string['lastmodified_help']
+msgid "Display the last modified courses for a given time period."
+msgstr ""
+
+#: $string['licence']
+msgid "License"
+msgstr ""
+
+#: $string['licence_help']
+msgid "You can search for courses that are licensed in a particular way."
+msgstr ""
+
+#: $string['logourl']
+msgid "Logo URL"
+msgstr ""
+
+#: $string['managecourses']
+msgid "Manage courses"
+msgstr ""
+
+#: $string['managesites']
+msgid "Manage sites"
+msgstr ""
+
+#: $string['markstolen']
+msgid "Mark as stolen"
+msgstr ""
+
+#: $string['markstolenmsg']
+msgid ""
+"Any sites related to this token are going to be removed from the site "
+"listing -\n"
+"A message will be sent to the site administrators asking them to register a "
+"new time - All people trying to register with this secret will be asked to "
+"regenerate a secret for this hub server."
+msgstr ""
+
+#: $string['maxcoursesperday']
+msgctxt "$string['maxcoursesperday']"
+msgid "Maximum courses published per day"
+msgstr ""
+
+#: $string['maxcoursesperday_help']
+msgid ""
+"The maximum number of courses that can be published per site per day. This "
+"setting is to avoid automatic spam. Once reaching the maximum number, an "
+"error will be displayed on the registered site during the next 24 hours. (0 "
+"= none, empty = unlimited)"
+msgstr ""
+
+#: $string['maxmessagesent']
+msgid "You cannot send anymore message for today, try tomorrow."
+msgstr ""
+
+#: $string['maxwscourseresult']
+msgid "Maximum returned courses to remote sites."
+msgstr ""
+
+#: $string['maxwscourseresultempty']
+msgid "Maximum course result must be > 0"
+msgstr ""
+
+#: $string['maxwscourseresult_help']
+msgid ""
+"Define the maximum number of course the hub will return for one remote "
+"Moodle site request. (0 or empty: no course returned)"
+msgstr ""
+
+#: $string['messagesentsuccess']
+msgid "Message sent successfully"
+msgstr ""
+
+#: $string['modulenumberaverage']
+msgid "Average number of course modules ({$a})"
+msgstr ""
+
+#: $string['moodleorg']
+msgid "Moodle.org"
+msgstr ""
+
+#: $string['moreinfo']
+msgid "More info"
+msgstr ""
+
+#: $string['moved']
+msgid "Update registration url for an existing site"
+msgstr ""
+
+#: $string['movedorcopiedmsg']
+msgid ""
+"We detected that you try to register a Moodle 2 site that has already been "
+"registered on a different url.\n"
+"If you moved an existing Moodle 2 site to another url, then press 'Update "
+"registration url for an existing site'.\n"
+"Your original Moodle 2 registration will be updated. In any other cases (you "
+"duplicated an existing site, you moved a Moodle 1.9 site to this url, you "
+"just did a fresh install...) press 'Register a new site'.\n"
+"You will be redirected to your site to regenerate your site identifier and a "
+"clean registration can be processed."
+msgstr ""
+
+#: $string['msgforcourse']
+msgid ""
+"You have a new message about a course on \"{$a->hubname}\" ({$a->huburl}):\n"
+"\n"
+"----------------------------------------------------------------------------"
+"----------\n"
+"From: {$a->userfullname}\n"
+"Subject: '{$a->fullname}', {$a->hubcourseurl}\n"
+"Message:\n"
+"\n"
+"{$a->message}\n"
+"----------------------------------------------------------------------------"
+"----------\n"
+"\n"
+"You can reply directly via email or use messaging on the hub\n"
+"({$a->userurl})."
+msgstr ""
+
+#: $string['msgforcoursetitle']
+msgid "Message about {$a}"
+msgstr ""
+
+#: $string['msgforcoursetitlewithlink']
+msgid "Message about '{$a->fullname}\\"
+msgstr ""
+
+#: $string['msgtopublisher']
+msgid "Send message about {$a}"
+msgstr ""
+
+#: $string['msgtype']
+msgid "Category"
+msgstr ""
+
+#: $string['msgtypeappreciation']
+msgid "Appreciation / congratulation"
+msgstr ""
+
+#: $string['msgtype_help']
+msgid "Select a broad category that describes your message."
+msgstr ""
+
+#: $string['msgtypeimprovement']
+msgid "Improvement suggestion"
+msgstr ""
+
+#: $string['msgtypeissue']
+msgid "Issue report"
+msgstr ""
+
+#: $string['msgtypequestion']
+msgid "Question"
+msgstr ""
+
+#: $string['mustbeemail']
+msgid "Must be an email."
+msgstr ""
+
+#: $string['mustbeinteger']
+msgid "Must be an integer."
+msgstr ""
+
+#: $string['mustbetext']
+msgid "Must be text only - no HTML."
+msgstr ""
+
+#: $string['mustbeurl']
+msgid "Must be  a URL."
+msgstr ""
+
+#: $string['name']
+msgctxt "$string['name']"
+msgid "Name"
+msgstr ""
+
+#: $string['name_help']
+msgid "The hub name will be displayed in the hub directory listing."
+msgstr ""
+
+#: $string['never']
+msgid "never"
+msgstr ""
+
+#: $string['newregistration']
+msgid "New registration"
+msgstr ""
+
+#: $string['no']
+msgctxt "$string['no']"
+msgid "No"
+msgstr ""
+
+#: $string['nocomments']
+msgid "No comments"
+msgstr ""
+
+#: $string['nocourse']
+msgid "No courses match your search."
+msgstr ""
+
+#: $string['nocoursereturn']
+msgid "The hub has been set to return no course on web service called."
+msgstr ""
+
+#: $string['nocourseselected']
+msgid "No courses selected"
+msgstr ""
+
+#: $string['none']
+msgid "None"
+msgstr ""
+
+#: $string['noratings']
+msgid "No ratings"
+msgstr ""
+
+#: $string['nosearch']
+msgid "Don't publish this hub or courses (Private hub)"
+msgstr ""
+
+#: $string['nosite']
+msgid "No sites have been registered yet or match the search."
+msgstr ""
+
+#: $string['notregisteredonhub']
+msgid ""
+"You cannot publish this course on any other hub, because this site isn't "
+"registered with any other hubs. Contact your administrator to add new hubs."
+msgstr ""
+
+#: $string['notregisteredonmoodleorg']
+msgid ""
+"You cannot publish this course on MOOCH, the Moodle.org Community Hub, "
+"because this site isn't registered there yet. Your site administrator needs "
+"to register this site with MOOCH."
+msgstr ""
+
+#: $string['operation']
+msgid "Operation"
+msgstr ""
+
+#: $string['or']
+msgid "or"
+msgstr ""
+
+#: $string['orderby']
+msgid "Sort by"
+msgstr ""
+
+#: $string['orderbyeldest']
+msgid "Oldest"
+msgstr ""
+
+#: $string['orderby_help']
+msgid "The order the search results are displayed."
+msgstr ""
+
+#: $string['orderbyname']
+msgctxt "$string['orderbyname']"
+msgid "Name"
+msgstr ""
+
+#: $string['orderbynewest']
+msgid "Newest"
+msgstr ""
+
+#: $string['orderbypublisher']
+msgctxt "$string['orderbypublisher']"
+msgid "Publisher"
+msgstr ""
+
+#: $string['orderbyratingaverage']
+msgctxt "$string['orderbyratingaverage']"
+msgid "Rating"
+msgstr ""
+
+#: $string['orenterprivatehub']
+msgid "or enter a private hub URL:"
+msgstr ""
+
+#: $string['outcomes']
+msgid "Outcomes: {$a}"
+msgstr ""
+
+#: $string['participantnumberaverage']
+msgid "Average number of participants ({$a})"
+msgstr ""
+
+#: $string['password']
+msgctxt "$string['password']"
+msgid "Password"
+msgstr ""
+
+#: $string['periodforteennight']
+msgid "Last 14 days"
+msgstr ""
+
+#: $string['periodmonth']
+msgid "Last 30 days"
+msgstr ""
+
+#: $string['periodweek']
+msgid "Last 7 days"
+msgstr ""
+
+#: $string['permalink']
+msgid "Permalink"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Hub"
+msgstr ""
+
+#: $string['postaladdress']
+msgid "Postal address"
+msgstr ""
+
+#: $string['postsnumber']
+msgid "Number of posts ({$a})"
+msgstr ""
+
+#: $string['previousregistration']
+msgid "Previous registration"
+msgstr ""
+
+#: $string['prioritise']
+msgid "Prioritised"
+msgstr ""
+
+#: $string['prioritise_help']
+msgid "Display only prioritised sites."
+msgstr ""
+
+#: $string['prioritiseno']
+msgctxt "$string['prioritiseno']"
+msgid "No"
+msgstr ""
+
+#: $string['prioritiseyes']
+msgctxt "$string['prioritiseyes']"
+msgid "Yes"
+msgstr ""
+
+#: $string['privacy']
+msgctxt "$string['privacy']"
+msgid "Privacy"
+msgstr ""
+
+#: $string['privacy_help']
+msgid ""
+"You can choose how visible your hub will be on the hub directory.  A private "
+"hub will not be listed anywhere on the hub directory, however sites can "
+"still register if they know your URL and the (optional) password. Only "
+"registered sites or logged users can search on a private hub."
+msgstr ""
+
+#: $string['private']
+msgctxt "$string['private']"
+msgid "Private"
+msgstr ""
+
+#: $string['privatehuburl']
+msgid "Private hub URL"
+msgstr ""
+
+#: $string['publicationinfo']
+msgid "Course publication information"
+msgstr ""
+
+#: $string['publicationmax']
+msgctxt "$string['publicationmax']"
+msgid "Maximum courses published per day"
+msgstr ""
+
+#: $string['publicationmax_help']
+msgid ""
+"The maximum number of courses that can be published for this site per day. "
+"This setting is to avoid automatic spam. Once reaching the maximum number, "
+"an error will be displayed for this site during the next 24 hours. (0 = "
+"none, empty = hub setting is used)"
+msgstr ""
+
+#: $string['publichub']
+msgid "Public hub"
+msgstr ""
+
+#: $string['publishcourseon']
+msgid "Publish on {$a}"
+msgstr ""
+
+#: $string['publisheremail']
+msgid "Publisher email"
+msgstr ""
+
+#: $string['publisheremail_help']
+msgid "the course contact form sends the user message to this email."
+msgstr ""
+
+#: $string['publishername']
+msgctxt "$string['publishername']"
+msgid "Publisher"
+msgstr ""
+
+#: $string['publishername_help']
+msgid "the publisher name is displayed on the course contact form."
+msgstr ""
+
+#: $string['publishon']
+msgid "Publish on"
+msgstr ""
+
+#: $string['publishonmoodleorg']
+msgid "Publish on MOOCH, the Moodle.org Community Hub"
+msgstr ""
+
+#: $string['publishonspecifichub']
+msgid "Publish on a Hub"
+msgstr ""
+
+#: $string['questionsnumber']
+msgid "Number of questions ({$a})"
+msgstr ""
+
+#: $string['rating']
+msgctxt "$string['rating']"
+msgid "Rating"
+msgstr ""
+
+#: $string['recaptcha']
+msgid "Recaptcha settings"
+msgstr ""
+
+#: $string['recaptchadisable']
+msgid "Recaptcha keys are not set, please change the {$a}"
+msgstr ""
+
+#: $string['registeredcourses']
+msgid "Registered courses"
+msgstr ""
+
+#: $string['registeredsites']
+msgid "Registered sites"
+msgstr ""
+
+#: $string['registeron']
+msgid "Register on"
+msgstr ""
+
+#: $string['registeronmoodleorg']
+msgid "Register on Moodle.org"
+msgstr ""
+
+#: $string['registeronspecifichub']
+msgid "Register on a specific hub"
+msgstr ""
+
+#: $string['registersite']
+msgid "Register on {$a}"
+msgstr ""
+
+#: $string['registration']
+msgid "Hub server registration"
+msgstr ""
+
+#: $string['registrationconfirmed']
+msgid "Registration successfull"
+msgstr ""
+
+#: $string['registrationinfo']
+msgid "Registration information"
+msgstr ""
+
+#: $string['registrationupdated']
+msgid "Registration has been updated."
+msgstr ""
+
+#: $string['registrationupdatedfailed']
+msgid "Registration update failed."
+msgstr ""
+
+#: $string['replaceregistrationbutton']
+msgid "REPLACE REGISTRATION!"
+msgstr ""
+
+#: $string['resourcesnumber']
+msgid "Number of resources ({$a})"
+msgstr ""
+
+#: $string['roleassignmentsnumber']
+msgid "Number of role assignments ({$a})"
+msgstr ""
+
+#: $string['rsssecret']
+msgid "RSS secret"
+msgstr ""
+
+#: $string['rsssecret_help']
+msgid ""
+"If the RSS secret is in the RSS URL (add '?rsssecret=YOUR_RSS_SECRET'), the "
+"rss feed will return not published courses instead of published ones. This "
+"is particularly usefull for the hub administrator to be easily alerted of "
+"new courses. You will need one RSS feed for enrollable courses and one for "
+"downloadable courses."
+msgstr ""
+
+#: $string['rsstooltip']
+msgid ""
+"RSS feed of your search - Last published downloadable and enrollable courses "
+"are returned if no search were executed."
+msgstr ""
+
+#: $string['screenshots']
+msgid "Screenshots"
+msgstr ""
+
+#: $string['search']
+msgid "Search for courses"
+msgstr ""
+
+#: $string['searchfornologin']
+msgid "Public front page search"
+msgstr ""
+
+#: $string['searchfornologin_help']
+msgid ""
+"If enabled, the course search form will be displayed on the front page for "
+"not logged in users. Note that if the hub privacy is set to private, this "
+"setting is ignored and the search form will be only displayed for logged "
+"users."
+msgstr ""
+
+#: $string['searchsite']
+msgid "Search site"
+msgstr ""
+
+#: $string['secret']
+msgid "Secret"
+msgstr ""
+
+#: $string['secretblocked']
+msgid "Secret blocked"
+msgstr ""
+
+#: $string['secretisstolen']
+msgid ""
+"You are trying to register a site with an identifier that has been blocked "
+"({$a}). You are going to be redirected to your Moodle site to regenerate "
+"your identifier. To regenerate the identifier, your Moodle site must have a "
+"version number >= 2011020901."
+msgstr ""
+
+#: $string['secretvalue']
+msgid "Secret: {$a}"
+msgstr ""
+
+#: $string['seecreatornotes']
+msgid "See creator notes"
+msgstr ""
+
+#: $string['selecthub']
+msgid "Select hub"
+msgstr ""
+
+#: $string['sendfollowinginfo']
+msgid "Send the following information:"
+msgstr ""
+
+#: $string['sendmessage']
+msgid "Send message"
+msgstr ""
+
+#: $string['sendto']
+msgid "Send to"
+msgstr ""
+
+#: $string['sentto']
+msgid "Sent to"
+msgstr ""
+
+#: $string['senttohub']
+msgid "{$a} hub administrator"
+msgstr ""
+
+#: $string['senttopublisher']
+msgid "Course publisher: {$a}"
+msgstr ""
+
+#: $string['settings']
+msgid "Settings"
+msgstr ""
+
+#: $string['settingsupdated']
+msgid "Settings have been updated."
+msgstr ""
+
+#: $string['sharemore']
+msgid "More..."
+msgstr ""
+
+#: $string['sharetofacebook']
+msgid "Share to Facebook"
+msgstr ""
+
+#: $string['sharetotwitter']
+msgid "Share to Twitter"
+msgstr ""
+
+#: $string['site']
+msgid "Site"
+msgstr ""
+
+#: $string['siteadmin']
+msgid "Administrator"
+msgstr ""
+
+#: $string['siteadminemail']
+msgctxt "$string['siteadminemail']"
+msgid "Administrator email"
+msgstr ""
+
+#: $string['siteadminemail_help']
+msgctxt "$string['siteadminemail_help']"
+msgid "Administrator email"
+msgstr ""
+
+#: $string['siteadmin_help']
+msgid "Administrator name to contact"
+msgstr ""
+
+#: $string['sitecountry']
+msgctxt "$string['sitecountry']"
+msgid "Country"
+msgstr ""
+
+#: $string['sitecountry_help']
+msgid "Country where the oraganisation is in"
+msgstr ""
+
+#: $string['sitecreated']
+msgid "Site created"
+msgstr ""
+
+#: $string['sitedesc']
+msgctxt "$string['sitedesc']"
+msgid "Description"
+msgstr ""
+
+#: $string['sitedesc_help']
+msgid "Description displayed in search result."
+msgstr ""
+
+#: $string['site_help']
+msgid "Display only course from this site."
+msgstr ""
+
+#: $string['sitehelpexplanation']
+msgid ""
+"Listing of registered sites on your hub server. To display a site on the top "
+"of your\n"
+"    search result / list, proritise it. Trusted sites will be marked as "
+"trusted on the search result / list, and they will be displayed before "
+"untrusted sites.\n"
+"    Prioritised sites are automatically trusted. Finally, only visible sites "
+"are displayed on the search result / list (even if they are "
+"prioritised/trusted).\n"
+"    Site that are unreachable for more than a month would be deleted from "
+"the database (except if they are trusted/prioritised)"
+msgstr ""
+
+#: $string['sitekeywords']
+msgctxt "$string['sitekeywords']"
+msgid "Keywords"
+msgstr ""
+
+#: $string['sitekeywords_help']
+msgid ""
+"You can search for sites containing specific text in the name, description "
+"and other fields of the database."
+msgstr ""
+
+#: $string['sitelang']
+msgctxt "$string['sitelang']"
+msgid "Language"
+msgstr ""
+
+#: $string['sitelang_help']
+msgid "Display only sites with the selected language."
+msgstr ""
+
+#: $string['sitelanguage']
+msgctxt "$string['sitelanguage']"
+msgid "Language"
+msgstr ""
+
+#: $string['sitelanguage_help']
+msgid "main site language."
+msgstr ""
+
+#: $string['sitelinkpublished']
+msgid "Link published"
+msgstr ""
+
+#: $string['sitelist']
+msgid "Site list"
+msgstr ""
+
+#: $string['sitename']
+msgctxt "$string['sitename']"
+msgid "Name"
+msgstr ""
+
+#: $string['sitename_help']
+msgid "site name displayed in search result."
+msgstr ""
+
+#: $string['sitenamepublished']
+msgid "Publish name"
+msgstr ""
+
+#: $string['sitenotpublished']
+msgid "Not published"
+msgstr ""
+
+#: $string['siteoperation']
+msgid "Site operation"
+msgstr ""
+
+#: $string['siteprivacy']
+msgctxt "$string['siteprivacy']"
+msgid "Privacy"
+msgstr ""
+
+#: $string['siteregconfcomment']
+msgid ""
+"Your site needs a final confirmation on {$a} (in order to avoid spam on "
+"{$a})"
+msgstr ""
+
+#: $string['siteregistration']
+msgid "Site registration"
+msgstr ""
+
+#: $string['siteregistrationupdated']
+msgid "Site registration updated"
+msgstr ""
+
+#: $string['sitesearch']
+msgid "Search for sites"
+msgstr ""
+
+#: $string['sitesecretalreadyexist']
+msgid ""
+"The hub could not process the registration because another site is already "
+"registered with the same identifier."
+msgstr ""
+
+#: $string['sitesettings']
+msgid "Site settings"
+msgstr ""
+
+#: $string['sitesettingsform']
+msgctxt "$string['sitesettingsform']"
+msgid "\"{$a}\" settings"
+msgstr ""
+
+#: $string['sitesettingsupdated']
+msgid "{$a} settings have been updated."
+msgstr ""
+
+#: $string['siteupdated']
+msgid "{$a} has been updated successfully."
+msgstr ""
+
+#: $string['siteurl']
+msgid "Site URL"
+msgstr ""
+
+#: $string['siteurl_help']
+msgid "site url displayed in search result."
+msgstr ""
+
+#: $string['sitevisibility']
+msgctxt "$string['sitevisibility']"
+msgid "Visibility"
+msgstr ""
+
+#: $string['sitevisibility_help']
+msgid "Display visible sites, invisible sites or both at the same time."
+msgstr ""
+
+#: $string['specifichub']
+msgid "Specific hub"
+msgstr ""
+
+#: $string['specifichubpublicationdetail']
+msgid "You can publish on another hub."
+msgstr ""
+
+#: $string['specifichubregistrationdetail']
+msgid "You can register to other hub."
+msgstr ""
+
+#: $string['statistics']
+msgid "Statistics privacy"
+msgstr ""
+
+#: $string['stolensecret']
+msgid "Stolen secret"
+msgstr ""
+
+#: $string['subject']
+msgid "Educational subject"
+msgstr ""
+
+#: $string['subject_help']
+msgid ""
+"To narrow your search to courses about a particular subject, choose one from "
+"this list."
+msgstr ""
+
+#: $string['subjects']
+msgid "Subjects"
+msgstr ""
+
+#: $string['tags']
+msgid "Tags"
+msgstr ""
+
+#: $string['tags_help']
+msgid "course can be search by tags"
+msgstr ""
+
+#: $string['trusted']
+msgid "Trusted"
+msgstr ""
+
+#: $string['trusted_help']
+msgid "Display only sites set as trusted."
+msgstr ""
+
+#: $string['trustedno']
+msgctxt "$string['trustedno']"
+msgid "No"
+msgstr ""
+
+#: $string['trustedyes']
+msgctxt "$string['trustedyes']"
+msgid "Yes"
+msgstr ""
+
+#: $string['trustme']
+msgid "Trust"
+msgstr ""
+
+#: $string['typedownloadable']
+msgid "Downloadable"
+msgstr ""
+
+#: $string['typeenrollable']
+msgid "Enrollable"
+msgstr ""
+
+#: $string['unlistedurl']
+msgid "Unlisted hub URL"
+msgstr ""
+
+#: $string['unprioritise']
+msgid "Unprioritise"
+msgstr ""
+
+#: $string['unregistersite']
+msgid "Unregister the site"
+msgstr ""
+
+#: $string['unregistersiteandcourses']
+msgid "Unregister the site and all courses"
+msgstr ""
+
+#: $string['unregistrationofprivate']
+msgid "The hub has been unregistered from the hub directory."
+msgstr ""
+
+#: $string['untrustme']
+msgid "Untrust"
+msgstr ""
+
+#: $string['updatesite']
+msgid "Update registration on {$a}"
+msgstr ""
+
+#: $string['url']
+msgid "hub URL"
+msgstr ""
+
+#: $string['urlalreadyexist']
+msgid ""
+"Your new site url is already existing on {$a}. It could come from a bad "
+"database on {$a} or a previous registration. Alert the hub administrator. "
+"You could have to unregister your site and register again. You must tell the "
+"hub administrator if you want to keep your already published courses, as he "
+"will need to delete your previous registration."
+msgstr ""
+
+#: $string['userinfo']
+msgid "Creator: {$a->creatorname} - Publisher: {$a->publishername}"
+msgstr ""
+
+#: $string['usersnumber']
+msgid "Number of users ({$a})"
+msgstr ""
+
+#: $string['visibility']
+msgctxt "$string['visibility']"
+msgid "Visibility"
+msgstr ""
+
+#: $string['visibilityall']
+msgid "Any"
+msgstr ""
+
+#: $string['visibility_help']
+msgid "Display visible courses, invisible courses or both at the same time."
+msgstr ""
+
+#: $string['visibilityno']
+msgid "Not visible"
+msgstr ""
+
+#: $string['visibilityyes']
+msgctxt "$string['visibilityyes']"
+msgid "Visible"
+msgstr ""
+
+#: $string['visitdemo']
+msgid "Visit demo"
+msgstr ""
+
+#: $string['visitsite']
+msgid "Visit site"
+msgstr ""
+
+#: $string['wronghubpassword']
+msgid "Wrong hub password, press continue and try again."
+msgstr ""
+
+#: $string['wrongurlformat']
+msgctxt "$string['wrongurlformat']"
+msgid "Bad URL format"
+msgstr ""
+
+#: $string['xmlrpcdisabled']
+msgid ""
+"The XML-RPC extension is not enabled on the server. You can not manage your "
+"hub until this extension is enabled."
+msgstr ""
+
+#: $string['yeswithmoodle']
+msgid "Yes, with Moodle"
+msgstr ""
+
+#: $string['yeswithoutmoodle']
+msgid "Yes, without Moodle"
+msgstr ""

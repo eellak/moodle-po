@@ -1,0 +1,320 @@
+#. extracted from lang/en/local_boostnavigation.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'local_boostnavigation', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   local_boostnavigation
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['pluginname']
+msgid "Boost navigation fumbling"
+msgstr ""
+
+#: $string['setting_collapseactivitiescoursenode']
+msgid "Collapse node \"Activities\""
+msgstr ""
+
+#: $string['setting_collapseactivitiescoursenodedefault']
+msgid "Collapse node \"Activities\" by default"
+msgstr ""
+
+#: $string['setting_collapseactivitiescoursenodedefault_desc']
+msgid ""
+"Enabling this setting will collapse the \"Activities\" node by default. "
+"Otherwise, it will be expanded by default. This setting just controls the "
+"default for each user when the node is rendered for him for the first "
+"time.<br /><em>This setting is only processed when collapsing the node is "
+"activated at all.</em>"
+msgstr ""
+
+#: $string['setting_collapseactivitiescoursenode_desc']
+msgid ""
+"Enabling this setting will let users collapse the \"Activities\" node.<br "
+"/><em>This setting is only processed when the \"Inserting node 'Activities'\" "
+"setting is also activated.</em>"
+msgstr ""
+
+#: $string['setting_collapsecoursenodesheading']
+msgid "Collapse course nodes in Boost's nav drawer"
+msgstr ""
+
+#: $string['setting_collapsecoursesectionscoursenode']
+msgid "Collapse node \"Sections\""
+msgstr ""
+
+#: $string['setting_collapsecoursesectionscoursenodedefault']
+msgid "Collapse node \"Sections\" by default"
+msgstr ""
+
+#: $string['setting_collapsecoursesectionscoursenodedefault_desc']
+msgid ""
+"Enabling this setting will collapse the \"Sections\" node by default. "
+"Otherwise, it will be expanded by default. This setting just controls the "
+"default for each user when the node is rendered for him for the first "
+"time.<br /><em>This setting is only processed when collapsing the node is "
+"activated at all.</em>"
+msgstr ""
+
+#: $string['setting_collapsecoursesectionscoursenode_desc']
+msgid ""
+"Enabling this setting will let users collapse the \"Sections\" node.<br "
+"/><em>This setting is only processed when the \"Inserting node 'Sections'\" "
+"setting is also activated.</em>"
+msgstr ""
+
+#: $string['setting_collapsemycoursesnode']
+msgid "Collapse node \"My Courses\""
+msgstr ""
+
+#: $string['setting_collapsemycoursesnodedefault']
+msgid "Collapse node \"My Courses\" by default"
+msgstr ""
+
+#: $string['setting_collapsemycoursesnodedefault_desc']
+msgid ""
+"Enabling this setting will collapse the \"My courses\" node by default. "
+"Otherwise, it will be expanded by default. This setting just controls the "
+"default for each user when the node is rendered for him for the first "
+"time.<br /><em>This setting is only processed when collapsing the node is "
+"activated at all.</em>"
+msgstr ""
+
+#: $string['setting_collapsemycoursesnode_desc']
+msgid "Enabling this setting will let users collapse the \"My courses\" node."
+msgstr ""
+
+#: $string['setting_collapsemycoursesnodeperformancehint']
+msgid ""
+"Please note: This feature will only work if the setting <a href=\"/admin/sear"
+"ch.php?query=navshowmycoursecategories\">navshowmycoursecategories</a> is not "
+"active. If you enabled navshowmycoursecategories, this setting will be "
+"ignored and won't do anything."
+msgstr ""
+
+#: $string['setting_collapsenodesheading']
+msgid "Collapse root nodes in Boost's nav drawer"
+msgstr ""
+
+#: $string['setting_collapsenodestechnicalhint']
+msgid ""
+"Technically, this is done by adding some JavaScript and CSS code to the page "
+"which will show or hide the second-level nodes as soon as the user clicks "
+"on the node. The collapse status of the node will be stored in each user's "
+"session. Thus, the nodes will only be hidden from the nav drawer at runtime, "
+"but they will remain in the navigation tree and can still be accessed by "
+"other parts of Moodle."
+msgstr ""
+
+#: $string['setting_collapsenodestemplatehint']
+msgid ""
+"Please note that this feature is only working with Boost installations which "
+"have the patch from MDL-59425 integrated. See README file for details"
+msgstr ""
+
+#: $string['setting_insertactivitiescoursenode']
+msgid "Insert node \"Activities\""
+msgstr ""
+
+#: $string['setting_insertactivitiescoursenode_desc']
+msgid ""
+"Enabling this setting will insert an \"Activities\" node to Boost's nav drawer "
+"which will hold nodes linking to the activity overview pages. It basically "
+"brings the existing functionality of the \"Activities\" block to Boost's nav "
+"drawer."
+msgstr ""
+
+#: $string['setting_insertcoursenodesheading']
+msgid "Insert course nodes to Boost's nav drawer"
+msgstr ""
+
+#: $string['setting_insertcoursesectionscoursenode']
+msgid "Insert node \"Sections\""
+msgstr ""
+
+#: $string['setting_insertcoursesectionscoursenodecorehint']
+msgid ""
+"Please note: This feature will only work if the setting <a "
+"href=\"/admin/search.php?query=linkcoursesections\">linkcoursesections</a> is "
+"active. If you disabled linkcoursesections, this setting will be ignored and "
+"won't do anything."
+msgstr ""
+
+#: $string['setting_insertcoursesectionscoursenode_desc']
+msgid ""
+"Enabling this setting will insert a \"Sections\" node to Boost's nav drawer "
+"which will be placed above the first section of the current course."
+msgstr ""
+
+#: $string['setting_insertnodescollapsehint']
+msgid ""
+"Please note that the inserted node has an action link which leads to the "
+"course home page because Boost does not support adding nodes without an "
+"action link. The action link will be overridden as soon as you also enable "
+"the setting to collapse the node at the same time."
+msgstr ""
+
+#: $string['setting_insertresourcescoursenode']
+msgid "Insert node \"Resources\""
+msgstr ""
+
+#: $string['setting_insertresourcescoursenode_desc']
+msgid ""
+"Enabling this setting will insert a \"Resources\" node to Boost's nav drawer "
+"which will link to the resources overview page.<br /><em>This setting is "
+"associated to the \"Inserting node 'Activities'\" setting. If you enable both "
+"settings, you wil get an \"Activities\" and a \"Resources\" node as requested. "
+"If you only enable the \"Activities\" setting, the \"Activities\" node will also "
+"hold a node linking to the resources overview page.</em>"
+msgstr ""
+
+#: $string['setting_removebadgescoursenode']
+msgid "Remove \"Badges\" node"
+msgstr ""
+
+#: $string['setting_removebadgescoursenode_desc']
+msgid ""
+"Enabling this setting will remove the \"Badges\" node from Boost's nav drawer "
+"if there are no badges in the course. Teachers can still always access the "
+"badges management page in the course menu (cog menu).<br /><em>This setting "
+"is only processed when the badges subsystem is enabled in Moodle.</em>"
+msgstr ""
+
+#: $string['setting_removecalendarnode']
+msgid "Remove \"Calendar\" node"
+msgstr ""
+
+#: $string['setting_removecalendarnode_desc']
+msgid ""
+"Enabling this setting will remove the \"Calendar\" node from Boost's nav "
+"drawer."
+msgstr ""
+
+#: $string['setting_removecompetenciescoursenode']
+msgid "Remove \"Competencies\" node"
+msgstr ""
+
+#: $string['setting_removecompetenciescoursenode_desc']
+msgid ""
+"Enabling this setting will remove the \"Competencies\" node from Boost's nav "
+"drawer if there are no competencies in the course. For teachers, there will "
+"be another \"Competencies\" node added to the course menu (cog menu).<br "
+"/><em>This setting is only processed when the competencies subsystem is "
+"enabled in Moodle.</em>"
+msgstr ""
+
+#: $string['setting_removecoursenodesheading']
+msgid "Remove course nodes from Boost's nav drawer"
+msgstr ""
+
+#: $string['setting_removecoursenodestechnicalhint']
+msgid ""
+"Technically, this is done by removing the node from the navigation tree. "
+"Thus, the node cannot be accessed by other parts of Moodle anymore. In "
+"normal Moodle setups, this should hopefully not cause any trouble."
+msgstr ""
+
+#: $string['setting_removedashboardnode']
+msgid "Remove \"Dashboard\" node"
+msgstr ""
+
+#: $string['setting_removedashboardnode_desc']
+msgid ""
+"Enabling this setting will remove the \"Dashboard\" node from Boost's nav "
+"drawer."
+msgstr ""
+
+#: $string['setting_removefirsthomenode']
+msgid "Remove first \"Home\" or \"Dashboard\" node"
+msgstr ""
+
+#: $string['setting_removefirsthomenode_desc']
+msgid ""
+"Enabling this setting will remove the \"Home\" or \"Dashboard\" node, depending "
+"on what the user chose to be his home page, from Boost's nav drawer."
+msgstr ""
+
+#: $string['setting_removehomenode']
+msgid "Remove \"Home\" node"
+msgstr ""
+
+#: $string['setting_removehomenode_desc']
+msgid ""
+"Enabling this setting will remove the \"Home\" node from Boost's nav drawer."
+msgstr ""
+
+#: $string['setting_removemycoursesnode']
+msgid "Remove \"My courses\" node"
+msgstr ""
+
+#: $string['setting_removemycoursesnode_desc']
+msgid ""
+"Enabling this setting will remove the \"My courses\" node from Boost's nav "
+"drawer."
+msgstr ""
+
+#: $string['setting_removemycoursesnodeperformancehint']
+msgid ""
+"Please note: If you enable this setting and have also enabled the setting <a "
+"href=\"/admin/search.php?query=navshowmycoursecategories\">navshowmycoursecat"
+"egories</a>, removing the \"My courses\" node takes more time and you should "
+"consider disabling the navshowmycoursecategories setting."
+msgstr ""
+
+#: $string['setting_removenodesheading']
+msgid "Remove root nodes from Boost's nav drawer"
+msgstr ""
+
+#: $string['setting_removenodestechnicalhint']
+msgid ""
+"Technically, this is done by setting the node's showinflatnavigation "
+"attribute to false. Thus, the node will only be hidden from the nav drawer, "
+"but it will remain in the navigation tree and can still be accessed by other "
+"parts of Moodle."
+msgstr ""
+
+#: $string['setting_removeprivatefilesnode']
+msgid "Remove \"Private files\" node"
+msgstr ""
+
+#: $string['setting_removeprivatefilesnode_desc']
+msgid ""
+"Enabling this setting will remove the \"Private files\" node from Boost's nav "
+"drawer."
+msgstr ""
+
+#: $string['setting_removesecondhomenode']
+msgid "Remove second \"Home\" or \"Dashboard\" node"
+msgstr ""
+
+#: $string['setting_removesecondhomenode_desc']
+msgid ""
+"Enabling this setting will remove the \"Home\" or \"Dashboard\" node, depending "
+"on what the user chose not to be his home page, from Boost's nav drawer."
+msgstr ""

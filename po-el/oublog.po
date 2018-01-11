@@ -1,0 +1,1977 @@
+#. extracted from lang/en/oublog.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'oublog', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   oublog
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['accessdenied']
+msgid "Sorry: you do not have access to view this page."
+msgstr ""
+
+#: $string['activeblogs']
+msgid "Active"
+msgstr ""
+
+#: $string['addcomment']
+msgid "Add comment"
+msgstr ""
+
+#: $string['addlink']
+msgid "Add link"
+msgstr ""
+
+#: $string['addpost']
+msgid "Add post"
+msgstr ""
+
+#: $string['advancedoptions']
+msgid "Advanced options"
+msgstr ""
+
+#: $string['afterendcomment']
+msgid "You cannot comment on posts at this time. Commenting ended on {$a}."
+msgstr ""
+
+#: $string['afterendcommentcapable']
+msgid ""
+"Students were able to comment on posts until {$a}.\n"
+"<br/> You have access to comment after this time."
+msgstr ""
+
+#: $string['afterendpost']
+msgid "You cannot create posts at this time. Post creation ended on {$a}."
+msgstr ""
+
+#: $string['afterendpostcapable']
+msgid ""
+"Students were able to create their own posts until {$a}.\n"
+"<br/> You have access to create posts after this time."
+msgstr ""
+
+#: $string['allowcomments']
+msgid "Allow comments"
+msgstr ""
+
+#: $string['allowcomments_help']
+msgid ""
+"&lsquo;Yes, from signed-on users&rsquo; allows comments from users who have "
+"access to the post.\n"
+"\n"
+"&lsquo;Yes, from everybody&rsquo; allows comments from users and from the "
+"general public. You will receive emails to approve or reject comments from "
+"users who are not signed in.\n"
+"\n"
+"&lsquo;No&rsquo; prevents anyone from making a comment on this post."
+msgstr ""
+
+#: $string['allowcommentsmax']
+msgid "Allow comments (if chosen for post)"
+msgstr ""
+
+#: $string['allowimport']
+msgid "Enable post import"
+msgstr ""
+
+#: $string['allowimport_help']
+msgid ""
+"Allow any user to import pages from other blog activities they have access "
+"to."
+msgstr ""
+
+#: $string['allowimport_invalid']
+msgid "Posts can only be imported when activity is set to individual mode."
+msgstr ""
+
+#: $string['alpha']
+msgid "A to Z"
+msgstr ""
+
+#: $string['atom']
+msgid "Atom"
+msgstr ""
+
+#: $string['atomfeed']
+msgid "Atom feed"
+msgstr ""
+
+#: $string['attachments']
+msgid "Attachments"
+msgstr ""
+
+#: $string['attachments_help']
+msgid ""
+"You can optionally attach one or more files to a blog post. If you attach an "
+"image, it will be displayed after the message."
+msgstr ""
+
+#: $string['beforeendcomment']
+msgid "You can only comment on posts until {$a}."
+msgstr ""
+
+#: $string['beforeendcommentcapable']
+msgid ""
+"Students are able to comment on posts until {$a}.\n"
+"<br/> You have access to comment after this time."
+msgstr ""
+
+#: $string['beforeendpost']
+msgid "You can only create posts until {$a}."
+msgstr ""
+
+#: $string['beforeendpostcapable']
+msgid ""
+"Students are able to create their own posts until {$a}.\n"
+"<br/> You have access to create posts after this time."
+msgstr ""
+
+#: $string['beforestartcomment']
+msgid ""
+"You cannot comment on posts at this time. Commenting is available from {$a}."
+msgstr ""
+
+#: $string['beforestartcommentcapable']
+msgid ""
+"Students cannot comment on posts until {$a}.\n"
+"<br/> You have access to comment before this time."
+msgstr ""
+
+#: $string['beforestartpost']
+msgid ""
+"You cannot create posts at this time. Post creation is available from {$a}."
+msgstr ""
+
+#: $string['beforestartpostcapable']
+msgid ""
+"Students cannot create their own posts until {$a}.\n"
+"<br/> You have access to create posts before this time."
+msgstr ""
+
+#: $string['blogfeed']
+msgid "{$a} feeds"
+msgstr ""
+
+#: $string['bloginfo']
+msgid "blog information"
+msgstr ""
+
+#: $string['blogname']
+msgid "Blog name"
+msgstr ""
+
+#: $string['blogoptions']
+msgid "Blog options"
+msgstr ""
+
+#: $string['blogsummary']
+msgid "Blog summary"
+msgstr ""
+
+#: $string['cancel']
+msgid "Cancel"
+msgstr ""
+
+#: $string['comment']
+msgid "Add your comment"
+msgstr ""
+
+#: $string['commentalert']
+msgid "Report comment"
+msgstr ""
+
+#: $string['commentdated']
+msgid "Dated"
+msgstr ""
+
+#: $string['commentfrom']
+msgid "Commenting only allowed from"
+msgstr ""
+
+#: $string['commentonby']
+msgid "Comment on post <u>{$a->title}</u> {$a->date} by <u>{$a->author}</u>"
+msgstr ""
+
+#: $string['commentonbyusers']
+msgid ""
+"Comment <u>{$a->commenttitle}</u> on post <u>{$a->posttitle}</u> <br> by "
+"<u>{$a->author}</u>"
+msgstr ""
+
+#: $string['commentposts']
+msgid "Most commented posts"
+msgstr ""
+
+#: $string['commentposts_info_alltime']
+msgid "Posts with the most number of comments"
+msgstr ""
+
+#: $string['commentposts_info_thismonth']
+msgid "Posts with the most number of comments added in the past month"
+msgstr ""
+
+#: $string['commentposts_info_thisyear']
+msgid "Posts with the most number of comments added in the past year"
+msgstr ""
+
+#: $string['comments']
+msgid "Comments"
+msgstr ""
+
+#: $string['commentsby']
+msgid "Comments by {$a}"
+msgstr ""
+
+#: $string['commentsfeed']
+msgid "Comments only"
+msgstr ""
+
+#: $string['comments_info_alltime']
+msgid "{$a}s with the most number of comments"
+msgstr ""
+
+#: $string['comments_info_thismonth']
+msgid "{$a}s with the most number of comments added in the past month"
+msgstr ""
+
+#: $string['comments_info_thisyear']
+msgid "{$a}s with the most number of comments added in the past year"
+msgstr ""
+
+#: $string['commentsnotallowed']
+msgid "Comments are not allowed"
+msgstr ""
+
+#: $string['commentuntil']
+msgid "Commenting only allowed until"
+msgstr ""
+
+#: $string['completioncomments']
+msgid "User must make comments on blog posts:"
+msgstr ""
+
+#: $string['completioncommentsgroup']
+msgid "Require comments"
+msgstr ""
+
+#: $string['completioncommentsgroup_help']
+msgid ""
+"If you enable this option, the blog will be marked as complete for a student "
+"once they have left the specified number of comments."
+msgstr ""
+
+#: $string['completionposts']
+msgid "User must make blog posts:"
+msgstr ""
+
+#: $string['completionpostsgroup']
+msgid "Require posts"
+msgstr ""
+
+#: $string['completionpostsgroup_help']
+msgid ""
+"If you enable this option, the blog will be marked as complete for a student "
+"once they have made the specified number of posts."
+msgstr ""
+
+#: $string['computingguide']
+msgid "Guide to OU blogs"
+msgstr ""
+
+#: $string['computingguideurl']
+msgid "Computing guide URL"
+msgstr ""
+
+#: $string['computingguideurlexplained']
+msgid "Enter the URL for the OU blogs omputing guide"
+msgstr ""
+
+#: $string['configmaxattachments']
+msgid "Default maximum number of attachments allowed per blog post."
+msgstr ""
+
+#: $string['configmaxbytes']
+msgid ""
+"Default maximum size for all blog attachments on the site.\n"
+"(subject to course limits and other local settings)"
+msgstr ""
+
+#: $string['configremoteserver']
+msgid ""
+"Root address (wwwroot) of remote server to be used for post imports.\n"
+"Blogs on this server will be shown in addition to those on local site when "
+"importing posts."
+msgstr ""
+
+#: $string['configremotetoken']
+msgid "Web service user token for oublog webservices on import remote server."
+msgstr ""
+
+#: $string['confirmdeletecomment']
+msgid "Are you sure you want to delete this comment?"
+msgstr ""
+
+#: $string['confirmdeletelink']
+msgid "Are you sure you want to delete this link?"
+msgstr ""
+
+#: $string['confirmdeletepost']
+msgid "Are you sure you want to delete this post?"
+msgstr ""
+
+#: $string['contribution']
+msgctxt "$string['contribution']"
+msgid "Participation"
+msgstr ""
+
+#: $string['contribution_all']
+msgctxt "$string['contribution_all']"
+msgid "Participation - All time"
+msgstr ""
+
+#: $string['contribution_from']
+msgctxt "$string['contribution_from']"
+msgid "Participation - From {$a}"
+msgstr ""
+
+#: $string['contribution_fromto']
+msgctxt "$string['contribution_fromto']"
+msgid "Participation - From {$a->start} To {$a->end}"
+msgstr ""
+
+#: $string['contribution_to']
+msgctxt "$string['contribution_to']"
+msgid "Participation - To {$a}"
+msgstr ""
+
+#: $string['copytoself']
+msgid "Send a copy to yourself"
+msgstr ""
+
+#: $string['couldnotaddcomment']
+msgid "Could not add comment"
+msgstr ""
+
+#: $string['couldnotaddlink']
+msgid "Could not add link"
+msgstr ""
+
+#: $string['defaultpersonalblogname']
+msgid "{$a->name}'s {$a->displayname}"
+msgstr ""
+
+#: $string['delete']
+msgid "Delete"
+msgstr ""
+
+#: $string['deleteandemail']
+msgctxt "$string['deleteandemail']"
+msgid "Delete and email"
+msgstr ""
+
+#: $string['deletedblogpost']
+msgid "Untitled post."
+msgstr ""
+
+#: $string['deletedby']
+msgid "Deleted by {$a->fullname}, {$a->timedeleted}"
+msgstr ""
+
+#: $string['deleteemailpostbutton']
+msgctxt "$string['deleteemailpostbutton']"
+msgid "Delete and email"
+msgstr ""
+
+#: $string['deleteemailpostdescription']
+msgid ""
+"Select to delete the post or delete and send a customisable email "
+"notification."
+msgstr ""
+
+#: $string['deleteglobalblog']
+msgid "You can't delete the global blog"
+msgstr ""
+
+#: $string['details']
+msgid "Details"
+msgstr ""
+
+#: $string['discovery']
+msgid "{$a} usage"
+msgstr ""
+
+#: $string['displayname']
+msgid "Alternate activity name (blank uses default)"
+msgstr ""
+
+#: $string['displayname_default']
+msgid "blog"
+msgstr ""
+
+#: $string['displayname_help']
+msgid ""
+"Set an alternate activity type name within the interface.\n"
+"\n"
+"Leaving blank/empty will mean the default ('blog') is used.\n"
+"\n"
+"The alternate name should start with a lower-case letter, this will be "
+"capitalised where needed."
+msgstr ""
+
+#: $string['displayperiod']
+msgid "Participation selector From date - To date."
+msgstr ""
+
+#: $string['displayperiod_help']
+msgid ""
+"<p>The default selects all entries.</p>\n"
+"<p>You can select 'From' a date until todays entries.</p>\n"
+"<p>You can select all entries between a 'From' date and a 'To' date.</p>\n"
+"<p>Or you can select from the first entry 'To' a date</p>"
+msgstr ""
+
+#: $string['displayversion']
+msgid "OU blog version: <strong>{$a}</strong>"
+msgstr ""
+
+#: $string['downloadas']
+msgid "Download data as"
+msgstr ""
+
+#: $string['downloadcsv']
+msgid "Comma separated values text file"
+msgstr ""
+
+#: $string['edit']
+msgid "Edit"
+msgstr ""
+
+#: $string['editlink']
+msgid "Edit link"
+msgstr ""
+
+#: $string['editonsummary']
+msgid "Edited {$a->editdate}"
+msgstr ""
+
+#: $string['editpost']
+msgid "Update post"
+msgstr ""
+
+#: $string['editsummary']
+msgid "Edited by {$a->editby}, {$a->editdate}"
+msgstr ""
+
+#: $string['emailcontenthtml']
+msgid ""
+"This is a notification to advise you that your {$a->activityname} post with "
+"the\n"
+"following details has been deleted by '{$a->firstname} {$a->lastname}':<br "
+"/>\n"
+"<br />\n"
+"Subject: {$a->subject}<br />\n"
+"{$a->activityname}: {$a->blog}<br />\n"
+"Course: {$a->course}<br />\n"
+"<br />\n"
+"<a href={$a->deleteurl} title=\"view deleted post\">View the deleted post</a>"
+msgstr ""
+
+#: $string['emailerror']
+msgid "There was an error sending the email"
+msgstr ""
+
+#: $string['emailmessage']
+msgctxt "$string['emailmessage']"
+msgid "Message"
+msgstr ""
+
+#: $string['end']
+msgid "To"
+msgstr ""
+
+#: $string['error_alreadyapproved']
+msgid "Comment already approved or rejected"
+msgstr ""
+
+#: $string['error_grouppubliccomments']
+msgid "You cannot allow public comments when the blog is in group mode"
+msgstr ""
+
+#: $string['error_moderatednotallowed']
+msgid "Moderated comments are no longer allowed on this blog or blog post"
+msgstr ""
+
+#: $string['error_noconfirm']
+msgid "Enter the bold text above, exactly as given, into this box."
+msgstr ""
+
+#: $string['error_toomanycomments']
+msgid ""
+"You have made too many blog comments in the past hour from this internet "
+"address. Please wait a while then try again."
+msgstr ""
+
+#: $string['error_unspecified']
+msgid ""
+"The system cannot complete this request because an error occurred ({$a})"
+msgstr ""
+
+#: $string['error_wrongkey']
+msgid "Comment key incorrect"
+msgstr ""
+
+#: $string['event:commentapproved']
+msgid "Comment approved"
+msgstr ""
+
+#: $string['event:commentcreated']
+msgid "Comment created"
+msgstr ""
+
+#: $string['event:commentdeleted']
+msgid "Comment deleted"
+msgstr ""
+
+#: $string['event:participationviewed']
+msgid "Participation viewed"
+msgstr ""
+
+#: $string['event:postcreated']
+msgid "Post created"
+msgstr ""
+
+#: $string['event:postdeleted']
+msgid "Post deleted"
+msgstr ""
+
+#: $string['event:postimported']
+msgid "Post imported"
+msgstr ""
+
+#: $string['event:postupdated']
+msgid "Post updated"
+msgstr ""
+
+#: $string['event:postviewed']
+msgid "Post viewed"
+msgstr ""
+
+#: $string['event:savefailed']
+msgid "Session fail on post save"
+msgstr ""
+
+#: $string['event:siteentriesviewed']
+msgid "Site entries viewed"
+msgstr ""
+
+#: $string['exportedpost']
+msgid "Exported post"
+msgstr ""
+
+#: $string['exportpostscomments']
+msgid "all currently visible posts and their comments."
+msgstr ""
+
+#: $string['exportuntitledpost']
+msgid "An untitled post"
+msgstr ""
+
+#: $string['externaldashboardadd']
+msgid "Add blog to dashboard"
+msgstr ""
+
+#: $string['externaldashboardremove']
+msgid "Remove blog from dashboard"
+msgstr ""
+
+#: $string['extra_emails']
+msgid "Email address of other recipients"
+msgstr ""
+
+#: $string['extra_emails_help']
+msgid "Enter one or more email address(es) separated by spaces or semicolons."
+msgstr ""
+
+#: $string['extranavolderposts']
+msgid "Older posts: {$a->from}-{$a->to}"
+msgstr ""
+
+#: $string['extranavtag']
+msgid "Tag: {$a}"
+msgstr ""
+
+#: $string['feedhelp']
+msgctxt "$string['feedhelp']"
+msgid "Feeds"
+msgstr ""
+
+#: $string['feedhelp_help']
+msgid ""
+"If you use feeds you can add these Atom or RSS links in order to keep up to "
+"date with posts.\n"
+"Most feed readers support Atom and RSS.\n"
+"\n"
+"If comments are enabled there are also feeds for &lsquo;Comments "
+"only&rsquo;."
+msgstr ""
+
+#: $string['feeds']
+msgctxt "$string['feeds']"
+msgid "Feeds"
+msgstr ""
+
+#: $string['feedsnotenabled']
+msgid "Feeds are not enabled"
+msgstr ""
+
+#: $string['foruser']
+msgid "for {$a}"
+msgstr ""
+
+#: $string['globalblogmissing']
+msgid "Global blog is missing"
+msgstr ""
+
+#: $string['globalusageexclude']
+msgid "Exclude from global usage stats"
+msgstr ""
+
+#: $string['globalusageexclude_desc']
+msgid ""
+"Comma-separated list of user ids to exclude users from the top usage stats "
+"list for global blog"
+msgstr ""
+
+#: $string['gradesupdated']
+msgid "Grades updated"
+msgstr ""
+
+#: $string['grading']
+msgid "Grading"
+msgstr ""
+
+#: $string['grading_help']
+msgid ""
+"If you select this option, a grade for this blog will be added\n"
+" to the course gradebook and calculated automatically.\n"
+" Leave this off for a non-assessed blog, or one you plan to assess manually."
+msgstr ""
+
+#: $string['grading_invalid']
+msgid "Posts can only be graded when either grade type or rating type are set."
+msgstr ""
+
+#: $string['group']
+msgid "Group"
+msgstr ""
+
+#: $string['guestblog']
+msgid ""
+"If you have an account on the system, please\n"
+"<a href='{$a}'>log in for full access</a>."
+msgstr ""
+
+#: $string['import']
+msgctxt "$string['import']"
+msgid "Import"
+msgstr ""
+
+#: $string['import_notallowed']
+msgid "Importing posts is disabled for this {$a}."
+msgstr ""
+
+#: $string['import_step0_blog']
+msgid "Import blog"
+msgstr ""
+
+#: $string['import_step0_inst']
+msgid ""
+"From the list of blogs below, you may either import the entire blog or "
+"import selected posts."
+msgstr ""
+
+#: $string['import_step0_nonefound']
+msgid ""
+"You do not have access to any activities where posts can be imported from."
+msgstr ""
+
+#: $string['import_step0_numposts']
+msgid "({$a} posts)"
+msgstr ""
+
+#: $string['import_step0_selected_posts']
+msgid "Import selected posts"
+msgstr ""
+
+#: $string['import_step1_addtag']
+msgid "Filter by tag - {$a}"
+msgstr ""
+
+#: $string['import_step1_all']
+msgid "Select all"
+msgstr ""
+
+#: $string['import_step1_from']
+msgid "Import from:"
+msgstr ""
+
+#: $string['import_step1_include_label']
+msgid "Import post - {$a}"
+msgstr ""
+
+#: $string['import_step1_inst']
+msgid "Select posts to import:"
+msgstr ""
+
+#: $string['import_step1_none']
+msgid "Select none"
+msgstr ""
+
+#: $string['import_step1_removetag']
+msgid "Remove tag filter - {$a}"
+msgstr ""
+
+#: $string['import_step1_submit']
+msgctxt "$string['import_step1_submit']"
+msgid "Import"
+msgstr ""
+
+#: $string['import_step1_table_include']
+msgid "Include in import"
+msgstr ""
+
+#: $string['import_step1_table_posted']
+msgid "Date posted"
+msgstr ""
+
+#: $string['import_step1_table_tags']
+msgctxt "$string['import_step1_table_tags']"
+msgid "Tags"
+msgstr ""
+
+#: $string['import_step1_table_title']
+msgctxt "$string['import_step1_table_title']"
+msgid "Title"
+msgstr ""
+
+#: $string['import_step2_conflicts']
+msgid ""
+"{$a} post(s) to import were identified as conflicts with existing posts."
+msgstr ""
+
+#: $string['import_step2_conflicts_submit']
+msgid "Import conflicting posts"
+msgstr ""
+
+#: $string['import_step2_inst']
+msgid "Importing posts:"
+msgstr ""
+
+#: $string['import_step2_none']
+msgid "No posts selected for import."
+msgstr ""
+
+#: $string['import_step2_prog']
+msgid "Importing in progress"
+msgstr ""
+
+#: $string['import_step2_total']
+msgid "{$a} post(s) imported successfully"
+msgstr ""
+
+#: $string['includepost']
+msgid "Include post"
+msgstr ""
+
+#: $string['individualblogs']
+msgid "Individual blogs"
+msgstr ""
+
+#: $string['individualblogs_help']
+msgid ""
+"<p><strong>No (blog together or in group)</strong>: <em>Individual blogs are "
+"not used</em> &ndash;\n"
+"There are no individual blogs set, everyone is part of a bigger community\n"
+"(depending on 'Group mode' setting).</p>\n"
+"<p><strong>Separate individual blogs</strong>: <em>Individual blogs are used "
+"privately</em> &ndash;\n"
+"Individual users can only post to and see their own blogs,  unless they have "
+"permission(\"viewindividual\") to view\n"
+"other individual blogs.</p>\n"
+"<p><strong>Visible individual blogs</strong>: <em>Individual blogs are used "
+"publically</em> &ndash;\n"
+"individual users can only post to their own blogs, but they can view other "
+"individual blog posts.</p>"
+msgstr ""
+
+#: $string['info']
+msgid "Participation within the selected period."
+msgstr ""
+
+#: $string['introonpost']
+msgid "Show intro when posting"
+msgstr ""
+
+#: $string['invalidblog']
+msgid "Invalid Blog Id"
+msgstr ""
+
+#: $string['invalidblogdetails']
+msgid "Can't find details for blog post {$a}"
+msgstr ""
+
+#: $string['invalidblogtags']
+msgid "Invalid blog tags"
+msgstr ""
+
+#: $string['invalidcomment']
+msgid "Invalid Comment Id"
+msgstr ""
+
+#: $string['invalidedit']
+msgid "Invalid Edit Id"
+msgstr ""
+
+#: $string['invalidformat']
+msgid "Format must be atom or rss"
+msgstr ""
+
+#: $string['invalidlink']
+msgid "Invalid Link Id"
+msgstr ""
+
+#: $string['invalidpost']
+msgid "Invalid Post Id"
+msgstr ""
+
+#: $string['invalidpostid']
+msgid "Invalid Postid"
+msgstr ""
+
+#: $string['invalidvisbilitylevel']
+msgid "Invalid visibility level {$a}"
+msgstr ""
+
+#: $string['invalidvisibility']
+msgid "Invalid visbility level"
+msgstr ""
+
+#: $string['lastcomment']
+msgid "(latest comment by {$a->fullname}, {$a->timeposted})"
+msgstr ""
+
+#: $string['lastmodified']
+msgid "Last post: {$a}"
+msgstr ""
+
+#: $string['limits']
+msgid "Contribution time period"
+msgstr ""
+
+#: $string['links']
+msgid "Related links"
+msgstr ""
+
+#: $string['logincomments']
+msgid "Yes, from logged-in users"
+msgstr ""
+
+#: $string['maxattachments']
+msgid "Maximum number of attachments"
+msgstr ""
+
+#: $string['maxattachments_help']
+msgid ""
+"This setting specifies the maximum number of files that can be attached to a "
+"blog post."
+msgstr ""
+
+#: $string['maxattachmentsize']
+msgid "Maximum attachment size"
+msgstr ""
+
+#: $string['maxattachmentsize_help']
+msgid ""
+"This setting specifies the largest size of image/file that can be used in a "
+"blog post."
+msgstr ""
+
+#: $string['maxvisibility']
+msgid "Maximum visibility"
+msgstr ""
+
+#: $string['maxvisibility_help']
+msgid ""
+"<p><em>On a personal blog:</em> <strong>Visible only to the blog owner "
+"(private)</strong> &ndash;\n"
+"nobody* else can see this post.</p>\n"
+"<p><em>On a course blog:</em> <strong>Visible to participants on this "
+"course</strong> &ndash; to view the post you must\n"
+"have been granted access to the blog, usually by being enrolled on the "
+"course that contains it.</p>\n"
+"\n"
+"<p><strong>Visible to everyone who is logged in to the system</strong> "
+"&ndash; everyone who is\n"
+"logged in can view the post, even if they're not enrolled on a specific "
+"course.</p>\n"
+"<p><strong>Visible to anyone in the world</strong> &ndash; any Internet user "
+"can see this post\n"
+"if you give them the blog's address.</p>\n"
+"\n"
+"<p>This option exists on the whole blog as well as on individual posts. If "
+"the\n"
+"option is set on the whole blog, that becomes a maximum. For example, if\n"
+"the whole blog is set to the first level, you cannot change the\n"
+"level of an individual post at all.</p>"
+msgstr ""
+
+#: $string['maybehiddenposts']
+msgid ""
+"This {$a->name} might contain posts that are only\n"
+"visible to logged-in users, or where only logged-in users can comment. If "
+"you\n"
+"have an account on the system, please <a href='{$a->link}'>log in for full "
+"access</a>."
+msgstr ""
+
+#: $string['message']
+msgctxt "$string['message']"
+msgid "Message"
+msgstr ""
+
+#: $string['moderated_addedcomment']
+msgid ""
+"Thank you for adding your comment, which has been successfully received. "
+"Your comment won't appear until it has been approved by the author of this "
+"post."
+msgstr ""
+
+#: $string['moderated_approve']
+msgid "Approve this comment"
+msgstr ""
+
+#: $string['moderated_authorname']
+msgid "Your name"
+msgstr ""
+
+#: $string['moderated_awaiting']
+msgid "Comments awaiting approval"
+msgstr ""
+
+#: $string['moderated_awaitingnote']
+msgid ""
+"These comments are not visible to other users unless you approve them. Bear "
+"in mind that the system does not know the identity of commenters and "
+"comments may contain links which, if followed, could seriously "
+"<strong>damage your computer</strong>. If you are in any doubt, please "
+"reject comments <strong>without following any links</strong>."
+msgstr ""
+
+#: $string['moderated_confirm']
+msgid "Confirmation"
+msgstr ""
+
+#: $string['moderated_confirminfo']
+msgid ""
+"Please enter <strong>yes</strong> below to confirm that you are a person."
+msgstr ""
+
+#: $string['moderated_confirmvalue']
+msgid "yes"
+msgstr ""
+
+#: $string['moderated_emailhtml']
+msgid ""
+"<p>(This is an automatically-generated email. Please do not reply.)</p>\n"
+"<p>Someone has added a comment to your blog post: {$a->postlink}</p>\n"
+"<p>You need to <strong>approve the comment</strong> before it will appear in "
+"public.</p>\n"
+"<p>The system does not know the identity of the commenter and comments may\n"
+"contain links which, if followed, could seriously <strong>damage your\n"
+"computer</strong>. If you are in any doubt, please reject the comment\n"
+"<strong>without following any links</strong>.</p>\n"
+"<p>If you approve the comment, you take responsibility for posting it. Make "
+"sure\n"
+"it doesn't contain anything that's against the rules.</p>\n"
+"<hr/>\n"
+"<p>Name given: {$a->commenter}</p>\n"
+"<hr/>\n"
+"<h3>{$a->commenttitle}</h3>\n"
+"{$a->comment}\n"
+"<hr/>\n"
+"<ul class='oublog-approvereject'>\n"
+"<li><a href='{$a->approvelink}'>{$a->approvetext}</a></li>\n"
+"<li><a href='{$a->rejectlink}'>{$a->rejecttext}</a></li>\n"
+"</ul>\n"
+"<p>\n"
+"You can also ignore this email. The comment will be rejected automatically\n"
+"after 30 days.\n"
+"</p>\n"
+"<p>\n"
+"If you receive too many of these emails, you may wish to restrict commenting\n"
+"to logged-in users only.\n"
+"</p>\n"
+"<ul class='oublog-restrict'>\n"
+"<li><a href='{$a->restrictpostlink}'>{$a->restrictposttext}</a></li>\n"
+"<li><a href='{$a->restrictbloglink}'>{$a->restrictblogtext}</a></li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['moderated_emailsubject']
+msgid "Comment awaiting approval on: {$a->blog} ({$a->commenter})"
+msgstr ""
+
+#: $string['moderated_emailtext']
+msgid ""
+"This is an automatically-generated email. Please do not reply.\n"
+"\n"
+"Someone has added a comment to your blog post:\n"
+"{$a->postlink}\n"
+"\n"
+"You need to approve the comment before it will appear in public.\n"
+"\n"
+"The system does not know the identity of the commenter and comments may\n"
+"contain links which, if followed, could seriously damage your computer.\n"
+"If you are in any doubt, please reject the comment without following any\n"
+"links.\n"
+"\n"
+"If you approve the comment, you take responsibility for posting it. Make\n"
+"sure it doesn't contain anything that's against the rules.\n"
+"\n"
+"-----------------------------------------------------------------------\n"
+"Name given: {$a->commenter}\n"
+"-----------------------------------------------------------------------\n"
+"{$a->commenttitle}\n"
+"{$a->comment}\n"
+"-----------------------------------------------------------------------\n"
+"\n"
+"* {$a->approvetext}:\n"
+"  {$a->approvelink}\n"
+"\n"
+"* {$a->rejecttext}:\n"
+"  {$a->rejectlink}\n"
+"\n"
+"You can also ignore this email. The comment will be rejected automatically\n"
+"after 30 days.\n"
+"\n"
+"If you receive too many of these emails, you may wish to restrict\n"
+"commenting to logged-in users only.\n"
+"\n"
+"* {$a->restrictposttext}:\n"
+"  {$a->restrictpostlink}\n"
+"\n"
+"* {$a->restrictblogtext}:\n"
+"  {$a->restrictbloglink}"
+msgstr ""
+
+#: $string['moderated_info']
+msgid ""
+"Because you are not logged in, your comment will\n"
+"only appear after it has been approved. If you\n"
+"have an account on the system, please <a href='{$a}'>log in for full blog "
+"access</a>."
+msgstr ""
+
+#: $string['moderated_postername']
+msgid "using the name <strong>{$a}</strong>"
+msgstr ""
+
+#: $string['moderated_reject']
+msgid "Reject this comment"
+msgstr ""
+
+#: $string['moderated_rejectedon']
+msgid "Rejected {$a}:"
+msgstr ""
+
+#: $string['moderated_restrictblog']
+msgid "Restrict commenting on all your posts on this blog"
+msgstr ""
+
+#: $string['moderated_restrictblog_info']
+msgid ""
+"Would you like to restrict comments on all your posts on this blog so that "
+"only people who are logged into the system can add comments?"
+msgstr ""
+
+#: $string['moderated_restrictpage']
+msgid "Restrict commenting"
+msgstr ""
+
+#: $string['moderated_restrictpost']
+msgid "Restrict commenting on this post"
+msgstr ""
+
+#: $string['moderated_restrictpost_info']
+msgid ""
+"Would you like to restrict comments on this post so that only people who are "
+"logged into the system can add comments?"
+msgstr ""
+
+#: $string['moderated_submitted']
+msgid "Awaiting moderation"
+msgstr ""
+
+#: $string['moderated_typicaltime']
+msgid "In the past, this has usually taken about {$a}."
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "OU blog"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"This allows for the creation of blogs within a module (which are separate\n"
+"to the core Moodle blog system). You can have module-wide blogs (everyone in "
+"the module posts to the same\n"
+"blog), group blogs, or individual blogs. The blog activity can be renamed to "
+"reflect its purpose e.g. Learning Log."
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "OU blogs"
+msgstr ""
+
+#: $string['mostcomments']
+msgid "Most comments"
+msgstr ""
+
+#: $string['mostposts']
+msgid "Most posts"
+msgstr ""
+
+#: $string['mustprovidepost']
+msgid "Must provide postid"
+msgstr ""
+
+#: $string['myparticipation']
+msgid "My participation summary"
+msgstr ""
+
+#: $string['ncomments']
+msgctxt "$string['ncomments']"
+msgid "{$a} comments"
+msgstr ""
+
+#: $string['newblogposts']
+msgid "New blog posts"
+msgstr ""
+
+#: $string['newcomment']
+msgid "New comment"
+msgstr ""
+
+#: $string['newerposts']
+msgid "Newer posts"
+msgstr ""
+
+#: $string['newpost']
+msgid "New {$a} post"
+msgstr ""
+
+#: $string['no']
+msgid "No"
+msgstr ""
+
+#: $string['noblogposts']
+msgid "No blog posts"
+msgstr ""
+
+#: $string['no_blogtogetheroringroups']
+msgid "No (blog together or in groups)"
+msgstr ""
+
+#: $string['nocomments']
+msgid "Comments not allowed"
+msgstr ""
+
+#: $string['nograde']
+msgid "No grade (default)"
+msgstr ""
+
+#: $string['noposts']
+msgid "There are no visible posts in this {$a}."
+msgstr ""
+
+#: $string['nopostsnotags']
+msgid "There are no visible posts in this {$a->blog}, for this tag {$a->tag}."
+msgstr ""
+
+#: $string['notaddpost']
+msgid "Could not add post"
+msgstr ""
+
+#: $string['notaddpostnogroup']
+msgid "Can't add post with no group"
+msgstr ""
+
+#: $string['nousercommentpartsfound']
+msgid "No comments added in this period."
+msgstr ""
+
+#: $string['nousercomments']
+msgid "No comments made."
+msgstr ""
+
+#: $string['nousercommentsfound']
+msgid "No comments made during this period."
+msgstr ""
+
+#: $string['nousergrade']
+msgid "User grade not available."
+msgstr ""
+
+#: $string['nouserpostpartsfound']
+msgid "No posts made in this period."
+msgstr ""
+
+#: $string['nouserposts']
+msgid "No posts made."
+msgstr ""
+
+#: $string['nouserpostsfound']
+msgid "No posts made during this period."
+msgstr ""
+
+#: $string['npending']
+msgid "{$a} comments awaiting approval"
+msgstr ""
+
+#: $string['npendingafter']
+msgctxt "$string['npendingafter']"
+msgid ", {$a} awaiting approval"
+msgstr ""
+
+#: $string['numbercomments']
+msgctxt "$string['numbercomments']"
+msgid "{$a} comments"
+msgstr ""
+
+#: $string['numbercommentsmore']
+msgid "Plus {$a} more comments"
+msgstr ""
+
+#: $string['numberposts']
+msgctxt "$string['numberposts']"
+msgid "{$a} posts"
+msgstr ""
+
+#: $string['numberpostsmore']
+msgid "Plus {$a} more posts"
+msgstr ""
+
+#: $string['numberviews']
+msgid "{$a} views"
+msgstr ""
+
+#: $string['numposts']
+msgctxt "$string['numposts']"
+msgid "{$a} posts"
+msgstr ""
+
+#: $string['official']
+msgid "Set"
+msgstr ""
+
+#: $string['olderposts']
+msgid "Previous posts"
+msgstr ""
+
+#: $string['onecomment']
+msgid "{$a} comment"
+msgstr ""
+
+#: $string['onepending']
+msgid "{$a} comment awaiting approval"
+msgstr ""
+
+#: $string['onependingafter']
+msgctxt "$string['onependingafter']"
+msgid ", {$a} awaiting approval"
+msgstr ""
+
+#: $string['onlyworkspersonal']
+msgid "Only works for personal blogs"
+msgstr ""
+
+#: $string['order']
+msgid "Order:"
+msgstr ""
+
+#: $string['order_help']
+msgid ""
+"You can choose to order the display of the list of tags used,\n"
+"either in alphabetical order or by number of posts used in.\n"
+"Select the two links to switch between ordering methods,\n"
+"this choice is remembered and will be used on subsequent views."
+msgstr ""
+
+#: $string['oublog']
+msgctxt "$string['oublog']"
+msgid "OU blog"
+msgstr ""
+
+#: $string['oublog:addinstance']
+msgid "Add a new OU blog"
+msgstr ""
+
+#: $string['oublogallpostslogin']
+msgid "Force login on all posts page"
+msgstr ""
+
+#: $string['oublogallpostslogin_desc']
+msgid ""
+"Enable to force login to the personal blog site entries page.\n"
+"When enabled only logged-in users will see the link to this page."
+msgstr ""
+
+#: $string['oublog:audit']
+msgid "View deleted posts and old versions"
+msgstr ""
+
+#: $string['oublog:comment']
+msgid "Comment on a post"
+msgstr ""
+
+#: $string['oublog:contributepersonal']
+msgid "Post and comment in personal blogs"
+msgstr ""
+
+#: $string['oublogcrontask']
+msgid "OU blog maintenance jobs"
+msgstr ""
+
+#: $string['oublog:exportownpost']
+msgid "Export own post"
+msgstr ""
+
+#: $string['oublog:exportpost']
+msgid "Export post"
+msgstr ""
+
+#: $string['oublog:exportposts']
+msgid "Export posts"
+msgstr ""
+
+#: $string['oublog:grade']
+msgid "Grade OU Blog user participation"
+msgstr ""
+
+#: $string['oublog:ignorecommentperiod']
+msgid "Ignore comment time period"
+msgstr ""
+
+#: $string['oublog:ignorepostperiod']
+msgid "Ignore post time period"
+msgstr ""
+
+#: $string['oublogintro']
+msgid "Intro"
+msgstr ""
+
+#: $string['oublog_managealerts']
+msgid "Manage reported post/comment alerts"
+msgstr ""
+
+#: $string['oublog:managecomments']
+msgid "Manage comments"
+msgstr ""
+
+#: $string['oublog:managelinks']
+msgid "Manage links"
+msgstr ""
+
+#: $string['oublog:manageposts']
+msgid "Manage posts"
+msgstr ""
+
+#: $string['oublog:post']
+msgid "Create a new post"
+msgstr ""
+
+#: $string['oublog:rate']
+msgid "Can rate posts."
+msgstr ""
+
+#: $string['oublog:view']
+msgid "View posts"
+msgstr ""
+
+#: $string['oublog:viewallratings']
+msgid "View all raw ratings given by individuals"
+msgstr ""
+
+#: $string['oublog:viewanyrating']
+msgid "View total ratings that anyone received"
+msgstr ""
+
+#: $string['oublog:viewindividual']
+msgid "View individual blogs"
+msgstr ""
+
+#: $string['oublog:viewparticipation']
+msgid "View OU Blog user participation"
+msgstr ""
+
+#: $string['oublog:viewpersonal']
+msgid "View posts in personal blogs"
+msgstr ""
+
+#: $string['oublog:viewprivate']
+msgid "View private posts in personal blogs"
+msgstr ""
+
+#: $string['oublog:viewrating']
+msgid "View the total rating you received"
+msgstr ""
+
+#: $string['overviewnumentrylog']
+msgid "entries since last log in"
+msgstr ""
+
+#: $string['overviewnumentrylog1']
+msgid "entry since last log in"
+msgstr ""
+
+#: $string['overviewnumentryvw']
+msgid "entries since last viewed"
+msgstr ""
+
+#: $string['overviewnumentryvw1']
+msgid "entry since last viewed"
+msgstr ""
+
+#: $string['participation']
+msgctxt "$string['participation']"
+msgid "Participation"
+msgstr ""
+
+#: $string['participation_all']
+msgctxt "$string['participation_all']"
+msgid "Participation - All time"
+msgstr ""
+
+#: $string['participationbyuser']
+msgid "Participation by user"
+msgstr ""
+
+#: $string['participation_from']
+msgctxt "$string['participation_from']"
+msgid "Participation - From {$a}"
+msgstr ""
+
+#: $string['participation_fromto']
+msgctxt "$string['participation_fromto']"
+msgid "Participation - From {$a->start} To {$a->end}"
+msgstr ""
+
+#: $string['participation_to']
+msgctxt "$string['participation_to']"
+msgid "Participation - To {$a}"
+msgstr ""
+
+#: $string['permalink']
+msgid "Permalink"
+msgstr ""
+
+#: $string['personalblognotsetup']
+msgid "Personal blogs not set up"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "OU Blog administration"
+msgstr ""
+
+#: $string['pluginname']
+msgid "OU Blog"
+msgstr ""
+
+#: $string['postalert']
+msgid "Report post"
+msgstr ""
+
+#: $string['postauthor']
+msgid "Post author"
+msgstr ""
+
+#: $string['postdate']
+msgid "Post date"
+msgstr ""
+
+#: $string['postdetail']
+msgid "Post detail"
+msgstr ""
+
+#: $string['postedby']
+msgid "by {$a}"
+msgstr ""
+
+#: $string['postedbymoderated']
+msgid "by {$a->commenter} (approved by {$a->approver}, {$a->approvedate})"
+msgstr ""
+
+#: $string['postedbymoderatedaudit']
+msgid ""
+"by {$a->commenter} [{$a->ip}] (approved by {$a->approver}, "
+"{$a->approvedate})"
+msgstr ""
+
+#: $string['postfrom']
+msgid "Posting only allowed from"
+msgstr ""
+
+#: $string['postinfoblock']
+msgid ""
+"<u>{$a->posttitle}</u> <br> <u>{$a->postdate}</u> <br> "
+"<u>{$a->sourcelink}</u>"
+msgstr ""
+
+#: $string['postmessage']
+msgid "Post"
+msgstr ""
+
+#: $string['posts']
+msgid "Posts"
+msgstr ""
+
+#: $string['postsby']
+msgid "Posts by {$a}"
+msgstr ""
+
+#: $string['posts_info_alltime']
+msgid "{$a}s with the most number of posts"
+msgstr ""
+
+#: $string['posts_info_thismonth']
+msgid "{$a}s with the most number of posts in the past month"
+msgstr ""
+
+#: $string['posts_info_thisyear']
+msgid "{$a}s with the most number of posts in the past year"
+msgstr ""
+
+#: $string['posttime']
+msgid "Post time"
+msgstr ""
+
+#: $string['posttitle']
+msgid "Post title"
+msgstr ""
+
+#: $string['postuntil']
+msgid "Posting only allowed until"
+msgstr ""
+
+#: $string['predefinedtags']
+msgid "Pre-defined tags"
+msgstr ""
+
+#: $string['predefinedtags_help']
+msgid ""
+"Give users tags to choose from when entering a tag on a post.\n"
+"Tags should be comma separated."
+msgstr ""
+
+#: $string['publiccomments']
+msgid "Yes, from everybody (even if not logged in)"
+msgstr ""
+
+#: $string['publiccomments_info']
+msgid ""
+"If somebody adds a comment when they are not\n"
+"logged in, you will receive email notification and can approve the comment "
+"for\n"
+"display, or reject it. This is necessary in order to prevent spam."
+msgstr ""
+
+#: $string['re']
+msgid "Re: {$a}"
+msgstr ""
+
+#: $string['recentcomments']
+msgid "Recent comments"
+msgstr ""
+
+#: $string['recentposts']
+msgid "Recent posts"
+msgstr ""
+
+#: $string['remoteserver']
+msgid "Import from remote server"
+msgstr ""
+
+#: $string['remotetoken']
+msgid "Import remote server token"
+msgstr ""
+
+#: $string['removeblogs']
+msgid "Remove all blog entries"
+msgstr ""
+
+#: $string['reportingemail']
+msgid "Reporting email addresses"
+msgstr ""
+
+#: $string['reportingemail_help']
+msgid ""
+"This setting specifies the email addresses of those who will be informed\n"
+"about issues with posts or comments within the OUBlog.\n"
+"They should be entered as a comma separated list."
+msgstr ""
+
+#: $string['restricttags']
+msgid "Tag options"
+msgstr ""
+
+#: $string['restricttags_help']
+msgid ""
+"If you select this option, you can restrict\n"
+"tag entry to only those that are pre-defined at activity level and/or "
+"require that at least one tag be entered in a post."
+msgstr ""
+
+#: $string['restricttagslist']
+msgid "You may only enter the 'Set' tags: {$a}"
+msgstr ""
+
+#: $string['restricttags_req']
+msgid "Must enter tags"
+msgstr ""
+
+#: $string['restricttags_req_set']
+msgid "Must enter pre-defined tags only"
+msgstr ""
+
+#: $string['restricttags_set']
+msgid "Allow pre-defined tags only"
+msgstr ""
+
+#: $string['restricttagsvalidation']
+msgid "Only 'Set' tags are allowed to be entered"
+msgstr ""
+
+#: $string['rss']
+msgid "RSS"
+msgstr ""
+
+#: $string['rssfeed']
+msgid "RSS feed"
+msgstr ""
+
+#: $string['savefailnetwork']
+msgid ""
+"<p>Unfortunately, your changes cannot be saved at this time.\n"
+"This is due to a network error; the website is temporarily unavailable or "
+"you have been signed out. </p>\n"
+"<p>Saving has been disabled on this blog.\n"
+"In order to retain any changes you must copy the edited blog content,\n"
+"access the Edit page again and then paste in your changes.</p>"
+msgstr ""
+
+#: $string['savefailtitle']
+msgid "Post cannot be saved"
+msgstr ""
+
+#: $string['savegrades']
+msgid "Save grades"
+msgstr ""
+
+#: $string['searchblogs']
+msgid "Search"
+msgstr ""
+
+#: $string['searchblogs_help']
+msgid ""
+"Type your search term and press Enter or click the button.\n"
+"\n"
+"To search for exact phrases use quote marks.\n"
+"\n"
+"To exclude a word insert a hyphen immediately before the word.\n"
+"\n"
+"Example: the search term <tt>picasso -sculpture &quot;early works&quot;</tt> "
+"will return results for &lsquo;picasso&rsquo; or the phrase &lsquo;early "
+"works&rsquo; but will exclude items containing &lsquo;sculpture&rsquo;."
+msgstr ""
+
+#: $string['searchthisblog']
+msgid "Search this {$a}"
+msgstr ""
+
+#: $string['sendanddelete']
+msgid "Send and delete"
+msgstr ""
+
+#: $string['separateindividual']
+msgid "Separate&nbsp;individuals"
+msgstr ""
+
+#: $string['separateindividualblogs']
+msgid "Separate individual blogs"
+msgstr ""
+
+#: $string['share']
+msgid "Share post"
+msgstr ""
+
+#: $string['siteentries']
+msgid "View site entries"
+msgstr ""
+
+#: $string['start']
+msgid "From"
+msgstr ""
+
+#: $string['statblockon']
+msgid "Show blog usage extra statistics"
+msgstr ""
+
+#: $string['statblockon_help']
+msgid ""
+"Enable extra statistics display in the Blog usage 'block'.\n"
+"Personal (global), Visible Individual and Visible Group blogs only."
+msgstr ""
+
+#: $string['strftimerecent']
+msgid "%d %B %y, %H:%M"
+msgstr ""
+
+#: $string['subscribefeed']
+msgid ""
+"Subscribe to a feed (requires appropriate software) to receive notification "
+"when this {$a} is updated."
+msgstr ""
+
+#: $string['summary']
+msgid "Summary"
+msgstr ""
+
+#: $string['tags']
+msgctxt "$string['tags']"
+msgid "Tags"
+msgstr ""
+
+#: $string['tagsfield']
+msgid "Tags (separated by commas)"
+msgstr ""
+
+#: $string['tags_help']
+msgid "Tags are labels that help you find and categorise posts."
+msgstr ""
+
+#: $string['tagupdatefailed']
+msgid "Failed to update tags"
+msgstr ""
+
+#: $string['teachergrading']
+msgid "Teacher grades students"
+msgstr ""
+
+#: $string['timefilter_alltime']
+msgid "All time"
+msgstr ""
+
+#: $string['timefilter_close']
+msgid "Hide options"
+msgstr ""
+
+#: $string['timefilter_label']
+msgid "Time period"
+msgstr ""
+
+#: $string['timefilter_open']
+msgid "Show options"
+msgstr ""
+
+#: $string['timefilter_submit']
+msgid "Update"
+msgstr ""
+
+#: $string['timefilter_thismonth']
+msgid "Past month"
+msgstr ""
+
+#: $string['timefilter_thisyear']
+msgid "Past year"
+msgstr ""
+
+#: $string['timestartenderror']
+msgid "Selection end date cannot be earlier than the start date"
+msgstr ""
+
+#: $string['title']
+msgctxt "$string['title']"
+msgid "Title"
+msgstr ""
+
+#: $string['tweet']
+msgid "Tweet"
+msgstr ""
+
+#: $string['unsupportedbrowser']
+msgid ""
+"<p>Your browser cannot display Atom or RSS feeds directly.</p>\n"
+"<p>Feeds are most useful in separate computer programs or websites. If you "
+"want\n"
+"to use this feed in such a program, copy and paste the address from your "
+"browser's\n"
+"address bar.</p>"
+msgstr ""
+
+#: $string['untitledcomment']
+msgid "Untitled comment"
+msgstr ""
+
+#: $string['untitledpost']
+msgid "Untitled post"
+msgstr ""
+
+#: $string['url']
+msgid "Full Web address"
+msgstr ""
+
+#: $string['use']
+msgid "Most used"
+msgstr ""
+
+#: $string['usergrade']
+msgid "User grade"
+msgstr ""
+
+#: $string['userparticipation']
+msgid "User participation"
+msgstr ""
+
+#: $string['userrating']
+msgid "Use ratings"
+msgstr ""
+
+#: $string['usersparticipation']
+msgid "All users participation"
+msgstr ""
+
+#: $string['viewallparticipation']
+msgid "View all participation"
+msgstr ""
+
+#: $string['viewallusers']
+msgid "View all users"
+msgstr ""
+
+#: $string['viewallusersingroup']
+msgid "View all users in group"
+msgstr ""
+
+#: $string['viewblogdetails']
+msgid "View blog details"
+msgstr ""
+
+#: $string['viewblogposts']
+msgid "Return to blog"
+msgstr ""
+
+#: $string['viewedit']
+msgid "View edit"
+msgstr ""
+
+#: $string['viewmyparticipation']
+msgid "View my participation"
+msgstr ""
+
+#: $string['views']
+msgid "Total visits to this {$a}:"
+msgstr ""
+
+#: $string['visibility']
+msgid "Who can read this?"
+msgstr ""
+
+#: $string['visibility_help']
+msgid ""
+"<p><strong>Visible to participants on this course</strong> &ndash; to view "
+"the post you must\n"
+"have been granted access to the activity, usually by being enrolled on the "
+"course that contains it.</p>\n"
+"\n"
+"<p><strong>Visible to everyone who is logged in to the system</strong> "
+"&ndash; everyone who is\n"
+"logged in can view the post, even if they're not enrolled on a specific "
+"course.</p>\n"
+"<p><strong>Visible to anyone in the world</strong> &ndash; any Internet user "
+"can see this post\n"
+"if you give them the address.</p>"
+msgstr ""
+
+#: $string['visibleblogusers']
+msgid "Visible only to members of this blog"
+msgstr ""
+
+#: $string['visiblecourseusers']
+msgid "Visible to participants on this course"
+msgstr ""
+
+#: $string['visibleindividual']
+msgid "Visible&nbsp;individuals"
+msgstr ""
+
+#: $string['visibleindividualblogs']
+msgid "Visible individual blogs"
+msgstr ""
+
+#: $string['visibleloggedinusers']
+msgid "Visible to everyone who is logged in to the system"
+msgstr ""
+
+#: $string['visiblepublic']
+msgid "Visible to anyone in the world"
+msgstr ""
+
+#: $string['visibleyou']
+msgid "Visible only to the blog owner (private)"
+msgstr ""
+
+#: $string['visits']
+msgid "Most visited"
+msgstr ""
+
+#: $string['visits_info_active']
+msgid ""
+"Active {$a}s (contain a post in the past month) with the most number of "
+"visits"
+msgstr ""
+
+#: $string['visits_info_alltime']
+msgid "{$a}s with the most number of visits"
+msgstr ""
+
+#: $string['yes']
+msgid "Yes"
+msgstr ""

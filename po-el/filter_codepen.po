@@ -1,0 +1,209 @@
+#. extracted from lang/en/filter_codepen.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'filter_codepen', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   filter_codepen
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['filtername']
+msgid "CodePen"
+msgstr ""
+
+#: $string['preview_desc']
+msgid "Save your settings to see the result."
+msgstr ""
+
+#: $string['settingdefaulttab']
+msgid "Default tabs"
+msgstr ""
+
+#: $string['settingdefaulttab_css']
+msgid "CSS"
+msgstr ""
+
+#: $string['settingdefaulttab_desc']
+msgid ""
+"Default tabs to display.<br>\n"
+"Maximum 2 at time, and only one if you set \"Embed version\" to \"1\".<br>\n"
+"\"Result\" tab is displayed if nothing is selected."
+msgstr ""
+
+#: $string['settingdefaulttab_html']
+msgid "HTML"
+msgstr ""
+
+#: $string['settingdefaulttab_js']
+msgid "JavaScript"
+msgstr ""
+
+#: $string['settingdefaulttab_result']
+msgid "Result"
+msgstr ""
+
+#: $string['settingembedactivelinkcolor']
+msgid "Active link color"
+msgstr ""
+
+#: $string['settingembedactivelinkcolor_desc']
+msgid "Active tab text color."
+msgstr ""
+
+#: $string['settingembedactivetabcolor']
+msgid "Active tab color"
+msgstr ""
+
+#: $string['settingembedactivetabcolor_desc']
+msgid "Active tab background color."
+msgstr ""
+
+#: $string['settingembedborder']
+msgid "Border"
+msgstr ""
+
+#: $string['settingembedbordercolor']
+msgid "Border color"
+msgstr ""
+
+#: $string['settingembedbordercolor_desc']
+msgid "Embed Pen border color. Ignored if \"Border\" is set to \"none\"."
+msgstr ""
+
+#: $string['settingembedborder_desc']
+msgid "Border style."
+msgstr ""
+
+#: $string['settingembedborder_thick']
+msgid "Thick"
+msgstr ""
+
+#: $string['settingembedborder_thin']
+msgid "Thin"
+msgstr ""
+
+#: $string['settingembedlinklogocolor']
+msgid "Link logo color"
+msgstr ""
+
+#: $string['settingembedlinklogocolor_desc']
+msgid "CodePen edit logo color."
+msgstr ""
+
+#: $string['settingembedtabbarcolor']
+msgid "Tab bar color"
+msgstr ""
+
+#: $string['settingembedtabbarcolor_desc']
+msgid "Tab bar background color."
+msgstr ""
+
+#: $string['settingembedtablinkcolor']
+msgid "Tab link color"
+msgstr ""
+
+#: $string['settingembedtablinkcolor_desc']
+msgid "Tab bar text color."
+msgstr ""
+
+#: $string['settingembedtheme']
+msgid "Embed Theme"
+msgstr ""
+
+#: $string['settingembedtheme_dark']
+msgid "Dark"
+msgstr ""
+
+#: $string['settingembedtheme_desc']
+msgid "Embed Pen theme."
+msgstr ""
+
+#: $string['settingembedtheme_light']
+msgid "Light"
+msgstr ""
+
+#: $string['settingembedversion']
+msgid "Embed version"
+msgstr ""
+
+#: $string['settingembedversion_desc']
+msgid "Embed Pen version."
+msgstr ""
+
+#: $string['settingformats']
+msgid "Apply to formats"
+msgstr ""
+
+#: $string['settingformats_desc']
+msgid ""
+"The filter will be applied only if the original text was inserted in one of "
+"the selected formats."
+msgstr ""
+
+#: $string['settingheading']
+msgid "Information"
+msgstr ""
+
+#: $string['settingheading_info']
+msgid ""
+"<p>This is a text filter to embed a CodePen from <a "
+"href=\"http://codepen.io\">codepen.io</a> into a text area in Moodle. Simply "
+"enable the plugin and paste the direct URL to a Pen in your content (or "
+"heading if enabled). A standard URL looks like this: "
+"<pre>http://codepen.io/[username]/pen/[Pen ID]</pre> For example: <pre>http:"
+"//codepen.io/thedannywahl/pen/Gbdaj</pre></p><h4>Notes</h4><ul><li>CodePen "
+"does not have an API so we cannot manipulate the appearance of embeds on a "
+"per-Pen basis, so settings here are global.</li><li>If a user does not have "
+"javascript enabled a text fallback is provided with a link to the "
+"Pen.</li><li>Links to Pens are escaped if you do not want to embed. "
+"E.g.:<br/><code>&lt;a href=\"http://codepen.io/thedannywahl/pen/Gbdaj\"&gt;htt"
+"p://codepen.io/thedannywahl/pen/Gbdaj&lt;/a&gt;</code></li><li>Make sure "
+"that if you have the \"urltolink\" filter enabled that the CodePen filter is "
+"listed first because links are escaped.</li><li>Do not use www. or cdpn.io "
+"short-link, these are not valid pen URLs.  Visiting them in a browser always "
+"redirects to the full Pen URL path (as exampled above).</li><li>This filter "
+"only works with the /pen/ URL.  It will not embed from other views like "
+"/full/ /live/ etc...</li></ul>"
+msgstr ""
+
+#: $string['settingheight']
+msgid "Pen height"
+msgstr ""
+
+#: $string['settingheight_desc']
+msgid "Set the height of all embedded Pens."
+msgstr ""
+
+#: $string['theme_override']
+msgid "Theme override"
+msgstr ""
+
+#: $string['theme_override_desc']
+msgid "Following settings can be used to override theme."
+msgstr ""

@@ -1,0 +1,263 @@
+#. extracted from lang/en/qtype_multichoice.php, lang/el/qtype_multichoice.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qtype_multichoice', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   qtype_multichoice
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['answerhowmany']
+msgid "One or multiple answers?"
+msgstr "Μία ή πολλές απαντήσεις;"
+
+#: $string['answerhowmany_desc']
+msgid ""
+"Whether the default should be one response (i.e. radio buttons) or multiple "
+"responses (i.e. checkboxes)."
+msgstr ""
+
+#: $string['answernumbering']
+msgid "Number the choices?"
+msgstr "Να αριθμούνται οι επιλογές?"
+
+#: $string['answernumbering123']
+msgid "1., 2., 3., ..."
+msgstr "1., 2., 3., ..."
+
+#: $string['answernumberingabc']
+msgid "a., b., c., ..."
+msgstr "a., b., c., ..."
+
+#: $string['answernumberingABCD']
+msgid "A., B., C., ..."
+msgstr "Α., B., C., ..."
+
+#: $string['answernumbering_desc']
+msgid "The default numbering style."
+msgstr ""
+
+#: $string['answernumberingiii']
+msgid "i., ii., iii., ..."
+msgstr ""
+
+#: $string['answernumberingIIII']
+msgid "I., II., III., ..."
+msgstr ""
+
+#: $string['answernumberingnone']
+msgid "No numbering"
+msgstr "Χωρίς αρίθμηση"
+
+#: $string['answersingleno']
+msgid "Multiple answers allowed"
+msgstr "Οι πολλαπλές απαντήσεις επιτρέπονται"
+
+#: $string['answersingleyes']
+msgid "One answer only"
+msgstr "Μία απάντηση μόνο"
+
+#: $string['choiceno']
+msgid "Choice {$a}"
+msgstr "Επέλεξε {$a}"
+
+#: $string['choices']
+msgid "Available choices"
+msgstr "Διαθέσιμες επιλογές"
+
+#: $string['clozeaid']
+msgid "Enter missing word"
+msgstr "Εισάγετε τη λέξη που λείπει"
+
+#: $string['correctansweris']
+msgid "The correct answer is: {$a}"
+msgstr "Η σωστή απάντηση είναι: {$a}"
+
+#: $string['correctanswersare']
+msgid "The correct answers are: {$a}"
+msgstr ""
+
+#: $string['correctfeedback']
+msgid "For any correct response"
+msgstr "Για οποιαδήποτε σωστή απάντηση"
+
+#: $string['deletedchoice']
+msgid "This choice was deleted after the attempt was started."
+msgstr ""
+
+#: $string['errfractionsaddwrong']
+msgid ""
+"The positive grades you have chosen do not add up to 100%<br />Instead, they "
+"add up to {$a}%"
+msgstr ""
+"Οι θετικοί βαθμοί που έχετε επιλέξει αθροιστικά δεν δίνουν 100%<br "
+"/>Αντίθετα, δίνουν αθροιστικά {$a}%"
+
+#: $string['errfractionsnomax']
+msgid ""
+"One of the choices should be 100%, so that it is<br />possible to get a full "
+"grade for this question."
+msgstr ""
+"Μια από τις επιλογές θα έπρεπε να είναι 100%, ώστε να είναι<br />δυνατόν να "
+"δοθεί ένας πλήρης βαθμός για αυτή την ερώτηση."
+
+#: $string['errgradesetanswerblank']
+msgid "Grade set, but the Answer is blank"
+msgstr ""
+
+#: $string['feedback']
+msgid "Feedback"
+msgstr "Σχόλια"
+
+#: $string['fillouttwochoices']
+msgid ""
+"You must fill out at least two choices. Choices left blank will not be used."
+msgstr ""
+"Πρέπει να συμπληρώσετε τουλάχιστον δύο επιλογές. Οι κενές επιλογές δεν θα "
+"χρησιμοποιηθούν."
+
+#: $string['fractionsaddwrong']
+msgid ""
+"The positive grades you have chosen do not add up to 100%<br />Instead, they "
+"add up to {$a}%<br />Do you want to go back and fix this question?"
+msgstr ""
+"Οι θετικοί βαθμοί που επιλέξατε δεν βγάζουν άθροισμα 100%<br />Αντιθέτως, "
+"βγάζουν άθροισμα {$a}%<br />Θέλετε να επιστρέψετε πίσω και να διορθώσετε "
+"αυτό το πρόβλημα;"
+
+#: $string['fractionsnomax']
+msgid ""
+"One of the choices should be 100%, so that it is<br />possible to get a full "
+"grade for this question.<br />Do you want to go back and fix this question?"
+msgstr ""
+"Μία από τις απαντήσεις πρέπει να βαθμολογηθεί με 100%, έτσι ώστε <br />να "
+"είναι δυνατό να πάρει κάποιος ολόκληρο το βαθμό για αυτήν την ερώτηση.<br "
+"/>Θέλετε να επιστρέψετε πίσω και να διορθώσετε αυτό το λάθος;"
+
+#: $string['incorrectfeedback']
+msgid "For any incorrect response"
+msgstr "Για οποιαδήποτε λάθος απάντηση"
+
+#: $string['notenoughanswers']
+msgid "This type of question requires at least {$a} choices"
+msgstr "Αυτός ο τύπος ερώτησης απαιτεί τουλάχιστον {$a} απαντήσεις"
+
+#: $string['overallcorrectfeedback']
+msgid "Feedback for any correct response"
+msgstr "Σχόλια για κάθε σωστή απάντηση"
+
+#: $string['overallfeedback']
+msgid "Overall feedback"
+msgstr "Γενικά Σχόλια"
+
+#: $string['overallincorrectfeedback']
+msgid "Feedback for any incorrect response"
+msgstr "Σχόλια για κάθε λάθος απάντηση"
+
+#: $string['overallpartiallycorrectfeedback']
+msgid "Feedback for any partially correct response"
+msgstr "Σχόλια για κάθε μερικώς σωστή απάντηση"
+
+#: $string['partiallycorrectfeedback']
+msgid "For any partially correct response"
+msgstr "Για οποιαδήποτε μερικώς σωστή απάντηση"
+
+#: $string['pleaseselectananswer']
+msgid "Please select an answer."
+msgstr "Παρακαλώ επιλέξτε μία απάντηση."
+
+#: $string['pleaseselectatleastoneanswer']
+msgid "Please select at least one answer."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Multiple choice"
+msgstr "Πολλαπλής Επιλογής"
+
+#: $string['pluginnameadding']
+msgid "Adding a Multiple choice question"
+msgstr "Προσθήκη μιας ερώτησης Πολλαπλής Επιλογής"
+
+#: $string['pluginnameediting']
+msgid "Editing a Multiple choice question"
+msgstr "Τροποποίηση μιας ερώτησης Πολλαπλής Επιλογής"
+
+#: $string['pluginname_help']
+msgid ""
+"In response to a question (that may include a image) the respondent chooses "
+"from multiple answers. There are two types of multiple choice questions - "
+"one answer and multiple answer."
+msgstr ""
+
+#: $string['pluginname_link']
+msgid "question/type/multichoice"
+msgstr ""
+
+#: $string['pluginnamesummary']
+msgid ""
+"Allows the selection of a single or multiple responses from a pre-defined "
+"list."
+msgstr ""
+"Επιτρέπει την επιλογή μιας ή περισσοτέρων απαντήσεων από μια προκαθορισμένη "
+"λίστα."
+
+#: $string['selectmulti']
+msgid "Select one or more:"
+msgstr ""
+
+#: $string['selectone']
+msgid "Select one:"
+msgstr "Επιλέξτε ένα:"
+
+#: $string['shuffleanswers']
+msgid "Shuffle the choices?"
+msgstr "Ανακάτεψε τις απαντήσεις"
+
+#: $string['shuffleanswers_desc']
+msgid ""
+"Whether options should be randomly shuffled for each attempt by default."
+msgstr ""
+
+#: $string['shuffleanswers_help']
+msgid ""
+"If enabled, the order of the answers is randomly shuffled for each attempt, "
+"provided that \"Shuffle within questions\" in the activity settings is also "
+"enabled."
+msgstr ""
+"Αν είναι ενεργοποιημένο, η σειρά των απαντήσεων είναι τυχαία ανακατεμένες "
+"για κάθε προσπάθεια, υπό την προϋπόθεση ότι το \"Ανακάτεμα εντός των "
+"ερωτήσεων\" στις ρυθμίσεις δραστηριοτήτων είναι επίσης ενεργοποιημένο."
+
+#: $string['singleanswer']
+msgid "Choose one answer."
+msgstr "Επέλεξε μία απάντηση"
+
+#: $string['toomanyselected']
+msgid "You have selected too many options."
+msgstr ""

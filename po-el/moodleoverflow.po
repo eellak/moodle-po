@@ -1,0 +1,1040 @@
+#. extracted from lang/en/moodleoverflow.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'moodleoverflow', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   moodleoverflow
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addanewdiscussion']
+msgid "Add a new discussion topic"
+msgstr ""
+
+#: $string['addanewreply']
+msgid "Add a new answer"
+msgstr ""
+
+#: $string['allowcoursereputation']
+msgid "Sum reputation within a course."
+msgstr ""
+
+#: $string['allownegativereputation']
+msgid "Allow negative reputation?"
+msgstr ""
+
+#: $string['allownegativereputation_help']
+msgid ""
+"If set to yes, the users reputation within a course or within a module can "
+"be negative. If set to no, the reputation will stop to decrease at zero."
+msgstr ""
+
+#: $string['allowratingchange']
+msgid "Allow rating changes"
+msgstr ""
+
+#: $string['allsubscribe']
+msgid "Subscribe to all moodleoverflows"
+msgstr ""
+
+#: $string['allunsubscribe']
+msgid "Unsubscribe from all moodleoverflows"
+msgstr ""
+
+#: $string['areaattachment']
+msgctxt "$string['areaattachment']"
+msgid "Attachments"
+msgstr ""
+
+#: $string['areapost']
+msgid "Messages"
+msgstr ""
+
+#: $string['attachment']
+msgid "Attachment"
+msgstr ""
+
+#: $string['attachment_help']
+msgid ""
+"You can optionally attach one or more files to a forum post. If you attach "
+"an image, it will be displayed after the message."
+msgstr ""
+
+#: $string['attachments']
+msgctxt "$string['attachments']"
+msgid "Attachments"
+msgstr ""
+
+#: $string['bynameondate']
+msgid "by {$a->name} ({$a->rating}) - {$a->date}"
+msgstr ""
+
+#: $string['bynameondatenorating']
+msgid "by {$a->name} - {$a->date}"
+msgstr ""
+
+#: $string['cannotcreatediscussion']
+msgid "Could not create new discussion"
+msgstr ""
+
+#: $string['cannotdeletepost']
+msgid "You can't delete this post!"
+msgstr ""
+
+#: $string['cannotfindparentpost']
+msgid "Could not find top parent of post {$a}"
+msgstr ""
+
+#: $string['cannotreply']
+msgid "You cannot reply to this post"
+msgstr ""
+
+#: $string['cannottrack']
+msgid "Could not stop tracking that moodleoverflow"
+msgstr ""
+
+#: $string['cannotunsubscribe']
+msgid "Could not unsubscribe you from that moodleoverflow"
+msgstr ""
+
+#: $string['cannotupdatepost']
+msgid "You can not update this post"
+msgstr ""
+
+#: $string['cleanreadtime']
+msgid "Mark old posts as read hour"
+msgstr ""
+
+#: $string['clicktosubscribe']
+msgid "You are not subscribed to this discussion. Click to subscribe."
+msgstr ""
+
+#: $string['clicktounsubscribe']
+msgid "You are subscribed to this discussion. Click to unsubscribe."
+msgstr ""
+
+#: $string['configallowcoursereputation']
+msgid "Allow to sum the reputation of all instances of the current course?"
+msgstr ""
+
+#: $string['configallowratingchange']
+msgid "Can a user change its ratings?"
+msgstr ""
+
+#: $string['configcleanreadtime']
+msgid "The hour of the day to clean old posts from the 'read' table."
+msgstr ""
+
+#: $string['configforcedreadtracking']
+msgid ""
+"Allows moodleoverflows to be set to forced read tracking. Will result in "
+"decreased performance for some users, particularly on courses with many "
+"moodleoverflows and posts. When off, any moodleoverflows previously set to "
+"Forced are treated as optional."
+msgstr ""
+
+#: $string['configmanydiscussions']
+msgid ""
+"Maximum number of discussions shown in a moodleoverflow instance per page"
+msgstr ""
+
+#: $string['configmaxattachments']
+msgid "Default maximum number of attachments allowed per post."
+msgstr ""
+
+#: $string['configmaxbytes']
+msgid ""
+"Default maximum size for all moodleoverflow attachments on the site (subject "
+"to course limits and other local settings)"
+msgstr ""
+
+#: $string['configmaxmailingtime']
+msgid ""
+"Posts older than this number of hours will not be mailed to the users. This "
+"will help to avoid problems where the cron has not een running for a long "
+"time."
+msgstr ""
+
+#: $string['configoldpostdays']
+msgid "Number of days old any post is considered read."
+msgstr ""
+
+#: $string['configpreferteachersmark']
+msgid ""
+"The answer marked as solved by a teacher are prioritized over the answer "
+"marked as helpful by the starter of the discussion."
+msgstr ""
+
+#: $string['configreputationnotnegative']
+msgid "Prohibits the users reputation being negative."
+msgstr ""
+
+#: $string['configtrackingtype']
+msgid "Default setting for read tracking."
+msgstr ""
+
+#: $string['configtrackmoodleoverflow']
+msgid "Set to 'yes' if you want to track read/unread for each user."
+msgstr ""
+
+#: $string['configvotescaledownvote']
+msgid "The amount of reputation a downvote for your post gives."
+msgstr ""
+
+#: $string['configvotescalehelpful']
+msgid "The amount of reputation a mark as helpful on your post gives."
+msgstr ""
+
+#: $string['configvotescalesolved']
+msgid "The amount of reputation a mark as solved on your post gives."
+msgstr ""
+
+#: $string['configvotescaleupvote']
+msgid "The amount of reputation an upvote for your post gives."
+msgstr ""
+
+#: $string['configvotescalevote']
+msgid "The amount of reputation voting gives."
+msgstr ""
+
+#: $string['confirmsubscribe']
+msgid "Do you really want to subscribe to forum '{$a}'?"
+msgstr ""
+
+#: $string['confirmsubscribediscussion']
+msgid ""
+"Do you really want to subscribe to discussion '{$a->discussion}' in forum "
+"'{$a->moodleoverflow}'?"
+msgstr ""
+
+#: $string['confirmunsubscribe']
+msgid "Do you really want to unsubscribe from moodleoverflow '{$a}'?"
+msgstr ""
+
+#: $string['confirmunsubscribediscussion']
+msgid ""
+"Do you really want to unsubscribe from discussion '{$a->discussion}' in "
+"moodleoverflow '{$a->moodleoverflow}'?"
+msgstr ""
+
+#: $string['couldnotadd']
+msgid "Could not add your post due to an unknown error"
+msgstr ""
+
+#: $string['couldnotdeletereplies']
+msgid "Sorry, that cannot be deleted as people have already responded to it"
+msgstr ""
+
+#: $string['couldnotupdate']
+msgid "Could not update your post due to an unknown error"
+msgstr ""
+
+#: $string['coursewidereputation']
+msgid "Cross module reputation?"
+msgstr ""
+
+#: $string['coursewidereputation_help']
+msgid ""
+"If set to yes, the users reputations of all moodleoverflow modules in this "
+"course will be summed."
+msgstr ""
+
+#: $string['crontask']
+msgid "Moodleoverflow maintenance jobs"
+msgstr ""
+
+#: $string['delete']
+msgid "Delete"
+msgstr ""
+
+#: $string['deletesure']
+msgid "Are you sure you want to delete this post?"
+msgstr ""
+
+#: $string['deletesureplural']
+msgid "Are you sure you want to delete this post and all replies? ({$a} posts)"
+msgstr ""
+
+#: $string['disallowsubscribe']
+msgid "Subscriptions not allowed"
+msgstr ""
+
+#: $string['discussionlocked']
+msgid "This discussion has been locked so you can no longer reply to it."
+msgstr ""
+
+#: $string['discussionname']
+msgid "Discussion name"
+msgstr ""
+
+#: $string['discussionnownotsubscribed']
+msgid ""
+"{$a->name} will NOT be notified of new posts in '{$a->discussion}' of "
+"'{$a->moodleoverflow}\\"
+msgstr ""
+
+#: $string['discussionnowsubscribed']
+msgid ""
+"{$a->name} will be notified of new posts in '{$a->discussion}' of "
+"'{$a->moodleoverflow}\\"
+msgstr ""
+
+#: $string['discussions']
+msgid "Discussions"
+msgstr ""
+
+#: $string['discussionsubscription']
+msgid "Discussion subscription"
+msgstr ""
+
+#: $string['discussionsubscription_help']
+msgid ""
+"Subscribing to a discussion means you will receive notifications of new "
+"posts to that discussion."
+msgstr ""
+
+#: $string['edit']
+msgid "Edit"
+msgstr ""
+
+#: $string['editedby']
+msgid "Edited by {$a->name} - original submission {$a->date}"
+msgstr ""
+
+#: $string['editedpostupdated']
+msgid "{$a}'s post was updated"
+msgstr ""
+
+#: $string['erroremptymessage']
+msgid "Post message cannot be empty"
+msgstr ""
+
+#: $string['erroremptysubject']
+msgid "Post subject cannot be empty."
+msgstr ""
+
+#: $string['errorwhiledelete']
+msgid "An error occurred while deleting record."
+msgstr ""
+
+#: $string['eventdiscussioncreated']
+msgid "Discussion created"
+msgstr ""
+
+#: $string['eventdiscussiondeleted']
+msgid "Discussion deleted"
+msgstr ""
+
+#: $string['eventdiscussionsubscriptioncreated']
+msgid "Discussion subscription created"
+msgstr ""
+
+#: $string['eventdiscussionsubscriptiondeleted']
+msgid "Discussion subscription deleted"
+msgstr ""
+
+#: $string['eventdiscussionviewed']
+msgid "Discussion viewed"
+msgstr ""
+
+#: $string['eventpostcreated']
+msgid "Post created"
+msgstr ""
+
+#: $string['eventpostdeleted']
+msgid "Post deleted"
+msgstr ""
+
+#: $string['eventpostupdated']
+msgid "Post updated"
+msgstr ""
+
+#: $string['eventratingcreated']
+msgid "Rating created"
+msgstr ""
+
+#: $string['eventratingdeleted']
+msgid "Rating deleted"
+msgstr ""
+
+#: $string['eventratingupdated']
+msgid "Rating updated"
+msgstr ""
+
+#: $string['eventreadtrackingdisabled']
+msgid "Read tracking disabled"
+msgstr ""
+
+#: $string['eventreadtrackingenabled']
+msgid "Read tracking enabled"
+msgstr ""
+
+#: $string['eventsubscriptioncreated']
+msgid "Subscription created"
+msgstr ""
+
+#: $string['eventsubscriptiondeleted']
+msgid "Subscription deleted"
+msgstr ""
+
+#: $string['everyonecannowchoose']
+msgid "Everyone can now choose to be subscribed"
+msgstr ""
+
+#: $string['everyoneisnowsubscribed']
+msgid "Everyone is now subscribed to this moodleoverflow"
+msgstr ""
+
+#: $string['everyoneissubscribed']
+msgid "Everyone is subscribed to this moodleoverflow"
+msgstr ""
+
+#: $string['forcedreadtracking']
+msgid "Allow forced read tracking"
+msgstr ""
+
+#: $string['generalmoodleoverflows']
+msgid "Moodleoverflows in this course"
+msgstr ""
+
+#: $string['gotoindex']
+msgid "Manage preferences"
+msgstr ""
+
+#: $string['headerdiscussion']
+msgid "Discussion"
+msgstr ""
+
+#: $string['headerlastpost']
+msgid "Last post"
+msgstr ""
+
+#: $string['headerreplies']
+msgid "Replies"
+msgstr ""
+
+#: $string['headerstartedby']
+msgid "Started by"
+msgstr ""
+
+#: $string['headerstatus']
+msgid "Status"
+msgstr ""
+
+#: $string['headerunread']
+msgid "Unread"
+msgstr ""
+
+#: $string['headervotes']
+msgid "Votes"
+msgstr ""
+
+#: $string['hiddenmoodleoverflowpost']
+msgid "Hidden moodleoverflow post"
+msgstr ""
+
+#: $string['invaliddiscussionid']
+msgid "Discussion ID was incorrect"
+msgstr ""
+
+#: $string['invalidforcesubscribe']
+msgid "Invalid force subscription mode"
+msgstr ""
+
+#: $string['invalidmoodleoverflowid']
+msgid "Moodleoverflow ID was incorrect"
+msgstr ""
+
+#: $string['invalidparentpostid']
+msgid "Parent post ID was incorrect"
+msgstr ""
+
+#: $string['invalidpostid']
+msgid "Invalid post ID - {$a}"
+msgstr ""
+
+#: $string['invalidratingid']
+msgid "The submitted rating is neither an upvote nor a downvote."
+msgstr ""
+
+#: $string['mailindexlink']
+msgid "Change your moodleoverflow preferences: {$a}"
+msgstr ""
+
+#: $string['manydiscussions']
+msgid "Discussions per page"
+msgstr ""
+
+#: $string['markallread']
+msgid "Mark all posts in this discussion read."
+msgstr ""
+
+#: $string['markdiscussionreadsuccessful']
+msgid "The discussion has been marked as read."
+msgstr ""
+
+#: $string['markhelpful']
+msgid "Mark as Helpful"
+msgstr ""
+
+#: $string['markmoodleoverflowreadsuccessful']
+msgid "All posts have been marked as read."
+msgstr ""
+
+#: $string['marknothelpful']
+msgid "Not Helpful"
+msgstr ""
+
+#: $string['marknotsolved']
+msgid "Not Solved"
+msgstr ""
+
+#: $string['markread']
+msgid "Mark read"
+msgstr ""
+
+#: $string['markreadfailed']
+msgid "A post of the discussion could not be marked as read."
+msgstr ""
+
+#: $string['marksolved']
+msgid "Mark as Solved"
+msgstr ""
+
+#: $string['markunread']
+msgid "Mark unread"
+msgstr ""
+
+#: $string['maxattachments']
+msgid "Maximum number of attachments"
+msgstr ""
+
+#: $string['maxattachments_help']
+msgid ""
+"This setting specifies the maximum number of files that can be attached to a "
+"forum post."
+msgstr ""
+
+#: $string['maxattachmentsize']
+msgid "Maximum attachment size"
+msgstr ""
+
+#: $string['maxattachmentsize_help']
+msgid ""
+"This setting specifies the largest size of file that can be attached to a "
+"moodleoverflow post."
+msgstr ""
+
+#: $string['maxmailingtime']
+msgid "Maximal mailing time"
+msgstr ""
+
+#: $string['message']
+msgid "Message"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Moodleoverflow"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"The moodleoverflow module enables participants to use a StackOverflow-like "
+"forumstructure."
+msgstr ""
+
+#: $string['modulenameplural']
+msgctxt "$string['modulenameplural']"
+msgid "Moodleoverflows"
+msgstr ""
+
+#: $string['moodleoverflow']
+msgctxt "$string['moodleoverflow']"
+msgid "Moodleoverflow"
+msgstr ""
+
+#: $string['moodleoverflow:addinstance']
+msgid "Add a new moodleoverflow instance"
+msgstr ""
+
+#: $string['moodleoverflow:allowforcesubscribe']
+msgid "Allow forced subscription"
+msgstr ""
+
+#: $string['moodleoverflowauthorhidden']
+msgid "Author (hidden)"
+msgstr ""
+
+#: $string['moodleoverflowbodyhidden']
+msgid ""
+"This post cannot be viewed by you, probably because you have not posted in "
+"the discussion, the maximum editing time hasn't passed yet, the discussion "
+"has not started or the discussion has expired."
+msgstr ""
+
+#: $string['moodleoverflow:createattachment']
+msgid "Create attachments"
+msgstr ""
+
+#: $string['moodleoverflow:deleteanypost']
+msgid "Delete posts"
+msgstr ""
+
+#: $string['moodleoverflow:deleteownpost']
+msgid "Delete own posts"
+msgstr ""
+
+#: $string['moodleoverflow:editanypost']
+msgid "Edit posts"
+msgstr ""
+
+#: $string['moodleoverflowfieldset']
+msgid "Custom example fieldset"
+msgstr ""
+
+#: $string['moodleoverflow:managesubscriptions']
+msgid "Manage subscriptions"
+msgstr ""
+
+#: $string['moodleoverflowname']
+msgid "Moodleoverflow name"
+msgstr ""
+
+#: $string['moodleoverflow:ratehelpful']
+msgid "Mark a post as helpful"
+msgstr ""
+
+#: $string['moodleoverflow:ratepost']
+msgid "Rate a post"
+msgstr ""
+
+#: $string['moodleoverflow:replypost']
+msgid "Reply in discussion"
+msgstr ""
+
+#: $string['moodleoverflows']
+msgctxt "$string['moodleoverflows']"
+msgid "Moodleoverflows"
+msgstr ""
+
+#: $string['moodleoverflow:startdiscussion']
+msgid "Start a discussion"
+msgstr ""
+
+#: $string['moodleoverflowsubjecthidden']
+msgid "Subject (hidden)"
+msgstr ""
+
+#: $string['moodleoverflow:submit']
+msgid "Submit moodleoverflow"
+msgstr ""
+
+#: $string['moodleoverflow:view']
+msgid "View discussionlist"
+msgstr ""
+
+#: $string['moodleoverflow:viewanyrating']
+msgid "View ratings"
+msgstr ""
+
+#: $string['moodleoverflow:viewdiscussion']
+msgid "View discussion"
+msgstr ""
+
+#: $string['nodiscussions']
+msgid "There are no discussion topics yet in this moodleoverflow."
+msgstr ""
+
+#: $string['noguestpost']
+msgid "Sorry, guests are not allowed to post."
+msgstr ""
+
+#: $string['noguesttracking']
+msgid "Sorry, guests are not allowed to set tracking options."
+msgstr ""
+
+#: $string['noonecansubscribenow']
+msgid "Subscriptions are now disallowed"
+msgstr ""
+
+#: $string['nopermissiontosubscribe']
+msgid "You do not have the permission to view moodleoverflow subscribers"
+msgstr ""
+
+#: $string['nopostmoodleoverflow']
+msgid "Sorry, you are not allowed to post to this moodleoverflow."
+msgstr ""
+
+#: $string['noratemoodleoverflow']
+msgid "Sorry, you are not allowed to vote in this moodleoverflow."
+msgstr ""
+
+#: $string['noratingchangeallowed']
+msgid "You are not allowed to change your ratings."
+msgstr ""
+
+#: $string['notexists']
+msgid "Discussion no longer exists"
+msgstr ""
+
+#: $string['notpartofdiscussion']
+msgid "This post is not part of a discussion!"
+msgstr ""
+
+#: $string['notrackmoodleoverflow']
+msgid "Don't track unread posts"
+msgstr ""
+
+#: $string['notstartuser']
+msgid "Only the user who started the discussion can mark an answer as helpful."
+msgstr ""
+
+#: $string['notteacher']
+msgid "Only users with the status teacher can do this."
+msgstr ""
+
+#: $string['noviewdiscussionspermission']
+msgid ""
+"You do not have the permission to view discussions in this moodleoverflow"
+msgstr ""
+
+#: $string['nowallsubscribed']
+msgid "All moodleoverflows in {$a} are subscribed."
+msgstr ""
+
+#: $string['nowallunsubscribed']
+msgid "All moodleoverflows in {$a} are not subscribed."
+msgstr ""
+
+#: $string['nownotsubscribed']
+msgid "{$a->name} will NOT be notified of new posts in '{$a->moodleoverflow}\\"
+msgstr ""
+
+#: $string['nownottracking']
+msgid "{$a->name} is no longer tracking '{$a->moodleoverflow}'."
+msgstr ""
+
+#: $string['nowsubscribed']
+msgid "{$a->name} will be notified of new posts in '{$a->moodleoverflow}\\"
+msgstr ""
+
+#: $string['nowtracking']
+msgid "{$a->name} is now tracking '{$a->moodleoverflow}'."
+msgstr ""
+
+#: $string['oldpostdays']
+msgid "Read after days"
+msgstr ""
+
+#: $string['parent']
+msgid "Show parent"
+msgstr ""
+
+#: $string['permalink']
+msgid "Permalink"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "moodleoverflow administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Moodleoverflow"
+msgstr ""
+
+#: $string['postaddedsuccess']
+msgid "Your post was successfully added."
+msgstr ""
+
+#: $string['postaddedtimeleft']
+msgid "You have {$a} to edit it if you want to make any changes."
+msgstr ""
+
+#: $string['postbyuser']
+msgid "{$a->post} by {$a->user}"
+msgstr ""
+
+#: $string['postincontext']
+msgid "See this post in context"
+msgstr ""
+
+#: $string['postmailinfolink']
+msgid ""
+"This is a copy of a message posted in {$a->coursename}.\n"
+"\n"
+"To reply click on this link: {$a->replylink}"
+msgstr ""
+
+#: $string['postmailsubject']
+msgid "{$a->courseshortname}: {$a->subject}"
+msgstr ""
+
+#: $string['postnotexist']
+msgid "Requested post does not exist"
+msgstr ""
+
+#: $string['posttomoodleoverflow']
+msgid "Post to moodleoverflow"
+msgstr ""
+
+#: $string['postupdated']
+msgid "Your post was updated"
+msgstr ""
+
+#: $string['preferteachersmark']
+msgid "Prefer teachers marks?"
+msgstr ""
+
+#: $string['ratingfailed']
+msgid "Rating failed. Try again."
+msgstr ""
+
+#: $string['ratingheading']
+msgid "Rating and reputation"
+msgstr ""
+
+#: $string['ratingpreference']
+msgid "Display first"
+msgstr ""
+
+#: $string['ratingpreference_help']
+msgid ""
+"Answers can be marked as solved and helpful. This option decides which of "
+"these will be pinned as the first answer of the discussion. There are 2 "
+"options:\n"
+"\n"
+"* Heplful - A topic starters mark as helpful will be pinned at the top of "
+"the discussion\n"
+"* Solved - A teachers mark as solved will be pinned at the top of the "
+"discussion"
+msgstr ""
+
+#: $string['ratingtoold']
+msgid "Ratings can only be changed within 30 minutes after the first vote."
+msgstr ""
+
+#: $string['re']
+msgid "Re:"
+msgstr ""
+
+#: $string['reply']
+msgid "Comment"
+msgstr ""
+
+#: $string['replyfirst']
+msgid "Answer"
+msgstr ""
+
+#: $string['reputationnotnegative']
+msgid "Reputation just positive?"
+msgstr ""
+
+#: $string['smallmessage']
+msgid "{$a->user} posted in {$a->moodleoverflowname}"
+msgstr ""
+
+#: $string['starterrating']
+msgid "Helpful"
+msgstr ""
+
+#: $string['subject']
+msgid "Subject"
+msgstr ""
+
+#: $string['subscribe']
+msgid "Subscribe to this moodleoverflow"
+msgstr ""
+
+#: $string['subscribed']
+msgid "Subscribed"
+msgstr ""
+
+#: $string['subscribeenrolledonly']
+msgid ""
+"Sorry, only enrolled users are allowed to subscribe to moodleoverflow post "
+"notifications."
+msgstr ""
+
+#: $string['subscribestart']
+msgid "Send me notifications of new posts in this moodleoverflow"
+msgstr ""
+
+#: $string['subscribestop']
+msgid "I don't want to be notified of new posts in this moodleoverflow"
+msgstr ""
+
+#: $string['subscriptionauto']
+msgid "Auto subscription"
+msgstr ""
+
+#: $string['subscriptiondisabled']
+msgid "Subscription disabled"
+msgstr ""
+
+#: $string['subscriptionforced']
+msgid "Forced subscription"
+msgstr ""
+
+#: $string['subscriptionmode']
+msgid "Subscription mode"
+msgstr ""
+
+#: $string['subscriptionmode_help']
+msgid ""
+"When a participant is subscribed to a moodleoverflow it means they will "
+"receive forum post notifications. There are 4 subscription mode options:\n"
+"\n"
+"* Optional subscription - Participants can choose whether to be subscribed\n"
+"* Forced subscription - Everyone is subscribed and cannot unsubscribe\n"
+"* Auto subscription - Everyone is subscribed initially but can choose to "
+"unsubscribe at any time\n"
+"* Subscription disabled - Subscriptions are not allowed\n"
+"\n"
+"Note: Any subscription mode changes will only affect users who enrol in the "
+"course in the future, and not existing users."
+msgstr ""
+
+#: $string['subscriptionoptional']
+msgid "Optional subscription"
+msgstr ""
+
+#: $string['subscriptiontrackingheader']
+msgid "Subscription and tracking"
+msgstr ""
+
+#: $string['taskcleanreadrecords']
+msgid "Moodleoverflow maintenance job to clean old read records"
+msgstr ""
+
+#: $string['tasksendmails']
+msgid "Moodleoverflow maintenance job to send mails"
+msgstr ""
+
+#: $string['teacherrating']
+msgid "Solved"
+msgstr ""
+
+#: $string['tracking']
+msgid "Track"
+msgstr ""
+
+#: $string['trackingoff']
+msgid "Off"
+msgstr ""
+
+#: $string['trackingon']
+msgid "Forced"
+msgstr ""
+
+#: $string['trackingoptional']
+msgid "Optional"
+msgstr ""
+
+#: $string['trackingtype']
+msgid "Read tracking"
+msgstr ""
+
+#: $string['trackingtype_help']
+msgid ""
+"Read tracking enables participants to easily check which posts they have not "
+"yet seen by highlighting any new posts.\n"
+"\n"
+"If set to optional, tracking is turned on by default but participants can "
+"turn tracking off.\n"
+"\n"
+"If 'Allow forced read tracking' is enabled in the site administration, then "
+"a further option is available - forced. This means that tracking is always "
+"on."
+msgstr ""
+
+#: $string['trackmoodleoverflow']
+msgid "Track unread posts"
+msgstr ""
+
+#: $string['unknownerror']
+msgid "This is not expected to happen."
+msgstr ""
+
+#: $string['unreadposts']
+msgid "Unread posts"
+msgstr ""
+
+#: $string['unreadpostsnumber']
+msgid "{$a} unread posts"
+msgstr ""
+
+#: $string['unreadpostsone']
+msgid "1 unread post"
+msgstr ""
+
+#: $string['unsubscribe']
+msgid "Unsubscribe from this moodleoverflow"
+msgstr ""
+
+#: $string['unsubscribediscussion']
+msgid "Unsubscribe from this discussion"
+msgstr ""
+
+#: $string['unsubscribediscussionlink']
+msgid "Unsubscribe from this discussion: {$a}"
+msgstr ""
+
+#: $string['unsubscribelink']
+msgid "Unsubscribe from this forum: {$a}"
+msgstr ""
+
+#: $string['votescaledownvote']
+msgid "Reputation: Downvote"
+msgstr ""
+
+#: $string['votescalehelpful']
+msgid "Reputation: Helpful"
+msgstr ""
+
+#: $string['votescalesolved']
+msgid "Reputation: Solved"
+msgstr ""
+
+#: $string['votescaleupvote']
+msgid "Reputation: Upvote"
+msgstr ""
+
+#: $string['votescalevote']
+msgid "Reputation: Vote."
+msgstr ""
+
+#: $string['yournewtopic']
+msgid "Your new discussion topic"
+msgstr ""
+
+#: $string['yourreply']
+msgid "Your reply"
+msgstr ""

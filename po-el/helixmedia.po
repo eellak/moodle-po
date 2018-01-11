@@ -1,0 +1,259 @@
+#. extracted from lang/en/helixmedia.php, lang/el/helixmedia.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'helixmedia', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   helixmedia
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['choosemedia_title']
+msgid "Choose Media"
+msgstr ""
+
+#: $string['consumer_key']
+msgid "MEDIAL Consumer Key"
+msgstr ""
+
+#: $string['consumer_key2']
+msgid "The consumer key used for access to the MEDIAL LTI server."
+msgstr ""
+
+#: $string['helixmedia:addinstance']
+msgid "Add a new MEDIAL Resource"
+msgstr ""
+
+#: $string['helixmedia:manage']
+msgid "Manage MEDIAL Resources"
+msgstr ""
+
+#: $string['helixmediasummary']
+msgid "Summary"
+msgstr "Σύνοψη"
+
+#: $string['helixmediatext']
+msgid "Activity name"
+msgstr ""
+
+#: $string['helixmedia:view']
+msgid "View MEDIAL Resources"
+msgstr ""
+
+#: $string['hml_in_new_window']
+msgid "Open MEDIAL Resource"
+msgstr ""
+
+#: $string['hml_in_new_window_message']
+msgid ""
+"If a new window doesn't open automatically containing the resource you wish "
+"to view, please use the link below to open it."
+msgstr ""
+
+#: $string['invalid_launch']
+msgid "Invalid parameters supplied for MEDIAL LTI launch request. Aborting."
+msgstr ""
+
+#: $string['launch_url']
+msgid "MEDIAL LTI Launch URL"
+msgstr ""
+
+#: $string['launch_url2']
+msgid ""
+"Put the LTI launch URL of the MEDIAL server here. This should be a URL in "
+"the format: https://upload.mymedialserver.org/Lti/Launch"
+msgstr ""
+
+#: $string['log_launch']
+msgid "MEDIAL LTI Launch"
+msgstr ""
+
+#: $string['log_launchedit']
+msgid "MEDIAL LTI Edit Launch"
+msgstr ""
+
+#: $string['log_launcheditnew']
+msgid "MEDIAL LTI New Instance Edit Launch"
+msgstr ""
+
+#: $string['migrate_do_button']
+msgid "Migrate Selected Content"
+msgstr ""
+
+#: $string['migrate_finished']
+msgid "The migration process has finished. You can now exit this page."
+msgstr ""
+
+#: $string['migrate_found']
+msgid ""
+"All the URL modules linked to active MEDIAL Repository instances are listed "
+"below:"
+msgstr ""
+
+#: $string['migrate_from_course']
+msgid "from course"
+msgstr ""
+
+#: $string['migrate_no_repo_mod']
+msgid ""
+"WARNING: The MEDIAL Repository module is not installed, this is necessary in "
+"order to perform the migration process. Please install and configure the "
+"Repository module first."
+msgstr ""
+
+#: $string['migrate_not_found']
+msgid "The following URL modules are linked to inactive MEDIAL instances:"
+msgstr ""
+
+#: $string['migrate_not_found_2']
+msgid ""
+"Note: This will have been caused by the removal/re-installation of the "
+"repository module."
+msgstr ""
+
+#: $string['migrate_not_found_3']
+msgid ""
+"The above content can still be migrated to the new activity module, but this "
+"process will only work if the currently installed repository module is "
+"still connecting to the same MEDIAL installation which was used by the "
+"earlier inactive installations."
+msgstr ""
+
+#: $string['migrate_nothing_found']
+msgid ""
+"No URL module instances linking to the Media Library have been found, all "
+"modules appear to have been migated."
+msgstr ""
+
+#: $string['migrate_ref_invalid']
+msgid ""
+"The linked video has an invalid reference ID. URL instance not migrated."
+msgstr ""
+
+#: $string['migrate_url_instance']
+msgid "Migrating URL instance:"
+msgstr ""
+
+#: $string['migrate_vid_not_found']
+msgid "The linked video cannot be found. URL instance not migrated."
+msgstr ""
+
+#: $string['modal_delay']
+msgid "Video add dialog box close delay in seconds"
+msgstr ""
+
+#: $string['modal_delay2']
+msgid ""
+"By default the modal dialogue box used to add videos will automatically "
+"close once the video has been chosen. You can optionally delay the closing "
+"of this dialogue by the number of seconds specified here, or disable the "
+"auto-close by setting this value to -1. Please note, this setting will have "
+"no effect on the modal dialogs used by the plugins for the TinyMCE and ATTO "
+"editors which will continue to remain open until closed by the user."
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "MEDIAL"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"The MEDIAL module provides a customised LTI based Moodle for the integration "
+"of MEDIAL server into Moodle"
+msgstr ""
+
+#: $string['modulename_link']
+msgid "mod/helixmedia/view"
+msgstr ""
+
+#: $string['modulenameplural']
+msgctxt "$string['modulenameplural']"
+msgid "MEDIAL"
+msgstr ""
+
+#: $string['modulenamepluralformatted']
+msgid "MEDIAL Instances"
+msgstr ""
+
+#: $string['nohelixmedias']
+msgid "No MEDIAL Instances found."
+msgstr ""
+
+#: $string['not_authorised']
+msgid "You are not authorised to perform this MEDIAL operation."
+msgstr ""
+
+#: $string['org_id']
+msgid "Organisation ID"
+msgstr ""
+
+#: $string['org_id2']
+msgid ""
+"The organisation ID or name which will be sent to the MEDIAL server. The URL "
+"of your MEDIAL installation will be sent if this is left blank."
+msgstr ""
+
+#: $string['pluginadministration']
+msgctxt "$string['pluginadministration']"
+msgid "MEDIAL"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "MEDIAL"
+msgstr ""
+
+#: $string['repo_migrate_link']
+msgid "Open the Repository Module Migration Tool"
+msgstr ""
+
+#: $string['repo_migrate_message']
+msgid ""
+"The repository module migration tool will convert content that was created "
+"using the MEDIAL repository module so that it uses this activity module "
+"instead. Use the link below to start the migration process."
+msgstr ""
+
+#: $string['repo_migrate_title']
+msgid "Repository Module Migration"
+msgstr ""
+
+#: $string['search:activity']
+msgid "MEDIAL Activity Videos"
+msgstr ""
+
+#: $string['shared_secret']
+msgid "MEDIAL Shared Secret"
+msgstr ""
+
+#: $string['shared_secret2']
+msgid ""
+"The shared secret used for comunications between Moodle and the MEDIAL "
+"server via LTI."
+msgstr ""

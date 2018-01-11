@@ -1,0 +1,242 @@
+#. extracted from lang/en/block_enrolmenttimer.php, lang/el/block_enrolmenttimer.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_enrolmenttimer', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   block_enrolmenttimer
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['activecountdown']
+msgid "Actively count down"
+msgstr ""
+
+#: $string['activecountdown_help']
+msgid ""
+"Actively count down the remaining time the student has to access the course "
+"using javascript"
+msgstr ""
+
+#: $string['completionpercentage']
+msgid "Notification percentage"
+msgstr ""
+
+#: $string['completionpercentage_help']
+msgid ""
+"This is the percentage the student must aquire in the 'Course Total' for the "
+"completion email to be sent to them"
+msgstr ""
+
+#: $string['completionsmessage']
+msgid "Course Completion Email"
+msgstr ""
+
+#: $string['completionsmessagechk']
+msgid "Enable Completion Email"
+msgstr ""
+
+#: $string['completionsmessagechk_help']
+msgid "Enables/Disables the completion email"
+msgstr ""
+
+#: $string['completionsmessage_help']
+msgid ""
+"Email that will be sent congratulating the student on completing of the "
+"course. Here you can use the following customisations; [[user_name]] "
+"[[course_name]]"
+msgstr ""
+
+#: $string['daystoalertenrolmentend']
+msgid "Days to alert on"
+msgstr ""
+
+#: $string['daystoalertenrolmentend_help']
+msgid ""
+"The amount of days before the enrollment ends at which to send the alert "
+"email"
+msgstr ""
+
+#: $string['displayNothingNoDateSet']
+msgid "Hide block (No End Date Set)"
+msgstr ""
+
+#: $string['displayNothingNoDateSet_help']
+msgid ""
+"Hides the block for users that have no end date set, If disabled, a message "
+"will be shown to those students"
+msgstr ""
+
+#: $string['displayTextCounter']
+msgid "Display Text Counter"
+msgstr ""
+
+#: $string['displayTextCounter_help']
+msgid "Displays the text counter that sits below the main counter"
+msgstr ""
+
+#: $string['displayUnitLabels']
+msgid "Display Unit Labels"
+msgstr ""
+
+#: $string['displayUnitLabels_help']
+msgid "Displays each unit below the main counter"
+msgstr ""
+
+#: $string['emailsubject']
+msgid "Email Subject"
+msgstr ""
+
+#: $string['emailsubject_completion_default']
+msgid "Course Completed"
+msgstr "Το μάθημα ολοκληρώθηκε"
+
+#: $string['emailsubject_expiring_default']
+msgid "Enrolment Expiring"
+msgstr ""
+
+#: $string['emailsubject_help']
+msgid "Subject of the email that will be sent to the user"
+msgstr ""
+
+#: $string['enrolmenttimer']
+msgctxt "$string['enrolmenttimer']"
+msgid "Enrolment Timer"
+msgstr ""
+
+#: $string['enrolmenttimer:addinstance']
+msgid "Add a new Enrolment Timer block"
+msgstr ""
+
+#: $string['expirytext']
+msgid "until your enrollment expires"
+msgstr ""
+
+#: $string['forceDefaults']
+msgid "Force Default Values"
+msgstr "Επιβολή Προεπιλεγμένων Τιμών"
+
+#: $string['forceDefaults_help']
+msgid ""
+"Disables the ability for teachers to change the settings for each block "
+"instance"
+msgstr ""
+
+#: $string['forceTwoDigits']
+msgid "Force 2 Digits"
+msgstr "Επιβολή 2 Δεκαδικών"
+
+#: $string['forceTwoDigits_help']
+msgid ""
+"Forces the main countdown timer to always show atleast 2 digits (eg 01 hours "
+"left)"
+msgstr ""
+
+#: $string['instance_title']
+msgid "Set the title of this block instance"
+msgstr ""
+
+#: $string['key_days']
+msgid "days"
+msgstr ""
+
+#: $string['key_hours']
+msgid "hours"
+msgstr ""
+
+#: $string['key_minutes']
+msgid "minutes"
+msgstr ""
+
+#: $string['key_months']
+msgid "months"
+msgstr ""
+
+#: $string['key_seconds']
+msgid "seconds"
+msgstr ""
+
+#: $string['key_weeks']
+msgid "weeks"
+msgstr ""
+
+#: $string['key_years']
+msgid "years"
+msgstr ""
+
+#: $string['noDateSet']
+msgid "Your enrolment does not expire"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Enrolment Timer"
+msgstr ""
+
+#: $string['settings_general']
+msgid "General Settings"
+msgstr ""
+
+#: $string['settings_notifications_alert']
+msgid "Alert Email Notifications Settings"
+msgstr ""
+
+#: $string['settings_notifications_completion']
+msgid "Completion Email Notifications Settings"
+msgstr ""
+
+#: $string['settings_notifications_defaults']
+msgid "Set defaults for instance settings"
+msgstr ""
+
+#: $string['timeleftmessage']
+msgid "Time Remaining Warning Message"
+msgstr ""
+
+#: $string['timeleftmessagechk']
+msgid "Enable Time Warning Email"
+msgstr ""
+
+#: $string['timeleftmessagechk_help']
+msgid "Enables/Disables alert email"
+msgstr ""
+
+#: $string['timeleftmessage_help']
+msgid ""
+"Email that will be sent to the student advising how much time they have left "
+"on the course eg 10 days left. Here you can use the following "
+"customisations; [[user_name]] [[course_name]] [[days_to_alert]]"
+msgstr ""
+
+#: $string['viewoptions']
+msgid "Increments Shown"
+msgstr ""
+
+#: $string['viewoptions_desc']
+msgid "Select the increments to show in the block"
+msgstr ""

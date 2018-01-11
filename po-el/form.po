@@ -1,0 +1,294 @@
+#. extracted from lang/en/form.php, lang/el/form.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'form', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   form
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addfields']
+msgid "Add {$a} field(s) to form"
+msgstr "Προσθήκη {$a} πεδίων στη φόρμα"
+
+#: $string['advancedelement']
+msgid "Advanced element"
+msgstr "Προχωρημένο στοιχείο"
+
+#: $string['close']
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: $string['custom']
+msgid "Custom"
+msgstr ""
+
+#: $string['day']
+msgid "Day"
+msgstr "Μέρα"
+
+#: $string['default']
+msgid "Default"
+msgstr ""
+
+#: $string['display']
+msgid "Display"
+msgstr "Εμφάνιση"
+
+#: $string['err_alphanumeric']
+msgid "You must enter only letters or numbers here."
+msgstr "Πρέπει να εισάγετε μόνο γράμματα ή αριθμούς εδώ."
+
+#: $string['err_email']
+msgid "You must enter a valid email address here."
+msgstr "Πρέπει να εισάγετε μια έγκυρη ηλ. διεύθυνση εδώ."
+
+#: $string['err_lettersonly']
+msgid "You must enter only letters here."
+msgstr "Πρέπει να εισάγετε μόνο γράμματα εδώ."
+
+#: $string['err_maxfiles']
+msgid "You must not attach more than {$a} files here."
+msgstr "Δεν μπορείς να επισυνάψεις περισσότερα από  {$a} αρχεία εδώ."
+
+#: $string['err_maxlength']
+msgid "You must enter no more than {$a->format} characters here."
+msgstr "Δεν πρέπει να εισάγετε περισσότερους από {$a->format} χαρακτήρες εδώ."
+
+#: $string['err_minlength']
+msgid "You must enter at least {$a->format} characters here."
+msgstr "Πρέπει να εισάγετε τουλάχιστον {$a->format} χαρακτήρες εδώ."
+
+#: $string['err_nonzero']
+msgid "You must enter a number not starting with a 0 here."
+msgstr "Πρέπει να εισάγετε έναν αριθμό που να μην ξεκινά με 0 εδώ."
+
+#: $string['err_nopunctuation']
+msgid "You must enter no punctuation characters here."
+msgstr "Δεν πρέπει να εισάγετε χαρακτήρες στίξης εδώ."
+
+#: $string['err_numeric']
+msgid "You must enter a number here."
+msgstr "Πρέπει να εισάγετε έναν αριθμό εδώ."
+
+#: $string['err_rangelength']
+msgid ""
+"You must enter between {$a->format[0]} and {$a->format[1]} characters here."
+msgstr ""
+"Πρέπει να εισάγετε μεταξύ {$a->format[0]} και {$a->format[1]} χαρακτήρες "
+"εδώ."
+
+#: $string['err_required']
+msgid "You must supply a value here."
+msgstr "Πρέπει να εισάγετε μια τιμή εδώ."
+
+#: $string['err_wrappingwhitespace']
+msgid "The value must not start or end with whitespace."
+msgstr ""
+
+#: $string['err_wrongfileextension']
+msgid ""
+"Some files ({$a->wrongfiles}) cannot be uploaded. Only file types "
+"{$a->whitelist} are allowed."
+msgstr ""
+
+#: $string['filesofthesetypes']
+msgid "Accepted file types:"
+msgstr ""
+
+#: $string['filetypesany']
+msgid "All file types"
+msgstr ""
+
+#: $string['filetypesnotall']
+msgid "It is not allowed to select 'All file types' here"
+msgstr ""
+
+#: $string['filetypesnotwhitelisted']
+msgid "These file types are not allowed here: {$a}"
+msgstr ""
+
+#: $string['filetypesothers']
+msgid "Other files"
+msgstr ""
+
+#: $string['filetypesunknown']
+msgid "Unknown file types: {$a}"
+msgstr ""
+
+#: $string['general']
+msgid "General"
+msgstr "Γενικά"
+
+#: $string['hideadvanced']
+msgid "Hide advanced"
+msgstr "Απόκρυψη προχωρημένων"
+
+#: $string['hour']
+msgid "Hour"
+msgstr "Ώρα"
+
+#: $string['minute']
+msgid "Minute"
+msgstr "Λεπτό"
+
+#: $string['miscellaneoussettings']
+msgid "Miscellaneous settings"
+msgstr "Ετερόκλητες Ρυθμίσεις"
+
+#: $string['modstandardels']
+msgid "Common module settings"
+msgstr "Συχνές ρυθμίσεις μονάδας"
+
+#: $string['month']
+msgid "Month"
+msgstr "Μήνας"
+
+#: $string['mustbeoverriden']
+msgid ""
+"Abstract form_definition() method in class {$a} must be overridden, please "
+"fix the code."
+msgstr ""
+"Η αφηρημένη μέθοδος form_definition() στην κλάση {$a} πρέπει να υπερισχύεται "
+"από κάτι άλλο, παρακαλούμε διορθώστε τον κώδικα."
+
+#: $string['newvaluefor']
+msgid "New value for {$a}"
+msgstr ""
+
+#: $string['nomethodforaddinghelpbutton']
+msgid ""
+"There is no method for adding a help button to form element {$a->name} "
+"(class {$a->classname})"
+msgstr ""
+"Δεν υπάρχει μέθοδο για την προσθήκη κουμπιού βοήθειας στο στοιχείο φόρμας "
+"{$a->name} (κλάση {$a->classname})"
+
+#: $string['nonexistentformelements']
+msgid "Trying to add help buttons to non-existent form elements : {$a}"
+msgstr ""
+"Προσπάθεια προσθήκης κουμπιών βοήθειας σε μη υπαρκτά στοιχεία φόρμας: {$a}"
+
+#: $string['noselection']
+msgid "No selection"
+msgstr "Καμία επιλογή"
+
+#: $string['nosuggestions']
+msgid "No suggestions"
+msgstr ""
+
+#: $string['novalue']
+msgid "Nothing entered"
+msgstr ""
+
+#: $string['novalueclicktoset']
+msgid "Click to enter text"
+msgstr "Πατήστε για να εισάγετε κείμενο"
+
+#: $string['optional']
+msgid "Optional"
+msgstr "Προαιρετικό"
+
+#: $string['othersettings']
+msgid "Other settings"
+msgstr "Άλλες ρυθμίσεις"
+
+#: $string['passwordunmaskedithint']
+msgid "Edit password"
+msgstr "Επεξεργασία κωδικού πρόσβασης"
+
+#: $string['passwordunmaskinstructions']
+msgid "Press enter to save changes"
+msgstr ""
+
+#: $string['passwordunmaskrevealhint']
+msgctxt "$string['passwordunmaskrevealhint']"
+msgid "Reveal"
+msgstr "Αποκάλυψη"
+
+#: $string['requiredelement']
+msgid "Required field"
+msgstr "Απαιτούμενο πεδίο."
+
+#: $string['revealpassword']
+msgctxt "$string['revealpassword']"
+msgid "Reveal"
+msgstr "Αποκάλυψη"
+
+#: $string['security']
+msgid "Security"
+msgstr "Ασφάλεια"
+
+#: $string['selectallornone']
+msgid "Select all/none"
+msgstr "Επιλογή όλων/κανενός"
+
+#: $string['selected']
+msgid "Selected"
+msgstr ""
+
+#: $string['selecteditems']
+msgid "Selected items:"
+msgstr ""
+
+#: $string['showadvanced']
+msgid "Show advanced"
+msgstr "Εμφάνιση Προχωρημένων"
+
+#: $string['showless']
+msgid "Show less..."
+msgstr "Εμφάνιση λιγότερων..."
+
+#: $string['showmore']
+msgid "Show more..."
+msgstr "Εμφάνιση περισσότερων..."
+
+#: $string['somefieldsrequired']
+msgid "There are required fields in this form marked {$a}."
+msgstr "Υπάρχουν απαιτούμενα πεδία σε αυτή τη φόρμα"
+
+#: $string['time']
+msgid "Time"
+msgstr "Χρόνος"
+
+#: $string['timeunit']
+msgid "Time unit"
+msgstr "Μονάδα χρόνου"
+
+#: $string['timing']
+msgid "Timing"
+msgstr "Συγχρονισμός"
+
+#: $string['unmaskpassword']
+msgid "Unmask"
+msgstr "Αφαίρεση μάσκας"
+
+#: $string['year']
+msgid "Year"
+msgstr "Χρόνος"

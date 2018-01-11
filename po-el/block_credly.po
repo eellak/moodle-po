@@ -1,0 +1,322 @@
+#. extracted from lang/en/block_credly.php, lang/el/block_credly.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_credly', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   block_credly
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addnewbadge']
+msgid "Add a new badge"
+msgstr "Προσθήκη νέας κονκάρδας"
+
+#: $string['apikey']
+msgid "API KEY"
+msgstr ""
+
+#: $string['apikeydesc']
+msgid "The API key as provided by credly"
+msgstr ""
+
+#: $string['apipassword']
+msgid "Password"
+msgstr "Κωδικός πρόσβασης"
+
+#: $string['apipassworddesc']
+msgid ""
+"The credly password for the authenticating user to use for API calls needing "
+"access tokens"
+msgstr ""
+
+#: $string['apisecret']
+msgid "API SECRET"
+msgstr ""
+
+#: $string['apisecretdesc']
+msgid "The API secret as provided by credly"
+msgstr ""
+
+#: $string['apiuser']
+msgid "Username"
+msgstr ""
+
+#: $string['apiuserdesc']
+msgid ""
+"The credly username for the authenticating user to use for API calls needing "
+"access tokens"
+msgstr ""
+
+#: $string['badgeimage']
+msgid "Badge image"
+msgstr ""
+
+#: $string['badgeimage_help']
+msgid ""
+"The image file you want to use as the badge image.  It is best to use an "
+"image with a square dimention.  The maximum file size is 1 MiB."
+msgstr ""
+
+#: $string['created_at']
+msgid "Date created"
+msgstr ""
+
+#: $string['createnewbadge']
+msgid "Create a new badge"
+msgstr ""
+
+#: $string['credly:addinstance']
+msgid "Add a new credly block"
+msgstr ""
+
+#: $string['credlybadges']
+msgid "Credly badges"
+msgstr ""
+
+#: $string['credlyerrorresponse']
+msgid "The credly server responded with the following error: {$a}"
+msgstr ""
+
+#: $string['credly:grantbadge']
+msgid "Grant a credly badge to a user"
+msgstr ""
+
+#: $string['criteria']
+msgid "Criteria"
+msgstr ""
+
+#: $string['criteria_help']
+msgid "Criteria for the new badge (up to 500 characters)"
+msgstr ""
+
+#: $string['description']
+msgid "Description"
+msgstr ""
+
+#: $string['description_help']
+msgid "A long description for the new badge (up to 500 characters)"
+msgstr ""
+
+#: $string['editbadge']
+msgid "Edit a badge"
+msgstr ""
+
+#: $string['errorexpiresin']
+msgid "Expires value should be an integer value from 0 to {$a}."
+msgstr ""
+
+#: $string['errorfetchingbadgeinfo']
+msgid ""
+"The system encountered an error trying to fetch the badge info from Credly."
+msgstr ""
+
+#: $string['expires_in']
+msgid "Expires after how many seconds"
+msgstr ""
+
+#: $string['expires_in_help']
+msgid ""
+"Number of seconds until the badge expires from the moment it is issued.  A "
+"value of 0 means never."
+msgstr ""
+
+#: $string['fetcherror']
+msgid ""
+"The system encountered an error trying to retrieve the badge information."
+msgstr ""
+
+#: $string['grantbadge']
+msgid "Grant a badge"
+msgstr ""
+
+#: $string['grantbadgerequired']
+msgid "You are required to select a badge to grant."
+msgstr ""
+
+#: $string['grantedtouser']
+msgid ""
+"The badge was issued and the user was notified via Credly email.  The user "
+"may still need to accept the badge depending on the user&apos;s Credly "
+"account settings."
+msgstr ""
+
+#: $string['granterror']
+msgid "The system encountered an error trying to grant the badge."
+msgstr ""
+
+#: $string['granttocandidates']
+msgid "All students"
+msgstr ""
+
+#: $string['granttocandidatesmatching']
+msgid "Students matching \"{$a}\""
+msgstr ""
+
+#: $string['grantuserrequired']
+msgid "You are required to select a user to issue a badge to."
+msgstr ""
+
+#: $string['id']
+msgid "ID"
+msgstr ""
+
+#: $string['image_preview']
+msgid "Image preview"
+msgstr ""
+
+#: $string['image_preview_current']
+msgid "Preview of current image"
+msgstr ""
+
+#: $string['image_url']
+msgid "Image URL"
+msgstr ""
+
+#: $string['is_claimable']
+msgid "Can be claimed"
+msgstr ""
+
+#: $string['is_giveable']
+msgid "Can others give this badge?"
+msgstr ""
+
+#: $string['is_giveable_help']
+msgid ""
+"Whether the new badge may be given by Credly members other than the creator"
+msgstr ""
+
+#: $string['issuebadge']
+msgid "Issue badge"
+msgstr ""
+
+#: $string['managebadges']
+msgid "Manage badges"
+msgstr ""
+
+#: $string['missingbadgeimage']
+msgid "A badge image is required"
+msgstr ""
+
+#: $string['missingtitle']
+msgid "Title is required"
+msgstr ""
+
+#: $string['mybadges']
+msgid "My badges"
+msgstr ""
+
+#: $string['noearnedbadges']
+msgid "You have not yet earned any badges."
+msgstr ""
+
+#: $string['notconfigured']
+msgid ""
+"The credly block plugin is not configured properly.  API credentials and "
+"authenticating user account information are required.  Set the parameters <a "
+"href=\"{$a->configureurl}\">here</a>."
+msgstr ""
+
+#: $string['orgid']
+msgid "Organization ID"
+msgstr ""
+
+#: $string['orgiddesc']
+msgid ""
+"If you are managing and granting badges on behalf of an organization, set "
+"this to the numerical id of the organization&apos;s account on Credly.  You "
+"can find this information by accessing the organization account and clicking "
+"on &quot;View Profile&quot;.  You will be taken to a URL such as "
+"http://credly.com/u/&lt;<i>numerical id</i>&gt; and you can use the id "
+"displayed in the url.  NOTE: If you are using an organization, you have to "
+"make sure that the account you are using for username/password is either an "
+"owner or a manager of the organization."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Credly"
+msgstr ""
+
+#: $string['selectbadgeaward']
+msgid "Select badge to grant"
+msgstr ""
+
+#: $string['short_description']
+msgid "Short description"
+msgstr ""
+
+#: $string['short_description_help']
+msgid "A short description for the new badge (up to 128 characters)"
+msgstr ""
+
+#: $string['showinglatest']
+msgid "Your {$a} latest badges."
+msgstr ""
+
+#: $string['shownumlabel']
+msgid "How many badges to show"
+msgstr ""
+
+#: $string['thumbnail']
+msgid "Thumbnail"
+msgstr ""
+
+#: $string['title']
+msgid "Title"
+msgstr "Τίτλος"
+
+#: $string['title_help']
+msgid "The title of the new badge (up to 128 characters)"
+msgstr ""
+
+#: $string['usecache']
+msgid "Use cache"
+msgstr ""
+
+#: $string['usecachedesc']
+msgid ""
+"Whether to enable the caching (24 hours) of api results into the database.  "
+"This is typically not needed as Credly already provides adequate limits.  "
+"This is here mostly as part of legacy code."
+msgstr ""
+"Πότε να ενεργοποιηθεί η προσωρινή αποθήκευση (24 ώρες) των αποτελεσμάτων του "
+"api στη βάση δεδομένων. Αυτό δεν είναι συνήθως απαραίτητο, καθώς το Credly "
+"παρέχει ήδη επαρκή όρια. Αυτό είναι υπάρχει ως μέρος κώδικα παλαιότερης "
+"έκδοσης."
+
+#: $string['viewallmy']
+msgid "View all my badges"
+msgstr ""
+
+#: $string['viewbadge']
+msgid "View badge"
+msgstr ""
+
+#: $string['viewincredly']
+msgid "view in Credly"
+msgstr ""

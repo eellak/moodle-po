@@ -1,0 +1,826 @@
+#. extracted from lang/en/block_course_overview_campus.php, lang/el/block_course_overview_campus.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:14+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_course_overview_campus', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   block_course_overview_campus
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['academicyear_desc']
+msgid "Academic year (Calendar year is not divided)"
+msgstr "Ακαδημαϊκό έτος (Το ημερολογιακό έτος δεν χωρίζεται)"
+
+#: $string['activityoverview']
+msgid "You have {$a}s that need attention"
+msgstr "Υπάρχουν {$a} που χρήζουν προσοχής"
+
+#: $string['all']
+msgid "All"
+msgstr "Όλα"
+
+#: $string['appearancesettingheading']
+msgid "Appearance"
+msgstr "Εμφάνιση"
+
+#: $string['blocktitle']
+msgid "Block title"
+msgstr "Τίτλος μπλοκ"
+
+#: $string['blocktitle_desc']
+msgid "This display name is shown as the title of the block"
+msgstr "Αυτό το εμφανιζόμενο όνομα εμφανίζεται ως τίτλος του μπλοκ"
+
+#: $string['category']
+msgid "Parent category"
+msgstr "Γονική κατηγορία"
+
+#: $string['categorycoursefilter']
+msgid "Activate parent category filter"
+msgstr "Ενεργοποίηση φίλτρου γονικής κατηγορίας"
+
+#: $string['categorycoursefilter_desc']
+msgid "Allow users to filter courses by parent category"
+msgstr "Επιτρέπεται οι χρήστες να φιλτράρουν τα μαθήματα ανά γονική κατηγορία"
+
+#: $string['categorycoursefilterdisplayname']
+msgid "Display name for parent category filter"
+msgstr "Εμφανιζόμενο όνομα για φίλτρο γονικής κατηγορίας"
+
+#: $string['categorycoursefilterdisplayname_desc']
+msgid ""
+"This display name is shown above the parent category filter<br /><em>This "
+"setting is only processed when the parent category filter is activated</em>"
+msgstr ""
+"Αυτό το εμφανιζόμενο όνομα εμφανίζεται πάνω από το φίλτρο γονικής "
+"κατηγορίας<br /><em>Αυτή η ρύθμιση είναι ενεργή μόνο όταν το φίλτρο γονικής "
+"κατηγορίας είναι ενεργοποιημένο</em>"
+
+#: $string['categorycoursefiltersettingheading']
+msgid "Parent category filter: Filter activation"
+msgstr "Φίλτρο γονικής κατηγορίας: Ενεργοποίηση φίλτρου"
+
+#: $string['coursenewsdefault']
+msgid "Hide course news by default"
+msgstr "Απόκρυψη νέων μαθήματος από προεπιλογή"
+
+#: $string['coursenewsdefault_desc']
+msgid ""
+"If enabled, course news are hidden by default to prevent cluttered course "
+"lists. If disabled, course news are shown / expanded by default to catch the "
+"user's eye. As soon as a user hides / shows a course's news, this setting "
+"isn't relevant anymore for this course<br /><em>This setting is only "
+"processed when enable course news is activated</em>"
+msgstr ""
+"Αν ενεργοποιηθεί, γίνεται απόκρυψη των νέων μαθήματος από προεπιλογή για την "
+"πρόληψη φόρτωμένων λίστων μαθημάτων. Αν είναι ενεργοποιηθεί, τα νέα "
+"μαθήματος εμφανίζονται / ανεπτυγμένα από προεπιλογή για να πιάσει το μάτι "
+"του χρήστη. Μόλις ένας χρήστης αποκρύψει / εμφανίσει τα νέα ενός μαθήματος, "
+"η ρύθμιση αυτή δεν έχει πλέον σημασία για αυτό το μάθημα<br /><em>Αυτή η "
+"ρύθμιση είναι ενεργή όταν έχουν ενεργοποιηθεί τα νέα μαθήματος</em>"
+
+#: $string['coursenewsheading']
+msgctxt "$string['coursenewsheading']"
+msgid "Course news"
+msgstr "Νέα μαθήματος"
+
+#: $string['course_overview_campus:addinstance']
+msgid "Add a new course overview campus block"
+msgstr "Προσθήκη νέου μπλοκ επισκόπηση μαθημάτων πανεπιστημίου"
+
+#: $string['course_overview_campus:myaddinstance']
+msgid "Add a new course overview campus block to Dashboard"
+msgstr ""
+"Προσθήκη νέου μπλοκ επισκόπηση μαθημάτων πανεπιστημίου στη σελίδα Η αρχική "
+"μου"
+
+#: $string['defaultterm']
+msgid "Use default term"
+msgstr "Χρήση προεπιλεγμένης περιόδου"
+
+#: $string['defaultterm_desc']
+msgid ""
+"If the user has not previously selected a term for filtering terms, a term "
+"is chosen for him. The first choice is the current term. If the user is not "
+"enrolled on any courses in the current term, the most recent previous term "
+"is chosen.<br /><em>This setting is only processed when the term filter is "
+"activated</em>"
+msgstr ""
+"Αν ο χρήστης δεν έχει επιλέξει μια περίοδο για το φιλτράρισμα των περιόδων, "
+"γίνεται επιλογή μιας περιόδου για αυτόν. Η πρώτη επιλογή είναι η τρέχουσα "
+"περίοδος. Αν ο χρήστης δεν έχει εγγραφεί σε κάποιο μάθημα κατά την τρέχουσα "
+"περίοδο,επιλέγεται η πιο πρόσφατη προηγούμενη περίοδος.<br /><em>Αυτή η "
+"ρύθμιση είναι ενεργή, όταν το φιλτράρισμα περιόδου είναι ενεργό.</ em>"
+
+#: $string['enablecoursenews']
+msgid "Enable course news"
+msgstr "Ενεργοποίηση νέων μαθήματος"
+
+#: $string['enablecoursenews_desc']
+msgid ""
+"Enable course news below the course name in the course list if there are "
+"news in the course"
+msgstr ""
+"Ενεργοποίηση νέων μαθήματος κάτω από το όνομα του μαθήματος στη λίστα "
+"μαθημάτων αν υπάρχουν νέα στο μάθημα"
+
+#: $string['enablehidecourses']
+msgid "Enable course hiding"
+msgstr "Ενεργοποίηση απόκρυψης μαθήματος"
+
+#: $string['enablehidecourses_desc']
+msgid ""
+"Enable course hiding, which lets users hide courses from the course overview "
+"list"
+msgstr ""
+"Ενεργοποίηση απόκρυψης μαθήματος, που επιτρέπει στους χρήστες να αποκρύψουν "
+"μαθήματα από τη λίστα επισκόπησης μαθημάτων"
+
+#: $string['firstrowcoursename']
+msgid "First row: Course name style"
+msgstr "Πρώτη γραμμή: Στυλ ονόματος μαθήματος"
+
+#: $string['firstrowcoursename_desc']
+msgid ""
+"Show the course's full name or the course's short name in the first row of "
+"the course overview list entry"
+msgstr ""
+"Εμφάνιση πλήρους ονόματος του μαθήματος ή σύντομο όνομα του μαθήματος στην "
+"καταχώρηση στη λίστα επισκόπησης μαθημάτων"
+
+#: $string['hiddencourses']
+msgid "hidden courses"
+msgstr "κρυφά μαθήματα"
+
+#: $string['hidecourse']
+msgid "Hide course in course overview list"
+msgstr "Απόκρυψη μαθήματος από λίστα επισκόπησης μαθημάτων"
+
+#: $string['hidecoursessettingheading']
+msgctxt "$string['hidecoursessettingheading']"
+msgid "Hide courses"
+msgstr "Απόκρυψη μαθημάτων"
+
+#: $string['hidenews']
+msgid "Hide course news"
+msgstr "Απόκρυψη νέων μαθήματος"
+
+#: $string['listentriessettingheading']
+msgid "Course overview list: Entries"
+msgstr "Λίστα επισκόπησης μαθημάτων: Καταχωρήσεις"
+
+#: $string['managehiddencourses']
+msgid "Manage hidden courses"
+msgstr "Διαχείριση κρυμμένων μαθημάτων"
+
+#: $string['mergehomonymouscategories']
+msgid "Merge homonymous parent categories"
+msgstr ""
+
+#: $string['mergehomonymouscategories_desc']
+msgid ""
+"If there are multiple courses with different parent categories, but with the "
+"same parent category name, the parent category filter will be filled with "
+"multiple categories with the same name by default. This can be confusing to "
+"the user. If you want to merge all homonymous parent categories into one "
+"filter entry when using the parent category filter, activate this setting<br "
+"/><em>This setting is only processed when the parent category filter is "
+"activated</em>"
+msgstr ""
+
+#: $string['mergehomonymouscategoriessettingheading']
+msgid "Parent category filter: Merge homonymous parent categories"
+msgstr ""
+
+#: $string['nocourses']
+msgid "Currently, you are not enrolled in any courses"
+msgstr ""
+
+#: $string['noteacher']
+msgid "No teacher enrolled"
+msgstr ""
+
+#: $string['noteachertext']
+msgid "No teacher enrolled text"
+msgstr ""
+
+#: $string['noteachertext_desc']
+msgid ""
+"This text is displayed instead of the teachers' names if there is no teacher "
+"enrolled in the course. If you don't want a placeholder text to appear, "
+"just delete this text here<br /><em>This setting is only processed when show "
+"teacher name is activated</em>"
+msgstr ""
+
+#: $string['ordersettingheading']
+msgid "Course overview list: Order"
+msgstr "Λίστα επισκόπησης μαθημάτων: Ταξινόμηση"
+
+#: $string['other']
+msgid "Other"
+msgstr "Άλλο"
+
+#: $string['pluginname']
+msgid "Course overview on campus"
+msgstr "Επισκόπηση μαθημάτων στο πανεπιστήμιο"
+
+#: $string['prioritizemyteachedcourses']
+msgid "Prioritize courses in which I teach"
+msgstr ""
+
+#: $string['prioritizemyteachedcourses_desc']
+msgid ""
+"Courses in which the user has a teacher role are listed first in course "
+"overview list"
+msgstr ""
+
+#: $string['secondrowhideonphones']
+msgid "Second row: Hide on phones"
+msgstr "Δεύτερη γραμμή: Απόκρυψη για κινητά"
+
+#: $string['secondrowhideonphones_desc']
+msgid "Hide the second row on mobile phones to save space"
+msgstr "Απόκρυψη της δεύτερης γραμμής στα κινητά για την εξοικονόμηση χώρου"
+
+#: $string['secondrowshowcategoryname']
+msgid "Second row: Show parent category name"
+msgstr "Δεύτερη γραμμή: Εμφάνιση ονόματος γονικής κατηγορίας"
+
+#: $string['secondrowshowcategoryname_desc']
+msgid ""
+"Show the course's parent category name in a second row of the course "
+"overview list entry"
+msgstr ""
+"Εμφάνιση ονόματος γονικής κατηγορίας του μαθήματος στη δεύτερη γραμμή στην "
+"καταχώρηση στη λίστα επισκόπησης μαθημάτων"
+
+#: $string['secondrowshowshortname']
+msgid "Second row: Show short name"
+msgstr "Δεύτερη γραμμή: Εμφάνιση σύντομου ονόματος"
+
+#: $string['secondrowshowshortname_desc']
+msgid ""
+"Show the course's short name in a second row of the course overview list "
+"entry"
+msgstr ""
+
+#: $string['secondrowshowteachername']
+msgid "Second row: Show teacher name"
+msgstr ""
+
+#: $string['secondrowshowteachername_desc']
+msgid ""
+"Show the teacher's name(s) in a second row of the course overview list "
+"entry. If there is more then one teacher, the names will be sorted first by "
+"the <a href=\"/admin/roles/manage.php\">global order of roles</a> and second "
+"by the teachers' last names"
+msgstr ""
+
+#: $string['secondrowshowteachernamestyle']
+msgid "Second row: Style of teacher name"
+msgstr ""
+
+#: $string['secondrowshowteachernamestyle_desc']
+msgid ""
+"Define how the teacher's name should be displayed in the second row of the "
+"course overview list entry<br /><em>This setting is only processed when show "
+"teacher name is activated</em>"
+msgstr ""
+
+#: $string['secondrowshowtermname']
+msgid "Second row: Show term name"
+msgstr ""
+
+#: $string['secondrowshowtermname_desc']
+msgid ""
+"Show the course's term name in a second row of the course overview list "
+"entry"
+msgstr ""
+
+#: $string['secondrowshowtoplevelcategoryname']
+msgid "Second row: Show top level category name"
+msgstr ""
+
+#: $string['secondrowshowtoplevelcategoryname_desc']
+msgid ""
+"Show the course's top level category name in a second row of the course "
+"overview list entry"
+msgstr ""
+
+#: $string['semester_desc']
+msgid "Semester (Calendar year is divided into two terms)"
+msgstr ""
+
+#: $string['settingspage_categoryfilter']
+msgid "Parent category filter"
+msgstr ""
+
+#: $string['settingspage_coursenews']
+msgctxt "$string['settingspage_coursenews']"
+msgid "Course news"
+msgstr "Νέα μαθήματος"
+
+#: $string['settingspage_courseoverviewlist']
+msgid "Course overview list"
+msgstr "Λίστα επισκόπησης μαθημάτων"
+
+#: $string['settingspage_general']
+msgid "General"
+msgstr "Γενικά"
+
+#: $string['settingspage_hidecourses']
+msgctxt "$string['settingspage_hidecourses']"
+msgid "Hide courses"
+msgstr "Απόκρυψη μαθημάτων"
+
+#: $string['settingspage_teacherfilter']
+msgid "Teacher filter"
+msgstr ""
+
+#: $string['settingspage_teacherroles']
+msgctxt "$string['settingspage_teacherroles']"
+msgid "Teacher roles"
+msgstr ""
+
+#: $string['settingspage_termfilter']
+msgid "Term filter"
+msgstr "Φίλτρο περιόδου"
+
+#: $string['settingspage_toplevelcategoryfilter']
+msgid "Top level category filter"
+msgstr ""
+
+#: $string['showcourse']
+msgid "Show course"
+msgstr "Εμφάνιση μαθήματος"
+
+#: $string['shownews']
+msgid "Show course news"
+msgstr ""
+
+#: $string['skipcoursenews']
+msgid "Skip course news"
+msgstr ""
+
+#: $string['skipcoursenews_desc']
+msgid ""
+"When collecting and displaying course news, news from the selected "
+"activities will be skipped<br /><em>This setting is only processed when "
+"enable course news is activated</em>"
+msgstr ""
+
+#: $string['stopmanaginghiddencourses']
+msgid "Stop managing hidden courses"
+msgstr ""
+
+#: $string['submitfilter']
+msgid "Filter my courses!"
+msgstr ""
+
+#: $string['teachercoursefilter']
+msgid "Activate teacher filter"
+msgstr ""
+
+#: $string['teachercoursefilter_desc']
+msgid "Allow users to filter courses by teacher"
+msgstr ""
+
+#: $string['teachercoursefilterdisplayname']
+msgid "Display name for teacher filter"
+msgstr ""
+
+#: $string['teachercoursefilterdisplayname_desc']
+msgid ""
+"This display name is shown above the teacher filter<br /><em>This setting is "
+"only processed when the teacher filter is activated</em>"
+msgstr ""
+
+#: $string['teachercoursefiltersettingheading']
+msgid "Teacher filter: Filter activation"
+msgstr ""
+
+#: $string['teachernamestylefirstname']
+msgid "Firstname"
+msgstr ""
+
+#: $string['teachernamestylefullname']
+msgid "Firstname Lastname"
+msgstr ""
+
+#: $string['teachernamestylefullnamedisplay']
+msgid ""
+"Teacher name style according to Moodle core setting \"fullnamedisplay</em>\" "
+"(Currently set to \"{$a}\")"
+msgstr ""
+
+#: $string['teachernamestylelastname']
+msgid "Lastname"
+msgstr "Επώνυμο"
+
+#: $string['teacherroles']
+msgctxt "$string['teacherroles']"
+msgid "Teacher roles"
+msgstr ""
+
+#: $string['teacherroles_desc']
+msgid ""
+"Define which roles are handled as teacher roles by this plugin<br /><em>This "
+"setting is only processed when show teacher name is activated or when the "
+"teacher filter is activated or when the priorization of courses in which I "
+"teach is activated</em>"
+msgstr ""
+
+#: $string['teacherroleshidesuspended']
+msgid "Hide suspended teachers"
+msgstr "Απόκρυψη διδασκότων σε αναστολή"
+
+#: $string['teacherroleshidesuspended_desc']
+msgid ""
+"When looking for teachers with the specified teacher roles, do not only "
+"check if a teacher has one of the given roles in a course, but also check if "
+"his enrolment into the course is active (i.e. the teacher's enrolment in "
+"the course is not suspended + the current date is within the start and end "
+"dates of the teacher's enrolment + the enrolment method of the teacher's "
+"enrolment is enabled in the course). Teachers whose enrolment in a course is "
+"not active will not be considered as teacher for this course.<br /><em>This "
+"setting is only processed when show teacher name is activated or when the "
+"teacher filter is activated.</em><br /><em>Warning: If you enable this "
+"setting, the load on the database to create the list of courses will "
+"slightly increase due to the necessary additional checks. Thus, enable this "
+"setting only if you need to.</em>"
+msgstr ""
+"Όταν αναζητάτε διδάσκοντες με τους καθορισμένους ρόλους διδάσκοντα, ελέγχετε "
+"όχι μόνο αν ένας διδάσκοντας έχει έναν από τους ρόλους που έχουν δοθεί σε "
+"ένα μάθημα, αλλά ελέγξτε επίσης αν η εγγραφή του στο μάθημα είναι ενεργή "
+"(δηλαδή η εγγραφή του διδάσκοντα στο μάθημα δεν έχει ανασταλεί + η τρέχουσα "
+"ημερομηνία είναι εντός των ημερομηνιών έναρξης και λήξης της εγγραφής του "
+"διδάσκοντα + η μέθοδος εγγραφής της εγγραφής του διδάσκοντα είναι "
+"ενεργοποιημένη στο μάθημα). Οι διδάσκοντες των οποίων η εγγραφή σε ένα "
+"μάθημα δεν είναι ενεργή δεν θα θεωρηθούν ως διδάσκοντες για αυτό το "
+"μάθημα.<br /><em>Αυτή η ρύθμιση λαμβάνεται υπόψη μόνο όταν ενεργοποιείται το "
+"όνομα του διδάσκοντα ή όταν ενεργοποιείται το φίλτρο διδασκόντων.</em><br "
+"/><em>Προειδοποίηση: Αν ενεργοποιήσετε αυτή τη ρύθμιση, το φορτίο στη βάση "
+"δεδομένων για τη δημιουργία της λίστας μαθημάτων θα αυξηθεί ελαφρά λόγω των "
+"απαραίτητων συμπληρωματικών ελέγχων. Επομένως, ενεργοποιήστε αυτήν τη "
+"ρύθμιση μόνο αν χρειάζεται.</em>"
+
+#: $string['teacherrolesparent']
+msgid "Include parent context teacher roles"
+msgstr ""
+
+#: $string['teacherrolesparentcapability']
+msgid "Depending on the user's moodle/course:reviewotherusers capability"
+msgstr ""
+
+#: $string['teacherrolesparent_desc']
+msgid ""
+"When looking for teachers with the specified teacher roles, include teachers "
+"who have their role assigned in parent contexts (course category or system "
+"level)<br /><em>This setting is only processed when show teacher name is "
+"activated or when the teacher filter is activated.</em><br /><em>Warning: If "
+"you set this to \"No\" or \"Depending on the user's "
+"moodle/course:reviewotherusers capability\", the \"Prioritize courses in which "
+"I teach\" function will also be influenced and will not priorize courses "
+"where the user has his teacher role assigned in parent contexts.</em>"
+msgstr ""
+
+#: $string['teacherrolessettingheading']
+msgctxt "$string['teacherrolessettingheading']"
+msgid "Teacher roles"
+msgstr ""
+
+#: $string['term']
+msgid "Term"
+msgstr "Περίοδος"
+
+#: $string['term1']
+msgid "Term 1"
+msgstr "Περίοδος 1"
+
+#: $string['term1name']
+msgid "Term 1 name"
+msgstr "Όνομα περιόδου 1"
+
+#: $string['term1name_desc']
+msgid ""
+"Descriptive name for term 1, please rename it according to your campus "
+"terminology (or leave it empty if you want to use only year numbes in "
+"Academic year mode)<br /><em>This setting is only processed when the term "
+"filter is activated</em>"
+msgstr ""
+"Περιγραφικό όνομα για την περίοδο 1. Παρακαλώ μετονομάστε σύμφωνα με την "
+"ορολογία του πανεπιστημίου σας (ή αφήστε το κενό αν θέλετε να "
+"χρησιμοποιήσετε μόνο αριθμούς έτους σε λειτουργία Ακαδημαϊκού έτους)<br "
+"/><em>Αυτή η ρύθμιση είναι ενεργή, όταν το φιλτράρισμα περιόδου είναι "
+"ενεργό</em>"
+
+#: $string['term1startday']
+msgid "Term 1 start day"
+msgstr "Ημέρα έναρξης περιόδου 1"
+
+#: $string['term1startday_desc']
+msgid ""
+"Day and month when term 1 starts<br /><em>This setting is only processed "
+"when the term filter is activated</em>"
+msgstr ""
+
+#: $string['term2']
+msgid "Term 2"
+msgstr "Περίοδος 2"
+
+#: $string['term2name']
+msgid "Term 2 name"
+msgstr ""
+
+#: $string['term2name_desc']
+msgid ""
+"Descriptive name for term 2, please rename it according to your campus "
+"terminology<br /><em>This setting is only processed when the term filter is "
+"activated and when term mode is set to \"Semester\", \"Tertial\" or "
+"\"Trimester\"</em>"
+msgstr ""
+"Περιγραφικό όνομα για την περίοδο 2. Παρακαλώ μετονομάστε σύμφωνα με την "
+"ορολογία του πανεπιστημίου σας<br /><em>Αυτή η ρύθμιση είναι ενεργή, όταν η "
+"λειτουργία περιόδου έχει οριστεί ως \"Εξάμηνο\", \"Τετράμηνο\" ή \"Τρίμηνο\"</em>"
+
+#: $string['term2startday']
+msgid "Term 2 start day"
+msgstr "Ημέρα έναρξης περιόδου 2"
+
+#: $string['term2startday_desc']
+msgid ""
+"Day and month when term 2 starts<br /><em>This setting is only processed "
+"when the term filter is activated and when term mode is set to \"Semester\", "
+"\"Tertial\" or \"Trimester\"</em>"
+msgstr ""
+
+#: $string['term3']
+msgid "Term 3"
+msgstr "Περίοδος 3"
+
+#: $string['term3name']
+msgid "Term 3 name"
+msgstr ""
+
+#: $string['term3name_desc']
+msgid ""
+"Descriptive name for term 3, please rename it according to your campus "
+"terminology<br /><em>This setting is only processed when the term filter is "
+"activated and when term mode is set to \"Tertial\" or \"Trimester\"</em>"
+msgstr ""
+"Περιγραφικό όνομα για την περίοδο 3. Παρακαλώ μετονομάστε σύμφωνα με την "
+"ορολογία του πανεπιστημίου σας<br /><em>Αυτή η ρύθμιση είναι ενεργή, όταν η "
+"λειτουργία παριόδου έχει οριστεί ως \"Τετράμηνο\" ή \"Τρίμηνο\"</em>"
+
+#: $string['term3startday']
+msgid "Term 3 start day"
+msgstr "Ημέρα έναρξης περιόδου 3"
+
+#: $string['term3startday_desc']
+msgid ""
+"Day and month when term 3 starts<br /><em>This setting is only processed "
+"when the term filter is activated and when term mode is set to \"Tertial\" or "
+"\"Trimester\"</em>"
+msgstr ""
+
+#: $string['term4']
+msgid "Term 4"
+msgstr "Περίοδος 4"
+
+#: $string['term4name']
+msgid "Term 4 name"
+msgstr ""
+
+#: $string['term4name_desc']
+msgid ""
+"Descriptive name for term 4, please rename it according to your campus "
+"terminology<br /><em>This setting is only processed when the term filter is "
+"activated and when term mode is set to \"Trimester\"</em>"
+msgstr ""
+"Περιγραφικό όνομα για περίοδο 4. Παρακαλώ μετονομάστε σύμφωνα με την "
+"ορολογία του πανεπιστημίου σας<br /><em>Αυτή η ρύθμιση είναι ενεργή, όταν η "
+"λειτουργία περιόδου έχει οριστεί ως \"Τρίμηνο\"</em>"
+
+#: $string['term4startday']
+msgid "Term 4 start day"
+msgstr ""
+
+#: $string['term4startday_desc']
+msgid ""
+"Day and month when term 4 starts<br /><em>This setting is only processed "
+"when the term filter is activated and when term mode is set to "
+"\"Trimester\"</em>"
+msgstr ""
+
+#: $string['termbehavioursettingheading']
+msgid "Term filter: Term behaviour"
+msgstr ""
+
+#: $string['termcoursefilter']
+msgid "Activate term filter"
+msgstr ""
+
+#: $string['termcoursefilter_desc']
+msgid "Allow users to filter courses by term"
+msgstr ""
+
+#: $string['termcoursefilterdisplayname']
+msgid "Display name for term filter"
+msgstr ""
+
+#: $string['termcoursefilterdisplayname_desc']
+msgid ""
+"This display name is shown above the term filter<br /><em>This setting is "
+"only processed when the term filter is activated</em>"
+msgstr ""
+
+#: $string['termcoursefiltersettingheading']
+msgid "Term filter: Filter activation"
+msgstr ""
+
+#: $string['termmode']
+msgid "Term mode"
+msgstr ""
+
+#: $string['termmode_desc']
+msgid ""
+"Set the term mode for the term filter<br /><em>This setting is only "
+"processed when the term filter is activated</em>"
+msgstr ""
+
+#: $string['termnamesettingheading']
+msgid "Term filter: Term names"
+msgstr ""
+
+#: $string['termsettingerror']
+msgid ""
+"The configured term dates don't make sense. Please verify that term 2 starts "
+"after term 1 and so on. Term filter will not be available to users until "
+"you fix this."
+msgstr ""
+
+#: $string['termsettingheading']
+msgid "Term filter: Term definition"
+msgstr ""
+
+#: $string['termyearpos']
+msgid "Term name year position"
+msgstr ""
+
+#: $string['termyearpos_desc']
+msgid ""
+"Define if the term's year should be added as suffix or prefix to the term "
+"name<br /><em>This setting is only processed when the term filter is "
+"activated</em>"
+msgstr ""
+
+#: $string['termyearposprefixnospace_desc']
+msgid ""
+"Year is added as prefix to the term name without space (Example: \"2013S\")"
+msgstr ""
+
+#: $string['termyearposprefixspace_desc']
+msgid ""
+"Year is added as prefix to the term name with space (Example: \"2013 Summer "
+"term\")"
+msgstr ""
+
+#: $string['termyearpossuffixnospace_desc']
+msgid ""
+"Year is added as suffix to the term name without space (Example: \"S2013\")"
+msgstr ""
+
+#: $string['termyearpossuffixspace_desc']
+msgid ""
+"Year is added as suffix to the term name with space (Example: \"Summer term "
+"2013\")"
+msgstr ""
+
+#: $string['termyearseparation']
+msgid "Term name second year separation"
+msgstr ""
+
+#: $string['termyearseparation_desc']
+msgid ""
+"If the timespan of the term includes New Year's day, define how this second "
+"year should be separated from the first one<br /><em>This setting is only "
+"processed when the term filter is activated</em>"
+msgstr ""
+
+#: $string['termyearseparationhyphen_desc']
+msgid "Separate with a hyphen (Example: \"2013-2014\")"
+msgstr ""
+
+#: $string['termyearseparationnosecondyear_desc']
+msgid "Don't add the second year (Example: \"2013\")"
+msgstr ""
+
+#: $string['termyearseparationslash_desc']
+msgid "Separate with a slash (Example: \"2013/2014\")"
+msgstr ""
+
+#: $string['termyearseparationunderscore_desc']
+msgid "Separate with a underscore (Example: \"2013_2014\")"
+msgstr ""
+
+#: $string['tertial_desc']
+msgid "Tertial (Calendar year is divided into three terms)"
+msgstr ""
+
+#: $string['timelesscourses']
+msgid "Timeless courses"
+msgstr ""
+
+#: $string['timelesscourses_desc']
+msgid ""
+"Enable support for timeless courses in the term filter. Timeless courses "
+"seem to be not associated to a specific term<br /><em>This setting is only "
+"processed when the term filter is activated</em>"
+msgstr ""
+
+#: $string['timelesscoursesname']
+msgid "Display name for timeless courses"
+msgstr ""
+
+#: $string['timelesscoursesname_desc']
+msgid ""
+"This display name is shown in the term filter for courses which are "
+"timeless<br /><em>This setting is only processed when the term filter is "
+"activated and when timeless courses are activated</em>"
+msgstr ""
+
+#: $string['timelesscoursessettingheading']
+msgid "Term filter: Timeless courses"
+msgstr ""
+
+#: $string['timelesscoursesthreshold']
+msgid "Timeless courses threshold"
+msgstr ""
+
+#: $string['timelesscoursesthreshold_desc']
+msgid ""
+"Define courses with a start year before (and not equal to) this year as "
+"timeless courses<br /><em>This setting is only processed when the term "
+"filter is activated and when timeless courses are activated</em>"
+msgstr ""
+
+#: $string['toplevelcategory']
+msgid "Top level category"
+msgstr ""
+
+#: $string['toplevelcategorycoursefilter']
+msgid "Activate top level category filter"
+msgstr ""
+
+#: $string['toplevelcategorycoursefilter_desc']
+msgid "Allow users to filter courses by top level category"
+msgstr ""
+
+#: $string['toplevelcategorycoursefilterdisplayname']
+msgid "Display name for top level category filter"
+msgstr ""
+
+#: $string['toplevelcategorycoursefilterdisplayname_desc']
+msgid ""
+"This display name is shown above the top level category filter<br /><em>This "
+"setting is only processed when the top level category filter is "
+"activated</em>"
+msgstr ""
+
+#: $string['toplevelcategorycoursefiltersettingheading']
+msgid "Top level category filter: Filter activation"
+msgstr ""
+
+#: $string['trimester_desc']
+msgid "Trimester (Calendar year is divided into four terms)"
+msgstr ""
+
+#: $string['youhave']
+msgid "You have"
+msgstr ""

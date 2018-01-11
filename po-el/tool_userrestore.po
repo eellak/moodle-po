@@ -1,0 +1,290 @@
+#. extracted from lang/en/tool_userrestore.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'tool_userrestore', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   tool_userrestore
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['button:backtocourse']
+msgid "Back to course"
+msgstr ""
+
+#: $string['button:backtoform']
+msgid "Back to userrestore form"
+msgstr ""
+
+#: $string['button:userrestore:continue']
+msgctxt "$string['button:userrestore:continue']"
+msgid "Restore users"
+msgstr ""
+
+#: $string['config:cleanlogs:disabled']
+msgid "Automatic logcleaning is disabled in global configuration"
+msgstr ""
+
+#: $string['config:tool:disabled']
+msgid "User Restore Utility is disabled in global tool configuration"
+msgstr ""
+
+#: $string['deletedby']
+msgid "Deleted by"
+msgstr ""
+
+#: $string['email:user:restore:body']
+msgid ""
+"<p>Dear {fullname}</p>\n"
+"<p>Your account has been restored</p>\n"
+"<p>However, your username may not have been retrieved correctly due to how "
+"moodle handles user deletion\n"
+"and whether or not event logs have been cleaned. Your username is "
+"{username}</p>\n"
+"<p>If you feel this is unintended or have any questions,\n"
+"please contact {contact}</p>\n"
+"<p>You should be able to use your old password to log in to the site.<br/>\n"
+"If not, use the email address to which this email was sent to request a "
+"password reset.<br/>\n"
+"Please log in to the site to re-enter all your information using the link "
+"below:<br/>\n"
+"{loginlink}</p>\n"
+"<p>Regards<br/>{signature}</p>"
+msgstr ""
+
+#: $string['email:user:restore:subject']
+msgid "Your account has been restored"
+msgstr ""
+
+#: $string['err:statustable:set_sql']
+msgid ""
+"set_sql() is disabled. This table defines it's own and is not customomizable"
+msgstr ""
+
+#: $string['form:label:email']
+msgid "E-mail body"
+msgstr ""
+
+#: $string['form:label:sendmail']
+msgid "Send E-mail"
+msgstr ""
+
+#: $string['form:label:subject']
+msgid "E-mail subject"
+msgstr ""
+
+#: $string['form:static:email:template']
+msgid ""
+"You can use the following template strings in your email.\n"
+"They will automatically be replaced with the correct variables. Please use "
+"the exactly as indicated, or the result might be unexpected.\n"
+"<ul>\n"
+"<li>{firstname} - First name of the user that's restored</li>\n"
+"<li>{lastname} - Last name of the user that's restored</li>\n"
+"<li>{fullname} - Full name of the user that's restored</li>\n"
+"<li>{username} - Restored user's username (this MAY be different from before "
+"the account was deleted)</li>\n"
+"<li>{signature} - Signature (full name of the support user for the moodle "
+"site)</li>\n"
+"<li>{contact} - Contact emailaddress (based on the support user for the "
+"moodle site)</li>\n"
+"<li>{loginlink} - Login link for the site (based on restored username)</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['hasloginfo']
+msgid "Has log info?"
+msgstr ""
+
+#: $string['label:users:potential']
+msgid "Potential users"
+msgstr ""
+
+#: $string['link:currentstatus:overview']
+msgid "View current status changes"
+msgstr ""
+
+#: $string['link:log']
+msgid "Restore users logs"
+msgstr ""
+
+#: $string['link:log:overview']
+msgid "View status change logs"
+msgstr ""
+
+#: $string['link:restore']
+msgctxt "$string['link:restore']"
+msgid "Restore users"
+msgstr ""
+
+#: $string['link:viewstatus']
+msgid "View statuslist"
+msgstr ""
+
+#: $string['msg:no-users-to-restore']
+msgid "There are no deleted user accounts found to restore."
+msgstr ""
+
+#: $string['page:view:log.php:introduction']
+msgid ""
+"The table below shows the logs of statusses that users have been restored."
+msgstr ""
+
+#: $string['page:view:restore.php:introduction']
+msgid ""
+"This form enables you to select users to restore and optionally send them an\n"
+"email about their user accounts being restored. Please note, in the table "
+"below the username and emailaddress represents the original\n"
+"information of the user as retreived from the event log records."
+msgstr ""
+
+#: $string['pluginname']
+msgid "User Restore"
+msgstr ""
+
+#: $string['promo']
+msgid "userrestore plugin for Moodle"
+msgstr ""
+
+#: $string['promodesc']
+msgid ""
+"This plugin is written by Sebsoft Managed Hosting & Software Development\n"
+"    (<a href='http://www.sebsoft.nl/' "
+"target='_new'>http://sebsoft.nl</a>).<br /><br />\n"
+"    {$a}<br /><br />"
+msgstr ""
+
+#: $string['restore:deleted-user-not-found']
+msgid "Can't restore user: deleted user was not found"
+msgstr ""
+
+#: $string['restore:email-exists']
+msgid ""
+"Can't restore user: email address '{$a->email}' already exists for a "
+"different active user"
+msgstr ""
+
+#: $string['restoresettings']
+msgid "User Restore Settings"
+msgstr ""
+
+#: $string['restoresettingsdesc']
+msgctxt "$string['restoresettingsdesc']"
+msgid ""
+msgstr ""
+
+#: $string['restore:user-mnet-not-local']
+msgid ""
+"Can't restore user: mnet host for user to be restored is not the configured "
+"local mnet host"
+msgstr ""
+
+#: $string['restore:username-exists']
+msgid ""
+"Can't restore user: username '{$a->username}' already exists for a different "
+"active user"
+msgstr ""
+
+#: $string['restore:user-restored']
+msgid "User <i>'{$a->username}'</i> ('{$a->email}') was successfully restored"
+msgstr ""
+
+#: $string['setting:cleanlogsafter']
+msgid "Clean logs frequency"
+msgstr ""
+
+#: $string['setting:desc:cleanlogsafter']
+msgid ""
+"Configure the frequency after which logs are cleaned. Any logs older than "
+"this setting will physically be removed."
+msgstr ""
+
+#: $string['setting:desc:enablecleanlogs']
+msgid "Enables or disables automatic cleaning of the history log."
+msgstr ""
+
+#: $string['setting:desc:maxrestoreusers']
+msgid ""
+"This sets the maximum number of users displayed on the restore users form."
+msgstr ""
+
+#: $string['setting:enablecleanlogs']
+msgid "Enable logcleaning"
+msgstr ""
+
+#: $string['setting:maxrestoreusers']
+msgid "Maximum restore users"
+msgstr ""
+
+#: $string['table:log:all']
+msgid "Historic restore log"
+msgstr ""
+
+#: $string['table:log:latest']
+msgid "Latest restore logs"
+msgstr ""
+
+#: $string['table:logs']
+msgid "Logs"
+msgstr ""
+
+#: $string['task:logclean']
+msgid "Clean logs for user restore"
+msgstr ""
+
+#: $string['th:action']
+msgid "Action"
+msgstr ""
+
+#: $string['th:mailedto']
+msgid "E-mailed to"
+msgstr ""
+
+#: $string['th:mailsent']
+msgid "E-mail sent"
+msgstr ""
+
+#: $string['th:name']
+msgid "Name"
+msgstr ""
+
+#: $string['th:restored']
+msgid "Restored"
+msgstr ""
+
+#: $string['th:timecreated']
+msgid "Created on"
+msgstr ""
+
+#: $string['th:userid']
+msgid "User ID"
+msgstr ""
+
+#: $string['timedeleted']
+msgid "Deleted at"
+msgstr ""

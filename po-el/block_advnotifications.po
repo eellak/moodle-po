@@ -1,0 +1,397 @@
+#. extracted from lang/en/block_advnotifications.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_advnotifications', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   block_advnotifications
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['add_notification_global_notice']
+msgid "This notification will be displayed globally/site-wide!"
+msgstr ""
+
+#: $string['advnotifications']
+msgctxt "$string['advnotifications']"
+msgid "Advanced notifications"
+msgstr ""
+
+#: $string['advnotifications_add_done']
+msgid "Done!"
+msgstr ""
+
+#: $string['advnotifications_add_heading']
+msgid "New notification"
+msgstr ""
+
+#: $string['advnotifications:addinstance']
+msgid "Add a new Advanced notifications block"
+msgstr ""
+
+#: $string['advnotifications_add_option_announcement']
+msgid "Announcement"
+msgstr ""
+
+#: $string['advnotifications_add_option_danger']
+msgid "Danger"
+msgstr ""
+
+#: $string['advnotifications_add_option_info']
+msgid "Information"
+msgstr ""
+
+#: $string['advnotifications_add_option_success']
+msgid "Success"
+msgstr ""
+
+#: $string['advnotifications_add_option_warning']
+msgid "Warning"
+msgstr ""
+
+#: $string['advnotifications_add_saving']
+msgid "Saving..."
+msgstr ""
+
+#: $string['advnotifications_aicon']
+msgid "Display icon?"
+msgstr ""
+
+#: $string['advnotifications_cancel']
+msgid "Cancel"
+msgstr ""
+
+#: $string['advnotifications_cell_no']
+msgid "No"
+msgstr ""
+
+#: $string['advnotifications_cell_yes']
+msgid "Yes"
+msgstr ""
+
+#: $string['advnotifications_class']
+msgid "Block class:"
+msgstr ""
+
+#: $string['advnotifications_cron_auto_delete']
+msgid "Add deleted flag to notifications that's passed their end-date..."
+msgstr ""
+
+#: $string['advnotifications_cron_auto_delete_udata']
+msgid ""
+"Remove user records that relates to notifications that don't exist "
+"anymore..."
+msgstr ""
+
+#: $string['advnotifications_cron_auto_perma_delete']
+msgid ""
+"Permanently delete notifications that's had the deleted flag for more than "
+"30 days..."
+msgstr ""
+
+#: $string['advnotifications_cron_heading']
+msgid "Cleaning advanced notifications"
+msgstr ""
+
+#: $string['advnotifications_date_from']
+msgid "From:"
+msgstr ""
+
+#: $string['advnotifications_date_info']
+msgid "Same date = forever"
+msgstr ""
+
+#: $string['advnotifications_date_to']
+msgid "To:"
+msgstr ""
+
+#: $string['advnotifications_delete_label']
+msgid "Delete"
+msgstr ""
+
+#: $string['advnotifications_dismissible']
+msgid "Dismissible?"
+msgstr ""
+
+#: $string['advnotifications_edit_label']
+msgid "Edit"
+msgstr ""
+
+#: $string['advnotifications_enabled']
+msgid "Enable/Disable?"
+msgstr ""
+
+#: $string['advnotifications_err_forbidden']
+msgid "Forbidden, please login again..."
+msgstr ""
+
+#: $string['advnotifications_err_nojsedit']
+msgid ""
+"Editing only supported with JavaScript enabled. Re-create the desired "
+"notification or enable JavaScript and try again."
+msgstr ""
+
+#: $string['advnotifications_err_req']
+msgid "The following fields are required: {$a}"
+msgstr ""
+
+#: $string['advnotifications_field_actions']
+msgid "Actions"
+msgstr ""
+
+#: $string['advnotifications_field_aicon']
+msgid "Icon"
+msgstr ""
+
+#: $string['advnotifications_field_date_from']
+msgid "From"
+msgstr ""
+
+#: $string['advnotifications_field_date_to']
+msgid "To"
+msgstr ""
+
+#: $string['advnotifications_field_dismissible']
+msgid "Dismissible"
+msgstr ""
+
+#: $string['advnotifications_field_enabled']
+msgid "Enabled"
+msgstr ""
+
+#: $string['advnotifications_field_global']
+msgid "Global"
+msgstr ""
+
+#: $string['advnotifications_field_id']
+msgid "ID"
+msgstr ""
+
+#: $string['advnotifications_field_times']
+msgid "View Times"
+msgstr ""
+
+#: $string['advnotifications_field_title']
+msgctxt "$string['advnotifications_field_title']"
+msgid "Title"
+msgstr ""
+
+#: $string['advnotifications_field_type']
+msgctxt "$string['advnotifications_field_type']"
+msgid "Type"
+msgstr ""
+
+#: $string['advnotifications_global']
+msgid "Global notification?"
+msgstr ""
+
+#: $string['advnotifications_join']
+msgid "&"
+msgstr ""
+
+#: $string['advnotifications:managenotifications']
+msgid "Manage notifications and the relative settings"
+msgstr ""
+
+#: $string['advnotifications_message']
+msgid "Message"
+msgstr ""
+
+#: $string['advnotifications:myaddinstance']
+msgid "Add a new Advanced notifications block to the my Moodle page"
+msgstr ""
+
+#: $string['advnotifications_nav_heading']
+msgid "Notifications:"
+msgstr ""
+
+#: $string['advnotifications_nav_manage']
+msgid "Manage"
+msgstr ""
+
+#: $string['advnotifications_nav_restore']
+msgctxt "$string['advnotifications_nav_restore']"
+msgid "Restore"
+msgstr ""
+
+#: $string['advnotifications_nav_settings']
+msgid "Settings"
+msgstr ""
+
+#: $string['advnotifications_preview']
+msgid "Preview"
+msgstr ""
+
+#: $string['advnotifications_req']
+msgid "Required field..."
+msgstr ""
+
+#: $string['advnotifications_restore_label']
+msgctxt "$string['advnotifications_restore_label']"
+msgid "Restore"
+msgstr ""
+
+#: $string['advnotifications_restore_table_heading']
+msgid "Advanced notifications restore"
+msgstr ""
+
+#: $string['advnotifications_restore_table_title']
+msgid "Restore notifications"
+msgstr ""
+
+#: $string['advnotifications_restore_table_warning']
+msgid ""
+"<strong>Warning!</strong> Deleting notifications from this table will "
+"permanently delete it from the database. We recommend using the auto-delete "
+"features of the plugin..."
+msgstr ""
+
+#: $string['advnotifications_save']
+msgid "Save"
+msgstr ""
+
+#: $string['advnotifications_table_empty']
+msgid "No notifications to show!"
+msgstr ""
+
+#: $string['advnotifications_table_heading']
+msgctxt "$string['advnotifications_table_heading']"
+msgid "Advanced notifications"
+msgstr ""
+
+#: $string['advnotifications_table_title']
+msgid "Manage notifications"
+msgstr ""
+
+#: $string['advnotifications_task_name']
+msgctxt "$string['advnotifications_task_name']"
+msgid "Advanced notifications"
+msgstr ""
+
+#: $string['advnotifications_times']
+msgid "# of times"
+msgstr ""
+
+#: $string['advnotifications_times_label']
+msgid "Number of times to display the notification to the user (0 = forever)"
+msgstr ""
+
+#: $string['advnotifications_title']
+msgctxt "$string['advnotifications_title']"
+msgid "Title"
+msgstr ""
+
+#: $string['advnotifications_type']
+msgctxt "$string['advnotifications_type']"
+msgid "Type"
+msgstr ""
+
+#: $string['advnotifications_update']
+msgid "Update"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Advanced notifications"
+msgstr ""
+
+#: $string['setting/auto_delete']
+msgid "Auto delete:"
+msgstr ""
+
+#: $string['setting/auto_delete_default']
+msgctxt "$string['setting/auto_delete_default']"
+msgid ""
+msgstr ""
+
+#: $string['setting/auto_delete_desc']
+msgid ""
+"Toggles whether a notification that go past the set end-date is "
+"automatically deleted - but can be restored again.<br>(Helps with "
+"housekeeping/management)"
+msgstr ""
+
+#: $string['setting/auto_delete_user_data']
+msgid "Auto delete user data:"
+msgstr ""
+
+#: $string['setting/auto_delete_user_data_default']
+msgctxt "$string['setting/auto_delete_user_data_default']"
+msgid ""
+msgstr ""
+
+#: $string['setting/auto_delete_user_data_desc']
+msgid ""
+"Toggles whether user data (such as whether the user has seen/dismissed "
+"notifications that don't exist anymore, etc) related to advanced "
+"notifications is automatically deleted.<br>(Helps with "
+"housekeeping/management)"
+msgstr ""
+
+#: $string['setting/auto_perma_delete']
+msgid "Auto permanent delete:"
+msgstr ""
+
+#: $string['setting/auto_perma_delete_default']
+msgctxt "$string['setting/auto_perma_delete_default']"
+msgid ""
+msgstr ""
+
+#: $string['setting/auto_perma_delete_desc']
+msgid ""
+"Toggles whether notifications that have been deleted for more than 30 days "
+"are automatically permanently deleted from the database.<br>(Helps with "
+"housekeeping/management)"
+msgstr ""
+
+#: $string['setting/enable']
+msgid "Enable:"
+msgstr ""
+
+#: $string['setting/enable_default']
+msgctxt "$string['setting/enable_default']"
+msgid ""
+msgstr ""
+
+#: $string['setting/enable_desc']
+msgid "Toggles whether all notifications are enabled/disabled"
+msgstr ""
+
+#: $string['setting/navigation']
+msgid "Navigation:"
+msgstr ""
+
+#: $string['setting/navigation_desc']
+msgid ""
+"<div id=\"advnotifications_manage\">{$a->manage}&nbsp;&nbsp;&nbsp;{$a->restore"
+"}</div>"
+msgstr ""
+
+#: $string['setting/settings']
+msgid "Settings:"
+msgstr ""

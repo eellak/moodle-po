@@ -1,0 +1,1263 @@
+#. extracted from lang/en/mnet.php, lang/el/mnet.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:14+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'mnet', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   mnet
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['aboutyourhost']
+msgid "About your server"
+msgstr "Σχετικά με τον εξυπηρετητή σας"
+
+#: $string['accesslevel']
+msgid "Access level"
+msgstr "Επίπεδο Πρόσβασης"
+
+#: $string['addhost']
+msgid "Add host"
+msgstr "Προσθήκη κεντρικού υπολογιστή"
+
+#: $string['addnewhost']
+msgid "Add a new host"
+msgstr "Προσθήκη ενός νέου κεντρικού υπολογιστή"
+
+#: $string['addtoacl']
+msgid "Add to access control"
+msgstr "Προσθήκη στον Έλεγχο Πρόσβασης"
+
+#: $string['allhosts']
+msgid "All hosts"
+msgstr ""
+
+#: $string['allhosts_no_options']
+msgid "No options are available when viewing multiple hosts"
+msgstr ""
+
+#: $string['allow']
+msgid "Allow"
+msgstr "Επιτρέπεται"
+
+#: $string['applicationtype']
+msgid "Application type"
+msgstr ""
+
+#: $string['authfail_nosessionexists']
+msgid "Authorisation failed: the mnet session does not exist."
+msgstr "Η εξουσιοδότηση απέτυχε: η σύνοδος mnet δεν υπάρχει."
+
+#: $string['authfail_sessiontimedout']
+msgid "Authorisation failed: the mnet session has timed out."
+msgstr "Η εξουσιοδότηση απέτυχε: η σύνοδος mnet έληξε."
+
+#: $string['authfail_usermismatch']
+msgid "Authorisation failed: the user does not match."
+msgstr "Η εξουσιοδότηση απέτυχε: ο χρήστης δεν αντιστοιχεί κάπου."
+
+#: $string['authmnetdisabled']
+msgid "MNet authentication plugin is <strong>disabled</strong>."
+msgstr ""
+"Η <em>υπομονάδα λογισμικού Πιστοποίησης</em> της Δικτύωσης Moodle είναι "
+"<strong>απενεργοποιημένη</strong>."
+
+#: $string['badcert']
+msgid "This is not a valid certificate."
+msgstr "Αυτό δεν είναι ένα έγκυρο πιστοποιητικό."
+
+#: $string['certdetails']
+msgid "Cert details"
+msgstr "Λεπτομέρειες Πιστοποιητικού"
+
+#: $string['configmnet']
+msgid ""
+"MNet allows communication of this server with other servers or services."
+msgstr ""
+"Η Δικτύωση Moodle επιτρέπει την επικοινωνία αυτού του εξυπηρετητή μέ άλλους "
+"εξυπηρετητές ή υπηρεσίες."
+
+#: $string['couldnotgetcert']
+msgid ""
+"No certificate found at <br />{$a}. <br />The host may be down or "
+"incorrectly configured."
+msgstr ""
+"Δεν βρέθηκε πιστοποιητικό στο <br />{$a}. <br />Ο κεντρικός υπολογιστής "
+"μπορεί να είναι εκτός λειτουργίας ή λανθασμένα ρυθμισμένος."
+
+#: $string['couldnotmatchcert']
+msgid ""
+"This does not match the certificate currently published by the webserver."
+msgstr ""
+"Αυτό δεν ταιριάζει το πιστοποιητικό που έχει δημοσιευθεί αυτή τη στιγμή από "
+"τον εξυπηρετητή ιστού."
+
+#: $string['courses']
+msgid "courses"
+msgstr "μαθήματα"
+
+#: $string['courseson']
+msgid "courses on"
+msgstr "μαθήματα σε"
+
+#: $string['currentkey']
+msgid "Current public key"
+msgstr "Τρέχων Δημόσιο Κλειδί"
+
+#: $string['current_transport']
+msgid "Current transport"
+msgstr "Τρέχουσα μεταφορά"
+
+#: $string['databaseerror']
+msgid "Could not write details to the database."
+msgstr "Αποτυχία εγγραφή των λεπτομερειών στη βάση δεδομένων."
+
+#: $string['deleteaserver']
+msgid "Deleting a server"
+msgstr "Διαγραφή ενός εξυπηρετητή"
+
+#: $string['deletedhostinfo']
+msgid ""
+"This host has been deleted. If you want to undelete it, switch the deleted "
+"status back to 'No'."
+msgstr ""
+
+#: $string['deletedhosts']
+msgid "Deleted hosts: {$a}"
+msgstr ""
+
+#: $string['deletehost']
+msgid "Delete host"
+msgstr "Διαγραφή κεντρικού υπολογιστή"
+
+#: $string['deletekeycheck']
+msgid "Are you absolutely sure you want to delete this key?"
+msgstr "Είστε απόλυτα σίγουρος οτι θέλετε να διαγράψετε αυτό το κλειδί?"
+
+#: $string['deleteoutoftime']
+msgid ""
+"Your 60-second window for deleting this key has expired. Please start again."
+msgstr ""
+"Το χρονικό παράθυρο 60 δευτερολέπτων που είχατε για να διαγράψετε αυτό το "
+"κλειδί έληξε. Παρακαλούμε ξεκινήστε ξανά."
+
+#: $string['deleteuserrecord']
+msgid "SSO ACL: delete record for user '{$a->user}' from {$a->host}."
+msgstr "SSO ACL: διαγραφή εγγραφής για χρήστη '{$a}[0]' από {$a}[1]."
+
+#: $string['deletewrongkeyvalue']
+msgid ""
+"An error has occurred. If you were not trying to delete your server's SSL "
+"key, it is possible you have been the subject of a malicious attack. No "
+"action has been taken."
+msgstr ""
+"Συνέβη ένα σφάλμα. Εάν δεν προσπαθείτε να διαγράψετε το κλειδί SSL του "
+"εξυπηρετητή σας, είναι πιθανό ότι έχετε πέσει θύμα μιας κακόβουλης επίθεσης. "
+"Δεν λήφθηκε καμία ενέργεια."
+
+#: $string['deny']
+msgid "Deny"
+msgstr "Άρνηση"
+
+#: $string['description']
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: $string['duplicate_usernames']
+msgid ""
+"We failed to create an index on the columns \"mnethostid\" and \"username\" in "
+"your user table.<br />This can occur when you have <a href=\"{$a}\" "
+"target=\"_blank\">duplicate usernames in your user table</a>.<br />Your "
+"upgrade should still complete successfully. Click on the link above, and "
+"instructions on fixing this problem will appear in a new window. You can "
+"attend to that at the end of the upgrade.<br />"
+msgstr ""
+"Αποτυχία δημιουργίας δείκτη στις στήλες \"mnethostid\" και \"username\" στον "
+"πίνακα χρηστών σας.<br />Αυτό μπορεί να συμβεί όταν έχετε <a href=\"{$a}\" "
+"target=\"_blank\">διπλότυπα ονόματα χρήστη στον πίνακα χρηστών σας</a>.<br />Η "
+"αναβάθμιση σας θα πρέπει παρόλα αυτά να ολοκληρωθεί με επιτυχία. Κάντε κλικ "
+"στον παραπάνω σύνδεσμο, και θα εμφανιστούν σε νέο παράθυρο οδηγίες σχετικά "
+"με την διόρθωση αυτού του προβλήματος. Μπορείτε να το φροντίσετε στο τέλος "
+"της διαδικασίας αναβάθμισης.<br />"
+
+#: $string['enabled_for_all']
+msgid "(This service has been enabled for all hosts)."
+msgstr ""
+"(Αυτή η υπηρεσία έχει ενεργοποιηθεί για όλους τους κεντρικούς υπολογιστές)."
+
+#: $string['enterausername']
+msgid "Please enter a username, or a list of usernames separated by commas."
+msgstr ""
+"Παρακαλούμε εισάγετε ένα όνομα χρήστη, ή μια λίστα από ονόματα χρηστών "
+"χωρισμένα με κόμμα."
+
+#: $string['error7020']
+msgid ""
+"This error normally occurs if the remote site has created a record for you "
+"with the wrong wwwroot, for example, http://yoursite.com instead of "
+"http://www.yoursite.com. You should contact the administrator of the remote "
+"site with your wwwroot (as specified in config.php) asking her to update her "
+"record for your host."
+msgstr ""
+"Αυτό το σφάλμα συμβάινει συνήθως εάν ο απομακρυσμένος ιστοχώρος έχει "
+"δημιουργήσει μια εγγραφή για εσάς με το λάθος wwwroot, για παράδειγμα, "
+"http://yoursite.com αντί για http://www.yoursite.com. Θα πρέπει να "
+"επικοινωνήσετε με τον διαχειριστή του απομακρυσμένου ιστοχώρου και να του "
+"δώσετε το σωστό wwwroot (όπως ορίζεται στο αρχείο config.php) ζητώντας του "
+"να ανανεώσει την εγγραφή για τον κεντρικό υπολογιστή σας."
+
+#: $string['error7022']
+msgid ""
+"The message you sent to the remote site was encrypted properly, but not "
+"signed. This is very unexpected; you should probably file a bug if this "
+"occurs (giving as much information as possible about the application "
+"versions in question etc)."
+msgstr ""
+"Το μήνυμα που στείλατε στον απομακρυσμένο ιστοχώρο κρυπτογραφήθηκε σωστά "
+"αλλά δεν υπογράφτηκε. Αυτό είναι τελείως αναπάντεχο; θα πρέπει πιθανώς να "
+"υποβάλλετε μια αναφορά σφάλματος εάν συμβεί αυτό (παρέχοντας όσο γίνεται "
+"περισσότερες πληροφορίες σχετικά με την έκδοση του Moodle, κλπ)."
+
+#: $string['error7023']
+msgid ""
+"The remote site has tried to decrypt your message with all the keys it has "
+"on record for your site. They have all failed. You might be able to fix this "
+"problem by manually re-keying with the remote site. This is unlikely to "
+"occur unless you've been out of communication with the remote site for a few "
+"months."
+msgstr ""
+"Ο απομακρυσμένος ιστοχώρος προσπάθησε να αποκρυπτογραφήσει το μήνυμά σας με "
+"όλα τα κλειδιά που έχει στην εγγραφή για τον ιστοχώρο σας. Όλα απέτυχαν. "
+"Πιθανώς να μπορείτε να διορθώσετε αυτό το πρόβλημα αντάλλασοντας χειροκίνητα "
+"κλειδιά με τον απομακρυσμένο ιστοχώρο. Αυτό είναι δύσκολο να συμβεί εκτός "
+"και δεν είχατε επικοινωνία με τον απομακρυσμένο ιστοχώρο για αρκετούς μήνες."
+
+#: $string['error7024']
+msgid ""
+"You send an unencrypted message to the remote site, but the remote site "
+"doesn't accept unencrypted communication from your site. This is very "
+"unexpected; you should probably file a bug if this occurs (giving as much "
+"information as possible about the application versions in question, etc."
+msgstr ""
+"Μπορείτε να στείλετε ένα μη κρυπτογραφημένο μήνυμα στον απομακρυσμένο "
+"ιστοχώρο, αλλά ο απομακρυσμένος ιστοχώρος δεν δέχεται μη κρυπτογραφημένη "
+"επικοινωνία από τον ιστοχώρο σας. Αυτό είναι τελείως αναπάντεχο; θα πρέπει "
+"πιθανώς να υποβάλλετε μια αναφορά σφάλματος εάν συμβεί αυτό (παρέχοντας όσο "
+"γίνεται περισσότερες πληροφορίες σχετικά με την έκδοση του Moodle, κλπ)."
+
+#: $string['error7026']
+msgid ""
+"The key that your message was signed with differs from the key that the "
+"remote host has on file for your server. Further, the remote host attempted "
+"to fetch your current key and failed to do so. Please manually re-key with "
+"the remote host and try again."
+msgstr ""
+"Το κλειδί με το οποίο υπογράφτηκε το μήνυμα σας διαφέρει από το κλειδί το "
+"οποίο έχει ο απομακρυσμένος κεντρικός υπολογιστής έχει σε αρχείο για τον "
+"εξυπηρετητή σας. Επιπλέον, ο απομακρυσμένος κεντρικός υπομολογιστής "
+"προσπάθησε να πάρει το τρέχον κλειδί σας και απέτυχε. Παρακαλούμε ανταλλάξτε "
+"χειροκίνητα κλειδιά με τον απομακρυσμένο κεντρικό υπολογιστή και δοκιμάστε "
+"ξανά."
+
+#: $string['error709']
+msgid "The remote site failed to obtain a SSL key from you."
+msgstr "Ο απομακρυσμένος ιστοχώρος απέτυχε να λάβει ένα κλειδί SSL από εσάς."
+
+#: $string['eventaccesscontrolcreated']
+msgid "Access control created"
+msgstr ""
+
+#: $string['eventaccesscontrolupdated']
+msgid "Access control updated"
+msgstr ""
+
+#: $string['expired']
+msgid "This key expired on"
+msgstr "Αυτό το κλειδί έληξε στις"
+
+#: $string['expires']
+msgid "Valid until"
+msgstr "Έγκυρο μέχρι"
+
+#: $string['expireyourkey']
+msgid "Delete this key"
+msgstr "Διαγραφή αυτού του κλειδιού"
+
+#: $string['expireyourkeyexplain']
+msgid ""
+"Moodle automatically rotates your keys every 28 days (by default) but you "
+"have the option to <em>manually</em> expire this key at any time. This will "
+"only be useful if you believe this key has been compromised. A replacement "
+"will be immediately automatically generated.<br />Deleting this key will "
+"make it impossible for other applications to communicate with you, until you "
+"manually contact each administrator and provide them with your new key."
+msgstr ""
+"Το Moodle αυτόματα περιστρέφει τα κλειδιά σας κάθε 28 ημέρες (εξ' ορισμού) "
+"αλλά έχετε την επιλογή να λήξετε αυτό κλειδί <em>χειροκίνητα</em> "
+"οποιαδήποτε στιγμή. Αυτό θα είναι χρήσιμο μόνο εάν πιστεύετε οτι αυτό το "
+"κλειδί έχει παραβιαστεί. Ένα κλειδί αντικατάστασης θα σημιουργηθεί "
+"αυτόματα.<br />Διαγράφοντας αυτό το κλειδί θα είναι αδύνατο να "
+"επικοινωνήσουν με εσάς άλλα Moodles, μέχρι να επικοινωνήσετε μόνοι σας μέ "
+"κάθε διαχειριστή παρέχοντας του το νέο σας κλειδί."
+
+#: $string['exportfields']
+msgid "Fields to export"
+msgstr ""
+
+#: $string['failedaclwrite']
+msgid "Failed to write to the MNet access control list for user '{$a}'."
+msgstr ""
+"Αποτυχία εγγραφής στην λίστα ελέγχου πρόσβασης MNET για τον χρήστη '{$a}'."
+
+#: $string['findlogin']
+msgid "Find login"
+msgstr ""
+
+#: $string['forbidden-function']
+msgid "That function has not been enabled for RPC."
+msgstr "Η συνάρτηση δεν έχει ενεργοποιηθεί για το RPC."
+
+#: $string['forbidden-transport']
+msgid "The transport method you are trying to use is not permitted."
+msgstr "Η μέθοδος μεταφοράς που προσπαθείτε να χρησιμοποιήσετε δεν επιτρέπεται."
+
+#: $string['forcesavechanges']
+msgid "Force save changes"
+msgstr "Υποχρεωτικά Αποθήκευση Αλλαγών"
+
+#: $string['helpnetworksettings']
+msgid "Configure MNet communication"
+msgstr "Ρύθμιση της εσωτερικής για το Moodle επικοινωνίας"
+
+#: $string['hidelocal']
+msgid "Hide local users"
+msgstr "Απόκρυψη τοπικών χρηστών"
+
+#: $string['hideremote']
+msgid "Hide remote users"
+msgstr "Απόκρυψη απομακρυσμένων χρηστών"
+
+#: $string['host']
+msgid "host"
+msgstr "κεντρικός υπολογιστής"
+
+#: $string['hostcoursenotfound']
+msgid "Host or course not found"
+msgstr "Ο κεντρικός υπολογιστής ή το μάθημα δεν βρέθηκε"
+
+#: $string['hostdeleted']
+msgid "Host deleted"
+msgstr "Εντάξει - ο κεντρικός υπολογιστής διαγράφηκε"
+
+#: $string['hostexists']
+msgid ""
+"A record already exists for a host with that hostname (it may be deleted). "
+"<a href=\"{$a}\">click here</a> to edit that record."
+msgstr ""
+"Υπάρχει ήδη μια εγγραφή για αυτόν τον κεντρικό υπολογιστή και εγκατάσταση "
+"Moodle με αναγνωριστικό {$a}.<br />Κάντε κλικ στο <em>Συνέχεια</em> για να "
+"επεξεργαστείτε αυτή την εγγραφή."
+
+#: $string['hostlist']
+msgid "List of networked hosts"
+msgstr ""
+
+#: $string['hostname']
+msgid "Hostname"
+msgstr "Όνομα κεντρικού υπολογιστή"
+
+#: $string['hostnamehelp']
+msgid ""
+"The fully-qualified domain name of the remote host, e.g. www.example.com"
+msgstr ""
+"Το πλήρως-αρμόδιο όνομα τομέα του απομακρυσμένου κεντρικού υπολογιστή, π.χ. "
+"www.example.com"
+
+#: $string['hostnotconfiguredforsso']
+msgid "This server is not configured for remote login."
+msgstr ""
+"Αυτό το απομακρυσμένο κομβικό σημείο Moodle δεν είναι ρυθμισμένο για "
+"απομακρυσμένη είσοδο."
+
+#: $string['hostsettings']
+msgid "Host settings"
+msgstr "Ρυθμίσεις κεντρικού υπολογιστή"
+
+#: $string['http_self_signed_help']
+msgid ""
+"Permit connections using a self-signed DIY SSL certificate on the remote "
+"host."
+msgstr ""
+"Επέτρεψε τις συνδέσεις με χρήση ενός αυτό-υπογεγραμμένου πιστοποιητικού DIY "
+"SSL στον απομακρυσμένο κεντρικό υπολογιστή."
+
+#: $string['https_self_signed_help']
+msgid ""
+"Permit connections using a self-signed DIY SSL in PHP on the remote host "
+"over http."
+msgstr ""
+"Επέτρεψε τις συνδέσεις με χρήση ενός αυτό-υπογεγραμμένου πιστοποιητικού DIY "
+"SSL στην PHP στον απομακρυσμένο κεντρικό υπολογιστή πάνω από http."
+
+#: $string['https_verified_help']
+msgid "Permit connections using a verified SSL certificate on the remote host."
+msgstr ""
+"Επέτρεψε τις συνδέσεις με χρήση ενός επιβεβαιωμένου πιστοποιητικού SSL στον "
+"απομακρυσμένο κεντρικό υπολογιστή."
+
+#: $string['http_verified_help']
+msgid ""
+"Permit connections using a verified SSL certificate in PHP on the remote "
+"host, but over http (not https)."
+msgstr ""
+"Επέτρεψε τις συνδέσεις με χρήση ενός επιβεβαιωμένου πιστοποιητικού SSL στην "
+"PHP στον απομακρυσμένο κεντρικό υπολογιστή, αλλά πάνω από http (όχι https)."
+
+#: $string['id']
+msgid "ID"
+msgstr "Αναγνωριστικό"
+
+#: $string['idhelp']
+msgid "This value is automatically assigned and cannot be changed"
+msgstr "Αυτή η τιμή έχει ανατεθεί αυτόματα και δεν μπορεί να αλλάξει"
+
+#: $string['importfields']
+msgctxt "$string['importfields']"
+msgid "Fields to import"
+msgstr "Πεδία για εισαγωγή"
+
+#: $string['inspect']
+msgid "Inspect"
+msgstr ""
+
+#: $string['installnosuchfunction']
+msgid ""
+"Coding error! Something is trying to install a mnet xmlrpc function "
+"({$a->method}) from a file ({$a->file}) and it can't be found!"
+msgstr ""
+
+#: $string['installnosuchmethod']
+msgid ""
+"Coding error! Something is trying to install a mnet xmlrpc method "
+"({$a->method}) on a class ({$a->class}) and it can't be found!"
+msgstr ""
+
+#: $string['installreflectionclasserror']
+msgid ""
+"Coding error! MNet introspection failed for method '{$a->method}' in class "
+"'{$a->class}'.  The original error message, in case it helps, is: "
+"'{$a->error}'"
+msgstr ""
+
+#: $string['installreflectionfunctionerror']
+msgid ""
+"Coding error! MNet introspection failed for function '{$a->method}' in file "
+"'{$a->file}'.  The original error message, in case it helps, is: "
+"'{$a->error}'"
+msgstr ""
+
+#: $string['invalidaccessparam']
+msgid "Invalid access parameter."
+msgstr "Μη έγκυρες παράμετροι πρόσβασης."
+
+#: $string['invalidactionparam']
+msgid "Invalid action parameter."
+msgstr "Μη έγκυρη παράμετρος ενέργειας."
+
+#: $string['invalidhost']
+msgid "You must provide a valid host identifier"
+msgstr "Πρέπει να παρέχετε ένα έγκυρο αναγνωριστικό κεντρικού υπολογιστή"
+
+#: $string['invalidpubkey']
+msgid "The key is not a valid SSL key. ({$a})"
+msgstr "Το κλειδί δεν είναι ένα έγκυρο κλειδί SSL. ({$a})"
+
+#: $string['invalidurl']
+msgid "Invalid URL parameter."
+msgstr "Μη έγκυρες παράμετροι URL."
+
+#: $string['ipaddress']
+msgid "IP address"
+msgstr "Διεύθυνση IP"
+
+#: $string['is_in_range']
+msgid "The IP address <code>{$a}</code> represents a valid trusted host."
+msgstr ""
+"Η διεύθυνση IP &nbsp;<code>{$a}</code>&nbsp; αναπαριστά έναν έγκυρο έμπιστο "
+"κεντρικό υπολογιστή."
+
+#: $string['ispublished']
+msgid "{$a} has enabled this service for you."
+msgstr "Το Moodle {$a} έχει ενεργοποιήσει αυτή την υπηρεσία για εσάς."
+
+#: $string['issubscribed']
+msgid "{$a} is subscribing to this service on your host."
+msgstr ""
+"Το Moodle {$a} εγγράφεται σε αυτή την υπηρεσία στον κεντρικό υπολογιστή σας."
+
+#: $string['keydeleted']
+msgid "Your key has been successfully deleted and replaced."
+msgstr "Το κλειδί σας έχει διαγραφεί και αντικατασταθεί με επιτυχία."
+
+#: $string['keymismatch']
+msgid ""
+"The public key you are holding for this host is different from the public "
+"key it is currently publishing. The currently published key is:"
+msgstr ""
+"Το δημόσιο κλειδί που έχετε για αυτό τον κεντρικό υπολογιστή είναι "
+"διαφορετικό από το δημόσιο κλειδί που δημοσιεύει αυτή την στιγμή."
+
+#: $string['last_connect_time']
+msgid "Last connect time"
+msgstr "Τελευταία φορά σύνδεσης"
+
+#: $string['last_connect_time_help']
+msgid "The time that you last connected to this host."
+msgstr "Η τελευταία φορά που συνδεθήκατε σε αυτό τον κεντρικό υπολογιστή."
+
+#: $string['last_transport_help']
+msgid "The transport that you used for the last connection to this host."
+msgstr ""
+"Η μεταφορά που χρησιμοποιήσατε στην τελευταία σύνδεση σε αυτό τον κεντρικό "
+"υπολογιστή."
+
+#: $string['leavedefault']
+msgid "Use the default settings instead"
+msgstr ""
+
+#: $string['listservices']
+msgid "List services"
+msgstr ""
+
+#: $string['loginlinkmnetuser']
+msgid ""
+"<br />If you are MNet remote user and can <a href=\"{$a}\">confirm your email "
+"address here</a>, you can be redirected to your login page.<br />"
+msgstr ""
+"<br />Εάν είστε έναν απομακρυσμένος χρήστης του Δίκτυου Moodle και μπορείτε "
+"να <a href=\"{$a}\">επιβεβαιώσετε την διεύθυνση ηλεκτρονικού ταχυδρόμειου σας "
+"εδώ</a>, τότε μπορείτε να ανακατευθυνθείτε στη σελίδα εισόδου σας.<br />"
+
+#: $string['logs']
+msgid "logs"
+msgstr "καταγραφές"
+
+#: $string['managemnetpeers']
+msgid "Manage peers"
+msgstr ""
+
+#: $string['method']
+msgid "Method"
+msgstr ""
+
+#: $string['methodhelp']
+msgid "Method help for {$a}"
+msgstr ""
+
+#: $string['methodsavailableonhost']
+msgid "Methods available on {$a}"
+msgstr ""
+
+#: $string['methodsavailableonhostinservice']
+msgid "Methods available for {$a->service} on {$a->host}"
+msgstr ""
+
+#: $string['methodsignature']
+msgid "Method signature for {$a}"
+msgstr ""
+
+#: $string['mnet']
+msgid "MNet"
+msgstr "Δικτύωση Moodle"
+
+#: $string['mnet_concatenate_strings']
+msgid "Concatenate (up to) 3 strings and return the result"
+msgstr "Ένωση (μέχρι) 3 αλφαριθμητικών και επιστροφή του αποτελέσματος"
+
+#: $string['mnetdisabled']
+msgid "MNet is <strong>disabled</strong>."
+msgstr "Το Δίκτυο Moodle είναι <strong>απενεργοποιημένο</strong>."
+
+#: $string['mnetidprovider']
+msgid "MNet ID provider"
+msgstr ""
+
+#: $string['mnetidproviderdesc']
+msgid ""
+"You can use this facility to retrieve a link that you can log in at, if you "
+"can provide the correct email address to match the username you previously "
+"tried to log in with."
+msgstr ""
+
+#: $string['mnetidprovidermsg']
+msgid "You should be able to login at your {$a} provider."
+msgstr ""
+
+#: $string['mnetidprovidernotfound']
+msgid "Sorry, but no further information could be found."
+msgstr ""
+
+#: $string['mnetpeers']
+msgid "Peers"
+msgstr "Ομότιμοι"
+
+#: $string['mnetservices']
+msgid "Services"
+msgstr "Υπηρεσίες"
+
+#: $string['mnet_session_prohibited']
+msgid ""
+"Users from your home server are not currently permitted to roam to {$a}."
+msgstr ""
+"Οι χρήστες από τον κεντρικό εξυπηρετητή σας δεν επιτρέπεται προς το παρόν να "
+"περιηγούνται στο {$a}."
+
+#: $string['mnetsettings']
+msgid "MNet settings"
+msgstr "Ρυθμίσεις Δίκτυου Moodle"
+
+#: $string['moodle_home_help']
+msgid ""
+"The path to the homepage of MNet application on the remote host, e.g. "
+"/moodle/."
+msgstr ""
+"Η διαδρομή προς την αρχική σελίδα του Moodle στον απομακρυσμένο κεντρικό "
+"υπολογιστή, e.g. /moodle/."
+
+#: $string['name']
+msgid "Name"
+msgstr "Όνομα"
+
+#: $string['net']
+msgid "Networking"
+msgstr "Δικτύωση"
+
+#: $string['networksettings']
+msgid "Network settings"
+msgstr "Ρυθμίσεις Δικτύου"
+
+#: $string['never']
+msgid "Never"
+msgstr "Ποτέ"
+
+#: $string['noaclentries']
+msgid "No entries in the SSO access control list"
+msgstr "Δεν υπάρχουν καταχωρήσεις στην λίστα ελέγχου πρόσβασης SSO"
+
+#: $string['noaddressforhost']
+msgid "Sorry, but that hostname ({$a}) could not be resolved!"
+msgstr ""
+
+#: $string['nocurl']
+msgid "PHP cURL library is not installed"
+msgstr "Η βιβλιοθήκη cURL της PHP δεν είναι εγκατεστημένη"
+
+#: $string['nolocaluser']
+msgid ""
+"No local record exists for remote user, and it could not be created, as this "
+"host will not auto create users.  Please contact your administrator!"
+msgstr "Δεν υπάρχει τοπική εγγραφή για τον απομακρυσμένο χρήστη."
+
+#: $string['nomodifyacl']
+msgid "You are not permitted to modify the MNet access control list."
+msgstr "Δεν έχετε δικαίωμα να τροποποιήσετε την λίστα ελέγχου πρόσβασης MNET."
+
+#: $string['nonmatchingcert']
+msgid ""
+"The subject of the certificate: <br /><em>{$a->subject}</em><br />does not "
+"match the host it came from:<br /><em>{$a->host}</em>."
+msgstr ""
+"Το θέμα του πιστοποιητικού: <br /><em>{$a}[0]</em><br />δεν αντιστοιχεί στον "
+"κεντρικό υπολογιστή προέλευσης του:<br /><em>{$a}[1]</em>."
+
+#: $string['nopubkey']
+msgid ""
+"There was a problem retrieving the public key.<br />Maybe the host does not "
+"allow MNet or the key is invalid."
+msgstr ""
+"Υπήρξε ένα πρόβλημα κατά την ανάκτηση του δημόσιου κλειδιού.<br />Ίσως ο "
+"κεντρικός υπολογιστής δεν επιτρέπει την Δικτύωση Moodle ή το κλειδί δεν "
+"είναι έγκυρο."
+
+#: $string['nosite']
+msgid "Could not find site-level course"
+msgstr "Αποτυχία εύρεσης του μαθήματος επιπέδου ιστοχώρου"
+
+#: $string['nosuchfile']
+msgid "The file/function {$a} does not exist."
+msgstr "Το αρχείο/συνάρτηση {$a} δεν υπάρχει."
+
+#: $string['nosuchfunction']
+msgid "Unable to locate function, or function prohibited for RPC."
+msgstr "Αδυναμία εντοπισμού συνάρτησης, ή η συνάρτηση απαγορεύεται για RPC."
+
+#: $string['nosuchmodule']
+msgid ""
+"The function was incorrectly addressed and could not be located. Please use "
+"the\n"
+"mod/modulename/lib/functionname format."
+msgstr ""
+"Η συνάρτηση κλήθηκε λανθασμένα και δεν μπορεί να εντοπιστεί. Παρακαλούμε "
+"χρησιμοποιείστε\n"
+"τη μορφή mod/modulename/lib/functionname."
+
+#: $string['nosuchpublickey']
+msgid "Unable to obtain public key for signature verification."
+msgstr "Αδυναμία απόκτησης του δημόσιου κλειδιού για επιβεβαίωση υπογραφής."
+
+#: $string['nosuchservice']
+msgid "The RPC service is not running on this host."
+msgstr "Η υπηρεσία RPC δεν τρέχει σε αυτόν τον κεντρικό υπολογιστή."
+
+#: $string['nosuchtransport']
+msgid "No transport with that ID exists."
+msgstr "Δεν υπάρχει μεταφορά με αυτο το αναγνωριστικό."
+
+#: $string['notBASE64']
+msgid "This string is not in base64 encoded format. It cannot be a valid key."
+msgstr ""
+"Το αλφαριθμητικό δεν είναι στην μορφή κωδικοποίησης Base64. Δεν μπορεί να "
+"είναι ένα έγκυρο κλειδί."
+
+#: $string['notenoughidpinfo']
+msgid ""
+"Your identity provider is not giving us enough information to create or "
+"update your account locally. Sorry!"
+msgstr ""
+
+#: $string['not_in_range']
+msgid ""
+"The IP address <code>{$a}</code> does not represent a valid trusted host."
+msgstr ""
+"Η διεύθυνση IP &nbsp;<code>{$a}</code>&nbsp; δεν αναπαριστά έναν έγκυρο "
+"έμπιστο κεντρικό υπολογιστή."
+
+#: $string['notinxmlrpcserver']
+msgid ""
+"Attempt to access the MNet remote client, not during XMLRPC server execution"
+msgstr ""
+
+#: $string['notmoodleapplication']
+msgid ""
+"WARNING: This is not a Moodle application, so some of the inspection methods "
+"may not work properly."
+msgstr ""
+
+#: $string['notPEM']
+msgid "This key is not in PEM format. It will not work."
+msgstr "Αυτό το κλειδί δεν είναι σε μορφή PEM. Δεν θα δουλέψει."
+
+#: $string['notpermittedtojump']
+msgid ""
+"You do not have permission to begin a remote session from this Moodle "
+"server."
+msgstr ""
+"Δεν έχετε δικαίωμα να εκκινήσετε μια απομακρυσμένη σύνοδο από αυτό το "
+"κομβικό σημείο Moodle."
+
+#: $string['notpermittedtojumpas']
+msgid ""
+"You can't begin a remote session while you are logged in as another user."
+msgstr ""
+
+#: $string['notpermittedtoland']
+msgid "You do not have permission to begin a remote session."
+msgstr "Δεν έχετε δικαίωμα να εκκινήσετε μια απομακρυσμένη σύνοδο."
+
+#: $string['off']
+msgid "Off"
+msgstr "Σβηστό"
+
+#: $string['on']
+msgid "On"
+msgstr "Ανοιχτό"
+
+#: $string['options']
+msgid "Options"
+msgstr "Επιλογές"
+
+#: $string['peerprofilefielddesc']
+msgid ""
+"Here you can override the global settings for which profile fields to send "
+"and import when new users are created"
+msgstr ""
+
+#: $string['permittedtransports']
+msgid "Permitted transports"
+msgstr "Επιτρεπόμενες μεταφορές"
+
+#: $string['phperror']
+msgid "An internal PHP error prevented your request being fulfilled."
+msgstr "Ένα εσωτερικό σφάλμα PHP εμπόδισε την ολοκλήρωση της αίτησης σας."
+
+#: $string['position']
+msgid "Position"
+msgstr ""
+
+#: $string['postrequired']
+msgid "The delete function requires a POST request."
+msgstr "Η συνάρτηση διαγραφής απαιτεί μια αίτηση POST."
+
+#: $string['profileexportfields']
+msgid "Fields to send"
+msgstr "Πεδία για αποστολή"
+
+#: $string['profilefielddesc']
+msgid ""
+"Here you can configure the list of profile fields that are sent and received "
+"over MNet when user accounts are created, or updated.  You can also "
+"override this for each MNet peer individually. Note that the following "
+"fields are always sent and are not optional: {$a}"
+msgstr ""
+"Εδώ μπορείτε να ρυθμίσετε τη λίστα με τα πεδία προφίλ που στέλνονται και "
+"λαμβάνονται μέσω MNet όταν οι λογαριασμοί χρηστών δημιουργούνται ή "
+"ενημερώνονται. Μπορείτε επίσης να παρακάμψετε αυτό για κάθε MΝet peer "
+"ξεχωριστά. Σημειώστε ότι τα ακόλουθα πεδία στέλνονται πάντα και δεν είναι "
+"προαιρετικά: {$a}"
+
+#: $string['profilefields']
+msgid "Profile fields"
+msgstr "Πεδία προφίλ"
+
+#: $string['profileimportfields']
+msgctxt "$string['profileimportfields']"
+msgid "Fields to import"
+msgstr "Πεδία για εισαγωγή"
+
+#: $string['promiscuous']
+msgid "Promiscuous"
+msgstr "Ασύδοτα"
+
+#: $string['publickey']
+msgid "Public key"
+msgstr "Δημόσιο Κλειδί"
+
+#: $string['publickey_help']
+msgid "The public key is automatically obtained from the remote server."
+msgstr ""
+"Το δημόσιο κλειδί που αποκτήθηκε αυτόματα από τον απομακρυσμένο εξυπηρετητή."
+
+#: $string['publickeyrequired']
+msgid "You must provide a public key."
+msgstr ""
+
+#: $string['publish']
+msgid "Publish"
+msgstr "Δημοσίευση"
+
+#: $string['reallydeleteserver']
+msgid "Are you sure you want to delete the server"
+msgstr "Είστε σίγουροι οτι θέλετε να διαγράψετε τον εξυπηρετητή"
+
+#: $string['receivedwarnings']
+msgid "The following warnings were received"
+msgstr "Λήφθησαν οι παρακάτω προειδοποιήσεις"
+
+#: $string['recordnoexists']
+msgid "Record does not exist."
+msgstr "Η εγγραφή δεν υπάρχει."
+
+#: $string['reenableserver']
+msgid "No - select this option to re-enable this server."
+msgstr ""
+"Όχι - επιλέξτε αυτή την επιλογή για να επανενεργοποιήσετε αυτό τον "
+"εξυπηρετητή."
+
+#: $string['registerallhosts']
+msgid "Register all hosts (promiscuous mode)"
+msgstr ""
+"Καταγραφή όλων των κεντρικών υπολογιστών (<em>Λειτουργία κομβικού "
+"σημείου</em>)"
+
+#: $string['registerallhostsexplain']
+msgid ""
+"You can choose to register all hosts that try to connect to you "
+"automatically. This means that a record will appear in your hosts list for "
+"any MNet site that connects to you and requests your public key.<br />You "
+"have the option below to configure services for 'All hosts' and by enabling "
+"some services there, you are able to provide services to any remote server "
+"indiscriminately."
+msgstr ""
+"Μπορείτε να επιλέξετε να καταγράψετε όλους τους κεντρικούς υπολογιστές που "
+"προσπαθούν να συνδεθούν σε εσάς αυτόματα.\n"
+"                                           Αυτό σημαίνει οτι μια εγγραφή θα "
+"φαίνεται στην λίστα σας με τους κεντρικούς υπολογιστές για κάθε ιστοχώρο "
+"Moodle που συνδέεται σε σας και ζητάει το δημόσιο κλειδί σας.<br />Έχετε την "
+"επιλογή παρακάτω να ρυθμίσετε υπηρεσίες για 'Όλοι οι κεντρικοί υπολογιστές' "
+"και ενεργοποιώντας κάποιες υπηρεσίες εκεί, έχετε την δυνατότητα να παρέχετε "
+"υπηρεσίες σε οποιονδήποτε εξυπηρετή Moodle αδιάκριτα."
+
+#: $string['registerhostsoff']
+msgid "Register all hosts is currently <b>off</b>"
+msgstr ""
+
+#: $string['registerhostson']
+msgid "Register all hosts is currently <b>on</b>"
+msgstr ""
+
+#: $string['remotecourses']
+msgid "Remote courses"
+msgstr "Απομακρυσμένα Μαθήματα"
+
+#: $string['remotehost']
+msgid "Remote host"
+msgstr "Απομακρυσμένο κομβικό σημείο"
+
+#: $string['remotehosts']
+msgid "Remote hosts"
+msgstr "Απομακρυσμένοι κεντρικοί υπολογιστές"
+
+#: $string['remoteuser']
+msgid "Remote {$a->remotetype} user"
+msgstr ""
+
+#: $string['remoteuserinfo']
+msgid "Profile fetched from <a href=\"{$a->remoteurl}\">{$a->remotename}</a>"
+msgstr ""
+
+#: $string['requiresopenssl']
+msgid "Networking requires the OpenSSL extension"
+msgstr "Η Δικτύωση απαιτεί την επέκταση OpenSSL"
+
+#: $string['restore']
+msgid "Restore"
+msgstr "Αποκατάσταση"
+
+#: $string['returnvalue']
+msgid "Return value"
+msgstr ""
+
+#: $string['reviewhostdetails']
+msgid "Review host details"
+msgstr "Επισκόπηση λεπτομερειών κεντρικού υπολογιστή"
+
+#: $string['reviewhostservices']
+msgid "Review host services"
+msgstr "Επισκόπηση υπηρεσιών κεντρικού υπολογιστή"
+
+#: $string['RPC_HTTP_PLAINTEXT']
+msgid "HTTP unencrypted"
+msgstr "HTTP χωρίς κρυπτογράφηση"
+
+#: $string['RPC_HTTP_SELF_SIGNED']
+msgid "HTTP (self-signed)"
+msgstr "HTTP (αυτό-υπογεγραμμένο)"
+
+#: $string['RPC_HTTPS_SELF_SIGNED']
+msgid "HTTPS (self-signed)"
+msgstr "HTTPS (αυτό-υπογεγραμμένο)"
+
+#: $string['RPC_HTTPS_VERIFIED']
+msgid "HTTPS (signed)"
+msgstr "HTTPS (υπογεγραμμένο)"
+
+#: $string['RPC_HTTP_VERIFIED']
+msgid "HTTP (signed)"
+msgstr "HTTP (υπογεγραμμένο)"
+
+#: $string['selectaccesslevel']
+msgid "Please select an access level from the list."
+msgstr "Παρακαλούμε επιλέξτε ένα επίπεδο πρόσβασης από τη λίστα."
+
+#: $string['selectahost']
+msgid "Please select a remote host."
+msgstr "Παρακαλούμε επιλέξτε έναν απομακρυσμένο κεντρικό υπολογιστή Moodle."
+
+#: $string['service']
+msgid "Service name"
+msgstr ""
+
+#: $string['serviceid']
+msgid "Service ID"
+msgstr ""
+
+#: $string['servicesavailableonhost']
+msgid "Services available on {$a}"
+msgstr ""
+
+#: $string['serviceswepublish']
+msgid "Services we publish to {$a}."
+msgstr "Υπηρεσίες που δημοσιεύουμε στο {$a}."
+
+#: $string['serviceswesubscribeto']
+msgid "Services on {$a} that we subscribe to."
+msgstr "Υπηρεσίες στο {$a} στις οποίες έχουμε συνδρομή."
+
+#: $string['settings']
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: $string['showlocal']
+msgid "Show local users"
+msgstr "Εμφάνιση τοπικών χρηστών"
+
+#: $string['showremote']
+msgid "Show remote users"
+msgstr "Εμφάνιση απομακρυσμένων χρηστών"
+
+#: $string['ssl_acl_allow']
+msgid "SSO ACL: Allow user '{$a->user}' from '{$a->host}'"
+msgstr "SSO ACL: επέτρεψε τον χρήστη {$a}[0] από {$a}[1]"
+
+#: $string['ssl_acl_deny']
+msgid "SSO ACL: Deny user '{$a->user}' from '{$a->host}'"
+msgstr "SSO ACL: άρνηση του χρήστη {$a}[0] από {$a}[1]"
+
+#: $string['sslverification']
+msgid "SSL verification"
+msgstr ""
+
+#: $string['sslverification_help']
+msgid ""
+"This option allows you to configure the level of security when connecting to "
+"a peer using HTTPS.\n"
+"\n"
+"* None: no level of security\n"
+"* Verify host only: validates the domain of the SSL certificate\n"
+"* Verify host and peer (recommended): validates the domain and issuer of the "
+"SSL certificate"
+msgstr ""
+
+#: $string['ssoaccesscontrol']
+msgid "SSO access control"
+msgstr "Έλεγχος Πρόσβασης SSO"
+
+#: $string['ssoacldescr']
+msgid ""
+"Use this page to grant/deny access to specific users from remote MNet hosts. "
+"This is functional when you are offering SSO services to remote users. To "
+"control your <em>local</em> users' ability to roam to other MNet hosts, use "
+"the roles system to grant them the <em>mnetlogintoremote</em> capability."
+msgstr ""
+"Χρησιμοποιήστε αυτή τη σελίδα για να παραχωρείτε/απαγορεύετε την πρόσβαση σε "
+"συγκεκριμένους χρήστες από απομακρυσμένους κεντρικούς υπολογιστές Δίκτυου "
+"Moodle. Αυτό είναι λειτουργικό όταν προσφέρετε υπηρεσίες SSO σε "
+"απομακρυσμένους χρήστες. Για να ελέγξετε την ικανότητα των <em>τοπικών</em> "
+"σας χρηστών να περιηγούνται σε άλλους κεντρικούς υπολογιστές Δικτύου Moodle, "
+"χρησιμοποιήστε το σύστημα ρόλων για να τους παραχωρήσετε την ικανότητα "
+"<em>mnetlogintoremote</em>."
+
+#: $string['ssoaclneeds']
+msgid ""
+"For this functionality to work, you must have Networking on, plus the MNet "
+"authentication plugin enabled."
+msgstr ""
+"Για να δουλέψει αυτή η λειτουργία, πρέπει να έχετε ανοιχτή τη Δικτύωση "
+"Moodle, καθώς και ενεργοποιημένη την υπομονάδα λογισμικού πιστοποίησης "
+"Δίκτυου Moodle Network με ενεργή την αυτόματη προσθήκη χρηστών."
+
+#: $string['strict']
+msgid "Strict"
+msgstr "Αυστηρά"
+
+#: $string['subscribe']
+msgid "Subscribe"
+msgstr "Εγγραφή"
+
+#: $string['system']
+msgid "System"
+msgstr "Σύστημα"
+
+#: $string['testclient']
+msgid "MNet test client"
+msgstr ""
+
+#: $string['testtrustedhosts']
+msgid "Test an address"
+msgstr "Δοκιμή μιας διεύθυνσης"
+
+#: $string['testtrustedhostsexplain']
+msgid "Enter an IP address to see if it is a trusted host."
+msgstr ""
+"Εισάγεται μια διεύθυνση IP για να δείτε εάν είναι ένας έμπιστος κεντρικός "
+"υπολογιστής."
+
+#: $string['theypublish']
+msgid "They publish"
+msgstr ""
+
+#: $string['theysubscribe']
+msgid "They subscribe"
+msgstr ""
+
+#: $string['transport_help']
+msgid ""
+"These options are reciprocal, so you can only force a remote host to use a "
+"signed SSL cert if your server also has a signed SSL cert."
+msgstr ""
+"Αυτές οι επιλογές είναι αμοιβαίες, οπότε μπορείτε μόνο να υποχρεώσετε έναν "
+"απομακρυσμένο κεντρικό υπολογιστή να χρησιμοποιεί ένα υπογεγραμμένο "
+"πιστοποιητικό SSL εάν ό εξυπηρετητής σας επίσης έχει ένα υπογεγραμμένο "
+"πιστοποιητικό SSL."
+
+#: $string['trustedhosts']
+msgid "XML-RPC hosts"
+msgstr "Κεντρικοί υπολογιστές XML-RPC"
+
+#: $string['trustedhostsexplain']
+msgid ""
+"<p>The trusted hosts mechanism allows specific machines to execute calls via "
+"XML-RPC to any part of the Moodle API. This is available for scripts to "
+"control Moodle behaviour and can be a very dangerous option to enable. If in "
+"doubt, keep it off.</p>\n"
+"<p><strong>This is not needed for any standard MNet feature!</strong> Turn "
+"it on only if you know what you are doing.</p>\n"
+"<p>To enable it, enter a list of IP addresses or networks,\n"
+"one on each line. Some examples:</p>\n"
+"Your local host:<br />127.0.0.1<br />Your local host (with a network "
+"block):<br />127.0.0.1/32<br />Only the host with IP address 192.168.0.7:<br "
+"/>192.168.0.7/32<br />Any host with an IP address between 192.168.0.1 and "
+"192.168.0.255:<br />192.168.0.0/24<br />Any host whatsoever:<br "
+"/>192.168.0.0/0<br />Obviously the last example is <strong>not</strong> a "
+"recommended configuration."
+msgstr ""
+"<p>Ο μηχανισμός των έμπιστων κεντρικών υπολογιστών επιτρέπει σε "
+"συγκεκριμένους υπολογιστές να\n"
+"                                           εκτελούν κλήσεις μέσω XML-RPC σε "
+"οποιοδήποτε τμήμα του Moodle API. Αυτό\n"
+"                                           είναι διαθέσιμο σε σενάρια για να "
+"ελέγχουν την συμπεριφορά του Moodle και μπορεί να είναι\n"
+"                                           μια πολύ επικίνδυνη επιλογη αν το "
+"ενεργοποιήσετε. Εάν έχετε αμφιβολίες, αφήστε το απενεργοποιημένο.</p>\n"
+"                                           <p>Αυτό <strong>δεν</strong> "
+"είναι απαραίτητο για τη Δικτύωση Moodle.</p>\n"
+"                                           <p>Για να το ενεργοποιήσετε, "
+"εισάγετε μια λίστα από διευθύνσεις IP ή δίκτυα,\n"
+"                                           ένα σε κάθε γραμμή.\n"
+"                                           Κάποια παραδείγματα:</p>Ο τοπικός "
+"σας κεντρικός υπολογιστής:<br />127.0.0.1<br />Ο τοπικός σας κεντρικός "
+"υπολογιστής (με ένα μπλοκ δικτύου):<br />127.0.0.1/32<br />Μόνο ο κεντρικός "
+"υπολογιστής με διεύθυνση IP 192.168.0.7:<br />192.168.0.7/32<br "
+"/>Οποιοσδήποτε κεντρικός υπολογιστής με διεύθυνση IP μεταξύ 192.168.0.1 και "
+"192.168.0.255:<br />192.168.0.0/24<br />Οποιοσδήποτε κεντρικός "
+"υπολογιστής:<br />192.168.0.0/0<br />Προφανώς το τελευταίο παράδειγμα "
+"<strong>δεν</strong> είναι μια προτεινόμενη διαμόρφωση."
+
+#: $string['turnitoff']
+msgid "Turn it off"
+msgstr ""
+
+#: $string['turniton']
+msgid "Turn it on"
+msgstr ""
+
+#: $string['type']
+msgid "Type"
+msgstr ""
+
+#: $string['unknown']
+msgid "Unknown"
+msgstr ""
+
+#: $string['unknownerror']
+msgid "Unknown error occurred during negotiation."
+msgstr "Συνέβη ένα άγνωστο σφάλμα κάτα την διαπραγμάτευση."
+
+#: $string['usercannotchangepassword']
+msgid "You cannot change your password here since you are a remote user."
+msgstr ""
+"Δεν μπορείτε να αλλάξετε το συνθηματικό σας εδώ καθώς είστε ένας "
+"απομακρυσμένος χρήστης."
+
+#: $string['userchangepasswordlink']
+msgid ""
+"<br /> You may be able to change your password at your <a "
+"href=\"{$a->wwwroot}/login/change_password.php\">{$a->description}</a> "
+"provider."
+msgstr ""
+"<br /> Μπορεί να έχετε την δυνατότητα να αλλάξετε το συνθηματικό σας στον "
+"δικό σας πάροχο <a "
+"href=\"{$a->wwwroot}/login/change_password.php\">{$a->description}</a>."
+
+#: $string['usernotfullysetup']
+msgid ""
+"Your user account is incomplete.  You need to go <a href=\"{$a}\">back to your "
+"provider</a> and ensure your profile is completed there.  You may need to "
+"log out and in again for this to take effect."
+msgstr ""
+
+#: $string['usersareonline']
+msgid ""
+"Warning: {$a} users from that server are currently logged on to your site."
+msgstr ""
+"Προειδοποίηση: {$a} χρήστες από αυτόν τον εξυπηρετητή είναι προς το παρόν "
+"συνδεδεμένοι στον ιστοχώρο σας."
+
+#: $string['validated_by']
+msgid "It is validated by the network: <code>{$a}</code>"
+msgstr "Είναι επικυρωμένο από το δίκτυο: &nbsp;<code>{$a}</code>"
+
+#: $string['verifyhostandpeer']
+msgid "Verify host and peer"
+msgstr ""
+
+#: $string['verifyhostonly']
+msgid "Verify host only"
+msgstr ""
+
+#: $string['verifysignature-error']
+msgid "The signature verification failed. An error has occurred."
+msgstr "Η επιβεβαίωση της υπογραφής απέτυχε. Συνέβη ένα σφάλμα."
+
+#: $string['verifysignature-invalid']
+msgid ""
+"The signature verification failed. It appears that this payload was not "
+"signed by you."
+msgstr ""
+"Η επιβεβαίωση της υπογραφής απέτυχε. Φαίνεται οτι αυτά τα δεδομένα δεν ήταν "
+"υπογεγραμμένα από εσάς."
+
+#: $string['version']
+msgid "Version"
+msgstr "έκδοση"
+
+#: $string['warning']
+msgid "Warning"
+msgstr "Προειδοποίηση"
+
+#: $string['wrong-ip']
+msgid "Your IP address does not match the address we have on record."
+msgstr ""
+"Η δική σας διεύθυνση IP δεν είναι ίδια με την διεύθυνση που έχουμε "
+"καταγεγραμμένη για εσάς."
+
+#: $string['xmlrpc-missing']
+msgid ""
+"You must have XML-RPC installed in your PHP build to be able to use this "
+"feature."
+msgstr ""
+"Πρέπει να έχετε εγκατεστημένο το XML-RPC στην PHP για να μπορέσετε να "
+"χρησιμοποιήσετε αυτό το χαρακτηριστικό."
+
+#: $string['yourhost']
+msgid "Your host"
+msgstr "Ο κεντρικός υπολογιστής σας"
+
+#: $string['yourpeers']
+msgid "Your peers"
+msgstr "Οι ομοτιμοί σας"

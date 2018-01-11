@@ -1,0 +1,239 @@
+#. extracted from lang/en/block_spam_deletion.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_spam_deletion', language 'en', branch 'MOODLE_27_STABLE'
+#.  *
+#.  * @package   block_spam_deletion
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['accountsuspended']
+msgid ""
+"Your account has been suspended, as our spam prevention system has flagged "
+"it as possibly belonging to a spammer. If this is a mistake, email "
+"helen@moodle.org, copying and pasting your attempted post into the email."
+msgstr ""
+
+#: $string['accountsuspendedtitle']
+msgid "Account suspended"
+msgstr ""
+
+#: $string['akismetaccountage']
+msgid "Akismet user account age"
+msgstr ""
+
+#: $string['akismetaccountagedesc']
+msgid ""
+"Skip akismet spam detection on posts from user accounts older than this "
+"value."
+msgstr ""
+
+#: $string['akismetkey']
+msgid "Akismet API key"
+msgstr ""
+
+#: $string['akismetreports']
+msgid "Akismet reports: {$a}"
+msgstr ""
+
+#: $string['alreadyreported']
+msgid "You've already reported this content as spam."
+msgstr ""
+
+#: $string['badwords']
+msgid "diet,viagra,football,soccer,live,match"
+msgstr ""
+
+#: $string['badwordslist']
+msgid "Custom spam words list"
+msgstr ""
+
+#: $string['badwordslistdesc']
+msgid "A comma separated list of words to use to identify spam."
+msgstr ""
+
+#: $string['blockedspamdescription']
+msgid "Account suspended {$a} after being blocked from posting."
+msgstr ""
+
+#: $string['cannotdelete']
+msgid "Cannot delete content for this suspended account."
+msgstr ""
+
+#: $string['confirmdelete']
+msgctxt "$string['confirmdelete']"
+msgid "Delete spammer"
+msgstr ""
+
+#: $string['confirmdeletemsg']
+msgid ""
+"Are you sure, you want to mark <strong>{$a->firstname} {$a->lastname} "
+"({$a->username})</strong> as spammer? Data belonging to this user will be "
+"blanked out or removed."
+msgstr ""
+
+#: $string['confirmspamreportmsg']
+msgid "Are you sure you wish to report this content as spam?"
+msgstr ""
+
+#: $string['countcomment']
+msgid "Comments: {$a}"
+msgstr ""
+
+#: $string['countforum']
+msgid "Forum posts: {$a}"
+msgstr ""
+
+#: $string['countmessageread']
+msgid "Read messages: {$a}"
+msgstr ""
+
+#: $string['countmessageunread']
+msgid "Unread messages: {$a}"
+msgstr ""
+
+#: $string['counttags']
+msgid "Unique tags: {$a}"
+msgstr ""
+
+#: $string['deleteandreporttoakismet']
+msgid "Delete user and save content for akismet report"
+msgstr ""
+
+#: $string['deletebutton']
+msgctxt "$string['deletebutton']"
+msgid "Delete spammer"
+msgstr ""
+
+#: $string['eventspammerdeleted']
+msgid "Spammer deleted"
+msgstr ""
+
+#: $string['invalidcharspercentage']
+msgid "Percentage invalid characters allowed"
+msgstr ""
+
+#: $string['invalidcharspercentagedesc']
+msgid ""
+"If a post contains above percentage invalid characters (e.g. Korean "
+"characters in spanish course) it will be blocked."
+msgstr ""
+
+#: $string['messageblocked']
+msgid ""
+"Your forum post has been blocked, as our spam prevention system has flagged "
+"it as possibly containing spam. If this is not the case, please email "
+"helen@moodle.org, copying and pasting your post into the email."
+msgstr ""
+
+#: $string['messageblockedtitle']
+msgid "Potential spam detected!"
+msgstr ""
+
+#: $string['messageprovider:spamreport']
+msgid "Spam report"
+msgstr ""
+
+#: $string['notrecentlyaccessed']
+msgid ""
+"Beware! The first access date of this account is more than 1 month ago. Make "
+"double sure it is really a spammer."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Spam deletion"
+msgstr ""
+
+#: $string['postthrottlecount']
+msgid "Post limit"
+msgstr ""
+
+#: $string['postthrottlecountdesc']
+msgid ""
+"Number of posts which new users are allowed to create in configured duration "
+"before they are blocked."
+msgstr ""
+
+#: $string['postthrottleduration']
+msgid "Post limit duration"
+msgstr ""
+
+#: $string['postthrottledurationdesc']
+msgid "Duration which to look for posts when blocking."
+msgstr ""
+
+#: $string['reportasspam']
+msgid "Report as spam"
+msgstr ""
+
+#: $string['reportcontentasspam']
+msgid "Report content as spam"
+msgstr ""
+
+#: $string['spam_deletion:addinstance']
+msgid "Add delete spammer block"
+msgstr ""
+
+#: $string['spam_deletion:spamdelete']
+msgid "Delete Spam"
+msgstr ""
+
+#: $string['spam_deletion:viewspamreport']
+msgid "View spam reports"
+msgstr ""
+
+#: $string['spamdescription']
+msgid "Spammer - spam deleted and account blocked {$a}"
+msgstr ""
+
+#: $string['spamreportmessage']
+msgid ""
+"{$a->spammer} may be a spammer.\n"
+"View spam reports at {$a->url}"
+msgstr ""
+
+#: $string['spamreportmessagetitle']
+msgid "{$a->spammer} may be a spammer."
+msgstr ""
+
+#: $string['spamreports']
+msgid "Spam reports: {$a}"
+msgstr ""
+
+#: $string['thanksspamrecorded']
+msgid "Thanks, your spam report has been recorded."
+msgstr ""
+
+#: $string['totalcount']
+msgid "Total records"
+msgstr ""
+
+#: $string['unknowncomponent']
+msgid "Unsupported comment component: {$a}"
+msgstr ""

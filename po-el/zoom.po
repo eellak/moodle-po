@@ -1,0 +1,496 @@
+#. extracted from lang/en/zoom.php, lang/el/zoom.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'zoom', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   zoom
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['actions']
+msgid "Actions"
+msgstr "Ενέργειες"
+
+#: $string['allmeetings']
+msgid "All meetings"
+msgstr "Όλες οι συσκέψεις"
+
+#: $string['apikey']
+msgid "Zoom API key"
+msgstr "Κλειδί Zoom API"
+
+#: $string['apikey_desc']
+msgctxt "$string['apikey_desc']"
+msgid ""
+msgstr ""
+
+#: $string['apisecret']
+msgid "Zoom API secret"
+msgstr "Μυστικό Zoom API"
+
+#: $string['apisecret_desc']
+msgctxt "$string['apisecret_desc']"
+msgid ""
+msgstr ""
+
+#: $string['apiurl']
+msgid "Zoom API url"
+msgstr "Διεύθυνση URL Zoom API"
+
+#: $string['apiurl_desc']
+msgctxt "$string['apiurl_desc']"
+msgid ""
+msgstr ""
+
+#: $string['audio_both']
+msgid "Both"
+msgstr "Και τα δυο"
+
+#: $string['audio_telephony']
+msgid "Telephony only"
+msgstr "Μόνο τηλεφωνικά"
+
+#: $string['audio_voip']
+msgid "Voip only"
+msgstr "Μόνο Voip"
+
+#: $string['cachedef_sessions']
+msgid "Information from the zoom get user report request"
+msgstr "Οι πληροφορίες από το zoom λαμβάνουν αίτημα αναφοράς χρήστη"
+
+#: $string['cachedef_zoomid']
+msgid "The zoom user id of the user"
+msgstr "Το αναγνωριστικό χρήστη zoom του χρήστη"
+
+#: $string['connectionok']
+msgid "Connection working."
+msgstr "Η σύνδεση λειτουργεί."
+
+#: $string['connectionstatus']
+msgid "Connection status"
+msgstr "Κατάσταση σύνδεσης"
+
+#: $string['duration']
+msgid "Duration"
+msgstr "Διάρκεια"
+
+#: $string['endtime']
+msgid "End Time"
+msgstr "Ώρα λήξης"
+
+#: $string['err_duration_nonpositive']
+msgid "The duration must be positive."
+msgstr "Η διάρκεια θα πρέπει να είναι θετικός αριθμός."
+
+#: $string['err_duration_too_long']
+msgid "The duration cannot exceed 150 hours."
+msgstr "Η διάρκεια δεν μπορεί να υπερβαίνει τις 150 ώρες."
+
+#: $string['err_long_timeframe']
+msgid ""
+"Requested time frame too long, showing results of latest month in range."
+msgstr ""
+"Ζητήθηκε πολύ μεγάλο χρονικό διάστημα, εμφάνιση  αποτελεσμάτων τελευταίου "
+"μήνα του εύρους."
+
+#: $string['errorwebservice']
+msgid "Zoom webservice error: {$a}."
+msgstr "Σφάλμα υπηρεσίας διαδικτύου Zoom: {$a}."
+
+#: $string['err_password']
+msgid ""
+"Password may only contain the following characters: [a-z A-Z 0-9 @ - _ *]. "
+"Max of 10 characters."
+msgstr ""
+"Ο κωδικός πρόσβασης μπορεί να περιέχει μόνο τους ακόλουθους χαρακτήρες: [a-z "
+"A-Z 0-9 @ - _ *]. Μέγιστο 10 χαρακτήρες."
+
+#: $string['err_start_time_past']
+msgid "The start date cannot be in the past."
+msgstr "Η ημερομηνία έναρξης δεν μπορεί να είναι προγενέστερη."
+
+#: $string['export']
+msgid "Export"
+msgstr "Εξαγωγή"
+
+#: $string['firstjoin']
+msgid "First able to join"
+msgstr "Δυνατότητα συμμετοχής πριν την έναρξη"
+
+#: $string['firstjoin_desc']
+msgid ""
+"The earliest a user can join a scheduled meeting (minutes before start)."
+msgstr ""
+"Το νωρίτερο που μπορεί να μπει ένας χρήστης σε μια προγραμματισμένη "
+"συνάντηση (λεπτά πριν από την έναρξη)."
+
+#: $string['invalid_status']
+msgid "Status invalid, check the database."
+msgstr "Η κατάσταση δεν είναι έγκυρη, ελέγξτε τη βάση δεδομένων."
+
+#: $string['join']
+msgid "Join"
+msgstr "Συμμετοχή"
+
+#: $string['joinbeforehost']
+msgid "Join meeting before host"
+msgstr "Συμμετοχή στη σύσκεψη πριν από τον παρουσιαστή"
+
+#: $string['join_link']
+msgid "Join link"
+msgstr ""
+
+#: $string['join_meeting']
+msgid "Join Meeting"
+msgstr "Συμμετοχή στη Σύσκεψη"
+
+#: $string['jointime']
+msgid "Join Time"
+msgstr "Ώρα Εισόδου"
+
+#: $string['leavetime']
+msgid "Leave Time"
+msgstr "Ώρα Αποχώρησης"
+
+#: $string['login_api']
+msgid "API"
+msgstr "API"
+
+#: $string['login_facebook']
+msgid "Facebook"
+msgstr "Facebook"
+
+#: $string['login_google']
+msgid "Google"
+msgstr "Google"
+
+#: $string['login_sso']
+msgid "Single sign-on"
+msgstr "Single sign-on"
+
+#: $string['logintypes']
+msgid "Login types"
+msgstr "Τύποι σύνδεσης"
+
+#: $string['logintypesexplain']
+msgid ""
+"Select all login types for user email lookup. Hold CTRL key to select "
+"multiple fields. (Options are listed in the order that lookup will be "
+"attempted)"
+msgstr ""
+"Επιλέξτε όλους τους τύπους σύνδεσης για αναζήτηση διεύθυνσης ηλεκτρονικού "
+"ταχυδρομείου χρήστη. Κρατήστε πατημένο το πλήκτρο CTRL για να επιλέξετε "
+"πολλαπλά πεδία. (Οι επιλογές εμφανίζονται με τη σειρά που θα γίνει η "
+"αναζήτηση)"
+
+#: $string['login_zoom']
+msgid "Zoom"
+msgstr "Zoom"
+
+#: $string['meeting_expired']
+msgid "Expired / Deleted"
+msgstr "Έληξε / Διαγράφηκε"
+
+#: $string['meeting_finished']
+msgid "Finished"
+msgstr "Ολοκληρώθηκε"
+
+#: $string['meeting_not_started']
+msgid "Not started"
+msgstr "Δεν έχει ξεκινήσει"
+
+#: $string['meetingoptions']
+msgid "Meeting option"
+msgstr "Επιλογή σύσκεψης"
+
+#: $string['meetingoptions_help']
+msgid ""
+"*Join before host* allows attendees to join the meeting before the host "
+"joins or when the host cannot attend the meeting."
+msgstr ""
+"Η *συμμετοχή πριν από τον παρουσιαστή* επιτρέπει στους συμμετέχοντες να "
+"μπουν στη σύσκεψη προτού μπει ο παρουσιαστής ή όταν ο παρουσιαστής δεν "
+"μπορεί να συμμετάσχει στη σύσκεψη."
+
+#: $string['meeting_started']
+msgid "In progress"
+msgstr "Σε εξέλιξη"
+
+#: $string['meeting_time']
+msgctxt "$string['meeting_time']"
+msgid "Start Time"
+msgstr "Ώρα Έναρξης"
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Zoom meeting"
+msgstr "Σύσκεψη Zoom"
+
+#: $string['modulename_help']
+msgid ""
+"Zoom is a video and web conferencing platform that gives authorized users "
+"the ability to host online meetings."
+msgstr ""
+"Το Zoom είναι μια πλατφόρμα βίντεο και διαδικτυακών συσκέψεων που παρέχει "
+"στους εξουσιοδοτημένους χρήστες τη δυνατότητα να φιλοξενούν online "
+"συναντήσεις."
+
+#: $string['modulenameplural']
+msgid "Zoom Meetings"
+msgstr "Συσκέψεις Zoom"
+
+#: $string['newmeetings']
+msgid "New Meetings"
+msgstr "Νέες Συσκέψεις"
+
+#: $string['noparticipants']
+msgid "No participants found for this session at this time."
+msgstr "Δεν βρέθηκαν συμμετέχοντες για αυτήν τη συνεδρία."
+
+#: $string['nosessions']
+msgid "No sessions found for specified range."
+msgstr "Δεν βρέθηκαν συνεδρίες για το συγκεκριμένο εύρος."
+
+#: $string['nozooms']
+msgid "No meetings"
+msgstr "Δεν υπάρχουν συσκέψεις"
+
+#: $string['off']
+msgid "Off"
+msgstr "Ανενεργό"
+
+#: $string['oldmeetings']
+msgid "Concluded Meetings"
+msgstr "Ολοκληρωμένες Συσκέψεις"
+
+#: $string['on']
+msgid "On"
+msgstr "Ενεργό"
+
+#: $string['option_audio']
+msgid "Audio options"
+msgstr "Επιλογές ήχου"
+
+#: $string['option_host_video']
+msgid "Host video"
+msgstr "Βίντεο παρουσιαστή"
+
+#: $string['option_jbh']
+msgid "Enable join before host"
+msgstr "Δυνατότητα συμμετοχής πριν από τον παρουσιαστή"
+
+#: $string['option_participants_video']
+msgid "Participants video"
+msgstr "Βίντεο συμμετεχόντων"
+
+#: $string['participants']
+msgid "Participants"
+msgstr "Συμμετέχοντες"
+
+#: $string['password']
+msgid "Password"
+msgstr "Κωδικός πρόσβασης"
+
+#: $string['passwordprotected']
+msgid "Password Protected"
+msgstr "Προστασία Κωδικού Πρόσβασης"
+
+#: $string['pluginadministration']
+msgid "Manage Zoom meeting"
+msgstr "Διαχείριση σύσκεψης Zoom"
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Zoom meeting"
+msgstr "Σύσκεψη Zoom"
+
+#: $string['recurringmeeting']
+msgid "Recurring"
+msgstr "Επαναλαμβανόμενη"
+
+#: $string['recurringmeeting_help']
+msgid "Has no end date"
+msgstr "Δεν έχει ημερομηνία λήξης"
+
+#: $string['recurringmeetinglong']
+msgid "Recurring meeting (meeting with no end date or time)"
+msgstr "Επαναλαμβανόμενη σύσκεψη (σύσκεψη χωρίς ημερομηνία ή ώρα λήξης)"
+
+#: $string['report']
+msgid "Reports"
+msgstr "Αναφορές"
+
+#: $string['requirepassword']
+msgid "Require meeting password"
+msgstr "Απαιτείται κωδικός πρόσβασης σύσκεψης"
+
+#: $string['sessions']
+msgid "Sessions"
+msgstr "Συνεδρίες"
+
+#: $string['start']
+msgid "Start"
+msgstr "Έναρξη"
+
+#: $string['starthostjoins']
+msgid "Start video when host joins"
+msgstr "Έναρξη βίντεο όταν εισέλθει ο παρουσιαστής"
+
+#: $string['start_meeting']
+msgid "Start Meeting"
+msgstr "Έναρξη Σύσκεψης"
+
+#: $string['startpartjoins']
+msgid "Start video when participant joins"
+msgstr "Έναρξη βίντεο όταν εισέλθουν οι συμμετέχοντες"
+
+#: $string['starttime']
+msgctxt "$string['starttime']"
+msgid "Start Time"
+msgstr "Ώρα Έναρξης"
+
+#: $string['start_time']
+msgid "When"
+msgstr "'Οταν"
+
+#: $string['status']
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: $string['title']
+msgid "Title"
+msgstr "Τίτλος"
+
+#: $string['topic']
+msgid "Topic"
+msgstr "Θέμα"
+
+#: $string['unavailable']
+msgid "Unable to join at this time"
+msgstr "Δεν είναι δυνατή η συμμετοχή αυτή τη στιγμή"
+
+#: $string['updatemeetings']
+msgid "Update meeting settings from Zoom"
+msgstr "Ενημέρωση ρυθμίσεων σύσκεψης από το Zoom"
+
+#: $string['usepersonalmeeting']
+msgid "Use personal meeting ID {$a}"
+msgstr "Χρήση προσωπικού αναγνωριστικού σύσκεψης {$a}"
+
+#: $string['webinar']
+msgid "Webinar"
+msgstr "Διαδικτυακό σεμινάριο"
+
+#: $string['webinar_help']
+msgid "This option is only available to pre-authorized Zoom accounts."
+msgstr ""
+"Αυτή η επιλογή είναι διαθέσιμη μόνο στους προ-εξουσιοδοτημένους λογαριασμούς "
+"Zoom ."
+
+#: $string['zoom:addinstance']
+msgid "Add a new Zoom meeting"
+msgstr "Προσθήκη νέας σύσκεψης Zoom"
+
+#: $string['zoomerr']
+msgid "An error occured with Zoom."
+msgstr "Προέκυψε σφάλμα με το Zoom"
+
+#: $string['zoomerr_apisettings_invalid']
+msgid ""
+"The Zoom API key and/or secret are invalid. Please ensure they are correct."
+msgstr ""
+"Το κλειδί Zoom API και / ή το μυστικό δεν είναι έγκυρα. Επιβεβαιώστε ότι "
+"είναι σωστά."
+
+#: $string['zoomerr_apisettings_missing']
+msgid "Please configure the Zoom API key and secret."
+msgstr "Παρακαλούμε διαμορφώστε το κλειδί Zoom API και το μυστικό."
+
+#: $string['zoomerr_apiurl_404']
+msgid "The Zoom API url could not be found; please check the setting."
+msgstr ""
+"Δεν είναι δυνατή η εύρεση της διεύθυνσης URL του Zoom API. Παρακαλούμε "
+"ελέγξτε τη ρύθμιση."
+
+#: $string['zoomerr_apiurl_error']
+msgid ""
+"The Zoom API could not be contacted; please check your server error log."
+msgstr ""
+"Δεν ήταν δυνατή η επικοινωνία με το Zoom API. Παρακαλούμε ελέγξτε το αρχείο "
+"καταγραφής σφαλμάτων του διακομιστή."
+
+#: $string['zoomerr_apiurl_unresolved']
+msgid "The Zoom API url could not be resolved; please check the setting."
+msgstr ""
+"Δεν ήταν δυνατή η επικοινωνία με το Zoom API. Παρακαλούμε ελέγξτε το αρχείο "
+"καταγραφής σφαλμάτων του διακομιστή."
+
+#: $string['zoomerr_meetingnotfound']
+msgid ""
+"This meeting has expired. You can <a href=\"{$a->recreate}\">recreate it "
+"here</a> or <a href=\"{$a->delete}\">delete it completely</a>."
+msgstr ""
+"Αυτή η σύσκεψη έχει λήξει. Μπορείτε να την <a "
+"href=\"{$a->recreate}\">ξαναδημιουργήσετε εδώ</a> ή να την <a "
+"href=\"{$a->delete}\">διαγράψετε πλήρως</a>."
+
+#: $string['zoomerr_meetingnotfound_info']
+msgid ""
+"This meeting has expired. Please contact the meeting host if you have "
+"questions."
+msgstr ""
+"Αυτή η σύσκεψη έχει λήξει. Παρακαλούμε επικοινωνήστε με τον παρουσιαστή της "
+"σύσκεψης αν έχετε ερωτήσεις, επικοινωνήστε με τον οικοδεσπότη της "
+"συνάντησης."
+
+#: $string['zoomerr_usernotfound']
+msgid ""
+"You are using Zoom for the first time, so you must enable your Zoom account "
+"by logging in to <a href=\"{$a}\" target=\"_blank\">{$a}</a> with your login "
+"credentials. Once you've activated your Zoom account, reload this page and "
+"continue setting up your meeting."
+msgstr ""
+"Χρησιμοποιείτε το Zoom για πρώτη φορά, οπότε πρέπει να ενεργοποιήσετε το "
+"λογαριασμό σας στο Zoom, συνδεόμενοι στο <a href=\"{$a}\" "
+"target=\"_blank\">{$a}</a> με τα στοιχεία σύνδεσης σας. Μόλις ενεργοποιήσετε "
+"το λογαριασμό σας στο Zoom, ξαναφορτώστε αυτή της σελίδα και συνεχίστε με τη "
+"ρύθμιση της σύσκεψής σας."
+
+#: $string['zoomurl']
+msgid "Zoom home page URL"
+msgstr "Διεύθυνση URL αρχικής σελίδας Zoom"
+
+#: $string['zoomurl_desc']
+msgctxt "$string['zoomurl_desc']"
+msgid ""
+msgstr ""
+
+#: $string['zoom:view']
+msgid "View Zoom meetings"
+msgstr "Προβολή συσκέψεων Zoom"

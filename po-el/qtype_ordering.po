@@ -1,0 +1,294 @@
+#. extracted from lang/en/qtype_ordering.php, lang/el/qtype_ordering.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qtype_ordering', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   qtype_ordering
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['absoluteposition']
+msgid "Absolute position"
+msgstr "Ακριβής θέση"
+
+#: $string['addingordering']
+msgid "Adding a Ordering question"
+msgstr "Προσθήκη μίας ερώτησης ordering"
+
+#: $string['addmoreanswers']
+msgid "Add {$a} more items"
+msgstr "Προσθήκη {$a} περισσοτέρων αντικειμένων"
+
+#: $string['allornothing']
+msgid "All or nothing"
+msgstr "Όλα ή τίποτα"
+
+#: $string['answer']
+msgid "Item text"
+msgstr "Κείμενο απάντησης"
+
+#: $string['answerheader']
+msgid "Draggable item {no}"
+msgstr "Αριθμός συρόμενου αντικειμένου"
+
+#: $string['correctorder']
+msgid "The correct order for these items is as follows:"
+msgstr "Η σωστή σειρά των αντικειμένων είναι η ακόλουθη:"
+
+#: $string['defaultanswerformat']
+msgid "Default answer format"
+msgstr "Προεπιλεγμένη μορφή απάντησης"
+
+#: $string['defaultquestionname']
+msgid "Drag the following items into the correct order."
+msgstr "Σύρετε τα ακόλουθα αντικείμενα στη σωστή σειρά."
+
+#: $string['editingordering']
+msgid "Editing ordering question"
+msgstr "Επεξεργασίας ερώτησης ordering"
+
+#: $string['gradedetails']
+msgid "Grade details"
+msgstr "Λεπτομέρειες βαθμού"
+
+#: $string['gradingtype']
+msgid "Grading type"
+msgstr "Τύπος βαθμολόγησης"
+
+#: $string['gradingtype_help']
+msgid ""
+"Choose the type of grading calculation.\n"
+"\n"
+"**All or nothing**\n"
+": If all items are in the correct position, then full marks are awarded. "
+"Otherwise, the score is zero.\n"
+"\n"
+"**Absolute position**\n"
+": An item is considered correct if it is in the same position as in the "
+"correct answer. The highest possible score for the question is **the same "
+"as** the number of items displayed to the student.\n"
+"\n"
+"**Relative to correct position**\n"
+": An item is considered correct if it is in the same position as in the "
+"correct answer. Correct items receive a score equal to the number of items "
+"displayed minus one. Incorrect items receive a score equal to the number of "
+"items displayed minus one and minus the distance of the item from its "
+"correct position. Thus, if ***n*** items are displayed to the student, the "
+"number of marks available for each item is ***(n - 1)***, and the highest "
+"mark available for the question is ***n x (n - 1)***, which is the same as "
+"***(n² - n)***.\n"
+"\n"
+"**Relative to the next item (excluding last)**\n"
+": An item is considered correct if it is followed by the same item as it is "
+"in the correct answer. The item in the last position is not checked. Thus, "
+"the highest possible score for the question is **one less than** the number "
+"of items displayed to the student.\n"
+"\n"
+"**Relative to the next item (including last)**\n"
+": An item is considered correct if it is followed by the same item as it is "
+"in the correct answer. This includes the last item which must have no item "
+"following it. Thus, the highest possible score for the question is **the "
+"same as** the number of items displayed to the student.\n"
+"\n"
+"**Relative to both the previous and next items**\n"
+": An item is considered correct if both the previous and next items are the "
+"same as they are in the correct answer. The first item should have no "
+"previous item, and the last item should have no next item. Thus, there are "
+"two possible points for each item, and the highest possible score for the "
+"question is **twice** the number of items displayed to the student.\n"
+"\n"
+"**Relative to ALL previous and next items**\n"
+": An item is considered correct if it is preceded by all the same items as "
+"it is in the correct answer, and it is followed by all the same items as it "
+"is in the correct answer. The order of the previous items does not matter, "
+"and nor does the order of the following items. Thus, if ***n*** items are "
+"displayed to the student, the number of marks available for each item is "
+"***(n - 1)***, and the highest mark available for the question is ***n x (n "
+"- 1)***, which is the same as ***(n² - n)***.\n"
+"\n"
+"**Longest ordered subset**\n"
+": The grade is the number of items in the longest ordered subset of items. "
+"The highest possible grade is the same as the number of items displayed. A "
+"subset must have at least two items. Subsets do not need to start at the "
+"first item (but they can) and they do not need to be contiguous (but they "
+"can be). Where there are multiple subsets of equal length, items in the "
+"subset that is found first, when searching from left to right, will be "
+"displayed as correct. Other items will be marked as incorrect.\n"
+"\n"
+"**Longest contiguous subset**\n"
+": The grade is the number of items in the longest contiguous subset of "
+"items. The highest possible grade is the same as the number of items "
+"displayed. A subset must have at least two items. Subsets do not need to "
+"start at the first item (but they can) and they MUST BE CONTIGUOUS. Where "
+"there are multiple subsets of equal length, items in the subset that is "
+"found first, when searching from left to right, will be displayed as "
+"correct. Other items will be marked as incorrect."
+msgstr ""
+
+#: $string['horizontal']
+msgid "Horizontal"
+msgstr "Οριζόντια"
+
+#: $string['layouttype']
+msgid "Layout of items"
+msgstr "Διάταξη αντικειμένων"
+
+#: $string['layouttype_help']
+msgid "Choose whether to display the items vertically or horizontally."
+msgstr "Επιλογή οριζόντιας ή κάθετης εμφάνισης των αντικειμένων"
+
+#: $string['longestcontiguoussubset']
+msgid "Longest contiguous subset"
+msgstr "Μεγαλύτερο συνεχόμενο υποσύνολο"
+
+#: $string['longestorderedsubset']
+msgid "Longest ordered subset"
+msgstr "Μεγαλύτερο ταξινομημένο υποσύνολο"
+
+#: $string['noresponsedetails']
+msgid "Sorry, no details of the response to this question are available."
+msgstr ""
+"Λυπούμαστε, δεν υπάρχουν διαθέσιμες λεπτομέρειες για την απάντηση σε αυτή "
+"την ερώτηση."
+
+#: $string['noscore']
+msgid "No score"
+msgstr "Δεν υπάρχει βαθμός"
+
+#: $string['notenoughanswers']
+msgid "Ordering questions must have more than {$a} answers."
+msgstr "Οι ερωτήσεις ordering πρέπει να έχουν περισσότερες από {$a} απαντήσεις."
+
+#: $string['pluginname']
+msgid "Ordering"
+msgstr ""
+
+#: $string['pluginnameadding']
+msgid "Adding an Ordering question"
+msgstr "Προσθήκη μίας ερώτησης Ordering"
+
+#: $string['pluginnameediting']
+msgid "Editing an Ordering question"
+msgstr "Επεξεργασία μίας ερώτησης Ordering"
+
+#: $string['pluginname_help']
+msgid ""
+"Several items are displayed in a jumbled order. The items can be dragged "
+"into a meaningful order."
+msgstr ""
+"Αρκετά αντικείμενα εμφανίζονται με μπερδεμένη σειρά. Τα αντικείμενα μπορούν "
+"να συρθούν σε μία σειρά που βγάζει νόημα."
+
+#: $string['pluginname_link']
+msgid "question/type/ordering"
+msgstr ""
+
+#: $string['pluginnamesummary']
+msgid "Put jumbled items into a meaningful order."
+msgstr "Τοποθετήστε τα μπερδεμένα αντικείμενα σε μία σειρά που βγάζει νόημα."
+
+#: $string['relativeallpreviousandnext']
+msgid "Relative to ALL the previous and next items"
+msgstr "Σχετικό με ΟΛΑ τα προηγούμενα και επόμενα αντικείμενα"
+
+#: $string['relativenextexcludelast']
+msgid "Relative to the next item (excluding last)"
+msgstr "Σχετικό με το επόμενο αντικείμενο (εξαιρουμένου του τελευταίου)"
+
+#: $string['relativenextincludelast']
+msgid "Relative to the next item (including last)"
+msgstr "Σχετικό με το επόμενο αντικείμενο (συμπεριλαμβανομένου του τελευταίου)"
+
+#: $string['relativeonepreviousandnext']
+msgid "Relative to both the previous and next items"
+msgstr "Σχετικό με τα προηγούμενα και τα επόμενα αντικείμενα"
+
+#: $string['relativetocorrect']
+msgid "Relative to correct position"
+msgstr ""
+
+#: $string['removeeditor']
+msgid "Remove HTML editor"
+msgstr "Αφαίρεση του επεξεργαστή HTML"
+
+#: $string['removeitem']
+msgid "Remove draggable item"
+msgstr "Αφαίρεση συρόμενου αντικειμένου"
+
+#: $string['scoredetails']
+msgid "Here are the scores for each item in this response:"
+msgstr "Αυτοί είναι οι βαθμοί για κάθε αντικείμενο αυτής της απάντησης"
+
+#: $string['selectall']
+msgid "Select all items"
+msgstr "Επιλογή όλων"
+
+#: $string['selectcontiguous']
+msgid "Select a contiguous subset of items"
+msgstr "Επιλογή ενός συνεχόμενου υποσυνόλου αντικειμένων"
+
+#: $string['selectcount']
+msgid "Size of subset"
+msgstr "Μέγεθος υποσυνόλου"
+
+#: $string['selectcount_help']
+msgid ""
+"The number of items that will be displayed when the question is appears in a "
+"quiz."
+msgstr ""
+"Ο αριθμός των αντικειμένων που φαίνονται όταν εμφανίζεται η ερώτηση σε ένα "
+"κουίζ"
+
+#: $string['selectrandom']
+msgid "Select a random subset of items"
+msgstr "Επιλογή ενός τυχαίου υποσυνόλου αντικειμένων"
+
+#: $string['selecttype']
+msgid "Item selection type"
+msgstr "Τύπος επιλογής αντικειμένου"
+
+#: $string['selecttype_help']
+msgid "Choose whether to display all the items or a subset of the items."
+msgstr "Επιλογή εμφάνισης όλων των αντικειμένων ή ενός υποσυνόλου αυτών."
+
+#: $string['showgrading']
+msgid "Grading details"
+msgstr "Λεπτομέρειες βαθμολόγησης"
+
+#: $string['showgrading_help']
+msgid ""
+"Choose whether to show or hide details of the score calculation when a "
+"student reviews a response to this Ordering question."
+msgstr ""
+"Επιλογή εμφάνισης ή απόκρυψης των λεπτομερειών του υπολογισμού του βαθμού "
+"όταν ένας μαθητής ελέγχει μία απάντηση σε αυτή την ερώτηση Ordering."
+
+#: $string['vertical']
+msgid "Vertical"
+msgstr "Κάθετα"

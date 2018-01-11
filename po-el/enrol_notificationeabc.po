@@ -1,0 +1,213 @@
+#. extracted from lang/en/enrol_notificationeabc.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'enrol_notificationeabc', language 'en', branch 'MOODLE_31_STABLE'
+#.  *
+#.  * @package   enrol_notificationeabc
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['activar']
+msgid "Enable initial verification"
+msgstr ""
+
+#: $string['activarglobal']
+msgctxt "$string['activarglobal']"
+msgid "Active global"
+msgstr ""
+
+#: $string['activarglobalenrolupdated']
+msgctxt "$string['activarglobalenrolupdated']"
+msgid "Active global"
+msgstr ""
+
+#: $string['activarglobalenrolupdated_help']
+msgid "Active enrol updated notifications for all site"
+msgstr ""
+
+#: $string['activarglobal_help']
+msgid "Active enrol notification for all site"
+msgstr ""
+
+#: $string['activarglobalunenrolalert']
+msgctxt "$string['activarglobalunenrolalert']"
+msgid "Active global"
+msgstr ""
+
+#: $string['activarglobalunenrolalert_help']
+msgid "Active enrol notifications for all site"
+msgstr ""
+
+#: $string['activar_help']
+msgid ""
+"When activated will be verified by the immediate execution of cron later, "
+"users who were enrolled for the period specified above"
+msgstr ""
+
+#: $string['activeenrolalert']
+msgctxt "$string['activeenrolalert']"
+msgid "Active enrol alert"
+msgstr ""
+
+#: $string['activeenrolalert_help']
+msgctxt "$string['activeenrolalert_help']"
+msgid "Active enrol alert"
+msgstr ""
+
+#: $string['activeenrolupdatedalert']
+msgctxt "$string['activeenrolupdatedalert']"
+msgid "Active update enrol notifications"
+msgstr ""
+
+#: $string['activeenrolupdatedalert_help']
+msgctxt "$string['activeenrolupdatedalert_help']"
+msgid "Active update enrol notifications"
+msgstr ""
+
+#: $string['activeunenrolalert']
+msgid "Active unenrol notifications"
+msgstr ""
+
+#: $string['activeunenrolalert_help']
+msgid "Active unenrol alert"
+msgstr ""
+
+#: $string['emailsender']
+msgid "Email sender"
+msgstr ""
+
+#: $string['emailsender_help']
+msgid "By default set to take the email user support"
+msgstr ""
+
+#: $string['fecha']
+msgid "Period for verification of users enrolled courses"
+msgstr ""
+
+#: $string['fecha_help']
+msgid "Place the period for which you want to perform the first virificación"
+msgstr ""
+
+#: $string['filelockedmail']
+msgid "You has been enroled in {$a->fullname} ({$a->url})"
+msgstr ""
+
+#: $string['location']
+msgid "Message"
+msgstr ""
+
+#: $string['location_help']
+msgid ""
+"Personalize the message that users will come to be enrolled. This field "
+"accepts the following markers which then will be replaced by the "
+"corresponding values dynamically\n"
+"<pre>\n"
+"{COURSENAME} = course fullname\n"
+"{USERNAME} = username\n"
+"{NOMBRE} = firstname\n"
+"{APELLIDO} = lastname\n"
+"{URL} = course url\n"
+"</pre>"
+msgstr ""
+
+#: $string['messageprovider:notificationeabc_enrolment']
+msgid "Enrol notification messages"
+msgstr ""
+
+#: $string['namesender']
+msgid "Name sender"
+msgstr ""
+
+#: $string['namesender_help']
+msgid "By default it takes the name set to the user support"
+msgstr ""
+
+#: $string['notificationeabc:manage']
+msgid "Manage notificationeabc"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Enrol Notification"
+msgstr ""
+
+#: $string['pluginname_desc']
+msgid "Enrol notifications via mail"
+msgstr ""
+
+#: $string['status']
+msgid "Active enrol notification"
+msgstr ""
+
+#: $string['subject']
+msgid "Notificación de Matriculación"
+msgstr ""
+
+#: $string['unenrolmessage']
+msgid "Custom Message"
+msgstr ""
+
+#: $string['unenrolmessagedefault']
+msgid "You has been unenrolled from {$a->fullname} ({$a->url})"
+msgstr ""
+
+#: $string['unenrolmessage_help']
+msgid ""
+"Personalize the message that users will come to be unenrolled. This field "
+"accepts the following markers which then will be replaced by the "
+"corresponding values dynamically\n"
+"<pre>\n"
+"{COURSENAME} = course fullname\n"
+"{USERNAME} = username\n"
+"{NOMBRE} = firstname\n"
+"{APELLIDO} = lastname\n"
+"{URL} = course url\n"
+"</pre>"
+msgstr ""
+
+#: $string['updatedenrolmessage']
+msgid "Mensaje personalizado"
+msgstr ""
+
+#: $string['updatedenrolmessagedefault']
+msgid "Your enrolment from {$a->fullname} has been updated ({$a->url})"
+msgstr ""
+
+#: $string['updatedenrolmessage_help']
+msgid ""
+"Personalize the message that users will come to be updated. This field "
+"accepts the following markers which then will be replaced by the "
+"corresponding values dynamically\n"
+"<pre>\n"
+"{COURSENAME} = course fullname\n"
+"{USERNAME} = username\n"
+"{NOMBRE} = firstname\n"
+"{APELLIDO} = lastname\n"
+"{URL} = course url\n"
+"</pre>"
+msgstr ""

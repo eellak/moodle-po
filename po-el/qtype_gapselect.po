@@ -1,0 +1,133 @@
+#. extracted from lang/en/qtype_gapselect.php, lang/el/qtype_gapselect.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:14+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qtype_gapselect', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   qtype_gapselect
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addmorechoiceblanks']
+msgid "Blanks for {no} more choices"
+msgstr ""
+
+#: $string['answer']
+msgid "Answer"
+msgstr ""
+
+#: $string['choices']
+msgid "Choices"
+msgstr ""
+
+#: $string['choicex']
+msgid "Choice {no}"
+msgstr ""
+
+#: $string['combinedcontrolnamegapselect']
+msgid "drop down box"
+msgstr ""
+
+#: $string['combinedcontrolnamegapselectplural']
+msgid "drop down boxes"
+msgstr ""
+
+#: $string['correctansweris']
+msgid "The correct answer is: {$a}"
+msgstr "Η σωστή απάντηση είναι: {$a}"
+
+#: $string['errorblankchoice']
+msgid "Please check the choices: Choice {$a} is empty."
+msgstr ""
+
+#: $string['errormissingchoice']
+msgid ""
+"Please check the question text: {$a} was not found in the choices! Only "
+"numbers with choice answers specified are allowed to be used as place "
+"holders."
+msgstr ""
+
+#: $string['errornoslots']
+msgid ""
+"The question text must contain placeholders like [[1]] to show where the "
+"missing words go."
+msgstr ""
+
+#: $string['errorquestiontextblank']
+msgid "You must enter some question text."
+msgstr ""
+
+#: $string['group']
+msgid "Group"
+msgstr ""
+
+#: $string['pleaseputananswerineachbox']
+msgid "Please put an answer in each box."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Select missing words"
+msgstr ""
+
+#: $string['pluginnameadding']
+msgid "Adding a select missing words question"
+msgstr ""
+
+#: $string['pluginnameediting']
+msgid "Editing a select missing words question"
+msgstr ""
+
+#: $string['pluginname_help']
+msgid ""
+"Select missing words questions require the respondent to select correct "
+"answers from dropdown menus. [[1]], [[2]], [[3]], ... are used as "
+"placeholders in the question text, with the correct answers specified as "
+"choice answers 1, 2, 3, ... respectively. Extra choice answers may be added "
+"to make the question harder. Choice answers may be grouped to restrict "
+"answers available in each dropdown menu."
+msgstr ""
+
+#: $string['pluginname_link']
+msgid "question/type/gapselect"
+msgstr ""
+
+#: $string['pluginnamesummary']
+msgid "Missing words in the question text are filled in using dropdown menus."
+msgstr ""
+
+#: $string['shuffle']
+msgid "Shuffle"
+msgstr ""
+
+#: $string['tagsnotallowed']
+msgid "{$a->tag} is not allowed. (Only {$a->allowed} are permitted.)"
+msgstr ""
+
+#: $string['tagsnotallowedatall']
+msgid "{$a->tag} is not allowed. (No HTML is allowed here.)"
+msgstr ""

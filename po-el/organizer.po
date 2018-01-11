@@ -1,0 +1,3200 @@
+#. extracted from lang/en/organizer.php, lang/el/organizer.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:14+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'organizer', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   organizer
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['absolutedeadline']
+msgid "Registration end"
+msgstr ""
+
+#: $string['absolutedeadline_help']
+msgid ""
+"Check this to define the time after which no further student actions are "
+"possible."
+msgstr ""
+
+#: $string['actionlink_delete']
+msgid "delete"
+msgstr ""
+
+#: $string['actionlink_edit']
+msgid "edit"
+msgstr "επεξεργασία"
+
+#: $string['actionlink_eval']
+msgid "grade"
+msgstr ""
+
+#: $string['actionlink_print']
+msgid "print"
+msgstr ""
+
+#: $string['addappointment']
+msgid "Add appointment"
+msgstr ""
+
+#: $string['addslots_placesinfo']
+msgid ""
+"This action will create {$a->numplaces} new possible places, making a total "
+"of {$a->totalplaces} possible places for {$a->numstudents} students."
+msgstr ""
+
+#: $string['addslots_placesinfo_group']
+msgid ""
+"This action will create {$a->numplaces} new possible places, making a total "
+"of {$a->totalplaces} possible places for {$a->numgroups} groups."
+msgstr ""
+
+#: $string['allowsubmissionsanddescriptionfromdatesummary']
+msgid ""
+"The organizer details and registration form will be available from "
+"<strong>{$a}</strong>"
+msgstr ""
+
+#: $string['allowsubmissionsfromdate']
+msgid "Registration start"
+msgstr ""
+
+#: $string['allowsubmissionsfromdate_help']
+msgid ""
+"Check this if you want to make this organizer available to students after a "
+"certain point in time."
+msgstr ""
+
+#: $string['allowsubmissionsfromdatesummary']
+msgid "This organizer will accept registrations from <strong>{$a}</strong>"
+msgstr ""
+
+#: $string['alwaysshowdescription']
+msgid "Always show description"
+msgstr ""
+
+#: $string['alwaysshowdescription_help']
+msgid ""
+"If disabled, the Assignment Description above will only become visible to "
+"students at the \"Registration start\" date."
+msgstr ""
+
+#: $string['applicant']
+msgid "This is the person that registered the group"
+msgstr ""
+
+#: $string['appointmentcomments']
+msgctxt "$string['appointmentcomments']"
+msgid "Comments"
+msgstr "Σχόλια"
+
+#: $string['appointmentcomments_help']
+msgid "Additional information about the appointments can be added here."
+msgstr ""
+
+#: $string['appointmentdatetime']
+msgctxt "$string['appointmentdatetime']"
+msgid "Date & time"
+msgstr ""
+
+#: $string['appointment_reminder_student:fullmessage']
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, you have an "
+"appointment with {$a->sendername} on {$a->date} at {$a->time} in "
+"{$a->location}.\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['appointment_reminder_student:group:fullmessage']
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, you have a "
+"group appointment with {$a->sendername} on {$a->date} at {$a->time} in "
+"{$a->location}.\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['appointment_reminder_student:group:smallmessage']
+msgid ""
+"You have a group appointment with {$a->sendername} on {$a->date} at "
+"{$a->time} in {$a->location}."
+msgstr ""
+
+#: $string['appointment_reminder_student:group:subject']
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Group "
+"appointment reminder"
+msgstr ""
+
+#: $string['appointment_reminder_student:smallmessage']
+msgid ""
+"You have an appointment with {$a->sendername} on {$a->date} at {$a->time} in "
+"{$a->location}."
+msgstr ""
+
+#: $string['appointment_reminder_student:subject']
+msgctxt "$string['appointment_reminder_student:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Appointment "
+"reminder"
+msgstr ""
+
+#: $string['appointment_reminder_teacher:digest:fullmessage']
+msgctxt "$string['appointment_reminder_teacher:digest:fullmessage']"
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"Tomorrow you have the following appointments:\n"
+"\n"
+"{$a->digest}\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['appointment_reminder_teacher:digest:smallmessage']
+msgctxt "$string['appointment_reminder_teacher:digest:smallmessage']"
+msgid "You have received a digest message of your appointments tomorrow."
+msgstr ""
+
+#: $string['appointment_reminder_teacher:digest:subject']
+msgctxt "$string['appointment_reminder_teacher:digest:subject']"
+msgid "Appointment digest"
+msgstr ""
+
+#: $string['appointment_reminder_teacher:fullmessage']
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, you have an "
+"appointment with students on {$a->date} at {$a->time} in {$a->location}.\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['appointment_reminder_teacher:group:digest:fullmessage']
+msgctxt "$string['appointment_reminder_teacher:group:digest:fullmessage']"
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"Tomorrow you have the following appointments:\n"
+"\n"
+"{$a->digest}\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['appointment_reminder_teacher:group:digest:smallmessage']
+msgctxt "$string['appointment_reminder_teacher:group:digest:smallmessage']"
+msgid "You have received a digest message of your appointments tomorrow."
+msgstr ""
+
+#: $string['appointment_reminder_teacher:group:digest:subject']
+msgctxt "$string['appointment_reminder_teacher:group:digest:subject']"
+msgid "Appointment digest"
+msgstr ""
+
+#: $string['appointment_reminder_teacher:smallmessage']
+msgid ""
+"You have an appointment with students on {$a->date} at {$a->time} in "
+"{$a->location}."
+msgstr ""
+
+#: $string['appointment_reminder_teacher:subject']
+msgctxt "$string['appointment_reminder_teacher:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Appointment "
+"reminder"
+msgstr ""
+
+#: $string['assign']
+msgid "Assign"
+msgstr ""
+
+#: $string['assign_notify_student:fullmessage']
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, an appointment "
+"with {$a->slot_teacher} on {$a->date} at {$a->time} has been assigned to you "
+"by {$a->sendername}.\n"
+"\n"
+"Teacher: {$a->slot_teacher}\n"
+"Location: {$a->slot_location}\n"
+"Date: {$a->date} at {$a->time}\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['assign_notify_student:group:fullmessage']
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, an appointment "
+"with {$a->slot_teacher} on {$a->date} at {$a->time} has been assigned to "
+"your group {$a->groupname} by {$a->sendername}.\n"
+"\n"
+"Teacher: {$a->slot_teacher}\n"
+"Location: {$a->slot_location}\n"
+"Date: {$a->date} at {$a->time}\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['assign_notify_student:group:smallmessage']
+msgid ""
+"An appointment with {$a->slot_teacher} on {$a->date} at {$a->time} has been "
+"assigned to your group {$a->groupname} by {$a->sendername}."
+msgstr ""
+
+#: $string['assign_notify_student:group:subject']
+msgctxt "$string['assign_notify_student:group:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Appointment "
+"assigned by teacher"
+msgstr ""
+
+#: $string['assign_notify_student:smallmessage']
+msgid ""
+"An appointment with {$a->slot_teacher} on {$a->date} at {$a->time} has been "
+"assigned to you by {$a->sendername}."
+msgstr ""
+
+#: $string['assign_notify_student:subject']
+msgctxt "$string['assign_notify_student:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Appointment "
+"assigned by teacher"
+msgstr ""
+
+#: $string['assign_notify_teacher:fullmessage']
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, an appointment "
+"with {$a->participantname} on {$a->date} at {$a->time} has been assigned to "
+"you by {$a->sendername}.\n"
+"\n"
+"Participant: {$a->participantname}\n"
+"Location: {$a->slot_location}\n"
+"Date: {$a->date} at {$a->time}\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['assign_notify_teacher:group:fullmessage']
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, an appointment "
+"with group {$a->groupname} on {$a->date} at {$a->time} has been assigned to "
+"you by {$a->sendername}.\n"
+"\n"
+"Group: {$a->groupname}\n"
+"Location: {$a->slot_location}\n"
+"Date: {$a->date} at {$a->time}\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['assign_notify_teacher:group:smallmessage']
+msgid ""
+"An appointment with group {$a->groupname} on {$a->date} at {$a->time} has "
+"been assigned to you by {$a->sendername}."
+msgstr ""
+
+#: $string['assign_notify_teacher:group:subject']
+msgctxt "$string['assign_notify_teacher:group:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Appointment "
+"assigned"
+msgstr ""
+
+#: $string['assign_notify_teacher:smallmessage']
+msgid ""
+"An appointment with {$a->sendername} on {$a->date} at {$a->time} has been "
+"assigned by you by {$a->sendername}"
+msgstr ""
+
+#: $string['assign_notify_teacher:subject']
+msgctxt "$string['assign_notify_teacher:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Appointment "
+"assigned"
+msgstr ""
+
+#: $string['assignsuccess']
+msgid ""
+"The slot has been assigned successfully and the participant(s) has been "
+"notified."
+msgstr ""
+
+#: $string['assign_title']
+msgid "Assign appointment"
+msgstr ""
+
+#: $string['atlocation']
+msgid "at"
+msgstr ""
+
+#: $string['availability']
+msgid "Availability"
+msgstr ""
+
+#: $string['availablefrom']
+msgid "Applications possible from"
+msgstr ""
+
+#: $string['availablefrom_help']
+msgid ""
+"Set the timeframe within which students will be allowed to register for "
+"these timeslots. Alternatively, check \"Starting now\" to enable registration "
+"immediately."
+msgstr ""
+
+#: $string['availablegrouplist']
+msgid "Available groups"
+msgstr ""
+
+#: $string['availableslotsfor']
+msgid "Available slots for"
+msgstr ""
+
+#: $string['back']
+msgid "Back"
+msgstr "Επιστροφή"
+
+#: $string['btn_add']
+msgid "Add new slots"
+msgstr ""
+
+#: $string['btn_assign']
+msgid "Assign slot"
+msgstr ""
+
+#: $string['btn_comment']
+msgid "Edit comment"
+msgstr "Επεξεργασία σχολίου"
+
+#: $string['btn_delete']
+msgid "Remove selected slots"
+msgstr ""
+
+#: $string['btn_edit']
+msgid "Edit selected slots"
+msgstr ""
+
+#: $string['btn_eval']
+msgid "Grade selected slots"
+msgstr ""
+
+#: $string['btn_eval_short']
+msgctxt "$string['btn_eval_short']"
+msgid "Grade"
+msgstr ""
+
+#: $string['btn_print']
+msgid "Print selected slots"
+msgstr ""
+
+#: $string['btn_queue']
+msgid "Queue"
+msgstr ""
+
+#: $string['btn_reeval']
+msgid "Re-evaluate"
+msgstr ""
+
+#: $string['btn_register']
+msgid "Register"
+msgstr ""
+
+#: $string['btn_remind']
+msgid "Send reminder"
+msgstr ""
+
+#: $string['btn_reregister']
+msgid "Re-register"
+msgstr ""
+
+#: $string['btn_save']
+msgid "Save comment"
+msgstr "Αποθήκευση σχολίου"
+
+#: $string['btn_send']
+msgctxt "$string['btn_send']"
+msgid "Send"
+msgstr ""
+
+#: $string['btn_start']
+msgid "Start"
+msgstr ""
+
+#: $string['btn_unqueue']
+msgid "Remove from Queue"
+msgstr ""
+
+#: $string['btn_unregister']
+msgid "Unregister"
+msgstr ""
+
+#: $string['cannot_eval']
+msgid "Cannot evaluate, the student has a"
+msgstr ""
+
+#: $string['can_reregister']
+msgid "You can re-registed to another appointment."
+msgstr ""
+
+#: $string['changegradewarning']
+msgid ""
+"This organizer has graded appointments and changing the grade will not "
+"automatically re-calculate existing grades. You must re-grade all existing "
+"appointments, if you wish to change the grade."
+msgstr ""
+
+#: $string['collision']
+msgid "Warning! Collision detected with following event(s):"
+msgstr ""
+
+#: $string['configabsolutedeadline']
+msgid ""
+"The default offset of the date and time selector from the current date and "
+"time."
+msgstr ""
+
+#: $string['configahead']
+msgid "ahead"
+msgstr ""
+
+#: $string['configday']
+msgctxt "$string['configday']"
+msgid "day"
+msgstr ""
+
+#: $string['configdays']
+msgctxt "$string['configdays']"
+msgid "day"
+msgstr ""
+
+#: $string['configdigest']
+msgid "Send summary of the next day appointments to the teacher."
+msgstr ""
+
+#: $string['configdigest_label']
+msgid "Send appointment digest to teachers"
+msgstr ""
+
+#: $string['configdontsend']
+msgid "Don't send"
+msgstr ""
+
+#: $string['configemailteachers']
+msgid ""
+"Send E-mail notifications to teachers about registration status changes."
+msgstr ""
+
+#: $string['configemailteachers_label']
+msgid "Send E-mail notifications to teachers"
+msgstr ""
+
+#: $string['confighour']
+msgid "hour"
+msgstr ""
+
+#: $string['confighours']
+msgid "hours"
+msgstr ""
+
+#: $string['configintro']
+msgid ""
+"The values you set here define the default values that are used in the "
+"settings form when you create a new organizer."
+msgstr ""
+
+#: $string['configlocationlink']
+msgid ""
+"The link to a search engine used to show the way to the location. Place "
+"$searchstring in the URL where the query goes."
+msgstr ""
+
+#: $string['configmaximumgrade']
+msgid ""
+"Sets the default value selected in the grade field when creating a new "
+"organizer. This is the maximum grade assignable to a student for his "
+"appointment."
+msgstr ""
+
+#: $string['configminute']
+msgid "minute"
+msgstr ""
+
+#: $string['configminutes']
+msgid "minutes"
+msgstr ""
+
+#: $string['configmonth']
+msgid "month"
+msgstr ""
+
+#: $string['configmonths']
+msgid "months"
+msgstr ""
+
+#: $string['confignever']
+msgid "Never"
+msgstr ""
+
+#: $string['configrelativedeadline']
+msgid ""
+"The default time ahead of an appointment when the participants should be "
+"notified of it."
+msgstr ""
+
+#: $string['configrequiremodintro']
+msgid ""
+"Disable this option if you do not want to force users to enter description "
+"of each activity."
+msgstr ""
+
+#: $string['configweek']
+msgid "week"
+msgstr ""
+
+#: $string['configweeks']
+msgid "weeks"
+msgstr ""
+
+#: $string['configyear']
+msgid "year"
+msgstr ""
+
+#: $string['confirm_conflicts']
+msgid ""
+"Are you sure that you want to ignore the collisions and want to create the "
+"time slots?"
+msgstr ""
+
+#: $string['confirm_delete']
+msgid "Delete"
+msgstr ""
+
+#: $string['confirm_organizer_remind_all']
+msgctxt "$string['confirm_organizer_remind_all']"
+msgid "Send"
+msgstr ""
+
+#: $string['create']
+msgid "Create"
+msgstr ""
+
+#: $string['createsubmit']
+msgid "Create time slots"
+msgstr ""
+
+#: $string['crontaskname']
+msgid "Organizer cron job"
+msgstr ""
+
+#: $string['datapreviewtitle']
+msgid "Data Preview"
+msgstr ""
+
+#: $string['datapreviewtitle_help']
+msgid "Click on [+] or [-] for showing or hiding columns in the print-preview."
+msgstr ""
+
+#: $string['datetemplate']
+msgid "%d.%m.%Y"
+msgstr ""
+
+#: $string['day']
+msgctxt "$string['day']"
+msgid "day"
+msgstr ""
+
+#: $string['day_0']
+msgid "Monday"
+msgstr ""
+
+#: $string['day_1']
+msgid "Tuesday"
+msgstr ""
+
+#: $string['day_2']
+msgid "Wednesday"
+msgstr ""
+
+#: $string['day_3']
+msgid "Thursday"
+msgstr ""
+
+#: $string['day_4']
+msgid "Friday"
+msgstr ""
+
+#: $string['day_5']
+msgid "Saturday"
+msgstr ""
+
+#: $string['day_6']
+msgid "Sunday"
+msgstr ""
+
+#: $string['day_pl']
+msgid "days"
+msgstr ""
+
+#: $string['deleteheader']
+msgid "Deleting following slots:"
+msgstr ""
+
+#: $string['deletekeep']
+msgid ""
+"The following appointments will be cancelled. Registered students will be "
+"notified and the slots will be deleted:"
+msgstr ""
+
+#: $string['deletenoslots']
+msgid "No deletable slots selected"
+msgstr ""
+
+#: $string['deleteorganizergrades']
+msgid "Delete grades from gradebook"
+msgstr ""
+
+#: $string['delete_organizer_grades']
+msgid "Deleting grades of all organizers"
+msgstr ""
+
+#: $string['downloadfile']
+msgid "Download file"
+msgstr ""
+
+#: $string['duedate']
+msgid "Due date"
+msgstr ""
+
+#: $string['duedateerror']
+msgid "Absolute deadline cannot be set before the availability date!"
+msgstr ""
+
+#: $string['duration']
+msgctxt "$string['duration']"
+msgid "Duration"
+msgstr "Διάρκεια"
+
+#: $string['duration_help']
+msgid ""
+"Defines the duration of the appointments. All defined time frames will be "
+"divided into slots of the duration defined here. Any remaining time will "
+"remain unused (i.e. if the time frame is 40 min long and the duration is set "
+"to 15 min, there will be 2 slots in total with 10 unused minutes extra)."
+msgstr ""
+
+#: $string['edit_notify_student:fullmessage']
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, the details of "
+"the appointment with {$a->sendername} on {$a->date} at {$a->time} have been "
+"changed.\n"
+"\n"
+"Teacher: {$a->slot_teacher}\n"
+"Location: {$a->slot_location}\n"
+"Max. participants: {$a->slot_maxparticipants}\n"
+"Comments:\n"
+"{$a->slot_comments}\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['edit_notify_student:group:fullmessage']
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, the details of "
+"the group appointment with {$a->sendername} on {$a->date} at {$a->time} have "
+"been changed.\n"
+"\n"
+"Teacher: {$a->slot_teacher}\n"
+"Location: {$a->slot_location}\n"
+"Max. participants: {$a->slot_maxparticipants}\n"
+"Comments:\n"
+"{$a->slot_comments}\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['edit_notify_student:group:smallmessage']
+msgid ""
+"The details of the group appointment with {$a->sendername} on {$a->date} at "
+"{$a->time} have been changed."
+msgstr ""
+
+#: $string['edit_notify_student:group:subject']
+msgctxt "$string['edit_notify_student:group:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Appointment "
+"details changed"
+msgstr ""
+
+#: $string['edit_notify_student:smallmessage']
+msgid ""
+"The details of the appointment with {$a->sendername} on {$a->date} at "
+"{$a->time} have been changed."
+msgstr ""
+
+#: $string['edit_notify_student:subject']
+msgctxt "$string['edit_notify_student:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Appointment "
+"details changed"
+msgstr ""
+
+#: $string['edit_notify_teacher:fullmessage']
+msgctxt "$string['edit_notify_teacher:fullmessage']"
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, the details of "
+"the time slot on {$a->date} at {$a->time} have been changed by "
+"{$a->sendername}.\n"
+"\n"
+"Teacher: {$a->slot_teacher}\n"
+"Location: {$a->slot_location}\n"
+"Max. participants: {$a->slot_maxparticipants}\n"
+"Comments:\n"
+"{$a->slot_comments}\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['edit_notify_teacher:group:fullmessage']
+msgctxt "$string['edit_notify_teacher:group:fullmessage']"
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, the details of "
+"the time slot on {$a->date} at {$a->time} have been changed by "
+"{$a->sendername}.\n"
+"\n"
+"Teacher: {$a->slot_teacher}\n"
+"Location: {$a->slot_location}\n"
+"Max. participants: {$a->slot_maxparticipants}\n"
+"Comments:\n"
+"{$a->slot_comments}\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['edit_notify_teacher:group:smallmessage']
+msgctxt "$string['edit_notify_teacher:group:smallmessage']"
+msgid ""
+"The details of the time slot on {$a->date} at {$a->time} have been changed "
+"by {$a->sendername}."
+msgstr ""
+
+#: $string['edit_notify_teacher:group:subject']
+msgctxt "$string['edit_notify_teacher:group:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Appointment "
+"details changed"
+msgstr ""
+
+#: $string['edit_notify_teacher:smallmessage']
+msgctxt "$string['edit_notify_teacher:smallmessage']"
+msgid ""
+"The details of the time slot on {$a->date} at {$a->time} have been changed "
+"by {$a->sendername}."
+msgstr ""
+
+#: $string['edit_notify_teacher:subject']
+msgctxt "$string['edit_notify_teacher:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Appointment "
+"details changed"
+msgstr ""
+
+#: $string['edit_submit']
+msgid "Commit changes"
+msgstr ""
+
+#: $string['emailteachers']
+msgid "Send email notifications to teachers"
+msgstr ""
+
+#: $string['emailteachers_help']
+msgid ""
+"Notifications for teachers when a student first registrations for a timeslot\n"
+"    are normally supressed to avoid spamming. Check this to enable the "
+"organizer to send such e-mail notifications\n"
+"    to teachers. Note that the notifications for unregistering and changing "
+"slots are always sent."
+msgstr ""
+
+#: $string['err_availablefromearly']
+msgid "This date cannot be set later than the start date!"
+msgstr ""
+
+#: $string['err_availablefromlate']
+msgid "This date cannot be set later than the end date!"
+msgstr ""
+
+#: $string['err_availablepastdeadline']
+msgid ""
+"This slot cannot be made available past the scheduler's deadline "
+"({$a->deadline})!"
+msgstr ""
+
+#: $string['err_collision']
+msgid "This frame is in collision with other frames:"
+msgstr ""
+
+#: $string['err_comments']
+msgid "You must enter a description!"
+msgstr ""
+
+#: $string['err_enddate']
+msgid "End date cannot be set before the start date!"
+msgstr ""
+
+#: $string['err_fromto']
+msgid "End time cannot be set before the start time!"
+msgstr ""
+
+#: $string['err_fullminute']
+msgid "The duration has to be a full minute."
+msgstr ""
+
+#: $string['err_fullminutegap']
+msgid "The gap has to be a full minute."
+msgstr ""
+
+#: $string['err_isgrouporganizer_app']
+msgid ""
+"Cannot change group mode as there already exist scheduled appointments in "
+"this organizer!"
+msgstr ""
+
+#: $string['err_location']
+msgid "You must enter a location!"
+msgstr ""
+
+#: $string['err_noslots']
+msgid "No slots were selected!"
+msgstr ""
+
+#: $string['Error']
+msgid "Error"
+msgstr ""
+
+#: $string['err_posint']
+msgid "You must enter a positive integer!"
+msgstr ""
+
+#: $string['err_startdate']
+msgid "Start date cannot be set before today's date ({$a->now})!"
+msgstr ""
+
+#: $string['eval_allow_new_appointments']
+msgid "Allow reappointment"
+msgstr ""
+
+#: $string['eval_attended']
+msgctxt "$string['eval_attended']"
+msgid "Attended"
+msgstr ""
+
+#: $string['eval_feedback']
+msgctxt "$string['eval_feedback']"
+msgid "Feedback"
+msgstr ""
+
+#: $string['eval_grade']
+msgctxt "$string['eval_grade']"
+msgid "Grade"
+msgstr ""
+
+#: $string['eval_header']
+msgid "Selected time slots"
+msgstr ""
+
+#: $string['eval_link']
+msgid "new appointment"
+msgstr ""
+
+#: $string['eval_no_participants']
+msgid "This slot had no participants"
+msgstr ""
+
+#: $string['eval_notify_newappointment:student:fullmessage']
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, your "
+"appointment with {$a->sendername} on {$a->date} at {$a->time} in "
+"{$a->location} has been evaluated.\n"
+"\n"
+"Teachers of the course enable you to re-register to any available slot in "
+"the organizer {$a->organizername}.\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['eval_notify_newappointment:student:group:fullmessage']
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, your group "
+"appointment with {$a->sendername} on {$a->date} at {$a->time} in "
+"{$a->location} has been evaluated.\n"
+"\n"
+"Teachers of the course enable you to re-register to any available slot in "
+"the organizer {$a->coursefullname}.\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['eval_notify_newappointment:student:group:smallmessage']
+msgctxt "$string['eval_notify_newappointment:student:group:smallmessage']"
+msgid ""
+"Your group appointment on {$a->date} at {$a->time} in {$a->location} has "
+"been evaluated."
+msgstr ""
+
+#: $string['eval_notify_newappointment:student:group:subject']
+msgctxt "$string['eval_notify_newappointment:student:group:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Appointment "
+"evaluated"
+msgstr ""
+
+#: $string['eval_notify_newappointment:student:smallmessage']
+msgctxt "$string['eval_notify_newappointment:student:smallmessage']"
+msgid ""
+"Your appointment on {$a->date} at {$a->time} in {$a->location} has been "
+"evaluated."
+msgstr ""
+
+#: $string['eval_notify_newappointment:student:subject']
+msgctxt "$string['eval_notify_newappointment:student:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Appointment "
+"evaluated"
+msgstr ""
+
+#: $string['eval_notify_student:fullmessage']
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, your "
+"appointment with {$a->sendername} on {$a->date} at {$a->time} in "
+"{$a->location} has been evaluated.\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['eval_notify_student:group:fullmessage']
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, your group "
+"appointment with {$a->sendername} on {$a->date} at {$a->time} in "
+"{$a->location} has been evaluated.\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['eval_notify_student:group:smallmessage']
+msgctxt "$string['eval_notify_student:group:smallmessage']"
+msgid ""
+"Your group appointment on {$a->date} at {$a->time} in {$a->location} has "
+"been evaluated."
+msgstr ""
+
+#: $string['eval_notify_student:group:subject']
+msgctxt "$string['eval_notify_student:group:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Appointment "
+"evaluated"
+msgstr ""
+
+#: $string['eval_notify_student:smallmessage']
+msgctxt "$string['eval_notify_student:smallmessage']"
+msgid ""
+"Your appointment on {$a->date} at {$a->time} in {$a->location} has been "
+"evaluated."
+msgstr ""
+
+#: $string['eval_notify_student:subject']
+msgctxt "$string['eval_notify_student:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Appointment "
+"evaluated"
+msgstr ""
+
+#: $string['eval_not_occured']
+msgid "This slot has not occurred yet"
+msgstr ""
+
+#: $string['evaluate']
+msgid "Evaluate"
+msgstr ""
+
+#: $string['eventappointmentadded']
+msgid "Student registered to a slot."
+msgstr ""
+
+#: $string['eventappointmentassigned']
+msgid "Appointment has been assigned by teacher."
+msgstr ""
+
+#: $string['eventappointmentcommented']
+msgid "Appoinement has been commented."
+msgstr ""
+
+#: $string['eventappointmentevaluated']
+msgid "Appointment has been evaluated."
+msgstr ""
+
+#: $string['eventappointmentlistprinted']
+msgid "Appoinement list has been printed."
+msgstr ""
+
+#: $string['eventappointmentremindersent']
+msgid "Appointment reminder sent."
+msgstr ""
+
+#: $string['eventappointmentremoved']
+msgid "Student unregistered from a slot."
+msgstr ""
+
+#: $string['eventappwith:group']
+msgid "Group appointment"
+msgstr ""
+
+#: $string['eventappwith:single']
+msgid "Appointment"
+msgstr ""
+
+#: $string['eventnoparticipants']
+msgctxt "$string['eventnoparticipants']"
+msgid "No participants"
+msgstr ""
+
+#: $string['eventqueueadded']
+msgid "Added to waiting list"
+msgstr ""
+
+#: $string['eventqueueremoved']
+msgid "Removed from waiting list"
+msgstr ""
+
+#: $string['eventregistrationsviewed']
+msgid "Registrations tab viewed."
+msgstr ""
+
+#: $string['eventslotcreated']
+msgid "New slots created."
+msgstr ""
+
+#: $string['eventslotdeleted']
+msgid "Slot deleted."
+msgstr ""
+
+#: $string['eventslotupdated']
+msgid "Slot updated."
+msgstr ""
+
+#: $string['eventslotviewed']
+msgid "Slots viewed."
+msgstr ""
+
+#: $string['eventteacheranonymous']
+msgid "an anonymous teacher"
+msgstr ""
+
+#: $string['eventtemplate']
+msgid ""
+"{$a->courselink} / {$a->organizerlink}: {$a->appwith} {$a->with} "
+"{$a->participants}<br />Location: {$a->location}<br />"
+msgstr ""
+
+#: $string['eventtemplatecomment']
+msgid "Comment:<br />{$a}<br />"
+msgstr "Σχόλιο:<br />{$a}<br />"
+
+#: $string['eventtemplatewithoutlinks']
+msgid ""
+"{$a->coursename} / {$a->organizername}: {$a->appwith} {$a->with} "
+"{$a->participants}<br />Ort: {$a->location}<br />"
+msgstr ""
+
+#: $string['eventtitle']
+msgid "{$a->coursename} / {$a->organizername}: {$a->appwith}"
+msgstr ""
+
+#: $string['eventwith']
+msgctxt "$string['eventwith']"
+msgid "with"
+msgstr ""
+
+#: $string['eventwithout']
+msgctxt "$string['eventwithout']"
+msgid "with"
+msgstr ""
+
+#: $string['exportsettings']
+msgid "Export settings"
+msgstr "Ρυθμίσεις εξαγωγής"
+
+#: $string['finalgrade']
+msgid ""
+"This value has been set in the gradebook and can not be changed withe "
+"organizer."
+msgstr ""
+
+#: $string['font_large']
+msgid "large"
+msgstr ""
+
+#: $string['font_medium']
+msgid "medium"
+msgstr ""
+
+#: $string['font_small']
+msgid "small"
+msgstr ""
+
+#: $string['format']
+msgid "Format"
+msgstr ""
+
+#: $string['format_csv_comma']
+msgid "CSV (;)"
+msgstr ""
+
+#: $string['format_csv_tab']
+msgid "CSV (tab)"
+msgstr ""
+
+#: $string['format_ods']
+msgid "ODS"
+msgstr ""
+
+#: $string['format_pdf']
+msgid "PDF"
+msgstr ""
+
+#: $string['format_xls']
+msgid "XLS"
+msgstr ""
+
+#: $string['format_xlsx']
+msgid "XLSX"
+msgstr ""
+
+#: $string['fulldatelongtemplate']
+msgid "%A %d. %B %Y"
+msgstr ""
+
+#: $string['fulldatetemplate']
+msgid "%a %d.%m.%Y"
+msgstr ""
+
+#: $string['fulldatetimelongtemplate']
+msgid "%A %d. %B %Y %H:%M"
+msgstr ""
+
+#: $string['fulldatetimetemplate']
+msgid "%a %d.%m.%Y %H:%M"
+msgstr ""
+
+#: $string['fullname_template']
+msgid "{$a->firstname} {$a->lastname}"
+msgstr ""
+
+#: $string['gap']
+msgid "Gap"
+msgstr ""
+
+#: $string['gap_help']
+msgid "Defines the gap between two appointments."
+msgstr ""
+
+#: $string['grade']
+msgid "Maximum grade"
+msgstr ""
+
+#: $string['grade_help']
+msgid ""
+"Defines the highest amount of points that can be awarded for any appointment "
+"that can be graded."
+msgstr ""
+
+#: $string['groupoptions']
+msgid "Group settings"
+msgstr ""
+
+#: $string['grouporganizer_desc_hasgroup']
+msgid ""
+"This is a group organizer. Clicking the register button will register you "
+"and all members of your group {$a->groupname} to this slot. All group "
+"members may change and comment the registration."
+msgstr ""
+
+#: $string['grouporganizer_desc_nogroup']
+msgid ""
+"This is a group organizer. Students can register their groups to "
+"appointments. All group members may change and comment the registration."
+msgstr ""
+
+#: $string['grouppicker']
+msgid "Group picker"
+msgstr ""
+
+#: $string['group_registration_notify:student:queue:group:fullmessage']
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, "
+"{$a->sendername} has added your group {$a->groupname} to the waiting list of "
+"the time slot on {$a->date} at {$a->time} in {$a->location}.\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['group_registration_notify:student:queue:group:smallmessage']
+msgid ""
+"{$a->sendername} has added your group {$a->groupname} to the waiting list of "
+"the time slot on {$a->date} at {$a->time}."
+msgstr ""
+
+#: $string['group_registration_notify:student:queue:group:subject']
+msgctxt "$string['group_registration_notify:student:queue:group:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Group wait-"
+"listed"
+msgstr ""
+
+#: $string['group_registration_notify:student:register:fullmessage']
+msgctxt "$string['group_registration_notify:student:register:fullmessage']"
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, "
+"{$a->sendername} has registered your group {$a->groupname} to the time slot "
+"on {$a->date} at {$a->time} in {$a->location}.\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['group_registration_notify:student:register:group:fullmessage']
+msgctxt "$string['group_registration_notify:student:register:group:fullmessage']"
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, "
+"{$a->sendername} has registered your group {$a->groupname} to the time slot "
+"on {$a->date} at {$a->time} in {$a->location}.\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['group_registration_notify:student:register:group:smallmessage']
+msgctxt "$string['group_registration_notify:student:register:group:smallmessage']"
+msgid ""
+"{$a->sendername} has registered your group {$a->groupname} to the time slot "
+"on {$a->date} at {$a->time}."
+msgstr ""
+
+#: $string['group_registration_notify:student:register:group:subject']
+msgctxt "$string['group_registration_notify:student:register:group:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Group "
+"registered"
+msgstr ""
+
+#: $string['group_registration_notify:student:register:smallmessage']
+msgctxt "$string['group_registration_notify:student:register:smallmessage']"
+msgid ""
+"{$a->sendername} has registered your group {$a->groupname} to the time slot "
+"on {$a->date} at {$a->time}."
+msgstr ""
+
+#: $string['group_registration_notify:student:register:subject']
+msgctxt "$string['group_registration_notify:student:register:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Group "
+"registered"
+msgstr ""
+
+#: $string['group_registration_notify:student:reregister:fullmessage']
+msgctxt "$string['group_registration_notify:student:reregister:fullmessage']"
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, "
+"{$a->sendername} has re-registered your group {$a->groupname} to a new time "
+"slot on {$a->date} at {$a->time} in {$a->location}.\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['group_registration_notify:student:reregister:group:fullmessage']
+msgctxt "$string['group_registration_notify:student:reregister:group:fullmessage']"
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, "
+"{$a->sendername} has re-registered your group {$a->groupname} to a new time "
+"slot on {$a->date} at {$a->time} in {$a->location}.\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['group_registration_notify:student:reregister:group:smallmessage']
+msgctxt "$string['group_registration_notify:student:reregister:group:smallmessage']"
+msgid ""
+"{$a->sendername} has re-registered your group {$a->groupname} to a new time "
+"slot on {$a->date} at {$a->time}."
+msgstr ""
+
+#: $string['group_registration_notify:student:reregister:group:subject']
+msgctxt "$string['group_registration_notify:student:reregister:group:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Group re-"
+"registered"
+msgstr ""
+
+#: $string['group_registration_notify:student:reregister:smallmessage']
+msgctxt "$string['group_registration_notify:student:reregister:smallmessage']"
+msgid ""
+"{$a->sendername} has re-registered your group {$a->groupname} to a new time "
+"slot on {$a->date} at {$a->time}."
+msgstr ""
+
+#: $string['group_registration_notify:student:reregister:subject']
+msgctxt "$string['group_registration_notify:student:reregister:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Group re-"
+"registered"
+msgstr ""
+
+#: $string['group_registration_notify:student:unqueue:group:fullmessage']
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, "
+"{$a->sendername} has removed your group {$a->groupname} from the waiting "
+"list of the time slot on {$a->date} at {$a->time} in {$a->location}.\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['group_registration_notify:student:unqueue:group:smallmessage']
+msgid ""
+"{$a->sendername} has removed your group {$a->groupname} from the waiting "
+"list of the time slot on {$a->date} at {$a->time}."
+msgstr ""
+
+#: $string['group_registration_notify:student:unqueue:group:subject']
+msgctxt "$string['group_registration_notify:student:unqueue:group:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Group removed "
+"from waiting list"
+msgstr ""
+
+#: $string['group_registration_notify:student:unregister:fullmessage']
+msgctxt "$string['group_registration_notify:student:unregister:fullmessage']"
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, "
+"{$a->sendername} has unregistered your group {$a->groupname} from the time "
+"slot on {$a->date} at {$a->time} in {$a->location}.\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['group_registration_notify:student:unregister:group:fullmessage']
+msgctxt "$string['group_registration_notify:student:unregister:group:fullmessage']"
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, "
+"{$a->sendername} has unregistered your group {$a->groupname} from the time "
+"slot on {$a->date} at {$a->time} in {$a->location}.\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['group_registration_notify:student:unregister:group:smallmessage']
+msgctxt "$string['group_registration_notify:student:unregister:group:smallmessage']"
+msgid ""
+"{$a->sendername} has unregistered your group {$a->groupname} from the time "
+"slot on {$a->date} at {$a->time}."
+msgstr ""
+
+#: $string['group_registration_notify:student:unregister:group:subject']
+msgctxt "$string['group_registration_notify:student:unregister:group:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Group "
+"unregistered"
+msgstr ""
+
+#: $string['group_registration_notify:student:unregister:smallmessage']
+msgctxt "$string['group_registration_notify:student:unregister:smallmessage']"
+msgid ""
+"{$a->sendername} has unregistered your group {$a->groupname} from the time "
+"slot on {$a->date} at {$a->time}."
+msgstr ""
+
+#: $string['group_registration_notify:student:unregister:subject']
+msgctxt "$string['group_registration_notify:student:unregister:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Group "
+"unregistered"
+msgstr ""
+
+#: $string['group_slot_available']
+msgctxt "$string['group_slot_available']"
+msgid "Slot available"
+msgstr ""
+
+#: $string['group_slot_full']
+msgid "Slot taken"
+msgstr ""
+
+#: $string['groupwarning']
+msgid "Check the group options below!"
+msgstr ""
+
+#: $string['headerfooter']
+msgid "Print header/footer"
+msgstr ""
+
+#: $string['headerfooter_help']
+msgid "Print header/footer if checked"
+msgstr ""
+
+#: $string['hidecalendar']
+msgid "Hide calendar"
+msgstr ""
+
+#: $string['hidecalendar_help']
+msgid "Check to hide the calendar in this organizer"
+msgstr ""
+
+#: $string['hour']
+msgid "hr"
+msgstr ""
+
+#: $string['hour_pl']
+msgid "hrs"
+msgstr ""
+
+#: $string['id']
+msgid "ID"
+msgstr ""
+
+#: $string['img_title_due']
+msgid "The slot is due"
+msgstr ""
+
+#: $string['img_title_evaluated']
+msgid "The slot is evaluated"
+msgstr ""
+
+#: $string['img_title_no_participants']
+msgid "The slot had no participants"
+msgstr ""
+
+#: $string['img_title_past_deadline']
+msgid "The slot is past its deadline"
+msgstr ""
+
+#: $string['img_title_pending']
+msgid "The slot is pending evaluation"
+msgstr ""
+
+#: $string['Info']
+msgid "Info"
+msgstr ""
+
+#: $string['infobox_app_countdown']
+msgid ""
+"Time left to the appointment: {$a->days} days, {$a->hours} hours, "
+"{$a->minutes} minutes, {$a->seconds} seconds"
+msgstr ""
+
+#: $string['infobox_app_occured']
+msgid "The appointment has already occurred."
+msgstr ""
+
+#: $string['infobox_deadline_countdown']
+msgid ""
+"Time left to deadline: {$a->days} days, {$a->hours} hours, {$a->minutes} "
+"minutes, {$a->seconds} seconds"
+msgstr ""
+
+#: $string['infobox_deadline_passed']
+msgid "Registration deadline passed. You can no longer change registrations."
+msgstr ""
+
+#: $string['infobox_deadlines_title']
+msgid "Deadlines"
+msgstr ""
+
+#: $string['infobox_description_title']
+msgid "Organizer description"
+msgstr ""
+
+#: $string['infobox_feedback_title']
+msgctxt "$string['infobox_feedback_title']"
+msgid "Feedback"
+msgstr ""
+
+#: $string['infobox_group']
+msgid "My group: {$a->groupname}"
+msgstr ""
+
+#: $string['infobox_hidelegend']
+msgid "Hide legend"
+msgstr ""
+
+#: $string['infobox_legend_title']
+msgid "Legend"
+msgstr ""
+
+#: $string['infobox_link']
+msgid "Show/Hide"
+msgstr ""
+
+#: $string['infobox_messages_title']
+msgid "System messages"
+msgstr "Μηνύματα συστήματος"
+
+#: $string['infobox_messaging_title']
+msgid "Messaging options"
+msgstr ""
+
+#: $string['infobox_mycomments_title']
+msgid "My comments"
+msgstr "Τα σχόλια μου"
+
+#: $string['infobox_myslot_noslot']
+msgid "You are not registered to any slot at the time."
+msgstr ""
+
+#: $string['infobox_myslot_title']
+msgid "My slot"
+msgstr ""
+
+#: $string['infobox_organizer_expired']
+msgid "This organizer expired on {$a->date} at {$a->time}"
+msgstr ""
+
+#: $string['infobox_organizer_expires']
+msgid "This organizer will expire on {$a->date} at {$a->time}."
+msgstr ""
+
+#: $string['infobox_organizer_never_expires']
+msgid "This organizer doesn't expire."
+msgstr ""
+
+#: $string['infobox_showfreeslots']
+msgid "Show free slots only"
+msgstr ""
+
+#: $string['infobox_showhiddenslots']
+msgid "Show hidden slots"
+msgstr ""
+
+#: $string['infobox_showlegend']
+msgid "Show legend"
+msgstr ""
+
+#: $string['infobox_showmyslotsonly']
+msgid "Show my slots only"
+msgstr ""
+
+#: $string['infobox_showslots']
+msgid "Show past time slots"
+msgstr ""
+
+#: $string['infobox_slotoverview_title']
+msgid "Slot overview"
+msgstr ""
+
+#: $string['infobox_title']
+msgid "Infobox"
+msgstr ""
+
+#: $string['introeditor_error']
+msgid "Organizer description must be given!"
+msgstr ""
+
+#: $string['invalidgrouping']
+msgid "You must select a valid grouping!"
+msgstr ""
+
+#: $string['inwaitingqueue']
+msgid "Waitinglist"
+msgstr ""
+
+#: $string['isgrouporganizer']
+msgid "Group appointments"
+msgstr ""
+
+#: $string['isgrouporganizer_help']
+msgid ""
+"Check this if you want this organizer to deal with groups instead of "
+"individual users. Note that, if left unchecked, the organizer still allows "
+"more users to attend the same appointment."
+msgstr ""
+
+#: $string['legend_anonymous']
+msgid "Anonymous slot"
+msgstr ""
+
+#: $string['legend_comments']
+msgid "Student/Teacher comments"
+msgstr "Σχόλια Μαθητή / Διδάσκοντα"
+
+#: $string['legend_due']
+msgid "Slot due"
+msgstr ""
+
+#: $string['legend_evaluated']
+msgid "Slot evaluated"
+msgstr ""
+
+#: $string['legend_feedback']
+msgctxt "$string['legend_feedback']"
+msgid "Teacher feedback"
+msgstr ""
+
+#: $string['legend_group_applicant']
+msgid "Applicant of the group"
+msgstr ""
+
+#: $string['legend_halfanonymous']
+msgid "Only participants of own slot visible"
+msgstr ""
+
+#: $string['legend_no_participants']
+msgid "Slot had no participants"
+msgstr ""
+
+#: $string['legend_not_occured']
+msgid "Appointment has not occured yet"
+msgstr ""
+
+#: $string['legend_organizer_expired']
+msgctxt "$string['legend_organizer_expired']"
+msgid "Organizer expired"
+msgstr ""
+
+#: $string['legend_past_deadline']
+msgctxt "$string['legend_past_deadline']"
+msgid "Slot past deadline"
+msgstr ""
+
+#: $string['legend_pending']
+msgctxt "$string['legend_pending']"
+msgid "Slot pending evaluation"
+msgstr ""
+
+#: $string['legend_section_details']
+msgid "Slot details icons"
+msgstr ""
+
+#: $string['legend_section_status']
+msgid "Status icons"
+msgstr ""
+
+#: $string['location']
+msgctxt "$string['location']"
+msgid "Location"
+msgstr ""
+
+#: $string['location_help']
+msgid "Type the name of the location the appointments will take place at"
+msgstr ""
+
+#: $string['locationlink']
+msgid "Location link URL"
+msgstr ""
+
+#: $string['locationlinkenable']
+msgid "location info autolink"
+msgstr ""
+
+#: $string['locationlink_help']
+msgid ""
+"Type here the full address of the website you want the location link to "
+"refer to. This site should at least contain information on how to reach the "
+"location. Please type in the full address (including http://)"
+msgstr ""
+
+#: $string['maillink']
+msgid "The organizer is available <a href=\"{$a}\">here</a>."
+msgstr ""
+
+#: $string['maxparticipants']
+msgid "Max. participants"
+msgstr ""
+
+#: $string['maxparticipants_help']
+msgid ""
+"Defines the maximum number of students that can register to these time "
+"slots. In case of a group organizer this number is always limited to one."
+msgstr ""
+
+#: $string['message_autogenerated2']
+msgid "Auto-generated message"
+msgstr ""
+
+#: $string['message_custommessage']
+msgid "Custom message"
+msgstr "Προσαρμοσμένο μήνυμα"
+
+#: $string['message_custommessage_help']
+msgid ""
+"Use this field to enter a personal text into the auto-generated message."
+msgstr ""
+
+#: $string['message_error_noactionchosen']
+msgid "Please choose an action before pressing the Start button."
+msgstr ""
+
+#: $string['message_error_slot_full_group']
+msgid "This timeslot is already taken!"
+msgstr ""
+
+#: $string['message_error_slot_full_single']
+msgid "This timeslot has no free places left!"
+msgstr ""
+
+#: $string['message_error_unknown_unqueue']
+msgid "Your waiting list entry could not be removed! Unknown error."
+msgstr ""
+
+#: $string['message_error_unknown_unregister']
+msgid "Your registration could not be removed! Unknown error."
+msgstr ""
+
+#: $string['message_info_available']
+msgid ""
+"There are {$a->freeslots} empty slots available for {$a->notregistered} "
+"users without any appointment."
+msgstr ""
+
+#: $string['message_info_available_group']
+msgid ""
+"There are {$a->freeslots} empty slots available for {$a->notregistered} "
+"groups without any appointment."
+msgstr ""
+
+#: $string['message_info_reminders_sent_pl']
+msgid "{$a->count} reminders were sent."
+msgstr ""
+
+#: $string['message_info_reminders_sent_sg']
+msgid "{$a->count} reminder was sent."
+msgstr ""
+
+#: $string['message_info_slots_added_pl']
+msgid "{$a->count} new slots were added."
+msgstr ""
+
+#: $string['message_info_slots_added_sg']
+msgid "{$a->count} new slot was added."
+msgstr ""
+
+#: $string['message_info_slots_deleted']
+msgctxt "$string['message_info_slots_deleted']"
+msgid ""
+"The following slots were deleted:<br/>\n"
+"{$a->deleted} slots deleted.<br/>\n"
+"{$a->notified} users have been notified."
+msgstr ""
+
+#: $string['message_info_slots_deleted_group']
+msgctxt "$string['message_info_slots_deleted_group']"
+msgid ""
+"The following slots were deleted:<br/>\n"
+"{$a->deleted} slots deleted.<br/>\n"
+"{$a->notified} users have been notified."
+msgstr ""
+
+#: $string['messageprovider:appointment_reminder_student']
+msgid "Organizer appointment reminder"
+msgstr ""
+
+#: $string['messageprovider:appointment_reminder_teacher']
+msgid "Organizer appointment reminder (Teacher)"
+msgstr ""
+
+#: $string['messageprovider:assign_notify_student']
+msgid "Organizer assignment by teacher"
+msgstr ""
+
+#: $string['messageprovider:assign_notify_teacher']
+msgid "Organizer assignment"
+msgstr ""
+
+#: $string['messageprovider:edit_notify_student']
+msgid "Organizer changes"
+msgstr ""
+
+#: $string['messageprovider:edit_notify_teacher']
+msgid "Organizer changes (Teacher)"
+msgstr ""
+
+#: $string['messageprovider:eval_notify_student']
+msgid "Organizer evaluation notification"
+msgstr ""
+
+#: $string['messageprovider:group_registration_notify_student']
+msgid "Organizer groupregistration notification"
+msgstr ""
+
+#: $string['messageprovider:manual_reminder_student']
+msgid "Organizer manual appointment reminder"
+msgstr ""
+
+#: $string['messageprovider:register_notify_teacher']
+msgctxt "$string['messageprovider:register_notify_teacher']"
+msgid "Organizer registration notification"
+msgstr ""
+
+#: $string['messageprovider:register_notify_teacher_register']
+msgctxt "$string['messageprovider:register_notify_teacher_register']"
+msgid "Organizer registration notification"
+msgstr ""
+
+#: $string['messageprovider:register_notify_teacher_reregister']
+msgid "Organizer re-registration notification"
+msgstr ""
+
+#: $string['messageprovider:register_notify_teacher_unregister']
+msgid "Organizer unsubscription notification"
+msgstr ""
+
+#: $string['messageprovider:register_reminder_student']
+msgid "Organizer registration reminder"
+msgstr ""
+
+#: $string['messageprovider:slotdeleted_notify_student']
+msgid "Organizer slots cancelled"
+msgstr ""
+
+#: $string['messageprovider:test']
+msgid "Organizer Test Message"
+msgstr ""
+
+#: $string['messages_all']
+msgid "All registration, re-registrations and unregistrations"
+msgstr ""
+
+#: $string['messages_none']
+msgid "No registration notifications"
+msgstr ""
+
+#: $string['messages_re_unreg']
+msgid "Re-registrations and unregistrations only"
+msgstr ""
+
+#: $string['message_warning_available']
+msgid ""
+"<span style=\"color:red;\">Warning</span> There are {$a->freeslots} empty "
+"slots available for {$a->notregistered} users without any appointment."
+msgstr ""
+
+#: $string['message_warning_available_group']
+msgid ""
+"<span style=\"color:red;\">Warning</span> There are {$a->freeslots} empty "
+"slots available for {$a->notregistered} groups without any appointment."
+msgstr ""
+
+#: $string['message_warning_no_slots_added']
+msgid "No new slots were added!"
+msgstr ""
+
+#: $string['message_warning_no_slots_selected']
+msgid "You must select at least one slot first!"
+msgstr ""
+
+#: $string['message_warning_no_visible_slots_selected']
+msgid "You must select at least one VISIBLE slot first!"
+msgstr ""
+
+#: $string['min']
+msgid "min"
+msgstr ""
+
+#: $string['min_pl']
+msgid "mins"
+msgstr ""
+
+#: $string['modformwarningplural']
+msgid ""
+"These fields cannot be edited as there are appointments already made in this "
+"organizer!"
+msgstr ""
+
+#: $string['modformwarningsingular']
+msgid ""
+"This field cannot be edited as there are appointments already made in this "
+"organizer!"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Organizer"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"Organizers enable the teacher to make appointments with students by creating "
+"time slots which students can register to."
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Organizers"
+msgstr ""
+
+#: $string['multimember']
+msgid "Users cannot belong to multiple groups within the same grouping!"
+msgstr ""
+
+#: $string['multimemberspecific']
+msgid ""
+"User {$a->username} {$a->idnumber} is registered in more than one group! "
+"({$a->groups})"
+msgstr ""
+
+#: $string['multipleappointmentenddate']
+msgctxt "$string['multipleappointmentenddate']"
+msgid "End date"
+msgstr ""
+
+#: $string['multipleappointmentstartdate']
+msgctxt "$string['multipleappointmentstartdate']"
+msgid "Start date"
+msgstr ""
+
+#: $string['mymoodle_app_slot']
+msgid "Appointment on {$a->date} at {$a->time}"
+msgstr ""
+
+#: $string['mymoodle_attended']
+msgid "{$a->attended}/{$a->total} students have completed an appointment"
+msgstr ""
+
+#: $string['mymoodle_attended_group']
+msgid "{$a->attended}/{$a->total} groups have completed an appointment"
+msgstr ""
+
+#: $string['mymoodle_attended_group_short']
+msgid "{$a->attended}/{$a->total} groups completed"
+msgstr ""
+
+#: $string['mymoodle_attended_short']
+msgid "{$a->attended}/{$a->total} students completed"
+msgstr ""
+
+#: $string['mymoodle_completed_app']
+msgid "You completed your appointment on {$a->date} at {$a->time}"
+msgstr ""
+
+#: $string['mymoodle_completed_app_group']
+msgid ""
+"Your group {$a->groupname} attended the appointment on at {$a->date} at "
+"{$a->time}"
+msgstr ""
+
+#: $string['mymoodle_missed_app']
+msgid "You did not attend the appointment on {$a->date} at {$a->time}"
+msgstr ""
+
+#: $string['mymoodle_missed_app_group']
+msgid ""
+"Your group {$a->groupname} did not attend the appointment on {$a->date} at "
+"{$a->time}"
+msgstr ""
+
+#: $string['mymoodle_next_slot']
+msgid "Next slot on {$a->date} at {$a->time}"
+msgstr ""
+
+#: $string['mymoodle_no_reg_slot']
+msgid "You have not registered to a time slot yet"
+msgstr ""
+
+#: $string['mymoodle_no_reg_slot_group']
+msgid "Your group {$a->groupname} has not registered to a time slot yet"
+msgstr ""
+
+#: $string['mymoodle_no_slots']
+msgid "No upcoming slots"
+msgstr ""
+
+#: $string['mymoodle_organizer_expired']
+msgid ""
+"This organizer expired on {$a->date} at {$a->time}. You can no longer use it"
+msgstr ""
+
+#: $string['mymoodle_organizer_expires']
+msgid "This organizer expires on {$a->date} at {$a->time}"
+msgstr ""
+
+#: $string['mymoodle_pending_app']
+msgid "Your appointment is pending evaluation"
+msgstr ""
+
+#: $string['mymoodle_pending_app_group']
+msgid "Your group {$a->groupname} appointment is pending evaluation"
+msgstr ""
+
+#: $string['mymoodle_registered']
+msgid ""
+"{$a->registered}/{$a->total} students have registered for an appointment"
+msgstr ""
+
+#: $string['mymoodle_registered_group']
+msgid "{$a->registered}/{$a->total} groups have registered for an appointment"
+msgstr ""
+
+#: $string['mymoodle_registered_group_short']
+msgid "{$a->registered}/{$a->total} groups registered"
+msgstr ""
+
+#: $string['mymoodle_registered_short']
+msgid "{$a->registered}/{$a->total} students registered"
+msgstr ""
+
+#: $string['mymoodle_reg_slot']
+msgid "You have already registered to a time slot"
+msgstr ""
+
+#: $string['mymoodle_reg_slot_group']
+msgid "Your group {$a->groupname} has already registered to a time slot"
+msgstr ""
+
+#: $string['mymoodle_upcoming_app']
+msgid ""
+"Your appointment will take place on {$a->date} at {$a->time} at "
+"{$a->location}"
+msgstr ""
+
+#: $string['mymoodle_upcoming_app_group']
+msgid ""
+"Appointment of your group, {$a->groupname}, will take place on {$a->date} at "
+"{$a->time} at {$a->location}"
+msgstr ""
+
+#: $string['newslot']
+msgid "Add more slots"
+msgstr ""
+
+#: $string['no_due_my_slots']
+msgid "All of your time slots in this organizer have expired and/or are hidden"
+msgstr ""
+
+#: $string['no_due_slots']
+msgid "All time slots created in this organizer have expired"
+msgstr ""
+
+#: $string['nofreeslots']
+msgid "No free slots available."
+msgstr ""
+
+#: $string['nogroup']
+msgid "No group"
+msgstr ""
+
+#: $string['no_my_slots']
+msgid "You have no slots created in this organizer"
+msgstr ""
+
+#: $string['noparticipants']
+msgctxt "$string['noparticipants']"
+msgid "No participants"
+msgstr ""
+
+#: $string['norightpage']
+msgid "You are not allowed to call up this page."
+msgstr ""
+
+#: $string['noslots']
+msgid "No slots for"
+msgstr ""
+
+#: $string['no_slots']
+msgid "There are no time slots created in this organizer"
+msgstr ""
+
+#: $string['no_slots_defined']
+msgid "There are no appointments slots available at the moment."
+msgstr ""
+
+#: $string['no_slots_defined_teacher']
+msgid ""
+"There are no appointments slots present at the moment. Click <a "
+"href=\"{$a->link}\">here</a> to create some now."
+msgstr ""
+
+#: $string['noslotsselected']
+msgid "No slots selected!"
+msgstr ""
+
+#: $string['notificationtime']
+msgid "Relative appointment reminder"
+msgstr ""
+
+#: $string['notificationtime_help']
+msgid ""
+"Defines how far before the registered appointment the student should be "
+"reminded of it."
+msgstr ""
+
+#: $string['numentries']
+msgid "Entries shown per page"
+msgstr ""
+
+#: $string['numentries_help']
+msgid ""
+"Choose \"optimal\" to optimize the distribution of list entries according to "
+"the chosen textsize and page orientation, if there are plenty of "
+"participants registered in your course"
+msgstr ""
+
+#: $string['organizer']
+msgctxt "$string['organizer']"
+msgid "Organizer"
+msgstr ""
+
+#: $string['organizer:addinstance']
+msgid "Add a new organizer"
+msgstr "Προσθήκη νέου οργανωτή"
+
+#: $string['organizer:addslots']
+msgid "Add new time slots"
+msgstr ""
+
+#: $string['organizer:assignslots']
+msgid "Assign time slot to a student"
+msgstr ""
+
+#: $string['organizer:comment']
+msgid "Add comments"
+msgstr "Προσθήκη σχολίων"
+
+#: $string['organizercommon']
+msgid "Organizer settings"
+msgstr ""
+
+#: $string['organizer:deleteslots']
+msgid "Delete existing time slots"
+msgstr ""
+
+#: $string['organizer:editslots']
+msgid "Edit existing time slots"
+msgstr ""
+
+#: $string['organizer:evalslots']
+msgid "Grade completed time slots"
+msgstr ""
+
+#: $string['organizer:leadslots']
+msgid "Lead time slots"
+msgstr ""
+
+#: $string['organizername']
+msgid "Organizer name"
+msgstr ""
+
+#: $string['organizer:printslots']
+msgid "Print existing time slots"
+msgstr ""
+
+#: $string['organizer:receivemessagesstudent']
+msgid "Receive messages as sent to students"
+msgstr ""
+
+#: $string['organizer:receivemessagesteacher']
+msgid "Receive messages as sent to teachers"
+msgstr ""
+
+#: $string['organizer:register']
+msgid "Register to a time slot"
+msgstr ""
+
+#: $string['organizer_remind_all_no_recepients']
+msgid "There are no valid recepients."
+msgstr ""
+
+#: $string['organizer_remind_all_recepients_pl']
+msgid ""
+"A total of {$a->count} messages will be sent to the following recepients:"
+msgstr ""
+
+#: $string['organizer_remind_all_recepients_sg']
+msgid ""
+"A total of {$a->count} message will be sent to the following recepients:"
+msgstr ""
+
+#: $string['organizer_remind_all_title']
+msgid "Send reminders"
+msgstr ""
+
+#: $string['organizer:sendreminders']
+msgid "Send registration reminders to students"
+msgstr ""
+
+#: $string['organizer:unregister']
+msgid "Unregister from a time slot"
+msgstr ""
+
+#: $string['organizer:viewallslots']
+msgid "View all time slots as a teacher"
+msgstr ""
+
+#: $string['organizer:viewmyslots']
+msgid "View own time slots as a teacher"
+msgstr ""
+
+#: $string['organizer:viewregistrations']
+msgid "View status of student registrations"
+msgstr ""
+
+#: $string['organizer:viewstudentview']
+msgid "View all time slots as a student"
+msgstr ""
+
+#: $string['orientationlandscape']
+msgid "landscape"
+msgstr ""
+
+#: $string['orientationportrait']
+msgid "portrait"
+msgstr ""
+
+#: $string['otherheader']
+msgid "Other"
+msgstr ""
+
+#: $string['pageorientation']
+msgid "Page orientation"
+msgstr ""
+
+#: $string['pdf_notactive']
+msgid "not active"
+msgstr ""
+
+#: $string['pdfsettings']
+msgid "PDF settings"
+msgstr ""
+
+#: $string['places_inqueue']
+msgid "{$a->inqueue} on waiting list"
+msgstr ""
+
+#: $string['places_inqueue_withposition']
+msgid "{$a->queueposition}. position on waiting list"
+msgstr ""
+
+#: $string['places_taken_pl']
+msgid "{$a->numtakenplaces}/{$a->totalplaces} places taken"
+msgstr ""
+
+#: $string['places_taken_sg']
+msgid "{$a->numtakenplaces}/{$a->totalplaces} place taken"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Organizer administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Organizer"
+msgstr ""
+
+#: $string['position']
+msgid "Position in queue"
+msgstr ""
+
+#: $string['printout']
+msgid "Printout"
+msgstr ""
+
+#: $string['printpreview']
+msgid "Print preview (first 10 entries)"
+msgstr ""
+
+#: $string['print_return']
+msgid "Return to slot overview"
+msgstr ""
+
+#: $string['printsubmit']
+msgid "Display printable table"
+msgstr ""
+
+#: $string['queue']
+msgid "Waiting queues"
+msgstr ""
+
+#: $string['queuebody']
+msgid ""
+"Your registration for a timeslot has been promoted from status \"waiting "
+"list\" to status \"booked\"."
+msgstr ""
+
+#: $string['queue_help']
+msgid ""
+"Waiting queues allow users to register to a time slot even if the maximum "
+"number of participants is already reached.\n"
+"\t\tUsers are added to a waiting queue and assigned to the slot (in order) as "
+"soon as a slot becomes available."
+msgstr ""
+
+#: $string['queuesubject']
+msgid "Moodle Organizer: Promoted from queue"
+msgstr ""
+
+#: $string['recipientname']
+msgid "&lt;recipient name&gt;"
+msgstr ""
+
+#: $string['register_notify_teacher:queue:fullmessage']
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, student "
+"{$a->sendername} has queued for the time slot on {$a->date} at {$a->time} in "
+"{$a->location}.\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['register_notify_teacher:queue:group:fullmessage']
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, student "
+"{$a->sendername} has wait-listed the group {$a->groupname} for the time slot "
+"on {$a->date} at {$a->time} in {$a->location}.\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['register_notify_teacher:queue:group:smallmessage']
+msgid ""
+"Student {$a->sendername} has wait-listed the group {$a->groupname} for the "
+"time slot on {$a->date} at {$a->time} in {$a->location}."
+msgstr ""
+
+#: $string['register_notify_teacher:queue:group:subject']
+msgctxt "$string['register_notify_teacher:queue:group:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Group wait-"
+"listed"
+msgstr ""
+
+#: $string['register_notify_teacher:queue:smallmessage']
+msgid ""
+"Student {$a->sendername} has queued for the time slot on {$a->date} at "
+"{$a->time} in {$a->location}."
+msgstr ""
+
+#: $string['register_notify_teacher:queue:subject']
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Student queued"
+msgstr ""
+
+#: $string['register_notify_teacher:register:fullmessage']
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, student "
+"{$a->sendername} has registered for the time slot on {$a->date} at "
+"{$a->time} in {$a->location}.\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['register_notify_teacher:register:group:fullmessage']
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, student "
+"{$a->sendername} has registered the group {$a->groupname} for the time slot "
+"on {$a->date} at {$a->time} in {$a->location}.\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['register_notify_teacher:register:group:smallmessage']
+msgid ""
+"Student {$a->sendername} has registered the group {$a->groupname} for the "
+"time slot on {$a->date} at {$a->time} in {$a->location}."
+msgstr ""
+
+#: $string['register_notify_teacher:register:group:subject']
+msgctxt "$string['register_notify_teacher:register:group:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Group "
+"registered"
+msgstr ""
+
+#: $string['register_notify_teacher:register:smallmessage']
+msgid ""
+"Student {$a->sendername} has registered for the time slot on {$a->date} at "
+"{$a->time} in {$a->location}."
+msgstr ""
+
+#: $string['register_notify_teacher:register:subject']
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Student "
+"registered"
+msgstr ""
+
+#: $string['register_notify_teacher:reregister:fullmessage']
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, student "
+"{$a->sendername} has re-registered for the new time slot on {$a->date} at "
+"{$a->time} in {$a->location}.\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['register_notify_teacher:reregister:group:fullmessage']
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, student "
+"{$a->sendername} has re-registered the group {$a->groupname} for the new "
+"time slot on {$a->date} at {$a->time} in {$a->location}.\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['register_notify_teacher:reregister:group:smallmessage']
+msgid ""
+"Student {$a->sendername} has re-registered the group {$a->groupname} for the "
+"time slot on {$a->date} at {$a->time} in {$a->location}."
+msgstr ""
+
+#: $string['register_notify_teacher:reregister:group:subject']
+msgctxt "$string['register_notify_teacher:reregister:group:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Group re-"
+"registered"
+msgstr ""
+
+#: $string['register_notify_teacher:reregister:smallmessage']
+msgid ""
+"Student {$a->sendername} has re-registered for the time slot on {$a->date} "
+"at {$a->time} in {$a->location}."
+msgstr ""
+
+#: $string['register_notify_teacher:reregister:subject']
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Student re-"
+"registered"
+msgstr ""
+
+#: $string['register_notify_teacher:unqueue:fullmessage']
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, student "
+"{$a->sendername} has took himself off the waiting list of the time slot on "
+"{$a->date} at {$a->time} in {$a->location}.\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['register_notify_teacher:unqueue:group:fullmessage']
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, student "
+"{$a->sendername} has removed the group {$a->groupname} from the waiting list "
+"of the time slot on {$a->date} at {$a->time} in {$a->location}.\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['register_notify_teacher:unqueue:group:smallmessage']
+msgid ""
+"Student {$a->sendername} has removed the group {$a->groupname} from the "
+"waiting list of the time slot on {$a->date} at {$a->time} in {$a->location}."
+msgstr ""
+
+#: $string['register_notify_teacher:unqueue:group:subject']
+msgctxt "$string['register_notify_teacher:unqueue:group:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Group removed "
+"from waiting list"
+msgstr ""
+
+#: $string['register_notify_teacher:unqueue:smallmessage']
+msgid ""
+"Student {$a->sendername} has took himself off the waiting list of the time "
+"slot on {$a->date} at {$a->time} in {$a->location}."
+msgstr ""
+
+#: $string['register_notify_teacher:unqueue:subject']
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Student "
+"removed from waiting list"
+msgstr ""
+
+#: $string['register_notify_teacher:unregister:fullmessage']
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, student "
+"{$a->sendername} has unregistered from the time slot on {$a->date} at "
+"{$a->time} in {$a->location}.\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['register_notify_teacher:unregister:group:fullmessage']
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, student "
+"{$a->sendername} has unregistered the group {$a->groupname} from the time "
+"slot on {$a->date} at {$a->time} in {$a->location}.\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['register_notify_teacher:unregister:group:smallmessage']
+msgid ""
+"Student {$a->sendername} has unregistered the group {$a->groupname} from the "
+"time slot on {$a->date} at {$a->time} in {$a->location}."
+msgstr ""
+
+#: $string['register_notify_teacher:unregister:group:subject']
+msgctxt "$string['register_notify_teacher:unregister:group:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Group "
+"unregistered"
+msgstr ""
+
+#: $string['register_notify_teacher:unregister:smallmessage']
+msgid ""
+"Student {$a->sendername} has unregistered from the time slot on {$a->date} "
+"at {$a->time} in {$a->location}."
+msgstr ""
+
+#: $string['register_notify_teacher:unregister:subject']
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Student "
+"unregistered"
+msgstr ""
+
+#: $string['register_reminder_student:fullmessage']
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, you either "
+"still haven't registered to any time slot, or you've missed the one you did "
+"register to.\n"
+"\n"
+"{$a->custommessage}\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['register_reminder_student:group:fullmessage']
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"As a part of the course {$a->courseid} {$a->coursefullname}, your group "
+"{$a->groupname} either still hasn't registered to any time slot, or you've "
+"missed the one you did register to.\n"
+"\n"
+"{$a->custommessage}\n"
+"\n"
+"Moodle Messaging System"
+msgstr ""
+
+#: $string['register_reminder_student:group:smallmessage']
+msgid "Please register your group to a new time slot."
+msgstr ""
+
+#: $string['register_reminder_student:group:subject']
+msgctxt "$string['register_reminder_student:group:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Registration "
+"reminder"
+msgstr ""
+
+#: $string['register_reminder_student:smallmessage']
+msgid "Please register to a (new) time slot."
+msgstr ""
+
+#: $string['register_reminder_student:subject']
+msgctxt "$string['register_reminder_student:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Registration "
+"reminder"
+msgstr ""
+
+#: $string['reg_status']
+msgctxt "$string['reg_status']"
+msgid "Registration status"
+msgstr ""
+
+#: $string['reg_status_not_registered']
+msgid "Not registered"
+msgstr ""
+
+#: $string['reg_status_organizer_expired']
+msgctxt "$string['reg_status_organizer_expired']"
+msgid "Organizer expired"
+msgstr ""
+
+#: $string['reg_status_registered']
+msgid "Registered"
+msgstr ""
+
+#: $string['reg_status_slot_attended']
+msgctxt "$string['reg_status_slot_attended']"
+msgid "Attended"
+msgstr ""
+
+#: $string['reg_status_slot_attended_reapp']
+msgid "Attended, reappointment allowed"
+msgstr ""
+
+#: $string['reg_status_slot_available']
+msgctxt "$string['reg_status_slot_available']"
+msgid "Slot available"
+msgstr ""
+
+#: $string['reg_status_slot_expired']
+msgid "Slot expired"
+msgstr ""
+
+#: $string['reg_status_slot_full']
+msgid "Slot full"
+msgstr ""
+
+#: $string['reg_status_slot_not_attended']
+msgid "Did not attend"
+msgstr ""
+
+#: $string['reg_status_slot_not_attended_reapp']
+msgid "Did not attend, reappointment allowed"
+msgstr ""
+
+#: $string['reg_status_slot_past_deadline']
+msgctxt "$string['reg_status_slot_past_deadline']"
+msgid "Slot past deadline"
+msgstr ""
+
+#: $string['reg_status_slot_pending']
+msgctxt "$string['reg_status_slot_pending']"
+msgid "Slot pending evaluation"
+msgstr ""
+
+#: $string['relativedeadline']
+msgid "Relative deadline"
+msgstr ""
+
+#: $string['relative_deadline_before']
+msgid "before the appointment"
+msgstr ""
+
+#: $string['relativedeadline_help']
+msgid ""
+"Sets the deadline for the application for a specific slot specified time "
+"ahead. The students will not be able to change register or unregister once "
+"the deadline has expired."
+msgstr ""
+
+#: $string['relative_deadline_now']
+msgid "Starting now"
+msgstr ""
+
+#: $string['remindall_desc']
+msgid "Send reminders to all students without an appointment"
+msgstr ""
+
+#: $string['requiremodintro']
+msgid "Require activity description"
+msgstr ""
+
+#: $string['resetorganizerall']
+msgid "Clear all organizer data (slots & appointments)"
+msgstr ""
+
+#: $string['reset_organizer_all']
+msgid "Deleting slots, appointments and related events"
+msgstr ""
+
+#: $string['reviewsubmit']
+msgctxt "$string['reviewsubmit']"
+msgid "Review time slots"
+msgstr ""
+
+#: $string['rewievslotsheader']
+msgctxt "$string['rewievslotsheader']"
+msgid "Review time slots"
+msgstr ""
+
+#: $string['search:activity']
+msgid "Organizer - activity information"
+msgstr ""
+
+#: $string['sec']
+msgid "sec"
+msgstr ""
+
+#: $string['sec_pl']
+msgid "secs"
+msgstr ""
+
+#: $string['select_all_slots']
+msgid "Select all visible slots"
+msgstr ""
+
+#: $string['selectedgrouplist']
+msgid "Selected groups"
+msgstr ""
+
+#: $string['selectedslots']
+msgid "Selected slots"
+msgstr ""
+
+#: $string['slot_anonymous']
+msgid "Slot anonymous"
+msgstr ""
+
+#: $string['slotassignedby']
+msgid "Slot assigned by"
+msgstr ""
+
+#: $string['slotdeleted_notify_student:fullmessage']
+msgctxt "$string['slotdeleted_notify_student:fullmessage']"
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"Your appointment in the course {$a->courseshortname} on {$a->date} at "
+"{$a->time} in {$a->location} was cancelled.\n"
+"Note that you have no longer an appointment in the organizer "
+"{$a->organizername}.\n"
+"Please follow the link to make a new appointment: {$a->courselink}"
+msgstr ""
+
+#: $string['slotdeleted_notify_student:group:fullmessage']
+msgctxt "$string['slotdeleted_notify_student:group:fullmessage']"
+msgid ""
+"Hello {$a->receivername}!\n"
+"\n"
+"Your appointment in the course {$a->courseshortname} on {$a->date} at "
+"{$a->time} in {$a->location} was cancelled.\n"
+"Note that you have no longer an appointment in the organizer "
+"{$a->organizername}.\n"
+"Please follow the link to make a new appointment: {$a->courselink}"
+msgstr ""
+
+#: $string['slotdeleted_notify_student:group:smallmessage']
+msgctxt "$string['slotdeleted_notify_student:group:smallmessage']"
+msgid ""
+"Your appointment on {$a->date} at {$a->time} in organizer "
+"\"{$a->organizername}\" was cancelled."
+msgstr ""
+
+#: $string['slotdeleted_notify_student:group:subject']
+msgctxt "$string['slotdeleted_notify_student:group:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Appointment "
+"cancelled"
+msgstr ""
+
+#: $string['slotdeleted_notify_student:smallmessage']
+msgctxt "$string['slotdeleted_notify_student:smallmessage']"
+msgid ""
+"Your appointment on {$a->date} at {$a->time} in organizer "
+"\"{$a->organizername}\" was cancelled."
+msgstr ""
+
+#: $string['slotdeleted_notify_student:subject']
+msgctxt "$string['slotdeleted_notify_student:subject']"
+msgid ""
+"[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Appointment "
+"cancelled"
+msgstr ""
+
+#: $string['slotdetails']
+msgid "Slot details"
+msgstr ""
+
+#: $string['slotfrom']
+msgid "from"
+msgstr ""
+
+#: $string['slotlistempty']
+msgid "No slots were found."
+msgstr ""
+
+#: $string['slotperiodendtime']
+msgctxt "$string['slotperiodendtime']"
+msgid "End date"
+msgstr ""
+
+#: $string['slotperiodheader']
+msgid "Generate slots for date range"
+msgstr ""
+
+#: $string['slotperiodheader_help']
+msgid ""
+"Specify the starting and the ending date to which the daily time frames "
+"(section below) will apply. Specify here as well whether the slot shall be "
+"visible to students."
+msgstr ""
+
+#: $string['slotperiodstarttime']
+msgctxt "$string['slotperiodstarttime']"
+msgid "Start date"
+msgstr ""
+
+#: $string['slot_slotvisible']
+msgid "Members only visible if own slot"
+msgstr ""
+
+#: $string['slottimeframesheader']
+msgid "Specific time frames"
+msgstr ""
+
+#: $string['slottimeframesheader_help']
+msgid ""
+"This section allows for weekday-based definition of time frames which will "
+"be filled with appointment slots with properties specified above. There can "
+"be more than one time frame per day. If a time frame on Monday is selected, "
+"it will generate time slots for every Monday between the starting and the "
+"ending date (inclusive)."
+msgstr ""
+
+#: $string['slotto']
+msgid "to"
+msgstr ""
+
+#: $string['slot_visible']
+msgid "Members of slot always visible"
+msgstr ""
+
+#: $string['status_no_entries']
+msgid "This organizer has no registered students."
+msgstr ""
+
+#: $string['stroptimal']
+msgid "optimal"
+msgstr ""
+
+#: $string['studentcomment_title']
+msgid "Student comments"
+msgstr "Σχόλια Μαθητή"
+
+#: $string['taballapp']
+msgid "Appointments"
+msgstr ""
+
+#: $string['tabstatus']
+msgctxt "$string['tabstatus']"
+msgid "Registration status"
+msgstr ""
+
+#: $string['tabstud']
+msgid "Student view"
+msgstr ""
+
+#: $string['teacher']
+msgctxt "$string['teacher']"
+msgid "Teacher"
+msgstr ""
+
+#: $string['teachercomment_title']
+msgid "Teacher comments"
+msgstr "Σχόλια Διδάσκοντα"
+
+#: $string['teacherfeedback_title']
+msgctxt "$string['teacherfeedback_title']"
+msgid "Teacher feedback"
+msgstr ""
+
+#: $string['teacherid']
+msgctxt "$string['teacherid']"
+msgid "Teacher"
+msgstr ""
+
+#: $string['teacherid_help']
+msgid "Select the teacher you want to lead the appointments"
+msgstr ""
+
+#: $string['teacherinvisible']
+msgid "Teacher invisible"
+msgstr ""
+
+#: $string['teacher_unchanged']
+msgid "-- unchanged --"
+msgstr ""
+
+#: $string['teachervisible']
+msgid "Teacher visible"
+msgstr ""
+
+#: $string['teachervisible_help']
+msgid ""
+"Check this if you want to allow students to see the teacher associated with "
+"the timeslot."
+msgstr ""
+
+#: $string['textsize']
+msgid "Textsize"
+msgstr ""
+
+#: $string['th_actions']
+msgid "Action"
+msgstr ""
+
+#: $string['th_appdetails']
+msgid "Details"
+msgstr ""
+
+#: $string['th_attended']
+msgid "Att."
+msgstr ""
+
+#: $string['th_comments']
+msgctxt "$string['th_comments']"
+msgid "Comments"
+msgstr "Σχόλια"
+
+#: $string['th_datetime']
+msgctxt "$string['th_datetime']"
+msgid "Date & time"
+msgstr ""
+
+#: $string['th_datetimedeadline']
+msgctxt "$string['th_datetimedeadline']"
+msgid "Date & time"
+msgstr ""
+
+#: $string['th_details']
+msgctxt "$string['th_details']"
+msgid "Status"
+msgstr ""
+
+#: $string['th_duration']
+msgctxt "$string['th_duration']"
+msgid "Duration"
+msgstr "Διάρκεια"
+
+#: $string['th_email']
+msgid "Email"
+msgstr ""
+
+#: $string['th_evaluated']
+msgid "Eval"
+msgstr ""
+
+#: $string['th_feedback']
+msgctxt "$string['th_feedback']"
+msgid "Feedback"
+msgstr ""
+
+#: $string['th_firstname']
+msgid "First name"
+msgstr ""
+
+#: $string['th_grade']
+msgctxt "$string['th_grade']"
+msgid "Grade"
+msgstr ""
+
+#: $string['th_group']
+msgctxt "$string['th_group']"
+msgid "Group"
+msgstr ""
+
+#: $string['th_groupname']
+msgctxt "$string['th_groupname']"
+msgid "Group"
+msgstr ""
+
+#: $string['th_idnumber']
+msgid "ID number"
+msgstr ""
+
+#: $string['th_lastname']
+msgid "Last name"
+msgstr ""
+
+#: $string['th_location']
+msgctxt "$string['th_location']"
+msgid "Location"
+msgstr ""
+
+#: $string['th_participant']
+msgid "Participant"
+msgstr "Συμμετέχοντας"
+
+#: $string['th_participants']
+msgid "Participants"
+msgstr "Συμμετέχοντες"
+
+#: $string['th_status']
+msgctxt "$string['th_status']"
+msgid "Status"
+msgstr ""
+
+#: $string['th_teacher']
+msgctxt "$string['th_teacher']"
+msgid "Teacher"
+msgstr ""
+
+#: $string['timeshift']
+msgid "Shifting absolute deadline"
+msgstr ""
+
+#: $string['timetemplate']
+msgid "%H:%M"
+msgstr ""
+
+#: $string['title_add']
+msgid "Add new appointment slots"
+msgstr ""
+
+#: $string['title_comment']
+msgid "Edit your comments"
+msgstr "Επεξεργασία των σχολίων σας"
+
+#: $string['title_delete']
+msgid "Delete selected time slots"
+msgstr ""
+
+#: $string['title_edit']
+msgid "Edit selected time slots"
+msgstr ""
+
+#: $string['title_eval']
+msgid "Evaluate selected time slots"
+msgstr ""
+
+#: $string['title_print']
+msgid "Print slots"
+msgstr ""
+
+#: $string['totalslots']
+msgid ""
+"from {$a->starttime} to {$a->endtime}, {$a->duration} {$a->unit} each, "
+"{$a->totalslots} slot(s) in total"
+msgstr ""
+
+#: $string['unavailableslot']
+msgid "This slot is available from"
+msgstr ""
+
+#: $string['unknown']
+msgid "Unknown"
+msgstr ""
+
+#: $string['visibility']
+msgid "Visibility of members - presetting"
+msgstr ""
+
+#: $string['visibility_all']
+msgid "Visible"
+msgstr ""
+
+#: $string['visibility_anonymous']
+msgid "Anonymous"
+msgstr ""
+
+#: $string['visibility_help']
+msgid ""
+"Definition of the default visibility option with which a new slot will be "
+"created.<br/><b>Anonymous:</b> The members of this slot are always invisible "
+"to all.<br/><b>Visible:</b> All members of this slot are always visible to "
+"all.<br/><b>Only visible to slot members:</b> Only slot members can see each "
+"other."
+msgstr ""
+
+#: $string['visibility_slot']
+msgid "Only visible to slot members"
+msgstr ""
+
+#: $string['visible']
+msgid "Slot visible"
+msgstr ""
+
+#: $string['Warning']
+msgid "Warning"
+msgstr ""
+
+#: $string['warning_groupingid']
+msgid "Group mode enabled. You must select a valid grouping."
+msgstr ""
+
+#: $string['warninggroupmode']
+msgid ""
+"You must enable the group mode and select a grouping to create a group "
+"organizer!"
+msgstr ""
+
+#: $string['warningtext1']
+msgid "Selected slots contain different values in this field!"
+msgstr ""
+
+#: $string['warningtext2']
+msgid "WARNING! The contents of this field have been changed!"
+msgstr ""
+
+#: $string['weekdaylabel']
+msgid "Weekday slot"
+msgstr ""

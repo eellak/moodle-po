@@ -1,0 +1,483 @@
+#. extracted from lang/en/kalmediaassign.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'kalmediaassign', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   kalmediaassign
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addmedia']
+msgid "Add media submission"
+msgstr ""
+
+#: $string['all']
+msgid "All"
+msgstr ""
+
+#: $string['allowdeleting']
+msgid "Allow resubmitting"
+msgstr ""
+
+#: $string['allowdeleting_help']
+msgid ""
+"If enabled, students may replace submitted media. Whether it is possible to "
+"submit after the due date is controlled by the 'Prevent late submissions' "
+"setting"
+msgstr ""
+
+#: $string['assignmentexpired']
+msgid "Submission cancelled.  The assignment due date has passed"
+msgstr ""
+
+#: $string['assignmentsubmitted']
+msgid "Success, your assignment has been submitted"
+msgstr ""
+
+#: $string['availabledate']
+msgid "Available from"
+msgstr ""
+
+#: $string['cancel']
+msgid "Close"
+msgstr ""
+
+#: $string['cannotdisplaythumbnail']
+msgid "Unable to display thumbnail"
+msgstr ""
+
+#: $string['checkconversionstatus']
+msgid "Check media conversion status"
+msgstr ""
+
+#: $string['currentgrade']
+msgid "Current grade"
+msgstr ""
+
+#: $string['deleteallsubmissions']
+msgid "Delete all media submissions"
+msgstr ""
+
+#: $string['description']
+msgid "Description"
+msgstr ""
+
+#: $string['duedate']
+msgid "Due Date"
+msgstr ""
+
+#: $string['early']
+msgid "{$a} early"
+msgstr ""
+
+#: $string['emailteachermail']
+msgid ""
+"{$a->username} has updated their assignment submission\n"
+"for '{$a->assignment}' at {$a->timeupdated}\n"
+"\n"
+"It is available here:\n"
+"\n"
+"    {$a->url}"
+msgstr ""
+
+#: $string['emailteachermailhtml']
+msgid ""
+"{$a->username} has updated their assignment submission\n"
+"for <i>'{$a->assignment}'  at {$a->timeupdated}</i><br /><br />\n"
+"It is <a href=\"{$a->url}\">available on the web site</a>."
+msgstr ""
+
+#: $string['emailteachers']
+msgid "Email alerts to teachers"
+msgstr ""
+
+#: $string['emailteachers_help']
+msgid ""
+"If enabled, teachers receive email notification whenever students add or "
+"update an assignment submission. Only teachers who are able to grade the "
+"particular assignment are notified. So, for example, if the course uses "
+"separate groups, teachers restricted to particular groups won't receive "
+"notification about students in other groups."
+msgstr ""
+
+#: $string['emptyentryid']
+msgid "Media assignment was not submitted correctly.  Please try to resubmit."
+msgstr ""
+
+#: $string['event_grades_updated']
+msgid "Grades of Media submission updated"
+msgstr ""
+
+#: $string['event_media_submitted']
+msgid "Media submitted"
+msgstr ""
+
+#: $string['event_submission_detail_viewed']
+msgid "Media submission detail viewed"
+msgstr ""
+
+#: $string['event_submission_page_viewed']
+msgid "Media submission page viewed"
+msgstr ""
+
+#: $string['feedback']
+msgid "Feedback"
+msgstr ""
+
+#: $string['feedbackcomment']
+msgid "Feedback comment"
+msgstr ""
+
+#: $string['finalgrade']
+msgid "Final grade"
+msgstr ""
+
+#: $string['fullname']
+msgctxt "$string['fullname']"
+msgid "Name"
+msgstr ""
+
+#: $string['grade']
+msgid "Grade"
+msgstr ""
+
+#: $string['gradedby']
+msgid "Graded by"
+msgstr ""
+
+#: $string['gradedon']
+msgid "Graded on"
+msgstr ""
+
+#: $string['grade_media_not_cache']
+msgid "This media may still be in the process of converting..."
+msgstr ""
+
+#: $string['grademodified']
+msgid "Last modified (Grade)"
+msgstr ""
+
+#: $string['grades']
+msgid "Grades"
+msgstr ""
+
+#: $string['gradesubmission']
+msgid "Grade submissions"
+msgstr ""
+
+#: $string['gradingstatus']
+msgid "Grading status"
+msgstr ""
+
+#: $string['gradingsummary']
+msgid "Grading summary"
+msgstr ""
+
+#: $string['group_filter']
+msgid "Group Filter"
+msgstr ""
+
+#: $string['invalidid']
+msgid "Invalid ID"
+msgstr ""
+
+#: $string['invalidperpage']
+msgid "Enter a number greater than zero"
+msgstr ""
+
+#: $string['kalmediaassign:addinstance']
+msgid "Add a Kaltura Media Assignment"
+msgstr ""
+
+#: $string['kalmediaassign:gradesubmission']
+msgid "Grade media submissions"
+msgstr ""
+
+#: $string['kalmediaassign:screenrecorder']
+msgid "Screen recorder"
+msgstr ""
+
+#: $string['kalmediaassign:submit']
+msgctxt "$string['kalmediaassign:submit']"
+msgid "Submit media"
+msgstr ""
+
+#: $string['lastgrade']
+msgid "Last grade"
+msgstr ""
+
+#: $string['late']
+msgid "{$a} late"
+msgstr ""
+
+#: $string['latesubmission']
+msgid "Lated"
+msgstr ""
+
+#: $string['media_converting']
+msgid ""
+"The media is still converting.  Please check the status of the media at a "
+"later time."
+msgstr ""
+
+#: $string['media_preview_header']
+msgid "Submission preview"
+msgstr ""
+
+#: $string['messageprovider:kalmediaassign_updates']
+msgid "Kaltura Media assignment notifications"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Kaltura Media Assignment"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"The Kaltura Media Assignment enables a teacher to create assignments that "
+"require students to upload and submit Kaltura videos. Teachers can grade "
+"student submissions and provide feedback."
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Kaltura Media Assignments"
+msgstr ""
+
+#: $string['name']
+msgctxt "$string['name']"
+msgid "Name"
+msgstr ""
+
+#: $string['noassignments']
+msgid "No Kaltura media assignments found in the course"
+msgstr ""
+
+#: $string['noenrolledstudents']
+msgid "No students are enrolled in the course"
+msgstr ""
+
+#: $string['nosubmission']
+msgctxt "$string['nosubmission']"
+msgid "No submission"
+msgstr ""
+
+#: $string['nosubmissions']
+msgid "No submissions"
+msgstr ""
+
+#: $string['not_insert']
+msgid "Failed to insert submission data."
+msgstr ""
+
+#: $string['notsubmittedyet']
+msgid "Not submitted yet"
+msgstr ""
+
+#: $string['not_update']
+msgid "Failed to update submission data."
+msgstr ""
+
+#: $string['numberofmembers']
+msgid "Number of members"
+msgstr ""
+
+#: $string['numberofrequiregrading']
+msgid "Number of require grading"
+msgstr ""
+
+#: $string['numberofsubmissions']
+msgid "Number of submissions"
+msgstr ""
+
+#: $string['optionalsettings']
+msgid "Optional settings"
+msgstr ""
+
+#: $string['pagesize']
+msgid "Submissions shown per page"
+msgstr ""
+
+#: $string['pagesize_help']
+msgid "Set the number of assignment to display per page"
+msgstr ""
+
+#: $string['pluginadministration']
+msgctxt "$string['pluginadministration']"
+msgid "Kaltura Media Assignment"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Kaltura Media Assignment"
+msgstr ""
+
+#: $string['preventlate']
+msgid "Prevent late submissions"
+msgstr ""
+
+#: $string['previewmedia']
+msgid "Preview"
+msgstr ""
+
+#: $string['quickgrade']
+msgid "Allow quick grade"
+msgstr ""
+
+#: $string['quickgrade_help']
+msgid ""
+"If enabled, multiple assignments can be graded on one page. Add grades and "
+"comments then click the \"Save all my feedback\" button to save all changes "
+"for that page."
+msgstr ""
+
+#: $string['remainingtime']
+msgid "Remaining time"
+msgstr ""
+
+#: $string['replacemedia']
+msgid "Replace media"
+msgstr ""
+
+#: $string['reqgrading']
+msgid "Require grading"
+msgstr ""
+
+#: $string['reviewmedia']
+msgid "Review submission"
+msgstr ""
+
+#: $string['save']
+msgid "Save Changes"
+msgstr ""
+
+#: $string['savedchanges']
+msgid "Changed Saved"
+msgstr ""
+
+#: $string['savefeedback']
+msgid "Save feedback"
+msgstr ""
+
+#: $string['savepref']
+msgid "Save preferences"
+msgstr ""
+
+#: $string['scr_loading']
+msgid "Loading..."
+msgstr ""
+
+#: $string['show']
+msgid "Show"
+msgstr ""
+
+#: $string['show_help']
+msgid ""
+"If filter is set to 'All' then all student submissions will be displayed; "
+"even if the student didn't submit anything.  If set to 'Require grading' "
+"only submissions that has not been graded or submissions that were updated "
+"by the student after it was graded will be shown.  If set to 'Submitted' "
+"only students who submitted a media assignment."
+msgstr ""
+
+#: $string['singlegrade']
+msgctxt "$string['singlegrade']"
+msgid "Add help text"
+msgstr ""
+
+#: $string['singlegrade_help']
+msgctxt "$string['singlegrade_help']"
+msgid "Add help text"
+msgstr ""
+
+#: $string['singlesubmissionheader']
+msgid "Grade submission"
+msgstr ""
+
+#: $string['status']
+msgid "Status"
+msgstr ""
+
+#: $string['status_marked']
+msgid "Graded"
+msgstr ""
+
+#: $string['status_nomarked']
+msgid "Not graded"
+msgstr ""
+
+#: $string['status_nosubmission']
+msgctxt "$string['status_nosubmission']"
+msgid "No submission"
+msgstr ""
+
+#: $string['status_submitted']
+msgid "Submitted for grading"
+msgstr ""
+
+#: $string['status_timemodified']
+msgid "Last modified"
+msgstr ""
+
+#: $string['submission']
+msgid "Submission"
+msgstr ""
+
+#: $string['submissionclosed']
+msgid "Closed"
+msgstr ""
+
+#: $string['submissioncomment']
+msgid "Comment"
+msgstr ""
+
+#: $string['submissionexpired']
+msgid "Expired"
+msgstr ""
+
+#: $string['submissionnotopened']
+msgid "Not opened yet"
+msgstr ""
+
+#: $string['submissionstatus']
+msgid "Submission status"
+msgstr ""
+
+#: $string['submitmedia']
+msgctxt "$string['submitmedia']"
+msgid "Submit media"
+msgstr ""
+
+#: $string['submitted']
+msgid "Submitted"
+msgstr ""
+
+#: $string['timemodified']
+msgid "Last modified (Submission)"
+msgstr ""

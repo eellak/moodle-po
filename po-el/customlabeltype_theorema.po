@@ -1,0 +1,149 @@
+#. extracted from lang/en/customlabeltype_theorema.php, lang/el/customlabeltype_theorema.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'customlabeltype_theorema', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   customlabeltype_theorema
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['configtypename']
+msgid "Enable subtype Theorema"
+msgstr ""
+
+#: $string['corollary']
+msgid "Corollary"
+msgstr ""
+
+#: $string['corollary0']
+msgid "Corollary 1"
+msgstr ""
+
+#: $string['corollary1']
+msgid "Corollary 2"
+msgstr ""
+
+#: $string['corollary2']
+msgid "Corollary 3"
+msgstr ""
+
+#: $string['corollary3']
+msgid "Corollary 4"
+msgstr ""
+
+#: $string['corollary4']
+msgid "Corollary 5"
+msgstr ""
+
+#: $string['corollary5']
+msgid "Corollary 6"
+msgstr ""
+
+#: $string['corollary6']
+msgid "Corollary 7"
+msgstr ""
+
+#: $string['corollary7']
+msgid "Corollary 8"
+msgstr ""
+
+#: $string['corollary8']
+msgid "Corollary 9"
+msgstr ""
+
+#: $string['corollarynum']
+msgid "Number of corollaries"
+msgstr ""
+
+#: $string['demonstration']
+msgid "Demonstration"
+msgstr ""
+
+#: $string['family']
+msgid "pedagogic"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Course element : Theorema"
+msgstr ""
+
+#: $string['showdemonstration']
+msgid "Show demonstration"
+msgstr ""
+
+#: $string['template']
+msgid ""
+"<table class=\"custombox-theorema\" cellspacing=\"0\" width=\"100%\">\n"
+"<tr valign=\"top\">\n"
+"    <td class=\"custombox-header-thumb theorema\" style=\"background-image : "
+"url(<%%icon%%>);\" width=\"2%\" rowspan=\"3\">\n"
+"    </td>\n"
+"    <td class=\"custombox-header-caption theorema\" width=\"98%\">\n"
+"        Theorema\n"
+"    </td>\n"
+"</tr>\n"
+"<tr valign=\"top\">\n"
+"    <td class=\"custombox-content theorema\">\n"
+"        <%%theorema%%>\n"
+"    </td>\n"
+"</tr>\n"
+"<tr valign=\"top\">\n"
+"    <td class=\"custombox-corollaries theorema\">\n"
+"        <%%corollarylist%%>\n"
+"    </td>\n"
+"</tr>\n"
+"<%if %%showdemonstration%% %>\n"
+"<tr valign=\"top\">\n"
+"    <td class=\"custombox-header-foo theorema\" width=\"2%\"></td>\n"
+"    <td class=\"custombox-demonstration theorema\">\n"
+"        <div class=\"custombox-demonstration-caption "
+"theorema\">Demonstration</div>\n"
+"        <div class=\"custombox-demonstration theorema\"><%%demonstration%%"
+"></div>\n"
+"    </td>\n"
+"</tr>\n"
+"<%endif %>\n"
+"</table>"
+msgstr ""
+
+#: $string['theorema']
+msgid "Theorema text"
+msgstr ""
+
+#: $string['theorema:addinstance']
+msgid "Can add an indstance"
+msgstr "Προσθήκη στιγμιότυπου"
+
+#: $string['theorema:view']
+msgid "Can view the content"
+msgstr ""
+
+#: $string['typename']
+msgid "Theorema"
+msgstr ""

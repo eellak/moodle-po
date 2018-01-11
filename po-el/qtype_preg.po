@@ -1,0 +1,3361 @@
+#. extracted from lang/en/qtype_preg.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qtype_preg', language 'en', branch 'MOODLE_31_STABLE'
+#.  *
+#.  * @package   qtype_preg
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['accept_leaf_control']
+msgctxt "$string['accept_leaf_control']"
+msgid ""
+msgstr ""
+
+#: $string['answerno']
+msgid "Answer {$a}"
+msgstr ""
+
+#: $string['answersinstruct']
+msgid ""
+"<p>Enter (at least one) regular expressions in the chosen notation as "
+"answers. If a correct answer is given, it should match at least one regular "
+"expression with 100% grade.</p><p>You can use placeholders like {$0} in the "
+"feedback to insert captured parts of a student's response. {$0} will be "
+"replaced by the whole match, {$1} with the first subpattern match etc. If "
+"the chosen engine doesn't support subpattern capturing you should use only "
+"{$0}.</p>"
+msgstr ""
+
+#: $string['anycrlf_leaf_control']
+msgctxt "$string['anycrlf_leaf_control']"
+msgid ""
+msgstr ""
+
+#: $string['any_leaf_control']
+msgctxt "$string['any_leaf_control']"
+msgid ""
+msgstr ""
+
+#: $string['assertfailmodeasis']
+msgid "Fast"
+msgstr ""
+
+#: $string['assertfailmodedescription']
+msgid ""
+"Full mode lets the finite state automata engine work 100% correctly with "
+"simple assertions and enables support of complex assertions, but it works "
+"roughtly 2 times slower than the fast mode. Fast mode may rarely yield a "
+"wrong hint in complex regexes with \\b or \\B assertions."
+msgstr ""
+
+#: $string['assertfailmodelabel']
+msgid "Assertion support mode"
+msgstr ""
+
+#: $string['assertfailmodemerge']
+msgid "Full"
+msgstr ""
+
+#: $string['authoring_form_charset_flags']
+msgid "real meaning (unified format)"
+msgstr ""
+
+#: $string['authoring_form_charset_mode']
+msgid "Display mode for complex character classes:"
+msgstr ""
+
+#: $string['authoring_form_charset_userinscription']
+msgid "as written in regular expressions"
+msgstr ""
+
+#: $string['authoring_form_check_strings']
+msgid "Check the string(s)"
+msgstr ""
+
+#: $string['authoring_form_edit_header']
+msgctxt "$string['authoring_form_edit_header']"
+msgid "Regular expression"
+msgstr ""
+
+#: $string['authoring_form_edit_header_help']
+msgid ""
+"Input your regex here. You'll see corresponding syntax tree, explaining "
+"graph and description. Click \"Update\" to commit changes in the regex."
+msgstr ""
+
+#: $string['authoring_form_graph_build']
+msgid "Building the graph..."
+msgstr ""
+
+#: $string['authoring_form_options_header']
+msgid "Matching options"
+msgstr ""
+
+#: $string['authoring_form_options_header_help']
+msgid ""
+"Here you can tune the matching. These options will be saved in the question "
+"editing form."
+msgstr ""
+
+#: $string['authoring_form_page_header']
+msgid "Regex constructor"
+msgstr ""
+
+#: $string['authoring_form_rect_selection_mode']
+msgid "Rectangle selection mode"
+msgstr ""
+
+#: $string['authoring_form_rect_selection_select']
+msgid "Select"
+msgstr ""
+
+#: $string['authoring_form_testing_header']
+msgid "Regular expression testing"
+msgstr ""
+
+#: $string['authoring_form_testing_header_help']
+msgid ""
+"Here you can input some strings (one per line) to test your regex. After "
+"clicking \"Check the string(s)\" you'll see results on the right: matched "
+"parts are green, unmatched parts are red. Icon shows you whether given "
+"string matched entire regex (green check mark) or not (reg cross)."
+msgstr ""
+
+#: $string['authoring_form_testing_textarea']
+msgid "Input strings to match (one per line)"
+msgstr ""
+
+#: $string['authoring_form_text']
+msgid "Enter your regex here:"
+msgstr ""
+
+#: $string['authoring_form_tooltip']
+msgid "Open regex constructor"
+msgstr ""
+
+#: $string['authoring_form_tree_build']
+msgid "Building the tree..."
+msgstr ""
+
+#: $string['backref_intersection']
+msgid "Using backreferences with assertions isn't supported yet."
+msgstr ""
+
+#: $string['bsr_anycrlf_leaf_control']
+msgctxt "$string['bsr_anycrlf_leaf_control']"
+msgid ""
+msgstr ""
+
+#: $string['bsr_unicode_leaf_control']
+msgctxt "$string['bsr_unicode_leaf_control']"
+msgid ""
+msgstr ""
+
+#: $string['callout_big_number_node_error']
+msgid ""
+"The number {$a->addinfo} in the callout is too big, should not be greater "
+"than 255"
+msgstr ""
+
+#: $string['capital_esc_z_leaf_assert']
+msgctxt "$string['capital_esc_z_leaf_assert']"
+msgid "end of the string"
+msgstr ""
+
+#: $string['c_at_end_of_pattern_node_error']
+msgid "Syntax error: \\c at end of pattern"
+msgstr ""
+
+#: $string['char_code_disallowed_node_error']
+msgid "Unicode code points 0xd800 ... 0xdfff are now allowed"
+msgstr ""
+
+#: $string['char_code_too_big_node_error']
+msgid "The character code {$a->addinfo} is too big"
+msgstr ""
+
+#: $string['charhintpenalty']
+msgid "Penalty for the next character hint"
+msgstr ""
+
+#: $string['charhintpenalty_help']
+msgid ""
+"Penalty for getting the one-character hint. Typically will be greater than "
+"usual Moodle question penalty (which applies to any new attempt to answer "
+"question without hints). These penalties are mutually exclusive."
+msgstr ""
+
+#: $string['circumflex_leaf_assert']
+msgctxt "$string['circumflex_leaf_assert']"
+msgid "start of the string"
+msgstr ""
+
+#: $string['collapsed_node']
+msgid "collapsed subexpression"
+msgstr ""
+
+#: $string['commit_leaf_control']
+msgctxt "$string['commit_leaf_control']"
+msgid ""
+msgstr ""
+
+#: $string['condsubexpr_assert_expected_node_error']
+msgid "Assertion or condition expected"
+msgstr ""
+
+#: $string['condsubexpr_too_much_alter_node_error']
+msgid ""
+"Syntax error: too many top-level alternations in the conditional subpattern "
+"in position from {$a->colfirst} to {$a->collast}. Use parentheses if you "
+"want to include alternations in yes-expr on no-expr"
+msgstr ""
+
+#: $string['condsubexpr_zero_condition_node_error']
+msgid "Invalid condition (?(0)"
+msgstr ""
+
+#: $string['correctanswer']
+msgid "Correct answer"
+msgstr ""
+
+#: $string['correctanswer_help']
+msgid ""
+"Enter a correct answer (not a regular expression) to be shown to students. "
+"If you leave it empty the matching engine will try to generate a correct "
+"answer itself, taking heed to get the closest one to the student's response. "
+"For now only finite state automata engine can generate correct answers."
+msgstr ""
+
+#: $string['cr_leaf_control']
+msgctxt "$string['cr_leaf_control']"
+msgid ""
+msgstr ""
+
+#: $string['crlf_leaf_control']
+msgctxt "$string['crlf_leaf_control']"
+msgid ""
+msgstr ""
+
+#: $string['cx_should_be_ascii_node_error']
+msgid "\\c should be followed by an ascii character"
+msgstr ""
+
+#: $string['debugheading']
+msgid "Debug settings"
+msgstr ""
+
+#: $string['defaultenginedescription']
+msgid "Matching engine selected by default when creating a new question"
+msgstr ""
+
+#: $string['defaultenginelabel']
+msgid "Default matching engine"
+msgstr ""
+
+#: $string['defaultlangdescription']
+msgid "Language selected by default when creating a new question"
+msgstr ""
+
+#: $string['defaultlanglabel']
+msgid "Default language"
+msgstr ""
+
+#: $string['defaultnotationdescription']
+msgid "Notation selected by default when creating a new question"
+msgstr ""
+
+#: $string['defaultnotationlabel']
+msgid "Default notation"
+msgstr ""
+
+#: $string['define_node_cond_subexpr']
+msgid "\"define\"-conditional subpattern"
+msgstr ""
+
+#: $string['description_accept_leaf_control']
+msgid "force successful subpattern match"
+msgstr ""
+
+#: $string['description_anycrlf_leaf_control']
+msgid ""
+"newline matches carriage return, linefeed or carriage return followed by "
+"linefeed"
+msgstr ""
+
+#: $string['description_any_leaf_control']
+msgid "newline matches any Unicode newline sequence"
+msgstr ""
+
+#: $string['description_bsr_anycrlf_leaf_control']
+msgid "\\R matches CR, LF, or CRLF"
+msgstr ""
+
+#: $string['description_bsr_unicode_leaf_control']
+msgid "\\R matches any Unicode newline sequence"
+msgstr ""
+
+#: $string['description_capital_esc_z_leaf_assert']
+msgctxt "$string['description_capital_esc_z_leaf_assert']"
+msgid "end of the string"
+msgstr ""
+
+#: $string['description_char']
+msgid ""
+"<span class=\"text-info\" class='font-family:\"Courier New\", Courier, "
+"monospace;'>{$a->char}</span>"
+msgstr ""
+
+#: $string['description_char0']
+msgid "null character(NUL)"
+msgstr ""
+
+#: $string['description_char1']
+msgid "start of header character (SOH)"
+msgstr ""
+
+#: $string['description_char10']
+msgid "data link escape character (DLE)"
+msgstr ""
+
+#: $string['description_char11']
+msgid "device control 1 (oft. XON) character (DC1)"
+msgstr ""
+
+#: $string['description_char12']
+msgid "device control 2 character (DC2)"
+msgstr ""
+
+#: $string['description_char13']
+msgid "device control 3 (oft. XOFF) character (DC3)"
+msgstr ""
+
+#: $string['description_char14']
+msgid "device control 4 character (DC4)"
+msgstr ""
+
+#: $string['description_char15']
+msgid "negative acknowledgement character (NAK)"
+msgstr ""
+
+#: $string['description_char16']
+msgid "synchronous idle character (SYN)"
+msgstr ""
+
+#: $string['description_char_16value']
+msgid "character with code 0x{$a->code}"
+msgstr ""
+
+#: $string['description_char17']
+msgid "end of transmission block character (ETB)"
+msgstr ""
+
+#: $string['description_char18']
+msgid "cancel character (CAN)"
+msgstr ""
+
+#: $string['description_char19']
+msgid "end of medium character (EM)"
+msgstr ""
+
+#: $string['description_char1A']
+msgid "substitute character (SUB)"
+msgstr ""
+
+#: $string['description_char1B']
+msgid "escape(ESC)"
+msgstr ""
+
+#: $string['description_char1C']
+msgid "file separator character (FS)"
+msgstr ""
+
+#: $string['description_char1D']
+msgid "group separator character (GS)"
+msgstr ""
+
+#: $string['description_char1E']
+msgid "record separator character (RS)"
+msgstr ""
+
+#: $string['description_char1F']
+msgid "unit separator character (US)"
+msgstr ""
+
+#: $string['description_char2']
+msgid "start of text character(STX)"
+msgstr ""
+
+#: $string['description_char20']
+msgid "space"
+msgstr ""
+
+#: $string['description_char2002']
+msgid "en space"
+msgstr ""
+
+#: $string['description_char2003']
+msgid "em space"
+msgstr ""
+
+#: $string['description_char2009']
+msgid "thin space"
+msgstr ""
+
+#: $string['description_char200C']
+msgid "zero width non-joiner"
+msgstr ""
+
+#: $string['description_char200D']
+msgid "zero width joiner"
+msgstr ""
+
+#: $string['description_char3']
+msgid "end of text character(ETX)"
+msgstr ""
+
+#: $string['description_char4']
+msgid "end of transmission character(EOT)"
+msgstr ""
+
+#: $string['description_char5']
+msgid "enquiry character(ENQ)"
+msgstr ""
+
+#: $string['description_char6']
+msgid "acknowledgement character(ACK)"
+msgstr ""
+
+#: $string['description_char7']
+msgid "alarm character(BEL)"
+msgstr ""
+
+#: $string['description_char7F']
+msgid "delete character (DEL)"
+msgstr ""
+
+#: $string['description_char8']
+msgid "backspace character(BS)"
+msgstr ""
+
+#: $string['description_char9']
+msgid "tabulation(HT)"
+msgstr ""
+
+#: $string['description_charA']
+msgid "line feed(LF)"
+msgstr ""
+
+#: $string['description_charA0']
+msgid "non-breaking space"
+msgstr ""
+
+#: $string['description_charAD']
+msgid "soft hyphen character"
+msgstr ""
+
+#: $string['description_charB']
+msgid "vertical tabulation(VT)"
+msgstr ""
+
+#: $string['description_charC']
+msgid "form feed(FF)"
+msgstr ""
+
+#: $string['description_charD']
+msgid "carriage return character(CR)"
+msgstr ""
+
+#: $string['description_charE']
+msgid "shift out character (SO)"
+msgstr ""
+
+#: $string['description_charF']
+msgid "shift in character (SI)"
+msgstr ""
+
+#: $string['description_charflag_alnum']
+msgid "a letter or digit"
+msgstr ""
+
+#: $string['description_charflag_alnum_neg']
+msgid "not a letter and not digit"
+msgstr ""
+
+#: $string['description_charflag_alpha']
+msgid "a letter"
+msgstr ""
+
+#: $string['description_charflag_alpha_neg']
+msgid "not a letter"
+msgstr ""
+
+#: $string['description_charflag_Arabic']
+msgid "Arabic character"
+msgstr ""
+
+#: $string['description_charflag_Arabic_neg']
+msgid "not Arabic character"
+msgstr ""
+
+#: $string['description_charflag_Armenian']
+msgid "Armenian character"
+msgstr ""
+
+#: $string['description_charflag_Armenian_neg']
+msgid "not Armenian character"
+msgstr ""
+
+#: $string['description_charflag_ascii']
+msgid "a character with codes 0-127"
+msgstr ""
+
+#: $string['description_charflag_ascii_neg']
+msgid "not a character with codes 0-127"
+msgstr ""
+
+#: $string['description_charflag_Avestan']
+msgid "Avestan character"
+msgstr ""
+
+#: $string['description_charflag_Avestan_neg']
+msgid "not Avestan character"
+msgstr ""
+
+#: $string['description_charflag_Balinese']
+msgid "Balinese character"
+msgstr ""
+
+#: $string['description_charflag_Balinese_neg']
+msgid "not Balinese character"
+msgstr ""
+
+#: $string['description_charflag_Bamum']
+msgid "Bamum character"
+msgstr ""
+
+#: $string['description_charflag_Bamum_neg']
+msgid "not Bamum character"
+msgstr ""
+
+#: $string['description_charflag_Bengali']
+msgid "Bengali character"
+msgstr ""
+
+#: $string['description_charflag_Bengali_neg']
+msgid "not Bengali character"
+msgstr ""
+
+#: $string['description_charflag_blank']
+msgid "a space or tab only"
+msgstr ""
+
+#: $string['description_charflag_blank_neg']
+msgid "not a space and not tab"
+msgstr ""
+
+#: $string['description_charflag_Bopomofo']
+msgid "Bopomofo character"
+msgstr ""
+
+#: $string['description_charflag_Bopomofo_neg']
+msgid "not Bopomofo character"
+msgstr ""
+
+#: $string['description_charflag_Braille']
+msgid "Braille character"
+msgstr ""
+
+#: $string['description_charflag_Braille_neg']
+msgid "not Braille character"
+msgstr ""
+
+#: $string['description_charflag_Buginese']
+msgid "Buginese character"
+msgstr ""
+
+#: $string['description_charflag_Buginese_neg']
+msgid "not Buginese character"
+msgstr ""
+
+#: $string['description_charflag_Buhid']
+msgid "Buhid character"
+msgstr ""
+
+#: $string['description_charflag_Buhid_neg']
+msgid "not Buhid character"
+msgstr ""
+
+#: $string['description_charflag_C']
+msgid "other Unicode property"
+msgstr ""
+
+#: $string['description_charflag_Canadian_Aboriginal']
+msgid "Canadian Aboriginal character"
+msgstr ""
+
+#: $string['description_charflag_Canadian_Aboriginal_neg']
+msgid "not Canadian Aboriginal character"
+msgstr ""
+
+#: $string['description_charflag_Carian']
+msgid "Carian character"
+msgstr ""
+
+#: $string['description_charflag_Carian_neg']
+msgid "not Carian character"
+msgstr ""
+
+#: $string['description_charflag_Cc']
+msgid "control"
+msgstr ""
+
+#: $string['description_charflag_Cc_neg']
+msgid "not control"
+msgstr ""
+
+#: $string['description_charflag_Cf']
+msgid "format"
+msgstr ""
+
+#: $string['description_charflag_Cf_neg']
+msgid "not format"
+msgstr ""
+
+#: $string['description_charflag_Cham']
+msgid "Cham character"
+msgstr ""
+
+#: $string['description_charflag_Cham_neg']
+msgid "not Cham character"
+msgstr ""
+
+#: $string['description_charflag_Cherokee']
+msgid "Cherokee character"
+msgstr ""
+
+#: $string['description_charflag_Cherokee_neg']
+msgid "not Cherokee character"
+msgstr ""
+
+#: $string['description_charflag_Cn']
+msgid "unassigned"
+msgstr ""
+
+#: $string['description_charflag_C_neg']
+msgid "not other Unicode property"
+msgstr ""
+
+#: $string['description_charflag_Cn_neg']
+msgid "not unassigned"
+msgstr ""
+
+#: $string['description_charflag_cntrl']
+msgid "a control character"
+msgstr ""
+
+#: $string['description_charflag_cntrl_neg']
+msgid "not a control character"
+msgstr ""
+
+#: $string['description_charflag_Co']
+msgid "private use"
+msgstr ""
+
+#: $string['description_charflag_Common']
+msgid "Common character"
+msgstr ""
+
+#: $string['description_charflag_Common_neg']
+msgid "not Common character"
+msgstr ""
+
+#: $string['description_charflag_Co_neg']
+msgid "not private use"
+msgstr ""
+
+#: $string['description_charflag_Coptic']
+msgid "Coptic character"
+msgstr ""
+
+#: $string['description_charflag_Coptic_neg']
+msgid "not Coptic character"
+msgstr ""
+
+#: $string['description_charflag_Cs']
+msgid "surrogate"
+msgstr ""
+
+#: $string['description_charflag_Cs_neg']
+msgid "not surrogate"
+msgstr ""
+
+#: $string['description_charflag_Cuneiform']
+msgid "Cuneiform character"
+msgstr ""
+
+#: $string['description_charflag_Cuneiform_neg']
+msgid "not Cuneiform character"
+msgstr ""
+
+#: $string['description_charflag_Cypriot']
+msgid "Cypriot character"
+msgstr ""
+
+#: $string['description_charflag_Cypriot_neg']
+msgid "not Cypriot character"
+msgstr ""
+
+#: $string['description_charflag_Cyrillic']
+msgid "Cyrillic character"
+msgstr ""
+
+#: $string['description_charflag_Cyrillic_neg']
+msgid "not Cyrillic character"
+msgstr ""
+
+#: $string['description_charflag_Deseret']
+msgid "Deseret character"
+msgstr ""
+
+#: $string['description_charflag_Deseret_neg']
+msgid "not Deseret character"
+msgstr ""
+
+#: $string['description_charflag_Devanagari']
+msgid "Devanagari character"
+msgstr ""
+
+#: $string['description_charflag_Devanagari_neg']
+msgid "not Devanagari character"
+msgstr ""
+
+#: $string['description_charflag_digit']
+msgctxt "$string['description_charflag_digit']"
+msgid "a decimal digit"
+msgstr ""
+
+#: $string['description_charflag_digit_neg']
+msgctxt "$string['description_charflag_digit_neg']"
+msgid "not a decimal digit"
+msgstr ""
+
+#: $string['description_charflag_dot']
+msgid "any character"
+msgstr ""
+
+#: $string['description_charflag_Egyptian_Hieroglyphs']
+msgid "Egyptian Hieroglyphs character"
+msgstr ""
+
+#: $string['description_charflag_Egyptian_Hieroglyphs_neg']
+msgid "not Egyptian Hieroglyphs character"
+msgstr ""
+
+#: $string['description_charflag_Ethiopic']
+msgid "Ethiopic character"
+msgstr ""
+
+#: $string['description_charflag_Ethiopic_neg']
+msgid "not Ethiopic character"
+msgstr ""
+
+#: $string['description_charflag_Georgian']
+msgid "Georgian character"
+msgstr ""
+
+#: $string['description_charflag_Georgian_neg']
+msgid "not Georgian character"
+msgstr ""
+
+#: $string['description_charflag_Glagolitic']
+msgid "Glagolitic character"
+msgstr ""
+
+#: $string['description_charflag_Glagolitic_neg']
+msgid "not Glagolitic character"
+msgstr ""
+
+#: $string['description_charflag_Gothic']
+msgid "Gothic character"
+msgstr ""
+
+#: $string['description_charflag_Gothic_neg']
+msgid "not Gothic character"
+msgstr ""
+
+#: $string['description_charflag_graph']
+msgid "a printing character (excluding space)"
+msgstr ""
+
+#: $string['description_charflag_graph_neg']
+msgid "not a printing character (excluding space)"
+msgstr ""
+
+#: $string['description_charflag_Greek']
+msgid "Greek character"
+msgstr ""
+
+#: $string['description_charflag_Greek_neg']
+msgid "not Greek character"
+msgstr ""
+
+#: $string['description_charflag_Gujarati']
+msgid "Gujarati character"
+msgstr ""
+
+#: $string['description_charflag_Gujarati_neg']
+msgid "not Gujarati character"
+msgstr ""
+
+#: $string['description_charflag_Gurmukhi']
+msgid "Gurmukhi character"
+msgstr ""
+
+#: $string['description_charflag_Gurmukhi_neg']
+msgid "not Gurmukhi character"
+msgstr ""
+
+#: $string['description_charflag_Han']
+msgid "Han character"
+msgstr ""
+
+#: $string['description_charflag_Hangul']
+msgid "Hangul character"
+msgstr ""
+
+#: $string['description_charflag_Hangul_neg']
+msgid "not Hangul character"
+msgstr ""
+
+#: $string['description_charflag_Han_neg']
+msgid "not Han character"
+msgstr ""
+
+#: $string['description_charflag_Hanunoo']
+msgid "Hanunoo character"
+msgstr ""
+
+#: $string['description_charflag_Hanunoo_neg']
+msgid "not Hanunoo character"
+msgstr ""
+
+#: $string['description_charflag_Hebrew']
+msgid "Hebrew character"
+msgstr ""
+
+#: $string['description_charflag_Hebrew_neg']
+msgid "not Hebrew character"
+msgstr ""
+
+#: $string['description_charflag_Hiragana']
+msgid "Hiragana character"
+msgstr ""
+
+#: $string['description_charflag_Hiragana_neg']
+msgid "not Hiragana character"
+msgstr ""
+
+#: $string['description_charflag_Imperial_Aramaic']
+msgid "Imperial Aramaic character"
+msgstr ""
+
+#: $string['description_charflag_Imperial_Aramaic_neg']
+msgid "not Imperial Aramaic character"
+msgstr ""
+
+#: $string['description_charflag_Inherited']
+msgid "Inherited character"
+msgstr ""
+
+#: $string['description_charflag_Inherited_neg']
+msgid "not Inherited character"
+msgstr ""
+
+#: $string['description_charflag_Inscriptional_Pahlavi']
+msgid "Inscriptional Pahlavi character"
+msgstr ""
+
+#: $string['description_charflag_Inscriptional_Pahlavi_neg']
+msgid "not Inscriptional Pahlavi character"
+msgstr ""
+
+#: $string['description_charflag_Inscriptional_Parthian']
+msgid "Inscriptional Parthian character"
+msgstr ""
+
+#: $string['description_charflag_Inscriptional_Parthian_neg']
+msgid "not Inscriptional Parthian character"
+msgstr ""
+
+#: $string['description_charflag_Javanese']
+msgid "Javanese character"
+msgstr ""
+
+#: $string['description_charflag_Javanese_neg']
+msgid "not Javanese character"
+msgstr ""
+
+#: $string['description_charflag_Kaithi']
+msgid "Kaithi character"
+msgstr ""
+
+#: $string['description_charflag_Kaithi_neg']
+msgid "not Kaithi character"
+msgstr ""
+
+#: $string['description_charflag_Kannada']
+msgid "Kannada character"
+msgstr ""
+
+#: $string['description_charflag_Kannada_neg']
+msgid "not Kannada character"
+msgstr ""
+
+#: $string['description_charflag_Katakana']
+msgid "Katakana character"
+msgstr ""
+
+#: $string['description_charflag_Katakana_neg']
+msgid "not Katakana character"
+msgstr ""
+
+#: $string['description_charflag_Kayah_Li']
+msgid "Kayah Li character"
+msgstr ""
+
+#: $string['description_charflag_Kayah_Li_neg']
+msgid "not Kayah Li character"
+msgstr ""
+
+#: $string['description_charflag_Kharoshthi']
+msgid "Kharoshthi character"
+msgstr ""
+
+#: $string['description_charflag_Kharoshthi_neg']
+msgid "not Kharoshthi character"
+msgstr ""
+
+#: $string['description_charflag_Khmer']
+msgid "Khmer character"
+msgstr ""
+
+#: $string['description_charflag_Khmer_neg']
+msgid "not Khmer character"
+msgstr ""
+
+#: $string['description_charflag_L']
+msgid "letter"
+msgstr ""
+
+#: $string['description_charflag_Lao']
+msgid "Lao character"
+msgstr ""
+
+#: $string['description_charflag_Lao_neg']
+msgid "not Lao character"
+msgstr ""
+
+#: $string['description_charflag_Latin']
+msgid "Latin character"
+msgstr ""
+
+#: $string['description_charflag_Latin_neg']
+msgid "not Latin character"
+msgstr ""
+
+#: $string['description_charflag_Lepcha']
+msgid "Lepcha character"
+msgstr ""
+
+#: $string['description_charflag_Lepcha_neg']
+msgid "not Lepcha character"
+msgstr ""
+
+#: $string['description_charflag_Limbu']
+msgid "Limbu character"
+msgstr ""
+
+#: $string['description_charflag_Limbu_neg']
+msgid "not Limbu character"
+msgstr ""
+
+#: $string['description_charflag_Linear_B']
+msgid "Linear B character"
+msgstr ""
+
+#: $string['description_charflag_Linear_B_neg']
+msgid "not Linear B character"
+msgstr ""
+
+#: $string['description_charflag_Lisu']
+msgid "Lisu character"
+msgstr ""
+
+#: $string['description_charflag_Lisu_neg']
+msgid "not Lisu character"
+msgstr ""
+
+#: $string['description_charflag_Ll']
+msgid "lower case letter"
+msgstr ""
+
+#: $string['description_charflag_Ll_neg']
+msgid "not lower case letter"
+msgstr ""
+
+#: $string['description_charflag_Lm']
+msgid "modifier letter"
+msgstr ""
+
+#: $string['description_charflag_Lm_neg']
+msgid "not modifier letter"
+msgstr ""
+
+#: $string['description_charflag_L_neg']
+msgid "not letter"
+msgstr ""
+
+#: $string['description_charflag_Lo']
+msgid "other letter"
+msgstr ""
+
+#: $string['description_charflag_Lo_neg']
+msgid "not other letter"
+msgstr ""
+
+#: $string['description_charflag_lower']
+msgid "a lower case letter"
+msgstr ""
+
+#: $string['description_charflag_lower_neg']
+msgid "not a lower case letter"
+msgstr ""
+
+#: $string['description_charflag_Lt']
+msgid "title case letter"
+msgstr ""
+
+#: $string['description_charflag_Lt_neg']
+msgid "not title case letter"
+msgstr ""
+
+#: $string['description_charflag_Lu']
+msgid "upper case letter"
+msgstr ""
+
+#: $string['description_charflag_Lu_neg']
+msgid "not upper case letter"
+msgstr ""
+
+#: $string['description_charflag_Lycian']
+msgid "Lycian character"
+msgstr ""
+
+#: $string['description_charflag_Lycian_neg']
+msgid "not Lycian character"
+msgstr ""
+
+#: $string['description_charflag_Lydian']
+msgid "Lydian character"
+msgstr ""
+
+#: $string['description_charflag_Lydian_neg']
+msgid "not Lydian character"
+msgstr ""
+
+#: $string['description_charflag_M']
+msgid "mark"
+msgstr ""
+
+#: $string['description_charflag_Malayalam']
+msgid "Malayalam character"
+msgstr ""
+
+#: $string['description_charflag_Malayalam_neg']
+msgid "not Malayalam character"
+msgstr ""
+
+#: $string['description_charflag_Mc']
+msgid "spacing mark"
+msgstr ""
+
+#: $string['description_charflag_Mc_neg']
+msgid "not spacing mark"
+msgstr ""
+
+#: $string['description_charflag_Me']
+msgid "enclosing mark"
+msgstr ""
+
+#: $string['description_charflag_Meetei_Mayek']
+msgid "Meetei Mayek character"
+msgstr ""
+
+#: $string['description_charflag_Meetei_Mayek_neg']
+msgid "not Meetei Mayek character"
+msgstr ""
+
+#: $string['description_charflag_Me_neg']
+msgid "not enclosing mark"
+msgstr ""
+
+#: $string['description_charflag_Mn']
+msgid "non-spacing mark"
+msgstr ""
+
+#: $string['description_charflag_M_neg']
+msgid "not mark"
+msgstr ""
+
+#: $string['description_charflag_Mn_neg']
+msgid "not non-spacing mark"
+msgstr ""
+
+#: $string['description_charflag_Mongolian']
+msgid "Mongolian character"
+msgstr ""
+
+#: $string['description_charflag_Mongolian_neg']
+msgid "not Mongolian character"
+msgstr ""
+
+#: $string['description_charflag_Myanmar']
+msgid "Myanmar character"
+msgstr ""
+
+#: $string['description_charflag_Myanmar_neg']
+msgid "not Myanmar character"
+msgstr ""
+
+#: $string['description_charflag_N']
+msgid "number"
+msgstr ""
+
+#: $string['description_charflag_Nd']
+msgid "decimal number"
+msgstr ""
+
+#: $string['description_charflag_Nd_neg']
+msgid "not decimal number"
+msgstr ""
+
+#: $string['description_charflag_New_Tai_Lue']
+msgid "New Tai Lue character"
+msgstr ""
+
+#: $string['description_charflag_New_Tai_Lue_neg']
+msgid "not New Tai Lue character"
+msgstr ""
+
+#: $string['description_charflag_Nko']
+msgid "Nko character"
+msgstr ""
+
+#: $string['description_charflag_Nko_neg']
+msgid "not Nko character"
+msgstr ""
+
+#: $string['description_charflag_Nl']
+msgid "letter number"
+msgstr ""
+
+#: $string['description_charflag_Nl_neg']
+msgid "not letter number"
+msgstr ""
+
+#: $string['description_charflag_N_neg']
+msgid "not number"
+msgstr ""
+
+#: $string['description_charflag_No']
+msgid "other number"
+msgstr ""
+
+#: $string['description_charflag_No_neg']
+msgid "not other number"
+msgstr ""
+
+#: $string['description_charflag_Ogham']
+msgid "Ogham character"
+msgstr ""
+
+#: $string['description_charflag_Ogham_neg']
+msgid "not Ogham character"
+msgstr ""
+
+#: $string['description_charflag_Ol_Chiki']
+msgid "Ol_Chiki character"
+msgstr ""
+
+#: $string['description_charflag_Ol_Chiki_neg']
+msgid "not Ol_Chiki character"
+msgstr ""
+
+#: $string['description_charflag_Old_Italic']
+msgid "Old Italic character"
+msgstr ""
+
+#: $string['description_charflag_Old_Italic_neg']
+msgid "not Old Italic character"
+msgstr ""
+
+#: $string['description_charflag_Old_Persian']
+msgid "Old Persian character"
+msgstr ""
+
+#: $string['description_charflag_Old_Persian_neg']
+msgid "not Old Persian character"
+msgstr ""
+
+#: $string['description_charflag_Old_South_Arabian']
+msgid "Old South_Arabian character"
+msgstr ""
+
+#: $string['description_charflag_Old_South_Arabian_neg']
+msgid "not Old South_Arabian character"
+msgstr ""
+
+#: $string['description_charflag_Old_Turkic']
+msgid "Old_Turkic character"
+msgstr ""
+
+#: $string['description_charflag_Old_Turkic_neg']
+msgid "not Old_Turkic character"
+msgstr ""
+
+#: $string['description_charflag_Oriya']
+msgid "Oriya character"
+msgstr ""
+
+#: $string['description_charflag_Oriya_neg']
+msgid "not Oriya character"
+msgstr ""
+
+#: $string['description_charflag_Osmanya']
+msgid "Osmanya character"
+msgstr ""
+
+#: $string['description_charflag_Osmanya_neg']
+msgid "not Osmanya character"
+msgstr ""
+
+#: $string['description_charflag_P']
+msgid "punctuation"
+msgstr ""
+
+#: $string['description_charflag_Pc']
+msgid "connector punctuation"
+msgstr ""
+
+#: $string['description_charflag_Pc_neg']
+msgid "not connector punctuation"
+msgstr ""
+
+#: $string['description_charflag_Pd']
+msgid "dash punctuation"
+msgstr ""
+
+#: $string['description_charflag_Pd_neg']
+msgid "not dash punctuation"
+msgstr ""
+
+#: $string['description_charflag_Pe']
+msgid "close punctuation"
+msgstr ""
+
+#: $string['description_charflag_Pe_neg']
+msgid "not close punctuation"
+msgstr ""
+
+#: $string['description_charflag_Pf']
+msgid "final punctuation"
+msgstr ""
+
+#: $string['description_charflag_Pf_neg']
+msgid "not final punctuation"
+msgstr ""
+
+#: $string['description_charflag_Phags_Pa']
+msgid "Phags_Pa character"
+msgstr ""
+
+#: $string['description_charflag_Phags_Pa_neg']
+msgid "not Phags_Pa character"
+msgstr ""
+
+#: $string['description_charflag_Phoenician']
+msgid "Phoenician character"
+msgstr ""
+
+#: $string['description_charflag_Phoenician_neg']
+msgid "not Phoenician character"
+msgstr ""
+
+#: $string['description_charflag_Pi']
+msgid "initial punctuation"
+msgstr ""
+
+#: $string['description_charflag_Pi_neg']
+msgid "not initial punctuation"
+msgstr ""
+
+#: $string['description_charflag_P_neg']
+msgid "not punctuation"
+msgstr ""
+
+#: $string['description_charflag_Po']
+msgid "other punctuation"
+msgstr ""
+
+#: $string['description_charflag_Po_neg']
+msgid "not other punctuation"
+msgstr ""
+
+#: $string['description_charflag_print']
+msgid "a printing character (including space)"
+msgstr ""
+
+#: $string['description_charflag_print_neg']
+msgid "not a printing character (including space)"
+msgstr ""
+
+#: $string['description_charflag_Ps']
+msgid "open punctuation"
+msgstr ""
+
+#: $string['description_charflag_Ps_neg']
+msgid "not open punctuation"
+msgstr ""
+
+#: $string['description_charflag_punct']
+msgid "a printing character (excluding letters and digits and space)"
+msgstr ""
+
+#: $string['description_charflag_punct_neg']
+msgid "not a printing character (excluding letters and digits and space)"
+msgstr ""
+
+#: $string['description_charflag_Rejang']
+msgid "Rejang character"
+msgstr ""
+
+#: $string['description_charflag_Rejang_neg']
+msgid "not Rejang character"
+msgstr ""
+
+#: $string['description_charflag_Runic']
+msgid "Runic character"
+msgstr ""
+
+#: $string['description_charflag_Runic_neg']
+msgid "not Runic character"
+msgstr ""
+
+#: $string['description_charflag_S']
+msgid "symbol"
+msgstr ""
+
+#: $string['description_charflag_Samaritan']
+msgid "Samaritan character"
+msgstr ""
+
+#: $string['description_charflag_Samaritan_neg']
+msgid "not Samaritan character"
+msgstr ""
+
+#: $string['description_charflag_Saurashtra']
+msgid "Saurashtra character"
+msgstr ""
+
+#: $string['description_charflag_Saurashtra_neg']
+msgid "not Saurashtra character"
+msgstr ""
+
+#: $string['description_charflag_Sc']
+msgid "currency symbol"
+msgstr ""
+
+#: $string['description_charflag_Sc_neg']
+msgid "not currency symbol"
+msgstr ""
+
+#: $string['description_charflag_Shavian']
+msgid "Shavian character"
+msgstr ""
+
+#: $string['description_charflag_Shavian_neg']
+msgid "not Shavian character"
+msgstr ""
+
+#: $string['description_charflag_Sinhala']
+msgid "Sinhala character"
+msgstr ""
+
+#: $string['description_charflag_Sinhala_neg']
+msgid "not Sinhala character"
+msgstr ""
+
+#: $string['description_charflag_Sk']
+msgid "modifier symbol"
+msgstr ""
+
+#: $string['description_charflag_Sk_neg']
+msgid "not modifier symbol"
+msgstr ""
+
+#: $string['description_charflag_slashd']
+msgctxt "$string['description_charflag_slashd']"
+msgid "a decimal digit"
+msgstr ""
+
+#: $string['description_charflag_slashd_neg']
+msgctxt "$string['description_charflag_slashd_neg']"
+msgid "not a decimal digit"
+msgstr ""
+
+#: $string['description_charflag_slashh']
+msgid "a horizontal white space character"
+msgstr ""
+
+#: $string['description_charflag_slashh_neg']
+msgid "not a horizontal white space character"
+msgstr ""
+
+#: $string['description_charflag_slashs']
+msgctxt "$string['description_charflag_slashs']"
+msgid "a white space"
+msgstr ""
+
+#: $string['description_charflag_slashs_neg']
+msgctxt "$string['description_charflag_slashs_neg']"
+msgid "not a white space"
+msgstr ""
+
+#: $string['description_charflag_slashv']
+msgid "a vertical white space character"
+msgstr ""
+
+#: $string['description_charflag_slashv_neg']
+msgid "not a vertical white space character"
+msgstr ""
+
+#: $string['description_charflag_slashw']
+msgctxt "$string['description_charflag_slashw']"
+msgid "a word character"
+msgstr ""
+
+#: $string['description_charflag_slashw_neg']
+msgctxt "$string['description_charflag_slashw_neg']"
+msgid "not a word character"
+msgstr ""
+
+#: $string['description_charflag_Sm']
+msgid "mathematical symbol"
+msgstr ""
+
+#: $string['description_charflag_Sm_neg']
+msgid "not mathematical symbol"
+msgstr ""
+
+#: $string['description_charflag_S_neg']
+msgid "not symbol"
+msgstr ""
+
+#: $string['description_charflag_So']
+msgid "other symbol"
+msgstr ""
+
+#: $string['description_charflag_So_neg']
+msgid "not other symbol"
+msgstr ""
+
+#: $string['description_charflag_space']
+msgctxt "$string['description_charflag_space']"
+msgid "a white space"
+msgstr ""
+
+#: $string['description_charflag_space_neg']
+msgctxt "$string['description_charflag_space_neg']"
+msgid "not a white space"
+msgstr ""
+
+#: $string['description_charflag_Sundanese']
+msgid "Sundanese character"
+msgstr ""
+
+#: $string['description_charflag_Sundanese_neg']
+msgid "not Sundanese character"
+msgstr ""
+
+#: $string['description_charflag_Syloti_Nagri']
+msgid "Syloti_Nagri character"
+msgstr ""
+
+#: $string['description_charflag_Syloti_Nagri_neg']
+msgid "not Syloti_Nagri character"
+msgstr ""
+
+#: $string['description_charflag_Syriac']
+msgid "Syriac character"
+msgstr ""
+
+#: $string['description_charflag_Syriac_neg']
+msgid "not Syriac character"
+msgstr ""
+
+#: $string['description_charflag_Tagalog']
+msgid "Tagalog character"
+msgstr ""
+
+#: $string['description_charflag_Tagalog_neg']
+msgid "not Tagalog character"
+msgstr ""
+
+#: $string['description_charflag_Tagbanwa']
+msgid "Tagbanwa character"
+msgstr ""
+
+#: $string['description_charflag_Tagbanwa_neg']
+msgid "not Tagbanwa character"
+msgstr ""
+
+#: $string['description_charflag_Tai_Le']
+msgid "Tai_Le character"
+msgstr ""
+
+#: $string['description_charflag_Tai_Le_neg']
+msgid "not Tai_Le character"
+msgstr ""
+
+#: $string['description_charflag_Tai_Tham']
+msgid "Tai_Tham character"
+msgstr ""
+
+#: $string['description_charflag_Tai_Tham_neg']
+msgid "not Tai_Tham character"
+msgstr ""
+
+#: $string['description_charflag_Tai_Viet']
+msgid "Tai_Viet character"
+msgstr ""
+
+#: $string['description_charflag_Tai_Viet_neg']
+msgid "not Tai_Viet character"
+msgstr ""
+
+#: $string['description_charflag_Tamil']
+msgid "Tamil character"
+msgstr ""
+
+#: $string['description_charflag_Tamil_neg']
+msgid "not Tamil character"
+msgstr ""
+
+#: $string['description_charflag_Telugu']
+msgid "Telugu character"
+msgstr ""
+
+#: $string['description_charflag_Telugu_neg']
+msgid "not Telugu character"
+msgstr ""
+
+#: $string['description_charflag_Thaana']
+msgid "Thaana character"
+msgstr ""
+
+#: $string['description_charflag_Thaana_neg']
+msgid "not Thaana character"
+msgstr ""
+
+#: $string['description_charflag_Thai']
+msgid "Thai character"
+msgstr ""
+
+#: $string['description_charflag_Thai_neg']
+msgid "not Thai character"
+msgstr ""
+
+#: $string['description_charflag_Tibetan']
+msgid "Tibetan character"
+msgstr ""
+
+#: $string['description_charflag_Tibetan_neg']
+msgid "not Tibetan character"
+msgstr ""
+
+#: $string['description_charflag_Tifinagh']
+msgid "Tifinagh character"
+msgstr ""
+
+#: $string['description_charflag_Tifinagh_neg']
+msgid "not Tifinagh character"
+msgstr ""
+
+#: $string['description_charflag_Ugaritic']
+msgid "Ugaritic character"
+msgstr ""
+
+#: $string['description_charflag_Ugaritic_neg']
+msgid "not Ugaritic character"
+msgstr ""
+
+#: $string['description_charflag_upper']
+msgid "an upper case letter"
+msgstr ""
+
+#: $string['description_charflag_upper_neg']
+msgid "not an upper case letter"
+msgstr ""
+
+#: $string['description_charflag_Vai']
+msgid "Vai character"
+msgstr ""
+
+#: $string['description_charflag_Vai_neg']
+msgid "not Vai character"
+msgstr ""
+
+#: $string['description_charflag_word']
+msgctxt "$string['description_charflag_word']"
+msgid "a word character"
+msgstr ""
+
+#: $string['description_charflag_word_neg']
+msgctxt "$string['description_charflag_word_neg']"
+msgid "not a word character"
+msgstr ""
+
+#: $string['description_charflag_Xan']
+msgid "any alphanumeric character"
+msgstr ""
+
+#: $string['description_charflag_Xan_neg']
+msgid "not any alphanumeric character"
+msgstr ""
+
+#: $string['description_charflag_xdigit']
+msgid "a hexadecimal digit"
+msgstr ""
+
+#: $string['description_charflag_xdigit_neg']
+msgid "not a hexadecimal digit"
+msgstr ""
+
+#: $string['description_charflag_Xps']
+msgid "any POSIX space character"
+msgstr ""
+
+#: $string['description_charflag_Xps_neg']
+msgid "not any POSIX space character"
+msgstr ""
+
+#: $string['description_charflag_Xsp']
+msgid "any Perl space character"
+msgstr ""
+
+#: $string['description_charflag_Xsp_neg']
+msgid "not any Perl space character"
+msgstr ""
+
+#: $string['description_charflag_Xwd']
+msgid "any Perl \"word\" character"
+msgstr ""
+
+#: $string['description_charflag_Xwd_neg']
+msgid "not any Perl \"word\" character"
+msgstr ""
+
+#: $string['description_charflag_Yi']
+msgid "Yi character"
+msgstr ""
+
+#: $string['description_charflag_Yi_neg']
+msgid "not Yi character"
+msgstr ""
+
+#: $string['description_charflag_Z']
+msgid "separator"
+msgstr ""
+
+#: $string['description_charflag_Zl']
+msgid "line separator"
+msgstr ""
+
+#: $string['description_charflag_Zl_neg']
+msgid "not line separator"
+msgstr ""
+
+#: $string['description_charflag_Z_neg']
+msgid "not separator"
+msgstr ""
+
+#: $string['description_charflag_Zp']
+msgid "paragraph separator"
+msgstr ""
+
+#: $string['description_charflag_Zp_neg']
+msgid "not paragraph separator"
+msgstr ""
+
+#: $string['description_charflag_Zs']
+msgid "space separator"
+msgstr ""
+
+#: $string['description_charflag_Zs_neg']
+msgid "not space separator"
+msgstr ""
+
+#: $string['description_charset']
+msgid "one of the following characters: {$a->characters};"
+msgstr ""
+
+#: $string['description_charset_neg']
+msgid "any character except the following: {$a->characters};"
+msgstr ""
+
+#: $string['description_charset_neg_one']
+msgid "not {$a->characters}"
+msgstr ""
+
+#: $string['description_charset_range']
+msgid "any character {$a}"
+msgstr ""
+
+#: $string['description_circumflex_leaf_assert']
+msgctxt "$string['description_circumflex_leaf_assert']"
+msgid "start of the string"
+msgstr ""
+
+#: $string['description_commit_leaf_control']
+msgid ""
+"if the rest of the pattern does not match - overall failure, no advance of "
+"starting point"
+msgstr ""
+
+#: $string['description_cr_leaf_control']
+msgid "newline matches carriage return only"
+msgstr ""
+
+#: $string['description_crlf_leaf_control']
+msgid "newline matches carriage return followed by linefeed"
+msgstr ""
+
+#: $string['description_define_node_cond_subexpr']
+msgid "definition of {$a->firstoperand}"
+msgstr ""
+
+#: $string['description_dollar_leaf_assert']
+msgctxt "$string['description_dollar_leaf_assert']"
+msgid "end of the string"
+msgstr ""
+
+#: $string['description_duplicate_node_subexpr']
+msgid ""
+"grouping (reset group numbers for capturing groups in each alternation): [ "
+"{$a->firstoperand} ]"
+msgstr ""
+
+#: $string['description_empty_leaf_meta']
+msgid "nothing"
+msgstr ""
+
+#: $string['description_errorafter']
+msgid "</span>"
+msgstr ""
+
+#: $string['description_errorbefore']
+msgid "<span style=\"color:red\">"
+msgstr ""
+
+#: $string['description_esc_a_leaf_assert']
+msgctxt "$string['description_esc_a_leaf_assert']"
+msgid "start of the string"
+msgstr ""
+
+#: $string['description_esc_b_leaf_assert']
+msgctxt "$string['description_esc_b_leaf_assert']"
+msgid "a word boundary"
+msgstr ""
+
+#: $string['description_esc_b_leaf_assert_neg']
+msgid "not a word boundary"
+msgstr ""
+
+#: $string['description_esc_g_leaf_assert']
+msgctxt "$string['description_esc_g_leaf_assert']"
+msgid "first matching position in the string"
+msgstr ""
+
+#: $string['description_fail_leaf_control']
+msgid "force fail"
+msgstr ""
+
+#: $string['description_grouping_node_subexpr']
+msgid "grouping: [ {$a->firstoperand} ]"
+msgstr ""
+
+#: $string['description_leaf_backref']
+msgid "text matched by subpattern #{$a}"
+msgstr ""
+
+#: $string['description_leaf_backref_name']
+msgid "text matched by subpattern \"{$a}\""
+msgstr ""
+
+#: $string['description_leaf_options']
+msgid "{$a}:"
+msgstr ""
+
+#: $string['description_leaf_subexpr_call']
+msgid "call of the subpattern #{$a}"
+msgstr ""
+
+#: $string['description_leaf_subexpr_call_all']
+msgid "call of the whole regular expression"
+msgstr ""
+
+#: $string['description_leaf_subexpr_call_all_recursive']
+msgid "recursive call of the whole regular expression"
+msgstr ""
+
+#: $string['description_leaf_subexpr_call_name']
+msgid "call of the subpattern \"{$a}\""
+msgstr ""
+
+#: $string['description_leaf_subexpr_call_name_recursive']
+msgid "recursive call of the subpattern \"{$a}\""
+msgstr ""
+
+#: $string['description_leaf_subexpr_call_recursive']
+msgid "recursive call of the subpattern #{$a}"
+msgstr ""
+
+#: $string['description_leaf_template']
+msgctxt "$string['description_leaf_template']"
+msgid "template without params"
+msgstr ""
+
+#: $string['description_lf_leaf_control']
+msgid "newline matches linefeed only"
+msgstr ""
+
+#: $string['description_mark_name_leaf_control']
+msgid "set name to {$a->name} to be passed back"
+msgstr ""
+
+#: $string['description_nla_node_assert']
+msgid "further text should not match: [{$a->firstoperand}]"
+msgstr ""
+
+#: $string['description_nla_node_assert_cond']
+msgid "further text does not match: [{$a->firstoperand}]"
+msgstr ""
+
+#: $string['description_nlb_node_assert']
+msgid "preceding text should not match: [{$a->firstoperand}]"
+msgstr ""
+
+#: $string['description_nlb_node_assert_cond']
+msgid "preceding text does not match: [{$a->firstoperand}]"
+msgstr ""
+
+#: $string['description_node_alt']
+msgctxt "$string['description_node_alt']"
+msgid "{$a->firstoperand} or {$a->secondoperand}"
+msgstr ""
+
+#: $string['description_node_alt_wcomma']
+msgctxt "$string['description_node_alt_wcomma']"
+msgid "{$a->firstoperand} or {$a->secondoperand}"
+msgstr ""
+
+#: $string['description_node_concat']
+msgctxt "$string['description_node_concat']"
+msgid "{$a->firstoperand} then {$a->secondoperand}"
+msgstr ""
+
+#: $string['description_node_concat_and']
+msgid "{$a->firstoperand} and {$a->secondoperand}"
+msgstr ""
+
+#: $string['description_node_concat_short']
+msgid "{$a->firstoperand}{$a->secondoperand}"
+msgstr ""
+
+#: $string['description_node_concat_space']
+msgid "{$a->firstoperand} {$a->secondoperand}"
+msgstr ""
+
+#: $string['description_node_concat_wcomma']
+msgctxt "$string['description_node_concat_wcomma']"
+msgid "{$a->firstoperand} then {$a->secondoperand}"
+msgstr ""
+
+#: $string['description_node_cond_subexpr']
+msgctxt "$string['description_node_cond_subexpr']"
+msgid "if {$a->cond} then check: [{$a->firstoperand}]{$a->else}"
+msgstr ""
+
+#: $string['description_node_cond_subexpr_else']
+msgid "else check: [{$a->secondoperand}]"
+msgstr ""
+
+#: $string['description_node_finite_quant']
+msgid ""
+"{$a->firstoperand} repeated from {$a->leftborder} to {$a->rightborder} "
+"times{$a->greedy}"
+msgstr ""
+
+#: $string['description_node_finite_quant_0']
+msgid ""
+"{$a->firstoperand} repeated no more than {$a->rightborder} times or "
+"missing{$a->greedy}"
+msgstr ""
+
+#: $string['description_node_finite_quant_01']
+msgid "{$a->firstoperand} may be missing{$a->greedy}"
+msgstr ""
+
+#: $string['description_node_finite_quant_1']
+msgid ""
+"{$a->firstoperand} repeated no more than {$a->rightborder} times{$a->greedy}"
+msgstr ""
+
+#: $string['description_node_finite_quant_borders_err']
+msgid "(incorrect quantifier borders)"
+msgstr ""
+
+#: $string['description_node_finite_quant_strict']
+msgid "{$a->firstoperand} repeated {$a->leftborder} times{$a->greedy}"
+msgstr ""
+
+#: $string['description_node_infinite_quant']
+msgid "{$a->firstoperand} repeated at least {$a->leftborder} times{$a->greedy}"
+msgstr ""
+
+#: $string['description_node_infinite_quant_0']
+msgid "{$a->firstoperand} repeated any number of times or missing{$a->greedy}"
+msgstr ""
+
+#: $string['description_node_infinite_quant_1']
+msgid "{$a->firstoperand} repeated any number of times{$a->greedy}"
+msgstr ""
+
+#: $string['description_node_template']
+msgctxt "$string['description_node_template']"
+msgid "template with params"
+msgstr ""
+
+#: $string['description_no_start_opt_leaf_control']
+msgid "no start-match optimization"
+msgstr ""
+
+#: $string['description_onceonly_node_subexpr']
+msgid "once checked subpattern #{$a->number}: [ {$a->firstoperand} ]"
+msgstr ""
+
+#: $string['description_onceonly_node_subexpr_name']
+msgid ""
+"once checked subpattern \"{$a->name} #{$a->number}\": [ {$a->firstoperand} ]"
+msgstr ""
+
+#: $string['description_operand']
+msgid "operand"
+msgstr ""
+
+#: $string['description_option_i']
+msgid "caseless"
+msgstr ""
+
+#: $string['description_option_J']
+msgid "allow duplicate names"
+msgstr ""
+
+#: $string['description_option_m']
+msgid "multiline matching"
+msgstr ""
+
+#: $string['description_option_s']
+msgid "dot metacharacter matches \\n"
+msgstr ""
+
+#: $string['description_option_U']
+msgid "quantifiers ungreedy by default"
+msgstr ""
+
+#: $string['description_option_x']
+msgid "white spaces in expression was ignored"
+msgstr ""
+
+#: $string['description_pla_node_assert']
+msgid "further text should match: [{$a->firstoperand}]"
+msgstr ""
+
+#: $string['description_pla_node_assert_cond']
+msgid "further text matches: [{$a->firstoperand}]"
+msgstr ""
+
+#: $string['description_plb_node_assert']
+msgid "preceding text should match: [{$a->firstoperand}]"
+msgstr ""
+
+#: $string['description_plb_node_assert_cond']
+msgid "preceding text matches: [{$a->firstoperand}]"
+msgstr ""
+
+#: $string['description_prune_leaf_control']
+msgid ""
+"if the rest of the pattern does not match - advance to next starting "
+"character"
+msgstr ""
+
+#: $string['description_quant_greedy']
+msgctxt "$string['description_quant_greedy']"
+msgid ""
+msgstr ""
+
+#: $string['description_quant_lazy']
+msgid "(lazy quantifier)"
+msgstr ""
+
+#: $string['description_quant_possessive']
+msgid "(possessive quantifier)"
+msgstr ""
+
+#: $string['description_range']
+msgid "from {$a->start} to {$a->end}"
+msgstr ""
+
+#: $string['description_recursion_node_cond_subexpr']
+msgid "the pattern #{$a->number} is in recursive matching"
+msgstr ""
+
+#: $string['description_recursion_node_cond_subexpr_all']
+msgid "the whole pattern is in recursive matching"
+msgstr ""
+
+#: $string['description_recursion_node_cond_subexpr_name']
+msgid "the pattern \"{$a->name}\" is in recursive matching"
+msgstr ""
+
+#: $string['description_skip_leaf_control']
+msgid ""
+"if the rest of the pattern does not match - advance to current matching "
+"position"
+msgstr ""
+
+#: $string['description_skip_name_leaf_control']
+msgid "if the rest of the pattern does not match - advance to (*MARK:{$a})"
+msgstr ""
+
+#: $string['description_small_esc_z_leaf_assert']
+msgctxt "$string['description_small_esc_z_leaf_assert']"
+msgid "end of the string"
+msgstr ""
+
+#: $string['description_subexpr_node_cond_subexpr']
+msgid "the subpattern #{$a->number} has been successfully matched"
+msgstr ""
+
+#: $string['description_subexpr_node_cond_subexpr_name']
+msgid "the subpattern \"{$a->name}\" has been successfully matched"
+msgstr ""
+
+#: $string['description_subexpr_node_cond_subexpr_wrapper']
+msgctxt "$string['description_subexpr_node_cond_subexpr_wrapper']"
+msgid "if {$a->cond} then check: [{$a->firstoperand}]{$a->else}"
+msgstr ""
+
+#: $string['description_subexpr_node_subexpr']
+msgid "subpattern #{$a->number}: [ {$a->firstoperand} ]"
+msgstr ""
+
+#: $string['description_subexpr_node_subexpr_name']
+msgid "subpattern \"{$a->name}\" #{$a->number}: [ {$a->firstoperand} ]"
+msgstr ""
+
+#: $string['description_template_brackets_opt']
+msgid "text in square brackets or without"
+msgstr ""
+
+#: $string['description_template_brackets_req']
+msgid "text in square brackets"
+msgstr ""
+
+#: $string['description_template_custom_parens_opt']
+msgid "text in optional custom brackets or without"
+msgstr ""
+
+#: $string['description_template_custom_parens_req']
+msgid "text in optional custom brackets"
+msgstr ""
+
+#: $string['description_template_integer']
+msgid "any number including + or -"
+msgstr ""
+
+#: $string['description_template_parens_opt']
+msgid "text in round parentheses or without"
+msgstr ""
+
+#: $string['description_template_parens_req']
+msgid "text in round parentheses"
+msgstr ""
+
+#: $string['description_template_word']
+msgid "any word"
+msgstr ""
+
+#: $string['description_then_leaf_control']
+msgid ""
+"if the rest of the pattern does not match - backtrack to next alternation"
+msgstr ""
+
+#: $string['description_tool']
+msgid "Description"
+msgstr ""
+
+#: $string['description_tool_help']
+msgid ""
+"Here you can see description of regular expression. Pressing the node of the "
+"tree marks corresponding subgraph marks corresponding part of description "
+"with yellow color."
+msgstr ""
+
+#: $string['description_ucp_leaf_control']
+msgid "PCRE_UCP"
+msgstr ""
+
+#: $string['description_unsetoption_i']
+msgid "case sensitive"
+msgstr ""
+
+#: $string['description_unsetoption_J']
+msgid "disallow duplicate names"
+msgstr ""
+
+#: $string['description_unsetoption_m']
+msgid "not multiline matching"
+msgstr ""
+
+#: $string['description_unsetoption_s']
+msgid "dot metacharacter does not match \\n"
+msgstr ""
+
+#: $string['description_unsetoption_U']
+msgid "quantifiers greedy by default"
+msgstr ""
+
+#: $string['description_unsetoption_x']
+msgid "white spaces in expression was not ignored"
+msgstr ""
+
+#: $string['description_utf16_leaf_control']
+msgid "UTF-16 mode"
+msgstr ""
+
+#: $string['description_utf8_leaf_control']
+msgid "UTF-8 mode"
+msgstr ""
+
+#: $string['different_subexpr_names_node_error']
+msgid "Different subpattern names for subpatterns of the same number"
+msgstr ""
+
+#: $string['dollar_leaf_assert']
+msgctxt "$string['dollar_leaf_assert']"
+msgid "end of the string"
+msgstr ""
+
+#: $string['doterror']
+msgid "Can't draw {$a->name} for this regex"
+msgstr ""
+
+#: $string['duplicate_subexpr_names_node_error']
+msgid "Two named subpatterns have the same name"
+msgstr ""
+
+#: $string['empty_fa']
+msgid ""
+"No string can be matched by this regular expression (finite automaton is "
+"empty)."
+msgstr ""
+
+#: $string['empty_leaf_meta']
+msgid "emptiness"
+msgstr ""
+
+#: $string['engine']
+msgid "Matching engine"
+msgstr ""
+
+#: $string['engine_heading_descriptions']
+msgid ""
+"Matching regular expressions can be time and memory consuming. These "
+"settings allow you to control limits of time and memory usage by the "
+"matching engines. Increase them when you get messages that the regular "
+"expression is too complex, but do mind your server's performance (you may "
+"also want to increase PHP time and memory limits). Decrease them if you get "
+"blank page when saving or running a preg question."
+msgstr ""
+
+#: $string['engine_help']
+msgid ""
+"<p>There is no 'best' matching engine, so you can choose the engine that "
+"fits the particular question best.</p><p>Native <b>PHP preg matching "
+"engine</b> works using preg_match() function from PHP language. It's almost "
+"100% bug-free and able to work with full PCRE syntax, but can't support "
+"advanced features (showing partial matches and hinting).</p><p><b>FA "
+"matching engine</b> uses custom matching code. It supports partial matching "
+"and hinting, but don't support lookaround assertions (you'll be notified "
+"when trying to save a question with unsupported expressions) and potentially "
+"can contain bugs.</p><p>If the difference between engines is too hard to "
+"you, just try them all to see how their capabilities suit your needs. If one "
+"engine fails in a question then try another engines to see if they can "
+"handle it better.</p><p>FA engine is probably the best choice if you don't "
+"use lookaround assertions.</p>"
+msgstr ""
+
+#: $string['error_duringauthoringtool']
+msgid "There were errors while trying to build {$a}:"
+msgstr ""
+
+#: $string['error_infiniterecursion']
+msgid "Regex contains infinite recursion"
+msgstr ""
+
+#: $string['error_PCREincorrectregex']
+msgid ""
+"Incorrect regular expression - syntax error! Consult <a "
+"href=\"http://pcre.org/pcre.txt\">PCRE documentation</a> for more information."
+msgstr ""
+
+#: $string['esc_a_leaf_assert']
+msgctxt "$string['esc_a_leaf_assert']"
+msgid "start of the string"
+msgstr ""
+
+#: $string['esc_b_leaf_assert']
+msgctxt "$string['esc_b_leaf_assert']"
+msgid "a word boundary"
+msgstr ""
+
+#: $string['esc_g_leaf_assert']
+msgctxt "$string['esc_g_leaf_assert']"
+msgid "first matching position in the string"
+msgstr ""
+
+#: $string['exactmatch']
+msgid "Exact matching"
+msgstr ""
+
+#: $string['exactmatch_help']
+msgid ""
+"<p>By default regular expression matching returns true if there is at least "
+"one match in the given string (answer). Exact matching means that the match "
+"must be the entire string.</p><p>Set this to Yes, if you write regular "
+"expressions for full student's answers. Setting this to No gives you "
+"additional flexibility: you can specify an answer with low (or zero) grade "
+"to catch common errors and give comments on them. You still can specify "
+"exact matches for some of your regular expressions if you start them with ^ "
+"and end with $.</p>"
+msgstr ""
+
+#: $string['explain_any_char']
+msgid "Any character from"
+msgstr ""
+
+#: $string['explain_any_char_except']
+msgid "Any character except"
+msgstr ""
+
+#: $string['explain_begin']
+msgid "begin"
+msgstr ""
+
+#: $string['explain_define']
+msgid "TODO"
+msgstr ""
+
+#: $string['explain_end']
+msgid "end"
+msgstr ""
+
+#: $string['explain_false']
+msgid "false"
+msgstr ""
+
+#: $string['explaining_graph_tool']
+msgid "Explaining graph"
+msgstr ""
+
+#: $string['explaining_graph_tool_help']
+msgid ""
+"Here you can see explaining graph. Pressing the node of the tree marks "
+"corresponding subgraph with dark green rectangle. You can also select "
+"multiple nodes at once rectangle, enabling mode selection rectangle."
+msgstr ""
+
+#: $string['explain_parameter']
+msgid "parameter"
+msgstr ""
+
+#: $string['explain_true']
+msgid "true"
+msgstr ""
+
+#: $string['explain_unknow_meta']
+msgid "unknown meta"
+msgstr ""
+
+#: $string['explain_unknow_template']
+msgid "unknow template"
+msgstr ""
+
+#: $string['fail_leaf_control']
+msgctxt "$string['fail_leaf_control']"
+msgid ""
+msgstr ""
+
+#: $string['fa_matcher']
+msgid "Finite state automata"
+msgstr ""
+
+#: $string['fa_settings_heading']
+msgid "Finite state automata engine settings"
+msgstr ""
+
+#: $string['fa_simulation_state_limit']
+msgid "Automata simulation limit: states"
+msgstr ""
+
+#: $string['fa_simulation_state_limit_description']
+msgid ""
+"When matching a string with a regex containing backreferences or recurion, "
+"one FA state can be reached using different paths. This means that there are "
+"several \"simulation states\" created for one \"structural state\". This "
+"settings lets you control the overall count of such simulation states."
+msgstr ""
+
+#: $string['fa_state_limit']
+msgid "Automata size limit: states"
+msgstr ""
+
+#: $string['fa_state_limit_description']
+msgid ""
+"Max number of states in FA. Tunes time and memory limits for the FA engine "
+"when matching complex regexes."
+msgstr ""
+
+#: $string['fa_transition_limit']
+msgid "Automata size limit: transitions"
+msgstr ""
+
+#: $string['fa_transition_limit_description']
+msgid ""
+"Max number of transitions in FA. Tunes time and memory limits for the FA "
+"engine when matching complex regexes."
+msgstr ""
+
+#: $string['greedyquant']
+msgid "Greedy quantifiers"
+msgstr ""
+
+#: $string['grouping_node_subexpr']
+msgid "grouping"
+msgstr ""
+
+#: $string['groupspaircountoverlimit']
+msgid ""
+"Possible count of groups pairs at single step of automata equivalence check "
+"algorithm overflowed. This limit is necessary to protect from long duration "
+"of comparison. Ask your site administrator to change settings if it is "
+"necessary."
+msgstr ""
+
+#: $string['hintcolouredstring']
+msgid "matched part of the response"
+msgstr ""
+
+#: $string['hintgradeborder']
+msgid "Hint grade border"
+msgstr ""
+
+#: $string['hintgradeborder_help']
+msgid ""
+"Answers with the grade less than the hint grade border won't be used in "
+"hinting."
+msgstr ""
+
+#: $string['hintnextchar']
+msgid "next correct character"
+msgstr ""
+
+#: $string['hintnextlexem']
+msgid "next correct {$a}"
+msgstr ""
+
+#: $string['incorrect_charset_range_node_error']
+msgid ""
+"Incorrect character range in position from  {$a->colfirst} to {$a->collast}: "
+"the left character is \"greater\" than the right one"
+msgstr ""
+
+#: $string['incorrect_quant_range_node_error']
+msgid ""
+"Incorrect quantifier range in position from  {$a->colfirst} to "
+"{$a->collast}: the left border is greater than the right one"
+msgstr ""
+
+#: $string['langselect']
+msgid "Language"
+msgstr ""
+
+#: $string['langselect_help']
+msgid ""
+"For next lexem hint you should choose a language, which is used to break "
+"answers down to lexemes. Each language has it own rules for lexemes. "
+"Languages are defined using 'Formal languages block\\"
+msgstr ""
+
+#: $string['lazyquant']
+msgid "Lazy quantifiers"
+msgstr ""
+
+#: $string['leaf_assert']
+msgid "simple assertion"
+msgstr ""
+
+#: $string['leaf_backref']
+msgid "backreference"
+msgstr ""
+
+#: $string['leaf_charset']
+msgid "character set"
+msgstr ""
+
+#: $string['leaf_charset_error']
+msgid "incorrect character set"
+msgstr ""
+
+#: $string['leaf_charset_except']
+msgid "any character except"
+msgstr ""
+
+#: $string['leaf_charset_neg']
+msgid "negative character set"
+msgstr ""
+
+#: $string['leaf_charset_one']
+msgid "character"
+msgstr ""
+
+#: $string['leaf_control']
+msgid "control sequence"
+msgstr ""
+
+#: $string['leaf_meta']
+msgid "meta-character or escape-sequence"
+msgstr ""
+
+#: $string['leaf_options']
+msgid "modifier"
+msgstr ""
+
+#: $string['leaf_subexpr_call']
+msgid "subexpression call"
+msgstr ""
+
+#: $string['leaf_template']
+msgctxt "$string['leaf_template']"
+msgid "template without params"
+msgstr ""
+
+#: $string['lexemhintpenalty']
+msgid "Penalty for the next lexem hint"
+msgstr ""
+
+#: $string['lexemhintpenalty_help']
+msgid ""
+"Penalty for getting the next lexem hint. Typically will be greater than "
+"usual Moodle question penalty (which applies to any new attempt to answer "
+"question without hints) and next character one. These penalties are mutually "
+"exclusive."
+msgstr ""
+
+#: $string['lexemusername']
+msgid "Student-visible name for lexem"
+msgstr ""
+
+#: $string['lexemusername_help']
+msgid ""
+"Your students probably won't know that an atomic part of the language they "
+"learn is called <b>lexem</b>. They may prefer to call it \"word\" or \"number\" "
+"or something. You may define a name for lexem that would be shown on the "
+"\"Hint next lexem\" button there."
+msgstr ""
+
+#: $string['lf_leaf_control']
+msgctxt "$string['lf_leaf_control']"
+msgid ""
+msgstr ""
+
+#: $string['lnu_unsupported_node_error']
+msgid "Sequences \\L, \\l, \\N{name}, \\U, and \\u are not supported"
+msgstr ""
+
+#: $string['mark_name_leaf_control']
+msgctxt "$string['mark_name_leaf_control']"
+msgid ""
+msgstr ""
+
+#: $string['maxerrorsshowndescription']
+msgid ""
+"Maximum number of errors shown for each regular expression in the question "
+"editing form"
+msgstr ""
+
+#: $string['maxerrorsshownlabel']
+msgid "Maximum number of errors shown"
+msgstr ""
+
+#: $string['mergedassertion_option']
+msgid ""
+"You need to set full assertion support mode for using complex positive "
+"assertions."
+msgstr ""
+
+#: $string['mergemodeforassertion']
+msgid "Please select full assertion support in the settings. In fast mode {$a}"
+msgstr ""
+
+#: $string['missing_brackets_for_g_node_error']
+msgid ""
+"\\g is not followed by a braced, angle-bracketed, or quoted name/number or by "
+"a plain number"
+msgstr ""
+
+#: $string['missing_brackets_for_k_node_error']
+msgid ""
+"\\k is not followed by a braced, angle-bracketed, or quoted name/number or by "
+"a plain number"
+msgstr ""
+
+#: $string['missing_callout_ending_node_error']
+msgid "Unclosed callout"
+msgstr ""
+
+#: $string['missing_close_paren_node_error']
+msgid ""
+"Syntax error: missing closing parenthesis ')' for the opening parenthesis in "
+"position {$a->colfirst}"
+msgstr ""
+
+#: $string['missing_comment_ending_node_error']
+msgid ""
+"Syntax error: missing closing parenthesis for the comment in position from "
+"{$a->colfirst} to {$a->collast}"
+msgstr ""
+
+#: $string['missing_condsubexpr_ending_node_error']
+msgid "Unclosed conditional subpattern name"
+msgstr ""
+
+#: $string['missing_control_ending_node_error']
+msgid "Missing closing parenthesis after control sequence"
+msgstr ""
+
+#: $string['missing_open_paren_node_error']
+msgid ""
+"Syntax error: missing opening parenthesis '(' for the closing parenthesis in "
+"position {$a->colfirst}"
+msgstr ""
+
+#: $string['missing_subexpr_name_ending_node_error']
+msgid "Syntax error in subpattern name"
+msgstr ""
+
+#: $string['missing_template_close_paren_node_error']
+msgid ""
+"Syntax error: missing template closing '(?###>)' for the template opening in "
+"position {$a->colfirst}"
+msgstr ""
+
+#: $string['missing_template_open_paren_node_error']
+msgid ""
+"Syntax error: missing template opening '(?###name<)' for the template "
+"closing in position {$a->colfirst}"
+msgstr ""
+
+#: $string['nla_node_assert']
+msgid "negative lookahead assert"
+msgstr ""
+
+#: $string['nla_node_cond_subexpr']
+msgid "negative lookahead conditional subpattern"
+msgstr ""
+
+#: $string['nlb_node_assert']
+msgid "negative lookbehind assert"
+msgstr ""
+
+#: $string['nlb_node_cond_subexpr']
+msgid "negative lookbehind conditional subpattern"
+msgstr ""
+
+#: $string['nocorrectanswermatch']
+msgid "No maximum grade regular expression matches the correct answer"
+msgstr ""
+
+#: $string['node_alt']
+msgid "alternation"
+msgstr ""
+
+#: $string['node_assert']
+msgid "lookaround assertion"
+msgstr ""
+
+#: $string['node_concat']
+msgid "concatenation"
+msgstr ""
+
+#: $string['node_cond_subexpr']
+msgid "conditional subpattern"
+msgstr ""
+
+#: $string['node_error']
+msgid "syntax error"
+msgstr ""
+
+#: $string['node_finite_quant']
+msgid "finite quantifier"
+msgstr ""
+
+#: $string['node_infinite_quant']
+msgid "infinite quantifier"
+msgstr ""
+
+#: $string['node_subexpr']
+msgctxt "$string['node_subexpr']"
+msgid "subpattern"
+msgstr ""
+
+#: $string['node_template']
+msgctxt "$string['node_template']"
+msgid "template with params"
+msgstr ""
+
+#: $string['nohintgradeborderpass']
+msgid ""
+"No answer has a grade greater or equal the hint grade border. This disables "
+"hinting."
+msgstr ""
+
+#: $string['no_start_opt_leaf_control']
+msgctxt "$string['no_start_opt_leaf_control']"
+msgid ""
+msgstr ""
+
+#: $string['nosubexprcapturing']
+msgid ""
+"{$a} engine doesn't support subpattern capturing, please remove placeholders "
+"(except {$0}) from the feedback or choose another engine"
+msgstr ""
+
+#: $string['notation']
+msgid "Regular expression notation"
+msgstr ""
+
+#: $string['notation_help']
+msgid ""
+"<p>You can choose the notation to enter regular expressions. If you just "
+"want to write a regular expression, please use the default, <b>Regular "
+"expression</b> notation which is very close to PCRE, but has additional "
+"error-proof capabilities. It will ignore line breaks in you expressions, "
+"allowing mild formatting.</p><p><b>Regular expression (extended)</b> "
+"notation was created for easier handling of large expressions. It will "
+"ignore non-escaped whitespace characters, that are not inside character "
+"class, and will treat as comment anything from non-escaped # to the end of "
+"string. It is equivalent to PCRE_EXTENDED option and PHP \"x\" "
+"modifier.</p><p><b>Moodle shortanswer</b> notation allows you to use preg as "
+"a usual Moodle shortanswer question with the hinting capability - with no "
+"need to understand regular expressions. Just copy you answers from "
+"shortanswer question. The '*' wildcard is supported.</p>"
+msgstr ""
+
+#: $string['notation_mdlshortanswer']
+msgid "Moodle shortanswer"
+msgstr ""
+
+#: $string['notation_native']
+msgctxt "$string['notation_native']"
+msgid "Regular expression"
+msgstr ""
+
+#: $string['notation_pcreextended']
+msgid "Regular expression (extended)"
+msgstr ""
+
+#: $string['objectname']
+msgid "question"
+msgstr ""
+
+#: $string['onceonly_node_subexpr']
+msgid "once-only subpattern"
+msgstr ""
+
+#: $string['pathtodotempty']
+msgid ""
+"Can't draw {$a->name}: path to dot of graphviz is empty. Please ask your "
+"administrator to install <a href=\"http://www.graphviz.com\">graphviz</a> and "
+"specify path to it using the 'pathtodot' option at Administration > Server > "
+"System Paths"
+msgstr ""
+
+#: $string['pathtodotincorrect']
+msgid ""
+"Can't draw {$a->name}: path to dot of graphviz is incorrect or dot can not "
+"be executed. Please ask your administrator to check if <a "
+"href=\"http://www.graphviz.com\">graphviz</a> is installed and 'pathtodot' "
+"option is correct at Administration > Server > System Paths"
+msgstr ""
+
+#: $string['php_preg_matcher']
+msgid "PHP preg extension"
+msgstr ""
+
+#: $string['pla_node_assert']
+msgid "positive lookahead assert"
+msgstr ""
+
+#: $string['pla_node_cond_subexpr']
+msgid "positive lookahead conditional subpattern"
+msgstr ""
+
+#: $string['plb_node_assert']
+msgid "positive lookbehind assert"
+msgstr ""
+
+#: $string['plb_node_cond_subexpr']
+msgid "positive lookbehind conditional subpattern"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Regular expression"
+msgstr ""
+
+#: $string['pluginnameadding']
+msgid "Adding a regular expression question"
+msgstr ""
+
+#: $string['pluginnameediting']
+msgid "Editing a regular expression question"
+msgstr ""
+
+#: $string['pluginname_help']
+msgid ""
+"<p>Regular expressions are a form of writing patterns to match different "
+"strings. You can use it to verify answers in two ways: an expression to "
+"match with full (usually correct) answer, or an expression to match a part "
+"of the answer (which can be used, for example, to catch common errors and "
+"give appropriate comments).</p><p>This question uses the PHP perl-compatible "
+"regular expression syntax as the default notation. There are many tutorials "
+"about creating and using regular expression, here is one <a "
+"href=\"http://www.phpfreaks.com/content/print/126\">example</a>. You can find "
+"detailed syntax of expression here: <a href=\"http://www.nusphere.com/kb/phpm"
+"anual/reference.pcre.pattern.syntax.htm\">php manual</a>. Note that you "
+"should neither enclose regular expression in delimiters nor specify any "
+"modifiers - Moodle will do it for you.</p><p>You can also use this question "
+"as the advanced form of shortanswer with hinting, even if you don't know a "
+"bit about regular expressions! Just select <b>Moodle shortanswer</b> as "
+"notation for your questions.</p>"
+msgstr ""
+
+#: $string['pluginname_link']
+msgid "question/type/preg"
+msgstr ""
+
+#: $string['pluginnamesummary']
+msgid ""
+"Enter a string response from student that can be matched against several "
+"regular expressions. Shows to the student the correct part of his response. "
+"Using behaviours with multiple tries can give a hint by telling a next "
+"correct character or lexem.<br/>You can use it without knowing regular "
+"expression to get hinting by using the 'Moodle shortanswer' notation."
+msgstr ""
+
+#: $string['posix_class_outside_charset_node_error']
+msgid "POSIX classes are not allowed outside character sets"
+msgstr ""
+
+#: $string['possessivequant']
+msgid "Possessive quantifiers"
+msgstr ""
+
+#: $string['prune_leaf_control']
+msgctxt "$string['prune_leaf_control']"
+msgid ""
+msgstr ""
+
+#: $string['quantifier_without_parameter_node_error']
+msgid ""
+"Syntax error: quantifier in position from {$a->colfirst} to {$a->collast} "
+"doesn't have an operand - nothing to repeat"
+msgstr ""
+
+#: $string['questioneditingheading']
+msgid "Question editing settings"
+msgstr ""
+
+#: $string['recursion_leaf_assert']
+msgctxt "$string['recursion_leaf_assert']"
+msgid "fictive"
+msgstr ""
+
+#: $string['recursion_node_cond_subexpr']
+msgid "recursive conditional subpattern"
+msgstr ""
+
+#: $string['regex_handler']
+msgid "Regex handler"
+msgstr ""
+
+#: $string['set_unset_same_modifier_node_error']
+msgid ""
+"Setting and unsetting the {$a->addinfo} modifier at the same time in "
+"position from {$a->colfirst} to {$a->collast}"
+msgstr ""
+
+#: $string['simplification_equivalences_full_1']
+msgid ""
+"A simple assertions is superfluous because next to already have the same"
+msgstr ""
+
+#: $string['simplification_equivalences_full_10']
+msgid "The two nested repetition can be replaced by one"
+msgstr ""
+
+#: $string['simplification_equivalences_full_11']
+msgid "Quantifier \"{$a->first}\" equivalent \"{$a->second}\""
+msgstr ""
+
+#: $string['simplification_equivalences_full_12']
+msgid ""
+"Quantifier \"?\" It can be removed as an alternative may be the same emptiness"
+msgstr ""
+
+#: $string['simplification_equivalences_full_13']
+msgid ""
+"The emptiness in the alternative, is superfluous because alternative and "
+"always coincides with emptiness"
+msgstr ""
+
+#: $string['simplification_equivalences_full_14']
+msgid ""
+"Quantifier do not affect the operation of the regular expression, they can "
+"be removed"
+msgstr ""
+
+#: $string['simplification_equivalences_full_2']
+msgid ""
+"Empty brackets do not affect the operation of a regular expression, you can "
+"remove"
+msgstr ""
+
+#: $string['simplification_equivalences_full_2_1']
+msgid ""
+"Brackets do not affect the operation of a regular expression, you can remove"
+msgstr ""
+
+#: $string['simplification_equivalences_full_3']
+msgid ""
+"Empty brackets do not affect the operation of the regular expression, as "
+"they do not have backreference or conditional subpatterns, they can be "
+"removed"
+msgstr ""
+
+#: $string['simplification_equivalences_full_3_1']
+msgid ""
+"Brackets do not affect the operation of the regular expression, as they do "
+"not have backreference or conditional subpatterns, they can be removed"
+msgstr ""
+
+#: $string['simplification_equivalences_full_4']
+msgid "Identical recurring part of the expression can be written in short"
+msgstr ""
+
+#: $string['simplification_equivalences_full_5']
+msgid ""
+"The square brackets can be removed because the in which only one character"
+msgstr ""
+
+#: $string['simplification_equivalences_full_6']
+msgid "It is better represented using square brackets"
+msgstr ""
+
+#: $string['simplification_equivalences_full_7']
+msgid "You can make a %subexpression% of the brackets"
+msgstr ""
+
+#: $string['simplification_equivalences_full_8']
+msgid "It is more convenient to write using the \"?\""
+msgstr ""
+
+#: $string['simplification_equivalences_full_8_1']
+msgid ""
+"Emptiness in the alternative can be removed, maybe. alternative and without "
+"it there can match with emptiness"
+msgstr ""
+
+#: $string['simplification_equivalences_full_9']
+msgid ""
+"You can remove a quantifier \"?\" I have an alternative, adding to it an empty "
+"alternative"
+msgstr ""
+
+#: $string['simplification_equivalences_short_1']
+msgid "Consecutive simple assertions"
+msgstr ""
+
+#: $string['simplification_equivalences_short_10']
+msgid "Replacement of two quantifiers one"
+msgstr ""
+
+#: $string['simplification_equivalences_short_11']
+msgid "Changing to an equivalent quantifier"
+msgstr ""
+
+#: $string['simplification_equivalences_short_12']
+msgctxt "$string['simplification_equivalences_short_12']"
+msgid "Excess quantifier \"?\""
+msgstr ""
+
+#: $string['simplification_equivalences_short_13']
+msgctxt "$string['simplification_equivalences_short_13']"
+msgid "Excess emptiness in the alternative"
+msgstr ""
+
+#: $string['simplification_equivalences_short_14']
+msgid "The useless quantifier"
+msgstr ""
+
+#: $string['simplification_equivalences_short_2']
+msgid "The empty brackets \"(?:)\""
+msgstr ""
+
+#: $string['simplification_equivalences_short_2_1']
+msgid "The useless brackets \"(?:)\""
+msgstr ""
+
+#: $string['simplification_equivalences_short_3']
+msgid "Empty parentheses \"()\""
+msgstr ""
+
+#: $string['simplification_equivalences_short_3_1']
+msgid "The useless parentheses \"()\""
+msgstr ""
+
+#: $string['simplification_equivalences_short_4']
+msgid "Recurring sub-expression"
+msgstr ""
+
+#: $string['simplification_equivalences_short_5']
+msgid "The extra square brackets"
+msgstr ""
+
+#: $string['simplification_equivalences_short_6']
+msgid "Can lead to the equivalent character classes"
+msgstr ""
+
+#: $string['simplification_equivalences_short_7']
+msgid "Introduction of alternative subexpressions"
+msgstr ""
+
+#: $string['simplification_equivalences_short_8']
+msgctxt "$string['simplification_equivalences_short_8']"
+msgid "Excess emptiness in the alternative"
+msgstr ""
+
+#: $string['simplification_equivalences_short_8_1']
+msgctxt "$string['simplification_equivalences_short_8_1']"
+msgid "Excess emptiness in the alternative"
+msgstr ""
+
+#: $string['simplification_equivalences_short_9']
+msgctxt "$string['simplification_equivalences_short_9']"
+msgid "Excess quantifier \"?\""
+msgstr ""
+
+#: $string['simplification_errors_full_1']
+msgid ""
+"Simple assertion \"^\" is superfluous, since it is not at the beginning of the "
+"regular expression"
+msgstr ""
+
+#: $string['simplification_errors_full_2']
+msgid ""
+"Simple assertion \"$\" is superfluous, since it is not at the ending of the "
+"regular expression"
+msgstr ""
+
+#: $string['simplification_errors_short_1']
+msgid "Excess simple assertion \"^\""
+msgstr ""
+
+#: $string['simplification_errors_short_2']
+msgid "Excess simple assertion \"$\""
+msgstr ""
+
+#: $string['simplification_tips_full_1']
+msgid ""
+"You may want to allow any whitespace (such as a tab), you have to use \"\\s\""
+msgstr ""
+
+#: $string['simplification_tips_full_2']
+msgid ""
+"You may want to allow any number of whitespace characters in this place, you "
+"have to use a quantifier \"+\""
+msgstr ""
+
+#: $string['simplification_tips_full_3']
+msgid ""
+"Parentheses allow the match to remember this portion of the expression. If "
+"you do not need the parentheses can be replaced by group \"(?:)\""
+msgstr ""
+
+#: $string['simplification_tips_full_4']
+msgid ""
+"You may want to allow any number of whitespace characters in this place, you "
+"have to use the quantifier \"*\""
+msgstr ""
+
+#: $string['simplification_tips_full_5']
+msgid "The expression matches any string"
+msgstr ""
+
+#: $string['simplification_tips_full_6']
+msgid ""
+"Maybe you want to ignore the case, then this can be done using the option "
+"case-sensitivity off \"(?i)\""
+msgstr ""
+
+#: $string['simplification_tips_full_7']
+msgid "Not to copy this part, you can give it a name and call elsewhere"
+msgstr ""
+
+#: $string['simplification_tips_full_8']
+msgid ""
+"Perhaps you should enable the \"exact match\" instead of \"^\" and \"$\" at the "
+"beginning and end of the expression"
+msgstr ""
+
+#: $string['simplification_tips_full_8_alt']
+msgid ""
+"\"^\" and \"$\" in the beginning and at the end of the statement is superfluous, "
+"because enabled \"exact match\""
+msgstr ""
+
+#: $string['simplification_tips_short_1']
+msgid "Expand the list of whitespace"
+msgstr ""
+
+#: $string['simplification_tips_short_2']
+msgid "Increase the amount of whitespace"
+msgstr ""
+
+#: $string['simplification_tips_short_3']
+msgid "The extra parentheses, for which there is no backreferences"
+msgstr ""
+
+#: $string['simplification_tips_short_4']
+msgid "Only one whitespace"
+msgstr ""
+
+#: $string['simplification_tips_short_5']
+msgid "The expression coincides with emptiness"
+msgstr ""
+
+#: $string['simplification_tips_short_6']
+msgid ""
+"Use option (?i) instead of the character class with paired upper and lower "
+"case"
+msgstr ""
+
+#: $string['simplification_tips_short_7']
+msgid "Repeated use of the expression"
+msgstr ""
+
+#: $string['simplification_tips_short_8']
+msgid "Unnecessary asserts left and right"
+msgstr ""
+
+#: $string['simplification_tool']
+msgid "Simplification of regular expression"
+msgstr ""
+
+#: $string['simplification_tool_apply']
+msgid "Apply and next"
+msgstr ""
+
+#: $string['simplification_tool_cancel']
+msgid "Cancel and next"
+msgstr ""
+
+#: $string['simplification_tool_equivalence']
+msgid "Equivalences:"
+msgstr ""
+
+#: $string['simplification_tool_error']
+msgid "Errors:"
+msgstr ""
+
+#: $string['simplification_tool_help']
+msgid ""
+"Here you can see tips to simplify regular expressions if they are needed. "
+"Tips come of three types: equivalences (replacement of expression on more "
+"optimal equivalent expression), tips (include cases that could be missed) "
+"and errors (cases in which the regular expression matches any string or does "
+"not match with anything)."
+msgstr ""
+
+#: $string['simplification_tool_tip']
+msgid "Tips:"
+msgstr ""
+
+#: $string['skip_leaf_control']
+msgctxt "$string['skip_leaf_control']"
+msgid ""
+msgstr ""
+
+#: $string['skip_name_leaf_control']
+msgctxt "$string['skip_name_leaf_control']"
+msgid ""
+msgstr ""
+
+#: $string['slash_at_end_of_pattern_node_error']
+msgid "Syntax error: \\ at end of pattern"
+msgstr ""
+
+#: $string['small_esc_z_leaf_assert']
+msgctxt "$string['small_esc_z_leaf_assert']"
+msgid "end of the string"
+msgstr ""
+
+#: $string['subexpression']
+msgid "Subpattern"
+msgstr ""
+
+#: $string['subexpr_leaf_assert']
+msgctxt "$string['subexpr_leaf_assert']"
+msgid "fictive"
+msgstr ""
+
+#: $string['subexpr_name_expected_node_error']
+msgid "Subpattern name expected"
+msgstr ""
+
+#: $string['subexpr_node_cond_subexpr']
+msgid "\"subpattern\"-conditional subpattern"
+msgstr ""
+
+#: $string['subexpr_node_subexpr']
+msgctxt "$string['subexpr_node_subexpr']"
+msgid "subpattern"
+msgstr ""
+
+#: $string['syntax_tree_tool']
+msgid "Syntax tree"
+msgstr ""
+
+#: $string['syntax_tree_tool_collapsing_mode']
+msgid "Collapsing mode"
+msgstr ""
+
+#: $string['syntax_tree_tool_help']
+msgid ""
+"Here you can see syntax tree of you expression. Pressing the node of tree "
+"marks corresponding subtree, subgraph and corresponding part of description. "
+"You can also collapse / expand the nodes by turning on convolution."
+msgstr ""
+
+#: $string['then_leaf_control']
+msgctxt "$string['then_leaf_control']"
+msgid ""
+msgstr ""
+
+#: $string['tobecontinued']
+msgid "..."
+msgstr ""
+
+#: $string['too_large_fa']
+msgid ""
+"Regular expression is too complex to be matched by {$a->engine} due to the "
+"time and/or memory limits. Please try another matching engine, ask your "
+"administrator to <a href=\"{$a->link}\">increase time and memory limits</a> or "
+"simplify you regular expression."
+msgstr ""
+
+#: $string['toolargequant']
+msgid "Too large finite quantifier"
+msgstr ""
+
+#: $string['toomanyerrors']
+msgid ".......{$a} more errors"
+msgstr ""
+
+#: $string['truefalse_leaf_assert']
+msgctxt "$string['truefalse_leaf_assert']"
+msgid "fictive"
+msgstr ""
+
+#: $string['ucp_leaf_control']
+msgctxt "$string['ucp_leaf_control']"
+msgid ""
+msgstr ""
+
+#: $string['unallowedhint']
+msgid ""
+"Selected hint not allowed due to restrictions in question settings. Please "
+"set \"Allow {$a} hinting\" to \"yes\" to allow it. Selected matching engine "
+"could affect availability of hints."
+msgstr ""
+
+#: $string['unclosed_charset_node_error']
+msgid ""
+"Syntax error: missing a closing bracket ']' for the character set starting "
+"in position {$a->colfirst}"
+msgstr ""
+
+#: $string['unexisting_subexpr_node_error']
+msgid "Subpattern \"{$a->addinfo}\" does not exist"
+msgstr ""
+
+#: $string['ungreedyquant']
+msgid "Ungreedy quantifiers"
+msgstr ""
+
+#: $string['unknown_control_sequence_node_error']
+msgid "Unknown control sequence: {$a->addinfo}"
+msgstr ""
+
+#: $string['unknown_error_node_error']
+msgid "Unknown error"
+msgstr ""
+
+#: $string['unknown_posix_class_node_error']
+msgid "Unknown POSIX class: {$a->addinfo}"
+msgstr ""
+
+#: $string['unknown_template_node_error']
+msgid "Unknown template: {$a->addinfo}"
+msgstr ""
+
+#: $string['unknown_unicode_property_node_error']
+msgid "Unknown Unicode property: {$a->addinfo}"
+msgstr ""
+
+#: $string['unrecognized_pqh_node_error']
+msgid "Unrecognised character after (? or (?-"
+msgstr ""
+
+#: $string['unrecognized_pqlt_node_error']
+msgid "Unrecognised character after (?<"
+msgstr ""
+
+#: $string['unrecognized_pqp_node_error']
+msgid "Unrecognised character after (?P"
+msgstr ""
+
+#: $string['unsupported']
+msgid ""
+"{$a->nodename} in position from {$a->linefirst}:{$a->colfirst} to "
+"{$a->linelast}:{$a->collast} is not supported by {$a->engine}."
+msgstr ""
+
+#: $string['unsupportedmodifier']
+msgid "Error: modifier {$a->modifier} isn't supported by the {$a->classname}."
+msgstr ""
+
+#: $string['unsupported_modifier_node_error']
+msgid "Unknown, wrong or unsupported modifier(s): {$a->addinfo}"
+msgstr ""
+
+#: $string['usecharhint']
+msgid "Allow next character hinting"
+msgstr ""
+
+#: $string['usecharhint_help']
+msgctxt "$string['usecharhint_help']"
+msgid ""
+"In behaviours which allow multiple tries (e.g. adaptive or interactive) show "
+"students the 'Hint next character' button that allows to get a one-"
+"character hint with applying the 'Hint next character penalty'. Not all "
+"matching engines support hinting."
+msgstr ""
+
+#: $string['usehint_help']
+msgctxt "$string['usehint_help']"
+msgid ""
+"In behaviours which allow multiple tries (e.g. adaptive or interactive) show "
+"students the 'Hint next character' button that allows to get a one-"
+"character hint with applying the 'Hint next character penalty'. Not all "
+"matching engines support hinting."
+msgstr ""
+
+#: $string['uselexemhint']
+msgid "Allow next lexem (word, number, punctuation mark) hinting"
+msgstr ""
+
+#: $string['uselexemhint_help']
+msgid ""
+"<p>In behaviours which allow multiple tries (e.g. adaptive or interactive) "
+"show students the 'Hint next word' button that allows to get a hint either "
+"completing current lexem or showing next one if lexem is complete with "
+"applying the 'Hint next lexem penalty'. Not all matching engines support "
+"hinting.</p><p><b>Lexeme</b> is an atomic part of the language: a word, "
+"number, punctuation mark, operator etc.</p>"
+msgstr ""
+
+#: $string['utf16_leaf_control']
+msgctxt "$string['utf16_leaf_control']"
+msgid ""
+msgstr ""
+
+#: $string['utf8_leaf_control']
+msgctxt "$string['utf8_leaf_control']"
+msgid ""
+msgstr ""
+
+#: $string['wrong_template_params_count_node_error']
+msgid ""
+"Wrong template parameters count: {$a->addinfo->expected} expected, "
+"{$a->addinfo->given} given"
+msgstr ""

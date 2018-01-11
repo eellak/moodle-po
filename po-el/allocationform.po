@@ -1,0 +1,510 @@
+#. extracted from lang/en/allocationform.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'allocationform', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   allocationform
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['accessdenied']
+msgid "Allocation form Access denied"
+msgstr ""
+
+#: $string['add_option']
+msgid "Add new option"
+msgstr ""
+
+#: $string['allocationform']
+msgctxt "$string['allocationform']"
+msgid "Allocation form"
+msgstr ""
+
+#: $string['allocationform:addinstance']
+msgid "Add a new allocation form"
+msgstr ""
+
+#: $string['allocationform:edit']
+msgid "Edit allocation forms"
+msgstr ""
+
+#: $string['allocationform_instructions']
+msgid ""
+"You must rank {$a->choices} options, you will be allocated to "
+"{$a->allocation} of the options. {$a->extratext}"
+msgstr ""
+
+#: $string['allocationformname']
+msgid "Allocation form name"
+msgstr ""
+
+#: $string['allocationformname_help']
+msgid "The name of this allocation form, it will be used to link to the form."
+msgstr ""
+
+#: $string['allocationform_notwant']
+msgid "You may select 1 option you do not wish to be allocated to."
+msgstr ""
+
+#: $string['allocationform:reallocate']
+msgid "Force a reallocation"
+msgstr ""
+
+#: $string['allocationform:reopen']
+msgid "Allow a user to reopen an allocation form."
+msgstr ""
+
+#: $string['allocationform:viewallocations']
+msgid "View all the allocations made"
+msgstr ""
+
+#: $string['allocationform:viewform']
+msgid "View allocation forms"
+msgstr ""
+
+#: $string['allocations']
+msgid "Allocations"
+msgstr ""
+
+#: $string['allocations_not_visible']
+msgid ""
+"Warning: the allocations can only be seen by editors until they are made "
+"available."
+msgstr ""
+
+#: $string['allocationviewed']
+msgid "Allocation form viewed"
+msgstr ""
+
+#: $string['al_notwant']
+msgid "Do not want"
+msgstr ""
+
+#: $string['al_notwant_help']
+msgid "Select an option that you do not wish to be allocated to"
+msgstr ""
+
+#: $string['availabilityheading']
+msgid "Form availability"
+msgstr ""
+
+#: $string['back_to_edit']
+msgid "Switch to edit mode"
+msgstr ""
+
+#: $string['back_to_edit_warning']
+msgid "This will delete all information submitted to the form."
+msgstr ""
+
+#: $string['before_start']
+msgid "The start date of this allocation form has not yet passed."
+msgstr ""
+
+#: $string['choice']
+msgid "Choice {$a->choice}"
+msgstr ""
+
+#: $string['choiceheading']
+msgid "Setup choices"
+msgstr ""
+
+#: $string['choice_help']
+msgid "Select an option that you would wish to be allocated to."
+msgstr ""
+
+#: $string['cron']
+msgid "Background processing for Allocation forms"
+msgstr ""
+
+#: $string['csvgenerated']
+msgid "CSV generated"
+msgstr ""
+
+#: $string['currentstate']
+msgid "Current state:"
+msgstr ""
+
+#: $string['deadline']
+msgid "Deadline"
+msgstr ""
+
+#: $string['deadline_help']
+msgid ""
+"The latest time that users will be able to select their allocations, it is "
+"also the earliest time that a allocation form will be queued for the "
+"allocation process to happen."
+msgstr ""
+
+#: $string['deadline_message']
+msgid "The deadline for completing this form is: {$a->deadline}"
+msgstr ""
+
+#: $string['deadline_passed']
+msgid ""
+"The deadline for this form has passed, if you make it active now it will "
+"begin processing immediately."
+msgstr ""
+
+#: $string['defaultrole']
+msgid "Default role"
+msgstr ""
+
+#: $string['defaultrole_help']
+msgid ""
+"Set the default role that will be used for selecting users who will be "
+"allocated using the activity"
+msgstr ""
+
+#: $string['deny_access']
+msgid "You do not have permission to view this allocation form."
+msgstr ""
+
+#: $string['disallow_list']
+msgid "Disallow list"
+msgstr ""
+
+#: $string['disallow_list_help']
+msgid "All checked users will not be able to select {$a->option_name}"
+msgstr ""
+
+#: $string['duplicate_choice']
+msgid "You may only select a choice one time"
+msgstr ""
+
+#: $string['duplicateoption']
+msgid ""
+"Error: Your changes could not be saved to the database.  This is most likely "
+"due to a duplicate option name being entered"
+msgstr ""
+
+#: $string['editingmode']
+msgid "Editing"
+msgstr ""
+
+#: $string['form_allocation_error']
+msgid "ERROR in formid {$a->formid}:"
+msgstr ""
+
+#: $string['form_allocation_error2']
+msgid "ERROR: Unable to allocate userid {$a->userid}"
+msgstr ""
+
+#: $string['generate_allocation_csv']
+msgid "Generate csv of user allocations"
+msgstr ""
+
+#: $string['generate_csv']
+msgid "Generate csv of user choices"
+msgstr ""
+
+#: $string['invalidstate']
+msgid "An invalid state change was passed to the allocation form"
+msgstr ""
+
+#: $string['make_active']
+msgid "Make the form active"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Allocation form"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"The allocation form can be used to assign students to between one and ten "
+"options (for example modules, assignments, placements...)\n"
+"\n"
+"The teacher defines:\n"
+"\n"
+"* The list of options available to students.\n"
+"* The number of students who can be assigned to an option.\n"
+"* How many options students are assigned to (between one and ten)\n"
+"* How many options a student can rank (between one and ten)\n"
+"* If students are able to select an option that they do not wish to be "
+"allocated to.\n"
+"* The last point at which students can submit a choice.\n"
+"\n"
+"Warning: When switching the activity from active mode back into editing "
+"mode, any choices made by students will be deleted.\n"
+"\n"
+"After the close date the form will attempt to do a 'best fit' allocation of "
+"the students so that:\n"
+"\n"
+"* As many students get assigned to options as high on their ranking as "
+"possible.\n"
+"* Students will never be assigned to a choice they select as 'Do not want'.\n"
+"* Students will not be assigned to options that they have been restricted "
+"from selecting.\n"
+"* Students who do not make a choice will be allocated last.\n"
+"\n"
+"After the allocations have been processed teachers may:\n"
+"\n"
+"* Review the result and ammend the number of students allocated to options "
+"before they release the results to students.\n"
+"* Get a csv of the student choices.\n"
+"* Get a csv of the allocations."
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Allocation forms"
+msgstr ""
+
+#: $string['noallocationforms']
+msgid "No allocation forms found for this course"
+msgstr ""
+
+#: $string['no_allocations']
+msgid "No allocations found"
+msgstr ""
+
+#: $string['noformdatapassed']
+msgid "No form data was passed.  No update performed."
+msgstr ""
+
+#: $string['not_active']
+msgid "The allocation form is not available, please try again later."
+msgstr ""
+
+#: $string['not_enough_slots']
+msgid ""
+"Not enough slots are available for all the people eligible for assignment"
+msgstr ""
+
+#: $string['notrequired']
+msgid "Not required"
+msgstr ""
+
+#: $string['notsaved']
+msgid "Not saved, you do not have the required role."
+msgstr ""
+
+#: $string['not_set']
+msgid "You must make a choice"
+msgstr ""
+
+#: $string['notwant']
+msgid "Include do not want"
+msgstr ""
+
+#: $string['notwant_help']
+msgid ""
+"If selected a user will be given the oportunity to specify an option they do "
+"not wish to be allocated to"
+msgstr ""
+
+#: $string['numberofallocations']
+msgid "Allocations per user"
+msgstr ""
+
+#: $string['numberofallocations_help']
+msgid "The number of options a user will be allocated to"
+msgstr ""
+
+#: $string['numberofchoices']
+msgid "Number of choices"
+msgstr ""
+
+#: $string['numberofchoices_help']
+msgid "The number of options a user will have to choose"
+msgstr ""
+
+#: $string['ok_to_continue']
+msgid "Are you sure you wish to continue?"
+msgstr ""
+
+#: $string['optionedited']
+msgid "Option edited"
+msgstr ""
+
+#: $string['option_form_header']
+msgid "New option"
+msgstr ""
+
+#: $string['option_heading']
+msgid "Heading"
+msgstr ""
+
+#: $string['option_heading_help']
+msgid "A heading to be displayed imediatly above this option."
+msgstr ""
+
+#: $string['option_list']
+msgid "Option list"
+msgstr ""
+
+#: $string['option_maxallocation']
+msgid "Maximum allocations"
+msgstr ""
+
+#: $string['option_maxallocation_help']
+msgid "The maximum number of people that can be allocated to this option."
+msgstr ""
+
+#: $string['option_maxallocation_invalid']
+msgid "Maximum allocations not set"
+msgstr ""
+
+#: $string['option_name']
+msgid "Option name"
+msgstr ""
+
+#: $string['option_name_help']
+msgid "The name of the option as it will be displayed to the user."
+msgstr ""
+
+#: $string['option_restricted']
+msgid "Restricted users"
+msgstr ""
+
+#: $string['overviewclose']
+msgid "Close date: {$a->closedate}"
+msgstr ""
+
+#: $string['overviewname']
+msgid "Allocation: {$a->link}"
+msgstr ""
+
+#: $string['overviewready']
+msgid "Your allocation is available."
+msgstr ""
+
+#: $string['overviewreview']
+msgid "Ready for review. The people allocated cannot see the results."
+msgstr ""
+
+#: $string['people']
+msgid "Number of people to be allocated"
+msgstr ""
+
+#: $string['permissionedited']
+msgid "Permission edited"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Allocation form administration"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Allocation forms (eForms)"
+msgstr ""
+
+#: $string['processedmode']
+msgid "Processed"
+msgstr ""
+
+#: $string['processmode']
+msgid "Processing"
+msgstr ""
+
+#: $string['queued_for_processing']
+msgid ""
+"The allocation form is waiting to be processed... please come back later."
+msgstr ""
+
+#: $string['readymode']
+msgid "Active"
+msgstr ""
+
+#: $string['reprocess']
+msgid "Force reallocation"
+msgstr ""
+
+#: $string['reprocess_warning']
+msgid "This will delete all current allocations"
+msgstr ""
+
+#: $string['requirechoice']
+msgid "Require choice"
+msgstr ""
+
+#: $string['restrict']
+msgid "Restrict"
+msgstr ""
+
+#: $string['restrictionsexceeded']
+msgid ""
+"You have exceeded the number of workable restrictions for {$a->users} "
+"user(s).  At least {$a->numberofchoices} available options are required per "
+"user."
+msgstr ""
+
+#: $string['reviewmode']
+msgid "Review"
+msgstr ""
+
+#: $string['roleselect']
+msgid "Role to be allocated"
+msgstr ""
+
+#: $string['roleselect_help']
+msgid ""
+"Select the role of users on this course that will be allocated using this "
+"form."
+msgstr ""
+
+#: $string['saved']
+msgid "Options saved, you may now return to the course"
+msgstr ""
+
+#: $string['search:activity']
+msgid "Allocation form - activity information"
+msgstr ""
+
+#: $string['show_allocations']
+msgid "Make allocations available"
+msgstr ""
+
+#: $string['show_course']
+msgid "Go back to {$a->coursename}"
+msgstr ""
+
+#: $string['slots']
+msgid "Number of spaces for allocation"
+msgstr ""
+
+#: $string['startdate']
+msgid "Start date"
+msgstr ""
+
+#: $string['startdate_help']
+msgid "The earliest time that users will be able to select their allocations."
+msgstr ""
+
+#: $string['statechanged']
+msgid "State changed"
+msgstr ""
+
+#: $string['trackcompletion']
+msgid "Require choice submission to complete this activity?"
+msgstr ""
+
+#: $string['unallocated']
+msgid "Unallocated"
+msgstr ""

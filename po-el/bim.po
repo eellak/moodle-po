@@ -1,0 +1,1919 @@
+#. extracted from lang/en/bim.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'bim', language 'en', branch 'MOODLE_29_STABLE'
+#.  *
+#.  * @package   bim
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['allocatedPostStudent']
+msgid "Allocated"
+msgstr ""
+
+#: $string['allocatedPostStudent_help']
+msgid ""
+"Either BIM or a member of the teaching staff have allocated this post as an "
+"answer to one of the set prompts."
+msgstr ""
+
+#: $string['allocation_form_change']
+msgid "Change allocation to"
+msgstr ""
+
+#: $string['allocation_form_change_help']
+msgid ""
+"Before you can mark a student post it has to be allocated as an answer to "
+"one of the specified prompts. This allocation is done either automatically "
+"by BIM or manually be a teacher.\n"
+"The \"Change allocation to\" drop box provides a list of the prompt titles for "
+"all the prompts not yet answered by this student.  If you select one of "
+"these prompt titles, the post will be reallocated to that prompt."
+msgstr ""
+
+#: $string['allocation_form_description']
+msgid ""
+"<p>The following is a list of all the posts this student has made. Some may "
+"have been allocated to prompts. Some may not.</p><p>Use the \"Change "
+"allocation to:\" menu to change the allocation of any student posts.</p>"
+msgstr ""
+
+#: $string['allocation_form_mark']
+msgctxt "$string['allocation_form_mark']"
+msgid "Mark"
+msgstr ""
+
+#: $string['allocation_form_mark_help']
+msgid ""
+"Each student post allocated to a prompt can be awarded a mark. Usually this "
+"mark should be no less than a minimum mark and no greater than a maximum "
+"mark allocated by the teacher in charge. The form shows the minimum and "
+"maximum mark for the prompt on the Marking page as min and max.\n"
+"BIM will not stop you from awarding a mark outside of the range specified by "
+"min and max.  It will warn you, but still store the mark you have awarded."
+msgstr ""
+
+#: $string['allocation_form_original']
+msgid "Original post"
+msgstr ""
+
+#: $string['allocation_form_posted']
+msgid "Posted:"
+msgstr ""
+
+#: $string['allocation_form_post_title']
+msgid "Title:"
+msgstr ""
+
+#: $string['allocation_form_status']
+msgid "<span class=\"{$a->class}\">Status: {$a->status}</span>"
+msgstr ""
+
+#: $string['allocation_form_suspend']
+msgid "Suspended?"
+msgstr ""
+
+#: $string['allocation_form_suspend_help']
+msgid ""
+"A student's post can be suspended. This means that the post, and in "
+"particular any mark or comments you have made, cannot be released back to "
+"the student. If the checkbox is ticked, the post is suspended.\n"
+"This is provided in case there is some problem with the student post (e.g. "
+"possible plagiarism), which requires additional consideration before "
+"release."
+msgstr ""
+
+#: $string['bim']
+msgctxt "$string['bim']"
+msgid "BIM"
+msgstr ""
+
+#: $string['bim:addinstance']
+msgid "Add a BIM activity"
+msgstr ""
+
+#: $string['bim_allocate_marker_description']
+msgid ""
+"<p>Teaching staff can be allocated to mark posts from different groups of "
+"students. The following lists:</p> <ul> <li> All of the teaching staff "
+"currently allocated to this course.<br /> To add or remove staff to/from "
+"this list use the normal Moodle methods for adding teaching staff to the "
+"course. </li> <li> A list of all the groups associated with this course.<br "
+"/> Again, use the normal Moodle methods for adding/removing groups or to "
+"find out which students belong to groups. </li> <li> Groups allocated to "
+"each staff member.<br />If a group name is highlighted, then the staff "
+"member is allocated to that group. </li> </ul>"
+msgstr ""
+
+#: $string['bim_allocate_marker_heading']
+msgid "Allocate markers to groups"
+msgstr ""
+
+#: $string['bim_allocate_marker_nogroups_description']
+msgid ""
+"<p>Unable to find any groups for this course.  Marker allocation is only "
+"possible with existing course groups.</p><p>Course groups need to be created "
+"using Moodle's groups facility.</p>"
+msgstr ""
+
+#: $string['bim_allocate_marker_nogroups_heading']
+msgctxt "$string['bim_allocate_marker_nogroups_heading']"
+msgid "Can not allocate markers"
+msgstr ""
+
+#: $string['bim_allocate_marker_nomarkers_description']
+msgid ""
+"<p>Unable to find any markers for this course.  You will need to allocate "
+"some people to this course in teaching roles using the Moodle role "
+"facility.</p>"
+msgstr ""
+
+#: $string['bim_allocate_marker_nomarkers_heading']
+msgctxt "$string['bim_allocate_marker_nomarkers_heading']"
+msgid "Can not allocate markers"
+msgstr ""
+
+#: $string['bim_answer']
+msgid "Live blog"
+msgstr ""
+
+#: $string['bim_cancel']
+msgid "Cancel"
+msgstr ""
+
+#: $string['bim_change_again']
+msgid "<p>Please try to <a href=\"{$a}\">change the student blog</a> again.</p>"
+msgstr ""
+
+#: $string['bim_change_description']
+msgid ""
+"<p>The following allows you to change the registered blog/feed for a "
+"specific student. The form contains:</p><ol> <li> Current details about the "
+"student, their feed and any marking. <br /><strong>Important:</strong> If "
+"you change a student's blog/feed any record of the old blog/feed (including "
+"any marks and comments) will be <strong>deleted</strong>.</li><li> A text "
+"box for you to enter the URL for the new feed.</li></ol>"
+msgstr ""
+
+#: $string['bim_change_form_description']
+msgid ""
+"<p>You should copy and paste the complete URL (e.g. "
+"<strong>http://davidtjones.wordpress.com</strong>) of the home page for a "
+"blog. BIM will attempt to describe any errors.</p>"
+msgstr ""
+
+#: $string['bim_change_form_heading']
+msgctxt "$string['bim_change_form_heading']"
+msgid "Change student feed"
+msgstr ""
+
+#: $string['bim_change_form_url']
+msgid "New student blog URL:"
+msgstr ""
+
+#: $string['bim_change_heading']
+msgctxt "$string['bim_change_heading']"
+msgid "Change student feed"
+msgstr ""
+
+#: $string['bim_change_register_description']
+msgid "<p>Use the form below to register the student's blog URL"
+msgstr ""
+
+#: $string['bim_change_register_heading']
+msgid "Register student feed"
+msgstr ""
+
+#: $string['bim_change_success_description']
+msgid ""
+"<p>The student blog has been successfully changed. The details of the new "
+"feed are shown below.</p>"
+msgstr ""
+
+#: $string['bim_change_success_heading']
+msgid "Student feed changed"
+msgstr ""
+
+#: $string['bim_cmiderror']
+msgid "Course module ID was incorrect"
+msgstr ""
+
+#: $string['bim_configuration_details']
+msgid "Current configuration settings"
+msgstr ""
+
+#: $string['bim_configuration_grade']
+msgid "{$a} Are results added to gradebook?:"
+msgstr ""
+
+#: $string['bim_configuration_intro']
+msgid "{$a} About:"
+msgstr ""
+
+#: $string['bim_configuration_mirror']
+msgid "{$a} Are posts being mirrored?:"
+msgstr ""
+
+#: $string['bim_configuration_name']
+msgid "{$a} BIM name:"
+msgstr ""
+
+#: $string['bim_configuration_no_mirror']
+msgid ""
+"<p><strong>Important:</strong> BIM is not currently copying/mirroring "
+"student posts to the local system.  No new student posts will enter the "
+"system.</p>"
+msgstr ""
+
+#: $string['bim_configuration_no_register']
+msgid ""
+"<p><strong>Important:</strong> students cannot currently register their "
+"feed.</p>"
+msgstr ""
+
+#: $string['bim_configuration_registration']
+msgid "{$a} Can students register?:"
+msgstr ""
+
+#: $string['bim_configuration_screen']
+msgid ""
+"<p>The general configuration of BIM is done using the <a "
+"href=\"{$a->wwwroot}/course/modedit.php?update={$a->cmid}&return=1\">standard "
+"activity configure interface</a></p><p>The \"General Steps\" section at the "
+"bottom of this page provides a basic introduction to using BIM.</p>"
+msgstr ""
+
+#: $string['bim_configuration_settings']
+msgid "Settings"
+msgstr ""
+
+#: $string['bim_configuration_steps_description']
+msgid ""
+"<p>Configuring a BIM activity would normally include these "
+"steps:</p><ol><li>Configure BIM;<br />Provide the title and descripton of "
+"the activity and set whether the activity is being graded, mirrored or "
+"students allowed to registere.</li><li>Manage prompts;<br />Create a list of "
+"prompts to which students are expected to respond. With mirroring on BIM "
+"will try to automatically allocate student posts to "
+"response.</li><li>Allocate markers;<br />Specify which groups of students "
+"each marker is responsible for marking.</li></ol>"
+msgstr ""
+
+#: $string['bim_configuration_steps_heading']
+msgid "General steps for configuring a BIM activity"
+msgstr ""
+
+#: $string['bim_configuration_values']
+msgid "Current Values"
+msgstr ""
+
+#: $string['bim_continue']
+msgid "<p align=\"center\">(<a href=\"{$a}\">Continue</a>)</p>"
+msgstr ""
+
+#: $string['bim:coordinator']
+msgid "Admin do just about anything"
+msgstr ""
+
+#: $string['bim_dbase_max_exceeded_description']
+msgid ""
+"<p>The mark you have awarded this student - <strong>{$a->mark}</strong> - "
+"exceeds the maximum mark that will fit in the database - "
+"<strong>{$a->max}</strong>.</p><p>The mark has been set to the maximum "
+"allowed for this prompt - <strong>{$a->allowedmax}</strong>.</p>"
+msgstr ""
+
+#: $string['bim_dbase_max_exceeded_heading']
+msgid "Mark exceeds maximum database mark"
+msgstr ""
+
+#: $string['bim_details_count']
+msgid ""
+"<p><strong>You have:</strong> {$a->unregistered} <a "
+"href=\"#unreg\">unregistered students</a>, and {$a->registered} <a "
+"href=\"#reg\">registered students.</a></p><p><strong>You can:</strong> View "
+"the students' details below, or <a href=\"{$a->mark}\">mark their "
+"posts</a>.</p>"
+msgstr ""
+
+#: $string['bim_details_no_regs']
+msgid "<p>None of your students have registered feeds.</p>"
+msgstr ""
+
+#: $string['bim_details_opml']
+msgid ""
+"<p>{$a->help} Download OPML file: <a href=\"{$a->url}\">your students</a></p>"
+msgstr ""
+
+#: $string['bim_details_registered_heading']
+msgctxt "$string['bim_details_registered_heading']"
+msgid "Registered student details"
+msgstr ""
+
+#: $string['bim_details_registered_heading_help']
+msgid ""
+"<p>Details of students allocated to you who have successfully registered "
+"their feed with BIM.</p>"
+msgstr ""
+
+#: $string['bim_details_unavailable']
+msgid "unavailable"
+msgstr ""
+
+#: $string['bim_details_unreg_email_list']
+msgid "Unregistered students' email addresses:"
+msgstr ""
+
+#: $string['bim_details_unregistered_description']
+msgid "<p>These students have not yet registered their feeds</p>"
+msgstr ""
+
+#: $string['bim_error_update_instance']
+msgid "Cannot update bim"
+msgstr ""
+
+#: $string['bim_error_updating']
+msgid "Error updating database"
+msgstr ""
+
+#: $string['bimfieldset']
+msgid "BIM settings"
+msgstr ""
+
+#: $string['bim_find_again_description']
+msgid "<p>The details of the student you selected appears below.</p>"
+msgstr ""
+
+#: $string['bim_find_again_heading']
+msgid "Search again?"
+msgstr ""
+
+#: $string['bim_find_description']
+msgid ""
+"<p>View details of a specific student by entering all or part of the "
+"student's name, username or email address. Some examples:</p> <ul> <li> "
+"<strong>joe bloggs</strong> - will find all students with \"joe bloggs\" as "
+"their name. </li><li> <strong>j.bloggs</strong> - find all students with "
+"\"j.bloggs\" in their name, username or email adress. </li> <li> "
+"<strong>j</strong> find all students with \"j\" in their name, username or "
+"email address.</li><li> <strong>%%</strong> will match all "
+"students.</li></ul><p> <strong>NOTE:</strong> Only search strings that "
+"return less than 200 matches will work. This search is likely to be much "
+"more. </p>"
+msgstr ""
+
+#: $string['bim_find_heading']
+msgid "Find student"
+msgstr ""
+
+#: $string['bim_find_none_description']
+msgid ""
+"<p>Unable to find any students with a name, username or email address that "
+"contained <blockquote><strong>{$a}</strong></blockquote>Please try another "
+"search. </p>"
+msgstr ""
+
+#: $string['bim_find_none_heading']
+msgid "No matches found"
+msgstr ""
+
+#: $string['bim_find_one_description']
+msgid ""
+"<p>Your search matched one student.  What that student sees when they login "
+"to BIM is shown after the search form. </p>"
+msgstr ""
+
+#: $string['bim_find_one_heading']
+msgid "One student found"
+msgstr ""
+
+#: $string['bim_find_student_details_heading']
+msgid "Student details"
+msgstr ""
+
+#: $string['bim_find_text']
+msgid "Search for student:"
+msgstr ""
+
+#: $string['bim_find_too_many']
+msgid ""
+"<p>Your search for "
+"<blockquote><strong>{$a->search}</strong></blockquote>matched {$a->count} "
+"students.  This is too many (from a system resources perspective) to "
+"display.  Please refine your search and try again.</p>"
+msgstr ""
+
+#: $string['bim_find_x_description']
+msgid ""
+"<p>Your search "
+"for<blockquote><strong>{$a->search}</strong></blockquote>matched {$a->count} "
+"students.  A list of matching students is shown below. </p><p>You searched "
+"for:</p>"
+msgstr ""
+
+#: $string['bim_find_x_heading']
+msgid "{$a} students found"
+msgstr ""
+
+#: $string['bim_grade_feed']
+msgid "Enable grading?"
+msgstr ""
+
+#: $string['bim_grade_feed_help']
+msgid ""
+"If this option is selected then a new field will appear in the gradebook for "
+"this course.  The name of the field will match the name of this BIM "
+"activity. When you release students' marked posts the mark will appear in "
+"that field in the gradebook. The final result for each student in the "
+"gradebook will be the total of all the student's released posts added "
+"together."
+msgstr ""
+
+#: $string['bim_group_allocations_added']
+msgid "<li>Added group {$a->group} for {$a->marker} </li>"
+msgstr ""
+
+#: $string['bim_group_allocations_heading']
+msgid "Updating marker allocations"
+msgstr ""
+
+#: $string['bim_group_allocations_none']
+msgid "<p>Unable to find or make any change to marker allocations.</p>"
+msgstr ""
+
+#: $string['bim_group_allocations_removed']
+msgid "<li>Removed group {$a->group} for {$a->marker} </li>"
+msgstr ""
+
+#: $string['bim_header_allocate']
+msgid "Allocate posts for a student"
+msgstr ""
+
+#: $string['bim_header_changeblog']
+msgid "Change student's blog"
+msgstr ""
+
+#: $string['bim_header_details']
+msgid "Your details for"
+msgstr ""
+
+#: $string['bim_header_mark']
+msgctxt "$string['bim_header_mark']"
+msgid "Mark post"
+msgstr ""
+
+#: $string['bim_header_post_details']
+msgctxt "$string['bim_header_post_details']"
+msgid "Mark posts"
+msgstr ""
+
+#: $string['bim_header_student_details']
+msgctxt "$string['bim_header_student_details']"
+msgid "View student details"
+msgstr ""
+
+#: $string['bimintro']
+msgid "About BIM activity"
+msgstr ""
+
+#: $string['bimintro_help']
+msgid ""
+"This information is meant to describe the purpose of this particular BIM "
+"activity and will be displayed to students when they register and view "
+"details about their blog/feed."
+msgstr ""
+
+#: $string['bim_item_allocated_allocated']
+msgid "Allocated to the prompt <strong>{$a}</strong><br />(not marked yet)"
+msgstr ""
+
+#: $string['bim_item_allocated_marked']
+msgid ""
+"Allocated to the prompt <strong>{$a}</strong><br />(marked but not released)"
+msgstr ""
+
+#: $string['bim_item_allocated_not']
+msgid "Not allocated to a prompt"
+msgstr ""
+
+#: $string['bim_item_allocated_released']
+msgid ""
+"Allocated to the prompt <strong>{$a->title}</strong><br />Marked: {$a->mark} "
+"out of {$a->max}"
+msgstr ""
+
+#: $string['bim_mark_allocated']
+msgid "<li>Post allocation changed to prompt <strong>{$a}</strong>.</li>"
+msgstr ""
+
+#: $string['bim_mark_cancel_description']
+msgid "<p>Redirecting back to show post details.</p>"
+msgstr ""
+
+#: $string['bim_mark_cancel_heading']
+msgid "Cancelled marking of post"
+msgstr ""
+
+#: $string['bim_mark_changes_heading']
+msgid "Changes to post"
+msgstr ""
+
+#: $string['bim_mark_comments_updated']
+msgid "<li> Markers comments updated.</li>"
+msgstr ""
+
+#: $string['bim_mark_continue']
+msgid "Make more changes?"
+msgstr ""
+
+#: $string['bim_mark_details_error']
+msgid "Could not get student details"
+msgstr ""
+
+#: $string['bim:marker']
+msgid "Teacher view of student details"
+msgstr ""
+
+#: $string['bim_marker_allocate_heading']
+msgid "Changing post allocations"
+msgstr ""
+
+#: $string['bim_marker_answers']
+msgid "# actual answers / # required answers"
+msgstr ""
+
+#: $string['bim_marker_answers_help']
+msgid ""
+"Normally BIM expects you to respond to a range of prompts set by the "
+"teacher. \"Required answers\" is the total number of prompts you need to "
+"respond to. \"Actual answers\" is the number of posts BIM has automatically "
+"allocated as an answer to one of these prompts."
+msgstr ""
+
+#: $string['bim_marker_blog']
+msgid "Your blog"
+msgstr ""
+
+#: $string['bim_marker_error_description']
+msgctxt "$string['bim_marker_error_description']"
+msgid "<p>No changes made.</p>"
+msgstr ""
+
+#: $string['bim_marker_error_heading']
+msgid "Error: validating form data for allocation"
+msgstr ""
+
+#: $string['bim_marker_m_r']
+msgid "# Released / # Marked"
+msgstr ""
+
+#: $string['bim_marker_m_r_help']
+msgid ""
+"Eventually a teacher should mark the posts you have made which are answers "
+"to prompts.  # Marked\" is the number of your posts that teachers have "
+"marked.  You cannot see the marks or comments from the teachers on your "
+"marked posts until they are released, i.e. made available to you.\n"
+"# Released\" is the number of your marked posts that have been released."
+msgstr ""
+
+#: $string['bim_marker_notstudent_description']
+msgid ""
+"<p>The student <strong>{$a}</strong> is not currently allocated to you. This "
+"means you cannot view or make changes to their details.</p>"
+msgstr ""
+
+#: $string['bim_marker_notstudent_heading']
+msgid "Error, not your student"
+msgstr ""
+
+#: $string['bim_marker_post_details']
+msgctxt "$string['bim_marker_post_details']"
+msgid "Mark posts"
+msgstr ""
+
+#: $string['bim_marker_posts']
+msgid "# posts mirrored"
+msgstr ""
+
+#: $string['bim_marker_posts_help']
+msgid ""
+"BIM tries to keep a copy of every post you have ever made on your registered "
+"blog/feed.  This is a process called mirroring.  # posts mirrored\" is the "
+"number of posts from your blog/feed that BIM has copied locally."
+msgstr ""
+
+#: $string['bim_marker_progress']
+msgid "Progress result"
+msgstr ""
+
+#: $string['bim_marker_progress_help']
+msgid ""
+"Each of your posts that answers a prompt and is marked, will be given a "
+"numeric mark. Progress result is the total number of marks from your marked "
+"and released posts."
+msgstr ""
+
+#: $string['bim_marker_show_qs']
+msgid ""
+"<p>This activity has set prompts that the students must answer through their "
+"posts. You can <a href=\"{$a->url}\">view the prompts here</a>. For help on "
+"marking posts try {$a->help}</p>"
+msgstr ""
+
+#: $string['bim_marker_show_qs_link']
+msgid "view the prompts here"
+msgstr ""
+
+#: $string['bim_marker_student']
+msgid "Student"
+msgstr ""
+
+#: $string['bim_marker_student_details']
+msgctxt "$string['bim_marker_student_details']"
+msgid "View student details"
+msgstr ""
+
+#: $string['bim_marking_heading']
+msgctxt "$string['bim_marking_heading']"
+msgid "Manage marking"
+msgstr ""
+
+#: $string['bim_marking_no_markers_description']
+msgid ""
+"<p>There are no markers with students allocated to mark. This means it is "
+"impossible to view marking progress.</p><p>To view marking progress you will "
+"need to use <strong>Allocate Markers</strong> to allocate markers.</p>"
+msgstr ""
+
+#: $string['bim_marking_no_markers_heading']
+msgid "No markers allocated"
+msgstr ""
+
+#: $string['bim_marking_no_questions']
+msgid ""
+"<p>There are currently no prompts defined for this activity. This means that "
+"no marking can be done.  Use the \"Manage prompts\" tab above to add "
+"prompts.</p>"
+msgstr ""
+
+#: $string['bim_marking_release']
+msgid "Release all {$a} marked post(s)"
+msgstr ""
+
+#: $string['bim_marking_to_do']
+msgid ""
+"<p>The following table gives an overview of marking progress for the "
+"different markers for this BIM.  There are two main tasks you can perform "
+"from here:</p><ul> <li> release marked posts so that students can see marker "
+"comments and marks; and<br /> (Only possible when there are <em>Marked</em> "
+"posts) </li><li> drill down to see more detail on groups of "
+"students.</li></ul>"
+msgstr ""
+
+#: $string['bim_marking_unregistered']
+msgid ""
+"<p><strong><a href=\"#unreg\">Unregistered students</a>:</strong> There are "
+"{$a} student(s) who have not registered their feeds.</p>"
+msgstr ""
+
+#: $string['bim_mark_marked']
+msgid "<li>Post status updated to Marked.</li>"
+msgstr ""
+
+#: $string['bim_mark_marker']
+msgid "<li>Marker updated to you.</li>"
+msgstr ""
+
+#: $string['bim_mark_mark_updated']
+msgid "<li>Mark updated.</li>"
+msgstr ""
+
+#: $string['bim_mark_max_exceeded_description']
+msgid ""
+"<p>The mark you have awarded this student - <strong>{$a->mark}</strong> - "
+"exceeds the maximum allowed mark for this prompt - "
+"<strong>{$a->max}</strong>.</p><p>This is allowed, however, it may not be "
+"what is intended.</p>"
+msgstr ""
+
+#: $string['bim_mark_max_exceeded_heading']
+msgid "Mark exceeds maximum mark"
+msgstr ""
+
+#: $string['bim_mark_min_exceeded_description']
+msgid ""
+"<p>The mark you have awarded this student - <strong>{$a->mark}</strong> - "
+"falls below the minimum allowed mark for this prompt - "
+"<strong>{$a->max}</strong>.</p><p>This is allowed, however, it may not be "
+"what is intended.</p>"
+msgstr ""
+
+#: $string['bim_mark_min_exceeded_heading']
+msgid "Mark falls below minimum mark"
+msgstr ""
+
+#: $string['bim_mark_next_q']
+msgid "<a href=\"{$a}\">mark next prompt</a>"
+msgstr ""
+
+#: $string['bim_mark_next_q_none']
+msgid "mark next prompt"
+msgstr ""
+
+#: $string['bim_mark_next_s']
+msgid "<a href=\"{$a}\">mark next student</a>"
+msgstr ""
+
+#: $string['bim_mark_next_s_none']
+msgid "mark next student"
+msgstr ""
+
+#: $string['bim_mark_nochanges']
+msgctxt "$string['bim_mark_nochanges']"
+msgid "<p>No changes made.</p>"
+msgstr ""
+
+#: $string['bim_mark_post']
+msgid "Post"
+msgstr ""
+
+#: $string['bim_mark_post_heading']
+msgctxt "$string['bim_mark_post_heading']"
+msgid "Mark post"
+msgstr ""
+
+#: $string['bim_mark_prev_next_none_q']
+msgid "no other prompts"
+msgstr ""
+
+#: $string['bim_mark_prev_next_none_s']
+msgid "no other students"
+msgstr ""
+
+#: $string['bim_mark_prev_next_q']
+msgid "For this student:"
+msgstr ""
+
+#: $string['bim_mark_prev_next_s']
+msgid "For this prompt:"
+msgstr ""
+
+#: $string['bim_mark_prev_next_sep']
+msgid "|"
+msgstr ""
+
+#: $string['bim_mark_prev_q']
+msgid "<a href=\"{$a}\">mark previous prompt</a>"
+msgstr ""
+
+#: $string['bim_mark_prev_q_none']
+msgid "mark previous prompt"
+msgstr ""
+
+#: $string['bim_mark_prev_s']
+msgid "<a href=\"{$a}\">mark previous student</a>"
+msgstr ""
+
+#: $string['bim_mark_prev_s_none']
+msgid "mark previous student"
+msgstr ""
+
+#: $string['bim_mark_suspended']
+msgid "<li> Post has been suspended. </li>"
+msgstr ""
+
+#: $string['bim_mark_unallocated']
+msgid "<li>Post unallocated as an answer.</li>"
+msgstr ""
+
+#: $string['bim_mark_unsuspended']
+msgid "<li> Post has unsuspended (set to Marked). </li>"
+msgstr ""
+
+#: $string['bim_mirror_feed']
+msgid "Enable mirroring?"
+msgstr ""
+
+#: $string['bim_mirror_feed_help']
+msgid ""
+"BIM creates a mirror of the feed for each student blog or resource. A mirror "
+"is a local up-to-date copy of the feed. While this option is selected the "
+"feeds registered for this course will be mirrored. De-select and the mirror "
+"process will cease. Typically the mirror process is only left on while the "
+"course is being offered. The mirror process is run once when the student "
+"first registers their feed. It is then run every hour on all student feeds "
+"to see if any changes have occured."
+msgstr ""
+
+#: $string['bimname']
+msgid "Name of BIM activity"
+msgstr ""
+
+#: $string['bim_not_marked']
+msgid "Mark it"
+msgstr ""
+
+#: $string['bim_please_register_description']
+msgid ""
+"<p>Copy the URL of your blog/feed into the box below and hit the \"Register "
+"your blog\" button. At this stage BIM will:</p><ol><li>Check your URL for any "
+"problems.<p>If there are any problems it will tell you what they are and "
+"ask you to register the correct URL.</p></li><li>Make a copy (mirror) any "
+"existing posts on your blog into this system.<p><strong>Warning:</strong> "
+"This may take a little while, please be patient.</p></li><li>Display details "
+"of what it found.<p>This is how you can check what BIM knows about your "
+"blog. Once you register your blog, BIM will only ever show  you the "
+"details.</p></li></ol>"
+msgstr ""
+
+#: $string['bim_please_register_heading']
+msgid "Please register your blog"
+msgstr ""
+
+#: $string['bim_post_heading']
+msgctxt "$string['bim_post_heading']"
+msgid "Mark posts"
+msgstr ""
+
+#: $string['bim_post_no_questions']
+msgid ""
+"<p>There are no prompts currently defined for this activity. Use the \"Manage "
+"Prompts\" tab above to add prompts.</p>"
+msgstr ""
+
+#: $string['bim_posts']
+msgid "posts"
+msgstr ""
+
+#: $string['bim_process_feed_error']
+msgid "bim_process_feed: inserting bim_marking {$a}"
+msgstr ""
+
+#: $string['bim_qform_addnew']
+msgid "Add new prompt"
+msgstr ""
+
+#: $string['bim_qform_delete']
+msgid "Delete prompt?"
+msgstr ""
+
+#: $string['bim_qform_max']
+msgid "Max mark :"
+msgstr ""
+
+#: $string['bim_qform_max_help']
+msgid "Max mark {$a}:"
+msgstr ""
+
+#: $string['bim_qform_min']
+msgid "Min mark :"
+msgstr ""
+
+#: $string['bim_qform_min_help']
+msgid "Min mark {$a}:"
+msgstr ""
+
+#: $string['bim_qform_question']
+msgid "Prompt: {$a}"
+msgstr ""
+
+#: $string['bim_qform_stats']
+msgid "<p>Student answers {$a->help}: {$a->stats}</p>"
+msgstr ""
+
+#: $string['bim_qform_title']
+msgid "Title :"
+msgstr ""
+
+#: $string['bim_qform_title_help']
+msgid "Title {$a}:"
+msgstr ""
+
+#: $string['bim_questions_adding']
+msgid "<p>Adding a new prompt with the title <strong>{$a}</strong></p>"
+msgstr ""
+
+#: $string['bim_questions_changes_heading']
+msgid "<p>Changes being made include..<p>"
+msgstr ""
+
+#: $string['bim_questions_changing']
+msgid "<p>Changing {$a} prompt(s):</p><ul>"
+msgstr ""
+
+#: $string['bim_questions_current']
+msgid ""
+"<p>There are currently {$a} prompts for this BIM activity. The following "
+"allows you to:</p><ul> <li> add a new prompt;<br /> If students have already "
+"posted, BIM will try to allocate these existing posts to the new quesiton "
+"when it next trys to mirror posts. </li> <li> delete an existing prompt; or, "
+"<br /> It is advised you do not do this if students have already made "
+"posts. Currently BIM does not deallocate student posts that have already "
+"been allocated to a deleted prompt. </li> <li> modify an existing prompt.<br "
+"/>You can change the title, mark range and the description. </li> </ul>"
+msgstr ""
+
+#: $string['bim_questions_deleting']
+msgid "<p>Deleting prompt with title: <strong>{$a}</strong>.</p>"
+msgstr ""
+
+#: $string['bim_questions_error_changing_title']
+msgid "ERROR updating database"
+msgstr ""
+
+#: $string['bim_questions_error_delete']
+msgid ""
+"<p><strong>ERROR</strong> unable to delete prompt with title "
+"<strong>{$a}</strong>.</p>"
+msgstr ""
+
+#: $string['bim_questions_error_insert']
+msgid "Error inserting new prompt"
+msgstr ""
+
+#: $string['bim_questions_error_processing']
+msgid "Problem processing the prompt form."
+msgstr ""
+
+#: $string['bim_questions_nochanges']
+msgid "<p>No changes were made.</p>"
+msgstr ""
+
+#: $string['bim_questions_none_description']
+msgid ""
+"<p>There are currently no prompts for this activity. BIM will still operate, "
+"students can register blogs and staff can track student blogs.  However, "
+"there will be no allocation or tracking of progress by prompts.</p><p>Use "
+"the \"Add new prompt\" form below to start adding prompts. Once prompts are "
+"added you will be able to modify and delete them.</p><p>BIM will "
+"automatically check any existing students posts within BIM against new "
+"prompts. This usually takes an hour or so after you have added the "
+"prompt.</p>"
+msgstr ""
+
+#: $string['bim_questions_none_heading']
+msgid "No current prompts"
+msgstr ""
+
+#: $string['bim_register']
+msgid "Register your blog"
+msgstr ""
+
+#: $string['bim_register_feed']
+msgid "Allow registration?"
+msgstr ""
+
+#: $string['bim_register_feed_help']
+msgid ""
+"Typically students have to register a Web feed for their blog or other "
+"service before BIM can start doing anything useful. To allow them to "
+"register select this option. If you do not want students to register their "
+"feed, do not select it."
+msgstr ""
+
+#: $string['bim_register_invalid_url_description']
+msgid ""
+"<p>The URL you provided <strong>{$a}</strong> is not a valid URL.</p><p>A "
+"valid URL will typically look something like this - "
+"<strong>http://davidtjones.wordpress.com/</strong>. For more information "
+"about what a URL is, please read <a "
+"href=\"http://www.utoronto.ca/web/HTMLdocs/NewHTML/url.html\">this "
+"page</a>.</p>"
+msgstr ""
+
+#: $string['bim_register_invalid_url_heading']
+msgid "Not a valid url"
+msgstr ""
+
+#: $string['bim_register_nolinks_description']
+msgid ""
+"<p>Unable to find any feeds from the URL you provided via auto-discovery.  "
+"Would appear that there are no feeds. </p><p>If you know the URL for the "
+"feed, please try registering it.</p><p>For more information about feeds (aka "
+"Web feed) see the <a href=\"http://en.wikipedia.org/wiki/Web_feed\">wikipedia "
+"page</a>. Normally a blog home page will include a link to a feed.  This "
+"error suggests BIM cannot find the feed.</p>"
+msgstr ""
+
+#: $string['bim_register_nolinks_heading']
+msgid "Could not find any feeds"
+msgstr ""
+
+#: $string['bim_register_no_retrieve_description']
+msgid ""
+"<p>Unable to access the URL you provided "
+"<blockquote><strong>{$a->url}</strong></blockquote>The error created was "
+"<blockquote><strong>{$a->error}</strong></blockquote>"
+msgstr ""
+
+#: $string['bim_register_no_retrieve_heading']
+msgid "Could not access the URL"
+msgstr ""
+
+#: $string['bim_register_timeout_description']
+msgid ""
+"<p>The system ran out of time while trying to retrieve the URL you entered "
+"(<strong>{$a->url}</strong>). The error reported "
+"was<blockquote><strong>{$a->error}</strong></blockquote>This normally "
+"suggests that there was a problem with either the system hosting your URL or "
+"with the network connection between here and your URL.</p><p>Try copying "
+"the URL into a web browser window and see if you can see the URL.  If this "
+"works, try to register again.</p><p>If the registration process continues to "
+"fail, ask for help.</p>"
+msgstr ""
+
+#: $string['bim_register_timeout_heading']
+msgid "Timed out trying to retrieve URL"
+msgstr ""
+
+#: $string['bim_register_wrong_url_heading']
+msgid "Provided URL appears not to be for your blog"
+msgstr ""
+
+#: $string['bim_release_errors']
+msgid "<p>Errors encountered while releasing results.</p>"
+msgstr ""
+
+#: $string['bim_release_heading']
+msgid "Release marking"
+msgstr ""
+
+#: $string['bim_release_manage_any']
+msgid "with any posts.</p>"
+msgstr ""
+
+#: $string['bim_release_manage_criteria']
+msgid "with posts matching these criteria:</p><ul>"
+msgstr ""
+
+#: $string['bim_release_manage_header']
+msgid "View details"
+msgstr ""
+
+#: $string['bim_release_manage_marker']
+msgid "<li> <strong>{$a}</strong> as marker.</li>"
+msgstr ""
+
+#: $string['bim_release_manage_registered_description']
+msgid ""
+"<p>{$a} student(s) who have registered with BIM, match the criteria.</p>"
+msgstr ""
+
+#: $string['bim_release_manage_registered_heading']
+msgctxt "$string['bim_release_manage_registered_heading']"
+msgid "Registered student details"
+msgstr ""
+
+#: $string['bim_release_manage_response']
+msgid "<li> in response to the prompt <strong>{$a}</strong>.</li>"
+msgstr ""
+
+#: $string['bim_release_manage_status']
+msgid "<li> status equal to <strong>{$a}</strong></li>"
+msgstr ""
+
+#: $string['bim_release_manage_unregistered_description']
+msgid ""
+"<p>{$a} student(s) who have <strong>not</strong> registered with BIM, match "
+"the criteria.</p>"
+msgstr ""
+
+#: $string['bim_release_manage_unregistered_heading']
+msgid "Unregistered student details"
+msgstr ""
+
+#: $string['bim_release_manage_view']
+msgid ""
+"<p>Viewing details of {$a->match} students (<a "
+"href=\"#registered\">{$a->registered} registered</a> and <a "
+"href=\"#unregistered\">{$a->unregistered} unregistered</a>)"
+msgstr ""
+
+#: $string['bim_release_no_students_description']
+msgid ""
+"<p>You have not yet been allocated any groups of students to mark for this "
+"activity.</p><p>Only the coordinator can allocate groups for you to "
+"mark.</p>"
+msgstr ""
+
+#: $string['bim_release_no_students_heading']
+msgid "No students allocated to you"
+msgstr ""
+
+#: $string['bim_release_return']
+msgid "<p>Return to <a href=\"{$a}\">manage marking</a></p>"
+msgstr ""
+
+#: $string['bim_release_success']
+msgid "<p>Successfully released marked posts.</p>"
+msgstr ""
+
+#: $string['bim:student']
+msgid "Student change/view details"
+msgstr ""
+
+#: $string['bim_student_details_heading']
+msgid "Your students"
+msgstr ""
+
+#: $string['bim_student_details_heading_help']
+msgid ""
+"<p>The lead teacher has allocated you a group of students. The following "
+"provides details about those students and their use of this activity. </p>"
+msgstr ""
+
+#: $string['bim_submit']
+msgid "Submit"
+msgstr ""
+
+#: $string['bim_suspended']
+msgid "SUSPENDED"
+msgstr ""
+
+#: $string['bim_table_change_blog']
+msgid "Change it"
+msgstr ""
+
+#: $string['bim_table_current_blog']
+msgid "View current"
+msgstr ""
+
+#: $string['bim_table_details']
+msgid "Details"
+msgstr ""
+
+#: $string['bim_table_email']
+msgid "Email"
+msgstr ""
+
+#: $string['bim_table_entries']
+msgid "#Posts"
+msgstr ""
+
+#: $string['bim_table_last_post']
+msgid "Last post"
+msgstr ""
+
+#: $string['bim_table_live_blog']
+msgid "Student blog"
+msgstr ""
+
+#: $string['bim_table_marked']
+msgid "Marked"
+msgstr ""
+
+#: $string['bim_table_name']
+msgid "Name"
+msgstr ""
+
+#: $string['bim_table_name_blog']
+msgid "Name and blog"
+msgstr ""
+
+#: $string['bim_table_questions']
+msgid "Questions"
+msgstr ""
+
+#: $string['bim_table_register']
+msgctxt "$string['bim_table_register']"
+msgid "Register blog"
+msgstr ""
+
+#: $string['bim_table_register_blog']
+msgctxt "$string['bim_table_register_blog']"
+msgid "Register blog"
+msgstr ""
+
+#: $string['bim_table_username']
+msgid "Username"
+msgstr ""
+
+#: $string['bim_tabs_config']
+msgid "Configure BIM"
+msgstr ""
+
+#: $string['bim_tabs_details']
+msgid "Your Students"
+msgstr ""
+
+#: $string['bim_tabs_find']
+msgid "Find Student"
+msgstr ""
+
+#: $string['bim_tabs_manage']
+msgid "Manage Marking"
+msgstr ""
+
+#: $string['bim_tabs_markers']
+msgid "Allocate Markers"
+msgstr ""
+
+#: $string['bim_tabs_questions']
+msgid "Manage Prompts"
+msgstr ""
+
+#: $string['bim_wrong_feed_notfinished']
+msgid ""
+"<p>The feed URL generated for your blog url turns out to be "
+"<strong>{$a}</strong>. This cannot the feed URL for your blog. It is the "
+"feed URL for the Wordpress.com site.</p><p>This normally suggests you have "
+"copied a URL part-way through the blog creation process on Wordpress.com.  "
+"The simple fix is usually to carefully complete the blog creation "
+"process.</p>"
+msgstr ""
+
+#: $string['bim_wrong_url_notfinished']
+msgid ""
+"<p>The blog URL you provided (<strong>{$a}</strong>) is for a page on the "
+"Wordpress.com website.  Not your blog.</p><p>This normally suggests you have "
+"copied a URL part-way through the blog creation process on Wordpress.com.  "
+"The simple fix is usually to carefully complete the blog creation "
+"process.</p>"
+msgstr ""
+
+#: $string['bim_wrong_url_wordpress']
+msgid ""
+"<p>The URL you tried to register (<strong>{$a}</strong>) is actually the "
+"home page of the Wordpress blogging service and <strong>NOT</strong> for "
+"your individual blog.</p>"
+msgstr ""
+
+#: $string['config_about']
+msgid "About"
+msgstr ""
+
+#: $string['config_about_help']
+msgid ""
+"<p>The \"about\" field is meant to be a short description of the BIM activity "
+"that is shown to students when they access the BIM activity.</p>"
+msgstr ""
+
+#: $string['config_bim_name']
+msgid "BIM name"
+msgstr ""
+
+#: $string['config_bim_name_help']
+msgid ""
+"<p>This is the name that students and staff will click on to access this BIM "
+"activity.</p>"
+msgstr ""
+
+#: $string['config_grade']
+msgid "Gradebook integration"
+msgstr ""
+
+#: $string['config_grade_help']
+msgid ""
+"<p>If turned on results for individual student posts will be added to the "
+"course gradebook when they are released (and only when they are released). "
+"</p><p>Currently, the individual marks for each student post is simply added "
+"together. The gradebook will not allow the total to exceed the chosen "
+"maximum grade.</p><p>The use of scales and other advanced marking schemes is "
+"currently not supported.</p>"
+msgstr ""
+
+#: $string['config_grade_max']
+msgid "Maximum grade: {$a}"
+msgstr ""
+
+#: $string['config_mirror']
+msgid "Is mirroring on?"
+msgstr ""
+
+#: $string['config_mirror_help']
+msgid ""
+"<p>In order to track individual student posts, BIM will make a copy (a "
+"mirror) of each new student post. But only if posts are being "
+"mirrored.</p><p>You might wish to turn mirroring off at the end of the "
+"activity.</p>"
+msgstr ""
+
+#: $string['config_no_grade']
+msgid "Not on"
+msgstr ""
+
+#: $string['config_student_reg']
+msgid "Can students register?"
+msgstr ""
+
+#: $string['config_student_reg_help']
+msgid ""
+"<p>For BIM to know about a student's blog/feed, the student must register "
+"their blog/feed with BIM. This option must be \"Yes\" before students can "
+"register.</p><p>You may wish to turn off the ability to register before a "
+"certain date.</p>"
+msgstr ""
+
+#: $string['eventdetailsviewed']
+msgid "Student BIM details viewed"
+msgstr ""
+
+#: $string['eventmarkerallocationstarted']
+msgid "Marker allocation started"
+msgstr ""
+
+#: $string['eventmarkerallocationupdated']
+msgid "Marker allocation updated"
+msgstr ""
+
+#: $string['eventmarkingassessed']
+msgid "Marking assessed"
+msgstr ""
+
+#: $string['eventmarkingstarted']
+msgid "Marking started"
+msgstr ""
+
+#: $string['eventmarkingupdated']
+msgid "Marking status updated"
+msgstr ""
+
+#: $string['eventmarkingviewed']
+msgid "Marking status viewed"
+msgstr ""
+
+#: $string['eventopmlcreated']
+msgid "OPML file created"
+msgstr ""
+
+#: $string['eventpromptcreated']
+msgid "Prompt created"
+msgstr ""
+
+#: $string['eventpromptupdated']
+msgid "Prompt updated"
+msgstr ""
+
+#: $string['eventpromptviewed']
+msgid "Prompts viewed"
+msgstr ""
+
+#: $string['eventregistrationcreated']
+msgid "Registration created"
+msgstr ""
+
+#: $string['eventregistrationstarted']
+msgid "Registration started"
+msgstr ""
+
+#: $string['eventregistrationupdated']
+msgid "Registration updated"
+msgstr ""
+
+#: $string['eventregistrationviewed']
+msgid "Registration viewed"
+msgstr ""
+
+#: $string['eventstudentlistviewed']
+msgid "Student list viewed"
+msgstr ""
+
+#: $string['eventstudentsearched']
+msgid "Student searched"
+msgstr ""
+
+#: $string['eventstudentsearchstarted']
+msgid "Student search started"
+msgstr ""
+
+#: $string['eventstudentupdated']
+msgid "Student marking/posts updated"
+msgstr ""
+
+#: $string['eventstudentviewed']
+msgid "Student marking/posts viewed"
+msgstr ""
+
+#: $string['group_allocation']
+msgid "Marker Allocations"
+msgstr ""
+
+#: $string['manageMarking']
+msgctxt "$string['manageMarking']"
+msgid "Manage marking"
+msgstr ""
+
+#: $string['manageMarking_help']
+msgid ""
+"<p>Provides the coordinating teacher an overview of all student submissions "
+"and marking progress. For each marker shows the status of their students' "
+"posts. Allows coordinator to release marked posts and to drill down to see "
+"more detail.</p>"
+msgstr ""
+
+#: $string['mark']
+msgctxt "$string['mark']"
+msgid "Mark"
+msgstr ""
+
+#: $string['markAllocation']
+msgid "Change allocation"
+msgstr ""
+
+#: $string['markAllocation_help']
+msgid ""
+"<p>Student posts can be allocated as answers to one of the prompts set by "
+"the lead teacher. </p><p>BIM does try to do this automatically, but you can "
+"also do it manually by selecting a prompt title from the drop down menu. "
+"</p><p>If you select the option \"..Choose one..\" then the student post "
+"becomes unallocated. It will still appear in BIM, but will not be allocated "
+"to a prompt.</p>"
+msgstr ""
+
+#: $string['markedPostStudent']
+msgid "Marked post"
+msgstr ""
+
+#: $string['markedPostStudent_help']
+msgid ""
+"Someone has marked your post, however, it must be moderated before the "
+"result can be released to you."
+msgstr ""
+
+#: $string['marker_allocate']
+msgid ""
+"<p>This <a href=\"{$a->link}\">student post</a> has been allocated to prompt "
+"</strong>{$a->title}</strong>.</p>"
+msgstr ""
+
+#: $string['marker_allocation_heading']
+msgid "All student posts"
+msgstr ""
+
+#: $string['marker_change_alloc_description']
+msgid ""
+"<p>This <a href=\"{$a->link}\">student post</a> has been reallocated from "
+"prompt <strong>{$a->old}</strong> to prompt <strong>{$a->new}</strong>.</p>"
+msgstr ""
+
+#: $string['marker_change_alloc_heading']
+msgid "Changing prompt allocation"
+msgstr ""
+
+#: $string['markerComments']
+msgid "Comments"
+msgstr ""
+
+#: $string['markerComments_help']
+msgid ""
+"<p>These are your comments on the post. They will, after the post is "
+"released, be visible to the student.</p>"
+msgstr ""
+
+#: $string['marker_student_config_description']
+msgid "<p>The configuration of this activity is such that:</p><ul>"
+msgstr ""
+
+#: $string['marker_student_config_end']
+msgid ""
+"</ul><p>The teacher in charge of the course can change this "
+"configuration.</p>"
+msgstr ""
+
+#: $string['marker_student_config_heading']
+msgid "Activity configuration information"
+msgstr ""
+
+#: $string['marker_student_no_mirror']
+msgid ""
+"<li> Student posts to their blog are not being copied into this "
+"activity.</li>"
+msgstr ""
+
+#: $string['marker_student_no_register']
+msgid "<li> Students cannot register their blog/feed.</li>"
+msgstr ""
+
+#: $string['marker_unallocating_description']
+msgid ""
+"<p>This <a href=\"{$a}\">student post</a> has been unallocated as an answer to "
+"a prompt.</p>"
+msgstr ""
+
+#: $string['marker_unallocating_heading']
+msgid "Unallocating the post"
+msgstr ""
+
+#: $string['mark_help']
+msgid ""
+"<p>The numeric result you think this post is worth.</p><p>The lead teacher "
+"may have specified an allowed range. You can record a mark outside that "
+"range, but it's probably not advisable.</p>"
+msgstr ""
+
+#: $string['marking']
+msgid "Marking data"
+msgstr ""
+
+#: $string['marking_form_mark']
+msgid "Mark:"
+msgstr ""
+
+#: $string['marking_form_marker_comments']
+msgid "<strong>Marker comments</strong> {$a}"
+msgstr ""
+
+#: $string['marking_form_max']
+msgid "max:"
+msgstr ""
+
+#: $string['marking_form_min']
+msgid "min:"
+msgstr ""
+
+#: $string['marking_form_status']
+msgid "Status: {$a}"
+msgstr ""
+
+#: $string['marking_form_student_post']
+msgid ""
+"<strong>Student post <small>(<a href=\"{$a}\">original "
+"post</a>)</small></strong>"
+msgstr ""
+
+#: $string['markPostsAll']
+msgid "Marking posts"
+msgstr ""
+
+#: $string['markPostsAll_help']
+msgid ""
+"<p>Allows you to evaluate, comment and individual students' posts.</p><p> "
+"Before you can mark prompts<ul><li>The activity must have some; </li> <li> "
+"Student posts need to be mirrored by BIM; and, <li> Some student posts need "
+"to be allocated to prompts;<br />To allocate prompts click on the link in "
+"the Prompts colum. </li></ul> <p>To mark or remark click on the link an "
+"answer that has been submitted or marked.</p>"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "BIM"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"<p>The BIM activity module supports the management (and optional marking) of "
+"individual student feeds. The most common use of this is for each student "
+"to use their own, externally-hosted blog for reflective purposes.</p>\n"
+"<p>BIM will</p>\n"
+"<ul>\n"
+"  <li> Allow students to register their feeds </li>\n"
+"  <li> Keep copies of all entries in student feeds within the Moodle "
+"database</li> <li>Support the manual and automatic allocation of entries as "
+"responses to pre-defined prompts (optional)</li>\n"
+"<li> Help support and manage the marking of student feeds by marking "
+"staff</li>\n"
+"<li> Integrate marking into the Moodle gradebook</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "BIMs"
+msgstr ""
+
+#: $string['numAnswers']
+msgid "Actual and required answers"
+msgstr ""
+
+#: $string['numAnswers_help']
+msgid ""
+"Actual answers is the number posts from your blog/feed that has been "
+"recognised as answers. Required answers is the number of answers you are "
+"expected to provide."
+msgstr ""
+
+#: $string['numMirrored']
+msgid "Number of posts mirrored"
+msgstr ""
+
+#: $string['numMirrored_help']
+msgid "How many of the posts from your blog/feed BIM has copied to Moodle."
+msgstr ""
+
+#: $string['numReleased']
+msgid "Marking progress"
+msgstr ""
+
+#: $string['numReleased_help']
+msgid ""
+"Your answers are first marked (# Marked), moderated and then released for "
+"you to see (# released)"
+msgstr ""
+
+#: $string['opml']
+msgid "OPML file"
+msgstr ""
+
+#: $string['opml_help']
+msgid ""
+"<p>An OPML file is a way for you to read all of the posts from your students "
+"without having to go through BIM.</p><p>A Google search for \"using an opml "
+"file\" will reveal how to do this. </p><p>If appropriate, it may be an "
+"advantage to share the OPML file with your students to enable them to read "
+"each other's posts.</p>"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "BIM Administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "BIM"
+msgstr ""
+
+#: $string['progressResult']
+msgid "Your current result"
+msgstr ""
+
+#: $string['progressResult_help']
+msgid ""
+"Shows the total marks awarded to your released answers. Results for marked "
+"answers are not included in this, they must be moderated first."
+msgstr ""
+
+#: $string['qform_max']
+msgid "Maximum mark"
+msgstr ""
+
+#: $string['qform_max_help']
+msgid ""
+"<p>This represents the largest mark in the range shown to "
+"markers.</p><p><strong>Important:</strong> In the interests of flexibility, "
+"BIM does <strong>not</strong> police this maximum. i.e. it is possible for "
+"markers to set a mark greater than the maximum.</p>"
+msgstr ""
+
+#: $string['qform_min']
+msgid "Minimum mark"
+msgstr ""
+
+#: $string['qform_min_help']
+msgid ""
+"<p>This represents the smallest mark in the range shown to "
+"markers.</p><p><strong>Important:</strong> In the interests of flexibility, "
+"BIM does <strong>not</strong> police this minimum. i.e. it is possible for "
+"markers to set a mark lower than the minimum.</p>"
+msgstr ""
+
+#: $string['qform_stats']
+msgid "Current prompt statistics"
+msgstr ""
+
+#: $string['qform_stats_help']
+msgid ""
+"<p>Shows the current number of student posts that have been allocated to the "
+"prompt, including what status they are currently in (submitted - student "
+"has submitted; Marked - the marker has marked; Released - returned to the "
+"student)</p>"
+msgstr ""
+
+#: $string['qform_title']
+msgid "Question title"
+msgstr ""
+
+#: $string['qform_title_help']
+msgid ""
+"<p>The prompt title - apart from identifying the prompt - is used by BIM "
+"when trying to automatically allocate (match) student posts to a prompt. "
+"</p><p>If the post of a student has a title that contains a prompt title, "
+"the post will be matched to that prompt.</p>"
+msgstr ""
+
+#: $string['register_again']
+msgid "<p>Please try to <a href=\"{$a}\">register your URL</a> again.</p>"
+msgstr ""
+
+#: $string['register_cannot_description']
+msgid ""
+"<p>This activity is currently configured so that you can not register your "
+"feed. This will be possible once the teaching staff change the activity "
+"configuration.</p>"
+msgstr ""
+
+#: $string['register_cannot_heading']
+msgid "Cannot register your feed yet"
+msgstr ""
+
+#: $string['register_success_description']
+msgid ""
+"<p>Your URL has been successfully registered.</p><p>What is now known about "
+"your blog is shown in the following information.</p>"
+msgstr ""
+
+#: $string['register_success_heading']
+msgid "Successful registration"
+msgstr ""
+
+#: $string['show_qs_body']
+msgid "Description"
+msgstr ""
+
+#: $string['show_qs_description']
+msgid ""
+"<p>This activity currently has {$a} prompts as shown in the following "
+"table.</p><p><strong>IMPORTANT:</strong> when you respond to a prompt with a "
+"post, please make sure that the title of your post contains the title of "
+"the prompt.<br />For example, if the prompt title is <strong>Week 12 "
+"prompt</strong> make sure you post's title contains <strong>Week 12 "
+"prompt</strong></p>"
+msgstr ""
+
+#: $string['show_qs_heading']
+msgid "Current prompts"
+msgstr ""
+
+#: $string['show_qs_title']
+msgid "Title"
+msgstr ""
+
+#: $string['student_details_about_description']
+msgid ""
+"<p>The following information about this activity was provided by the "
+"teaching staff.</p><p>&nbsp;</p>{$a}"
+msgstr ""
+
+#: $string['student_details_about_heading']
+msgid "About this activity"
+msgstr ""
+
+#: $string['student_details_allposts_description']
+msgid ""
+"<p>The following table gives an overview of the {$a} of your posts the "
+"system knows about. If there is something missing, please contact your "
+"teacher.</p><p>The name for each posts is a link to your original post. The "
+"status describes how (or if) your post has been allocated as an answer, "
+"marked or released.</p>"
+msgstr ""
+
+#: $string['student_details_allposts_heading']
+msgid "All posts"
+msgstr ""
+
+#: $string['student_details_description']
+msgid ""
+"<p>Below you will find details about what the system knows about you and "
+"your posts.</p>"
+msgstr ""
+
+#: $string['student_details_details']
+msgid ""
+"<p>Number of recorded posts: <strong>{$a->total_posts}</strong> (A summary "
+"of all posts appears in the <a href=\"#allposts\">All posts</a> table below.) "
+"</p><p>Number of answers required: "
+"<strong>{$a->total_questions}</strong></p><p>Number answers identified: "
+"<strong>{$a->num_answered}</strong> (if this is incorrect please contact "
+"your teacher).</p>"
+msgstr ""
+
+#: $string['student_details_header']
+msgid "Details about this activity"
+msgstr ""
+
+#: $string['student_details_markers_comment_heading']
+msgid "Marker's comment"
+msgstr ""
+
+#: $string['student_details_mark_heading']
+msgctxt "$string['student_details_mark_heading']"
+msgid "Mark"
+msgstr ""
+
+#: $string['student_details_nofeed_description']
+msgid ""
+"<p>There is currently no registered feed for student "
+"<strong>{$a}</strong>.</p>"
+msgstr ""
+
+#: $string['student_details_nofeed_heading']
+msgid "No registered feed"
+msgstr ""
+
+#: $string['student_details_none_marked']
+msgid "<p>None of your posts have yet been marked.</p>"
+msgstr ""
+
+#: $string['student_details_noposts_description']
+msgid "<p>There appear to be no posts from you feed stored here.</p>"
+msgstr ""
+
+#: $string['student_details_noposts_heading']
+msgid "<p>No posts yet.</p>"
+msgstr ""
+
+#: $string['student_details_not_mirrored']
+msgid ""
+"<p>This is because student feeds are not yet being mirrored for this "
+"activity.</p>"
+msgstr ""
+
+#: $string['student_details_num_marked']
+msgid ""
+"<p>Of these posts {$a} have been marked, but the marks/comments are not yet "
+"available to you.</p>"
+msgstr ""
+
+#: $string['student_details_question_heading']
+msgid "Question"
+msgstr ""
+
+#: $string['student_details_questions_description']
+msgid ""
+"<p>You are expected to use your blog to post answers to <a href=\"{$a}\">a "
+"range of prompts</a>.</p>"
+msgstr ""
+
+#: $string['student_details_reasons']
+msgid ""
+"<p>Possible reasons for this include:</p><ul><li> you have posted anything "
+"yet; </li><li> your feed could not be mirrored due to error; </li><li> your "
+"feed has not yet been mirrored (it should happen within a few hours) "
+"</li></ul>"
+msgstr ""
+
+#: $string['student_details_released_heading']
+msgid "Marks and comments for released posts"
+msgstr ""
+
+#: $string['student_details_show_qs']
+msgid "a range of prompts"
+msgstr ""
+
+#: $string['student_details_show_qs_title']
+msgid "Show prompts"
+msgstr ""
+
+#: $string['student_details_status_heading']
+msgid "Status"
+msgstr ""
+
+#: $string['student_details_user_error']
+msgid "Error: cannot get user details for user with id <strong>{$a}</strong>"
+msgstr ""
+
+#: $string['student_details_your_answer']
+msgid "your answer"
+msgstr ""
+
+#: $string['student_feeds']
+msgid "Student feeds"
+msgstr ""
+
+#: $string['suspend']
+msgid "Suspend"
+msgstr ""
+
+#: $string['suspend_help']
+msgid ""
+"<p>A suspended post cannot be returned to the student.</p><p>Typically used "
+"if you suspect plagiarism or similar problem that requires the lead teacher "
+"to make a decision prior to releasing results to students. </p>"
+msgstr ""
+
+#: $string['unallocatedPostStudent']
+msgid "Not allocated?"
+msgstr ""
+
+#: $string['unallocatedPostStudent_help']
+msgid ""
+"Often your posts may be responses to prompts posed by teaching staff. \"Not "
+"allocated\" means that bim could not automatically match your post to a "
+"prompt. Teaching staff may need to manually allocate."
+msgstr ""
+
+#: $string['unregisteredDetails']
+msgid "Unregistered students"
+msgstr ""
+
+#: $string['unregisteredDetails_help']
+msgid ""
+"The students in the following table have not yet succeeded in registering "
+"their blogs/feeds with BIM. You can email all unregistered students to "
+"remind them, email individual students, and register a blog for a student."
+msgstr ""

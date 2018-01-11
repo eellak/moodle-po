@@ -1,0 +1,864 @@
+#. extracted from lang/en/portfolio.php, lang/el/portfolio.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'portfolio', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   portfolio
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['activeexport']
+msgid "Resolve active export"
+msgstr "Επίλυση ενεργής εξαγωγής"
+
+#: $string['activeportfolios']
+msgid "Available portfolios"
+msgstr "Ενεργά χαρτοφυλάκια"
+
+#: $string['addalltoportfolio']
+msgid "Export all to portfolio"
+msgstr "Αποθήκευση όλων..."
+
+#: $string['addnewportfolio']
+msgid "Add a new portfolio"
+msgstr "Προσθήκη νέου χαρτοφυλάκιο"
+
+#: $string['addtoportfolio']
+msgid "Export to portfolio"
+msgstr "Αποθήκευση..."
+
+#: $string['alreadyalt']
+msgid "Already exporting - please click here to resolve this transfer"
+msgstr ""
+"Η εξαγωγή πραγματοποιείται ήδη - παρακαλούμε κάντε κλικ εδώ για να επιλύσετε "
+"αυτή τη μεταφορά"
+
+#: $string['alreadyexporting']
+msgid ""
+"You already have an active portfolio export in this session. Before "
+"continuing, you must either complete this export, or cancel it.  Would you "
+"like to continue it? (No will cancel it)"
+msgstr ""
+"Έχετε ήδη μια ενεργή εξαγωγή χαρτοφυλακίου σε αυτή τη σύνοδο. Προτού "
+"συνεχίσετε θα πρέπει είτε να ολοκληρώστε αυτή την εξαγωγή είτε να την "
+"ακυρώσετε.  Θέλετε να συνεχίσετε (Διαφορετικά θα ακυρωθεί)"
+
+#: $string['availableformats']
+msgid "Available export formats"
+msgstr "Διαθέσιμες μορφοποιήσεις εξαγωγής"
+
+#: $string['callbackclassinvalid']
+msgid ""
+"Callback class specified was invalid or not part of the portfolio_caller "
+"hierarchy"
+msgstr ""
+
+#: $string['callercouldnotpackage']
+msgctxt "$string['callercouldnotpackage']"
+msgid "Failed to package up your data for export: original error was {$a}"
+msgstr ""
+"Αποτυχία συσκευασίας των δεδομένων σας για εξαγωγή: το πρωτότυπο λάθος ήταν "
+"{$a}"
+
+#: $string['cannotsetvisible']
+msgid ""
+"Cannot set this to visible - the plugin has been completely disabled because "
+"of a misconfiguration"
+msgstr ""
+"Αυτό δεν μπορεί να ρυθμιστεί σαν ορατό - η υπομονάδα έχει απενεργοποιηθεί "
+"τελείως εξαιτίας ενός λάθους στις ρυθμίσεις"
+
+#: $string['commonportfoliosettings']
+msgid "Common portfolio settings"
+msgstr "Κοινές ρυθμίσεις χαρτοφυλακίου"
+
+#: $string['commonsettingsdesc']
+msgid ""
+"<p>Whether a transfer is considered to take a 'Moderate' or 'High' amount of "
+"time changes whether the user is able to wait for the transfer to complete "
+"or not.</p><p>Sizes up to the 'Moderate' threshold just happen immediately "
+"without the user being asked, and 'Moderate' and 'High' transfers mean they "
+"are offered the option but warned it might take some "
+"time.</p><p>Additionally, some portfolio plugins might ignore this option "
+"completely and force all transfers to be queued.</p>"
+msgstr ""
+"<p>Το εάν μια μεταφορά απαιτεί 'Μέτριο' or 'Υψηλό' χρόνο για να "
+"πραγματοποιηθεί μπορεί να αλλάξει με βάση το εάν ο χρήστης μπορεί να "
+"περιμένει για την ολοκλήρωση της μεταφοράς ή όχι.</p><p>Τα μεγέθη μέχρι το "
+"κατώφλι 'Μέτριο' πραγματοποιούνται αμέσως χωρίς να ερωτηθεί ο χρήστης, ενώ "
+"οι μεταφορές με χρόνο 'Μέτριο' και 'Υψηλό' δίνουν την επιλογή στον χρήστη "
+"και προειδοποιώντας τον οτι η μεταφορά μπορεί να αργήσει "
+"λίγο.</p><p>Επιπλέον, κάποιες υπομονάδες λογισμικού του χαρτοφυλακίου μπορεί "
+"να αγνοήσουν αυτή την επιλογή τελείως και να υποχρεώσουν όλες τις μεταφορές "
+"να τοποθετηθούν στην ουρά για εκτέλεση.</p>"
+
+#: $string['configexport']
+msgid "Configure exported data"
+msgstr "Ρύθμιση εξαγώμενων δεδομένων"
+
+#: $string['configplugin']
+msgid "Configure portfolio plugin"
+msgstr "Ρύθμιση της υπομονάδας λογισμικού χαρτοφυλακίου"
+
+#: $string['configure']
+msgid "Configure"
+msgstr "Ρύθμιση"
+
+#: $string['confirmcancel']
+msgid "Are you sure you wish you cancel this export?"
+msgstr ""
+
+#: $string['confirmexport']
+msgid "Please confirm this export"
+msgstr "Παρακαλούμε επιβεβαιώστε αυτή την εξαγωγή"
+
+#: $string['confirmsummary']
+msgid "Summary of your export"
+msgstr "Σύνοψη της εξαγωγής σας"
+
+#: $string['continuetoportfolio']
+msgid "Continue to your portfolio"
+msgstr "Συνεχίστε στο χαρτοφυλάκιο"
+
+#: $string['deleteportfolio']
+msgid "Delete portfolio instance"
+msgstr "Διαγραφή του στιγμιότυπου του χαρτοφυλακίου"
+
+#: $string['destination']
+msgid "Destination"
+msgstr "Προορισμός"
+
+#: $string['disabled']
+msgid "Sorry, but portfolio exports are not enabled in this site"
+msgstr ""
+"Λυπόμαστε αλλά οι εξαγωγές χαρτοφυλακίων δεν είναι ενεργές σε αυτό τον "
+"ιστοχώρο"
+
+#: $string['disabledinstance']
+msgid "Disabled"
+msgstr "Απενεργοποιημένο"
+
+#: $string['displayarea']
+msgid "Export area"
+msgstr "Περιοχή εξαγωγών"
+
+#: $string['displayexpiry']
+msgid "Transfer expiry time"
+msgstr "Ώρα λήξης εξαγωγής"
+
+#: $string['displayinfo']
+msgid "Export info"
+msgstr "Πληροφορίες εξαγωγής"
+
+#: $string['dontwait']
+msgid "Don't wait"
+msgstr "Χωρίς αναμονή"
+
+#: $string['enabled']
+msgid "Enable portfolios"
+msgstr "Ενεργοποίηση χαρτοφυλακίων"
+
+#: $string['enableddesc']
+msgid ""
+"If enabled, users can export content, such as forum posts and assignment "
+"submissions, to external portfolios or HTML pages."
+msgstr ""
+"Αυτό θα επιτρέψει στους διαχειριστές να ρυθμίσουν απομακρυσμένα συστήματα "
+"ώστε οι οι χρήστες να μπορούν να εξάγουν περιεχόμενο σε αυτά"
+
+#: $string['err_uniquename']
+msgid "Portfolio name must be unique (per plugin)"
+msgstr ""
+"Τό όνομα του χαρτοφυλάκιου πρέπει να είναι μοναδικό (ανά υπομονάδα "
+"λογισμικού)"
+
+#: $string['exportalreadyfinished']
+msgctxt "$string['exportalreadyfinished']"
+msgid "Portfolio export complete!"
+msgstr ""
+
+#: $string['exportalreadyfinisheddesc']
+msgctxt "$string['exportalreadyfinisheddesc']"
+msgid "Portfolio export complete!"
+msgstr ""
+
+#: $string['exportcomplete']
+msgctxt "$string['exportcomplete']"
+msgid "Portfolio export complete!"
+msgstr "Η εξαγωγή του χαρτοφυλάκιου ολοκληρώθηκε!"
+
+#: $string['exportedpreviously']
+msgid "Previous exports"
+msgstr "Προηγούμενες εξαγωγές"
+
+#: $string['exportexceptionnoexporter']
+msgid ""
+"A portfolio_export_exception was thrown with an active session but no "
+"exporter object"
+msgstr ""
+"Ανέκυψε μια εξαίρεση portfolio_export_exception με μια ενεργή σύνοδο αλλά "
+"χωρίς αντικείμενο εξαγωγέα"
+
+#: $string['exportexpired']
+msgid "Portfolio export expired"
+msgstr "Η εξαγωγή του χαρτοφυλάκιου έληξε"
+
+#: $string['exportexpireddesc']
+msgid ""
+"You tried to repeat the export of some information, or start an empty "
+"export. To do that properly you should go back to the original location and "
+"start again. This sometimes happens if you use the back button after an "
+"export has completed, or by bookmarking an invalid url."
+msgstr ""
+"Προσπαθήσατε να επαναλάβετε την εξαγωγή κάποιας πληροφορίας, ή να ξεκινήσετε "
+"μια άδεια εξαγωγή. Για να το κάνετε σωστά αυτό θα πρέπει να πάτε πίσω στην "
+"αρχική τοποθεσία και να ξεκινήσετε ξανά.  Αυτό συμβαίνει ορισμένες φορές εάν "
+"χρησιμοποιήσετε το κουμπί \"Πίσω\" αφού μια εξαγωγή έχει ολοκληρωθεί, ή "
+"δημιουργώντας έναν σελιδοδείκτη από μη έγκυρη τοποθεσία."
+
+#: $string['exporting']
+msgid "Exporting to portfolio"
+msgstr "Εξαγωγή στο χαρτοφυλάκιο"
+
+#: $string['exportingcontentfrom']
+msgid "Exporting content from {$a}"
+msgstr "Εξαγωγή περιεχομένου στο {$a}"
+
+#: $string['exportingcontentto']
+msgid "Exporting content to {$a}"
+msgstr ""
+
+#: $string['exportqueued']
+msgid "Portfolio export has been successfully queued for transfer"
+msgstr ""
+"Η εξαγωγή του χαρτοφυλακίου έχει τοποθετηθεί με επιτυχία στην ουρά για "
+"μεταφορά"
+
+#: $string['exportqueuedforced']
+msgid ""
+"Portfolio export has been successfully queued for transfer (the remote "
+"system has enforced queued transfers)"
+msgstr ""
+"Η εξαγωγή του χαρτοφυλακίου έχει τοποθετηθεί με επιτυχία στην ουρά για "
+"μεταφορά (Το απομακρυσμένο σύστημα έχει μεταφορές υποχρεωτικά σε ουρά)"
+
+#: $string['failedtopackage']
+msgid "Could not find files to package"
+msgstr "Δεν ήταν δυνατό να βρεθούν τα αρχεία για συσκευασία"
+
+#: $string['failedtosendpackage']
+msgid ""
+"Failed to send your data to the selected portfolio system: original error "
+"was {$a}"
+msgstr ""
+"Αποτυχία αποστολής των δεδομένων σας στο επιλεγμένο σύστημα χαρτοφυλακίου: "
+"το πρωτότυπο λάθος ήταν {$a}"
+
+#: $string['filedenied']
+msgid "Access denied to this file"
+msgstr "Άρνηση πρόσβασης στο αρχείο"
+
+#: $string['filenotfound']
+msgid "File not found"
+msgstr "Το αρχείο δεν βρέθηκε"
+
+#: $string['fileoutputnotsupported']
+msgid "Rewriting file output is not supported for this format"
+msgstr ""
+
+#: $string['format_document']
+msgid "Document"
+msgstr ""
+
+#: $string['format_file']
+msgid "File"
+msgstr "Αρχείο"
+
+#: $string['format_image']
+msgid "Image"
+msgstr "Εικόνα"
+
+#: $string['format_leap2a']
+msgid "Leap2A portfolio format"
+msgstr ""
+
+#: $string['format_mbkp']
+msgid "Moodle backup format"
+msgstr "Μορφή Αρχείων Ασφαλείας του Moodle"
+
+#: $string['format_pdf']
+msgid "PDF"
+msgstr ""
+
+#: $string['format_plainhtml']
+msgid "HTML"
+msgstr "HTML"
+
+#: $string['format_presentation']
+msgid "Presentation"
+msgstr ""
+
+#: $string['format_richhtml']
+msgid "HTML with attachments"
+msgstr "HTML με συνημμένα"
+
+#: $string['format_spreadsheet']
+msgid "Spreadsheet"
+msgstr ""
+
+#: $string['format_text']
+msgid "Plain text"
+msgstr "Απλό κείμενο"
+
+#: $string['format_video']
+msgid "Video"
+msgstr "Βίντεο"
+
+#: $string['highdbsizethreshold']
+msgid "High transfer dbsize"
+msgstr "Απόκρυψη μεγέθους βάσης δεδομένων μεταφοράς"
+
+#: $string['highdbsizethresholddesc']
+msgid ""
+"Number of db records over which will be considered to take a high amount of "
+"time to transfer"
+msgstr ""
+"Αριθμός των εγγραφών στη βάση δεδομένων πάνω του οποίου θεωρείται ότι θα "
+"χρειαστεί υψηλό χρόνο για μεταφορά"
+
+#: $string['highfilesizethreshold']
+msgid "High transfer filesize"
+msgstr "Υψηλό μέγεθος αρχείου για μεταφορά"
+
+#: $string['highfilesizethresholddesc']
+msgid ""
+"Filesizes over this threshold will be considered to take a high amount of "
+"time to transfer"
+msgstr ""
+"Αρχεία με μέγεθος μεγαλύτερο από αυτό θεωρούνται ότι θα χρειαστούν υψηλό "
+"χρόνο για μεταφορά"
+
+#: $string['insanebody']
+msgid ""
+"Hi! You are receiving this message as an administrator of {$a->sitename}.\n"
+"\n"
+"Some portfolio plugin instances have been automatically disabled due to "
+"misconfigurations. This means that users can not currently export content to "
+"these portfolios.\n"
+"\n"
+"The list of portfolio plugin instances that have been disabled is:\n"
+"\n"
+"{$a->textlist}\n"
+"\n"
+"This should be corrected as soon as possible, by visiting {$a->fixurl}."
+msgstr ""
+"Γεια!  Λαμβάνετε αυτό το μήνυμα σαν διαχειριστής του {$a->sitename}.\n"
+"\n"
+"Κάποια στιγμιότυπα των υπομονάδων λογισμικού του χαρτοφυλακίου έχουν "
+"απενεργοποιηθεί αυτόματα λόγω λαθών στις ρυθμίσεις.  Αυτό σημαίνει οτι οι "
+"χρήστες δεν μπορούν προς το παρόν να εξάγουν περιεχόμενο σε αυτά τα "
+"χαρτοφυλάκια.\n"
+"\n"
+"Η λίστα με τα στιγμιότυπα των υπομονάδων λογισμικού του χαρτοφυλακίου που "
+"έχουν απενεργοποιηθεί είναι:\n"
+"\n"
+"{$a->textlist}\n"
+"\n"
+"Αυτό μπορεί να διορθωθεί το συντομότερο δυνατόν πηγαίνοντας στο "
+"{$a->fixurl}."
+
+#: $string['insanebodyhtml']
+msgid ""
+"<p>Hi! You are receiving this message as an administrator of "
+"{$a->sitename}.</p>\n"
+"<p>Some portfolio plugin instances have been automatically disabled due to "
+"misconfigurations. This means that users can not currently export content to "
+"these portfolios.</p>\n"
+"<p>The list of portfolio plugin instances that have been disabled is:</p>\n"
+"{$a->htmllist}\n"
+"<p>This should be corrected as soon as possible, by visiting <a "
+"href=\"{$a->fixurl}\">the portfolio configuration pages</a></p>"
+msgstr ""
+"<p>Γεια!  Λαμβάνετε αυτό το μήνυμα σαν διαχειριστής του {$a->sitename}.</p>\n"
+"{$a->htmllist}\n"
+"<p>Αυτό μπορεί να διορθωθεί το συντομότερο δυνατόν πηγαίνοντας στις <a "
+"href=\"{$a->fixurl}\">σελίδες ρυθμίσεων του χαρτοφυλακίου</a></p>"
+
+#: $string['insanebodysmall']
+msgid ""
+"Hi! You are receiving this message as an administrator of {$a->sitename}. "
+"Some portfolio plugin instances have been automatically disabled due to "
+"misconfigurations. This means that users can not currently export content to "
+"these portfolios. This should be corrected as soon as possible, by visiting "
+"{$a->fixurl}."
+msgstr ""
+"Γεια!  Λαμβάνετε αυτό το μήνυμα σαν διαχειριστής του {$a->sitename}.  Κάποια "
+"στιγμιότυπα των υπομονάδων λογισμικού του χαρτοφυλακίου έχουν "
+"απενεργοποιηθεί αυτόματα λόγω λαθών στις ρυθμίσεις.  Αυτό σημαίνει οτι οι "
+"χρήστες δεν μπορούν προς το παρόν να εξάγουν περιεχόμενο σε αυτά τα "
+"χαρτοφυλάκια.  Αυτό μπορεί να διορθωθεί το συντομότερο δυνατόν πηγαίνοντας "
+"στο {$a->fixurl}."
+
+#: $string['insanesubject']
+msgid "Some portfolio instances automatically disabled"
+msgstr ""
+"Κάποια στιγμιότυπα των υπομονάδων λογισμικού του χαρτοφυλακίου έχουν "
+"απενεργοποιηθεί αυτόματα"
+
+#: $string['instancedeleted']
+msgid "Portfolio deleted successfully"
+msgstr "Το χαρτοφυλάκιο διαγράφηκε με επιτυχία"
+
+#: $string['instanceismisconfigured']
+msgid "Portfolio instance is misconfigured, skipping. Error was: {$a}"
+msgstr ""
+"Το στιγμιότυπο του χαρτοφυλάκιου είναι λανθασμένα ρυθμισμένο, οπότε "
+"παραλείπεται.  Το σφάλμα ήταν: {$a}"
+
+#: $string['instancenotdelete']
+msgid "Failed to delete portfolio"
+msgstr "Αποτυχία διαγραφής χαρτοφυλάκιου"
+
+#: $string['instancenotsaved']
+msgid "Failed to save portfolio"
+msgstr "Αποτυχία αποθήκευσης χαρτοφυλάκιου"
+
+#: $string['instancesaved']
+msgid "Portfolio saved successfully"
+msgstr "Το χαρτοφυλάκιο αποθηκεύθηκε με επιτυχία"
+
+#: $string['intro']
+msgid ""
+"Content which you have created, such as assignment submissions, forum posts "
+"and blog entries, can be exported to a portfolio or downloaded.<br>\n"
+"Any portfolio that you do not wish to use may be hidden so that it is not "
+"listed as an option to export content to."
+msgstr ""
+
+#: $string['invalidaddformat']
+msgid ""
+"Invalid add format passed to portfolio_add_button. ({$a}) Must be one of "
+"PORTFOLIO_ADD_XXX"
+msgstr ""
+"Μια μη έγκυρη μορφή προσθήκης δώθηκε στο portfolio_add_button. Το ({$a}) "
+"πρέπει να είναι ένα από τα PORTFOLIO_ADD_XXX"
+
+#: $string['invalidbuttonproperty']
+msgid "Could not find that property ({$a}) of portfolio_button"
+msgstr "Δεν ήταν δυνατόν να βρεθεί αυτή η ιδιότητα ({$a}) του portfolio_button"
+
+#: $string['invalidconfigproperty']
+msgid "Could not find that config property ({$a->property} of {$a->class})"
+msgstr ""
+"Δεν ήταν δυνατόν να βρεθεί αυτή η ιδιότητα ρύθμισης ({$a->property} του "
+"{$a->class})"
+
+#: $string['invalidexportproperty']
+msgid ""
+"Could not find that export config property ({$a->property} of {$a->class})"
+msgstr ""
+"Δεν ήταν δυνατόν να βρεθεί αυτή η ιδιότητα ρύθμισης εξαγωγής ({$a->property} "
+"του {$a->class})"
+
+#: $string['invalidfileareaargs']
+msgid ""
+"Invalid file area arguments passed to set_file_and_format_data - must "
+"contain contextid, component, filearea and itemid"
+msgstr ""
+"Μη έγκυρες παράμετροι περιοχής αρχείου δώθηκαν στο set_file_and_format_data "
+"- πρέπει να περιέχουν τα contextid, filearea και itemid"
+
+#: $string['invalidformat']
+msgid "Something is exporting an invalid format, {$a}"
+msgstr "Κάτι εξάγει σε μη έγκυρη μορφή, {$a}"
+
+#: $string['invalidinstance']
+msgid "Could not find that portfolio instance"
+msgstr "Δεν ήταν δυνατόν να βρεθεί αυτό το στιγμιότυπο χαρτοφυλακίου"
+
+#: $string['invalidpreparepackagefile']
+msgid ""
+"Invalid call to prepare_package_file - either single or multifiles must be "
+"set"
+msgstr ""
+"Μη έγκυρη κλήση στο prepare_package_file - πρέπει να ρυθμιστεί σαν single ή "
+"multifiles"
+
+#: $string['invalidproperty']
+msgid "Could not find that property ({$a->property} of {$a->class})"
+msgstr ""
+"Δεν ήταν δυνατόν να βρεθεί αυτή η ιδιότητα ({$a->property} του {$a->class})"
+
+#: $string['invalidsha1file']
+msgid "Invalid call to get_sha1_file - either single or multifiles must be set"
+msgstr ""
+"Μη έγκυρη κλήση στο get_sha1_file - πρέπει να ρυθμιστεί σαν single ή "
+"multifiles"
+
+#: $string['invalidtempid']
+msgid "Invalid export id. Maybe it has expired"
+msgstr "Μη έγκυρο αναγνωριστικό εξαγωγής. Πιθανώς να έληξε"
+
+#: $string['invaliduserproperty']
+msgid ""
+"Could not find that user config property ({$a->property} of {$a->class})"
+msgstr ""
+"Δεν ήταν δυνατόν να βρεθεί αυτή η ιδιότητα ρυθμίσης χρήστη ({$a->property} "
+"του {$a->class})"
+
+#: $string['leap2a_emptyselection']
+msgid "Required value not selected"
+msgstr ""
+
+#: $string['leap2a_entryalreadyexists']
+msgid ""
+"You tried to add a Leap2A entry with an id ({$a}) that already exists in "
+"this feed"
+msgstr ""
+
+#: $string['leap2a_feedtitle']
+msgid "Leap2A export from Moodle for {$a}"
+msgstr ""
+
+#: $string['leap2a_filecontent']
+msgid ""
+"Tried to set the content of a Leap2A entry to a file, rather than using the "
+"file subclass"
+msgstr ""
+
+#: $string['leap2a_invalidentryfield']
+msgid ""
+"You tried to set an entry field that didn't exist ({$a}) or you can't set "
+"directly"
+msgstr ""
+
+#: $string['leap2a_invalidentryid']
+msgid "You tried to access an entry by an id that didn't exist ({$a})"
+msgstr ""
+
+#: $string['leap2a_missingfield']
+msgid "Required Leap2A entry field {$a} missing"
+msgstr ""
+
+#: $string['leap2a_nonexistantlink']
+msgid ""
+"A Leap2A entry ({$a->from}) tried to link to a non existing entry ({$a->to}) "
+"with rel {$a->rel}"
+msgstr ""
+
+#: $string['leap2a_overwritingselection']
+msgid ""
+"Overwriting the original type of an entry ({$a}) to selection in "
+"make_selection"
+msgstr ""
+
+#: $string['leap2a_selflink']
+msgid "A Leap2A entry ({$a->id}) tried to link to itself with rel {$a->rel}"
+msgstr ""
+
+#: $string['logs']
+msgid "Transfer logs"
+msgstr "Καταγραφές μεταφοράς"
+
+#: $string['logsummary']
+msgid "Previous successful transfers"
+msgstr "Προηγούμενες επιτυχημένες μεταφορές"
+
+#: $string['manageportfolios']
+msgid "Manage portfolios"
+msgstr "Διαχείριση χαρτοφυλακίων"
+
+#: $string['manageyourportfolios']
+msgid "Manage your portfolios"
+msgstr "Διαχειριστείτε τα χαρτοφυλάκια σας"
+
+#: $string['mimecheckfail']
+msgid ""
+"The portfolio plugin {$a->plugin} doesn't support that mimetype "
+"{$a->mimetype}"
+msgstr ""
+
+#: $string['missingcallbackarg']
+msgid "Missing callback argument {$a->arg} for class {$a->class}"
+msgstr "Λείπει παράμετρος callback {$a->arg} για την κλάση {$a->class}"
+
+#: $string['moderatedbsizethreshold']
+msgid "Moderate transfer dbsize"
+msgstr "Μέτριο μέγεθος βάσης δεδονένων για μεταφορά"
+
+#: $string['moderatedbsizethresholddesc']
+msgid ""
+"Number of db records over which will be considered to take a moderate amount "
+"of time to transfer"
+msgstr ""
+"Αριθμός των εγγραφών στη βάση δεδομένων πάνω του οποίου θεωρείται ότι θα "
+"χρειαστεί μέτριο χρόνο για μεταφορά"
+
+#: $string['moderatefilesizethreshold']
+msgid "Moderate transfer filesize"
+msgstr "Μέτριο μέγεθος αρχείου για μεταφορά"
+
+#: $string['moderatefilesizethresholddesc']
+msgid ""
+"Filesizes over this threshold will be considered to take a moderate amount "
+"of time to transfer"
+msgstr ""
+"Αρχεία με μέγεθος μεγαλύτερο από αυτό θεωρούνται ότι θα χρειαστούν μέτριο "
+"χρόνο για μεταφορά"
+
+#: $string['multipleinstancesdisallowed']
+msgid ""
+"Trying to create another instance of a plugin that has disallowed multiple "
+"instances ({$a})"
+msgstr ""
+
+#: $string['mustsetcallbackoptions']
+msgid ""
+"You must set the callback options either in the portfolio_add_button "
+"constructor or using the set_callback_options method"
+msgstr ""
+"Πρέπει να ρυθμίσετε τις επιλογές callback είτε στον κατασκευαστή κλάσης "
+"portfolio_add_button ή χρησιμοποιώντας την μέθοδο set_callback_options"
+
+#: $string['noavailableplugins']
+msgid "Sorry, but there are no available portfolios for you to export to"
+msgstr "Λυπόμαστε αλλά δεν υπάρχουν διαθέσιμα χαρτοφυλάκια για να εξάγετε"
+
+#: $string['nocallbackclass']
+msgid "Could not find the callback class to use ({$a})"
+msgstr "Δεν ήταν δυνατόν να βρεθεί η κλάση callback προς χρήση ({$a})"
+
+#: $string['nocallbackcomponent']
+msgid "Could not find the component specified {$a}."
+msgstr ""
+
+#: $string['nocallbackfile']
+msgid ""
+"Something in the module you're trying to export from is broken - couldn't "
+"find a required portfolio file"
+msgstr ""
+"Κάτι στο άρθρωμα από το οποίο προσπαθείτε να εξάγετε είναι χαλασμένο - δεν "
+"ήταν δυνατόν να βρεθεί ένα απαραίτητο αρχείο ({$a})"
+
+#: $string['noclassbeforeformats']
+msgid ""
+"You must set the callback class before calling set_formats in "
+"portfolio_button"
+msgstr ""
+"Πρέπει να ρυθμίσετε την κλάση callback πριν την calling set_formats στο "
+"portfolio_button"
+
+#: $string['nocommonformats']
+msgid ""
+"No common formats between any available portfolio plugin and the calling "
+"location {$a->location} (caller supported {$a->formats})"
+msgstr ""
+"Δεν υπάρχουν κοινές μορφές μεταξύ των διαθέσιμων στιγμιοτύπων υπομονάδων "
+"λογισμικού χαρτοφυλακίου και της καλούσας τοποθεσίας {$a}"
+
+#: $string['noinstanceyet']
+msgctxt "$string['noinstanceyet']"
+msgid "Not yet selected"
+msgstr ""
+
+#: $string['nologs']
+msgid "There are no logs to display!"
+msgstr "Δεν υπάρχουν καταγραφές για εμφάνιση!"
+
+#: $string['nomultipleexports']
+msgid ""
+"Sorry, but the portfolio destination ({$a->plugin}) doesn't support multiple "
+"exports at the same time. Please <a href=\"{$a->link}\">finish the current "
+"one first</a> and try again"
+msgstr ""
+
+#: $string['nonprimative']
+msgid ""
+"A non primitive value was passed as a callback argument to "
+"portfolio_add_button. Refusing to continue. The key was {$a->key} and the "
+"value was {$a->value}"
+msgstr ""
+"Μια μη πρωταρχική τιμή δόθηκε σαν παράμετρος callback στο "
+"portfolio_add_button.  Δεν είναι δυνατή η συνέχεια.  Το κλειδί ήταν "
+"{$a->key} και η τιμή ήταν {$a->value}"
+
+#: $string['nopermissions']
+msgid ""
+"Sorry but you do not have the required permissions to export files from this "
+"area"
+msgstr ""
+"Λυπόμαστε αλλά δεν έχετε τα κατάλληλα δικαιώματα για να εξάγετε αρχεία από "
+"αυτή την περιοχή"
+
+#: $string['notexportable']
+msgid ""
+"Sorry, but the type of content you are trying to export is not exportable"
+msgstr ""
+"Λυπόμαστε αλλά ο τύπος του περιεχομένου που προσπαθείτε να εξάγετε δεν είναι "
+"εξαγώγιμος"
+
+#: $string['notimplemented']
+msgid ""
+"Sorry, but you are trying to export content in some format that is not yet "
+"implemented ({$a})"
+msgstr ""
+"Λυπόμαστε αλλά προσπαθείτε να εξάγετε περιεχόμενο σε κάποια μορφή για την "
+"οποία δεν έχουμε ακόμα υλοποίηση ({$a})"
+
+#: $string['notyetselected']
+msgctxt "$string['notyetselected']"
+msgid "Not yet selected"
+msgstr "Δεν έχει επιλεχθεί ακόμα"
+
+#: $string['notyours']
+msgid "You are trying to resume a portfolio export that doesn't belong to you!"
+msgstr "Προσπαθείτε να συνεχίσετε μια εξαγωγή χαρτοφυλακίου που δεν σας ανήκει!"
+
+#: $string['nouploaddirectory']
+msgid "Could not create a temporary directory to package your data into"
+msgstr ""
+"Δεν ήταν δυνατή η δημιουργία ενός προσωρινού καταλόγου για να συσκευαστούν "
+"τα δεδομένα σας"
+
+#: $string['off']
+msgid "Enabled but hidden"
+msgstr "Ενεργοποιμένο αλλά κρυφό"
+
+#: $string['on']
+msgid "Enabled and visible"
+msgstr "Ενεργοποιημένο και ορατό"
+
+#: $string['plugin']
+msgid "Portfolio plugin"
+msgstr "Υπομονάδα λογισμικού χαρτοφυλακίου"
+
+#: $string['plugincouldnotpackage']
+msgctxt "$string['plugincouldnotpackage']"
+msgid "Failed to package up your data for export: original error was {$a}"
+msgstr ""
+"Αποτυχία συσκευασμού των δεδομένων σας προς εξαγωγή: Το αρχικό σφάλμα ήταν "
+"{$a}"
+
+#: $string['pluginismisconfigured']
+msgid "Portfolio plugin is misconfigured, skipping. Error was: {$a}"
+msgstr ""
+"Η υπομονάδα λογισμικού χαρτοφυλακίου δεν είναι σωστά ρυθμισμένη, "
+"παραλείπεται.  Το σφάλμα ήταν: {$a}"
+
+#: $string['portfolio']
+msgid "Portfolio"
+msgstr "Χαρτοφυλάκιο"
+
+#: $string['portfolios']
+msgid "Portfolios"
+msgstr "Χαρτοφυλάκια"
+
+#: $string['queuesummary']
+msgid "Currently queued transfers"
+msgstr "Μεταφορές αυτή τη στιγμή στην ουρά"
+
+#: $string['returntowhereyouwere']
+msgid "Return to where you were"
+msgstr "Επιστροφή εκεί που ήσασταν"
+
+#: $string['save']
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: $string['selectedformat']
+msgid "Selected export format"
+msgstr "Επιλεγμένη μορφή εξαγωγής"
+
+#: $string['selectedwait']
+msgid "Selected to wait?"
+msgstr "Επιλογή για αναμονή?"
+
+#: $string['selectplugin']
+msgid "Select destination"
+msgstr "Επιλογή προορισμού"
+
+#: $string['showhide']
+msgid "Show / hide"
+msgstr ""
+
+#: $string['singleinstancenomultiallowed']
+msgid ""
+"Only a single portfolio plugin instance is available, it doesn't support "
+"multiple exports per session, and there's already an active export in the "
+"session using this plugin!"
+msgstr ""
+
+#: $string['somepluginsdisabled']
+msgid ""
+"Some entire portfolio plugins have been disabled because they are either "
+"misconfigured or rely on something else that is:"
+msgstr ""
+"Κάποιες υπομονάδες λογισμικού χαρτοφυλακίου έχουν απενεργοποιηθεί "
+"εξολοκλήρου είτε γιατί δεν έχουν ρυθμιστεί σωστά ή εξαρτώνται από κάτι άλλο "
+"που είναι:"
+
+#: $string['sure']
+msgid "Are you sure you want to delete '{$a}'? This cannot be undone."
+msgstr ""
+"Είστε σίγουροι οτι θέλετε να σβήσετε το '{$a}'?  Αυτή η ενέργεια δεν μπορεί "
+"να αναιρεθεί."
+
+#: $string['thirdpartyexception']
+msgid ""
+"A third party exception was thrown during portfolio export ({$a}). Caught "
+"and rethrown but this should really be fixed"
+msgstr ""
+"Συνέβη μια εξαίρεση ενός τρίτου κατασκευαστή κατά την εξαγωγή του "
+"χαρτοφυλακίου ({$a}). Η εξαίρεση πιάστηκε και επαναδιαβιβάστηκε αλλά αυτό το "
+"σφάλμα θα έπρεπε να διορθωθεί"
+
+#: $string['transfertime']
+msgid "Transfer time"
+msgstr "Χρόνος μεταφοράς"
+
+#: $string['unknownplugin']
+msgid "Unknown (may have since been removed by an administrator)"
+msgstr "Άγνωστο (μπορεί έκτοτε να έχει αφαιρεθεί από έναν διαχειριστή)"
+
+#: $string['wait']
+msgid "Wait"
+msgstr "Αναμονή"
+
+#: $string['wanttowait_high']
+msgid ""
+"It is not recommended that you wait for this transfer to complete, but you "
+"can if you're sure and know what you're doing"
+msgstr ""
+"Δεν συνίσταται να περιμένετε την ολοκλήρωση αυτής της μεταφοράς, αλλά "
+"μπορείτε εάν είστε σίγουροι για αυτό που κάνετε"
+
+#: $string['wanttowait_moderate']
+msgid "Do you want to wait for this transfer? It might take a few minutes"
+msgstr ""
+"Θέλετε να περιμένετε για αυτή τη μεταφορά? Μπορεί να χρειαστεί μερικά λεπτά"

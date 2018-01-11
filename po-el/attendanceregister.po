@@ -1,0 +1,618 @@
+#. extracted from lang/en/attendanceregister.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'attendanceregister', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   attendanceregister
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['are_you_sure_to_delete_offline_session']
+msgid "Are you sure to delete this offline Session?"
+msgstr ""
+
+#: $string['attendanceregister:addinstance']
+msgid "Add new attendance register"
+msgstr ""
+
+#: $string['attendanceregister:addotherofflinesess']
+msgid "Can add Offline Sessions on other people's Register"
+msgstr ""
+
+#: $string['attendanceregister:addownofflinesess']
+msgid "Can add Offline Sessions on his/her own Register"
+msgstr ""
+
+#: $string['attendanceregister:deleteotherofflinesess']
+msgid "Can delete Offline Sessions on other people's Register"
+msgstr ""
+
+#: $string['attendanceregister:deleteownofflinesess']
+msgid "Can delete Offline Sessions from his/her own Register"
+msgstr ""
+
+#: $string['attendanceregister:recalcsessions']
+msgid "Can force Attendance Register's Sessions recalculations"
+msgstr ""
+
+#: $string['attendanceregister:tracked']
+msgid "Is tracked by Attendance Register"
+msgstr ""
+
+#: $string['attendanceregister:viewotherregisters']
+msgid "Can view other people's Attendance Registers"
+msgstr ""
+
+#: $string['attendanceregister:viewownregister']
+msgid "Can view his/her own Attendance Registers"
+msgstr ""
+
+#: $string['back_to_normal']
+msgid "Back to normal version"
+msgstr ""
+
+#: $string['back_to_tracked_user_list']
+msgid "Back to tracked Users list"
+msgstr ""
+
+#: $string['click_for_detail']
+msgid "click for details"
+msgstr ""
+
+#: $string['comments']
+msgctxt "$string['comments']"
+msgid "Comments"
+msgstr ""
+
+#: $string['completiondurationgroup']
+msgid "Total tracked time"
+msgstr ""
+
+#: $string['completiontotalduration']
+msgid "Require time [minutes]"
+msgstr ""
+
+#: $string['count']
+msgid "#"
+msgstr ""
+
+#: $string['crontask']
+msgid "Recalculate attendanceregister sessions"
+msgstr ""
+
+#: $string['dayscertificable']
+msgid "Days back"
+msgstr ""
+
+#: $string['dayscertificable_exceeded']
+msgid "Must be no more than {$a} days ago"
+msgstr ""
+
+#: $string['dayscertificable_help']
+msgid ""
+"Limits how old the offline sessions may be.<br />\n"
+"    A student may not record an Offline Session older than this number of "
+"days."
+msgstr ""
+
+#: $string['duration']
+msgid "Duration"
+msgstr ""
+
+#: $string['duration_hh_mm']
+msgid "{$a->hours} h, {$a->minutes} min"
+msgstr ""
+
+#: $string['duration_mm']
+msgid "{$a->minutes} min"
+msgstr ""
+
+#: $string['enable_offline_sessions_certification']
+msgid "Enable Offline Sessions"
+msgstr ""
+
+#: $string['end']
+msgctxt "$string['end']"
+msgid "End"
+msgstr ""
+
+#: $string['first_calc_at_next_cron_run']
+msgid "Any past Session will show at next Cron"
+msgstr ""
+
+#: $string['force_recalc_all_session']
+msgid "Recalculate all online Sessions"
+msgstr ""
+
+#: $string['force_recalc_all_session_help']
+msgid ""
+"Delete and recalculate all online Sessions of all tracked Users.<br />\n"
+"    Normally you <b>do not need to do it</b>!<br />\n"
+"    New Sessions are automatically calculated in background (after some "
+"delay).<br />\n"
+"    This operation may be useful <b>only</b>:\n"
+"    <ul>\n"
+"      <li>After changing the Role of a User that previously acted in any of "
+"the tracked Courses  with a different Role\n"
+"      (i.e. changing from Teacher to Student, when Studet are tracked and "
+"Teacher are not).</li>\n"
+"      <li>After modifying Register settings that affects Sessions "
+"calculation\n"
+"      (i.e. <i>Attendance Tracking Mode</i>, <i>Online Session "
+"timeout</i>)</li>\n"
+"    </ul>\n"
+"    You <b>do not need to recalculate when enrolling new Users</b>!<br /><br "
+"/>\n"
+"    Recalculation can be executed immediately or scheduled for execution by "
+"the next cron.\n"
+"    Scheduled execution could be more efficient for very crowded courses."
+msgstr ""
+
+#: $string['force_recalc_all_session_now']
+msgid "Recalculate Sessions, now"
+msgstr ""
+
+#: $string['force_recalc_user_session']
+msgid "Recalculate this User's online Sessions"
+msgstr ""
+
+#: $string['force_recalc_user_session_help']
+msgid ""
+"Delete and recalculate all online Sessions of this User.<br />\n"
+"    Normally you <b>do not need to do it</b>!<br />\n"
+"    New Sessions are automatically calculated in background (after some "
+"delay).<br />\n"
+"    This operation may be useful <b>only</b>:\n"
+"    <ul>\n"
+"      <li>After changing the Role of the User, ant he/she previously acted "
+"in any of the tracked Courses with a different Role\n"
+"      (i.e. changing from Teacher to Student, when Studet are tracked and "
+"Teacher are not).</li>\n"
+"      <li>After modifying Register settings that affects Sessions "
+"calculation\n"
+"      (i.e. <i>Attendance Tracking Mode</i>, <i>Online Session "
+"timeout</i>)</li>\n"
+"    </ul>"
+msgstr ""
+
+#: $string['fullname']
+msgid "Name"
+msgstr ""
+
+#: $string['grandtotal_time']
+msgid "Total Time"
+msgstr ""
+
+#: $string['insert_new_offline_session']
+msgid "Insert a new offline work session"
+msgstr ""
+
+#: $string['insert_new_offline_session_for_another_user']
+msgid "Insert a new offline work session for {$a->fullname}"
+msgstr ""
+
+#: $string['last_calc_online_session_logout']
+msgid "Last Register online Session End (excl. current Session)"
+msgstr ""
+
+#: $string['last_session_logout']
+msgid "Last Session End"
+msgstr ""
+
+#: $string['last_site_access']
+msgid "Last activity on Site"
+msgstr ""
+
+#: $string['last_site_login']
+msgid "Last login on Site"
+msgstr ""
+
+#: $string['login_must_be_before_logout']
+msgid "Start after end!"
+msgstr ""
+
+#: $string['logout_is_future']
+msgid "May not be in the future"
+msgstr ""
+
+#: $string['mandatory_offline_sessions_comments']
+msgid "Mandatory Comments"
+msgstr ""
+
+#: $string['mandatoryofflinespecifycourse']
+msgid "Mandatory Course selection"
+msgstr ""
+
+#: $string['mandatoryofflinespecifycourse_help']
+msgid "Specifying a Course in Offline Sessions will be mandatory"
+msgstr ""
+
+#: $string['maynotaddselfcertforother']
+msgid "You cannot add an offline sessions for other users."
+msgstr ""
+
+#: $string['mod_attendance_recalculation']
+msgid "Module recalculate log for sessions updates"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Attendance Register"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"Attendance Register calculates time users spend working in online "
+"Courses.<br />\n"
+"    Optionally allow the User record Offline activities.<br />\n"
+"    Depending on Attendance Mode, the Register may tracks activities in a "
+"single Course, in all Courses in the same Category\n"
+"    or in all Courses \"Meta linked\" to the Course the Register is in.<br />\n"
+"    Online work sessions are calculated on Log entries recorded by "
+"Moodle.<br />\n"
+"    <b>New online sessions are added with some delay by the cron, after User "
+"logout.</b>"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Attendance Registers"
+msgstr ""
+
+#: $string['never']
+msgid "(never)"
+msgstr ""
+
+#: $string['no_refcourse']
+msgid "(no Course specified)"
+msgstr ""
+
+#: $string['no_session']
+msgid "No Session"
+msgstr ""
+
+#: $string['no_session_for_this_user']
+msgid "- No Session for this User, yet -"
+msgstr ""
+
+#: $string['no_tracked_user']
+msgid "- No User tracked by this Attendance Register -"
+msgstr ""
+
+#: $string['not_specified']
+msgid "(not specified)"
+msgstr ""
+
+#: $string['offline']
+msgid "Offline"
+msgstr ""
+
+#: $string['offlinecomments']
+msgid "User's Comments"
+msgstr ""
+
+#: $string['offlinecomments_help']
+msgid "Enable adding textual comments to Offline Sessions"
+msgstr ""
+
+#: $string['offline_refcourse_duration']
+msgid "Offline Time, Course:"
+msgstr ""
+
+#: $string['offline_session_comments']
+msgctxt "$string['offline_session_comments']"
+msgid "Comments"
+msgstr ""
+
+#: $string['offline_session_comments_help']
+msgid "Describe the topic of offline work session."
+msgstr ""
+
+#: $string['offline_session_deleted']
+msgid "Offline Session deleted"
+msgstr ""
+
+#: $string['offline_session_end']
+msgctxt "$string['offline_session_end']"
+msgid "End"
+msgstr ""
+
+#: $string['offline_session_ref_course']
+msgctxt "$string['offline_session_ref_course']"
+msgid "Ref.Course"
+msgstr ""
+
+#: $string['offline_session_ref_course_help']
+msgid ""
+"Select the Course the offline work has been done for or the Course covering "
+"the work topic."
+msgstr ""
+
+#: $string['offline_session_saved']
+msgid "New Offline Session saved"
+msgstr ""
+
+#: $string['offline_sessions_certification']
+msgid "Offline work Sessions"
+msgstr ""
+
+#: $string['offline_sessions_certification_help']
+msgid ""
+"Enables the Users to insert offline Sessions of work.<br />\n"
+"    This is a kind of <i>Self-Certification</i> of the work done.<br />\n"
+"    This may be useful if \"bureaucracy\" requires maintaining a register of "
+"every student's activities.<br />\n"
+"    Only real users may add Offline Sessions: <i>Logged in as...</i> admins "
+"cannot!"
+msgstr ""
+
+#: $string['offline_session_start']
+msgctxt "$string['offline_session_start']"
+msgid "Start"
+msgstr ""
+
+#: $string['offline_session_start_help']
+msgid ""
+"Select Start and End Date &amp; Time of the offline work Session you want to "
+"submit.<br />\n"
+"    The Offline Session may not overlap any previously recorded session, "
+"either online or offline, nor the current online session."
+msgstr ""
+
+#: $string['offline_sessions_total_duration']
+msgid "Offline Total Time"
+msgstr ""
+
+#: $string['offlinespecifycourse']
+msgid "Specify Course in Offline Sessions"
+msgstr ""
+
+#: $string['offlinespecifycourse_help']
+msgid ""
+"Allow the user to select the Course the Offline Session is related to.<br />\n"
+"    This is meaningful only if the Register tracks more than one Course "
+"(i.e. Attendance Mode is \"Category\" or \"Meta-linked\")"
+msgstr ""
+
+#: $string['online']
+msgid "Online"
+msgstr ""
+
+#: $string['online_offline']
+msgid "Online/Offline"
+msgstr ""
+
+#: $string['online_sessions_total_duration']
+msgid "Online Sessions Total Time"
+msgstr ""
+
+#: $string['online_session_updated']
+msgid "Online Sessions updated"
+msgstr ""
+
+#: $string['online_session_updated_report']
+msgid "{$a->fullname} Online Sessions updated: {$a->numnewsessions} new found"
+msgstr ""
+
+#: $string['onlyrealusercanaddofflinesessions']
+msgid "Only real user may add an offline session"
+msgstr ""
+
+#: $string['onlyrealusercandeleteofflinesessions']
+msgid "Only real user may delete offline sessions"
+msgstr ""
+
+#: $string['overlaps_current_session']
+msgid "Overlaps the current online Session (since current Login)"
+msgstr ""
+
+#: $string['overlaps_old_sessions']
+msgid "Overlaps another Session, either online or offline"
+msgstr ""
+
+#: $string['participants_attendance_report_viewed']
+msgid "Participants attendance report viewed"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Attendance Register Administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Attendance Register"
+msgstr ""
+
+#: $string['prev_site_login']
+msgid "Previous login on Site"
+msgstr ""
+
+#: $string['recalc_already_pending']
+msgid "(Already pending for execution on next Cron)"
+msgstr ""
+
+#: $string['recalc_complete']
+msgid "Sessions Recalculation complete"
+msgstr ""
+
+#: $string['recalc_scheduled']
+msgid "Session recalculation has been scheduled. It will execute on next Cron"
+msgstr ""
+
+#: $string['recalc_scheduled_on_next_cron']
+msgid "Sessions recalculating is scheduled for execution on next Cron"
+msgstr ""
+
+#: $string['ref_course']
+msgctxt "$string['ref_course']"
+msgid "Ref.Course"
+msgstr ""
+
+#: $string['registername']
+msgid "Attendance Register name"
+msgstr ""
+
+#: $string['registertype']
+msgid "Attendance Tracking Mode"
+msgstr ""
+
+#: $string['registertype_help']
+msgid ""
+"Attendance Tracking Modes determines Courses tracked by the Register (i.e. "
+"where user's activity will be monitored):\n"
+"* _This Course only_: Only in the Course where the Attendance Register "
+"module is.\n"
+"* _All Courses in the same Category_: activity will be monitored on all "
+"Courses in the same Category of the Course the module is.\n"
+"* _All Courses linked by Course meta link_: Activity will be monitored in "
+"this Course and all Courses linked by Course meta link."
+msgstr ""
+
+#: $string['schedule_reclalc_all_session']
+msgid "Schedule Recalculate Sessions"
+msgstr ""
+
+#: $string['select_a_course']
+msgid "- Select a Course -"
+msgstr ""
+
+#: $string['select_a_course_if_any']
+msgid "- Select a Course, if any -"
+msgstr ""
+
+#: $string['session_added_by_another_user']
+msgid "Added by: {$a}"
+msgstr ""
+
+#: $string['sessions_grandtotal_duration']
+msgid "Grand Total Time"
+msgstr ""
+
+#: $string['sessiontimeout']
+msgid "Online session timeout"
+msgstr ""
+
+#: $string['sessiontimeout_help']
+msgid ""
+"Session Timeout is used for estimating Online Session duration.<br />\n"
+"    Online Sessions will be at least <b>one half</b> the Session Timeout "
+"long.<br />\n"
+"    Note that if Session Timeout is too long, the Register tends to "
+"overestimate Online Sessions duration.<br />\n"
+"    If too short, real Sessions will break in many shorter Sessions.<br />\n"
+"    <h3>Long explaination</h3>\n"
+"    Online work sessions are <b>guessed</b> looking at Log entries of the "
+"User in the tracked Courses\n"
+"    (see <i>Attendance Tracking Mode</i>).<br/>\n"
+"    If a timespan shorter than Session Timeout elapsed between two "
+"consecutive Log Entries,\n"
+"    the Register consider the User continuosly working online (i.e. the "
+"Session continue).<br />\n"
+"    If a timespan longer then Session Timeout elapsed, the Register guesses "
+"the User stoped working online\n"
+"    <b>one half</b> the Session Timeout after the previous Log Entry (i.e. "
+"the Session ends) and came back\n"
+"    again at the following Log Entry (i.e. a new Session starts)"
+msgstr ""
+
+#: $string['show_my_sessions']
+msgid "Show my sessions"
+msgstr ""
+
+#: $string['show_printable']
+msgid "Show printable version"
+msgstr ""
+
+#: $string['standardlog_disabled']
+msgid "Moodle Standard Log is disabled. All new users session are not tracked"
+msgstr ""
+
+#: $string['standardlog_readonly']
+msgid "Moodle Standard Log is readonly. All new users session are not tracked"
+msgstr ""
+
+#: $string['start']
+msgctxt "$string['start']"
+msgid "Start"
+msgstr ""
+
+#: $string['total_time_offline']
+msgid "Total Time Offline"
+msgstr ""
+
+#: $string['total_time_online']
+msgid "Total Time Online"
+msgstr ""
+
+#: $string['tracked_courses']
+msgid "Tracked Courses"
+msgstr ""
+
+#: $string['tracked_users']
+msgid "Tracked Users"
+msgstr ""
+
+#: $string['type_category']
+msgid "All Courses in the same Category"
+msgstr ""
+
+#: $string['type_course']
+msgid "This Course only"
+msgstr ""
+
+#: $string['type_meta']
+msgid "All Courses linked by Course meta link"
+msgstr ""
+
+#: $string['unknown']
+msgid "(unknown)"
+msgstr ""
+
+#: $string['unreasoneable_session']
+msgid "Are you sure? This is more than {$a} hours long!"
+msgstr ""
+
+#: $string['updating_online_sessions_of']
+msgid "Updating online Sessions of {$a}"
+msgstr ""
+
+#: $string['user_attendance_addoffline']
+msgid "User add an offline attendance entry"
+msgstr ""
+
+#: $string['user_attendance_deloffline']
+msgid "User delete an offline attendance entry"
+msgstr ""
+
+#: $string['user_attendance_details_viewed']
+msgid "User attendance details viewed"
+msgstr ""
+
+#: $string['user_sessions_summary']
+msgid "User's Sessions summary"
+msgstr ""

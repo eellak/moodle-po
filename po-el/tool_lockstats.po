@@ -1,0 +1,142 @@
+#. extracted from lang/en/tool_lockstats.php, lang/el/tool_lockstats.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'tool_lockstats', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   tool_lockstats
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['blacklist']
+msgid "History blacklist"
+msgstr ""
+
+#: $string['blacklistdesc']
+msgid ""
+"These are identified by their classpath, eg. \\tool_crawler\\task\\crawl_task"
+msgstr ""
+
+#: $string['cleanup']
+msgid "Cleanup history"
+msgstr ""
+
+#: $string['cleanupdesc']
+msgid "Automatically prune the history table after this value."
+msgstr ""
+
+#: $string['debug']
+msgid "Debug"
+msgstr ""
+
+#: $string['debugdesc']
+msgid "Print additional helpful debug output in the cron.log"
+msgstr ""
+
+#: $string['form_reset_button']
+msgid "Reset lock history"
+msgstr ""
+
+#: $string['form_reset_warning']
+msgid ""
+"Warning. You are about to reset the lock statistics history. Are you sure "
+"you want to do this?"
+msgstr ""
+
+#: $string['h1_current']
+msgid "Current running tasks"
+msgstr ""
+
+#: $string['h1_detail']
+msgid "Task Details"
+msgstr ""
+
+#: $string['h1_history']
+msgid "Recent tasks with a duration > {$a} seconds"
+msgstr ""
+
+#: $string['h1_nexttask']
+msgid "Next running tasks"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Lock statistics"
+msgstr ""
+
+#: $string['reset_header']
+msgid "Reset lock statistics history"
+msgstr ""
+
+#: $string['reset_text']
+msgid "Reset the lock stastics history."
+msgstr ""
+
+#: $string['table_duration']
+msgid "Average Duration"
+msgstr "Μέση Διάρκεια"
+
+#: $string['table_gained']
+msgid "Time gained"
+msgstr ""
+
+#: $string['table_host']
+msgid "Last Host"
+msgstr ""
+
+#: $string['table_lockcount']
+msgid "Count"
+msgstr ""
+
+#: $string['table_pid']
+msgid "PID"
+msgstr ""
+
+#: $string['table_released']
+msgid "Time released"
+msgstr ""
+
+#: $string['table_resource']
+msgid "Resource"
+msgstr ""
+
+#: $string['table_task']
+msgid "Task"
+msgstr ""
+
+#: $string['task_cleanup']
+msgid "Cleanup lockstats history"
+msgstr ""
+
+#: $string['threshold']
+msgid "History threshold"
+msgstr ""
+
+#: $string['thresholddesc']
+msgid ""
+"Only log new history entries when the cron task time exceeds this value."
+msgstr ""

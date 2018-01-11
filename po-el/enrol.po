@@ -1,0 +1,590 @@
+#. extracted from lang/en/enrol.php, lang/el/enrol.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'enrol', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   enrol
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['actenrolshhdr']
+msgid "Available course enrolment plugins"
+msgstr "Διαθέσιμα πρόσθετα εγγραφής μαθήματος"
+
+#: $string['addinstance']
+msgid "Add method"
+msgstr "Πρόσθεσε μέθοδο"
+
+#: $string['addinstanceanother']
+msgid "Add method and create another"
+msgstr "Προσθήκη μεθόδου και δημιουργία μιας άλλης"
+
+#: $string['ajaxnext25']
+msgid "Next 25..."
+msgstr "Επόμενοι 25 ..."
+
+#: $string['ajaxoneuserfound']
+msgid "1 user found"
+msgstr "Βρέθηκε ένας χρήστης"
+
+#: $string['ajaxxusersfound']
+msgid "{$a} users found"
+msgstr "Βρέθηκαν {$a} χρήστες"
+
+#: $string['assignnotpermitted']
+msgid "You do not have permission or can not assign roles in this course."
+msgstr ""
+"Δεν έχετε δικαίωμα ή δεν μπορείτε να αναθέσετε ρόλους σε αυτό το μάθημα."
+
+#: $string['bulkuseroperation']
+msgid "Bulk user operation"
+msgstr "Χονδρικές λειτουργίες χρήστη"
+
+#: $string['configenrolplugins']
+msgid ""
+"Please select all required plugins and arrange then in appropriate order."
+msgstr ""
+"Παρακαλώ επιλέξτε όλα τα απαιτούμενα πρόσθετα και έπειτα ταξινομείστε τα "
+"στην κατάλληλη σειρά."
+
+#: $string['custominstancename']
+msgid "Custom instance name"
+msgstr "Όνομα προσαρμοσμένου στιγμιότυπου"
+
+#: $string['defaultenrol']
+msgid "Add instance to new courses"
+msgstr "Προσθήκη παραδείγματος στα νέα μαθήματα"
+
+#: $string['defaultenrol_desc']
+msgid "It is possible to add this plugin to all new courses by default."
+msgstr ""
+"Είναι δυνατό να προσθέσετε αυτό το πρόσθετο σε όλα τα νέα μαθήματα από "
+"προεπιλογή."
+
+#: $string['deleteinstanceconfirm']
+msgid ""
+"You are about to delete the enrolment method \"{$a->name}\". All {$a->users} "
+"users currently enrolled using this method will be unenrolled and any "
+"course-related data such as users' grades, group membership or forum "
+"subscriptions will be deleted.\n"
+"\n"
+"Are you sure you want to continue?"
+msgstr ""
+"Πρόκειται να διαγράψετε την μέθοδο εγγραφής \"{$a->name}\". Και οι {$a->users} "
+"χρήστες που είναι τώρα εγγεγραμμένοι στο μάθημα χρησιμοποιώντας αυτή την "
+"μέθοδο εγγραφής θα αποεγγραφούν και όλα τα δεδομένα τους που σχετίζονται με "
+"το μάθημα όπως οι βαθμοί του χρήστη, η συμμετοχή σε ομάδες, τα forum "
+"subscriptions κλπ θα διαγραφούν επίσης.\n"
+"\n"
+"Είστε σίγουρος/η ότι θέλετε να συνεχίσετε;"
+
+#: $string['deleteinstanceconfirmself']
+msgid ""
+"Are you really sure you want to delete instance \"{$a->name}\" that gives you "
+"access to this course? It is possible that you will not be able to access "
+"this course if you continue."
+msgstr ""
+
+#: $string['deleteinstancenousersconfirm']
+msgid ""
+"You are about to delete the enrolment method \"{$a->name}\". Are you sure you "
+"want to continue?"
+msgstr ""
+"Πρόκειται να διαγράψετε την μέθοδο εγγραφής \"{$a->name}\". Είστε σίγουρος/η "
+"ότι θέλετε να συνεχίσετε;"
+
+#: $string['disableinstanceconfirmself']
+msgid ""
+"Are you really sure you want to disable instance \"{$a->name}\" that gives you "
+"access to this course? It is possible that you will not be able to access "
+"this course if you continue."
+msgstr ""
+
+#: $string['durationdays']
+msgid "{$a} days"
+msgstr "{$a} ημέρες"
+
+#: $string['editenrolment']
+msgid "Edit enrolment"
+msgstr "Επεξεργασία εγγραφής"
+
+#: $string['edituserenrolment']
+msgid "Edit {$a}'s enrolment"
+msgstr ""
+
+#: $string['enrol']
+msgid "Enrol"
+msgstr "Εγγραφή"
+
+#: $string['enrolcandidates']
+msgid "Not enrolled users"
+msgstr "Μη εγγεγραμμένοι χρήστες"
+
+#: $string['enrolcandidatesmatching']
+msgid "Matching not enrolled users"
+msgstr ""
+
+#: $string['enrolcohort']
+msgid "Enrol cohort"
+msgstr "Εγγραφή ομάδας χρηστών"
+
+#: $string['enrolcohortusers']
+msgctxt "$string['enrolcohortusers']"
+msgid "Enrol users"
+msgstr "Εγγραφή χρηστών"
+
+#: $string['enroldetails']
+msgid "Enrolment details"
+msgstr ""
+
+#: $string['enrollednewusers']
+msgid "Successfully enrolled {$a} new users"
+msgstr "Εγγράφηκαν επιτυχώς {$a} νέοι χρήστες"
+
+#: $string['enrolledusers']
+msgid "Enrolled users"
+msgstr "Εγγεγραμμένοι χρήστες"
+
+#: $string['enrolledusersmatching']
+msgid "Matching enrolled users"
+msgstr ""
+
+#: $string['enrolme']
+msgid "Enrol me in this course"
+msgstr "Εγγραφή στο μάθημα"
+
+#: $string['enrolmentinstances']
+msgid "Enrolment methods"
+msgstr "Μέθοδοι εγγραφής"
+
+#: $string['enrolmentmethod']
+msgid "Enrolment method"
+msgstr ""
+
+#: $string['enrolmentnew']
+msgid "New enrolment in {$a}"
+msgstr "Νέα εγγραφή στο {$a}"
+
+#: $string['enrolmentnewuser']
+msgid "{$a->user} has enrolled in course \"{$a->course}\""
+msgstr "Ο σπουδαστής {$a->user} έκανε εγγραφή στο μάθημα {$a->course}"
+
+#: $string['enrolmentoptions']
+msgid "Enrolment options"
+msgstr "Επιλογές εγγραφής"
+
+#: $string['enrolments']
+msgid "Enrolments"
+msgstr "Εγγραφές"
+
+#: $string['enrolnotpermitted']
+msgid ""
+"You do not have permission or are not allowed to enrol someone in this "
+"course"
+msgstr ""
+"Δεν έχετε άδεια ή δεν επιτρέπεται να εγγράψετε κάποιον σε αυτό το μάθημα"
+
+#: $string['enrolperiod']
+msgid "Enrolment duration"
+msgstr "Διάρκεια Εγγραφών"
+
+#: $string['enroltimecreated']
+msgid "Enrolment created"
+msgstr "Δημιουργία εγγραφής"
+
+#: $string['enroltimeend']
+msgid "Enrolment ends"
+msgstr "Λήξη εγγραφής"
+
+#: $string['enroltimeendinvalid']
+msgid "Enrolment end date must be after the enrolment start date"
+msgstr ""
+
+#: $string['enroltimestart']
+msgid "Enrolment starts"
+msgstr "Η εγγραφή ξεκινά"
+
+#: $string['enrolusage']
+msgid "Instances / enrolments"
+msgstr "Στιγμιότυπα / εγγραφές"
+
+#: $string['enrolusers']
+msgctxt "$string['enrolusers']"
+msgid "Enrol users"
+msgstr "Εγγραφή χρηστών"
+
+#: $string['enrolxusers']
+msgid "Enrol {$a} users"
+msgstr "Εγγραφή  {$a} χρηστών"
+
+#: $string['errajaxfailedenrol']
+msgid "Failed to enrol user"
+msgstr "Αποτυχία εγγραφής χρήστη"
+
+#: $string['errajaxsearch']
+msgid "Error when searching users"
+msgstr "Σφάλμα κατά την αναζήτηση των χρηστών"
+
+#: $string['erroreditenrolment']
+msgid "An error occurred while trying to edit a users enrolment"
+msgstr "Προέκυψε σφάλμα κατά την επεξεργασία εγγραφής κάποιου χρήστη"
+
+#: $string['errorenrolcohort']
+msgid "Error creating cohort sync enrolment instance in this course."
+msgstr ""
+"Σφάλμα κατά τη δημιουργία στιγμιότυπου συγχρονισμού εγγραφής ομάδας "
+"χρηστώνσε αυτό το μάθημα."
+
+#: $string['errorenrolcohortusers']
+msgid "Error enrolling cohort members in this course."
+msgstr "Σφάλμα κατά την εγγραφή μέλων ομάδας χρηστών σε αυτό το μάθημα."
+
+#: $string['errorthresholdlow']
+msgid "Notification threshold must be at least 1 day."
+msgstr ""
+
+#: $string['errorwithbulkoperation']
+msgid "There was an error while processing your bulk enrolment change."
+msgstr ""
+
+#: $string['eventenrolinstancecreated']
+msgid "Enrolment instance created"
+msgstr ""
+
+#: $string['eventenrolinstancedeleted']
+msgid "Enrolment instance deleted"
+msgstr ""
+
+#: $string['eventenrolinstanceupdated']
+msgid "Enrolment instance updated"
+msgstr ""
+
+#: $string['eventuserenrolmentcreated']
+msgid "User enrolled in course"
+msgstr "Ο χρήστης γράφτηκε στο μάθημα"
+
+#: $string['eventuserenrolmentdeleted']
+msgid "User unenrolled from course"
+msgstr "Ο χρήστης ξεγράφτηκε από το μάθημα"
+
+#: $string['eventuserenrolmentupdated']
+msgid "User unenrolment updated"
+msgstr "Ενημέρωση ακύρωσης εγγραφής χρήστη"
+
+#: $string['expirynotify']
+msgid "Notify before enrolment expires"
+msgstr "Ειδοποίηση πριν από τη λήξη της εγγραφής"
+
+#: $string['expirynotifyall']
+msgid "Enroller and enrolled user"
+msgstr ""
+
+#: $string['expirynotifyenroller']
+msgid "Enroller only"
+msgstr ""
+
+#: $string['expirynotify_help']
+msgid ""
+"This setting determines whether enrolment expiry notification messages are "
+"sent."
+msgstr ""
+
+#: $string['expirynotifyhour']
+msgid "Hour to send enrolment expiry notifications"
+msgstr ""
+
+#: $string['expirythreshold']
+msgid "Notification threshold"
+msgstr ""
+
+#: $string['expirythreshold_help']
+msgid "How long before enrolment expiry should users be notified?"
+msgstr ""
+"Πόσο καιρό πριν από την λήξης της εγγραφής θα πρέπει να ενημερώνονται "
+"χρήστες;"
+
+#: $string['extremovedaction']
+msgid "External unenrol action"
+msgstr "Ενέργεια εξωτερικής απεγγραφής"
+
+#: $string['extremovedaction_help']
+msgid ""
+"Select action to carry out when user enrolment disappears from external "
+"enrolment source. Please note that some user data and settings are purged "
+"from course during course unenrolment."
+msgstr ""
+"Επιλέξτε ενέργεια για εκτέλεση όταν η εγγραφή χρήστη εξαφανίζεται από την "
+"εξωτερική πηγή εγγραφής. Παρακαλώ σημειώστε ότι ορισμένα δεδομένα χρήστη και "
+"οι ρυθμίσεις εκκαθαρίζονται από το μάθημα κατά τη διάρκεια απεγγραφής από "
+"το μάθημα."
+
+#: $string['extremovedkeep']
+msgid "Keep user enrolled"
+msgstr "Κρατήστε τον χρήστη εγγεγραμμένο"
+
+#: $string['extremovedsuspend']
+msgid "Disable course enrolment"
+msgstr "Απενεργοποίηση εγγραφής χρήστών στο μάθημα"
+
+#: $string['extremovedsuspendnoroles']
+msgid "Disable course enrolment and remove roles"
+msgstr "Απενεργοποίηση εγγραφής χρήστών στο μάθημα και αφαίρεση ρόλων"
+
+#: $string['extremovedunenrol']
+msgid "Unenrol user from course"
+msgstr "Απεγγραφή χρήστη από το μάθημα"
+
+#: $string['finishenrollingusers']
+msgid "Finish enrolling users"
+msgstr "Τέλος εγγραφής χρηστών"
+
+#: $string['foundxcohorts']
+msgid "Found {$a} cohorts"
+msgstr "Βράθηκαν {$a} ομάδες χρηστών"
+
+#: $string['instanceadded']
+msgid "Method added"
+msgstr "Η μέθοδος προστέθηκε"
+
+#: $string['instanceeditselfwarning']
+msgid "Warning:"
+msgstr "Προειδοποίηση:"
+
+#: $string['instanceeditselfwarningtext']
+msgid ""
+"You are enrolled into this course through this enrolment method, changes may "
+"affect your access to this course."
+msgstr ""
+
+#: $string['invalidenrolinstance']
+msgid "Invalid enrolment instance"
+msgstr ""
+
+#: $string['invalidrequest']
+msgid "Invalid request"
+msgstr ""
+
+#: $string['invalidrole']
+msgid "Invalid role"
+msgstr "Μη επιτρεπτός ρόλος"
+
+#: $string['manageenrols']
+msgid "Manage enrol plugins"
+msgstr "Διαχείριση πρόσθετων εγγραφών"
+
+#: $string['manageinstance']
+msgid "Manage"
+msgstr "Διαχείριση"
+
+#: $string['migratetomanual']
+msgid "Migrate to manual enrolments"
+msgstr ""
+
+#: $string['nochange']
+msgid "No change"
+msgstr "Καμία αλλαγή"
+
+#: $string['noexistingparticipants']
+msgid "No existing participants"
+msgstr "Δεν υπάρχουν συμμετέχοντες"
+
+#: $string['nogroup']
+msgid "No group"
+msgstr ""
+
+#: $string['noguestaccess']
+msgid "Guests cannot access this course. Please log in."
+msgstr ""
+"Οι επισκέπτες δεν έχουν πρόσβαση στο μάθημα αυτό. Παρακαλώ συνδεθείτε με το "
+"λογαριασμός σας"
+
+#: $string['none']
+msgid "None"
+msgstr "Κανένας"
+
+#: $string['notenrollable']
+msgid "You can not enrol yourself in this course."
+msgstr "Δεν μπορείτε να εγγραφείτε σε αυτό το μάθημα προς το παρόν"
+
+#: $string['notenrolledusers']
+msgid "Other users"
+msgstr "Άλλοι χρήστες"
+
+#: $string['otheruserdesc']
+msgid ""
+"The following users are not enrolled in this course but do have roles, "
+"inherited or assigned within it."
+msgstr ""
+
+#: $string['participationactive']
+msgid "Active"
+msgstr "Ενεργός"
+
+#: $string['participationnotcurrent']
+msgid "Not current"
+msgstr ""
+
+#: $string['participationstatus']
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: $string['participationsuspended']
+msgid "Suspended"
+msgstr "Ανεστάλη"
+
+#: $string['periodend']
+msgid "until {$a}"
+msgstr "μέχρι {$a}"
+
+#: $string['periodnone']
+msgid "enrolled {$a}"
+msgstr ""
+
+#: $string['periodstart']
+msgid "from {$a}"
+msgstr "από {$a}"
+
+#: $string['periodstartend']
+msgid "from {$a->start} until {$a->end}"
+msgstr "από {$a->start} μέχρι {$a->end}"
+
+#: $string['proceedtocourse']
+msgid "Proceed to course content"
+msgstr "Μετάβαση στο περιεχόμενο του μαθήματος"
+
+#: $string['recovergrades']
+msgid "Recover user's old grades if possible"
+msgstr "Ανάκτηση παλαιών βαθμών του χρήστη αν είναι δυνατόν"
+
+#: $string['rolefromcategory']
+msgid "{$a->role} (Inherited from course category)"
+msgstr ""
+
+#: $string['rolefrommetacourse']
+msgid "{$a->role} (Inherited from parent course)"
+msgstr ""
+
+#: $string['rolefromsystem']
+msgid "{$a->role} (Assigned at site level)"
+msgstr ""
+
+#: $string['rolefromthiscourse']
+msgid "{$a->role} (Assigned in this course)"
+msgstr ""
+
+#: $string['sendfromcoursecontact']
+msgid "From the course contact"
+msgstr ""
+
+#: $string['sendfromkeyholder']
+msgid "From the key holder"
+msgstr ""
+
+#: $string['sendfromnoreply']
+msgid "From the no-reply address"
+msgstr "Από τη διεύθυνση μη-απάντησης"
+
+#: $string['startdatetoday']
+msgid "Today"
+msgstr "Σήμερα"
+
+#: $string['synced']
+msgid "Synced"
+msgstr "Συγχρονίστηκε"
+
+#: $string['testsettings']
+msgid "Test settings"
+msgstr "Δοκιμαστικές ρυθμίσεις"
+
+#: $string['testsettingsheading']
+msgid "Test enrol settings - {$a}"
+msgstr ""
+
+#: $string['totalenrolledusers']
+msgid "{$a} enrolled users"
+msgstr "{$a} εγγεγραμμένοι χρήστες"
+
+#: $string['totalotherusers']
+msgid "{$a} other users"
+msgstr "{$a} άλλοι χρήστες"
+
+#: $string['unassignnotpermitted']
+msgid "You do not have permission to unassign roles in this course"
+msgstr ""
+
+#: $string['unenrol']
+msgid "Unenrol"
+msgstr "Ακύρωση εγγραφής"
+
+#: $string['unenrolconfirm']
+msgid ""
+"Do you really want to unenrol \"{$a->user}\" (previously enrolled via "
+"\"{$a->enrolinstancename}\") from \"{$a->course}\"?"
+msgstr ""
+"Θέλετε σίγουρα να διαγράψετε τον χρήστη  \"{$a->user}\" από το μάθημα "
+"\"{$a->course}\";"
+
+#: $string['unenrolme']
+msgid "Unenrol me from {$a}"
+msgstr "{$a} - ακύρωση της εγγραφής μου"
+
+#: $string['unenrolnotpermitted']
+msgid ""
+"You do not have permission or can not unenrol this user from this course."
+msgstr ""
+"Δεν έχετε άδεια ή δεν μπορείτε να ξεγράψετε αυτόν το χρήστη από αυτό το "
+"μάθημα."
+
+#: $string['unenrolroleusers']
+msgid "Unenrol users"
+msgstr "Ακύρωση εγγραφής φοιτητών"
+
+#: $string['uninstallmigrating']
+msgid "Migrating \"{$a}\" enrolments"
+msgstr ""
+
+#: $string['unknowajaxaction']
+msgid "Unknown action requested"
+msgstr ""
+
+#: $string['unlimitedduration']
+msgid "Unlimited"
+msgstr "Απεριόριστος"
+
+#: $string['userremovedfromselectiona']
+msgid "User \"{$a}\" was removed from the selection."
+msgstr ""
+
+#: $string['usersearch']
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: $string['withselectedusers']
+msgid "With selected users"
+msgstr "Με επιλεγμένους χρήστες"

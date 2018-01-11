@@ -1,0 +1,2486 @@
+#. extracted from lang/en/offlinequiz.php, lang/el/offlinequiz.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:14+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'offlinequiz', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   offlinequiz
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['add']
+msgid "Add"
+msgstr "Προσθήκη"
+
+#: $string['addarandomquestion']
+msgctxt "$string['addarandomquestion']"
+msgid "questions randomly"
+msgstr ""
+
+#: $string['addarandomquestion_help']
+msgid ""
+"Moodle adds a random selection of multiple choice questions (or all-or-"
+"nothing multiple-choice questions) to the current offline quiz group. The "
+"number of questions added can be set. The questions are chosen from the "
+"current question category (and, if selected, its sub-categories)."
+msgstr ""
+
+#: $string['addarandomselectedquestion']
+msgid "Add a random selected question ..."
+msgstr ""
+
+#: $string['addlist']
+msgid "Add list"
+msgstr ""
+
+#: $string['addnewpagesafterselected']
+msgid "Add page breaks after selected questions"
+msgstr ""
+
+#: $string['addnewquestion']
+msgid "a new question"
+msgstr ""
+
+#: $string['addnewquestionsqbank']
+msgid "Add questions to the category {$a->catname}: {$a->link}"
+msgstr ""
+
+#: $string['addnewuseroverride']
+msgid "Add user override"
+msgstr ""
+
+#: $string['addpagebreak']
+msgid "Add page break"
+msgstr ""
+
+#: $string['addpagehere']
+msgid "Add page here"
+msgstr ""
+
+#: $string['addparts']
+msgctxt "$string['addparts']"
+msgid "Add participants"
+msgstr "Προσθήκη συμμετεχόντων"
+
+#: $string['addquestionfrombankatend']
+msgid "Add from the question bank at the end"
+msgstr ""
+
+#: $string['addquestionfrombanktopage']
+msgid "Add from the question bank to page {$a}"
+msgstr ""
+
+#: $string['addrandom']
+msgid "Randomly add {$a} multiple choice question(s)"
+msgstr ""
+
+#: $string['addrandomfromcategory']
+msgctxt "$string['addrandomfromcategory']"
+msgid "questions randomly"
+msgstr ""
+
+#: $string['addrandomquestion']
+msgctxt "$string['addrandomquestion']"
+msgid "questions randomly"
+msgstr ""
+
+#: $string['addrandomquestiontoofflinequiz']
+msgid "Adding questions to offlinequiz {$a->name} (group {$a->group})"
+msgstr ""
+
+#: $string['addrandomquestiontopage']
+msgid "Add a random question to page {$a}"
+msgstr ""
+
+#: $string['addtoofflinequiz']
+msgid "Add to offline quiz"
+msgstr ""
+
+#: $string['addtoqueue']
+msgid "Add to queue"
+msgstr ""
+
+#: $string['allinone']
+msgid "Unlimited"
+msgstr ""
+
+#: $string['alllists']
+msgid "All lists"
+msgstr ""
+
+#: $string['allornothing']
+msgid "All-or-nothing"
+msgstr ""
+
+#: $string['allresults']
+msgid "Show all results"
+msgstr ""
+
+#: $string['allstudents']
+msgid "Show all students"
+msgstr ""
+
+#: $string['alwaysavailable']
+msgid "Always available"
+msgstr ""
+
+#: $string['analysis']
+msgid "Item analysis"
+msgstr ""
+
+#: $string['answerform']
+msgid "Form for answers"
+msgstr ""
+
+#: $string['answerformforgroup']
+msgid "Answer form for group {$a}"
+msgstr ""
+
+#: $string['answerforms']
+msgid "Answers forms"
+msgstr ""
+
+#: $string['answerpdfxy']
+msgid ""
+"Form for answers ({$a}->maxquestions questions / {$a}->maxanswers options)"
+msgstr ""
+
+#: $string['areyousureremoveselected']
+msgid "Are you sure you want to remove all selected questions?"
+msgstr ""
+
+#: $string['attemptexists']
+msgid "Attempt exists"
+msgstr ""
+
+#: $string['attemptsexist']
+msgid "You can no longer add or remove questions."
+msgstr ""
+
+#: $string['attemptsnum']
+msgid "Results: {$a}"
+msgstr ""
+
+#: $string['attemptsonly']
+msgid "Show students with results only"
+msgstr ""
+
+#: $string['attendances']
+msgid "Attendances"
+msgstr ""
+
+#: $string['basicideasofofflinequiz']
+msgid "The basic ideas of offline quiz-making"
+msgstr ""
+
+#: $string['bulksavegrades']
+msgid "Save Grades"
+msgstr ""
+
+#: $string['calibratescanner']
+msgid "Calibrate scanner"
+msgstr ""
+
+#: $string['cannoteditafterattempts']
+msgid ""
+"You cannot add or remove questions because there are already complete "
+"results. ({$a})"
+msgstr ""
+
+#: $string['category']
+msgid "Category"
+msgstr "Κατηγορία"
+
+#: $string['changed']
+msgid "Result has been changed."
+msgstr ""
+
+#: $string['checkparts']
+msgid "Mark selected participants as present"
+msgstr ""
+
+#: $string['checkuserid']
+msgid "Check group/user ID"
+msgstr ""
+
+#: $string['chooseagroup']
+msgid "Choose a group..."
+msgstr ""
+
+#: $string['closebeforeopen']
+msgid ""
+"Could not update the offline quiz. You have specified a close date before "
+"the open date."
+msgstr ""
+
+#: $string['closestudentview']
+msgid "Close Student View"
+msgstr ""
+
+#: $string['closewindow']
+msgid "Close Window"
+msgstr ""
+
+#: $string['cmmissing']
+msgid "The course module for the offline quiz with ID {$a} is missing"
+msgstr ""
+
+#: $string['configdecimalplaces']
+msgctxt "$string['configdecimalplaces']"
+msgid ""
+"Number of digits that should be shown after the decimal point when "
+"displaying grades for the offline quiz."
+msgstr ""
+
+#: $string['configintro']
+msgid ""
+"The values you set here are used as default values for the settings of new "
+"offline quizzes."
+msgstr ""
+
+#: $string['configkeepfilesfordays']
+msgid ""
+"Determine how many days the uploaded image files are kept in temporary "
+"storage. During this time the image files are available in the offline quiz "
+"admin report."
+msgstr ""
+
+#: $string['configonlylocalcategories']
+msgid "No shared question categories allowed."
+msgstr ""
+
+#: $string['configpapergray']
+msgid "white-value of paper, which is used for the evaluation of answer-sheets"
+msgstr ""
+
+#: $string['configshuffleanswers']
+msgctxt "$string['configshuffleanswers']"
+msgid "Shuffle answers"
+msgstr ""
+
+#: $string['configshufflequestions']
+msgid ""
+"If you enable this option, then the order of questions in the offline quiz "
+"groups will be randomly shuffled each time you re-create the preview in the "
+"\"Create forms\" tab."
+msgstr ""
+
+#: $string['configshufflewithin']
+msgid ""
+"If you enable this option, then the parts making up the individual questions "
+"will be randomly shuffled when the question- and answer-forms are created."
+msgstr ""
+
+#: $string['configuseridentification']
+msgid ""
+"A formula describing the user identification. This formula is used to assign "
+"answer forms to users in the system. The right hand side of the equation "
+"must denote a field in the user table of Moodle."
+msgstr ""
+
+#: $string['confirmremovequestion']
+msgid "Are you sure you want to remove this {$a} question?"
+msgstr ""
+
+#: $string['copy']
+msgid "Copy"
+msgstr ""
+
+#: $string['copyright']
+msgid ""
+"<strong>Warning: The texts on this page are just for your personal "
+"information. Like any other texts these questions are under copyright "
+"restrictions. You are not allowed to copy them or to show them to other "
+"people!</strong>"
+msgstr ""
+
+#: $string['copyselectedtogroup']
+msgid "Add selected questions to group: {$a}"
+msgstr ""
+
+#: $string['copytogroup']
+msgid "Add all questions to group: {$a}"
+msgstr ""
+
+#: $string['correct']
+msgid "correct"
+msgstr ""
+
+#: $string['correcterror']
+msgid "solve"
+msgstr ""
+
+#: $string['correctforgroup']
+msgid "Correct answers for Group {$a}"
+msgstr ""
+
+#: $string['correctionform']
+msgid "Correction"
+msgstr ""
+
+#: $string['correctionforms']
+msgid "Correction forms"
+msgstr ""
+
+#: $string['correctionoptionsheading']
+msgid "Correction options"
+msgstr ""
+
+#: $string['correctupdated']
+msgid "Updated correction form for group {$a}."
+msgstr ""
+
+#: $string['couldnotgrab']
+msgid "Could not grab image {$a}"
+msgstr ""
+
+#: $string['couldnotregister']
+msgid "Could not register user {$a}"
+msgstr ""
+
+#: $string['createcategoryandaddrandomquestion']
+msgid "Create category and add random question"
+msgstr ""
+
+#: $string['createlistfirst']
+msgctxt "$string['createlistfirst']"
+msgid "Add participants"
+msgstr "Προσθήκη συμμετεχόντων"
+
+#: $string['createofflinequiz']
+msgctxt "$string['createofflinequiz']"
+msgid "Create forms"
+msgstr ""
+
+#: $string['createpartpdferror']
+msgid ""
+"The PDF form for the list of participants {$a} could not be created. The "
+"list may be empty."
+msgstr ""
+
+#: $string['createpdf']
+msgid "PDF form"
+msgstr ""
+
+#: $string['createpdferror']
+msgid ""
+"The form for group {$a} could not be created. Maybe there are no questions "
+"in the group."
+msgstr ""
+
+#: $string['createpdffirst']
+msgid "Create PDF list first"
+msgstr ""
+
+#: $string['createpdfforms']
+msgctxt "$string['createpdfforms']"
+msgid "Create forms"
+msgstr ""
+
+#: $string['createpdfs']
+msgid "PDF forms"
+msgstr ""
+
+#: $string['createpdfsparticipants']
+msgid "PDF forms for list of participants"
+msgstr ""
+
+#: $string['createquestionandadd']
+msgid "Create a new question and add it to the quiz."
+msgstr ""
+
+#: $string['createquiz']
+msgctxt "$string['createquiz']"
+msgid "Create forms"
+msgstr ""
+
+#: $string['csvfile']
+msgid "CSV file"
+msgstr ""
+
+#: $string['csvformat']
+msgid "Comma separated values text file (CSV)"
+msgstr ""
+
+#: $string['csvplus1format']
+msgid "Text file with raw data (CSV)"
+msgstr ""
+
+#: $string['csvpluspointsformat']
+msgid "Text file with points (CSV)"
+msgstr ""
+
+#: $string['darkgray']
+msgid "Dark grey"
+msgstr ""
+
+#: $string['datanotsaved']
+msgid "Could not save settings"
+msgstr ""
+
+#: $string['decimalplaces']
+msgid "Decimal places"
+msgstr ""
+
+#: $string['decimalplaces_help']
+msgctxt "$string['decimalplaces_help']"
+msgid ""
+"Number of digits that should be shown after the decimal point when "
+"displaying grades for the offline quiz."
+msgstr ""
+
+#: $string['deletelistcheck']
+msgid ""
+"Do you really want to delete the selected list and all it's participants?"
+msgstr ""
+
+#: $string['deletepagecheck']
+msgid "Do you really want to delete the selected pages?"
+msgstr ""
+
+#: $string['deletepagesafterselected']
+msgid "Remove page breaks after selected questions"
+msgstr ""
+
+#: $string['deletepartcheck']
+msgid "Do you really want to delete the selected participants?"
+msgstr ""
+
+#: $string['deleteparticipantslist']
+msgid "Delete participants list"
+msgstr "Διαγραφή λίστας συμμετεχόντων"
+
+#: $string['deletepdfs']
+msgid "Delete documents"
+msgstr ""
+
+#: $string['deleteresultcheck']
+msgid "Do you really want to delete the selected results?"
+msgstr ""
+
+#: $string['deleteselectedpart']
+msgid "Delete selected participants"
+msgstr "Διαγραφή επιλεγμένων συμμετεχόντων"
+
+#: $string['deleteselectedresults']
+msgid "Delete selected results"
+msgstr ""
+
+#: $string['deletethislist']
+msgid "Delete this list"
+msgstr ""
+
+#: $string['deleteupdatepdf']
+msgid "Delete and update PDF-forms"
+msgstr ""
+
+#: $string['difficultytitle']
+msgid "Difficulty"
+msgstr ""
+
+#: $string['difficultytitlea']
+msgid "Difficulty A"
+msgstr ""
+
+#: $string['difficultytitleb']
+msgid "Difficulty B"
+msgstr ""
+
+#: $string['difficultytitlediff']
+msgid "Difference"
+msgstr ""
+
+#: $string['displayoptions']
+msgid "Display options"
+msgstr ""
+
+#: $string['done']
+msgid "done"
+msgstr ""
+
+#: $string['downloadallzip']
+msgid "Download all files as ZIP"
+msgstr ""
+
+#: $string['downloadpartpdf']
+msgid "Download PDF file for list '{$a}\\"
+msgstr ""
+
+#: $string['downloadpdfs']
+msgid "Download documents"
+msgstr ""
+
+#: $string['downloadresultsas']
+msgid "Download results as:"
+msgstr ""
+
+#: $string['dragtoafter']
+msgid "After {$a}"
+msgstr ""
+
+#: $string['dragtostart']
+msgid "To the start"
+msgstr ""
+
+#: $string['editgroupquestions']
+msgid "Edit group questions"
+msgstr ""
+
+#: $string['editgroups']
+msgid "Edit Offline Groups"
+msgstr ""
+
+#: $string['editingofflinequiz']
+msgid "Editing group questions"
+msgstr ""
+
+#: $string['editingofflinequiz_help']
+msgid ""
+"When creating an offline quiz, the main concepts are:\n"
+"<ul><li> The offline quiz, containing questions over one or more pages</li>\n"
+"<li> The question bank, which stores copies of all questions organised into "
+"categories</li></ul>"
+msgstr ""
+
+#: $string['editingofflinequizx']
+msgid "Edit offline quiz: {$a}"
+msgstr ""
+
+#: $string['editlist']
+msgid "Edit list"
+msgstr ""
+
+#: $string['editlists']
+msgid "Edit lists"
+msgstr ""
+
+#: $string['editmaxmark']
+msgid "Edit maximum mark"
+msgstr ""
+
+#: $string['editofflinequiz']
+msgid "Edit offline quiz"
+msgstr ""
+
+#: $string['editofflinesettings']
+msgid "Edit offline settings"
+msgstr ""
+
+#: $string['editorder']
+msgid "Edit order"
+msgstr ""
+
+#: $string['editparticipants']
+msgid "Edit participants"
+msgstr "Επεξεργασία συμμετεχόντων"
+
+#: $string['editquestion']
+msgid "Edit question"
+msgstr ""
+
+#: $string['editquestions']
+msgid "Edit questions"
+msgstr ""
+
+#: $string['editscannedform']
+msgid "Edit scanned form"
+msgstr ""
+
+#: $string['editthislist']
+msgid "Edit this list"
+msgstr ""
+
+#: $string['emptygroups']
+msgctxt "$string['emptygroups']"
+msgid "Some offline quiz groups are empty. Please add some questions."
+msgstr ""
+
+#: $string['enroluser']
+msgid "Enrol user"
+msgstr ""
+
+#: $string['erroraccessingreport']
+msgid "You are not allowed to view this report."
+msgstr ""
+
+#: $string['errorreport']
+msgid "Report of import errors"
+msgstr ""
+
+#: $string['eventattemptdeleted']
+msgid "Offline quiz attempt deleted"
+msgstr ""
+
+#: $string['eventattemptpreviewstarted']
+msgid "Offline quiz attempt preview started"
+msgstr ""
+
+#: $string['eventattemptreviewed']
+msgid "Offline quiz attempt reviewed"
+msgstr ""
+
+#: $string['eventattemptsummaryviewed']
+msgid "Offline quiz attempt summary viewed"
+msgstr ""
+
+#: $string['eventattemptviewed']
+msgid "Offline quiz attempt viewed"
+msgstr ""
+
+#: $string['eventdocscreated']
+msgid "Offline quiz question and answer forms created"
+msgstr ""
+
+#: $string['eventdocsdeleted']
+msgid "Offline quiz question and answer forms deleted"
+msgstr ""
+
+#: $string['eventeditpageviewed']
+msgid "Offline quiz edit page viewed"
+msgstr ""
+
+#: $string['eventofflinequizattemptsubmitted']
+msgid "Offline quiz attempt submitted"
+msgstr ""
+
+#: $string['eventoverridecreated']
+msgid "Offline quiz override created"
+msgstr ""
+
+#: $string['eventoverridedeleted']
+msgid "Offline quiz override deleted"
+msgstr ""
+
+#: $string['eventoverrideupdated']
+msgid "Offline quiz override updated"
+msgstr ""
+
+#: $string['eventparticipantmarked']
+msgid "Offline quiz participant marked manually"
+msgstr ""
+
+#: $string['eventquestionmanuallygraded']
+msgid "Question manually graded"
+msgstr ""
+
+#: $string['eventreportviewed']
+msgid "Offline quiz report viewed"
+msgstr ""
+
+#: $string['eventresultsregraded']
+msgid "Offline quiz results regraded"
+msgstr ""
+
+#: $string['everythingon']
+msgid "enabled"
+msgstr ""
+
+#: $string['excelformat']
+msgid "Excel spreadsheet (XLSX)"
+msgstr ""
+
+#: $string['fileformat']
+msgid "Format for question sheets"
+msgstr ""
+
+#: $string['fileformat_help']
+msgid ""
+"Choose whether you want your question sheets in PDF, DOCX or TEX format. "
+"Answer forms and correction sheets will always be generated in PDF format."
+msgstr ""
+
+#: $string['fileprefixanswer']
+msgid "answer_form"
+msgstr ""
+
+#: $string['fileprefixcorrection']
+msgid "correction_form"
+msgstr ""
+
+#: $string['fileprefixform']
+msgid "question_form"
+msgstr ""
+
+#: $string['fileprefixparticipants']
+msgid "participants_list"
+msgstr ""
+
+#: $string['filesizetolarge']
+msgid ""
+"Some of your image files are very large. The dimensions will be resized "
+"during the interpretation. Please try to scan with a resolution between 200 "
+"and 300 dpi and in black and white mode. This will speed up the "
+"interpretation next time."
+msgstr ""
+
+#: $string['fontsize']
+msgid "Fontsize"
+msgstr ""
+
+#: $string['forautoanalysis']
+msgid "For automatic analysis"
+msgstr ""
+
+#: $string['formforcorrection']
+msgid "Correction form for group {$a}"
+msgstr ""
+
+#: $string['formforgroup']
+msgid "Question form for group {$a}"
+msgstr ""
+
+#: $string['formforgroupdocx']
+msgid "Question form for group {$a} (DOCX)"
+msgstr ""
+
+#: $string['formforgrouplatex']
+msgid "Question form for group {$a} (LATEX)"
+msgstr ""
+
+#: $string['formsexist']
+msgid "Forms already created."
+msgstr ""
+
+#: $string['formsexistx']
+msgid "Forms already created (<a href=\"{$a}\">Download forms</a>)"
+msgstr ""
+
+#: $string['formsheetsettings']
+msgid "Form Settings"
+msgstr ""
+
+#: $string['formspreview']
+msgid "Preview for forms"
+msgstr ""
+
+#: $string['formwarning']
+msgid "There is no answer form defined. Please contact your administrator."
+msgstr ""
+
+#: $string['fromquestionbank']
+msgid "from question bank"
+msgstr ""
+
+#: $string['functiondisabledbysecuremode']
+msgid "That functionality is currently disabled"
+msgstr ""
+
+#: $string['generalfeedback']
+msgid "General feedback"
+msgstr ""
+
+#: $string['generalfeedback_help']
+msgid ""
+"General feedback is text which is shown after a question has been attempted. "
+"Unlike feedback for a specific question which depends on the response "
+"given, the same general feedback is always shown."
+msgstr ""
+
+#: $string['generatepdfform']
+msgid "Generate PDF form"
+msgstr ""
+
+#: $string['grade']
+msgid "Grade"
+msgstr ""
+
+#: $string['gradedon']
+msgid "Graded on"
+msgstr ""
+
+#: $string['gradedscannedform']
+msgid "Scanned form with grades"
+msgstr ""
+
+#: $string['gradeiszero']
+msgid "Note: The maximum grade for this offline quiz is 0 points!"
+msgstr ""
+
+#: $string['gradeswarning']
+msgid "The question grades have to be numbers!"
+msgstr ""
+
+#: $string['gradewarning']
+msgid "The question grade has to be a number!"
+msgstr ""
+
+#: $string['gradingofflinequiz']
+msgid "Grades"
+msgstr ""
+
+#: $string['gradingofflinequizx']
+msgid "Grades: {$a}"
+msgstr ""
+
+#: $string['gradingoptionsheading']
+msgid "Grading options"
+msgstr ""
+
+#: $string['greeniscross']
+msgid "counted as a cross"
+msgstr ""
+
+#: $string['group']
+msgid "Group"
+msgstr ""
+
+#: $string['groupoutofrange']
+msgid "Group was out of range and replaced with group A."
+msgstr ""
+
+#: $string['groupquestions']
+msgid "Group Questions"
+msgstr ""
+
+#: $string['hasresult']
+msgid "Result exists"
+msgstr ""
+
+#: $string['idnumber']
+msgid "ID number"
+msgstr ""
+
+#: $string['imagefile']
+msgid "Image file"
+msgstr ""
+
+#: $string['imagenotfound']
+msgid "Image file: {$a} not found!"
+msgstr "Αρχείο εικόνας: Αδυναμία εύρεσης {$a}!"
+
+#: $string['imagenotjpg']
+msgid "Image not jpg or png: {$a}"
+msgstr ""
+
+#: $string['imagickwarning']
+msgid ""
+"Missing imagemagick: Ask your system administrator to install the "
+"imagemagick library and check the path to the convert binary in your TeX "
+"notation filter settings. You cannot import TIF files without imagemagick!"
+msgstr ""
+
+#: $string['import']
+msgctxt "$string['import']"
+msgid "Import"
+msgstr ""
+
+#: $string['importedon']
+msgid "Imported on"
+msgstr ""
+
+#: $string['importerror11']
+msgid "Other result exists"
+msgstr ""
+
+#: $string['importerror12']
+msgid "User not registered"
+msgstr ""
+
+#: $string['importerror13']
+msgid "No group data"
+msgstr ""
+
+#: $string['importerror14']
+msgctxt "$string['importerror14']"
+msgid "Could not grab"
+msgstr ""
+
+#: $string['importerror15']
+msgctxt "$string['importerror15']"
+msgid "Insecure markings"
+msgstr ""
+
+#: $string['importerror16']
+msgid "Page error"
+msgstr ""
+
+#: $string['importerror17']
+msgid "Pages incomplete"
+msgstr ""
+
+#: $string['importerror21']
+msgctxt "$string['importerror21']"
+msgid "Could not grab"
+msgstr ""
+
+#: $string['importerror22']
+msgctxt "$string['importerror22']"
+msgid "Insecure markings"
+msgstr ""
+
+#: $string['importerror23']
+msgid "User not in list"
+msgstr ""
+
+#: $string['importerror24']
+msgid "List not detected"
+msgstr ""
+
+#: $string['importforms']
+msgid "Import answer forms"
+msgstr ""
+
+#: $string['importfromto']
+msgid "Importing {$a->from} to {$a->to} of {$a->total}."
+msgstr ""
+
+#: $string['importisfinished']
+msgid "Import for offline quiz {$a} is finished."
+msgstr ""
+
+#: $string['importlinkresults']
+msgid "Link to results: {$a}"
+msgstr ""
+
+#: $string['importlinkverify']
+msgid "Link to verifying: {$a}"
+msgstr ""
+
+#: $string['importmailsubject']
+msgid "offline quiz import notification"
+msgstr ""
+
+#: $string['importnew']
+msgctxt "$string['importnew']"
+msgid "Import"
+msgstr ""
+
+#: $string['importnew_help']
+msgid ""
+"<p>\n"
+"You can import single scanned image files or several scanned image files in "
+"a ZIP-archive. The offline quiz module will process the image files in the "
+"background.\n"
+"File names are not relevant but should not contain special characters such "
+"as umlauts. Images should be GIFs, PNGs\n"
+"or TIFs. A resolution between 200 and 300dpi is recommended.</p>"
+msgstr ""
+
+#: $string['importnumberexisting']
+msgid "Number of double forms: {$a}"
+msgstr ""
+
+#: $string['importnumberpages']
+msgid "Number of successfully imported pages: {$a}"
+msgstr ""
+
+#: $string['importnumberresults']
+msgid "Number of imported : {$a}"
+msgstr ""
+
+#: $string['importnumberverify']
+msgid "Number of forms that need verifying: {$a}"
+msgstr ""
+
+#: $string['importtimefinish']
+msgid "Process finished: {$a}"
+msgstr ""
+
+#: $string['importtimestart']
+msgid "Process started: {$a}"
+msgstr ""
+
+#: $string['inconsistentdata']
+msgid "Inconsistent data: {$a}"
+msgstr ""
+
+#: $string['info']
+msgid "Info"
+msgstr ""
+
+#: $string['infoshort']
+msgid "i"
+msgstr ""
+
+#: $string['insecuremarkings']
+msgid "Insecure markings need manual corrections"
+msgstr ""
+
+#: $string['insecuremarkingsforquestion']
+msgid "Insecure markings need manual corrections for question"
+msgstr ""
+
+#: $string['insertnumber']
+msgid ""
+"Please insert the correct identification number marked by the blue frame."
+msgstr ""
+
+#: $string['instruction1']
+msgid ""
+"This answer form will be scanned automatically. Please do not fold or spot. "
+"Use a black or blue pen to mark the fields:"
+msgstr ""
+
+#: $string['instruction2']
+msgid ""
+"Only clear markings can be interpreted correctly! If you want to correct a "
+"marking, completely fill the box with color. This field will be interpreted "
+"like an empty box:"
+msgstr ""
+
+#: $string['instruction3']
+msgid ""
+"Corrected boxes cannot be marked again. Please do not write anything outside "
+"of the boxes."
+msgstr ""
+
+#: $string['introduction']
+msgid "Introduction"
+msgstr ""
+
+#: $string['invalidformula']
+msgid ""
+"Invalid formula for user identification. The formula must have the form "
+"<prefix>[<#digits>]<suffix>=<db-field&>."
+msgstr ""
+
+#: $string['invalidnumberofdigits']
+msgid "Invalid number of digits used. Only 1 up to 9 digit(s) are allowed."
+msgstr ""
+
+#: $string['invaliduserfield']
+msgid "Invalid field of the user table used."
+msgstr ""
+
+#: $string['invigilator']
+msgid "Invigilator"
+msgstr ""
+
+#: $string['ischecked']
+msgid "Participation is checked"
+msgstr ""
+
+#: $string['isnotchecked']
+msgid "Participation is not checked"
+msgstr ""
+
+#: $string['itemdata']
+msgid "Itemdata"
+msgstr ""
+
+#: $string['keepfilesfordays']
+msgid "Keep files for days"
+msgstr ""
+
+#: $string['lightgray']
+msgid "Light grey"
+msgstr ""
+
+#: $string['linktoscannedform']
+msgid "View scanned form"
+msgstr ""
+
+#: $string['listnotdetected']
+msgid "Could not detect barcode for list!"
+msgstr ""
+
+#: $string['logdeleted']
+msgid "Log entry {$a} deleted."
+msgstr ""
+
+#: $string['logourl']
+msgid "Logo URL"
+msgstr ""
+
+#: $string['logourldesc']
+msgid ""
+"URL of an image file that is displayed on the top right corner of answer "
+"forms, i.e. <b>http://www.yoursite.tld/mylogo.png</b> or "
+"<b>../path/to/your/logo.png</b>. The maximum allowed size is 520x140 pixels. "
+"Answer forms cannot be evaluated if the image exceeds the maximum size!"
+msgstr ""
+
+#: $string['lowertrigger']
+msgid "Lower second boundary"
+msgstr ""
+
+#: $string['lowertriggerzero']
+msgid "Lower second boundary is zero"
+msgstr ""
+
+#: $string['lowerwarning']
+msgid "Lower first boundary"
+msgstr ""
+
+#: $string['lowerwarningzero']
+msgid "Lower first boundary is zero"
+msgstr ""
+
+#: $string['marginwarning']
+msgid ""
+"Please print the following PDF files without additional margins!<br /> Avoid "
+"handing out photocopies to students. If you have any doubts order copies "
+"from the support team."
+msgstr ""
+
+#: $string['marks']
+msgid "Marks"
+msgstr ""
+
+#: $string['matrikel']
+msgid "student number"
+msgstr ""
+
+#: $string['maxgradewarning']
+msgid "The maximum grade has to be a number!"
+msgstr ""
+
+#: $string['maxmark']
+msgid "Maximum mark"
+msgstr ""
+
+#: $string['membersinplist']
+msgid "{$a->count} participants in <a href=\"{$a->url}\">{$a->name}</a>"
+msgstr ""
+
+#: $string['missingimagefile']
+msgid "Missing image file"
+msgstr ""
+
+#: $string['missingitemdata']
+msgid "Missing answer(s) for user {$a}"
+msgstr ""
+
+#: $string['missinglogdata']
+msgid "Missing logdata for existing result."
+msgstr ""
+
+#: $string['missingquestion']
+msgid "This question no longer seems to exist"
+msgstr ""
+
+#: $string['missinguserid']
+msgid "Missing user identification number! Could not read barcode!"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Offline Quiz"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"This module allows the teacher to design offline quizzes consisting of "
+"multiple choice questions.\n"
+"These questions are kept in the Moodle question bank and can be re-used "
+"within courses and even between courses.\n"
+"The offline quizzes can be downloaded as PDF-, DOCX- or LaTeX-files. The "
+"students mark their answers on form sheets. The form sheets are scanned and "
+"the answers imported into the system."
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Offline Quizzes"
+msgstr ""
+
+#: $string['moodleprocessing']
+msgid "Let Moodle process data"
+msgstr ""
+
+#: $string['movecorners']
+msgid "Change the positions of the corner markings first. Use drag and drop."
+msgstr ""
+
+#: $string['moveselectedonpage']
+msgid "Move selected questions to page: {$a}"
+msgstr ""
+
+#: $string['multianswersforsingle']
+msgid "Multiple answers for single choice question"
+msgstr ""
+
+#: $string['multichoice']
+msgid "Multiple choice"
+msgstr ""
+
+#: $string['multipleanswers']
+msgid "Choose at least one answer."
+msgstr ""
+
+#: $string['name']
+msgid "Offline quiz name"
+msgstr ""
+
+#: $string['neededcorrection']
+msgid ""
+"<strong>Attention: Some of your markings needed manual correction. Have a "
+"look at the red squares in the following picture.\n"
+"<br />This implied manual intervention by a teacher and delayed the "
+"publishing of the offline quiz results!</strong>"
+msgstr ""
+
+#: $string['newgrade']
+msgid "Graded"
+msgstr ""
+
+#: $string['newpage']
+msgid "New Page"
+msgstr ""
+
+#: $string['noattemptexists']
+msgid "No result exists"
+msgstr ""
+
+#: $string['noattempts']
+msgid "No results imported!"
+msgstr ""
+
+#: $string['noattemptsonly']
+msgid "Show students with no results only"
+msgstr ""
+
+#: $string['nocourse']
+msgid ""
+"The course with id {$a->course} that the offline quiz with ID "
+"{$a->offlinequiz} belongs to is missing."
+msgstr ""
+
+#: $string['nogradesseelater']
+msgid ""
+"This quiz has not been graded yet for {$a}. Results will be published here."
+msgstr ""
+
+#: $string['nogroupdata']
+msgid "No group data for user {$a}"
+msgstr ""
+
+#: $string['nomcquestions']
+msgid "There are no multiple choice questions in group {$a}!"
+msgstr ""
+
+#: $string['noofflinequiz']
+msgid "There is no offline quiz with id {$a}!"
+msgstr ""
+
+#: $string['nopages']
+msgid "No pages imported"
+msgstr ""
+
+#: $string['noparticipantsfound']
+msgid "No participants found"
+msgstr ""
+
+#: $string['nopdfscreated']
+msgid "No documents created!"
+msgstr ""
+
+#: $string['noquestions']
+msgctxt "$string['noquestions']"
+msgid "Some offline quiz groups are empty. Please add some questions."
+msgstr ""
+
+#: $string['noquestionselected']
+msgid "No questions selected!"
+msgstr ""
+
+#: $string['noquestionsfound']
+msgid "There are no questions in group {$a}!"
+msgstr ""
+
+#: $string['noquestionsonpage']
+msgid "Empty page"
+msgstr ""
+
+#: $string['noresults']
+msgid "There are no results."
+msgstr ""
+
+#: $string['noreview']
+msgid "You are not allowed to review this offline quiz"
+msgstr ""
+
+#: $string['noscannedpage']
+msgid "There is no scanned page with ID {$a}!"
+msgstr ""
+
+#: $string['nothingtodo']
+msgid "Nothing to do!"
+msgstr ""
+
+#: $string['notxtfile']
+msgid "No TXT file"
+msgstr ""
+
+#: $string['notyetgraded']
+msgid "Not yet graded"
+msgstr ""
+
+#: $string['nozipfile']
+msgid "No ZIP file"
+msgstr ""
+
+#: $string['numattempts']
+msgid "Number of results imported: {$a}"
+msgstr ""
+
+#: $string['numattemptsqueue']
+msgid ""
+"{$a} answer forms added to queue. An email will be sent to your address "
+"after data processing."
+msgstr ""
+
+#: $string['numattemptsverify']
+msgid "Scanned forms waiting for correction: {$a}"
+msgstr ""
+
+#: $string['numberformat']
+msgid "The value has to be a number with {$a} digits!"
+msgstr ""
+
+#: $string['numbergroups']
+msgid "Number of groups"
+msgstr ""
+
+#: $string['numpages']
+msgid "{$a} pages imported"
+msgstr ""
+
+#: $string['numquestionsx']
+msgid "Questions: {$a}"
+msgstr ""
+
+#: $string['numusersadded']
+msgid "{$a} participants added"
+msgstr ""
+
+#: $string['odsformat']
+msgid "OpenDocument spreadsheet (ODS)"
+msgstr ""
+
+#: $string['offlineimplementationfor']
+msgid "Offline implementation for"
+msgstr ""
+
+#: $string['offlinequiz:addinstance']
+msgid "Add an offline quiz"
+msgstr ""
+
+#: $string['offlinequiz:attempt']
+msgid "Attempt quizzes"
+msgstr ""
+
+#: $string['offlinequizcloses']
+msgid "Offline Quiz closes"
+msgstr ""
+
+#: $string['offlinequizcloseson']
+msgid "The review for this offline quiz will close at {$a}"
+msgstr ""
+
+#: $string['offlinequiz:createofflinequiz']
+msgid "Create offline quiz forms"
+msgstr ""
+
+#: $string['offlinequiz:deleteattempts']
+msgid "Delete offline quiz results"
+msgstr ""
+
+#: $string['offlinequiz:grade']
+msgid "Grade offline quizzes manually"
+msgstr ""
+
+#: $string['offlinequizisclosed']
+msgid "Offline quiz closed)"
+msgstr ""
+
+#: $string['offlinequizisclosedwillopen']
+msgid "Offline quiz closed (opens {$a})"
+msgstr ""
+
+#: $string['offlinequizisopen']
+msgid "This offline quiz is open"
+msgstr ""
+
+#: $string['offlinequizisopenwillclose']
+msgid "Offline quiz open (closes {$a})"
+msgstr ""
+
+#: $string['offlinequiz:manage']
+msgid "Manage offline quizzes"
+msgstr ""
+
+#: $string['offlinequizopenedon']
+msgid "This offline quiz opened at {$a}"
+msgstr ""
+
+#: $string['offlinequizopens']
+msgid "Offline-Quiz opens"
+msgstr ""
+
+#: $string['offlinequiz:preview']
+msgid "Preview offline quizzes"
+msgstr ""
+
+#: $string['offlinequizsettings']
+msgid "Offline settings"
+msgstr ""
+
+#: $string['offlinequiz:view']
+msgid "View offline quiz information"
+msgstr ""
+
+#: $string['offlinequiz:viewreports']
+msgid "View offline quiz reports"
+msgstr ""
+
+#: $string['offlinequizwillopen']
+msgid "Offline-Test opens on {$a}"
+msgstr ""
+
+#: $string['oneclickenrol']
+msgid "1-Click Enrolment"
+msgstr ""
+
+#: $string['oneclickenroldesc']
+msgid ""
+"If this option is activated teachers have the possiblity to enrol users with "
+"one click while correcting answer forms (error \"User not in course\")."
+msgstr ""
+
+#: $string['oneclickrole']
+msgid "Role for 1-Click Enrolment."
+msgstr ""
+
+#: $string['oneclickroledesc']
+msgid ""
+"Choose the role used for 1-click enrolment. Only roles with archetype "
+"\"student\" can be selected."
+msgstr ""
+
+#: $string['onlylocalcategories']
+msgid "Only local question categories"
+msgstr ""
+
+#: $string['orderandpaging']
+msgctxt "$string['orderandpaging']"
+msgid "Order and paging"
+msgstr ""
+
+#: $string['orderandpaging_help']
+msgid ""
+"The numbers 10, 20, 30, ... opposite each question indicate the order of the "
+"questions. The numbers increase in steps of 10 to leave space for "
+"additional questions to be inserted. To reorder the questions, change the "
+"numbers then click the \"Reorder questions\" button.\n"
+"\n"
+"To add page breaks after particular questions, tick the checkboxes next to "
+"the questions then click the \"Add page breaks after selected questions\" "
+"button.\n"
+"\n"
+"To arrange the questions over a number of pages, click the Repaginate button "
+"and select the desired number of questions per page."
+msgstr ""
+
+#: $string['orderingofflinequiz']
+msgctxt "$string['orderingofflinequiz']"
+msgid "Order and paging"
+msgstr ""
+
+#: $string['otherresultexists']
+msgid ""
+"Different result for {$a} already exists, import ignored! Delete result "
+"first."
+msgstr ""
+
+#: $string['outof']
+msgid "{$a->grade} out of a maximum of {$a->maxgrade}"
+msgstr ""
+
+#: $string['outofshort']
+msgid "{$a->grade}/{$a->maxgrade}"
+msgstr ""
+
+#: $string['overallfeedback']
+msgid "Overall feedback"
+msgstr ""
+
+#: $string['overview']
+msgctxt "$string['overview']"
+msgid "Overview"
+msgstr ""
+
+#: $string['overviewdownload_help']
+msgctxt "$string['overviewdownload_help']"
+msgid ""
+msgstr ""
+
+#: $string['pagecorrected']
+msgid "Corrected sheet of participants list imported"
+msgstr ""
+
+#: $string['pageevaluationtask']
+msgid "Answer sheet evaluation for the offlinequiz-plugin"
+msgstr ""
+
+#: $string['pageimported']
+msgid "Sheet of participants list imported"
+msgstr ""
+
+#: $string['page-mod-offlinequiz-edit']
+msgid "Edit offline quiz page"
+msgstr ""
+
+#: $string['page-mod-offlinequiz-x']
+msgid "Any offline quiz page"
+msgstr ""
+
+#: $string['pagenotdetected']
+msgid "Could not detect barcode for page!"
+msgstr ""
+
+#: $string['pagenumberimported']
+msgid "Sheet {$a} of participants list imported"
+msgstr ""
+
+#: $string['pagenumberupdate']
+msgid "Page number update"
+msgstr ""
+
+#: $string['pagesizeparts']
+msgid "Participants shown per page:"
+msgstr ""
+
+#: $string['papergray']
+msgid "White value of paper"
+msgstr ""
+
+#: $string['papergray_help']
+msgid ""
+"If the white parts of your scanned answer forms are very dark you can "
+"correct this by setting this value to dark grey."
+msgstr ""
+
+#: $string['partcheckedwithoutresult']
+msgid "<a href=\"{$a->url}\">{$a->count} checked participants without result</a>"
+msgstr ""
+
+#: $string['partcheckedwithresult']
+msgid "{$a} checked participants with result"
+msgstr ""
+
+#: $string['participants']
+msgctxt "$string['participants']"
+msgid "Participants"
+msgstr "Συμμετέχοντες"
+
+#: $string['participants_help']
+msgid ""
+"<p>Lists of participants are designed for large offline quizzes with many "
+"participants. They help the teacher to check which students participated in "
+"the quiz and whether all the results were imported correctly.\n"
+"You can add users to different lists. Each list could, for instance, contain "
+"the participants in a particular room. The participants can be members of a "
+"special group. A group registration tool can be used for creating those "
+"groups.\n"
+"Lists of participants can be downloaded as PDF documents, printed and marked "
+"with crosses just like the answer forms of offline quizzes. Afterwards they "
+"can be uploaded and the marked students will be marked as present in the "
+"database.\n"
+"Please avoid spots on the barcodes as they are used to identify the "
+"students.</p>"
+msgstr ""
+
+#: $string['participantsinlists']
+msgid "Participants in lists"
+msgstr ""
+
+#: $string['participantslist']
+msgid "List of participants"
+msgstr "Λίστα συμμετεχόντων"
+
+#: $string['participantslists']
+msgctxt "$string['participantslists']"
+msgid "Participants"
+msgstr "Συμμετέχοντες"
+
+#: $string['partimportnew']
+msgid "Uploading lists of participants"
+msgstr ""
+
+#: $string['partimportnew_help']
+msgid ""
+"<p>\n"
+"In this tab you can upload the filled-in lists of participants. You can "
+"upload single scanned image files or several scanned image files in a ZIP-"
+"archive. The offline quiz module will process the image files in the "
+"background.\n"
+"File names are not relevant but should not contain special characters such "
+"as umlauts. Images should be GIFs, PNGs\n"
+"or TIFs. A resolution between 200 and 300dpi is recommended.</p>"
+msgstr ""
+
+#: $string['partuncheckedwithoutresult']
+msgid "{$a} unchecked participants without result"
+msgstr ""
+
+#: $string['partuncheckedwithresult']
+msgid "<a href=\"{$a->url}\">{$a->count} unchecked participants with result</a>"
+msgstr ""
+
+#: $string['pdfdeletedforgroup']
+msgid "Form for group {$a} deleted"
+msgstr ""
+
+#: $string['pdfintro']
+msgid "Additional information"
+msgstr ""
+
+#: $string['pdfintro_help']
+msgid ""
+"This information will be printed on the first page of the question sheet and "
+"should contain general information about how to fill in the answer form."
+msgstr ""
+
+#: $string['pdfintrotext']
+msgid ""
+"<b>How do I mark correctly?</b><br />This answer form will be scanned "
+"automatically. Please do not fold or spot. Use a black or blue pen to mark "
+"the fields. If you want to correct a marking, completely fill the box with "
+"color. This field will be interpreted like an empty box.<br />"
+msgstr ""
+
+#: $string['pdfintrotoolarge']
+msgid "The introduction is too long (max. 2000 characters)."
+msgstr ""
+
+#: $string['pdfscreated']
+msgid "PDF forms have been created"
+msgstr ""
+
+#: $string['pdfsdeletedforgroup']
+msgid "Forms for group {$a} deleted"
+msgstr ""
+
+#: $string['pearlywhite']
+msgid "Pearly white"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Offline quiz administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Offline Quiz"
+msgstr ""
+
+#: $string['point']
+msgid "point"
+msgstr ""
+
+#: $string['present']
+msgid "present"
+msgstr ""
+
+#: $string['preventsamequestion']
+msgid "Prevent multiple usage of the same question in different groups"
+msgstr ""
+
+#: $string['preview']
+msgid "Preview"
+msgstr "Προεπισκόπηση"
+
+#: $string['previewforgroup']
+msgid "Preview for group {$a}"
+msgstr ""
+
+#: $string['previewquestion']
+msgid "Preview question"
+msgstr ""
+
+#: $string['printstudycodefield']
+msgid "Print study code field on question sheet"
+msgstr ""
+
+#: $string['printstudycodefield_help']
+msgid ""
+"If checked, the study code field will be printed on the first page of the "
+"question sheet."
+msgstr ""
+
+#: $string['questionanalysis']
+msgid "Difficulty analysis"
+msgstr ""
+
+#: $string['questionanalysistitle']
+msgid "Difficulty Analysis Table"
+msgstr ""
+
+#: $string['questionbankcontents']
+msgid "Question bank contents"
+msgstr ""
+
+#: $string['questionforms']
+msgid "Question forms"
+msgstr ""
+
+#: $string['questioninfoanswers']
+msgid "Number of correct answers"
+msgstr ""
+
+#: $string['questioninfocorrectanswer']
+msgid "correct answer"
+msgstr ""
+
+#: $string['questioninfocorrectanswers']
+msgid "correct answers"
+msgstr ""
+
+#: $string['questioninfonone']
+msgid "Nothing"
+msgstr ""
+
+#: $string['questioninfoqtype']
+msgid "Question type"
+msgstr ""
+
+#: $string['questionname']
+msgid "Question name"
+msgstr ""
+
+#: $string['questionsheet']
+msgid "Question sheet"
+msgstr ""
+
+#: $string['questionsheetlatextemplate']
+msgid ""
+"\\documentclass[12pt,a4paper]{article}\n"
+"\\textwidth 16truecm\n"
+"\\textheight 23truecm\n"
+"\\setlength{\\oddsidemargin}{0cm}\n"
+"\\setlength{\\evensidemargin}{0cm}\n"
+"\\setlength{\\topmargin}{-1cm}\n"
+"\\usepackage{amsmath} % for \\implies etc\n"
+"\\usepackage{amsfonts} % for \\mathbb etc\n"
+"\\usepackage{graphicx} % for including pictures\n"
+"\\renewcommand{\\familydefault}{\\sfdefault} % Font\n"
+"\\newcommand{\\lsim}{\\mbox{\\raisebox{-.3em}{$\\stackrel{<}{\\sim}$}}} % less or "
+"approximately equal\n"
+"\\newcommand{\\subs}{\\mbox{\\raisebox{-.5em}{$\\stackrel{\\subset}{\\neq}$}}}\n"
+"\\newcommand{\\sei}{\\mbox{\\raisebox{.0em}{$\\stackrel{!}{=}$}}}\n"
+"\\parindent 0pt % no indent on the beginning of a section\n"
+"\\usepackage{esvect} % long vector arrows, e.g. \\vv{AB}\n"
+"\\usepackage[colorlinks=true,urlcolor=dunkelrot,linkcolor=black]{hyperref} % "
+"For using of Hyperlinks\n"
+"\\renewcommand\\UrlFont{\\sf}\n"
+"\\usepackage{ulem} %  \\sout{horizontal cross out} \\xout{diagonal strike out}\n"
+"\\newcommand{\\abs}[1]{\\left\\lvert#1\\right\\rvert}\n"
+"\\usepackage{scrpage2} % For Header and Footer\n"
+"\\pagestyle{scrheadings}\n"
+"\\clearscrheadfoot\n"
+"\\ifoot{[Gruppe \\Group]}\n"
+"\\makeatletter %%% disable pagebreaks between answers\n"
+"\\@beginparpenalty=10000\n"
+"\\@itempenalty=10000\n"
+"\\makeatother\n"
+"%\n"
+"\\newcommand{\\answerIs}[1]{} %%%Disable showing the right answer\n"
+"% \\newcommand{\\answerIs}[1]{[#1]} %%%Enable showing the right answer\n"
+"%%%\n"
+"\n"
+"\\begin{document}\n"
+"\n"
+"\n"
+"% =========================================================================="
+"=================================\n"
+"%%% Data of the Course\n"
+"\\begin{center}{\\LARGE {$a->coursename}}\\end{center}\n"
+"\\begin{center}{Written Exam {$a->date}}\\end{center}\n"
+"%%%\n"
+"\\def\\Group{{$a->groupname}}\n"
+"\\begin{center}{\\Large Group \\Group}\\end{center}\n"
+"\n"
+"{\\bf Name:}\\\\\n"
+"{\\bf Matriculation number:}\\\\\n"
+"{\\bf Signature:}\\\n"
+"\n"
+"% =========================================================================="
+"=================================\n"
+"\\bigskip\n"
+"\n"
+"{$a->latexforquestions}\n"
+"\n"
+"\n"
+"\\end{document}"
+msgstr ""
+
+#: $string['questionsin']
+msgid "Questions in"
+msgstr ""
+
+#: $string['questionsingroup']
+msgid "Questions in group"
+msgstr ""
+
+#: $string['questionsinthisofflinequiz']
+msgid "Questions in this offline quiz"
+msgstr ""
+
+#: $string['questiontextisempty']
+msgid "[Empty question text]"
+msgstr ""
+
+#: $string['quizdate']
+msgid "Date of offline quiz"
+msgstr ""
+
+#: $string['quizopenclose']
+msgid "Open and close dates"
+msgstr ""
+
+#: $string['quizopenclose_help']
+msgid ""
+"Students can only see their attempt(s) after the open time and before the "
+"close time."
+msgstr ""
+
+#: $string['quizquestions']
+msgid "Quiz Questions"
+msgstr ""
+
+#: $string['randomfromexistingcategory']
+msgid "Random question from an existing category"
+msgstr ""
+
+#: $string['randomnumber']
+msgid "Number of random questions"
+msgstr ""
+
+#: $string['randomquestionusinganewcategory']
+msgid "Random question using a new category"
+msgstr ""
+
+#: $string['readjust']
+msgid "Readjust"
+msgstr ""
+
+#: $string['reallydeletepdfs']
+msgid "Do you really want to delete the form files?"
+msgstr ""
+
+#: $string['reallydeleteupdatepdf']
+msgid "Do you really want to delete and update the participants list?"
+msgstr ""
+
+#: $string['recreatepdfs']
+msgid "Recreate PDFs"
+msgstr ""
+
+#: $string['recurse']
+msgid "Include questions from subcategories too"
+msgstr ""
+
+#: $string['rediswrong']
+msgid "wrong cross or missing cross"
+msgstr ""
+
+#: $string['refreshpreview']
+msgid "Refresh preview"
+msgstr ""
+
+#: $string['regrade']
+msgid "Regrade"
+msgstr ""
+
+#: $string['regradedisplayexplanation']
+msgid ""
+"<b>Attention:</b> Regrading will not change marks that have been overwritten "
+"manually!"
+msgstr ""
+
+#: $string['regradinginfo']
+msgid ""
+"If you change the score for a question, you must regrade the offline quiz to "
+"update the participants’ results."
+msgstr ""
+
+#: $string['regradingquiz']
+msgid "Regrading"
+msgstr ""
+
+#: $string['regradingresult']
+msgid "Regrading result for user {$a}..."
+msgstr ""
+
+#: $string['reloadpreview']
+msgid "Reload preview"
+msgstr ""
+
+#: $string['reloadquestionlist']
+msgid "Reload question list"
+msgstr ""
+
+#: $string['remove']
+msgid "Remove"
+msgstr ""
+
+#: $string['removeemptypage']
+msgid "Remove empty page"
+msgstr ""
+
+#: $string['removepagebreak']
+msgid "Remove page break"
+msgstr ""
+
+#: $string['removeselected']
+msgid "Remove selected"
+msgstr ""
+
+#: $string['reordergroupquestions']
+msgid "Reorder Group Questions"
+msgstr ""
+
+#: $string['reorderquestions']
+msgid "Reorder questions"
+msgstr ""
+
+#: $string['reordertool']
+msgid "Show the reordering tool"
+msgstr ""
+
+#: $string['repaginate']
+msgid "Repaginate with {$a} questions per page"
+msgstr ""
+
+#: $string['repaginatecommand']
+msgid "Repaginate"
+msgstr ""
+
+#: $string['repaginatenow']
+msgid "Repaginate now"
+msgstr ""
+
+#: $string['reportoverview']
+msgctxt "$string['reportoverview']"
+msgid "Overview"
+msgstr ""
+
+#: $string['reportstarts']
+msgid "review of results"
+msgstr ""
+
+#: $string['resetofflinequizzes']
+msgid "Reset Offline Quiz data"
+msgstr ""
+
+#: $string['resultexists']
+msgid "Same result for {$a} already exists, import ignored"
+msgstr ""
+
+#: $string['resultimport']
+msgid "Import results"
+msgstr ""
+
+#: $string['results']
+msgid "Results"
+msgstr ""
+
+#: $string['review']
+msgid "Review"
+msgstr ""
+
+#: $string['reviewbefore']
+msgid "Allow review while offline quiz is open"
+msgstr ""
+
+#: $string['reviewclosed']
+msgid "After the offline quiz is closed"
+msgstr ""
+
+#: $string['reviewcloses']
+msgid "Review closes"
+msgstr ""
+
+#: $string['reviewimmediately']
+msgid "Immediately after the attempt"
+msgstr ""
+
+#: $string['reviewincludes']
+msgid "Review includes"
+msgstr ""
+
+#: $string['reviewofresult']
+msgid "Review of result"
+msgstr ""
+
+#: $string['reviewopens']
+msgid "Review opens"
+msgstr ""
+
+#: $string['reviewoptions']
+msgid "Students may view"
+msgstr ""
+
+#: $string['reviewoptionsheading']
+msgid "Review options"
+msgstr ""
+
+#: $string['reviewoptions_help']
+msgid ""
+"With these options you can control what the students may see after the "
+"results were imported.\n"
+"You can also define start and end time for the results report. The "
+"checkboxes mean:\n"
+"<table>\n"
+"<tr><td style=\"vertical-align: top;\"><b>The attempt</b></td><td>\n"
+"The text of the questions and answers will be shown to the students. They "
+"will see which answers they chose, but the correct answers will not be "
+"indicated.</td>\n"
+"</td></tr>\n"
+"<tr><td style=\"vertical-align: top;\"><b>Whether correct</b></td><td>\n"
+"This option can only be activated if the option \"The attempt\" is activated. "
+"If activated, the students can see which of the chosen answers are correct "
+"(green background) or incorrect (red background).\n"
+"</td></tr>\n"
+"<tr><td style=\"vertical-align: top;\"><b>Marks</b></td><td>\n"
+"The group (e.g. B), scores (achieved grade, total grade for questions, "
+"achieved in percent, e.g. 40/80 (50)) and the grade (e.g. 50 out of a "
+"maximum of 100) are displayed.\n"
+"Additionally, if \"The attempt\" is selected, the achieved score and the "
+"maximum score are shown for every question.\n"
+"</td></tr>\n"
+"<tr><td style=\"vertical-align: top;\"><b>Right Answers</b></td><td>\n"
+"It is shown which answers are correct or wrong. This option is only "
+"available if \"The attempt\" is set.\n"
+"</td></tr>\n"
+"<tr><td style=\"vertical-align: top;\"><b>Scanned form</b></td><td>\n"
+"The scanned answer forms are shown. Checked boxes are marked with green "
+"squares.\n"
+"</td></tr>\n"
+"<tr><td style=\"vertical-align: top;\"><b>Scanned form with "
+"grades</b></td><td>\n"
+"The scanned answer forms are shown. Checked boxes are marked with green "
+"squares. Wrong marks and missing marks are highlighted.\n"
+"Additionally, a table shows the maximum grade and the achieved grade for "
+"every question.\n"
+"</td></tr>\n"
+"</table>"
+msgstr ""
+
+#: $string['rimport']
+msgctxt "$string['rimport']"
+msgid "Upload/Correct"
+msgstr ""
+
+#: $string['rotate']
+msgid "Rotate"
+msgstr ""
+
+#: $string['rotatingsheet']
+msgid "Sheet is rotated..."
+msgstr ""
+
+#: $string['save']
+msgid "Save"
+msgstr ""
+
+#: $string['saveandshow']
+msgid "Save and show changes to student"
+msgstr ""
+
+#: $string['savescannersettings']
+msgid "Save scanner settings"
+msgstr ""
+
+#: $string['scannedform']
+msgid "Scanned form"
+msgstr ""
+
+#: $string['scannerformfortype']
+msgid "Form for type {$a}"
+msgstr ""
+
+#: $string['scanneroptions']
+msgid "Scanner settings"
+msgstr ""
+
+#: $string['scannerpdfs']
+msgid "Empty forms"
+msgstr ""
+
+#: $string['scannerpdfstext']
+msgid ""
+"Download the following empty forms if you want to use your own scanner "
+"software."
+msgstr ""
+
+#: $string['scanningoptionsheading']
+msgid "Scanning options"
+msgstr ""
+
+#: $string['score']
+msgid "Score"
+msgstr ""
+
+#: $string['search:activity']
+msgid "Offline quiz - activity information"
+msgstr ""
+
+#: $string['select']
+msgid "Select"
+msgstr ""
+
+#: $string['selectagroup']
+msgid "Select a group"
+msgstr ""
+
+#: $string['selectall']
+msgid "Select all"
+msgstr ""
+
+#: $string['selectcategory']
+msgid "Select category"
+msgstr ""
+
+#: $string['selectdifferentgroup']
+msgid "Please select a different group!"
+msgstr ""
+
+#: $string['selectedattempts']
+msgid "Selected attempts..."
+msgstr ""
+
+#: $string['selectformat']
+msgid "Select format..."
+msgstr ""
+
+#: $string['selectgroup']
+msgid "Select group"
+msgstr ""
+
+#: $string['selectlist']
+msgid "Please select a list or try to readjust sheet:"
+msgstr ""
+
+#: $string['selectmultipletoolbar']
+msgid "Select multiple toolbar"
+msgstr ""
+
+#: $string['selectnone']
+msgid "Deselect all"
+msgstr ""
+
+#: $string['selectpage']
+msgid "Please select page number or try to readjust sheet:"
+msgstr ""
+
+#: $string['selectquestiontype']
+msgid "-- Select question type --"
+msgstr ""
+
+#: $string['showallparts']
+msgid "Show all {$a} participants"
+msgstr ""
+
+#: $string['showcopyright']
+msgid "Show copyright statement"
+msgstr ""
+
+#: $string['showcopyrightdesc']
+msgid ""
+"If you enable this option, a copyright statement will be shown on the "
+"student result review page."
+msgstr ""
+
+#: $string['showgrades']
+msgid "Print question grades"
+msgstr ""
+
+#: $string['showgrades_help']
+msgid ""
+"This option controls whether the maximum grades of the offline quiz "
+"questions should be printed on the question sheet."
+msgstr ""
+
+#: $string['showmissingattemptonly']
+msgid "Show all checked participants without result"
+msgstr ""
+
+#: $string['showmissingcheckonly']
+msgid "Show all unchecked participants with result"
+msgstr ""
+
+#: $string['shownumpartsperpage']
+msgid "Show {$a} participants per page"
+msgstr ""
+
+#: $string['showquestioninfo']
+msgid "Print info about answers"
+msgstr ""
+
+#: $string['showquestioninfo_help']
+msgid ""
+"With this option you can control, which additional information about the "
+"question is printed on the question sheet.\n"
+"You can choose one of these:\n"
+"<ul>\n"
+"<li> Nothing\n"
+"<li> Question type - Depending on question type Single-Choice, Multiple-"
+"Choice, All-or-Nothing Multiple-Choice will be printed\n"
+"<li> Number of correct answers - The number of correct answers will be "
+"printed\n"
+"</ul>"
+msgstr ""
+
+#: $string['showstudentview']
+msgid "Show student view"
+msgstr ""
+
+#: $string['showtutorial']
+msgid "Show an offline quiz tutorial to students."
+msgstr ""
+
+#: $string['showtutorialdescription']
+msgid ""
+"You can add a link to the tutorial to the course page using the following "
+"URL:"
+msgstr ""
+
+#: $string['showtutorial_help']
+msgid ""
+"This option determines whether students can see a tutorial about the basics "
+"of offline quizzes.\n"
+"The tutorial provides information about how to handle the different types of "
+"documents in offline quizzes. In an interactive part they learn how to tick "
+"their student ID correctly.<br />\n"
+"<b>Please note:</b><br />\n"
+"If you set this option to \"Yes\" but hide the offline quiz the link to the "
+"tutorial will not be visible. In this case you can add a link to the "
+"tutorial on the course page."
+msgstr ""
+
+#: $string['shuffleanswers']
+msgctxt "$string['shuffleanswers']"
+msgid "Shuffle answers"
+msgstr ""
+
+#: $string['shufflequestions']
+msgid "Shuffle questions"
+msgstr ""
+
+#: $string['shufflequestionsanswers']
+msgid "Shuffle questions and answers"
+msgstr ""
+
+#: $string['shufflequestionsselected']
+msgid ""
+"Shuffle questions has been set, so some actions relating to pages are not "
+"available. To change the shuffle option, {$a}."
+msgstr ""
+
+#: $string['shufflewithin']
+msgid "Shuffle within questions"
+msgstr ""
+
+#: $string['shufflewithin_help']
+msgid ""
+"If enabled, the parts making up each question will be randomly shuffled each "
+"time you press the reload button in the form preview. NOTE: This setting "
+"only applies to questions that have the shuffeling option activated."
+msgstr ""
+
+#: $string['signature']
+msgid "Signature"
+msgstr ""
+
+#: $string['singlechoice']
+msgid "Single choice"
+msgstr ""
+
+#: $string['standard']
+msgid "Standard"
+msgstr ""
+
+#: $string['starttutorial']
+msgid "Start tutorial about the examination"
+msgstr ""
+
+#: $string['statistics']
+msgctxt "$string['statistics']"
+msgid "Statistics"
+msgstr ""
+
+#: $string['statisticsplural']
+msgctxt "$string['statisticsplural']"
+msgid "Statistics"
+msgstr ""
+
+#: $string['statsoverview']
+msgid "Statistics Overview"
+msgstr ""
+
+#: $string['studycode']
+msgid "Study code"
+msgstr ""
+
+#: $string['theattempt']
+msgid "The attempt"
+msgstr ""
+
+#: $string['timesup']
+msgid "Time is up!"
+msgstr ""
+
+#: $string['totalmarksx']
+msgctxt "$string['totalmarksx']"
+msgid "Total of marks: {$a}"
+msgstr ""
+
+#: $string['totalpointsx']
+msgctxt "$string['totalpointsx']"
+msgid "Total of marks: {$a}"
+msgstr ""
+
+#: $string['totalquestionsinrandomqcategory']
+msgid "Total of {$a} questions in category."
+msgstr ""
+
+#: $string['trigger']
+msgid "lower/higher boundary"
+msgstr ""
+
+#: $string['tutorial']
+msgid "Tutorial for offline quizzes"
+msgstr ""
+
+#: $string['type']
+msgid "Type"
+msgstr ""
+
+#: $string['uncheckparts']
+msgid "Mark selected participants as absent"
+msgstr ""
+
+#: $string['updatedsumgrades']
+msgid ""
+"The sum of all grades of group {$a->letter} was re-calculated to "
+"{$a->grade}."
+msgstr ""
+
+#: $string['upgradingfilenames']
+msgid ""
+"Upgrading filenames of documents: offline quiz {$a->done}/{$a->outof} "
+"(Offline Quiz ID {$a->info})"
+msgstr ""
+
+#: $string['upgradingilogs']
+msgid ""
+"Upgrading scanned pages: scanned page {$a->done}/{$a->outof} <br/>(Offline "
+"Quiz ID {$a->info})"
+msgstr ""
+
+#: $string['upgradingofflinequizattempts']
+msgid ""
+"Upgrading offline quiz attempts: offline quiz {$a->done}/{$a->outof} "
+"<br/>(Offline Quiz ID {$a->info})"
+msgstr ""
+
+#: $string['upload']
+msgctxt "$string['upload']"
+msgid "Upload/Correct"
+msgstr ""
+
+#: $string['uploadpart']
+msgid "Upload/Correct lists of participants"
+msgstr ""
+
+#: $string['uppertrigger']
+msgid "Higher second boundary"
+msgstr ""
+
+#: $string['uppertriggerzero']
+msgid "Higher second boundary is zero"
+msgstr ""
+
+#: $string['upperwarning']
+msgid "Higher first boundary"
+msgstr ""
+
+#: $string['upperwarningzero']
+msgid "Higher first boundary is zero"
+msgstr ""
+
+#: $string['useradded']
+msgid "User {$a} added"
+msgstr ""
+
+#: $string['userdoesnotexist']
+msgid "User {$a} does not exist in system"
+msgstr ""
+
+#: $string['useridentification']
+msgid "User identification"
+msgstr ""
+
+#: $string['userimported']
+msgid "User {$a} imported and graded"
+msgstr ""
+
+#: $string['usernotincourse']
+msgid "User {$a} not in course."
+msgstr ""
+
+#: $string['usernotinlist']
+msgid "User not registered in list!"
+msgstr ""
+
+#: $string['usernotregistered']
+msgid "User {$a} not registered in course"
+msgstr ""
+
+#: $string['userpageimported']
+msgid "Single page imported for user {$a}"
+msgstr ""
+
+#: $string['valuezero']
+msgid "Value should not be zero"
+msgstr ""
+
+#: $string['viewresults']
+msgid "View results"
+msgstr ""
+
+#: $string['white']
+msgid "White"
+msgstr ""
+
+#: $string['withselected']
+msgid "With selected..."
+msgstr ""
+
+#: $string['zerogradewarning']
+msgid "Warning: Your offline quiz grade is 0.0!"
+msgstr ""
+
+#: $string['zipfile']
+msgid "ZIP file"
+msgstr ""
+
+#: $string['zipok']
+msgid "ZIP file imported"
+msgstr ""

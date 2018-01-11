@@ -1,0 +1,285 @@
+#. extracted from lang/en/enrol_openlml.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'enrol_openlml', language 'en', branch 'MOODLE_31_STABLE'
+#.  *
+#.  * @package   enrol_openlml
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['attic_description']
+msgid "Deleted teachers category"
+msgstr ""
+
+#: $string['attribute']
+msgid "group name attribute usual cn"
+msgstr ""
+
+#: $string['attribute_key']
+msgid "group name attribute"
+msgstr ""
+
+#: $string['common_settings']
+msgid "LDAP settings"
+msgstr ""
+
+#: $string['contexts']
+msgid "one or more LDAP contexts separated by semicolon(;)"
+msgstr ""
+
+#: $string['contexts_key']
+msgid "contexts"
+msgstr ""
+
+#: $string['course_description']
+msgid "course category for teacher"
+msgstr ""
+
+#: $string['enrolname']
+msgid "openlml"
+msgstr ""
+
+#: $string['eventattic_category_created']
+msgid "attic cytegory created"
+msgstr ""
+
+#: $string['eventcohort_created']
+msgid "cohort created"
+msgstr ""
+
+#: $string['eventcohort_enroled']
+msgid "cohort enroled in course"
+msgstr ""
+
+#: $string['eventcohort_member_added']
+msgid "member added to cohohrt"
+msgstr ""
+
+#: $string['eventcohort_member_removed']
+msgid "member removed from cohort"
+msgstr ""
+
+#: $string['eventcohort_members_removed']
+msgid "members removed from cohort"
+msgstr ""
+
+#: $string['eventcohort_removed']
+msgid "cohort removed"
+msgstr ""
+
+#: $string['eventcohort_unenroled']
+msgid "cohort unenroled from course"
+msgstr ""
+
+#: $string['eventteacher_category_created']
+msgid "teacher category created"
+msgstr ""
+
+#: $string['eventteacher_category_moved']
+msgid "teacher category moved"
+msgstr ""
+
+#: $string['eventteacher_category_removed']
+msgid "teacher category removed"
+msgstr ""
+
+#: $string['eventteacher_role_assigned']
+msgid "teacher role assigned in course"
+msgstr ""
+
+#: $string['eventteacher_role_unassigned']
+msgid "teacher role unassigned from course"
+msgstr ""
+
+#: $string['eventteachers_category_created']
+msgid "teachers category created"
+msgstr ""
+
+#: $string['member_attribute']
+msgid "LDAP group member attribute, usually memberuid"
+msgstr ""
+
+#: $string['member_attribute_key']
+msgid "group attribute"
+msgstr ""
+
+#: $string['object']
+msgid "LDAP object class, usually posixGroup"
+msgstr ""
+
+#: $string['object_key']
+msgid "object class"
+msgstr ""
+
+#: $string['openlmlsync']
+msgid "openlml enrolment sync"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Open LML Enrolment"
+msgstr ""
+
+#: $string['pluginname_desc']
+msgid ""
+"<p>This plugin is supposed to be used with german <strong>Open LML</strong> "
+"school server and is tailored to it's LDAP structure.</p><p>This plugin "
+"enrols users into courses based on the course <strong>idnumber</strong> "
+"(note: idnumber is a unique field, so make it unique by prepending course "
+"\"shortname:\")</p>"
+msgstr ""
+
+#: $string['pluginnotenabled']
+msgid "Plugin not enabled!"
+msgstr ""
+
+#: $string['prefix_teacher_members']
+msgid ""
+"In courses with this prefix teachers can be enroled as members, comma(,) "
+"separated list"
+msgstr ""
+
+#: $string['prefix_teacher_members_key']
+msgid "teacher course prefix"
+msgstr ""
+
+#: $string['student_class_numbers']
+msgid "grade numbers, usually 5,6,...,12"
+msgstr ""
+
+#: $string['student_class_numbers_key']
+msgid "grade numbers"
+msgstr ""
+
+#: $string['student_groups']
+msgid "additional specific groups separated by colon(,)"
+msgstr ""
+
+#: $string['student_groups_key']
+msgid "other groups"
+msgstr ""
+
+#: $string['student_project_prefix']
+msgid "Projects on the Open LML server usually start with a prefix of p_"
+msgstr ""
+
+#: $string['student_project_prefix_key']
+msgid "project prefix"
+msgstr ""
+
+#: $string['student_role']
+msgid "Default student enrolment role, usually student"
+msgstr ""
+
+#: $string['student_role_key']
+msgid "student role"
+msgstr ""
+
+#: $string['students_settings']
+msgid "Students settings"
+msgstr ""
+
+#: $string['sync_description']
+msgid "Synchronized with Open LML server"
+msgstr ""
+
+#: $string['teacher_context_desc']
+msgid "Automatic teacher courses category"
+msgstr ""
+
+#: $string['teachers_category_autocreate']
+msgid "The course category for a teacher is created automatically"
+msgstr ""
+
+#: $string['teachers_category_autocreate_key']
+msgid "autocreate"
+msgstr ""
+
+#: $string['teachers_category_autoremove']
+msgid "The course category for a teacher is removed automatically"
+msgstr ""
+
+#: $string['teachers_category_autoremove_key']
+msgid "autoremove"
+msgstr ""
+
+#: $string['teachers_context_settings']
+msgid "teachers categories settings"
+msgstr ""
+
+#: $string['teachers_course_context']
+msgid "teachers category, usually Lehrer"
+msgstr ""
+
+#: $string['teachers_course_context_key']
+msgid "teacher category"
+msgstr ""
+
+#: $string['teachers_course_role']
+msgid "teachers role in his/her own category, usually coursecreator"
+msgstr ""
+
+#: $string['teachers_course_role_key']
+msgid "teachers category role"
+msgstr ""
+
+#: $string['teacher_settings']
+msgid "teachers settings"
+msgstr ""
+
+#: $string['teachers_group_name']
+msgid "teachers group name, usually teachers"
+msgstr ""
+
+#: $string['teachers_group_name_key']
+msgid "teachers group"
+msgstr ""
+
+#: $string['teachers_ignore']
+msgid "teachers to be ignored (no autocreate/autoremove)"
+msgstr ""
+
+#: $string['teachers_ignore_key']
+msgid "ignored teachers"
+msgstr ""
+
+#: $string['teachers_removed']
+msgid "category for course categories of removed teachers, usually attic"
+msgstr ""
+
+#: $string['teachers_removed_key']
+msgid "removed courses category"
+msgstr ""
+
+#: $string['teachers_role']
+msgid "teachers role in teacher courses, usually student"
+msgstr ""
+
+#: $string['teachers_role_key']
+msgid "teachers course role"
+msgstr ""

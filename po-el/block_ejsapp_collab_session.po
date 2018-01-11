@@ -1,0 +1,220 @@
+#. extracted from lang/en/block_ejsapp_collab_session.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_ejsapp_collab_session', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   block_ejsapp_collab_session
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['acceptInvitation']
+msgid "Accept invitation"
+msgstr ""
+
+#: $string['backToCourse']
+msgid "Go back to the course"
+msgstr ""
+
+#: $string['block_title']
+msgid "EJSApp Collab Session"
+msgstr ""
+
+#: $string['cantJoinSessionErr1']
+msgid ""
+"Error: You are already participating in a collaborative session. Close your "
+"active collaborative session before creating a new one."
+msgstr ""
+
+#: $string['cantJoinSessionErr2']
+msgid ""
+"Error: Right now you have no active invitations to any collaborative "
+"session."
+msgstr ""
+
+#: $string['close1']
+msgid "The collaborative session with lab"
+msgstr ""
+
+#: $string['close2']
+msgid "has been closed."
+msgstr ""
+
+#: $string['closeMasSessBut']
+msgid "Close my active session"
+msgstr ""
+
+#: $string['closeStudSessBut']
+msgid "Leave this session"
+msgstr ""
+
+#: $string['collaborative_port']
+msgid "Port for collaborative sessions"
+msgstr ""
+
+#: $string['collaborative_port_description']
+msgid ""
+"Port used to establish communication for the collaborative sessions when "
+"Sarlab is not used"
+msgstr ""
+
+#: $string['createBut']
+msgid "Create collaborative session"
+msgstr ""
+
+#: $string['default_options_config']
+msgid ""
+"Configure the default (not using Sarlab) communication options for collab "
+"sessions"
+msgstr ""
+
+#: $string['ejsapp_collab_session:addinstance']
+msgid "Add a new EJSApp block for collaborative sessions"
+msgstr ""
+
+#: $string['ejsapp_collab_session:myaddinstance']
+msgid "Add a new EJSApp block for collaborative sessions to My home"
+msgstr ""
+
+#: $string['goodbyeStudent']
+msgid "You have left the collaborative session."
+msgstr ""
+
+#: $string['goToMasSessBut']
+msgid "Go to my active session"
+msgstr ""
+
+#: $string['goToStudSessBut']
+msgid "List all my active invitations"
+msgstr ""
+
+#: $string['invitationMsg1']
+msgid "has invited you to a collaborative session with this lab:"
+msgstr ""
+
+#: $string['invitationMsg2']
+msgid "Join this session."
+msgstr ""
+
+#: $string['inviteParticipants']
+msgid "Invite participants"
+msgstr ""
+
+#: $string['navBarCollaborativeSession']
+msgid "Collaborative session"
+msgstr ""
+
+#: $string['navBarNonMasterUser']
+msgid "Accepting invitation"
+msgstr ""
+
+#: $string['navBarShowParticipants']
+msgid "Selecting participants"
+msgstr ""
+
+#: $string['pageTitle']
+msgid "Lab Collaborative Session"
+msgstr ""
+
+#: $string['pluginname']
+msgid "EJSApp collab session"
+msgstr ""
+
+#: $string['sarlab_header']
+msgid "Configure Sarlab for this block instance"
+msgstr ""
+
+#: $string['sarlab_header_config']
+msgid "Configure Sarlab settings for all the block instances"
+msgstr ""
+
+#: $string['sarlab_instance']
+msgid "Sarlab server for the collab sessions"
+msgstr ""
+
+#: $string['sarlab_instance_help']
+msgid ""
+"The order corresponds to the one used for the values in the sarlab_IP and "
+"sarlab_port variables configured at the block settings page"
+msgstr ""
+
+#: $string['sarlab_IP']
+msgid "Name and IP address of the Sarlab server(s)"
+msgstr ""
+
+#: $string['sarlab_IP_description']
+msgid ""
+"If you want to use Sarlab to establish the communication in the "
+"collaborative sessions, you need to provide the IP address of the server "
+"that runs the Sarlab system you want to use. Otherwise, this value will not "
+"be used, so you can leave the default value. If you have more than one "
+"Sarlab server (for example, one at 127.0.0.1 and a second one at 127.0.0.2), "
+"insert the IP addresses separated by semicolons: 127.0.0.1;127.0.0.2. "
+"Additionally, you can provide a name in order to identify each Sarlab "
+"server: 'Sarlab Madrid'127.0.0.1;'Sarlab Huelva'127.0.0.2"
+msgstr ""
+
+#: $string['sarlab_port']
+msgid "Sarlab communication port(s)"
+msgstr ""
+
+#: $string['sarlab_port_description']
+msgid ""
+"If you want to use Sarlab to establish the communication in the "
+"collaborative sessions, you need to provide a valid port for establishing "
+"the communications with the Sarlab server. Otherwise, this value will not be "
+"used, so you can leave the default value. If you have more than one Sarlab "
+"server (for example, one using port 443 and a second one also using port "
+"443), insert the values separated by semicolons: 443;443"
+msgstr ""
+
+#: $string['selectInvitation']
+msgid "Select one of the following invitations:"
+msgstr ""
+
+#: $string['selectLabBut']
+msgid "Select a laboratory"
+msgstr ""
+
+#: $string['start_collaborative_session:view']
+msgid "View Block for Collaborative Sessions"
+msgstr ""
+
+#: $string['use_sarlab']
+msgid "Use Sarlab in collaborative sessions?"
+msgstr ""
+
+#: $string['using_sarlab']
+msgid "Allow using Sarlab in collaborative sessions?"
+msgstr ""
+
+#: $string['using_sarlab_help']
+msgid ""
+"This option enables to use Sarlab for routing connections in collaborative "
+"sessions."
+msgstr ""

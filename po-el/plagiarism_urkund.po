@@ -1,0 +1,549 @@
+#. extracted from lang/en/plagiarism_urkund.php, lang/el/plagiarism_urkund.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:14+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'plagiarism_urkund', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   plagiarism_urkund
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['allowallsupportedfiles']
+msgid "Allow all supported file types"
+msgstr ""
+
+#: $string['allowallsupportedfiles_help']
+msgid ""
+"This allows the teacher to restrict which file types will be sent to URKUND "
+"for processing. It does not prevent students from uploading different file "
+"types to the assignment."
+msgstr ""
+
+#: $string['attempts']
+msgid "Attempts made"
+msgstr ""
+
+#: $string['cannotupgradeunprocesseddata']
+msgid ""
+"<h1>Cannot upgrade to this version of the plugin due to existing unprocessed "
+"data, please revert to an earlier version of this plugin and clear old "
+"events.</h1><p>This version of the plugin relies on the new events API in "
+"Moodle but your installation contains un-processed events related to the old "
+"API.</p>\n"
+" You should revert to an older version of the URKUND plugin, put the site "
+"into maintenance mode, run the Moodle Cron process and make sure all old "
+"events are cleared. Then try upgrading to this version of the URKUND plugin "
+"again.</p>\n"
+" <p>For more information see: <a href=\"https://docs.moodle.org/en/Plagiarism"
+"_Prevention_URKUND_Settings#Installation_failed_due_to_unprocessed_data\">URK"
+"UND Installation failed due to unprocessed data</a></p>"
+msgstr ""
+
+#: $string['confirmresetall']
+msgid "This will reset all files in the state: {$a}"
+msgstr ""
+
+#: $string['cronwarning']
+msgid ""
+"The <a href=\"../../admin/cron.php\">cron.php</a> maintenance script has not "
+"been run for at least 30 min - Cron must be configured to allow URKUND to "
+"function correctly."
+msgstr ""
+"Το σενάριο συντήρησης <a href=\"../../admin/cron.php\">cron.php</a> δεν έχει "
+"εκτελεστεί για τουλάχιστον 30 λεπτά - το cron θα πρέπει να ρυθμιστεί ώστε να "
+"επιτρέπει το URKUND να λειτουργεί σωστά."
+
+#: $string['debugfilter']
+msgid "Filter files by"
+msgstr ""
+
+#: $string['defaultsdesc']
+msgid ""
+"The following settings are the defaults set when enabling URKUND within an "
+"Activity Module"
+msgstr ""
+
+#: $string['defaultupdated']
+msgid "Default values updated"
+msgstr ""
+
+#: $string['deletedwarning']
+msgid "This file could not be found - it may have been deleted by the user"
+msgstr ""
+
+#: $string['explainerrors']
+msgid ""
+"This page lists any files that are currently in an error state. <br/>When "
+"files are deleted on this page they will not be able to be resubmitted and "
+"errors will no longer display to teachers or students"
+msgstr ""
+
+#: $string['file']
+msgid "File"
+msgstr "Αρχείο"
+
+#: $string['filedeleted']
+msgid "File deleted from queue"
+msgstr ""
+
+#: $string['filereset']
+msgid "A file has been reset for re-submission to URKUND"
+msgstr ""
+
+#: $string['fileresubmitted']
+msgid "File Queued for resubmission"
+msgstr ""
+
+#: $string['filesresubmitted']
+msgid "{$a} files resubmitted"
+msgstr ""
+
+#: $string['filter30']
+msgid "Exclude older than 30 days"
+msgstr ""
+
+#: $string['filter7']
+msgid "Exclude older than 7 days"
+msgstr ""
+
+#: $string['filter90']
+msgid "Exclude older than 90 days"
+msgstr ""
+
+#: $string['getallscores']
+msgid "Get all scores"
+msgstr ""
+
+#: $string['getscore']
+msgid "Get score"
+msgstr ""
+
+#: $string['getscores']
+msgid "Get scores"
+msgstr ""
+
+#: $string['heldevents']
+msgid "Held events"
+msgstr ""
+
+#: $string['heldeventsdescription']
+msgid ""
+"These are events that did not complete on the first attempt and were queued "
+"for resubmission - these prevent subsequent events from completing and may "
+"need further investigation. Some of these events may not be relevant to "
+"URKUND."
+msgstr ""
+
+#: $string['id']
+msgid "ID"
+msgstr ""
+
+#: $string['identifier']
+msgid "Identifier"
+msgstr ""
+
+#: $string['module']
+msgid "Module"
+msgstr ""
+
+#: $string['name']
+msgid "Name"
+msgstr ""
+
+#: $string['nofilter']
+msgid "No filter"
+msgstr ""
+
+#: $string['noreceiver']
+msgid "No receiver address was specified"
+msgstr ""
+
+#: $string['optout']
+msgid "Opt-out"
+msgstr ""
+
+#: $string['pending']
+msgid "This file is pending submission to URKUND"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "URKUND plagiarism plugin"
+msgstr ""
+
+#: $string['previouslysubmitted']
+msgid "Previously submitted as"
+msgstr ""
+
+#: $string['processing']
+msgid ""
+"This file has been submitted to URKUND, now waiting for the analysis to be "
+"available"
+msgstr ""
+
+#: $string['receivernotvalid']
+msgid "This is not a valid receiver address."
+msgstr ""
+
+#: $string['report']
+msgid "report"
+msgstr ""
+
+#: $string['restrictcontent']
+msgid "Submit attached files and in-line text"
+msgstr ""
+
+#: $string['restrictcontentfiles']
+msgid "Only submit attached files"
+msgstr ""
+
+#: $string['restrictcontent_help']
+msgid ""
+"URKUND can process uploaded files but can also process in-line text from "
+"forum posts and text from the online text assignment submission type. You "
+"can decide which components to send to URKUND."
+msgstr ""
+
+#: $string['restrictcontentno']
+msgid "Submit everything"
+msgstr ""
+
+#: $string['restrictcontenttext']
+msgid "Only submit in-line text"
+msgstr ""
+
+#: $string['restrictfiles']
+msgid "File types to submit"
+msgstr ""
+
+#: $string['resubmit']
+msgid "Resubmit"
+msgstr ""
+
+#: $string['resubmitall']
+msgid "Resubmit all with status: {$a}"
+msgstr ""
+
+#: $string['savedconfigfailed']
+msgid ""
+"An incorrect username/password combination has been entered, URKUND has been "
+"disabled, please try again."
+msgstr ""
+
+#: $string['savedconfigsuccess']
+msgid "Plagiarism Settings Saved"
+msgstr ""
+
+#: $string['scoreavailable']
+msgid "This file has been processed by URKUND and a report is now available."
+msgstr ""
+
+#: $string['scorenotavailableyet']
+msgid "This file has not been processed by URKUND yet."
+msgstr ""
+
+#: $string['sendfiles']
+msgid "Send queued files"
+msgstr ""
+
+#: $string['showall']
+msgid "Show all errors"
+msgstr ""
+
+#: $string['showwhenclosed']
+msgid "When Activity closed"
+msgstr ""
+
+#: $string['similarity']
+msgid "URKUND"
+msgstr ""
+
+#: $string['status']
+msgid "Status"
+msgstr ""
+
+#: $string['studentdisclosure']
+msgid "Student Disclosure"
+msgstr ""
+
+#: $string['studentdisclosuredefault']
+msgid ""
+"All files uploaded will be submitted to the plagiarism detection service "
+"URKUND,\n"
+"If you wish to prevent your document from being used as a source for "
+"analysis outside this site by other organisations you can use the opt-out "
+"link provided after the report has been generated."
+msgstr ""
+
+#: $string['studentdisclosure_help']
+msgid "This text will be displayed to all students on the file upload page."
+msgstr ""
+
+#: $string['studentemailcontent']
+msgid ""
+"The file you submitted to {$a->modulename} in {$a->coursename} has now been "
+"processed by the Plagiarism tool URKUND.\n"
+"{$a->modulelink}\n"
+"\n"
+"If you wish to prevent your document from being used as a source for "
+"analysis outside this site by other organisations you can use this link to "
+"opt-out:.\n"
+"{$a->optoutlink}"
+msgstr ""
+
+#: $string['studentemailcontentnoopt']
+msgid ""
+"The file you submitted to {$a->modulename} in {$a->coursename} has now been "
+"processed by the Plagiarism tool URKUND.\n"
+"{$a->modulelink}"
+msgstr ""
+
+#: $string['studentemailsubject']
+msgid "File processed by URKUND"
+msgstr ""
+
+#: $string['submitondraft']
+msgid "Submit file when first uploaded"
+msgstr ""
+
+#: $string['submitonfinal']
+msgid "Submit file when student sends for marking"
+msgstr ""
+
+#: $string['timesubmitted']
+msgid "Time submitted"
+msgstr ""
+
+#: $string['toolarge']
+msgid "This file is too large for URKUND to process"
+msgstr ""
+
+#: $string['unknownwarning']
+msgid "An error occurred trying to send this file to URKUND"
+msgstr ""
+
+#: $string['unsupportedfiletype']
+msgid "This filetype is not supported by URKUND"
+msgstr ""
+
+#: $string['updateallowedfiletypes']
+msgid ""
+"Update allowed file types and delete urkund records associated with deleted "
+"activities."
+msgstr ""
+
+#: $string['urkund']
+msgctxt "$string['urkund']"
+msgid "URKUND plagiarism plugin"
+msgstr ""
+
+#: $string['urkund_advanceditems']
+msgid "Set of settings to consider advanced"
+msgstr ""
+
+#: $string['urkund_advanceditems_help']
+msgid ""
+"The list of settings set as advanced here, will be shown as advanced in "
+"module settings. If so, they will be also hidden from teachers if they do "
+"not have capability 'urkund:advancedsettings'."
+msgstr ""
+
+#: $string['urkund:advancedsettings']
+msgid "Allow the teacher to view advanced module settings from URKUND"
+msgstr ""
+
+#: $string['urkund_api']
+msgid "URKUND Integration Address"
+msgstr ""
+
+#: $string['urkund_api_help']
+msgid "This is the address of the URKUND API"
+msgstr ""
+
+#: $string['urkunddebug']
+msgid "Debugging"
+msgstr ""
+
+#: $string['urkunddefaults']
+msgid "URKUND defaults"
+msgstr ""
+
+#: $string['urkunddefaults_assign']
+msgid "Default assign settings"
+msgstr ""
+
+#: $string['urkunddefaults_forum']
+msgid "Default forum settings"
+msgstr ""
+
+#: $string['urkunddefaults_workshop']
+msgid "Default workshop settings"
+msgstr ""
+
+#: $string['urkund_draft_submit']
+msgid "When should the file be submitted"
+msgstr ""
+
+#: $string['urkund:enable']
+msgid "Allow the teacher to enable/disable URKUND inside an activity"
+msgstr ""
+
+#: $string['urkund_enableoptout']
+msgid "Show opt-out link"
+msgstr ""
+
+#: $string['urkund_enableoptoutdesc']
+msgid ""
+"Disabling this will remove the option for students to unhide or hide "
+"(depending on the default setting) the content of their texts should they be "
+"found as a match in other clients’ students’ papers (“opt-in” and “opt-"
+"out”). By deactivating this feature, you certify that you will take "
+"responsibility for managing the copyright of your students’ submissions and "
+"that this does not contravene laws applicable in your country."
+msgstr ""
+
+#: $string['urkund_enableplugin']
+msgid "Enable URKUND for {$a}"
+msgstr ""
+
+#: $string['urkundexplain']
+msgid ""
+"For more information on this plugin see: <a href=\"http://www.urkund.com/en\" "
+"target=\"_blank\">http://www.urkund.com/int/en/</a>"
+msgstr ""
+"Για περισσότερες πληροφορίες σχετικά με το πρόσθετο δείτε: <a "
+"href=\"http://www.urkund.com/en\" "
+"target=\"_blank\">http://www.urkund.com/int/en/</a>"
+
+#: $string['urkundfiles']
+msgid "Urkund Files"
+msgstr ""
+
+#: $string['urkund_hidefilename']
+msgid "Hide submission filename"
+msgstr ""
+
+#: $string['urkund_hidefilenamedesc']
+msgid ""
+"Enabling this will pass a generic filename to URKUND so students cannot see "
+"the filename of any sources that match an existing submission."
+msgstr ""
+
+#: $string['urkund_lang']
+msgid "Language"
+msgstr "Γλώσσα"
+
+#: $string['urkund_lang_help']
+msgid "Language code provided by URKUND"
+msgstr ""
+
+#: $string['urkund_password']
+msgid "Password"
+msgstr "Κωδικός πρόσβασης"
+
+#: $string['urkund_password_help']
+msgid "Password provided by URKUND to access the API"
+msgstr ""
+
+#: $string['urkund_receiver']
+msgid "Receiver address"
+msgstr "Διεύθυνση παραλήπτη"
+
+#: $string['urkund_receiver_help']
+msgid "This is the unique address provided from URKUND for the teacher"
+msgstr ""
+"Αυτή είναι η μοναδική διεύθυνση που παρέχεται από το URKUND για τον "
+"διδάσκοντα"
+
+#: $string['urkund:resetfile']
+msgid "Allow the teacher to resubmit the file to URKUND after an error"
+msgstr ""
+
+#: $string['urkund_show_student_report']
+msgid "Show similarity report to student"
+msgstr ""
+
+#: $string['urkund_show_student_report_help']
+msgid ""
+"The similarity report gives a breakdown on what parts of the submission were "
+"plagiarised and the location that URKUND first saw this content"
+msgstr ""
+
+#: $string['urkund_show_student_score']
+msgid "Show similarity score to student"
+msgstr ""
+
+#: $string['urkund_show_student_score_help']
+msgid ""
+"The similarity score is the percentage of the submission that has been "
+"matched with other content."
+msgstr ""
+
+#: $string['urkund_studentemail']
+msgid "Send student email"
+msgstr ""
+
+#: $string['urkund_studentemail_help']
+msgid ""
+"This will send an e-mail to the student when a file has been processed to "
+"let them know that a report is available, the e-mail also includes the opt-"
+"out link."
+msgstr ""
+
+#: $string['urkund_username']
+msgid "Username"
+msgstr ""
+
+#: $string['urkund_username_help']
+msgid "Username provided by URKUND to access the API"
+msgstr ""
+
+#: $string['urkund:viewreport']
+msgid "Allow the teacher to view the full report from URKUND"
+msgstr ""
+
+#: $string['useurkund']
+msgid "Enable URKUND"
+msgstr ""
+
+#: $string['waitingevents']
+msgid ""
+"There are {$a->countallevents} events waiting for cron and {$a->countheld} "
+"events are being held for resubmission"
+msgstr ""
+
+#: $string['wordcount']
+msgid "Minimum word count"
+msgstr ""
+
+#: $string['wordcount_help']
+msgid ""
+"This sets a minimum limit on the number of words that are required for in-"
+"line text (forum posts and online assignment type) before the content will "
+"be sent to URKUND."
+msgstr ""

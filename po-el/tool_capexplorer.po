@@ -1,0 +1,488 @@
+#. extracted from lang/en/tool_capexplorer.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'tool_capexplorer', language 'en', branch 'MOODLE_31_STABLE'
+#.  *
+#.  * @package   tool_capexplorer
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['assigned']
+msgid "Assigned"
+msgstr ""
+
+#: $string['autoassign']
+msgid "Automatically assigned"
+msgstr ""
+
+#: $string['autoassignment']
+msgid "Automatic assignment"
+msgstr ""
+
+#: $string['autoassignment_help']
+msgid ""
+"Some roles can be automatically assigned to users in the system context. The "
+"roles can be set from Site Administration > Users > Permissions > User "
+"Policies"
+msgstr ""
+
+#: $string['capability']
+msgid "Capability"
+msgstr ""
+
+#: $string['capability_help']
+msgid ""
+"<p>Select a capability to check.</p><p>This field uses autocomplete so start "
+"typing the name of a capability then select from the options that "
+"appear.</p>"
+msgstr ""
+
+#: $string['capabilityplaceholder']
+msgid "Enter a capability"
+msgstr ""
+
+#: $string['capdenied']
+msgid "False (Denied)"
+msgstr ""
+
+#: $string['capexplorerresult']
+msgctxt "$string['capexplorerresult']"
+msgid "Overall result"
+msgstr ""
+
+#: $string['capexplorersummary']
+msgid ""
+"<p>Capability Explorer is a tool to help explain how Moodle's capability "
+"system works. Submit the form below to get an explanation of how the "
+"capability check is calculated.</p>"
+msgstr ""
+
+#: $string['capexplorer:view']
+msgid "View capability explorer"
+msgstr ""
+
+#: $string['capgranted']
+msgid "True (Granted)"
+msgstr ""
+
+#: $string['change']
+msgid "Change"
+msgstr ""
+
+#: $string['combineusingcontextaggregation']
+msgid ""
+"<p>Combine the individual permissions using context aggregation rules{$a} to "
+"get a set of role totals.</p>"
+msgstr ""
+
+#: $string['context']
+msgid "Context"
+msgstr ""
+
+#: $string['contextaggrrules']
+msgid "Context aggregation rules"
+msgstr ""
+
+#: $string['contextaggrrules_help']
+msgid ""
+"<p>To determine the role total for a particular role, aggregate the "
+"permissions at each context using the rules below:</p>\n"
+"<ol>\n"
+"    <li>If \"Prohibit\" appears in any context, the role total is "
+"\"Prohibit\".</li>\n"
+"    <li>If all contexts have the permission \"Not set\", the role total is "
+"\"Not set\".</li>\n"
+"    <li>Otherwise, the role total is the same as the most specific "
+"permission that is set (i.e. the allow or prevent that's closest to the "
+"context in which the capability is being checked).</li>\n"
+"</ol>"
+msgstr ""
+
+#: $string['context_help']
+msgid ""
+"<p>You must provide a <em>context instance</em> to check a capability "
+"against. The tree shown displays the hierarchy of all the context instances "
+"on your site.</p>\n"
+"<p>Expand nodes by clicking the arrow to see more specific child contexts. "
+"Select an instance by clicking the name.</p>\n"
+"<p>The icons represent the <em>context level</em> of each instance:</p>\n"
+"<p>\n"
+"<div class=\"capexplorer-tree-label capexplorer-tree-system\">System (Site) "
+"context</div>\n"
+"<div class=\"capexplorer-tree-label capexplorer-tree-user\">User context</div>\n"
+"<div class=\"capexplorer-tree-label capexplorer-tree-category\">Category "
+"context</div>\n"
+"<div class=\"capexplorer-tree-label capexplorer-tree-course\">Course "
+"context</div>\n"
+"<div class=\"capexplorer-tree-label capexplorer-tree-module\">Module "
+"context</div>\n"
+"<div class=\"capexplorer-tree-label capexplorer-tree-block\">Block "
+"context</div>\n"
+"</p>"
+msgstr ""
+
+#: $string['contextinfo']
+msgid "{$a->contextstring} ({$a->contextlevel} context)"
+msgstr ""
+
+#: $string['contextlevel']
+msgid "Context level"
+msgstr ""
+
+#: $string['error:invalidcapability']
+msgid "There is no capability called \"{$a}\""
+msgstr ""
+
+#: $string['error:invalidcontext']
+msgid "You must select a context instance"
+msgstr ""
+
+#: $string['error:invalidusername']
+msgid "There is no user with a username of \"{$a}\""
+msgstr ""
+
+#: $string['error:missingcapability']
+msgid "You must enter a capability"
+msgstr ""
+
+#: $string['error:missingusername']
+msgid "You must enter a username"
+msgstr ""
+
+#: $string['exploreanother']
+msgid "&laquo; Explore another capability"
+msgstr ""
+
+#: $string['finalresultsummary']
+msgid ""
+"<p>Finally, combine the role totals using the role aggregation rules{$a} to "
+"get the overall result.</p>"
+msgstr ""
+
+#: $string['guestaccessblocked']
+msgid ""
+"<p>Note: As an additional safety measure Moodle prevents unprivileged users "
+"from being granted \"risky\" capabilities. \"{$a->capability}\" is deemed risky "
+"because it could be used to edit or remove data, modify site configuration, "
+"or add potentially malicious scripts into site pages. The results below show "
+"how their access would be calculated if the capability wasn't considered "
+"risky.</p>"
+msgstr ""
+
+#: $string['instancename']
+msgid "Instance Name"
+msgstr ""
+
+#: $string['manualassign']
+msgid "Manually assigned"
+msgstr ""
+
+#: $string['manualassignment']
+msgid "Manual assignment"
+msgstr ""
+
+#: $string['manualassignment_help']
+msgid ""
+"Roles assigned directly to a specific user, for example via 'Assign system "
+"roles', or via course enrolments."
+msgstr ""
+
+#: $string['none']
+msgid "None"
+msgstr ""
+
+#: $string['nopermtoassign']
+msgctxt "$string['nopermtoassign']"
+msgid "No permission"
+msgstr ""
+
+#: $string['nopermtoassign_help']
+msgid ""
+"<p>Not all users have permission to assign roles to other users. The ability "
+"to assign roles is dependent on your own roles and can be controlled "
+"here:</p><p><em>Site admin &gt; Users &gt; Permissions &gt; Define roles "
+"&gt; Allow role assignments</em></p><p>In addition the user must have the "
+"capability \"moodle/role:assign\" in the context where the role assignment is "
+"taking place.</p><p>Site administrators can assign all roles.</p>"
+msgstr ""
+
+#: $string['nopermtoautoassign']
+msgctxt "$string['nopermtoautoassign']"
+msgid "No permission"
+msgstr ""
+
+#: $string['nopermtoautoassign_help']
+msgid ""
+"Not all users have permission to change automatically assigned roles. The "
+"ability to change set these user policies is controlled by the capability "
+"\"moodle/site:config\" in the system context."
+msgstr ""
+
+#: $string['nopermtodefinerole']
+msgctxt "$string['nopermtodefinerole']"
+msgid "No permission"
+msgstr ""
+
+#: $string['nopermtodefinerole_help']
+msgid ""
+"The ablity to define role permissions requires the capability "
+"\"moodle/role:manage\" in the system context. Users with permission can "
+"control role definitions here:</p><p><em>Site admin &gt; Users &gt; "
+"Permissions &gt; Define roles </p><p>The current user does not have this "
+"permission so is not able to change role definitions.</p>"
+msgstr ""
+
+#: $string['nopermtooverride']
+msgctxt "$string['nopermtooverride']"
+msgid "No permission"
+msgstr ""
+
+#: $string['nopermtooverride_help']
+msgid ""
+"Not all users have permission to override roles. The ability to override "
+"roles is dependent on your own roles and can be controlled "
+"here:</p><p><em>Site admin &gt; Users &gt; Permissions &gt; Define roles "
+"&gt; Allow role overrides</em></p><p>In addition the user must have the "
+"capability \"moodle/role:override\" or \"moodle/role:safeoverride\" in the "
+"context where the override is taking place.</p><p>Site administrators can "
+"override all roles.</p>"
+msgstr ""
+
+#: $string['notassignable']
+msgid "Not assignable"
+msgstr ""
+
+#: $string['notassignable_help']
+msgid ""
+"<p>Each role defines the context levels where the role can be "
+"assigned.</p><p>This can be customised by changing the \"Context types where "
+"this role may be assigned\" setting in the role definition:</p><p><em>Site "
+"admin &gt; Users &gt; Permissions &gt; Define Roles &gt; [Role name] &gt; "
+"Edit</em>.</p>"
+msgstr ""
+
+#: $string['notassigned']
+msgid "Not Assigned"
+msgstr ""
+
+#: $string['notoverridable']
+msgid "Not overridable"
+msgstr ""
+
+#: $string['notoverridable_help']
+msgid ""
+"<p>Each capability defines a context level which is the lowest level the "
+"context will be checked in. Below this level the capability is not available "
+"to override since the override will not have any effect.</p><p>This "
+"prevents capabilities that are clearly not applicable at more specific "
+"contexts from cluttering up the override page.</p><p>In this case the "
+"capability being checked has specified a higher context level so it is not "
+"possible to override this capability at this level.</p>"
+msgstr ""
+
+#: $string['overallresult']
+msgctxt "$string['overallresult']"
+msgid "Overall result"
+msgstr ""
+
+#: $string['parentcontexts']
+msgid "Parent contexts"
+msgstr ""
+
+#: $string['parentcontexts_help']
+msgid ""
+"<p>Because of the hierarchical nature of the permissions system, assignments "
+"at any parent context can impact a capability check in a child context. "
+"Therefore the first step is to determine all the contexts between the system "
+"level and the context being checked.</p>"
+msgstr ""
+
+#: $string['parentcontextssummary']
+msgid ""
+"<p>Determine all context levels between the system level and the context "
+"being checked.</p>"
+msgstr ""
+
+#: $string['permission']
+msgid "Permission"
+msgstr ""
+
+#: $string['permissionallow']
+msgid "Allow"
+msgstr ""
+
+#: $string['permissioninherit']
+msgid "Inherit"
+msgstr ""
+
+#: $string['permissionnotset']
+msgid "Not set"
+msgstr ""
+
+#: $string['permissionprevent']
+msgid "Prevent"
+msgstr ""
+
+#: $string['permissionprohibit']
+msgid "Prohibit"
+msgstr ""
+
+#: $string['permissionunknown']
+msgid "Unknown"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Capability explorer"
+msgstr ""
+
+#: $string['result']
+msgid "Result"
+msgstr ""
+
+#: $string['resultdiffersfromaccesslib']
+msgid ""
+"<p>The result calculated by this tool does not match the result from core "
+"code!</p><p>You could try <a href=\"{$a->cacheurl}\">clearing your cache</a> "
+"but if that doesn't help this is probably a bug in Capability Explorer. "
+"Please <a href=\"{$a->bugurl}\">let us know about it</a> and if you can "
+"include a screenshot of this page to help us track down the problem.</p>"
+msgstr ""
+
+#: $string['role']
+msgid "Role"
+msgstr ""
+
+#: $string['roleaggrrules']
+msgid "Role aggregation rules"
+msgstr ""
+
+#: $string['roleaggrrules_help']
+msgid ""
+"<p>To determine the overall result, aggregate the permissions from all role "
+"totals using the rules below:</p>\n"
+"<ol>\n"
+"    <li>If \"Prohibit\" appears in any role total, the overall result is "
+"\"Denied\".</li>\n"
+"    <li>Otherwise, if any one role total is \"Allow\" the overall result is "
+"\"Granted\".</li>\n"
+"    <li>If none of the role totals are \"Allow\", the overall result is "
+"\"Denied\".</li>\n"
+"</ol>"
+msgstr ""
+
+#: $string['roleassignmentsforuserx']
+msgid ""
+"<p>Below are all roles that have assignments for \"{$a}\" in any of the "
+"contexts listed above:</p>"
+msgstr ""
+
+#: $string['roleassignmentsummary']
+msgid ""
+"<p>Determine which roles are assigned to the user in any of the parent "
+"contexts. Only roles assigned in one of the parent contexts contribute to "
+"the final result.</p>"
+msgstr ""
+
+#: $string['rolepermissionsandoverridesforcapx']
+msgid "<p>All role permissions and overrides for capability \"{$a}\"</p>"
+msgstr ""
+
+#: $string['rolepermissionsummary']
+msgid ""
+"<p>For each assigned role, list the permission from the role definition for "
+"the system context. Also list any role overrides in any of the parent "
+"contexts.</p>"
+msgstr ""
+
+#: $string['roletotal']
+msgid "Role total"
+msgstr ""
+
+#: $string['roletotals']
+msgid "Role totals"
+msgstr ""
+
+#: $string['step1']
+msgid "Step 1: Parent contexts"
+msgstr ""
+
+#: $string['step2']
+msgid "Step 2: Role assignments"
+msgstr ""
+
+#: $string['step3']
+msgid "Step 3: Role permissions and overrides"
+msgstr ""
+
+#: $string['step4']
+msgid "Step 4: Aggregate across contexts"
+msgstr ""
+
+#: $string['step5']
+msgid "Step 5: Aggregate across roles"
+msgstr ""
+
+#: $string['systemcontext']
+msgid "System (Site) context"
+msgstr ""
+
+#: $string['user']
+msgid "User"
+msgstr ""
+
+#: $string['usercontext']
+msgid "User context"
+msgstr ""
+
+#: $string['userisadmin']
+msgid ""
+"<p>Note: \"{$a->user}\" is a <a href=\"{$a->url}\">site administrator</a>, and "
+"as such they are automatically granted all capabilities. The results below "
+"show how their access would be calculated without site administrator "
+"privileges.</p>"
+msgstr ""
+
+#: $string['username']
+msgid "Username"
+msgstr ""
+
+#: $string['username_help']
+msgid ""
+"<p>Select a user to check.</p><p>This field uses autocomplete so start "
+"typing a username, email address or user's name and select from the options "
+"that appear.</p>"
+msgstr ""
+
+#: $string['usernameplaceholder']
+msgid "Enter name, username or email"
+msgstr ""
+
+#: $string['xfrontpage']
+msgid "{$a} (Front page)"
+msgstr ""

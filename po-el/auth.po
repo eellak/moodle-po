@@ -1,0 +1,834 @@
+#. extracted from lang/en/auth.php, lang/el/auth.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'auth', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   auth
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['actauthhdr']
+msgid "Available authentication plugins"
+msgstr "Active authentication plugins"
+
+#: $string['allowaccountssameemail']
+msgid "Allow accounts with same email"
+msgstr "Επιτρέπονται λογαριασμοί με την ίδια ηλεκτρονική διεύθυνση."
+
+#: $string['allowaccountssameemail_desc']
+msgid ""
+"If enabled, more than one user account can share the same email address. "
+"This may result in security or privacy issues, for example with the password "
+"change confirmation email."
+msgstr ""
+"Αν ενεργοποιηθεί, τότε πολλοί χρήστες θα έχουν την ίδια ηλεκτρονική "
+"διεύθυνση. Αυτό μπορεί να οδηγήσει σε προβλήματα ασφάλεια ή ιδιωτικότητας, "
+"όπως για παράδειγμα, σε περίπτωση αλλαγής του κωδικού πρόσβασης."
+
+#: $string['alternatelogin']
+msgid ""
+"If you enter a URL here, it will be used as the login page for this site. "
+"The page should contain a form which has the action property set to "
+"<strong>'{$a}'</strong> and return fields <strong>username</strong> and "
+"<strong>password</strong>.<br />Be careful not to enter an incorrect URL as "
+"you may lock yourself out of this site.<br />Leave this setting blank to use "
+"the default login page."
+msgstr ""
+"Όποια διεύθυνση πληκτρολογήσετε θα χρησιμοποιηθεί σαν σελίδα σύνδεσης. Η "
+"σελίδα αυτή, θα πρέπει να έχει μία φόρμα με την ιδιότητα "
+"<strong>'{$a}'</strong> και τα πεδία <strong>username</strong>, "
+"<strong>password</strong>."
+
+#: $string['alternateloginurl']
+msgid "Alternate login URL"
+msgstr "Εναλλακτική σελίδα σύνδεσης"
+
+#: $string['auth_changepasswordhelp']
+msgid "Change password help"
+msgstr "Βοήθεια αλλαγήςκωδικού"
+
+#: $string['auth_changepasswordhelp_expl']
+msgid ""
+"Display lost password help to users who have lost their {$a} password. This "
+"will be displayed either as well as or instead of the <strong>Change "
+"Password URL</strong> or Internal Moodle password change."
+msgstr ""
+"Εμφάνιση της βοήθειας απολεσθέντος κωδικού στους χρήστες που έχασαν τον {$a} "
+"κωδικό τους. Αυτό θα εμφανιστεί μαζί με ή αντί του <strong>URL αλλαγής "
+"κωδικού</strong> ή άλλαγή κωδικού εσωτερικά του ΠΗΛΕΑΣ"
+
+#: $string['auth_changepasswordurl']
+msgctxt "$string['auth_changepasswordurl']"
+msgid "Change password URL"
+msgstr "URL αλλαγής κωδικού"
+
+#: $string['auth_changepasswordurl_expl']
+msgid ""
+"Specify the url to send users who have lost their {$a} password. Set "
+"<strong>Use standard Change Password page</strong> to <strong>No</strong>."
+msgstr ""
+"Προσδιορίστε το URL που θα αποστέλλεται στους χρήστες που έχει χάσει τον "
+"{$a} κωδικό τους. Ορίστε την <strong>Χρήση της κανονικής σελίδας αλλαγής "
+"κωδικού</strong> σε <strong>Όχι</strong>."
+
+#: $string['auth_changingemailaddress']
+msgid ""
+"You have requested a change of email address, from {$a->oldemail} to "
+"{$a->newemail}. For security reasons, we are sending you an email message at "
+"the new address to confirm that it belongs to you. Your email address will "
+"be updated as soon as you open the URL sent to you in that message."
+msgstr ""
+"Έχετε ζητήσει μια αλλαγή της διεύθυνσης ηλεκτρονικού ταχυδρομείου, από "
+"{$a->oldemail} στο {$a->newemail}. Για λόγους ασφαλείας, σας στέλνουμε ένα "
+"μήνυμα ηλεκτρονικού ταχυδρομείου στη νέα διεύθυνση για να επιβεβαιώσετε ότι "
+"ανήκει σε εσάς. Η διεύθυνση του ηλεκτρονικού ταχυδρομείου σας θα ενημερωθεί "
+"αμέσως μόλις ανοίξετε το σύνδεσμο που σας έχει αποσταλεί σε αυτό το μήνυμα."
+
+#: $string['auth_common_settings']
+msgid "Common settings"
+msgstr "Κοινές ρυθμίσεις"
+
+#: $string['auth_data_mapping']
+msgid "Data mapping"
+msgstr "Χαρτογράφηση δεδομένων"
+
+#: $string['authenticationoptions']
+msgid "Authentication options"
+msgstr "Επιλογές πιστοποίησης"
+
+#: $string['auth_fieldlock']
+msgid "Lock value"
+msgstr "Κλείδωμα τιμής"
+
+#: $string['auth_fieldlock_expl']
+msgid ""
+"<p><b>Lock value:</b> If enabled, will prevent Moodle users and admins from "
+"editing the field directly. Use this option if you are maintaining this data "
+"in the external auth system. </p>"
+msgstr ""
+"<p><b>Κλείδωμα τιμής:</b> Εάν ενεργοποιηθεί, αποτρέπει χρήστες του ΠΗΛΕΑΣ "
+"και διαχειριστές να επεξεργαστούν το πεδίο άμεσα. Χρησιμοποιήστε την επιλογή "
+"αυτή εάν διατηρείτε τα δεδομένα σε εξωτερικό σύστημα πιστοποίησης.  </p>"
+
+#: $string['auth_fieldlockfield']
+msgid "Lock value ({$a})"
+msgstr ""
+
+#: $string['auth_fieldlocks']
+msgid "Lock user fields"
+msgstr "Κλειδωμα πεδίων χρήστη"
+
+#: $string['auth_fieldlocks_help']
+msgid ""
+"<p>You can lock user data fields. This is useful for sites where the user "
+"data is maintained by the administrators manually by editing user records or "
+"uploading using the 'Upload users' facility. If you are locking fields that "
+"are required by Moodle, make sure that you provide that data when creating "
+"user accounts or the accounts will be unusable.</p><p>Consider setting the "
+"lock mode to 'Unlocked if empty' to avoid this problem.</p>"
+msgstr ""
+"<p>Έχετε τη δυνατότητα να κλειδώσετε κάποια από τα πεδία που "
+"χρησιμοποιούνται στην φόρμα εγγραφής των χρηστών. Μ' αυτόν τον τρόπο, "
+"γίνεται πιο εύκολη η συντήρηση του site στην περίπτωση που ο διαχειριστής "
+"επεξεργάζεται χειροκίνητα τα στοιχεία των χρηστών."
+
+#: $string['auth_fieldmapping']
+msgid "Data mapping ({$a})"
+msgstr ""
+
+#: $string['authinstructions']
+msgid ""
+"Leave this blank for the default login instructions to be displayed on the "
+"login page. If you want to provide custom login instructions, enter them "
+"here."
+msgstr ""
+"Εδώ μπορείτε να παρέχετε τις οδηγίες για τους χρήστες σας, έτσι ώστε να "
+"ξέρουν ποιο όνομα χρήστη και κωδικό πρόσβασης πρέπει να χρησιμοποιούν.  Το "
+"κείμενο που εισάγετε εδώ θα εμφανιστεί στη σελίδα σύνδεσης.  Εάν το αφήσετε "
+" κενό, τότε καμία οδηγία δεν θα τυπωθεί."
+
+#: $string['auth_invalidnewemailkey']
+msgid ""
+"Error: if you are trying to confirm a change of email address, you may have "
+"made a mistake in copying the URL we sent you by email. Please copy the "
+"address and try again."
+msgstr ""
+"Error: if you are trying to confirm a change of email address, you may have "
+"made a mistake in copying the URL we sent you by email. Please copy the "
+"address and try again."
+
+#: $string['authloginviaemail']
+msgid "Allow log in via email"
+msgstr "Επέτρεψε σύνδεση μέσω ηλεκτρονικού ταχυδρομείου"
+
+#: $string['authloginviaemail_desc']
+msgid ""
+"Allow users to use both username and email address (if unique) for site "
+"login."
+msgstr ""
+
+#: $string['auth_multiplehosts']
+msgid ""
+"Multiple hosts OR addresses can be specified (eg "
+"host1.com;host2.com;host3.com) or (eg xxx.xxx.xxx.xxx;xxx.xxx.xxx.xxx)"
+msgstr ""
+"Πολλαπλοί hosts ή διευθύνσεις μπορούν να προσδιοριστούν (πχ "
+"host1.com;host2.com;host3.com) ή (πχ xxx.xxx.xxx.xxx;xxx.xxx.xxx.xxx)"
+
+#: $string['auth_notconfigured']
+msgid "The authentication method {$a} is not configured."
+msgstr "Η μέθοδος αυθεντικοποίησης {$a} δεν έχει διαμορφωθεί."
+
+#: $string['auth_outofnewemailupdateattempts']
+msgid ""
+"You have run out of allowed attempts to update your email address. Your "
+"update request has been cancelled."
+msgstr ""
+"You have run out of allowed attempts to update your email address. Your "
+"update request has been cancelled."
+
+#: $string['auth_passwordisexpired']
+msgid "Your password has expired. Please change it now."
+msgstr ""
+"Το συνθηματικό σας έχει λήξει. Θέλετε να αλλάξετε το συνθηματικό σας τώρα;"
+
+#: $string['auth_passwordwillexpire']
+msgid ""
+"Your password will expire in {$a} days. Do you want to change your password "
+"now?"
+msgstr ""
+"Το συνθηματικό σας θα λήξει σε {$a} ημέρες. Θέλετε να αλλάξετε το "
+"συνθηματικό σας τώρα;"
+
+#: $string['auth_remove_delete']
+msgid "Full delete internal"
+msgstr "Full delete internal"
+
+#: $string['auth_remove_keep']
+msgid "Keep internal"
+msgstr "Keep internal"
+
+#: $string['auth_remove_suspend']
+msgid "Suspend internal"
+msgstr "Suspend internal"
+
+#: $string['auth_remove_user']
+msgid ""
+"Specify what to do with internal user account during mass synchronisation "
+"when user was removed from external source. Only suspended users are "
+"automatically restored if they reappear in the external source."
+msgstr ""
+"Specify what to do with internal user account during mass synchronization "
+"when user was removed from external source. Only suspended users are "
+"automatically revived if they reappear in ext source."
+
+#: $string['auth_remove_user_key']
+msgid "Removed ext user"
+msgstr "Removed ext user"
+
+#: $string['auth_sync_script']
+msgid "User account synchronisation"
+msgstr "Cron synchronization script"
+
+#: $string['auth_sync_suspended']
+msgid ""
+"When enabled, the suspended attribute will be used to update the local user "
+"account's suspension status."
+msgstr ""
+"Όταν είναι ενεργοποιημένη, το χαρακτηριστικό αναστολής θα χρησιμοποιηθεί για "
+"την ενημέρωση της κατάστασης αναστολής λογαριασμού τοπικού χρήστη."
+
+#: $string['auth_sync_suspended_key']
+msgid "Synchronise local user suspension status"
+msgstr ""
+
+#: $string['auth_updatelocal']
+msgid "Update local"
+msgstr "Τοπική ενημέρωση"
+
+#: $string['auth_updatelocal_expl']
+msgid ""
+"<p><b>Update local:</b> If enabled, the field will be updated (from external "
+"auth) every time the user logs in or there is a user synchronisation. "
+"Fields set to update locally should be locked.</p>"
+msgstr ""
+"<p><b>Τοπική ενημέρωση:</b> Εάν ενεργοποιηθεί, το πεδίο θα ενημερώνεται (από "
+"εξωτερική πιστοποίηση) κάθε φορά που ο χρήστης εισέρχεται ή γίνεται "
+"συγχρονισμός χρηστών. Τα πεδία που ορίστηκαν να ενημερώνονται αυτόματα "
+"πρέπει να είναι κλειδωμένα.</p>"
+
+#: $string['auth_updatelocalfield']
+msgid "Update local ({$a})"
+msgstr ""
+
+#: $string['auth_updateremote']
+msgid "Update external"
+msgstr "Ενημέρωσε εξωτερικά"
+
+#: $string['auth_updateremote_expl']
+msgid ""
+"<p><b>Update external:</b> If enabled, the external auth will be updated "
+"when the user record is updated. Fields should be unlocked to allow "
+"edits.</p>"
+msgstr ""
+"<p><b>Ενημέρωσε εξωτερικά:</b> Εάν ενεργοποιηθεί, η εξωτερική πιστοποίηση θα "
+"ενημερώνεται κάθε φορά που η εγγραφή του χρήστη ενημερώνεται. Τα πεδία να "
+"είναι ξεκλείδωτα για να επιτρέπεται η επεξεργασία. </p>"
+
+#: $string['auth_updateremotefield']
+msgid "Update external ({$a})"
+msgstr ""
+
+#: $string['auth_updateremote_ldap']
+msgid ""
+"<p><b>Note:</b> Updating external LDAP data requires that you set binddn and "
+"bindpw to a bind-user with editing privileges to all the user records. It "
+"currently does not preserve multi-valued attributes, and will remove extra "
+"values on update. </p>"
+msgstr ""
+"<p><b>Σημείωση:</b> Η ενημέρωση εξωτερικών LDAP δεδομένων απαιτεί να ορίσετε "
+"τα binddn και bindpw σε έναν bind-user με επιπλέον προνόμια σε όλες τις "
+"εγγραφές των χρηστών.  Επί του παρόντος δεν διατηρεί χαρακτηριστικά με "
+"πολλαπλές τιμές και αφαιρεί πλεονάζουσες τιμές κατά την ενημέρωση. </p>"
+
+#: $string['auth_user_create']
+msgid "Enable user creation"
+msgstr "Να επιτρέπεται η δημιουργία χρηστών"
+
+#: $string['auth_user_creation']
+msgid ""
+"New (anonymous) users can create user accounts on the external "
+"authentication source and confirmed via email. If you enable this , remember "
+"to also configure module-specific options for user creation."
+msgstr ""
+"Νέοι (ανώνυμοι) χρήστες μπορούν να δημιουργήσουν λογαριασμούς χρηστών στο "
+"εξωτερικό σημείο πιστοποίησης και να τους επιβεβαιώσουν μέσω ηλεκτρονικού "
+"ταχυδρομείου. Αν το ενεργοποιήσετε αυτό, θυμηθείτε επίσης να επεξεργαστείτε "
+"τις επιλογές κάθε συγκεκριμένης ενότητας για τη δημιουργία χρηστών."
+
+#: $string['auth_usernameexists']
+msgid "Selected username already exists. Please choose a new one."
+msgstr "Αυτό το όνομα χρήστη υπάρχει ήδη. Παρακαλώ επιλέξτε άλλο."
+
+#: $string['auth_usernotexist']
+msgid "Cannot update non-existent user: {$a}"
+msgstr "Cannot update non-existent user: {$a}"
+
+#: $string['auto_add_remote_users']
+msgid "Auto add remote users"
+msgstr "Auto add remote users"
+
+#: $string['cannotmapfield']
+msgid ""
+"Field \"{$a->fieldname}\" can not be mapped because its short name "
+"\"{$a->shortname}\" is too long. To enable mapping reduce the profile field "
+"short name down to {$a->charlimit} characters. <a href=\"{$a->link}\">Edit "
+"user profile fields</a>"
+msgstr ""
+
+#: $string['changepassword']
+msgctxt "$string['changepassword']"
+msgid "Change password URL"
+msgstr "Αλλαγή κωδικού πρόσβασης URL"
+
+#: $string['changepasswordhelp']
+msgid ""
+"URL of lost password recovery page, which will be sent to users in an email. "
+"Note that this setting will have no effect if a forgotten password URL is "
+"set in the authentication common settings."
+msgstr ""
+"Εδώ μπορείτε να διευκρινίσετε μια θέση στην οποία οι χρήστες σας μπορούν να "
+"ανακτήσουν ή να αλλάξουν το όνομα χρήστη/τον κωδικό πρόσβασής τους εάν τα "
+"έχουν ξεχάσει.  Αυτό θα παρέχεται στους χρήστες ως σύνδεσμος στη σελίδα "
+"σύνδεσης και τη σελίδα χρηστών τους.  Εάν το αφήσετε κενό, ο σύνδεσμος δεν "
+"θα τυπωθεί."
+
+#: $string['chooseauthmethod']
+msgid "Choose an authentication method"
+msgstr "Επιλέξτε μέθοδο πιστοποίησης"
+
+#: $string['chooseauthmethod_help']
+msgid ""
+"This setting determines the authentication method used when the user logs "
+"in. Only enabled authentication plugins should be chosen, otherwise the user "
+"will no longer be able to log in. To block the user from logging in, select "
+"\"No login\"."
+msgstr ""
+"<p align=\"center\"><b>Αλλαγή μεθόδου πιστοποίησης </b></p>\n"
+"\n"
+"<p>Με αυτό το μενού είναι εφικτή η αλλαγή της μεθόδου πιστοποίησης του "
+"χρήστη.</p>\n"
+"\n"
+"<p>Οι αλλαγές να γίνονται με προσοχή.</p>"
+
+#: $string['createpassword']
+msgid "Generate password and notify user"
+msgstr "Δημιουργήστε κωδικό πρόσβασης και ενημερώστε τον χρήστη"
+
+#: $string['createpasswordifneeded']
+msgid "Create password if needed and send via email"
+msgstr "Δημιουργία κωδικού πρόσβασης αν χρειαστεί"
+
+#: $string['emailchangecancel']
+msgid "Cancel email change"
+msgstr "Cancel email change"
+
+#: $string['emailchangepending']
+msgid "Change pending. Open the link sent to you at {$a->preference_newemail}."
+msgstr "Change pending. Open the link sent to you at {$a->preference_newemail}."
+
+#: $string['emailnowexists']
+msgid ""
+"The email address you tried to assign to your profile has been assigned to "
+"someone else since your original request. Your request for change of email "
+"address is hereby cancelled, but you may try again with a different address."
+msgstr ""
+"The email address you tried to assign to your profile has been assigned to "
+"someone else since your original request. Your request for change of email "
+"address is hereby cancelled, but you may try again with a different address."
+
+#: $string['emailupdate']
+msgid "Email address update"
+msgstr "Ανανέωση διεύθυνσης ηλεκτρονικού ταχυδρομείου"
+
+#: $string['emailupdatemessage']
+msgid ""
+"Dear {$a->fullname},\n"
+"\n"
+"You have requested a change of your email address for your user account at "
+"{$a->site}. Please open the following URL in your browser in order to "
+"confirm this change.\n"
+"\n"
+"If you have any questions please contact support on: {$a->supportemail}\n"
+"\n"
+"{$a->url}"
+msgstr ""
+"Αγαπητέ χρήστη {$a->fullname},\n"
+"\n"
+"Ζητήσατε μια αλλαγή της διεύθυνσης ηλεκτρονικού σας ταχυδρομείου για το "
+"λογαριασμό σας στο {$a->site}.\n"
+"Παρακαλώ ανοίξτε την παρακάτω διεύθυνση URL στο πρόγραμμα περιήγησης σας για "
+"να επιβεβαιώσετε αυτήν την αλλαγή.\n"
+"\n"
+"{$a->url}"
+
+#: $string['emailupdatesuccess']
+msgid ""
+"Email address of user <em>{$a->fullname}</em> was successfully updated to "
+"<em>{$a->email}</em>."
+msgstr ""
+"Email address of user <em>{$a->fullname}</em> was successfully updated to "
+"<em>{$a->email}</em>."
+
+#: $string['emailupdatetitle']
+msgid "Confirmation of email update at {$a->site}"
+msgstr "Confirmation of email update at {$a->site}"
+
+#: $string['enterthenumbersyouhear']
+msgid "Enter the numbers you hear"
+msgstr "Enter the numbers you hear"
+
+#: $string['enterthewordsabove']
+msgid "Enter the words above"
+msgstr "Enter the words above"
+
+#: $string['errormaxconsecutiveidentchars']
+msgid "Passwords must have at most {$a} consecutive identical characters."
+msgstr "Passwords must have at most {$a} consecutive identical characters."
+
+#: $string['errorminpassworddigits']
+msgid "Passwords must have at least {$a} digit(s)."
+msgstr "Passwords must have at least {$a} digit(s)."
+
+#: $string['errorminpasswordlength']
+msgid "Passwords must be at least {$a} characters long."
+msgstr "Passwords must be at least {$a} characters long."
+
+#: $string['errorminpasswordlower']
+msgid "Passwords must have at least {$a} lower case letter(s)."
+msgstr "Passwords must have at least {$a} lower case letter(s)."
+
+#: $string['errorminpasswordnonalphanum']
+msgid ""
+"Passwords must have at least {$a} non-alphanumeric character(s) such as as "
+"*, -, or #."
+msgstr "Passwords must have at least {$a} non-alphanumeric character(s)."
+
+#: $string['errorminpasswordupper']
+msgid "Passwords must have at least {$a} upper case letter(s)."
+msgstr "Passwords must have at least {$a} upper case letter(s)."
+
+#: $string['errorpasswordreused']
+msgid "This password has been used before, and is not permitted to be reused"
+msgstr ""
+"Αυτός ο κωδικός πρόσβασης έχει χρησιμοποιηθεί στο παρελθόν και δεν "
+"επιτρέπεται η επαναχρησιμοποίηση του."
+
+#: $string['errorpasswordupdate']
+msgid "Error updating password, password not changed"
+msgstr "Error updating password, password not changed"
+
+#: $string['eventuserloggedin']
+msgid "User has logged in"
+msgstr "Ο χρήστης έχει συνδεθεί"
+
+#: $string['eventuserloggedinas']
+msgid "User logged in as another user"
+msgstr "Ο χρήστης έχει συνδεθεί ως άλλος χρήστης"
+
+#: $string['eventuserloginfailed']
+msgid "User login failed"
+msgstr "Η είσοδος χρήστη απέτυχε"
+
+#: $string['forcechangepassword']
+msgid "Force change password"
+msgstr "Υποχρεωτική αλλαγή κωδικού πρόσβασης"
+
+#: $string['forcechangepasswordfirst_help']
+msgid "Force users to change password on their first login to Moodle."
+msgstr ""
+"Επιβεβλημένη αλλαγή του κωδικού πρόσβασης των χρηστών την πρώτη φορά που θα "
+"εισέλθουν στο ΠΗΚΕΑΣ"
+
+#: $string['forcechangepassword_help']
+msgid "Force users to change password on their next login to Moodle."
+msgstr ""
+"Επιβεβλημένη αλλαγή του κωδικού πρόσβασης των χρηστών την επόμενη φορά που "
+"θα εισέλθουν στο ΠΗΚΕΑΣ"
+
+#: $string['forgottenpassword']
+msgid ""
+"If you enter a URL here, it will be used as the lost password recovery page "
+"for this site. This is intended for sites where passwords are handled "
+"entirely outside of Moodle. Leave this blank to use the default password "
+"recovery."
+msgstr ""
+"If you enter a URL here, it will be used as the lost password recovery page "
+"for this site. This is intended for sites where passwords are handled "
+"entirely outside of Moodle. Leave this blank to use the default password "
+"recovery."
+
+#: $string['forgottenpasswordurl']
+msgid "Forgotten password URL"
+msgstr "Forgotten password URL"
+
+#: $string['getanaudiocaptcha']
+msgid "Get an audio CAPTCHA"
+msgstr "Ακούστε το ηχητικό CAPTCHA"
+
+#: $string['getanimagecaptcha']
+msgid "Get an image CAPTCHA"
+msgstr "Πάρε μια εικόνα CAPTCHA"
+
+#: $string['getanothercaptcha']
+msgid "Get another CAPTCHA"
+msgstr "Πάρε ένα άλλο CAPTCHA"
+
+#: $string['guestloginbutton']
+msgid "Guest login button"
+msgstr "Σύνδεσμος για την σύνδεση ως καλεσμένος"
+
+#: $string['incorrectpleasetryagain']
+msgid "Incorrect. Please try again."
+msgstr "Incorrect. Please try again."
+
+#: $string['infilefield']
+msgid "Field required in file"
+msgstr "Απαιτούμενο πεδίο στο αρχείο"
+
+#: $string['informminpassworddigits']
+msgid "at least {$a} digit(s)"
+msgstr "τουλάχιστον {$a} ψηφίο (-α)"
+
+#: $string['informminpasswordlength']
+msgid "at least {$a} characters"
+msgstr "τουλάχιστον {$a} χαρακτήρες"
+
+#: $string['informminpasswordlower']
+msgid "at least {$a} lower case letter(s)"
+msgstr "τουλάχιστον {$a} πεζό (ά) γράμμα (τα)"
+
+#: $string['informminpasswordnonalphanum']
+msgid "at least {$a} non-alphanumeric character(s) such as as *, -, or #"
+msgstr "τουλάχιστον {$a} μη αλφαριθμητικό (ούς) χαρακτήρα (ες)"
+
+#: $string['informminpasswordreuselimit']
+msgid "Passwords can be reused after {$a} changes"
+msgstr "Οι κωδικοί μπορεί να ξαναχρησιμοποιηθούν μετά από {$a} αλλαγές"
+
+#: $string['informminpasswordupper']
+msgid "at least {$a} upper case letter(s)"
+msgstr "τουλάχιστον {$a} κεφαλαίο (α) γράμμα (τα)"
+
+#: $string['informpasswordpolicy']
+msgid "The password must have {$a}"
+msgstr "Ο κωδικός πρόσβασης πρέπει να έχει {$a}"
+
+#: $string['instructions']
+msgid "Instructions"
+msgstr "Οδηγίες"
+
+#: $string['internal']
+msgid "Internal"
+msgstr "Εσωτερικό"
+
+#: $string['limitconcurrentlogins']
+msgid "Limit concurrent logins"
+msgstr ""
+
+#: $string['limitconcurrentlogins_desc']
+msgid ""
+"If enabled the number of concurrent browser logins for each user is "
+"restricted. The oldest session is terminated after reaching the limit, "
+"please note that users may lose all unsaved work. This setting is not "
+"compatible with single sign-on (SSO) authentication plugins."
+msgstr ""
+
+#: $string['locked']
+msgid "Locked"
+msgstr "Κλειδωμένο"
+
+#: $string['md5']
+msgid "MD5 hash"
+msgstr "MD5 κρυπτογράφηση"
+
+#: $string['nopasswordchange']
+msgid "Password can not be changed"
+msgstr "Password can not be changed"
+
+#: $string['nopasswordchangeforced']
+msgid ""
+"You cannot proceed without changing your password, however there is no "
+"available page for changing it. Please contact your Moodle Administrator."
+msgstr ""
+"You cannot proceed without changing your password, however there is no "
+"available page for changing it. Please contact your Moodle Administrator."
+
+#: $string['noprofileedit']
+msgid "Profile can not be edited"
+msgstr "Το προφίλ δεν μπορεί να επεξεργαστεί"
+
+#: $string['ntlmsso_attempting']
+msgid "Attempting Single Sign On via NTLM..."
+msgstr "Attempting Single Sign On via NTLM..."
+
+#: $string['ntlmsso_failed']
+msgid "Auto-login failed, try the normal login page..."
+msgstr "Auto-login failed, try the normal login page..."
+
+#: $string['ntlmsso_isdisabled']
+msgid "NTLM SSO is disabled."
+msgstr "NTLM SSO is disabled."
+
+#: $string['passwordhandling']
+msgid "Password field handling"
+msgstr "Χειρισμός του πεδίου κωδικού"
+
+#: $string['plaintext']
+msgid "Plain text"
+msgstr "Απλό κείμενο"
+
+#: $string['pluginnotenabled']
+msgid "Authentication plugin '{$a}' is not enabled."
+msgstr "Authentication plugin '{$a}' is not enabled."
+
+#: $string['pluginnotinstalled']
+msgid "Authentication plugin '{$a}' is not installed."
+msgstr "Authentication plugin '{$a}' is not installed."
+
+#: $string['potentialidps']
+msgid "Log in using your account on:"
+msgstr "Συνδεθείτε χρησιμοποιώντας το λογαριασμό σας στο:"
+
+#: $string['recaptcha']
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: $string['recaptcha_help']
+msgid ""
+"The CAPTCHA is for preventing abuse from automated programs. Simply enter "
+"the words in the box, in order and separated by a space.\n"
+"\n"
+"If you are not sure what the words are, you can try getting another CAPTCHA "
+"or an audio CAPTCHA."
+msgstr ""
+"<h2>Περιγραφή</h2>\n"
+"<p>Το CAPTCHA είναι ένα πρόγραμα που μπορεί να αποφασίσει εάν κάποιος "
+"χρήστης είναι ανθρωπος ή υπολογιστής. Τα CAPTCHA χρησιμοποιούνται από "
+"πολλούς ιστοχώρους για να αποτρέψουν την κατάχρηση από \"bot,\" ή "
+"αυτοματοποιημένα προγράμματα συνήθως γραμμένα για να δημιουργούν spam. "
+"Κανένα πρόγραμμα υπολογιστή δεν μοπρεί να διαβάσει στρεβλωμένο κείμενο τόσο "
+"καλά όσο οι άνθρωποι,  οπότε οι τα bot δεν μπορούν να προσπελάσουν "
+"ιστοχώρους που προστατεύονται από CAPTCHA.</p>\n"
+"\n"
+"<h2>Οδηγίες</h2>\n"
+"<p>Παρκααλώ καταχωρήστε τις λέξεις που βλέπετε στο πλαίσιο σε σειρά και "
+"χωρισμένες από ένα κενό χαρακτήρα. Κάτι τέτοιο αποτρέπει αυτοματοποιημένα "
+"προγράμματα από το να καταχραστούν αυτήν την υπηρεσία.</p>\n"
+"\n"
+"<p>Εάν δεν είστε σίγουροι ποιες είναι οι λέξεις τότε είτε εισαγάγετε την "
+"καλύτερή σας εικασία ή ακολουθήστε το σύνδεσμο \"Φέρε άλλο CAPTCHA\". </p>\n"
+"\n"
+"<p>Άτομα με προβλήματα όρασης μπορούν να ακολουθήσουν το σύνδεσμο \"Φέρε ένα "
+"ηχητικό CAPTCHA\" ώστε να ακούσουν ένα σετ από ψηφία που μπορούν να εισαχθούν "
+"αντί της οπτικής πρόκλησης.</p>"
+
+#: $string['recaptcha_link']
+msgid "auth/email"
+msgstr ""
+
+#: $string['security_question']
+msgid "Security question"
+msgstr "Ερώτηση ασφαλείας"
+
+#: $string['selfregistration']
+msgid "Self registration"
+msgstr "Self registration"
+
+#: $string['selfregistration_help']
+msgid ""
+"If an authentication plugin, such as email-based self-registration, is "
+"selected, then it enables potential users to register themselves and create "
+"accounts. This results in the possibility of spammers creating accounts in "
+"order to use forum posts, blog entries etc. for spam. To avoid this risk, "
+"self-registration should be disabled or limited by <em>Allowed email "
+"domains</em> setting."
+msgstr ""
+"If an authentication plugin, such as email-based self-registration, is "
+"selected, then it enables potential users to register themselves and create "
+"accounts. This results in the possibility of spammers creating accounts in "
+"order to use forum posts, blog entries etc. for spam. To avoid this risk, "
+"self-registration should be disabled or limited by <em>Allowed email "
+"domains</em> setting."
+
+#: $string['settingmigrationmismatch']
+msgid ""
+"Values mismatch detected while correcting the plugin setting names! The "
+"authentication plugin '{$a->plugin}' had the setting '{$a->setting}' "
+"configured to '{$a->legacy}' under the legacy name and to '{$a->current}' "
+"under the current name. The latter value has been set as the valid one but "
+"you should check and confirm that it is expected."
+msgstr ""
+"Εντοπίστηκε αναντιστοιχία τιμών κατά τη διόρθωση των ονομάτων των ρυθμίσεων "
+"του πρόσθετου. Το πρόσθετο αυθεντικοποίησης '{$a->plugin}' είχε τη ρύθμιση "
+"'{$a->setting}' διαμορφωμένη σε '{$a->legacy}' με το παλιό όνομα και σε "
+"'{$a->current}' με το τρέχον όνομα. Η τελευταία τιμή έχει οριστεί ως η "
+"έγκυρη αλλά θα πρέπει να ελέγξετε και να επιβεβαιώσετε έχει γίνει αποδεκτή."
+
+#: $string['sha1']
+msgid "SHA-1 hash"
+msgstr "SHA-1 hash"
+
+#: $string['showguestlogin']
+msgid "You can hide or show the guest login button on the login page."
+msgstr "Μπορείτε να αποκρύψετε ή να εμφανίσετε το σύνδεσμο στη σελίδα σύνδεσης"
+
+#: $string['stdchangepassword']
+msgid "Use standard page for changing password"
+msgstr "Χρήση standard σελίδας αλλαγής κωδικού"
+
+#: $string['stdchangepassword_expl']
+msgid ""
+"If the external authentication system allows password changes through "
+"Moodle, switch this to Yes. This setting overrides 'Change Password URL'."
+msgstr ""
+"Εάν το εξωτερικό σύστημα πιστοποίησης επιτρέπει αλλαγές στο κωδικό πρόσβασης "
+"μεσα στο ΠΗΛΕΑΣ, ρυθμίστε το σε Ναι. Αυτή η ρύθμιση υπερβαίνει το 'URL "
+"αλλαγής κωδικού'."
+
+#: $string['stdchangepassword_explldap']
+msgid ""
+"NOTE: It is recommended that you use LDAP over an SSL encrypted tunnel "
+"(ldaps://) if the LDAP server is remote."
+msgstr ""
+"Σημείωση: Δεν προτείνεται να χρησιμοποιήσετε LDAP πάνω από ένα SSL "
+"κρυπτογραφημένο τούνελ (ldaps://) εάν ο LDAP server είναι απομακρυσμένος."
+
+#: $string['suspended']
+msgid "Suspended account"
+msgstr "Ανεσταλμένος λογαριασμός"
+
+#: $string['suspended_help']
+msgid ""
+"Suspended user accounts cannot log in or use web services, and any outgoing "
+"messages are discarded."
+msgstr ""
+"Οι λογαριασμοί χρηστών σε αναστολή δεν μπορούν να συνδεθούν ή να "
+"χρησιμοποιήσουν διαδικτυακές υπηρεσίες και όλα τα εξερχόμενα μηνύματα "
+"απορρίπτονται."
+
+#: $string['testsettings']
+msgid "Test settings"
+msgstr "Δοκιμαστικές ρυθμίσεις"
+
+#: $string['testsettingsheading']
+msgid "Test authentication settings - {$a}"
+msgstr ""
+
+#: $string['unlocked']
+msgid "Unlocked"
+msgstr "Ξεκλειδωμένο"
+
+#: $string['unlockedifempty']
+msgid "Unlocked if empty"
+msgstr "Ξεκλειδωμένο άν είναι άδειο"
+
+#: $string['update_never']
+msgid "Never"
+msgstr "Ποτέ"
+
+#: $string['update_oncreate']
+msgid "On creation"
+msgstr "Στην δημιουργία"
+
+#: $string['update_onlogin']
+msgid "On every login"
+msgstr "Σε κάθε είσοδο"
+
+#: $string['update_onupdate']
+msgid "On update"
+msgstr "Στην ανανέωση"
+
+#: $string['user_activatenotsupportusertype']
+msgid "auth: ldap user_activate() does not support selected usertype: {$a}"
+msgstr "auth: ldap user_activate() does not support selected usertype: {$a}"
+
+#: $string['user_disablenotsupportusertype']
+msgid "auth: ldap user_disable() does not support selected usertype (..yet)"
+msgstr "auth: ldap user_disable() does not support selected usertype (..yet)"
+
+#: $string['username']
+msgid "Username"
+msgstr "Όνομα χρήστη"
+
+#: $string['username_help']
+msgid ""
+"Please be aware that some authentication plugins will not allow you to "
+"change the username."
+msgstr ""

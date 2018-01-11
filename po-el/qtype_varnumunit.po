@@ -1,0 +1,172 @@
+#. extracted from lang/en/qtype_varnumunit.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qtype_varnumunit', language 'en', branch 'MOODLE_31_STABLE'
+#.  *
+#.  * @package   qtype_varnumunit
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addmoreunits']
+msgid "Blanks for {no} more units"
+msgstr ""
+
+#: $string['anyotherunit']
+msgid "Any other unit"
+msgstr ""
+
+#: $string['correctansweris']
+msgid "The correct numerical part of the question is: {$a}."
+msgstr ""
+
+#: $string['notenoughunits']
+msgid ""
+"You have not entered any expressions to match units. You must enter at least "
+"one expression to match\n"
+" units"
+msgstr ""
+
+#: $string['notvalidnumberprepostfound']
+msgid "Your answer should start with a number."
+msgstr ""
+
+#: $string['percentgradefornumandunit']
+msgid "Value : {$a->num}, Units : {$a->unit}"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Variable numeric set with units"
+msgstr ""
+
+#: $string['pluginnameadding']
+msgid "Adding a Variable numeric set question with units"
+msgstr ""
+
+#: $string['pluginnameediting']
+msgid "Editing a Variable numeric set question with units"
+msgstr ""
+
+#: $string['pluginname_help']
+msgid ""
+"In response to a question the respondent types a number and appropriate "
+"units.\n"
+"\n"
+"This question is similar to the 'Variable numeric set' question type but it "
+"accepts, grades and gives feedback for units too.\n"
+"\n"
+"Numbers used in the question and used to calculate the answer are chosen "
+"from predefined sets which can be precalculated from\n"
+"mathematical expressions.\n"
+"\n"
+"All expressions are calculated at the time of question creation and values "
+"from random functions are the same for all users."
+msgstr ""
+
+#: $string['pluginname_link']
+msgid "question/type/varnumunit"
+msgstr ""
+
+#: $string['pluginnamesummary']
+msgid ""
+"Allows a numeric response with units, question can have several 'variants',\n"
+"expressions are pre evaluated for each question variant"
+msgstr ""
+
+#: $string['removespace']
+msgid "Remove spaces"
+msgstr ""
+
+#: $string['replacedash']
+msgid "Replace dashes"
+msgstr ""
+
+#: $string['summarise_response']
+msgid "Number : \"{$a->numeric}\", Unit : \"{$a->unit}\""
+msgstr ""
+
+#: $string['superscriptallowed']
+msgid "Allow, but not require, superscripts"
+msgstr ""
+
+#: $string['superscriptnone']
+msgid "No superscripts"
+msgstr ""
+
+#: $string['superscripts']
+msgid "In student response"
+msgstr ""
+
+#: $string['superscriptscinotationrequired']
+msgid "Require scientific notation"
+msgstr ""
+
+#: $string['unitduplicate']
+msgid "Same pmatch expression used more than once."
+msgstr ""
+
+#: $string['unitmustbegiven']
+msgid ""
+"You have supplied a grade and / or feedback here but not specified an "
+"expression to match units with.\n"
+"Enter an expression or reset the grade to zero and remove feedback."
+msgstr ""
+
+#: $string['unitno']
+msgid "Unit {$a}"
+msgstr ""
+
+#: $string['units']
+msgid "Units"
+msgstr ""
+
+#: $string['unitsfractionsnomax']
+msgid ""
+"One of the units should have a score of 100% so it is possible to get full "
+"marks for the unit\n"
+"part of the question."
+msgstr ""
+
+#: $string['units_help']
+msgid "Use Pattern match syntax to describe matching units."
+msgstr ""
+
+#: $string['unitweighting']
+msgid "Relative weightings of answer parts"
+msgstr ""
+
+#: $string['value']
+msgid "Value"
+msgstr ""
+
+#: $string['value_help']
+msgid ""
+"Enter values for 'Predefined variables' here or you will see calculated "
+"values displayed here for a\n"
+"'Calculated variable'."
+msgstr ""

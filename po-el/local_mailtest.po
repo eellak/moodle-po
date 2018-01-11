@@ -1,0 +1,153 @@
+#. extracted from lang/en/local_mailtest.php, lang/el/local_mailtest.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'local_mailtest', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   local_mailtest
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['alwaysshowlog']
+msgid ""
+"Always show log of communications with mail server, even if there are no "
+"errors."
+msgstr ""
+
+#: $string['credit']
+msgid ""
+"Michael Milette - <a href=\"http://www.tngconsulting.ca/\">TNG Consulting "
+"Inc.</a>"
+msgstr ""
+
+#: $string['errorcommunications']
+msgid ""
+"Moodle could not communicate with your mail "
+"server.</p><p><strong>Recommendation:</strong></p><p>Start by checking your "
+"Moodle <a href=\"{$a}\" target=\"_blank\">SMTP mail settings</a>.</p><p>If they "
+"look correct, check your SMTP Server and/or firewall settings to ensure that "
+"they are configured to accept SMTP connections from your Moodle web server "
+"and from your no-reply email address. For more help, see the FAQ section in "
+"the documentation."
+msgstr ""
+
+#: $string['errorsend']
+msgid ""
+"The test email message could not be delivered to the mail "
+"server.</p><p><strong>Recommendation:</strong></p><p>Check your Moodle <a "
+"href=\"{$a}\" target=\"blank\">Email settings</a>. For more help, see the FAQ "
+"section in the documentation."
+msgstr ""
+
+#: $string['from']
+msgid ""
+"{$a->type}: <strong>{$a->email}</strong> (<a "
+"href=\"{$a->url}\">{$a->label}</a>)"
+msgstr ""
+
+#: $string['fromemail']
+msgid "From email address"
+msgstr "Από διεύθυνση ηλεκτρονικού ταχυδρομείου"
+
+#: $string['heading']
+msgid "Email configuration test"
+msgstr ""
+
+#: $string['message']
+msgid ""
+"<p>This is a test message. Please disregard.</p>\n"
+"<p>If you received this email, it means that you have successfully "
+"configured your Moodle site's email settings.</p>\n"
+"<hr><p><strong>Additional User Information</strong></p>\n"
+"<ul>\n"
+"<li><strong>Registration status :</strong> {$a->regstatus}</li>\n"
+"<li><strong>Preferred language :</strong> {$a->lang}</li>\n"
+"<li><strong>User's web browser :</strong> {$a->browser}</li>\n"
+"<li><strong>Message submitted from :</strong> {$a->referer}</li>\n"
+"<li><strong>Moodle version :</strong> {$a->release}</li>\n"
+"<li><strong>User's IP address :</strong> {$a->ip}</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['notregistered']
+msgid "Not registered or not logged in."
+msgstr ""
+
+#: $string['phpmethod']
+msgid "PHP default method"
+msgstr ""
+
+#: $string['pluginname']
+msgid "eMail Test"
+msgstr ""
+
+#: $string['pluginname_help']
+msgid ""
+"eMail Test will verify the email settings for this Moodle site by sending a "
+"test email message to the address you specify. For Site Administrators only."
+msgstr ""
+
+#: $string['primaryadminemail']
+msgid "Primary admin email"
+msgstr ""
+
+#: $string['recipientisrequired']
+msgid "You must specify the recipient's email address."
+msgstr ""
+
+#: $string['registered']
+msgid "Registered user ({$a})."
+msgstr ""
+
+#: $string['sendmethod']
+msgid "Email send method"
+msgstr ""
+
+#: $string['sendtest']
+msgid "Send a test message"
+msgstr "Αποστολή δοκιμαστικού μηνύματος"
+
+#: $string['sentmail']
+msgid "Moodle successfully delivered the test message to the SMTP mail server."
+msgstr ""
+
+#: $string['sentmailphp']
+msgid "The Moodle test message was successfully accepted by PHP Mail."
+msgstr ""
+
+#: $string['smtpmethod']
+msgid "SMTP hosts: {$a}"
+msgstr ""
+
+#: $string['toemail']
+msgid "To email address"
+msgstr "Προς διεύθυνση ηλεκτρονικού ταχυδρομείου"
+
+#: $string['youremail']
+msgid "Your email address"
+msgstr ""

@@ -1,0 +1,2196 @@
+#. extracted from lang/en/role.php, lang/el/role.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'role', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   role
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addinganewrole']
+msgid "Adding a new role"
+msgstr "Προσθήκη νέου ρόλου"
+
+#: $string['addrole']
+msgid "Add a new role"
+msgstr "Προσθήκη ρόλου"
+
+#: $string['advancedoverride']
+msgid "Advanced role override"
+msgstr "Ανώτερος υπερισχύον ρόλος"
+
+#: $string['allow']
+msgid "Allow"
+msgstr "Άδεια"
+
+#: $string['allowassign']
+msgid "Allow role assignments"
+msgstr "Να επιτρέπεται η ανάθεση ρόλων"
+
+#: $string['allowed']
+msgid "Allowed"
+msgstr "Επιτρέπεται"
+
+#: $string['allowoverride']
+msgid "Allow role overrides"
+msgstr "Δυνατότητα αλλαγής ρόλου"
+
+#: $string['allowroletoassign']
+msgid ""
+"Allow users with role {$a->fromrole} to assign the role {$a->targetrole}"
+msgstr ""
+"Να επιτρέπεται στους χρήστες με ρόλο {$a->fromrole} να αναθέτουν το ρόλο "
+"{$a->targetrole}"
+
+#: $string['allowroletooverride']
+msgid ""
+"Allow users with role {$a->fromrole} to override the role {$a->targetrole}"
+msgstr ""
+"Να επιτρέπεται στους χρήστες με ρόλο {$a->fromrole} να κάνουν υπέρβαση του "
+"ρόλου {$a->targetrole}"
+
+#: $string['allowroletoswitch']
+msgid ""
+"Allow users with role {$a->fromrole} to switch roles to the role "
+"{$a->targetrole}"
+msgstr ""
+"Να επιτρέπεται στους χρήστες με ρόλο {$a->fromrole} να αλλάζουν ρόλο σε "
+"{$a->targetrole}"
+
+#: $string['allowroletoview']
+msgid "Allow users with role {$a->fromrole} to view the role {$a->targetrole}"
+msgstr ""
+
+#: $string['allowswitch']
+msgid "Allow role switches"
+msgstr "Να επιτρέπονται αλλαγές ρόλων"
+
+#: $string['allowview']
+msgid "Allow role to view"
+msgstr ""
+
+#: $string['allsiteusers']
+msgid "All site users"
+msgstr "Όλοι οι χρήστες"
+
+#: $string['analytics:listinsights']
+msgid "List insights"
+msgstr ""
+
+#: $string['analytics:managemodels']
+msgid "Manage models"
+msgstr ""
+
+#: $string['archetype']
+msgid "Role archetype"
+msgstr "Ρόλος αρχέτυπο"
+
+#: $string['archetypecoursecreator']
+msgid "ARCHETYPE: Course creator"
+msgstr "ΑΡΧΕΤΥΠΟ: Δημιουργός μαθημάτων"
+
+#: $string['archetypeeditingteacher']
+msgid "ARCHETYPE: Teacher (editing)"
+msgstr "ΑΡΧΕΤΥΠΟ: Καθηγητής (επιτρέπεται να κάνει αλλαγές)"
+
+#: $string['archetypefrontpage']
+msgid "ARCHETYPE: Authenticated user on frontpage"
+msgstr "ΑΡΧΕΤΥΠΟ: Αυθεντικοποίηση χρήστη στην πρώτη σελίδα"
+
+#: $string['archetypeguest']
+msgid "ARCHETYPE: Guest"
+msgstr ""
+
+#: $string['archetype_help']
+msgid ""
+"The role archetype determines the permissions when a role is reset to "
+"default. It also determines any new permissions for the role when the site "
+"is upgraded."
+msgstr ""
+"Ο ρόλος αρχέτυπο καθορίζει τα δικαιώματα όταν ένας ρόλος επαναφέρεται στις "
+"προεπιλεγμένες ρυθμίσεις. Καθορίζει επίσης οποιαδήποτε νέα διακιώματα για το "
+"ρόλο, όταν αναβαθμίζεται ο ιστότοπος."
+
+#: $string['archetypemanager']
+msgid "ARCHETYPE: Manager"
+msgstr "ΑΡΧΕΤΥΠΟ: Διαχειριστής"
+
+#: $string['archetypestudent']
+msgid "ARCHETYPE: Student"
+msgstr ""
+
+#: $string['archetypeteacher']
+msgid "ARCHETYPE: Teacher (non-editing)"
+msgstr "ΑΡΧΕΤΥΠΟ: Καθηγητής (δεν του επιτρέπεται να κάνει αλλαγές)"
+
+#: $string['archetypeuser']
+msgid "ARCHETYPE: Authenticated user"
+msgstr "ΑΡΧΕΤΥΠΟ: Πιστοποιημένος χρήστης"
+
+#: $string['assignanotherrole']
+msgid "Assign another role"
+msgstr "Ανάθεση άλλου ρόλου"
+
+#: $string['assignedroles']
+msgid "Assigned roles"
+msgstr ""
+
+#: $string['assignerror']
+msgid "Error while assigning the role {$a->role} to user {$a->user}."
+msgstr "Σφάλμα κατά την ανάθεση του ρόλου {$a->role} στο χρήστη {$a->user}."
+
+#: $string['assignglobalroles']
+msgid "Assign system roles"
+msgstr "Ανάθεση γενικών ρόλων"
+
+#: $string['assignmentcontext']
+msgid "Assignment context"
+msgstr "Πλαίσιο απόδοσης"
+
+#: $string['assignmentoptions']
+msgid "Assignment options"
+msgstr "Επιλογές απόδοσης"
+
+#: $string['assignrole']
+msgid "Assign role"
+msgstr ""
+
+#: $string['assignrolenameincontext']
+msgid "Assign role '{$a->role}' in {$a->context}"
+msgstr "Ανάθεση του ρόλου {$a->role} στο πλαίσιο {$a->context}"
+
+#: $string['assignroles']
+msgid "Assign roles"
+msgstr "Ανάθεση ρόλων"
+
+#: $string['assignroles_help']
+msgid ""
+"By assigning a role to a user in a context, you are granting them the "
+"permissions contained in that role, for the current context and all lower "
+"contexts. For example, if a user is assigned the role of student in a "
+"course, they will also have the role of student for all activities and "
+"blocks within the course."
+msgstr ""
+"<p align=\"center\"><b>Ανάθεση ρόλων</b></p>\n"
+"\n"
+"<p>\n"
+"Με την ανάθεση ενός ρόλου σε ένα πλαίσιο(context), δίνεται πρόσβαση σε αυτό "
+"και στα κατώτερα περιβάλλοντα.\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"Πλαίσια(Contexts):\n"
+"<ol>\n"
+"<li>Ιστοχώρος/Σύστημα</li>\n"
+"<li>Κατηγορίες Μαθημάτων</li>\n"
+"<li>Μαθήματα</li>\n"
+"<li>Μπλοκ και Δραστηριότητες</li>\n"
+"</ol>\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"Βλέπετε\n"
+"<a href=\"help.php?file=roles.html\">Ρόλοι</a>,\n"
+"<a href=\"help.php?file=contexts.html\">Περιβάλλοντα</a>,\n"
+"<a href=\"help.php?file=permissions.html\">Προσβάσεις</a> and\n"
+"<a href=\"help.php?file=overrides.html\">Παρακάμψεις</a>.\n"
+"</p>"
+
+#: $string['assignrolesin']
+msgid "Assign roles in {$a}"
+msgstr "Ανάθεση ρόλων στο {$a}"
+
+#: $string['assignroles_link']
+msgid "admin/roles/assign"
+msgstr ""
+
+#: $string['assignrolesrelativetothisuser']
+msgid "Assign roles relative to this user"
+msgstr "Ανάθεση ρόλων συγκριτικά με αυτό το χρήστη"
+
+#: $string['backtoallroles']
+msgid "Back to the list of all roles"
+msgstr "Επιστροφή στη λίστα ρόλων"
+
+#: $string['backup:anonymise']
+msgid "Anonymise user data on backup"
+msgstr "Ανώνυμα δεδομένα χρήστη στα αντίγραφα ασφαλείας"
+
+#: $string['backup:backupactivity']
+msgid "Backup activities"
+msgstr "Δημιουργία αντιγράφου ασφαλείας στις δραστηριότητες"
+
+#: $string['backup:backupcourse']
+msgctxt "$string['backup:backupcourse']"
+msgid "Backup courses"
+msgstr "Αντίγραφα ασφαλείας μαθημάτων"
+
+#: $string['backup:backupsection']
+msgid "Backup sections"
+msgstr "Αντίγραφα ασφαλείας τμημάτων"
+
+#: $string['backup:backuptargethub']
+msgid "Backup for publishing on Moodle.net"
+msgstr "Αντίγραφα ασφαλείας για την κοινότητα (hub)"
+
+#: $string['backup:backuptargetimport']
+msgid "Backup for import"
+msgstr "Αντίγραφα ασφαλείας για εισαγωγή"
+
+#: $string['backup:configure']
+msgid "Configure backup options"
+msgstr "Διαμόρφωση επιλογών αντιγράφων ασφαλείας"
+
+#: $string['backup:downloadfile']
+msgid "Download files from backup areas"
+msgstr "Λήψη αρχείων από περιοχές αντιγράφων ασφαλείας"
+
+#: $string['backup:userinfo']
+msgid "Backup user data"
+msgstr "Αντίγραφα ασφαλείας δεδομένων χρήστη"
+
+#: $string['badges:awardbadge']
+msgid "Award badge to a user"
+msgstr ""
+
+#: $string['badges:configurecriteria']
+msgid "Set up/edit criteria of earning a badge"
+msgstr ""
+
+#: $string['badges:configuredetails']
+msgid "Set up/edit badge details"
+msgstr ""
+
+#: $string['badges:configuremessages']
+msgid "Configure badge messages"
+msgstr ""
+
+#: $string['badges:createbadge']
+msgid "Create/duplicate badges"
+msgstr ""
+
+#: $string['badges:deletebadge']
+msgid "Delete badges"
+msgstr ""
+
+#: $string['badges:earnbadge']
+msgid "Earn badge"
+msgstr ""
+
+#: $string['badges:manageglobalsettings']
+msgid "Manage badges global settings"
+msgstr ""
+
+#: $string['badges:manageownbadges']
+msgid "View and manage own earned badges"
+msgstr ""
+
+#: $string['badges:revokebadge']
+msgid "Revoke badge from a user"
+msgstr ""
+
+#: $string['badges:viewawarded']
+msgid ""
+"View users who earned a specific badge without being able to award a badge"
+msgstr ""
+
+#: $string['badges:viewbadges']
+msgid "View available badges without earning them"
+msgstr ""
+
+#: $string['badges:viewotherbadges']
+msgid "View public badges in other users' profiles"
+msgstr ""
+
+#: $string['block:edit']
+msgid "Edit a block's settings"
+msgstr "Επεξεργασία ρυθμίσεων μπλοκ"
+
+#: $string['block:view']
+msgid "View block"
+msgstr "Προβολή μπλοκ"
+
+#: $string['blog:create']
+msgid "Create new blog entries"
+msgstr "Δημιουργία καταχωρήσεων σε ιστολόγιο"
+
+#: $string['blog:manageentries']
+msgid "Edit and manage entries"
+msgstr "Επεξεργασία καταχωρήσεων"
+
+#: $string['blog:manageexternal']
+msgid "Edit and manage external blogs"
+msgstr "Επεξεργασία και διαχείριση εξωτερικών ιστολογίων"
+
+#: $string['blog:search']
+msgid "Search blog entries"
+msgstr ""
+
+#: $string['blog:view']
+msgid "View blog entries"
+msgstr "Προβολή καταχωρήσεων ιστολογίου"
+
+#: $string['blog:viewdrafts']
+msgid "View draft blog entries"
+msgstr "Προβολή προσχεδίου καταχωρήσεων ιστολογίου"
+
+#: $string['calendar:manageentries']
+msgid "Manage any calendar entries"
+msgstr "Διαχείριση των καταχωρήσεων οποιουδήποτε ημερολογίου"
+
+#: $string['calendar:managegroupentries']
+msgid "Manage group calendar entries"
+msgstr "Διαχείριση ομαδικών γεγονότων"
+
+#: $string['calendar:manageownentries']
+msgid "Manage own calendar entries"
+msgstr "Διαχείριση προσωπικών γεγονότων"
+
+#: $string['capabilities']
+msgid "Capabilities"
+msgstr "Δυνατότητες"
+
+#: $string['capability']
+msgid "Capability"
+msgstr "Δυνατότητα"
+
+#: $string['category:create']
+msgid "Create categories"
+msgstr "Δημιουργία κατηγοριών"
+
+#: $string['category:delete']
+msgid "Delete categories"
+msgstr "Διαγραφή κατηγοριών"
+
+#: $string['category:manage']
+msgid "Manage categories"
+msgstr "Διαχείριση κατηγοριών"
+
+#: $string['category:update']
+msgid "Update categories"
+msgstr "Τροποποίηση κατηγοριών"
+
+#: $string['category:viewhiddencategories']
+msgctxt "$string['category:viewhiddencategories']"
+msgid "See hidden categories"
+msgstr "Προβολή κρυφών κατηγοριών"
+
+#: $string['category:visibility']
+msgctxt "$string['category:visibility']"
+msgid "See hidden categories"
+msgstr "Προβολή κρυφών κατηγοριών"
+
+#: $string['checkglobalpermissions']
+msgid "Check system permissions"
+msgstr "Έλεγχος δυνατοτήτων συστήματος"
+
+#: $string['checkpermissions']
+msgid "Check permissions"
+msgstr "Έλεγχος δυνατοτήτων"
+
+#: $string['checkpermissionsin']
+msgid "Check permissions in {$a}"
+msgstr "Έλεγχος δυνατοτήτων στο {$a}"
+
+#: $string['checksystempermissionsfor']
+msgid "Check system permissions for {$a->fullname}"
+msgstr "Έλεγχος δυνατοτήτων συστήματος για το χρήστη {$a->fullname}"
+
+#: $string['checkuserspermissionshere']
+msgid "Check permissions for {$a->fullname} has in this {$a->contextlevel}"
+msgstr "Έλεγχος δυνατοτήτων για το χρήστη {$a->fullname} σε {$a->contextlevel}"
+
+#: $string['chooseroletoassign']
+msgid "Please choose a role to assign"
+msgstr "Παρακαλώ επιλέξτε ρόλο προς ανάθεση"
+
+#: $string['cohort:assign']
+msgid "Add and remove cohort members"
+msgstr "Προσθήκη και διαγραφή μελών στις ομάδες χρηστών"
+
+#: $string['cohort:manage']
+msgid "Create, delete and move cohorts"
+msgstr "Δημιουργία, διαγραφή και μετακίνηση ομάδων χρηστών"
+
+#: $string['cohort:view']
+msgid "View site-wide cohorts"
+msgstr "Εμφάνιση όλων των ομάδων χρηστών (cohort) της πλατφόρμας"
+
+#: $string['comment:delete']
+msgid "Delete comments"
+msgstr "Διαγραφή σχολίων"
+
+#: $string['comment:post']
+msgid "Post comments"
+msgstr "Αποστολή σχολίων"
+
+#: $string['comment:view']
+msgid "View comments"
+msgstr "Ανάγνωση  σχολίων"
+
+#: $string['community:add']
+msgid "Use the community block to search Moodle.net and find courses"
+msgstr ""
+"Χρήση του μπλοκ της κοινότητας για αναζήτηση κόμβων και εύρεση μαθημάτων"
+
+#: $string['community:download']
+msgid "Download a course from the community block"
+msgstr "Κατέβασμα μαθήματος από το μπλοκ της κοινότητας"
+
+#: $string['competency:competencygrade']
+msgid "Set competency rating"
+msgstr ""
+
+#: $string['competency:competencymanage']
+msgid "Manage competency frameworks"
+msgstr ""
+
+#: $string['competency:competencyview']
+msgid "View competency frameworks"
+msgstr ""
+
+#: $string['competency:coursecompetencyconfigure']
+msgid "Configure course competency settings"
+msgstr ""
+
+#: $string['competency:coursecompetencygradable']
+msgid "Receive competency marks"
+msgstr ""
+
+#: $string['competency:coursecompetencymanage']
+msgid "Manage course competencies"
+msgstr ""
+
+#: $string['competency:coursecompetencyview']
+msgid "View course competencies"
+msgstr ""
+
+#: $string['competency:evidencedelete']
+msgid "Delete evidence"
+msgstr ""
+
+#: $string['competency:plancomment']
+msgid "Comment on a learning plan"
+msgstr ""
+
+#: $string['competency:plancommentown']
+msgid "Comment on own learning plan"
+msgstr ""
+
+#: $string['competency:planmanage']
+msgid "Manage learning plans"
+msgstr ""
+
+#: $string['competency:planmanagedraft']
+msgid "Manage draft learning plans"
+msgstr ""
+
+#: $string['competency:planmanageown']
+msgid "Manage own learning plans"
+msgstr ""
+
+#: $string['competency:planmanageowndraft']
+msgid "Manage own draft learning plans"
+msgstr ""
+
+#: $string['competency:planrequestreview']
+msgid "Request review of a learning plan"
+msgstr ""
+
+#: $string['competency:planrequestreviewown']
+msgid "Request review of own learning plan"
+msgstr ""
+
+#: $string['competency:planreview']
+msgid "Review a learning plan"
+msgstr ""
+
+#: $string['competency:planview']
+msgid "View all learning plans"
+msgstr ""
+
+#: $string['competency:planviewdraft']
+msgid "View draft learning plans"
+msgstr ""
+
+#: $string['competency:planviewown']
+msgid "View own learning plans"
+msgstr ""
+
+#: $string['competency:planviewowndraft']
+msgid "View own draft learning plans"
+msgstr ""
+
+#: $string['competency:templatemanage']
+msgid "Manage learning plan templates"
+msgstr ""
+
+#: $string['competency:templateview']
+msgid "View learning plan templates"
+msgstr ""
+
+#: $string['competency:usercompetencycomment']
+msgid "Comment on a user competency"
+msgstr ""
+
+#: $string['competency:usercompetencycommentown']
+msgid "Comment on own user competency"
+msgstr ""
+
+#: $string['competency:usercompetencyrequestreview']
+msgid "Request review of a user competency"
+msgstr ""
+
+#: $string['competency:usercompetencyrequestreviewown']
+msgid "Request review of own user competency"
+msgstr ""
+
+#: $string['competency:usercompetencyreview']
+msgid "Review a user competency"
+msgstr ""
+
+#: $string['competency:usercompetencyview']
+msgid "View a user competency"
+msgstr ""
+
+#: $string['competency:userevidencemanage']
+msgid "Manage evidence of prior learning"
+msgstr ""
+
+#: $string['competency:userevidencemanageown']
+msgid "Manage own evidence of prior learning"
+msgstr ""
+
+#: $string['competency:userevidenceview']
+msgid "View evidence of prior learning of a user"
+msgstr ""
+
+#: $string['confirmaddadmin']
+msgid ""
+"Do you really want to add user <strong>{$a}</strong> as new site "
+"administrator?"
+msgstr ""
+
+#: $string['confirmdeladmin']
+msgid ""
+"Do you really want to remove user <strong>{$a}</strong> from the list of "
+"site administrators?"
+msgstr ""
+
+#: $string['confirmroleprevent']
+msgid ""
+"Do you really want to remove <strong>\"{$a->role}\"</strong> from the list of "
+"allowed roles for capability \"{$a->cap}\" in context \"{$a->context}\"?"
+msgstr ""
+
+#: $string['confirmroleunprohibit']
+msgid ""
+"Do you really want to remove <strong>\"{$a->role}\"</strong> from the list of "
+"prohibited roles for capability \"{$a->cap}\" in context \"{$a->context}\"?"
+msgstr ""
+
+#: $string['confirmunassign']
+msgid "Are you sure you wish to remove this role from this user?"
+msgstr ""
+
+#: $string['confirmunassignno']
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: $string['confirmunassigntitle']
+msgid "Confirm role change"
+msgstr ""
+
+#: $string['confirmunassignyes']
+msgid "Remove"
+msgstr ""
+
+#: $string['context']
+msgid "Context"
+msgstr "Πλαίσιο"
+
+#: $string['course:activityvisibility']
+msgid "Hide/show activities"
+msgstr "Προβολή/απόκρυψη δραστηριοτήτων"
+
+#: $string['course:bulkmessaging']
+msgid "Send a message to many people"
+msgstr "Αποστολή ενός μηνύματος σε πολλούς παραλήπτες"
+
+#: $string['course:changecategory']
+msgid "Change course category"
+msgstr "Τροποποίηση κατηγορίας μαθήματος"
+
+#: $string['course:changefullname']
+msgid "Change course full name"
+msgstr "Τροποποίηση ονόματος μαθήματος"
+
+#: $string['course:changeidnumber']
+msgid "Change course ID number"
+msgstr "Τροποποίηση κωδικού αριθμού μαθήματος"
+
+#: $string['course:changeshortname']
+msgid "Change course short name"
+msgstr "Τροποποίηση σύντομου ονόματος μαθήματος"
+
+#: $string['course:changesummary']
+msgid "Change course summary"
+msgstr "Τροποποίηση σύνοψης μαθήματος"
+
+#: $string['course:create']
+msgid "Create courses"
+msgstr "Δημιουργία μαθημάτων"
+
+#: $string['course:delete']
+msgid "Delete courses"
+msgstr "Διαγραφή μαθημάτων"
+
+#: $string['course:enrolconfig']
+msgid "Configure enrol instances in courses"
+msgstr "Διαμόρφωση instances εγγραφής στα μαθήματα"
+
+#: $string['course:enrolreview']
+msgid "Review course enrolments"
+msgstr "Ανασκόπηση εγγραφών μαθήματος"
+
+#: $string['course:ignoreavailabilityrestrictions']
+msgid "Ignore availability restrictions"
+msgstr ""
+
+#: $string['course:ignorefilesizelimits']
+msgid "Use files larger than any file size restrictions"
+msgstr ""
+
+#: $string['course:isincompletionreports']
+msgid "Be shown on completion reports"
+msgstr ""
+
+#: $string['course:manageactivities']
+msgid "Manage activities"
+msgstr "Διαχείριση δραστηριοτήτων"
+
+#: $string['course:managefiles']
+msgid "Manage files"
+msgstr "Διαχείριση αρχείων"
+
+#: $string['course:managegrades']
+msgid "Manage grades"
+msgstr "Διαχείριση βαθμών"
+
+#: $string['course:managegroups']
+msgid "Manage groups"
+msgstr "Διαχείριση ομάδων"
+
+#: $string['course:managescales']
+msgid "Manage scales"
+msgstr "Διαχείριση κλιμάκων"
+
+#: $string['course:markcomplete']
+msgid "Mark users as complete in course completion"
+msgstr ""
+
+#: $string['course:movesections']
+msgid "Move sections"
+msgstr ""
+
+#: $string['course:overridecompletion']
+msgid "Override activity completion status"
+msgstr ""
+
+#: $string['course:publish']
+msgid "Publish a course"
+msgstr "Δημοσίευση ενός μαθήματος στον κόμβο"
+
+#: $string['course:renameroles']
+msgid "Rename roles"
+msgstr ""
+
+#: $string['course:request']
+msgid "Request new courses"
+msgstr "Αίτηση για δημιουργία μαθημάτων"
+
+#: $string['course:reset']
+msgid "Reset course"
+msgstr "Επαναφορά αρχικών ρυθμίσεων μαθήματος"
+
+#: $string['course:reviewotherusers']
+msgid "Review other users"
+msgstr ""
+
+#: $string['course:sectionvisibility']
+msgid "Control section visibility"
+msgstr "Προβολή/απόκρυψη ενοτήτων"
+
+#: $string['course:setcurrentsection']
+msgid "Set current section"
+msgstr "Χαρακτηρισμός μιας ενότητας ως τρέχουσα"
+
+#: $string['course:tag']
+msgid "Change course tags"
+msgstr ""
+
+#: $string['course:update']
+msgid "Update course settings"
+msgstr "Επεξεργασία ρυθμίσεων μαθήματος"
+
+#: $string['course:useremail']
+msgid "Enable/disable email address"
+msgstr "Ενεργοποίηση/απενεργοποίηση διεύθυνσης email"
+
+#: $string['course:view']
+msgid "View courses without participation"
+msgstr "Προβολή μαθημάτων"
+
+#: $string['course:viewcoursegrades']
+msgid "View course grades"
+msgstr "Προβολή βαθμών"
+
+#: $string['course:viewhiddenactivities']
+msgid "View hidden activities"
+msgstr "Προβολή κρυφών δραστηριοτήτων"
+
+#: $string['course:viewhiddencourses']
+msgid "View hidden courses"
+msgstr "Προβολή κρυφών μαθημάτων"
+
+#: $string['course:viewhiddensections']
+msgid "View hidden sections"
+msgstr "Προβολή κρυφών ενοτήτων"
+
+#: $string['course:viewhiddenuserfields']
+msgid "View hidden user fields"
+msgstr "Προβολή κρυφών πεδίων χρηστών"
+
+#: $string['course:viewparticipants']
+msgctxt "$string['course:viewparticipants']"
+msgid "View participants"
+msgstr "Προβολή συμμετεχόντων"
+
+#: $string['course:viewscales']
+msgid "View scales"
+msgstr "Προβολή κλιμάκων"
+
+#: $string['course:viewsuspendedusers']
+msgid "View suspended users"
+msgstr "Προβολή χρηστών σε αναστολή"
+
+#: $string['course:visibility']
+msgid "Hide/show courses"
+msgstr "Προβολή/απόκρυψη μαθημάτων"
+
+#: $string['createrolebycopying']
+msgid "Create a new role by copying {$a}"
+msgstr "Δημιουργία νέου ρόλου βασισμένου στον {$a}"
+
+#: $string['createthisrole']
+msgid "Create this role"
+msgstr "Δημιουργία αυτού του ρόλου"
+
+#: $string['currentcontext']
+msgid "Current context"
+msgstr "Τρέχον πλαίσιο"
+
+#: $string['currentrole']
+msgid "Current role"
+msgstr "Τρέχον ρόλος"
+
+#: $string['customroledescription']
+msgid "Custom description"
+msgstr ""
+
+#: $string['customroledescription_help']
+msgid ""
+"Descriptions of standard roles are localised automatically if the custom "
+"description is empty."
+msgstr ""
+
+#: $string['customrolename']
+msgid "Custom full name"
+msgstr ""
+
+#: $string['customrolename_help']
+msgid ""
+"Names of standard roles are localised automatically if the custom name is "
+"empty. You must provide a full name for all custom roles."
+msgstr ""
+
+#: $string['defaultrole']
+msgid "Default role"
+msgstr "Αρχική κατηγορία χρηστών"
+
+#: $string['defaultx']
+msgid "Default: {$a}"
+msgstr "Προκαθορισμένο: {$a}"
+
+#: $string['defineroles']
+msgid "Define roles"
+msgstr "Διαχείριση ρόλων"
+
+#: $string['deletecourseoverrides']
+msgid "Delete all overrides in course"
+msgstr "Διαγραφή όλων των υπερβάσεων στο μάθημα"
+
+#: $string['deletelocalroles']
+msgid "Delete all local role assignments"
+msgstr "Διαγραφή όλων των τοπικών αναθέσεων ρόλων"
+
+#: $string['deleterolesure']
+msgid ""
+"<p>Are you sure that you want to delete role \"{$a->name} "
+"({$a->shortname})\"?</p><p>Currently this role is assigned to {$a->count} "
+"users.</p>"
+msgstr ""
+"<p>Είστε απόλυτα βέβαιος ότι θέλετε να διαγράψετε το ρόλο {$a->name} "
+"({$a->shortname})?</p><p>Αυτή τη στιγμή {$a->count} χρήστες έχουν αυτόν το "
+"ρόλο."
+
+#: $string['deletexrole']
+msgid "Delete {$a} role"
+msgstr "Διαγραφή του ρόλου {$a}"
+
+#: $string['duplicaterole']
+msgid "Duplicate role"
+msgstr "Αντιγραφή ρόλου"
+
+#: $string['duplicaterolesure']
+msgid ""
+"<p>Are you sure that you want to duplicate role \"{$a->name} "
+"({$a->shortname})\"?</p>"
+msgstr ""
+"Είστε απόλυτα βέβαιος ότι θέλετε να αντιγράψετε το ρόλο {$a->name} "
+"({$a->shortname})?</p>"
+
+#: $string['editingrolex']
+msgid "Editing role '{$a}'"
+msgstr "Τροποποίηση του ρόλου {$a}"
+
+#: $string['editrole']
+msgid "Edit role"
+msgstr "Επεξεργασία ρόλου"
+
+#: $string['editxrole']
+msgid "Edit {$a} role"
+msgstr "Τροποποίηση του ρόλου {$a}"
+
+#: $string['errorbadrolename']
+msgid "Incorrect role name"
+msgstr "Εσφαλμένο όνομα ρόλου"
+
+#: $string['errorbadroleshortname']
+msgid "Incorrect role short name"
+msgstr "Εσφαλμένο όνομα ρόλου"
+
+#: $string['errorexistsrolename']
+msgctxt "$string['errorexistsrolename']"
+msgid "Role name already exists"
+msgstr "Υπάρχει ήδη ένας ρόλος με το ίδιο όνομα"
+
+#: $string['errorexistsroleshortname']
+msgctxt "$string['errorexistsroleshortname']"
+msgid "Role name already exists"
+msgstr "Υπάρχει ήδη ένας ρόλος με το ίδιο όνομα"
+
+#: $string['eventroleallowassignupdated']
+msgid "Allow role assignment"
+msgstr ""
+
+#: $string['eventroleallowoverrideupdated']
+msgid "Allow role override"
+msgstr ""
+
+#: $string['eventroleallowswitchupdated']
+msgid "Allow role switch"
+msgstr ""
+
+#: $string['eventroleallowviewupdated']
+msgid "Allow role view"
+msgstr ""
+
+#: $string['eventroleassigned']
+msgid "Role assigned"
+msgstr ""
+
+#: $string['eventrolecapabilitiesupdated']
+msgid "Role capabilities updated"
+msgstr ""
+
+#: $string['eventroledeleted']
+msgid "Role deleted"
+msgstr ""
+
+#: $string['eventroleunassigned']
+msgid "Role unassigned"
+msgstr ""
+
+#: $string['existingadmins']
+msgid "Current site administrators"
+msgstr "Υπάρχοντες διαχειριστές ιστοσελίδας"
+
+#: $string['existingusers']
+msgid "{$a} existing users"
+msgstr "{$a} υπάρχοντες χρήστες"
+
+#: $string['explanation']
+msgid "Explanation"
+msgstr "Επεξήγηση"
+
+#: $string['export']
+msgid "Export"
+msgstr "Εξαγωγή"
+
+#: $string['extusers']
+msgid "Existing users"
+msgstr "Υπάρχοντες χρήστες"
+
+#: $string['extusersmatching']
+msgid "Existing users matching '{$a}'"
+msgstr "Υπάρχοντες χρήστες που ταιριάζουν στο '{$a}'"
+
+#: $string['filter:manage']
+msgid "Manage local filter settings"
+msgstr ""
+
+#: $string['frontpageuser']
+msgid "Authenticated user on frontpage"
+msgstr "Αυθεντικοποίηση χρήστη στην πρώτη σελίδα"
+
+#: $string['frontpageuserdescription']
+msgid "All logged in users in the frontpage course."
+msgstr "Όλοι οι συνδεδεμένοι χρήστες στο μάθημα στην πρώτη σελίδα."
+
+#: $string['globalrole']
+msgid "System role"
+msgstr "Ρόλος συστήματος"
+
+#: $string['globalroleswarning']
+msgid ""
+"WARNING! Any roles you assign from this page will apply to the assigned "
+"users throughout the entire system, including the front page and all the "
+"courses."
+msgstr ""
+"ΠΡΟΣΟΧΗ! Οι ρόλοι που αποδίδετε στους χρήστες από αυτήν την σελίδα, "
+"εφαρμόζονται σε ολόκληρο το δικτυακό τόπο, συμπεριλαμβανόμενης της αρχικής "
+"σελίδας και όλων των μαθημάτων."
+
+#: $string['gotoassignroles']
+msgid "Go to Assign roles for this {$a->contextlevel}"
+msgstr "Ανάθεση ρόλων σ' αυτό το {$a->contextlevel}"
+
+#: $string['gotoassignsystemroles']
+msgid "Go to Assign system roles"
+msgstr "Ανάθεση ρόλων συστήματος"
+
+#: $string['grade:edit']
+msgid "Edit grades"
+msgstr "Τροποποίηση βαθμών"
+
+#: $string['grade:export']
+msgid "Export grades"
+msgstr "Εξαγωγή βαθμών"
+
+#: $string['grade:hide']
+msgid "Hide/unhide grades or items"
+msgstr "Απόκρυψη/εμφάνιση βαθμών"
+
+#: $string['grade:import']
+msgid "Import grades"
+msgstr "Εισαγωγή βαθμών"
+
+#: $string['grade:lock']
+msgid "Lock grades or items"
+msgstr "Κλείδωμα βαθμών"
+
+#: $string['grade:manage']
+msgid "Manage grade items"
+msgstr "Διαχερίριση βαθμών"
+
+#: $string['grade:managegradingforms']
+msgid "Manage advanced grading methods"
+msgstr "Διαχείριση προχωρημένων μεθόδων βαθμολόγησης"
+
+#: $string['grade:manageletters']
+msgid "Manage letter grades"
+msgstr "Διαχείριση βαθμών (γραμμάτων)"
+
+#: $string['grade:manageoutcomes']
+msgid "Manage grade outcomes"
+msgstr "Διαχείριση βαθμών (καταλήξεις)"
+
+#: $string['grade:managesharedforms']
+msgid "Manage advanced grading form templates"
+msgstr ""
+
+#: $string['grade:override']
+msgid "Override grades"
+msgstr "Υπερίσχυση βαθμών"
+
+#: $string['grade:sharegradingforms']
+msgid "Share advanced grading form as a template"
+msgstr ""
+
+#: $string['grade:unlock']
+msgid "Unlock grades or items"
+msgstr "Ξεκλείδωμα βαθμών"
+
+#: $string['grade:view']
+msgid "View own grades"
+msgstr "Προβολή των βαθμών του"
+
+#: $string['grade:viewall']
+msgid "View grades of other users"
+msgstr "Προβολή των βαθμών άλλων χρηστών"
+
+#: $string['grade:viewhidden']
+msgid "View hidden grades for owner"
+msgstr "Προβολή των κρυφών βαθμών του"
+
+#: $string['highlightedcellsshowdefault']
+msgid ""
+"The permissions highlighted in the table below are the defaults for the role "
+"archetype currently selected above."
+msgstr ""
+"Τα φωτισμένα κελιά στον παρακάτω πίνακα δείχνουν την εξορισμού δυνατότητα "
+"για το ρόλο αυτό, βασισμένα στον 'Ιστορικό τύπο ρόλου'."
+
+#: $string['highlightedcellsshowinherit']
+msgid ""
+"The highlighted cells in the table below show the permission (if any) that "
+"will be inherited. Apart from the capabilities whose permission you actually "
+"want to alter, you should leave everything set to Inherit."
+msgstr ""
+"Τα φωτισμένα κελιά στον παρακάτω πίνακα δείχνουν την δυνατότητα (αν υπάρχει) "
+"που πρόκειται να κληρονομηθεί. Αφήστε όλες τις δυνατότητες ρυθμισμένες στην "
+"Κληρονομιά εκτός από αυτές τις οποίες θέλετε να αλλάξετε."
+
+#: $string['inactiveformorethan']
+msgid "inactive for more than {$a->timeperiod}"
+msgstr "ανενεργό για παραπάνω από {$a->timeperiod}"
+
+#: $string['ingroup']
+msgid "in the group \"{$a->group}\""
+msgstr "στην ομάδα \"{$a->group}\""
+
+#: $string['inherit']
+msgid "Inherit"
+msgstr "Κληρονομικότητα"
+
+#: $string['invalidpresetfile']
+msgid "Invalid role definition file"
+msgstr ""
+
+#: $string['legacy:admin']
+msgid "LEGACY ROLE: Administrator"
+msgstr "ΙΣΤΟΡΙΚΟΣ ΡΟΛΟΣ: Διαχειριστής"
+
+#: $string['legacy:coursecreator']
+msgid "LEGACY ROLE: Course creator"
+msgstr "ΙΣΤΟΡΙΚΟΣ ΡΟΛΟΣ: Δημιουργός Μαθημάτων"
+
+#: $string['legacy:editingteacher']
+msgid "LEGACY ROLE: Teacher (editing)"
+msgstr "ΙΣΤΟΡΙΚΟΣ ΡΟΛΟΣ: Καθηγητής (επιτρέπονται αλλαγές)"
+
+#: $string['legacy:guest']
+msgid "LEGACY ROLE: Guest"
+msgstr "ΙΣΤΟΡΙΚΟΣ ΡΟΛΟΣ: Επισκέπτης"
+
+#: $string['legacy:student']
+msgid "LEGACY ROLE: Student"
+msgstr "ΙΣΤΟΡΙΚΟΣ ΡΟΛΟΣ: Μαθητής"
+
+#: $string['legacy:teacher']
+msgid "LEGACY ROLE: Teacher (non-editing)"
+msgstr "ΙΣΤΟΡΙΚΟΣ ΡΟΛΟΣ: Καθηγητής (δεν επιτρέπονται αλλαγές)"
+
+#: $string['legacytype']
+msgid "Legacy role type"
+msgstr "Είδος ιστορικού ρόλου"
+
+#: $string['legacy:user']
+msgid "LEGACY ROLE: Authenticated user"
+msgstr "ΙΣΤΟΡΙΚΟΣ ΡΟΛΟΣ: Χρήστης"
+
+#: $string['listallroles']
+msgid "List all roles"
+msgstr "Εμφάνιση όλων των ρόλων"
+
+#: $string['localroles']
+msgid "Locally assigned roles"
+msgstr "Τοπικά αναθεμένοι ρόλοι"
+
+#: $string['mainadmin']
+msgid "Main administrator"
+msgstr "Κύριος διαχειριστής"
+
+#: $string['mainadminset']
+msgid "Set main admin"
+msgstr "Ορσμός κύριου διαχειριστή"
+
+#: $string['manageadmins']
+msgid "Manage site administrators"
+msgstr "Εξεπεργασία διαχειριστών ιστοσελίδας"
+
+#: $string['manager']
+msgid "Manager"
+msgstr "Διαχειριστής"
+
+#: $string['managerdescription']
+msgid ""
+"Managers can access course and modify them, they usually do not participate "
+"in courses."
+msgstr ""
+"Οι διαχειριστές μπορούν να έχουν πρόσβαση στο μάθημα και να το τροποποιούν, "
+"συνήθως όμως δεν συμμετέχουν στα μαθήματα."
+
+#: $string['manageroles']
+msgid "Manage roles"
+msgstr "Διαχείριση ρόλων"
+
+#: $string['maybeassignedin']
+msgid "Context types where this role may be assigned"
+msgstr "Τύποι πλαισίου στους οποίους μπορεί να ανατεθεί ο ρόλος αυτός"
+
+#: $string['morethan']
+msgid "More than {$a}"
+msgstr "Περισσότερο από {$a}"
+
+#: $string['multipleroles']
+msgid "Multiple roles"
+msgstr "Πολλαπλοί ρόλου"
+
+#: $string['my:configsyspages']
+msgid "Configure system templates for Dashboard pages"
+msgstr ""
+
+#: $string['my:manageblocks']
+msgid "Manage Dashboard page blocks"
+msgstr "Διαχείριση μπλοκ της σελίδας myMoodle"
+
+#: $string['neededroles']
+msgid "Roles with permission"
+msgstr "Αδειοδοτημένοι ρόλοι"
+
+#: $string['nocapabilitiesincontext']
+msgid "No capabilities available in this context"
+msgstr "Δεν υπάρχουν διαθέσιμες δυνατότες σε αυτό το πλαίσιο"
+
+#: $string['noneinthisx']
+msgid "None in this {$a}"
+msgstr "Κανένας σ' αυτό το {$a}"
+
+#: $string['noneinthisxmatching']
+msgid "No users matching '{$a->search}' in this {$a->contexttype}"
+msgstr ""
+"Δεν υπάρχουν χρήστες παρόμοιοι με '{$a->search}' σ' αυτό το "
+"{$a->contexttype}"
+
+#: $string['norole']
+msgid "No role"
+msgstr ""
+
+#: $string['noroleassignments']
+msgid "This user does not have any role assignments anywhere in this site."
+msgstr "Ο χρήστης αυτός δεν έχει αναθέσεις ρόλων πουθενά στο Moodle."
+
+#: $string['noroles']
+msgctxt "$string['noroles']"
+msgid "No roles"
+msgstr ""
+
+#: $string['notabletoassignroleshere']
+msgid ""
+"Assigning of roles in this context has not been enabled by an administrator."
+msgstr "Δεν μπορείτε να αναθέσετε ρόλους εδώ"
+
+#: $string['notabletooverrideroleshere']
+msgid "You are not able to override the permissions on any roles here"
+msgstr "Δεν μπορείτε να υπερβείτε τις δυνατότητες ρόλων εδώ"
+
+#: $string['notes:manage']
+msgid "Manage notes"
+msgstr "Διαχείριση σημειώσεων"
+
+#: $string['notes:view']
+msgid "View notes"
+msgstr "Προβολή σημειώσεων"
+
+#: $string['notset']
+msgid "Not set"
+msgstr "Μη καταχωρημένο"
+
+#: $string['novisibleroles']
+msgctxt "$string['novisibleroles']"
+msgid "No roles"
+msgstr ""
+
+#: $string['overrideanotherrole']
+msgid "Override another role"
+msgstr "Υπέρβαση άλλου ρόλου"
+
+#: $string['overridecontext']
+msgid "Override context"
+msgstr "Υπέρβαση πλαισίου"
+
+#: $string['overridepermissions']
+msgid "Override permissions"
+msgstr "Υπέρβαση δυνατοτήτων"
+
+#: $string['overridepermissionsforrole']
+msgid "Override permissions for role '{$a->role}' in {$a->context}"
+msgstr "Υπέρβαση δυνατοτήτων για το ρόλο '{$a->role}' στο {$a->context}"
+
+#: $string['overridepermissions_help']
+msgid ""
+"Permissions overrides enable selected capabilities to be allowed or "
+"prevented in a specific context."
+msgstr ""
+"<p align=\"center\"><b>Υπερβάσεις</b></p>\n"
+"\n"
+"<p>\n"
+"Οι υπερβάσεις είναι ειδικές ρυθμίσεις που στοχεύουν στο να υπερβούν ένα ρόλο "
+"σε συγκεκριμένες περιπτώσεις,\n"
+"παρέχοντας έτσι τη δυνατότητα προσαρμογής ρυθμίσεων ανάλογα με τις "
+"συνθήκες.</p>\n"
+"\n"
+"<p>\n"
+"Για παράδειγμα, αν ορισμένοι χρήστες με την ιδιότητα του διδασκόμενου στο "
+"μάθημά σας συνηθίζουν να ανοίγουν\n"
+"νέες συζητήσεις σε διάφορα φόρουμ, αλλά υπάρχει ένα φόρουμ όπου θα "
+"προτιμούσατε να μη δίνεται αυτή η δυνατότητα,\n"
+"τότε μπορείτε να θέσετε έναν περιορισμό που ΕΜΠΟΔΙΖΕΙ τη δυνατότητα σε "
+"διδασκόμενους να ξεκινούν μια συζήτηση.</p>\n"
+"\n"
+"<p>\n"
+"Οι υπερβάσεις μπορούν επίσης να χρησιμοποιηθούν για να διαθέσουν περιοχές "
+"στα μαθήματά σας όπου οι χρήστες να έχουν\n"
+"περισσότερες δυνατότητες, π.χ. ίσως επιθυμήσετε δοκιμαστικά να επιτρέψετε σε "
+"διδασκόμενους να βαθμολογήσουν ορισμένες\n"
+"εργασίες.\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"Η τρόπος δημιουργίας υπερβάσεων είναι ίδιος με αυτό του ορισμού ρόλων, με τη "
+"διαφορά ότι μερικές φορές μόνο οι σχετικές\n"
+"δυνατότητες παρουσιάζονται. Θα δείτε επίσης ότι ορισμένες δυνατότητες είναι "
+"με κάποιο τρόπο τονισμένες, για να\n"
+"δηλωθεί ότι η άδεια για αυτό το ρόλο θα ίσχυε και ΧΩΡΙΣ κάποια υπέρβαση δηλ. "
+"όταν η υπέρβασή σας έχει οριστεί στο ΚΛΗΡΟΝΟΜΩ)\n"
+"</p>\n"
+"\n"
+"\n"
+"<p>\n"
+"Δείτε επίσης\n"
+"<a href=\"help.php?file=roles.html\">Ρόλοι</a>,\n"
+"<a href=\"help.php?file=contexts.html\">Πλαίσια</a>,\n"
+"<a href=\"help.php?file=assignroles.html\">Θέτοντας ρόλους</a> and\n"
+"<a href=\"help.php?file=permissions.html\">Άδειες</a>.\n"
+"</p>"
+
+#: $string['overridepermissionsin']
+msgid "Override permissions in {$a}"
+msgstr "Υπέρβαση δυνατοτήτων σε {$a}"
+
+#: $string['overridepermissions_link']
+msgid "admin/roles/override"
+msgstr ""
+
+#: $string['overrideroles']
+msgid "Override roles"
+msgstr "Υπέρβαση ρόλων"
+
+#: $string['overriderolesin']
+msgid "Override roles in {$a}"
+msgstr "Υπέρβαση ρόλων σε {$a}"
+
+#: $string['overrides']
+msgid "Overrides"
+msgstr "Υπερβάσεις"
+
+#: $string['overridesbycontext']
+msgid "Overrides (by context)"
+msgstr "Υπερβάσεις (ανά πλαίσιο)"
+
+#: $string['permission']
+msgid "Permission"
+msgstr "Δυνατότητα"
+
+#: $string['permission_help']
+msgid ""
+"Permissions are capability settings. There are 4 options:\n"
+"\n"
+"* Not set\n"
+"* Allow - Permission is granted for the capability\n"
+"* Prevent - Permission is removed for the capability, even if allowed in a "
+"higher context\n"
+"* Prohibit - Permission is completely denied  and cannot be overridden at "
+"any lower (more specific) context"
+msgstr ""
+"<p align=\"center\">&nbsp;</p>\n"
+"<p align=\"center\"><strong> Άδειες </strong></p>\n"
+"<p>Οι άδειες είναι οι ρυθμίσεις που χορηγείτε για συγκεκριμένες δυνατότητες. "
+"</p>\n"
+"<p>Παραδείγματος χάριν, μια δυνατότητα είναι η &quot;Έναρξη νέας "
+"συζήτησης&quot; (στα φόρουμ). </p>\n"
+"<p>Σε κάθε ρόλο, μπορείτε να επιλέξετε να θέσετε μια άδεια για μια τέτοια "
+"δυνατότητα σε μια από τις επόμενες τέσσερις τιμές: </p>\n"
+"<p>&nbsp;</p>\n"
+"<p>ΚΛΗΡΟΝΟΜΙΑ </p>\n"
+"<p>Πρόκειται για την προεπιλεγμένη άδεια. Είναι μια ουδέτερη ρύθμιση που "
+"σημαίνει &quot;χρησιμοποίησε την όποια ρύθμιση είχε ήδη ο χρήστης&quot;. Εάν "
+"ένας ρόλος δοθεί κάπου (π.χ. σε μια σειρά μαθημάτων) όπου υπάρχει αυτήν η "
+"άδεια για μια δυνατότητα, τότε η πραγματική άδεια που θα έχουν θα είναι "
+"ακριβώς η ίδια όπως είχαν ήδη στα υψηλότερου επιπέδου πλαίσια (π.χ. "
+"κατηγορίες ή επίπεδο περιοχών). Τελικά, εάν η άδεια δεν επιτρέπεται ποτέ σε "
+"οποιοδήποτε επίπεδο, τότε ο χρήστης δεν θα έχει καμία άδεια για εκείνη τη "
+"δυνατότητα. </p>\n"
+"<p>&nbsp; </p>\n"
+"<p> ΕΠΙΤΡΕΨΤΕ </p>\n"
+"<p>Με την επιλογή αυτού χορηγείτε την άδεια για αυτήν τη δυνατότητα σε όσους "
+"έχουν το σχετικό ρόλο. Αυτή η άδεια ισχύει για το πλαίσιο που λαμβάμει "
+"αυτός ο ρόλος συν όλα τα &quot;χαμηλότερα&quot; πλαίσια. Παραδείγματος "
+"χάριν, εάν αυτός ο ρόλος είναι ένας ρόλος διδασκόμενου που ορίζεται σε μια "
+"σειρά μαθημάτων, κατόπιν οι σπουδαστές θα είναι σε θέση &quot;να αρχίσουν "
+"νέες συζητήσεις&quot; σε όλα τα φόρουμ σε εκείνη την σειρά μαθημάτων, ΕΚΤΟΣ "
+"ΑΝ κάποιο φόρουμ περιέχει μια συμπληρωματική προμήθεια ή μια νέα ανάθεση με "
+"άδεια Αποτροπής ή Απαγόρευσης. </p>\n"
+"<p>&nbsp; </p>\n"
+"<p> ΑΠΟΤΡΟΠΗ </p>\n"
+"<p>Με την επιλογή αυτού αφαιρείτε την άδεια για αυτήν τη δυνατότητα, ακόμα "
+"κι αν οι χρήστες με αυτόν τον ρόλο είχαν τέτοια άδεια σε ένα υψηλότερο "
+"πλαίσιο. </p>\n"
+"<p>&nbsp; </p>\n"
+"<p> ΑΠΑΓΟΡΕΥΣΗ </p>\n"
+"<p>Αυτό απαιτείται σπάνια, αλλά περιστασιακά να θελήσετε να αρνηθείτε "
+"εντελώς τις άδειες σε έναν ρόλο με έναν τρόπο που δεν μπορεί να αγνοηθεί σε "
+"οποιοδήποτε χαμηλότερο πλαίσιο. Ένα καλό παράδειγμα είναι η περίπτωση που "
+"ένας διαχειριστής θέλει να απαγορεύσει σε ένα άτομο να αρχίζει νέες "
+"συζητήσεις σε οποιοδήποτε φόρουμ. Σε αυτήν την περίπτωση μπορεί να "
+"δημιουργήσει έναν ρόλο με Απαγόρευση και να τον ορίσει έπειτα σε εκείνο τον "
+"χρήστη. </p>\n"
+"<p>&nbsp; </p>\n"
+"<p align=\"center\"><strong>Συγκρούσεις αδειών </strong></p>\n"
+"<p>Οι άδειες σε ένα &quot;χαμηλότερο&quot; πλαίσιο θα αγνοήσουν γενικά ένα "
+"&quot;υψηλότερο&quot; πλαίσιο. Η εξαίρεση είναι η ΑΠΑΓΟΡΕΥΣΗ που δεν μπορεί "
+"να αγνοηθεί σε χαμηλότερα επίπεδα. </p>\n"
+"<p>Εάν δύο ρόλοι ορίζονται σε ένα πρόσωπο στο ίδιο πλαίσιο, ένας με "
+"ΕΠΙΤΡΕΨΤΕ και ένα με ΑΠΟΤΡΟΠΗ, τότε το Moodle θα ανατρέξει στο δέντρο "
+"πλαισίου για μια απόφαση. </p>\n"
+"<p>Παραδείγματος χάριν, ένας διδασκόμενος έχει δύο ρόλους σε μια σειρά "
+"μαθημάτων, έναν που του επιτρέπει να αρχίσει νέες συζητήσεις, και έναν που "
+"τον αποτρέπει. Σε αυτήν την περίπτωση, ελέγχουμε τις κατηγορίες και τα "
+"πλαίσια περιοχών, ψάχνοντας μια άλλη καθορισμένη άδεια να μας βοηθήσουμε να "
+"αποφασίσουμε. Εάν δεν βρίσκουμε, τότε η άδεια είναι ΑΠΟΤΡΕΠΗ εξ ορισμού "
+"(επειδή οι δύο τοποθετήσεις ακύρωσαν η μια την άλλη, και έτσι δεν έχετε "
+"καμία άδεια). </p>\n"
+"<p align=\"center\"><strong>Ειδικές εξαιρέσεις </strong></p>\n"
+"<p>Σημειώστε ότι οι φιλοξενούμενοι χρήστες θα αποτραπούν γενικά από την "
+"ταχυδρόμηση μηνυμάτων (π.χ. σε φόρουμ, ημερολογιακές καταχωρήσεις, σε blogs "
+") ακόμα κι αν δίνεται η σχετική δυνατότητα. </p>\n"
+"<p>Βλ. επίσης <a href=\"help.php?file=roles.html\">Ρόλοι</a>, <a "
+"href=\"help.php?file=contexts.html\">Πλαίσια</a>, <a "
+"href=\"help.php?file=assignroles.html\">Ορισμός ρόλων</a> and <a "
+"href=\"help.php?file=overrides.html\">Αγνοήσεις</a>.  </p>\n"
+"<p align=\"center\">&nbsp;</p>\n"
+"<p align=\"center\">&nbsp;</p>\n"
+"<p align=\"center\"><b>Permissions</b></p>\n"
+"<p>\n"
+"Τα \"δικαιώματα\" είναι οι ρυθμίσεις που εφαρμόζετε για συγκεκριμένες "
+"δυνατότητες\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"Για παράδειγμα, μια δυνατότητα είναι η \"Εκκίνηση νέων συζητήσεων\" (σε "
+"forum).\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"Σε κάθε ρόλο, μπορείτε να επιλέξετε να ορίσετε το δικαίωμα για κάθε "
+"δυνατότητα\n"
+"σε μια από τέσσερις τιμές:\n"
+"<dl>\n"
+"<dt>ΚΛΗΡΟΝΟΜΕΙΤΑΙ</dt>\n"
+"<dd>Αυτή είναι γενικά η προεπιλεγμένη ρύθμιση. Πρόκειται για μια ουδέτερη "
+"ρύθμιση που\n"
+"    σημαίνει \"να χρησιμοποιηθεί όποια ρύθμιση είχε ήδη ο χρήστης\". Εάν ένας "
+"ρόλος\n"
+"    ανατεθεί σε κάποιον (π.χ. σε ένα μάθημα) που έχει ήδη το δικαίωμα αυτό "
+"για μια\n"
+"    δυνατότητα, τότε το δικαίωμα που θα έχει ο χρήστης θα είναι απλώς\n"
+"    το ίδιο που ήδη είχε σε πλαίσια υψηλότερων επιπέδων (π.χ. κατηγορίες\n"
+"    ή σε επίπεδο ιστοχώρου). Τελικά, εάν το δικαίωμα δεν έχει δοθεί ποτέ σε "
+"κανένα\n"
+"    επίπεδο, τότε ο χρήστης δε θα έχει κανένα δικαίωμα γι'αυτή τη "
+"δυνατότητα.\n"
+"  </dd>\n"
+"\n"
+"<dt>ΕΠΙΤΡΕΠΕΤΑΙ</dt>\n"
+"<dd>Με αυτήν την επιλογή δίνετε δικαίωμα γι'αυτήν τη δυνατότητα\n"
+"    σε άτομα που έχουν το συγκεκριμένο ρόλο. Το δικαίωμα αυτό εφαρμόζεται\n"
+"    στο πλαίσιο που αυτός ο ρόλος ανατίθεται καθώς και σε όλα τα \"κατώτερα\"\n"
+"    πλαίσια. Για παράδειγμα, εάν αυτός ο ρόλος είναι ένας ρόλος σπουδαστή "
+"που έχει ανατεθεί\n"
+"    σε ένα μάθημα, τότε οι σπουδαστές θα έχουν τη δυνατότητα να \"ξεκινήσουν "
+"νέες συζητήσεις\"\n"
+"    σε όλα τα forum σε εκείνο το μάθημα, ΕΚΤΟΣ εάν κάποιο forum περιέχει\n"
+"    μια παράκαμψη ή μια νέα ανάθεση μιας τιμής \"Επιτρέπεται\" ή "
+"\"Απαγορεύεται\" γι'αυτή\n"
+"    τη δυνατότητα.</dd>\n"
+"\n"
+"<dt>ΑΠΟΤΡΕΠΕΤΑΙ</dt>\n"
+"<dd>Με αυτήν την επιλογή αφαιρείται δικαιώματα γι'αυτήν τη δυνατότητα,\n"
+"    ακόμη κι αν οι χρήστες με αυτόν το ρόλο είχαν το συγκεκριμένο δικαίωμα "
+"σε ένα\n"
+"    υψηλότερο πλαίσιο.</dd>\n"
+"\n"
+"<dt>ΑΠΑΓΟΡΕΥΕΤΑΙ</dt>\n"
+"<dd>Αυτό σπάνια χρειάζεται αλλά κάποιες φορές μπορεί να θέλετε\n"
+"    να αρνηθείτε τελείως δικαιώματα σε κάποιο ρόλο εννοώντας πως η ρύθμιση "
+"αυτή δεν μπορεί να παρακαμφθεί\n"
+"    σε οποιοδήποτε κατώτερο πλαίσιο. Ένα καλό παράδειγμα είναι όταν\n"
+"    ένας διαχειριστής θέλει να αποτρέψει ένα άτομο από το να αρχίσει νέες\n"
+"    συζητήσεις σε οποιοδήποτε forum σε ολόκληρο τον ιστοχώρο. Στην περίπτωση "
+"αυτή\n"
+"    μπορεί να δημιουργηθεί ένας ρόλος με τη δυνατότητα ορισμένη σε "
+"\"Απαγορεύεται\" κι έπειτα\n"
+"    να ανατεθεί ο ρόλος αυτός στο χρήστη σε πλαίσιο ιστοχώρου.\n"
+"  </dd>\n"
+"\n"
+"</dl>\n"
+"</p>\n"
+"\n"
+"<p align=\"center\"><b>Επίλυση συγκρούσεων δικαιωμάτων</b></p>\n"
+"\n"
+"<p> Τα δικαιώματα σε ένα \"χαμηλότερο\" επίπεδο γενικά θα παρακάμπτουν\n"
+"    οτιδήποτε σε ένα \"υψηλότερο\" πλαίσιο (αυτό εφαρμόζεται σε παρακάμψεις\n"
+"    και ρόλους που έχουν ανατεθεί). Η εξαίρεση είναι η επιλογή "
+"\"Απαγορεύεται\" η οποία δεν μπορεί\n"
+"    να παρακαμφθεί σε χαμηλότερα επίπεδα.\n"
+"</p>\n"
+"\n"
+"<p> Εάν δύο ρόλοι έχουν ανατεθεί στο ίδιο άτομο μέσα στο ίδιο πλαίσιο, ο "
+"ένας ρόλς με\n"
+"    ΕΠΙΤΡΕΠΕΤΑΙ κι ο άλλος με ΑΠΟΤΡΕΠΕΤΑΙ, ποιος κερδίζει; Στην περίπτωση "
+"αυτή, το Moodle θα\n"
+"    ψάξει στο δέντρο πλαισίου για να πάρει μια \"απόφαση\".   </p>\n"
+"\n"
+"<p> Για παράδειγμα, ένας μαθητής έχει δύο ρόλους σε ένα μάθημα, έναν που του "
+"επιτρέπει να\n"
+"    ξεκινάει νέες συζητήσεις κι έναν που του το απαγορεύει. Στην περίπτωση "
+"αυτή,\n"
+"    ελέγχουμε τις κατηγορίες στα πλαίσια του ιστοχώρου, ψάχνοντας για κάποια "
+"άλλη\n"
+"    ορισμένη δυνατότητα που θα μας βοηθήσει να αποφασίσουμε. Εάν δε βρούμε "
+"κάτι, τότε\n"
+"    η εξορισμού δυνατότητα είναι η ΑΠΟΤΡΕΠΕΤΑΙ (επειδή οι δύο ρυθμίσεις "
+"ακύρωσαν\n"
+"    η μία την άλλη, οπότε δεν έχουμε κανένα δικαίωμα).\n"
+"</p>\n"
+"\n"
+"<p align=\"center\"><b>Special exceptions</b></p>\n"
+"\n"
+"<p> Σημειώστε ότι ο λογαριασμός επισκέπτη γενικά αποτρέπεται από το να\n"
+"    ανεβάζει υλικό (π.χ. σε forum, καταχωρήσεις ημερολογίου, blog) ακόμη κι "
+"αν\n"
+"    του δίνεται η δυνατότητα να το κάνει.\n"
+"</p>\n"
+"\n"
+"\n"
+"<p>\n"
+"See also\n"
+"<a href=\"help.php?file=roles.html\">Roles</a>,\n"
+"<a href=\"help.php?file=contexts.html\">Contexts</a>,\n"
+"<a href=\"help.php?file=assignroles.html\">Assign Roles</a> and\n"
+"<a href=\"help.php?file=overrides.html\">Overrides</a>.\n"
+"</p>"
+
+#: $string['permissions']
+msgid "Permissions"
+msgstr "Δικαιώματα χρήσης"
+
+#: $string['permissionsforuser']
+msgid "Permissions for user {$a}"
+msgstr "Δυνατότητες για το χρήστη {$a}"
+
+#: $string['permissionsincontext']
+msgid "Permissions in {$a}"
+msgstr "Δικαιώματα σε {$a}"
+
+#: $string['portfolio:export']
+msgid "Export to portfolios"
+msgstr "Export to portfolios"
+
+#: $string['potentialusers']
+msgid "{$a} potential users"
+msgstr "{$a} πιθανοί χρήστες"
+
+#: $string['potusers']
+msgid "Potential users"
+msgstr "Πιθανοί χρήστες"
+
+#: $string['potusersmatching']
+msgid "Potential users matching '{$a}'"
+msgstr "Πιθανοί χρήστες παρόμοιοι με '{$a}'"
+
+#: $string['prevent']
+msgid "Prevent"
+msgstr "Παρεμπόδιση"
+
+#: $string['prohibit']
+msgid "Prohibit"
+msgstr "Απαγόρευση"
+
+#: $string['prohibitedroles']
+msgid "Prohibited"
+msgstr "Απαγορευμένοι"
+
+#: $string['question:add']
+msgid "Add new questions"
+msgstr "Προσθήκη νέων ερωτήσεων"
+
+#: $string['question:config']
+msgid "Configure question types"
+msgstr "Ρύθμιση τύπων ερωτήσεων"
+
+#: $string['question:editall']
+msgid "Edit all questions"
+msgstr "Τροποποίηση όλων των ερωτήσεων"
+
+#: $string['question:editmine']
+msgid "Edit your own questions"
+msgstr "Τροποποίηση των δικών του ερωτήσεων"
+
+#: $string['question:flag']
+msgid "Flag questions while attempting them"
+msgstr "Σήμανση ερωτήσεων καθώς απαντώνται"
+
+#: $string['question:managecategory']
+msgid "Edit question categories"
+msgstr "Διαχείριση κατηγοριών ερωτήσεων"
+
+#: $string['question:moveall']
+msgid "Move all questions"
+msgstr "Μετακίνηση όλων των ερωτήσεων"
+
+#: $string['question:movemine']
+msgid "Move your own questions"
+msgstr "Μετακίνηση των δικών του ερωτήσεων"
+
+#: $string['question:useall']
+msgid "Use all questions"
+msgstr "Χρήση όλων των ερωτήσεων"
+
+#: $string['question:usemine']
+msgid "Use your own questions"
+msgstr "Χρήση των δικών του ερωτήσεων"
+
+#: $string['question:viewall']
+msgid "View all questions"
+msgstr "Προβολή όλων των ερωτήσεων"
+
+#: $string['question:viewmine']
+msgid "View your own questions"
+msgstr "Προβολή των δικών του ερωτήσεων"
+
+#: $string['rating:rate']
+msgid "Add ratings to items"
+msgstr "Προσθήκη βαθμολογιών στα αντικείμενα"
+
+#: $string['rating:view']
+msgid "View the total rating you received"
+msgstr "Εμφάνιση της συνολικής βαθμολιγίας που έλαβες"
+
+#: $string['rating:viewall']
+msgid "View all raw ratings given by individuals"
+msgstr "Εμφάνιση όλων των πρώτων αξιολογήσεων που δόθηκαν ατομικά"
+
+#: $string['rating:viewany']
+msgid "View total ratings that anyone received"
+msgstr "Εμφάνιση όλων των συνολικών αξιολογήσεων που έλαβε κάποιος"
+
+#: $string['resetrole']
+msgid "Reset"
+msgstr "Επαναφορά στην αρχική κατάσταση"
+
+#: $string['resettingrole']
+msgid "Resetting role '{$a}'"
+msgstr ""
+
+#: $string['restore:configure']
+msgid "Configure restore options"
+msgstr "Διαμόρφωση επιλογών επαναφοράς"
+
+#: $string['restore:createuser']
+msgid "Create users on restore"
+msgstr "Δημιουργία χρηστών στην επαναφορά"
+
+#: $string['restore:restoreactivity']
+msgid "Restore activities"
+msgstr "Επαναφορά δραστηριοτήτων"
+
+#: $string['restore:restorecourse']
+msgctxt "$string['restore:restorecourse']"
+msgid "Restore courses"
+msgstr "Επαναφορά μαθημάτων"
+
+#: $string['restore:restoresection']
+msgid "Restore sections"
+msgstr "Επαναφορά τμημάτων"
+
+#: $string['restore:restoretargethub']
+msgid "Restore courses downloaded from Moodle.net"
+msgstr "Επαναφορά από αρχεία που προορίζονται ως κόμβοι"
+
+#: $string['restore:restoretargetimport']
+msgid "Restore from files targeted as import"
+msgstr "Επαναφορά από αρχεία που προορίζονται για εισαγωγές"
+
+#: $string['restore:rolldates']
+msgid "Allowed to roll activity configuration dates on restore"
+msgstr ""
+"Επιτρέπεται να μετακυλήθούν οι ημερομηνίες που έχουν χρησιμοποιηθεί στις "
+"δραστηριότητες κατά την επαναφορά"
+
+#: $string['restore:uploadfile']
+msgid "Upload files to backup areas"
+msgstr "Μεταφόρτωση αρχείων στις περιοχές των αντιγράφων ασφαλείας"
+
+#: $string['restore:userinfo']
+msgid "Restore user data"
+msgstr "Επαναφορά δεδομένων χρήστη"
+
+#: $string['restore:viewautomatedfilearea']
+msgid "Restore courses from automated backups"
+msgstr "Επαναφορά μαθημάτων από αυτόματα αντίγραφα ασφαλείας"
+
+#: $string['risks']
+msgid "Risks"
+msgstr "Κίνδυνοι"
+
+#: $string['roleallowheader']
+msgid "Allow role:"
+msgstr ""
+
+#: $string['roleallowinfo']
+msgid ""
+"Select a role to be added to the list of allowed roles in context "
+"\"{$a->context}\", capability \"{$a->cap}\":"
+msgstr ""
+
+#: $string['role:assign']
+msgid "Assign roles to users"
+msgstr "Ανάθεση ρόλων στους χρήστες"
+
+#: $string['roleassignments']
+msgid "Role assignments"
+msgstr "Ανάθεση ρόλων"
+
+#: $string['roledefinitions']
+msgid "Role definitions"
+msgstr "Ορισμοί ρόλων"
+
+#: $string['rolefullname']
+msgid "Role name"
+msgstr "Όνομα"
+
+#: $string['roleincontext']
+msgid "{$a->role} in {$a->context}"
+msgstr ""
+
+#: $string['role:manage']
+msgid "Create and manage roles"
+msgstr "Δημιουργία και διαχείριση ρόλων"
+
+#: $string['role:override']
+msgid "Override permissions for others"
+msgstr "Υπέρβαση δικαιωμάτων από άλλους"
+
+#: $string['roleprohibitheader']
+msgid "Prohibit role"
+msgstr "Απαγόρευση ρόλου"
+
+#: $string['roleprohibitinfo']
+msgid ""
+"Select a role to be added to the list of prohibited roles in context "
+"\"{$a->context}\", capability \"{$a->cap}\":"
+msgstr ""
+
+#: $string['rolerepreset']
+msgid "Use role preset"
+msgstr ""
+
+#: $string['roleresetdefaults']
+msgid "Defaults"
+msgstr ""
+
+#: $string['roleresetrole']
+msgid "Use role or archetype"
+msgstr ""
+
+#: $string['role:review']
+msgid "Review permissions for others"
+msgstr "Επανεξέταση δικαιωμάτων για άλλους χρήστες"
+
+#: $string['rolerisks']
+msgid "Role risks"
+msgstr ""
+
+#: $string['roles']
+msgid "Roles"
+msgstr "Ρόλοι"
+
+#: $string['role:safeoverride']
+msgid "Override safe permissions for others"
+msgstr "Υπέρβαση δικαιωμάτων από άλλους με ασφάλεια"
+
+#: $string['roleselect']
+msgid "Select role"
+msgstr ""
+
+#: $string['rolesforuser']
+msgid "Roles for user {$a}"
+msgstr ""
+
+#: $string['roles_help']
+msgid ""
+"A role is a collection of permissions defined for the whole system that you "
+"can assign to specific users in specific contexts."
+msgstr ""
+"<p align=\"center\"><b>Ρόλοι</b></p>\n"
+"\n"
+"<p>\n"
+"Ένας ρόλος είναι μια συλλογή από δικαιώματα ορισμένα για όλο τον ιστοχώρο, "
+"τα οποία μπορείτε να ορίσετε σε συγκεκριμένους χρήστες σε συγκεκριμένα "
+"περιβάλλοντα.\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"Για παράδειγμα, μπορεί να έχετε ένα ρόλο \"διδάσκοντας\" ο οποίος θα έχει "
+"ορισθεί για να επιτρέπει στουε διδάσκοντες να κάνουν βασικά πράγματα (και "
+"κανένας άλλος). Όταν αυτός ο ρόλος υπάρχει, μπορείτε να τον αναθέσετε σε "
+"κάποιον σε ένα μάθημα και να τον κάνετε \"διδάσκοντα\" σε αυτό το μάθημα. "
+"Μπορείτε επίσης να αναθέσετε ένα ρόλο σε ένα χρήστη στην κατηγορία των "
+"μαθημάτων και να τον κάνετε \"διδάσκοντα\" για όλα τα μαθήματα σε αυτή την "
+"κατηγορία ή να αναθέσετε ένα ρόλο σε ένα χρήστη απλά σε ένα forum, δίνοντας "
+"του τις δυνατότητες μόνο στο περιβάλλον του forum.\n"
+"<p>\n"
+"\n"
+"<p>\n"
+"Ο ρόλος θα πρέπει να έχει <strong>όνομα</strong>.  Εάν χρειάζεστε να "
+"ονοματίσετε ένα ρόλο για πολλαπλές γλώσσες τότε μπορείτε να επιλέξετε "
+"πολύγλωσση σύνταξη όπως<pre>\n"
+"  &lt;span lang=\"en\">Διδάσκων&lt;/span>\n"
+"  &lt;span lang=\"es_es\">Καθηγητής&lt;/span>\n"
+"  </pre>\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"Το <strong>όνομα</strong> είναι απαραίτητο για άλλες υπομονάδες στο Moodle "
+"που μπορεί να χρειαστούν στο κομμάτι των ρόλων (π.χ. όταν μεταφορτώνετες "
+"χρήστες από ένα αρχείο ή όταν κάνετε εγγραφή μέσα από υπομονάδα εγγραφής).\n"
+"<p>\n"
+"\n"
+"<p>\n"
+"Η <strong>περιγραφή</strong> είναι απλά για να περιγράφεται ο ρόλος με δικές "
+"σας λέξεις, έτσι ώστε να έχει ο καθένας την δυνατότητα να καταλάβει τον "
+"κάθε ρόλο.\n"
+"<p>\n"
+"\n"
+"<p>\n"
+"Δείτε επίσης\n"
+"<a href=\"help.php?file=contexts.html\">Περιβάλλοντα</a>,\n"
+"<a href=\"help.php?file=permissions.html\">Άδειες</a>,\n"
+"<a href=\"help.php?file=assignroles.html\">Ορισμός ρόλων</a> και\n"
+"<a href=\"help.php?file=overrides.html\">Υπερβάσεις</a>.\n"
+"</p>"
+
+#: $string['roleshortname']
+msgid "Short name"
+msgstr "Σύντομο όνομα"
+
+#: $string['roleshortname_help']
+msgid ""
+"Role short name is a low level role identifier in which only ASCII "
+"alphanumeric characters are allowed. Do not change short names of standard "
+"roles."
+msgstr ""
+
+#: $string['roles_link']
+msgid "roles"
+msgstr ""
+
+#: $string['role:switchroles']
+msgid "Switch to other roles"
+msgstr "Αλλαγή σε άλλους ρόλους"
+
+#: $string['roletoassign']
+msgid "Role to assign"
+msgstr "Ρόλος προς καταχώρηση"
+
+#: $string['roletooverride']
+msgid "Role to override"
+msgstr "Ρόλος προς υπέρβαση"
+
+#: $string['safeoverridenotice']
+msgid ""
+"Note: Capabilities with higher risks are locked because you are only allowed "
+"to override safe capabilities."
+msgstr ""
+"Σημείωση: Οι δυνατότητες με υψηλότερους πιθανούς κινδύνους είναι κλειδωμένες "
+"γιατί μπορείτε να υπερβείτε μόνο ασφαλείς δυνατότητες."
+
+#: $string['search:query']
+msgid "Perform site-wide searches"
+msgstr ""
+
+#: $string['selectanotheruser']
+msgid "Select another user"
+msgstr "Επιλέξτε έναν άλλο χρήστη"
+
+#: $string['selectauser']
+msgid "Select a user"
+msgstr "Επιλέξτε ένα χρήστη"
+
+#: $string['selectrole']
+msgid "Select a role"
+msgstr "Επιλογή ρόλου"
+
+#: $string['showallroles']
+msgid "Show all roles"
+msgstr "Προβολή όλων των ρόλων"
+
+#: $string['showthisuserspermissions']
+msgid "Show this user's permissions"
+msgstr "Προβολή των δικαιωμάτων του χρήστη"
+
+#: $string['site:accessallgroups']
+msgid "Access all groups"
+msgstr "Πρόσβαση σε όλες τις ομάδες"
+
+#: $string['siteadministrators']
+msgid "Site administrators"
+msgstr "Διαχειριστές ιστοσελίδας"
+
+#: $string['site:approvecourse']
+msgid "Approve course creation"
+msgstr "Έγκριση δημιουργίας μαθήματος"
+
+#: $string['site:backup']
+msgctxt "$string['site:backup']"
+msgid "Backup courses"
+msgstr "Αντίγραφα ασφαλείας μαθημάτων"
+
+#: $string['site:config']
+msgid "Change site configuration"
+msgstr "Αλλαγή των ρυθμίσεων του Moodle"
+
+#: $string['site:configview']
+msgid "View the site administration tree (but not all the pages in it)"
+msgstr ""
+
+#: $string['site:deleteanymessage']
+msgid "Delete any messages on the site"
+msgstr ""
+
+#: $string['site:deleteownmessage']
+msgid "Delete messages sent by and to the user"
+msgstr ""
+
+#: $string['site:doanything']
+msgid "Allowed to do everything"
+msgstr "Επιτρέπεται να κάνει τα πάντα"
+
+#: $string['site:doclinks']
+msgid "Show links to offsite docs"
+msgstr "Εμφάνιση συνδέσμων για έγγραφα εκτός σελίδων"
+
+#: $string['site:forcelanguage']
+msgid "Override course language"
+msgstr ""
+
+#: $string['site:import']
+msgid "Import other courses into a course"
+msgstr "Εισαγωγή άλλων μαθημάτων σε ένα μάθημα"
+
+#: $string['site:maintenanceaccess']
+msgid "Access site while in maintenance mode"
+msgstr ""
+
+#: $string['site:manageallmessaging']
+msgid "Add, remove, block and unblock contacts for any user"
+msgstr ""
+
+#: $string['site:manageblocks']
+msgid "Manage blocks on a page"
+msgstr "Διαχείριση block"
+
+#: $string['site:mnetloginfromremote']
+msgid "Login from a remote application via MNet"
+msgstr "Σύνδεση από απομακρυσμένη εγκατάσταση Moodle"
+
+#: $string['site:mnetlogintoremote']
+msgid "Roam to a remote application via MNet"
+msgstr "Σύνδεση σε απομακρυσμένη εγκατάσταση Moodle"
+
+#: $string['site:readallmessages']
+msgid "Read all messages on site"
+msgstr "Ανάγνωση όλων των μηνυμάτων"
+
+#: $string['site:restore']
+msgctxt "$string['site:restore']"
+msgid "Restore courses"
+msgstr "Επαναφορά μαθημάτων"
+
+#: $string['site:sendmessage']
+msgid "Send messages to any user"
+msgstr "Αποστολή μηνυμάτων σε χρήστες"
+
+#: $string['site:trustcontent']
+msgid "Trust submitted content"
+msgstr "Εμπιστοσύνη σε υποβαλλόμενο περιεχόμενο"
+
+#: $string['site:uploadusers']
+msgid "Upload new users from file"
+msgstr "Δημιουργία χρηστών από αρχείο"
+
+#: $string['site:viewfullnames']
+msgid "Always see full names of users"
+msgstr "Προβολή του ονοματεπώνυμου των χρηστών"
+
+#: $string['site:viewparticipants']
+msgctxt "$string['site:viewparticipants']"
+msgid "View participants"
+msgstr "Προβολή συμμετεχόντων"
+
+#: $string['site:viewreports']
+msgid "View reports"
+msgstr "Προβολή αναφορών"
+
+#: $string['site:viewuseridentity']
+msgid "See full user identity in lists"
+msgstr ""
+
+#: $string['tag:edit']
+msgid "Edit existing tags"
+msgstr "Τροποποίηση υπάρχουσων ετικετών"
+
+#: $string['tag:editblocks']
+msgid "Edit blocks in tags pages"
+msgstr "Τροποποίηση μπλοκ στις σελίδες ετικετών"
+
+#: $string['tag:flag']
+msgid "Flag tags as inappropriate"
+msgstr ""
+
+#: $string['tag:manage']
+msgid "Manage all tags"
+msgstr "Διαχείριση όλων των ετικετών"
+
+#: $string['thisnewrole']
+msgid "This new role"
+msgstr ""
+
+#: $string['thisusersroles']
+msgid "This user's role assignments"
+msgstr "Ρόλοι που έχουν ανατεθεί στο χρήστη"
+
+#: $string['unassignarole']
+msgid "Unassign role {$a}"
+msgstr ""
+
+#: $string['unassignconfirm']
+msgid ""
+"Do you really want to unassign \"{$a->role}\" role from user \"{$a->user}\"?"
+msgstr ""
+
+#: $string['unassignerror']
+msgid "Error while unassigning the role {$a->role} from user {$a->user}."
+msgstr ""
+"Σφάλμα κατά την αναίρεση ανάθεσης του ρόλου {$a->role} στο χρήστη "
+"{$a->user}."
+
+#: $string['user:changeownpassword']
+msgid "Change own password"
+msgstr "Αλλαγή κωδικού εισόδου"
+
+#: $string['user:create']
+msgid "Create users"
+msgstr "Δημιουργία λογαριασμών χρηστών"
+
+#: $string['user:delete']
+msgid "Delete users"
+msgstr "Διαγραφή λογαριασμών χρηστών"
+
+#: $string['user:editmessageprofile']
+msgid "Edit user messaging profile"
+msgstr "Τροποποίηση προφίλ μηνυμάτων άλλων χρηστών"
+
+#: $string['user:editownmessageprofile']
+msgid "Edit own user messaging profile"
+msgstr "Τροποποίηση ιδίου προφίλ μηνυμάτων"
+
+#: $string['user:editownprofile']
+msgid "Edit own user profile"
+msgstr "Τροποποίηση ιδίου προφίλ χρήστη"
+
+#: $string['user:editprofile']
+msgid "Edit user profile"
+msgstr "Τροποποίηση προφίλ χρήστη άλλων χρηστών"
+
+#: $string['user:ignoreuserquota']
+msgid "Ignore user quota limit"
+msgstr ""
+
+#: $string['user:loginas']
+msgid "Login as other users"
+msgstr "Σύνδεση σαν άλλος χρήστης"
+
+#: $string['user:manageblocks']
+msgid "Manage blocks on user profile of other users"
+msgstr "Διαχείριση μπλοκ στο προφίλ χρήστη των άλλων χρηστών"
+
+#: $string['user:manageownblocks']
+msgid "Manage blocks on own public user profile"
+msgstr "Διαχείριση μπλοκ στο δημόσιο προφίλ χρήστη"
+
+#: $string['user:manageownfiles']
+msgid "Manage files on own private file areas"
+msgstr "Διαχείριση αρχείων στις ιδιωτικές περιοχές αρχείων"
+
+#: $string['user:managesyspages']
+msgid "Configure default page layout for public user profiles"
+msgstr "Διαμόρφωση προεπιλεγμένης διάταξης σελίδας για δημόσια προφίλ χρηστών"
+
+#: $string['user:readuserblogs']
+msgid "View all user blogs"
+msgstr "Προβολή των ιστολογίων όλων των χρηστών"
+
+#: $string['user:readuserposts']
+msgid "View all user forum posts"
+msgstr "Προβολή όλων των μηνυμάτων του χρήστη"
+
+#: $string['usersfrom']
+msgid "Users from {$a}"
+msgstr "Χρήστες του πλαισίου {$a}"
+
+#: $string['usersfrommatching']
+msgid "Users from {$a->contextname} matching '{$a->search}'"
+msgstr ""
+"Χρήστες του πλαισίου {$a->contextname} που ταιριάζουν στο '{$a->search}'"
+
+#: $string['usersinthisx']
+msgid "Users in this {$a}"
+msgstr "Χρήστες σ' αυτό το {$a}"
+
+#: $string['usersinthisxmatching']
+msgid "Users in this {$a->contexttype} matching '{$a->search}'"
+msgstr "Χρήστες σ' αυτό το {$a->contexttype} που ταιριάζουν στο '{$a->search}'"
+
+#: $string['userswithrole']
+msgid "All users with a role"
+msgstr "Χρήστες με οποιοδήποτε ρόλο"
+
+#: $string['userswiththisrole']
+msgid "Users with role"
+msgstr "Χρήστες με αυτό το ρόλο"
+
+#: $string['user:update']
+msgid "Update user profiles"
+msgstr "Επεξεργασία των προφίλ των χρηστών"
+
+#: $string['user:viewalldetails']
+msgid "View user full information"
+msgstr "Προβολή όλων των πληροφοριών του χρήστη"
+
+#: $string['user:viewdetails']
+msgid "View user profiles"
+msgstr "Προβολή των προφίλ των χρηστών"
+
+#: $string['user:viewhiddendetails']
+msgid "View hidden details of users"
+msgstr "Προβολή των κρυφών πληροφοριών των χρηστών"
+
+#: $string['user:viewlastip']
+msgid "View user last ip address"
+msgstr ""
+
+#: $string['user:viewuseractivitiesreport']
+msgid "See user activity reports"
+msgstr "Προβολή των αναφορών δραστηριότητας του χρήστη"
+
+#: $string['user:viewusergrades']
+msgid "View user grades"
+msgstr "Προβολή των βαθμών του φοιτητή"
+
+#: $string['useshowadvancedtochange']
+msgid "Use 'Show advanced' to change"
+msgstr "Χρησιμοποιείστε το 'Προβολή προχωρημένων' για να τροποποιήσετε"
+
+#: $string['viewingdefinitionofrolex']
+msgid "Viewing the definition of role '{$a}'"
+msgstr "Προβολή του ορισμού του ρόλου '{$a}'"
+
+#: $string['viewrole']
+msgid "View role details"
+msgstr "Προβολή των λεπτομερειών του ρόλου"
+
+#: $string['webservice:createmobiletoken']
+msgid "Create a web service token for mobile access"
+msgstr "Δημιουργία ενός web service token για την πρόσβαση με κινητές συσκευές"
+
+#: $string['webservice:createtoken']
+msgid "Create a web service token"
+msgstr "Δημιουργία ενός web service token"
+
+#: $string['webservice:managealltokens']
+msgid "Manage all users' web service tokens"
+msgstr ""
+
+#: $string['whydoesuserhavecap']
+msgid ""
+"Why does {$a->fullname} have capability {$a->capability} in context "
+"{$a->context}?"
+msgstr ""
+"Γιατί ο {$a->fullname} έχει τη δυνατότητα {$a->capability} στο πλαίσιο "
+"{$a->context};"
+
+#: $string['whydoesusernothavecap']
+msgid ""
+"Why does {$a->fullname} not have capability {$a->capability} in context "
+"{$a->context}?"
+msgstr ""
+"Γιατί ο {$a->fullname} δεν έχει τη δυνατότητα {$a->capability} στο πλαίσιο "
+"{$a->context};"
+
+#: $string['xroleassignments']
+msgid "{$a}'s role assignments"
+msgstr "Αναθέσεις ρόλων του {$a}"
+
+#: $string['xuserswiththerole']
+msgid "Users with the role \"{$a->role}\""
+msgstr "Χρήστες με τον ρόλο \"{$a->role}\": {$a->number}"

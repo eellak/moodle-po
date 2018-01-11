@@ -1,0 +1,101 @@
+#. extracted from lang/en/filter_mathjaxloader.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'filter_mathjaxloader', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   filter_mathjaxloader
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['additionaldelimiters']
+msgid "Additional equation delimiters"
+msgstr ""
+
+#: $string['additionaldelimiters_help']
+msgid ""
+"MathJax filter parses text for equations contained within delimiter "
+"characters.\n"
+"\n"
+"The list of recognised delimiter characters can be added to here (e.g. "
+"AsciiMath uses `). Delimiters can contain multiple characters and multiple "
+"delimiters can be separated with commas."
+msgstr ""
+
+#: $string['filtername']
+msgid "MathJax"
+msgstr ""
+
+#: $string['httpsurl']
+msgid "MathJax URL"
+msgstr ""
+
+#: $string['httpsurl_help']
+msgid "Full URL to MathJax library."
+msgstr ""
+
+#: $string['localinstall']
+msgid "Local MathJax installation"
+msgstr ""
+
+#: $string['localinstall_help']
+msgid ""
+"The default MathJax configuration uses the CDN version of MathJax, but "
+"MathJax can be installed locally if required.\n"
+"\n"
+"This can be useful to save on bandwidth or because of local proxy "
+"restrictions.\n"
+"\n"
+"To use a local installation of MathJax, first download the full MathJax "
+"library from http://www.mathjax.org/. Then install it on a web server. "
+"Finally update the MathJax filter settings httpurl and/or httpsurl to point "
+"to the local MathJax.js URL."
+msgstr ""
+
+#: $string['mathjaxsettings']
+msgid "MathJax configuration"
+msgstr ""
+
+#: $string['mathjaxsettings_desc']
+msgid ""
+"The default MathJax configuration should be appropriate for most users, but "
+"MathJax is highly configurable and any of the standard MathJax configuration "
+"options can be added here."
+msgstr ""
+
+#: $string['texfiltercompatibility']
+msgid "TeX filter compatibility"
+msgstr ""
+
+#: $string['texfiltercompatibility_help']
+msgid ""
+"The MathJax filter can be used as a replacement for the TeX notation filter.\n"
+"\n"
+"To support all the delimiters supported by the TeX notation filter, MathJax "
+"will be configured to display all equations \"inline\" with the text."
+msgstr ""

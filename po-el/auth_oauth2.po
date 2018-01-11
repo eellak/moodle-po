@@ -1,0 +1,221 @@
+#. extracted from lang/en/auth_oauth2.php, lang/el/auth_oauth2.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'auth_oauth2', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   auth_oauth2
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['accountexists']
+msgid ""
+"A user already exists on this site with this username. If this is your "
+"account, log in by entering your username and password and add it as a "
+"linked login via your preferences page."
+msgstr ""
+
+#: $string['alreadylinked']
+msgid "This external account is already linked to an account on this site"
+msgstr ""
+
+#: $string['auth_oauth2description']
+msgid "OAuth 2 standards based authentication"
+msgstr ""
+
+#: $string['auth_oauth2settings']
+msgid "OAuth 2 authentication settings."
+msgstr ""
+
+#: $string['confirmaccountemail']
+msgid ""
+"Hi {$a->fullname},\n"
+"\n"
+"A new account has been requested at '{$a->sitename}'\n"
+"using your email address.\n"
+"\n"
+"To confirm your new account, please go to this web address:\n"
+"\n"
+"{$a->link}\n"
+"\n"
+"In most mail programs, this should appear as a blue link\n"
+"which you can just click on.  If that doesn't work,\n"
+"then cut and paste the address into the address\n"
+"line at the top of your web browser window.\n"
+"\n"
+"If you need help, please contact the site administrator,\n"
+"{$a->admin}"
+msgstr ""
+
+#: $string['confirmaccountemailsubject']
+msgid "{$a}: account confirmation"
+msgstr ""
+
+#: $string['confirmationinvalid']
+msgid ""
+"The confirmation link is either invalid, or has expired. Please start the "
+"login process again to generate a new confirmation email."
+msgstr ""
+
+#: $string['confirmationpending']
+msgid "This account is pending email confirmation."
+msgstr ""
+
+#: $string['confirmlinkedloginemail']
+msgid ""
+"Hi {$a->fullname},\n"
+"\n"
+"A request has been made to link the {$a->issuername} login\n"
+"{$a->linkedemail} to your account at '{$a->sitename}'\n"
+"using your email address.\n"
+"\n"
+"To confirm this request and link these logins, please go to this web "
+"address:\n"
+"\n"
+"{$a->link}\n"
+"\n"
+"In most mail programs, this should appear as a blue link\n"
+"which you can just click on.  If that doesn't work,\n"
+"then cut and paste the address into the address\n"
+"line at the top of your web browser window.\n"
+"\n"
+"If you need help, please contact the site administrator,\n"
+"{$a->admin}"
+msgstr ""
+
+#: $string['confirmlinkedloginemailsubject']
+msgid "{$a}: linked login confirmation"
+msgstr ""
+
+#: $string['createaccountswarning']
+msgid ""
+"This authentication plugin allows users to create accounts on your site. You "
+"may want to enable the setting \"authpreventaccountcreation\" if you use this "
+"plugin."
+msgstr ""
+
+#: $string['createnewlinkedlogin']
+msgid "Link a new account ({$a})"
+msgstr ""
+
+#: $string['emailconfirmlink']
+msgid "Link your accounts"
+msgstr "Συνδέστε τους λογαριασμούς σας"
+
+#: $string['emailconfirmlinksent']
+msgid ""
+"<p>An existing account was found with this email address but it is not "
+"linked yet.</p>\n"
+"   <p>The accounts must be linked before you can log in.</p>\n"
+"   <p>An email should have been sent to your address at <b>{$a}</b>.</p>\n"
+"   <p>It contains easy instructions to link your accounts.</p>\n"
+"   <p>If you have any difficulty, contact the site administrator.</p>"
+msgstr ""
+"<p>Βρέθηκε ένας λογαριασμός με αυτή την ηλεκτρονική διεύθυνση αλλά δεν είναι "
+"ακόμα συνδεδεμένος.</p>\n"
+"   <p>Οι λογαριασμοί θα πρέπει να είναι συνδεδεμένοι μεταξύ τους πριν "
+"μπορέσετε να συνδεθείτε.</p>\n"
+"   <p>Ένα email θα πρέπει να έχει σταλεί στη διεύθυνσή σας <b>{$a}</b>.</p>\n"
+"   <p>Περιέχει οδηγίες για να συνδέσετε τους λογαριασμούς σας.</p>\n"
+"   <p>Αν υπάρχει οποιαδήποτε δυσκολία, απευθυνθείτε στο διαχειριστή του "
+"ιστοτόπου.</p>"
+
+#: $string['info']
+msgid "External account"
+msgstr ""
+
+#: $string['issuer']
+msgid "OAuth 2 Service"
+msgstr ""
+
+#: $string['issuernologin']
+msgid "This issuer can not be used to login"
+msgstr ""
+
+#: $string['linkedlogins']
+msgid "Linked logins"
+msgstr "Συνδεδεμένοι λογαριασμοί"
+
+#: $string['linkedloginshelp']
+msgid "Help with linked logins"
+msgstr ""
+
+#: $string['loginerror_authenticationfailed']
+msgid "The authentication process failed."
+msgstr ""
+
+#: $string['loginerror_cannotcreateaccounts']
+msgid "An account with your email address could not be found."
+msgstr ""
+
+#: $string['loginerror_invaliddomain']
+msgid "The email address is not allowed at this site."
+msgstr ""
+
+#: $string['loginerror_nouserinfo']
+msgid ""
+"No user information was returned. The OAuth 2 service may be configured "
+"incorrectly."
+msgstr ""
+
+#: $string['loginerror_userincomplete']
+msgid ""
+"The user information returned did not contain a username and email address. "
+"The OAuth 2 service may be configured incorrectly."
+msgstr ""
+
+#: $string['noissuersavailable']
+msgid "None of the configured OAuth2 services allow you to link login accounts"
+msgstr ""
+
+#: $string['notenabled']
+msgid "Sorry, OAuth 2 authentication plugin is not enabled"
+msgstr ""
+
+#: $string['notloggedindebug']
+msgid "The login attempt failed. Reason: {$a}"
+msgstr ""
+
+#: $string['notwhileloggedinas']
+msgid "Linked logins cannot be managed while logged in as another user."
+msgstr ""
+
+#: $string['oauth2:managelinkedlogins']
+msgid "Manage own linked login accounts"
+msgstr ""
+
+#: $string['plugindescription']
+msgid ""
+"This authentication plugin displays a list of the configured identity "
+"providers on the login page. Selecting an identity provider allows users to "
+"login with their credentials from an OAuth 2 provider."
+msgstr ""
+
+#: $string['pluginname']
+msgid "OAuth 2"
+msgstr ""

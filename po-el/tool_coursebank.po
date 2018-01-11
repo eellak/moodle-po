@@ -1,0 +1,743 @@
+#. extracted from lang/en/tool_coursebank.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'tool_coursebank', language 'en', branch 'MOODLE_31_STABLE'
+#.  *
+#.  * @package   tool_coursebank
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['backupdate']
+msgctxt "$string['backupdate']"
+msgid "Backup date"
+msgstr ""
+
+#: $string['backupfailed']
+msgid "Failed sending backup {$a}."
+msgstr ""
+
+#: $string['backupfilename']
+msgctxt "$string['backupfilename']"
+msgid "File name"
+msgstr ""
+
+#: $string['backupfiles']
+msgid "{$a} file(s)"
+msgstr ""
+
+#: $string['backupqueue']
+msgid "Course Bank backups transfer queue"
+msgstr ""
+
+#: $string['backupsummary']
+msgid "Course Bank backups transfer report"
+msgstr ""
+
+#: $string['check_delete']
+msgid "Are you sure you want to delete {$a} from the transfer queue?"
+msgstr ""
+
+#: $string['check_go']
+msgid "Are you sure you want to resume transferring of {$a}?"
+msgstr ""
+
+#: $string['checking']
+msgid "Checking..."
+msgstr ""
+
+#: $string['check_stop']
+msgid "Are you sure you want to put transferring of {$a} on hold?"
+msgstr ""
+
+#: $string['completion']
+msgid "Completion"
+msgstr ""
+
+#: $string['conncheckbutton']
+msgid "Check connection"
+msgstr ""
+
+#: $string['conncheckfail']
+msgctxt "$string['conncheckfail']"
+msgid ""
+"Connection to \"{$a}\" failed. Please confirm that your external course bank "
+"settings and network configuration are correct."
+msgstr ""
+
+#: $string['connchecksuccess']
+msgid "Connection check to \"{$a}\" passed!"
+msgstr ""
+
+#: $string['connchecktitle']
+msgid "Connection check"
+msgstr ""
+
+#: $string['coursebank:download']
+msgid "Download course bank backup files"
+msgstr ""
+
+#: $string['coursebank:edit']
+msgid "Edit course bank backup files"
+msgstr ""
+
+#: $string['coursebanklogging']
+msgid "Course Bank Logging"
+msgstr ""
+
+#: $string['coursebank:view']
+msgid "View a list of course bank backup files"
+msgstr ""
+
+#: $string['coursebank:viewlogs']
+msgid "View Course Bank logs"
+msgstr ""
+
+#: $string['coursefullname']
+msgctxt "$string['coursefullname']"
+msgid "Course name"
+msgstr ""
+
+#: $string['coursename']
+msgctxt "$string['coursename']"
+msgid "Course name"
+msgstr ""
+
+#: $string['cron_duplicate']
+msgid "Duplicate cron lock"
+msgstr ""
+
+#: $string['cron_force']
+msgid ""
+"The lock can be removed by running this script with --force as an argument."
+msgstr ""
+
+#: $string['cron_lock_cleared']
+msgid ""
+"Clearing old cron lock record in database because it is considered stale."
+msgstr ""
+
+#: $string['cron_locked']
+msgid ""
+"Cron lock record is in the database. The process may have been interrupted "
+"recently or still running."
+msgstr ""
+
+#: $string['cron_removinglock']
+msgid "Removing cron lock in the database..."
+msgstr ""
+
+#: $string['cron_sending']
+msgid "Sending backups..."
+msgstr ""
+
+#: $string['cron_skippingexternal']
+msgid "The tool is not configured to be run via CLI. Exiting..."
+msgstr ""
+
+#: $string['cron_skippingmoodle']
+msgid "Configured to use an external cron. Skipping..."
+msgstr ""
+
+#: $string['crontimeout']
+msgid ""
+"Cron execution time limit reached! Deferring transfer of remaining courses "
+"to next run."
+msgstr ""
+
+#: $string['delete']
+msgid "Delete from the queue"
+msgstr ""
+
+#: $string['deletefailed']
+msgid "Failed deleting backup {$a}."
+msgstr ""
+
+#: $string['disabled']
+msgid "Sending of course backups is disabled."
+msgstr ""
+
+#: $string['download']
+msgid "Download backup file"
+msgstr ""
+
+#: $string['downloadsummary']
+msgid "External Course Bank download backups"
+msgstr ""
+
+#: $string['errordownloading']
+msgid "Error downloading the backup file."
+msgstr ""
+
+#: $string['errorgetdownloadlist']
+msgid ""
+"Can't get a list of backups from external course bank. Please confirm that "
+"your external course bank settings and network configuration are correct."
+msgstr ""
+
+#: $string['ERROR_MAX_ATTEMPTS_REACHED']
+msgid "Maximum attempts reached."
+msgstr ""
+
+#: $string['errorsonly']
+msgid "Errors only"
+msgstr ""
+
+#: $string['ERROR_TIMEOUT']
+msgid "The connection has timed out."
+msgstr ""
+
+#: $string['errorupdatingstatus']
+msgid "Error updating status"
+msgstr ""
+
+#: $string['event_backup_chunk_interrupted']
+msgid "Transfer of backup with {$a} interrupted by chunk failure."
+msgstr ""
+
+#: $string['eventbackupdeleted']
+msgid "Backup file deleted"
+msgstr ""
+
+#: $string['eventbackupdeletefailed']
+msgid "Backup delete failed"
+msgstr ""
+
+#: $string['eventbackupdeleteskipped']
+msgid "Backup delete skipped"
+msgstr ""
+
+#: $string['eventbackupdownloaded']
+msgid "Backup downloaded"
+msgstr ""
+
+#: $string['eventbackupdownloadfailed']
+msgid "Backup download failed"
+msgstr ""
+
+#: $string['event_backup_init_completed']
+msgid "Course backup with {$a} has already been transferred to Coursebank."
+msgstr ""
+
+#: $string['event_backup_init_exists_data']
+msgid ""
+"Course backup with {$a} already exists in Coursebank. Existing data will be "
+"overwritten."
+msgstr ""
+
+#: $string['event_backup_init_exists_nodata']
+msgid ""
+"Course backup with {$a} already exists in Coursebank, but no data has been "
+"transferred yet."
+msgstr ""
+
+#: $string['event_backup_init_interrupted']
+msgid "Transfer of backup with {$a} interrupted during backup initialisation"
+msgstr ""
+
+#: $string['eventbackupsendfailed']
+msgid "Backup send failed"
+msgstr ""
+
+#: $string['event_backup_transfer_completed']
+msgid "Transfer of course backup with {$a} completed."
+msgstr ""
+
+#: $string['event_backup_transfer_started']
+msgid "Transfer of course backup with {$a} started."
+msgstr ""
+
+#: $string['event_backup_update']
+msgid "Transfer record of backup with {$a} updated."
+msgstr ""
+
+#: $string['eventbackupupdated']
+msgid "Backup record updated"
+msgstr ""
+
+#: $string['event_backup_update_interrupted']
+msgid "Transfer of backup with {$a} interrupted by backup update failure."
+msgstr ""
+
+#: $string['eventconnectionchecked']
+msgid "Connection checked"
+msgstr ""
+
+#: $string['eventconnectioncheckfailed']
+msgid "Connection check failed"
+msgstr ""
+
+#: $string['eventcroncompleted']
+msgid "Coursebank scheduled task completed"
+msgstr ""
+
+#: $string['eventcronstarted']
+msgid "Coursebank scheduled task started"
+msgstr ""
+
+#: $string['eventdownloadsviewed']
+msgid "Download page viewed"
+msgstr ""
+
+#: $string['event_downloads_viewed']
+msgid "The user with id '{$a}' viewed the backup downloads page."
+msgstr ""
+
+#: $string['eventdownloadviewfailed']
+msgid "Download page view failed"
+msgstr ""
+
+#: $string['event_download_view_failed']
+msgid ""
+"The user with id '{$a}' attempted to view the backup downloads page but an "
+"error occurred."
+msgstr ""
+
+#: $string['eventgetsession']
+msgid "New session key created."
+msgstr ""
+
+#: $string['eventgetsessionfailed']
+msgid "Session key creation failed."
+msgstr ""
+
+#: $string['eventhttprequest']
+msgid "HTTP request"
+msgstr ""
+
+#: $string['eventhttprequestfailed']
+msgid "HTTP request failed"
+msgstr ""
+
+#: $string['eventloggedas']
+msgid "{$a->realusername} as {$a->asusername}"
+msgstr ""
+
+#: $string['eventname']
+msgid "Event name"
+msgstr ""
+
+#: $string['eventorigin']
+msgid "Origin"
+msgstr ""
+
+#: $string['eventqueuepopulated']
+msgid "Course backup queue populated"
+msgstr ""
+
+#: $string['eventstatusupdated']
+msgid "Backup status updated"
+msgstr ""
+
+#: $string['eventstatusupdatefailed']
+msgid "Backup status update failed"
+msgstr ""
+
+#: $string['eventtimeoutreached']
+msgid "Cron time out reached"
+msgstr ""
+
+#: $string['eventtimeoutreached_desc']
+msgid "Cron execition time limit reached during transfer of course {$a}."
+msgstr ""
+
+#: $string['eventtransfercompleted']
+msgid "Backup transfer completed"
+msgstr ""
+
+#: $string['eventtransferinterrupted']
+msgid "Backup transfer interrupted"
+msgstr ""
+
+#: $string['event_transfer_queue_populated']
+msgid "{$a} course backup files added to the transfer queue."
+msgstr ""
+
+#: $string['eventtransferresumed']
+msgid "Backup transfer resumed"
+msgstr ""
+
+#: $string['eventtransferstarted']
+msgid "Backup transfer started"
+msgstr ""
+
+#: $string['eventtransferstartfailed']
+msgid "Backup transfer start failed"
+msgstr ""
+
+#: $string['filename']
+msgctxt "$string['filename']"
+msgid "File name"
+msgstr ""
+
+#: $string['filesize']
+msgid "File size"
+msgstr ""
+
+#: $string['filetimemodified']
+msgctxt "$string['filetimemodified']"
+msgid "Backup date"
+msgstr ""
+
+#: $string['filterisequalto']
+msgid "is equal to"
+msgstr ""
+
+#: $string['filterlessthan']
+msgid "less than"
+msgstr ""
+
+#: $string['filtermorethan']
+msgid "more than"
+msgstr ""
+
+#: $string['go']
+msgid "Resume transferring"
+msgstr ""
+
+#: $string['identify_backup']
+msgid "UUID '{$a->uuid}' and file name '{$a->filename}\\"
+msgstr ""
+
+#: $string['limiterfor']
+msgid "{$a} field limiter"
+msgstr ""
+
+#: $string['localdeletesuccess']
+msgid "{$a} deleted successfully from the designated storage area."
+msgstr ""
+
+#: $string['moodledeleteskip']
+msgid ""
+"Skip deleting {$a} from the automated backup filearea as the last automated "
+"backup for the course is not successful."
+msgstr ""
+
+#: $string['moodledeletesuccess']
+msgid "{$a} deleted successfully from the automated backup filearea."
+msgstr ""
+
+#: $string['nav_download']
+msgid "Download backups"
+msgstr ""
+
+#: $string['nav_queue']
+msgid "Transfer queue"
+msgstr ""
+
+#: $string['nav_report']
+msgctxt "$string['nav_report']"
+msgid "Course Bank logs"
+msgstr ""
+
+#: $string['nav_summary']
+msgid "Backups transfer report"
+msgstr ""
+
+#: $string['noaccesstofeature']
+msgid "Sorry, only admin or CLI has access to this feature."
+msgstr ""
+
+#: $string['nologreaderenabled']
+msgid "No log reader enabled"
+msgstr ""
+
+#: $string['notavailable']
+msgid "Not available"
+msgstr ""
+
+#: $string['notcompleted']
+msgid "Not completed"
+msgstr ""
+
+#: $string['notstarted']
+msgid "Not started"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Course Bank"
+msgstr ""
+
+#: $string['reportpageheader']
+msgctxt "$string['reportpageheader']"
+msgid "Course Bank logs"
+msgstr ""
+
+#: $string['return']
+msgid "Go to settings page"
+msgstr ""
+
+#: $string['selectlogreader']
+msgid "Select log reader"
+msgstr ""
+
+#: $string['sendcoursebackups']
+msgid "External course backups"
+msgstr ""
+
+#: $string['settings_authtoken']
+msgid "Authentication token"
+msgstr ""
+
+#: $string['settings_authtoken_desc']
+msgid ""
+"Authentication token for use in communication with external course bank "
+"instance."
+msgstr ""
+
+#: $string['settings_chunksize']
+msgid "Chunk size"
+msgstr ""
+
+#: $string['settings_chunksize_desc']
+msgid "Size of individual backup chunks to be sent to the backup server."
+msgstr ""
+
+#: $string['settings_deletelocalbackup']
+msgid "Delete local backups"
+msgstr ""
+
+#: $string['settings_deletelocalbackup_desc']
+msgid ""
+"If enabled a local backup file will be deleted once it has been sent to "
+"coursebank."
+msgstr ""
+
+#: $string['settings_disablestring']
+msgid "Disable"
+msgstr ""
+
+#: $string['settings_displaypages']
+msgid "Display pages"
+msgstr ""
+
+#: $string['settings_displaypages_desc']
+msgid ""
+"Hide/Display Course Bank pages in the navigation menu under Site "
+"administration > Courses > Backups > Course Bank"
+msgstr ""
+
+#: $string['settings_enable']
+msgid "Active"
+msgstr ""
+
+#: $string['settings_enable_desc']
+msgid "Enable or disable sending of course backups."
+msgstr ""
+
+#: $string['settings_enablestring']
+msgid "Enable"
+msgstr ""
+
+#: $string['settings_externalcron']
+msgid "Use external cron"
+msgstr ""
+
+#: $string['settings_externalcron_desc']
+msgid ""
+"If checked the process will be triggered by external cron.\n"
+"    <br />Server administrators have to set up external cron.\n"
+"    <br />The simple example: <PRE>2-57/5 * * * * www-data php "
+"/path/to/your/moodle/admin/tool/coursebank/cli/backup.php >> "
+"/var/log/backup.log</PRE>"
+msgstr ""
+
+#: $string['settings_header']
+msgid "Course Bank configuration options"
+msgstr ""
+
+#: $string['settings_intro']
+msgid ""
+"Please see <a href=\"https://account.coursebank.biz/content/moodle-setup\" "
+"target=\"_blank\">Moodle setup documentation</a> to learn how to configure "
+"your plugin. There is also a <a "
+"href=\"https://account.coursebank.biz/content/faq\" target=\"_blank\">FAQ "
+"page</a>."
+msgstr ""
+
+#: $string['settingspage']
+msgid "Configuration"
+msgstr ""
+
+#: $string['settings_proxyheader']
+msgid "Proxy configuration"
+msgstr ""
+
+#: $string['settings_proxypass']
+msgid "Password"
+msgstr ""
+
+#: $string['settings_proxypass_desc']
+msgid "Proxy password credential"
+msgstr ""
+
+#: $string['settings_proxyport']
+msgid "Port"
+msgstr ""
+
+#: $string['settings_proxyport_desc']
+msgid "Proxy port"
+msgstr ""
+
+#: $string['settings_proxyurl']
+msgid "Proxy URL"
+msgstr ""
+
+#: $string['settings_proxyurl_desc']
+msgid "Proxy provider URL"
+msgstr ""
+
+#: $string['settings_proxyuser']
+msgid "Username"
+msgstr ""
+
+#: $string['settings_proxyuser_desc']
+msgid "Proxy username credential"
+msgstr ""
+
+#: $string['settings_requestretries']
+msgid "HTTP request retries"
+msgstr ""
+
+#: $string['settings_requestretries_desc']
+msgid ""
+"Number of times to reattempt the sending of an individual failed request."
+msgstr ""
+
+#: $string['settings_sessionkey']
+msgid "Session key"
+msgstr ""
+
+#: $string['settings_sessionkey_desc']
+msgid ""
+"Session key used by Course Bank (Moodle) to authenticate with External "
+"Course Bank."
+msgstr ""
+
+#: $string['settings_timeout']
+msgid "Web service time out"
+msgstr ""
+
+#: $string['settings_timeout_desc']
+msgid "Time out (in seconds) for individual HTTP requests."
+msgstr ""
+
+#: $string['settings_url']
+msgid "Target URL"
+msgstr ""
+
+#: $string['settings_url_desc']
+msgid "Location of the target backup server."
+msgstr ""
+
+#: $string['speedtestbutton']
+msgid "Test transfer speed"
+msgstr ""
+
+#: $string['speedtestchunk']
+msgid "The recommended chunk size for your system is"
+msgstr ""
+
+#: $string['speedtestfail']
+msgctxt "$string['speedtestfail']"
+msgid ""
+"Connection to \"{$a}\" failed. Please confirm that your external course bank "
+"settings and network configuration are correct."
+msgstr ""
+
+#: $string['speedtestslow']
+msgid ""
+"Outbound transfers to \"{$a}\" are very slow. The test transfer speed was "
+"approximately"
+msgstr ""
+
+#: $string['speedtestsuccess']
+msgid ""
+"Connection speed test to \"{$a}\" passed! The test transfer speed was "
+"approximately"
+msgstr ""
+
+#: $string['speedtesttitle']
+msgid "Connection speed test"
+msgstr ""
+
+#: $string['status']
+msgid "Status"
+msgstr ""
+
+#: $string['statuscancelled']
+msgid "Transfer is cancelled"
+msgstr ""
+
+#: $string['statuserror']
+msgid "Error"
+msgstr ""
+
+#: $string['statusfinished']
+msgid "Transfer complete"
+msgstr ""
+
+#: $string['statusinprogress']
+msgid "Transfer in progress"
+msgstr ""
+
+#: $string['statusnotstarted']
+msgid "Transfer pending"
+msgstr ""
+
+#: $string['statusonhold']
+msgid "Transfer is on hold"
+msgstr ""
+
+#: $string['stop']
+msgid "Put on hold"
+msgstr ""
+
+#: $string['timecompleted']
+msgid "Transfer completed"
+msgstr ""
+
+#: $string['timecreated']
+msgctxt "$string['timecreated']"
+msgid "Transfer started"
+msgstr ""
+
+#: $string['timetransferstarted']
+msgctxt "$string['timetransferstarted']"
+msgid "Transfer started"
+msgstr ""
+
+#: $string['transferinprogress']
+msgid ""
+"Can't continue. Transfer is in progress or may have been interrupted "
+"recently. The lock record is in the database."
+msgstr ""
+
+#: $string['valuefor']
+msgid "{$a} value"
+msgstr ""

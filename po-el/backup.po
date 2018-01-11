@@ -1,0 +1,1506 @@
+#. extracted from lang/en/backup.php, lang/el/backup.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:14+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'backup', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   backup
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['autoactivedescription']
+msgid ""
+"Choose whether or not to do automated backups. If manual is selected "
+"automated backups will be possible only by through the automated backups CLI "
+"script. This can be done either manually on the command line or through "
+"cron."
+msgstr ""
+"Επιλέξτε αν θέλετε ή όχι να δημιουργούνται αυτόματα αντίγραφα ασφαλείας. Αν "
+"είναι επιλεγμένο το μη αυτόματο, αυτοματοποιημένη δημιουργία αντιγράφων "
+"ασφαλείας θα είναι δυνατή μόνο μέσα από το πρόγραμμα αυτομάτων αντιγράφων "
+"ασφαλείας CLI. Αυτό μπορεί να γίνει είτε χειροκίνητα από τη γραμμή εντολών ή "
+"μέσω του cron."
+
+#: $string['autoactivedisabled']
+msgid "Disabled"
+msgstr "Απενεργοποιημένο"
+
+#: $string['autoactiveenabled']
+msgid "Enabled"
+msgstr "Ενεργοποιημένο"
+
+#: $string['autoactivemanual']
+msgid "Manual"
+msgstr "Μη αυτόματο"
+
+#: $string['automatedbackupschedule']
+msgid "Schedule"
+msgstr "Πρόγραμμα"
+
+#: $string['automatedbackupschedulehelp']
+msgid "Choose which days of the week to perform automated backups."
+msgstr "Ημέρες λήψης αυτόματου αντιγράφου ασφαλείας"
+
+#: $string['automatedbackupsinactive']
+msgid "Automated backups haven't been enabled by the site admin"
+msgstr ""
+"Η προγραμματισμένη λήψη αντιγράφων ασφαλείας δεν έχει ενεργοποιηθεί από το "
+"διαχειριστή του ιστοχώρου"
+
+#: $string['automatedbackupstatus']
+msgid "Automated backup status"
+msgstr "Κατάσταση λήψης αυτόματων αντιγράφων ασφαλείας"
+
+#: $string['automateddeletedays']
+msgid "Delete backups older than"
+msgstr "Διαγραφή αντιγράφων ασφαλείας προγενέστερων από"
+
+#: $string['automatedmaxkept']
+msgid "Maximum number of backups kept"
+msgstr "Μέγιστος αριθμός αντιγράφων ασφαλείας που θα διατηρούνται"
+
+#: $string['automatedmaxkepthelp']
+msgid ""
+"This specifies the maximum number of recent automated backups to be kept for "
+"each course. Older backups will be deleted automatically."
+msgstr ""
+"Καθορίζει το μέγιστο αριθμό των πρόσφατων αυτόματων αντιγράφων ασφαλείας που "
+"πρέπει να διατηρούνται για κάθε μάθημα. Παλαιότερα αντίγραφα ασφαλείας θα "
+"διαγράφονται αυτόματα."
+
+#: $string['automatedminkept']
+msgid "Minimum number of backups kept"
+msgstr "Ελάχιστος αριθμός αντιγράφων ασφαλείας που θα διατηρούνται"
+
+#: $string['automatedminkepthelp']
+msgid ""
+"If backups older than a specified number of days are deleted, it can happen "
+"that an inactive course ends up with no backup. To prevent this, a minimum "
+"number of backups kept should be specified."
+msgstr ""
+"Αν τα αντίγραφα ασφαλείας προγενέστερα από ένα συγκεκριμένο αριθμό ημερών "
+"έχουν διαγραφεί, μπορεί να συμβεί ένα ανενεργό μάθημα να βρεθεί χωρίς κανένα "
+"αντίγραφο ασφαλείας. Για να αποφευχθεί αυτό, θα πρέπει να καθοριστεί ένας "
+"ελάχιστος αριθμός αντιγράφων ασφαλείας που θα διατηρούνται."
+
+#: $string['automatedsettings']
+msgid "Automated backup settings"
+msgstr "Ρυθμίσεις αυτόματων αντιγράφων ασφαλείας"
+
+#: $string['automatedsetup']
+msgid "Automated backup setup"
+msgstr "Ρύθμιση αυτόματων αντιγράφων ασφαλείας"
+
+#: $string['automatedstorage']
+msgid "Automated backup storage"
+msgstr "Αυτόματη αποθήκευση αντιγράφων ασφαλείας"
+
+#: $string['automatedstoragehelp']
+msgid ""
+"Choose the location where you want backups to be stored when they are "
+"automatically created."
+msgstr ""
+"Επιλέξτε την τοποθεσία που θέλετε να αποθηκεύονται τα αντίγραφα ασφαλείας "
+"όταν δημιουργούνται αυτόματα."
+
+#: $string['backupactivity']
+msgid "Backup activity: {$a}"
+msgstr "Δραστηριότητα αντιγράφου ασφαλείας: {$a}"
+
+#: $string['backupcourse']
+msgid "Backup course: {$a}"
+msgstr "Αντίγραφο ασφαλείας μαθήματος: {$a}"
+
+#: $string['backupcoursedetails']
+msgid "Course details"
+msgstr "Λεπτομέρειες μαθήματος"
+
+#: $string['backupcoursesection']
+msgid "Section: {$a}"
+msgstr "Ενότητα: {$a}"
+
+#: $string['backupcoursesections']
+msgid "Course sections"
+msgstr "Ενότητες του μαθήματος"
+
+#: $string['backupdate']
+msgid "Date taken"
+msgstr "Ημερομηνία λήψης"
+
+#: $string['backupdetails']
+msgid "Backup details"
+msgstr "Λεπτομέρειες αντιγράφων ασφαλείας"
+
+#: $string['backupdetailsnonstandardinfo']
+msgid ""
+"The selected file is not a standard Moodle backup file. The restore process "
+"will try to convert the backup file into the standard format and then "
+"restore it."
+msgstr ""
+"Το επιλεγμένο αρχείο δεν είναι τυπικό αρχείο αντιγράφου ασφαλείας του "
+"Moodle. Η διαδικασία επαναφοράς θα προσπαθήσει να μετατρέψει το αρχείο "
+"αντιγράφου ασφαλείας σε τυποποιημένη μορφή και στη συνέχεια να το "
+"επαναφέρει."
+
+#: $string['backupformat']
+msgid "Format"
+msgstr "Μορφή"
+
+#: $string['backupformatimscc1']
+msgid "IMS Common Cartridge 1.0"
+msgstr ""
+
+#: $string['backupformatimscc11']
+msgid "IMS Common Cartridge 1.1"
+msgstr ""
+
+#: $string['backupformatmoodle1']
+msgid "Moodle 1"
+msgstr ""
+
+#: $string['backupformatmoodle2']
+msgid "Moodle 2"
+msgstr ""
+
+#: $string['backupformatunknown']
+msgid "Unknown format"
+msgstr "Άγνωστη μορφή"
+
+#: $string['backuplog']
+msgid "Technical information and warnings"
+msgstr "Τεχνικές πληροφορίες και προειδοποιήσεις"
+
+#: $string['backupmode']
+msgid "Mode"
+msgstr "Λειτουργία"
+
+#: $string['backupmode10']
+msgid "General"
+msgstr "Γενικά"
+
+#: $string['backupmode20']
+msgid "Import"
+msgstr "Εισαγωγή"
+
+#: $string['backupmode30']
+msgid "Hub"
+msgstr "Κόμβος"
+
+#: $string['backupmode40']
+msgid "Same site"
+msgstr "Ίδιος ιστοχώρος"
+
+#: $string['backupmode50']
+msgid "Automated"
+msgstr "Αυτοματοποιημένο"
+
+#: $string['backupmode60']
+msgid "Converted"
+msgstr "Τροποποιημένο"
+
+#: $string['backupsection']
+msgid "Backup course section: {$a}"
+msgstr "Αντίγραφο ασφαλείας ενότητας μαθήματος: {$a}"
+
+#: $string['backupsettings']
+msgctxt "$string['backupsettings']"
+msgid "Backup settings"
+msgstr "Ρυθμίσεις αντιγράφων ασφαλείας"
+
+#: $string['backupsitedetails']
+msgid "Site details"
+msgstr "Λεπτομέρειες ιστοχώρου"
+
+#: $string['backupstage16action']
+msgctxt "$string['backupstage16action']"
+msgid "Continue"
+msgstr "Συνέχεια"
+
+#: $string['backupstage1action']
+msgctxt "$string['backupstage1action']"
+msgid "Next"
+msgstr "Επόμενο"
+
+#: $string['backupstage2action']
+msgctxt "$string['backupstage2action']"
+msgid "Next"
+msgstr "Επόμενο"
+
+#: $string['backupstage4action']
+msgctxt "$string['backupstage4action']"
+msgid "Perform backup"
+msgstr "Εκτέλεση αντιγράφου ασφαλείας"
+
+#: $string['backupstage8action']
+msgctxt "$string['backupstage8action']"
+msgid "Continue"
+msgstr "Συνέχεια"
+
+#: $string['backuptype']
+msgid "Type"
+msgstr "Τύπος"
+
+#: $string['backuptypeactivity']
+msgid "Activity"
+msgstr "Δραστηριότητα"
+
+#: $string['backuptypecourse']
+msgid "Course"
+msgstr "Μάθημα"
+
+#: $string['backuptypesection']
+msgid "Section"
+msgstr "Ενότητα"
+
+#: $string['backupversion']
+msgid "Backup version"
+msgstr "Έκδοση αντιγράφου ασφαλείας"
+
+#: $string['cannotfindassignablerole']
+msgid ""
+"The {$a} role in the backup file cannot be mapped to any of the roles that "
+"you are allowed to assign."
+msgstr ""
+"Ο ρόλος {$a} στο αρχείο αντιγράφου ασφαλείας δεν μπορεί να αντιστοιχιστεί με "
+"κάποιο από τους ρόλους που έχετε τη δυνατότητα να αναθέσετε."
+
+#: $string['choosefilefromactivitybackup']
+msgid "Activity backup area"
+msgstr "Περιοχή αντιγράφου ασφαλείας δραστηριότητας"
+
+#: $string['choosefilefromactivitybackup_help']
+msgid "Activity backups made using default settings are stored here."
+msgstr ""
+"Εδώ αποθηκεύονται αντίγραφα ασφαλείας που δημιουργούνται με χρήση των "
+"προεπιλεγμένων ρυθμίσεων."
+
+#: $string['choosefilefromautomatedbackup']
+msgid "Automated backups"
+msgstr "Αυτόματη δημιουργία αντιγράφων ασφαλείας"
+
+#: $string['choosefilefromautomatedbackup_help']
+msgid "Contains automatically generated backups."
+msgstr "Περιέχει αντίγραφα ασφαλείας που δημιουργήθηκαν αυτόματα."
+
+#: $string['choosefilefromcoursebackup']
+msgid "Course backup area"
+msgstr "Περιοχή αντιγράφων ασφαλείας μαθήματος"
+
+#: $string['choosefilefromcoursebackup_help']
+msgid "Course backups made using default settings are stored here."
+msgstr ""
+"Όταν χρησιμοποιούνται οι προεπιλεγμένες ρυθμίσεις για τα αντίγραφα ασφαλείας "
+"των μαθημάτων, τα αντίγραφα ασφαλείας θα αποθηκεύονται εδώ"
+
+#: $string['choosefilefromuserbackup']
+msgid "User private backup area"
+msgstr "Προσωπική περιοχή αντιγράφων ασφαλείας χρήστη"
+
+#: $string['choosefilefromuserbackup_help']
+msgid "Backup files with anonymized user information are stored here."
+msgstr ""
+"Όταν έχει σημειωθεί η επιλογή \"Ανωνυμία πληροφοριών χρήστη\" στα αντίγραφα "
+"ασφαλείας μαθημάτων, τα αντίγραφα ασφαλείας θα αποθηκεύονται εδώ"
+
+#: $string['configgeneralactivities']
+msgid "Sets the default for including activities in a backup."
+msgstr ""
+"Ορίζει την προεπιλογή για την συμπερίληψη των δραστηριοτήτων στα αντίγραφα "
+"ασφαλείας."
+
+#: $string['configgeneralanonymize']
+msgid ""
+"If enabled all information pertaining to users will be anonymised by "
+"default."
+msgstr ""
+"Αν ενεργοποιηθεί όλες οι πληροφορίες σχετικά με τους χρήστες θα είναι "
+"ανώνυμες από προεπιλογή."
+
+#: $string['configgeneralbadges']
+msgid "Sets the default for including badges in a backup."
+msgstr ""
+"Ορίζει την προεπιλογή για την συμπερίληψη κονκάρδων στα αντίγραφα ασφαλείας."
+
+#: $string['configgeneralblocks']
+msgid "Sets the default for including blocks in a backup."
+msgstr ""
+"Ορίζει την προεπιλογή για την συμπερίληψη των μπλοκ στα αντίγραφα ασφαλείας."
+
+#: $string['configgeneralcalendarevents']
+msgid "Sets the default for including calendar events in a backup."
+msgstr ""
+"Ορίζει την προεπιλογή για την συμπερίληψη γεγονότων ημερολογίου στα "
+"αντίγραφα ασφαλείας."
+
+#: $string['configgeneralcomments']
+msgid "Sets the default for including comments in a backup."
+msgstr ""
+"Ορίζει την προεπιλογή για την συμπερίληψη των σχολίων στα αντίγραφα "
+"ασφαλείας."
+
+#: $string['configgeneralcompetencies']
+msgid "Sets the default for including competencies in a backup."
+msgstr ""
+"Ορίζει την προεπιλογή για την συμπερίληψη δεξιοτήτων στα αντίγραφα "
+"ασφαλείας."
+
+#: $string['configgeneralfilters']
+msgid "Sets the default for including filters in a backup."
+msgstr ""
+"Ορίζει την προεπιλογή για την συμπερίληψη φίλτρων στα αντίγραφα ασφαλείας."
+
+#: $string['configgeneralgroups']
+msgid "Sets the default for including groups and groupings in a backup."
+msgstr ""
+"Ορίζει την προεπιλογή για την συμπερίληψη ομάδων και ομαδοποιήσεων στα "
+"αντίγραφα ασφαλείας."
+
+#: $string['configgeneralhistories']
+msgid "Sets the default for including user history within a backup."
+msgstr ""
+"Ορίζει την προεπιλογή για την συμπερίληψη του ιστορικού χρήστη εντός των "
+"αντιγράφων ασφαλείας."
+
+#: $string['configgenerallogs']
+msgid "If enabled logs will be included in backups by default."
+msgstr ""
+"Αν ενεργοποιηθεί οι αναφορές θα περιλαμβάνονται στα αντίγραφα ασφαλέιας από "
+"προεπιλογή."
+
+#: $string['configgeneralquestionbank']
+msgid ""
+"If enabled the question bank will be included in backups by default. PLEASE "
+"NOTE: Disabling this setting will disable the backup of activities which use "
+"the question bank, such as the quiz."
+msgstr ""
+"Αν είναι ενεργοποιημένο η τράπεζα ερωτήσεων θα περιλαμβάνεται στα αντίγραφα "
+"ασφαλείας από προεπιλογή. ΣΗΜΕΙΩΣΗ: Η απενεργοποίηση αυτής της ρύθμισης θα "
+"απενεργοποιήσει τη δημιουργία αντιγράφων ασφαλείας δραστηριοτήτων που "
+"χρησιμοποιούν τράπεζα ερωτήσεων, όπως το κουίζ."
+
+#: $string['configgeneralroleassignments']
+msgid "If enabled by default roles assignments will also be backed up."
+msgstr ""
+"Αν ενεργοποιηθεί από προεπιλογή θα δημιουργηθούν επίσης αντίγραφα ασφαλείας "
+"για τις αναθέσεις ρόλων."
+
+#: $string['configgeneralusers']
+msgid "Sets the default for whether to include users in backups."
+msgstr ""
+"Ορίζει την προεπιλογή για το αν περιλαμβάνονται οι χρήστες στα αντίγραφα "
+"ασφαλείας."
+
+#: $string['configgeneraluserscompletion']
+msgid ""
+"If enabled user completion information will be included in backups by "
+"default."
+msgstr ""
+"Αν ενεργοποιηθεί οι πληροφορίες ολοκλήρωσης ενός χρήστη θα περιλαμβάνονται "
+"στα αντίγραφα ασφαλείας από προεπιλογή."
+
+#: $string['config_keep_groups_and_groupings']
+msgid "By default keep current groups and groupings."
+msgstr ""
+
+#: $string['config_keep_roles_and_enrolments']
+msgid "By default keep current roles and enrolments."
+msgstr ""
+
+#: $string['configloglifetime']
+msgid ""
+"This specifies the length of time you want to keep backup logs information. "
+"Logs that are older than this age are automatically deleted. It is "
+"recommended to keep this value small, because backup logged information can "
+"be huge."
+msgstr ""
+"Καθορίζει το χρονικό διάστημα που θέλετε να κρατήσετε πληροφορίες "
+"δημιουργίας αντιγράφων ασφαλείας. Τα αρχεία καταγραφής που είναι "
+"προγενέστερα αυτόυ του χρονικού διαστήματος θα διαγράφονται αυτόματα. "
+"Συνιστάται να διατηρείται αυτή η τιμήμικρές, επειδή οι πληροφορίες "
+"δημιουργίας αντιγράφων ασφαλείας καταγράφονται μπορεί να είναι τεράστιες."
+
+#: $string['config_overwrite_conf']
+msgid "Allows user to overwrite the current course configuration"
+msgstr ""
+
+#: $string['config_overwrite_course_fullname']
+msgid ""
+"By default overwrite course full name with the one from the backup file. "
+"This requires \"Overwrite course configuration\" to be checked and current "
+"user to have the capability to change course full name "
+"(moodle/course:changefullname)"
+msgstr ""
+
+#: $string['config_overwrite_course_shortname']
+msgid ""
+"By default overwrite course short name with the one from the backup file. "
+"This requires \"Overwrite course configuration\" to be checked and current "
+"user to have the capability to change course short name "
+"(moodle/course:changeshortname)"
+msgstr ""
+
+#: $string['config_overwrite_course_startdate']
+msgid ""
+"By default overwrite course start date with the one from the backup file. "
+"This requires \"Overwrite course configuration\" to be checked and current "
+"user to have the capability to roll course dates on restore "
+"(moodle/restore:rolldates)"
+msgstr ""
+
+#: $string['configrestoreactivities']
+msgid "Sets the default for restoring activities."
+msgstr ""
+
+#: $string['configrestorebadges']
+msgid "Sets the default for restoring badges."
+msgstr ""
+
+#: $string['configrestoreblocks']
+msgid "Sets the default for restoring blocks."
+msgstr ""
+
+#: $string['configrestorecalendarevents']
+msgid "Sets the default for restoring calendar events."
+msgstr ""
+
+#: $string['configrestorecomments']
+msgid "Sets the default for restoring comments."
+msgstr ""
+
+#: $string['configrestorecompetencies']
+msgid "Sets the default for restoring competencies."
+msgstr ""
+
+#: $string['configrestoreenrolments']
+msgid "Sets the default for restoring enrolment methods."
+msgstr ""
+
+#: $string['configrestorefilters']
+msgid "Sets the default for restoring filters."
+msgstr ""
+
+#: $string['configrestoregroups']
+msgid ""
+"Sets the default for restoring groups and groupings if they were included in "
+"the backup."
+msgstr ""
+
+#: $string['configrestorehistories']
+msgid ""
+"Sets the default for restoring user history if it was included in the "
+"backup."
+msgstr ""
+
+#: $string['configrestorelogs']
+msgid ""
+"If enabled logs will be restored by default if they were included in the "
+"backup."
+msgstr ""
+
+#: $string['configrestoreroleassignments']
+msgid ""
+"If enabled by default roles assignments will be restored if they were "
+"included in the backup."
+msgstr ""
+
+#: $string['configrestoreusers']
+msgid ""
+"Sets the default for whether to restore users if they were included in the "
+"backup."
+msgstr ""
+
+#: $string['configrestoreuserscompletion']
+msgid ""
+"If enabled user completion information will be restored by default if it was "
+"included in the backup."
+msgstr ""
+
+#: $string['confirmcancel']
+msgid "Cancel backup"
+msgstr "Ακύρωση αντιγράφου ασφαλείας"
+
+#: $string['confirmcancelno']
+msgid "Stay"
+msgstr "Παραμονή"
+
+#: $string['confirmcancelquestion']
+msgid ""
+"Are you sure you wish to cancel?\n"
+"Any information you have entered will be lost."
+msgstr ""
+"Είστε βέβαιοι ότι θέλετε να κάνετε ακύρωση; Όλες οι πληροφορίες που έχετε "
+"εισάγει θα χαθούν."
+
+#: $string['confirmcancelyes']
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: $string['confirmnewcoursecontinue']
+msgid "New course warning"
+msgstr "Προειδοποίηση νέου μαθήματος"
+
+#: $string['confirmnewcoursecontinuequestion']
+msgid ""
+"A temporary (hidden) course will be created by the course restoration "
+"process. To abort restoration click cancel. Do not close the browser while "
+"restoring."
+msgstr ""
+"Ένα προσωρινό (κρυφό) μάθημα θα δημιουργηθεί από τη διαδικασία επαναφοράς "
+"μαθήματος. Για να ματαιώσετε την επαναφοράς πατήστε Ακύρωση. Μην κλείσετε το "
+"πρόγραμμα περιήγησης, κατά τη διαδικασία επαναφοράς."
+
+#: $string['coursecategory']
+msgid "Category the course will be restored into"
+msgstr "Κατηγορία που θα γίνει επαναφορά το μάθημα"
+
+#: $string['courseid']
+msgid "Original ID"
+msgstr "Αρχικό αναγνωριστικό"
+
+#: $string['coursesettings']
+msgctxt "$string['coursesettings']"
+msgid "Course settings"
+msgstr "Ρυθμίσεις Μαθήματος"
+
+#: $string['coursetitle']
+msgctxt "$string['coursetitle']"
+msgid "Title"
+msgstr "Τίτλος"
+
+#: $string['currentstage1']
+msgctxt "$string['currentstage1']"
+msgid "Initial settings"
+msgstr "Αρχικές ρυθμίσεις"
+
+#: $string['currentstage16']
+msgctxt "$string['currentstage16']"
+msgid "Complete"
+msgstr "Ολοκλήρωση"
+
+#: $string['currentstage2']
+msgctxt "$string['currentstage2']"
+msgid "Schema settings"
+msgstr "Ρυθμίσεις διάταξης"
+
+#: $string['currentstage4']
+msgctxt "$string['currentstage4']"
+msgid "Confirmation and review"
+msgstr "Επιβεβαίωση και επανεξέταση"
+
+#: $string['currentstage8']
+msgctxt "$string['currentstage8']"
+msgid "Perform backup"
+msgstr "Εκτέλεση αντιγράφου ασφαλείας"
+
+#: $string['enterasearch']
+msgid "Enter a search"
+msgstr "Εισάγετε μια αναζήτηση"
+
+#: $string['error_block_for_module_not_found']
+msgid ""
+"Orphan block instance (id: {$a->bid}) for course module (id: {$a->mid}) "
+"found. This block will not be backed up"
+msgstr ""
+"Βρέθηκε ορφανό στιγμιότυπο μπλοκ (αναγνωριστικό: {$a->bid}) για το άρθρωμα "
+"αναγνωριστικό(id: {$a->mid}). Αυτό το μπλοκ δεν θα συμπεριληφθεί στο "
+"αντίγραφο ασφαλείας."
+
+#: $string['errorcopyingbackupfile']
+msgid ""
+"Failed to copy the backup file to the temporary folder before restoring."
+msgstr ""
+"Αποτυχία αντιγραφής του αρχείου αντιγράφου ασφαλεάις στον προσωρινό φάκελο "
+"πριν την επαναφορά."
+
+#: $string['error_course_module_not_found']
+msgid ""
+"Orphan course module (id: {$a}) found. This module will not be backed up."
+msgstr ""
+"Βρέθηκε ορφανό άρθρωμα μαθήματος (αναγνωριστικό: {$a}). Αυτό το άρθρωμα δεν "
+"θα συμπεριληφθεί στο αντίγραφο ασφαλείας."
+
+#: $string['errorfilenamemustbezip']
+msgid "The filename you enter must be a ZIP file and have the .mbz extension"
+msgstr ""
+"Το όνομα του αρχείου που εισάγετε πρέπει να είναι ένα αρχείο ZIP και να έχει "
+"την επέκταση .mbz"
+
+#: $string['errorfilenamerequired']
+msgid "You must enter a valid filename for this backup"
+msgstr ""
+"Θα πρέπει να εισάγετε ένα έγκυρο όνομα αρχείου για το αντίγραφο ασφαλείας"
+
+#: $string['errorfilenametoolong']
+msgid "The filename length you enter must be less than 255 characters"
+msgstr ""
+
+#: $string['errorinvalidformat']
+msgid "Unknown backup format"
+msgstr "Άγνωστη μορφή αντιγράφου ασφαλείας"
+
+#: $string['errorinvalidformatinfo']
+msgid ""
+"The selected file is not a valid Moodle backup file and can't be restored."
+msgstr ""
+"Το επιλεγμένο αρχείο δεν είναι ένα έγκυρο αρχείο αντιγράφου ασφαλείας του "
+"Moodle και δεν είναι δυνατή η επαναφορά του."
+
+#: $string['errorminbackup20version']
+msgid ""
+"This backup file has been created with one development version of Moodle "
+"backup ({$a->backup}). Minimum required is {$a->min}. Cannot be restored."
+msgstr ""
+"Αυτό το αντίγραφο ασφαλείας έχει δημιουργηθεί με μία υπο ανάπτυξη έκδοση του "
+"Moodle δημιουργίας αντιγράφων ασφαλείας ({$a->backup}). Ελάχιστο "
+"απαιτούμενο είναι {$a->min}. Δεν είναι εφικτή η επαναφορά."
+
+#: $string['errorrestorefrontpagebackup']
+msgid "You can only restore front page backups on the front page"
+msgstr ""
+"Μπορείτε να επαναφέρετε μόνο αντίγραφα ασφαλείας πρώτης σελίδας στην πρώτη "
+"σελίδα"
+
+#: $string['executionsuccess']
+msgid "The backup file was successfully created."
+msgstr "Το αρχείο αντιγράφου ασφαλείας δημιουργήθηκε με επιτυχία."
+
+#: $string['filealiasesrestorefailures']
+msgid "Aliases restore failures"
+msgstr "Αποτυχίες επαναφοράς ψευδώνυμων"
+
+#: $string['filealiasesrestorefailures_help']
+msgid ""
+"Aliases are symbolic links to other files, including those stored in "
+"external repositories. In some cases, Moodle cannot restore them - for "
+"example when restoring the backup at another site or when the referenced "
+"file does not exist.\n"
+"\n"
+"More details and the actual reason of the failure can be found in the "
+"restore log file."
+msgstr ""
+"Τα ψευδώνυμα είναι συμβολικοί σύνδεσμοι σε άλλα αρχεία, συμπεριλαμβανομένων "
+"εκείνων που είναι αποθηκευμένα σε εξωτερικά αποθετήρια. Σε ορισμένες "
+"περιπτώσεις, το Moodle δεν μπορεί να τα επαναφέρει - για παράδειγμα, όταν η "
+"γίνεται επαναφορά του αντιγράφου ασφαλείας σε ένα άλλο ιστοχώρο ή όταν δεν "
+"υπάρχει το αναφερόμενο αρχείο.<br/><br/>\n"
+"Περισσότερες λεπτομέρειες και η πραγματική αιτία της αποτυχίας μπορεί να "
+"βρεθεί στο αρχείο καταγραφής της επαναφοράς."
+
+#: $string['filealiasesrestorefailuresinfo']
+msgid ""
+"Some aliases included in the backup file could not be restored. The "
+"following list contains their expected location and the source file they "
+"were referring to at the original site."
+msgstr ""
+"Δεν είναι δυνατή η επαναφορά μερικών ψευδώνυμων που περιλαμβάνονται στο "
+"αρχείο αντιγράφου ασφαλείας. Η ακόλουθη λίστα περιέχει την αναμενόμενη θέση "
+"τους και το αρχείο προέλευσης που αναφέρονταν στον αρχικό ιστοχώρο."
+
+#: $string['filealiasesrestorefailures_link']
+msgid "restore/filealiases"
+msgstr ""
+
+#: $string['filename']
+msgid "Filename"
+msgstr "Όνομα αρχείου"
+
+#: $string['filereferencesincluded']
+msgid ""
+"File references to external contents are included in the backup file. These "
+"won't work if the backup is restored on a different site."
+msgstr ""
+"Οι αναφορές του αρχείου σε εξωτερικό περιεχόμενο περιλαμβάνονται στο αρχείο "
+"αντιγράφου ασφαλείας. Αυτές δεν θα λειτουργούν αν το αντίγραφο ασφαλείας "
+"γίνει επεναφορά σε διαφορετικό ιστοχώρο."
+
+#: $string['filereferencesnotsamesite']
+msgid ""
+"The backup file is from a different site, and so file references cannot be "
+"restored."
+msgstr ""
+"Το αρχείο αντιγράφου ασφαλείας είναι από διαφορετικό ιστοχώρο, και έτσι δεν "
+"είναι εφικτή η επαναφορά των αναφορών του αρχείου."
+
+#: $string['filereferencessamesite']
+msgid ""
+"The backup file is from this site, and so file references can be restored."
+msgstr ""
+"Το αρχείο αντιγράφου ασφαλείας είναι από αυτό το ιστοχώρο, και έτσι είναι "
+"εφικτή η επαναφορά των αναφορών του αρχείου."
+
+#: $string['generalactivities']
+msgctxt "$string['generalactivities']"
+msgid "Include activities and resources"
+msgstr "Συμπεριέλαβε δραστηριότητες"
+
+#: $string['generalanonymize']
+msgid "Anonymise information"
+msgstr "Ανωνυμία πληροφοριών"
+
+#: $string['generalbackdefaults']
+msgid "General backup defaults"
+msgstr "Γενικές προεπιλογές αντιγράφων ασφαλείας"
+
+#: $string['generalbadges']
+msgctxt "$string['generalbadges']"
+msgid "Include badges"
+msgstr "Συμπερίληψη κονκάρδων"
+
+#: $string['generalblocks']
+msgctxt "$string['generalblocks']"
+msgid "Include blocks"
+msgstr "Συμπεριέλαβε μπλοκ"
+
+#: $string['generalcalendarevents']
+msgctxt "$string['generalcalendarevents']"
+msgid "Include calendar events"
+msgstr "Συμπερίληψη γεγονότων ημερολογίου"
+
+#: $string['generalcomments']
+msgctxt "$string['generalcomments']"
+msgid "Include comments"
+msgstr "Συμπεριλάβετε σχόλια"
+
+#: $string['generalcompetencies']
+msgctxt "$string['generalcompetencies']"
+msgid "Include competencies"
+msgstr "Συμπερίληψη δεξιοτήτων"
+
+#: $string['generalenrolments']
+msgctxt "$string['generalenrolments']"
+msgid "Include enrolment methods"
+msgstr ""
+
+#: $string['generalfilters']
+msgctxt "$string['generalfilters']"
+msgid "Include filters"
+msgstr "Συμπεριέλαβε φίλτρα"
+
+#: $string['generalgradehistories']
+msgctxt "$string['generalgradehistories']"
+msgid "Include histories"
+msgstr "Συμπεριέλαβε ιστορικό"
+
+#: $string['generalgroups']
+msgctxt "$string['generalgroups']"
+msgid "Include groups and groupings"
+msgstr "Συμπερίληψη ομάδων και ομαδοποιήσεων"
+
+#: $string['generalhistories']
+msgctxt "$string['generalhistories']"
+msgid "Include histories"
+msgstr "Συμπεριέλαβε ιστορικό"
+
+#: $string['generallogs']
+msgid "Include logs"
+msgstr "Συπμεριέλαβε αναφορές"
+
+#: $string['generalquestionbank']
+msgctxt "$string['generalquestionbank']"
+msgid "Include question bank"
+msgstr "Συμπερίληψη τράπεζας ερωτήσεων"
+
+#: $string['generalrestoredefaults']
+msgid "General restore defaults"
+msgstr ""
+
+#: $string['generalrestoresettings']
+msgid "General restore settings"
+msgstr ""
+
+#: $string['generalroleassignments']
+msgid "Include role assignments"
+msgstr "Συμπεριέλαβε αναθέσεις ρόλων"
+
+#: $string['generalsettings']
+msgid "General backup settings"
+msgstr "Γενικές ρυθμίσεις δημιουργίας αντιγράφων ασφαλείας"
+
+#: $string['generalusers']
+msgid "Include users"
+msgstr "Συμπεριέλαβε χρήστες"
+
+#: $string['generaluserscompletion']
+msgid "Include user completion information"
+msgstr "Συμπεριέλαβε πληροφορίες ολοκλήρωσης ενός χρήστη"
+
+#: $string['hidetypes']
+msgid "Hide type options"
+msgstr "Επιλογές απόκρυψης τύπων"
+
+#: $string['importbackupstage16action']
+msgctxt "$string['importbackupstage16action']"
+msgid "Continue"
+msgstr "Συνέχεια"
+
+#: $string['importbackupstage1action']
+msgctxt "$string['importbackupstage1action']"
+msgid "Next"
+msgstr "Επόμενο"
+
+#: $string['importbackupstage2action']
+msgctxt "$string['importbackupstage2action']"
+msgid "Next"
+msgstr "Επόμενο"
+
+#: $string['importbackupstage4action']
+msgctxt "$string['importbackupstage4action']"
+msgid "Perform import"
+msgstr "Εκτέλεση εισαγωγής"
+
+#: $string['importbackupstage8action']
+msgctxt "$string['importbackupstage8action']"
+msgid "Continue"
+msgstr "Συνέχεια"
+
+#: $string['importcurrentstage0']
+msgid "Course selection"
+msgstr "Επιλογή μαθήματος"
+
+#: $string['importcurrentstage1']
+msgctxt "$string['importcurrentstage1']"
+msgid "Initial settings"
+msgstr "Αρχικές ρυθμίσεις"
+
+#: $string['importcurrentstage16']
+msgctxt "$string['importcurrentstage16']"
+msgid "Complete"
+msgstr "Ολοκλήρωση"
+
+#: $string['importcurrentstage2']
+msgctxt "$string['importcurrentstage2']"
+msgid "Schema settings"
+msgstr "Ρυθμίσεις διάταξης"
+
+#: $string['importcurrentstage4']
+msgctxt "$string['importcurrentstage4']"
+msgid "Confirmation and review"
+msgstr "Επιβεβαίωση και επανεξέταση"
+
+#: $string['importcurrentstage8']
+msgctxt "$string['importcurrentstage8']"
+msgid "Perform import"
+msgstr "Εκτελέστε την εισαγωγή"
+
+#: $string['importfile']
+msgid "Import a backup file"
+msgstr "Εισαγωγή ενός αντιγράφου ασφαλείας"
+
+#: $string['importgeneralduplicateadminallowed']
+msgid "Allow admin conflict resolution"
+msgstr "Να επιτρέπεται επίλυση σύγκρουση admin"
+
+#: $string['importgeneralduplicateadminallowed_desc']
+msgid ""
+"If the site has an account with username 'admin', then attempting to restore "
+"a backup file containing an account with username 'admin' can cause a "
+"conflict. If this setting is enabled, the conflict will be resolved by "
+"changing the username in the backup file to 'admin_xyz'."
+msgstr ""
+"Αν ο ιστοχώρος έχει ένα λογαριασμό με όνομα χρήστη 'admin', και γίνει "
+"προσπάθεια επαναφοράς ενός αρχείου αντιγράφου ασφαλείας που περιέχει ένα "
+"λογαριασμό με όνομα χρήστη 'admin' θα προκληθεί σύγκρουση. Αν είναι "
+"ενεργοποιημένη αυτή η ρύθμιση, η σύγκρουση θα επιλυθεί με την αλλαγή του "
+"ονόματος χρήστη στο αρχείο αντιγράφου ασφαλείας σε 'admin_xyz'."
+
+#: $string['importgeneralmaxresults']
+msgid "Maximum number of courses listed for import"
+msgstr "Μέγιστος αριθμός μαθημάτων για εισαγωγή"
+
+#: $string['importgeneralmaxresults_desc']
+msgid ""
+"This controls the number of courses that are listed during the first step of "
+"the import process"
+msgstr ""
+"Ελέγχει τον αριθμό των μαθημάτων που απαριθμούνται στο πρώτο στάδιο της "
+"διαδικασίας εισαγωγής"
+
+#: $string['importgeneralsettings']
+msgid "General import defaults"
+msgstr "Προεπιλογές γενικής εισαγωγής"
+
+#: $string['importsettings']
+msgid "General import settings"
+msgstr "Ρυθμίσεις γενικής εισαγωγής"
+
+#: $string['importsuccess']
+msgid "Import complete. Click continue to return to the course."
+msgstr ""
+"Η εισαγωγή ολοκληρώθηκε. Κάντε κλικ στο κουμπί Συνέχεια για να επιστρέψετε "
+"στο μάθημα"
+
+#: $string['includeactivities']
+msgid "Include:"
+msgstr "Περιλαμβάνουν:"
+
+#: $string['includeditems']
+msgid "Included items:"
+msgstr "Αντικείμενα που συμπεριλαμβάνονται:"
+
+#: $string['includefilereferences']
+msgid "File references to external contents"
+msgstr "Αναφορές αρχείου σε εξωτερικό περιεχόμενο"
+
+#: $string['includesection']
+msgid "Section {$a}"
+msgstr "Ενότητα {$a}"
+
+#: $string['includeuserinfo']
+msgid "User data"
+msgstr "Δεδομένα χρήστη"
+
+#: $string['jumptofinalstep']
+msgid "Jump to final step"
+msgstr "Μετάβαση στο τελικό στάδιο"
+
+#: $string['keep']
+msgid "Keep"
+msgstr ""
+
+#: $string['locked']
+msgid "Locked"
+msgstr "Κλειδωμένο"
+
+#: $string['lockedbyconfig']
+msgid "This setting has been locked by the default backup settings"
+msgstr ""
+"Η ρύθμιση αυτή έχει κλειδωθεί από τις προεπιλεγμένες ρυθμίσεις δημιουργίας "
+"αντιγράφων ασφαλείας"
+
+#: $string['lockedbyhierarchy']
+msgid "Locked by dependencies"
+msgstr "Κλειδωμένο από εξαρτήσεις"
+
+#: $string['lockedbypermission']
+msgid "You don't have sufficient permissions to change this setting"
+msgstr "Δεν έχετε επαρκή δικαιώματα για να αλλάξετε αυτή τη ρύθμιση"
+
+#: $string['loglifetime']
+msgid "Keep logs for"
+msgstr "Διατήρηση αρχείων καταγραφής για"
+
+#: $string['managefiles']
+msgid "Manage backup files"
+msgstr "Διαχείριση αντιγράφων ασφαλείας"
+
+#: $string['mergerestoredefaults']
+msgid "Restore defaults when merging into another course"
+msgstr ""
+
+#: $string['missingfilesinpool']
+msgid ""
+"Some files could not be saved during the backup, and so it will not be "
+"possible to restore them."
+msgstr ""
+"Δεν είναι δυνατή η αποθήκευση κάποιων αρχείων κατά τη δημιουργία αντιγράφου "
+"ασφαλείας, και έτσι δεν θα είναι εφικτή η επαναφορά τους."
+
+#: $string['module']
+msgid "Module"
+msgstr "Άρθρωμα"
+
+#: $string['moodleversion']
+msgid "Moodle version"
+msgstr "Έκδοση Moodle"
+
+#: $string['morecoursesearchresults']
+msgid "More than {$a} courses found, showing first {$a} results"
+msgstr ""
+"Βρέθηκαν περισσότερα από {$a} μαθήματα, εμφάνιση {$a} πρώτων αποτελεσμάτων"
+
+#: $string['moreresults']
+msgid "There are too many results, enter a more specific search."
+msgstr ""
+"Υπάρχουν πάρα πολλά αποτελέσματα, εισάγετε μια πιο συγκεκριμένη αναζήτηση."
+
+#: $string['nomatchingcourses']
+msgid "There are no courses to display"
+msgstr "Δεν υπάρχουν μαθήματα για να εμφανίσετε"
+
+#: $string['norestoreoptions']
+msgid "There are no categories or existing courses you can restore to."
+msgstr "Δεν υπάρχουν κατηγορίες ή υπάρχοντα μαθήματα για επαναφορά."
+
+#: $string['originalwwwroot']
+msgid "URL of backup"
+msgstr "URL αντιγράφου ασφαλείας"
+
+#: $string['overwrite']
+msgid "Overwrite"
+msgstr ""
+
+#: $string['preparingdata']
+msgid "Preparing data"
+msgstr "Προετοιμασία δεδομένων"
+
+#: $string['preparingui']
+msgid "Preparing to display page"
+msgstr "Προετοιμασία εμφάνισης σελίδας"
+
+#: $string['previousstage']
+msgid "Previous"
+msgstr "Προηγούμενο"
+
+#: $string['qcategory2coursefallback']
+msgctxt "$string['qcategory2coursefallback']"
+msgid ""
+"The questions category \"{$a->name}\", originally at system/course category "
+"context in backup file, will be created at course context by restore"
+msgstr ""
+"Η κατηγορία ερωτήσεων \"{$a->name}\", αρχικά στο πλαίσιο σύστημα / κατηγορία "
+"μαθημάτων στο αρχείο αντιγράφου ασφαλείας, θα δημιουργηθεί στο πλαίσιο "
+"μαθήματος κατά την επαναφορά"
+
+#: $string['qcategorycannotberestored']
+msgid "The questions category \"{$a->name}\" cannot be created by restore"
+msgstr ""
+"Δεν είναι δυνατή η δημιουργία της κατηγορίας ερωτήσεων \"{$a->name}\" κατά την "
+"επαναφορά"
+
+#: $string['question2coursefallback']
+msgctxt "$string['question2coursefallback']"
+msgid ""
+"The questions category \"{$a->name}\", originally at system/course category "
+"context in backup file, will be created at course context by restore"
+msgstr ""
+"Η κατηγορία ερωτήσεων \"{$a->name}\", αρχικά στο πλαίσιο σύστημα / κατηγορία "
+"μαθημάτων στο αρχείο αντιγράφου ασφαλείας, θα δημιουργηθεί στο πλαίσιο "
+"μαθήματος κατά την επαναφορά"
+
+#: $string['questionegorycannotberestored']
+msgid "The questions \"{$a->name}\" cannot be created by restore"
+msgstr ""
+"Δεν είναι δυνατή η δημιουργία της κατηγορίας ερωτήσεων \"{$a->name}\" κατά την "
+"επαναφορά"
+
+#: $string['replacerestoredefaults']
+msgid "Restore defaults when restoring into another course deleting contents"
+msgstr ""
+
+#: $string['restoreactivity']
+msgid "Restore activity"
+msgstr "Δραστηριότητα επαναφοράς"
+
+#: $string['restorecourse']
+msgid "Restore course"
+msgstr "Επαναφορά μαθήματος"
+
+#: $string['restorecoursesettings']
+msgctxt "$string['restorecoursesettings']"
+msgid "Course settings"
+msgstr "Ρυθμίσεις Μαθήματος"
+
+#: $string['restoreexecutionsuccess']
+msgid ""
+"The course was restored successfully, clicking the continue button below "
+"will take you to view the course you restored."
+msgstr ""
+"Το μάθημα έγινε επαναφορά με επιτυχία, πατώντας το κουμπί Συνέχεια παρακάτω "
+"θα δείτε το μάθημα που έγινε επαναφορά."
+
+#: $string['restorefileweremissing']
+msgid ""
+"Some files could not be restored because they were missing in the backup."
+msgstr ""
+"Δεν είναι εφικτή η επαναφορά κάποιων αρχείων, διότι λείπουν από το αντίγραφο "
+"ασφαλείας."
+
+#: $string['restorenewcoursefullname']
+msgid "New course name"
+msgstr "Νέο όνομα μαθήματος"
+
+#: $string['restorenewcourseshortname']
+msgid "New course short name"
+msgstr "Σύντομο όνομα νέου μαθήματος"
+
+#: $string['restorenewcoursestartdate']
+msgid "New start date"
+msgstr "Νέα ημερομηνία έναρξης"
+
+#: $string['restorerolemappings']
+msgid "Restore role mappings"
+msgstr "Επαναφορά αντιστοιχήσεων ρόλων"
+
+#: $string['restorerootsettings']
+msgid "Restore settings"
+msgstr "Επαναφορά ρυθμίσεων"
+
+#: $string['restoresection']
+msgid "Restore section"
+msgstr "Επαναφορά ενότητας"
+
+#: $string['restorestage1']
+msgid "Confirm"
+msgstr "Επιβεβαίωση"
+
+#: $string['restorestage16']
+msgid "Review"
+msgstr "Ανασκόπηση"
+
+#: $string['restorestage16action']
+msgid "Perform restore"
+msgstr "Εκτέλεση επαναφοράς"
+
+#: $string['restorestage1action']
+msgctxt "$string['restorestage1action']"
+msgid "Next"
+msgstr "Επόμενο"
+
+#: $string['restorestage2']
+msgid "Destination"
+msgstr "Προορισμός"
+
+#: $string['restorestage2action']
+msgctxt "$string['restorestage2action']"
+msgid "Next"
+msgstr "Επόμενο"
+
+#: $string['restorestage32']
+msgid "Process"
+msgstr "Διαδικασία"
+
+#: $string['restorestage32action']
+msgctxt "$string['restorestage32action']"
+msgid "Continue"
+msgstr "Συνέχεια"
+
+#: $string['restorestage4']
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: $string['restorestage4action']
+msgctxt "$string['restorestage4action']"
+msgid "Next"
+msgstr "Επόμενο"
+
+#: $string['restorestage64']
+msgctxt "$string['restorestage64']"
+msgid "Complete"
+msgstr "Ολοκλήρωση"
+
+#: $string['restorestage64action']
+msgctxt "$string['restorestage64action']"
+msgid "Continue"
+msgstr "Συνέχεια"
+
+#: $string['restorestage8']
+msgid "Schema"
+msgstr "Σχήμα"
+
+#: $string['restorestage8action']
+msgctxt "$string['restorestage8action']"
+msgid "Next"
+msgstr "Επόμενο"
+
+#: $string['restoretarget']
+msgid "Restore target"
+msgstr "Επαναφορά στόχου"
+
+#: $string['restoretocourse']
+msgid "Restore to course:"
+msgstr "Επαναφορά στο μάθημα:"
+
+#: $string['restoretocurrentcourse']
+msgid "Restore into this course"
+msgstr "Επαναφορά σε αυτό το μάθημα"
+
+#: $string['restoretocurrentcourseadding']
+msgid "Merge the backup course into this course"
+msgstr "Συγχώνευση του μαθήματος από το αντίγραφο ασφαλείας σε αυτό το μάθημα"
+
+#: $string['restoretocurrentcoursedeleting']
+msgid "Delete the contents of this course and then restore"
+msgstr "Διαγραφή των περιεχομένων αυτού του μαθήματος και επαναφορά"
+
+#: $string['restoretoexistingcourse']
+msgid "Restore into an existing course"
+msgstr "Επαναφορά σε ένα υφιστάμενο μάθημα"
+
+#: $string['restoretoexistingcourseadding']
+msgid "Merge the backup course into the existing course"
+msgstr ""
+"Συγχώνευση του μαθήματος από το αντίγραφο ασφαλείας στο υφιστάμενο μάθημα"
+
+#: $string['restoretoexistingcoursedeleting']
+msgid "Delete the contents of the existing course and then restore"
+msgstr "Διαγραφή των περιεχομένων του υφιστάμενου μαθήματος και επαναφορά"
+
+#: $string['restoretonewcourse']
+msgid "Restore as a new course"
+msgstr "Επαναφορά ως νέο μάθημα"
+
+#: $string['restoringcourse']
+msgid "Course restoration in progress"
+msgstr "Επαναφορά μαθήματος σε εξέλιξη"
+
+#: $string['restoringcourseshortname']
+msgid "restoring"
+msgstr "επαναφορά"
+
+#: $string['rootenrolmanual']
+msgid "Restore as manual enrolments"
+msgstr "Επαναφορά ως χειροκίνητες εγγραφές"
+
+#: $string['rootsettingactivities']
+msgctxt "$string['rootsettingactivities']"
+msgid "Include activities and resources"
+msgstr "Συμπεριέλαβε δραστηριότητες"
+
+#: $string['rootsettinganonymize']
+msgid "Anonymize user information"
+msgstr "Ανωνυμία πληροφοριών χρήστη"
+
+#: $string['rootsettingbadges']
+msgctxt "$string['rootsettingbadges']"
+msgid "Include badges"
+msgstr "Συμπερίληψη κονκάρδων"
+
+#: $string['rootsettingblocks']
+msgctxt "$string['rootsettingblocks']"
+msgid "Include blocks"
+msgstr "Συμπεριέλαβε μπλοκ"
+
+#: $string['rootsettingcalendarevents']
+msgctxt "$string['rootsettingcalendarevents']"
+msgid "Include calendar events"
+msgstr "Συμπερίληψη γεγονότων ημερολογίου"
+
+#: $string['rootsettingcomments']
+msgctxt "$string['rootsettingcomments']"
+msgid "Include comments"
+msgstr "Συμπεριλάβετε σχόλια"
+
+#: $string['rootsettingcompetencies']
+msgctxt "$string['rootsettingcompetencies']"
+msgid "Include competencies"
+msgstr "Συμπερίληψη δεξιοτήτων"
+
+#: $string['rootsettingenrolments']
+msgctxt "$string['rootsettingenrolments']"
+msgid "Include enrolment methods"
+msgstr ""
+
+#: $string['rootsettingenrolments_always']
+msgid "Yes, always"
+msgstr ""
+
+#: $string['rootsettingenrolments_never']
+msgid "No, restore users as manual enrolments"
+msgstr ""
+
+#: $string['rootsettingenrolments_withusers']
+msgid "Yes, but only if users are included"
+msgstr ""
+
+#: $string['rootsettingfilters']
+msgctxt "$string['rootsettingfilters']"
+msgid "Include filters"
+msgstr "Συμπεριέλαβε φίλτρα"
+
+#: $string['rootsettinggradehistories']
+msgid "Include grade history"
+msgstr "Συμπεριέλαβε βαθμολογικό ιστορικό"
+
+#: $string['rootsettinggroups']
+msgctxt "$string['rootsettinggroups']"
+msgid "Include groups and groupings"
+msgstr "Συμπερίληψη ομάδων και ομαδοποιήσεων"
+
+#: $string['rootsettingimscc1']
+msgid "Convert to IMS Common Cartridge 1.0"
+msgstr "Μετατροπή σε IMS Common Cartridge 1.0"
+
+#: $string['rootsettingimscc11']
+msgid "Convert to IMS Common Cartridge 1.1"
+msgstr "Μετατροπή σε IMS Common Cartridge 1.1"
+
+#: $string['rootsettinglogs']
+msgid "Include course logs"
+msgstr "Συμπεριέλαβε αρχεία καταγραφής (logs) μαθήματος"
+
+#: $string['rootsettingquestionbank']
+msgctxt "$string['rootsettingquestionbank']"
+msgid "Include question bank"
+msgstr "Συμπερίληψη τράπεζας ερωτήσεων"
+
+#: $string['rootsettingroleassignments']
+msgid "Include user role assignments"
+msgstr "Συμπερίληψη αναθέσεων ρόλου χρήστη"
+
+#: $string['rootsettings']
+msgctxt "$string['rootsettings']"
+msgid "Backup settings"
+msgstr "Ρυθμίσεις αντιγράφων ασφαλείας"
+
+#: $string['rootsettingusers']
+msgid "Include enrolled users"
+msgstr "Συμπερίληψη εγγεγραμμένων χρηστών"
+
+#: $string['rootsettinguserscompletion']
+msgid "Include user completion details"
+msgstr "Συμπεριέλαβε λεπτομερειες ολοκλήρωσης χρήστη"
+
+#: $string['sectionactivities']
+msgid "Activities"
+msgstr "Δραστηριότητες"
+
+#: $string['sectioninc']
+msgid "Included in backup (no user information)"
+msgstr "Συμπεριλαμβάνονται στο αντίγραφο ασφαλείας (χωρίς πληροφορίες χρήστη)"
+
+#: $string['sectionincanduser']
+msgid "Included in backup along with user information"
+msgstr "Συμπεριλαμβάνονται στο αντίγραφο ασφαλείας μαζί με πληροφορίες χρήστη"
+
+#: $string['selectacategory']
+msgid "Select a category"
+msgstr "Επιλογή μιας κατηγορίας"
+
+#: $string['selectacourse']
+msgid "Select a course"
+msgstr "Επιλογή ενός μαθήματος"
+
+#: $string['setting_course_fullname']
+msgid "Course name"
+msgstr "Όνομα μαθήματος"
+
+#: $string['setting_course_shortname']
+msgid "Course short name"
+msgstr "Σύντομο όνομα μαθήματος"
+
+#: $string['setting_course_startdate']
+msgid "Course start date"
+msgstr "Ημερομηνία έναρξης μαθήματος"
+
+#: $string['setting_keep_groups_and_groupings']
+msgid "Keep current groups and groupings"
+msgstr "Διατήρηση τρέχοντων ομάδων και ομαδοποιήσεων"
+
+#: $string['setting_keep_roles_and_enrolments']
+msgid "Keep current roles and enrolments"
+msgstr "Διατήρηση τρέχοντων ρόλων και εγγραφών"
+
+#: $string['setting_overwrite_conf']
+msgid "Overwrite course configuration"
+msgstr ""
+
+#: $string['setting_overwrite_course_fullname']
+msgid "Overwrite course full name"
+msgstr ""
+
+#: $string['setting_overwrite_course_shortname']
+msgid "Overwrite course short name"
+msgstr ""
+
+#: $string['setting_overwrite_course_startdate']
+msgid "Overwrite course start date"
+msgstr ""
+
+#: $string['showtypes']
+msgid "Show type options"
+msgstr "Εμφάνιση επιλογών τύπου"
+
+#: $string['sitecourseformatwarning']
+msgid ""
+"This is a front page backup, note that they can only be restored on the "
+"front page"
+msgstr ""
+"Αυτό είναι ένα αντίγραφο ασφαλείας πρώτης σελίδας, σημειώστε ότι μπορέι να "
+"γίνει επαναφορά μόνο στην πρώτη σελίδα"
+
+#: $string['skiphidden']
+msgid "Skip hidden courses"
+msgstr "Παράβλεψη κρυφών μαθημάτων"
+
+#: $string['skiphiddenhelp']
+msgid "Choose whether or not to skip hidden courses"
+msgstr "Επιλέξτε αν θα γίνει παράβλεψη ή όχι των κρυφών μαθημάτων"
+
+#: $string['skipmodifdays']
+msgid "Skip courses not modified since"
+msgstr "Παράβλεψη μαθημάτων που δεν έχουν τροποποιηθεί από"
+
+#: $string['skipmodifdayshelp']
+msgid ""
+"Choose to skip courses that have not been modified since a number of days"
+msgstr ""
+"Επιλέξτε αν θα γίνει παράβλεψη μαθημάτων που δεν έχουν τροποποιηθεί από έναν "
+"αριθμό ημερών"
+
+#: $string['skipmodifprev']
+msgid "Skip courses not modified since previous backup"
+msgstr ""
+"Παράβλεψη μαθημάτων που δεν έχουν τροποποιηθεί από το προηγούμενο αντίγραφο "
+"ασφαλείας"
+
+#: $string['skipmodifprevhelp']
+msgid ""
+"Choose whether to skip courses that have not been modified since the last "
+"automatic backup. This requires logging to be enabled."
+msgstr ""
+"Επιλέξτε αν θα γίνει παράβλεψη μαθημάτων που δεν έχουν τροποποιηθεί από την "
+"τελευταία αυτόματη λήψη αντιγράφου ασφαλείας. Αυτό απαιτεί να είναι "
+"ενεργοποιημένη η σύνδεση."
+
+#: $string['storagecourseandexternal']
+msgid "Course backup filearea and the specified directory"
+msgstr ""
+"Περιοχή αρχείων αντιγράφων ασφαλείας μαθήματος και ο ορισμένος κατάλογος"
+
+#: $string['storagecourseonly']
+msgid "Course backup filearea"
+msgstr "Περιοχή αρχείων αντιγράφων ασφαλείας μαθήματος"
+
+#: $string['storageexternalonly']
+msgid "Specified directory for automated backups"
+msgstr "Ορισμένος κατάλογος για αυτόματα αντίγραφα ασφαλείας"
+
+#: $string['timetaken']
+msgid "Time taken"
+msgstr "Χρόνος που χρειάστηκε"
+
+#: $string['title']
+msgctxt "$string['title']"
+msgid "Title"
+msgstr "Τίτλος"
+
+#: $string['totalcategorysearchresults']
+msgid "Total categories: {$a}"
+msgstr "Σύνολο κατηγοριών: {$a}"
+
+#: $string['totalcoursesearchresults']
+msgid "Total courses: {$a}"
+msgstr "Σύνολο μαθημάτων: {$a}"
+
+#: $string['unnamedsection']
+msgid "Unnamed section"
+msgstr "Ενότητα χωρίς όνομα"
+
+#: $string['userinfo']
+msgid "Userinfo"
+msgstr "Πληροφορίες χρήστη"

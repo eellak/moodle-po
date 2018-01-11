@@ -1,0 +1,423 @@
+#. extracted from lang/en/offlinequiz_statistics.php, lang/el/offlinequiz_statistics.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:14+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'offlinequiz_statistics', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   offlinequiz_statistics
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['actualresponse']
+msgid "Actual response"
+msgstr ""
+
+#: $string['allattempts']
+msgctxt "$string['allattempts']"
+msgid "all attempts"
+msgstr ""
+
+#: $string['allattemptsavg']
+msgid "Average grade of all results"
+msgstr ""
+
+#: $string['allattemptscount']
+msgid "Total number of complete graded results"
+msgstr ""
+
+#: $string['allgroups']
+msgid "Statistics for all offline quiz groups"
+msgstr ""
+
+#: $string['analysisofresponses']
+msgid "Analysis of responses"
+msgstr ""
+
+#: $string['analysisofresponsesfor']
+msgid "Analysis of responses for {$a}."
+msgstr ""
+
+#: $string['attempts']
+msgid "Attempts"
+msgstr ""
+
+#: $string['attemptsall']
+msgctxt "$string['attemptsall']"
+msgid "all attempts"
+msgstr ""
+
+#: $string['attemptsfirst']
+msgid "first attempt"
+msgstr ""
+
+#: $string['backtoquestionsandanswers']
+msgid "Back to main statistics report page."
+msgstr "Επιστροφή στη σελίδα αναφοράς κύριων στατιστικών"
+
+#: $string['bestgrade']
+msgid "Highest grade achieved"
+msgstr ""
+
+#: $string['calculatefrom']
+msgid "Calculate statistics from"
+msgstr ""
+
+#: $string['cic']
+msgid "Coefficient of internal consistency"
+msgstr ""
+
+#: $string['completestatsfilename']
+msgid "completestats"
+msgstr ""
+
+#: $string['correct']
+msgid "Answered correctly"
+msgstr ""
+
+#: $string['count']
+msgid "Count"
+msgstr ""
+
+#: $string['coursename']
+msgid "Course name"
+msgstr ""
+
+#: $string['detailedanalysis']
+msgid "More detailed analysis of the responses to this question"
+msgstr ""
+
+#: $string['differentquestions']
+msgid "Your offline quiz groups contain different sets of questions."
+msgstr ""
+
+#: $string['differentsumgrades']
+msgid ""
+"Your offline quiz groups have different sums of grades ({$a}). Therefore, "
+"the average grade, the median, and the standard deviation cannot be "
+"calculated."
+msgstr ""
+
+#: $string['discrimination_index']
+msgid "Discrimination index"
+msgstr ""
+
+#: $string['discriminative_efficiency']
+msgid "Discriminative efficiency"
+msgstr ""
+
+#: $string['downloadeverything']
+msgid "Download full report as"
+msgstr ""
+
+#: $string['duration']
+msgid "Open for"
+msgstr ""
+
+#: $string['effective_weight']
+msgid "Effective weight"
+msgstr ""
+
+#: $string['errordeleting']
+msgid "Error deleting old {$a} records."
+msgstr ""
+
+#: $string['erroritemappearsmorethanoncewithdifferentweight']
+msgid ""
+"Question ({$a}) appears more than once with different weights in different "
+"positions of the test. This is not currently supported by the statistics "
+"report and may make the statistics for this question unreliable."
+msgstr ""
+
+#: $string['errormedian']
+msgid "Error fetching median"
+msgstr ""
+
+#: $string['errorpowerquestions']
+msgid "Error fetching data to calculate variance for question grades"
+msgstr ""
+
+#: $string['errorpowers']
+msgid "Error fetching data to calculate variance for offline quiz grades"
+msgstr ""
+
+#: $string['errorrandom']
+msgid "Error getting sub item data"
+msgstr ""
+
+#: $string['errorratio']
+msgid "Error ratio"
+msgstr ""
+
+#: $string['errorstatisticsquestions']
+msgid "Error fetching data to calculate statistics for question grades"
+msgstr ""
+
+#: $string['facility']
+msgid "Facility index"
+msgstr ""
+
+#: $string['firstattempts']
+msgid "first attempts"
+msgstr ""
+
+#: $string['firstattemptsavg']
+msgid "Average grade of first attempts"
+msgstr ""
+
+#: $string['firstattemptscount']
+msgid "Number of complete graded first attempts"
+msgstr ""
+
+#: $string['frequency']
+msgid "Frequency"
+msgstr ""
+
+#: $string['intended_weight']
+msgid "Intended weight"
+msgstr ""
+
+#: $string['kurtosis']
+msgid "Score distribution kurtosis"
+msgstr ""
+
+#: $string['lastcalculated']
+msgid ""
+"Last calculated {$a->lastcalculated} ago there have been {$a->count} "
+"attempts since then."
+msgstr ""
+
+#: $string['maxgrade']
+msgid "Maximum grade achievable"
+msgstr ""
+
+#: $string['median']
+msgid "Median grade"
+msgstr ""
+
+#: $string['modelresponse']
+msgid "Model response"
+msgstr ""
+
+#: $string['negcovar']
+msgid "Negative covariance of grade with total attempt grade"
+msgstr ""
+
+#: $string['negcovar_help']
+msgid ""
+"This question's grade for this set of attempts on the offline quiz varies in "
+"an opposite way to the overall attempt grade. This means overall attempt "
+"grade tends to be below average when the grade for this question is above "
+"average and vice-versa.\n"
+"\n"
+"Our equation for effective question weight cannot be calculated in this "
+"case. The calculations for effective question weight for other questions in "
+"this offline quiz are the effective question weight for these questions if "
+"the highlighted questions with a negative covariance are given a maximum "
+"grade of zero.\n"
+"\n"
+"If you edit a offline quiz and give these question(s) with negative "
+"covariance a max grade of zero then the effective question weight of these "
+"questions will be zero and the real effective question weight of other "
+"questions will be as calculated now."
+msgstr ""
+
+#: $string['nostudentsingroup']
+msgid "There are no students in this group yet"
+msgstr ""
+
+#: $string['offlinequizinformation']
+msgid "Offline quiz information"
+msgstr ""
+
+#: $string['offlinequizname']
+msgid "Offline quiz name"
+msgstr ""
+
+#: $string['offlinequizoverallstatistics']
+msgid "Offline quiz overall statistics"
+msgstr ""
+
+#: $string['offlinequizstructureanalysis']
+msgid "Offline quiz structure analysis"
+msgstr ""
+
+#: $string['optiongrade']
+msgid "Partial credit"
+msgstr ""
+
+#: $string['partially']
+msgid "Answered Partially correctly"
+msgstr ""
+
+#: $string['partofquestion']
+msgid "#Answer"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Offline Quiz Statistics"
+msgstr ""
+
+#: $string['position']
+msgid "Position"
+msgstr ""
+
+#: $string['positions']
+msgid "Position(s)"
+msgstr ""
+
+#: $string['preferencespage']
+msgid "Preferences just for this page"
+msgstr ""
+
+#: $string['preferencessave']
+msgid "Show report"
+msgstr ""
+
+#: $string['questionandanswerstats']
+msgid "Questions + Answers"
+msgstr ""
+
+#: $string['questionandanswerstatsheader']
+msgid "Statistics - Question- and Answer analysis"
+msgstr ""
+
+#: $string['questioninformation']
+msgid "Question information"
+msgstr ""
+
+#: $string['questionname']
+msgid "Question name"
+msgstr ""
+
+#: $string['questionnumber']
+msgid "Q#"
+msgstr ""
+
+#: $string['questionstatistics']
+msgid "Question statistics"
+msgstr ""
+
+#: $string['questionstats']
+msgid "Question Analysis"
+msgstr ""
+
+#: $string['questionstatsfilename']
+msgid "questionstats"
+msgstr ""
+
+#: $string['questionstatsheader']
+msgid "Statistics - Question Analysis"
+msgstr ""
+
+#: $string['questiontype']
+msgid "Question type"
+msgstr ""
+
+#: $string['random_guess_score']
+msgid "Random guess score"
+msgstr ""
+
+#: $string['recalculatenow']
+msgid "Recalculate now"
+msgstr ""
+
+#: $string['remarks']
+msgid "Note"
+msgstr ""
+
+#: $string['response']
+msgid "Response"
+msgstr ""
+
+#: $string['skewness']
+msgid "Score distribution skewness"
+msgstr ""
+
+#: $string['standarddeviation']
+msgctxt "$string['standarddeviation']"
+msgid "Standard deviation"
+msgstr ""
+
+#: $string['standarddeviationq']
+msgctxt "$string['standarddeviationq']"
+msgid "Standard deviation"
+msgstr ""
+
+#: $string['standarderror']
+msgid "Standard error"
+msgstr ""
+
+#: $string['statistics']
+msgid "Statistics"
+msgstr ""
+
+#: $string['statistics:componentname']
+msgid "Offline quiz statistics report"
+msgstr ""
+
+#: $string['statisticsforgroup']
+msgid "Statistics for group"
+msgstr ""
+
+#: $string['statisticshelp']
+msgid "Help for offline quiz statistics"
+msgstr ""
+
+#: $string['statisticsreport']
+msgid "Statistics report"
+msgstr ""
+
+#: $string['statisticsreportgraph']
+msgid "Statistics for question positions"
+msgstr ""
+
+#: $string['statistics:view']
+msgid "View statistics report"
+msgstr ""
+
+#: $string['statsfor']
+msgid "Offline quiz statistics (for {$a})"
+msgstr ""
+
+#: $string['statsoverview']
+msgctxt "$string['statsoverview']"
+msgid "Overview"
+msgstr ""
+
+#: $string['statsoverviewheader']
+msgctxt "$string['statsoverviewheader']"
+msgid "Overview"
+msgstr ""
+
+#: $string['worstgrade']
+msgid "Lowest grade achieved"
+msgstr ""
+
+#: $string['wrong']
+msgid "Answered wrongly"
+msgstr ""
