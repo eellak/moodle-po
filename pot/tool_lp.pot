@@ -1,0 +1,1161 @@
+#. extracted from lang/en/tool_lp.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'tool_lp', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   tool_lp
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['actions']
+msgid "Actions"
+msgstr ""
+
+#: $string['activities']
+msgid "Activities"
+msgstr ""
+
+#: $string['addcohorts']
+msgid "Add cohorts"
+msgstr ""
+
+#: $string['addcohortstosync']
+msgid "Add cohorts to sync"
+msgstr ""
+
+#: $string['addcompetency']
+msgctxt "$string['addcompetency']"
+msgid "Add competency"
+msgstr ""
+
+#: $string['addcoursecompetencies']
+msgid "Add competencies to course"
+msgstr ""
+
+#: $string['addcrossreferencedcompetency']
+msgid "Add cross-referenced competency"
+msgstr ""
+
+#: $string['addingcompetencywillresetparentrule']
+msgid ""
+"Adding a new competency will remove the rule set on '{$a}'. Do you want to "
+"continue?"
+msgstr ""
+
+#: $string['addnewcompetency']
+msgid "Add new competency"
+msgstr ""
+
+#: $string['addnewcompetencyframework']
+msgid "Add new competency framework"
+msgstr ""
+
+#: $string['addnewplan']
+msgid "Add new learning plan"
+msgstr ""
+
+#: $string['addnewtemplate']
+msgid "Add new learning plan template"
+msgstr ""
+
+#: $string['addnewuserevidence']
+msgid "Add new evidence"
+msgstr ""
+
+#: $string['addtemplatecompetencies']
+msgid "Add competencies to learning plan template"
+msgstr ""
+
+#: $string['aisrequired']
+msgid "'{$a}' is required"
+msgstr ""
+
+#: $string['aplanswerecreated']
+msgid "{$a} learning plans were created."
+msgstr ""
+
+#: $string['aplanswerecreatedmoremayrequiresync']
+msgid ""
+"{$a} learning plans were created; more will be created during the next "
+"synchronisation."
+msgstr ""
+
+#: $string['assigncohorts']
+msgid "Assign cohorts"
+msgstr ""
+
+#: $string['averageproficiencyrate']
+msgid ""
+"The average proficiency rate for completed learning plans based on this "
+"template is {$a} %"
+msgstr ""
+
+#: $string['cancelreviewrequest']
+msgid "Cancel review request"
+msgstr ""
+
+#: $string['cannotaddrules']
+msgid "This competency cannot be configured."
+msgstr ""
+
+#: $string['cannotcreateuserplanswhentemplateduedateispassed']
+msgid ""
+"New learning plans cannot be created. The template due date has expired, or "
+"is about to expire."
+msgstr ""
+
+#: $string['cannotcreateuserplanswhentemplatehidden']
+msgid "New learning plans cannot be created while this template is hidden."
+msgstr ""
+
+#: $string['category']
+msgid "Category"
+msgstr ""
+
+#: $string['chooserating']
+msgid "Choose a rating..."
+msgstr ""
+
+#: $string['cohortssyncedtotemplate']
+msgid "Cohorts synced to this learning plan template"
+msgstr ""
+
+#: $string['competenciesforframework']
+msgid "Competencies for {$a}"
+msgstr ""
+
+#: $string['competenciesmostoftennotproficient']
+msgid "Competencies most often not proficient in completed learning plans"
+msgstr ""
+
+#: $string['competenciesmostoftennotproficientincourse']
+msgid "Competencies most often not proficient in this course"
+msgstr ""
+
+#: $string['competencycannotbedeleted']
+msgid "The competency '{$a}' can not be deleted"
+msgstr ""
+
+#: $string['competencycreated']
+msgid "Competency created"
+msgstr ""
+
+#: $string['competencycrossreferencedcompetencies']
+msgid "{$a} cross-referenced competencies"
+msgstr ""
+
+#: $string['competencyframework']
+msgid "Competency framework"
+msgstr ""
+
+#: $string['competencyframeworkcreated']
+msgid "Competency framework created."
+msgstr ""
+
+#: $string['competencyframeworkname']
+msgctxt "$string['competencyframeworkname']"
+msgid "Name"
+msgstr ""
+
+#: $string['competencyframeworkroot']
+msgid "No parent (top-level competency)"
+msgstr ""
+
+#: $string['competencyframeworks']
+msgid "Competency frameworks"
+msgstr ""
+
+#: $string['competencyframeworksrepository']
+msgid "Competency frameworks repository"
+msgstr ""
+
+#: $string['competencyframeworkupdated']
+msgid "Competency framework updated."
+msgstr ""
+
+#: $string['competencyoutcome_complete']
+msgid "Mark as complete"
+msgstr ""
+
+#: $string['competencyoutcome_evidence']
+msgid "Attach an evidence"
+msgstr ""
+
+#: $string['competencyoutcome_none']
+msgid "None"
+msgstr ""
+
+#: $string['competencyoutcome_recommend']
+msgid "Recommend the competency"
+msgstr ""
+
+#: $string['competencypicker']
+msgid "Competency picker"
+msgstr ""
+
+#: $string['competencyrule']
+msgid "Competency rule"
+msgstr ""
+
+#: $string['competencyupdated']
+msgid "Competency updated"
+msgstr ""
+
+#: $string['completeplan']
+msgid "Complete this learning plan"
+msgstr ""
+
+#: $string['completeplanconfirm']
+msgid ""
+"Set the learning plan '{$a}' to completed? If so, the current status of all "
+"users' competencies will be recorded, and the plan will become read only."
+msgstr ""
+
+#: $string['configurecoursecompetencysettings']
+msgid "Configure course competencies"
+msgstr ""
+
+#: $string['configurescale']
+msgid "Configure scales"
+msgstr ""
+
+#: $string['coursecompetencies']
+msgctxt "$string['coursecompetencies']"
+msgid "Course competencies"
+msgstr ""
+
+#: $string['coursecompetencyratingsarenotpushedtouserplans']
+msgid "Competency ratings in this course do not affect learning plans."
+msgstr ""
+
+#: $string['coursecompetencyratingsarepushedtouserplans']
+msgid ""
+"Competency ratings in this course are updated immediately in learning plans."
+msgstr ""
+
+#: $string['coursecompetencyratingsquestion']
+msgid ""
+"When a course competency is rated, does the rating update the competency in "
+"the learning plans, or is it only applied to the course?"
+msgstr ""
+
+#: $string['coursesusingthiscompetency']
+msgid "Courses linked to this competency"
+msgstr ""
+
+#: $string['coveragesummary']
+msgid ""
+"{$a->competenciescoveredcount} of {$a->competenciescount} competencies are "
+"covered ( {$a->coveragepercentage} % )"
+msgstr ""
+
+#: $string['createlearningplans']
+msgctxt "$string['createlearningplans']"
+msgid "Create learning plans"
+msgstr ""
+
+#: $string['createplans']
+msgctxt "$string['createplans']"
+msgid "Create learning plans"
+msgstr ""
+
+#: $string['crossreferencedcompetencies']
+msgid "Cross-referenced competencies"
+msgstr ""
+
+#: $string['default']
+msgid "Default"
+msgstr ""
+
+#: $string['deletecompetency']
+msgid "Delete competency '{$a}'?"
+msgstr ""
+
+#: $string['deletecompetencyframework']
+msgid "Delete competency framework '{$a}'?"
+msgstr ""
+
+#: $string['deletecompetencyparenthasrule']
+msgid ""
+"Delete competency '{$a}'? This will also remove the rule set for its parent."
+msgstr ""
+
+#: $string['deleteplan']
+msgid "Delete learning plan '{$a}'?"
+msgstr ""
+
+#: $string['deleteplans']
+msgid "Delete the learning plans"
+msgstr ""
+
+#: $string['deletetemplate']
+msgid "Delete learning plan template '{$a}'?"
+msgstr ""
+
+#: $string['deletetemplatewithplans']
+msgid ""
+"This template has learning plans associated. You have to indicate how to "
+"process those plans."
+msgstr ""
+
+#: $string['deletethisplan']
+msgid "Delete this learning plan"
+msgstr ""
+
+#: $string['deletethisuserevidence']
+msgid "Delete this evidence"
+msgstr ""
+
+#: $string['deleteuserevidence']
+msgid "Delete the evidence of prior learning '{$a}'?"
+msgstr ""
+
+#: $string['description']
+msgctxt "$string['description']"
+msgid "Description"
+msgstr ""
+
+#: $string['duedate']
+msgid "Due date"
+msgstr ""
+
+#: $string['duedate_help']
+msgid "The date that a learning plan should be completed by."
+msgstr ""
+
+#: $string['editcompetency']
+msgctxt "$string['editcompetency']"
+msgid "Edit competency"
+msgstr ""
+
+#: $string['editcompetencyframework']
+msgid "Edit competency framework"
+msgstr ""
+
+#: $string['editplan']
+msgid "Edit learning plan"
+msgstr ""
+
+#: $string['editrating']
+msgid "Edit rating"
+msgstr ""
+
+#: $string['edittemplate']
+msgid "Edit learning plan template"
+msgstr ""
+
+#: $string['editthisplan']
+msgid "Edit this learning plan"
+msgstr ""
+
+#: $string['editthisuserevidence']
+msgid "Edit this evidence"
+msgstr ""
+
+#: $string['edituserevidence']
+msgid "Edit evidence"
+msgstr ""
+
+#: $string['evidence']
+msgid "Evidence"
+msgstr ""
+
+#: $string['findcourses']
+msgid "Find courses"
+msgstr ""
+
+#: $string['frameworkcannotbedeleted']
+msgid "The competency framework '{$a}' cannot be deleted"
+msgstr ""
+
+#: $string['hidden']
+msgid "Hidden"
+msgstr ""
+
+#: $string['hiddenhint']
+msgid "(hidden)"
+msgstr ""
+
+#: $string['idnumber']
+msgid "ID number"
+msgstr ""
+
+#: $string['inheritfromframework']
+msgid "Inherit from competency framework (default)"
+msgstr ""
+
+#: $string['itemstoadd']
+msgid "Items to add"
+msgstr ""
+
+#: $string['jumptocompetency']
+msgid "Jump to competency"
+msgstr ""
+
+#: $string['jumptouser']
+msgid "Jump to user"
+msgstr ""
+
+#: $string['learningplancompetencies']
+msgid "Learning plan competencies"
+msgstr ""
+
+#: $string['learningplans']
+msgctxt "$string['learningplans']"
+msgid "Learning plans"
+msgstr ""
+
+#: $string['levela']
+msgid "Level {$a}"
+msgstr ""
+
+#: $string['linkcompetencies']
+msgid "Link competencies"
+msgstr ""
+
+#: $string['linkcompetency']
+msgid "Link competency"
+msgstr ""
+
+#: $string['linkedcompetencies']
+msgid "Linked competencies"
+msgstr ""
+
+#: $string['linkedcourses']
+msgid "Linked courses"
+msgstr ""
+
+#: $string['linkedcourseslist']
+msgid "Linked courses:"
+msgstr ""
+
+#: $string['listcompetencyframeworkscaption']
+msgid "List of competency frameworks"
+msgstr ""
+
+#: $string['listofevidence']
+msgid "List of evidence"
+msgstr ""
+
+#: $string['listplanscaption']
+msgid "List of learning plans"
+msgstr ""
+
+#: $string['listtemplatescaption']
+msgid "List of learning plan templates"
+msgstr ""
+
+#: $string['loading']
+msgid "Loading..."
+msgstr ""
+
+#: $string['locatecompetency']
+msgid "Locate competency"
+msgstr ""
+
+#: $string['managecompetenciesandframeworks']
+msgid "Manage competencies and frameworks"
+msgstr ""
+
+#: $string['modcompetencies']
+msgctxt "$string['modcompetencies']"
+msgid "Course competencies"
+msgstr ""
+
+#: $string['modcompetencies_help']
+msgid "Course competencies linked to this activity."
+msgstr ""
+
+#: $string['move']
+msgid "Move"
+msgstr ""
+
+#: $string['movecompetency']
+msgid "Move competency"
+msgstr ""
+
+#: $string['movecompetencyafter']
+msgid "Move competency after '{$a}'"
+msgstr ""
+
+#: $string['movecompetencyframework']
+msgid "Move competency framework"
+msgstr ""
+
+#: $string['movecompetencytochildofselfwillresetrules']
+msgid ""
+"Moving the competency will remove its own rule, and the rules set for its "
+"parent and destination. Do you want to continue?"
+msgstr ""
+
+#: $string['movecompetencywillresetrules']
+msgid ""
+"Moving the competency will remove the rules set for its parent and "
+"destination. Do you want to continue?"
+msgstr ""
+
+#: $string['moveframeworkafter']
+msgid "Move competency framework after '{$a}'"
+msgstr ""
+
+#: $string['movetonewparent']
+msgid "Relocate"
+msgstr ""
+
+#: $string['myplans']
+msgid "My learning plans"
+msgstr ""
+
+#: $string['nfiles']
+msgid "{$a} file(s)"
+msgstr ""
+
+#: $string['noactivities']
+msgid "No activities"
+msgstr ""
+
+#: $string['nocompetencies']
+msgid "No competencies have been created in this framework."
+msgstr ""
+
+#: $string['nocompetenciesincourse']
+msgid "No competencies have been linked to this course."
+msgstr ""
+
+#: $string['nocompetenciesinevidence']
+msgid "No competencies have been linked to this evidence."
+msgstr ""
+
+#: $string['nocompetenciesinlearningplan']
+msgid "No competencies have been linked to this learning plan."
+msgstr ""
+
+#: $string['nocompetenciesintemplate']
+msgid "No competencies have been linked to this learning plan template."
+msgstr ""
+
+#: $string['nocompetencyframeworks']
+msgid "No competency frameworks have been created yet."
+msgstr ""
+
+#: $string['nocompetencyselected']
+msgid "No competency selected"
+msgstr ""
+
+#: $string['nocrossreferencedcompetencies']
+msgid "No other competencies have been cross-referenced to this competency."
+msgstr ""
+
+#: $string['noevidence']
+msgid "No evidence"
+msgstr ""
+
+#: $string['nofiles']
+msgid "No files"
+msgstr ""
+
+#: $string['nolinkedcourses']
+msgid "No courses are linked to this competency"
+msgstr ""
+
+#: $string['noparticipants']
+msgid "No participants found."
+msgstr ""
+
+#: $string['noplanswerecreated']
+msgid "No learning plans were created."
+msgstr ""
+
+#: $string['notemplates']
+msgid "No learning plan templates have been created yet."
+msgstr ""
+
+#: $string['nourl']
+msgid "No URL"
+msgstr ""
+
+#: $string['nouserevidence']
+msgid "No evidence of prior learning has been added yet."
+msgstr ""
+
+#: $string['nouserplans']
+msgid "No learning plans have been created yet."
+msgstr ""
+
+#: $string['oneplanwascreated']
+msgid "A learning plan was created"
+msgstr ""
+
+#: $string['outcome']
+msgid "Outcome"
+msgstr ""
+
+#: $string['parentcompetency']
+msgid "Parent"
+msgstr ""
+
+#: $string['parentcompetency_edit']
+msgid "Edit parent"
+msgstr ""
+
+#: $string['parentcompetency_help']
+msgid ""
+"Define the parent under which the competency will be added. It can either be "
+"another competency within the same framework, or the root of the competency "
+"framework for a top-level competency."
+msgstr ""
+
+#: $string['path']
+msgid "Path:"
+msgstr ""
+
+#: $string['planapprove']
+msgid "Make active"
+msgstr ""
+
+#: $string['plancompleted']
+msgid "Learning plan completed"
+msgstr ""
+
+#: $string['plancreated']
+msgid "Learning plan created"
+msgstr ""
+
+#: $string['plandescription']
+msgctxt "$string['plandescription']"
+msgid "Description"
+msgstr ""
+
+#: $string['planname']
+msgctxt "$string['planname']"
+msgid "Name"
+msgstr ""
+
+#: $string['plantemplate']
+msgid "Select learning plan template"
+msgstr ""
+
+#: $string['plantemplate_help']
+msgid ""
+"A learning plan created from a template will contain a list of competencies "
+"that match the template. Updates to the template will be reflected in any "
+"plan created from that template."
+msgstr ""
+
+#: $string['planunapprove']
+msgid "Send back to draft"
+msgstr ""
+
+#: $string['planupdated']
+msgid "Learning plan updated"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Learning plans"
+msgstr ""
+
+#: $string['points']
+msgid "Points"
+msgstr ""
+
+#: $string['pointsgivenfor']
+msgid "Points given for '{$a}'"
+msgstr ""
+
+#: $string['proficient']
+msgid "Proficient"
+msgstr ""
+
+#: $string['progress']
+msgid "Progress"
+msgstr ""
+
+#: $string['rate']
+msgid "Rate"
+msgstr ""
+
+#: $string['ratecomment']
+msgid "Evidence notes"
+msgstr ""
+
+#: $string['rating']
+msgid "Rating"
+msgstr ""
+
+#: $string['ratingaffectsonlycourse']
+msgid "Rating a competency only updates the competency in this course"
+msgstr ""
+
+#: $string['ratingaffectsuserplans']
+msgid ""
+"Rating a competency also updates the competency in all of the learning plans"
+msgstr ""
+
+#: $string['reopenplan']
+msgid "Reopen this learning plan"
+msgstr ""
+
+#: $string['reopenplanconfirm']
+msgid ""
+"Reopen the learning plan '{$a}'? If so, the status of the users' "
+"competencies that was recorded at the time the plan was previously completed "
+"will be deleted, and the plan will become active again."
+msgstr ""
+
+#: $string['requestreview']
+msgid "Request review"
+msgstr ""
+
+#: $string['reviewer']
+msgid "Reviewer"
+msgstr ""
+
+#: $string['reviewstatus']
+msgid "Review status"
+msgstr ""
+
+#: $string['savechanges']
+msgid "Save changes"
+msgstr ""
+
+#: $string['scale']
+msgid "Scale"
+msgstr ""
+
+#: $string['scale_help']
+msgid ""
+"A scale determines how proficiency is measured in a competency. After "
+"selecting a scale, it needs to be configured.\n"
+"\n"
+"* The item selected as 'Default' is the rating given when a competency is "
+"automatically completed.\n"
+"* The item(s) selected as 'Proficient' indicate(s) which value(s) will mark "
+"the competencies as proficient when they are rated."
+msgstr ""
+
+#: $string['scalevalue']
+msgid "Scale value"
+msgstr ""
+
+#: $string['search']
+msgid "Search..."
+msgstr ""
+
+#: $string['selectcohortstosync']
+msgid "Select cohorts to sync"
+msgstr ""
+
+#: $string['selectcompetencymovetarget']
+msgid "Select a location to move this competency to:"
+msgstr ""
+
+#: $string['selectedcompetency']
+msgctxt "$string['selectedcompetency']"
+msgid "Selected competency"
+msgstr ""
+
+#: $string['selectuserstocreateplansfor']
+msgid "Select users to create learning plans for"
+msgstr ""
+
+#: $string['sendallcompetenciestoreview']
+msgid "Send all competencies in review for evidence of prior learning '{$a}'"
+msgstr ""
+
+#: $string['sendcompetenciestoreview']
+msgid "Send competencies for review"
+msgstr ""
+
+#: $string['shortname']
+msgctxt "$string['shortname']"
+msgid "Name"
+msgstr ""
+
+#: $string['sitedefault']
+msgid "(Site default)"
+msgstr ""
+
+#: $string['startreview']
+msgid "Start review"
+msgstr ""
+
+#: $string['state']
+msgid "State"
+msgstr ""
+
+#: $string['status']
+msgid "Status"
+msgstr ""
+
+#: $string['stopreview']
+msgid "Finish review"
+msgstr ""
+
+#: $string['stopsyncingcohort']
+msgid "Stop syncing cohort"
+msgstr ""
+
+#: $string['taxonomies']
+msgid "Taxonomies"
+msgstr ""
+
+#: $string['taxonomy_add_behaviour']
+msgid "Add behaviour"
+msgstr ""
+
+#: $string['taxonomy_add_competency']
+msgctxt "$string['taxonomy_add_competency']"
+msgid "Add competency"
+msgstr ""
+
+#: $string['taxonomy_add_concept']
+msgid "Add concept"
+msgstr ""
+
+#: $string['taxonomy_add_domain']
+msgid "Add domain"
+msgstr ""
+
+#: $string['taxonomy_add_indicator']
+msgid "Add indicator"
+msgstr ""
+
+#: $string['taxonomy_add_level']
+msgid "Add level"
+msgstr ""
+
+#: $string['taxonomy_add_outcome']
+msgid "Add outcome"
+msgstr ""
+
+#: $string['taxonomy_add_practice']
+msgid "Add practice"
+msgstr ""
+
+#: $string['taxonomy_add_proficiency']
+msgid "Add proficiency"
+msgstr ""
+
+#: $string['taxonomy_add_skill']
+msgid "Add skill"
+msgstr ""
+
+#: $string['taxonomy_add_value']
+msgid "Add value"
+msgstr ""
+
+#: $string['taxonomy_edit_behaviour']
+msgid "Edit behaviour"
+msgstr ""
+
+#: $string['taxonomy_edit_competency']
+msgctxt "$string['taxonomy_edit_competency']"
+msgid "Edit competency"
+msgstr ""
+
+#: $string['taxonomy_edit_concept']
+msgid "Edit concept"
+msgstr ""
+
+#: $string['taxonomy_edit_domain']
+msgid "Edit domain"
+msgstr ""
+
+#: $string['taxonomy_edit_indicator']
+msgid "Edit indicator"
+msgstr ""
+
+#: $string['taxonomy_edit_level']
+msgid "Edit level"
+msgstr ""
+
+#: $string['taxonomy_edit_outcome']
+msgid "Edit outcome"
+msgstr ""
+
+#: $string['taxonomy_edit_practice']
+msgid "Edit practice"
+msgstr ""
+
+#: $string['taxonomy_edit_proficiency']
+msgid "Edit proficiency"
+msgstr ""
+
+#: $string['taxonomy_edit_skill']
+msgid "Edit skill"
+msgstr ""
+
+#: $string['taxonomy_edit_value']
+msgid "Edit value"
+msgstr ""
+
+#: $string['taxonomy_parent_behaviour']
+msgid "Parent behaviour"
+msgstr ""
+
+#: $string['taxonomy_parent_competency']
+msgid "Parent competency"
+msgstr ""
+
+#: $string['taxonomy_parent_concept']
+msgid "Parent concept"
+msgstr ""
+
+#: $string['taxonomy_parent_domain']
+msgid "Parent domain"
+msgstr ""
+
+#: $string['taxonomy_parent_indicator']
+msgid "Parent indicator"
+msgstr ""
+
+#: $string['taxonomy_parent_level']
+msgid "Parent level"
+msgstr ""
+
+#: $string['taxonomy_parent_outcome']
+msgid "Parent outcome"
+msgstr ""
+
+#: $string['taxonomy_parent_practice']
+msgid "Parent practice"
+msgstr ""
+
+#: $string['taxonomy_parent_proficiency']
+msgid "Parent proficiency"
+msgstr ""
+
+#: $string['taxonomy_parent_skill']
+msgid "Parent skill"
+msgstr ""
+
+#: $string['taxonomy_parent_value']
+msgid "Parent value"
+msgstr ""
+
+#: $string['taxonomy_selected_behaviour']
+msgid "Selected behaviour"
+msgstr ""
+
+#: $string['taxonomy_selected_competency']
+msgctxt "$string['taxonomy_selected_competency']"
+msgid "Selected competency"
+msgstr ""
+
+#: $string['taxonomy_selected_concept']
+msgid "Selected concept"
+msgstr ""
+
+#: $string['taxonomy_selected_domain']
+msgid "Selected domain"
+msgstr ""
+
+#: $string['taxonomy_selected_indicator']
+msgid "Selected indicator"
+msgstr ""
+
+#: $string['taxonomy_selected_level']
+msgid "Selected level"
+msgstr ""
+
+#: $string['taxonomy_selected_outcome']
+msgid "Selected outcome"
+msgstr ""
+
+#: $string['taxonomy_selected_practice']
+msgid "Selected practice"
+msgstr ""
+
+#: $string['taxonomy_selected_proficiency']
+msgid "Selected proficiency"
+msgstr ""
+
+#: $string['taxonomy_selected_skill']
+msgid "Selected skill"
+msgstr ""
+
+#: $string['taxonomy_selected_value']
+msgid "Selected value"
+msgstr ""
+
+#: $string['template']
+msgid "Learning plan template"
+msgstr ""
+
+#: $string['templatebased']
+msgid "Template based"
+msgstr ""
+
+#: $string['templatecohortnotsyncedwhileduedateispassed']
+msgid "Cohorts will not be synchronised if the template's due date has passed."
+msgstr ""
+
+#: $string['templatecohortnotsyncedwhilehidden']
+msgid "Cohorts will not be synchronised while this template is hidden."
+msgstr ""
+
+#: $string['templatecompetencies']
+msgid "Learning plan template competencies"
+msgstr ""
+
+#: $string['templatecreated']
+msgid "Learning plan template created"
+msgstr ""
+
+#: $string['templatename']
+msgctxt "$string['templatename']"
+msgid "Name"
+msgstr ""
+
+#: $string['templates']
+msgid "Learning plan templates"
+msgstr ""
+
+#: $string['templateupdated']
+msgid "Learning plan template updated"
+msgstr ""
+
+#: $string['totalrequiredtocomplete']
+msgid "Total required to complete"
+msgstr ""
+
+#: $string['unlinkcompetencycourse']
+msgid "Unlink the competency '{$a}' from the course?"
+msgstr ""
+
+#: $string['unlinkcompetencyplan']
+msgid "Unlink the competency '{$a}' from the learning plan?"
+msgstr ""
+
+#: $string['unlinkcompetencytemplate']
+msgid "Unlink the competency '{$a}' from the learning plan template?"
+msgstr ""
+
+#: $string['unlinkplanstemplate']
+msgid "Unlink the learning plans from their template"
+msgstr ""
+
+#: $string['unlinkplantemplate']
+msgid "Unlink from learning plan template"
+msgstr ""
+
+#: $string['unlinkplantemplateconfirm']
+msgid ""
+"Unlink the learning plan '{$a}' from its template? Any change made to the "
+"template will no longer be applied to the plan. This action can not be "
+"undone."
+msgstr ""
+
+#: $string['uponcoursecompletion']
+msgid "Upon course completion:"
+msgstr ""
+
+#: $string['uponcoursemodulecompletion']
+msgid "Upon activity completion:"
+msgstr ""
+
+#: $string['usercompetencyfrozen']
+msgid ""
+"This record is now frozen. It reflects the state of the user's competency "
+"when their learning plan was marked as complete."
+msgstr ""
+
+#: $string['userevidence']
+msgid "Evidence of prior learning"
+msgstr ""
+
+#: $string['userevidencecreated']
+msgid "Evidence of prior learning created"
+msgstr ""
+
+#: $string['userevidencedescription']
+msgctxt "$string['userevidencedescription']"
+msgid "Description"
+msgstr ""
+
+#: $string['userevidencefiles']
+msgid "Files"
+msgstr ""
+
+#: $string['userevidencename']
+msgctxt "$string['userevidencename']"
+msgid "Name"
+msgstr ""
+
+#: $string['userevidencesummary']
+msgid "Summary"
+msgstr ""
+
+#: $string['userevidenceupdated']
+msgid "Evidence of prior learning updated"
+msgstr ""
+
+#: $string['userevidenceurl']
+msgid "URL"
+msgstr ""
+
+#: $string['userevidenceurl_help']
+msgid "The URL must start with 'http://' or 'https://'."
+msgstr ""
+
+#: $string['viewdetails']
+msgid "View details"
+msgstr ""
+
+#: $string['visible']
+msgid "Visible"
+msgstr ""
+
+#: $string['visible_help']
+msgid ""
+"A competency framework can be hidden whilst it is being set up or updated to "
+"a new version."
+msgstr ""
+
+#: $string['when']
+msgid "When"
+msgstr ""
+
+#: $string['xcompetencieslinkedoutofy']
+msgid "{$a->x} out of {$a->y} competencies linked to courses"
+msgstr ""
+
+#: $string['xcompetenciesproficientoutofy']
+msgid "{$a->x} out of {$a->y} competencies are proficient"
+msgstr ""
+
+#: $string['xcompetenciesproficientoutofyincourse']
+msgid ""
+"You are proficient in {$a->x} out of {$a->y} competencies in this course."
+msgstr ""
+
+#: $string['xplanscompletedoutofy']
+msgid "{$a->x} out of {$a->y} learning plans completed for this template"
+msgstr ""

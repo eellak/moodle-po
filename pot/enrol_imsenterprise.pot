@@ -1,0 +1,360 @@
+#. extracted from lang/en/enrol_imsenterprise.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'enrol_imsenterprise', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   enrol_imsenterprise
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['aftersaving...']
+msgid "Once you have saved your settings, you may wish to"
+msgstr ""
+
+#: $string['allowunenrol']
+msgid "Allow the IMS data to <strong>unenrol</strong> students/teachers"
+msgstr ""
+
+#: $string['allowunenrol_desc']
+msgid ""
+"If enabled, course enrolments will be removed when specified in the "
+"Enterprise data."
+msgstr ""
+
+#: $string['basicsettings']
+msgid "Basic settings"
+msgstr ""
+
+#: $string['categoryidnumber']
+msgid "Allow category idnumber"
+msgstr ""
+
+#: $string['categoryidnumber_desc']
+msgid "If enabled IMS Enterprise will create category with idnumber"
+msgstr ""
+
+#: $string['categoryseparator']
+msgid "Category separator character"
+msgstr ""
+
+#: $string['categoryseparator_desc']
+msgid ""
+"Required when \"Category idnumber\" is enabled. Character to separate the "
+"category name and idnumber."
+msgstr ""
+
+#: $string['coursesettings']
+msgid "Course data options"
+msgstr ""
+
+#: $string['createnewcategories']
+msgid "Create new (hidden) course categories if not found in Moodle"
+msgstr ""
+
+#: $string['createnewcategories_desc']
+msgid ""
+"If the <org><orgunit> element is present in a course's incoming data, its "
+"content will be used to specify a category if the course is to be created "
+"from scratch. The plugin will NOT re-categorise existing courses.\n"
+"\n"
+"If no category exists with the desired name, then a hidden category will be "
+"created."
+msgstr ""
+
+#: $string['createnewcourses']
+msgid "Create new (hidden) courses if not found in Moodle"
+msgstr ""
+
+#: $string['createnewcourses_desc']
+msgid ""
+"If enabled, the IMS Enterprise enrolment plugin can create new courses for "
+"any it finds in the IMS data but not in Moodle's database. Any newly-created "
+"courses are initially hidden."
+msgstr ""
+
+#: $string['createnewusers']
+msgid "Create user accounts for users not yet registered in Moodle"
+msgstr ""
+
+#: $string['createnewusers_desc']
+msgid ""
+"IMS Enterprise enrolment data typically describes a set of users. If "
+"enabled, accounts can be created for any users not found in Moodle's "
+"database.\n"
+"\n"
+"Users are searched for first by their \"idnumber\", and second by their Moodle "
+"username. Passwords are not imported by the IMS Enterprise plugin. The use "
+"of an authentication plugin is recommended for authenticating users."
+msgstr ""
+
+#: $string['cronfrequency']
+msgid "Frequency of processing"
+msgstr ""
+
+#: $string['deleteusers']
+msgid "Delete user accounts when specified in IMS data"
+msgstr ""
+
+#: $string['deleteusers_desc']
+msgid ""
+"If enabled, IMS Enterprise enrolment data can specify the deletion of user "
+"accounts (if the \"recstatus\" flag is set to 3, which represents deletion of "
+"an account). As is standard in Moodle, the user record isn't actually "
+"deleted from Moodle's database, but a flag is set to mark the account as "
+"deleted."
+msgstr ""
+
+#: $string['doitnow']
+msgid "perform an IMS Enterprise import right now"
+msgstr ""
+
+#: $string['emptyattribute']
+msgid "Leave it empty"
+msgstr ""
+
+#: $string['filelockedmail']
+msgid ""
+"The text file you are using for IMS-file-based enrolments ({$a}) can not be "
+"deleted by the cron process.  This usually means the permissions are wrong "
+"on it.  Please fix the permissions so that Moodle can delete the file, "
+"otherwise it might be processed repeatedly."
+msgstr ""
+
+#: $string['filelockedmailsubject']
+msgid "Important error: Enrolment file"
+msgstr ""
+
+#: $string['fixcasepersonalnames']
+msgid "Change personal names to Title Case"
+msgstr ""
+
+#: $string['fixcaseusernames']
+msgid "Change usernames to lower case"
+msgstr ""
+
+#: $string['ignore']
+msgid "Ignore"
+msgstr ""
+
+#: $string['importimsfile']
+msgid "Import IMS Enterprise file"
+msgstr ""
+
+#: $string['imsenterprise:config']
+msgid "Configure IMS Enterprise enrol instances"
+msgstr ""
+
+#: $string['imsenterprisecrontask']
+msgid "Enrolment file processing"
+msgstr ""
+
+#: $string['imsrolesdescription']
+msgid ""
+"The IMS Enterprise specification includes 8 distinct role types. Please "
+"choose how you want them to be assigned in Moodle, including whether any of "
+"them should be ignored."
+msgstr ""
+
+#: $string['location']
+msgid "File location"
+msgstr ""
+
+#: $string['logtolocation']
+msgid "Log file output location (blank for no logging)"
+msgstr ""
+
+#: $string['mailadmins']
+msgid "Notify admin by email"
+msgstr ""
+
+#: $string['mailusers']
+msgid "Notify users by email"
+msgstr ""
+
+#: $string['messageprovider:imsenterprise_enrolment']
+msgid "IMS Enterprise enrolment messages"
+msgstr ""
+
+#: $string['miscsettings']
+msgid "Miscellaneous"
+msgstr ""
+
+#: $string['nestedcategories']
+msgid "Allow nested categories"
+msgstr ""
+
+#: $string['nestedcategories_desc']
+msgid "If enabled IMS Enterprise will create nested categories"
+msgstr ""
+
+#: $string['pluginname']
+msgid "IMS Enterprise file"
+msgstr ""
+
+#: $string['pluginname_desc']
+msgid ""
+"This method will repeatedly check for and process a specially-formatted text "
+"file in the location that you specify.  The file must follow the IMS "
+"Enterprise specifications containing person, group, and membership XML "
+"elements."
+msgstr ""
+
+#: $string['processphoto']
+msgid "Add user photo data to profile"
+msgstr ""
+
+#: $string['processphotowarning']
+msgid ""
+"Warning: Image processing is likely to add a significant burden to the "
+"server. You are recommended not to activate this option if large numbers of "
+"students are expected to be processed."
+msgstr ""
+
+#: $string['restricttarget']
+msgid "Only process data if the following target is specified"
+msgstr ""
+
+#: $string['restricttarget_desc']
+msgid ""
+"An IMS Enterprise data file could be intended for multiple \"targets\" - "
+"different LMSes, or different systems within a school/university. It's "
+"possible to specify in the Enterprise file that the data is intended for one "
+"or more named target systems, by naming them in <target> tags contained "
+"within the <properties> tag.\n"
+"\n"
+"In general you don't need to worry about this. Leave the setting blank and "
+"Moodle will always process the data file, no matter whether a target is "
+"specified or not. Otherwise, fill in the exact name that will be output "
+"inside the <target> tag."
+msgstr ""
+
+#: $string['roles']
+msgid "Roles"
+msgstr ""
+
+#: $string['settingfullname']
+msgid "IMS description tag for the course full name"
+msgstr ""
+
+#: $string['settingfullnamedescription']
+msgid ""
+"The full name is a required course field so you have to define the selected "
+"description tag in your IMS Enterprise file"
+msgstr ""
+
+#: $string['settingshortname']
+msgid "IMS description tag for the course short name"
+msgstr ""
+
+#: $string['settingshortnamedescription']
+msgid ""
+"The short name is a required course field so you have to define the selected "
+"description tag in your IMS Enterprise file"
+msgstr ""
+
+#: $string['settingsummary']
+msgid "IMS description tag for the course summary"
+msgstr ""
+
+#: $string['settingsummarydescription']
+msgid ""
+"Is an optional field, select 'Leave it empty' if you dont't want to specify "
+"a course summary"
+msgstr ""
+
+#: $string['sourcedidfallback']
+msgid ""
+"Use the &quot;sourcedid&quot; for a person's userid if the "
+"&quot;userid&quot; field is not found"
+msgstr ""
+
+#: $string['sourcedidfallback_desc']
+msgid ""
+"In IMS data, the <sourcedid> field represents the persistent ID code for a "
+"person as used in the source system. The <userid> field is a separate field "
+"which should contain the ID code used by the user when logging in. In many "
+"cases these two codes may be the same - but not always.\n"
+"\n"
+"Some student information systems fail to output the <userid> field. If this "
+"is the case, you should enable this setting to allow for using the "
+"<sourcedid> as the Moodle user ID. Otherwise, leave this setting disabled."
+msgstr ""
+
+#: $string['truncatecoursecodes']
+msgid "Truncate course codes to this length"
+msgstr ""
+
+#: $string['truncatecoursecodes_desc']
+msgid ""
+"In some situations you may have course codes which you wish to truncate to a "
+"specified length before processing. If so, enter the number of characters "
+"in this box. Otherwise, leave the box blank and no truncation will occur."
+msgstr ""
+
+#: $string['updatecourses']
+msgid "Update course"
+msgstr ""
+
+#: $string['updatecourses_desc']
+msgid ""
+"If enabled, the IMS Enterprise enrolment plugin can update course full and "
+"short names (if the \"recstatus\" flag is set to 2, which represents an "
+"update)."
+msgstr ""
+
+#: $string['updateusers']
+msgid "Update user accounts when specified in IMS data"
+msgstr ""
+
+#: $string['updateusers_desc']
+msgid ""
+"If enabled, IMS Enterprise enrolment data can specify changes to user "
+"accounts (if the \"recstatus\" flag is set to 2, which represents an update)."
+msgstr ""
+
+#: $string['usecapitafix']
+msgid ""
+"Tick this box if using &quot;Capita&quot; (their XML format is slightly "
+"wrong)"
+msgstr ""
+
+#: $string['usecapitafix_desc']
+msgid ""
+"The student data system produced by Capita has been found to have one slight "
+"error in its XML output. If you are using Capita you should enable this "
+"setting - otherwise leave it un-ticked."
+msgstr ""
+
+#: $string['usersettings']
+msgid "User data options"
+msgstr ""
+
+#: $string['zeroisnotruncation']
+msgid "0 indicates no truncation"
+msgstr ""

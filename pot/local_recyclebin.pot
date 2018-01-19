@@ -1,0 +1,207 @@
+#. extracted from lang/en/local_recyclebin.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'local_recyclebin', language 'en', branch 'MOODLE_31_STABLE'
+#.  *
+#.  * @package   local_recyclebin
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['alertdeleted']
+msgid "{$a->name} has been deleted"
+msgstr ""
+
+#: $string['alertemptied']
+msgid "Recycle bin has been emptied"
+msgstr ""
+
+#: $string['alertrestored']
+msgid "{$a->name} has been restored"
+msgstr ""
+
+#: $string['autohide']
+msgid "Auto hide?"
+msgstr ""
+
+#: $string['autohide_desc']
+msgid "Automatically hides the recycle bin link when the bin is empty."
+msgstr ""
+
+#: $string['cleancategoryrecyclebin']
+msgid "Clean category recycle bins"
+msgstr ""
+
+#: $string['cleancourserecyclebin']
+msgid "Clean course recycle bins"
+msgstr ""
+
+#: $string['course_expiry']
+msgid "Course lifetime"
+msgstr ""
+
+#: $string['course_expiry_desc']
+msgid "How long should a deleted course remain in the recycle bin?"
+msgstr ""
+
+#: $string['deleteconfirm']
+msgid "Are you sure you want to delete the selected item from the recycle bin?"
+msgstr ""
+
+#: $string['deleted']
+msgid "Date deleted"
+msgstr ""
+
+#: $string['description_course']
+msgid ""
+"Items that have been deleted from a course can be restored if they are still "
+"in the recycle bin, and will appear at the bottom of the section from which "
+"they were deleted."
+msgstr ""
+
+#: $string['description_coursecat']
+msgid ""
+"Items that have been deleted from a category can be restored if they are "
+"still in the recycle bin."
+msgstr ""
+
+#: $string['descriptionexpiry']
+msgid "Contents will be permanently deleted after {$a} days."
+msgstr ""
+
+#: $string['empty']
+msgid "Delete all"
+msgstr ""
+
+#: $string['emptybin']
+msgid "There are no items in the recycle bin."
+msgstr ""
+
+#: $string['emptyconfirm']
+msgid "Are you sure you want to delete all items in the recycle bin?"
+msgstr ""
+
+#: $string['enablecategory']
+msgid "Enable category recycle bin"
+msgstr ""
+
+#: $string['enablecategory_desc']
+msgid "Enables or disables the category recycle bin"
+msgstr ""
+
+#: $string['enablecourse']
+msgid "Enable course recycle bin"
+msgstr ""
+
+#: $string['enablecourse_desc']
+msgid "Enables or disables the course recycle bin"
+msgstr ""
+
+#: $string['event_purged_description']
+msgid "Item with ID {$a->objectid} purged."
+msgstr ""
+
+#: $string['event_purged_name']
+msgid "Item purged"
+msgstr ""
+
+#: $string['event_restored_description']
+msgid "Item with ID {$a->objectid} restored."
+msgstr ""
+
+#: $string['event_restored_name']
+msgid "Item restored"
+msgstr ""
+
+#: $string['event_stored_description']
+msgid "Item stored with ID {$a->objectid}."
+msgstr ""
+
+#: $string['event_stored_name']
+msgid "Item stored"
+msgstr ""
+
+#: $string['expiry']
+msgid "Activity lifetime"
+msgstr ""
+
+#: $string['expiry_desc']
+msgid "How long should a deleted mod remain in the recycle bin?"
+msgstr ""
+
+#: $string['invalidcontext']
+msgid "Invalid context supplied."
+msgstr ""
+
+#: $string['neverdelete']
+msgid "Never delete recycled items"
+msgstr ""
+
+#: $string['notenabled']
+msgid "Sorry, but the recycle bin has been disabled by the administrator."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Recycle bin"
+msgstr ""
+
+#: $string['protectedmods']
+msgid "Protected modules"
+msgstr ""
+
+#: $string['protectedmods_desc']
+msgid "Protected modules will not be automatically deleted."
+msgstr ""
+
+#: $string['recyclebin:delete_course']
+msgid "Delete category recycle bin items"
+msgstr ""
+
+#: $string['recyclebin:delete_item']
+msgid "Delete course recycle bin items"
+msgstr ""
+
+#: $string['recyclebin:delete_protected_item']
+msgid "Delete protected course recycle bin items"
+msgstr ""
+
+#: $string['recyclebin:restore_course']
+msgid "Restore category recycle bin items"
+msgstr ""
+
+#: $string['recyclebin:restore_item']
+msgid "Restore course recycle bin items"
+msgstr ""
+
+#: $string['recyclebin:view_course']
+msgid "View category recycle bin items"
+msgstr ""
+
+#: $string['recyclebin:view_item']
+msgid "View course recycle bin items"
+msgstr ""

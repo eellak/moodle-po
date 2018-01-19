@@ -1,0 +1,461 @@
+#. extracted from lang/en/block_use_stats.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_use_stats', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   block_use_stats
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['activetrackingparams']
+msgid "Active tracking settings"
+msgstr ""
+
+#: $string['activities']
+msgid "Activities"
+msgstr ""
+
+#: $string['allowrule']
+msgid "Allow sending when matching rule"
+msgstr ""
+
+#: $string['allusers']
+msgid "All users"
+msgstr ""
+
+#: $string['blockdisplay']
+msgid "Block display tuning"
+msgstr ""
+
+#: $string['blockname']
+msgctxt "$string['blockname']"
+msgid "Use Stats"
+msgstr ""
+
+#: $string['byname']
+msgid "By name"
+msgstr ""
+
+#: $string['bytimedesc']
+msgid "By time"
+msgstr ""
+
+#: $string['cachedef_aggregate']
+msgid "Aggregates"
+msgstr ""
+
+#: $string['capabilitycontrol']
+msgid "Capability"
+msgstr ""
+
+#: $string['configbacktrackmode']
+msgid "Back track mode"
+msgstr ""
+
+#: $string['configbacktrackmode_desc']
+msgid "Selects how the blocks chooses from when backtracking times."
+msgstr ""
+
+#: $string['configbacktracksource']
+msgid "Back track source"
+msgstr ""
+
+#: $string['configbacktracksource_desc']
+msgid "Selects who tells the blocks the backtracking time reference."
+msgstr ""
+
+#: $string['configcalendarskin']
+msgid "Calendar skin"
+msgstr ""
+
+#: $string['configcalendarskin_desc']
+msgid "Changes the calendar apparence."
+msgstr ""
+
+#: $string['configcustomtagselect']
+msgid "Select for custom tag"
+msgstr ""
+
+#: $string['configcustomtagselect_desc']
+msgid ""
+"This query needs returning one unique result per log row. this result will "
+"feed the customtag {$a} column."
+msgstr ""
+
+#: $string['configdisplayactivitytimeonly']
+msgid "Choose what reference time to display"
+msgstr ""
+
+#: $string['configdisplayactivitytimeonly_desc']
+msgid "You can choose what is the reference learning time to display"
+msgstr ""
+
+#: $string['configdisplayothertime']
+msgid "Display \"Out of course\" time"
+msgstr ""
+
+#: $string['configdisplayothertime_desc']
+msgid "Is set, displays the \"Out of course\" time course line"
+msgstr ""
+
+#: $string['configenablecompilecube']
+msgid "Enable cube compilation"
+msgstr ""
+
+#: $string['configenablecompilecube_desc']
+msgid ""
+"When enabled, additional dimensions are calculated using defined selects"
+msgstr ""
+
+#: $string['configfilterdisplayunder']
+msgid "Filter display under"
+msgstr ""
+
+#: $string['configfilterdisplayunder_desc']
+msgid ""
+"If not nul, only course times above the given limit (in seconds) will be "
+"displayed in the block"
+msgstr ""
+
+#: $string['configfromwhen']
+msgid "Since"
+msgstr ""
+
+#: $string['configfromwhen_desc']
+msgid "Compilation period (in days till today)"
+msgstr ""
+
+#: $string['configkeepalivecontrol']
+msgid "Control method"
+msgstr ""
+
+#: $string['configkeepalivecontrol_desc']
+msgid "internal data used to control sending capability"
+msgstr ""
+
+#: $string['configkeepalivecontrolvalue']
+msgid "Control item name"
+msgstr ""
+
+#: $string['configkeepalivecontrolvalue_desc']
+msgid ""
+"will match the rule if capability is allowed or if profile field has not "
+"null value. The default setting excludes admins."
+msgstr ""
+
+#: $string['configkeepalivedelay']
+msgid "Session keepalive period"
+msgstr ""
+
+#: $string['configkeepalivedelay_desc']
+msgid ""
+"Delay between two keepalive log traces for connected users (seconds). Keep "
+"as big as possible to lower server load when many users are connected, while "
+"keeping tracking tracks consistant."
+msgstr ""
+
+#: $string['configkeepaliverule']
+msgid "Send keepalive if"
+msgstr ""
+
+#: $string['configkeepaliverule_desc']
+msgid "Rule to control keepalive ajax sending"
+msgstr ""
+
+#: $string['configlastcompiled']
+msgid "Last compiled log record date"
+msgstr ""
+
+#: $string['configlastcompiled_desc']
+msgid ""
+"On change of this track date, the cron will recalculate all logs following "
+"the given date"
+msgstr ""
+
+#: $string['configlastpingcredit']
+msgid "Extra time credit on last ping"
+msgstr ""
+
+#: $string['configlastpingcredit_desc']
+msgid ""
+"This amount of time (in minutes) will be systematically added to log track "
+"time count for each time a session closure or discontinuity is guessed"
+msgstr ""
+
+#: $string['configonesessionpercourse']
+msgid "One session per course"
+msgstr ""
+
+#: $string['configonesessionpercourse_desc']
+msgid ""
+"When enabled, use stat will split sessions each time the track changes the "
+"currrent course. If disabled, a session represents a working sequence that "
+"may use several courses."
+msgstr ""
+
+#: $string['configthreshold']
+msgid "Threshold"
+msgstr ""
+
+#: $string['configthreshold_desc']
+msgid ""
+"Activity continuity threshold (minutes). Above this gap time between two "
+"successive tracks in the log, the user is considered as deconnected. "
+"Arbitrary \"Last Ping Credit\" time will be added to his time count."
+msgstr ""
+
+#: $string['datacubing']
+msgid "Data cubing"
+msgstr ""
+
+#: $string['declaredtime']
+msgid "Declared time"
+msgstr ""
+
+#: $string['denyrule']
+msgid "Allow sending unless matching rule"
+msgstr ""
+
+#: $string['dimensionitem']
+msgid "Observable classes"
+msgstr ""
+
+#: $string['displayactivitiestime']
+msgid "Only time assigned to effective activities in the course"
+msgstr ""
+
+#: $string['displaycoursetime']
+msgid "Course real time (all time spend in all contexts of the course)"
+msgstr ""
+
+#: $string['emulatecommunity']
+msgid "Emulate community version"
+msgstr ""
+
+#: $string['emulatecommunity_desc']
+msgid ""
+"If enabled, the plugin will behave as the public community version. This "
+"might loose features !"
+msgstr ""
+
+#: $string['errornorecords']
+msgid "No tracking information"
+msgstr ""
+
+#: $string['eventscount']
+msgid "Hits"
+msgstr ""
+
+#: $string['eventusestatskeepalive']
+msgid "Session keep alive"
+msgstr ""
+
+#: $string['fixedchoice']
+msgid "Settings forced to course/account start date"
+msgstr ""
+
+#: $string['fixeddate']
+msgid "From a fixed date reference"
+msgstr ""
+
+#: $string['from']
+msgid "Since&ensp;"
+msgstr ""
+
+#: $string['fromrange']
+msgid "From&ensp;"
+msgstr ""
+
+#: $string['go']
+msgid "Go!"
+msgstr ""
+
+#: $string['hidecourselist']
+msgid "Hide course times"
+msgstr ""
+
+#: $string['isfiltered']
+msgid "Only time above {$a} secs are displayed"
+msgstr ""
+
+#: $string['keepuseralive']
+msgid "User {$a} is still in session"
+msgstr ""
+
+#: $string['loganalysisparams']
+msgid "Log analysis parameters"
+msgstr ""
+
+#: $string['modulename']
+msgid "Activity tracking"
+msgstr ""
+
+#: $string['noavailablelogs']
+msgid "No logs available"
+msgstr ""
+
+#: $string['onthismoodlefrom']
+msgid "here since"
+msgstr ""
+
+#: $string['other']
+msgid "Other out of course presence"
+msgstr ""
+
+#: $string['othershort']
+msgid "OTHER"
+msgstr ""
+
+#: $string['plugindist']
+msgid "Plugin distribution"
+msgstr ""
+
+#: $string['plugindist_desc']
+msgid ""
+"<p>This plugin is the community version and is published for anyone to use "
+"as is and check the plugin's\n"
+"core application. A \"pro\" version of this plugin exists and is distributed "
+"under conditions to feed the life cycle, upgrade, documentation\n"
+"and improvement effort.</p>\n"
+"<p>Please contact one of our distributors to get \"Pro\" version support.</p>\n"
+"<ul><li><a href=\"http://www.activeprolearn.com/plugin.php?plugin=block_use_s"
+"tats&lang=en\">ActiveProLearn SAS</a></li>\n"
+"<li><a href=\"http://www.edunao.com\">Edunao SAS</a></li></ul>"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Use Stats"
+msgstr ""
+
+#: $string['pluginname_desc']
+msgid "A block that compiles session times"
+msgstr ""
+
+#: $string['printpdf']
+msgid "Print PDF"
+msgstr ""
+
+#: $string['profilefieldcontrol']
+msgid "Profile Field"
+msgstr ""
+
+#: $string['showdetails']
+msgid "Show details"
+msgstr ""
+
+#: $string['sliding']
+msgid "Sliding time window"
+msgstr ""
+
+#: $string['studentchoice']
+msgid "Students chooses"
+msgstr ""
+
+#: $string['studentscansee']
+msgid "Students can see"
+msgstr ""
+
+#: $string['task_cache_ttl']
+msgid "Aggregate Cache TTL"
+msgstr ""
+
+#: $string['task_cleanup']
+msgid "Time gaps cleanup"
+msgstr ""
+
+#: $string['task_compile']
+msgid "Time gaps compilation"
+msgstr ""
+
+#: $string['timeelapsed']
+msgid "Time elapsed"
+msgstr ""
+
+#: $string['to']
+msgid "&ensp;to&ensp;"
+msgstr ""
+
+#: $string['use_stats:addinstance']
+msgid "Can add an instance"
+msgstr ""
+
+#: $string['use_stats_description']
+msgid ""
+"By publishing this service, you allow remote servers to ask for reading "
+"statistics of local users.<br/>When subscribing to this service, you allow "
+"your local server to query a remote server about stats on his members.<br/>"
+msgstr ""
+
+#: $string['use_stats:export']
+msgid "Can export as pdf (needs trainingsessions report)"
+msgstr ""
+
+#: $string['use_stats:myaddinstance']
+msgid "Can add an instance to My Page"
+msgstr ""
+
+#: $string['use_stats_name']
+msgctxt "$string['use_stats_name']"
+msgid "Remote access to statistics"
+msgstr ""
+
+#: $string['use_stats_rpc_service']
+msgctxt "$string['use_stats_rpc_service']"
+msgid "Remote access to statistics"
+msgstr ""
+
+#: $string['use_stats_rpc_service_name']
+msgctxt "$string['use_stats_rpc_service_name']"
+msgid "Remote access to statistics"
+msgstr ""
+
+#: $string['use_stats:seecoursedetails']
+msgid "Can see detail of all users from his course"
+msgstr ""
+
+#: $string['use_stats:seegroupdetails']
+msgid "Can see detail of all users from his groups"
+msgstr ""
+
+#: $string['use_stats:seeowndetails']
+msgid "Can see his own detail"
+msgstr ""
+
+#: $string['use_stats:seesitedetails']
+msgid "Can see detail of all users"
+msgstr ""
+
+#: $string['use_stats:view']
+msgid "Can see stats"
+msgstr ""
+
+#: $string['youspent']
+msgid "You spent&ensp;"
+msgstr ""

@@ -1,0 +1,211 @@
+#. extracted from lang/en/auth_elcentra.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'auth_elcentra', language 'en', branch 'MOODLE_26_STABLE'
+#.  *
+#.  * @package   auth_elcentra
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['add_code_mode_auto_text']
+msgid "Automatic"
+msgstr ""
+
+#: $string['add_code_mode_description']
+msgid ""
+"If automatic mode is selected, the plugin automatically plugs in the buttons "
+"to the end of the login form in login page. You can override this default "
+"behaviour by adding an element (possibly a div) with 'auth_custom_location' "
+"class. If you select manual method, copy the code shown at the top of this "
+"page and paste it whereever you want it to appear in your theme file"
+msgstr ""
+
+#: $string['add_code_mode_manual_text']
+msgid "Manual"
+msgstr ""
+
+#: $string['add_code_mode_notes']
+msgid ""
+"Automatic - The plugin adds the code automatically in the login form. Manual "
+"- You will add the code on your own"
+msgstr ""
+
+#: $string['add_code_mode_text']
+msgid "How do you want to add the social login buttons"
+msgstr ""
+
+#: $string['add_code_mode_title']
+msgid "Adding login buttons to the layout"
+msgstr ""
+
+#: $string['auth_elcentradescription']
+msgid ""
+"Users can register / login with their social accounts - Facebook, twitter, "
+"gmail & linked in"
+msgstr ""
+
+#: $string['copytext']
+msgid ""
+"If you select manual method for adding buttons, Copy the text below and "
+"paste it in the login file of your layout"
+msgstr ""
+
+#: $string['emailaddressmustbeverified']
+msgid ""
+"Your account is not verified. You can only use verified social network "
+"accounts to signup / signin to this site"
+msgstr ""
+
+#: $string['facebookclient_appurl']
+msgctxt "$string['facebookclient_appurl']"
+msgid "Registration URL :"
+msgstr ""
+
+#: $string['facebookclientid_description']
+msgid "Fill in your facebook client id obtained from your app dashboard"
+msgstr ""
+
+#: $string['facebookclientid_text']
+msgid "Facebook Client ID"
+msgstr ""
+
+#: $string['facebookclient_redirecturl']
+msgctxt "$string['facebookclient_redirecturl']"
+msgid "OAuth Authorized Callback (Redirect URI):"
+msgstr ""
+
+#: $string['facebookclientsecret_description']
+msgid "Fill in your facebook client secret obtained from app dashboard"
+msgstr ""
+
+#: $string['facebookclientsecret_text']
+msgid "Facebook Client Secret"
+msgstr ""
+
+#: $string['facebookclient_title']
+msgid "Facebook API"
+msgstr ""
+
+#: $string['googleclient_appurl']
+msgctxt "$string['googleclient_appurl']"
+msgid "Registration URL :"
+msgstr ""
+
+#: $string['googleclientid_description']
+msgid "Fill in your google app id obtained from API console"
+msgstr ""
+
+#: $string['googleclientid_text']
+msgid "Google App ID"
+msgstr ""
+
+#: $string['googleclient_redirecturl']
+msgctxt "$string['googleclient_redirecturl']"
+msgid "OAuth Authorized Callback (Redirect URI):"
+msgstr ""
+
+#: $string['googleclientsecret_description']
+msgid "Fill in your google app secret obtained from API console"
+msgstr ""
+
+#: $string['googleclientsecret_text']
+msgid "Google App Secret"
+msgstr ""
+
+#: $string['googleclient_title']
+msgid "Google API"
+msgstr ""
+
+#: $string['linkedinclient_appurl']
+msgctxt "$string['linkedinclient_appurl']"
+msgid "Registration URL :"
+msgstr ""
+
+#: $string['linkedinclientid_description']
+msgid "Fill in your linkedin client id obtained from your app console"
+msgstr ""
+
+#: $string['linkedinclientid_text']
+msgid "Linkedin Client ID"
+msgstr ""
+
+#: $string['linkedinclient_redirecturl']
+msgctxt "$string['linkedinclient_redirecturl']"
+msgid "OAuth Authorized Callback (Redirect URI):"
+msgstr ""
+
+#: $string['linkedinclientsecret_description']
+msgid "Fill in your linkedin client secret obtained from app dashboard"
+msgstr ""
+
+#: $string['linkedinclientsecret_text']
+msgid "Linkedin Client Secret"
+msgstr ""
+
+#: $string['linkedinclient_title']
+msgid "Linkedin API"
+msgstr ""
+
+#: $string['pluginname']
+msgid "elcentra Login framework"
+msgstr ""
+
+#: $string['title']
+msgid "Moodle Regsitration"
+msgstr ""
+
+#: $string['twitterclient_appurl']
+msgctxt "$string['twitterclient_appurl']"
+msgid "Registration URL :"
+msgstr ""
+
+#: $string['twitterclientid_description']
+msgid "Fill in your twitter consumer key obtained from your app console"
+msgstr ""
+
+#: $string['twitterclientid_text']
+msgid "Twitter Consumer Key"
+msgstr ""
+
+#: $string['twitterclient_redirecturl']
+msgctxt "$string['twitterclient_redirecturl']"
+msgid "OAuth Authorized Callback (Redirect URI):"
+msgstr ""
+
+#: $string['twitterclientsecret_description']
+msgid "Fill in your twitter consumer secret obtained from app dashboard"
+msgstr ""
+
+#: $string['twitterclientsecret_text']
+msgid "Twitter Consumer Secret"
+msgstr ""
+
+#: $string['twitterclient_title']
+msgid "Twitter API"
+msgstr ""

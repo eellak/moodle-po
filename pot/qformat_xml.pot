@@ -1,0 +1,74 @@
+#. extracted from lang/en/qformat_xml.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qformat_xml', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   qformat_xml
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['invalidxml']
+msgid "Invalid XML file - string expected (use CDATA?)"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Moodle XML format"
+msgstr ""
+
+#: $string['pluginname_help']
+msgid "This is a Moodle-specific format for importing and exporting questions."
+msgstr ""
+
+#: $string['pluginname_link']
+msgid "qformat/xml"
+msgstr ""
+
+#: $string['truefalseimporterror']
+msgid ""
+"<b>Warning</b>: The true/false question '{$a->questiontext}' could not be "
+"imported properly. It was not clear whether the correct answer is true or "
+"false. The question has been imported assuming that the answer is "
+"'{$a->answer}'. If this is not correct, you will need to edit the question."
+msgstr ""
+
+#: $string['unsupportedexport']
+msgid "Question type {$a} is not supported by XML export"
+msgstr ""
+
+#: $string['xmlimportnoname']
+msgid "Missing question name in XML file"
+msgstr ""
+
+#: $string['xmlimportnoquestion']
+msgid "Missing question text in XML file"
+msgstr ""
+
+#: $string['xmltypeunsupported']
+msgid "Question type {$a} is not supported by XML import"
+msgstr ""

@@ -1,0 +1,491 @@
+#. extracted from lang/en/klassenbuch.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'klassenbuch', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   klassenbuch
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addafter']
+msgid "Add new chapter"
+msgstr ""
+
+#: $string['addnewfield']
+msgid "Add new Klassenbuch Field"
+msgstr ""
+
+#: $string['addsubscriber']
+msgid "Add"
+msgstr ""
+
+#: $string['allowchoice']
+msgid "Allow everyone to choose"
+msgstr ""
+
+#: $string['allowsallsubscribe']
+msgctxt "$string['allowsallsubscribe']"
+msgid "Everyone can choose to subscribe to this book"
+msgstr ""
+
+#: $string['attachment']
+msgid "Attachment(s)"
+msgstr ""
+
+#: $string['attachments']
+msgid "Attachments"
+msgstr ""
+
+#: $string['autosavedon']
+msgid "Autosaved on"
+msgstr ""
+
+#: $string['autosaveseconds']
+msgid "Autosave every (seconds)"
+msgstr ""
+
+#: $string['backtochapter']
+msgid "Back to chapter"
+msgstr ""
+
+#: $string['bynameondate']
+msgid "by {$a->name} on {$a->date}"
+msgstr ""
+
+#: $string['chapter']
+msgid "Chapter"
+msgstr ""
+
+#: $string['chapters']
+msgctxt "$string['chapters']"
+msgid "Chapters"
+msgstr ""
+
+#: $string['chapterscount']
+msgctxt "$string['chapterscount']"
+msgid "Chapters"
+msgstr ""
+
+#: $string['chaptertitle']
+msgid "Chapter title"
+msgstr ""
+
+#: $string['collapsesubchapters']
+msgid "Collapse subchapters"
+msgstr ""
+
+#: $string['confchapterdelete']
+msgid "Do you really want to delete this chapter?"
+msgstr ""
+
+#: $string['confchapterdeleteall']
+msgid "Do you really want to delete this chapter and all its subchapters?"
+msgstr ""
+
+#: $string['configreplytouser']
+msgid ""
+"Notification emails come from the user who updates the book, not from the "
+"'no reply' address"
+msgstr ""
+
+#: $string['content']
+msgid "Content"
+msgstr ""
+
+#: $string['customfieldswarning']
+msgid ""
+"There are currently no fields defined for the Klassenbuch module - please "
+"visit {$a->globalfieldslink} to set these up (this can also be found via the "
+"link on {$a->settingslink})."
+msgstr ""
+
+#: $string['customtitles']
+msgid "Custom titles"
+msgstr ""
+
+#: $string['customtitles_help']
+msgid "Chapter titles are displayed automatically only in TOC."
+msgstr ""
+
+#: $string['disallowsubscribe']
+msgid "Subscribing to this book is not allowed"
+msgstr ""
+
+#: $string['duplicatenewchaptererror']
+msgid "New chapter already saved - cannot create duplicate"
+msgstr ""
+
+#: $string['editingchapter']
+msgid "Editing chapter"
+msgstr ""
+
+#: $string['editsubscribersoff']
+msgid "Stop editing subscriptions"
+msgstr ""
+
+#: $string['editsubscriberson']
+msgid "Edit subscriptions"
+msgstr ""
+
+#: $string['errorchapter']
+msgid "Error reading book chapter."
+msgstr ""
+
+#: $string['eventchaptercreated']
+msgid "Chapter created"
+msgstr ""
+
+#: $string['eventchapterdeleted']
+msgid "Chapter deleted"
+msgstr ""
+
+#: $string['eventchapterupdated']
+msgid "Chapter updated"
+msgstr ""
+
+#: $string['eventchapterviewed']
+msgid "Chapter viewed"
+msgstr ""
+
+#: $string['eventsubscriptioncreated']
+msgid "Klassenbuch subscrition created"
+msgstr ""
+
+#: $string['eventsubscriptiondeleted']
+msgid "Klassenbuch subscrition deleted"
+msgstr ""
+
+#: $string['everyonecannowchoose']
+msgctxt "$string['everyonecannowchoose']"
+msgid "Everyone can choose to subscribe to this book"
+msgstr ""
+
+#: $string['everyoneisnowsubscribed']
+msgid "Everyone is now subscribed to this book."
+msgstr ""
+
+#: $string['everyoneissubscribed']
+msgid "Everyone is subscribed"
+msgstr ""
+
+#: $string['existingsubscribers']
+msgid "Existing subscribers"
+msgstr ""
+
+#: $string['exportpdf']
+msgid "Export as PDF"
+msgstr ""
+
+#: $string['faq']
+msgid "Klassenbuch FAQ"
+msgstr ""
+
+#: $string['faq_help']
+msgid ""
+"*Why only two levels?*\n"
+"\n"
+"Two levels are generally enough for all books, three levels would lead to "
+"poorly structured documents. Book module is designed for\n"
+"creation of short multipage study materials. It is usually better to use PDF "
+"format for longer documents. The easiest way to create PDFs are\n"
+"virtual printers (see\n"
+"<a  href=\"http://sector7g.wurzel6.de/pdfcreator/index_en.htm\"  "
+"target=\"_blank\">PDFCreator</a>,\n"
+"<a  href=\"http://fineprint.com/products/pdffactory/index.html\"  "
+"target=\"_blank\">PDFFactory</a>,\n"
+"<a  href=\"http://www.adobe.com/products/acrobatstd/main.html\"  "
+"target=\"_blank\">Adobe Acrobat</a>,\n"
+"etc.).\n"
+"\n"
+"*Can students edit books?*\n"
+"\n"
+"Only teachers can create and edit books. There are no plans to implement "
+"student editing for books, but somebody may create something\n"
+"similar for students (Portfolio?). The main reason is to keep Book module as "
+"simple as possible.\n"
+"\n"
+"*How do I search the books?*\n"
+"\n"
+"At present there is only one way, use browser's search capability in print "
+"page. Global searching is now possible only in Moodle forums.\n"
+"It would be nice to have global searching for all resources including books, "
+"any volunteers?\n"
+"\n"
+"*My titles do not fit on one line.*\n"
+"\n"
+"Either rephrase your titles or ask your site admin to change TOC\n"
+"width. It is defined globally for all books in module configuration\n"
+"page."
+msgstr ""
+
+#: $string['fieldtitle']
+msgid "Field Title"
+msgstr ""
+
+#: $string['forcessubscribe']
+msgid "This book forces everyone to subscribe."
+msgstr ""
+
+#: $string['forcesubscribe']
+msgid "Everyone will be subscribed to this book"
+msgstr ""
+
+#: $string['globalfields']
+msgid "Global Fields"
+msgstr ""
+
+#: $string['globalfieldspage']
+msgid "the global fields page"
+msgstr ""
+
+#: $string['globalsettingspage']
+msgid "the Klassenbuch global settings page"
+msgstr ""
+
+#: $string['hiddenbydefault']
+msgid "Hidden by default"
+msgstr ""
+
+#: $string['hiddentostudent']
+msgid "Hidden to Student"
+msgstr ""
+
+#: $string['klassenbuch']
+msgctxt "$string['klassenbuch']"
+msgid "klassenbuch"
+msgstr ""
+
+#: $string['klassenbuch:addinstance']
+msgid "Add new Klassenbuch"
+msgstr ""
+
+#: $string['klassenbuch:edit']
+msgid "Edit book chapters"
+msgstr ""
+
+#: $string['klassenbuch:initialsubscriptions']
+msgid "Initially subscribed to book"
+msgstr ""
+
+#: $string['klassenbuch:managesubscriptions']
+msgid "Subscribe / unsubscribe other users"
+msgstr ""
+
+#: $string['klassenbuch:read']
+msgid "Read book"
+msgstr ""
+
+#: $string['klassenbuchs']
+msgctxt "$string['klassenbuchs']"
+msgid "klassenbuch"
+msgstr ""
+
+#: $string['klassenbuch:viewhiddenchapters']
+msgid "View hidden book chapters"
+msgstr ""
+
+#: $string['klassenbuch:viewsubscribers']
+msgid "See which users are subscribed"
+msgstr ""
+
+#: $string['mailsent']
+msgid "{$a->count} participants sent chapter {$a->chapter}"
+msgstr ""
+
+#: $string['manageglobalfields']
+msgid "Manage Global Fields"
+msgstr ""
+
+#: $string['missingfilemanagement']
+msgid ""
+"Dear users of Book module, I supposed you have already notised that it is "
+"not possible to delete or manage files used in Book chapters. Please vote in "
+"{$a} to get this fixed, thanks. Petr Škoda"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Klassenbuch"
+msgstr ""
+
+#: $string['modulename_help']
+msgid "Klassenbuch is a simple multipage study material."
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Klassenbuchs"
+msgstr ""
+
+#: $string['navexit']
+msgid "Exit book"
+msgstr ""
+
+#: $string['navnext']
+msgid "Next"
+msgstr ""
+
+#: $string['navprev']
+msgid "Previous"
+msgstr ""
+
+#: $string['newfieldtitle']
+msgid "New Field Title"
+msgstr ""
+
+#: $string['nosubscribers']
+msgid "No one has subscribed to this book."
+msgstr ""
+
+#: $string['nownotsubscribed']
+msgid "{$a->name} will NOT receive copies of this book '{$a->book}' by email."
+msgstr ""
+
+#: $string['nowsubscribed']
+msgid "{$a->name} will receive copies of this book '{$a->book}' by email."
+msgstr ""
+
+#: $string['numbering']
+msgid "Chapter numbering"
+msgstr ""
+
+#: $string['numbering0']
+msgid "None"
+msgstr ""
+
+#: $string['numbering1']
+msgid "Numbers"
+msgstr ""
+
+#: $string['numbering2']
+msgid "Bullets"
+msgstr ""
+
+#: $string['numbering3']
+msgid "Indented"
+msgstr ""
+
+#: $string['numbering_help']
+msgid ""
+"* None - chapter and subchapter titles are not formatted at all, use if you "
+"want to define special numbering styles. For example letters: in chapter "
+"title type \"A First Chapter\", \"A.1 Some Subchapter\",...\n"
+"* Numbers - chapters and subchapters are numbered (1, 1.1, 1.2, 2, ...)\n"
+"* Bullets - subchapters are indented and displayed with bullets\n"
+"* Indented - subchapters are indented"
+msgstr ""
+
+#: $string['numberingoptions']
+msgid "Available numbering options"
+msgstr ""
+
+#: $string['numberingoptions_help']
+msgid ""
+"Select numbering options that should be available when creating new books."
+msgstr ""
+
+#: $string['page-mod-klassenbuch-x']
+msgid "Any klassenbuch module page"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Klassenbuch administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Klassenbuch"
+msgstr ""
+
+#: $string['potentialsubscribers']
+msgid "Potential subscribers"
+msgstr ""
+
+#: $string['removesubscriber']
+msgid "Remove"
+msgstr ""
+
+#: $string['reply']
+msgid "Read whole book"
+msgstr ""
+
+#: $string['replytouser']
+msgid "Emails from user"
+msgstr ""
+
+#: $string['send']
+msgid "Send"
+msgstr ""
+
+#: $string['showall']
+msgid "Show all users"
+msgstr ""
+
+#: $string['showclassplan']
+msgid "Show class plan in menu"
+msgstr ""
+
+#: $string['showsubscribers']
+msgid "Show subscribers"
+msgstr ""
+
+#: $string['subchapter']
+msgid "Subchapter"
+msgstr ""
+
+#: $string['subscribe']
+msgid "I want to subscribe to this book"
+msgstr ""
+
+#: $string['subscribers']
+msgid "Subscribers"
+msgstr ""
+
+#: $string['subscribersto']
+msgid "Subscribers for '{$a}\\"
+msgstr ""
+
+#: $string['toc']
+msgid "Table of contents"
+msgstr ""
+
+#: $string['top']
+msgid "top"
+msgstr ""
+
+#: $string['unsubscribe']
+msgid "I want to unsubscribe from this book"
+msgstr ""
+
+#: $string['viewclassplan']
+msgid "View Class Plan"
+msgstr ""
+
+#: $string['withselectedfields']
+msgid "With Selected Fields"
+msgstr ""

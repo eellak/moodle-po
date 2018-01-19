@@ -1,0 +1,212 @@
+#. extracted from lang/en/qtype_easyoselectjs.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qtype_easyoselectjs', language 'en', branch 'MOODLE_30_STABLE'
+#.  *
+#.  * @package   qtype_easyoselectjs
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addmoreanswerblanks']
+msgid "Blanks for {no} More Answers"
+msgstr ""
+
+#: $string['answer']
+msgid "Answer: {$a}"
+msgstr ""
+
+#: $string['answermustbegiven']
+msgid "You must enter an answer if there is a grade or feedback."
+msgstr ""
+
+#: $string['answerno']
+msgid "Answer {$a}"
+msgstr ""
+
+#: $string['author']
+msgid ""
+"Question type courtesy of<br />Carl LeBlond,<br />Indiana University of "
+"Pennsylvania"
+msgstr ""
+
+#: $string['configeasyoselectjsoptions']
+msgid ""
+"The path of your MarvinJS installation relative to your web root.  (e.g. If "
+"your moodle is installed at /var/www/html/moodle and you install your "
+"MarvinJS at /var/www/html/marvinjs then you should use the default "
+"/marvinjs)"
+msgstr ""
+
+#: $string['correct_answer']
+msgid "Correct Answer"
+msgstr ""
+
+#: $string['correctansweris']
+msgid "The correct answer is: {$a}."
+msgstr ""
+
+#: $string['correctanswers']
+msgid "Instructions"
+msgstr ""
+
+#: $string['easyoselectjseditor']
+msgid "MarvinJS Editor"
+msgstr ""
+
+#: $string['easyoselectjs_options']
+msgid "Path to MarvinJS installation"
+msgstr ""
+
+#: $string['enablejava']
+msgid ""
+"Tried but failed to load MarvinJS editor. You have not got a JAVA runtime "
+"environment working in your browser. You will need one to attempt this "
+"question."
+msgstr ""
+
+#: $string['enablejavaandjavascript']
+msgid ""
+"Loading Marvinsketch editor.... If this message does not get replaced by the "
+"MarvinJS editor then you have not got javascript and a JAVA runtime "
+"environment working in your browser."
+msgstr ""
+
+#: $string['filloutanswers']
+msgid ""
+"<b><ul>\n"
+"<li>Fill out the question text above asking the student to select "
+"something</li>\n"
+"<li>Draw a structure in the MarvinJS editor below.</li>\n"
+"<li>Select the molecules, atoms or objects you want the student to "
+"select.</li>\n"
+"<li>Press the \"Insert from editor\" button to insert the code into the answer "
+"box.</li>\n"
+"<li>Give the answer a grade.</li>\n"
+"<li>You can give wrong answers and feedback in the additional fields.</li>\n"
+"</ul></b>"
+msgstr ""
+
+#: $string['filloutoneanswer']
+msgid ""
+"<b><ul>\n"
+"<li>Fill out the question text above asking the student to select "
+"something</li>\n"
+"<li>Draw a structure in the Marvin Applet below.</li>\n"
+"<li>Select the molecules, atoms or objects you want the student to "
+"select.</li>\n"
+"<li>Press the \"Insert from editor\" button to insert the code into the answer "
+"box.</li>\n"
+"<li>Give the answer a grade.</li>\n"
+"<li>You can give wrong answers and feedback in the additional fields.</li>\n"
+"</ul></b>"
+msgstr ""
+
+#: $string['insert']
+msgctxt "$string['insert']"
+msgid "Insert from editor"
+msgstr ""
+
+#: $string['insertfromeditor']
+msgctxt "$string['insertfromeditor']"
+msgid "Insert from editor"
+msgstr ""
+
+#: $string['instructions']
+msgid ""
+"The ChemAxon (\"mrv\") representation of your model must be stored in the "
+"following field in order to be graded:"
+msgstr ""
+
+#: $string['javaneeded']
+msgid ""
+"To use this page you need a Java-enabled browser. Download the latest Java "
+"plug-in from {$a}."
+msgstr ""
+
+#: $string['my_response']
+msgid "My Response"
+msgstr ""
+
+#: $string['notenoughanswers']
+msgid "This type of question requires at least {$a} answers"
+msgstr ""
+
+#: $string['pleaseenterananswer']
+msgid "Please enter an answer."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Chemistry - Select Atoms or Molecules (MarvinJS)"
+msgstr ""
+
+#: $string['pluginnameadding']
+msgid "Adding an Select Atoms or Molecules question"
+msgstr ""
+
+#: $string['pluginnameediting']
+msgid "Editing a Select Atoms or Molecules question"
+msgstr ""
+
+#: $string['pluginname_help']
+msgctxt "$string['pluginname_help']"
+msgid ""
+"Students must select predefined atoms, molecules or functional groups.  You "
+"can ask questions such as; <ul><li>Select all the tertiary carbons "
+"below.</li><li>Select all chiral carbons in the following "
+"tsructure?</li><li>Select the longest chain of carbon atoms?</li></ul>"
+msgstr ""
+
+#: $string['pluginname_link']
+msgid "question/type/easyoselect"
+msgstr ""
+
+#: $string['pluginnamesummary']
+msgctxt "$string['pluginnamesummary']"
+msgid ""
+"Students must select predefined atoms, molecules or functional groups.  You "
+"can ask questions such as; <ul><li>Select all the tertiary carbons "
+"below.</li><li>Select all chiral carbons in the following "
+"tsructure?</li><li>Select the longest chain of carbon atoms?</li></ul>"
+msgstr ""
+
+#: $string['view']
+msgid "View in editor"
+msgstr ""
+
+#: $string['viewing_answer']
+msgid "Currently viewing answer"
+msgstr ""
+
+#: $string['viewing_answer1']
+msgid "Currently viewing answer 1"
+msgstr ""
+
+#: $string['youranswer']
+msgid "Your answer: {$a}"
+msgstr ""

@@ -1,0 +1,157 @@
+#. extracted from lang/en/customlabeltype_courseclassifier.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'customlabeltype_courseclassifier', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   customlabeltype_courseclassifier
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['classifierrow']
+msgid ""
+"<tr valign=\"top\">\n"
+"        <td class=\"custombox-param courseclassifier\" width=\"30%\">\n"
+"            {$a->label}:\n"
+"        </td>\n"
+"        <td class=\"custombox-value courseclassifier\">\n"
+"            {$a->values}\n"
+"        </td>\n"
+"    </tr>"
+msgstr ""
+
+#: $string['configtypename']
+msgid "Enable subtype Course Classifier"
+msgstr ""
+
+#: $string['courseclassifier']
+msgctxt "$string['courseclassifier']"
+msgid "Course classifier"
+msgstr ""
+
+#: $string['courseclassifier:addinstance']
+msgid "Can add an instance"
+msgstr ""
+
+#: $string['courseclassifier:view']
+msgid "Can view the content"
+msgstr ""
+
+#: $string['family']
+msgid "special"
+msgstr ""
+
+#: $string['level0']
+msgid "Classification level 1"
+msgstr ""
+
+#: $string['level1']
+msgid "Classification level 2"
+msgstr ""
+
+#: $string['level2']
+msgid "Classification level 3"
+msgstr ""
+
+#: $string['people']
+msgid "People"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Course element : Course classifier"
+msgstr ""
+
+#: $string['showpeople']
+msgid "Show the public selector"
+msgstr ""
+
+#: $string['statut']
+msgid "Course state"
+msgstr ""
+
+#: $string['tablecaption']
+msgid "Table caption"
+msgstr ""
+
+#: $string['template']
+msgid ""
+"<table class=\"custombox-courseclassifier\">\n"
+"    <tr valign=\"top\">\n"
+"        <th class=\"custombox-title courseclassifier\" colspan=\"2\">\n"
+"            <%%tablecaption%%>\n"
+"        </th>\n"
+"    </tr>\n"
+"    <tr valign=\"top\">\n"
+"        <td class=\"custombox-param courseclassifier\" width=\"30%\">\n"
+"            Classifier Level 1:\n"
+"        </td>\n"
+"        <td class=\"custombox-value courseclassifier\">\n"
+"            <%%level0%%>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <%if %%uselevels >= 2%% %>\n"
+"    <tr valign=\"top\">\n"
+"        <td class=\"custombox-param courseclassifier\" width=\"30%\">\n"
+"            Classifier level 2:\n"
+"        </td>\n"
+"        <td class=\"custombox-value courseclassifier\">\n"
+"            <%%level1%%>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <%endif %>\n"
+"    <%if %%uselevels >= 3%% %>\n"
+"    <tr valign=\"top\">\n"
+"        <td class=\"custombox-param courseclassifier\" width=\"30%\">\n"
+"            Classifier level3:\n"
+"        </td>\n"
+"        <td class=\"custombox-value courseclassifier\">\n"
+"            <%%level2%%>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <%endif %>\n"
+"</table>\n"
+"<%if %%classifiers%% %>\n"
+"<table class=\"custombox-courseclassifier other\">\n"
+"    <tr valign=\"top\">\n"
+"        <th class=\"custombox-title courseclassifier\" colspan=\"2\">\n"
+"            Other classifying information\n"
+"        </th>\n"
+"    </tr>\n"
+"    <%%classifierrows%%>\n"
+"</table>\n"
+"<%endif %>"
+msgstr ""
+
+#: $string['typename']
+msgctxt "$string['typename']"
+msgid "Course classifier"
+msgstr ""
+
+#: $string['uselevels']
+msgid "Levels to use"
+msgstr ""

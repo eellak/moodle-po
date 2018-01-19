@@ -1,0 +1,1414 @@
+#. extracted from lang/en/vpl.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'vpl', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   vpl
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['about']
+msgid "About"
+msgstr ""
+
+#: $string['acceptcertificates']
+msgid "Accept self signed certificates"
+msgstr ""
+
+#: $string['acceptcertificates_description']
+msgid ""
+"If the execution servers are not using self signed certificates uncheck this "
+"option"
+msgstr ""
+
+#: $string['acceptcertificatesnote']
+msgid ""
+"<p>You are using an encrypted connection.<p/>\n"
+"<p>To use an encrypted connection with the execution servers it is required "
+"you accept its certificates.</p>\n"
+"<p>If you have problems with this process, you can try to use a http "
+"(unencrypted) connection or other browser.</p>\n"
+"<p>Please, click on the following links (server #) and accept the offered "
+"certificate.</p>"
+msgstr ""
+
+#: $string['addfile']
+msgid "Add file"
+msgstr ""
+
+#: $string['advanced']
+msgid "Advanced"
+msgstr ""
+
+#: $string['allfiles']
+msgid "All files"
+msgstr ""
+
+#: $string['allsubmissions']
+msgid "All submissions"
+msgstr ""
+
+#: $string['always_use_ws']
+msgid "Always use unencrypted (ws) websocket protocol"
+msgstr ""
+
+#: $string['always_use_wss']
+msgid "Always use encrypted (wss) websocket protocol"
+msgstr ""
+
+#: $string['anyfile']
+msgid "Any file"
+msgstr ""
+
+#: $string['attemptnumber']
+msgid "Attempt number {$a}"
+msgstr ""
+
+#: $string['autodetect']
+msgid "Autodetect"
+msgstr ""
+
+#: $string['automaticevaluation']
+msgid "Automatic evaluation"
+msgstr ""
+
+#: $string['automaticgrading']
+msgid "Automatic grade"
+msgstr ""
+
+#: $string['averageperiods']
+msgid "Average periods {$a}"
+msgstr ""
+
+#: $string['averagetime']
+msgid "Average time {$a}"
+msgstr ""
+
+#: $string['basedon']
+msgid "Based on"
+msgstr ""
+
+#: $string['basic']
+msgid "Basic"
+msgstr ""
+
+#: $string['binaryfile']
+msgid "Binary File"
+msgstr ""
+
+#: $string['browserupdate']
+msgid ""
+"Please update your browser to the last version<br />or use another that "
+"supports Websocket."
+msgstr ""
+
+#: $string['calculate']
+msgid "Calculate"
+msgstr ""
+
+#: $string['changesNotSaved']
+msgid "Changes have not been saved"
+msgstr ""
+
+#: $string['check_jail_servers']
+msgctxt "$string['check_jail_servers']"
+msgid "Check execution servers"
+msgstr ""
+
+#: $string['check_jail_servers_help']
+msgid ""
+"<p>This page check and show the status of execution servers used\n"
+"for this activity.</p>"
+msgstr ""
+
+#: $string['clipboard']
+msgid "Clipboard"
+msgstr ""
+
+#: $string['closed']
+msgid "Closed"
+msgstr ""
+
+#: $string['comments']
+msgid "Comments"
+msgstr ""
+
+#: $string['compilation']
+msgid "Compilation"
+msgstr ""
+
+#: $string['connected']
+msgid "connected"
+msgstr ""
+
+#: $string['connecting']
+msgid "connecting"
+msgstr ""
+
+#: $string['connection_closed']
+msgid "connection closed"
+msgstr ""
+
+#: $string['connection_fail']
+msgid "connection fail"
+msgstr ""
+
+#: $string['console']
+msgid "Console"
+msgstr ""
+
+#: $string['copy']
+msgid "Copy"
+msgstr ""
+
+#: $string['create_new_file']
+msgid "Create a new file"
+msgstr ""
+
+#: $string['currentstatus']
+msgid "Current status"
+msgstr ""
+
+#: $string['cut']
+msgid "Cut"
+msgstr ""
+
+#: $string['datesubmitted']
+msgid "Date submitted"
+msgstr ""
+
+#: $string['debug']
+msgid "Debug"
+msgstr ""
+
+#: $string['debugging']
+msgid "Debugging"
+msgstr ""
+
+#: $string['debugscript']
+msgid "Debug script"
+msgstr ""
+
+#: $string['debugscript_help']
+msgid "Select the debug script to use in this activity"
+msgstr ""
+
+#: $string['defaultexefilesize']
+msgid "Maximum default execution file size"
+msgstr ""
+
+#: $string['defaultexememory']
+msgid "Maximum default memory used"
+msgstr ""
+
+#: $string['defaultexeprocesses']
+msgid "Maximum default number of processes"
+msgstr ""
+
+#: $string['defaultexetime']
+msgid "Maximum default execution time"
+msgstr ""
+
+#: $string['defaultfilesize']
+msgid "Default maximum upload file size"
+msgstr ""
+
+#: $string['defaultresourcelimits']
+msgid "Default execution resources limits"
+msgstr ""
+
+#: $string['delete']
+msgid "Delete"
+msgstr ""
+
+#: $string['deleteallsubmissions']
+msgid "Delete all submissions"
+msgstr ""
+
+#: $string['delete_file_fq']
+msgid "delete '{\\$a}' file?"
+msgstr ""
+
+#: $string['delete_file_q']
+msgid "Delete file?"
+msgstr ""
+
+#: $string['depends_on_https']
+msgid "Use ws or wss depending on if using http or https"
+msgstr ""
+
+#: $string['description']
+msgid "Description"
+msgstr ""
+
+#: $string['diff']
+msgid "diff"
+msgstr ""
+
+#: $string['discard_submission_period']
+msgid "Discard submission period"
+msgstr ""
+
+#: $string['discard_submission_period_description']
+msgid ""
+"For each student and assignment, the system tries to discard submissions. "
+"The system keep the last one and at least a submission for every period"
+msgstr ""
+
+#: $string['download']
+msgid "Download"
+msgstr ""
+
+#: $string['downloadallsubmissions']
+msgid "Download all submissions"
+msgstr ""
+
+#: $string['downloadsubmissions']
+msgid "Download submissions"
+msgstr ""
+
+#: $string['duedate']
+msgid "Due date"
+msgstr ""
+
+#: $string['edit']
+msgid "Edit"
+msgstr ""
+
+#: $string['editing']
+msgid "Editing"
+msgstr ""
+
+#: $string['editortheme']
+msgid "Editor theme"
+msgstr ""
+
+#: $string['evaluate']
+msgid "Evaluate"
+msgstr ""
+
+#: $string['evaluateonsubmission']
+msgid "Evaluate just on submission"
+msgstr ""
+
+#: $string['evaluating']
+msgid "Evaluating"
+msgstr ""
+
+#: $string['evaluation']
+msgid "Evaluation"
+msgstr ""
+
+#: $string['examples']
+msgid "Examples"
+msgstr ""
+
+#: $string['execution']
+msgid "Execution"
+msgstr ""
+
+#: $string['executionfiles']
+msgctxt "$string['executionfiles']"
+msgid "Execution files"
+msgstr ""
+
+#: $string['executionfiles_help']
+msgid ""
+"<h2>Introduction</h2>\n"
+"<p>Here you set the files that are needed to prepare the execution,\n"
+"debug or assessment of a submission. This includes scripting files,\n"
+"program test files and data files.</p>\n"
+"<h2>Default script to run or debug</h2>\n"
+"<p>If you don't set script files for run or  debug submissions, the system\n"
+"will resolve the language you use (based on file name extensions) and use a\n"
+"predefined script.\n"
+"<h2>Automatic evaluation</h2>\n"
+"<p>The incorporates features to facilitate the evaluation of student's "
+"submissions.\n"
+"This feature allows to run the student program and check its output for a "
+"given input.\n"
+"To set up the evaluation cases you must populate the file "
+"&quot;vpl_evaluate.cases&quot;.\n"
+"<p>The file \"vpl_evaluate.cases\" has the following format:\n"
+"<ul>\n"
+"<li> \"<strong>case </strong>= Description of case\": Optional. Set an start "
+"of test case definition.</li>\n"
+"<li> \"<strong>input </strong>= text\": can use several lines. Ends with other "
+"instruction.</li>\n"
+"<li> \"<strong>output </strong>= text\": can use several lines. Ends with "
+"other instruction. A case can have differents correct output. There are "
+"three types of output: numbers, text and exact test:\n"
+"<ul>\n"
+"<li> <strong>number</strong>: defined as sequence of numbers (integers and "
+"floats). Only numbers in the output are checked, other text are ignored. "
+"Floats are checked with tolerance</li>\n"
+"<li> <strong>text</strong>: defined as text without double quote. Only words "
+"are checked and the rest of chars are ignored, the comparation is case-"
+"insensitive </li>\n"
+"<li> <strong>exact text</strong>: defined as text into double quote. The "
+"exact match is used to test the output.</li>\n"
+"</ul>\n"
+"</li>\n"
+"<li> \"<strong>grade reduction</strong> = [value|percentage%]\" : By default "
+"an error reduces student's grade\n"
+"(starts with maxgrade) by (grade_range/number of cases) but with this "
+"instruction you can change\n"
+"the reduction value or percentage.</li>\n"
+"</ul>\n"
+"</p>\n"
+"<h2>General use</h2>\n"
+"<p>A new file can be added by writing its name in the box  &quot;<b>Add "
+"file</b>&quot;\n"
+"and then clicking on the button &quot;<b>Add file</b>&quot;.</p>\n"
+"<p>An existing file can be uploaded by means of the  &quot;<b>Upload "
+"file</b>&quot;.<p>All the added  or uploaded files can\n"
+"be edited, and all of them, except the three scripting files mentioned\n"
+"below, can be renamed or deleted.</p>\n"
+"<h2>Manual run, execute or evaluation</h2>\n"
+"<p>Three scripting files to prepare each of the actions may be set.\n"
+"These files have predefined names: <b>vpl_run.sh</b> (execution),\n"
+"<b>vpl_debug.sh</b>  (debug) and <b>vpl_evaluate.sh</b> (assessment).</p>\n"
+"<p>The execution of any of those scripting files should generate a\n"
+"file named <b>vpl_execution</b>.\n"
+"This file must be a binary executable or a script beginning with "
+"&quot;#!/bin/sh &quot;.\n"
+"The non-generation of this file impedes to run the selected action.</p>\n"
+"<p>If the activity that you are configuring is \"based on\" other activity,\n"
+"the files of the base activity are added automatically.\n"
+"The contents of the vpl_run.sh, vpl_debug.sh and vpl_evaluate.sh files\n"
+"are concatenated from the deepest level of \"based on\" to the current.</P>\n"
+"<p>Finally, the file <b>vpl_environment.sh</b> is automatically added.\n"
+"This scripting file contain information about the submission.\n"
+"The information come as environment variables: </p>\n"
+"<ul> <li> LANG:  used language. </li>\n"
+"<li> LC_ALL: same value as LANG. </li>\n"
+"<li> VPL_MAXTIME: maximum execution time in seconds. </li>\n"
+"<li> VPL_FILEBASEURL: URL to access the files of the course. </li>\n"
+"<li> VPL_SUBFILE#:  each name of the files submitted by the student. # "
+"Ranges from 0 to number of submitted files. </Li>\n"
+"<li> VPL_SUBFILES: list of all submitted files. </li>\n"
+"<li> VPL_VARIATION + id: where id is the variation order starting with 0 and "
+"the value is the value of the variation. </li>\n"
+"</ul>\n"
+"If the action requested is evaluation, then the following vars are added "
+"too.\n"
+"<ul>\n"
+"\t<li>VPL_MAXTIME: max time of execution in seconds.</li>\n"
+"\t<li>VPL_MAXMEMORY: max memmory usable</li>\n"
+"\t<li>VPL_MAXFILESIZE: max file size in byte that can be create.</li>\n"
+"\t<li>VPL_MAXPROCESSES: max number of procceses that can be run "
+"simultaneous.</li>\n"
+"\t<Li>VPL_FILEBASEURL: URL to the course files.</Li>\n"
+"\t<li>VPL_GRADEMIN: Min grade for this activity</li>\n"
+"\t<li>VPL_GRADEMAX: Max grade for this activity</li>\n"
+"</ul>\n"
+"<h2>Assessment result</h2>\n"
+"<p>Evaluation output is processed to extract, if possible, comments and a "
+"proposed grade for the assessment.\n"
+"Comments can be set in two ways: with a line comment defined by a line "
+"beginning with 'Comment :=&gt;&gt;' or\n"
+"with block comments starting with a line containing only '&lt;|--' and "
+"ending with a line containing only '--|&gt;'.\n"
+"The grade is taken from the last line that begins with 'Grade :=&gt;&gt;'.\n"
+"</p>"
+msgstr ""
+
+#: $string['executionoptions']
+msgid "Execution options"
+msgstr ""
+
+#: $string['executionoptions_help']
+msgid ""
+"<p>Various execution options are set in this page</p>\n"
+"<ul>\n"
+"<li><b>Based on</b>: sets other VPL instance from which some features are "
+"imported:\n"
+"<ul><li>Execution files (concatenating the predefined scripting files)</li>\n"
+"<li>Limits for the execution resources.</li>\n"
+"<li>Variations, that are concatenating to generate multivariations.</li>\n"
+"<li>Maximun length for each file to be uploaded with the submission</li>\n"
+"</ul>\n"
+"</li>\n"
+"<li><b>Run</b>, <b>Debug</b> and <b>Evalaute</b>: must be set to 'Yes' if "
+"the corresponding action can be executed when editing the submission. This "
+"affects to the students only, users with  capability of grading can always "
+"execute these actions.</li>\n"
+"<li><b>Evaluate just on submission</b>: the submission is evaluated "
+"automatically when it is uploaded.</li>\n"
+"<li><b>Automatic grading</b>: if the evaluation result includes grading "
+"codes, they are used to set the grade automatically.</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['file']
+msgid "File"
+msgstr ""
+
+#: $string['fileadded']
+msgid "The '{\\$a}' file has been added"
+msgstr ""
+
+#: $string['filedeleted']
+msgid "The '{\\$a}' file has been deleted"
+msgstr ""
+
+#: $string['filelist']
+msgid "File list"
+msgstr ""
+
+#: $string['file_name']
+msgid "File name"
+msgstr ""
+
+#: $string['filenotadded']
+msgid "File has not been added"
+msgstr ""
+
+#: $string['fileNotChanged']
+msgid "File has not changed"
+msgstr ""
+
+#: $string['filenotdeleted']
+msgid "The '{$a}' file has NOT been deleted"
+msgstr ""
+
+#: $string['filenotrenamed']
+msgid "The '{$a}' file has NOT been renamed"
+msgstr ""
+
+#: $string['filerenamed']
+msgid "The '{\\$a->from}' file has been renamed to '{\\$a->to}'"
+msgstr ""
+
+#: $string['filesChangedNotSaved']
+msgid "Files have changed but they have not been saved"
+msgstr ""
+
+#: $string['filesNotChanged']
+msgid "Files have not changed"
+msgstr ""
+
+#: $string['filestoscan']
+msgid "Files to scan"
+msgstr ""
+
+#: $string['fileupdated']
+msgid "The '{\\$a}' file has been updated"
+msgstr ""
+
+#: $string['finalreduction']
+msgid "Final reduction"
+msgstr ""
+
+#: $string['finalreduction_help']
+msgid ""
+"<b>FR [NE/FE R]</b><br>\n"
+"<b>FR</b> Final grade reduction.<br>\n"
+"<b>NE</b> Automatic evaluations requested by the student.<br>\n"
+"<b>FE</b> Free evaluations allowed.<br>\n"
+"<b>R</b> Grade reduction by evaluation. If it is a percent, it is apply over "
+"previous result.<br>"
+msgstr ""
+
+#: $string['find']
+msgid "Find"
+msgstr ""
+
+#: $string['find_replace']
+msgid "Find/Replace"
+msgstr ""
+
+#: $string['freeevaluations']
+msgid "Free evaluations"
+msgstr ""
+
+#: $string['freeevaluations_help']
+msgid "Number of automatic evaluations that do not reduce final score"
+msgstr ""
+
+#: $string['fulldescription']
+msgid "Full description"
+msgstr ""
+
+#: $string['fulldescription_help']
+msgid ""
+"<p>You must write here a full description for the activity.</p>\n"
+"<p>If you don't write anything here, the short description is shown "
+"instead.</p>\n"
+"<p>If you want to evaluate automatically, the interfaces for the assignments "
+"must be detailed and non-ambiguous.</p>"
+msgstr ""
+
+#: $string['fullscreen']
+msgid "Fullscreen"
+msgstr ""
+
+#: $string['getjails']
+msgid "Get execution servers"
+msgstr ""
+
+#: $string['gradeandnext']
+msgid "Grade & next"
+msgstr ""
+
+#: $string['graded']
+msgid "Graded"
+msgstr ""
+
+#: $string['gradedbyuser']
+msgid "Graded by user"
+msgstr ""
+
+#: $string['gradedon']
+msgid "Evaluated on"
+msgstr ""
+
+#: $string['gradedonby']
+msgid "Reviewed on {$a->date} by {$a->gradername}"
+msgstr ""
+
+#: $string['gradenotremoved']
+msgid "The grade has NOT been removed. Check activity config in the gradebook."
+msgstr ""
+
+#: $string['gradenotsaved']
+msgid "The grade has NOT been saved. Check activity config in the gradebook."
+msgstr ""
+
+#: $string['gradeoptions']
+msgid "Grade options"
+msgstr ""
+
+#: $string['grader']
+msgid "Evaluator"
+msgstr ""
+
+#: $string['gradercomments']
+msgid "Assessment report"
+msgstr ""
+
+#: $string['graderemoved']
+msgid "The grade has been removed"
+msgstr ""
+
+#: $string['groupwork']
+msgid "Group work"
+msgstr ""
+
+#: $string['inconsistentgroup']
+msgid "You are not member of only one group (0 o >1)"
+msgstr ""
+
+#: $string['incorrect_file_name']
+msgid "Incorrect file name"
+msgstr ""
+
+#: $string['individualwork']
+msgid "Individual work"
+msgstr ""
+
+#: $string['instanceselection']
+msgid "VPL selection"
+msgstr ""
+
+#: $string['isexample']
+msgid "This activity acts as example"
+msgstr ""
+
+#: $string['jail_servers']
+msgid "Execution servers list"
+msgstr ""
+
+#: $string['jail_servers_config']
+msgid "Execution servers config"
+msgstr ""
+
+#: $string['jail_servers_description']
+msgid "Write a line for each server"
+msgstr ""
+
+#: $string['joinedfiles']
+msgid "Joined selected files"
+msgstr ""
+
+#: $string['keepfiles']
+msgid "Files to keep when running"
+msgstr ""
+
+#: $string['keepfiles_help']
+msgid ""
+"<p>Due to security issues, the files added as &quot;Execution files&quot; "
+"are deleted before running the file vpl_execution.</p>\n"
+"If any of those files is needed during the execution (by example, to be used "
+"as test data), it must be marked here."
+msgstr ""
+
+#: $string['keyboard']
+msgid "Keyboard"
+msgstr ""
+
+#: $string['lasterror']
+msgid "Last error info"
+msgstr ""
+
+#: $string['lasterrordate']
+msgid "Last error date"
+msgstr ""
+
+#: $string['listofcomments']
+msgid "List of comments"
+msgstr ""
+
+#: $string['listsimilarity']
+msgid "List of similarities found"
+msgstr ""
+
+#: $string['listwatermarks']
+msgid "Water marks list"
+msgstr ""
+
+#: $string['load']
+msgid "Load"
+msgstr ""
+
+#: $string['loading']
+msgid "Loading"
+msgstr ""
+
+#: $string['local_jail_servers']
+msgctxt "$string['local_jail_servers']"
+msgid "Local execution servers"
+msgstr ""
+
+#: $string['local_jail_servers_help']
+msgid ""
+"<p>Here you can set the local execution servers added for this activity and "
+"those\n"
+"that are based on it.</p>\n"
+"<p>Enter the full URL of a server on each line. You can use blank lines\n"
+"and comments starting the line with \"#\".</p>\n"
+"<p>This activity will use as execution server list: the servers sets here\n"
+"plus the server list set in the \"based on\" activity\n"
+"plus the list of common execution servers.\n"
+"If you want to prevent this activity and derived ones\n"
+"from using other servers, then you have to add a line\n"
+"containing \"end_of_jails\" at the end of the server list.\n"
+"</p>"
+msgstr ""
+
+#: $string['manualgrading']
+msgid "Manual grading"
+msgstr ""
+
+#: $string['maxexefilesize']
+msgid "Maximum execution file size"
+msgstr ""
+
+#: $string['maxexememory']
+msgid "Maximum memory used"
+msgstr ""
+
+#: $string['maxexeprocesses']
+msgid "Maximum number of processes"
+msgstr ""
+
+#: $string['maxexetime']
+msgid "Maximum execution time"
+msgstr ""
+
+#: $string['maxfiles']
+msgid "Maximum number of files"
+msgstr ""
+
+#: $string['maxfilesexceeded']
+msgid "Maximum number of files exceeded"
+msgstr ""
+
+#: $string['maxfilesize']
+msgid "Maximum upload file size"
+msgstr ""
+
+#: $string['maxfilesizeexceeded']
+msgid "Maximum file size exceeded"
+msgstr ""
+
+#: $string['maximumperiod']
+msgid "Maximum period {$a}"
+msgstr ""
+
+#: $string['maxresourcelimits']
+msgid "Maximum execution resources limits"
+msgstr ""
+
+#: $string['maxsimilarityoutput']
+msgid "Maximum output by similarity"
+msgstr ""
+
+#: $string['menucheck_jail_servers']
+msgctxt "$string['menucheck_jail_servers']"
+msgid "Check execution servers"
+msgstr ""
+
+#: $string['menuexecutionfiles']
+msgctxt "$string['menuexecutionfiles']"
+msgid "Execution files"
+msgstr ""
+
+#: $string['menuexecutionoptions']
+msgctxt "$string['menuexecutionoptions']"
+msgid "Options"
+msgstr ""
+
+#: $string['menukeepfiles']
+msgid "Files to keep"
+msgstr ""
+
+#: $string['menulocal_jail_servers']
+msgctxt "$string['menulocal_jail_servers']"
+msgid "Local execution servers"
+msgstr ""
+
+#: $string['menuresourcelimits']
+msgctxt "$string['menuresourcelimits']"
+msgid "Resources limits"
+msgstr ""
+
+#: $string['minsimlevel']
+msgid "Minimum similarity level to show"
+msgstr ""
+
+#: $string['moduleconfigtitle']
+msgid "VPL Module Config"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Virtual programming lab"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"<p>VPL is a activity module for Moodle that manage programming assignments "
+"and whose salient features are:\n"
+"</p>\n"
+"<ul>\n"
+"<li>Enable to edit the programs source code in the browser</li>\n"
+"<li>Students can run interactively programs in the browser</li>\n"
+"<li>You can run tests to review the programs.</li>\n"
+"<li>Allows searching for similarity between files.</li>\n"
+"<li>Allows setting editing restrictions and avoiding external text "
+"pasting.</li>\n"
+"</ul>\n"
+"<p><a href=\"http://vpl.dis.ulpgc.es\">Virtual Programming lab Home "
+"Page</a></p>"
+msgstr ""
+
+#: $string['modulename_link']
+msgid "mod/vpl/view"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Virtual programming labs"
+msgstr ""
+
+#: $string['multidelete']
+msgid "Multiple delete"
+msgstr ""
+
+#: $string['nevaluations']
+msgid "{$a} automatic evaluations done"
+msgstr ""
+
+#: $string['new']
+msgid "New"
+msgstr ""
+
+#: $string['new_file_name']
+msgid "New file name"
+msgstr ""
+
+#: $string['next']
+msgid "Next"
+msgstr ""
+
+#: $string['nojailavailable']
+msgid "No execution server available"
+msgstr ""
+
+#: $string['noright']
+msgid "You don't have right to access"
+msgstr ""
+
+#: $string['nosubmission']
+msgid "No submission available"
+msgstr ""
+
+#: $string['notexecuted']
+msgid "Not executed"
+msgstr ""
+
+#: $string['notgraded']
+msgid "Not graded"
+msgstr ""
+
+#: $string['notsaved']
+msgid "Not saved"
+msgstr ""
+
+#: $string['novpls']
+msgid "No virtual programming lab defined"
+msgstr ""
+
+#: $string['nowatermark']
+msgid "Own water marks {$a}"
+msgstr ""
+
+#: $string['nsubmissions']
+msgid "{$a} submissions"
+msgstr ""
+
+#: $string['numcluster']
+msgid "Cluster {$a}"
+msgstr ""
+
+#: $string['open']
+msgid "Open"
+msgstr ""
+
+#: $string['opnotallowfromclient']
+msgid "Action not allowed from this machine"
+msgstr ""
+
+#: $string['options']
+msgctxt "$string['options']"
+msgid "Options"
+msgstr ""
+
+#: $string['optionsnotsaved']
+msgid "Options have not been saved"
+msgstr ""
+
+#: $string['optionssaved']
+msgid "Options have been saved"
+msgstr ""
+
+#: $string['origin']
+msgid "Origin"
+msgstr ""
+
+#: $string['othersources']
+msgid "Other sources to add to the scan"
+msgstr ""
+
+#: $string['outofmemory']
+msgid "Out of memory"
+msgstr ""
+
+#: $string['paste']
+msgid "Paste"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "VPL administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Virtual programming lab"
+msgstr ""
+
+#: $string['previoussubmissionslist']
+msgid "Previous submissions list"
+msgstr ""
+
+#: $string['print']
+msgid "Print"
+msgstr ""
+
+#: $string['proposedgrade']
+msgid "Proposed grade: {$a}"
+msgstr ""
+
+#: $string['proxy']
+msgid "proxy"
+msgstr ""
+
+#: $string['proxy_description']
+msgid "Proxy from Moodle to execution servers"
+msgstr ""
+
+#: $string['redo']
+msgid "Redo"
+msgstr ""
+
+#: $string['reductionbyevaluation']
+msgid "Reduction by automatic evaluation"
+msgstr ""
+
+#: $string['reductionbyevaluation_help']
+msgid ""
+"Reduce final score by a value or percentage for each automatic evaluation "
+"requested by the student"
+msgstr ""
+
+#: $string['regularscreen']
+msgid "Regular screen"
+msgstr ""
+
+#: $string['removegrade']
+msgid "Remove grade"
+msgstr ""
+
+#: $string['rename']
+msgid "Rename"
+msgstr ""
+
+#: $string['rename_file']
+msgid "Rename file"
+msgstr ""
+
+#: $string['replace_find']
+msgid "Replace/Find"
+msgstr ""
+
+#: $string['requestedfiles']
+msgid "Requested files"
+msgstr ""
+
+#: $string['requestedfiles_help']
+msgid ""
+"<p>Here you set names and its initial content up for the requested files to "
+"the max number of files that was set in the basic description of the "
+"activity.</p>\n"
+"<p>If you don't set names for whole number of files, the unnamed files are "
+"optional and can have any name.</p>\n"
+"<p>You also can add contents to the requested files, so these contents will "
+"be available the first time that they will be opened with the editor, if no "
+"previous submission exists.</p>"
+msgstr ""
+
+#: $string['requirednet']
+msgid "Allowed submission from net"
+msgstr ""
+
+#: $string['requiredpassword']
+msgid "A password is required"
+msgstr ""
+
+#: $string['resetfiles']
+msgid "Reset files"
+msgstr ""
+
+#: $string['resetvpl']
+msgid "Reset {$a}"
+msgstr ""
+
+#: $string['resourcelimits']
+msgctxt "$string['resourcelimits']"
+msgid "Resources limits"
+msgstr ""
+
+#: $string['resourcelimits_help']
+msgid ""
+"<p>You can set limits for the execution time, the memory used, the execution "
+"files sizes and the number of processes to be executed simultaneously.</p>\n"
+"<p>These limits are used when running the scripting files vpl_run.sh, "
+"vpl_debug.sh and vpl_evaluate.sh and the file vpl_execution built by "
+"them.</p>\n"
+"<p>If this activity is based on other activity, the limits can be affected "
+"by those set in the base activity and its ancestors or in the global "
+"configuration of the module.</p>"
+msgstr ""
+
+#: $string['restrictededitor']
+msgid "Dissable external file upload, paste and drop external content"
+msgstr ""
+
+#: $string['retrieve']
+msgid "Retrieve results"
+msgstr ""
+
+#: $string['run']
+msgid "Run"
+msgstr ""
+
+#: $string['running']
+msgid "Running"
+msgstr ""
+
+#: $string['runscript']
+msgid "Run script"
+msgstr ""
+
+#: $string['runscript_help']
+msgid "Select the run script to use in this activity"
+msgstr ""
+
+#: $string['save']
+msgid "Save"
+msgstr ""
+
+#: $string['savecontinue']
+msgid "Save and continue"
+msgstr ""
+
+#: $string['saved']
+msgid "Saved"
+msgstr ""
+
+#: $string['savedfile']
+msgid "The '{\\$a}' file has been saved"
+msgstr ""
+
+#: $string['saveoptions']
+msgid "save options"
+msgstr ""
+
+#: $string['saving']
+msgid "Saving"
+msgstr ""
+
+#: $string['scanactivity']
+msgid "Activity"
+msgstr ""
+
+#: $string['scandirectory']
+msgid "Directory"
+msgstr ""
+
+#: $string['scanningdir']
+msgid "Scanning directory ..."
+msgstr ""
+
+#: $string['scanoptions']
+msgid "Scan options"
+msgstr ""
+
+#: $string['scanother']
+msgid "Scan similarities in added sources"
+msgstr ""
+
+#: $string['scanzipfile']
+msgid "Zip file"
+msgstr ""
+
+#: $string['sebkeys']
+msgid "SEB exam Key/s"
+msgstr ""
+
+#: $string['sebkeys_help']
+msgid ""
+"SEB exam key(s) (max 3) obtained from .seb file<br>It is more reliable than "
+"only browser check.<br>https://safeexambrowser.org"
+msgstr ""
+
+#: $string['sebrequired']
+msgid "SEB browser required"
+msgstr ""
+
+#: $string['sebrequired_help']
+msgid "Using SEB browser properly configured is required"
+msgstr ""
+
+#: $string['select_all']
+msgid "Select all"
+msgstr ""
+
+#: $string['server']
+msgid "Server"
+msgstr ""
+
+#: $string['serverexecutionerror']
+msgid "Server execution error"
+msgstr ""
+
+#: $string['shortcuts']
+msgid "Keyboard shortcuts"
+msgstr ""
+
+#: $string['shortdescription']
+msgid "Short description"
+msgstr ""
+
+#: $string['similarity']
+msgid "Similarity"
+msgstr ""
+
+#: $string['similarto']
+msgid "Similar to"
+msgstr ""
+
+#: $string['startdate']
+msgid "Avaliable from"
+msgstr ""
+
+#: $string['submission']
+msgid "Submission"
+msgstr ""
+
+#: $string['submissionperiod']
+msgid "Submission period"
+msgstr ""
+
+#: $string['submissionrestrictions']
+msgid "Submission restrictions"
+msgstr ""
+
+#: $string['submissions']
+msgid "Submissions"
+msgstr ""
+
+#: $string['submissionselection']
+msgid "Submission selection"
+msgstr ""
+
+#: $string['submissionslist']
+msgid "Submissions list"
+msgstr ""
+
+#: $string['submissionview']
+msgid "Submission view"
+msgstr ""
+
+#: $string['submittedby']
+msgid "Submitted by {$a}"
+msgstr ""
+
+#: $string['submittedon']
+msgid "Submitted on"
+msgstr ""
+
+#: $string['submittedonp']
+msgid "Submitted on {$a}"
+msgstr ""
+
+#: $string['sureresetfiles']
+msgid ""
+"Do you want to lost all your work and reset the files to its original state?"
+msgstr ""
+
+#: $string['test']
+msgid "Test activity"
+msgstr ""
+
+#: $string['testcases']
+msgid "Test cases"
+msgstr ""
+
+#: $string['testcases_help']
+msgid ""
+"This feature allows to run the student program and check its output for a "
+"given input. To set up the evaluation cases you must populate the file "
+"&quot;vpl_evaluate.cases&quot;.<br>\n"
+"The file \"vpl_evaluate.cases\" has the following format:<br>\n"
+"<ul>\n"
+"<li> \"<b>case </b>= Description of case\": Set an start of test case "
+"definition.</li>\n"
+"<li> \"<b>input </b>= text\": can use several lines. Ends with other "
+"instruction.</li>\n"
+"<li> \"<b>output </b>= text\": can use several lines. Ends with other "
+"instruction. A case can have differents correct output. There are three "
+"types of output: numbers, text and exact test:\n"
+"<ul>\n"
+"<li> <b>number</b>: defined as sequence of numbers (integers and floats). "
+"Only numbers in the output are checked, other text are ignored. Floats are "
+"checked with tolerance</li>\n"
+"<li> <b>text</b>: defined as text without double quote. Only words are "
+"checked and the rest of chars are ignored, the comparation is case-"
+"insensitive </li>\n"
+"<li> <b>exact text</b>: defined as text into double quote. The exact match "
+"is used to test the output.</li>\n"
+"</ul>\n"
+"</li>\n"
+"<li> \"<b>grade reduction</b> = [value|percentage%]\" : By default an error "
+"reduces student's grade (starts with maxgrade) by (grade_range/number of "
+"cases) but with this instruction\n"
+"you can change the reduction value or percentage.</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['timeleft']
+msgid "Time left"
+msgstr ""
+
+#: $string['timelimited']
+msgid "Time limited"
+msgstr ""
+
+#: $string['timeout']
+msgid "Timeout"
+msgstr ""
+
+#: $string['timeunlimited']
+msgid "Time unlimited"
+msgstr ""
+
+#: $string['totalnumberoferrors']
+msgid "Errors"
+msgstr ""
+
+#: $string['undo']
+msgid "Undo"
+msgstr ""
+
+#: $string['unexpected_file_name']
+msgid ""
+"Incorrect file name: expected '{\\$a->expected}' and found '{\\$a->found}'"
+msgstr ""
+
+#: $string['unzipping']
+msgid "Unzipping ..."
+msgstr ""
+
+#: $string['uploadfile']
+msgid "Upload file"
+msgstr ""
+
+#: $string['usevariations']
+msgid "Use variations"
+msgstr ""
+
+#: $string['usewatermarks']
+msgid "Use watermarks"
+msgstr ""
+
+#: $string['usewatermarks_description']
+msgid "Adds watermarks to student's files (only to supported languages)"
+msgstr ""
+
+#: $string['variation']
+msgid "Variation {$a}"
+msgstr ""
+
+#: $string['variation_options']
+msgid "Variation options"
+msgstr ""
+
+#: $string['variations']
+msgid "Variations"
+msgstr ""
+
+#: $string['variations_help']
+msgid ""
+"<p>A set of variations can be defined for an activity. These variations are "
+"randomly assigned to the students.</p>\n"
+"<p>Here you can indicate if this activity has variations, put a title for "
+"the set of variations, and to add the desired variations.</p>\n"
+"<p>Each variation has an identification code and a description. The "
+"identification code is used by the <b>vpl_enviroment.sh</b> file to pass\n"
+"the variation assigned to each student to the script files. The description, "
+"formatted in HTML, is shown to the students that have assigned\n"
+"the corresponding variation.</p>"
+msgstr ""
+
+#: $string['variations_unused']
+msgid "This activity has variations, but are disabled"
+msgstr ""
+
+#: $string['variationtitle']
+msgid "Variation title"
+msgstr ""
+
+#: $string['varidentification']
+msgid "Identification"
+msgstr ""
+
+#: $string['visiblegrade']
+msgid "Visible"
+msgstr ""
+
+#: $string['vpl']
+msgid "Virtual Programming Lab"
+msgstr ""
+
+#: $string['vpl:addinstance']
+msgid "Add new vpl instances"
+msgstr ""
+
+#: $string['VPL_COMPILATIONFAILED']
+msgid "The compilation or preparation of execution has failed"
+msgstr ""
+
+#: $string['vpl_debug.sh']
+msgid "This script prepares the debugging"
+msgstr ""
+
+#: $string['vpl_evaluate.cases']
+msgid "Test cases for evaluation"
+msgstr ""
+
+#: $string['vpl_evaluate.sh']
+msgid "This script prepares the evaluation"
+msgstr ""
+
+#: $string['vpl:grade']
+msgid "Grade VPL assignment"
+msgstr ""
+
+#: $string['vpl:manage']
+msgid "Manage VPL assignment"
+msgstr ""
+
+#: $string['vpl_run.sh']
+msgid "This script prepares the execution"
+msgstr ""
+
+#: $string['vpl:setjails']
+msgid "Set execution servers for particular VPL instances"
+msgstr ""
+
+#: $string['vpl:similarity']
+msgid "Search VPL assignment similarity"
+msgstr ""
+
+#: $string['vpl:submit']
+msgid "Submit VPL assignment"
+msgstr ""
+
+#: $string['vpl:view']
+msgid "View full VPL assignment description"
+msgstr ""
+
+#: $string['websocket_protocol']
+msgid "WebSocket protocol"
+msgstr ""
+
+#: $string['websocket_protocol_description']
+msgid ""
+"Type of WebSocket protocol (ws:// or wss://) used by the browser to connect "
+"to execution servers."
+msgstr ""
+
+#: $string['workingperiods']
+msgid "Working periods"
+msgstr ""
+
+#: $string['worktype']
+msgid "Type of work"
+msgstr ""

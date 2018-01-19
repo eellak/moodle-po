@@ -1,0 +1,2484 @@
+#. extracted from lang/en/error.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'error', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   error
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['activityisscheduledfordeletion']
+msgid "Activity deletion in progress..."
+msgstr ""
+
+#: $string['alreadyloggedin']
+msgid ""
+"You are already logged in as {$a}, you need to log out before logging in as "
+"different user."
+msgstr ""
+
+#: $string['authnotexisting']
+msgid "The autorization plugin doesn't exist"
+msgstr ""
+
+#: $string['backupcontainexternal']
+msgid ""
+"This backup file contains external Moodle Network Hosts that are not "
+"configured locally"
+msgstr ""
+
+#: $string['backuptablefail']
+msgid "Backup tables could NOT be set up successfully!"
+msgstr ""
+
+#: $string['blockcannotconfig']
+msgid "This block does not support global configuration"
+msgstr ""
+
+#: $string['blockcannotinistantiate']
+msgid "Problem in instantiating block object"
+msgstr ""
+
+#: $string['blockcannotread']
+msgid "Could not read data for blockid= {$a}"
+msgstr ""
+
+#: $string['blockdoesnotexist']
+msgid "This block does not exist"
+msgstr ""
+
+#: $string['blockdoesnotexistonpage']
+msgid ""
+"This block (id={$a->instanceid}) does not exist on this page ({$a->url})."
+msgstr ""
+
+#: $string['blocknameconflict']
+msgid ""
+"Naming conflict: block {$a->name} has the same title with an existing block: "
+"{$a->conflict}!"
+msgstr ""
+
+#: $string['callbackrejectcomment']
+msgid "Comment callback rejected this comment."
+msgstr ""
+
+#: $string['cannotaddcoursemodule']
+msgid "Could not add a new course module"
+msgstr ""
+
+#: $string['cannotaddcoursemoduletosection']
+msgid "Could not add the new course module to that section"
+msgstr ""
+
+#: $string['cannotaddmodule']
+msgid "{$a} module could not be added to the module list!"
+msgstr ""
+
+#: $string['cannotaddnewmodule']
+msgid "Could not add a new module of {$a}"
+msgstr ""
+
+#: $string['cannotaddrss']
+msgid "You do not have permission to add rss feeds"
+msgstr ""
+
+#: $string['cannotaddthisblocktype']
+msgid "You cannot add a {$a} block to this page."
+msgstr ""
+
+#: $string['cannotassignrole']
+msgid "Cannot assign role in course"
+msgstr ""
+
+#: $string['cannotassignrolehere']
+msgid ""
+"You are not allowed to assign this role (id = {$a->roleid}) in this context "
+"({$a->context})"
+msgstr ""
+
+#: $string['cannotassignselfasparent']
+msgid "Cannot assign self as parent!"
+msgstr ""
+
+#: $string['cannotcallscript']
+msgid "You cannot call this script in that way"
+msgstr ""
+
+#: $string['cannotcallusgetselecteduser']
+msgid ""
+"You cannot call user_selector::get_selected_user if multi select is true."
+msgstr ""
+
+#: $string['cannotcreatebackupdir']
+msgid ""
+"Could not create backupdata folder.  The site administrator needs to fix the "
+"file permissions"
+msgstr ""
+
+#: $string['cannotcreatecategory']
+msgid "The category was not inserted"
+msgstr ""
+
+#: $string['cannotcreatedboninstall']
+msgid ""
+"<p>Cannot create the database.</p>\n"
+"<p>The specified database does not exist and the given user does not have "
+"permission to create the database.</p>\n"
+"<p>The site administrator should verify database configuration.</p>"
+msgstr ""
+
+#: $string['cannotcreategroup']
+msgid "Error creating group"
+msgstr ""
+
+#: $string['cannotcreatelangbase']
+msgid "Error: Could not create base lang directory"
+msgstr ""
+
+#: $string['cannotcreatelangdir']
+msgid "Cannot create lang directory"
+msgstr ""
+
+#: $string['cannotcreateorfindstructs']
+msgid "Error finding or creating section structures for this course"
+msgstr ""
+
+#: $string['cannotcreatepopupwin']
+msgid "Undefined element - cannot create pop-up window"
+msgstr ""
+
+#: $string['cannotcreatesitedir']
+msgid ""
+"Cannot create site folder. The site administrator needs to fix the file "
+"permissions."
+msgstr ""
+
+#: $string['cannotcreatetempdir']
+msgid "Cannot create temp directory"
+msgstr ""
+
+#: $string['cannotcreateuploaddir']
+msgid ""
+"Cannot create upload folder. The site administrator needs to fix the file "
+"permissions."
+msgstr ""
+
+#: $string['cannotcustomisefiltersblockuser']
+msgid "You cannot customise filters settings in user or block contexts."
+msgstr ""
+
+#: $string['cannotdeletebackupids']
+msgid "Couldn't delete previous backup ids"
+msgstr ""
+
+#: $string['cannotdeletecategorycourse']
+msgid "Course '{$a}' failed to be deleted."
+msgstr ""
+
+#: $string['cannotdeletecategoryquestions']
+msgid "Could not delete questions from category '{$a}'"
+msgstr ""
+
+#: $string['cannotdeletecourse']
+msgid "You do not have the permission to delete this course"
+msgstr ""
+
+#: $string['cannotdeletecustomfield']
+msgid "Error deleting custom field data"
+msgstr ""
+
+#: $string['cannotdeletedir']
+msgid "Cannot delete ({$a})"
+msgstr ""
+
+#: $string['cannotdeletefile']
+msgid "Cannot delete this file"
+msgstr ""
+
+#: $string['cannotdeleterole']
+msgid "It cannot be deleted, because {$a}"
+msgstr ""
+
+#: $string['cannotdeleterolewithid']
+msgid "Could not delete role with ID {$a}"
+msgstr ""
+
+#: $string['cannotdeletethisrole']
+msgid ""
+"You cannot delete this role because it is used by the system, or because it "
+"is the last role with administrator capabilities."
+msgstr ""
+
+#: $string['cannotdisableformat']
+msgid "You can not disable the default format"
+msgstr ""
+
+#: $string['cannotdownloadcomponents']
+msgid "Cannot download components"
+msgstr ""
+
+#: $string['cannotdownloadlanguageupdatelist']
+msgid "Cannot download list of language updates from download.moodle.org"
+msgstr ""
+
+#: $string['cannotdownloadzipfile']
+msgid "Cannot download ZIP file"
+msgstr ""
+
+#: $string['cannoteditcomment']
+msgid "This comment is not yours to edit!"
+msgstr ""
+
+#: $string['cannoteditcommentexpired']
+msgid "You can't edit this. The time has expired!"
+msgstr ""
+
+#: $string['cannoteditpostorblog']
+msgid "You cannot post or edit blogs"
+msgstr ""
+
+#: $string['cannoteditsiteform']
+msgid "You cannot edit the site course using this form"
+msgstr ""
+
+#: $string['cannotedituserpreferences']
+msgid "Cannot edit this user's preferences"
+msgstr ""
+
+#: $string['cannotedityourprofile']
+msgid "Sorry, you cannot edit own profile"
+msgstr ""
+
+#: $string['cannotexecduringupgrade']
+msgid "Cannot be executed during upgrade"
+msgstr ""
+
+#: $string['cannotfindcategory']
+msgid "Cannot find category record from database by ID - {$a}"
+msgstr ""
+
+#: $string['cannotfindcomponent']
+msgid "Cannot find component"
+msgstr ""
+
+#: $string['cannotfindcontext']
+msgid "Could not find context"
+msgstr ""
+
+#: $string['cannotfindcourse']
+msgid "Cannot find course"
+msgstr ""
+
+#: $string['cannotfinddocs']
+msgid "Cannot find \"{$a}\" language docs files"
+msgstr ""
+
+#: $string['cannotfindgradeitem']
+msgid "Cannot find grade_item"
+msgstr ""
+
+#: $string['cannotfindgroup']
+msgid "Unable to find group"
+msgstr ""
+
+#: $string['cannotfindhelp']
+msgid "Cannot find \"{$a}\" language help files"
+msgstr ""
+
+#: $string['cannotfindinfo']
+msgid "Cannot find info for: \"{$a}\""
+msgstr ""
+
+#: $string['cannotfindlang']
+msgid "Cannot find \"{$a}\" language pack!"
+msgstr ""
+
+#: $string['cannotfindteacher']
+msgid "Cannot find teacher"
+msgstr ""
+
+#: $string['cannotfinduser']
+msgid "Cannot find user named \"{$a}\""
+msgstr ""
+
+#: $string['cannotgeoplugin']
+msgid ""
+"Cannot connect to geoPlugin server at http://www.geoplugin.com, please check "
+"proxy settings or better install MaxMind GeoLite City data file"
+msgstr ""
+
+#: $string['cannotgetblock']
+msgid "Could not retrieve blocks from the database"
+msgstr ""
+
+#: $string['cannotgetcats']
+msgid "Cannot get category record"
+msgstr ""
+
+#: $string['cannotgetdata']
+msgid "Cannot get data"
+msgstr ""
+
+#: $string['cannotgradeuser']
+msgid "Cannot grade this user"
+msgstr ""
+
+#: $string['cannothaveparentcate']
+msgid "Course category cannot have parent!"
+msgstr ""
+
+#: $string['cannotimport']
+msgid "Import error"
+msgstr ""
+
+#: $string['cannotimportformat']
+msgctxt "$string['cannotimportformat']"
+msgid "Sorry, importing this format is not yet implemented!"
+msgstr ""
+
+#: $string['cannotimportgrade']
+msgid "Grade import error"
+msgstr ""
+
+#: $string['cannotinsertgrade']
+msgid "Cannot insert grade item without course id!"
+msgstr ""
+
+#: $string['cannotinsertrate']
+msgid "Could not insert a new rating ({$a->id} = {$a->rating})"
+msgstr ""
+
+#: $string['cannotinsertrecord']
+msgid "Could not insert new record ID {$a}"
+msgstr ""
+
+#: $string['cannotmailconfirm']
+msgid "Error sending password change confirmation email"
+msgstr ""
+
+#: $string['cannotmanualctrack']
+msgid "Activity does not provide manual completion tracking"
+msgstr ""
+
+#: $string['cannotmapfield']
+msgid ""
+"Mapping collision detected - two fields maps to the same grade item {$a}"
+msgstr ""
+
+#: $string['cannotmarktopic']
+msgid "Could not mark that topic for this course"
+msgstr ""
+
+#: $string['cannotmigratedatacomments']
+msgid "Cannot migrate data module comments"
+msgstr ""
+
+#: $string['cannotmodulename']
+msgid "Cannot get the module name in build navigation"
+msgstr ""
+
+#: $string['cannotmoduletype']
+msgid "Cannot get the module type in build navigation"
+msgstr ""
+
+#: $string['cannotmovecategory']
+msgid "Cannot move category"
+msgstr ""
+
+#: $string['cannotmovecourses']
+msgid "Cannot move courses from the category they are in to another."
+msgstr ""
+
+#: $string['cannotmoverolewithid']
+msgid "Cannot move role with ID {$a}"
+msgstr ""
+
+#: $string['cannotopencsv']
+msgid "Cannot open CSV file"
+msgstr ""
+
+#: $string['cannotopenfile']
+msgid "Cannot open file ({$a})"
+msgstr ""
+
+#: $string['cannotopenforwrit']
+msgid "Cannot open for writing: {$a}"
+msgstr ""
+
+#: $string['cannotopentemplate']
+msgid "Cannot open template file ({$a})"
+msgstr ""
+
+#: $string['cannotopenzip']
+msgid "Can not open zip file, probably zip extension bug on 64bit os"
+msgstr ""
+
+#: $string['cannotoverridebaserole']
+msgid "Cannot override base role capabilities"
+msgstr ""
+
+#: $string['cannotoverriderolehere']
+msgid ""
+"You are not allowed to override this role (id = {$a->roleid}) in this "
+"context ({$a->context})"
+msgstr ""
+
+#: $string['cannotreadfile']
+msgid "Cannot read file ({$a})"
+msgstr ""
+
+#: $string['cannotreadtmpfile']
+msgid "Error reading temporary file"
+msgstr ""
+
+#: $string['cannotreaduploadfile']
+msgid "Could not read uploaded file"
+msgstr ""
+
+#: $string['cannotremovefrommeta']
+msgid "Could not remove the selected course from this meta course!"
+msgstr ""
+
+#: $string['cannotreprocessgrades']
+msgid "Could not reprocess grades for this activity {$a}"
+msgstr ""
+
+#: $string['cannotresetguestpwd']
+msgid "You cannot reset the guest password"
+msgstr ""
+
+#: $string['cannotresetmail']
+msgid "Error resetting password and mailing you"
+msgstr ""
+
+#: $string['cannotresetthisrole']
+msgid "Cannot reset this role"
+msgstr ""
+
+#: $string['cannotrestore']
+msgid "An error has occurred and the restore could not be completed!"
+msgstr ""
+
+#: $string['cannotrestoreadminorcreator']
+msgid "You need to be a creator or admin user to restore into new course!"
+msgstr ""
+
+#: $string['cannotrestoreadminoredit']
+msgid ""
+"You need to be a editing teacher or admin user to restore into selected "
+"course!"
+msgstr ""
+
+#: $string['cannotsaveagreement']
+msgid "Could not save your agreement"
+msgstr ""
+
+#: $string['cannotsaveblock']
+msgid "Error saving block configuration"
+msgstr ""
+
+#: $string['cannotsavecomment']
+msgid "Cannot save comment"
+msgstr ""
+
+#: $string['cannotsavedata']
+msgid "Cannot save data"
+msgstr ""
+
+#: $string['cannotsavefile']
+msgid "Cannot save the file \"{$a}\"!"
+msgstr ""
+
+#: $string['cannotsavemd5file']
+msgid "Cannot save md5 file"
+msgstr ""
+
+#: $string['cannotsavezipfile']
+msgid "Cannot save ZIP file"
+msgstr ""
+
+#: $string['cannotservefile']
+msgid "Can not serve file - server configuration problem."
+msgstr ""
+
+#: $string['cannotsetparentforcatoritem']
+msgid "Cannot set parent for category or course item!"
+msgstr ""
+
+#: $string['cannotsetpassword']
+msgid "Could not set user password!"
+msgstr ""
+
+#: $string['cannotsetprefgrade']
+msgid ""
+"Could not set preference aggregationview to {$a} for this grade category"
+msgstr ""
+
+#: $string['cannotsettheme']
+msgid "Could not set the theme!"
+msgstr ""
+
+#: $string['cannotsetupblock']
+msgid "Blocks tables could NOT be set up successfully!"
+msgstr ""
+
+#: $string['cannotsetupcapformod']
+msgctxt "$string['cannotsetupcapformod']"
+msgid "Could not set up the capabilities for {$a}"
+msgstr ""
+
+#: $string['cannotsetupcapforplugin']
+msgctxt "$string['cannotsetupcapforplugin']"
+msgid "Could not set up the capabilities for {$a}"
+msgstr ""
+
+#: $string['cannotshowhidecoursesincategory']
+msgid "Cannot show/hide the courses in category {$a}."
+msgstr ""
+
+#: $string['cannotsignup']
+msgid ""
+"You cannot create a new account because you are already logged in as {$a}."
+msgstr ""
+
+#: $string['cannotunassigncap']
+msgid "Could not unassign deprecated capability {$a->cap} from role {$a->role}"
+msgstr ""
+
+#: $string['cannotunassignrolefrom']
+msgid "Cannot unassign this user from role id: {$a}"
+msgstr ""
+
+#: $string['cannotunzipfile']
+msgid "Cannot unzip file"
+msgstr ""
+
+#: $string['cannotupdatemod']
+msgid "Could not update {$a}"
+msgstr ""
+
+#: $string['cannotupdatepasswordonextauth']
+msgid ""
+"Failed to update password on external auth: {$a}. See the server logs for "
+"more details."
+msgstr ""
+
+#: $string['cannotupdateprofile']
+msgid "Error updating user record"
+msgstr ""
+
+#: $string['cannotupdaterecord']
+msgid "Could not update record ID {$a}"
+msgstr ""
+
+#: $string['cannotupdaterss']
+msgid "Cannot update RSS"
+msgstr ""
+
+#: $string['cannotupdatesubcourse']
+msgid "Could not update a child course!"
+msgstr ""
+
+#: $string['cannotupdateusermsgpref']
+msgid "Cannot update user message preferences"
+msgstr ""
+
+#: $string['cannotupdateuseronexauth']
+msgid ""
+"Failed to update user data on external auth: {$a}. See the server logs for "
+"more details."
+msgstr ""
+
+#: $string['cannotuploadfile']
+msgid "Error processing upload file"
+msgstr ""
+
+#: $string['cannotuseadmin']
+msgid "You need to be an admin user to use this page"
+msgstr ""
+
+#: $string['cannotuseadminadminorteacher']
+msgid "You need to be a teacher or admin user to use this page"
+msgstr ""
+
+#: $string['cannotusepage']
+msgid "Only teachers and administrators can use this page"
+msgstr ""
+
+#: $string['cannotusepage2']
+msgid "Sorry, you may not use this page"
+msgstr ""
+
+#: $string['cannotviewprofile']
+msgid "You cannot view the profile of this user"
+msgstr ""
+
+#: $string['cannotviewreport']
+msgid "You cannot view this report"
+msgstr ""
+
+#: $string['cannotwritefile']
+msgid "Cannot write to file ({$a})"
+msgstr ""
+
+#: $string['categoryerror']
+msgid "Category error"
+msgstr ""
+
+#: $string['categoryidnumbertaken']
+msgid "ID number is already used for another category"
+msgstr ""
+
+#: $string['categorynamerequired']
+msgid "Category name is required"
+msgstr ""
+
+#: $string['categorytoolong']
+msgid "Category name too long"
+msgstr ""
+
+#: $string['commentmisconf']
+msgid "Comment ID is misconfigured"
+msgstr ""
+
+#: $string['componentisuptodate']
+msgid "Component is up-to-date"
+msgstr ""
+
+#: $string['confirmationnotenabled']
+msgid "User confirmation is not enabled on this site"
+msgstr ""
+
+#: $string['confirmsesskeybad']
+msgid ""
+"Sorry, but your session key could not be confirmed to carry out this action. "
+" This security feature prevents against accidental or malicious execution "
+"of important functions in your name.  Please make sure you really wanted to "
+"execute this function."
+msgstr ""
+
+#: $string['couldnotassignrole']
+msgid ""
+"A serious but unspecified error occurred while trying to assign a role to "
+"you"
+msgstr ""
+
+#: $string['couldnotupdatenoexistinguser']
+msgid "Cannot update the user - user doesn't exist"
+msgstr ""
+
+#: $string['countriesphpempty']
+msgid ""
+"Error: The file countries.php in language pack {$a} is empty or missing."
+msgstr ""
+
+#: $string['coursedoesnotbelongtocategory']
+msgid "The course doesn't belong to this category"
+msgstr ""
+
+#: $string['courseformatnotfound']
+msgid "The course format '{$a}' doesn't exist or is not recognized"
+msgstr ""
+
+#: $string['coursegroupunknown']
+msgid "Course corresponding to group {$a} not specified"
+msgstr ""
+
+#: $string['courseidnotfound']
+msgid "Course id doesn't exist"
+msgstr ""
+
+#: $string['courseidnumbertaken']
+msgid "ID number is already used for another course ({$a})"
+msgstr ""
+
+#: $string['coursemisconf']
+msgid "Course is misconfigured"
+msgstr ""
+
+#: $string['courserequestdisabled']
+msgid "Sorry, but course requests have been disabled by the administrator."
+msgstr ""
+
+#: $string['csvcolumnduplicates']
+msgid "Duplicate columns detected"
+msgstr ""
+
+#: $string['csvemptyfile']
+msgid "The CSV file is empty"
+msgstr ""
+
+#: $string['csvfewcolumns']
+msgid "Not enough columns, please verify the delimiter setting"
+msgstr ""
+
+#: $string['csvinvalidcols']
+msgid ""
+"<b>Invalid CSV file:</b> First line must include \"Header Fields\" and the "
+"file must be type of <br />\"Expanded Fields/Comma Separated\"<br />or<br /> "
+"\"Expanded Fields with CAVV Result Code/Comma Separated\""
+msgstr ""
+
+#: $string['csvinvalidcolsnum']
+msgid "Invalid CSV file - each line must include 49 or 70 fields"
+msgstr ""
+
+#: $string['csvloaderror']
+msgid "An error occurred while loading the CSV file: {$a}"
+msgstr ""
+
+#: $string['csvweirdcolumns']
+msgid "Invalid CSV file format - number of columns is not constant!"
+msgstr ""
+
+#: $string['dbconnectionfailed']
+msgid ""
+"<p>Error: Database connection failed</p>\n"
+"<p>It is possible that the database is overloaded or otherwise not running "
+"properly.</p>\n"
+"<p>The site administrator should also check that the database details have "
+"been correctly specified in config.php</p>"
+msgstr ""
+
+#: $string['dbdriverproblem']
+msgid ""
+"<p>Error: database driver problem detected</p>\n"
+"<p>The site administrator should verify server configuration</p><p>{$a}</p>"
+msgstr ""
+
+#: $string['dbsessionbroken']
+msgid ""
+"Serious database session problem detected.<br /><br />Please notify server "
+"administrator."
+msgstr ""
+
+#: $string['dbsessionhandlerproblem']
+msgid ""
+"Setting up of database session failed. Please notify the server "
+"administrator."
+msgstr ""
+
+#: $string['dbsessionmysqlpacketsize']
+msgid ""
+"A serious session error was detected. Please notify the site administrator. "
+"The problem is most probably caused by small value in max_allowed_packet "
+"MySQL setting."
+msgstr ""
+
+#: $string['dbupdatefailed']
+msgid "Database update failed"
+msgstr ""
+
+#: $string['ddldependencyerror']
+msgid ""
+"{$a->targettype} \"{$a->targetname}\" cannot be modified. Dependency found "
+"with {$a->offendingtype} \"{$a->offendingname}\""
+msgstr ""
+
+#: $string['ddlexecuteerror']
+msgid "DDL sql execution error"
+msgstr ""
+
+#: $string['ddlfieldalreadyexists']
+msgid "Field \"{$a}\" already exists"
+msgstr ""
+
+#: $string['ddlfieldnotexist']
+msgid "Field \"{$a->fieldname}\" does not exist in table \"{$a->tablename}\""
+msgstr ""
+
+#: $string['ddltablealreadyexists']
+msgid "Table \"{$a}\" already exists"
+msgstr ""
+
+#: $string['ddltablenotexist']
+msgid "Table \"{$a}\" does not exist"
+msgstr ""
+
+#: $string['ddlunknownerror']
+msgid "Unknown DDL library error"
+msgstr ""
+
+#: $string['ddlxmlfileerror']
+msgid "XML database file errors found"
+msgstr ""
+
+#: $string['ddsequenceerror']
+msgid ""
+"Incorrect table \"{$a}\" definition; there can be only one auto column and it "
+"must be defined as a key."
+msgstr ""
+
+#: $string['destinationcmnotexit']
+msgid "The destination course module does not exist"
+msgstr ""
+
+#: $string['detectedbrokenplugin']
+msgid "Plugin \"{$a}\" is defective or outdated, can not continue, sorry."
+msgstr ""
+
+#: $string['dmlexceptiononinstall']
+msgid ""
+"<p>A database error has occurred [{$a->errorcode}].<br />{$a->debuginfo}</p>"
+msgstr ""
+
+#: $string['dmlreadexception']
+msgid "Error reading from database"
+msgstr ""
+
+#: $string['dmltransactionexception']
+msgid "Database transaction error"
+msgstr ""
+
+#: $string['dmlwriteexception']
+msgid "Error writing to database"
+msgstr ""
+
+#: $string['downgradedcore']
+msgid ""
+"ERROR!!!  The code you are using is OLDER than the version that made these "
+"databases!"
+msgstr ""
+
+#: $string['downloadedfilecheckfailed']
+msgid "Downloaded file check failed"
+msgstr ""
+
+#: $string['duplicatefieldname']
+msgid "Duplicate field name \"{$a}\" detected"
+msgstr ""
+
+#: $string['duplicatenosupport']
+msgid ""
+"'{$a->modname}' activity could not be duplicated because the {$a->modtype} "
+"module does not support backup and restore."
+msgstr ""
+
+#: $string['duplicateparaminsql']
+msgid "ERROR: duplicate parameter name in query"
+msgstr ""
+
+#: $string['duplicaterolename']
+msgid "There is already a role with this name!"
+msgstr ""
+
+#: $string['duplicateroleshortname']
+msgid "There is already a role with this short name!"
+msgstr ""
+
+#: $string['duplicateusername']
+msgid "Duplicate username - skipping record"
+msgstr ""
+
+#: $string['emailfail']
+msgid "Emailing failed"
+msgstr ""
+
+#: $string['enddatebeforestartdate']
+msgid "The course end date must be after the start date."
+msgstr ""
+
+#: $string['error']
+msgid "Error occurred"
+msgstr ""
+
+#: $string['errorcleaningdirectory']
+msgid "Error cleaning directory \"{$a}\""
+msgstr ""
+
+#: $string['errorcopyingfiles']
+msgid "Error copying files"
+msgstr ""
+
+#: $string['errorcreatingdirectory']
+msgid "Error creating directory \"{$a}\""
+msgstr ""
+
+#: $string['errorcreatingfile']
+msgid "Error creating file \"{$a}\""
+msgstr ""
+
+#: $string['errorcreatingrole']
+msgid "Error creating role"
+msgstr ""
+
+#: $string['errorfetchingrssfeed']
+msgid "Error fetching RSS feed."
+msgstr ""
+
+#: $string['erroronline']
+msgid "Error on line {$a}"
+msgstr ""
+
+#: $string['erroroutput']
+msgid "Error output, so disabling automatic redirect."
+msgstr ""
+
+#: $string['errorparsingxml']
+msgid ""
+"Error parsing XML: {$a->errorstring} at line {$a->errorline}, char "
+"{$a->errorchar}"
+msgstr ""
+
+#: $string['errorprocessingarchive']
+msgid "Error processing archive file"
+msgstr ""
+
+#: $string['error_question_answers_missing_in_db']
+msgid ""
+"Failed to find an answer matching \"{$a->answer}\" in the question_answers "
+"database table. This occurred while restoring the question with id "
+"{$a->filequestionid} in the backup file, which has been matched to the "
+"existing question with id {$a->dbquestionid} in the database."
+msgstr ""
+
+#: $string['errorreadingfile']
+msgid "Error reading file \"{$a}\""
+msgstr ""
+
+#: $string['errorsavingrequest']
+msgid "An error occurred when trying to save your request."
+msgstr ""
+
+#: $string['errorsettinguserpref']
+msgid "Error setting user preference"
+msgstr ""
+
+#: $string['errorunzippingfiles']
+msgid "Error unzipping files"
+msgstr ""
+
+#: $string['expiredkey']
+msgid "Expired key"
+msgstr ""
+
+#: $string['externalauthpassworderror']
+msgid "Non-empty password for external authentication"
+msgstr ""
+
+#: $string['externalfilenolocation']
+msgid "External file has no location path"
+msgstr ""
+
+#: $string['failtoloadblocks']
+msgid ""
+"One or more blocks are registered in the database, but they all failed to "
+"load!"
+msgstr ""
+
+#: $string['fieldrequired']
+msgid "\"{$a}\" is a required field"
+msgstr ""
+
+#: $string['fileexists']
+msgid "File exists"
+msgstr ""
+
+#: $string['filemismatch']
+msgid ""
+"Non-core file name mismatch. The file \"{$a->current}\" should be {$a->file}"
+msgstr ""
+
+#: $string['filenotfound']
+msgid "Sorry, the requested file could not be found"
+msgstr ""
+
+#: $string['filenotreadable']
+msgid "File is not readable"
+msgstr ""
+
+#: $string['filterdoesnothavelocalconfig']
+msgid "The filter {$a} does not allow local configuration."
+msgstr ""
+
+#: $string['filternotactive']
+msgid "Filter {$a} is not currently active"
+msgstr ""
+
+#: $string['filternotenabled']
+msgid "Filter not enabled!"
+msgstr ""
+
+#: $string['filternotinstalled']
+msgid "Filter {$a} is not currently installed"
+msgstr ""
+
+#: $string['forumblockingtoomanyposts']
+msgid "You have exceeded the posting threshold set for this forum"
+msgstr ""
+
+#: $string['generalexceptionmessage']
+msgid "Exception - {$a}"
+msgstr ""
+
+#: $string['gradecantregrade']
+msgid "An error occurred during grade calculation: {$a}"
+msgstr ""
+
+#: $string['gradepubdisable']
+msgid "Grade publishing disabled"
+msgstr ""
+
+#: $string['gradesneedregrading']
+msgid "The course grades need to be recalculated"
+msgstr ""
+
+#: $string['groupalready']
+msgid "User already belongs to group {$a}"
+msgstr ""
+
+#: $string['groupexistforcourse']
+msgid "Group \"{$a}\" already exists for this course"
+msgstr ""
+
+#: $string['groupexistforcoursewithidnumber']
+msgid ""
+"{$a->problemgroup}: Group \"{$a->name}\" with an idnumber of \"{$a->idnumber}\" "
+"already exists for this course"
+msgstr ""
+
+#: $string['grouphasidnumber']
+msgid ""
+"Group \"{$a}\" has an idnumber and may have been automatically created by an "
+"external system. You do not have permission to remove this group."
+msgstr ""
+
+#: $string['groupinghasidnumber']
+msgid ""
+"Grouping \"{$a}\" has an idnumber and may have been automatically created by "
+"an external system. You do not have permission to remove this grouping."
+msgstr ""
+
+#: $string['groupingnotaddederror']
+msgid "Grouping \"{$a}\" not added"
+msgstr ""
+
+#: $string['groupnotaddederror']
+msgid "Group \"{$a}\" not added"
+msgstr ""
+
+#: $string['groupnotaddedtogroupingerror']
+msgid "Group \"{$a->groupname}\" not added to grouping \"{$a->groupingname}\""
+msgstr ""
+
+#: $string['groupunknown']
+msgid "Group {$a} not associated to specified course"
+msgstr ""
+
+#: $string['groupusernotmember']
+msgid "User is not member of this group."
+msgstr ""
+
+#: $string['guestcantaccessprofiles']
+msgid ""
+"Guests cannot access user profiles. Log in with a full user account to "
+"continue."
+msgstr ""
+
+#: $string['guestnocomment']
+msgid "Guests are not allowed to post comments!"
+msgstr ""
+
+#: $string['guestnoeditprofile']
+msgid "The guest user cannot edit their profile"
+msgstr ""
+
+#: $string['guestnoeditprofileother']
+msgid "The guest user profile cannot be edited"
+msgstr ""
+
+#: $string['guestnorate']
+msgid "Guests are not allowed to rate entries"
+msgstr ""
+
+#: $string['guestsarenotallowed']
+msgid "The guest user is not allowed to do this"
+msgstr ""
+
+#: $string['hackdetected']
+msgid "Hack attack detected!"
+msgstr ""
+
+#: $string['hashpoolproblem']
+msgid "Incorrect pool file content {$a}."
+msgstr ""
+
+#: $string['headersent']
+msgid "Headers already sent"
+msgstr ""
+
+#: $string['idnumbertaken']
+msgid "This ID number is already in use"
+msgstr ""
+
+#: $string['idnumbertoolong']
+msgid "ID number is too long"
+msgstr ""
+
+#: $string['importformatnotimplement']
+msgctxt "$string['importformatnotimplement']"
+msgid "Sorry, importing this format is not yet implemented!"
+msgstr ""
+
+#: $string['incorrectext']
+msgid "File has an incorrect extension"
+msgstr ""
+
+#: $string['inplaceeditableerror']
+msgid "Error calling update processor"
+msgstr ""
+
+#: $string['installproblem']
+msgid ""
+"It is usually not possible to recover from errors triggered during "
+"installation, you may need to create a new database or use a different "
+"database prefix if you want to retry the installation."
+msgstr ""
+
+#: $string['internalauthpassworderror']
+msgid "Missing password or invalid password policy for internal authentication"
+msgstr ""
+
+#: $string['invalidaccess']
+msgid "This page was not accessed correctly"
+msgstr ""
+
+#: $string['invalidaccessparameter']
+msgid "Invalid access parameter"
+msgstr ""
+
+#: $string['invalidaction']
+msgid "Invalid action parameter"
+msgstr ""
+
+#: $string['invalidactivityid']
+msgid "Invalid activity ID"
+msgstr ""
+
+#: $string['invalidadminsettingname']
+msgid "Invalid admin setting ({$a})"
+msgstr ""
+
+#: $string['invalidargorconf']
+msgid "No valid arguments supplied or incorrect server configuration"
+msgstr ""
+
+#: $string['invalidarguments']
+msgid "No valid arguments supplied"
+msgstr ""
+
+#: $string['invalidblockinstance']
+msgid "Invalid block instance for: {$a}"
+msgstr ""
+
+#: $string['invalidbulkenrolop']
+msgid "Invalid bulk enrolment operation requested."
+msgstr ""
+
+#: $string['invalidcategory']
+msgid "Incorrect category!"
+msgstr ""
+
+#: $string['invalidcategoryid']
+msgid "Incorrect category id!"
+msgstr ""
+
+#: $string['invalidcomment']
+msgid "Comment is incorrect"
+msgstr ""
+
+#: $string['invalidcommentarea']
+msgid "Invalid comment area"
+msgstr ""
+
+#: $string['invalidcommentid']
+msgid "Invalid comment id"
+msgstr ""
+
+#: $string['invalidcommentitemid']
+msgid "Invalid comment itemid"
+msgstr ""
+
+#: $string['invalidcommentparam']
+msgid "Invalid comment parameters"
+msgstr ""
+
+#: $string['invalidcomponent']
+msgid "Invalid component name"
+msgstr ""
+
+#: $string['invalidconfirmdata']
+msgid "Invalid confirmation data"
+msgstr ""
+
+#: $string['invalidcontext']
+msgid "Invalid context"
+msgstr ""
+
+#: $string['invalidcourse']
+msgid "Invalid course"
+msgstr ""
+
+#: $string['invalidcourseformat']
+msgid "Invalid course format"
+msgstr ""
+
+#: $string['invalidcourseid']
+msgid "You are trying to use an invalid course ID"
+msgstr ""
+
+#: $string['invalidcourselevel']
+msgid "Incorrect context level"
+msgstr ""
+
+#: $string['invalidcoursemodule']
+msgid "Invalid course module ID"
+msgstr ""
+
+#: $string['invalidcoursenameshort']
+msgid "Invalid short course name"
+msgstr ""
+
+#: $string['invaliddata']
+msgid "Data submitted is invalid"
+msgstr ""
+
+#: $string['invaliddatarootpermissions']
+msgid ""
+"Invalid permissions detected when trying to create a directory. Turn "
+"debugging on for further details."
+msgstr ""
+
+#: $string['invaliddevicetype']
+msgid "Invalid device type"
+msgstr ""
+
+#: $string['invalidelementid']
+msgid "Incorrect element id!"
+msgstr ""
+
+#: $string['invalidentry']
+msgid "This is not valid entry!"
+msgstr ""
+
+#: $string['invalidevent']
+msgid "Invalid event"
+msgstr ""
+
+#: $string['invalidfieldname']
+msgid "\"{$a}\" is not a valid field name"
+msgstr ""
+
+#: $string['invalidfiletype']
+msgid "\"{$a}\" is not a valid file type"
+msgstr ""
+
+#: $string['invalidformatpara']
+msgid "Incorrect format for choose parameter"
+msgstr ""
+
+#: $string['invalidformdata']
+msgid "Incorrect form data"
+msgstr ""
+
+#: $string['invalidfunction']
+msgid "Incorrect function"
+msgstr ""
+
+#: $string['invalidgradeitemid']
+msgid "Incorrect grade item id"
+msgstr ""
+
+#: $string['invalidgroupid']
+msgid "Incorrect group id specified"
+msgstr ""
+
+#: $string['invalidipformat']
+msgid "Invalid IP address format"
+msgstr ""
+
+#: $string['invaliditemid']
+msgid "Incorrect item id"
+msgstr ""
+
+#: $string['invalidkey']
+msgid "Incorrect key"
+msgstr ""
+
+#: $string['invalidlegacy']
+msgid "Incorrect legacy role definition for type: {$a}"
+msgstr ""
+
+#: $string['invalidmd5']
+msgid "The check variable was wrong - try again"
+msgstr ""
+
+#: $string['invalidmode']
+msgid "Invalid mode ({$a})"
+msgstr ""
+
+#: $string['invalidmodule']
+msgid "Invalid module"
+msgstr ""
+
+#: $string['invalidmoduleid']
+msgid "Invalid module ID: {$a}"
+msgstr ""
+
+#: $string['invalidmodulename']
+msgid "Invalid module name: {$a}"
+msgstr ""
+
+#: $string['invalidnum']
+msgid "Invalid numeric value"
+msgstr ""
+
+#: $string['invalidnumkey']
+msgid "$conditions array may not contain numeric keys, please fix the code!"
+msgstr ""
+
+#: $string['invalidoutcome']
+msgid "Incorrect outcome id"
+msgstr ""
+
+#: $string['invalidpagesize']
+msgid "Invalid page size"
+msgstr ""
+
+#: $string['invalidpasswordpolicy']
+msgid "Invalid password policy"
+msgstr ""
+
+#: $string['invalidpaymentmethod']
+msgid "Invalid payment method: {$a}"
+msgstr ""
+
+#: $string['invalidqueryparam']
+msgid ""
+"ERROR: Incorrect number of query parameters. Expected {$a->expected}, got "
+"{$a->actual}."
+msgstr ""
+
+#: $string['invalidratingarea']
+msgid "Invalid rating area"
+msgstr ""
+
+#: $string['invalidrecord']
+msgid "Can not find data record in database table {$a}."
+msgstr ""
+
+#: $string['invalidrecordunknown']
+msgid "Can not find data record in database."
+msgstr ""
+
+#: $string['invalidrequest']
+msgid "Invalid request"
+msgstr ""
+
+#: $string['invalidrole']
+msgid "Invalid role"
+msgstr ""
+
+#: $string['invalidroleid']
+msgid "Invalid role ID"
+msgstr ""
+
+#: $string['invalidscaleid']
+msgid "Incorrect scale id"
+msgstr ""
+
+#: $string['invalidsection']
+msgid "Course module record contains invalid section"
+msgstr ""
+
+#: $string['invalidsesskey']
+msgid "Your session has most likely timed out. Please log in again."
+msgstr ""
+
+#: $string['invalidshortname']
+msgid "That's an invalid short course name"
+msgstr ""
+
+#: $string['invalidsourcefield']
+msgid "Draft file's source field is invalid"
+msgstr ""
+
+#: $string['invalidstatedetected']
+msgid "Something has gone wrong: {$a}. This should never normally happen."
+msgstr ""
+
+#: $string['invalidurl']
+msgid "Invalid URL"
+msgstr ""
+
+#: $string['invaliduser']
+msgid "Invalid user"
+msgstr ""
+
+#: $string['invaliduserdata']
+msgid "Invalid user data: {$a}"
+msgstr ""
+
+#: $string['invaliduserfield']
+msgid "Invalid user field: {$a}"
+msgstr ""
+
+#: $string['invaliduserid']
+msgid "Invalid user id"
+msgstr ""
+
+#: $string['invalidusername']
+msgid "The given username contains invalid characters"
+msgstr ""
+
+#: $string['invalidxmlfile']
+msgid "\"{$a}\" is not a valid XML file"
+msgstr ""
+
+#: $string['iplookupfailed']
+msgid "Cannot find geo information about this IP address {$a}"
+msgstr ""
+
+#: $string['iplookupprivate']
+msgid "Cannot display lookup of private IP address"
+msgstr ""
+
+#: $string['ipmismatch']
+msgid "Client IP address mismatch"
+msgstr ""
+
+#: $string['listcantmovedown']
+msgid "Failed to move item down, as it is the last of it's peers"
+msgstr ""
+
+#: $string['listcantmoveleft']
+msgid "Failed to move item left, as it has no parent"
+msgstr ""
+
+#: $string['listcantmoveright']
+msgid ""
+"Failed to move item right, as there is no peer to make it a child of. Move "
+"it below another peer and then you can move it right."
+msgstr ""
+
+#: $string['listcantmoveup']
+msgid "Failed to move the item up, as it is the first of it's peers"
+msgstr ""
+
+#: $string['listnochildren']
+msgid "No children of item found"
+msgstr ""
+
+#: $string['listnoitem']
+msgid "Item not found"
+msgstr ""
+
+#: $string['listnopeers']
+msgid "No peers of item found"
+msgstr ""
+
+#: $string['listupdatefail']
+msgid "DB operation failed when editing list hierarchy"
+msgstr ""
+
+#: $string['logfilenotavailable']
+msgid "Logs not available"
+msgstr ""
+
+#: $string['loginasnoenrol']
+msgid "You cannot use enrol or unenrol when in course \"Login as\" session"
+msgstr ""
+
+#: $string['loginasonecourse']
+msgid ""
+"You cannot enter this course.<br /> You have to terminate the \"Login as\" "
+"session before entering any other course."
+msgstr ""
+
+#: $string['maxareabytes']
+msgid "The file is larger than the space remaining in this area."
+msgstr ""
+
+#: $string['maxbytes']
+msgid "The file is larger than the maximum size allowed."
+msgstr ""
+
+#: $string['maxbytesfile']
+msgid ""
+"The file {$a->file} is too large. The maximum size you can upload is "
+"{$a->size}."
+msgstr ""
+
+#: $string['messagingdisable']
+msgid "Messaging is disabled on this site"
+msgstr ""
+
+#: $string['mimetexisnotexist']
+msgid ""
+"Your system is not configured to run mimeTeX. You need to download the "
+"appropriate executable for you PHP_OS platform from <a href=\"http://moodle.o"
+"rg/download/mimetex/\">http://moodle.org/download/mimetex/</a>, or obtain the "
+"C source from <a href=\"http://www.forkosh.com/mimetex.zip\"> "
+"http://www.forkosh.com/mimetex.zip</a>, compile it and put the executable "
+"into your moodle/filter/tex/ directory."
+msgstr ""
+
+#: $string['mimetexnotexecutable']
+msgid "Custom mimetex is not executable!"
+msgstr ""
+
+#: $string['missingfield']
+msgid "Field \"{$a}\" is missing"
+msgstr ""
+
+#: $string['missingkeyinsql']
+msgid "ERROR: missing param \"{$a}\" in query"
+msgstr ""
+
+#: $string['missing_moodle_backup_xml_file']
+msgid "Backup is missing XML file: {$a}"
+msgstr ""
+
+#: $string['missingparam']
+msgid "A required parameter ({$a}) was missing"
+msgstr ""
+
+#: $string['missingparameter']
+msgid "Parameter missing"
+msgstr ""
+
+#: $string['missingrequiredfield']
+msgid "Some required field is missing"
+msgstr ""
+
+#: $string['missinguseranditemid']
+msgid "Missing userid and itemid"
+msgstr ""
+
+#: $string['missingvarname']
+msgid "Required variable name is missing!"
+msgstr ""
+
+#: $string['mixedtypesqlparam']
+msgid "ERROR: Mixed types of sql query parameters!!"
+msgstr ""
+
+#: $string['mnetdisable']
+msgid "MNET is disabled"
+msgstr ""
+
+#: $string['mnetlocal']
+msgid "Remote MNET users cannot log in locally"
+msgstr ""
+
+#: $string['moduledisable']
+msgid "This module ({$a}) has been disabled for this particular course"
+msgstr ""
+
+#: $string['moduledoesnotexist']
+msgid "This module does not exist"
+msgstr ""
+
+#: $string['moduleinstancedoesnotexist']
+msgid "The instance of this module does not exist"
+msgstr ""
+
+#: $string['modulemissingcode']
+msgid "Module {$a} is missing the code needed to perform this function"
+msgstr ""
+
+#: $string['movecatcontentstoroot']
+msgid ""
+"Moving the category content to root is not allowed. You must move the "
+"contents to an existing category!"
+msgstr ""
+
+#: $string['movecategorynotpossible']
+msgid "You cannot move category '{$a}' into the selected category."
+msgstr ""
+
+#: $string['movecategoryownparent']
+msgid "You cannot make category '{$a}' a parent of itself."
+msgstr ""
+
+#: $string['movecategoryparentconflict']
+msgid ""
+"You cannot make category '{$a}' a subcategory of one of its own "
+"subcategories."
+msgstr ""
+
+#: $string['mssqlrcsmodemissing']
+msgid ""
+"The database is not using the expected READ_COMMITTED_SNAPSHOT mode which "
+"can lead to wrong results, especially under high concurrency scenarios. "
+"Please enable it for correct behaviour. For further information, see the "
+"documentation <a "
+"href=\"https://docs.moodle.org/en/Installing_MSSQL_for_PHP\">Installing MSSQL "
+"for PHP</a>."
+msgstr ""
+
+#: $string['multiplerecordsfound']
+msgid "Multiple records found, only one record expected."
+msgstr ""
+
+#: $string['multiplerestorenotallow']
+msgid "Multiple restore execution not allowed!"
+msgstr ""
+
+#: $string['mustbeloggedin']
+msgid "You must be logged in to do this"
+msgstr ""
+
+#: $string['mustbeteacher']
+msgid "You must be a teacher to look at this page"
+msgstr ""
+
+#: $string['myisamproblem']
+msgid ""
+"Database tables are using MyISAM database engine, it is recommended to use "
+"ACID compliant engine with full transaction support such as InnoDB."
+msgstr ""
+
+#: $string['needcopy']
+msgid "You need to copy something first!"
+msgstr ""
+
+#: $string['needcoursecategroyid']
+msgid "Either course id or category must be specified"
+msgstr ""
+
+#: $string['needphpext']
+msgid "You need to add {$a} support to your PHP installation"
+msgstr ""
+
+#: $string['noadmins']
+msgid "No administrators!"
+msgstr ""
+
+#: $string['noblocks']
+msgid "No blocks found!"
+msgstr ""
+
+#: $string['nocapabilitytousethisservice']
+msgid "The user hasn't the required capability to use this service"
+msgstr ""
+
+#: $string['nocategorydelete']
+msgid "Category '{$a}' cannot be deleted!"
+msgstr ""
+
+#: $string['nocontext']
+msgid "Sorry, but that course is not a valid context"
+msgstr ""
+
+#: $string['nodata']
+msgid "No data"
+msgstr ""
+
+#: $string['noexistingcategory']
+msgid "No existing category"
+msgstr ""
+
+#: $string['nofile']
+msgid "File not specified"
+msgstr ""
+
+#: $string['nofiltersenabled']
+msgid "No filters are enabled."
+msgstr ""
+
+#: $string['nofolder']
+msgid "Requested directory does not exist"
+msgstr ""
+
+#: $string['noformdesc']
+msgid "No formslib form description file found for this activity."
+msgstr ""
+
+#: $string['noguest']
+msgid "No guests here!"
+msgstr ""
+
+#: $string['noinstances']
+msgid "There are no instances of {$a} in this course!"
+msgstr ""
+
+#: $string['nologinas']
+msgid "You are not allowed to log in as that user"
+msgstr ""
+
+#: $string['nonmeaningfulcontent']
+msgid "Non meaningful content"
+msgstr ""
+
+#: $string['noparticipants']
+msgid "No participants found for this course"
+msgstr ""
+
+#: $string['noparticipatorycms']
+msgid "Sorry, but you have no participatory course modules to report on"
+msgstr ""
+
+#: $string['nopermissions']
+msgid "Sorry, but you do not currently have permissions to do that ({$a})"
+msgstr ""
+
+#: $string['nopermissiontocomment']
+msgid "You can't add comments"
+msgstr ""
+
+#: $string['nopermissiontodelentry']
+msgid "You can't delete other people's entries!"
+msgstr ""
+
+#: $string['nopermissiontoeditcomment']
+msgid "You can't edit other people's comments!"
+msgstr ""
+
+#: $string['nopermissiontohide']
+msgid "No permission to hide!"
+msgstr ""
+
+#: $string['nopermissiontoimportact']
+msgid ""
+"You do not have the required permissions to import activities to this course"
+msgstr ""
+
+#: $string['nopermissiontolock']
+msgid "No permission to lock!"
+msgstr ""
+
+#: $string['nopermissiontomanagegroup']
+msgid "You do not have the required permissions to manage groups"
+msgstr ""
+
+#: $string['nopermissiontorate']
+msgid "Rating of items not allowed!"
+msgstr ""
+
+#: $string['nopermissiontoshow']
+msgid "No permission to see this!"
+msgstr ""
+
+#: $string['nopermissiontounlock']
+msgid "No permission to unlock!"
+msgstr ""
+
+#: $string['nopermissiontoupdatecalendar']
+msgid ""
+"Sorry, but you do not currently have permissions to update calendar event"
+msgstr ""
+
+#: $string['nopermissiontoviewgrades']
+msgid "Can not view grades."
+msgstr ""
+
+#: $string['nopermissiontoviewletergrade']
+msgid "Missing permission to view letter grades"
+msgstr ""
+
+#: $string['nopermissiontoviewpage']
+msgid "You are not allowed to look at this page"
+msgstr ""
+
+#: $string['nosite']
+msgid "Could not find a top-level course!"
+msgstr ""
+
+#: $string['nositeid']
+msgid "No site ID"
+msgstr ""
+
+#: $string['nostartdatenoenddate']
+msgid "A course end date can only be set if a start date is also set."
+msgstr ""
+
+#: $string['nostatstodisplay']
+msgid "Sorry, there is no available data to display"
+msgstr ""
+
+#: $string['notallowedtoupdateprefremotely']
+msgid "You are not allowed to update this user preference remotely"
+msgstr ""
+
+#: $string['notavailable']
+msgid "That is not currently available"
+msgstr ""
+
+#: $string['notlocalisederrormessage']
+msgid "{$a}"
+msgstr ""
+
+#: $string['notmemberofgroup']
+msgid "You are not a member of this course group"
+msgstr ""
+
+#: $string['notownerofkey']
+msgid "You are not owner of this key"
+msgstr ""
+
+#: $string['nousers']
+msgid "No such user!"
+msgstr ""
+
+#: $string['oauth1accesstoken']
+msgid "OAuth 1.0 error: We did not obtain the access token."
+msgstr ""
+
+#: $string['oauth1requesttoken']
+msgid ""
+"OAuth 1.0 error: We did not obtain the request token - the service provider "
+"may be temporarily down."
+msgstr ""
+
+#: $string['onlyadmins']
+msgid "Only administrators can do that"
+msgstr ""
+
+#: $string['onlyeditingteachers']
+msgid "Only editing teachers can do that"
+msgstr ""
+
+#: $string['onlyeditown']
+msgid "You can only edit your own information"
+msgstr ""
+
+#: $string['orderidnotfound']
+msgid "Order ID {$a} not found"
+msgstr ""
+
+#: $string['pagenotexist']
+msgid "An unusual error occurred (tried to reach a page that does not exist)"
+msgstr ""
+
+#: $string['pathdoesnotstartslash']
+msgid "No valid arguments supplied, path does not start with slash!"
+msgstr ""
+
+#: $string['pleasereport']
+msgid ""
+"If you have time, please let us know what you were trying to do when the "
+"error occurred:"
+msgstr ""
+
+#: $string['pluginrequirementsnotmet']
+msgid ""
+"Plugin \"{$a->pluginname}\" ({$a->pluginversion}) could not be installed.  It "
+"requires a newer version of Moodle (currently you are using "
+"{$a->currentmoodle}, you need {$a->requiremoodle})."
+msgstr ""
+
+#: $string['prefixcannotbeempty']
+msgid ""
+"<p>Error: database table prefix cannot be empty ({$a})</p>\n"
+"<p>The site administrator must fix this problem.</p>"
+msgstr ""
+
+#: $string['prefixtoolong']
+msgid ""
+"<p>Error: database table prefix is too long ({$a->dbfamily})</p>\n"
+"<p>The site administrator must fix this problem. Maximum length for table "
+"prefixes in {$a->dbfamily} is {$a->maxlength} characters.</p>"
+msgstr ""
+
+#: $string['privatefilesupload']
+msgid ""
+"Uploading directly to user private files area is no longer supported. Upload "
+"to a draft area and then move the files with "
+"core_user::add_user_private_files"
+msgstr ""
+
+#: $string['processingstops']
+msgid "Processing stops here. Remaining records ignored."
+msgstr ""
+
+#: $string['protected_cc_not_supported']
+msgid "Protected cartridges not supported."
+msgstr ""
+
+#: $string['querystringcannotbeempty']
+msgid "The query string cannot be empty."
+msgstr ""
+
+#: $string['redirecterrordetected']
+msgid "Unsupported redirect detected, script execution terminated"
+msgstr ""
+
+#: $string['refoundto']
+msgid "Can be refunded to {$a}"
+msgstr ""
+
+#: $string['refoundtoorigi']
+msgid "Refunded to original amount: {$a}"
+msgstr ""
+
+#: $string['registrationdisabled']
+msgid "Registration is disabled on this site"
+msgstr ""
+
+#: $string['remotedownloaderror']
+msgid ""
+"<p>The download of the component to your server failed. Please verify proxy "
+"settings; the PHP cURL extension is highly recommended.</p>\n"
+"<p>You must download the <a href=\"{$a->url}\">{$a->url}</a> file manually, "
+"copy it to \"{$a->dest}\" in your server and unzip it there.</p>"
+msgstr ""
+
+#: $string['remotedownloadnotallowed']
+msgid ""
+"Download of components to your server isn't allowed (allow_url_fopen is "
+"disabled).<br /><br />You must download the <a "
+"href=\"{$a->url}\">{$a->url}</a> file manually, copy it to \"{$a->dest}\" in "
+"your server and unzip it there."
+msgstr ""
+
+#: $string['reportnotavailable']
+msgid "This type of report is only available for the site course"
+msgstr ""
+
+#: $string['requirecorrectaccess']
+msgid "Invalid url or port."
+msgstr ""
+
+#: $string['requireloginerror']
+msgid "Course or activity not accessible."
+msgstr ""
+
+#: $string['restorechecksumfailed']
+msgid ""
+"Some problem happened with the restore information stored in your session. "
+"Please check your PHP memory/DB package size limits. Restore stopped."
+msgstr ""
+
+#: $string['restore_path_element_missingmethod']
+msgid "Restore method {$a} is missing. It must be defined by a developer."
+msgstr ""
+
+#: $string['restore_path_element_noobject']
+msgid "Restore object {$a} is not an object."
+msgstr ""
+
+#: $string['restrictedcontextexception']
+msgid "Sorry, execution of external function violates context restriction."
+msgstr ""
+
+#: $string['restricteduser']
+msgid "Sorry, but your current account \"{$a}\" is restricted from doing that"
+msgstr ""
+
+#: $string['reverseproxyabused']
+msgid ""
+"Reverse proxy enabled, server can not be accessed directly, sorry.<br "
+"/>Please contact server administrator."
+msgstr ""
+
+#: $string['rpcerror']
+msgid ""
+"Ooops! Your MNET communication has failed! Here's that error message to pass "
+"on to your administrator: {$a}"
+msgstr ""
+
+#: $string['scheduledbackupsdisabled']
+msgid "Scheduled backups have been disabled by the server admin"
+msgstr ""
+
+#: $string['secretalreadyused']
+msgid ""
+"Change password confirmation link was already used, password was not changed"
+msgstr ""
+
+#: $string['sectionnotexist']
+msgid "This section does not exist"
+msgstr ""
+
+#: $string['sendmessage']
+msgid "Send message"
+msgstr ""
+
+#: $string['serverconnection']
+msgid "Error connecting to the server"
+msgstr ""
+
+#: $string['servicedonotexist']
+msgid "The service does not exist"
+msgstr ""
+
+#: $string['sessioncookiesdisable']
+msgid ""
+"Incorrect use of require_key_login() - session cookies must be disabled!"
+msgstr ""
+
+#: $string['sessiondiskfull']
+msgid ""
+"The session partition is full. It is not possible to log in at this time. "
+"Please notify the server administrator."
+msgstr ""
+
+#: $string['sessionerroruser']
+msgid "Your session has timed out. Please log in again."
+msgstr ""
+
+#: $string['sessionerroruser2']
+msgid ""
+"A server error that affects your login session was detected. Please log in "
+"again or restart your browser."
+msgstr ""
+
+#: $string['sessionhandlerproblem']
+msgid "Session handler is misconfigured"
+msgstr ""
+
+#: $string['sessionipnomatch']
+msgid ""
+"Sorry, but your IP number seems to have changed from when you first logged "
+"in.  This security feature prevents crackers stealing your identity while "
+"logged in to this site.  Normal users should not be seeing this message - "
+"please ask the site administrator for help."
+msgstr ""
+
+#: $string['sessionipnomatch2']
+msgid ""
+"<p>Sorry, but your IP number seems to have changed from when you first "
+"logged in. This security feature prevents crackers stealing your identity "
+"while logged in to this site. You may see this error if you use wireless "
+"networks or if you are roaming between different networks. Please ask the "
+"site administrator for more help.</p>\n"
+"<p>If you want to continue please press F5 key to refresh this page.</p>"
+msgstr ""
+
+#: $string['sessionwaiterr']
+msgid ""
+"Timed out while waiting for session lock.<br />Wait for your current "
+"requests to finish and try again later."
+msgstr ""
+
+#: $string['shortnametaken']
+msgid "Short name is already used for another course ({$a})"
+msgstr ""
+
+#: $string['sitepolicynotagreed']
+msgid ""
+"Site policy not agreed: <a href=\"{$a}\">Click here to open the site "
+"policy.</a>"
+msgstr ""
+
+#: $string['socksnotsupported']
+msgid "SOCKS5 proxy is not supported in PHP4"
+msgstr ""
+
+#: $string['spellcheckernotconf']
+msgid "Spellchecker not configured"
+msgstr ""
+
+#: $string['sslonlyaccess']
+msgid "For security reasons only https connections are allowed, sorry."
+msgstr ""
+
+#: $string['statscatchupmode']
+msgid ""
+"Statistics is currently in catchup mode. So far {$a->daysdone} day(s) have "
+"been processed and {$a->dayspending} are pending. Check back soon!"
+msgstr ""
+
+#: $string['statsdisable']
+msgid "Statistics are not enabled."
+msgstr ""
+
+#: $string['statsnodata']
+msgid ""
+"There is no available data for that combination of course and time period"
+msgstr ""
+
+#: $string['storedfilecannotcreatefile']
+msgid ""
+"Can not create local file pool file, please verify permissions in dataroot "
+"and available disk space."
+msgstr ""
+
+#: $string['storedfilecannotcreatefiledirs']
+msgid ""
+"Can not create local file pool directories, please verify permissions in "
+"dataroot."
+msgstr ""
+
+#: $string['storedfilecannotread']
+msgid ""
+"Cannot read file. Either the file does not exist or there is a permission "
+"problem."
+msgstr ""
+
+#: $string['storedfilecannotreadfile']
+msgid ""
+"Cannot read file '{$a}'. Either the file does not exist or there is a "
+"permission problem."
+msgstr ""
+
+#: $string['storedfilenotcreated']
+msgid ""
+"Can not create file \"{$a->contextid}/{$a->component}/{$a->filearea}/{$a->ite"
+"mid}{$a->filepath}{$a->filename}\""
+msgstr ""
+
+#: $string['storedfileproblem']
+msgid "Unknown exception related to local files ({$a})"
+msgstr ""
+
+#: $string['tagdisabled']
+msgid "Tags are disabled!"
+msgstr ""
+
+#: $string['tagnotfound']
+msgid "The specified tag was not found in the database"
+msgstr ""
+
+#: $string['targetdatabasenotempty']
+msgid "The target database is not empty. Transfer aborted for safety reasons."
+msgstr ""
+
+#: $string['textconditionsnotallowed']
+msgid ""
+"Comparisons of text column conditions are not allowed. Please use "
+"sql_compare_text() in your query."
+msgstr ""
+
+#: $string['themenotinstall']
+msgid "This theme is not installed!"
+msgstr ""
+
+#: $string['TODO']
+msgid "TODO"
+msgstr ""
+
+#: $string['tokengenerationfailed']
+msgid "Cannot generate a new token."
+msgstr ""
+
+#: $string['transactionvoid']
+msgid "Transaction cannot be voided because it has already been voided"
+msgstr ""
+
+#: $string['unenrolerror']
+msgid "An error occurred while trying to unenrol that person"
+msgstr ""
+
+#: $string['unicodeupgradeerror']
+msgid ""
+"Sorry, but your database is not already in Unicode, and this version of "
+"Moodle is not able to migrate your database to Unicode.  Please upgrade to "
+"Moodle 1.7.x first and perform the Unicode migration from the Admin page.  "
+"After that is done you should be able to migrate to Moodle {$a}"
+msgstr ""
+
+#: $string['unknowaction']
+msgid "Unknown action!"
+msgstr ""
+
+#: $string['unknowcategory']
+msgid "Category not known!"
+msgstr ""
+
+#: $string['unknowcontext']
+msgid "This is an unknown context ({$a}) in get_child_contexts!"
+msgstr ""
+
+#: $string['unknowformat']
+msgid "Format not known ({$a})"
+msgstr ""
+
+#: $string['unknownbackupexporterror']
+msgid "Unknown error preparing information for import"
+msgstr ""
+
+#: $string['unknownblockregion']
+msgid "The block region '{$a}' is not recognised on this page."
+msgstr ""
+
+#: $string['unknowncontext']
+msgid "This is an unknown context."
+msgstr ""
+
+#: $string['unknowncourse']
+msgid "Unknown course named \"{$a}\""
+msgstr ""
+
+#: $string['unknowncourseidnumber']
+msgid "Unknown course ID \"{$a}\""
+msgstr ""
+
+#: $string['unknowncourserequest']
+msgid "Unknown course request"
+msgstr ""
+
+#: $string['unknowncoursesection']
+msgid "Unknown course section in course \"{$a}\""
+msgstr ""
+
+#: $string['unknownevent']
+msgid "Unknown event"
+msgstr ""
+
+#: $string['unknownfiletype']
+msgid "Error unknown filtertype"
+msgstr ""
+
+#: $string['unknowngroup']
+msgid "Unknown group \"{$a}\""
+msgstr ""
+
+#: $string['unknownhelp']
+msgid "Unknown help topic {$a}"
+msgstr ""
+
+#: $string['unknownjsinrequirejs']
+msgid "Can not find JS library: {$a}"
+msgstr ""
+
+#: $string['unknownmodulename']
+msgid "Unknown module name for form"
+msgstr ""
+
+#: $string['unknownrole']
+msgid "Unknown role \"{$a}\""
+msgstr ""
+
+#: $string['unknownsortcolumn']
+msgid "Unknown sort column {$a}"
+msgstr ""
+
+#: $string['unknownuseraction']
+msgid "Sorry, I do not understand this user action"
+msgstr ""
+
+#: $string['unknownuserselector']
+msgid "Unknown user selector"
+msgstr ""
+
+#: $string['unknoworder']
+msgid "Unknown ordering"
+msgstr ""
+
+#: $string['unknowparamtype']
+msgid "Unknown parameter type: {$a}"
+msgstr ""
+
+#: $string['unknowquestiontype']
+msgid "Unsupported question type {$a}"
+msgstr ""
+
+#: $string['unknowuploadaction']
+msgid "Error: Unknown upload action ({$a})"
+msgstr ""
+
+#: $string['unspecifycourseid']
+msgid "Must specify course id, short name or idnumber"
+msgstr ""
+
+#: $string['unsupportedevent']
+msgid "Unsupported event type"
+msgstr ""
+
+#: $string['unsupportedstate']
+msgid "Unsupported completion state"
+msgstr ""
+
+#: $string['unsupportedwebserver']
+msgid "Web server software ({$a}) is not supported, sorry."
+msgstr ""
+
+#: $string['upgraderequires19']
+msgid ""
+"Error: New Moodle version was installed on server, unfortunately upgrade "
+"from the previous version is not supported.<br />Please upgrade first to "
+"latest 1.9.x release. You can also return to previous version by "
+"reinstalling original files."
+msgstr ""
+
+#: $string['upgraderunning']
+msgid "Site is being upgraded, please retry later."
+msgstr ""
+
+#: $string['urlnotdefinerss']
+msgid "URL not defined for RSS feed"
+msgstr ""
+
+#: $string['useradmineditadmin']
+msgid "Only administrators are allowed to modify other administrator accounts"
+msgstr ""
+
+#: $string['useradminodelete']
+msgid "Administrator accounts can not be deleted"
+msgstr ""
+
+#: $string['userautherror']
+msgid "Unknown auth plugin"
+msgstr ""
+
+#: $string['userauthunsupported']
+msgid "Auth plugin not supported here"
+msgstr ""
+
+#: $string['useremailduplicate']
+msgid "Duplicate address"
+msgstr ""
+
+#: $string['usermustbemnet']
+msgid "Users in the MNET access control list must be remote MNET users"
+msgstr ""
+
+#: $string['usernotaddederror']
+msgid "User not added - error"
+msgstr ""
+
+#: $string['usernotaddedregistered']
+msgid "User not added - already registered"
+msgstr ""
+
+#: $string['usernotavailable']
+msgid "The details of this user are not available to you"
+msgstr ""
+
+#: $string['usernotdeletedadmin']
+msgid "User not deleted - can not delete administrator accounts"
+msgstr ""
+
+#: $string['usernotdeleteddeleted']
+msgid "This user has already been deleted."
+msgstr ""
+
+#: $string['usernotdeletederror']
+msgid "User not deleted - error"
+msgstr ""
+
+#: $string['usernotdeletedmissing']
+msgid "User not deleted - could not find the username"
+msgstr ""
+
+#: $string['usernotdeletedoff']
+msgid "User not deleted - deleting not allowed"
+msgstr ""
+
+#: $string['usernotfullysetup']
+msgid "User not fully set-up"
+msgstr ""
+
+#: $string['usernotincourse']
+msgid "This user is not in this course!"
+msgstr ""
+
+#: $string['usernotrenamedadmin']
+msgid "Cannot rename admin accounts"
+msgstr ""
+
+#: $string['usernotrenamedexists']
+msgid "User not renamed - the new username is already in use"
+msgstr ""
+
+#: $string['usernotrenamedmissing']
+msgid "User not renamed - could not find the old username"
+msgstr ""
+
+#: $string['usernotrenamedoff']
+msgid "User not renamed - renaming not allowed"
+msgstr ""
+
+#: $string['usernotupdatedadmin']
+msgid "Cannot update admin accounts"
+msgstr ""
+
+#: $string['usernotupdatederror']
+msgid "User not updated - error"
+msgstr ""
+
+#: $string['usernotupdatednotexists']
+msgid "User not updated - does not exist"
+msgstr ""
+
+#: $string['userquotalimit']
+msgid "You have reached your file quota limit."
+msgstr ""
+
+#: $string['userselectortoomany']
+msgid ""
+"user_selector got more than one selected user, even though multiselect is "
+"false."
+msgstr ""
+
+#: $string['wrongcall']
+msgid "This script is called wrongly"
+msgstr ""
+
+#: $string['wrongcontextid']
+msgid "Context ID was incorrect (cannot find it)"
+msgstr ""
+
+#: $string['wrongdestpath']
+msgid "Wrong destination path"
+msgstr ""
+
+#: $string['wrongroleid']
+msgid "Incorrect role ID!"
+msgstr ""
+
+#: $string['wrongsourcebase']
+msgid "Wrong source URL base"
+msgstr ""
+
+#: $string['wrongusernamepassword']
+msgid "Wrong user/password"
+msgstr ""
+
+#: $string['wrongzipfilename']
+msgid "Wrong ZIP file name"
+msgstr ""
+
+#: $string['wscouldnotcreateecoursenopermission']
+msgid "WS - Could not create course - No permission"
+msgstr ""
+
+#: $string['wwwrootmismatch']
+msgid ""
+"Incorrect access detected, this server may be accessed only through \"{$a}\" "
+"address, sorry.<br />Please notify server administrator."
+msgstr ""
+
+#: $string['wwwrootslash']
+msgid ""
+"Detected incorrect $CFG->wwwroot in config.php, it must not contain trailing "
+"slash.<br />Please notify server administrator."
+msgstr ""
+
+#: $string['xmldberror']
+msgid "XMLDB error!"
+msgstr ""
+
+#: $string['youcannotdeletecategory']
+msgid ""
+"You cannot delete category '{$a}' because you can neither delete the "
+"contents, nor move them elsewhere."
+msgstr ""

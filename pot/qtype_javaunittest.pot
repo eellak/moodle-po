@@ -1,0 +1,573 @@
+#. extracted from lang/en/qtype_javaunittest.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qtype_javaunittest', language 'en', branch 'MOODLE_30_STABLE'
+#.  *
+#.  * @package   qtype_javaunittest
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['accesscontrolexception']
+msgid "AccessControlException occurred."
+msgstr ""
+
+#: $string['apperance_heading']
+msgid "Appearance"
+msgstr ""
+
+#: $string['arrayindexoutofboundexception']
+msgid "ArrayIndexOutOfBoundException occurred."
+msgstr ""
+
+#: $string['assertfailures_actual']
+msgid "Actual value:"
+msgstr ""
+
+#: $string['assertfailures_expected']
+msgid "Expected value:"
+msgstr ""
+
+#: $string['assertfailures_string']
+msgid "Error description:"
+msgstr ""
+
+#: $string['bufferoverflowexception']
+msgid "BufferOverflowException occurred."
+msgstr ""
+
+#: $string['bufferunderflowexception']
+msgid "BufferUnderflowError occurred."
+msgstr ""
+
+#: $string['CA']
+msgid "CORRECT ANSWER: All answers are correct."
+msgstr ""
+
+#: $string['CE']
+msgid ""
+"COMPILER ERROR: Your source code does not compile. Please check it for "
+"errors."
+msgstr ""
+
+#: $string['classcastexception']
+msgid "ClassCastException occurred."
+msgstr ""
+
+#: $string['compiling']
+msgid "compiling... [{$a}s]"
+msgstr ""
+
+#: $string['crontask']
+msgid "Unittest feedback cleanup"
+msgstr ""
+
+#: $string['debug_heading']
+msgid "Local debug information"
+msgstr ""
+
+#: $string['debug_heading_desc']
+msgid "Enable only for testing! (only local java execution)"
+msgstr ""
+
+#: $string['debug_logfile']
+msgid "Save logfiles to temporary directory"
+msgstr ""
+
+#: $string['debug_nocleanup']
+msgid "Do not clean up temporary files and directories"
+msgstr ""
+
+#: $string['editor']
+msgid "Code input fields"
+msgstr ""
+
+#: $string['editor_desc']
+msgid ""
+"Defines appearance of the code input fields.<br>CodeMirror: Uses the <a "
+"href=\"http://codemirror.net/\">CodeMirror Editor</a>, when javascript is "
+"activated.<br>EnableTab Textarea: Uses a common text area, where tabs can be "
+"used to indent, when javascript is activated.<br>Simple Textarea: Uses a "
+"common text area without any features."
+msgstr ""
+
+#: $string['feedbacklevel_assertactual']
+msgid "In assert failure case show actual value (default 0))"
+msgstr ""
+
+#: $string['feedbacklevel_assertactual_help']
+msgid ""
+"In assert failure case show actual value. <br>Example: "
+"<tt>assertEquals(\"method MyMath.add() is wrong\", \"2\", "
+"Integer.toString(MyMath.add(1,1))</tt><br>Adds to feedback: <i>method "
+"MyMath.add() is wrong</i>, Actual value <i>-17</i><br>Combinable with show "
+"assert expected value<br><br>Can lead students to implementat methods only "
+"to fit test cases.<br>Can be abused to show system information or test "
+"information about this variable in case of a matching policy settings."
+msgstr ""
+
+#: $string['feedbacklevel_assertexpected']
+msgid "In assert failure case show expected value (default 0)"
+msgstr ""
+
+#: $string['feedbacklevel_assertexpected_help']
+msgid ""
+"In assert failure case show expected value. <br>Example: "
+"<tt>assertEquals(\"method MyMath.add() is wrong\", \"2\", "
+"Integer.toString(MyMath.add(1,1))</tt><br>Adds to feedback: <i>method "
+"MyMath.add() is wrong</i>, Expected value <i>2</i><br>Combinable with show "
+"assert actual value<br>Can lead to test specific implementations from "
+"students."
+msgstr ""
+
+#: $string['feedbacklevel_assertheader']
+msgid "Assert methods"
+msgstr ""
+
+#: $string['feedbacklevel_assertstring']
+msgid "In assert failure case show assert feedback string"
+msgstr ""
+
+#: $string['feedbacklevel_assertstring_help']
+msgid ""
+"In assert failure case show assert feedback string. <br>Example: "
+"<tt>assertEquals(\"method MyMath.add() is wrong\", \"2\", "
+"Integer.toString(MyMath.add(1,1))</tt><br>Adds to feedback: <i>method "
+"MyMath.add() is wrong</i>"
+msgstr ""
+
+#: $string['feedbacklevel_compilerheader']
+msgid "Compiler feedback"
+msgstr ""
+
+#: $string['feedbacklevel_completeheader']
+msgid "JUnit"
+msgstr ""
+
+#: $string['feedbacklevel_counttests']
+msgid "Show number of tests, failures and errors"
+msgstr ""
+
+#: $string['feedbacklevel_counttests_help']
+msgid "Show number of tests, failures and errors that is returned by Junit"
+msgstr ""
+
+#: $string['feedbacklevelheader']
+msgid "Feedback"
+msgstr ""
+
+#: $string['feedbacklevel_junitcompiler']
+msgid ""
+"Show compiler errors for junit code (default 0, see (?) button and "
+"documentation)"
+msgstr ""
+
+#: $string['feedbacklevel_junitcompiler_help']
+msgid ""
+"Show compiler errors, when the JUnit test code does not compile.<br>There "
+"are mainly two reasons:<br>- The JUnit code has bugs and needs to be fixed "
+"by the question creator.<br>- The JUnit code expects certain interface to "
+"student code (e.g. calling an expected method in student code), which is "
+"actually not available. There are different possibilties to handle "
+"that:<br>&nbsp;&nbsp;&nbsp;&nbsp;a) Only use reflections to access "
+"student\\'s code (needs certain rights in policy of the security "
+"manager)<br>&nbsp;&nbsp;&nbsp;&nbsp;b) add the JUnit compiler error to "
+"feedback by activating these checkbox (student has to unterstand these error "
+"message to solve the problem; sees parts of the test class as a side "
+"effect)<br>&nbsp;&nbsp;&nbsp;&nbsp;c) Adding the expected signature of the "
+"student code to the question in the optional section Solution. Correct "
+"structure of student code is checked between compiling of student code and "
+"test code."
+msgstr ""
+
+#: $string['feedbacklevel_junitcomplete']
+msgid "Show whole junit output (default 0))"
+msgstr ""
+
+#: $string['feedbacklevel_junitcomplete_help']
+msgid ""
+"Show whole junit output <br>Useful for debugging, not recommended for "
+"production usage, because students would deal with irrelevant or system "
+"specific information."
+msgstr ""
+
+#: $string['feedbacklevel_junitheader']
+msgid "Show JUnit header (default 0)"
+msgstr ""
+
+#: $string['feedbacklevel_junitheader_help']
+msgid ""
+"Shows JUnit header (version and tests, failures and errors, nearly the same "
+"as the previous option)"
+msgstr ""
+
+#: $string['feedbacklevel_studentcompiler']
+msgid "Show compiler errors for student code"
+msgstr ""
+
+#: $string['feedbacklevel_studentcompiler_help']
+msgid "Show compiler errors for student code, if it does not compile"
+msgstr ""
+
+#: $string['feedbacklevel_studentsignature']
+msgid "Show signature differences"
+msgstr ""
+
+#: $string['feedbacklevel_studentsignature_help']
+msgid ""
+"Show the concrete signature differences, if an expected signature was "
+"deposited and does not match with the signature of the student's code."
+msgstr ""
+
+#: $string['feedbacklevel_testnumheader']
+msgid "Test summary"
+msgstr ""
+
+#: $string['feedbacklevel_times']
+msgid "Show roundtrip time for computation"
+msgstr ""
+
+#: $string['feedbacklevel_times_help']
+msgid ""
+"Show roundtrip time for compiling, verificating, executing and processing"
+msgstr ""
+
+#: $string['filenotfoundexception']
+msgid "FileNotFoundException occurred."
+msgstr ""
+
+#: $string['givencode']
+msgid "Given code"
+msgstr ""
+
+#: $string['givencode_help']
+msgid ""
+"Given code to be completed by student. Code is shown in a text area. "
+"Refreshing the test sets the code back to given code.<br>Only one "
+"<tt>public</tt> class is allowed to exist, no limit for not public classes."
+msgstr ""
+
+#: $string['hiddenfails']
+msgid "{$a} other tests failed."
+msgstr ""
+
+#: $string['ioexception']
+msgid "IOException occurred."
+msgstr ""
+
+#: $string['JE']
+msgid ""
+"JUNIT TEST FILE ERROR: Test cannot be executed. The given answer seems to be "
+"incompatible to the test class or the test class could not be compiled. "
+"(Your code was compiled successfully but does not match with the test code. "
+"Please check again all members and methods with its identifiers and data "
+"types.)"
+msgstr ""
+
+#: $string['limit_heading']
+msgid "Resource limits"
+msgstr ""
+
+#: $string['local_execution_desc']
+msgid ""
+"If you want compiling and test running on this server you need to set the "
+"following."
+msgstr ""
+
+#: $string['local_execution_heading']
+msgid "Execution on this server"
+msgstr ""
+
+#: $string['memory_limit_output']
+msgid "Memory limit (output) in KB"
+msgstr ""
+
+#: $string['memory_limit_output_desc']
+msgid "Limits the size of outputs during test executions."
+msgstr ""
+
+#: $string['memory_xmx']
+msgid "Memory limit (heap) in MB"
+msgstr ""
+
+#: $string['memory_xmx_desc']
+msgid ""
+"This sets the option -Xmx for the Java VM. Specifies the maximum size of the "
+"memory allocation pool."
+msgstr ""
+
+#: $string['missing_classes_headline']
+msgid "Missing classes:"
+msgstr ""
+
+#: $string['missing_classes_text1']
+msgid "The expected class <tt>{$a}</tt>"
+msgstr ""
+
+#: $string['missing_classes_text2']
+msgid "(<tt>{$a}</tt>) is missing."
+msgstr ""
+
+#: $string['missing_members_headline']
+msgid "Missing class members:"
+msgstr ""
+
+#: $string['missing_members_text1']
+msgctxt "$string['missing_members_text1']"
+msgid "In class <tt>{$a}</tt>"
+msgstr ""
+
+#: $string['missing_members_text2']
+msgid "the member <tt>{$a}</tt> is missing."
+msgstr ""
+
+#: $string['missing_methods_headline']
+msgid "Missing methods:"
+msgstr ""
+
+#: $string['missing_methods_text1']
+msgctxt "$string['missing_methods_text1']"
+msgid "In class <tt>{$a}</tt>"
+msgstr ""
+
+#: $string['missing_methods_text2']
+msgid "the method <tt>{$a}</tt> is missing."
+msgstr ""
+
+#: $string['negativearraysizeexception']
+msgid "NegativeArraySizeException occurred."
+msgstr ""
+
+#: $string['nlines']
+msgid "{$a} lines"
+msgstr ""
+
+#: $string['nullpointerexception']
+msgid "NullPointerException occurred."
+msgstr ""
+
+#: $string['outofmemoryerror']
+msgid "OutOfMemoryError occurred."
+msgstr ""
+
+#: $string['pathhamcrest']
+msgid "Path of hamcrest jar"
+msgstr ""
+
+#: $string['pathjava']
+msgid "Path of java binary"
+msgstr ""
+
+#: $string['pathjavac']
+msgid "Path of javac binary"
+msgstr ""
+
+#: $string['pathjavap']
+msgid "Path of javap"
+msgstr ""
+
+#: $string['pathjunit']
+msgid "Path of junit jar"
+msgstr ""
+
+#: $string['pathpolicy']
+msgid "Path of the policy file for the Java Security Manager"
+msgstr ""
+
+#: $string['PCA']
+msgid "PARTIALLY CORRECT ANSWER: Some answers are correct, some not."
+msgstr ""
+
+#: $string['pluginname']
+msgid "javaunittest"
+msgstr ""
+
+#: $string['pluginnameadding']
+msgid "Adding a javaunittest question"
+msgstr ""
+
+#: $string['pluginnameediting']
+msgid "Editing a javaunittest question"
+msgstr ""
+
+#: $string['pluginname_help']
+msgid "JUnit question type"
+msgstr ""
+
+#: $string['pluginname_link']
+msgid "question/type/javaunittest"
+msgstr ""
+
+#: $string['pluginnamesummary']
+msgid "Allows to evaluate java code responses by a self written JUnit test"
+msgstr ""
+
+#: $string['precommand']
+msgid "Command before test execution"
+msgstr ""
+
+#: $string['precommand_desc']
+msgid ""
+"This will be executed on shell before the tests. You may use ulimit to limit "
+"resources (e.g. cpu time) for the tests."
+msgstr ""
+
+#: $string['remote_execution_heading']
+msgid "Execution on other server"
+msgstr ""
+
+#: $string['remoteserver']
+msgid "Remote URL"
+msgstr ""
+
+#: $string['remoteserver_desc']
+msgid ""
+"Give a URL to a remote machine if you want remote compiling and test "
+"running. Otherwise leave this empty if you wish execution on this server. "
+"The remote server may override the settings for memory and time limit. (e.g. "
+"http://remoteserver/moodle_qtype_javaunittest/server.php)"
+msgstr ""
+
+#: $string['remoteserver_password']
+msgid "Password"
+msgstr ""
+
+#: $string['remoteserver_user']
+msgid "Username"
+msgstr ""
+
+#: $string['responsefieldlines']
+msgid "Input box size for code textareas"
+msgstr ""
+
+#: $string['RSE']
+msgid ""
+"REMOTE SERVER ERROR: The remote server is not reachable or does not work."
+msgstr ""
+
+#: $string['running']
+msgid "running... [{$a}s]"
+msgstr ""
+
+#: $string['signature']
+msgid "Expected signature (optional)"
+msgstr ""
+
+#: $string['signature_help']
+msgid ""
+"Expected signature of student code can be placed here.<br>When student code "
+"was compiled, the compilation will be evaluated to this signature. Signature "
+"of compilation has to contain this expected signature. When elements are "
+"missing, then the validation will be ended and 0 points are given.<br>Useful "
+"to avoid that the junit test code does not compile, because the interface "
+"is not matching. (e.g. student has different attribute, method names or "
+"types as by the exercise asked). Use reflections as an other way or accept "
+"the possibility of not compiling test class.<br>Uses <tt>javap -p -constants "
+"Studentfile.class</tt>.<br>Order of classes and methods is not "
+"important.<br>Does <b>not</b> delete additional whitespaces. Signature has "
+"to be fit the <tt>javap</tt> output format.<br><br>Example "
+"signature:<tt><br>class Factorial {<br>&nbsp;&nbsp;&nbsp;&nbsp;public static "
+"double factorial(int);<br>}<br></tt><br>(You can compile your sample "
+"solution local, run the <tt>javap -p -constants Studentfile.class</tt>, copy "
+"the output here. (Planned feature to add a button doing exactly this.))"
+msgstr ""
+
+#: $string['solution']
+msgid "Sample solution (optional)"
+msgstr ""
+
+#: $string['solutionannounce']
+msgctxt "$string['solutionannounce']"
+msgid "Sample solution"
+msgstr ""
+
+#: $string['solutionheader']
+msgctxt "$string['solutionheader']"
+msgid "Sample solution"
+msgstr ""
+
+#: $string['solution_help']
+msgid ""
+"Sample solution can be placed here.<br>Sample solution can be loaded in quiz "
+"preview with button, to verify sample code to test class.<br>Sample "
+"solution can be shown to student after finishing the exercise, with matching "
+"quiz settings."
+msgstr ""
+
+#: $string['SSM']
+msgid ""
+"SIGNATURE MISSMATCH: Test cannot be executed. Given code does not match the "
+"expectations. Please check again all members and methodes with its "
+"identifiers and data types."
+msgstr ""
+
+#: $string['stackoverflowerror']
+msgid "StackOverflowError occurred."
+msgstr ""
+
+#: $string['stringindexoutofboundexception']
+msgid "StringIndexOutOfBoundException occurred."
+msgstr ""
+
+#: $string['testclassname']
+msgid "JUnit test class name"
+msgstr ""
+
+#: $string['testclassname_help']
+msgid ""
+"The JUnit class name of the following JUnit test code. The JUnit class name "
+"must be the same as the class name in the following \"JUnit test code\" "
+"section."
+msgstr ""
+
+#: $string['timeout_real']
+msgid "Timeout"
+msgstr ""
+
+#: $string['timeout_real_desc']
+msgid "Timeout in seconds (real time) for test executions."
+msgstr ""
+
+#: $string['TO']
+msgid "TIMEOUT: The execution time limit is reached."
+msgstr ""
+
+#: $string['uploadtestclass']
+msgid "JUnit test class"
+msgstr ""
+
+#: $string['uploadtestclass_help']
+msgid ""
+"The JUnit test class evaluates the student code.<br>Information and examples "
+"to JUnit in the javaunittest documentation and at <a "
+"href=\"http://junit.org/\">http://junit.org</a>"
+msgstr ""
+
+#: $string['WA']
+msgid "WRONG ANSWER: All answers are wrong."
+msgstr ""

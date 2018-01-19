@@ -1,0 +1,602 @@
+#. extracted from lang/en/tool_coursearchiver.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'tool_coursearchiver', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   tool_coursearchiver
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['access']
+msgid "Last accessed before"
+msgstr ""
+
+#: $string['anycategory']
+msgid "Any Category"
+msgstr ""
+
+#: $string['archive']
+msgid "Archive Courses"
+msgstr ""
+
+#: $string['archiveemail']
+msgid "Send \"Course to be Archived\" Emails"
+msgstr ""
+
+#: $string['archivelocation']
+msgid "Course archive subdirectory"
+msgstr ""
+
+#: $string['archivewarningemailsetting']
+msgid "Default Email Warning for Course Archival"
+msgstr ""
+
+#: $string['archivewarningemailsettingdefault']
+msgid ""
+"%to\n"
+"\n"
+"We would like to inform you that the following Moodle course(s) that you "
+"have taught are soon to be archived.\n"
+"This means that the course will be backed up in its current state and then "
+"removed from Moodle.  If you would like to opt out of this process for one "
+"of the following courses, please click the link beside the course.\n"
+"\n"
+"%courses\n"
+"\n"
+"Thank you."
+msgstr ""
+
+#: $string['archivewarningemailsetting_help']
+msgid ""
+"This is the contents of an email that will be sent to all teachers of a "
+"course that is selected to be archived."
+msgstr ""
+
+#: $string['archivewarningsubject']
+msgid "Notice: Courses will be archived soon."
+msgstr ""
+
+#: $string['back']
+msgid "Start Over"
+msgstr ""
+
+#: $string['cannotdeletecoursenotexist']
+msgid "Cannot delete a course that does not exist"
+msgstr ""
+
+#: $string['category']
+msgid "Category"
+msgstr ""
+
+#: $string['cli_cannot_continue']
+msgid "\\nSTOPPED: Not enough data to continue.\\n"
+msgstr ""
+
+#: $string['cli_question_archive']
+msgid "Archive and delete these {$a} courses?"
+msgstr ""
+
+#: $string['cli_question_archiveemail']
+msgid "Send these {$a} users a \"Course to be archived\" email?"
+msgstr ""
+
+#: $string['cli_question_delete']
+msgid "Delete these {$a} courses?"
+msgstr ""
+
+#: $string['cli_question_hide']
+msgid "Hide these {$a} courses?"
+msgstr ""
+
+#: $string['cli_question_hideemail']
+msgid "Send these {$a} users a \"Course to be hidden\" email?"
+msgstr ""
+
+#: $string['confirm']
+msgid "Continue"
+msgstr ""
+
+#: $string['confirmmessage']
+msgid "Are you sure you want to {$a}"
+msgstr ""
+
+#: $string['confirmmessagearchive']
+msgid "archive and remove these {$a} courses?"
+msgstr ""
+
+#: $string['confirmmessagearchiveemail']
+msgctxt "$string['confirmmessagearchiveemail']"
+msgid "send an email to these {$a} course owners?"
+msgstr ""
+
+#: $string['confirmmessagedelete']
+msgid "completely remove these {$a} courses?"
+msgstr ""
+
+#: $string['confirmmessagehide']
+msgid "hide these {$a} courses?"
+msgstr ""
+
+#: $string['confirmmessagehideemail']
+msgctxt "$string['confirmmessagehideemail']"
+msgid "send an email to these {$a} course owners?"
+msgstr ""
+
+#: $string['coursearchiver']
+msgctxt "$string['coursearchiver']"
+msgid "Course Archiver"
+msgstr ""
+
+#: $string['coursearchiver_help']
+msgid ""
+"Search for courses using the following criteria: match shortname, fullname, "
+"idnumber, courseid, date of last course access, or *empty courses.\\n\n"
+"Courses are shown as grayed out if they are already hidden.  The fullname of "
+"the course will have a line through it if the course is an *empty "
+"course.\\n\\n\n"
+"NOTE: The last access search will only return courses that were created "
+"before the date provided.\\n\n"
+"NOTE: The amount of email addresses found may differ from the emails sent.  "
+"This has 2 causes. \\n\n"
+"   1. A course that is already hidden will not send out an email to notify "
+"the owner(s) if the course is selected to be hidden.\\n\n"
+"   2. A single address that shows up under multiple courses will be joined "
+"into a single email.\\n\\n\n"
+"*empty courses are defined as 0 assignments, 0 resources, 0 categories in "
+"the gradebook, and 0 grade items in the gradebook."
+msgstr ""
+
+#: $string['coursearchiverpath']
+msgid "Folder path to store archived courses"
+msgstr ""
+
+#: $string['coursearchiverpath_help']
+msgid "This path is relative to the Moodle $CFG->dataroot"
+msgstr ""
+
+#: $string['coursearchiverpreview']
+msgid "Upload courses preview"
+msgstr ""
+
+#: $string['coursearchiverresult']
+msgid "Upload courses results"
+msgstr ""
+
+#: $string['coursearchiver_settings']
+msgid "Course Archiver Settings"
+msgstr ""
+
+#: $string['coursedeleted']
+msgid "Course deleted"
+msgstr ""
+
+#: $string['coursedeletionnotallowed']
+msgid "Course deletion is not allowed"
+msgstr ""
+
+#: $string['coursefullname']
+msgid "Course fullname"
+msgstr ""
+
+#: $string['courseid']
+msgid "Course ID"
+msgstr ""
+
+#: $string['courseidnum']
+msgid "Course idnumber"
+msgstr ""
+
+#: $string['course_readded']
+msgid "{$a->fullname} has been removed from the opt out list.  Thank You."
+msgstr ""
+
+#: $string['courseselector']
+msgid "Course search results"
+msgstr ""
+
+#: $string['courseshortname']
+msgid "Course shortname"
+msgstr ""
+
+#: $string['course_skipped']
+msgid ""
+"{$a->fullname} will be skipped for the next {$a->optoutmonths} month(s).  "
+"Thank you."
+msgstr ""
+
+#: $string['courseteacher']
+msgid "Teacher username/email"
+msgstr ""
+
+#: $string['createdbefore']
+msgid "Created before"
+msgstr ""
+
+#: $string['delete']
+msgid "Delete Courses"
+msgstr ""
+
+#: $string['deselectall']
+msgid "Deselect All"
+msgstr ""
+
+#: $string['email']
+msgid "Send Email"
+msgstr ""
+
+#: $string['emailselector']
+msgid "Users selected to receive emails."
+msgstr ""
+
+#: $string['emptycourse']
+msgid "Empty Course"
+msgstr ""
+
+#: $string['emptyonly']
+msgid "Only return empty courses"
+msgstr ""
+
+#: $string['errorarchivefile']
+msgid "Course archive file does not exist."
+msgstr ""
+
+#: $string['errorarchivepath']
+msgid "Archive path could not be created."
+msgstr ""
+
+#: $string['errorarchivingcourse']
+msgid "Course: ({$a->id}) {$a->fullname} could not be archived."
+msgstr ""
+
+#: $string['errorbackup']
+msgid "Backup Failed."
+msgstr ""
+
+#: $string['errordeletingcourse']
+msgid "Course: ({$a->id}) {$a->fullname} could not be deleted."
+msgstr ""
+
+#: $string['erroremptysearch']
+msgid "No search criteria given."
+msgstr ""
+
+#: $string['errorhidingcourse']
+msgid "Course: ({$a->id}) {$a->fullname} could not be hidden."
+msgstr ""
+
+#: $string['errorinsufficientdata']
+msgid "Not enough information to perform this action"
+msgstr ""
+
+#: $string['error_key']
+msgid "Security key is incorrect."
+msgstr ""
+
+#: $string['errormissingcourses']
+msgid ""
+"The %courses variable was missing from the email template.  This is a list "
+"of the courses."
+msgstr ""
+
+#: $string['errormissingto']
+msgid ""
+"The %to variable was missing from the email template.  This is the name of "
+"the recipient."
+msgstr ""
+
+#: $string['error_nocourseid']
+msgid "Course record did not contain an ID"
+msgstr ""
+
+#: $string['errornoform']
+msgid "Form not given."
+msgstr ""
+
+#: $string['errornonnumericaccess']
+msgid "Access must be numeric (UNIX timestamp)"
+msgstr ""
+
+#: $string['errornonnumericid']
+msgid "Course ID must be numeric"
+msgstr ""
+
+#: $string['errors']
+msgid "Errors"
+msgstr ""
+
+#: $string['errors_count']
+msgid "Errors: {$a}"
+msgstr ""
+
+#: $string['errorsendingemail']
+msgid "Email to {$a->firstname} {$a->lastname} ({$a->email}) failed."
+msgstr ""
+
+#: $string['errorvalidarchive']
+msgid "Not a valid backup file."
+msgstr ""
+
+#: $string['hide']
+msgid "Hide Courses"
+msgstr ""
+
+#: $string['hideemail']
+msgid "Send \"Course to be Hidden\" Emails"
+msgstr ""
+
+#: $string['hidewarningemailsetting']
+msgid "Default Email Warning for Course Hiding"
+msgstr ""
+
+#: $string['hidewarningemailsettingdefault']
+msgid ""
+"%to\n"
+"\n"
+"We would like to inform you that the following Moodle course(s) that you "
+"have taught are soon to be hidden.\n"
+"This means that students who are still enrolled in the course will no longer "
+"have access to the courses.  If you would like to opt out of this process "
+"for one of the following courses, please click the link beside the course.\n"
+"\n"
+"%courses\n"
+"\n"
+"Thank you."
+msgstr ""
+
+#: $string['hidewarningemailsetting_help']
+msgid ""
+"This is the contents of an email that will be sent to all teachers of a "
+"course that is selected to be hidden."
+msgstr ""
+
+#: $string['hidewarningsubject']
+msgid "Notice: Courses will be hidden soon."
+msgstr ""
+
+#: $string['invalidmode']
+msgid "A valid mode for the tool was not given."
+msgstr ""
+
+#: $string['messageprovider:courseowner']
+msgid "Notifications from the course archival/hiding tool."
+msgstr ""
+
+#: $string['never']
+msgid "Never"
+msgstr ""
+
+#: $string['nocoursesfound']
+msgid "The search has resulted in 0 courses found."
+msgstr ""
+
+#: $string['nocoursesselected']
+msgid "To perform this action you must have at least 1 course selected."
+msgstr ""
+
+#: $string['noticecoursehidden']
+msgid "Course: ({$a->id}) {$a->fullname} was already hidden."
+msgstr ""
+
+#: $string['notices']
+msgid "Notices"
+msgstr ""
+
+#: $string['notices_count']
+msgid "Notices: {$a}"
+msgstr ""
+
+#: $string['nousersfound']
+msgid "There are no course owners to notify"
+msgstr ""
+
+#: $string['nousersselected']
+msgid "To perform this action you must have at least 1 user selected."
+msgstr ""
+
+#: $string['optoutarchive']
+msgid "Do not archive this course"
+msgstr ""
+
+#: $string['optoutby']
+msgid "Requested By"
+msgstr ""
+
+#: $string['optouthide']
+msgid "Do not hide this course"
+msgstr ""
+
+#: $string['optoutleft']
+msgid "{$a} days left"
+msgstr ""
+
+#: $string['optoutlist']
+msgid "Manage Optout List"
+msgstr ""
+
+#: $string['optoutmonthssetting']
+msgid "Course opt out persistence"
+msgstr ""
+
+#: $string['optoutmonthssetting_help']
+msgid "How many months will the opt out apply for each course."
+msgstr ""
+
+#: $string['optouttime']
+msgid "Time left"
+msgstr ""
+
+#: $string['outaccess']
+msgid "Last Access"
+msgstr ""
+
+#: $string['outemail']
+msgid "Email"
+msgstr ""
+
+#: $string['outfirstname']
+msgid "Firstname"
+msgstr ""
+
+#: $string['outfullname']
+msgid "Fullname"
+msgstr ""
+
+#: $string['outid']
+msgid "ID"
+msgstr ""
+
+#: $string['outidnumber']
+msgid "Idnumber"
+msgstr ""
+
+#: $string['outlastname']
+msgid "Lastname"
+msgstr ""
+
+#: $string['outowners']
+msgid "Course Owners"
+msgstr ""
+
+#: $string['outselected']
+msgid "Selected"
+msgstr ""
+
+#: $string['outshortname']
+msgid "Shortname"
+msgstr ""
+
+#: $string['outuse']
+msgid "Last Use"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Course Archiver"
+msgstr ""
+
+#: $string['processarchiving']
+msgid "Archiving selected courses"
+msgstr ""
+
+#: $string['processcomplete']
+msgid "Process Complete"
+msgstr ""
+
+#: $string['processdeleting']
+msgid "Deleting selected courses"
+msgstr ""
+
+#: $string['processemailing']
+msgid "Sending Emails"
+msgstr ""
+
+#: $string['processhiding']
+msgid "Hiding selected courses"
+msgstr ""
+
+#: $string['processstarted']
+msgid "Process has already been started"
+msgstr ""
+
+#: $string['results']
+msgid "Results"
+msgstr ""
+
+#: $string['results_archive']
+msgid "Archived courses: {$a}"
+msgstr ""
+
+#: $string['results_archiveemail']
+msgid "Course archive warning emails sent: {$a}"
+msgstr ""
+
+#: $string['results_courselist']
+msgid "Courses listed: {$a}"
+msgstr ""
+
+#: $string['results_delete']
+msgid "Deleted courses: {$a}"
+msgstr ""
+
+#: $string['results_getemails']
+msgid "Email addresses gathered: {$a}"
+msgstr ""
+
+#: $string['results_hide']
+msgid "Hidden courses: {$a}"
+msgstr ""
+
+#: $string['results_hideemail']
+msgid "Hidden course warning emails sent: {$a}"
+msgstr ""
+
+#: $string['resume']
+msgid "Resume"
+msgstr ""
+
+#: $string['resumenone']
+msgid "No saves found"
+msgstr ""
+
+#: $string['resumeselect']
+msgid "Choose a save point"
+msgstr ""
+
+#: $string['save']
+msgid "Create Save Point"
+msgstr ""
+
+#: $string['saved']
+msgid "Save point has been made"
+msgstr ""
+
+#: $string['search']
+msgid "Search for courses"
+msgstr ""
+
+#: $string['selectall']
+msgid "Select All"
+msgstr ""
+
+#: $string['status']
+msgid "Status"
+msgstr ""
+
+#: $string['step2savetitle']
+msgid "{$a} course list save"
+msgstr ""
+
+#: $string['step3savetitle']
+msgid "{$a} email list save"
+msgstr ""
+
+#: $string['unknownerror']
+msgid ""
+"The process has resulted in an error that requires a restart of the process."
+msgstr ""

@@ -1,0 +1,327 @@
+#. extracted from lang/en/block_yammer.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_yammer', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   block_yammer
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['blocktitle']
+msgid "Block title"
+msgstr ""
+
+#: $string['config_help']
+msgid ""
+"You can display My Feed, a Group Feed, a Topic Feed, a User Feed or an OG "
+"object feed. Users will need to log in to view the feed.  Additionally, the "
+"feed is restricted to users of the network specified.</br>To retrieve the "
+"feed ID and network permalink, please navigate to the feed in the <a "
+"href=\"https://www.yammer.com\" target=\"_blank\">Yammer web application</a> and "
+"copy it from the URL.</br>Detailed documentation for the embedded feed "
+"specifcation is available <a href=\"https://developer.yammer.com/docs/embed\" "
+"target=\"_blank\">here</a>."
+msgstr ""
+
+#: $string['defaultgroupid']
+msgid "Default Group ID"
+msgstr ""
+
+#: $string['defaultgroupid_help']
+msgid "The default group ID to post to."
+msgstr ""
+
+#: $string['defaultnetwork']
+msgid "Default network"
+msgstr ""
+
+#: $string['defaultnetwork_desc']
+msgid ""
+"The default Yammer network for this site. This is usually your company email "
+"domain, e.g. username@<strong>companyname.com</strong>. All new Yammer "
+"block instances will use this by default."
+msgstr ""
+
+#: $string['defaulttocanonical']
+msgctxt "$string['defaulttocanonical']"
+msgid "Default to Canonical Network"
+msgstr ""
+
+#: $string['defaulttocanonical_desc']
+msgctxt "$string['defaulttocanonical_desc']"
+msgid "Default to Canonical Network"
+msgstr ""
+
+#: $string['defaulttocanonical_help']
+msgctxt "$string['defaulttocanonical_help']"
+msgid "Default to Canonical Network"
+msgstr ""
+
+#: $string['feedid']
+msgid "Feed ID"
+msgstr ""
+
+#: $string['feedid_help']
+msgid "The feed ID to display."
+msgstr ""
+
+#: $string['feed_settings']
+msgid "Feed display settings"
+msgstr ""
+
+#: $string['feedtype']
+msgid "Feed Type"
+msgstr ""
+
+#: $string['feedtype_help']
+msgid ""
+"The type of feed to display.This can be <em>my</em>, <em>group</em>, "
+"<em>topic</em>, <em>user</em>, or <em>open-graph</em>."
+msgstr ""
+
+#: $string['fetch']
+msgid "Fetch metadata"
+msgstr ""
+
+#: $string['fetch_desc']
+msgctxt "$string['fetch_desc']"
+msgid "Fetch OpenGraph object metadata"
+msgstr ""
+
+#: $string['fetch_help']
+msgctxt "$string['fetch_help']"
+msgid "Fetch OpenGraph object metadata"
+msgstr ""
+
+#: $string['height']
+msgid "Height"
+msgstr ""
+
+#: $string['height_help']
+msgid ""
+"Set the height of the feed in pixels (px). This may be over-ridden by the "
+"theme or the block placement."
+msgstr ""
+
+#: $string['hideNetworkName']
+msgid "Hide network in header"
+msgstr ""
+
+#: $string['hideNetworkName_desc']
+msgid "Hide network name in the header."
+msgstr ""
+
+#: $string['ignore_canonical_url']
+msgctxt "$string['ignore_canonical_url']"
+msgid "Ignore canonical URL"
+msgstr ""
+
+#: $string['ignore_canonical_url_desc']
+msgid "Ignore the OpenGraph object canonical URL"
+msgstr ""
+
+#: $string['ignore_canonical_url_help']
+msgctxt "$string['ignore_canonical_url_help']"
+msgid "Ignore canonical URL"
+msgstr ""
+
+#: $string['network']
+msgid "Network permalink"
+msgstr ""
+
+#: $string['network_help']
+msgid ""
+"This is the name of your Network, e.g. yammer.com/<strong>my-company-"
+"name.net</strong>."
+msgstr ""
+
+#: $string['notconfigured']
+msgid "This block instance has not been configured"
+msgstr ""
+
+#: $string['og-audio']
+msgid "Audio"
+msgstr ""
+
+#: $string['og-department']
+msgid "Department"
+msgstr ""
+
+#: $string['og-document']
+msgid "Document"
+msgstr ""
+
+#: $string['og-file']
+msgid "File"
+msgstr ""
+
+#: $string['og-folder']
+msgid "Folder"
+msgstr ""
+
+#: $string['og-image']
+msgid "Image"
+msgstr ""
+
+#: $string['og-page']
+msgid "Page"
+msgstr ""
+
+#: $string['og-person']
+msgid "Person"
+msgstr ""
+
+#: $string['og-place']
+msgid "Place"
+msgstr ""
+
+#: $string['og-project']
+msgid "Project"
+msgstr ""
+
+#: $string['og-team']
+msgid "Team"
+msgstr ""
+
+#: $string['ogtype']
+msgid "OpenGraph type"
+msgstr ""
+
+#: $string['ogtype_help']
+msgid "Select the OpenGraph object type."
+msgstr ""
+
+#: $string['ogurl']
+msgid "Open Graph URL"
+msgstr ""
+
+#: $string['ogurl_help']
+msgid ""
+"If the feed type is <em>open-graph</em>, the feed URL must be specified."
+msgstr ""
+
+#: $string['og-video']
+msgid "Video"
+msgstr ""
+
+#: $string['opengraph_settings']
+msgid "OpenGraph settings"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Yammer"
+msgstr ""
+
+#: $string['private']
+msgctxt "$string['private']"
+msgid "Mark as private"
+msgstr ""
+
+#: $string['private_desc']
+msgid "Mark the OpenGraph object as private"
+msgstr ""
+
+#: $string['private_help']
+msgctxt "$string['private_help']"
+msgid "Mark as private"
+msgstr ""
+
+#: $string['prompttext']
+msgid "Prompt Text"
+msgstr ""
+
+#: $string['prompttext_help']
+msgid ""
+"You can encourage your users to post more by providing custom publisher "
+"watermark text."
+msgstr ""
+
+#: $string['scriptsource']
+msgid "Script source"
+msgstr ""
+
+#: $string['scriptsource_desc']
+msgid ""
+"The location of the Yammer embed script. This should be left as default."
+msgstr ""
+
+#: $string['showfooter']
+msgid "Show footer"
+msgstr ""
+
+#: $string['showfooter_desc']
+msgid "Show the footer."
+msgstr ""
+
+#: $string['showheader']
+msgid "Show header"
+msgstr ""
+
+#: $string['showheader_desc']
+msgid "Show the network ID header."
+msgstr ""
+
+#: $string['showogpreview']
+msgid "Show OG preview"
+msgstr ""
+
+#: $string['showogpreview_desc']
+msgid "Show open graph object preview."
+msgstr ""
+
+#: $string['showogpreview_help']
+msgid ""
+"Display an Open Graph preview of the target URL beneath the new message "
+"publisher, which provides users with a preview of the Open Graph summary "
+"they will see in the conversation they are starting."
+msgstr ""
+
+#: $string['width']
+msgid "Width"
+msgstr ""
+
+#: $string['width_help']
+msgid ""
+"Set the width of the feed in pixels (px). This may be over-ridden by the "
+"theme or the block placement."
+msgstr ""
+
+#: $string['yammer']
+msgctxt "$string['yammer']"
+msgid "Yammer"
+msgstr ""
+
+#: $string['yammer:addinstance']
+msgid "Add a new Yammer block"
+msgstr ""
+
+#: $string['yammer_settings']
+msgid "Yammer network settings"
+msgstr ""

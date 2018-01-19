@@ -1,0 +1,134 @@
+#. extracted from lang/en/message_pageone.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'message_pageone', language 'en', branch 'MOODLE_30_STABLE'
+#.  *
+#.  * @package   message_pageone
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['assign_deadline_text']
+msgid "Assignments due within {$a} day(s):"
+msgstr ""
+
+#: $string['config_assign_deadline']
+msgid "Assignment deadline notifications"
+msgstr ""
+
+#: $string['config_assign_deadline_help']
+msgid ""
+"Sends a consolidated text message containing all the upcoming assignment "
+"deadlines."
+msgstr ""
+
+#: $string['config_assign_deadline_user']
+msgid "Assignment deadline notification user default"
+msgstr ""
+
+#: $string['config_assign_deadline_user_help']
+msgid ""
+"Set the default used for the per user assingment deadline notification "
+"option. If assignment deadline notifications are disabled, the user option "
+"will be hidden."
+msgstr ""
+
+#: $string['config_cron_time']
+msgid "Notification processing time"
+msgstr ""
+
+#: $string['config_cron_time_help']
+msgid ""
+"The time when the assignment deadline and notifications should be processed. "
+"Choose the hour in 24 hour clock."
+msgstr ""
+
+#: $string['config_deadline_days']
+msgid "Deadline notification threshold (days)"
+msgstr ""
+
+#: $string['config_deadline_days_help']
+msgid ""
+"Include an assignment in the deadline notification when the due date is less "
+"than the number of days specified here."
+msgstr ""
+
+#: $string['config_forum']
+msgid "Forum posting notifications"
+msgstr ""
+
+#: $string['config_forum_help']
+msgid ""
+"Sends a text message notifying the user if a new message is posted to a "
+"forum they are subscribed to, no further notifications of new posts will be "
+"sent until the user returns to the form and makes a follow up posting. This "
+"is different to the standard forum posting notification setting which will "
+"send a message for every post. Using this option allows the number of text "
+"messages consumed by forum notifications to be restricted.  (Moodle 2.7+ "
+"only)"
+msgstr ""
+
+#: $string['config_forum_user']
+msgid "Forum posting notification user default."
+msgstr ""
+
+#: $string['config_forum_user_help']
+msgid ""
+"Set the default used for the per user forum posting notification option. If "
+"forum posting notifications are disabled, the user option will be hidden.  "
+"(Moodle 2.7+ only)"
+msgstr ""
+
+#: $string['config_log']
+msgid "Log messages"
+msgstr ""
+
+#: $string['config_log_help']
+msgid ""
+"Causes all automatically generated messages to be included in the PageOne "
+"message log. If you need to analyse the messaging logs for accounting "
+"purposes, turn this on."
+msgstr ""
+
+#: $string['forum_reply']
+msgid ""
+"Your post \"{$a->sub}\" in forum \"{$a->fname}\", course \"{$a->cname}\" has a "
+"reply"
+msgstr ""
+
+#: $string['pluginname']
+msgid "MoodleMobile Text Messages"
+msgstr ""
+
+#: $string['user_assign_deadline']
+msgid "Send assignment deadline notifications by text message."
+msgstr ""
+
+#: $string['user_forum']
+msgid "Send text message notifications of replies to my forum postings."
+msgstr ""

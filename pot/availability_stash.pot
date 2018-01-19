@@ -1,0 +1,127 @@
+#. extracted from lang/en/availability_stash.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'availability_stash', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   availability_stash
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['condition']
+msgid "condition"
+msgstr ""
+
+#: $string['description']
+msgid "Require an object in the user's stash to gain access."
+msgstr ""
+
+#: $string['exactly']
+msgid "exactly"
+msgstr ""
+
+#: $string['lessthan']
+msgid "less than"
+msgstr ""
+
+#: $string['morethan']
+msgid "more than"
+msgstr ""
+
+#: $string['object']
+msgid "object"
+msgstr ""
+
+#: $string['objectnnotrequiredtogetaccess']
+msgid ""
+"There is not {$a->condition} {$a->quantity}x '{$a->object}' in your stash."
+msgstr ""
+
+#: $string['objectnrequiredtogetaccess']
+msgid "There is {$a->condition} {$a->quantity}x '{$a->object}' in your stash."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Stash availability"
+msgstr ""
+
+#: $string['quantity']
+msgid "quantity"
+msgstr ""
+
+#: $string['theirstashcontains']
+msgid "Their stash contains {$a->conditions} {$a->quantity} {$a->objects}"
+msgstr ""
+
+#: $string['title']
+msgid "Stash object"
+msgstr ""
+
+#: $string['unknowncondition']
+msgid "[Unknown condition]"
+msgstr ""
+
+#: $string['unknownobject']
+msgid "[Unknown object]"
+msgstr ""
+
+#: $string['youhavegota']
+msgid "You have got '{$a->object}\\"
+msgstr ""
+
+#: $string['youhavegotlessthanna']
+msgid "You have got less than {$a->quantity}x '{$a->object}\\"
+msgstr ""
+
+#: $string['youhavegotmorethanna']
+msgid "You have got more than {$a->quantity}x '{$a->object}\\"
+msgstr ""
+
+#: $string['youhavegotna']
+msgid "You have got {$a->quantity}x '{$a->object}\\"
+msgstr ""
+
+#: $string['youhaventgota']
+msgid "You haven't got '{$a->object}\\"
+msgstr ""
+
+#: $string['youhaventgotanya']
+msgid "You haven't got any '{$a->object}\\"
+msgstr ""
+
+#: $string['youhaventgotlessthanna']
+msgid "You haven't got less than {$a->quantity}x '{$a->object}\\"
+msgstr ""
+
+#: $string['youhaventgotmorethanna']
+msgid "You haven't got more than {$a->quantity}x '{$a->object}\\"
+msgstr ""
+
+#: $string['youhaventgotna']
+msgid "You haven't got {$a->quantity}x '{$a->object}\\"
+msgstr ""

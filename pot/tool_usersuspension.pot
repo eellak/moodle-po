@@ -1,0 +1,667 @@
+#. extracted from lang/en/tool_usersuspension.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'tool_usersuspension', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   tool_usersuspension
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['action:confirm-delete-exclusion']
+msgid "Are you sure you want to delete this item from the exclusionlist?"
+msgstr ""
+
+#: $string['action:delete-exclusion']
+msgid "Delete item from exclusionlist"
+msgstr ""
+
+#: $string['action:exclude:add:cohort']
+msgid "Add cohort exclusion"
+msgstr ""
+
+#: $string['action:exclude:add:user']
+msgid "Add user exclusion"
+msgstr ""
+
+#: $string['button:backtocourse']
+msgid "Back to course"
+msgstr ""
+
+#: $string['button:backtoexclusions']
+msgid "Back to exclusions overview"
+msgstr ""
+
+#: $string['button:backtouploadform']
+msgid "Back to upload form"
+msgstr ""
+
+#: $string['button:continue']
+msgctxt "$string['button:continue']"
+msgid "Continue"
+msgstr ""
+
+#: $string['config:cleanlogs:disabled']
+msgid "Automatic logcleaning is disabled in global configuration"
+msgstr ""
+
+#: $string['config:cleanup:disabled']
+msgid ""
+"User Suspension option 'cleanup' is disabled in global tool configuration"
+msgstr ""
+
+#: $string['config:fromfolder:disabled']
+msgid ""
+"User Suspension option 'suspend from upload' is disabled in global tool "
+"configuration"
+msgstr ""
+
+#: $string['config:smartdetect:disabled']
+msgid ""
+"User Suspension option 'smart detection' is disabled in global tool "
+"configuration"
+msgstr ""
+
+#: $string['config:tool:disabled']
+msgid "User Suspension Utility is disabled in global tool configuration"
+msgstr ""
+
+#: $string['csv:delimiter']
+msgid "Delimiter"
+msgstr ""
+
+#: $string['csv:enclosure']
+msgid "Enclosure"
+msgstr ""
+
+#: $string['csv:upload:continue']
+msgctxt "$string['csv:upload:continue']"
+msgid "Continue"
+msgstr ""
+
+#: $string['email:user:delete:body']
+msgid ""
+"<p>Dear {$a->name}</p>\n"
+"<p>You account has been removed after having been suspended for "
+"{$a->timesuspended}</p>\n"
+"<p>Regards<br/>{$a->signature}</p>"
+msgstr ""
+
+#: $string['email:user:delete:subject']
+msgid "Your account has been removed"
+msgstr ""
+
+#: $string['email:user:suspend:auto:body']
+msgid ""
+"<p>Dear {$a->name}</p>\n"
+"<p>Your account has been suspended after not having been active for "
+"{$a->timeinactive}</p>\n"
+"<p>If you feel this is unintended or want to have your account activated "
+"again,\n"
+"please contact {$a->contact}</p>\n"
+"<p>Regards<br/>{$a->signature}</p>"
+msgstr ""
+
+#: $string['email:user:suspend:manual:body']
+msgid ""
+"<p>Dear {$a->name}</p>\n"
+"<p>Your account has been suspended.</p>\n"
+"<p>If you feel this is unintended or want to have your account activated "
+"again,\n"
+"please contact {$a->contact}</p>\n"
+"<p>Regards<br/>{$a->signature}</p>"
+msgstr ""
+
+#: $string['email:user:suspend:subject']
+msgid "Your account has been suspended"
+msgstr ""
+
+#: $string['email:user:unsuspend:body']
+msgid ""
+"<p>Dear {$a->name}</p>\n"
+"<p>You account has been reactivated.</p>\n"
+"<p>If you feel this is unintended or want to have your account suspended "
+"again,\n"
+"please contact {$a->contact}</p>\n"
+"<p>Regards<br/>{$a->signature}</p>"
+msgstr ""
+
+#: $string['email:user:unsuspend:subject']
+msgid "Your account has been reactivated"
+msgstr ""
+
+#: $string['err:statustable:set_sql']
+msgid ""
+"set_sql() is disabled. This table defines it's own and is not customomizable"
+msgstr ""
+
+#: $string['excludeuser']
+msgid "exclude user from processing"
+msgstr ""
+
+#: $string['form:static:uploadfile:desc']
+msgid ""
+"Upload your user suspension file here<br/>\n"
+"The uploaded CSV file can be configured as follows:<br/>\n"
+"<ol>\n"
+"<li>'simple' file containing ONLY email addresses, one per line</li>\n"
+"<li>'smart' file containing 2 columns, indicating the type and the "
+"value.<br/>\n"
+"Possible values for the type column are\n"
+"<ul><li>email: value column indicates user account's e-mail address</li>\n"
+"<li>idnumber: value column indicates user account's idnumber</li>\n"
+"<li>username: value column indicates user account's username</li>\n"
+"</ul></ol>"
+msgstr ""
+
+#: $string['info:no-exclusion-cohorts']
+msgid ""
+"No more cohorts can be configured to be excluded anymore. All are already "
+"added to the exclusion list"
+msgstr ""
+
+#: $string['label:users:excluded']
+msgid "Excluded users"
+msgstr ""
+
+#: $string['label:users:potential']
+msgid "Potential users"
+msgstr ""
+
+#: $string['link:currentstatus:overview']
+msgid "View current status changes"
+msgstr ""
+
+#: $string['link:exclude:overview']
+msgid "Exclusions overview"
+msgstr ""
+
+#: $string['link:log:overview']
+msgid "View status change logs"
+msgstr ""
+
+#: $string['link:upload']
+msgid "Upload suspension file"
+msgstr ""
+
+#: $string['link:viewstatus']
+msgid "View statuslist"
+msgstr ""
+
+#: $string['msg:exclusion:cohort:none-selected']
+msgid "No cohorts were selected for exclusion"
+msgstr ""
+
+#: $string['msg:exclusion:record:cohort:inserted']
+msgid "Exclusion entry for cohort '{$a->name}' successfully inserted"
+msgstr ""
+
+#: $string['msg:exclusion:record:exists']
+msgid "Exclusion entry already exists (no record added)"
+msgstr ""
+
+#: $string['msg:exclusion:record:inserted']
+msgid "Exclusion entry successfully inserted"
+msgstr ""
+
+#: $string['msg:exclusion:records:cohort:deleted']
+msgid "Exclusion entries for cohorts successfully deleted"
+msgstr ""
+
+#: $string['msg:exclusion:records:deleted']
+msgid "Exclusion entries successfully deleted"
+msgstr ""
+
+#: $string['msg:exclusion:records:user:deleted']
+msgid "Exclusion entries for users successfully deleted"
+msgstr ""
+
+#: $string['msg:exclusion:record:user:deleted']
+msgid "Exclusion entry for user '{$a->fullname}' successfully removed"
+msgstr ""
+
+#: $string['msg:exclusion:record:user:inserted']
+msgid "Exclusion entry for user '{$a->fullname}' successfully inserted"
+msgstr ""
+
+#: $string['msg:file-not-readable']
+msgid "Uploaded file '{$a}' is not readable"
+msgstr ""
+
+#: $string['msg:file-not-writeable']
+msgid "Uploaded file '{$a}' is not writeable or can't be removed"
+msgstr ""
+
+#: $string['msg:file:upload:fail']
+msgid "Uploaded file could not successfully be saved. Processing aborted."
+msgstr ""
+
+#: $string['msg:user:not-found']
+msgid "user could not be found"
+msgstr ""
+
+#: $string['msg:user:suspend:failed']
+msgid "User '{$a->username}' could not be suspended"
+msgstr ""
+
+#: $string['msg:user:suspend:success']
+msgid "User '{$a->username}' successfully suspended"
+msgstr ""
+
+#: $string['msg:user:unsuspend:failed']
+msgid "User '{$a->username}' could not be unsuspended"
+msgstr ""
+
+#: $string['msg:user:unsuspend:success']
+msgid "User '{$a->username}' successfully unsuspended"
+msgstr ""
+
+#: $string['notify:load-exclude-list']
+msgid "Loading user exclusion list"
+msgstr ""
+
+#: $string['notify:load-file']
+msgid "Opening file '{$a}\\"
+msgstr ""
+
+#: $string['notify:load-file-fail']
+msgid "Could not open file '{$a}' for reading"
+msgstr ""
+
+#: $string['notify:suspend-excluded-user']
+msgid ""
+"user: {$a->username} (id={$a->id}) is in the exclusion list: not suspending"
+msgstr ""
+
+#: $string['notify:suspend-user']
+msgid "suspending user: {$a->username} (id={$a->id})"
+msgstr ""
+
+#: $string['notify:unknown-suspend-type']
+msgid "Unknown suspension type identifier '{$a}\\"
+msgstr ""
+
+#: $string['page:view:exclude.php:introduction']
+msgid ""
+"<p>This page displays the configured exclusions.<br/>\n"
+"Exclusions are either users or cohorts that are completely excluded from any "
+"automated processing.<br/>\n"
+"When a cohort is excluded, this means every user that's a member of the "
+"cohort will not be processed.\n"
+"Use the options on this page to add cohorts or users to the exclusion "
+"list.</p>"
+msgstr ""
+
+#: $string['page:view:log.php:introduction']
+msgid ""
+"The table below shows the logs of statusses that users have been given or "
+"went through as\n"
+"a result of automated processing or usage of this tool. It will show, "
+"depending on your configuration, the suspension status or deleted status\n"
+"of your moodle users and the moment at which certain actions were performed."
+msgstr ""
+
+#: $string['page:view:statuslist.php:introduction:delete']
+msgid ""
+"<p>This overview shows the user accounts that will get deleted within\n"
+"the configured timeframe of this tool's settings</p>"
+msgstr ""
+
+#: $string['page:view:statuslist.php:introduction:status']
+msgid ""
+"<p>This overview shows the actively monitored users.<br/>\n"
+"Actively monitored users are users that are actually monitored (meaning "
+"they're not configured to be excluded from monitoring).<br/>\n"
+"This overview thus differs from the main administrator's overview that it "
+"will not show <i>any</i> users that have been excluded\n"
+"from suspension monitoring using this tool's capabilities to exclude users "
+"and cohorts.</p>"
+msgstr ""
+
+#: $string['page:view:statuslist.php:introduction:suspended']
+msgid "<p>This overview shows the user accounts that have been suspended.</p>"
+msgstr ""
+
+#: $string['page:view:statuslist.php:introduction:tosuspend']
+msgid ""
+"<p>This overview shows the user accounts that will get suspended within\n"
+"the configured timeframe of this tool's settings</p>"
+msgstr ""
+
+#: $string['pluginname']
+msgid "User Suspension"
+msgstr ""
+
+#: $string['promo']
+msgid "usersuspension plugin for Moodle"
+msgstr ""
+
+#: $string['promodesc']
+msgid ""
+"This plugin is written by Sebsoft Managed Hosting & Software Development\n"
+"    (<a href='http://www.sebsoft.nl/' "
+"target='_new'>http://sebsoft.nl</a>).<br /><br />\n"
+"    {$a}<br /><br />"
+msgstr ""
+
+#: $string['setting:cleanlogsafter']
+msgid "Clean logs frequency"
+msgstr ""
+
+#: $string['setting:cleanup_deleteafter']
+msgid "Deletion interval"
+msgstr ""
+
+#: $string['setting:cleanup_interval']
+msgid "Cleanup interval"
+msgstr ""
+
+#: $string['setting:desc:cleanlogsafter']
+msgid ""
+"Configure the frequency after which logs are cleaned. Any logs older than "
+"this setting will physically be removed."
+msgstr ""
+
+#: $string['setting:desc:cleanup_deleteafter']
+msgid "Sets interval at which users are deleted after suspension"
+msgstr ""
+
+#: $string['setting:desc:cleanup_interval']
+msgid "Sets interval at which cleanup is performed"
+msgstr ""
+
+#: $string['setting:desc:enablecleanlogs']
+msgid "Enables or disables automatic cleaning of the history log."
+msgstr ""
+
+#: $string['setting:desc:enablecleanup']
+msgid "Enables or disables user cleanup"
+msgstr ""
+
+#: $string['setting:desc:enabled']
+msgid "Enables or disables the user suspension utility"
+msgstr ""
+
+#: $string['setting:desc:enablefromfolder']
+msgid ""
+"Enables or disables the user suspension utility to automatically suspend "
+"users from an uploaded CSV file"
+msgstr ""
+
+#: $string['setting:desc:enablefromupload']
+msgid "Enables or disables the user suspension utility from a file upload"
+msgstr ""
+
+#: $string['setting:desc:enablesmartdetect']
+msgid "Enables or disables the user suspension utility's smart detection."
+msgstr ""
+
+#: $string['setting:desc:senddeleteemail']
+msgid "Send out an e-mail informing the user after being deleted?"
+msgstr ""
+
+#: $string['setting:desc:sendsuspendemail']
+msgid "Send out an e-mail informing the user after being suspended?"
+msgstr ""
+
+#: $string['setting:desc:smartdetect_interval']
+msgid "Sets interval at which smart detection runs"
+msgstr ""
+
+#: $string['setting:desc:smartdetect_suspendafter']
+msgid "Sets interval at which users are suspended when inactive"
+msgstr ""
+
+#: $string['setting:desc:uploaddetect_interval']
+msgid "Set interval at which upload folder is checked for files"
+msgstr ""
+
+#: $string['setting:desc:uploadfilename']
+msgid "Set filename of the uploaded suspension file"
+msgstr ""
+
+#: $string['setting:desc:uploadfolder']
+msgid "Set folder where files should be uploaded through e.g. FTP"
+msgstr ""
+
+#: $string['setting:enablecleanlogs']
+msgid "Enable logcleaning"
+msgstr ""
+
+#: $string['setting:enablecleanup']
+msgid "Enable Cleanup"
+msgstr ""
+
+#: $string['setting:enabled']
+msgid "Enable"
+msgstr ""
+
+#: $string['setting:enablefromfolder']
+msgid "Automatic suspension using stored CSV file"
+msgstr ""
+
+#: $string['setting:enablefromupload']
+msgid "Enable from upload"
+msgstr ""
+
+#: $string['setting:enablesmartdetect']
+msgid "Enable Smart Detection"
+msgstr ""
+
+#: $string['setting:senddeleteemail']
+msgid "Send delete email?"
+msgstr ""
+
+#: $string['setting:sendsuspendemail']
+msgid "Send suspension email?"
+msgstr ""
+
+#: $string['setting:smartdetect_interval']
+msgid "Smart detect interval"
+msgstr ""
+
+#: $string['setting:smartdetect_suspendafter']
+msgid "Inactivity suspension interval"
+msgstr ""
+
+#: $string['setting:uploaddetect_interval']
+msgid "Upload folder processing interval"
+msgstr ""
+
+#: $string['setting:uploadfilename']
+msgid "Upload filename"
+msgstr ""
+
+#: $string['setting:uploadfolder']
+msgid "Upload folder"
+msgstr ""
+
+#: $string['status:deleted']
+msgid "deleted"
+msgstr ""
+
+#: $string['status:suspended']
+msgid "suspended"
+msgstr ""
+
+#: $string['status:unsuspended']
+msgid "unsuspended"
+msgstr ""
+
+#: $string['suspensionsettings']
+msgid "User Suspension Settings"
+msgstr ""
+
+#: $string['suspensionsettingscleanup']
+msgid "Cleanup"
+msgstr ""
+
+#: $string['suspensionsettingscleanupdesc']
+msgid ""
+"Configure the cleanup settings below.<br/>\n"
+"The cleanup process is here to further automate cleaning up users, meaning "
+"suspended user accounts will get deleted\n"
+"when this option is used. If user accounts should be automatically deleted "
+"after a certain time you should configure these settings.\n"
+"If automatic deletion of user accounts is by no means desired, you should "
+"turn off this option."
+msgstr ""
+
+#: $string['suspensionsettingsdesc']
+msgctxt "$string['suspensionsettingsdesc']"
+msgid ""
+msgstr ""
+
+#: $string['suspensionsettingsfolder']
+msgid "Suspend from folder"
+msgstr ""
+
+#: $string['suspensionsettingsfolderdesc']
+msgid ""
+"Configure the 'suspend from folder' folder settings below.<br/>\n"
+"Using these settings you can automate suspending users by uploading a CSV "
+"file to a random location on the server\n"
+"(for example a dedicated FTP folder). The CSV file will be processed "
+"conforming to the settings below.\n"
+"Note: The uploaded CSV file will be deleted after processing!"
+msgstr ""
+
+#: $string['suspensionsettingssmartdetect']
+msgid "Smart detection"
+msgstr ""
+
+#: $string['suspensionsettingssmartdetectdesc']
+msgid ""
+"Configure the smart detection settings below.<br/>\n"
+"Smart detection effectively means user accounts that have been found "
+"'inactive' according to the settings below will\n"
+"get automatically suspended. Running only at a configured interval, 'smart "
+"detection' will determine whether or not a user account\n"
+"is active according to the configured 'Inactivity suspension interval' "
+"setting, and suspend all user accounts deemed inactive."
+msgstr ""
+
+#: $string['suspensionsettingsupload']
+msgid "Suspend from upload"
+msgstr ""
+
+#: $string['suspensionsettingsuploaddesc']
+msgid "Configure the 'suspend from upload' settings below"
+msgstr ""
+
+#: $string['table:exclusions']
+msgid "Exclusions"
+msgstr ""
+
+#: $string['table:log:all']
+msgid "Historic suspensionlog"
+msgstr ""
+
+#: $string['table:log:latest']
+msgid "Latest suspension logs"
+msgstr ""
+
+#: $string['table:logs']
+msgid "Logs"
+msgstr ""
+
+#: $string['table:status:delete']
+msgid "Users to delete"
+msgstr ""
+
+#: $string['table:status:status']
+msgid "Actively monitored users"
+msgstr ""
+
+#: $string['table:status:suspended']
+msgid "Suspended users"
+msgstr ""
+
+#: $string['table:status:tosuspend']
+msgid "Users to suspend"
+msgstr ""
+
+#: $string['task:delete']
+msgid "Usersuspension task: automatic removal of suspended users"
+msgstr ""
+
+#: $string['task:fromfolder']
+msgid "Usersuspension task: automatic user suspension from uploaded file"
+msgstr ""
+
+#: $string['task:logclean']
+msgid "Clean logs for user suspension"
+msgstr ""
+
+#: $string['task:mark']
+msgid "Usersuspension task: automatic suspension of users"
+msgstr ""
+
+#: $string['thead:action']
+msgid "Action(s)"
+msgstr ""
+
+#: $string['thead:lastlogin']
+msgid "Last login"
+msgstr ""
+
+#: $string['thead:mailedto']
+msgid "E-mailed to"
+msgstr ""
+
+#: $string['thead:mailsent']
+msgid "E-mail sent"
+msgstr ""
+
+#: $string['thead:name']
+msgid "Name"
+msgstr ""
+
+#: $string['thead:status']
+msgid "Status"
+msgstr ""
+
+#: $string['thead:timecreated']
+msgid "Time created"
+msgstr ""
+
+#: $string['thead:timemodified']
+msgid "Time modified"
+msgstr ""
+
+#: $string['thead:type']
+msgid "Type"
+msgstr ""
+
+#: $string['thead:userid']
+msgid "User ID"
+msgstr ""
+
+#: $string['thead:username']
+msgid "Username"
+msgstr ""

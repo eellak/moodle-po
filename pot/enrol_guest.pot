@@ -1,0 +1,127 @@
+#. extracted from lang/en/enrol_guest.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'enrol_guest', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   enrol_guest
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['allowguests']
+msgid "This course allows guest users to enter"
+msgstr ""
+
+#: $string['guestaccess_withoutpassword']
+msgctxt "$string['guestaccess_withoutpassword']"
+msgid "Guest access"
+msgstr ""
+
+#: $string['guestaccess_withpassword']
+msgid "Guest access requires password"
+msgstr ""
+
+#: $string['guest:config']
+msgid "Configure guest access instances"
+msgstr ""
+
+#: $string['password']
+msgid "Password"
+msgstr ""
+
+#: $string['password_help']
+msgid ""
+"A password allows guest access to the course to be restricted to only those "
+"who know the password. Guests will be required to supply the password each "
+"time they access the course."
+msgstr ""
+
+#: $string['passwordinvalid']
+msgid "Incorrect access password, please try again"
+msgstr ""
+
+#: $string['passwordinvalidhint']
+msgid ""
+"That access password was incorrect, please try again<br />\n"
+"(Here's a hint - it starts with '{$a}')"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Guest access"
+msgstr ""
+
+#: $string['pluginname_desc']
+msgid ""
+"Guest access plugin is only granting temporary access to courses, it is not "
+"actually enrolling users."
+msgstr ""
+
+#: $string['requirepassword']
+msgid "Require guest access password"
+msgstr ""
+
+#: $string['requirepassword_desc']
+msgid ""
+"Require access password in new courses and prevent removing of access "
+"password from existing courses."
+msgstr ""
+
+#: $string['showhint']
+msgid "Show hint"
+msgstr ""
+
+#: $string['showhint_desc']
+msgid "Show first letter of the guest access password."
+msgstr ""
+
+#: $string['status']
+msgid "Allow guest access"
+msgstr ""
+
+#: $string['status_desc']
+msgid "Allow temporary guest access by default."
+msgstr ""
+
+#: $string['status_help']
+msgid ""
+"This setting determines whether a user can access the course as a guest, "
+"without being required to enrol."
+msgstr ""
+
+#: $string['status_link']
+msgid "enrol/guest"
+msgstr ""
+
+#: $string['usepasswordpolicy']
+msgid "Use password policy"
+msgstr ""
+
+#: $string['usepasswordpolicy_desc']
+msgid "Use standard password policy for guest access passwords."
+msgstr ""

@@ -1,0 +1,1323 @@
+#. extracted from lang/en/report_trainingsessions.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'report_trainingsessions', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   report_trainingsessions
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['activitytime']
+msgid "Time in activities"
+msgstr ""
+
+#: $string['activitytime_help']
+msgid ""
+"<p>This time calculation considers all use time spent in course activities, "
+"letting course\n"
+"    layout times out of calculation. In certain cases (when using the "
+"Learning Time Check (non standard) with\n"
+"    standard time allocation (http://github.com/vfremaux/moodle-"
+"mod_learningtimecheck.git), additional\n"
+"    standard time are used rather than real extracted times from log.</p>"
+msgstr ""
+
+#: $string['addcoursegrade']
+msgid "Add course grade to report"
+msgstr ""
+
+#: $string['addmodulelabel']
+msgid "Add activity module"
+msgstr ""
+
+#: $string['addmoduletitle']
+msgid "Add an activity module you want to add grade in report"
+msgstr ""
+
+#: $string['addtimebonus']
+msgid "time bonus on overal grade"
+msgstr ""
+
+#: $string['addtimegrade']
+msgctxt "$string['addtimegrade']"
+msgid "Time grade"
+msgstr ""
+
+#: $string['advancement']
+msgid "Advancement"
+msgstr ""
+
+#: $string['allcourses']
+msgid "All courses"
+msgstr ""
+
+#: $string['allgroups']
+msgid "All groups"
+msgstr ""
+
+#: $string['authoritysign']
+msgid "Education Authority"
+msgstr ""
+
+#: $string['availableactivities']
+msgid "Available activities"
+msgstr ""
+
+#: $string['batchdate']
+msgid "Task date"
+msgstr ""
+
+#: $string['batchdate_help']
+msgid ""
+"<p>This setting means the exact date at which the batch will be lauched and "
+"the documents generated. If you fear the documents are heavy (lot\n"
+" of students, lot of histories to track), choose a date/time in a low load "
+"period of your server.</p>"
+msgstr ""
+
+#: $string['batchreports_task']
+msgid "Batch reports"
+msgstr ""
+
+#: $string['bgcolor']
+msgid "Background color"
+msgstr ""
+
+#: $string['binary']
+msgid "Binary output"
+msgstr ""
+
+#: $string['bonusgrademode']
+msgid "Time bonus grade mode"
+msgstr ""
+
+#: $string['calculated']
+msgid "Calculated"
+msgstr ""
+
+#: $string['calculatedcolumns']
+msgid "Calculated columns (XLS Only)"
+msgstr ""
+
+#: $string['calculated_help']
+msgid ""
+"Enter an excel formula using local excel references as produced in the "
+"output document. Use {row} placeholder to insert the current line number in "
+"cell references."
+msgstr ""
+
+#: $string['checklistadvice']
+msgid "Special side completion effects"
+msgstr ""
+
+#: $string['chooseagroup']
+msgid "Choose a group"
+msgstr ""
+
+#: $string['chooseaninstitution']
+msgid "Choose an institution"
+msgstr ""
+
+#: $string['colors']
+msgid "Colors"
+msgstr ""
+
+#: $string['columnname']
+msgid "Column name:"
+msgstr ""
+
+#: $string['connections']
+msgid "Connections"
+msgstr ""
+
+#: $string['contiguoussessions']
+msgid "Contiguous sessions"
+msgstr ""
+
+#: $string['continuous']
+msgid "Continuous output"
+msgstr ""
+
+#: $string['coupling']
+msgid "Coupling"
+msgstr ""
+
+#: $string['course']
+msgid "Course"
+msgstr ""
+
+#: $string['courseglobals']
+msgid "Course global areas"
+msgstr ""
+
+#: $string['coursegrade']
+msgctxt "$string['coursegrade']"
+msgid "Enable course score"
+msgstr ""
+
+#: $string['courselabel']
+msgid "as column:"
+msgstr ""
+
+#: $string['coursename']
+msgid "Group name"
+msgstr ""
+
+#: $string['courseraw']
+msgid "Batchs"
+msgstr ""
+
+#: $string['coursesessions']
+msgid "Working sessions in course (real guessed times)"
+msgstr ""
+
+#: $string['coursestart']
+msgid "Course start date"
+msgstr ""
+
+#: $string['coursesummary']
+msgid "Per participant summary"
+msgstr ""
+
+#: $string['coursetime']
+msgid "Time in course (outside activities)"
+msgstr ""
+
+#: $string['coursetime_help']
+msgid ""
+"<p>this summarizes the time passed in general screens of the course but "
+"OUTSIDE activities."
+msgstr ""
+
+#: $string['coursetotaltime']
+msgid "Total course time"
+msgstr ""
+
+#: $string['coursetotaltime_help']
+msgid ""
+"<p>This summarizes all time spent in the course or any dependancy of the "
+"course.</p>"
+msgstr ""
+
+#: $string['crop']
+msgid "Crop out of range sessions"
+msgstr ""
+
+#: $string['csv']
+msgid "Text (CSV)"
+msgstr ""
+
+#: $string['csvoutputtoiso']
+msgid "Iso CSV Output"
+msgstr ""
+
+#: $string['csvoutputtoiso_desc']
+msgid ""
+"If enabled, the course raw report will be generated in ISO-8859-1 encoding "
+"for old CSV compliant applications."
+msgstr ""
+
+#: $string['currentcourse']
+msgid "Current course"
+msgstr ""
+
+#: $string['debugmode']
+msgid "Debug mode on"
+msgstr ""
+
+#: $string['defaultmeanformula']
+msgid "=AVERAGE({col}{minrow}:{col}{maxrow})"
+msgstr ""
+
+#: $string['defaultsumformula']
+msgid "=SUM({col}{minrow}:{col}{maxrow})"
+msgstr ""
+
+#: $string['disabled']
+msgid "|--------- disabled -----------|"
+msgstr ""
+
+#: $string['discrete']
+msgid "Discrete output"
+msgstr ""
+
+#: $string['done']
+msgid "Performed:"
+msgstr ""
+
+#: $string['duration']
+msgid "Duration"
+msgstr ""
+
+#: $string['elapsed']
+msgid "Total time"
+msgstr ""
+
+#: $string['elapsedadvice']
+msgid ""
+"Elapsed time can be different from session time range due to extra credit "
+"times on sessions breaks. Refer to the Use Stats block configuration."
+msgstr ""
+
+#: $string['elapsedlastweek']
+msgid "Last week time"
+msgstr ""
+
+#: $string['email']
+msgid "Email"
+msgstr ""
+
+#: $string['emulatecommunity']
+msgid "Emulate community version"
+msgstr ""
+
+#: $string['emulatecommunity_desc']
+msgid ""
+"If enabled, the plugin will behave as the public community version. This "
+"might loose features !"
+msgstr ""
+
+#: $string['enablecoursescore']
+msgctxt "$string['enablecoursescore']"
+msgid "Enable course score"
+msgstr ""
+
+#: $string['enablelearningtimecheckcoupling']
+msgid "Enable LTC coupling"
+msgstr ""
+
+#: $string['enablelearningtimecheckcoupling_desc']
+msgid ""
+"If enabled, the session reports will use the working days filtering of the "
+"Learning Time Check Report"
+msgstr ""
+
+#: $string['enddate']
+msgid "End date"
+msgstr ""
+
+#: $string['enterprisesign']
+msgid "Enterprise"
+msgstr ""
+
+#: $string['equlearningtime']
+msgid "Equivalent training time:"
+msgstr ""
+
+#: $string['equlearningtime_help']
+msgid ""
+"<p>Equivalent learning time summarizes all time spent in course, including "
+"standard allocation times if\n"
+"    the Learning Time Check checklist module is used "
+"(http://github.com/vfremaux/moodle-mod_learningtimecheck.git).</p>"
+msgstr ""
+
+#: $string['errorbadcoursestructure']
+msgid "Course structure error : bad id {$a}"
+msgstr ""
+
+#: $string['errorbadviewid']
+msgid "non existing report view"
+msgstr ""
+
+#: $string['errorcontinuousscale']
+msgid "You cannot use scales as grade source in continuous mode"
+msgstr ""
+
+#: $string['errorcoursestructurefirstpage']
+msgid "Course structure error: failed getting first page"
+msgstr ""
+
+#: $string['errorcoursetoolarge']
+msgid "Course is too large. Choosing a group"
+msgstr ""
+
+#: $string['errordiscretenoranges']
+msgid "You must define ranges when using discrete mode"
+msgstr ""
+
+#: $string['errornotingroup']
+msgid "You have not access to all users and do not have any group membership."
+msgstr ""
+
+#: $string['extelapsed']
+msgid "Total time (extended)"
+msgstr ""
+
+#: $string['extelapsed_help']
+msgid ""
+"The extended course time calculates the time strictly spent in the course "
+"context, plus time spent to get down to the course\n"
+"material and some time spent in général site screens the user has access to."
+msgstr ""
+
+#: $string['extelapsedlastweek']
+msgid "Last week time (extended)"
+msgstr ""
+
+#: $string['exthits']
+msgid "Hits (extended)"
+msgstr ""
+
+#: $string['exthitslastweek']
+msgid "Hits last week (extended)"
+msgstr ""
+
+#: $string['extother']
+msgid "Extra out of course time"
+msgstr ""
+
+#: $string['extother_help']
+msgid ""
+"<p>Elapsed time outside of this course, but attached to this course "
+"sessions. They are usually spent in user pages, or in global site scope.</p>"
+msgstr ""
+
+#: $string['extotherlastweek']
+msgid "Extra time (last week)"
+msgstr ""
+
+#: $string['extrauserinfo']
+msgid "Additional user info in reports"
+msgstr ""
+
+#: $string['extrauserinfo_desc']
+msgid "You can optionnaly add user field data to the user info part"
+msgstr ""
+
+#: $string['fail']
+msgid "FAIL"
+msgstr ""
+
+#: $string['filetimesuffixformat']
+msgid "Ymd_His"
+msgstr ""
+
+#: $string['firstaccess']
+msgid "First access"
+msgstr ""
+
+#: $string['firstconnection']
+msgid "First connection"
+msgstr ""
+
+#: $string['firstenrolldate']
+msgid "First enroll"
+msgstr ""
+
+#: $string['firstname']
+msgid "First Name"
+msgstr ""
+
+#: $string['formulalabel']
+msgid "Column label"
+msgstr ""
+
+#: $string['from']
+msgid "From"
+msgstr ""
+
+#: $string['generatecsv']
+msgid "Generate as CSV"
+msgstr ""
+
+#: $string['generatepdf']
+msgid "Generate as PDF"
+msgstr ""
+
+#: $string['generatereports']
+msgid "Generate reports"
+msgstr ""
+
+#: $string['generatexls']
+msgid "Generate as XLS"
+msgstr ""
+
+#: $string['gradesettings']
+msgid "Grade settings"
+msgstr ""
+
+#: $string['head1application']
+msgid "Head 1 colors are uses on top super header row when suitable."
+msgstr ""
+
+#: $string['head2application']
+msgid ""
+"Head 2 colors are uses on normal header row just above data columns. this is "
+"the most common case."
+msgstr ""
+
+#: $string['head3application']
+msgid "Head 3 coors are used on end of table sumarizer, xhen suitable."
+msgstr ""
+
+#: $string['headsection']
+msgid "Heading section"
+msgstr ""
+
+#: $string['hideemptymodules']
+msgid "Hide empty modules"
+msgstr ""
+
+#: $string['hideemptymodules_desc']
+msgid ""
+"Is enabled, empty modules (no time spent) will not be printed into reports."
+msgstr ""
+
+#: $string['hits']
+msgid "Hits"
+msgstr ""
+
+#: $string['hitslastweek']
+msgid "Hits last week"
+msgstr ""
+
+#: $string['id']
+msgid "ID"
+msgstr ""
+
+#: $string['idnumber']
+msgid "ID Number"
+msgstr ""
+
+#: $string['in']
+msgid "In time"
+msgstr ""
+
+#: $string['incourses']
+msgid "In courses"
+msgstr ""
+
+#: $string['insessiontime']
+msgid "Inside rules learning time"
+msgstr ""
+
+#: $string['insessiontime_help']
+msgid "This is the \"in\" learning time that matched validated rules"
+msgstr ""
+
+#: $string['institution']
+msgid "Institution"
+msgstr ""
+
+#: $string['institutions']
+msgid "Institutions"
+msgstr ""
+
+#: $string['instructure']
+msgid "Time in course activities"
+msgstr ""
+
+#: $string['interactive']
+msgid "Interactive"
+msgstr ""
+
+#: $string['interactivetitle']
+msgid "Produce this batch now!"
+msgstr ""
+
+#: $string['item']
+msgid "Item"
+msgstr ""
+
+#: $string['items']
+msgid "Items"
+msgstr ""
+
+#: $string['json']
+msgid "JSON"
+msgstr ""
+
+#: $string['lastaccess']
+msgid "Last access"
+msgstr ""
+
+#: $string['lastlogin']
+msgid "Last login"
+msgstr ""
+
+#: $string['lastname']
+msgid "Surname"
+msgstr ""
+
+#: $string['layout']
+msgid "Document layout"
+msgstr ""
+
+#: $string['learningtimecheckadvice_help']
+msgid ""
+"<p>When using a Learning Time Check module that enables teachers to validate "
+"activities without\n"
+"any student interaction in the course, some apparent information discrepancy "
+"may appear.</p>\n"
+"<p>This is a normal situation that reports consistant information regarding "
+"the effective\n"
+"    use of the platform</p>"
+msgstr ""
+
+#: $string['learningtimesessioncrop']
+msgid "Operation on out of range sessions"
+msgstr ""
+
+#: $string['learningtimesessioncrop_desc']
+msgid ""
+"When coupling with learningtimecheck, out of valid range sessions could be "
+"croped, or kept and only marked into reports"
+msgstr ""
+
+#: $string['libsmissing']
+msgid ""
+"This feature has been disabled as libs are missing. Install libs from "
+"http://github.com/vfremaux/moodle-local_vflibs to get PDF generation "
+"enabled."
+msgstr ""
+
+#: $string['lineaggregators']
+msgid "Line aggregators"
+msgstr ""
+
+#: $string['lineaggregators_help']
+msgid ""
+"<p>Define aggregators as a list of aggregators switches starting from left "
+"most columns in the\n"
+"resulting excel sheet. Separe switches with comas or semicolumns. Leaving "
+"blank disables the\n"
+"aggregator line.\n"
+"</p>\n"
+"<ul>\n"
+"<li><b>m :</b> mean</li>\n"
+"<li><b>s :</b> sum</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['mark']
+msgid "Mark out of range sessions"
+msgstr ""
+
+#: $string['modgrade']
+msgid "Activity grade"
+msgstr ""
+
+#: $string['modulegrade']
+msgid "Activity module"
+msgstr ""
+
+#: $string['modulegrades']
+msgid "Activity grades"
+msgstr ""
+
+#: $string['modulegrades_help']
+msgid ""
+"You can add here more columns to the report from the course grade book, "
+"choosing the activity module that will be source for the score.\n"
+"   You may also define the column label that will be used for this column in "
+"the report sheets. If left blank, the column name will be in order\n"
+"   of availability, the coursemodule IDnumber, or a module identifier built "
+"in by Moodle."
+msgstr ""
+
+#: $string['never']
+msgid "Never"
+msgstr ""
+
+#: $string['newtask']
+msgid "Add a new batch"
+msgstr ""
+
+#: $string['nodata']
+msgid "No course data"
+msgstr ""
+
+#: $string['noextragrade']
+msgid "Disabled"
+msgstr ""
+
+#: $string['nopermissiontoview']
+msgid ""
+"You have not enough permissions in this course to view this information."
+msgstr ""
+
+#: $string['nosessions']
+msgid "No measurable session data"
+msgstr ""
+
+#: $string['nostructure']
+msgid "No measurable course structure detected"
+msgstr ""
+
+#: $string['nothing']
+msgid "No users to compile"
+msgstr ""
+
+#: $string['now']
+msgid "Now !"
+msgstr ""
+
+#: $string['onefulluserpersheet']
+msgid "One full user information per sheet"
+msgstr ""
+
+#: $string['oneuserperrow']
+msgid "One user summary information per row in a single sheet"
+msgstr ""
+
+#: $string['othertime']
+msgid "Other (non activity) time"
+msgstr ""
+
+#: $string['othertime_help']
+msgid ""
+"<p>Elapsed time that cannot be directly assigned to a course activity "
+"module.</p>"
+msgstr ""
+
+#: $string['out']
+msgid "Out time"
+msgstr ""
+
+#: $string['outofgroup']
+msgid "No group"
+msgstr ""
+
+#: $string['outofstructure']
+msgid "Other course use time"
+msgstr ""
+
+#: $string['outputdir']
+msgid "Output directory"
+msgstr ""
+
+#: $string['outputdirectory']
+msgid "Output directory in local course files"
+msgstr ""
+
+#: $string['outputdir_help']
+msgid ""
+"<p>You may select an output subdirectory for generating your output "
+"documents. Note that the storage context where to find those documents\n"
+"    is the course from where you programmed the batch, even if the "
+"compilation course mentionned \"All courses\"</p>"
+msgstr ""
+
+#: $string['output:finalcoursegrade']
+msgid "Final grade"
+msgstr ""
+
+#: $string['output:rawcoursegrade']
+msgid "Raw course grade"
+msgstr ""
+
+#: $string['output:timebonus']
+msgid "Time bonus"
+msgstr ""
+
+#: $string['output:timegrade']
+msgctxt "$string['output:timegrade']"
+msgid "Time grade"
+msgstr ""
+
+#: $string['outsessiontime']
+msgid "Out rules remaining time"
+msgstr ""
+
+#: $string['outsessiontime_help']
+msgid "This is the remaining learning time that do NOT match validation rules"
+msgstr ""
+
+#: $string['over']
+msgid "over"
+msgstr ""
+
+#: $string['parts']
+msgid "parts"
+msgstr ""
+
+#: $string['pass']
+msgid "PASS"
+msgstr ""
+
+#: $string['pdf']
+msgid "PDF"
+msgstr ""
+
+#: $string['pdfabsoluteverticaloffset']
+msgid "Doc abs. vert. offset"
+msgstr ""
+
+#: $string['pdfabsoluteverticaloffset_desc']
+msgid ""
+"Tells the starting offset of the content generation relative to top of page "
+"in pdf generation (in mm)."
+msgstr ""
+
+#: $string['pdfpage']
+msgid "Page:"
+msgstr ""
+
+#: $string['pdfpagecutoff']
+msgid "PDF page height cutoff"
+msgstr ""
+
+#: $string['pdfpagecutoff_desc']
+msgid "Height in page for switching to next page (in mm)."
+msgstr ""
+
+#: $string['pdfreportfooter']
+msgid "PDF report footer image"
+msgstr ""
+
+#: $string['pdfreportfooter_desc']
+msgid ""
+"Provide a JPG image for the bottom footer (880px large x up to 100px height)"
+msgstr ""
+
+#: $string['pdfreportheader']
+msgid "PDF report header image"
+msgstr ""
+
+#: $string['pdfreportheader_desc']
+msgid ""
+"Provide a JPG image for the top header part (880px large x up to 220px "
+"height)"
+msgstr ""
+
+#: $string['pdfreportinnerheader']
+msgid "PDF report inner header image"
+msgstr ""
+
+#: $string['pdfreportinnerheader_desc']
+msgid ""
+"Provide a JPG image for the top header part in inner pages (880px large x up "
+"to 150px height). If none given, the first page header will be used again."
+msgstr ""
+
+#: $string['periodshift']
+msgid "Shift period"
+msgstr ""
+
+#: $string['periodshiftto']
+msgid "Shift \"to\" date only"
+msgstr ""
+
+#: $string['plugindist']
+msgid "Plugin distribution"
+msgstr ""
+
+#: $string['plugindist_desc']
+msgid ""
+"<p>This plugin is the community version and is published for anyone to use "
+"as is and check the plugin's\n"
+"core application. A \"pro\" version of this plugin exists and is distributed "
+"under conditions to feed the life cycle, upgrade, documentation\n"
+"and improvement effort.</p>\n"
+"<p>Please contact one of our distributors to get \"Pro\" version support.</p>\n"
+"<p><a href=\"http://www.mylearningfactory.com/index.php/documentation/Distrib"
+"uteurs?lang=en_utf8\">MyLF Distributors</a></p>"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Training Sessions"
+msgstr ""
+
+#: $string['printidnumber']
+msgid "Print ID Number"
+msgstr ""
+
+#: $string['printidnumber_desc']
+msgid "If checked, adds IDNumber to reports"
+msgstr ""
+
+#: $string['printsessiontotal']
+msgid "Display the overal session elapsed time"
+msgstr ""
+
+#: $string['printsessiontotal_desc']
+msgid "Do NOT display the total session time in on screen session reports."
+msgstr ""
+
+#: $string['proversionrequired']
+msgid ""
+"<p>You are trying to use a feature that is only available in the \"Pro\" "
+"version of this plugin. The \"Pro\" version of this plugin\n"
+"is a paied for version that help us support the development cycle of this "
+"plugin with quality insurance concerns, enhanced featuring\n"
+"and full support to our customers.</p>\n"
+"\n"
+"<p<Pro version can be obtained from our distributors:</p>\n"
+"\n"
+"<p><a href=\"http://www.mylearningfactory.com/index.php/documentation/Distrib"
+"uteurs?lang=en_utf8\">MyLF Distributors</a></p<"
+msgstr ""
+
+#: $string['quickgroupcompile']
+msgid ""
+"<h3>Quick Compile for {$a} users:</h3><p>Quick compilation provides a quick "
+"summary report for groups less than 50 users, directly in the root directory "
+"of your course files.</p>"
+msgstr ""
+
+#: $string['quickmonthlyreport']
+msgid "Quick monthly reports (PDF)"
+msgstr ""
+
+#: $string['range']
+msgid "Range"
+msgstr ""
+
+#: $string['recipient']
+msgid "Recipient"
+msgstr ""
+
+#: $string['recipient_desc']
+msgid ""
+"Default recipient of the PDF documents. May be locally overloaded by each "
+"operator."
+msgstr ""
+
+#: $string['replay']
+msgid "Replay same settings"
+msgstr ""
+
+#: $string['replaydelay']
+msgid "Replay delay (min)"
+msgstr ""
+
+#: $string['replaydelay_help']
+msgid ""
+"<p> If set to a positive value (in minutes), the batch will not be discarded "
+"after execution, but replayed continuously with that delay.\n"
+" Start date and/or end date will be shifted accordingly if a sliding period "
+"replay is selected.</p>"
+msgstr ""
+
+#: $string['reportdate']
+msgid "Report date"
+msgstr ""
+
+#: $string['reportfilemanager']
+msgid "Report files manager"
+msgstr ""
+
+#: $string['reportformat']
+msgid "Document format"
+msgstr ""
+
+#: $string['reportforuser']
+msgid "Report for"
+msgstr ""
+
+#: $string['reportlayout']
+msgid "Report layout"
+msgstr ""
+
+#: $string['reports']
+msgid "Reports"
+msgstr ""
+
+#: $string['reportscope']
+msgid "Scope"
+msgstr ""
+
+#: $string['reportscope_help']
+msgid ""
+"<p>Some reports allow scanning all courses of the user. Note that some "
+"reports do not use the scope.</p>"
+msgstr ""
+
+#: $string['role']
+msgid "Role"
+msgstr ""
+
+#: $string['scheduledbatches']
+msgid "Scheduled batches"
+msgstr ""
+
+#: $string['scoresettings']
+msgid "Score Reporting Settings"
+msgstr ""
+
+#: $string['scoresettingsadvice']
+msgid ""
+"In course summary reports (one user per line), you may add additional output "
+"columns with scores from the gradebook. You can add the global course "
+"grade, or choose to add one (or more) single activity grade(s) in the "
+"report."
+msgstr ""
+
+#: $string['sectionname']
+msgid "Section name"
+msgstr ""
+
+#: $string['seedetails']
+msgid "See details"
+msgstr ""
+
+#: $string['selectforreport']
+msgid "Select for reports"
+msgstr ""
+
+#: $string['sessionduration']
+msgid "Session duration"
+msgstr ""
+
+#: $string['sessionend']
+msgid "Session end"
+msgstr ""
+
+#: $string['sessionreportdoctitle']
+msgid "Session report"
+msgstr ""
+
+#: $string['sessionreports']
+msgid "User session report"
+msgstr ""
+
+#: $string['sessionreporttitle']
+msgid "Session report document caption"
+msgstr ""
+
+#: $string['sessionreporttitle_desc']
+msgid "Printed on first page of a user session report"
+msgstr ""
+
+#: $string['sessions']
+msgid "Working sessions (real guessed times)"
+msgstr ""
+
+#: $string['sessionsonly']
+msgid "User sessions only"
+msgstr ""
+
+#: $string['sessionstart']
+msgid "Session start"
+msgstr ""
+
+#: $string['showhits']
+msgid "Show events (csv)"
+msgstr ""
+
+#: $string['showhits_desc']
+msgid "If set, the hit count will be added to the CSV lines"
+msgstr ""
+
+#: $string['showsseconds']
+msgid "Show seconds"
+msgstr ""
+
+#: $string['showsseconds_desc']
+msgid "Show seconds in duration expression if enabled"
+msgstr ""
+
+#: $string['singleexec']
+msgid "Single run"
+msgstr ""
+
+#: $string['siteglobals']
+msgid "Site (non course sections)"
+msgstr ""
+
+#: $string['specialgrades']
+msgid "Special grades"
+msgstr ""
+
+#: $string['startdate']
+msgid "Start date"
+msgstr ""
+
+#: $string['structureitem']
+msgid "Course trackable item"
+msgstr ""
+
+#: $string['structuretotal']
+msgid "Total {$a}:"
+msgstr ""
+
+#: $string['studentsign']
+msgid "Student"
+msgstr ""
+
+#: $string['summarycolumns']
+msgid "Output columns for summary report"
+msgstr ""
+
+#: $string['summarycolumns_desc']
+msgid ""
+"<p>Choose columns by commenting with # any line. You can reorder lines to "
+"change the output order.</p>\n"
+"<p>(format keys : a as text, t as date, d as duration, n as numeric).</p>"
+msgstr ""
+
+#: $string['task']
+msgid "Task {$a}"
+msgstr ""
+
+#: $string['taskname']
+msgid "Task"
+msgstr ""
+
+#: $string['taskrecorded']
+msgid "Task successfully recorded"
+msgstr ""
+
+#: $string['teachersign']
+msgid "Teacher"
+msgstr ""
+
+#: $string['textapplication']
+msgid "This is a setting for default text of the document."
+msgstr ""
+
+#: $string['textcolor']
+msgid "Text color"
+msgstr ""
+
+#: $string['timeelapsed']
+msgid "Time spent"
+msgstr ""
+
+#: $string['timeelapsedcurweek']
+msgid "Time spent cur. week"
+msgstr ""
+
+#: $string['timegrade']
+msgid "Time grade source"
+msgstr ""
+
+#: $string['timegrademode']
+msgid "Time grade mode"
+msgstr ""
+
+#: $string['timegraderanges']
+msgid "Time grade ranges"
+msgstr ""
+
+#: $string['timegraderanges_help']
+msgid ""
+"Time grade ranges let you cut the elapsed time into pieces for achieving a "
+"discrete time grade effect. binay modes will need\n"
+"to give only one time threshold (in minutes) separating the PASSED and "
+"FAILED state. In \"discrete\" mode, enter a list (coma separated)\n"
+"of time threshold separating the ranges. The last range stands for \"time "
+"over last value\"."
+msgstr ""
+
+#: $string['timeperpart']
+msgid "Time elapsed per part"
+msgstr ""
+
+#: $string['timesource']
+msgid "Time source"
+msgstr ""
+
+#: $string['timespent']
+msgid "Spent"
+msgstr ""
+
+#: $string['timespentlastweek']
+msgid "Spent last week"
+msgstr ""
+
+#: $string['to']
+msgid "To"
+msgstr ""
+
+#: $string['todate']
+msgid "Date end"
+msgstr ""
+
+#: $string['tonow']
+msgid "To now"
+msgstr ""
+
+#: $string['toobig']
+msgid ""
+"<p>Compilation group is too big to be performed in quick compilation. We "
+"incline you programming a delayed batch at a time that will not affect your "
+"currently working users.<br/>To setup a batch, preset the compilation "
+"parameters in the above form, and register a new batch with the desired "
+"configuration, and setting batch time and output dir from the course file "
+"storage location origin (relative path, absolute path rejected).</p><p>You "
+"can also program a regular compilation batch that will compile every "
+"\\\"replaydelay\\\" minutes to the desired output.</p>"
+msgstr ""
+
+#: $string['totalduration']
+msgid "Total duration"
+msgstr ""
+
+#: $string['totalsessions']
+msgid "Total session time"
+msgstr ""
+
+#: $string['totalsessiontime']
+msgid "Total working sessions time"
+msgstr ""
+
+#: $string['totalsessiontime_help']
+msgid ""
+"Note that session list counts some durations that can be outside this "
+"course. Total session time should usually be higher than in course time "
+"calculation"
+msgstr ""
+
+#: $string['totalsitetime']
+msgid "Total site time"
+msgstr ""
+
+#: $string['trainingreports']
+msgid "Training Reports"
+msgstr ""
+
+#: $string['trainingsessions']
+msgctxt "$string['trainingsessions']"
+msgid "Training Sessions"
+msgstr ""
+
+#: $string['trainingsessions:batch']
+msgid "Can batch reports"
+msgstr ""
+
+#: $string['trainingsessions:downloadreports']
+msgid "Can download report documents"
+msgstr ""
+
+#: $string['trainingsessions:iscompiled']
+msgid "Is compiled in reports"
+msgstr ""
+
+#: $string['trainingsessionsreport']
+msgid "Training Session Reports"
+msgstr ""
+
+#: $string['trainingsessions_report_advancement']
+msgid "Progress Report"
+msgstr ""
+
+#: $string['trainingsessions_report_connections']
+msgid "Connection Report"
+msgstr ""
+
+#: $string['trainingsessions_report_institutions']
+msgid "Institution Report"
+msgstr ""
+
+#: $string['trainingsessionsscores']
+msgid "Score addition to reports"
+msgstr ""
+
+#: $string['trainingsessions:view']
+msgid "Can view training session report"
+msgstr ""
+
+#: $string['trainingsessions:viewother']
+msgid "Can view training session reports from other users"
+msgstr ""
+
+#: $string['unvisited']
+msgid "Unvisited"
+msgstr ""
+
+#: $string['updatefromaccountstart']
+msgid "Get from user first access"
+msgstr ""
+
+#: $string['updatefromcoursestart']
+msgid "Get from course start"
+msgstr ""
+
+#: $string['uploadglobals']
+msgid "File uploads"
+msgstr ""
+
+#: $string['uploadresult']
+msgid "Download raw results"
+msgstr ""
+
+#: $string['user']
+msgid "Per participant"
+msgstr ""
+
+#: $string['userdetail']
+msgid "Participant detail"
+msgstr ""
+
+#: $string['userlist']
+msgid "One row per participant"
+msgstr ""
+
+#: $string['usersheets']
+msgid "One sheetset per participant"
+msgstr ""
+
+#: $string['usersummary']
+msgid "Participant summary"
+msgstr ""
+
+#: $string['visiteditems']
+msgid "Visited Items."
+msgstr ""
+
+#: $string['weekstartdate']
+msgid "Week start"
+msgstr ""
+
+#: $string['workingsessions']
+msgid "Work sessions"
+msgstr ""
+
+#: $string['xls']
+msgid "XLS"
+msgstr ""
+
+#: $string['xlsformula']
+msgid "Formula (Excel expression)"
+msgstr ""
+
+#: $string['xlsmeanformula']
+msgid "XLS Mean Formula"
+msgstr ""
+
+#: $string['xlsmeanformula_desc']
+msgid ""
+"XLS Mean Formula. Use {minrow} and {maxrow} placeholders to fix the vertical "
+"range, and {col} as current column identifier. A cell reference can be : "
+"${col}$4, $Y${minrow}"
+msgstr ""
+
+#: $string['xlssumformula']
+msgid "XLS Sum Formula"
+msgstr ""
+
+#: $string['xlssumformula_desc']
+msgid ""
+"XLS Sum Formula. Use {minrow} and {maxrow} placeholders to fix the vertical "
+"range, and {col} as current column identifier. A cell reference can be : "
+"${col}$4, $Y${minrow}"
+msgstr ""

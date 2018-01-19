@@ -1,0 +1,598 @@
+#. extracted from lang/en/report_courseawards.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'report_courseawards', language 'en', branch 'MOODLE_23_STABLE'
+#.  *
+#.  * @package   report_courseawards
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['achievement']
+msgid "...Achievement Ribbon:"
+msgstr ""
+
+#: $string['admin_backupdatabase']
+msgid ""
+"<strong>EXPERIMENTAL:</strong> Backup the votes, notes and medals. (MySQL "
+"databases only.)"
+msgstr ""
+
+#: $string['admin_backuptitle']
+msgid "Backup Options"
+msgstr ""
+
+#: $string['admin_courseclearingtitle']
+msgid "Course Clearing Options"
+msgstr ""
+
+#: $string['admin_deleteallmedalhistory']
+msgid ""
+"Delete all medal <em>history</em> (what has previously been "
+"awarded/removed)."
+msgstr ""
+
+#: $string['admin_deleteallvotehistory']
+msgid ""
+"Delete all votes (and notes) <em>history</em> (what has previously been "
+"awarded and removed)."
+msgstr ""
+
+#: $string['admin_medalstitle']
+msgid "Medals Options"
+msgstr ""
+
+#: $string['admin_notestitle']
+msgid "Notes Options"
+msgstr ""
+
+#: $string['admin_removeallmedals']
+msgid ""
+"Remove all medals from all courses, keeping the history of what has been "
+"awarded/removed. (Will show as deleted by you.)"
+msgstr ""
+
+#: $string['admin_removeallnotes']
+msgid "Wipe all notes from all courses, keeping votes."
+msgstr ""
+
+#: $string['admin_removeallvotes']
+msgid ""
+"Remove all votes from all courses, keeping the history of votes and notes."
+msgstr ""
+
+#: $string['admin_toc']
+msgid "Administrative Options (Destructive!)"
+msgstr ""
+
+#: $string['admin_votestitle']
+msgid "Votes Options"
+msgstr ""
+
+#: $string['all']
+msgid "All"
+msgstr ""
+
+#: $string['alphalist']
+msgid "...an alphabetical list:"
+msgstr ""
+
+#: $string['asof']
+msgid "as of"
+msgstr ""
+
+#: $string['backtolisting']
+msgid "Report Index"
+msgstr ""
+
+#: $string['blocklist']
+msgid "Links to Moodle's own blocks list"
+msgstr ""
+
+#: $string['bronze']
+msgid "...Bronze:"
+msgstr ""
+
+#: $string['course']
+msgid "Course"
+msgstr ""
+
+#: $string['courseawardstoctitle']
+msgid "Course Awards - Various Reports"
+msgstr ""
+
+#: $string['coursereport_highscore']
+msgid "Highest Scoring Courses"
+msgstr ""
+
+#: $string['coursereport_list']
+msgctxt "$string['coursereport_list']"
+msgid "Simple List of all courses with votes"
+msgstr ""
+
+#: $string['coursereport_mostdeleted']
+msgid "Courses with Most Deleted Votes"
+msgstr ""
+
+#: $string['coursereport_mostnoted']
+msgid "Most Noted Courses"
+msgstr ""
+
+#: $string['coursereport_mostvoted']
+msgid "Most Voted-For Courses"
+msgstr ""
+
+#: $string['coursereport_single']
+msgid "Single Course Report"
+msgstr ""
+
+#: $string['coursewith']
+msgid "Course with..."
+msgstr ""
+
+#: $string['date']
+msgid "Date"
+msgstr ""
+
+#: $string['debugawarded']
+msgid "Awarded:"
+msgstr ""
+
+#: $string['debugcourses']
+msgid "distinct courses"
+msgstr ""
+
+#: $string['debugdeleted']
+msgctxt "$string['debugdeleted']"
+msgid "Deleted:"
+msgstr ""
+
+#: $string['debuglive']
+msgid "Live:"
+msgstr ""
+
+#: $string['debugmedals']
+msgid "Medals:"
+msgstr ""
+
+#: $string['debugnotes']
+msgid "Notes:"
+msgstr ""
+
+#: $string['debugtotal']
+msgid "Total:"
+msgstr ""
+
+#: $string['debugusers']
+msgid "distinct users have voted on"
+msgstr ""
+
+#: $string['debugvotes']
+msgid "Votes:"
+msgstr ""
+
+#: $string['deleted']
+msgid "deleted"
+msgstr ""
+
+#: $string['deleted_csv']
+msgid "Deleted"
+msgstr ""
+
+#: $string['deletedmost']
+msgid "...deleted the most votes:"
+msgstr ""
+
+#: $string['error_admin']
+msgid "Sorry, you need to be a site Admin to see the Course Reports."
+msgstr ""
+
+#: $string['error_dbupdate']
+msgid "Database not updated for some reason."
+msgstr ""
+
+#: $string['error_noanyvotes']
+msgid "There are no votes to remove."
+msgstr ""
+
+#: $string['error_noblock']
+msgid ""
+"\"Sorry, couldn't get the block ID for the 'courseawards_vote' block. Have "
+"you installed it? If so, please report this error to the developer."
+msgstr ""
+
+#: $string['error_nomedals']
+msgid "There are no medals to remove."
+msgstr ""
+
+#: $string['error_nonotes']
+msgid "There are no live notes to remove."
+msgstr ""
+
+#: $string['error_noquery']
+msgid ""
+"Sorry, the URL is malformed and an appropriate report could not be "
+"generated."
+msgstr ""
+
+#: $string['error_noremovedmedals']
+msgid "There are no removed medals to delete."
+msgstr ""
+
+#: $string['error_notmysql']
+msgid "Sorry, you need to be using MySQL for this to work."
+msgstr ""
+
+#: $string['error_novotes']
+msgid "There are no live votes to remove."
+msgstr ""
+
+#: $string['error_query']
+msgid "Sorry, the query could not be composed properly and cannot be run."
+msgstr ""
+
+#: $string['fifty']
+msgid "50"
+msgstr ""
+
+#: $string['five']
+msgid "5"
+msgstr ""
+
+#: $string['gold']
+msgid "...Gold:"
+msgstr ""
+
+#: $string['good']
+msgid "Good"
+msgstr ""
+
+#: $string['highscore']
+msgid "...the highest score:"
+msgstr ""
+
+#: $string['inadequate']
+msgid "Inadequate"
+msgstr ""
+
+#: $string['listby']
+msgid "...list by:"
+msgstr ""
+
+#: $string['listmedal']
+msgid "A list of courses with the Medal block added"
+msgstr ""
+
+#: $string['listvote']
+msgid "A list of courses with the Vote block added"
+msgstr ""
+
+#: $string['medalawardedby_csv']
+msgid "Awarded by"
+msgstr ""
+
+#: $string['medalawarded_csv']
+msgid "Medal Awarded"
+msgstr ""
+
+#: $string['medals']
+msgid "Medal"
+msgstr ""
+
+#: $string['medalsawarded']
+msgid "Medals Awarded..."
+msgstr ""
+
+#: $string['medalsreport_achievement']
+msgid "Achievement Ribbons"
+msgstr ""
+
+#: $string['medalsreport_awarded']
+msgid "Awarded"
+msgstr ""
+
+#: $string['medalsreport_bronze']
+msgid "Bronze Medals"
+msgstr ""
+
+#: $string['medalsreport_dateachieved']
+msgid "Date Achieved"
+msgstr ""
+
+#: $string['medalsreport_del']
+msgid "Del:"
+msgstr ""
+
+#: $string['medalsreport_gold']
+msgid "Gold Medals"
+msgstr ""
+
+#: $string['medalsreport_medals']
+msgid "Medals"
+msgstr ""
+
+#: $string['medalsreport_silver']
+msgid "Silver Medals"
+msgstr ""
+
+#: $string['mostdeletedvotes']
+msgid "...the most deleted votes:"
+msgstr ""
+
+#: $string['mostnotes']
+msgid "...the most notes:"
+msgstr ""
+
+#: $string['mostvotes']
+msgid "...the most votes:"
+msgstr ""
+
+#: $string['name']
+msgid "Name"
+msgstr ""
+
+#: $string['no']
+msgid "no"
+msgstr ""
+
+#: $string['noresults']
+msgid ""
+"No results found. <a href=\"index.php\">Go back</a> to try another report."
+msgstr ""
+
+#: $string['note_csv']
+msgctxt "$string['note_csv']"
+msgid "Note"
+msgstr ""
+
+#: $string['notedmost']
+msgid "...noted the most:"
+msgstr ""
+
+#: $string['notes']
+msgid "Notes (Deleted)"
+msgstr ""
+
+#: $string['notes_csv']
+msgid "Notes"
+msgstr ""
+
+#: $string['novotesnotes']
+msgid "No votes or notes found."
+msgstr ""
+
+#: $string['onehundred']
+msgid "100"
+msgstr ""
+
+#: $string['outstanding']
+msgid "Outstanding"
+msgstr ""
+
+#: $string['percentage_csv']
+msgctxt "$string['percentage_csv']"
+msgid "Percentage"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Course Awards"
+msgstr ""
+
+#: $string['position']
+msgid "Pos"
+msgstr ""
+
+#: $string['satisfactory']
+msgid "Satisfactory"
+msgstr ""
+
+#: $string['saveascsv']
+msgid "Click here to save this table as a CSV (comma separated values) file"
+msgstr ""
+
+#: $string['score']
+msgid "Score (out of 3) and %age"
+msgstr ""
+
+#: $string['score_csv']
+msgid "Score (out of 3)"
+msgstr ""
+
+#: $string['silver']
+msgid "...Silver:"
+msgstr ""
+
+#: $string['sortimg1']
+msgid "This image:"
+msgstr ""
+
+#: $string['sortimg2']
+msgid "indicates the column which is sorted."
+msgstr ""
+
+#: $string['stats']
+msgid "Statistics"
+msgstr ""
+
+#: $string['ten']
+msgid "10"
+msgstr ""
+
+#: $string['top']
+msgid "Top"
+msgstr ""
+
+#: $string['twenty']
+msgid "20"
+msgstr ""
+
+#: $string['user']
+msgid "User"
+msgstr ""
+
+#: $string['userreport_list']
+msgctxt "$string['userreport_list']"
+msgid "Simple List of all courses with votes"
+msgstr ""
+
+#: $string['userreport_mostdeleted']
+msgid "Users who Deleted the most Votes"
+msgstr ""
+
+#: $string['userreport_notedmost']
+msgid "Users who Added the most Notes"
+msgstr ""
+
+#: $string['userreport_single']
+msgid "Single User Report"
+msgstr ""
+
+#: $string['userreport_votedhighest']
+msgid "Users who Voted the Highest"
+msgstr ""
+
+#: $string['userreport_votedlowest']
+msgid "Users who Voted the Lowest"
+msgstr ""
+
+#: $string['userreport_votedmost']
+msgid "Users who Voted the Most"
+msgstr ""
+
+#: $string['usershave']
+msgid "Users who have..."
+msgstr ""
+
+#: $string['vnreport_added']
+msgid "Added:"
+msgstr ""
+
+#: $string['vnreport_bigchart']
+msgid "Click for larger version"
+msgstr ""
+
+#: $string['vnreport_courseawarded']
+msgid "This course has been awarded"
+msgstr ""
+
+#: $string['vnreport_coursescore']
+msgid "This course's score is"
+msgstr ""
+
+#: $string['vnreport_del']
+msgid "Del?"
+msgstr ""
+
+#: $string['vnreport_deleted']
+msgctxt "$string['vnreport_deleted']"
+msgid "Deleted:"
+msgstr ""
+
+#: $string['vnreport_delvotenote']
+msgid "Delete this vote (and note)?"
+msgstr ""
+
+#: $string['vnreport_detail']
+msgid "Detail"
+msgstr ""
+
+#: $string['vnreport_errortype']
+msgid "Type could not be determined as either a course or a user."
+msgstr ""
+
+#: $string['vnreport_greytext']
+msgid "Greyed out text is a deleted vote."
+msgstr ""
+
+#: $string['vnreport_medalawarded']
+msgid "Medal awarded"
+msgstr ""
+
+#: $string['vnreport_note']
+msgctxt "$string['vnreport_note']"
+msgid "Note"
+msgstr ""
+
+#: $string['vnreport_orpercentage']
+msgid "out of 3, or"
+msgstr ""
+
+#: $string['vnreport_percent']
+msgid "%."
+msgstr ""
+
+#: $string['vnreport_percentage']
+msgctxt "$string['vnreport_percentage']"
+msgid "Percentage"
+msgstr ""
+
+#: $string['vnreport_summary']
+msgid "Summary (Live votes only)"
+msgstr ""
+
+#: $string['vnreport_title']
+msgid "Votes and Notes for"
+msgstr ""
+
+#: $string['vnreport_vote']
+msgctxt "$string['vnreport_vote']"
+msgid "Vote"
+msgstr ""
+
+#: $string['vnreport_votecast']
+msgid "Votes Cast"
+msgstr ""
+
+#: $string['vote_csv']
+msgctxt "$string['vote_csv']"
+msgid "Vote"
+msgstr ""
+
+#: $string['votedhighest']
+msgid "...voted the highest:"
+msgstr ""
+
+#: $string['votedlowest']
+msgid "...voted the lowest:"
+msgstr ""
+
+#: $string['votedmost']
+msgid "...voted the most:"
+msgstr ""
+
+#: $string['votes']
+msgid "Votes (Deleted)"
+msgstr ""
+
+#: $string['votes_csv']
+msgid "Votes"
+msgstr ""
+
+#: $string['yes']
+msgid "yes"
+msgstr ""

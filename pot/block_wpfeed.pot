@@ -1,0 +1,259 @@
+#. extracted from lang/en/block_wpfeed.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_wpfeed', language 'en', branch 'MOODLE_30_STABLE'
+#.  *
+#.  * @package   block_wpfeed
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['block_wpfeed_api_url_title']
+msgid "Request WordPress REST API URL"
+msgstr ""
+
+#: $string['block_wpfeed_api_version']
+msgid "Your WordPress site API version"
+msgstr ""
+
+#: $string['block_wpfeed_api_version_desc']
+msgid ""
+"WP API <strong>version 1</strong> plugin repository URL: <a "
+"href=\"https://wordpress.org/plugins/json-rest-api/\" "
+"target=\"_blank\">https://wordpress.org/plugins/json-rest-api/</a> (<em>for WP "
+"versions 3.9&ndash;4.4.2</em>)<br />WP API <strong>version 2</strong> "
+"plugin repository URL: <a href=\"https://wordpress.org/plugins/rest-api/\" "
+"target=\"_blank\">https://wordpress.org/plugins/rest-api/</a> (<em>for WP "
+"versions 4.4+</em>)"
+msgstr ""
+
+#: $string['block_wpfeed_clear_cache']
+msgid "If you updated block settings, do not forget"
+msgstr ""
+
+#: $string['block_wpfeed_debug_title']
+msgid "Debug info"
+msgstr ""
+
+#: $string['block_wpfeed_default_title']
+msgctxt "$string['block_wpfeed_default_title']"
+msgid "WordPress Feed"
+msgstr ""
+
+#: $string['block_wpfeed_empty_response']
+msgid "Empty response data"
+msgstr ""
+
+#: $string['block_wpfeed_error_string']
+msgid "Error description"
+msgstr ""
+
+#: $string['block_wpfeed_no_posts']
+msgid "No posts in API response"
+msgstr ""
+
+#: $string['block_wpfeed_request_title']
+msgid "Request data"
+msgstr ""
+
+#: $string['block_wpfeed_response_title']
+msgid "Response data"
+msgstr ""
+
+#: $string['block_wpfeed_settings_cache_interval']
+msgid "Caching interval"
+msgstr ""
+
+#: $string['block_wpfeed_settings_cache_interval_desc']
+msgid ""
+"WP API response caching in MINUTES. Min value is "
+"<code>{$a->min_cache_time}</code>, 0 = no caching"
+msgstr ""
+
+#: $string['block_wpfeed_settings_categories']
+msgid "WordPress posts categories id-s"
+msgstr ""
+
+#: $string['block_wpfeed_settings_categories_desc']
+msgid ""
+"Several categories must be separated by \",\". <code>0 = all categories</code>"
+msgstr ""
+
+#: $string['block_wpfeed_settings_dev_mode']
+msgid "Developer mode"
+msgstr ""
+
+#: $string['block_wpfeed_settings_dev_mode_desc']
+msgid ""
+"Advanced data for developers, works only with <code>development mode</code>"
+msgstr ""
+
+#: $string['block_wpfeed_settings_excerpt_length']
+msgid "Content excerpt length"
+msgstr ""
+
+#: $string['block_wpfeed_settings_excerpt_length_desc']
+msgid "Length of content to trim"
+msgstr ""
+
+#: $string['block_wpfeed_settings_new_window']
+msgid "Open links/posts in new window/tab"
+msgstr ""
+
+#: $string['block_wpfeed_settings_noindex']
+msgid "Enable noindex"
+msgstr ""
+
+#: $string['block_wpfeed_settings_noindex_desc']
+msgid ""
+"Add <code>&lt;noindex&gt;</code> tag to make block content invisible for "
+"Search Engines like Google. Sometimes useful for SEO."
+msgstr ""
+
+#: $string['block_wpfeed_settings_post_date']
+msgid "Post date format"
+msgstr ""
+
+#: $string['block_wpfeed_settings_post_date_desc']
+msgid "Output post PHP function <code>date</code> format"
+msgstr ""
+
+#: $string['block_wpfeed_settings_posts_limit']
+msgid "Posts limit"
+msgstr ""
+
+#: $string['block_wpfeed_settings_posts_limit_desc']
+msgid "Posts number to output"
+msgstr ""
+
+#: $string['block_wpfeed_settings_post_type']
+msgid "WordPress post type"
+msgstr ""
+
+#: $string['block_wpfeed_settings_post_type_desc']
+msgid ""
+"Needle Post type of your WordPress site. Default is "
+"<code>{$a->default_post_type}</code>"
+msgstr ""
+
+#: $string['block_wpfeed_settings_session_store']
+msgid "Store response in user session"
+msgstr ""
+
+#: $string['block_wpfeed_settings_session_store_desc']
+msgid ""
+"You can use this case to store saved API response for current user. Every "
+"time user visit your Moodle site - response is stored to the "
+"<code>$SESSION</code> object once"
+msgstr ""
+
+#: $string['block_wpfeed_settings_skin']
+msgid "Output skin"
+msgstr ""
+
+#: $string['block_wpfeed_settings_thumbnail_link']
+msgid "Thumbnail is a link"
+msgstr ""
+
+#: $string['block_wpfeed_settings_thumbnail_link_desc']
+msgid "Make thumbnail image as a link to the post"
+msgstr ""
+
+#: $string['block_wpfeed_settings_thumbnail_show']
+msgid "Show posts thumbnails"
+msgstr ""
+
+#: $string['block_wpfeed_settings_thumbnail_size']
+msgid "Thumbnail size"
+msgstr ""
+
+#: $string['block_wpfeed_settings_thumbnail_size_desc']
+msgid ""
+"WordPress-based thumbnail size handler. Works if show posts thumbnails "
+"enabled.<br />Default WordPress-based sizes:<br /><code>thumbnail</code><br "
+"/><code>medium</code><br /><code>large</code><br /><code>small</code>"
+msgstr ""
+
+#: $string['block_wpfeed_settings_thumbnail_width']
+msgid "Thumbnail width"
+msgstr ""
+
+#: $string['block_wpfeed_settings_thumbnail_width_desc']
+msgid ""
+"Thumbnail HTML width (px) attribute specified by admin. <code>0 = "
+"auto</code>"
+msgstr ""
+
+#: $string['block_wpfeed_settings_title']
+msgid "Block title"
+msgstr ""
+
+#: $string['block_wpfeed_settings_url_title']
+msgid "Go to the WPFeed block settings"
+msgstr ""
+
+#: $string['block_wpfeed_settings_wp_api_prefix']
+msgid "WordPress REST API URI prefix"
+msgstr ""
+
+#: $string['block_wpfeed_settings_wp_api_prefix_desc']
+msgid ""
+"Prefix after site URL for requests <strong>without slashes</strong>.<br "
+"/>Default prefix for API v1: <code>{$a->default_api_prefix_v1}</code><br "
+"/>Default prefix for API v2: <code>{$a->default_api_prefix_v2}</code><br "
+"/>Request API URL at result will be like "
+"<code>http://yoursite.com/{$a->default_api_prefix_v1}</code> or "
+"<code>http://yoursite.com/{$a->default_api_prefix_v2}</code>"
+msgstr ""
+
+#: $string['block_wpfeed_settings_wp_url']
+msgid "WordPress site URL"
+msgstr ""
+
+#: $string['block_wpfeed_settings_wp_url_desc']
+msgid ""
+"Your WordPress site URL address <strong>without slashes</strong>. Example: "
+"<em>http://mysite.com</em>"
+msgstr ""
+
+#: $string['block_wpfeed_update_cache']
+msgid "WPFeed cache update"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "WordPress Feed"
+msgstr ""
+
+#: $string['wpfeed:addinstance']
+msgid "Add a new WPFeed block"
+msgstr ""
+
+#: $string['wpfeed:myaddinstance']
+msgid "Add a new simple HTML block to the My Moodle page"
+msgstr ""

@@ -1,0 +1,229 @@
+#. extracted from lang/en/grading.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'grading', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   grading
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['activemethodinfo']
+msgid ""
+"'{$a->method}' is selected as the active grading method for the '{$a->area}' "
+"area"
+msgstr ""
+
+#: $string['activemethodinfonone']
+msgid ""
+"There is no advanced grading method selected for the '{$a->area}' area. "
+"Simple direct grading will be used."
+msgstr ""
+
+#: $string['changeactivemethod']
+msgid "Change active grading method to"
+msgstr ""
+
+#: $string['clicktoclose']
+msgid "click to close"
+msgstr ""
+
+#: $string['exc_gradingformelement']
+msgid "Unable to instantiate grading form element"
+msgstr ""
+
+#: $string['formnotavailable']
+msgid ""
+"Advanced grading method was selected to use but the grading form is not "
+"available yet. You may need to define it first via a link in the "
+"Administration block."
+msgstr ""
+
+#: $string['gradingformunavailable']
+msgid ""
+"Please note: the advanced grading form is not ready at the moment. Simple "
+"grading method will be used until the form has a valid status."
+msgstr ""
+
+#: $string['gradingmanagement']
+msgid "Advanced grading"
+msgstr ""
+
+#: $string['gradingmanagementtitle']
+msgid "Advanced grading: {$a->component} ({$a->area})"
+msgstr ""
+
+#: $string['gradingmethod']
+msgid "Grading method"
+msgstr ""
+
+#: $string['gradingmethod_help']
+msgid ""
+"Choose the advanced grading method that should be used for calculating "
+"grades in the given context.\n"
+"\n"
+"To disable advanced grading and switch back to the default grading "
+"mechanism, choose 'Simple direct grading'."
+msgstr ""
+
+#: $string['gradingmethodnone']
+msgid "Simple direct grading"
+msgstr ""
+
+#: $string['gradingmethods']
+msgid "Grading methods"
+msgstr ""
+
+#: $string['manageactionclone']
+msgid "Create new grading form from a template"
+msgstr ""
+
+#: $string['manageactiondelete']
+msgid "Delete the currently defined form"
+msgstr ""
+
+#: $string['manageactiondeleteconfirm']
+msgid ""
+"You are going to delete the grading form '{$a->formname}' and all the "
+"associated information from '{$a->component} ({$a->area})'. Please make sure "
+"you understand the following consequences:\n"
+"\n"
+"* There is no way to undo this operation.\n"
+"* You can switch to another grading method including the 'Simple direct "
+"grading' without deleting this form.\n"
+"* All the information about how the grading forms are filled will be lost.\n"
+"* The calculated result grades stored in the gradebook will not be affected. "
+"However the explanation of how they were calculated will not be available.\n"
+"* This operation does not affect eventual copies of this form in other "
+"activities."
+msgstr ""
+
+#: $string['manageactiondeletedone']
+msgid "The form was successfully deleted"
+msgstr ""
+
+#: $string['manageactionedit']
+msgid "Edit the current form definition"
+msgstr ""
+
+#: $string['manageactionnew']
+msgid "Define new grading form from scratch"
+msgstr ""
+
+#: $string['manageactionshare']
+msgid "Publish the form as a new template"
+msgstr ""
+
+#: $string['manageactionshareconfirm']
+msgid ""
+"You are going to save a copy of the grading form '{$a}' as a new public "
+"template. Other users at your site will be able to create new grading forms "
+"in their activities from that template."
+msgstr ""
+
+#: $string['manageactionsharedone']
+msgid "The form was successfully saved as a template"
+msgstr ""
+
+#: $string['noitemid']
+msgid "Grading not possible. The graded item does not exist."
+msgstr ""
+
+#: $string['nosharedformfound']
+msgid "No template found"
+msgstr ""
+
+#: $string['searchownforms']
+msgid "include my own forms"
+msgstr ""
+
+#: $string['searchtemplate']
+msgid "Grading forms search"
+msgstr ""
+
+#: $string['searchtemplate_help']
+msgid ""
+"You can search for a grading form and use it as a template for the new "
+"grading form here. Simply type words that should appear somewhere in the "
+"form name, its description or the form body itself. To search for a phrase, "
+"wrap the whole query in double quotes.\n"
+"\n"
+"By default, only the grading forms that have been saved as shared templates "
+"are included in the search results. You can also include all your own "
+"grading forms in the search results. This way, you can simply re-use your "
+"grading forms without sharing them. Only forms marked as 'Ready for use' can "
+"be re-used this way."
+msgstr ""
+
+#: $string['statusdraft']
+msgid "Draft"
+msgstr ""
+
+#: $string['statusready']
+msgid "Ready for use"
+msgstr ""
+
+#: $string['templatedelete']
+msgid "Delete"
+msgstr ""
+
+#: $string['templatedeleteconfirm']
+msgid ""
+"You are going to delete the shared template '{$a}'. Deleting a template does "
+"not affect existing forms that were created from it."
+msgstr ""
+
+#: $string['templateedit']
+msgid "Edit"
+msgstr ""
+
+#: $string['templatepick']
+msgid "Use this template"
+msgstr ""
+
+#: $string['templatepickconfirm']
+msgid ""
+"Do you want to use the grading form '{$a->formname}' as a template for the "
+"new grading form in '{$a->component} ({$a->area})'?"
+msgstr ""
+
+#: $string['templatepickownform']
+msgid "Use this form as a template"
+msgstr ""
+
+#: $string['templatesource']
+msgid "Location: {$a->component} ({$a->area})"
+msgstr ""
+
+#: $string['templatetypeown']
+msgid "Own form"
+msgstr ""
+
+#: $string['templatetypeshared']
+msgid "Shared template"
+msgstr ""

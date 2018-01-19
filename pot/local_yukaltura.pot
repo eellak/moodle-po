@@ -1,0 +1,734 @@
+#. extracted from lang/en/local_yukaltura.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'local_yukaltura', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   local_yukaltura
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['application_name']
+msgid "Application name"
+msgstr ""
+
+#: $string['application_name_desc']
+msgid ""
+"The application name is the name reported back to the Kaltura server to be "
+"used for aggregation by application in the user level reports"
+msgstr ""
+
+#: $string['category_reset_complete']
+msgid "<b>Root category has been reset</b>"
+msgstr ""
+
+#: $string['ceconn']
+msgid "Kaltura CE"
+msgstr ""
+
+#: $string['clear']
+msgctxt "$string['clear']"
+msgid "Clear"
+msgstr ""
+
+#: $string['click_test_button']
+msgid "Click button to test the connection"
+msgstr ""
+
+#: $string['confirm_category_reset']
+msgid ""
+"<p>Are you sure you want to reset the root category location?</p><p>If you "
+"perform this action, all media course sharing and usage information in "
+"Moodle will be lost.</p><p>If you accidentially click \"continue\", it is "
+"possible to get your information back, but only if you set the category path "
+"back to the <b>original</b> value.</p><p>Choose wisely.</p>"
+msgstr ""
+
+#: $string['connected']
+msgid "Connection to Kaltura successful"
+msgstr ""
+
+#: $string['connection_status']
+msgid "Connection Status"
+msgstr ""
+
+#: $string['conn_failed']
+msgid ""
+"Unable to login.  Please verify your credentials and connection settings and "
+"try again"
+msgstr ""
+
+#: $string['conn_failed_alt']
+msgid ""
+"Connection with Kaltura is currently unavailable.  Please inform your "
+"administrator."
+msgstr ""
+
+#: $string['conn_heading_desc']
+msgid ""
+"Input the type of connection you would like to use (KalturaCE or the hosted "
+"Kaltura server) and enter in the credentials related to the connection you "
+"are using."
+msgstr ""
+
+#: $string['conn_heading_title']
+msgid "Kaltura hosted and CE settings"
+msgstr ""
+
+#: $string['conn_server']
+msgid "Connection Server"
+msgstr ""
+
+#: $string['conn_server_desc']
+msgid ""
+"Select whether you are connecting to a hosted account on whether you are "
+"connect to your own Kaltura CE server"
+msgstr ""
+
+#: $string['conn_status_title']
+msgid "Connection status"
+msgstr ""
+
+#: $string['conn_success']
+msgid "Successfully logged in with credentials"
+msgstr ""
+
+#: $string['course_name']
+msgid "Course name:"
+msgstr ""
+
+#: $string['custom_player']
+msgid "Custom player"
+msgstr ""
+
+#: $string['eighteen']
+msgid "18"
+msgstr ""
+
+#: $string['empty_size']
+msgid "Please input custom player size(width,height)."
+msgstr ""
+
+#: $string['enable_html5']
+msgid "Enable HTML5 flavour"
+msgstr ""
+
+#: $string['enable_html5_desc']
+msgid ""
+"Check this setting to enable to use of the HTML5 flavours when viewing media"
+msgstr ""
+
+#: $string['enable_reports']
+msgid "Enable reports"
+msgstr ""
+
+#: $string['enable_reports_desc']
+msgid ""
+"Kaltura reports are only compatible with Kaltura version Falcon or above"
+msgstr ""
+
+#: $string['enable_webcam']
+msgid "Enable webcamera recording"
+msgstr ""
+
+#: $string['enable_webcam_desc']
+msgid ""
+"Check this setting to enable to use of the webcamera recording and "
+"uploading."
+msgstr ""
+
+#: $string['filter_custom']
+msgid "Custom embedded UIConf ID"
+msgstr ""
+
+#: $string['filter_custom_desc']
+msgid "Only used if you have a custom player for embedding media"
+msgstr ""
+
+#: $string['filter_player']
+msgctxt "$string['filter_player']"
+msgid "Embedded player height"
+msgstr ""
+
+#: $string['filter_player_desc']
+msgctxt "$string['filter_player_desc']"
+msgid "Height of the embedded player"
+msgstr ""
+
+#: $string['filter_player_height']
+msgctxt "$string['filter_player_height']"
+msgid "Embedded player height"
+msgstr ""
+
+#: $string['filter_player_height_desc']
+msgctxt "$string['filter_player_height_desc']"
+msgid "Height of the embedded player"
+msgstr ""
+
+#: $string['filter_player_width']
+msgid "Embedded player width"
+msgstr ""
+
+#: $string['filter_player_width_desc']
+msgid "Width of the embedded player"
+msgstr ""
+
+#: $string['flashminimum']
+msgid ""
+"Flash player version 9 and above is required. <a "
+"href=\\\"http://get.adobe.com/flashplayer/\\\">Upgrade your flash version</a>"
+msgstr ""
+
+#: $string['found_course']
+msgid "Found {$a} course(s):"
+msgstr ""
+
+#: $string['header_kaltura_reports']
+msgid "Kaltura Reports"
+msgstr ""
+
+#: $string['hostedconn']
+msgid "Kaltura Hosted Solution (SaaS)"
+msgstr ""
+
+#: $string['hosted_login']
+msgid "Hosted account login"
+msgstr ""
+
+#: $string['hosted_login_desc']
+msgid "Login username that is used to log into the Kaltura site"
+msgstr ""
+
+#: $string['hosted_password']
+msgid "Hosted account password"
+msgstr ""
+
+#: $string['hosted_password_desc']
+msgid "Password that is used to log into the Kaltura site"
+msgstr ""
+
+#: $string['internal_ipaddress']
+msgid "Internal IP Address"
+msgstr ""
+
+#: $string['internal_ipaddress_desc']
+msgid ""
+"A global setting to internal IP address / subnet used in your organization. "
+"For example, the IP address is written like 192.168.1.1, and the subnet is "
+"written like 192.168.1.0/24. If you need multiple IP address and subnet, "
+"those must be separated by whitespace(s)."
+msgstr ""
+
+#: $string['invalid_custom_size']
+msgid "Custom player size(width,height) is a wrong dimension."
+msgstr ""
+
+#: $string['invalid_name']
+msgid "There is deprecated letter(s) in name."
+msgstr ""
+
+#: $string['invalid_size']
+msgid "Player size(width,height) is a wrong dimension."
+msgstr ""
+
+#: $string['kalmediaassign_player_height']
+msgid "Player height"
+msgstr ""
+
+#: $string['kalmediaassign_player_height_desc']
+msgctxt "$string['kalmediaassign_player_height_desc']"
+msgid ""
+"Adjust this setting if your Kaltura player is being cut off when submitting "
+"and/or viewing media submissions."
+msgstr ""
+
+#: $string['kalmediaassign_player_width']
+msgid "Player width"
+msgstr ""
+
+#: $string['kalmediaassign_player_width_desc']
+msgctxt "$string['kalmediaassign_player_width_desc']"
+msgid ""
+"Adjust this setting if your Kaltura player is being cut off when submitting "
+"and/or viewing media submissions."
+msgstr ""
+
+#: $string['kalmediaassign_popup_player_height']
+msgid "Popup player height"
+msgstr ""
+
+#: $string['kalmediaassign_popup_player_height_desc']
+msgctxt "$string['kalmediaassign_popup_player_height_desc']"
+msgid ""
+"Adjust this setting if your Kaltura player is being cut off when submitting "
+"and/or popup viewing media submissions."
+msgstr ""
+
+#: $string['kalmediaassign_popup_player_width']
+msgid "Popup player width"
+msgstr ""
+
+#: $string['kalmediaassign_popup_player_width_desc']
+msgctxt "$string['kalmediaassign_popup_player_width_desc']"
+msgid ""
+"Adjust this setting if your Kaltura player is being cut off when submitting "
+"and/or popup viewing media submissions."
+msgstr ""
+
+#: $string['kaltura_course_reports']
+msgctxt "$string['kaltura_course_reports']"
+msgid "Kaltura Course Media Reports"
+msgstr ""
+
+#: $string['kaltura_filter_title']
+msgid "Embedded player used via the File Picker (Kaltura Filter) settings"
+msgstr ""
+
+#: $string['kaltura_general']
+msgid "General Settings"
+msgstr ""
+
+#: $string['kaltura_kalmediaassign_title']
+msgid "Kaltura Media Assignment Settings"
+msgstr ""
+
+#: $string['kaltura_kalmediapres_title']
+msgid "Kaltura Media Presentation Settings"
+msgstr ""
+
+#: $string['kaltura_kalmediares_title']
+msgid "Kaltura Media Resource Settings"
+msgstr ""
+
+#: $string['kaltura_kalreports_heading']
+msgid "Kaltura Reports Settings"
+msgstr ""
+
+#: $string['kaltura_kcw_title']
+msgid "Kaltura Content Wizard (KCW) Settings"
+msgstr ""
+
+#: $string['kaltura_mymedia_title']
+msgid "My Media Settings"
+msgstr ""
+
+#: $string['kaltura_player']
+msgid "Kaltura player"
+msgstr ""
+
+#: $string['kaltura_player_custom']
+msgctxt "$string['kaltura_player_custom']"
+msgid "Custom UIConf"
+msgstr ""
+
+#: $string['kaltura_player_custom_desc']
+msgid "Only used if you have a custom assignment player UIConf ID"
+msgstr ""
+
+#: $string['kaltura_player_desc']
+msgid "Player used to play-back media for Media Assignments"
+msgstr ""
+
+#: $string['kaltura_player_resource']
+msgid "Kaltura resource player"
+msgstr ""
+
+#: $string['kaltura_player_resource_custom']
+msgctxt "$string['kaltura_player_resource_custom']"
+msgid "Custom UIConf"
+msgstr ""
+
+#: $string['kaltura_player_resource_custom_desc']
+msgid "Only used if you have a custom resource player UIConf ID"
+msgstr ""
+
+#: $string['kaltura_player_resource_desc']
+msgid ""
+"Player used to play-back media for Media Resources.  This player will appear "
+"as the default player for new Media Resources. However it may be overridden "
+"if the <b>Override media resource player setting</b> is unchecked"
+msgstr ""
+
+#: $string['kaltura_report_navbar']
+msgctxt "$string['kaltura_report_navbar']"
+msgid "Kaltura Course Media Reports"
+msgstr ""
+
+#: $string['kaltura_reports']
+msgid "Kaltura reports"
+msgstr ""
+
+#: $string['loadingwait']
+msgid "Loading. This may take a few minutes."
+msgstr ""
+
+#: $string['media_bad']
+msgid "Please do not use this media"
+msgstr ""
+
+#: $string['media_converting']
+msgid ""
+"The media is still converting.  Please check the status of the media at a "
+"later time."
+msgstr ""
+
+#: $string['media_error']
+msgid "There was an error processing this media.  Please try another media"
+msgstr ""
+
+#: $string['medianameasc']
+msgid "Media name (ascending)"
+msgstr ""
+
+#: $string['medianamedesc']
+msgid "Media name (descending)"
+msgstr ""
+
+#: $string['media_prop_dimensions']
+msgid "Player dimensions:"
+msgstr ""
+
+#: $string['media_properties']
+msgctxt "$string['media_properties']"
+msgid "Media Properties"
+msgstr ""
+
+#: $string['media_prop_header']
+msgctxt "$string['media_prop_header']"
+msgid "Media Properties"
+msgstr ""
+
+#: $string['media_prop_name']
+msgid "Name:"
+msgstr ""
+
+#: $string['media_prop_player']
+msgid "Player design:"
+msgstr ""
+
+#: $string['media_prop_size']
+msgid "Player size:"
+msgstr ""
+
+#: $string['media_prop_size_custom']
+msgid "Custom size"
+msgstr ""
+
+#: $string['media_prop_size_large']
+msgid "Large (400x365)"
+msgstr ""
+
+#: $string['media_prop_size_small']
+msgid "Small (260x260)"
+msgstr ""
+
+#: $string['mostrecent']
+msgid "Most recent"
+msgstr ""
+
+#: $string['mymedia_access_keyword']
+msgid "Keyword"
+msgstr ""
+
+#: $string['mymedia_access_keyword_desc']
+msgid ""
+"Users who contains (or do not contains) this keyword are allowed to use My "
+"Media."
+msgstr ""
+
+#: $string['mymedia_access_rule']
+msgid "Access check rule"
+msgstr ""
+
+#: $string['mymedia_access_rule_desc']
+msgid "Selected rule is used to check access permission to My Media."
+msgstr ""
+
+#: $string['mymedia_contain_email']
+msgid "Contains keyword in mail address"
+msgstr ""
+
+#: $string['mymedia_contain_firstname']
+msgid "Contains keyword in firstname"
+msgstr ""
+
+#: $string['mymedia_contain_lastname']
+msgid "Contains keyword in lastname"
+msgstr ""
+
+#: $string['mymedia_items_per_page']
+msgid "Medias per page"
+msgstr ""
+
+#: $string['mymedia_items_per_page_desc']
+msgid "The number of media to display on a single page"
+msgstr ""
+
+#: $string['mymedia_limited_access']
+msgid "Limited access"
+msgstr ""
+
+#: $string['mymedia_limited_access_desc']
+msgid "Set a limit to access My Media."
+msgstr ""
+
+#: $string['mymedia_not_contain_email']
+msgid "Not contain keyword in mail address"
+msgstr ""
+
+#: $string['mymedia_not_contain_firstname']
+msgid "Not contain keyword in firstname"
+msgstr ""
+
+#: $string['mymedia_not_contain_lastname']
+msgid "Not contain keyword in lastname"
+msgstr ""
+
+#: $string['nine']
+msgid "9"
+msgstr ""
+
+#: $string['no_capability']
+msgid "You don't have the capability to view this report"
+msgstr ""
+
+#: $string['no_course_result']
+msgid "No course results for \"{$a}\""
+msgstr ""
+
+#: $string['no_media']
+msgid "No media found"
+msgstr ""
+
+#: $string['no_recent_course']
+msgid "There are currently no recently visited courses to display"
+msgstr ""
+
+#: $string['not_connected']
+msgid "Connection to Kaltura failed"
+msgstr ""
+
+#: $string['oldest']
+msgid "Oldest"
+msgstr ""
+
+#: $string['permission_disable']
+msgid "You don't have permission to use kaltura media."
+msgstr ""
+
+#: $string['player_filter']
+msgid "Embedded player"
+msgstr ""
+
+#: $string['player_filter_desc']
+msgid ""
+"Player used by the Kaltura filter plug-in when embedding media on the page"
+msgstr ""
+
+#: $string['player_mymedia_screen_recorder']
+msgid "Default screen recorder widget (9780761)"
+msgstr ""
+
+#: $string['player_regular_dark']
+msgid "Player dark (6709411)"
+msgstr ""
+
+#: $string['player_regular_light']
+msgid "Player light (6709421)"
+msgstr ""
+
+#: $string['player_resource_override']
+msgid "Override media resource player setting"
+msgstr ""
+
+#: $string['player_resource_override_desc']
+msgid ""
+"Check this option to override the individual Media Resource player "
+"selection.  This will force all Media Resource activities to use the "
+"selected <b>Kaltura resource player</b>"
+msgstr ""
+
+#: $string['pluginname']
+msgid "YU Kaltura Media Local Libraries"
+msgstr ""
+
+#: $string['problem_viewing']
+msgid ""
+"There is a problem displaying the page.  Please try again or contact your "
+"site administrator"
+msgstr ""
+
+#: $string['recent_courses_display_limit']
+msgid "Recent courses display limit"
+msgstr ""
+
+#: $string['recent_courses_display_limit_desc']
+msgid "The limit of the number of recently viewed courses to display"
+msgstr ""
+
+#: $string['recent_course_view']
+msgid "Recently viewed course(s):"
+msgstr ""
+
+#: $string['repo_not_installed']
+msgid "The Kaltura repository needs to be installed to view this file"
+msgstr ""
+
+#: $string['report_disabled']
+msgid ""
+"Kaltura reporting has been disabled.  Please enable it in the Kaltura "
+"Package Libraries local plug-in"
+msgstr ""
+
+#: $string['report_server_uri']
+msgid "Reports server URI"
+msgstr ""
+
+#: $string['report_server_uri_desc']
+msgid "Type in the Kaltura reporting server URI you want to connect to"
+msgstr ""
+
+#: $string['resetroot']
+msgid "Reset category location"
+msgstr ""
+
+#: $string['rootcategory']
+msgid "Root category path"
+msgstr ""
+
+#: $string['rootcategory_create']
+msgid "Please specify a root category."
+msgstr ""
+
+#: $string['rootcategory_created']
+msgid "Root category created with the following structure <b>{$a}</b>"
+msgstr ""
+
+#: $string['rootcategory_desc']
+msgid ""
+"<p>Set the root category path to create a category/sub-category structure, "
+"in the KMC, to organize all of the Moodle course categories. For example: "
+"<b>Sites>My Moodle Site</b>, will create a KMC category called \"Sites\" and a "
+"sub category called \"My Moodle Site\".  All of your Moodle course categories "
+"will created as a sub directories of \"My Moodle Site\".</p>"
+msgstr ""
+
+#: $string['rootcategory_warning']
+msgid ""
+"The root category has already been set.  If you change the name all Moodle "
+"course category related data on the KMC will be lost"
+msgstr ""
+
+#: $string['screenrecorder']
+msgid "Screen Recording"
+msgstr ""
+
+#: $string['search']
+msgid "Search"
+msgstr ""
+
+#: $string['search_clear']
+msgctxt "$string['search_clear']"
+msgid "Clear"
+msgstr ""
+
+#: $string['search_courses_display_limit']
+msgid "Course search display limit"
+msgstr ""
+
+#: $string['search_courses_display_limit_desc']
+msgid "The limit of the number of courses to display from a search"
+msgstr ""
+
+#: $string['search_text_tooltip']
+msgid "Enter media name or tags"
+msgstr ""
+
+#: $string['selected_media']
+msgid "Selected Media"
+msgstr ""
+
+#: $string['server_uri']
+msgid "Server URI"
+msgstr ""
+
+#: $string['server_uri_desc']
+msgid ""
+"Type in the server URI you want to connect to.  Otherwise just type in the "
+"default settings"
+msgstr ""
+
+#: $string['sortby']
+msgid "Sort by"
+msgstr ""
+
+#: $string['start']
+msgid "Start"
+msgstr ""
+
+#: $string['test_connection']
+msgid "Test connection to Kaltura server"
+msgstr ""
+
+#: $string['thirty']
+msgid "30"
+msgstr ""
+
+#: $string['twentyfour']
+msgid "24"
+msgstr ""
+
+#: $string['twentyone']
+msgid "21"
+msgstr ""
+
+#: $string['twentyseven']
+msgid "27"
+msgstr ""
+
+#: $string['unable_to_create']
+msgid ""
+"Unable to create root category as <b>{$a}</b>.  Please Choose another "
+"name(s) for the root category"
+msgstr ""
+
+#: $string['upload_successful']
+msgid "Media uploaded successfully.  Remember to save/submit."
+msgstr ""
+
+#: $string['yukaltura:search_selector']
+msgid "Search media"
+msgstr ""
+
+#: $string['yukaltura:view_report']
+msgid "View Kaltura reports"
+msgstr ""
+
+#: $string['yukaltura:view_selector']
+msgid "View media"
+msgstr ""

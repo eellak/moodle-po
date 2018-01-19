@@ -1,0 +1,459 @@
+#. extracted from lang/en/zoom.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:07+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'zoom', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   zoom
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['actions']
+msgid "Actions"
+msgstr ""
+
+#: $string['allmeetings']
+msgid "All meetings"
+msgstr ""
+
+#: $string['apikey']
+msgid "Zoom API key"
+msgstr ""
+
+#: $string['apikey_desc']
+msgctxt "$string['apikey_desc']"
+msgid ""
+msgstr ""
+
+#: $string['apisecret']
+msgid "Zoom API secret"
+msgstr ""
+
+#: $string['apisecret_desc']
+msgctxt "$string['apisecret_desc']"
+msgid ""
+msgstr ""
+
+#: $string['apiurl']
+msgid "Zoom API url"
+msgstr ""
+
+#: $string['apiurl_desc']
+msgctxt "$string['apiurl_desc']"
+msgid ""
+msgstr ""
+
+#: $string['audio_both']
+msgid "Both"
+msgstr ""
+
+#: $string['audio_telephony']
+msgid "Telephony only"
+msgstr ""
+
+#: $string['audio_voip']
+msgid "Voip only"
+msgstr ""
+
+#: $string['cachedef_sessions']
+msgid "Information from the zoom get user report request"
+msgstr ""
+
+#: $string['cachedef_zoomid']
+msgid "The zoom user id of the user"
+msgstr ""
+
+#: $string['connectionok']
+msgid "Connection working."
+msgstr ""
+
+#: $string['connectionstatus']
+msgid "Connection status"
+msgstr ""
+
+#: $string['duration']
+msgid "Duration"
+msgstr ""
+
+#: $string['endtime']
+msgid "End Time"
+msgstr ""
+
+#: $string['err_duration_nonpositive']
+msgid "The duration must be positive."
+msgstr ""
+
+#: $string['err_duration_too_long']
+msgid "The duration cannot exceed 150 hours."
+msgstr ""
+
+#: $string['err_long_timeframe']
+msgid ""
+"Requested time frame too long, showing results of latest month in range."
+msgstr ""
+
+#: $string['errorwebservice']
+msgid "Zoom webservice error: {$a}."
+msgstr ""
+
+#: $string['err_password']
+msgid ""
+"Password may only contain the following characters: [a-z A-Z 0-9 @ - _ *]. "
+"Max of 10 characters."
+msgstr ""
+
+#: $string['err_start_time_past']
+msgid "The start date cannot be in the past."
+msgstr ""
+
+#: $string['export']
+msgid "Export"
+msgstr ""
+
+#: $string['firstjoin']
+msgid "First able to join"
+msgstr ""
+
+#: $string['firstjoin_desc']
+msgid ""
+"The earliest a user can join a scheduled meeting (minutes before start)."
+msgstr ""
+
+#: $string['invalid_status']
+msgid "Status invalid, check the database."
+msgstr ""
+
+#: $string['join']
+msgid "Join"
+msgstr ""
+
+#: $string['joinbeforehost']
+msgid "Join meeting before host"
+msgstr ""
+
+#: $string['join_link']
+msgid "Join link"
+msgstr ""
+
+#: $string['join_meeting']
+msgid "Join Meeting"
+msgstr ""
+
+#: $string['jointime']
+msgid "Join Time"
+msgstr ""
+
+#: $string['leavetime']
+msgid "Leave Time"
+msgstr ""
+
+#: $string['login_api']
+msgid "API"
+msgstr ""
+
+#: $string['login_facebook']
+msgid "Facebook"
+msgstr ""
+
+#: $string['login_google']
+msgid "Google"
+msgstr ""
+
+#: $string['login_sso']
+msgid "Single sign-on"
+msgstr ""
+
+#: $string['logintypes']
+msgid "Login types"
+msgstr ""
+
+#: $string['logintypesexplain']
+msgid ""
+"Select all login types for user email lookup. Hold CTRL key to select "
+"multiple fields. (Options are listed in the order that lookup will be "
+"attempted)"
+msgstr ""
+
+#: $string['login_zoom']
+msgid "Zoom"
+msgstr ""
+
+#: $string['meeting_expired']
+msgid "Expired / Deleted"
+msgstr ""
+
+#: $string['meeting_finished']
+msgid "Finished"
+msgstr ""
+
+#: $string['meeting_not_started']
+msgid "Not started"
+msgstr ""
+
+#: $string['meetingoptions']
+msgid "Meeting option"
+msgstr ""
+
+#: $string['meetingoptions_help']
+msgid ""
+"*Join before host* allows attendees to join the meeting before the host "
+"joins or when the host cannot attend the meeting."
+msgstr ""
+
+#: $string['meeting_started']
+msgid "In progress"
+msgstr ""
+
+#: $string['meeting_time']
+msgctxt "$string['meeting_time']"
+msgid "Start Time"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Zoom meeting"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"Zoom is a video and web conferencing platform that gives authorized users "
+"the ability to host online meetings."
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Zoom Meetings"
+msgstr ""
+
+#: $string['newmeetings']
+msgid "New Meetings"
+msgstr ""
+
+#: $string['noparticipants']
+msgid "No participants found for this session at this time."
+msgstr ""
+
+#: $string['nosessions']
+msgid "No sessions found for specified range."
+msgstr ""
+
+#: $string['nozooms']
+msgid "No meetings"
+msgstr ""
+
+#: $string['off']
+msgid "Off"
+msgstr ""
+
+#: $string['oldmeetings']
+msgid "Concluded Meetings"
+msgstr ""
+
+#: $string['on']
+msgid "On"
+msgstr ""
+
+#: $string['option_audio']
+msgid "Audio options"
+msgstr ""
+
+#: $string['option_host_video']
+msgid "Host video"
+msgstr ""
+
+#: $string['option_jbh']
+msgid "Enable join before host"
+msgstr ""
+
+#: $string['option_participants_video']
+msgid "Participants video"
+msgstr ""
+
+#: $string['participants']
+msgid "Participants"
+msgstr ""
+
+#: $string['password']
+msgid "Password"
+msgstr ""
+
+#: $string['passwordprotected']
+msgid "Password Protected"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Manage Zoom meeting"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Zoom meeting"
+msgstr ""
+
+#: $string['recurringmeeting']
+msgid "Recurring"
+msgstr ""
+
+#: $string['recurringmeeting_help']
+msgid "Has no end date"
+msgstr ""
+
+#: $string['recurringmeetinglong']
+msgid "Recurring meeting (meeting with no end date or time)"
+msgstr ""
+
+#: $string['report']
+msgid "Reports"
+msgstr ""
+
+#: $string['requirepassword']
+msgid "Require meeting password"
+msgstr ""
+
+#: $string['sessions']
+msgid "Sessions"
+msgstr ""
+
+#: $string['start']
+msgid "Start"
+msgstr ""
+
+#: $string['starthostjoins']
+msgid "Start video when host joins"
+msgstr ""
+
+#: $string['start_meeting']
+msgid "Start Meeting"
+msgstr ""
+
+#: $string['startpartjoins']
+msgid "Start video when participant joins"
+msgstr ""
+
+#: $string['starttime']
+msgctxt "$string['starttime']"
+msgid "Start Time"
+msgstr ""
+
+#: $string['start_time']
+msgid "When"
+msgstr ""
+
+#: $string['status']
+msgid "Status"
+msgstr ""
+
+#: $string['title']
+msgid "Title"
+msgstr ""
+
+#: $string['topic']
+msgid "Topic"
+msgstr ""
+
+#: $string['unavailable']
+msgid "Unable to join at this time"
+msgstr ""
+
+#: $string['updatemeetings']
+msgid "Update meeting settings from Zoom"
+msgstr ""
+
+#: $string['usepersonalmeeting']
+msgid "Use personal meeting ID {$a}"
+msgstr ""
+
+#: $string['webinar']
+msgid "Webinar"
+msgstr ""
+
+#: $string['webinar_help']
+msgid "This option is only available to pre-authorized Zoom accounts."
+msgstr ""
+
+#: $string['zoom:addinstance']
+msgid "Add a new Zoom meeting"
+msgstr ""
+
+#: $string['zoomerr']
+msgid "An error occured with Zoom."
+msgstr ""
+
+#: $string['zoomerr_apisettings_invalid']
+msgid ""
+"The Zoom API key and/or secret are invalid. Please ensure they are correct."
+msgstr ""
+
+#: $string['zoomerr_apisettings_missing']
+msgid "Please configure the Zoom API key and secret."
+msgstr ""
+
+#: $string['zoomerr_apiurl_404']
+msgid "The Zoom API url could not be found; please check the setting."
+msgstr ""
+
+#: $string['zoomerr_apiurl_error']
+msgid ""
+"The Zoom API could not be contacted; please check your server error log."
+msgstr ""
+
+#: $string['zoomerr_apiurl_unresolved']
+msgid "The Zoom API url could not be resolved; please check the setting."
+msgstr ""
+
+#: $string['zoomerr_meetingnotfound']
+msgid ""
+"This meeting has expired. You can <a href=\"{$a->recreate}\">recreate it "
+"here</a> or <a href=\"{$a->delete}\">delete it completely</a>."
+msgstr ""
+
+#: $string['zoomerr_meetingnotfound_info']
+msgid ""
+"This meeting has expired. Please contact the meeting host if you have "
+"questions."
+msgstr ""
+
+#: $string['zoomerr_usernotfound']
+msgid ""
+"You are using Zoom for the first time, so you must enable your Zoom account "
+"by logging in to <a href=\"{$a}\" target=\"_blank\">{$a}</a> with your login "
+"credentials. Once you've activated your Zoom account, reload this page and "
+"continue setting up your meeting."
+msgstr ""
+
+#: $string['zoomurl']
+msgid "Zoom home page URL"
+msgstr ""
+
+#: $string['zoomurl_desc']
+msgctxt "$string['zoomurl_desc']"
+msgid ""
+msgstr ""
+
+#: $string['zoom:view']
+msgid "View Zoom meetings"
+msgstr ""

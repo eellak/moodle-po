@@ -1,0 +1,207 @@
+#. extracted from lang/en/block_glossary_export_to_quiz.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_glossary_export_to_quiz', language 'en', branch 'MOODLE_27_STABLE'
+#.  *
+#.  * @package   block_glossary_export_to_quiz
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['allentries']
+msgid "All entries"
+msgstr ""
+
+#: $string['clicktoexport']
+msgid "Click to export this glossary's entries to quiz (XML)"
+msgstr ""
+
+#: $string['concept']
+msgid "Alphabetical order"
+msgstr ""
+
+#: $string['emptyglossaries']
+msgid "This course glossaries are empty (no entries)"
+msgstr ""
+
+#: $string['emptyglossary']
+msgid "This course glossary is empty (no entries)"
+msgstr ""
+
+#: $string['exportentriestoxml']
+msgid "Export entries to Quiz (XML)"
+msgstr ""
+
+#: $string['firstmodified']
+msgid "Oldest entries first"
+msgstr ""
+
+#: $string['generalhelp']
+msgid "Block Help"
+msgstr ""
+
+#: $string['glossary_export_to_quiz:addinstance']
+msgid "Add a new glossary_export_to_quiz block"
+msgstr ""
+
+#: $string['glossary_export_to_quiz:myaddinstance']
+msgid "Add a new glossary_export_to_quiz block to the My Moodle page"
+msgstr ""
+
+#: $string['lastmodified']
+msgid "Most recent entries first"
+msgstr ""
+
+#: $string['limitnum']
+msgid "Maximum number of entries to export"
+msgstr ""
+
+#: $string['limitnum_help']
+msgid ""
+"Leave empty to export all entries from selected Glossary or Category.\n"
+"This option can be useful for exporting a limited number of entries from "
+"very large glossaries."
+msgstr ""
+
+#: $string['multichoice']
+msgid "Multiple Choice"
+msgstr ""
+
+#: $string['noglossaries']
+msgid "No glossaries in this course"
+msgstr ""
+
+#: $string['nolink']
+msgid "Remove glossary autolinks"
+msgstr ""
+
+#: $string['notenoughentriesavailable']
+msgid ""
+"Not enough entries available ({$a}) for Multichoice questions (minimum 4 "
+"entries needed)."
+msgstr ""
+
+#: $string['notenoughentriesselected']
+msgid ""
+"Not enough entries selected ({$a}) for Multichoice questions (minimum 4 "
+"entries needed)."
+msgstr ""
+
+#: $string['notyetconfigured']
+msgid "Please <b>Turn editing on</b> to configure this block."
+msgstr ""
+
+#: $string['notyetconfiguredediting']
+msgid "Please click the Actions icon to configure this block."
+msgstr ""
+
+#: $string['numentries']
+msgid "Export {$a} entries"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Export Glossary to Quiz"
+msgstr ""
+
+#: $string['pluginname_help']
+msgid ""
+"Right-click the <b>More Help</b> link to view the Moodle Documentation Wiki."
+msgstr ""
+
+#: $string['pluginname_link']
+msgid "block/glossary_export_to_quiz/edit"
+msgstr ""
+
+#: $string['questiontype']
+msgid "Question type:"
+msgstr ""
+
+#: $string['questiontype_help']
+msgid ""
+"Glossary entries can be exported to the Quiz Questions bank either as "
+"multiple choice or short answer questions.\n"
+"Multiple choice questions will consist of the following elements:\n"
+"\n"
+"* question text = glossary entry definition\n"
+"* correct answer = glossary entry concept\n"
+"* distracters = 3 glossary entry concepts randomly selected from the "
+"glossary (or glossary category) that you have selected.\n"
+"\n"
+"Short answer questions\n"
+"\n"
+"* Case insensitive. Student responses will be accepted as correct regardless "
+"of the original glossary entry concept case (uppercase or lowercase).\n"
+"** Example: original entry \"Moodle\". Accepted correct responses: \"Moodle\", "
+"\"moodle\".\n"
+"* Case sensitive. Student responses will be only be accepted as correct it "
+"the case of the original glossary entry concept is used..\n"
+"** Example: original entry \"Moodle\". Accepted correct response: \"Moodle\"."
+msgstr ""
+
+#: $string['random']
+msgid "Randomly"
+msgstr ""
+
+#: $string['selectglossary']
+msgid "Select glossary to export from"
+msgstr ""
+
+#: $string['selectglossary_help']
+msgid ""
+"Use the dropdown list to select the glossary that you want to use to export "
+"its entries to the quiz questions bank.\n"
+"If that glossary contains categories, you can select only one category to "
+"export its entries.\n"
+"To cancel your choice or to reset the block, simply leave the dropdown list "
+"on the Choose... position."
+msgstr ""
+
+#: $string['shortanswer']
+msgid "Short answer"
+msgstr ""
+
+#: $string['shortanswer_0']
+msgid "Short answer (Case insensitive)"
+msgstr ""
+
+#: $string['shortanswer_1']
+msgid "Short answer (Case sensitive)"
+msgstr ""
+
+#: $string['sortingorder']
+msgid "Sorting Order"
+msgstr ""
+
+#: $string['sortingorder_help']
+msgid ""
+"Use this setting to determine how the exported glossary entries will be "
+"ordered when you import them to your questions data bank.\n"
+"This can be used, in combination with the Maximum number of entries, for "
+"creating a quiz to test the latest entries to your glossary (especially a "
+"fairly large one)."
+msgstr ""

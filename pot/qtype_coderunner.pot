@@ -1,0 +1,1524 @@
+#. extracted from lang/en/qtype_coderunner.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qtype_coderunner', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   qtype_coderunner
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['aborted']
+msgid "Testing was aborted due to error."
+msgstr ""
+
+#: $string['ace-language']
+msgid "Ace language"
+msgstr ""
+
+#: $string['addingcoderunner']
+msgid "Adding a new CodeRunner Question"
+msgstr ""
+
+#: $string['advanced_customisation']
+msgid "Advanced customisation"
+msgstr ""
+
+#: $string['ajax_error']
+msgid "*** AJAX ERROR. DON'T SAVE THIS! ***"
+msgstr ""
+
+#: $string['allok']
+msgid "Passed all tests!"
+msgstr ""
+
+#: $string['allornone']
+msgid "Test code must be provided either for all testcases or for none."
+msgstr ""
+
+#: $string['allornothing']
+msgid "All-or-nothing grading"
+msgstr ""
+
+#: $string['allornothing_help']
+msgid ""
+"If 'All-or-nothing' is checked, all test cases must be satisfied for the "
+"submission to earn any marks. Otherwise, the mark is obtained by summing the "
+"marks for all the test cases that pass and expressing this as a fraction of "
+"the maximum possible mark.\n"
+"\n"
+"The per-test-case marks can be specified only if the all-or-nothing checkbox "
+"is unchecked.\n"
+"\n"
+"If using a template grader that awards part marks to test cases, 'All-or-"
+"nothing' should generally be unchecked."
+msgstr ""
+
+#: $string['allowmultiplestdins']
+msgid "Allow multiple stdins"
+msgstr ""
+
+#: $string['answer']
+msgid "Answer"
+msgstr ""
+
+#: $string['answerboxcolumns']
+msgid "Columns"
+msgstr ""
+
+#: $string['answerbox_group']
+msgid "Answer box"
+msgstr ""
+
+#: $string['answerbox_group_help']
+msgid ""
+"Set the number of rows and columns to allocate for the answer box. If the "
+"answer overflows the box vertically or horizontally, scrollbars will appear. "
+"If 'Use ace' is checked, the ACE JavaScript code editor will manage the "
+"answer box."
+msgstr ""
+
+#: $string['answerboxlines']
+msgid "Rows"
+msgstr ""
+
+#: $string['answer_help']
+msgid ""
+"A sample answer can be entered here and used for checking by the question "
+"author and optionally shown to students during review. It is also used by "
+"the bulk tester script. The correctness of a non-empty answer is checked "
+"when saving unless 'Validate on save' is unchecked"
+msgstr ""
+
+#: $string['answerpreload']
+msgid "Answer box preload"
+msgstr ""
+
+#: $string['answerpreload_help']
+msgid "Text supplied here will be preloaded into the student's answer box."
+msgstr ""
+
+#: $string['answerprompt']
+msgid "Answer:"
+msgstr ""
+
+#: $string['answerrequired']
+msgid "Please provide a non-empty answer"
+msgstr ""
+
+#: $string['asolutionis']
+msgid "Question author's solution:"
+msgstr ""
+
+#: $string['atleastonetest']
+msgid "You must provide at least one test case for this question."
+msgstr ""
+
+#: $string['badcputime']
+msgid ""
+"CPU time limit must be left blank or must be an integer greater than zero"
+msgstr ""
+
+#: $string['bad_dotdotdot']
+msgid "Misuse of '...'. Must be at end, after two increasing numeric penalties"
+msgstr ""
+
+#: $string['bademptyprecheck']
+msgid "Precheck failed with the following unexpected output."
+msgstr ""
+
+#: $string['badjsonorfraction']
+msgid ""
+"Bad JSON or missing fraction in combinator grader output. Output was: "
+"{$a->output}"
+msgstr ""
+
+#: $string['badmemlimit']
+msgid ""
+"Memory limit must either be left blank or must be a non-negative integer"
+msgstr ""
+
+#: $string['bad_new_prototype_name']
+msgid "Illegal name for new prototype: already in use"
+msgstr ""
+
+#: $string['badpenalties']
+msgid ""
+"Penalty regime must be a comma separated list of numbers in the range [0, "
+"100]"
+msgstr ""
+
+#: $string['badquestion']
+msgid "Error in question"
+msgstr ""
+
+#: $string['badsandboxparams']
+msgid ""
+"'Other' field (sandbox params) must be either blank or a valid JSON record"
+msgstr ""
+
+#: $string['badtemplateparams']
+msgid "Template parameters must be either blank or a valid JSON record"
+msgstr ""
+
+#: $string['brokencombinator']
+msgid ""
+"Expected {$a->numtests} test results, got {$a->numresults}. Perhaps "
+"excessive output or error in question?"
+msgstr ""
+
+#: $string['brokentemplategrader']
+msgid ""
+"Bad output from grader: {$a->output}. Your program execution may have "
+"aborted (e.g. a timeout or memory limit exceeded)."
+msgstr ""
+
+#: $string['bulkquestiontester']
+msgid ""
+"The <a href=\"{$a->link}\">bulk tester script</a> tests that the sample "
+"answers for all questions in the current context are marked right"
+msgstr ""
+
+#: $string['bulktestcontinuefromhere']
+msgid "Run again or resume, starting from here"
+msgstr ""
+
+#: $string['bulktestindextitle']
+msgid "CodeRunner bulk testing"
+msgstr ""
+
+#: $string['bulktestrun']
+msgid ""
+"Run all the question tests for all the questions in the system (slow, admin "
+"only)"
+msgstr ""
+
+#: $string['bulktesttitle']
+msgid "Running all the question tests in {$a}"
+msgstr ""
+
+#: $string['coderunner']
+msgid "Program Code"
+msgstr ""
+
+#: $string['coderunnercontexts']
+msgid "Contexts with CodeRunner questions"
+msgstr ""
+
+#: $string['coderunner_help']
+msgid ""
+"In response to a question, which is a specification for a program fragment, "
+"function or whole program, the respondent enters source code in a specified "
+"computer language that satisfies the specification."
+msgstr ""
+
+#: $string['coderunner_install_testsuite_failures']
+msgid "Tests that failed"
+msgstr ""
+
+#: $string['coderunner_install_testsuite_intro']
+msgid ""
+"This page allows you to test that the CodeRunner questions with sample "
+"answers are functioning correctly."
+msgstr ""
+
+#: $string['coderunner_install_testsuite_noanswer']
+msgid "Questions without sample answers"
+msgstr ""
+
+#: $string['coderunner_install_testsuite_title']
+msgid "A test suite for CodeRunner sample answers"
+msgstr ""
+
+#: $string['coderunner_install_testsuite_title_desc']
+msgid ""
+"The <a href=\"{$a->link}\">sample-answer-test script</a> verifies that the "
+"questions with sample answers are performing correctly."
+msgstr ""
+
+#: $string['coderunner_link']
+msgctxt "$string['coderunner_link']"
+msgid "question/type/coderunner"
+msgstr ""
+
+#: $string['coderunner_question_type']
+msgid "CodeRunner question type:"
+msgstr ""
+
+#: $string['coderunnersettings']
+msgid "CodeRunner settings"
+msgstr ""
+
+#: $string['coderunnersummary']
+msgid ""
+"Answer is program code that is executed in the context of a set of test "
+"cases to determine its correctness."
+msgstr ""
+
+#: $string['coderunnertype']
+msgid "Question type:"
+msgstr ""
+
+#: $string['coderunnertype_help']
+msgid ""
+"Select the programming language and question type. Once a type has been "
+"selected, details can be seen in the Question type details panel below."
+msgstr ""
+
+#: $string['columncontrols']
+msgid "Result table"
+msgstr ""
+
+#: $string['columncontrols_help']
+msgid ""
+"The checkboxes select which columns of the results table should be displayed "
+"to the student after submission"
+msgstr ""
+
+#: $string['confirm_proceed']
+msgid ""
+"If you save this question with 'Customise' unchecked, any customisations "
+"made will be lost. Proceed?"
+msgstr ""
+
+#: $string['cputime']
+msgid "TimeLimit (secs)"
+msgstr ""
+
+#: $string['customisation']
+msgctxt "$string['customisation']"
+msgid "Customisation"
+msgstr ""
+
+#: $string['customisationcontrols']
+msgctxt "$string['customisationcontrols']"
+msgid "Customisation"
+msgstr ""
+
+#: $string['customise']
+msgid "Customise"
+msgstr ""
+
+#: $string['datafiles']
+msgid "Run-time data"
+msgstr ""
+
+#: $string['datafiles_help']
+msgid ""
+"Any files uploaded here will be added to the working directory when the "
+"expanded template program is executed. This allows large data or support "
+"files to be conveniently added."
+msgstr ""
+
+#: $string['default_penalty_regime']
+msgid "Default penalty regime"
+msgstr ""
+
+#: $string['default_penalty_regime_desc']
+msgid ""
+"The default penalty regime to apply to new questions, consisting of a comma "
+"separated list of penalty percentages, optionally ending in \", ...\" to "
+"signify an on-going arithmetic progression."
+msgstr ""
+
+#: $string['display']
+msgid "Display"
+msgstr ""
+
+#: $string['editingcoderunner']
+msgid "Editing a CodeRunner Question"
+msgstr ""
+
+#: $string['empty_new_prototype_name']
+msgid "New question type name cannot be empty"
+msgstr ""
+
+#: $string['emptypenaltyregime']
+msgid "Penalty regime must be defined (since version 3.1)"
+msgstr ""
+
+#: $string['enable']
+msgid "Enable"
+msgstr ""
+
+#: $string['enablecombinator']
+msgid "Enable combinator"
+msgstr ""
+
+#: $string['enable_diff_check']
+msgid "Enable 'Show differences' button"
+msgstr ""
+
+#: $string['enable_diff_check_desc']
+msgid ""
+"Present students with a 'Show differences' button if their answer is wrong "
+"and an exact-match validator is being used (experimental)"
+msgstr ""
+
+#: $string['enable_sandbox_desc']
+msgid "Permit use of the specified sandbox for running student submissions"
+msgstr ""
+
+#: $string['equalitygrader']
+msgid "Exact match"
+msgstr ""
+
+#: $string['error_loading_prototype']
+msgid "Error loading prototype. Network problems or server down, perhaps?"
+msgstr ""
+
+#: $string['errorstring-accessdenied']
+msgid "Access to sandbox denied"
+msgstr ""
+
+#: $string['errorstring-autherror']
+msgid "Unauthorised to use sandbox"
+msgstr ""
+
+#: $string['errorstring-jobe400']
+msgid "Error from Jobe sandbox server:"
+msgstr ""
+
+#: $string['errorstring-ok']
+msgctxt "$string['errorstring-ok']"
+msgid "OK"
+msgstr ""
+
+#: $string['errorstring-overload']
+msgid "Job could not be run due to server overload. Perhaps try again shortly?"
+msgstr ""
+
+#: $string['errorstring-pastenotfound']
+msgid "Requesting status of non-existent job"
+msgstr ""
+
+#: $string['errorstring-submissionfailed']
+msgid "Submission to sandbox failed"
+msgstr ""
+
+#: $string['errorstring-submissionlimitexceeded']
+msgid "Sandbox submission limit reached"
+msgstr ""
+
+#: $string['errorstring-unknown']
+msgid ""
+"Unexpected error while executing your code. The sandbox server may be down "
+"or overloaded. Perhaps try again shortly?"
+msgstr ""
+
+#: $string['errorstring-wronglangid']
+msgid "Non-existent language requested"
+msgstr ""
+
+#: $string['expected']
+msgid "Expected output"
+msgstr ""
+
+#: $string['expectedcolhdr']
+msgid "Expected"
+msgstr ""
+
+#: $string['expected_help']
+msgid ""
+"The expected output from the test. Seen by the template as "
+"{{TEST.expected}}."
+msgstr ""
+
+#: $string['exportthisquestion']
+msgid "Export this question"
+msgstr ""
+
+#: $string['exportthisquestion_help']
+msgid ""
+"This will create a Moodle XML export file containing just this one question. "
+"One example of when this is useful if you think this question demonstrates "
+"a bug in CodeRunner that you would like to report to the developers."
+msgstr ""
+
+#: $string['extra']
+msgid "Extra template data"
+msgstr ""
+
+#: $string['extra_help']
+msgid ""
+"A sometimes-useful extra text field for use by the template, accessed as "
+"{{TEST.extra}}"
+msgstr ""
+
+#: $string['fail']
+msgid "Fail"
+msgstr ""
+
+#: $string['failedhidden']
+msgid "Your code failed one or more hidden tests."
+msgstr ""
+
+#: $string['failedntests']
+msgid "Failed {$a->numerrors} test(s)"
+msgstr ""
+
+#: $string['failedtesting']
+msgid "Failed testing."
+msgstr ""
+
+#: $string['fails']
+msgid "failures"
+msgstr ""
+
+#: $string['fileheader']
+msgid "Support files"
+msgstr ""
+
+#: $string['filloutoneanswer']
+msgid ""
+"You must enter source code that satisfies the specification. The code you "
+"enter will be executed to determine its correctness and a grade awarded "
+"accordingly."
+msgstr ""
+
+#: $string['firstfailure']
+msgid "First failing test case: {$a}"
+msgstr ""
+
+#: $string['forexample']
+msgid "For example"
+msgstr ""
+
+#: $string['goodemptyprecheck']
+msgid "Passed"
+msgstr ""
+
+#: $string['gotcolhdr']
+msgid "Got"
+msgstr ""
+
+#: $string['grader']
+msgid "Grader"
+msgstr ""
+
+#: $string['grading']
+msgid "Grading"
+msgstr ""
+
+#: $string['gradingcontrols']
+msgid "Grading controls"
+msgstr ""
+
+#: $string['gradingcontrols_help']
+msgid ""
+"The default 'exact match' grader\n"
+"awards marks only if the output from the run exactly matches the expected "
+"value defined\n"
+"by the testcase. Trailing white space is stripped from all lines, and any "
+"trailing\n"
+"blank lines are deleted, before the\n"
+"equality test is made.\n"
+"\n"
+"The near-equality grader is similar except that it\n"
+"also collapses multiple spaces and tabs to a single space, deletes all blank\n"
+"lines and converts the strings to lower case.\n"
+"\n"
+"The 'regular expression' grader uses the 'expected'\n"
+"field of the test case as a regular expression and tests the output to see\n"
+"if a match to the expected result can be found anywhere within the output.\n"
+"To force matching of the entire output, start and end the regular expression\n"
+"with '\\A' and '\\Z' respectively. Regular expression matching uses MULTILINE\n"
+"and DOTALL options.\n"
+"\n"
+"The 'template grader' option assumes that the output\n"
+"from the program is actually a\n"
+"grading result, i.e. that the template not tests *and grades* the student "
+"answer.\n"
+"The only output from such a template program must be a JSON-encoded record.\n"
+"\n"
+"If the template is a per-test template (i.e., not a combinator), the JSON "
+"string must describe a row of the\n"
+"results table and should contain at least a 'fraction' field, which is "
+"multiplied by TEST.mark to decide how\n"
+"many marks the test case is awarded. It should usually also contain a 'got'\n"
+"field, which is the value displayed in the 'Got' column of the results "
+"table.\n"
+"The other columns of the results table (testcode, stdin, expected) can also\n"
+"be defined by the template grading program and will be used instead of the "
+"values from\n"
+"the testcase. As an example, if the output of the program is the string\n"
+"`{\"fraction\":0.5, \"got\": \"Half the answers were right!\"}`, half marks would "
+"be\n"
+"given for that particular test case and the 'Got' column would display the\n"
+"text \"Half the answers were right!\". Other columns can be added to the "
+"result\n"
+"table by adding extra attributes to the JSON record and also to the "
+"question's\n"
+"Result Columns field.\n"
+"\n"
+"If the template is a combinator, the JSON string output by the template "
+"grader\n"
+"should again contain a 'fraction' field, this time for the total mark,\n"
+"and may contain zero or more of 'prologuehtml', 'testresults',\n"
+"'epiloguehtml' and 'showdifferences'.\n"
+"The 'prologuehtml' and 'epiloguehtml' fields are html\n"
+"that is displayed respectively before and after the (optional) result table. "
+"The\n"
+"'testresults' field, if given, is a list of lists used to display some sort\n"
+"of result table. The first row is the column-header row and all other rows\n"
+"define the table body. Two special column header values exist: 'iscorrect'\n"
+"and 'ishidden'. The 'iscorrect' column(s) are used to display ticks or\n"
+"crosses for 1 or 0 row values respectively. The 'ishidden' column isn't\n"
+"actually displayed but 0 or 1 values in the column can be used to turn on "
+"and\n"
+"off row visibility. Students do not see hidden rows but markers and other\n"
+"staff do. The 'showdifferences' field turns on display of a 'Show "
+"Differences'\n"
+"button after the results table if the awarded mark fraction is not 1.0."
+msgstr ""
+
+#: $string['hidden']
+msgid "Hidden"
+msgstr ""
+
+#: $string['HIDE']
+msgid "Hide"
+msgstr ""
+
+#: $string['hidedifferences']
+msgid "Hide differences"
+msgstr ""
+
+#: $string['HIDE_IF_FAIL']
+msgid "Hide if fail"
+msgstr ""
+
+#: $string['HIDE_IF_SUCCEED']
+msgid "Hide if succeed"
+msgstr ""
+
+#: $string['hiderestiffail']
+msgid "Hide rest if fail"
+msgstr ""
+
+#: $string['howtogetmore']
+msgid ""
+"For more detailed information, save the question with 'Validate on save' "
+"unchecked and test manually"
+msgstr ""
+
+#: $string['ideone_pass']
+msgid "Ideone server password"
+msgstr ""
+
+#: $string['ideone_pass_desc']
+msgid ""
+"The password to use when connecting to the Ideone server (if the ideone "
+"sandbox is enabled)"
+msgstr ""
+
+#: $string['ideone_user']
+msgid "Ideone server user"
+msgstr ""
+
+#: $string['ideone_user_desc']
+msgid ""
+"The login name to use when connecting to the Ideone server (if the ideone "
+"sandbox is enabled)"
+msgstr ""
+
+#: $string['info_unavailable']
+msgid "Question type information is not available for customised questions."
+msgstr ""
+
+#: $string['inputcolhdr']
+msgid "Input"
+msgstr ""
+
+#: $string['iscombinatortemplate']
+msgid "Is combinator"
+msgstr ""
+
+#: $string['is_prototype']
+msgid "Use as prototype"
+msgstr ""
+
+#: $string['jobe_apikey']
+msgid "Jobe API-key"
+msgstr ""
+
+#: $string['jobe_apikey_desc']
+msgid ""
+"The API key to be included in all REST requests to the Jobe server (if "
+"required). Max 40 chars. Leave blank to omit the API Key from requests"
+msgstr ""
+
+#: $string['jobe_host']
+msgid "Jobe server"
+msgstr ""
+
+#: $string['jobe_host_desc']
+msgid ""
+"The host name of the Jobe server plus the port number if other than port 80, "
+"e.g. jobe.somewhere.edu:4010. The URL for the Jobe request is obtained by "
+"prefixing this string with http:// and appending "
+"/jobe/index.php/restapi/<REST_METHOD>."
+msgstr ""
+
+#: $string['language']
+msgid "Sandbox language"
+msgstr ""
+
+#: $string['languages']
+msgid "Languages"
+msgstr ""
+
+#: $string['languages_help']
+msgid ""
+"The sandbox language is the computer language used\n"
+"to run the submission.\n"
+"Must be known to the chosen sandbox (if a specific one has been\n"
+"selected) or to at least one of the enabled sandboxes (otherwise). This "
+"should not usually need altering from the value in the\n"
+"parent template; tweak it at your peril.\n"
+"\n"
+"Ace-language is the\n"
+"language used by the Ace code editor (if enabled) for the student's answer.\n"
+"By default this is the same as the sandbox language; enter a different\n"
+"value here only if the template language is different from the language\n"
+"that the student is expected to write (e.g. if a Python preprocessor is\n"
+"used to validate a student's C program prior to running it)."
+msgstr ""
+
+#: $string['mark']
+msgid "Mark"
+msgstr ""
+
+#: $string['marking']
+msgid "Mark allocation"
+msgstr ""
+
+#: $string['markinggroup']
+msgid "Marking"
+msgstr ""
+
+#: $string['markinggroup_help']
+msgid ""
+"If 'All-or-nothing' is checked, all test cases must be satisfied\n"
+"for the submission to earn any marks. Otherwise, the mark is obtained\n"
+"by summing the marks for all the test cases that pass\n"
+"and expressing this as a fraction of the maximum possible mark.\n"
+"The per-test-case marks can be specified only if the all-or-nothing\n"
+"checkbox is unchecked. If using a template grader that awards\n"
+"part marks to test cases, 'All-or-nothing' should generally be unchecked.\n"
+"\n"
+"The mandatory penalty regime is a comma-separated list of penalties (each a "
+"percent)\n"
+"to apply to successive submissions. These are absolute, not cumulative. As a\n"
+"special case the last penalty can be '...' to mean \"extend the previous\n"
+"two penalties as an arithmetic progression up to 100\". For example,\n"
+"`0,5,10,30,...` is equivalent to `0,5,10,30,50,70,90,100`.\n"
+"If there are more submissions than defined penalties, the last value is "
+"used.\n"
+"\n"
+"The default penalty regime can be set site-wide by a system administrator "
+"using\n"
+"Site administration > Plugins > Question types > CodeRunner.\n"
+"\n"
+"Set the penalty regime to '0' for zero penalties on all submissions."
+msgstr ""
+
+#: $string['memorylimit']
+msgid "MemLimit (MB)"
+msgstr ""
+
+#: $string['missinganswers']
+msgid "missing answers"
+msgstr ""
+
+#: $string['missingoutput']
+msgid "You must supply the expected output from this test case."
+msgstr ""
+
+#: $string['missingprototypes']
+msgid "Missing prototypes"
+msgstr ""
+
+#: $string['morehidden']
+msgid "Some hidden test cases failed, too."
+msgstr ""
+
+#: $string['nearequalitygrader']
+msgid "Nearly exact match"
+msgstr ""
+
+#: $string['negativeorzeromark']
+msgid "Mark must be greater than zero"
+msgstr ""
+
+#: $string['noerrorsallowed']
+msgid "Your code must pass all tests to earn any marks. Try again."
+msgstr ""
+
+#: $string['nonnumericmark']
+msgid "Non-numeric mark"
+msgstr ""
+
+#: $string['noqtype']
+msgid "No question type selected"
+msgstr ""
+
+#: $string['options']
+msgid "Options"
+msgstr ""
+
+#: $string['ordering']
+msgid "Ordering"
+msgstr ""
+
+#: $string['overallresult']
+msgid "Overall result"
+msgstr ""
+
+#: $string['parameterise_template']
+msgid "Set template params"
+msgstr ""
+
+#: $string['pass']
+msgid "Pass"
+msgstr ""
+
+#: $string['passes']
+msgid "passes"
+msgstr ""
+
+#: $string['penaltyregime']
+msgid "(penalty regime: {$a} %)"
+msgstr ""
+
+#: $string['penaltyregimelabel']
+msgid "Penalty regime:"
+msgstr ""
+
+#: $string['pluginname']
+msgid "CodeRunner"
+msgstr ""
+
+#: $string['pluginnameadding']
+msgid "Adding a CodeRunner question"
+msgstr ""
+
+#: $string['pluginnameediting']
+msgid "Editing a CodeRunner question"
+msgstr ""
+
+#: $string['pluginname_help']
+msgid ""
+"Use the 'Question type' combo box to select the\n"
+"computer language that will be used to run the student's submission.\n"
+"Specify the problem that the student must write code for, then define\n"
+"a set of tests to be run on the student's submission"
+msgstr ""
+
+#: $string['pluginname_link']
+msgctxt "$string['pluginname_link']"
+msgid "question/type/coderunner"
+msgstr ""
+
+#: $string['pluginnamesummary']
+msgid "CodeRunner: runs student-submitted code in a sandbox"
+msgstr ""
+
+#: $string['precheck']
+msgid "Precheck"
+msgstr ""
+
+#: $string['precheck_all']
+msgid "All"
+msgstr ""
+
+#: $string['precheck_disabled']
+msgid "Disabled"
+msgstr ""
+
+#: $string['precheck_empty']
+msgid "Empty"
+msgstr ""
+
+#: $string['precheck_examples']
+msgid "Examples"
+msgstr ""
+
+#: $string['precheck_help']
+msgid ""
+"If Precheck is enabled, students will have an extra button to the left of "
+"the\n"
+"usual check button to give them a penalty-free run to check their code "
+"against\n"
+"a subset of the question test cases.\n"
+"\n"
+"If 'Empty' is selected, a single run\n"
+"will be done with the per-test template using a testcase in which all the\n"
+"fields (testcode, stdin, expected, etc) are the empty string. Non-empty "
+"output\n"
+"is deemed to be a precheck failure. Use with caution:\n"
+"some question types will not handle this correctly, e.g. write-a-program "
+"questions\n"
+"that generate output.\n"
+"\n"
+"If 'Examples' is selected, the code will\n"
+"be tested against all the tests for which 'use_as_example' has been checked.\n"
+"\n"
+"If 'Selected' is selected, an extra UI element is added to each test case\n"
+"to allow the author to select a specific subset of the tests.\n"
+"\n"
+"If 'All' is selected, all test cases are run (although their behaviour might\n"
+"be different from the normal Check, if the template code so chooses).\n"
+"\n"
+"The template can check whether or not the run is a precheck run using the\n"
+"Twig parameter {{ IS_PRECHECK }}, which is \"1\" during precheck runs and\n"
+"\"0\" otherwise."
+msgstr ""
+
+#: $string['precheckingemptyset']
+msgid "Prechecking examples, but there aren't any!"
+msgstr ""
+
+#: $string['precheck_only']
+msgctxt "$string['precheck_only']"
+msgid "Precheck only"
+msgstr ""
+
+#: $string['precheck_selected']
+msgid "Selected"
+msgstr ""
+
+#: $string['proceed_at_own_risk']
+msgid "Editing a built-in question prototype?! Proceed at your own risk!"
+msgstr ""
+
+#: $string['prototypecontrols']
+msgid "Prototyping"
+msgstr ""
+
+#: $string['prototypecontrols_help']
+msgid ""
+"If 'Is prototype' is true, this question becomes a prototype for other "
+"questions.\n"
+"After saving, the specified question type name will appear in the dropdown "
+"list\n"
+"of question types. New questions based on this type will then by default "
+"inherit\n"
+"all the customisation attributes specified for this question. Subsequent "
+"changes\n"
+"to this question will then affect all derived questions unless they are\n"
+"themselves customised, which breaks the connection.\n"
+"\n"
+"Prototypal inheritance is\n"
+"single-level only, so this question, when saved as a prototype, loses its\n"
+"connection to its original base type, becoming a new base type in its own "
+"right.\n"
+"Be warned that when exporting derived questions you must ensure that this\n"
+"question is included in the export, too, or the derived question will be an\n"
+"orphan when imported into another system. Also, you are responsible for "
+"keeping\n"
+"track of which questions you are using as prototypes; it is strongly "
+"recommended\n"
+"that you rename the question to something like "
+"'PROTOTYPE_for_my_new_question_type'\n"
+"to make subsequentmaintenance easier."
+msgstr ""
+
+#: $string['prototype_error']
+msgid "*** PROTOTYPE LOAD FAILURE. DON'T SAVE THIS! ***"
+msgstr ""
+
+#: $string['prototype_load_failure']
+msgid "Error loading prototype:"
+msgstr ""
+
+#: $string['prototypeQ']
+msgid "Is prototype?"
+msgstr ""
+
+#: $string['prototypeusage']
+msgid "CodeRunner question prototype usage for course {$a}"
+msgstr ""
+
+#: $string['prototypeusageindex']
+msgid "Available courses"
+msgstr ""
+
+#: $string['qtypehelp']
+msgid "Help with q-type"
+msgstr ""
+
+#: $string['questioncheckboxes']
+msgid "Customisation:"
+msgstr ""
+
+#: $string['questioncheckboxes_help']
+msgid ""
+"To customise the question type, e.g. to edit the question templates or\n"
+"sandbox parameters, click the 'Customise'\n"
+"checkbox and read the help available on the newly-visible form elements for\n"
+"more information.\n"
+"\n"
+"If the template-debugging checkbox is clicked, the program generated\n"
+"for each testcase will be displayed in the output."
+msgstr ""
+
+#: $string['questionloaderror']
+msgid "Failed to load question"
+msgstr ""
+
+#: $string['questionpreview']
+msgid "Question preview"
+msgstr ""
+
+#: $string['questiontype']
+msgctxt "$string['questiontype']"
+msgid "Question type"
+msgstr ""
+
+#: $string['question_type_changed']
+msgid ""
+"Changing question type. Click OK to reload customisation fields, Cancel to "
+"retain your customised ones."
+msgstr ""
+
+#: $string['questiontypedetails']
+msgid "Question type details"
+msgstr ""
+
+#: $string['questiontype_help']
+msgid ""
+"Select the particular type of question.\n"
+"\n"
+"The combo-box selects one of the built-in types, each of which\n"
+"specifies a particular language and, sometimes, a sandbox in which\n"
+"the program will be executed. Each question type has a\n"
+"template that defines how the executable program is built from the\n"
+"testcase data and the student answer.\n"
+"\n"
+"The template can be viewed and optionally customised by clicking\n"
+"the 'Customise' checkbox.\n"
+"\n"
+"If the template-debugging checkbox is clicked, the program generated\n"
+"for each testcase will be displayed in the output."
+msgstr ""
+
+#: $string['questiontype_required']
+msgid "You must select the type of question"
+msgstr ""
+
+#: $string['qWrongBehaviour']
+msgid ""
+"Please use Adaptive Behaviour for all CodeRunner questions, or there can be "
+"massive performance hits. For example, all questions on a page will need to "
+"be regraded when the page is re-displayed."
+msgstr ""
+
+#: $string['regexgrader']
+msgid "Regular expression"
+msgstr ""
+
+#: $string['replacedollarscount']
+msgid "This category contains {$a} CodeRunner questions."
+msgstr ""
+
+#: $string['resultcolumns']
+msgid "Result columns"
+msgstr ""
+
+#: $string['resultcolumns_help']
+msgid ""
+"By default the result table displays the testcode, stdin, expected and got\n"
+"columns, provided the columns are not empty. You can change the default, "
+"and/or\n"
+"the column headers by entering a value for the resultcolumns (leave blank "
+"for\n"
+"the default behaviour).\n"
+"\n"
+"If supplied, the resultcolumns field must be a\n"
+"JSON-encoded list of column specifiers. Each column specifier is itself a "
+"list,\n"
+"typically with just two or three elements. The first element is the column\n"
+"header, the second element is the field from the TestResult object being\n"
+"displayed in the column and the optional third element is an sprintf format\n"
+"string used to display the field.\n"
+"\n"
+"The fields available in the standard\n"
+"TestResult object are: testcode, stdin, expected, got, extra, awarded, and "
+"mark.\n"
+"testcode, stdin, expected and extra are the fields from the testcase while "
+"got\n"
+"is the actual output generated and awarded and mark are the actual awarded "
+"mark\n"
+"and the maximum mark for the testcase respsectively.\n"
+"\n"
+"Custom-grader templates may\n"
+"add their own fields, which can also be selected for display. It is also\n"
+"possible to combine multiple fields into a column by adding extra fields to "
+"the\n"
+"specifier: these must precede the sprintf format specifier, which then "
+"becomes\n"
+"mandatory. For example, to display a Mark Fraction column in the form "
+"0.74/1.00,\n"
+"say, a column format specifier of [\"Mark Fraction\", \"awarded\", \"mark\",\n"
+"\"%.2f/%.2f\"] could be used.\n"
+"\n"
+"As a further special case, a format of %h means that\n"
+"the test result field should be taken as ready-to-output HTML and should not "
+"be\n"
+"subject to further processing; this is useful only with custom-grader "
+"templates\n"
+"that generate HTML output, such as SVG graphics.\n"
+"\n"
+"The default value of\n"
+"resultcolumns is [[\"Test\", \"testcode\"],[\"Input\", \"stdin\"], [\"Expected\",\n"
+"\"expected\"], [\"Got\", \"got\"]]."
+msgstr ""
+
+#: $string['resultcolumnsnotjson']
+msgid "Result columns field is not a valid JSON string"
+msgstr ""
+
+#: $string['resultcolumnsnotlist']
+msgid "Result columns field must a JSON-encoded list of column specifiers"
+msgstr ""
+
+#: $string['resultcolumnspecbad']
+msgid ""
+"Invalid column specifier found: each one must be a list of two or more "
+"strings"
+msgstr ""
+
+#: $string['resultstring-abnormaltermination']
+msgid "Abnormal termination"
+msgstr ""
+
+#: $string['resultstring-compilationerror']
+msgid "Compilation error"
+msgstr ""
+
+#: $string['resultstring-illegalsyscall']
+msgid "Illegal function call"
+msgstr ""
+
+#: $string['resultstring-internalerror']
+msgid "CodeRunner error (IE): please tell a tutor"
+msgstr ""
+
+#: $string['resultstring-memorylimit']
+msgid "Memory limit exceeded"
+msgstr ""
+
+#: $string['resultstring-norun']
+msgid "No run"
+msgstr ""
+
+#: $string['resultstring-outputlimit']
+msgid "Excessive output"
+msgstr ""
+
+#: $string['resultstring-runtimeerror']
+msgid "Error"
+msgstr ""
+
+#: $string['resultstring-sandboxoverload']
+msgid "Sandbox server overload. Perhaps try again soon?"
+msgstr ""
+
+#: $string['resultstring-sandboxpending']
+msgid "CodeRunner error (PD): please tell a tutor"
+msgstr ""
+
+#: $string['resultstring-sandboxpolicy']
+msgid "CodeRunner error (BP): please tell a tutor"
+msgstr ""
+
+#: $string['resultstring-success']
+msgctxt "$string['resultstring-success']"
+msgid "OK"
+msgstr ""
+
+#: $string['resultstring-timelimit']
+msgid "Time limit exceeded"
+msgstr ""
+
+#: $string['run_failed']
+msgid "Failed to run tests"
+msgstr ""
+
+#: $string['sandboxcontrols']
+msgid "Sandbox"
+msgstr ""
+
+#: $string['sandboxcontrols_help']
+msgid ""
+"Select what sandbox you wish the student submissions to run in; choosing\n"
+"DEFAULT will use the highest priority sandbox available for the chosen "
+"language\n"
+"(recommended unless the question has special needs).\n"
+"\n"
+"You can also set the\n"
+"maximum CPU time in seconds  allowed for each testcase run and the maximum\n"
+"memory a single testcase run can consume (MB). A blank entry uses the "
+"sandbox's\n"
+"default value (typically 5 secs for the CPU time limit and a language-"
+"dependent\n"
+"amount of memory), but the defaults may not be suitable for resource-"
+"demanding\n"
+"programs. A value of zero for the maximum memory results in no limit being\n"
+"imposed. The amount of memory specified here is the total amount needed for\n"
+"the run including all libraries, interpreters, VMs etc.\n"
+"\n"
+"The 'Parameters' entry\n"
+"is used to pass further sandbox-specific data, such as compile options and\n"
+"API-keys. It should generally be left blank but if non-blank it must be a "
+"valid\n"
+"JSON record. In the case of the jobe sandbox, available attributes include\n"
+"disklimit, streamsize, numprocs, compileargs, linkargs and interpreterargs. "
+"For\n"
+"example `{\"compileargs\":[\"-std=c89\"]}` for a C question would force C89\n"
+"compliance and no other C options would be used. See the jobe documentation\n"
+"for details. Some sandboxes (e.g. Ideone) may silently ignore any or all of\n"
+"these settings."
+msgstr ""
+
+#: $string['sandboxerror']
+msgid "Error from the sandbox [{$a->sandbox}]: {$a->message}"
+msgstr ""
+
+#: $string['sandboxparams']
+msgid "Parameters"
+msgstr ""
+
+#: $string['seethisquestioninthequestionbank']
+msgid "See this question in the question bank"
+msgstr ""
+
+#: $string['SHOW']
+msgid "Show"
+msgstr ""
+
+#: $string['showcolumns']
+msgid "Show columns:"
+msgstr ""
+
+#: $string['showcolumns_help']
+msgid ""
+"Select which columns of the results table should\n"
+"be displayed to students. Empty columns will be hidden regardless.\n"
+"The defaults are appropriate for most uses."
+msgstr ""
+
+#: $string['showdifferences']
+msgid "Show differences"
+msgstr ""
+
+#: $string['showsource']
+msgid "Template debugging"
+msgstr ""
+
+#: $string['sourcecodeallruns']
+msgid "Debug: source code from all test runs"
+msgstr ""
+
+#: $string['stdin']
+msgid "Standard Input"
+msgstr ""
+
+#: $string['stdin_help']
+msgid "The standard input to the test, seen by the template as {{TEST.stdin}}"
+msgstr ""
+
+#: $string['supportscripts']
+msgid "Support scripts"
+msgstr ""
+
+#: $string['syntax_errors']
+msgid "Syntax Error(s)"
+msgstr ""
+
+#: $string['template']
+msgid "Template"
+msgstr ""
+
+#: $string['template_changed']
+msgid ""
+"Per-test template changed - disable combinator? ['Cancel' leaves it "
+"enabled.]"
+msgstr ""
+
+#: $string['templatecontrols']
+msgid "Template controls"
+msgstr ""
+
+#: $string['templatecontrols_help']
+msgid ""
+"Checking the 'Is combinator' checkbox\n"
+"specifies that the template is a combinator template, which combines (or "
+"attempts\n"
+"to combine) the student answer plus all test cases into a single run. If "
+"this\n"
+"checkbox is checked, you will also need to define the value of the "
+"test_splitter_re\n"
+"field, which is the PHP regular expression used to split the output from the\n"
+"program run back into a set of individual test runs. However, you do not "
+"need\n"
+"to define this if you're also using a template grader, as in that case the\n"
+"template code is responsible for splitting the output itself, and grading "
+"it.\n"
+"\n"
+"Combinator templates do not get passed a TEST Twig variable. Instead they\n"
+"receive a variable TESTCASES, which is a list of all the tests in the\n"
+"question. The program produced by the template is generally assumed to "
+"combine the\n"
+"STUDENT_ANSWER and all the TESTCASES into a single program which, when it is "
+"run,\n"
+"outputs the test results from each test case, separated by a unique string.\n"
+"The separator string is defined by a regular expression given by the form\n"
+"field 'test_splitter_re' below.\n"
+"\n"
+"However, if testcases have standard input defined, combinator templates "
+"become\n"
+"problematic. If the template constructs a single program, what should the "
+"standard\n"
+"input be? The simplest (and default) solution is to\n"
+"run the test cases one at a time, using the combinator template to build\n"
+"each program, passing it a TESTCASES variable containing just a single test.\n"
+"This 'trick' allows the combinator template to serve a dual role: it behaves\n"
+"as a per-test-case template (with a 1-element TESTCASES array) when the "
+"question\n"
+"author supplies standard input but as a proper combinator (with an n-element\n"
+"TESTCASES array) otherwise. To change this behaviour so that the combinator\n"
+"receives all testcases, even when stdin is present, check the 'Allow "
+"multiple\n"
+"stdins' checkbox.\n"
+"\n"
+"If a run of the combinator program results in any output to stderr, that\n"
+"is interpreted as a run error. To ensure the student gets credit for as many\n"
+"valid tests as possible, the system behaves as it does when standard input\n"
+"is present, falling back to running each test separately. This does not\n"
+"apply to combinator graders, however, which are required to deal with all\n"
+"runtime errors themselves and must always return a valid JSON outcome."
+msgstr ""
+
+#: $string['templateerror']
+msgid "TEMPLATE ERROR"
+msgstr ""
+
+#: $string['templategrader']
+msgid "Template grader"
+msgstr ""
+
+#: $string['template_help']
+msgid ""
+"The template defines the program(s) that run in the sandbox for a given\n"
+"student answer and test(s). There are two\n"
+"types of template:\n"
+"\n"
+"* a per-test template, which defines a program to be run for a single test "
+"case and,\n"
+"* a 'combinator' template which defines a program that combines all the "
+"different cases into a single program.\n"
+"\n"
+"The 'is_combinator' checkbox is left unchecked for a per-test template and "
+"is\n"
+"set checked for a combinator template. The rest of this help panel assumes "
+"you\n"
+"are using a per-test template; see the full documentation for the use of\n"
+"combinator templates.\n"
+"\n"
+"The template is processed\n"
+"by the Twig template engine (see http://twig.sensiolabs.org)\n"
+"in a context in which STUDENT_ANSWER is the student's\n"
+"response and TEST.testcode is the code for the current testcase. These "
+"values\n"
+"(and other testcase values like TEST.expected, TEST.stdin, TEST.mark)\n"
+"can be inserted into the template by enclosing them in double braces, e.g.\n"
+"`{{TEST.testcode}}`. For use within literal strings, an appropriate escape\n"
+"function should be applied, e.g. `{{STUDENT_ANSWER | e('py')}}` is the "
+"student\n"
+"answer escaped in a manner suitable for use within Python triple-double-"
+"quoted\n"
+"strings. Other escape functions are `e('c')`, `e('java')`, `e('matlab')`. "
+"The\n"
+"program that is output by Twig is then compiled and executed\n"
+"with the language of the selected built-in type and with stdin set\n"
+"to TEST.stdin. Output from that program is then passed to the selected "
+"grader.\n"
+"See the help under 'Grading controls' for more on that.\n"
+"\n"
+"Note that if a customised per-test template is used\n"
+"there will be a compile-and-execute cycle for every test case, whereas most\n"
+"built-in question types define instead a combinator template that combines\n"
+"all test cases into a single run.\n"
+"\n"
+"If the template-debugging checkbox is clicked, the program generated\n"
+"for each testcase will be displayed in the output."
+msgstr ""
+
+#: $string['templateparams']
+msgid "Template params"
+msgstr ""
+
+#: $string['templateparams_help']
+msgid ""
+"The template parameters field lets you pass string parameters to a "
+"question's\n"
+"template(s). If non-blank, this must be a JSON-format record. The fields of\n"
+"the record can then be used within the template, where they appear as\n"
+"QUESTION.parameters.&lt;&lt;param&gt;&gt;. For example, if template params "
+"is\n"
+"\n"
+"        {\"age\": 23}\n"
+"\n"
+"the value 23 would be substituted into the template in place of the\n"
+"template variable `{{ QUESTION.parameters.age }}`."
+msgstr ""
+
+#: $string['testcase']
+msgid "Test case {$a}"
+msgstr ""
+
+#: $string['testcasecontrols']
+msgid "Test properties:"
+msgstr ""
+
+#: $string['testcasecontrols_help']
+msgid ""
+"If 'Use as example' is checked, this test will be automatically included in "
+"the\n"
+"question's 'For example:' results table.\n"
+"\n"
+"The 'Display' combobox determines when this testcase is shown to the student\n"
+"in the results table.\n"
+"\n"
+"If 'Hide rest if fail' is checked and this test fails, all subsequent tests "
+"will\n"
+"be hidden from the student, regardless of the setting of the 'Display' "
+"combobox.\n"
+"\n"
+"'Mark' sets the value of this test case; meaningful only if this is not an\n"
+"'All-or-nothing' question.\n"
+"\n"
+"'Ordering' can be used to change the order of testcases when the question is\n"
+"saved: testcases are ordered by this field."
+msgstr ""
+
+#: $string['testcases']
+msgid "Test cases"
+msgstr ""
+
+#: $string['testcode']
+msgid "Test code"
+msgstr ""
+
+#: $string['testcode_help']
+msgid "The code for the test, seen by the template as {{TEST.testcode}}"
+msgstr ""
+
+#: $string['testcolhdr']
+msgid "Test"
+msgstr ""
+
+#: $string['testingquestion']
+msgid "Testing question {$a}"
+msgstr ""
+
+#: $string['testsplitterre']
+msgid "Test splitter (regex)"
+msgstr ""
+
+#: $string['testtype']
+msgid "Precheck test type"
+msgstr ""
+
+#: $string['testtype_both']
+msgid "Both"
+msgstr ""
+
+#: $string['testtype_help']
+msgid ""
+"If Prechecking is enabled and set to 'selected', this setting controls "
+"whether\n"
+"the test is used only with a normal run, only with a precheck run or in both "
+"runs.\n"
+"If Prechecking is set to anything other than 'selected', this setting is\n"
+"ignored."
+msgstr ""
+
+#: $string['testtype_normal']
+msgid "Check only"
+msgstr ""
+
+#: $string['testtype_precheck']
+msgctxt "$string['testtype_precheck']"
+msgid "Precheck only"
+msgstr ""
+
+#: $string['tooshort']
+msgid ""
+"Answer is too short to be meaningful and has been ignored without penalty"
+msgstr ""
+
+#: $string['type_header']
+msgid "CodeRunner question type"
+msgstr ""
+
+#: $string['typename']
+msgctxt "$string['typename']"
+msgid "Question type"
+msgstr ""
+
+#: $string['typerequired']
+msgid "Please select the type of question (language, format, etc)"
+msgstr ""
+
+#: $string['unauthorisedbulktest']
+msgid "You do not have suitable access to any CodeRunner questions"
+msgstr ""
+
+#: $string['unknownerror']
+msgid ""
+"An unexpected error occurred. The sandbox may be down. Try again shortly."
+msgstr ""
+
+#: $string['useace']
+msgid "Use ace"
+msgstr ""
+
+#: $string['useasexample']
+msgid "Use as example"
+msgstr ""
+
+#: $string['validateonsave']
+msgid "Validate on save"
+msgstr ""
+
+#: $string['xmlcoderunnerformaterror']
+msgid "XML format error in coderunner question"
+msgstr ""

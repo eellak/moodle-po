@@ -1,0 +1,277 @@
+#. extracted from lang/en/local_moodlecheck.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'local_moodlecheck', language 'en', branch 'MOODLE_22_STABLE'
+#.  *
+#.  * @package   local_moodlecheck
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['check']
+msgid "Check"
+msgstr ""
+
+#: $string['checkallrules']
+msgid "Check over all rules"
+msgstr ""
+
+#: $string['checkselectedrules']
+msgid ""
+"Check over selected rules (click \"Show Advanced\" button to see the list)"
+msgstr ""
+
+#: $string['error_categoryvalid']
+msgid "Category <b>{$a->category}</b> is not valid"
+msgstr ""
+
+#: $string['error_classesdocumented']
+msgid "Class <b>{$a->class}</b> is not documented"
+msgstr ""
+
+#: $string['error_classeshavecopyright']
+msgid "Class <b>{$a->object}</b> does not have @copyright tag"
+msgstr ""
+
+#: $string['error_classeshavelicense']
+msgid "Class <b>{$a->object}</b> does not have @license tag"
+msgstr ""
+
+#: $string['error_constsdocumented']
+msgid "Constant <b>{$a->object}</b> is not documented"
+msgstr ""
+
+#: $string['error_default']
+msgid "Error: {$a}"
+msgstr ""
+
+#: $string['error_definedoccorrect']
+msgid ""
+"Phpdocs for define statement must start with constant name and dash: "
+"<b>{$a->object}</b>"
+msgstr ""
+
+#: $string['error_definesdocumented']
+msgid "Define statement for <b>{$a->object}</b> is not documented"
+msgstr ""
+
+#: $string['error_filehascopyright']
+msgid "File-level phpdocs block does not have @copyright tag"
+msgstr ""
+
+#: $string['error_filehaslicense']
+msgid "File-level phpdocs block does not have @license tag"
+msgstr ""
+
+#: $string['error_filephpdocpresent']
+msgid "File-level phpdocs block is not found"
+msgstr ""
+
+#: $string['error_functionarguments']
+msgid ""
+"Phpdocs for function <b>{$a->function}</b> has incomplete parameters list"
+msgstr ""
+
+#: $string['error_functiondescription']
+msgid "There is no description in phpdocs for function <b>{$a->object}</b>"
+msgstr ""
+
+#: $string['error_functionsdocumented']
+msgid "Function <b>{$a->function}</b> is not documented"
+msgstr ""
+
+#: $string['error_noemptysecondline']
+msgid "Empty line found after PHP open tag"
+msgstr ""
+
+#: $string['error_noinlinephpdocs']
+msgid "Found comment starting with three or more slashes"
+msgstr ""
+
+#: $string['error_packagespecified']
+msgid ""
+"Package is not specified for <b>{$a->object}</b>. It is also not specified "
+"in file-level phpdocs"
+msgstr ""
+
+#: $string['error_packagevalid']
+msgid "Package <b>{$a->package}</b> is not valid"
+msgstr ""
+
+#: $string['error_phpdocsfistline']
+msgid "No one-line description found in phpdocs for <b>{$a->object}</b>"
+msgstr ""
+
+#: $string['error_phpdocsinvalidinlinetag']
+msgid "Invalid inline phpdocs tag <b>{$a->tag}</b> found"
+msgstr ""
+
+#: $string['error_phpdocsinvalidtag']
+msgid "Invalid phpdocs tag <b>{$a->tag}</b> used"
+msgstr ""
+
+#: $string['error_phpdocsnotrecommendedtag']
+msgid "Not recommended phpdocs tag <b>{$a->tag}</b> used"
+msgstr ""
+
+#: $string['error_phpdocsuncurlyinlinetag']
+msgid ""
+"Inline phpdocs tag not enclosed with curly brackets <b>{$a->tag}</b> found"
+msgstr ""
+
+#: $string['error_variablesdocumented']
+msgid "Variable <b>{$a->variable}</b> is not documented"
+msgstr ""
+
+#: $string['error_variableshasvar']
+msgid ""
+"Phpdocs for variable <b>{$a->variable}</b> does not contain @var or "
+"incorrect"
+msgstr ""
+
+#: $string['ignorepath']
+msgid "Subpaths to ignore"
+msgstr ""
+
+#: $string['linenum']
+msgid "Line <b>{$a}</b>:"
+msgstr ""
+
+#: $string['path']
+msgid "Path(s)"
+msgstr ""
+
+#: $string['path_help']
+msgid ""
+"Specify one or more files and/or directories to check as local paths from "
+"Moodle installation directory"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Moodle PHPdoc check"
+msgstr ""
+
+#: $string['rule_categoryvalid']
+msgid "Category tag is valid"
+msgstr ""
+
+#: $string['rule_classesdocumented']
+msgid "All classes are documented"
+msgstr ""
+
+#: $string['rule_classeshavecopyright']
+msgid "All classes have @copyright tag"
+msgstr ""
+
+#: $string['rule_classeshavelicense']
+msgid "All classes have @license tag"
+msgstr ""
+
+#: $string['rule_constsdocumented']
+msgid "All constants are documented"
+msgstr ""
+
+#: $string['rule_definedoccorrect']
+msgid "Check syntax for define statement"
+msgstr ""
+
+#: $string['rule_definesdocumented']
+msgid "All define statements are documented"
+msgstr ""
+
+#: $string['rule_filehascopyright']
+msgid "Files have @copyright tag"
+msgstr ""
+
+#: $string['rule_filehaslicense']
+msgid "Files have @license tag"
+msgstr ""
+
+#: $string['rule_filephpdocpresent']
+msgid "File-level phpdocs block is present"
+msgstr ""
+
+#: $string['rule_functionarguments']
+msgid "Phpdocs for functions properly define all parameters"
+msgstr ""
+
+#: $string['rule_functiondescription']
+msgid "Functions have descriptions in phpdocs"
+msgstr ""
+
+#: $string['rule_functionsdocumented']
+msgid "All functions are documented"
+msgstr ""
+
+#: $string['rule_noemptysecondline']
+msgid "Php open tag in the first line is not followed by empty line"
+msgstr ""
+
+#: $string['rule_noinlinephpdocs']
+msgid "There are no comments starting with three or more slashes"
+msgstr ""
+
+#: $string['rule_packagespecified']
+msgid ""
+"All functions (which are not methods) and classes have package specified or "
+"inherited"
+msgstr ""
+
+#: $string['rule_packagevalid']
+msgid "Package tag is valid"
+msgstr ""
+
+#: $string['rule_phpdocsfistline']
+msgid ""
+"File-level phpdocs block and class phpdocs should have one-line short "
+"description"
+msgstr ""
+
+#: $string['rule_phpdocsinvalidinlinetag']
+msgid "Inline phpdocs tags are valid"
+msgstr ""
+
+#: $string['rule_phpdocsinvalidtag']
+msgid "Used phpdocs tags are valid"
+msgstr ""
+
+#: $string['rule_phpdocsnotrecommendedtag']
+msgid "Used phpdocs tags are recommended"
+msgstr ""
+
+#: $string['rule_phpdocsuncurlyinlinetag']
+msgid "Inline phpdocs tags are enclosed with curly brackets"
+msgstr ""
+
+#: $string['rule_variablesdocumented']
+msgid "All variables are documented"
+msgstr ""
+
+#: $string['rule_variableshasvar']
+msgid "Phpdocs for variables contain @var with variable type and name"
+msgstr ""

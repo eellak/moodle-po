@@ -1,0 +1,265 @@
+#. extracted from lang/en/local_usersynccsv.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'local_usersynccsv', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   local_usersynccsv
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['archivedirmaxday']
+msgid "Archive Dir Retention Days"
+msgstr ""
+
+#: $string['archivedirmaxday_help']
+msgid "Max retention days of archive dirs"
+msgstr ""
+
+#: $string['archivedirmaxsize']
+msgid "Max Archive Retention Size"
+msgstr ""
+
+#: $string['archivedirmaxsize_help']
+msgid "Max retention size of archive dir, in MB"
+msgstr ""
+
+#: $string['configdirmissing']
+msgid "Could not find required dir: {$a}"
+msgstr ""
+
+#: $string['configdirnotwritable']
+msgid "Dir is not writable. Please check dir permissions: {$a}"
+msgstr ""
+
+#: $string['configerror']
+msgid "{$a} configuration error, can't start execution"
+msgstr ""
+
+#: $string['csvdelimiter']
+msgid "CSV Delimiter"
+msgstr ""
+
+#: $string['csvdelimiter_help']
+msgid "The delimiter parameter sets the field delimiter (one character only)."
+msgstr ""
+
+#: $string['csvenclosure']
+msgid "CSV Enclosure"
+msgstr ""
+
+#: $string['csvenclosure_help']
+msgid ""
+"The enclosure parameter sets the field enclosure character (one character "
+"only)."
+msgstr ""
+
+#: $string['csvescape']
+msgid "CSV Escape"
+msgstr ""
+
+#: $string['csvescape_help']
+msgid "The escape parameter sets the escape character (one character only)."
+msgstr ""
+
+#: $string['dbfiletablemaxday']
+msgid "File Table Retention Days"
+msgstr ""
+
+#: $string['dbfiletablemaxday_help']
+msgid ""
+"Max retention days of file table, i.e. the table where we store file status"
+msgstr ""
+
+#: $string['defaultauth']
+msgid "User Default Auth Type"
+msgstr ""
+
+#: $string['defaultauth_help']
+msgid "Used if auth field is not found in import file"
+msgstr ""
+
+#: $string['defpassowrd']
+msgid "Default User Password"
+msgstr ""
+
+#: $string['defpassowrd_help']
+msgid "Default user passowrd (plain), if not found in import file"
+msgstr ""
+
+#: $string['discardlevel']
+msgid "File discard level"
+msgstr ""
+
+#: $string['discardlevel_help']
+msgid ""
+"Set the discard file policy. USER_ERROR: At least one user is malformed, "
+"FILE_ERROR: the file is malformed, NEVER: never discard the file"
+msgstr ""
+
+#: $string['exportdir']
+msgid "Export Directory (Not available yet)"
+msgstr ""
+
+#: $string['exportdir_help']
+msgid ""
+"Only used if exportdir is true. Full path of the working export directory. "
+"Moodle needs to have read/write access to this folder, otherwise the plugin "
+"won't work"
+msgstr ""
+
+#: $string['filemovedlog']
+msgid "moved to status {$a}"
+msgstr ""
+
+#: $string['filepermissionserror']
+msgid "File permissions error"
+msgstr ""
+
+#: $string['genericdberror']
+msgid "DB Error in table: {$a}"
+msgstr ""
+
+#: $string['importdir']
+msgid "Import Directory"
+msgstr ""
+
+#: $string['importdir_help']
+msgid ""
+"Full path of the working import directory. It must exist on the FileSystem, "
+"and Moodle needs to have read/write access to this folder, otherwise the "
+"plugin won't work"
+msgstr ""
+
+#: $string['isexport']
+msgid "Export User Data (Not available yet)"
+msgstr ""
+
+#: $string['isexport_help']
+msgid ""
+"If checked, will incrementally export user data to a CSV file in the "
+"directory set by exportdir."
+msgstr ""
+
+#: $string['loglevel']
+msgid "Log level"
+msgstr ""
+
+#: $string['loglevel_help']
+msgid ""
+"Set the log level. LOG_FATALERROR: fatal error only, LOG_FILEERROR: "
+"fatal/file/user errors, LOG_INFO: info on file processed and fatal/file/user "
+"errors"
+msgstr ""
+
+#: $string['maineventname']
+msgctxt "$string['maineventname']"
+msgid "User Sync CSV"
+msgstr ""
+
+#: $string['malformedfilefoundunknownfield']
+msgid "Unknown field found: {$a}"
+msgstr ""
+
+#: $string['malformedfilegenericerror']
+msgid "Line number {$a}"
+msgstr ""
+
+#: $string['malformedfilemalformedline']
+msgid ""
+"Line number {$a}, numeber of elements differ from header number of elements"
+msgstr ""
+
+#: $string['malformedfilemissingrequiredfield']
+msgid "Missing required field: {$a}"
+msgstr ""
+
+#: $string['modulename_help']
+msgid "Synchronize Users with external system by means of CSV files"
+msgstr ""
+
+#: $string['modulenameplural']
+msgctxt "$string['modulenameplural']"
+msgid "User Sync CSV"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "User Sync CSV administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "User Sync CSV"
+msgstr ""
+
+#: $string['requiredconfigsetting']
+msgid "Required configuration setting not properly set: {$a}"
+msgstr ""
+
+#: $string['requiredfields']
+msgid "Required Fields List"
+msgstr ""
+
+#: $string['requiredfields_help']
+msgid ""
+"CSV List of required fields. If one of theese is not found in the import "
+"file header, the entire import file will be discarded. Default is blank, "
+"meaning that no required fields are provided, besides the Moodle required "
+"user fields: username , firstname, lastname, email, and of course the import "
+"key"
+msgstr ""
+
+#: $string['synccsvconf_error-event']
+msgid "Config Error"
+msgstr ""
+
+#: $string['synccsv_dofile-event']
+msgid "Sync CSV File processed"
+msgstr ""
+
+#: $string['synccsveeventconferrdescription']
+msgid "Conf error."
+msgstr ""
+
+#: $string['synccsveeventdescription']
+msgid "The file with id"
+msgstr ""
+
+#: $string['synccsv_error-event']
+msgid "Sync CSV File error"
+msgstr ""
+
+#: $string['userkey']
+msgid "User Key"
+msgstr ""
+
+#: $string['userkey_help']
+msgid ""
+"The field used to uniquely identify a user. By default it's idnumber, but "
+"could also be email."
+msgstr ""

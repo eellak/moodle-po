@@ -1,0 +1,356 @@
+#. extracted from lang/en/filter_videoeasy.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'filter_videoeasy', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   filter_videoeasy
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['bundle']
+msgid "Bundle"
+msgstr ""
+
+#: $string['defaultposterimage']
+msgid "Default poster image"
+msgstr ""
+
+#: $string['defaultposterimage_desc']
+msgid ""
+"The standard default poster image is just a grey box. Here you can upload a "
+"custom image that better suits your site. A default poster image will only "
+"be shown if the player template specifies it."
+msgstr ""
+
+#: $string['extensionheading']
+msgid "File Extension Handlers"
+msgstr ""
+
+#: $string['extensions']
+msgid "File Extensions"
+msgstr ""
+
+#: $string['extensions_desc']
+msgid ""
+"A CSV (comma separated value) list of file extensions this filter can parse."
+msgstr ""
+
+#: $string['filterdescription']
+msgid "Convert video links strings into players"
+msgstr ""
+
+#: $string['filtername']
+msgctxt "$string['filtername']"
+msgid "Video Easy"
+msgstr ""
+
+#: $string['handle']
+msgid "Handle {$a}"
+msgstr ""
+
+#: $string['player']
+msgid "Player {$a}"
+msgstr ""
+
+#: $string['player_flowplayer']
+msgid "Flowplayer"
+msgstr ""
+
+#: $string['player_jplayervideo']
+msgid "JPlayer (Video)"
+msgstr ""
+
+#: $string['player_jwplayer']
+msgid "JW Player"
+msgstr ""
+
+#: $string['player_mediaelement']
+msgid "MediaElement.js"
+msgstr ""
+
+#: $string['player_playereight']
+msgid "Player 8"
+msgstr ""
+
+#: $string['player_playereleven']
+msgid "Player 11"
+msgstr ""
+
+#: $string['player_playerfifteen']
+msgid "Player 15"
+msgstr ""
+
+#: $string['player_playerfourteen']
+msgid "Player 14"
+msgstr ""
+
+#: $string['player_playernine']
+msgid "Player 9"
+msgstr ""
+
+#: $string['player_playerseven']
+msgid "Player 7"
+msgstr ""
+
+#: $string['player_playersix']
+msgid "YouTube Lightbox"
+msgstr ""
+
+#: $string['player_playerten']
+msgid "Player 10"
+msgstr ""
+
+#: $string['player_playerthirteen']
+msgid "Player 13"
+msgstr ""
+
+#: $string['player_playertwelve']
+msgid "Player 12"
+msgstr ""
+
+#: $string['player_sublimevideo']
+msgid "Sublime Video"
+msgstr ""
+
+#: $string['player_videojs']
+msgid "Video.js"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Video Easy"
+msgstr ""
+
+#: $string['presets']
+msgid "Autofill template with a Preset"
+msgstr ""
+
+#: $string['presets_desc']
+msgid ""
+"VideoEasy comes with some default presets you can use out of the box, or to "
+"help you get started with your own template. Choose one of those here, or "
+"just create your own template from scratch. You can export a template as a "
+"bundle by clicking on the green box above. You can import a bundle by "
+"dragging it onto the green box."
+msgstr ""
+
+#: $string['sitedefault']
+msgid "Site Default"
+msgstr ""
+
+#: $string['template']
+msgid "template"
+msgstr ""
+
+#: $string['templatealternate']
+msgid "Alternate content"
+msgstr ""
+
+#: $string['templatealternate_desc']
+msgid ""
+"Content that can be used when the custom and uploaded CSS and javascript "
+"content is not available. Currently this is used when the template is "
+"processed by a webservice, probably for content on the mobile app"
+msgstr ""
+
+#: $string['templatecount']
+msgid "Template Count"
+msgstr ""
+
+#: $string['templatecount_desc']
+msgid "The number of templates you can have. Default is 15."
+msgstr ""
+
+#: $string['templatedefaults']
+msgid "defaults"
+msgstr ""
+
+#: $string['templatedefaults_desc']
+msgid ""
+"Default values for custom variables in the template/script. Usually just "
+"width, and height. Enter comma delimited sets of name=value pairs. eg "
+"width=800,height=900,feeling=joy"
+msgstr ""
+
+#: $string['template_desc']
+msgid ""
+"Put the template here, define variables by surrounding them with @@ marks at "
+"either e. eg @@variable@@"
+msgstr ""
+
+#: $string['templateheading']
+msgid "Settings for {$a}"
+msgstr ""
+
+#: $string['templateinstructions']
+msgid "Instructions (template {$a})"
+msgstr ""
+
+#: $string['templateinstructions_desc']
+msgid ""
+"Use this area for any instructions or description of the template. It is "
+"only shown here and on the templates list table."
+msgstr ""
+
+#: $string['templatekey']
+msgid "Template Key"
+msgstr ""
+
+#: $string['templatekey_desc']
+msgid ""
+"The id that identifies this template. Must be unique on the site. Users "
+"never see this. If you change it you will need to reallocate the "
+"template/player to the appropriate file extension. Try not to change it. Use "
+"alphanumeric characters only (no spaces)"
+msgstr ""
+
+#: $string['templatename']
+msgid "Template Name"
+msgstr ""
+
+#: $string['templatename_desc']
+msgid "The name of this template."
+msgstr ""
+
+#: $string['templatepageheading']
+msgid "Template: {$a}"
+msgstr ""
+
+#: $string['templatepageheading_handlers']
+msgid "General Settings"
+msgstr ""
+
+#: $string['templaterequire_amd']
+msgid "Load via AMD"
+msgstr ""
+
+#: $string['templaterequire_amd_desc']
+msgid ""
+"AMD is a javascript loading mechanism. If you upload or link to javascript "
+"libraries in your template, you might have to uncheck this. It only applies "
+"if on Moodle 2.9 or greater"
+msgstr ""
+
+#: $string['templaterequirecss']
+msgid "CSS URL"
+msgstr ""
+
+#: $string['templaterequirecss_desc']
+msgid "This is the URL of any required CSS file. Try to start with // ."
+msgstr ""
+
+#: $string['templaterequirejs']
+msgid "javascript URL"
+msgstr ""
+
+#: $string['templaterequirejs_desc']
+msgid ""
+"This is the URL of any required javascript library. Try to start with // ."
+msgstr ""
+
+#: $string['templaterequirejsshim']
+msgid "Require Shim export"
+msgstr ""
+
+#: $string['templaterequirejsshim_desc']
+msgctxt "$string['templaterequirejsshim_desc']"
+msgid "Leave blank unless you know what shimming is"
+msgstr ""
+
+#: $string['templates']
+msgid "Templates"
+msgstr ""
+
+#: $string['templatescript']
+msgid "load script"
+msgstr ""
+
+#: $string['templatescript_desc']
+msgid ""
+"Put the load script (if any) here, define variables by surrounding them with "
+"@@ marks at either end. eg @@variable@@"
+msgstr ""
+
+#: $string['templatestyle']
+msgid "Custom CSS (template {$a})"
+msgstr ""
+
+#: $string['templatestyle_desc']
+msgid ""
+"Enter any custom CSS that your template uses here. Template variables will "
+"not work here. Just plain old css."
+msgstr ""
+
+#: $string['templateuploadjsshim']
+msgid "Upload Shim export"
+msgstr ""
+
+#: $string['templateuploadjsshim_desc']
+msgctxt "$string['templateuploadjsshim_desc']"
+msgid "Leave blank unless you know what shimming is"
+msgstr ""
+
+#: $string['templateversion']
+msgid "The version of this template {$a}"
+msgstr ""
+
+#: $string['templateversion_desc']
+msgid ""
+"When sharing templates it is best to maintain a clear version per release. "
+"The version format is up to you."
+msgstr ""
+
+#: $string['uploadcss']
+msgid "Upload CSS"
+msgstr ""
+
+#: $string['uploadcss_desc']
+msgid ""
+"You can upload one CSS file which will be loaded for your template. Only "
+"one."
+msgstr ""
+
+#: $string['uploadjs']
+msgid "Upload JS"
+msgstr ""
+
+#: $string['uploadjs_desc']
+msgid ""
+"You can upload one js library file which will be loaded for your template. "
+"Only one."
+msgstr ""
+
+#: $string['useplayer']
+msgid "{$a} Player"
+msgstr ""
+
+#: $string['useplayerdesc']
+msgid ""
+"The player selected will use the information from the appropriate template."
+msgstr ""

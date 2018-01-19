@@ -1,0 +1,221 @@
+#. extracted from lang/en/quizaccess_offlinemode.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'quizaccess_offlinemode', language 'en', branch 'MOODLE_31_STABLE'
+#.  *
+#.  * @package   quizaccess_offlinemode
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['answerchanged']
+msgid "Answer changed"
+msgstr ""
+
+#: $string['backtothequiz']
+msgid "Back to the quiz"
+msgstr ""
+
+#: $string['changesmadereallygoaway']
+msgid ""
+"Your responses have not been saved to the server. Are you sure you want to "
+"leave this attempt."
+msgstr ""
+
+#: $string['dataprocessedsuccessfully']
+msgid "Data processed successfully ({$a})."
+msgstr ""
+
+#: $string['description']
+msgid "This quiz uses fault-tolerant mode. Adminstrators can {$a}"
+msgstr ""
+
+#: $string['descriptionlink']
+msgid "upload exported responses"
+msgstr ""
+
+#: $string['finishattemptsafterupload']
+msgid "Submit and finish each attempt after processing the upload"
+msgstr ""
+
+#: $string['lastsaved']
+msgid "Last saved: {$a}"
+msgstr ""
+
+#: $string['lastsavedtotheserver']
+msgid "Last saved to the server: {$a}"
+msgstr ""
+
+#: $string['lastsavedtothiscomputer']
+msgid "Last saved to this computer: {$a}"
+msgstr ""
+
+#: $string['loggedinaswronguser']
+msgid ""
+"You have logged in with an account other than the one that was attempting "
+"the quiz. That will not work. Click Continue to login again as the right "
+"user."
+msgstr ""
+
+#: $string['logindialogueheader']
+msgid "You may need to log in again"
+msgstr ""
+
+#: $string['loginokagain']
+msgid "Your login is now OK."
+msgstr ""
+
+#: $string['offlinemodeenabled']
+msgid "Experimental fault-tolerant mode"
+msgstr ""
+
+#: $string['offlinemodeenabled_desc']
+msgid ""
+"Whether the fault-tolerant mode should be enabled by default for new "
+"quizzes, and also whether it should be an advanced settings (behind 'Show "
+"more ...') on the quiz settings form."
+msgstr ""
+
+#: $string['offlinemodeenabled_help']
+msgid ""
+"The goal of this experimental option is to let students attempt a quiz even "
+"if the network connection is not reliable. For example on a train going "
+"through tunnels, or just with bad wi-fi. The students can move between pages "
+"of the quiz even if the server is not avaialble, and all their answers are "
+"stored locally, and sent to the server when possible."
+msgstr ""
+
+#: $string['offlinemode:uploadresponses']
+msgctxt "$string['offlinemode:uploadresponses']"
+msgid "Upload responses"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Quiz fault-tolerant mode"
+msgstr ""
+
+#: $string['privatekey']
+msgid "Encryption private key"
+msgstr ""
+
+#: $string['privatekey_desc']
+msgid ""
+"You can use public-key cryptography to protect the downloaded responses. To "
+"do that, you need to supply a private/public key pair. You can generate a "
+"private key using <code>openssl genrsa -out rsa_1024_priv.pem 1024</code> at "
+"the command-line (if you have OpenSSL installed from "
+"https://www.openssl.org/). Then paste the content of the rsa_1024_priv.pem "
+"file into this box."
+msgstr ""
+
+#: $string['processingcomplete']
+msgid "Processing complete"
+msgstr ""
+
+#: $string['processingfile']
+msgid "Processing file {$a}"
+msgstr ""
+
+#: $string['publickey']
+msgid "Encryption public key"
+msgstr ""
+
+#: $string['publickey_desc']
+msgid ""
+"This must correspond to the private key. You can generate it from the "
+"private key using <code>openssl rsa -pubout -in rsa_1024_priv.pem -out "
+"rsa_1024_pub.pem</code> then past the contents of rsa_1024_pub.pem here."
+msgstr ""
+
+#: $string['responsefiles']
+msgid "Response files"
+msgstr ""
+
+#: $string['responsefiles_help']
+msgid ""
+"You can upload one or more response files downloaded using the 'Emergency "
+"response export' link during a quiz attempt."
+msgstr ""
+
+#: $string['reviewthisattempt']
+msgid "Review this attempt"
+msgstr ""
+
+#: $string['savefailed']
+msgid ""
+"Save failed. You can continue working. From time to time you should {$a}."
+msgstr ""
+
+#: $string['savetheresponses']
+msgid "save the responses"
+msgstr ""
+
+#: $string['savingdots']
+msgid "Saving ..."
+msgstr ""
+
+#: $string['savingtryagaindots']
+msgid "Trying again to save to the server ..."
+msgstr ""
+
+#: $string['submitfailed']
+msgid "Submit failed"
+msgstr ""
+
+#: $string['submitfaileddownloadmessage']
+msgid "... or you can {$a} as a file which can be processed later."
+msgstr ""
+
+#: $string['submitfailedmessage']
+msgid "Your responses could not be submitted. You can either try again ..."
+msgstr ""
+
+#: $string['submitting']
+msgid "Submitting ..."
+msgstr ""
+
+#: $string['uploadfailed']
+msgid "The upload failed"
+msgstr ""
+
+#: $string['uploadingresponsesfor']
+msgid "Uploading responses for {$a}"
+msgstr ""
+
+#: $string['uploadmoreresponses']
+msgid "Upload more responses"
+msgstr ""
+
+#: $string['uploadresponses']
+msgctxt "$string['uploadresponses']"
+msgid "Upload responses"
+msgstr ""
+
+#: $string['uploadresponsesfor']
+msgid "Upload responses for {$a}"
+msgstr ""

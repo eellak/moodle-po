@@ -1,0 +1,1869 @@
+#. extracted from lang/en/role.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'role', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   role
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addinganewrole']
+msgid "Adding a new role"
+msgstr ""
+
+#: $string['addrole']
+msgid "Add a new role"
+msgstr ""
+
+#: $string['advancedoverride']
+msgid "Advanced role override"
+msgstr ""
+
+#: $string['allow']
+msgid "Allow"
+msgstr ""
+
+#: $string['allowassign']
+msgid "Allow role assignments"
+msgstr ""
+
+#: $string['allowed']
+msgid "Allowed"
+msgstr ""
+
+#: $string['allowoverride']
+msgid "Allow role overrides"
+msgstr ""
+
+#: $string['allowroletoassign']
+msgid ""
+"Allow users with role {$a->fromrole} to assign the role {$a->targetrole}"
+msgstr ""
+
+#: $string['allowroletooverride']
+msgid ""
+"Allow users with role {$a->fromrole} to override the role {$a->targetrole}"
+msgstr ""
+
+#: $string['allowroletoswitch']
+msgid ""
+"Allow users with role {$a->fromrole} to switch roles to the role "
+"{$a->targetrole}"
+msgstr ""
+
+#: $string['allowroletoview']
+msgid "Allow users with role {$a->fromrole} to view the role {$a->targetrole}"
+msgstr ""
+
+#: $string['allowswitch']
+msgid "Allow role switches"
+msgstr ""
+
+#: $string['allowview']
+msgid "Allow role to view"
+msgstr ""
+
+#: $string['allsiteusers']
+msgid "All site users"
+msgstr ""
+
+#: $string['analytics:listinsights']
+msgid "List insights"
+msgstr ""
+
+#: $string['analytics:managemodels']
+msgid "Manage models"
+msgstr ""
+
+#: $string['archetype']
+msgid "Role archetype"
+msgstr ""
+
+#: $string['archetypecoursecreator']
+msgid "ARCHETYPE: Course creator"
+msgstr ""
+
+#: $string['archetypeeditingteacher']
+msgid "ARCHETYPE: Teacher (editing)"
+msgstr ""
+
+#: $string['archetypefrontpage']
+msgid "ARCHETYPE: Authenticated user on frontpage"
+msgstr ""
+
+#: $string['archetypeguest']
+msgid "ARCHETYPE: Guest"
+msgstr ""
+
+#: $string['archetype_help']
+msgid ""
+"The role archetype determines the permissions when a role is reset to "
+"default. It also determines any new permissions for the role when the site "
+"is upgraded."
+msgstr ""
+
+#: $string['archetypemanager']
+msgid "ARCHETYPE: Manager"
+msgstr ""
+
+#: $string['archetypestudent']
+msgid "ARCHETYPE: Student"
+msgstr ""
+
+#: $string['archetypeteacher']
+msgid "ARCHETYPE: Teacher (non-editing)"
+msgstr ""
+
+#: $string['archetypeuser']
+msgid "ARCHETYPE: Authenticated user"
+msgstr ""
+
+#: $string['assignanotherrole']
+msgid "Assign another role"
+msgstr ""
+
+#: $string['assignedroles']
+msgid "Assigned roles"
+msgstr ""
+
+#: $string['assignerror']
+msgid "Error while assigning the role {$a->role} to user {$a->user}."
+msgstr ""
+
+#: $string['assignglobalroles']
+msgid "Assign system roles"
+msgstr ""
+
+#: $string['assignmentcontext']
+msgid "Assignment context"
+msgstr ""
+
+#: $string['assignmentoptions']
+msgid "Assignment options"
+msgstr ""
+
+#: $string['assignrole']
+msgid "Assign role"
+msgstr ""
+
+#: $string['assignrolenameincontext']
+msgid "Assign role '{$a->role}' in {$a->context}"
+msgstr ""
+
+#: $string['assignroles']
+msgid "Assign roles"
+msgstr ""
+
+#: $string['assignroles_help']
+msgid ""
+"By assigning a role to a user in a context, you are granting them the "
+"permissions contained in that role, for the current context and all lower "
+"contexts. For example, if a user is assigned the role of student in a "
+"course, they will also have the role of student for all activities and "
+"blocks within the course."
+msgstr ""
+
+#: $string['assignrolesin']
+msgid "Assign roles in {$a}"
+msgstr ""
+
+#: $string['assignroles_link']
+msgid "admin/roles/assign"
+msgstr ""
+
+#: $string['assignrolesrelativetothisuser']
+msgid "Assign roles relative to this user"
+msgstr ""
+
+#: $string['backtoallroles']
+msgid "Back to the list of all roles"
+msgstr ""
+
+#: $string['backup:anonymise']
+msgid "Anonymise user data on backup"
+msgstr ""
+
+#: $string['backup:backupactivity']
+msgid "Backup activities"
+msgstr ""
+
+#: $string['backup:backupcourse']
+msgctxt "$string['backup:backupcourse']"
+msgid "Backup courses"
+msgstr ""
+
+#: $string['backup:backupsection']
+msgid "Backup sections"
+msgstr ""
+
+#: $string['backup:backuptargethub']
+msgid "Backup for publishing on Moodle.net"
+msgstr ""
+
+#: $string['backup:backuptargetimport']
+msgid "Backup for import"
+msgstr ""
+
+#: $string['backup:configure']
+msgid "Configure backup options"
+msgstr ""
+
+#: $string['backup:downloadfile']
+msgid "Download files from backup areas"
+msgstr ""
+
+#: $string['backup:userinfo']
+msgid "Backup user data"
+msgstr ""
+
+#: $string['badges:awardbadge']
+msgid "Award badge to a user"
+msgstr ""
+
+#: $string['badges:configurecriteria']
+msgid "Set up/edit criteria of earning a badge"
+msgstr ""
+
+#: $string['badges:configuredetails']
+msgid "Set up/edit badge details"
+msgstr ""
+
+#: $string['badges:configuremessages']
+msgid "Configure badge messages"
+msgstr ""
+
+#: $string['badges:createbadge']
+msgid "Create/duplicate badges"
+msgstr ""
+
+#: $string['badges:deletebadge']
+msgid "Delete badges"
+msgstr ""
+
+#: $string['badges:earnbadge']
+msgid "Earn badge"
+msgstr ""
+
+#: $string['badges:manageglobalsettings']
+msgid "Manage badges global settings"
+msgstr ""
+
+#: $string['badges:manageownbadges']
+msgid "View and manage own earned badges"
+msgstr ""
+
+#: $string['badges:revokebadge']
+msgid "Revoke badge from a user"
+msgstr ""
+
+#: $string['badges:viewawarded']
+msgid ""
+"View users who earned a specific badge without being able to award a badge"
+msgstr ""
+
+#: $string['badges:viewbadges']
+msgid "View available badges without earning them"
+msgstr ""
+
+#: $string['badges:viewotherbadges']
+msgid "View public badges in other users' profiles"
+msgstr ""
+
+#: $string['block:edit']
+msgid "Edit a block's settings"
+msgstr ""
+
+#: $string['block:view']
+msgid "View block"
+msgstr ""
+
+#: $string['blog:create']
+msgid "Create new blog entries"
+msgstr ""
+
+#: $string['blog:manageentries']
+msgid "Edit and manage entries"
+msgstr ""
+
+#: $string['blog:manageexternal']
+msgid "Edit and manage external blogs"
+msgstr ""
+
+#: $string['blog:search']
+msgid "Search blog entries"
+msgstr ""
+
+#: $string['blog:view']
+msgid "View blog entries"
+msgstr ""
+
+#: $string['blog:viewdrafts']
+msgid "View draft blog entries"
+msgstr ""
+
+#: $string['calendar:manageentries']
+msgid "Manage any calendar entries"
+msgstr ""
+
+#: $string['calendar:managegroupentries']
+msgid "Manage group calendar entries"
+msgstr ""
+
+#: $string['calendar:manageownentries']
+msgid "Manage own calendar entries"
+msgstr ""
+
+#: $string['capabilities']
+msgid "Capabilities"
+msgstr ""
+
+#: $string['capability']
+msgid "Capability"
+msgstr ""
+
+#: $string['category:create']
+msgid "Create categories"
+msgstr ""
+
+#: $string['category:delete']
+msgid "Delete categories"
+msgstr ""
+
+#: $string['category:manage']
+msgid "Manage categories"
+msgstr ""
+
+#: $string['category:update']
+msgid "Update categories"
+msgstr ""
+
+#: $string['category:viewhiddencategories']
+msgctxt "$string['category:viewhiddencategories']"
+msgid "See hidden categories"
+msgstr ""
+
+#: $string['category:visibility']
+msgctxt "$string['category:visibility']"
+msgid "See hidden categories"
+msgstr ""
+
+#: $string['checkglobalpermissions']
+msgid "Check system permissions"
+msgstr ""
+
+#: $string['checkpermissions']
+msgid "Check permissions"
+msgstr ""
+
+#: $string['checkpermissionsin']
+msgid "Check permissions in {$a}"
+msgstr ""
+
+#: $string['checksystempermissionsfor']
+msgid "Check system permissions for {$a->fullname}"
+msgstr ""
+
+#: $string['checkuserspermissionshere']
+msgid "Check permissions for {$a->fullname} has in this {$a->contextlevel}"
+msgstr ""
+
+#: $string['chooseroletoassign']
+msgid "Please choose a role to assign"
+msgstr ""
+
+#: $string['cohort:assign']
+msgid "Add and remove cohort members"
+msgstr ""
+
+#: $string['cohort:manage']
+msgid "Create, delete and move cohorts"
+msgstr ""
+
+#: $string['cohort:view']
+msgid "View site-wide cohorts"
+msgstr ""
+
+#: $string['comment:delete']
+msgid "Delete comments"
+msgstr ""
+
+#: $string['comment:post']
+msgid "Post comments"
+msgstr ""
+
+#: $string['comment:view']
+msgid "View comments"
+msgstr ""
+
+#: $string['community:add']
+msgid "Use the community block to search Moodle.net and find courses"
+msgstr ""
+
+#: $string['community:download']
+msgid "Download a course from the community block"
+msgstr ""
+
+#: $string['competency:competencygrade']
+msgid "Set competency rating"
+msgstr ""
+
+#: $string['competency:competencymanage']
+msgid "Manage competency frameworks"
+msgstr ""
+
+#: $string['competency:competencyview']
+msgid "View competency frameworks"
+msgstr ""
+
+#: $string['competency:coursecompetencyconfigure']
+msgid "Configure course competency settings"
+msgstr ""
+
+#: $string['competency:coursecompetencygradable']
+msgid "Receive competency marks"
+msgstr ""
+
+#: $string['competency:coursecompetencymanage']
+msgid "Manage course competencies"
+msgstr ""
+
+#: $string['competency:coursecompetencyview']
+msgid "View course competencies"
+msgstr ""
+
+#: $string['competency:evidencedelete']
+msgid "Delete evidence"
+msgstr ""
+
+#: $string['competency:plancomment']
+msgid "Comment on a learning plan"
+msgstr ""
+
+#: $string['competency:plancommentown']
+msgid "Comment on own learning plan"
+msgstr ""
+
+#: $string['competency:planmanage']
+msgid "Manage learning plans"
+msgstr ""
+
+#: $string['competency:planmanagedraft']
+msgid "Manage draft learning plans"
+msgstr ""
+
+#: $string['competency:planmanageown']
+msgid "Manage own learning plans"
+msgstr ""
+
+#: $string['competency:planmanageowndraft']
+msgid "Manage own draft learning plans"
+msgstr ""
+
+#: $string['competency:planrequestreview']
+msgid "Request review of a learning plan"
+msgstr ""
+
+#: $string['competency:planrequestreviewown']
+msgid "Request review of own learning plan"
+msgstr ""
+
+#: $string['competency:planreview']
+msgid "Review a learning plan"
+msgstr ""
+
+#: $string['competency:planview']
+msgid "View all learning plans"
+msgstr ""
+
+#: $string['competency:planviewdraft']
+msgid "View draft learning plans"
+msgstr ""
+
+#: $string['competency:planviewown']
+msgid "View own learning plans"
+msgstr ""
+
+#: $string['competency:planviewowndraft']
+msgid "View own draft learning plans"
+msgstr ""
+
+#: $string['competency:templatemanage']
+msgid "Manage learning plan templates"
+msgstr ""
+
+#: $string['competency:templateview']
+msgid "View learning plan templates"
+msgstr ""
+
+#: $string['competency:usercompetencycomment']
+msgid "Comment on a user competency"
+msgstr ""
+
+#: $string['competency:usercompetencycommentown']
+msgid "Comment on own user competency"
+msgstr ""
+
+#: $string['competency:usercompetencyrequestreview']
+msgid "Request review of a user competency"
+msgstr ""
+
+#: $string['competency:usercompetencyrequestreviewown']
+msgid "Request review of own user competency"
+msgstr ""
+
+#: $string['competency:usercompetencyreview']
+msgid "Review a user competency"
+msgstr ""
+
+#: $string['competency:usercompetencyview']
+msgid "View a user competency"
+msgstr ""
+
+#: $string['competency:userevidencemanage']
+msgid "Manage evidence of prior learning"
+msgstr ""
+
+#: $string['competency:userevidencemanageown']
+msgid "Manage own evidence of prior learning"
+msgstr ""
+
+#: $string['competency:userevidenceview']
+msgid "View evidence of prior learning of a user"
+msgstr ""
+
+#: $string['confirmaddadmin']
+msgid ""
+"Do you really want to add user <strong>{$a}</strong> as new site "
+"administrator?"
+msgstr ""
+
+#: $string['confirmdeladmin']
+msgid ""
+"Do you really want to remove user <strong>{$a}</strong> from the list of "
+"site administrators?"
+msgstr ""
+
+#: $string['confirmroleprevent']
+msgid ""
+"Do you really want to remove <strong>\"{$a->role}\"</strong> from the list of "
+"allowed roles for capability \"{$a->cap}\" in context \"{$a->context}\"?"
+msgstr ""
+
+#: $string['confirmroleunprohibit']
+msgid ""
+"Do you really want to remove <strong>\"{$a->role}\"</strong> from the list of "
+"prohibited roles for capability \"{$a->cap}\" in context \"{$a->context}\"?"
+msgstr ""
+
+#: $string['confirmunassign']
+msgid "Are you sure you wish to remove this role from this user?"
+msgstr ""
+
+#: $string['confirmunassignno']
+msgid "Cancel"
+msgstr ""
+
+#: $string['confirmunassigntitle']
+msgid "Confirm role change"
+msgstr ""
+
+#: $string['confirmunassignyes']
+msgid "Remove"
+msgstr ""
+
+#: $string['context']
+msgid "Context"
+msgstr ""
+
+#: $string['course:activityvisibility']
+msgid "Hide/show activities"
+msgstr ""
+
+#: $string['course:bulkmessaging']
+msgid "Send a message to many people"
+msgstr ""
+
+#: $string['course:changecategory']
+msgid "Change course category"
+msgstr ""
+
+#: $string['course:changefullname']
+msgid "Change course full name"
+msgstr ""
+
+#: $string['course:changeidnumber']
+msgid "Change course ID number"
+msgstr ""
+
+#: $string['course:changeshortname']
+msgid "Change course short name"
+msgstr ""
+
+#: $string['course:changesummary']
+msgid "Change course summary"
+msgstr ""
+
+#: $string['course:create']
+msgid "Create courses"
+msgstr ""
+
+#: $string['course:delete']
+msgid "Delete courses"
+msgstr ""
+
+#: $string['course:enrolconfig']
+msgid "Configure enrol instances in courses"
+msgstr ""
+
+#: $string['course:enrolreview']
+msgid "Review course enrolments"
+msgstr ""
+
+#: $string['course:ignoreavailabilityrestrictions']
+msgid "Ignore availability restrictions"
+msgstr ""
+
+#: $string['course:ignorefilesizelimits']
+msgid "Use files larger than any file size restrictions"
+msgstr ""
+
+#: $string['course:isincompletionreports']
+msgid "Be shown on completion reports"
+msgstr ""
+
+#: $string['course:manageactivities']
+msgid "Manage activities"
+msgstr ""
+
+#: $string['course:managefiles']
+msgid "Manage files"
+msgstr ""
+
+#: $string['course:managegrades']
+msgid "Manage grades"
+msgstr ""
+
+#: $string['course:managegroups']
+msgid "Manage groups"
+msgstr ""
+
+#: $string['course:managescales']
+msgid "Manage scales"
+msgstr ""
+
+#: $string['course:markcomplete']
+msgid "Mark users as complete in course completion"
+msgstr ""
+
+#: $string['course:movesections']
+msgid "Move sections"
+msgstr ""
+
+#: $string['course:overridecompletion']
+msgid "Override activity completion status"
+msgstr ""
+
+#: $string['course:publish']
+msgid "Publish a course"
+msgstr ""
+
+#: $string['course:renameroles']
+msgid "Rename roles"
+msgstr ""
+
+#: $string['course:request']
+msgid "Request new courses"
+msgstr ""
+
+#: $string['course:reset']
+msgid "Reset course"
+msgstr ""
+
+#: $string['course:reviewotherusers']
+msgid "Review other users"
+msgstr ""
+
+#: $string['course:sectionvisibility']
+msgid "Control section visibility"
+msgstr ""
+
+#: $string['course:setcurrentsection']
+msgid "Set current section"
+msgstr ""
+
+#: $string['course:tag']
+msgid "Change course tags"
+msgstr ""
+
+#: $string['course:update']
+msgid "Update course settings"
+msgstr ""
+
+#: $string['course:useremail']
+msgid "Enable/disable email address"
+msgstr ""
+
+#: $string['course:view']
+msgid "View courses without participation"
+msgstr ""
+
+#: $string['course:viewcoursegrades']
+msgid "View course grades"
+msgstr ""
+
+#: $string['course:viewhiddenactivities']
+msgid "View hidden activities"
+msgstr ""
+
+#: $string['course:viewhiddencourses']
+msgid "View hidden courses"
+msgstr ""
+
+#: $string['course:viewhiddensections']
+msgid "View hidden sections"
+msgstr ""
+
+#: $string['course:viewhiddenuserfields']
+msgid "View hidden user fields"
+msgstr ""
+
+#: $string['course:viewparticipants']
+msgctxt "$string['course:viewparticipants']"
+msgid "View participants"
+msgstr ""
+
+#: $string['course:viewscales']
+msgid "View scales"
+msgstr ""
+
+#: $string['course:viewsuspendedusers']
+msgid "View suspended users"
+msgstr ""
+
+#: $string['course:visibility']
+msgid "Hide/show courses"
+msgstr ""
+
+#: $string['createrolebycopying']
+msgid "Create a new role by copying {$a}"
+msgstr ""
+
+#: $string['createthisrole']
+msgid "Create this role"
+msgstr ""
+
+#: $string['currentcontext']
+msgid "Current context"
+msgstr ""
+
+#: $string['currentrole']
+msgid "Current role"
+msgstr ""
+
+#: $string['customroledescription']
+msgid "Custom description"
+msgstr ""
+
+#: $string['customroledescription_help']
+msgid ""
+"Descriptions of standard roles are localised automatically if the custom "
+"description is empty."
+msgstr ""
+
+#: $string['customrolename']
+msgid "Custom full name"
+msgstr ""
+
+#: $string['customrolename_help']
+msgid ""
+"Names of standard roles are localised automatically if the custom name is "
+"empty. You must provide a full name for all custom roles."
+msgstr ""
+
+#: $string['defaultrole']
+msgid "Default role"
+msgstr ""
+
+#: $string['defaultx']
+msgid "Default: {$a}"
+msgstr ""
+
+#: $string['defineroles']
+msgid "Define roles"
+msgstr ""
+
+#: $string['deletecourseoverrides']
+msgid "Delete all overrides in course"
+msgstr ""
+
+#: $string['deletelocalroles']
+msgid "Delete all local role assignments"
+msgstr ""
+
+#: $string['deleterolesure']
+msgid ""
+"<p>Are you sure that you want to delete role \"{$a->name} "
+"({$a->shortname})\"?</p><p>Currently this role is assigned to {$a->count} "
+"users.</p>"
+msgstr ""
+
+#: $string['deletexrole']
+msgid "Delete {$a} role"
+msgstr ""
+
+#: $string['duplicaterole']
+msgid "Duplicate role"
+msgstr ""
+
+#: $string['duplicaterolesure']
+msgid ""
+"<p>Are you sure that you want to duplicate role \"{$a->name} "
+"({$a->shortname})\"?</p>"
+msgstr ""
+
+#: $string['editingrolex']
+msgid "Editing role '{$a}'"
+msgstr ""
+
+#: $string['editrole']
+msgid "Edit role"
+msgstr ""
+
+#: $string['editxrole']
+msgid "Edit {$a} role"
+msgstr ""
+
+#: $string['errorbadrolename']
+msgid "Incorrect role name"
+msgstr ""
+
+#: $string['errorbadroleshortname']
+msgid "Incorrect role short name"
+msgstr ""
+
+#: $string['errorexistsrolename']
+msgctxt "$string['errorexistsrolename']"
+msgid "Role name already exists"
+msgstr ""
+
+#: $string['errorexistsroleshortname']
+msgctxt "$string['errorexistsroleshortname']"
+msgid "Role name already exists"
+msgstr ""
+
+#: $string['eventroleallowassignupdated']
+msgid "Allow role assignment"
+msgstr ""
+
+#: $string['eventroleallowoverrideupdated']
+msgid "Allow role override"
+msgstr ""
+
+#: $string['eventroleallowswitchupdated']
+msgid "Allow role switch"
+msgstr ""
+
+#: $string['eventroleallowviewupdated']
+msgid "Allow role view"
+msgstr ""
+
+#: $string['eventroleassigned']
+msgid "Role assigned"
+msgstr ""
+
+#: $string['eventrolecapabilitiesupdated']
+msgid "Role capabilities updated"
+msgstr ""
+
+#: $string['eventroledeleted']
+msgid "Role deleted"
+msgstr ""
+
+#: $string['eventroleunassigned']
+msgid "Role unassigned"
+msgstr ""
+
+#: $string['existingadmins']
+msgid "Current site administrators"
+msgstr ""
+
+#: $string['existingusers']
+msgid "{$a} existing users"
+msgstr ""
+
+#: $string['explanation']
+msgid "Explanation"
+msgstr ""
+
+#: $string['export']
+msgid "Export"
+msgstr ""
+
+#: $string['extusers']
+msgid "Existing users"
+msgstr ""
+
+#: $string['extusersmatching']
+msgid "Existing users matching '{$a}'"
+msgstr ""
+
+#: $string['filter:manage']
+msgid "Manage local filter settings"
+msgstr ""
+
+#: $string['frontpageuser']
+msgid "Authenticated user on frontpage"
+msgstr ""
+
+#: $string['frontpageuserdescription']
+msgid "All logged in users in the frontpage course."
+msgstr ""
+
+#: $string['globalrole']
+msgid "System role"
+msgstr ""
+
+#: $string['globalroleswarning']
+msgid ""
+"WARNING! Any roles you assign from this page will apply to the assigned "
+"users throughout the entire system, including the front page and all the "
+"courses."
+msgstr ""
+
+#: $string['gotoassignroles']
+msgid "Go to Assign roles for this {$a->contextlevel}"
+msgstr ""
+
+#: $string['gotoassignsystemroles']
+msgid "Go to Assign system roles"
+msgstr ""
+
+#: $string['grade:edit']
+msgid "Edit grades"
+msgstr ""
+
+#: $string['grade:export']
+msgid "Export grades"
+msgstr ""
+
+#: $string['grade:hide']
+msgid "Hide/unhide grades or items"
+msgstr ""
+
+#: $string['grade:import']
+msgid "Import grades"
+msgstr ""
+
+#: $string['grade:lock']
+msgid "Lock grades or items"
+msgstr ""
+
+#: $string['grade:manage']
+msgid "Manage grade items"
+msgstr ""
+
+#: $string['grade:managegradingforms']
+msgid "Manage advanced grading methods"
+msgstr ""
+
+#: $string['grade:manageletters']
+msgid "Manage letter grades"
+msgstr ""
+
+#: $string['grade:manageoutcomes']
+msgid "Manage grade outcomes"
+msgstr ""
+
+#: $string['grade:managesharedforms']
+msgid "Manage advanced grading form templates"
+msgstr ""
+
+#: $string['grade:override']
+msgid "Override grades"
+msgstr ""
+
+#: $string['grade:sharegradingforms']
+msgid "Share advanced grading form as a template"
+msgstr ""
+
+#: $string['grade:unlock']
+msgid "Unlock grades or items"
+msgstr ""
+
+#: $string['grade:view']
+msgid "View own grades"
+msgstr ""
+
+#: $string['grade:viewall']
+msgid "View grades of other users"
+msgstr ""
+
+#: $string['grade:viewhidden']
+msgid "View hidden grades for owner"
+msgstr ""
+
+#: $string['highlightedcellsshowdefault']
+msgid ""
+"The permissions highlighted in the table below are the defaults for the role "
+"archetype currently selected above."
+msgstr ""
+
+#: $string['highlightedcellsshowinherit']
+msgid ""
+"The highlighted cells in the table below show the permission (if any) that "
+"will be inherited. Apart from the capabilities whose permission you actually "
+"want to alter, you should leave everything set to Inherit."
+msgstr ""
+
+#: $string['inactiveformorethan']
+msgid "inactive for more than {$a->timeperiod}"
+msgstr ""
+
+#: $string['ingroup']
+msgid "in the group \"{$a->group}\""
+msgstr ""
+
+#: $string['inherit']
+msgid "Inherit"
+msgstr ""
+
+#: $string['invalidpresetfile']
+msgid "Invalid role definition file"
+msgstr ""
+
+#: $string['legacy:admin']
+msgid "LEGACY ROLE: Administrator"
+msgstr ""
+
+#: $string['legacy:coursecreator']
+msgid "LEGACY ROLE: Course creator"
+msgstr ""
+
+#: $string['legacy:editingteacher']
+msgid "LEGACY ROLE: Teacher (editing)"
+msgstr ""
+
+#: $string['legacy:guest']
+msgid "LEGACY ROLE: Guest"
+msgstr ""
+
+#: $string['legacy:student']
+msgid "LEGACY ROLE: Student"
+msgstr ""
+
+#: $string['legacy:teacher']
+msgid "LEGACY ROLE: Teacher (non-editing)"
+msgstr ""
+
+#: $string['legacytype']
+msgid "Legacy role type"
+msgstr ""
+
+#: $string['legacy:user']
+msgid "LEGACY ROLE: Authenticated user"
+msgstr ""
+
+#: $string['listallroles']
+msgid "List all roles"
+msgstr ""
+
+#: $string['localroles']
+msgid "Locally assigned roles"
+msgstr ""
+
+#: $string['mainadmin']
+msgid "Main administrator"
+msgstr ""
+
+#: $string['mainadminset']
+msgid "Set main admin"
+msgstr ""
+
+#: $string['manageadmins']
+msgid "Manage site administrators"
+msgstr ""
+
+#: $string['manager']
+msgid "Manager"
+msgstr ""
+
+#: $string['managerdescription']
+msgid ""
+"Managers can access course and modify them, they usually do not participate "
+"in courses."
+msgstr ""
+
+#: $string['manageroles']
+msgid "Manage roles"
+msgstr ""
+
+#: $string['maybeassignedin']
+msgid "Context types where this role may be assigned"
+msgstr ""
+
+#: $string['morethan']
+msgid "More than {$a}"
+msgstr ""
+
+#: $string['multipleroles']
+msgid "Multiple roles"
+msgstr ""
+
+#: $string['my:configsyspages']
+msgid "Configure system templates for Dashboard pages"
+msgstr ""
+
+#: $string['my:manageblocks']
+msgid "Manage Dashboard page blocks"
+msgstr ""
+
+#: $string['neededroles']
+msgid "Roles with permission"
+msgstr ""
+
+#: $string['nocapabilitiesincontext']
+msgid "No capabilities available in this context"
+msgstr ""
+
+#: $string['noneinthisx']
+msgid "None in this {$a}"
+msgstr ""
+
+#: $string['noneinthisxmatching']
+msgid "No users matching '{$a->search}' in this {$a->contexttype}"
+msgstr ""
+
+#: $string['norole']
+msgid "No role"
+msgstr ""
+
+#: $string['noroleassignments']
+msgid "This user does not have any role assignments anywhere in this site."
+msgstr ""
+
+#: $string['noroles']
+msgctxt "$string['noroles']"
+msgid "No roles"
+msgstr ""
+
+#: $string['notabletoassignroleshere']
+msgid ""
+"Assigning of roles in this context has not been enabled by an administrator."
+msgstr ""
+
+#: $string['notabletooverrideroleshere']
+msgid "You are not able to override the permissions on any roles here"
+msgstr ""
+
+#: $string['notes:manage']
+msgid "Manage notes"
+msgstr ""
+
+#: $string['notes:view']
+msgid "View notes"
+msgstr ""
+
+#: $string['notset']
+msgid "Not set"
+msgstr ""
+
+#: $string['novisibleroles']
+msgctxt "$string['novisibleroles']"
+msgid "No roles"
+msgstr ""
+
+#: $string['overrideanotherrole']
+msgid "Override another role"
+msgstr ""
+
+#: $string['overridecontext']
+msgid "Override context"
+msgstr ""
+
+#: $string['overridepermissions']
+msgid "Override permissions"
+msgstr ""
+
+#: $string['overridepermissionsforrole']
+msgid "Override permissions for role '{$a->role}' in {$a->context}"
+msgstr ""
+
+#: $string['overridepermissions_help']
+msgid ""
+"Permissions overrides enable selected capabilities to be allowed or "
+"prevented in a specific context."
+msgstr ""
+
+#: $string['overridepermissionsin']
+msgid "Override permissions in {$a}"
+msgstr ""
+
+#: $string['overridepermissions_link']
+msgid "admin/roles/override"
+msgstr ""
+
+#: $string['overrideroles']
+msgid "Override roles"
+msgstr ""
+
+#: $string['overriderolesin']
+msgid "Override roles in {$a}"
+msgstr ""
+
+#: $string['overrides']
+msgid "Overrides"
+msgstr ""
+
+#: $string['overridesbycontext']
+msgid "Overrides (by context)"
+msgstr ""
+
+#: $string['permission']
+msgid "Permission"
+msgstr ""
+
+#: $string['permission_help']
+msgid ""
+"Permissions are capability settings. There are 4 options:\n"
+"\n"
+"* Not set\n"
+"* Allow - Permission is granted for the capability\n"
+"* Prevent - Permission is removed for the capability, even if allowed in a "
+"higher context\n"
+"* Prohibit - Permission is completely denied  and cannot be overridden at "
+"any lower (more specific) context"
+msgstr ""
+
+#: $string['permissions']
+msgid "Permissions"
+msgstr ""
+
+#: $string['permissionsforuser']
+msgid "Permissions for user {$a}"
+msgstr ""
+
+#: $string['permissionsincontext']
+msgid "Permissions in {$a}"
+msgstr ""
+
+#: $string['portfolio:export']
+msgid "Export to portfolios"
+msgstr ""
+
+#: $string['potentialusers']
+msgid "{$a} potential users"
+msgstr ""
+
+#: $string['potusers']
+msgid "Potential users"
+msgstr ""
+
+#: $string['potusersmatching']
+msgid "Potential users matching '{$a}'"
+msgstr ""
+
+#: $string['prevent']
+msgid "Prevent"
+msgstr ""
+
+#: $string['prohibit']
+msgid "Prohibit"
+msgstr ""
+
+#: $string['prohibitedroles']
+msgid "Prohibited"
+msgstr ""
+
+#: $string['question:add']
+msgid "Add new questions"
+msgstr ""
+
+#: $string['question:config']
+msgid "Configure question types"
+msgstr ""
+
+#: $string['question:editall']
+msgid "Edit all questions"
+msgstr ""
+
+#: $string['question:editmine']
+msgid "Edit your own questions"
+msgstr ""
+
+#: $string['question:flag']
+msgid "Flag questions while attempting them"
+msgstr ""
+
+#: $string['question:managecategory']
+msgid "Edit question categories"
+msgstr ""
+
+#: $string['question:moveall']
+msgid "Move all questions"
+msgstr ""
+
+#: $string['question:movemine']
+msgid "Move your own questions"
+msgstr ""
+
+#: $string['question:useall']
+msgid "Use all questions"
+msgstr ""
+
+#: $string['question:usemine']
+msgid "Use your own questions"
+msgstr ""
+
+#: $string['question:viewall']
+msgid "View all questions"
+msgstr ""
+
+#: $string['question:viewmine']
+msgid "View your own questions"
+msgstr ""
+
+#: $string['rating:rate']
+msgid "Add ratings to items"
+msgstr ""
+
+#: $string['rating:view']
+msgid "View the total rating you received"
+msgstr ""
+
+#: $string['rating:viewall']
+msgid "View all raw ratings given by individuals"
+msgstr ""
+
+#: $string['rating:viewany']
+msgid "View total ratings that anyone received"
+msgstr ""
+
+#: $string['resetrole']
+msgid "Reset"
+msgstr ""
+
+#: $string['resettingrole']
+msgid "Resetting role '{$a}'"
+msgstr ""
+
+#: $string['restore:configure']
+msgid "Configure restore options"
+msgstr ""
+
+#: $string['restore:createuser']
+msgid "Create users on restore"
+msgstr ""
+
+#: $string['restore:restoreactivity']
+msgid "Restore activities"
+msgstr ""
+
+#: $string['restore:restorecourse']
+msgctxt "$string['restore:restorecourse']"
+msgid "Restore courses"
+msgstr ""
+
+#: $string['restore:restoresection']
+msgid "Restore sections"
+msgstr ""
+
+#: $string['restore:restoretargethub']
+msgid "Restore courses downloaded from Moodle.net"
+msgstr ""
+
+#: $string['restore:restoretargetimport']
+msgid "Restore from files targeted as import"
+msgstr ""
+
+#: $string['restore:rolldates']
+msgid "Allowed to roll activity configuration dates on restore"
+msgstr ""
+
+#: $string['restore:uploadfile']
+msgid "Upload files to backup areas"
+msgstr ""
+
+#: $string['restore:userinfo']
+msgid "Restore user data"
+msgstr ""
+
+#: $string['restore:viewautomatedfilearea']
+msgid "Restore courses from automated backups"
+msgstr ""
+
+#: $string['risks']
+msgid "Risks"
+msgstr ""
+
+#: $string['roleallowheader']
+msgid "Allow role:"
+msgstr ""
+
+#: $string['roleallowinfo']
+msgid ""
+"Select a role to be added to the list of allowed roles in context "
+"\"{$a->context}\", capability \"{$a->cap}\":"
+msgstr ""
+
+#: $string['role:assign']
+msgid "Assign roles to users"
+msgstr ""
+
+#: $string['roleassignments']
+msgid "Role assignments"
+msgstr ""
+
+#: $string['roledefinitions']
+msgid "Role definitions"
+msgstr ""
+
+#: $string['rolefullname']
+msgid "Role name"
+msgstr ""
+
+#: $string['roleincontext']
+msgid "{$a->role} in {$a->context}"
+msgstr ""
+
+#: $string['role:manage']
+msgid "Create and manage roles"
+msgstr ""
+
+#: $string['role:override']
+msgid "Override permissions for others"
+msgstr ""
+
+#: $string['roleprohibitheader']
+msgid "Prohibit role"
+msgstr ""
+
+#: $string['roleprohibitinfo']
+msgid ""
+"Select a role to be added to the list of prohibited roles in context "
+"\"{$a->context}\", capability \"{$a->cap}\":"
+msgstr ""
+
+#: $string['rolerepreset']
+msgid "Use role preset"
+msgstr ""
+
+#: $string['roleresetdefaults']
+msgid "Defaults"
+msgstr ""
+
+#: $string['roleresetrole']
+msgid "Use role or archetype"
+msgstr ""
+
+#: $string['role:review']
+msgid "Review permissions for others"
+msgstr ""
+
+#: $string['rolerisks']
+msgid "Role risks"
+msgstr ""
+
+#: $string['roles']
+msgid "Roles"
+msgstr ""
+
+#: $string['role:safeoverride']
+msgid "Override safe permissions for others"
+msgstr ""
+
+#: $string['roleselect']
+msgid "Select role"
+msgstr ""
+
+#: $string['rolesforuser']
+msgid "Roles for user {$a}"
+msgstr ""
+
+#: $string['roles_help']
+msgid ""
+"A role is a collection of permissions defined for the whole system that you "
+"can assign to specific users in specific contexts."
+msgstr ""
+
+#: $string['roleshortname']
+msgid "Short name"
+msgstr ""
+
+#: $string['roleshortname_help']
+msgid ""
+"Role short name is a low level role identifier in which only ASCII "
+"alphanumeric characters are allowed. Do not change short names of standard "
+"roles."
+msgstr ""
+
+#: $string['roles_link']
+msgid "roles"
+msgstr ""
+
+#: $string['role:switchroles']
+msgid "Switch to other roles"
+msgstr ""
+
+#: $string['roletoassign']
+msgid "Role to assign"
+msgstr ""
+
+#: $string['roletooverride']
+msgid "Role to override"
+msgstr ""
+
+#: $string['safeoverridenotice']
+msgid ""
+"Note: Capabilities with higher risks are locked because you are only allowed "
+"to override safe capabilities."
+msgstr ""
+
+#: $string['search:query']
+msgid "Perform site-wide searches"
+msgstr ""
+
+#: $string['selectanotheruser']
+msgid "Select another user"
+msgstr ""
+
+#: $string['selectauser']
+msgid "Select a user"
+msgstr ""
+
+#: $string['selectrole']
+msgid "Select a role"
+msgstr ""
+
+#: $string['showallroles']
+msgid "Show all roles"
+msgstr ""
+
+#: $string['showthisuserspermissions']
+msgid "Show this user's permissions"
+msgstr ""
+
+#: $string['site:accessallgroups']
+msgid "Access all groups"
+msgstr ""
+
+#: $string['siteadministrators']
+msgid "Site administrators"
+msgstr ""
+
+#: $string['site:approvecourse']
+msgid "Approve course creation"
+msgstr ""
+
+#: $string['site:backup']
+msgctxt "$string['site:backup']"
+msgid "Backup courses"
+msgstr ""
+
+#: $string['site:config']
+msgid "Change site configuration"
+msgstr ""
+
+#: $string['site:configview']
+msgid "View the site administration tree (but not all the pages in it)"
+msgstr ""
+
+#: $string['site:deleteanymessage']
+msgid "Delete any messages on the site"
+msgstr ""
+
+#: $string['site:deleteownmessage']
+msgid "Delete messages sent by and to the user"
+msgstr ""
+
+#: $string['site:doanything']
+msgid "Allowed to do everything"
+msgstr ""
+
+#: $string['site:doclinks']
+msgid "Show links to offsite docs"
+msgstr ""
+
+#: $string['site:forcelanguage']
+msgid "Override course language"
+msgstr ""
+
+#: $string['site:import']
+msgid "Import other courses into a course"
+msgstr ""
+
+#: $string['site:maintenanceaccess']
+msgid "Access site while in maintenance mode"
+msgstr ""
+
+#: $string['site:manageallmessaging']
+msgid "Add, remove, block and unblock contacts for any user"
+msgstr ""
+
+#: $string['site:manageblocks']
+msgid "Manage blocks on a page"
+msgstr ""
+
+#: $string['site:mnetloginfromremote']
+msgid "Login from a remote application via MNet"
+msgstr ""
+
+#: $string['site:mnetlogintoremote']
+msgid "Roam to a remote application via MNet"
+msgstr ""
+
+#: $string['site:readallmessages']
+msgid "Read all messages on site"
+msgstr ""
+
+#: $string['site:restore']
+msgctxt "$string['site:restore']"
+msgid "Restore courses"
+msgstr ""
+
+#: $string['site:sendmessage']
+msgid "Send messages to any user"
+msgstr ""
+
+#: $string['site:trustcontent']
+msgid "Trust submitted content"
+msgstr ""
+
+#: $string['site:uploadusers']
+msgid "Upload new users from file"
+msgstr ""
+
+#: $string['site:viewfullnames']
+msgid "Always see full names of users"
+msgstr ""
+
+#: $string['site:viewparticipants']
+msgctxt "$string['site:viewparticipants']"
+msgid "View participants"
+msgstr ""
+
+#: $string['site:viewreports']
+msgid "View reports"
+msgstr ""
+
+#: $string['site:viewuseridentity']
+msgid "See full user identity in lists"
+msgstr ""
+
+#: $string['tag:edit']
+msgid "Edit existing tags"
+msgstr ""
+
+#: $string['tag:editblocks']
+msgid "Edit blocks in tags pages"
+msgstr ""
+
+#: $string['tag:flag']
+msgid "Flag tags as inappropriate"
+msgstr ""
+
+#: $string['tag:manage']
+msgid "Manage all tags"
+msgstr ""
+
+#: $string['thisnewrole']
+msgid "This new role"
+msgstr ""
+
+#: $string['thisusersroles']
+msgid "This user's role assignments"
+msgstr ""
+
+#: $string['unassignarole']
+msgid "Unassign role {$a}"
+msgstr ""
+
+#: $string['unassignconfirm']
+msgid ""
+"Do you really want to unassign \"{$a->role}\" role from user \"{$a->user}\"?"
+msgstr ""
+
+#: $string['unassignerror']
+msgid "Error while unassigning the role {$a->role} from user {$a->user}."
+msgstr ""
+
+#: $string['user:changeownpassword']
+msgid "Change own password"
+msgstr ""
+
+#: $string['user:create']
+msgid "Create users"
+msgstr ""
+
+#: $string['user:delete']
+msgid "Delete users"
+msgstr ""
+
+#: $string['user:editmessageprofile']
+msgid "Edit user messaging profile"
+msgstr ""
+
+#: $string['user:editownmessageprofile']
+msgid "Edit own user messaging profile"
+msgstr ""
+
+#: $string['user:editownprofile']
+msgid "Edit own user profile"
+msgstr ""
+
+#: $string['user:editprofile']
+msgid "Edit user profile"
+msgstr ""
+
+#: $string['user:ignoreuserquota']
+msgid "Ignore user quota limit"
+msgstr ""
+
+#: $string['user:loginas']
+msgid "Login as other users"
+msgstr ""
+
+#: $string['user:manageblocks']
+msgid "Manage blocks on user profile of other users"
+msgstr ""
+
+#: $string['user:manageownblocks']
+msgid "Manage blocks on own public user profile"
+msgstr ""
+
+#: $string['user:manageownfiles']
+msgid "Manage files on own private file areas"
+msgstr ""
+
+#: $string['user:managesyspages']
+msgid "Configure default page layout for public user profiles"
+msgstr ""
+
+#: $string['user:readuserblogs']
+msgid "View all user blogs"
+msgstr ""
+
+#: $string['user:readuserposts']
+msgid "View all user forum posts"
+msgstr ""
+
+#: $string['usersfrom']
+msgid "Users from {$a}"
+msgstr ""
+
+#: $string['usersfrommatching']
+msgid "Users from {$a->contextname} matching '{$a->search}'"
+msgstr ""
+
+#: $string['usersinthisx']
+msgid "Users in this {$a}"
+msgstr ""
+
+#: $string['usersinthisxmatching']
+msgid "Users in this {$a->contexttype} matching '{$a->search}'"
+msgstr ""
+
+#: $string['userswithrole']
+msgid "All users with a role"
+msgstr ""
+
+#: $string['userswiththisrole']
+msgid "Users with role"
+msgstr ""
+
+#: $string['user:update']
+msgid "Update user profiles"
+msgstr ""
+
+#: $string['user:viewalldetails']
+msgid "View user full information"
+msgstr ""
+
+#: $string['user:viewdetails']
+msgid "View user profiles"
+msgstr ""
+
+#: $string['user:viewhiddendetails']
+msgid "View hidden details of users"
+msgstr ""
+
+#: $string['user:viewlastip']
+msgid "View user last ip address"
+msgstr ""
+
+#: $string['user:viewuseractivitiesreport']
+msgid "See user activity reports"
+msgstr ""
+
+#: $string['user:viewusergrades']
+msgid "View user grades"
+msgstr ""
+
+#: $string['useshowadvancedtochange']
+msgid "Use 'Show advanced' to change"
+msgstr ""
+
+#: $string['viewingdefinitionofrolex']
+msgid "Viewing the definition of role '{$a}'"
+msgstr ""
+
+#: $string['viewrole']
+msgid "View role details"
+msgstr ""
+
+#: $string['webservice:createmobiletoken']
+msgid "Create a web service token for mobile access"
+msgstr ""
+
+#: $string['webservice:createtoken']
+msgid "Create a web service token"
+msgstr ""
+
+#: $string['webservice:managealltokens']
+msgid "Manage all users' web service tokens"
+msgstr ""
+
+#: $string['whydoesuserhavecap']
+msgid ""
+"Why does {$a->fullname} have capability {$a->capability} in context "
+"{$a->context}?"
+msgstr ""
+
+#: $string['whydoesusernothavecap']
+msgid ""
+"Why does {$a->fullname} not have capability {$a->capability} in context "
+"{$a->context}?"
+msgstr ""
+
+#: $string['xroleassignments']
+msgid "{$a}'s role assignments"
+msgstr ""
+
+#: $string['xuserswiththerole']
+msgid "Users with the role \"{$a->role}\""
+msgstr ""

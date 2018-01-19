@@ -1,0 +1,742 @@
+#. extracted from lang/en/portfolio.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'portfolio', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   portfolio
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['activeexport']
+msgid "Resolve active export"
+msgstr ""
+
+#: $string['activeportfolios']
+msgid "Available portfolios"
+msgstr ""
+
+#: $string['addalltoportfolio']
+msgid "Export all to portfolio"
+msgstr ""
+
+#: $string['addnewportfolio']
+msgid "Add a new portfolio"
+msgstr ""
+
+#: $string['addtoportfolio']
+msgid "Export to portfolio"
+msgstr ""
+
+#: $string['alreadyalt']
+msgid "Already exporting - please click here to resolve this transfer"
+msgstr ""
+
+#: $string['alreadyexporting']
+msgid ""
+"You already have an active portfolio export in this session. Before "
+"continuing, you must either complete this export, or cancel it.  Would you "
+"like to continue it? (No will cancel it)"
+msgstr ""
+
+#: $string['availableformats']
+msgid "Available export formats"
+msgstr ""
+
+#: $string['callbackclassinvalid']
+msgid ""
+"Callback class specified was invalid or not part of the portfolio_caller "
+"hierarchy"
+msgstr ""
+
+#: $string['callercouldnotpackage']
+msgctxt "$string['callercouldnotpackage']"
+msgid "Failed to package up your data for export: original error was {$a}"
+msgstr ""
+
+#: $string['cannotsetvisible']
+msgid ""
+"Cannot set this to visible - the plugin has been completely disabled because "
+"of a misconfiguration"
+msgstr ""
+
+#: $string['commonportfoliosettings']
+msgid "Common portfolio settings"
+msgstr ""
+
+#: $string['commonsettingsdesc']
+msgid ""
+"<p>Whether a transfer is considered to take a 'Moderate' or 'High' amount of "
+"time changes whether the user is able to wait for the transfer to complete "
+"or not.</p><p>Sizes up to the 'Moderate' threshold just happen immediately "
+"without the user being asked, and 'Moderate' and 'High' transfers mean they "
+"are offered the option but warned it might take some "
+"time.</p><p>Additionally, some portfolio plugins might ignore this option "
+"completely and force all transfers to be queued.</p>"
+msgstr ""
+
+#: $string['configexport']
+msgid "Configure exported data"
+msgstr ""
+
+#: $string['configplugin']
+msgid "Configure portfolio plugin"
+msgstr ""
+
+#: $string['configure']
+msgid "Configure"
+msgstr ""
+
+#: $string['confirmcancel']
+msgid "Are you sure you wish you cancel this export?"
+msgstr ""
+
+#: $string['confirmexport']
+msgid "Please confirm this export"
+msgstr ""
+
+#: $string['confirmsummary']
+msgid "Summary of your export"
+msgstr ""
+
+#: $string['continuetoportfolio']
+msgid "Continue to your portfolio"
+msgstr ""
+
+#: $string['deleteportfolio']
+msgid "Delete portfolio instance"
+msgstr ""
+
+#: $string['destination']
+msgid "Destination"
+msgstr ""
+
+#: $string['disabled']
+msgid "Sorry, but portfolio exports are not enabled in this site"
+msgstr ""
+
+#: $string['disabledinstance']
+msgid "Disabled"
+msgstr ""
+
+#: $string['displayarea']
+msgid "Export area"
+msgstr ""
+
+#: $string['displayexpiry']
+msgid "Transfer expiry time"
+msgstr ""
+
+#: $string['displayinfo']
+msgid "Export info"
+msgstr ""
+
+#: $string['dontwait']
+msgid "Don't wait"
+msgstr ""
+
+#: $string['enabled']
+msgid "Enable portfolios"
+msgstr ""
+
+#: $string['enableddesc']
+msgid ""
+"If enabled, users can export content, such as forum posts and assignment "
+"submissions, to external portfolios or HTML pages."
+msgstr ""
+
+#: $string['err_uniquename']
+msgid "Portfolio name must be unique (per plugin)"
+msgstr ""
+
+#: $string['exportalreadyfinished']
+msgctxt "$string['exportalreadyfinished']"
+msgid "Portfolio export complete!"
+msgstr ""
+
+#: $string['exportalreadyfinisheddesc']
+msgctxt "$string['exportalreadyfinisheddesc']"
+msgid "Portfolio export complete!"
+msgstr ""
+
+#: $string['exportcomplete']
+msgctxt "$string['exportcomplete']"
+msgid "Portfolio export complete!"
+msgstr ""
+
+#: $string['exportedpreviously']
+msgid "Previous exports"
+msgstr ""
+
+#: $string['exportexceptionnoexporter']
+msgid ""
+"A portfolio_export_exception was thrown with an active session but no "
+"exporter object"
+msgstr ""
+
+#: $string['exportexpired']
+msgid "Portfolio export expired"
+msgstr ""
+
+#: $string['exportexpireddesc']
+msgid ""
+"You tried to repeat the export of some information, or start an empty "
+"export. To do that properly you should go back to the original location and "
+"start again. This sometimes happens if you use the back button after an "
+"export has completed, or by bookmarking an invalid url."
+msgstr ""
+
+#: $string['exporting']
+msgid "Exporting to portfolio"
+msgstr ""
+
+#: $string['exportingcontentfrom']
+msgid "Exporting content from {$a}"
+msgstr ""
+
+#: $string['exportingcontentto']
+msgid "Exporting content to {$a}"
+msgstr ""
+
+#: $string['exportqueued']
+msgid "Portfolio export has been successfully queued for transfer"
+msgstr ""
+
+#: $string['exportqueuedforced']
+msgid ""
+"Portfolio export has been successfully queued for transfer (the remote "
+"system has enforced queued transfers)"
+msgstr ""
+
+#: $string['failedtopackage']
+msgid "Could not find files to package"
+msgstr ""
+
+#: $string['failedtosendpackage']
+msgid ""
+"Failed to send your data to the selected portfolio system: original error "
+"was {$a}"
+msgstr ""
+
+#: $string['filedenied']
+msgid "Access denied to this file"
+msgstr ""
+
+#: $string['filenotfound']
+msgid "File not found"
+msgstr ""
+
+#: $string['fileoutputnotsupported']
+msgid "Rewriting file output is not supported for this format"
+msgstr ""
+
+#: $string['format_document']
+msgid "Document"
+msgstr ""
+
+#: $string['format_file']
+msgid "File"
+msgstr ""
+
+#: $string['format_image']
+msgid "Image"
+msgstr ""
+
+#: $string['format_leap2a']
+msgid "Leap2A portfolio format"
+msgstr ""
+
+#: $string['format_mbkp']
+msgid "Moodle backup format"
+msgstr ""
+
+#: $string['format_pdf']
+msgid "PDF"
+msgstr ""
+
+#: $string['format_plainhtml']
+msgid "HTML"
+msgstr ""
+
+#: $string['format_presentation']
+msgid "Presentation"
+msgstr ""
+
+#: $string['format_richhtml']
+msgid "HTML with attachments"
+msgstr ""
+
+#: $string['format_spreadsheet']
+msgid "Spreadsheet"
+msgstr ""
+
+#: $string['format_text']
+msgid "Plain text"
+msgstr ""
+
+#: $string['format_video']
+msgid "Video"
+msgstr ""
+
+#: $string['highdbsizethreshold']
+msgid "High transfer dbsize"
+msgstr ""
+
+#: $string['highdbsizethresholddesc']
+msgid ""
+"Number of db records over which will be considered to take a high amount of "
+"time to transfer"
+msgstr ""
+
+#: $string['highfilesizethreshold']
+msgid "High transfer filesize"
+msgstr ""
+
+#: $string['highfilesizethresholddesc']
+msgid ""
+"Filesizes over this threshold will be considered to take a high amount of "
+"time to transfer"
+msgstr ""
+
+#: $string['insanebody']
+msgid ""
+"Hi! You are receiving this message as an administrator of {$a->sitename}.\n"
+"\n"
+"Some portfolio plugin instances have been automatically disabled due to "
+"misconfigurations. This means that users can not currently export content to "
+"these portfolios.\n"
+"\n"
+"The list of portfolio plugin instances that have been disabled is:\n"
+"\n"
+"{$a->textlist}\n"
+"\n"
+"This should be corrected as soon as possible, by visiting {$a->fixurl}."
+msgstr ""
+
+#: $string['insanebodyhtml']
+msgid ""
+"<p>Hi! You are receiving this message as an administrator of "
+"{$a->sitename}.</p>\n"
+"<p>Some portfolio plugin instances have been automatically disabled due to "
+"misconfigurations. This means that users can not currently export content to "
+"these portfolios.</p>\n"
+"<p>The list of portfolio plugin instances that have been disabled is:</p>\n"
+"{$a->htmllist}\n"
+"<p>This should be corrected as soon as possible, by visiting <a "
+"href=\"{$a->fixurl}\">the portfolio configuration pages</a></p>"
+msgstr ""
+
+#: $string['insanebodysmall']
+msgid ""
+"Hi! You are receiving this message as an administrator of {$a->sitename}. "
+"Some portfolio plugin instances have been automatically disabled due to "
+"misconfigurations. This means that users can not currently export content to "
+"these portfolios. This should be corrected as soon as possible, by visiting "
+"{$a->fixurl}."
+msgstr ""
+
+#: $string['insanesubject']
+msgid "Some portfolio instances automatically disabled"
+msgstr ""
+
+#: $string['instancedeleted']
+msgid "Portfolio deleted successfully"
+msgstr ""
+
+#: $string['instanceismisconfigured']
+msgid "Portfolio instance is misconfigured, skipping. Error was: {$a}"
+msgstr ""
+
+#: $string['instancenotdelete']
+msgid "Failed to delete portfolio"
+msgstr ""
+
+#: $string['instancenotsaved']
+msgid "Failed to save portfolio"
+msgstr ""
+
+#: $string['instancesaved']
+msgid "Portfolio saved successfully"
+msgstr ""
+
+#: $string['intro']
+msgid ""
+"Content which you have created, such as assignment submissions, forum posts "
+"and blog entries, can be exported to a portfolio or downloaded.<br>\n"
+"Any portfolio that you do not wish to use may be hidden so that it is not "
+"listed as an option to export content to."
+msgstr ""
+
+#: $string['invalidaddformat']
+msgid ""
+"Invalid add format passed to portfolio_add_button. ({$a}) Must be one of "
+"PORTFOLIO_ADD_XXX"
+msgstr ""
+
+#: $string['invalidbuttonproperty']
+msgid "Could not find that property ({$a}) of portfolio_button"
+msgstr ""
+
+#: $string['invalidconfigproperty']
+msgid "Could not find that config property ({$a->property} of {$a->class})"
+msgstr ""
+
+#: $string['invalidexportproperty']
+msgid ""
+"Could not find that export config property ({$a->property} of {$a->class})"
+msgstr ""
+
+#: $string['invalidfileareaargs']
+msgid ""
+"Invalid file area arguments passed to set_file_and_format_data - must "
+"contain contextid, component, filearea and itemid"
+msgstr ""
+
+#: $string['invalidformat']
+msgid "Something is exporting an invalid format, {$a}"
+msgstr ""
+
+#: $string['invalidinstance']
+msgid "Could not find that portfolio instance"
+msgstr ""
+
+#: $string['invalidpreparepackagefile']
+msgid ""
+"Invalid call to prepare_package_file - either single or multifiles must be "
+"set"
+msgstr ""
+
+#: $string['invalidproperty']
+msgid "Could not find that property ({$a->property} of {$a->class})"
+msgstr ""
+
+#: $string['invalidsha1file']
+msgid "Invalid call to get_sha1_file - either single or multifiles must be set"
+msgstr ""
+
+#: $string['invalidtempid']
+msgid "Invalid export id. Maybe it has expired"
+msgstr ""
+
+#: $string['invaliduserproperty']
+msgid ""
+"Could not find that user config property ({$a->property} of {$a->class})"
+msgstr ""
+
+#: $string['leap2a_emptyselection']
+msgid "Required value not selected"
+msgstr ""
+
+#: $string['leap2a_entryalreadyexists']
+msgid ""
+"You tried to add a Leap2A entry with an id ({$a}) that already exists in "
+"this feed"
+msgstr ""
+
+#: $string['leap2a_feedtitle']
+msgid "Leap2A export from Moodle for {$a}"
+msgstr ""
+
+#: $string['leap2a_filecontent']
+msgid ""
+"Tried to set the content of a Leap2A entry to a file, rather than using the "
+"file subclass"
+msgstr ""
+
+#: $string['leap2a_invalidentryfield']
+msgid ""
+"You tried to set an entry field that didn't exist ({$a}) or you can't set "
+"directly"
+msgstr ""
+
+#: $string['leap2a_invalidentryid']
+msgid "You tried to access an entry by an id that didn't exist ({$a})"
+msgstr ""
+
+#: $string['leap2a_missingfield']
+msgid "Required Leap2A entry field {$a} missing"
+msgstr ""
+
+#: $string['leap2a_nonexistantlink']
+msgid ""
+"A Leap2A entry ({$a->from}) tried to link to a non existing entry ({$a->to}) "
+"with rel {$a->rel}"
+msgstr ""
+
+#: $string['leap2a_overwritingselection']
+msgid ""
+"Overwriting the original type of an entry ({$a}) to selection in "
+"make_selection"
+msgstr ""
+
+#: $string['leap2a_selflink']
+msgid "A Leap2A entry ({$a->id}) tried to link to itself with rel {$a->rel}"
+msgstr ""
+
+#: $string['logs']
+msgid "Transfer logs"
+msgstr ""
+
+#: $string['logsummary']
+msgid "Previous successful transfers"
+msgstr ""
+
+#: $string['manageportfolios']
+msgid "Manage portfolios"
+msgstr ""
+
+#: $string['manageyourportfolios']
+msgid "Manage your portfolios"
+msgstr ""
+
+#: $string['mimecheckfail']
+msgid ""
+"The portfolio plugin {$a->plugin} doesn't support that mimetype "
+"{$a->mimetype}"
+msgstr ""
+
+#: $string['missingcallbackarg']
+msgid "Missing callback argument {$a->arg} for class {$a->class}"
+msgstr ""
+
+#: $string['moderatedbsizethreshold']
+msgid "Moderate transfer dbsize"
+msgstr ""
+
+#: $string['moderatedbsizethresholddesc']
+msgid ""
+"Number of db records over which will be considered to take a moderate amount "
+"of time to transfer"
+msgstr ""
+
+#: $string['moderatefilesizethreshold']
+msgid "Moderate transfer filesize"
+msgstr ""
+
+#: $string['moderatefilesizethresholddesc']
+msgid ""
+"Filesizes over this threshold will be considered to take a moderate amount "
+"of time to transfer"
+msgstr ""
+
+#: $string['multipleinstancesdisallowed']
+msgid ""
+"Trying to create another instance of a plugin that has disallowed multiple "
+"instances ({$a})"
+msgstr ""
+
+#: $string['mustsetcallbackoptions']
+msgid ""
+"You must set the callback options either in the portfolio_add_button "
+"constructor or using the set_callback_options method"
+msgstr ""
+
+#: $string['noavailableplugins']
+msgid "Sorry, but there are no available portfolios for you to export to"
+msgstr ""
+
+#: $string['nocallbackclass']
+msgid "Could not find the callback class to use ({$a})"
+msgstr ""
+
+#: $string['nocallbackcomponent']
+msgid "Could not find the component specified {$a}."
+msgstr ""
+
+#: $string['nocallbackfile']
+msgid ""
+"Something in the module you're trying to export from is broken - couldn't "
+"find a required portfolio file"
+msgstr ""
+
+#: $string['noclassbeforeformats']
+msgid ""
+"You must set the callback class before calling set_formats in "
+"portfolio_button"
+msgstr ""
+
+#: $string['nocommonformats']
+msgid ""
+"No common formats between any available portfolio plugin and the calling "
+"location {$a->location} (caller supported {$a->formats})"
+msgstr ""
+
+#: $string['noinstanceyet']
+msgctxt "$string['noinstanceyet']"
+msgid "Not yet selected"
+msgstr ""
+
+#: $string['nologs']
+msgid "There are no logs to display!"
+msgstr ""
+
+#: $string['nomultipleexports']
+msgid ""
+"Sorry, but the portfolio destination ({$a->plugin}) doesn't support multiple "
+"exports at the same time. Please <a href=\"{$a->link}\">finish the current "
+"one first</a> and try again"
+msgstr ""
+
+#: $string['nonprimative']
+msgid ""
+"A non primitive value was passed as a callback argument to "
+"portfolio_add_button. Refusing to continue. The key was {$a->key} and the "
+"value was {$a->value}"
+msgstr ""
+
+#: $string['nopermissions']
+msgid ""
+"Sorry but you do not have the required permissions to export files from this "
+"area"
+msgstr ""
+
+#: $string['notexportable']
+msgid ""
+"Sorry, but the type of content you are trying to export is not exportable"
+msgstr ""
+
+#: $string['notimplemented']
+msgid ""
+"Sorry, but you are trying to export content in some format that is not yet "
+"implemented ({$a})"
+msgstr ""
+
+#: $string['notyetselected']
+msgctxt "$string['notyetselected']"
+msgid "Not yet selected"
+msgstr ""
+
+#: $string['notyours']
+msgid "You are trying to resume a portfolio export that doesn't belong to you!"
+msgstr ""
+
+#: $string['nouploaddirectory']
+msgid "Could not create a temporary directory to package your data into"
+msgstr ""
+
+#: $string['off']
+msgid "Enabled but hidden"
+msgstr ""
+
+#: $string['on']
+msgid "Enabled and visible"
+msgstr ""
+
+#: $string['plugin']
+msgid "Portfolio plugin"
+msgstr ""
+
+#: $string['plugincouldnotpackage']
+msgctxt "$string['plugincouldnotpackage']"
+msgid "Failed to package up your data for export: original error was {$a}"
+msgstr ""
+
+#: $string['pluginismisconfigured']
+msgid "Portfolio plugin is misconfigured, skipping. Error was: {$a}"
+msgstr ""
+
+#: $string['portfolio']
+msgid "Portfolio"
+msgstr ""
+
+#: $string['portfolios']
+msgid "Portfolios"
+msgstr ""
+
+#: $string['queuesummary']
+msgid "Currently queued transfers"
+msgstr ""
+
+#: $string['returntowhereyouwere']
+msgid "Return to where you were"
+msgstr ""
+
+#: $string['save']
+msgid "Save"
+msgstr ""
+
+#: $string['selectedformat']
+msgid "Selected export format"
+msgstr ""
+
+#: $string['selectedwait']
+msgid "Selected to wait?"
+msgstr ""
+
+#: $string['selectplugin']
+msgid "Select destination"
+msgstr ""
+
+#: $string['showhide']
+msgid "Show / hide"
+msgstr ""
+
+#: $string['singleinstancenomultiallowed']
+msgid ""
+"Only a single portfolio plugin instance is available, it doesn't support "
+"multiple exports per session, and there's already an active export in the "
+"session using this plugin!"
+msgstr ""
+
+#: $string['somepluginsdisabled']
+msgid ""
+"Some entire portfolio plugins have been disabled because they are either "
+"misconfigured or rely on something else that is:"
+msgstr ""
+
+#: $string['sure']
+msgid "Are you sure you want to delete '{$a}'? This cannot be undone."
+msgstr ""
+
+#: $string['thirdpartyexception']
+msgid ""
+"A third party exception was thrown during portfolio export ({$a}). Caught "
+"and rethrown but this should really be fixed"
+msgstr ""
+
+#: $string['transfertime']
+msgid "Transfer time"
+msgstr ""
+
+#: $string['unknownplugin']
+msgid "Unknown (may have since been removed by an administrator)"
+msgstr ""
+
+#: $string['wait']
+msgid "Wait"
+msgstr ""
+
+#: $string['wanttowait_high']
+msgid ""
+"It is not recommended that you wait for this transfer to complete, but you "
+"can if you're sure and know what you're doing"
+msgstr ""
+
+#: $string['wanttowait_moderate']
+msgid "Do you want to wait for this transfer? It might take a few minutes"
+msgstr ""

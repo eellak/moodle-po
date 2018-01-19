@@ -1,0 +1,136 @@
+#. extracted from lang/en/engagementindicator_assessment.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'engagementindicator_assessment', language 'en', branch 'MOODLE_27_STABLE'
+#.  *
+#.  * @package   engagementindicator_assessment
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['dayslate']
+msgid "Days Late"
+msgstr ""
+
+#: $string['dayslate_help']
+msgid ""
+"Number of days late that the assignment was\n"
+"submitted.  This takes into account any overrides in place which effect the\n"
+"user's due date.."
+msgstr ""
+
+#: $string['localrisk']
+msgid "Local Risk"
+msgstr ""
+
+#: $string['localrisk_help']
+msgid ""
+"The risk percentage of this assessment alone, out\n"
+"of 100.  The local risk is multiplied by the assessment weighting to form "
+"the\n"
+"Risk Contribution."
+msgstr ""
+
+#: $string['logic']
+msgid "Logic"
+msgstr ""
+
+#: $string['logic_help']
+msgid ""
+"This field provides some insight into the logic used to\n"
+"arrive at the Local Risk value."
+msgstr ""
+
+#: $string['overduegracedays']
+msgid "Overdue Grace Days"
+msgstr ""
+
+#: $string['overduemaximumdays']
+msgid "Overdue Maximum Days"
+msgstr ""
+
+#: $string['overduenotsubmittedweighting']
+msgid "Overdue Not Submitted Weighting"
+msgstr ""
+
+#: $string['overduesubmittedweighting']
+msgid "Overdue Submitted Weighting"
+msgstr ""
+
+#: $string['override']
+msgid "Override"
+msgstr ""
+
+#: $string['override_help']
+msgid ""
+"Some assessment activities (ie: quiz) contain a\n"
+"feature for configuring alternate due dates for individual users or groups "
+"of\n"
+"users.  This field indicates that this user's due date was effected by an\n"
+"override."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Assessment Activity"
+msgstr ""
+
+#: $string['riskcontribution']
+msgid "Risk Contribution"
+msgstr ""
+
+#: $string['riskcontribution_help']
+msgid ""
+"The amount of risk this particular\n"
+"assessment contributes to the overall risk returned for the Assessment\n"
+"indicator.  This is formed by multiplying the Local Risk with the assessment\n"
+"Weighting.  The Risk Contributions of each assessment are summed together to\n"
+"form the overall risk for the indicator."
+msgstr ""
+
+#: $string['status']
+msgid "Status"
+msgstr ""
+
+#: $string['status_help']
+msgid ""
+"Status indicates whether the user has submitted this\n"
+"assessment or not."
+msgstr ""
+
+#: $string['weighting']
+msgid "Weighting"
+msgstr ""
+
+#: $string['weighting_help']
+msgid ""
+"This figure shows the max grade of this assessment\n"
+"as a percentage of total max grade for all assessments tracked by the "
+"Assessment\n"
+"Indicator.  The local_weighting will be multiplied by this to form the risk\n"
+"contribution."
+msgstr ""

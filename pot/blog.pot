@@ -1,0 +1,727 @@
+#. extracted from lang/en/blog.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'blog', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   blog
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addnewentry']
+msgid "Add a new entry"
+msgstr ""
+
+#: $string['addnewexternalblog']
+msgid "Register an external blog"
+msgstr ""
+
+#: $string['assocdescription']
+msgid ""
+"If you are writing about a course and/or activity modules, select them here."
+msgstr ""
+
+#: $string['associated']
+msgid "Associated {$a}"
+msgstr ""
+
+#: $string['associatewithcourse']
+msgid "Blog about course {$a->coursename}"
+msgstr ""
+
+#: $string['associatewithmodule']
+msgid "Blog about {$a->modtype}: {$a->modname}"
+msgstr ""
+
+#: $string['association']
+msgid "Association"
+msgstr ""
+
+#: $string['associations']
+msgid "Associations"
+msgstr ""
+
+#: $string['associationunviewable']
+msgid ""
+"This entry cannot be viewed by others until a course is associated with it "
+"or the 'Publish to' field is changed"
+msgstr ""
+
+#: $string['autotags']
+msgid "Add these tags"
+msgstr ""
+
+#: $string['autotags_help']
+msgid ""
+"Enter one or more local tags (separated by commas) that you want to "
+"automatically add to each blog entry copied from the external blog into your "
+"local blog."
+msgstr ""
+
+#: $string['backupblogshelp']
+msgid "If enabled then blogs will be included in SITE automated backups"
+msgstr ""
+
+#: $string['blockexternalstitle']
+msgctxt "$string['blockexternalstitle']"
+msgid "External blogs"
+msgstr ""
+
+#: $string['blocktitle']
+msgid "Blog tags block title"
+msgstr ""
+
+#: $string['blog']
+msgid "Blog"
+msgstr ""
+
+#: $string['blogaboutthis']
+msgid "Blog about this {$a->type}"
+msgstr ""
+
+#: $string['blogaboutthiscourse']
+msgid "Add an entry about this course"
+msgstr ""
+
+#: $string['blogaboutthismodule']
+msgid "Add an entry about this {$a}"
+msgstr ""
+
+#: $string['blogadministration']
+msgid "Blog administration"
+msgstr ""
+
+#: $string['blogdeleteconfirm']
+msgid "Delete the blog entry '{$a}'?"
+msgstr ""
+
+#: $string['blogdisable']
+msgid "Blogging is disabled!"
+msgstr ""
+
+#: $string['blogentries']
+msgid "Blog entries"
+msgstr ""
+
+#: $string['blogentriesabout']
+msgid "Blog entries about {$a}"
+msgstr ""
+
+#: $string['blogentriesbygroupaboutcourse']
+msgid "Blog entries about {$a->course} by {$a->group}"
+msgstr ""
+
+#: $string['blogentriesbygroupaboutmodule']
+msgid "Blog entries about {$a->mod} by {$a->group}"
+msgstr ""
+
+#: $string['blogentriesbyuseraboutcourse']
+msgid "Blog entries about {$a->course} by {$a->user}"
+msgstr ""
+
+#: $string['blogentriesbyuseraboutmodule']
+msgid "Blog entries about this {$a->mod} by {$a->user}"
+msgstr ""
+
+#: $string['blogentrybyuser']
+msgid "Blog entry by {$a}"
+msgstr ""
+
+#: $string['blogpreferences']
+msgctxt "$string['blogpreferences']"
+msgid "Blog preferences"
+msgstr ""
+
+#: $string['blogs']
+msgid "Blogs"
+msgstr ""
+
+#: $string['blogscourse']
+msgid "Course blogs"
+msgstr ""
+
+#: $string['blogssite']
+msgid "Site blogs"
+msgstr ""
+
+#: $string['blogtags']
+msgid "Blog tags"
+msgstr ""
+
+#: $string['cannotviewcourseblog']
+msgid "You do not have the required permissions to view blogs in this course"
+msgstr ""
+
+#: $string['cannotviewcourseorgroupblog']
+msgid ""
+"You do not have the required permissions to view blogs in this course/group"
+msgstr ""
+
+#: $string['cannotviewsiteblog']
+msgid "You do not have the required permissions to view all site blogs"
+msgstr ""
+
+#: $string['cannotviewuserblog']
+msgid "You do not have the required permissions to read user blogs"
+msgstr ""
+
+#: $string['configexternalblogcrontime']
+msgid "How often Moodle checks the external blogs for new entries."
+msgstr ""
+
+#: $string['configmaxexternalblogsperuser']
+msgid ""
+"The number of external blogs each user is allowed to link to their Moodle "
+"blog."
+msgstr ""
+
+#: $string['configuseblogassociations']
+msgid ""
+"Enables the association of blog entries with courses and course modules."
+msgstr ""
+
+#: $string['configuseexternalblogs']
+msgid ""
+"Enables users to specify external blog feeds. Moodle regularly checks these "
+"blog feeds and copies new entries to the local blog of that user."
+msgstr ""
+
+#: $string['courseblog']
+msgid "Course blog: {$a}"
+msgstr ""
+
+#: $string['courseblogdisable']
+msgid "Course blogs are not enabled"
+msgstr ""
+
+#: $string['courseblogs']
+msgid "Users can only see blogs for people who share a course"
+msgstr ""
+
+#: $string['deleteblogassociations']
+msgid "Delete blog associations"
+msgstr ""
+
+#: $string['deleteblogassociations_help']
+msgid ""
+"If ticked then blog entries will no longer be associated with this course or "
+"any course activities or resources.  The blog entries themselves will not "
+"be deleted."
+msgstr ""
+
+#: $string['deleteentry']
+msgid "Delete entry"
+msgstr ""
+
+#: $string['deleteexternalblog']
+msgid "Unregister this external blog"
+msgstr ""
+
+#: $string['deleteotagswarn']
+msgid ""
+"Are you sure you want to remove these tags from all blog posts and remove it "
+"from the system?"
+msgstr ""
+
+#: $string['description']
+msgid "Description"
+msgstr ""
+
+#: $string['description_help']
+msgid ""
+"Enter a sentence or two summarising the contents of your external blog. (If "
+"no description is supplied, the description recorded in your external blog "
+"will be used)."
+msgstr ""
+
+#: $string['donothaveblog']
+msgid "You do not have your own blog, sorry."
+msgstr ""
+
+#: $string['editentry']
+msgid "Edit a blog entry"
+msgstr ""
+
+#: $string['editexternalblog']
+msgid "Edit this external blog"
+msgstr ""
+
+#: $string['emptybody']
+msgid "Blog entry body can not be empty"
+msgstr ""
+
+#: $string['emptyrssfeed']
+msgid "The URL you entered does not point to a valid RSS feed"
+msgstr ""
+
+#: $string['emptytitle']
+msgid "Blog entry title can not be empty"
+msgstr ""
+
+#: $string['emptyurl']
+msgid "You must specify a URL to a valid RSS feed"
+msgstr ""
+
+#: $string['entrybody']
+msgid "Blog entry body"
+msgstr ""
+
+#: $string['entrybodyonlydesc']
+msgid "Entry description"
+msgstr ""
+
+#: $string['entryerrornotyours']
+msgid "This entry is not yours"
+msgstr ""
+
+#: $string['entrysaved']
+msgid "Your entry has been saved"
+msgstr ""
+
+#: $string['entrytitle']
+msgid "Entry title"
+msgstr ""
+
+#: $string['eventblogassociationadded']
+msgid "Blog association created"
+msgstr ""
+
+#: $string['eventblogassociationdeleted']
+msgid "Blog association deleted"
+msgstr ""
+
+#: $string['eventblogentriesviewed']
+msgid "Blog entries viewed"
+msgstr ""
+
+#: $string['eventblogexternaladded']
+msgid "External blog registered"
+msgstr ""
+
+#: $string['eventblogexternalremoved']
+msgctxt "$string['eventblogexternalremoved']"
+msgid "External blog unregistered"
+msgstr ""
+
+#: $string['eventblogexternalupdated']
+msgid "External blog updated"
+msgstr ""
+
+#: $string['evententryadded']
+msgid "Blog entry added"
+msgstr ""
+
+#: $string['evententrydeleted']
+msgid "Blog entry deleted"
+msgstr ""
+
+#: $string['evententryupdated']
+msgid "Blog entry updated"
+msgstr ""
+
+#: $string['eventexternalblogsviewed']
+msgid "External registered blogs viewed"
+msgstr ""
+
+#: $string['externalblogcrontime']
+msgid "External blog cron schedule"
+msgstr ""
+
+#: $string['externalblogdeleteconfirm']
+msgid "Unregister this external blog?"
+msgstr ""
+
+#: $string['externalblogdeleted']
+msgctxt "$string['externalblogdeleted']"
+msgid "External blog unregistered"
+msgstr ""
+
+#: $string['externalblogs']
+msgctxt "$string['externalblogs']"
+msgid "External blogs"
+msgstr ""
+
+#: $string['feedisinvalid']
+msgid "This feed is invalid"
+msgstr ""
+
+#: $string['feedisvalid']
+msgid "This feed is valid"
+msgstr ""
+
+#: $string['filterblogsby']
+msgid "Filter entries by..."
+msgstr ""
+
+#: $string['filtertags']
+msgid "Filter tags"
+msgstr ""
+
+#: $string['filtertags_help']
+msgid ""
+"You can use this feature to filter the entries you want to use. If you "
+"specify tags here (separated by commas) then only entries with these tags "
+"will be copied from the external blog."
+msgstr ""
+
+#: $string['groupblog']
+msgid "Group blog: {$a}"
+msgstr ""
+
+#: $string['groupblogdisable']
+msgid "Group blog is not enabled"
+msgstr ""
+
+#: $string['groupblogentries']
+msgid "Blog entries associated with {$a->coursename} by group {$a->groupname}"
+msgstr ""
+
+#: $string['groupblogs']
+msgid "Users can only see blogs for people who share a group"
+msgstr ""
+
+#: $string['incorrectblogfilter']
+msgid "Incorrect blog filter type specified"
+msgstr ""
+
+#: $string['intro']
+msgid "This RSS feed was automatically generated from one or more blogs."
+msgstr ""
+
+#: $string['invalidgroupid']
+msgid "Invalid group ID"
+msgstr ""
+
+#: $string['invalidurl']
+msgid "This URL is unreachable"
+msgstr ""
+
+#: $string['linktooriginalentry']
+msgid "Link to original blog entry"
+msgstr ""
+
+#: $string['maxexternalblogsperuser']
+msgid "Maximum number of external blogs per user"
+msgstr ""
+
+#: $string['myprofileuserblogs']
+msgid "View all blog entries"
+msgstr ""
+
+#: $string['name']
+msgid "Name"
+msgstr ""
+
+#: $string['name_help']
+msgid ""
+"Enter a descriptive name for your external blog. (If no name is supplied, "
+"the title of your external blog will be used)."
+msgstr ""
+
+#: $string['noentriesyet']
+msgid "No visible entries here"
+msgstr ""
+
+#: $string['noguestpost']
+msgid "Guest can not post blogs!"
+msgstr ""
+
+#: $string['nopermissionstodeleteentry']
+msgid "You lack the permissions required to delete this blog entry"
+msgstr ""
+
+#: $string['norighttodeletetag']
+msgid "You have no rights to delete this tag - {$a}"
+msgstr ""
+
+#: $string['nosuchentry']
+msgid "No such blog entry"
+msgstr ""
+
+#: $string['notallowedtoedit']
+msgid "You are not allowed to edit this entry"
+msgstr ""
+
+#: $string['numberofentries']
+msgid "Entries: {$a}"
+msgstr ""
+
+#: $string['numberoftags']
+msgid "Number of tags to display"
+msgstr ""
+
+#: $string['page-blog-edit']
+msgid "Blog editing pages"
+msgstr ""
+
+#: $string['page-blog-index']
+msgid "Blog listing pages"
+msgstr ""
+
+#: $string['page-blog-x']
+msgid "All blog pages"
+msgstr ""
+
+#: $string['pagesize']
+msgid "Blog entries per page"
+msgstr ""
+
+#: $string['permalink']
+msgid "Permalink"
+msgstr ""
+
+#: $string['personalblogs']
+msgid "Users can only see their own blog"
+msgstr ""
+
+#: $string['preferences']
+msgctxt "$string['preferences']"
+msgid "Blog preferences"
+msgstr ""
+
+#: $string['publishto']
+msgid "Publish to"
+msgstr ""
+
+#: $string['publishtocourse']
+msgid "Users sharing a course with you"
+msgstr ""
+
+#: $string['publishtocourseassoc']
+msgid "Members of the associated course"
+msgstr ""
+
+#: $string['publishtocourseassocparam']
+msgid "Members of {$a}"
+msgstr ""
+
+#: $string['publishtogroup']
+msgid "Users sharing a group with you"
+msgstr ""
+
+#: $string['publishtogroupassoc']
+msgid "Your group members in the associated course"
+msgstr ""
+
+#: $string['publishtogroupassocparam']
+msgid "Your group members in {$a}"
+msgstr ""
+
+#: $string['publishto_help']
+msgid ""
+"There are 3 options:\n"
+"\n"
+"* Yourself (draft) - Only you and the administrators can see this entry\n"
+"* Anyone on this site - Anyone who is registered on this site can read this "
+"entry\n"
+"* Anyone in the world - Anyone, including guests, could read this entry"
+msgstr ""
+
+#: $string['publishtonoone']
+msgid "Yourself (draft)"
+msgstr ""
+
+#: $string['publishtosite']
+msgid "Anyone on this site"
+msgstr ""
+
+#: $string['publishtoworld']
+msgid "Anyone in the world"
+msgstr ""
+
+#: $string['readfirst']
+msgid "Read this first"
+msgstr ""
+
+#: $string['relatedblogentries']
+msgid "Related blog entries"
+msgstr ""
+
+#: $string['retrievedfrom']
+msgid "Retrieved from"
+msgstr ""
+
+#: $string['rssfeed']
+msgid "Blog RSS feed"
+msgstr ""
+
+#: $string['searchterm']
+msgid "Search: {$a}"
+msgstr ""
+
+#: $string['settingsupdatederror']
+msgid "An error has occurred, blog preference setting could not be updated"
+msgstr ""
+
+#: $string['siteblogdisable']
+msgid "Site blog is not enabled"
+msgstr ""
+
+#: $string['siteblogheading']
+msgid "Site blog"
+msgstr ""
+
+#: $string['siteblogs']
+msgid "All site users can see all blog entries"
+msgstr ""
+
+#: $string['tagdatelastused']
+msgid "Date tag was last used"
+msgstr ""
+
+#: $string['tagparam']
+msgid "Tag: {$a}"
+msgstr ""
+
+#: $string['tags']
+msgid "Tags"
+msgstr ""
+
+#: $string['tagsort']
+msgid "Sort the tag display by"
+msgstr ""
+
+#: $string['tagtext']
+msgid "Tag text"
+msgstr ""
+
+#: $string['timefetched']
+msgid "Time of last sync"
+msgstr ""
+
+#: $string['timewithin']
+msgid "Display tags used within this many days"
+msgstr ""
+
+#: $string['updateentrywithid']
+msgid "Updating entry"
+msgstr ""
+
+#: $string['url']
+msgid "RSS feed URL"
+msgstr ""
+
+#: $string['url_help']
+msgid "Enter the RSS feed URL for your external blog."
+msgstr ""
+
+#: $string['useblogassociations']
+msgid "Enable blog associations"
+msgstr ""
+
+#: $string['useexternalblogs']
+msgid "Enable external blogs"
+msgstr ""
+
+#: $string['userblog']
+msgid "User blog: {$a}"
+msgstr ""
+
+#: $string['userblogentries']
+msgid "Blog entries by {$a}"
+msgstr ""
+
+#: $string['valid']
+msgid "Valid"
+msgstr ""
+
+#: $string['viewallblogentries']
+msgid "All entries about this {$a}"
+msgstr ""
+
+#: $string['viewallmodentries']
+msgid "View all entries about this {$a->type}"
+msgstr ""
+
+#: $string['viewallmyentries']
+msgid "View all of my entries"
+msgstr ""
+
+#: $string['viewblogentries']
+msgid "Entries about this {$a->type}"
+msgstr ""
+
+#: $string['viewblogsfor']
+msgid "View all entries for..."
+msgstr ""
+
+#: $string['viewcourseblogs']
+msgid "View all entries for this course"
+msgstr ""
+
+#: $string['viewentriesbyuseraboutcourse']
+msgid "View entries about this course by {$a}"
+msgstr ""
+
+#: $string['viewgroupblogs']
+msgid "View entries for group..."
+msgstr ""
+
+#: $string['viewgroupentries']
+msgid "Group entries"
+msgstr ""
+
+#: $string['viewmodblogs']
+msgid "View entries for module..."
+msgstr ""
+
+#: $string['viewmodentries']
+msgid "Module entries"
+msgstr ""
+
+#: $string['viewmyentries']
+msgid "My entries"
+msgstr ""
+
+#: $string['viewmyentriesaboutcourse']
+msgid "View my entries about this course"
+msgstr ""
+
+#: $string['viewmyentriesaboutmodule']
+msgid "View my entries about this {$a}"
+msgstr ""
+
+#: $string['viewsiteentries']
+msgid "View all entries"
+msgstr ""
+
+#: $string['viewuserentries']
+msgid "View all entries by {$a}"
+msgstr ""
+
+#: $string['worldblogs']
+msgid "The world can read entries set to be world-accessible"
+msgstr ""
+
+#: $string['wrongexternalid']
+msgid "Wrong external blog ID"
+msgstr ""
+
+#: $string['wrongpostid']
+msgid "Wrong blog post id"
+msgstr ""

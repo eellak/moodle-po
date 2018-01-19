@@ -1,0 +1,293 @@
+#. extracted from lang/en/tool_moodledt.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'tool_moodledt', language 'en', branch 'MOODLE_27_STABLE'
+#.  *
+#.  * @package   tool_moodledt
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['action_label']
+msgid "Action:"
+msgstr ""
+
+#: $string['bookmarks_add']
+msgid "Add to bookmark"
+msgstr ""
+
+#: $string['bookmarks_del']
+msgid "Remove from bookmark"
+msgstr ""
+
+#: $string['bookmarks_del_all']
+msgid "Delete all"
+msgstr ""
+
+#: $string['bookmarks_empty']
+msgid "No save plugin in bookmark."
+msgstr ""
+
+#: $string['bookmarks_header']
+msgid "Bookmarks"
+msgstr ""
+
+#: $string['bookmarks_header_help']
+msgid ""
+"<p>The bookmark is to insert links to plugin for quick access.</p><p>To edit "
+"your bookrmarks click the button <b>Blocks editing on</b> to open the edit "
+"mode.</p>"
+msgstr ""
+
+#: $string['date_modified']
+msgid "From:"
+msgstr ""
+
+#: $string['date_modified_help']
+msgid ""
+"<p>Select the date you want to filter the files by their modification.</p>"
+msgstr ""
+
+#: $string['description_label']
+msgid "Description:"
+msgstr ""
+
+#: $string['execute_button']
+msgid "Execute"
+msgstr ""
+
+#: $string['files']
+msgid "Files"
+msgstr ""
+
+#: $string['files_label']
+msgid "Files:"
+msgstr ""
+
+#: $string['files_text']
+msgid "files"
+msgstr ""
+
+#: $string['index_description']
+msgid ""
+"This tool analyzes the lack of the index.html file in the plugin folder."
+msgstr ""
+
+#: $string['index_empty']
+msgid "All folders containing the file index."
+msgstr ""
+
+#: $string['index_fix']
+msgid "Correct Folders"
+msgstr ""
+
+#: $string['index_fix_help']
+msgid ""
+"<p>This operation will insert a index.php file in each folder "
+"indicated.</p><p><em>Warning: this operation can not be undone by this "
+"tool.</em></p>"
+msgstr ""
+
+#: $string['index_fix_ok']
+msgid "The index has been inserted in all folders successfully."
+msgstr ""
+
+#: $string['index_header']
+msgid "Index in Folders"
+msgstr ""
+
+#: $string['index_label']
+msgid "Folders without index:"
+msgstr ""
+
+#: $string['index_option']
+msgid "Index of Folders"
+msgstr ""
+
+#: $string['in_file_empty']
+msgid "All tags in use in scripts."
+msgstr ""
+
+#: $string['in_file_header']
+msgid "Tags not use in scripts"
+msgstr ""
+
+#: $string['in_file_text']
+msgid "<b>{$a}</b> tags not in use."
+msgstr ""
+
+#: $string['lang_default_label']
+msgid "Default:"
+msgstr ""
+
+#: $string['lang_default_label_help']
+msgid ""
+"<p>Select the default language that will be the basis of comparison with the "
+"other languages of the plugin.</p>"
+msgstr ""
+
+#: $string['language_description']
+msgid ""
+"This tool analyzes the language packs in search of inconsistencies in the "
+"supported languages."
+msgstr ""
+
+#: $string['language_option']
+msgid "Languages Analize"
+msgstr ""
+
+#: $string['languages_label']
+msgid "Languages:"
+msgstr ""
+
+#: $string['last_mod_label']
+msgid "Last Modified:"
+msgstr ""
+
+#: $string['lines_header']
+msgid "Lines in language files"
+msgstr ""
+
+#: $string['lines_text']
+msgid "lines"
+msgstr ""
+
+#: $string['name_label']
+msgid "Name:"
+msgstr ""
+
+#: $string['ok_text']
+msgid "Ok"
+msgstr ""
+
+#: $string['package_description']
+msgid ""
+"This tool creates a package with all the plugin files selected.<br>Note:. "
+"Unnecessary files will not be included."
+msgstr ""
+
+#: $string['package_header']
+msgid "Package Files"
+msgstr ""
+
+#: $string['package_label']
+msgid "Package:"
+msgstr ""
+
+#: $string['package_option']
+msgid "Package Plugin"
+msgstr ""
+
+#: $string['package_type']
+msgid "Compression:"
+msgstr ""
+
+#: $string['package_type_help']
+msgid ""
+"<p>Choose the compression type to export the package plugin.</p><p>Some "
+"types preserve the properties of the files.</p>"
+msgstr ""
+
+#: $string['path_label']
+msgid "Path:"
+msgstr ""
+
+#: $string['plugin_description']
+msgid ""
+"<br>This plugin is a set of tools to assist in developing plugins in "
+"Moodle.<br><br>Note: This plugin is in beta stage of development.<br><br>"
+msgstr ""
+
+#: $string['plugin_header']
+msgid "Plugin"
+msgstr ""
+
+#: $string['pluginname']
+msgid "MoodleDT - Development Tools Plugins for Moodle"
+msgstr ""
+
+#: $string['select_button']
+msgid "Select"
+msgstr ""
+
+#: $string['tags_empty']
+msgid "No more language files for compare."
+msgstr ""
+
+#: $string['tags_header']
+msgid "Tags not found in language files"
+msgstr ""
+
+#: $string['tags_order']
+msgid "Tags Order"
+msgstr ""
+
+#: $string['tags_order_help']
+msgid ""
+"<p>This operation will put all tags in the language files in "
+"order.</p><p><em>Please note if you have other non-standard information in "
+"this file may be lost, but the comments remain up top.</em></p>"
+msgstr ""
+
+#: $string['tags_order_ok']
+msgid "The tags were ordered successfully in the language files."
+msgstr ""
+
+#: $string['title_label']
+msgid "Title:"
+msgstr ""
+
+#: $string['tool_header']
+msgid "Tool"
+msgstr ""
+
+#: $string['type_label']
+msgid "Type:"
+msgstr ""
+
+#: $string['update_files_description']
+msgid ""
+"This tool creates a package with the modified files of the selected "
+"plugin.<br>Note:. Unnecessary files will not be included."
+msgstr ""
+
+#: $string['update_files_empty']
+msgid "There are no files modified date."
+msgstr ""
+
+#: $string['update_files_header']
+msgid "Package Update File"
+msgstr ""
+
+#: $string['update_files_option']
+msgid "Changed Files Package"
+msgstr ""
+
+#: $string['version_label']
+msgid "Version:"
+msgstr ""

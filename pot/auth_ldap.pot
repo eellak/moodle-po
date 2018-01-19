@@ -1,0 +1,688 @@
+#. extracted from lang/en/auth_ldap.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'auth_ldap', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   auth_ldap
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['auth_ldap_ad_create_req']
+msgid ""
+"Cannot create the new account in Active Directory. Make sure you meet all "
+"the requirements for this to work (LDAPS connection, bind user with adequate "
+"rights, etc.)"
+msgstr ""
+
+#: $string['auth_ldap_attrcreators']
+msgid ""
+"List of groups or contexts whose members are allowed to create attributes. "
+"Separate multiple groups with ';'. Usually something like "
+"'cn=teachers,ou=staff,o=myorg'"
+msgstr ""
+
+#: $string['auth_ldap_attrcreators_key']
+msgid "Attribute creators"
+msgstr ""
+
+#: $string['auth_ldap_auth_user_create_key']
+msgid "Create users externally"
+msgstr ""
+
+#: $string['auth_ldap_bind_dn']
+msgid ""
+"If you want to use bind-user to search users, specify it here. Something "
+"like 'cn=ldapuser,ou=public,o=org'"
+msgstr ""
+
+#: $string['auth_ldap_bind_dn_key']
+msgid "Distinguished name"
+msgstr ""
+
+#: $string['auth_ldap_bind_pw']
+msgid "Password for bind-user."
+msgstr ""
+
+#: $string['auth_ldap_bind_pw_key']
+msgid "Password"
+msgstr ""
+
+#: $string['auth_ldap_bind_settings']
+msgid "Bind settings"
+msgstr ""
+
+#: $string['auth_ldap_changepasswordurl_key']
+msgid "Password-change URL"
+msgstr ""
+
+#: $string['auth_ldap_contexts']
+msgid ""
+"List of contexts where users are located. Separate different contexts with "
+"';'. For example: 'ou=users,o=org; ou=others,o=org'"
+msgstr ""
+
+#: $string['auth_ldap_contexts_key']
+msgid "Contexts"
+msgstr ""
+
+#: $string['auth_ldap_create_context']
+msgid ""
+"If you enable user creation with email confirmation, specify the context "
+"where users are created. This context should be different from other users "
+"to prevent security issues. You don't need to add this context to "
+"ldap_context-variable, Moodle will search for users from this context "
+"automatically.<br /><b>Note!</b> You have to modify the method user_create() "
+"in file auth/ldap/auth.php to make user creation work"
+msgstr ""
+
+#: $string['auth_ldap_create_context_key']
+msgid "Context for new users"
+msgstr ""
+
+#: $string['auth_ldap_create_error']
+msgid "Error creating user in LDAP."
+msgstr ""
+
+#: $string['auth_ldap_creators']
+msgid ""
+"List of groups or contexts whose members are allowed to create new courses. "
+"Separate multiple groups with ';'. Usually something like "
+"'cn=teachers,ou=staff,o=myorg'"
+msgstr ""
+
+#: $string['auth_ldap_creators_key']
+msgid "Creators"
+msgstr ""
+
+#: $string['auth_ldapdescription']
+msgid ""
+"This method provides authentication against an external LDAP server.\n"
+"                                  If the given username and password are "
+"valid, Moodle creates a new user\n"
+"                                  entry in its database. This module can "
+"read user attributes from LDAP and prefill\n"
+"                                  wanted fields in Moodle.  For following "
+"logins only the username and\n"
+"                                  password are checked."
+msgstr ""
+
+#: $string['auth_ldap_expiration_desc']
+msgid ""
+"Select '{$a->no}' to disable expired password checking or '{$a->ldapserver}' "
+"to read the password expiration time directly from the LDAP server"
+msgstr ""
+
+#: $string['auth_ldap_expiration_key']
+msgid "Expiration"
+msgstr ""
+
+#: $string['auth_ldap_expiration_warning_desc']
+msgid "Number of days before password expiration warning is issued."
+msgstr ""
+
+#: $string['auth_ldap_expiration_warning_key']
+msgid "Expiration warning"
+msgstr ""
+
+#: $string['auth_ldap_expireattr_desc']
+msgid ""
+"Optional: Overrides the LDAP attribute that stores password expiration time."
+msgstr ""
+
+#: $string['auth_ldap_expireattr_key']
+msgid "Expiration attribute"
+msgstr ""
+
+#: $string['auth_ldapextrafields']
+msgid ""
+"These fields are optional.  You can choose to pre-fill some Moodle user "
+"fields with information from the <b>LDAP fields</b> that you specify here. "
+"<p>If you leave these fields blank, then nothing will be transferred from "
+"LDAP and Moodle defaults will be used instead.</p><p>In either case, the "
+"user will be able to edit all of these fields after they log in.</p>"
+msgstr ""
+
+#: $string['auth_ldap_graceattr_desc']
+msgid "Optional: Overrides  gracelogin attribute"
+msgstr ""
+
+#: $string['auth_ldap_gracelogin_key']
+msgid "Grace login attribute"
+msgstr ""
+
+#: $string['auth_ldap_gracelogins_desc']
+msgid ""
+"Enable LDAP gracelogin support. After password has expired user can login "
+"until gracelogin count is 0. Enabling this setting displays grace login "
+"message if password is expired."
+msgstr ""
+
+#: $string['auth_ldap_gracelogins_key']
+msgid "Grace logins"
+msgstr ""
+
+#: $string['auth_ldap_groupecreators']
+msgid ""
+"List of groups or contexts whose members are allowed to create groups. "
+"Separate multiple groups with ';'. Usually something like "
+"'cn=teachers,ou=staff,o=myorg'"
+msgstr ""
+
+#: $string['auth_ldap_groupecreators_key']
+msgid "Group creators"
+msgstr ""
+
+#: $string['auth_ldap_host_url']
+msgid ""
+"Specify LDAP host in URL-form like 'ldap://ldap.myorg.com/' or "
+"'ldaps://ldap.myorg.com/'. Separate multiple servers with ';' to get "
+"failover support."
+msgstr ""
+
+#: $string['auth_ldap_host_url_key']
+msgid "Host URL"
+msgstr ""
+
+#: $string['auth_ldap_ldap_encoding']
+msgid ""
+"Specify encoding used by LDAP server. Most probably utf-8, MS AD v2 uses "
+"default platform encoding such as cp1252, cp1250, etc."
+msgstr ""
+
+#: $string['auth_ldap_ldap_encoding_key']
+msgid "LDAP encoding"
+msgstr ""
+
+#: $string['auth_ldap_login_settings']
+msgid "Login settings"
+msgstr ""
+
+#: $string['auth_ldap_memberattribute']
+msgid ""
+"Optional: Overrides user member attribute, when users belongs to a group. "
+"Usually 'member'"
+msgstr ""
+
+#: $string['auth_ldap_memberattribute_isdn']
+msgid "Optional: Overrides handling of member attribute values, either 0 or 1"
+msgstr ""
+
+#: $string['auth_ldap_memberattribute_isdn_key']
+msgid "Member attribute uses dn"
+msgstr ""
+
+#: $string['auth_ldap_memberattribute_key']
+msgid "Member attribute"
+msgstr ""
+
+#: $string['auth_ldap_noconnect']
+msgid "LDAP-module cannot connect to server: {$a}"
+msgstr ""
+
+#: $string['auth_ldap_noconnect_all']
+msgid "LDAP-module cannot connect to any servers: {$a}"
+msgstr ""
+
+#: $string['auth_ldap_noextension']
+msgid ""
+"<em>The PHP LDAP module does not seem to be present. Please ensure it is "
+"installed and enabled if you want to use this authentication plugin.</em>"
+msgstr ""
+
+#: $string['auth_ldap_no_mbstring']
+msgid "You need the mbstring extension to create users in Active Directory."
+msgstr ""
+
+#: $string['auth_ldapnotinstalled']
+msgid "Cannot use LDAP authentication. The PHP LDAP module is not installed."
+msgstr ""
+
+#: $string['auth_ldap_objectclass']
+msgid ""
+"Optional: Overrides objectClass used to name/search users on ldap_user_type. "
+"Usually you don't need to change this."
+msgstr ""
+
+#: $string['auth_ldap_objectclass_key']
+msgid "Object class"
+msgstr ""
+
+#: $string['auth_ldap_opt_deref']
+msgid ""
+"Determines how aliases are handled during search. Select one of the "
+"following values: \"No\" (LDAP_DEREF_NEVER) or \"Yes\" (LDAP_DEREF_ALWAYS)"
+msgstr ""
+
+#: $string['auth_ldap_opt_deref_key']
+msgid "Dereference aliases"
+msgstr ""
+
+#: $string['auth_ldap_passtype']
+msgid "Specify the format of new or changed passwords in LDAP server."
+msgstr ""
+
+#: $string['auth_ldap_passtype_key']
+msgid "Password format"
+msgstr ""
+
+#: $string['auth_ldap_passwdexpire_settings']
+msgid "LDAP password expiration settings"
+msgstr ""
+
+#: $string['auth_ldap_preventpassindb']
+msgid "Select yes to prevent passwords from being stored in Moodle's DB."
+msgstr ""
+
+#: $string['auth_ldap_preventpassindb_key']
+msgid "Prevent password caching"
+msgstr ""
+
+#: $string['auth_ldap_rolecontext']
+msgid "{$a->localname} context"
+msgstr ""
+
+#: $string['auth_ldap_rolecontext_help']
+msgid ""
+"LDAP context used to select for <i>{$a->localname}</i> mapping. Separate "
+"multiple groups with ';'. Usually something like "
+"\"cn={$a->shortname},ou=staff,o=myorg\"."
+msgstr ""
+
+#: $string['auth_ldap_search_sub']
+msgid "Search users from subcontexts."
+msgstr ""
+
+#: $string['auth_ldap_search_sub_key']
+msgid "Search subcontexts"
+msgstr ""
+
+#: $string['auth_ldap_server_settings']
+msgid "LDAP server settings"
+msgstr ""
+
+#: $string['auth_ldap_suspended_attribute']
+msgid ""
+"Optional: When provided this attribute will be used to enable/suspend the "
+"locally created user account."
+msgstr ""
+
+#: $string['auth_ldap_suspended_attribute_key']
+msgid "Suspended attribute"
+msgstr ""
+
+#: $string['auth_ldap_unsupportedusertype']
+msgid "auth: ldap user_create() does not support selected usertype: {$a}"
+msgstr ""
+
+#: $string['auth_ldap_update_userinfo']
+msgid ""
+"Update user information (firstname, lastname, address..) from LDAP to "
+"Moodle.  Specify \"Data mapping\" settings as you need."
+msgstr ""
+
+#: $string['auth_ldap_user_attribute']
+msgid ""
+"Optional: Overrides the attribute used to name/search users. Usually 'cn'."
+msgstr ""
+
+#: $string['auth_ldap_user_attribute_key']
+msgid "User attribute"
+msgstr ""
+
+#: $string['auth_ldap_user_exists']
+msgid "LDAP username already exists."
+msgstr ""
+
+#: $string['auth_ldap_user_settings']
+msgid "User lookup settings"
+msgstr ""
+
+#: $string['auth_ldap_user_type']
+msgid ""
+"Select how users are stored in LDAP. This setting also specifies how login "
+"expiration, grace logins and user creation will work."
+msgstr ""
+
+#: $string['auth_ldap_user_type_key']
+msgid "User type"
+msgstr ""
+
+#: $string['auth_ldap_usertypeundefined']
+msgid ""
+"config.user_type not defined or function ldap_expirationtime2unix does not "
+"support selected type!"
+msgstr ""
+
+#: $string['auth_ldap_usertypeundefined2']
+msgid ""
+"config.user_type not defined or function ldap_unixi2expirationtime does not "
+"support selected type!"
+msgstr ""
+
+#: $string['auth_ldap_version']
+msgid "The version of the LDAP protocol your server is using."
+msgstr ""
+
+#: $string['auth_ldap_version_key']
+msgid "Version"
+msgstr ""
+
+#: $string['auth_ntlmsso']
+msgid "NTLM SSO"
+msgstr ""
+
+#: $string['auth_ntlmsso_enabled']
+msgid ""
+"Set to yes to attempt Single Sign On with the NTLM domain. "
+"<strong>Note:</strong> this requires additional setup on the webserver to "
+"work, see <a href=\"http://docs.moodle.org/en/NTLM_authentication\">http://doc"
+"s.moodle.org/en/NTLM_authentication</a>"
+msgstr ""
+
+#: $string['auth_ntlmsso_enabled_key']
+msgid "Enable"
+msgstr ""
+
+#: $string['auth_ntlmsso_ie_fastpath']
+msgid ""
+"Set to enable the NTLM SSO fast path (bypasses certain steps if the client's "
+"browser is MS Internet Explorer)."
+msgstr ""
+
+#: $string['auth_ntlmsso_ie_fastpath_attempt']
+msgid "Attempt NTLM with all browsers"
+msgstr ""
+
+#: $string['auth_ntlmsso_ie_fastpath_key']
+msgid "MS IE fast path?"
+msgstr ""
+
+#: $string['auth_ntlmsso_ie_fastpath_yesattempt']
+msgid "Yes, attempt NTLM other browsers"
+msgstr ""
+
+#: $string['auth_ntlmsso_ie_fastpath_yesform']
+msgid "Yes, all other browsers use standard login form"
+msgstr ""
+
+#: $string['auth_ntlmsso_maybeinvalidformat']
+msgid ""
+"Unable to extract the username from the REMOTE_USER header. Is the "
+"configured format right?"
+msgstr ""
+
+#: $string['auth_ntlmsso_missing_username']
+msgid "You need to specify at least %username% in the remote username format"
+msgstr ""
+
+#: $string['auth_ntlmsso_remoteuserformat']
+msgid ""
+"If you have chosen 'NTLM' in 'Authentication type', you can specify the "
+"remote username format here. If you leave this empty, the default "
+"DOMAIN\\username format will be used. You can use the optional <b>%domain%"
+"</b> placeholder to specify where the domain name appears, and the mandatory "
+"<b>%username%</b> placeholder to specify where the username appears. <br "
+"/><br />Some widely used formats are <tt>%domain%\\%username%</tt> (MS "
+"Windows default), <tt>%domain%/%username%</tt>, <tt>%domain%+%username%</tt> "
+"and just <tt>%username%</tt> (if there is no domain part)."
+msgstr ""
+
+#: $string['auth_ntlmsso_remoteuserformat_key']
+msgid "Remote username format"
+msgstr ""
+
+#: $string['auth_ntlmsso_subnet']
+msgid ""
+"If set, it will only attempt SSO with clients in this subnet. Format: "
+"xxx.xxx.xxx.xxx/bitmask. Separate multiple subnets with ',' (comma)."
+msgstr ""
+
+#: $string['auth_ntlmsso_subnet_key']
+msgid "Subnet"
+msgstr ""
+
+#: $string['auth_ntlmsso_type']
+msgid ""
+"The authentication method configured in the web server to authenticate the "
+"users (if in doubt, choose NTLM)"
+msgstr ""
+
+#: $string['auth_ntlmsso_type_key']
+msgid "Authentication type"
+msgstr ""
+
+#: $string['connectingldap']
+msgid "Connecting to LDAP server..."
+msgstr ""
+
+#: $string['connectingldapsuccess']
+msgid "Connecting to your LDAP server was successful"
+msgstr ""
+
+#: $string['creatingtemptable']
+msgid "Creating temporary table {$a}"
+msgstr ""
+
+#: $string['didntfindexpiretime']
+msgid "password_expire() didn't find expiration time."
+msgstr ""
+
+#: $string['didntgetusersfromldap']
+msgid "Did not get any users from LDAP -- error? -- exiting"
+msgstr ""
+
+#: $string['gotcountrecordsfromldap']
+msgid "Got {$a} records from LDAP"
+msgstr ""
+
+#: $string['ldapnotconfigured']
+msgid "The LDAP host url is currently not configured"
+msgstr ""
+
+#: $string['morethanoneuser']
+msgid ""
+"Strange! More than one user record found in ldap. Only using the first one."
+msgstr ""
+
+#: $string['needbcmath']
+msgid ""
+"You need the BCMath extension to use expired password checking with Active "
+"Directory."
+msgstr ""
+
+#: $string['needmbstring']
+msgid "You need the mbstring extension to change passwords in Active Directory"
+msgstr ""
+
+#: $string['nodnforusername']
+msgid "Error in user_update_password(). No DN for: {$a->username}"
+msgstr ""
+
+#: $string['noemail']
+msgid "Tried to send you an email but failed!"
+msgstr ""
+
+#: $string['notcalledfromserver']
+msgid "Should not be called from the web server!"
+msgstr ""
+
+#: $string['noupdatestobedone']
+msgid "No updates to be done"
+msgstr ""
+
+#: $string['nouserentriestoremove']
+msgid "No user entries to be removed"
+msgstr ""
+
+#: $string['nouserentriestorevive']
+msgid "No user entries to be revived"
+msgstr ""
+
+#: $string['nouserstobeadded']
+msgid "No user entries to be added"
+msgstr ""
+
+#: $string['ntlmsso_attempting']
+msgid "Attempting Single Sign On via NTLM..."
+msgstr ""
+
+#: $string['ntlmsso_failed']
+msgid "Auto-login failed, try the normal login page..."
+msgstr ""
+
+#: $string['ntlmsso_isdisabled']
+msgid "NTLM SSO is disabled."
+msgstr ""
+
+#: $string['ntlmsso_unknowntype']
+msgid "Unknown ntlmsso type!"
+msgstr ""
+
+#: $string['pagedresultsnotsupp']
+msgid ""
+"LDAP paged results not supported (either your PHP version lacks support, you "
+"have configured Moodle to use LDAP protocol version 2 or Moodle cannot "
+"contact your LDAP server to see if paged support is available.)"
+msgstr ""
+
+#: $string['pagesize']
+msgid ""
+"Make sure this value is smaller than your LDAP server result set size limit "
+"(the maximum number of entries that can be returned in a single query)"
+msgstr ""
+
+#: $string['pagesize_key']
+msgid "Page size"
+msgstr ""
+
+#: $string['pluginname']
+msgid "LDAP server"
+msgstr ""
+
+#: $string['pluginnotenabled']
+msgid "Plugin not enabled!"
+msgstr ""
+
+#: $string['renamingnotallowed']
+msgid "User renaming not allowed in LDAP"
+msgstr ""
+
+#: $string['rootdseerror']
+msgid "Error querying rootDSE for Active Directory"
+msgstr ""
+
+#: $string['start_tls']
+msgid "Use regular LDAP service (port 389) with TLS encryption"
+msgstr ""
+
+#: $string['start_tls_key']
+msgid "Use TLS"
+msgstr ""
+
+#: $string['syncroles']
+msgid "Synchronise system roles from LDAP"
+msgstr ""
+
+#: $string['synctask']
+msgid "LDAP users sync job"
+msgstr ""
+
+#: $string['systemrolemapping']
+msgid "System role mapping"
+msgstr ""
+
+#: $string['updatepasserror']
+msgid ""
+"Error in user_update_password(). Error code: {$a->errno}; Error string: "
+"{$a->errstring}"
+msgstr ""
+
+#: $string['updatepasserrorexpire']
+msgid ""
+"Error in user_update_password() when reading password expiration time. Error "
+"code: {$a->errno}; Error string: {$a->errstring}"
+msgstr ""
+
+#: $string['updatepasserrorexpiregrace']
+msgid ""
+"Error in user_update_password() when modifying expirationtime and/or "
+"gracelogins. Error code: {$a->errno}; Error string: {$a->errstring}"
+msgstr ""
+
+#: $string['updateremfail']
+msgid ""
+"Error updating LDAP record. Error code: {$a->errno}; Error string: "
+"{$a->errstring}<br/>Key ({$a->key}) - old moodle value: '{$a->ouvalue}' new "
+"value: '{$a->nuvalue}'"
+msgstr ""
+
+#: $string['updateremfailamb']
+msgid ""
+"Failed to update LDAP with ambiguous field {$a->key}; old moodle value: "
+"'{$a->ouvalue}', new value: '{$a->nuvalue}'"
+msgstr ""
+
+#: $string['updateusernotfound']
+msgid ""
+"Could not find user while updating externally. Details follow: search base: "
+"'{$a->userdn}'; search filter: '(objectClass=*)'; search attributes: "
+"{$a->attribs}"
+msgstr ""
+
+#: $string['useracctctrlerror']
+msgid "Error getting userAccountControl for {$a}"
+msgstr ""
+
+#: $string['user_activatenotsupportusertype']
+msgid "auth: ldap user_activate() does not support selected usertype: {$a}"
+msgstr ""
+
+#: $string['user_disablenotsupportusertype']
+msgid "auth: ldap user_disable() does not support selected usertype: {$a}"
+msgstr ""
+
+#: $string['userentriestoadd']
+msgid "User entries to be added: {$a}"
+msgstr ""
+
+#: $string['userentriestoremove']
+msgid "User entries to be removed: {$a}"
+msgstr ""
+
+#: $string['userentriestorevive']
+msgid "User entries to be revived: {$a}"
+msgstr ""
+
+#: $string['userentriestoupdate']
+msgid "User entries to be updated: {$a}"
+msgstr ""
+
+#: $string['usernotfound']
+msgid "User not found in LDAP"
+msgstr ""

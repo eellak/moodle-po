@@ -1,0 +1,120 @@
+#. extracted from lang/en/local_lessonexportepub.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'local_lessonexportepub', language 'en', branch 'MOODLE_31_STABLE'
+#.  *
+#.  * @package   local_lessonexportepub
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['covercolour']
+msgid "Front cover banner colour"
+msgstr ""
+
+#: $string['covercolour_desc']
+msgid ""
+"The colour of the banner on the front cover that contains the lesson title."
+msgstr ""
+
+#: $string['created']
+msgid "Created on {$a}"
+msgstr ""
+
+#: $string['customstyle']
+msgid "Custom EPUB style rules"
+msgstr ""
+
+#: $string['customstyle_desc']
+msgid "Custom CSS to apply only to the exported EPUB"
+msgstr ""
+
+#: $string['exportepub']
+msgid "Export as epub"
+msgstr ""
+
+#: $string['exportstrict']
+msgid "Strict exporting"
+msgstr ""
+
+#: $string['exportstrict_desc']
+msgid ""
+"Whether documents should throw exceptions or suppress them when erroring."
+msgstr ""
+
+#: $string['failedinsertimage']
+msgid "Failed to insert image: {$a}"
+msgstr ""
+
+#: $string['filename']
+msgid "Export {$a->lessonname} {$a->timestamp}"
+msgstr ""
+
+#: $string['lessonexportepub:export']
+msgid "Export lesson as epub"
+msgstr ""
+
+#: $string['lessonexportfailed']
+msgid "Export of lesson '{$a}' failed"
+msgstr ""
+
+#: $string['lessonexportfailed_body']
+msgid ""
+"The lesson '{$a->name}' has been updated, but the attempt to export and "
+"email it has failed, after {$a->exportattempts} attempts. If the lesson is "
+"updated again, then further attempts will be made to export it. The Lesson "
+"can be found at: {$a->url}."
+msgstr ""
+
+#: $string['lessonupdated']
+msgid "Lesson '{$a}' updated"
+msgstr ""
+
+#: $string['lessonupdated_body']
+msgid "Updated export attached"
+msgstr ""
+
+#: $string['modified']
+msgid "Last modified by {$a->modifiedby} on {$a->timemodified}"
+msgstr ""
+
+#: $string['plugingroup']
+msgid "Lesson Export"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Lesson Export EPUB"
+msgstr ""
+
+#: $string['printed']
+msgid "This document was downloaded on {$a}"
+msgstr ""
+
+#: $string['publishername']
+msgid "Unknown"
+msgstr ""

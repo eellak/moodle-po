@@ -1,0 +1,152 @@
+#. extracted from lang/en/workshopallocation_random.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'workshopallocation_random', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   workshopallocation_random
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addselfassessment']
+msgid "Add self-assessments"
+msgstr ""
+
+#: $string['allocationaddeddetail']
+msgid ""
+"New assessment to be done: <strong>{$a->reviewername}</strong> is reviewer "
+"of <strong>{$a->authorname}</strong>"
+msgstr ""
+
+#: $string['allocationdeallocategraded']
+msgid ""
+"Unable to deallocate already graded assessment: reviewer "
+"<strong>{$a->reviewername}</strong>, submission author: "
+"<strong>{$a->authorname}</strong>"
+msgstr ""
+
+#: $string['allocationreuseddetail']
+msgid ""
+"Reused assessment: <strong>{$a->reviewername}</strong> kept as reviewer of "
+"<strong>{$a->authorname}</strong>"
+msgstr ""
+
+#: $string['allocationsettings']
+msgid "Allocation settings"
+msgstr ""
+
+#: $string['assessmentdeleteddetail']
+msgid ""
+"Assessment deallocated: <strong>{$a->reviewername}</strong> is no longer "
+"reviewer of <strong>{$a->authorname}</strong>"
+msgstr ""
+
+#: $string['assesswosubmission']
+msgid "Participants can assess without having submitted anything"
+msgstr ""
+
+#: $string['confignumofreviews']
+msgid "Default number of submissions to be randomly allocated"
+msgstr ""
+
+#: $string['excludesamegroup']
+msgid "Prevent reviews by peers from the same group"
+msgstr ""
+
+#: $string['noallocationtoadd']
+msgid "No allocations to add"
+msgstr ""
+
+#: $string['nogroupusers']
+msgid ""
+"<p>Warning: If the workshop is in 'visible groups' mode or 'separate groups' "
+"mode, then users MUST be part of at least one group to have peer-"
+"assessments allocated to them by this tool. Non-grouped users can still be "
+"given new self-assessments or have existing assessments removed.</p>\n"
+"<p>These users are currently not in a group: {$a}</p>"
+msgstr ""
+
+#: $string['numofdeallocatedassessment']
+msgid "Deallocating {$a} assessment(s)"
+msgstr ""
+
+#: $string['numofrandomlyallocatedsubmissions']
+msgid "Randomly assigning {$a} allocations"
+msgstr ""
+
+#: $string['numofreviews']
+msgid "Number of reviews"
+msgstr ""
+
+#: $string['numofselfallocatedsubmissions']
+msgid "Self-allocating {$a} submission(s)"
+msgstr ""
+
+#: $string['numperauthor']
+msgid "per submission"
+msgstr ""
+
+#: $string['numperreviewer']
+msgid "per reviewer"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Random allocation"
+msgstr ""
+
+#: $string['randomallocationdone']
+msgid "Random allocation done"
+msgstr ""
+
+#: $string['removecurrentallocations']
+msgid "Remove current allocations"
+msgstr ""
+
+#: $string['resultnomorepeers']
+msgid "No more peers available"
+msgstr ""
+
+#: $string['resultnomorepeersingroup']
+msgid "No more peers available in this separate group"
+msgstr ""
+
+#: $string['resultnotenoughpeers']
+msgid "Not enough peers available"
+msgstr ""
+
+#: $string['resultnumperauthor']
+msgid "Trying to allocate {$a} review(s) per author"
+msgstr ""
+
+#: $string['resultnumperreviewer']
+msgid "Trying to allocate {$a} review(s) per reviewer"
+msgstr ""
+
+#: $string['stats']
+msgid "Current allocation statistics"
+msgstr ""

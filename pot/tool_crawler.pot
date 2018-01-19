@@ -1,0 +1,430 @@
+#. extracted from lang/en/tool_crawler.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'tool_crawler', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   tool_crawler
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['autocreate']
+msgid "Auto create"
+msgstr ""
+
+#: $string['bigfilesize']
+msgid "Size of Big files"
+msgstr ""
+
+#: $string['bigfilesizedesc']
+msgid "How big a file needs to be to get flagged as oversize. In MB"
+msgstr ""
+
+#: $string['botcantgettestpage']
+msgid "Bot could not request test page"
+msgstr ""
+
+#: $string['botpassword']
+msgid "Bot password"
+msgstr ""
+
+#: $string['botpassworddesc']
+msgid ""
+"The password of the moodle user to crawl as. This user should have site wide "
+"view permission, but very limited edit permissions, and be configured to "
+"use basic auth."
+msgstr ""
+
+#: $string['bottestpagenotreturned']
+msgid "Bot test page wasn't returned"
+msgstr ""
+
+#: $string['bottestpageredirected']
+msgid "Bot test page was redirected to {$a->resredirect}"
+msgstr ""
+
+#: $string['botuser']
+msgid "Bot user"
+msgstr ""
+
+#: $string['botusermissing']
+msgid "Bot user missing"
+msgstr ""
+
+#: $string['botusername']
+msgid "Bot username"
+msgstr ""
+
+#: $string['botusernamedesc']
+msgid "The username of the moodle user to crawl as"
+msgstr ""
+
+#: $string['broken']
+msgid "Broken links / URLs"
+msgstr ""
+
+#: $string['broken_header']
+msgid "<p>Duplicate URLs will only be searched once.</p>"
+msgstr ""
+
+#: $string['configmissing']
+msgid "Config missing"
+msgstr ""
+
+#: $string['course']
+msgid "Course"
+msgstr ""
+
+#: $string['crawlend']
+msgid "Crawl end"
+msgstr ""
+
+#: $string['crawlstart']
+msgid "Crawl start"
+msgstr ""
+
+#: $string['cronticks']
+msgid "Cron ticks"
+msgstr ""
+
+#: $string['curcrawlstart']
+msgid "Current crawl started at"
+msgstr ""
+
+#: $string['duration']
+msgid "Duration"
+msgstr ""
+
+#: $string['event:crawlstart']
+msgid "Link check crawl started"
+msgstr ""
+
+#: $string['event:crawlstartdesc']
+msgid "Link check crawl started {$a}"
+msgstr ""
+
+#: $string['eventrobotcleanupcompleted']
+msgid "Linkchecker robot cleanup completed"
+msgstr ""
+
+#: $string['eventrobotcleanupcompleteddesc']
+msgid ""
+"Linkchecker robot finished clearing old URLs from crawling history. Number "
+"of removed records: {$a->numrecsdeleted}"
+msgstr ""
+
+#: $string['eventrobotcleanupstarted']
+msgid "Linkchecker robot cleanup started"
+msgstr ""
+
+#: $string['excludecourses']
+msgid "Exclude courses's"
+msgstr ""
+
+#: $string['excludecoursesdesc']
+msgid "One course shortcode regex per line"
+msgstr ""
+
+#: $string['excludeexturl']
+msgid "Exclude external URL's"
+msgstr ""
+
+#: $string['excludeexturldesc']
+msgid "One url regex per line, each is matched against the full url"
+msgstr ""
+
+#: $string['excludemdldom']
+msgid "Exclude moodle DOM's"
+msgstr ""
+
+#: $string['excludemdldomdesc']
+msgid ""
+"One css / xpath expression per line, these parts of the DOM will be removed "
+"before links are extracted"
+msgstr ""
+
+#: $string['excludemdlparam']
+msgid "Exclude moodle url params's"
+msgstr ""
+
+#: $string['excludemdlparamdesc']
+msgid ""
+"One param key per line. Url's using this will still be crawled but with "
+"these params removed to avoid duplicates."
+msgstr ""
+
+#: $string['excludemdlurl']
+msgid "Exclude moodle URL's"
+msgstr ""
+
+#: $string['excludemdlurldesc']
+msgid "One url regex per line, each is matched excluding the wwwroot"
+msgstr ""
+
+#: $string['found']
+msgid "Found"
+msgstr ""
+
+#: $string['frompage']
+msgid "From page"
+msgstr ""
+
+#: $string['good']
+msgid "Good"
+msgstr ""
+
+#: $string['hellorobot']
+msgid "Hello robot: '{$a->botusername}\\"
+msgstr ""
+
+#: $string['idattr']
+msgid "HTML context"
+msgstr ""
+
+#: $string['incomingurls']
+msgid "Incoming URL's"
+msgstr ""
+
+#: $string['incourse']
+msgid "In course"
+msgstr ""
+
+#: $string['lastcrawledtime']
+msgid "Last crawled time"
+msgstr ""
+
+#: $string['lastcrawlend']
+msgid "Last crawl ended at"
+msgstr ""
+
+#: $string['lastcrawlproc']
+msgid "Last crawl process"
+msgstr ""
+
+#: $string['lastqueuesize']
+msgid "Last queue size"
+msgstr ""
+
+#: $string['linktext']
+msgid "Link text"
+msgstr ""
+
+#: $string['maxcrontime']
+msgid "Cron run limit"
+msgstr ""
+
+#: $string['maxcrontimedesc']
+msgid ""
+"The crawler will keep crawling until this limit is hit on each cron tick. In "
+"seconds"
+msgstr ""
+
+#: $string['maxtime']
+msgid "Max execution time"
+msgstr ""
+
+#: $string['maxtimedesc']
+msgid "The timeout for each crawl request"
+msgstr ""
+
+#: $string['mimetype']
+msgid "Mime type"
+msgstr ""
+
+#: $string['missing']
+msgid "Missing"
+msgstr ""
+
+#: $string['neverfinished']
+msgid "Never finished"
+msgstr ""
+
+#: $string['neverrun']
+msgid "Never run"
+msgstr ""
+
+#: $string['notyetknown']
+msgid "Not yet known"
+msgstr ""
+
+#: $string['numberurlsfound']
+msgid "Found {$a->reports_number} {$a->repoprt_type}  URLs"
+msgstr ""
+
+#: $string['numlinks']
+msgid "Total links"
+msgstr ""
+
+#: $string['numurls']
+msgid "Total urls"
+msgstr ""
+
+#: $string['outgoingurls']
+msgid "Outgoing URL's"
+msgstr ""
+
+#: $string['oversize']
+msgid "Big / slow links"
+msgstr ""
+
+#: $string['oversize_header']
+msgid ""
+"<p>Big files with multiple incoming links to them will be duplicated.</p>"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Link crawler robot"
+msgstr ""
+
+#: $string['progress']
+msgid "Progress"
+msgstr ""
+
+#: $string['progresseta']
+msgid "{$a->percent} ETA in {$a->eta}"
+msgstr ""
+
+#: $string['queued']
+msgid "Queued URL's"
+msgstr ""
+
+#: $string['queued_header']
+msgid ""
+"<p>The title and course are only known if the URL has been seen on a "
+"previous crawl.</p>"
+msgstr ""
+
+#: $string['recent']
+msgid "Recently crawled URL's"
+msgstr ""
+
+#: $string['recent_header']
+msgctxt "$string['recent_header']"
+msgid ""
+msgstr ""
+
+#: $string['resetprogress']
+msgid "Reset Progress"
+msgstr ""
+
+#: $string['resetprogress_header']
+msgid "Reset Crawler Progress"
+msgstr ""
+
+#: $string['resetprogress_warning']
+msgid ""
+"Warning. You are about to reset the Crawler. Are you sure you want to do "
+"this?"
+msgstr ""
+
+#: $string['response']
+msgid "Response"
+msgstr ""
+
+#: $string['retentionperiod']
+msgid "Retention period for bad URLs"
+msgstr ""
+
+#: $string['retentionperioddesc']
+msgid "How many days to keep bad URLs in db."
+msgstr ""
+
+#: $string['retry']
+msgid "Retry"
+msgstr ""
+
+#: $string['robotcleanup']
+msgid "Robot cleanup"
+msgstr ""
+
+#: $string['robotstatus']
+msgctxt "$string['robotstatus']"
+msgid "Robot status"
+msgstr ""
+
+#: $string['seedurl']
+msgid "Seed URL"
+msgstr ""
+
+#: $string['seedurldesc']
+msgid "Where the crawler will start"
+msgstr ""
+
+#: $string['settings']
+msgid "Settings"
+msgstr ""
+
+#: $string['size']
+msgid "Size"
+msgstr ""
+
+#: $string['slowurl']
+msgid "Slow URL"
+msgstr ""
+
+#: $string['status']
+msgctxt "$string['status']"
+msgid "Robot status"
+msgstr ""
+
+#: $string['unknown']
+msgid "Unknown"
+msgstr ""
+
+#: $string['url']
+msgid "URL"
+msgstr ""
+
+#: $string['urldetails']
+msgid "URL details"
+msgstr ""
+
+#: $string['urldetails_help']
+msgid ""
+"This shows all incoming and outgoing links for this URL.\n"
+"Links which have been blacklisted or which are in excluded DOM elements will "
+"not be shown."
+msgstr ""
+
+#: $string['useraccount']
+msgid "User account"
+msgstr ""
+
+#: $string['useragent']
+msgid "Bot user agent string"
+msgstr ""
+
+#: $string['useragentdesc']
+msgid ""
+"The User agent string it use in the http headers + the version of this "
+"plugin"
+msgstr ""
+
+#: $string['whenqueued']
+msgid "When queued"
+msgstr ""

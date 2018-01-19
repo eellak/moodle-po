@@ -1,0 +1,271 @@
+#. extracted from lang/en/plagiarism_vericite.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'plagiarism_vericite', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   plagiarism_vericite
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['advanced_settings']
+msgid "Advanced Settings"
+msgstr ""
+
+#: $string['disable_dynamic_inline']
+msgid "Disable dynamic inline submissions"
+msgstr ""
+
+#: $string['disable_dynamic_inline_help']
+msgid ""
+"Disabling dynamic inline submissions will result in one-time submissions "
+"only. Modifications to the inline text by the student will not be re-"
+"submitted to VeriCite."
+msgstr ""
+
+#: $string['enable_debugging']
+msgid "Enable debugging"
+msgstr ""
+
+#: $string['enable_debugging_help']
+msgid ""
+"Enable debugging for the VeriCite module. Errors will be printed to a "
+"vericite.log file in the Moodle dataroot."
+msgstr ""
+
+#: $string['enablestupreviewvericite']
+msgid "Enable Student Preview"
+msgstr ""
+
+#: $string['enablestupreviewvericite_help']
+msgid ""
+"Set the default for all reports submitted to this assignment. If you choose "
+"to enable student preview, users will be able to review and resubmit their "
+"papers until the due date. Instructors will only be able to see the final "
+"submission but a record of the scores for each paper will show in the report "
+"logs. If the assignment has a due date, the student’s most recent draft "
+"will automatically be submitted if there are no submissions from a student."
+msgstr ""
+
+#: $string['enablestupreviewvericite_hideinstructor']
+msgid "Hide setting for \"Enable Student Preview\" from instructor"
+msgstr ""
+
+#: $string['enablestupreviewvericite_hideinstructor_help']
+msgid ""
+"Lock the setting for \"Enable Student Preview\", so that when creating a new "
+"assignment, the instructor cannot see or change the setting."
+msgstr ""
+
+#: $string['excludequotesvericite']
+msgid "Exclude Quotes"
+msgstr ""
+
+#: $string['excludequotesvericite_help']
+msgid ""
+"Set the default for all reports submitted to this assignment. To reduce the "
+"number of false matches, we recommend excluding quotes by default. "
+"Instructors will still retain the ability to toggle this option for each "
+"individual report after submission."
+msgstr ""
+
+#: $string['excludequotesvericite_hideinstructor']
+msgid "Hide setting for \"Exclude Quotes\" from instructor."
+msgstr ""
+
+#: $string['excludequotesvericite_hideinstructor_help']
+msgid ""
+"Lock the settings for Exclude Quotes, so that when creating a new "
+"assignment, the instructor cannot see or change the setting."
+msgstr ""
+
+#: $string['excludeselfplagvericite']
+msgid "Exclude Self Plagiarism"
+msgstr ""
+
+#: $string['excludeselfplagvericite_help']
+msgid ""
+"Set the default for all reports submitted to this assignment. To reduce the "
+"number of false matches, we recommend excluding self plagiarism in the same "
+"course by default. Instructors will still retain the ability to toggle this "
+"option for each individual report after submission. Self plagiarism will "
+"always be checked against the user’s reports in other courses."
+msgstr ""
+
+#: $string['excludeselfplagvericite_hideinstructor']
+msgid "Hide setting for \"Exclude Self Plagiarism\" from Instructor"
+msgstr ""
+
+#: $string['excludeselfplagvericite_hideinstructor_help']
+msgid ""
+"Lock the setting for Exclude Self Plagiarism, so that an when creating a new "
+"assignment, the instructor cannot see or change the setting."
+msgstr ""
+
+#: $string['pluginname']
+msgid "VeriCite"
+msgstr ""
+
+#: $string['preliminaryreportvericite']
+msgid "Show the preliminary similarity score"
+msgstr ""
+
+#: $string['preliminaryreportvericite_help']
+msgid ""
+"Enable to show the preliminary (non-final) similarity score. If disabled "
+"then a score will not be displayed until the final score has been "
+"determined, which could take several hours."
+msgstr ""
+
+#: $string['savedconfigsuccess']
+msgid "Plagiarism Settings Saved"
+msgstr ""
+
+#: $string['sendfiles']
+msgid "VeriCite cron job to submit files"
+msgstr ""
+
+#: $string['similarity']
+msgid "Similarity"
+msgstr ""
+
+#: $string['storeinstindexvericite']
+msgid "Store in Institutional Index"
+msgstr ""
+
+#: $string['storeinstindexvericite_help']
+msgid ""
+"Set the default for all reports submitted to this assignment. If you choose "
+"not to store reports in your institutional index, the reports will not be "
+"used to check for plagiarism against other student reports in your "
+"institution. Once a report has been submitted, you cannot change this option "
+"for that report."
+msgstr ""
+
+#: $string['storeinstindexvericite_hideinstructor']
+msgid "Hide setting for \"Store in Institutional Index\" from instructor"
+msgstr ""
+
+#: $string['storeinstindexvericite_hideinstructor_help']
+msgid ""
+"Lock the setting for Store in Institutional index, so that when creating a "
+"new assignment, the instructor cannot see or change the setting."
+msgstr ""
+
+#: $string['studentdisclosure']
+msgid "Student Disclosure"
+msgstr ""
+
+#: $string['studentdisclosuredefault']
+msgid ""
+"Text and file submissions will be uploaded to a plagiarism detection service "
+"for instructor review."
+msgstr ""
+
+#: $string['studentdisclosure_help']
+msgctxt "$string['studentdisclosure_help']"
+msgid ""
+msgstr ""
+
+#: $string['studentreportvericite']
+msgid "Allow students to view reports"
+msgstr ""
+
+#: $string['studentreportvericite_help']
+msgid ""
+"Enable to allow students to view the full VeriCite report including context "
+"on matches found."
+msgstr ""
+
+#: $string['studentscorevericite']
+msgid "Allow students to view score"
+msgstr ""
+
+#: $string['studentscorevericite_help']
+msgid ""
+"Enable to allow students to see their VeriCite similarity score. Similarity "
+"scores range from 0-100 and represent the amount of content that matches "
+"against other student papers or web content."
+msgstr ""
+
+#: $string['usevericite']
+msgid "Enable VeriCite Plagiarism Service"
+msgstr ""
+
+#: $string['usevericite_help']
+msgid "Enable if you want new assignments to have VeriCite enabled by default."
+msgstr ""
+
+#: $string['vericite']
+msgid "VeriCite plagiarism plugin"
+msgstr ""
+
+#: $string['vericiteaccountid']
+msgid "Account Id"
+msgstr ""
+
+#: $string['vericiteaccountid_help']
+msgid "The id provided as part of a trial agreement with VeriCite"
+msgstr ""
+
+#: $string['vericiteapi']
+msgid "API URL"
+msgstr ""
+
+#: $string['vericiteapi_help']
+msgid "The API URL provided as part of a trial agreement with VeriCite"
+msgstr ""
+
+#: $string['vericitedefaultsettings']
+msgid "Default settings for new assignments:"
+msgstr ""
+
+#: $string['vericitedefaultsettingsforums']
+msgid "Default settings for new forums:"
+msgstr ""
+
+#: $string['vericiteexplain']
+msgid ""
+"VeriCite is a cloud-based service that identifies plagiarism by comparing "
+"submitted work against an ever-increasing database of sources. VeriCite is a "
+"commercial service and requires a valid subscription. 60-days trials are "
+"available at <a href=\"https://vericite.com\" "
+"target=\"_blank\">VeriCite.com</a>.<br/><br/>VeriCite is continuously "
+"monitored and <a href=\"http://status.vericite.com/\" target=\"_blank\"\">status "
+"updates are available</a>.<br/><br/>News and system updates are available at "
+"<a href=\"https://updates.vericite.com\" "
+"target=\"_blank\"/>updates.vericite.com</a>.<br/><hr/>"
+msgstr ""
+
+#: $string['vericitesecretkey']
+msgid "Secret Key"
+msgstr ""
+
+#: $string['vericitesecretkey_help']
+msgid "The secret provided as part of a trial agreement with VeriCite"
+msgstr ""

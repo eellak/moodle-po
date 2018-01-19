@@ -1,0 +1,335 @@
+#. extracted from lang/en/qtype_ddmarker.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qtype_ddmarker', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   qtype_ddmarker
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addmoreitems']
+msgid "Blanks for {no} more markers"
+msgstr ""
+
+#: $string['alttext']
+msgid "Alt text"
+msgstr ""
+
+#: $string['answer']
+msgid "Answer"
+msgstr ""
+
+#: $string['bgimage']
+msgid "Background image"
+msgstr ""
+
+#: $string['clearwrongparts']
+msgid ""
+"Move incorrectly placed markers back to default start position below image"
+msgstr ""
+
+#: $string['coords']
+msgid "Coordinates"
+msgstr ""
+
+#: $string['correctansweris']
+msgid "The correct answer is: {$a}"
+msgstr ""
+
+#: $string['draggableimage']
+msgid "Draggable image"
+msgstr ""
+
+#: $string['draggableitem']
+msgid "Draggable item"
+msgstr ""
+
+#: $string['draggableitemheader']
+msgid "Draggable item {$a}"
+msgstr ""
+
+#: $string['draggableitemtype']
+msgid "Type"
+msgstr ""
+
+#: $string['draggableword']
+msgid "Draggable text"
+msgstr ""
+
+#: $string['dropbackground']
+msgid "Background image for dragging markers onto"
+msgstr ""
+
+#: $string['dropzone']
+msgctxt "$string['dropzone']"
+msgid "Drop zone {$a}"
+msgstr ""
+
+#: $string['dropzoneheader']
+msgctxt "$string['dropzoneheader']"
+msgid "Drop zones"
+msgstr ""
+
+#: $string['dropzones']
+msgctxt "$string['dropzones']"
+msgid "Drop zones"
+msgstr ""
+
+#: $string['dropzones_help']
+msgid ""
+"The drop zones are defined by typing coordinates. As you type, the preview "
+"above is immediately updated, so you can position things by trial and "
+"improvement.\n"
+"\n"
+"* Circle: centre_x, centre_y; radius<br>for example: <code>80, 100; "
+"50</code>\n"
+"* Polygon: x1, y1; x2, y2; ...; xn, yn<br>for example: <code>20, 60; 100, "
+"60; 20, 100</code>\n"
+"* Rectangle: top_left_x, top_left_y; width, height<br>for example: <code>20, "
+"60; 80, 40</code>"
+msgstr ""
+
+#: $string['followingarewrong']
+msgid "The following markers have been placed in the wrong area : {$a}."
+msgstr ""
+
+#: $string['followingarewrongandhighlighted']
+msgid ""
+"The following markers were incorrectly placed :  {$a}. Highlighted marker(s) "
+"are now shown with the correct placement(s).<br /> Click on the marker to "
+"highlight the allowed area."
+msgstr ""
+
+#: $string['formerror_nobgimage']
+msgid ""
+"You need to select an image to use as the background for the drag and drop "
+"area."
+msgstr ""
+
+#: $string['formerror_noitemselected']
+msgid ""
+"You have specified a drop zone but not chosen a marker that must be dragged "
+"to the zone."
+msgstr ""
+
+#: $string['formerror_nosemicolons']
+msgid ""
+"There are no semicolons in your coordinates string. Your coordinates for a "
+"{$a->shape} should be expressed as - {$a->coordsstring}."
+msgstr ""
+
+#: $string['formerror_onlysometagsallowed']
+msgid "Only \"{$a}\" tags are allowed in the label for a marker."
+msgstr ""
+
+#: $string['formerror_onlyusewholepositivenumbers']
+msgid ""
+"Please use only whole positive numbers to specify x,y coordinates and/or "
+"width and height of shapes. Your coordinates for a {$a->shape} should be "
+"expressed as - {$a->coordsstring}."
+msgstr ""
+
+#: $string['formerror_polygonmusthaveatleastthreepoints']
+msgid ""
+"For a polygon shape you need to specify at least 3 points. Your coordinates "
+"for a {$a->shape} should be expressed as - {$a->coordsstring}."
+msgstr ""
+
+#: $string['formerror_repeatedpoint']
+msgid ""
+"You have entered the same coordinates twice. Each point must be unique. Your "
+"coordinates for a {$a->shape} should be expressed as - {$a->coordsstring}."
+msgstr ""
+
+#: $string['formerror_shapeoutsideboundsofbgimage']
+msgid ""
+"The shape you have defined goes out of the bounds of the background image."
+msgstr ""
+
+#: $string['formerror_toomanysemicolons']
+msgid ""
+"There are too many semicolon-separated parts to the coordinates you have "
+"specified. Your coordinates for a {$a->shape} should be expressed as - "
+"{$a->coordsstring}."
+msgstr ""
+
+#: $string['formerror_unrecognisedwidthheightpart']
+msgid ""
+"The width and height that you have specified are unrecognisable. Your "
+"coordinates for a {$a->shape} should be expressed as - {$a->coordsstring}."
+msgstr ""
+
+#: $string['formerror_unrecognisedxypart']
+msgid ""
+"The x,y coordinates that you have specified are unrecognisable. Your "
+"coordinates for a {$a->shape} should be expressed as - {$a->coordsstring}."
+msgstr ""
+
+#: $string['infinite']
+msgid "Infinite"
+msgstr ""
+
+#: $string['marker']
+msgid "Marker"
+msgstr ""
+
+#: $string['marker_n']
+msgid "Marker {no}"
+msgstr ""
+
+#: $string['markers']
+msgid "Markers"
+msgstr ""
+
+#: $string['nolabel']
+msgid "No label text"
+msgstr ""
+
+#: $string['noofdrags']
+msgid "Number"
+msgstr ""
+
+#: $string['pleasedragatleastonemarker']
+msgid ""
+"Your answer is not complete; you must place at least one marker on the "
+"image."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Drag and drop markers"
+msgstr ""
+
+#: $string['pluginnameadding']
+msgid "Adding drag and drop markers"
+msgstr ""
+
+#: $string['pluginnameediting']
+msgid "Editing drag and drop markers"
+msgstr ""
+
+#: $string['pluginname_help']
+msgid ""
+"Drag and drop markers require the respondent to drag text labels and drop "
+"them into defined drop zones on a background image."
+msgstr ""
+
+#: $string['pluginname_link']
+msgid "question/type/ddmarker"
+msgstr ""
+
+#: $string['pluginnamesummary']
+msgid "Markers are dragged and dropped onto a background image."
+msgstr ""
+
+#: $string['previewareaheader']
+msgid "Preview"
+msgstr ""
+
+#: $string['previewareamessage']
+msgid ""
+"Select a background image file, enter text labels for markers and define the "
+"drop zones on the background image to which they must be dragged."
+msgstr ""
+
+#: $string['refresh']
+msgid "Refresh preview"
+msgstr ""
+
+#: $string['shape']
+msgid "Shape"
+msgstr ""
+
+#: $string['shape_circle']
+msgid "Circle"
+msgstr ""
+
+#: $string['shape_circle_coords']
+msgid ""
+"x,y;r (where x,y are the coordinates of the centre of the circle and r is "
+"the radius)"
+msgstr ""
+
+#: $string['shape_circle_lowercase']
+msgid "circle"
+msgstr ""
+
+#: $string['shape_polygon']
+msgid "Polygon"
+msgstr ""
+
+#: $string['shape_polygon_coords']
+msgid ""
+"x1,y1;x2,y2;x3,y3;x4,y4... (where x1, y1 are the coordinates of the first "
+"vertex, x2, y2 are the coordinates of the second etc. There is no need to "
+"repeat the coordinates for the first vertex to close the polygon.)"
+msgstr ""
+
+#: $string['shape_polygon_lowercase']
+msgid "polygon"
+msgstr ""
+
+#: $string['shape_rectangle']
+msgid "Rectangle"
+msgstr ""
+
+#: $string['shape_rectangle_coords']
+msgid ""
+"x,y;w,h (where x,y are the coordinates of the top left corner of the "
+"rectangle and w and h are the width and height of the rectangle)"
+msgstr ""
+
+#: $string['shape_rectangle_lowercase']
+msgid "rectangle"
+msgstr ""
+
+#: $string['showmisplaced']
+msgid ""
+"Highlight drop zones which have not had the correct marker dropped on them"
+msgstr ""
+
+#: $string['shuffleimages']
+msgid "Shuffle drag items each time question is attempted"
+msgstr ""
+
+#: $string['stateincorrectlyplaced']
+msgid "State which markers are incorrectly placed"
+msgstr ""
+
+#: $string['summariseplace']
+msgid "{$a->no}. {$a->text}"
+msgstr ""
+
+#: $string['summariseplaceno']
+msgctxt "$string['summariseplaceno']"
+msgid "Drop zone {$a}"
+msgstr ""
+
+#: $string['ytop']
+msgid "Top"
+msgstr ""

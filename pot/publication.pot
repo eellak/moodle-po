@@ -1,0 +1,713 @@
+#. extracted from lang/en/publication.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'publication', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   publication
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['add_uploads']
+msgid "Add files"
+msgstr ""
+
+#: $string['allfiles']
+msgid "All files"
+msgstr ""
+
+#: $string['allowedfiletypes']
+msgid "Allowed filetypes (;)"
+msgstr ""
+
+#: $string['allowedfiletypes_err']
+msgid "Check input! Invalid file extensions or seperators"
+msgstr ""
+
+#: $string['allowedfiletypes_help']
+msgid ""
+"Accepted file types can be restricted by entering a semicolon-separated list "
+"of mimetypes, e.g. 'video/mp4; audio/mp3; image/png; image/jpeg', or file "
+"extensions including a dot, e.g. '.png; .jpg'. If the field is left empty, "
+"then all file types are allowed."
+msgstr ""
+
+#: $string['allowsubmissionsanddescriptionfromdatesummary']
+msgid ""
+"The assignment details and submission form will be available from "
+"<strong>{$a}</strong>"
+msgstr ""
+
+#: $string['allowsubmissionsfromdate']
+msgid "from"
+msgstr ""
+
+#: $string['allowsubmissionsfromdateh']
+msgctxt "$string['allowsubmissionsfromdateh']"
+msgid "Timeslot for Upload/Approval"
+msgstr ""
+
+#: $string['allowsubmissionsfromdateh_help']
+msgid ""
+"You can determine the period of time during which students can upload files "
+"or give their approval for file publication. During this time period "
+"students can edit their files and can also withdraw their approval for "
+"publication."
+msgstr ""
+
+#: $string['allowsubmissionsfromdate_import']
+msgid "Approval from"
+msgstr ""
+
+#: $string['allowsubmissionsfromdatesummary']
+msgid "This assignment will accept submissions from <strong>{$a}</strong>"
+msgstr ""
+
+#: $string['allowsubmissionsfromdate_upload']
+msgid "Upload possibility from"
+msgstr ""
+
+#: $string['alwaysshowdescription']
+msgid "Always show description"
+msgstr ""
+
+#: $string['alwaysshowdescription_help']
+msgid ""
+"If disabled, the Assignment Description above will only become visible to "
+"students at the \"Allow submissions from\" date."
+msgstr ""
+
+#: $string['approval_timeover']
+msgid "You can only change your approval during the changeperiod."
+msgstr ""
+
+#: $string['approved']
+msgid "Approved"
+msgstr ""
+
+#: $string['approveusers']
+msgctxt "$string['approveusers']"
+msgid "visible for all"
+msgstr ""
+
+#: $string['assignment']
+msgid "Assignment"
+msgstr ""
+
+#: $string['assignment_help']
+msgid ""
+"Choose the assignment to import files from. In the moment group-assignments "
+"are not supported and therefore not selectable."
+msgstr ""
+
+#: $string['assignment_notfound']
+msgid ""
+"The assignment from which files were imported, could no longer be found."
+msgstr ""
+
+#: $string['assignment_notset']
+msgid "No assignment has been chosen."
+msgstr ""
+
+#: $string['autoimport']
+msgid "Sync automatically with Assignment"
+msgstr ""
+
+#: $string['autoimport_help']
+msgid ""
+"If activated, new submissions will in corresponding Assigment will be "
+"imported automatically into student folder module. (Optional) "
+"Studentapproval has to be obtained again for the new files."
+msgstr ""
+
+#: $string['availability']
+msgctxt "$string['availability']"
+msgid "Timeslot for Upload/Approval"
+msgstr ""
+
+#: $string['choose']
+msgid "please choose ..."
+msgstr ""
+
+#: $string['configautoimport']
+msgid ""
+"If you prefer to have student submissions be automatically imported into "
+"student folder instances. This feature can be enabled/disabled for each "
+"student folder instance separately."
+msgstr ""
+
+#: $string['configmaxbytes']
+msgid "Default maximum size for all files in the student folder."
+msgstr ""
+
+#: $string['configmaxfiles']
+msgid "Default maximum number of attachments allowed per user."
+msgstr ""
+
+#: $string['configobtainstudentapproval']
+msgid "Documents are visible after the student´s consent."
+msgstr ""
+
+#: $string['configobtainteacherapproval']
+msgid ""
+"Documents of students are by default visible for all other participants."
+msgstr ""
+
+#: $string['configrequiremodintro']
+msgid ""
+"Disable this option if you do not want to force users to enter description "
+"of each activity."
+msgstr ""
+
+#: $string['courseuploadlimit']
+msgid "Course upload limit"
+msgstr ""
+
+#: $string['cutoffdate']
+msgid "Cut-off date"
+msgstr ""
+
+#: $string['cutoffdatefromdatevalidation']
+msgid "Cut-off date must be after the allow submissions from date."
+msgstr ""
+
+#: $string['cutoffdate_help']
+msgid ""
+"If set, the assignment will not accept submissions after this date without "
+"an extension."
+msgstr ""
+
+#: $string['cutoffdate_import']
+msgid "Last approval to"
+msgstr ""
+
+#: $string['cutoffdate_upload']
+msgid "Last upload posssibility to"
+msgstr ""
+
+#: $string['cutoffdatevalidation']
+msgid "The cut-off date cannot be earlier than the due date."
+msgstr ""
+
+#: $string['details']
+msgctxt "$string['details']"
+msgid "Details"
+msgstr ""
+
+#: $string['downloadall']
+msgid "Download all files as ZIP"
+msgstr ""
+
+#: $string['duedate']
+msgid "to"
+msgstr ""
+
+#: $string['duedate_help']
+msgid ""
+"This is when the assignment is due. Submissions will still be allowed after "
+"this date but any assignments submitted after this date are marked as late. "
+"To prevent submissions after a certain date - set the assignment cut off "
+"date."
+msgstr ""
+
+#: $string['duedate_import']
+msgid "Approval to"
+msgstr ""
+
+#: $string['duedate_upload']
+msgid "Upload possibility to"
+msgstr ""
+
+#: $string['duedatevalidation']
+msgid "Due date must be after the allow submissions from date."
+msgstr ""
+
+#: $string['edit_timeover']
+msgid "Files can only be edited during the changeperiod."
+msgstr ""
+
+#: $string['edit_uploads']
+msgid "edit/upload files"
+msgstr ""
+
+#: $string['entiresperpage']
+msgid "Participants shown per page"
+msgstr ""
+
+#: $string['extensionduedate']
+msgid "Extension due date"
+msgstr ""
+
+#: $string['extensionnotafterduedate']
+msgid "Extension date must be after the due date"
+msgstr ""
+
+#: $string['extensionnotafterfromdate']
+msgid "Extension date must be after the allow submissions from date"
+msgstr ""
+
+#: $string['extensionto']
+msgid "Extension to"
+msgstr ""
+
+#: $string['filedetails']
+msgctxt "$string['filedetails']"
+msgid "Details"
+msgstr ""
+
+#: $string['filesofthesetypes']
+msgid "Files of these types may be added:"
+msgstr ""
+
+#: $string['go']
+msgid "Go"
+msgstr ""
+
+#: $string['grantextension']
+msgid "grant extension"
+msgstr ""
+
+#: $string['groupapprovalmode']
+msgid "Groupapproval mode"
+msgstr ""
+
+#: $string['groupapprovalmode_all']
+msgid "<strong>ALL</strong> members of the group have to approve"
+msgstr ""
+
+#: $string['groupapprovalmode_help']
+msgid ""
+"Here you decide if approval of all group members or just approval of at "
+"least one group member is required for files to be visible. The files will "
+"only be visible after approval by all group members or at least one group "
+"member."
+msgstr ""
+
+#: $string['groupapprovalmode_single']
+msgid "at least <strong>ONE</strong> member has to approve"
+msgstr ""
+
+#: $string['guideline']
+msgid "visible for everybody:"
+msgstr ""
+
+#: $string['hidden']
+msgid "hidden"
+msgstr ""
+
+#: $string['hideidnumberfromstudents']
+msgid "Hide ID-Number"
+msgstr ""
+
+#: $string['hideidnumberfromstudents_desc']
+msgid "Hide column ID-Number in Public Files table for students"
+msgstr ""
+
+#: $string['importfrom_err']
+msgid "You have to choose an assignment you want to import from."
+msgstr ""
+
+#: $string['maxbytes']
+msgid "Maximum attachment size"
+msgstr ""
+
+#: $string['maxfiles']
+msgid "Maximum number of attachments"
+msgstr ""
+
+#: $string['mode']
+msgid "Mode"
+msgstr ""
+
+#: $string['mode_help']
+msgid ""
+"Choose whether students can upload documents in the folder or documents of "
+"an assignment are the source of it."
+msgstr ""
+
+#: $string['modeimport']
+msgid "take documents from an assignment"
+msgstr ""
+
+#: $string['modeupload']
+msgid "students can upload documents"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Student folder"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"The student folder offers the following features:\n"
+"\n"
+"* Participants can upload documents that are available to other participants "
+"immediately or after you have checked the documents and given your consent.\n"
+"* An assignment can be chosen as a basis for a student folder. The teacher "
+"can decide which documents of the assignment are visible for all "
+"participants. Teachers can also let the participants decide whether their "
+"documents should be visible to others."
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Student folders"
+msgstr ""
+
+#: $string['myfiles']
+msgid "Own files"
+msgstr ""
+
+#: $string['mygroupfiles']
+msgid "My group's files"
+msgstr ""
+
+#: $string['name']
+msgid "Student folder name"
+msgstr ""
+
+#: $string['noentries']
+msgid "No entries"
+msgstr ""
+
+#: $string['nofiles']
+msgid "No files available"
+msgstr ""
+
+#: $string['nofilestozip']
+msgid "No files to zip"
+msgstr ""
+
+#: $string['nonexistentfiletypes']
+msgid "The following file types were not recognised: {$a}"
+msgstr ""
+
+#: $string['nopublicationsincourse']
+msgid "There are no student folder instances in this course."
+msgstr ""
+
+#: $string['nothingtodisplay']
+msgid "No entries to display"
+msgstr ""
+
+#: $string['nothing_to_show_groups']
+msgid "nothing to display - no group available"
+msgstr ""
+
+#: $string['nothing_to_show_users']
+msgid "nothing to display - no students available"
+msgstr ""
+
+#: $string['notice']
+msgid "Notice:"
+msgstr ""
+
+#: $string['notice_groupimportrequireallapproval']
+msgid ""
+"Decide whether your files are available for everyone. All group members must "
+"give their approval before the file will be visible."
+msgstr ""
+
+#: $string['notice_groupimportrequireoneapproval']
+msgid ""
+"Decide whether your files are available for everyone. A single group "
+"member's approval is enough for the file to be visible. Please discuss group "
+"internally if your file should be visible or not before approving it!"
+msgstr ""
+
+#: $string['notice_importnoapproval']
+msgid "The following files are visible to all."
+msgstr ""
+
+#: $string['notice_importrequireapproval']
+msgid "Decide whether your files are available for everyone."
+msgstr ""
+
+#: $string['notice_uploadnoapproval']
+msgid ""
+"All files will be immediately visible to everyone upon upload. The teacher "
+"reserves the right to hide published files at any time."
+msgstr ""
+
+#: $string['notice_uploadrequireapproval']
+msgid "All uploaded files will be made visible only after the teacher’s review"
+msgstr ""
+
+#: $string['obtainstudentapproval']
+msgid "Obtain approval"
+msgstr ""
+
+#: $string['obtainstudentapproval_help']
+msgid ""
+"Decide if students approval will be obtained: <br><ul><li> yes - files will "
+"be visible to all only after the student approved. The teacher may select "
+"individual students/files to ask for approval.</li><li> no - the student’s "
+"approval will not be obtained via Moodle. The file’s visibility is solely "
+"the teacher’s desicion.</li></ul>"
+msgstr ""
+
+#: $string['obtainteacherapproval']
+msgid "Approved by default"
+msgstr ""
+
+#: $string['obtainteacherapproval_help']
+msgid ""
+"Decide if files will be made visible immediately upon upload or not: "
+"<br><ul><li> yes - all files will be visible to everyone right away</li><li> "
+"no - files will be published only after the teacher approved</li></ul>"
+msgstr ""
+
+#: $string['optionalsettings']
+msgid "Options"
+msgstr ""
+
+#: $string['pending']
+msgid "Pending"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Student folder administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Student folder"
+msgstr ""
+
+#: $string['publication:addinstance']
+msgid "Add a new student folder"
+msgstr ""
+
+#: $string['publication:approve']
+msgid "Decide if files should be visible for every student"
+msgstr ""
+
+#: $string['publication:grantextension']
+msgid "Grant extension"
+msgstr ""
+
+#: $string['publication:upload']
+msgid "Upload files to a student folder"
+msgstr ""
+
+#: $string['publication:view']
+msgid "View student folder"
+msgstr ""
+
+#: $string['publicfiles']
+msgid "Public files"
+msgstr ""
+
+#: $string['published_aftercheck']
+msgid "no, only after approval by a teacher"
+msgstr ""
+
+#: $string['published_immediately']
+msgid "yes immediately, without approval by a teacher"
+msgstr ""
+
+#: $string['rejected']
+msgid "Rejected"
+msgstr ""
+
+#: $string['rejectusers']
+msgid "invisible for all"
+msgstr ""
+
+#: $string['requiremodintro']
+msgid "Require activity description"
+msgstr ""
+
+#: $string['reset']
+msgid "Revert"
+msgstr ""
+
+#: $string['resetstudentapproval']
+msgid "Reset status"
+msgstr ""
+
+#: $string['reset_userdata']
+msgid "All data"
+msgstr ""
+
+#: $string['saveapproval']
+msgctxt "$string['saveapproval']"
+msgid "save approval"
+msgstr ""
+
+#: $string['save_changes']
+msgid "Save changes"
+msgstr ""
+
+#: $string['savestudentapprovalwarning']
+msgid ""
+"Are you sure you want to save these changes? You can not change the status "
+"once is it set."
+msgstr ""
+
+#: $string['saveteacherapproval']
+msgctxt "$string['saveteacherapproval']"
+msgid "save approval"
+msgstr ""
+
+#: $string['search:activity']
+msgid "Student folder - activity information"
+msgstr ""
+
+#: $string['show_details']
+msgid "Show details"
+msgstr ""
+
+#: $string['status']
+msgctxt "$string['status']"
+msgid "Status"
+msgstr ""
+
+#: $string['studentapproval']
+msgctxt "$string['studentapproval']"
+msgid "Status"
+msgstr ""
+
+#: $string['studentapproval_help']
+msgid ""
+"The colum status represents the students reply of the approval:\n"
+"\n"
+"* ? - approval pending\n"
+"* ✓ - approval given\n"
+"* ✖ - approval declined"
+msgstr ""
+
+#: $string['student_approve']
+msgid "approve"
+msgstr ""
+
+#: $string['student_approved']
+msgid "approved"
+msgstr ""
+
+#: $string['student_pending']
+msgid "not visible (not approved)"
+msgstr ""
+
+#: $string['student_reject']
+msgid "reject"
+msgstr ""
+
+#: $string['student_rejected']
+msgid "rejected"
+msgstr ""
+
+#: $string['teacherapproval']
+msgid "Approval"
+msgstr ""
+
+#: $string['teacher_approved']
+msgid "visible (approved)"
+msgstr ""
+
+#: $string['teacher_pending']
+msgid "confirmation pending"
+msgstr ""
+
+#: $string['teacher_rejected']
+msgid "declined"
+msgstr ""
+
+#: $string['total']
+msgid "total"
+msgstr ""
+
+#: $string['updatefiles']
+msgid "Update files"
+msgstr ""
+
+#: $string['updatefileswarning']
+msgid ""
+"Files from an individual student in the student folder will be updated with "
+"his/her submission of the assignment. Already visible files from students "
+"will be replaced too, if they are deleted or refreshed - the settings of the "
+"student as to the visibility will not be changed."
+msgstr ""
+
+#: $string['visibility']
+msgctxt "$string['visibility']"
+msgid "visible for all"
+msgstr ""
+
+#: $string['visible']
+msgid "visible"
+msgstr ""
+
+#: $string['visibleforstudents']
+msgid "visible to all"
+msgstr ""
+
+#: $string['visibleforstudents_no']
+msgid "This file is NOT visible to stundets"
+msgstr ""
+
+#: $string['visibleforstudents_yes']
+msgid "Stundets can see this file"
+msgstr ""
+
+#: $string['warning_changefromobtainstudentapproval']
+msgid ""
+"If you perform this change, only you can decide which files are visible to "
+"all students. The students are not asked for their approval. All files "
+"marked as approved will become visible to all students independent of the "
+"students' decisions."
+msgstr ""
+
+#: $string['warning_changefromobtainteacherapproval']
+msgid ""
+"After activating this setting, all uploaded files will be visible to other "
+"participants. All uploaded will become visible. You can manually make files "
+"invisible to certain students."
+msgstr ""
+
+#: $string['warning_changetoobtainstudentapproval']
+msgid ""
+"If you perform this change, the students are asked for their approval for "
+"all files marked as visible. Files will only become visible after the "
+"students' approval."
+msgstr ""
+
+#: $string['warning_changetoobtainteacherapproval']
+msgid ""
+"After deactivating this setting uploaded files will not be visible to other "
+"participants automatically. You will have to determine which files are "
+"visible. Already visible files will become invisible."
+msgstr ""
+
+#: $string['withselected']
+msgid "With selected..."
+msgstr ""
+
+#: $string['zipusers']
+msgid "Download as ZIP"
+msgstr ""

@@ -1,0 +1,3862 @@
+#. extracted from lang/en/quiz.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'quiz', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   quiz
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['accessnoticesheader']
+msgid ""
+"You can preview this quiz, but if this were a real attempt, you would be "
+"blocked because:"
+msgstr ""
+
+#: $string['action']
+msgid "Action"
+msgstr ""
+
+#: $string['activityoverview']
+msgid "You have quizzes that are due"
+msgstr ""
+
+#: $string['adaptive']
+msgid "Adaptive mode"
+msgstr ""
+
+#: $string['adaptive_help']
+msgid ""
+"If enabled, multiple responses to a question are allowed within the same "
+"attempt at the quiz. So for example if a response is marked as incorrect, "
+"the student will be allowed to try again immediately. However, depending on "
+"the \"Apply penalties\" setting, a penalty will usually be subtracted for each "
+"wrong attempt."
+msgstr ""
+
+#: $string['add']
+msgid "Add"
+msgstr ""
+
+#: $string['addaquestion']
+msgid "a new question"
+msgstr ""
+
+#: $string['addarandomquestion']
+msgid "a random question"
+msgstr ""
+
+#: $string['addarandomquestion_help']
+msgid ""
+"When a random question is added, it results in a randomly-chosen question "
+"from the category being inserted into the quiz. This means that different "
+"students are likely to get a different selection of questions, and when a "
+"quiz allows multiple attempts then each attempt is likely to contain a new "
+"selection of questions."
+msgstr ""
+
+#: $string['addarandomselectedquestion']
+msgid "Add a random selected question ..."
+msgstr ""
+
+#: $string['addasection']
+msgid "a new section heading"
+msgstr ""
+
+#: $string['adddescriptionlabel']
+msgid "Add a description item"
+msgstr ""
+
+#: $string['addingquestion']
+msgid "Adding a question"
+msgstr ""
+
+#: $string['addingquestions']
+msgid ""
+"<p>This side of the page is where you manage your database of questions. "
+"Questions are stored in categories to help you keep them organised, and can "
+"be used by any quiz in your course or even other courses if you choose to "
+"'publish' them.</p>\n"
+"<p>After you select or create a question category you will be able to create "
+"or edit questions. You can select any of these questions to add to your "
+"quiz over on the other side of this page.</p>"
+msgstr ""
+
+#: $string['addmoreoverallfeedbacks']
+msgid "Add {no} more feedback fields"
+msgstr ""
+
+#: $string['addnewgroupoverride']
+msgid "Add group override"
+msgstr ""
+
+#: $string['addnewpagesafterselected']
+msgid "Add new pages after selected questions"
+msgstr ""
+
+#: $string['addnewquestionsqbank']
+msgid "Add questions to the category {$a->catname}: {$a->link}"
+msgstr ""
+
+#: $string['addnewuseroverride']
+msgid "Add user override"
+msgstr ""
+
+#: $string['addpagebreak']
+msgid "Add page break"
+msgstr ""
+
+#: $string['addpagehere']
+msgid "Add page here"
+msgstr ""
+
+#: $string['addquestion']
+msgid "Add question"
+msgstr ""
+
+#: $string['addquestionfrombankatend']
+msgid "Add from the question bank at the end"
+msgstr ""
+
+#: $string['addquestionfrombanktopage']
+msgid "Add from the question bank to page {$a}"
+msgstr ""
+
+#: $string['addquestions']
+msgid "Add questions"
+msgstr ""
+
+#: $string['addquestionstoquiz']
+msgid "Add questions to current quiz"
+msgstr ""
+
+#: $string['addrandom']
+msgid "Add {$a} random questions"
+msgstr ""
+
+#: $string['addrandom1']
+msgid "<< Add"
+msgstr ""
+
+#: $string['addrandom2']
+msgid "random questions"
+msgstr ""
+
+#: $string['addrandomfromcategory']
+msgid "Add random questions from category:"
+msgstr ""
+
+#: $string['addrandomquestion']
+msgid "Add random question"
+msgstr ""
+
+#: $string['addrandomquestionatend']
+msgid "Add a random question at the end"
+msgstr ""
+
+#: $string['addrandomquestiontopage']
+msgid "Add a random question to page {$a}"
+msgstr ""
+
+#: $string['addrandomquestiontoquiz']
+msgid "Add a random question to quiz {$a}"
+msgstr ""
+
+#: $string['addselectedquestionstoquiz']
+msgid "Add selected questions to the quiz"
+msgstr ""
+
+#: $string['addselectedtoquiz']
+msgid "Add selected to quiz"
+msgstr ""
+
+#: $string['addtoquiz']
+msgid "Add to quiz"
+msgstr ""
+
+#: $string['affectedstudents']
+msgid "Affected {$a}"
+msgstr ""
+
+#: $string['aftereachquestion']
+msgid "After adding each question"
+msgstr ""
+
+#: $string['afternquestions']
+msgid "After adding {$a} questions"
+msgstr ""
+
+#: $string['age']
+msgid "age"
+msgstr ""
+
+#: $string['allattempts']
+msgid "All attempts"
+msgstr ""
+
+#: $string['allinone']
+msgid "Unlimited"
+msgstr ""
+
+#: $string['allowreview']
+msgid "Allow review"
+msgstr ""
+
+#: $string['alreadysubmitted']
+msgid "It is likely that you have already submitted this attempt"
+msgstr ""
+
+#: $string['alternativeunits']
+msgid "Alternative units"
+msgstr ""
+
+#: $string['alwaysavailable']
+msgid "Always available"
+msgstr ""
+
+#: $string['analysisoptions']
+msgid "Analysis options"
+msgstr ""
+
+#: $string['analysistitle']
+msgid "Item analysis table"
+msgstr ""
+
+#: $string['answer']
+msgid "Answer"
+msgstr ""
+
+#: $string['answered']
+msgid "Answered"
+msgstr ""
+
+#: $string['answerhowmany']
+msgid "One or multiple answers?"
+msgstr ""
+
+#: $string['answers']
+msgid "Answers"
+msgstr ""
+
+#: $string['answersingleno']
+msgid "Multiple answers allowed"
+msgstr ""
+
+#: $string['answersingleyes']
+msgid "One answer only"
+msgstr ""
+
+#: $string['answertoolong']
+msgid "Answer too long after line {$a} (255 char. max)"
+msgstr ""
+
+#: $string['aon']
+msgid "AON format"
+msgstr ""
+
+#: $string['areyousureremoveselected']
+msgid "Are you sure you want to remove all the selected questions?"
+msgstr ""
+
+#: $string['asshownoneditscreen']
+msgid "As shown on the edit screen"
+msgstr ""
+
+#: $string['attempt']
+msgid "Attempt {$a}"
+msgstr ""
+
+#: $string['attemptalreadyclosed']
+msgid "This attempt has already been finished."
+msgstr ""
+
+#: $string['attemptclosed']
+msgid "Attempt has not closed yet"
+msgstr ""
+
+#: $string['attemptduration']
+msgctxt "$string['attemptduration']"
+msgid "Time taken"
+msgstr ""
+
+#: $string['attemptedon']
+msgid "Attempted on"
+msgstr ""
+
+#: $string['attempterror']
+msgid "You are not allowed to attempt this quiz at this time because: {$a}"
+msgstr ""
+
+#: $string['attemptfirst']
+msgid "First attempt"
+msgstr ""
+
+#: $string['attemptincomplete']
+msgid "That attempt (by {$a}) is not yet completed."
+msgstr ""
+
+#: $string['attemptlast']
+msgid "Last attempt"
+msgstr ""
+
+#: $string['attemptnumber']
+msgid "Attempt"
+msgstr ""
+
+#: $string['attemptquiznow']
+msgid "Attempt quiz now"
+msgstr ""
+
+#: $string['attempts']
+msgid "Attempts"
+msgstr ""
+
+#: $string['attemptsallowed']
+msgid "Attempts allowed"
+msgstr ""
+
+#: $string['attemptsdeleted']
+msgid "Quiz attempts deleted"
+msgstr ""
+
+#: $string['attemptselection']
+msgid "Select which attempts to analyze per user:"
+msgstr ""
+
+#: $string['attemptsexist']
+msgid "You can no longer add or remove questions."
+msgstr ""
+
+#: $string['attempts_help']
+msgid ""
+"The total number of attempts allowed (not the number of extra attempts)."
+msgstr ""
+
+#: $string['attemptsnum']
+msgid "Attempts: {$a}"
+msgstr ""
+
+#: $string['attemptsnumthisgroup']
+msgid "Attempts: {$a->total} ({$a->group} from this group)"
+msgstr ""
+
+#: $string['attemptsnumyourgroups']
+msgid "Attempts: {$a->total} ({$a->group} from your groups)"
+msgstr ""
+
+#: $string['attemptsonly']
+msgid "Show only students with attempts"
+msgstr ""
+
+#: $string['attemptstate']
+msgid "State"
+msgstr ""
+
+#: $string['attemptstillinprogress']
+msgid "Attempt still in progress"
+msgstr ""
+
+#: $string['attemptsunlimited']
+msgid "Unlimited attempts"
+msgstr ""
+
+#: $string['autosaveperiod']
+msgid "Auto-save delay"
+msgstr ""
+
+#: $string['autosaveperiod_desc']
+msgid ""
+"Responses can be saved automatically during quiz attempts. The responses are "
+"saved whenever one is changed, and then after this delay. There is a trade-"
+"off: a shorter delay increases the server load, but reduces the chance that "
+"students lose their work. If you are going to make this delay much shorter, "
+"you should change the value gradually and monitor the server load. If the "
+"load gets too high, make the delay longer again. Setting the delay to 0 "
+"turns off auto-saving."
+msgstr ""
+
+#: $string['back']
+msgid "Back to preview question"
+msgstr ""
+
+#: $string['backtocourse']
+msgid "Back to the course"
+msgstr ""
+
+#: $string['backtoquestionlist']
+msgid "Back to question list"
+msgstr ""
+
+#: $string['backtoquiz']
+msgid "Back to quiz editing"
+msgstr ""
+
+#: $string['basicideasofquiz']
+msgid "The basic ideas of quiz-making"
+msgstr ""
+
+#: $string['bestgrade']
+msgid "Best grade"
+msgstr ""
+
+#: $string['bothattempts']
+msgid "Show students with and without attempts"
+msgstr ""
+
+#: $string['browsersecurity']
+msgid "Browser security"
+msgstr ""
+
+#: $string['browsersecurity_help']
+msgid ""
+"If \"Full screen pop-up with some JavaScript security\" is selected,\n"
+"\n"
+"* The quiz will only start if the student has a JavaScript-enabled web-"
+"browser\n"
+"* The quiz appears in a full screen popup window that covers all the other "
+"windows and has no navigation controls\n"
+"* Students are prevented, as far as is possible, from using facilities like "
+"copy and paste"
+msgstr ""
+
+#: $string['calculated']
+msgid "Calculated"
+msgstr ""
+
+#: $string['calculatedquestion']
+msgid ""
+"Calculated question not supported at line {$a}. The question will be ignored"
+msgstr ""
+
+#: $string['cannotcreatepath']
+msgid "Path cannot be created ({$a})"
+msgstr ""
+
+#: $string['cannoteditafterattempts']
+msgid ""
+"You cannot add or remove questions because this quiz has been attempted. "
+"({$a})"
+msgstr ""
+
+#: $string['cannotfindprevattempt']
+msgid "Cannot find previous attempt to build on."
+msgstr ""
+
+#: $string['cannotfindquestionregard']
+msgid "Failed to get questions for regrading!"
+msgstr ""
+
+#: $string['cannotinsert']
+msgid "Cannot insert question"
+msgstr ""
+
+#: $string['cannotinsertrandomquestion']
+msgid "Could not insert new random question!"
+msgstr ""
+
+#: $string['cannotloadquestion']
+msgid "Could not load question options"
+msgstr ""
+
+#: $string['cannotloadtypeinfo']
+msgid "Unable to load questiontype specific question information"
+msgstr ""
+
+#: $string['cannotopen']
+msgid "Cannot open export file ({$a})"
+msgstr ""
+
+#: $string['cannotrestore']
+msgid "Could not restore question sessions"
+msgstr ""
+
+#: $string['cannotreviewopen']
+msgid "You cannot review this attempt, it is still open."
+msgstr ""
+
+#: $string['cannotsavelayout']
+msgid "Could not save layout"
+msgstr ""
+
+#: $string['cannotsavenumberofquestion']
+msgid "Could not save number of questions per page"
+msgstr ""
+
+#: $string['cannotsavequestion']
+msgid "Cannot save question list"
+msgstr ""
+
+#: $string['cannotsetgrade']
+msgid "Could not set a new maximum grade for the quiz"
+msgstr ""
+
+#: $string['cannotsetsumgrades']
+msgid "Failed to set sumgrades"
+msgstr ""
+
+#: $string['cannotstartgradesmismatch']
+msgid ""
+"Cannot start an attempt at this quiz. The quiz is set to be graded out of "
+"{$a->grade}, but none of the questions in the quiz have a grade. This can be "
+"fixed on the 'Edit quiz' page."
+msgstr ""
+
+#: $string['cannotstartmissingquestion']
+msgid ""
+"Cannot start an attempt at this quiz. The quiz definition includes a "
+"question that does not exist."
+msgstr ""
+
+#: $string['cannotstartnoquestions']
+msgid ""
+"Cannot start an attempt at this quiz. The quiz has not been set up yet. No "
+"questions have been added."
+msgstr ""
+
+#: $string['cannotwrite']
+msgid "Cannot write to export file ({$a})"
+msgstr ""
+
+#: $string['canredoquestions']
+msgid "Allow redo within an attempt"
+msgstr ""
+
+#: $string['canredoquestions_desc']
+msgctxt "$string['canredoquestions_desc']"
+msgid ""
+"If enabled, then when students have finished attempting particular question, "
+"they will see a Redo question button. This allows them to attempt another "
+"version of the same question, without having to submit the entire quiz "
+"attempt and start another one. This option is mainly useful for practice "
+"quizzes.\n"
+"\n"
+"This setting only affects questions (for example not Essay questions) and "
+"behaviours (for example Immediate feedback, or Interactive with multiple "
+"tries) where it is possible for student to finish the question before the "
+"attempt is submitted."
+msgstr ""
+
+#: $string['canredoquestions_help']
+msgctxt "$string['canredoquestions_help']"
+msgid ""
+"If enabled, then when students have finished attempting particular question, "
+"they will see a Redo question button. This allows them to attempt another "
+"version of the same question, without having to submit the entire quiz "
+"attempt and start another one. This option is mainly useful for practice "
+"quizzes.\n"
+"\n"
+"This setting only affects questions (for example not Essay questions) and "
+"behaviours (for example Immediate feedback, or Interactive with multiple "
+"tries) where it is possible for student to finish the question before the "
+"attempt is submitted."
+msgstr ""
+
+#: $string['canredoquestionsyes']
+msgid "Students may redo another version of any finished question"
+msgstr ""
+
+#: $string['caseno']
+msgid "No, case is unimportant"
+msgstr ""
+
+#: $string['casesensitive']
+msgid "Case sensitivity"
+msgstr ""
+
+#: $string['caseyes']
+msgid "Yes, case must match"
+msgstr ""
+
+#: $string['categoryadded']
+msgid "The category '{$a}' was added"
+msgstr ""
+
+#: $string['categorydeleted']
+msgid "The category '{$a}' was deleted"
+msgstr ""
+
+#: $string['categorynoedit']
+msgid "You do not have editing privileges in the category '{$a}'."
+msgstr ""
+
+#: $string['categoryupdated']
+msgid "The category was successfully updated"
+msgstr ""
+
+#: $string['close']
+msgid "Close window"
+msgstr ""
+
+#: $string['closebeforeopen']
+msgid ""
+"Could not update the quiz. You have specified a close date before the open "
+"date."
+msgstr ""
+
+#: $string['closed']
+msgid "Closed"
+msgstr ""
+
+#: $string['closepreview']
+msgid "Close preview"
+msgstr ""
+
+#: $string['closereview']
+msgid "Close review"
+msgstr ""
+
+#: $string['comment']
+msgid "Comment"
+msgstr ""
+
+#: $string['commentorgrade']
+msgid "Make comment or override grade"
+msgstr ""
+
+#: $string['comments']
+msgid "Comments"
+msgstr ""
+
+#: $string['completedon']
+msgid "Completed on"
+msgstr ""
+
+#: $string['completionattemptsexhausted']
+msgid "Or all available attempts completed"
+msgstr ""
+
+#: $string['completionattemptsexhausteddesc']
+msgid "Complete if all available attempts are exhausted"
+msgstr ""
+
+#: $string['completionattemptsexhausted_help']
+msgid ""
+"Mark quiz complete when the student has exhausted the maximum number of "
+"attempts."
+msgstr ""
+
+#: $string['completionpass']
+msgid "Require passing grade"
+msgstr ""
+
+#: $string['completionpassdesc']
+msgid "Student must achieve a passing grade to complete this activity"
+msgstr ""
+
+#: $string['completionpass_help']
+msgid ""
+"If enabled, this activity is considered complete when the student receives a "
+"passing grade, with the pass grade set in the gradebook."
+msgstr ""
+
+#: $string['configadaptive']
+msgid ""
+"If you choose Yes for this option then the student will be allowed multiple "
+"responses to a question even within the same attempt at the quiz."
+msgstr ""
+
+#: $string['configattemptsallowed']
+msgid "Restriction on the number of attempts students are allowed at the quiz."
+msgstr ""
+
+#: $string['configdecimaldigits']
+msgid ""
+"Number of digits that should be shown after the decimal point when "
+"displaying grades."
+msgstr ""
+
+#: $string['configdecimalplaces']
+msgid ""
+"Number of digits that should be shown after the decimal point when "
+"displaying grades for the quiz."
+msgstr ""
+
+#: $string['configdecimalplacesquestion']
+msgid ""
+"Number of digits that should be shown after the decimal point when "
+"displaying the grade for individual questions."
+msgstr ""
+
+#: $string['configdelay1']
+msgid ""
+"If you set a time delay, then a student has to wait for that time before "
+"they can attempt a quiz after the first attempt."
+msgstr ""
+
+#: $string['configdelay1st2nd']
+msgid ""
+"If you set a time delay here, the student cannot start their second attempt "
+"until this much time has passed since the end of their first attempt."
+msgstr ""
+
+#: $string['configdelay2']
+msgid ""
+"If you set a time delay here, then a student has to wait for that time "
+"before they can attempt their third or later attempts."
+msgstr ""
+
+#: $string['configdelaylater']
+msgid ""
+"If you set a time delay here, the student cannot start their third, fourth, "
+"... attempt until this much time has passed since the end of their previous "
+"attempt."
+msgstr ""
+
+#: $string['configeachattemptbuildsonthelast']
+msgid ""
+"If multiple attempts are allowed then each new attempt contains the results "
+"of the previous attempt."
+msgstr ""
+
+#: $string['configgrademethod']
+msgid ""
+"When multiple attempts are allowed, which method should be used to calculate "
+"the student's final grade for the quiz."
+msgstr ""
+
+#: $string['configintro']
+msgid ""
+"The values you set here define the default values that are used in the "
+"settings form when you create a new quiz. You can also configure which quiz "
+"settings are considered advanced."
+msgstr ""
+
+#: $string['configmaximumgrade']
+msgid "The default grade that the quiz grade is scaled to be out of."
+msgstr ""
+
+#: $string['confignavmethod']
+msgid ""
+"In Free navigation, questions may be answered in any order using navigation. "
+"In Sequential, questions must be answered in strict sequence."
+msgstr ""
+
+#: $string['confignewpageevery']
+msgid ""
+"When adding questions to the quiz page breaks will automatically be inserted "
+"according to the setting you choose here."
+msgstr ""
+
+#: $string['configoutcomesadvanced']
+msgid ""
+"If this option is turned on, then the Outcomes on the quiz editing form are "
+"advanced settings."
+msgstr ""
+
+#: $string['configpenaltyscheme']
+msgid "Penalty subtracted for each wrong response in adaptive mode."
+msgstr ""
+
+#: $string['configpopup']
+msgid ""
+"Force the attempt to open in a popup window, and use JavaScript tricks to "
+"try to restrict copy and paste, etc. during quiz attempts."
+msgstr ""
+
+#: $string['configrequirepassword']
+msgid "Students must enter this password before they can attempt the quiz."
+msgstr ""
+
+#: $string['configrequiresubnet']
+msgid "Students can only attempt the quiz from these computers."
+msgstr ""
+
+#: $string['configreviewoptions']
+msgid ""
+"These options control what information users can see when they review a quiz "
+"attempt or look at the quiz reports."
+msgstr ""
+
+#: $string['configshowblocks']
+msgid "Show blocks during quiz attempts."
+msgstr ""
+
+#: $string['configshowuserpicture']
+msgid "Show the user's picture on screen during attempts."
+msgstr ""
+
+#: $string['configshufflewithin']
+msgid ""
+"If you enable this option, then the parts making up the individual questions "
+"will be randomly shuffled each time a student starts an attempt at this "
+"quiz, provided the option is also enabled in the question settings."
+msgstr ""
+
+#: $string['configtimelimit']
+msgid "Default time limit for quizzes in minutes. 0 mean no time limit."
+msgstr ""
+
+#: $string['configtimelimitsec']
+msgid "Default time limit for quizzes in seconds. 0 mean no time limit."
+msgstr ""
+
+#: $string['configurerandomquestion']
+msgid "Configure question"
+msgstr ""
+
+#: $string['confirmclose']
+msgid ""
+"Once you submit, you will no longer be able to change your answers for this "
+"attempt."
+msgstr ""
+
+#: $string['confirmremovequestion']
+msgid "Are you sure you want to remove this {$a} question?"
+msgstr ""
+
+#: $string['confirmremovesectionheading']
+msgid "Are you sure you want to remove the '{$a}' section heading?"
+msgstr ""
+
+#: $string['confirmserverdelete']
+msgid "Are you sure you want to remove the server <b>{$a}</b> from the list?"
+msgstr ""
+
+#: $string['connectionerror']
+msgid ""
+"Network connection lost. (Autosave failed).\n"
+"\n"
+"Make a note of any responses entered on this page in the last few minutes, "
+"then try to re-connect.\n"
+"\n"
+"Once connection has been re-established, your responses should be saved and "
+"this message will disappear."
+msgstr ""
+
+#: $string['connectionok']
+msgid "Network connection restored. You may continue safely."
+msgstr ""
+
+#: $string['containercategorycreated']
+msgid ""
+"This category has been created to store all the original categories moved to "
+"site level due to the causes specified below."
+msgstr ""
+
+#: $string['continueattemptquiz']
+msgid "Continue the last attempt"
+msgstr ""
+
+#: $string['continuepreview']
+msgid "Continue the last preview"
+msgstr ""
+
+#: $string['copyingfrom']
+msgid "Creating a copy of the question '{$a}'"
+msgstr ""
+
+#: $string['copyingquestion']
+msgid "Copying a question"
+msgstr ""
+
+#: $string['correct']
+msgid "Correct"
+msgstr ""
+
+#: $string['correctanswer']
+msgid "Correct answer"
+msgstr ""
+
+#: $string['correctanswerformula']
+msgid "Correct answer formula"
+msgstr ""
+
+#: $string['correctansweris']
+msgid "Correct answer: {$a}"
+msgstr ""
+
+#: $string['correctanswerlength']
+msgid "Significant figures"
+msgstr ""
+
+#: $string['correctanswers']
+msgid "Correct answers"
+msgstr ""
+
+#: $string['correctanswershows']
+msgid "Correct answer shows"
+msgstr ""
+
+#: $string['corrresp']
+msgid "Correct response"
+msgstr ""
+
+#: $string['countdown']
+msgid "Countdown"
+msgstr ""
+
+#: $string['countdownfinished']
+msgid "The quiz is closing, you should submit your answers now."
+msgstr ""
+
+#: $string['countdowntenminutes']
+msgid "The quiz will be closing in ten minutes."
+msgstr ""
+
+#: $string['coursetestmanager']
+msgid "Course Test Manager format"
+msgstr ""
+
+#: $string['createcategoryandaddrandomquestion']
+msgid "Create category and add random question"
+msgstr ""
+
+#: $string['createfirst']
+msgid "You must create some short-answer questions first."
+msgstr ""
+
+#: $string['createmultiple']
+msgid "Add several random questions to quiz"
+msgstr ""
+
+#: $string['createnewquestion']
+msgid "Create new question"
+msgstr ""
+
+#: $string['createquestionandadd']
+msgid "Create a new question and add it to the quiz."
+msgstr ""
+
+#: $string['custom']
+msgid "Custom format"
+msgstr ""
+
+#: $string['dataitemneed']
+msgid "You need to add at least one set of data items to get a valid question"
+msgstr ""
+
+#: $string['datasetdefinitions']
+msgid "Reusable dataset definitions for category {$a}"
+msgstr ""
+
+#: $string['datasetnumber']
+msgid "Number"
+msgstr ""
+
+#: $string['daysavailable']
+msgid "Days available"
+msgstr ""
+
+#: $string['decimaldigits']
+msgid "Decimal digits in grades"
+msgstr ""
+
+#: $string['decimalplaces']
+msgid "Decimal places in grades"
+msgstr ""
+
+#: $string['decimalplaces_help']
+msgid ""
+"This setting specifies the number of digits shown after the decimal point "
+"when displaying grades. It only affects the display of grades, not the "
+"grades stored in the database, nor the internal calculations, which are "
+"carried out to full accuracy."
+msgstr ""
+
+#: $string['decimalplacesquestion']
+msgid "Decimal places in question grades"
+msgstr ""
+
+#: $string['decimalplacesquestion_help']
+msgid ""
+"This setting specifies the number of digits shown after the decimal point "
+"when displaying the grades for individual questions."
+msgstr ""
+
+#: $string['decimalpoints']
+msgid "Decimal points"
+msgstr ""
+
+#: $string['default']
+msgid "Default"
+msgstr ""
+
+#: $string['defaultgrade']
+msgid "Default question grade"
+msgstr ""
+
+#: $string['defaultinfo']
+msgid "The default category for questions."
+msgstr ""
+
+#: $string['delay1']
+msgid "Time delay between first and second attempt"
+msgstr ""
+
+#: $string['delay1st2nd']
+msgid "Enforced delay between 1st and 2nd attempts"
+msgstr ""
+
+#: $string['delay1st2nd_help']
+msgid ""
+"If enabled, a student must wait for the specified time to elapse before "
+"being able to attempt the quiz a second time."
+msgstr ""
+
+#: $string['delay2']
+msgid "Time delay between later attempts"
+msgstr ""
+
+#: $string['delaylater']
+msgid "Enforced delay between later attempts"
+msgstr ""
+
+#: $string['delaylater_help']
+msgid ""
+"If enabled, a student must wait for the specified time to elapse before "
+"attempting the quiz a third time and any subsequent times."
+msgstr ""
+
+#: $string['deleteattemptcheck']
+msgid "Are you absolutely sure you want to completely delete these attempts?"
+msgstr ""
+
+#: $string['deleteselected']
+msgid "Delete selected"
+msgstr ""
+
+#: $string['deletingquestionattempts']
+msgid "Deleting question attempts"
+msgstr ""
+
+#: $string['description']
+msgctxt "$string['description']"
+msgid "Description"
+msgstr ""
+
+#: $string['disabled']
+msgid "Disabled"
+msgstr ""
+
+#: $string['displayoptions']
+msgctxt "$string['displayoptions']"
+msgid "Display options"
+msgstr ""
+
+#: $string['donotuseautosave']
+msgid "Do not use auto-save"
+msgstr ""
+
+#: $string['download']
+msgid "Click to download the exported category file"
+msgstr ""
+
+#: $string['downloadextra']
+msgid ""
+"(file is also stored in the course files in the /backupdata/quiz folder)"
+msgstr ""
+
+#: $string['dragtoafter']
+msgid "After {$a}"
+msgstr ""
+
+#: $string['dragtostart']
+msgid "To the start"
+msgstr ""
+
+#: $string['duplicateresponse']
+msgid ""
+"This submission has been ignored because you gave an equivalent answer "
+"earlier."
+msgstr ""
+
+#: $string['eachattemptbuildsonthelast']
+msgid "Each attempt builds on the last"
+msgstr ""
+
+#: $string['eachattemptbuildsonthelast_help']
+msgid ""
+"If multiple attempts are allowed and this setting is enabled, each new quiz "
+"attempt will contain the results of the previous attempt. This allows a quiz "
+"to be completed over several attempts."
+msgstr ""
+
+#: $string['editcategories']
+msgid "Edit categories"
+msgstr ""
+
+#: $string['editcategory']
+msgid "Edit category"
+msgstr ""
+
+#: $string['editcatquestions']
+msgid "Edit category questions"
+msgstr ""
+
+#: $string['editingquestion']
+msgid "Editing a question"
+msgstr ""
+
+#: $string['editingquiz']
+msgid "Editing quiz"
+msgstr ""
+
+#: $string['editingquiz_help']
+msgid ""
+"When creating a quiz, the main concepts are:\n"
+"\n"
+"* The quiz, containing questions over one or more pages\n"
+"* The question bank, which stores copies of all questions organised into "
+"categories\n"
+"* Random questions -  A student gets different questions each time they "
+"attempt the quiz and different students can get different questions"
+msgstr ""
+
+#: $string['editingquiz_link']
+msgid "mod/quiz/edit"
+msgstr ""
+
+#: $string['editingquizx']
+msgid "Editing quiz: {$a}"
+msgstr ""
+
+#: $string['editmaxmark']
+msgid "Edit maximum mark"
+msgstr ""
+
+#: $string['editoverride']
+msgid "Edit override"
+msgstr ""
+
+#: $string['editqcats']
+msgid "Edit questions categories"
+msgstr ""
+
+#: $string['editquestion']
+msgid "Edit question"
+msgstr ""
+
+#: $string['editquestions']
+msgid "Edit questions"
+msgstr ""
+
+#: $string['editquiz']
+msgid "Edit quiz"
+msgstr ""
+
+#: $string['editquizquestions']
+msgid "Edit quiz questions"
+msgstr ""
+
+#: $string['emailconfirmbody']
+msgid ""
+"Hi {$a->username},\n"
+"\n"
+"Thank you for submitting your answers to '{$a->quizname}' in course "
+"'{$a->coursename}' at {$a->submissiontime}.\n"
+"\n"
+"This message confirms that your answers have been saved.\n"
+"\n"
+"You can access this quiz at {$a->quizurl}."
+msgstr ""
+
+#: $string['emailconfirmsmall']
+msgid "Thank you for submitting your answers to '{$a->quizname}'"
+msgstr ""
+
+#: $string['emailconfirmsubject']
+msgid "Submission confirmation: {$a->quizname}"
+msgstr ""
+
+#: $string['emailnotifybody']
+msgid ""
+"Hi {$a->username},\n"
+"\n"
+"{$a->studentname} has completed '{$a->quizname}' ({$a->quizurl}) in course "
+"'{$a->coursename}'.\n"
+"\n"
+"You can review this attempt at {$a->quizreviewurl}."
+msgstr ""
+
+#: $string['emailnotifysmall']
+msgid "{$a->studentname} has completed {$a->quizname}. See {$a->quizreviewurl}"
+msgstr ""
+
+#: $string['emailnotifysubject']
+msgid "{$a->studentname} has completed {$a->quizname}"
+msgstr ""
+
+#: $string['emailoverduebody']
+msgid ""
+"Hi {$a->studentname},\n"
+"\n"
+"You started an attempt at '{$a->quizname}' in course '{$a->coursename}', but "
+"you never submitted it. It should have been submitted by "
+"{$a->attemptduedate}.\n"
+"\n"
+"If you would still like to submit this attempt, please go to "
+"{$a->attemptsummaryurl} and click the submit button. You must do this before "
+"{$a->attemptgraceend} otherwise your attempt will not be counted."
+msgstr ""
+
+#: $string['emailoverduesmall']
+msgid ""
+"You did not submit your attempt at {$a->quizname}. Please go to "
+"{$a->attemptsummaryurl} before {$a->attemptgraceend} if you would still like "
+"to submit."
+msgstr ""
+
+#: $string['emailoverduesubject']
+msgid "Attempt now overdue: {$a->quizname}"
+msgstr ""
+
+#: $string['empty']
+msgid "Empty"
+msgstr ""
+
+#: $string['enabled']
+msgid "Enabled"
+msgstr ""
+
+#: $string['endtest']
+msgid "Finish attempt ..."
+msgstr ""
+
+#: $string['erroraccessingreport']
+msgid "You cannot access this report"
+msgstr ""
+
+#: $string['errorinquestion']
+msgid "Error in question"
+msgstr ""
+
+#: $string['errormissingquestion']
+msgid "Error: The system is missing the question with id {$a}"
+msgstr ""
+
+#: $string['errornotnumbers']
+msgid "Error - answers must be numeric"
+msgstr ""
+
+#: $string['errorunexpectedevent']
+msgid ""
+"Unexpected event code {$a->event} found for question {$a->questionid} in "
+"attempt {$a->attemptid}."
+msgstr ""
+
+#: $string['essay']
+msgid "Essay"
+msgstr ""
+
+#: $string['essayquestions']
+msgctxt "$string['essayquestions']"
+msgid "Questions"
+msgstr ""
+
+#: $string['eventattemptdeleted']
+msgid "Quiz attempt deleted"
+msgstr ""
+
+#: $string['eventattemptpreviewstarted']
+msgid "Quiz attempt preview started"
+msgstr ""
+
+#: $string['eventattemptreviewed']
+msgid "Quiz attempt reviewed"
+msgstr ""
+
+#: $string['eventattemptsummaryviewed']
+msgid "Quiz attempt summary viewed"
+msgstr ""
+
+#: $string['eventattemptviewed']
+msgid "Quiz attempt viewed"
+msgstr ""
+
+#: $string['eventeditpageviewed']
+msgid "Quiz edit page viewed"
+msgstr ""
+
+#: $string['eventoverridecreated']
+msgid "Quiz override created"
+msgstr ""
+
+#: $string['eventoverridedeleted']
+msgid "Quiz override deleted"
+msgstr ""
+
+#: $string['eventoverrideupdated']
+msgid "Quiz override updated"
+msgstr ""
+
+#: $string['eventquestionmanuallygraded']
+msgid "Question manually graded"
+msgstr ""
+
+#: $string['eventquizattemptabandoned']
+msgid "Quiz attempt abandoned"
+msgstr ""
+
+#: $string['eventquizattemptstarted']
+msgid "Quiz attempt started"
+msgstr ""
+
+#: $string['eventquizattemptsubmitted']
+msgid "Quiz attempt submitted"
+msgstr ""
+
+#: $string['eventquizattempttimelimitexceeded']
+msgid "Quiz attempt time limit exceeded"
+msgstr ""
+
+#: $string['eventreportviewed']
+msgid "Quiz report viewed"
+msgstr ""
+
+#: $string['everynquestions']
+msgid "Every {$a} questions"
+msgstr ""
+
+#: $string['everyquestion']
+msgid "Every question"
+msgstr ""
+
+#: $string['everythingon']
+msgid "Everything on"
+msgstr ""
+
+#: $string['exportcategory']
+msgid "export category"
+msgstr ""
+
+#: $string['exporterror']
+msgid "An error occurred during export processing"
+msgstr ""
+
+#: $string['exportingquestions']
+msgid "Questions are being exported to file"
+msgstr ""
+
+#: $string['exportname']
+msgid "File name"
+msgstr ""
+
+#: $string['exportquestions']
+msgid "Export questions to file"
+msgstr ""
+
+#: $string['extraattemptrestrictions']
+msgid "Extra restrictions on attempts"
+msgstr ""
+
+#: $string['false']
+msgid "False"
+msgstr ""
+
+#: $string['feedback']
+msgid "Feedback"
+msgstr ""
+
+#: $string['feedbackerrorboundaryformat']
+msgid ""
+"Feedback grade boundaries must be either a percentage or a number. The value "
+"you entered in boundary {$a} is not recognised."
+msgstr ""
+
+#: $string['feedbackerrorboundaryoutofrange']
+msgid ""
+"Feedback grade boundaries must be between 0% and 100%. The value you entered "
+"in boundary {$a} is out of range."
+msgstr ""
+
+#: $string['feedbackerrorjunkinboundary']
+msgid ""
+"You must fill in the feedback grade boundary boxes without leaving any gaps."
+msgstr ""
+
+#: $string['feedbackerrorjunkinfeedback']
+msgid "You must fill in the feedback boxes without leaving any gaps."
+msgstr ""
+
+#: $string['feedbackerrororder']
+msgid ""
+"Feedback grade boundaries must be in order, highest first. The value you "
+"entered in boundary {$a} is out of sequence."
+msgstr ""
+
+#: $string['file']
+msgid "File"
+msgstr ""
+
+#: $string['fileformat']
+msgid "File format"
+msgstr ""
+
+#: $string['fillcorrect']
+msgid "Fill with correct"
+msgstr ""
+
+#: $string['filloutnumericalanswer']
+msgid ""
+"You provide at least one possible answer and tolerance. The first matching "
+"answer will be used to determine the grade and feedback. If you supply some "
+"feedback with no answer at the end, that will be shown to students whose "
+"response is not matched by any of the other answers."
+msgstr ""
+
+#: $string['filloutoneanswer']
+msgid ""
+"You must provide at least one possible answer. Answers left blank will not "
+"be used. '*' can be used as a wildcard to match any characters. The first "
+"matching answer will be used to determine the grade and feedback."
+msgstr ""
+
+#: $string['filloutthreequestions']
+msgid ""
+"You must provide at least three questions with matching answers. You can "
+"provide extra wrong answers by giving an answer with a blank question. "
+"Entries where both the question and the answer are blank will be ignored."
+msgstr ""
+
+#: $string['fillouttwochoices']
+msgid ""
+"You must fill out at least two choices.  Choices left blank will not be "
+"used."
+msgstr ""
+
+#: $string['finishattemptdots']
+msgid "Finish attempt..."
+msgstr ""
+
+#: $string['finishreview']
+msgid "Finish review"
+msgstr ""
+
+#: $string['forceregeneration']
+msgid "force regeneration"
+msgstr ""
+
+#: $string['formatnotfound']
+msgid "Import/export format {$a} not found"
+msgstr ""
+
+#: $string['formulaerror']
+msgid "Formula errors!"
+msgstr ""
+
+#: $string['fractionsaddwrong']
+msgid ""
+"The positive grades you have chosen do not add up to 100%<br />Instead, they "
+"add up to {$a}%<br />Do you want to go back and fix this question?"
+msgstr ""
+
+#: $string['fractionsnomax']
+msgid ""
+"One of the answers should be 100%, so that it is<br />possible to get a full "
+"grade for this question.<br />Do you want to go back and fix this question?"
+msgstr ""
+
+#: $string['fromfile']
+msgid "from file:"
+msgstr ""
+
+#: $string['functiondisabledbysecuremode']
+msgid "That functionality is currently disabled"
+msgstr ""
+
+#: $string['generalfeedback']
+msgid "General feedback"
+msgstr ""
+
+#: $string['generalfeedback_help']
+msgid ""
+"General feedback is text which is shown after a question has been attempted. "
+"Unlike feedback for a specific question which depends on the response "
+"given, the same general feedback is always shown."
+msgstr ""
+
+#: $string['graceperiod']
+msgid "Submission grace period"
+msgstr ""
+
+#: $string['graceperiod_desc']
+msgid ""
+"If what to do when time expires is set to 'Allow a grace period to submit, "
+"but not change any responses', this is the default amount of extra time that "
+"is allowed."
+msgstr ""
+
+#: $string['graceperiod_help']
+msgid ""
+"If what to do when time expires is set to 'Allow a grace period to submit, "
+"but not change any responses', this is the amount of extra time that is "
+"allowed."
+msgstr ""
+
+#: $string['graceperiodmin']
+msgid "Last submission grace period"
+msgstr ""
+
+#: $string['graceperiodmin_desc']
+msgid ""
+"There is a potential problem right at the end of the quiz. On the one hand, "
+"we want to let students continue working right up until the last second - "
+"with the help of the timer that automatically submits the quiz when time "
+"runs out. On the other hand, the server may then be overloaded, and take "
+"some time to get to process the responses. Therefore, we will accept "
+"responses for up to this long after time expires, so they are not penalised "
+"for the server being slow. However, the student could cheat and get this "
+"many seconds to answer the quiz. You have to make a trade-off based on how "
+"much you trust the performance of your server during quizzes."
+msgstr ""
+
+#: $string['graceperiodtoosmall']
+msgid "The grace period must be more than {$a}."
+msgstr ""
+
+#: $string['grade']
+msgid "Grade"
+msgstr ""
+
+#: $string['gradeall']
+msgid "Grade all"
+msgstr ""
+
+#: $string['gradeaverage']
+msgid "Average grade"
+msgstr ""
+
+#: $string['gradeboundary']
+msgid "Grade boundary"
+msgstr ""
+
+#: $string['gradeessays']
+msgid "Grade essays"
+msgstr ""
+
+#: $string['gradehighest']
+msgid "Highest grade"
+msgstr ""
+
+#: $string['grademethod']
+msgid "Grading method"
+msgstr ""
+
+#: $string['grademethod_help']
+msgid ""
+"When multiple attempts are allowed, the following methods are available for "
+"calculating the final quiz grade:\n"
+"\n"
+"* Highest grade of all attempts\n"
+"* Average (mean) grade of all attempts\n"
+"* First attempt (all other attempts are ignored)\n"
+"* Last attempt (all other attempts are ignored)"
+msgstr ""
+
+#: $string['gradesdeleted']
+msgid "Quiz grades deleted"
+msgstr ""
+
+#: $string['gradesofar']
+msgid "{$a->method}: {$a->mygrade} / {$a->quizgrade}."
+msgstr ""
+
+#: $string['gradetopassmustbeset']
+msgid ""
+"Grade to pass cannot be zero as this quiz has its completion method set to "
+"require passing grade. Please set a non-zero value."
+msgstr ""
+
+#: $string['gradetopassnotset']
+msgid ""
+"This quiz does not have a grade to pass set so you cannot use this option. "
+"Please use the require grade setting instead."
+msgstr ""
+
+#: $string['gradingdetails']
+msgid "Marks for this submission: {$a->raw}/{$a->max}."
+msgstr ""
+
+#: $string['gradingdetailsadjustment']
+msgid ""
+"With previous penalties this gives <strong>{$a->cur}/{$a->max}</strong>."
+msgstr ""
+
+#: $string['gradingdetailspenalty']
+msgid "This submission attracted a penalty of {$a}."
+msgstr ""
+
+#: $string['gradingdetailszeropenalty']
+msgid "You were not penalized for this submission."
+msgstr ""
+
+#: $string['gradingmethod']
+msgid "Grading method: {$a}"
+msgstr ""
+
+#: $string['groupoverrides']
+msgid "Group overrides"
+msgstr ""
+
+#: $string['groupoverridesdeleted']
+msgid "Group overrides deleted"
+msgstr ""
+
+#: $string['groupsnone']
+msgid "There are no groups in this course"
+msgstr ""
+
+#: $string['guestsno']
+msgid "Sorry, guests cannot see or attempt quizzes"
+msgstr ""
+
+#: $string['hidebreaks']
+msgid "Hide page breaks"
+msgstr ""
+
+#: $string['hidereordertool']
+msgid "Hide the reordering tool"
+msgstr ""
+
+#: $string['history']
+msgid "History of responses:"
+msgstr ""
+
+#: $string['howquestionsbehave_desc']
+msgid "Default setting for how questions behave in a quiz."
+msgstr ""
+
+#: $string['imagedisplay']
+msgid "Image to display"
+msgstr ""
+
+#: $string['importcategory']
+msgid "import category"
+msgstr ""
+
+#: $string['importerror']
+msgid "An error occurred during import processing"
+msgstr ""
+
+#: $string['importfilearea']
+msgid "Import from file already in course files..."
+msgstr ""
+
+#: $string['importfileupload']
+msgid "Import from file upload..."
+msgstr ""
+
+#: $string['importfromthisfile']
+msgid "Import from this file"
+msgstr ""
+
+#: $string['import_help']
+msgid ""
+"This function allows you to import questions from external text files.\n"
+"\n"
+"If your file contains non-ascii characters then it must use UTF-8 encoding. "
+"Be particularly cautious with files generated by Microsoft Office "
+"applications, as these commonly use special encoding which will not be "
+"handled correctly.\n"
+"\n"
+"Import and Export formats are a pluggable resource. Other optional formats "
+"may be available in the Modules and Plugins database."
+msgstr ""
+
+#: $string['importingquestions']
+msgid "Importing {$a} questions from file"
+msgstr ""
+
+#: $string['import_link']
+msgid "question/import"
+msgstr ""
+
+#: $string['importmax10error']
+msgid ""
+"There is an error in the question. You may not have more than ten answers"
+msgstr ""
+
+#: $string['importmaxerror']
+msgid "There is an error in the question. There are too many answers."
+msgstr ""
+
+#: $string['importquestions']
+msgid "Import questions from file"
+msgstr ""
+
+#: $string['inactiveoverridehelp']
+msgid "* Student does not have the correct group or role to attempt the quiz"
+msgstr ""
+
+#: $string['incorrect']
+msgid "Incorrect"
+msgstr ""
+
+#: $string['indicator:cognitivedepth']
+msgid "Quiz cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepth_help']
+msgid ""
+"This indicator is based on the cognitive depth reached by the student in a "
+"Quiz activity."
+msgstr ""
+
+#: $string['indicator:socialbreadth']
+msgid "Quiz social"
+msgstr ""
+
+#: $string['indicator:socialbreadth_help']
+msgid ""
+"This indicator is based on the social breadth reached by the student in a "
+"Quiz activity."
+msgstr ""
+
+#: $string['indivresp']
+msgid "Responses of individuals to each item"
+msgstr ""
+
+#: $string['info']
+msgid "Info"
+msgstr ""
+
+#: $string['infoshort']
+msgid "i"
+msgstr ""
+
+#: $string['initialnumfeedbacks']
+msgid "Initial number of overall feedback fields"
+msgstr ""
+
+#: $string['initialnumfeedbacks_desc']
+msgid ""
+"When creating a new quiz, provide this many blank overall feedback boxes. "
+"Once the quiz has been created, the form shows the number of fields required "
+"for the number of feedbacks in the quiz. The setting must be at least 1."
+msgstr ""
+
+#: $string['inprogress']
+msgctxt "$string['inprogress']"
+msgid "In progress"
+msgstr ""
+
+#: $string['introduction']
+msgctxt "$string['introduction']"
+msgid "Description"
+msgstr ""
+
+#: $string['invalidattemptid']
+msgid "No such attempt ID exists"
+msgstr ""
+
+#: $string['invalidcategory']
+msgid "Category ID is invalid"
+msgstr ""
+
+#: $string['invalidoverrideid']
+msgid "Invalid override id"
+msgstr ""
+
+#: $string['invalidquestionid']
+msgid "Invalid question id"
+msgstr ""
+
+#: $string['invalidquizid']
+msgid "Invalid quiz ID"
+msgstr ""
+
+#: $string['invalidsource']
+msgid "The source is not accepted as valid."
+msgstr ""
+
+#: $string['invalidsourcetype']
+msgid "Invalid source type."
+msgstr ""
+
+#: $string['invalidstateid']
+msgid "Invalid state id"
+msgstr ""
+
+#: $string['lastanswer']
+msgid "Your last answer was"
+msgstr ""
+
+#: $string['layout']
+msgid "Layout"
+msgstr ""
+
+#: $string['layoutasshown']
+msgid "Page layout as shown."
+msgstr ""
+
+#: $string['layoutasshownwithpages']
+msgid ""
+"Page layout as shown. <small>(Automatic new page every {$a} "
+"questions.)</small>"
+msgstr ""
+
+#: $string['layoutshuffledandpaged']
+msgid "Questions randomly shuffled with {$a} questions per page."
+msgstr ""
+
+#: $string['layoutshuffledsinglepage']
+msgid "Questions randomly shuffled, all on one page."
+msgstr ""
+
+#: $string['link']
+msgid "Link"
+msgstr ""
+
+#: $string['listitems']
+msgid "Listing of items in quiz"
+msgstr ""
+
+#: $string['literal']
+msgid "Literal"
+msgstr ""
+
+#: $string['loadingquestionsfailed']
+msgid "Loading questions failed: {$a}"
+msgstr ""
+
+#: $string['makecopy']
+msgid "Save as new question"
+msgstr ""
+
+#: $string['managetypes']
+msgid "Manage question types and servers"
+msgstr ""
+
+#: $string['manualgradequestion']
+msgid "Manually grade question {$a->question} in {$a->quiz} by {$a->user}"
+msgstr ""
+
+#: $string['manualgrading']
+msgid "Grading"
+msgstr ""
+
+#: $string['mark']
+msgid "Submit"
+msgstr ""
+
+#: $string['markall']
+msgid "Submit page"
+msgstr ""
+
+#: $string['marks']
+msgid "Marks"
+msgstr ""
+
+#: $string['marks_help']
+msgid "The numerical marks for each question, and the overall attempt score."
+msgstr ""
+
+#: $string['match']
+msgid "Matching"
+msgstr ""
+
+#: $string['matchanswer']
+msgid "Matching answer"
+msgstr ""
+
+#: $string['matchanswerno']
+msgid "Matching answer {$a}"
+msgstr ""
+
+#: $string['max']
+msgid "Max"
+msgstr ""
+
+#: $string['maxmark']
+msgid "Maximum mark"
+msgstr ""
+
+#: $string['messageprovider:attempt_overdue']
+msgid "Warning when your quiz attempt becomes overdue"
+msgstr ""
+
+#: $string['messageprovider:confirmation']
+msgid "Confirmation of your own quiz submissions"
+msgstr ""
+
+#: $string['messageprovider:submission']
+msgid "Notification of quiz submissions"
+msgstr ""
+
+#: $string['min']
+msgid "Min"
+msgstr ""
+
+#: $string['minutes']
+msgid "Minutes"
+msgstr ""
+
+#: $string['missingcorrectanswer']
+msgid "Correct answer must be specified"
+msgstr ""
+
+#: $string['missingitemtypename']
+msgid "Missing name"
+msgstr ""
+
+#: $string['missingquestion']
+msgid "This question no longer seems to exist"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Quiz"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"The quiz activity enables a teacher to create quizzes comprising questions "
+"of various types, including multiple choice, matching, short-answer and "
+"numerical.\n"
+"\n"
+"The teacher can allow the quiz to be attempted multiple times, with the "
+"questions shuffled or randomly selected from the question bank. A time limit "
+"may be set.\n"
+"\n"
+"Each attempt is marked automatically, with the exception of essay questions, "
+"and the grade is recorded in the gradebook.\n"
+"\n"
+"The teacher can choose when and if hints, feedback and correct answers are "
+"shown to students.\n"
+"\n"
+"Quizzes may be used\n"
+"\n"
+"* As course exams\n"
+"* As mini tests for reading assignments or at the end of a topic\n"
+"* As exam practice using questions from past exams\n"
+"* To deliver immediate feedback about performance\n"
+"* For self-assessment"
+msgstr ""
+
+#: $string['modulename_link']
+msgid "mod/quiz/view"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Quizzes"
+msgstr ""
+
+#: $string['moveselectedonpage']
+msgid "Move selected questions to page: {$a}"
+msgstr ""
+
+#: $string['multichoice']
+msgid "Multiple choice"
+msgstr ""
+
+#: $string['multipleanswers']
+msgid "Choose at least one answer."
+msgstr ""
+
+#: $string['mustbesubmittedby']
+msgid "This attempt must be submitted by {$a}."
+msgstr ""
+
+#: $string['name']
+msgid "Name"
+msgstr ""
+
+#: $string['navigatenext']
+msgid "Next page"
+msgstr ""
+
+#: $string['navigateprevious']
+msgid "Previous page"
+msgstr ""
+
+#: $string['navmethod']
+msgid "Navigation method"
+msgstr ""
+
+#: $string['navmethod_free']
+msgid "Free"
+msgstr ""
+
+#: $string['navmethod_help']
+msgid ""
+"When sequential navigation is enabled a student must progress through the "
+"quiz in order and may not return to previous pages nor skip ahead."
+msgstr ""
+
+#: $string['navmethod_seq']
+msgid "Sequential"
+msgstr ""
+
+#: $string['navnojswarning']
+msgid ""
+"Warning: these links will not save your answers. Use the next button at the "
+"bottom of the page."
+msgstr ""
+
+#: $string['neverallononepage']
+msgid "Never, all questions on one page"
+msgstr ""
+
+#: $string['newattemptfail']
+msgid "Error: Could not start a new attempt at the quiz"
+msgstr ""
+
+#: $string['newpage']
+msgid "New page"
+msgstr ""
+
+#: $string['newpageevery']
+msgid "Automatically start a new page"
+msgstr ""
+
+#: $string['newpage_help']
+msgid ""
+"For longer quizzes it makes sense to stretch the quiz over several pages by "
+"limiting the number of questions per page. When adding questions to the "
+"quiz, page breaks will automatically be inserted according to this setting. "
+"However page breaks may later be moved manually on the editing page."
+msgstr ""
+
+#: $string['newsectionheading']
+msgid "New heading"
+msgstr ""
+
+#: $string['noanswers']
+msgid "No answers were selected!"
+msgstr ""
+
+#: $string['noattempts']
+msgid "No attempts have been made on this quiz"
+msgstr ""
+
+#: $string['noattemptsfound']
+msgid "No attempts found."
+msgstr ""
+
+#: $string['noattemptstoshow']
+msgid "There are no attempts to show"
+msgstr ""
+
+#: $string['nocategory']
+msgid "Incorrect or no category specified"
+msgstr ""
+
+#: $string['noclose']
+msgid "No close date"
+msgstr ""
+
+#: $string['nocommentsyet']
+msgid "No comments yet."
+msgstr ""
+
+#: $string['noconnection']
+msgid ""
+"There is currently no connection to a web service that can process this "
+"question. Please contact your administrator"
+msgstr ""
+
+#: $string['nodataset']
+msgid "nothing - it is not a wild card"
+msgstr ""
+
+#: $string['nodatasubmitted']
+msgid "No data was submitted."
+msgstr ""
+
+#: $string['noessayquestionsfound']
+msgid "No manually graded questions found"
+msgstr ""
+
+#: $string['nogradewarning']
+msgid ""
+"This quiz is not graded, so you cannot set overall feedback that differs by "
+"grade."
+msgstr ""
+
+#: $string['nomoreattempts']
+msgid "No more attempts are allowed"
+msgstr ""
+
+#: $string['none']
+msgid "None"
+msgstr ""
+
+#: $string['noopen']
+msgid "No open date"
+msgstr ""
+
+#: $string['nooverridedata']
+msgid "You must override at least one of the quiz settings."
+msgstr ""
+
+#: $string['nopossibledatasets']
+msgid "No possible datasets"
+msgstr ""
+
+#: $string['noquestionintext']
+msgid "The question text does not contain any embedded questions"
+msgstr ""
+
+#: $string['noquestions']
+msgid "No questions have been added yet"
+msgstr ""
+
+#: $string['noquestionsfound']
+msgid "No questions found"
+msgstr ""
+
+#: $string['noquestionsinquiz']
+msgid "There are no questions in this quiz."
+msgstr ""
+
+#: $string['noquestionsnotinuse']
+msgid "This random question is not in use, since its category is empty."
+msgstr ""
+
+#: $string['noquestionsonpage']
+msgid "Empty page"
+msgstr ""
+
+#: $string['noresponse']
+msgid "No response"
+msgstr ""
+
+#: $string['noreview']
+msgid "You are not allowed to review this quiz"
+msgstr ""
+
+#: $string['noreviewattempt']
+msgid "You are not allowed to review this attempt."
+msgstr ""
+
+#: $string['noreviewshort']
+msgid "Not permitted"
+msgstr ""
+
+#: $string['noreviewuntil']
+msgid "You are not allowed to review this quiz until {$a}"
+msgstr ""
+
+#: $string['noreviewuntilshort']
+msgid "Available {$a}"
+msgstr ""
+
+#: $string['noscript']
+msgid "JavaScript must be enabled to continue!"
+msgstr ""
+
+#: $string['notavailabletostudents']
+msgid "Note: This quiz is not currently available to your students"
+msgstr ""
+
+#: $string['notenoughrandomquestions']
+msgid ""
+"There are not enough questions in category {$a->category} to create the "
+"question {$a->name} ({$a->id})."
+msgstr ""
+
+#: $string['notenoughsubquestions']
+msgid ""
+"Not enough sub-questions have been defined!<br />Do you want to go back and "
+"fix this question?"
+msgstr ""
+
+#: $string['notimedependentitems']
+msgid ""
+"Time dependent items are not currently supported by the quiz module. As a "
+"work around, set a time limit for the whole quiz. Do you wish to choose a "
+"different item (or use the current item regardless)?"
+msgstr ""
+
+#: $string['notyetgraded']
+msgid "Not yet graded"
+msgstr ""
+
+#: $string['notyetviewed']
+msgid "Not yet viewed"
+msgstr ""
+
+#: $string['notyourattempt']
+msgid "This is not your attempt!"
+msgstr ""
+
+#: $string['noview']
+msgid "Logged-in user is not allowed to view this quiz"
+msgstr ""
+
+#: $string['numattempts']
+msgid ""
+"{$a->studentnum} {$a->studentstring} have made {$a->attemptnum} attempts"
+msgstr ""
+
+#: $string['numattemptsmade']
+msgid "{$a} attempts made on this quiz"
+msgstr ""
+
+#: $string['numberabbr']
+msgid "#"
+msgstr ""
+
+#: $string['numerical']
+msgid "Numerical"
+msgstr ""
+
+#: $string['numquestionsx']
+msgid "Questions: {$a}"
+msgstr ""
+
+#: $string['oneminute']
+msgid "1 minute"
+msgstr ""
+
+#: $string['onlyteachersexport']
+msgid "Only teachers can export questions"
+msgstr ""
+
+#: $string['onlyteachersimport']
+msgid "Only teachers with editing rights can import questions"
+msgstr ""
+
+#: $string['onthispage']
+msgid "This page"
+msgstr ""
+
+#: $string['open']
+msgid "Not answered"
+msgstr ""
+
+#: $string['openafterclose']
+msgid ""
+"Could not update the quiz. You have specified an open date after the close "
+"date."
+msgstr ""
+
+#: $string['openclosedatesupdated']
+msgid "Quiz open and close dates updated"
+msgstr ""
+
+#: $string['optional']
+msgid "optional"
+msgstr ""
+
+#: $string['orderandpaging']
+msgctxt "$string['orderandpaging']"
+msgid "Order and paging"
+msgstr ""
+
+#: $string['orderandpaging_help']
+msgid ""
+"The numbers 10, 20, 30, ... opposite each question indicate the order of the "
+"questions. The numbers increase in steps of 10 to leave space for "
+"additional questions to be inserted. To reorder the questions, change the "
+"numbers then click the \"Reorder questions\" button.\n"
+"\n"
+"To add page breaks after particular questions, tick the checkboxes next to "
+"the questions then click the \"Add new pages after selected questions\" "
+"button.\n"
+"\n"
+"To arrange the questions over a number of pages, click the Repaginate button "
+"and select the desired number of questions per page."
+msgstr ""
+
+#: $string['orderingquiz']
+msgctxt "$string['orderingquiz']"
+msgid "Order and paging"
+msgstr ""
+
+#: $string['orderingquizx']
+msgid "Order and paging: {$a}"
+msgstr ""
+
+#: $string['outcomesadvanced']
+msgid "Outcomes are advanced settings"
+msgstr ""
+
+#: $string['outof']
+msgid "{$a->grade} out of {$a->maxgrade}"
+msgstr ""
+
+#: $string['outofpercent']
+msgid "{$a->grade} out of {$a->maxgrade} ({$a->percent}%)"
+msgstr ""
+
+#: $string['outofshort']
+msgid "{$a->grade}/{$a->maxgrade}"
+msgstr ""
+
+#: $string['overallfeedback']
+msgctxt "$string['overallfeedback']"
+msgid "Overall feedback"
+msgstr ""
+
+#: $string['overallfeedback_help']
+msgid ""
+"Overall feedback is text that is shown after a quiz has been attempted. By "
+"specifying additional grade boundaries (as a percentage or as a number), the "
+"text shown can depend on the grade obtained."
+msgstr ""
+
+#: $string['overdue']
+msgctxt "$string['overdue']"
+msgid "Overdue"
+msgstr ""
+
+#: $string['overduehandling']
+msgid "When time expires"
+msgstr ""
+
+#: $string['overduehandlingautoabandon']
+msgid "Attempts must be submitted before time expires, or they are not counted"
+msgstr ""
+
+#: $string['overduehandlingautosubmit']
+msgid "Open attempts are submitted automatically"
+msgstr ""
+
+#: $string['overduehandling_desc']
+msgid ""
+"What should happen by default if a student does not submit the quiz before "
+"time expires."
+msgstr ""
+
+#: $string['overduehandlinggraceperiod']
+msgid ""
+"There is a grace period when open attempts can be submitted, but no more "
+"questions answered"
+msgstr ""
+
+#: $string['overduehandling_help']
+msgid ""
+"This setting controls what happens if the Student fails to submit their quiz "
+"attempt before time expires. If the student is actively working on the quiz "
+"at the time, then the countdown timer will always automatically submit the "
+"attempt for them, but if they have logged out, then this setting controls "
+"what happens."
+msgstr ""
+
+#: $string['overduehandling_link']
+msgctxt "$string['overduehandling_link']"
+msgid "mod/quiz/timing"
+msgstr ""
+
+#: $string['overduemustbesubmittedby']
+msgid ""
+"This attempt is now overdue. It should already have been submitted. If you "
+"would like this quiz to be graded, you must submit it by {$a}. If you do not "
+"submit it by then, no marks from this attempt will be counted."
+msgstr ""
+
+#: $string['override']
+msgid "Override"
+msgstr ""
+
+#: $string['overridedeletegroupsure']
+msgid "Are you sure you want to delete the override for group {$a}?"
+msgstr ""
+
+#: $string['overridedeleteusersure']
+msgid "Are you sure you want to delete the override for user {$a}?"
+msgstr ""
+
+#: $string['overridegroup']
+msgid "Override group"
+msgstr ""
+
+#: $string['overridegroupeventname']
+msgid "{$a->quiz} - {$a->group}"
+msgstr ""
+
+#: $string['overrides']
+msgid "Overrides"
+msgstr ""
+
+#: $string['overrideuser']
+msgid "Override user"
+msgstr ""
+
+#: $string['overrideusereventname']
+msgid "{$a->quiz} - Override"
+msgstr ""
+
+#: $string['page-mod-quiz-attempt']
+msgid "Attempt quiz page"
+msgstr ""
+
+#: $string['page-mod-quiz-edit']
+msgid "Edit quiz page"
+msgstr ""
+
+#: $string['page-mod-quiz-report']
+msgid "Any quiz report page"
+msgstr ""
+
+#: $string['page-mod-quiz-review']
+msgid "Review quiz attempt page"
+msgstr ""
+
+#: $string['page-mod-quiz-summary']
+msgid "Quiz attempt summary page"
+msgstr ""
+
+#: $string['page-mod-quiz-view']
+msgid "Quiz information page"
+msgstr ""
+
+#: $string['page-mod-quiz-x']
+msgid "Any quiz module page"
+msgstr ""
+
+#: $string['pageshort']
+msgid "P"
+msgstr ""
+
+#: $string['pagesize']
+msgid "Page size"
+msgstr ""
+
+#: $string['parent']
+msgid "Parent"
+msgstr ""
+
+#: $string['parentcategory']
+msgid "Parent category"
+msgstr ""
+
+#: $string['parsingquestions']
+msgid "Parsing questions from import file."
+msgstr ""
+
+#: $string['partiallycorrect']
+msgid "Partially correct"
+msgstr ""
+
+#: $string['penalty']
+msgid "Penalty"
+msgstr ""
+
+#: $string['penaltyscheme']
+msgid "Apply penalties"
+msgstr ""
+
+#: $string['penaltyscheme_help']
+msgid ""
+"If enabled, a penalty is subtracted from the final mark for a question for a "
+"wrong response. The amount of penalty is specified in the question "
+"settings. This setting only applies if adaptive mode is enabled."
+msgstr ""
+
+#: $string['percentcorrect']
+msgid "Percent correct"
+msgstr ""
+
+#: $string['pleaseclose']
+msgid "Your request has been processed. You can now close this window"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Quiz administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Quiz"
+msgstr ""
+
+#: $string['popup']
+msgid "Show quiz in a &quot;secure&quot; window"
+msgstr ""
+
+#: $string['popupblockerwarning']
+msgid ""
+"This section of the test is in secure mode, this means that you need to take "
+"the quiz in a secure window. Please turn off your popup blocker. Thank you."
+msgstr ""
+
+#: $string['popupnotice']
+msgid "Students will see this quiz in a secure window"
+msgstr ""
+
+#: $string['preprocesserror']
+msgid "Error occurred during pre-processing!"
+msgstr ""
+
+#: $string['preview']
+msgid "Preview"
+msgstr ""
+
+#: $string['previewquestion']
+msgid "Preview question"
+msgstr ""
+
+#: $string['previewquiz']
+msgid "Preview {$a}"
+msgstr ""
+
+#: $string['previewquiznow']
+msgid "Preview quiz now"
+msgstr ""
+
+#: $string['previous']
+msgid "Previous state"
+msgstr ""
+
+#: $string['publish']
+msgid "Publish"
+msgstr ""
+
+#: $string['publishedit']
+msgid ""
+"You must have permission in the publishing course to add or edit questions "
+"in this category"
+msgstr ""
+
+#: $string['qbrief']
+msgid "Q. {$a}"
+msgstr ""
+
+#: $string['qname']
+msgid "name"
+msgstr ""
+
+#: $string['qti']
+msgid "IMS QTI format"
+msgstr ""
+
+#: $string['qtypename']
+msgid "type, name"
+msgstr ""
+
+#: $string['question']
+msgid "Question"
+msgstr ""
+
+#: $string['questionbank']
+msgid "from question bank"
+msgstr ""
+
+#: $string['questionbankmanagement']
+msgid "Question bank management"
+msgstr ""
+
+#: $string['questionbehaviour']
+msgid "Question behaviour"
+msgstr ""
+
+#: $string['questioncats']
+msgid "Question categories"
+msgstr ""
+
+#: $string['questiondeleted']
+msgid "This question has been deleted. Please contact your teacher"
+msgstr ""
+
+#: $string['questiondependencyadd']
+msgid ""
+"No restriction on when question {$a->thisq} can be attempted • Click to "
+"change"
+msgstr ""
+
+#: $string['questiondependencyfree']
+msgid "No restriction on this question"
+msgstr ""
+
+#: $string['questiondependencyremove']
+msgid ""
+"Question {$a->thisq} cannot be attempted until the previous question "
+"{$a->previousq} has been completed • Click to change"
+msgstr ""
+
+#: $string['questiondependsonprevious']
+msgid ""
+"This question cannot be attempted until the previous question has been "
+"completed."
+msgstr ""
+
+#: $string['questioninuse']
+msgid ""
+"The question '{$a->questionname}' is currently being used in: <br "
+"/>{$a->quiznames}<br />The question will not be deleted from these quizzes "
+"but only from the category list."
+msgstr ""
+
+#: $string['questionmissing']
+msgid "Question for this session is missing"
+msgstr ""
+
+#: $string['questionname']
+msgid "Question name"
+msgstr ""
+
+#: $string['questionnonav']
+msgid ""
+"<span class=\"accesshide\">Question </span>{$a->number}<span "
+"class=\"accesshide\"> {$a->attributes}</span>"
+msgstr ""
+
+#: $string['questionnonavinfo']
+msgid ""
+"<span class=\"accesshide\">Information </span>{$a->number}<span "
+"class=\"accesshide\"> {$a->attributes}</span>"
+msgstr ""
+
+#: $string['questionnotloaded']
+msgid "Question {$a} has not been loaded from the database"
+msgstr ""
+
+#: $string['questionorder']
+msgid "Question order"
+msgstr ""
+
+#: $string['questionposition']
+msgid "New position in order for question {$a}"
+msgstr ""
+
+#: $string['questions']
+msgctxt "$string['questions']"
+msgid "Questions"
+msgstr ""
+
+#: $string['questionsinclhidden']
+msgid "Questions (including hidden)"
+msgstr ""
+
+#: $string['questionsinthisquiz']
+msgid "Questions in this quiz"
+msgstr ""
+
+#: $string['questionsperpage']
+msgid "Questions per page"
+msgstr ""
+
+#: $string['questionsperpageselected']
+msgid ""
+"Questions per page has been set so the paging is currently fixed. As a "
+"result, the paging controls have been disabled. You can change this in {$a}."
+msgstr ""
+
+#: $string['questionsperpagex']
+msgid "Questions per page: {$a}"
+msgstr ""
+
+#: $string['questiontext']
+msgid "Question text"
+msgstr ""
+
+#: $string['questiontextisempty']
+msgid "[Empty question text]"
+msgstr ""
+
+#: $string['questiontype']
+msgid "Question type {$a}"
+msgstr ""
+
+#: $string['questiontypesetupoptions']
+msgid "Setup options for question types:"
+msgstr ""
+
+#: $string['quiz:addinstance']
+msgid "Add a new quiz"
+msgstr ""
+
+#: $string['quiz:attempt']
+msgid "Attempt quizzes"
+msgstr ""
+
+#: $string['quizavailable']
+msgid "The quiz is available until: {$a}"
+msgstr ""
+
+#: $string['quizclose']
+msgid "Close the quiz"
+msgstr ""
+
+#: $string['quizclosed']
+msgid "This quiz closed on {$a}"
+msgstr ""
+
+#: $string['quizcloses']
+msgid "Quiz closes"
+msgstr ""
+
+#: $string['quizcloseson']
+msgid "This quiz will close at {$a}"
+msgstr ""
+
+#: $string['quiz:deleteattempts']
+msgid "Delete quiz attempts"
+msgstr ""
+
+#: $string['quiz:emailconfirmsubmission']
+msgid "Get a confirmation message when submitting"
+msgstr ""
+
+#: $string['quiz:emailnotifysubmission']
+msgid "Get a notification message when an attempt is submitted"
+msgstr ""
+
+#: $string['quiz:emailwarnoverdue']
+msgid ""
+"Get a notification message when an attempt becomes overdue and needs to be "
+"submitted."
+msgstr ""
+
+#: $string['quizeventcloses']
+msgid "{$a} closes"
+msgstr ""
+
+#: $string['quizeventopens']
+msgid "{$a} opens"
+msgstr ""
+
+#: $string['quiz:grade']
+msgid "Grade quizzes manually"
+msgstr ""
+
+#: $string['quiz:ignoretimelimits']
+msgid "Ignores time limit on quizzes"
+msgstr ""
+
+#: $string['quizisclosed']
+msgid "This quiz is closed"
+msgstr ""
+
+#: $string['quizisclosedwillopen']
+msgid "Quiz closed (opens {$a})"
+msgstr ""
+
+#: $string['quizisopen']
+msgid "This quiz is open"
+msgstr ""
+
+#: $string['quizisopenwillclose']
+msgid "Quiz open (closes {$a})"
+msgstr ""
+
+#: $string['quiz:manage']
+msgid "Manage quizzes"
+msgstr ""
+
+#: $string['quiz:manageoverrides']
+msgid "Manage quiz overrides"
+msgstr ""
+
+#: $string['quiznavigation']
+msgid "Quiz navigation"
+msgstr ""
+
+#: $string['quizopen']
+msgid "Open the quiz"
+msgstr ""
+
+#: $string['quizopenclose']
+msgid "Open and close dates"
+msgstr ""
+
+#: $string['quizopenclose_help']
+msgid ""
+"Students can only start their attempt(s) after the open time and they must "
+"complete their attempts before the close time."
+msgstr ""
+
+#: $string['quizopenclose_link']
+msgctxt "$string['quizopenclose_link']"
+msgid "mod/quiz/timing"
+msgstr ""
+
+#: $string['quizopened']
+msgid "This quiz is open."
+msgstr ""
+
+#: $string['quizopenedon']
+msgid "This quiz opened at {$a}"
+msgstr ""
+
+#: $string['quizopens']
+msgid "Quiz opens"
+msgstr ""
+
+#: $string['quizopenwillclose']
+msgid "This quiz is open, will close on {$a} at"
+msgstr ""
+
+#: $string['quizordernotrandom']
+msgid "Order of quiz not shuffled"
+msgstr ""
+
+#: $string['quizorderrandom']
+msgid "* Order of quiz is shuffled"
+msgstr ""
+
+#: $string['quiz:preview']
+msgid "Preview quizzes"
+msgstr ""
+
+#: $string['quiz:regrade']
+msgid "Regrade quiz attempts"
+msgstr ""
+
+#: $string['quiz:reviewmyattempts']
+msgid "Review your own attempts"
+msgstr ""
+
+#: $string['quizsettings']
+msgid "Quiz settings"
+msgstr ""
+
+#: $string['quiztimer']
+msgid "Quiz Timer"
+msgstr ""
+
+#: $string['quiz:view']
+msgid "View quiz information"
+msgstr ""
+
+#: $string['quiz:viewreports']
+msgid "View quiz reports"
+msgstr ""
+
+#: $string['quizwillopen']
+msgid "This quiz will open {$a}"
+msgstr ""
+
+#: $string['random']
+msgid "Random question"
+msgstr ""
+
+#: $string['randomcreate']
+msgid "Create random questions"
+msgstr ""
+
+#: $string['randomfromcategory']
+msgid "Random question from category:"
+msgstr ""
+
+#: $string['randomfromexistingcategory']
+msgid "Random question from an existing category"
+msgstr ""
+
+#: $string['randomnosubcat']
+msgid "Questions from this category only, not its subcategories."
+msgstr ""
+
+#: $string['randomnumber']
+msgid "Number of random questions"
+msgstr ""
+
+#: $string['randomquestionusinganewcategory']
+msgid "Random question using a new category"
+msgstr ""
+
+#: $string['randomwithsubcat']
+msgid "Questions from this category and its subcategories."
+msgstr ""
+
+#: $string['readytosend']
+msgid ""
+"You are about to send your whole quiz to be graded.  Are you sure you want "
+"to continue?"
+msgstr ""
+
+#: $string['reattemptquiz']
+msgid "Re-attempt quiz"
+msgstr ""
+
+#: $string['recentlyaddedquestion']
+msgid "Recently added question!"
+msgstr ""
+
+#: $string['recurse']
+msgid "Include questions from subcategories too"
+msgstr ""
+
+#: $string['redoesofthisquestion']
+msgid "Other questions attempted here: {$a}"
+msgstr ""
+
+#: $string['redoquestion']
+msgid "Try another question like this one"
+msgstr ""
+
+#: $string['regrade']
+msgid "Regrade all attempts"
+msgstr ""
+
+#: $string['regradecomplete']
+msgid "All attempts have been regraded"
+msgstr ""
+
+#: $string['regradecount']
+msgid "{$a->changed} out of {$a->attempt} grades were changed"
+msgstr ""
+
+#: $string['regradedisplayexplanation']
+msgid ""
+"Attempts that change during regrading are displayed as hyperlinks to the "
+"question review window"
+msgstr ""
+
+#: $string['regradenotallowed']
+msgid "You do not have permission to regrade this quiz"
+msgstr ""
+
+#: $string['regradingquestion']
+msgid "Regrading \"{$a}\"."
+msgstr ""
+
+#: $string['regradingquiz']
+msgid "Regrading quiz \"{$a}\""
+msgstr ""
+
+#: $string['remove']
+msgid "Remove"
+msgstr ""
+
+#: $string['removeallgroupoverrides']
+msgid "Delete all group overrides"
+msgstr ""
+
+#: $string['removeallquizattempts']
+msgid "Delete all quiz attempts"
+msgstr ""
+
+#: $string['removealluseroverrides']
+msgid "Delete all user overrides"
+msgstr ""
+
+#: $string['removeemptypage']
+msgid "Remove empty page"
+msgstr ""
+
+#: $string['removepagebreak']
+msgid "Remove page break"
+msgstr ""
+
+#: $string['removeselected']
+msgid "Remove selected"
+msgstr ""
+
+#: $string['rename']
+msgid "Rename"
+msgstr ""
+
+#: $string['renderingserverconnectfailed']
+msgid ""
+"The server {$a} failed to process an RQP request. Check that the URL is "
+"correct."
+msgstr ""
+
+#: $string['reorderquestions']
+msgid "Reorder questions"
+msgstr ""
+
+#: $string['reordertool']
+msgid "Show the reordering tool"
+msgstr ""
+
+#: $string['repaginate']
+msgid "Repaginate with {$a} questions per page"
+msgstr ""
+
+#: $string['repaginatecommand']
+msgid "Repaginate"
+msgstr ""
+
+#: $string['repaginatenow']
+msgid "Repaginate now"
+msgstr ""
+
+#: $string['replace']
+msgid "Replace"
+msgstr ""
+
+#: $string['replacementoptions']
+msgid "Replacement options"
+msgstr ""
+
+#: $string['report']
+msgctxt "$string['report']"
+msgid "Reports"
+msgstr ""
+
+#: $string['reportanalysis']
+msgid "Item analysis"
+msgstr ""
+
+#: $string['reportattemptsfrom']
+msgid "Attempts from"
+msgstr ""
+
+#: $string['reportattemptsthatare']
+msgid "Attempts that are"
+msgstr ""
+
+#: $string['reportdisplayoptions']
+msgctxt "$string['reportdisplayoptions']"
+msgid "Display options"
+msgstr ""
+
+#: $string['reportfullstat']
+msgid "Detailed statistics"
+msgstr ""
+
+#: $string['reportmulti_percent']
+msgid "Multi-percentages"
+msgstr ""
+
+#: $string['reportmulti_q_x_student']
+msgid "Multi-student choices"
+msgstr ""
+
+#: $string['reportmulti_resp']
+msgid "Individual responses"
+msgstr ""
+
+#: $string['reportmustselectstate']
+msgid "You must select at least one state."
+msgstr ""
+
+#: $string['reportnotfound']
+msgid "Report not known ({$a})"
+msgstr ""
+
+#: $string['reportoverview']
+msgid "Overview"
+msgstr ""
+
+#: $string['reportregrade']
+msgid "Regrade attempts"
+msgstr ""
+
+#: $string['reportresponses']
+msgid "Detailed responses"
+msgstr ""
+
+#: $string['reports']
+msgctxt "$string['reports']"
+msgid "Reports"
+msgstr ""
+
+#: $string['reportshowonly']
+msgid "Show only attempts"
+msgstr ""
+
+#: $string['reportshowonlyfinished']
+msgid "Show at most one finished attempt per user ({$a})"
+msgstr ""
+
+#: $string['reportsimplestat']
+msgid "Simple statistics"
+msgstr ""
+
+#: $string['reportusersall']
+msgid "all users who have attempted the quiz"
+msgstr ""
+
+#: $string['reportuserswith']
+msgid "enrolled users who have attempted the quiz"
+msgstr ""
+
+#: $string['reportuserswithorwithout']
+msgid "enrolled users who have, or have not, attempted the quiz"
+msgstr ""
+
+#: $string['reportuserswithout']
+msgid "enrolled users who have not attempted the quiz"
+msgstr ""
+
+#: $string['reportwhattoinclude']
+msgid "What to include in the report"
+msgstr ""
+
+#: $string['requirepassword']
+msgid "Require password"
+msgstr ""
+
+#: $string['requirepassword_help']
+msgid ""
+"If a password is specified, a student must enter it in order to attempt the "
+"quiz."
+msgstr ""
+
+#: $string['requiresubnet']
+msgid "Require network address"
+msgstr ""
+
+#: $string['requiresubnet_help']
+msgid ""
+"Quiz access may be restricted to particular subnets on the LAN or Internet "
+"by specifying a comma-separated list of partial or full IP address numbers. "
+"This can be useful for an invigilated (proctored) quiz, to ensure that only "
+"people in a certain location can access the quiz."
+msgstr ""
+
+#: $string['response']
+msgid "Response"
+msgstr ""
+
+#: $string['responses']
+msgid "Responses"
+msgstr ""
+
+#: $string['results']
+msgid "Results"
+msgstr ""
+
+#: $string['returnattempt']
+msgid "Return to attempt"
+msgstr ""
+
+#: $string['reuseifpossible']
+msgid "reuse previously removed"
+msgstr ""
+
+#: $string['reverttodefaults']
+msgid "Revert to quiz defaults"
+msgstr ""
+
+#: $string['review']
+msgid "Review"
+msgstr ""
+
+#: $string['reviewafter']
+msgid "Allow review after quiz is closed"
+msgstr ""
+
+#: $string['reviewalways']
+msgid "Allow review at any time"
+msgstr ""
+
+#: $string['reviewattempt']
+msgid "Review attempt"
+msgstr ""
+
+#: $string['reviewbefore']
+msgid "Allow review while quiz is open"
+msgstr ""
+
+#: $string['reviewclosed']
+msgid "After the quiz is closed"
+msgstr ""
+
+#: $string['reviewduring']
+msgid "During the attempt"
+msgstr ""
+
+#: $string['reviewimmediately']
+msgid "Immediately after the attempt"
+msgstr ""
+
+#: $string['reviewnever']
+msgid "Never allow review"
+msgstr ""
+
+#: $string['reviewofattempt']
+msgid "Review of attempt {$a}"
+msgstr ""
+
+#: $string['reviewofpreview']
+msgid "Review of preview"
+msgstr ""
+
+#: $string['reviewofquestion']
+msgid "Review of question {$a->question} in {$a->quiz} by {$a->user}"
+msgstr ""
+
+#: $string['reviewopen']
+msgid "Later, while the quiz is still open"
+msgstr ""
+
+#: $string['reviewoptions']
+msgid "Students may review"
+msgstr ""
+
+#: $string['reviewoptionsheading']
+msgid "Review options"
+msgstr ""
+
+#: $string['reviewoptionsheading_help']
+msgid ""
+"These options control what information students can see when they review a "
+"quiz attempt or look at the quiz reports.\n"
+"\n"
+"**During the attempt** settings are only relevant for some behaviours, like "
+"'interactive with multiple tries', which may display feedback during the "
+"attempt.\n"
+"\n"
+"**Immediately after the attempt** settings apply for the first two minutes "
+"after 'Submit all and finish' is clicked.\n"
+"\n"
+"**Later, while the quiz is still open** settings apply after this, and "
+"before the quiz close date.\n"
+"\n"
+"**After the quiz is closed** settings apply after the quiz close date has "
+"passed. If the quiz does not have a close date, this state is never reached."
+msgstr ""
+
+#: $string['reviewoverallfeedback']
+msgctxt "$string['reviewoverallfeedback']"
+msgid "Overall feedback"
+msgstr ""
+
+#: $string['reviewoverallfeedback_help']
+msgid ""
+"The feedback given at the end of the attempt, depending on the student's "
+"total mark."
+msgstr ""
+
+#: $string['reviewresponse']
+msgid "Review response"
+msgstr ""
+
+#: $string['reviewresponsetoq']
+msgid "Review response (question {$a})"
+msgstr ""
+
+#: $string['reviewthisattempt']
+msgid "Review your responses to this attempt"
+msgstr ""
+
+#: $string['rqp']
+msgid "Remote question"
+msgstr ""
+
+#: $string['rqps']
+msgid "Remote questions"
+msgstr ""
+
+#: $string['sameasoverall']
+msgid "Same as for overall grades"
+msgstr ""
+
+#: $string['save']
+msgid "Save"
+msgstr ""
+
+#: $string['saveandedit']
+msgid "Save changes and edit questions"
+msgstr ""
+
+#: $string['saveattemptfailed']
+msgid "Failed to save the current quiz attempt."
+msgstr ""
+
+#: $string['savedfromdeletedcourse']
+msgid "Saved from deleted course \"{$a}\""
+msgstr ""
+
+#: $string['savegrades']
+msgid "Save grades"
+msgstr ""
+
+#: $string['savemyanswers']
+msgid "Save my answers"
+msgstr ""
+
+#: $string['savenosubmit']
+msgid "Save without submitting"
+msgstr ""
+
+#: $string['saveoverrideandstay']
+msgid "Save and enter another override"
+msgstr ""
+
+#: $string['savequiz']
+msgid "Save this whole quiz"
+msgstr ""
+
+#: $string['saving']
+msgid "Saving"
+msgstr ""
+
+#: $string['savingnewgradeforquestion']
+msgid "Saving new grade for question id {$a}."
+msgstr ""
+
+#: $string['savingnewmaximumgrade']
+msgid "Saving new maximum grade."
+msgstr ""
+
+#: $string['score']
+msgid "Raw score"
+msgstr ""
+
+#: $string['scores']
+msgid "Scores"
+msgstr ""
+
+#: $string['search:activity']
+msgid "Quiz - activity information"
+msgstr ""
+
+#: $string['sectionheadingedit']
+msgid "Edit heading '{$a}'"
+msgstr ""
+
+#: $string['sectionheadingremove']
+msgid "Remove heading '{$a}'"
+msgstr ""
+
+#: $string['seequestions']
+msgid "(See questions)"
+msgstr ""
+
+#: $string['select']
+msgid "Select"
+msgstr ""
+
+#: $string['selectall']
+msgid "Select all"
+msgstr ""
+
+#: $string['selectcategory']
+msgid "Select category"
+msgstr ""
+
+#: $string['selectedattempts']
+msgid "Selected attempts..."
+msgstr ""
+
+#: $string['selectmultipleitems']
+msgid "Select multiple items"
+msgstr ""
+
+#: $string['selectmultipletoolbar']
+msgid "Select multiple toolbar"
+msgstr ""
+
+#: $string['selectnone']
+msgid "Deselect all"
+msgstr ""
+
+#: $string['selectquestiontype']
+msgid "-- Select question type --"
+msgstr ""
+
+#: $string['serveradded']
+msgid "Server added"
+msgstr ""
+
+#: $string['serveridentifier']
+msgid "Identifier"
+msgstr ""
+
+#: $string['serverinfo']
+msgid "Server information"
+msgstr ""
+
+#: $string['servers']
+msgid "Servers"
+msgstr ""
+
+#: $string['serverurl']
+msgid "Server URL"
+msgstr ""
+
+#: $string['settingsoverrides']
+msgid "Settings overrides"
+msgstr ""
+
+#: $string['shortanswer']
+msgid "Short answer"
+msgstr ""
+
+#: $string['show']
+msgid "Show"
+msgstr ""
+
+#: $string['showall']
+msgid "Show all questions on one page"
+msgstr ""
+
+#: $string['showblocks']
+msgid "Show blocks during quiz attempts"
+msgstr ""
+
+#: $string['showblocks_help']
+msgid "If set to yes then normal blocks will be shown during quiz attempts"
+msgstr ""
+
+#: $string['showbreaks']
+msgid "Show page breaks"
+msgstr ""
+
+#: $string['showcategorycontents']
+msgid "Show category contents {$a->arrow}"
+msgstr ""
+
+#: $string['showcorrectanswer']
+msgid "In feedback, show correct answers?"
+msgstr ""
+
+#: $string['showdetailedmarks']
+msgid "Show mark details"
+msgstr ""
+
+#: $string['showeachpage']
+msgid "Show one page at a time"
+msgstr ""
+
+#: $string['showfeedback']
+msgid "After answering, show feedback?"
+msgstr ""
+
+#: $string['showinsecurepopup']
+msgid "Use a 'secure' popup window for attempts"
+msgstr ""
+
+#: $string['showlargeimage']
+msgid "Large image"
+msgstr ""
+
+#: $string['shownoattempts']
+msgid "Show students with no attempts"
+msgstr ""
+
+#: $string['shownoattemptsonly']
+msgid "Show only students with no attempts"
+msgstr ""
+
+#: $string['shownoimage']
+msgid "No image"
+msgstr ""
+
+#: $string['showreport']
+msgid "Show report"
+msgstr ""
+
+#: $string['showsmallimage']
+msgid "Small image"
+msgstr ""
+
+#: $string['showteacherattempts']
+msgid "Show teacher attempts"
+msgstr ""
+
+#: $string['showuserpicture']
+msgid "Show the user's picture"
+msgstr ""
+
+#: $string['showuserpicture_help']
+msgid ""
+"If enabled, the student's name and picture will be shown on-screen during "
+"the attempt, and on the review screen, making it easier to check that the "
+"student is logged in as themself in an invigilated (proctored) exam."
+msgstr ""
+
+#: $string['shuffle']
+msgctxt "$string['shuffle']"
+msgid "Shuffle"
+msgstr ""
+
+#: $string['shuffleanswers']
+msgid "Shuffle answers"
+msgstr ""
+
+#: $string['shuffledrandomly']
+msgid "Shuffled randomly"
+msgstr ""
+
+#: $string['shufflequestions']
+msgctxt "$string['shufflequestions']"
+msgid "Shuffle"
+msgstr ""
+
+#: $string['shufflequestions_help']
+msgid ""
+"If you turn this on, then every time the quiz is attempted, the order of the "
+"questions in this section will be shuffled into a different random order.\n"
+"\n"
+"This can make it harder for students to share answers, but it also makes it "
+"harder for students discuss a particular question with you."
+msgstr ""
+
+#: $string['shufflewithin']
+msgid "Shuffle within questions"
+msgstr ""
+
+#: $string['shufflewithin_help']
+msgid ""
+"If enabled, the parts making up each question will be randomly shuffled each "
+"time a student attempts the quiz, provided the option is also enabled in "
+"the question settings. This setting only applies to questions that have "
+"multiple parts, such as multiple choice or matching questions."
+msgstr ""
+
+#: $string['singleanswer']
+msgid "Choose one answer."
+msgstr ""
+
+#: $string['sortage']
+msgid "Sort by age"
+msgstr ""
+
+#: $string['sortalpha']
+msgid "Sort by name"
+msgstr ""
+
+#: $string['sortquestionsbyx']
+msgid "Sort questions by: {$a}"
+msgstr ""
+
+#: $string['sortsubmit']
+msgid "Sort questions"
+msgstr ""
+
+#: $string['sorttypealpha']
+msgid "Sort by type, name"
+msgstr ""
+
+#: $string['specificapathnotonquestion']
+msgid "The specified file path is not on the specified question"
+msgstr ""
+
+#: $string['specificquestionnotonquiz']
+msgid "Specified question is not on the specified quiz"
+msgstr ""
+
+#: $string['startagain']
+msgid "Start again"
+msgstr ""
+
+#: $string['startattempt']
+msgid "Start attempt"
+msgstr ""
+
+#: $string['startedon']
+msgid "Started on"
+msgstr ""
+
+#: $string['startnewpreview']
+msgid "Start a new preview"
+msgstr ""
+
+#: $string['stateabandoned']
+msgid "Never submitted"
+msgstr ""
+
+#: $string['statefinished']
+msgid "Finished"
+msgstr ""
+
+#: $string['statefinisheddetails']
+msgid "Submitted {$a}"
+msgstr ""
+
+#: $string['stateinprogress']
+msgctxt "$string['stateinprogress']"
+msgid "In progress"
+msgstr ""
+
+#: $string['statenotloaded']
+msgid "The state for question {$a} has not been loaded from the database"
+msgstr ""
+
+#: $string['stateoverdue']
+msgctxt "$string['stateoverdue']"
+msgid "Overdue"
+msgstr ""
+
+#: $string['stateoverduedetails']
+msgid "Must be submitted by {$a}"
+msgstr ""
+
+#: $string['status']
+msgid "Status"
+msgstr ""
+
+#: $string['stoponerror']
+msgid "Stop on error"
+msgstr ""
+
+#: $string['submitallandfinish']
+msgid "Submit all and finish"
+msgstr ""
+
+#: $string['subneterror']
+msgid ""
+"Sorry, this quiz has been locked so that it is only accessible from certain "
+"locations.  Currently your computer is not one of those allowed to use this "
+"quiz."
+msgstr ""
+
+#: $string['subnetnotice']
+msgid ""
+"This quiz has been locked so that it is only accessible from certain "
+"locations. Your computer is not on an allowed subnet. As teacher you are "
+"allowed to preview anyway."
+msgstr ""
+
+#: $string['subplugintype_quiz']
+msgid "Report"
+msgstr ""
+
+#: $string['subplugintype_quizaccess']
+msgid "Access rule"
+msgstr ""
+
+#: $string['subplugintype_quizaccess_plural']
+msgid "Access rules"
+msgstr ""
+
+#: $string['subplugintype_quiz_plural']
+msgctxt "$string['subplugintype_quiz_plural']"
+msgid "Reports"
+msgstr ""
+
+#: $string['substitutedby']
+msgid "will be substituted by"
+msgstr ""
+
+#: $string['summaryofattempt']
+msgid "Summary of attempt"
+msgstr ""
+
+#: $string['summaryofattempts']
+msgid "Summary of your previous attempts"
+msgstr ""
+
+#: $string['temporaryblocked']
+msgid ""
+"You are temporarily not allowed to re-attempt the quiz.<br /> You will be "
+"able to take another attempt on:"
+msgstr ""
+
+#: $string['theattempt']
+msgid "The attempt"
+msgstr ""
+
+#: $string['theattempt_help']
+msgid "Whether the student can review the attempt at all."
+msgstr ""
+
+#: $string['time']
+msgid "Time"
+msgstr ""
+
+#: $string['timecompleted']
+msgid "Completed"
+msgstr ""
+
+#: $string['timedelay']
+msgid ""
+"You are not allowed to do the quiz since you have not passed the time delay "
+"before attempting another quiz"
+msgstr ""
+
+#: $string['timeleft']
+msgid "Time left"
+msgstr ""
+
+#: $string['timelimit']
+msgid "Time limit"
+msgstr ""
+
+#: $string['timelimitexeeded']
+msgid "Sorry! Quiz time limit exceeded!"
+msgstr ""
+
+#: $string['timelimit_help']
+msgid ""
+"If enabled, the time limit is stated on the initial quiz page and a "
+"countdown timer is displayed in the quiz navigation block."
+msgstr ""
+
+#: $string['timelimit_link']
+msgctxt "$string['timelimit_link']"
+msgid "mod/quiz/timing"
+msgstr ""
+
+#: $string['timestr']
+msgid "%H:%M:%S on %d/%m/%y"
+msgstr ""
+
+#: $string['timesup']
+msgid "Time is up!"
+msgstr ""
+
+#: $string['timetaken']
+msgctxt "$string['timetaken']"
+msgid "Time taken"
+msgstr ""
+
+#: $string['timing']
+msgid "Timing"
+msgstr ""
+
+#: $string['tofile']
+msgid "to file"
+msgstr ""
+
+#: $string['tolerance']
+msgid "Tolerance"
+msgstr ""
+
+#: $string['toomanyrandom']
+msgid ""
+"The number of random questions required is more than are still available in "
+"the category!"
+msgstr ""
+
+#: $string['top']
+msgid "Top"
+msgstr ""
+
+#: $string['totalmarksx']
+msgid "Total of marks: {$a}"
+msgstr ""
+
+#: $string['totalquestionsinrandomqcategory']
+msgid "Total of {$a} questions in category."
+msgstr ""
+
+#: $string['true']
+msgid "True"
+msgstr ""
+
+#: $string['truefalse']
+msgid "True/false"
+msgstr ""
+
+#: $string['type']
+msgid "Type"
+msgstr ""
+
+#: $string['unfinished']
+msgid "open"
+msgstr ""
+
+#: $string['ungraded']
+msgid "Ungraded"
+msgstr ""
+
+#: $string['unit']
+msgid "Unit"
+msgstr ""
+
+#: $string['unknowntype']
+msgid "Question type not supported at line {$a}. The question will be ignored"
+msgstr ""
+
+#: $string['updatesettings']
+msgid "Update quiz settings"
+msgstr ""
+
+#: $string['updatingatttemptgrades']
+msgid "Updating attempt grades."
+msgstr ""
+
+#: $string['updatingfinalgrades']
+msgid "Updating final grades."
+msgstr ""
+
+#: $string['updatingthegradebook']
+msgid "Updating the gradebook."
+msgstr ""
+
+#: $string['upgradesure']
+msgid ""
+"<div>In particular the quiz module will perform an extensive change of the "
+"quiz tables and this upgrade has not yet been sufficiently tested. You are "
+"very strongly urged to backup your database tables before proceeding.</div>"
+msgstr ""
+
+#: $string['upgradingquizattempts']
+msgid ""
+"Upgrading quiz attempts: quiz {$a->done}/{$a->outof} (Quiz id {$a->info})"
+msgstr ""
+
+#: $string['upgradingveryoldquizattempts']
+msgid "Upgrading very old quiz attempts: {$a->done}/{$a->outof}"
+msgstr ""
+
+#: $string['url']
+msgid "URL"
+msgstr ""
+
+#: $string['usedcategorymoved']
+msgid ""
+"This category has been preserved and moved to the site level because it is a "
+"published category still in use by other courses."
+msgstr ""
+
+#: $string['useroverrides']
+msgid "User overrides"
+msgstr ""
+
+#: $string['useroverridesdeleted']
+msgid "User overrides deleted"
+msgstr ""
+
+#: $string['usersnone']
+msgid "No students have access to this quiz"
+msgstr ""
+
+#: $string['validate']
+msgid "Validate"
+msgstr ""
+
+#: $string['viewallanswers']
+msgid "View {$a} quiz attempts"
+msgstr ""
+
+#: $string['viewallreports']
+msgid "View reports for {$a} attempts"
+msgstr ""
+
+#: $string['viewed']
+msgid "Viewed"
+msgstr ""
+
+#: $string['warningmissingtype']
+msgid ""
+"<b>This question is of a type that has not been installed on your Moodle "
+"yet.<br />Please alert your Moodle administrator.</b>"
+msgstr ""
+
+#: $string['wheregrade']
+msgid "Where's my grade?"
+msgstr ""
+
+#: $string['wildcard']
+msgid "Wild card"
+msgstr ""
+
+#: $string['windowclosing']
+msgid "This window will close shortly."
+msgstr ""
+
+#: $string['withsummary']
+msgid "with summary statistics"
+msgstr ""
+
+#: $string['wronguse']
+msgid "You can not use this page like that"
+msgstr ""
+
+#: $string['xhtml']
+msgid "XHTML"
+msgstr ""
+
+#: $string['youneedtoenrol']
+msgid "You need to enrol in this course before you can attempt this quiz"
+msgstr ""
+
+#: $string['yourfinalgradeis']
+msgid "Your final grade for this quiz is {$a}."
+msgstr ""

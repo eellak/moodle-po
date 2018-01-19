@@ -1,0 +1,2257 @@
+#. extracted from lang/en/via.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'via', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   via
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['absent']
+msgid "Absent"
+msgstr ""
+
+#: $string['accessactivity']
+msgid "Access your activity:"
+msgstr ""
+
+#: $string['activity_deleted']
+msgid ""
+"The Via activity was deleted directly in the Via environment by a user. It "
+"is therefore impossible to access. We recommend that you delete this "
+"activity in Moodle and create a new one."
+msgstr ""
+
+#: $string['activitydeletion']
+msgid "Limit activity deletion"
+msgstr ""
+
+#: $string['activitydeletiondesc']
+msgid "If checked, activities will be deleted in Moodle but not in Via."
+msgstr ""
+
+#: $string['activitydone']
+msgid "This activity is finished."
+msgstr ""
+
+#: $string['activitytemplatebutton']
+msgid "Synchronize activity template values"
+msgstr ""
+
+#: $string['activitytemplatedesc']
+msgid ""
+"The default values(recording mode, waiting room, multimedia profile, etc.) "
+"applied to the creation of a new virtual classe are the values that are set "
+"by default in the Via portal. You must connect to the portal and access the "
+"Activity Template section on the left side to validate the default values."
+msgstr ""
+
+#: $string['activitytemplateheader']
+msgid "Activity template"
+msgstr ""
+
+#: $string['activitytitle']
+msgid "Activity title"
+msgstr ""
+
+#: $string['activitywaserased']
+msgid ""
+"Could not find this activity on SVI server. It seems to have been erased."
+msgstr ""
+
+#: $string['add']
+msgctxt "$string['add']"
+msgid "Add"
+msgstr ""
+
+#: $string['adminid_nosuccess']
+msgid "The mooodle key provided is not valid."
+msgstr ""
+
+#: $string['adminid_success']
+msgid "The moodle key is valid"
+msgstr ""
+
+#: $string['adminid_toolow']
+msgid ""
+"The user's rights do not permit the creation of activities. Please contact "
+"the administrator to increase the rights."
+msgstr ""
+
+#: $string['adminnotrenrolled']
+msgid ""
+"As administrator you may access the activity although you are not enrolled."
+msgstr ""
+
+#: $string['and']
+msgid "and"
+msgstr ""
+
+#: $string['animator']
+msgid "Animator"
+msgstr ""
+
+#: $string['animators']
+msgid "Animators"
+msgstr ""
+
+#: $string['apiconfig']
+msgid "API configuration - Step 1"
+msgstr ""
+
+#: $string['apiid']
+msgid "Via API ID (ApiID)"
+msgstr ""
+
+#: $string['apiidsetting']
+msgid "Via API unique ID"
+msgstr ""
+
+#: $string['apiurl']
+msgid "API's URL"
+msgstr ""
+
+#: $string['apiurlsetting']
+msgid "API's base URL"
+msgstr ""
+
+#: $string['attending']
+msgid "I will be attending"
+msgstr ""
+
+#: $string['audiomodelabel']
+msgid "Audio type for the conference"
+msgstr ""
+
+#: $string['audiorecord']
+msgid "Audio (MP3)"
+msgstr ""
+
+#: $string['audiorecordinfo']
+msgid "Audio only"
+msgstr ""
+
+#: $string['automatic']
+msgid "Automatic"
+msgstr ""
+
+#: $string['automaticenrol']
+msgid "Automatic enrolment"
+msgstr ""
+
+#: $string['availabledate']
+msgid "Available from"
+msgstr ""
+
+#: $string['awaitingauthorization']
+msgid "Awaiting authorization (manual)"
+msgstr ""
+
+#: $string['backup']
+msgid "Incude whiteboard and survey information in course backups"
+msgstr ""
+
+#: $string['backupdesc']
+msgid ""
+"If checked whiteboard and survey information from an activity will be "
+"included in the new activty produced durning the course backup and "
+"restoration process. Documents are always included in this process. "
+"Including user ifomation is optional."
+msgstr ""
+
+#: $string['backup_options']
+msgid "Activity backup and duplication options"
+msgstr ""
+
+#: $string['basedon']
+msgid "The presence status is based on {$a} minutes."
+msgstr ""
+
+#: $string['by']
+msgid "by"
+msgstr ""
+
+#: $string['cancel']
+msgid "Cancel"
+msgstr ""
+
+#: $string['cat_check']
+msgctxt "$string['cat_check']"
+msgid "Add"
+msgstr ""
+
+#: $string['cat_default']
+msgid "Set as default"
+msgstr ""
+
+#: $string['categoriesheader']
+msgid "Categories"
+msgstr ""
+
+#: $string['category']
+msgid "Choose a category"
+msgstr ""
+
+#: $string['cat_intro']
+msgid "Choose the Via categories that you wish to make available in Moodle."
+msgstr ""
+
+#: $string['cat_name']
+msgid "Category names"
+msgstr ""
+
+#: $string['cats_modified']
+msgid "The categories were successfully modified!"
+msgstr ""
+
+#: $string['choosecategories']
+msgid "Configure the categories"
+msgstr ""
+
+#: $string['choosehost']
+msgid ""
+"To chose a new host, simply add a new user to replace the existing host. The "
+"can only be one host."
+msgstr ""
+
+#: $string['cieid']
+msgid "Via ID (CieID)"
+msgstr ""
+
+#: $string['cieidsetting']
+msgid "Company ID for VIA"
+msgstr ""
+
+#: $string['config']
+msgid "Configuration"
+msgstr ""
+
+#: $string['configassist']
+msgid "Setup wizard"
+msgstr ""
+
+#: $string['confirmation']
+msgid "Participants confirmations"
+msgstr ""
+
+#: $string['confirmationstatus']
+msgid "Confirmation status"
+msgstr ""
+
+#: $string['confirmdelete']
+msgid "Are you sure you want to delete this recording permanently?"
+msgstr ""
+
+#: $string['confirmed']
+msgid "Attendance confirmed"
+msgstr ""
+
+#: $string['confirmneeded']
+msgid "Attendence confirmation is needed"
+msgstr ""
+
+#: $string['connectsuccess']
+msgid "Success with the connection to the API"
+msgstr ""
+
+#: $string['conntest']
+msgid "Connection test"
+msgstr ""
+
+#: $string['createdby']
+msgid "Report created by:"
+msgstr ""
+
+#: $string['creationdate']
+msgid "Report created on:"
+msgstr ""
+
+#: $string['date']
+msgid "Activity date"
+msgstr ""
+
+#: $string['delete']
+msgid "Delete"
+msgstr ""
+
+#: $string['desactivatedMessage']
+msgid ""
+"This activity and its associated records or documents have been deleted and "
+"are no longer accessible. Please delete this activity from the course"
+msgstr ""
+
+#: $string['description']
+msgid "Description"
+msgstr ""
+
+#: $string['df_button_manage']
+msgid "Manage the content"
+msgstr ""
+
+#: $string['df_header_download']
+msgid "Download"
+msgstr ""
+
+#: $string['df_header_nbpages']
+msgid "Pages"
+msgstr ""
+
+#: $string['df_header_size']
+msgid "Size"
+msgstr ""
+
+#: $string['df_header_title']
+msgid "Title"
+msgstr ""
+
+#: $string['df_header_type']
+msgid "Type"
+msgstr ""
+
+#: $string['df_nofiles']
+msgid "No content to download"
+msgstr ""
+
+#: $string['df_type_0']
+msgid "Uncategorised"
+msgstr ""
+
+#: $string['df_type_1']
+msgid "JPG Image"
+msgstr ""
+
+#: $string['df_type_10']
+msgid "AVI Video"
+msgstr ""
+
+#: $string['df_type_11']
+msgid "MPG Video"
+msgstr ""
+
+#: $string['df_type_12']
+msgid "WMV Video"
+msgstr ""
+
+#: $string['df_type_13']
+msgid "MOV Video"
+msgstr ""
+
+#: $string['df_type_14']
+msgid "MP3 Audio"
+msgstr ""
+
+#: $string['df_type_15']
+msgid "WAV Audio"
+msgstr ""
+
+#: $string['df_type_16']
+msgid "WMA Audio"
+msgstr ""
+
+#: $string['df_type_17']
+msgid "OGG Audio"
+msgstr ""
+
+#: $string['df_type_18']
+msgctxt "$string['df_type_18']"
+msgid "Powerpoint Presentation"
+msgstr ""
+
+#: $string['df_type_19']
+msgid "URL"
+msgstr ""
+
+#: $string['df_type_2']
+msgid "BMP Image"
+msgstr ""
+
+#: $string['df_type_20']
+msgid "MP4 File"
+msgstr ""
+
+#: $string['df_type_21']
+msgctxt "$string['df_type_21']"
+msgid "Word Document"
+msgstr ""
+
+#: $string['df_type_22']
+msgctxt "$string['df_type_22']"
+msgid "Excel Document"
+msgstr ""
+
+#: $string['df_type_23']
+msgid "OD File"
+msgstr ""
+
+#: $string['df_type_24']
+msgid "SXW File"
+msgstr ""
+
+#: $string['df_type_25']
+msgid "RTF Document"
+msgstr ""
+
+#: $string['df_type_26']
+msgid "WPD File"
+msgstr ""
+
+#: $string['df_type_27']
+msgid "Text File"
+msgstr ""
+
+#: $string['df_type_28']
+msgid "ODS File"
+msgstr ""
+
+#: $string['df_type_29']
+msgid "SXC File"
+msgstr ""
+
+#: $string['df_type_3']
+msgid "PNG Image"
+msgstr ""
+
+#: $string['df_type_30']
+msgid "CSV File"
+msgstr ""
+
+#: $string['df_type_31']
+msgid "TSV File"
+msgstr ""
+
+#: $string['df_type_32']
+msgid "ODP File"
+msgstr ""
+
+#: $string['df_type_33']
+msgid "SXI File"
+msgstr ""
+
+#: $string['df_type_34']
+msgid "ODG File"
+msgstr ""
+
+#: $string['df_type_35']
+msgid "HTML Link"
+msgstr ""
+
+#: $string['df_type_36']
+msgctxt "$string['df_type_36']"
+msgid "Powerpoint Presentation"
+msgstr ""
+
+#: $string['df_type_37']
+msgctxt "$string['df_type_37']"
+msgid "Word Document"
+msgstr ""
+
+#: $string['df_type_38']
+msgctxt "$string['df_type_38']"
+msgid "Powerpoint Presentation"
+msgstr ""
+
+#: $string['df_type_39']
+msgctxt "$string['df_type_39']"
+msgid "Excel Document"
+msgstr ""
+
+#: $string['df_type_4']
+msgid "GIF Image"
+msgstr ""
+
+#: $string['df_type_40']
+msgctxt "$string['df_type_40']"
+msgid "Powerpoint Presentation"
+msgstr ""
+
+#: $string['df_type_41']
+msgid "HTM Link"
+msgstr ""
+
+#: $string['df_type_42']
+msgctxt "$string['df_type_42']"
+msgid "Powerpoint Presentation"
+msgstr ""
+
+#: $string['df_type_43']
+msgid "Whiteboard"
+msgstr ""
+
+#: $string['df_type_44']
+msgid "Survey"
+msgstr ""
+
+#: $string['df_type_45']
+msgid "M4V Video"
+msgstr ""
+
+#: $string['df_type_46']
+msgid "M4A Audio"
+msgstr ""
+
+#: $string['df_type_47']
+msgid "MKV Video"
+msgstr ""
+
+#: $string['df_type_48']
+msgid "GIF Sequence"
+msgstr ""
+
+#: $string['df_type_5']
+msgid "PICT Image"
+msgstr ""
+
+#: $string['df_type_6']
+msgid "PDF document"
+msgstr ""
+
+#: $string['df_type_7']
+msgid "Image TIFF"
+msgstr ""
+
+#: $string['df_type_8']
+msgid "SWF File"
+msgstr ""
+
+#: $string['df_type_9']
+msgid "Flash Video"
+msgstr ""
+
+#: $string['displayuserlist']
+msgid "Display associated users list for all"
+msgstr ""
+
+#: $string['displayuserlistdesc']
+msgid ""
+"If checked, all users will be able to see the other users assosiated with "
+"the activity and their confirmation status, if activated."
+msgstr ""
+
+#: $string['donousewaitingroom']
+msgid "Do not use (deactivated)"
+msgstr ""
+
+#: $string['downloadablefiles']
+msgid "Downloadable content"
+msgstr ""
+
+#: $string['downloadplaybacks']
+msgid "Download Recordings"
+msgstr ""
+
+#: $string['downloadplaybacksdesc']
+msgid ""
+"If checked, users with editing roles will be permitted to download Via "
+"recordings. Before checking this option, please contact SVIesolutions to "
+"validate that your server permits it."
+msgstr ""
+
+#: $string['duplication']
+msgid "Incude whiteboard and survey information in activity duplication"
+msgstr ""
+
+#: $string['duplicationdesc']
+msgid ""
+"If checked whiteboard and survey information from an activity will be "
+"included in the new activty produced durning the duplication process. User "
+"infomation and documents are always included in this process."
+msgstr ""
+
+#: $string['duration']
+msgid "Duration (minutes)"
+msgstr ""
+
+#: $string['durationheader']
+msgctxt "$string['durationheader']"
+msgid "Duration"
+msgstr ""
+
+#: $string['edit']
+msgid "Modify"
+msgstr ""
+
+#: $string['editrecord']
+msgid "Recording edit"
+msgstr ""
+
+#: $string['emailaccesslinkcolor']
+msgid "Email access link color"
+msgstr ""
+
+#: $string['emailaccesslinkcolor_desc']
+msgid ""
+"This will be applied to the access link in your Via reminder and invitation "
+"emails. We suggest you use a different color as the other links as this is "
+"more important."
+msgstr ""
+
+#: $string['emailheaderbgcolor']
+msgid "Email title background color"
+msgstr ""
+
+#: $string['emailheaderbgcolor_desc']
+msgid ""
+"This will be applied to the Via reminder and invitation emails' title's "
+"background and behind the image."
+msgstr ""
+
+#: $string['emailheadercolor']
+msgid "Email title color"
+msgstr ""
+
+#: $string['emailheadercolor_desc']
+msgid ""
+"This will be applied to the Via reminder and invitation emails' title; the "
+"name of your moodle."
+msgstr ""
+
+#: $string['emailheaderimage']
+msgid "Email header image"
+msgstr ""
+
+#: $string['emailheaderimage_desc']
+msgid ""
+"A default image has been added, which you may override at any time. The "
+"default image's dimensions are 750 x 98 pixels and the right hand side of "
+"the image has the same color as the \"emailheaderbgcolor\" below. IMPORTANT : "
+"Emails do not support transperancy."
+msgstr ""
+
+#: $string['emaillinkcolor']
+msgid "Link color"
+msgstr ""
+
+#: $string['emaillinkcolor_desc']
+msgid ""
+"This will be applied to the links in your Via reminder and invitation "
+"emails, we suggest you add the same colors as your theme."
+msgstr ""
+
+#: $string['email_personnalised_options']
+msgid "Personnalise your Via reminder and invitation emails"
+msgstr ""
+
+#: $string['emails_alert_address']
+msgid "Emails to send alerts"
+msgstr ""
+
+#: $string['emails_alert_addressdesc']
+msgid ""
+"Email addresses for overflow alerts. If more than one, use coma as a "
+"separtor."
+msgstr ""
+
+#: $string['emailtextcolor']
+msgid "Email text color"
+msgstr ""
+
+#: $string['emailtextcolor_desc']
+msgid ""
+"This will be applied to Via reminder and invitation emails' text except for "
+"the links and title."
+msgstr ""
+
+#: $string['enddate']
+msgid "Ends on"
+msgstr ""
+
+#: $string['enrolmentheader']
+msgid "Participant enrolments"
+msgstr ""
+
+#: $string['enrolmenttype']
+msgid "Enrolment type"
+msgstr ""
+
+#: $string['enrolmenttype_help']
+msgid ""
+"Automatic enrollment: all users enrolled in the course will be added to the "
+"Via activity.\n"
+" If a student is added after the creation of the Via activity, the student "
+"will be added during the next Cron synchronization.\n"
+" If the student accesses the activity before the cron has enrolled him/her, "
+"the student will be added and be displayed in the details\n"
+" page of the activity. Users with editing rights in the moodle course will "
+"be automatically synchronized as animators, but the list can still be "
+"edited.\n"
+" Manual Registration: Participants must be added from the list of "
+"participants choosing the participant from the list of\n"
+" \"Potential participants\" (right ) and added using the arrow into "
+"&quot;Existing participants&quot; (left).\n"
+" Note: In both modes of entry, the user who creates the activity is "
+"automatically added as host,\n"
+" but remains editable. It is not possible to have more than one host."
+msgstr ""
+
+#: $string['error:ACTIVITY_ACCESS_FAILED']
+msgid ""
+"ACTIVITY_ACCESS_FAILED - When the user is not associated to the activity or "
+"the activity is no longer available."
+msgstr ""
+
+#: $string['error:ACTIVITY_DOES_NOT_EXIST']
+msgid "ACTIVITY_DOES_NOT_EXIST - Must represent a valid activity."
+msgstr ""
+
+#: $string['error:ACTIVITYID_EMPTY']
+msgid "ACTIVITYID_EMPTY - The ActivityID value is empty."
+msgstr ""
+
+#: $string['error:ACTIVITYID_INVALID']
+msgid "ACTIVITYID_INVALID - The value passed in the ActivityID is invalid."
+msgstr ""
+
+#: $string['error:allseatstaken']
+msgid ""
+"Sorry, all  available seats are taken on SVI server. You cannot conncet to "
+"this activity right now. A notice has already been sent to the "
+"administrators about this overflow. You can also send an email to <a "
+"href=\"mailto:$a->email?subject=Avis de debordement sur VIA\">$a->email</a> to "
+"notify them.<br><br> Please try to reconnect later."
+msgstr ""
+
+#: $string['error:APIID_NOT_FOUND']
+msgid ""
+"APIID_NOT_FOUND - ApiID doesn't exists. Please verify your settings. Without "
+"a valid ApiID you can not create activities!"
+msgstr ""
+
+#: $string['error:APPLY_PERIODICITY_INVALID']
+msgid "APPLY_PERIODICITY_INVALID - The value passed must be 0 or 1."
+msgstr ""
+
+#: $string['error:AUTH_FAILED_BAD_APIID']
+msgid "AUTH_FAILED_BAD_APIID - The APIID value is not authorised."
+msgstr ""
+
+#: $string['error:AUTH_FAILED_BAD_CIEID']
+msgid "AUTH_FAILED_BAD_CIEID - The CieID value is not authorised."
+msgstr ""
+
+#: $string['error:AUTH_FAILED_BAD_IP']
+msgid ""
+"AUTH_FAILED_BAD_IP - Contact SVIeSolutions to add this IP adresse to the "
+"permitted IP list."
+msgstr ""
+
+#: $string['error:_CANNOT_CHANGE_ISNEWVIA']
+msgid ""
+"CANNOT_CHANGE_ISNEWVIA - Once an activity has been accesed, it is no longer "
+"possible to modify the version."
+msgstr ""
+
+#: $string['error:CANNOT_CHANGE_STATE']
+msgid "CANNOT_CHANGE_STATE - The activity has changed state."
+msgstr ""
+
+#: $string['error:CIEID_NOT_FOUND']
+msgid ""
+"CIEID_NOT_FOUND - CieID doesn't exists. Please verify your settings. Without "
+"a valid CieID you can not create activities!"
+msgstr ""
+
+#: $string['error:COMPANYNAME_TOO_LONG']
+msgid ""
+"COMPANYNAME_TOO_LONG - Le CompanyName value is longer than the maximum of 50 "
+"characters."
+msgstr ""
+
+#: $string['error:deletefailed']
+msgid "The removal of all activities has failed."
+msgstr ""
+
+#: $string['error:disablereviews']
+msgid "Disabling review mode has failed."
+msgstr ""
+
+#: $string['error:EMAIL_TOO_LONG']
+msgid ""
+"EMAIL_TOO_LONG - The Email value is longer than the maximum of 100 "
+"characters."
+msgstr ""
+
+#: $string['error:ERROR_AUTH_BAD_CIEID']
+msgid "ERROR_AUTH_BAD_CIEID - The IP of the caller is invalid."
+msgstr ""
+
+#: $string['error:ERROR_FAILED_EDIT_USER']
+msgid ""
+"ERROR_FAILED_EDIT_USER - Error during edition, the user was not modified."
+msgstr ""
+
+#: $string['error:ERROR_LOGIN_NO_SPACE_ALLOWED']
+msgid "ERROR_LOGIN_NO_SPACE_ALLOWED - the login name contains spaces."
+msgstr ""
+
+#: $string['error:FIRSTNAME_TOO_LONG']
+msgid ""
+"FIRSTNAME_TOO_LONG - The Firstname value exceeds the maximum of 50 "
+"characters."
+msgstr ""
+
+#: $string['error:FONCTIONTILE_TOO_LONG']
+msgid ""
+"FONCTIONTILE_TOO_LONG - The Fonction value exceeds the maximum of 50 "
+"characters."
+msgstr ""
+
+#: $string['error:INVALID_ACTIVITYID']
+msgid ""
+"INVALID_ACTIVITYID - The ID value of the activity is not valid, "
+"synchronisation was not possible."
+msgstr ""
+
+#: $string['error:INVALID_ACTIVITYSTATE']
+msgid "INVALID_ACTIVITYSTATE - The value passed in ActivityState is invalid."
+msgstr ""
+
+#: $string['error:INVALID_ACTIVITYTYPE']
+msgid "INVALID_ACTIVITYTYPE - The value passed in ActivityType is invalid."
+msgstr ""
+
+#: $string['error:INVALID_AUDIOTYPE']
+msgid "INVALID_AUDIOTYPE - The value passed in AudioType isinvalid."
+msgstr ""
+
+#: $string['error:INVALID_CIEID']
+msgid "INVALID_CIEID - The CIEID value must be numeric."
+msgstr ""
+
+#: $string['error:INVALID_CONFIRMATION_STATUS']
+msgid ""
+"INVALID_CONFIRMATION_STATUS - The value passed in ConfirmationStatus is "
+"invalid."
+msgstr ""
+
+#: $string['error:INVALID_DATE']
+msgid "INVALID_DATE - Date format AAAA-MM-JJ HH:MM:SS."
+msgstr ""
+
+#: $string['error:INVALID_DURATION']
+msgid "INVALID_DURATION - The DURATION value must be numeric."
+msgstr ""
+
+#: $string['error:INVALID_FRIDAY_VALUE']
+msgid "INVALID_FRIDAY_VALUE - The value of the property; Friday is invalid."
+msgstr ""
+
+#: $string['error:INVALID_GENDER']
+msgid "INVALID_GENDER - The value passed in Genre is invalid."
+msgstr ""
+
+#: $string['error:INVALID_ISNUMBEREDTITLE']
+msgid ""
+"INVALID_ISNUMBEREDTITLE - The value passed in IsNumberedTitle is invalid."
+msgstr ""
+
+#: $string['error:INVALID_ISPUBLIC']
+msgid "INVALID_ISPUBLIC - The value passed in ISPUBLIC must be 0 or 1."
+msgstr ""
+
+#: $string['error:INVALID_ISRECORDED']
+msgid "INVALID_ISRECORDED - The value passed in IsRecorded is invalid."
+msgstr ""
+
+#: $string['error:INVALID_ISREPLAYALLOWED']
+msgid ""
+"INVALID_ISREPLAYALLOWED - The value passed in IsReplayAllowed is invalid."
+msgstr ""
+
+#: $string['error:INVALID_LANGUAGE']
+msgid "INVALID_LANGUAGE -The value passed in LANGAGE is invalid."
+msgstr ""
+
+#: $string['error:INVALID_MAIL_FORMAT']
+msgid "INVALID_MAIL_FORMAT - The email format is invalid."
+msgstr ""
+
+#: $string['error:INVALID_MONDAY_VALUE']
+msgid "INVALID_MONDAY_VALUE - The value of the property; Monday is invalid."
+msgstr ""
+
+#: $string['error:INVALID_MONTHLYDAY']
+msgid "INVALID_MONTHLYDAY - The value MONTHLYDAY is invalid."
+msgstr ""
+
+#: $string['error:INVALID_NEEDCONFIRMATION']
+msgid ""
+"INVALID_NEEDCONFIRMATION - The value passed in NeedConfirmation is invalid."
+msgstr ""
+
+#: $string['error:INVALID_OBJECT_FORMAT']
+msgid "INVALID_OBJECT_FORMAT - The INNERXML of the soap:body is invalid."
+msgstr ""
+
+#: $string['error:INVALID_PARTICIPANT_TYPE']
+msgid ""
+"INVALID_PARTICIPANT_TYPE - The value passed in ParticipantType is invalid."
+msgstr ""
+
+#: $string['error:INVALID_PERIODICITY_ENDDATE']
+msgid "INVALID_PERIODICITY_ENDDATE - Date format AAAA-MM-JJ."
+msgstr ""
+
+#: $string['error:INVALID_PERIODICITY_STARTDATE']
+msgid "INVALID_PERIODICITY_STARTDATE - Date format AAAA-MM-JJ HH:MM:SS."
+msgstr ""
+
+#: $string['error:INVALID_PHONERIGHT']
+msgid ""
+"INVALID_PHONERIGHT - The conference brige is not valid for this company."
+msgstr ""
+
+#: $string['error:INVALID_PLAYBACK_ID']
+msgid "INVALID_PLAYBACK_ID - The playback ID is invalid."
+msgstr ""
+
+#: $string['error:_INVALID_PROFILID']
+msgctxt "$string['error:_INVALID_PROFILID']"
+msgid ""
+"INVALID_PROFILID - The mutlimedia profile is either not valid or does not "
+"exist for this client."
+msgstr ""
+
+#: $string['error:INVALID_PROFILID']
+msgctxt "$string['error:INVALID_PROFILID']"
+msgid ""
+"INVALID_PROFILID - The mutlimedia profile is either not valid or does not "
+"exist for this client."
+msgstr ""
+
+#: $string['error:INVALID_RECNOTIFICATION']
+msgid "INVALID_RECNOTIFICATION - The value passed in LANGAGE is invalid."
+msgstr ""
+
+#: $string['error:INVALID_RECORDMODEBEHAVIOR']
+msgid ""
+"INVALID_RECORDMODEBEHAVIOR - The value passed in RecordModeBehaviour is "
+"invalid."
+msgstr ""
+
+#: $string['error:INVALID_RECORD_TYPE']
+msgid "INVALID_RECORD_TYPE - The recording type requested is invalide."
+msgstr ""
+
+#: $string['error:INVALID_REDIRECT_TYPE']
+msgid "INVALID_REDIRECT_TYPE - The value passed in RedirectType is invalid."
+msgstr ""
+
+#: $string['error:INVALID_REMINDERTIME']
+msgid "INVALID_REMINDERTIME - The value passed in ReminderTime is invalid."
+msgstr ""
+
+#: $string['error:INVALID_ROOMTYPE']
+msgid "INVALID_ROOMTYPE - The value passed in RoomType is invalid."
+msgstr ""
+
+#: $string['error:INVALID_SATURDAY_VALUE']
+msgid ""
+"INVALID_SATURDAY_VALUE - The value of the property; Saturday is invalid."
+msgstr ""
+
+#: $string['error:INVALID_SOAP_FORMAT']
+msgid "INVALID_SOAP_FORMAT - Le SOAP request was not properly instanced."
+msgstr ""
+
+#: $string['error:INVALID_STATUS']
+msgid "INVALID_STATUS - The value passed in Status is invalid."
+msgstr ""
+
+#: $string['error:INVALID_SUNDAY_VALUE']
+msgid "INVALID_SUNDAY_VALUE - The value of the property; Sunday is invalid."
+msgstr ""
+
+#: $string['error:INVALID_THURSDAY_VALUE']
+msgid "INVALID_THURSDAY_VALUE -The value of the property; Thursday is invalid."
+msgstr ""
+
+#: $string['error:INVALID_TIMEZONE']
+msgid "INVALID_TIMEZONE - The value passed in TIMEZONE is invalid."
+msgstr ""
+
+#: $string['error:INVALID_TITLE_TOO_LONG']
+msgid ""
+"INVALID_TITLE_TOO_LONG - The title exceeds the maximum of 100 characters."
+msgstr ""
+
+#: $string['error:INVALID_TUESDAY_VALUE']
+msgid "INVALID_TUESDAY_VALUE - The value of the property;  Tuesday is invalid."
+msgstr ""
+
+#: $string['error:INVALID_USERID']
+msgid "INVALID_USERID - The user ID is invalid."
+msgstr ""
+
+#: $string['error:INVALID_USER_RIGHT']
+msgid ""
+"INVALID_USER_RIGHT - The user does not have edition or creation rights for "
+"this activity."
+msgstr ""
+
+#: $string['error:INVALID_USERTYPE']
+msgid "INVALID_USERTYPE - The value passed in LANGAGE is invalid."
+msgstr ""
+
+#: $string['error:INVALID_WAITINGROOMACCESSMODE']
+msgid ""
+"INVALID_WAITINGROOMACCESSMODE - The value passed in WaitingRoomAccesMode is "
+"invalid."
+msgstr ""
+
+#: $string['error:INVALID_WEDNESDAY_VALUE']
+msgid ""
+"INVALID_WEDNESDAY_VALUE - The value of the property;  Wednesday is invalid."
+msgstr ""
+
+#: $string['error:LASTNAME_TOO_LONG']
+msgid ""
+"LASTNAME_TOO_LONG - The Lastname value exceeds the maximum of 50 characters."
+msgstr ""
+
+#: $string['error:LOGIN_EMPTY']
+msgid "LOGIN_EMPTY - The Login value is empty."
+msgstr ""
+
+#: $string['error:LOGIN_TOO_LONG']
+msgid "LOGIN_TOO_LONG - The Login value exceeds the maximum of 15 characters."
+msgstr ""
+
+#: $string['error:LOGIN_USED']
+msgid "LOGIN_USED - The Login value is already used."
+msgstr ""
+
+#: $string['error:PASSWORD_EMPTY']
+msgid "PASSWORD_EMPTY - The Password value is empty."
+msgstr ""
+
+#: $string['error:PASSWORD_TOO_LONG']
+msgid ""
+"PASSWORD_TOO_LONG - The Password value exceeds the maximum of 15 characters."
+msgstr ""
+
+#: $string['error:PERIODICITY_NODE_MISSING']
+msgid "PERIODICITY_NODE_MISSING - The periodicity value could not be passed."
+msgstr ""
+
+#: $string['error:PHONEBUS_TOO_LONG']
+msgid ""
+"PHONEBUS_TOO_LONG - The PHONEBUS value exceeds the maximum of 20 characters."
+msgstr ""
+
+#: $string['error:PHONECEL_TOO_LONG']
+msgid ""
+"PHONECEL_TOO_LONG - The PHONECEL value exceeds the maximum of 20 characters."
+msgstr ""
+
+#: $string['error:PHONEHOME_TOO_LONG']
+msgid ""
+"PHONEHOME_TOO_LONG - The PHONEHOME value exceeds the maximum of 20 "
+"characters."
+msgstr ""
+
+#: $string['error:PLAYBACK_NOT_PUBLIC']
+msgid "PLAYBACK_NOT_PUBLIC - This playback is not public."
+msgstr ""
+
+#: $string['error:RECORD_NOT_DOWNLOADABLE']
+msgid "RECORD_NOT_DOWNLOADABLE - The recording is not downloadable."
+msgstr ""
+
+#: $string['error:resetparticipants']
+msgid "The removal of all participants has failed."
+msgstr ""
+
+#: $string['error:STATUS_INVALID']
+msgid ""
+"The connection to the web conference room was not possible as your user is "
+"either deleted or inactive.<br/>Please contact the Via administrator od your "
+"institution in order to reactivate your Via user."
+msgstr ""
+
+#: $string['error:TITLE_IS_REQUIRED']
+msgid "TITLE_IS_REQUIRED - A titile is required."
+msgstr ""
+
+#: $string['error:TITLE_TOO_LONG']
+msgid "TITLE_TOO_LONG - The Title value exceeds the maximum of 100 characters."
+msgstr ""
+
+#: $string['error:UNABLE_TO_CREATEDATE']
+msgid ""
+"UNABLE_TO_CREATEDATE - The was an error in the creation of the perioditcity "
+"dates."
+msgstr ""
+
+#: $string['error:URL_ERROR']
+msgid ""
+"URL_ERROR - The API's url doesn't exist. Please verify your settings. "
+"Without an the API's URL you can not create activities!"
+msgstr ""
+
+#: $string['error_user']
+msgid "User {$a} could not be added to the activity."
+msgstr ""
+
+#: $string['error:USER_DOES_NOT_EXIST']
+msgid "USER_DOES_NOT_EXIST - The user is invalid."
+msgstr ""
+
+#: $string['error:USER_DOWNLOAD_NOT_ALLOWED']
+msgid ""
+"USER_DOWNLOAD_NOT_ALLOWED - The user is not allowed to download this "
+"recording."
+msgstr ""
+
+#: $string['error:USERID_EMPTY']
+msgid "USERID_EMPTY - The value UserID is invalid."
+msgstr ""
+
+#: $string['export']
+msgid "View/Export"
+msgstr ""
+
+#: $string['finish']
+msgid "Done"
+msgstr ""
+
+#: $string['fullvideo']
+msgid "Full video (MP4)"
+msgstr ""
+
+#: $string['fullvideoinfo']
+msgid "As viewed in the recording. Resolution : 1024x768"
+msgstr ""
+
+#: $string['gotoactivity']
+msgid "Access"
+msgstr ""
+
+#: $string['gotorecording']
+msgid "Access the recording"
+msgstr ""
+
+#: $string['groupusers']
+msgid ""
+"Users of the accosiated grouping: {$a} cannot be removed from the activity, "
+"but others may be added."
+msgstr ""
+
+#: $string['hasconfirmed']
+msgid "You have confirmed that you will attend this activity."
+msgstr ""
+
+#: $string['hasconfirmednot']
+msgid "You have confirmed that you won't attend this activity."
+msgstr ""
+
+#: $string['headerduration']
+msgctxt "$string['headerduration']"
+msgid "Duration"
+msgstr ""
+
+#: $string['hidelist']
+msgid "Hide"
+msgstr ""
+
+#: $string['highquality']
+msgctxt "$string['highquality']"
+msgid "High quality"
+msgstr ""
+
+#: $string['host']
+msgid "Host"
+msgstr ""
+
+#: $string['host_replace']
+msgctxt "$string['host_replace']"
+msgid "Replace host"
+msgstr ""
+
+#: $string['incomplete']
+msgid "Incomplete"
+msgstr ""
+
+#: $string['inhostabsence']
+msgid "In host absence (automatic)"
+msgstr ""
+
+#: $string['inviteclicktoaccesshtml']
+msgid "To go to the activity, click this link below:"
+msgstr ""
+
+#: $string['inviteemail']
+msgid ""
+"{$a->coursename} -> {$a->modulename} -> {$a->title}\n"
+"---------------------------------------------------------------------\n"
+"{$a->datesend}\n"
+"---------------------------------------------------------------------\n"
+"\n"
+"Hello {$a->username},\n"
+"\n"
+"Moodle invites you to participate in the activity &quot; {$a->title} &quot; "
+"that will take place on {$a->datebegin} between {$a->hourbegin} and "
+"{$a->hourend}\n"
+"\n"
+"{$a->invitemsg}\n"
+"\n"
+"---------------------------------------------------------------------\n"
+"Activity preparation\n"
+"\n"
+"Click here for the setup wizard : {$a->config}\n"
+"Clcik here to get technical support : {$a->assist}\n"
+"\n"
+"---------------------------------------------------------------------\n"
+"Web access\n"
+"\n"
+"To go to the activity, follow this link : {$a->activitylink}\n"
+"\n"
+"---------------------------------------------------------------------\n"
+"\n"
+"Attention : This activity can be recorded. Please do not access this "
+"activity if you do not want to be recorded. This email contains personnal "
+"connection informations. Those informations must not be shared"
+msgstr ""
+
+#: $string['inviteemailhtml']
+msgid ""
+"<p>Hello {$a->username},</p>\n"
+"<p>Moodle invites you to participate in the activity &laquo; {$a->title} "
+"&raquo; that will take place on <b>{$a->datebegin}</b> between "
+"<b>{$a->hourbegin}</b> and <b>{$a->hourend}</b>.</p><p>{$a->invitemsg}</p>"
+msgstr ""
+
+#: $string['inviteemailhtmlpermanent']
+msgid ""
+"<p>Hello {$a->username},</p>\n"
+"<p>{$a->invitemsg}</p>"
+msgstr ""
+
+#: $string['inviteemailpermanent']
+msgid ""
+"{$a->coursename} -> {$a->modulename} -> {$a->title}\n"
+"---------------------------------------------------------------------\n"
+"{$a->datesend}\n"
+"---------------------------------------------------------------------\n"
+"\n"
+"Hello {$a->username},\n"
+"\n"
+"{$a->invitemsg}\n"
+"\n"
+"---------------------------------------------------------------------\n"
+"Activity preparation\n"
+"\n"
+"Click here for the setup wizard : {$a->config}\n"
+"Clcik here to get technical support : {$a->assist}\n"
+"\n"
+"---------------------------------------------------------------------\n"
+"Web access\n"
+"\n"
+"To go to the activity, follow this link : {$a->activitylink}\n"
+"\n"
+"---------------------------------------------------------------------\n"
+"\n"
+"Attention : This activity can be recorded. Please do not access this "
+"activity if you do not want to be recorded. This email contains personnal "
+"connection informations. Those informations must not be shared"
+msgstr ""
+
+#: $string['inviteemailsubject']
+msgid "INVITATION: {$a->title}"
+msgstr ""
+
+#: $string['invitepreparationhtml']
+msgid "Activity preparation"
+msgstr ""
+
+#: $string['invitessend']
+msgid "Invitations will be sent in less than 15 minutes."
+msgstr ""
+
+#: $string['invitessent']
+msgid "Invitations have been sent."
+msgstr ""
+
+#: $string['invitewarninghtml']
+msgid ""
+"Attention : This activity can be recorded. Please do not access this "
+"activity if you do not want to be recorded. This email contains personnal "
+"connection informations. Those informations must not be shared."
+msgstr ""
+
+#: $string['invitewebaccesshtml']
+msgid "Web access"
+msgstr ""
+
+#: $string['ish264']
+msgid "Activate video mode for mobile devices"
+msgstr ""
+
+#: $string['ish264_help']
+msgid ""
+"If this box is checked, a less efficient video codec will be used and "
+"participants running mobiles will be able to see other people's videos. If "
+"this box is left blank, a more efficient video codec (H264) will be used and "
+"mobiles users won't be able to see other people's videos, but only their "
+"voice. They will however keep access to all other multimedia functionalities "
+"(documents, annotations, screen sharing, etc)."
+msgstr ""
+
+#: $string['list_activities']
+msgid "List of all Via activities in this course"
+msgstr ""
+
+#: $string['lowquality']
+msgctxt "$string['lowquality']"
+msgid "Low quality"
+msgstr ""
+
+#: $string['manageparticipants']
+msgid "Manage users"
+msgstr ""
+
+#: $string['manual']
+msgid "Manual"
+msgstr ""
+
+#: $string['manualenrol']
+msgid "Manual enrolment"
+msgstr ""
+
+#: $string['mask']
+msgid "Hidden"
+msgstr ""
+
+#: $string['mediumquality']
+msgid "Medium quality"
+msgstr ""
+
+#: $string['mobilevideo']
+msgid "Mobile (MP4)"
+msgstr ""
+
+#: $string['mobilevideoinfo']
+msgid "Optimised for mobile. Resolution : 480x320"
+msgstr ""
+
+#: $string['mode']
+msgid "Audio mode"
+msgstr ""
+
+#: $string['modephone']
+msgid "Phone conference only"
+msgstr ""
+
+#: $string['modevoiceweb']
+msgid "Voice over the Web"
+msgstr ""
+
+#: $string['modewebphone']
+msgid "Web and voice over the phone"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Via"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"The Via module allows you to create synchronous meetings in a virtual "
+"classroom to share live using voice and video for: remote classes in real "
+"time, meetings, work-team meetings, tutoring, seminars, etc.\n"
+"\n"
+"This tool allows you to manage sub-work-groups, annotations, screen sharing, "
+"import or present documents and to share by voice and/or video.\n"
+"\n"
+"The 'Participant enrolments' options allow you to manually enroll "
+"participants or automatically synchronize them according to their Moodle "
+"rights by selecting the option 'Automatic enrolment'.\n"
+"\n"
+"The 'Session parameters' allow you to set the recording mode you wish and "
+"select the availability of these to your learners."
+msgstr ""
+
+#: $string['modulenameplural']
+msgctxt "$string['modulenameplural']"
+msgid "Via"
+msgstr ""
+
+#: $string['moodle_adminid']
+msgid "Moodle Admin unique ID"
+msgstr ""
+
+#: $string['moodle_config']
+msgid "API configuration - Step 2"
+msgstr ""
+
+#: $string['moodleidsetting']
+msgid "Unique admin user for this moodle"
+msgstr ""
+
+#: $string['multimediaquality']
+msgid "Multimedia profiles"
+msgstr ""
+
+#: $string['multimediaquality_help']
+msgid ""
+"Select the media profile to use in the activity for media exchange (webcam, "
+"microphone and multimedia documents). This option can have a significant "
+"impact on the fluidity of the exchanges and the bandwidth required for each "
+"participant. In general, for a better experience or if you are unsure, it is "
+"best to use a lower quality to ensure the smooth fluidity. It is possible "
+"to configure other multimedia profiles according to your specific needs (eg "
+"large video thumbnails excellent for use in local mode). Contact one of our "
+"experts Via for more on this."
+msgstr ""
+
+#: $string['multiple']
+msgid "Multiple"
+msgstr ""
+
+#: $string['mustaccept']
+msgid "Check the box in order to acces the activity."
+msgstr ""
+
+#: $string['name']
+msgid "Name"
+msgstr ""
+
+#: $string['needconfirmation']
+msgctxt "$string['needconfirmation']"
+msgid "Request confirmation of availability"
+msgstr ""
+
+#: $string['needconfirmation_help']
+msgctxt "$string['needconfirmation_help']"
+msgid "Request confirmation of availability"
+msgstr ""
+
+#: $string['neverbegin']
+msgid "Not done"
+msgstr ""
+
+#: $string['noanimators']
+msgid "There are no animators yet for this activity."
+msgstr ""
+
+#: $string['nocategories']
+msgid "No categories"
+msgstr ""
+
+#: $string['no_categories']
+msgid ""
+"There are no categories, these must be created in the Via portal by and "
+"administrator"
+msgstr ""
+
+#: $string['no_default']
+msgid "No default category."
+msgstr ""
+
+#: $string['noparticipants']
+msgid "There are no participants yet for this activity."
+msgstr ""
+
+#: $string['noparticipantscheckbox']
+msgid "Add all students as animators"
+msgstr ""
+
+#: $string['noparticipants_help']
+msgid ""
+"This option is available only with automatic enrollment and ensures that "
+"users with the student status are all added as animators in Via."
+msgstr ""
+
+#: $string['norecall']
+msgid "No recall"
+msgstr ""
+
+#: $string['notactivated']
+msgid "Do not record"
+msgstr ""
+
+#: $string['notactivatedfeminin']
+msgid "Not activated"
+msgstr ""
+
+#: $string['notattending']
+msgid "I won't be attending"
+msgstr ""
+
+#: $string['notenrolled']
+msgid ""
+"You are not enrolled in this activity. Please contact your teacher if you "
+"think you should have access."
+msgstr ""
+
+#: $string['noticeclicktoaccesshtml']
+msgid "Click the following link for direct access :"
+msgstr ""
+
+#: $string['noticeemail']
+msgid ""
+"Hello {$a->username},\n"
+"\n"
+"This is an automated message.\n"
+"\n"
+"The export you asked for, for recording &quot;{$a->playbacktitle}&quot; in "
+"{$a->type} is ready since {$a->date}.\n"
+"You can download this export or make it available to the participants, by "
+"accessing the details' page of your activity "
+"&quot;{$a->activitytitle}&quot;.\n"
+"\n"
+"Web access\n"
+"---------------------------------------------------------------------\n"
+"\n"
+"Click the following link for direct access : {$a->activitylink}\n"
+"\n"
+"---------------------------------------------------------------------"
+msgstr ""
+
+#: $string['noticeemailhtml']
+msgid ""
+"<p>Hello {$a->username},</p>\n"
+"<p>This is an automated message.</p>\n"
+"<p>The export you asked for, for recording &quot;{$a->playbacktitle}&quot; "
+"in {$a->type} is complete since {$a->date}.<br/>\n"
+"You can download this export or make it available to the participants, by "
+"accessing the details page of your activity "
+"&quot;{$a->activitytitle}&quot;.</p>"
+msgstr ""
+
+#: $string['noticeemailsubject']
+msgid "ALERT : export Via is ready"
+msgstr ""
+
+#: $string['notificationemail']
+msgid ""
+"Hello {$a->username},\n"
+"\n"
+"This is an automated message.\n"
+"\n"
+"The user {$a->userfrom} is trying to contact you by connecting to your "
+"activity : &quot;{$a->activitytitle}&quot;\n"
+"\n"
+"Web access\n"
+"---------------------------------------------------------------------\n"
+"\n"
+"Click the following link for direct access : {$a->activitylink}\n"
+"\n"
+"---------------------------------------------------------------------"
+msgstr ""
+
+#: $string['notificationemailhtml']
+msgid ""
+"<p>Hello {$a->username},</p>\n"
+"<p>This is an automated message.</p>\n"
+"<p>The user {$a->userfrom} is trying to contact you by connecting to your "
+"activity : &quot;{$a->activitytitle}&quot;.</p>"
+msgstr ""
+
+#: $string['notificationemailsubject']
+msgid "ALERT : activity notification"
+msgstr ""
+
+#: $string['notifysuccess_synch1']
+msgid "All users were successfully synched with Via."
+msgstr ""
+
+#: $string['notifysuccess_synch2']
+msgid ""
+"Certain users could not be sycnhed, please validate their information and "
+"try again."
+msgstr ""
+
+#: $string['notstarted']
+msgid "This activity hasn't started yet."
+msgstr ""
+
+#: $string['nounifiedrecordpermanent']
+msgid ""
+"Unified record mode is not possible for a permanent activity. Please choose "
+"an other option."
+msgstr ""
+
+#: $string['nousers']
+msgid "Warning - There are no users associated to this activity!"
+msgstr ""
+
+#: $string['oldapiversion']
+msgid "You are using an API version that is older than $a"
+msgstr ""
+
+#: $string['options']
+msgid "Activity options"
+msgstr ""
+
+#: $string['overview']
+msgid "Starts on {$a->start} and ends {$a->end}"
+msgstr ""
+
+#: $string['participant']
+msgid "Participant"
+msgstr ""
+
+#: $string['participantmustconfirm']
+msgid "Participants must confirm participation"
+msgstr ""
+
+#: $string['participantmustconfirmdesc']
+msgid ""
+"If checked, participants must confirm if they will be part of the activity."
+msgstr ""
+
+#: $string['participants']
+msgid "Participants"
+msgstr ""
+
+#: $string['participants_search']
+msgid "search participants"
+msgstr ""
+
+#: $string['participantsynchronization']
+msgid "Synchronize participants' information"
+msgstr ""
+
+#: $string['participantsynchronizationdesc']
+msgid ""
+"If checked, the participants' information will by synchronized with those "
+"saved in Moodle. The only information that will not be updated are : the "
+"login, the password and the user type in Via."
+msgstr ""
+
+#: $string['passdate']
+msgid "The selected date is passed"
+msgstr ""
+
+#: $string['permanent']
+msgid "Permanent activity"
+msgstr ""
+
+#: $string['permanentactivities']
+msgid "Permanent activities"
+msgstr ""
+
+#: $string['permanentactivitiesdesc']
+msgid "If checked, it will be possible to create permanent activities."
+msgstr ""
+
+#: $string['permanent_help']
+msgid ""
+"Check \"Permanent\" to make your activity accessible at all times. You will "
+"then be obliged to use the waiting room to restrict access to registered "
+"users with the \"participant\" status."
+msgstr ""
+
+#: $string['personalinvitemsg']
+msgid "Personalized message (optional):"
+msgstr ""
+
+#: $string['playbackaccesstype0']
+msgid "Visible for those with editing rights"
+msgstr ""
+
+#: $string['playbackaccesstype1']
+msgid "Visible for those associated to the virtual class"
+msgstr ""
+
+#: $string['playbackaccesstype2']
+msgid "Visible for those associated to the delegated activity"
+msgstr ""
+
+#: $string['playbackaccesstypelbl']
+msgid "Access rights for the recording"
+msgstr ""
+
+#: $string['playback_downloaded']
+msgid "Playback downloaded"
+msgstr ""
+
+#: $string['playbackheader']
+msgid "Playback viewed (h:m:s)"
+msgstr ""
+
+#: $string['playback_viewed']
+msgid "Playback viewed"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Via administration"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Via - Virtual classroom"
+msgstr ""
+
+#: $string['portalaccess']
+msgid "Via portal access."
+msgstr ""
+
+#: $string['portalaccessdesc']
+msgid "Permits users to access the Via portal without loging in."
+msgstr ""
+
+#: $string['potentialusers']
+msgid "Potential users"
+msgstr ""
+
+#: $string['preparation']
+msgid "Prepare your activity"
+msgstr ""
+
+#: $string['prepareactivity']
+msgid "Click here prepare your activity"
+msgstr ""
+
+#: $string['presence']
+msgid "Minimum attendance required"
+msgstr ""
+
+#: $string['presenceheader']
+msgid "Online presence (h:m:s)"
+msgstr ""
+
+#: $string['presenceheaderreport']
+msgid "Online presence"
+msgstr ""
+
+#: $string['presence_help']
+msgid ""
+"Text must be changed!!!! Value corresponding to the time in minutes from "
+"which the user gets the presence status for the activity."
+msgstr ""
+
+#: $string['presencestatus']
+msgid "Display presence status"
+msgstr ""
+
+#: $string['presencestatusdesc']
+msgid ""
+"If checked, a new option will apear in the activitie's parameters to set a "
+"minimum amount of time that users need to be present to be concidered "
+"present for an activity. A printable version will also be available."
+msgstr ""
+
+#: $string['presencetable']
+msgid "Presence status:"
+msgstr ""
+
+#: $string['presencewarning']
+msgid ""
+"Important: The online presence status is determined by the minimum time "
+"required to be considered present for the activity. The status influences "
+"the participant's progress bar. It is possible to adjust the status by "
+"changing the &laquo; Minimum attendance required &raquo; value in the "
+"activity's parameters."
+msgstr ""
+
+#: $string['present']
+msgid "Present"
+msgstr ""
+
+#: $string['Qualitedebase']
+msgctxt "$string['Qualitedebase']"
+msgid "Low quality"
+msgstr ""
+
+#: $string['Qualitestandard']
+msgid "Standard quality"
+msgstr ""
+
+#: $string['Qualitesuperieure']
+msgctxt "$string['Qualitesuperieure']"
+msgid "High quality"
+msgstr ""
+
+#: $string['recalloneday']
+msgid "One day before"
+msgstr ""
+
+#: $string['recallonehour']
+msgid "One hour before"
+msgstr ""
+
+#: $string['recalloneweek']
+msgid "One week before"
+msgstr ""
+
+#: $string['recalltwodays']
+msgid "Two days before"
+msgstr ""
+
+#: $string['recalltwohours']
+msgid "Two hours before"
+msgstr ""
+
+#: $string['recentrecordings']
+msgid "Recent recordings"
+msgstr ""
+
+#: $string['recordaccept']
+msgid "I accept"
+msgstr ""
+
+#: $string['recording']
+msgctxt "$string['recording']"
+msgid "Recording"
+msgstr ""
+
+#: $string['recordingisdownloadable']
+msgid "Recording is downloadable"
+msgstr ""
+
+#: $string['recordingisdownloadableinfo']
+msgid ""
+"Note : you must first export the video in order for it to be avaiable for "
+"downlaod."
+msgstr ""
+
+#: $string['recordingmode']
+msgid "Recording mode"
+msgstr ""
+
+#: $string['recordingmode_help']
+msgid ""
+"If you want to enable the recording option for your activities, two modes "
+"are available: \"Unified\" and \"Multiple\". The \"unified\"-type will produce a "
+"single unified recording regardless of the number of recordings made during "
+"the meeting; the \"multiple\"-type will produce recordings that are separated "
+"and segmented."
+msgstr ""
+
+#: $string['recordings']
+msgid "Available recording(s):"
+msgstr ""
+
+#: $string['recordingtitle']
+msgid "Recording title"
+msgstr ""
+
+#: $string['recordmodebehavior']
+msgctxt "$string['recordmodebehavior']"
+msgid "Recording"
+msgstr ""
+
+#: $string['recordmodebehavior_help']
+msgid ""
+"You can also choose to automatically start recording at access using the "
+"\"Automatic\" option. Choose \"Manual\" if you do not want the recording to "
+"starts automatically, you will then start the recording yourself by clicking "
+"on the record icon in the synchronous interface."
+msgstr ""
+
+#: $string['recordwarning']
+msgid ""
+"This activity may be recorded. When checking the box, you are accepting to "
+"be recorded."
+msgstr ""
+
+#: $string['refused']
+msgid "Won't attend"
+msgstr ""
+
+#: $string['reminderemail']
+msgid ""
+"{$a->coursename} -> {$a->modulename} -> {$a->title}\n"
+"---------------------------------------------------------------------\n"
+"{$a->datesend}\n"
+"---------------------------------------------------------------------\n"
+"\n"
+"Hello {$a->username},reminderemail\n"
+"\n"
+"Moodle invites you to participate in the activity &quot; {$a->title} &quot; "
+"that will take place on {$a->datebegin} between {$a->hourbegin} and "
+"{$a->hourend}\n"
+"\n"
+"---------------------------------------------------------------------\n"
+"Activity preparation\n"
+"\n"
+"Click here for the setup wizard : {$a->config}\n"
+"Clcik here to get technical support : {$a->assist}\n"
+"\n"
+"---------------------------------------------------------------------\n"
+"Web access\n"
+"\n"
+"To go to the activity, follow this link : {$a->activitylink}\n"
+"\n"
+"---------------------------------------------------------------------\n"
+"\n"
+"Attention : This activity can be recorded. Please do not access this "
+"activity if you do not want to be recorded. This email contains personnal "
+"connection informations. Those informations must not be shared"
+msgstr ""
+
+#: $string['reminderemailhtml']
+msgid ""
+"<p>Hello {$a->username}reminderemailhtml,</p>\n"
+"<p>This is a reminder for an activity coming soon:</p>\n"
+"<p><b>Title:</b> {$a->title} <br/>\n"
+"<b>Date and time</b>{$a->activitydate}<br/>\n"
+"<b>Duration:</b> {$a->duration minutes}</p>"
+msgstr ""
+
+#: $string['reminderemailsubject']
+msgid "REMINDER: {$a->title}"
+msgstr ""
+
+#: $string['replace_host']
+msgctxt "$string['replace_host']"
+msgid "Replace host"
+msgstr ""
+
+#: $string['report']
+msgid "Presence report"
+msgstr ""
+
+#: $string['resetdeletemodules']
+msgid "Delete all activities"
+msgstr ""
+
+#: $string['resetdisablereviews']
+msgid "Disable reviews for all activities"
+msgstr ""
+
+#: $string['resetparticipants']
+msgid ""
+"Delete all participants and animators (works only for activities with manuel "
+"enrollment)"
+msgstr ""
+
+#: $string['return']
+msgid "Back"
+msgstr ""
+
+#: $string['returnto']
+msgid "Back to activity"
+msgstr ""
+
+#: $string['reviewacitvity']
+msgid "Make all recordings public by default"
+msgstr ""
+
+#: $string['reviewacitvity_help']
+msgid ""
+"If you want to make the recordings available select yes. Otherwise, no "
+"participants will be able to see the recordings except if you check each one "
+"in the list. Please note that this option is editable anytime even when the "
+"activity has ended."
+msgstr ""
+
+#: $string['reviewactivity']
+msgid "Default access rights for recordings"
+msgstr ""
+
+#: $string['reviewactivity_help']
+msgid "Select who can see the recordings."
+msgstr ""
+
+#: $string['role']
+msgid "Role"
+msgstr ""
+
+#: $string['roomtype']
+msgid "Activity type"
+msgstr ""
+
+#: $string['roomtype_help']
+msgid ""
+"The \"Standard\" type is an activity in which all participants are listed and "
+"can interact normally, depending on the role assigned. If instead you choose "
+"an activity type \"Webinar\",\n"
+" only the host and animators will see the names of the participants. In "
+"addition, they will only be able to interact through chatting. The latter "
+"type is ideal for activities including large audiences\n"
+" (over 100 participants) or confidential activities. When the \"Permanent\" "
+"option is selected, the activity will no longer have a fixed date and time.\n"
+" All participants associated with this activity can then access at any time. "
+"Please note that only the multiple recordings option is available for this "
+"type of activity"
+msgstr ""
+
+#: $string['roomversion']
+msgctxt "$string['roomversion']"
+msgid "Choose the Via version for this activity"
+msgstr ""
+
+#: $string['roomversion_help']
+msgctxt "$string['roomversion_help']"
+msgid "Choose the Via version for this activity"
+msgstr ""
+
+#: $string['save']
+msgid "Save"
+msgstr ""
+
+#: $string['seminar']
+msgid "Seminar"
+msgstr ""
+
+#: $string['sendinvitation']
+msgid "Email invitation"
+msgstr ""
+
+#: $string['sendrecall']
+msgid "Send email recall"
+msgstr ""
+
+#: $string['sendrecall_help']
+msgid ""
+"Allows you to set an automatic reminder. You can choose to automatically "
+"send a reminder to all participants 1 or 2 hours before, 1 or 2 days before, "
+"even one week prior to the activity. They will then receive a reminder by "
+"email."
+msgstr ""
+
+#: $string['sessionparameters']
+msgid "Session parameters"
+msgstr ""
+
+#: $string['show']
+msgid "Displayed"
+msgstr ""
+
+#: $string['showlist']
+msgid "Display"
+msgstr ""
+
+#: $string['showparticipants']
+msgid "Participants' list"
+msgstr ""
+
+#: $string['showparticipants_help']
+msgid ""
+"Lets you choose to show or hide the list of participants in Via when in "
+"webinar mode."
+msgstr ""
+
+#: $string['standard']
+msgid "Standard"
+msgstr ""
+
+#: $string['startdate']
+msgid "Starts on"
+msgstr ""
+
+#: $string['STATUS_INVALID']
+msgid "The connection was impossible, the status is invalid."
+msgstr ""
+
+#: $string['submitinvite']
+msgid "Send invitations"
+msgstr ""
+
+#: $string['subscribeparticipants']
+msgid "Participants subscription"
+msgstr ""
+
+#: $string['synctemplateend']
+msgid "The activity template has been successfully synchronized."
+msgstr ""
+
+#: $string['technicalassist']
+msgid "Technical support"
+msgstr ""
+
+#: $string['technicalassist_url']
+msgid "Use a personalised technical support page."
+msgstr ""
+
+#: $string['technicalassist_urldesc']
+msgid ""
+"By default the technical support page will display the information provided "
+"in Via. You may add a personalised support page by calling the URL directly. "
+"This may be a page created in moodle or another site all together."
+msgstr ""
+
+#: $string['testadminid']
+msgid "Test the moodle key"
+msgstr ""
+
+#: $string['testconnection']
+msgid "Test API connection"
+msgstr ""
+
+#: $string['timeduration']
+msgid "Duration :"
+msgstr ""
+
+#: $string['title_exists']
+msgid "The title already exists, please try again."
+msgstr ""
+
+#: $string['typepInscriptioncollaborator']
+msgid "collaborator"
+msgstr ""
+
+#: $string['typepInscriptionCoordinator']
+msgid "Coordinator"
+msgstr ""
+
+#: $string['typepInscriptionmember']
+msgid "user"
+msgstr ""
+
+#: $string['typepInscriptionsetting']
+msgid "When creating users in Via, this right is granted by default."
+msgstr ""
+
+#: $string['unified']
+msgid "Unified"
+msgstr ""
+
+#: $string['unplanned']
+msgid "Unplanned"
+msgstr ""
+
+#: $string['unplanned_error']
+msgid "You can only save your modifications if it is a planned activity!"
+msgstr ""
+
+#: $string['unplanned_text']
+msgid "This activiy has not yet been planned."
+msgstr ""
+
+#: $string['updatethisvia']
+msgid "Update this Via"
+msgstr ""
+
+#: $string['userishost']
+msgid ""
+"This user is the host, chose a new one in order to give this user a new "
+"role."
+msgstr ""
+
+#: $string['users_search']
+msgid "Search potential users"
+msgstr ""
+
+#: $string['usersynch']
+msgid ""
+"Users will automatically be associated with the activity when they connect. "
+"<br/>If you want to pre-associate then in order to allocate them to "
+"workshops, click here:"
+msgstr ""
+
+#: $string['usersynchbtn']
+msgid "Associate all users now"
+msgstr ""
+
+#: $string['usersynchwarning']
+msgid "Please wait, this may take some time!"
+msgstr ""
+
+#: $string['versionnew']
+msgid "Use the most recent version of Via"
+msgstr ""
+
+#: $string['versionold']
+msgid "Use Via version 6"
+msgstr ""
+
+#: $string['versionscompatible']
+msgid "The plugin and Via versions are compatible."
+msgstr ""
+
+#: $string['versions_not_compatible']
+msgid ""
+"The plugin and Via versions are not compatible. The plugin requires a "
+"minimum of"
+msgstr ""
+
+#: $string['viaaccessed']
+msgid "Via accessed"
+msgstr ""
+
+#: $string['via:addinstance']
+msgid "Add a new via activity"
+msgstr ""
+
+#: $string['viaaudiotypes']
+msgid "Select audio mode that you want to keep."
+msgstr ""
+
+#: $string['viacategoriesdesc']
+msgid "If checked, categories created in Via may be added to the activity."
+msgstr ""
+
+#: $string['via_ciesettings_task']
+msgid "Synchronisation settings VIA"
+msgstr ""
+
+#: $string['via_mail_task']
+msgid "VIA mail sending"
+msgstr ""
+
+#: $string['via:manage']
+msgid "Manage Via Activities"
+msgstr ""
+
+#: $string['via_notification_task']
+msgid "Via activity notifications"
+msgstr ""
+
+#: $string['via_typepInscription']
+msgid "Default right in Via"
+msgstr ""
+
+#: $string['viausers']
+msgid "Users:"
+msgstr ""
+
+#: $string['via_usersync_task']
+msgid "Via Moodle user synchronisation"
+msgstr ""
+
+#: $string['via:view']
+msgid "View Via Activities"
+msgstr ""
+
+#: $string['via:viewpresence']
+msgid "View Presence Reports for Via Activities"
+msgstr ""
+
+#: $string['view']
+msgid "View"
+msgstr ""
+
+#: $string['waitingconfirm']
+msgid "Waiting for confirmation"
+msgstr ""
+
+#: $string['waitingroomaccessmode']
+msgid "Waiting room"
+msgstr ""
+
+#: $string['waitingroomaccessmode_help']
+msgid ""
+"The option \"Pending Authorization\" allows the host to allow individual "
+"participants' access while the option \"In the absence of the host\" ensures "
+"that no user can access the activity until the speaker is not connected. "
+"This last option is particularly useful when using permanent activities."
+msgstr ""

@@ -1,0 +1,308 @@
+#. extracted from lang/en/qtype_regexp.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qtype_regexp', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   qtype_regexp
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addahint']
+msgid "Add a hint"
+msgstr ""
+
+#: $string['addingregexp']
+msgid "Adding regular expression question"
+msgstr ""
+
+#: $string['addmoreanswers']
+msgid "Add {no} more answer"
+msgstr ""
+
+#: $string['answer']
+msgid "Answer:"
+msgstr ""
+
+#: $string['answer1mustbegiven']
+msgid "Answer 1 cannot be empty."
+msgstr ""
+
+#: $string['answermustbegiven']
+msgid "You must enter an answer if there is a grade or feedback."
+msgstr ""
+
+#: $string['answerno']
+msgid "Answer: {$a}"
+msgstr ""
+
+#: $string['bestcorrectansweris']
+msgid "<strong>The best correct answer is:</strong><br />{$a}"
+msgstr ""
+
+#: $string['calculatealternate']
+msgid "(Re-)Calculate alternate answers"
+msgstr ""
+
+#: $string['caseno']
+msgid "No, case is unimportant"
+msgstr ""
+
+#: $string['casesensitive']
+msgid "Case sensitivity"
+msgstr ""
+
+#: $string['caseyes']
+msgid "Yes, case must match"
+msgstr ""
+
+#: $string['clicktosubmit']
+msgid ""
+"Click the <strong>Check</strong> button to submit this "
+"<strong>complete</strong> answer."
+msgstr ""
+
+#: $string['correctansweris']
+msgid "<strong>The correct answer is:</strong><br />{$a}"
+msgstr ""
+
+#: $string['correctanswersare']
+msgid "<strong>The other accepted answers are:</strong>"
+msgstr ""
+
+#: $string['editingregexp']
+msgctxt "$string['editingregexp']"
+msgid "Editing regular expression question"
+msgstr ""
+
+#: $string['filloutoneanswer']
+msgid ""
+"<strong>Answer 1</strong> must be a correct answer (grade = 100%) and it "
+"will not be analysed as a regular expression."
+msgstr ""
+
+#: $string['hidealternate']
+msgid "Hide alternate answers"
+msgstr ""
+
+#: $string['illegalcharacters']
+msgid ""
+"<strong>ERROR!</strong> In Answers with a grade > 0 these <em>unescaped</em> "
+"metacharacters are not allowed: <strong>{$a}</strong>"
+msgstr ""
+
+#: $string['letter']
+msgid "Letter"
+msgstr ""
+
+#: $string['notenoughanswers']
+msgid "This type of question requires at least one answer"
+msgstr ""
+
+#: $string['penaltyforeachincorrecttry']
+msgid "Penalty for incorrect tries and Buying a letter or word"
+msgstr ""
+
+#: $string['penaltyforeachincorrecttry_help']
+msgid ""
+"When you run your questions using the 'Interactive with multiple tries' or "
+"'Adaptive mode' behaviour,\n"
+"so that the student will have several tries to get the question right, then "
+"this option controls how much they are penalised for each incorrect try.\n"
+"\n"
+"The penalty is a proportion of the total question grade, so if the question "
+"is worth three marks, and the penalty is 0.3333333,\n"
+"then the student will score 3 if they get the question right first time, 2 "
+"if they get it right second try, and 1 if they get it right on the third "
+"try.\n"
+"\n"
+"If you have set the <strong>Help Button</strong> mode to "
+"<strong>Letter</strong> or <strong>Word</strong> for this question,\n"
+"<strong><em>the same penalty</em></strong> applies each time the student "
+"clicks the <strong>Buy Letter/Word</strong> Button."
+msgstr ""
+
+#: $string['pleaseenterananswer']
+msgid "Please enter an answer."
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Regular expression short answer"
+msgstr ""
+
+#: $string['pluginnameadding']
+msgid "Adding a regular expression question"
+msgstr ""
+
+#: $string['pluginnameediting']
+msgctxt "$string['pluginnameediting']"
+msgid "Editing regular expression question"
+msgstr ""
+
+#: $string['pluginname_help']
+msgctxt "$string['pluginname_help']"
+msgid ""
+"Right-click on the <em>More Help</em> link below to open the Help page in a "
+"new tab/window."
+msgstr ""
+
+#: $string['pluginname_link']
+msgctxt "$string['pluginname_link']"
+msgid "question/type/regexp"
+msgstr ""
+
+#: $string['pluginnamesummary']
+msgctxt "$string['pluginnamesummary']"
+msgid ""
+"Like short answer but the analysis of the student's responses is based on "
+"regular expressions"
+msgstr ""
+
+#: $string['regexp']
+msgctxt "$string['regexp']"
+msgid "Regular expression short answer"
+msgstr ""
+
+#: $string['regexperror']
+msgid "Error in regular expression:<strong>{$a}</strong>"
+msgstr ""
+
+#: $string['regexperrorclose']
+msgid "closed: <strong>{$a}</strong>"
+msgstr ""
+
+#: $string['regexperrornopermutations']
+msgid ""
+"<strong>ERROR!</strong> There are no permuted words inside your double "
+"square brackets!"
+msgstr ""
+
+#: $string['regexperroroddunderscores']
+msgid ""
+"<strong>ERROR!</strong> There is an ODD number of underscores inside your "
+"double square brackets!"
+msgstr ""
+
+#: $string['regexperroropen']
+msgid "opened: <strong>{$a}</strong>"
+msgstr ""
+
+#: $string['regexperrorparen']
+msgid "<strong>ERROR!</strong> Check your parentheses or square brackets!"
+msgstr ""
+
+#: $string['regexperrorsqbrack']
+msgid "Square brackets"
+msgstr ""
+
+#: $string['regexperrortoomanypermutations']
+msgid ""
+"<strong>ERROR!</strong> No more than 2 permutation sets allowed per answer "
+"(double square brackets)!"
+msgstr ""
+
+#: $string['regexp_help']
+msgctxt "$string['regexp_help']"
+msgid ""
+"Right-click on the <em>More Help</em> link below to open the Help page in a "
+"new tab/window."
+msgstr ""
+
+#: $string['regexp_link']
+msgctxt "$string['regexp_link']"
+msgid "question/type/regexp"
+msgstr ""
+
+#: $string['regexpsensitive']
+msgid "Use regular expressions to check answers"
+msgstr ""
+
+#: $string['regexpsummary']
+msgctxt "$string['regexpsummary']"
+msgid ""
+"Like short answer but the analysis of the student's responses is based on "
+"regular expressions"
+msgstr ""
+
+#: $string['settingsformultipletries']
+msgid "Settings for multiple tries and Buying letters or words"
+msgstr ""
+
+#: $string['showhidealternate']
+msgid "Show/Hide alternate answers"
+msgstr ""
+
+#: $string['showhidealternate_help']
+msgid ""
+"Calculate and display all correct answers in this form? This may take quite "
+"some time on your server,\n"
+"depending on the number and complexity of the regular expressions you have "
+"entered in the Answer fields!\n"
+"\n"
+"On the other hand, it is the recommended way to check that your \"correct "
+"answers\" expressions are correctly written."
+msgstr ""
+
+#: $string['studentshowalternate']
+msgid "Show alternate"
+msgstr ""
+
+#: $string['studentshowalternate_help']
+msgid ""
+"Show <strong>all</strong> correct alternative answers to student when on "
+"review page? If there are a lot\n"
+"of automatically generated correct alternative answers, displaying them all "
+"can make the review page quite long."
+msgstr ""
+
+#: $string['usehint']
+msgid "Help button mode"
+msgstr ""
+
+#: $string['usehint_help']
+msgid ""
+"Selecting a mode other than <strong>None</strong> will display\n"
+"a button to allow the student to get the next letter or word.\n"
+"\n"
+"In <strong>Adaptive</strong> mode the button displayed will say \"<strong>Buy "
+"next letter</strong>\" or \"<strong>Buy next word</strong>\"\n"
+"according to the mode selected by the teacher. For setting the \"cost\" of "
+"buying a letter or word, see the\n"
+"<strong>Penalty for incorrect tries and Buying a letter or word</strong> "
+"settings further down this page.\n"
+"\n"
+"In <strong>Adaptive No penalty</strong> mode the button displayed will say "
+"\"<strong>Get next letter</strong>\" or \"<strong>Get next word</strong>\"\n"
+"\n"
+"By default Help button mode value is set at <b>None</b>"
+msgstr ""
+
+#: $string['word']
+msgid "Word"
+msgstr ""

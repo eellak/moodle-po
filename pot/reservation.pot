@@ -1,0 +1,911 @@
+#. extracted from lang/en/reservation.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'reservation', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   reservation
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addparticipant']
+msgid "Add request"
+msgstr ""
+
+#: $string['after10min']
+msgid "After 10 minutes from event start"
+msgstr ""
+
+#: $string['after12h']
+msgid "After 12 hours from event start"
+msgstr ""
+
+#: $string['after1d']
+msgid "After 1 day from event start"
+msgstr ""
+
+#: $string['after1h']
+msgid "After 1 hour from event start"
+msgstr ""
+
+#: $string['after1w']
+msgid "After 1 week from event start"
+msgstr ""
+
+#: $string['after2d']
+msgid "After 2 days from event start"
+msgstr ""
+
+#: $string['after2h']
+msgid "After 2 hours from event start"
+msgstr ""
+
+#: $string['after2w']
+msgid "After 2 weeks from event start"
+msgstr ""
+
+#: $string['after30min']
+msgid "After 30 minutes from event start"
+msgstr ""
+
+#: $string['after3w']
+msgid "After 3 weeks from event start"
+msgstr ""
+
+#: $string['after4h']
+msgid "After 4 hours from event start"
+msgstr ""
+
+#: $string['after4w']
+msgid "After 4 weeks from event start"
+msgstr ""
+
+#: $string['after5min']
+msgid "After 5 minutes from event start"
+msgstr ""
+
+#: $string['after6h']
+msgid "After 6 hours from event start"
+msgstr ""
+
+#: $string['alreadybooked']
+msgid "You are already booked"
+msgstr ""
+
+#: $string['alreadyoverbooked']
+msgid "You are already in the waiting list"
+msgstr ""
+
+#: $string['atstart']
+msgid "At event start"
+msgstr ""
+
+#: $string['autohide']
+msgid "Reservation list auto hide"
+msgstr ""
+
+#: $string['availablerequests']
+msgid "Available seats"
+msgstr ""
+
+#: $string['badcourse']
+msgid "Course does not esists"
+msgstr ""
+
+#: $string['badparent']
+msgid ""
+"This reservation was connected to another reservation not restored now. The "
+"connection has been removed. If needed reconnect them manually"
+msgstr ""
+
+#: $string['badsection']
+msgid "Section does not esists in course \"{$a}\""
+msgstr ""
+
+#: $string['badteachers']
+msgid "Specified teacher email with ({$a}) not found"
+msgstr ""
+
+#: $string['badteachersmail']
+msgid "Specified teacher email ({$a}) is bogus"
+msgstr ""
+
+#: $string['badtimeclose']
+msgid "timeclose is bogus"
+msgstr ""
+
+#: $string['badtimeend']
+msgid "timeend is bogus"
+msgstr ""
+
+#: $string['badtimeopen']
+msgid "timeopen is bogus"
+msgstr ""
+
+#: $string['badtimestart']
+msgid "timestart is bogus"
+msgstr ""
+
+#: $string['by']
+msgid "by"
+msgstr ""
+
+#: $string['bydate']
+msgid "Event date"
+msgstr ""
+
+#: $string['byname']
+msgid "Name"
+msgstr ""
+
+#: $string['bysection']
+msgid "Topic/Week"
+msgstr ""
+
+#: $string['cancelledon']
+msgid "Cancelled on"
+msgstr ""
+
+#: $string['checkclashes']
+msgid "Check place and time clashes"
+msgstr ""
+
+#: $string['clashesfound']
+msgid "Some place or time clashes found"
+msgstr ""
+
+#: $string['clashesreport']
+msgid "Clashes report"
+msgstr ""
+
+#: $string['cleanview']
+msgid "View only current reserved"
+msgstr ""
+
+#: $string['close']
+msgid "close"
+msgstr ""
+
+#: $string['closed']
+msgid "Closed"
+msgstr ""
+
+#: $string['completionreserved']
+msgid "Student must reserve to complete this activity"
+msgstr ""
+
+#: $string['config']
+msgid "Reservation settings"
+msgstr ""
+
+#: $string['configautohide']
+msgid ""
+"This define when reservations must be hidded from reservation list "
+"(mod/reservation/index.php). This could be useful if used with public lists, "
+"in order to display a cleaned list."
+msgstr ""
+
+#: $string['configcheckclashes']
+msgid ""
+"Enable \"Check place and time clashes\" button in reservation editing page"
+msgstr ""
+
+#: $string['configconnectto']
+msgid "Define where the module search reservations to connect with"
+msgstr ""
+
+#: $string['configdownload']
+msgid ""
+"This define the default download file format for all request and reservation "
+"lists."
+msgstr ""
+
+#: $string['configevents']
+msgid "This setting define which events will be created for every reservation"
+msgstr ""
+
+#: $string['configfields']
+msgid "This setting define which fields will shown in reservations table"
+msgstr ""
+
+#: $string['configlocations']
+msgid "Manage standard locations for reservations in this Moodle site"
+msgstr ""
+
+#: $string['configmanualusers']
+msgid ""
+"This define what list of users is shown in dropdown menu used to manual "
+"reserve users."
+msgstr ""
+
+#: $string['configmaxoverbook']
+msgid "This define the max percentage of overbooking for reservations."
+msgstr ""
+
+#: $string['configmaxrequests']
+msgid "Define the limit of dropdown menu in reservation edit page"
+msgstr ""
+
+#: $string['configminduration']
+msgid ""
+"This indicates reservation event minimal duration. It is used with non-"
+"ending events to check time and place availability"
+msgstr ""
+
+#: $string['confignotifies']
+msgid "This setting define which notifies must sent"
+msgstr ""
+
+#: $string['configoverbookstep']
+msgid ""
+"This define the percentage granularity of overbooking. Smaller step, greater "
+"granularity"
+msgstr ""
+
+#: $string['configpubliclists']
+msgid ""
+"This define if reservation lists are public (viewed without login) or not."
+msgstr ""
+
+#: $string['configsortby']
+msgid "This define how reservation list are sorted."
+msgstr ""
+
+#: $string['configsublimits']
+msgid "Define the number of sublimits rules row in reservation edit page"
+msgstr ""
+
+#: $string['configupload']
+msgid "Create several reservations uploading them via text file"
+msgstr ""
+
+#: $string['confirmdelete']
+msgid "Are you sure that you want to delete the selected reservation requests?"
+msgstr ""
+
+#: $string['connectedto']
+msgid "Reservation connected to"
+msgstr ""
+
+#: $string['connectto']
+msgid "Connectable reservation from"
+msgstr ""
+
+#: $string['description']
+msgid "Description"
+msgstr ""
+
+#: $string['downloadas']
+msgid "Default download format"
+msgstr ""
+
+#: $string['duration10h']
+msgid "10 hours"
+msgstr ""
+
+#: $string['duration10min']
+msgid "10 minutes"
+msgstr ""
+
+#: $string['duration11h']
+msgid "11 hours"
+msgstr ""
+
+#: $string['duration12h']
+msgid "12 hours"
+msgstr ""
+
+#: $string['duration15min']
+msgid "15 minutes"
+msgstr ""
+
+#: $string['duration20min']
+msgid "20 minutes"
+msgstr ""
+
+#: $string['duration2h']
+msgid "2 hours"
+msgstr ""
+
+#: $string['duration30min']
+msgid "30 minutes"
+msgstr ""
+
+#: $string['duration3h']
+msgid "3 hours"
+msgstr ""
+
+#: $string['duration45min']
+msgid "45 minutes"
+msgstr ""
+
+#: $string['duration4h']
+msgid "4 hours"
+msgstr ""
+
+#: $string['duration5h']
+msgid "5 hours"
+msgstr ""
+
+#: $string['duration5min']
+msgid "5 minutes"
+msgstr ""
+
+#: $string['duration60min']
+msgid "60 minutes"
+msgstr ""
+
+#: $string['duration6h']
+msgid "6 hours"
+msgstr ""
+
+#: $string['duration7h']
+msgid "7 hours"
+msgstr ""
+
+#: $string['duration8h']
+msgid "8 hours"
+msgstr ""
+
+#: $string['duration90min']
+msgid "90 minutes"
+msgstr ""
+
+#: $string['duration9h']
+msgid "9 hours"
+msgstr ""
+
+#: $string['enablenote']
+msgid "Enable users note"
+msgstr ""
+
+#: $string['equal']
+msgid "equal to"
+msgstr ""
+
+#: $string['err_sublimitsgreater']
+msgid "Sublimits sum is greater than max allowed request"
+msgstr ""
+
+#: $string['err_timeendlower']
+msgid "Event end date is set prior start date"
+msgstr ""
+
+#: $string['err_timeopengreater']
+msgid "Reservation start date is set after end date"
+msgstr ""
+
+#: $string['eventevent']
+msgid "Create an course event from start to end dates (the event)"
+msgstr ""
+
+#: $string['eventreminder']
+msgid "{$a} (reserved)"
+msgstr ""
+
+#: $string['eventrequestadded']
+msgid "Reservation request added"
+msgstr ""
+
+#: $string['eventrequestcancelled']
+msgid "Reservation request cancelled"
+msgstr ""
+
+#: $string['eventrequestdeleted']
+msgid "Reservation request deleted"
+msgstr ""
+
+#: $string['events']
+msgid "Calendar events"
+msgstr ""
+
+#: $string['eventsettings']
+msgid "Event Settings"
+msgstr ""
+
+#: $string['explainconfig']
+msgid ""
+"Administrators can define here global settings for the Resevation Module"
+msgstr ""
+
+#: $string['fields']
+msgid "Shown fields"
+msgstr ""
+
+#: $string['fullview']
+msgid "View also deleted reservations"
+msgstr ""
+
+#: $string['gradedmail']
+msgid ""
+"{$a->teacher} has posted some feedback on your\n"
+"reservation '{$a->reservation}'\n"
+"\n"
+"You can see it here:\n"
+"\n"
+"    {$a->url}"
+msgstr ""
+
+#: $string['gradedmailhtml']
+msgid ""
+"{$a->teacher} has posted some feedback on your\n"
+"reservation '<i>{$a->reservation}</i>'<br /><br />\n"
+"You can see it <a href=\\\"{$a->url}\\\">here</a>."
+msgstr ""
+
+#: $string['importreservations']
+msgid "Import Reservations"
+msgstr ""
+
+#: $string['justbooked']
+msgid "You are booked as: {$a}"
+msgstr ""
+
+#: $string['justoverbooked']
+msgid "You are overbooked as: {$a}"
+msgstr ""
+
+#: $string['linenumber']
+msgid "#"
+msgstr ""
+
+#: $string['listafterclose']
+msgid "reservation requests list after reservation was closed"
+msgstr ""
+
+#: $string['listalways']
+msgid "reservation requests list anytime"
+msgstr ""
+
+#: $string['location']
+msgid "Place"
+msgstr ""
+
+#: $string['locations']
+msgid "Manage Locations"
+msgstr ""
+
+#: $string['locationslist']
+msgid "Locations List"
+msgstr ""
+
+#: $string['mail']
+msgid ""
+"Reservation '{$a->reservation}' has been closed.\n"
+"\n"
+"You can download reservation list from:\n"
+"\n"
+"    {$a->url}"
+msgstr ""
+
+#: $string['mailhtml']
+msgid ""
+"Reservation <em>{$a->reservation}</em> has been closed.<br /><br />\n"
+"You can download reservation list from <a href=\"{$a->url}\">here</a>."
+msgstr ""
+
+#: $string['mailrequest']
+msgid ""
+"Reservation '{$a->reservation}' has been closed.\n"
+"\n"
+"You can get your reservation number on:\n"
+"\n"
+"    {$a->url}"
+msgstr ""
+
+#: $string['mailrequesthtml']
+msgid ""
+"Reservation <em>{$a->reservation}</em> has been closed.<br /><br />\n"
+"You can get your reservation number <a href=\"{$a->url}\">here</a>."
+msgstr ""
+
+#: $string['manage']
+msgid "Manage"
+msgstr ""
+
+#: $string['manualusers']
+msgid "Manual reserve show users of"
+msgstr ""
+
+#: $string['maxoverbook']
+msgid "Max overbook percentage"
+msgstr ""
+
+#: $string['maxrequest']
+msgid "Max Reservations"
+msgstr ""
+
+#: $string['message']
+msgid "Message to participants"
+msgstr ""
+
+#: $string['minduration']
+msgid "Event minimal duration"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Reservation"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"<p>The main aim of this activity is schedule laboratory sessions and exams "
+"but you can schedule everything you want.</p><p>Teacher can define the "
+"number of seats available for the event, event date, reservation opening and "
+"closing date.<br />A reservation may have a grade or a scale.<br />Students "
+"can book and unbook a seat and add a note about this "
+"reservation.</p><p>After the event starts the teacher can grade the event. "
+"Students will notified by mail.</p><p>Reservation list may be downloaded in "
+"various formats.</p>"
+msgstr ""
+
+#: $string['modulenameplural']
+msgctxt "$string['modulenameplural']"
+msgid "Reservations"
+msgstr ""
+
+#: $string['newlocation']
+msgid "New Location"
+msgstr ""
+
+#: $string['noclashes']
+msgid "No place and time clashes found"
+msgstr ""
+
+#: $string['nocourseswithnsections']
+msgid "No course found with {$a} sections"
+msgstr ""
+
+#: $string['nolimit']
+msgid "No reservation limit"
+msgstr ""
+
+#: $string['nomorerequest']
+msgid "No more seats available"
+msgstr ""
+
+#: $string['none']
+msgid "no informations about reservation order"
+msgstr ""
+
+#: $string['nooverbook']
+msgid "No Overbooking"
+msgstr ""
+
+#: $string['noparent']
+msgid "None"
+msgstr ""
+
+#: $string['noreservations']
+msgid "No reservation to show"
+msgstr ""
+
+#: $string['note']
+msgid "Note"
+msgstr ""
+
+#: $string['noteachers']
+msgid "No available teachers"
+msgstr ""
+
+#: $string['notequal']
+msgid "not equal to"
+msgstr ""
+
+#: $string['notifies']
+msgid "Notifies sent"
+msgstr ""
+
+#: $string['notifygrades']
+msgid "Notify reservation graded to students"
+msgstr ""
+
+#: $string['notifystudents']
+msgid "Notify reservation time closed to students"
+msgstr ""
+
+#: $string['notifyteachers']
+msgid "Notify reservation time closed to teachers"
+msgstr ""
+
+#: $string['notopened']
+msgid "Not opened"
+msgstr ""
+
+#: $string['novalues']
+msgid "No available values for this field"
+msgstr ""
+
+#: $string['number']
+msgid "Reservation Number"
+msgstr ""
+
+#: $string['numberafterclose']
+msgid "their reservation request number after reservation was closed"
+msgstr ""
+
+#: $string['numberalways']
+msgid "their reservation request number anytime"
+msgstr ""
+
+#: $string['otherlocation']
+msgid "Other location specified"
+msgstr ""
+
+#: $string['overbook']
+msgid "Overbooking"
+msgstr ""
+
+#: $string['overbookonly']
+msgid "Only overbooked seats available"
+msgstr ""
+
+#: $string['overbookstep']
+msgid "Overbook step"
+msgstr ""
+
+#: $string['overview']
+msgid "Overview"
+msgstr ""
+
+#: $string['parent']
+msgid "Connect this reservation with"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Reservation administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Reservation"
+msgstr ""
+
+#: $string['publiclists']
+msgid "Reservation public list"
+msgstr ""
+
+#: $string['requestoverview']
+msgid "Requests overview"
+msgstr ""
+
+#: $string['requests']
+msgid "Requests"
+msgstr ""
+
+#: $string['reservation:addinstance']
+msgid "Add a new reservation"
+msgstr ""
+
+#: $string['reservationcancelled']
+msgid "Reservation cancelled"
+msgstr ""
+
+#: $string['reservationclosed']
+msgid "Reservations closed"
+msgstr ""
+
+#: $string['reservationdenied']
+msgid "Reservations not allowed"
+msgstr ""
+
+#: $string['reservation:downloadrequests']
+msgid "Can download requests list"
+msgstr ""
+
+#: $string['reservationevent']
+msgid "Create an course event from open to close dates (reservation time)"
+msgstr ""
+
+#: $string['reservation:grade']
+msgid "Can assign grade"
+msgstr ""
+
+#: $string['reservation_listing']
+msgid "Index page settings"
+msgstr ""
+
+#: $string['reservation:manualdelete']
+msgid "Can delete other users requests"
+msgstr ""
+
+#: $string['reservation:manualreserve']
+msgid "Can submit request for other users"
+msgstr ""
+
+#: $string['reservationnotopened']
+msgid "Reservations not yet opened"
+msgstr ""
+
+#: $string['reservation_other']
+msgid "Other settings"
+msgstr ""
+
+#: $string['reservation:reserve']
+msgid "Can submit own requests"
+msgstr ""
+
+#: $string['reservations']
+msgctxt "$string['reservations']"
+msgid "Reservations"
+msgstr ""
+
+#: $string['reservationsettings']
+msgid "Reservation Settings"
+msgstr ""
+
+#: $string['reservation_settings']
+msgid "Editing settings"
+msgstr ""
+
+#: $string['reservation:uploadreservations']
+msgid "Can upload reservations"
+msgstr ""
+
+#: $string['reservation_view']
+msgid "View page settings"
+msgstr ""
+
+#: $string['reservation:viewnote']
+msgid "Can view requests note"
+msgstr ""
+
+#: $string['reservation:viewrequest']
+msgid "Can view requests list"
+msgstr ""
+
+#: $string['reserve']
+msgid "Reserve"
+msgstr ""
+
+#: $string['reservecancel']
+msgid "Cancel reservation"
+msgstr ""
+
+#: $string['reserved']
+msgid "Reserved"
+msgstr ""
+
+#: $string['reservedon']
+msgid "Reserved on"
+msgstr ""
+
+#: $string['reservedonconnected']
+msgid "You are already reserved on a connected reservation: {$a}"
+msgstr ""
+
+#: $string['resetreservation']
+msgid "Remove all reservations"
+msgstr ""
+
+#: $string['save']
+msgid "Save grade"
+msgstr ""
+
+#: $string['search:activity']
+msgid "Reservation - activity information"
+msgstr ""
+
+#: $string['selectvalue']
+msgid "Select one of available values"
+msgstr ""
+
+#: $string['showrequest']
+msgid "Users can view requests list"
+msgstr ""
+
+#: $string['showuserrequest']
+msgid "Users can view"
+msgstr ""
+
+#: $string['sortby']
+msgid "Reservation lists sorted by"
+msgstr ""
+
+#: $string['sublimit']
+msgid "Sublimit {$a}"
+msgstr ""
+
+#: $string['sublimitrules']
+msgid "Sublimits Rules"
+msgstr ""
+
+#: $string['sublimits']
+msgid "Reservation Sublimits"
+msgstr ""
+
+#: $string['timeclose']
+msgid "Reservation end on"
+msgstr ""
+
+#: $string['timeend']
+msgid "End date"
+msgstr ""
+
+#: $string['timeopen']
+msgid "Reservation start on"
+msgstr ""
+
+#: $string['timestart']
+msgid "Start date"
+msgstr ""
+
+#: $string['tools']
+msgid "Reservation tools"
+msgstr ""
+
+#: $string['upload']
+msgid "Reservations upload"
+msgstr ""
+
+#: $string['upload_help']
+msgid ""
+"<p>Reservations may be uploaded via text file. The format of the file should "
+"be as follows:</p><ul><li>Each line of the file contains one "
+"record</li><li>Each record is a series of data separated by commas (or other "
+"delimiters)</li><li>The first record contains a list of fieldnames defining "
+"the format of the rest of the file</li><li>Required fieldsname are section, "
+"name and timestart</li><li>Optional fieldsname are course, intro, teachers, "
+"timeend, maxgrade, timeopen, timeclose, maxrequest</li><li>If course is not "
+"specified it must be choosen after preview</li></ul>"
+msgstr ""
+
+#: $string['uploadreservations']
+msgid "Upload Reservations"
+msgstr ""
+
+#: $string['uploadreservationspreview']
+msgid "Upload Reservations Preview"
+msgstr ""
+
+#: $string['uploadreservationsresult']
+msgid "Upload Reservations Result"
+msgstr ""
+
+#: $string['userevent']
+msgid ""
+"Create an user event from start to end dates when user reserve in a "
+"reservation"
+msgstr ""
+
+#: $string['with']
+msgid "with"
+msgstr ""
+
+#: $string['withselected']
+msgid "With selected..."
+msgstr ""
+
+#: $string['yourgrade']
+msgid "Your grade about this reservation is: {$a->grade}/{$a->maxgrade}"
+msgstr ""
+
+#: $string['yourscale']
+msgid "Your grade about this reservation is: {$a}"
+msgstr ""

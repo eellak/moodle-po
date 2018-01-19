@@ -1,0 +1,352 @@
+#. extracted from lang/en/tool_analytics.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'tool_analytics', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   tool_analytics
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['accuracy']
+msgid "Accuracy"
+msgstr ""
+
+#: $string['allpredictions']
+msgid "All predictions"
+msgstr ""
+
+#: $string['analysingsitedata']
+msgid "Analysing the site"
+msgstr ""
+
+#: $string['analyticmodels']
+msgid "Analytics models"
+msgstr ""
+
+#: $string['bettercli']
+msgid ""
+"Evaluating models and generating predictions may involve heavy processing. "
+"It is recommended to run these actions from the command line."
+msgstr ""
+
+#: $string['cantguessenddate']
+msgid "Can't guess the end date"
+msgstr ""
+
+#: $string['cantguessstartdate']
+msgid "Can't guess the start date"
+msgstr ""
+
+#: $string['clearmodelpredictions']
+msgid "Are you sure you want to clear all \"{$a}\" predictions?"
+msgstr ""
+
+#: $string['clearpredictions']
+msgid "Clear predictions"
+msgstr ""
+
+#: $string['clienablemodel']
+msgid ""
+"You can enable the model by selecting a time-splitting method by its ID. "
+"Note that you can also enable it later using the web interface ('none' to "
+"exit)."
+msgstr ""
+
+#: $string['clievaluationandpredictions']
+msgid ""
+"A scheduled task iterates through enabled models and gets predictions. "
+"Models evaluation via the web interface is disabled. You can allow these "
+"processes to be executed manually via the web interface by disabling the <a "
+"href=\"{$a}\">'onlycli'</a> analytics setting."
+msgstr ""
+
+#: $string['clievaluationandpredictionsnoadmin']
+msgid ""
+"A scheduled task iterates through enabled models and gets predictions. "
+"Models evaluation via the web interface is disabled. It may be enabled by a "
+"site administrator."
+msgstr ""
+
+#: $string['disabled']
+msgid "Disabled"
+msgstr ""
+
+#: $string['editmodel']
+msgid "Edit \"{$a}\" model"
+msgstr ""
+
+#: $string['edittrainedwarning']
+msgid ""
+"This model has already been trained. Note that changing its indicators or "
+"its time-splitting method will delete its previous predictions and start "
+"generating new predictions."
+msgstr ""
+
+#: $string['enabled']
+msgid "Enabled"
+msgstr ""
+
+#: $string['errorcantenablenotimesplitting']
+msgid "You need to select a time-splitting method before enabling the model"
+msgstr ""
+
+#: $string['errornoenabledandtrainedmodels']
+msgid "There are no enabled and trained models to predict."
+msgstr ""
+
+#: $string['errornoenabledmodels']
+msgid "There are no enabled models to train."
+msgstr ""
+
+#: $string['errornoexport']
+msgid "Only trained models can be exported"
+msgstr ""
+
+#: $string['errornostaticedit']
+msgid "Models based on assumptions cannot be edited."
+msgstr ""
+
+#: $string['errornostaticevaluated']
+msgid ""
+"Models based on assumptions cannot be evaluated. They are always 100% "
+"correct according to how they were defined."
+msgstr ""
+
+#: $string['errornostaticlog']
+msgid ""
+"Models based on assumptions cannot be evaluated because there is no "
+"performance log."
+msgstr ""
+
+#: $string['erroronlycli']
+msgid "Execution only allowed via command line"
+msgstr ""
+
+#: $string['errortrainingdataexport']
+msgid "The model training data could not be exported"
+msgstr ""
+
+#: $string['evaluate']
+msgid "Evaluate"
+msgstr ""
+
+#: $string['evaluatemodel']
+msgid "Evaluate model"
+msgstr ""
+
+#: $string['evaluationinbatches']
+msgid ""
+"The site contents are calculated and stored in batches. The evaluation "
+"process may be stopped at any time. The next time it is run, it will "
+"continue from the point when it was stopped."
+msgstr ""
+
+#: $string['export']
+msgid "Export"
+msgstr ""
+
+#: $string['exporttrainingdata']
+msgid "Export training data"
+msgstr ""
+
+#: $string['extrainfo']
+msgctxt "$string['extrainfo']"
+msgid "Info"
+msgstr ""
+
+#: $string['generalerror']
+msgid "Evaluation error. Status code {$a}"
+msgstr ""
+
+#: $string['getpredictions']
+msgid "Get predictions"
+msgstr ""
+
+#: $string['getpredictionsresults']
+msgid "Results using {$a->name} course duration splitting"
+msgstr ""
+
+#: $string['getpredictionsresultscli']
+msgid "Results using {$a->name} (id: {$a->id}) course duration splitting"
+msgstr ""
+
+#: $string['goodmodel']
+msgid ""
+"This is a good model for using to obtain predictions. Enable it to start "
+"obtaining predictions."
+msgstr ""
+
+#: $string['indicators']
+msgid "Indicators"
+msgstr ""
+
+#: $string['info']
+msgctxt "$string['info']"
+msgid "Info"
+msgstr ""
+
+#: $string['insights']
+msgid "Insights"
+msgstr ""
+
+#: $string['invalidanalysables']
+msgid "Invalid site elements"
+msgstr ""
+
+#: $string['invalidanalysablesinfo']
+msgid ""
+"This pages lists this site analysable elements that can not be used by this "
+"prediction model. The listed elements can not be used neither to train the "
+"prediction model nor the prediction model can get predictions for them."
+msgstr ""
+
+#: $string['invalidanalysablestable']
+msgid "Invalid site analysable elements table"
+msgstr ""
+
+#: $string['invalidprediction']
+msgid "Invalid to get predictions"
+msgstr ""
+
+#: $string['invalidtraining']
+msgid "Invalid to train the model"
+msgstr ""
+
+#: $string['loginfo']
+msgid "Log extra info"
+msgstr ""
+
+#: $string['modelid']
+msgid "Model id"
+msgstr ""
+
+#: $string['modelinvalidanalysables']
+msgid "Invalid analysable elements for \"{$a}\" model"
+msgstr ""
+
+#: $string['modelresults']
+msgid "{$a} results"
+msgstr ""
+
+#: $string['modeltimesplitting']
+msgid "Time splitting"
+msgstr ""
+
+#: $string['nextpage']
+msgid "Next page"
+msgstr ""
+
+#: $string['nodatatoevaluate']
+msgid "There is no data to evaluate the model"
+msgstr ""
+
+#: $string['nodatatopredict']
+msgid "No new elements to get predictions for"
+msgstr ""
+
+#: $string['nodatatotrain']
+msgid "There is no new data that can be used for training"
+msgstr ""
+
+#: $string['notdefined']
+msgid "Not yet defined"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Analytic models"
+msgstr ""
+
+#: $string['predictionprocessfinished']
+msgid "Prediction process finished"
+msgstr ""
+
+#: $string['predictionresults']
+msgid "Prediction results"
+msgstr ""
+
+#: $string['predictmodels']
+msgid "Predict models"
+msgstr ""
+
+#: $string['predictorresultsin']
+msgid "Predictor logged information in {$a} directory"
+msgstr ""
+
+#: $string['previouspage']
+msgid "Previous page"
+msgstr ""
+
+#: $string['sameenddate']
+msgid "Current end date is good"
+msgstr ""
+
+#: $string['samestartdate']
+msgid "Current start date is good"
+msgstr ""
+
+#: $string['target']
+msgid "Target"
+msgstr ""
+
+#: $string['timesplittingnotdefined']
+msgid "Time splitting is not defined."
+msgstr ""
+
+#: $string['timesplittingnotdefined_help']
+msgid "You need to select a time-splitting method before enabling the model."
+msgstr ""
+
+#: $string['trainandpredictmodel']
+msgid "Training model and calculating predictions"
+msgstr ""
+
+#: $string['trainingprocessfinished']
+msgid "Training process finished"
+msgstr ""
+
+#: $string['trainingresults']
+msgid "Training results"
+msgstr ""
+
+#: $string['trainmodels']
+msgid "Train models"
+msgstr ""
+
+#: $string['viewlog']
+msgid "Log"
+msgstr ""
+
+#: $string['weeksenddateautomaticallyset']
+msgid ""
+"End date automatically set based on start date and the number of sections"
+msgstr ""
+
+#: $string['weeksenddatedefault']
+msgid "End date automatically calculated from the course start date."
+msgstr ""

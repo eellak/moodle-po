@@ -1,0 +1,167 @@
+#. extracted from lang/en/auth_enrolkey.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'auth_enrolkey', language 'en', branch 'MOODLE_31_STABLE'
+#.  *
+#.  * @package   auth_enrolkey
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['description']
+msgid "This provides Enrolment key based self-registration"
+msgstr ""
+
+#: $string['noemail']
+msgid "Tried to send you an email but failed!"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Enrolment key based self-registration"
+msgstr ""
+
+#: $string['recaptcha']
+msgid ""
+"Adds a visual/audio confirmation form element to the sign-up page for self-"
+"registering users. This protects your site against spammers and contributes "
+"to a worthwhile cause. See <a "
+"href=\"http://www.google.com/recaptcha\">http://www.google.com/recaptcha</a> "
+"for more details."
+msgstr ""
+
+#: $string['recaptcha_key']
+msgid "Enable reCAPTCHA element"
+msgstr ""
+
+#: $string['settings_content']
+msgid ""
+"<p>Enrolment key based self-registration enables a user to create their own "
+"account via a 'Create new account' button on the login page. The user then "
+"receives an email containing a secure link to a page where they can confirm "
+"their account. Future logins just check the username and password against "
+"the stored values in the Moodle database.</p><p>During self-registration if "
+"an enrolment key is entered in the enrolment key field then it will proceed "
+"to automatically enrol the new user into any course that it matches. The "
+"keys are enabled in (Course administration > Users > Enrolment methods > Add "
+"method > Self enrolment).</p><p>Note: In addition to enabling the plugin, "
+"Enrolment key based self-registration must also be selected from the self "
+"registration drop-down menu on the 'Manage authentication' page.</p>"
+msgstr ""
+
+#: $string['settings_heading']
+msgid "General settings"
+msgstr ""
+
+#: $string['settings_required_description']
+msgid "The enrolment key will be a required field for validation"
+msgstr ""
+
+#: $string['settings_required_title']
+msgid "Require enrolment key for validation"
+msgstr ""
+
+#: $string['settings_visible_description']
+msgid ""
+"Adds a new form element to the sign-up page for self-registration users. "
+"This will be checked against available enrolment keys and enrol the user to "
+"the matching courses"
+msgstr ""
+
+#: $string['settings_visible_title']
+msgid "Enable enrolment key element"
+msgstr ""
+
+#: $string['signup_auth_instructions']
+msgid ""
+"Hi! For full access to courses you'll need to take\n"
+"a minute to create a new account for yourself on this web site.\n"
+"Each of the individual courses may also have a one-time\n"
+"\"enrolment key\", which you can use during this sign up:\n"
+"<ol>\n"
+"<li>Fill out the <a href=\"{$a}\">New Account</a> form with your details.</li>\n"
+"<li>You will be prompted for an \"enrolment key\" - use the one\n"
+"that your teacher has given you. This will \"enrol\" you in the\n"
+"course.</li>\n"
+"<li>Your account will be created and you will be logged in.</li>\n"
+"<li>You can now access the full course for this session.</li>\n"
+"<li>An email has also been immediately sent to your email address.</li>\n"
+"<li>Read your email, and click on the web link it contains.</li>\n"
+"<li>From now on you will only need to enter your personal\n"
+"username and password (in the form on this page) to log in\n"
+"and access any course you have enrolled in.</li>\n"
+"</ol>"
+msgstr ""
+
+#: $string['signup_failure']
+msgid ""
+"Opps! Something went wrong, and you may not have been enrolled properly. Go "
+"to <a href=\"{$a->href}\">Home</a>"
+msgstr ""
+
+#: $string['signup_field_title']
+msgid "Enrolment key"
+msgstr ""
+
+#: $string['signup_missing']
+msgid "Missing enrolment key"
+msgstr ""
+
+#: $string['signup_token_invalid']
+msgid "The enrolment key you have entered is invalid"
+msgstr ""
+
+#: $string['signup_view']
+msgid "Course enrolment"
+msgstr ""
+
+#: $string['signup_view_message_basic']
+msgid ""
+"You have been enrolled as a {$a->role} into the course '<a "
+"href=\"{$a->href}\">{$a->course}</a>\\"
+msgstr ""
+
+#: $string['signup_view_message_basic_dates']
+msgid ""
+"You have enrolled into {$a->course} as a {$a->role}. <a "
+"href={$a->href}>Click here to view the course.</a><br />Course starts: "
+"{$a->startdate}<br />Course ends: {$a->enddate}"
+msgstr ""
+
+#: $string['signup_view_message_basic_dates_endonly']
+msgid ""
+"You have enrolled into {$a->course} as a {$a->role}. <a "
+"href={$a->href}>Click here to view the course.</a><br />Course ends: "
+"{$a->enddate}"
+msgstr ""
+
+#: $string['signup_view_message_basic_dates_startonly']
+msgid ""
+"You have enrolled into {$a->course} as a {$a->role}. <a "
+"href={$a->href}>Click here to view the course.</a><br />Course starts: "
+"{$a->startdate}"
+msgstr ""

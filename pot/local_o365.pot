@@ -1,0 +1,2382 @@
+#. extracted from lang/en/local_o365.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'local_o365', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   local_o365
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['acp_healthcheck']
+msgctxt "$string['acp_healthcheck']"
+msgid "Health Check"
+msgstr ""
+
+#: $string['acp_maintenance']
+msgid "Maintenance Tools"
+msgstr ""
+
+#: $string['acp_maintenance_coursegroupscheck']
+msgid "Recreate deleted Office 365 groups."
+msgstr ""
+
+#: $string['acp_maintenance_coursegroupscheck_desc']
+msgid ""
+"This will check for any Office 365 course groups that may have been manually "
+"deleted and recreate them."
+msgstr ""
+
+#: $string['acp_maintenance_coursegroupusers']
+msgid "Resync users in groups for courses."
+msgstr ""
+
+#: $string['acp_maintenance_coursegroupusers_desc']
+msgid ""
+"This will resync the user membership for all Office 365 groups created for "
+"all Moodle courses. This will ensure all, and only, users enrolled in the "
+"Moodle course are in the Office 365 group. <br /><b>Note:</b> If you have "
+"added any additional users to a course group that are not enrolled in the "
+"associated Moodle course, they will be removed."
+msgstr ""
+
+#: $string['acp_maintenance_debugdata']
+msgid "Generate debug data package"
+msgstr ""
+
+#: $string['acp_maintenance_debugdata_desc']
+msgid ""
+"This will generate a package containing various pieces of information about "
+"your Moodle and Office 365 environment to assist developers in solving any "
+"issues you may have. If requested by a developer, run this tool and send the "
+"resulting file download. Note: Although this package does not contain "
+"sensitive token data, we ask that you do not post this file publicly or send "
+"it to an untrusted party."
+msgstr ""
+
+#: $string['acp_maintenance_desc']
+msgid "These tools can help you resolve some common issues."
+msgstr ""
+
+#: $string['acp_maintenance_warning']
+msgid ""
+"Warning: These are advanced tools. Please use them only if you understand "
+"what you are doing."
+msgstr ""
+
+#: $string['acp_parentsite_desc']
+msgid "Site for shared Moodle course data."
+msgstr ""
+
+#: $string['acp_parentsite_name']
+msgid "Moodle"
+msgstr ""
+
+#: $string['acp_sharepointcourseselect']
+msgid "SharePoint Course Selection"
+msgstr ""
+
+#: $string['acp_sharepointcourseselect_applyfilter']
+msgid "Apply Filter"
+msgstr ""
+
+#: $string['acp_sharepointcourseselect_bulk']
+msgctxt "$string['acp_sharepointcourseselect_bulk']"
+msgid "Bulk Operations"
+msgstr ""
+
+#: $string['acp_sharepointcourseselect_desc']
+msgid ""
+"Choose which courses will have SharePoint sites created for them. By "
+"default, no sites will be created. You can then choose to select specific "
+"courses (\"Custom\"), or create a SharePoint site for all Moodle courses "
+"(\"Sync All\")."
+msgstr ""
+
+#: $string['acp_sharepointcourseselect_enableshown']
+msgid "Return to Settings"
+msgstr ""
+
+#: $string['acp_sharepointcourseselect_filter']
+msgid "Filter Courses"
+msgstr ""
+
+#: $string['acp_sharepointcourseselect_filtercategory']
+msgid "Filter by course category"
+msgstr ""
+
+#: $string['acp_sharepointcourseselect_filterstring']
+msgid "Filter by string search"
+msgstr ""
+
+#: $string['acp_sharepointcourseselect_instr']
+msgid ""
+"To sort by column, select the column header. Select the checkbox for all "
+"courses to be associated with a SharePoint resource. To enable all courses "
+"by default, disable this custom feature in the admin settings."
+msgstr ""
+
+#: $string['acp_sharepointcourseselect_instr_header']
+msgid "Instructions"
+msgstr ""
+
+#: $string['acp_sharepointcourseselectlabel_enabled']
+msgctxt "$string['acp_sharepointcourseselectlabel_enabled']"
+msgid "Enable"
+msgstr ""
+
+#: $string['acp_sharepointcourseselect_none']
+msgid "None<br />No SharePoint sites will be created."
+msgstr ""
+
+#: $string['acp_sharepointcourseselect_off_header']
+msgid "Not Enabled"
+msgstr ""
+
+#: $string['acp_sharepointcourseselect_off_instr']
+msgid ""
+"SharePoint custom course selection is not enabled. Enable it in the plugin "
+"admin settings to use this feature."
+msgstr ""
+
+#: $string['acp_sharepointcourseselect_onall']
+msgid ""
+"Sync All<br />A SharePoint site will be generated for every Moodle course on "
+"this site."
+msgstr ""
+
+#: $string['acp_sharepointcourseselect_oncustom']
+msgid ""
+"Custom <a href=\"{$a}\">Customize</a><br />Choose which Moodle courses will be "
+"associated with a SharePoint site."
+msgstr ""
+
+#: $string['acp_sharepointcourseselect_searchwarning']
+msgctxt "$string['acp_sharepointcourseselect_searchwarning']"
+msgid ""
+"Note: Searches will lose any unsaved progress. Press save changes to ensure "
+"your changes are saved."
+msgstr ""
+
+#: $string['acp_sharepointcourseselect_syncopt']
+msgid "Sync SharePoint Subsites"
+msgstr ""
+
+#: $string['acp_sharepointcourseselect_syncopt_btn']
+msgid "Sync to SharePoint Subsites"
+msgstr ""
+
+#: $string['acp_sharepointcourseselect_syncopt_inst']
+msgid ""
+"Because this functionality was recently upgraded, the information shown here "
+"may not be accurate. Use the button below to sync this display with "
+"existing course subsites on SharePoint. This operation may take some time."
+msgstr ""
+
+#: $string['acp_sharepointcustom_savemessage']
+msgctxt "$string['acp_sharepointcustom_savemessage']"
+msgid "Your changes have been saved."
+msgstr ""
+
+#: $string['acp_tenants_actions']
+msgctxt "$string['acp_tenants_actions']"
+msgid "Actions"
+msgstr ""
+
+#: $string['acp_tenants_add']
+msgid "Add New Tenant"
+msgstr ""
+
+#: $string['acp_tenantsadd_desc']
+msgid ""
+"To grant access to an additional tenant, click the button below and log in "
+"to Office 365 using an adminitrator account of the new tenant. You will be "
+"returned to the list of additional tenants where the new tenant will be "
+"listed. You will then be able to use Moodle with the new tenant."
+msgstr ""
+
+#: $string['acp_tenantsadd_linktext']
+msgid "Proceed to Office 365 login page"
+msgstr ""
+
+#: $string['acp_tenants_errornotsetup']
+msgid ""
+"Please complete the plugin setup process before adding additional tenants."
+msgstr ""
+
+#: $string['acp_tenants_hosttenant']
+msgid "Host Tenant: {$a}"
+msgstr ""
+
+#: $string['acp_tenants_intro']
+msgid ""
+"<b>How Multitenancy Works:</b><br />Multitenancy allows multiple Office 365 "
+"tenants to access your Moodle site. <br /><br />\n"
+"    Here's how to get set up:\n"
+"    <ol>\n"
+"        <li>Log in to Moodle as a administrator user that is not using the "
+"OpenID Connect authentication plugin.</li>\n"
+"        <li>Disable the OpenID Connect authentication plugin in Moodle. (Use "
+"<a href=\"{$a}/admin/settings.php?section=manageauths\">the authentication "
+"plugins administration page</a>.)</li>\n"
+"        <li>Navigate to Azure AD, and find the application you configured "
+"for Moodle.</li>\n"
+"        <li>Enable multitenancy in the Azure AD application and save "
+"changes.</li>\n"
+"        <li>For each tenant you want to enable, click \"Add New Tenant\" and "
+"log in with an administrator account from the tenant you want to "
+"enable.</li>\n"
+"        <li>Once you have added all the tenants you want, re-enable the "
+"OpenID Connect authentication plugin in Moodle.</li>\n"
+"        <li>You're done! To add additional tenants in the future, just click "
+"the \"Add New Tenant\" button and log in with an administrator account from "
+"that tenant.</li>\n"
+"    </ol>\n"
+"    <b>Important Note:</b> Azure AD multitenancy allows all Office 365 "
+"tenants to access your application when enabled. Adding the tenants here "
+"allows us to restrict Moodle access to tenants you configure. <b>If you "
+"remove all the tenants from this list before disabling multitenancy in Azure "
+"AD, or enable OpenID Connect authentication in Moodle with an empty list, "
+"your Moodle site will be open to all Office 365 tenants.</b>"
+msgstr ""
+
+#: $string['acp_tenants_none']
+msgid ""
+"You have not configured any tenants. If you have enabled multitenancy in "
+"Azure AD, you're Moodle site may be open to all Office 365 users."
+msgstr ""
+
+#: $string['acp_tenants_revokeaccess']
+msgid "Revoke Access"
+msgstr ""
+
+#: $string['acp_tenants_tenant']
+msgid "Tenant"
+msgstr ""
+
+#: $string['acp_tenants_title']
+msgid "Multitenancy"
+msgstr ""
+
+#: $string['acp_tenants_title_desc']
+msgid ""
+"This page helps you set up multitenant access to Moodle from Office 365."
+msgstr ""
+
+#: $string['acp_title']
+msgid "Microsoft Office 365 Integration Administration Control Panel"
+msgstr ""
+
+#: $string['acp_userconnections']
+msgid "User Connections"
+msgstr ""
+
+#: $string['acp_userconnections_column_actions']
+msgctxt "$string['acp_userconnections_column_actions']"
+msgid "Actions"
+msgstr ""
+
+#: $string['acp_userconnections_column_muser']
+msgid "Moodle User"
+msgstr ""
+
+#: $string['acp_userconnections_column_o365user']
+msgid "Office 365 User"
+msgstr ""
+
+#: $string['acp_userconnections_column_status']
+msgctxt "$string['acp_userconnections_column_status']"
+msgid "Connection Status"
+msgstr ""
+
+#: $string['acp_userconnections_column_usinglogin']
+msgid "Using Login"
+msgstr ""
+
+#: $string['acp_userconnections_filtering_muserfullname']
+msgid "Moodle user full name"
+msgstr ""
+
+#: $string['acp_userconnections_filtering_musername']
+msgid "Moodle username"
+msgstr ""
+
+#: $string['acp_userconnections_filtering_o365username']
+msgctxt "$string['acp_userconnections_filtering_o365username']"
+msgid "Office 365 username"
+msgstr ""
+
+#: $string['acp_userconnections_manualmatch_details']
+msgid ""
+"This page allows you to match a single Moodle user with a single Office 365 "
+"user."
+msgstr ""
+
+#: $string['acp_userconnections_manualmatch_error_muserconnected']
+msgid "The Moodle user is already connected to an Office 365 user"
+msgstr ""
+
+#: $string['acp_userconnections_manualmatch_error_muserconnected2']
+msgid "The Moodle user is already connected to an Office 365 user (2)"
+msgstr ""
+
+#: $string['acp_userconnections_manualmatch_error_musermatched']
+msgid "The Moodle user is already matched to an Office 365 user"
+msgstr ""
+
+#: $string['acp_userconnections_manualmatch_error_o365userconnected']
+msgid "The Office 365 user is already connected to another Moodle user"
+msgstr ""
+
+#: $string['acp_userconnections_manualmatch_error_o365usermatched']
+msgid "The Office 365 user is already matched to another Moodle user"
+msgstr ""
+
+#: $string['acp_userconnections_manualmatch_musername']
+msgid "Moodle user"
+msgstr ""
+
+#: $string['acp_userconnections_manualmatch_o365username']
+msgctxt "$string['acp_userconnections_manualmatch_o365username']"
+msgid "Office 365 username"
+msgstr ""
+
+#: $string['acp_userconnections_manualmatch_title']
+msgid "Manual user match"
+msgstr ""
+
+#: $string['acp_userconnections_manualmatch_uselogin']
+msgid "Log in with Office 365"
+msgstr ""
+
+#: $string['acp_userconnections_table_connected']
+msgid "Connected"
+msgstr ""
+
+#: $string['acp_userconnections_table_disconnect']
+msgctxt "$string['acp_userconnections_table_disconnect']"
+msgid "Disconnect"
+msgstr ""
+
+#: $string['acp_userconnections_table_disconnect_confirmmsg']
+msgid ""
+"This will disconnect the Moodle user \"{$a}\" from Office 365. Click the link "
+"below to proceed."
+msgstr ""
+
+#: $string['acp_userconnections_table_match']
+msgid "Match"
+msgstr ""
+
+#: $string['acp_userconnections_table_matched']
+msgid "Matched with existing user.<br />Awaiting completion."
+msgstr ""
+
+#: $string['acp_userconnections_table_noconnection']
+msgid "No Connection"
+msgstr ""
+
+#: $string['acp_userconnections_table_synced']
+msgid "Synced from Azure AD.<br />Awaiting initial login."
+msgstr ""
+
+#: $string['acp_userconnections_table_unmatch']
+msgid "Unmatch"
+msgstr ""
+
+#: $string['acp_userconnections_table_unmatch_confirmmsg']
+msgid ""
+"This will unmatch the Moodle user \"{$a}\" from Office 365. Click the link "
+"below to proceed."
+msgstr ""
+
+#: $string['acp_usergroupcustom']
+msgid "User Group Customization"
+msgstr ""
+
+#: $string['acp_usergroupcustom_bulk']
+msgctxt "$string['acp_usergroupcustom_bulk']"
+msgid "Bulk Operations"
+msgstr ""
+
+#: $string['acp_usergroupcustom_bulk_disable']
+msgid "Disable All"
+msgstr ""
+
+#: $string['acp_usergroupcustom_bulk_enable']
+msgid "Enable All"
+msgstr ""
+
+#: $string['acp_usergroupcustom_enabled']
+msgid "Enabled"
+msgstr ""
+
+#: $string['acp_usergroupcustom_off']
+msgid ""
+"Disabled<br />Disables all Course Groups (i.e. Office 365 Groups) "
+"integration for all Moodle courses."
+msgstr ""
+
+#: $string['acp_usergroupcustom_onall']
+msgid ""
+"All Features Enabled<br />Enables Course Groups (i.e. Office 365 Groups) for "
+"all courses and exposes all Group features in the Microsoft block for all "
+"courses."
+msgstr ""
+
+#: $string['acp_usergroupcustom_oncustom']
+msgid ""
+"Customize<br />Allows you to select which courses to create Course Groups "
+"(i.e. Office 365 Groups) for, as well as select which Group features are "
+"exposed in the Microsoft block for each course.<br> <span "
+"id=\"adminsetting_usergroups\" style=\"font-weight: bold\"><a "
+"href=\"{$a}\">Customize groups</a></span>"
+msgstr ""
+
+#: $string['acp_usergroupcustom_savemessage']
+msgctxt "$string['acp_usergroupcustom_savemessage']"
+msgid "Your changes have been saved."
+msgstr ""
+
+#: $string['acp_usergroupcustom_searchwarning']
+msgctxt "$string['acp_usergroupcustom_searchwarning']"
+msgid ""
+"Note: Searches will lose any unsaved progress. Press save changes to ensure "
+"your changes are saved."
+msgstr ""
+
+#: $string['acp_usermatch']
+msgctxt "$string['acp_usermatch']"
+msgid "User Matching"
+msgstr ""
+
+#: $string['acp_usermatch_desc']
+msgid ""
+"This tool allows you to match Moodle users to Office 365 users. You will "
+"upload a file containing Moodle users and associated Office 365 users, and a "
+"cron task will verify the data and set up the match."
+msgstr ""
+
+#: $string['acp_usermatch_matchqueue']
+msgid "Step 2: Match Queue"
+msgstr ""
+
+#: $string['acp_usermatch_matchqueue_clearall']
+msgid "Clear All"
+msgstr ""
+
+#: $string['acp_usermatch_matchqueue_clearerrors']
+msgid "Clear Errors"
+msgstr ""
+
+#: $string['acp_usermatch_matchqueue_clearqueued']
+msgid "Clear Queued"
+msgstr ""
+
+#: $string['acp_usermatch_matchqueue_clearsuccess']
+msgid "Clear Successful"
+msgstr ""
+
+#: $string['acp_usermatch_matchqueue_column_muser']
+msgid "Moodle Username"
+msgstr ""
+
+#: $string['acp_usermatch_matchqueue_column_o365user']
+msgid "Office 365 Username"
+msgstr ""
+
+#: $string['acp_usermatch_matchqueue_column_openidconnect']
+msgid "OpenID Connect"
+msgstr ""
+
+#: $string['acp_usermatch_matchqueue_column_status']
+msgid "Status"
+msgstr ""
+
+#: $string['acp_usermatch_matchqueue_desc']
+msgid ""
+"This table shows the current status of the match operation. Every time the "
+"matching cron job runs, a batch of the following users will be processed.<br "
+"/><b>Note:</b> This page will not update dynamically, refresh this page to "
+"view the current status."
+msgstr ""
+
+#: $string['acp_usermatch_matchqueue_empty']
+msgid ""
+"The match queue is currently empty. Upload a data file using the file picker "
+"above to add users to the queue."
+msgstr ""
+
+#: $string['acp_usermatch_matchqueue_status_error']
+msgid "Error: {$a}"
+msgstr ""
+
+#: $string['acp_usermatch_matchqueue_status_queued']
+msgid "Queued"
+msgstr ""
+
+#: $string['acp_usermatch_matchqueue_status_success']
+msgid "Successful"
+msgstr ""
+
+#: $string['acp_usermatch_upload']
+msgid "Step 1: Upload New Matches"
+msgstr ""
+
+#: $string['acp_usermatch_upload_desc']
+msgid ""
+"Upload a data file containing Moodle and Office 365 usernames to match "
+"Moodle users to Office 365 users.<br /><br />This file should be a simple "
+"plain-text CSV file containing three items per line: the Moodle username, "
+"the Office 365 username and 1 or 0 to change the users authenticaton method "
+"to OpenID Connect or a linked account respectively. Do not include any "
+"headers or additional data.<br />For example: "
+"<pre>moodleuser1,bob.smith@example.onmicrosoft.com,1<br "
+"/>moodleuser2,john.doe@example.onmicrosoft.com,0</pre>"
+msgstr ""
+
+#: $string['acp_usermatch_upload_err_badmime']
+msgid "Type {$a} is not supported. Please upload a plain-text CSV."
+msgstr ""
+
+#: $string['acp_usermatch_upload_err_data']
+msgid ""
+"Line #{$a} contained invalid data. Each line in the CSV file should have two "
+"items: the Moodle username and the Office 365 username."
+msgstr ""
+
+#: $string['acp_usermatch_upload_err_fileopen']
+msgid ""
+"Could not open file for processing. Are the permissions correct in your "
+"Moodledata directory?"
+msgstr ""
+
+#: $string['acp_usermatch_upload_err_nofile']
+msgid "No file was received to add to the queue."
+msgstr ""
+
+#: $string['acp_usermatch_upload_submit']
+msgid "Add Data File To Match Queue"
+msgstr ""
+
+#: $string['cachedef_groups']
+msgid "Stores Office 365 group data."
+msgstr ""
+
+#: $string['calendar_event']
+msgid "View details"
+msgstr ""
+
+#: $string['calendar_setting']
+msgid "Enable Outlook Calendar Sync"
+msgstr ""
+
+#: $string['calendar_site']
+msgid "Sitewide Calendar"
+msgstr ""
+
+#: $string['calendar_user']
+msgid "Personal (User) Calendar"
+msgstr ""
+
+#: $string['erroracpauthoidcnotconfig']
+msgid "Please set application credentials in auth_oidc first."
+msgstr ""
+
+#: $string['erroracplocalo365notconfig']
+msgid "Please configure local_o365 first."
+msgstr ""
+
+#: $string['erroracpnosptoken']
+msgid "Did not have an available SharePoint token, and could not get one."
+msgstr ""
+
+#: $string['errorchecksystemapiuser']
+msgid ""
+"Could not get a system API user token, please run the health check, ensure "
+"that your Moodle cron is running, and refresh the system API user if "
+"necessary."
+msgstr ""
+
+#: $string['errorcouldnotcreatespgroup']
+msgid "Could not create the SharePoint group."
+msgstr ""
+
+#: $string['errorcouldnotrefreshtoken']
+msgid "Could not refresh token"
+msgstr ""
+
+#: $string['errorcoursenotsubsiteenabled']
+msgid "This course is not SharePoint subsite enabled."
+msgstr ""
+
+#: $string['errorcreatingsharepointclient']
+msgid "Could not get SharePoint api client"
+msgstr ""
+
+#: $string['errorhttpclientbadtempfileloc']
+msgid "Could not open temporary location to store file."
+msgstr ""
+
+#: $string['errorhttpclientnofileinput']
+msgid "No file parameter in httpclient::put"
+msgstr ""
+
+#: $string['erroro365apibadcall']
+msgid "Error in API call."
+msgstr ""
+
+#: $string['erroro365apibadcall_message']
+msgid "Error in API call: {$a}"
+msgstr ""
+
+#: $string['erroro365apibadpermission']
+msgid "Permission not found"
+msgstr ""
+
+#: $string['erroro365apicouldnotcreatesite']
+msgid "Problem creating site."
+msgstr ""
+
+#: $string['erroro365apicoursenotfound']
+msgid "Course not found."
+msgstr ""
+
+#: $string['erroro365apiinvalidmethod']
+msgid "Invalid httpmethod passed to apicall"
+msgstr ""
+
+#: $string['erroro365apiinvalidtoken']
+msgid "Invalid or expired token."
+msgstr ""
+
+#: $string['erroro365apinoparentinfo']
+msgid "Could not find parent folder information"
+msgstr ""
+
+#: $string['erroro365apinotimplemented']
+msgid "This should be overridden."
+msgstr ""
+
+#: $string['erroro365apinotoken']
+msgid ""
+"Did not have a token for the given resource and user, and could not get one. "
+"Is the user's refresh token expired?"
+msgstr ""
+
+#: $string['erroro365apisiteexistsnolocal']
+msgid "Site already exists, but could not find local record."
+msgstr ""
+
+#: $string['errorusermatched']
+msgid ""
+"The Office 365 account \"{$a->aadupn}\" is already matched with Moodle user "
+"\"{$a->username}\". To complete the connection, please log in as that Moodle "
+"user first and follow the instructions in the Microsoft block."
+msgstr ""
+
+#: $string['eventapifail']
+msgid "API failure"
+msgstr ""
+
+#: $string['eventcalendarsubscribed']
+msgid "User subscribed to a calendar"
+msgstr ""
+
+#: $string['eventcalendarunsubscribed']
+msgid "User unsubscribed from a calendar"
+msgstr ""
+
+#: $string['groups']
+msgid "Office 365 Groups"
+msgstr ""
+
+#: $string['groups_calendar']
+msgid "Calendar"
+msgstr ""
+
+#: $string['groups_columnname']
+msgid "Name"
+msgstr ""
+
+#: $string['groups_conversations']
+msgid "Conversations"
+msgstr ""
+
+#: $string['groups_edit_description']
+msgid "Group description"
+msgstr ""
+
+#: $string['groups_edit_name']
+msgid "Group name"
+msgstr ""
+
+#: $string['groups_edit_nameexists']
+msgid "The group with the {$a} currently exists, please choose another name."
+msgstr ""
+
+#: $string['groups_edit_newpicture']
+msgid "Group icon"
+msgstr ""
+
+#: $string['groups_edit_newpicture_help']
+msgid ""
+"The image uploaded for the group icon will be used for the Moodle Group and "
+"the Office 365 group"
+msgstr ""
+
+#: $string['groups_editsettings']
+msgid "Edit group settings"
+msgstr ""
+
+#: $string['groups_manage']
+msgid "Manage groups"
+msgstr ""
+
+#: $string['groups_manage_pending']
+msgid "Your Office 365 group will be created shortly."
+msgstr ""
+
+#: $string['groups_more']
+msgid "More..."
+msgstr ""
+
+#: $string['groups_notebook']
+msgid "Course Notebook"
+msgstr ""
+
+#: $string['groups_notenabled']
+msgid "Office 365 Groups are not enabled for this course."
+msgstr ""
+
+#: $string['groups_notenabledforcourse']
+msgid "Office Groups are not enabled for this course."
+msgstr ""
+
+#: $string['groups_onedrive']
+msgid "Files"
+msgstr ""
+
+#: $string['groups_pending']
+msgid "This Office 365 group will be created shortly, please try again later."
+msgstr ""
+
+#: $string['groups_studygroup']
+msgid "Study group"
+msgstr ""
+
+#: $string['groups_studygroups']
+msgid "Study groups"
+msgstr ""
+
+#: $string['groups_total']
+msgid "Total groups: {$a}"
+msgstr ""
+
+#: $string['healthcheck_fixlink']
+msgid "Click here to fix it."
+msgstr ""
+
+#: $string['healthcheck_ratelimit_result_disabled']
+msgid "Rate limiting features have been disabled."
+msgstr ""
+
+#: $string['healthcheck_ratelimit_result_notice']
+msgid ""
+"Slight throttling has been enabled to handle increased Moodle site load. <br "
+"/><br />All Office 365 features are functional, this just spaces out "
+"requests slightly to prevent interruption of Office 365 services. Once "
+"Moodle activity decreases, everything will return to normal. <br />(Level "
+"{$a->level} / started {$a->timestart})"
+msgstr ""
+
+#: $string['healthcheck_ratelimit_result_passed']
+msgid "Office 365 API calls are executing at full speed."
+msgstr ""
+
+#: $string['healthcheck_ratelimit_result_warning']
+msgid ""
+"Increased throttling has been enabled to handle significant Moodle site "
+"load. <br /><br />All Office 365 features are still functional, but Office "
+"365 requests may take longer to complete. Once Moodle site activity has "
+"decreased, everything will return to normal. <br />(Level {$a->level} / "
+"started {$a->timestart})"
+msgstr ""
+
+#: $string['healthcheck_ratelimit_title']
+msgid "API Throttling"
+msgstr ""
+
+#: $string['healthcheck_systemapiuser_title']
+msgctxt "$string['healthcheck_systemapiuser_title']"
+msgid "System API User"
+msgstr ""
+
+#: $string['healthcheck_systemtoken_result_badtoken']
+msgid ""
+"There was a problem communicating with Office&nbsp;365 as the system API "
+"user. This can usually be resolved by resetting the system API user."
+msgstr ""
+
+#: $string['healthcheck_systemtoken_result_noclientcreds']
+msgid ""
+"There are not application credentials present in the OpenID Connect plugin. "
+"Without these credentials, Moodle cannot perform any communication with "
+"Office&nbsp;365. Click here to visit the settings page and enter your "
+"credentials."
+msgstr ""
+
+#: $string['healthcheck_systemtoken_result_notoken']
+msgid ""
+"Moodle does not have a token to communicate with Office&nbsp;365 as the "
+"system API user. This can usually be resolved by resetting the system API "
+"user."
+msgstr ""
+
+#: $string['healthcheck_systemtoken_result_passed']
+msgid "Moodle can communicate with Office&nbsp;365 as the system API user."
+msgstr ""
+
+#: $string['help_user_appassign']
+msgid "Assign Users To Application Help"
+msgstr ""
+
+#: $string['help_user_appassign_help']
+msgid ""
+"This will cause all the Azure AD accounts with matching Moodle accounts to "
+"be assigned to the Azure application created for this Moodle installation, "
+"if not already assigned."
+msgstr ""
+
+#: $string['help_user_create']
+msgid "Create Accounts Help"
+msgstr ""
+
+#: $string['help_user_create_help']
+msgid ""
+"This will create users in Moodle from each user in the linked Azure Active "
+"Directory. Only users which do not currently have Moodle accounts will have "
+"accounts created. New accounts will be set up to use their Office 365 "
+"credentials to log in to Moodle (using the OpenID Connect authentication "
+"plugin), and will be able to use all Office 365/Moodle integration features."
+msgstr ""
+
+#: $string['help_user_delete']
+msgid "Delete Accounts Help"
+msgstr ""
+
+#: $string['help_user_delete_help']
+msgid ""
+"This will delete users from Moodle if they are marked as deleted in Azure "
+"Active Directory. The Moodle account will be deleted and all associated user "
+"information will be removed from Moodle. Be careful!"
+msgstr ""
+
+#: $string['help_user_match']
+msgid "Match Accounts Help"
+msgstr ""
+
+#: $string['help_user_match_help']
+msgid ""
+"This will look at the each user in the linked Azure Active Directory and try "
+"to match them with a user in Moodle. This match is based on usernames in "
+"Azure AD and Moodle. Matches are case-insentitive and ignore the Office 365 "
+"tenant. For example, \"BoB.SmiTh\" in Moodle would match "
+"\"bob.smith@example.onmicrosoft.com\". Users who are matched will have their "
+"Moodle and Office accounts connected and will be able to use all Office "
+"365/Moodle integration features. The user's authentication method will not "
+"change unless the setting below is enabled."
+msgstr ""
+
+#: $string['help_user_matchswitchauth']
+msgid "Switch Matched Accounts Help"
+msgstr ""
+
+#: $string['help_user_matchswitchauth_help']
+msgid ""
+"This requires the \"Match preexisting Moodle users\" setting above to be "
+"enabled. When a user is matched, enabling this setting will switch their "
+"authentication method to OpenID Connect. They will then be able to log in to "
+"Moodle with their Office 365 credentials. Note: Please ensure that the "
+"OpenID Connect authentication plugin is enabled if you want to use this "
+"setting."
+msgstr ""
+
+#: $string['help_user_photosync']
+msgid "Sync Office 365 Profile Photos (Cron) Help"
+msgstr ""
+
+#: $string['help_user_photosync_help']
+msgid ""
+"This will cause all users' Moodle profile photos to get synced with their "
+"Office 365 profile photos."
+msgstr ""
+
+#: $string['help_user_photosynconlogin']
+msgid "Sync Office 365 Profile Photos (Login) Help"
+msgstr ""
+
+#: $string['help_user_photosynconlogin_help']
+msgid ""
+"This will cause a user's Moodle profile photo to get synced with their "
+"Office 365 profile photo when that user logs in."
+msgstr ""
+
+#: $string['o365:manageconnectionlink']
+msgid "Manage Connection Link"
+msgstr ""
+
+#: $string['o365:manageconnectionunlink']
+msgid "Manage Connection Unlink"
+msgstr ""
+
+#: $string['o365:managegroups']
+msgid "Manage Groups"
+msgstr ""
+
+#: $string['o365:viewgroups']
+msgid "View Groups"
+msgstr ""
+
+#: $string['personal_calendar']
+msgid "Personal"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Microsoft Office 365 Integration"
+msgstr ""
+
+#: $string['settings_aadsync']
+msgid "Sync users with Azure AD"
+msgstr ""
+
+#: $string['settings_aadsync_appassign']
+msgid "Assign users to application during sync"
+msgstr ""
+
+#: $string['settings_aadsync_create']
+msgid "Create accounts in Moodle for users in Azure AD"
+msgstr ""
+
+#: $string['settings_aadsync_delete']
+msgid ""
+"Delete previously synced accounts in Moodle when they are deleted from Azure "
+"AD"
+msgstr ""
+
+#: $string['settings_aadsync_details']
+msgid ""
+"When enabled, Moodle and Azure AD users are synced according to the above "
+"options.<br /><br /><b>Note: </b>The sync job runs in the Moodle cron, and "
+"syncs 1000 users at a time. By default, this runs once per day at 1:00 AM in "
+"the time zone local to your server. To sync large sets of users more "
+"quickly, you can increase the frequency of the <b>Sync users with Azure "
+"AD</b> task using the <a href=\"{$a}\">Scheduled tasks management page.</a><br "
+"/><br />"
+msgstr ""
+
+#: $string['settings_aadsync_match']
+msgid "Match preexisting Moodle users with same-named accounts in Azure AD"
+msgstr ""
+
+#: $string['settings_aadsync_matchswitchauth']
+msgid "Switch matched users to Office 365 (OpenID Connect) authentication"
+msgstr ""
+
+#: $string['settings_aadsync_photosync']
+msgid "Sync Office 365 profile photos to Moodle in cron job"
+msgstr ""
+
+#: $string['settings_aadsync_photosynconlogin']
+msgid "Sync Office 365 profile photos to Moodle on login"
+msgstr ""
+
+#: $string['settings_aadtenant']
+msgid "Azure AD Tenant"
+msgstr ""
+
+#: $string['settings_aadtenant_details']
+msgid ""
+"Used to Identify your organization within Azure AD. For example: "
+"\"contoso.onmicrosoft.com\"."
+msgstr ""
+
+#: $string['settings_aadtenant_error']
+msgid ""
+"We could not detect your Azure AD tenant.<br />Please ensure \"Windows Azure "
+"Active Directory\" has been added to your registered Azure AD application, "
+"and that the \"Read directory data\" permission is enabled."
+msgstr ""
+
+#: $string['settings_azuresetup']
+msgid "Azure AD setup"
+msgstr ""
+
+#: $string['settings_azuresetup_appdatadesc']
+msgid "Verifies the correct parameters are set up in Azure AD."
+msgstr ""
+
+#: $string['settings_azuresetup_appdataheader']
+msgid "Azure AD Application"
+msgstr ""
+
+#: $string['settings_azuresetup_appdatareplyurlcorrect']
+msgid "Reply URL Correct"
+msgstr ""
+
+#: $string['settings_azuresetup_appdatareplyurlgeneralerror']
+msgid "Could not check reply url."
+msgstr ""
+
+#: $string['settings_azuresetup_appdatareplyurlincorrect']
+msgid "Reply URL Incorrect"
+msgstr ""
+
+#: $string['settings_azuresetup_appdatasignonurlcorrect']
+msgid "Sign-on URL Correct."
+msgstr ""
+
+#: $string['settings_azuresetup_appdatasignonurlgeneralerror']
+msgid "Could not check sign-on url."
+msgstr ""
+
+#: $string['settings_azuresetup_appdatasignonurlincorrect']
+msgid "Sign-on URL Incorrect"
+msgstr ""
+
+#: $string['settings_azuresetup_apppermscorrect']
+msgid "Application Permissions Correct"
+msgstr ""
+
+#: $string['settings_azuresetup_checking']
+msgid "Checking..."
+msgstr ""
+
+#: $string['settings_azuresetup_correctval']
+msgid "Correct Value:"
+msgstr ""
+
+#: $string['settings_azuresetup_details']
+msgid ""
+"This tool checks with Azure AD to make sure everything is set up correctly. "
+"<br /><b>Note:</b> Changes in Azure AD can take a moment to appear here. If "
+"you have made a change in Azure AD and do not see it reflected here, wait a "
+"moment and try again."
+msgstr ""
+
+#: $string['settings_azuresetup_detectedval']
+msgid "Detected Value:"
+msgstr ""
+
+#: $string['settings_azuresetup_errorcheck']
+msgid "An error occurred trying to check Azure AD setup."
+msgstr ""
+
+#: $string['settings_azuresetup_legacydesc']
+msgid "The Office&nbsp;365 API is made up of application-specific APIs."
+msgstr ""
+
+#: $string['settings_azuresetup_legacyerror']
+msgid "There was an error checking Office&nbsp;365 API settings."
+msgstr ""
+
+#: $string['settings_azuresetup_legacyheader']
+msgid "Office&nbsp;365 API"
+msgstr ""
+
+#: $string['settings_azuresetup_missingappperms']
+msgid "Missing Application Permissions:"
+msgstr ""
+
+#: $string['settings_azuresetup_missingperms']
+msgid "Missing Permissions:"
+msgstr ""
+
+#: $string['settings_azuresetup_noinfo']
+msgid ""
+"We don't have any information about your Azure AD setup yet. Please click "
+"the Update button to check."
+msgstr ""
+
+#: $string['settings_azuresetup_permscorrect']
+msgid "Permissions are correct."
+msgstr ""
+
+#: $string['settings_azuresetup_strtenanterror']
+msgid ""
+"Please use the dectect button to set your Azure AD Tenant before updating "
+"Azure AD setup."
+msgstr ""
+
+#: $string['settings_azuresetup_strunifiedpermerror']
+msgid "There was an error checking Microsoft Graph API permissions."
+msgstr ""
+
+#: $string['settings_azuresetup_unifiedactive']
+msgid "Microsoft Graph API active."
+msgstr ""
+
+#: $string['settings_azuresetup_unifieddesc']
+msgid ""
+"The Microsoft Graph API replaces the existing application-specific APIs. If "
+"available, you should add this to your Azure AD application to be ready for "
+"the future. Eventually, this will replace the legacy API."
+msgstr ""
+
+#: $string['settings_azuresetup_unifiederror']
+msgid "There was an error checking for Microsoft Graph API support."
+msgstr ""
+
+#: $string['settings_azuresetup_unifiedheader']
+msgid "Microsoft Graph API (Recommended)"
+msgstr ""
+
+#: $string['settings_azuresetup_unifiedmissing']
+msgid "The Microsoft Graph API was not found in this application."
+msgstr ""
+
+#: $string['settings_azuresetup_update']
+msgctxt "$string['settings_azuresetup_update']"
+msgid "Update"
+msgstr ""
+
+#: $string['settings_clientid']
+msgid "Client ID"
+msgstr ""
+
+#: $string['settings_clientid_desc']
+msgid ""
+"Your Azure AD application client ID. This is shown in the \"Configure\" "
+"section of your Azure AD application."
+msgstr ""
+
+#: $string['settings_clientsecret']
+msgid "Key"
+msgstr ""
+
+#: $string['settings_clientsecret_desc']
+msgid ""
+"Your Azure AD application key. Create a key in the \"Configure\" section of "
+"your Azure AD application and copy the value here."
+msgstr ""
+
+#: $string['settings_debugmode']
+msgid "Record debug messages"
+msgstr ""
+
+#: $string['settings_debugmode_details']
+msgid ""
+"If enabled, information will be logged to the Moodle log that can help in "
+"identifying problems. <a href=\"{$a}\">View recorded log messages.</a>"
+msgstr ""
+
+#: $string['settings_detectoidc']
+msgid "Application Credentials"
+msgstr ""
+
+#: $string['settings_detectoidc_credsinvalid']
+msgid "Credentials have not been set or are incomplete."
+msgstr ""
+
+#: $string['settings_detectoidc_credsinvalid_link']
+msgid "Set Credentials"
+msgstr ""
+
+#: $string['settings_detectoidc_credsvalid']
+msgid "Credentials have been set."
+msgstr ""
+
+#: $string['settings_detectoidc_credsvalid_link']
+msgid "Change"
+msgstr ""
+
+#: $string['settings_detectoidc_details']
+msgid ""
+"To communicate with Office&nbsp;365, Moodle needs credentials to identify "
+"itself. These are set in the \"OpenID Connect\" authentication plugin."
+msgstr ""
+
+#: $string['settings_detectperms']
+msgid "Application Permissions"
+msgstr ""
+
+#: $string['settings_detectperms_details']
+msgid ""
+"The use the plugin features, correct permissions must be set up for the "
+"application in Azure AD."
+msgstr ""
+
+#: $string['settings_detectperms_errorfix']
+msgid ""
+"An error occurred trying to fix permissions. Please set manually in Azure "
+"AD."
+msgstr ""
+
+#: $string['settings_detectperms_fixperms']
+msgid "Fix permissions"
+msgstr ""
+
+#: $string['settings_detectperms_fixprereq']
+msgid ""
+"To fix this automatically, your system API user must be an administrator, "
+"and the \"Access your organization's directory\" permission must be enabled in "
+"Azure AD for the \"Windows Azure Active Directory\" application."
+msgstr ""
+
+#: $string['settings_detectperms_invalid']
+msgid "Check permissions in Azure AD"
+msgstr ""
+
+#: $string['settings_detectperms_missing']
+msgid "Missing:"
+msgstr ""
+
+#: $string['settings_detectperms_nocreds']
+msgid "Application credentials need to be set first. See above setting."
+msgstr ""
+
+#: $string['settings_detectperms_nounified']
+msgid "Microsoft Graph API not present, some new features may not work."
+msgstr ""
+
+#: $string['settings_detectperms_unifiednomissing']
+msgid "All unified permissions present."
+msgstr ""
+
+#: $string['settings_detectperms_update']
+msgctxt "$string['settings_detectperms_update']"
+msgid "Update"
+msgstr ""
+
+#: $string['settings_detectperms_valid']
+msgid "Permissions have been set up."
+msgstr ""
+
+#: $string['settings_disablegraphapi']
+msgid "Disable Microsoft Graph API"
+msgstr ""
+
+#: $string['settings_disablegraphapi_details']
+msgid ""
+"Disable use of the Microsoft Graph API and force API calls to use the legacy "
+"API. This should only be enabled if you are experiencing problems with the "
+"Graph API."
+msgstr ""
+
+#: $string['settings_enableapponlyaccess']
+msgid "Enable application permission access"
+msgstr ""
+
+#: $string['settings_enableapponlyaccess_details']
+msgid ""
+"Enable application permission access as a replacement for the system API "
+"user. <br /><b>Note:</b> This requires new permissions in Azure AD. Please "
+"see the <a "
+"href=\"https://docs.moodle.org/30/en/Office365#Configure_application\">plugin "
+"documentation</a> to ensure you have configured the correct permissions."
+msgstr ""
+
+#: $string['settings_fieldmap']
+msgid "User Field Mapping"
+msgstr ""
+
+#: $string['settings_fieldmap_addmapping']
+msgid "Add Mapping"
+msgstr ""
+
+#: $string['settings_fieldmap_details']
+msgid "Configure mapping between user fields in Office 365 and Moodle."
+msgstr ""
+
+#: $string['settings_fieldmap_field_city']
+msgid "City"
+msgstr ""
+
+#: $string['settings_fieldmap_field_companyName']
+msgid "Company Name"
+msgstr ""
+
+#: $string['settings_fieldmap_field_country']
+msgid "Country"
+msgstr ""
+
+#: $string['settings_fieldmap_field_department']
+msgid "Department"
+msgstr ""
+
+#: $string['settings_fieldmap_field_displayName']
+msgid "Display Name"
+msgstr ""
+
+#: $string['settings_fieldmap_field_facsimileTelephoneNumber']
+msgid "Fax Number"
+msgstr ""
+
+#: $string['settings_fieldmap_field_givenName']
+msgid "Given Name"
+msgstr ""
+
+#: $string['settings_fieldmap_field_jobTitle']
+msgid "Job Title"
+msgstr ""
+
+#: $string['settings_fieldmap_field_mail']
+msgid "Email"
+msgstr ""
+
+#: $string['settings_fieldmap_field_mobile']
+msgid "Mobile"
+msgstr ""
+
+#: $string['settings_fieldmap_field_objectId']
+msgid "Object ID"
+msgstr ""
+
+#: $string['settings_fieldmap_field_postalCode']
+msgid "Postal Code"
+msgstr ""
+
+#: $string['settings_fieldmap_field_preferredLanguage']
+msgid "Language"
+msgstr ""
+
+#: $string['settings_fieldmap_field_state']
+msgid "State"
+msgstr ""
+
+#: $string['settings_fieldmap_field_streetAddress']
+msgid "Street Address"
+msgstr ""
+
+#: $string['settings_fieldmap_field_surname']
+msgid "Surname"
+msgstr ""
+
+#: $string['settings_fieldmap_field_telephoneNumber']
+msgid "Telephone Number"
+msgstr ""
+
+#: $string['settings_fieldmap_header_behavior']
+msgid "Updates"
+msgstr ""
+
+#: $string['settings_fieldmap_header_local']
+msgid "Moodle Field"
+msgstr ""
+
+#: $string['settings_fieldmap_header_remote']
+msgid "Active Directory Field"
+msgstr ""
+
+#: $string['settings_fieldmap_update_always']
+msgid "On login & creation"
+msgstr ""
+
+#: $string['settings_header_connections']
+msgctxt "$string['settings_header_connections']"
+msgid "Connections"
+msgstr ""
+
+#: $string['settings_header_options']
+msgctxt "$string['settings_header_options']"
+msgid "Options"
+msgstr ""
+
+#: $string['settings_header_sds']
+msgid "School Data Sync (preview)"
+msgstr ""
+
+#: $string['settings_header_setup']
+msgid "Setup"
+msgstr ""
+
+#: $string['settings_header_setup_desc']
+msgid ""
+"Follow these steps in order from top to bottom to get the plugin set up."
+msgstr ""
+
+#: $string['settings_header_tools']
+msgid "Tools"
+msgstr ""
+
+#: $string['settings_healthcheck']
+msgctxt "$string['settings_healthcheck']"
+msgid "Health Check"
+msgstr ""
+
+#: $string['settings_healthcheck_details']
+msgid ""
+"If something isn't working correctly, performing a health check can usually "
+"identify the problem and propose solutions"
+msgstr ""
+
+#: $string['settings_healthcheck_linktext']
+msgid "Perform health check"
+msgstr ""
+
+#: $string['settings_maintenance']
+msgid "Maintenance"
+msgstr ""
+
+#: $string['settings_maintenance_details']
+msgid "Various maintenance tasks are available to resolve some common issues."
+msgstr ""
+
+#: $string['settings_maintenance_linktext']
+msgid "View maintenance tools"
+msgstr ""
+
+#: $string['settings_o365china']
+msgid "Office&nbsp;365 for China"
+msgstr ""
+
+#: $string['settings_o365china_details']
+msgid "Check this if you are using Office&nbsp;365 for China."
+msgstr ""
+
+#: $string['settings_odburl']
+msgid "OneDrive for Business URL"
+msgstr ""
+
+#: $string['settings_odburl_details']
+msgid ""
+"The URL used to access OneDrive for Business. This can usually be determined "
+"by your Azure AD tenant. For example, if your Azure AD tenant is "
+"\"contoso.onmicrosoft.com\", this is most likely \"contoso-my.sharepoint.com\". "
+"Enter only the domain name, do not include http:// or https://"
+msgstr ""
+
+#: $string['settings_odburl_error']
+msgid ""
+"We could not determine your OneDrive for Business URL.<br />Please make sure "
+"\"Office 365 SharePoint Online\" has been added to your registered "
+"application in Azure AD."
+msgstr ""
+
+#: $string['settings_onenote']
+msgid "Disable Office 365 OneNote"
+msgstr ""
+
+#: $string['settings_onenote_details']
+msgid ""
+"Disabling Office 365 OneNote will allow users to use OneNote features with a "
+"Microsoft account instead of their current Office 365 account. This setting "
+"is present to match plugin functionality from the first few plugin "
+"releases. Most users will want to leave Office 365 OneNote enabled.<br "
+"/><b>Note:</b> Using a Microsoft account with OneNote requires the following "
+"plugins: local_onenote, local_msaccount, assignfeedback_onenote, and "
+"assignsubmission_onenote."
+msgstr ""
+
+#: $string['settings_options_advanced']
+msgid "Advanced Settings"
+msgstr ""
+
+#: $string['settings_options_advanced_desc']
+msgid ""
+"These settings control other features of the plugin suite. Be careful! These "
+"may cause unintended effects."
+msgstr ""
+
+#: $string['settings_options_features']
+msgid "Integration Features"
+msgstr ""
+
+#: $string['settings_options_features_desc']
+msgid ""
+"These settings control the various features provided by the Office 365 "
+"plugin suite."
+msgstr ""
+
+#: $string['settings_options_usersync']
+msgid "User Sync"
+msgstr ""
+
+#: $string['settings_options_usersync_desc']
+msgid ""
+"The following settings control user synchronization between Office 365 and "
+"Moodle."
+msgstr ""
+
+#: $string['settings_photoexpire']
+msgid "Profile photo refresh time"
+msgstr ""
+
+#: $string['settings_photoexpire_details']
+msgid ""
+"The number of hours to wait before refreshing profile photos. Longer times "
+"can increase performance."
+msgstr ""
+
+#: $string['settings_sds_coursecreation']
+msgid "Course Creation"
+msgstr ""
+
+#: $string['settings_sds_coursecreation_desc']
+msgid ""
+"These options control course creation in Moodle based on information in SDS."
+msgstr ""
+
+#: $string['settings_sds_coursecreation_enabled']
+msgid "Create Courses"
+msgstr ""
+
+#: $string['settings_sds_coursecreation_enabled_desc']
+msgid "Create courses for these schools."
+msgstr ""
+
+#: $string['settings_sds_enrolment_enabled']
+msgid "Enrol users"
+msgstr ""
+
+#: $string['settings_sds_enrolment_enabled_desc']
+msgid "Enrol students and teachers into courses created from SDS."
+msgstr ""
+
+#: $string['settings_sds_fieldmap']
+msgid "Field Mapping"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_details']
+msgid "This controls how fields are mapped between SDS and Moodle."
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_givenName']
+msgid "First name"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_mailNickname']
+msgid "Unique student alias"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_AnchorId']
+msgid "Internal unique student identifier."
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_DateOfBirth']
+msgid "Date of birth"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_Email']
+msgid "Personal email address"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_EnglishLanguageLearnersStatus']
+msgid "English language learner status"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_FederalRace']
+msgid "Federal race"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_Gender']
+msgid "Gender"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_Grade']
+msgid "Grade level"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_GraduationYear']
+msgid "Graduation year"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_MailingAddress']
+msgid "Mailing address"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_MailingCity']
+msgid "Mailing address city"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_MailingCountry']
+msgid "Mailing address country"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_MailingLatitude']
+msgid "Mailing address latitude"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_MailingLongitude']
+msgid "Mailing address longitude"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_MailingState']
+msgid "Mailing address state"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_MailingZip']
+msgid "Mailing address zip"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_MiddleName']
+msgid "Middle name"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_ObjectType']
+msgid "The object type (\"Student\")"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_ResidenceAddress']
+msgid "Residence address"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_ResidenceCity']
+msgid "Residence city"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_ResidenceCountry']
+msgid "Residence country"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_ResidenceLatitude']
+msgid "Residence address latitude"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_ResidenceLongitude']
+msgid "Residence address longitude"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_ResidenceState']
+msgid "Residence state"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_ResidenceZip']
+msgid "Residence zip"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_StateId']
+msgid "State assigned number"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_StudentNumber']
+msgid "Disctrict/School assigned number"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_StudentStatus']
+msgid "Student status"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_SyncSource_SchoolId']
+msgid "School ID"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_pre_SyncSource_StudentId']
+msgid "SIS assigned student ID"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_surname']
+msgid "Last name"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_f_userPrincipalName']
+msgid "Official email address"
+msgstr ""
+
+#: $string['settings_sds_fieldmap_remotecolumn']
+msgid "SDS Field"
+msgstr ""
+
+#: $string['settings_sds_intro']
+msgctxt "$string['settings_sds_intro']"
+msgid ""
+msgstr ""
+
+#: $string['settings_sds_intro_desc']
+msgid ""
+"The school data sync (\"SDS\") tool allows you to sync information imported "
+"into Azure AD from external SIS systems into Moodle. <a "
+"href=\"https://sis.microsoft.com/\" target=\"_blank\">Learn More</a><br /><br "
+"/>The school data sync process happens in the Moodle cron, at 3am local "
+"server time. To change this schedule, please visit the <a "
+"href=\"{$a}\">Scheduled tasks management page.</a><br /><br />"
+msgstr ""
+
+#: $string['settings_sds_intro_previewwarning']
+msgid ""
+"<div class=\"alert\"><b>This is a preview feature</b><br />Preview features "
+"may not work as intended or may break without warning. Please proceed with "
+"caution.</div>"
+msgstr ""
+
+#: $string['settings_sds_noschools']
+msgid ""
+"<div class=\"alert alert-info\">You do not have any schools available in "
+"School data sync.</div>"
+msgstr ""
+
+#: $string['settings_sds_profilesync']
+msgid "Profile Data Sync"
+msgstr ""
+
+#: $string['settings_sds_profilesync_desc']
+msgid "These options control profile data syncing between SDS data and Moodle."
+msgstr ""
+
+#: $string['settings_sds_profilesync_enabled']
+msgctxt "$string['settings_sds_profilesync_enabled']"
+msgid "Enable"
+msgstr ""
+
+#: $string['settings_sds_profilesync_enabled_desc']
+msgid "Enable profile data syncing when we sync with SDS"
+msgstr ""
+
+#: $string['settings_serviceresourceabstract_detect']
+msgid "Detect"
+msgstr ""
+
+#: $string['settings_serviceresourceabstract_detecting']
+msgid "Detecting..."
+msgstr ""
+
+#: $string['settings_serviceresourceabstract_empty']
+msgid ""
+"Please enter a value or click \"Detect\" to attempt to detect correct value."
+msgstr ""
+
+#: $string['settings_serviceresourceabstract_error']
+msgid "An error occurred detecting setting. Please set manually."
+msgstr ""
+
+#: $string['settings_serviceresourceabstract_invalid']
+msgid "This value doesn't seem to be usable."
+msgstr ""
+
+#: $string['settings_serviceresourceabstract_nocreds']
+msgid "Please set application credentials first."
+msgstr ""
+
+#: $string['settings_serviceresourceabstract_noperms']
+msgid ""
+"We experienced a problem detecting this setting.<br />Please ensure \"Windows "
+"Azure Active Directory\" has been added to your registered Azure AD "
+"application, and that the \"Read directory data\" permission is enabled."
+msgstr ""
+
+#: $string['settings_serviceresourceabstract_valid']
+msgid "{$a} is usable."
+msgstr ""
+
+#: $string['settings_setup_step1']
+msgid "Step 1: Register Moodle with Azure AD"
+msgstr ""
+
+#: $string['settings_setup_step1_appiduri']
+msgid "App ID URI"
+msgstr ""
+
+#: $string['settings_setup_step1_appiduri_desc']
+msgctxt "$string['settings_setup_step1_appiduri_desc']"
+msgid ""
+msgstr ""
+
+#: $string['settings_setup_step1clientcreds']
+msgid ""
+"<br />Once registered, create a key for the application in Azure. One you "
+"have the key, copy the client ID and key from Azure into the fields below."
+msgstr ""
+
+#: $string['settings_setup_step1_desc']
+msgid ""
+"Head over to Azure (<a "
+"href=\"https://manage.windowsazure.com\">https://manage.windowsazure.com</a>), "
+"go to \"Azure AD\", and register an application in your Azure AD tenant for "
+"Moodle using the following information. Please ensure this information is "
+"entered in Azure exactly as it appears here as small differences may break "
+"functionality."
+msgstr ""
+
+#: $string['settings_setup_step1_end']
+msgid ""
+"Note: These settings are saved in the OpenID Connect authentication plugin. "
+"To configure advanced login settings, go to the <a "
+"href=\"{$a->oidcsettings}\">OpenID Connect settings page</a><br /><br /><br "
+"/><b>Scroll to the bottom of this page and click \"Save changes\" before "
+"continuing.</b><br /><br /><br />"
+msgstr ""
+
+#: $string['settings_setup_step1_replyurl']
+msgid "Reply URL"
+msgstr ""
+
+#: $string['settings_setup_step1_replyurl_desc']
+msgctxt "$string['settings_setup_step1_replyurl_desc']"
+msgid ""
+msgstr ""
+
+#: $string['settings_setup_step1_signonurl']
+msgid "Sign-On URL"
+msgstr ""
+
+#: $string['settings_setup_step1_signonurl_desc']
+msgctxt "$string['settings_setup_step1_signonurl_desc']"
+msgid ""
+msgstr ""
+
+#: $string['settings_setup_step2']
+msgid "Step 2: Set a system API user"
+msgstr ""
+
+#: $string['settings_setup_step2_desc']
+msgid ""
+"The system API user is a user account we use to perform administrative and "
+"background tasks with Office 365. For system operations such as user sync, "
+"Moodle will communicate with Office 365 as this user."
+msgstr ""
+
+#: $string['settings_setup_step3']
+msgid "Step 3: Detect additional information and verify your setup"
+msgstr ""
+
+#: $string['settings_setup_step3_desc']
+msgid ""
+"This last step gathers some information about your Office 365 environment, "
+"and checks your configured Azure AD application. Click the two \"Detect\" "
+"buttons below, then the \"Update\" button for the Azure setup setting."
+msgstr ""
+
+#: $string['settings_sharepointlink']
+msgid "SharePoint Link"
+msgstr ""
+
+#: $string['settings_sharepointlink_changelink']
+msgid "Change Site"
+msgstr ""
+
+#: $string['settings_sharepointlink_connected']
+msgid "Moodle is connected to this SharePoint site."
+msgstr ""
+
+#: $string['settings_sharepointlink_details']
+msgid ""
+"To connect Moodle and SharePoint, enter the full URL of a SharePoint site "
+"for Moodle to connect to. If the site doesn't exist, Moodle will attempt to "
+"create it."
+msgstr ""
+
+#: $string['settings_sharepointlink_enterurl']
+msgid "Enter a URL above."
+msgstr ""
+
+#: $string['settings_sharepointlink_error']
+msgid ""
+"There was a problem setting up SharePoint. <br /><br /><ul><li>If you have "
+"debug logging enabled (\"Record debug messages\" setting above), more "
+"information may be available in the Moodle log report. (Site Administration "
+"> Reports > Logs).</li><li>To retry setup, click \"Change Site\", choose a new "
+"SharePoint site, click \"Save Changes\" at the bottom of this page, and run "
+"the Moodle cron.</ul>"
+msgstr ""
+
+#: $string['settings_sharepointlink_initializing']
+msgid ""
+"Moodle is setting up this SharePoint site. This will occur during the next "
+"run of the Moodle cron."
+msgstr ""
+
+#: $string['settings_sharepointlink_status_checking']
+msgid "Checking entered SharePoint site..."
+msgstr ""
+
+#: $string['settings_sharepointlink_status_invalid']
+msgid "This is not a usable SharePoint site."
+msgstr ""
+
+#: $string['settings_sharepointlink_status_notempty']
+msgid ""
+"This site is usable, but already exists. Moodle may conflict with existing "
+"content. For best results, enter a SharePoint site that doesn't exist and "
+"Moodle will create it."
+msgstr ""
+
+#: $string['settings_sharepointlink_status_valid']
+msgid ""
+"This SharePoint site will be created by Moodle and used for Moodle content."
+msgstr ""
+
+#: $string['settings_switchauthminupnsplit0']
+msgid "Minimum inexact username length to switch to Office 365"
+msgstr ""
+
+#: $string['settings_switchauthminupnsplit0_details']
+msgid ""
+"If you enable the \"Switch matched users to Office 365 authentication\" "
+"setting, this sets the minimum length for usernames without a tenant (the "
+"@example.onmicrosoft.com part) which will be switched. This helps to avoid "
+"switching accounts with generic names, like \"admin\", which aren't "
+"necessarily same in Moodle and Azure AD."
+msgstr ""
+
+#: $string['settings_systemapiuser']
+msgctxt "$string['settings_systemapiuser']"
+msgid "System API User"
+msgstr ""
+
+#: $string['settings_systemapiuser_change']
+msgid "Change user"
+msgstr ""
+
+#: $string['settings_systemapiuser_details']
+msgid ""
+"This can be any Azure AD user, but the account must have administrative "
+"privileges within Azure AD and Office 365.This account is used to perform "
+"operations that are not user-specific, for example, running user sync and "
+"managing groups."
+msgstr ""
+
+#: $string['settings_systemapiuser_setuser']
+msgid "Set User"
+msgstr ""
+
+#: $string['settings_systemapiuser_usernotset']
+msgid "No user set."
+msgstr ""
+
+#: $string['settings_systemapiuser_userset']
+msgid "{$a}"
+msgstr ""
+
+#: $string['settings_tools_tenants']
+msgid "Tenants"
+msgstr ""
+
+#: $string['settings_tools_tenants_details']
+msgid "Manage access to additional Office 365 tenants."
+msgstr ""
+
+#: $string['settings_tools_tenants_linktext']
+msgid "Configure additional tenants"
+msgstr ""
+
+#: $string['settings_userconnections']
+msgctxt "$string['settings_userconnections']"
+msgid "Connections"
+msgstr ""
+
+#: $string['settings_userconnections_details']
+msgid "Review and manage connections between Moodle and Office 365 users."
+msgstr ""
+
+#: $string['settings_userconnections_linktext']
+msgid "Manage User Connections"
+msgstr ""
+
+#: $string['settings_usergroups']
+msgid "Course Groups"
+msgstr ""
+
+#: $string['settings_usergroups_details']
+msgid ""
+"If enabled, this will create and maintain an Office 365 Group for every "
+"course on the site (Default: Disabled). This will create any needed Groups "
+"each cron run (and add all current members). After that, group membership "
+"will be maintained as users are enrolled or unenrolled from Moodle "
+"courses.<br /><b>Note: </b>This feature requires the Microsoft Graph API to "
+"be enabled."
+msgstr ""
+
+#: $string['settings_usermatch']
+msgctxt "$string['settings_usermatch']"
+msgid "User Matching"
+msgstr ""
+
+#: $string['settings_usermatch_details']
+msgid ""
+"This tool allows you to match Moodle users with Office 365 users based on an "
+"custom uploaded data file."
+msgstr ""
+
+#: $string['settings_usersynccreationrestriction']
+msgid "User Creation Restriction"
+msgstr ""
+
+#: $string['settings_usersynccreationrestriction_details']
+msgid ""
+"If enabled, only users that have the specified value for the specified Azure "
+"AD field will be created during user sync."
+msgstr ""
+
+#: $string['settings_usersynccreationrestriction_o365group']
+msgid "Office 365 Group Membership"
+msgstr ""
+
+#: $string['spsite_group_contributors_desc']
+msgid "All users who have access to manage files for course {$a}"
+msgstr ""
+
+#: $string['spsite_group_contributors_name']
+msgid "{$a} contributors"
+msgstr ""
+
+#: $string['task_calendarsyncin']
+msgid "Sync o365 events in to Moodle"
+msgstr ""
+
+#: $string['task_groupcreate']
+msgid "Create user groups in Office 365"
+msgstr ""
+
+#: $string['task_processmatchqueue']
+msgid "Process Match Queue"
+msgstr ""
+
+#: $string['task_processmatchqueue_err_museralreadymatched']
+msgid "Moodle user is already matched to an Office 365 user."
+msgstr ""
+
+#: $string['task_processmatchqueue_err_museralreadyo365']
+msgid "Moodle user is already connected to Office 365."
+msgstr ""
+
+#: $string['task_processmatchqueue_err_nomuser']
+msgid "No Moodle user found with this username."
+msgstr ""
+
+#: $string['task_processmatchqueue_err_noo365user']
+msgid "No Office 365 user found with this username."
+msgstr ""
+
+#: $string['task_processmatchqueue_err_o365useralreadyconnected']
+msgid "Office 365 user is already connected to a Moodle user."
+msgstr ""
+
+#: $string['task_processmatchqueue_err_o365useralreadymatched']
+msgid "Office 365 user is already matched to a Moodle user."
+msgstr ""
+
+#: $string['task_refreshsystemrefreshtoken']
+msgid "Refresh system API user refresh token"
+msgstr ""
+
+#: $string['task_sds_sync']
+msgid "Sync with SDS"
+msgstr ""
+
+#: $string['task_sharepointinit']
+msgid "Initialize SharePoint."
+msgstr ""
+
+#: $string['task_syncusers']
+msgid "Sync users with Azure AD."
+msgstr ""
+
+#: $string['ucp_calsync_availcal']
+msgid "Available Moodle Calendars"
+msgstr ""
+
+#: $string['ucp_calsync_desc']
+msgid "Checked calendars will be synced from Moodle to your Outlook calendar."
+msgstr ""
+
+#: $string['ucp_calsync_title']
+msgctxt "$string['ucp_calsync_title']"
+msgid "Outlook Calendar sync settings"
+msgstr ""
+
+#: $string['ucp_connection_aadlogin']
+msgid "Use your Office&nbsp;365 credentials to log in to Moodle<br />"
+msgstr ""
+
+#: $string['ucp_connection_aadlogin_active']
+msgid "You are using the Office 365 account \"{$a}\" to log in to Moodle."
+msgstr ""
+
+#: $string['ucp_connection_aadlogin_desc_authcode']
+msgid ""
+"Instead of entering a username and password on the Moodle login page, you "
+"will see a section that says \"Login using your account on {$a}\" on the login "
+"page. You will click the link and be redirected to Office 365 to log in. "
+"After you have logged in to Office 365 successfully, you will be returned to "
+"Moodle and logged in to your account."
+msgstr ""
+
+#: $string['ucp_connection_aadlogin_desc_rocreds']
+msgid ""
+"Instead of your Moodle username and password, you will enter your Office 365 "
+"username and password on the Moodle login page."
+msgstr ""
+
+#: $string['ucp_connection_aadlogin_start']
+msgid "Start using Office 365 to log in to Moodle."
+msgstr ""
+
+#: $string['ucp_connection_aadlogin_stop']
+msgid "Stop using Office 365 to log in to Moodle."
+msgstr ""
+
+#: $string['ucp_connection_desc']
+msgid ""
+"Here you can configure how you connect to Office&nbsp;365. To use Office 365 "
+"features, you must be connected to an Office 365 account. This can be "
+"accomplished as outlined below."
+msgstr ""
+
+#: $string['ucp_connection_disconnected']
+msgid "You are not connected to Office 365."
+msgstr ""
+
+#: $string['ucp_connection_linked']
+msgid "Link your Moodle and Office 365 accounts"
+msgstr ""
+
+#: $string['ucp_connection_linked_active']
+msgid "You are linked to Office 365 account \"{$a}\"."
+msgstr ""
+
+#: $string['ucp_connection_linked_desc']
+msgid ""
+"Linking your Moodle and Office 365 accounts allows you to use Office 365 "
+"Moodle features without changing how you log in to Moodle. <br />Clicking "
+"the link below will send you to Office 365 to perform a one-time login, "
+"after which you will be returned here. You will be able to use all the "
+"Office 365 features without making any other changes to your Moodle account "
+"- you will log in to Moodle as you always have."
+msgstr ""
+
+#: $string['ucp_connection_linked_migrate']
+msgid "Switch to linked account."
+msgstr ""
+
+#: $string['ucp_connection_linked_start']
+msgid "Link your Moodle account to an Office 365 account."
+msgstr ""
+
+#: $string['ucp_connection_linked_stop']
+msgid "Unlink your Moodle account from the Office 365 account."
+msgstr ""
+
+#: $string['ucp_connection_options']
+msgid "Connection Options:"
+msgstr ""
+
+#: $string['ucp_connection_start']
+msgid "Connect to Office&nbsp;365"
+msgstr ""
+
+#: $string['ucp_connectionstatus']
+msgctxt "$string['ucp_connectionstatus']"
+msgid "Connection Status"
+msgstr ""
+
+#: $string['ucp_connection_status']
+msgid "Office&nbsp;365 connection is:"
+msgstr ""
+
+#: $string['ucp_connection_stop']
+msgid "Disconnect from Office&nbsp;365"
+msgstr ""
+
+#: $string['ucp_features']
+msgid "Office&nbsp;365 Features"
+msgstr ""
+
+#: $string['ucp_features_intro']
+msgid ""
+"Below is a list of the features you can use to enhance Moodle with "
+"Office&nbsp;365."
+msgstr ""
+
+#: $string['ucp_features_intro_notconnected']
+msgid ""
+"Some of these may not be available until you are connected to "
+"Office&nbsp;365."
+msgstr ""
+
+#: $string['ucp_general_intro']
+msgid "Here you can manage your connection to Office&nbsp;365."
+msgstr ""
+
+#: $string['ucp_general_intro_notconnected_nopermissions']
+msgid ""
+"To connect to Office&nbsp;365 you will need to contact your site "
+"administrator."
+msgstr ""
+
+#: $string['ucp_index_aadlogin_active']
+msgid "You are currently using Office 365 to log in to Moodle"
+msgstr ""
+
+#: $string['ucp_index_aadlogin_desc']
+msgid "You can use your Office&nbsp;365 credentials to log in to Moodle."
+msgstr ""
+
+#: $string['ucp_index_aadlogin_inactive']
+msgid "You are not currently using Office 365 to log in to Moodle"
+msgstr ""
+
+#: $string['ucp_index_aadlogin_title']
+msgid "Office&nbsp;365 Login"
+msgstr ""
+
+#: $string['ucp_index_calendar_desc']
+msgid ""
+"Here you can set up syncing between your Moodle and Outlook calendars. You "
+"can export Moodle calendar events to Outlook, and bring Outlook events into "
+"Moodle."
+msgstr ""
+
+#: $string['ucp_index_calendar_title']
+msgctxt "$string['ucp_index_calendar_title']"
+msgid "Outlook Calendar sync settings"
+msgstr ""
+
+#: $string['ucp_index_connection_desc']
+msgid "Configure how you connect to Office&nbsp;365."
+msgstr ""
+
+#: $string['ucp_index_connectionstatus_connect']
+msgid "Click here to connect."
+msgstr ""
+
+#: $string['ucp_index_connectionstatus_connected']
+msgid "You are currently connected to Office&nbsp;365"
+msgstr ""
+
+#: $string['ucp_index_connectionstatus_disconnect']
+msgctxt "$string['ucp_index_connectionstatus_disconnect']"
+msgid "Disconnect"
+msgstr ""
+
+#: $string['ucp_index_connectionstatus_login']
+msgid "Click here to log in."
+msgstr ""
+
+#: $string['ucp_index_connectionstatus_manage']
+msgid "Manage Connection"
+msgstr ""
+
+#: $string['ucp_index_connectionstatus_matched']
+msgid ""
+"You have been matched with Office&nbsp;365 user <small>\"{$a}\"</small>. To "
+"complete this connection, please click the link below and log in to "
+"Office&nbsp;365."
+msgstr ""
+
+#: $string['ucp_index_connectionstatus_notconnected']
+msgid "You are not currently connected to Office&nbsp;365"
+msgstr ""
+
+#: $string['ucp_index_connectionstatus_reconnect']
+msgid "Refresh Connection"
+msgstr ""
+
+#: $string['ucp_index_connectionstatus_title']
+msgctxt "$string['ucp_index_connectionstatus_title']"
+msgid "Connection Status"
+msgstr ""
+
+#: $string['ucp_index_connectionstatus_usinglinked']
+msgid "You are linked to an Office 365 account."
+msgstr ""
+
+#: $string['ucp_index_connectionstatus_usinglogin']
+msgid "You are currently using Office 365 to log in to Moodle."
+msgstr ""
+
+#: $string['ucp_index_connection_title']
+msgid "Office&nbsp;365 connection settings"
+msgstr ""
+
+#: $string['ucp_index_onenote_desc']
+msgid ""
+"OneNote integration allows you to use Office&nbsp;365 OneNote with Moodle. "
+"You can complete assignments using OneNote and easily take notes for your "
+"courses."
+msgstr ""
+
+#: $string['ucp_index_onenote_title']
+msgid "OneNote"
+msgstr ""
+
+#: $string['ucp_notconnected']
+msgid "Please connect to Office&nbsp;365 before visiting here."
+msgstr ""
+
+#: $string['ucp_o365accountconnected']
+msgid ""
+"This Office 365 account is already connected with another Moodle account."
+msgstr ""
+
+#: $string['ucp_options']
+msgctxt "$string['ucp_options']"
+msgid "Options"
+msgstr ""
+
+#: $string['ucp_status_disabled']
+msgid "Not Connected"
+msgstr ""
+
+#: $string['ucp_status_enabled']
+msgid "Active"
+msgstr ""
+
+#: $string['ucp_syncdir_both']
+msgid "Update both Outlook and Moodle"
+msgstr ""
+
+#: $string['ucp_syncdir_in']
+msgid "From Outlook To Moodle"
+msgstr ""
+
+#: $string['ucp_syncdir_out']
+msgid "From Moodle to Outlook"
+msgstr ""
+
+#: $string['ucp_syncdir_title']
+msgid "Sync Behavior:"
+msgstr ""
+
+#: $string['ucp_syncwith_title']
+msgid "Name of Outlook calendar to sync with:"
+msgstr ""
+
+#: $string['ucp_title']
+msgid "Office&nbsp;365 / Moodle Control Panel"
+msgstr ""
+
+#: $string['webservices_error_assignnotfound']
+msgid "The received module's assignment record could not be found."
+msgstr ""
+
+#: $string['webservices_error_couldnotsavegrade']
+msgid "Could not save grade."
+msgstr ""
+
+#: $string['webservices_error_invalidassignment']
+msgid ""
+"The received assignment ID cannot be used with this webservices function."
+msgstr ""
+
+#: $string['webservices_error_modulenotfound']
+msgid "The received module ID could not be found."
+msgstr ""
+
+#: $string['webservices_error_sectionnotfound']
+msgid "The course section could not be found."
+msgstr ""

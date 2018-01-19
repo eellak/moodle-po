@@ -1,0 +1,216 @@
+#. extracted from lang/en/tool_lpmigrate.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'tool_lpmigrate', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   tool_lpmigrate
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['allowedcourses']
+msgid "Courses allowed"
+msgstr ""
+
+#: $string['allowedcourses_help']
+msgid ""
+"Select courses to be migrated to the new framework. If no course is "
+"specified, then all courses will be migrated."
+msgstr ""
+
+#: $string['continuetoframeworks']
+msgid "Continue to frameworks"
+msgstr ""
+
+#: $string['coursecompetencymigrations']
+msgid "Course competency migrations"
+msgstr ""
+
+#: $string['coursemodulecompetencymigrations']
+msgid "Course activity and resource competency migrations"
+msgstr ""
+
+#: $string['coursemodulesfound']
+msgid "Course activities or resources found"
+msgstr ""
+
+#: $string['coursesfound']
+msgid "Courses found"
+msgstr ""
+
+#: $string['coursestartdate']
+msgid "Courses start date"
+msgstr ""
+
+#: $string['coursestartdate_help']
+msgid ""
+"If enabled, courses with a start date prior to the date specified will not "
+"be migrated."
+msgstr ""
+
+#: $string['disallowedcourses']
+msgid "Disallowed courses"
+msgstr ""
+
+#: $string['disallowedcourses_help']
+msgid "Select any courses which should NOT be migrated to the new framework."
+msgstr ""
+
+#: $string['errorcannotmigratetosameframework']
+msgid "Cannot migrate from and to the same framework."
+msgstr ""
+
+#: $string['errorcouldnotmapcompetenciesinframework']
+msgid "Could not map to any competency in this framework."
+msgstr ""
+
+#: $string['errors']
+msgid "Errors"
+msgstr ""
+
+#: $string['errorwhilemigratingcoursecompetencywithexception']
+msgid "Error while migrating the course competency: {$a}"
+msgstr ""
+
+#: $string['errorwhilemigratingmodulecompetencywithexception']
+msgid "Error while migrating the activity or resource competency: {$a}"
+msgstr ""
+
+#: $string['excludethese']
+msgid "Exclude these"
+msgstr ""
+
+#: $string['explanation']
+msgid ""
+"This tool can be used to update a competency framework to a newer version. "
+"It searches for competencies in courses and activities using the older "
+"framework, and updates the links to point to the new framework.\n"
+"\n"
+"It is not recommended to edit the old set of competencies directly, as this "
+"would change all of the competencies that have already been awarded in "
+"users' learning plans.\n"
+"\n"
+"Typically you would import the new version of a framework, hide the old "
+"framework, then use this tool to migrate new courses to the new framework."
+msgstr ""
+
+#: $string['findingcoursecompetencies']
+msgid "Finding course competencies"
+msgstr ""
+
+#: $string['findingmodulecompetencies']
+msgid "Finding activity and resource competencies"
+msgstr ""
+
+#: $string['frameworks']
+msgid "Frameworks"
+msgstr ""
+
+#: $string['limittothese']
+msgid "Limit to these"
+msgstr ""
+
+#: $string['lpmigrate:frameworksmigrate']
+msgctxt "$string['lpmigrate:frameworksmigrate']"
+msgid "Migrate frameworks"
+msgstr ""
+
+#: $string['migrateframeworks']
+msgctxt "$string['migrateframeworks']"
+msgid "Migrate frameworks"
+msgstr ""
+
+#: $string['migratefrom']
+msgid "Migrate from"
+msgstr ""
+
+#: $string['migratefrom_help']
+msgid "Select the older framework currently in use."
+msgstr ""
+
+#: $string['migratemore']
+msgid "Migrate more"
+msgstr ""
+
+#: $string['migrateto']
+msgid "Migrate to"
+msgstr ""
+
+#: $string['migrateto_help']
+msgid ""
+"Select the newer version of the framework. It is only possible to select a "
+"framework which is not hidden."
+msgstr ""
+
+#: $string['migratingcourses']
+msgid "Migrating courses"
+msgstr ""
+
+#: $string['missingmappings']
+msgid "Missing mappings"
+msgstr ""
+
+#: $string['performmigration']
+msgid "Perform migration"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Competencies migration tool"
+msgstr ""
+
+#: $string['results']
+msgid "Results"
+msgstr ""
+
+#: $string['startdatefrom']
+msgid "Start date from"
+msgstr ""
+
+#: $string['unmappedin']
+msgid "Unmapped in {$a}"
+msgstr ""
+
+#: $string['warningcouldnotremovecoursecompetency']
+msgid "The course competency could not be removed."
+msgstr ""
+
+#: $string['warningcouldnotremovemodulecompetency']
+msgid "The activity or resource competency could not be removed."
+msgstr ""
+
+#: $string['warningdestinationcoursecompetencyalreadyexists']
+msgid "The destination course competency already exists."
+msgstr ""
+
+#: $string['warningdestinationmodulecompetencyalreadyexists']
+msgid "The destination activity or resource competency already exists."
+msgstr ""
+
+#: $string['warnings']
+msgid "Warnings"
+msgstr ""

@@ -1,0 +1,374 @@
+#. extracted from lang/en/enrol_self.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'enrol_self', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   enrol_self
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['canntenrol']
+msgid "Enrolment is disabled or inactive"
+msgstr ""
+
+#: $string['canntenrolearly']
+msgid "You cannot enrol yet; enrolment starts on {$a}."
+msgstr ""
+
+#: $string['canntenrollate']
+msgid "You cannot enrol any more, since enrolment ended on {$a}."
+msgstr ""
+
+#: $string['cohortnonmemberinfo']
+msgid "Only members of cohort '{$a}' can self-enrol."
+msgstr ""
+
+#: $string['cohortonly']
+msgid "Only cohort members"
+msgstr ""
+
+#: $string['cohortonly_help']
+msgid ""
+"Self enrolment may be restricted to members of a specified cohort only. Note "
+"that changing this setting has no effect on existing enrolments."
+msgstr ""
+
+#: $string['customwelcomemessage']
+msgid "Custom welcome message"
+msgstr ""
+
+#: $string['customwelcomemessage_help']
+msgid ""
+"A custom welcome message may be added as plain text or Moodle-auto format, "
+"including HTML tags and multi-lang tags.\n"
+"\n"
+"The following placeholders may be included in the message:\n"
+"\n"
+"* Course name {$a->coursename}\n"
+"* Link to user's profile page {$a->profileurl}\n"
+"* User email {$a->email}\n"
+"* User fullname {$a->fullname}"
+msgstr ""
+
+#: $string['defaultrole']
+msgid "Default role assignment"
+msgstr ""
+
+#: $string['defaultrole_desc']
+msgid "Select role which should be assigned to users during self enrolment"
+msgstr ""
+
+#: $string['enrolenddate']
+msgid "End date"
+msgstr ""
+
+#: $string['enrolenddate_help']
+msgid "If enabled, users can enrol themselves until this date only."
+msgstr ""
+
+#: $string['enrolenddaterror']
+msgid "Enrolment end date cannot be earlier than start date"
+msgstr ""
+
+#: $string['enrolme']
+msgid "Enrol me"
+msgstr ""
+
+#: $string['enrolperiod']
+msgid "Enrolment duration"
+msgstr ""
+
+#: $string['enrolperiod_desc']
+msgid ""
+"Default length of time that the enrolment is valid. If set to zero, the "
+"enrolment duration will be unlimited by default."
+msgstr ""
+
+#: $string['enrolperiod_help']
+msgid ""
+"Length of time that the enrolment is valid, starting with the moment the "
+"user enrols themselves. If disabled, the enrolment duration will be "
+"unlimited."
+msgstr ""
+
+#: $string['enrolstartdate']
+msgid "Start date"
+msgstr ""
+
+#: $string['enrolstartdate_help']
+msgid "If enabled, users can enrol themselves from this date onward only."
+msgstr ""
+
+#: $string['expiredaction']
+msgid "Enrolment expiry action"
+msgstr ""
+
+#: $string['expiredaction_help']
+msgid ""
+"Select action to carry out when user enrolment expires. Please note that "
+"some user data and settings are purged from course during course "
+"unenrolment."
+msgstr ""
+
+#: $string['expirymessageenrolledbody']
+msgid ""
+"Dear {$a->user},\n"
+"\n"
+"This is a notification that your enrolment in the course '{$a->course}' is "
+"due to expire on {$a->timeend}.\n"
+"\n"
+"If you need help, please contact {$a->enroller}."
+msgstr ""
+
+#: $string['expirymessageenrolledsubject']
+msgctxt "$string['expirymessageenrolledsubject']"
+msgid "Self enrolment expiry notification"
+msgstr ""
+
+#: $string['expirymessageenrollerbody']
+msgid ""
+"Self enrolment in the course '{$a->course}' will expire within the next "
+"{$a->threshold} for the following users:\n"
+"\n"
+"{$a->users}\n"
+"\n"
+"To extend their enrolment, go to {$a->extendurl}"
+msgstr ""
+
+#: $string['expirymessageenrollersubject']
+msgctxt "$string['expirymessageenrollersubject']"
+msgid "Self enrolment expiry notification"
+msgstr ""
+
+#: $string['groupkey']
+msgid "Use group enrolment keys"
+msgstr ""
+
+#: $string['groupkey_desc']
+msgid "Use group enrolment keys by default."
+msgstr ""
+
+#: $string['groupkey_help']
+msgid ""
+"In addition to restricting access to the course to only those who know the "
+"key, use of group enrolment keys means users are automatically added to "
+"groups when they enrol in the course.\n"
+"\n"
+"Note: An enrolment key for the course must be specified in the self "
+"enrolment settings as well as group enrolment keys in the group settings."
+msgstr ""
+
+#: $string['keyholder']
+msgid "You should have received this enrolment key from:"
+msgstr ""
+
+#: $string['longtimenosee']
+msgid "Unenrol inactive after"
+msgstr ""
+
+#: $string['longtimenosee_help']
+msgid ""
+"If users haven't accessed a course for a long time, then they are "
+"automatically unenrolled. This parameter specifies that time limit."
+msgstr ""
+
+#: $string['maxenrolled']
+msgid "Max enrolled users"
+msgstr ""
+
+#: $string['maxenrolled_help']
+msgid ""
+"Specifies the maximum number of users that can self enrol. 0 means no limit."
+msgstr ""
+
+#: $string['maxenrolledreached']
+msgid "Maximum number of users allowed to self-enrol was already reached."
+msgstr ""
+
+#: $string['messageprovider:expiry_notification']
+msgid "Self enrolment expiry notifications"
+msgstr ""
+
+#: $string['newenrols']
+msgid "Allow new enrolments"
+msgstr ""
+
+#: $string['newenrols_desc']
+msgid "Allow users to self enrol into new courses by default."
+msgstr ""
+
+#: $string['newenrols_help']
+msgid "This setting determines whether a user can enrol into this course."
+msgstr ""
+
+#: $string['nopassword']
+msgid "No enrolment key required."
+msgstr ""
+
+#: $string['password']
+msgid "Enrolment key"
+msgstr ""
+
+#: $string['password_help']
+msgid ""
+"An enrolment key enables access to the course to be restricted to only those "
+"who know the key.\n"
+"\n"
+"If the field is left blank, any user may enrol in the course.\n"
+"\n"
+"If an enrolment key is specified, any user attempting to enrol in the course "
+"will be required to supply the key. Note that a user only needs to supply "
+"the enrolment key ONCE, when they enrol in the course."
+msgstr ""
+
+#: $string['passwordinvalid']
+msgid "Incorrect enrolment key, please try again"
+msgstr ""
+
+#: $string['passwordinvalidhint']
+msgid ""
+"That enrolment key was incorrect, please try again<br />\n"
+"(Here's a hint - it starts with '{$a}')"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Self enrolment"
+msgstr ""
+
+#: $string['pluginname_desc']
+msgid ""
+"The self enrolment plugin allows users to choose which courses they want to "
+"participate in. The courses may be protected by an enrolment key. Internally "
+"the enrolment is done via the manual enrolment plugin which has to be "
+"enabled in the same course."
+msgstr ""
+
+#: $string['requirepassword']
+msgid "Require enrolment key"
+msgstr ""
+
+#: $string['requirepassword_desc']
+msgid ""
+"Require enrolment key in new courses and prevent removing of enrolment key "
+"from existing courses."
+msgstr ""
+
+#: $string['role']
+msgid "Default assigned role"
+msgstr ""
+
+#: $string['self:config']
+msgid "Configure self enrol instances"
+msgstr ""
+
+#: $string['self:holdkey']
+msgid "Appear as the self enrolment key holder"
+msgstr ""
+
+#: $string['self:manage']
+msgid "Manage enrolled users"
+msgstr ""
+
+#: $string['self:unenrol']
+msgid "Unenrol users from course"
+msgstr ""
+
+#: $string['self:unenrolself']
+msgid "Unenrol self from the course"
+msgstr ""
+
+#: $string['sendcoursewelcomemessage']
+msgid "Send course welcome message"
+msgstr ""
+
+#: $string['sendcoursewelcomemessage_help']
+msgid ""
+"When a user self enrols in the course, they may be sent a welcome message "
+"email. If sent from the course contact (by default the teacher), and more "
+"than one user has this role, the email is sent from the first user to be "
+"assigned the role."
+msgstr ""
+
+#: $string['showhint']
+msgid "Show hint"
+msgstr ""
+
+#: $string['showhint_desc']
+msgid "Show first letter of the guest access key."
+msgstr ""
+
+#: $string['status']
+msgid "Allow existing enrolments"
+msgstr ""
+
+#: $string['status_desc']
+msgid "Enable self enrolment method in new courses."
+msgstr ""
+
+#: $string['status_help']
+msgid ""
+"If enabled together with 'Allow new enrolments' disabled, only users who "
+"self enrolled previously can access the course. If disabled, this self "
+"enrolment method is effectively disabled, since all existing self enrolments "
+"are suspended and new users cannot self enrol."
+msgstr ""
+
+#: $string['unenrol']
+msgid "Unenrol user"
+msgstr ""
+
+#: $string['unenrolselfconfirm']
+msgid "Do you really want to unenrol yourself from course \"{$a}\"?"
+msgstr ""
+
+#: $string['unenroluser']
+msgid "Do you really want to unenrol \"{$a->user}\" from course \"{$a->course}\"?"
+msgstr ""
+
+#: $string['usepasswordpolicy']
+msgid "Use password policy"
+msgstr ""
+
+#: $string['usepasswordpolicy_desc']
+msgid "Use standard password policy for enrolment keys."
+msgstr ""
+
+#: $string['welcometocourse']
+msgid "Welcome to {$a}"
+msgstr ""
+
+#: $string['welcometocoursetext']
+msgid ""
+"Welcome to {$a->coursename}!\n"
+"\n"
+"If you have not done so already, you should edit your profile page so that "
+"we can learn more about you:\n"
+"\n"
+"  {$a->profileurl}"
+msgstr ""

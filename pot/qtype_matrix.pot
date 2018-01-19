@@ -1,0 +1,218 @@
+#. extracted from lang/en/qtype_matrix.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qtype_matrix', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   qtype_matrix
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['all']
+msgid "Subpoints"
+msgstr ""
+
+#: $string['allow_dnd_ui']
+msgid "Allow usage of Drag&Drop UI"
+msgstr ""
+
+#: $string['allow_dnd_ui_descr']
+msgid ""
+"If allowed, the teachers will have the possibility to enable the Drag&Drop "
+"feature to any Matrix questions"
+msgstr ""
+
+#: $string['cols_description']
+msgctxt "$string['cols_description']"
+msgid "Description"
+msgstr ""
+
+#: $string['colsheader']
+msgid "Matrix columns"
+msgstr ""
+
+#: $string['colsheader_desc']
+msgid ""
+"<p>Shorttext will be used when it's present, with the longer text as a "
+"tooltip.<br />Be mindful of how this will be displayed.</p>\n"
+"<p>Students can select multiple or single columns per row, depending on how "
+"the question has been configured, and each row receives a grade, defined by "
+"one of the grading methods.</p>\n"
+"<p>The final grade for the question is an average of their grades for each "
+"of the rows with the exeption of the Kprime type where all answers have to "
+"be correct.</p>"
+msgstr ""
+
+#: $string['cols_shorttext']
+msgid "Response"
+msgstr ""
+
+#: $string['false']
+msgid "False"
+msgstr ""
+
+#: $string['grademethod']
+msgid "Scoring method"
+msgstr ""
+
+#: $string['grademethod_help']
+msgid ""
+"<ul>\n"
+"<li><b>Kprime</b>: The student receives one point, if all responses are "
+"correct, half a point if one response is wrong and the rest of responses are "
+"correct, and zero points otherwise.\n"
+"<li><b>Kprime1/0</b>: The student receives one point, if all responses are "
+"correct, and zero points otherwise.\n"
+"<li><b>Subpoints</b>: The student is awarded subpoints for each correct "
+"response.\n"
+"</ul>"
+msgstr ""
+
+#: $string['kany']
+msgid "Kprime (at least one correct, no wrong answer)"
+msgstr ""
+
+#: $string['kprime']
+msgid "Kprime1/0"
+msgstr ""
+
+#: $string['matrixheader']
+msgid "Response matrix"
+msgstr ""
+
+#: $string['multipleallowed']
+msgid "Allow multiple responses per answer statement?"
+msgstr ""
+
+#: $string['mustaddupto100']
+msgid "The sum of all non negative weights in each row must be 100%"
+msgstr ""
+
+#: $string['mustdefine1by1']
+msgid ""
+"You must define at least a 1 x 1 matrix; with either short or long answer "
+"defined for each row and column"
+msgstr ""
+
+#: $string['oneanswerperrow']
+msgid "You must provide an answer for each row"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Kprime"
+msgstr ""
+
+#: $string['pluginnameadding']
+msgid "Adding a Kprime question"
+msgstr ""
+
+#: $string['pluginnameediting']
+msgid "Editing a Kprime question"
+msgstr ""
+
+#: $string['pluginname_help']
+msgid ""
+"<p>Kprime questions consist of an item stem and four corresponding answer "
+"statements. For each answer statement students have to decide whether it is "
+"right or wrong.</p>"
+msgstr ""
+
+#: $string['pluginname_link']
+msgid "question/type/matrix"
+msgstr ""
+
+#: $string['pluginnamesummary']
+msgid ""
+"In Kprime questions exactly four such statements have to be correctly rated "
+"as “true” or “false”."
+msgstr ""
+
+#: $string['refresh_matrix']
+msgid "Refresh response matrix"
+msgstr ""
+
+#: $string['rows_description']
+msgctxt "$string['rows_description']"
+msgid "Description"
+msgstr ""
+
+#: $string['rows_feedback']
+msgid "Feedback"
+msgstr ""
+
+#: $string['rowsheader']
+msgid "Matrix rows"
+msgstr ""
+
+#: $string['rowsheader_desc']
+msgid ""
+"<p>Shorttext will be used when it's present, with the longer text as a "
+"tooltip.<br />Be mindful of how this will be displayed</p>\n"
+"<p>Students can select multiple or single columns per row, depending on how "
+"the question has been configured, and each row receives a grade, defined by "
+"one of the grading methods.</p>\n"
+"<p>The final grade for the question is an average of their grades for each "
+"of the rows with the exeption of the Kprime type where all answers have to "
+"be correct.</p>"
+msgstr ""
+
+#: $string['rows_shorttext']
+msgid "Answer statement"
+msgstr ""
+
+#: $string['show_non_kprime_gui']
+msgid ""
+"Show graphical user interface for options which are not strictly kprime "
+"matrix options (more than four rows, more than two columsn, multiple "
+"options)."
+msgstr ""
+
+#: $string['shuffleanswers']
+msgid "Shuffle answer statements?"
+msgstr ""
+
+#: $string['shuffleanswers_help']
+msgid ""
+"If enabled, the order of the answer statements is randomly shuffled for each "
+"attempt, provided that “Shuffle within questions” in the activity settings "
+"is also enabled."
+msgstr ""
+
+#: $string['true']
+msgid "True"
+msgstr ""
+
+#: $string['use_dnd_ui']
+msgid "Use drag &amp; drop ?"
+msgstr ""
+
+#: $string['weightednomultiple']
+msgid ""
+"It doesn't make sense to choose weighted grading with multiple answers not "
+"allowed"
+msgstr ""

@@ -1,0 +1,245 @@
+#. extracted from lang/en/enrol_autoenrol.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'enrol_autoenrol', language 'en', branch 'MOODLE_28_STABLE'
+#.  *
+#.  * @package   enrol_autoenrol
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['alwaysenrol']
+msgid "Always Enrol"
+msgstr ""
+
+#: $string['alwaysenrol_help']
+msgid ""
+"When set to Yes the plugins will always enrol users, even if they already "
+"have access to the course through another method."
+msgstr ""
+
+#: $string['auto']
+msgid "Auto"
+msgstr ""
+
+#: $string['auto_desc']
+msgid ""
+"This group has been automatically created by the Auto Enrol plugin. It will "
+"be deleted if you remove the Auto Enrol plugin from the course."
+msgstr ""
+
+#: $string['autoenrol:config']
+msgid "Configure automatic enrolments"
+msgstr ""
+
+#: $string['autoenrol:method']
+msgid "User can enrol users onto a course at login"
+msgstr ""
+
+#: $string['autoenrol:unenrol']
+msgid "User can unenrol autoenrolled users"
+msgstr ""
+
+#: $string['autoenrol:unenrolself']
+msgid "User can unenrol themselves if they are being enrolled on access"
+msgstr ""
+
+#: $string['config']
+msgid "Configuration"
+msgstr ""
+
+#: $string['countlimit']
+msgid "Limit"
+msgstr ""
+
+#: $string['countlimit_help']
+msgid ""
+"This instance will count the number of enrolments it makes on a course and "
+"can stop enrolling users once it reaches a certain level. The default "
+"setting of 0 means unlimited."
+msgstr ""
+
+#: $string['defaultrole']
+msgid "Default role assignment"
+msgstr ""
+
+#: $string['defaultrole_desc']
+msgid ""
+"Select role which should be assigned to users during automatic enrolments"
+msgstr ""
+
+#: $string['emptyfield']
+msgid "No {$a}"
+msgstr ""
+
+#: $string['filter']
+msgid "Allow Only"
+msgstr ""
+
+#: $string['filter_help']
+msgid ""
+"When a group focus is selected you can use this field to filter which type "
+"of user you wish to enrol onto the course. For example, if you grouped by "
+"authentication and filtered with \"manual\" only users who have registered "
+"directly with your site would be enrolled."
+msgstr ""
+
+#: $string['filtering']
+msgid "User Filtering"
+msgstr ""
+
+#: $string['g_auth']
+msgid "Auth Method"
+msgstr ""
+
+#: $string['g_dept']
+msgid "Department"
+msgstr ""
+
+#: $string['g_email']
+msgid "Email Address"
+msgstr ""
+
+#: $string['general']
+msgid "General"
+msgstr ""
+
+#: $string['g_inst']
+msgid "Institution"
+msgstr ""
+
+#: $string['g_lang']
+msgid "Language"
+msgstr ""
+
+#: $string['g_none']
+msgid "Select..."
+msgstr ""
+
+#: $string['groupon']
+msgid "Group By"
+msgstr ""
+
+#: $string['groupon_help']
+msgid ""
+"AutoEnrol can automatically add users to a group when they are enrolled "
+"based upon one of these user fields."
+msgstr ""
+
+#: $string['instancename']
+msgid "Custom Label"
+msgstr ""
+
+#: $string['instancename_help']
+msgid ""
+"You can add a custom label to make it clear what this enrolment method does. "
+"This option is most useful when there are multiple instances of AutoEnrol "
+"on one course."
+msgstr ""
+
+#: $string['m_course']
+msgid "Loading the Course"
+msgstr ""
+
+#: $string['method']
+msgid "Enrol When"
+msgstr ""
+
+#: $string['method_help']
+msgid ""
+"Power users can use this setting to change the plugin's behaviour so that "
+"users are enrolled to the course upon logging in rather than waiting for "
+"them to access the course. This is helpful for courses which should be "
+"visible on a users \"my courses\" list by default."
+msgstr ""
+
+#: $string['m_site']
+msgid "Logging into Site"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Auto Enrol"
+msgstr ""
+
+#: $string['pluginname_desc']
+msgid ""
+"The automatic enrolment module allows an option for logged in users to be "
+"automatically granted entry to a course and enrolled. This is similar to "
+"allowing guest access but the students will be permanently enrolled and "
+"therefore able to participate in forum and activities within the area."
+msgstr ""
+
+#: $string['removegroups']
+msgid "Remove groups"
+msgstr ""
+
+#: $string['removegroups_desc']
+msgid ""
+"When an enrolment instance is deleted, should it attempt to remove the "
+"groups it has created?"
+msgstr ""
+
+#: $string['role']
+msgid "Role"
+msgstr ""
+
+#: $string['role_help']
+msgid ""
+"Power users can use this setting to change the permission level at which "
+"users are enrolled."
+msgstr ""
+
+#: $string['softmatch']
+msgid "Soft Match"
+msgstr ""
+
+#: $string['softmatch_help']
+msgid ""
+"When enabled AutoEnrol will enrol a user when they partially match the "
+"\"Allow Only\" value instead of requiring an exact match. Soft matches are "
+"also case-insensitive. The value of \"Filter By\" will be used for the group "
+"name."
+msgstr ""
+
+#: $string['unenrolselfconfirm']
+msgid ""
+"Do you really want to unenrol yourself from course \"{$a}\"? You can revisit "
+"the course to be reenrolled but information such as grades and assignment "
+"submissions may be lost."
+msgstr ""
+
+#: $string['warning']
+msgid "Caution!"
+msgstr ""
+
+#: $string['warning_message']
+msgid ""
+"Adding this plugin to your course will allow any registered Moodle users "
+"access to your course. Only install this plugin if you want to allow open "
+"access to your course for users who have logged in."
+msgstr ""

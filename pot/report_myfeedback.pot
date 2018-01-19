@@ -1,0 +1,1342 @@
+#. extracted from lang/en/report_myfeedback.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'report_myfeedback', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   report_myfeedback
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['academicyear']
+msgctxt "$string['academicyear']"
+msgid "Academic year"
+msgstr ""
+
+#: $string['academicyearinfo']
+msgid "The academic year this instance of Moodle relates to."
+msgstr ""
+
+#: $string['accumulativetitle']
+msgid "Accumulative:"
+msgstr ""
+
+#: $string['addeditfeedback']
+msgid "Add/Edit feedback"
+msgstr ""
+
+#: $string['addeditnotes']
+msgid "Add/Edit notes"
+msgstr ""
+
+#: $string['addfeedback']
+msgid "It is not possible to display Turnitin feedback automatically."
+msgstr ""
+
+#: $string['addfeedbacktitle']
+msgid "Click here to add feedback from Turnitin"
+msgstr ""
+
+#: $string['addnotes']
+msgid "Add notes"
+msgstr ""
+
+#: $string['addnotestitle']
+msgid "Click here to add self-reflective notes"
+msgstr ""
+
+#: $string['allparts']
+msgid "(all parts)"
+msgstr ""
+
+#: $string['alltutees']
+msgid "Seach for students"
+msgstr ""
+
+#: $string['analyse']
+msgid "Analyse"
+msgstr ""
+
+#: $string['archivedbhost']
+msgid "Archived DB Host"
+msgstr ""
+
+#: $string['archivedbhostinfo']
+msgid "Archived Database host name (on which the SQL queries will be executed)"
+msgstr ""
+
+#: $string['archivedbnotexist']
+msgid ""
+"This database does not exist or access details incorrect. Admin must "
+"configure My feedback report settings page correctly!"
+msgstr ""
+
+#: $string['archivedbpass']
+msgid "Archived DB Password"
+msgstr ""
+
+#: $string['archivedbpassinfo']
+msgid "Archive database password (for above username)."
+msgstr ""
+
+#: $string['archivedbsettings']
+msgid ""
+"Archived Database Settings (not recommended for production installations)"
+msgstr ""
+
+#: $string['archivedbuser']
+msgid "Archived DB Username"
+msgstr ""
+
+#: $string['archivedbuserinfo']
+msgid "Archive Database username (should have SELECT privileges on above DB)."
+msgstr ""
+
+#: $string['archivedinstance']
+msgid "Archived instance"
+msgstr ""
+
+#: $string['archivedinstanceinfo']
+msgid "Whether this instance of Moodle is an archived instance."
+msgstr ""
+
+#: $string['archivedomain']
+msgid "Archived FQDN"
+msgstr ""
+
+#: $string['archivedomaindefault']
+msgctxt "$string['archivedomaindefault']"
+msgid "https://"
+msgstr ""
+
+#: $string['archivedomaininfo']
+msgctxt "$string['archivedomaininfo']"
+msgid "The Fully Qualified Domain Name (FQDN) with http/https"
+msgstr ""
+
+#: $string['archivenamingconvention']
+msgid "Archived DB naming convention"
+msgstr ""
+
+#: $string['archivenamingconventiondefault']
+msgid "moodle_archive_"
+msgstr ""
+
+#: $string['archivenamingconventioninfo']
+msgid ""
+"What naming convention do you use before your academic year "
+"e.g.\"moodle_archive_xxxx\" where xxxx is the two digit value for the academic "
+"years e.g.\"1415\". <br>The current release only uses the default convention."
+msgstr ""
+
+#: $string['archiveyears']
+msgid "Archived years"
+msgstr ""
+
+#: $string['archiveyearsinfo']
+msgid ""
+"How many years of archive do you want to make available?<br /> Recommend "
+"setting to 0 for production Moodle installations, due to issues with "
+"checking permissions on older versions of Moodle."
+msgstr ""
+
+#: $string['assessmentbreakdown']
+msgid "Assessment breakdown"
+msgstr ""
+
+#: $string['attempt']
+msgid "attempt"
+msgstr ""
+
+#: $string['attempts']
+msgid "attempts"
+msgstr ""
+
+#: $string['bargraphdesc']
+msgid ""
+"The lowest grade is {$a->minimum}%, the median grade is {$a->mean}% and the "
+"highest grade is {$a->maximum}%. The number of students who scored within "
+"each grade range is displayed within the graph itself."
+msgstr ""
+
+#: $string['blockstring']
+msgid "My feedback string"
+msgstr ""
+
+#: $string['blocktitle']
+msgctxt "$string['blocktitle']"
+msgid "My feedback"
+msgstr ""
+
+#: $string['browsersupport']
+msgid "Your browser does not support the HTML5 canvas tag."
+msgstr ""
+
+#: $string['comment']
+msgid "Comment:"
+msgstr ""
+
+#: $string['comments']
+msgid "Comments strategy:"
+msgstr ""
+
+#: $string['copyfeedback']
+msgid "Paste general feedback from Turnitin"
+msgstr ""
+
+#: $string['coursebreakdown']
+msgid "Course breakdown"
+msgstr ""
+
+#: $string['coursecolon']
+msgid "Course:"
+msgstr ""
+
+#: $string['courselimit']
+msgid "Course limit"
+msgstr ""
+
+#: $string['courselimitheading']
+msgid "Dept Admin Second Level Category Course Limit"
+msgstr ""
+
+#: $string['courselimitinfo']
+msgid ""
+"<p style=\"color: #990000;\">Too many courses to show statistics for this "
+"category. Please choose a course in the drop-down list above to show "
+"statistics for that course.</p>"
+msgstr ""
+
+#: $string['courselimitsettings']
+msgid ""
+"Set the limit for the number of courses to show statistics for second level "
+"category"
+msgstr ""
+
+#: $string['dashboard']
+msgid "My feedback report"
+msgstr ""
+
+#: $string['dashboard_assessments']
+msgctxt "$string['dashboard_assessments']"
+msgid "Assessments"
+msgstr ""
+
+#: $string['dashboard_students']
+msgid "Students"
+msgstr ""
+
+#: $string['dbhost']
+msgid "DB Host"
+msgstr ""
+
+#: $string['dbhostinfo']
+msgid ""
+"Remote Database host name (on which the SQL queries will be executed - must "
+"be a duplicate of this Moodle database instance - used for avoiding load "
+"issues on primary Moodle database).<br />Leave blank to use the default "
+"Moodle database."
+msgstr ""
+
+#: $string['dbname']
+msgid "DB Name"
+msgstr ""
+
+#: $string['dbnameinfo']
+msgid ""
+"Remote Database name (on which the SQL queries will be executed - must be a "
+"duplicate of this Moodle database instance - used for avoiding load issues "
+"on primary Moodle database).<br />Leave blank to use the default Moodle "
+"database."
+msgstr ""
+
+#: $string['dbpass']
+msgid "DB Password"
+msgstr ""
+
+#: $string['dbpassinfo']
+msgid ""
+"Remote database password (for above username).<br />Leave blank to use the "
+"default Moodle database."
+msgstr ""
+
+#: $string['dbsettings']
+msgid "Current Academic Year Database Settings"
+msgstr ""
+
+#: $string['dbuser']
+msgid "DB Username"
+msgstr ""
+
+#: $string['dbuserinfo']
+msgid ""
+"Remote Database username (should have SELECT privileges on above DB).<br "
+"/>Leave blank to use the default Moodle database."
+msgstr ""
+
+#: $string['department']
+msgid "Department:"
+msgstr ""
+
+#: $string['dept_admin_exportheader']
+msgctxt "$string['dept_admin_exportheader']"
+msgid ""
+"Course Name/User Firstname,Lastname,Assessments,Non-submissions,Late "
+"submissions,Graded assessments,Low grades"
+msgstr ""
+
+#: $string['dept_admin_filename']
+msgid "MyFeedback_dept_admin_report_"
+msgstr ""
+
+#: $string['dept_admin_report']
+msgid ""
+"Departmental admin dashboard report - stats at selected second level "
+"category only"
+msgstr ""
+
+#: $string['draft']
+msgid "draft"
+msgstr ""
+
+#: $string['draft_submission']
+msgid "draft submission"
+msgstr ""
+
+#: $string['draft_submission_msg']
+msgid "The assignment is still in draft status. It has not yet been submitted"
+msgstr ""
+
+#: $string['editfeedback']
+msgid "Edit feedback"
+msgstr ""
+
+#: $string['editfeedbacktitle']
+msgctxt "$string['editfeedbacktitle']"
+msgid "Click here to edit"
+msgstr ""
+
+#: $string['editnotes']
+msgid "Edit notes"
+msgstr ""
+
+#: $string['editnotestitle']
+msgctxt "$string['editnotestitle']"
+msgid "Click here to edit"
+msgstr ""
+
+#: $string['email_address']
+msgid "Email address:"
+msgstr ""
+
+#: $string['email_dept_subject']
+msgid "Your%20Departmental%20Admin"
+msgstr ""
+
+#: $string['email_tutee_subject']
+msgid "Your%20Personal%20Tutor"
+msgstr ""
+
+#: $string['email_tutor']
+msgid "Email your tutor"
+msgstr ""
+
+#: $string['email_tutor_subject']
+msgid "Your%20Personal%20Tutee"
+msgstr ""
+
+#: $string['enrolledmodules']
+msgid "Moodle Courses currently enrolled on:"
+msgstr ""
+
+#: $string['enrolledstudents']
+msgid "Enrolled students:"
+msgstr ""
+
+#: $string['eventmtutordownload']
+msgid "Module tutor dashboard analytics downloaded"
+msgstr ""
+
+#: $string['eventptutordownload']
+msgid "Personal tutor dashboard analytics downloaded"
+msgstr ""
+
+#: $string['eventreportaddfeedback']
+msgid "My feedback Turnitin feedback added"
+msgstr ""
+
+#: $string['eventreportaddnotes']
+msgid "My feedback notes added"
+msgstr ""
+
+#: $string['eventreportdownload']
+msgid "My feedback report table downloaded"
+msgstr ""
+
+#: $string['eventreportupdatefeedback']
+msgid "My feedback Turnitin feedback updated"
+msgstr ""
+
+#: $string['eventreportupdatenotes']
+msgid "My feedback notes updated"
+msgstr ""
+
+#: $string['eventreportviewed']
+msgid "My feedback report viewed"
+msgstr ""
+
+#: $string['eventreportviewed_dept']
+msgid "My feedback Departmental admin dashboard viewed"
+msgstr ""
+
+#: $string['eventreportviewed_mtutor']
+msgid "My feedback Module tutor dashboard viewed"
+msgstr ""
+
+#: $string['eventreportviewed_mystudents']
+msgid "My feedback My students tab viewed"
+msgstr ""
+
+#: $string['eventreportviewed_ptutor']
+msgid "My feedback Personal tutor dashboard viewed"
+msgstr ""
+
+#: $string['exportheader']
+msgid ""
+"Course,Assessment,Type,Due date,Submission date,Grade,Grade range,General "
+"feedback,Viewed"
+msgstr ""
+
+#: $string['export_to_excel']
+msgid "Export to Excel"
+msgstr ""
+
+#: $string['faculty']
+msgid "Top level:"
+msgstr ""
+
+#: $string['feedback']
+msgid "view feedback"
+msgstr ""
+
+#: $string['filename']
+msgid "MyFeedback_report_"
+msgstr ""
+
+#: $string['for']
+msgid "for"
+msgstr ""
+
+#: $string['fullfeedback']
+msgid "view full feedback"
+msgstr ""
+
+#: $string['grade']
+msgid "Grade -"
+msgstr ""
+
+#: $string['grademark']
+msgid "GradeMark"
+msgstr ""
+
+#: $string['gradetblheader_assessment']
+msgid "Assessment (part name)"
+msgstr ""
+
+#: $string['gradetblheader_assessment_info']
+msgid ""
+"The name and link to the assessment. Turnitin assignments can contain "
+"multiple parts, so the part name for the assessment appears in brackets "
+"afterwards. Workshops provide a grade/feedback for the submitted work, as "
+"well as a grade/feedback for how well the students assess others' work, so "
+"whether it is the original 'submission' or the 'assessment' of peers' work "
+"appears in brackets afterwards."
+msgstr ""
+
+#: $string['gradetblheader_availablegrade']
+msgid "Available grade"
+msgstr ""
+
+#: $string['gradetblheader_bar']
+msgid "Bar graph"
+msgstr ""
+
+#: $string['gradetblheader_bar_info']
+msgid ""
+"A visual representation of the grade achieved as a percentage (for numeric "
+"grades only)."
+msgstr ""
+
+#: $string['gradetblheader_course']
+msgid "Course"
+msgstr ""
+
+#: $string['gradetblheader_course_info']
+msgid "The name and link to the course that contains the assessment."
+msgstr ""
+
+#: $string['gradetblheader_duedate']
+msgid "Due date"
+msgstr ""
+
+#: $string['gradetblheader_duedate_info']
+msgid "The date the assessment was due (if applicable)."
+msgstr ""
+
+#: $string['gradetblheader_feedback']
+msgid "Full feedback"
+msgstr ""
+
+#: $string['gradetblheader_feedback_info']
+msgid ""
+"A link to the full feedback, showing any grades, written comments, in-text "
+"comments, rubrics or marking guide feedback against particular criteria. Any "
+"in-text comments will be displayed within the feedback file for Moodle "
+"Assignments. If a feedback file is available, a file icon will display."
+msgstr ""
+
+#: $string['gradetblheader_generalfeedback']
+msgid "General feedback"
+msgstr ""
+
+#: $string['gradetblheader_generalfeedback_info']
+msgid ""
+"Feedback comments provided by the tutor (or by peers or the students "
+"themselves where indicated for workshops). Marking guide feedback for each "
+"criteria and selected rubric feedback will also be displayed for Moodle "
+"Assignments. Turnitin Assignment feedback must be copied and pasted into the "
+"report by a student or their tutor."
+msgstr ""
+
+#: $string['gradetblheader_grade']
+msgid "Grade"
+msgstr ""
+
+#: $string['gradetblheader_grade_info']
+msgid "The grade the student received for the assessment."
+msgstr ""
+
+#: $string['gradetblheader_module']
+msgid "Module"
+msgstr ""
+
+#: $string['gradetblheader_range']
+msgid "Range"
+msgstr ""
+
+#: $string['gradetblheader_range_info']
+msgid "The range of grades possible for the assessment."
+msgstr ""
+
+#: $string['gradetblheader_relativegrade']
+msgid "Relative grade"
+msgstr ""
+
+#: $string['gradetblheader_selfreflectivenotes']
+msgid "Self-reflective notes"
+msgstr ""
+
+#: $string['gradetblheader_selfreflectivenotes_info']
+msgid ""
+"Self-reflective notes added by the student. All self-reflective notes are "
+"visible to a students' personal tutor and departmental administrators."
+msgstr ""
+
+#: $string['gradetblheader_submissiondate']
+msgid "Submission date"
+msgstr ""
+
+#: $string['gradetblheader_submissiondate_info']
+msgid ""
+"The date the assessment was submitted. If submitted late, a warning icon "
+"will appear that shows how late it was when you hover over it. Quizzes with "
+"multiple attempts will show the last date. Moodle Assignments that have been "
+"uploaded, but not yet submitted (still in draft status) will show 'draft' "
+"instead of a date. Assessments not submitted (but with grades or feedback) "
+"will show 'no submission'."
+msgstr ""
+
+#: $string['gradetblheader_submission_feedback']
+msgid "Submission / Feedback"
+msgstr ""
+
+#: $string['gradetblheader_type']
+msgid "Type"
+msgstr ""
+
+#: $string['gradetblheader_type_info']
+msgid ""
+"The type of assessment, whether it be a Moodle Assignment, Turnitin "
+"Assignment, Quiz, Workshop (for peer assessment), or a manual grade item "
+"entered directly into the Moodle gradebook."
+msgstr ""
+
+#: $string['gradetblheader_viewed']
+msgid "Viewed"
+msgstr ""
+
+#: $string['gradetblheader_viewed_info']
+msgid ""
+"The date the feedback was first viewed by the student after being released."
+msgstr ""
+
+#: $string['gradetblheader_weighting']
+msgid "Weighting"
+msgstr ""
+
+#: $string['grading_form']
+msgid "view grading form"
+msgstr ""
+
+#: $string['groupname']
+msgid "Group name"
+msgstr ""
+
+#: $string['groupwork']
+msgid "group"
+msgstr ""
+
+#: $string['hasfeedbackfile']
+msgid "Has feedback file."
+msgstr ""
+
+#: $string['insertsuccessful']
+msgid "Data successfully inserted"
+msgstr ""
+
+#: $string['lastmoodlelogin']
+msgid "Last Moodle login:"
+msgstr ""
+
+#: $string['latefeedback']
+msgid "Late feedback days"
+msgstr ""
+
+#: $string['latefeedbackheading']
+msgid "Late Feedback"
+msgstr ""
+
+#: $string['latefeedbacksettings']
+msgid "The number of days for feedback to be late"
+msgstr ""
+
+#: $string['late_submission_msg']
+msgid "The assignment was submitted"
+msgstr ""
+
+#: $string['livedomain']
+msgid "Live FQDN"
+msgstr ""
+
+#: $string['livedomaindefault']
+msgctxt "$string['livedomaindefault']"
+msgid "https://"
+msgstr ""
+
+#: $string['livedomaininfo']
+msgctxt "$string['livedomaininfo']"
+msgid "The Fully Qualified Domain Name (FQDN) with http/https"
+msgstr ""
+
+#: $string['manual_gradeitem']
+msgid "Manual item"
+msgstr ""
+
+#: $string['markingguide']
+msgid "Marking guide"
+msgstr ""
+
+#: $string['meet_tutor']
+msgid "Meet your tutor"
+msgstr ""
+
+#: $string['moddescription']
+msgid "Use the Ctrl/Shift to select multiple courses if applicable."
+msgstr ""
+
+#: $string['mod_tutor_exportheader']
+msgctxt "$string['mod_tutor_exportheader']"
+msgid ""
+"Course Name/User Firstname,Lastname,Assessments,Non-submissions,Late "
+"submissions,Graded assessments,Low grades"
+msgstr ""
+
+#: $string['mod_tutor_filename']
+msgid "MyFeedback_mod_tutor_report_"
+msgstr ""
+
+#: $string['mod_tutor_report']
+msgid "Module tutor dashboard report"
+msgstr ""
+
+#: $string['modtutorstats']
+msgid "Module tutor stats"
+msgstr ""
+
+#: $string['moduleleaderview']
+msgctxt "$string['moduleleaderview']"
+msgid "- tutor view"
+msgstr ""
+
+#: $string['modulesteach']
+msgid "Moodle Courses currently teaching:"
+msgstr ""
+
+#: $string['moduletutors']
+msgid "Module tutors"
+msgstr ""
+
+#: $string['moodle_assignment']
+msgid "Assignment"
+msgstr ""
+
+#: $string['more']
+msgid ", ...more"
+msgstr ""
+
+#: $string['moreinfo']
+msgid "Click to view full list of courses"
+msgstr ""
+
+#: $string['my_feedback']
+msgctxt "$string['my_feedback']"
+msgid "My feedback"
+msgstr ""
+
+#: $string['myfeedback:modtutor']
+msgid "My feedback module tutor"
+msgstr ""
+
+#: $string['myfeedback:personaltutor']
+msgid "My feedback personal tutor"
+msgstr ""
+
+#: $string['myfeedback:progadmin']
+msgid "My feedback departmental admin"
+msgstr ""
+
+#: $string['myfeedback:student']
+msgid "My feedback student"
+msgstr ""
+
+#: $string['myfeedback:view']
+msgid "View My feedback"
+msgstr ""
+
+#: $string['mymodules']
+msgctxt "$string['mymodules']"
+msgid "My courses"
+msgstr ""
+
+#: $string['new_window_msg']
+msgid "Opens in a new window"
+msgstr ""
+
+#: $string['noarchivesupporth1']
+msgid "<h1>No support for that version of Moodle!</h1>"
+msgstr ""
+
+#: $string['noarchivesupporth2']
+msgid ""
+"<h2>Too many database changes were made for the report to support "
+"this!</h2><h2>Select a different tab or refresh your screen to "
+"continue...</h2>"
+msgstr ""
+
+#: $string['nodata']
+msgid "No data"
+msgstr ""
+
+#: $string['nodataforyear']
+msgid "No data for this academic year"
+msgstr ""
+
+#: $string['nodatatodisplay']
+msgid "No data to display"
+msgstr ""
+
+#: $string['noenrolments']
+msgid "This user has not yet been enrolled in any courses"
+msgstr ""
+
+#: $string['nographtodisplay']
+msgid "No graph to display"
+msgstr ""
+
+#: $string['nomodule']
+msgid "No course for this academic year"
+msgstr ""
+
+#: $string['no_submission']
+msgid "no submission"
+msgstr ""
+
+#: $string['no_submission_msg']
+msgid ""
+"There is no submission and it is past the due date. Disregard if you have "
+"been granted an individual extension."
+msgstr ""
+
+#: $string['notutor']
+msgid "You have no personal tutor details"
+msgstr ""
+
+#: $string['numerrortitle']
+msgid "Numerrors:"
+msgstr ""
+
+#: $string['offline_assignment']
+msgid "offline"
+msgstr ""
+
+#: $string['originality']
+msgid "Originality"
+msgstr ""
+
+#: $string['othertutee']
+msgid "Other tutee"
+msgstr ""
+
+#: $string['overallfeedback']
+msgid "Overall feedback"
+msgstr ""
+
+#: $string['overallmodule']
+msgid "Overall Course (to-date):"
+msgstr ""
+
+#: $string['overviewlimit']
+msgid "Overview tab course limit"
+msgstr ""
+
+#: $string['overviewlimitheading']
+msgid "Overview Tab Course Limit"
+msgstr ""
+
+#: $string['overviewlimitsettings']
+msgid "Set the limit for the number of courses to show in the overview tab"
+msgstr ""
+
+#: $string['overview_text_dept']
+msgid ""
+"This dashboard shows an overview of assessments and students for all the "
+"Moodle courses within categories where you have been assigned 'My feedback "
+"Departmental Administrator' access in Moodle. Choose the top level (faculty) "
+"and then the second level (department) from the drop-down lists. If you "
+"choose 'uncategorised' for the second level list you will see courses from "
+"the top level category (assuming you have access at this level). You can "
+"also view assessments for a particular course within a category by clicking "
+"on a course name, or choosing it from the Course drop-down list. When you "
+"select a particular Moodle course you can also view module tutor and group "
+"information for that course. You can also send an email to the module tutors "
+"(blind copied, so they can't see each other's names) by selecting the "
+"checkbox in the Send Mail column and clicking the [Send mail] button."
+msgstr ""
+
+#: $string['overview_text_mtutor']
+msgid ""
+"This dashboard shows an overview of assessments for the modules you teach. "
+"You can select the modules you wish to analyse in the My courses list and "
+"then click the [analyse] button. Hold down the shift key to select a range "
+"of courses, or the ctrl key to select multiple courses individually. For "
+"each Moodle course you will see a breakdown of information for each "
+"assessment. You can also view a student breakdown for each assessment by "
+"clicking on the toggle under the assessment name, or by clicking the "
+"[student breakdown] button."
+msgstr ""
+
+#: $string['overview_text_ptutor']
+msgid ""
+"This dashboard shows an overview of assessments for each of your personal "
+"tutees. You can see a course breakdown for each student by clicking on the "
+"toggle under their name. You can also send an email (blind copied, so "
+"students don't see each other's names) by selecting the checkbox in the Send "
+"Mail column and clicking the [Send mail] button."
+msgstr ""
+
+#: $string['overview_text_ptutor_tab']
+msgid ""
+"If you are a student studying a taught programme, your Personal Tutor's "
+"details will appear below. You can contact them to ask for guidance on your "
+"overall academic progress and personal and professional development."
+msgstr ""
+
+#: $string['ownreport']
+msgid "View own dashboard"
+msgstr ""
+
+#: $string['parentdepartment']
+msgid "Parent department:"
+msgstr ""
+
+#: $string['peerfeedback']
+msgid "Peer feedback:"
+msgstr ""
+
+#: $string['personaltutee']
+msgid "Personal tutee"
+msgstr ""
+
+#: $string['personaltutors']
+msgid "Personal tutors"
+msgstr ""
+
+#: $string['personaltutorview']
+msgctxt "$string['personaltutorview']"
+msgid "- tutor view"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "My feedback"
+msgstr ""
+
+#: $string['print_msg']
+msgid "Use ESC to exit print screen"
+msgstr ""
+
+#: $string['print_report']
+msgid "Print"
+msgstr ""
+
+#: $string['progadmin_dashboard']
+msgid "Departmental admin dashboard"
+msgstr ""
+
+#: $string['progadminview']
+msgid "- departmental admin view"
+msgstr ""
+
+#: $string['programme']
+msgid "Second level:"
+msgstr ""
+
+#: $string['provisional_grades']
+msgid ""
+"The marks shown here are provisional and may include marks for assessments "
+"that do not count towards your final grade. Please refer to the\n"
+"    <a href=\"\" title=\"Student Record System login\" rel=\"tooltip\">student "
+"record system</a> to see a formal record of your grade."
+msgstr ""
+
+#: $string['p_tutor_exportheader']
+msgid ""
+"Tutee Firstname/Course Shortname,Lastname,Assessments,Non-submissions,Late "
+"submissions,Graded assessments,Low grades"
+msgstr ""
+
+#: $string['p_tutor_filename']
+msgid "MyFeedback_p_tutor_report_"
+msgstr ""
+
+#: $string['p_tutor_report']
+msgid "Personal tutor dashboard report"
+msgstr ""
+
+#: $string['p_tut_programme']
+msgid "Programme"
+msgstr ""
+
+#: $string['quiz']
+msgid "Quiz"
+msgstr ""
+
+#: $string['relationship']
+msgid "Relationship"
+msgstr ""
+
+#: $string['relativegradedescription']
+msgid ""
+"This shows your grade position relative to the class for all numeric grades."
+msgstr ""
+
+#: $string['reportfor']
+msgid "Report for"
+msgstr ""
+
+#: $string['reset_table']
+msgid "Reset table"
+msgstr ""
+
+#: $string['return-2-dash']
+msgid "Return to my dashboard"
+msgstr ""
+
+#: $string['review']
+msgid "review"
+msgstr ""
+
+#: $string['reviewaattempt']
+msgid "review {$a} attempt"
+msgstr ""
+
+#: $string['reviewlastof']
+msgid "review last of {$a} attempts"
+msgstr ""
+
+#: $string['rubric']
+msgid "view rubric"
+msgstr ""
+
+#: $string['rubrictext']
+msgid "Rubric"
+msgstr ""
+
+#: $string['savefeedback']
+msgid "Save feedback and close"
+msgstr ""
+
+#: $string['savenotes']
+msgid "Save notes and close"
+msgstr ""
+
+#: $string['search']
+msgid "Search"
+msgstr ""
+
+#: $string['searchusers']
+msgid "Enter email address"
+msgstr ""
+
+#: $string['secondlevelcat']
+msgid "Second level category:"
+msgstr ""
+
+#: $string['selectall']
+msgid "Select all"
+msgstr ""
+
+#: $string['selectallforemail']
+msgid "Select all for emailing"
+msgstr ""
+
+#: $string['selfaddedfeedback']
+msgid "Self-added feedback"
+msgstr ""
+
+#: $string['selfassessment']
+msgid "Self-assessment:"
+msgstr ""
+
+#: $string['sendmail']
+msgid "Send mail"
+msgstr ""
+
+#: $string['settingsacademicyear']
+msgctxt "$string['settingsacademicyear']"
+msgid "Academic year"
+msgstr ""
+
+#: $string['statsperassessment']
+msgid "Stats per assessment"
+msgstr ""
+
+#: $string['statspercourse']
+msgid "Stats per course"
+msgstr ""
+
+#: $string['statsperstudent']
+msgid "Stats per student"
+msgstr ""
+
+#: $string['studentaddedfeedback']
+msgid "Student-added feedback"
+msgstr ""
+
+#: $string['studentbreakdown']
+msgid "Student breakdown"
+msgstr ""
+
+#: $string['student_due_info']
+msgid "The number of students who are expected to complete this assessment."
+msgstr ""
+
+#: $string['student_feed_info']
+msgid ""
+"The number of students where feedback was returned to them more than "
+"{$a->lte} days after the due date, or submission date, whichever is later."
+msgstr ""
+
+#: $string['student_graded_info']
+msgid ""
+"The number of students graded to date with feedback visible for this "
+"assessment."
+msgstr ""
+
+#: $string['studentgraphdesc']
+msgid ""
+"The lowest grade is {$a->minimum}%, the median grade is {$a->mean}% and the "
+"highest grade is {$a->maximum}%. The student's score is {$a->studentscore}%."
+msgstr ""
+
+#: $string['student_late_info']
+msgid "The number of students with late submissions for this assessment."
+msgstr ""
+
+#: $string['student_low_info']
+msgid "The number of students who scored below 50% for this assessment."
+msgstr ""
+
+#: $string['student_nonsub_info']
+msgid "The number of students who missed submissions for this assessment."
+msgstr ""
+
+#: $string['student_overall_info']
+msgid ""
+"The number of students who score in each percentile and the lowest grade, "
+"median grade (in red) and highest grade (numbered and marked above the "
+"graph)"
+msgstr ""
+
+#: $string['studentrecordsystem']
+msgid "Launch Student Record System"
+msgstr ""
+
+#: $string['studentrecordsystemlink']
+msgctxt "$string['studentrecordsystemlink']"
+msgid "https://"
+msgstr ""
+
+#: $string['studentsaccessto']
+msgid ""
+"Any personal tutees you are allocated (in Portico) will show by default in "
+"the list below. To find a student in any of the Moodle courses you teach or "
+"administer, please search for their <b>email address</b>."
+msgstr ""
+
+#: $string['submission']
+msgid "view submission"
+msgstr ""
+
+#: $string['suborassessed']
+msgid "Assessed"
+msgstr ""
+
+#: $string['tabs_academicyear']
+msgctxt "$string['tabs_academicyear']"
+msgid "Academic year"
+msgstr ""
+
+#: $string['tabs_feedback']
+msgid "Feedback comments"
+msgstr ""
+
+#: $string['tabs_feedback_text']
+msgid ""
+"Here you can view the general feedback from your assessments. This is taken "
+"from the General feedback section on assessments including Moodle "
+"Assignments, Peer Assessed Workshops and Quizzes. The feedback from Turnitin "
+"Assignments needs to be manually copied and pasted in to the report, since "
+"this can't be imported automatically. Click 'view feedback' to view your "
+"assessment feedback in full. If you are on a small screen you may need to "
+"click the plus icon to see this link."
+msgstr ""
+
+#: $string['tabs_mtutor']
+msgid "Module tutor dashboard"
+msgstr ""
+
+#: $string['tabs_mymodules']
+msgctxt "$string['tabs_mymodules']"
+msgid "My courses"
+msgstr ""
+
+#: $string['tabs_mytutees']
+msgid "My students"
+msgstr ""
+
+#: $string['tabs_overview']
+msgid "Overview"
+msgstr ""
+
+#: $string['tabs_progadmin']
+msgid "Departmental admin overview"
+msgstr ""
+
+#: $string['tabs_ptutor']
+msgid "Personal tutor"
+msgstr ""
+
+#: $string['tabs_tutor']
+msgid "Personal tutor dashboard"
+msgstr ""
+
+#: $string['togglegrade']
+msgid "Toggle grade"
+msgstr ""
+
+#: $string['togglegradedescription']
+msgid ""
+"You can toggle between the relative grade and the absolute grade graphs."
+msgstr ""
+
+#: $string['turnitin_assignment']
+msgid "Turnitin"
+msgstr ""
+
+#: $string['tutee']
+msgid "Tutee"
+msgstr ""
+
+#: $string['tutees_plus_minus']
+msgid "Tutees (+/-)"
+msgstr ""
+
+#: $string['tutorfeedback']
+msgid "Tutor feedback:"
+msgstr ""
+
+#: $string['tutorgroups']
+msgid "Tutor groups (+/-)"
+msgstr ""
+
+#: $string['tutor_messages']
+msgid "Messages"
+msgstr ""
+
+#: $string['tutortblheader_assessment']
+msgctxt "$string['tutortblheader_assessment']"
+msgid "Assessments"
+msgstr ""
+
+#: $string['tutortblheader_assessment_info']
+msgid ""
+"A count of all assessments with a due date in the past, or that have been  "
+"submitted to, plus any manual grade items."
+msgstr ""
+
+#: $string['tutortblheader_graded']
+msgid "Graded <br> assessments"
+msgstr ""
+
+#: $string['tutortblheader_graded_info']
+msgid ""
+"The number of assessments graded to date with feedback visible to students."
+msgstr ""
+
+#: $string['tutortblheader_latefeedback']
+msgid "Late feedback"
+msgstr ""
+
+#: $string['tutortblheader_latefeedback_info']
+msgid ""
+"The number of assessments where feedback was returned to students more than "
+"{$a->lte} days after the due date, or submission date, whichever is later."
+msgstr ""
+
+#: $string['tutortblheader_latesubmissions']
+msgid "Late <br> submissions"
+msgstr ""
+
+#: $string['tutortblheader_latesubmissions_info']
+msgid "The number of late submissions for all due assessments."
+msgstr ""
+
+#: $string['tutortblheader_lowgrades']
+msgid "Low graded <br> (<50%)"
+msgstr ""
+
+#: $string['tutortblheader_lowgrades_info']
+msgid "The number of assessments graded to date that scored below 50%."
+msgstr ""
+
+#: $string['tutortblheader_name']
+msgid "Name"
+msgstr ""
+
+#: $string['tutortblheader_nonsubmissions']
+msgid "Non-submissions"
+msgstr ""
+
+#: $string['tutortblheader_nonsubmissions_info']
+msgid "The number of missed submissions for all due assessments."
+msgstr ""
+
+#: $string['tutortblheader_overallgrade']
+msgid "Overall grade"
+msgstr ""
+
+#: $string['tutortblheader_overallgrade_info']
+msgid ""
+"The graph shows the lowest grade, median grade (in red)  and highest grade "
+"(numbered and marked above the graph). Each student's grade is shown out of "
+"100 (under the graph to the right) and is shown in red (<40%), amber (41-50%"
+") or green (>50%)."
+msgstr ""
+
+#: $string['tutortblheader_personaltutees']
+msgid "Personal tutees / Course names"
+msgstr ""
+
+#: $string['uncategorized']
+msgid "Uncategorized"
+msgstr ""
+
+#: $string['updatesuccessful']
+msgid "Data successfully updated"
+msgstr ""
+
+#: $string['userprogramme']
+msgid "Programme:"
+msgstr ""
+
+#: $string['viewfeedback']
+msgid "view the feedback directly in Turnitin"
+msgstr ""
+
+#: $string['viewfeedbacktitle']
+msgid "Click here to view feedback in Turnitin"
+msgstr ""
+
+#: $string['waslate']
+msgid "{$a->late} late."
+msgstr ""
+
+#: $string['wordcloud_text']
+msgid ""
+"This word cloud shows the frequency of words and phrases that have appeared "
+"in your feedback - the larger the word, the more frequently it is used in "
+"feedback. Hover over a word to see how many times and where it has been "
+"used."
+msgstr ""
+
+#: $string['wordcloud_title']
+msgid "Words used commonly in feedback"
+msgstr ""
+
+#: $string['workshop']
+msgid "Workshop"
+msgstr ""
+
+#: $string['year']
+msgid "Year"
+msgstr ""
+
+#: $string['yearlevel']
+msgid "Yr level"
+msgstr ""

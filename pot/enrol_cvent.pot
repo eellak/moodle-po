@@ -1,0 +1,245 @@
+#. extracted from lang/en/enrol_cvent.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'enrol_cvent', language 'en', branch 'MOODLE_26_STABLE'
+#.  *
+#.  * @package   enrol_cvent
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['account_number']
+msgid "Cvent account ID"
+msgstr ""
+
+#: $string['account_number_desc']
+msgid "Your Cvent account ID. (You must receive this value from Cvent.)"
+msgstr ""
+
+#: $string['apicallsremaining']
+msgid "API calls remaining today until Midnight, Eastern time: {\\$a}\\n"
+msgstr ""
+
+#: $string['attemptinginit']
+msgid "Attempting to authenticate to Cvent...\\n"
+msgstr ""
+
+#: $string['autocreate_category']
+msgid "Auto-create course category"
+msgstr ""
+
+#: $string['autocreate_category_desc']
+msgid "The category for auto-created courses."
+msgstr ""
+
+#: $string['autocreate_courses']
+msgid "Auto-create courses"
+msgstr ""
+
+#: $string['autocreate_courses_desc']
+msgid ""
+"Courses can be created automatically (with the correct ID numbers) if there "
+"are enrolments to a course that doesn't yet exist in Moodle."
+msgstr ""
+
+#: $string['clicktoseelogafter']
+msgid ""
+"Click here to see the API calls log after this page is finished loading."
+msgstr ""
+
+#: $string['couldnotinit']
+msgid ""
+"Cvent could not be initialized; the number of API calls remaining today is "
+"unknown."
+msgstr ""
+
+#: $string['count']
+msgid "Count: {\\$a}<br />\\n"
+msgstr ""
+
+#: $string['cron_frequency']
+msgid "Cron delay"
+msgstr ""
+
+#: $string['cron_frequency_desc']
+msgid ""
+"The minimum number of minutes to wait before synchronizations with Cvent. "
+"Moodle cron must be configured for this to work. Enter '0' or leave blank to "
+"disable synchronization via Moodle cron."
+msgstr ""
+
+#: $string['defaultrole_desc']
+msgid ""
+"This plugin currently only handles Cvent registrants and guests; teachers "
+"still need to be enroled separately in Moodle."
+msgstr ""
+
+#: $string['enrol_cvent_autocreate_header']
+msgid "Auto-creation of new courses"
+msgstr ""
+
+#: $string['enrol_cvent_cron_header']
+msgid "Synchronization Via Moodle Cron"
+msgstr ""
+
+#: $string['enrol_cvent_cron_now']
+msgid "Cvent enrolments: Synchronizing now.\\n"
+msgstr ""
+
+#: $string['enrol_cvent_mustbeadmin']
+msgid "Must be admin or must run from CLI!<br />\\n"
+msgstr ""
+
+#: $string['enrol_cvent_nocron']
+msgid "Cvent enrolments: Not configured to synchronize during Moodle cron.\\n"
+msgstr ""
+
+#: $string['enrol_cvent_nocron_now']
+msgid ""
+"Cvent enrolments: Too early for next synchronization during Moodle cron. "
+"Will synchronize again in {\\$a} minute(s).\\n"
+msgstr ""
+
+#: $string['enrol_daysafter']
+msgid "Extended course access"
+msgstr ""
+
+#: $string['enrol_daysafter_desc']
+msgid ""
+"Keep students in their courses this many days after the Cvent event is "
+"scheduled to end. (Enter -1 to disable -- students will have course access "
+"indefinitely.)"
+msgstr ""
+
+#: $string['enrol_daysbefore']
+msgid "Early course access"
+msgstr ""
+
+#: $string['enrol_daysbefore_desc']
+msgid ""
+"Enrol students in their courses this many days before the Cvent event is "
+"scheduled to begin."
+msgstr ""
+
+#: $string['headingcallsmade']
+msgid "API calls made (by this plugin)"
+msgstr ""
+
+#: $string['headingcallsremaining']
+msgid "API calls remaining (at last check)"
+msgstr ""
+
+#: $string['initerrorunknown']
+msgid ""
+"Unknown error authenticating to Cvent. Perhaps you want to turn on Moodle "
+"debugging and try again.\\n"
+msgstr ""
+
+#: $string['initsuccess']
+msgid "Successfully authenticated to Cvent!\\n"
+msgstr ""
+
+#: $string['INVALID_LOGIN']
+msgid ""
+"Cvent returned 'INVALID_LOGIN'. Please check your configured Cvent account "
+"number, username, and password.\\n"
+msgstr ""
+
+#: $string['manualsync']
+msgid "Synchronize now"
+msgstr ""
+
+#: $string['password']
+msgid "Cvent password"
+msgstr ""
+
+#: $string['password_desc']
+msgid "Your Cvent account password."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Cvent"
+msgstr ""
+
+#: $string['pluginname_desc']
+msgid ""
+"You can use Cvent (cvent.com) to manage your enrolments. You must be a "
+"customer of Cvent and have API access in order to use this plugin."
+msgstr ""
+
+#: $string['search_location']
+msgid "Search location prefix"
+msgstr ""
+
+#: $string['search_location_desc']
+msgid ""
+"The beginning of the name of the location(s) you wish to include.<br />\\nFor "
+"example: If you have three locations in Cvent (Town, Town Hall, Courthouse) "
+"and you want this moodle to get enrolments for events in Town and Town "
+"Hall, enter 'Town' here."
+msgstr ""
+
+#: $string['server_settings']
+msgid "Cvent Settings"
+msgstr ""
+
+#: $string['set_up_enrolments']
+msgid "Setting up enrolments for {\\$a}...<br />\\n"
+msgstr ""
+
+#: $string['username']
+msgid "Cvent username"
+msgstr ""
+
+#: $string['username_desc']
+msgid "Your Cvent account username. (You must receive this value from Cvent.)"
+msgstr ""
+
+#: $string['verbose']
+msgid "Verbose"
+msgstr ""
+
+#: $string['verbose_desc']
+msgid ""
+"Enabling verbosity increases the amount of output seen from CLI/cron "
+"scripts."
+msgstr ""
+
+#: $string['viewlog']
+msgid "view log"
+msgstr ""
+
+#: $string['view_stats']
+msgid "<a href=\"{$a}\">View API statistics</a>"
+msgstr ""
+
+#: $string['youmustsetdatetimezone']
+msgid ""
+"Error: date.timezone is not set in your php.ini. You must set this parameter "
+"before the Cvent enrolment plugin can work."
+msgstr ""

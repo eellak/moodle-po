@@ -1,0 +1,223 @@
+#. extracted from lang/en/qtype_easyomechjs.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qtype_easyomechjs', language 'en', branch 'MOODLE_30_STABLE'
+#.  *
+#.  * @package   qtype_easyomechjs
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addmoreanswerblanks']
+msgid "Blanks for {no} More Answers"
+msgstr ""
+
+#: $string['answer']
+msgid "Answer: {$a}"
+msgstr ""
+
+#: $string['answermustbegiven']
+msgid "You must enter an answer if there is a grade or feedback."
+msgstr ""
+
+#: $string['answerno']
+msgid "Answer {$a}"
+msgstr ""
+
+#: $string['author']
+msgid ""
+"Question type courtesy of Carl LeBlond, Indiana University of Pennsylvania"
+msgstr ""
+
+#: $string['configeasyomechjsoptions']
+msgid ""
+"The path of your marvin installation relative to your web root.  (e.g. If "
+"your moodle is installed at /var/www/html/moodle and you install your "
+"Marvinjs at /var/www/html/marvinjs then you should use the default "
+"/marvinjs)"
+msgstr ""
+
+#: $string['correct_answer']
+msgid "Correct Answer"
+msgstr ""
+
+#: $string['correctansweris']
+msgid "The correct answer is: {$a}."
+msgstr ""
+
+#: $string['correctanswers']
+msgid "<b>Instructions</b>"
+msgstr ""
+
+#: $string['easyomechjseditor']
+msgid "MarvinJS Editor"
+msgstr ""
+
+#: $string['easyomechjs_options']
+msgid "Path to MarvinJS installation"
+msgstr ""
+
+#: $string['enablejava']
+msgid ""
+"Tried but failed to load MarvinJS editor. You have not got a JAVA runtime "
+"environment working in your browser. You will need one to attempt this "
+"question."
+msgstr ""
+
+#: $string['enablejavaandjavascript']
+msgid ""
+"Loading MarvinJS editor.... If this message does not get replaced by the "
+"MarvinJS editor then you have not got javascript and a JAVA runtime "
+"environment working in your browser."
+msgstr ""
+
+#: $string['feedback_no_arrows']
+msgid ""
+"You did not add any arrows.  Use the arrow icon on the left to add arrows "
+"next time!"
+msgstr ""
+
+#: $string['feedback_polar']
+msgid ""
+"This is a polar reaction but you used half arrow heads.<br> You should use "
+"full arrow heads for polar reactions.  In polar reactions the electrons move "
+"in pairs."
+msgstr ""
+
+#: $string['feedback_radical']
+msgid ""
+"This is a radical reaction but you used full arrow heads.<br> You should use "
+"half arrow heads for radical reactions.  In radical reactions single "
+"electrons move."
+msgstr ""
+
+#: $string['filloutanswers']
+msgid ""
+"Use the MarvinJS Molecular editor to create the answers, then press the "
+"\"Insert from editor\" buttons to insert the SMILES code into the answer boxes"
+msgstr ""
+
+#: $string['filloutoneanswer']
+msgid ""
+"<b><ul>\n"
+"<li>Draw a complete reaction or resonance conversion with curved arrows in "
+"the MarvinJS editor below.</li>\n"
+"<li>Use multiple arrows for muti-step reactions.</li>\n"
+"<li>Click the \"Insert from editor\" button when finished.</li>\n"
+"<li>Optionally:  Add your incorrect reactions/resonance transforms and "
+"incorrect arrows to the other answer fields.</li>\n"
+"</ul></b>"
+msgstr ""
+
+#: $string['insert']
+msgctxt "$string['insert']"
+msgid "Insert from editor"
+msgstr ""
+
+#: $string['insertfromeditor']
+msgctxt "$string['insertfromeditor']"
+msgid "Insert from editor"
+msgstr ""
+
+#: $string['instructions']
+msgid ""
+"The ChemAxon (\"mrv\") representation of your model must be stored in the "
+"following field in order to be graded:"
+msgstr ""
+
+#: $string['javaneeded']
+msgid ""
+"To use this page you need a Java-enabled browser. Download the latest Java "
+"plug-in from {$a}."
+msgstr ""
+
+#: $string['my_response']
+msgid "My Response"
+msgstr ""
+
+#: $string['notenoughanswers']
+msgid "This type of question requires at least {$a} answers"
+msgstr ""
+
+#: $string['pleaseenterananswer']
+msgid "Please enter an answer."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Chemistry - Electron Pushing / Curved Arrow (MarvinJS)"
+msgstr ""
+
+#: $string['pluginnameadding']
+msgid "Adding a Electron Pushing / Curved Arrow question (MarvinJS)"
+msgstr ""
+
+#: $string['pluginnameediting']
+msgid "Editing a Electron Pushing / Curved Arrow question (MarvinJS)"
+msgstr ""
+
+#: $string['pluginname_help']
+msgid ""
+"Test and strengthen students knowledge of reaction mechanism, resonance and "
+"curved arrow notation.  Draw a reaction mechanism or resonance problem in "
+"MarvinJS below.  Be sure to add curved arrows where appropriate...the "
+"student will be required to provide them.  Choose from two difficulty "
+"levels; Show Products (easier) or Do not Show Products (more difficult).  "
+"You can ask questions such as;<br><ul><li>Please add curved arrows showing "
+"the flow of electrons for the following reaction?</li><li>Please add curved "
+"arrows showing how the following resonance structure could be "
+"obtained?</li></ul>"
+msgstr ""
+
+#: $string['pluginname_link']
+msgid "question/type/easyomechjs"
+msgstr ""
+
+#: $string['pluginnamesummary']
+msgid ""
+"Students must provide curved arrows on a structure or reaction template that "
+"you predefine.  You can ask questions such as;<ul><li>Please add curved "
+"arrows showing the flow of electrons for the following "
+"reaction?</li><li>Please add curved arrows showing how the following "
+"resonance structure could be obtained?</li></ul>"
+msgstr ""
+
+#: $string['view']
+msgid "View in editor"
+msgstr ""
+
+#: $string['viewing_answer']
+msgid "Currently viewing answer"
+msgstr ""
+
+#: $string['viewing_answer1']
+msgid "Currently viewing answer 1"
+msgstr ""
+
+#: $string['youranswer']
+msgid "Your answer: {$a}"
+msgstr ""

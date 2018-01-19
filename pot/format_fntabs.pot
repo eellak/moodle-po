@@ -1,0 +1,986 @@
+#. extracted from lang/en/format_fntabs.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'format_fntabs', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   format_fntabs
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['achievinggrade']
+msgid "Achieving grade"
+msgstr ""
+
+#: $string['action']
+msgctxt "$string['action']"
+msgid ""
+msgstr ""
+
+#: $string['activelinkcolour']
+msgid "Active links - F"
+msgstr ""
+
+#: $string['activeweek']
+msgid "Active section - B"
+msgstr ""
+
+#: $string['activities']
+msgid "Activities"
+msgstr ""
+
+#: $string['activitiescompleted']
+msgid "Activities completed"
+msgstr ""
+
+#: $string['activitycompletion']
+msgid "Activity completion"
+msgstr ""
+
+#: $string['activitytracking']
+msgid "Activity Tracking"
+msgstr ""
+
+#: $string['activitytrackingbackground']
+msgid "Activity tracking background"
+msgstr ""
+
+#: $string['add']
+msgid "Add"
+msgstr ""
+
+#: $string['addcourseprerequisite']
+msgid "Add course prerequisite"
+msgstr ""
+
+#: $string['addedit']
+msgid "Add/Edit"
+msgstr ""
+
+#: $string['afterspecifieddate']
+msgid "After specified date"
+msgstr ""
+
+#: $string['aggregationmethod']
+msgid "Aggregation method"
+msgstr ""
+
+#: $string['all']
+msgid "All"
+msgstr ""
+
+#: $string['announcements']
+msgid "Announcements"
+msgstr ""
+
+#: $string['any']
+msgid "Any"
+msgstr ""
+
+#: $string['approval']
+msgid "Approval"
+msgstr ""
+
+#: $string['badautocompletion']
+msgid ""
+"When you select automatic completion, you must also enable at least one "
+"requirement (below)."
+msgstr ""
+
+#: $string['bgcolour']
+msgid "Background -A"
+msgstr ""
+
+#: $string['blockinfo']
+msgid "Format info"
+msgstr ""
+
+#: $string['close']
+msgid "Close"
+msgstr ""
+
+#: $string['colorschema']
+msgid "Colour schema"
+msgstr ""
+
+#: $string['colorschemas']
+msgid "Colour schemas"
+msgstr ""
+
+#: $string['completedunlocked']
+msgid "Completion options unlocked"
+msgstr ""
+
+#: $string['completedunlockedtext']
+msgid ""
+"When you save changes, completion state for all students will be erased. If "
+"you change your mind about this, do not save the form."
+msgstr ""
+
+#: $string['completedwarning']
+msgid "Completion options locked"
+msgstr ""
+
+#: $string['completedwarningtext']
+msgid ""
+"One or more students ({$a}) has already marked this activity as completed. "
+"Changing completion options will erase their completion state and may cause "
+"confusion. Thus the options have been locked and should not be unlocked "
+"unless absolutely necessary."
+msgstr ""
+
+#: $string['completion']
+msgid "Completion tracking"
+msgstr ""
+
+#: $string['completion-alt-auto-enabled']
+msgid "The system marks this item complete according to conditions"
+msgstr ""
+
+#: $string['completion-alt-auto-fail']
+msgid "Completed (did not achieve pass grade)"
+msgstr ""
+
+#: $string['completion-alt-auto-n']
+msgid "Not attempted"
+msgstr ""
+
+#: $string['completion-alt-auto-pass']
+msgid "Completed (achieved pass grade)"
+msgstr ""
+
+#: $string['completion-alt-auto-y']
+msgid "Completed"
+msgstr ""
+
+#: $string['completion-alt-manual-enabled']
+msgid "Students can manually mark this item complete"
+msgstr ""
+
+#: $string['completion-alt-manual-n']
+msgid "Not completed; select to mark as complete"
+msgstr ""
+
+#: $string['completion-alt-manual-y']
+msgid "Completed; select to mark as not complete"
+msgstr ""
+
+#: $string['completion-alt-saved']
+msgctxt "$string['completion-alt-saved']"
+msgid "Saved assignment"
+msgstr ""
+
+#: $string['completion-alt-submitted']
+msgctxt "$string['completion-alt-submitted']"
+msgid "Waiting for grade"
+msgstr ""
+
+#: $string['completion-alt-title']
+msgid "Submitted"
+msgstr ""
+
+#: $string['completion_automatic']
+msgid "Show activity as complete when conditions are met"
+msgstr ""
+
+#: $string['completiondisabled']
+msgid "Disabled, not shown in activity settings"
+msgstr ""
+
+#: $string['completionenabled']
+msgid "Enabled, control via completion and activity settings"
+msgstr ""
+
+#: $string['completionexpected']
+msgid "Expect completed on"
+msgstr ""
+
+#: $string['completionexpected_help']
+msgid ""
+"This setting specifies the date when the activity is expected to be "
+"completed. The date is not shown to students and is only displayed in the "
+"activity completion report."
+msgstr ""
+
+#: $string['completion_help']
+msgid ""
+"If enabled, activity completion is tracked, either manually or "
+"automatically, based on certain conditions. Multiple conditions may be set "
+"if desired. If so, the activity will only be considered complete when ALL "
+"conditions are met.\n"
+"\n"
+"A tick next to the activity name on the course page indicates when the "
+"activity is complete."
+msgstr ""
+
+#: $string['completionicons']
+msgid "Completion tick boxes"
+msgstr ""
+
+#: $string['completionicons_help']
+msgid ""
+"A tick next an activity name may be used to indicate when the activity is "
+"complete.\n"
+"\n"
+"If a dotted tick is shown, you can click it to tick the box when you think "
+"you have completed the activity. (Clicking it again removes the tick if you "
+"change your mind.) The tick is optional and is simply a way of tracking your "
+"progress through the course.\n"
+"\n"
+"If a blank tick box is shown, a tick will appear automatically when you have "
+"completed the activity according to conditions set by the teacher."
+msgstr ""
+
+#: $string['completion_link']
+msgid "activity/completion"
+msgstr ""
+
+#: $string['completion_manual']
+msgid "Students can manually mark the activity as completed"
+msgstr ""
+
+#: $string['completionmenuitem']
+msgid "Completion"
+msgstr ""
+
+#: $string['completion_none']
+msgid "Do not indicate activity completion"
+msgstr ""
+
+#: $string['completionnotenabled']
+msgid "Completion is not enabled"
+msgstr ""
+
+#: $string['completionnotenabledforcourse']
+msgid "Completion is not enabled for this course"
+msgstr ""
+
+#: $string['completionnotenabledforsite']
+msgid "Completion is not enabled for this site"
+msgstr ""
+
+#: $string['completiononunenrolment']
+msgid "Completion on unenrolment"
+msgstr ""
+
+#: $string['completionsettingslocked']
+msgid "Completion settings locked"
+msgstr ""
+
+#: $string['completionstartonenrol']
+msgid "Completion tracking begins on enrolment"
+msgstr ""
+
+#: $string['completionstartonenrolhelp']
+msgid ""
+"Begin tracking a student's progress in course completion after course "
+"enrolment"
+msgstr ""
+
+#: $string['completion-title-manual-enabled']
+msgctxt "$string['completion-title-manual-enabled']"
+msgid "Mark as not complete"
+msgstr ""
+
+#: $string['completion-title-manual-n']
+msgid "Mark as complete"
+msgstr ""
+
+#: $string['completion-title-manual-y']
+msgctxt "$string['completion-title-manual-y']"
+msgid "Mark as not complete"
+msgstr ""
+
+#: $string['completion-title-saved']
+msgctxt "$string['completion-title-saved']"
+msgid "Saved assignment"
+msgstr ""
+
+#: $string['completion-title-submitted']
+msgctxt "$string['completion-title-submitted']"
+msgid "Waiting for grade"
+msgstr ""
+
+#: $string['completiontracking']
+msgid "Completion tracking on tabs"
+msgstr ""
+
+#: $string['completionusegrade']
+msgid "Require grade"
+msgstr ""
+
+#: $string['completionusegrade_desc']
+msgid "Student must receive a grade to complete this activity"
+msgstr ""
+
+#: $string['completionusegrade_help']
+msgid ""
+"If enabled, the activity is considered complete when a student receives a "
+"grade. Pass and fail icons may be displayed if a pass grade for the activity "
+"has been set."
+msgstr ""
+
+#: $string['completionview']
+msgid "Require view"
+msgstr ""
+
+#: $string['completionview_desc']
+msgid "Student must view this activity to complete it"
+msgstr ""
+
+#: $string['configenablecompletion']
+msgid ""
+"When enabled, this lets you turn on completion tracking (progress) features "
+"at course level."
+msgstr ""
+
+#: $string['confirmselfcompletion']
+msgid "Confirm self completion"
+msgstr ""
+
+#: $string['coursealreadycompleted']
+msgid "You have already completed this course"
+msgstr ""
+
+#: $string['coursecomplete']
+msgid "Course complete"
+msgstr ""
+
+#: $string['coursecompleted']
+msgid "Course completed"
+msgstr ""
+
+#: $string['coursegrade']
+msgid "Course grade"
+msgstr ""
+
+#: $string['courseprerequisites']
+msgid "Course prerequisites"
+msgstr ""
+
+#: $string['coursesavailable']
+msgid "Courses available"
+msgstr ""
+
+#: $string['coursesavailableexplaination']
+msgid ""
+"<i>Course completion criteria must be set for a course to appear in this "
+"list</i>"
+msgstr ""
+
+#: $string['criteria']
+msgid "Criteria"
+msgstr ""
+
+#: $string['criteriagroup']
+msgid "Criteria group"
+msgstr ""
+
+#: $string['criteriarequiredall']
+msgid "All criteria below are required"
+msgstr ""
+
+#: $string['criteriarequiredany']
+msgid "Any criteria below are required"
+msgstr ""
+
+#: $string['csvdownload']
+msgid "Download in spreadsheet format (UTF-8 .csv)"
+msgstr ""
+
+#: $string['currentsection']
+msgid "This topic"
+msgstr ""
+
+#: $string['datepassed']
+msgid "Date passed"
+msgstr ""
+
+#: $string['days']
+msgid "Days"
+msgstr ""
+
+#: $string['daysafterenrolment']
+msgid "Days after enrolment"
+msgstr ""
+
+#: $string['defaultmainheading']
+msgid "Weekly Activities"
+msgstr ""
+
+#: $string['default_tab_notattempted_text']
+msgid "Week/topic that contains the earliest \"not attempted\" activity"
+msgstr ""
+
+#: $string['default_tab_specifyweek_text']
+msgid "Specify default week/section"
+msgstr ""
+
+#: $string['default_tab_text']
+msgid "Current week/section as determined by start date"
+msgstr ""
+
+#: $string['defaulttopicheading']
+msgctxt "$string['defaulttopicheading']"
+msgid "Section"
+msgstr ""
+
+#: $string['delete']
+msgid "Delete"
+msgstr ""
+
+#: $string['deletecolourschema']
+msgid "Delete this colour schema"
+msgstr ""
+
+#: $string['deleteconfirmmsg']
+msgid "Record will be deleted permanently. Do you want to continue?"
+msgstr ""
+
+#: $string['deletecoursecompletiondata']
+msgid "Delete course completion data"
+msgstr ""
+
+#: $string['deletesection']
+msgid "Delete topic"
+msgstr ""
+
+#: $string['duplicate']
+msgid "Duplicate"
+msgstr ""
+
+#: $string['durationafterenrolment']
+msgid "Duration after enrolment"
+msgstr ""
+
+#: $string['edit']
+msgid "Edit"
+msgstr ""
+
+#: $string['editcoursecompletionsettings']
+msgid "Edit course completion settings"
+msgstr ""
+
+#: $string['editsection']
+msgid "Edit topic"
+msgstr ""
+
+#: $string['edit_title_for_section0']
+msgid "Edit Section 0 title"
+msgstr ""
+
+#: $string['enablecompletion']
+msgid "Enable completion tracking"
+msgstr ""
+
+#: $string['enrolmentduration']
+msgid "Days left"
+msgstr ""
+
+#: $string['equalspacing']
+msgid "Equal spacing"
+msgstr ""
+
+#: $string['err_noactivities']
+msgid ""
+"Completion information is not enabled for any activity, so none can be "
+"displayed. You can enable completion information by editing the settings for "
+"an activity."
+msgstr ""
+
+#: $string['err_nocourses']
+msgid ""
+"Course completion is not enabled for any other courses, so none can be "
+"displayed. You can enable course completion in the course settings."
+msgstr ""
+
+#: $string['err_nograde']
+msgid ""
+"A course pass grade has not been set for this course. To enable this "
+"criteria type you must create a pass grade for this course."
+msgstr ""
+
+#: $string['err_noroles']
+msgid ""
+"There are no roles with the capability 'moodle/course:markcomplete' in this "
+"course. You can enable this criteria type by adding this capability to "
+"role(s)."
+msgstr ""
+
+#: $string['err_nousers']
+msgid ""
+"There are no students on this course or group for whom completion "
+"information is displayed. (By default, completion information is displayed "
+"only for students, so if there are no students, you will see this error. "
+"Administrators can alter this option via the admin screens.)"
+msgstr ""
+
+#: $string['err_settingslocked']
+msgid ""
+"One or more students have already completed a criteria so the settings have "
+"been locked. Unlocking the completion criteria settings will delete any "
+"existing user data and may cause confusion."
+msgstr ""
+
+#: $string['err_system']
+msgid ""
+"An internal error occurred in the completion system. (System administrators "
+"can enable debugging information to see more detail.)"
+msgstr ""
+
+#: $string['excelcsvdownload']
+msgid "Download in Excel-compatible format (.csv)"
+msgstr ""
+
+#: $string['formatfn']
+msgid "NED Tabs"
+msgstr ""
+
+#: $string['fraction']
+msgid "Fraction"
+msgstr ""
+
+#: $string['hide']
+msgid "Hide"
+msgstr ""
+
+#: $string['hidefromothers']
+msgid "Hide topic"
+msgstr ""
+
+#: $string['hideweekfromothers']
+msgid "Hide week"
+msgstr ""
+
+#: $string['inactivebgcolour']
+msgid "Inactive section - E"
+msgstr ""
+
+#: $string['inactivelinkcolour']
+msgid "Inactive links - H"
+msgstr ""
+
+#: $string['inactiveweek']
+msgid "Selected & inactive - D"
+msgstr ""
+
+#: $string['inprogress']
+msgid "In progress"
+msgstr ""
+
+#: $string['label_deafulttab_text']
+msgid "Default tab selected"
+msgstr ""
+
+#: $string['loadcolorschema']
+msgid "Load color schema"
+msgstr ""
+
+#: $string['locationoftrackingicons']
+msgid "Location of tracking icons"
+msgstr ""
+
+#: $string['mainheading']
+msgid "Main heading"
+msgstr ""
+
+#: $string['managecolorschemas']
+msgid "Manage colour schemas"
+msgstr ""
+
+#: $string['manualcompletionby']
+msgid "Manual completion by"
+msgstr ""
+
+#: $string['manualselfcompletion']
+msgid "Manual self completion"
+msgstr ""
+
+#: $string['markcomplete']
+msgid "Mark complete"
+msgstr ""
+
+#: $string['markedcompleteby']
+msgid "Marked complete by {$a}"
+msgstr ""
+
+#: $string['markingyourselfcomplete']
+msgid "Marking yourself complete"
+msgstr ""
+
+#: $string['missingactivecolour']
+msgid "Active week's colour can not be null"
+msgstr ""
+
+#: $string['missingbgcolour']
+msgid "Background colour can not be null"
+msgstr ""
+
+#: $string['missinginactivebgcolour']
+msgid "Inactive background colour can not be null"
+msgstr ""
+
+#: $string['missinginactivecolour']
+msgid "Inactive week's colour can not be null"
+msgstr ""
+
+#: $string['missingmainheading']
+msgid "Main heading can not be null"
+msgstr ""
+
+#: $string['missingselectedcolour']
+msgid "Selected week's colour can not be null"
+msgstr ""
+
+#: $string['missingselectedlinkcolour']
+msgid "Highlight colour can not be null"
+msgstr ""
+
+#: $string['missingtopicheading']
+msgid "Topic heading can not be null"
+msgstr ""
+
+#: $string['moodleicons']
+msgid "Moodle icons"
+msgstr ""
+
+#: $string['moredetails']
+msgid "More details"
+msgstr ""
+
+#: $string['name']
+msgid "Name"
+msgstr ""
+
+#: $string['namefn']
+msgid "Week"
+msgstr ""
+
+#: $string['namefntabs']
+msgid "NED Week"
+msgstr ""
+
+#: $string['nediconsleft']
+msgid "NED icons left"
+msgstr ""
+
+#: $string['nediconsright']
+msgid "NED icons right"
+msgstr ""
+
+#: $string['nocriteriaset']
+msgid "No completion criteria set for this course"
+msgstr ""
+
+#: $string['notenroled']
+msgid "You are not enroled in this course"
+msgstr ""
+
+#: $string['notyetstarted']
+msgid "Not yet started"
+msgstr ""
+
+#: $string['overallcriteriaaggregation']
+msgid "Overall criteria type aggregation"
+msgstr ""
+
+#: $string['page-course-view-topics']
+msgid "Any course main page in topics format"
+msgstr ""
+
+#: $string['page-course-view-topics-x']
+msgid "Any course page in topics format"
+msgstr ""
+
+#: $string['page-course-view-weeks']
+msgid "Any course main page in weeks format"
+msgstr ""
+
+#: $string['page-course-view-weeks-x']
+msgid "Any course page in weeks format"
+msgstr ""
+
+#: $string['passinggrade']
+msgid "Passing grade"
+msgstr ""
+
+#: $string['pending']
+msgid "Pending"
+msgstr ""
+
+#: $string['periodpostenrolment']
+msgid "Period post enrolment"
+msgstr ""
+
+#: $string['pluginname']
+msgid "NED Tabs Format"
+msgstr ""
+
+#: $string['predefined']
+msgid "Predefined"
+msgstr ""
+
+#: $string['prerequisites']
+msgid "Prerequisites"
+msgstr ""
+
+#: $string['prerequisitescompleted']
+msgid "Prerequisites completed"
+msgstr ""
+
+#: $string['progress']
+msgid "Student progress"
+msgstr ""
+
+#: $string['progress-title']
+msgid "{$a->user}, {$a->activity}: {$a->state} {$a->date}"
+msgstr ""
+
+#: $string['recognitionofpriorlearning']
+msgid "Recognition of prior learning"
+msgstr ""
+
+#: $string['remainingenroledfortime']
+msgid "Remaining enrolled for a specified period of time"
+msgstr ""
+
+#: $string['remainingenroleduntildate']
+msgid "Remaining enrolled until a specified date"
+msgstr ""
+
+#: $string['reportpage']
+msgid "Showing users {$a->from} to {$a->to} of {$a->total}."
+msgstr ""
+
+#: $string['requiredcriteria']
+msgid "Required criteria"
+msgstr ""
+
+#: $string['restoringcompletiondata']
+msgctxt "$string['restoringcompletiondata']"
+msgid "Writing completion data"
+msgstr ""
+
+#: $string['rowcount']
+msgctxt "$string['rowcount']"
+msgid ""
+msgstr ""
+
+#: $string['save']
+msgid "Save"
+msgstr ""
+
+#: $string['saveas']
+msgid "Save as"
+msgstr ""
+
+#: $string['saved']
+msgid "Saved"
+msgstr ""
+
+#: $string['section0name']
+msgid "General"
+msgstr ""
+
+#: $string['sectionname']
+msgctxt "$string['sectionname']"
+msgid "Section"
+msgstr ""
+
+#: $string['sections']
+msgid "Sections"
+msgstr ""
+
+#: $string['sectionzerodefaultheading']
+msgid "Section Zero"
+msgstr ""
+
+#: $string['seedetails']
+msgid "See details"
+msgstr ""
+
+#: $string['selectedlinkcolour']
+msgid "Selected link - G"
+msgstr ""
+
+#: $string['selectedweek']
+msgid "Selected section - C"
+msgstr ""
+
+#: $string['self']
+msgid "Self"
+msgstr ""
+
+#: $string['selfcompletion']
+msgid "Self completion"
+msgstr ""
+
+#: $string['setnumberoftabs']
+msgid "Max tabs shown"
+msgstr ""
+
+#: $string['settings']
+msgid "Settings"
+msgstr ""
+
+#: $string['show']
+msgid "Show"
+msgstr ""
+
+#: $string['showallweeks']
+msgid "Show all weeks"
+msgstr ""
+
+#: $string['showfromothers']
+msgid "Show topic"
+msgstr ""
+
+#: $string['showinguser']
+msgid "Showing user"
+msgstr ""
+
+#: $string['showonlysection0']
+msgid "Show <i>Only</i> Section 0"
+msgstr ""
+
+#: $string['showorphaned']
+msgid "Show orphaned section in edit mode"
+msgstr ""
+
+#: $string['showsection0']
+msgid "Show Section 0"
+msgstr ""
+
+#: $string['showtabs']
+msgid "Show tabs"
+msgstr ""
+
+#: $string['showweekfromothers']
+msgid "Show week"
+msgstr ""
+
+#: $string['submit']
+msgid "Submit"
+msgstr ""
+
+#: $string['successful']
+msgid "Successful"
+msgstr ""
+
+#: $string['tabcontent']
+msgid "Tab content"
+msgstr ""
+
+#: $string['tabs']
+msgid "Tabs"
+msgstr ""
+
+#: $string['tabwidth']
+msgid "Tab width"
+msgstr ""
+
+#: $string['textwidth']
+msgid "Text width"
+msgstr ""
+
+#: $string['timecreated']
+msgid "Time created"
+msgstr ""
+
+#: $string['timemodified']
+msgid "Time modified"
+msgstr ""
+
+#: $string['topicheading']
+msgid "Topic heading"
+msgstr ""
+
+#: $string['unenrolingfromcourse']
+msgid "Unenroling from course"
+msgstr ""
+
+#: $string['unenrolment']
+msgid "Unenrolment"
+msgstr ""
+
+#: $string['unit']
+msgid "Unit"
+msgstr ""
+
+#: $string['unlockcompletion']
+msgid "Unlock completion options"
+msgstr ""
+
+#: $string['unlockcompletiondelete']
+msgid "Unlock completion options and delete user completion data"
+msgstr ""
+
+#: $string['usealternateselector']
+msgid "Use the alternate course selector"
+msgstr ""
+
+#: $string['usecustomtext']
+msgid "Use custom text"
+msgstr ""
+
+#: $string['usernotenroled']
+msgid "User is not enroled in this course"
+msgstr ""
+
+#: $string['usesectionnumbers']
+msgid "Use section numbers"
+msgstr ""
+
+#: $string['usesectiontitles']
+msgid "Use section titles"
+msgstr ""
+
+#: $string['viewcoursereport']
+msgid "View course report"
+msgstr ""
+
+#: $string['viewingactivity']
+msgid "Viewing the {$a}"
+msgstr ""
+
+#: $string['writingcompletiondata']
+msgctxt "$string['writingcompletiondata']"
+msgid "Writing completion data"
+msgstr ""
+
+#: $string['xdays']
+msgid "{$a} days"
+msgstr ""
+
+#: $string['yes']
+msgid "Yes"
+msgstr ""
+
+#: $string['yourprogress']
+msgid "Your progress"
+msgstr ""

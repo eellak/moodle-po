@@ -1,0 +1,210 @@
+#. extracted from lang/en/availability.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'availability', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   availability
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['accessrestrictions']
+msgid "Access restrictions"
+msgstr ""
+
+#: $string['addrestriction']
+msgid "Add restriction..."
+msgstr ""
+
+#: $string['and']
+msgid "and"
+msgstr ""
+
+#: $string['condition_group']
+msgid "Restriction set"
+msgstr ""
+
+#: $string['condition_group_info']
+msgid "Add a set of nested restrictions to apply complex logic."
+msgstr ""
+
+#: $string['enableavailability']
+msgid "Enable restricted access"
+msgstr ""
+
+#: $string['enableavailability_desc']
+msgid ""
+"When enabled, this lets you set conditions (based on date, grade, or "
+"completion) that control whether an activity or resource can be accessed."
+msgstr ""
+
+#: $string['error_list_nochildren']
+msgid "Restriction sets should contain at least one condition."
+msgstr ""
+
+#: $string['hidden_all']
+msgid "Hidden entirely if user does not meet conditions"
+msgstr ""
+
+#: $string['hidden_individual']
+msgid "Hidden entirely if user does not meet this condition"
+msgstr ""
+
+#: $string['hidden_marker']
+msgid "(hidden otherwise)"
+msgstr ""
+
+#: $string['hide_verb']
+msgid "Click to hide"
+msgstr ""
+
+#: $string['invalid']
+msgid "Please set"
+msgstr ""
+
+#: $string['itemheading']
+msgid "{$a->number} {$a->type} restriction"
+msgstr ""
+
+#: $string['item_unknowntype']
+msgid ""
+"These restrictions use a plugin which is no longer available (if it is okay "
+"to remove that restriction, delete it below)"
+msgstr ""
+
+#: $string['label_multi']
+msgid "Required restrictions"
+msgstr ""
+
+#: $string['label_sign']
+msgid "Restriction type"
+msgstr ""
+
+#: $string['list_and']
+msgid "All of:"
+msgstr ""
+
+#: $string['list_and_hidden']
+msgid "All of (hidden otherwise):"
+msgstr ""
+
+#: $string['listheader_multi_after']
+msgid "of the following"
+msgstr ""
+
+#: $string['listheader_multi_and']
+msgid "all"
+msgstr ""
+
+#: $string['listheader_multi_before']
+msgid "match"
+msgstr ""
+
+#: $string['listheader_multi_or']
+msgid "any"
+msgstr ""
+
+#: $string['listheader_sign_before']
+msgid "Student"
+msgstr ""
+
+#: $string['listheader_sign_neg']
+msgid "must not"
+msgstr ""
+
+#: $string['listheader_sign_pos']
+msgid "must"
+msgstr ""
+
+#: $string['listheader_single']
+msgid "match the following"
+msgstr ""
+
+#: $string['list_or']
+msgid "Any of:"
+msgstr ""
+
+#: $string['list_or_hidden']
+msgid "Any of (hidden otherwise):"
+msgstr ""
+
+#: $string['list_root_and']
+msgid "Not available unless:"
+msgstr ""
+
+#: $string['list_root_and_hidden']
+msgid "Not available (hidden) unless:"
+msgstr ""
+
+#: $string['list_root_or']
+msgid "Not available unless any of:"
+msgstr ""
+
+#: $string['list_root_or_hidden']
+msgid "Not available (hidden) unless any of:"
+msgstr ""
+
+#: $string['manageplugins']
+msgid "Manage restrictions"
+msgstr ""
+
+#: $string['missingplugin']
+msgid "Missing restriction plugin"
+msgstr ""
+
+#: $string['or']
+msgid "or"
+msgstr ""
+
+#: $string['restrictaccess']
+msgid "Restrict access"
+msgstr ""
+
+#: $string['restrictbygroup']
+msgid "Add group/grouping access restriction"
+msgstr ""
+
+#: $string['setheading']
+msgid "{$a->number} Set of {$a->count} restriction(s)"
+msgstr ""
+
+#: $string['shown_all']
+msgid "Displayed greyed-out if user does not meet conditions"
+msgstr ""
+
+#: $string['shown_individual']
+msgid "Displayed greyed-out if user does not meet this condition"
+msgstr ""
+
+#: $string['show_verb']
+msgid "Click to show"
+msgstr ""
+
+#: $string['unknowncondition']
+msgid "Unknown condition (deleted condition plugin)"
+msgstr ""

@@ -1,0 +1,320 @@
+#. extracted from lang/en/local_lessonexport.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'local_lessonexport', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   local_lessonexport
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['annotatepermission']
+msgid "annot-forms"
+msgstr ""
+
+#: $string['annotatepermission_desc']
+msgid "Annotate document forms"
+msgstr ""
+
+#: $string['assemblepermission']
+msgid "assemble"
+msgstr ""
+
+#: $string['assemblepermission_desc']
+msgid "Assemble the document"
+msgstr ""
+
+#: $string['copypermission']
+msgid "copy"
+msgstr ""
+
+#: $string['copypermission_desc']
+msgid "Copy the document"
+msgstr ""
+
+#: $string['covercolour']
+msgid "Front cover banner colour"
+msgstr ""
+
+#: $string['covercolour_desc']
+msgid ""
+"The colour of the banner on the front cover that contains the lesson title."
+msgstr ""
+
+#: $string['created']
+msgid "Created on {$a}"
+msgstr ""
+
+#: $string['customfont']
+msgid "Default PDF font family"
+msgstr ""
+
+#: $string['customfont_desc']
+msgid ""
+"Default font to use in the printed PDF. Possible fonts include: times "
+"(Times-Roman), timesb (Times-Bold), timesi (Times-Italic), timesbi (Times-"
+"BoldItalic), helvetica (Helvetica), helveticab (Helvetica-Bold), helveticai, "
+"helveticabi, courier (Courier), courierb (Courier-Bold), courieri (Courier-"
+"Oblique), courierbi (Courier-BoldOblique), symbol (Symbol), zapfdingbats "
+"(ZapfDingbats)"
+msgstr ""
+
+#: $string['exportpdf']
+msgid "Export as PDF"
+msgstr ""
+
+#: $string['exportstrict']
+msgid "Strict exporting"
+msgstr ""
+
+#: $string['exportstrict_desc']
+msgid ""
+"Whether documents should throw exceptions or suppress them when erroring."
+msgstr ""
+
+#: $string['extractpermission']
+msgid "extract"
+msgstr ""
+
+#: $string['extractpermission_desc']
+msgid "Extract pages from the document"
+msgstr ""
+
+#: $string['failedinsertimage']
+msgid "Failed to insert image: {$a}"
+msgstr ""
+
+#: $string['filename']
+msgid "Export {$a->lessonname} {$a->timestamp}"
+msgstr ""
+
+#: $string['fonts']
+msgid "fonts"
+msgstr ""
+
+#: $string['fontspage']
+msgid "PDF Fonts"
+msgstr ""
+
+#: $string['formfillpermission']
+msgid "fill-forms"
+msgstr ""
+
+#: $string['formfillpermission_desc']
+msgid "Fill forms on the document"
+msgstr ""
+
+#: $string['highdefpermission']
+msgid "print-high"
+msgstr ""
+
+#: $string['highdefpermission_desc']
+msgid "Print the document in high definition"
+msgstr ""
+
+#: $string['language']
+msgid "Language"
+msgstr ""
+
+#: $string['language_desc']
+msgid ""
+"If your language follows a set of rules (RTL text, special characters), "
+"please select your language here."
+msgstr ""
+
+#: $string['lessonexport:exportpdf']
+msgid "Export lesson as PDF"
+msgstr ""
+
+#: $string['lessonexportfailed']
+msgid "Export of lesson '{$a}' failed"
+msgstr ""
+
+#: $string['lessonexportfailed_body']
+msgid ""
+"The lesson '{$a->name}' has been updated, but the attempt to export and "
+"email it has failed, after {$a->exportattempts} attempts. If the lesson is "
+"updated again, then further attempts will be made to export it. The Lesson "
+"can be found at: {$a->url}."
+msgstr ""
+
+#: $string['lessonupdated']
+msgid "Lesson '{$a}' updated"
+msgstr ""
+
+#: $string['lessonupdated_body']
+msgid "Updated export attached"
+msgstr ""
+
+#: $string['modified']
+msgid "Last modified by {$a->modifiedby} on {$a->timemodified}"
+msgstr ""
+
+#: $string['modifypermission']
+msgid "modify"
+msgstr ""
+
+#: $string['modifypermission_desc']
+msgid "Modify the document"
+msgstr ""
+
+#: $string['pdffooterbottomleft']
+msgid "The bottom-left field of the footer."
+msgstr ""
+
+#: $string['pdffooterbottomleft_desc']
+msgid ""
+"The bottom-left area of the footer to be filled with text. This may include "
+"HTML tags for formatting, links, etc."
+msgstr ""
+
+#: $string['pdffooterbottommiddle']
+msgid "The bottom-middle field of the footer."
+msgstr ""
+
+#: $string['pdffooterbottommiddle_desc']
+msgid ""
+"The bottom-middle area of the footer to be filled with text. This may "
+"include HTML tags for formatting, links, etc."
+msgstr ""
+
+#: $string['pdffooterbottomright']
+msgid "The bottom-right field of the footer."
+msgstr ""
+
+#: $string['pdffooterbottomright_desc']
+msgid ""
+"The bottom-right area of the footer to be filled with text. This may include "
+"HTML tags for formatting, links, etc."
+msgstr ""
+
+#: $string['pdffootertopleft']
+msgid "The top-left field of the footer."
+msgstr ""
+
+#: $string['pdffootertopleft_desc']
+msgid ""
+"The top-left area of the footer to be filled with text. This may include "
+"HTML tags for formatting, links, etc."
+msgstr ""
+
+#: $string['pdffootertopmiddle']
+msgid "The top-middle field of the footer."
+msgstr ""
+
+#: $string['pdffootertopmiddle_desc']
+msgid ""
+"The top-middle area of the footer to be filled with text. This may include "
+"HTML tags for formatting, links, etc."
+msgstr ""
+
+#: $string['pdffootertopright']
+msgid "The top-right field of the footer."
+msgstr ""
+
+#: $string['pdffootertopright_desc']
+msgid ""
+"The top-right area of the footer to be filled with text. This may include "
+"HTML tags for formatting, links, etc."
+msgstr ""
+
+#: $string['pdffrontcoverpagenumbers']
+msgid "Front cover page numbers"
+msgstr ""
+
+#: $string['pdffrontcoverpagenumbers_desc']
+msgid ""
+"Toggles whether or not page numbers should be shown on the front cover of a "
+"document."
+msgstr ""
+
+#: $string['pdfownerpassword']
+msgid "PDF document owner password"
+msgstr ""
+
+#: $string['pdfownerpassword_desc']
+msgid "A owner password to apply to PDF documents. Leave blank for none"
+msgstr ""
+
+#: $string['pdfprotection']
+msgid "PDF permissions"
+msgstr ""
+
+#: $string['pdfprotection_desc']
+msgid "Permissions to apply to generated PDF documents."
+msgstr ""
+
+#: $string['pdfuserpassword']
+msgid "PDF document user password"
+msgstr ""
+
+#: $string['pdfuserpassword_desc']
+msgid "A user password to apply to PDF documents. Leave blank for none"
+msgstr ""
+
+#: $string['plugingroup']
+msgid "Lesson Export"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Lesson Export PDF"
+msgstr ""
+
+#: $string['printed']
+msgid "This document was downloaded on {$a}"
+msgstr ""
+
+#: $string['printpermission']
+msgid "print"
+msgstr ""
+
+#: $string['printpermission_desc']
+msgid "Print the document"
+msgstr ""
+
+#: $string['publishemail']
+msgid "Auto-publish email"
+msgstr ""
+
+#: $string['publishemail_desc']
+msgid ""
+"The email address that PDFs will be sent to automatically whenever a lesson "
+"changes"
+msgstr ""
+
+#: $string['publishername']
+msgid "Unknown"
+msgstr ""
+
+#: $string['righttoleft']
+msgid "Right To Left"
+msgstr ""
+
+#: $string['righttoleft_desc']
+msgid "Whether or not to print text from right to left."
+msgstr ""

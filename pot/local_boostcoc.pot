@@ -1,0 +1,134 @@
+#. extracted from lang/en/local_boostcoc.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'local_boostcoc', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   local_boostcoc
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['activefiltershiddencourses']
+msgid "Hidden courses"
+msgstr ""
+
+#: $string['activefiltershintnotshowdisabled']
+msgid ""
+"This course list shows all courses which you are enrolled in. Filters and "
+"hidden courses are not applied."
+msgstr ""
+
+#: $string['activefiltershintnotshowenabledactivefilters']
+msgid "Active course filters:"
+msgstr ""
+
+#: $string['activefiltershintnotshowenabledchangelink']
+msgid "Change filters or re-show hidden courses"
+msgstr ""
+
+#: $string['activefiltershintnotshowenablednoactivefilters']
+msgid "No active course filters"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Boost course overview on campus"
+msgstr ""
+
+#: $string['setting_addactivefiltershint']
+msgid "Add active filters hint"
+msgstr ""
+
+#: $string['setting_addactivefiltershint_desc']
+msgid ""
+"Enabling this setting will add a node to the end of the mycourses list in "
+"Boost's nav drawer telling the user why the mycourses list looks as it is "
+"(e.g. which filters and if hidden courses produced the current mycourses "
+"list)."
+msgstr ""
+
+#: $string['setting_addchangefilterslink']
+msgid "Add change filters link"
+msgstr ""
+
+#: $string['setting_addchangefilterslink_desc']
+msgid ""
+"Enabling this setting will add a node to the end of the mycourses list in "
+"Boost's nav drawer telling the user where to change the current filters and "
+"hidden courses."
+msgstr ""
+
+#: $string['setting_changefilterslinktarget']
+msgid "Change filters link target"
+msgstr ""
+
+#: $string['setting_changefilterslinktarget_desc']
+msgid ""
+"With this setting, you control the change filters link's target. You can set "
+"it to the site home page or to the user's dashboard. This matches the two "
+"locations where block_course_overview_campus can be placed.<br />Please "
+"note: To avoid user confusion, please make sure that "
+"block_course_overview_campus is always placed on the target page by placing "
+"it there as a sticky block.<br /><em>This setting is only processed when "
+"\"Add change filters link\" is activated.</em>"
+msgstr ""
+
+#: $string['setting_enablenotshown']
+msgid "Don't show filtered or hidden courses"
+msgstr ""
+
+#: $string['setting_enablenotshown_desc']
+msgid ""
+"Enabling this setting will modify the mycourses list in Boost's nav drawer "
+"to only show the courses which are currently shown in "
+"block_course_overview_campus according to the user's current filter settings "
+"and to the courses which the user has marked as hidden."
+msgstr ""
+
+#: $string['setting_enablenotshownperformancehint']
+msgid ""
+"Please note: If you enable this setting and have also enabled the setting <a "
+"href=\"/admin/search.php?query=navshowmycoursecategories\">navshowmycoursecat"
+"egories</a>, removing the course nodes takes more time and you should "
+"consider disabling the navshowmycoursecategories setting."
+msgstr ""
+
+#: $string['setting_enablenotshowntechnicalhint']
+msgid ""
+"Technically, this is done by setting the course node's showinflatnavigation "
+"attribute to false. Thus, the course node will only be hidden from the nav "
+"drawer, but it will remain in the navigation tree and can still be accessed "
+"by other parts of Moodle."
+msgstr ""
+
+#: $string['setting_filterstatusheading']
+msgid "Filter status"
+msgstr ""
+
+#: $string['setting_generalfunctionalityheading']
+msgid "General functionality"
+msgstr ""

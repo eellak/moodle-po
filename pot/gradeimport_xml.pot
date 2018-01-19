@@ -1,0 +1,106 @@
+#. extracted from lang/en/gradeimport_xml.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'gradeimport_xml', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   gradeimport_xml
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['errbadxmlformat']
+msgid "Error - bad XML format"
+msgstr ""
+
+#: $string['errduplicategradeidnumber']
+msgid ""
+"Error - there are two grade items with idnumber '{$a}' in this course. This "
+"should be impossible."
+msgstr ""
+
+#: $string['errduplicateidnumber']
+msgid "Error - duplicate idnumber"
+msgstr ""
+
+#: $string['errincorrectgradeidnumber']
+msgid ""
+"Error - idnumber '{$a}' from the import file does not match any grade item."
+msgstr ""
+
+#: $string['errincorrectidnumber']
+msgid "Error - incorrect idnumber"
+msgstr ""
+
+#: $string['errincorrectuseridnumber']
+msgid "Error - idnumber '{$a}' from the import file does not match any user."
+msgstr ""
+
+#: $string['error']
+msgid "Errors occur"
+msgstr ""
+
+#: $string['errorduringimport']
+msgid "An error occurred when trying to import: {$a}"
+msgstr ""
+
+#: $string['fileurl']
+msgid "Remote file URL"
+msgstr ""
+
+#: $string['fileurl_help']
+msgid ""
+"The remote file URL field is for fetching data from a remote server, such as "
+"a student information system."
+msgstr ""
+
+#: $string['importxml']
+msgid "XML import"
+msgstr ""
+
+#: $string['importxml_help']
+msgid ""
+"Grades can be imported via an XML file containing user ID numbers and "
+"activity ID numbers. To obtain the correct format, first export some grades "
+"to XML file then view the file."
+msgstr ""
+
+#: $string['importxml_link']
+msgid "grade/import/xml/index"
+msgstr ""
+
+#: $string['pluginname']
+msgid "XML file"
+msgstr ""
+
+#: $string['xml:publish']
+msgid "Publish import grades from XML"
+msgstr ""
+
+#: $string['xml:view']
+msgid "Import grades from XML"
+msgstr ""

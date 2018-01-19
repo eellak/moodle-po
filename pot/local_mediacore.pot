@@ -1,0 +1,131 @@
+#. extracted from lang/en/local_mediacore.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'local_mediacore', language 'en', branch 'MOODLE_28_STABLE'
+#.  *
+#.  * @package   local_mediacore
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['host_empty_error']
+msgid ""
+"Your mediacore hostname field is empty. Please update your plugin config "
+"with the correct hostname"
+msgstr ""
+
+#: $string['no_course_id']
+msgid "Expected a valid course id"
+msgstr ""
+
+#: $string['no_lti_config']
+msgid ""
+"Expected some LTI configuration settings. Please update your MediaCore "
+"Package"
+msgstr ""
+
+#: $string['pluginname']
+msgid "MediaCore package config"
+msgstr ""
+
+#: $string['setting_consumer_key_desc']
+msgid ""
+"**Note:** This must match an existing LTI consumer key in your MediaCore "
+"site."
+msgstr ""
+
+#: $string['setting_consumer_key_label']
+msgid "Your MediaCore Consumer Key"
+msgstr ""
+
+#: $string['setting_heading_desc']
+msgid ""
+"These settings customize the method in which your Moodle instance connects "
+"to your MediaCore site.<br/><br/>Please see the following [support articles]"
+"(http://support.mediacore.com/customer/portal/articles/search?q=moodle\") for "
+"complete information on this plugin.<br/><br/> It also may be necessary to "
+"purge your Moodle caches after changing these settings.<br/><br/>"
+msgstr ""
+
+#: $string['setting_host_desc']
+msgid ""
+"**Note:** This setting defines your MediaCore site url (*e.g: "
+"demo.mediacore.tv*).<br/><em>It should not contain the http(s):// portion of "
+"the url. Just the hostname.</em><br/><br/>"
+msgstr ""
+
+#: $string['setting_host_label']
+msgid "Your MediaCore Hostname:"
+msgstr ""
+
+#: $string['setting_scheme_desc']
+msgid ""
+"**Note:** This setting defined whether to use HTTP or HTTPS when accessing "
+"the Chooser or viewing embeds.<br/><em>If your Moodle site uses HTTP then "
+"this option can be checked or unchecked. If your Moodle site uses HTTPS then "
+"this option should be checked.</em><br/><br/>"
+msgstr ""
+
+#: $string['setting_scheme_label']
+msgid "Use HTTPS"
+msgstr ""
+
+#: $string['setting_shared_secret_desc']
+msgid ""
+"**Note:** This must match an existing LTI consumer shared secret in your "
+"MediaCore site."
+msgstr ""
+
+#: $string['setting_shared_secret_label']
+msgid "Your MediaCore Shared Secret"
+msgstr ""
+
+#: $string['setting_use_lti_auth_desc']
+msgid ""
+"**Note:** This setting defines whether or not to use Lti authentication when "
+"accessing the MediaCore Chooser or viewing media embeds.<br/><em>If this "
+"option is checked, LTI authentication will be used. If this option is "
+"unchecked, no LTI authentication will be used and the user will be "
+"peresented with a standard MediaCore login page.</em><br/><br/>"
+msgstr ""
+
+#: $string['setting_use_lti_auth_label']
+msgid "Use LTI authentication?"
+msgstr ""
+
+#: $string['setting_use_trusted_embeds_desc']
+msgid ""
+"**Note:** This setting defines whether or not to use trusted embeds when "
+"embedding video urls. Trusted embeds allow users to share content from "
+"private collections with other users. Trusted embeds will always require "
+"that a user is logged in prior to viewing content."
+msgstr ""
+
+#: $string['setting_use_trusted_embeds_label']
+msgid "Use Trusted Embeds?"
+msgstr ""

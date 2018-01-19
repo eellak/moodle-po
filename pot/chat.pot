@@ -1,0 +1,563 @@
+#. extracted from lang/en/chat.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'chat', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   chat
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['activityoverview']
+msgid "You have upcoming chat sessions"
+msgstr ""
+
+#: $string['ajax']
+msgid "Version using Ajax"
+msgstr ""
+
+#: $string['autoscroll']
+msgid "Auto scroll"
+msgstr ""
+
+#: $string['beep']
+msgid "Beep"
+msgstr ""
+
+#: $string['bubble']
+msgid "Bubble"
+msgstr ""
+
+#: $string['cantlogin']
+msgid "Could not log in to chat room!!"
+msgstr ""
+
+#: $string['chat:addinstance']
+msgid "Add a new chat"
+msgstr ""
+
+#: $string['chat:chat']
+msgid "Access a chat room"
+msgstr ""
+
+#: $string['chat:deletelog']
+msgid "Delete chat logs"
+msgstr ""
+
+#: $string['chat:exportparticipatedsession']
+msgid "Export chat session which you took part in"
+msgstr ""
+
+#: $string['chat:exportsession']
+msgid "Export any chat session"
+msgstr ""
+
+#: $string['chatintro']
+msgid "Description"
+msgstr ""
+
+#: $string['chatname']
+msgid "Name of this chat room"
+msgstr ""
+
+#: $string['chat:readlog']
+msgid "View chat logs"
+msgstr ""
+
+#: $string['chatreport']
+msgctxt "$string['chatreport']"
+msgid "Chat sessions"
+msgstr ""
+
+#: $string['chat:talk']
+msgid "Talk in a chat"
+msgstr ""
+
+#: $string['chattime']
+msgid "Next chat time"
+msgstr ""
+
+#: $string['chat:view']
+msgid "View chat activity"
+msgstr ""
+
+#: $string['compact']
+msgid "Compact"
+msgstr ""
+
+#: $string['composemessage']
+msgid "Compose a message"
+msgstr ""
+
+#: $string['configmethod']
+msgid ""
+"The ajax chat method provide an ajax based chat interface, it contacts "
+"server regularly for update. The normal chat method involves the clients "
+"regularly contacting the server for updates. It requires no configuration "
+"and works everywhere, but it can create a large load on the server with many "
+"chatters.  Using a server daemon requires shell access to Unix, but it "
+"results in a fast scalable chat environment."
+msgstr ""
+
+#: $string['confignormalupdatemode']
+msgid ""
+"Chatroom updates are normally served efficiently using the <em>Keep-"
+"Alive</em> feature of HTTP 1.1, but this is still quite heavy on the server. "
+"A more advanced method is to use the <em>Stream</em> strategy to feed "
+"updates to the users. Using <em>Stream</em> scales much better (similar to "
+"the chatd method) but may not be supported by your server."
+msgstr ""
+
+#: $string['configoldping']
+msgid ""
+"What is the maximum time that may pass before we detect that a user has "
+"disconnected (in seconds)? This is just an upper limit, as usually "
+"disconnects are detected very quickly. Lower values will be more demanding "
+"on your server. If you are using the normal method, <strong>never</strong> "
+"set this lower than 2 * chat_refresh_room."
+msgstr ""
+
+#: $string['configrefreshroom']
+msgid ""
+"How often should the chat room itself be refreshed? (in seconds).  Setting "
+"this low will make the chat room seem quicker, but it may place a higher "
+"load on your web server when many people are chatting. If you are using "
+"<em>Stream</em> updates, you can select higher refresh frequencies -- try "
+"with 2."
+msgstr ""
+
+#: $string['configrefreshuserlist']
+msgid "How often should the list of users be refreshed? (in seconds)"
+msgstr ""
+
+#: $string['configserverhost']
+msgid "The hostname of the computer where the server daemon is"
+msgstr ""
+
+#: $string['configserverip']
+msgid "The numerical IP address that matches the above hostname"
+msgstr ""
+
+#: $string['configservermax']
+msgid "Max number of clients allowed"
+msgstr ""
+
+#: $string['configserverport']
+msgid "Port to use on the server for the daemon"
+msgstr ""
+
+#: $string['coursetheme']
+msgid "Course theme"
+msgstr ""
+
+#: $string['currentchats']
+msgid "Active chat sessions"
+msgstr ""
+
+#: $string['currentusers']
+msgid "Current users"
+msgstr ""
+
+#: $string['deletesession']
+msgid "Delete this session"
+msgstr ""
+
+#: $string['deletesessionsure']
+msgid "Are you sure you want to delete this session?"
+msgstr ""
+
+#: $string['donotusechattime']
+msgid "Don't publish any chat times"
+msgstr ""
+
+#: $string['enterchat']
+msgid "Click here to enter the chat now"
+msgstr ""
+
+#: $string['entermessage']
+msgid "Enter your message"
+msgstr ""
+
+#: $string['errornousers']
+msgid "Could not find any users!"
+msgstr ""
+
+#: $string['eventmessagesent']
+msgid "Message sent"
+msgstr ""
+
+#: $string['eventsessionsviewed']
+msgid "Sessions viewed"
+msgstr ""
+
+#: $string['explaingeneralconfig']
+msgid "These settings are <strong>always</strong> used"
+msgstr ""
+
+#: $string['explainmethoddaemon']
+msgid ""
+"These settings matter <strong>only</strong> if you have selected \"Chat "
+"server daemon\" for chat_method"
+msgstr ""
+
+#: $string['explainmethodnormal']
+msgid ""
+"These settings matter <strong>only</strong> if you have selected \"Normal "
+"method\" for chat_method"
+msgstr ""
+
+#: $string['generalconfig']
+msgid "General configuration"
+msgstr ""
+
+#: $string['idle']
+msgid "Idle"
+msgstr ""
+
+#: $string['indicator:cognitivedepth']
+msgid "Chat cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepth_help']
+msgid ""
+"This indicator is based on the cognitive depth reached by the student in a "
+"Chat activity."
+msgstr ""
+
+#: $string['indicator:socialbreadth']
+msgid "Chat social"
+msgstr ""
+
+#: $string['indicator:socialbreadth_help']
+msgid ""
+"This indicator is based on the social breadth reached by the student in a "
+"Chat activity."
+msgstr ""
+
+#: $string['inputarea']
+msgid "Input area"
+msgstr ""
+
+#: $string['invalidid']
+msgid "Could not find that chat room!"
+msgstr ""
+
+#: $string['list_all_sessions']
+msgid "List all sessions."
+msgstr ""
+
+#: $string['list_complete_sessions']
+msgid "List just complete sessions."
+msgstr ""
+
+#: $string['listing_all_sessions']
+msgid "Listing all sessions."
+msgstr ""
+
+#: $string['messagebeepseveryone']
+msgid "{$a} beeps everyone!"
+msgstr ""
+
+#: $string['messagebeepsyou']
+msgid "{$a} has just beeped you!"
+msgstr ""
+
+#: $string['messageenter']
+msgid "{$a} has just entered this chat"
+msgstr ""
+
+#: $string['messageexit']
+msgid "{$a} has left this chat"
+msgstr ""
+
+#: $string['messages']
+msgid "Messages"
+msgstr ""
+
+#: $string['messageyoubeep']
+msgid "You beeped {$a}"
+msgstr ""
+
+#: $string['method']
+msgid "Chat method"
+msgstr ""
+
+#: $string['methodajax']
+msgid "Ajax method"
+msgstr ""
+
+#: $string['methoddaemon']
+msgid "Chat server daemon"
+msgstr ""
+
+#: $string['methodnormal']
+msgid "Normal method"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Chat"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"The chat activity module enables participants to have text-based, real-time "
+"synchronous discussions.\n"
+"\n"
+"The chat may be a one-time activity or it may be repeated at the same time "
+"each day or each week. Chat sessions are saved and can be made available for "
+"everyone to view or restricted to users with the capability to view chat "
+"session logs.\n"
+"\n"
+"Chats are especially useful when the group chatting is not able to meet "
+"face-to-face, such as\n"
+"\n"
+"* Regular meetings of students participating in online courses to enable "
+"them to share experiences with others in the same course but in a different "
+"location\n"
+"* A student temporarily unable to attend in person chatting with their "
+"teacher to catch up with work\n"
+"* Students out on work experience getting together to discuss their "
+"experiences with each other and their teacher\n"
+"* Younger children using chat at home in the evenings as a controlled "
+"(monitored) introduction to the world of social networking\n"
+"* A question and answer session with an invited speaker in a different "
+"location\n"
+"* Sessions to help students prepare for tests where the teacher, or other "
+"students, would pose sample questions"
+msgstr ""
+
+#: $string['modulename_link']
+msgid "mod/chat/view"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Chats"
+msgstr ""
+
+#: $string['neverdeletemessages']
+msgid "Never delete messages"
+msgstr ""
+
+#: $string['nextsession']
+msgid "Next scheduled session"
+msgstr ""
+
+#: $string['nochat']
+msgid "No chat found"
+msgstr ""
+
+#: $string['no_complete_sessions_found']
+msgid "No complete sessions found."
+msgstr ""
+
+#: $string['noguests']
+msgid "The chat is not open to guests"
+msgstr ""
+
+#: $string['nomessages']
+msgid "No messages yet"
+msgstr ""
+
+#: $string['nopermissiontoseethechatlog']
+msgid "You don't have permission to see the chat logs."
+msgstr ""
+
+#: $string['normalkeepalive']
+msgid "KeepAlive"
+msgstr ""
+
+#: $string['normalstream']
+msgid "Stream"
+msgstr ""
+
+#: $string['noscheduledsession']
+msgid "No scheduled session"
+msgstr ""
+
+#: $string['notallowenter']
+msgid "You are not allowed to enter the chat room."
+msgstr ""
+
+#: $string['notlogged']
+msgid "You are not logged in!"
+msgstr ""
+
+#: $string['oldping']
+msgid "Disconnect timeout"
+msgstr ""
+
+#: $string['page-mod-chat-x']
+msgid "Any chat module page"
+msgstr ""
+
+#: $string['pastchats']
+msgid "Past chat sessions"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Chat administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Chat"
+msgstr ""
+
+#: $string['refreshroom']
+msgid "Refresh room"
+msgstr ""
+
+#: $string['refreshuserlist']
+msgid "Refresh user list"
+msgstr ""
+
+#: $string['removemessages']
+msgid "Remove all messages"
+msgstr ""
+
+#: $string['repeatdaily']
+msgid "At the same time every day"
+msgstr ""
+
+#: $string['repeatnone']
+msgid "No repeats - publish the specified time only"
+msgstr ""
+
+#: $string['repeattimes']
+msgid "Repeat/publish session times"
+msgstr ""
+
+#: $string['repeatweekly']
+msgid "At the same time every week"
+msgstr ""
+
+#: $string['saidto']
+msgid "said to"
+msgstr ""
+
+#: $string['savemessages']
+msgid "Save past sessions"
+msgstr ""
+
+#: $string['search:activity']
+msgid "Chat - activity information"
+msgstr ""
+
+#: $string['seesession']
+msgid "See this session"
+msgstr ""
+
+#: $string['send']
+msgid "Send"
+msgstr ""
+
+#: $string['sending']
+msgid "Sending"
+msgstr ""
+
+#: $string['serverhost']
+msgid "Server name"
+msgstr ""
+
+#: $string['serverip']
+msgid "Server ip"
+msgstr ""
+
+#: $string['servermax']
+msgid "Max users"
+msgstr ""
+
+#: $string['serverport']
+msgid "Server port"
+msgstr ""
+
+#: $string['sessions']
+msgctxt "$string['sessions']"
+msgid "Chat sessions"
+msgstr ""
+
+#: $string['sessionstart']
+msgid ""
+"The next chat session will start on {$a->date}, ({$a->fromnow} from now)"
+msgstr ""
+
+#: $string['strftimemessage']
+msgid "%H:%M"
+msgstr ""
+
+#: $string['studentseereports']
+msgid "Everyone can view past sessions"
+msgstr ""
+
+#: $string['studentseereports_help']
+msgid ""
+"If set to No, only users have mod/chat:readlog capability are able to see "
+"the chat logs"
+msgstr ""
+
+#: $string['talk']
+msgid "Talk"
+msgstr ""
+
+#: $string['updatemethod']
+msgid "Update method"
+msgstr ""
+
+#: $string['updaterate']
+msgid "Update rate:"
+msgstr ""
+
+#: $string['userlist']
+msgid "User list"
+msgstr ""
+
+#: $string['usingchat']
+msgid "Using chat"
+msgstr ""
+
+#: $string['usingchat_help']
+msgid ""
+"The chat module contains some features to make chatting a little nicer.\n"
+"\n"
+"* Smilies - Any smiley faces (emoticons) that you can type elsewhere in "
+"Moodle can also be typed here, for example :-)\n"
+"* Links - Website addresses will be turned into links automatically\n"
+"* Emoting - You can start a line with \"/me\" or \":\" to emote, for example if "
+"your name is Kim and you type \":laughs!\" or \"/me laughs!\" then everyone will "
+"see \"Kim laughs!\"\n"
+"* Beeps - You can send a sound to other participants by clicking the \"beep\" "
+"link next to their name. A useful shortcut to beep all the people in the "
+"chat at once is to type \"beep all\".\n"
+"* HTML - If you know some HTML code, you can use it in your text to do "
+"things like insert images, play sounds or create different coloured text"
+msgstr ""
+
+#: $string['viewreport']
+msgid "View past chat sessions"
+msgstr ""

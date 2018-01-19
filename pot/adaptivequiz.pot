@@ -1,0 +1,743 @@
+#. extracted from lang/en/adaptivequiz.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'adaptivequiz', language 'en', branch 'MOODLE_31_STABLE'
+#.  *
+#.  * @package   adaptivequiz
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['activityreports']
+msgid "Attempts report"
+msgstr ""
+
+#: $string['adaptivequiz:addinstance']
+msgid "Add a new adaptive quiz"
+msgstr ""
+
+#: $string['adaptivequiz:attempt']
+msgid "Attempt adaptive quiz"
+msgstr ""
+
+#: $string['adaptivequizname']
+msgctxt "$string['adaptivequizname']"
+msgid "Name"
+msgstr ""
+
+#: $string['adaptivequizname_help']
+msgid "Enter the name of the Adaptive Quiz instance"
+msgstr ""
+
+#: $string['adaptivequiz:reviewattempts']
+msgid "Review adaptive quiz submissions"
+msgstr ""
+
+#: $string['adaptivequiz:viewreport']
+msgid "View adaptive quiz reports"
+msgstr ""
+
+#: $string['all_attempts_deleted']
+msgid "All Adaptive Quiz attempts were deleted"
+msgstr ""
+
+#: $string['all_grades_removed']
+msgid "All Adaptive Quiz grades were removed"
+msgstr ""
+
+#: $string['answer']
+msgid "Answer"
+msgstr ""
+
+#: $string['answerdistgraph_numrightwrong']
+msgid "Num wrong (-)  /  Num right (+)"
+msgstr ""
+
+#: $string['answerdistgraph_questiondifficulty']
+msgid "Question level"
+msgstr ""
+
+#: $string['answerdistgraph_title']
+msgid "Answer distribution for {$a->firstname} {$a->lastname}"
+msgstr ""
+
+#: $string['answers_display_name']
+msgid "Answers"
+msgstr ""
+
+#: $string['attemptclosed']
+msgid "The attempt has been manually closed."
+msgstr ""
+
+#: $string['attemptclosedstatus']
+msgid ""
+"Manually closed by {$a->current_user_name} (user-id: {$a->current_user_id}) "
+"on {$a->now}."
+msgstr ""
+
+#: $string['attemptdeleted']
+msgid "Attempt deleted for {$a->name} submitted on {$a->timecompleted}"
+msgstr ""
+
+#: $string['attemptfeedback']
+msgid "Attempt feedback"
+msgstr ""
+
+#: $string['attemptfeedback_help']
+msgid ""
+"The attempt feedback is displayed to the user once the attempt is finished"
+msgstr ""
+
+#: $string['attemptfinishedtimestamp']
+msgid "Attempt finish time"
+msgstr ""
+
+#: $string['attemptfirst']
+msgid "First attempt"
+msgstr ""
+
+#: $string['attemptlast']
+msgid "Last attempt"
+msgstr ""
+
+#: $string['attemptquestion_ability']
+msgid "Ability Measure"
+msgstr ""
+
+#: $string['attemptquestion_abilitylogits']
+msgid "Measured Ability (logits)"
+msgstr ""
+
+#: $string['attempt_questiondetails']
+msgid "Question Details"
+msgstr ""
+
+#: $string['attemptquestion_difficulty']
+msgid "Question Difficulty (logits)"
+msgstr ""
+
+#: $string['attemptquestion_diffsum']
+msgid "Difficulty Sum"
+msgstr ""
+
+#: $string['attemptquestion_error']
+msgid "Standard Error (&plusmn;&nbsp;x%)"
+msgstr ""
+
+#: $string['attemptquestion_level']
+msgid "Question Level"
+msgstr ""
+
+#: $string['attemptquestion_num']
+msgid "#"
+msgstr ""
+
+#: $string['attemptquestion_rightwrong']
+msgid "Right/Wrong"
+msgstr ""
+
+#: $string['attemptquestion_stderr']
+msgid "Standard Error (&plusmn;&nbsp;logits)"
+msgstr ""
+
+#: $string['attemptsallowed']
+msgid "Attempts allowed"
+msgstr ""
+
+#: $string['attemptsallowed_help']
+msgid "The number of times a student may attempt this activity"
+msgstr ""
+
+#: $string['attemptstarttime']
+msgid "Attempt start time"
+msgstr ""
+
+#: $string['attemptstate']
+msgid "State of attempt"
+msgstr ""
+
+#: $string['attempt_state']
+msgid "Attempt state"
+msgstr ""
+
+#: $string['attemptstopcriteria']
+msgid "Reason for stopping attempt"
+msgstr ""
+
+#: $string['attempt_summary']
+msgid "Attempt Summary"
+msgstr ""
+
+#: $string['attempttotaltime']
+msgid "Total time (hh:mm:ss)"
+msgstr ""
+
+#: $string['attempt_user']
+msgctxt "$string['attempt_user']"
+msgid "User"
+msgstr ""
+
+#: $string['back_to_all_questions']
+msgid "&laquo; Back to all questions"
+msgstr ""
+
+#: $string['backtomainreport']
+msgctxt "$string['backtomainreport']"
+msgid "Back to main reports"
+msgstr ""
+
+#: $string['backtoviewattemptreport']
+msgid "Back to view attempt report"
+msgstr ""
+
+#: $string['backtoviewreport']
+msgctxt "$string['backtoviewreport']"
+msgid "Back to main reports"
+msgstr ""
+
+#: $string['bestscore']
+msgid "Best Score"
+msgstr ""
+
+#: $string['bestscorestderror']
+msgctxt "$string['bestscorestderror']"
+msgid "Standard Error"
+msgstr ""
+
+#: $string['browsersecurity']
+msgid "Browser security"
+msgstr ""
+
+#: $string['browsersecurity_help']
+msgid ""
+"If \"Full screen pop-up with some JavaScript security\" is selected the quiz "
+"will only start if the student has a JavaScript-enabled web-browser, the "
+"quiz appears in a full screen popup window that covers all the other windows "
+"and has no navigation controls and students are prevented, as far as is "
+"possible, from using facilities like copy and paste"
+msgstr ""
+
+#: $string['calcerrorwithinlimits']
+msgid ""
+"Calculated standard error of {$a->calerror} is within the limits imposed by "
+"the activity {$a->definederror}"
+msgstr ""
+
+#: $string['closeattempt']
+msgid "Close attempt"
+msgstr ""
+
+#: $string['completeattempterror']
+msgid "Error trying to complete attempt record"
+msgstr ""
+
+#: $string['confirmcloseattempt']
+msgid ""
+"Are you sure that you wish to close and finalize this attempt of {$a->name}?"
+msgstr ""
+
+#: $string['confirmcloseattemptscore']
+msgid ""
+"{$a->num_questions} questions were answered and the score so far is "
+"{$a->measure} {$a->standarderror}."
+msgstr ""
+
+#: $string['confirmcloseattemptstats']
+msgid ""
+"This attempt was started on {$a->started} and last updated on "
+"{$a->modified}."
+msgstr ""
+
+#: $string['confirmdeleteattempt']
+msgid ""
+"Confirming the deletion of attempt from {$a->name} submitted on "
+"{$a->timecompleted}"
+msgstr ""
+
+#: $string['deleteattemp']
+msgid "Delete attempt"
+msgstr ""
+
+#: $string['discrimination_display_name']
+msgid "Discrimination"
+msgstr ""
+
+#: $string['downloadcsv']
+msgid "Download CSV"
+msgstr ""
+
+#: $string['enterrequiredpassword']
+msgid "Enter required password"
+msgstr ""
+
+#: $string['errorattemptstate']
+msgid "There was an error in determining the state of the attempt"
+msgstr ""
+
+#: $string['errorclosingattempt']
+msgctxt "$string['errorclosingattempt']"
+msgid "Attempt record was not found"
+msgstr ""
+
+#: $string['errorclosingattempt_alreadycomplete']
+msgid "This attempt is already complete, it cannot be manually closed."
+msgstr ""
+
+#: $string['errordeletingattempt']
+msgctxt "$string['errordeletingattempt']"
+msgid "Attempt record was not found"
+msgstr ""
+
+#: $string['errorfetchingquest']
+msgid "Unable to fetch a questions for level {$a->level}"
+msgstr ""
+
+#: $string['errorlastattpquest']
+msgid "Error checking the response value for the last attempted question"
+msgstr ""
+
+#: $string['errornumattpzero']
+msgid ""
+"Error with number of questions attempted equals zero, but user submitted an "
+"answer to previous question"
+msgstr ""
+
+#: $string['errorsumrightwrong']
+msgid ""
+"Sum of correct and incorrect answers does not equal the total number of "
+"questions attempted"
+msgstr ""
+
+#: $string['formelementdecimal']
+msgid ""
+"Input a decimal number.  Maximum 10 digits long and maximum 5 digits to the "
+"right of the decimal point"
+msgstr ""
+
+#: $string['formelementempty']
+msgid "Input a positive integer from 1 to 999"
+msgstr ""
+
+#: $string['formelementnegative']
+msgid "Input a positive number from 1 to 999"
+msgstr ""
+
+#: $string['formelementnumeric']
+msgid "Input a numeric value from 1 to 999"
+msgstr ""
+
+#: $string['formlowlevelgreaterthan']
+msgid "Lowest level must be less than highest level"
+msgstr ""
+
+#: $string['formminquestgreaterthan']
+msgid ""
+"Minimum number of questions must be less than maximum number of questions"
+msgstr ""
+
+#: $string['formquestionpool']
+msgid "Select at least one question category"
+msgstr ""
+
+#: $string['formstartleveloutofbounds']
+msgid ""
+"The starting level must be a number that is inbetween the lowest and highest "
+"level"
+msgstr ""
+
+#: $string['formstderror']
+msgid "Must enter a percent less than 50 and greater than or equal to 0"
+msgstr ""
+
+#: $string['functiondisabledbysecuremode']
+msgid "That functionality is currently disabled"
+msgstr ""
+
+#: $string['gradehighest']
+msgid "Highest grade"
+msgstr ""
+
+#: $string['grademethod']
+msgid "Grading method"
+msgstr ""
+
+#: $string['grademethod_help']
+msgid ""
+"When multiple attempts are allowed, the following methods are available for "
+"calculating the final quiz grade:\n"
+"\n"
+"* Highest grade of all attempts\n"
+"* First attempt (all other attempts are ignored)\n"
+"* Last attempt (all other attempts are ignored)"
+msgstr ""
+
+#: $string['graphlegend_error']
+msgctxt "$string['graphlegend_error']"
+msgid "Standard Error"
+msgstr ""
+
+#: $string['graphlegend_target']
+msgid "Target Level"
+msgstr ""
+
+#: $string['highestlevel']
+msgid "Highest level of difficulty"
+msgstr ""
+
+#: $string['highestlevel_help']
+msgid ""
+"The highest or most difficult level the assessment can select questions "
+"from.  During an attempt the activity will not go beyond this level of "
+"difficulty"
+msgstr ""
+
+#: $string['highlevelusers']
+msgid "Users above the question-level"
+msgstr ""
+
+#: $string['id']
+msgid "ID"
+msgstr ""
+
+#: $string['indvuserreport']
+msgid "Individual user attempts report for {$a}"
+msgstr ""
+
+#: $string['leveloutofbounds']
+msgid "Requested level {$a->level} out of bounds for the attempt"
+msgstr ""
+
+#: $string['lowestlevel']
+msgid "Lowest level of difficulty"
+msgstr ""
+
+#: $string['lowestlevel_help']
+msgid ""
+"The lowest or least difficult level the assessment can select questions "
+"from.  During an attempt the activity will not go beyond this level of "
+"difficulty"
+msgstr ""
+
+#: $string['lowlevelusers']
+msgid "Users below the question-level"
+msgstr ""
+
+#: $string['maximumquestions']
+msgid "Maximum number of questions"
+msgstr ""
+
+#: $string['maximumquestions_help']
+msgid "The maximum number of questions the student can attempt"
+msgstr ""
+
+#: $string['maxquestattempted']
+msgid "Maximum number of questions attempted"
+msgstr ""
+
+#: $string['midlevelusers']
+msgid "Users near the question-level"
+msgstr ""
+
+#: $string['minimumquestions']
+msgid "Minimum number of questions"
+msgstr ""
+
+#: $string['minimumquestions_help']
+msgid "The minimum number of questions the student must attempt"
+msgstr ""
+
+#: $string['missingtagprefix']
+msgid "Missing tag prefix"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Adaptive Quiz"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"The Adaptive Quiz activity enables a teacher to create quizes that "
+"efficiently measure the takers' abilities. Adaptive quizes are comprised  of "
+"questions selected from the question bank that are tagged with a score of "
+"their difficulty. The questions are chosen to match the estimated ability "
+"level of the  current test-taker. If the test-taker succeeds on a question, "
+"a more challenging question is presented next. If the test-taker answers a "
+"question incorrectly, a less-challenging question is presented next. This "
+"technique will develop into a sequence of questions converging on the test-"
+"taker's effective ability level. The quiz stops when the test-taker's "
+"ability is determined to the required accuracy.\n"
+"\n"
+"This activity is best suited to determining an ability measure along a "
+"unidimensional scale. While the scale can be very broad, the questions must "
+"all provide a measure of ability or aptitude on the same scale. In a "
+"placement test for example, questions low on the scale that novices are able "
+"to answer correctly should also be answerable by experts, while questions "
+"higher on the scale should only be answerable by experts or a lucky guess. "
+"Questions that do not discriminate between takers of different abilities on "
+"will make the test ineffective and may provide inconclusive results.\n"
+"\n"
+"Questions used in the Adaptive Quiz must\n"
+"\n"
+" * be automatically scored as correct/incorrect\n"
+" * be tagged with their difficulty using 'adpq_' followed by a positive "
+"integer that is within the range for the quiz\n"
+"\n"
+"The Adaptive Quiz can be configured to\n"
+"\n"
+" * define the range of question-difficulties/user-abilities to be measured. "
+"1-10, 1-16, and 1-100 are examples of valid ranges.\n"
+" * define the precision required before the quiz is stopped. Often an error "
+"of 5% in the ability measure is an appropriate stopping rule\n"
+" * require a minimum number of questions to be answered\n"
+" * require a maximum number of questions that can be answered\n"
+"\n"
+"This description and the testing process in this activity are based on <a "
+"href=\"http://www.rasch.org/memo69.pdf\">Computer-Adaptive Testing: A "
+"Methodology Whose Time Has Come</a> by John Michael Linacre, Ph.D. MESA "
+"Psychometric Laboratory - University of Chicago. MESA Memorandum No. 69."
+msgstr ""
+
+#: $string['modulenameplural']
+msgctxt "$string['modulenameplural']"
+msgid "Adaptive Quiz"
+msgstr ""
+
+#: $string['na']
+msgid "n/a"
+msgstr ""
+
+#: $string['name']
+msgctxt "$string['name']"
+msgid "Name"
+msgstr ""
+
+#: $string['noattemptrecords']
+msgid "No attempt records for this student"
+msgstr ""
+
+#: $string['noattemptsallowed']
+msgid "No more attempts allowed at this activity"
+msgstr ""
+
+#: $string['nonewmodules']
+msgid "No Adaptive Quiz instances found"
+msgstr ""
+
+#: $string['nopermission']
+msgid "You don\\t have permission to view this resource"
+msgstr ""
+
+#: $string['notinprogress']
+msgid "This attempt is not in progress."
+msgstr ""
+
+#: $string['notyourattempt']
+msgid "This is not your attempt at the activity"
+msgstr ""
+
+#: $string['numofattemptshdr']
+msgid "Number of attempts"
+msgstr ""
+
+#: $string['numright']
+msgid "Num right"
+msgstr ""
+
+#: $string['numwrong']
+msgid "Num wrong"
+msgstr ""
+
+#: $string['percent_correct_display_name']
+msgid "% Correct"
+msgstr ""
+
+#: $string['pluginadministration']
+msgctxt "$string['pluginadministration']"
+msgid "Adaptive Quiz"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Adaptive Quiz"
+msgstr ""
+
+#: $string['questionanalysisbtn']
+msgctxt "$string['questionanalysisbtn']"
+msgid "Question Analysis"
+msgstr ""
+
+#: $string['questionnumber']
+msgid "Question #"
+msgstr ""
+
+#: $string['questionpool']
+msgid "Question pool"
+msgstr ""
+
+#: $string['questionpool_help']
+msgid ""
+"Select the question category(ies) where the activity will pull questions "
+"from during an attempt."
+msgstr ""
+
+#: $string['question_report']
+msgctxt "$string['question_report']"
+msgid "Question Analysis"
+msgstr ""
+
+#: $string['questionsattempted']
+msgid "Sum of questions attempted"
+msgstr ""
+
+#: $string['questions_report']
+msgid "Questions Report"
+msgstr ""
+
+#: $string['recentactquestionsattempted']
+msgid "Questions attempted: {$a}"
+msgstr ""
+
+#: $string['recentattemptstate']
+msgid "State of attempt:"
+msgstr ""
+
+#: $string['recentcomplete']
+msgid "Completed"
+msgstr ""
+
+#: $string['recentinprogress']
+msgid "In progress"
+msgstr ""
+
+#: $string['requirepassword']
+msgid "Required password"
+msgstr ""
+
+#: $string['requirepassword_help']
+msgid ""
+"Students are required to enter a password before beginning their attempt"
+msgstr ""
+
+#: $string['requirepasswordmessage']
+msgid "To attempt this quiz you need to know the quiz password"
+msgstr ""
+
+#: $string['resetadaptivequizsall']
+msgid "Delete all Adaptive Quiz attempts"
+msgstr ""
+
+#: $string['result']
+msgid "Result"
+msgstr ""
+
+#: $string['reviewattempt']
+msgid "Review attempt"
+msgstr ""
+
+#: $string['reviewattemptreport']
+msgid "Reviewing attempt by {$a->fullname} submitted on {$a->finished}"
+msgstr ""
+
+#: $string['score']
+msgid "Score"
+msgstr ""
+
+#: $string['scoring_table']
+msgid "Scoring Tables"
+msgstr ""
+
+#: $string['standarderror']
+msgid "Standard Error to stop"
+msgstr ""
+
+#: $string['standarderrorhdr']
+msgid "Standard error"
+msgstr ""
+
+#: $string['standarderror_help']
+msgid ""
+"When the amount of error in the measure of the user's ability drops below "
+"this amount, the quiz will stop. Tune this value from the default of 5% to "
+"require more or less precision in the ability measure"
+msgstr ""
+
+#: $string['startattemptbtn']
+msgid "Start attempt"
+msgstr ""
+
+#: $string['startinglevel']
+msgid "Starting level of difficulty"
+msgstr ""
+
+#: $string['startinglevel_help']
+msgid ""
+"The the student begins an attempt, the activity will randomly select a "
+"question matching the level of difficulty"
+msgstr ""
+
+#: $string['statistic']
+msgid "Statistic"
+msgstr ""
+
+#: $string['stopingconditionshdr']
+msgid "Stopping conditions"
+msgstr ""
+
+#: $string['submitanswer']
+msgid "Submit answer"
+msgstr ""
+
+#: $string['times_used_display_name']
+msgid "Times Used"
+msgstr ""
+
+#: $string['unknownuser']
+msgid "Unknown user"
+msgstr ""
+
+#: $string['updateattempterror']
+msgid "Error trying to update attempt record"
+msgstr ""
+
+#: $string['user']
+msgctxt "$string['user']"
+msgid "User"
+msgstr ""
+
+#: $string['value']
+msgid "Value"
+msgstr ""
+
+#: $string['viewreportbtn']
+msgid "View report"
+msgstr ""
+
+#: $string['wrongpassword']
+msgid "Password is incorrect"
+msgstr ""

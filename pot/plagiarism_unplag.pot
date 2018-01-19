@@ -1,0 +1,453 @@
+#. extracted from lang/en/plagiarism_unplag.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'plagiarism_unplag', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   plagiarism_unplag
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['attempts']
+msgid "Attempts made"
+msgstr ""
+
+#: $string['check_all_submitted_assignments']
+msgid "Manual check"
+msgstr ""
+
+#: $string['check_confirm']
+msgid "Are you sure you want start checking by UNPLAG plagiarism plugin?"
+msgstr ""
+
+#: $string['check_file']
+msgid "Start a scan"
+msgstr ""
+
+#: $string['check_start']
+msgid "Unplag originality grading in progress"
+msgstr ""
+
+#: $string['check_type']
+msgid "Sources"
+msgstr ""
+
+#: $string['cronwarning']
+msgid ""
+"The <a href=\"../../admin/cron.php\">cron.php</a> maintenance script has not "
+"been run for at least 30 min - Cron must be configured to allow UNPLAG to "
+"function correctly."
+msgstr ""
+
+#: $string['defaultsdesc']
+msgid ""
+"Configure defaults for Assignment activity. Teachers can adjust settings in "
+"the individual assignments"
+msgstr ""
+
+#: $string['defaultupdated']
+msgid "Default values updated"
+msgstr ""
+
+#: $string['delete']
+msgid "Delete"
+msgstr ""
+
+#: $string['deletedwarning']
+msgid "This file could not be found - it may have been deleted by the user"
+msgstr ""
+
+#: $string['exclude_citations']
+msgid "Identify citations and references"
+msgstr ""
+
+#: $string['exclude_self_plagiarism']
+msgid "Exclude self-plagiarism"
+msgstr ""
+
+#: $string['explainerrors']
+msgid ""
+"This page lists any files that are currently in an error state. <br/>When "
+"files are deleted on this page they will not be able to be resubmitted and "
+"errors will no longer display to teachers or students"
+msgstr ""
+
+#: $string['file']
+msgid "File"
+msgstr ""
+
+#: $string['filedeleted']
+msgid "File deleted from queue"
+msgstr ""
+
+#: $string['filereset']
+msgid "A file has been reset for re-submission to UNPLAG"
+msgstr ""
+
+#: $string['fileresubmitted']
+msgid "File Queued for resubmission"
+msgstr ""
+
+#: $string['generalinfo']
+msgid "General information"
+msgstr ""
+
+#: $string['getscore']
+msgid "Get score"
+msgstr ""
+
+#: $string['heldevents']
+msgid "Held events"
+msgstr ""
+
+#: $string['heldeventsdescription']
+msgid ""
+"These are events that did not complete on the first attempt and were queued "
+"for resubmission - this prevents subsequent events from completing and may "
+"need further investigation. Some of these events may not be relevant to "
+"UNPLAG."
+msgstr ""
+
+#: $string['id']
+msgid "ID"
+msgstr ""
+
+#: $string['identifier']
+msgid "Identifier"
+msgstr ""
+
+#: $string['max_100000_words']
+msgid ""
+"File(s) should have no more than 100 000 words and be not larger than 70MB"
+msgstr ""
+
+#: $string['max_supported_archive_files_count']
+msgid "Max supported archive files"
+msgstr ""
+
+#: $string['max_supported_archive_files_count_help']
+msgid ""
+"The maximum number of supported files that will be extracted from the "
+"archives"
+msgstr ""
+
+#: $string['min_30_words']
+msgid "At least 30 words are required"
+msgstr ""
+
+#: $string['module']
+msgid "Module"
+msgstr ""
+
+#: $string['my_library']
+msgid "Doc vs Library"
+msgstr ""
+
+#: $string['name']
+msgid "Name"
+msgstr ""
+
+#: $string['no_index_files']
+msgid "Draft assignment"
+msgstr ""
+
+#: $string['noreceiver']
+msgid "No receiver address was specified"
+msgstr ""
+
+#: $string['pending']
+msgid "This file is pending submission to UNPLAG"
+msgstr ""
+
+#: $string['plagiarism']
+msgid "Potential plagiarism"
+msgstr ""
+
+#: $string['plagiarism_run_success']
+msgid "File sent for plagiarism scan"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "UNPLAG plagiarism plugin"
+msgstr ""
+
+#: $string['previouslysubmitted']
+msgid "Previously submitted as"
+msgstr ""
+
+#: $string['processing']
+msgid ""
+"This file has been submitted to UNPLAG, now waiting for the analysis to be "
+"available"
+msgstr ""
+
+#: $string['progress']
+msgid "Scan"
+msgstr ""
+
+#: $string['receivernotvalid']
+msgid "This is not a valid receiver address."
+msgstr ""
+
+#: $string['refresh']
+msgid "Refresh page to see results"
+msgstr ""
+
+#: $string['report']
+msgid "View full report"
+msgstr ""
+
+#: $string['reportready']
+msgid "Report ready"
+msgstr ""
+
+#: $string['resubmit']
+msgid "Resubmit"
+msgstr ""
+
+#: $string['savedconfigfailed']
+msgid ""
+"An incorrect Client ID/API Secret combination has been entered. UNPLAG has "
+"been disabled, please try again."
+msgstr ""
+
+#: $string['savedconfigsuccess']
+msgid "Plagiarism detection settings saved"
+msgstr ""
+
+#: $string['scoreavailable']
+msgid "This file has been processed by UNPLAG and a report is now available."
+msgstr ""
+
+#: $string['scorenotavailableyet']
+msgid "This file has not been processed by UNPLAG yet."
+msgstr ""
+
+#: $string['showwhenclosed']
+msgid "When Activity closed"
+msgstr ""
+
+#: $string['similarity']
+msgid "Similarity"
+msgstr ""
+
+#: $string['similarity_sensitivity']
+msgid "Hide sources with a match less then (%)"
+msgstr ""
+
+#: $string['status']
+msgid "Status"
+msgstr ""
+
+#: $string['studentdisclosure']
+msgid "Familiarize students with the UNPLAG Privacy Policy"
+msgstr ""
+
+#: $string['studentdisclosuredefault']
+msgid ""
+"All  uploaded files will be submitted to the plagiarism detection system "
+"UNPLAG."
+msgstr ""
+
+#: $string['studentdisclosure_help']
+msgid "This text will be displayed to all students on the file upload page."
+msgstr ""
+
+#: $string['studentemailcontent']
+msgid ""
+"The file you submitted to {$a->modulename} in {$a->coursename} has already "
+"been processed by the plagiarism detection system UNPLAG\n"
+"{$a->modulelink}"
+msgstr ""
+
+#: $string['studentemailsubject']
+msgid "File processed by UNPLAG"
+msgstr ""
+
+#: $string['submitondraft']
+msgid "Submit file when first uploaded"
+msgstr ""
+
+#: $string['submitonfinal']
+msgid "Submit file when student sends it for grading"
+msgstr ""
+
+#: $string['toolarge']
+msgid "This file is too large for UNPLAG to process"
+msgstr ""
+
+#: $string['unknownwarning']
+msgid "An error occurred when trying to send this file to UNPLAG"
+msgstr ""
+
+#: $string['unplag']
+msgctxt "$string['unplag']"
+msgid "UNPLAG plagiarism plugin"
+msgstr ""
+
+#: $string['unplag_api_secret']
+msgid "API Secret"
+msgstr ""
+
+#: $string['unplag_api_secret_help']
+msgid ""
+"API Secret provided by UNPLAG to access the API you can find it on <a href=\""
+"https://unplag.com/profile/apisettings\">https://unplag.com/profile/apisettin"
+"gs</a>"
+msgstr ""
+
+#: $string['unplag_client_id']
+msgid "Client ID"
+msgstr ""
+
+#: $string['unplag_client_id_help']
+msgid ""
+"ID of Client provided by UNPLAG to access the API you can find it on <a href"
+"=\"https://unplag.com/profile/apisettings\">https://unplag.com/profile/apisett"
+"ings</a>"
+msgstr ""
+
+#: $string['unplagdebug']
+msgid "Debugging"
+msgstr ""
+
+#: $string['unplagdefaults']
+msgid "UNPLAG defaults"
+msgstr ""
+
+#: $string['unplag_draft_submit']
+msgid "When should the file be submitted to UNPLAG"
+msgstr ""
+
+#: $string['unplag:enable']
+msgid "Allow the teacher to enable/disable UNPLAG inside an activity"
+msgstr ""
+
+#: $string['unplag_enableplugin']
+msgid "Enable in {$a} activity"
+msgstr ""
+
+#: $string['unplagfiles']
+msgid "Unplag Files"
+msgstr ""
+
+#: $string['unplag_lang']
+msgid "Language"
+msgstr ""
+
+#: $string['unplag_lang_help']
+msgid "Language code provided by UNPLAG"
+msgstr ""
+
+#: $string['unplag:resetfile']
+msgid ""
+"Allow the teacher to resubmit the file to UNPLAG after an error occurred"
+msgstr ""
+
+#: $string['unplag_settings_url_text']
+msgid "Open Unplag.com admin account to view/copy Client ID/API Secret"
+msgstr ""
+
+#: $string['unplag_show_student_report']
+msgid "Show reports to students"
+msgstr ""
+
+#: $string['unplag_show_student_report_help']
+msgid ""
+"The similarity report gives a breakdown on what parts of the submission were "
+"plagiarised and the location that UNPLAG found this content."
+msgstr ""
+
+#: $string['unplag_show_student_score']
+msgid "Show scores to students"
+msgstr ""
+
+#: $string['unplag_show_student_score_help']
+msgid ""
+"The similarity score is the percentage of the submission that has been "
+"matched with other content."
+msgstr ""
+
+#: $string['unplag_studentemail']
+msgid "Send email to Student"
+msgstr ""
+
+#: $string['unplag_studentemail_help']
+msgid ""
+"This will send an email to the student when a file has been processed to let "
+"them know that a report is available."
+msgstr ""
+
+#: $string['unplag:vieweditreport']
+msgid "Allow the teacher to view and edit the full report from UNPLAG"
+msgstr ""
+
+#: $string['unplag:viewreport']
+msgid "Allow the teacher to view the full report from UNPLAG"
+msgstr ""
+
+#: $string['unsupportedfiletype']
+msgid "This filetype is not supported by UNPLAG"
+msgstr ""
+
+#: $string['uploading']
+msgid "Uploading"
+msgstr ""
+
+#: $string['use_unplag']
+msgid "Auto check"
+msgstr ""
+
+#: $string['useunplag_assign_desc_param']
+msgid "To unlock Unplag settings"
+msgstr ""
+
+#: $string['useunplag_assign_desc_value']
+msgid "Set Submissions settings → Require students click submit button = Yes"
+msgstr ""
+
+#: $string['use_unplag_help']
+msgid ""
+"To use Unplag plugin, first set option Require students click submit button "
+"to Yes (Submissions settings)."
+msgstr ""
+
+#: $string['waitingevents']
+msgid ""
+"There are {$a->countallevents} events waiting for cron and {$a->countheld} "
+"events are being held for resubmission"
+msgstr ""
+
+#: $string['web']
+msgid "Doc vs Internet"
+msgstr ""
+
+#: $string['web_and_my_library']
+msgid "Doc vs Internet + Library"
+msgstr ""

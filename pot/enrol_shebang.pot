@@ -1,0 +1,891 @@
+#. extracted from lang/en/enrol_shebang.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'enrol_shebang', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   enrol_shebang
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['description']
+msgid ""
+"<p style=\"text-align: center\">{$a->a}</p><p style=\"text-align: "
+"justify\">{$a->c}<br /><br />This enrollment plugin provides a way to consume "
+"SunGard HE Banner&reg; messages generated from Luminis Message Broker. This "
+"module is not a SunGard product, and is neither endorsed nor supported by "
+"SunGard. This module is provided as is, with no warranties or guarantees, "
+"either express or implied. Use it at your own risk.<br /><br />Please review "
+"the README.txt file in the plugin directory for information concerning "
+"security and performance issues. Do not enable this plugin until you have "
+"secured access to the post.php script.<br /><br />To perform administrative "
+"tasks use the <a href=\"{$a->b}\">Admin. Utilities</a>.</p>"
+msgstr ""
+
+#: $string['ERR_CONFIGS_NOTSET']
+msgid "Configuration settings not found"
+msgstr ""
+
+#: $string['ERR_COURSECAT_ZERO']
+msgid "Could not determine category for new course"
+msgstr ""
+
+#: $string['ERR_COURSE_IDNUMBER']
+msgid "Invalid course idnumber"
+msgstr ""
+
+#: $string['ERR_CREATE_CHLID_COURSE']
+msgid "Failed to add child course to metacourse"
+msgstr ""
+
+#: $string['ERR_CREATE_CROSSLIST_GROUP']
+msgid "Failed to create course group"
+msgstr ""
+
+#: $string['ERR_CREATE_PARENT_COURSE']
+msgid "Failed to create cross-list parent course"
+msgstr ""
+
+#: $string['ERR_CROSSLISTNOTENABLED']
+msgctxt "$string['ERR_CROSSLISTNOTENABLED']"
+msgid "Cross-listing is not enabled"
+msgstr ""
+
+#: $string['ERR_DATADIR_CREATE']
+msgid "Unable to create the enrol_shebang data directory"
+msgstr ""
+
+#: $string['ERR_DATADIR_MESGLOG']
+msgid "Unable to create the message logging directory"
+msgstr ""
+
+#: $string['ERR_DATADIR_PROCLOG']
+msgid "Unable to create the process logging directory"
+msgstr ""
+
+#: $string['ERR_DATAFILE_NOFILE']
+msgid "The import file was not found or is not readable"
+msgstr ""
+
+#: $string['ERR_DATAFILE_NOOPEN']
+msgid "Could not lock the import file"
+msgstr ""
+
+#: $string['ERR_ENROL_INSERT']
+msgid "Could not create enrol instance in course"
+msgstr ""
+
+#: $string['ERR_ENROLL_FAIL']
+msgid "Failed to enroll person in course section"
+msgstr ""
+
+#: $string['ERR_ENROLL_ROLETYPE_BADMAP']
+msgid "Mapping for roletype invalid"
+msgstr ""
+
+#: $string['ERR_ENROLL_ROLETYPE_NOMAP']
+msgid "No mapping for roletype configured"
+msgstr ""
+
+#: $string['ERR_MEMBERSHIP_IDTYPE']
+msgid "Could not determine membership (id)type"
+msgstr ""
+
+#: $string['ERR_MESGLOG_CLOSE']
+msgid "Failed to close the message logging file"
+msgstr ""
+
+#: $string['ERR_MESGLOG_NOOPEN']
+msgid "Unable to open the message logging file"
+msgstr ""
+
+#: $string['ERR_METANOTENABLED']
+msgctxt "$string['ERR_METANOTENABLED']"
+msgid "Cross-listing is not enabled"
+msgstr ""
+
+#: $string['ERR_MISSINGVAL_USERNAME']
+msgid "The username value is empty"
+msgstr ""
+
+#: $string['ERR_MSG_NOHEADERS']
+msgid "Required HTTP message headers not found"
+msgstr ""
+
+#: $string['ERR_PERSON_SOURCE_ID']
+msgid "Invalid person source id"
+msgstr ""
+
+#: $string['ERR_PROCLOG_CLOSE']
+msgid "Failed to close the process logging file"
+msgstr ""
+
+#: $string['ERR_PROCLOG_NOOPEN']
+msgid "Unable to open the process logging file"
+msgstr ""
+
+#: $string['ERR_RECORDNOTFOUND']
+msgid "Record not found"
+msgstr ""
+
+#: $string['ERR_SUSPEND_FAIL']
+msgid "Failed to suspend user enrollment"
+msgstr ""
+
+#: $string['ERR_UNENROLL_FAIL']
+msgid "Failed to unenroll person from course section"
+msgstr ""
+
+#: $string['ERR_UPDATE_CROSSLIST_GROUP']
+msgid "Failed to update cross-list with course group id"
+msgstr ""
+
+#: $string['ERR_XMLLIBS_NOTFOUND']
+msgid "Required XML libraries not present"
+msgstr ""
+
+#: $string['ERR_XMLPARSER_CREATE']
+msgid "Failed to create xml_parser"
+msgstr ""
+
+#: $string['HELP_MONITOR_EMAILS']
+msgid ""
+"List of e-mail addresses, separated by commas or semi-colons, to which to "
+"send activity alerts."
+msgstr ""
+
+#: $string['HELP_MONITOR_START']
+msgid "Time of day when activity monitoring should begin."
+msgstr ""
+
+#: $string['HELP_MONITOR_STOP']
+msgid "Time of day when activity monitoring should stop."
+msgstr ""
+
+#: $string['HELP_MONITOR_THRESHOLD']
+msgid ""
+"Number of minutes after which there has been no activity an alert e-mail "
+"should be sent."
+msgstr ""
+
+#: $string['HELP_RESPONSES_200_ON_ERROR']
+msgid ""
+"Even when message processing fails respond with an HTTP 200 status code to "
+"prevent Luminis message broker from suspending transmission."
+msgstr ""
+
+#: $string['HELP_RESPONSES_EMAILS']
+msgid ""
+"List of e-mail addresses, separated by commas or semi-colons, to which to "
+"send error notifications."
+msgstr ""
+
+#: $string['HELP_RESPONSES_NOTIFY_ON_ERROR']
+msgid ""
+"Send e-mail notification when a message processing error occurs (limited to "
+"one message every 30 minutes.)"
+msgstr ""
+
+#: $string['INF_COURSEDELETE_NOACTION']
+msgid "No action taken for course delete"
+msgstr ""
+
+#: $string['INF_CRON_FINISH']
+msgid "SHEBanG cron: Finished cron task."
+msgstr ""
+
+#: $string['INF_CRON_MONITOR_DISABLED']
+msgid "SHEBanG cron: Not enabled. Exiting."
+msgstr ""
+
+#: $string['INF_CRON_MONITOR_FINISH']
+msgid "SHEBanG cron: Monitor task finished."
+msgstr ""
+
+#: $string['INF_CRON_MONITOR_MSGTHRESHOLD']
+msgid "SHEBanG cron: Last message time threshold not exceeded. Exiting."
+msgstr ""
+
+#: $string['INF_CRON_MONITOR_NOTICESENT']
+msgid "SHEBanG cron: Email notice sent to $a."
+msgstr ""
+
+#: $string['INF_CRON_MONITOR_NOTICETHRESHOLD']
+msgid "SHEBanG cron: Last notice time threshold not exceeded. Exiting."
+msgstr ""
+
+#: $string['INF_CRON_MONITOR_START']
+msgid "SHEBanG cron: Monitor task begins."
+msgstr ""
+
+#: $string['INF_CRON_MONITOR_WRONGDAY']
+msgid "SHEBanG cron: Not today. Exiting."
+msgstr ""
+
+#: $string['INF_CRON_MONITOR_WRONGTIME']
+msgid "SHEBanG cron: Not in window. Exiting"
+msgstr ""
+
+#: $string['INF_CRON_START']
+msgid "SHEBanG cron: Beginning cron task."
+msgstr ""
+
+#: $string['INF_TOOLS_IMPORT_FILENOTFOUND']
+msgid "File specified was not found"
+msgstr ""
+
+#: $string['INF_TOOLS_IMPORT_PROGRESS']
+msgid "<smaller>{$a->blocks_read} of {$a->blocks_total} blocks read</smaller>"
+msgstr ""
+
+#: $string['INF_USERCREATE_NOACTION']
+msgid "No action taken for create user"
+msgstr ""
+
+#: $string['INF_USERDELETE_NOACTION']
+msgid "No action taken for delete user recstatus"
+msgstr ""
+
+#: $string['LBL_COURSE']
+msgid "Course (Section) Messages"
+msgstr ""
+
+#: $string['LBL_COURSE_CATEGORY']
+msgid "Category for new courses"
+msgstr ""
+
+#: $string['LBL_COURSE_CATEGORY_DEPT']
+msgid "By Dept"
+msgstr ""
+
+#: $string['LBL_COURSE_CATEGORY_ID']
+msgid "Category for 'Use Existing\\"
+msgstr ""
+
+#: $string['LBL_COURSE_CATEGORY_NEST']
+msgid "Nest: Term/Dept"
+msgstr ""
+
+#: $string['LBL_COURSE_CATEGORY_PICK']
+msgid "Use Existing"
+msgstr ""
+
+#: $string['LBL_COURSE_CATEGORY_TERM']
+msgid "By Term"
+msgstr ""
+
+#: $string['LBL_COURSE_FULLNAME_CHANGES']
+msgid "Apply changes to fullname on updates"
+msgstr ""
+
+#: $string['LBL_COURSE_FULLNAME_PATTERN']
+msgid "Pattern for course full name"
+msgstr ""
+
+#: $string['LBL_COURSE_FULLNAME_UPPERCASE']
+msgid "Force course full name to upper case"
+msgstr ""
+
+#: $string['LBL_COURSE_help']
+msgid ""
+"<p><ul><li>Category for new courses - Determines the course category used "
+"for newly created courses:<ul><li>By Term - Courses are categorized by "
+"academic term</li><li>By Dept - Courses are categorized by academic "
+"department</li><li>Nest: Term/Dept - Courses are categorized by academic "
+"department subordinate to categories for academic term</li><li>Use Existing: "
+"Places new courses in the specified category</li></ul></li><li>Category for "
+"'Use Existing' - the category to use when 'Use Existing' is "
+"selected.</li><li>Sections based on start/stop dates - when selected, create "
+"as many sections (weeks) needed to coincide with the course start/stop "
+"dates.</li><li>Pattern for course full name - Pattern to use for course full "
+"name. The available tokens are:<ul><li>%termcode% - The code used for the "
+"academic term, e.g. 201010</li><li>%termdesc% - The description of the "
+"academic term</li><li>%fullname% - Course section's full name</li><li>%"
+"longname% - Course section's long name</li><li>%shortname% - Course "
+"section's short name</li><li>%sourceid% - Course section's Banner code "
+"(CRN)</li><li>%deptcode% - Department code, parsed from the course's long "
+"name using a hyphen (-) delimiter</li><li>%deptname% - Department "
+"name.</li><li>%parentcode% - Parent course's sourcedid/id</li><li>%coursenum"
+"% - Course's number</li><li>%sectionnum% - Course's section "
+"number</li></ul></li><li>Force course full name to upper case - Changes the "
+"full name to upper case.</li><li>Apply changes to fullname on updates - "
+"Update the course full name with LMB message contents, otherwise preserve "
+"the full name.</li><li>Pattern for course short name - Pattern for course "
+"short name. Use same tokens as with course full name.</li><li>Force course "
+"short name to upper case - Changes the short name to upper case.</li>  "
+"<li>Apply changes to shortname on updates - Update the course short name "
+"with LMB message contents, otherwise preserve the short name.</li><li>Hide "
+"courses when created - Newly created courses will not be visible to "
+"students.</li><li>Strip leading chars from parent course id - The number of "
+"leading characters, if any, to strip from the parent course's source "
+"id.</li></ul></p>"
+msgstr ""
+
+#: $string['LBL_COURSE_HIDDEN']
+msgid "Hide courses when created"
+msgstr ""
+
+#: $string['LBL_COURSE_PARENT_STRIPLEAD']
+msgid "Strip leading chars from parent course id"
+msgstr ""
+
+#: $string['LBL_COURSE_SECTIONS_EQUAL_WEEKS']
+msgid "Sections based on start/stop dates"
+msgstr ""
+
+#: $string['LBL_COURSE_SHORTNAME_CHANGES']
+msgid "Apply changes to shortname on updates"
+msgstr ""
+
+#: $string['LBL_COURSE_SHORTNAME_PATTERN']
+msgid "Pattern for course short name"
+msgstr ""
+
+#: $string['LBL_COURSE_SHORTNAME_UPPERCASE']
+msgid "Force course short name to upper case"
+msgstr ""
+
+#: $string['LBL_CROSSLIST']
+msgid "Cross-Listing"
+msgstr ""
+
+#: $string['LBL_CROSSLIST_ENABLED']
+msgid "Process course cross-listing"
+msgstr ""
+
+#: $string['LBL_CROSSLIST_FULLNAME_PREFIX']
+msgid "Cross-list Fullname Prefix"
+msgstr ""
+
+#: $string['LBL_CROSSLIST_GROUPS']
+msgid "Group enrollees based on child-courses"
+msgstr ""
+
+#: $string['LBL_CROSSLIST_help']
+msgid ""
+"<p>These settings affect how cross-listed course sections are "
+"handled.</p><p><ul><li>Process course cross-listing - Enables processing of "
+"group &lt;membership&gt; messages, i.e. cross-listed child "
+"courses.</li><li>Implement cross-listing using - Determines whether to "
+"implement a cross-listed course as either a metacourse, or a regular course "
+"where enrollments are re-directed to the parent course. With metacourses, "
+"enrollments are made in the child course, as usual, and the Moodle "
+"syncronizes enrollments.</li><li>Group enrollees based on child-courses - "
+"Create groups in the parent course that correspond to the child courses, and "
+"populate them accordingly.</li><li>Cross-list Fullname Prefix - Prefix for "
+"the cross-list parent course full name.</li><li>Cross-list Shortname Prefix "
+"- Prefix for the cross-list parent course short name.</li><li>Hide child "
+"courses when cross-listed - Makes a course hidden after it has been "
+"designated as a child course.</li></ul></p>"
+msgstr ""
+
+#: $string['LBL_CROSSLIST_HIDE_ON_PARENT']
+msgid "Hide child courses when cross-listed"
+msgstr ""
+
+#: $string['LBL_CROSSLIST_METHOD']
+msgid "Implement cross-listing using"
+msgstr ""
+
+#: $string['LBL_CROSSLIST_METHOD_MERGE']
+msgid "Merge Course"
+msgstr ""
+
+#: $string['LBL_CROSSLIST_METHOD_META']
+msgid "Meta Course"
+msgstr ""
+
+#: $string['LBL_CROSSLIST_SHORTNAME_PREFIX']
+msgid "Cross-list Shortname Prefix"
+msgstr ""
+
+#: $string['LBL_DISCLAIMER']
+msgid "License & Disclaimer"
+msgstr ""
+
+#: $string['LBL_DISCLAIMER_help']
+msgid ""
+"<h4 style=\"width: 100%; text-align: center;\">SHEBanG Enrollment "
+"Plugin</h4><p style=\"width: 100%; text-align: center;\">Copyright &copy; 2010 "
+"Appalachian State University, Boone, NC</p><p style=\"text-align: "
+"justify\">Distributed under the terms of the GNU General Public License "
+"version 3. This program is free software: you can redistribute it and/or "
+"modify it under the terms of the GNU General Public License as published by "
+"the Free Software Foundation, either version 3 of the License, or (at your "
+"option) any later version.<br /><br />This program is distributed in the "
+"hope that it will be useful, but WITHOUT ANY WARRANTY; without even the "
+"implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See "
+"the GNU General Public License for more details.<br /><br />You should have "
+"received a copy of the GNU General Public License along with this program. "
+"If not, see <a "
+"href=\"http://www.gnu.org/licenses/\">www.gnu.org/licenses/</a>.</p>"
+msgstr ""
+
+#: $string['LBL_ENROLL']
+msgid "Enrollment Role Mappings"
+msgstr ""
+
+#: $string['LBL_ENROLL_help']
+msgid ""
+"<p>Enrollment mappings determine the Moodle role used when a role assignment "
+"is made in a course. For a given LMB/IMS role used in &lt;membership&gt; "
+"messages, select which Moodle role to use.</p>"
+msgstr ""
+
+#: $string['LBL_ENROLLMENTS']
+msgid "Enrollments"
+msgstr ""
+
+#: $string['LBL_ENROLLMENTS_DELETE_INACTIVE']
+msgid "Inactive same as delete"
+msgstr ""
+
+#: $string['LBL_ENROLLMENTS_help']
+msgid ""
+"<p>These settings affect how &lt;membership&gt; (for persons) messages are "
+"handled.</p><ul><li>Inactive same as delete - When enabled enrollments will "
+"be deleted when the membership message has a role status indicating "
+"inactive</li></ul>"
+msgstr ""
+
+#: $string['LBL_ENROLL_ROLEMAP_01']
+msgid "Learner (01) to"
+msgstr ""
+
+#: $string['LBL_ENROLL_ROLEMAP_02']
+msgid "Instructor (02) to"
+msgstr ""
+
+#: $string['LBL_ENROLL_ROLEMAP_03']
+msgid "Content (03) to"
+msgstr ""
+
+#: $string['LBL_ENROLL_ROLEMAP_04']
+msgid "Member (04) to"
+msgstr ""
+
+#: $string['LBL_ENROLL_ROLEMAP_05']
+msgid "Manager (05) to"
+msgstr ""
+
+#: $string['LBL_ENROLL_ROLEMAP_06']
+msgid "Mentor (06) to"
+msgstr ""
+
+#: $string['LBL_ENROLL_ROLEMAP_07']
+msgid "Admin. (07) to"
+msgstr ""
+
+#: $string['LBL_ENROLL_ROLEMAP_08']
+msgid "Teach Asst. (08) to"
+msgstr ""
+
+#: $string['LBL_ENROLL_ROLE_NOMAP']
+msgid "Not Mapped"
+msgstr ""
+
+#: $string['LBL_LOGGING']
+msgid "Logging"
+msgstr ""
+
+#: $string['LBL_LOGGING_DIRPATH']
+msgid "Log Directory Path"
+msgstr ""
+
+#: $string['LBL_LOGGING_help']
+msgid ""
+"<p>These settings affect message and process logging.</p><ul><li>Write only "
+"errors - when checked, processing log entries will be made only when an "
+"error occurs.</li><li>Write message XML - when checked, each message "
+"received from the LMB will logged to a file in the enrol_shebang sub-"
+"directory of the moodledata directory.</li><li>Suspend Locking - no "
+"serialization. The message log file will not be locked exclusively as each "
+"LMB message import worker process handles its POST.</li><li>Log Directory "
+"Path - alternate directory in which to put process and message log "
+"files.</li></ul>"
+msgstr ""
+
+#: $string['LBL_LOGGING_LOGXML']
+msgid "Write message XML"
+msgstr ""
+
+#: $string['LBL_LOGGING_NOLOGLOCK']
+msgid "Suspend Locking"
+msgstr ""
+
+#: $string['LBL_LOGGING_ONLYERRORS']
+msgid "Write only errors"
+msgstr ""
+
+#: $string['LBL_MONITOR']
+msgid "Monitoring"
+msgstr ""
+
+#: $string['LBL_MONITOR_EMAILS']
+msgctxt "$string['LBL_MONITOR_EMAILS']"
+msgid "Notify email address(es)"
+msgstr ""
+
+#: $string['LBL_MONITOR_help']
+msgid ""
+"<p>If this feature is enabled you can request e-mail notifications to be "
+"sent when there has not been activity for more than a specified number of "
+"minutes. The check is made during the Moodle cron job so the frequency of "
+"monitoring when the last message was received is dependent on the cron job "
+"configuration.</p><p><ul><li>Weekdays to monitor - Select the weekdays on "
+"which monitoring should take place. If no weekdays are selected, monitoring "
+"is effectively disabled.</li><li>Begin monitoring at - Time to begin "
+"monitoring activity, such as 8:00 a.m., or some other time when there is an "
+"expectation of activity.</li><li>Cease monitoring at - Time to cease "
+"monitoring activity, such as 5:00 p.m. (i.e. close of business), or some "
+"time when there is no expectation of activity.</li><li>Begin notifications "
+"after - The threshold, in minutes, after which a notification should be sent "
+"if there is no activity. Notifications will be sent every 30 minutes "
+"thereafter until a new LMB message arrives.</li><li>Notify email address(es) "
+"- A comma separated list of e-mail addresses to which to send "
+"notification.</li></ul></p>"
+msgstr ""
+
+#: $string['LBL_MONITOR_START']
+msgid "Begin monitoring at"
+msgstr ""
+
+#: $string['LBL_MONITOR_STOP']
+msgid "Cease monitoring at"
+msgstr ""
+
+#: $string['LBL_MONITOR_THRESHOLD']
+msgid "Begin notifications after"
+msgstr ""
+
+#: $string['LBL_MONITOR_USECOMMAS']
+msgid "Use commas (,) to separate addresses"
+msgstr ""
+
+#: $string['LBL_MONITOR_WEEKDAYS']
+msgid "Weekdays to monitor"
+msgstr ""
+
+#: $string['LBL_PERSON']
+msgid "Person Messages"
+msgstr ""
+
+#: $string['LBL_PERSON_ADDRESS']
+msgid "Import address information"
+msgstr ""
+
+#: $string['LBL_PERSON_ADDRESS_CHANGES']
+msgid "Apply changes to address on updates"
+msgstr ""
+
+#: $string['LBL_PERSON_AUTH_METHOD']
+msgid "New users' auth. method"
+msgstr ""
+
+#: $string['LBL_PERSON_COUNTRY']
+msgid "Country for new users"
+msgstr ""
+
+#: $string['LBL_PERSON_CREATE']
+msgid "Create user accounts"
+msgstr ""
+
+#: $string['LBL_PERSON_DELETE']
+msgid "Action when recstatus = 3 (Delete)"
+msgstr ""
+
+#: $string['LBL_PERSON_DELETE_DELETE']
+msgid "Delete"
+msgstr ""
+
+#: $string['LBL_PERSON_DELETE_NOACTION']
+msgid "No Action"
+msgstr ""
+
+#: $string['LBL_PERSON_DELETE_UNENROL']
+msgid "Unenrol"
+msgstr ""
+
+#: $string['LBL_PERSON_EMAIL_CHANGES']
+msgid "Apply changes to e-mail on updates"
+msgstr ""
+
+#: $string['LBL_PERSON_FIRSTNAME_CHANGES']
+msgid "Apply changes to first-name on updates"
+msgstr ""
+
+#: $string['LBL_PERSON_FULLNAME_DESC']
+msgid "Use fullname for user description"
+msgstr ""
+
+#: $string['LBL_PERSON_help']
+msgid ""
+"<p>These settings affect how &lt;person&gt; messages are "
+"handled.</p><ul><li>Create user accounts - When enabled Moodle user accounts "
+"will be created if not already present upon receipt of an LMB person "
+"message.</li><li>Action when recstatus = 3 (Delete) - Action to take when a "
+"&lt;person&gt; message arrives with a recstatus indicating the person has "
+"been deleted from Banner.</li><li>Source field for username - Field in the "
+"message from which to take the Moodle username.</li><li>Luminis' sourcedid "
+"as failsafe - If the username can not be determined as configured, use the "
+"Luminis sourcedid (a unique value).</li><li>New users' auth. method - The "
+"authentication method to be used for newly created users.</li><li>Shibboleth "
+"domain for new users - If Shibboleth authentication is used for new users, "
+"a domain to append to the username to match the Shibboleth fully qualified "
+"eppn.</li><li>Source field for user password - If Manual authentication is "
+"used, selects an initial password source.</li><li>Keep passwords updated - "
+"When checked users' passwords will be updated from the LMB "
+"message.</li><li>Apply changes to first-name on updates - Overwrite the "
+"existing user's first name with the first name from the LMB "
+"message.</li><li>Apply changes to last-name on updates - Overwrite the "
+"existing user's last name with the last name from the LMB "
+"message.</li><li>Import telephone information - Populate the user's "
+"telephone information from the LMB message.</li><li>Apply changes to "
+"telephone on updates - Overwrite the existing user's telelphone with the "
+"telephone from the LMB message.</li><li>Import address information - "
+"Populate the user's address information from the LMB message.</li><li>Apply "
+"changes to address on updates - Overwrite the existing user's address with "
+"the address from the LMB message.</li><li>Source field for user's city - "
+"Field in the message from which to take the user's city "
+"(locality).</li><li>Default locality/city - If the city can not be "
+"determined as configured from the LMB message, the value to use for a new "
+"user's city.</li><li>Country for new users - Country to use for newly "
+"created users.</li><li>Use SCTID for idnumber - when checked the Moodle user "
+"idnumber field will be populated with the SCTID (Banner) userid rather than "
+"the source (Luminis) id.</li><li>Use nickname for user firstname - when "
+"checked the Moodle user firstname field will be populated with the "
+"<nickname> element if present, otherwise the <givenname> element is "
+"used.</li><li>Use fullname for user description - when checked the Moodle "
+"user description field will be populated with the <fn> element.</li></ul>"
+msgstr ""
+
+#: $string['LBL_PERSON_IDNUMBER_SCTID']
+msgid "Use SCTID for idnumber"
+msgstr ""
+
+#: $string['LBL_PERSON_LASTNAME_CHANGES']
+msgid "Apply changes to last-name on updates"
+msgstr ""
+
+#: $string['LBL_PERSON_LOCALITY']
+msgid "Source field for user's city"
+msgstr ""
+
+#: $string['LBL_PERSON_LOCALITY_DEF']
+msgid "Default configured value"
+msgstr ""
+
+#: $string['LBL_PERSON_LOCALITY_DEFAULT']
+msgid "Default locality/city"
+msgstr ""
+
+#: $string['LBL_PERSON_LOCALITY_IFF']
+msgid "Locality if present, else Default"
+msgstr ""
+
+#: $string['LBL_PERSON_LOCALITY_MSG']
+msgid "Locality field from LMB Message"
+msgstr ""
+
+#: $string['LBL_PERSON_NICKNAME_PREFER']
+msgid "Use nickname for user firstname"
+msgstr ""
+
+#: $string['LBL_PERSON_PASSWORD']
+msgid "Source field for user password"
+msgstr ""
+
+#: $string['LBL_PERSON_PASSWORD_CHANGES']
+msgid "Keep passwords updated"
+msgstr ""
+
+#: $string['LBL_PERSON_PASSWORD_INFO']
+msgid "Only effective for Manual auth."
+msgstr ""
+
+#: $string['LBL_PERSON_PASSWORD_RANDOM']
+msgid "Random String"
+msgstr ""
+
+#: $string['LBL_PERSON_PASSWORD_USERID_LOGON']
+msgid "Banner Password"
+msgstr ""
+
+#: $string['LBL_PERSON_PASSWORD_USERID_SCTID']
+msgid "SCTID Password"
+msgstr ""
+
+#: $string['LBL_PERSON_SHIB_DOMAIN']
+msgid "Shibboleth domain for new users"
+msgstr ""
+
+#: $string['LBL_PERSON_TELEPHONE']
+msgid "Import telephone information"
+msgstr ""
+
+#: $string['LBL_PERSON_TELEPHONE_CHANGES']
+msgid "Apply changes to telephone on updates"
+msgstr ""
+
+#: $string['LBL_PERSON_USERNAME']
+msgid "Source field for username"
+msgstr ""
+
+#: $string['LBL_PERSON_USERNAME_EMAIL']
+msgid "E-mail address (username@domain)"
+msgstr ""
+
+#: $string['LBL_PERSON_USERNAME_FAILSAFE']
+msgid "Luminis' sourcedid as failsafe"
+msgstr ""
+
+#: $string['LBL_PERSON_USERNAME_FAILSAFE_INFO']
+msgid "Used if username undetected and otherwise blank"
+msgstr ""
+
+#: $string['LBL_PERSON_USERNAME_USERID_EMAIL']
+msgid "E-mail user name (no domain)"
+msgstr ""
+
+#: $string['LBL_PERSON_USERNAME_USERID_LOGON']
+msgid "Banner user name"
+msgstr ""
+
+#: $string['LBL_PERSON_USERNAME_USERID_SCTID']
+msgid "Banner Id"
+msgstr ""
+
+#: $string['LBL_RESPONSES']
+msgid "Server Responses"
+msgstr ""
+
+#: $string['LBL_RESPONSES_200_ON_ERROR']
+msgid "Send HTTP 200 on error"
+msgstr ""
+
+#: $string['LBL_RESPONSES_EMAILS']
+msgctxt "$string['LBL_RESPONSES_EMAILS']"
+msgid "Notify email address(es)"
+msgstr ""
+
+#: $string['LBL_RESPONSES_NOTIFY_ON_ERROR']
+msgid "Error notification"
+msgstr ""
+
+#: $string['LBL_SECURE']
+msgid "Security (Connections)"
+msgstr ""
+
+#: $string['LBL_SECURE_help']
+msgid ""
+"<p>If in your hosting environment you are unable to restrict access to the "
+"<b>secure/post.php</b> file using Apache configs or an .htaccess file, then "
+"you can optionally supply a username and password here.<br /><br />If you "
+"can secure the directory/file with Apache configs or an .htaccess file, "
+"there is no need to use this feature, and both the Username and Password "
+"fields should be left blank.</p><p><ul><li>Username - a username to use for "
+"access</li><li>Password - a corresponding password to use for "
+"access</li><li>HTTP Auth. Method - Digest (default) or Basic (clear-"
+"text)</li></ul></p>"
+msgstr ""
+
+#: $string['LBL_SECURE_METHOD']
+msgid "HTTP Auth. Method"
+msgstr ""
+
+#: $string['LBL_SECURE_METHOD_BASIC']
+msgid "Basic"
+msgstr ""
+
+#: $string['LBL_SECURE_METHOD_DIGEST']
+msgid "Digest"
+msgstr ""
+
+#: $string['LBL_SECURE_PASSWD']
+msgid "Password"
+msgstr ""
+
+#: $string['LBL_SECURE_USERNAME']
+msgid "Username"
+msgstr ""
+
+#: $string['LBL_TOOLS_FILES']
+msgid "SHEBanG Manage Files"
+msgstr ""
+
+#: $string['LBL_TOOLS_IMPORT']
+msgid "SHEBanG Import File"
+msgstr ""
+
+#: $string['LBL_TOOLS_IMPORT_CANCEL']
+msgid "Cancel"
+msgstr ""
+
+#: $string['LBL_TOOLS_IMPORT_help']
+msgid "<p>Import a previously uploaded file, or upload a new file.</p>"
+msgstr ""
+
+#: $string['LBL_TOOLS_IMPORT_LINK_DELETE']
+msgid "Delete File"
+msgstr ""
+
+#: $string['LBL_TOOLS_IMPORT_LINK_IMPORT']
+msgid "Import File"
+msgstr ""
+
+#: $string['LBL_TOOLS_IMPORT_SAVE']
+msgid "Save to SHEBanG files"
+msgstr ""
+
+#: $string['LBL_TOOLS_IMPORT_SELECT']
+msgid "Select file to import"
+msgstr ""
+
+#: $string['LBL_TOOLS_IMPORT_UPLOAD']
+msgid "Upload or select a file"
+msgstr ""
+
+#: $string['LBL_TOOLS_INDEX']
+msgid "SHEBanG Admin. Utilities"
+msgstr ""
+
+#: $string['LBL_TOOLS_LINK']
+msgid "Admin. Utilities: <a href=\"{$a}\">Click Here</a>"
+msgstr ""
+
+#: $string['LBL_VERSION']
+msgid "SHEBanG Enrollment Plugin Version {$a}"
+msgstr ""
+
+#: $string['pluginname']
+msgid "SHEBanG"
+msgstr ""
+
+#: $string['shebang:unenrol']
+msgid "Unenrol users from course"
+msgstr ""

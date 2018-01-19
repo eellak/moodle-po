@@ -1,0 +1,515 @@
+#. extracted from lang/en/readaloud.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'readaloud', language 'en', branch 'MOODLE_31_STABLE'
+#.  *
+#.  * @package   readaloud
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['accuracy']
+msgid "Accuracy"
+msgstr ""
+
+#: $string['accuracy_p']
+msgid "Acc(%)"
+msgstr ""
+
+#: $string['allowearlyexit']
+msgid "Can exit early"
+msgstr ""
+
+#: $string['allowearlyexit_defaultdetails']
+msgid ""
+"Sets the default setting for allow_early_exit. Can be overriden at the "
+"activity level. If true, allow_early_exit means that students can finish "
+"before the time limit, by pressing a finish button. The WPM is calculated "
+"using their recording time."
+msgstr ""
+
+#: $string['allowearlyexit_details']
+msgid ""
+"If checked students can finish before the time limit, by pressing a finish "
+"button. The WPM is calculated using their recording time."
+msgstr ""
+
+#: $string['attemptsbyuserheading']
+msgid "User Attempts Report"
+msgstr ""
+
+#: $string['attemptsheading']
+msgctxt "$string['attemptsheading']"
+msgid "Attempts Report"
+msgstr ""
+
+#: $string['attemptsreport']
+msgctxt "$string['attemptsreport']"
+msgid "Attempts Report"
+msgstr ""
+
+#: $string['audiofile']
+msgid "Audio"
+msgstr ""
+
+#: $string['basicheading']
+msgctxt "$string['basicheading']"
+msgid "Basic Report"
+msgstr ""
+
+#: $string['basicreport']
+msgctxt "$string['basicreport']"
+msgid "Basic Report"
+msgstr ""
+
+#: $string['beginreading']
+msgid "Begin Reading"
+msgstr ""
+
+#: $string['cannotgradenow']
+msgid "-"
+msgstr ""
+
+#: $string['defaultfeedback']
+msgid "Thanks for your time."
+msgstr ""
+
+#: $string['defaultsettings']
+msgid "Default Settings"
+msgstr ""
+
+#: $string['defaultwelcome']
+msgid "Please read the following passage aloud."
+msgstr ""
+
+#: $string['deletealluserdata']
+msgid "Delete all user data"
+msgstr ""
+
+#: $string['deleteattemptconfirm']
+msgid "Are you sure that you want to delete this attempt?"
+msgstr ""
+
+#: $string['deletenow']
+msgctxt "$string['deletenow']"
+msgid ""
+msgstr ""
+
+#: $string['done']
+msgid "Done"
+msgstr ""
+
+#: $string['enabletts']
+msgid "Enable TTS(experimental)"
+msgstr ""
+
+#: $string['enabletts_details']
+msgid ""
+"<b>TTS is currently not implemented</b>. When implemented words marked as "
+"errors, if clicked will play back the correct pronunciation via a TTS "
+"service."
+msgstr ""
+
+#: $string['errorheader']
+msgid "Error"
+msgstr ""
+
+#: $string['exceededattempts']
+msgid "You have completed the maximum {$a} attempts."
+msgstr ""
+
+#: $string['exportexcel']
+msgid "Export to CSV"
+msgstr ""
+
+#: $string['feedbackheader']
+msgid "Finished"
+msgstr ""
+
+#: $string['feedbacklabel']
+msgid "Feedback Message"
+msgstr ""
+
+#: $string['feedbacklabel_details']
+msgid ""
+"The default text to show in the feedback field when creating a new Read "
+"Aloud activity."
+msgstr ""
+
+#: $string['gotnosound']
+msgid ""
+"We could not hear you. Please check the permissions and settings for "
+"microphone and try again."
+msgstr ""
+
+#: $string['grade']
+msgid "Grade"
+msgstr ""
+
+#: $string['gradeaverage']
+msgid "average score of all attempts"
+msgstr ""
+
+#: $string['gradehighest']
+msgid "highest scoring attempt"
+msgstr ""
+
+#: $string['gradelatest']
+msgid "score of latest attempt"
+msgstr ""
+
+#: $string['gradelowest']
+msgid "lowest scoring attempt"
+msgstr ""
+
+#: $string['gradenone']
+msgid "No grade"
+msgstr ""
+
+#: $string['gradenow']
+msgid "Grade Now"
+msgstr ""
+
+#: $string['gradenowtitle']
+msgid "Grading: {$a}"
+msgstr ""
+
+#: $string['gradeoptions']
+msgid "Grade Options"
+msgstr ""
+
+#: $string['grade_p']
+msgid "Grade(%)"
+msgstr ""
+
+#: $string['grading']
+msgid "Grading"
+msgstr ""
+
+#: $string['gradingbyuserheading']
+msgid "Grading all attempts for: {$a}"
+msgstr ""
+
+#: $string['gradingheading']
+msgid "Grading latest attempts for each user."
+msgstr ""
+
+#: $string['id']
+msgid "ID"
+msgstr ""
+
+#: $string['itemsperpage']
+msgid "Items per page"
+msgstr ""
+
+#: $string['itemsperpage_details']
+msgid ""
+"This sets the number of rows to be shown on reports or lists of attempts."
+msgstr ""
+
+#: $string['loadbootstrap']
+msgid "Load Bootstrap"
+msgstr ""
+
+#: $string['loadbootstrap_details']
+msgid ""
+"Bootstrap is a set of CSS and javascript often used to make big colorful "
+"buttons and user interfaces that work well on PC and mobile devices. "
+"ReadAloud will load it independently if this is checked. If your theme "
+"already loads it, and it causes things to look weird then uncheck this."
+msgstr ""
+
+#: $string['loadfontawesome']
+msgid "Load FontAwesome"
+msgstr ""
+
+#: $string['loadfontawesome_details']
+msgid ""
+"FontAwesome provides bland icons that represent arrows and circles and "
+"various common symbols you see on toolbars and buttons. ReadAloud loads this "
+"for you if this is checked. Should this cause problems, uncheck it."
+msgstr ""
+
+#: $string['maxattempts']
+msgid "Max. Attempts"
+msgstr ""
+
+#: $string['mingrade']
+msgid "Minimum Grade"
+msgstr ""
+
+#: $string['mingradedetails']
+msgid "The minimum grade required to \"complete\" this activity."
+msgstr ""
+
+#: $string['mistakes']
+msgid "Mistakes"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Read Aloud"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"ReadAloud is an activity designed to assist teachers in evaluating their "
+"students reading fluency. Students read a passage, set by the teacher, into "
+"a microphone. Later the teacher can mark words as incorrect and get the "
+"student WCPM(Words Correct Per Minute) scores."
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Read Alouds"
+msgstr ""
+
+#: $string['name']
+msgid "Name"
+msgstr ""
+
+#: $string['nodataavailable']
+msgid "No Data Available Yet"
+msgstr ""
+
+#: $string['notgradedyet']
+msgid "Your last submission has not been graded yet"
+msgstr ""
+
+#: $string['overview']
+msgid "Overview"
+msgstr ""
+
+#: $string['overview_help']
+msgid "Overview Help"
+msgstr ""
+
+#: $string['passagelabel']
+msgid "Reading Passage"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Read Aloud Administration"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Read Aloud Activity"
+msgstr ""
+
+#: $string['preview']
+msgid "Preview"
+msgstr ""
+
+#: $string['processing']
+msgid "Processing"
+msgstr ""
+
+#: $string['readaloud']
+msgid "readaloud"
+msgstr ""
+
+#: $string['readaloud:addinstance']
+msgid "Add a new Read Aloud"
+msgstr ""
+
+#: $string['readaloudfieldset']
+msgid "Custom example fieldset"
+msgstr ""
+
+#: $string['readaloud:itemedit']
+msgid "Edit items"
+msgstr ""
+
+#: $string['readaloud:itemview']
+msgid "View items"
+msgstr ""
+
+#: $string['readaloud:manage']
+msgid "Can manage ReadAloud instances"
+msgstr ""
+
+#: $string['readaloud:manageattempts']
+msgid "Can manage ReadAloud attempts"
+msgstr ""
+
+#: $string['readaloudname']
+msgctxt "$string['readaloudname']"
+msgid "Read Aloud"
+msgstr ""
+
+#: $string['readaloudname_help']
+msgid ""
+"This is the content of the help tooltip associated with the readaloudname "
+"field. Markdown syntax is supported."
+msgstr ""
+
+#: $string['readaloud:preview']
+msgid "Can preview ReadAloud activities"
+msgstr ""
+
+#: $string['readaloudsettings']
+msgid "readaloud settings"
+msgstr ""
+
+#: $string['readaloud:submit']
+msgid "Can submit ReadAloud attempts"
+msgstr ""
+
+#: $string['readaloudtask']
+msgid "Read Aloud Task"
+msgstr ""
+
+#: $string['readaloud:tts']
+msgid "Can use Text To Speech(tts)"
+msgstr ""
+
+#: $string['readaloud:view']
+msgid "Preview Read Aloud"
+msgstr ""
+
+#: $string['reattempt']
+msgid "Try Again"
+msgstr ""
+
+#: $string['recordnameschool']
+msgid "Say your name and school"
+msgstr ""
+
+#: $string['reports']
+msgid "Reports"
+msgstr ""
+
+#: $string['returntogradinghome']
+msgid "Return to Grading Top"
+msgstr ""
+
+#: $string['returntoreports']
+msgid "Return to Reports"
+msgstr ""
+
+#: $string['saveandnext']
+msgid "Save .... and next"
+msgstr ""
+
+#: $string['showingattempt']
+msgid "Showing attempt for: {$a}"
+msgstr ""
+
+#: $string['someadminsetting']
+msgid "Some Admin Setting"
+msgstr ""
+
+#: $string['someadminsetting_details']
+msgid "More info about Some Admin Setting"
+msgstr ""
+
+#: $string['someinstancesetting']
+msgid "Some Instance Setting"
+msgstr ""
+
+#: $string['someinstancesetting_details']
+msgid "More infor about Some Instance Setting"
+msgstr ""
+
+#: $string['submitted']
+msgid "submitted"
+msgstr ""
+
+#: $string['targetwpm']
+msgid "Target WPM"
+msgstr ""
+
+#: $string['targetwpm_details']
+msgid ""
+"The default target WPM. A students grade is calculated for the gradebook "
+"using this value as the maximum score. If their WPM score is equal to, or "
+"greater than the target WPM, they will score 100%. The target WPM can also "
+"be set at the activity instance level."
+msgstr ""
+
+#: $string['targetwpm_help']
+msgid ""
+"The target WPM score. A students grade is calculated for the gradebook using "
+"this value as the maximum score. If their WPM score is equal to, or greater "
+"than the target WPM, they will score 100%."
+msgstr ""
+
+#: $string['timecreated']
+msgid "Time Created"
+msgstr ""
+
+#: $string['timelimit']
+msgid "Time Limit"
+msgstr ""
+
+#: $string['totalattempts']
+msgid "Attempts"
+msgstr ""
+
+#: $string['ttslanguage']
+msgid "TTS Language"
+msgstr ""
+
+#: $string['unlimited']
+msgid "unlimited"
+msgstr ""
+
+#: $string['uploadconverterror']
+msgid ""
+"An error occured while posting your file to the server. Your submission has "
+"NOT been received. Please refresh the page and try again."
+msgstr ""
+
+#: $string['username']
+msgid "User"
+msgstr ""
+
+#: $string['view']
+msgid "View"
+msgstr ""
+
+#: $string['viewgrading']
+msgid "View Grading"
+msgstr ""
+
+#: $string['viewreports']
+msgid "View Reports"
+msgstr ""
+
+#: $string['welcomelabel']
+msgid "Welcome Message"
+msgstr ""
+
+#: $string['welcomelabel_details']
+msgid ""
+"The default text to show in the welcome field when creating a new Read Aloud "
+"activity."
+msgstr ""
+
+#: $string['wpm']
+msgid "WPM"
+msgstr ""

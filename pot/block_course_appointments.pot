@@ -1,0 +1,114 @@
+#. extracted from lang/en/block_course_appointments.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_course_appointments', language 'en', branch 'MOODLE_24_STABLE'
+#.  *
+#.  * @package   block_course_appointments
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['book']
+msgid "Book"
+msgstr ""
+
+#: $string['datetime']
+msgid "Date/Time"
+msgstr ""
+
+#: $string['entrydescription']
+msgid "Meeting between {$a->student} and {$a->teacher}"
+msgstr ""
+
+#: $string['entryname']
+msgid "Meeting with {$a}"
+msgstr ""
+
+#: $string['invaliddate']
+msgid "The date and time selected was invalid"
+msgstr ""
+
+#: $string['nodate']
+msgid "No Date was selected"
+msgstr ""
+
+#: $string['nostudent']
+msgid "No Student was selected"
+msgstr ""
+
+#: $string['notifysms']
+msgid ""
+"{$a->teacher} has booked an appointment to see you on {$a->date} at\n"
+"{$a->time}. Please let them know if you are unable to attend."
+msgstr ""
+
+#: $string['notifystudent']
+msgid "Notify Student?"
+msgstr ""
+
+#: $string['notifysubject']
+msgid "Appointment to see {$a}"
+msgstr ""
+
+#: $string['notifytext']
+msgid ""
+"Hi {$a->student}\n"
+"{$a->teacher} has booked an appointment to see you on {$a->date} at "
+"{$a->time}.\n"
+"Please let {$a->teacher} know if you are unable to attend."
+msgstr ""
+
+#: $string['notnotified']
+msgid "The student could not be notified"
+msgstr ""
+
+#: $string['pastdate']
+msgid "The time and date selected is in the past"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Appointments"
+msgstr ""
+
+#: $string['pluginnameplural']
+msgctxt "$string['pluginnameplural']"
+msgid "Appointments"
+msgstr ""
+
+#: $string['remindsms']
+msgid "Don't forget your appointment with {$a->name} at {$a->time} today."
+msgstr ""
+
+#: $string['student']
+msgid "Student"
+msgstr ""
+
+#: $string['studentdoesntexist']
+msgid "The selected student doesn't exist"
+msgstr ""

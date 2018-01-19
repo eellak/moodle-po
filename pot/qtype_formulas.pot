@@ -1,0 +1,715 @@
+#. extracted from lang/en/qtype_formulas.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qtype_formulas', language 'en', branch 'MOODLE_30_STABLE'
+#.  *
+#.  * @package   qtype_formulas
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['abserror']
+msgid "Absolute error"
+msgstr ""
+
+#: $string['addmorepartsblanks']
+msgid "Blanks for {no} more parts"
+msgstr ""
+
+#: $string['algebraic_formula']
+msgid "Algebraic formula"
+msgstr ""
+
+#: $string['answer']
+msgid "Answer*"
+msgstr ""
+
+#: $string['answer_help']
+msgid ""
+"**Required**.\n"
+"must be a list of numbers, or a list of strings depending on the answer\n"
+"type chosen. When there is only one answer, a number or string can be\n"
+"entered directly. Please note that the number of elements in the list\n"
+"defines the number of answer fields for this part.\n"
+"\n"
+"<pre class=\"prettyprint\">123<br>[1, 0, 0, 1]<br>a<br>[1, a, b]<br>\"exp(-a "
+"t)\"<br>[\"vx t\",\"vy t - 0.5 a t^2\"]</pre>"
+msgstr ""
+
+#: $string['answermark']
+msgid "Part's mark*"
+msgstr ""
+
+#: $string['answermark_help']
+msgid ""
+"**Required**.\n"
+"The mark for the answer of this part, which should be a number greater than "
+"0.\n"
+" The default mark of the whole question is the sum of all its parts marks.\n"
+"\n"
+"Note: If this part's mark field is left blank, the part will be deleted when "
+"the question is saved."
+msgstr ""
+
+#: $string['answerno']
+msgid "Part {$a}"
+msgstr ""
+
+#: $string['answertype']
+msgid "Answer type"
+msgstr ""
+
+#: $string['answertype_help']
+msgid ""
+"There are four answer types.\n"
+"\n"
+"Number, numeric and numerical formula answers requires number or a list of "
+"numbers as answer.\n"
+"\n"
+"Algebraic formula answers requires a string or list of strings as answer.\n"
+"\n"
+"Different answer types will impose different restrictions while inputting "
+"answers, so students will\n"
+"need to know how to input them. The format check in the question code will\n"
+"also tell them when they type if something is wrong. Please read the "
+"documentation for details."
+msgstr ""
+
+#: $string['answertype_link']
+msgid ""
+"http://code.google.com/p/moodle-coordinate-"
+"question/wiki/Documentation#Answer_type"
+msgstr ""
+
+#: $string['checkvarshdr']
+msgid "Check variables instantiation"
+msgstr ""
+
+#: $string['choiceno']
+msgid "No"
+msgstr ""
+
+#: $string['choiceyes']
+msgid "Yes"
+msgstr ""
+
+#: $string['commonsiunit']
+msgid "Common SI unit"
+msgstr ""
+
+#: $string['correctansweris']
+msgid "One possible correct answer is: {$a}"
+msgstr ""
+
+#: $string['correctness']
+msgid "Grading criteria*"
+msgstr ""
+
+#: $string['correctness_help']
+msgid ""
+"**Required**. You can choose either relative error or absolute error with "
+"error\n"
+"range. Relative error cannot be used for algebraic answer type.\n"
+"\n"
+"For the precise definition of the relative error and absolute error when "
+"there is more than one answer field, see documentation."
+msgstr ""
+
+#: $string['correctness_link']
+msgid ""
+"http://code.google.com/p/moodle-coordinate-"
+"question/wiki/Documentation#Manual_grading_criteria"
+msgstr ""
+
+#: $string['defaultanswermark']
+msgid "Default part's mark"
+msgstr ""
+
+#: $string['defaultanswermark_desc']
+msgid "Default part's mark for new question's parts"
+msgstr ""
+
+#: $string['defaultanswertype']
+msgid "Default answer type"
+msgstr ""
+
+#: $string['defaultanswertype_desc']
+msgid "Default answer type for new question's parts"
+msgstr ""
+
+#: $string['defaultcorrectness']
+msgid "Default grading criteria"
+msgstr ""
+
+#: $string['defaultcorrectness_desc']
+msgid "Default grading criteria for new question's parts"
+msgstr ""
+
+#: $string['defaultunitpenalty']
+msgid "Default unit penalty"
+msgstr ""
+
+#: $string['defaultunitpenalty_desc']
+msgid "Default penalty for wrong unit (0-1)"
+msgstr ""
+
+#: $string['error_algebraic_var']
+msgid "Syntax error of defining algebraic variable."
+msgstr ""
+
+#: $string['error_answerbox_duplicate']
+msgid "Each answer field placeholder can only be used once in a part."
+msgstr ""
+
+#: $string['error_answer_missing']
+msgid "No answer has been defined."
+msgstr ""
+
+#: $string['error_answertype_mistmatch']
+msgid ""
+"Answer type mismatch: Numerical answer type requires number and algebraic "
+"answer type requires string"
+msgstr ""
+
+#: $string['error_criterion']
+msgid "The grading criterion must be evaluated to a single number."
+msgstr ""
+
+#: $string['error_eval_numerical']
+msgid "Some expressions cannot be evaluated numerically."
+msgstr ""
+
+#: $string['error_fixed_range']
+msgid "Syntax error of a fixed range."
+msgstr ""
+
+#: $string['error_forbid_char']
+msgid "Formula or expression contains forbidden characters or operators."
+msgstr ""
+
+#: $string['error_forloop']
+msgid "Syntax error of the for loop."
+msgstr ""
+
+#: $string['error_forloop_expression']
+msgid "Expression of the for loop must be a list."
+msgstr ""
+
+#: $string['error_forloop_var']
+msgid "Variable of the for loop has some errors."
+msgstr ""
+
+#: $string['error_func_param']
+msgid "Wrong number or wrong type of parameters for the function $a()"
+msgstr ""
+
+#: $string['error_mark']
+msgid "The answer mark must take a value larger than 0."
+msgstr ""
+
+#: $string['error_no_answer']
+msgid "At least one answer is required."
+msgstr ""
+
+#: $string['error_placeholder_format']
+msgid "Wrong placeholder's format or forbidden characters."
+msgstr ""
+
+#: $string['error_placeholder_main_duplicate']
+msgid "Duplicated placeholder in the main question text."
+msgstr ""
+
+#: $string['error_placeholder_missing']
+msgid "This placeholder is missing from the main question text."
+msgstr ""
+
+#: $string['error_placeholder_sub_duplicate']
+msgid "This placeholder has already been defined in some other part."
+msgstr ""
+
+#: $string['error_placeholder_too_long']
+msgid "The placeholder's length is limited to 40 characters."
+msgstr ""
+
+#: $string['error_randvars_set_size']
+msgid "The number of generable elements in the set must be larger than 1."
+msgstr ""
+
+#: $string['error_randvars_type']
+msgid "All elements in the set must have exactly the same type and size."
+msgstr ""
+
+#: $string['error_rule']
+msgid "Rule parsing error!"
+msgstr ""
+
+#: $string['error_ruleid']
+msgid "No such rule exists in the file with the id/name."
+msgstr ""
+
+#: $string['error_subexpression_empty']
+msgid "A subexpression is empty."
+msgstr ""
+
+#: $string['error_syntax']
+msgid "Syntax error."
+msgstr ""
+
+#: $string['error_unit']
+msgid "Unit parsing error!"
+msgstr ""
+
+#: $string['error_unitpenalty']
+msgid "The penalty must be a number between 0 and 1."
+msgstr ""
+
+#: $string['error_validation_eval']
+msgid "Try evalution error!"
+msgstr ""
+
+#: $string['error_vars_array_index_nonnumeric']
+msgid "Non-numeric value cannot be used as list index."
+msgstr ""
+
+#: $string['error_vars_array_index_out_of_range']
+msgid "List index out of range !!!"
+msgstr ""
+
+#: $string['error_vars_array_size']
+msgid "Size of list must be within 1 to 1000."
+msgstr ""
+
+#: $string['error_vars_array_type']
+msgid ""
+"Element in the same list must be of the same type, either number or string."
+msgstr ""
+
+#: $string['error_vars_array_unsubscriptable']
+msgid "Variable is unsubscriptable."
+msgstr ""
+
+#: $string['error_vars_bracket_mismatch']
+msgid "Bracket mismatch."
+msgstr ""
+
+#: $string['error_vars_end_separator']
+msgid "Missing an assignment separator at the end."
+msgstr ""
+
+#: $string['error_vars_name']
+msgid "The syntax of the variable name is incorrect."
+msgstr ""
+
+#: $string['error_vars_reserved']
+msgid "Function {$a}() is reserved and cannot be used as variable."
+msgstr ""
+
+#: $string['error_vars_string']
+msgid ""
+"Error! Either a string without closing double quote, or use of non-accepted "
+"character such as '."
+msgstr ""
+
+#: $string['error_vars_undefined']
+msgid "Variable '{$a}' has not been defined."
+msgstr ""
+
+#: $string['feedback']
+msgid "Feedback"
+msgstr ""
+
+#: $string['feedback_help']
+msgid ""
+"This part feedback will be show to students that don't get the maximum mark "
+"at this part. It can include global and locals variables that will be "
+"replaced by their values"
+msgstr ""
+
+#: $string['functiontakesatleasttwo']
+msgid "The function {$a} must have at least two arguments"
+msgstr ""
+
+#: $string['functiontakesnoargs']
+msgid "The function {$a} does not take any arguments"
+msgstr ""
+
+#: $string['functiontakesonearg']
+msgid "The function {$a} must have exactly one argument"
+msgstr ""
+
+#: $string['functiontakesoneortwoargs']
+msgid "The function {$a} must have either one or two arguments"
+msgstr ""
+
+#: $string['functiontakestwoargs']
+msgid "The function {$a} must have exactly two arguments"
+msgstr ""
+
+#: $string['globaloptions']
+msgid "[Global] -"
+msgstr ""
+
+#: $string['globalvarshdr']
+msgid "Variables"
+msgstr ""
+
+#: $string['illegalformulasyntax']
+msgid "Illegal formula syntax starting with '{$a}\\"
+msgstr ""
+
+#: $string['instantiate']
+msgid "Instantiate"
+msgstr ""
+
+#: $string['mainq']
+msgid "Main question"
+msgstr ""
+
+#: $string['modelanswer']
+msgid "Model answer"
+msgstr ""
+
+#: $string['none']
+msgid "None"
+msgstr ""
+
+#: $string['number']
+msgid "Number"
+msgstr ""
+
+#: $string['number_unit']
+msgid "Number and unit"
+msgstr ""
+
+#: $string['numdataset']
+msgid "Number of dataset"
+msgstr ""
+
+#: $string['numeric']
+msgid "Numeric"
+msgstr ""
+
+#: $string['numerical_formula']
+msgid "Numerical formula"
+msgstr ""
+
+#: $string['numerical_formula_unit']
+msgid "Numerical formula and unit"
+msgstr ""
+
+#: $string['numeric_unit']
+msgid "Numeric and unit"
+msgstr ""
+
+#: $string['otherrule']
+msgid "Other rules"
+msgstr ""
+
+#: $string['otherrule_help']
+msgid ""
+"Here the question' author can define additional  conversion rules for other "
+"accepted base units. See documentation for the advanced usages."
+msgstr ""
+
+#: $string['placeholder']
+msgid "Placeholder name"
+msgstr ""
+
+#: $string['placeholder_help']
+msgid ""
+"A placeholder is a used to identify the location in the main question\n"
+"text that will be replaced by the content of the part. It is a\n"
+"string of alphanumeric characters prefixed by '**#**', such as #1, #2a, #2b "
+"and #A.\n"
+"\n"
+"If this field is left empty, the part will be appended at the end of the "
+"main question text."
+msgstr ""
+
+#: $string['pleaseputananswer']
+msgid "Please put an answer in each input field."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Formulas"
+msgstr ""
+
+#: $string['pluginnameadding']
+msgid "Adding a formulas question"
+msgstr ""
+
+#: $string['pluginnameediting']
+msgid "Editing a formulas question"
+msgstr ""
+
+#: $string['pluginname_help']
+msgid ""
+"To start using this question, please read the <a "
+"href=\"http://code.google.com/p/moodle-coordinate-"
+"question/wiki/Tutorial\">Tutorial</a>.\n"
+"\n"
+"For possible questions, please download and import the <a "
+"href=\"http://code.google.com/p/moodle-coordinate-"
+"question/downloads/list\">Example</a>,\n"
+"or see the <a href=\"http://code.google.com/p/moodle-coordinate-"
+"question/wiki/ScreenShots\">Screenshots</a>.\n"
+"\n"
+"For the options in the editing form below, please read <a "
+"href=\"http://code.google.com/p/moodle-coordinate-"
+"question/wiki/QuestionOptions\">Question Options</a>\n"
+"\n"
+"For the full documentation, please read <a href=\"http://code.google.com/p"
+"/moodle-coordinate-question/wiki/Documentation\">Documentation</a>"
+msgstr ""
+
+#: $string['pluginname_link']
+msgid "question/type/formulas"
+msgstr ""
+
+#: $string['pluginnamesummary']
+msgid ""
+"Question type with random values and multiple answers\n"
+"The answer fields can be placed anywhere so that we can create questions "
+"involving various structures such as vectors, polynomials and matrix.\n"
+"Other features such as unit checking and multiple parts questions are also "
+"integrated tightly and easy to use."
+msgstr ""
+
+#: $string['postunit']
+msgctxt "$string['postunit']"
+msgid "Unit"
+msgstr ""
+
+#: $string['postunit_help']
+msgid ""
+"You can specify the unit here. This question type is specially designed for "
+"SI unit, so an\n"
+"empty space represents the 'product' of different 'base unit' and <tt> ^ "
+"</tt> is used for exponents.\n"
+"Also, <tt> / </tt> can be used for inverse exponent. Any permutation of the "
+"base unit are treated the same.\n"
+"\n"
+"Students are required to use the same input format. For example,\n"
+"\n"
+"<pre class=\"prettyprint\">1 m<br>0.1 m^2<br>20 m s^(-1)<br>400 kg m/s<br>100 "
+"kW</pre>"
+msgstr ""
+
+#: $string['qtextpreview']
+msgid "Preview using dataset"
+msgstr ""
+
+#: $string['questiontext']
+msgid "Question text"
+msgstr ""
+
+#: $string['questiontext_help']
+msgid ""
+"In addition to the normal question text, you can also use global variables "
+"and placeholders here.\n"
+"\n"
+"Global variables will be replaced by their values and placeholders will be "
+"replaced by parts.\n"
+"    A simple example with variables <tt> A, B, C </tt> and placeholders <tt> "
+"#1, #2, #3 </tt> is:\n"
+"\n"
+"<pre class=\"prettyprint\">What is the result of {A} + {B}?<br>{#1}<br>What is "
+"the result of {A} - {B}?<br>{#2}<br>What is the result of {C} / "
+"{B}?<br>{#3}</pre>"
+msgstr ""
+
+#: $string['relerror']
+msgid "Relative error"
+msgstr ""
+
+#: $string['renew']
+msgid "Renew"
+msgstr ""
+
+#: $string['ruleid']
+msgid "Basic conversion rules"
+msgstr ""
+
+#: $string['ruleid_help']
+msgid ""
+"This question type has a build-in unit conversion system and has basic "
+"conversion rules.\n"
+"\n"
+"The basic one is the \"Common SI unit\" rules that will convert standard units\n"
+"such as unit for length, say, km, m, cm and mm. This option has no\n"
+"effect if no unit has been used."
+msgstr ""
+
+#: $string['settingusepopup']
+msgid "Use tooltips"
+msgstr ""
+
+#: $string['settingusepopup_desc']
+msgid "Display correct answer and feedback in a tooltip"
+msgstr ""
+
+#: $string['subqoptions']
+msgid "Extra options"
+msgstr ""
+
+#: $string['subqtext']
+msgid "Part's text"
+msgstr ""
+
+#: $string['subqtext_help']
+msgid ""
+"Part text and answer fields places can be specified here. The placeholders "
+"that can be used to specifie answer fields places are:\n"
+"\n"
+"<pre class=\"prettyprint\">{_0}<br>{_1}<br>{_2}<br>...<br>{_u}</pre>\n"
+"\n"
+"The <tt> {_0}, {_1}, {_2} </tt> are the input fields for coordinates and "
+"<tt> {_u} </tt> is the input field for unit.\n"
+"\n"
+"All missing fields are automatically appended at the end of the part's text. "
+"A special case is that if <tt> {_0}, {_u} </tt> are specified "
+"consecutively, and there is only one coordinate and unit, i.e. <tt> {_0}{_u} "
+"</tt>, they will be combined into a single long input answer field for both "
+"answer and unit."
+msgstr ""
+
+#: $string['unit']
+msgctxt "$string['unit']"
+msgid "Unit"
+msgstr ""
+
+#: $string['unitpenalty']
+msgid "Deduction for wrong unit (0-1)*"
+msgstr ""
+
+#: $string['unitpenalty_help']
+msgid ""
+"This option specify the mark you want to penalize the student for a wrong "
+"unit.\n"
+"\n"
+"It takes value between 0 to 1. If it takes value 1, the unit and answer\n"
+"must be correct at the same time in order to get mark. That is the unit\n"
+"and answer are treated as one entity. On the other hand, if it takes\n"
+"value 0, students can get full mark for only correct answer, all random\n"
+"string will have no effect at the end of answer.\n"
+"\n"
+"Therefore, it is recommended to use value 1 whenever the answer has no "
+"associated unit."
+msgstr ""
+
+#: $string['unsupportedformulafunction']
+msgid "The function {$a} is not supported"
+msgstr ""
+
+#: $string['vars1']
+msgid "Local variables"
+msgstr ""
+
+#: $string['vars1_help']
+msgid ""
+"You can define variables here in the same way as global variables are "
+"defined at the question level. Variables defined here can be used in the "
+"part's answer or feedback\n"
+"and their scope of visibility is limited to the part."
+msgstr ""
+
+#: $string['vars2']
+msgid "Grading variables"
+msgstr ""
+
+#: $string['vars2_help']
+msgid ""
+"All local variables and the student's responses can be used here. See "
+"documentation for advanced usages."
+msgstr ""
+
+#: $string['vars2_link']
+msgid ""
+"http://code.google.com/p/moodle-coordinate-"
+"question/wiki/Documentation#Grading_variables"
+msgstr ""
+
+#: $string['varsdata']
+msgid "Instantiated dataset"
+msgstr ""
+
+#: $string['varsglobal']
+msgid "Global variables"
+msgstr ""
+
+#: $string['varsglobal_help']
+msgid ""
+"Formulas can be specified here to manipulate the instantiated random "
+"variables\n"
+"(all random variables are available here). The full list of mathematical\n"
+"functions and operators is given in the documentation.\n"
+"\n"
+"<pre class=\"prettyprint\">a = 1.11111;<br>b = exp(3);<br>c = A + a + b;<br>d "
+"= sin(1.5*pi()) + c;<br>e = round(a, 0);<br>f = [0,1,2,3][A];<br>g = "
+"[\"zero\",\"one\",\"two\",\"three\"][A];<br>distance = sqrt(a*a + b*b);</pre>"
+msgstr ""
+
+#: $string['varsglobal_link']
+msgid ""
+"https://code.google.com/p/moodle-coordinate-"
+"question/wiki/Documentation#Variable_assignments"
+msgstr ""
+
+#: $string['varsrandom']
+msgid "Random variables"
+msgstr ""
+
+#: $string['varsrandom_help']
+msgid ""
+"New random values are generated for these variables at the beginning of each "
+"attempt.  It can\n"
+"be done by defining a set of elements to choose from:\n"
+"\n"
+"<pre class=\"prettyprint\">A = {1,2,3};<br>C = {[1,-1], [2,-2], [3,-3]};<br>E "
+"= {10:100:10, 100, 1000};</pre>\n"
+"\n"
+"The elements can be numbers, strings or lists of them. At the start of a new "
+"attempt, one element will be drawn from the set and assigned to the "
+"variable\n"
+"on the left.  Also, for a set of number, you can use the range notation like "
+"10:100:10 (see example E above.). </p>"
+msgstr ""
+
+#: $string['varsrandom_link']
+msgid ""
+"http://code.google.com/p/moodle-coordinate-"
+"question/wiki/Documentation#Random_variables"
+msgstr ""
+
+#: $string['varsstatistics']
+msgid "Statistics"
+msgstr ""
+
+#: $string['yougotnright']
+msgid "You have correctly answered {$a->num} parts of this question."
+msgstr ""

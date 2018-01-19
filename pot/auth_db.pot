@@ -1,0 +1,252 @@
+#. extracted from lang/en/auth_db.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'auth_db', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   auth_db
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['auth_dbcantconnect']
+msgid "Could not connect to the specified authentication database..."
+msgstr ""
+
+#: $string['auth_dbchangepasswordurl_key']
+msgid "Password-change URL"
+msgstr ""
+
+#: $string['auth_dbdebugauthdb']
+msgid "Debug ADOdb"
+msgstr ""
+
+#: $string['auth_dbdebugauthdbhelp']
+msgid ""
+"Debug ADOdb connection to external database - use when getting empty page "
+"during login. Not suitable for production sites."
+msgstr ""
+
+#: $string['auth_dbdeleteuser']
+msgid "Deleted user {$a->name} id {$a->id}"
+msgstr ""
+
+#: $string['auth_dbdeleteusererror']
+msgid "Error deleting user {$a}"
+msgstr ""
+
+#: $string['auth_dbdescription']
+msgid ""
+"This method uses an external database table to check whether a given "
+"username and password is valid.  If the account is a new one, then "
+"information from other fields may also be copied across into Moodle."
+msgstr ""
+
+#: $string['auth_dbextencoding']
+msgid "External db encoding"
+msgstr ""
+
+#: $string['auth_dbextencodinghelp']
+msgid "Encoding used in external database"
+msgstr ""
+
+#: $string['auth_dbextrafields']
+msgid ""
+"These fields are optional.  You can choose to pre-fill some Moodle user "
+"fields with information from the <b>external database fields</b> that you "
+"specify here. <p>If you leave these blank, then defaults will be "
+"used.</p><p>In either case, the user will be able to edit all of these "
+"fields after they log in.</p>"
+msgstr ""
+
+#: $string['auth_dbfieldpass']
+msgid "Name of the field containing passwords"
+msgstr ""
+
+#: $string['auth_dbfieldpass_key']
+msgid "Password field"
+msgstr ""
+
+#: $string['auth_dbfielduser']
+msgid "Name of the field containing usernames"
+msgstr ""
+
+#: $string['auth_dbfielduser_key']
+msgid "Username field"
+msgstr ""
+
+#: $string['auth_dbhost']
+msgid ""
+"The computer hosting the database server. Use a system DSN entry if using "
+"ODBC. Use a PDO DSN entry if using PDO."
+msgstr ""
+
+#: $string['auth_dbhost_key']
+msgid "Host"
+msgstr ""
+
+#: $string['auth_dbinsertuser']
+msgid "Inserted user {$a->name} id {$a->id}"
+msgstr ""
+
+#: $string['auth_dbinsertuserduplicate']
+msgid ""
+"Error inserting user {$a->username} - user with this username was already "
+"created through '{$a->auth}' plugin."
+msgstr ""
+
+#: $string['auth_dbinsertusererror']
+msgid "Error inserting user {$a}"
+msgstr ""
+
+#: $string['auth_dbname']
+msgid ""
+"Name of the database itself. Leave empty if using an ODBC DSN. Leave empty "
+"if your PDO DSN already contains the database name."
+msgstr ""
+
+#: $string['auth_dbname_key']
+msgid "DB name"
+msgstr ""
+
+#: $string['auth_dbpass']
+msgid "Password matching the above username"
+msgstr ""
+
+#: $string['auth_dbpass_key']
+msgid "Password"
+msgstr ""
+
+#: $string['auth_dbpasstype']
+msgid ""
+"<p>Specify the format that the password field is using.</p> <p>Use "
+"'internal' if you want the external database to manage usernames and email "
+"addresses, but Moodle to manage passwords. If you use 'internal', you "
+"<i>must</i> provide a populated email address field in the external "
+"database, and you must execute both admin/cron.php and "
+"auth/db/cli/sync_users.php regularly. Moodle will send an email to new users "
+"with a temporary password.</p>"
+msgstr ""
+
+#: $string['auth_dbpasstype_key']
+msgid "Password format"
+msgstr ""
+
+#: $string['auth_dbreviveduser']
+msgid "Revived user {$a->name} id {$a->id}"
+msgstr ""
+
+#: $string['auth_dbrevivedusererror']
+msgid "Error reviving user {$a}"
+msgstr ""
+
+#: $string['auth_dbsaltedcrypt']
+msgid "Crypt one-way string hashing"
+msgstr ""
+
+#: $string['auth_dbsetupsql']
+msgid "SQL setup command"
+msgstr ""
+
+#: $string['auth_dbsetupsqlhelp']
+msgid ""
+"SQL command for special database setup, often used to setup communication "
+"encoding - example for MySQL and PostgreSQL: <em>SET NAMES 'utf8'</em>"
+msgstr ""
+
+#: $string['auth_dbsuspenduser']
+msgid "Suspended user {$a->name} id {$a->id}"
+msgstr ""
+
+#: $string['auth_dbsuspendusererror']
+msgid "Error suspending user {$a}"
+msgstr ""
+
+#: $string['auth_dbsybasequoting']
+msgid "Use sybase quotes"
+msgstr ""
+
+#: $string['auth_dbsybasequotinghelp']
+msgid ""
+"Sybase style single quote escaping - needed for Oracle, MS SQL and some "
+"other databases. Do not use for MySQL!"
+msgstr ""
+
+#: $string['auth_dbsyncuserstask']
+msgid "Synchronise users task"
+msgstr ""
+
+#: $string['auth_dbtable']
+msgid "Name of the table in the database"
+msgstr ""
+
+#: $string['auth_dbtable_key']
+msgid "Table"
+msgstr ""
+
+#: $string['auth_dbtype']
+msgid ""
+"The database type (See the <a "
+"href=\"http://phplens.com/adodb/supported.databases.html\" "
+"target=\"_blank\">ADOdb documentation</a> for details)"
+msgstr ""
+
+#: $string['auth_dbtype_key']
+msgid "Database"
+msgstr ""
+
+#: $string['auth_dbupdateusers']
+msgid "Update users"
+msgstr ""
+
+#: $string['auth_dbupdateusers_description']
+msgid "As well as inserting new users, update existing users."
+msgstr ""
+
+#: $string['auth_dbupdatinguser']
+msgid "Updating user {$a->name} id {$a->id}"
+msgstr ""
+
+#: $string['auth_dbuser']
+msgid "Username with read access to the database"
+msgstr ""
+
+#: $string['auth_dbuser_key']
+msgid "DB user"
+msgstr ""
+
+#: $string['auth_dbuserstoadd']
+msgid "User entries to add: {$a}"
+msgstr ""
+
+#: $string['auth_dbuserstoremove']
+msgid "User entries to remove: {$a}"
+msgstr ""
+
+#: $string['pluginname']
+msgid "External database"
+msgstr ""

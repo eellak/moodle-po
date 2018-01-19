@@ -1,0 +1,236 @@
+#. extracted from lang/en/customlabeltype_worktodo.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'customlabeltype_worktodo', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   customlabeltype_worktodo
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['ALONEOFFLINE']
+msgid "Lonely off line"
+msgstr ""
+
+#: $string['ALONEONLINE']
+msgid "Lonely on line"
+msgstr ""
+
+#: $string['COACHASYNCHRONOUS']
+msgid "Asynchronous exchanges with a teaching peer"
+msgstr ""
+
+#: $string['COACHSYNCHRONOUS']
+msgid "Synchronous work with a teaching peer"
+msgstr ""
+
+#: $string['configtypename']
+msgid "Enable subtype Work to do"
+msgstr ""
+
+#: $string['COURSEOFFLINE']
+msgid "Off line, with the whole classroom"
+msgstr ""
+
+#: $string['COURSEONLINE']
+msgid "On line, with the whole classroom"
+msgstr ""
+
+#: $string['EASY']
+msgid "Easy"
+msgstr ""
+
+#: $string['estimatedworktime']
+msgid "Estimated time"
+msgstr ""
+
+#: $string['EXERCISE']
+msgid "Exercising on a sample"
+msgstr ""
+
+#: $string['EXPERIMENT']
+msgid "Experimenting and discovering"
+msgstr ""
+
+#: $string['family']
+msgid "pedagogic"
+msgstr ""
+
+#: $string['HARD']
+msgid "Hard"
+msgstr ""
+
+#: $string['INFOQUEST']
+msgid "Seeking for information"
+msgstr ""
+
+#: $string['linktomodule']
+msgid "Related Activity Module"
+msgstr ""
+
+#: $string['MEDIUM']
+msgid "Medium"
+msgstr ""
+
+#: $string['NQ']
+msgid "Unqualified"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Course element: Work to Do"
+msgstr ""
+
+#: $string['PROJECT']
+msgid "Driving a project"
+msgstr ""
+
+#: $string['SYNTHESIS']
+msgid "Writing a synthesis"
+msgstr ""
+
+#: $string['TEAMOFFLINE']
+msgid "Off line, in a working team or group"
+msgstr ""
+
+#: $string['TEAMONLINE']
+msgid "On line, in a working team or group"
+msgstr ""
+
+#: $string['template']
+msgid ""
+"<table class=\"custombox-worktodo\" cellspacing=\"0\" width=\"100%\">\n"
+"<tr valign=\"top\">\n"
+"    <td class=\"custombox-header-thumb worktodo\" style=\"background-image : "
+"url(<%%icon%%>);\" width=\"2%\" rowspan=\"3\">\n"
+"    </td>\n"
+"    <td class=\"custombox-header-caption worktodo\" width=\"98%\" colspan=\"2\">\n"
+"        Work to do\n"
+"    </td>\n"
+"</tr>\n"
+"<tr valign=\"top\">\n"
+"    <td class=\"custombox-worktype worktodo\" colspan=\"2\">\n"
+"        <span class=\"custombox-param worktodo\">Nature: </span> <span class"
+"=\"custombox-value worktodo\"><%%worktypefield%%></span>\n"
+"    </td>\n"
+"    <td class=\"custombox-timeexpected worktodo\" align=\"right\" width=\"40\">\n"
+"        <img src=\"<%%clock%%>\" /> <%%estimatedworktime%%>\n"
+"    </td>\n"
+"</tr>\n"
+"<tr valign=\"top\">\n"
+"    <td class=\"custombox-worktype worktodo\">\n"
+"        <span class=\"custombox-param worktodo\">Effort: </span> <span class"
+"=\"custombox-value worktodo\"><%%workeffortfield%%></span>\n"
+"    </td>\n"
+"    <td class=\"custombox-workmode worktodo\" align=\"right\" colspan=\"3\">\n"
+"        <span class=\"custombox-param worktodo\">Mode: </span> <span class"
+"=\"custombox-value worktodo\"><%%workmodefield%%></span>\n"
+"    </td>\n"
+"</tr>\n"
+"<tr>\n"
+"    <td class=\"custombox-content worktodo\" colspan=\"2\">\n"
+"        <%%worktodo%%>\n"
+"    </td>\n"
+"</tr>\n"
+"</table>"
+msgstr ""
+
+#: $string['TRAINING']
+msgid "Training a skill"
+msgstr ""
+
+#: $string['typename']
+msgid "Work to do"
+msgstr ""
+
+#: $string['unassigned']
+msgid "--- unassigned ---"
+msgstr ""
+
+#: $string['VERYEASY']
+msgid "Very easy"
+msgstr ""
+
+#: $string['VERYHARD']
+msgid "Very hard"
+msgstr ""
+
+#: $string['WORKEFFORT']
+msgid "Difficulty"
+msgstr ""
+
+#: $string['WORKEFFORT_desc']
+msgid ""
+"The work effort needed to solve the requirement, compared to a 'normal' "
+"effort."
+msgstr ""
+
+#: $string['workeffortfield']
+msgid "Work effort"
+msgstr ""
+
+#: $string['WORKMODE']
+msgid "Working modality"
+msgstr ""
+
+#: $string['WORKMODE_desc']
+msgid "The peer environment of the work, who is it performed with."
+msgstr ""
+
+#: $string['workmodefield']
+msgid "Work mode"
+msgstr ""
+
+#: $string['worktodo']
+msgid "Work to Do"
+msgstr ""
+
+#: $string['worktodo:addinstance']
+msgid "Can add an indstance"
+msgstr ""
+
+#: $string['worktodo:view']
+msgid "Can view the content"
+msgstr ""
+
+#: $string['WORKTYPE']
+msgctxt "$string['WORKTYPE']"
+msgid "Work type"
+msgstr ""
+
+#: $string['WORKTYPE_desc']
+msgid "The type of work being done."
+msgstr ""
+
+#: $string['worktypefield']
+msgctxt "$string['worktypefield']"
+msgid "Work type"
+msgstr ""
+
+#: $string['WRITING']
+msgid "Memo or note writing"
+msgstr ""

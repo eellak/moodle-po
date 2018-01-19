@@ -1,0 +1,2031 @@
+#. extracted from lang/en/scheduler.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'scheduler', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   scheduler
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['action']
+msgid "Action"
+msgstr ""
+
+#: $string['actions']
+msgid "Actions"
+msgstr ""
+
+#: $string['addappointment']
+msgid "Add another student"
+msgstr ""
+
+#: $string['addcommands']
+msgid "Add slots"
+msgstr ""
+
+#: $string['addondays']
+msgid "Add appointments on"
+msgstr ""
+
+#: $string['addsession']
+msgid "Add repeated slots"
+msgstr ""
+
+#: $string['addsingleslot']
+msgid "Add single slot"
+msgstr ""
+
+#: $string['addslot']
+msgid "You can add additional appointment slots at any time."
+msgstr ""
+
+#: $string['addstudenttogroup']
+msgid "Add this student to appointment group"
+msgstr ""
+
+#: $string['allappointments']
+msgid "All appointments"
+msgstr ""
+
+#: $string['allononepage']
+msgid "All slots on one page"
+msgstr ""
+
+#: $string['allowgroup']
+msgid "Exclusive slot - click to change"
+msgstr ""
+
+#: $string['allteachersgrading']
+msgid "Teachers can grade all appointments"
+msgstr ""
+
+#: $string['allteachersgrading_desc']
+msgid "When enabled, teachers can grade appointments they are not assigned to."
+msgstr ""
+
+#: $string['alreadyappointed']
+msgid "Cannot make the appointment. The slot is already fully booked."
+msgstr ""
+
+#: $string['appointagroup_help']
+msgid ""
+"Choose whether you want to make the appointment only for yourself, or for an "
+"entire group."
+msgstr ""
+
+#: $string['appointfor']
+msgid "Make appointment for"
+msgstr ""
+
+#: $string['appointforgroup']
+msgid "Make appointments for: {$a}"
+msgstr ""
+
+#: $string['appointingstudent']
+msgid "Appointment for slot"
+msgstr ""
+
+#: $string['appointingstudentinnew']
+msgid "Appointment for new slot"
+msgstr ""
+
+#: $string['appointment']
+msgid "Appointment"
+msgstr ""
+
+#: $string['appointmentmode']
+msgid "Setting the appointment mode"
+msgstr ""
+
+#: $string['appointmentmode_help']
+msgid ""
+"<p>You may choose here some variants in the way appointments can be taken. "
+"</p>\n"
+"<p><ul>\n"
+"<li><strong>\"<emph>n</emph> appointments in this scheduler\":</strong> The "
+"student can only book a fixed number of appointments in this activity. Even "
+"if the teacher marks them as \"seen\", they will not be allowed to book "
+"further meetings. The only way to reset ability of a student to book is to "
+"delete the old \"seen\" records.</li>\n"
+"<li><strong>\"<emph>n</emph> appointments at a time\":</strong> The student "
+"can book a fixed number of appointments. Once the meeting is over and the "
+"teacher has marked the student as \"seen\", the student can book further "
+"appointments. However the student is limited to <emph>n</emph> \"open\" "
+"(unseen) slots at any given time.\n"
+"</li>\n"
+"</ul>\n"
+"</p>"
+msgstr ""
+
+#: $string['appointmentno']
+msgid "Appointment {$a}"
+msgstr ""
+
+#: $string['appointmentnote']
+msgid "Notes for appointment (visible to student)"
+msgstr ""
+
+#: $string['appointments']
+msgid "Appointments"
+msgstr ""
+
+#: $string['appointmentsgrouped']
+msgid "Appointments grouped by slot"
+msgstr ""
+
+#: $string['appointmentsummary']
+msgid ""
+"Appointment on {$a->startdate} from {$a->starttime} to {$a->endtime} with "
+"{$a->teacher}"
+msgstr ""
+
+#: $string['appointsolo']
+msgid "just me"
+msgstr ""
+
+#: $string['appointsomeone']
+msgid "Add new appointment"
+msgstr ""
+
+#: $string['areaappointmentnote']
+msgid "Files in appointment notes"
+msgstr ""
+
+#: $string['areaslotnote']
+msgid "Files in slot notes"
+msgstr ""
+
+#: $string['areateachernote']
+msgid "Files in confidential notes"
+msgstr ""
+
+#: $string['attendable']
+msgid "Attendable"
+msgstr ""
+
+#: $string['attendablelbl']
+msgid "Total candidates for scheduling"
+msgstr ""
+
+#: $string['attended']
+msgctxt "$string['attended']"
+msgid "Attended"
+msgstr ""
+
+#: $string['attendedlbl']
+msgid "Amount of attended students"
+msgstr ""
+
+#: $string['attendedslots']
+msgid "Attended slots"
+msgstr ""
+
+#: $string['availableslots']
+msgid "Available slots"
+msgstr ""
+
+#: $string['availableslotsall']
+msgid "All slots"
+msgstr ""
+
+#: $string['availableslotsnotowned']
+msgid "Not owned"
+msgstr ""
+
+#: $string['availableslotsowned']
+msgid "Owned"
+msgstr ""
+
+#: $string['bookaslot']
+msgid "Book a slot"
+msgstr ""
+
+#: $string['bookingdetails']
+msgid "Booking details"
+msgstr ""
+
+#: $string['bookingformoptions']
+msgid "Booking form and student-supplied data"
+msgstr ""
+
+#: $string['bookinginstructions']
+msgid "Booking instructions"
+msgstr ""
+
+#: $string['bookinginstructions_help']
+msgid ""
+"This text will be displayed to students before they make a booking. It can, "
+"for example, instruct students how to fill out the optional message field or "
+"which files to upload."
+msgstr ""
+
+#: $string['bookslot']
+msgid "Book slot"
+msgstr ""
+
+#: $string['bookwithteacher']
+msgctxt "$string['bookwithteacher']"
+msgid "Teacher"
+msgstr ""
+
+#: $string['bookwithteacher_help']
+msgid "Choose a teacher for the appointment."
+msgstr ""
+
+#: $string['break']
+msgid "Break between slots"
+msgstr ""
+
+#: $string['breaknotnegative']
+msgid "Length of the break must not be negative"
+msgstr ""
+
+#: $string['canbook1appointment']
+msgid "You can book one more appointment in this scheduler."
+msgstr ""
+
+#: $string['canbooknappointments']
+msgid "You can book {$a} more appointments in this scheduler."
+msgstr ""
+
+#: $string['canbooknofurtherappointments']
+msgid "You cannot book further appointments in this scheduler."
+msgstr ""
+
+#: $string['canbooksingleappointment']
+msgid "You can book one appointment in this scheduler."
+msgstr ""
+
+#: $string['canbookunlimitedappointments']
+msgid "You can book any number of appointments in this scheduler."
+msgstr ""
+
+#: $string['cancelbooking']
+msgid "Cancel booking"
+msgstr ""
+
+#: $string['chooseexisting']
+msgid "Choose existing"
+msgstr ""
+
+#: $string['choosingslotstart']
+msgid "Choosing the start time"
+msgstr ""
+
+#: $string['choosingslotstart_help']
+msgid ""
+"Change (or choose) the appointment start time. If this appointment collides "
+"with some other slots, you'll be asked\n"
+"if this slot replaces all conflicting appointments. Note that the new slot "
+"parameters will override all previous\n"
+"settings."
+msgstr ""
+
+#: $string['comments']
+msgid "Comments"
+msgstr ""
+
+#: $string['complete']
+msgid "Booked"
+msgstr ""
+
+#: $string['confirmbooking']
+msgid "Confirm booking"
+msgstr ""
+
+#: $string['confirmdelete-all']
+msgid ""
+"This will delete <b>all</b> slots in this scheduler. Deletion cannot be "
+"undone. Continue anyway?"
+msgstr ""
+
+#: $string['confirmdelete-mine']
+msgid ""
+"This will delete all your slots in this scheduler. Deletion cannot be "
+"undone. Continue anyway?"
+msgstr ""
+
+#: $string['confirmdelete-myunused']
+msgid ""
+"This will delete all your unused slots in this scheduler. Deletion cannot be "
+"undone. Continue anyway?"
+msgstr ""
+
+#: $string['confirmdelete-one']
+msgid "Delete slot?"
+msgstr ""
+
+#: $string['confirmdelete-selected']
+msgid ""
+"This will delete the selected slots. Deletion cannot be undone. Continue "
+"anyway?"
+msgstr ""
+
+#: $string['confirmdelete-unused']
+msgid ""
+"This will delete all unused slots in this scheduler. Deletion cannot be "
+"undone. Continue anyway?"
+msgstr ""
+
+#: $string['conflictingslots']
+msgid "The slot on {$a} cannot be created due to conflicting slots:"
+msgstr ""
+
+#: $string['conflictlocal']
+msgid "{$a->datetime} ({$a->duration} minutes) in this scheduler"
+msgstr ""
+
+#: $string['conflictremote']
+msgid ""
+"{$a->datetime} ({$a->duration} minutes) in course {$a->courseshortname}, "
+"scheduler {$a->schedulername}"
+msgstr ""
+
+#: $string['contentformat']
+msgid "Format"
+msgstr ""
+
+#: $string['contentformat_help']
+msgid ""
+"<p>There are three basic choices for the export format,\n"
+"     differing in how slots with several appointments are handled.\n"
+"     <dl>\n"
+"         <dt>One line per slot</dt>:\n"
+"         <dd>\n"
+"             The output file will contain one line for each slot. If a slot "
+"contains multiple\n"
+"             appointments, then instead of the student's name, etc., a "
+"marker \"(multiple)\" will be shown.\n"
+"         </dd>\n"
+"         <dt>One line per appointment</dt>:\n"
+"         <dd>\n"
+"             The output file will contain one line for each appointment. If "
+"a slot contains multiple\n"
+"             appointments, then it will appear several times in the list "
+"(with its data repeated).\n"
+"         </dd>\n"
+"         <dt>Appointments grouped by slot</dt>:\n"
+"         <dd>\n"
+"             All appointments of one slot are grouped together, preceded by "
+"a header line that\n"
+"             indicates the slot in question. This may not work well with the "
+"CSV output file format,\n"
+"             as the number of columns is not constant.\n"
+"         </dd>\n"
+"    </dl>\n"
+"    You can explore the effect of these options using the \"Preview\" "
+"button.</p>"
+msgstr ""
+
+#: $string['copytomyself']
+msgid "Send a copy to myself"
+msgstr ""
+
+#: $string['course']
+msgid "Course"
+msgstr ""
+
+#: $string['createexport']
+msgid "Create export file"
+msgstr ""
+
+#: $string['csvfieldseparator']
+msgid "Field separator for CSV"
+msgstr ""
+
+#: $string['csvformat']
+msgid "CSV"
+msgstr ""
+
+#: $string['cumulatedduration']
+msgid "Summed duration of appointments"
+msgstr ""
+
+#: $string['datatoinclude']
+msgid "Data to include"
+msgstr ""
+
+#: $string['datatoinclude_help']
+msgid ""
+"Select the fields that should be included in the export. Each of these will "
+"appear in one column of the output file."
+msgstr ""
+
+#: $string['date']
+msgctxt "$string['date']"
+msgid "Date"
+msgstr ""
+
+#: $string['datelist']
+msgid "Overview"
+msgstr ""
+
+#: $string['defaultslotduration']
+msgid "Default slot duration"
+msgstr ""
+
+#: $string['defaultslotduration_help']
+msgid "The default length (in minutes) for appointment slots that you set up"
+msgstr ""
+
+#: $string['deleteallslots']
+msgid "Delete all slots"
+msgstr ""
+
+#: $string['deleteallunusedslots']
+msgid "Delete unused slots"
+msgstr ""
+
+#: $string['deletecommands']
+msgid "Delete slots"
+msgstr ""
+
+#: $string['deletedconflictingslots']
+msgid "For the slot on {$a}, conflicting slots have been deleted:"
+msgstr ""
+
+#: $string['deletemyslots']
+msgid "Delete all my slots"
+msgstr ""
+
+#: $string['deleteonsave']
+msgid "Delete this appointment (when saving the form)"
+msgstr ""
+
+#: $string['deleteselection']
+msgid "Delete selected slots"
+msgstr ""
+
+#: $string['deletetheseslots']
+msgid "Delete these slots"
+msgstr ""
+
+#: $string['deleteunusedslots']
+msgid "Delete my unused slots"
+msgstr ""
+
+#: $string['department']
+msgid "From where?"
+msgstr ""
+
+#: $string['disengage']
+msgid "Drop my appointments"
+msgstr ""
+
+#: $string['displayfrom']
+msgid "Display slot to students from"
+msgstr ""
+
+#: $string['distributetoslot']
+msgid "Distribute to the whole group"
+msgstr ""
+
+#: $string['divide']
+msgid "Divide into slots?"
+msgstr ""
+
+#: $string['duration']
+msgid "Duration"
+msgstr ""
+
+#: $string['durationrange']
+msgid "Slot duration must be between {$a->min} and {$a->max} minutes."
+msgstr ""
+
+#: $string['editbooking']
+msgid "Edit booking"
+msgstr ""
+
+#: $string['email_applied_html']
+msgid ""
+"<p>An appointment has been applied for on {$a->date} at {$a->time},<br/>\n"
+"by the student <a href=\"{$a->attendee_url}\">{$a->attendee}</a> for the "
+"course:\n"
+"\n"
+"<p>{$a->course_short}: <a href=\"{$a->course_url}\">{$a->course}</a></p>\n"
+"\n"
+"<p>using the scheduler titled \"<em><a "
+"href=\"{$a->scheduler_url}\">{$a->module}</a></em>\" on the website: <a "
+"href=\"{$a->site_url}\">{$a->site}</a>.</p>"
+msgstr ""
+
+#: $string['email_applied_plain']
+msgid ""
+"An appointment has been applied for on {$a->date} at {$a->time},\n"
+"by the student {$a->attendee} for the course:\n"
+"\n"
+"{$a->course_short}: {$a->course}\n"
+"\n"
+"using the scheduler titled \"{$a->module}\" on the website: {$a->site}."
+msgstr ""
+
+#: $string['email_applied_subject']
+msgid "{$a->course_short}: New appointment"
+msgstr ""
+
+#: $string['email_cancelled_html']
+msgid ""
+"<p>Your appointment on <strong>{$a->date}</strong> at "
+"<strong>{$a->time}</strong>,<br/>\n"
+"with the student <strong><a "
+"href=\"{$a->attendee_url}\">{$a->attendee}</a></strong> for course :</p>\n"
+"\n"
+"<p><strong>{$a->course_short} : <a "
+"href=\"{$a->course_url}\">{$a->course}</a></strong></p>\n"
+"\n"
+"<p>in the scheduler titled \"<em><a "
+"href=\"{$a->scheduler_url}\">{$a->module}</a></em>\" on the website : "
+"<strong><a href=\"{$a->site_url}\">{$a->site}</a></strong></p>\n"
+"\n"
+"<p><strong><span class=\"error\">has been cancelled or "
+"moved</span></strong>.</p>"
+msgstr ""
+
+#: $string['email_cancelled_plain']
+msgid ""
+"Your appointment on  {$a->date} at {$a->time},\n"
+"with the student {$a->attendee} for course:\n"
+"\n"
+"{$a->course_short} : {$a->course}\n"
+"\n"
+"in the scheduler titled \"{$a->module}\" on the website : {$a->site}\n"
+"\n"
+"has been cancelled or moved."
+msgstr ""
+
+#: $string['email_cancelled_subject']
+msgid "{$a->course_short}: Appointment cancelled or moved by a student"
+msgstr ""
+
+#: $string['email_invite_html']
+msgid ""
+"<p>Please choose a time slot for an appointment at:</p> "
+"<p>{$a->scheduler_url}</p>"
+msgstr ""
+
+#: $string['email_invitereminder_html']
+msgid ""
+"<p>This is just a reminder that you have not yet set up your appointment. "
+"Please choose a time slot as soon as possible "
+"at:</p><p>{$a->scheduler_url}</p>"
+msgstr ""
+
+#: $string['email_invitereminder_subject']
+msgid "Reminder: {$a->module}"
+msgstr ""
+
+#: $string['email_invite_subject']
+msgid "Invitation: {$a->module}"
+msgstr ""
+
+#: $string['emailreminder']
+msgid "Email a reminder"
+msgstr ""
+
+#: $string['email_reminder_html']
+msgid ""
+"<p>You have an upcoming appointment on <strong>{$a->date}</strong>\n"
+"from <strong>{$a->time}</strong> to <strong>{$a->endtime}</strong><br/>\n"
+"with <strong><a href=\"{$a->attendant_url}\">{$a->attendant}</a></strong>.</p>\n"
+"\n"
+"<p>Location: <strong>{$a->location}</strong></p>"
+msgstr ""
+
+#: $string['emailreminderondate']
+msgid "Email a reminder on"
+msgstr ""
+
+#: $string['email_reminder_plain']
+msgid ""
+"You have an upcoming appointment\n"
+"on {$a->date} from {$a->time} to {$a->endtime}\n"
+"with {$a->attendant}.\n"
+"\n"
+"Location: {$a->location}"
+msgstr ""
+
+#: $string['email_reminder_subject']
+msgid "{$a->course_short}: Appointment reminder"
+msgstr ""
+
+#: $string['email_teachercancelled_html']
+msgid ""
+"<p>Your appointment on <strong>{$a->date}</strong> at <strong>{$a->time} "
+"</strong>,<br/>\n"
+"with the {$a->staffrole} <strong><a "
+"href=\"{$a->attendant_url}\">{$a->attendant}</a></strong> for course:</p>\n"
+"\n"
+"<p><strong>{$a->course_short}: <a "
+"href=\"{$a->course_url}\">{$a->course}</a></strong></p>\n"
+"\n"
+"<p>in the scheduler \"<em><a "
+"href=\"{$a->scheduler_url}\">{$a->module}</a></em>\" on the website: <strong><a "
+"href=\"{$a->site_url}\">{$a->site}</a></strong></p>\n"
+"\n"
+"<p><strong><span class=\"error\">has been cancelled</span></strong>. Please "
+"apply for a new slot.</p>"
+msgstr ""
+
+#: $string['email_teachercancelled_plain']
+msgid ""
+"Your appointment on {$a->date} at {$a->time},\n"
+"with the {$a->staffrole} {$a->attendant} for course:\n"
+"\n"
+"{$a->course_short}: {$a->course}\n"
+"\n"
+"in the scheduler titled \"{$a->module}\" on the website: {$a->site}\n"
+"\n"
+"has been cancelled. Please apply for a new slot."
+msgstr ""
+
+#: $string['email_teachercancelled_subject']
+msgid "{$a->course_short}: Appointment cancelled by the teacher"
+msgstr ""
+
+#: $string['end']
+msgid "End"
+msgstr ""
+
+#: $string['enddate']
+msgid "Repeat time slots until"
+msgstr ""
+
+#: $string['event_appointmentlistviewed']
+msgid "Scheduler appointment list viewed"
+msgstr ""
+
+#: $string['event_bookingadded']
+msgid "Scheduler booking added"
+msgstr ""
+
+#: $string['event_bookingformviewed']
+msgid "Scheduler booking form viewed"
+msgstr ""
+
+#: $string['event_bookingremoved']
+msgid "Scheduler booking removed"
+msgstr ""
+
+#: $string['event_slotadded']
+msgid "Scheduler slot added"
+msgstr ""
+
+#: $string['event_slotdeleted']
+msgid "Scheduler slot deleted"
+msgstr ""
+
+#: $string['everyone']
+msgid "Everyone"
+msgstr ""
+
+#: $string['excelformat']
+msgid "Excel"
+msgstr ""
+
+#: $string['exclusive']
+msgid "Exclusive"
+msgstr ""
+
+#: $string['exclusivity']
+msgid "Exclusivity"
+msgstr ""
+
+#: $string['exclusivity_help']
+msgid ""
+"<p>You can set a limit on the number of students that can apply for a given "
+"slot. </p>\n"
+"<p>Setting a limit of 1 (default) will mean that the slot is exclusive to a "
+"single student.</p>\n"
+"<p>Setting a limit of, e.g., 3  will mean that up to three students can book "
+"into the slot.</p>\n"
+"<p>If disabled, any number of students can book the slot; it will never be "
+"considered \"full\".</p>"
+msgstr ""
+
+#: $string['exclusivityoverload']
+msgid ""
+"The slot has {$a} appointed students, more than allowed by this setting."
+msgstr ""
+
+#: $string['exclusivitypositive']
+msgid "The number of students per slot needs to be 1 or more."
+msgstr ""
+
+#: $string['explaingeneralconfig']
+msgid ""
+"These options can only be setup at site level and will apply to all "
+"schedulers of this Moodle installation."
+msgstr ""
+
+#: $string['export']
+msgid "Export"
+msgstr ""
+
+#: $string['exporthdr']
+msgid "Export slots and appointments"
+msgstr ""
+
+#: $string['field-appointmentnote']
+msgid "Appointment note (to student)"
+msgstr ""
+
+#: $string['field-attended']
+msgctxt "$string['field-attended']"
+msgid "Attended"
+msgstr ""
+
+#: $string['field-date']
+msgctxt "$string['field-date']"
+msgid "Date"
+msgstr ""
+
+#: $string['field-endtime']
+msgid "End time"
+msgstr ""
+
+#: $string['field-filecount']
+msgid "Number of uploaded files"
+msgstr ""
+
+#: $string['field-grade']
+msgctxt "$string['field-grade']"
+msgid "Grade"
+msgstr ""
+
+#: $string['field-location']
+msgctxt "$string['field-location']"
+msgid "Location"
+msgstr ""
+
+#: $string['field-maxstudents']
+msgid "Max. students"
+msgstr ""
+
+#: $string['field-slotnotes']
+msgid "Slot notes"
+msgstr ""
+
+#: $string['field-starttime']
+msgid "Start time"
+msgstr ""
+
+#: $string['field-studentemail']
+msgid "Student e-mail"
+msgstr ""
+
+#: $string['field-studentfirstname']
+msgid "Student first name"
+msgstr ""
+
+#: $string['field-studentfullname']
+msgid "Student full name"
+msgstr ""
+
+#: $string['field-studentidnumber']
+msgid "Student id number"
+msgstr ""
+
+#: $string['field-studentlastname']
+msgid "Student last name"
+msgstr ""
+
+#: $string['field-studentnote']
+msgctxt "$string['field-studentnote']"
+msgid "Message by student"
+msgstr ""
+
+#: $string['field-studentusername']
+msgid "Student user name"
+msgstr ""
+
+#: $string['field-teachernote']
+msgid "Confidential note (teacher only)"
+msgstr ""
+
+#: $string['fileformat']
+msgid "File format"
+msgstr ""
+
+#: $string['fileformat_help']
+msgid ""
+"The following file formats are available:\n"
+"     <ul>\n"
+"          <li>Comma Separated Value (CSV) text files. The field separator, "
+"by default a comma, can be chosen below.\n"
+"               CSV files can be opened in most spreadshet applications;</li>\n"
+"          <li>Microsoft Excel files (Excel 2007 format);</li>\n"
+"          <li>Open Document spreadsheets (ODS);</li>\n"
+"          <li>HTML format - a web page displaying the output table,\n"
+"                which can be printed using the browser's print feature;</li>\n"
+"          <li>PDF documents. You can choose between landscape and portrait "
+"orientation.</li>\n"
+"     </ul>"
+msgstr ""
+
+#: $string['finalgrade']
+msgid "Final grade"
+msgstr ""
+
+#: $string['firstslotavailable']
+msgid "The first slot will be open on: {$a}"
+msgstr ""
+
+#: $string['forbidgroup']
+msgid "Group slot - click to change"
+msgstr ""
+
+#: $string['forcewhenoverlap']
+msgid "Force when overlap"
+msgstr ""
+
+#: $string['forcewhenoverlap_help']
+msgid ""
+"<h3>Forcing slot creation when slots overlap</h3>\n"
+"<p>This setting determines how new slots will be handled if they overlap "
+"with other, already existing slots.</p>\n"
+"<p>If enabled, the overlapping existing slot will be deleted and the new "
+"slot created.</p>\n"
+"<p>If disabled, the overlapping existing slot will be kept and a new slot "
+"will <em>not</em> be created.</p>"
+msgstr ""
+
+#: $string['forcewhenoverlap_link']
+msgctxt "$string['forcewhenoverlap_link']"
+msgid "mod/scheduler/conflict"
+msgstr ""
+
+#: $string['forcourses']
+msgid "Choose students in courses"
+msgstr ""
+
+#: $string['friday']
+msgid "Friday"
+msgstr ""
+
+#: $string['generalconfig']
+msgid "General configuration"
+msgstr ""
+
+#: $string['grade']
+msgctxt "$string['grade']"
+msgid "Grade"
+msgstr ""
+
+#: $string['gradeingradebook']
+msgid "Grade in gradebook"
+msgstr ""
+
+#: $string['gradingstrategy']
+msgid "Grading strategy"
+msgstr ""
+
+#: $string['gradingstrategy_help']
+msgid ""
+"In a scheduler where students can have several appointments, select how "
+"grades are aggregated.\n"
+"    The gradebook can show either <ul><li>the mean grade or</li><li>the "
+"maximum grade</li></ul> that the student has achieved."
+msgstr ""
+
+#: $string['group']
+msgid "group"
+msgstr ""
+
+#: $string['groupbookings']
+msgid "Booking in groups"
+msgstr ""
+
+#: $string['groupbookings_help']
+msgid ""
+"Allow students to book a slot for all members of their group.\n"
+"(Note that this is separate from the \"group mode\" setting, which controls "
+"the slots a student can see.)"
+msgstr ""
+
+#: $string['groupbreakdown']
+msgid "By group size"
+msgstr ""
+
+#: $string['groupmodeyourgroups']
+msgid ""
+"Group mode: {$a->groupmode}. Only students in {$a->grouplist} can book "
+"appointments with you."
+msgstr ""
+
+#: $string['groupmodeyourgroupsempty']
+msgid ""
+"Group mode: {$a->groupmode}. You are not member of any group, therefore "
+"students cannot book appointments with you."
+msgstr ""
+
+#: $string['groupscheduling']
+msgid "Enable group scheduling"
+msgstr ""
+
+#: $string['groupscheduling_desc']
+msgid ""
+"Allow entire groups to be scheduled at once.\n"
+"(Apart from the global option, the setting \"Booking in groups\" must be "
+"enabled in the respective scheduler instance.)"
+msgstr ""
+
+#: $string['groupsession']
+msgid "Group session"
+msgstr ""
+
+#: $string['groupsize']
+msgid "Group size"
+msgstr ""
+
+#: $string['guardtime']
+msgid "Guard time"
+msgstr ""
+
+#: $string['guardtime_help']
+msgid ""
+"A guard time prevents students from changing their booking shortly before "
+"the appointment.\n"
+"<p>If the guard time is enabled and set to, for example, 2 hours, then "
+"students will be unable to book a slot that starts in less than 2 hours time "
+"from now,\n"
+"and they will be unable to drop an appointment if it start in less than 2 "
+"hours.</p>"
+msgstr ""
+
+#: $string['guestscantdoanything']
+msgid "Guests can't do anything here."
+msgstr ""
+
+#: $string['howtoaddstudents']
+msgid ""
+"For adding students to a global scoped scheduler, use the role setting for "
+"the module.<br/>You may also use module role definitions to define the "
+"attenders of your students."
+msgstr ""
+
+#: $string['htmlformat']
+msgid "HTML"
+msgstr ""
+
+#: $string['ignoreconflicts']
+msgid "Ignore scheduling conflicts"
+msgstr ""
+
+#: $string['ignoreconflicts_help']
+msgid ""
+"If this box is ticked, then the slot will be moved to the requested date and "
+"time, even if other slots exist at the same time. This may lead to "
+"overlapping appointments for some teachers or students, and should therefore "
+"be used with care."
+msgstr ""
+
+#: $string['ignoreconflicts_link']
+msgctxt "$string['ignoreconflicts_link']"
+msgid "mod/scheduler/conflict"
+msgstr ""
+
+#: $string['includeemptyslots']
+msgid "Include empty slots"
+msgstr ""
+
+#: $string['includeslotsfor']
+msgid "Include slots for"
+msgstr ""
+
+#: $string['incourse']
+msgid "in course"
+msgstr ""
+
+#: $string['introduction']
+msgid "Introduction"
+msgstr ""
+
+#: $string['isnonexclusive']
+msgid "Non-exclusive"
+msgstr ""
+
+#: $string['landscape']
+msgid "Landscape"
+msgstr ""
+
+#: $string['lengthbreakdown']
+msgid "By slot duration"
+msgstr ""
+
+#: $string['limited']
+msgid "Limited ({$a} left)"
+msgstr ""
+
+#: $string['location']
+msgctxt "$string['location']"
+msgid "Location"
+msgstr ""
+
+#: $string['location_help']
+msgid "Specify the scheduled location of the meeting."
+msgstr ""
+
+#: $string['markasseennow']
+msgid "Mark as seen now"
+msgstr ""
+
+#: $string['markseen']
+msgid ""
+"After you have had an appointment with a student please mark them as \"Seen\" "
+"by clicking the checkbox near to their user picture above."
+msgstr ""
+
+#: $string['maxgrade']
+msgid "Take the highest grade"
+msgstr ""
+
+#: $string['maxstudentlistsize']
+msgid "Maximum length of student list"
+msgstr ""
+
+#: $string['maxstudentlistsize_desc']
+msgid ""
+"The maximum length of the list of students who need to make an appointment, "
+"as shown in the teacher view of the scheduler. If there are more students "
+"than this, no list will be displayed."
+msgstr ""
+
+#: $string['maxstudentsperslot']
+msgid "Maximum number of students per slot"
+msgstr ""
+
+#: $string['maxstudentsperslot_desc']
+msgid ""
+"Group slots / non-exclusive slots can have at most this number of students. "
+"Note that in addition, the setting \"unlimited\" can always be chosen for a "
+"slot."
+msgstr ""
+
+#: $string['meangrade']
+msgid "Take the mean grade"
+msgstr ""
+
+#: $string['meetingwith']
+msgctxt "$string['meetingwith']"
+msgid "Meeting with your"
+msgstr ""
+
+#: $string['meetingwithplural']
+msgctxt "$string['meetingwithplural']"
+msgid "Meeting with your"
+msgstr ""
+
+#: $string['message']
+msgid "Message"
+msgstr ""
+
+#: $string['messagebody']
+msgid "Message body"
+msgstr ""
+
+#: $string['messageprovider:bookingnotification']
+msgid "Notification when a booking is made or cancelled"
+msgstr ""
+
+#: $string['messageprovider:invitation']
+msgid "Invitation to book a slot"
+msgstr ""
+
+#: $string['messageprovider:reminder']
+msgid "Reminder of an upcoming appointment"
+msgstr ""
+
+#: $string['messagesent']
+msgid "Message sent to {$a} recipients"
+msgstr ""
+
+#: $string['messagesubject']
+msgid "Subject"
+msgstr ""
+
+#: $string['minutes']
+msgid "minutes"
+msgstr ""
+
+#: $string['minutesperslot']
+msgid "minutes per slot"
+msgstr ""
+
+#: $string['missingstudents']
+msgid "{$a} students still need to make an appointment"
+msgstr ""
+
+#: $string['missingstudentsmany']
+msgid ""
+"{$a} students still need to make an appointment. No list is being displayed "
+"due to size."
+msgstr ""
+
+#: $string['mixindivgroup']
+msgid "Mix individual and group bookings"
+msgstr ""
+
+#: $string['mixindivgroup_desc']
+msgid "Where group scheduling is enabled, allow individual bookings as well."
+msgstr ""
+
+#: $string['mode']
+msgid "Mode"
+msgstr ""
+
+#: $string['modeappointments']
+msgid "appointment(s)"
+msgstr ""
+
+#: $string['modeintro']
+msgid "Students can register"
+msgstr ""
+
+#: $string['modeoneatatime']
+msgid "at a time"
+msgstr ""
+
+#: $string['modeoneonly']
+msgid "in this scheduler"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Scheduler"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"The scheduler activity helps you in scheduling appointments with your "
+"students.\n"
+"\n"
+"Teachers specify time slots for meetings, students then choose one of them "
+"on Moodle.\n"
+"Teachers in turn can record the outcome of the meeting - and optionally a "
+"grade - within the scheduler.\n"
+"\n"
+"Group scheduling is supported; that is, each time slot can accommodate "
+"several students, and optionally it is possible to schedule appointments for "
+"entire groups at the same time."
+msgstr ""
+
+#: $string['modulename_link']
+msgid "mod/scheduler/view"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Schedulers"
+msgstr ""
+
+#: $string['monday']
+msgid "Monday"
+msgstr ""
+
+#: $string['multiple']
+msgid "(multiple)"
+msgstr ""
+
+#: $string['myappointments']
+msgid "My appointments"
+msgstr ""
+
+#: $string['myself']
+msgid "Myself"
+msgstr ""
+
+#: $string['name']
+msgid "Scheduler name"
+msgstr ""
+
+#: $string['needteachers']
+msgid "Slots cannot be added as this course has no teachers"
+msgstr ""
+
+#: $string['negativerange']
+msgid "Range is negative. This can't be."
+msgstr ""
+
+#: $string['never']
+msgid "Never"
+msgstr ""
+
+#: $string['nfiles']
+msgid "{$a} files"
+msgstr ""
+
+#: $string['noappointments']
+msgid "No appointments"
+msgstr ""
+
+#: $string['noexistingstudents']
+msgid "No students available for scheduling"
+msgstr ""
+
+#: $string['nogroups']
+msgid "No group available for scheduling."
+msgstr ""
+
+#: $string['noresults']
+msgid "No results."
+msgstr ""
+
+#: $string['noschedulers']
+msgid "There are no schedulers"
+msgstr ""
+
+#: $string['noslots']
+msgid "There are no appointment slots available."
+msgstr ""
+
+#: $string['noslotsavailable']
+msgid "No slots are available for booking at this time."
+msgstr ""
+
+#: $string['noslotsopennow']
+msgid "No slots are open for booking right now."
+msgstr ""
+
+#: $string['nostudents']
+msgid "No students scheduled"
+msgstr ""
+
+#: $string['nostudenttobook']
+msgid "No student to book"
+msgstr ""
+
+#: $string['note']
+msgctxt "$string['note']"
+msgid "Grade"
+msgstr ""
+
+#: $string['noteacherforslot']
+msgid "No teacher for the slots"
+msgstr ""
+
+#: $string['noteachershere']
+msgid "No teacher available"
+msgstr ""
+
+#: $string['notenoughplaces']
+msgid "Sorry, there are not enough free appointments in this slot."
+msgstr ""
+
+#: $string['notesrequired']
+msgid "You must enter text into this field before booking the slot."
+msgstr ""
+
+#: $string['notifications']
+msgid "Notifications"
+msgstr ""
+
+#: $string['notifications_help']
+msgid ""
+"When this option is enabled, teachers and students will receive "
+"notifications when appointments are applied for or cancelled."
+msgstr ""
+
+#: $string['notseen']
+msgid "Not seen"
+msgstr ""
+
+#: $string['now']
+msgid "Now"
+msgstr ""
+
+#: $string['occurrences']
+msgid "Occurrences"
+msgstr ""
+
+#: $string['odsformat']
+msgid "ODS"
+msgstr ""
+
+#: $string['on']
+msgid "on"
+msgstr ""
+
+#: $string['onedaybefore']
+msgid "1 day before slot"
+msgstr ""
+
+#: $string['onelineperappointment']
+msgid "One line per appointment"
+msgstr ""
+
+#: $string['onelineperslot']
+msgid "One line per slot"
+msgstr ""
+
+#: $string['oneslotadded']
+msgid "1 slot added"
+msgstr ""
+
+#: $string['oneslotdeleted']
+msgid "1 slot deleted"
+msgstr ""
+
+#: $string['oneweekbefore']
+msgid "1 week before slot"
+msgstr ""
+
+#: $string['onthemorningofappointment']
+msgid "On the morning of the appointment"
+msgstr ""
+
+#: $string['options']
+msgid "Options"
+msgstr ""
+
+#: $string['otherstudents']
+msgid "Other participants"
+msgstr ""
+
+#: $string['outlineappointments']
+msgid "{$a->attended} appointments attended, {$a->upcoming} upcoming."
+msgstr ""
+
+#: $string['outlinegrade']
+msgid "Grade: {$a}."
+msgstr ""
+
+#: $string['overall']
+msgid "Overall"
+msgstr ""
+
+#: $string['overlappings']
+msgid "Some other slots are overlapping"
+msgstr ""
+
+#: $string['pageperteacher']
+msgid "One page for each {$a}"
+msgstr ""
+
+#: $string['pagination']
+msgid "Pagination"
+msgstr ""
+
+#: $string['pagination_help']
+msgid ""
+"Choose whether the export should contain a separate page for each teacher.\n"
+"   In Excel and in ODS file format, these pages correspond to tabs "
+"(worksheets) in the workbook."
+msgstr ""
+
+#: $string['pdfformat']
+msgid "PDF"
+msgstr ""
+
+#: $string['pdforientation']
+msgid "PDF page orientation"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Scheduler administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Scheduler"
+msgstr ""
+
+#: $string['portrait']
+msgid "Portrait"
+msgstr ""
+
+#: $string['preview']
+msgid "Preview"
+msgstr ""
+
+#: $string['previewlimited']
+msgid "(Preview is limited to {$a} rows.)"
+msgstr ""
+
+#: $string['purgeunusedslots']
+msgid "Purge unused slots in the past"
+msgstr ""
+
+#: $string['recipients']
+msgid "Recipients"
+msgstr ""
+
+#: $string['registeredlbl']
+msgid "Student appointed"
+msgstr ""
+
+#: $string['reminder']
+msgid "Reminder"
+msgstr ""
+
+#: $string['requireupload']
+msgid "File upload required"
+msgstr ""
+
+#: $string['resetappointments']
+msgid "Delete appointments and grades"
+msgstr ""
+
+#: $string['resetslots']
+msgid "Delete scheduler slots"
+msgstr ""
+
+#: $string['return']
+msgid "Back to course"
+msgstr ""
+
+#: $string['revoke']
+msgid "Revoke the appointment"
+msgstr ""
+
+#: $string['saturday']
+msgid "Saturday"
+msgstr ""
+
+#: $string['save']
+msgid "Save"
+msgstr ""
+
+#: $string['savechoice']
+msgid "Save my choice"
+msgstr ""
+
+#: $string['saveseen']
+msgid "Save seen"
+msgstr ""
+
+#: $string['schedule']
+msgid "Schedule"
+msgstr ""
+
+#: $string['scheduleappointment']
+msgid "Schedule appointment for {$a}"
+msgstr ""
+
+#: $string['schedulecancelled']
+msgid "{$a} : Your appointment cancelled or moved"
+msgstr ""
+
+#: $string['schedulegroups']
+msgid "Schedule by group"
+msgstr ""
+
+#: $string['scheduleinnew']
+msgid "Schedule in a new slot"
+msgstr ""
+
+#: $string['scheduleinslot']
+msgid "Schedule in slot"
+msgstr ""
+
+#: $string['scheduler']
+msgctxt "$string['scheduler']"
+msgid "Scheduler"
+msgstr ""
+
+#: $string['scheduler:addinstance']
+msgid "Add a new scheduler"
+msgstr ""
+
+#: $string['scheduler:appoint']
+msgid "Book slots"
+msgstr ""
+
+#: $string['scheduler:attend']
+msgid "Attend students"
+msgstr ""
+
+#: $string['scheduler:canscheduletootherteachers']
+msgid "Schedule appointments for other staff members"
+msgstr ""
+
+#: $string['scheduler:canseeotherteachersbooking']
+msgid "See and browse other teachers booking"
+msgstr ""
+
+#: $string['scheduler:disengage']
+msgid "This capability is deprecated and does nothing"
+msgstr ""
+
+#: $string['scheduler:manage']
+msgid "Manage your slots and appointments"
+msgstr ""
+
+#: $string['scheduler:manageallappointments']
+msgid "Manage all scheduler data"
+msgstr ""
+
+#: $string['scheduler:seeotherstudentsbooking']
+msgid "See other students booked on the slot"
+msgstr ""
+
+#: $string['scheduler:seeotherstudentsresults']
+msgid "See other slot student's results"
+msgstr ""
+
+#: $string['scheduler:seeoverviewoutsideactivity']
+msgid ""
+"Use the overview screen to see slots outside the current scheduler activity."
+msgstr ""
+
+#: $string['scheduler:viewfullslots']
+msgid "See slots even if they are fully booked (in student screen)"
+msgstr ""
+
+#: $string['scheduler:viewslots']
+msgid "See slots that are open for booking (in student screen)"
+msgstr ""
+
+#: $string['schedulestudents']
+msgid "Schedule by student"
+msgstr ""
+
+#: $string['scopemenu']
+msgid "Show slots in: {$a}"
+msgstr ""
+
+#: $string['scopemenuself']
+msgid "Show my slots in: {$a}"
+msgstr ""
+
+#: $string['search:activity']
+msgid "Scheduler - activity information"
+msgstr ""
+
+#: $string['seen']
+msgid "Seen"
+msgstr ""
+
+#: $string['selectedtoomany']
+msgid "You have selected too many slots. You can select no more than {$a}."
+msgstr ""
+
+#: $string['sendinvitation']
+msgid "Send invitation"
+msgstr ""
+
+#: $string['sendmessage']
+msgid "Send message"
+msgstr ""
+
+#: $string['sendreminder']
+msgid "Send reminder"
+msgstr ""
+
+#: $string['sendreminders']
+msgid "Send e-mail reminders for upcoming appointments"
+msgstr ""
+
+#: $string['sepcolon']
+msgid "Colon"
+msgstr ""
+
+#: $string['sepcomma']
+msgid "Comma"
+msgstr ""
+
+#: $string['sepsemicolon']
+msgid "Semicolon"
+msgstr ""
+
+#: $string['septab']
+msgid "Tab"
+msgstr ""
+
+#: $string['showemailplain']
+msgid "Show e-mail addresses in plain text"
+msgstr ""
+
+#: $string['showemailplain_desc']
+msgid ""
+"In the teacher's view of the scheduler, show the e-mail addresses of "
+"students needing an appointment in plain text, in addition to mailto: links."
+msgstr ""
+
+#: $string['showparticipants']
+msgid "Show participants"
+msgstr ""
+
+#: $string['slot']
+msgid "Slot"
+msgstr ""
+
+#: $string['slotdatetime']
+msgid "{$a->shortdatetime} for {$a->duration} minutes"
+msgstr ""
+
+#: $string['slotdatetimelabel']
+msgid "Date and time"
+msgstr ""
+
+#: $string['slotdatetimelong']
+msgid "{$a->date}, {$a->starttime} &ndash; {$a->endtime}"
+msgstr ""
+
+#: $string['slotdescription']
+msgid ""
+"{$a->status} on {$a->startdate} from {$a->starttime} to {$a->endtime} at "
+"{$a->location} with {$a->facilitator}."
+msgstr ""
+
+#: $string['slot_is_just_in_use']
+msgid ""
+"Sorry, the appointment has just been chosen by another student! Please try "
+"again."
+msgstr ""
+
+#: $string['slots']
+msgid "Slots"
+msgstr ""
+
+#: $string['slotsadded']
+msgid "{$a} slots have been added"
+msgstr ""
+
+#: $string['slotsdeleted']
+msgid "{$a} slots have been deleted"
+msgstr ""
+
+#: $string['slottype']
+msgid "Slot type"
+msgstr ""
+
+#: $string['slotupdated']
+msgid "1 slot updated"
+msgstr ""
+
+#: $string['slotwarning']
+msgid ""
+"<strong>Warning:</strong> Moving this slot to the selected time conflicts "
+"with the slot(s) listed below. Tick \"Ignore scheduling conflicts\" if you "
+"want to move the slot nevertheless."
+msgstr ""
+
+#: $string['staffbreakdown']
+msgid "By {$a}"
+msgstr ""
+
+#: $string['staffrolename']
+msgid "Role name of the teacher"
+msgstr ""
+
+#: $string['staffrolename_help']
+msgid ""
+"The label for the role who attends students. This is not necessarily a "
+"\"teacher\"."
+msgstr ""
+
+#: $string['start']
+msgid "Start"
+msgstr ""
+
+#: $string['startpast']
+msgid "You can't start an empty appointment slot in the past"
+msgstr ""
+
+#: $string['statistics']
+msgid "Statistics"
+msgstr ""
+
+#: $string['student']
+msgid "Student"
+msgstr ""
+
+#: $string['studentbreakdown']
+msgid "By student"
+msgstr ""
+
+#: $string['studentcomments']
+msgid "Student's message"
+msgstr ""
+
+#: $string['studentdetails']
+msgid "Student details"
+msgstr ""
+
+#: $string['studentfiles']
+msgid "Uploaded files"
+msgstr ""
+
+#: $string['studentmultiselect']
+msgid "Each student can be selected only once in this slot"
+msgstr ""
+
+#: $string['studentnote']
+msgctxt "$string['studentnote']"
+msgid "Message by student"
+msgstr ""
+
+#: $string['studentprovided']
+msgid "Student provided: {$a}"
+msgstr ""
+
+#: $string['students']
+msgid "Students"
+msgstr ""
+
+#: $string['sunday']
+msgid "Sunday"
+msgstr ""
+
+#: $string['tab-otherappointments']
+msgid "All appointments of this student"
+msgstr ""
+
+#: $string['tab-otherstudents']
+msgid "Students in this slot"
+msgstr ""
+
+#: $string['tab-thisappointment']
+msgid "This appointment"
+msgstr ""
+
+#: $string['teacher']
+msgctxt "$string['teacher']"
+msgid "Teacher"
+msgstr ""
+
+#: $string['teachernote']
+msgid "Confidential notes (visible to teacher only)"
+msgstr ""
+
+#: $string['teachersmenu']
+msgid "Show slots for: {$a}"
+msgstr ""
+
+#: $string['thiscourse']
+msgid "this course"
+msgstr ""
+
+#: $string['thisscheduler']
+msgid "this scheduler"
+msgstr ""
+
+#: $string['thissite']
+msgid "the entire site"
+msgstr ""
+
+#: $string['thursday']
+msgid "Thursday"
+msgstr ""
+
+#: $string['timefrom']
+msgid "From:"
+msgstr ""
+
+#: $string['timerange']
+msgid "Time range"
+msgstr ""
+
+#: $string['timeto']
+msgid "To:"
+msgstr ""
+
+#: $string['totalgrade']
+msgid "Total grade"
+msgstr ""
+
+#: $string['tuesday']
+msgid "Tuesday"
+msgstr ""
+
+#: $string['unattended']
+msgid "Unattended"
+msgstr ""
+
+#: $string['unlimited']
+msgid "Unlimited"
+msgstr ""
+
+#: $string['unregisteredlbl']
+msgid "Unappointed students"
+msgstr ""
+
+#: $string['upcomingslots']
+msgid "Upcoming slots"
+msgstr ""
+
+#: $string['updategrades']
+msgid "Update grades"
+msgstr ""
+
+#: $string['updatesingleslot']
+msgctxt "$string['updatesingleslot']"
+msgid ""
+msgstr ""
+
+#: $string['uploadmaxfiles']
+msgctxt "$string['uploadmaxfiles']"
+msgid "Maximum number of uploaded files"
+msgstr ""
+
+#: $string['uploadmaxfilesglobal']
+msgctxt "$string['uploadmaxfilesglobal']"
+msgid "Maximum number of uploaded files"
+msgstr ""
+
+#: $string['uploadmaxfilesglobal_desc']
+msgid ""
+"The maximum number of files that a student can upload in a booking form. "
+"This can be reduced further at the level of individual schedulers."
+msgstr ""
+
+#: $string['uploadmaxfiles_help']
+msgid ""
+"The maximum number of files that a student can upload in the booking form. "
+"File upload is optional unless the \"File upload required\" box is ticked. If "
+"set to 0, students will not see a file upload box."
+msgstr ""
+
+#: $string['uploadmaxsize']
+msgid "Maximum file size"
+msgstr ""
+
+#: $string['uploadmaxsize_help']
+msgid "Maximum file size for student uploads. This limit applies per file."
+msgstr ""
+
+#: $string['uploadrequired']
+msgid "You must upload files here before booking the slot."
+msgstr ""
+
+#: $string['uploadstudentfiles']
+msgid "Upload files"
+msgstr ""
+
+#: $string['usebookingform']
+msgid "Use booking form"
+msgstr ""
+
+#: $string['usebookingform_help']
+msgid ""
+"If enabled, student see a separate booking screen before they can book a "
+"slot. The booking screen may require them to enter data, upload files, or "
+"solve a captcha; see options below."
+msgstr ""
+
+#: $string['usebookingform_link']
+msgid "mod/scheduler/bookingform"
+msgstr ""
+
+#: $string['usecaptcha']
+msgid "Use CAPTCHA for new bookings"
+msgstr ""
+
+#: $string['usecaptcha_help']
+msgid ""
+"If enabled, students will need to solve a CAPTCHA security question before "
+"making a new booking.\n"
+"Use this setting if you suspect that students use automated programs to snap "
+"up available slots.\n"
+"<p>No captcha will be displayed if the student edits an existing "
+"booking.</p>"
+msgstr ""
+
+#: $string['usenotes']
+msgid "Use notes for appointments"
+msgstr ""
+
+#: $string['usenotesboth']
+msgid "Both types of notes"
+msgstr ""
+
+#: $string['usenotesnone']
+msgid "none"
+msgstr ""
+
+#: $string['usenotesstudent']
+msgid "Appointment note, visible to teacher and student"
+msgstr ""
+
+#: $string['usenotesteacher']
+msgid "Confidential note, visible to teachers only"
+msgstr ""
+
+#: $string['usestudentnotes']
+msgid "Let students enter a message"
+msgstr ""
+
+#: $string['usestudentnotes_help']
+msgid ""
+"If enabled, the booking screen will contain a text box in which students can "
+"enter a message. Use the \"booking instructions\" above to instruct students "
+"what information they should supply."
+msgstr ""
+
+#: $string['viewbooking']
+msgid "See details"
+msgstr ""
+
+#: $string['wednesday']
+msgid "Wednesday"
+msgstr ""
+
+#: $string['welcomebackstudent']
+msgid ""
+"You can book additional slots by clicking on the corresponding \"Book slot\" "
+"button below."
+msgstr ""
+
+#: $string['welcomenewstudent']
+msgid ""
+"The table below shows all available slots for an appointment. Make your "
+"choice by clicking on the corresponding \"Book slot\" button. If you need to "
+"make a change later you can revisit this page."
+msgstr ""
+
+#: $string['welcomenewteacher']
+msgid "Please click on the button below to add appointment slots."
+msgstr ""
+
+#: $string['what']
+msgid "What?"
+msgstr ""
+
+#: $string['whathappened']
+msgid "What happened?"
+msgstr ""
+
+#: $string['whatresulted']
+msgid "What resulted?"
+msgstr ""
+
+#: $string['when']
+msgid "When?"
+msgstr ""
+
+#: $string['where']
+msgid "Where?"
+msgstr ""
+
+#: $string['who']
+msgid "With whom?"
+msgstr ""
+
+#: $string['whosthere']
+msgid "Who's there ?"
+msgstr ""
+
+#: $string['xdaysbefore']
+msgid "{$a} days before slot"
+msgstr ""
+
+#: $string['xweeksbefore']
+msgid "{$a} weeks before slot"
+msgstr ""
+
+#: $string['yesallgroups']
+msgid "Yes, for all groups"
+msgstr ""
+
+#: $string['yesingrouping']
+msgid "Yes, in grouping {$a}"
+msgstr ""
+
+#: $string['yesoptional']
+msgid "Yes, optional for student"
+msgstr ""
+
+#: $string['yesrequired']
+msgid "Yes, student must enter a message"
+msgstr ""
+
+#: $string['yourappointmentnote']
+msgid "Comments for your eyes"
+msgstr ""
+
+#: $string['yourslotnotes']
+msgid "Comments on the meeting"
+msgstr ""
+
+#: $string['yourstudentnote']
+msgid "Your message"
+msgstr ""
+
+#: $string['yourtotalgrade']
+msgid "Your total grade in this activity is <strong>{$a}</strong>."
+msgstr ""

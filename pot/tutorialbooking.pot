@@ -1,0 +1,763 @@
+#. extracted from lang/en/tutorialbooking.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'tutorialbooking', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   tutorialbooking
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addstudents']
+msgid "Add Students"
+msgstr ""
+
+#: $string['adminblockinghelp']
+msgid "Switching this on will allow blocking of signups for selected users"
+msgstr ""
+
+#: $string['adminblockingprompt']
+msgid "Switch on Blocking functionality"
+msgstr ""
+
+#: $string['adminiconhelp']
+msgid "If off, all links will be in text, no icons will be shown"
+msgstr ""
+
+#: $string['adminiconprompt']
+msgid "Use Icons?"
+msgstr ""
+
+#: $string['adminlockhelp']
+msgid "Select to make all tutorials locked by default"
+msgstr ""
+
+#: $string['adminlockprompt']
+msgid "Select to lock tutorials by default"
+msgstr ""
+
+#: $string['adminnumbershelp']
+msgid ""
+"Enter the default number of attendees for tutorials - can be overridden when "
+"configuring tutorials"
+msgstr ""
+
+#: $string['adminnumbersprompt']
+msgid "Select default number of attendees"
+msgstr ""
+
+#: $string['adminservicehelp']
+msgid ""
+"NOTICE: Swiching this on will mean that emails/notifications will be sent to "
+"signups - when off only main admin (id=2) gets notifications"
+msgstr ""
+
+#: $string['adminserviceprompt']
+msgid "Mark this instance as a live Moodle service"
+msgstr ""
+
+#: $string['adminwaitinghelp']
+msgid "Switching this on will allow waiting lists on timeslot sessions"
+msgstr ""
+
+#: $string['adminwaitingprompt']
+msgid "Switch on Waiting List functionality"
+msgstr ""
+
+#: $string['after']
+msgid "After {$a->session}"
+msgstr ""
+
+#: $string['alreadysignedup']
+msgid "You have already signed up to a session."
+msgstr ""
+
+#: $string['attendcoltitle']
+msgid "Attendance"
+msgstr ""
+
+#: $string['attendees']
+msgid "Currently signed up"
+msgstr ""
+
+#: $string['availabletoadd']
+msgid "Available to add"
+msgstr ""
+
+#: $string['backtosession']
+msgid "Messages sent, click here to go back to Signup List"
+msgstr ""
+
+#: $string['blockedtotal']
+msgid "includes {$a} blocked user/s"
+msgstr ""
+
+#: $string['blockedusermessage']
+msgid ""
+"You have been blocked from signing up to these sessions - please see "
+"convenor for reasons"
+msgstr ""
+
+#: $string['blockuserprompt']
+msgid "Signed Up - Click to block User"
+msgstr ""
+
+#: $string['cancel']
+msgid "Cancel"
+msgstr ""
+
+#: $string['completionsignedup']
+msgid ""
+"Students must signup to a tutorial group in this activity to complete it."
+msgstr ""
+
+#: $string['completionsignedupgroup']
+msgid "Require signup"
+msgstr ""
+
+#: $string['confirm']
+msgid "Confirm"
+msgstr ""
+
+#: $string['confirmmessage']
+msgid "Are you sure you wish to remove {$a->name} from {$a->timeslot}?"
+msgstr ""
+
+#: $string['confirmremovefromslot']
+msgid "Are you sure you wish to remove your signup from the tutorial booking?"
+msgstr ""
+
+#: $string['confirmusersignupremoval']
+msgid "Confirm signup removal"
+msgstr ""
+
+#: $string['copysession']
+msgid "Copy Time Slot"
+msgstr ""
+
+#: $string['coursefullname']
+msgid "CourseFullname"
+msgstr ""
+
+#: $string['cronfixduplicates']
+msgid "Fix tutorial booking duplicate signups"
+msgstr ""
+
+#: $string['defaultdescription']
+msgid "Slot {$a}"
+msgstr ""
+
+#: $string['deletepageheader']
+msgid "Confirm Delete"
+msgstr ""
+
+#: $string['deletesession']
+msgid "Delete"
+msgstr ""
+
+#: $string['deletetutorialprompt']
+msgid "Delete this sign-up list"
+msgstr ""
+
+#: $string['deletewarningtext']
+msgid "Are you sure you want to delete \"{$a}\""
+msgstr ""
+
+#: $string['editsession']
+msgid "Edit/Move/Copy"
+msgstr ""
+
+#: $string['editsessionheading']
+msgid "Edit Existing Time Slot"
+msgstr ""
+
+#: $string['editsessionhelp']
+msgid "To modify the time slot, please fill in the form below."
+msgstr ""
+
+#: $string['editspaceserror']
+msgid ""
+"ERROR: You cannot reduce the number of spaces ({$a->spaces}) to less that "
+"the number of signups ({$a->signedup})"
+msgstr ""
+
+#: $string['edittutorialprompt']
+msgid "Edit this sign-up list"
+msgstr ""
+
+#: $string['emailgroupprompt']
+msgid "Email group"
+msgstr ""
+
+#: $string['emailpagetitle']
+msgid "Email Group"
+msgstr ""
+
+#: $string['eventsessionadded']
+msgid "Session added"
+msgstr ""
+
+#: $string['eventsessiondeleted']
+msgid "Session deleted"
+msgstr ""
+
+#: $string['eventsessionmessage']
+msgid "Messaged users in session"
+msgstr ""
+
+#: $string['eventsessionupdated']
+msgid "Session updated"
+msgstr ""
+
+#: $string['eventsignupadded']
+msgid "Signup"
+msgstr ""
+
+#: $string['eventsignupcapabilityremoved']
+msgid "Signup capability lost"
+msgstr ""
+
+#: $string['eventsignupremoved']
+msgid "Signup removed"
+msgstr ""
+
+#: $string['eventsignupteacheradded']
+msgid "Signup forced"
+msgstr ""
+
+#: $string['eventsignupteacherremoved']
+msgid "Signup revoked"
+msgstr ""
+
+#: $string['exportcsvlistallprompt']
+msgid "Export all tutorial signups on this course as CSV"
+msgstr ""
+
+#: $string['exportcsvlistprompt']
+msgid "Export as CSV"
+msgstr ""
+
+#: $string['exportlistprompt']
+msgid "Export this sign-up list"
+msgstr ""
+
+#: $string['first']
+msgid "First"
+msgstr ""
+
+#: $string['hidesession']
+msgid "Visible - Hide Time Slot"
+msgstr ""
+
+#: $string['idnumber']
+msgid "IDNumber"
+msgstr ""
+
+#: $string['indexnoid']
+msgid "A course id must be stipulated to view all tutorials"
+msgstr ""
+
+#: $string['instancedesc']
+msgid "Sign-up List Notes"
+msgstr ""
+
+#: $string['instancedeschelp']
+msgid ""
+"Information students need to know when signing up, such as duration of "
+"session."
+msgstr ""
+
+#: $string['instanceheading']
+msgid "General Settings"
+msgstr ""
+
+#: $string['instancenamehelp']
+msgid "e.g. Tutorial 1 or Computer Labs or Fortnightly Tutorials"
+msgstr ""
+
+#: $string['instancetitle']
+msgid "Sign-up List Title"
+msgstr ""
+
+#: $string['last']
+msgid "Last"
+msgstr ""
+
+#: $string['linktomanagetext']
+msgid "Manage Signup Lists"
+msgstr ""
+
+#: $string['liveservicemsg']
+msgid "Live service recognised, notification being sent to all signups"
+msgstr ""
+
+#: $string['locked']
+msgid "Unlock tutorial"
+msgstr ""
+
+#: $string['lockederror']
+msgid "The tutorial is locked. You may not signup at this time."
+msgstr ""
+
+#: $string['lockedprompt']
+msgid "Locked"
+msgstr ""
+
+#: $string['lockhelp']
+msgid ""
+"If locked students will not be able to signup (or unsignup) from any "
+"timeslot in this tutorial.\n"
+"Locking it now will effectively freeze the signup lists in their current "
+"state."
+msgstr ""
+
+#: $string['lockwarning']
+msgid ""
+"This tutorial has been locked by the convenor. You cannot signup to (or "
+"remove yourself from) any slot."
+msgstr ""
+
+#: $string['messageprompt']
+msgid "Message"
+msgstr ""
+
+#: $string['messageprovider:notify']
+msgid "Tutorial Notification"
+msgstr ""
+
+#: $string['messagessent']
+msgid "Messages sent"
+msgstr ""
+
+#: $string['messagewillbesent']
+msgid "Message to the student being removed"
+msgstr ""
+
+#: $string['moduleadminname']
+msgctxt "$string['moduleadminname']"
+msgid "Tutorial Booking"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Tutorial Booking"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"The tutorial booking activity allows students to sign up to a single slot.\n"
+"\n"
+"Teachers can:\n"
+"\n"
+"* Set the names of other people who have signed up to a slot to be visible "
+"or hidden from students.\n"
+"* Print registers of students signed up to slots.\n"
+"* Generate a csv file of the signups.\n"
+"* Manually add and remove students from slots.\n"
+"* Lock and unlock the ability to sign up.\n"
+"* Send a message to everyone signed up to a slot"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Tutorial Bookings"
+msgstr ""
+
+#: $string['movedownsession']
+msgid "Move Down"
+msgstr ""
+
+#: $string['moveslot']
+msgid "Drag this slot to move it."
+msgstr ""
+
+#: $string['moveupsession']
+msgid "Move Up"
+msgstr ""
+
+#: $string['newsessionheading']
+msgid "New Time Slot"
+msgstr ""
+
+#: $string['newsessionhelp']
+msgid ""
+"To create a new time slot in the above sign-up list, please fill in the form "
+"below."
+msgstr ""
+
+#: $string['newtimslotprompt']
+msgid "Add a Time Slot to this sign-up list"
+msgstr ""
+
+#: $string['nosignup']
+msgid "You are not signed up to the tutorial booking."
+msgstr ""
+
+#: $string['noslots']
+msgid "There are no timeslots in this tutorial booking."
+msgstr ""
+
+#: $string['notimeslotediting']
+msgid ""
+"Since this is a new tutorial, please save this page and return to create "
+"signup lists, remember to set visibility to hide this to avoid use before "
+"tutorial has been completely setup."
+msgstr ""
+
+#: $string['numbersline']
+msgid ""
+"{$a->total} places available in total ({$a->taken} taken, {$a->left} free)"
+msgstr ""
+
+#: $string['numbersline_oversubscribed']
+msgid ""
+"{$a->total} places available in total ({$a->taken} taken, oversubscribed by "
+"{$a->left})"
+msgstr ""
+
+#: $string['option_spaces_high']
+msgid "The number of spaces must be less than 65536"
+msgstr ""
+
+#: $string['option_spaces_low']
+msgid "The number of spaces must be greater than 0"
+msgstr ""
+
+#: $string['oversubscribed']
+msgid ""
+"There are {$a->freeslots} places left on {$a->timeslotname}. You tried to "
+"add {$a->numbertoadd} student."
+msgstr ""
+
+#: $string['pagecrumb']
+msgid "Time Slots"
+msgstr ""
+
+#: $string['pagetitle']
+msgctxt "$string['pagetitle']"
+msgid "Tutorial Booking"
+msgstr ""
+
+#: $string['pluginadministration']
+msgctxt "$string['pluginadministration']"
+msgid "Tutorial Booking"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Tutorial Booking"
+msgstr ""
+
+#: $string['positionfirst']
+msgid "Top of the Page"
+msgstr ""
+
+#: $string['positionlast']
+msgid "Bottom of the Page"
+msgstr ""
+
+#: $string['positionprompt']
+msgid "Position"
+msgstr ""
+
+#: $string['privacy']
+msgid "Privacy"
+msgstr ""
+
+#: $string['privacy_showall']
+msgid "Students can see all signups"
+msgstr ""
+
+#: $string['privacy_showown']
+msgid "Students can only see their signup"
+msgstr ""
+
+#: $string['realname']
+msgid "RealName"
+msgstr ""
+
+#: $string['reasonrequired']
+msgid "You must provide the reason you are removing the student."
+msgstr ""
+
+#: $string['registerdateline']
+msgid ""
+"Please Enter Date of Tutorial (dd/mm/yy):&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp"
+";&nbsp;&nbsp;_&nbsp;_&nbsp;&nbsp;_&nbsp;_&nbsp;&nbsp;_&nbsp; _"
+msgstr ""
+
+#: $string['registerfooter']
+msgid ""
+"Please sign next to your name to indicate attendance. If your name is not on "
+"the list then please do\n"
+"not add it without asking first."
+msgstr ""
+
+#: $string['registerprintdate']
+msgid "Print Register (By Signup)"
+msgstr ""
+
+#: $string['registerprintname']
+msgid "Print Register (By Name)"
+msgstr ""
+
+#: $string['removalmessagesubject']
+msgid "You have been removed from {$a->timeslot}"
+msgstr ""
+
+#: $string['removalreason']
+msgid "Reason for removal"
+msgstr ""
+
+#: $string['remove']
+msgid "Confirm removal"
+msgstr ""
+
+#: $string['removefromslot']
+msgid "Remove me from this slot"
+msgstr ""
+
+#: $string['removeuserfromslot']
+msgid "Remove from this slot"
+msgstr ""
+
+#: $string['reset']
+msgid "Undo"
+msgstr ""
+
+#: $string['save']
+msgid "Save"
+msgstr ""
+
+#: $string['saveasnew']
+msgid "Save as new time slot"
+msgstr ""
+
+#: $string['search:activity']
+msgid "Tutorial booking - activity information"
+msgstr ""
+
+#: $string['search:session']
+msgid "Tutorial booking - time slot information"
+msgstr ""
+
+#: $string['sendmessage']
+msgid "Send Message"
+msgstr ""
+
+#: $string['sentby']
+msgid "Sender"
+msgstr ""
+
+#: $string['senttime']
+msgid "Sent on"
+msgstr ""
+
+#: $string['sentto']
+msgid "Recipients"
+msgstr ""
+
+#: $string['sessiondescriptionhelp']
+msgid ""
+"Date, Time & Location e.g. 10:00am on Thursday 14th Aug in Room B35, "
+"Business School or 10:00am on Thursday 14th & 21st Aug, and 4th Sep in Room "
+"B35, Business School."
+msgstr ""
+
+#: $string['sessiondescriptionhelp2']
+msgid ""
+"Please ensure you have included the name of the building!<br/>\n"
+"Module Convenors should make sure that they have booked the room!"
+msgstr ""
+
+#: $string['sessiondescriptionprompt']
+msgid "Title"
+msgstr ""
+
+#: $string['sessionerror']
+msgid "{$a}"
+msgstr ""
+
+#: $string['sessionfull']
+msgid "No spaces left, please pick another session."
+msgstr ""
+
+#: $string['sessionpagetitle']
+msgid "Time Slot Management"
+msgstr ""
+
+#: $string['sessionsummaryprompt']
+msgid "Details"
+msgstr ""
+
+#: $string['showallmessages']
+msgid "Show all messages"
+msgstr ""
+
+#: $string['showalltutorialbookings']
+msgid "Tutorial booking index"
+msgstr ""
+
+#: $string['showmymessages']
+msgid "Show my messages only"
+msgstr ""
+
+#: $string['showsession']
+msgid "Hidden - Make Visible"
+msgstr ""
+
+#: $string['signupforslot']
+msgid "Sign me up for this slot"
+msgstr ""
+
+#: $string['spacesprompt']
+msgid "Max Number of Students"
+msgstr ""
+
+#: $string['statsline']
+msgid "({$a->places} slots, {$a->signedup} taken)"
+msgstr ""
+
+#: $string['statslineblocked']
+msgid "({$a->places} slots, {$a->signedup} taken - {$a->blocked} blocked)"
+msgstr ""
+
+#: $string['studentcoltitle']
+msgid "Student Name"
+msgstr ""
+
+#: $string['subjecttitleprompt']
+msgid "Subject"
+msgstr ""
+
+#: $string['testservicemsg']
+msgid "Non live service - notification being sent to Admin (id=2)"
+msgstr ""
+
+#: $string['thereareno']
+msgid "There are no tutorials in this course"
+msgstr ""
+
+#: $string['timeslotheading']
+msgid "Signup List Management"
+msgstr ""
+
+#: $string['timeslottitle']
+msgid "TimeSlotTitle"
+msgstr ""
+
+#: $string['tutorialbooking']
+msgid "TutorialBooking"
+msgstr ""
+
+#: $string['tutorialbooking:addinstance']
+msgid "Allows a user to add this activity to a course (not used in Moodle 2.2)"
+msgstr ""
+
+#: $string['tutorialbooking:adduser']
+msgid "Allows the user to add students to a signup group."
+msgstr ""
+
+#: $string['tutorialbooking:editsignuplist']
+msgid "Allow users to add, delete and edit the signup lists."
+msgstr ""
+
+#: $string['tutorialbooking:export']
+msgid "Allow the user to export tutorial signups"
+msgstr ""
+
+#: $string['tutorialbooking:exportallcoursetutorials']
+msgid "Required to export list for all tutorial signups in a course."
+msgstr ""
+
+#: $string['tutorialbooking:message']
+msgid ""
+"Allows the user send messages to students via the tutorialbooking activity."
+msgstr ""
+
+#: $string['tutorialbooking:oversubscribe']
+msgid ""
+"Allows the user to add studets to a group even if this will take it over its "
+"user limit."
+msgstr ""
+
+#: $string['tutorialbooking:printregisters']
+msgid "Allows the user to print registers for the activity."
+msgstr ""
+
+#: $string['tutorialbooking:removeuser']
+msgid "Allows the removal of students from a signup group."
+msgstr ""
+
+#: $string['tutorialbooking:submit']
+msgid "Required to signup to a tutorial booking session."
+msgstr ""
+
+#: $string['tutorialbooking:viewadminpage']
+msgid "Allows the user to see the admin page of the activity."
+msgstr ""
+
+#: $string['tutorialbooking:viewallmessages']
+msgid ""
+"Required to view messages other users sent in a tutorial booking session."
+msgstr ""
+
+#: $string['unauthorised']
+msgid "You do not have permission to signup."
+msgstr ""
+
+#: $string['unblockuserprompt']
+msgid "Blocked Users - Click to unblock User"
+msgstr ""
+
+#: $string['unlocked']
+msgid "Lock tutorial"
+msgstr ""
+
+#: $string['useralreadysignedup']
+msgid "User {$a->id} is already signed up to a session."
+msgstr ""
+
+#: $string['userdisplay']
+msgid "{$a->name} ({$a->username})"
+msgstr ""
+
+#: $string['username']
+msgid "UserName"
+msgstr ""
+
+#: $string['viewmessages']
+msgid "View sent messages"
+msgstr ""
+
+#: $string['you']
+msgid "You"
+msgstr ""
+
+#: $string['yousignedup']
+msgid "You are signed up to this slot"
+msgstr ""

@@ -1,0 +1,355 @@
+#. extracted from lang/en/gradereport_quizanalytics.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'gradereport_quizanalytics', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   gradereport_quizanalytics
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['accuaracyrate']
+msgid "Accuracy Rate :"
+msgstr ""
+
+#: $string['action']
+msgid "Action"
+msgstr ""
+
+#: $string['allusersdes']
+msgid ""
+"This section reports on the basis of wrong and unattempted cases, the "
+"categories that turned out to be most challenging ones across all the users "
+"who took the quiz."
+msgstr ""
+
+#: $string['apiversion']
+msgid "Enter API Version"
+msgstr ""
+
+#: $string['apiversiondes']
+msgid "Please enter your API Version."
+msgstr ""
+
+#: $string['attemptssnapshotdes']
+msgid ""
+"This section is like a recap, displaying the key figures of all your "
+"previous attempt."
+msgstr ""
+
+#: $string['attemptsummarydes']
+msgid "This graph depicts how you fared in your attempt."
+msgstr ""
+
+#: $string['avgscore']
+msgid "Average Score"
+msgstr ""
+
+#: $string['bestscore']
+msgid "Best Score"
+msgstr ""
+
+#: $string['correct']
+msgid "Correct"
+msgstr ""
+
+#: $string['cutoffdes']
+msgid ""
+"Set Cut Off percentage (%) for all the quiz. This will be used for "
+"predictive analysis graph."
+msgstr ""
+
+#: $string['cutoffscore']
+msgid "Cut Off Score"
+msgstr ""
+
+#: $string['enterfbappid']
+msgid "Enter FaceBook App ID"
+msgstr ""
+
+#: $string['fbappiddes']
+msgid ""
+"Please enter a valid Facebook APP ID to be used for sharing of graph images."
+msgstr ""
+
+#: $string['fbsharetitle']
+msgid "Add a title"
+msgstr ""
+
+#: $string['fbsharetitledefault']
+msgid ""
+"I took a test at Dualcube and here's how my quiz scores' graph looks like."
+msgstr ""
+
+#: $string['fbsharetitledes']
+msgid ""
+"Please add the text you want to show as title for posts shared on Facebook."
+msgstr ""
+
+#: $string['gradeanalysisdes']
+msgid "Number of users in each percentage (score percentage) group."
+msgstr ""
+
+#: $string['gradeboundary']
+msgid "Grade Boundary"
+msgstr ""
+
+#: $string['gradeboundarydes']
+msgid ""
+"The grade boundaries are ranges set by the admin which will be displayed on "
+"the scores's stats graph."
+msgstr ""
+
+#: $string['hardcatalluser']
+msgid "Hard Categories (All Users)%"
+msgstr ""
+
+#: $string['hardcatlogginuser']
+msgid "Hard Categories (Logged-in User)%"
+msgstr ""
+
+#: $string['hardestquesdes']
+msgid ""
+"*Total Attempts = Total number of quiz attempts.\n"
+"    *Unsuccessful Attempts = Total wrong attempts + Number of Not Answered "
+"cases.\n"
+"\tThis graph represnts the toughness of questions depending on how many times "
+"the quiz was attempted and the times that particular question is left "
+"unattempted or incorrectly attempted. Clicking on the bars dedicated to each "
+"question will show the question itself along with explanation and correct "
+"answer."
+msgstr ""
+
+#: $string['hardestquestion']
+msgid "Hardest Questions"
+msgstr ""
+
+#: $string['hardness']
+msgid "Hardness (%)"
+msgstr ""
+
+#: $string['impandpredicanalysis']
+msgid "Improvement Curve & Predictive Analysis"
+msgstr ""
+
+#: $string['incorrect']
+msgid "Incorrect"
+msgstr ""
+
+#: $string['lastattemptsummary']
+msgctxt "$string['lastattemptsummary']"
+msgid "Attempt Summary"
+msgstr ""
+
+#: $string['lastattemptsummarydes']
+msgid "This graph depicts how you fared in the last attempt."
+msgstr ""
+
+#: $string['loggedinuserdes']
+msgid "Lets have a look the categories you have fared not so well."
+msgstr ""
+
+#: $string['lowestscore']
+msgid "Lowest Score"
+msgstr ""
+
+#: $string['mixchartdes']
+msgid ""
+"This graph shows how you improved over all your attempts and the dark block "
+"represents the no of average attempts required to touch the score set as cut "
+"off (by site admin). The x-axis (Horizontal) represents the number of "
+"attempts."
+msgstr ""
+
+#: $string['noofattempts']
+msgid "Number of Attempts"
+msgstr ""
+
+#: $string['noofpartialcorrect']
+msgid "Number of Partial Correct Answers"
+msgstr ""
+
+#: $string['noofquestionattempt']
+msgid "Number of Questions Attempted"
+msgstr ""
+
+#: $string['noofquestionunattempt']
+msgid "Number of Questions Unattempted"
+msgstr ""
+
+#: $string['noofrightans']
+msgid "Number of Right Answers"
+msgstr ""
+
+#: $string['noofstudents']
+msgid "Number of Students"
+msgstr ""
+
+#: $string['noquizfound']
+msgid "No Quiz Found!"
+msgstr ""
+
+#: $string['notgraded']
+msgid "Not yet Graded"
+msgstr ""
+
+#: $string['partialcorrect']
+msgid "Partial Correct"
+msgstr ""
+
+#: $string['peerscores']
+msgid "Peer Scores"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Quiz Analytics"
+msgstr ""
+
+#: $string['quesanalysis']
+msgid "Question Analysis"
+msgstr ""
+
+#: $string['quesananalysisdes']
+msgid ""
+"The curves here depict how the users fared in each question. Clicking on the "
+"circles dedicated to each question will show the question itself along with "
+"explanation and correct answer."
+msgstr ""
+
+#: $string['questionpercatdes']
+msgid ""
+"This graph tells you the number of questions present in the quiz from each "
+"category."
+msgstr ""
+
+#: $string['questionspercategory']
+msgid "Questions per Category"
+msgstr ""
+
+#: $string['quizanalytics:view']
+msgid "View Quiz Analytics Report"
+msgstr ""
+
+#: $string['quizname']
+msgid "Quiz Name"
+msgstr ""
+
+#: $string['score']
+msgid "Score"
+msgstr ""
+
+#: $string['setcutoff']
+msgid "Set Cut Off"
+msgstr ""
+
+#: $string['setglobal']
+msgid "Set Globally"
+msgstr ""
+
+#: $string['setglobaldes']
+msgid ""
+"Set Grade Boundary For All Quiz. This when checked rewrites the individual "
+"grade boundary settings for each quiz."
+msgstr ""
+
+#: $string['tab1']
+msgctxt "$string['tab1']"
+msgid "Attempt Summary"
+msgstr ""
+
+#: $string['tab2']
+msgid "My Progress and Predictions"
+msgstr ""
+
+#: $string['tab2subtab11']
+msgid "Improvement Curve"
+msgstr ""
+
+#: $string['tab2subtab12']
+msgid "Peer Performance"
+msgstr ""
+
+#: $string['tab2subtab2']
+msgid "Hardest Question"
+msgstr ""
+
+#: $string['tab2subtab3']
+msgid "Attempt Snapshot"
+msgstr ""
+
+#: $string['tab3']
+msgid "Question Categories&#39 Analysis"
+msgstr ""
+
+#: $string['tab3subtab1']
+msgid "Question Per Category"
+msgstr ""
+
+#: $string['tab3subtab2']
+msgid "Challenging Categories (Across All Users)"
+msgstr ""
+
+#: $string['tab3subtab3']
+msgid "Challenging Categories for me"
+msgstr ""
+
+#: $string['tab4']
+msgid "Scores&#39 & Questions&#39 Stats"
+msgstr ""
+
+#: $string['tab4subtab1']
+msgid "Scores by Percentage (All Users)"
+msgstr ""
+
+#: $string['timechartdes']
+msgid "This graph shows how your peers have scored in comparison to you."
+msgstr ""
+
+#: $string['timetaken']
+msgid "Attempts Snapshot (Time Taken:"
+msgstr ""
+
+#: $string['totalquizattempt']
+msgid "Total Attempts"
+msgstr ""
+
+#: $string['unattempted']
+msgid "Unattempted"
+msgstr ""
+
+#: $string['userscore']
+msgid "User Score"
+msgstr ""
+
+#: $string['viewanalytics']
+msgid "View Analytics"
+msgstr ""
+
+#: $string['wrongandunattemptd']
+msgid "Unsuccessful Attempts"
+msgstr ""

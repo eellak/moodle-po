@@ -1,0 +1,1415 @@
+#. extracted from lang/en/checkmark.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'checkmark', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   checkmark
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['absent']
+msgid "Absent"
+msgstr ""
+
+#: $string['activateindividuals']
+msgid "Activate individual function"
+msgstr ""
+
+#: $string['addsubmission']
+msgid "Add submission"
+msgstr ""
+
+#: $string['all']
+msgid "All"
+msgstr ""
+
+#: $string['all_absent']
+msgid "All absent participants"
+msgstr ""
+
+#: $string['all_attendant']
+msgid "All attendant participants"
+msgstr ""
+
+#: $string['allowresubmit']
+msgid "Allow resubmitting"
+msgstr ""
+
+#: $string['allowresubmit_help']
+msgid ""
+"If enabled, students will be allowed to resubmit checkmarks after they have "
+"been graded (to be regraded)."
+msgstr ""
+
+#: $string['all_unknown']
+msgid "All with unknown attendance status"
+msgstr ""
+
+#: $string['alreadygraded']
+msgid ""
+"Your submission has already been graded and resubmission is not allowed."
+msgstr ""
+
+#: $string['alwaysshowdescription']
+msgid "Always show description"
+msgstr ""
+
+#: $string['alwaysshowdescription_help']
+msgid ""
+"If disabled, the checkmarks description above will only become visible to "
+"students at the \"Allow submissions from\" date."
+msgstr ""
+
+#: $string['attendance']
+msgid "Attendance"
+msgstr ""
+
+#: $string['attendancegradebook']
+msgid "Record attendance in gradebook"
+msgstr ""
+
+#: $string['attendancegradebook_help']
+msgid ""
+"If you activate this feature, attendances will be visible in gradebook as "
+"separate grade item: <ul><li>Empty grade - status unknown</li><li>Grade 0 - "
+"if absent</li><li>Grade 1 - if attendant</li></ul>"
+msgstr ""
+
+#: $string['attendancegradelink']
+msgid "Link attendance to automatic calculation of submission-grades"
+msgstr ""
+
+#: $string['attendancegradelink_help']
+msgid ""
+"Activate this setting in order to link the saved attendances with the "
+"automatically calculated grades of the checkmark. Points of the checkmark "
+"module are only aggregated, when the person's attendance was marked "
+"accordingly."
+msgstr ""
+
+#: $string['attendancegradelink_hint']
+msgid "Note: Automatically calculated grades are linked to the attendance."
+msgstr ""
+
+#: $string['attendance_help']
+msgid ""
+"The colum status represents the students attendance:<br /><ul><li>? - "
+"unknown</li><li>✓ - present</li><li>✖ - absent</li></ul>"
+msgstr ""
+
+#: $string['attendance_not_set_grade_locked']
+msgid ""
+"The attendance for {$a} couldn't be set, because the grade is locked or "
+"overridden in gradebook."
+msgstr ""
+
+#: $string['attendancestatus']
+msgid "Current status of your attendance"
+msgstr ""
+
+#: $string['attendant']
+msgid "Attendant"
+msgstr ""
+
+#: $string['autograde_all']
+msgid "Grade all submissions"
+msgstr ""
+
+#: $string['autogradebuttonstitle']
+msgid "Calculate submission-grades for checkmark {$a}"
+msgstr ""
+
+#: $string['autograde_confirm']
+msgid ""
+"You are about to update grades and feedback for <strong>{$a}</strong>. The "
+"former grades and feedback will be overwritten."
+msgstr ""
+
+#: $string['autograde_confirm_continue']
+msgid "Are you shure you wan't to continue?"
+msgstr ""
+
+#: $string['autograde_custom']
+msgid "Grade selected users"
+msgstr ""
+
+#: $string['autograde_error']
+msgid "An error occurred during auto-grading."
+msgstr ""
+
+#: $string['autograde_failed']
+msgid "Auto-grading failed!"
+msgstr ""
+
+#: $string['autograde_non_numeric_grades']
+msgid ""
+"Auto-grading requires a numeric maximum grade to be set. This can be "
+"configured in instance-settings."
+msgstr ""
+
+#: $string['autograde_notsupported']
+msgid "This scale is not supported by automatic grading."
+msgstr ""
+
+#: $string['autograde_no_users_selected']
+msgid ""
+"You have not selected any user to grade. Select the required users via the "
+"checkboxes in the left column of the table below."
+msgstr ""
+
+#: $string['autograde_one_success']
+msgid "Auto-grading successful! 1 submission updated."
+msgstr ""
+
+#: $string['autograde_req']
+msgid "Grade ungraded"
+msgstr ""
+
+#: $string['autograde_str']
+msgid "Auto-grading"
+msgstr ""
+
+#: $string['autograde_strall']
+msgid "All submissions"
+msgstr ""
+
+#: $string['autograde_strchanged']
+msgid ""
+"Due to the auto-grading the grades for <strong>{$a}</strong> student(s) will "
+"be changed."
+msgstr ""
+
+#: $string['autograde_str_help']
+msgid ""
+"Auto-grading calculates users grades according to points per example and "
+"checked examples. It adds the points for each checked example and uses this "
+"as the users grade. <ul><li>grade selected users - grades just these users, "
+"which are checked in the list. If a user hasn't submitted anything, a empty "
+"submission get's added.</li><li>grade who needs grading - grades every "
+"submission which is more up to date than the corresponding "
+"grading</li><li>grade all submissions - grades all present submissions (for "
+"this instance). Does NOT add empty submissions.</li></ul><br />The grade "
+"gets calculated based on chosen example grades and checked examples:<ul><li"
+">standard-grading: here each example is equally weighted (integral grade per "
+"example). The grade is calculated by multiplication of the sum of checked "
+"examples with the quotient of checkmark-grade and checkmark-"
+"count.</li><li>individual example-weights: the grade is the sum of example "
+"grades for each checked example (according to instance-settings).</li></ul>"
+msgstr ""
+
+#: $string['autograde_strmultiplesubmissions']
+msgid "{$a} submissions"
+msgstr ""
+
+#: $string['autograde_stronesubmission']
+msgid "1 submission"
+msgstr ""
+
+#: $string['autograde_strreq']
+msgid "Submissions which require a grade-update"
+msgstr ""
+
+#: $string['autograde_success']
+msgid "Auto-grading successful! {$a} submissions updated."
+msgstr ""
+
+#: $string['autograde_users_with_unknown_attendance']
+msgid ""
+"ATTENTION: {$a} submissions could NOT be graded automatically due to unknown "
+"attendance status!"
+msgstr ""
+
+#: $string['availabledate']
+msgid "Allow submissions from"
+msgstr ""
+
+#: $string['availabledate_help']
+msgid ""
+"Begin of the submission period. After this date students are able to submit."
+msgstr ""
+
+#: $string['bulk']
+msgid "Bulk processing"
+msgstr ""
+
+#: $string['bulk_help']
+msgid ""
+"Here you can perform actions like \"setting attendance\", \"automatic grading\" "
+"or combinations thereof on multiple entries.<br />\n"
+"<ul>\n"
+"<li><strong>mark as attendant:</strong> Mark selected users as "
+"attendant</li>\n"
+"<li><strong>mark as absent:</strong> Mark selected users as absent</li>\n"
+"<li><strong>grade automatically:</strong> Calculate automatic grade for "
+"selected users</li>\n"
+"<li><strong>mark as attendant and grade:</strong> Mark selected users as "
+"attendant and grade them automatically right afterwards</li>\n"
+"<li><strong>mark as absent and grade:</strong> Mark selected users as absent "
+"and grade them automatically right afterwards</li>\n"
+"</ul><br />\n"
+"Note: if attendency is linked to the grades only attendant users will be "
+"awarded points for checked examples.\n"
+"Absent users will be graded with 0 points and users with unknown attendancy "
+"will be skipped at all!"
+msgstr ""
+
+#: $string['bulk_no_users_selected']
+msgid ""
+"You haven't selected any user. Select the required users via the checkboxes "
+"in the left column of the table below."
+msgstr ""
+
+#: $string['cannotviewcheckmark']
+msgid "You can not view this checkmark"
+msgstr ""
+
+#: $string['cantfixevent']
+msgid ""
+"Couldn't fix event with ID {$a->id}, named {$a->name} ({$a->matches} "
+"matches)."
+msgstr ""
+
+#: $string['cfg_nowarning']
+msgid "No warning"
+msgstr ""
+
+#: $string['cfg_pdfexampleswarning']
+msgid "Amount of examples to display a warning for PDF export"
+msgstr ""
+
+#: $string['cfg_pdfexampleswarning_desc']
+msgid ""
+"Minimum amount of examples above which a warning is displayed, that no "
+"reasonable PDF export can be guaranteed. Usually you don't have to change "
+"this, except you don't want to have it shown at all or if you want to tweak "
+"it for your installation."
+msgstr ""
+
+#: $string['checkbrokengradebookgrades']
+msgid "Check broken gradebook grades"
+msgstr ""
+
+#: $string['checkbrokengradebookgrades_desc']
+msgid ""
+"Due to a bug in version 2.9.1 of the Checkmark, grades have not been "
+"transfered to gradebook correctly.\n"
+"The following submissions have been affected by this bug:"
+msgstr ""
+
+#: $string['checkbrokengradebookgrades_mail']
+msgid ""
+"Due to a bug in version 2.9.1 of the Checkmark, grades have not been "
+"transfered to gradebook correctly.\n"
+"The following submissions have been affected by this bug and were "
+"automatically fixed:"
+msgstr ""
+
+#: $string['checkmark:addinstance']
+msgid "Add checkmark instance"
+msgstr ""
+
+#: $string['checkmarkdetails']
+msgid "Checkmark details"
+msgstr ""
+
+#: $string['checkmark:grade']
+msgid "Grade checkmark"
+msgstr ""
+
+#: $string['checkmark:gradepresentation']
+msgctxt "$string['checkmark:gradepresentation']"
+msgid "Grade presentation"
+msgstr ""
+
+#: $string['checkmarkmail']
+msgid ""
+"{$a->grader} posted feedback on your\n"
+"checkmark submission for '{$a->checkmark}'\n"
+"\n"
+"You can see it appended to your checkmark submission:\n"
+"\n"
+"    {$a->url}"
+msgstr ""
+
+#: $string['checkmarkmailhtml']
+msgid ""
+"{$a->grader} posted feedback on your\n"
+"checkmark submission for '<i>{$a->checkmark}</i>'<br /><br />\n"
+"You can see it appended to your <a href=\"{$a->url}\">checkmark "
+"submission</a>."
+msgstr ""
+
+#: $string['checkmarkmailsmall']
+msgid ""
+"{$a->grader} posted feedback on your\n"
+"checkmark submission for '{$a->checkmark}' You can see it appended to your "
+"submission"
+msgstr ""
+
+#: $string['checkmarkname']
+msgid "Checkmark name"
+msgstr ""
+
+#: $string['checkmark_overviewsummary']
+msgid ""
+"You've checked {$a->checked_examples} / {$a->total_examples} examples "
+"({$a->checked_grade} / {$a->total_grade} points)<br />{$a->grade}<br />"
+msgstr ""
+
+#: $string['checkmark_overviewsummary_nograde']
+msgid ""
+"You've checked {$a->checked_examples} / {$a->total_examples} examples<br "
+"/>{$a->grade}<br />"
+msgstr ""
+
+#: $string['checkmarks']
+msgctxt "$string['checkmarks']"
+msgid "Checkmarks"
+msgstr ""
+
+#: $string['checkmarkstatstitle']
+msgid "Course overview checkmark"
+msgstr ""
+
+#: $string['checkmarksubmission']
+msgid "Checkmark submissions"
+msgstr ""
+
+#: $string['checkmark:submit']
+msgid "Submit checkmark"
+msgstr ""
+
+#: $string['checkmark_summary']
+msgid ""
+"You've checked <span id=\"examples\">{$a->checked_examples}</span> out of "
+"{$a->total_examples} examples.<br />(<span "
+"id=\"grade\">{$a->checked_grade}</span> out of a maximum of {$a->total_grade} "
+"points)"
+msgstr ""
+
+#: $string['checkmark:trackattendance']
+msgid "Track student's attendance"
+msgstr ""
+
+#: $string['checkmark:view']
+msgid "View checkmark"
+msgstr ""
+
+#: $string['checkmark:view_preview']
+msgid "Preview"
+msgstr ""
+
+#: $string['checksummary']
+msgid "Checkmark summary"
+msgstr ""
+
+#: $string['choose']
+msgid "With Selection..."
+msgstr ""
+
+#: $string['comment']
+msgid "Comment"
+msgstr ""
+
+#: $string['configshowrecentsubmissions']
+msgid ""
+"Everyone can see notifications of submissions in recent activity reports."
+msgstr ""
+
+#: $string['couldfixevent']
+msgid "Could successfully fix event with ID {$a->id}, named {$a->name}."
+msgstr ""
+
+#: $string['count_individuals_mismatch']
+msgid ""
+"The amount of individual names({$a->namecount}) doesn't match the amount of "
+"individual grades({$a->gradecount})!"
+msgstr ""
+
+#: $string['coursemisconf']
+msgid "Course is miss-configured"
+msgstr ""
+
+#: $string['currentgrade']
+msgid "Current grade in grade book"
+msgstr ""
+
+#: $string['custom_settings']
+msgid "custom settings"
+msgstr ""
+
+#: $string['cutoffdate']
+msgid "Cut-off date"
+msgstr ""
+
+#: $string['cutoffdate_help']
+msgid ""
+"If activated this marks the end of the submission period. After this date, "
+"no student will be able to submit. If disabled students are allowed to "
+"submit even after the due date."
+msgstr ""
+
+#: $string['data_preview']
+msgid "Data preview"
+msgstr ""
+
+#: $string['data_preview_help']
+msgid "Click on [+] or [-] for showing or hiding columns in the print-preview."
+msgstr ""
+
+#: $string['data_settings']
+msgid "Print settings"
+msgstr ""
+
+#: $string['datasettingstitle']
+msgid "Data settings"
+msgstr ""
+
+#: $string['deleteallsubmissions']
+msgid "Delete all submissions"
+msgstr ""
+
+#: $string['description']
+msgid "Description"
+msgstr ""
+
+#: $string['downloadall']
+msgid "Download all checkmarks as .zip"
+msgstr ""
+
+#: $string['due']
+msgid "Checkmark due"
+msgstr ""
+
+#: $string['duedate']
+msgid "Due date"
+msgstr ""
+
+#: $string['duedate_help']
+msgid ""
+"End of nominal submission period. After this date students are able to "
+"submit, but their submission will be marked as late."
+msgstr ""
+
+#: $string['duedateno']
+msgid "No due date"
+msgstr ""
+
+#: $string['duedatevalidation']
+msgid "Due date must be after the available from date."
+msgstr ""
+
+#: $string['early']
+msgid "{$a} early"
+msgstr ""
+
+#: $string['editmysubmission']
+msgid "Edit my submission"
+msgstr ""
+
+#: $string['element_disabled']
+msgid "The following element is disabled because of existing submissions."
+msgstr ""
+
+#: $string['elements_disabled']
+msgid "The following elements are disabled because of existing submissions."
+msgstr ""
+
+#: $string['emailstudents']
+msgid "Email alerts to students"
+msgstr ""
+
+#: $string['emailteachermail']
+msgid ""
+"{$a->username} has updated the checkmark submission\n"
+"for '{$a->checkmark}' on {$a->dayupdated} at {$a->timeupdated}.\n"
+"\n"
+"It is available here:\n"
+"\n"
+"    {$a->url}"
+msgstr ""
+
+#: $string['emailteachermailhtml']
+msgid ""
+"{$a->username} has updated the checkmark submission\n"
+"for <i>'{$a->checkmark}' on {$a->dayupdated} at {$a->timeupdated}</i><br "
+"/><br />\n"
+"It is <a href=\"{$a->url}\">available on the web site</a>."
+msgstr ""
+
+#: $string['emailteachers']
+msgid "Email alerts to teachers"
+msgstr ""
+
+#: $string['emailteachers_help']
+msgid ""
+"If enabled, teachers receive email notification whenever students add or "
+"update a checkmark submission.\n"
+"\n"
+"Only teachers who are able to grade the particular checkmark are notified. "
+"For example, if the course uses separate groups, teachers restricted to "
+"particular groups won't receive notification about students in other groups."
+msgstr ""
+
+#: $string['emptysubmission']
+msgid "You have not submitted anything yet"
+msgstr ""
+
+#: $string['enablenotification']
+msgctxt "$string['enablenotification']"
+msgid "Send notifications"
+msgstr ""
+
+#: $string['enablenotification_help']
+msgid ""
+"If enabled, students will be notified once their checkmark submissions (or "
+"corresponding presentations) are graded or their attendancy is marked."
+msgstr ""
+
+#: $string['end_of_submission_for']
+msgid "End of submission for {$a}"
+msgstr ""
+
+#: $string['errornosubmissions']
+msgid "There are no submissions available to download"
+msgstr ""
+
+#: $string['eventgradeupdated']
+msgid "Grade updated"
+msgstr ""
+
+#: $string['eventsubmissionsexported']
+msgid "Submission exported"
+msgstr ""
+
+#: $string['eventsubmissionupdated']
+msgid "Submission updated"
+msgstr ""
+
+#: $string['eventviewprintpreview']
+msgid "Viewed print preview"
+msgstr ""
+
+#: $string['eventviewsubmissions']
+msgid "Viewed submissions"
+msgstr ""
+
+#: $string['examplegrades']
+msgid "Individual grades"
+msgstr ""
+
+#: $string['examplegrades_help']
+msgid ""
+"Defines the weight of every example. These will be separated by the "
+"delimiter given in parentheses."
+msgstr ""
+
+#: $string['examplenames']
+msgid "Individual names"
+msgstr ""
+
+#: $string['examplenames_help']
+msgid ""
+"Defines the example names. These will be separated by the delimiter given in "
+"parentheses."
+msgstr ""
+
+#: $string['exampleprefix']
+msgid "Individual prefix"
+msgstr ""
+
+#: $string['exampleprefix_help']
+msgid ""
+"Optionally enter an individual prefix that will be automatically put in "
+"front of all individual names. This field may be left empty."
+msgstr ""
+
+#: $string['example_preview_title']
+msgid "Example preview"
+msgstr ""
+
+#: $string['example_preview_title_help']
+msgid "The example preview shows an overview of the checkmark options."
+msgstr ""
+
+#: $string['export']
+msgid "export"
+msgstr ""
+
+#: $string['exporttemplate_grades']
+msgid "Gradinglist simple"
+msgstr ""
+
+#: $string['exporttemplate_grades_extended']
+msgid "Gradinglist extended"
+msgstr ""
+
+#: $string['exporttemplates']
+msgid "Template"
+msgstr ""
+
+#: $string['exporttemplates_help']
+msgid ""
+"Quick export with predefined templates<br />\n"
+"<ul>\n"
+"    <li><strong>custom settings</strong><br />\n"
+"        no template is used, all settings have to be made manually</li>\n"
+"    <li><strong>Gradinglist simple:</strong><br />\n"
+"        portrait, small font, with header/footer, names printed in one "
+"line<br />\n"
+"        containing following columns: [fullname, examples, grade]</li>\n"
+"    <li><strong>Gradinglist extended:</strong><br />\n"
+"        landscape, small font, with header/footer, names printed in one "
+"line<br />\n"
+"        containing following columns: [fullname, idnumber, examples, "
+"checked, grade]</li>\n"
+"    <li><strong>Signaturelist simple:</strong><br />\n"
+"        portrait, small font, with header/footer, names printed in one "
+"line<br />\n"
+"        containing following columns: [fullname, examples, signature]</li>\n"
+"    <li><strong>Signaturelist extended:</strong><br />\n"
+"        landscape, small font, with header/footer, names printed in one "
+"line<br />\n"
+"        containing following columns: [fullname, idnumber, examples, "
+"checked, grade, signature]</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['exporttemplate_signature']
+msgid "Signaturelist simple"
+msgstr ""
+
+#: $string['exporttemplate_signature_extended']
+msgid "Signaturelist extended"
+msgstr ""
+
+#: $string['failedupdatefeedback']
+msgid "Failed to update submission feedback for user {$a}"
+msgstr ""
+
+#: $string['feedback']
+msgid "Feedback"
+msgstr ""
+
+#: $string['feedbackfromteacher']
+msgid "Feedback from the {$a}"
+msgstr ""
+
+#: $string['feedbackupdated']
+msgid "Submissions feedback updated for {$a} people"
+msgstr ""
+
+#: $string['filter']
+msgid "Filter"
+msgstr ""
+
+#: $string['firstexamplenumber']
+msgid "Number of first example"
+msgstr ""
+
+#: $string['firstexamplenumber_help']
+msgid ""
+"Number of the first example. The following examples get by 1 increased "
+"numbers of their predecessor."
+msgstr ""
+
+#: $string['flexiblenaming']
+msgid "Individual naming/grading"
+msgstr ""
+
+#: $string['flexiblenaming_help']
+msgid ""
+"If activated individual names and grades are being used for each example."
+msgstr ""
+
+#: $string['forcesinglelinenames']
+msgid "Force single-line names"
+msgstr ""
+
+#: $string['forcesinglelinenames_help']
+msgid ""
+"<p>Enforces the name to be written to the PDF in a single line.</p>\n"
+"<p><i>Beware:</i> if there are too many columns or the name is too long it "
+"will be distorted and can become unreadable. Hide some unimportant columns "
+"to have more room for the name if this happens.</p>"
+msgstr ""
+
+#: $string['format']
+msgid "Format"
+msgstr ""
+
+#: $string['grade']
+msgid "Grade"
+msgstr ""
+
+#: $string['grade_automatically']
+msgid "grade automatically"
+msgstr ""
+
+#: $string['graded']
+msgid "Graded"
+msgstr ""
+
+#: $string['grade_help']
+msgid ""
+"When individual functions are activated the grade has to be the sum of all "
+"example grades (maximum 100).<br />When you're using standard examples the "
+"grade has to be a integral multiple of the example count. If so the points "
+"per example get automatically adjusted.<br />With activated JavaScript the "
+"grade gets selected automatically when using individual functions. In the "
+"case of usage of standard-examples with activated JavaScript only integral "
+"multiples of the example count will be accepted."
+msgstr ""
+
+#: $string['grade_mismatch']
+msgid "The grade has to be an integral multiple of the amount of examples!"
+msgstr ""
+
+#: $string['gradesum_mismatch']
+msgid ""
+"The sum of the individual grades won't match the chosen total grades "
+"({$a->gradesum}/{$a->maxgrade})!"
+msgstr ""
+
+#: $string['gradingdue']
+msgid "Remind me to grade by"
+msgstr ""
+
+#: $string['gradingdue_help']
+msgid ""
+"The expected date that marking of the submissions should be completed by. "
+"This date is used to prioritise dashboard notifications for teachers."
+msgstr ""
+
+#: $string['guestnosubmit']
+msgid ""
+"Sorry, guests are not allowed to submit a checkmark. You have to log in/ "
+"register before you can submit your answer."
+msgstr ""
+
+#: $string['guestnoupload']
+msgid "Sorry, guests are not allowed to upload"
+msgstr ""
+
+#: $string['hideintro']
+msgid "Hide description until \"Available from\" date"
+msgstr ""
+
+#: $string['hideintro_help']
+msgid ""
+"If enabled, the checkmark description is hidden before the \"Available from\" "
+"date. Only the checkmark name is displayed."
+msgstr ""
+
+#: $string['informstudents']
+msgctxt "$string['informstudents']"
+msgid "Send notifications"
+msgstr ""
+
+#: $string['informstudents_help']
+msgid ""
+"If activated, the participant receives a notification about his/her "
+"attendance status."
+msgstr ""
+
+#: $string['invalidcheckmark']
+msgid "Incorrect checkmark"
+msgstr ""
+
+#: $string['invalidid']
+msgid "Checkmark ID was incorrect"
+msgstr ""
+
+#: $string['invaliduserid']
+msgid "Invalid user ID"
+msgstr ""
+
+#: $string['itemstocount']
+msgid "Count"
+msgstr ""
+
+#: $string['lastgrade']
+msgid "Last grade"
+msgstr ""
+
+#: $string['late']
+msgid "{$a} late"
+msgstr ""
+
+#: $string['manycolumnsinpdfwarning']
+msgid ""
+"Attention: due to a high example-count and limited space a reasonable export "
+"to PDF cannot be ensured. Try to hide unnecessary columns or use XLSX or "
+"ODS export instead and adapt the layout in your spreadsheet application."
+msgstr ""
+
+#: $string['maximumgrade']
+msgid "Maximum grade"
+msgstr ""
+
+#: $string['messageprovider:checkmark_updates']
+msgid "Checkmark notifications"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Checkmark"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"Checkmarks enable the teacher to specify an assignment where students have "
+"to check marks which can then be graded."
+msgstr ""
+
+#: $string['modulenameplural']
+msgctxt "$string['modulenameplural']"
+msgid "Checkmarks"
+msgstr ""
+
+#: $string['newsubmissions']
+msgid "Checkmarks submitted"
+msgstr ""
+
+#: $string['noattempts']
+msgid "No attempts have been made on this checkmark"
+msgstr ""
+
+#: $string['nocheckmarks']
+msgid "There are no checkmarks yet"
+msgstr ""
+
+#: $string['nomoresubmissions']
+msgid "No further submissions are allowed."
+msgstr ""
+
+#: $string['nonnegativeintrequired']
+msgid "Needs to be greater or equal zero (>= 0) and integral!"
+msgstr ""
+
+#: $string['norequiregrading']
+msgid "There are no checkmarks that require grading"
+msgstr ""
+
+#: $string['nostudents']
+msgctxt "$string['nostudents']"
+msgid "There are no users to be displayed!"
+msgstr ""
+
+#: $string['nostudentsmatching']
+msgid "There are no users matching the current settings!"
+msgstr ""
+
+#: $string['nosubmission']
+msgctxt "$string['nosubmission']"
+msgid "No checkmarks have been submitted"
+msgstr ""
+
+#: $string['nosubmisson']
+msgctxt "$string['nosubmisson']"
+msgid "No checkmarks have been submitted"
+msgstr ""
+
+#: $string['notactive']
+msgid "Not active"
+msgstr ""
+
+#: $string['notavailableyet']
+msgid ""
+"Sorry, this checkmark is not yet available.<br />Checkmark instructions will "
+"be displayed here on the date given below."
+msgstr ""
+
+#: $string['notgradedyet']
+msgid "Not graded yet"
+msgstr ""
+
+#: $string['notsubmittedyet']
+msgid "Not submitted yet"
+msgstr ""
+
+#: $string['nousers']
+msgctxt "$string['nousers']"
+msgid "There are no users to be displayed!"
+msgstr ""
+
+#: $string['numberofexamples']
+msgid "Number of examples"
+msgstr ""
+
+#: $string['numberofexamples_help']
+msgid "Example count in this checkmark."
+msgstr ""
+
+#: $string['operation']
+msgid "Operation"
+msgstr ""
+
+#: $string['optimum']
+msgid "Optimum"
+msgstr ""
+
+#: $string['optionalsettings']
+msgid "Optional settings"
+msgstr ""
+
+#: $string['page-mod-checkmark-submissions']
+msgid "Checkmark module submission page"
+msgstr ""
+
+#: $string['page-mod-checkmark-view']
+msgid "Checkmark module main page"
+msgstr ""
+
+#: $string['page-mod-checkmark-x']
+msgid "Every checkmark module page"
+msgstr ""
+
+#: $string['pagesize']
+msgctxt "$string['pagesize']"
+msgid "Submissions shown per page"
+msgstr ""
+
+#: $string['pagesize_help']
+msgctxt "$string['pagesize_help']"
+msgid ""
+"Choose \"Optimum\" to optimize the distribution of list entries according to "
+"the chosen text size and page orientation, if there are plenty of "
+"participants registered in your course."
+msgstr ""
+
+#: $string['pdfpageorientation']
+msgid "Page orientation"
+msgstr ""
+
+#: $string['pdfpagesize']
+msgctxt "$string['pdfpagesize']"
+msgid "Submissions shown per page"
+msgstr ""
+
+#: $string['pdfpagesize_help']
+msgctxt "$string['pdfpagesize_help']"
+msgid ""
+"Choose \"Optimum\" to optimize the distribution of list entries according to "
+"the chosen text size and page orientation, if there are plenty of "
+"participants registered in your course."
+msgstr ""
+
+#: $string['pdfprintheader']
+msgid "Print header/-footer"
+msgstr ""
+
+#: $string['pdfprintheader_help']
+msgctxt "$string['pdfprintheader_help']"
+msgid "Print header/footer if checked"
+msgstr ""
+
+#: $string['pdfprintheaderlong']
+msgctxt "$string['pdfprintheaderlong']"
+msgid "Print header/footer if checked"
+msgstr ""
+
+#: $string['pdfsettings']
+msgid "PDF Settings"
+msgstr ""
+
+#: $string['pdftextsize']
+msgid "Text size"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Checkmark administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Checkmark"
+msgstr ""
+
+#: $string['popupinnewwindow']
+msgid "Open in a pop-up window"
+msgstr ""
+
+#: $string['posintrequired']
+msgid "Needs to be greater than zero (> 0) and integral!"
+msgstr ""
+
+#: $string['posintst100required']
+msgid "Has to be an integral in the interval [0,100] (0 <= X <= 100)!"
+msgstr ""
+
+#: $string['presentationfeedback']
+msgid "Presentation feedback"
+msgstr ""
+
+#: $string['presentationfeedback_table']
+msgid "Feedback (presentation)"
+msgstr ""
+
+#: $string['presentationgrade']
+msgid "Presentation grade"
+msgstr ""
+
+#: $string['presentationgradebook']
+msgid "Show presentation grade in gradebook"
+msgstr ""
+
+#: $string['presentationgradebook_help']
+msgid ""
+"This option controls if the presentation grade will be displayed as extra "
+"grade item in gradebook."
+msgstr ""
+
+#: $string['presentationgrade_short']
+msgid "PT"
+msgstr ""
+
+#: $string['presentationgrade_table']
+msgid "Grade (presentation)"
+msgstr ""
+
+#: $string['presentationgrading']
+msgid "Track presentation grades"
+msgstr ""
+
+#: $string['presentationgrading_grade']
+msgctxt "$string['presentationgrading_grade']"
+msgid "Grade presentation"
+msgstr ""
+
+#: $string['presentationgrading_grade_help']
+msgid ""
+"This elements control how the presentation can be graded. For the grade you "
+"can select either <ul><li><strong>none</strong> no grade will be recorded, "
+"but you are able to use a text as feedback.</li><li><strong>scale</strong> "
+"Use a scale to grade student's presentation</li><li><strong>point</strong> "
+"use a numerical value to grade student's presentation</li></ul>"
+msgstr ""
+
+#: $string['presentationgrading_help']
+msgid ""
+"If activated presentation grades can be recorded as extra element of grading "
+"information."
+msgstr ""
+
+#: $string['presentationheader']
+msgid "Presentation grading"
+msgstr ""
+
+#: $string['printsettingstitle']
+msgid "Export settings"
+msgstr ""
+
+#: $string['quickgrade']
+msgid "Allow quick grading"
+msgstr ""
+
+#: $string['quickgrade_help']
+msgid ""
+"If enabled, multiple checkmarks can be graded on one page. Add grades and "
+"comments then click the \"Save all my feedback\" button to save all changes "
+"for that page."
+msgstr ""
+
+#: $string['requiregrading']
+msgid "Require grading"
+msgstr ""
+
+#: $string['reviewed']
+msgid "Reviewed"
+msgstr ""
+
+#: $string['saveallfeedback']
+msgid "Save all my feedback"
+msgstr ""
+
+#: $string['search:activity']
+msgid "Checkmark - activity information"
+msgstr ""
+
+#: $string['select']
+msgid "Select"
+msgstr ""
+
+#: $string['selection']
+msgid "Selection"
+msgstr ""
+
+#: $string['sendnotifications']
+msgctxt "$string['sendnotifications']"
+msgid "Send notifications"
+msgstr ""
+
+#: $string['setabsent']
+msgid "mark as absent"
+msgstr ""
+
+#: $string['setabsentandgrade']
+msgid "mark as absent and grade"
+msgstr ""
+
+#: $string['setattendant']
+msgid "mark as attendant"
+msgstr ""
+
+#: $string['setattendantandgrade']
+msgid "mark as attendant and grade"
+msgstr ""
+
+#: $string['showrecentsubmissions']
+msgid "Show recent submissions"
+msgstr ""
+
+#: $string['signature']
+msgid "Signature"
+msgstr ""
+
+#: $string['start']
+msgid "start"
+msgstr ""
+
+#: $string['strallononepage']
+msgid "Print all on one page"
+msgstr ""
+
+#: $string['strassignment']
+msgid "Assignment"
+msgstr ""
+
+#: $string['strautograded']
+msgid "[auto-graded]"
+msgstr ""
+
+#: $string['strexample']
+msgid "Example"
+msgstr ""
+
+#: $string['strexamples']
+msgid "Examples"
+msgstr ""
+
+#: $string['strlandscape']
+msgid "Landscape"
+msgstr ""
+
+#: $string['strlarge']
+msgid "Large"
+msgstr ""
+
+#: $string['strmedium']
+msgid "Medium"
+msgstr ""
+
+#: $string['strpapersizes']
+msgid "Paper size"
+msgstr ""
+
+#: $string['strpoint']
+msgid "Point"
+msgstr ""
+
+#: $string['strpoints']
+msgid "Points"
+msgstr ""
+
+#: $string['strportrait']
+msgid "Portrait"
+msgstr ""
+
+#: $string['strprint']
+msgid "Download file"
+msgstr ""
+
+#: $string['strprintpreview']
+msgid "Export"
+msgstr ""
+
+#: $string['strprintpreviewtabalt']
+msgid "Open export"
+msgstr ""
+
+#: $string['strrefreshdata']
+msgid "Update data preview"
+msgstr ""
+
+#: $string['strsmall']
+msgid "Small"
+msgstr ""
+
+#: $string['strstdexamplecount']
+msgid "Example count"
+msgstr ""
+
+#: $string['strstdexamplecountdesc']
+msgid "Is the amount of how many examples will be used by default"
+msgstr ""
+
+#: $string['strstdexamplestart']
+msgid "First example number"
+msgstr ""
+
+#: $string['strstdexamplestartdesc']
+msgid "Is the number of the first example"
+msgstr ""
+
+#: $string['strstdgrades']
+msgid "Standard grades"
+msgstr ""
+
+#: $string['strstdgradesdesc']
+msgid "Grades if \"individual naming\" is used"
+msgstr ""
+
+#: $string['strstdnames']
+msgid "Standard names"
+msgstr ""
+
+#: $string['strstdnamesdesc']
+msgid "Example names if \"individual naming\" is used"
+msgstr ""
+
+#: $string['strsubmissions']
+msgctxt "$string['strsubmissions']"
+msgid "Submissions"
+msgstr ""
+
+#: $string['strsubmissionstabalt']
+msgid "Open submissions view"
+msgstr ""
+
+#: $string['strsum']
+msgid "Sum"
+msgstr ""
+
+#: $string['str_userid']
+msgid "Student ID"
+msgstr ""
+
+#: $string['strvalidmsgtime']
+msgid "Duration of message validity"
+msgstr ""
+
+#: $string['strvalidmsgtimedesc']
+msgid ""
+"Amount of days after which grading notifications to users won't be sent any "
+"more."
+msgstr ""
+
+#: $string['submission']
+msgid "Submission"
+msgstr ""
+
+#: $string['submissionfeedback']
+msgid "Submission feedback"
+msgstr ""
+
+#: $string['submissions']
+msgctxt "$string['submissions']"
+msgid "Submissions"
+msgstr ""
+
+#: $string['submissionsamount']
+msgid "{$a->submitted} of {$a->total} students submitted already."
+msgstr ""
+
+#: $string['submissionsaved']
+msgid "Your changes have been saved"
+msgstr ""
+
+#: $string['submissionsgraded']
+msgid "{$a->graded} of {$a->all} submissions graded"
+msgstr ""
+
+#: $string['submissionsnotgraded']
+msgid "{$a->reqgrading} of {$a->all} submissions not graded"
+msgstr ""
+
+#: $string['submitcheckmark']
+msgid "Submit your checkmark using this form"
+msgstr ""
+
+#: $string['submitted']
+msgctxt "$string['submitted']"
+msgid "Submitted"
+msgstr ""
+
+#: $string['submitted_entries']
+msgctxt "$string['submitted_entries']"
+msgid "Submitted"
+msgstr ""
+
+#: $string['summary_abs']
+msgid "x/y examples checked"
+msgstr ""
+
+#: $string['summary_rel']
+msgid "% examples checked"
+msgstr ""
+
+#: $string['trackattendance']
+msgid "Track attendance"
+msgstr ""
+
+#: $string['trackattendance_help']
+msgid ""
+"Activate this setting in order to enable tracking of participant's "
+"attendance."
+msgstr ""
+
+#: $string['ungraded']
+msgid "Ungraded"
+msgstr ""
+
+#: $string['unknown']
+msgid "Unknown"
+msgstr ""
+
+#: $string['usermisconf']
+msgid "User is miss-configured"
+msgstr ""
+
+#: $string['usernosubmit']
+msgid "Sorry, you are not allowed to submit a checkmark."
+msgstr ""
+
+#: $string['viewfeedback']
+msgid "View checkmark grades and feedback"
+msgstr ""
+
+#: $string['viewmysubmission']
+msgid "View my submission"
+msgstr ""
+
+#: $string['viewsubmissions']
+msgid "View {$a} submitted checkmarks"
+msgstr ""
+
+#: $string['yoursubmission']
+msgid "Your submission"
+msgstr ""

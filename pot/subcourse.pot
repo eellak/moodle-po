@@ -1,0 +1,179 @@
+#. extracted from lang/en/subcourse.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'subcourse', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   subcourse
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['completioncourse']
+msgid "Require course completed"
+msgstr ""
+
+#: $string['completioncourse_help']
+msgid ""
+"If enabled, the activity is considered complete when a student completes the "
+"referenced course."
+msgstr ""
+
+#: $string['completioncourse_text']
+msgid "Student must complete the referenced course to complete this activity."
+msgstr ""
+
+#: $string['currentgrade']
+msgid "Your current grade: {$a}"
+msgstr ""
+
+#: $string['errfetch']
+msgid "Unable to fetch grades: error code {$a}"
+msgstr ""
+
+#: $string['errlocalremotescale']
+msgid "Unable to fetch grades: the remote final grade item uses local scale."
+msgstr ""
+
+#: $string['eventgradesfetched']
+msgid "Grades fetched"
+msgstr ""
+
+#: $string['fetchnow']
+msgid "Fetch now"
+msgstr ""
+
+#: $string['gotocoursename']
+msgid "Go to the course <a href=\"{$a->href}\">{$a->name}</a>"
+msgstr ""
+
+#: $string['hiddencourse']
+msgid "*hidden*"
+msgstr ""
+
+#: $string['instantredirect']
+msgid "Redirect to the referenced course"
+msgstr ""
+
+#: $string['instantredirect_help']
+msgid ""
+"If enabled, users will be redirected to the referenced course when "
+"attempting to view the subcourse module page. Does not affect users with the "
+"permission to fetch grades manually."
+msgstr ""
+
+#: $string['lastfetchnever']
+msgid "The grades have not been fetched yet"
+msgstr ""
+
+#: $string['lastfetchtime']
+msgid "Last fetch: {$a}"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Subcourse"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"The module provides very simple yet useful functionality. When added into a "
+"course, it behaves as a graded activity. The grade for each student is taken "
+"from a final grade in another course. Combined with metacourses, this "
+"allows course designers to organize courses into separate units."
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Subcourses"
+msgstr ""
+
+#: $string['nocoursesavailable']
+msgid "No courses you could fetch grades from"
+msgstr ""
+
+#: $string['nosubcourses']
+msgid "There are no subcourses in this course"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Subcourse administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Subcourse"
+msgstr ""
+
+#: $string['refcourse']
+msgid "Referenced course"
+msgstr ""
+
+#: $string['refcoursecurrent']
+msgid "Keep current reference"
+msgstr ""
+
+#: $string['refcourse_help']
+msgid ""
+"The referenced course is the one the grade of the activity is taken from. "
+"Students should be enroled into the referenced course.\n"
+"\n"
+"You need to be a teacher in the course to have it listed here. You may want "
+"to ask your site administrator to set up this subcourse for you to fetch "
+"grades from other courses."
+msgstr ""
+
+#: $string['refcourselabel']
+msgid "Fetch grades from"
+msgstr ""
+
+#: $string['refcoursenull']
+msgid "No referenced course configured"
+msgstr ""
+
+#: $string['subcourse:addinstance']
+msgid "Add a new subcourse"
+msgstr ""
+
+#: $string['subcourse:begraded']
+msgid "Receive grade from the referenced course"
+msgstr ""
+
+#: $string['subcourse:fetchgrades']
+msgid "Fetch grades manually from the referenced course"
+msgstr ""
+
+#: $string['subcoursename']
+msgid "Subcourse name"
+msgstr ""
+
+#: $string['taskcheckcompletedrefcourses']
+msgid "Check referenced courses completion"
+msgstr ""
+
+#: $string['taskfetchgrades']
+msgid "Fetch subcourse grades"
+msgstr ""

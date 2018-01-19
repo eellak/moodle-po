@@ -1,0 +1,696 @@
+#. extracted from lang/en/group.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'group', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   group
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addedby']
+msgid "Added by {$a}"
+msgstr ""
+
+#: $string['addgroup']
+msgid "Add user into group"
+msgstr ""
+
+#: $string['addgroupstogrouping']
+msgid "Add group to grouping"
+msgstr ""
+
+#: $string['addgroupstogroupings']
+msgid "Add/remove groups"
+msgstr ""
+
+#: $string['adduserstogroup']
+msgid "Add/remove users"
+msgstr ""
+
+#: $string['allocateby']
+msgid "Allocate members"
+msgstr ""
+
+#: $string['anygrouping']
+msgid "[Any grouping]"
+msgstr ""
+
+#: $string['autocreategroups']
+msgid "Auto-create groups"
+msgstr ""
+
+#: $string['backtogroupings']
+msgid "Back to groupings"
+msgstr ""
+
+#: $string['backtogroups']
+msgid "Back to groups"
+msgstr ""
+
+#: $string['badnamingscheme']
+msgid "Must contain exactly one '@' or one '#'  character"
+msgstr ""
+
+#: $string['byfirstname']
+msgid "Alphabetically by first name, last name"
+msgstr ""
+
+#: $string['byidnumber']
+msgid "Alphabetically by ID number"
+msgstr ""
+
+#: $string['bylastname']
+msgid "Alphabetically by last name, first name"
+msgstr ""
+
+#: $string['createautomaticgrouping']
+msgid "Create automatic grouping"
+msgstr ""
+
+#: $string['creategroup']
+msgid "Create group"
+msgstr ""
+
+#: $string['creategrouping']
+msgid "Create grouping"
+msgstr ""
+
+#: $string['creategroupinselectedgrouping']
+msgid "Create group in grouping"
+msgstr ""
+
+#: $string['createingrouping']
+msgid "Grouping of auto-created groups"
+msgstr ""
+
+#: $string['createorphangroup']
+msgid "Create orphan group"
+msgstr ""
+
+#: $string['databaseupgradegroups']
+msgid "Groups version is now {$a}"
+msgstr ""
+
+#: $string['defaultgrouping']
+msgid "Default grouping"
+msgstr ""
+
+#: $string['defaultgroupingname']
+msgctxt "$string['defaultgroupingname']"
+msgid "Grouping"
+msgstr ""
+
+#: $string['defaultgroupname']
+msgctxt "$string['defaultgroupname']"
+msgid "Group"
+msgstr ""
+
+#: $string['deleteallgroupings']
+msgid "Delete all groupings"
+msgstr ""
+
+#: $string['deleteallgroups']
+msgid "Delete all groups"
+msgstr ""
+
+#: $string['deletegroupconfirm']
+msgid "Are you sure you want to delete group '{$a}'?"
+msgstr ""
+
+#: $string['deletegrouping']
+msgid "Delete grouping"
+msgstr ""
+
+#: $string['deletegroupingconfirm']
+msgid ""
+"Are you sure you want to delete grouping '{$a}'? (Groups in the grouping are "
+"not deleted.)"
+msgstr ""
+
+#: $string['deletegroupsconfirm']
+msgid "Are you sure you want to delete the following groups?"
+msgstr ""
+
+#: $string['deleteselectedgroup']
+msgid "Delete selected group"
+msgstr ""
+
+#: $string['editgroupingsettings']
+msgid "Edit grouping settings"
+msgstr ""
+
+#: $string['editgroupsettings']
+msgid "Edit group settings"
+msgstr ""
+
+#: $string['editusersgroupsa']
+msgid "Edit groups for \"{$a}\""
+msgstr ""
+
+#: $string['enrolmentkey']
+msgid "Enrolment key"
+msgstr ""
+
+#: $string['enrolmentkeyalreadyinuse']
+msgid "This enrolment key is already used for another group."
+msgstr ""
+
+#: $string['enrolmentkey_help']
+msgid ""
+"An enrolment key enables access to the course to be restricted to only those "
+"who know the key. If a group enrolment key is specified, then not only will "
+"entering that key let the user into the course, but it will also "
+"automatically make them a member of this group.\n"
+"\n"
+"Note: Group enrolment keys must be enabled in the self enrolment settings "
+"and an enrolment key for the course must also be specified."
+msgstr ""
+
+#: $string['erroraddremoveuser']
+msgid "Error adding/removing user {$a} to group"
+msgstr ""
+
+#: $string['erroreditgroup']
+msgid "Error creating/updating group {$a}"
+msgstr ""
+
+#: $string['erroreditgrouping']
+msgid "Error creating/updating grouping {$a}"
+msgstr ""
+
+#: $string['errorinvalidgroup']
+msgid "Error, invalid group {$a}"
+msgstr ""
+
+#: $string['errorremovenotpermitted']
+msgid ""
+"You do not have permission to remove automatically-added group member {$a}"
+msgstr ""
+
+#: $string['errorselectone']
+msgid "Please select a single group before choosing this option"
+msgstr ""
+
+#: $string['errorselectsome']
+msgid "Please select one or more groups before choosing this option"
+msgstr ""
+
+#: $string['evenallocation']
+msgid ""
+"Note: To keep group allocation even, the actual number of members per group "
+"differs from the number you specified."
+msgstr ""
+
+#: $string['eventgroupcreated']
+msgid "Group created"
+msgstr ""
+
+#: $string['eventgroupdeleted']
+msgid "Group deleted"
+msgstr ""
+
+#: $string['eventgroupingcreated']
+msgid "Grouping created"
+msgstr ""
+
+#: $string['eventgroupingdeleted']
+msgid "Grouping deleted"
+msgstr ""
+
+#: $string['eventgroupinggroupassigned']
+msgid "Group assigned to grouping"
+msgstr ""
+
+#: $string['eventgroupinggroupunassigned']
+msgid "Group unassigned from grouping"
+msgstr ""
+
+#: $string['eventgroupingupdated']
+msgid "Grouping updated"
+msgstr ""
+
+#: $string['eventgroupmemberadded']
+msgid "Group member added"
+msgstr ""
+
+#: $string['eventgroupmemberremoved']
+msgid "Group member removed"
+msgstr ""
+
+#: $string['eventgroupupdated']
+msgid "Group updated"
+msgstr ""
+
+#: $string['existingmembers']
+msgid "Existing members: {$a}"
+msgstr ""
+
+#: $string['filtergroups']
+msgid "Filter groups by:"
+msgstr ""
+
+#: $string['group']
+msgctxt "$string['group']"
+msgid "Group"
+msgstr ""
+
+#: $string['groupaddedsuccesfully']
+msgid "Group {$a} added successfully"
+msgstr ""
+
+#: $string['groupaddedtogroupingsuccesfully']
+msgid "Group {$a->groupname} added to grouping {$a->groupingname} successfully"
+msgstr ""
+
+#: $string['groupby']
+msgid "Auto create based on"
+msgstr ""
+
+#: $string['groupdescription']
+msgid "Group description"
+msgstr ""
+
+#: $string['groupinfo']
+msgid "Info about selected group"
+msgstr ""
+
+#: $string['groupinfomembers']
+msgid "Info about selected members"
+msgstr ""
+
+#: $string['groupinfopeople']
+msgid "Info about selected people"
+msgstr ""
+
+#: $string['grouping']
+msgctxt "$string['grouping']"
+msgid "Grouping"
+msgstr ""
+
+#: $string['groupingaddedsuccesfully']
+msgid "Grouping {$a} added successfully"
+msgstr ""
+
+#: $string['groupingdescription']
+msgid "Grouping description"
+msgstr ""
+
+#: $string['grouping_help']
+msgid ""
+"A grouping is a collection of groups within a course. If a grouping is "
+"selected, students assigned to groups within the grouping will be able to "
+"work together."
+msgstr ""
+
+#: $string['groupingname']
+msgid "Grouping name"
+msgstr ""
+
+#: $string['groupingnameexists']
+msgid ""
+"The grouping name '{$a}' already exists in this course, please choose "
+"another one."
+msgstr ""
+
+#: $string['groupings']
+msgid "Groupings"
+msgstr ""
+
+#: $string['groupingsection']
+msgid "Grouping access"
+msgstr ""
+
+#: $string['groupingsection_help']
+msgid ""
+"A grouping is a collection of groups within a course. If a grouping is "
+"selected here, only students assigned to groups within this grouping will "
+"have access to the section."
+msgstr ""
+
+#: $string['groupingsonly']
+msgid "Groupings only"
+msgstr ""
+
+#: $string['groupmember']
+msgid "Group member"
+msgstr ""
+
+#: $string['groupmemberdesc']
+msgid "Standard role for a member of a group."
+msgstr ""
+
+#: $string['groupmembers']
+msgid "Group members"
+msgstr ""
+
+#: $string['groupmemberssee']
+msgid "See group members"
+msgstr ""
+
+#: $string['groupmembersselected']
+msgid "Members of selected group"
+msgstr ""
+
+#: $string['groupmode']
+msgid "Group mode"
+msgstr ""
+
+#: $string['groupmodeforce']
+msgid "Force group mode"
+msgstr ""
+
+#: $string['groupmodeforce_help']
+msgid ""
+"If group mode is forced, then the course group mode is applied to every "
+"activity in the course. Group mode settings in each activity are then "
+"ignored."
+msgstr ""
+
+#: $string['groupmode_help']
+msgid ""
+"This setting has 3 options:\n"
+"\n"
+"* No groups\n"
+"* Separate groups - Each group member can only see their own group, others "
+"are invisible\n"
+"* Visible groups - Each group member works in their own group, but can also "
+"see other groups\n"
+"\n"
+"The group mode defined at course level is the default mode for all "
+"activities within the course. Each activity that supports groups can also "
+"define its own group mode, though if the group mode is forced at course "
+"level, the group mode setting for each activity is ignored."
+msgstr ""
+
+#: $string['groupmy']
+msgid "My group"
+msgstr ""
+
+#: $string['groupname']
+msgid "Group name"
+msgstr ""
+
+#: $string['groupnameexists']
+msgid ""
+"The group name '{$a}' already exists in this course, please choose another "
+"one."
+msgstr ""
+
+#: $string['groupnotamember']
+msgid "Sorry, you are not a member of that group"
+msgstr ""
+
+#: $string['groups']
+msgctxt "$string['groups']"
+msgid "Groups"
+msgstr ""
+
+#: $string['groupscount']
+msgid "Groups ({$a})"
+msgstr ""
+
+#: $string['groupsettingsheader']
+msgctxt "$string['groupsettingsheader']"
+msgid "Groups"
+msgstr ""
+
+#: $string['groupsgroupings']
+msgid "Groups &amp; groupings"
+msgstr ""
+
+#: $string['groupsinselectedgrouping']
+msgid "Groups in:"
+msgstr ""
+
+#: $string['groupsnone']
+msgid "No groups"
+msgstr ""
+
+#: $string['groupsonly']
+msgid "Groups only"
+msgstr ""
+
+#: $string['groupspreview']
+msgid "Groups preview"
+msgstr ""
+
+#: $string['groupsseparate']
+msgid "Separate groups"
+msgstr ""
+
+#: $string['groupsvisible']
+msgid "Visible groups"
+msgstr ""
+
+#: $string['grouptemplate']
+msgid "Group @"
+msgstr ""
+
+#: $string['hidepicture']
+msgid "Hide picture"
+msgstr ""
+
+#: $string['importgroups']
+msgid "Import groups"
+msgstr ""
+
+#: $string['importgroups_help']
+msgid ""
+"Groups may be imported via text file. The format of the file should be as "
+"follows:\n"
+"\n"
+"* Each line of the file contains one record\n"
+"* Each record is a series of data separated by commas\n"
+"* The first record contains a list of fieldnames defining the format of the "
+"rest of the file\n"
+"* Required fieldname is groupname\n"
+"* Optional fieldnames are description, enrolmentkey, picture, hidepicture"
+msgstr ""
+
+#: $string['importgroups_link']
+msgid "group/import"
+msgstr ""
+
+#: $string['includeonlyactiveenrol']
+msgid "Include only active enrolments"
+msgstr ""
+
+#: $string['includeonlyactiveenrol_help']
+msgid "If enabled, suspended users will not be included in groups."
+msgstr ""
+
+#: $string['javascriptrequired']
+msgid "This page requires JavaScript to be enabled."
+msgstr ""
+
+#: $string['members']
+msgctxt "$string['members']"
+msgid "Members per group"
+msgstr ""
+
+#: $string['membersofselectedgroup']
+msgid "Members of:"
+msgstr ""
+
+#: $string['mygroups']
+msgid "My groups"
+msgstr ""
+
+#: $string['namingscheme']
+msgid "Naming scheme"
+msgstr ""
+
+#: $string['namingscheme_help']
+msgid ""
+"The at symbol (@) may be used to create groups with names containing "
+"letters. For example Group @ will generate groups named Group A, Group B, "
+"Group C, ...\n"
+"\n"
+"The hash symbol (#) may be used to create groups with names containing "
+"numbers. For example Group # will generate groups named Group 1, Group 2, "
+"Group 3, ..."
+msgstr ""
+
+#: $string['newgrouping']
+msgid "New grouping"
+msgstr ""
+
+#: $string['newpicture']
+msgid "New picture"
+msgstr ""
+
+#: $string['newpicture_help']
+msgid ""
+"Select an image in JPG or PNG format. The image will be cropped to a square "
+"and resized to 100x100 pixels."
+msgstr ""
+
+#: $string['noallocation']
+msgid "No allocation"
+msgstr ""
+
+#: $string['nogroup']
+msgid "No group"
+msgstr ""
+
+#: $string['nogrouping']
+msgid "No grouping"
+msgstr ""
+
+#: $string['nogroups']
+msgid "There are no groups set up in this course yet"
+msgstr ""
+
+#: $string['nogroupsassigned']
+msgid "No groups assigned"
+msgstr ""
+
+#: $string['nopermissionforcreation']
+msgid "Can't create group \"{$a}\" as you don't have the required permissions"
+msgstr ""
+
+#: $string['nosmallgroups']
+msgid "Prevent last small group"
+msgstr ""
+
+#: $string['notingroup']
+msgid "Ignore users in groups"
+msgstr ""
+
+#: $string['notingrouping']
+msgid "[Not in a grouping]"
+msgstr ""
+
+#: $string['notingrouplist']
+msgid "[Not in a group]"
+msgstr ""
+
+#: $string['nousersinrole']
+msgid "There are no suitable users in the selected role"
+msgstr ""
+
+#: $string['number']
+msgid "Group/member count"
+msgstr ""
+
+#: $string['numgroups']
+msgid "Number of groups"
+msgstr ""
+
+#: $string['nummembers']
+msgctxt "$string['nummembers']"
+msgid "Members per group"
+msgstr ""
+
+#: $string['othergroups']
+msgid "Other groups"
+msgstr ""
+
+#: $string['overview']
+msgid "Overview"
+msgstr ""
+
+#: $string['potentialmembers']
+msgid "Potential members: {$a}"
+msgstr ""
+
+#: $string['potentialmembs']
+msgid "Potential members"
+msgstr ""
+
+#: $string['printerfriendly']
+msgid "Printer-friendly display"
+msgstr ""
+
+#: $string['random']
+msgid "Randomly"
+msgstr ""
+
+#: $string['removefromgroup']
+msgid "Remove user from group {$a}"
+msgstr ""
+
+#: $string['removefromgroupconfirm']
+msgid ""
+"Do you really want to remove user \"{$a->user}\" from group \"{$a->group}\"?"
+msgstr ""
+
+#: $string['removegroupfromselectedgrouping']
+msgid "Remove group from grouping"
+msgstr ""
+
+#: $string['removegroupingsmembers']
+msgid "Remove all groups from groupings"
+msgstr ""
+
+#: $string['removegroupsmembers']
+msgid "Remove all group members"
+msgstr ""
+
+#: $string['removeselectedusers']
+msgid "Remove selected users"
+msgstr ""
+
+#: $string['selectfromgroup']
+msgid "Select members from group"
+msgstr ""
+
+#: $string['selectfromgrouping']
+msgid "Select members from grouping"
+msgstr ""
+
+#: $string['selectfromrole']
+msgid "Select members with role"
+msgstr ""
+
+#: $string['showgroupsingrouping']
+msgid "Show groups in grouping"
+msgstr ""
+
+#: $string['showmembersforgroup']
+msgid "Show members for group"
+msgstr ""
+
+#: $string['toomanygroups']
+msgid ""
+"Insufficient users to populate this number of groups - there are only {$a} "
+"users in the selected role."
+msgstr ""
+
+#: $string['usercount']
+msgid "User count"
+msgstr ""
+
+#: $string['usercounttotal']
+msgid "User count ({$a})"
+msgstr ""
+
+#: $string['usergroupmembership']
+msgid "Selected user's membership:"
+msgstr ""

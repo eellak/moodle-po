@@ -1,0 +1,64 @@
+#. extracted from lang/en/logstore_legacy.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'logstore_legacy', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   logstore_legacy
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['eventlegacylogged']
+msgid "Legacy event logged"
+msgstr ""
+
+#: $string['loglegacy']
+msgid "Log legacy data"
+msgstr ""
+
+#: $string['loglegacy_help']
+msgid ""
+"This plugin records log data to the legacy log table (mdl_log). This "
+"functionality has been replaced by newer, richer and more efficient logging "
+"plugins, so you should only run this plugin if you have old custom reports "
+"that directly query the old log table. Writing to the legacy logs will "
+"increase load, so it is recommended that you disable this plugin for "
+"performance reasons when it is not needed."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Legacy log"
+msgstr ""
+
+#: $string['pluginname_desc']
+msgid "A log plugin that stores log entries in the legacy log table."
+msgstr ""
+
+#: $string['taskcleanup']
+msgid "Legacy log table cleanup"
+msgstr ""

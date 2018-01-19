@@ -1,0 +1,1692 @@
+#. extracted from lang/en/block_dashboard.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_dashboard', language 'en', branch 'MOODLE_30_STABLE'
+#.  *
+#.  * @package   block_dashboard
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['backtocourse']
+msgid "Back to course"
+msgstr ""
+
+#: $string['bar']
+msgid "Bars"
+msgstr ""
+
+#: $string['bigresult']
+msgid "\"Big Results\" protection"
+msgstr ""
+
+#: $string['blockname']
+msgctxt "$string['blockname']"
+msgid "Dashboard"
+msgstr ""
+
+#: $string['checktohide']
+msgid "Check box to hide title"
+msgstr ""
+
+#: $string['choicevalue']
+msgid "Choice"
+msgstr ""
+
+#: $string['cleararea']
+msgid "Clear all file area"
+msgstr ""
+
+#: $string['configbands']
+msgid "Hide show time bands"
+msgstr ""
+
+#: $string['configbands_help']
+msgid ""
+"A time line graph has two timebands one over the other. The second timeband "
+"has more precision."
+msgstr ""
+
+#: $string['configbigresult']
+msgid "Enable Big Result option"
+msgstr ""
+
+#: $string['configbigresult_help']
+msgid ""
+"<h3>Big results security bypass</h3>\n"
+"<p>Statistic queries may have dramatic performance impact moreover when "
+"having erroneous joins. To avoid GUI break when setting up queries,\n"
+"    a security was added to force result pagination and results size "
+"limiting in edition mode.</p>\n"
+"<p>This might be problematic in some extreme cases, f.e. when producing "
+"curves whit a lot of data. </p>\n"
+"\n"
+"<p>When enabled, the security is disengaged and big results an be produced "
+"for the dasboard layout.</p>\n"
+"<p>We may encourage strongly to use result caching to preserve performance "
+"for other users.</p>"
+msgstr ""
+
+#: $string['configcache']
+msgid "Result Cache Settings"
+msgstr ""
+
+#: $string['configcaching']
+msgid "Cache enabling"
+msgstr ""
+
+#: $string['configcaching_help']
+msgid ""
+"<h3>Caching</h3>\n"
+"<p>Enabling cache will allow dashboard to fetch data in a pre-stored result "
+"in a cache table, thus\n"
+"saving a lot of database power.</p>\n"
+"<p>This is particularily useful on statistics results consuming a lot of "
+"records to produce a small\n"
+"amount of output data. The cron automation will allow to shedule at "
+"appropriate time the refresh\n"
+"of the cache, combined with cache TTL value.</p>"
+msgstr ""
+
+#: $string['configcachingttl']
+msgid "Cache TTL"
+msgstr ""
+
+#: $string['configcharset']
+msgid "Charset"
+msgstr ""
+
+#: $string['configcleandisplay']
+msgid "Clean table display"
+msgstr ""
+
+#: $string['configcoloredvalues']
+msgid "Color control values"
+msgstr ""
+
+#: $string['configcolorfield']
+msgid "Color control field"
+msgstr ""
+
+#: $string['configcolors']
+msgid "Background colors"
+msgstr ""
+
+#: $string['configcolouring']
+msgid "Colouring output data"
+msgstr ""
+
+#. #0000FF     ->    outputcolumn  ->  %% == 0
+#: $string['configcolouring_help']
+msgid ""
+"<h3>Colouring output results</h3>\n"
+"<p>The colouring settings allows to map colours to data value range in one "
+"column or result.</p>\n"
+"<p>On the left side textarea, you may declare a set of colours (one per "
+"line). In the field located\n"
+"in the middle, you will enter an alias output field name. This output field "
+"will be processed for\n"
+"coulouring data. At this moment only one output column can be proessed this "
+"way.</p>\n"
+"<p>On the right most textarea, you'll have to give one corresponding data "
+"test for each colour.\n"
+"This data test can be any arithmetical expression using %% marker for the "
+"effective result value.</p>\n"
+"<h4>Example</h4>\n"
+"\n"
+"<pre><code>\n"
+"    #FF0000                             %% < 0\n"
+"    #00FF00                             %% > 0\n"
+"</code></pre>\n"
+"\n"
+"<p>would colour in red negative values, in green positive values and let "
+"zeroes in blue. </p>\n"
+"<p>Note colour is applied to text background.</p>"
+msgstr ""
+
+#: $string['configcopy']
+msgid "Import the full configuration from a dashboard element"
+msgstr ""
+
+#: $string['configcronfrequency']
+msgid "Frequency"
+msgstr ""
+
+#: $string['configcronhour']
+msgctxt "$string['configcronhour']"
+msgid "Hour"
+msgstr ""
+
+#: $string['configcronmin']
+msgctxt "$string['configcronmin']"
+msgid "Minutes"
+msgstr ""
+
+#: $string['configcronmode']
+msgid "Cron refresh mode"
+msgstr ""
+
+#: $string['configcrontime']
+msgctxt "$string['configcrontime']"
+msgid "Hour"
+msgstr ""
+
+#: $string['configdashboardcron']
+msgid "Dashboard cron status"
+msgstr ""
+
+#: $string['configdashboardparams']
+msgid "Dashboard data settings"
+msgstr ""
+
+#: $string['configdata']
+msgid "GoogleMaps Markers Data"
+msgstr ""
+
+#: $string['configdatatitles']
+msgid "Data titles"
+msgstr ""
+
+#: $string['configdatatypes']
+msgid "Data types"
+msgstr ""
+
+#: $string['configdelayedrefresh']
+msgid "Delayed refresh for dashboard data"
+msgstr ""
+
+#: $string['configdelayedrefresh_help']
+msgid ""
+"<p>Output to file can be delayed to a suitable time by programming refresh "
+"scheduling</p>\n"
+"<p>You can choose to schedule your output using the general settings for "
+"cron activation, or\n"
+"choose an instance level schedule</p>"
+msgstr ""
+
+#: $string['configdisplay']
+msgid "Setup elements for display"
+msgstr ""
+
+#: $string['configenablehorizsums']
+msgid "Enable horiz sums"
+msgstr ""
+
+#: $string['configenablevertsums']
+msgid "Enable vertical sums"
+msgstr ""
+
+#: $string['configeventmapping']
+msgid "Data mapping for events"
+msgstr ""
+
+#: $string['configexplicitscaling']
+msgid "Explicit scaling"
+msgstr ""
+
+#: $string['configexplicitscaling_help']
+msgid ""
+"<p>Usually, JQPlot will automate the graph axis scale and viewport bounds. "
+"You may force some bounding and grid parameters here. JQPlot may not always "
+"follow your recomendations exaly in some cases (unknown reasons).</p>"
+msgstr ""
+
+#: $string['configexportcharset']
+msgid "Charset for CSV exports"
+msgstr ""
+
+#: $string['configfileformat']
+msgid "File format"
+msgstr ""
+
+#: $string['configfilelocation']
+msgid "Generated file location"
+msgstr ""
+
+#: $string['configfilelocationadmin']
+msgid "Generated file location admin extension"
+msgstr ""
+
+#: $string['configfilelocationadmin_help']
+msgid ""
+"<p>If you see this option, you probably are a site administrator.\n"
+"This allows to add a special path start from dataroot in order to store the "
+"genrated file in a non standard location in moodledata.</p>"
+msgstr ""
+
+#: $string['configfilelocation_help']
+msgid ""
+"<p>When cron data refresh is programmed on a cached dashboard, a file output "
+"an be scheduled. This setting will define the file path the file has to be "
+"generated in.</p>\n"
+"<p><b>Beware :</b> This path needs to bind to an existing storage "
+"context.</p>"
+msgstr ""
+
+#: $string['configfileoutput']
+msgid "File output fields"
+msgstr ""
+
+#: $string['configfileoutputformats']
+msgid "Field value formatting"
+msgstr ""
+
+#: $string['configfileoutput_help']
+msgid ""
+"<p>File can use a distinct set of output field than what is required for "
+"display. </p>"
+msgstr ""
+
+#: $string['configfilepathadminoverride']
+msgid "Only administrators can choose where to put the file."
+msgstr ""
+
+#: $string['configfilepathadminoverride_help']
+msgid ""
+"Administrators may need to generate the files outside the Moodle controlled "
+"area"
+msgstr ""
+
+#: $string['configfilesqlouttable']
+msgid "Ouput SQL tablename (SQL file format)"
+msgstr ""
+
+#: $string['configfilesqlouttable_help']
+msgid ""
+"<p>In case file format is outputing an SQL inserts, youl'll need tell the "
+"table name in which records go in. </p>"
+msgstr ""
+
+#: $string['configfilterdefaults']
+msgid "Default filter values"
+msgstr ""
+
+#: $string['configfilterdefaults_help']
+msgid ""
+"<h3>Default option for filters</h3>\n"
+"\n"
+"<p>Filters can be setup with a default seletion.</p>\n"
+"<p>When setup, the data will be filtered at first rendering of the dashboard "
+"in page. This may be usefull for\n"
+"queries that would output a lot of results. In the case a preselection is "
+"made, some options could moreover\n"
+"avoid to browse back to the \"all data\" situation.</p>\n"
+"\n"
+"<p>Note that filtering values are ordered.</p>\n"
+"\n"
+"<h4>Several filters</h4>\n"
+"\n"
+"<p>When several filters are setup using  \";\" separator, then default values "
+"should also be defined as a list\n"
+"(\";\" separated). Non used values should be left as \"empty strings\".</p>\n"
+"\n"
+"<h4>Special values</h4>\n"
+"\n"
+"<p>Some values allow having a dynamic effect in defaults:</p>\n"
+"<ul>\n"
+"    <li>\"LAST\" : preset the filtering with the last value in list. (applied "
+"to ASC ordered dates, will stand for most recent).</li>\n"
+"    <li>\"FIRST\" : preset the filtering with the last value in list. (applied "
+"to ASC ordered dates, will stand for oldest).</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['configfilterlabels']
+msgid "Filter labels"
+msgstr ""
+
+#: $string['configfilteroptions']
+msgid "Filter options"
+msgstr ""
+
+#: $string['configfilteroptions_help']
+msgid ""
+"<h3>Filter options</h3>\n"
+"<p>Some special options can help to enrich or solved query struture isues. "
+"Each option string is a string with one char enablers that may be present "
+"(enabled) or absent (disabled).</p>\n"
+"<h4>Values</h4>\n"
+"<ul>\n"
+"    <li><b>m</b> : (multiple) makes the selector multiple so that set of "
+"possible values or ranges can be asked for.</li>\n"
+"    <li><b>s</b> : (single) avoid using the \"*\" wildcard. When enabled the "
+"default is forced to \"FIRST\" if undefined. Un filtre en mode \"s\" exclut le "
+"précédent.</li>\n"
+"    <li><b>x</b> : (crossthrough) some queries strutures (f.e. UNION) do not "
+"admit the query transform usually processed to get filter values. You may "
+"try to disable this processing with the \"x\" option on. Sometimes it "
+"works.</li>\n"
+"</ul>\n"
+"\n"
+"<h4>Several filters</h4>\n"
+"\n"
+"<p>When several filters are setup using  \";\" separator, then default values "
+"should also be defined as a list\n"
+"(\";\" separated). Non used values should be left as \"empty strings\".</p>\n"
+"\n"
+"<h4>Example</h4>\n"
+"\n"
+"<p>Say we use filters:</p>\n"
+"<pre>year;month;day</pre>\n"
+"\n"
+"<p>options</p>\n"
+"\n"
+"<pre>s;m;</pre>\n"
+"\n"
+"<p>will allow choosing only one year for data, a month selection, and one "
+"day or all day range.</p>"
+msgstr ""
+
+#: $string['configfilters']
+msgctxt "$string['configfilters']"
+msgid "Filters"
+msgstr ""
+
+#: $string['configfilters_help']
+msgid ""
+"<h3>Filters</h3>\n"
+"<p>Filters allow giving dashboard end users capability of filtering "
+"information at view time. When filters are added,\n"
+"form selects allow users to filter the data from the modalities that were "
+"found in real data. (Unused values WILL NOT appear in filtering list).<br/>\n"
+"Filters can accept multiple seletion mode and be preset to some values using "
+"options.</p>\n"
+"<p>Filter can be defined as a list (;) of column definitions that need to be "
+"present in the\n"
+"query field list</p>\n"
+"<p>Filters should be aliased columns, and mention the complete column "
+"definition including aliasing\n"
+"clause</p>\n"
+"<h4>Example :</h4>\n"
+"<p>Using the query</p>\n"
+"\n"
+"<pre>\n"
+"    SELECT\n"
+"       DATE_FORMAT(FROM_UNIXTIME(l.time), '%Y') as year,\n"
+"       DATE_FORMAT(FROM_UNIXTIME(l.time), '%m') as month,\n"
+"       count(l.id) as queries\n"
+"    FROM\n"
+"        mdl_log l\n"
+"    GROUP BY\n"
+"        year,month\n"
+"</pre>\n"
+"\n"
+"<p>Filter value should mention:</p>\n"
+"<pre>DATE_FORMAT(FROM_UNIXTIME(l.time), '%Y') as year</pre>\n"
+"\n"
+"<p>To setup distinct filters for resp. year and month, you should write:</p>\n"
+"<pre>DATE_FORMAT(FROM_UNIXTIME(l.time), '%Y') as "
+"year<b>;</b>DATE_FORMAT(FROM_UNIXTIME(l.time), '%Y-%m') as month</pre>\n"
+"\n"
+"<p>Beware : when using two filters, each of them provides its value list "
+"independently. Thus some filtering combination could result in \"no values\" "
+"ar all.</p>\n"
+"\n"
+"<h4>Query configuration</h4>\n"
+"\n"
+"<p>Filters operate on query results depending on a  \"&lt;%%FILTERS%%&gt;\" "
+"marker that can complete or replace a WHERE clause.</p>\n"
+"<p><u>Valid location samples:</u></p>\n"
+"<pre>\n"
+"    SELECT\n"
+"      data1,data2\n"
+"    FROM\n"
+"       table1 t1,\n"
+"       table2 t2\n"
+"       <span style=\"color:green\">&lt;%%FILTERS%%&gt;</span>\n"
+"    ORDER BY\n"
+"       data1\n"
+"</pre>\n"
+"<pre>\n"
+"    SELECT\n"
+"      data1,data2\n"
+"    FROM\n"
+"       table1 t1,\n"
+"       table2 t2\n"
+"    WHERE\n"
+"        t1.id = t2.t1key\n"
+"       <span style=\"color:green\">&lt;%%FILTERS%%&gt;</span>\n"
+"    ORDER BY\n"
+"       data1\n"
+"</pre>\n"
+"\n"
+"<p><u>Invalid location samples:</u></p>\n"
+"<pre>\n"
+"    SELECT\n"
+"      data1,data2\n"
+"    FROM\n"
+"       table1 t1,\n"
+"       table2 t2\n"
+"    GROUP BY\n"
+"        data2\n"
+"       <span style=\"color:red\">&lt;%%FILTERS%%&gt;</span>\n"
+"    ORDER BY\n"
+"       data1\n"
+"</pre>"
+msgstr ""
+
+#: $string['configformatting']
+msgctxt "$string['configformatting']"
+msgid "Output data formatting"
+msgstr ""
+
+#: $string['configformatting_help']
+msgid ""
+"<p>This parameters allow to give a formatting instruction to data, based on "
+"the typical \"sprintf\"\n"
+"    syntax.</p>\n"
+"<p>When formatting a semi-column separated list, the formatting list should "
+"present an identical number\n"
+"    of formatting statements. An empty formatting string will pass through "
+"the original information.</p>\n"
+"\n"
+"<h4>Example:</h4>\n"
+"<p>Using a query that defines a frequentation ratio</p>\n"
+"<pre>\n"
+"</pre>\n"
+"<p>Say we want to displays some results as float float using one decimal "
+"point formatting.</p>\n"
+"<p>Parameters \"output fields\" and \"output formatting\", would be:</p>\n"
+"<pre>mois;ratio</pre>\n"
+"<pre>;%.1f</pre>"
+msgstr ""
+
+#: $string['configgmdata']
+msgid "GoogleMaps Data"
+msgstr ""
+
+#: $string['configgmdata_help']
+msgid ""
+"<h3>Geolocated information</h3>\n"
+"\n"
+"<p>PLotting geolocated information onto a GoogleMap assumes geographic "
+"information is available either as gelocation coordinates\n"
+"    or address information. The dashboard block can handle the transposition "
+"of human readable address elements into a gelocation\n"
+"    coordinate and will cache this information.</p>\n"
+"<p>Geocoding is subject to Google Geocoding API terms of service. Free "
+"unregistered conversion rate is limited to 2500 requests per day. Read the "
+"<a href=\"http://code.google.com/intl/fr/apis/maps/documentation/geocoding/\" "
+"target=\"_blank\" >Geocoding API of Google</a> for more information.</p>\n"
+"\n"
+"<h4>Geographic data settings</h4>\n"
+"\n"
+"<p>Geolocated information are plotted on map as graphical markers. Markers "
+"can be defined as :</p>\n"
+"<ul>\n"
+"<li>A quadruplet: Title, Latitude, Longitude, Marker Class</li>\n"
+"<li>A sextuplet: Title, Address, Post code, City, Region Code, Marker "
+"Class</li>\n"
+"</ul>\n"
+"\n"
+"<p>Information fields have following specification:</p>\n"
+"\n"
+"<ul>\n"
+"<li><i>Title</i>: Textual label of the marker</li>\n"
+"<li><i>Latitude</i>: floating point latitude</li>\n"
+"<li><i>Longitude</i>: floating point longitude</li>\n"
+"<li><i>Address</i>: road information</li>\n"
+"<li><i>Post code</i>: Official post or zip code</li>\n"
+"<li><i>City</i>: City name</li>\n"
+"<li><i>Marker Class</i>: A classname, that will bind to a graphical "
+"icon</li>\n"
+"</ul>\n"
+"\n"
+"<p>Setting fields let you bind required information to request output "
+"fields. Setting outputs will usually accept one or more field (or alias) "
+"names separated by semicolons (\";\").</p>\n"
+"<ul>\n"
+"<li><i>Title input</i>: Query output fieldname providing the textual "
+"label</li>\n"
+"<li><i>Location input</i>:\n"
+"<ul>\n"
+"<li><u>Case 1</u>: THE output column name providing the geolocation couple "
+"as a comma pair of floating point values : \"lat,lng\" (ex : "
+"47.098456,1.4534456)</li>\n"
+"<li><u>Case 2</u>: A semicolon separated list of query output fieldnames (or "
+"aliases) that provide in order : address, post code, city, and region code "
+"(*)</li>\n"
+"</ul>\n"
+"</li>\n"
+"<li><i>Marker type input</i>: The query output fieldname that provides a "
+"class label</li>\n"
+"</ul>\n"
+"\n"
+"<p>(*) Some constant values can be given for city, post code and region "
+"code, using quoted values in place of field name: </p>\n"
+"<pre>address;cp;city;\"GB\"</pre>\n"
+"<p>will always provide the value \"GB\" as region code.</p>"
+msgstr ""
+
+#: $string['configgraphheight']
+msgid "Graph height"
+msgstr ""
+
+#: $string['configgraphtype']
+msgid "Graph type"
+msgstr ""
+
+#: $string['configgraphwidth']
+msgid "Graph Width"
+msgstr ""
+
+#: $string['confighidetitle']
+msgid "Hide block title"
+msgstr ""
+
+#: $string['confighierarchic']
+msgctxt "$string['confighierarchic']"
+msgid "Hierarchic rendering"
+msgstr ""
+
+#: $string['confighierarchic_help']
+msgctxt "$string['confighierarchic_help']"
+msgid "Hierarchic rendering"
+msgstr ""
+
+#: $string['confighorizformat']
+msgid "Horiz keys formatting"
+msgstr ""
+
+#: $string['confighorizkey']
+msgid "Horiz key"
+msgstr ""
+
+#: $string['confighorizlabel']
+msgid "Horizontal labels"
+msgstr ""
+
+#: $string['confighorodatefiles']
+msgid "Horodate files"
+msgstr ""
+
+#: $string['confighorodatefiles_help']
+msgid ""
+"When enabled, a timestamp will be added at the end of each generated "
+"filename"
+msgstr ""
+
+#: $string['configimportexport']
+msgid "Configuration import/export"
+msgstr ""
+
+#: $string['configisrunning']
+msgid "Cron is running ?"
+msgstr ""
+
+#: $string['configlastcron']
+msgid "Last cron stamp"
+msgstr ""
+
+#: $string['configlat']
+msgid "Latitude"
+msgstr ""
+
+#: $string['configlayout']
+msgid "Publish data"
+msgstr ""
+
+#: $string['configlineartable']
+msgid "Linear table settings"
+msgstr ""
+
+#: $string['configlng']
+msgid "Longitude"
+msgstr ""
+
+#: $string['configlocation']
+msgid "Location of the map"
+msgstr ""
+
+#: $string['configlocation_help']
+msgid ""
+"<p>The central point of the map shown in viewport. You may retrieve directly "
+"those values using GoogleMaps interface.</p>"
+msgstr ""
+
+#: $string['configlowerbandunit']
+msgid "Lower band time scale"
+msgstr ""
+
+#: $string['configmakefile']
+msgid "Enable file generation"
+msgstr ""
+
+#: $string['configmakefile_help']
+msgid ""
+"<p>When data is refreshed in cache, you can choose or not to generate an "
+"output file with refreshed data</p>"
+msgstr ""
+
+#: $string['configmaptype']
+msgid "Map type"
+msgstr ""
+
+#: $string['confignumsums']
+msgctxt "$string['confignumsums']"
+msgid "Summarizers"
+msgstr ""
+
+#: $string['confignumsumsformats']
+msgid "Sums formatting"
+msgstr ""
+
+#: $string['confignumsumslabels']
+msgid "Sums labels"
+msgstr ""
+
+#: $string['configoutputfields']
+msgid "Output fields"
+msgstr ""
+
+#: $string['configoutputfields_help']
+msgid ""
+"<h3>Data output</h3>\n"
+"\n"
+"<p>Specifies which output fields will be used in the output table (display "
+"data).</p>\n"
+"<p>Fields must be mentionned using real or aliased column identity. SQL "
+"statement must be represented by a named alias. Multiple output columns must "
+"be separated by semi-columns (;).</p>\n"
+"<h4>Example:</h4>\n"
+"<p>If query is: </p>\n"
+"<pre>\n"
+"SELECT\n"
+"   YEAR(FROM_UNIXTIME(time)) as year,\n"
+"   count(*) access\n"
+"FROM\n"
+"   mdl_log\n"
+"GROUP BY\n"
+"year\n"
+"</pre>\n"
+"<p>Output columns could be defined as:</p>\n"
+"<pre>year;access</pre>\n"
+"\n"
+"<h4>Special features on data output</h4>\n"
+"\n"
+"<p>When a column name of the output is mentionned as</p>\n"
+"<pre>S(<i>column_name</i>)</pre>\n"
+"<p>output values will be accumulated in order of the\n"
+"display. </p>"
+msgstr ""
+
+#: $string['configoutputfieldslabels']
+msgid "Output fields labels"
+msgstr ""
+
+#: $string['configoutputformats']
+msgctxt "$string['configoutputformats']"
+msgid "Output data formatting"
+msgstr ""
+
+#: $string['configpagesize']
+msgid "Result paging size"
+msgstr ""
+
+#: $string['configpagesize_help']
+msgid ""
+"<h3>Page size</h3>\n"
+"<p>When not null, forces results to be paged with page size results per "
+"page</p>."
+msgstr ""
+
+#: $string['configparams']
+msgid "User param definitions"
+msgstr ""
+
+#: $string['configparent']
+msgid "Parent"
+msgstr ""
+
+#: $string['configparentserie']
+msgid "Parent serie"
+msgstr ""
+
+#: $string['configparentserie_help']
+msgid ""
+"<p>This is the output field (resul column alias) that should contain a "
+"\"parent\" information, relative to the natural id of the result. the natural "
+"id refers to the first field of the result row.</p>"
+msgstr ""
+
+#: $string['configquery']
+msgid "Query"
+msgstr ""
+
+#: $string['configquery_help']
+msgid ""
+"<p>Dashboard will produce a vue based on a data query submitted to the "
+"database.</p>\n"
+"<p>This query:</p>\n"
+"<ul>\n"
+"    <li>needs define output fields (using AS aliasing)</li>\n"
+"    <li>can use JOIN or complex UNIONs in some cases</li>\n"
+"    <li>can use aggregating operators and GROUP BY clauses</li>\n"
+"    <li>should NOT have an ORDER BY if data is intended to be displayed in "
+"data tables</li>\n"
+"</ul>\n"
+"\n"
+"<h3>Placeholder for filters</h3>\n"
+"<p>If some data filtering is to be used, then a &lt;%%FILTERS%%&gt; tag "
+"needs to be inserted as placeholder in the original query as WHERE clause or "
+"for completing a WHERE clause</p>"
+msgstr ""
+
+#: $string['configreminderonsep']
+msgid ""
+"<span style=\"font-size:1.3em;color:#808080\">Never forget the field separator "
+"is <b>necessarily</b> a ;</span>"
+msgstr ""
+
+#: $string['configsendadminnotification']
+msgid "Send admin notification on cron"
+msgstr ""
+
+#: $string['configserieslabels']
+msgid "Series labels"
+msgstr ""
+
+#: $string['configshowdata']
+msgid "Show data"
+msgstr ""
+
+#: $string['configshowfilterqueries']
+msgid "Show filter queries (debug)"
+msgstr ""
+
+#: $string['configshowgraph']
+msgid "Show graph"
+msgstr ""
+
+#: $string['configshowlegend']
+msgid "Show legend"
+msgstr ""
+
+#: $string['configshowlowerband']
+msgid "Show the lower band"
+msgstr ""
+
+#: $string['configshownumsums']
+msgid "Show summators"
+msgstr ""
+
+#: $string['configshowquery']
+msgid "Show query (debug)"
+msgstr ""
+
+#: $string['configsortable']
+msgid "Sortable table"
+msgstr ""
+
+#: $string['configspliton']
+msgid "Split table on serie"
+msgstr ""
+
+#: $string['configspliton_help']
+msgid ""
+"<h3>Tabular table split</h3>\n"
+"\n"
+"<p>You can choose a field (column alias name) that will be used to split the "
+"output table in several subtables. the data is forced ordering\n"
+"on the specified field, and eah time a new value il encountered, a table "
+"splitter is added reminding column names.</p>"
+msgstr ""
+
+#: $string['configsplitsumonsort_help']
+msgid ""
+"<h3>Subsums on data tables</h3>\n"
+"\n"
+"<p>When data can be sorted,  one column can serve as criteria for "
+"subsplitting summators. Each summator will have\n"
+"    a subtotal calculated and displayed in an intermediate row in the table "
+"when separation value changes.</p>\n"
+"<p>The criteria must be an output column alias.</p>\n"
+"<p>Note that only linear table can use this feature.</p>"
+msgstr ""
+
+#: $string['configsplitsumsonsort']
+msgid "Split-sums column"
+msgstr ""
+
+#: $string['configsplitsumsonsort_help']
+msgctxt "$string['configsplitsumsonsort_help']"
+msgid ""
+msgstr ""
+
+#: $string['configsummators']
+msgctxt "$string['configsummators']"
+msgid "Summarizers"
+msgstr ""
+
+#: $string['configsummators_help']
+msgid "<p>Series on which calculate a global sum</p>"
+msgstr ""
+
+#: $string['configsums']
+msgid "Local sums settings"
+msgstr ""
+
+#: $string['configsums_help']
+msgid ""
+"<h3>Tabular table row and column sums</h3>\n"
+"\n"
+"<p>When enabling this feature, each row (resp. columns) will have an extra "
+"column (resp. row)  with the\n"
+"sum of the cell value of the entire row. Note in ae of multiplet in cell, "
+"only the first numerial field is summated."
+msgstr ""
+
+#: $string['configtable']
+msgid "Table settings"
+msgstr ""
+
+#: $string['configtablesplit']
+msgid "Data table split field"
+msgstr ""
+
+#: $string['configtablesplit_help']
+msgid "If set, distinct values of this field will make separate subtables"
+msgstr ""
+
+#: $string['configtabletype']
+msgid "Data table type"
+msgstr ""
+
+#: $string['configtabletype_help']
+msgid ""
+"<h3>Data presentation table type</h3>\n"
+"\n"
+"<p>This selector allows choosing the type of table that will be used for "
+"presenting data :</p>\n"
+"<ul><li><b>Linear</b>: Data re linearily displayed as records</li>\n"
+"<ul><li><b>Tabular</b>: data are presented within bidimensional tabular "
+"array. Extra params will need setup:\n"
+"    <ul><li>the unique column driving horizontal dimension</li>\n"
+"        <li>Colomuns driving the vertical dimension.</li>\n"
+"        <li>Data used for filling cells</li>\n"
+"    </ul>\n"
+"    </li>\n"
+"    <li><b>Tree view</b>: If data have a hierachical organisation embedd "
+"(id,parent)\n"
+"    this mode draws a hierarchical tree representation of records.</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['configtabular']
+msgctxt "$string['configtabular']"
+msgid "Tabular layout extra settings"
+msgstr ""
+
+#: $string['configtabular_help']
+msgid ""
+"<h3>Tabular results</h3>\n"
+"\n"
+"<p>Tabular display show query results in a bidimensional table, using a "
+"special output field to produce\n"
+"columns and a set of fields to produce hierachic organised row captions.</p>\n"
+"<p>The printed data in cell is the value of the specified \"output field\", or "
+"in case it has been defined as\n"
+"a list, a n-uplet of values comming from correeponding output fields."
+msgstr ""
+
+#: $string['configtabulartable']
+msgid "Tabular table settings"
+msgstr ""
+
+#: $string['configtarget']
+msgid "Target db"
+msgstr ""
+
+#: $string['configtickspacing']
+msgid "Y tick spacing"
+msgstr ""
+
+#: $string['configtimelinecolouring']
+msgid "Time line items colouring"
+msgstr ""
+
+#: $string['configtimeunits']
+msgid "Time units"
+msgstr ""
+
+#: $string['configtimeunits_help']
+msgid "Setup the time units and scale for each band."
+msgstr ""
+
+#: $string['configtitle']
+msgid "Bloc title"
+msgstr ""
+
+#: $string['configtreeoutput']
+msgid "Tree output series"
+msgstr ""
+
+#: $string['configtreeoutputformats']
+msgid "Tree output series formatting"
+msgstr ""
+
+#: $string['configtreeoutput_help']
+msgid ""
+"<p>this field contains the list of columns providing the tree node "
+"caption.</p>"
+msgstr ""
+
+#: $string['configtreeview']
+msgid "Tree view settings"
+msgstr ""
+
+#: $string['configupperbandunit']
+msgid "Upper band time scale"
+msgstr ""
+
+#: $string['configure']
+msgid "Configure"
+msgstr ""
+
+#: $string['configverticalformats']
+msgid "Vertical keys formatting"
+msgstr ""
+
+#: $string['configverticalkeys']
+msgid "Vertical keys"
+msgstr ""
+
+#: $string['configverticallabels']
+msgid "Vertical labels"
+msgstr ""
+
+#: $string['configxaxis']
+msgid "X axis serie"
+msgstr ""
+
+#: $string['configxaxisfield']
+msgid "X axis ticks serie"
+msgstr ""
+
+#: $string['configxaxisfield_help']
+msgid ""
+"<p>The output field that will provide ategory information for the X axis. "
+"This is essentially used for :</p>\n"
+"<ul>\n"
+"<li>Timerange line graphs</li>\n"
+"<li>Bargraphs with categroy axis</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['configxaxis_help']
+msgid "Defines serie for Xaxis"
+msgstr ""
+
+#: $string['configxaxislabel']
+msgid "X axis label"
+msgstr ""
+
+#: $string['configyaxisbounds']
+msgid "Y Axis bounds (min, max)"
+msgstr ""
+
+#: $string['configyaxislabel']
+msgid "Y axis label"
+msgstr ""
+
+#: $string['configyaxisscale']
+msgid "Y scale type"
+msgstr ""
+
+#: $string['configyaxistickangle']
+msgid "X labels angle"
+msgstr ""
+
+#: $string['configymax']
+msgid "Y axis max"
+msgstr ""
+
+#: $string['configymin']
+msgid "Y axis min"
+msgstr ""
+
+#: $string['configyseries']
+msgid "Data series"
+msgstr ""
+
+#: $string['configyseriesformats']
+msgid "Data series formatting"
+msgstr ""
+
+#: $string['configyseries_help']
+msgid ""
+"<h3>Graphical data serie</h3>\n"
+"\n"
+"<p>Data series will be plotted on graph display. Depending on the graph "
+"type, you will be able to specify one or more data series for plotting.\n"
+"Data series MUST be output column names (or aliases) and are given as a "
+"semi-column (\";\") separated list.</p>\n"
+"<p>Names of series can be defined in the textarea at the right. Labels will "
+"be separated by semi-columns (\";\").</p>\n"
+"\n"
+"<h4>Special features on data series</h4>\n"
+"\n"
+"<p>When a serie is mentionned as :</p>\n"
+"<pre>S(<i>serie_name</i>)</pre>\n"
+"<p>output values will be accumulated in order of the\n"
+"display. </p>"
+msgstr ""
+
+#: $string['configzoom']
+msgid "Zoom"
+msgstr ""
+
+#: $string['configzoom_help']
+msgid ""
+"<p>Google zoom factor. This helps to focus the appropriate geographic zone "
+"in the Google viewport.</p>"
+msgstr ""
+
+#: $string['confiygmin']
+msgid "Q min"
+msgstr ""
+
+#: $string['csv']
+msgid "CSV records"
+msgstr ""
+
+#: $string['csvwithoutheader']
+msgid "CSV without heading line"
+msgstr ""
+
+#: $string['daily']
+msgid "daily"
+msgstr ""
+
+#: $string['dashboard:addinstance']
+msgid "Can add an instance"
+msgstr ""
+
+#: $string['dashboard_big_result_threshold']
+msgctxt "$string['dashboard_big_result_threshold']"
+msgid "\"Big Result\" security trap threshold"
+msgstr ""
+
+#: $string['dashboard_big_result_threshold_desc']
+msgctxt "$string['dashboard_big_result_threshold_desc']"
+msgid "\"Big Result\" security trap threshold"
+msgstr ""
+
+#: $string['dashboard:configure']
+msgid "Can configure the block"
+msgstr ""
+
+#: $string['dashboard_cron_enabled']
+msgctxt "$string['dashboard_cron_enabled']"
+msgid "Cron activation"
+msgstr ""
+
+#: $string['dashboard_cron_enabled_desc']
+msgctxt "$string['dashboard_cron_enabled_desc']"
+msgid "Cron activation"
+msgstr ""
+
+#: $string['dashboard_cron_freq']
+msgctxt "$string['dashboard_cron_freq']"
+msgid "Weekly frequency"
+msgstr ""
+
+#: $string['dashboard_cron_freq_desc']
+msgctxt "$string['dashboard_cron_freq_desc']"
+msgid "Weekly frequency"
+msgstr ""
+
+#: $string['dashboard_cron_hour']
+msgctxt "$string['dashboard_cron_hour']"
+msgid "Hour"
+msgstr ""
+
+#: $string['dashboard_cron_hour_desc']
+msgid "Hour for the automated generation"
+msgstr ""
+
+#: $string['dashboard_cron_min']
+msgctxt "$string['dashboard_cron_min']"
+msgid "Minutes"
+msgstr ""
+
+#: $string['dashboard_cron_min_desc']
+msgid "Minutes for the automated generation"
+msgstr ""
+
+#: $string['dashboard_enable_isediting_security']
+msgid "Activates the editing secured mode."
+msgstr ""
+
+#: $string['dashboard_enable_isediting_security_desc']
+msgid ""
+"Enable the isediting security. In secured mode, Queries are not executed "
+"while course is in editing mode to prevent users loosing control over block "
+"setup."
+msgstr ""
+
+#: $string['dashboard_extra_db_db']
+msgctxt "$string['dashboard_extra_db_db']"
+msgid "Extra database (Postgre) : database"
+msgstr ""
+
+#: $string['dashboard_extra_db_db_desc']
+msgctxt "$string['dashboard_extra_db_db_desc']"
+msgid "Extra database (Postgre) : database"
+msgstr ""
+
+#: $string['dashboard_extra_db_host']
+msgctxt "$string['dashboard_extra_db_host']"
+msgid "Extra database (Postgre) : hostname"
+msgstr ""
+
+#: $string['dashboard_extra_db_host_desc']
+msgctxt "$string['dashboard_extra_db_host_desc']"
+msgid "Extra database (Postgre) : hostname"
+msgstr ""
+
+#: $string['dashboard_extra_db_password']
+msgctxt "$string['dashboard_extra_db_password']"
+msgid "Extra database (Postgre) : password"
+msgstr ""
+
+#: $string['dashboard_extra_db_password_desc']
+msgctxt "$string['dashboard_extra_db_password_desc']"
+msgid "Extra database (Postgre) : password"
+msgstr ""
+
+#: $string['dashboard_extra_db_port']
+msgctxt "$string['dashboard_extra_db_port']"
+msgid "Extra database (Postgre) : port"
+msgstr ""
+
+#: $string['dashboard_extra_db_port_desc']
+msgctxt "$string['dashboard_extra_db_port_desc']"
+msgid "Extra database (Postgre) : port"
+msgstr ""
+
+#: $string['dashboard_extra_db_user']
+msgctxt "$string['dashboard_extra_db_user']"
+msgid "Extra database (Postgre) : login"
+msgstr ""
+
+#: $string['dashboard_extra_db_user_desc']
+msgctxt "$string['dashboard_extra_db_user_desc']"
+msgid "Extra database (Postgre) : login"
+msgstr ""
+
+#: $string['dashboardlayout']
+msgid "Dashboard layout"
+msgstr ""
+
+#: $string['dashboard:myaddinstance']
+msgid "Can add an instance to My Page"
+msgstr ""
+
+#: $string['dashboard_output_encoding']
+msgid "Output encoding"
+msgstr ""
+
+#: $string['dashboard_output_field_separator']
+msgid "Output field separator"
+msgstr ""
+
+#: $string['dashboard_output_line_separator']
+msgid "Output line separator"
+msgstr ""
+
+#: $string['dashboards']
+msgid "Dashboards"
+msgstr ""
+
+#: $string['dashboardstoragearea']
+msgid "Dashboard File Storage Area"
+msgstr ""
+
+#: $string['dashboard:systempathaccess']
+msgid "Can configure output in system data path"
+msgstr ""
+
+#: $string['datalocations']
+msgid "Geo Locations"
+msgstr ""
+
+#: $string['datarefresh']
+msgid "Data refresh settings"
+msgstr ""
+
+#: $string['datatitles']
+msgid "Marker titles"
+msgstr ""
+
+#: $string['datatypes']
+msgid "Data Types"
+msgstr ""
+
+#: $string['daterangevalue']
+msgid "Date Range"
+msgstr ""
+
+#: $string['datevalue']
+msgid "Date"
+msgstr ""
+
+#: $string['day']
+msgid "Day"
+msgstr ""
+
+#: $string['dofilter']
+msgid "Filter"
+msgstr ""
+
+#: $string['donut']
+msgid "Donut"
+msgstr ""
+
+#: $string['dropconfig']
+msgid "Copy here the configuration string"
+msgstr ""
+
+#: $string['enabled']
+msgid "enabled"
+msgstr ""
+
+#: $string['eventdesc']
+msgid "Event desc"
+msgstr ""
+
+#: $string['eventend']
+msgid "Event end serie"
+msgstr ""
+
+#: $string['eventlink']
+msgid "Link series"
+msgstr ""
+
+#: $string['eventstart']
+msgid "Event start serie"
+msgstr ""
+
+#: $string['eventtaskprocessed']
+msgid "Task processed event"
+msgstr ""
+
+#: $string['eventtitles']
+msgid "Title data serie"
+msgstr ""
+
+#: $string['exportall']
+msgid "Export all data"
+msgstr ""
+
+#: $string['exportconfig']
+msgid "Get the current config"
+msgstr ""
+
+#: $string['exportdataastable']
+msgid "Export data as table"
+msgstr ""
+
+#: $string['exportfiltered']
+msgid "Export filtered data"
+msgstr ""
+
+#: $string['extradbparams']
+msgid "Extra DB parameters"
+msgstr ""
+
+#: $string['filegenerated']
+msgid "File has been successfully generated"
+msgstr ""
+
+#: $string['fileoutput']
+msgid "Data Export settings"
+msgstr ""
+
+#: $string['filesview']
+msgid "View filearea content"
+msgstr ""
+
+#: $string['filters']
+msgctxt "$string['filters']"
+msgid "Filters"
+msgstr ""
+
+#: $string['friday']
+msgid "Friday"
+msgstr ""
+
+#: $string['from']
+msgid "from"
+msgstr ""
+
+#: $string['generalparams']
+msgid "Access to dashboard settings"
+msgstr ""
+
+#: $string['generatedexports']
+msgid "Generated exports"
+msgstr ""
+
+#: $string['globalcron']
+msgid "Global cron settings"
+msgstr ""
+
+#: $string['googlelocationerror']
+msgid "Google location error"
+msgstr ""
+
+#: $string['googlemap']
+msgid "Google Map"
+msgstr ""
+
+#: $string['googleparams']
+msgid "GoogleMaps settings"
+msgstr ""
+
+#: $string['graphparams']
+msgid "Graph settings"
+msgstr ""
+
+#: $string['guestsnotallowed']
+msgid "Guests are not allowed"
+msgstr ""
+
+#: $string['hour']
+msgctxt "$string['hour']"
+msgid "Hour"
+msgstr ""
+
+#: $string['hours']
+msgid "Hours"
+msgstr ""
+
+#: $string['importconfig']
+msgid "Import config"
+msgstr ""
+
+#: $string['instancecron']
+msgid "Instance cron settings"
+msgstr ""
+
+#: $string['invalidorobsoletefilterquery']
+msgid "Invalid or obsolete filterquery."
+msgstr ""
+
+#: $string['invalidorobsoletequery']
+msgid "Invalid or obsolete query."
+msgstr ""
+
+#: $string['line']
+msgid "Lines"
+msgstr ""
+
+#: $string['linear']
+msgid "Linear"
+msgstr ""
+
+#: $string['listvalue']
+msgid "Value List"
+msgstr ""
+
+#: $string['log']
+msgid "Logarithmic"
+msgstr ""
+
+#: $string['maptypehybrid']
+msgid "Hybrid view"
+msgstr ""
+
+#: $string['maptyperoadmap']
+msgid "Road map"
+msgstr ""
+
+#: $string['maptypesatellite']
+msgid "Satellite view"
+msgstr ""
+
+#: $string['maptypeterrain']
+msgid "Terrain"
+msgstr ""
+
+#: $string['mins']
+msgid "Min"
+msgstr ""
+
+#: $string['monday']
+msgid "Monday"
+msgstr ""
+
+#: $string['month']
+msgid "Month"
+msgstr ""
+
+#: $string['newdashboard']
+msgid "New dashboard"
+msgstr ""
+
+#: $string['noquerystored']
+msgid "No query stored"
+msgstr ""
+
+#: $string['norefresh']
+msgid "No refresh"
+msgstr ""
+
+#: $string['notretrievable']
+msgid ""
+"No data retrievable. You may be in editing mode and no previous data has "
+"been cached. This mode is forced to prevent loosing control of dashboard "
+"setup on strangling queries."
+msgstr ""
+
+#: $string['obsoletequery']
+msgid "Query seems being written for old Moodle 1.9 database."
+msgstr ""
+
+#: $string['outputfilegeneration']
+msgid "Output file generation"
+msgstr ""
+
+#: $string['outputfiltered']
+msgid "Generate output file (filtered)"
+msgstr ""
+
+#: $string['outputparams']
+msgid "Query output settings"
+msgstr ""
+
+#: $string['pageexport']
+msgid "Page export"
+msgstr ""
+
+#: $string['pie']
+msgid "Pie"
+msgstr ""
+
+#: $string['plotgraphparams']
+msgid "Plotted graph settings"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Dashboard"
+msgstr ""
+
+#: $string['publishinblock']
+msgid "in the block space"
+msgstr ""
+
+#: $string['publishinpage']
+msgid "in separate page"
+msgstr ""
+
+#: $string['querydesc']
+msgid "Query definition"
+msgstr ""
+
+#: $string['queryparams']
+msgid "Query user parameters"
+msgstr ""
+
+#: $string['rangevalue']
+msgid "Range"
+msgstr ""
+
+#: $string['saturday']
+msgid "Saturday"
+msgstr ""
+
+#: $string['savechangesandconfig']
+msgid "Save and continue configuration"
+msgstr ""
+
+#: $string['savechangesandview']
+msgid "Save and view"
+msgstr ""
+
+#: $string['securityparams']
+msgid "Security and performance settings"
+msgstr ""
+
+#: $string['setup']
+msgid "Setup"
+msgstr ""
+
+#: $string['sqlinserts']
+msgid "SQL INSERTs"
+msgstr ""
+
+#: $string['sqlparamlabel']
+msgid "Label"
+msgstr ""
+
+#: $string['sqlparamtype']
+msgid "Type"
+msgstr ""
+
+#: $string['sqlparamvalues']
+msgid "Values"
+msgstr ""
+
+#: $string['sqlparamvar']
+msgid "SQL Variable Name"
+msgstr ""
+
+#: $string['subtotal']
+msgid "Subtotal"
+msgstr ""
+
+#: $string['summatorsparams']
+msgid "Summators settings"
+msgstr ""
+
+#: $string['sunday']
+msgid "Sunday"
+msgstr ""
+
+#: $string['tablecolormapping']
+msgid "Output table color mapping"
+msgstr ""
+
+#: $string['tabular']
+msgid "Tabular"
+msgstr ""
+
+#: $string['tabularparams']
+msgctxt "$string['tabularparams']"
+msgid "Tabular layout extra settings"
+msgstr ""
+
+#: $string['task_exportdata']
+msgid "Data automated export"
+msgstr ""
+
+#: $string['textvalue']
+msgid "Text"
+msgstr ""
+
+#: $string['thursday']
+msgid "Thursday"
+msgstr ""
+
+#: $string['timegraph']
+msgid "Time curves"
+msgstr ""
+
+#: $string['timeline']
+msgid "Timeline"
+msgstr ""
+
+#: $string['timelinecolorfield']
+msgid "Timeline colouring field"
+msgstr ""
+
+#: $string['timelineparams']
+msgid "Timeline extra settings"
+msgstr ""
+
+#: $string['to']
+msgid "to"
+msgstr ""
+
+#: $string['toomanyrecordsusepaging']
+msgid "This query has too many results. Paging for this query has been forced"
+msgstr ""
+
+#: $string['total']
+msgid "Total"
+msgstr ""
+
+#: $string['treeview']
+msgid "Tree view"
+msgstr ""
+
+#: $string['treeviewparams']
+msgid "Tree view extra settings"
+msgstr ""
+
+#: $string['tuesday']
+msgid "Tuesday"
+msgstr ""
+
+#: $string['viewdashboard']
+msgid "View dashboard"
+msgstr ""
+
+#: $string['wednesday']
+msgid "Wednesday"
+msgstr ""
+
+#: $string['week']
+msgid "Week"
+msgstr ""
+
+#: $string['year']
+msgid "Year"
+msgstr ""

@@ -1,0 +1,150 @@
+#. extracted from lang/en/portfolio_boxnet.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'portfolio_boxnet', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   portfolio_boxnet
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['clientid']
+msgid "Client ID"
+msgstr ""
+
+#: $string['clientsecret']
+msgid "Client secret"
+msgstr ""
+
+#: $string['existingfolder']
+msgid "Existing folder to put file(s) into"
+msgstr ""
+
+#: $string['folderclash']
+msgid "The folder you asked to create already exists!"
+msgstr ""
+
+#: $string['foldercreatefailed']
+msgid "Failed to create your target folder on Box"
+msgstr ""
+
+#: $string['folderlistfailed']
+msgid "Failed to retrieve a folder listing from Box"
+msgstr ""
+
+#: $string['missinghttps']
+msgid "HTTPS required"
+msgstr ""
+
+#: $string['missinghttps_help']
+msgid "Box will only work with an HTTPS enabled website."
+msgstr ""
+
+#: $string['missingoauthkeys']
+msgid "Missing client ID and secret"
+msgstr ""
+
+#: $string['missingoauthkeys_help']
+msgid ""
+"There is no client ID or secret configured for this plugin. You can get one "
+"of these from Box development page."
+msgstr ""
+
+#: $string['newfolder']
+msgid "New folder to put file(s) into"
+msgstr ""
+
+#: $string['noauthtoken']
+msgid "Could not retrieve an authentication token for use in this session"
+msgstr ""
+
+#: $string['notarget']
+msgid ""
+"You must specify either an existing folder or a new folder to upload into"
+msgstr ""
+
+#: $string['noticket']
+msgid ""
+"Could not retrieve a ticket from Box to begin the authentication session"
+msgstr ""
+
+#: $string['password']
+msgid "Your Box password (will not be stored)"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Box"
+msgstr ""
+
+#: $string['sendfailed']
+msgid "Failed to send content to Box: {$a}"
+msgstr ""
+
+#: $string['setupinfo']
+msgid "Setup instructions"
+msgstr ""
+
+#: $string['setupinfodetails']
+msgid ""
+"To obtain a client ID and secret, log in to Box and visit the <a "
+"href=\"{$a->servicesurl}\">Box developers page</a>. Follow 'Create new "
+"application' and create a new application for your Moodle site. The client "
+"ID and secret are displayed in the 'OAuth2 parameters' section of the "
+"application edit form. Optionally, you can also provide other information "
+"about your Moodle site."
+msgstr ""
+
+#: $string['sharedfolder']
+msgid "Shared"
+msgstr ""
+
+#: $string['sharefile']
+msgid "Share this file?"
+msgstr ""
+
+#: $string['sharefolder']
+msgid "Share this new folder?"
+msgstr ""
+
+#: $string['targetfolder']
+msgid "Target folder"
+msgstr ""
+
+#: $string['tobecreated']
+msgid "To be created"
+msgstr ""
+
+#: $string['username']
+msgid "Your Box username (will not be stored)"
+msgstr ""
+
+#: $string['warninghttps']
+msgid ""
+"Box requires your website to be using HTTPS in order for the portfolio to "
+"work."
+msgstr ""

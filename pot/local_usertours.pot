@@ -1,0 +1,389 @@
+#. extracted from lang/en/local_usertours.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'local_usertours', language 'en', branch 'MOODLE_31_STABLE'
+#.  *
+#.  * @package   local_usertours
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['actions']
+msgid "Actions"
+msgstr ""
+
+#: $string['appliesto']
+msgid "Applies to"
+msgstr ""
+
+#: $string['backdrop']
+msgid "Show with backdrop"
+msgstr ""
+
+#: $string['backdrop_help']
+msgid ""
+"You can use a backdrop to highlight the part of the page that you are "
+"pointing to.\n"
+"\n"
+"Note: Backdrops are not compatible with some parts of the page such as the "
+"navigation bar."
+msgstr ""
+
+#: $string['block']
+msgctxt "$string['block']"
+msgid "Block"
+msgstr ""
+
+#: $string['block_named']
+msgid "Block named '{$a}\\"
+msgstr ""
+
+#: $string['bottom']
+msgid "Bottom"
+msgstr ""
+
+#: $string['confirmstepremovalquestion']
+msgid "Are you sure that you wish to remove this step?"
+msgstr ""
+
+#: $string['confirmstepremovaltitle']
+msgid "Confirm step removal"
+msgstr ""
+
+#: $string['confirmtourremovalquestion']
+msgid "Are you sure that you wish to remove this tour?"
+msgstr ""
+
+#: $string['confirmtourremovaltitle']
+msgid "Confirm tour removal"
+msgstr ""
+
+#: $string['content']
+msgid "Content"
+msgstr ""
+
+#: $string['content_help']
+msgid ""
+"This is the content of the step.\n"
+"You can enter a content in the following formats:\n"
+"<dl>\n"
+"    <dt>Plain text</dt>\n"
+"    <dd>A plain text description</dd>\n"
+"    <dt>Moodle MultiLang</dt>\n"
+"    <dd>A string which makes use of the Moodle MultiLang format</dd>\n"
+"    <dt>Moodle Translated string</dt>\n"
+"    <dd>A value found in a standard Moodle language file in the format "
+"identifier,component</dd>\n"
+"</dl>"
+msgstr ""
+
+#: $string['cssselector']
+msgid "CSS Selector"
+msgstr ""
+
+#: $string['defaultvalue']
+msgid "Default ({$a})"
+msgstr ""
+
+#: $string['delay']
+msgid "Delay before showing the step"
+msgstr ""
+
+#: $string['delay_help']
+msgid ""
+"You can optionally choose to add a delay before the step is displayed.\n"
+"\n"
+"This delay is in milliseconds."
+msgstr ""
+
+#: $string['description']
+msgid "Description"
+msgstr ""
+
+#: $string['done']
+msgid "Done"
+msgstr ""
+
+#: $string['editstep']
+msgid "Editing \"{$a}\""
+msgstr ""
+
+#: $string['enabled']
+msgid "Enabled"
+msgstr ""
+
+#: $string['endtour']
+msgid "End tour"
+msgstr ""
+
+#: $string['exporttour']
+msgid "Export tour"
+msgstr ""
+
+#: $string['importtour']
+msgid "Import tour"
+msgstr ""
+
+#: $string['left']
+msgid "Left"
+msgstr ""
+
+#: $string['movestepdown']
+msgid "Move step down"
+msgstr ""
+
+#: $string['movestepup']
+msgid "Move step up"
+msgstr ""
+
+#: $string['movetourdown']
+msgid "Move tour down"
+msgstr ""
+
+#: $string['movetourup']
+msgid "Move tour up"
+msgstr ""
+
+#: $string['name']
+msgid "Name"
+msgstr ""
+
+#: $string['newstep']
+msgid "New step"
+msgstr ""
+
+#: $string['newtour']
+msgid "Create a new tour"
+msgstr ""
+
+#: $string['next']
+msgid "Next"
+msgstr ""
+
+#: $string['orphan']
+msgid "Show if target not found"
+msgstr ""
+
+#: $string['orphan_help']
+msgid "Show the step if the target could not be found on the page."
+msgstr ""
+
+#: $string['pathmatch']
+msgid "Apply to URL match"
+msgstr ""
+
+#: $string['pathmatch_help']
+msgid ""
+"Tours will be displayed on any page whose URL matches this value.\n"
+"\n"
+"You can use the % character as a wildcard to mean anything.\n"
+"Some example values include:\n"
+"\n"
+"* /my/% - to match the Dashboard\n"
+"* /course/view.php?id=2 - to match a specific course\n"
+"* /mod/forum/view.php% - to match the forum discussion list\n"
+"* /user/profile.php% - to match the user profile page"
+msgstr ""
+
+#: $string['pausetour']
+msgid "Pause"
+msgstr ""
+
+#: $string['placement']
+msgid "Placement"
+msgstr ""
+
+#: $string['placement_help']
+msgid ""
+"You can place a step either above, below, to the left of, or to the right of "
+"the target.\n"
+"\n"
+"The best options are top, or bottom as these adjust better for mobile "
+"display."
+msgstr ""
+
+#: $string['pluginname']
+msgid "User Tours"
+msgstr ""
+
+#: $string['reflex']
+msgid "Move on click"
+msgstr ""
+
+#: $string['reflex_help']
+msgid "Move on to the next step when the target is clicked on."
+msgstr ""
+
+#: $string['resettouronpage']
+msgid "Reset user tour on this page"
+msgstr ""
+
+#: $string['resumetour']
+msgid "Resume"
+msgstr ""
+
+#: $string['right']
+msgid "Right"
+msgstr ""
+
+#: $string['select_block']
+msgid "Select a block"
+msgstr ""
+
+#: $string['selector_defaulttitle']
+msgid "Enter a descriptive title"
+msgstr ""
+
+#: $string['selectordisplayname']
+msgid "A CSS selector matching '{$a}\\"
+msgstr ""
+
+#: $string['select_targettype']
+msgid ""
+"Every step is associated with a part of the page which you must choose. To "
+"make this easier there are several types of target for different types of "
+"page content.\n"
+"<dl>\n"
+"    <dt>Block</dt>\n"
+"    <dd>Display the step next to the first matching block of the type on the "
+"page</dd>\n"
+"    <dt>Selector</dt>\n"
+"    <dd>CSS Selectors are a powerful way which allow you to select different "
+"parts of the page based on metadata built into the page.</dd>\n"
+"    <dt>Display in middle of the page</dt>\n"
+"    <dd>Instead of associating the step with a specific part of the page you "
+"can have it displayed in the middle of the page.</dd>\n"
+"</dl>"
+msgstr ""
+
+#: $string['selecttype']
+msgid "Select step type"
+msgstr ""
+
+#: $string['sharedtourslink']
+msgid "Tour repository"
+msgstr ""
+
+#: $string['skip']
+msgid "Skip"
+msgstr ""
+
+#: $string['target']
+msgid "Target"
+msgstr ""
+
+#: $string['target_block']
+msgctxt "$string['target_block']"
+msgid "Block"
+msgstr ""
+
+#: $string['target_selector']
+msgid "Selector"
+msgstr ""
+
+#: $string['target_selector_targetvalue']
+msgid "CSS Selectors"
+msgstr ""
+
+#: $string['target_selector_targetvalue_help']
+msgid ""
+"You can use a \"CSS Selector\" to target almost any element on the page.\n"
+"\n"
+"CSS Selectors are very powerful and you can easily find parts of the page by "
+"building up the selector gradually.\n"
+"\n"
+"Mozilla provide some [very good\n"
+"documentation](https://developer.mozilla.org/en/docs/Web/Guide/CSS/Getting_s"
+"tarted/Selectors)\n"
+"for selectors which may help you to build your selectors.\n"
+"\n"
+"You will also find your browser's developer tools to be extremely useful in "
+"creating these selectors:\n"
+"\n"
+"* [Google Chrome](https://developer.chrome.com/devtools#dom-and-styles)\n"
+"* [Mozilla Firefox](https://developer.mozilla.org/en-"
+"US/docs/Tools/DOM_Property_Viewer)\n"
+"* [Microsoft Edge](https://developer.microsoft.com/en-us/microsoft-"
+"edge/platform/documentation/f12-devtools-guide/)\n"
+"* [Apple Safari](https://developer.apple.com/library/iad/documentation/Apple"
+"Applications/Conceptual/Safari_Developer_Guide/ResourcesandtheDOM/Resourcesa"
+"ndtheDOM.html#//apple_ref/doc/uid/TP40007874-CH3-SW1)"
+msgstr ""
+
+#: $string['targettype']
+msgid "Target type"
+msgstr ""
+
+#: $string['target_unattached']
+msgid "Display in middle of page"
+msgstr ""
+
+#: $string['title']
+msgid "Title"
+msgstr ""
+
+#: $string['title_help']
+msgid ""
+"This is the title shown at the top of the step.\n"
+"You can enter a title in the following formats:\n"
+"<dl>\n"
+"    <dt>Plain text</dt>\n"
+"    <dd>A plain text description</dd>\n"
+"    <dt>Moodle MultiLang</dt>\n"
+"    <dd>A string which makes use of the Moodle MultiLang format</dd>\n"
+"    <dt>Moodle Translated string</dt>\n"
+"    <dd>A value found in a standard Moodle language file in the format "
+"identifier,component</dd>\n"
+"</dl>"
+msgstr ""
+
+#: $string['top']
+msgid "Top"
+msgstr ""
+
+#: $string['tourconfig']
+msgid "Tour configuration file to import"
+msgstr ""
+
+#: $string['tourlist_explanation']
+msgid ""
+"You can create as many tours as you like and enable them for different parts "
+"of Moodle. Only one tour can be created per page."
+msgstr ""
+
+#: $string['tours']
+msgid "Tours"
+msgstr ""
+
+#: $string['usertours']
+msgid "User tours"
+msgstr ""
+
+#: $string['viewtour_info']
+msgid "This is the '{$a->tourname}' tour. It applies to the path '{$a->path}'."
+msgstr ""

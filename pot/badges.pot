@@ -1,0 +1,1678 @@
+#. extracted from lang/en/badges.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'badges', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   badges
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['actions']
+msgid "Actions"
+msgstr ""
+
+#: $string['activate']
+msgid "Enable access"
+msgstr ""
+
+#: $string['activatesuccess']
+msgid "Access to the badges was successfully enabled."
+msgstr ""
+
+#: $string['addbadge']
+msgid "Add a badge as criteria"
+msgstr ""
+
+#: $string['addbadgecriteria']
+msgid "Add badge criteria"
+msgstr ""
+
+#: $string['addbadge_help']
+msgid ""
+"Select all badges that should be added to this badge requirement. Hold CTRL "
+"key to select multiple items."
+msgstr ""
+
+#: $string['addcourse']
+msgid "Add courses"
+msgstr ""
+
+#: $string['addcourse_help']
+msgid ""
+"Select all courses that should be added to this badge requirement. Hold CTRL "
+"key to select multiple items."
+msgstr ""
+
+#: $string['addcriteria']
+msgid "Add criteria"
+msgstr ""
+
+#: $string['addcriteriatext']
+msgid ""
+"To start adding criteria, please select one of the options from the drop-"
+"down menu."
+msgstr ""
+
+#: $string['addtobackpack']
+msgid "Add to backpack"
+msgstr ""
+
+#: $string['adminonly']
+msgid "This page is restricted to site administrators only."
+msgstr ""
+
+#: $string['after']
+msgid "after the date of issue."
+msgstr ""
+
+#: $string['aggregationmethod']
+msgid "Aggregation method"
+msgstr ""
+
+#: $string['all']
+msgid "All"
+msgstr ""
+
+#: $string['allmethod']
+msgid "All of the selected conditions are met"
+msgstr ""
+
+#: $string['allmethodactivity']
+msgid "All of the selected activities are complete"
+msgstr ""
+
+#: $string['allmethodbadges']
+msgid "All of the selected badges have been earned"
+msgstr ""
+
+#: $string['allmethodcourseset']
+msgid "All of the selected courses are complete"
+msgstr ""
+
+#: $string['allmethodmanual']
+msgid "All of the selected roles award the badge"
+msgstr ""
+
+#: $string['allmethodprofile']
+msgid "All of the selected profile fields have been completed"
+msgstr ""
+
+#: $string['allowcoursebadges']
+msgid "Enable course badges"
+msgstr ""
+
+#: $string['allowcoursebadges_desc']
+msgid "Allow badges to be created and awarded in the course context."
+msgstr ""
+
+#: $string['allowexternalbackpack']
+msgid "Enable connection to external backpacks"
+msgstr ""
+
+#: $string['allowexternalbackpack_desc']
+msgid ""
+"Allow users to set up connections and display badges from their external "
+"backpack providers.\n"
+"\n"
+"Note: It is recommended to leave this option disabled if the website cannot "
+"be accessed from the Internet (e.g. because of the firewall)."
+msgstr ""
+
+#: $string['any']
+msgid "Any"
+msgstr ""
+
+#: $string['anymethod']
+msgid "Any of the selected conditions is met"
+msgstr ""
+
+#: $string['anymethodactivity']
+msgid "Any of the selected activities is complete"
+msgstr ""
+
+#: $string['anymethodbadges']
+msgid "Any of the selected badges have been earned"
+msgstr ""
+
+#: $string['anymethodcourseset']
+msgid "Any of the selected courses is complete"
+msgstr ""
+
+#: $string['anymethodmanual']
+msgid "Any of the selected roles awards the badge"
+msgstr ""
+
+#: $string['anymethodprofile']
+msgid "Any of the selected profile fields has been completed"
+msgstr ""
+
+#: $string['archivebadge']
+msgid "Would you like to delete badge '{$a}', but keep existing issued badges?"
+msgstr ""
+
+#: $string['archiveconfirm']
+msgid "Delete and keep existing issued badges"
+msgstr ""
+
+#: $string['archivehelp']
+msgid ""
+"<p>This option means that the badge will be marked as \"retired\" and will no "
+"longer appear in the list of badges. Users will no longer be able to earn "
+"this badge, however existing badge recipients will still be able to display "
+"this badge on their profile page and push it to their external "
+"backpacks.</p>\n"
+"<p>If you would like your users to retain access to the earned badges it is "
+"important to select this option instead of fully deleting badges.</p>"
+msgstr ""
+
+#: $string['attachment']
+msgid "Attach badge to message"
+msgstr ""
+
+#: $string['attachment_help']
+msgid ""
+"If enabled, an issued badge file will be attached to the recipient's email "
+"for download. (Attachments must be enabled in Site administration > Plugins "
+"> Message outputs > Email to use this option.)"
+msgstr ""
+
+#: $string['award']
+msgid "Award badge"
+msgstr ""
+
+#: $string['awardedtoyou']
+msgid "Issued to me"
+msgstr ""
+
+#: $string['awardoncron']
+msgid ""
+"Access to the badges was successfully enabled. Too many users can instantly "
+"earn this badge. To ensure site performance, this action will take some time "
+"to process."
+msgstr ""
+
+#: $string['awards']
+msgid "Recipients"
+msgstr ""
+
+#: $string['backpackavailability']
+msgid "External badge verification"
+msgstr ""
+
+#: $string['backpackavailability_help']
+msgid ""
+"For badge recipients to be able to prove they earned their badges from you, "
+"an external backpack service should be able to access your site and verify "
+"badges issued from it. Your site does not currently appear to be accessible, "
+"which means that badges you have already issued or will issue in the future "
+"cannot be verified.\n"
+"\n"
+"**Why am I seeing this message?**\n"
+"\n"
+"It may be that your firewall prevents access from users outside your "
+"network, your site is password protected, or you are running the site on a "
+"computer that is not available from the Internet (such as a local "
+"development machine).\n"
+"\n"
+"**Is this a problem?**\n"
+"\n"
+"You should fix this issue on any production site where you are planning to "
+"issue badges, otherwise the recipients will not be able to prove they earned "
+"their badges from you. If your site is not yet live you can create and "
+"issue test badges, as long as the site is accessible before you go live.\n"
+"\n"
+"**What if I can't make my whole site publicly accessible?**\n"
+"\n"
+"The only URL required for verification is [your-site-"
+"url]/badges/assertion.php so if you are able to modify your firewall to "
+"allow external access to that file, badge verification will still work."
+msgstr ""
+
+#: $string['backpackbadges']
+msgid ""
+"You have {$a->totalbadges} badge(s) displayed from {$a->totalcollections} "
+"collection(s). <a href=\"mybackpack.php\">Change backpack settings</a>."
+msgstr ""
+
+#: $string['backpackcannotsendverification']
+msgid "Cannot send verification email"
+msgstr ""
+
+#: $string['backpackconnection']
+msgid "Backpack connection"
+msgstr ""
+
+#: $string['backpackconnectioncancelattempt']
+msgid "Connect using a different email address"
+msgstr ""
+
+#: $string['backpackconnectionconnect']
+msgid "Connect to backpack"
+msgstr ""
+
+#: $string['backpackconnection_help']
+msgid ""
+"This page allows you to set up connection to an external backpack provider. "
+"Connecting to a backpack lets you display external badges within this site "
+"and push badges earned here to your backpack.\n"
+"\n"
+"Currently, only <a href=\"http://backpack.openbadges.org\">Mozilla OpenBadges "
+"Backpack</a> is supported. You need to sign up for a backpack service before "
+"trying to set up backpack connection on this page."
+msgstr ""
+
+#: $string['backpackconnectionresendemail']
+msgid "Resend verification email"
+msgstr ""
+
+#: $string['backpackconnectionunexpectedresult']
+msgid ""
+"There was a problem connecting to your backpack. Please try again.<br><br>If "
+"the problem persists, contact your administrator."
+msgstr ""
+
+#: $string['backpackdetails']
+msgid "Backpack settings"
+msgstr ""
+
+#: $string['backpackemail']
+msgid "Email address"
+msgstr ""
+
+#: $string['backpackemail_help']
+msgid ""
+"The email address associated with your backpack. While you are connected, "
+"any badges earned on this site will be associated with this email address."
+msgstr ""
+
+#: $string['backpackemailverificationpending']
+msgid "Verification pending"
+msgstr ""
+
+#: $string['backpackemailverifyemailbody']
+msgid ""
+"Hi,\n"
+"\n"
+"A new connection to your OpenBadges backpack has been requested from "
+"'{$a->sitename}' using your email address.\n"
+"\n"
+"To confirm and activate the connection to your backpack, please go to\n"
+"\n"
+"{$a->link}\n"
+"\n"
+"In most mail programs, this should appear as a blue link which you can just "
+"click on. If that doesn't work, then cut and paste the address into the "
+"address line at the top of your web browser.\n"
+"\n"
+"If you need help, please contact the site administrator,\n"
+"{$a->admin}"
+msgstr ""
+
+#: $string['backpackemailverifyemailsubject']
+msgid "{$a}: OpenBadges Backpack email verification"
+msgstr ""
+
+#: $string['backpackemailverifypending']
+msgid ""
+"A verification email has been sent to <strong>{$a}</strong>. Click on the "
+"verification link in the email to activate your Backpack connection."
+msgstr ""
+
+#: $string['backpackemailverifysuccess']
+msgid ""
+"Thanks for verifying your email address. You are now connected to your "
+"backpack."
+msgstr ""
+
+#: $string['backpackemailverifytokenmismatch']
+msgid ""
+"The token in the link you clicked does not match the stored token. Make sure "
+"you clicked the link in most recent email you received."
+msgstr ""
+
+#: $string['backpackimport']
+msgid "Badge import settings"
+msgstr ""
+
+#: $string['backpackimport_help']
+msgid ""
+"After the backpack connection is successfully established, badges from your "
+"backpack can be displayed on your badges page and your profile page.\n"
+"\n"
+"In this area, you can select collections of badges from your backpack that "
+"you would like to display in your profile."
+msgstr ""
+
+#: $string['badgedetails']
+msgid "Badge details"
+msgstr ""
+
+#: $string['badgeimage']
+msgid "Image"
+msgstr ""
+
+#: $string['badgeimage_help']
+msgid ""
+"This is an image that will be used when this badge is issued.\n"
+"\n"
+"To add a new image, browse and select an image (in JPG or PNG format) then "
+"click \"Save changes\". The image will be cropped to a square and resized to "
+"match badge image requirements."
+msgstr ""
+
+#: $string['badgeprivacysetting']
+msgid "Badge privacy settings"
+msgstr ""
+
+#: $string['badgeprivacysetting_help']
+msgid ""
+"Badges you earn can be displayed on your account profile page. This setting "
+"allows you to automatically set the visibility of the newly earned badges.\n"
+"\n"
+"You can still control individual badge privacy settings on your badges page."
+msgstr ""
+
+#: $string['badgeprivacysetting_str']
+msgid "Automatically show badges I earn on my profile page"
+msgstr ""
+
+#: $string['badges']
+msgctxt "$string['badges']"
+msgid "Badges"
+msgstr ""
+
+#: $string['badgesalt']
+msgid "Salt for hashing the recipient's email address"
+msgstr ""
+
+#: $string['badgesalt_desc']
+msgid ""
+"Using a hash allows backpack services to confirm the badge earner without "
+"having to expose their email address. This setting should only use numbers "
+"and letters.\n"
+"\n"
+"Note: For recipient verification purposes, please avoid changing this "
+"setting once you start issuing badges."
+msgstr ""
+
+#: $string['badgesdisabled']
+msgid "Badges are not enabled on this site."
+msgstr ""
+
+#: $string['badgesearned']
+msgid "Number of badges earned: {$a}"
+msgstr ""
+
+#: $string['badgesettings']
+msgid "Badges settings"
+msgstr ""
+
+#: $string['badgestatus_0']
+msgctxt "$string['badgestatus_0']"
+msgid "Not available to users"
+msgstr ""
+
+#: $string['badgestatus_1']
+msgctxt "$string['badgestatus_1']"
+msgid "Available to users"
+msgstr ""
+
+#: $string['badgestatus_2']
+msgctxt "$string['badgestatus_2']"
+msgid "Not available to users"
+msgstr ""
+
+#: $string['badgestatus_3']
+msgctxt "$string['badgestatus_3']"
+msgid "Available to users"
+msgstr ""
+
+#: $string['badgestatus_4']
+msgid "Archived"
+msgstr ""
+
+#: $string['badgestoearn']
+msgid "Number of badges available: {$a}"
+msgstr ""
+
+#: $string['badgesview']
+msgid "Course badges"
+msgstr ""
+
+#: $string['badgeurl']
+msgid "Issued badge link"
+msgstr ""
+
+#: $string['bawards']
+msgid "Recipients ({$a})"
+msgstr ""
+
+#: $string['bcriteria']
+msgid "Criteria"
+msgstr ""
+
+#: $string['bdetails']
+msgid "Edit details"
+msgstr ""
+
+#: $string['bmessage']
+msgid "Message"
+msgstr ""
+
+#: $string['boverview']
+msgid "Overview"
+msgstr ""
+
+#: $string['bydate']
+msgid "complete by"
+msgstr ""
+
+#: $string['clearsettings']
+msgid "Clear settings"
+msgstr ""
+
+#: $string['completioninfo']
+msgid "This badge was issued for completing:"
+msgstr ""
+
+#: $string['completionnotenabled']
+msgid ""
+"Course completion is not enabled for this course, so it cannot be included "
+"in badge criteria. Course completion may be enabled in the course settings."
+msgstr ""
+
+#: $string['configenablebadges']
+msgid ""
+"When enabled, this feature lets you create badges and award them to site "
+"users."
+msgstr ""
+
+#: $string['configuremessage']
+msgid "Badge message"
+msgstr ""
+
+#: $string['connect']
+msgid "Connect"
+msgstr ""
+
+#: $string['connected']
+msgid "Connected"
+msgstr ""
+
+#: $string['connecting']
+msgid "Connecting..."
+msgstr ""
+
+#: $string['contact']
+msgid "Contact"
+msgstr ""
+
+#: $string['contact_help']
+msgctxt "$string['contact_help']"
+msgid "An email address associated with the badge issuer."
+msgstr ""
+
+#: $string['copyof']
+msgid "Copy of {$a}"
+msgstr ""
+
+#: $string['coursebadges']
+msgctxt "$string['coursebadges']"
+msgid "Badges"
+msgstr ""
+
+#: $string['coursebadgesdisabled']
+msgid "Course badges are not enabled on this site."
+msgstr ""
+
+#: $string['coursecompletion']
+msgid "Users must complete this course."
+msgstr ""
+
+#: $string['create']
+msgid "New badge"
+msgstr ""
+
+#: $string['createbutton']
+msgid "Create badge"
+msgstr ""
+
+#: $string['creatorbody']
+msgid ""
+"<p>{$a->user} has completed all badge requirements and has been awarded the "
+"badge. View issued badge at {$a->link} </p>"
+msgstr ""
+
+#: $string['creatorsubject']
+msgid "'{$a}' has been awarded!"
+msgstr ""
+
+#: $string['criteria_0']
+msgid "This badge is awarded when..."
+msgstr ""
+
+#: $string['criteria_1']
+msgid "Activity completion"
+msgstr ""
+
+#: $string['criteria_1_help']
+msgid ""
+"Allows a badge to be awarded to users based on the completion of a set of "
+"activities within a course."
+msgstr ""
+
+#: $string['criteria_2']
+msgid "Manual issue by role"
+msgstr ""
+
+#: $string['criteria_2_help']
+msgid ""
+"Allows a badge to be awarded manually by users who have a particular role "
+"within the site or course."
+msgstr ""
+
+#: $string['criteria_3']
+msgid "Social participation"
+msgstr ""
+
+#: $string['criteria_3_help']
+msgid "Social"
+msgstr ""
+
+#: $string['criteria_4']
+msgid "Course completion"
+msgstr ""
+
+#: $string['criteria_4_help']
+msgid ""
+"Allows a badge to be awarded to users who have completed the course. This "
+"criterion can have additional parameters such as minimum grade and date of "
+"course completion."
+msgstr ""
+
+#: $string['criteria_5']
+msgid "Completing a set of courses"
+msgstr ""
+
+#: $string['criteria_5_help']
+msgid ""
+"Allows a badge to be awarded to users who have completed a set of courses. "
+"Each course can have additional parameters such as minimum grade and date of "
+"course completion."
+msgstr ""
+
+#: $string['criteria_6']
+msgid "Profile completion"
+msgstr ""
+
+#: $string['criteria_6_help']
+msgid ""
+"Allows a badge to be awarded to users for completing certain fields in their "
+"profile. You can select from default and custom profile fields that are "
+"available to users."
+msgstr ""
+
+#: $string['criteria_7']
+msgid "Awarded badges"
+msgstr ""
+
+#: $string['criteria_7_help']
+msgid ""
+"Allows a badge to be awarded to users based on the other badges thay have "
+"earned."
+msgstr ""
+
+#: $string['criteriacreated']
+msgid "Badge criteria successfully created"
+msgstr ""
+
+#: $string['criteriadeleted']
+msgid "Badge criteria successfully deleted"
+msgstr ""
+
+#: $string['criteria_descr']
+msgid ""
+"Users are awarded this badge when they complete the following requirement:"
+msgstr ""
+
+#: $string['criteria_descr_0']
+msgid ""
+"Users are awarded this badge when they complete <strong>{$a}</strong> of the "
+"listed requirements."
+msgstr ""
+
+#: $string['criteria_descr_1']
+msgid "<strong>{$a}</strong> of the following activities are completed:"
+msgstr ""
+
+#: $string['criteria_descr_2']
+msgid ""
+"This badge has to be awarded by the users with <strong>{$a}</strong> of the "
+"following roles:"
+msgstr ""
+
+#: $string['criteria_descr_4']
+msgctxt "$string['criteria_descr_4']"
+msgid "Users must complete the course"
+msgstr ""
+
+#: $string['criteria_descr_5']
+msgid "<strong>{$a}</strong> of the following courses have to be completed:"
+msgstr ""
+
+#: $string['criteria_descr_6']
+msgid ""
+"<strong>{$a}</strong> of the following user profile fields have to be "
+"completed:"
+msgstr ""
+
+#: $string['criteria_descr_7']
+msgid "<strong>{$a}</strong> of the following badges have to be earned:"
+msgstr ""
+
+#: $string['criteria_descr_bydate']
+msgid "by <em>{$a}</em>"
+msgstr ""
+
+#: $string['criteria_descr_grade']
+msgid "with minimum grade of <em>{$a}</em>"
+msgstr ""
+
+#: $string['criteria_descr_short0']
+msgctxt "$string['criteria_descr_short0']"
+msgid "Complete <strong>{$a}</strong> of:"
+msgstr ""
+
+#: $string['criteria_descr_short1']
+msgctxt "$string['criteria_descr_short1']"
+msgid "Complete <strong>{$a}</strong> of:"
+msgstr ""
+
+#: $string['criteria_descr_short2']
+msgid "Awarded by <strong>{$a}</strong> of:"
+msgstr ""
+
+#: $string['criteria_descr_short4']
+msgctxt "$string['criteria_descr_short4']"
+msgid "Complete the course"
+msgstr ""
+
+#: $string['criteria_descr_short5']
+msgctxt "$string['criteria_descr_short5']"
+msgid "Complete <strong>{$a}</strong> of:"
+msgstr ""
+
+#: $string['criteria_descr_short6']
+msgctxt "$string['criteria_descr_short6']"
+msgid "Complete <strong>{$a}</strong> of:"
+msgstr ""
+
+#: $string['criteria_descr_short7']
+msgctxt "$string['criteria_descr_short7']"
+msgid "Complete <strong>{$a}</strong> of:"
+msgstr ""
+
+#: $string['criteria_descr_single_1']
+msgid "The following activity has to be completed:"
+msgstr ""
+
+#: $string['criteria_descr_single_2']
+msgid "This badge has to be awarded by a user with the following role:"
+msgstr ""
+
+#: $string['criteria_descr_single_4']
+msgctxt "$string['criteria_descr_single_4']"
+msgid "Users must complete the course"
+msgstr ""
+
+#: $string['criteria_descr_single_5']
+msgid "The following course has to be completed:"
+msgstr ""
+
+#: $string['criteria_descr_single_6']
+msgid "The following user profile field has to be completed:"
+msgstr ""
+
+#: $string['criteria_descr_single_7']
+msgid "The following badge has to be earned:"
+msgstr ""
+
+#: $string['criteria_descr_single_short1']
+msgctxt "$string['criteria_descr_single_short1']"
+msgid "Complete:"
+msgstr ""
+
+#: $string['criteria_descr_single_short2']
+msgid "Awarded by:"
+msgstr ""
+
+#: $string['criteria_descr_single_short4']
+msgctxt "$string['criteria_descr_single_short4']"
+msgid "Complete the course"
+msgstr ""
+
+#: $string['criteria_descr_single_short5']
+msgctxt "$string['criteria_descr_single_short5']"
+msgid "Complete:"
+msgstr ""
+
+#: $string['criteria_descr_single_short6']
+msgctxt "$string['criteria_descr_single_short6']"
+msgid "Complete:"
+msgstr ""
+
+#: $string['criteria_descr_single_short7']
+msgctxt "$string['criteria_descr_single_short7']"
+msgid "Complete:"
+msgstr ""
+
+#: $string['criteriasummary']
+msgid "Criteria summary"
+msgstr ""
+
+#: $string['criteriaupdated']
+msgid "Badge criteria successfully updated"
+msgstr ""
+
+#: $string['criterror']
+msgid "Current parameters issues"
+msgstr ""
+
+#: $string['criterror_help']
+msgid ""
+"This fieldset shows all parameters that were initially added to this badge "
+"requirement but are no longer available. It is recommended that you un-check "
+"such parameters to make sure that users can earn this badge in the future."
+msgstr ""
+
+#: $string['currentimage']
+msgid "Current image"
+msgstr ""
+
+#: $string['currentstatus']
+msgid "Current status:"
+msgstr ""
+
+#: $string['dateawarded']
+msgid "Date issued"
+msgstr ""
+
+#: $string['dateearned']
+msgid "Date: {$a}"
+msgstr ""
+
+#: $string['day']
+msgid "Day(s)"
+msgstr ""
+
+#: $string['deactivate']
+msgid "Disable access"
+msgstr ""
+
+#: $string['deactivatesuccess']
+msgid "Access to the badges was successfully disabled."
+msgstr ""
+
+#: $string['defaultissuercontact']
+msgid "Default badge issuer contact details"
+msgstr ""
+
+#: $string['defaultissuercontact_desc']
+msgctxt "$string['defaultissuercontact_desc']"
+msgid "An email address associated with the badge issuer."
+msgstr ""
+
+#: $string['defaultissuername']
+msgid "Default badge issuer name"
+msgstr ""
+
+#: $string['defaultissuername_desc']
+msgctxt "$string['defaultissuername_desc']"
+msgid "Name of the issuing agent or authority."
+msgstr ""
+
+#: $string['delbadge']
+msgid ""
+"Would you like to delete badge '{$a}' and remove all existing issued badges?"
+msgstr ""
+
+#: $string['delconfirm']
+msgid "Delete and remove existing issued badges"
+msgstr ""
+
+#: $string['delcritconfirm']
+msgid "Are you sure that you want to delete this criterion?"
+msgstr ""
+
+#: $string['deletehelp']
+msgid ""
+"<p>Fully deleting a badge means that all its information and criteria "
+"records will be permanently removed. Users who have earned this badge will "
+"no longer be able to access it and display it on their profile pages.</p>\n"
+"<p>Note: Users who have earned this badge and have already pushed it to "
+"their external backpack, will still have this badge in their external "
+"backpack. However, they will not be able to access criteria and evidence "
+"pages linking back to this web site.</p>"
+msgstr ""
+
+#: $string['delparamconfirm']
+msgid "Are you sure that you want to delete this parameter?"
+msgstr ""
+
+#: $string['description']
+msgid "Description"
+msgstr ""
+
+#: $string['disconnect']
+msgid "Disconnect"
+msgstr ""
+
+#: $string['donotaward']
+msgid ""
+"Currently, this badge is not active, so it cannot be awarded to users. If "
+"you would like to award this badge, please set its status to active."
+msgstr ""
+
+#: $string['editsettings']
+msgid "Edit settings"
+msgstr ""
+
+#: $string['enablebadges']
+msgid "Enable badges"
+msgstr ""
+
+#: $string['error:backpackdatainvalid']
+msgid "The data return from the backpack was invalid."
+msgstr ""
+
+#: $string['error:backpackemailnotfound']
+msgid ""
+"The email '{$a}' is not associated with a backpack. You need to <a "
+"href=\"http://backpack.openbadges.org\">create a backpack</a> for that account "
+"or sign in with another email address."
+msgstr ""
+
+#: $string['error:backpackloginfailed']
+msgid ""
+"You could not be connected to an external backpack for the following reason: "
+"{$a}"
+msgstr ""
+
+#: $string['error:backpacknotavailable']
+msgid ""
+"Your site is not accessible from the Internet, so any badges issued from "
+"this site cannot be verified by external backpack services."
+msgstr ""
+
+#: $string['error:backpackproblem']
+msgid ""
+"There was a problem connecting to your backpack service provider. Please try "
+"again later."
+msgstr ""
+
+#: $string['error:badgeawardnotfound']
+msgid "Cannot verify this awarded badge.  This badge may have been revoked."
+msgstr ""
+
+#: $string['error:badgenotfound']
+msgctxt "$string['error:badgenotfound']"
+msgid "Badge not found"
+msgstr ""
+
+#: $string['error:badjson']
+msgid "The connection attempt returned invalid data."
+msgstr ""
+
+#: $string['error:cannotact']
+msgid "Cannot activate the badge."
+msgstr ""
+
+#: $string['error:cannotawardbadge']
+msgid "Cannot award badge to a user."
+msgstr ""
+
+#: $string['error:cannotdeletecriterion']
+msgid "This criterion cannot be deleted."
+msgstr ""
+
+#: $string['error:cannotrevokebadge']
+msgid "Cannot revoke badge from a user."
+msgstr ""
+
+#: $string['error:clone']
+msgid "Cannot clone the badge."
+msgstr ""
+
+#: $string['error:connectionunknownreason']
+msgid "The connection was unsuccessful but no reason was given."
+msgstr ""
+
+#: $string['error:duplicatename']
+msgid "Badge with such name already exists in the system."
+msgstr ""
+
+#: $string['error:externalbadgedoesntexist']
+msgctxt "$string['error:externalbadgedoesntexist']"
+msgid "Badge not found"
+msgstr ""
+
+#: $string['error:guestuseraccess']
+msgid ""
+"You are currently using guest access. To see badges you need to log in with "
+"your user account."
+msgstr ""
+
+#: $string['error:invalidbadgeurl']
+msgid "Invalid badge issuer URL format."
+msgstr ""
+
+#: $string['error:invalidcriteriatype']
+msgid "Invalid criteria type."
+msgstr ""
+
+#: $string['error:invalidexpiredate']
+msgid "Expiry date has to be in the future."
+msgstr ""
+
+#: $string['error:invalidexpireperiod']
+msgid "Expiry period cannot be negative or equal 0."
+msgstr ""
+
+#: $string['error:invalidparambadge']
+msgid "Badge does not exist."
+msgstr ""
+
+#: $string['error:noactivities']
+msgid ""
+"There are no activities with completion criteria enabled in this course."
+msgstr ""
+
+#: $string['error:noassertion']
+msgid ""
+"No assertion was returned by Persona. You may have closed the dialog before "
+"completing the login process."
+msgstr ""
+
+#: $string['error:nobadges']
+msgid ""
+"There are no course or site badges available to be added as criteria.  Make "
+"sure that your other badges are enabled"
+msgstr ""
+
+#: $string['error:nocourses']
+msgid ""
+"Course completion is not enabled for any of the courses in this site, so "
+"none can be displayed. Course completion may be enabled in the course "
+"settings."
+msgstr ""
+
+#: $string['error:nogroups']
+msgid ""
+"<p>There are no public collections of badges available in your backpack. "
+"</p>\n"
+"<p>Only public collections are shown, <a "
+"href=\"http://backpack.openbadges.org\">visit your backpack</a> to create some "
+"public collections.</p>"
+msgstr ""
+
+#: $string['error:nopermissiontoview']
+msgid "You have no permissions to view badge recipients"
+msgstr ""
+
+#: $string['error:nosuchbadge']
+msgid "Badge with id {$a} does not exist."
+msgstr ""
+
+#: $string['error:nosuchcourse']
+msgid "Warning: This course is no longer available."
+msgstr ""
+
+#: $string['error:nosuchfield']
+msgid "Warning: This user profile field is no longer available."
+msgstr ""
+
+#: $string['error:nosuchmod']
+msgid "Warning: This activity is no longer available."
+msgstr ""
+
+#: $string['error:nosuchrole']
+msgid "Warning: This role is no longer available."
+msgstr ""
+
+#: $string['error:nosuchuser']
+msgid ""
+"User with this email address does not have an account with the current "
+"backpack provider."
+msgstr ""
+
+#: $string['error:notifycoursedate']
+msgid ""
+"Warning: Badges associated with course and activity completions will not be "
+"issued until the course start date."
+msgstr ""
+
+#: $string['error:parameter']
+msgid ""
+"Warning: At least one parameter should be selected to ensure correct badge "
+"issuing workflow."
+msgstr ""
+
+#: $string['error:personaneedsjs']
+msgid ""
+"Currently, Javascript is required to connect to your backpack. If you can, "
+"enable Javascript and reload the page."
+msgstr ""
+
+#: $string['error:requesterror']
+msgid "The connection request failed (error code {$a})."
+msgstr ""
+
+#: $string['error:requesttimeout']
+msgid "The connection request timed out before it could complete."
+msgstr ""
+
+#: $string['error:save']
+msgid "Cannot save the badge."
+msgstr ""
+
+#: $string['error:userdeleted']
+msgid "{$a->user} (This user no longer exists in {$a->site})"
+msgstr ""
+
+#: $string['eventbadgearchived']
+msgid "Badge archived"
+msgstr ""
+
+#: $string['eventbadgeawarded']
+msgid "Badge awarded"
+msgstr ""
+
+#: $string['eventbadgecreated']
+msgid "Badge created"
+msgstr ""
+
+#: $string['eventbadgecriteriacreated']
+msgid "Badge criteria created"
+msgstr ""
+
+#: $string['eventbadgecriteriadeleted']
+msgid "Badge criteria deleted"
+msgstr ""
+
+#: $string['eventbadgecriteriaupdated']
+msgid "Badge criteria updated"
+msgstr ""
+
+#: $string['eventbadgedeleted']
+msgid "Badge deleted"
+msgstr ""
+
+#: $string['eventbadgedisabled']
+msgid "Badge disabled"
+msgstr ""
+
+#: $string['eventbadgeduplicated']
+msgid "Badge duplicated"
+msgstr ""
+
+#: $string['eventbadgeenabled']
+msgid "Badge enabled"
+msgstr ""
+
+#: $string['eventbadgelistingviewed']
+msgid "Badge listing viewed"
+msgstr ""
+
+#: $string['eventbadgerevoked']
+msgid "Badge revoked"
+msgstr ""
+
+#: $string['eventbadgeupdated']
+msgid "Badge updated"
+msgstr ""
+
+#: $string['eventbadgeviewed']
+msgid "Badge viewed"
+msgstr ""
+
+#: $string['evidence']
+msgid "Evidence"
+msgstr ""
+
+#: $string['existingrecipients']
+msgid "Existing badge recipients"
+msgstr ""
+
+#: $string['expired']
+msgid "Expired"
+msgstr ""
+
+#: $string['expiredate']
+msgid "This badge expires on {$a}."
+msgstr ""
+
+#: $string['expireddate']
+msgid "This badge expired on {$a}."
+msgstr ""
+
+#: $string['expireperiod']
+msgid "This badge expires {$a} day(s) after being issued."
+msgstr ""
+
+#: $string['expireperiodh']
+msgid "This badge expires {$a} hour(s) after being issued."
+msgstr ""
+
+#: $string['expireperiodm']
+msgid "This badge expires {$a} minute(s) after being issued."
+msgstr ""
+
+#: $string['expireperiods']
+msgid "This badge expires {$a} second(s) after being issued."
+msgstr ""
+
+#: $string['expirydate']
+msgid "Expiry date"
+msgstr ""
+
+#: $string['expirydate_help']
+msgid ""
+"Optionally, badges can expire on a specific date, or the date can be "
+"calculated based on the date when the badge was issued to a user."
+msgstr ""
+
+#: $string['externalbadges']
+msgid "My badges from other web sites"
+msgstr ""
+
+#: $string['externalbadges_help']
+msgid "This area displays badges from your external backpack."
+msgstr ""
+
+#: $string['externalbadgesp']
+msgid "Badges from other web sites:"
+msgstr ""
+
+#: $string['externalconnectto']
+msgid ""
+"To display external badges you need to <a href=\"{$a}\">connect to a "
+"backpack</a>."
+msgstr ""
+
+#: $string['fixed']
+msgid "Fixed date"
+msgstr ""
+
+#: $string['hiddenbadge']
+msgid "Unfortunately, the badge owner has not made this information available."
+msgstr ""
+
+#: $string['issuancedetails']
+msgid "Badge expiry"
+msgstr ""
+
+#: $string['issuedbadge']
+msgid "Issued badge information"
+msgstr ""
+
+#: $string['issuerdetails']
+msgid "Issuer details"
+msgstr ""
+
+#: $string['issuername']
+msgid "Issuer name"
+msgstr ""
+
+#: $string['issuername_help']
+msgctxt "$string['issuername_help']"
+msgid "Name of the issuing agent or authority."
+msgstr ""
+
+#: $string['issuerurl']
+msgid "Issuer URL"
+msgstr ""
+
+#: $string['localbadges']
+msgid "My badges from {$a} web site"
+msgstr ""
+
+#: $string['localbadgesh']
+msgid "My badges from this web site"
+msgstr ""
+
+#: $string['localbadgesh_help']
+msgid ""
+"All badges earned within this web site by completing courses, course "
+"activities, and other requirements.\n"
+"\n"
+"You can manage your badges here by making them public or private for your "
+"profile page.\n"
+"\n"
+"You can download all of your badges or each badge separately and save them "
+"on your computer. Downloaded badges can be added to your external backpack "
+"service."
+msgstr ""
+
+#: $string['localbadgesp']
+msgid "Badges from {$a}:"
+msgstr ""
+
+#: $string['localconnectto']
+msgid ""
+"To share these badges outside this web site you need to <a "
+"href=\"{$a}\">connect to a backpack</a>."
+msgstr ""
+
+#: $string['makeprivate']
+msgid "Make private"
+msgstr ""
+
+#: $string['makepublic']
+msgid "Make public"
+msgstr ""
+
+#: $string['managebadges']
+msgid "Manage badges"
+msgstr ""
+
+#: $string['message']
+msgid "Message body"
+msgstr ""
+
+#: $string['messagebody']
+msgid ""
+"<p>You have been awarded the badge \"%badgename%\"!</p>\n"
+"<p>More information about this badge can be found on the %badgelink% badge "
+"information page.</p>\n"
+"<p>You can manage and download the badge from your {$a} page.</p>"
+msgstr ""
+
+#: $string['messagesubject']
+msgid "Congratulations! You just earned a badge!"
+msgstr ""
+
+#: $string['method']
+msgid "This criterion is complete when..."
+msgstr ""
+
+#: $string['mingrade']
+msgid "Minimum grade required"
+msgstr ""
+
+#: $string['month']
+msgid "Month(s)"
+msgstr ""
+
+#: $string['mybackpack']
+msgid "My backpack settings"
+msgstr ""
+
+#: $string['mybadges']
+msgid "My badges"
+msgstr ""
+
+#: $string['never']
+msgid "Never"
+msgstr ""
+
+#: $string['newbadge']
+msgid "Add a new badge"
+msgstr ""
+
+#: $string['newimage']
+msgid "New image"
+msgstr ""
+
+#: $string['noawards']
+msgid "This badge has not been earned yet."
+msgstr ""
+
+#: $string['nobackpack']
+msgid "There is no backpack service connected to this account.<br/>"
+msgstr ""
+
+#: $string['nobackpackbadges']
+msgid ""
+"There are no badges in the collections you have selected. <a "
+"href=\"mybackpack.php\">Add more collections</a>."
+msgstr ""
+
+#: $string['nobackpackcollections']
+msgid ""
+"No badge collections have been selected. <a href=\"mybackpack.php\">Add "
+"collections</a>."
+msgstr ""
+
+#: $string['nobadges']
+msgid "There are no badges available."
+msgstr ""
+
+#: $string['nocriteria']
+msgid "Criteria for this badge have not been set up yet."
+msgstr ""
+
+#: $string['noexpiry']
+msgid "This badge does not have an expiry date."
+msgstr ""
+
+#: $string['noparamstoadd']
+msgid ""
+"There are no additional parameters available to add to this badge "
+"requirement."
+msgstr ""
+
+#: $string['notacceptedrole']
+msgid ""
+"Your current role assignment is not among the roles that can manually issue "
+"this badge.<br/>\n"
+"If you would like to see users who have already earned this badge, you can "
+"visit {$a} page."
+msgstr ""
+
+#: $string['notconnected']
+msgid "Not connected"
+msgstr ""
+
+#: $string['nothingtoadd']
+msgid "There are no available criteria to add."
+msgstr ""
+
+#: $string['notification']
+msgid "Notify badge creator"
+msgstr ""
+
+#: $string['notification_help']
+msgid ""
+"This setting manages notifications sent to a badge creator to let them know "
+"that the badge has been issued.\n"
+"\n"
+"The following options are available:\n"
+"\n"
+"* **NEVER** – Do not send notifications.\n"
+"\n"
+"* **EVERY TIME** – Send a notification every time this badge is awarded.\n"
+"\n"
+"* **DAILY** – Send notifications once a day.\n"
+"\n"
+"* **WEEKLY** – Send notifications once a week.\n"
+"\n"
+"* **MONTHLY** – Send notifications once a month."
+msgstr ""
+
+#: $string['notifydaily']
+msgid "Daily"
+msgstr ""
+
+#: $string['notifyevery']
+msgid "Every time"
+msgstr ""
+
+#: $string['notifymonthly']
+msgid "Monthly"
+msgstr ""
+
+#: $string['notifyweekly']
+msgid "Weekly"
+msgstr ""
+
+#: $string['numawards']
+msgid ""
+"This badge has been issued to <a href=\"{$a->link}\">{$a->count}</a> user(s)."
+msgstr ""
+
+#: $string['numawardstat']
+msgid "This badge has been issued {$a} user(s)."
+msgstr ""
+
+#: $string['overallcrit']
+msgid "of the selected criteria are complete."
+msgstr ""
+
+#: $string['personaconnection']
+msgctxt "$string['personaconnection']"
+msgid "Sign in with your email"
+msgstr ""
+
+#: $string['personaconnection_help']
+msgid ""
+"Persona is a system for identifying yourself across the web, using an email "
+"address that you own. The Open Badges backpack uses Persona as a login "
+"system, so to be able to connect to a backpack you will need a Persona "
+"account.\n"
+"\n"
+"For more information about Persona visit <a "
+"href=\"https://login.persona.org/about\">https://login.persona.org/about</a>."
+msgstr ""
+
+#: $string['potentialrecipients']
+msgid "Potential badge recipients"
+msgstr ""
+
+#: $string['preferences']
+msgid "Badge preferences"
+msgstr ""
+
+#: $string['recipientdetails']
+msgid "Recipient details"
+msgstr ""
+
+#: $string['recipientidentificationproblem']
+msgid "Cannot find a recipient of this badge among the existing users."
+msgstr ""
+
+#: $string['recipients']
+msgid "Badge recipients"
+msgstr ""
+
+#: $string['recipientvalidationproblem']
+msgid "Current user cannot be verified as a recipient of this badge."
+msgstr ""
+
+#: $string['relative']
+msgid "Relative date"
+msgstr ""
+
+#: $string['requiredbadge']
+msgid "At least one badge should be added to the badge criterion."
+msgstr ""
+
+#: $string['requiredcourse']
+msgid "At least one course should be added to the courseset criterion."
+msgstr ""
+
+#: $string['reviewbadge']
+msgid "Changes in badge access"
+msgstr ""
+
+#: $string['reviewconfirm']
+msgid ""
+"<p>This will make your badge visible to users and allow them to start "
+"earning it.</p>\n"
+"\n"
+"<p>It is possible that some users already meet this badge's criteria and "
+"will be issued this badge immediately after you enable it.</p>\n"
+"\n"
+"<p>Once a badge has been issued it will be <strong>locked</strong> - certain "
+"settings including the criteria and expiry settings can no longer be "
+"changed.</p>\n"
+"\n"
+"<p>Are you sure you want to enable access to the badge '{$a}'?</p>"
+msgstr ""
+
+#: $string['revoke']
+msgid "Revoke badge"
+msgstr ""
+
+#: $string['save']
+msgid "Save"
+msgstr ""
+
+#: $string['searchname']
+msgid "Search by name"
+msgstr ""
+
+#: $string['selectaward']
+msgid "Please select the role you would like to use to award this badge:"
+msgstr ""
+
+#: $string['selectgroup_end']
+msgid ""
+"Only public collections are shown, <a "
+"href=\"http://backpack.openbadges.org\">visit your backpack</a> to create more "
+"public collections."
+msgstr ""
+
+#: $string['selectgroup_start']
+msgid "Select collections from your backpack to display on this site:"
+msgstr ""
+
+#: $string['selecting']
+msgid "With selected badges..."
+msgstr ""
+
+#: $string['setup']
+msgid "Set up connection"
+msgstr ""
+
+#: $string['signinwithyouremail']
+msgctxt "$string['signinwithyouremail']"
+msgid "Sign in with your email"
+msgstr ""
+
+#: $string['sitebadges']
+msgid "Site badges"
+msgstr ""
+
+#: $string['sitebadges_help']
+msgid ""
+"Site badges can only be awarded to users for site-related activities. These "
+"include completing a set of courses or parts of user profiles. Site badges "
+"can also be issued manually by one user to another.\n"
+"\n"
+"Badges for course-related activities must be created at the course level. "
+"Course badges can be found under Course Administration > Badges."
+msgstr ""
+
+#: $string['status']
+msgid "Badge status"
+msgstr ""
+
+#: $string['status_help']
+msgid ""
+"Status of a badge determines its behaviour in the system:\n"
+"\n"
+"* **AVAILABLE** – Means that this badge can be earned by users. While a "
+"badge is available to users, its criteria cannot be modified.\n"
+"\n"
+"* **NOT AVAILABLE** – Means that this badge is not available to users and "
+"cannot be earned or manually issued. If such badge has never been issued "
+"before, its criteria can be changed.\n"
+"\n"
+"Once a badge has been issued to at least one user, it automatically becomes "
+"**LOCKED**. Locked badges can still be earned by users, but their criteria "
+"can no longer be changed. If you need to modify details or criteria of a "
+"locked badge, you can duplicate this badge and make all the required "
+"changes.\n"
+"\n"
+"*Why do we lock badges?*\n"
+"\n"
+"We want to make sure that all users complete the same requirements to earn a "
+"badge. Currently, it is not possible to revoke badges. If we allowed badges "
+"requirements to be modified all the time, we would most likely end up with "
+"users having the same badge for meeting completely different requirements."
+msgstr ""
+
+#: $string['statusmessage_0']
+msgid ""
+"This badge is currently not available to users. Enable access if you want "
+"users to earn this badge."
+msgstr ""
+
+#: $string['statusmessage_1']
+msgid ""
+"This badge is currently available to users. Disable access to make any "
+"changes."
+msgstr ""
+
+#: $string['statusmessage_2']
+msgid ""
+"This badge is currently not available to users, and its criteria are locked. "
+"Enable access if you want users to earn this badge."
+msgstr ""
+
+#: $string['statusmessage_3']
+msgid ""
+"This badge is currently available to users, and its criteria are locked."
+msgstr ""
+
+#: $string['statusmessage_4']
+msgid "This badge is currently archived."
+msgstr ""
+
+#: $string['subject']
+msgid "Message subject"
+msgstr ""
+
+#: $string['variablesubstitution']
+msgid "Variable substitution in messages."
+msgstr ""
+
+#: $string['variablesubstitution_help']
+msgid ""
+"In a badge message, certain variables can be inserted into the subject "
+"and/or body of a message so that they will be replaced with real values when "
+"the message is sent. The variables should be inserted into the text exactly "
+"as they are shown below. The following variables can be used:\n"
+"\n"
+"%badgename%\n"
+": This will be replaced by the badge's full name.\n"
+"\n"
+"%username%\n"
+": This will be replaced by the recipient's full name.\n"
+"\n"
+"%badgelink%\n"
+": This will be replaced by the public URL with information about the issued "
+"badge."
+msgstr ""
+
+#: $string['viewbadge']
+msgid "View issued badge"
+msgstr ""
+
+#: $string['visible']
+msgid "Visible"
+msgstr ""
+
+#: $string['warnexpired']
+msgid "(This badge has expired!)"
+msgstr ""
+
+#: $string['year']
+msgid "Year(s)"
+msgstr ""

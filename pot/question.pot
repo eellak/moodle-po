@@ -1,0 +1,1766 @@
+#. extracted from lang/en/question.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'question', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   question
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['action']
+msgid "Action"
+msgstr ""
+
+#: $string['addanotherhint']
+msgid "Add another hint"
+msgstr ""
+
+#: $string['addcategory']
+msgid "Add category"
+msgstr ""
+
+#: $string['addmorechoiceblanks']
+msgid "Blanks for {no} more choices"
+msgstr ""
+
+#: $string['adminreport']
+msgid "Report on possible problems in your question database."
+msgstr ""
+
+#: $string['advancedsearchoptions']
+msgid "Search options"
+msgstr ""
+
+#: $string['alltries']
+msgid "All tries"
+msgstr ""
+
+#: $string['answer']
+msgid "Answer"
+msgstr ""
+
+#: $string['answers']
+msgid "Answers"
+msgstr ""
+
+#: $string['answersaved']
+msgid "Answer saved"
+msgstr ""
+
+#: $string['attemptfinished']
+msgid "Attempt finished"
+msgstr ""
+
+#: $string['attemptfinishedsubmitting']
+msgid "Attempt finished submitting:"
+msgstr ""
+
+#: $string['attemptoptions']
+msgid "Attempt options"
+msgstr ""
+
+#: $string['availableq']
+msgid "Available?"
+msgstr ""
+
+#: $string['badbase']
+msgid "Bad base before **: {$a}**"
+msgstr ""
+
+#: $string['behaviour']
+msgid "Behaviour"
+msgstr ""
+
+#: $string['behaviourbeingused']
+msgid "Behaviour being used: {$a}"
+msgstr ""
+
+#: $string['broken']
+msgid "This is a \"broken link\", it points to a nonexistent file."
+msgstr ""
+
+#: $string['byandon']
+msgid "by <em>{$a->user}</em> on <em>{$a->time}</em>"
+msgstr ""
+
+#: $string['cannotcopybackup']
+msgid "Could not copy backup file"
+msgstr ""
+
+#: $string['cannotcreate']
+msgid "Could not create new entry in question_attempts table"
+msgstr ""
+
+#: $string['cannotcreatepath']
+msgid "Cannot create path: {$a}"
+msgstr ""
+
+#: $string['cannotdeletebehaviourinuse']
+msgid ""
+"You cannot delete the behaviour '{$a}'. It is used by question attempts."
+msgstr ""
+
+#: $string['cannotdeletecate']
+msgid ""
+"You can't delete that category it is the default category for this context."
+msgstr ""
+
+#: $string['cannotdeleteneededbehaviour']
+msgid ""
+"Cannot delete the question behaviour '{$a}'. There are other behaviours "
+"installed that rely on it."
+msgstr ""
+
+#: $string['cannotdeleteqtypeinuse']
+msgid ""
+"You cannot delete the question type '{$a}'. There are questions of this type "
+"in the question bank."
+msgstr ""
+
+#: $string['cannotdeleteqtypeneeded']
+msgid ""
+"You cannot delete the question type '{$a}'. There are other question types "
+"installed that rely on it."
+msgstr ""
+
+#: $string['cannotenable']
+msgid "Question type {$a} cannot be created directly."
+msgstr ""
+
+#: $string['cannotenablebehaviour']
+msgid ""
+"Question behaviour {$a} cannot be used directly. It is for internal use "
+"only."
+msgstr ""
+
+#: $string['cannotfindcate']
+msgid "Could not find category record"
+msgstr ""
+
+#: $string['cannotfindquestionfile']
+msgid "Could not find question data file in zip"
+msgstr ""
+
+#: $string['cannotgetdsfordependent']
+msgid ""
+"Cannot get the specified dataset for a dataset dependent question! "
+"(question: {$a->id}, datasetitem: {$a->item})"
+msgstr ""
+
+#: $string['cannotgetdsforquestion']
+msgid ""
+"Cannot get the specified dataset for a calculated question! (question: {$a})"
+msgstr ""
+
+#: $string['cannothidequestion']
+msgid "Was not able to hide question"
+msgstr ""
+
+#: $string['cannotimportformat']
+msgid "Sorry, importing this format is not yet implemented!"
+msgstr ""
+
+#: $string['cannotinsertquestion']
+msgid "Could not insert new question!"
+msgstr ""
+
+#: $string['cannotinsertquestioncatecontext']
+msgid ""
+"Could not insert the new question category {$a->cat} illegal contextid "
+"{$a->ctx}"
+msgstr ""
+
+#: $string['cannotloadquestion']
+msgid "Could not load question"
+msgstr ""
+
+#: $string['cannotmovequestion']
+msgid ""
+"You can't use this script to move questions that have files associated with "
+"them from different areas."
+msgstr ""
+
+#: $string['cannotopenforwriting']
+msgid "Cannot open for writing: {$a}"
+msgstr ""
+
+#: $string['cannotpreview']
+msgid "You can't preview these questions!"
+msgstr ""
+
+#: $string['cannotread']
+msgid "Cannot read import file (or file is empty)"
+msgstr ""
+
+#: $string['cannotretrieveqcat']
+msgid "Could not retrieve question category"
+msgstr ""
+
+#: $string['cannotunhidequestion']
+msgid "Failed to unhide the question."
+msgstr ""
+
+#: $string['cannotunzip']
+msgid "Could not unzip file."
+msgstr ""
+
+#: $string['cannotwriteto']
+msgid "Cannot write exported questions to {$a}"
+msgstr ""
+
+#: $string['categories']
+msgid "Categories"
+msgstr ""
+
+#: $string['category']
+msgid "Category"
+msgstr ""
+
+#: $string['categorycurrent']
+msgid "Current category"
+msgstr ""
+
+#: $string['categorycurrentuse']
+msgid "Use this category"
+msgstr ""
+
+#: $string['categorydoesnotexist']
+msgid "This category does not exist"
+msgstr ""
+
+#: $string['categoryinfo']
+msgid "Category info"
+msgstr ""
+
+#: $string['categorymove']
+msgid ""
+"The category '{$a->name}' contains {$a->count} questions (some of which may "
+"be hidden questions or random questions that are still in use in a quiz). "
+"Please choose another category to move them to."
+msgstr ""
+
+#: $string['categorymoveto']
+msgid "Save in category"
+msgstr ""
+
+#: $string['categorynamecantbeblank']
+msgid "The category name cannot be blank."
+msgstr ""
+
+#: $string['changeoptions']
+msgid "Change options"
+msgstr ""
+
+#: $string['changepublishstatuscat']
+msgid ""
+"<a href=\"{$a->caturl}\">Category \"{$a->name}\"</a> in course "
+"\"{$a->coursename}\" will have it's sharing status changed from "
+"<strong>{$a->changefrom} to {$a->changeto}</strong>."
+msgstr ""
+
+#: $string['check']
+msgid "Check"
+msgstr ""
+
+#: $string['chooseqtypetoadd']
+msgid "Choose a question type to add"
+msgstr ""
+
+#: $string['clearwrongparts']
+msgid "Clear incorrect responses"
+msgstr ""
+
+#: $string['clickflag']
+msgid "Flag question"
+msgstr ""
+
+#: $string['clicktoflag']
+msgid "Flag this question for future reference"
+msgstr ""
+
+#: $string['clicktounflag']
+msgctxt "$string['clicktounflag']"
+msgid "Remove flag"
+msgstr ""
+
+#: $string['clickunflag']
+msgctxt "$string['clickunflag']"
+msgid "Remove flag"
+msgstr ""
+
+#: $string['closepreview']
+msgid "Close preview"
+msgstr ""
+
+#: $string['combinedfeedback']
+msgid "Combined feedback"
+msgstr ""
+
+#: $string['comment']
+msgid "Comment"
+msgstr ""
+
+#: $string['commented']
+msgid "Commented: {$a}"
+msgstr ""
+
+#: $string['commentormark']
+msgid "Make comment or override mark"
+msgstr ""
+
+#: $string['comments']
+msgid "Comments"
+msgstr ""
+
+#: $string['commentx']
+msgid "Comment: {$a}"
+msgstr ""
+
+#: $string['complete']
+msgid "Complete"
+msgstr ""
+
+#: $string['contexterror']
+msgid ""
+"You shouldn't have got here if you're not moving a category to another "
+"context."
+msgstr ""
+
+#: $string['copy']
+msgid "Copy from {$a} and change links."
+msgstr ""
+
+#: $string['correct']
+msgid "Correct"
+msgstr ""
+
+#: $string['correctfeedback']
+msgid "For any correct response"
+msgstr ""
+
+#: $string['correctfeedbackdefault']
+msgid "Your answer is correct."
+msgstr ""
+
+#: $string['created']
+msgid "Created"
+msgstr ""
+
+#: $string['createdby']
+msgid "Created by"
+msgstr ""
+
+#: $string['createdmodifiedheader']
+msgid "Created / last saved"
+msgstr ""
+
+#: $string['createnewquestion']
+msgid "Create a new question ..."
+msgstr ""
+
+#: $string['cwrqpfs']
+msgid "Random questions selecting questions from sub categories."
+msgstr ""
+
+#: $string['cwrqpfsinfo']
+msgid ""
+"<p>During the upgrade to Moodle 1.9 we will separate question categories "
+"into\n"
+"different contexts. Some question categories and questions on your site will "
+"have to have their sharing\n"
+"status changed. This is necessary in the rare case that one or more 'random' "
+"questions in a quiz are set up to select from a mixture of\n"
+"shared and unshared categories (as is the case on this site). This happens "
+"when a 'random' question is set to select\n"
+"from subcategories and one or more subcategories have a different sharing "
+"status to the parent category in which\n"
+"the random question is created.</p>\n"
+"<p>The following question categories, from which 'random' questions in "
+"parent categories select questions from,\n"
+"will have their sharing status changed to the same sharing status as the "
+"category with the 'random' question in\n"
+"on upgrading to Moodle 1.9. The following categories will have their sharing "
+"status changed. Questions which are\n"
+"affected will continue to work in all existing quizzes until you remove them "
+"from these quizzes.</p>"
+msgstr ""
+
+#: $string['cwrqpfsnoprob']
+msgid ""
+"No question categories in your site are affected by the 'Random questions "
+"selecting questions from sub categories' issue."
+msgstr ""
+
+#: $string['decimalplacesingrades']
+msgid "Decimal places in grades"
+msgstr ""
+
+#: $string['defaultfor']
+msgid "Default for {$a}"
+msgstr ""
+
+#: $string['defaultinfofor']
+msgid "The default category for questions shared in context '{$a}'."
+msgstr ""
+
+#: $string['defaultmark']
+msgid "Default mark"
+msgstr ""
+
+#: $string['defaultmarkmustbepositive']
+msgid "The default mark must be positive."
+msgstr ""
+
+#: $string['deletecoursecategorywithquestions']
+msgid ""
+"There are questions in the question bank associated with this course "
+"category. If you proceed, they will be deleted. You may wish to move them "
+"first, using the question bank interface."
+msgstr ""
+
+#: $string['deletequestioncheck']
+msgid "Are you absolutely sure you want to delete '{$a}'?"
+msgstr ""
+
+#: $string['deletequestionscheck']
+msgid ""
+"Are you absolutely sure you want to delete the following questions?<br /><br "
+"/>{$a}"
+msgstr ""
+
+#: $string['deletingbehaviour']
+msgid "Deleting question behaviour '{$a}'"
+msgstr ""
+
+#: $string['deletingqtype']
+msgid "Deleting question type '{$a}'"
+msgstr ""
+
+#: $string['didnotmatchanyanswer']
+msgid "[Did not match any answer]"
+msgstr ""
+
+#: $string['disabled']
+msgid "Disabled"
+msgstr ""
+
+#: $string['displayoptions']
+msgid "Display options"
+msgstr ""
+
+#: $string['disterror']
+msgid "The distribution {$a} caused problems"
+msgstr ""
+
+#: $string['donothing']
+msgid "Don't copy or move files or change links."
+msgstr ""
+
+#: $string['editcategories']
+msgid "Edit categories"
+msgstr ""
+
+#: $string['editcategories_help']
+msgid ""
+"Rather than keeping everything in one big list, questions may be arranged "
+"into categories and subcategories.\n"
+"\n"
+"Each category has a context which determines where the questions in the "
+"category can be used:\n"
+"\n"
+"* Activity context - Questions only available in the activity module\n"
+"* Course context - Questions available in all activity modules in the course\n"
+"* Course category context - Questions available in all activity modules and "
+"courses in the course category\n"
+"* System context - Questions available in all courses and activities on the "
+"site\n"
+"\n"
+"Categories are also used for random questions, as questions are selected "
+"from a particular category."
+msgstr ""
+
+#: $string['editcategories_link']
+msgctxt "$string['editcategories_link']"
+msgid "question/category"
+msgstr ""
+
+#: $string['editcategory']
+msgid "Edit category"
+msgstr ""
+
+#: $string['editingcategory']
+msgid "Editing a category"
+msgstr ""
+
+#: $string['editingquestion']
+msgid "Editing a question"
+msgstr ""
+
+#: $string['editquestion']
+msgid "Edit question"
+msgstr ""
+
+#: $string['editquestions']
+msgid "Edit questions"
+msgstr ""
+
+#: $string['editthiscategory']
+msgid "Edit this category"
+msgstr ""
+
+#: $string['emptyxml']
+msgid "Unkown error - empty imsmanifest.xml"
+msgstr ""
+
+#: $string['enabled']
+msgid "Enabled"
+msgstr ""
+
+#: $string['erroraccessingcontext']
+msgid "Cannot access context"
+msgstr ""
+
+#: $string['errordeletingquestionsfromcategory']
+msgid "Error deleting questions from category {$a}."
+msgstr ""
+
+#: $string['errorduringpost']
+msgctxt "$string['errorduringpost']"
+msgid "Error occurred during post-processing!"
+msgstr ""
+
+#: $string['errorduringpre']
+msgctxt "$string['errorduringpre']"
+msgid "Error occurred during pre-processing!"
+msgstr ""
+
+#: $string['errorduringproc']
+msgctxt "$string['errorduringproc']"
+msgid "Error occurred during processing!"
+msgstr ""
+
+#: $string['errorduringregrade']
+msgid "Could not regrade question {$a->qid}, going to state {$a->stateid}."
+msgstr ""
+
+#: $string['errorfilecannotbecopied']
+msgid "Error: cannot copy file {$a}."
+msgstr ""
+
+#: $string['errorfilecannotbemoved']
+msgid "Error: cannot move file {$a}."
+msgstr ""
+
+#: $string['errorfileschanged']
+msgid ""
+"Error: files linked to from questions have changed since form was displayed."
+msgstr ""
+
+#: $string['erroritemappearsmorethanoncewithdifferentweight']
+msgid ""
+"Question ({$a}) appears more than once with different weights in different "
+"positions of the test. This is not currently supported by the statistics "
+"report and may make the statistics for this question unreliable."
+msgstr ""
+
+#: $string['errormanualgradeoutofrange']
+msgid ""
+"The grade {$a->grade} is not between 0 and {$a->maxgrade} for question "
+"{$a->name}. The score and comment have not been saved."
+msgstr ""
+
+#: $string['errormovingquestions']
+msgid "Error while moving questions with ids {$a}."
+msgstr ""
+
+#: $string['errorpostprocess']
+msgctxt "$string['errorpostprocess']"
+msgid "Error occurred during post-processing!"
+msgstr ""
+
+#: $string['errorpreprocess']
+msgctxt "$string['errorpreprocess']"
+msgid "Error occurred during pre-processing!"
+msgstr ""
+
+#: $string['errorprocess']
+msgctxt "$string['errorprocess']"
+msgid "Error occurred during processing!"
+msgstr ""
+
+#: $string['errorprocessingresponses']
+msgid ""
+"An error occurred while processing your responses ({$a}). Click continue to "
+"return to the page you were on and try again."
+msgstr ""
+
+#: $string['errorsavingcomment']
+msgid "Error saving the comment for question {$a->name} in the database."
+msgstr ""
+
+#: $string['errorsavingflags']
+msgid "Error saving the flag state."
+msgstr ""
+
+#: $string['errorupdatingattempt']
+msgid "Error updating attempt {$a->id} in the database."
+msgstr ""
+
+#: $string['eventquestioncategorycreated']
+msgid "Question category created"
+msgstr ""
+
+#: $string['export']
+msgid "Export"
+msgstr ""
+
+#: $string['exportcategory']
+msgid "Export category"
+msgstr ""
+
+#: $string['exportcategory_help']
+msgid ""
+"This setting determines the category from which the exported questions will "
+"be taken.\n"
+"\n"
+"Certain import formats, such as GIFT and Moodle XML, permit category and "
+"context data to be included in the export file, enabling them to "
+"(optionally) be recreated on import. If required, the appropriate checkboxes "
+"should be ticked."
+msgstr ""
+
+#: $string['exporterror']
+msgid "Errors occur during exporting!"
+msgstr ""
+
+#: $string['exportfilename']
+msgid "questions"
+msgstr ""
+
+#: $string['exportnameformat']
+msgid "%Y%m%d-%H%M"
+msgstr ""
+
+#: $string['exportquestions']
+msgid "Export questions to file"
+msgstr ""
+
+#: $string['exportquestions_help']
+msgid ""
+"This function enables the export of a complete category (and any "
+"subcategories) of questions to file. Please note that, depending on the file "
+"format selected, some question data and certain question types may not be "
+"exported."
+msgstr ""
+
+#: $string['exportquestions_link']
+msgid "question/export"
+msgstr ""
+
+#: $string['feedback']
+msgid "Feedback"
+msgstr ""
+
+#: $string['filecantmovefrom']
+msgid ""
+"The questions files cannot be moved because you do not have permission to "
+"remove files from the place you are trying to move questions from."
+msgstr ""
+
+#: $string['filecantmoveto']
+msgid ""
+"The question files cannot be moved or copied becuase you do not have "
+"permission to add files to the place you are trying to move the questions "
+"to."
+msgstr ""
+
+#: $string['fileformat']
+msgid "File format"
+msgstr ""
+
+#: $string['filesareacourse']
+msgid "the course files area"
+msgstr ""
+
+#: $string['filesareasite']
+msgid "the site files area"
+msgstr ""
+
+#: $string['filestomove']
+msgid "Move / copy files to {$a}?"
+msgstr ""
+
+#: $string['fillincorrect']
+msgid "Fill in correct responses"
+msgstr ""
+
+#: $string['firsttry']
+msgid "First try"
+msgstr ""
+
+#: $string['flagged']
+msgid "Flagged"
+msgstr ""
+
+#: $string['flagthisquestion']
+msgid "Flag this question"
+msgstr ""
+
+#: $string['formquestionnotinids']
+msgid "Form contained question that is not in questionids"
+msgstr ""
+
+#: $string['fractionsnomax']
+msgid ""
+"One of the answers should have a score of 100% so it is possible to get full "
+"marks for this question."
+msgstr ""
+
+#: $string['generalfeedback']
+msgid "General feedback"
+msgstr ""
+
+#: $string['generalfeedback_help']
+msgid ""
+"General feedback is shown to the student after they have completed the "
+"question. Unlike specific feedback, which depends on the question type and "
+"what response the student gave, the same general feedback text is shown to "
+"all students.\n"
+"\n"
+"You can use the general feedback to give students a fully worked answer and "
+"perhaps a link to more information they can use if they did not understand "
+"the questions."
+msgstr ""
+
+#: $string['getcategoryfromfile']
+msgid "Get category from file"
+msgstr ""
+
+#: $string['getcontextfromfile']
+msgid "Get context from file"
+msgstr ""
+
+#: $string['hintn']
+msgid "Hint {no}"
+msgstr ""
+
+#: $string['hintnoptions']
+msgid "Hint {no} options"
+msgstr ""
+
+#: $string['hinttext']
+msgid "Hint text"
+msgstr ""
+
+#: $string['howquestionsbehave']
+msgid "How questions behave"
+msgstr ""
+
+#: $string['howquestionsbehave_help']
+msgid ""
+"Students can interact with the questions in the quiz in various different "
+"ways. For example, you may wish the students to enter an answer to each "
+"question and then submit the entire quiz, before anything is graded or they "
+"get any feedback. That would be 'Deferred feedback' mode.\n"
+"\n"
+"Alternatively, you may wish for students to submit each question as they go "
+"along to get immediate feedback, and if they do not get it right "
+"immediately, have another try for fewer marks. That would be 'Interactive "
+"with multiple tries' mode.\n"
+"\n"
+"Those are probably the two most commonly used modes of behaviour."
+msgstr ""
+
+#: $string['howquestionsbehave_link']
+msgid "question/behaviour"
+msgstr ""
+
+#: $string['ignorebroken']
+msgid "Ignore broken links"
+msgstr ""
+
+#: $string['import']
+msgid "Import"
+msgstr ""
+
+#: $string['importcategory']
+msgid "Import category"
+msgstr ""
+
+#: $string['importcategory_help']
+msgid ""
+"This setting determines the category into which the imported questions will "
+"go.\n"
+"\n"
+"Certain import formats, such as GIFT and Moodle XML, may include category "
+"and context data in the import file. To make use of this data, rather than "
+"the selected category, the appropriate checkboxes should be ticked. If "
+"categories specified in the import file do not exist, they will be created."
+msgstr ""
+
+#: $string['importerror']
+msgid "An error occurred during import processing"
+msgstr ""
+
+#: $string['importerrorquestion']
+msgid "Error importing question"
+msgstr ""
+
+#: $string['importfromcoursefiles']
+msgid "... or choose a course file to import."
+msgstr ""
+
+#: $string['importfromupload']
+msgid "Select a file to upload ..."
+msgstr ""
+
+#: $string['importingquestions']
+msgid "Importing {$a} questions from file"
+msgstr ""
+
+#: $string['importparseerror']
+msgid ""
+"Error(s) found parsing the import file. No questions have been imported. To "
+"import any good questions try again setting 'Stop on error' to 'No'"
+msgstr ""
+
+#: $string['importquestions']
+msgid "Import questions from file"
+msgstr ""
+
+#: $string['importquestions_help']
+msgid ""
+"This function enables questions in a variety of formats to be imported via "
+"text file. Note that the file must use UTF-8 encoding."
+msgstr ""
+
+#: $string['importquestions_link']
+msgid "question/import"
+msgstr ""
+
+#: $string['importwrongfiletype']
+msgid ""
+"The type of the file you selected ({$a->actualtype}) does not match the type "
+"expected by this import format ({$a->expectedtype})."
+msgstr ""
+
+#: $string['impossiblechar']
+msgid "Impossible character {$a} detected as parenthesis character"
+msgstr ""
+
+#: $string['includesubcategories']
+msgid "Also show questions from subcategories"
+msgstr ""
+
+#: $string['incorrect']
+msgid "Incorrect"
+msgstr ""
+
+#: $string['incorrectfeedback']
+msgid "For any incorrect response"
+msgstr ""
+
+#: $string['incorrectfeedbackdefault']
+msgid "Your answer is incorrect."
+msgstr ""
+
+#: $string['information']
+msgid "Information"
+msgstr ""
+
+#: $string['invalidanswer']
+msgid "Incomplete answer"
+msgstr ""
+
+#: $string['invalidarg']
+msgid "No valid arguments supplied or incorrect server configuration"
+msgstr ""
+
+#: $string['invalidcategoryidforparent']
+msgid "Invalid category id for parent!"
+msgstr ""
+
+#: $string['invalidcategoryidtomove']
+msgid "Invalid category id to move!"
+msgstr ""
+
+#: $string['invalidconfirm']
+msgid "Confirmation string was incorrect"
+msgstr ""
+
+#: $string['invalidcontextinhasanyquestions']
+msgid "Invalid context passed to question_context_has_any_questions."
+msgstr ""
+
+#: $string['invalidgrade']
+msgid "Grades ({$a}) do not match grade options - question skipped."
+msgstr ""
+
+#: $string['invalidpenalty']
+msgid "Invalid penalty"
+msgstr ""
+
+#: $string['invalidwizardpage']
+msgid "Incorrect or no wizard page specified!"
+msgstr ""
+
+#: $string['lastmodifiedby']
+msgid "Last modified by"
+msgstr ""
+
+#: $string['lasttry']
+msgid "Last try"
+msgstr ""
+
+#: $string['linkedfiledoesntexist']
+msgid "Linked file {$a} doesn't exist"
+msgstr ""
+
+#: $string['makechildof']
+msgid "Make child of '{$a}'"
+msgstr ""
+
+#: $string['makecopy']
+msgid "Make copy"
+msgstr ""
+
+#: $string['maketoplevelitem']
+msgid "Move to top level"
+msgstr ""
+
+#: $string['manualgradeinvalidformat']
+msgid "That is not a valid number."
+msgstr ""
+
+#: $string['manualgradeoutofrange']
+msgid "This grade is outside the valid range."
+msgstr ""
+
+#: $string['manuallygraded']
+msgid "Manually graded {$a->mark} with comment: {$a->comment}"
+msgstr ""
+
+#: $string['mark']
+msgid "Mark"
+msgstr ""
+
+#: $string['markedoutof']
+msgid "Marked out of"
+msgstr ""
+
+#: $string['markedoutofmax']
+msgid "Marked out of {$a}"
+msgstr ""
+
+#: $string['markoutofmax']
+msgid "Mark {$a->mark} out of {$a->max}"
+msgstr ""
+
+#: $string['marks']
+msgid "Marks"
+msgstr ""
+
+#: $string['matchgrades']
+msgid "Match grades"
+msgstr ""
+
+#: $string['matchgradeserror']
+msgid "Error if grade not listed"
+msgstr ""
+
+#: $string['matchgrades_help']
+msgid ""
+"Imported grades must match one of the fixed list of valid grades - 100, 90, "
+"80, 75, 70, 66.666, 60, 50, 40, 33.333, 30, 25, 20, 16.666, 14.2857, 12.5, "
+"11.111, 10, 5, 0 (also negative values). If not, there are two options:\n"
+"\n"
+"*  Error if grade not listed - If a question contains any grades not found "
+"in the list an error is displayed and that question will not be imported\n"
+"* Nearest grade if not listed - If a grade is found that does not match a "
+"value in the list, the grade is changed to the closest matching value in the "
+"list"
+msgstr ""
+
+#: $string['matchgradesnearest']
+msgid "Nearest grade if not listed"
+msgstr ""
+
+#: $string['missingcourseorcmid']
+msgid "Need to provide courseid or cmid to print_question."
+msgstr ""
+
+#: $string['missingcourseorcmidtolink']
+msgid "Need to provide courseid or cmid to get_question_edit_link."
+msgstr ""
+
+#: $string['missingimportantcode']
+msgid "This question type is missing important code: {$a}."
+msgstr ""
+
+#: $string['missingoption']
+msgid "The cloze question {$a} is missing its options"
+msgstr ""
+
+#: $string['modified']
+msgid "Last saved"
+msgstr ""
+
+#: $string['move']
+msgid "Move from {$a} and change links."
+msgstr ""
+
+#: $string['movecategory']
+msgid "Move category"
+msgstr ""
+
+#: $string['movedquestionsandcategories']
+msgid ""
+"Moved questions and question categories from {$a->oldplace} to "
+"{$a->newplace}."
+msgstr ""
+
+#: $string['movelinksonly']
+msgid "Just change where links point to, do not move or copy files."
+msgstr ""
+
+#: $string['moveq']
+msgid "Move question(s)"
+msgstr ""
+
+#: $string['moveqtoanothercontext']
+msgid "Move question to another context."
+msgstr ""
+
+#: $string['moveto']
+msgid "Move to >>"
+msgstr ""
+
+#: $string['movingcategory']
+msgid "Moving category"
+msgstr ""
+
+#: $string['movingcategoryandfiles']
+msgid ""
+"Are you sure you want to move category {$a->name} and all child categories "
+"to context for \"{$a->contextto}\"?<br /> We have detected {$a->urlcount} "
+"files linked from questions in {$a->fromareaname}, would you like to copy or "
+"move these to {$a->toareaname}?"
+msgstr ""
+
+#: $string['movingcategorynofiles']
+msgid ""
+"Are you sure you want to move category \"{$a->name}\" and all child categories "
+"to context for \"{$a->contextto}\"?"
+msgstr ""
+
+#: $string['movingquestions']
+msgid "Moving questions and any files"
+msgstr ""
+
+#: $string['movingquestionsandfiles']
+msgid ""
+"Are you sure you want to move question(s) {$a->questions} to context for "
+"<strong>\"{$a->tocontext}\"</strong>?<br /> We have detected "
+"<strong>{$a->urlcount} files</strong> linked from these question(s) in "
+"{$a->fromareaname}, would you like to copy or move these to "
+"{$a->toareaname}?"
+msgstr ""
+
+#: $string['movingquestionsnofiles']
+msgid ""
+"Are you sure you want to move question(s) {$a->questions} to context for "
+"<strong>\"{$a->tocontext}\"</strong>?<br /> There are <strong>no "
+"files</strong> linked from these question(s) in {$a->fromareaname}."
+msgstr ""
+
+#: $string['needtochoosecat']
+msgid ""
+"You need to choose a category to move this question to or press 'cancel'."
+msgstr ""
+
+#: $string['nocate']
+msgid "No such category {$a}!"
+msgstr ""
+
+#: $string['nopermissionadd']
+msgid "You don't have permission to add questions here."
+msgstr ""
+
+#: $string['nopermissionmove']
+msgid ""
+"You don't have permission to move questions from here. You must save the "
+"question in this category or save it as a new question."
+msgstr ""
+
+#: $string['noprobs']
+msgid "No problems found in your question database."
+msgstr ""
+
+#: $string['noquestions']
+msgid ""
+"No questions were found that could be exported. Make sure that you have "
+"selected a category to export that contains questions."
+msgstr ""
+
+#: $string['noquestionsinfile']
+msgid "There are no questions in the import file"
+msgstr ""
+
+#: $string['noresponse']
+msgid "[No response]"
+msgstr ""
+
+#: $string['notanswered']
+msgid "Not answered"
+msgstr ""
+
+#: $string['notchanged']
+msgid "Not changed since last attempt"
+msgstr ""
+
+#: $string['notenoughanswers']
+msgid "This type of question requires at least {$a} answers"
+msgstr ""
+
+#: $string['notenoughdatatoeditaquestion']
+msgid ""
+"Neither a question id, nor a category id and question type, was specified."
+msgstr ""
+
+#: $string['notenoughdatatomovequestions']
+msgid "You need to provide the question ids of questions you want to move."
+msgstr ""
+
+#: $string['notflagged']
+msgid "Not flagged"
+msgstr ""
+
+#: $string['notgraded']
+msgid "Not graded"
+msgstr ""
+
+#: $string['notshown']
+msgid "Not shown"
+msgstr ""
+
+#: $string['notyetanswered']
+msgid "Not yet answered"
+msgstr ""
+
+#: $string['notyourpreview']
+msgid "This preview does not belong to you"
+msgstr ""
+
+#: $string['novirtualquestiontype']
+msgid "No virtual question type for question type {$a}"
+msgstr ""
+
+#: $string['numqas']
+msgid "No. question attempts"
+msgstr ""
+
+#: $string['numquestions']
+msgid "No. questions"
+msgstr ""
+
+#: $string['numquestionsandhidden']
+msgid "{$a->numquestions} (+{$a->numhidden} hidden)"
+msgstr ""
+
+#: $string['options']
+msgid "Options"
+msgstr ""
+
+#: $string['page-question-category']
+msgid "Question category page"
+msgstr ""
+
+#: $string['page-question-edit']
+msgid "Question editing page"
+msgstr ""
+
+#: $string['page-question-export']
+msgid "Question export page"
+msgstr ""
+
+#: $string['page-question-import']
+msgid "Question import page"
+msgstr ""
+
+#: $string['page-question-x']
+msgid "Any question page"
+msgstr ""
+
+#: $string['parent']
+msgid "Parent"
+msgstr ""
+
+#: $string['parentcategory']
+msgid "Parent category"
+msgstr ""
+
+#: $string['parentcategory_help']
+msgid ""
+"The parent category is the one in which the new category will be placed. "
+"\"Top\" means that this category is not contained in any other category. "
+"Category contexts are shown in bold type. There must be at least one "
+"category in each context."
+msgstr ""
+
+#: $string['parentcategory_link']
+msgctxt "$string['parentcategory_link']"
+msgid "question/category"
+msgstr ""
+
+#: $string['parenthesisinproperclose']
+msgid "Parenthesis before ** is not properly closed in {$a}**"
+msgstr ""
+
+#: $string['parenthesisinproperstart']
+msgid "Parenthesis before ** is not properly started in {$a}**"
+msgstr ""
+
+#: $string['parsingquestions']
+msgid "Parsing questions from import file."
+msgstr ""
+
+#: $string['partiallycorrect']
+msgid "Partially correct"
+msgstr ""
+
+#: $string['partiallycorrectfeedback']
+msgid "For any partially correct response"
+msgstr ""
+
+#: $string['partiallycorrectfeedbackdefault']
+msgid "Your answer is partially correct."
+msgstr ""
+
+#: $string['penaltyfactor']
+msgid "Penalty factor"
+msgstr ""
+
+#: $string['penaltyfactor_help']
+msgid ""
+"This setting determines what fraction of the achieved score is subtracted "
+"for each wrong response. It is only applicable if the quiz is run in "
+"adaptive mode.\n"
+"\n"
+"The penalty factor should be a number between 0 and 1. A penalty factor of 1 "
+"means that the student has to get the answer right in his first response to "
+"get any credit for it at all. A penalty factor of 0 means the student can "
+"try as often as he likes and still get the full marks."
+msgstr ""
+
+#: $string['penaltyforeachincorrecttry']
+msgid "Penalty for each incorrect try"
+msgstr ""
+
+#: $string['penaltyforeachincorrecttry_help']
+msgid ""
+"When questions are run using the 'Interactive with multiple tries' or "
+"'Adaptive mode' behaviour, so that the student will have several tries to "
+"get the question right, then this option controls how much they are "
+"penalised for each incorrect try.\n"
+"\n"
+"The penalty is a proportion of the total question grade, so if the question "
+"is worth three marks, and the penalty is 0.3333333, then the student will "
+"score 3 if they get the question right first time, 2 if they get it right "
+"second try, and 1 of they get it right on the third try."
+msgstr ""
+
+#: $string['permissionedit']
+msgid "Edit this question"
+msgstr ""
+
+#: $string['permissionmove']
+msgid "Move this question"
+msgstr ""
+
+#: $string['permissionsaveasnew']
+msgid "Save this as a new question"
+msgstr ""
+
+#: $string['permissionto']
+msgid "You have permission to :"
+msgstr ""
+
+#: $string['previewquestion']
+msgid "Preview question: {$a}"
+msgstr ""
+
+#: $string['published']
+msgid "shared"
+msgstr ""
+
+#: $string['qtypeveryshort']
+msgid "T"
+msgstr ""
+
+#: $string['questionaffected']
+msgid ""
+"<a href=\"{$a->qurl}\">Question \"{$a->name}\" ({$a->qtype})</a> is in this "
+"question category but is also being used in <a href=\"{$a->qurl}\">quiz "
+"\"{$a->quizname}\"</a> in another course \"{$a->coursename}\"."
+msgstr ""
+
+#: $string['questionbank']
+msgid "Question bank"
+msgstr ""
+
+#: $string['questionbehaviouradminsetting']
+msgid "Question behaviour settings"
+msgstr ""
+
+#: $string['questionbehavioursdisabled']
+msgid "Question behaviours to disable"
+msgstr ""
+
+#: $string['questionbehavioursdisabledexplained']
+msgid ""
+"Enter a comma separated list of behaviours you do not want to appear in "
+"dropdown menu"
+msgstr ""
+
+#: $string['questionbehavioursorder']
+msgid "Question behaviours order"
+msgstr ""
+
+#: $string['questionbehavioursorderexplained']
+msgid ""
+"Enter a comma separated list of behaviours in the order you want them to "
+"appear in dropdown menu"
+msgstr ""
+
+#: $string['questioncategory']
+msgid "Question category"
+msgstr ""
+
+#: $string['questioncatsfor']
+msgid "Question categories for '{$a}'"
+msgstr ""
+
+#: $string['questiondoesnotexist']
+msgid "This question does not exist"
+msgstr ""
+
+#: $string['questionidmismatch']
+msgid "Question ids mismatch"
+msgstr ""
+
+#: $string['questionname']
+msgid "Question name"
+msgstr ""
+
+#: $string['questionnamecopy']
+msgid "{$a} (copy)"
+msgstr ""
+
+#: $string['questionno']
+msgctxt "$string['questionno']"
+msgid "Question {$a}"
+msgstr ""
+
+#: $string['questionpreviewdefaults']
+msgid "Question preview defaults"
+msgstr ""
+
+#: $string['questionpreviewdefaults_desc']
+msgid ""
+"These defaults are used when a user first previews a question in the "
+"question bank. Once a user has previewed a question, their personal "
+"preferences are stored as user preferences."
+msgstr ""
+
+#: $string['questions']
+msgctxt "$string['questions']"
+msgid "Questions"
+msgstr ""
+
+#: $string['questionsaveerror']
+msgid "Errors occur during saving question - ({$a})"
+msgstr ""
+
+#: $string['questionsinuse']
+msgid ""
+"(* Questions marked by an asterisk are already in use in some quizzes. These "
+"question will not be deleted from these quizzes but only from the category "
+"list.)"
+msgstr ""
+
+#: $string['questionsmovedto']
+msgid "Questions still in use moved to \"{$a}\" in the parent course category."
+msgstr ""
+
+#: $string['questionsrescuedfrom']
+msgid "Questions saved from context {$a}."
+msgstr ""
+
+#: $string['questionsrescuedfrominfo']
+msgid ""
+"These questions (some of which may be hidden) were saved when context {$a} "
+"was deleted because they are still used by some quizzes or other activities."
+msgstr ""
+
+#: $string['questiontext']
+msgid "Question text"
+msgstr ""
+
+#: $string['questiontype']
+msgid "Question type"
+msgstr ""
+
+#: $string['questionuse']
+msgid "Use question in this activity"
+msgstr ""
+
+#: $string['questionvariant']
+msgid "Question variant"
+msgstr ""
+
+#: $string['questionx']
+msgctxt "$string['questionx']"
+msgid "Question {$a}"
+msgstr ""
+
+#: $string['requiresgrading']
+msgid "Requires grading"
+msgstr ""
+
+#: $string['responsehistory']
+msgid "Response history"
+msgstr ""
+
+#: $string['restart']
+msgid "Start again"
+msgstr ""
+
+#: $string['restartwiththeseoptions']
+msgid "Start again with these options"
+msgstr ""
+
+#: $string['reviewresponse']
+msgid "Review response"
+msgstr ""
+
+#: $string['rightanswer']
+msgid "Right answer"
+msgstr ""
+
+#: $string['rightanswer_help']
+msgid ""
+"an automatically generated summary of the correct response. This can be "
+"limited, so you may wish to consider explaining the correct solution in the "
+"general feedback for the question, and turning this option off."
+msgstr ""
+
+#: $string['save']
+msgid "Save"
+msgstr ""
+
+#: $string['savechangesandcontinueediting']
+msgid "Save changes and continue editing"
+msgstr ""
+
+#: $string['saved']
+msgid "Saved: {$a}"
+msgstr ""
+
+#: $string['saveflags']
+msgid "Save the state of the flags"
+msgstr ""
+
+#: $string['selectacategory']
+msgid "Select a category:"
+msgstr ""
+
+#: $string['selectaqtypefordescription']
+msgid "Select a question type to see its description."
+msgstr ""
+
+#: $string['selectcategoryabove']
+msgid "Select a category above"
+msgstr ""
+
+#: $string['selectquestionsforbulk']
+msgid "Select questions for bulk actions"
+msgstr ""
+
+#: $string['settingsformultipletries']
+msgid "Multiple tries"
+msgstr ""
+
+#: $string['shareincontext']
+msgid "Share in context for {$a}"
+msgstr ""
+
+#: $string['showhidden']
+msgid "Also show old questions"
+msgstr ""
+
+#: $string['showmarkandmax']
+msgid "Show mark and max"
+msgstr ""
+
+#: $string['showmaxmarkonly']
+msgid "Show max mark only"
+msgstr ""
+
+#: $string['shown']
+msgid "Shown"
+msgstr ""
+
+#: $string['shownumpartscorrect']
+msgid "Show the number of correct responses"
+msgstr ""
+
+#: $string['shownumpartscorrectwhenfinished']
+msgid "Show the number of correct responses once the question has finished"
+msgstr ""
+
+#: $string['showquestiontext']
+msgid "Show question text in the question list"
+msgstr ""
+
+#: $string['specificfeedback']
+msgid "Specific feedback"
+msgstr ""
+
+#: $string['specificfeedback_help']
+msgid "Feedback that depends on what response the student gave."
+msgstr ""
+
+#: $string['started']
+msgid "Started"
+msgstr ""
+
+#: $string['state']
+msgid "State"
+msgstr ""
+
+#: $string['step']
+msgid "Step"
+msgstr ""
+
+#: $string['stoponerror']
+msgid "Stop on error"
+msgstr ""
+
+#: $string['stoponerror_help']
+msgid ""
+"This setting determines whether the import process stops when an error is "
+"detected, resulting in no questions being imported, or whether any questions "
+"containing errors are ignored and any valid questions are imported."
+msgstr ""
+
+#: $string['submissionoutofsequence']
+msgid ""
+"Access out of sequence. Please do not click the back button when working on "
+"quiz questions."
+msgstr ""
+
+#: $string['submissionoutofsequencefriendlymessage']
+msgid ""
+"You have entered data outside the normal sequence. This can occur if you use "
+"your browser's Back or Forward buttons; please don't use these during the "
+"test. It can also happen if you click on something while a page is loading. "
+"Click <strong>Continue</strong> to resume."
+msgstr ""
+
+#: $string['submit']
+msgid "Submit"
+msgstr ""
+
+#: $string['submitandfinish']
+msgid "Submit and finish"
+msgstr ""
+
+#: $string['submitted']
+msgid "Submit: {$a}"
+msgstr ""
+
+#: $string['tagarea_question']
+msgctxt "$string['tagarea_question']"
+msgid "Questions"
+msgstr ""
+
+#: $string['technicalinfo']
+msgid "Technical information"
+msgstr ""
+
+#: $string['technicalinfo_help']
+msgid ""
+"This technical information is probably only useful for developers working on "
+"new question types. It may also be helpful when trying to diagnose problems "
+"with questions."
+msgstr ""
+
+#: $string['technicalinfomaxfraction']
+msgid "Maximum fraction: {$a}"
+msgstr ""
+
+#: $string['technicalinfominfraction']
+msgid "Minimum fraction: {$a}"
+msgstr ""
+
+#: $string['technicalinfoquestionsummary']
+msgid "Question summary: {$a}"
+msgstr ""
+
+#: $string['technicalinforesponsesummary']
+msgid "Response summary: {$a}"
+msgstr ""
+
+#: $string['technicalinforightsummary']
+msgid "Right answer summary: {$a}"
+msgstr ""
+
+#: $string['technicalinfostate']
+msgid "Question state: {$a}"
+msgstr ""
+
+#: $string['technicalinfovariant']
+msgid "Question variant: {$a}"
+msgstr ""
+
+#: $string['tofilecategory']
+msgid "Write category to file"
+msgstr ""
+
+#: $string['tofilecontext']
+msgid "Write context to file"
+msgstr ""
+
+#: $string['uninstallbehaviour']
+msgid "Uninstall this question behaviour."
+msgstr ""
+
+#: $string['uninstallqtype']
+msgid "Uninstall this question type."
+msgstr ""
+
+#: $string['unknown']
+msgid "Unknown"
+msgstr ""
+
+#: $string['unknownbehaviour']
+msgid "Unknown behaviour: {$a}."
+msgstr ""
+
+#: $string['unknownorunhandledtype']
+msgid "Unknown or unhandled question type: {$a}"
+msgstr ""
+
+#: $string['unknownquestion']
+msgid "Unknown question: {$a}."
+msgstr ""
+
+#: $string['unknownquestioncatregory']
+msgid "Unknown question category: {$a}."
+msgstr ""
+
+#: $string['unknownquestiontype']
+msgid "Unknown question type: {$a}."
+msgstr ""
+
+#: $string['unknowntolerance']
+msgid "Unknown tolerance type {$a}"
+msgstr ""
+
+#: $string['unpublished']
+msgid "unshared"
+msgstr ""
+
+#: $string['unusedcategorydeleted']
+msgid ""
+"This category has been deleted because, after deleting the course, its "
+"questions weren't used any more."
+msgstr ""
+
+#: $string['updatedisplayoptions']
+msgid "Update display options"
+msgstr ""
+
+#: $string['upgradeproblemcategoryloop']
+msgid ""
+"Problem detected when upgrading question categories. There is a loop in the "
+"category tree. The affected category ids are {$a}."
+msgstr ""
+
+#: $string['upgradeproblemcouldnotupdatecategory']
+msgid "Could not update question category {$a->name} ({$a->id})."
+msgstr ""
+
+#: $string['upgradeproblemunknowncategory']
+msgid ""
+"Problem detected when upgrading question categories. Category {$a->id} "
+"refers to parent {$a->parent}, which does not exist. Parent changed to fix "
+"problem."
+msgstr ""
+
+#: $string['whethercorrect']
+msgid "Whether correct"
+msgstr ""
+
+#: $string['whethercorrect_help']
+msgid ""
+"This covers both the textual description 'Correct', 'Partially correct' or "
+"'Incorrect', and any coloured highlighting that conveys the same "
+"information."
+msgstr ""
+
+#: $string['whichtries']
+msgid "Which tries"
+msgstr ""
+
+#: $string['withselected']
+msgid "With selected"
+msgstr ""
+
+#: $string['wrongprefix']
+msgid "Wrongly formatted nameprefix {$a}"
+msgstr ""
+
+#: $string['xoutofmax']
+msgid "{$a->mark} out of {$a->max}"
+msgstr ""
+
+#: $string['yougotnright']
+msgid "You have correctly selected {$a->num}."
+msgstr ""
+
+#: $string['youmustselectaqtype']
+msgid "You must select a question type."
+msgstr ""
+
+#: $string['yourfileshoulddownload']
+msgid ""
+"Your export file should start to download shortly. If not, please <a "
+"href=\"{$a}\">click here</a>."
+msgstr ""

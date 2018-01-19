@@ -1,0 +1,410 @@
+#. extracted from lang/en/local_uploadnotification.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'local_uploadnotification', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   local_uploadnotification
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['actioncreated']
+msgid "created"
+msgstr ""
+
+#: $string['actionupdated']
+msgid "updated"
+msgstr ""
+
+#: $string['heading']
+msgid "Upload notification settings"
+msgstr ""
+
+#: $string['long_diff']
+msgid "In this file {$a} pages were changed."
+msgstr ""
+
+#: $string['long_diff_many']
+msgid "In this file many pages were changed."
+msgstr ""
+
+#: $string['messageprovider:digest']
+msgid "Course modification digest notification"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Upload notification"
+msgstr ""
+
+#: $string['printed_changelog_prefix']
+msgid "This file is an update of {$a->filename} from {$a->date}."
+msgstr ""
+
+#: $string['printed_diff_prefix']
+msgid "The following pages of this file were changed:"
+msgstr ""
+
+#: $string['settings_allow_changelog']
+msgid "Allow automatic changelog generation in courses"
+msgstr ""
+
+#: $string['settings_allow_changelog_help']
+msgid ""
+"Allow teachers to enable the automatic changelog detection for their course. "
+"If disabled, teachers will not see this settings and can not enable the "
+"functionality."
+msgstr ""
+
+#: $string['settings_allow_mail']
+msgid "Allow notification mail delivery"
+msgstr ""
+
+#: $string['settings_allow_mail_help']
+msgid "If enabled, mails with notifications about new material can be send"
+msgstr ""
+
+#: $string['settings_course_allow_attachment']
+msgid "Allow email attachments"
+msgstr ""
+
+#: $string['settings_course_allow_attachment_help']
+msgid ""
+"If set, students can receive new material directly via email. Activating "
+"this option will not automatically send an attachment every time, but "
+"students have the possibility to enable this function for them."
+msgstr ""
+
+#: $string['settings_course_disable']
+msgctxt "$string['settings_course_disable']"
+msgid "Disable"
+msgstr ""
+
+#: $string['settings_course_enable']
+msgctxt "$string['settings_course_enable']"
+msgid "Enable"
+msgstr ""
+
+#: $string['settings_course_enable_changelog']
+msgid "Display a changelog for updates."
+msgstr ""
+
+#: $string['settings_course_enable_changelog_help']
+msgid ""
+"If set, updates of the provided material will be detected and a changelog "
+"will be displayed under the current file. This can help your students to "
+"handle changes in the documents."
+msgstr ""
+
+#: $string['settings_course_enable_diff']
+msgid "Detect differences in updates"
+msgstr ""
+
+#: $string['settings_course_enable_diff_help']
+msgid ""
+"If set, an automatic analyse will detect the changed pages if you update "
+"provided material. The page number will be displayed under the current file."
+msgstr ""
+
+#: $string['settings_course_enable_mail']
+msgctxt "$string['settings_course_enable_mail']"
+msgid "Enable notification mail delivery for material uploads"
+msgstr ""
+
+#: $string['settings_course_enable_mail_help']
+msgid ""
+"No preference: Your students can decide by their own whether they want to "
+"receive emails or not<br>Disabled: No mails will be delivered for material "
+"changes in your course<br>Enabled: Students will receive mails for material "
+"changes, expect they have forbidden the delivery explicate"
+msgstr ""
+
+#: $string['settings_course_error_diff_no_changelog']
+msgid ""
+"The diff detection requires the changelog functionality. Please enable the "
+"changelog or disable the diff detection."
+msgstr ""
+
+#: $string['settings_course_headline']
+msgid "Course settings for upload notifications and changelog generation."
+msgstr ""
+
+#: $string['settings_course_link']
+msgctxt "$string['settings_course_link']"
+msgid "Uploadnotification"
+msgstr ""
+
+#: $string['settings_course_no_preferences']
+msgctxt "$string['settings_course_no_preferences']"
+msgid "No preferences"
+msgstr ""
+
+#: $string['settings_course_require_valid_course_admin']
+msgid "This feature is only available for course admins."
+msgstr ""
+
+#: $string['settings_course_require_valid_course_id']
+msgid "This feature is only available for valid course IDs."
+msgstr ""
+
+#: $string['settings_diff_not_available']
+msgid ""
+"<p>The detection for changes in PDF files is not available because the tool "
+"<code>diff</code> could not be found on your system. If you have enabled the "
+"setting above, have a look in the admin settings of the local Plugin "
+"ChangelogLib to specify the correct path. This message disappears if the "
+"tool could be found.</p>"
+msgstr ""
+
+#: $string['settings_digest']
+msgid "Time for digest delivery"
+msgstr ""
+
+#: $string['settings_digest_help']
+msgid "The time on each day when the notification digests should be send."
+msgstr ""
+
+#: $string['settings_enable_changelog_by_default']
+msgid "Enable the changelog by default"
+msgstr ""
+
+#: $string['settings_enable_changelog_by_default_help']
+msgid ""
+"If set, the changelog will be activated in courses which have no custom "
+"settings. If a teacher does not want this, he has to disable it manually."
+msgstr ""
+
+#: $string['settings_enable_diff_by_default']
+msgid "Enable the diff detection by default"
+msgstr ""
+
+#: $string['settings_enable_diff_by_default_help']
+msgid ""
+"If set, the diff detection will be activated in courses which have no custom "
+"settings. If a teacher does not want this, he has to disable it manually."
+msgstr ""
+
+#: $string['settings_max_diff_filesize']
+msgid "Allowed size of analysed files for the diff detection<br>(in MB)"
+msgstr ""
+
+#: $string['settings_max_diff_filesize_help']
+msgid ""
+"If the filesize of material is greater than this value, no differences will "
+"be calculated for it. Set this value to zero to disable the difference "
+"detection.<br>The difference detection requires an enabled changelog."
+msgstr ""
+
+#: $string['settings_max_mail_amount']
+msgid "Maximum course size for notifications"
+msgstr ""
+
+#: $string['settings_max_mail_amount_help']
+msgid ""
+"Adjust this value to avoid to much load at one time. Defines the size of the "
+"course up to which mails are delivered."
+msgstr ""
+
+#: $string['settings_max_mail_filesize']
+msgctxt "$string['settings_max_mail_filesize']"
+msgid "Maximum filesize of mail attachments<br>(in KB)"
+msgstr ""
+
+#: $string['settings_max_mail_filesize_help']
+msgid ""
+"The maximum material filesize which is allowed to be send in a mail "
+"attachments<br>Set to zero to disable attachments."
+msgstr ""
+
+#: $string['settings_max_mails_for_resource']
+msgid "Maximum amount of mails with the same attachment"
+msgstr ""
+
+#: $string['settings_max_mails_for_resource_help']
+msgid ""
+"Adjust this value to avoid to much load at one time. Defines the amount of "
+"mails with attachment which are allowed to be send based on one course "
+"module."
+msgstr ""
+
+#: $string['settings_pdftotext_not_available']
+msgid ""
+"<p>The detection for changes in PDF files is not available because the tool "
+"<code>pdftotext</code> could not be found on your system. If you have "
+"enabled the setting above, have a look in the admin settings of the local "
+"Plugin ChangelogLib to specify the correct path. This message disappears if "
+"the tool could be found.</p>"
+msgstr ""
+
+#: $string['settings_required_mail_suffix']
+msgid "Required suffix of email addresses."
+msgstr ""
+
+#: $string['settings_required_mail_suffix_help']
+msgid ""
+"Insert your institutional domain name to only allow addresses which end with "
+"it. Leave it blank to allow all provider."
+msgstr ""
+
+#: $string['settings_saved_successfully']
+msgid "Your settings have been saved."
+msgstr ""
+
+#: $string['settings_user_disable']
+msgctxt "$string['settings_user_disable']"
+msgid "Disable"
+msgstr ""
+
+#: $string['settings_user_enable']
+msgctxt "$string['settings_user_enable']"
+msgid "Enable"
+msgstr ""
+
+#: $string['settings_user_enable_digest']
+msgid "Only send digest of the day"
+msgstr ""
+
+#: $string['settings_user_enable_digest_help']
+msgid ""
+"Enabled: You will only receive one mail in the evening with all changes on "
+"this day<br>Disabled: You will receive a mail as soon as possible after "
+"uploads"
+msgstr ""
+
+#: $string['settings_user_enable_mail']
+msgctxt "$string['settings_user_enable_mail']"
+msgid "Enable notification mail delivery for material uploads"
+msgstr ""
+
+#: $string['settings_user_enable_mail_help']
+msgid ""
+"No preference: You will only receive emails if a teacher has enabled it "
+"explicit for his course<br>Disabled: No mails will be delivered for material "
+"changes<br>Enabled: You will receive mails for material changes, expect a "
+"teacher has forbidden the delivery explicit"
+msgstr ""
+
+#: $string['settings_user_headline']
+msgid ""
+"Do you want to receive notifications when new material was uploaded to a "
+"course?"
+msgstr ""
+
+#: $string['settings_user_link']
+msgctxt "$string['settings_user_link']"
+msgid "Uploadnotification"
+msgstr ""
+
+#: $string['settings_user_max_mail_filesize']
+msgctxt "$string['settings_user_max_mail_filesize']"
+msgid "Maximum filesize of mail attachments<br>(in KB)"
+msgstr ""
+
+#: $string['settings_user_max_mail_filesize_help']
+msgid ""
+"You can receive new or updated material directly via email. This defines the "
+"maximum material filesize which is allowed to be send in a mail "
+"attachments<br>Set to zero to disable attachments."
+msgstr ""
+
+#: $string['settings_user_max_mail_filesize_not_more_than_admin']
+msgid "The moodle admin only allows attachments up to {$a}KB"
+msgstr ""
+
+#: $string['settings_user_no_preferences']
+msgctxt "$string['settings_user_no_preferences']"
+msgid "No preferences"
+msgstr ""
+
+#: $string['settings_user_not_negative']
+msgid "Negative values are not allowed"
+msgstr ""
+
+#: $string['settings_user_require_valid_users']
+msgid "This feature is only available for valid users."
+msgstr ""
+
+#: $string['templatemessage']
+msgid ""
+"Hi {$a->firstname},\n"
+"\n"
+"The following activities resources have changed in courses you're enrolled "
+"in.\n"
+"\n"
+"{$a->notifications}\n"
+"\n"
+"{$a->signoff}\n"
+"\n"
+"You are receiving this mail because you or a teacher has requested this "
+"information. You can edit your preferences under {$a->user_settings}"
+msgstr ""
+
+#: $string['templatemessage_html']
+msgid ""
+"Hi {$a->firstname},<br><br>\n"
+"\n"
+"The following activities resources have changed in courses you're enrolled "
+"in.\n"
+"\n"
+"<ul>\n"
+"{$a->notifications}\n"
+"</ul>\n"
+"\n"
+"{$a->signoff}<br><br>\n"
+"\n"
+"You are receiving this mail because you or a teacher has requested this "
+"information. You can edit your preferences under your <a "
+"href=\"{$a->user_settings}\">preferences</a>."
+msgstr ""
+
+#: $string['templateresource']
+msgid ""
+"* \"{$a->filename}\" in \"{$a->coursefullname}\" ({$a->url_course}) was "
+"{$a->action}: {$a->url_file}"
+msgstr ""
+
+#: $string['templateresource_html']
+msgid ""
+"<li><a href=\"{$a->url_file}\">{$a->filename}</a> in <a "
+"href=\"{$a->url_course}\">{$a->coursefullname}</a> was {$a->action}</li>"
+msgstr ""
+
+#: $string['templatesubject_plural']
+msgid "Resource updates in your courses {$a}"
+msgstr ""
+
+#: $string['templatesubject_singular']
+msgid "Resource updates in your course {$a}"
+msgstr ""
+
+#: $string['uploadnotification:receivedigest']
+msgid "Receive course modification digest notification"
+msgstr ""
+
+#: $string['warning']
+msgid "Warning"
+msgstr ""

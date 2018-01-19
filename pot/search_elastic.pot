@@ -1,0 +1,270 @@
+#. extracted from lang/en/search_elastic.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'search_elastic', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   search_elastic
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addfail']
+msgid "Failed to add document to index"
+msgstr ""
+
+#: $string['fileindexing']
+msgid "Enable file indexing"
+msgstr ""
+
+#: $string['fileindexing_help']
+msgid ""
+"Enables file indexing for this plugin. With this option checked you will "
+"need to enter details of the Tika service in the \"File indexing settings\" "
+"below.<br/>\n"
+"You will need to reindex all site contents after enabling this option for "
+"all files to be added."
+msgstr ""
+
+#: $string['fileindexsettings']
+msgid "File indexing settings"
+msgstr ""
+
+#: $string['fileindexsettings_desc']
+msgid ""
+"Enter the details for the Tika service. These are required if file indexing "
+"is enabled above."
+msgstr ""
+
+#: $string['hostname']
+msgid "Hostname"
+msgstr ""
+
+#: $string['hostname_desc']
+msgid "The FQDN of the Elasticsearch engine endpoint"
+msgstr ""
+
+#: $string['imageindex']
+msgid "Enable image indexing"
+msgstr ""
+
+#: $string['imageindex_desc']
+msgid ""
+"When enabled Moodle will use AWS Rekognition to index images. If enabled "
+"File indexing must also be enabled and configured above."
+msgstr ""
+
+#: $string['index']
+msgid "Index"
+msgstr ""
+
+#: $string['index_desc']
+msgid "Namespace index to store search data in backend"
+msgstr ""
+
+#: $string['indexfail']
+msgid "Failed to create index"
+msgstr ""
+
+#: $string['maxlabels']
+msgid "Maxiumum Labels"
+msgstr ""
+
+#: $string['maxlabels_desc']
+msgid "The maximum number of result labels returned by Rekognition."
+msgstr ""
+
+#: $string['minconfidence']
+msgid "Minimum confidence"
+msgstr ""
+
+#: $string['minconfidence_desc']
+msgid "Reckognition will only return labels with a confidence above this"
+msgstr ""
+
+#: $string['noconfig']
+msgid "Elasticsearch configuration missing"
+msgstr ""
+
+#: $string['noserver']
+msgid "Elasticsearch endpoint unreachable"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Elastic"
+msgstr ""
+
+#: $string['pluginname_desc']
+msgid "Search backend for the Elasticsearch search engine"
+msgstr ""
+
+#: $string['port']
+msgid "Port"
+msgstr ""
+
+#: $string['port_desc']
+msgid "The Port of the Elasticsearch engine endpoint"
+msgstr ""
+
+#: $string['region']
+msgctxt "$string['region']"
+msgid "Region"
+msgstr ""
+
+#: $string['region_desc']
+msgid "The AWS region the Elasticsearch instance is in, e.g. ap-southeast-2"
+msgstr ""
+
+#: $string['rekognitionsettings']
+msgid "AWS Rekognition settings"
+msgstr ""
+
+#: $string['rekognitionsettings_desc']
+msgid ""
+"Settings to configure image recognition and indexing using the AWS "
+"Rekognition service."
+msgstr ""
+
+#: $string['rekregion']
+msgctxt "$string['rekregion']"
+msgid "Region"
+msgstr ""
+
+#: $string['rekregion_desc']
+msgid "The AWS region the Rekognition service is in, e.g. us-west-2"
+msgstr ""
+
+#: $string['reksigningkeyid']
+msgctxt "$string['reksigningkeyid']"
+msgid "Key ID"
+msgstr ""
+
+#: $string['reksigningkeyid_desc']
+msgid "The ID of the key to use to access Rekcognition."
+msgstr ""
+
+#: $string['reksigningsecretkey']
+msgctxt "$string['reksigningsecretkey']"
+msgid "Secret Key"
+msgstr ""
+
+#: $string['reksigningsecretkey_desc']
+msgid "The secret key to use to access Rekcognition."
+msgstr ""
+
+#: $string['searchinfo']
+msgid "Search queries"
+msgstr ""
+
+#: $string['searchinfo_help']
+msgid ""
+"The field to be searched may be specified by prefixing the search query with "
+"'title:', 'content:', 'name:', or 'intro:'. For example, searching for "
+"'title:news' would return results with the word 'news' in the title.\n"
+"\n"
+"Boolean operators ('AND', 'OR') may be used to combine or exclude keywords.\n"
+"\n"
+"Wildcard characters ('*' or '?' ) may be used to represent characters in the "
+"search query."
+msgstr ""
+
+#: $string['sendsize']
+msgid "Request size"
+msgstr ""
+
+#: $string['sendsize_desc']
+msgid ""
+"Some Elasticsearch providers such as AWS have a limit on how big the HTTP "
+"payload can be. Therefore we limit it to a size in bytes."
+msgstr ""
+
+#: $string['signing']
+msgid "Enable request signing"
+msgstr ""
+
+#: $string['signing_desc']
+msgid ""
+"When enabled Moodle will sign each request to Elasticsearch with the "
+"credentials below"
+msgstr ""
+
+#: $string['signingkeyid']
+msgctxt "$string['signingkeyid']"
+msgid "Key ID"
+msgstr ""
+
+#: $string['signingkeyid_desc']
+msgid "The ID of the key to use for signing requests."
+msgstr ""
+
+#: $string['signingsecretkey']
+msgctxt "$string['signingsecretkey']"
+msgid "Secret Key"
+msgstr ""
+
+#: $string['signingsecretkey_desc']
+msgid "The secret key to use to sign requests."
+msgstr ""
+
+#: $string['signingsettings']
+msgid "Request signing settings"
+msgstr ""
+
+#: $string['signingsettings_desc']
+msgid ""
+"If your Elasticsearch setup uses Request Signing enable and configure it "
+"below.\n"
+"\n"
+"This generally only applies if you are using Amazon Web Service (AWS) to "
+"provide your Elasticsearch Endpoint"
+msgstr ""
+
+#: $string['tikahostname']
+msgid "Tika Hostname"
+msgstr ""
+
+#: $string['tikahostname_desc']
+msgid "The FQDN of the Apache Tika endpoint"
+msgstr ""
+
+#: $string['tikaport']
+msgid "Tika Port"
+msgstr ""
+
+#: $string['tikaport_desc']
+msgid "The Port of the Apache Tika endpoint"
+msgstr ""
+
+#: $string['tikasendsize']
+msgid "Maximum file size"
+msgstr ""
+
+#: $string['tikasendsize_desc']
+msgid ""
+"Sending large files to Tika can cause out of memory issues. Therefore we "
+"limit it to a size in bytes."
+msgstr ""

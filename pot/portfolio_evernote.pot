@@ -1,0 +1,168 @@
+#. extracted from lang/en/portfolio_evernote.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'portfolio_evernote', language 'en', branch 'MOODLE_25_STABLE'
+#.  *
+#.  * @package   portfolio_evernote
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['consumerkey']
+msgid "Consumer Key"
+msgstr ""
+
+#: $string['customnotetitlelabel']
+msgid "Export Note Title"
+msgstr ""
+
+#: $string['defaultnotetitle']
+msgid "Moodle Portfolio Export"
+msgstr ""
+
+#: $string['denotedefaultnotebook']
+msgid "{$a} (Default)"
+msgstr ""
+
+#: $string['denotestack']
+msgid "(Stack: {$a})"
+msgstr ""
+
+#: $string['errorcreatingnotebook']
+msgid "Error while creating notebook"
+msgstr ""
+
+#: $string['errorlistingnotebook']
+msgid "Error while listing notebooks from your account"
+msgstr ""
+
+#: $string['evernoteusernamestring']
+msgid "Evernote Username"
+msgstr ""
+
+#: $string['failedlistingnotebooks']
+msgid "Failed to list Evernote notebooks."
+msgstr ""
+
+#: $string['failedtocreatenote']
+msgid "Failed to create Evernote note."
+msgstr ""
+
+#: $string['failedtoken']
+msgid "Unable to get Token from the current Customer key and Secret"
+msgstr ""
+
+#: $string['fileexportstatement']
+msgid "The export file has been attached."
+msgstr ""
+
+#: $string['improperkey']
+msgid "Wrong Evernote API Customer Key or Secret"
+msgstr ""
+
+#: $string['nooauthcredentials']
+msgid "OAuth credentials (Evernote API Consumer key and Secret) required."
+msgstr ""
+
+#: $string['nooauthcredentials_help']
+msgid ""
+"To use the Evernote portfolio plugin you must configure OAuth credentials in "
+"the portfolio settings."
+msgstr ""
+
+#: $string['nooauthfromuser']
+msgid "The Evernote user did not authorize the temporary credentials"
+msgstr ""
+
+#: $string['nooauthtoken']
+msgid ""
+"An authentication token has not been recieved from Evernote. Please ensure "
+"you are allowing the application to access your Evernote account"
+msgstr ""
+
+#: $string['nopermission']
+msgid "Access to Evernote account declined."
+msgstr ""
+
+#: $string['nosessiontoken']
+msgid "A session token does not exist preventing export to Evernote."
+msgstr ""
+
+#: $string['notebooklabel']
+msgid "Notebook"
+msgstr ""
+
+#: $string['notetagslabel']
+msgid "Note tags (Comma separated)"
+msgstr ""
+
+#: $string['oauthinfo']
+msgid "<p>To use this plugin, you must get an Evernote API key</p>"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Evernote"
+msgstr ""
+
+#: $string['requesttokenfailed']
+msgid ""
+"Failed to get the Evernote token from the current settings. Please check the "
+"Evernote Key and secret."
+msgstr ""
+
+#: $string['secret']
+msgid "Consumer Secret"
+msgstr ""
+
+#: $string['selectnotebooklabel']
+msgid "Select Notebook"
+msgstr ""
+
+#: $string['sendfailed']
+msgid "The file {$a} failed to transfer to Evernote"
+msgstr ""
+
+#: $string['signinanother']
+msgid "Not you? Reset your settings and cancel the export."
+msgstr ""
+
+#: $string['tokencredentialsfailed']
+msgid "Failed to obtain token credentials."
+msgstr ""
+
+#: $string['usedevapi']
+msgid "Use testing server"
+msgstr ""
+
+#: $string['usedevapi_info']
+msgid ""
+"If you have just <a href=\"http://dev.evernote.com/\">requested a key</a> from "
+"Evernote, it will require some time before it is available on their "
+"production servers. Therefore you can enable this option and create an "
+"account <a href=\"https://sandbox.evernote.com\">here</a> to test the plugin."
+msgstr ""

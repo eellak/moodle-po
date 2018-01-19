@@ -1,0 +1,3991 @@
+#. extracted from lang/en/qtype_stack.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qtype_stack', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   qtype_stack
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addanothernode']
+msgid "Add another node"
+msgstr ""
+
+#: $string['addanothertestcase']
+msgid "Add another test case..."
+msgstr ""
+
+#: $string['addatestcase']
+msgid "Add a test case..."
+msgstr ""
+
+#: $string['addingatestcase']
+msgid "Adding a test case to question {$a}"
+msgstr ""
+
+#: $string['alg_indices_fact']
+msgid ""
+"The following laws govern index manipulation:\n"
+"\\[a^ma^n = a^{m+n}\\]\n"
+"\\[\\frac{a^m}{a^n} = a^{m-n}\\]\n"
+"\\[(a^m)^n = a^{mn}\\]\n"
+"\\[a^0 = 1\\]\n"
+"\\[a^{-m} = \\frac{1}{a^m}\\]\n"
+"\\[a^{\\frac{1}{n}} = \\sqrt[n]{a}\\]\n"
+"\\[a^{\\frac{m}{n}} = \\left(\\sqrt[n]{a}\\right)^m\\]"
+msgstr ""
+
+#: $string['alg_indices_name']
+msgid "The Laws of Indices"
+msgstr ""
+
+#: $string['alg_inequalities_fact']
+msgid ""
+"\\[a>b \\hbox{ means } a \\hbox{ is greater than } b.\\]\n"
+"\\[ a < b \\hbox{ means } a \\hbox{ is less than } b.\\]\n"
+"\\[a\\geq b \\hbox{ means } a \\hbox{ is greater than or equal to } b.\\]\n"
+"\\[a\\leq b \\hbox{ means } a \\hbox{ is less than or equal to } b.\\]"
+msgstr ""
+
+#: $string['alg_inequalities_name']
+msgid "Inequalities"
+msgstr ""
+
+#: $string['alg_logarithms_fact']
+msgid ""
+"For any base \\(c>0\\) with \\(c \\neq 1\\):\n"
+"\\[\\log_c(a) = b \\mbox{, means } a = c^b\\]\n"
+"\\[\\log_c(a) + \\log_c(b) = \\log_c(ab)\\]\n"
+"\\[\\log_c(a) - \\log_c(b) = \\log_c\\left(\\frac{a}{c}\\right)\\]\n"
+"\\[n\\log_c(a) = \\log_c\\left(a^n\\right)\\]\n"
+"\\[\\log_c(1) = 0\\]\n"
+"\\[\\log_c(b) = 1\\]\n"
+"The formula for a change of base is:\n"
+"\\[\\log_a(x) = \\frac{\\log_b(x)}{\\log_b(a)}\\]\n"
+"Logarithms to base \\(e\\), denoted \\(\\log_e\\) or alternatively \\(\\ln\\) are "
+"called natural logarithms.  The letter \\(e\\) represents the exponential "
+"constant which is approximately \\(2.718\\)."
+msgstr ""
+
+#: $string['alg_logarithms_name']
+msgid "The Laws of Logarithms"
+msgstr ""
+
+#: $string['alg_partial_fractions_fact']
+msgid ""
+"Proper fractions occur with \\[{\\frac{P(x)}{Q(x)}}\\]\n"
+"when \\(P\\) and \\(Q\\) are polynomials with the degree of \\(P\\) less than the "
+"degree of \\(Q\\).  This this case, we proceed\n"
+"as follows: write \\(Q(x)\\) in factored form,\n"
+"<ul>\n"
+"<li>\n"
+"a <em>linear factor</em> \\(ax+b\\) in the denominator produces a partial "
+"fraction of the form \\[{\\frac{A}{ax+b}}.\\]\n"
+"</li>\n"
+"<li>\n"
+"a <em>repeated linear factors</em> \\((ax+b)^2\\) in the denominator\n"
+"produce partial fractions of the form \\[{A\\over ax+b}+{B\\over (ax+b)^2}.\\]\n"
+"</li>\n"
+"<li>\n"
+"a <em>quadratic factor</em> \\(ax^2+bx+c\\)\n"
+"in the denominator produces a partial fraction of\n"
+"the form \\[{Ax+B\\over ax^2+bx+c}\\]\n"
+"</li>\n"
+"<li>\n"
+"<em>Improper fractions}</em> require an additional\n"
+"term which is a polynomial of degree \\(n-d\\) where \\(n\\) is\n"
+"the degree of the numerator (i.e. \\(P(x)\\)) and \\(d\\) is the degree of\n"
+"the denominator (i.e. \\(Q(x)\\)).\n"
+"</li></ul>"
+msgstr ""
+
+#: $string['alg_partial_fractions_name']
+msgid "Partial Fractions"
+msgstr ""
+
+#: $string['alg_quadratic_formula_fact']
+msgid ""
+"If we have a quadratic equation of the form:\n"
+"\\[ax^2 + bx + c = 0,\\]\n"
+"then the solution(s) to that equation given by the quadratic formula are:\n"
+"\\[x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}.\\]"
+msgstr ""
+
+#: $string['alg_quadratic_formula_name']
+msgid "The Quadratic Formula"
+msgstr ""
+
+#: $string['all']
+msgid "All"
+msgstr ""
+
+#: $string['allnodefeedbackmustusethesameformat']
+msgid ""
+"All the feedback for all the nodes in a PRT must use the same text format."
+msgstr ""
+
+#: $string['allowwords']
+msgid "Allowed words"
+msgstr ""
+
+#: $string['allowwords_help']
+msgid ""
+"By default, arbitrary function or variable names of more than two characters "
+"in length are not permitted.  This is a comma separated list of function or "
+"variable names which are permitted in a student's answer."
+msgstr ""
+
+#: $string['allowwords_link']
+msgid ""
+"%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Inputs.md#Allow_Words"
+msgstr ""
+
+#: $string['alreadydeployed']
+msgid "A variant matching this Question note is already deployed."
+msgstr ""
+
+#: $string['ansnotemismatch']
+msgid "[Answernote mismatch]"
+msgstr ""
+
+#: $string['answernote']
+msgid "Answer note"
+msgstr ""
+
+#: $string['answernotedefaultfalse']
+msgid "{$a->prtname}-{$a->nodename}-F"
+msgstr ""
+
+#: $string['answernotedefaulttrue']
+msgid "{$a->prtname}-{$a->nodename}-T"
+msgstr ""
+
+#: $string['answernote_err']
+msgid ""
+"Answer notes may not contain the character |.  This character is inserted by "
+"STACK and is later used to split answer notes automatically."
+msgstr ""
+
+#: $string['answernote_help']
+msgid ""
+"This is a tag which is key for reporting purposes.  It is designed to record "
+"the unique path through the tree, and the outcome of each answer test.  "
+"This is automatically generated, but can be changed to something meaningful."
+msgstr ""
+
+#: $string['answernote_link']
+msgid ""
+"%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Potential_response_tre"
+"es.md#Answer_note"
+msgstr ""
+
+#: $string['answernoterequired']
+msgid "Answer note must not be empty."
+msgstr ""
+
+#: $string['answernoteunique']
+msgid "Duplicate answer notes detected in this potential response tree."
+msgstr ""
+
+#: $string['answertest']
+msgid "Answer test"
+msgstr ""
+
+#: $string['answertest_help']
+msgid ""
+"An answer test is used to compare two expressions to establish whether they "
+"satisfy some mathematical criteria."
+msgstr ""
+
+#: $string['answertest_link']
+msgctxt "$string['answertest_link']"
+msgid "%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Answer_tests.md"
+msgstr ""
+
+#: $string['assumepositive']
+msgid "Assume positive"
+msgstr ""
+
+#: $string['assumepositive_help']
+msgid "This option sets the value of Maxima's assume_pos variable."
+msgstr ""
+
+#: $string['assumepositive_link']
+msgid ""
+"%%WWWROOT%%"
+"/question/type/stack/doc/doc.php/Authoring/Options.md#Assume_Positive"
+msgstr ""
+
+#: $string['assumereal']
+msgid "Assume real"
+msgstr ""
+
+#: $string['assumereal_help']
+msgid "This option sets the assume_real variable."
+msgstr ""
+
+#: $string['assumereal_link']
+msgid ""
+"%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Options.md#Assume_Real"
+msgstr ""
+
+#: $string['ATAlgEquiv_SA_not_equation']
+msgid "Your answer should be an equation, but is not."
+msgstr ""
+
+#: $string['ATAlgEquiv_SA_not_expression']
+msgid ""
+"Your answer should be an expression, not an equation, inequality, list, set "
+"or matrix."
+msgstr ""
+
+#: $string['ATAlgEquiv_SA_not_function']
+msgid ""
+"Your answer should be a function, defined using the operator <tt>:=</tt>, "
+"but is not."
+msgstr ""
+
+#: $string['ATAlgEquiv_SA_not_inequality']
+msgid "Your answer should be an inequality, but is not."
+msgstr ""
+
+#: $string['ATAlgEquiv_SA_not_list']
+msgctxt "$string['ATAlgEquiv_SA_not_list']"
+msgid ""
+"Your answer should be a list, but is not.  Note that the syntax to enter a "
+"list is to enclose the comma separated values with square brackets."
+msgstr ""
+
+#: $string['ATAlgEquiv_SA_not_logic']
+msgid ""
+"Your answer should be an equation, inequality or a logical combination of "
+"many of these, but is not."
+msgstr ""
+
+#: $string['ATAlgEquiv_SA_not_matrix']
+msgid "Your answer should be a matrix, but is not."
+msgstr ""
+
+#: $string['ATAlgEquiv_SA_not_set']
+msgctxt "$string['ATAlgEquiv_SA_not_set']"
+msgid ""
+"Your answer should be a set, but is not.  Note that the syntax to enter a "
+"set is to enclose the comma separated values with curly brackets."
+msgstr ""
+
+#: $string['ATAlgEquiv_SA_not_string']
+msgid "Your answer should be a string, but is not."
+msgstr ""
+
+#: $string['ATAlgEquiv_TA_not_equation']
+msgid ""
+"You have entered an equation, but an equation is not expected here. You may "
+"have typed something like \"y=2*x+1\" when you only needed to type \"2*x+1\"."
+msgstr ""
+
+#: $string['ATCompSquare_false']
+msgctxt "$string['ATCompSquare_false']"
+msgid ""
+msgstr ""
+
+#: $string['ATCompSquare_false_no_summands']
+msgid ""
+"The completed square is of the form \\( a(\\cdots\\cdots)^2 + b\\) where \\(a\\) "
+"and \\(b\\) do not depend on your variable.  More than one of your summands "
+"appears to depend on the variable in your answer."
+msgstr ""
+
+#: $string['ATCompSquare_not_AlgEquiv']
+msgid ""
+"Your answer appears to be in the correct form, but is not equivalent to the "
+"correct answer."
+msgstr ""
+
+#: $string['ATCompSquare_SA_not_depend_var']
+msgid "Your answer should depend on the variable {$a->m0} but it does not!"
+msgstr ""
+
+#: $string['ATCompSquare_true']
+msgctxt "$string['ATCompSquare_true']"
+msgid ""
+msgstr ""
+
+#: $string['ATDiff_error_list']
+msgctxt "$string['ATDiff_error_list']"
+msgid "The answer test failed.  Please contact your systems administrator"
+msgstr ""
+
+#: $string['ATDiff_int']
+msgid "It looks like you have integrated instead!"
+msgstr ""
+
+#: $string['AT_EmptySA']
+msgid ""
+"Attempted to execute an answer test with an empty student answer, probably a "
+"CAS validation problem when authoring the question."
+msgstr ""
+
+#: $string['AT_EmptyTA']
+msgid ""
+"Attempted to execute an answer test with an empty teacher answer, probably a "
+"CAS validation problem when authoring the question."
+msgstr ""
+
+#: $string['ATEquivFirst_SA_not_list']
+msgctxt "$string['ATEquivFirst_SA_not_list']"
+msgid ""
+"The first argument to the Equiv answer test should be a list, but the test "
+"failed. Please contact your teacher."
+msgstr ""
+
+#: $string['ATEquivFirst_SA_wrong_end']
+msgid "Your final answer is not in the correct form."
+msgstr ""
+
+#: $string['ATEquivFirst_SA_wrong_start']
+msgid "The first line in your argument must be \"{$a->m0}\"."
+msgstr ""
+
+#: $string['ATEquivFirst_SB_not_list']
+msgctxt "$string['ATEquivFirst_SB_not_list']"
+msgid ""
+"The second argument to the Equiv answer test should be a list, but the test "
+"failed. Please contact your teacher."
+msgstr ""
+
+#: $string['ATEquiv_SA_not_list']
+msgctxt "$string['ATEquiv_SA_not_list']"
+msgid ""
+"The first argument to the Equiv answer test should be a list, but the test "
+"failed. Please contact your teacher."
+msgstr ""
+
+#: $string['ATEquiv_SB_not_list']
+msgctxt "$string['ATEquiv_SB_not_list']"
+msgid ""
+"The second argument to the Equiv answer test should be a list, but the test "
+"failed. Please contact your teacher."
+msgstr ""
+
+#: $string['ATFacForm_error_degreeSA']
+msgid "The CAS could not establish the algebraic degree of your answer."
+msgstr ""
+
+#: $string['ATFacForm_error_list']
+msgctxt "$string['ATFacForm_error_list']"
+msgid "The answer test failed.  Please contact your systems administrator"
+msgstr ""
+
+#: $string['ATFacForm_isfactored']
+msgid "Your answer is factored, well done."
+msgstr ""
+
+#: $string['ATFacForm_notalgequiv']
+msgid ""
+"Note that your answer is not algebraically equivalent to the correct answer. "
+" You must have done something wrong."
+msgstr ""
+
+#: $string['ATFacForm_notfactored']
+msgid "Your answer is not factored."
+msgstr ""
+
+#: $string['ATInequality_backwards']
+msgid "Your inequality appears to be backwards."
+msgstr ""
+
+#: $string['ATInequality_nonstrict']
+msgid "Your inequality should be strict, but is not!"
+msgstr ""
+
+#: $string['ATInequality_strict']
+msgid "Your inequality should not be strict!"
+msgstr ""
+
+#: $string['ATInt_const']
+msgid ""
+"You need to add a constant of integration, otherwise this appears to be "
+"correct.  Well done."
+msgstr ""
+
+#: $string['ATInt_const_int']
+msgid ""
+"You need to add a constant of integration. This should be an arbitrary "
+"constant, not a number."
+msgstr ""
+
+#: $string['ATInt_diff']
+msgid "It looks like you have differentiated instead!"
+msgstr ""
+
+#: $string['ATInt_EqFormalDiff']
+msgid ""
+"The formal derivative of your answer does equal the expression that you were "
+"asked to integrate.  However, your answer differs from the correct answer "
+"in a significant way, that is to say not just, e.g., a constant of "
+"integration.  Please ask your teacher about this."
+msgstr ""
+
+#: $string['ATInt_error_list']
+msgctxt "$string['ATInt_error_list']"
+msgid "The answer test failed.  Please contact your systems administrator"
+msgstr ""
+
+#: $string['ATInt_generic']
+msgid ""
+"The derivative of your answer should be equal to the expression that you "
+"were asked to integrate, that was: {$a->m0}  In fact, the derivative of your "
+"answer, with respect to {$a->m1} is: {$a->m2} so you must have done "
+"something wrong!"
+msgstr ""
+
+#: $string['ATInt_logabs']
+msgid ""
+"The formal derivative of your answer does equal the expression that you were "
+"asked to integrate.  However, your answer differs from the correct answer "
+"in a significant way, that is to say not just, e.g., a constant of "
+"integration.  Your teacher may expect you to use the result "
+"\\(\\int\\frac{1}{x} dx = \\log(|x|)+c\\), rather than \\(\\int\\frac{1}{x} dx = "
+"\\log(x)+c\\).  Please ask your teacher about this."
+msgstr ""
+
+#: $string['ATInt_logabs_inconsistent']
+msgid ""
+"There appear to be strange inconsistencies between your use of \\(\\log(...)\\) "
+"and \\(\\log(|...|)\\).  Please ask your teacher about this."
+msgstr ""
+
+#: $string['ATInt_STACKERROR_OptList']
+msgid ""
+"The answer test failed to execute correctly: please alert your teacher. When "
+"the option to ATInt is a list it must have exactly two elements, but does "
+"not."
+msgstr ""
+
+#: $string['ATInt_weirdconst']
+msgid ""
+"The formal derivative of your answer does equal the expression that you were "
+"asked to integrate.  However, you have a strange constant of integration.  "
+"Please ask your teacher about this."
+msgstr ""
+
+#: $string['AT_InvalidOptions']
+msgid "Option field is invalid. {$a->errors}"
+msgstr ""
+
+#: $string['ATList_wrongentries']
+msgctxt "$string['ATList_wrongentries']"
+msgid ""
+"The entries underlined in red below are those that are incorrect. {$a->m0}"
+msgstr ""
+
+#: $string['ATList_wronglen']
+msgid "Your list should have {$a->m0} elements, but it actually has {$a->m1}."
+msgstr ""
+
+#: $string['ATLowestTerms_entries']
+msgid ""
+"The following terms in your answer are not in lowest terms.  {$a->m0} Please "
+"try again."
+msgstr ""
+
+#: $string['ATLowestTerms_not_rat']
+msgid ""
+"You must clear the following from the denominator of your fraction: {$a->m0}"
+msgstr ""
+
+#: $string['ATLowestTerms_wrong']
+msgid "You need to cancel fractions within your answer."
+msgstr ""
+
+#: $string['ATMatrix_wrongentries']
+msgctxt "$string['ATMatrix_wrongentries']"
+msgid ""
+"The entries underlined in red below are those that are incorrect. {$a->m0}"
+msgstr ""
+
+#: $string['ATMatrix_wrongsz']
+msgid ""
+"Your matrix should be {$a->m0} by {$a->m1}, but it is actually {$a->m2} by "
+"{$a->m3}."
+msgstr ""
+
+#: $string['AT_MissingOptions']
+msgid "Missing option when executing the test."
+msgstr ""
+
+#: $string['AT_NOTIMPLEMENTED']
+msgid "This answer test has not been implemented."
+msgstr ""
+
+#: $string['ATNumDecPlaces_NoDP']
+msgid "Your answer must be a decimal number, including a decimal point."
+msgstr ""
+
+#: $string['ATNumDecPlaces_OptNotInt']
+msgid ""
+"For ATNumDecPlaces the test option must be a positive integer, in fact "
+"\"{$a->opt}\" was received."
+msgstr ""
+
+#: $string['ATNumDecPlaces_Wrong_DPs']
+msgid "Your answer has been given to the wrong number of decimal places."
+msgstr ""
+
+#: $string['ATNumerical_FAILED']
+msgid ""
+"Your answer should be a floating point number, or a list or set of numbers. "
+" It is not."
+msgstr ""
+
+#: $string['ATNumerical_SA_not_list']
+msgctxt "$string['ATNumerical_SA_not_list']"
+msgid ""
+"Your answer should be a list, but is not.  Note that the syntax to enter a "
+"list is to enclose the comma separated values with square brackets."
+msgstr ""
+
+#: $string['ATNumerical_SA_not_number']
+msgid "Your answer should be a floating point number, but is not."
+msgstr ""
+
+#: $string['ATNumerical_SA_not_set']
+msgctxt "$string['ATNumerical_SA_not_set']"
+msgid ""
+"Your answer should be a set, but is not.  Note that the syntax to enter a "
+"set is to enclose the comma separated values with curly brackets."
+msgstr ""
+
+#: $string['ATNumerical_STACKERROR_tol']
+msgid ""
+"The numerical tolerance for ATNumerical should be a floating point number, "
+"but is not.  This is an internal error with the test.  Please ask your "
+"teacher about this."
+msgstr ""
+
+#: $string['ATNum_OutofRange']
+msgid ""
+"A numerical expression is outside the supported range.  Please contact your "
+"teacher."
+msgstr ""
+
+#: $string['ATNumSigFigs_error_list']
+msgctxt "$string['ATNumSigFigs_error_list']"
+msgid "The answer test failed.  Please contact your systems administrator"
+msgstr ""
+
+#: $string['ATNumSigFigs_Inaccurate']
+msgid ""
+"The accuracy of your answer is not correct.  Either you have not rounded "
+"correctly, or you have rounded an intermediate answer which propagates an "
+"error."
+msgstr ""
+
+#: $string['ATNumSigFigs_NotDecimal']
+msgid "Your answer should be a decimal number, but is not!"
+msgstr ""
+
+#: $string['ATNumSigFigs_WrongDigits']
+msgid "Your answer contains the wrong number of significant digits."
+msgstr ""
+
+#: $string['ATNumSigFigs_WrongSign']
+msgid "Your answer has the wrong algebraic sign."
+msgstr ""
+
+#: $string['ATPartFrac_denom_ret']
+msgid ""
+"If your answer is written as a single fraction then the denominator would be "
+"{$a->m0}. In fact, it should be {$a->m1}."
+msgstr ""
+
+#: $string['ATPartFrac_diff_variables']
+msgid ""
+"The variables in your answer are different to those of the question, please "
+"check them."
+msgstr ""
+
+#: $string['ATPartFrac_error_list']
+msgctxt "$string['ATPartFrac_error_list']"
+msgid "The answer test failed.  Please contact your systems administrator"
+msgstr ""
+
+#: $string['ATPartFrac_ret_expression']
+msgid "Your answer as a single fraction is {$a->m0}"
+msgstr ""
+
+#: $string['ATPartFrac_single_fraction']
+msgid ""
+"Your answer seems to be a single fraction, it needs to be in a partial "
+"fraction form."
+msgstr ""
+
+#: $string['ATPartFrac_true']
+msgctxt "$string['ATPartFrac_true']"
+msgid ""
+msgstr ""
+
+#: $string['ATRegEx_missing_option']
+msgid "Missing regular expression in CAS Option field."
+msgstr ""
+
+#: $string['ATSet_wrongentries']
+msgid ""
+"The following entries are incorrect, although they may appear in a "
+"simplified form from that which you actually entered. {$a->m0}"
+msgstr ""
+
+#: $string['ATSet_wrongsz']
+msgid ""
+"Your set should have {$a->m0} different elements, but it actually has "
+"{$a->m1}."
+msgstr ""
+
+#: $string['ATSingleFrac_div']
+msgid ""
+"Your answer contains fractions within fractions.  You need to clear these "
+"and write your answer as a single fraction."
+msgstr ""
+
+#: $string['ATSingleFrac_error_list']
+msgctxt "$string['ATSingleFrac_error_list']"
+msgid "The answer test failed.  Please contact your systems administrator"
+msgstr ""
+
+#: $string['ATSingleFrac_part']
+msgid ""
+"Your answer needs to be a single fraction of the form \\( {a}\\over{b} \\)."
+msgstr ""
+
+#: $string['ATSingleFrac_ret_exp']
+msgid ""
+"Your answer is not algebraically equivalent to the correct answer. You must "
+"have done something wrong."
+msgstr ""
+
+#: $string['ATSingleFrac_true']
+msgctxt "$string['ATSingleFrac_true']"
+msgid ""
+msgstr ""
+
+#: $string['ATSingleFrac_var']
+msgid ""
+"The variables in your answer are different to the those of the question, "
+"please check them."
+msgstr ""
+
+#: $string['ATSysEquiv_SA_extra_variables']
+msgid "Your answer includes too many variables!"
+msgstr ""
+
+#: $string['ATSysEquiv_SA_missing_variables']
+msgid "Your answer is missing one or more variables!"
+msgstr ""
+
+#: $string['ATSysEquiv_SA_not_eq_list']
+msgid "Your answer should be a list of equations, but it is not!"
+msgstr ""
+
+#: $string['ATSysEquiv_SA_not_list']
+msgid "Your answer should be a list, but it is not!"
+msgstr ""
+
+#: $string['ATSysEquiv_SA_not_poly_eq_list']
+msgid "One or more of your equations is not a polynomial!"
+msgstr ""
+
+#: $string['ATSysEquiv_SA_system_overdetermined']
+msgctxt "$string['ATSysEquiv_SA_system_overdetermined']"
+msgid ""
+"The entries underlined in red below are those that are incorrect. {$a->m0}"
+msgstr ""
+
+#: $string['ATSysEquiv_SA_system_underdetermined']
+msgid ""
+"The equations in your system appear to be correct, but you need others "
+"besides."
+msgstr ""
+
+#: $string['ATSysEquiv_SB_not_eq_list']
+msgid "The teacher's answer is not a list of equations, but should be."
+msgstr ""
+
+#: $string['ATSysEquiv_SB_not_list']
+msgid "The teacher's answer is not a list.  Please contact your teacher."
+msgstr ""
+
+#: $string['ATSysEquiv_SB_not_poly_eq_list']
+msgid ""
+"The Teacher's answer should be a list of polynomial equations, but is not.  "
+"Please contact your teacher."
+msgstr ""
+
+#: $string['ATUnits_compatible_units']
+msgid ""
+"Your units are different from those used by the teacher, but are compatible "
+"with them.  Numerical values are being converted to SI base units for "
+"comparison."
+msgstr ""
+
+#: $string['ATUnits_correct_numerical']
+msgid "Please check your units carefully."
+msgstr ""
+
+#: $string['ATUnits_incompatible_units']
+msgid "Your units are incompatible with those used by the teacher."
+msgstr ""
+
+#: $string['ATUnits_SA_bad_units']
+msgid ""
+"Your answer must have units, and you must use multiplication to attach the "
+"units to a value, e.g. <code>3.2*m/s</code>."
+msgstr ""
+
+#: $string['ATUnits_SA_errorbounds_invalid']
+msgid ""
+"Your answer has error bounds.  In this case do not indicate error bounds, "
+"instead use just the quantity and units."
+msgstr ""
+
+#: $string['ATUnits_SA_excess_units']
+msgid "Your answer has used units (or variables), but should not."
+msgstr ""
+
+#: $string['ATUnits_SA_not_expression']
+msgid ""
+"Your answer needs to be a number together with units. Do not use sets, "
+"lists, equations or matrices."
+msgstr ""
+
+#: $string['ATUnits_SA_no_units']
+msgid "Your answer must have units."
+msgstr ""
+
+#: $string['ATUnits_SA_only_units']
+msgid ""
+"Your answer needs to be a number together with units. Your answer only has "
+"units."
+msgstr ""
+
+#: $string['autosimplify']
+msgctxt "$string['autosimplify']"
+msgid "Auto-simplify"
+msgstr ""
+
+#: $string['autosimplify_help']
+msgid ""
+"Sets the variable \"simp\" within Maxima for this question.  E.g. question "
+"variables, question text etc.  The value set in each potential response tree "
+"will over ride this for any expressions subsequently defined within the "
+"tree."
+msgstr ""
+
+#: $string['autosimplify_link']
+msgctxt "$string['autosimplify_link']"
+msgid ""
+"%%WWWROOT%%/question/type/stack/doc/doc.php/CAS/Maxima.md#Simplification"
+msgstr ""
+
+#: $string['autosimplifyprt']
+msgctxt "$string['autosimplifyprt']"
+msgid "Auto-simplify"
+msgstr ""
+
+#: $string['autosimplifyprt_help']
+msgid ""
+"Sets the variable \"simp\" within Maxima for the feedback variables defined in "
+"this potential response tree, and while evaluating this PRT.  This will "
+"over ride any value set in the question for any expressions defined within "
+"the tree.."
+msgstr ""
+
+#: $string['autosimplifyprt_link']
+msgctxt "$string['autosimplifyprt_link']"
+msgid ""
+"%%WWWROOT%%/question/type/stack/doc/doc.php/CAS/Maxima.md#Simplification"
+msgstr ""
+
+#: $string['Bad_assignment']
+msgid ""
+"When listing the values of a variable you should do so in the following way: "
+"{$a->m0}.  Please modify your input."
+msgstr ""
+
+#: $string['booleangotunrecognisedvalue']
+msgctxt "$string['booleangotunrecognisedvalue']"
+msgid "Invalid input."
+msgstr ""
+
+#: $string['boxsize']
+msgid "Input box size"
+msgstr ""
+
+#: $string['boxsize_help']
+msgid "Width of the html formfield."
+msgstr ""
+
+#: $string['boxsize_link']
+msgid ""
+"%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Inputs.md#Box_Size"
+msgstr ""
+
+#: $string['branchfeedback']
+msgid "Node branch feedback"
+msgstr ""
+
+#: $string['branchfeedback_help']
+msgid ""
+"This is CASText which may depend on any of the question variables, input "
+"elements or the feedback variables. This is evaluated and displayed to the "
+"student if they pass down this branch."
+msgstr ""
+
+#: $string['bulktestcontinuefromhere']
+msgid "Run again or resume, starting from here"
+msgstr ""
+
+#: $string['bulktestindexintro']
+msgid ""
+"Clicking on any of the links will run all the question tests in all the "
+"STACK questions in that context"
+msgstr ""
+
+#: $string['bulktestindexintro_desc']
+msgid ""
+"The <a href=\"{$a->link}\">run the question tests in bulk script</a> lets you "
+"easily run all the STACK questions in a given context. Not only does this "
+"test the questions. It is also a good way to re-populate the CAS cache after "
+"it has been cleared."
+msgstr ""
+
+#: $string['bulktestindextitle']
+msgid "Run the question tests in bulk"
+msgstr ""
+
+#: $string['bulktestnotests']
+msgid "This question does not have any tests."
+msgstr ""
+
+#: $string['bulktestrun']
+msgid ""
+"Run all the question tests for all the questions in the system (slow, admin "
+"only)"
+msgstr ""
+
+#: $string['bulktesttitle']
+msgid "Running all the question tests in {$a}"
+msgstr ""
+
+#: $string['calc_chain_rule_fact']
+msgid ""
+"The following rule allows one to find the derivative of a composition of two "
+"functions.\n"
+"Assume we have a function \\(f(g(x))\\), then defining \\(u=g(x)\\), the "
+"derivative with respect to \\(x\\) is given by:\n"
+"\\[\\frac{df(g(x))}{dx} = \\frac{dg(x)}{dx}\\cdot\\frac{df(u)}{du}.\\]\n"
+"Alternatively, we can write:\n"
+"\\[\\frac{df(x)}{dx} = f'(g(x))\\cdot g'(x).\\]"
+msgstr ""
+
+#: $string['calc_chain_rule_name']
+msgid "The Chain Rule"
+msgstr ""
+
+#: $string['calc_diff_linearity_rule_fact']
+msgid ""
+"\\[{{\\rm d}\\,\\over {\\rm d}x}\\big(af(x)+bg(x)\\big)=a{{\\rm d}f(x)\\over {\\rm "
+"d}x}+b{{\\rm d}g(x)\\over {\\rm d}x}\\quad a,b {\\rm\\  constant.}\\]"
+msgstr ""
+
+#: $string['calc_diff_linearity_rule_name']
+msgid "The Linearity Rule for Differentiation"
+msgstr ""
+
+#: $string['calc_diff_standard_derivatives_fact']
+msgid ""
+"The following table displays the derivatives of some standard functions.  It "
+"is useful to learn these standard derivatives as they are used frequently "
+"in calculus.\n"
+"<center>\n"
+"<table>\n"
+"<tr><th>\\(f(x)\\)               </th><th> \\(f'(x)\\)</th></tr>\n"
+"<tr>\n"
+"<td>\\(k\\), constant           </td> <td> \\(0\\) </td> </tr> <tr> <td>\n"
+"\\(x^n\\), any constant \\(n\\) </td> <td> \\(nx^{n-1}\\)</td> </tr> <tr> <td>\n"
+"\\(e^x\\)                   </td> <td> \\(e^x\\)</td> </tr> <tr> <td>\n"
+"\\(\\ln(x)=\\log_{\\rm e}(x)\\)              </td> <td> \\(\\frac{1}{x}\\) "
+"               </td> </tr> <tr> <td>\n"
+"\\(\\sin(x)\\)                             </td> <td> \\(\\cos(x)\\) "
+"                   </td> </tr> <tr> <td>\n"
+"\\(\\cos(x)\\)                             </td> <td> \\(-\\sin(x)\\) "
+"                  </td> </tr> <tr> <td>\n"
+"\\(\\tan(x) = \\frac{\\sin(x)}{\\cos(x)}\\)   </td> <td>   \\(\\sec^2(x)\\) "
+"               </td> </tr> <tr> <td>\n"
+"\\(cosec(x)=\\frac{1}{\\sin(x)}\\)         </td> <td>   \\(-cosec(x)\\cot(x)\\) "
+"       </td> </tr> <tr> <td>\n"
+"\\(\\sec(x)=\\frac{1}{\\cos(x)}\\)           </td> <td>   \\(\\sec(x)\\tan(x)\\) "
+"          </td> </tr> <tr> <td>\n"
+"\\(\\cot(x)=\\frac{\\cos(x)}{\\sin(x)}\\)     </td> <td>   \\(-cosec^2(x)\\) "
+"            </td> </tr> <tr> <td>\n"
+"\\(\\cosh(x)\\)                            </td> <td>   \\(\\sinh(x)\\) "
+"                </td> </tr> <tr> <td>\n"
+"\\(\\sinh(x)\\)                            </td> <td>   \\(\\cosh(x)\\) "
+"                </td> </tr> <tr> <td>\n"
+"\\(\\tanh(x)\\)                            </td> <td>   \\(sech^2(x)\\) "
+"              </td> </tr> <tr> <td>\n"
+"\\(sech(x)\\)                            </td> <td>   \\(-sech(x)\\tanh(x)\\) "
+"       </td> </tr> <tr> <td>\n"
+"\\(cosech(x)\\)                          </td> <td>   \\(-cosech(x)\\coth(x)\\) "
+"     </td> </tr> <tr> <td>\n"
+"\\(coth(x)\\)                            </td> <td>   \\(-cosech^2(x)\\) "
+"           </td> </tr>\n"
+"</table>\n"
+"</center>\n"
+"\n"
+" \\[ \\frac{d}{dx}\\left(\\sin^{-1}(x)\\right) =  \\frac{1}{\\sqrt{1-x^2}}\\]\n"
+" \\[ \\frac{d}{dx}\\left(\\cos^{-1}(x)\\right) =  \\frac{-1}{\\sqrt{1-x^2}}\\]\n"
+" \\[ \\frac{d}{dx}\\left(\\tan^{-1}(x)\\right) =  \\frac{1}{1+x^2}\\]\n"
+" \\[ \\frac{d}{dx}\\left(\\cosh^{-1}(x)\\right) =  \\frac{1}{\\sqrt{x^2-1}}\\]\n"
+" \\[ \\frac{d}{dx}\\left(\\sinh^{-1}(x)\\right) =  \\frac{1}{\\sqrt{x^2+1}}\\]\n"
+" \\[ \\frac{d}{dx}\\left(\\tanh^{-1}(x)\\right) =  \\frac{1}{1-x^2}\\]"
+msgstr ""
+
+#: $string['calc_diff_standard_derivatives_name']
+msgid "Standard Derivatives"
+msgstr ""
+
+#: $string['calc_int_linearity_rule_fact']
+msgid ""
+"\\[\\int \\left(af(x)+bg(x)\\right){\\rm d}x = a\\int\\!\\!f(x)\\,{\\rm d}x\n"
+"\\,+\\,b\\int \\!\\!g(x)\\,{\\rm d}x, \\quad (a,b \\, \\, {\\rm constant.})\n"
+"\\]"
+msgstr ""
+
+#: $string['calc_int_linearity_rule_name']
+msgid "The Linearity Rule for Integration"
+msgstr ""
+
+#: $string['calc_int_methods_parts_fact']
+msgid ""
+"\\[\n"
+"\\int_a^b u{{\\rm d}v\\over {\\rm d}x}{\\rm d}x=\\left[uv\\right]_a^b-\n"
+"\\int_a^b{{\\rm d}u\\over {\\rm d}x}v\\,{\\rm d}x\\]\n"
+"or alternatively: \\[\\int_a^bf(x)g(x)\\,{\\rm d}x=\\left[f(x)\\,\\int\n"
+"g(x){\\rm d}x\\right]_a^b -\\int_a^b{{\\rm d}f\\over {\\rm\n"
+"d}x}\\left\\{\\int g(x){\\rm d}x\\right\\}{\\rm d}x.\\]"
+msgstr ""
+
+#: $string['calc_int_methods_parts_name']
+msgid "Integration by Parts"
+msgstr ""
+
+#: $string['calc_int_methods_substitution_fact']
+msgid ""
+"\\[\n"
+"\\int f(u){{\\rm d}u\\over {\\rm d}x}{\\rm d}x=\\int f(u){\\rm d}u\n"
+"\\quad\\hbox{and}\\quad \\int_a^bf(u){{\\rm d}u\\over {\\rm d}x}\\,{\\rm\n"
+"d}x = \\int_{u(a)}^{u(b)}f(u){\\rm d}u.\n"
+"\\]"
+msgstr ""
+
+#: $string['calc_int_methods_substitution_name']
+msgid "Integration by Substitution"
+msgstr ""
+
+#: $string['calc_int_standard_integrals_fact']
+msgid ""
+"\\[\\int k\\ dx = kx +c, \\mbox{ where k is constant.}\\]\n"
+"\\[\\int x^n\\ dx  = \\frac{x^{n+1}}{n+1}+c, \\quad (n\\ne -1)\\]\n"
+"\\[\\int x^{-1}\\ dx = \\int {\\frac{1}{x}}\\ dx = \\ln(|x|)+c = \\ln(k*|x|) = "
+"\\left\\{\\matrix{\\ln(x)+c & x>0\\cr\n"
+"\\ln(-x)+c & x<0\\cr}\\right.\\]\n"
+"\n"
+"<center>\n"
+"<table>\n"
+"<tr><th>\\(f(x)\\)</th><th> \\(\\int f(x)\\ dx\\)</th></tr>\n"
+"<tr><td>\\(e^x\\) </td> <td>  \\(e^x+c\\)</td> <td> </td> </tr>\n"
+"<tr><td>\\(\\cos(x)\\) </td> <td>  \\(\\sin(x)+c\\)   </td> <td> </td> </tr>\n"
+"<tr><td>\\(\\sin(x)\\) </td> <td>  \\(-\\cos(x)+c\\)  </td> <td> </td> </tr>\n"
+"<tr><td>\\(\\tan(x)\\) </td> <td>  \\(\\ln(\\sec(x))+c\\) </td> "
+"<td>\\(-\\frac{\\pi}{2} < x < \\frac{\\pi}{2}\\)</td> </tr>\n"
+"<tr><td>\\(\\sec x\\)  </td> <td>  \\(\\ln (\\sec(x)+\\tan(x))+c\\) </td> <td> \\( "
+"-{\\pi\\over 2}< x < {\\pi\\over 2}\\)</td> </tr>\n"
+"<tr><td>cosec\\(\\, x\\) </td> <td>  \\(\\ln ($cosec$(x)-\\cot(x))+c\\) </td> "
+"<td>\\(0 < x < \\pi\\)</td> </tr>\n"
+"<tr><td>cot\\(\\,x\\) </td> <td>  \\(\\ln(\\sin(x))+c\\) </td> <td>  \\(0< x< \\pi\\) "
+"</td> </tr>\n"
+"<tr><td>\\(\\cosh(x)\\) </td> <td>  \\(\\sinh(x)+c\\)</td> <td></td> </tr>\n"
+"<tr><td>\\(\\sinh(x)\\) </td> <td>  \\(\\cosh(x) + c\\) </td> <td> </td> </tr>\n"
+"<tr><td>\\(\\tanh(x)\\) </td> <td>  \\(\\ln(\\cosh(x))+c\\)</td> <td> </td> </tr>\n"
+"<tr><td>coth\\((x)\\) </td> <td>  \\(\\ln(\\sinh(x))+c \\)</td> <td>   "
+"\\(x>0\\)</td> </tr>\n"
+"<tr><td>\\({1\\over x^2+a^2}\\) </td> <td>  \\({1\\over a}\\tan^{-1}{x\\over "
+"a}+c\\)</td> <td> \\(a>0\\)</td> </tr>\n"
+"<tr><td>\\({1\\over x^2-a^2}\\) </td> <td>  \\({1\\over 2a}\\ln{x-a\\over x+a}+c\\) "
+"</td> <td>  \\(|x|>a>0\\)</td> </tr>\n"
+"<tr><td>\\({1\\over a^2-x^2}\\) </td> <td>  \\({1\\over 2a}\\ln{a+x\\over a-x}+c\\) "
+"</td> <td>   \\(|x|<a\\)</td> </tr>\n"
+"<tr><td>\\({1\\over \\sqrt{x^2+a^2}}\\) </td> <td>  "
+"\\(\\sinh^{-1}\\left(\\frac{x}{a}\\right) + c\\) </td> <td> \\(a>0\\) </td> </tr>\n"
+"<tr><td>\\({1\\over \\sqrt{x^2-a^2}}\\) </td> <td>  "
+"\\(\\cosh^{-1}\\left(\\frac{x}{a}\\right) + c\\) </td> <td>  \\(x\\geq a > 0\\) </td> "
+"</tr>\n"
+"<tr><td>\\({1\\over \\sqrt{x^2+k}}\\) </td> <td>  \\(\\ln "
+"(x+\\sqrt{x^2+k})+c\\)</td> <td> </td> </tr>\n"
+"<tr><td>\\({1\\over \\sqrt{a^2-x^2}}\\) </td> <td>  "
+"\\(\\sin^{-1}\\left(\\frac{x}{a}\\right)+c\\)</td> <td>  \\(-a\\leq x\\leq a\\)  </td> "
+"</tr>\n"
+"</table></center>"
+msgstr ""
+
+#: $string['calc_int_standard_integrals_name']
+msgid "Standard Integrals"
+msgstr ""
+
+#: $string['calc_product_rule_fact']
+msgid ""
+"The following rule allows one to differentiate functions which are\n"
+"multiplied together.  Assume that we wish to differentiate \\(f(x)g(x)\\) with "
+"respect to \\(x\\).\n"
+"\\[ \\frac{\\mathrm{d}}{\\mathrm{d}{x}} \\big(f(x)g(x)\\big) = f(x) \\cdot "
+"\\frac{\\mathrm{d} g(x)}{\\mathrm{d}{x}}  + g(x)\\cdot \\frac{\\mathrm{d} "
+"f(x)}{\\mathrm{d}{x}},\\] or, using alternative notation, \\[ (f(x)g(x))' = "
+"f'(x)g(x)+f(x)g'(x). \\]"
+msgstr ""
+
+#: $string['calc_product_rule_name']
+msgid "The Product Rule"
+msgstr ""
+
+#: $string['calc_quotient_rule_fact']
+msgid ""
+"The quotient rule for differentiation states that for any two differentiable "
+"functions \\(f(x)\\) and \\(g(x)\\),\n"
+" \\[\\frac{d}{dx}\\left(\\frac{f(x)}{g(x)}\\right)=\\frac{g(x)\\cdot\\frac{df(x)}{dx"
+"}\\ \\ - \\ \\ f(x)\\cdot \\frac{dg(x)}{dx}}{g(x)^2}. \\]"
+msgstr ""
+
+#: $string['calc_quotient_rule_name']
+msgid "The Quotient Rule"
+msgstr ""
+
+#: $string['calc_rules_fact']
+msgid ""
+"<b>The Product Rule</b><br />The following rule allows one to differentiate "
+"functions which are\n"
+"multiplied together.  Assume that we wish to differentiate \\(f(x)g(x)\\) with "
+"respect to \\(x\\).\n"
+"\\[ \\frac{\\mathrm{d}}{\\mathrm{d}{x}} \\big(f(x)g(x)\\big) = f(x) \\cdot "
+"\\frac{\\mathrm{d} g(x)}{\\mathrm{d}{x}}  + g(x)\\cdot \\frac{\\mathrm{d} "
+"f(x)}{\\mathrm{d}{x}},\\] or, using alternative notation, \\[ (f(x)g(x))' = "
+"f'(x)g(x)+f(x)g'(x). \\]\n"
+"<b>The Quotient Rule</b><br />The quotient rule for differentiation states "
+"that for any two differentiable functions \\(f(x)\\) and \\(g(x)\\),\n"
+"\\[\\frac{d}{dx}\\left(\\frac{f(x)}{g(x)}\\right)=\\frac{g(x)\\cdot\\frac{df(x)}{dx}"
+"\\ \\ - \\ \\ f(x)\\cdot \\frac{dg(x)}{dx}}{g(x)^2}. \\]\n"
+"<b>The Chain Rule</b><br />The following rule allows one to find the "
+"derivative of a composition of two functions.\n"
+"Assume we have a function \\(f(g(x))\\), then defining \\(u=g(x)\\), the "
+"derivative with respect to \\(x\\) is given by:\n"
+"\\[\\frac{df(g(x))}{dx} = \\frac{dg(x)}{dx}\\cdot\\frac{df(u)}{du}.\\]\n"
+"Alternatively, we can write:\n"
+"\\[\\frac{df(x)}{dx} = f'(g(x))\\cdot g'(x).\\]"
+msgstr ""
+
+#: $string['calc_rules_name']
+msgid "Calculus rules"
+msgstr ""
+
+#: $string['casdisplay']
+msgid "CAS display"
+msgstr ""
+
+#: $string['cassuitecolerrors']
+msgctxt "$string['cassuitecolerrors']"
+msgid "CAS errors"
+msgstr ""
+
+#: $string['castext']
+msgid "CAS text"
+msgstr ""
+
+#: $string['casvalid']
+msgid "V2"
+msgstr ""
+
+#: $string['casvalidatemismatch']
+msgid "[CAS validate mismatch]"
+msgstr ""
+
+#: $string['casvalue']
+msgid "CAS value"
+msgstr ""
+
+#: $string['chat']
+msgid "Send to the CAS"
+msgstr ""
+
+#: $string['chat_desc']
+msgid ""
+"The <a href=\"{$a->link}\">CAS chat script</a> lets you test the connection to "
+"the CAS, and try out Maxima syntax."
+msgstr ""
+
+#: $string['chatintro']
+msgid ""
+"This page enables CAS text to be evaluated directly. It is a simple script "
+"which is a useful minimal example, and a handy way to check if the CAS is "
+"working, and to test various inputs.  The first text box enables variables "
+"to be defined, the second is for the CAS text itself."
+msgstr ""
+
+#: $string['chattitle']
+msgid "Test the connection to the CAS"
+msgstr ""
+
+#: $string['checkanswertype']
+msgid "Check the type of the response"
+msgstr ""
+
+#: $string['checkanswertype_help']
+msgid ""
+"If yes, answers which are of a different \"type\" (e.g. expression, equation, "
+"matrix, list, set) are rejected as invalid."
+msgstr ""
+
+#: $string['checkanswertype_link']
+msgid ""
+"%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Inputs.md#Check_Type"
+msgstr ""
+
+#: $string['clearthecache']
+msgid "Clear the cache"
+msgstr ""
+
+#: $string['CommaError']
+msgid ""
+"Your answer contains commas which are not part of a list, set or matrix.  "
+"<ul><li>If you meant to type in a list, please use "
+"<tt>{...}</tt>,</li><li>If you meant to type in a set, please use "
+"<tt>{...}</tt>.</li></ul>"
+msgstr ""
+
+#: $string['completetestcase']
+msgid "Fill in the rest of the form to make a passing test-case"
+msgstr ""
+
+#: $string['complexno']
+msgid "Meaning and display of sqrt(-1)"
+msgstr ""
+
+#: $string['complexno_help']
+msgid "Controls the meaning and display of the symbol i and sqrt(-1)"
+msgstr ""
+
+#: $string['complexno_link']
+msgid ""
+"%%WWWROOT%%"
+"/question/type/stack/doc/doc.php/Authoring/Options.md#sqrt_minus_one."
+msgstr ""
+
+#: $string['createtestcase']
+msgid "Create test case"
+msgstr ""
+
+#: $string['currentlyselectedvariant']
+msgid "This is the variant shown below"
+msgstr ""
+
+#: $string['ddl_badanswer']
+msgid "The model answer field for this input is malformed: <code>{$a}</code>."
+msgstr ""
+
+#: $string['ddl_duplicates']
+msgid "Duplicate values have been found when generating the input options."
+msgstr ""
+
+#: $string['ddl_empty']
+msgid "No choices were provided for this drop-down."
+msgstr ""
+
+#: $string['ddl_nocorrectanswersupplied']
+msgid "The teacher did not indicate at least one correct answer."
+msgstr ""
+
+#: $string['ddl_runtime']
+msgid ""
+"The input has generated the following runtime error which prevents you from "
+"answering. Please contact your teacher."
+msgstr ""
+
+#: $string['ddl_unknown']
+msgid ""
+"STACK received <code>{$a}</code> but this is not listed by the teacher as an "
+"option."
+msgstr ""
+
+#: $string['debuginfo']
+msgid "Debug info"
+msgstr ""
+
+#: $string['defaultmarkzeroifnoprts']
+msgid "The default mark must be 0 if this question has no PRTs."
+msgstr ""
+
+#: $string['defaultprtcorrectfeedback']
+msgid "Correct answer, well done."
+msgstr ""
+
+#: $string['defaultprtincorrectfeedback']
+msgid "Incorrect answer."
+msgstr ""
+
+#: $string['defaultprtpartiallycorrectfeedback']
+msgid "Your answer is partially correct."
+msgstr ""
+
+#: $string['deletetestcase']
+msgid "Delete test case {$a->no} for question {$a->question}"
+msgstr ""
+
+#: $string['deletetestcaseareyousure']
+msgid ""
+"Are you sure you want to delete test case {$a->no} for question "
+"{$a->question}?"
+msgstr ""
+
+#: $string['deletethistestcase']
+msgid "Delete this test case..."
+msgstr ""
+
+#: $string['deploy']
+msgid "Deploy"
+msgstr ""
+
+#: $string['deployedvariants']
+msgid "Deployed variants"
+msgstr ""
+
+#: $string['deployedvariantsn']
+msgid "Deployed variants ({$a})"
+msgstr ""
+
+#: $string['deploymany']
+msgid "Attempt to automatically deploy the following number of variants:"
+msgstr ""
+
+#: $string['deploymanyerror']
+msgid "Error in user input: cannot deploy \"{$a->err}\" variants."
+msgstr ""
+
+#: $string['deploymanynonew']
+msgid "Too many repeated existing question notes were generated."
+msgstr ""
+
+#: $string['deploymanynotes']
+msgid ""
+"Note, STACK will give up if there are 10 failed attempts to generate a new "
+"question note, or when one question test fails."
+msgstr ""
+
+#: $string['deploymanysuccess']
+msgid ""
+"Number of new variants successfully created, tested and deployed: {$a->no}."
+msgstr ""
+
+#: $string['deployremoveall']
+msgid "Undeploy all variants:"
+msgstr ""
+
+#: $string['deploytestall']
+msgid "Run all tests on all deployed variants (slow):"
+msgstr ""
+
+#: $string['deploytoomanyerror']
+msgid ""
+"STACK will try to deploy up to at most 100 new variants in any one request. "
+" No new variants deployed."
+msgstr ""
+
+#: $string['displaymismatch']
+msgid "[LaTeX mismatch]"
+msgstr ""
+
+#: $string['dropdowngotunrecognisedvalue']
+msgctxt "$string['dropdowngotunrecognisedvalue']"
+msgid "Invalid input."
+msgstr ""
+
+#: $string['editingtestcase']
+msgid "Editing test case {$a->no} for question {$a->question}"
+msgstr ""
+
+#: $string['editthistestcase']
+msgid "Edit this test case..."
+msgstr ""
+
+#: $string['equiv_ANDOR']
+msgid "and/or confusion!"
+msgstr ""
+
+#: $string['equiv_ASSUMEPOSREALVARS']
+msgid "Assume +ve real vars"
+msgstr ""
+
+#: $string['equiv_ASSUMEPOSVARS']
+msgid "Assume +ve vars"
+msgstr ""
+
+#: $string['equivfirstline']
+msgid "You have used the wrong first line in your argument!"
+msgstr ""
+
+#: $string['Equiv_Illegal_list']
+msgid "Lists are not allowed when reasoning by equivalence."
+msgstr ""
+
+#: $string['Equiv_Illegal_matrix']
+msgid "Matrices are not allowed when reasoning by equivalence."
+msgstr ""
+
+#: $string['Equiv_Illegal_set']
+msgid "Sets are not allowed when reasoning by equivalence."
+msgstr ""
+
+#: $string['equiv_MISSINGVAR']
+msgid "Missing assignments"
+msgstr ""
+
+#: $string['equivnocomments']
+msgid ""
+"You are not permitted to use comments in this input type.  Please just work "
+"line by line."
+msgstr ""
+
+#: $string['equiv_SAMEROOTS']
+msgid "(Same roots)"
+msgstr ""
+
+#: $string['errors']
+msgid "Errors"
+msgstr ""
+
+#: $string['exceptionmessage']
+msgid "{$a}"
+msgstr ""
+
+#: $string['expectedanswernote']
+msgid "Expected answer note"
+msgstr ""
+
+#: $string['expectedoutcomes']
+msgid "Expected PRT outcomes: [inputs used]"
+msgstr ""
+
+#: $string['expectedpenalty']
+msgid "Expected penalty"
+msgstr ""
+
+#: $string['expectedscore']
+msgid "Expected score"
+msgstr ""
+
+#: $string['exportthisquestion']
+msgid "Export this question"
+msgstr ""
+
+#: $string['exportthisquestion_help']
+msgid ""
+"This will create a Moodle XML export file containing just this one question. "
+"One example of when this is useful if you think this question demonstrates "
+"a bug in STACK that you would like to report to the developers."
+msgstr ""
+
+#: $string['FacForm_UnPick_intfac']
+msgctxt "$string['FacForm_UnPick_intfac']"
+msgid "You need to take out a common factor."
+msgstr ""
+
+#: $string['FacForm_UnPick_morework']
+msgid "You could still do some more work on the term {$a->m0}."
+msgstr ""
+
+#: $string['false']
+msgid "False"
+msgstr ""
+
+#: $string['falsebranch']
+msgid "False branch"
+msgstr ""
+
+#: $string['falsebranch_help']
+msgid ""
+"These fields control what happens when the answer test does not pass\n"
+"### Mod and score\n"
+"How the score is adjusted. = means set the score to a particular values, +/- "
+"means add or subtract the given score from the current total.\n"
+"\n"
+"### Penalty\n"
+"In adaptive or interactive mode, accumulate that much penalty.\n"
+"\n"
+"### Next\n"
+"Whether to go to another node, and if so which, or stop.\n"
+"\n"
+"### Answer note\n"
+"This is a tag which is key for reporting purposes.  It is designed to record "
+"the unique path through the tree, and the outcome of each answer test.  "
+"This is automatically generated, but can be changed to something meaningful."
+msgstr ""
+
+#: $string['feedbackfromprtx']
+msgid "[ Feedback from {$a}. ]"
+msgstr ""
+
+#: $string['feedbackvariables']
+msgid "Feedback variables"
+msgstr ""
+
+#: $string['feedbackvariables_help']
+msgid ""
+"The feedback variables enable you to manipulate any of the inputs, together "
+"with the question variables, prior to traversing the tree.  Variables "
+"defined here may be used anywhere else in this tree."
+msgstr ""
+
+#: $string['feedbackvariables_link']
+msgid ""
+"%%WWWROOT%%"
+"/question/type/stack/doc/doc.php/Authoring/KeyVals.md#Feedback_variables"
+msgstr ""
+
+#: $string['fieldshouldnotcontainplaceholder']
+msgid "{$a->field} should not contain any [[{$a->type}:...]] placeholders."
+msgstr ""
+
+#: $string['firstnodemusthavelowestnumber']
+msgid "The first node must have the lowest number."
+msgstr ""
+
+#: $string['fixdollars']
+msgid "Fix dollars"
+msgstr ""
+
+#: $string['fixdollars_help']
+msgid ""
+"This option is useful if are copying and pasting (or typing) TeX with "
+"<code>$...$</code> and <code>$$...$$</code> delimiters. Those delimiters "
+"will be replaced by the recommended delimiters during the save process."
+msgstr ""
+
+#: $string['fixdollarslabel']
+msgid ""
+"Replace <code>$...$</code> with <code>\\(...\\)</code>, <code>$$...$$</code> "
+"with <code>\\[...\\]</code> and <code>@...@</code> with <code>{@...@}</code> "
+"on save."
+msgstr ""
+
+#: $string['forbiddendoubledollars']
+msgid ""
+"Please use the delimiters <code>\\(...\\)</code> for inline maths and "
+"<code>\\[...\\]</code> for display maths. <code>$...$</code> and "
+"<code>$$...$$</code> are not permitted. There is an option at the end of the "
+"form to fix this automatically."
+msgstr ""
+
+#: $string['forbidfloat']
+msgid "Forbid float"
+msgstr ""
+
+#: $string['forbidfloat_help']
+msgid ""
+"If set to yes, then any answer of the student which has a floating point "
+"number will be rejected as invalid."
+msgstr ""
+
+#: $string['forbidfloat_link']
+msgid ""
+"%%WWWROOT%%"
+"/question/type/stack/doc/doc.php/Authoring/Inputs.md#Forbid_Floats"
+msgstr ""
+
+#: $string['forbidwords']
+msgid "Forbidden words"
+msgstr ""
+
+#: $string['forbidwords_help']
+msgid ""
+"This is a comma separated list of text strings which are forbidden in a "
+"student's answer."
+msgstr ""
+
+#: $string['forbidwords_link']
+msgid ""
+"%%WWWROOT%%"
+"/question/type/stack/doc/doc.php/Authoring/Inputs.md#Forbidden_Words"
+msgstr ""
+
+#: $string['generalfeedback']
+msgid "General feedback"
+msgstr ""
+
+#: $string['generalfeedback_help']
+msgid ""
+"General feedback is CASText. General feedback, also known as a \"worked "
+"solution\", is shown to the student after they have attempted the question. "
+"Unlike feedback, which depends on what response the student gave, the same "
+"general feedback text is shown to all students.  It may depend on the "
+"question variables used in the version of the question."
+msgstr ""
+
+#: $string['generalfeedback_link']
+msgid ""
+"%%WWWROOT%%"
+"/question/type/stack/doc/doc.php/Authoring/CASText.md#general_feedback"
+msgstr ""
+
+#: $string['greek_alphabet_fact']
+msgid ""
+"<center>\n"
+"<table>\n"
+"<tr><td>\n"
+" Upper case, \\(\\quad\\) </td><td>  lower case, \\(\\quad\\) </td><td>  name "
+"</td> </tr>   <tr> <td>\n"
+" \\(A\\)  </td><td>  \\(\\alpha\\)  </td><td>  alpha  </td> </tr>   <tr> <td>\n"
+" \\(B\\)  </td><td>  \\(\\beta\\)  </td><td>  beta </td> </tr>   <tr> <td>\n"
+" \\(\\Gamma\\)  </td><td>  \\(\\gamma\\)  </td><td>  gamma </td> </tr>   <tr> <td>\n"
+" \\(\\Delta\\)  </td><td>  \\(\\delta\\)  </td><td>  delta </td> </tr>   <tr> <td>\n"
+" \\(E\\)  </td><td>  \\(\\epsilon\\)  </td><td>  epsilon </td> </tr>   <tr> <td>\n"
+" \\(Z\\)  </td><td>  \\(\\zeta\\)  </td><td>  zeta </td> </tr>   <tr> <td>\n"
+" \\(H\\)  </td><td>  \\(\\eta\\)  </td><td>  eta </td> </tr>   <tr> <td>\n"
+" \\(\\Theta\\)  </td><td>  \\(\\theta\\)  </td><td>  theta </td> </tr>   <tr> <td>\n"
+" \\(K\\)  </td><td>  \\(\\kappa\\)  </td><td>  kappa </td> </tr>   <tr> <td>\n"
+" \\(M\\)  </td><td>  \\(\\mu\\)  </td><td>  mu </td> </tr>   <tr> <td>\n"
+" \\(N\\)  </td><td>  \\( u\\)  </td><td>  nu </td> </tr>   <tr> <td>\n"
+" \\(\\Xi\\)  </td><td>  \\(\\xi\\)  </td><td>  xi </td> </tr>   <tr> <td>\n"
+" \\(O\\)  </td><td>  \\(o\\)  </td><td>  omicron </td> </tr>   <tr> <td>\n"
+" \\(\\Pi\\)  </td><td>  \\(\\pi\\)  </td><td>  pi </td> </tr>   <tr> <td>\n"
+" \\(I\\)  </td><td>  \\(\\iota\\)  </td><td>  iota </td> </tr>   <tr> <td>\n"
+" \\(P\\)  </td><td>  \\(\\rho\\) </td><td>  rho </td> </tr>   <tr> <td>\n"
+" \\(\\Sigma\\)  </td><td>  \\(\\sigma\\)  </td><td>  sigma </td> </tr>   <tr> <td>\n"
+" \\(\\Lambda\\)  </td><td>  \\(\\lambda\\)  </td><td>  lambda </td> </tr>   <tr> "
+"<td>\n"
+" \\(T\\)  </td><td>  \\(\\tau\\)  </td><td>  tau </td> </tr>   <tr> <td>\n"
+" \\(\\Upsilon\\)  </td><td>  \\(\\upsilon\\)  </td><td>  upsilon </td> </tr>   "
+"<tr> <td>\n"
+" \\(\\Phi\\)  </td><td>  \\(\\phi\\)  </td><td>  phi </td> </tr>   <tr> <td>\n"
+" \\(X\\)  </td><td>  \\(\\chi\\)  </td><td>  chi </td> </tr>   <tr> <td>\n"
+" \\(\\Psi\\)  </td><td>  \\(\\psi\\)  </td><td> psi </td> </tr>   <tr> <td>\n"
+" \\(\\Omega\\)  </td><td>  \\(\\omega\\)  </td><td>  omega </td></tr>\n"
+"</table></center>"
+msgstr ""
+
+#: $string['greek_alphabet_name']
+msgid "The Greek Alphabet"
+msgstr ""
+
+#: $string['healthautomaxopt']
+msgid "Automatically create an optimised Maxima image"
+msgstr ""
+
+#: $string['healthautomaxopt_failed']
+msgid "Create Optimised Maxima Image FAILED : [{$a->errmsg}]"
+msgstr ""
+
+#: $string['healthautomaxoptintro']
+msgid ""
+"For best performance we need to optimize maxima on a linux machine.  See the "
+"<a href=\"doc/doc.php/CAS/Optimising_Maxima.md\">documentation</a> on this "
+"issue."
+msgstr ""
+
+#: $string['healthautomaxopt_nolisp']
+msgid ""
+"Unable to determine LISP version, so Maxima image not created automatically."
+msgstr ""
+
+#: $string['healthautomaxopt_nolisprun']
+msgid ""
+"Unable to automatically locate lisp.run.  Try \"sudo updatedb\" from the "
+"command line and refer to the optimization docs."
+msgstr ""
+
+#: $string['healthautomaxopt_notok']
+msgid "Maxima image not created automatically."
+msgstr ""
+
+#: $string['healthautomaxopt_ok']
+msgid "Maxima image created at: <tt>{$a->command}</tt>"
+msgstr ""
+
+#: $string['healthautomaxopt_succeeded']
+msgid "Create Optimised Maxima Image SUCCEEDED"
+msgstr ""
+
+#: $string['healthcheck']
+msgid "STACK healthcheck"
+msgstr ""
+
+#: $string['healthcheckcache_db']
+msgid "CAS results are being cached in the database."
+msgstr ""
+
+#: $string['healthcheckcache_none']
+msgid "CAS results are not being cached."
+msgstr ""
+
+#: $string['healthcheckcache_otherdb']
+msgid "CAS results are being cached in another database."
+msgstr ""
+
+#: $string['healthcheckcachestatus']
+msgid "The cache currently contains {$a} entries."
+msgstr ""
+
+#: $string['healthcheckconfig']
+msgid "Maxima configuration file"
+msgstr ""
+
+#: $string['healthcheckconfigintro1']
+msgid "Found, and using, Maxima in the following directory:"
+msgstr ""
+
+#: $string['healthcheckconfigintro2']
+msgid "Trying to automatically write the Maxima configuration file."
+msgstr ""
+
+#: $string['healthcheckconnect']
+msgid "Trying to connect to the CAS"
+msgstr ""
+
+#: $string['healthcheckconnectintro']
+msgid "We are trying to evaluate the following CAS text:"
+msgstr ""
+
+#: $string['healthcheckcreateimage']
+msgid "Create Maxima image"
+msgstr ""
+
+#: $string['healthcheck_desc']
+msgid ""
+"The <a href=\"{$a->link}\">healthcheck script</a> helps you verify that all "
+"aspects of STACK are working properly."
+msgstr ""
+
+#: $string['healthcheckfilters']
+msgid ""
+"Please ensure that the {$a->filter} is enabled on the <a "
+"href=\"{$a->url}\">Manage filters</a> page."
+msgstr ""
+
+#: $string['healthchecklatex']
+msgid "Check LaTeX is being converted correctly"
+msgstr ""
+
+#: $string['healthchecklatexintro']
+msgid ""
+"STACK generates LaTeX on the fly, and enables teachers to write LaTeX in "
+"questions. It assumes that LaTeX will be converted by a moodle filter.  "
+"Below are samples of displayed and inline expressions in LaTeX which should "
+"be appear correctly in your browser.  Problems here indicate incorrect "
+"moodle filter settings, not faults with STACK itself. STACK only uses the "
+"single and double dollar notation itself, but some question authors may be "
+"relying on the other forms."
+msgstr ""
+
+#: $string['healthchecklatexmathjax']
+msgid ""
+"STACK relies on the Moodle MathJax filter.  An alternative is to add "
+"javascript code to Moodle's additional HTML.  See the STACK installation "
+"docs for more details of this option."
+msgstr ""
+
+#: $string['healthcheckmathsdisplaymethod']
+msgid "Maths display method being used: {$a}."
+msgstr ""
+
+#: $string['healthcheckmaximabat']
+msgid "The maxima.bat file is missing"
+msgstr ""
+
+#: $string['healthcheckmaximabatinfo']
+msgid ""
+"This script tried to automatically copy the maxima.bat script from inside "
+"\"C:\\Program files\\Maxima-1.xx.y\\bin\" into \"{$a}\\stack\". However, this seems "
+"not to have worked. Please copy this file manually."
+msgstr ""
+
+#: $string['healthcheckplots']
+msgid "Graph plotting"
+msgstr ""
+
+#: $string['healthcheckplotsintro']
+msgid ""
+"There should be two different plots.  If two identical plots are seen then "
+"this is an error in naming the plot files. If no errors are returned, but a "
+"plot is not displayed then one of the following may help.  (i) check read "
+"permissions on the two temporary directories. (ii) change the options used "
+"by GNUPlot to create the plot. Currently there is no web interface to these "
+"options."
+msgstr ""
+
+#: $string['healthchecksamplecas']
+msgid ""
+"The derivative of {@ x^4/(1+x^4) @} is \\[ \\frac{d}{dx} \\frac{x^4}{1+x^4} = "
+"{@ diff(x^4/(1+x^4),x) @}. \\]"
+msgstr ""
+
+#: $string['healthchecksampledisplaytex']
+msgid "\\[\\sum_{n=1}^\\infty \\frac{1}{n^2} = \\frac{\\pi^2}{6}.\\]"
+msgstr ""
+
+#: $string['healthchecksampleinlinetex']
+msgid "\\(\\sum_{n=1}^\\infty \\frac{1}{n^2} = \\frac{\\pi^2}{6}\\)."
+msgstr ""
+
+#: $string['healthchecksampleplots']
+msgid ""
+"Two example plots below.  "
+"{@plot([x^4/(1+x^4),diff(x^4/(1+x^4),x)],[x,-3,3])@} "
+"{@plot([sin(x),x,x^2,x^3],[x,-3,3],[y,-3,3],grid2d)@}  A third, smaller, "
+"plot may be displayed here with traditional axes.  (Newer versions of Maxima "
+"only.) {@plot([sin(x),x,x^2,x^3],[x,-3,3],[y,-3,3],[box, false],[yx_ratio, "
+"1],[axes, solid],[xtics, -3, 1, 3],[ytics, -3, 1, 3],[size,250,250])@}"
+msgstr ""
+
+#: $string['healthchecksstackmaximanotupdated']
+msgid ""
+"It seems that STACK has not been properly update. Please visit the <a "
+"href=\"{$a}\">System administration -> Notifications page</a>."
+msgstr ""
+
+#: $string['healthchecksstackmaximatooold']
+msgid "So old the version is unknown!"
+msgstr ""
+
+#: $string['healthchecksstackmaximaversion']
+msgctxt "$string['healthchecksstackmaximaversion']"
+msgid "Maxima version"
+msgstr ""
+
+#: $string['healthchecksstackmaximaversionfixoptimised']
+msgid ""
+"Please <a href=\"{$a->url}\">rebuild your optimised Maxima executable</a>."
+msgstr ""
+
+#: $string['healthchecksstackmaximaversionfixserver']
+msgid "Please rebuild the Maxima code on your MaximaPool server."
+msgstr ""
+
+#: $string['healthchecksstackmaximaversionfixunknown']
+msgid ""
+"It is not really clear how that happened. You will need to debug this "
+"problem yourself.  Start by clearing the CAS cache."
+msgstr ""
+
+#: $string['healthchecksstackmaximaversionmismatch']
+msgid ""
+"The version of the STACK-Maxima libraries being used ({$a->usedversion}) "
+"does not match what is expected ({$a->expectedversion}) by this version of "
+"the STACK question type. {$a->fix}"
+msgstr ""
+
+#: $string['healthchecksstackmaximaversionok']
+msgid ""
+"Correct and expected STACK-Maxima library version being used "
+"({$a->usedversion})."
+msgstr ""
+
+#: $string['healthunabletolistavail']
+msgid ""
+"Platform type not currently set to \"unix\", so unable to list available "
+"versions of Maxima."
+msgstr ""
+
+#: $string['healthuncached']
+msgid "Uncached CAS call"
+msgstr ""
+
+#: $string['healthuncachedintro']
+msgid ""
+"This section always sends a genuine call to the CAS, regardless of the "
+"current cache settings.  This is needed to ensure the connection to the CAS "
+"is really currently working."
+msgstr ""
+
+#: $string['healthuncachedstack_CAS_calculation']
+msgid ""
+"Expected CAS calculation : {$a->expected}.  Actual CAS calculation: "
+"{$a->actual}."
+msgstr ""
+
+#: $string['healthuncachedstack_CAS_not']
+msgid "CAS returned some data as expected, but there were errors."
+msgstr ""
+
+#: $string['healthuncachedstack_CAS_ok']
+msgid "CAS returned data as expected.  You have a live connection to the CAS."
+msgstr ""
+
+#: $string['healthuncachedstack_CAS_version']
+msgid ""
+"Expected Maxima version : \"{$a->expected}\".  Actual Maxima version: "
+"{$a->actual}."
+msgstr ""
+
+#: $string['healthuncachedstack_CAS_versionnotchecked']
+msgid ""
+"You have chosen the \"default\" version of Maxima, so no Maxima version "
+"checking is being done.  Your raw connection is actually using version "
+"{$a->actual}."
+msgstr ""
+
+#: $string['htmlfragment']
+msgid "You appear to have some HTML elements in your expression."
+msgstr ""
+
+#: $string['hyp_functions_fact']
+msgid ""
+"Hyperbolic functions have similar properties to trigonometric functions but "
+"can be represented in exponential form as follows:\n"
+" \\[ \\cosh(x)      = \\frac{e^x+e^{-x}}{2}, \\qquad "
+"\\sinh(x)=\\frac{e^x-e^{-x}}{2} \\]\n"
+" \\[ \\tanh(x)      = \\frac{\\sinh(x)}{\\cosh(x)} = "
+"\\frac{{e^x-e^{-x}}}{e^x+e^{-x}} \\]\n"
+" \\[ {\\rm sech}(x) ={1\\over \\cosh(x)}={2\\over {\\rm e}^x+{\\rm e}^{-x}}, \\qquad "
+" {\\rm cosech}(x)= {1\\over \\sinh(x)}={2\\over {\\rm e}^x-{\\rm e}^{-x}} \\]\n"
+" \\[ {\\rm coth}(x) ={\\cosh(x)\\over \\sinh(x)} = {1\\over {\\rm tanh}(x)} ={{\\rm "
+"e}^x+{\\rm e}^{-x}\\over {\\rm e}^x-{\\rm e}^{-x}}\\]"
+msgstr ""
+
+#: $string['hyp_functions_name']
+msgid "Hyperbolic Functions"
+msgstr ""
+
+#: $string['hyp_identities_fact']
+msgid ""
+"The similarity between the way hyperbolic and trigonometric functions behave "
+"is apparent when observing some basic hyperbolic identities:\n"
+"  \\[{\\rm e}^x=\\cosh(x)+\\sinh(x), \\quad {\\rm e}^{-x}=\\cosh(x)-\\sinh(x)\\]\n"
+"  \\[\\cosh^2(x) -\\sinh^2(x) = 1\\]\n"
+"  \\[1-{\\rm tanh}^2(x)={\\rm sech}^2(x)\\]\n"
+"  \\[{\\rm coth}^2(x)-1={\\rm cosech}^2(x)\\]\n"
+"  \\[\\sinh(x\\pm y)=\\sinh(x)\\ \\cosh(y)\\ \\pm\\ \\cosh(x)\\ \\sinh(y)\\]\n"
+"  \\[\\cosh(x\\pm y)=\\cosh(x)\\ \\cosh(y)\\ \\pm\\ \\sinh(x)\\ \\sinh(y)\\]\n"
+"  \\[\\sinh(2x)=2\\,\\sinh(x)\\cosh(x)\\]\n"
+"  \\[\\cosh(2x)=\\cosh^2(x)+\\sinh^2(x)\\]\n"
+"  \\[\\cosh^2(x)={\\cosh(2x)+1\\over 2}\\]\n"
+"  \\[\\sinh^2(x)={\\cosh(2x)-1\\over 2}\\]"
+msgstr ""
+
+#: $string['hyp_identities_name']
+msgid "Hyperbolic Identities"
+msgstr ""
+
+#: $string['hyp_inverse_functions_fact']
+msgid ""
+"\\[\\cosh^{-1}(x)=\\ln\\left(x+\\sqrt{x^2-1}\\right) \\quad \\mbox{ for } x\\geq 1\\]\n"
+" \\[\\sinh^{-1}(x)=\\ln\\left(x+\\sqrt{x^2+1}\\right)\\]\n"
+" \\[\\tanh^{-1}(x) = \\frac{1}{2}\\ln\\left({1+x\\over 1-x}\\right) \\quad \\mbox{ "
+"for } -1< x < 1\\]"
+msgstr ""
+
+#: $string['hyp_inverse_functions_name']
+msgid "Inverse Hyperbolic Functions"
+msgstr ""
+
+#: $string['illegalcaschars']
+msgid "The characters @, $ and \\ are not allowed in CAS input."
+msgstr ""
+
+#: $string['Illegal_floats']
+msgid ""
+"Your answer contains floating point numbers, that are not allowed in this "
+"question.  You need to type in numbers as fractions.  For example, you "
+"should type 1/3 not 0.3333, which is after all only an approximation to one "
+"third."
+msgstr ""
+
+#: $string['inputdisplayed']
+msgid "Displayed as"
+msgstr ""
+
+#: $string['inputentered']
+msgid "Value entered"
+msgstr ""
+
+#: $string['inputexpression']
+msgid "Test input"
+msgstr ""
+
+#: $string['inputextraoptions']
+msgid "Extra options"
+msgstr ""
+
+#: $string['inputextraoptions_help']
+msgid ""
+"Some input types require extra options in order to work. You can enter them "
+"here. This value is a CAS expression."
+msgstr ""
+
+#: $string['inputextraoptions_link']
+msgid ""
+"%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Inputs.md#Extra "
+"options"
+msgstr ""
+
+#: $string['inputheading']
+msgid "Input: {$a}"
+msgstr ""
+
+#: $string['inputname']
+msgid "Input name"
+msgstr ""
+
+#: $string['inputnamelength']
+msgid "Input names cannot be longer than 18 characters. '{$a}' is too long."
+msgstr ""
+
+#: $string['inputoptionunknown']
+msgid "This input does not support the option '{$a}'."
+msgstr ""
+
+#: $string['inputremovedconfirm']
+msgid "I confirm that I want to remove this input from this question."
+msgstr ""
+
+#: $string['inputremovedconfirmbelow']
+msgid "Input '{$a}' has been removed. Please confirm this below."
+msgstr ""
+
+#: $string['inputs']
+msgid "Inputs"
+msgstr ""
+
+#: $string['inputstatus']
+msgid "Status"
+msgstr ""
+
+#: $string['inputstatusname']
+msgid "Blank"
+msgstr ""
+
+#: $string['inputstatusnameinvalid']
+msgid "Invalid"
+msgstr ""
+
+#: $string['inputstatusnamescore']
+msgctxt "$string['inputstatusnamescore']"
+msgid "Score"
+msgstr ""
+
+#: $string['inputstatusnamevalid']
+msgid "Valid"
+msgstr ""
+
+#: $string['inputtest']
+msgid "Input test"
+msgstr ""
+
+#: $string['inputtype']
+msgid "Input type"
+msgstr ""
+
+#: $string['inputtypealgebraic']
+msgid "Algebraic input"
+msgstr ""
+
+#: $string['inputtypeboolean']
+msgid "True/False"
+msgstr ""
+
+#: $string['inputtypecheckbox']
+msgid "Checkbox"
+msgstr ""
+
+#: $string['inputtypedropdown']
+msgid "Drop down list"
+msgstr ""
+
+#: $string['inputtypeequiv']
+msgid "Equivalence reasoning"
+msgstr ""
+
+#: $string['inputtype_help']
+msgid ""
+"This determines the type of the input element, e.g. form field, true/false, "
+"text area."
+msgstr ""
+
+#: $string['inputtype_link']
+msgid "%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Inputs.md"
+msgstr ""
+
+#: $string['inputtypematrix']
+msgid "Matrix"
+msgstr ""
+
+#: $string['inputtypenotes']
+msgid "Notes"
+msgstr ""
+
+#: $string['inputtypenumerical']
+msgid "Numerical"
+msgstr ""
+
+#: $string['inputtyperadio']
+msgid "Radio"
+msgstr ""
+
+#: $string['inputtypesinglechar']
+msgid "Single character"
+msgstr ""
+
+#: $string['inputtypestring']
+msgctxt "$string['inputtypestring']"
+msgid "String"
+msgstr ""
+
+#: $string['inputtypetextarea']
+msgid "Text area"
+msgstr ""
+
+#: $string['inputtypeunits']
+msgid "Units"
+msgstr ""
+
+#: $string['inputwillberemoved']
+msgid ""
+"This input is no longer referred to in the question text. If you save the "
+"question now, the data about this input will be lost. Please confirm that "
+"you want to do this. Alternatively edit the question text to put back the "
+"'[[input:{$a}]]' and '[[validation:{$a}]]' placeholders."
+msgstr ""
+
+#: $string['insertspaces']
+msgid "Insert stars for spaces only"
+msgstr ""
+
+#: $string['insertstars']
+msgid "Insert stars"
+msgstr ""
+
+#: $string['insertstarsassumesinglechar']
+msgid "Insert stars assuming single-character variable names"
+msgstr ""
+
+#: $string['insertstars_help']
+msgid ""
+"This option provides a number of different options for inserting stars where "
+"multiplication is implied.  Please read the more detailed documentation."
+msgstr ""
+
+#: $string['insertstars_link']
+msgid ""
+"%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Inputs.md#Insert_Stars"
+msgstr ""
+
+#: $string['insertstarsno']
+msgid "Don't insert stars"
+msgstr ""
+
+#: $string['insertstarsspaces']
+msgid "Insert stars for implied multiplication and for spaces"
+msgstr ""
+
+#: $string['insertstarsspacessinglechar']
+msgid ""
+"Insert stars assuming single-character variables, implied and for spaces"
+msgstr ""
+
+#: $string['insertstarsyes']
+msgid "Insert stars for implied multiplication only"
+msgstr ""
+
+#: $string['inversetrig']
+msgid "Inverse trigonometric functions"
+msgstr ""
+
+#: $string['inversetrig_help']
+msgid ""
+"Controls how inverse trigonometric functions are displayed in CAS output."
+msgstr ""
+
+#: $string['inversetrig_link']
+msgid ""
+"%%WWWROOT%%"
+"/question/type/stack/doc/doc.php/Authoring/Options.md#inverse_trig"
+msgstr ""
+
+#: $string['irred_Q_commonint']
+msgctxt "$string['irred_Q_commonint']"
+msgid "You need to take out a common factor."
+msgstr ""
+
+#: $string['irred_Q_factored']
+msgid "The term {$a->m0} should be unfactored, but is not."
+msgstr ""
+
+#: $string['irred_Q_optional_fac']
+msgid ""
+"You could do more work, since {$a->m0} can be further factored.  However, "
+"you don't need to."
+msgstr ""
+
+#: $string['Lowest_Terms']
+msgid ""
+"Your answer contains fractions that are not written in lowest terms.  Please "
+"cancel factors and try again."
+msgstr ""
+
+#: $string['matrixparens']
+msgid "Default shape of matrix parentheses"
+msgstr ""
+
+#: $string['matrixparens_help']
+msgid ""
+"Controls the default shape of matrix parentheses when displayed in CAS "
+"output."
+msgstr ""
+
+#: $string['matrixparens_link']
+msgid "%%WWWROOT%%/question/type/stack/doc/doc.php/CAS/Matrix.md#matrixparens"
+msgstr ""
+
+#: $string['Maxima_Args']
+msgid "args: argument must be a non-atomic expression."
+msgstr ""
+
+#: $string['Maxima_DivisionZero']
+msgid "Division by zero."
+msgstr ""
+
+#: $string['multcross']
+msgid "Cross"
+msgstr ""
+
+#: $string['multdot']
+msgid "Dot"
+msgstr ""
+
+#: $string['multiplicationsign']
+msgid "Multiplication sign"
+msgstr ""
+
+#: $string['multiplicationsign_help']
+msgid "Controls how multiplication signs are displayed."
+msgstr ""
+
+#: $string['multiplicationsign_link']
+msgid ""
+"%%WWWROOT%%"
+"/question/type/stack/doc/doc.php/Authoring/Options.md#multiplication"
+msgstr ""
+
+#: $string['mustverify']
+msgid "Student must verify"
+msgstr ""
+
+#: $string['mustverify_help']
+msgid ""
+"Specifies whether the student's input is presented back to them as a forced "
+"two step process before this input is made available to the scoring "
+"mechanism.  Syntax errors are always reported back."
+msgstr ""
+
+#: $string['mustverify_link']
+msgid ""
+"%%WWWROOT%%"
+"/question/type/stack/doc/doc.php/Authoring/Inputs.md#Student_must_verify"
+msgstr ""
+
+#: $string['mustverifyshowvalidation']
+msgid ""
+"You cannot choose to require two step validation but not show the results of "
+"validation to the student after the first step.  This puts the student in "
+"an impossible position."
+msgstr ""
+
+#: $string['namealreadyused']
+msgid "You have already used this name."
+msgstr ""
+
+#: $string['newnameforx']
+msgid "New name for '{$a}\\"
+msgstr ""
+
+#: $string['next']
+msgid "Next"
+msgstr ""
+
+#: $string['nextcannotbeself']
+msgid "A node cannot link to itself as the next node."
+msgstr ""
+
+#: $string['nodehelp']
+msgid "Response tree node"
+msgstr ""
+
+#: $string['nodehelp_help']
+msgid ""
+"### Answer test\n"
+"An answer test is used to compare two expressions to establish whether they "
+"satisfy some mathematical criteria.\n"
+"\n"
+"### SAns\n"
+"This is the first argument to the answer test function.  In asymmetrical "
+"tests this is considered to be the \"student's answer\" although it may be any "
+"valid CAS expression, and may depend on the question variables or the "
+"feedback variables.\n"
+"\n"
+"### TAns\n"
+"This is the second argument to the answer test function.  In asymmetrical "
+"tests this is considered to be the \"teacher's answer\" although it may be any "
+"valid CAS expression, and may depend on the question variables or the "
+"feedback variables.\n"
+"\n"
+"### Test options\n"
+"This field enables answer tests to accept an option, e.g. a variable or a "
+"numerical precision.\n"
+"\n"
+"### Quiet\n"
+"When set to yes any feedback automatically generated by the answer tests is "
+"suppressed, and not displayed to the student.  The feedback fields in the "
+"branches are unaffected by this option."
+msgstr ""
+
+#: $string['nodeloopdetected']
+msgid "This link creates a cycle in this PRT."
+msgstr ""
+
+#: $string['nodenotused']
+msgid "No other nodes in the PRT link to this node."
+msgstr ""
+
+#: $string['nodex']
+msgid "Node {$a}"
+msgstr ""
+
+#: $string['nodexdelete']
+msgid "Delete node {$a}"
+msgstr ""
+
+#: $string['nodexfalsefeedback']
+msgid "Node {$a} false feedback"
+msgstr ""
+
+#: $string['nodextruefeedback']
+msgid "Node {$a} true feedback"
+msgstr ""
+
+#: $string['nodexwhenfalse']
+msgid "Node {$a} when false"
+msgstr ""
+
+#: $string['nodexwhentrue']
+msgid "Node {$a} when true"
+msgstr ""
+
+#: $string['nonempty']
+msgid "This must not be empty."
+msgstr ""
+
+#: $string['noprtsifnoinputs']
+msgid "A question with no inputs cannot have any PRTs."
+msgstr ""
+
+#: $string['notanswered']
+msgid "(No answer given)"
+msgstr ""
+
+#: $string['notavalidname']
+msgid "Not a valid name"
+msgstr ""
+
+#: $string['notestcasesyet']
+msgid "No test cases have been added yet."
+msgstr ""
+
+#: $string['numericalinputdp']
+msgid "You must supply exactly \\( {$a} \\) decimal places."
+msgstr ""
+
+#: $string['numericalinputmaxdp']
+msgid "You must supply at most \\( {$a} \\) decimal places."
+msgstr ""
+
+#: $string['numericalinputmaxsf']
+msgid "You must supply at most \\( {$a} \\) significant figures."
+msgstr ""
+
+#: $string['numericalinputmindp']
+msgid "You must supply at least \\( {$a} \\) decimal places."
+msgstr ""
+
+#: $string['numericalinputminmaxerr']
+msgid ""
+"The required minimum number of numerical places exceeds the maximum number "
+"of places!"
+msgstr ""
+
+#: $string['numericalinputminsf']
+msgid "You must supply at least \\( {$a} \\) significant figures."
+msgstr ""
+
+#: $string['numericalinputminsfmaxdperr']
+msgid ""
+"Do not specify requirements for both decimal places and significant figures "
+"in the same input."
+msgstr ""
+
+#: $string['numericalinputmustfloat']
+msgid "This input expects a floating point number."
+msgstr ""
+
+#: $string['numericalinputmustrational']
+msgid "This input expects a fraction or rational number."
+msgstr ""
+
+#: $string['numericalinputoptboolerr']
+msgid ""
+"The value of the option <code>{$a->opt}</code> should be boolean, but in "
+"fact it is <code>{$a->val}</code>."
+msgstr ""
+
+#: $string['numericalinputoptinterr']
+msgid ""
+"The value of the option <code>{$a->opt}</code> should be an integer, but in "
+"fact it is <code>{$a->val}</code>."
+msgstr ""
+
+#: $string['numericalinputsf']
+msgid "You must supply exactly \\( {$a} \\) significant figures."
+msgstr ""
+
+#: $string['numericalinputvarsforbidden']
+msgid "This input expects a number, and so may not contain variables."
+msgstr ""
+
+#: $string['options']
+msgid "Options"
+msgstr ""
+
+#: $string['optionsnotrequired']
+msgid "This input type does not require any options."
+msgstr ""
+
+#: $string['overallresult']
+msgid "Overall result"
+msgstr ""
+
+#: $string['penalty']
+msgid "Penalty"
+msgstr ""
+
+#: $string['penaltyerror']
+msgid "The penalty must be a numeric value between 0 and 1."
+msgstr ""
+
+#: $string['penaltyerror2']
+msgid "The penalty must empty, or be a numeric value between 0 and 1."
+msgstr ""
+
+#: $string['penalty_help']
+msgid ""
+"The penalty scheme deducts this value from the result of each PRT for each "
+"different and valid attempt which is not completely correct."
+msgstr ""
+
+#: $string['penalty_link']
+msgid "%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Feedback.md"
+msgstr ""
+
+#: $string['phpcasstring']
+msgid "PHP output"
+msgstr ""
+
+#: $string['phpsuitecolerror']
+msgid "PHP errors"
+msgstr ""
+
+#: $string['phpvalid']
+msgid "V1"
+msgstr ""
+
+#: $string['phpvalidatemismatch']
+msgid "[PHP validate mismatch]"
+msgstr ""
+
+#: $string['pleaseananswerallparts']
+msgid "Please answer all parts of the question."
+msgstr ""
+
+#: $string['pleasecheckyourinputs']
+msgid "Please verify that what you entered was interpreted as expected."
+msgstr ""
+
+#: $string['pluginname']
+msgid "STACK"
+msgstr ""
+
+#: $string['pluginnameadding']
+msgid "Adding a STACK question"
+msgstr ""
+
+#: $string['pluginnameediting']
+msgid "Editing a STACK question"
+msgstr ""
+
+#: $string['pluginname_help']
+msgid "STACK is an assessment system for mathematics."
+msgstr ""
+
+#: $string['pluginnamesummary']
+msgid ""
+"STACK provides mathematical questions for the Moodle quiz.  These use a "
+"computer algebra system to establish the mathematical properties of the "
+"student's responses."
+msgstr ""
+
+#: $string['prtcorrectfeedback']
+msgid "Standard feedback for correct"
+msgstr ""
+
+#: $string['prtheading']
+msgid "Potential response tree: {$a}"
+msgstr ""
+
+#: $string['prtincorrectfeedback']
+msgid "Standard feedback for incorrect"
+msgstr ""
+
+#: $string['prtmustbesetup']
+msgid "This PRT must be set up before the question can be saved."
+msgstr ""
+
+#: $string['prtname']
+msgid "PRT name"
+msgstr ""
+
+#: $string['prtnamelength']
+msgid "PRT names cannot be longer than 18 characters. '{$a}' is too long."
+msgstr ""
+
+#: $string['prtnodesheading']
+msgid "Potential response tree nodes ({$a})"
+msgstr ""
+
+#: $string['prtpartiallycorrectfeedback']
+msgid "Standard feedback for partially correct"
+msgstr ""
+
+#: $string['prtremovedconfirm']
+msgid ""
+"I confirm that I want to remove this potential response tree from this "
+"question."
+msgstr ""
+
+#: $string['prtremovedconfirmbelow']
+msgid ""
+"Potential response tree '{$a}' has been removed. Please confirm this below."
+msgstr ""
+
+#: $string['prtruntimeerror']
+msgid "Node {$a->node} generated the following runtime error: {$a->error}"
+msgstr ""
+
+#: $string['prts']
+msgid "Potential response trees"
+msgstr ""
+
+#: $string['prtwillbecomeactivewhen']
+msgid ""
+"This potential response tree will become active when the student has "
+"answered: {$a}"
+msgstr ""
+
+#: $string['prtwillberemoved']
+msgid ""
+"This potential response tree is no longer referred to in the question text "
+"or specific feedback. If you save the question now, the data about this "
+"potential response tree will be lost. Please confirm that you want to do "
+"this. Alternatively edit the question text or specific feedback to put back "
+"the '[[feedback:{$a}]]' placeholder."
+msgstr ""
+
+#: $string['qm_error']
+msgid ""
+"Your answer contains question mark characters, ?, which are not permitted in "
+"answers.  You should replace these with a specific value."
+msgstr ""
+
+#: $string['questiondoesnotuserandomisation']
+msgid "This question does not use randomisation."
+msgstr ""
+
+#: $string['questionnotdeployedyet']
+msgid "No variants of this question have been deployed yet."
+msgstr ""
+
+#: $string['questionnote']
+msgid "Question note"
+msgstr ""
+
+#: $string['questionnote_help']
+msgid ""
+"The question note is CASText.  The purpose of a question note is to "
+"distinguish between random versions of a question. Two question versions are "
+"equal if and only if the question notes are equal.  In later analysis it is "
+"very helpful to leave a meaningful question note."
+msgstr ""
+
+#: $string['questionnote_link']
+msgid "%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Question_note.md"
+msgstr ""
+
+#: $string['questionnotempty']
+msgid ""
+"The question note cannot be empty when rand() appears in the question "
+"variables.  The question note is used to distinguish between different "
+"random versions of the question."
+msgstr ""
+
+#: $string['questionpreview']
+msgid "Question preview"
+msgstr ""
+
+#: $string['questionsimplify']
+msgid "Question-level simplify"
+msgstr ""
+
+#: $string['questionsimplify_help']
+msgid "Sets the global variable \"simp\" within Maxima for the whole question."
+msgstr ""
+
+#: $string['questionsimplify_link']
+msgctxt "$string['questionsimplify_link']"
+msgid ""
+"%%WWWROOT%%/question/type/stack/doc/doc.php/CAS/Maxima.md#Simplification"
+msgstr ""
+
+#: $string['questiontests']
+msgid "Question tests"
+msgstr ""
+
+#: $string['questiontestspass']
+msgid "All question tests passed."
+msgstr ""
+
+#: $string['questiontext']
+msgid "Question text"
+msgstr ""
+
+#: $string['questiontextfeedbackonlycontain']
+msgid ""
+"The question text combined with the specific feedback should only contain "
+"the token '{$a}' once."
+msgstr ""
+
+#: $string['questiontext_help']
+msgid ""
+"The question text is CASText.  This is the \"question\" which the student "
+"actually sees.  You must put input elements, and the validation strings, in "
+"this field, and only in this field.  For example, using `[[input:ans1]] "
+"[[validation:ans1]]`."
+msgstr ""
+
+#: $string['questiontext_link']
+msgid ""
+"%%WWWROOT%%"
+"/question/type/stack/doc/doc.php/Authoring/CASText.md#question_text"
+msgstr ""
+
+#: $string['questiontextmustcontain']
+msgid "The question text must contain the token '{$a}'."
+msgstr ""
+
+#: $string['questiontextnonempty']
+msgid "The question text must be non-empty."
+msgstr ""
+
+#: $string['questiontextonlycontain']
+msgid "The question text should only contain the token '{$a}' once."
+msgstr ""
+
+#: $string['questiontextplaceholderswhitespace']
+msgid ""
+"Placeholders may not contain whitespace.  This one appears to do so: '{$a}'."
+msgstr ""
+
+#: $string['questionvalue']
+msgid "Question value"
+msgstr ""
+
+#: $string['questionvaluepostive']
+msgid "Question value must be non-negative."
+msgstr ""
+
+#: $string['questionvariables']
+msgid "Question variables"
+msgstr ""
+
+#: $string['questionvariables_help']
+msgid ""
+"This field allows you to define and manipulate CAS variables, e.g. to create "
+"random versions.  These are available to all other parts of the question."
+msgstr ""
+
+#: $string['questionvariables_link']
+msgid "%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/KeyVals.md"
+msgstr ""
+
+#: $string['questionvariablevalues']
+msgid "Question variable values"
+msgstr ""
+
+#: $string['quiet']
+msgid "Quiet"
+msgstr ""
+
+#: $string['quiet_help']
+msgid ""
+"When set to yes any feedback automatically generated by the answer tests is "
+"suppressed, and not displayed to the student.  The feedback fields in the "
+"branches are unaffected by this option."
+msgstr ""
+
+#: $string['renamequestionparts']
+msgid "Rename parts of the question"
+msgstr ""
+
+#: $string['replacedollarscount']
+msgid "This category contains {$a} STACK questions."
+msgstr ""
+
+#: $string['replacedollarserrors']
+msgid "The following questions generated errors."
+msgstr ""
+
+#: $string['replacedollarsin']
+msgid "Fixed maths delimiters in field {$a}"
+msgstr ""
+
+#: $string['replacedollarsindex']
+msgid "Contexts with STACK questions"
+msgstr ""
+
+#: $string['replacedollarsindexintro']
+msgid ""
+"Clicking on any of the links will take you to a page where you can review "
+"the questions for old-style maths delimiters, and automatically fix them."
+msgstr ""
+
+#: $string['replacedollarsindextitle']
+msgid "Replace $s in question texts"
+msgstr ""
+
+#: $string['replacedollarsnoproblems']
+msgid "No problem delimiters found."
+msgstr ""
+
+#: $string['replacedollarstitle']
+msgid "Replace $s in question texts in {$a}"
+msgstr ""
+
+#: $string['requiredfield']
+msgid "This field is required!"
+msgstr ""
+
+#: $string['requirelowestterms']
+msgid "Require lowest terms"
+msgstr ""
+
+#: $string['requirelowestterms_help']
+msgid ""
+"When this option is set to yes, any coefficients or other rational numbers "
+"in an expression, must be written in lowest terms.  Otherwise the answer is "
+"rejected as invalid."
+msgstr ""
+
+#: $string['requirelowestterms_link']
+msgid ""
+"%%WWWROOT%%"
+"/question/type/stack/doc/doc.php/Authoring/Inputs.md#Require_lowest_terms"
+msgstr ""
+
+#: $string['runquestiontests']
+msgid "Question tests & deployed versions"
+msgstr ""
+
+#: $string['sans']
+msgid "SAns"
+msgstr ""
+
+#: $string['sans_help']
+msgid ""
+"This is the first argument to the answer test function.  In asymmetrical "
+"tests this is considered to be the \"student's answer\" although it may be any "
+"valid CAS expression, and may depend on the question variables or the "
+"feedback variables."
+msgstr ""
+
+#: $string['sansinvalid']
+msgid "SAns is invalid: {$a}"
+msgstr ""
+
+#: $string['sans_link']
+msgctxt "$string['sans_link']"
+msgid "%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Answer_tests.md"
+msgstr ""
+
+#: $string['sansrequired']
+msgid "SAns must not be empty."
+msgstr ""
+
+#: $string['score']
+msgctxt "$string['score']"
+msgid "Score"
+msgstr ""
+
+#: $string['scoreerror']
+msgid "The score must be a numeric value between 0 and 1."
+msgstr ""
+
+#: $string['scoremode']
+msgid "Mod"
+msgstr ""
+
+#: $string['seedx']
+msgid "Seed {$a}"
+msgstr ""
+
+#: $string['seethisquestioninthequestionbank']
+msgid "See this question in the question bank"
+msgstr ""
+
+#: $string['settingajaxvalidation']
+msgid "Instant validation"
+msgstr ""
+
+#: $string['settingajaxvalidation_desc']
+msgid ""
+"With this setting turned on, the students current input will be validated "
+"whenever they pause in their typing. This gives a better user experience, "
+"but is likely to increase the server load."
+msgstr ""
+
+#: $string['settingcasdebugging']
+msgid "CAS debugging"
+msgstr ""
+
+#: $string['settingcasdebugging_desc']
+msgid "Whether to store debugging information about the CAS connection."
+msgstr ""
+
+#: $string['settingcasmaximaversion']
+msgctxt "$string['settingcasmaximaversion']"
+msgid "Maxima version"
+msgstr ""
+
+#: $string['settingcasmaximaversion_desc']
+msgid "The version of Maxima being used."
+msgstr ""
+
+#: $string['settingcasresultscache']
+msgid "CAS result caching"
+msgstr ""
+
+#: $string['settingcasresultscache_db']
+msgid "Cache in the database"
+msgstr ""
+
+#: $string['settingcasresultscache_desc']
+msgid ""
+"This setting determines whether calls the to CAS are cached. This setting "
+"should be turned on unless you are doing development that involves changing "
+"the Maxima code. The current state of the cache is shown on the healthcheck "
+"page.  If you change your settings, e.g. the gnuplot command, you will need "
+"to clear the cache before you can see the effects of these changes."
+msgstr ""
+
+#: $string['settingcasresultscache_none']
+msgid "Do not cache"
+msgstr ""
+
+#: $string['settingcastimeout']
+msgid "CAS connection timeout"
+msgstr ""
+
+#: $string['settingcastimeout_desc']
+msgid "The timout to use when trying to connect to Maxima."
+msgstr ""
+
+#: $string['settingdefaultinputoptions']
+msgctxt "$string['settingdefaultinputoptions']"
+msgid "Default input options"
+msgstr ""
+
+#: $string['settingdefaultinputoptions_desc']
+msgid ""
+"Used when creating a new question, or adding a new input to an existing "
+"question."
+msgstr ""
+
+#: $string['settingdefaultquestionoptions']
+msgctxt "$string['settingdefaultquestionoptions']"
+msgid "Default input options"
+msgstr ""
+
+#: $string['settingdefaultquestionoptions_desc']
+msgid "Used when creating a new question."
+msgstr ""
+
+#: $string['settingmathsdisplay']
+msgid "Maths filter"
+msgstr ""
+
+#: $string['settingmathsdisplay_desc']
+msgid ""
+"The method used to display maths. If you select MathJax, then you will need "
+"to follow the instructions on the Healthcheck page to set it up. If you "
+"select a filter, then you must ensure that filter is enabled on the Manage "
+"filters configuration page."
+msgstr ""
+
+#: $string['settingmathsdisplay_mathjax']
+msgid "MathJax"
+msgstr ""
+
+#: $string['settingmathsdisplay_maths']
+msgid "Old OU maths filter"
+msgstr ""
+
+#: $string['settingmathsdisplay_oumaths']
+msgid "New OU maths filter"
+msgstr ""
+
+#: $string['settingmathsdisplay_tex']
+msgid "Moodle TeX filter"
+msgstr ""
+
+#: $string['settingmaximalibraries']
+msgid "Load optional Maxima libraries:"
+msgstr ""
+
+#: $string['settingmaximalibraries_desc']
+msgid ""
+"This is a comma separated list of Maxima library names which will be "
+"automatically loaded into Maxima.  Only supported library names can be used: "
+"see the documentation for supported library names. These libraries will not "
+"be loaded if you have saved a maxima image to optimise performance."
+msgstr ""
+
+#: $string['settingmaximalibraries_error']
+msgid "The following package is not supported: {$a}"
+msgstr ""
+
+#: $string['settingmaximalibraries_failed']
+msgid ""
+"It appears as if some of the Maxima packages you have asked for have failed "
+"to load.  Please refer to the installation instructions for notes about this "
+"error."
+msgstr ""
+
+#: $string['settingplatformmaximacommand']
+msgid "Maxima command"
+msgstr ""
+
+#: $string['settingplatformmaximacommand_desc']
+msgid ""
+"For Platform type: Server, this is must be set to the URL of the Maxima Pool "
+"servlet. For other platform types, if this is blank, STACK will make an "
+"educated guess as to where to find Maxima. If that fails, this should be set "
+"to the full path of the maxima or maxima-optimised executable.  Consider "
+"using the timeout command on unix based systems. E.g. timeout --kill-"
+"after=10s 10s maxima"
+msgstr ""
+
+#: $string['settingplatformplotcommand']
+msgid "Plot command"
+msgstr ""
+
+#: $string['settingplatformplotcommand_desc']
+msgid ""
+"Normally this can be left blank, but if graph plotting is not working, you "
+"may need to supply the full path to the gnuplot command here."
+msgstr ""
+
+#: $string['settingplatformtype']
+msgid "Platform type"
+msgstr ""
+
+#: $string['settingplatformtype_desc']
+msgid ""
+"STACK needs to know what sort of operating system it is running on. The "
+"Server option give better performance at the cost of having to set up an "
+"additional server. The option \"Linux (optimised)\" is explained on the "
+"Optimising Maxima page in the documentation."
+msgstr ""
+
+#: $string['settingplatformtypeserver']
+msgid "Server"
+msgstr ""
+
+#: $string['settingplatformtypeunix']
+msgid "Linux"
+msgstr ""
+
+#: $string['settingplatformtypeunixoptimised']
+msgid "Linux (optimised)"
+msgstr ""
+
+#: $string['settingplatformtypewin']
+msgid "Windows"
+msgstr ""
+
+#: $string['settingreplacedollars']
+msgid "Replace <code>$</code> and <code>$$</code>"
+msgstr ""
+
+#: $string['settingreplacedollars_desc']
+msgid ""
+"Replace <code>$...$</code> and <code>$$...$$</code> delimiters in question "
+"text, in addition to <code>\\\\[...\\\\]</code> and <code>\\\\(...\\\\)</code>. A "
+"better option is to use the 'Fix maths delimiters' script which is referred "
+"to below."
+msgstr ""
+
+#: $string['settingserveruserpass']
+msgid "Server username:password"
+msgstr ""
+
+#: $string['settingserveruserpass_desc']
+msgid ""
+"If you are using Platform type: Server, and if you have set up your Maxima "
+"pool server with HTTP authentication, then you can put the username and "
+"password here. That is slighly safer than putting them in the URL. The "
+"format is username:password."
+msgstr ""
+
+#: $string['settingsmathsdisplayheading']
+msgid "Maths display options"
+msgstr ""
+
+#: $string['settingsmaximasettings']
+msgid "Connecting to Maxima"
+msgstr ""
+
+#: $string['settingusefullinks']
+msgid "Useful links"
+msgstr ""
+
+#: $string['showingundeployedvariant']
+msgid "Showing undeployed variant: {$a}"
+msgstr ""
+
+#: $string['showvalidation']
+msgid "Show the validation"
+msgstr ""
+
+#: $string['showvalidation_help']
+msgid ""
+"Displays any validation feedback from this input, including echoing back "
+"their expression in traditional two dimensional notation.   Syntax errors "
+"are always reported back."
+msgstr ""
+
+#: $string['showvalidation_link']
+msgid ""
+"%%WWWROOT%%"
+"/question/type/stack/doc/doc.php/Authoring/Inputs.md#Show_validation"
+msgstr ""
+
+#: $string['showvalidationno']
+msgid "No"
+msgstr ""
+
+#: $string['showvalidationyes']
+msgid "Yes, with variable list"
+msgstr ""
+
+#: $string['showvalidationyesnovars']
+msgid "Yes, without variable list"
+msgstr ""
+
+#: $string['singlechargotmorethanone']
+msgid "You can only enter a single character here."
+msgstr ""
+
+#: $string['specificfeedback']
+msgid "Specific feedback"
+msgstr ""
+
+#: $string['specificfeedback_help']
+msgid ""
+"By default, feedback for each potential response tree will be shown in this "
+"block.  It can be moved to the question text, in which case Moodle will have "
+"less control over when it is displayed by various behaviours.  Note, this "
+"block is not CASText."
+msgstr ""
+
+#: $string['specificfeedbacktags']
+msgid "Specific feedback must not contain the token(s) '{$a}'."
+msgstr ""
+
+#: $string['sqrtsign']
+msgid "Surd for square root"
+msgstr ""
+
+#: $string['sqrtsign_help']
+msgid "Controls how surds are displayed."
+msgstr ""
+
+#: $string['sqrtsign_link']
+msgid "%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Options.md#surd"
+msgstr ""
+
+#: $string['stackBlock_elif_after_else']
+msgid "\"elif\" after an \"else\" in an if block."
+msgstr ""
+
+#: $string['stackBlock_elif_out_of_an_if']
+msgid "\"elif\" cannot exist outside an if block."
+msgstr ""
+
+#: $string['stackBlock_else_out_of_an_if']
+msgid "\"else\" cannot exist outside an if block."
+msgstr ""
+
+#: $string['stackBlock_escapeNeedsValue']
+msgid "Escape-block needs a value attribute."
+msgstr ""
+
+#: $string['stackBlock_ifNeedsCondition']
+msgid "If-block needs a test attribute."
+msgstr ""
+
+#: $string['stackBlock_missmatch']
+msgid "has no match."
+msgstr ""
+
+#: $string['stackBlock_multiple_else']
+msgid "Multiple else branches in an if block."
+msgstr ""
+
+#: $string['stackBlock_unknownBlock']
+msgid "The following block is unknown:"
+msgstr ""
+
+#: $string['stackCas_allFailed']
+msgid ""
+"CAS failed to return any evaluated expressions.  Please check your "
+"connection with the CAS."
+msgstr ""
+
+#: $string['stackCas_apostrophe']
+msgid "Apostrophes are not permitted in responses."
+msgstr ""
+
+#: $string['stackCas_backward_inequalities']
+msgid ""
+"Non-strict inequalities e.g. \\( \\leq \\) or \\( \\geq \\) must be entered as <= "
+"or >=.  You have {$a->cmd} in your expression, which is backwards."
+msgstr ""
+
+#: $string['stackCas_badLogIn']
+msgid ""
+"You have typed in the expression <tt>In</tt>.  The natural logarithm is "
+"entered as <tt>ln</tt> in lower case.  (\"Lima November\" not \"India "
+"November\")"
+msgstr ""
+
+#: $string['stackCas_bracketsdontmatch']
+msgid "The brackets are incorrectly nested in the expression: {$a->cmd}."
+msgstr ""
+
+#: $string['stackCas_CASError']
+msgid "The CAS returned the following error(s):"
+msgstr ""
+
+#: $string['stackCas_CASErrorCaused']
+msgid "caused the following error:"
+msgstr ""
+
+#: $string['stackCas_chained_inequalities']
+msgid ""
+"You appear to have \"chained inequalities\" e.g. \\(a &lt b &lt c\\).  You need "
+"to connect individual inequalities with logical operations such as \\(and\\) "
+"or \\(or\\)."
+msgstr ""
+
+#: $string['stackCas_failedReturn']
+msgid "CAS failed to return any data."
+msgstr ""
+
+#: $string['stackCas_failedReturnOne']
+msgid "CAS failed to return some data."
+msgstr ""
+
+#: $string['stackCas_failedValidation']
+msgid "CASText failed validation."
+msgstr ""
+
+#: $string['stackCas_finalChar']
+msgid "'{$a->char}' is an invalid final character in {$a->cmd}"
+msgstr ""
+
+#: $string['stackCas_forbiddenChar']
+msgid "CAS commands may not contain the following characters: {$a->char}."
+msgstr ""
+
+#: $string['stackCas_forbiddenWord']
+msgid "The expression {$a->forbid} is forbidden."
+msgstr ""
+
+#: $string['stackCas_inputsdefined']
+msgid ""
+"You may not use input names as variables.  You have tried to define "
+"<code>{$a}</code>"
+msgstr ""
+
+#: $string['stackCas_invalidCommand']
+msgid "CAS commands not valid."
+msgstr ""
+
+#: $string['stackCas_MissingAt']
+msgid "You are missing a <code>@</code> sign."
+msgstr ""
+
+#: $string['stackCas_MissingCloseDisplay']
+msgid "Missing <code>\\]</code>."
+msgstr ""
+
+#: $string['stackCas_MissingCloseHTML']
+msgid "Missing closing html tag."
+msgstr ""
+
+#: $string['stackCas_MissingCloseInline']
+msgid "Missing <code>\\)</code>."
+msgstr ""
+
+#: $string['stackCas_MissingClosingRawCAS']
+msgid "Missing <code>#}</code>."
+msgstr ""
+
+#: $string['stackCas_MissingClosingTeXCAS']
+msgid "Missing <code>@}</code>."
+msgstr ""
+
+#: $string['stackCas_MissingDollar']
+msgid "You are missing a <code>$</code> sign."
+msgstr ""
+
+#: $string['stackCas_missingLeftBracket']
+msgid ""
+"You have a missing left bracket <span "
+"class=\"stacksyntaxexample\">{$a->bracket}</span> in the expression: "
+"{$a->cmd}."
+msgstr ""
+
+#: $string['stackCas_MissingOpenDisplay']
+msgid "Missing <code>\\[</code>."
+msgstr ""
+
+#: $string['stackCas_MissingOpenHTML']
+msgid "Missing opening html tag."
+msgstr ""
+
+#: $string['stackCas_MissingOpenInline']
+msgid "Missing <code>\\(</code>."
+msgstr ""
+
+#: $string['stackCas_MissingOpenRawCAS']
+msgid "Missing <code>{#</code>."
+msgstr ""
+
+#: $string['stackCas_MissingOpenTeXCAS']
+msgid "Missing <code>{@</code>."
+msgstr ""
+
+#: $string['stackCas_missingRightBracket']
+msgid ""
+"You have a missing right bracket <span "
+"class=\"stacksyntaxexample\">{$a->bracket}</span> in the expression: "
+"{$a->cmd}."
+msgstr ""
+
+#: $string['stackCas_MissingStars']
+msgid ""
+"You seem to be missing * characters. Perhaps you meant to type {$a->cmd}."
+msgstr ""
+
+#: $string['stackCas_MissingString']
+msgid "You are missing a quotation sign <code>\"</code>."
+msgstr ""
+
+#: $string['stackCas_newline']
+msgid "Newline characters are not permitted in responses."
+msgstr ""
+
+#: $string['stackCas_percent']
+msgid "&#037; found in expression {$a->expr}."
+msgstr ""
+
+#: $string['stackCas_spaces']
+msgid "Illegal spaces found in expression {$a->expr}."
+msgstr ""
+
+#: $string['stackCas_spuriousop']
+msgid "Unknown operator: {$a->cmd}."
+msgstr ""
+
+#: $string['stackCas_StringOperation']
+msgid ""
+"A string appears to be in the wrong place. This is the issue: "
+"<code>{$a->issue}</code>."
+msgstr ""
+
+#: $string['stackCas_trigexp']
+msgid ""
+"You cannot take a power of a trig function by writing {$a->forbid}. The "
+"square of the value of \\(\\sin(x)\\) is typed in as \\(\\sin(x)^2\\).  The "
+"inverse of \\(\\sin(x)\\) is written <tt>asin(x)</tt> and not \\(\\sin^{-1}(x)\\) "
+"."
+msgstr ""
+
+#: $string['stackCas_triginv']
+msgid "Inverse trig functions are written {$a->goodinv} not {$a->badinv}."
+msgstr ""
+
+#: $string['stackCas_trigop']
+msgid ""
+"You must apply {$a->trig} to an argument.  You seem to have {$a->forbid}, "
+"which looks like you have tried to use {$a->trig} as a variable name."
+msgstr ""
+
+#: $string['stackCas_trigparens']
+msgid ""
+"When you apply a trig function to its arguments you must use round "
+"parentheses not square brackets.  E.g {$a->forbid}."
+msgstr ""
+
+#: $string['stackCas_trigspace']
+msgid ""
+"To apply a trig function to its arguments you must use brackets, not spaces. "
+" For example use {$a->trig} instead."
+msgstr ""
+
+#: $string['stackCas_underscores']
+msgid "The following use of underscore characters is not permitted: {$a}."
+msgstr ""
+
+#: $string['stackCas_unencpsulated_comma']
+msgid ""
+"A comma in your expression appears in a strange way.  Commas are used to "
+"separate items in lists, sets etc.  You need to use a decimal point, not a "
+"comma, in floating point numbers."
+msgstr ""
+
+#: $string['stackCas_unitssynonym']
+msgid "You appear to have units {$a->forbid}.  Did you mean {$a->unit}?"
+msgstr ""
+
+#: $string['stackCas_unknownFunction']
+msgid "Unknown function: {$a->forbid}."
+msgstr ""
+
+#: $string['stackCas_unknownFunctionCase']
+msgid ""
+"Input is case sensitive:  {$a->forbid} is an unknown function.  Did you mean "
+"{$a->lower}?"
+msgstr ""
+
+#: $string['stackCas_unknownUnitsCase']
+msgid ""
+"Input of units is case sensitive:  {$a->forbid} is an unknown unit. Did you "
+"mean one from the following list {$a->unit}?"
+msgstr ""
+
+#: $string['stackCas_unsupportedKeyword']
+msgid "Unsupported keyword: {$a->forbid}."
+msgstr ""
+
+#: $string['stackDoc_404']
+msgid "Error 404"
+msgstr ""
+
+#: $string['stackDoc_404message']
+msgid "File not found."
+msgstr ""
+
+#: $string['stackDoc_directoryStructure']
+msgid "Directory structure"
+msgstr ""
+
+#: $string['stackDoc_docs']
+msgid "STACK Documentation"
+msgstr ""
+
+#: $string['stackDoc_docs_desc']
+msgid "<a href=\"{$a->link}\">Documentation for STACK</a>: a local static wiki."
+msgstr ""
+
+#: $string['stackDoc_home']
+msgid "Documentation home"
+msgstr ""
+
+#: $string['stackDoc_index']
+msgid "Category index"
+msgstr ""
+
+#: $string['stackDoc_parent']
+msgid "Parent"
+msgstr ""
+
+#: $string['stackDoc_siteMap']
+msgid "Site map"
+msgstr ""
+
+#: $string['stackDoc_version']
+msgid "Your site is running STACK version {$a}."
+msgstr ""
+
+#: $string['stackHintOld']
+msgid ""
+"The CASText has old-style hint tags. These should now be in the form "
+"<pre>[[facts:tag]]</pre>"
+msgstr ""
+
+#: $string['stackInstall_input_intro']
+msgid ""
+"This page allows you to test how STACK interprets various inputs from a "
+"student.  This currently only checks with the most liberal settings, trying "
+"to adopt an informal syntax and insert stars.  <br />'V' columns record "
+"validity as judged by PHP and the CAS.  V1 = PHP valid, V2 = CAS valid."
+msgstr ""
+
+#: $string['stackInstall_input_title']
+msgid "A test suite for validation of student's input"
+msgstr ""
+
+#: $string['stackInstall_input_title_desc']
+msgid ""
+"The <a href=\"{$a->link}\">input-tests script</a> provides test cases of how "
+"STACK interprets mathematical expressions.  They are also useful to learn by "
+"example."
+msgstr ""
+
+#: $string['stackInstall_replace_dollars_desc']
+msgid ""
+"The <a href=\"{$a->link}\">fix maths delimiters script</a> can be used to "
+"replace old-style delimiters like <code>@...@</code>, <code>$...$</code> and "
+"<code>$$...$$</code> in your questions with the new recommended "
+"<code>{@...@}</code>, <code>\\(...\\)</code> and <code>\\[...\\]</code>."
+msgstr ""
+
+#: $string['stackInstall_testsuite_choose']
+msgid "Please choose an answer test."
+msgstr ""
+
+#: $string['stackInstall_testsuite_fail']
+msgid "Not all tests passed!"
+msgstr ""
+
+#: $string['stackInstall_testsuite_failures']
+msgid "Tests that failed"
+msgstr ""
+
+#: $string['stackInstall_testsuite_intro']
+msgid ""
+"This page allows you to test that the STACK answer tests are functioning "
+"correctly.  Note that only answer tests can be checked through the web "
+"interface.  Other Maxima commands need to be checked from the command line: "
+"see unittests.mac."
+msgstr ""
+
+#: $string['stackInstall_testsuite_pass']
+msgid "All tests passed!"
+msgstr ""
+
+#: $string['stackInstall_testsuite_title']
+msgid "A test suite for STACK Answer tests"
+msgstr ""
+
+#: $string['stackInstall_testsuite_title_desc']
+msgid ""
+"The <a href=\"{$a->link}\">answer-tests script</a> verifies that the answer "
+"tests are performing correctly. They are also useful to learn by example how "
+"each answer-test can be used."
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_AlgEquiv']
+msgid "AlgEquiv"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_CasEqual']
+msgid "CasEqual"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_CompSquare']
+msgid "CompletedSquare"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_Diff']
+msgid "Diff"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_EqualComAss']
+msgid "EqualComAss"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_Equiv']
+msgid "EquivReasoning"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_EquivFirst']
+msgid "EquivFirst"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_Expanded']
+msgid "Expanded"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_FacForm']
+msgid "FacForm"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_GT']
+msgid "Num-GT"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_GTE']
+msgid "Num-GTE"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_Int']
+msgid "Int"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_LowestTerms']
+msgid "LowestTerms"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_NumAbsolute']
+msgid "NumAbsolute"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_NumDecPlaces']
+msgid "NumDecPlaces"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_NumRelative']
+msgid "NumRelative"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_NumSigFigs']
+msgid "NumSigFigs"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_PartFrac']
+msgid "PartFrac"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_RegExp']
+msgid "RegExp"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_SameType']
+msgid "SameType"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_SigFigsStrict']
+msgid "SigFigsStrict"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_SingleFrac']
+msgid "SingleFrac"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_String']
+msgctxt "$string['stackOptions_AnsTest_values_String']"
+msgid "String"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_StringSloppy']
+msgid "StringSloppy"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_SubstEquiv']
+msgid "SubstEquiv"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_SysEquiv']
+msgid "SysEquiv"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_UnitsAbsolute']
+msgid "UnitsAbsolute"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_UnitsRelative']
+msgid "UnitsRelative"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_UnitsSigFigs']
+msgid "UnitsSigFigs"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_UnitsStrictAbsolute']
+msgid "UnitsStrictAbsolute"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_UnitsStrictRelative']
+msgid "UnitsStrictRelative"
+msgstr ""
+
+#: $string['stackOptions_AnsTest_values_UnitsStrictSigFigs']
+msgid "UnitsStrictSigFigs"
+msgstr ""
+
+#: $string['stackQuestion_noQuestionParts']
+msgid "This item has no question parts for you to answer."
+msgstr ""
+
+#: $string['stack:usediagnostictools']
+msgid "Use the STACK tools"
+msgstr ""
+
+#: $string['stop']
+msgid "[stop]"
+msgstr ""
+
+#: $string['strictsyntax']
+msgid "Strict syntax"
+msgstr ""
+
+#: $string['strictsyntax_help']
+msgid ""
+"Does the input have to be done using strict Maxima syntax?  If not, this "
+"increases the range of patterns which indicate missing *s on input, "
+"including any function application and scientific notation."
+msgstr ""
+
+#: $string['strictsyntax_link']
+msgid ""
+"%%WWWROOT%%"
+"/question/type/stack/doc/doc.php/Authoring/Inputs.md#Strict_Syntax"
+msgstr ""
+
+#: $string['strlengtherror']
+msgid "This string may not exceed 255 characters in length."
+msgstr ""
+
+#: $string['studentanswer']
+msgid "Student response"
+msgstr ""
+
+#: $string['studentValidation_invalidAnswer']
+msgid "This answer is invalid."
+msgstr ""
+
+#: $string['studentValidation_listofunits']
+msgid "The units found in your answer were: {$a}"
+msgstr ""
+
+#: $string['studentValidation_listofvariables']
+msgid "The variables found in your answer were: {$a}"
+msgstr ""
+
+#: $string['studentValidation_notes']
+msgid ""
+"This input is not assessed automatically by STACK.  You can use it to record "
+"working, or comments for the teacher."
+msgstr ""
+
+#: $string['studentValidation_yourLastAnswer']
+msgid "Your last answer was interpreted as follows: {$a}"
+msgstr ""
+
+#: $string['Subst']
+msgid ""
+"Your answer would be correct if you used the following substitution of "
+"variables. {$a->m0}"
+msgstr ""
+
+#: $string['switchtovariant']
+msgid "Switch to arbitrary variant"
+msgstr ""
+
+#: $string['syntaxattribute']
+msgid "Hint attribute"
+msgstr ""
+
+#: $string['syntaxattribute_help']
+msgid ""
+"The syntax hint will appear as an editable *value* or a non-editable "
+"*placeholder*."
+msgstr ""
+
+#: $string['syntaxattribute_link']
+msgctxt "$string['syntaxattribute_link']"
+msgid ""
+"%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Inputs.md#Syntax_Hint"
+msgstr ""
+
+#: $string['syntaxattributeplaceholder']
+msgid "Placeholder"
+msgstr ""
+
+#: $string['syntaxattributevalue']
+msgid "Value"
+msgstr ""
+
+#: $string['syntaxhint']
+msgid "Syntax hint"
+msgstr ""
+
+#: $string['syntaxhint_help']
+msgid ""
+"The syntax hint will appear in the answer box whenever this is left blank by "
+"the student."
+msgstr ""
+
+#: $string['syntaxhint_link']
+msgctxt "$string['syntaxhint_link']"
+msgid ""
+"%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Inputs.md#Syntax_Hint"
+msgstr ""
+
+#: $string['tans']
+msgid "TAns"
+msgstr ""
+
+#: $string['tans_help']
+msgid ""
+"This is the second argument to the answer test function.  In asymmetrical "
+"tests this is considered to be the \"teacher's answer\" although it may be any "
+"valid CAS expression, and may depend on the question variables or the "
+"feedback variables."
+msgstr ""
+
+#: $string['tansinvalid']
+msgid "TAns is invalid: {$a}"
+msgstr ""
+
+#: $string['tans_link']
+msgctxt "$string['tans_link']"
+msgid "%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Answer_tests.md"
+msgstr ""
+
+#: $string['tansrequired']
+msgid "TAns must not be empty."
+msgstr ""
+
+#: $string['teacheranswer']
+msgid "Teacher answer"
+msgstr ""
+
+#: $string['teacheranswershow']
+msgid ""
+"A correct answer is \\( {$a->display} \\), which can be typed in as follows: "
+"{$a->value}"
+msgstr ""
+
+#: $string['teacheranswershow_disp']
+msgid "A correct answer is {$a->display} ."
+msgstr ""
+
+#: $string['teacheranswershownotes']
+msgid "A correct answer is not provided for this input."
+msgstr ""
+
+#: $string['teachersanswer']
+msgid "Model answer"
+msgstr ""
+
+#: $string['teachersanswer_help']
+msgid ""
+"The teacher must specify a model answer for each input.  This must be a "
+"valid Maxima string, and may be formed from the question variables."
+msgstr ""
+
+#: $string['teachersanswer_link']
+msgid ""
+"%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Inputs.md#model_answer"
+msgstr ""
+
+#: $string['testcasexresult']
+msgid "Test case {$a->no} {$a->result}"
+msgstr ""
+
+#: $string['TEST_FAILED']
+msgid ""
+"The answer test failed to execute correctly: please alert your teacher. "
+"{$a->errors}"
+msgstr ""
+
+#: $string['TEST_FAILED_Q']
+msgid "The answer test failed to execute correctly: please alert your teacher."
+msgstr ""
+
+#: $string['testingquestion']
+msgid "Testing question {$a}"
+msgstr ""
+
+#: $string['testinputs']
+msgid "Test inputs"
+msgstr ""
+
+#: $string['testinputsimpwarning']
+msgid ""
+"Please note that test inputs are always <em>unsimplified</em> regardless of "
+"the question or PRT option setting.  Please use <tt>ev(...,simp)</tt> to "
+"simplify part or all of the test input expressions."
+msgstr ""
+
+#: $string['testoptions']
+msgid "Test options"
+msgstr ""
+
+#: $string['testoptions_help']
+msgid ""
+"This field enables answer tests to accept an option, e.g. a variable or a "
+"numerical precision."
+msgstr ""
+
+#: $string['testoptionsinvalid']
+msgid "The test options are invalid: {$a}"
+msgstr ""
+
+#: $string['testoptions_link']
+msgctxt "$string['testoptions_link']"
+msgid "%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Answer_tests.md"
+msgstr ""
+
+#: $string['testoptionsrequired']
+msgid "Test options are required for this test."
+msgstr ""
+
+#: $string['testpassesandfails']
+msgid "{$a->passes} passes and {$a->fails} failures."
+msgstr ""
+
+#: $string['testsuitecolerror']
+msgctxt "$string['testsuitecolerror']"
+msgid "CAS errors"
+msgstr ""
+
+#: $string['testsuitecolexpectedscore']
+msgid "Expected mark"
+msgstr ""
+
+#: $string['testsuitecolpassed']
+msgid "Passed?"
+msgstr ""
+
+#: $string['testsuitecolrawmark']
+msgid "Raw mark"
+msgstr ""
+
+#: $string['testsuitefail']
+msgid "Fail"
+msgstr ""
+
+#: $string['testsuitefeedback']
+msgid "Feedback"
+msgstr ""
+
+#: $string['testsuiteknownfail']
+msgid "Expected failure"
+msgstr ""
+
+#: $string['testsuiteknownfailmaths']
+msgid "Expected failure (maths)"
+msgstr ""
+
+#: $string['testsuitenotests']
+msgid "Number of tests: {$a->no}."
+msgstr ""
+
+#: $string['testsuitepass']
+msgid "Pass"
+msgstr ""
+
+#: $string['testsuiteteststook']
+msgid "Tests took {$a->time} seconds."
+msgstr ""
+
+#: $string['testsuiteteststookeach']
+msgid "Average per test: {$a->time} seconds."
+msgstr ""
+
+#: $string['testthisvariant']
+msgid "Switch to test this variant"
+msgstr ""
+
+#: $string['texdisplaystyle']
+msgid "Display-style equation"
+msgstr ""
+
+#: $string['texinlinestyle']
+msgid "Inline-style equation"
+msgstr ""
+
+#: $string['tidyquestion']
+msgid "Tidy question"
+msgstr ""
+
+#: $string['tidyquestionx']
+msgid "Rename the parts of question {$a}"
+msgstr ""
+
+#: $string['trig_degrees_radians_fact']
+msgid ""
+"\\[\n"
+"360^\\circ= 2\\pi \\hbox{ radians},\\quad\n"
+"1^\\circ={2\\pi\\over 360}={\\pi\\over 180}\\hbox{ radians}\n"
+"\\]\n"
+"\\[\n"
+"1 \\hbox{ radian} = {180\\over \\pi} \\hbox{ degrees}\n"
+"\\approx 57.3^\\circ\n"
+"\\]"
+msgstr ""
+
+#: $string['trig_degrees_radians_name']
+msgid "Degrees and Radians"
+msgstr ""
+
+#: $string['trig_standard_identities_fact']
+msgid ""
+"\\[\\sin(a\\pm b)\\ = \\  \\sin(a)\\cos(b)\\ \\pm\\  \\cos(a)\\sin(b)\\]\n"
+" \\[\\cos(a\\ \\pm\\ b)\\ = \\  \\cos(a)\\cos(b)\\ \\mp \\sin(a)\\sin(b)\\]\n"
+" \\[\\tan (a\\ \\pm\\ b)\\ = \\  {\\tan (a)\\ \\pm\\ \\tan (b)\\over1\\ \\mp\\ \\tan (a)\\tan "
+"(b)}\\]\n"
+" \\[ 2\\sin(a)\\cos(b)\\ = \\  \\sin(a+b)\\ +\\ \\sin(a-b)\\]\n"
+" \\[ 2\\cos(a)\\cos(b)\\ = \\  \\cos(a-b)\\ +\\ \\cos(a+b)\\]\n"
+" \\[ 2\\sin(a)\\sin(b) \\ = \\  \\cos(a-b)\\ -\\ \\cos(a+b)\\]\n"
+" \\[ \\sin^2(a)+\\cos^2(a)\\ = \\  1\\]\n"
+" \\[ 1+{\\rm cot}^2(a)\\ = \\  {\\rm cosec}^2(a),\\quad \\tan^2(a) +1 \\ = \\  "
+"\\sec^2(a)\\]\n"
+" \\[ \\cos(2a)\\ = \\  \\cos^2(a)-\\sin^2(a)\\ = \\  2\\cos^2(a)-1\\ = \\  "
+"1-2\\sin^2(a)\\]\n"
+" \\[ \\sin(2a)\\ = \\  2\\sin(a)\\cos(a)\\]\n"
+" \\[ \\sin^2(a) \\ = \\  {1-\\cos (2a)\\over 2}, \\qquad \\cos^2(a)\\ = \\  "
+"{1+\\cos(2a)\\over 2}\\]"
+msgstr ""
+
+#: $string['trig_standard_identities_name']
+msgid "Standard Trigonometric Identities"
+msgstr ""
+
+#: $string['trig_standard_values_fact']
+msgid ""
+"\\[\\sin(45^\\circ)={1\\over \\sqrt{2}}, \\qquad \\cos(45^\\circ) = {1\\over "
+"\\sqrt{2}},\\qquad\n"
+"\\tan( 45^\\circ)=1\n"
+"\\]\n"
+"\\[\n"
+"\\sin (30^\\circ)={1\\over 2}, \\qquad \\cos (30^\\circ)={\\sqrt{3}\\over 2},\\qquad\n"
+"\\tan (30^\\circ)={1\\over \\sqrt{3}}\n"
+"\\]\n"
+"\\[\n"
+"\\sin (60^\\circ)={\\sqrt{3}\\over 2}, \\qquad \\cos (60^\\circ)={1\\over 2},\\qquad\n"
+"\\tan (60^\\circ)={ \\sqrt{3}}\n"
+"\\]"
+msgstr ""
+
+#: $string['trig_standard_values_name']
+msgid "Standard Trigonometric Values"
+msgstr ""
+
+#: $string['true']
+msgid "True"
+msgstr ""
+
+#: $string['truebranch']
+msgid "True branch"
+msgstr ""
+
+#: $string['truebranch_help']
+msgid ""
+"These fields control what happens when the answer test passes\n"
+"### Mod and score\n"
+"How the score is adjusted. = means set the score to a particular values, +/- "
+"means add or subtract the given score from the current total.\n"
+"\n"
+"### Penalty\n"
+"In adaptive or interactive mode, accumulate that much penalty.\n"
+"\n"
+"### Next\n"
+"Whether to go to another node, and if so which, or stop.\n"
+"\n"
+"### Answer note\n"
+"This is a tag which is key for reporting purposes.  It is designed to record "
+"the unique path through the tree, and the outcome of each answer test.  "
+"This is automatically generated, but can be changed to something meaningful."
+msgstr ""
+
+#: $string['undeploy']
+msgid "Un-deploy"
+msgstr ""
+
+#: $string['unrecognisedfactstags']
+msgid "The following facts tag(s) are not recognized: {$a->tags}."
+msgstr ""
+
+#: $string['Variable_function']
+msgid ""
+"The following appear in your expression as both a variable and a function: "
+"{$a->m0}.  Please clarify your input.  Either insert <code>*</code> symbols "
+"to remove functions, or make all occurances functions."
+msgstr ""
+
+#: $string['variant']
+msgid "Variant"
+msgstr ""
+
+#: $string['variantsselectionseed']
+msgid "Random group"
+msgstr ""
+
+#: $string['variantsselectionseed_help']
+msgid ""
+"Normally you can leave this box blank. If, however, you want two different "
+"questions in a quiz to use the same random seed, then type the same string "
+"in this box for the two questions (and deploy the same set of random seeds, "
+"if you are using deployed versions) and the random seeds for the two "
+"questions will be synchronised."
+msgstr ""
+
+#: $string['verifyquestionandupdate']
+msgid "Verify the question text and update the form"
+msgstr ""
+
+#: $string['youmustconfirm']
+msgid "You must confirm here."
+msgstr ""

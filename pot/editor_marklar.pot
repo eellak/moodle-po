@@ -1,0 +1,163 @@
+#. extracted from lang/en/editor_marklar.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'editor_marklar', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   editor_marklar
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['insertimage']
+msgid "Insert image"
+msgstr ""
+
+#: $string['insertlink']
+msgid "Insert file"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Marklar"
+msgstr ""
+
+#: $string['preferences']
+msgid "Marklar editor preferences"
+msgstr ""
+
+#: $string['preferencesformat']
+msgid "Additional text formats to be also edited with Marklar"
+msgstr ""
+
+#: $string['preferencesformat_help']
+msgid ""
+"Marklar natively supports Markdown formatted texts. It can be also used for "
+"editing texts in other formats. Select all additional text formats you want "
+"to edit with Marklar, too.\n"
+"\n"
+"By default, Marklar is used for Moodle auto-format and Plain text formatted "
+"fields. For editing HTML, another rich text editor (such as Atto or TinyMCE) "
+"will be used."
+msgstr ""
+
+#: $string['previewloading']
+msgid "Loading preview…"
+msgstr ""
+
+#: $string['previewoff']
+msgid "Edit"
+msgstr ""
+
+#: $string['previewon']
+msgid "Preview"
+msgstr ""
+
+#: $string['syntax-format0']
+msgid ""
+"<p>Moodle auto-format allows to type text normally, as if you were sending a "
+"plain-text email. Line breaks will be retained. You can still embed an HTML "
+"code if you want to and it will be applied.</p>"
+msgstr ""
+
+#: $string['syntax-format1']
+msgid ""
+"<dl>\n"
+"<dt>Links</dt>\n"
+" <dd><code>&lt;a href=\"https://example.com\"&gt;Link "
+"text&lt;/a&gt;</code></dd>\n"
+"<dt>Emphasis and importance</dt>\n"
+" <dd><code>&lt;em&gt;Emphasized text&lt;/em&gt;</code></dd>\n"
+" <dd><code>&lt;strong&gt;Strongly important text&lt;/strong&gt;</code></dd>\n"
+"<dt>Headings</dt>\n"
+" <dd><code>&lt;h2&gt;Level 2&lt;/h2&gt;</code></dd>\n"
+" <dd><code>&lt;h3&gt;Level 3&lt;/h2&gt;</code></dd>\n"
+"<dt>Paragraphs and line breaks</dt>\n"
+" <dd><code>&lt;p&gt;Paragraph text&lt;/p&gt;</code></dd>\n"
+" <dd><code>Line&lt;br&gt;break</code></dd>\n"
+"</dl>"
+msgstr ""
+
+#: $string['syntax-format2']
+msgid ""
+"<p>This format is useful when you need to include lots of code or HTML that "
+"you want to be displayed exactly as you wrote it. It still translates spaces "
+"and new lines, but otherwise your text isn't touched.</p>"
+msgstr ""
+
+#: $string['syntax-format4']
+msgid ""
+"<dl>\n"
+"<dt>Links</dt>\n"
+" <dd><code>[link text](https://example.com)</code></dd>\n"
+" <dd><code>[link text](https://example.com \"Link title\")</code></dd>\n"
+"<dt>Emphasis and importance</dt>\n"
+" <dd><code>_Emphasized text_</code></dd>\n"
+" <dd><code>*Emphasized text*</code></dd>\n"
+" <dd><code>__Strongly important text__</code></dd>\n"
+" <dd><code>**Strongly important text**</code></dd>\n"
+"<dt>Headings</dt>\n"
+" <dd><code>## Level 2 ##</code></dd>\n"
+" <dd><code>### Level 3 ###</code></dd>\n"
+"<dt>Paragraphs and line breaks</dt>\n"
+" <dd>Paragraphs are separated by a blank line. For a line break, end a line "
+"with two or more spaces.</dd>\n"
+"<dt>Blockquotes</dt>\n"
+" <dd><code>&gt; Email-style of blockquoting</code></dd>\n"
+"<dt>Lists</dt>\n"
+" <dd><code>* Bullet list item</code></dd>\n"
+" <dd><code>1. Numbered list item</code></dd>\n"
+"<dt>Preformatted</dt>\n"
+" <dd><code>`function_name()`</code> (inline)</dd>\n"
+" <dd><code>&nbsp;&nbsp;&nbsp;code_block()</code> (indent with four "
+"spaces)</dd>\n"
+"<dt>Horizontal rule</dt>\n"
+" <dd><code>---</code></dd>\n"
+" <dd><code>***</code></dd>\n"
+"<dt>HTML</dt>\n"
+" <dd>For any markup that is not covered by Markdown syntax, simply use raw "
+"HTML.</dd>\n"
+" <dd><code>&lt;span class=\"label label-"
+"info\"&gt;Notice&lt;/span&gt;</code></dd>\n"
+" <dd><code>&lt;img class=\"img-responsive\" src=\"…\" alt=\"…\" /&gt;</code></dd>\n"
+"</dl>\n"
+"<hr>\n"
+"<p><a target=\"_blank\" "
+"href=\"https://daringfireball.net/projects/markdown/syntax\">Full Markdown "
+"syntax documentation</a></p>"
+msgstr ""
+
+#: $string['syntaxloading']
+msgid "Loading syntax help…"
+msgstr ""
+
+#: $string['syntaxoff']
+msgid "Hide syntax"
+msgstr ""
+
+#: $string['syntaxon']
+msgid "Show syntax"
+msgstr ""

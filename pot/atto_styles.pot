@@ -1,0 +1,133 @@
+#. extracted from lang/en/atto_styles.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'atto_styles', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   atto_styles
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['config']
+msgid "Styles configuration"
+msgstr ""
+
+#: $string['config_desc']
+msgid ""
+"Configuration for the styles widget for Atto in JSON format.\n"
+"<hr />\n"
+"For example:<br />\n"
+"{<br />\n"
+"&nbsp;&nbsp;&nbsp;&nbsp;\"title\": \"Blue box\",<br />\n"
+"&nbsp;&nbsp;&nbsp;&nbsp;\"type\": \"block\",<br />\n"
+"&nbsp;&nbsp;&nbsp;&nbsp;\"classes\": \"box blue\"<br />\n"
+"},{<br />\n"
+"&nbsp;&nbsp;&nbsp;&nbsp;\"title\": \"Red text\",<br />\n"
+"&nbsp;&nbsp;&nbsp;&nbsp;\"type\": \"inline\",<br />\n"
+"&nbsp;&nbsp;&nbsp;&nbsp;\"classes\": \"red\"<br />\n"
+"}<br />\n"
+"<hr />\n"
+"The <em>title</em> attribute defines the name for style within the Atto "
+"styles widget.<br />\n"
+"<br />\n"
+"A title can also support the Moodle multilang filter (if enabled), but "
+"additonal double-quotes will need to be escaped with a backslash.<br />\n"
+"Please have a look at the plugin’s README file for an example.<br />\n"
+"<hr />\n"
+"The <em>type</em> attribute can contain one of two values: \"block\" or "
+"\"inline\".<br />\n"
+"<br />\n"
+"\"block\" will create a div tag with the given class(es) and will act as a "
+"standard block level element. This will take over the current block level "
+"element and may apply to more than just the currently selected text.<br />\n"
+"<br />\n"
+"\"inline\" will create a span tag with the given class(es) and will act as a "
+"standard inline element. This will only apply to the currently selected "
+"text.\n"
+"<hr />\n"
+"The <em>classes</em> attribute takes the CSS class name which will be "
+"applied to the block / inline text.<br />\n"
+"<br />\n"
+"Multiple classes can be defined for each item, separated by a space. They "
+"will all be applied to the block / inline text.<br />\n"
+"<br />\n"
+"The CSS class definitions can't be made within this plugin. You will have to "
+"add your CSS class definitions to your theme or Moodle additional HTML "
+"settings.\n"
+"<hr />\n"
+"On Moodle installations with bootstrap-based themes (especially "
+"<em>Boost</em>, <em>More</em> and <em>Clean</em>, you can also create styles "
+"with bootstrap CSS classes instead of defining your own classes.\n"
+"<br /><br />\n"
+"For example:<br />\n"
+"{<br />\n"
+"&nbsp;&nbsp;&nbsp;&nbsp;\"title\": \"Success alert\",<br />\n"
+"&nbsp;&nbsp;&nbsp;&nbsp;\"type\": \"block\",<br />\n"
+"&nbsp;&nbsp;&nbsp;&nbsp;\"classes\": \"alert alert-success\"<br />\n"
+"},{<br />\n"
+"&nbsp;&nbsp;&nbsp;&nbsp;\"title\": \"Info badge\",<br />\n"
+"&nbsp;&nbsp;&nbsp;&nbsp;\"type\": \"inline\",<br />\n"
+"&nbsp;&nbsp;&nbsp;&nbsp;\"classes\": \"badge badge-info\"<br />\n"
+"},{<br />\n"
+"&nbsp;&nbsp;&nbsp;&nbsp;\"title\": \"Warning badge\",<br />\n"
+"&nbsp;&nbsp;&nbsp;&nbsp;\"type\": \"inline\",<br />\n"
+"&nbsp;&nbsp;&nbsp;&nbsp;\"classes\": \"badge badge-warning\"<br />\n"
+"}<br /><br />\n"
+"For more information about bootstrap classes, please visit the following "
+"links in the Bootstrap 2.3 documenation (for <em>Clean</em> and "
+"<em>More</em>):\n"
+"<ul>\n"
+"<li><a href=\"http://getbootstrap.com/2.3.2/components.html#labels-"
+"badges\">Bootstrap labels and badges</a></li>\n"
+"<li><a href=\"http://getbootstrap.com/2.3.2/components.html#alerts\">Bootstrap "
+"alerts</a></li>\n"
+"<li><a href=\"http://getbootstrap.com/2.3.2/components.html#misc\">Bootstrap "
+"helper classes</a></li>\n"
+"</ul>\n"
+"or in the Bootstrap 4 documenation (for <em>Boost</em>):\n"
+"<ul>\n"
+"<li><a href=\"http://v4-alpha.getbootstrap.com/components/badge/\">Bootstrap "
+"badges</a></li>\n"
+"<li><a href=\"http://v4-alpha.getbootstrap.com/components/alerts/\">Bootstrap "
+"alerts</a></li>\n"
+"<li><a href=\"http://v4-alpha.getbootstrap.com/utilities/\">Bootstrap "
+"utilities</a></li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['nostyle']
+msgid "No style"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Styles"
+msgstr ""
+
+#: $string['settings']
+msgid "Styles settings"
+msgstr ""

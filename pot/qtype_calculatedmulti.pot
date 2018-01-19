@@ -1,0 +1,75 @@
+#. extracted from lang/en/qtype_calculatedmulti.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qtype_calculatedmulti', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   qtype_calculatedmulti
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['answeroptions']
+msgid "Choice options"
+msgstr ""
+
+#: $string['answeroptions_help']
+msgid "The suggested choice formula is ...<strong>{={x}+..}</strong>..."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Calculated multichoice"
+msgstr ""
+
+#: $string['pluginnameadding']
+msgid "Adding a Calculated multichoice question"
+msgstr ""
+
+#: $string['pluginnameediting']
+msgid "Editing a Calculated multichoice question"
+msgstr ""
+
+#: $string['pluginname_help']
+msgid ""
+"Calculated multichoice questions are like multichoice questions which in "
+"their choice elements can be included numerical formula results using "
+"wildcards in curly brackets that are substituted with individual values when "
+"the quiz is taken. For example, if the question \"What is the area of a "
+"rectangle of length {l} and width {w}?\" one of the choice is {={l}*{w}} "
+"(where * denotes multiplication)."
+msgstr ""
+
+#: $string['pluginname_link']
+msgid "question/type/calculatedmulti"
+msgstr ""
+
+#: $string['pluginnamesummary']
+msgid ""
+"Calculated multichoice questions are like multichoice questions which choice "
+"elements can include formula results from numeric values that are selected "
+"randomly from a set when the quiz is taken."
+msgstr ""

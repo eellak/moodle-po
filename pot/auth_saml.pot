@@ -1,0 +1,407 @@
+#. extracted from lang/en/auth_saml.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'auth_saml', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   auth_saml
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['auth_saml_autologin']
+msgid "SAML automatic login"
+msgstr ""
+
+#: $string['auth_saml_autologin_description']
+msgid "Automatically redirect to SAML IdP without showing a login form."
+msgstr ""
+
+#: $string['auth_saml_course_field_id']
+msgid "Field used to identify a course"
+msgstr ""
+
+#: $string['auth_saml_course_field_id_description']
+msgid ""
+"We can map the SAML course with the Moodle Short name or with the Course ID "
+"number"
+msgstr ""
+
+#: $string['auth_saml_course_mapping_dsn']
+msgid "Course dsn"
+msgstr ""
+
+#: $string['auth_saml_course_mapping_sql']
+msgid "Course sql"
+msgstr ""
+
+#: $string['auth_saml_course_not_found']
+msgid "Course saml {\\$a->course} not found for the saml user {\\$a->user}\\n"
+msgstr ""
+
+#: $string['auth_saml_courses']
+msgid "SAML courses mapping"
+msgstr ""
+
+#: $string['auth_saml_courses_description']
+msgid "SAML attribute that contains courses data (default to schacUserStatus)"
+msgstr ""
+
+#: $string['auth_saml_courses_not_found']
+msgid ""
+"IdP returned a set of data that no contain the SAML courses mapping field "
+"({\\$a}). This field is required to enrol the user"
+msgstr ""
+
+#: $string['auth_saml_db_reset_button']
+msgid "Reset values to factory settings"
+msgstr ""
+
+#: $string['auth_saml_db_reset_error']
+msgid "Error resetting the saml plugin values"
+msgstr ""
+
+#: $string['auth_samldescription']
+msgid "Single sign-on using SimpleSAMLphp"
+msgstr ""
+
+#: $string['auth_saml_disable_debugdisplay']
+msgid ""
+"* Disable debugdisplay in order to hide errors in the login/enrollment "
+"process"
+msgstr ""
+
+#: $string['auth_saml_disablejit']
+msgid "Disable Just-in-time provisioning"
+msgstr ""
+
+#: $string['auth_saml_disablejit_description']
+msgid ""
+"Check it in order to disable the just-in-time provisioning. When JIT is "
+"disabled, account will be not created."
+msgstr ""
+
+#: $string['auth_saml_dosinglelogout']
+msgid "Single logout"
+msgstr ""
+
+#: $string['auth_saml_dosinglelogout_description']
+msgid ""
+"Check it to enable the single logout. This will log out you from Moodle, the "
+"identity provider and all connected service providers."
+msgstr ""
+
+#: $string['auth_saml_duplicated_lms_data']
+msgid "The following lms data is duplicated:"
+msgstr ""
+
+#: $string['auth_saml_duplicated_saml_data']
+msgid "The following saml data is duplicated:"
+msgstr ""
+
+#: $string['auth_saml_error_attribute_course_mapping']
+msgid ""
+"Error in attribute names (index) of course table mapping. Check "
+"externalcoursemappingsql syntax"
+msgstr ""
+
+#: $string['auth_saml_error_attribute_role_mapping']
+msgid ""
+"Error in attribute names (index) of role table mapping. Check "
+"externalrolemappingsql syntax"
+msgstr ""
+
+#: $string['auth_saml_error_authentication_process']
+msgid "Error in authentication process of {\\$a}"
+msgstr ""
+
+#: $string['auth_saml_errorbadhook']
+msgid "Incorrect SAML plugin hook file: {\\$a}"
+msgstr ""
+
+#: $string['auth_saml_errorbadlib']
+msgid "SimpleSAMLphp lib directory {\\$a} is not correct."
+msgstr ""
+
+#: $string['auth_saml_error_complete_user_data']
+msgid "Failed to complete user data of {\\$a}"
+msgstr ""
+
+#: $string['auth_saml_error_complete_user_login']
+msgid "Failed to complete user login of {\\$a}"
+msgstr ""
+
+#: $string['auth_saml_error_creating_course_mapping']
+msgid "Error creating course_mapping in moodle database"
+msgstr ""
+
+#: $string['auth_saml_error_creating_role_mapping']
+msgid "Error creating role_mapping in moodle database"
+msgstr ""
+
+#: $string['auth_saml_error_executing']
+msgid "Error executing"
+msgstr ""
+
+#: $string['auth_saml_error_executing_course_mapping_query']
+msgid "Error executing the course mapping query"
+msgstr ""
+
+#: $string['auth_saml_error_executing_role_mapping_query']
+msgid "Error executing the role mapping query"
+msgstr ""
+
+#: $string['auth_saml_error_role_not_found']
+msgid "Error when enrolling. Role {\\$a} not exist in Moodle"
+msgstr ""
+
+#: $string['auth_saml_errorsamlexternal']
+msgid ""
+"It states that the source mapping for the course and the role would be "
+"external and so you must specify all the parameters of the DSN and SQL "
+"queries."
+msgstr ""
+
+#: $string['auth_saml_errorsp_source']
+msgid "SimpleSAMLphp SP source {\\$a} is not correct"
+msgstr ""
+
+#: $string['auth_saml_form_error']
+msgid ""
+"There are some errors in the form. Please, see below for correcting them"
+msgstr ""
+
+#: $string['auth_saml_ignoreinactivecourses']
+msgid "Ignore Inactive"
+msgstr ""
+
+#: $string['auth_saml_ignoreinactivecourses_description']
+msgid ""
+"If not checked the plugin will unenroll the 'inactive' users from courses"
+msgstr ""
+
+#: $string['auth_saml_initialize_roles']
+msgid "Initialize role"
+msgstr ""
+
+#: $string['auth_saml_jit_not_active']
+msgid ""
+"User account {\\$a} does not exists and just-in-time provisioning is disabled"
+msgstr ""
+
+#: $string['auth_saml_logfile']
+msgid "Log file path"
+msgstr ""
+
+#: $string['auth_saml_logfile_description']
+msgid ""
+"Set a filename if you want log the SAML plugin errors in a different file "
+"that the syslog. (Use an absolute path or Moodle will save this file in the "
+"moodledata folder)."
+msgstr ""
+
+#: $string['auth_saml_loginusing']
+msgid "Login here using your username and password"
+msgstr ""
+
+#: $string['auth_saml_logo_info']
+msgid "SAML login description"
+msgstr ""
+
+#: $string['auth_saml_logo_info_description']
+msgid "Description that will be shown below the SAML login button."
+msgstr ""
+
+#: $string['auth_saml_logo_path']
+msgid "SAML image"
+msgstr ""
+
+#: $string['auth_saml_logo_path_description']
+msgid "Image path for the SAML login button."
+msgstr ""
+
+#: $string['auth_saml_mapping_dsn_description']
+msgid ""
+"Data Source Name string for connecting to the course/role mapping database.\n"
+"(dsn must be an absolute path in case you are using SQLite)"
+msgstr ""
+
+#: $string['auth_saml_mapping_dsn_examples']
+msgid ""
+"mysql://moodleuser:moodlepass@localhost/saml_course_mapping\n"
+"sqlite:/<path-to-db>/mapping.sqlite3\n"
+"oci8://user:pwd@host/sid\n"
+"postgresql7://user:pwd@host/sid"
+msgstr ""
+
+#: $string['auth_saml_mapping_external_warning']
+msgid ""
+"Note: When database of mappinng and moodle are of the same type, connection "
+"fail. So in this case better use the internal coursemapping mode and "
+"previously dump all data inside db manually"
+msgstr ""
+
+#: $string['auth_saml_mapping_sql_examples']
+msgid ""
+"SELECT field1 as lms_course_id, field2 as saml_course_id, field3 as "
+"saml_course_period FROM course_mapping\n"
+"SELECT field1 as lms_role, field2 as saml_role from role_mapping"
+msgstr ""
+
+#: $string['auth_saml_missed_data']
+msgid "The following data contain missed attributes:"
+msgstr ""
+
+#: $string['auth_saml_moodle_course_id_field_warning']
+msgid ""
+"Before add any course maping, decide what id field (course shortname or "
+"number id) gonna be used to identify the moodle course. Once decided save "
+"the form and then short name or number id will appear at the Moodle Course "
+"Id select. Take in mind that numberid is by default not required at moodle "
+"but you should provide it if that is your selected option (or a blank option "
+"will appear for this course). If you switch the value of the field used to "
+"identify a course after providing some mappings, those mappings will be "
+"ignored (but still stored on the database)"
+msgstr ""
+
+#: $string['auth_saml_not_authorize']
+msgid "{\\$a} has no active CAV course."
+msgstr ""
+
+#: $string['auth_saml_role_mapping_dsn']
+msgid "Role dsn"
+msgstr ""
+
+#: $string['auth_saml_role_mapping_sql']
+msgid "Role sql"
+msgstr ""
+
+#: $string['auth_saml_samlhookfile']
+msgid "Hook file path"
+msgstr ""
+
+#: $string['auth_saml_samlhookfile_description']
+msgid ""
+"Set a path if you want to use a hook file that contain your specific "
+"functions. The path can either be absolute or relative to your Moodle root "
+"directory."
+msgstr ""
+
+#: $string['auth_saml_samllib']
+msgid "SimpleSAMLphp library path"
+msgstr ""
+
+#: $string['auth_saml_samllib_description']
+msgid ""
+"Library path for the SimpleSAMLphp environment you want to use, e.g.: "
+"/var/www/sp/simplesamlphp/lib."
+msgstr ""
+
+#: $string['auth_saml_sp_source']
+msgid "SimpleSAMLphp SP source"
+msgstr ""
+
+#: $string['auth_saml_sp_source_description']
+msgid ""
+"Select the SP source you want to connect to Moodle. (Sources are in "
+"/config/authsources.php)."
+msgstr ""
+
+#: $string['auth_saml_sucess_creating_course_mapping']
+msgid "Table course_mapping created in moodle database"
+msgstr ""
+
+#: $string['auth_saml_sucess_creating_role_mapping']
+msgid "Table course_role created in moodle database"
+msgstr ""
+
+#: $string['auth_saml_supportcourses']
+msgid "SAML support courses"
+msgstr ""
+
+#: $string['auth_saml_supportcourses_description']
+msgid ""
+"Select Internal or External to have Moodle auto-enrol users in courses by "
+"the enrol/saml plugin. (Use External if your course/role mapping is in an "
+"external DB)."
+msgstr ""
+
+#: $string['auth_saml_syncusersfrom']
+msgid "Synchronize users from module"
+msgstr ""
+
+#: $string['auth_saml_syncusersfrom_description']
+msgid ""
+"Synchronize users into Moodle using another module. The users will be "
+"created with auth = 'saml', even though they are actually synchronized by "
+"another module.\n"
+"This allows you to create, update and delete users from for example LDAP, "
+"but log them in via SAML. Note that the module you wish to sync from must be "
+"enabled, and all sync settings should be controlled from that module, not "
+"from SAML.\n"
+"To run the synchronization, add auth/saml/cli/sync_users.php to your cron."
+msgstr ""
+
+#: $string['auth_samltitle']
+msgctxt "$string['auth_samltitle']"
+msgid "SAML Authentication"
+msgstr ""
+
+#: $string['auth_saml_username']
+msgid "SAML username mapping"
+msgstr ""
+
+#: $string['auth_saml_username_description']
+msgid ""
+"SAML attribute that is mapped to Moodle username - this defaults to "
+"eduPersonPrincipalName."
+msgstr ""
+
+#: $string['auth_saml_username_not_found']
+msgid ""
+"IdP returned a set of data that no contain the SAML username mapping field "
+"({\\$a}). This field is required to login"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "SAML Authentication"
+msgstr ""
+
+#: $string['pluginnotenabled']
+msgid "Plugin not enabled!"
+msgstr ""
+
+#: $string['syncfromnotenabled']
+msgid "No external plugin selected. SAML cannot synchronize users on its own."
+msgstr ""
+
+#: $string['unknownplugin']
+msgid ""
+"SAML does not know how to invoke the sync_users method of the specified "
+"plugin:"
+msgstr ""

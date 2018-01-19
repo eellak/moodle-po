@@ -1,0 +1,3495 @@
+#. extracted from lang/en/taskchain.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'taskchain', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   taskchain
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['abandoned']
+msgid "Abandoned"
+msgstr ""
+
+#: $string['activitycloses']
+msgid "TaskChain activity closes"
+msgstr ""
+
+#: $string['activitygrade']
+msgid "Activity grade"
+msgstr ""
+
+#: $string['activityname']
+msgid "Activity name"
+msgstr ""
+
+#: $string['activityopens']
+msgid "TaskChain activity opens"
+msgstr ""
+
+#: $string['added']
+msgid "Added"
+msgstr ""
+
+#: $string['addtaskchain_help']
+msgid ""
+"**No**\n"
+"Only one task will be added to the course\n"
+"\n"
+"**Yes**\n"
+"If the source file is a **task file**, it is treated as the start of a chain "
+"of tasks and all tasks in the chain will be added to the course with "
+"identical settings. Each task in the chain must have a link to the next file "
+"in the chain.\n"
+"\n"
+"If the source file is a **folder**, all recognizable tasks in the folder "
+"will be added to the course to form a chain of tasks with identical "
+"settings.\n"
+"\n"
+"If the source file is a **chain file**, such as a Hot Potatoes masher file "
+"or index.html, tasks listed in the chain file will be added to the course as "
+"a chain of tasks with identical settings."
+msgstr ""
+
+#: $string['addtasks']
+msgid "Add (more) tasks"
+msgstr ""
+
+#: $string['addtype']
+msgid "Files to be added"
+msgstr ""
+
+#: $string['addtypeauto']
+msgid "Detect automatically"
+msgstr ""
+
+#: $string['addtypechainfile']
+msgid "Add all files listed in selected file"
+msgstr ""
+
+#: $string['addtypechainfolder']
+msgid "Add all files in selected folder"
+msgstr ""
+
+#: $string['addtypechainfolders']
+msgid "Add all files in all folders"
+msgstr ""
+
+#: $string['addtype_help']
+msgid ""
+"Which files should be added as tasks?\n"
+"\n"
+"**Detect automatically**\n"
+": If a file is selected, then it is treated either as a **task file** at the "
+"start of a chain of tasks, or as **chain file** that contains a list files "
+"to be added. If no file is selected, all recognizeable files in the folder "
+"are added as tasks.\n"
+"\n"
+"**Add selected file only**\n"
+": Only the selected source file will be added to this activity as a task.\n"
+"\n"
+"**Add chain starting at selected file**\n"
+": The selected source file is assumed to be a **task file** at the start of "
+"a chain of tasks. All tasks in the chain will be added to this activity. "
+"Each task must have a link to the next task in the chain.\n"
+"\n"
+"**Add all files listed in selected file**\n"
+": The selected source file is assumed to be **chain file**, such as a Hot "
+"Potatoes masher file or index.html. Any tasks listed in the selected file "
+"will be added to this activity.\n"
+"\n"
+"**Add all files in selected folder**\n"
+": All recognizable task files in the source folder will be added to this "
+"activity.\n"
+"\n"
+"**Add all files in all folders**\n"
+": All recognizable task files in the source folder and all its subfolders "
+"will be added to this activity."
+msgstr ""
+
+#: $string['addtypetaskchain']
+msgid "Add chain starting at selected file"
+msgstr ""
+
+#: $string['addtypetaskfile']
+msgid "Add selected file only"
+msgstr ""
+
+#: $string['afterattempt']
+msgid "After attempt"
+msgstr ""
+
+#: $string['afterclose']
+msgid "After close"
+msgstr ""
+
+#: $string['aftertaskid']
+msgctxt "$string['aftertaskid']"
+msgid "After task"
+msgstr ""
+
+#: $string['aftertaskid_help']
+msgctxt "$string['aftertaskid_help']"
+msgid "After task"
+msgstr ""
+
+#: $string['allowfreeaccess']
+msgid "Allow free access"
+msgstr ""
+
+#: $string['allowfreeaccess_help']
+msgid ""
+"This setting specifies whether or not students are given free access to the "
+"tasks in this TaskChain.\n"
+"\n"
+"Once students have free access, they can access any task in the TaskChain, "
+"regardless of the tasks' pre-conditions and post-conditions.\n"
+"\n"
+"**No**\n"
+": The students will not be given free access to tasks in the TaskChain. In "
+"other words, access to the tasks will always be controlled by the tasks' "
+"pre-conditions and post-conditions.\n"
+"\n"
+"**Yes: Grades**\n"
+": The students will be given free access to the tasks in the TaskChain, once "
+"they have achieved the required grade\n"
+"\n"
+"**Yes: Attempts**\n"
+": The students will be given free access to the tasks in the TaskChain, once "
+"they have completed the required number of attempts."
+msgstr ""
+
+#: $string['allowpaste']
+msgid "Allow paste"
+msgstr ""
+
+#: $string['allowpaste_help']
+msgid ""
+"If this setting is enabled, students will be allowed to copy, paste and drag "
+"text into text input boxes."
+msgstr ""
+
+#: $string['allowresume']
+msgid "Allow resume"
+msgstr ""
+
+#: $string['allowresume_help']
+msgid ""
+"This setting specifies whether or not students can resume an attempt.\n"
+"\n"
+"**No**\n"
+": Attempts cannot be resumed.\n"
+"\n"
+"**Yes**\n"
+": Students will be given the choice to either resume any previous attempts "
+"that are still in progress, or start a new attempt.\n"
+"\n"
+"**Force**\n"
+": If there is a previous attempt that is still in progress, students will be "
+"forced to resume that attempt. Otherwise, they can start a new attempt."
+msgstr ""
+
+#: $string['allowreview']
+msgid "Allow review"
+msgstr ""
+
+#: $string['allowreview_help']
+msgid ""
+"If enabled, students may review their task attempts after the task is "
+"closed."
+msgstr ""
+
+#: $string['allpostconditions']
+msgid "All post-conditions"
+msgstr ""
+
+#: $string['allpreconditions']
+msgid "All pre-conditions"
+msgstr ""
+
+#: $string['answers']
+msgid "Answers"
+msgstr ""
+
+#: $string['answersshort']
+msgid "A"
+msgstr ""
+
+#: $string['anyattempts']
+msgid "Any attempts"
+msgstr ""
+
+#: $string['anygroup']
+msgid "Any group"
+msgstr ""
+
+#: $string['applydefaults']
+msgid "Apply selected default values"
+msgstr ""
+
+#: $string['assessmenthdr']
+msgid "Assessment"
+msgstr ""
+
+#: $string['assessment_help']
+msgid ""
+"The assessment settings for TaskChain chains and tasks define the following:\n"
+"\n"
+"<ul>\n"
+"<li>how the task attempts are combined to form a single task score</li>\n"
+"<li>the contribution of the task score toward the grade for a single chain "
+"attempt</li>\n"
+"<li>how the chain attempt grades are combined to get a single chain "
+"grade</li>\n"
+"</ul>\n"
+"\n"
+"**Task attempt scores**\n"
+"The task attempt scores are normalized using the following calculation:\n"
+"\n"
+"<table border=\"0\"><tbody><tr>\n"
+"<td align=\"center\" valign=\"middle\">\n"
+"<tt>(attempt score - minimum score)</tt>\n"
+"<tt>------------------------------</tt><br \\>\n"
+"<tt>maximum score</tt>\n"
+"</td>\n"
+"<td align=\"center\" valign=\"middle\"><big><big> &nbsp; X &nbsp; "
+"</big></big></td>\n"
+"<td align=\"center\" valign=\"middle\">\n"
+"<tt>score limit</tt>\n"
+"<tt>-----------</tt><br \\>\n"
+"<tt>100</tt>\n"
+"</td>\n"
+"</tr></tbody></table>\n"
+"\n"
+"**Task score**\n"
+"Depending on the task's scoring method setting, the score for the task is "
+"set to the first, last, highest or average of the normalized task attempt "
+"scores.\n"
+"\n"
+"The task scores are then weighted using the following calculation:\n"
+"\n"
+"<table border=\"0\"><tbody><tr>\n"
+"<td align=\"center\" valign=\"middle\">\n"
+"<tt>task score</tt>\n"
+"</td>\n"
+"<td align=\"center\" valign=\"middle\"><big><big> &nbsp; X &nbsp; "
+"</big></big></td>\n"
+"<td align=\"center\" valign=\"middle\">\n"
+"<tt>score weighting</tt>\n"
+"<tt>--------------</tt><br \\>\n"
+"<tt>100</tt>\n"
+"</td>\n"
+"</tr></tbody></table>\n"
+"\n"
+"**Chain attempt grade**\n"
+"The chain attempt grade is set to the total, highest or last of the weighted "
+"task scores, depending on the chain's attempt grade method setting.\n"
+"\n"
+"**Chain grade**\n"
+"The grade for the chain is set to the first, last, highest or average chain "
+"attempt grade, depending on the chain's grade method setting.\n"
+"\n"
+"Finally, the grade is weighted according to the following calculation:\n"
+"\n"
+"<table border=\"0\"><tbody><tr>\n"
+"<td align=\"center\" valign=\"middle\">\n"
+"<tt>chain grade</tt>\n"
+"</td>\n"
+"<td align=\"center\" valign=\"middle\"><big><big> &nbsp; X &nbsp; "
+"</big></big></td>\n"
+"<td align=\"center\" valign=\"middle\">\n"
+"<tt>grade weighting</tt>\n"
+"<tt>-----------</tt><br \\>\n"
+"<tt>100</tt>\n"
+"</td>\n"
+"</tr></tbody></table>"
+msgstr ""
+
+#: $string['attemptcount']
+msgid "Attempt count"
+msgstr ""
+
+#: $string['attemptcount_help']
+msgid ""
+"If enabled, this setting specifies the maximum or minimum number of attempts "
+"which must satisfy the score and duration conditions.\n"
+"\n"
+"**>=** (greater than or equal to)\n"
+"The minimum number of attempts which must satisfy the score and duration "
+"conditions.\n"
+"\n"
+"**<=** (less than or equal to)\n"
+"The maximum number of attempts which must satisfy the score and duration "
+"conditions."
+msgstr ""
+
+#: $string['attemptdelay']
+msgid "Attempt delay"
+msgstr ""
+
+#: $string['attemptdelay_help']
+msgid ""
+"If enabled, this setting specifies the minimum or maximum delay since the "
+"attempts which satisfy the score and count conditions.\n"
+"\n"
+"**>=** (greater than or equal to)\n"
+"The minimum delay since the attempts which satisfy the score and count "
+"conditions.\n"
+"\n"
+"**<=** (less than or equal to)\n"
+"The maximum delay since attempts which satisfy the score and count "
+"conditions."
+msgstr ""
+
+#: $string['attemptduration']
+msgid "Attempt duration"
+msgstr ""
+
+#: $string['attemptduration_help']
+msgid ""
+"If enabled, this setting specifies the minimum or maximum duration for the "
+"attempts which satisfy the score and count conditions.\n"
+"\n"
+"**>=** (greater than or equal to)\n"
+"The minimum duration of attempts which must satisfy the score and count "
+"conditions.\n"
+"\n"
+"**<=** (less than or equal to)\n"
+"The maximum duration of attempts which must satisfy the score and count "
+"conditions."
+msgstr ""
+
+#: $string['attempted']
+msgid "Attempted"
+msgstr ""
+
+#: $string['attemptgrade']
+msgid "Attempt grade"
+msgstr ""
+
+#: $string['attemptgrademethod']
+msgid "Attempt grading method"
+msgstr ""
+
+#: $string['attemptgrademethod_help']
+msgid ""
+"This setting defines how the grade for a single attempt at this TaskChain "
+"activity is calculated.\n"
+"\n"
+"**Total**\n"
+": The attempt grade will be set to the sum of the weighted task scores.\n"
+"\n"
+"**Highest**\n"
+": The attempt grade will be set to highest weighted task score.\n"
+"\n"
+"**Last**\n"
+": The attempt grade will be set to the weighted score of the most recently "
+"attempted task.\n"
+"\n"
+"**Last (completed)**\n"
+": The attempt grade will be set to the weighted score of the most recently "
+"attempted task whose status is \"completed\". Other task scores will be "
+"ignored.\n"
+"\n"
+"**Last (timed out)**\n"
+": The attempt grade will be set to the weighted score of the most recently "
+"attempted task whose status is \"completed\" or \"timed out\". Other task scores "
+"will be ignored.\n"
+"\n"
+"**Last (abandoned)**\n"
+": The attempt grade will be set to the weighted score of the most recently "
+"attempted task whose status is \"completed\" or \"timed out\" or \"abandoned\". "
+"Tasks whose status is \"in progress\" will be ignored."
+msgstr ""
+
+#: $string['attemptlimit']
+msgid "Attempt limit"
+msgstr ""
+
+#: $string['attemptlimit_help']
+msgid ""
+"The maximum number of attempts a student may have at this TaskChain activity"
+msgstr ""
+
+#: $string['attemptnumber']
+msgid "Attempt number"
+msgstr ""
+
+#: $string['attempts']
+msgctxt "$string['attempts']"
+msgid "Attempts"
+msgstr ""
+
+#: $string['attemptsallowed']
+msgid "Attempts allowed"
+msgstr ""
+
+#: $string['attemptscore']
+msgid "Attempt score"
+msgstr ""
+
+#: $string['attemptshdr']
+msgid "Attempt restrictions"
+msgstr ""
+
+#: $string['attemptsunlimited']
+msgid "Unlimited attempts"
+msgstr ""
+
+#: $string['attempttasknow']
+msgid "Attempt task now"
+msgstr ""
+
+#: $string['attempttype']
+msgid "Attempt type"
+msgstr ""
+
+#: $string['attempttype_help']
+msgid ""
+"This setting specifies the type of attempts to be considered by the attempt "
+"count condition.\n"
+"\n"
+"**Any attempts**\n"
+"Any attempts will be considered.\n"
+"\n"
+"**Most recent attempts**\n"
+"Only the most recent attempts will be considered.\n"
+"\n"
+"**Consecutive attempts**\n"
+"Any block of consecutive attempts will be considered."
+msgstr ""
+
+#: $string['average']
+msgid "Average"
+msgstr ""
+
+#: $string['averagegrade']
+msgid "Average grade"
+msgstr ""
+
+#: $string['averagescore']
+msgid "Average score"
+msgstr ""
+
+#: $string['bodystyles']
+msgid "Body styles"
+msgstr ""
+
+#: $string['bodystylesbackground']
+msgid "Background color and image"
+msgstr ""
+
+#: $string['bodystylescolor']
+msgid "Text color"
+msgstr ""
+
+#: $string['bodystylesfont']
+msgid "Font size and family"
+msgstr ""
+
+#: $string['bodystylesmargin']
+msgid "Left and right margin"
+msgstr ""
+
+#: $string['cacherecords']
+msgid "TaskChain cache records"
+msgstr ""
+
+#: $string['cannotread']
+msgid "Cannot read file (or file is empty!): {$a}"
+msgstr ""
+
+#: $string['canrestartchain']
+msgid ""
+"Your results so far will be saved but if you want to redo this activity "
+"again later, you will have to start from the beginning."
+msgstr ""
+
+#: $string['canrestarttask']
+msgid "Your results so far will be saved and you can redo \"{$a}\" later"
+msgstr ""
+
+#: $string['canresumetask']
+msgid "Your results so far will be saved and you can resume \"{$a}\" later."
+msgstr ""
+
+#: $string['chain']
+msgid "TaskChain activity"
+msgstr ""
+
+#: $string['chainattempt']
+msgctxt "$string['chainattempt']"
+msgid "Chain attempt"
+msgstr ""
+
+#: $string['chainattemptnotinprogress']
+msgid "Chain attempt not in progress"
+msgstr ""
+
+#: $string['chainclosed']
+msgid "Sorry, this activity closed on {$a}"
+msgstr ""
+
+#: $string['chaingrade']
+msgid "Chain grade"
+msgstr ""
+
+#: $string['chainname_help']
+msgid ""
+"The name of this TaskChain activity that will be displayed on the course "
+"page"
+msgstr ""
+
+#: $string['chainnotavailable']
+msgid "Sorry this activity is not available to you until {$a}."
+msgstr ""
+
+#: $string['chainrequirepasswordmessage']
+msgid "To attempt this activity, you need to know the password."
+msgstr ""
+
+#: $string['checks']
+msgid "Checks"
+msgstr ""
+
+#: $string['checksomeboxes']
+msgid "Please check some boxes"
+msgstr ""
+
+#: $string['classreports']
+msgid "Class reports"
+msgstr ""
+
+#: $string['clearcache']
+msgid "Clear TaskChain cache"
+msgstr ""
+
+#: $string['cleardetails']
+msgid "Clear TaskChain details"
+msgstr ""
+
+#: $string['clearedcache']
+msgid "The TaskChain cache has been cleared"
+msgstr ""
+
+#: $string['cleareddetails']
+msgid "The TaskChain details have been cleared"
+msgstr ""
+
+#: $string['clickreporting']
+msgid "Enable click reporting"
+msgstr ""
+
+#: $string['clickreporting_help']
+msgid ""
+"If enabled, a separate record is kept each time a \"hint\", \"clue\" or \"check\" "
+"button is clicked. This allows the teacher to see a very detailed report "
+"showing the state of the task at each click. Otherwise, only one record per "
+"attempt at a task is kept."
+msgstr ""
+
+#: $string['clues']
+msgid "Clues"
+msgstr ""
+
+#: $string['cnumber']
+msgctxt "$string['cnumber']"
+msgid "Chain attempt"
+msgstr ""
+
+#: $string['columnlist']
+msgid "Column list {$a}"
+msgstr ""
+
+#: $string['columnlistid']
+msgid "Show columns"
+msgstr ""
+
+#: $string['columnlistid_help']
+msgid ""
+"This menu allows you to select which set of columns are shown on this page"
+msgstr ""
+
+#: $string['columnlistschain']
+msgid "All chain column lists"
+msgstr ""
+
+#: $string['columnlistschains']
+msgid "Column lists for editing chains"
+msgstr ""
+
+#: $string['columnliststask']
+msgid "All task column lists"
+msgstr ""
+
+#: $string['columnliststasks']
+msgid "Column lists for editing tasks"
+msgstr ""
+
+#: $string['completed']
+msgid "Completed"
+msgstr ""
+
+#: $string['completedalltasks_close']
+msgid ""
+"If you want to finish and close this attempt, click the button below.<br "
+"/>Note that you will not be able to redo tasks in this attempt after it has "
+"been closed."
+msgstr ""
+
+#: $string['completedalltasks_redo']
+msgid ""
+"If you want to redo one of the tasks in this activity, click the name of the "
+"task in the list below."
+msgstr ""
+
+#: $string['completedalltasks_title']
+msgid ""
+"Congratulations!<br />You have completed all the tasks in this activity."
+msgstr ""
+
+#: $string['completioncompleted']
+msgid "Require completed status"
+msgstr ""
+
+#: $string['completionmingrade']
+msgid "Require minimum grade"
+msgstr ""
+
+#: $string['completionpass']
+msgid "Require passing grade"
+msgstr ""
+
+#: $string['completionwarning']
+msgid ""
+"These fields are disabled if the grade limit for this activity is \"No grade\" "
+"or the grade weighting is \"No weighting\""
+msgstr ""
+
+#: $string['conditions']
+msgid "Conditions"
+msgstr ""
+
+#: $string['conditionscore']
+msgid "Condition score"
+msgstr ""
+
+#: $string['conditionscore_help']
+msgid ""
+"If enabled, this setting specifies the maximum or minimum score at which "
+"this condition is satisfied.\n"
+"\n"
+"**>=** (greater than or equal to)\n"
+"The minimum score at which this condition is satisfied\n"
+"\n"
+"**<=** (less than or equal to)\n"
+"The maximum score at which this condition is satisfied"
+msgstr ""
+
+#: $string['conditiontaskid']
+msgid "Condition task"
+msgstr ""
+
+#: $string['conditiontaskid_help']
+msgid ""
+"This setting specifies the task to which this pre-condition refers.\n"
+"\n"
+"**Previous task**\n"
+"This condition refers to the previous task in this chain,\n"
+"according to sort order.\n"
+"\n"
+"**Specific task**\n"
+"The teacher may also select a specific task to which this pre-condition "
+"refers.\n"
+"To avoid confusion caused by tasks with identical names,\n"
+"the task sort numbers are appended to the task names."
+msgstr ""
+
+#: $string['configbodystyles']
+msgid ""
+"By default, Moodle theme styles will override TaskChain activity styles. "
+"However, for any styles selected here, the TaskChain activity styles, "
+"including any styles defined in task source files such as Hot Potatoes "
+"files, will be given priority over the Moodle theme styles."
+msgstr ""
+
+#: $string['configenablecache']
+msgid ""
+"Maintaining a cache of TaskChain tasks can dramatically speed up the "
+"delivery of tasks to the students."
+msgstr ""
+
+#: $string['configenablecron']
+msgid ""
+"Specify the hours in your time zone at which the TaskChain cron script may "
+"run"
+msgstr ""
+
+#: $string['configenablemymoodle']
+msgid ""
+"This settings controls whether TaskChains are listed on the MyMoodle page or "
+"not"
+msgstr ""
+
+#: $string['configenableobfuscate']
+msgid ""
+"Obfuscating the text strings and URLs in javascript code makes it more "
+"difficult to guess answers by viewing the source of the HTML page in the "
+"browser."
+msgstr ""
+
+#: $string['configenableswf']
+msgid ""
+"Allow embedding of SWF files in TaskChain activities. If enabled, this "
+"setting overrides filter_mediaplugin_enable_swf."
+msgstr ""
+
+#: $string['configfile']
+msgid "Configuration file"
+msgstr ""
+
+#: $string['configfile_help']
+msgid ""
+"If specified, the configuration file will be used when the browser content "
+"is generated from the source file.\n"
+"\n"
+"The exact function of the configuration file depends on the output format, "
+"but generally the settings in the configuration will override those in the "
+"source file.\n"
+"\n"
+"By using the same configuration file for several tasks, the tasks can be "
+"made to share the same messages, color scheme, layout or behaviors.\n"
+"\n"
+"For **Hot Potatoes** tasks, the configuration file is a &quot;.cfg&quot; "
+"file. For **Qedoc** tasks, this setting is not used."
+msgstr ""
+
+#: $string['configfilenotfound']
+msgid "Config file not found: {$a}"
+msgstr ""
+
+#: $string['configframeheight']
+msgid ""
+"When a task is displayed within a frame, this value is the height (in "
+"pixels) of the top frame which contains the Moodle navigation bar."
+msgstr ""
+
+#: $string['configlocation']
+msgid "Configuration file location"
+msgstr ""
+
+#: $string['configlocation_help']
+msgid "The location of the configuration file."
+msgstr ""
+
+#: $string['configlockframe']
+msgid ""
+"If this setting is enabled, then the navigation frame, if used, will be "
+"locked so that it is not scrollable, not resizeable and has no border"
+msgstr ""
+
+#: $string['configmaxeventlength']
+msgid ""
+"If a TaskChain has both an open and a close time specified, and the "
+"difference between the two times is greater than the number of days "
+"specified here, then two separate calendar events will be added to the "
+"course calendar. For shorter durations, or when just one time is specified, "
+"only one calendar event will be added. If neither time is specified, no "
+"calendar event will be added."
+msgstr ""
+
+#: $string['configstoredetails']
+msgid ""
+"If this setting is enabled, then the raw XML details of attempts at "
+"TaskChain tasks will be stored in the taskchain_details table. This allows "
+"task attempts to be regraded in the future to reflect changes in the "
+"TaskChain task scoring system. However, enabling this option on a busy site "
+"will cause the taskchain_details table to grow very quickly."
+msgstr ""
+
+#: $string['confirmdeleteallpostconditions']
+msgid "Are you sure you want to delete ALL post-conditions?"
+msgstr ""
+
+#: $string['confirmdeleteallpreconditions']
+msgid "Are you sure you want to delete ALL pre-conditions?"
+msgstr ""
+
+#: $string['confirmdeleteattempts']
+msgid "Are you sure you want to delete the selected attempts?"
+msgstr ""
+
+#: $string['confirmdeletechainscolumnlist']
+msgid "Are you sure you want to delete this chain column list: {$a}"
+msgstr ""
+
+#: $string['confirmdeletechainscolumnlists']
+msgid "Are you sure you want to delete ALL chain column lists"
+msgstr ""
+
+#: $string['confirmdeletepostcondition']
+msgid "Are you sure you want to delete this post-condition?"
+msgstr ""
+
+#: $string['confirmdeleteprecondition']
+msgid "Are you sure you want to delete this pre-condition?"
+msgstr ""
+
+#: $string['confirmdeletetask']
+msgid "Are you sure you want to delete this task?"
+msgstr ""
+
+#: $string['confirmdeletetaskscolumnlist']
+msgid "Are you sure you want to delete this task column list: {$a}"
+msgstr ""
+
+#: $string['confirmdeletetaskscolumnlists']
+msgid "Are you sure you want to delete ALL task column lists"
+msgstr ""
+
+#: $string['confirmregradeattempts']
+msgid "Are you sure you want to regrade the selected attempts?"
+msgstr ""
+
+#: $string['confirmstop']
+msgid "Are you sure you want to navigate away from this page?"
+msgstr ""
+
+#: $string['consecutiveattempts']
+msgid "Consecutive attempts"
+msgstr ""
+
+#: $string['correct']
+msgid "Correct"
+msgstr ""
+
+#: $string['couldnotinsertsubmissionform']
+msgid "Could not insert submission form"
+msgstr ""
+
+#: $string['delay']
+msgid "Delay"
+msgstr ""
+
+#: $string['delay1']
+msgid "Delay 1"
+msgstr ""
+
+#: $string['delay1_help']
+msgid "The minimum delay between the first and second attempts."
+msgstr ""
+
+#: $string['delay1summary']
+msgid "Time delay between first and second attempt"
+msgstr ""
+
+#: $string['delay2']
+msgid "Delay 2"
+msgstr ""
+
+#: $string['delay2_help']
+msgid "The minimum delay between attempts after the second attempt."
+msgstr ""
+
+#: $string['delay2summary']
+msgid "Time delay between later attempts"
+msgstr ""
+
+#: $string['delay3']
+msgid "Delay 3"
+msgstr ""
+
+#: $string['delay3afterok']
+msgid "Wait till student clicks OK"
+msgstr ""
+
+#: $string['delay3disable']
+msgid "Do not continue automatically"
+msgstr ""
+
+#: $string['delay3_help']
+msgid ""
+"The setting specifies the delay between finishing the task and returning "
+"control of the display to Moodle.\n"
+"\n"
+"**Use specific delay**\n"
+": control will be returned to Moodle after the specified delay.\n"
+"\n"
+"**Use settings in source/template file**\n"
+": control will be returned to Moodle after the number of seconds specified "
+"in the source file or the template files for this output format.\n"
+"\n"
+"**Wait till student clicks OK**\n"
+": control will be returned to Moodle after the student clicks the OK button "
+"on the completion message in the task.\n"
+"\n"
+"**Do not continue automatically**\n"
+": control will not be returned to Moodle after the task is finished. The "
+"student will be free to navigate away from the task page.\n"
+"\n"
+"Note, the task results are always returned to Moodle immediately the task is "
+"completed or abandoned, regardless of this setting."
+msgstr ""
+
+#: $string['delay3specific']
+msgid "Use specific delay"
+msgstr ""
+
+#: $string['delay3summary']
+msgid "Time delay at the end of the task"
+msgstr ""
+
+#: $string['delay3template']
+msgctxt "$string['delay3template']"
+msgid "Use settings in source/template file"
+msgstr ""
+
+#: $string['deleteallattempts']
+msgid "Delete all attempts"
+msgstr ""
+
+#: $string['deleteallcolumnlistschain']
+msgid "Delete ALL chain column lists"
+msgstr ""
+
+#: $string['deleteallcolumnliststask']
+msgid "Delete ALL task column lists"
+msgstr ""
+
+#: $string['deleteallpostconditions']
+msgid "Delete ALL post-conditions"
+msgstr ""
+
+#: $string['deleteallpreconditions']
+msgid "Delete ALL pre-conditions"
+msgstr ""
+
+#: $string['deleteattempts']
+msgid "Delete attempts"
+msgstr ""
+
+#: $string['deletecolumnlistchain']
+msgid "Delete chain column list: $a"
+msgstr ""
+
+#: $string['deletecolumnlisttask']
+msgid "Delete task column list: $a"
+msgstr ""
+
+#: $string['deletepostcondition']
+msgid "Delete a post-condition"
+msgstr ""
+
+#: $string['deleteprecondition']
+msgid "Delete a pre-condition"
+msgstr ""
+
+#: $string['deletetasks']
+msgid "Delete selected tasks"
+msgstr ""
+
+#: $string['detailsrecords']
+msgid "TaskChain details records"
+msgstr ""
+
+#: $string['d_index']
+msgid "Discrimination index"
+msgstr ""
+
+#: $string['discarddetails']
+msgid "Discard details"
+msgstr ""
+
+#: $string['discarddetails_help']
+msgid ""
+"If this setting is set to \"Yes\", the XML details of each attempt at this "
+"task will be discarded, otherwise the XML details will be stored in the "
+"database for possible future reference"
+msgstr ""
+
+#: $string['duration']
+msgid "Duration"
+msgstr ""
+
+#: $string['duringattempt']
+msgid "During attempt"
+msgstr ""
+
+#: $string['editchains']
+msgid "Edit chains"
+msgstr ""
+
+#: $string['editcolumnlistschain']
+msgid "Edit columns for TaskChain Chains"
+msgstr ""
+
+#: $string['editcolumnliststask']
+msgid "Edit columns for TaskChain Tasks"
+msgstr ""
+
+#: $string['edittasks']
+msgid "Edit tasks"
+msgstr ""
+
+#: $string['enablecache']
+msgid "Enable TaskChain cache"
+msgstr ""
+
+#: $string['enablecron']
+msgid "Enable TaskChain cron"
+msgstr ""
+
+#: $string['enablemymoodle']
+msgid "Show TaskChains on MyMoodle"
+msgstr ""
+
+#: $string['enableobfuscate']
+msgid "Enable obfuscation of text and media players"
+msgstr ""
+
+#: $string['enableswf']
+msgid "Allow embedding of SWF files in TaskChain activities"
+msgstr ""
+
+#: $string['endofchain']
+msgid "End of chain"
+msgstr ""
+
+#: $string['entry_attempts']
+msgctxt "$string['entry_attempts']"
+msgid "Attempts"
+msgstr ""
+
+#: $string['entrycm']
+msgid "Previous activity"
+msgstr ""
+
+#: $string['entrycmcourse']
+msgid "Previous activity in this course"
+msgstr ""
+
+#: $string['entrycm_help']
+msgid ""
+"This setting specifies a Moodle activity and a minimum grade for that "
+"activity which must be achieved before this TaskChain activity can be "
+"attempted.\n"
+"\n"
+"The teacher can select a specific activity,\n"
+"or one of the following general purpose settings:\n"
+"\n"
+"* Previous activity in this course\n"
+"* Previous activity in this section\n"
+"* Previous graded activity in this course\n"
+"* Previous graded activity in this section\n"
+"* Previous TaskChain in this course\n"
+"* Previous TaskChain in this section"
+msgstr ""
+
+#: $string['entrycmsection']
+msgid "Previous activity in this course section"
+msgstr ""
+
+#: $string['entrycompletionwarning']
+msgid "Before you start this activity, you must look at {$a}."
+msgstr ""
+
+#: $string['entry_dates']
+msgid "Dates"
+msgstr ""
+
+#: $string['entrygrade']
+msgid "Previous activity grade"
+msgstr ""
+
+#: $string['entrygradedcourse']
+msgid "Previous graded activity in this course"
+msgstr ""
+
+#: $string['entrygradedsection']
+msgid "Previous graded activity in this course section"
+msgstr ""
+
+#: $string['entrygradewarning']
+msgid ""
+"You cannot start this activity until you score {$a->entrygrade}% on "
+"{$a->entryactivity}. Currently, your grade for that activity is "
+"{$a->usergrade}%"
+msgstr ""
+
+#: $string['entry_grading']
+msgid "Grading"
+msgstr ""
+
+#: $string['entryoptions']
+msgid "Entry page options"
+msgstr ""
+
+#: $string['entryoptions_help']
+msgid ""
+"These check boxes enable and disable the display of items on the TaskChain's "
+"entry page.\n"
+"\n"
+"**Chain name as title**\n"
+": if checked, the chain name will be displayed as the title of the entry "
+"page.\n"
+"\n"
+"**Grading**\n"
+": if checked, the TaskChain's grading information will be displayed on the "
+"entry page.\n"
+"\n"
+"**Dates**\n"
+": if checked, the TaskChain's open and close dates will be displayed on the "
+"entry page.\n"
+"\n"
+"**Attempts**\n"
+": if checked, a table showing details of a user's previous attempts at this "
+"TaskChain will be displayed on the entry page. Attempts that may be resumed "
+"will have a resume button displayed in the rightmost column."
+msgstr ""
+
+#: $string['entrypage']
+msgid "Show entry page"
+msgstr ""
+
+#: $string['entrypagehdr']
+msgid "Entry page"
+msgstr ""
+
+#: $string['entrypage_help']
+msgid ""
+"Should the students be shown an initial page before starting the TaskChain "
+"activity?\n"
+"\n"
+"**Yes**\n"
+": the students will be shown an entry page before starting the TaskChain. "
+"The contents of the entry page are determined by the TaskChain's entry page "
+"options.\n"
+"\n"
+"**No**\n"
+": the students will not be shown an entry page, and will start the TaskChain "
+"immediately.\n"
+"\n"
+"An entry page is always shown to the teacher, in order to provide access to "
+"the reports and edit tasks page"
+msgstr ""
+
+#: $string['entrytaskchaincourse']
+msgid "Previous TaskChain in this course"
+msgstr ""
+
+#: $string['entrytaskchainsection']
+msgid "Previous TaskChain in this course section"
+msgstr ""
+
+#: $string['entrytext']
+msgid "Entry page text"
+msgstr ""
+
+#: $string['entry_title']
+msgid "Chain name as title"
+msgstr ""
+
+#: $string['error_formhelperclassnotfound']
+msgid "Taskchain form helper class not found: {$a}"
+msgstr ""
+
+#: $string['error_formhelperfilenotfound']
+msgid "Taskchain form helper file not found: {$a}"
+msgstr ""
+
+#: $string['error_getprivateproperty']
+msgid ""
+"Cannot access private property, {$a->property}, of {$a->class} object "
+"directly. Use {$a->method} instead."
+msgstr ""
+
+#: $string['error_getunknownproperty']
+msgid "Cannot access unknown property, {$a->property}, of {$a->class} object."
+msgstr ""
+
+#: $string['error_insertrecord']
+msgid "Could not insert record in database table: {$a}"
+msgstr ""
+
+#: $string['error_missingclass']
+msgid "Object class could not be found: {$a}"
+msgstr ""
+
+#: $string['error_nocolumns']
+msgid "Please select some columns"
+msgstr ""
+
+#: $string['error_nocourseid']
+msgid "No course id"
+msgstr ""
+
+#: $string['error_nodatabaseinfo']
+msgid "No database info available"
+msgstr ""
+
+#: $string['error_noinputparameters']
+msgid "No input parameters"
+msgstr ""
+
+#: $string['error_norecordsfound']
+msgid "No records found"
+msgstr ""
+
+#: $string['error_recordclassnotfound']
+msgid "Taskchain record class not found: {$a}"
+msgstr ""
+
+#: $string['error_setprivateproperty']
+msgid ""
+"Cannot modify private property, {$a->property}, of {$a->class} object "
+"directly. Use {$a->method} instead."
+msgstr ""
+
+#: $string['error_setpropertydirectly']
+msgid ""
+"Cannot modify {$a->property} property of {$a->class} object directly. Use "
+"{$a->method} instead."
+msgstr ""
+
+#: $string['error_setunknownproperty']
+msgid "Cannot modify unknown property, {$a->property}, of {$a->class} object."
+msgstr ""
+
+#: $string['error_unrecognizedpageid']
+msgid "TaskChain pageid not recognized: {$a}"
+msgstr ""
+
+#: $string['error_updaterecord']
+msgid "Could not update record in database table: {$a}"
+msgstr ""
+
+#: $string['event_attempt_started']
+msgid "TaskChain attempt started"
+msgstr ""
+
+#: $string['event_attempt_started_description']
+msgid ""
+"The user with id \"{$a->userid}\" started an attempt at a task on the "
+"\"taskchain\" activity with course module id \"{$a->cmid}\""
+msgstr ""
+
+#: $string['event_attempt_started_explanation']
+msgid "A user has just started an attempt at a TaskChain activity"
+msgstr ""
+
+#: $string['event_attempt_submitted']
+msgid "TaskChain attempt submitted"
+msgstr ""
+
+#: $string['event_attempt_submitted_description']
+msgid ""
+"The user with id \"{$a->userid}\" submitted an attempt at a task on the "
+"\"taskchain\" activity with course module id \"{$a->cmid}\""
+msgstr ""
+
+#: $string['event_attempt_submitted_explanation']
+msgid "A user has just submitted an attempt at a TaskChain activity"
+msgstr ""
+
+#: $string['event_base']
+msgid "HotPot event detected"
+msgstr ""
+
+#: $string['event_base_description']
+msgid ""
+"The user with id \"{$a->userid}\" initiated an event in the \"taskchain\" "
+"activity with course module id \"{$a->cmid}\""
+msgstr ""
+
+#: $string['event_base_explanation']
+msgid "An event was  detected by the TaskChain module"
+msgstr ""
+
+#: $string['event_chains_edited']
+msgid "TaskChain chains edited"
+msgstr ""
+
+#: $string['event_chains_edited_description']
+msgid ""
+"The user with id \"{$a->userid}\" edited all TaskChain chains on the course "
+"with id \"{$a->courseid}\""
+msgstr ""
+
+#: $string['event_chains_edited_explanation']
+msgid "A user has just edited all the TaskChain chains on a course"
+msgstr ""
+
+#: $string['event_columnlists_edited']
+msgid "TaskChain column lists edited"
+msgstr ""
+
+#: $string['event_columnlists_edited_description']
+msgid ""
+"The user with id \"{$a->userid}\" edited column lists on the \"taskchain\" "
+"activity with course module id \"{$a->cmid}\""
+msgstr ""
+
+#: $string['event_columnlists_edited_explanation']
+msgid "A user has just edited the column lists for a TaskChain activity"
+msgstr ""
+
+#: $string['event_condition_edited']
+msgid "TaskChain condition edited"
+msgstr ""
+
+#: $string['event_condition_edited_description']
+msgid ""
+"The user with id \"{$a->userid}\" edited a condition on the \"taskchain\" "
+"activity with course module id \"{$a->cmid}\""
+msgstr ""
+
+#: $string['event_condition_edited_explanation']
+msgid "A user has just edited a condition on a TaskChain activity"
+msgstr ""
+
+#: $string['event_report_viewed']
+msgid "TaskChain report viewed"
+msgstr ""
+
+#: $string['event_report_viewed_description']
+msgid ""
+"The user with id \"{$a->userid}\" viewed a report on the \"taskchain\" activity "
+"with course module id \"{$a->cmid}\""
+msgstr ""
+
+#: $string['event_report_viewed_explanation']
+msgid "A user has just viewed a report on attempts at a TaskChain activity"
+msgstr ""
+
+#: $string['event_task_edited']
+msgid "TaskChain task edited"
+msgstr ""
+
+#: $string['event_task_edited_description']
+msgid ""
+"The user with id \"{$a->userid}\" edited a task on the \"taskchain\" activity "
+"with course module id \"{$a->cmid}\""
+msgstr ""
+
+#: $string['event_task_edited_explanation']
+msgid "A user has just edited a task on a TaskChain activity"
+msgstr ""
+
+#: $string['event_tasks_edited']
+msgid "TaskChain tasks edited"
+msgstr ""
+
+#: $string['event_tasks_edited_description']
+msgid ""
+"The user with id \"{$a->userid}\" edited all tasks on the \"taskchain\" activity "
+"with course module id \"{$a->cmid}\""
+msgstr ""
+
+#: $string['event_tasks_edited_explanation']
+msgid "A user has just edited all tasks on a TaskChain activity"
+msgstr ""
+
+#: $string['exit_areyouok']
+msgid "Hello, are you still there?"
+msgstr ""
+
+#: $string['exit_attemptscore']
+msgid "Your score for that attempt was {$a}"
+msgstr ""
+
+#: $string['exitcm']
+msgid "Next activity"
+msgstr ""
+
+#: $string['exitcmcourse']
+msgid "Next activity in this course"
+msgstr ""
+
+#: $string['exitcm_help']
+msgid ""
+"This setting specifies a Moodle activity to be done after this TaskChain "
+"activity is completed. The optional grade is the minimum grade for this "
+"TaskChain that is required for the next activity to be shown.\n"
+"\n"
+"The teacher can select a specific activity, or a one of the following "
+"general purpose settings:\n"
+"\n"
+"* Next activity in this course\n"
+"* Next activity in this section\n"
+"* Next graded activity in this course\n"
+"* Next graded activity in this section\n"
+"* Next TaskChain in this course\n"
+"* Next TaskChain in this section\n"
+"\n"
+"If other exit page options are disabled and the student has achieved the "
+"required grade on this TaskChain activity, the next activity will be shown "
+"straight away. Otherwise, the student will be shown a link to the next "
+"activity, which they can click when they are ready."
+msgstr ""
+
+#: $string['exitcmsection']
+msgid "Next activity in this course section"
+msgstr ""
+
+#: $string['exit_course']
+msgid "Course"
+msgstr ""
+
+#: $string['exit_course_text']
+msgid "Return to the main course page"
+msgstr ""
+
+#: $string['exit_encouragement']
+msgid "Encouragement"
+msgstr ""
+
+#: $string['exit_excellent']
+msgid "Excellent!"
+msgstr ""
+
+#: $string['exit_feedback']
+msgid "Exit page feedback"
+msgstr ""
+
+#: $string['exit_feedback_help']
+msgid ""
+"These options enable and disable the display of feedback items on a "
+"TaskChain's exit page.\n"
+"\n"
+"**Chain name as title**\n"
+": if checked, the chain name will be displayed as the title of the exit "
+"page.\n"
+"\n"
+"**Encouragement**\n"
+": if checked, some encouragement will displayed on the exit page. The "
+"encouragement depends on the TaskChain grade:\n"
+": **> 90%**: Excellent!\n"
+": **> 60%**: Well done\n"
+": **> 0%**: Good try\n"
+": **= 0%**: Are you OK?\n"
+"\n"
+"**Chain attempt grade**\n"
+": if checked, the grade for the chain attempt that has just been completed "
+"will be displayed on the exit page.\n"
+"\n"
+"**Chain grade**\n"
+": if checked the TaskChain grade will be displayed on the exit page.\n"
+"\n"
+"In addition, if the chain grading method is highest a message to tell the "
+"user if the most recent attempt was equal to or better than their previous "
+"will be displayed."
+msgstr ""
+
+#: $string['exit_goodtry']
+msgid "Good try!"
+msgstr ""
+
+#: $string['exitgrade']
+msgid "Next activity grade"
+msgstr ""
+
+#: $string['exitgradedcourse']
+msgid "Next graded activity in this course"
+msgstr ""
+
+#: $string['exitgradedsection']
+msgid "Next graded activity in this course section"
+msgstr ""
+
+#: $string['exit_grades']
+msgid "Grades"
+msgstr ""
+
+#: $string['exit_grades_text']
+msgid "Look at your grades so far for this course"
+msgstr ""
+
+#: $string['exit_index']
+msgid "Index"
+msgstr ""
+
+#: $string['exit_index_text']
+msgid "Go to the index of activities"
+msgstr ""
+
+#: $string['exit_links']
+msgid "Exit page links"
+msgstr ""
+
+#: $string['exit_links_help']
+msgid ""
+"These options enable and disable the display of certain navigation links on "
+"a TaskChain's exit page.\n"
+"\n"
+"**Retry**\n"
+": if multiple attempts are allowed at this TaskChain and the student still "
+"has some attempts left, a link to allow the student to retry the TaskChain "
+"will be displayed\n"
+"\n"
+"**Index**\n"
+": if checked, a link to the TaskChain index page will be displayed.\n"
+"\n"
+"**Course**\n"
+": if checked, a link to the Moodle course page will be displayed.\n"
+"\n"
+"**Grades**\n"
+": if checked, a link to the Moodle gradebook will be displayed."
+msgstr ""
+
+#: $string['exit_next']
+msgid "Next"
+msgstr ""
+
+#: $string['exit_next_text']
+msgid "Try the next activity"
+msgstr ""
+
+#: $string['exit_nograde']
+msgid "You have successfully completed this activity!"
+msgstr ""
+
+#: $string['exitoptions']
+msgid "Exit options"
+msgstr ""
+
+#: $string['exitpage']
+msgid "Show exit page"
+msgstr ""
+
+#: $string['exitpagehdr']
+msgid "Exit page"
+msgstr ""
+
+#: $string['exitpage_help']
+msgid ""
+"Should a exit page displayed after the TaskChain task has been completed?\n"
+"\n"
+"**Yes**\n"
+": the students will be shown an exit page when the TaskChain is completed. "
+"The contents of the exit page are determined by the settings for the "
+"TaskChain's exit page feedback and links.\n"
+"\n"
+"**No**\n"
+": the students will not be shown an exit page. Instead, they will either go "
+"immediately to the next activity or return to the Moodle course page."
+msgstr ""
+
+#: $string['exit_retry']
+msgid "Retry"
+msgstr ""
+
+#: $string['exit_retry_text']
+msgid "Retry this activity"
+msgstr ""
+
+#: $string['exittaskchaincourse']
+msgid "Next TaskChain in this course"
+msgstr ""
+
+#: $string['exit_taskchaingrade']
+msgid "Your grade for this activity is {$a}"
+msgstr ""
+
+#: $string['exit_taskchaingrade_average']
+msgid "Your average grade so far for this activity is {$a}"
+msgstr ""
+
+#: $string['exit_taskchaingrade_highest']
+msgid "Your highest grade so far for this activity is {$a}"
+msgstr ""
+
+#: $string['exit_taskchaingrade_highest_equal']
+msgid "You equalled your previous best for this activity!"
+msgstr ""
+
+#: $string['exit_taskchaingrade_highest_previous']
+msgid "Your previous highest grade for this activity was {$a}"
+msgstr ""
+
+#: $string['exit_taskchaingrade_highest_zero']
+msgid "You have not scored higher than {$a} for this activity yet"
+msgstr ""
+
+#: $string['exittaskchainsection']
+msgid "Next TaskChain in this course section"
+msgstr ""
+
+#: $string['exittext']
+msgid "Exit page text"
+msgstr ""
+
+#: $string['exit_welldone']
+msgid "Well done!"
+msgstr ""
+
+#: $string['exit_whatnext_0']
+msgid "What would you like to do next?"
+msgstr ""
+
+#: $string['exit_whatnext_1']
+msgid "Choose your destiny ..."
+msgstr ""
+
+#: $string['exit_whatnext_default']
+msgid "Please choose one of the following:"
+msgstr ""
+
+#: $string['feedback']
+msgid "Feedback"
+msgstr ""
+
+#: $string['feedbackdiscuss']
+msgid "Discuss this task in a forum"
+msgstr ""
+
+#: $string['feedbackformmail']
+msgid "Feedback form"
+msgstr ""
+
+#: $string['feedbackmoodleforum']
+msgid "Moodle forum"
+msgstr ""
+
+#: $string['feedbackmoodlemessaging']
+msgid "Moodle messaging"
+msgstr ""
+
+#: $string['feedbacknone']
+msgctxt "$string['feedbacknone']"
+msgid "None"
+msgstr ""
+
+#: $string['feedbacksendmessage']
+msgid "Send a message to your instructor"
+msgstr ""
+
+#: $string['feedbackshort']
+msgid "F"
+msgstr ""
+
+#: $string['feedbackwebpage']
+msgid "Web page"
+msgstr ""
+
+#: $string['filename']
+msgid "File name"
+msgstr ""
+
+#: $string['filetype']
+msgid "File type"
+msgstr ""
+
+#: $string['filteredchains']
+msgid "TaskChains matching the following filters:"
+msgstr ""
+
+#: $string['filteredtasks']
+msgid "Tasks matching the following filters:"
+msgstr ""
+
+#: $string['finishandclose']
+msgid "Finish and close this attempt"
+msgstr ""
+
+#: $string['firstattempt']
+msgid "First attempt"
+msgstr ""
+
+#: $string['fix_boms']
+msgid "Fix BOMs"
+msgstr ""
+
+#: $string['fix_installxml']
+msgid "Fix db/install.xml"
+msgstr ""
+
+#: $string['forceplugins']
+msgid "Force media plugins"
+msgstr ""
+
+#: $string['forceplugins_help']
+msgid ""
+"If enabled, Moodle-compatible media players will play files such as avi, "
+"mpeg, mpg, mp3, mov and wmv. Otherwise, Moodle will not change the settings "
+"of any media players in the task."
+msgstr ""
+
+#: $string['frameheight']
+msgid "Frame height"
+msgstr ""
+
+#: $string['giveup']
+msgid "Give Up"
+msgstr ""
+
+#: $string['grade']
+msgid "Grade"
+msgstr ""
+
+#: $string['gradeignore']
+msgctxt "$string['gradeignore']"
+msgid "Ignore voids"
+msgstr ""
+
+#: $string['gradeignore_help']
+msgid ""
+"This setting specifies whether void attempts, i.e. abandoned attempts with a "
+"grade of 0%, are ignored or included when students' grades for this "
+"TaskChain are calculated.\n"
+"\n"
+"**Yes**\n"
+": Void attempts are *ignored* during the calculation of grades for this "
+"TaskChain activity.\n"
+"\n"
+"**No**\n"
+": Void attempts are *not ignored*, that is to say they are *included* in the "
+"calculation of grades for this TaskChain activity.\n"
+"\n"
+"Void attempts occur when a student starts a TaskChain activity, but then "
+"does not attempt to answer an questions in any tasks, before leaving. Such "
+"attempts can have a significant impact on the grade when the grading method "
+"is Average, First or Last. In such situations, the teacher may decide that "
+"it is better to ignore the void attempts when the grade is calculated."
+msgstr ""
+
+#: $string['gradelimit']
+msgid "Grade limit"
+msgstr ""
+
+#: $string['gradelimit_help']
+msgid ""
+"The grades for chain attempts are scaled to fit in the range 0 to grade "
+"limit.\n"
+"\n"
+"The maximum grade for a TaskChain activity in the Moodle gradebook is "
+"calculated as follows:\n"
+"\n"
+": maximum grade x (grade weighting / 100)"
+msgstr ""
+
+#: $string['grademethod']
+msgid "Grading method"
+msgstr ""
+
+#: $string['grademethod_help']
+msgid ""
+"This setting defines how the TaskChain activity grade is calculated from the "
+"attempt grades.\n"
+"\n"
+"**Highest score**\n"
+": the activity grade will be set to the highest grade for an attempt at this "
+"TaskChain activity.\n"
+"\n"
+"**Average scsore**\n"
+": the grade will be set to the average grade for attempts at this TaskChain "
+"activity.\n"
+"\n"
+"**First attempt**\n"
+": the grade will be set to the grade of the first attempt at this TaskChain "
+"activity.\n"
+"\n"
+"**Last attempt**\n"
+": the grade will be set to the grade of the most recent attempt at this "
+"TaskChain activity."
+msgstr ""
+
+#: $string['gradeweighting']
+msgid "Grade weighting"
+msgstr ""
+
+#: $string['gradeweighting_help']
+msgid ""
+"Grades for this TaskChain activity will be scaled to this number in the "
+"Moodle gradebook."
+msgstr ""
+
+#: $string['groupid']
+msgid "Group"
+msgstr ""
+
+#: $string['groupid_help']
+msgid "The Moodle user group to which this condition applies"
+msgstr ""
+
+#: $string['guestsno']
+msgid "Sorry, guests cannot see or attempt TaskChain activities"
+msgstr ""
+
+#: $string['highestgrade']
+msgid "Highest grade"
+msgstr ""
+
+#: $string['highestscore']
+msgid "Highest score"
+msgstr ""
+
+#: $string['highesttaskscore']
+msgid "Highest task score"
+msgstr ""
+
+#: $string['hints']
+msgid "Hints"
+msgstr ""
+
+#: $string['ignored']
+msgid "Ignored"
+msgstr ""
+
+#: $string['incorrecttask']
+msgid "Incorrectly answered task"
+msgstr ""
+
+#: $string['inprogress']
+msgid "In progress"
+msgstr ""
+
+#: $string['isgreaterthan']
+msgid "is greater than"
+msgstr ""
+
+#: $string['islessthan']
+msgid "is less than"
+msgstr ""
+
+#: $string['lastaccess']
+msgid "Last access"
+msgstr ""
+
+#: $string['lastattempt']
+msgid "Last attempt"
+msgstr ""
+
+#: $string['lasttaskabandoned']
+msgid "Score of last abandoned task"
+msgstr ""
+
+#: $string['lasttaskattempted']
+msgid "Score of last attempted task"
+msgstr ""
+
+#: $string['lasttaskcompleted']
+msgid "Score of last completed task"
+msgstr ""
+
+#: $string['lasttasktimedout']
+msgid "Score of last timed out task"
+msgstr ""
+
+#: $string['lockframe']
+msgid "Lock frame"
+msgstr ""
+
+#: $string['manualcompletion']
+msgid "Manual completion"
+msgstr ""
+
+#: $string['manualcompletion_help']
+msgid ""
+"This setting determines the action to be taken when all tasks are complete "
+"but the post-conditions on the final task do _NOT_ specify what to do next.\n"
+"\n"
+"**No**\n"
+": After all tasks have been completed, the chain attempt will automatically "
+"be marked as completed and students will not be able to redo tasks.\n"
+"\n"
+"**Yes**\n"
+": After completing all tasks, students will be able to redo tasks and must "
+"manually click a button to finish a chain attempt."
+msgstr ""
+
+#: $string['maxeventlength']
+msgid "Maximum number of days for a single calendar event"
+msgstr ""
+
+#: $string['maximum']
+msgid "&lt;="
+msgstr ""
+
+#: $string['mediafilter_moodle']
+msgid "Moodle's standard media filters"
+msgstr ""
+
+#: $string['mediafilter_taskchain']
+msgid "TaskChain media filter"
+msgstr ""
+
+#: $string['menuofalltasks']
+msgid "Menu of all tasks"
+msgstr ""
+
+#: $string['menuofalltasksone']
+msgid "Menu of all tasks (one link)"
+msgstr ""
+
+#: $string['menuofnexttasks']
+msgid "Menu of next tasks"
+msgstr ""
+
+#: $string['menuofnexttasksone']
+msgid "Menu of next tasks (one link)"
+msgstr ""
+
+#: $string['migratingfiles']
+msgid "Migrating TaskChain task files"
+msgstr ""
+
+#: $string['migratinglogs']
+msgid "Migrating TaskChain logs"
+msgstr ""
+
+#: $string['minimum']
+msgid "&gt;="
+msgstr ""
+
+#: $string['missingsourcetype']
+msgid "TaskChain record is missing sourcetype"
+msgstr ""
+
+#: $string['mods_help']
+msgid ""
+"<img src=\"http://localhost/24/mod/taskchain/icon.gif\" alt=\"\" /> "
+"**TaskChain**\n"
+"\n"
+"The TaskChain module allows teachers to distribute interactive learning "
+"materials via Moodle and view details of the students' responses.\n"
+"The materials are created on the teacher's computer using authoring software "
+"such as\n"
+"<a href=\"http://web.uvic.ca/hrd/halfbaked/\" target=\"_blank\">Hot Potatoes</a> "
+"and\n"
+"<a href=\"http://www.qedoc.org/\" target=\"_blank\">Qedoc</a>, and then uploaded "
+"to the Moodle course.\n"
+"\n"
+"After students have attempted the tasks, a number of reports are available "
+"which show how individual questions were answered and some statistical "
+"trends in the scores."
+msgstr ""
+
+#: $string['modulename']
+msgid "TaskChain"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"The TaskChain module allows teachers to distribute interactive learning "
+"materials to their students via Moodle and view reports on the students' "
+"responses and results. .\n"
+"\n"
+"A single TaskChain activity consists of an optional entry page, a chain of "
+"tasks and an optional exit page. Each task may be a static web page or an "
+"interactive web page which offers students text, audio and visual prompts "
+"and records their responses. The tasks are created on the teacher's computer "
+"using authoring software and then uploaded to Moodle.\n"
+"\n"
+"The teacher can define learning paths through a chain by adding pre-"
+"conditions and post-conditions to the tasks. A task cannot be attempted "
+"until all the pre-conditions have been satisfied. After the task is "
+"finished, the post-conditions define what is displayed next to the student.\n"
+"\n"
+"A TaskChain activity can contain tasks created with the following authoring "
+"software:\n"
+"\n"
+"* Hot Potatoes (version 6)\n"
+"* Qedoc\n"
+"* Xerte\n"
+"* iSpring\n"
+"* any HTML editor"
+msgstr ""
+
+#: $string['modulename_link']
+msgid "mod/taskchain/view"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "TaskChains"
+msgstr ""
+
+#: $string['movetasks']
+msgid "Move selected tasks"
+msgstr ""
+
+#: $string['myattempts']
+msgid "My attempts"
+msgstr ""
+
+#: $string['name']
+msgctxt "$string['name']"
+msgid "Name"
+msgstr ""
+
+#: $string['nameadd']
+msgctxt "$string['nameadd']"
+msgid "Name"
+msgstr ""
+
+#: $string['nameadd_help']
+msgid ""
+"The name can be specfic text entered by the teacher or it can be "
+"automatically generated.\n"
+"\n"
+"**Get from source file**\n"
+"The name will be extracted from the source file.\n"
+"\n"
+"**Use source file name**\n"
+"The source file name will be used as the name.\n"
+"\n"
+"**Use source file path**\n"
+"The source file path will be used as the name.\n"
+"Any slashes in the file path will be replaced by spaces.\n"
+"\n"
+"**Specific text**\n"
+"The specific text entered by the teacher will be used as the name."
+msgstr ""
+
+#: $string['name_help']
+msgid "The specific text that is displayed to the students"
+msgstr ""
+
+#: $string['navigation']
+msgid "Navigation"
+msgstr ""
+
+#: $string['navigation_embed']
+msgid "Embedded web page"
+msgstr ""
+
+#: $string['navigation_frame']
+msgid "Moodle navigation frame"
+msgstr ""
+
+#: $string['navigation_give_up']
+msgid "A single &quot;Give Up&quot; button"
+msgstr ""
+
+#: $string['navigation_help']
+msgid ""
+"This setting specifies the navigation used in the task:\n"
+"\n"
+"**Moodle navigation bar**\n"
+": the Moodle navigation bar will be displayed in the same window as the task "
+"at the top of the page\n"
+"\n"
+"**Moodle navigation frame**\n"
+": the Moodle navigation bar will be displayed in a separate frame at the top "
+"of the task\n"
+"\n"
+"**Embedded web page**\n"
+": the Moodle navigation bar will be displayed with the task embedded within "
+"the window\n"
+"\n"
+"**Original navigation aids**\n"
+": the task will be displayed with the navigation buttons, if any, defined in "
+"the task\n"
+"\n"
+"**A single \"Give Up\" button**\n"
+": the task will be displayed with a single \"Give Up\" button at the top of "
+"the page\n"
+"\n"
+"**None**\n"
+": the task will be displayed without any navigation aids, so when all "
+"questions have been answered correctly, depending on the \"Show next task?\" "
+"setting, Moodle will either return to the course page or display the next "
+"task"
+msgstr ""
+
+#: $string['navigation_moodle']
+msgid "Standard Moodle navigation bars (top and side)"
+msgstr ""
+
+#: $string['navigation_none']
+msgctxt "$string['navigation_none']"
+msgid "None"
+msgstr ""
+
+#: $string['navigation_original']
+msgid "Original navigation aids"
+msgstr ""
+
+#: $string['navigation_topbar']
+msgid "Top Moodle navigation bar only (no side bars)"
+msgstr ""
+
+#: $string['next1task']
+msgctxt "$string['next1task']"
+msgid "Next task"
+msgstr ""
+
+#: $string['next2task']
+msgid "Skip next task"
+msgstr ""
+
+#: $string['next3task']
+msgid "Skip 2 tasks"
+msgstr ""
+
+#: $string['next4task']
+msgid "Skip 3 tasks"
+msgstr ""
+
+#: $string['next5task']
+msgid "Skip 4 tasks"
+msgstr ""
+
+#: $string['nexttaskid']
+msgctxt "$string['nexttaskid']"
+msgid "Next task"
+msgstr ""
+
+#: $string['nexttaskid_help']
+msgid ""
+"This setting specifies the task that is to be shown if the post-condition is "
+"satisfied.\n"
+"\n"
+"**Same task**\n"
+"Show the task that has just been completed\n"
+"\n"
+"**Next task**\n"
+"Show the next task in this chain, according to sort order\n"
+"\n"
+"**Skip task**\n"
+"Show the task after the next task, according to the sort order.\n"
+"\n"
+"**Previous task**\n"
+"Show the previous task in this chain, according to sort order.\n"
+"\n"
+"**Unseen task**\n"
+"Show a task from this chain that the current user has not seen yet.\n"
+"\n"
+"**Unanswered task**\n"
+"Show a task from this chain that the current user has not seen,\n"
+"or has seen but not yet made responses to any of the questions in the task.\n"
+"\n"
+"**Incorrectly answered task**\n"
+"Show a task which has not yet been answered correctly,\n"
+"i.e. a task for which the score is not 100%.\n"
+"\n"
+"**Random task**\n"
+"Show a random task from this chain.\n"
+"The task may already have been attempted.\n"
+"\n"
+"**Menu of next tasks**\n"
+"Show a menu of tasks from this chain that, according to the pre-conditions "
+"and other access restrictions for the tasks, are available to the student\n"
+"\n"
+"**Menu of all tasks**\n"
+"Show a menu of all tasks from this chain.\n"
+"Tasks are available to students will have links to the start of the task.\n"
+"Tasks that are not available will have no such link.\n"
+"\n"
+"**End of chain**\n"
+"The end of the chain has been reached. The status of the chain to will be "
+"set to completed and, depending on the chain's exit page settings, the "
+"student will be shown either the exit page, the next Moodle activity, or the "
+"Moodle course page.\n"
+"\n"
+"**Specific task**\n"
+"The teacher may also select a specific task as the next task.\n"
+"To avoid confusion caused by tasks with identical names,\n"
+"the task sort numbers are appended to the task names."
+msgstr ""
+
+#: $string['noactivity']
+msgid "No activity"
+msgstr ""
+
+#: $string['nograde']
+msgid "No grade"
+msgstr ""
+
+#: $string['nolastchainattempt']
+msgid "Previous chain attempt record not found"
+msgstr ""
+
+#: $string['nolasttaskattempt']
+msgid "Previous task attempt record not found"
+msgstr ""
+
+#: $string['nomorechainattempts']
+msgid "Sorry, you have no more attempts left at this activity"
+msgstr ""
+
+#: $string['nomoretaskattempts']
+msgid "Sorry, you have no more attempts left at this task"
+msgstr ""
+
+#: $string['noresponses']
+msgid "No information about individual questions and responses was found."
+msgstr ""
+
+#: $string['noreview']
+msgid "Sorry, you are not allowed to view details of this task attempt."
+msgstr ""
+
+#: $string['noreviewafterclose']
+msgid ""
+"Sorry, this task has closed. You are no longer allowed to view details of "
+"this task attempt."
+msgstr ""
+
+#: $string['noreviewbeforeclose']
+msgid "Sorry, you are not allowed to view details this task attempt until {$a}"
+msgstr ""
+
+#: $string['noscore']
+msgid "No score"
+msgstr ""
+
+#: $string['nosourcefilesettings']
+msgid "TaskChain record is missing source file information"
+msgstr ""
+
+#: $string['notaskchains']
+msgid "No TaskChains found"
+msgstr ""
+
+#: $string['notasksforyou']
+msgid "Sorry, there are no tasks for you to do right now."
+msgstr ""
+
+#: $string['notasksinchain']
+msgid "There are no tasks in this TaskChain chain"
+msgstr ""
+
+#: $string['notattemptedyet']
+msgid "Not attempted yet"
+msgstr ""
+
+#: $string['notavailable']
+msgid "Sorry, this activity is not currently available to you."
+msgstr ""
+
+#: $string['notendswith']
+msgid "doesn't end with"
+msgstr ""
+
+#: $string['notisempty']
+msgid "isn't empty"
+msgstr ""
+
+#: $string['notisequalto']
+msgid "isn't equal to"
+msgstr ""
+
+#: $string['notstartswith']
+msgid "doesn't start with"
+msgstr ""
+
+#: $string['or']
+msgid "or"
+msgstr ""
+
+#: $string['orless']
+msgid "{$a} (or less)"
+msgstr ""
+
+#: $string['ormore']
+msgid "{$a} (or more)"
+msgstr ""
+
+#: $string['outputformat']
+msgctxt "$string['outputformat']"
+msgid "Output format"
+msgstr ""
+
+#: $string['outputformat_best']
+msgid "Best"
+msgstr ""
+
+#: $string['outputformat_help']
+msgid ""
+"The output format specifies how the content will be presented to the "
+"student.\n"
+"\n"
+"The output formats that are available depend on the type of the source file. "
+"Some types of source file have just one output format, while other types of "
+"source file have several output formats.\n"
+"\n"
+"The \"best\" setting will display the content using the optimal output format "
+"for the student's browser."
+msgstr ""
+
+#: $string['outputformat_hp_6_jcloze_html']
+msgid "JCloze (v6) from html"
+msgstr ""
+
+#: $string['outputformat_hp_6_jcloze_html_findit_a']
+msgid "FindIt (a) from HP6 JCloze html"
+msgstr ""
+
+#: $string['outputformat_hp_6_jcloze_html_findit_b']
+msgid "FindIt (b) from HP6 JCloze html"
+msgstr ""
+
+#: $string['outputformat_hp_6_jcloze_xml_anctscan']
+msgid "ANCT-Scan from HP6 JCloze xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jcloze_xml_anctscan_autoadvance']
+msgid "ANCT-Scan from HP6 JCloze xml (Auto-advance)"
+msgstr ""
+
+#: $string['outputformat_hp_6_jcloze_xml_dropdown']
+msgid "DropDown from HP6 JCloze xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jcloze_xml_findit_a']
+msgid "FindIt (a) from HP6 JCloze xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jcloze_xml_findit_b']
+msgid "FindIt (b) from HP6 JCloze xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jcloze_xml_jgloss']
+msgid "JGloss from HP6 JCloze xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jcloze_xml_v6']
+msgid "JCloze (v6) from HP6 xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jcloze_xml_v6_autoadvance']
+msgid "JCloze (v6) from HP6 xml (Auto-advance)"
+msgstr ""
+
+#: $string['outputformat_hp_6_jcross_xml_v6']
+msgid "JCross (v6) from xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jmatch_html']
+msgid "JMatch (v6) from html"
+msgstr ""
+
+#: $string['outputformat_hp_6_jmatch_xml_flashcard']
+msgid "JMatch (flashcard) from xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jmatch_xml_jmemori']
+msgid "JMemori from xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jmatch_xml_sort']
+msgid "JMatch Sort from xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jmatch_xml_v6']
+msgid "JMatch (v6) from xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jmatch_xml_v6_plus']
+msgid "JMatch (v6+) from xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jmatch_xml_v6_plus_duplicates']
+msgid "JMatch (v6+) from xml (allow duplicates)"
+msgstr ""
+
+#: $string['outputformat_hp_6_jmix_html']
+msgid "JQuiz (v6) from html"
+msgstr ""
+
+#: $string['outputformat_hp_6_jmix_xml_v6']
+msgid "JMix (v6) from xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jmix_xml_v6_plus']
+msgid "JMix (v6+) from xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jmix_xml_v6_plus_deluxe']
+msgid "JMix (v6+ with prefix, suffix and distractors) from xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jmix_xml_v6_plus_keypress']
+msgid "JMix (v6+ with key press) from xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jquiz_xml_v6']
+msgid "JQuiz (v6) from xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jquiz_xml_v6_autoadvance']
+msgid "JQuiz (v6) from xml (Auto-advance)"
+msgstr ""
+
+#: $string['outputformat_hp_6_jquiz_xml_v6_exam']
+msgid "JQuiz (v6) from xml (Exam)"
+msgstr ""
+
+#: $string['outputformat_hp_6_jquiz_xml_v6_intro']
+msgid "JQuiz (v6) from xml (Intro)"
+msgstr ""
+
+#: $string['outputformat_hp_6_rhubarb_html']
+msgid "Rhubarb (v6) from html"
+msgstr ""
+
+#: $string['outputformat_hp_6_rhubarb_xml']
+msgid "Rhubarb (v6) from xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_sequitur_html']
+msgid "Sequitur (v6) from html"
+msgstr ""
+
+#: $string['outputformat_hp_6_sequitur_html_incremental']
+msgid "Sequitur (v6) from html, incremental scoring"
+msgstr ""
+
+#: $string['outputformat_hp_6_sequitur_xml']
+msgid "Sequitur (v6) from xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_sequitur_xml_incremental']
+msgid "Sequitur (v6) from xml, incremental scoring"
+msgstr ""
+
+#: $string['outputformat_html_ispring']
+msgid "iSpring HTML file"
+msgstr ""
+
+#: $string['outputformat_html_xerte']
+msgid "Xerte HTML file"
+msgstr ""
+
+#: $string['outputformat_html_xhtml']
+msgid "Standard HTML file"
+msgstr ""
+
+#: $string['outputformat_qedoc']
+msgid "Qedoc file"
+msgstr ""
+
+#: $string['passworderror']
+msgid "The password entered was incorrect"
+msgstr ""
+
+#: $string['penalties']
+msgid "Penalties"
+msgstr ""
+
+#: $string['pending']
+msgid "Pending completion"
+msgstr ""
+
+#: $string['percent']
+msgid "Percent"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "TaskChain administration"
+msgstr ""
+
+#: $string['pluginname']
+msgid "TaskChain module"
+msgstr ""
+
+#: $string['postcondition']
+msgid "Post-condition"
+msgstr ""
+
+#: $string['postconditions']
+msgid "Post-conditions"
+msgstr ""
+
+#: $string['postconditions_help']
+msgid ""
+"After finishing the task, the action of the *first* matching post-condition "
+"in this list will be taken."
+msgstr ""
+
+#: $string['precondition']
+msgid "Pre-condition"
+msgstr ""
+
+#: $string['preconditions']
+msgid "Pre-conditions"
+msgstr ""
+
+#: $string['preconditions_help']
+msgid ""
+"This task may only be taken if *all* the pre-conditions in this list are "
+"satisfied."
+msgstr ""
+
+#: $string['pressoktocontinue']
+msgid "Press OK to continue, or Cancel to stay on the current page."
+msgstr ""
+
+#: $string['preview']
+msgid "Preview"
+msgstr ""
+
+#: $string['previewchainnow']
+msgid "Preview TaskChain activity now"
+msgstr ""
+
+#: $string['previewtasknow']
+msgid "Preview task now"
+msgstr ""
+
+#: $string['previoustask']
+msgid "Previous task"
+msgstr ""
+
+#: $string['questionshort']
+msgid "Q-{$a}"
+msgstr ""
+
+#: $string['randomtask']
+msgid "Random task"
+msgstr ""
+
+#: $string['reattempttask']
+msgid "Re-attempt task"
+msgstr ""
+
+#: $string['recentattempts']
+msgid "Most recent attempts"
+msgstr ""
+
+#: $string['redo']
+msgid "Redo"
+msgstr ""
+
+#: $string['reordertasks']
+msgid "Reorder tasks"
+msgstr ""
+
+#: $string['requirepassword']
+msgid "Require password"
+msgstr ""
+
+#: $string['requirepassword_help']
+msgid ""
+"If a password is specified, a student must enter it in order to attempt the "
+"quiz."
+msgstr ""
+
+#: $string['requiresubnet']
+msgid "Require network address"
+msgstr ""
+
+#: $string['requiresubnet_help']
+msgid ""
+"Quiz access may be restricted to particular subnets on the LAN or Internet "
+"by specifying a comma-separated list of partial or full IP address numbers. "
+"This can be useful for an invigilated (proctored) quiz, to ensure that only "
+"people in a certain location can access the quiz."
+msgstr ""
+
+#: $string['responses']
+msgid "Responses"
+msgstr ""
+
+#: $string['responsesshort']
+msgid "R"
+msgstr ""
+
+#: $string['resume']
+msgid "Resume"
+msgstr ""
+
+#: $string['reviewafterattempt']
+msgid "Allow review after attempt"
+msgstr ""
+
+#: $string['reviewafterclose']
+msgid "Allow review after HotPot closes"
+msgstr ""
+
+#: $string['reviewduringattempt']
+msgid "Allow review during attempt"
+msgstr ""
+
+#: $string['reviewoptions']
+msgid "Review options"
+msgstr ""
+
+#: $string['sametask']
+msgid "Same task"
+msgstr ""
+
+#: $string['score']
+msgid "Score"
+msgstr ""
+
+#: $string['scoreignore']
+msgctxt "$string['scoreignore']"
+msgid "Ignore voids"
+msgstr ""
+
+#: $string['scoreignore_help']
+msgid ""
+"This setting specifies whether void attempts, i.e. abandoned attempts with a "
+"score of 0%, are ignored or included when students' scores for this task "
+"are calculated.\n"
+"\n"
+"**Yes**\n"
+"Void attempts are *ignored* during the calculation of scores for this task.\n"
+"\n"
+"**No**\n"
+"Void attempts are *not ignored*, that is to say they are *included*\n"
+"in the calculation of scores for this task.\n"
+"\n"
+"Void attempts occur when a student starts a task but then does not attempt "
+"to answer an questions before leaving the task. Such attempts can have a "
+"significant impact on the score when the scoring method is Average, First or "
+"Last. In such situations, the teacher may decide that it is better to "
+"ignore void attempts when the score is calculated."
+msgstr ""
+
+#: $string['scorelimit']
+msgid "Score limit"
+msgstr ""
+
+#: $string['scorelimit_help']
+msgid ""
+"This setting specifies the highest possible score for this task.\n"
+"All task attempts are assumed to be percentages and will be adjusted so that "
+"no task attempt score is greater than the task's score limit."
+msgstr ""
+
+#: $string['scoremethod']
+msgid "Scoring method"
+msgstr ""
+
+#: $string['scoremethod_help']
+msgid ""
+"This setting defines how the task score is calculated from the task "
+"attempts.\n"
+"\n"
+"**Highest**\n"
+"The task score will be set to the highest score for an attempt at this task.\n"
+"\n"
+"**Average**\n"
+"The task score will be set to the average score for attempts at this task.\n"
+"\n"
+"**First**\n"
+"The task score will be set to the score of the first attempt at this task.\n"
+"\n"
+"**Last**\n"
+"The task score will be set to the score of the most recent attempt at this "
+"task."
+msgstr ""
+
+#: $string['scores']
+msgid "Scores"
+msgstr ""
+
+#: $string['scoresshort']
+msgid "S"
+msgstr ""
+
+#: $string['scoreweighting']
+msgid "Score weighting"
+msgstr ""
+
+#: $string['scoreweighting_help']
+msgid ""
+"The score weighting is the contribution of the score for this task toward "
+"the chain grade attempt.\n"
+"\n"
+"If several tasks require equal weighting, then they should be given the same "
+"equal weighting category."
+msgstr ""
+
+#: $string['securityhdr']
+msgid "Security restrictions"
+msgstr ""
+
+#: $string['selectattempts']
+msgid "Select attempts"
+msgstr ""
+
+#: $string['selectedchains']
+msgid "Selected TaskChains in this course"
+msgstr ""
+
+#: $string['selectedtasks']
+msgid "Selected tasks in this TaskChain"
+msgstr ""
+
+#: $string['showdescription']
+msgid "Display description"
+msgstr ""
+
+#: $string['showdescription_help']
+msgid ""
+"If this setting is enabled, the entry text given below will appear on the "
+"course page as the description for this activity."
+msgstr ""
+
+#: $string['showerrormessage']
+msgid "TaskChain error: {$a}"
+msgstr ""
+
+#: $string['showpopup']
+msgctxt "$string['showpopup']"
+msgid "Window"
+msgstr ""
+
+#: $string['showpopup_help']
+msgid ""
+"**Same window**\n"
+"The TaskChain activity will be shown in the same window as the Moodle course "
+"page.\n"
+"\n"
+"**New window**\n"
+"The TaskChain activity will be shown in a popup window.\n"
+"Several features of the popup window can be enabled or disabled with check "
+"boxes.\n"
+"The required width and height of the popup window are specified as a number "
+"of pixels."
+msgstr ""
+
+#: $string['singlefieldhdr']
+msgid "Single field"
+msgstr ""
+
+#: $string['sortdirection']
+msgid "Sort direction"
+msgstr ""
+
+#: $string['sortdirection_help']
+msgid "The direction in which you wish to sort these records"
+msgstr ""
+
+#: $string['sortfield']
+msgid "Sort field"
+msgstr ""
+
+#: $string['sortfield_help']
+msgid "The field on which you wish to sort these records"
+msgstr ""
+
+#: $string['sortincrement']
+msgid "Sort increment"
+msgstr ""
+
+#: $string['sortincrement_help']
+msgid ""
+"When the tasks are reordered, the sort numbers will be incremented by the "
+"amount specified here"
+msgstr ""
+
+#: $string['sortorder']
+msgid "Sort order"
+msgstr ""
+
+#: $string['sortorder_help']
+msgid "The order of this task within this chain"
+msgstr ""
+
+#: $string['sourcefile']
+msgctxt "$string['sourcefile']"
+msgid "Source file"
+msgstr ""
+
+#: $string['sourcefile_help']
+msgid ""
+"This setting specifies the file containing the content that will be shown to "
+"the students.\n"
+"\n"
+"Usually the source file will have been created outside of Moodle, and then "
+"uploaded to the files area of a Moodle course.\n"
+"It may be an html file, or it may be another kind of file that has been "
+"created with authoring software such as Hot Potatoes or Qedoc.\n"
+"\n"
+"The source file may be specified as a folder and file path in the Moodle "
+"course files area, or it may be a url beginning with http:// or https://\n"
+"\n"
+"For Qedoc materials, the source file must be the url of a Qedoc module that "
+"has been uploaded to the Qedoc server.\n"
+"\n"
+"* e.g. http://www.qedoc.net/library/ABCDE_123.zip\n"
+"* For information about uploading Qedoc modules see: [Qedoc documentation: U"
+"ploading_modules](http://www.qedoc.org/en/index.php?title=Uploading_modules)"
+msgstr ""
+
+#: $string['sourcefilenotfound']
+msgid "Source file not found (or empty): {$a}"
+msgstr ""
+
+#: $string['sourcelocation']
+msgid "Source file location"
+msgstr ""
+
+#: $string['sourcelocation_help']
+msgid "The location of the source file."
+msgstr ""
+
+#: $string['sourcetype']
+msgid "Source file type"
+msgstr ""
+
+#: $string['sourcetype_help']
+msgid "The type of this source file"
+msgstr ""
+
+#: $string['startchainattempt']
+msgid "Start new chain attempt"
+msgstr ""
+
+#: $string['startofchain']
+msgid "Start of chain"
+msgstr ""
+
+#: $string['starttaskattempt']
+msgid "Start new task attempt"
+msgstr ""
+
+#: $string['status']
+msgid "Status"
+msgstr ""
+
+#: $string['stopbutton']
+msgid "Show stop button"
+msgstr ""
+
+#: $string['stopbutton_help']
+msgid ""
+"If this setting is enabled, a stop button will be inserted into the task.\n"
+"\n"
+"If a student clicks the stop button, the results so far will be returned to "
+"Moodle and the status of the task attempt will be set to abandoned.\n"
+"\n"
+"The text that is displayed on the stop button can be one of the preset "
+"phrases from Moodle's language packs, formatted as component_stringname "
+"(e.g. portfolio_returntowhereyouwere), or the teacher can specify their own, "
+"specific text for the button."
+msgstr ""
+
+#: $string['stopbuttonlangpack']
+msgid "From language pack"
+msgstr ""
+
+#: $string['stopbuttonspecific']
+msgctxt "$string['stopbuttonspecific']"
+msgid "Use specific text"
+msgstr ""
+
+#: $string['stoptext']
+msgid "Stop button text"
+msgstr ""
+
+#: $string['stoptext_help']
+msgid ""
+"This text is used if the \"Show stop button\" setting specifies \"Yes - Use "
+"specific text\""
+msgstr ""
+
+#: $string['storedetails']
+msgid "Store the raw XML details of TaskChain task attempts"
+msgstr ""
+
+#: $string['studentfeedback']
+msgid "Student feedback"
+msgstr ""
+
+#: $string['studentfeedback_help']
+msgid ""
+"If enabled, a link to a pop-up feedback window will be displayed whenever "
+"the student clicks on the \"Check\" button. The feedback window allows "
+"students to discuss this task with their teacher and classmates in one of "
+"the following ways:\n"
+"\n"
+"**Web page**\n"
+": requires URL of the web page, for example "
+"http://myserver.com/feedbackform.html\n"
+"\n"
+"**Feedback form**\n"
+": requires URL of the form script, for example http://myserver.com/cgi-"
+"bin/formmail.pl\n"
+"\n"
+"**Moodle forum**\n"
+": the forum index for the course will be displayed\n"
+"\n"
+"**Moodle messaging**\n"
+": the Moodle instant messaging window will be displayed. If the course has "
+"several teachers, the student will be prompted to select a teacher before "
+"the messaging window appears."
+msgstr ""
+
+#: $string['studentfeedbackurl']
+msgid "Student feedback URL"
+msgstr ""
+
+#: $string['submits']
+msgid "Submissions"
+msgstr ""
+
+#: $string['subplugintype_taskchainattempt']
+msgctxt "$string['subplugintype_taskchainattempt']"
+msgid "Output format"
+msgstr ""
+
+#: $string['subplugintype_taskchainattempt_plural']
+msgid "Output formats"
+msgstr ""
+
+#: $string['subplugintype_taskchainreport']
+msgid "Report"
+msgstr ""
+
+#: $string['subplugintype_taskchainreport_plural']
+msgid "Reports"
+msgstr ""
+
+#: $string['subplugintype_taskchainsource']
+msgctxt "$string['subplugintype_taskchainsource']"
+msgid "Source file"
+msgstr ""
+
+#: $string['subplugintype_taskchainsource_plural']
+msgid "Source files"
+msgstr ""
+
+#: $string['task']
+msgid "Task"
+msgstr ""
+
+#: $string['taskaction_help']
+msgid ""
+"These options specify what action will be taken when the \"Go\" button is "
+"clicked.\n"
+"\n"
+"**Reorder tasks**\n"
+": The tasks will be reordered according to the new sort numbers.\n"
+"\n"
+"**Add (more) tasks**\n"
+": A new web page will be displayed from where you can add one or more new "
+"tasks to this TaskChain activity.\n"
+"\n"
+"**Move tasks**\n"
+": The selected tasks will be moved to a different place in this TaskChain "
+"activity, or to another TaskChain activity.\n"
+"\n"
+"**Apply selected default values**\n"
+": The selected default values will be applied to the selected tasks.\n"
+"\n"
+"**Delete tasks**\n"
+": The selected tasks will be deleted from the TaskChain activity."
+msgstr ""
+
+#: $string['taskattempt']
+msgctxt "$string['taskattempt']"
+msgid "Task attempt"
+msgstr ""
+
+#: $string['taskattemptnotinprogress']
+msgid "Task attempt not in progress"
+msgstr ""
+
+#: $string['taskchain:addinstance']
+msgid "Add a new TaskChain activity"
+msgstr ""
+
+#: $string['taskchain:attempt']
+msgid "Attempt a TaskChain activity and submit results"
+msgstr ""
+
+#: $string['taskchain:deleteallattempts']
+msgid "Delete any user's attempts at a TaskChain activity"
+msgstr ""
+
+#: $string['taskchain:deletemyattempts']
+msgid "Delete your own attempts at a TaskChain activity"
+msgstr ""
+
+#: $string['taskchain:ignoretimelimits']
+msgid "Ignores time limits on a TaskChain activity"
+msgstr ""
+
+#: $string['taskchain:manage']
+msgid "Change the settings of a TaskChain activity"
+msgstr ""
+
+#: $string['taskchainname']
+msgid "TaskChain name"
+msgstr ""
+
+#: $string['taskchain:preview']
+msgid "Preview a TaskChain activity"
+msgstr ""
+
+#: $string['taskchain:regrade']
+msgid "Regrade a TaskChain activity"
+msgstr ""
+
+#: $string['taskchain:reviewallattempts']
+msgid "View any user's attempts at a TaskChain activity"
+msgstr ""
+
+#: $string['taskchain:reviewmyattempts']
+msgid "View your own attempts at a TaskChain activity"
+msgstr ""
+
+#: $string['taskchain:view']
+msgid "View the entry page of a TaskChain activity"
+msgstr ""
+
+#: $string['taskclosed']
+msgid "Sorry, this task closed on {$a}"
+msgstr ""
+
+#: $string['taskname']
+msgid "Task name"
+msgstr ""
+
+#: $string['tasknameadd_help']
+msgid ""
+"The task names can be derived from specfic text entered by the teacher or "
+"they can be automatically generated.\n"
+"\n"
+"**Get from source file**\n"
+"The task names will be extracted from the source files.\n"
+"\n"
+"**Use source file name**\n"
+"The source file names will be used as the task names.\n"
+"\n"
+"**Use source file path**\n"
+"The source file path of each task will be used as the name for that task.\n"
+"Any slashes in the file path will be replaced by spaces.\n"
+"\n"
+"**Specific text**\n"
+"A unique name for each task will be created by appending the task sort "
+"number to the specific text entered by the teacher."
+msgstr ""
+
+#: $string['taskname_help']
+msgid "help text for Task name"
+msgstr ""
+
+#: $string['tasknames']
+msgid "Task names"
+msgstr ""
+
+#: $string['tasknames_help']
+msgid ""
+"The task names can be derived from specfic text entered by the teacher or "
+"they can be automatically generated.\n"
+"\n"
+"**Get from source file**\n"
+": The task names will be extracted from the source files.\n"
+"\n"
+"**Use source file name**\n"
+": The source file names will be used as the task names.\n"
+"\n"
+"**Use source file path**\n"
+": The source file path of each task will be used as the name for that task. "
+"Any slashes in the file path will be replaced by spaces.\n"
+"\n"
+"**Specific text**\n"
+": A unique name for each task will be created by appending the task sort "
+"number to the specific text entered by the teacher."
+msgstr ""
+
+#: $string['tasknotavailable']
+msgid "Sorry this task is not available to you until {$a}."
+msgstr ""
+
+#: $string['taskposition']
+msgid "Task position"
+msgstr ""
+
+#: $string['taskrequirepasswordmessage']
+msgid "To attempt this task, you need to know the password."
+msgstr ""
+
+#: $string['tasks']
+msgid "Tasks"
+msgstr ""
+
+#: $string['taskscore']
+msgid "Task score"
+msgstr ""
+
+#: $string['tasktype']
+msgid "Task type"
+msgstr ""
+
+#: $string['textsourcefile']
+msgid "Get from source file"
+msgstr ""
+
+#: $string['textsourcefilename']
+msgid "Use source file name"
+msgstr ""
+
+#: $string['textsourcefilepath']
+msgid "Use source file path"
+msgstr ""
+
+#: $string['textsourcespecific']
+msgctxt "$string['textsourcespecific']"
+msgid "Use specific text"
+msgstr ""
+
+#: $string['textsourcetaskname']
+msgid "Use the task name"
+msgstr ""
+
+#: $string['timeclose']
+msgid "Available until"
+msgstr ""
+
+#: $string['timedout']
+msgid "Timed out"
+msgstr ""
+
+#: $string['timehdr']
+msgid "Time restrictions"
+msgstr ""
+
+#: $string['timelimit']
+msgid "Time limit"
+msgstr ""
+
+#: $string['timelimitexpired']
+msgid "The time limit for this attempt has expired"
+msgstr ""
+
+#: $string['timelimit_help']
+msgid ""
+"This setting specifies the maximum duration of a single attempt.\n"
+"\n"
+"**Use settings in source/template file**\n"
+": the time limit will be taken from the source file or the template files "
+"for this output format\n"
+"\n"
+"**Use specific time**\n"
+": the time limit specified on the TaskChain task settings page will be used "
+"as the time limit for an attempt at this task. This setting overrides time "
+"limits in the source file, configuration file, or template files for this "
+"output format.\n"
+"\n"
+"**Disable**\n"
+": no time limit will be set for attempts at this task.\n"
+"\n"
+"Note that if an attempt is resumed, the timer continues from where the "
+"attempt was previously paused."
+msgstr ""
+
+#: $string['timelimitspecific']
+msgid "Use specific time"
+msgstr ""
+
+#: $string['timelimitsummary']
+msgid "Time limit for one attempt"
+msgstr ""
+
+#: $string['timelimittemplate']
+msgctxt "$string['timelimittemplate']"
+msgid "Use settings in source/template file"
+msgstr ""
+
+#: $string['timeopen']
+msgid "Available from"
+msgstr ""
+
+#: $string['timeopenclose']
+msgid "Open and close times"
+msgstr ""
+
+#: $string['timeopenclose_help']
+msgid ""
+"You can specify times when the task is accessible for people to make "
+"attempts. Before the opening time, and after the closing time, the task will "
+"be unavailable."
+msgstr ""
+
+#: $string['title']
+msgid "Title"
+msgstr ""
+
+#: $string['titleappendsortorder']
+msgid "Append sort order"
+msgstr ""
+
+#: $string['title_help']
+msgid ""
+"This setting specifies the title to be displayed on the web page.\n"
+"\n"
+"**Use the task name**\n"
+": the task name, as defined on this page, will be displayed as the web page "
+"title.\n"
+"\n"
+"**Get from source file**\n"
+": the title, if any, defined in the source file will be used as the web page "
+"title. Note that this option is not efficient for the server, because the "
+"source file must be read every time the title is displayed.\n"
+"\n"
+"**Use source file name**\n"
+": the source file name, excluding any folder names, will be used as the web "
+"page title.\n"
+"\n"
+"**Use source file path**\n"
+": the source file path, including any folder names, will be used as the web "
+"page title.\n"
+"\n"
+"**Use specific text**\n"
+": the text in the textbox will be used as web page title."
+msgstr ""
+
+#: $string['titleprependchainname']
+msgid "Prepend chain name"
+msgstr ""
+
+#: $string['titletext']
+msgid "Title text"
+msgstr ""
+
+#: $string['titletext_help']
+msgid "This text is used if the \"Title\" setting is \"Use specific text\""
+msgstr ""
+
+#: $string['tnumber']
+msgctxt "$string['tnumber']"
+msgid "Task attempt"
+msgstr ""
+
+#: $string['toolsindex']
+msgid "TaskChain Tools index"
+msgstr ""
+
+#: $string['totaltaskscores']
+msgid "Total of task scores"
+msgstr ""
+
+#: $string['unansweredtask']
+msgid "Unanswered task"
+msgstr ""
+
+#: $string['unseentask']
+msgid "Unseen task"
+msgstr ""
+
+#: $string['updated']
+msgid "Updated"
+msgstr ""
+
+#: $string['updatinggrades']
+msgid "Updating TaskChain grades"
+msgstr ""
+
+#: $string['usefilters']
+msgid "Use filters"
+msgstr ""
+
+#: $string['usefilters_help']
+msgid ""
+"If this setting is enabled, the content will be passed through the Moodle "
+"filters before being sent to the browser."
+msgstr ""
+
+#: $string['useglossary']
+msgid "Use glossary"
+msgstr ""
+
+#: $string['useglossary_help']
+msgid ""
+"If this setting is enabled, the content will be passed through Moodle's "
+"Glossary Auto-linking filter before being sent to the browser.\n"
+"\n"
+"Note that this setting overrides the site administration setting to enable "
+"or disable the Glossary Auto-linking filter."
+msgstr ""
+
+#: $string['usemediafilter']
+msgid "Use media filter"
+msgstr ""
+
+#: $string['usemediafilter_help']
+msgid ""
+"This setting specifies the media filter to be used.\n"
+"\n"
+"**None**\n"
+": the content will not be passed through any media filters.\n"
+"\n"
+"**Moodle's standard media filters**\n"
+": the content will be passed through Moodle's standard media filters. These "
+"filters search for links to common types of sound and movie file, and "
+"convert those links to suitable media players.\n"
+"\n"
+"**TaskChain media filter**\n"
+": the content will be passed through filters which detect links, images, "
+"sounds and movies to be specified using a square bracket notation.\n"
+"\n"
+"The square-bracket notation has the following syntax:\n"
+"<code>[url player width height options]</code>\n"
+"\n"
+"**url**\n"
+": the relative or absolute url of the media file\n"
+"\n"
+"**player** (optional)\n"
+": the name of the player to be inserted. The default value for this setting "
+"is \"moodle\". The standard version of the TaskChain module also offers the "
+"following players:\n"
+": **dew**: an mp3 player\n"
+": **dyer**: mp3 player by Bernard Dyer\n"
+": **hbs**: mp3 player from Half-Baked Software\n"
+": **image**: insert an image into the web page\n"
+": **link**: insert a link to another web page\n"
+"\n"
+"**width** (optional)\n"
+": the required width of the player\n"
+"\n"
+"**height** (optional)\n"
+": the required height of the player. If omitted this value will be set to "
+"the same as the width setting.\n"
+"\n"
+"**options** (optional)\n"
+": a comma-separated list options to be passed to the player. Each option can "
+"be a simple on/off switch, or a name value pair.\n"
+": *name*\n"
+": *name=value*\n"
+": *name=\"some value with spaces\"*"
+msgstr ""
+
+#: $string['viewreports']
+msgid "View reports for {$a} user(s)"
+msgstr ""
+
+#: $string['views']
+msgid "Views"
+msgstr ""
+
+#: $string['weighting']
+msgid "Weighting"
+msgstr ""
+
+#: $string['weightingequal']
+msgid "Equal weighting"
+msgstr ""
+
+#: $string['weightingnone']
+msgid "No weighting"
+msgstr ""
+
+#: $string['window']
+msgctxt "$string['window']"
+msgid "Window"
+msgstr ""
+
+#: $string['windowdirectories']
+msgid "Show the directory links"
+msgstr ""
+
+#: $string['windowheight']
+msgid "Default window height (in pixels)"
+msgstr ""
+
+#: $string['window_help']
+msgid ""
+"Show the activity in the main Moodle window, or in a popup window.\n"
+"\n"
+"**Same window**\n"
+": The TaskChain activity will be shown in the same window as the Moodle "
+"course page.\n"
+"\n"
+"**New window**\n"
+": The TaskChain activity will be shown in a popup window. Several features "
+"of the popup window can be enabled or disabled with check boxes. The "
+"required width and height of the popup window are specified as a number of "
+"pixels."
+msgstr ""
+
+#: $string['windowlocation']
+msgid "Show the location bar"
+msgstr ""
+
+#: $string['windowmenubar']
+msgid "Show the menu bar"
+msgstr ""
+
+#: $string['windowmoodlebutton']
+msgid "Show button to close window"
+msgstr ""
+
+#: $string['windowmoodlefooter']
+msgid "Show Moodle page footer"
+msgstr ""
+
+#: $string['windowmoodleheader']
+msgid "Show Moodle page header"
+msgstr ""
+
+#: $string['windowmoodlenavbar']
+msgid "Show Moodle navigation bar"
+msgstr ""
+
+#: $string['windownew']
+msgid "New window"
+msgstr ""
+
+#: $string['windowresizable']
+msgid "Allow the window to be resized"
+msgstr ""
+
+#: $string['windowsame']
+msgid "Same window"
+msgstr ""
+
+#: $string['windowscrollbars']
+msgid "Allow the window to be scrolled"
+msgstr ""
+
+#: $string['windowstatus']
+msgid "Show the status bar"
+msgstr ""
+
+#: $string['windowtoolbar']
+msgid "Show the toolbar"
+msgstr ""
+
+#: $string['windowwidth']
+msgid "Default window width (in pixels)"
+msgstr ""
+
+#: $string['wrong']
+msgid "Wrong"
+msgstr ""
+
+#: $string['youneedtoenrol']
+msgid ""
+"You need to enrol in this course before you can attempt this TaskChain "
+"activity"
+msgstr ""
+
+#: $string['zeroduration']
+msgid "No duration"
+msgstr ""
+
+#: $string['zerograde']
+msgid "Zero grade"
+msgstr ""
+
+#: $string['zeroscore']
+msgid "Zero score"
+msgstr ""

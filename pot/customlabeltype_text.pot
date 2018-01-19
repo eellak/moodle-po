@@ -1,0 +1,100 @@
+#. extracted from lang/en/customlabeltype_text.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'customlabeltype_text', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   customlabeltype_text
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['configtypename']
+msgid "Enable subtype Simple Text"
+msgstr ""
+
+#: $string['family']
+msgid "generic"
+msgstr ""
+
+#: $string['initiallyvisible']
+msgid "Initally visible"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Course element: Simple Text"
+msgstr ""
+
+#: $string['readless']
+msgid "Read less..."
+msgstr ""
+
+#: $string['readmore']
+msgid "Read more..."
+msgstr ""
+
+#: $string['readmorecontent']
+msgid "Read more content"
+msgstr ""
+
+#: $string['template']
+msgid ""
+"<!-- standard default template for unclassed label. Don't change -->\n"
+"<div class=\"custombox-text\">\n"
+"<%%textcontent%%>\n"
+"</div>\n"
+"<%if %%readmorecontent%% %>\n"
+"<div class=\"custombox-text readmorelink\">\n"
+"    <a href=\"javascript:togglecustomstring('<%%customid%%>', 'Read more...', "
+"'Read less...')\" ><span id=\"customctl<%%customid%%>\"><%%initialstring%%"
+"></span></a>\n"
+"</div>\n"
+"<div class=\"custombox-text readmore\" id=\"custom<%%customid%%>\">\n"
+"<%%readmorecontent%%>\n"
+"</div>\n"
+"<%endif %>\n"
+"<script type=\"text/javascript\">\n"
+"setupcustomstring('<%%customid%%>', '<%%initiallyvisible%%>', 'Read "
+"more...', 'Read less...');\n"
+"</script>"
+msgstr ""
+
+#: $string['text:addinstance']
+msgid "Can add an instance"
+msgstr ""
+
+#: $string['textcontent']
+msgid "Content"
+msgstr ""
+
+#: $string['text:view']
+msgid "Can view the content"
+msgstr ""
+
+#: $string['typename']
+msgid "Simple Text"
+msgstr ""

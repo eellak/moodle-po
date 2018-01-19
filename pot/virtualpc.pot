@@ -1,0 +1,276 @@
+#. extracted from lang/en/virtualpc.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'virtualpc', language 'en', branch 'MOODLE_31_STABLE'
+#.  *
+#.  * @package   virtualpc
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['aboutuds']
+msgid ""
+"<center><a href=\"{$a->umaurl}\" target=_blank><img "
+"src=\"{$a->umalogo}\"/></a></center><br /><a href=\"{$a->umaurl}\" "
+"target=_blank>University of Malaga</a> has developed the open source Virtual "
+"PC module integrating Moodle and UDS.This integration is designed to "
+"simplify access to remote desktops from Moodle, providing a single login "
+"between the two systems, with easy creation and management of activities "
+"that allow access to different types of virtual computers.<br /><br /><em><a "
+"href=\"{$a->udsurl}\" target=_blank>UDS</a></em> is a multiplatform virtual "
+"computer connection broker for:<br /><ul><li>eLearning<br /><li>VDI: "
+"Managing and Deploying Windows and Linux Virtual Desktops<br /><li>Manage "
+"users access to IT resources in Data Center or Cloud<br /><li>Consolidation "
+"of user services using new or existing modules</ul><br /><p>UDS Enterprise "
+"is used in different sectors and production environments such as education, "
+"public administration, call center, insurance, remote offices, "
+"etc.</p><p>More than 10,000 virtual desktops Windows and Linux are managed "
+"and deployed with UDS Enterprise every day, providing simplicity and "
+"flexibility to the VDI systems of different companies and "
+"entities.</p><p>Visit <a href=\"{$a->udsurl}\" target=_blank>{$a->udsurl}</a> "
+" for information on support for businesses.</p>"
+msgstr ""
+
+#: $string['authsmallnameforactivity']
+msgid "UDS authenticator tag"
+msgstr ""
+
+#: $string['authsmallnameforadmin']
+msgid "Administrator user UDS authenticator tag"
+msgstr ""
+
+#: $string['configauthsmallnameforactivity']
+msgid ""
+"UDS authenticator tag where to create UDS users just before GOING from "
+"Moodle to UDS"
+msgstr ""
+
+#: $string['configauthsmallnameforadmin']
+msgid "UDS authenticator tag to which the administrator user belongs"
+msgstr ""
+
+#: $string['configfiltropool']
+msgid ""
+"Optional regular expression to filter from which UDS pools the teacher will "
+"be able to select when adding a Virtual PC activity"
+msgstr ""
+
+#: $string['configgroupname']
+msgid ""
+"Name of the group in the UDS authenticator where the users will be created"
+msgstr ""
+
+#: $string['configpassword']
+msgid "UDS user password with administrator permissions"
+msgstr ""
+
+#: $string['configport']
+msgid "Port for REST requests"
+msgstr ""
+
+#: $string['configurl']
+msgid "UDS server URL for REST requests (http[s]://hostname)"
+msgstr ""
+
+#: $string['configusername']
+msgid ""
+"This module will use this UDS user to do REST requests to the UDS server. It "
+"must have administrator permissions."
+msgstr ""
+
+#: $string['courseorinstanceid']
+msgid "You must specify a course_module ID or an instance ID"
+msgstr ""
+
+#: $string['errorconnection']
+msgid ""
+"Error connecting to Virtual PC UDS server: Try again later and, if the error "
+"remains, contact the moodle administrator"
+msgstr ""
+
+#: $string['eventvirtualpcjoined']
+msgid "VirtualPC joined"
+msgstr ""
+
+#: $string['filtropool']
+msgid "Pool filter regular expression"
+msgstr ""
+
+#: $string['groupname']
+msgid "Group name"
+msgstr ""
+
+#: $string['idpoolnotfound']
+msgid ""
+"Virtual PC type \"{$a->poolname}\" not found in UDS server. Contact Moodle "
+"administrator."
+msgstr ""
+
+#: $string['incorrectcourseid']
+msgid "Course Module ID was incorrect"
+msgstr ""
+
+#: $string['incorrectcoursemodule']
+msgid "Course module is incorrect"
+msgstr ""
+
+#: $string['joinvirtualpc']
+msgid "Access to Virtual PC"
+msgstr ""
+
+#: $string['maxusers']
+msgid "Maximum {$a} users"
+msgstr ""
+
+#: $string['misconfiguredcourse']
+msgid "Course is misconfigured"
+msgstr ""
+
+#: $string['modifiable']
+msgid "The teacher can change the virtual PC selected"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Virtual PC"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"<div class=\"indent\"><p><b>Virtual PC</b> It offers a virtual computer with "
+"an operating system and applications already installed selected by the "
+"teacher.</p><p>The module has been developed by the <a "
+"href=\"http://www.uma.es\" target=\"_blank\">Universidad de Málaga</a></p></div>"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Virtual PCs"
+msgstr ""
+
+#: $string['password']
+msgid "UDS administrator user password"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Virtual PC Administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Virtual PC"
+msgstr ""
+
+#: $string['poollabel']
+msgid "Select the virtual PC type:"
+msgstr ""
+
+#: $string['poollabel_help']
+msgid ""
+"Select the virtual PC type from the list. Please note that there could be a "
+"maximum number of virtual PC of each type at once."
+msgstr ""
+
+#: $string['port']
+msgid "UDS server port number"
+msgstr ""
+
+#: $string['url']
+msgid "UDS server URL"
+msgstr ""
+
+#: $string['username']
+msgid "UDS administrator user"
+msgstr ""
+
+#: $string['usernotenrolled']
+msgid ""
+"You are not allowed to access Virtual PC (your rol does not have capacity "
+"virtualpc:join)"
+msgstr ""
+
+#: $string['viewpermission']
+msgid "You must have permission to VIEW this resource"
+msgstr ""
+
+#: $string['virtualpc']
+msgctxt "$string['virtualpc']"
+msgid "Virtual PC"
+msgstr ""
+
+#: $string['virtualpc:addinstance']
+msgid "Add Virtual PC activities"
+msgstr ""
+
+#: $string['virtualpcerrorcreatingticketid']
+msgid ""
+"{$a->username} can not access <b>{$a->poolname}</b>. Try again later and, if "
+"the problem remains, please contact the moodle administrator."
+msgstr ""
+
+#: $string['virtualpcfieldset']
+msgid "Virtual PC activity settings"
+msgstr ""
+
+#: $string['virtualpchelp']
+msgid ""
+"<p>After pressing the \"Access to Virtual PC\" button for the first time, the "
+"browser may show a new window to download a software needed to access the "
+"virtual PC. The download URL of the software is: {$a}</p>"
+msgstr ""
+
+#: $string['virtualpcintro']
+msgid "<b>Description:</b>"
+msgstr ""
+
+#: $string['virtualpc:join']
+msgid "Access virtual PC"
+msgstr ""
+
+#: $string['virtualpcname']
+msgid "Virtual PC name"
+msgstr ""
+
+#: $string['virtualpcname_help']
+msgid ""
+"The Virtual PC name will be what will be seen on the course page linking to "
+"this activity"
+msgstr ""
+
+#: $string['virtualpcnotfound']
+msgid "There is no virtual PC with this name on the UDS server"
+msgstr ""
+
+#: $string['virtualpcresterror']
+msgid ""
+"Error connecting to Virtual PC UDS server: Error on \"{$a}\" REST request. "
+"Review virtualpc module settings"
+msgstr ""
+
+#: $string['virtualpc:view']
+msgid "View Virtual PC activity"
+msgstr ""

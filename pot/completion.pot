@@ -1,0 +1,865 @@
+#. extracted from lang/en/completion.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'completion', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   completion
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['achievinggrade']
+msgid "Achieving grade"
+msgstr ""
+
+#: $string['activities']
+msgid "Activities"
+msgstr ""
+
+#: $string['activitiescompleted']
+msgctxt "$string['activitiescompleted']"
+msgid "Activity completion"
+msgstr ""
+
+#: $string['activitiescompletednote']
+msgid ""
+"Note: Activity completion must be set for an activity to appear in the above "
+"list."
+msgstr ""
+
+#: $string['activitieslabel']
+msgid "Activities / resources"
+msgstr ""
+
+#: $string['activityaggregation']
+msgctxt "$string['activityaggregation']"
+msgid "Condition requires"
+msgstr ""
+
+#: $string['activityaggregation_all']
+msgid "ALL selected activities to be completed"
+msgstr ""
+
+#: $string['activityaggregation_any']
+msgid "ANY selected activities to be completed"
+msgstr ""
+
+#: $string['activitycompletion']
+msgctxt "$string['activitycompletion']"
+msgid "Activity completion"
+msgstr ""
+
+#: $string['activitycompletionupdated']
+msgctxt "$string['activitycompletionupdated']"
+msgid "Changes saved"
+msgstr ""
+
+#: $string['affectedactivities']
+msgid ""
+"The changes will affect the following <b>{$a}</b> activities or resources:"
+msgstr ""
+
+#: $string['aggregationmethod']
+msgid "Aggregation method"
+msgstr ""
+
+#: $string['all']
+msgid "All"
+msgstr ""
+
+#: $string['any']
+msgid "Any"
+msgstr ""
+
+#: $string['approval']
+msgid "Approval"
+msgstr ""
+
+#: $string['areyousureoverridecompletion']
+msgid ""
+"Are you sure you want to override the current completion state of this "
+"activity for this user and mark it \"{$a}\"?"
+msgstr ""
+
+#: $string['badautocompletion']
+msgid ""
+"When you select automatic completion, you must also enable at least one "
+"requirement (below)."
+msgstr ""
+
+#: $string['bulkactivitycompletion']
+msgid "Bulk edit activity completion"
+msgstr ""
+
+#: $string['bulkactivitydetail']
+msgid "Select the activities you wish to bulk edit."
+msgstr ""
+
+#: $string['bulkcompletiontracking']
+msgctxt "$string['bulkcompletiontracking']"
+msgid "Completion tracking"
+msgstr ""
+
+#: $string['bulkcompletiontracking_help']
+msgid ""
+"<strong>None:</strong> Do not indicate activity completion\n"
+"\n"
+"<strong>Manual:</strong> Students can manually mark the activity as "
+"completed\n"
+"\n"
+"<strong>With condition(s):</strong> Show activity as complete when "
+"conditions are met"
+msgstr ""
+
+#: $string['checkactivity']
+msgid "Checkbox for activity / resource: {$a}"
+msgstr ""
+
+#: $string['checkall']
+msgid "Check or uncheck all activities and resources"
+msgstr ""
+
+#: $string['checkallsection']
+msgid ""
+"Check or uncheck all activities and resources in the following section: {$a}"
+msgstr ""
+
+#: $string['completed']
+msgctxt "$string['completed']"
+msgid "Completed"
+msgstr ""
+
+#: $string['completedunlocked']
+msgid "Completion options unlocked"
+msgstr ""
+
+#: $string['completedunlockedtext']
+msgid ""
+"When you save changes, completion state for all students will be erased. If "
+"you change your mind about this, do not save the form."
+msgstr ""
+
+#: $string['completedwarning']
+msgid "Completion options locked"
+msgstr ""
+
+#: $string['completedwarningtext']
+msgid ""
+"This activity has already been marked as completed for {$a} participant(s). "
+"Changing completion options will erase their completion state and may cause "
+"confusion. Thus the options have been locked and should not be unlocked "
+"unless absolutely necessary."
+msgstr ""
+
+#: $string['completion']
+msgctxt "$string['completion']"
+msgid "Completion tracking"
+msgstr ""
+
+#: $string['completionactivitydefault']
+msgid "Use activity default"
+msgstr ""
+
+#: $string['completion-alt-auto-enabled']
+msgid "The system marks this item complete according to conditions: {$a}"
+msgstr ""
+
+#: $string['completion-alt-auto-fail']
+msgid "Completed: {$a} (did not achieve pass grade)"
+msgstr ""
+
+#: $string['completion-alt-auto-n']
+msgid "Not completed: {$a}"
+msgstr ""
+
+#: $string['completion-alt-auto-n-override']
+msgid "Not completed: {$a->modname} (set by {$a->overrideuser})"
+msgstr ""
+
+#: $string['completion-alt-auto-pass']
+msgid "Completed: {$a} (achieved pass grade)"
+msgstr ""
+
+#: $string['completion-alt-auto-y']
+msgid "Completed: {$a}"
+msgstr ""
+
+#: $string['completion-alt-auto-y-override']
+msgid "Completed: {$a->modname} (set by {$a->overrideuser})"
+msgstr ""
+
+#: $string['completion-alt-manual-enabled']
+msgid "Students can manually mark this item complete: {$a}"
+msgstr ""
+
+#: $string['completion-alt-manual-n']
+msgid "Not completed: {$a}. Select to mark as complete."
+msgstr ""
+
+#: $string['completion-alt-manual-n-override']
+msgid ""
+"Not completed: {$a->modname} (set by {$a->overrideuser}). Select to mark as "
+"complete."
+msgstr ""
+
+#: $string['completion-alt-manual-y']
+msgid "Completed: {$a}. Select to mark as not complete."
+msgstr ""
+
+#: $string['completion-alt-manual-y-override']
+msgid ""
+"Completed: {$a->modname} (set by {$a->overrideuser}). Select to mark as not "
+"complete."
+msgstr ""
+
+#: $string['completion_automatic']
+msgid "Show activity as complete when conditions are met"
+msgstr ""
+
+#: $string['completiondefault']
+msgid "Default completion tracking"
+msgstr ""
+
+#: $string['completiondisabled']
+msgid "Disabled, not shown in activity settings"
+msgstr ""
+
+#: $string['completionduration']
+msgid "Enrolment"
+msgstr ""
+
+#: $string['completionenabled']
+msgid "Enabled, control via completion and activity settings"
+msgstr ""
+
+#: $string['completionexpected']
+msgid "Expect completed on"
+msgstr ""
+
+#: $string['completionexpecteddesc']
+msgid "Completion expected on {$a}"
+msgstr ""
+
+#: $string['completionexpectedfor']
+msgid "{$a->instancename} should be completed"
+msgstr ""
+
+#: $string['completionexpected_help']
+msgid ""
+"This setting specifies the date when the activity is expected to be "
+"completed."
+msgstr ""
+
+#: $string['completion-fail']
+msgid "Completed (did not achieve pass grade)"
+msgstr ""
+
+#: $string['completion_help']
+msgid ""
+"If enabled, activity completion is tracked, either manually or "
+"automatically, based on certain conditions. Multiple conditions may be set "
+"if desired. If so, the activity will only be considered complete when ALL "
+"conditions are met.\n"
+"\n"
+"A tick next to the activity name on the course page indicates when the "
+"activity is complete."
+msgstr ""
+
+#: $string['completionicons']
+msgid "Completion tick boxes"
+msgstr ""
+
+#: $string['completionicons_help']
+msgid ""
+"A tick next to an activity name may be used to indicate when the activity is "
+"complete.\n"
+"\n"
+"If a box with a dotted border is shown, a tick will appear automatically "
+"when you have completed the activity according to conditions set by the "
+"teacher.\n"
+"\n"
+"If a box with a solid border is shown, you can click it to tick the box when "
+"you think you have completed the activity. (Clicking it again removes the "
+"tick if you change your mind.)"
+msgstr ""
+
+#: $string['completion_link']
+msgid "activity/completion"
+msgstr ""
+
+#: $string['completion_manual']
+msgid "Students can manually mark the activity as completed"
+msgstr ""
+
+#: $string['completionmenuitem']
+msgid "Completion"
+msgstr ""
+
+#: $string['completion-n']
+msgctxt "$string['completion-n']"
+msgid "Not completed"
+msgstr ""
+
+#: $string['completion_none']
+msgid "Do not indicate activity completion"
+msgstr ""
+
+#: $string['completionnotenabled']
+msgid "Completion is not enabled"
+msgstr ""
+
+#: $string['completionnotenabledforcourse']
+msgid "Completion is not enabled for this course"
+msgstr ""
+
+#: $string['completionnotenabledforsite']
+msgid "Completion is not enabled for this site"
+msgstr ""
+
+#: $string['completion-n-override']
+msgid "Not completed (set by {$a})"
+msgstr ""
+
+#: $string['completionondate']
+msgid "Date"
+msgstr ""
+
+#: $string['completionondatevalue']
+msgid "User must remain enrolled until"
+msgstr ""
+
+#: $string['completion-pass']
+msgid "Completed (achieved pass grade)"
+msgstr ""
+
+#: $string['completionsettingslocked']
+msgid "Completion settings locked"
+msgstr ""
+
+#: $string['completion-title-manual-n']
+msgid "Mark as complete: {$a}"
+msgstr ""
+
+#: $string['completion-title-manual-y']
+msgid "Mark as not complete: {$a}"
+msgstr ""
+
+#: $string['completionupdated']
+msgid "Updated completion for activity <b>{$a}</b>"
+msgstr ""
+
+#: $string['completionusegrade']
+msgid "Require grade"
+msgstr ""
+
+#: $string['completionusegrade_desc']
+msgid "Student must receive a grade to complete this activity"
+msgstr ""
+
+#: $string['completionusegrade_help']
+msgid ""
+"If enabled, the activity is considered complete when a student receives a "
+"grade. Pass and fail icons may be displayed if a pass grade for the activity "
+"has been set."
+msgstr ""
+
+#: $string['completionview']
+msgid "Require view"
+msgstr ""
+
+#: $string['completionview_desc']
+msgid "Student must view this activity to complete it"
+msgstr ""
+
+#: $string['completion-y']
+msgctxt "$string['completion-y']"
+msgid "Completed"
+msgstr ""
+
+#: $string['completion-y-override']
+msgid "Completed (set by {$a})"
+msgstr ""
+
+#: $string['configcompletiondefault']
+msgid ""
+"The default setting for completion tracking when creating new activities."
+msgstr ""
+
+#: $string['configenablecompletion']
+msgid ""
+"When enabled, this lets you turn on completion tracking (progress) features "
+"at course level."
+msgstr ""
+
+#: $string['confirmselfcompletion']
+msgid "Confirm self completion"
+msgstr ""
+
+#: $string['courseaggregation']
+msgctxt "$string['courseaggregation']"
+msgid "Condition requires"
+msgstr ""
+
+#: $string['courseaggregation_all']
+msgid "ALL selected courses to be completed"
+msgstr ""
+
+#: $string['courseaggregation_any']
+msgid "ANY selected courses to be completed"
+msgstr ""
+
+#: $string['coursealreadycompleted']
+msgid "You have already completed this course"
+msgstr ""
+
+#: $string['coursecomplete']
+msgid "Course complete"
+msgstr ""
+
+#: $string['coursecompleted']
+msgctxt "$string['coursecompleted']"
+msgid "Course completed"
+msgstr ""
+
+#: $string['coursecompletion']
+msgid "Course completion"
+msgstr ""
+
+#: $string['coursecompletioncondition']
+msgid "Condition: {$a}"
+msgstr ""
+
+#: $string['coursegrade']
+msgid "Course grade"
+msgstr ""
+
+#: $string['coursesavailable']
+msgid "Courses available"
+msgstr ""
+
+#: $string['coursesavailableexplaination']
+msgid ""
+"Note: Course completion conditions must be set for a course to appear in the "
+"above list."
+msgstr ""
+
+#: $string['criteria']
+msgid "Criteria"
+msgstr ""
+
+#: $string['criteriagroup']
+msgid "Criteria group"
+msgstr ""
+
+#: $string['criteriarequiredall']
+msgid "All criteria below are required"
+msgstr ""
+
+#: $string['criteriarequiredany']
+msgid "Any criteria below are required"
+msgstr ""
+
+#: $string['csvdownload']
+msgid "Download in spreadsheet format (UTF-8 .csv)"
+msgstr ""
+
+#: $string['datepassed']
+msgid "Date passed"
+msgstr ""
+
+#: $string['days']
+msgid "Days"
+msgstr ""
+
+#: $string['daysoftotal']
+msgid "{$a->days} of {$a->total}"
+msgstr ""
+
+#: $string['defaultcompletion']
+msgid "Default activity completion"
+msgstr ""
+
+#: $string['defaultcompletionupdated']
+msgctxt "$string['defaultcompletionupdated']"
+msgid "Changes saved"
+msgstr ""
+
+#: $string['deletecompletiondata']
+msgid "Delete completion data"
+msgstr ""
+
+#: $string['dependencies']
+msgid "Dependencies"
+msgstr ""
+
+#: $string['dependenciescompleted']
+msgid "Completion of other courses"
+msgstr ""
+
+#: $string['editcoursecompletionsettings']
+msgid "Edit course completion settings"
+msgstr ""
+
+#: $string['enablecompletion']
+msgid "Enable completion tracking"
+msgstr ""
+
+#: $string['enablecompletion_help']
+msgid ""
+"If enabled, activity completion conditions may be set in the activity "
+"settings and/or course completion conditions may be set. It is recommended "
+"to have this enabled so that meaningful data is displayed in the course "
+"overview on the Dashboard."
+msgstr ""
+
+#: $string['enrolmentduration']
+msgid "Enrolment duration"
+msgstr ""
+
+#: $string['enrolmentdurationlength']
+msgid "User must remain enrolled for"
+msgstr ""
+
+#: $string['err_noactivities']
+msgid ""
+"Completion information is not enabled for any activity, so none can be "
+"displayed. You can enable completion information by editing the settings for "
+"an activity."
+msgstr ""
+
+#: $string['err_nocourses']
+msgid ""
+"Course completion is not enabled for any other courses, so none can be "
+"displayed. You can enable course completion in the course settings."
+msgstr ""
+
+#: $string['err_nograde']
+msgid ""
+"A course pass grade has not been set for this course. To enable this "
+"criteria type you must create a pass grade for this course."
+msgstr ""
+
+#: $string['err_noroles']
+msgid ""
+"There are no roles with the capability moodle/course:markcomplete in this "
+"course."
+msgstr ""
+
+#: $string['err_nousers']
+msgid ""
+"There are no students on this course or group for whom completion "
+"information is displayed. (By default, completion information is displayed "
+"only for students, so if there are no students, you will see this error. "
+"Administrators can alter this option via the admin screens.)"
+msgstr ""
+
+#: $string['err_settingslocked']
+msgid ""
+"One or more students have already completed a criterion so the settings have "
+"been locked. Unlocking the completion criteria settings will delete any "
+"existing user data and may cause confusion."
+msgstr ""
+
+#: $string['err_system']
+msgid ""
+"An internal error occurred in the completion system. (System administrators "
+"can enable debugging information to see more detail.)"
+msgstr ""
+
+#: $string['eventcoursecompleted']
+msgctxt "$string['eventcoursecompleted']"
+msgid "Course completed"
+msgstr ""
+
+#: $string['eventcoursecompletionupdated']
+msgid "Course completion updated"
+msgstr ""
+
+#: $string['eventcoursemodulecompletionupdated']
+msgid "Course activity completion updated"
+msgstr ""
+
+#: $string['eventdefaultcompletionupdated']
+msgid "Default for course activity completion updated"
+msgstr ""
+
+#: $string['excelcsvdownload']
+msgid "Download in Excel-compatible format (.csv)"
+msgstr ""
+
+#: $string['fraction']
+msgid "Fraction"
+msgstr ""
+
+#: $string['graderequired']
+msgid "Required course grade"
+msgstr ""
+
+#: $string['gradexrequired']
+msgid "{$a} required"
+msgstr ""
+
+#: $string['hiddenrules']
+msgid ""
+"Some settings specific to <b>{$a}</b> have been hidden. To view unselect "
+"other activities"
+msgstr ""
+
+#: $string['inprogress']
+msgid "In progress"
+msgstr ""
+
+#: $string['manual']
+msgid "Manual"
+msgstr ""
+
+#: $string['manualcompletionby']
+msgid "Manual completion by others"
+msgstr ""
+
+#: $string['manualcompletionbynote']
+msgid ""
+"Note: The capability moodle/course:markcomplete must be allowed for a role "
+"to appear in the list."
+msgstr ""
+
+#: $string['manualselfcompletion']
+msgid "Manual self completion"
+msgstr ""
+
+#: $string['manualselfcompletionnote']
+msgid ""
+"Note: The self completion block should be added to the course if manual self "
+"completion is enabled."
+msgstr ""
+
+#: $string['markcomplete']
+msgid "Mark complete"
+msgstr ""
+
+#: $string['markedcompleteby']
+msgid "Marked complete by {$a}"
+msgstr ""
+
+#: $string['markingyourselfcomplete']
+msgid "Marking yourself complete"
+msgstr ""
+
+#: $string['modifybulkactions']
+msgid "Modify the actions you wish to bulk edit"
+msgstr ""
+
+#: $string['moredetails']
+msgid "More details"
+msgstr ""
+
+#: $string['nocriteriaset']
+msgid "No completion criteria set for this course"
+msgstr ""
+
+#: $string['nogradeitem']
+msgid ""
+"Require grade can't be enabled for <b>{$a}</b> because the activity is not "
+"graded."
+msgstr ""
+
+#: $string['notcompleted']
+msgctxt "$string['notcompleted']"
+msgid "Not completed"
+msgstr ""
+
+#: $string['notenroled']
+msgid "You are not enrolled in this course"
+msgstr ""
+
+#: $string['nottracked']
+msgid "You are currently not being tracked by completion in this course"
+msgstr ""
+
+#: $string['notyetstarted']
+msgid "Not yet started"
+msgstr ""
+
+#: $string['overallaggregation']
+msgid "Completion requirements"
+msgstr ""
+
+#: $string['overallaggregation_all']
+msgid "Course is complete when ALL conditions are met"
+msgstr ""
+
+#: $string['overallaggregation_any']
+msgid "Course is complete when ANY of the conditions are met"
+msgstr ""
+
+#: $string['pending']
+msgid "Pending"
+msgstr ""
+
+#: $string['periodpostenrolment']
+msgid "Period post enrolment"
+msgstr ""
+
+#: $string['progress']
+msgid "Student progress"
+msgstr ""
+
+#: $string['progress-title']
+msgid "{$a->user}, {$a->activity}: {$a->state} {$a->date}"
+msgstr ""
+
+#: $string['progresstotal']
+msgid "Progress: {$a->complete} / {$a->total}"
+msgstr ""
+
+#: $string['recognitionofpriorlearning']
+msgid "Recognition of prior learning"
+msgstr ""
+
+#: $string['remainingenroledfortime']
+msgid "Remaining enrolled for a specified period of time"
+msgstr ""
+
+#: $string['remainingenroleduntildate']
+msgid "Remaining enrolled until a specified date"
+msgstr ""
+
+#: $string['reportpage']
+msgid "Showing users {$a->from} to {$a->to} of {$a->total}."
+msgstr ""
+
+#: $string['requiredcriteria']
+msgid "Required criteria"
+msgstr ""
+
+#: $string['resetactivities']
+msgid "Clear all checked activities and resources"
+msgstr ""
+
+#: $string['restoringcompletiondata']
+msgctxt "$string['restoringcompletiondata']"
+msgid "Writing completion data"
+msgstr ""
+
+#: $string['roleaggregation']
+msgctxt "$string['roleaggregation']"
+msgid "Condition requires"
+msgstr ""
+
+#: $string['roleaggregation_all']
+msgid "ALL selected roles to mark when the condition is met"
+msgstr ""
+
+#: $string['roleaggregation_any']
+msgid "ANY selected roles to mark when the condition is met"
+msgstr ""
+
+#: $string['roleidnotfound']
+msgid "Role ID {$a} not found"
+msgstr ""
+
+#: $string['saved']
+msgid "Saved"
+msgstr ""
+
+#: $string['seedetails']
+msgid "See details"
+msgstr ""
+
+#: $string['select']
+msgid "Select"
+msgstr ""
+
+#: $string['self']
+msgid "Self"
+msgstr ""
+
+#: $string['selfcompletion']
+msgid "Self completion"
+msgstr ""
+
+#: $string['showinguser']
+msgid "Showing user"
+msgstr ""
+
+#: $string['unenrolingfromcourse']
+msgid "Unenrolling from course"
+msgstr ""
+
+#: $string['unenrolment']
+msgid "Unenrolment"
+msgstr ""
+
+#: $string['unit']
+msgid "Unit"
+msgstr ""
+
+#: $string['unlockcompletion']
+msgid "Unlock completion options"
+msgstr ""
+
+#: $string['unlockcompletiondelete']
+msgid "Unlock completion options and delete user completion data"
+msgstr ""
+
+#: $string['updateactivities']
+msgid "Update completion status of checked activities"
+msgstr ""
+
+#: $string['usealternateselector']
+msgid "Use the alternate course selector"
+msgstr ""
+
+#: $string['usernotenroled']
+msgid "User is not enrolled in this course"
+msgstr ""
+
+#: $string['viewcoursereport']
+msgid "View course report"
+msgstr ""
+
+#: $string['viewingactivity']
+msgid "Viewing the {$a}"
+msgstr ""
+
+#: $string['withconditions']
+msgid "With conditions"
+msgstr ""
+
+#: $string['writingcompletiondata']
+msgctxt "$string['writingcompletiondata']"
+msgid "Writing completion data"
+msgstr ""
+
+#: $string['xdays']
+msgid "{$a} days"
+msgstr ""
+
+#: $string['yourprogress']
+msgid "Your progress"
+msgstr ""

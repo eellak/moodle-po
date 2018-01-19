@@ -1,0 +1,857 @@
+#. extracted from lang/en/tool_cmdlinetools.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'tool_cmdlinetools', language 'en', branch 'MOODLE_30_STABLE'
+#.  *
+#.  * @package   tool_cmdlinetools
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['add_assignmentcapa_cli_capxcreated']
+msgid "capability {$a} created"
+msgstr ""
+
+#: $string['add_assignmentcapa_cli_choose_plugin']
+msgid ""
+"choose the plugin for which a new add instance capability while be created :"
+msgstr ""
+
+#: $string['add_assignment_capa_cli_help']
+msgid ""
+"add capability to take in charge visibility control of feedback or "
+"assignment plugins on contexts\n"
+"Usage :\n"
+"\t\t\\$sudo -u www-data /usr/bin/php "
+"admin/cli/admin/tool/cmdlinetools/cli/cmdline_manager.php "
+"add_assignment_capa\n"
+"\n"
+"Options:\n"
+"-h, --help                 print out this help"
+msgstr ""
+
+#: $string['add_assignmentcapa_cli_mustbeint']
+msgctxt "$string['add_assignmentcapa_cli_mustbeint']"
+msgid "entered value must be an int"
+msgstr ""
+
+#: $string['add_assignmentcapa_cli_noassignplugin']
+msgctxt "$string['add_assignmentcapa_cli_noassignplugin']"
+msgid "no assignment plugins"
+msgstr ""
+
+#: $string['allow_assign_cli_allowed']
+msgid "Assign role allowed"
+msgstr ""
+
+#: $string['allow_assign_cli_disallowed']
+msgid "Assign role disallowed"
+msgstr ""
+
+#: $string['allow_assign_cli_help']
+msgid ""
+"Allow assign a target role for a role\n"
+"Usage :\n"
+"\t\t\\$sudo -u www-data /usr/bin/php "
+"admin/cli/admin/tool/cmdlinetools/cli/cmdline_manager.php allow_assign role "
+"targetrole\n"
+"\n"
+"Options:\n"
+"\t-h, --help              print out this help"
+msgstr ""
+
+#: $string['allow_assign_cli_rolexnotexists']
+msgid "Role {$a} not exists"
+msgstr ""
+
+#: $string['apply_defaults_settings_to_all_plugins_cli_help']
+msgid ""
+"Apply default plugin settings to non defined plugin settings such like "
+"upgradesettings.php\n"
+"Usage :\n"
+"\t\t\\$sudo -u www-data /usr/bin/php "
+"admin/cli/admin/tool/cmdlinetools/cli/cmdline_manager.php "
+"apply_defaults_settings_to_all_plugins\n"
+"Options:\n"
+"-h, --help              print out this help"
+msgstr ""
+
+#: $string['apply_defaults_settings_to_plugin_cli_notimplementedtype']
+msgid "plugin type {$a} not implemented"
+msgstr ""
+
+#: $string['apply_defaults_settings_to_plugin_cli_pluginnotexists']
+msgid "plugin of type {$a->type} with name {$a->name} does not exist"
+msgstr ""
+
+#: $string['apply_defaults_settings_to_plugin_cli_settingset']
+msgid "plugin {$a->plugin} key {$a->key} value {$a->value} set!"
+msgstr ""
+
+#: $string['badnumberarguments']
+msgid "Bad number of arguments"
+msgstr ""
+
+#: $string['badstoreinstancename_set_cache_cli']
+msgid ""
+"Bad store instance name mapping {$a} : does not exists or not usable for "
+"this cache mode"
+msgstr ""
+
+#: $string['capabilitynotexists_set_capability_cli']
+msgid "Capability $a does not exists"
+msgstr ""
+
+#: $string['clifailed_add_assignment_capa_cli']
+msgid "Add assignment capability failed"
+msgstr ""
+
+#: $string['clifailed_allow_assign_cli']
+msgid "Allow assign role failed"
+msgstr ""
+
+#: $string['clifailed_apply_defaults_settings_to_all_plugins_cli']
+msgid "Apply default plugin settings failed"
+msgstr ""
+
+#: $string['clifailed_cmdlinecli']
+msgid "Command line moodle tool error"
+msgstr ""
+
+#: $string['clifailed_create_role_cli']
+msgid "Set role context level failed"
+msgstr ""
+
+#: $string['clifailed_create_user_cli']
+msgid "Create user failed"
+msgstr ""
+
+#: $string['clifailed_delete_js_cache_cli']
+msgid "Delete js cache failed"
+msgstr ""
+
+#: $string['clifailed_delete_plugin_cli']
+msgid "Plugin deletion failed"
+msgstr ""
+
+#: $string['clifailed_delete_theme_cache_cli']
+msgid "Theme cache deletion failed"
+msgstr ""
+
+#: $string['clifailed_hard_delete_js_cache_cli']
+msgid "Hard delete js cache failed"
+msgstr ""
+
+#: $string['clifailed_hard_delete_theme_cache_cli']
+msgid "Theme cache hard deletion failed"
+msgstr ""
+
+#: $string['clifailed_hideshow_plugin_cli']
+msgid "Hide/show plugin failed"
+msgstr ""
+
+#: $string['clifailed_passwordaltmain_generator_cli']
+msgid "Passwordaltmain generation failed"
+msgstr ""
+
+#: $string['clifailed_remove_assignment_capa_cli']
+msgid "Schedule task failed"
+msgstr ""
+
+#: $string['clifailed_role_assign_cli']
+msgid "Assign role to user failed"
+msgstr ""
+
+#: $string['clifailed_set_cache_cli']
+msgid "Cache mapping setter failed"
+msgstr ""
+
+#: $string['clifailed_set_capability_cli']
+msgid "Set capability failed"
+msgstr ""
+
+#: $string['clifailed_set_config_cli']
+msgid "Config setter failed"
+msgstr ""
+
+#: $string['clisuccessfull_add_assignment_capa_cli']
+msgid "Add assignment capability sucessfully completed"
+msgstr ""
+
+#: $string['clisuccessfull_allow_assign_cli']
+msgid "Sucessfully allow assign role"
+msgstr ""
+
+#: $string['clisuccessfull_apply_defaults_settings_to_all_plugins_cli']
+msgid "Sucessfully apply default plugin settings"
+msgstr ""
+
+#: $string['clisuccessfull_create_role_cli']
+msgid "Sucessfully create role"
+msgstr ""
+
+#: $string['clisuccessfull_create_user_cli']
+msgid "Sucessfully create user"
+msgstr ""
+
+#: $string['clisuccessfull_delete_js_cache_cli']
+msgid "Delete js cache sucessfull"
+msgstr ""
+
+#: $string['clisuccessfull_delete_plugin_cli']
+msgid "PLugin deleted sucessfully"
+msgstr ""
+
+#: $string['clisuccessfull_delete_theme_cache_cli']
+msgid "Theme cache deleted sucessfully"
+msgstr ""
+
+#: $string['clisuccessfull_hard_delete_js_cache_cli']
+msgid "Hard delete js cache sucessfull"
+msgstr ""
+
+#: $string['clisuccessfull_hard_delete_theme_cache_cli']
+msgid "Theme cache hardly deleted sucessfully"
+msgstr ""
+
+#: $string['clisuccessfull_hideshow_plugin_cli']
+msgid "Hide/show plugin sucessfully proceed"
+msgstr ""
+
+#: $string['clisuccessfull_passwordaltmain_generator_cli']
+msgid "Passwordaltmain generated sucessfully"
+msgstr ""
+
+#: $string['clisuccessfull_remove_assignment_capa_cli']
+msgid "Remove assignment capability sucessfully completed"
+msgstr ""
+
+#: $string['clisuccessfull_role_assign_cli']
+msgid "Sucessfully assign role to user"
+msgstr ""
+
+#: $string['clisuccessfull_role_set_context_level_cli']
+msgid "Sucessfully set role context level"
+msgstr ""
+
+#: $string['clisuccessfull_schedule_task_cli']
+msgid "Schedule task sucessfully completed"
+msgstr ""
+
+#: $string['clisuccessfull_set_cache_cli']
+msgid "Cache mapping set"
+msgstr ""
+
+#: $string['clisuccessfull_set_capability_cli']
+msgid "Capability set"
+msgstr ""
+
+#: $string['clisuccessfull_set_config_cli']
+msgid "Config Set"
+msgstr ""
+
+#: $string['clititle_']
+msgid "cli title"
+msgstr ""
+
+#: $string['clititle_add_assignment_capa_cli']
+msgid "Add assignment capability"
+msgstr ""
+
+#: $string['clititle_allow_assign_cli']
+msgid "Allow assign role"
+msgstr ""
+
+#: $string['clititle_apply_defaults_settings_to_all_plugins_cli']
+msgid "Apply default plugin settings"
+msgstr ""
+
+#: $string['clititle_cmdlinecli']
+msgid "Command line moodle tool"
+msgstr ""
+
+#: $string['clititle_create_role_cli']
+msgid "Create role"
+msgstr ""
+
+#: $string['clititle_create_user_cli']
+msgid "Create user"
+msgstr ""
+
+#: $string['clititle_delete_js_cache_cli']
+msgid "Delete js cache"
+msgstr ""
+
+#: $string['clititle_delete_plugin_cli']
+msgid "Delete plugin"
+msgstr ""
+
+#: $string['clititle_delete_theme_cache_cli']
+msgid "Delete theme cache"
+msgstr ""
+
+#: $string['clititle_hard_delete_js_cache_cli']
+msgid "Hard delete js cache"
+msgstr ""
+
+#: $string['clititle_hard_delete_theme_cache_cli']
+msgid "Hard delete theme cache"
+msgstr ""
+
+#: $string['clititle_hideshow_plugin_cli']
+msgid "Hide/show plugin"
+msgstr ""
+
+#: $string['clititle_passwordaltmain_generator_cli']
+msgid "Passwordaltmain generator"
+msgstr ""
+
+#: $string['clititle_remove_assignment_capa_cli']
+msgid "Remove assignment capability"
+msgstr ""
+
+#: $string['clititle_role_assign_cli']
+msgid "Assign role to user"
+msgstr ""
+
+#: $string['clititle_role_set_context_level_cli']
+msgid "Set role context level"
+msgstr ""
+
+#: $string['clititle_schedule_task_cli']
+msgid "Schedule task utility"
+msgstr ""
+
+#: $string['clititle_set_cache_cli']
+msgid "Cache mapping setter for cache definition"
+msgstr ""
+
+#: $string['clititle_set_capability_cli']
+msgid "Set capability"
+msgstr ""
+
+#: $string['clititle_set_config_cli']
+msgid "Config setter"
+msgstr ""
+
+#: $string['cmdlinecli_help']
+msgid ""
+"command line tool to launch moodle commands :\n"
+"Usage :\n"
+"\t\t\\$sudo -u www-data /usr/bin/php "
+"admin/cli/admin/tool/cmdlinetools/cli/cmdline_manager.php [argument]\n"
+"Argument(optional) : the name of a command to execute (listed bellow)\n"
+"{$a}\n"
+"\n"
+"Options:\n"
+"-h, --help                 print out this help"
+msgstr ""
+
+#: $string['create_role_cli_createrolexid']
+msgid "Role created with id {$a}"
+msgstr ""
+
+#: $string['create_role_cli_help']
+msgid ""
+"Create a role with the given shortname\n"
+"Usage :\n"
+"\t\t\\$sudo -u www-data /usr/bin/php "
+"admin/cli/admin/tool/cmdlinetools/cli/cmdline_manager.php create_role "
+"shortname\n"
+"\n"
+"Where shortname must be unique\n"
+"Options:\n"
+"\t-h, --help              print out this help\n"
+"\t-n, --name\t\t\t\trole name\n"
+"\t-d, --description\t\trole description\n"
+"\t-a, --archetype\t\t\trole archetype"
+msgstr ""
+
+#: $string['create_role_cli_rolexexists']
+msgctxt "$string['create_role_cli_rolexexists']"
+msgid "Role {$a} already exists"
+msgstr ""
+
+#: $string['create_user_cli_createuserxid']
+msgid "User created with id {$a}"
+msgstr ""
+
+#: $string['create_user_cli_help']
+msgid ""
+"Create a user with the given username\n"
+"Usage :\n"
+"\t\t\\$sudo -u www-data /usr/bin/php "
+"admin/cli/admin/tool/cmdlinetools/cli/cmdline_manager.php create_user "
+"username\n"
+"\n"
+"Where username must be unique\n"
+"Options:\n"
+"\t-h, --help              print out this help\n"
+"\t-a, --auth\t\t\t\tauth method (default empty)\n"
+"\t-p, --password\t\t\tpassword if necessary\n"
+"\t-e, --email\t\t\t\temail (default empty)\n"
+"\t-c, --city\t\t\t\tcity (default empty)\n"
+"\t-C, --country\t\t\tcountry (default empty)\n"
+"\t-f, --firstname\t\t\tfirstname\n"
+"\t-l, --lastname\t\t\tlastname\n"
+"\t-i, --idnumber\t\t\tidnumber (default empty)\n"
+"\t-d, --digest\t\t\tmaildigest (default 0)"
+msgstr ""
+
+#: $string['create_user_cli_userxexists']
+msgid "User {$a} already exists"
+msgstr ""
+
+#: $string['definitionmappingsrequired_set_cache_cli']
+msgid "defintion and mammpings are required"
+msgstr ""
+
+#: $string['delete_js_cache_cli_help']
+msgid ""
+"Delete js cache\n"
+"Usage :\n"
+"\t\t\\$sudo -u www-data /usr/bin/php "
+"admin/cli/admin/tool/cmdlinetools/cli/cmdline_manager.php delete_js_cache\n"
+"\n"
+"Options:\n"
+"-h, --help            Print out this help"
+msgstr ""
+
+#: $string['delete_plugin_cli_badtype']
+msgctxt "$string['delete_plugin_cli_badtype']"
+msgid "bad plugin type"
+msgstr ""
+
+#: $string['delete_plugin_cli_cantremovexplugin']
+msgid "can't remove {$a} plugins"
+msgstr ""
+
+#: $string['delete_plugin_cli_help']
+msgid ""
+"Delete a plugin\n"
+"\n"
+"Usage:\n"
+"\t\t\\$sudo -u www-data /usr/bin/php "
+"admin/cli/admin/tool/cmdlinetools/cli/cmdline_manager.php delete_plugin "
+"plugintype pluginname\n"
+"\n"
+"where :\n"
+"plugintype is\n"
+"\t\tmod,\n"
+"\t\tblock,\n"
+"\t\tqtype,\n"
+"\t\tqbehaviour,\n"
+"\t\tenrol,\n"
+"\t\tfilter,\n"
+"\t\teditor,\n"
+"\t\tauth,\n"
+"\t\tlicense,\n"
+"\t\trepository,\n"
+"\t\tcourseformat,\n"
+"\t\tassignfeedback or assignsubmission\n"
+"\t\ttool\n"
+"pluginname is the name of the plugin (name of plugin directory)\n"
+"\n"
+"Options:\n"
+"-h, --help                 print out this help"
+msgstr ""
+
+#: $string['delete_plugin_cli_notyetimplemented']
+msgid "not yet implemented because of hard impact"
+msgstr ""
+
+#: $string['delete_plugin_cli_undeletableplugintype']
+msgid "{$a->type} {$a->name} can't be deleted"
+msgstr ""
+
+#: $string['delete_plugin_cli_undeletablerequiredplugintype']
+msgid "{$a->type} {$a->name} can't be deleted because it's required"
+msgstr ""
+
+#: $string['delete_plugin_cli_unreconizedplugintype']
+msgid "unrecognized {$a->type} {$a->name}"
+msgstr ""
+
+#: $string['delete_theme_cache_cli_help']
+msgid ""
+"Delete theme cache\n"
+"Usage :\n"
+"\t\t\\$sudo -u www-data /usr/bin/php "
+"admin/cli/admin/tool/cmdlinetools/cli/cmdline_manager.php delete_theme_cache\n"
+"Options:\n"
+"-h, --help            Print out this help"
+msgstr ""
+
+#: $string['hard_delete_js_cache_cli_help']
+msgid ""
+"Hardly delete js cache\n"
+"Usage :\n"
+"\t\t\\$sudo -u www-data /usr/bin/php "
+"admin/cli/admin/tool/cmdlinetools/cli/cmdline_manager.php hard_delete_cache\n"
+"Options:\n"
+"-h, --help            Print out this help"
+msgstr ""
+
+#: $string['hard_delete_theme_cache_cli_help']
+msgid ""
+"hardly delete theme cache\n"
+"\n"
+"Options:\n"
+"-h, --help            Print out this help"
+msgstr ""
+
+#: $string['hideshow_plugin_cli_authpluginnotexists']
+msgid "plugin {$a->type} {$a->name} does not exist"
+msgstr ""
+
+#: $string['hideshow_plugin_cli_badplugintype']
+msgctxt "$string['hideshow_plugin_cli_badplugintype']"
+msgid "bad plugin type"
+msgstr ""
+
+#: $string['hideshow_plugin_cli_courseformatcantenabledisable']
+msgid "can't enable/disable course format {$a}"
+msgstr ""
+
+#: $string['hideshow_plugin_cli_courseformatnotexists']
+msgid "course format {$a} does not exist"
+msgstr ""
+
+#: $string['hideshow_plugin_cli_editorpluginnotexists']
+msgctxt "$string['hideshow_plugin_cli_editorpluginnotexists']"
+msgid "editor {$a} does not exist"
+msgstr ""
+
+#: $string['hideshow_plugin_cli_enrolmethodnotexists']
+msgid "enrol method {$a} not exists"
+msgstr ""
+
+#: $string['hideshow_plugin_cli_filterpluginnotexists']
+msgid "filter {$a} does not exist"
+msgstr ""
+
+#: $string['hideshow_plugin_cli_help']
+msgid ""
+"hide show a plugin\n"
+"Usage:\n"
+"\t\t\\$sudo -u www-data /usr/bin/php "
+"admin/cli/admin/tool/cmdlinetools/cli/cmdline_manager.php hideshow_plugin "
+"plugintype pluginname hideshow\n"
+"\n"
+"where :\n"
+"plugintype is\n"
+"\t\tmod,\n"
+"\t\tblock,\n"
+"\t\tqtype,\n"
+"\t\tqbehaviour,\n"
+"\t\tenrol,\n"
+"\t\tfilter,\n"
+"\t\teditor,\n"
+"\t\tauth,\n"
+"\t\tlicense,\n"
+"\t\trepository,\n"
+"\t\tcourseformat,\n"
+"\t\tassignfeedback or assignsubmission\n"
+"pluginname is the name of the plugin (name of plugin directory)\n"
+"hideshow is an int value 0 for false or off (filter plugin) , 1 for true or "
+"on (filter plugin), -9999 for disabled (filter plugin)\n"
+"\n"
+"Options:\n"
+"-h, --help                 print out this help"
+msgstr ""
+
+#: $string['hideshow_plugin_cli_licensecantenabledisable']
+msgid "can't enable/disable license {$a}"
+msgstr ""
+
+#: $string['hideshow_plugin_cli_licensepluginnotexists']
+msgctxt "$string['hideshow_plugin_cli_licensepluginnotexists']"
+msgid "editor {$a} does not exist"
+msgstr ""
+
+#: $string['hideshow_plugin_cli_parametervalues']
+msgid "possible show/hide values are {$a}"
+msgstr ""
+
+#: $string['hideshow_plugin_cli_pluginnotexists']
+msgid "{$a->type} {$a->name} not exists"
+msgstr ""
+
+#: $string['hideshow_plugin_cli_qbehaviourcantenabledisable']
+msgid "can't enable/disable qbehaviour {$a}"
+msgstr ""
+
+#: $string['hideshow_plugin_cli_qbehaviournotexits']
+msgid "qbehaviour {$a} does not exist"
+msgstr ""
+
+#: $string['hideshow_plugin_cli_qtypenotexits']
+msgid "qtype {$a} does not exist"
+msgstr ""
+
+#: $string['hideshow_plugin_cli_repositorynotimplemented']
+msgid "not implemented because require repository setting form"
+msgstr ""
+
+#: $string['manager_notexistingfilename']
+msgid "not existing filename {$a}"
+msgstr ""
+
+#: $string['namevaluerequired_set_config_cli']
+msgid "you must enter either --name et --value parameters"
+msgstr ""
+
+#: $string['notexistingdefinition_set_cache_cli']
+msgid "Not existing cache definition {$a}"
+msgstr ""
+
+#: $string['passwordaltmain_generator_cli_help']
+msgid ""
+"Generate a passwordaltmain key for config.php  \\$CFG->passwordsaltmain\n"
+"Usage :\n"
+"\t\t\\$sudo -u www-data /usr/bin/php "
+"admin/cli/admin/tool/cmdlinetools/cli/cmdline_manager.php "
+"passwordaltmain_generator\n"
+"Options:\n"
+"-h, --help            Print out this help"
+msgstr ""
+
+#: $string['permissionvalues_set_capability_cli']
+msgid ""
+"permission must be an int as follow {$CAP_INHERIT}, {$CAP_ALLOW}, "
+"{$CAP_PREVENT}, {$CAP_PROHIBIT}"
+msgstr ""
+
+#: $string['pluginname']
+msgid "command line manager"
+msgstr ""
+
+#: $string['remove_assignmentcapa_cli_cannotunassignrolex']
+msgid "cannot unassign capability on role {$a}"
+msgstr ""
+
+#: $string['remove_assignmentcapa_cli_capaxnotremoved']
+msgid "capability $capaslist {$a} not removed"
+msgstr ""
+
+#: $string['remove_assignmentcapa_cli_capxremoved']
+msgid "capability {$a} removed"
+msgstr ""
+
+#: $string['remove_assignmentcapa_cli_choose_plugin']
+msgid ""
+"choose the plugin for which a new add instance capability while be removed :"
+msgstr ""
+
+#: $string['remove_assignment_capa_cli_help']
+msgid ""
+"remove capability to take in charge visibility control of feedback or "
+"assignment plugins on contexts\n"
+"Usage :\n"
+"\t\t\\$sudo -u www-data /usr/bin/php "
+"admin/cli/admin/tool/cmdlinetools/cli/cmdline_manager.php "
+"remove_assignment_capa\n"
+"\n"
+"Options:\n"
+"-h, --help                 print out this help"
+msgstr ""
+
+#: $string['remove_assignmentcapa_cli_mustbeint']
+msgctxt "$string['remove_assignmentcapa_cli_mustbeint']"
+msgid "entered value must be an int"
+msgstr ""
+
+#: $string['remove_assignmentcapa_cli_noassignplugin']
+msgctxt "$string['remove_assignmentcapa_cli_noassignplugin']"
+msgid "no assignment plugins"
+msgstr ""
+
+#: $string['role_assign_cli_contextxnotexists']
+msgid "Context {$a} does not exists"
+msgstr ""
+
+#: $string['role_assign_cli_help']
+msgid ""
+"Assign a given role to a given  user in a given context id\n"
+"Usage :\n"
+"\t\t\\$sudo -u www-data /usr/bin/php "
+"admin/cli/admin/tool/cmdlinetools/cli/cmdline_manager.php role_assign "
+"username shortname contextid\n"
+"\n"
+"Where\n"
+"\t\tusername : user username\n"
+"\t\tshortname : role shortname\n"
+"\t\tcontextid : context id\n"
+"Options:\n"
+"\t-h, --help              print out this help"
+msgstr ""
+
+#: $string['role_assign_cli_rolexnotexists']
+msgid "Role {$a} does not exists"
+msgstr ""
+
+#: $string['role_assign_cli_userxnotexists']
+msgid "User {$a} does not exists"
+msgstr ""
+
+#: $string['role_set_context_level_cli_help']
+msgid ""
+"Set role context level\n"
+"Usage :\n"
+"\t\t\\$sudo -u www-data /usr/bin/php "
+"admin/cli/admin/tool/cmdlinetools/cli/cmdline_manager.php "
+"set_role_context_level shortname contextlevels\n"
+"\n"
+"Where :\n"
+"\t\tshortname must be unique\n"
+"\t\tcontextlevels must be a list of int separated by , values CONTEXT_COURSE "
+"(50), CONTEXT_COURSECAT(40), CONTEXT_SYSTEM(10),CONTEXT_BLOCK(80), "
+"CONTEXT_MODULE(70), CONTEXT_USER(30)\n"
+"\n"
+"Options:\n"
+"\t-h, --help              print out this help"
+msgstr ""
+
+#: $string['role_set_context_level_cli_rolexnotexists']
+msgctxt "$string['role_set_context_level_cli_rolexnotexists']"
+msgid "Role {$a} already exists"
+msgstr ""
+
+#: $string['schedule_task_cli_badtaskname']
+msgid "task {$a} not exists"
+msgstr ""
+
+#: $string['schedule_task_cli_help']
+msgid ""
+"schedule task enable to set parameters for a given moodle scheduled task\n"
+"Usage :\n"
+"\t\t\\$sudo -u www-data /usr/bin/php "
+"admin/cli/admin/tool/cmdlinetools/cli/cmdline_manager.php schedule_task "
+"taskname [options]\n"
+"taskname written as follow :  \\plugin\\task\\taskname e.g "
+"\\auth_cas\\task\\sync_task\n"
+"Options:\n"
+"-h, --help              print out this help\n"
+"-M, --minute\t\t\t    * Every minute (default value)\n"
+"    \t\t\t\t\t\t*/5 Every 5 minutes\n"
+"    \t\t\t\t\t\t2-10 Every minute between 2 and 10 past the hour (inclusive)\n"
+"    \t\t\t\t\t\t2,6,9 2 6 and 9 minutes past the hour\n"
+"\n"
+"-H, --hour\t\t\t\t\t* Every hour (default value)\n"
+"    \t\t\t\t\t\t*/2 Every 2 hours\n"
+"    \t\t\t\t\t\t2-10 Every hour from 2am until 10am (inclusive)\n"
+"    \t\t\t\t\t\t2,6,9 2am, 6am and 9am\n"
+"\n"
+"-d, --day\t\t\t\t\t* Every day (default value)\n"
+"    \t\t\t\t\t\t*/2 Every 2nd day\n"
+"    \t\t\t\t\t\t1 The first of every month\n"
+"    \t\t\t\t\t\t1,15 The first and fifteenth of every month\n"
+"\n"
+"-m, --month\t\t\t\t\t* Every month (default value)\n"
+"    \t\t\t\t\t\t*/2 Every second month\n"
+"    \t\t\t\t\t\t1 Every January\n"
+"    \t\t\t\t\t\t1,5 Every January and May\n"
+"\n"
+"-w, --dayofweek\t\t\t\t* Every day (default value)\n"
+"    \t\t\t\t\t\t0 Every Sunday\n"
+"    \t\t\t\t\t\t6 Every Saturday\n"
+"    \t\t\t\t\t\t1,5 Every Monday and Friday\n"
+"\n"
+"-x, --disabled\t\t\t\t0 not disabled (default value), 1 disabled\n"
+"\n"
+"-r, --restoretodefaults\t\t0 not restoring to default (default value), 1 "
+"restoring to default other options wiln not be taking into account"
+msgstr ""
+
+#: $string['schedule_task_cli_tasklist']
+msgid ""
+"available taskname are :\n"
+"{$a}"
+msgstr ""
+
+#: $string['set_cache_cli_help']
+msgid ""
+"set cache mappings to a given cache definition\n"
+"Usage :\n"
+"\t\t\\$sudo -u www-data /usr/bin/php "
+"admin/cli/admin/tool/cmdlinetools/cli/cmdline_manager.php set_cache "
+"definition mappings\n"
+"\n"
+"Where :\n"
+"\t\tdefinition : cache definition containing component and area separated by / "
+". e.g core/userselections\n"
+"\t\tmappings : store names instance mapping separated by , and ordered e.g "
+"default_application,my_memcache_instance\n"
+"Options:\n"
+"-h, --help                 print out this help"
+msgstr ""
+
+#: $string['set_capability_cli_help']
+msgid ""
+"set a capability for a role in a particular context\n"
+"\n"
+"Usage:\n"
+"\t\t\\$sudo -u www-data /usr/bin/php "
+"admin/cli/admin/tool/cmdlinetools/cli/cmdline_manager.php set_capabiliy.php "
+"capability permission context role\n"
+"\n"
+"where :\n"
+"capability is an existing moodle capability\n"
+"permission is capability permission as int value {$CAP_INHERIT}, "
+"{$CAP_ALLOW}, {$CAP_PREVENT}, {$CAP_PROHIBIT}\n"
+"context is value to apply that capability\n"
+"role is shortname role to apply that capability\n"
+"\n"
+"Options:\n"
+"-h, --help                 print out this help"
+msgstr ""
+
+#: $string['set_config_cli_help']
+msgid ""
+"set a config var\n"
+"Usage :\n"
+"\t\t\\$sudo -u www-data /usr/bin/php "
+"admin/cli/admin/tool/cmdlinetools/cli/cmdline_manager.php set_config "
+"[options]\n"
+"\n"
+"Options:\n"
+"-h, --help                 print out this help\n"
+"-n, --name=config_name     config name if no prompt mode as "
+"config_param_name if general config parameter or "
+"plugintype_pluginname/config_param_name if plugin param name\n"
+"-v, --value=config_value   config value if no prompt mode\n"
+"-c, --check \t\t\t\tcheck if config name exists"
+msgstr ""
+
+#: $string['settingsnamenotexists_set_config_cli']
+msgid "setting of name {$a} does not exists"
+msgstr ""
+
+#: $string['toofewargs']
+msgid "to few arguments"
+msgstr ""

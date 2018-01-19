@@ -1,0 +1,761 @@
+#. extracted from lang/en/flashcard.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'flashcard', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   flashcard
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addone']
+msgid "Add a new question"
+msgstr ""
+
+#: $string['addthree']
+msgid "Add three new questions"
+msgstr ""
+
+#: $string['answer']
+msgid "Answers"
+msgstr ""
+
+#: $string['answersmediatype']
+msgid "Media type for answers"
+msgstr ""
+
+#: $string['audiostart']
+msgid "Start sounds automatically"
+msgstr ""
+
+#: $string['autodowngrade']
+msgid "Enable autodowngrade"
+msgstr ""
+
+#: $string['autodowngrade_help']
+msgid ""
+"This option enables automatic downgrade of cards. A game is eroded if the "
+"learner does not review the game for some time (see times below). Cards that "
+"are too old back in the packets more difficult to return the first packet. "
+"The erosion rate depends on the setting of various delays for each packet."
+msgstr ""
+
+#: $string['avgaccess']
+msgid "Mean ticks per card"
+msgstr ""
+
+#: $string['backside']
+msgid "Flash Card Back"
+msgstr ""
+
+#: $string['backtocourse']
+msgid "Back to course"
+msgstr ""
+
+#: $string['backtodecks']
+msgid "Back to the deck table"
+msgstr ""
+
+#: $string['badcards']
+msgid "Rejected card(s):"
+msgstr ""
+
+#: $string['bothmodels']
+msgid "Both Leitner and free training"
+msgstr ""
+
+#: $string['bycards']
+msgid "By cards"
+msgstr ""
+
+#: $string['byusers']
+msgid "By users"
+msgstr ""
+
+#: $string['card']
+msgid "Card"
+msgstr ""
+
+#: $string['cardback']
+msgid "Back card image"
+msgstr ""
+
+#: $string['cardfront']
+msgid "Front card image"
+msgstr ""
+
+#: $string['cardsep']
+msgid "Card Separator in text import:"
+msgstr ""
+
+#: $string['cardsindeck']
+msgid "Remains : {$a} card(s)"
+msgstr ""
+
+#: $string['cardsread']
+msgid "Card(s) read:"
+msgstr ""
+
+#: $string['cardsremaining']
+msgid "Cards Remaining"
+msgstr ""
+
+#: $string['commands']
+msgctxt "$string['commands']"
+msgid ""
+msgstr ""
+
+#: $string['completionallgoodenabled']
+msgid "Student must bring all cards in last deck to complete"
+msgstr ""
+
+#: $string['completionallgoodgroup']
+msgid "Require all cards are known"
+msgstr ""
+
+#: $string['completionallgoodhelp']
+msgid "requiring all cards are in last deck to complete"
+msgstr ""
+
+#: $string['completionallviewed']
+msgid ""
+"Student must have viewed all cards once or at least some amount of them "
+"(cards):"
+msgstr ""
+
+#: $string['completionallviewedgroup']
+msgid "Require viewing all cards"
+msgstr ""
+
+#: $string['completiondiscussionshelp']
+msgid "requiring that all cards are viewed at least once"
+msgstr ""
+
+#: $string['confirm']
+msgid "Confirm:"
+msgstr ""
+
+#: $string['counters']
+msgid "Counters"
+msgstr ""
+
+#: $string['customisationfiles']
+msgid "Card customisation files"
+msgstr ""
+
+#: $string['deck']
+msgid "Deck"
+msgstr ""
+
+#: $string['deck1_delay']
+msgid "Review triggering delay (deck 1)"
+msgstr ""
+
+#: $string['deck2_delay']
+msgid "Review triggering delay (deck 2)"
+msgstr ""
+
+#: $string['deck2_release']
+msgid "Autodowngrade overtime (deck 2)"
+msgstr ""
+
+#: $string['deck3_delay']
+msgid "Review triggering delay (deck 3)"
+msgstr ""
+
+#: $string['deck3_release']
+msgid "Autodowngrade overtime (deck 3)"
+msgstr ""
+
+#: $string['deck4_delay']
+msgid "Review triggering delay (deck 4)"
+msgstr ""
+
+#: $string['deck4_release']
+msgid "Autodowngrade overtime (deck 4)"
+msgstr ""
+
+#: $string['deck_delay']
+msgid "Review triggering"
+msgstr ""
+
+#: $string['deck_delay_help']
+msgid "Adjustable time in hours at which the packet is marked to be revised."
+msgstr ""
+
+#: $string['deck_release']
+msgid "Autodowngrade"
+msgstr ""
+
+#: $string['deck_release_help']
+msgid ""
+"Time in hours after which the cards go back into the upper deck. Each packet "
+"can be set differently."
+msgstr ""
+
+#: $string['decks']
+msgid "Decks"
+msgstr ""
+
+#: $string['decks_help']
+msgid ""
+"Allows choosing 2, 3, or 4 decks.\n"
+"\n"
+"Typically, the Leitner system uses 3 decks. 4 decks will enlarge the "
+"memorization cycle so more difficult or larger cardsets can be learned. 2 "
+"decks will be convenient for easy sets or small size ensembles."
+msgstr ""
+
+#: $string['deckstates']
+msgid "Decks state"
+msgstr ""
+
+#: $string['deleteselected']
+msgid "Delete selected cards"
+msgstr ""
+
+#: $string['deleteselection']
+msgid "Delete the selection"
+msgstr ""
+
+#: $string['difficultcards']
+msgid "Hard set"
+msgstr ""
+
+#: $string['easycards']
+msgid "Easy set"
+msgstr ""
+
+#: $string['edit']
+msgid "Edit the cards"
+msgstr ""
+
+#: $string['editingcards1']
+msgctxt "$string['editingcards1']"
+msgid "Edit Flashcard Set"
+msgstr ""
+
+#: $string['editingcards2']
+msgctxt "$string['editingcards2']"
+msgid "Edit Flashcard Set"
+msgstr ""
+
+#: $string['emptydeck']
+msgid "Empty deck image"
+msgstr ""
+
+#: $string['emptyset']
+msgid "Flashcard Set is Empty"
+msgstr ""
+
+#: $string['endtime']
+msgid "End of time"
+msgstr ""
+
+#: $string['erroraddcard']
+msgid "Could not add card to deck"
+msgstr ""
+
+#: $string['errorbindcard']
+msgid "Could not bind card to user {$a} deck"
+msgstr ""
+
+#: $string['errordeletecard']
+msgid "Could not delete cards from deck"
+msgstr ""
+
+#: $string['errorupdatecard']
+msgid "Could not update deck card"
+msgstr ""
+
+#: $string['extracss']
+msgid "Extra css"
+msgstr ""
+
+#: $string['fieldsep']
+msgid "Field separator:"
+msgstr ""
+
+#: $string['flashcard:addinstance']
+msgid "Add a flashcard"
+msgstr ""
+
+#: $string['flashcard:canplayfree']
+msgid "Play free"
+msgstr ""
+
+#: $string['flashcard:manage']
+msgid "Manage the cards"
+msgstr ""
+
+#: $string['flashcardneedsreview']
+msgid "Flashcard needs review"
+msgstr ""
+
+#: $string['flipdeck']
+msgid "Flip answers and questions"
+msgstr ""
+
+#: $string['flipdeck_help']
+msgid ""
+"This option allows invert the cards. If enabled, questions will be written "
+"on the cards backside as if they were answers and vice-versa."
+msgstr ""
+
+#: $string['forcereload']
+msgid "Force reloading from question"
+msgstr ""
+
+#: $string['forcereload_help']
+msgid ""
+"Force Reloading Cardset\n"
+"\n"
+"Checking this checkbox will force the cardset to be reloaded with data from "
+"the choosen matching question.\n"
+"\n"
+"All previously recorded user data will be deleted and all accounts will be "
+"reset."
+msgstr ""
+
+#: $string['freegame']
+msgid "Free play"
+msgstr ""
+
+#: $string['freeplayinstructions']
+msgid ""
+"Consider each card in the deck. If you think you know what the presented "
+"term means, click it to flip the card over and check your answer. If you got "
+"it right, click \"Remove\" to remove it from the deck. If you don&apos;t know "
+"the answer or are incorrect, go to the next card. When you have gone "
+"through all of the cards, review the course materials for information on the "
+"terms you don&apos;t know and try those cards again."
+msgstr ""
+
+#: $string['freeuse']
+msgid "Free training"
+msgstr ""
+
+#: $string['frontside']
+msgid "Flash Card Front"
+msgstr ""
+
+#: $string['goodcards']
+msgid "Valid card(s) :"
+msgstr ""
+
+#: $string['havetologin']
+msgid "You have to log in before you can submit your choice"
+msgstr ""
+
+#: $string['ifailed']
+msgid "I missed !"
+msgstr ""
+
+#: $string['igotit']
+msgid "I got it !"
+msgstr ""
+
+#: $string['image']
+msgid "image"
+msgstr ""
+
+#: $string['imageplussound']
+msgid "image + sound"
+msgstr ""
+
+#: $string['import']
+msgid "Import"
+msgstr ""
+
+#: $string['importadvice']
+msgid ""
+"When importing new card set, you will remove all old cardset along with the "
+"previous information about user's plays"
+msgstr ""
+
+#: $string['imported']
+msgid "Import:"
+msgstr ""
+
+#: $string['import_help']
+msgid ""
+"You may massively import question/Answer pairs within a flashcard using the\n"
+"card bulk import feature. (Import can only be used for Text/Text "
+"flashcards.)\n"
+"\n"
+"You just need to make a file with a list of questions/answers pairs and "
+"paste the content of that file in the importer's textarea.\n"
+"You may decide to encode this file with some kinds of common separators, on "
+"Linux or\n"
+"Windows systems. The most common may be \"one pair by line\" files, using ':' "
+"or comma to\n"
+"separate questions from answers.\n"
+"\n"
+"Questions will only comme first, and MUST always have an answer. Empty lines "
+"or black lines will be ignored, also those starting with a # or a slash "
+"(/).\n"
+"\n"
+"The importer will make a fast check of the text you want to import. It will "
+"reject\n"
+"the import if the text sequence is not well formed and tell you how many "
+"pairs are wrong in the file.\n"
+"\n"
+"As successfuly importing will erase all data from the decks but also "
+"belonging to participants, a confirmation checkbox needs to be checked in to "
+"force the import to be performed."
+msgstr ""
+
+#: $string['importingcards']
+msgid "Import cards"
+msgstr ""
+
+#: $string['importreport']
+msgid "<b>Flashcard imported new cards:</b>"
+msgstr ""
+
+#: $string['instructions']
+msgid "Click on the flashcard to turn it over and see the other side"
+msgstr ""
+
+#: $string['lastaccessed']
+msgid "Last accessed"
+msgstr ""
+
+#: $string['leitner']
+msgid "Leitner training"
+msgstr ""
+
+#: $string['leitnergame']
+msgid "Leitner play"
+msgstr ""
+
+#: $string['matchingquestion']
+msgid "Matching question from question bank"
+msgstr ""
+
+#: $string['maxaccess']
+msgid "More viewed ticks"
+msgstr ""
+
+#: $string['mediatypes']
+msgid "Media type"
+msgstr ""
+
+#: $string['mediatypes_help']
+msgid ""
+"This list defines the type of media used for questions.\n"
+"\n"
+"* Text: The text entered is literally printed on the cards\n"
+"* Image: The text entered is the location of an image file on the server, "
+"taken from the course files.\n"
+"* Sound: The text entered is the location of a sound file on the server, "
+"taken from the course files."
+msgstr ""
+
+#: $string['mediumeffortcards']
+msgid "Middle effort set"
+msgstr ""
+
+#: $string['minaccess']
+msgid "Less viewed ticks"
+msgstr ""
+
+#: $string['missingimage']
+msgid "{missing image file}"
+msgstr ""
+
+#: $string['missingsound']
+msgid "{missing sound file}"
+msgstr ""
+
+#: $string['missingvid']
+msgid "{missing video file}"
+msgstr ""
+
+#: $string['models']
+msgid "Gameplay"
+msgstr ""
+
+#: $string['models_help']
+msgid "Enable or disable gameplay models"
+msgstr ""
+
+#: $string['modulename']
+msgid "Flash Card Set"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"<p>\n"
+"This module provide students a way of fast memoizing list of \"things\". This "
+"is a typical\n"
+"indexing exercise, where a map of coupled things should be learned and "
+"retained. We say \"thing\"\n"
+"because either key or value could be any related pair of text, images or "
+"sounds.\n"
+"</p>\n"
+"<p>\n"
+"This module implements a full Leitner system to mechanically support the "
+"memoization process\n"
+"of the relationships. The couples to be learned are first attached to a deck "
+"of cards. These are\n"
+"initially considered as difficult to learn. The teacher can choose a "
+"learning curve using 2, 3 or 4 decks.\n"
+"4 decks should be used for large set of definitions. When the student fails "
+"answering a card, he will\n"
+"tell it and let the card stay in the same deck. If he has the correct "
+"answer, he will ask for passing the\n"
+"card to the second deck, so considered as less difficult to learn. The "
+"process is repeated for all decks\n"
+"till the last one where card will remain. The decks are triggered so the "
+"student knows which he should\n"
+"review. Difficult cards will trigger more often thant trivial cards. Trigger "
+"delays are adjustable.\n"
+"</p>\n"
+"<p>\n"
+"When a student do not apply for reviewing decks, cards may downgrade "
+"automatically to an higher difficulty\n"
+"deck.\n"
+"</p>\n"
+"<p>\n"
+"The module allows also a free use of the cards, enabled by module "
+"configuration. The module is\n"
+"customisable graphically using a teacher defined CSS and image set.\n"
+"</p>"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Flash Cards"
+msgstr ""
+
+#: $string['next']
+msgid "Next card"
+msgstr ""
+
+#: $string['nocards']
+msgid "No cards defined."
+msgstr ""
+
+#: $string['noflashcards']
+msgid "No flashcards in this course."
+msgstr ""
+
+#: $string['nomorecards']
+msgid "No more cards."
+msgstr ""
+
+#: $string['nosubquestions']
+msgid "Error: Missing subquestions for this question!"
+msgstr ""
+
+#: $string['notifications']
+msgid "Notifications"
+msgstr ""
+
+#: $string['notify_review_html_tpl']
+msgid ""
+"<p>Hi <%%FULLNAME%%></p>\n"
+"\n"
+"<p>A flashcard activity is requiring your attention. You have some cards to "
+"review\n"
+"in course <b><%%COURSE%%></b> : </p>\n"
+"\n"
+"<a href=\"<%%URL%%>\"><%%URL%%></a>"
+msgstr ""
+
+#: $string['notify_review_tpl']
+msgid ""
+"Hi <%%FULLNAME%%>\n"
+"\n"
+"A flashcard activity is requiring your attention. You have some cards to "
+"review\n"
+"in course <%%COURSE%%> :\n"
+"\n"
+"<%%URL%%>"
+msgstr ""
+
+#: $string['notinitialized']
+msgid "This student never used this flashcard."
+msgstr ""
+
+#: $string['nousers']
+msgid "No student in this course."
+msgstr ""
+
+#: $string['num']
+msgid "N°"
+msgstr ""
+
+#: $string['numericrequired']
+msgid "A number is required."
+msgstr ""
+
+#: $string['outoftimerange']
+msgid "This module is closed by time range. You cannot use it now."
+msgstr ""
+
+#: $string['playwithme']
+msgid "Learn with that deck"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Flashcard administration."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Flashcard"
+msgstr ""
+
+#: $string['previous']
+msgid "Previous card"
+msgstr ""
+
+#: $string['question']
+msgid "Questions"
+msgstr ""
+
+#: $string['questionid']
+msgctxt "$string['questionid']"
+msgid "Question to import"
+msgstr ""
+
+#: $string['questionsmediatype']
+msgid "Question media type"
+msgstr ""
+
+#: $string['reinforce']
+msgid "Review this deck"
+msgstr ""
+
+#: $string['remindusers']
+msgid "Remind users"
+msgstr ""
+
+#: $string['removecard']
+msgid "Remove card"
+msgstr ""
+
+#: $string['reset']
+msgid "Reset cardset"
+msgstr ""
+
+#: $string['resetflashcardstates']
+msgid "Reset all flashcard states"
+msgstr ""
+
+#: $string['reviewback']
+msgid "Needs review deck image"
+msgstr ""
+
+#: $string['reviewedback']
+msgid "Reviewed deck image"
+msgstr ""
+
+#: $string['reviewedempty']
+msgid "Empty reviewed deck image"
+msgstr ""
+
+#: $string['sound']
+msgid "sound"
+msgstr ""
+
+#: $string['sourcequestion']
+msgctxt "$string['sourcequestion']"
+msgid "Question to import"
+msgstr ""
+
+#: $string['sourcequestion_help']
+msgid ""
+"Choose a question as a source.\n"
+"\n"
+"You may quickly setup a flashcard deck from a matching question of the "
+"question base. To proceed, choose a question in the list and check the "
+"\"force reload\" checkbox. All previous cards will be deleted and the "
+"flashcard will be reloaded with the question data.\n"
+"\n"
+"Warning : changing cards using card editor WILL NOT change back question "
+"content in the question base."
+msgstr ""
+
+#: $string['starttime']
+msgid "Start time"
+msgstr ""
+
+#: $string['stylesheet']
+msgid "Obtain the stylesheet"
+msgstr ""
+
+#: $string['styling']
+msgid "Customisation"
+msgstr ""
+
+#: $string['sumaccess']
+msgid "Total viewed cards"
+msgstr ""
+
+#: $string['summary']
+msgid "Flash Card Set Summary"
+msgstr ""
+
+#: $string['teachersummary']
+msgid "Summary"
+msgstr ""
+
+#: $string['text']
+msgid "text"
+msgstr ""
+
+#: $string['timetoreview']
+msgid "{$a} days remaining before review"
+msgstr ""
+
+#: $string['trivialcards']
+msgid "Trivial cards"
+msgstr ""
+
+#: $string['undefinedquestionset']
+msgid "No matching question was elected in quizzes for this flashcard set"
+msgstr ""
+
+#: $string['userdecks']
+msgid "Users' decks"
+msgstr ""
+
+#: $string['userdecksummary']
+msgid ""
+"Deck {$a->deckid}: {$a->count} cards ({$a->cardcount} hits in total on the "
+"deck)"
+msgstr ""
+
+#: $string['video']
+msgid "Video"
+msgstr ""
+
+#: $string['viewed']
+msgid "Viewes"
+msgstr ""

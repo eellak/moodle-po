@@ -1,0 +1,342 @@
+#. extracted from lang/en/tool_monitor.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'tool_monitor', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   tool_monitor
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addrule']
+msgid "Add a new rule"
+msgstr ""
+
+#: $string['allevents']
+msgid "All events"
+msgstr ""
+
+#: $string['allmodules']
+msgid "All instances"
+msgstr ""
+
+#: $string['area']
+msgid "Area"
+msgstr ""
+
+#: $string['areatomonitor']
+msgid "Area to monitor"
+msgstr ""
+
+#: $string['cachedef_eventsubscriptions']
+msgid "This stores the list of event subscriptions for individual courses"
+msgstr ""
+
+#: $string['contactadmin']
+msgid "Contact your administrator to enable it."
+msgstr ""
+
+#: $string['core']
+msgid "Core"
+msgstr ""
+
+#: $string['currentsubscriptions']
+msgid "Your current subscriptions"
+msgstr ""
+
+#: $string['defaultmessagetemplate']
+msgid ""
+"Rule name: {rulename}<br />Description: {description}<br />Event name: "
+"{eventname}"
+msgstr ""
+
+#: $string['deleterule']
+msgid "Delete rule"
+msgstr ""
+
+#: $string['deletesubscription']
+msgid "Delete subscription"
+msgstr ""
+
+#: $string['description']
+msgid "Description:"
+msgstr ""
+
+#: $string['disablefieldswarning']
+msgid "Some fields can not be edited as this rule already has subscriptions."
+msgstr ""
+
+#: $string['duplicaterule']
+msgid "Duplicate rule"
+msgstr ""
+
+#: $string['editrule']
+msgid "Edit rule"
+msgstr ""
+
+#: $string['enablehelp']
+msgctxt "$string['enablehelp']"
+msgid "Enable/disable event monitoring"
+msgstr ""
+
+#: $string['enablehelp_help']
+msgid ""
+"Event monitoring must be enabled before you can create and subscribe to "
+"rules. Note that enabling Event monitoring may affect the performance of "
+"your site."
+msgstr ""
+
+#: $string['errorincorrectevent']
+msgid "Please select an event related to the selected plugin"
+msgstr ""
+
+#: $string['event']
+msgid "Event"
+msgstr ""
+
+#: $string['eventnotfound']
+msgid "Event not found"
+msgstr ""
+
+#: $string['eventrulecreated']
+msgid "Rule created"
+msgstr ""
+
+#: $string['eventruledeleted']
+msgid "Rule deleted"
+msgstr ""
+
+#: $string['eventruleupdated']
+msgid "Rule updated"
+msgstr ""
+
+#: $string['eventsubcreated']
+msgid "Subscription created"
+msgstr ""
+
+#: $string['eventsubcriteriamet']
+msgid "Subscription criteria met"
+msgstr ""
+
+#: $string['eventsubdeleted']
+msgid "Subscription deleted"
+msgstr ""
+
+#: $string['freqdesc']
+msgid "{$a->freq} time(s) in {$a->mins} minute(s)"
+msgstr ""
+
+#: $string['frequency']
+msgid "Notification threshold"
+msgstr ""
+
+#: $string['frequency_help']
+msgid ""
+"The number of events within a specified time period required for a "
+"notification message to be sent."
+msgstr ""
+
+#: $string['inminutes']
+msgid "in minutes"
+msgstr ""
+
+#: $string['invalidmodule']
+msgid "Invalid module"
+msgstr ""
+
+#: $string['manage']
+msgid "Manage"
+msgstr ""
+
+#: $string['managerules']
+msgid "Event monitoring rules"
+msgstr ""
+
+#: $string['manageruleslink']
+msgid "You can manage rules from the {$a} page."
+msgstr ""
+
+#: $string['managesubscriptions']
+msgid "Event monitoring"
+msgstr ""
+
+#: $string['managesubscriptionslink']
+msgid "You can subscribe to rules from the {$a} page."
+msgstr ""
+
+#: $string['messageprovider:notification']
+msgid "Notifications of rule subscriptions"
+msgstr ""
+
+#: $string['messagetemplate']
+msgid "Notification message"
+msgstr ""
+
+#: $string['messagetemplate_help']
+msgid ""
+"A notification message is sent to subscribers once the notification "
+"threshold has been reached. It can include any or all of the following "
+"placeholders:\n"
+"<br /><br />\n"
+"* Link to the location of the event {link}<br />\n"
+"* Link to the area monitored {modulelink}<br />\n"
+"* Rule name {rulename}<br />\n"
+"* Description {description}<br />\n"
+"* Event {eventname}"
+msgstr ""
+
+#: $string['messagetemplate_link']
+msgid "admin/tool/monitor/managerules"
+msgstr ""
+
+#: $string['moduleinstance']
+msgid "Instance"
+msgstr ""
+
+#: $string['monitordisabled']
+msgid "Event monitoring is currently disabled."
+msgstr ""
+
+#: $string['monitorenabled']
+msgid "Event monitoring is currently enabled."
+msgstr ""
+
+#: $string['monitor:managerules']
+msgid "Manage event monitor rules"
+msgstr ""
+
+#: $string['monitor:managetool']
+msgctxt "$string['monitor:managetool']"
+msgid "Enable/disable event monitoring"
+msgstr ""
+
+#: $string['monitor:subscribe']
+msgid "Subscribe to event monitor rules"
+msgstr ""
+
+#: $string['norules']
+msgid "There are no event monitoring rules."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Event monitor"
+msgstr ""
+
+#: $string['processevents']
+msgid "Process events"
+msgstr ""
+
+#: $string['ruleareyousure']
+msgid "Are you sure you want to delete the rule \"{$a}\"?"
+msgstr ""
+
+#: $string['ruleareyousureextra']
+msgid "There are {$a} subscription(s) to this rule that will also be deleted."
+msgstr ""
+
+#: $string['rulecopysuccess']
+msgid "Rule successfully duplicated"
+msgstr ""
+
+#: $string['ruledeletesuccess']
+msgid "Rule successfully deleted"
+msgstr ""
+
+#: $string['rulehelp']
+msgid "Rule details"
+msgstr ""
+
+#: $string['rulehelp_help']
+msgid ""
+"This rule listens for when the event '{$a->eventname}' in "
+"'{$a->eventcomponent}' has been triggered {$a->frequency} time(s) in "
+"{$a->minutes} minute(s)."
+msgstr ""
+
+#: $string['rulename']
+msgid "Rule name"
+msgstr ""
+
+#: $string['rulenopermission']
+msgid "You do not have permission to subscribe to any events."
+msgstr ""
+
+#: $string['rulenopermissions']
+msgid "You do not have permissions to \"{$a} a rule\""
+msgstr ""
+
+#: $string['rulescansubscribe']
+msgid "Rules you can subscribe to"
+msgstr ""
+
+#: $string['selectacourse']
+msgid "Select a course"
+msgstr ""
+
+#: $string['selectcourse']
+msgid "Visit this report at course level to get a list of possible modules"
+msgstr ""
+
+#: $string['subareyousure']
+msgid "Are you sure you want to delete the subscription to the rule \"{$a}\"?"
+msgstr ""
+
+#: $string['subcreatesuccess']
+msgid "Subscription successfully created"
+msgstr ""
+
+#: $string['subdeletesuccess']
+msgid "Subscription successfully removed"
+msgstr ""
+
+#: $string['subhelp']
+msgid "Subscription details"
+msgstr ""
+
+#: $string['subhelp_help']
+msgid ""
+"This subscription listens for when the event '{$a->eventname}' has been "
+"triggered in '{$a->moduleinstance}' {$a->frequency} time(s) in {$a->minutes} "
+"minute(s)."
+msgstr ""
+
+#: $string['subscribeto']
+msgid "Subscribe to rule \"{$a}\""
+msgstr ""
+
+#: $string['taskchecksubscriptions']
+msgid "Activate/deactivate invalid rule subscriptions"
+msgstr ""
+
+#: $string['taskcleanevents']
+msgid "Cleanup event monitor events"
+msgstr ""
+
+#: $string['unsubscribe']
+msgid "Unsubscribe"
+msgstr ""

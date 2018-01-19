@@ -1,0 +1,190 @@
+#. extracted from lang/en/block_demostudent.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_demostudent', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   block_demostudent
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['advicefordemostudent']
+msgctxt "$string['advicefordemostudent']"
+msgid ""
+msgstr ""
+
+#: $string['adviceforfirstuse']
+msgid ""
+"Creating a DemoStudent account enrolls a user called DemoStudent\n"
+"                             into your course.  You can then log in as your "
+"DemoStudent to test\n"
+"                             different student experiences in your course."
+msgstr ""
+
+#: $string['adviceforinstructor']
+msgid ""
+"A DemoStudent account has been created in this course.\n"
+"                               Switching to the DemoStudent account will "
+"allow you to:<blockquote>\n"
+"                               <ul><li>View your course as a student\n"
+"                                   <li>Test out group restrictions based on "
+"group membership\n"
+"                                   <li>Test activities to fully experience "
+"what your students see\n"
+"                               </ul></blockquote>"
+msgstr ""
+
+#: $string['advicetwowindows']
+msgid ""
+"<p>Two browsers, both to Moodle logged in,<br>\n"
+"                               One as Instructor, the other its DemoStudent "
+"twin,<br>\n"
+"                               Will prevent the endless switching curse<br>\n"
+"                               From one view to the other, back and forth."
+msgstr ""
+
+#: $string['buttonfordemostudent']
+msgid "Return to my <b>Instructor</b> role"
+msgstr ""
+
+#: $string['buttonforfirstuse']
+msgid "Create a DemoStudent"
+msgstr ""
+
+#: $string['buttonforinstructor']
+msgid "Switch to DemoStudent"
+msgstr ""
+
+#: $string['buttonforunenrol']
+msgid "Unenrol DemoStudent"
+msgstr ""
+
+#: $string['demostudent']
+msgid "DemoStudent View"
+msgstr ""
+
+#: $string['demostudent:addinstance']
+msgid "Add a new DemoStudent block (for instructors only)."
+msgstr ""
+
+#: $string['demostudent:seedemostudentblock']
+msgid "See the DemoStudent block (for instructors and DemoStudents)."
+msgstr ""
+
+#: $string['errorfailedtocreateuser']
+msgid "<hr><h4>ERROR:</h4>User <b>{$a}</b> could not be created.  Sorry."
+msgstr ""
+
+#: $string['errorinstructormasquerade']
+msgid ""
+"<hr><h4>ERROR:</h4>A DemoStudent account cannot view course as\n"
+"                                        instructor.<p>Please log in "
+"again.<hr>"
+msgstr ""
+
+#: $string['errormissingaddinstancecapability']
+msgid ""
+"<hr><h4>ERROR:</h4>You must have\n"
+"                                                "
+"<i>block/demostudent:addinstance</i> capability to create\n"
+"                                                a DemoStudent "
+"account.<p>Please have an administrator check\n"
+"                                                your role and "
+"capabilities.<p>Please log in again.<hr>"
+msgstr ""
+
+#: $string['errorremovenotinstructor']
+msgid ""
+"<hr><h4>ERROR:</h4>Only an instructor can remove their own "
+"DemoStudent.<p>Please log in again.<hr>"
+msgstr ""
+
+#: $string['pluginname']
+msgid "DemoStudent block"
+msgstr ""
+
+#: $string['returntocourse']
+msgid "<p><a href=\"{$a}\">Return</a> to the course."
+msgstr ""
+
+#: $string['roledemostudentdescription']
+msgid ""
+"Role assigned to accounts created through the DemoStudent block, for "
+"instructors to test their courses."
+msgstr ""
+
+#: $string['roledemostudentname']
+msgid "DemoStudent"
+msgstr ""
+
+#: $string['switchfromdemostudentview']
+msgid "Return to Instructor view.  You may need to log in again."
+msgstr ""
+
+#: $string['switchfromfirstuseview']
+msgid "Create and enrol DemoStudent in this course."
+msgstr ""
+
+#: $string['switchfrominstructorview']
+msgid "View course as DemoStudent."
+msgstr ""
+
+#: $string['unenroltip']
+msgid "Remove the DemoStudent from this course."
+msgstr ""
+
+#: $string['viewisdemostudent']
+msgid "You are currently seeing the <b>DemoStudent</b> view."
+msgstr ""
+
+#: $string['viewisfirstuse']
+msgctxt "$string['viewisfirstuse']"
+msgid "You are currently seeing the <b>Instructor</b> view."
+msgstr ""
+
+#: $string['viewisinstructor']
+msgctxt "$string['viewisinstructor']"
+msgid "You are currently seeing the <b>Instructor</b> view."
+msgstr ""
+
+#: $string['warningcoursenotvisible']
+msgid ""
+"<hr><h4>This course is not available to students.</h4>\n"
+"                                      Instructors can edit course settings "
+"to change this.<hr>"
+msgstr ""
+
+#: $string['warningmissingrole']
+msgid ""
+"<hr><h4>WARNING:</h4>A \"demostudent\" role was not found in the database.\n"
+"                                 This may lead to unexpected behaviour of "
+"the DemoStudnet block.\n"
+"                                 Please ask an administrator to verify the "
+"system roles,\n"
+"                                 and reinstall the plugin if necessary.<hr>"
+msgstr ""

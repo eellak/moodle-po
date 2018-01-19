@@ -1,0 +1,139 @@
+#. extracted from lang/en/local_davroot.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'local_davroot', language 'en', branch 'MOODLE_25_STABLE'
+#.  *
+#.  * @package   local_davroot
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['allowconns']
+msgid "Allow connections"
+msgstr ""
+
+#: $string['allowconnsdescr']
+msgid "Allows permitted users to access Moodle Files through WebDAV"
+msgstr ""
+
+#: $string['davroot:canconnect']
+msgid "Allow the user to connect to the WebDAV server exposing Moodle Files"
+msgstr ""
+
+#: $string['lockmanager']
+msgid "Lock Manager"
+msgstr ""
+
+#: $string['lockmanagerdescr']
+msgid "Allows to handle all file-locks centrally in {$a->lockmngrfolder}"
+msgstr ""
+
+#: $string['pluginbrowser']
+msgid "Browser Plugin"
+msgstr ""
+
+#: $string['pluginbrowserdescr']
+msgid "Produces Apache-like indexes for the Moodle virtual File System"
+msgstr ""
+
+#: $string['pluginmount']
+msgid "DavMount Plugin"
+msgstr ""
+
+#: $string['pluginmountdescr']
+msgid ""
+"Adds support for RFC 4709. This spec defines a small document that can tell "
+"a client how to mount a WebDAV server"
+msgstr ""
+
+#: $string['pluginname']
+msgid "DAVRoot"
+msgstr ""
+
+#: $string['pluginnamedescr']
+msgid "Exposes Moodle Files through WebDAV"
+msgstr ""
+
+#: $string['plugintempfilefilter']
+msgid "Temporary File Filter Plugin"
+msgstr ""
+
+#: $string['plugintempfilefilterdescr']
+msgid ""
+"Intercepts known common temporary files created by Operating System and "
+"Applications and place them in a temporary directory, "
+"{$a->tmpfilefilterfolder}"
+msgstr ""
+
+#: $string['readonly']
+msgid "Read-only access"
+msgstr ""
+
+#: $string['readonlydescr']
+msgid "Deny everything but a read-only DAV access (the safest option)"
+msgstr ""
+
+#: $string['slashrep']
+msgid "[slash]"
+msgstr ""
+
+#: $string['urlrewrite']
+msgid "Enable URL rewrite"
+msgstr ""
+
+#: $string['urlrewritedescr']
+msgid ""
+"Allows DAV URLs to be written without the PHP page at the end: {$a->wwwpath}"
+msgstr ""
+
+#: $string['vhostenabled']
+msgid "Enable Virtual Host"
+msgstr ""
+
+#: $string['vhostenableddescr']
+msgid ""
+"Allows WebDAV to be exposed under the root of a Virtual Host configured to "
+"map {$a->dirpath}"
+msgstr ""
+
+#: $string['warnmdl35990']
+msgid ""
+"<span style=\"color: red;\"><a "
+"href=\"http://tracker.moodle.org/browse/MDL-35990\" "
+"target=\"_blank\">MDL-35990</a> prevents DAVRoot to work under the Virtual "
+"Host configuration!</span>"
+msgstr ""
+
+#: $string['warnmdl35990descr']
+msgid ""
+"<span style=\"color: red;\">Expect HTTP Status 500 errors until you'll remove "
+"the line \"<span style=\"font-family: courier new, courier, monospace; color: "
+"black;\">require_once(dirname(dirname(__FILE__)) . '/config.php');</span>\" "
+"from the file <span style=\"font-family: courier new, courier, monospace; "
+"color: black;\">{$a->filepath}</span></span>"
+msgstr ""

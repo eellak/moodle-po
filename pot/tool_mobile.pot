@@ -1,0 +1,309 @@
+#. extracted from lang/en/tool_mobile.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'tool_mobile', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   tool_mobile
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['adodbdebugwarning']
+msgid ""
+"ADOdb debugging is enabled. It should be disabled in the external database "
+"authentication or external database enrolment plugin settings."
+msgstr ""
+
+#: $string['androidappid']
+msgid "Android app's unique identifier"
+msgstr ""
+
+#: $string['androidappid_desc']
+msgid ""
+"This setting may be left as default unless you have a custom Android app."
+msgstr ""
+
+#: $string['autologinkeygenerationlockout']
+msgid ""
+"Auto-login key generation is blocked. You need to wait 6 minutes between "
+"requests."
+msgstr ""
+
+#: $string['autologinnotallowedtoadmins']
+msgid "Auto-login is not allowed for site admins."
+msgstr ""
+
+#: $string['cachedef_plugininfo']
+msgid "This stores the list of plugins with mobile addons"
+msgstr ""
+
+#: $string['clickheretolaunchtheapp']
+msgid "Click here if the app does not open automatically."
+msgstr ""
+
+#: $string['configmobilecssurl']
+msgid "A CSS file to customise your mobile app interface."
+msgstr ""
+
+#: $string['customlangstrings']
+msgid "Custom language strings"
+msgstr ""
+
+#: $string['customlangstrings_desc']
+msgid ""
+"Words and phrases displayed in the app can be customised here. Enter each "
+"custom language string on a new line with format: string identifier, custom "
+"language string and language code, separated by pipe characters. For "
+"example:\n"
+"<pre>\n"
+"mm.user.student|Learner|en\n"
+"mm.user.student|Aprendiz|es\n"
+"</pre>\n"
+"For a complete list of string identifiers, see the documentation."
+msgstr ""
+
+#: $string['custommenuitems']
+msgid "Custom menu items"
+msgstr ""
+
+#: $string['custommenuitems_desc']
+msgid ""
+"Additional items can be added to the app's main menu by specifying them "
+"here. Enter each custom menu item on a new line with format: item text, link "
+"URL, link-opening method and language code (optional, for displaying the "
+"item to users of the specified language only), separated by pipe characters.\n"
+"\n"
+"Link-opening methods are: app (for linking to an activity supported by the "
+"app), inappbrowser (for opening a link in a browser without leaving the "
+"app), browser (for opening the link in the device default browser outside "
+"the app) and embedded (for displaying the link in an iframe in a new page in "
+"the app).\n"
+"\n"
+"For example:\n"
+"<pre>\n"
+"App help|https://someurl.xyz/help|inappbrowser\n"
+"My grades|https://someurl.xyz/local/mygrades/index.php|embedded|en\n"
+"Mis calificaciones|https://someurl.xyz/local/mygrades/index.php|embedded|es\n"
+"</pre>"
+msgstr ""
+
+#: $string['disabledfeatures']
+msgid "Disabled features"
+msgstr ""
+
+#: $string['disabledfeatures_desc']
+msgid ""
+"Select here the features you want to disable in the Mobile app for your "
+"site. Please note that some features listed here could be already disabled "
+"via other site settings. You will have to log out and log in again in the "
+"app to see the changes."
+msgstr ""
+
+#: $string['displayerrorswarning']
+msgid ""
+"Display debug messages (debugdisplay) is enabled. It should be disabled."
+msgstr ""
+
+#: $string['enablesmartappbanners']
+msgid "Enable App Banners"
+msgstr ""
+
+#: $string['enablesmartappbanners_desc']
+msgid ""
+"If enabled, a banner promoting the mobile app will be displayed when "
+"accessing the site using a mobile browser."
+msgstr ""
+
+#: $string['forcedurlscheme']
+msgid ""
+"If you want to allow only your custom branded app to be opened via a browser "
+"window, then specify its URL scheme here; otherwise leave the field empty."
+msgstr ""
+
+#: $string['forcedurlscheme_key']
+msgid "URL scheme"
+msgstr ""
+
+#: $string['forcelogout']
+msgid "Force log out"
+msgstr ""
+
+#: $string['forcelogout_desc']
+msgid ""
+"If enabled, the app option 'Change site' is replaced by 'Log out'. This "
+"results in the user being completely logged out. They must then re-enter "
+"their password the next time they wish to access the site."
+msgstr ""
+
+#: $string['getmoodleonyourmobile']
+msgid "Get the mobile app"
+msgstr ""
+
+#: $string['httpsrequired']
+msgid "HTTPS required"
+msgstr ""
+
+#: $string['insecurealgorithmwarning']
+msgid ""
+"It seems that the HTTPS certificate uses an insecure algorithm for signing "
+"(SHA-1). Please try updating the certificate."
+msgstr ""
+
+#: $string['invalidcertificatechainwarning']
+msgid "It seems that the certificate chain is invalid."
+msgstr ""
+
+#: $string['invalidcertificateexpiredatewarning']
+msgid "It seems that the HTTPS certificate for the site has expired."
+msgstr ""
+
+#: $string['invalidcertificatestartdatewarning']
+msgid ""
+"It seems that the HTTPS certificate for the site is not yet valid (with a "
+"start date in the future)."
+msgstr ""
+
+#: $string['invalidprivatetoken']
+msgid ""
+"Invalid private token. Token should not be empty or passed via GET "
+"parameter."
+msgstr ""
+
+#: $string['invaliduserquotawarning']
+msgid ""
+"The user quota (userquota) is set to an invalid number. It should be set to "
+"a valid number (an integer value) in Site policies."
+msgstr ""
+
+#: $string['iosappid']
+msgid "iOS app's unique identifier"
+msgstr ""
+
+#: $string['iosappid_desc']
+msgid "This setting may be left as default unless you have a custom iOS app."
+msgstr ""
+
+#: $string['loginintheapp']
+msgid "Via the app"
+msgstr ""
+
+#: $string['logininthebrowser']
+msgid "Via a browser window (for SSO plugins)"
+msgstr ""
+
+#: $string['loginintheembeddedbrowser']
+msgid "Via an embedded browser (for SSO plugins)"
+msgstr ""
+
+#: $string['mainmenu']
+msgid "Main menu"
+msgstr ""
+
+#: $string['mobileapp']
+msgid "Mobile app"
+msgstr ""
+
+#: $string['mobileappconnected']
+msgid "Mobile app connected"
+msgstr ""
+
+#: $string['mobileappearance']
+msgid "Mobile appearance"
+msgstr ""
+
+#: $string['mobileappenabled']
+msgid ""
+"This site has mobile app access enabled.<br /><a href=\"{$a}\">Download the "
+"mobile app</a>."
+msgstr ""
+
+#: $string['mobileauthentication']
+msgid "Mobile authentication"
+msgstr ""
+
+#: $string['mobilecssurl']
+msgid "CSS"
+msgstr ""
+
+#: $string['mobilefeatures']
+msgid "Mobile features"
+msgstr ""
+
+#: $string['mobilenotificationsdisabledwarning']
+msgid ""
+"Mobile notifications are not enabled. They should be enabled in Manage "
+"message outputs."
+msgstr ""
+
+#: $string['mobilesettings']
+msgid "Mobile settings"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Moodle Mobile tools"
+msgstr ""
+
+#: $string['pluginnotenabledorconfigured']
+msgid "Plugin not enabled or configured."
+msgstr ""
+
+#: $string['remoteaddons']
+msgid "Remote add-ons"
+msgstr ""
+
+#: $string['selfsignedoruntrustedcertificatewarning']
+msgid ""
+"It seems that the HTTPS certificate is self-signed or not trusted. The "
+"mobile app will only work with trusted sites."
+msgstr ""
+
+#: $string['setuplink']
+msgid "App download page"
+msgstr ""
+
+#: $string['setuplink_desc']
+msgid ""
+"URL of page with links to download the mobile app from the App Store and "
+"Google Play."
+msgstr ""
+
+#: $string['smartappbanners']
+msgid "App Banners"
+msgstr ""
+
+#: $string['typeoflogin']
+msgid "Type of login"
+msgstr ""
+
+#: $string['typeoflogin_desc']
+msgid ""
+"If the site uses a SSO authentication method, then select via a browser "
+"window or via an embedded browser. An embedded browser provides a better "
+"user experience, though it doesn't work with all SSO plugins. If using SSO, "
+"autologinguests should be disabled."
+msgstr ""

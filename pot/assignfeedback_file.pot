@@ -1,0 +1,166 @@
+#. extracted from lang/en/assignfeedback_file.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'assignfeedback_file', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   assignfeedback_file
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['batchoperationconfirmuploadfiles']
+msgid "Upload one or more feedback files for all selected users?"
+msgstr ""
+
+#: $string['batchuploadfiles']
+msgid "Upload feedback files for multiple users"
+msgstr ""
+
+#: $string['batchuploadfilesforusers']
+msgid "Send feedback files to {$a} selected user(s)."
+msgstr ""
+
+#: $string['configmaxbytes']
+msgctxt "$string['configmaxbytes']"
+msgid "Maximum file size"
+msgstr ""
+
+#: $string['confirmuploadzip']
+msgid "Confirm zip upload"
+msgstr ""
+
+#: $string['countfiles']
+msgid "{$a} files"
+msgstr ""
+
+#: $string['default']
+msgid "Enabled by default"
+msgstr ""
+
+#: $string['default_help']
+msgid ""
+"If set, this feedback method will be enabled by default for all new "
+"assignments."
+msgstr ""
+
+#: $string['enabled']
+msgctxt "$string['enabled']"
+msgid "File feedback"
+msgstr ""
+
+#: $string['enabled_help']
+msgid ""
+"If enabled, the teacher will be able to upload files with feedback when "
+"marking the assignments. These files may be, but are not limited to marked "
+"up student submissions, documents with comments or spoken audio feedback."
+msgstr ""
+
+#: $string['feedbackfileadded']
+msgid "New feedback file \"{$a->filename}\" for student \"{$a->student}\""
+msgstr ""
+
+#: $string['feedbackfileupdated']
+msgid "Modified feedback file \"{$a->filename}\" for student \"{$a->student}\""
+msgstr ""
+
+#: $string['feedbackzip']
+msgid "Zip file with feedback files"
+msgstr ""
+
+#: $string['feedbackzip_help']
+msgid ""
+"A zip file containing a list of feedback files for one or more students. "
+"Feedback files will be assigned to students based on the participant id "
+"which should be the second part of each filename immediately after the users "
+"full name. This naming convention is used when downloading submissions so "
+"you can download all submissions, add comments to a few files and then rezip "
+"and upload all of the files. Files with no changes will be ignored."
+msgstr ""
+
+#: $string['file']
+msgid "Feedback files"
+msgstr ""
+
+#: $string['filesadded']
+msgid "Feedback files added: {$a}"
+msgstr ""
+
+#: $string['filesupdated']
+msgid "Feedback files updated: {$a}"
+msgstr ""
+
+#: $string['importfeedbackfiles']
+msgid "Import feedback file(s)"
+msgstr ""
+
+#: $string['maxbytes']
+msgctxt "$string['maxbytes']"
+msgid "Maximum file size"
+msgstr ""
+
+#: $string['maxfiles']
+msgid "Maximum number of uploaded files"
+msgstr ""
+
+#: $string['maximumsize']
+msgctxt "$string['maximumsize']"
+msgid "Maximum file size"
+msgstr ""
+
+#: $string['moreusers']
+msgid "{$a} more..."
+msgstr ""
+
+#: $string['nochanges']
+msgid "No changes"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "File feedback"
+msgstr ""
+
+#: $string['selectedusers']
+msgid "Selected users"
+msgstr ""
+
+#: $string['uploadfiles']
+msgid "Send feedback files"
+msgstr ""
+
+#: $string['uploadzip']
+msgid "Upload multiple feedback files in a zip"
+msgstr ""
+
+#: $string['uploadzipsummary']
+msgid "Feedback files imported from a zip"
+msgstr ""
+
+#: $string['userswithnewfeedback']
+msgid "Users with updated feedback: {$a}"
+msgstr ""

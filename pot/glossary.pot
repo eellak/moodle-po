@@ -1,0 +1,1205 @@
+#. extracted from lang/en/glossary.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'glossary', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   glossary
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addcomment']
+msgid "Add comment"
+msgstr ""
+
+#: $string['addentry']
+msgid "Add a new entry"
+msgstr ""
+
+#: $string['addingcomment']
+msgid "Add a comment"
+msgstr ""
+
+#: $string['alias']
+msgid "Keyword"
+msgstr ""
+
+#: $string['aliases']
+msgid "Keyword(s)"
+msgstr ""
+
+#: $string['aliases_help']
+msgid ""
+"Each glossary entry can have an associated list of keywords (or aliases). If "
+"the entry is auto-linked, then any keywords will also be auto-linked.\n"
+"\n"
+"Enter each keyword on a new line (not separated by commas)."
+msgstr ""
+
+#: $string['allcategories']
+msgid "All categories"
+msgstr ""
+
+#: $string['allentries']
+msgid "ALL"
+msgstr ""
+
+#: $string['allowcomments']
+msgid "Allow comments on entries"
+msgstr ""
+
+#: $string['allowcomments_help']
+msgid ""
+"If enabled, all participants with permission to create comments will be able "
+"to add comments to glossary entries."
+msgstr ""
+
+#: $string['allowduplicatedentries']
+msgid "Duplicate entries allowed"
+msgstr ""
+
+#: $string['allowduplicatedentries_help']
+msgid "If enabled, multiple entries can have the same concept name."
+msgstr ""
+
+#: $string['allowprintview']
+msgid "Allow print view"
+msgstr ""
+
+#: $string['allowprintview_help']
+msgid ""
+"If enabled, students are provided with a link to a printer-friendly version "
+"of the glossary. The link is always available to teachers."
+msgstr ""
+
+#: $string['andmorenewentries']
+msgid "and {$a} more new entries."
+msgstr ""
+
+#: $string['answer']
+msgid "Answer"
+msgstr ""
+
+#: $string['approvaldisplayformat']
+msgid "Approval display format"
+msgstr ""
+
+#: $string['approvaldisplayformat_help']
+msgid ""
+"When approving glossary items you may wish to use a different display format"
+msgstr ""
+
+#: $string['approve']
+msgid "Approve"
+msgstr ""
+
+#: $string['areaattachment']
+msgid "Attachments"
+msgstr ""
+
+#: $string['areaentry']
+msgctxt "$string['areaentry']"
+msgid "Definitions"
+msgstr ""
+
+#: $string['areyousuredelete']
+msgid "Are you sure you want to delete this entry?"
+msgstr ""
+
+#: $string['areyousuredeletecomment']
+msgid "Are you sure you want to delete this comment?"
+msgstr ""
+
+#: $string['areyousureexport']
+msgid "Are you sure you want to export this entry to"
+msgstr ""
+
+#: $string['ascending']
+msgid "ascending"
+msgstr ""
+
+#: $string['attachment']
+msgid "Attachment"
+msgstr ""
+
+#: $string['attachment_help']
+msgid "You can optionally attach one or more files to a glossary entry."
+msgstr ""
+
+#: $string['author']
+msgid "author"
+msgstr ""
+
+#: $string['authorview']
+msgid "Browse by Author"
+msgstr ""
+
+#: $string['back']
+msgid "Back"
+msgstr ""
+
+#: $string['cachedef_concepts']
+msgid "Concept linking"
+msgstr ""
+
+#: $string['cantinsertcat']
+msgid "Can't insert category"
+msgstr ""
+
+#: $string['cantinsertrec']
+msgid "Can't insert record"
+msgstr ""
+
+#: $string['cantinsertrel']
+msgid "Can't insert relation category-entry"
+msgstr ""
+
+#: $string['casesensitive']
+msgid "This entry is case sensitive"
+msgstr ""
+
+#: $string['casesensitive_help']
+msgid ""
+"This setting specifies whether matching exact upper and lower case is "
+"necessary when auto-linking to an entry."
+msgstr ""
+
+#: $string['cat']
+msgid "cat"
+msgstr ""
+
+#: $string['categories']
+msgid "Categories"
+msgstr ""
+
+#: $string['category']
+msgid "Category"
+msgstr ""
+
+#: $string['categorydeleted']
+msgid "Category deleted"
+msgstr ""
+
+#: $string['categoryview']
+msgid "Browse by category"
+msgstr ""
+
+#: $string['changeto']
+msgid "change to {$a}"
+msgstr ""
+
+#: $string['cnfallowcomments']
+msgid "Define if a glossary will accept comments on entries by default"
+msgstr ""
+
+#: $string['cnfallowdupentries']
+msgid "Define if a glossary will allows duplicated entries by default"
+msgstr ""
+
+#: $string['cnfapprovalstatus']
+msgid "Define the approval status by default of an entry posted by a student"
+msgstr ""
+
+#: $string['cnfcasesensitive']
+msgid "Define if an entry, when linked, is case sensitive by default"
+msgstr ""
+
+#: $string['cnfdefaulthook']
+msgid "Select the default selection to show when the glossary is first viewed"
+msgstr ""
+
+#: $string['cnfdefaultmode']
+msgid "Select the default frame to show when the glossary is first viewed."
+msgstr ""
+
+#: $string['cnffullmatch']
+msgid ""
+"Define if an entry, when linked, should match the case in the target text by "
+"default"
+msgstr ""
+
+#: $string['cnflinkentry']
+msgid "Define if an entry should be automatically linked by default"
+msgstr ""
+
+#: $string['cnflinkglossaries']
+msgid "Define if a glossary should be automatically linked by default"
+msgstr ""
+
+#: $string['cnfrelatedview']
+msgid ""
+"Select the display format to be used for automatic linking and entry view."
+msgstr ""
+
+#: $string['cnfshowgroup']
+msgid "Specify if the group break should be shown or not."
+msgstr ""
+
+#: $string['cnfsortkey']
+msgid "Select the sorting key by default."
+msgstr ""
+
+#: $string['cnfsortorder']
+msgid "Select the sorting order by default."
+msgstr ""
+
+#: $string['cnfstudentcanpost']
+msgid "Define if the students can or cannot post entries by default"
+msgstr ""
+
+#: $string['cnftabs']
+msgid "Select visible tabs for this glossary format"
+msgstr ""
+
+#: $string['comment']
+msgid "Comment"
+msgstr ""
+
+#: $string['commentdeleted']
+msgid "The comment has been deleted."
+msgstr ""
+
+#: $string['comments']
+msgid "Comments"
+msgstr ""
+
+#: $string['commentson']
+msgid "Comments on"
+msgstr ""
+
+#: $string['commentupdated']
+msgid "The comment has been updated."
+msgstr ""
+
+#: $string['completionentries']
+msgid "Student must create entries:"
+msgstr ""
+
+#: $string['completionentriesdesc']
+msgid "Student must create at least {$a} entry/entries"
+msgstr ""
+
+#: $string['completionentriesgroup']
+msgid "Require entries"
+msgstr ""
+
+#: $string['concept']
+msgid "Concept"
+msgstr ""
+
+#: $string['concepts']
+msgid "Concepts"
+msgstr ""
+
+#: $string['configenablerssfeeds']
+msgid ""
+"This switch will enable the possibility of RSS feeds for all glossaries.  "
+"You will still need to turn feeds on manually in the settings for each "
+"glossary."
+msgstr ""
+
+#: $string['current']
+msgid "Currently sorted {$a}"
+msgstr ""
+
+#: $string['currentglossary']
+msgid "Current glossary"
+msgstr ""
+
+#: $string['date']
+msgid "date"
+msgstr ""
+
+#: $string['dateview']
+msgid "Browse by date"
+msgstr ""
+
+#: $string['defaultapproval']
+msgid "Approved by default"
+msgstr ""
+
+#: $string['defaultapproval_help']
+msgid ""
+"If set to no, entries require approving by a teacher before they are "
+"viewable by everyone."
+msgstr ""
+
+#: $string['defaulthook']
+msgid "Default hook"
+msgstr ""
+
+#: $string['defaultmode']
+msgid "Default mode"
+msgstr ""
+
+#: $string['defaultsortkey']
+msgid "Default sort key"
+msgstr ""
+
+#: $string['defaultsortorder']
+msgid "Default sort order"
+msgstr ""
+
+#: $string['definition']
+msgid "Definition"
+msgstr ""
+
+#: $string['definitions']
+msgctxt "$string['definitions']"
+msgid "Definitions"
+msgstr ""
+
+#: $string['deleteentry']
+msgid "Delete entry"
+msgstr ""
+
+#: $string['deleteentrya']
+msgid "Delete entry: {$a}"
+msgstr ""
+
+#: $string['deletenotenrolled']
+msgid "Delete entries by users not enrolled"
+msgstr ""
+
+#: $string['deletingcomment']
+msgid "Deleting comment"
+msgstr ""
+
+#: $string['deletingnoneemptycategory']
+msgid ""
+"Deleting this category will not delete the entries it contains - they will "
+"be marked as uncategorised."
+msgstr ""
+
+#: $string['descending']
+msgid "descending"
+msgstr ""
+
+#: $string['destination']
+msgid "Destination of imported entries"
+msgstr ""
+
+#: $string['destination_help']
+msgid ""
+"Entries can either be imported and added to the current glossary or to a new "
+"glossary, in which case a new glossary will be created based on information "
+"in the XML file."
+msgstr ""
+
+#: $string['disapprove']
+msgid "Undo approval"
+msgstr ""
+
+#: $string['displayformat']
+msgid "Display format"
+msgstr ""
+
+#: $string['displayformatcontinuous']
+msgid "Continuous without author"
+msgstr ""
+
+#: $string['displayformatdefault']
+msgid "Default to same as display format"
+msgstr ""
+
+#: $string['displayformatdictionary']
+msgid "Simple, dictionary style"
+msgstr ""
+
+#: $string['displayformatencyclopedia']
+msgid "Encyclopedia"
+msgstr ""
+
+#: $string['displayformatentrylist']
+msgid "Entry list"
+msgstr ""
+
+#: $string['displayformatfaq']
+msgid "FAQ"
+msgstr ""
+
+#: $string['displayformatfullwithauthor']
+msgid "Full with author"
+msgstr ""
+
+#: $string['displayformatfullwithoutauthor']
+msgid "Full without author"
+msgstr ""
+
+#: $string['displayformat_help']
+msgid ""
+"There are 7 display formats:\n"
+"\n"
+"* Simple, dictionary style - No authors are displayed and attachments are "
+"shown as links\n"
+"* Continuous without author - Entries are displayed one after another "
+"without any separation apart from the editing icons\n"
+"* Full with author - A forum-like display format showing the author's data "
+"and with attachments shown as links\n"
+"* Full without author - A forum-like display format without authors and with "
+"attachments shown as links\n"
+"* Encyclopedia - As for \"Full with author\" but attached images are shown "
+"inline\n"
+"* Entry list - Concepts are listed as links\n"
+"* FAQ - The words QUESTION and ANSWER are appended to the concept and "
+"definition respectively"
+msgstr ""
+
+#: $string['displayformats']
+msgid "Display formats"
+msgstr ""
+
+#: $string['displayformatssetup']
+msgid "Display formats setup"
+msgstr ""
+
+#: $string['duplicatecategory']
+msgid "Duplicate category"
+msgstr ""
+
+#: $string['duplicateentry']
+msgid "Duplicate entry"
+msgstr ""
+
+#: $string['editalways']
+msgid "Always allow editing"
+msgstr ""
+
+#: $string['editalways_help']
+msgid ""
+"This setting specifies whether entries are always editable or whether "
+"students can only edit their entries during a configured editing time "
+"(usually 30 minutes)."
+msgstr ""
+
+#: $string['editcategories']
+msgid "Edit categories"
+msgstr ""
+
+#: $string['editentry']
+msgid "Edit entry"
+msgstr ""
+
+#: $string['editentrya']
+msgid "Edit entry: {$a}"
+msgstr ""
+
+#: $string['editingcomment']
+msgid "Editing comment"
+msgstr ""
+
+#: $string['entbypage']
+msgid "Entries shown per page"
+msgstr ""
+
+#: $string['entries']
+msgid "Entries"
+msgstr ""
+
+#: $string['entrieswithoutcategory']
+msgid "Entries without category"
+msgstr ""
+
+#: $string['entry']
+msgid "Entry"
+msgstr ""
+
+#: $string['entryalreadyexist']
+msgid "Entry already exists"
+msgstr ""
+
+#: $string['entryapproved']
+msgid "This entry has been approved"
+msgstr ""
+
+#: $string['entrydeleted']
+msgid "Entry deleted"
+msgstr ""
+
+#: $string['entryexported']
+msgid "Entry successfully exported"
+msgstr ""
+
+#: $string['entryishidden']
+msgid "(this entry is currently hidden)"
+msgstr ""
+
+#: $string['entryleveldefaultsettings']
+msgid "Entry level default settings"
+msgstr ""
+
+#: $string['entrylink']
+msgid "Entry link: {$a}"
+msgstr ""
+
+#: $string['entrysaved']
+msgid "This entry has been saved"
+msgstr ""
+
+#: $string['entryupdated']
+msgid "This entry has been updated"
+msgstr ""
+
+#: $string['entryusedynalink']
+msgid "This entry should be automatically linked"
+msgstr ""
+
+#: $string['entryusedynalink_help']
+msgid ""
+"If site-wide glossary auto-linking has been enabled by an administrator and "
+"this checkbox is ticked, the entry will be automatically linked wherever the "
+"concept words and phrases appear throughout the rest of the course."
+msgstr ""
+
+#: $string['errcannoteditothers']
+msgid "You cannot edit other people's entries."
+msgstr ""
+
+#: $string['errconceptalreadyexists']
+msgid "This concept already exists. No duplicates allowed in this glossary."
+msgstr ""
+
+#: $string['errdeltimeexpired']
+msgid "You can't delete this. Time expired!"
+msgstr ""
+
+#: $string['erredittimeexpired']
+msgid "The editing time for this entry has expired."
+msgstr ""
+
+#: $string['errorparsingxml']
+msgid ""
+"Errors occurred while parsing the file. Make sure it is valid XML syntax."
+msgstr ""
+
+#: $string['eventcategorycreated']
+msgid "Category has been created"
+msgstr ""
+
+#: $string['eventcategorydeleted']
+msgid "Category has been deleted"
+msgstr ""
+
+#: $string['eventcategoryupdated']
+msgid "Category has been updated"
+msgstr ""
+
+#: $string['evententryapproved']
+msgid "Entry has been approved"
+msgstr ""
+
+#: $string['evententrycreated']
+msgid "Entry has been created"
+msgstr ""
+
+#: $string['evententrydeleted']
+msgid "Entry has been deleted"
+msgstr ""
+
+#: $string['evententrydisapproved']
+msgid "Entry has been disapproved"
+msgstr ""
+
+#: $string['evententryupdated']
+msgid "Entry has been updated"
+msgstr ""
+
+#: $string['evententryviewed']
+msgid "Entry has been viewed"
+msgstr ""
+
+#: $string['explainaddentry']
+msgid ""
+"Add a new entry to the current glossary.<br />Concept and definition are "
+"mandatory fields."
+msgstr ""
+
+#: $string['explainall']
+msgid "Shows ALL entries on one page"
+msgstr ""
+
+#: $string['explainalphabet']
+msgid "Browse the glossary using this index"
+msgstr ""
+
+#: $string['explainexport']
+msgid ""
+"Click on the button below to export glossary entries.<br />You can import it "
+"anytime you wish in this or other course.<p>Please note that attachments "
+"(e.g. images) and authors are not exported.</p>"
+msgstr ""
+
+#: $string['explainimport']
+msgid ""
+"You must specify the file to import and define the criteria of the "
+"process.<p>Submit your request and review the results.</p>"
+msgstr ""
+
+#: $string['explainspecial']
+msgid "Shows entries that do not begin with a letter"
+msgstr ""
+
+#: $string['exportedentry']
+msgid "Exported entry"
+msgstr ""
+
+#: $string['exportentries']
+msgctxt "$string['exportentries']"
+msgid "Export entries"
+msgstr ""
+
+#: $string['exportentriestoxml']
+msgid "Export entries to XML file"
+msgstr ""
+
+#: $string['exportfile']
+msgid "Export entries to file"
+msgstr ""
+
+#: $string['exportglossary']
+msgid "Export glossary"
+msgstr ""
+
+#: $string['exporttomainglossary']
+msgid "Export to main glossary"
+msgstr ""
+
+#: $string['filetoimport']
+msgid "File to import"
+msgstr ""
+
+#: $string['filetoimport_help']
+msgid ""
+"Browse for and select the XML file on your computer which contains the "
+"entries to import."
+msgstr ""
+
+#: $string['fillfields']
+msgid "Concept and definition are mandatory fields."
+msgstr ""
+
+#: $string['filtername']
+msgid "Glossary auto-linking"
+msgstr ""
+
+#: $string['fullmatch']
+msgid "Match whole words only"
+msgstr ""
+
+#: $string['fullmatch_help']
+msgid ""
+"This setting specifies whether only whole words will be linked, for example, "
+"a glossary entry named \"construct\" will not create a link inside the word "
+"\"constructivism\"."
+msgstr ""
+
+#: $string['glossary:addinstance']
+msgid "Add a new glossary"
+msgstr ""
+
+#: $string['glossary:approve']
+msgid "Approve and undo approved entries"
+msgstr ""
+
+#: $string['glossary:comment']
+msgid "Create comments"
+msgstr ""
+
+#: $string['glossary:export']
+msgctxt "$string['glossary:export']"
+msgid "Export entries"
+msgstr ""
+
+#: $string['glossary:exportentry']
+msgid "Export single entry"
+msgstr ""
+
+#: $string['glossary:exportownentry']
+msgid "Export single entry of yours"
+msgstr ""
+
+#: $string['glossary:import']
+msgctxt "$string['glossary:import']"
+msgid "Import entries"
+msgstr ""
+
+#: $string['glossaryleveldefaultsettings']
+msgid "Glossary level default settings"
+msgstr ""
+
+#: $string['glossary:managecategories']
+msgid "Manage categories"
+msgstr ""
+
+#: $string['glossary:managecomments']
+msgid "Manage comments"
+msgstr ""
+
+#: $string['glossary:manageentries']
+msgid "Manage entries"
+msgstr ""
+
+#: $string['glossary:rate']
+msgid "Rate entries"
+msgstr ""
+
+#: $string['glossarytype']
+msgid "Glossary type"
+msgstr ""
+
+#: $string['glossarytype_help']
+msgid ""
+"A main glossary is a glossary in which entries from secondary glossaries can "
+"be imported. There can only be one main glossary in a course. If glossary "
+"entry import is not required, all glossaries in the course can be secondary "
+"glossaries."
+msgstr ""
+
+#: $string['glossary:view']
+msgid "View glossary"
+msgstr ""
+
+#: $string['glossary:viewallratings']
+msgid "View all raw ratings given by individuals"
+msgstr ""
+
+#: $string['glossary:viewanyrating']
+msgid "View total ratings that anyone received"
+msgstr ""
+
+#: $string['glossary:viewrating']
+msgid "View the total rating you received"
+msgstr ""
+
+#: $string['glossary:write']
+msgid "Create new entries"
+msgstr ""
+
+#: $string['guestnoedit']
+msgid "Guests are not allowed to edit glossaries"
+msgstr ""
+
+#: $string['importcategories']
+msgid "Import categories"
+msgstr ""
+
+#: $string['importedcategories']
+msgid "Imported categories"
+msgstr ""
+
+#: $string['importedentries']
+msgid "Imported entries"
+msgstr ""
+
+#: $string['importentries']
+msgctxt "$string['importentries']"
+msgid "Import entries"
+msgstr ""
+
+#: $string['importentriesfromxml']
+msgid "Import entries from XML file"
+msgstr ""
+
+#: $string['includegroupbreaks']
+msgid "Include group breaks"
+msgstr ""
+
+#: $string['indicator:cognitivedepth']
+msgid "Glossary cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepth_help']
+msgid ""
+"This indicator is based on the cognitive depth reached by the student in a "
+"Glossary activity."
+msgstr ""
+
+#: $string['indicator:socialbreadth']
+msgid "Glossary social"
+msgstr ""
+
+#: $string['indicator:socialbreadth_help']
+msgid ""
+"This indicator is based on the social breadth reached by the student in a "
+"Glossary activity."
+msgstr ""
+
+#: $string['isglobal']
+msgid "Is this glossary global?"
+msgstr ""
+
+#: $string['isglobal_help']
+msgid ""
+"A global glossary has entries which are linked to from throughout the site, "
+"rather than only in the course that the glossary is in. Only administrators "
+"can set a glossary as global."
+msgstr ""
+
+#: $string['letter']
+msgid "letter"
+msgstr ""
+
+#: $string['linkcategory']
+msgid "Automatically link this category"
+msgstr ""
+
+#: $string['linkcategory_help']
+msgid ""
+"If glossary auto-linking has been enabled and this setting is enabled, the "
+"category name will be automatically linked wherever it appears throughout "
+"the rest of the course. When a participant follows a category name link, "
+"they will be taken to the \"Browse by category\" page of the glossary."
+msgstr ""
+
+#: $string['linking']
+msgid "Auto-linking"
+msgstr ""
+
+#: $string['mainglossary']
+msgid "Main glossary"
+msgstr ""
+
+#: $string['maxtimehaspassed']
+msgid "Sorry, but the maximum time for editing this comment ({$a}) has passed!"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Glossary"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"The glossary activity module enables participants to create and maintain a "
+"list of definitions, like a dictionary, or to collect and organise resources "
+"or information.\n"
+"\n"
+"A teacher can allow files to be attached to glossary entries. Attached "
+"images are displayed in the entry. Entries can be searched or browsed "
+"alphabetically or by category, date or author. Entries can be approved by "
+"default or require approval by a teacher before they are viewable by "
+"everyone.\n"
+"\n"
+"If the glossary auto-linking filter is enabled, entries will be "
+"automatically linked where the concept words and/or phrases appear within "
+"the course.\n"
+"\n"
+"A teacher can allow comments on entries. Entries can also be rated by "
+"teachers or students (peer evaluation). Ratings can be aggregated to form a "
+"final grade which is recorded in the gradebook.\n"
+"\n"
+"Glossaries have many uses, such as\n"
+"\n"
+"* A collaborative bank of key terms\n"
+"* A ‘getting to know you’ space where new students add their name and "
+"personal details\n"
+"* A ‘handy tips’ resource of best practice in a practical subject\n"
+"* A sharing area of useful videos, images or sound files\n"
+"* A revision resource of facts to remember"
+msgstr ""
+
+#: $string['modulename_link']
+msgid "mod/glossary/view"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Glossaries"
+msgstr ""
+
+#: $string['newentries']
+msgid "New glossary entries"
+msgstr ""
+
+#: $string['newglossary']
+msgid "New glossary"
+msgstr ""
+
+#: $string['newglossarycreated']
+msgid "New glossary created."
+msgstr ""
+
+#: $string['newglossaryentries']
+msgid "New glossary entries:"
+msgstr ""
+
+#: $string['nocomment']
+msgid "No comment found"
+msgstr ""
+
+#: $string['nocomments']
+msgid "(No comments found on this entry)"
+msgstr ""
+
+#: $string['noconceptfound']
+msgid "No concept or definition found."
+msgstr ""
+
+#: $string['noentries']
+msgid "No entries found in this section"
+msgstr ""
+
+#: $string['noentry']
+msgid "No entry found."
+msgstr ""
+
+#: $string['nopermissiontodelcomment']
+msgid "You can't delete other people's comments!"
+msgstr ""
+
+#: $string['nopermissiontodelinglossary']
+msgid "You can't comments in this glossary!"
+msgstr ""
+
+#: $string['nopermissiontoviewresult']
+msgid "You can only look at results for your own entries"
+msgstr ""
+
+#: $string['notapproved']
+msgid "glossary entry is not approved yet."
+msgstr ""
+
+#: $string['notcategorised']
+msgid "Not categorised"
+msgstr ""
+
+#: $string['numberofentries']
+msgid "Number of entries"
+msgstr ""
+
+#: $string['onebyline']
+msgid "(one per line)"
+msgstr ""
+
+#: $string['page-mod-glossary-edit']
+msgid "Glossary add/edit entry page"
+msgstr ""
+
+#: $string['page-mod-glossary-view']
+msgid "View glossary edit page"
+msgstr ""
+
+#: $string['page-mod-glossary-x']
+msgid "Any glossary module page"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Glossary administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Glossary"
+msgstr ""
+
+#: $string['popupformat']
+msgid "Popup format"
+msgstr ""
+
+#: $string['print']
+msgid "Print"
+msgstr ""
+
+#: $string['printerfriendly']
+msgid "Printer-friendly version"
+msgstr ""
+
+#: $string['printviewnotallowed']
+msgid "Print view isn't allowed"
+msgstr ""
+
+#: $string['question']
+msgid "Question"
+msgstr ""
+
+#: $string['rejectedentries']
+msgid "Rejected entries"
+msgstr ""
+
+#: $string['rejectionrpt']
+msgid "Rejection report"
+msgstr ""
+
+#: $string['removeallglossarytags']
+msgid "Remove all glossary tags"
+msgstr ""
+
+#: $string['resetglossaries']
+msgid "Delete entries from"
+msgstr ""
+
+#: $string['resetglossariesall']
+msgid "Delete entries from all glossaries"
+msgstr ""
+
+#: $string['rssarticles']
+msgid "Number of RSS recent articles"
+msgstr ""
+
+#: $string['rssarticles_help']
+msgid ""
+"This setting specifies the number of glossary entry concepts to include in "
+"the RSS feed. Between 5 and 20 generally acceptable."
+msgstr ""
+
+#: $string['rsssubscriberss']
+msgid "Display the RSS feed for '{$a}' concepts"
+msgstr ""
+
+#: $string['rsstype']
+msgid "RSS feed for this activity"
+msgstr ""
+
+#: $string['rsstype_help']
+msgid ""
+"To enable the RSS feed for this activity, select either concepts with author "
+"or concepts without author to be included in the feed."
+msgstr ""
+
+#: $string['search:activity']
+msgid "Glossary - activity information"
+msgstr ""
+
+#: $string['search:entry']
+msgid "Glossary - entries"
+msgstr ""
+
+#: $string['searchindefinition']
+msgid "Search full text"
+msgstr ""
+
+#: $string['secondaryglossary']
+msgid "Secondary glossary"
+msgstr ""
+
+#: $string['showall']
+msgid "Show 'ALL' link"
+msgstr ""
+
+#: $string['showall_help']
+msgid "If enabled, participants can browse all entries at once."
+msgstr ""
+
+#: $string['showalphabet']
+msgid "Show alphabet links"
+msgstr ""
+
+#: $string['showalphabet_help']
+msgid ""
+"If enabled, participants can browse the glossary by letters of the alphabet."
+msgstr ""
+
+#: $string['showspecial']
+msgid "Show 'Special' link"
+msgstr ""
+
+#: $string['showspecial_help']
+msgid ""
+"If enabled, participants can browse the glossary by special characters, such "
+"as @ and #."
+msgstr ""
+
+#: $string['sortby']
+msgid "Sort by"
+msgstr ""
+
+#: $string['sortbycreation']
+msgid "By creation date"
+msgstr ""
+
+#: $string['sortbylastupdate']
+msgid "By last update"
+msgstr ""
+
+#: $string['sortchronogically']
+msgid "Sort chronologically"
+msgstr ""
+
+#: $string['special']
+msgid "Special"
+msgstr ""
+
+#: $string['standardview']
+msgid "Browse by alphabet"
+msgstr ""
+
+#: $string['studentcanpost']
+msgid "Students can add entries"
+msgstr ""
+
+#: $string['tagarea_glossary_entries']
+msgid "Glossary entries"
+msgstr ""
+
+#: $string['tagsdeleted']
+msgid "Glossary tags have been deleted"
+msgstr ""
+
+#: $string['totalentries']
+msgid "Total entries"
+msgstr ""
+
+#: $string['usedynalink']
+msgid "Automatically link glossary entries"
+msgstr ""
+
+#: $string['usedynalink_help']
+msgid ""
+"If site-wide glossary auto-linking has been enabled by an administrator and "
+"this setting is enabled, the \"Add a new entry\" form includes the option to "
+"automatically link the entry wherever the concept words and phrases appear "
+"throughout the rest of the course."
+msgstr ""
+
+#: $string['visibletabs']
+msgid "Visible tabs"
+msgstr ""
+
+#: $string['waitingapproval']
+msgid "Waiting approval"
+msgstr ""
+
+#: $string['warningstudentcapost']
+msgid "(Applies only if the glossary is not the main one)"
+msgstr ""
+
+#: $string['withauthor']
+msgid "Concepts with author"
+msgstr ""
+
+#: $string['withoutauthor']
+msgid "Concepts without author"
+msgstr ""
+
+#: $string['writtenby']
+msgid "by"
+msgstr ""
+
+#: $string['youarenottheauthor']
+msgid ""
+"You are not the author of this comment, so you are not allowed to edit it."
+msgstr ""

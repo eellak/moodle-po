@@ -1,0 +1,448 @@
+#. extracted from lang/en/qtype_algebra.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qtype_algebra', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   qtype_algebra
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addmoreanswerblanks']
+msgid "Blanks for {no} More Answers"
+msgstr ""
+
+#: $string['addmorevariableblanks']
+msgid "Blanks for {no} More Variables"
+msgstr ""
+
+#: $string['algebraoptions']
+msgctxt "$string['algebraoptions']"
+msgid "Options"
+msgstr ""
+
+#: $string['allfunctions']
+msgid "All Functions"
+msgstr ""
+
+#: $string['allowedfuncs']
+msgctxt "$string['allowedfuncs']"
+msgid "Allowed Functions"
+msgstr ""
+
+#: $string['allowedfuncs_help']
+msgid ""
+"**NOT YET IMPLEMENTED**\n"
+"\n"
+"These controls can be used to restrict the functions which the students\n"
+"can use in their responses. If the \"All\" button is checked then\n"
+"there are no restrictions on functions which the students may use in\n"
+"their answers. This is the default case. To restrict the allowed functions\n"
+"uncheck the \"All\" box and select the functions you wish to allow."
+msgstr ""
+
+#: $string['allowedfunctions']
+msgctxt "$string['allowedfunctions']"
+msgid "Allowed Functions"
+msgstr ""
+
+#: $string['answer']
+msgid "Answer: {$a}"
+msgstr ""
+
+#: $string['answerboxprefix']
+msgid "String with which to prefix the answer box when displaying the question"
+msgstr ""
+
+#: $string['answermustbegiven']
+msgid "You must enter an answer if there is a grade or feedback."
+msgstr ""
+
+#: $string['answerno']
+msgid "Answer {$a}"
+msgstr ""
+
+#: $string['answerprefix']
+msgid "Answer box prefix"
+msgstr ""
+
+#: $string['answerprefix_help']
+msgid ""
+"The text entered here will be placed in front of the input box where\n"
+"students enter their answers. For example if a question is asking the form\n"
+"of a function, f(x), then the string \"f(x) = \" could be entered in this\n"
+"field."
+msgstr ""
+
+#: $string['badclosebracket']
+msgid "Invalid close bracket found"
+msgstr ""
+
+#: $string['badequivtype']
+msgid "Invalid type: can only compare parser terms with other parser terms"
+msgstr ""
+
+#: $string['badfuncargs']
+msgid "Invalid arguments for the function '{$a}\\"
+msgstr ""
+
+#: $string['brackets']
+msgid "\\[...\\]"
+msgstr ""
+
+#: $string['checktolerance']
+msgid "Check Tolerance"
+msgstr ""
+
+#: $string['compalgorithm']
+msgctxt "$string['compalgorithm']"
+msgid "Comparison Algorithm"
+msgstr ""
+
+#: $string['compareby']
+msgctxt "$string['compareby']"
+msgid "Comparison Algorithm"
+msgstr ""
+
+#: $string['compareby_help']
+msgid ""
+"This selects the method by which the students' responses are compared\n"
+"to all the questions answers. The different possibilities are:\n"
+"\n"
+"SAGE: uses the Open Source <a href=\"http://www.sagemath.org/\">SAGE</a>\n"
+"mathematics software to perform a full symbolic algebraic comparison.\n"
+"\n"
+"Evaluation: This method generates random numbers for\n"
+"the question variables and then evaluates both the student response and the\n"
+"question's answer for that set of values.\n"
+"\n"
+"Equivalence:\n"
+"This is the simplest of all the methods. It will only perform the most basic "
+"of\n"
+"comparisons between expressions."
+msgstr ""
+
+#: $string['compareequiv']
+msgid "Equivalence"
+msgstr ""
+
+#: $string['compareeval']
+msgid "Evaluation"
+msgstr ""
+
+#: $string['comparesage']
+msgid "SAGE"
+msgstr ""
+
+#: $string['correctansweris']
+msgid "The correct answer is: {$a} giving"
+msgstr ""
+
+#: $string['correctanswers']
+msgid "Correct answers"
+msgstr ""
+
+#: $string['decimal']
+msgid "."
+msgstr ""
+
+#: $string['defaultmethod']
+msgid "Default comparison method"
+msgstr ""
+
+#: $string['disallow']
+msgctxt "$string['disallow']"
+msgid "Disallowed Answer"
+msgstr ""
+
+#: $string['disallowans']
+msgctxt "$string['disallowans']"
+msgid "Disallowed Answer"
+msgstr ""
+
+#: $string['disallowanswer']
+msgctxt "$string['disallowanswer']"
+msgid "Disallowed Answer"
+msgstr ""
+
+#: $string['disallow_help']
+msgid ""
+"contains an expression which will be disallowed as an answer.\n"
+"Students entering an answers which matches this will be prevented from\n"
+"receiving any grade for the question even if the response would match\n"
+"a given answer for the question."
+msgstr ""
+
+#: $string['displayresponse']
+msgid "Display response"
+msgstr ""
+
+#: $string['dollars']
+msgid "$$...$$"
+msgstr ""
+
+#: $string['duplicatevar']
+msgid "Duplicated variable name: '{$a}' is already defined."
+msgstr ""
+
+#: $string['editingalgebra']
+msgid "Editing an Algebra question"
+msgstr ""
+
+#: $string['evalchecks']
+msgid "Evaluation Checks"
+msgstr ""
+
+#: $string['filloutoneanswer']
+msgid ""
+"You must provide at least one possible answer. Answers left blank will not "
+"be used. '*' can be used as a wildcard to match any characters. The first "
+"matching answer will be used to determine the score and feedback. Only "
+"variables defined above are allowed"
+msgstr ""
+
+#: $string['filloutonevariable']
+msgid "You must provide at least one variable."
+msgstr ""
+
+#: $string['host']
+msgid "Host url of SAGE server"
+msgstr ""
+
+#: $string['illegalplusminus']
+msgid "Found a + or - in an invalid location"
+msgstr ""
+
+#: $string['illegalvarname']
+msgid ""
+"Illegal variable name '{$a}': same name as a parser function or special "
+"constant."
+msgstr ""
+
+#: $string['mismatchedbracket']
+msgid ""
+"Mismatched brackets: Open and close bracket pair not of same type '{$a}\\"
+msgstr ""
+
+#: $string['mismatchedcloseb']
+msgid "Mismatched brackets: Close bracket without an open bracket found"
+msgstr ""
+
+#: $string['mismatchedopenb']
+msgid "Mismatched brackets: Open bracket without a close bracket found"
+msgstr ""
+
+#: $string['missingonearg']
+msgid "Syntax Error: Operator '{$a}' missing its argument"
+msgstr ""
+
+#: $string['missingtwoargs']
+msgid "Syntax Error: Operator '{$a}' requires two arguments"
+msgstr ""
+
+#: $string['morethantwoargs']
+msgid ""
+"Trying to compare a term with more than 2 arguments - no code to handle this "
+"case!"
+msgstr ""
+
+#: $string['nargswrong']
+msgid "Incorrect number of arguments for the term '{$a}\\"
+msgstr ""
+
+#: $string['nchecks']
+msgid "Number of Evaluation Checks"
+msgstr ""
+
+#: $string['nchecks_help']
+msgid "Number of Evaluation Checks used in Evaluation Comparison Algorithm"
+msgstr ""
+
+#: $string['noevaluate']
+msgid "The evaluate method for term '{$a}' has not been implemented"
+msgstr ""
+
+#: $string['notanumber']
+msgid "Invalid value: a number is required."
+msgstr ""
+
+#: $string['notenoughanswers']
+msgid "You must enter at least one answer."
+msgstr ""
+
+#: $string['notenoughvars']
+msgid "You must enter at least one variable."
+msgstr ""
+
+#: $string['notopterm']
+msgid "Syntax Error: Unable to condense to a single, top level operator"
+msgstr ""
+
+#: $string['novarmax']
+msgid "No maximum bound specified for variable."
+msgstr ""
+
+#: $string['novarmin']
+msgid "No minimum bound specified for variable."
+msgstr ""
+
+#: $string['options']
+msgctxt "$string['options']"
+msgid "Options"
+msgstr ""
+
+#: $string['parseerror']
+msgid "Error parsing function: '{$a}\\"
+msgstr ""
+
+#: $string['pluginname']
+msgid "algebra"
+msgstr ""
+
+#: $string['pluginnameadding']
+msgid "Adding an algebra question"
+msgstr ""
+
+#: $string['pluginnameediting']
+msgid "Editing an algebra question"
+msgstr ""
+
+#: $string['pluginname_help']
+msgid ""
+"Student enter a formula as response that include one or more variables. "
+"Correctness is evaluted using one of 3 differents methods"
+msgstr ""
+
+#: $string['pluginname_link']
+msgid "question/type/algebra"
+msgstr ""
+
+#: $string['pluginnamesummary']
+msgid ""
+"Student enter a formula that can include one or more variables. Correctness "
+"is evaluted using one of 3 differents methods."
+msgstr ""
+
+#: $string['port']
+msgid "Port of SAGE server"
+msgstr ""
+
+#: $string['restoreqdbfailed']
+msgid "Restoring algebra question failed: database write error"
+msgstr ""
+
+#: $string['restorevardbfailed']
+msgid "Restoring algebra question variable failed: database write error"
+msgstr ""
+
+#: $string['texdelimiters']
+msgid "Delimiters for TeX expressions"
+msgstr ""
+
+#: $string['tolerance']
+msgid "Tolerance for Evaluation Checks"
+msgstr ""
+
+#: $string['tolerance_help']
+msgid ""
+"Determines the maximum difference between numerical\n"
+"evaluations of the student response and question answers which will be\n"
+"allowed to count as matching."
+msgstr ""
+
+#: $string['toleranceltzero']
+msgid "Tolerance must be greater than or equal to zero"
+msgstr ""
+
+#: $string['undeclaredvar']
+msgid "Undeclared variable '{$a}' found"
+msgstr ""
+
+#: $string['undefinedfunction']
+msgid "Undefined function '{$a}\\"
+msgstr ""
+
+#: $string['undefinedvar']
+msgid "Undefined variable(s) {$a} used in one or more answers."
+msgstr ""
+
+#: $string['undefinedvariable']
+msgid ""
+"Undefined variable '{$a}' found when numerically evaluating an expression"
+msgstr ""
+
+#: $string['unknownterm']
+msgid "Syntax Error: Unknown term found at '{$a}' in the expression"
+msgstr ""
+
+#: $string['unusedvar']
+msgid "This variable is not used by any answer."
+msgstr ""
+
+#: $string['uri']
+msgid "uri of SAGE server"
+msgstr ""
+
+#: $string['variable']
+msgid "Variable"
+msgstr ""
+
+#: $string['variable_help']
+msgid ""
+"All variables names used in answers must be entered here. Minimum and "
+"maximum values are only needed if the Evaluation comparison algorithm is "
+"used."
+msgstr ""
+
+#: $string['variablename']
+msgid "Name"
+msgstr ""
+
+#: $string['variableno']
+msgid "Variable {$a}"
+msgstr ""
+
+#: $string['variables']
+msgid "Variables"
+msgstr ""
+
+#: $string['variablex']
+msgid "Variable {no}"
+msgstr ""
+
+#: $string['varmax']
+msgid "Maximum Value"
+msgstr ""
+
+#: $string['varmin']
+msgid "Minimum Value"
+msgstr ""
+
+#: $string['varmingtmax']
+msgid "The minimum value must be less than the maximum value."
+msgstr ""

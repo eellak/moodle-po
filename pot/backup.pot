@@ -1,0 +1,1365 @@
+#. extracted from lang/en/backup.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'backup', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   backup
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['autoactivedescription']
+msgid ""
+"Choose whether or not to do automated backups. If manual is selected "
+"automated backups will be possible only by through the automated backups CLI "
+"script. This can be done either manually on the command line or through "
+"cron."
+msgstr ""
+
+#: $string['autoactivedisabled']
+msgid "Disabled"
+msgstr ""
+
+#: $string['autoactiveenabled']
+msgid "Enabled"
+msgstr ""
+
+#: $string['autoactivemanual']
+msgid "Manual"
+msgstr ""
+
+#: $string['automatedbackupschedule']
+msgid "Schedule"
+msgstr ""
+
+#: $string['automatedbackupschedulehelp']
+msgid "Choose which days of the week to perform automated backups."
+msgstr ""
+
+#: $string['automatedbackupsinactive']
+msgid "Automated backups haven't been enabled by the site admin"
+msgstr ""
+
+#: $string['automatedbackupstatus']
+msgid "Automated backup status"
+msgstr ""
+
+#: $string['automateddeletedays']
+msgid "Delete backups older than"
+msgstr ""
+
+#: $string['automatedmaxkept']
+msgid "Maximum number of backups kept"
+msgstr ""
+
+#: $string['automatedmaxkepthelp']
+msgid ""
+"This specifies the maximum number of recent automated backups to be kept for "
+"each course. Older backups will be deleted automatically."
+msgstr ""
+
+#: $string['automatedminkept']
+msgid "Minimum number of backups kept"
+msgstr ""
+
+#: $string['automatedminkepthelp']
+msgid ""
+"If backups older than a specified number of days are deleted, it can happen "
+"that an inactive course ends up with no backup. To prevent this, a minimum "
+"number of backups kept should be specified."
+msgstr ""
+
+#: $string['automatedsettings']
+msgid "Automated backup settings"
+msgstr ""
+
+#: $string['automatedsetup']
+msgid "Automated backup setup"
+msgstr ""
+
+#: $string['automatedstorage']
+msgid "Automated backup storage"
+msgstr ""
+
+#: $string['automatedstoragehelp']
+msgid ""
+"Choose the location where you want backups to be stored when they are "
+"automatically created."
+msgstr ""
+
+#: $string['backupactivity']
+msgid "Backup activity: {$a}"
+msgstr ""
+
+#: $string['backupcourse']
+msgid "Backup course: {$a}"
+msgstr ""
+
+#: $string['backupcoursedetails']
+msgid "Course details"
+msgstr ""
+
+#: $string['backupcoursesection']
+msgid "Section: {$a}"
+msgstr ""
+
+#: $string['backupcoursesections']
+msgid "Course sections"
+msgstr ""
+
+#: $string['backupdate']
+msgid "Date taken"
+msgstr ""
+
+#: $string['backupdetails']
+msgid "Backup details"
+msgstr ""
+
+#: $string['backupdetailsnonstandardinfo']
+msgid ""
+"The selected file is not a standard Moodle backup file. The restore process "
+"will try to convert the backup file into the standard format and then "
+"restore it."
+msgstr ""
+
+#: $string['backupformat']
+msgid "Format"
+msgstr ""
+
+#: $string['backupformatimscc1']
+msgid "IMS Common Cartridge 1.0"
+msgstr ""
+
+#: $string['backupformatimscc11']
+msgid "IMS Common Cartridge 1.1"
+msgstr ""
+
+#: $string['backupformatmoodle1']
+msgid "Moodle 1"
+msgstr ""
+
+#: $string['backupformatmoodle2']
+msgid "Moodle 2"
+msgstr ""
+
+#: $string['backupformatunknown']
+msgid "Unknown format"
+msgstr ""
+
+#: $string['backuplog']
+msgid "Technical information and warnings"
+msgstr ""
+
+#: $string['backupmode']
+msgid "Mode"
+msgstr ""
+
+#: $string['backupmode10']
+msgid "General"
+msgstr ""
+
+#: $string['backupmode20']
+msgid "Import"
+msgstr ""
+
+#: $string['backupmode30']
+msgid "Hub"
+msgstr ""
+
+#: $string['backupmode40']
+msgid "Same site"
+msgstr ""
+
+#: $string['backupmode50']
+msgid "Automated"
+msgstr ""
+
+#: $string['backupmode60']
+msgid "Converted"
+msgstr ""
+
+#: $string['backupsection']
+msgid "Backup course section: {$a}"
+msgstr ""
+
+#: $string['backupsettings']
+msgctxt "$string['backupsettings']"
+msgid "Backup settings"
+msgstr ""
+
+#: $string['backupsitedetails']
+msgid "Site details"
+msgstr ""
+
+#: $string['backupstage16action']
+msgctxt "$string['backupstage16action']"
+msgid "Continue"
+msgstr ""
+
+#: $string['backupstage1action']
+msgctxt "$string['backupstage1action']"
+msgid "Next"
+msgstr ""
+
+#: $string['backupstage2action']
+msgctxt "$string['backupstage2action']"
+msgid "Next"
+msgstr ""
+
+#: $string['backupstage4action']
+msgctxt "$string['backupstage4action']"
+msgid "Perform backup"
+msgstr ""
+
+#: $string['backupstage8action']
+msgctxt "$string['backupstage8action']"
+msgid "Continue"
+msgstr ""
+
+#: $string['backuptype']
+msgid "Type"
+msgstr ""
+
+#: $string['backuptypeactivity']
+msgid "Activity"
+msgstr ""
+
+#: $string['backuptypecourse']
+msgid "Course"
+msgstr ""
+
+#: $string['backuptypesection']
+msgid "Section"
+msgstr ""
+
+#: $string['backupversion']
+msgid "Backup version"
+msgstr ""
+
+#: $string['cannotfindassignablerole']
+msgid ""
+"The {$a} role in the backup file cannot be mapped to any of the roles that "
+"you are allowed to assign."
+msgstr ""
+
+#: $string['choosefilefromactivitybackup']
+msgid "Activity backup area"
+msgstr ""
+
+#: $string['choosefilefromactivitybackup_help']
+msgid "Activity backups made using default settings are stored here."
+msgstr ""
+
+#: $string['choosefilefromautomatedbackup']
+msgid "Automated backups"
+msgstr ""
+
+#: $string['choosefilefromautomatedbackup_help']
+msgid "Contains automatically generated backups."
+msgstr ""
+
+#: $string['choosefilefromcoursebackup']
+msgid "Course backup area"
+msgstr ""
+
+#: $string['choosefilefromcoursebackup_help']
+msgid "Course backups made using default settings are stored here."
+msgstr ""
+
+#: $string['choosefilefromuserbackup']
+msgid "User private backup area"
+msgstr ""
+
+#: $string['choosefilefromuserbackup_help']
+msgid "Backup files with anonymized user information are stored here."
+msgstr ""
+
+#: $string['configgeneralactivities']
+msgid "Sets the default for including activities in a backup."
+msgstr ""
+
+#: $string['configgeneralanonymize']
+msgid ""
+"If enabled all information pertaining to users will be anonymised by "
+"default."
+msgstr ""
+
+#: $string['configgeneralbadges']
+msgid "Sets the default for including badges in a backup."
+msgstr ""
+
+#: $string['configgeneralblocks']
+msgid "Sets the default for including blocks in a backup."
+msgstr ""
+
+#: $string['configgeneralcalendarevents']
+msgid "Sets the default for including calendar events in a backup."
+msgstr ""
+
+#: $string['configgeneralcomments']
+msgid "Sets the default for including comments in a backup."
+msgstr ""
+
+#: $string['configgeneralcompetencies']
+msgid "Sets the default for including competencies in a backup."
+msgstr ""
+
+#: $string['configgeneralfilters']
+msgid "Sets the default for including filters in a backup."
+msgstr ""
+
+#: $string['configgeneralgroups']
+msgid "Sets the default for including groups and groupings in a backup."
+msgstr ""
+
+#: $string['configgeneralhistories']
+msgid "Sets the default for including user history within a backup."
+msgstr ""
+
+#: $string['configgenerallogs']
+msgid "If enabled logs will be included in backups by default."
+msgstr ""
+
+#: $string['configgeneralquestionbank']
+msgid ""
+"If enabled the question bank will be included in backups by default. PLEASE "
+"NOTE: Disabling this setting will disable the backup of activities which use "
+"the question bank, such as the quiz."
+msgstr ""
+
+#: $string['configgeneralroleassignments']
+msgid "If enabled by default roles assignments will also be backed up."
+msgstr ""
+
+#: $string['configgeneralusers']
+msgid "Sets the default for whether to include users in backups."
+msgstr ""
+
+#: $string['configgeneraluserscompletion']
+msgid ""
+"If enabled user completion information will be included in backups by "
+"default."
+msgstr ""
+
+#: $string['config_keep_groups_and_groupings']
+msgid "By default keep current groups and groupings."
+msgstr ""
+
+#: $string['config_keep_roles_and_enrolments']
+msgid "By default keep current roles and enrolments."
+msgstr ""
+
+#: $string['configloglifetime']
+msgid ""
+"This specifies the length of time you want to keep backup logs information. "
+"Logs that are older than this age are automatically deleted. It is "
+"recommended to keep this value small, because backup logged information can "
+"be huge."
+msgstr ""
+
+#: $string['config_overwrite_conf']
+msgid "Allows user to overwrite the current course configuration"
+msgstr ""
+
+#: $string['config_overwrite_course_fullname']
+msgid ""
+"By default overwrite course full name with the one from the backup file. "
+"This requires \"Overwrite course configuration\" to be checked and current "
+"user to have the capability to change course full name "
+"(moodle/course:changefullname)"
+msgstr ""
+
+#: $string['config_overwrite_course_shortname']
+msgid ""
+"By default overwrite course short name with the one from the backup file. "
+"This requires \"Overwrite course configuration\" to be checked and current "
+"user to have the capability to change course short name "
+"(moodle/course:changeshortname)"
+msgstr ""
+
+#: $string['config_overwrite_course_startdate']
+msgid ""
+"By default overwrite course start date with the one from the backup file. "
+"This requires \"Overwrite course configuration\" to be checked and current "
+"user to have the capability to roll course dates on restore "
+"(moodle/restore:rolldates)"
+msgstr ""
+
+#: $string['configrestoreactivities']
+msgid "Sets the default for restoring activities."
+msgstr ""
+
+#: $string['configrestorebadges']
+msgid "Sets the default for restoring badges."
+msgstr ""
+
+#: $string['configrestoreblocks']
+msgid "Sets the default for restoring blocks."
+msgstr ""
+
+#: $string['configrestorecalendarevents']
+msgid "Sets the default for restoring calendar events."
+msgstr ""
+
+#: $string['configrestorecomments']
+msgid "Sets the default for restoring comments."
+msgstr ""
+
+#: $string['configrestorecompetencies']
+msgid "Sets the default for restoring competencies."
+msgstr ""
+
+#: $string['configrestoreenrolments']
+msgid "Sets the default for restoring enrolment methods."
+msgstr ""
+
+#: $string['configrestorefilters']
+msgid "Sets the default for restoring filters."
+msgstr ""
+
+#: $string['configrestoregroups']
+msgid ""
+"Sets the default for restoring groups and groupings if they were included in "
+"the backup."
+msgstr ""
+
+#: $string['configrestorehistories']
+msgid ""
+"Sets the default for restoring user history if it was included in the "
+"backup."
+msgstr ""
+
+#: $string['configrestorelogs']
+msgid ""
+"If enabled logs will be restored by default if they were included in the "
+"backup."
+msgstr ""
+
+#: $string['configrestoreroleassignments']
+msgid ""
+"If enabled by default roles assignments will be restored if they were "
+"included in the backup."
+msgstr ""
+
+#: $string['configrestoreusers']
+msgid ""
+"Sets the default for whether to restore users if they were included in the "
+"backup."
+msgstr ""
+
+#: $string['configrestoreuserscompletion']
+msgid ""
+"If enabled user completion information will be restored by default if it was "
+"included in the backup."
+msgstr ""
+
+#: $string['confirmcancel']
+msgid "Cancel backup"
+msgstr ""
+
+#: $string['confirmcancelno']
+msgid "Stay"
+msgstr ""
+
+#: $string['confirmcancelquestion']
+msgid ""
+"Are you sure you wish to cancel?\n"
+"Any information you have entered will be lost."
+msgstr ""
+
+#: $string['confirmcancelyes']
+msgid "Cancel"
+msgstr ""
+
+#: $string['confirmnewcoursecontinue']
+msgid "New course warning"
+msgstr ""
+
+#: $string['confirmnewcoursecontinuequestion']
+msgid ""
+"A temporary (hidden) course will be created by the course restoration "
+"process. To abort restoration click cancel. Do not close the browser while "
+"restoring."
+msgstr ""
+
+#: $string['coursecategory']
+msgid "Category the course will be restored into"
+msgstr ""
+
+#: $string['courseid']
+msgid "Original ID"
+msgstr ""
+
+#: $string['coursesettings']
+msgctxt "$string['coursesettings']"
+msgid "Course settings"
+msgstr ""
+
+#: $string['coursetitle']
+msgctxt "$string['coursetitle']"
+msgid "Title"
+msgstr ""
+
+#: $string['currentstage1']
+msgctxt "$string['currentstage1']"
+msgid "Initial settings"
+msgstr ""
+
+#: $string['currentstage16']
+msgctxt "$string['currentstage16']"
+msgid "Complete"
+msgstr ""
+
+#: $string['currentstage2']
+msgctxt "$string['currentstage2']"
+msgid "Schema settings"
+msgstr ""
+
+#: $string['currentstage4']
+msgctxt "$string['currentstage4']"
+msgid "Confirmation and review"
+msgstr ""
+
+#: $string['currentstage8']
+msgctxt "$string['currentstage8']"
+msgid "Perform backup"
+msgstr ""
+
+#: $string['enterasearch']
+msgid "Enter a search"
+msgstr ""
+
+#: $string['error_block_for_module_not_found']
+msgid ""
+"Orphan block instance (id: {$a->bid}) for course module (id: {$a->mid}) "
+"found. This block will not be backed up"
+msgstr ""
+
+#: $string['errorcopyingbackupfile']
+msgid ""
+"Failed to copy the backup file to the temporary folder before restoring."
+msgstr ""
+
+#: $string['error_course_module_not_found']
+msgid ""
+"Orphan course module (id: {$a}) found. This module will not be backed up."
+msgstr ""
+
+#: $string['errorfilenamemustbezip']
+msgid "The filename you enter must be a ZIP file and have the .mbz extension"
+msgstr ""
+
+#: $string['errorfilenamerequired']
+msgid "You must enter a valid filename for this backup"
+msgstr ""
+
+#: $string['errorfilenametoolong']
+msgid "The filename length you enter must be less than 255 characters"
+msgstr ""
+
+#: $string['errorinvalidformat']
+msgid "Unknown backup format"
+msgstr ""
+
+#: $string['errorinvalidformatinfo']
+msgid ""
+"The selected file is not a valid Moodle backup file and can't be restored."
+msgstr ""
+
+#: $string['errorminbackup20version']
+msgid ""
+"This backup file has been created with one development version of Moodle "
+"backup ({$a->backup}). Minimum required is {$a->min}. Cannot be restored."
+msgstr ""
+
+#: $string['errorrestorefrontpagebackup']
+msgid "You can only restore front page backups on the front page"
+msgstr ""
+
+#: $string['executionsuccess']
+msgid "The backup file was successfully created."
+msgstr ""
+
+#: $string['filealiasesrestorefailures']
+msgid "Aliases restore failures"
+msgstr ""
+
+#: $string['filealiasesrestorefailures_help']
+msgid ""
+"Aliases are symbolic links to other files, including those stored in "
+"external repositories. In some cases, Moodle cannot restore them - for "
+"example when restoring the backup at another site or when the referenced "
+"file does not exist.\n"
+"\n"
+"More details and the actual reason of the failure can be found in the "
+"restore log file."
+msgstr ""
+
+#: $string['filealiasesrestorefailuresinfo']
+msgid ""
+"Some aliases included in the backup file could not be restored. The "
+"following list contains their expected location and the source file they "
+"were referring to at the original site."
+msgstr ""
+
+#: $string['filealiasesrestorefailures_link']
+msgid "restore/filealiases"
+msgstr ""
+
+#: $string['filename']
+msgid "Filename"
+msgstr ""
+
+#: $string['filereferencesincluded']
+msgid ""
+"File references to external contents are included in the backup file. These "
+"won't work if the backup is restored on a different site."
+msgstr ""
+
+#: $string['filereferencesnotsamesite']
+msgid ""
+"The backup file is from a different site, and so file references cannot be "
+"restored."
+msgstr ""
+
+#: $string['filereferencessamesite']
+msgid ""
+"The backup file is from this site, and so file references can be restored."
+msgstr ""
+
+#: $string['generalactivities']
+msgctxt "$string['generalactivities']"
+msgid "Include activities and resources"
+msgstr ""
+
+#: $string['generalanonymize']
+msgid "Anonymise information"
+msgstr ""
+
+#: $string['generalbackdefaults']
+msgid "General backup defaults"
+msgstr ""
+
+#: $string['generalbadges']
+msgctxt "$string['generalbadges']"
+msgid "Include badges"
+msgstr ""
+
+#: $string['generalblocks']
+msgctxt "$string['generalblocks']"
+msgid "Include blocks"
+msgstr ""
+
+#: $string['generalcalendarevents']
+msgctxt "$string['generalcalendarevents']"
+msgid "Include calendar events"
+msgstr ""
+
+#: $string['generalcomments']
+msgctxt "$string['generalcomments']"
+msgid "Include comments"
+msgstr ""
+
+#: $string['generalcompetencies']
+msgctxt "$string['generalcompetencies']"
+msgid "Include competencies"
+msgstr ""
+
+#: $string['generalenrolments']
+msgctxt "$string['generalenrolments']"
+msgid "Include enrolment methods"
+msgstr ""
+
+#: $string['generalfilters']
+msgctxt "$string['generalfilters']"
+msgid "Include filters"
+msgstr ""
+
+#: $string['generalgradehistories']
+msgctxt "$string['generalgradehistories']"
+msgid "Include histories"
+msgstr ""
+
+#: $string['generalgroups']
+msgctxt "$string['generalgroups']"
+msgid "Include groups and groupings"
+msgstr ""
+
+#: $string['generalhistories']
+msgctxt "$string['generalhistories']"
+msgid "Include histories"
+msgstr ""
+
+#: $string['generallogs']
+msgid "Include logs"
+msgstr ""
+
+#: $string['generalquestionbank']
+msgctxt "$string['generalquestionbank']"
+msgid "Include question bank"
+msgstr ""
+
+#: $string['generalrestoredefaults']
+msgid "General restore defaults"
+msgstr ""
+
+#: $string['generalrestoresettings']
+msgid "General restore settings"
+msgstr ""
+
+#: $string['generalroleassignments']
+msgid "Include role assignments"
+msgstr ""
+
+#: $string['generalsettings']
+msgid "General backup settings"
+msgstr ""
+
+#: $string['generalusers']
+msgid "Include users"
+msgstr ""
+
+#: $string['generaluserscompletion']
+msgid "Include user completion information"
+msgstr ""
+
+#: $string['hidetypes']
+msgid "Hide type options"
+msgstr ""
+
+#: $string['importbackupstage16action']
+msgctxt "$string['importbackupstage16action']"
+msgid "Continue"
+msgstr ""
+
+#: $string['importbackupstage1action']
+msgctxt "$string['importbackupstage1action']"
+msgid "Next"
+msgstr ""
+
+#: $string['importbackupstage2action']
+msgctxt "$string['importbackupstage2action']"
+msgid "Next"
+msgstr ""
+
+#: $string['importbackupstage4action']
+msgctxt "$string['importbackupstage4action']"
+msgid "Perform import"
+msgstr ""
+
+#: $string['importbackupstage8action']
+msgctxt "$string['importbackupstage8action']"
+msgid "Continue"
+msgstr ""
+
+#: $string['importcurrentstage0']
+msgid "Course selection"
+msgstr ""
+
+#: $string['importcurrentstage1']
+msgctxt "$string['importcurrentstage1']"
+msgid "Initial settings"
+msgstr ""
+
+#: $string['importcurrentstage16']
+msgctxt "$string['importcurrentstage16']"
+msgid "Complete"
+msgstr ""
+
+#: $string['importcurrentstage2']
+msgctxt "$string['importcurrentstage2']"
+msgid "Schema settings"
+msgstr ""
+
+#: $string['importcurrentstage4']
+msgctxt "$string['importcurrentstage4']"
+msgid "Confirmation and review"
+msgstr ""
+
+#: $string['importcurrentstage8']
+msgctxt "$string['importcurrentstage8']"
+msgid "Perform import"
+msgstr ""
+
+#: $string['importfile']
+msgid "Import a backup file"
+msgstr ""
+
+#: $string['importgeneralduplicateadminallowed']
+msgid "Allow admin conflict resolution"
+msgstr ""
+
+#: $string['importgeneralduplicateadminallowed_desc']
+msgid ""
+"If the site has an account with username 'admin', then attempting to restore "
+"a backup file containing an account with username 'admin' can cause a "
+"conflict. If this setting is enabled, the conflict will be resolved by "
+"changing the username in the backup file to 'admin_xyz'."
+msgstr ""
+
+#: $string['importgeneralmaxresults']
+msgid "Maximum number of courses listed for import"
+msgstr ""
+
+#: $string['importgeneralmaxresults_desc']
+msgid ""
+"This controls the number of courses that are listed during the first step of "
+"the import process"
+msgstr ""
+
+#: $string['importgeneralsettings']
+msgid "General import defaults"
+msgstr ""
+
+#: $string['importsettings']
+msgid "General import settings"
+msgstr ""
+
+#: $string['importsuccess']
+msgid "Import complete. Click continue to return to the course."
+msgstr ""
+
+#: $string['includeactivities']
+msgid "Include:"
+msgstr ""
+
+#: $string['includeditems']
+msgid "Included items:"
+msgstr ""
+
+#: $string['includefilereferences']
+msgid "File references to external contents"
+msgstr ""
+
+#: $string['includesection']
+msgid "Section {$a}"
+msgstr ""
+
+#: $string['includeuserinfo']
+msgid "User data"
+msgstr ""
+
+#: $string['jumptofinalstep']
+msgid "Jump to final step"
+msgstr ""
+
+#: $string['keep']
+msgid "Keep"
+msgstr ""
+
+#: $string['locked']
+msgid "Locked"
+msgstr ""
+
+#: $string['lockedbyconfig']
+msgid "This setting has been locked by the default backup settings"
+msgstr ""
+
+#: $string['lockedbyhierarchy']
+msgid "Locked by dependencies"
+msgstr ""
+
+#: $string['lockedbypermission']
+msgid "You don't have sufficient permissions to change this setting"
+msgstr ""
+
+#: $string['loglifetime']
+msgid "Keep logs for"
+msgstr ""
+
+#: $string['managefiles']
+msgid "Manage backup files"
+msgstr ""
+
+#: $string['mergerestoredefaults']
+msgid "Restore defaults when merging into another course"
+msgstr ""
+
+#: $string['missingfilesinpool']
+msgid ""
+"Some files could not be saved during the backup, and so it will not be "
+"possible to restore them."
+msgstr ""
+
+#: $string['module']
+msgid "Module"
+msgstr ""
+
+#: $string['moodleversion']
+msgid "Moodle version"
+msgstr ""
+
+#: $string['morecoursesearchresults']
+msgid "More than {$a} courses found, showing first {$a} results"
+msgstr ""
+
+#: $string['moreresults']
+msgid "There are too many results, enter a more specific search."
+msgstr ""
+
+#: $string['nomatchingcourses']
+msgid "There are no courses to display"
+msgstr ""
+
+#: $string['norestoreoptions']
+msgid "There are no categories or existing courses you can restore to."
+msgstr ""
+
+#: $string['originalwwwroot']
+msgid "URL of backup"
+msgstr ""
+
+#: $string['overwrite']
+msgid "Overwrite"
+msgstr ""
+
+#: $string['preparingdata']
+msgid "Preparing data"
+msgstr ""
+
+#: $string['preparingui']
+msgid "Preparing to display page"
+msgstr ""
+
+#: $string['previousstage']
+msgid "Previous"
+msgstr ""
+
+#: $string['qcategory2coursefallback']
+msgctxt "$string['qcategory2coursefallback']"
+msgid ""
+"The questions category \"{$a->name}\", originally at system/course category "
+"context in backup file, will be created at course context by restore"
+msgstr ""
+
+#: $string['qcategorycannotberestored']
+msgid "The questions category \"{$a->name}\" cannot be created by restore"
+msgstr ""
+
+#: $string['question2coursefallback']
+msgctxt "$string['question2coursefallback']"
+msgid ""
+"The questions category \"{$a->name}\", originally at system/course category "
+"context in backup file, will be created at course context by restore"
+msgstr ""
+
+#: $string['questionegorycannotberestored']
+msgid "The questions \"{$a->name}\" cannot be created by restore"
+msgstr ""
+
+#: $string['replacerestoredefaults']
+msgid "Restore defaults when restoring into another course deleting contents"
+msgstr ""
+
+#: $string['restoreactivity']
+msgid "Restore activity"
+msgstr ""
+
+#: $string['restorecourse']
+msgid "Restore course"
+msgstr ""
+
+#: $string['restorecoursesettings']
+msgctxt "$string['restorecoursesettings']"
+msgid "Course settings"
+msgstr ""
+
+#: $string['restoreexecutionsuccess']
+msgid ""
+"The course was restored successfully, clicking the continue button below "
+"will take you to view the course you restored."
+msgstr ""
+
+#: $string['restorefileweremissing']
+msgid ""
+"Some files could not be restored because they were missing in the backup."
+msgstr ""
+
+#: $string['restorenewcoursefullname']
+msgid "New course name"
+msgstr ""
+
+#: $string['restorenewcourseshortname']
+msgid "New course short name"
+msgstr ""
+
+#: $string['restorenewcoursestartdate']
+msgid "New start date"
+msgstr ""
+
+#: $string['restorerolemappings']
+msgid "Restore role mappings"
+msgstr ""
+
+#: $string['restorerootsettings']
+msgid "Restore settings"
+msgstr ""
+
+#: $string['restoresection']
+msgid "Restore section"
+msgstr ""
+
+#: $string['restorestage1']
+msgid "Confirm"
+msgstr ""
+
+#: $string['restorestage16']
+msgid "Review"
+msgstr ""
+
+#: $string['restorestage16action']
+msgid "Perform restore"
+msgstr ""
+
+#: $string['restorestage1action']
+msgctxt "$string['restorestage1action']"
+msgid "Next"
+msgstr ""
+
+#: $string['restorestage2']
+msgid "Destination"
+msgstr ""
+
+#: $string['restorestage2action']
+msgctxt "$string['restorestage2action']"
+msgid "Next"
+msgstr ""
+
+#: $string['restorestage32']
+msgid "Process"
+msgstr ""
+
+#: $string['restorestage32action']
+msgctxt "$string['restorestage32action']"
+msgid "Continue"
+msgstr ""
+
+#: $string['restorestage4']
+msgid "Settings"
+msgstr ""
+
+#: $string['restorestage4action']
+msgctxt "$string['restorestage4action']"
+msgid "Next"
+msgstr ""
+
+#: $string['restorestage64']
+msgctxt "$string['restorestage64']"
+msgid "Complete"
+msgstr ""
+
+#: $string['restorestage64action']
+msgctxt "$string['restorestage64action']"
+msgid "Continue"
+msgstr ""
+
+#: $string['restorestage8']
+msgid "Schema"
+msgstr ""
+
+#: $string['restorestage8action']
+msgctxt "$string['restorestage8action']"
+msgid "Next"
+msgstr ""
+
+#: $string['restoretarget']
+msgid "Restore target"
+msgstr ""
+
+#: $string['restoretocourse']
+msgid "Restore to course:"
+msgstr ""
+
+#: $string['restoretocurrentcourse']
+msgid "Restore into this course"
+msgstr ""
+
+#: $string['restoretocurrentcourseadding']
+msgid "Merge the backup course into this course"
+msgstr ""
+
+#: $string['restoretocurrentcoursedeleting']
+msgid "Delete the contents of this course and then restore"
+msgstr ""
+
+#: $string['restoretoexistingcourse']
+msgid "Restore into an existing course"
+msgstr ""
+
+#: $string['restoretoexistingcourseadding']
+msgid "Merge the backup course into the existing course"
+msgstr ""
+
+#: $string['restoretoexistingcoursedeleting']
+msgid "Delete the contents of the existing course and then restore"
+msgstr ""
+
+#: $string['restoretonewcourse']
+msgid "Restore as a new course"
+msgstr ""
+
+#: $string['restoringcourse']
+msgid "Course restoration in progress"
+msgstr ""
+
+#: $string['restoringcourseshortname']
+msgid "restoring"
+msgstr ""
+
+#: $string['rootenrolmanual']
+msgid "Restore as manual enrolments"
+msgstr ""
+
+#: $string['rootsettingactivities']
+msgctxt "$string['rootsettingactivities']"
+msgid "Include activities and resources"
+msgstr ""
+
+#: $string['rootsettinganonymize']
+msgid "Anonymize user information"
+msgstr ""
+
+#: $string['rootsettingbadges']
+msgctxt "$string['rootsettingbadges']"
+msgid "Include badges"
+msgstr ""
+
+#: $string['rootsettingblocks']
+msgctxt "$string['rootsettingblocks']"
+msgid "Include blocks"
+msgstr ""
+
+#: $string['rootsettingcalendarevents']
+msgctxt "$string['rootsettingcalendarevents']"
+msgid "Include calendar events"
+msgstr ""
+
+#: $string['rootsettingcomments']
+msgctxt "$string['rootsettingcomments']"
+msgid "Include comments"
+msgstr ""
+
+#: $string['rootsettingcompetencies']
+msgctxt "$string['rootsettingcompetencies']"
+msgid "Include competencies"
+msgstr ""
+
+#: $string['rootsettingenrolments']
+msgctxt "$string['rootsettingenrolments']"
+msgid "Include enrolment methods"
+msgstr ""
+
+#: $string['rootsettingenrolments_always']
+msgid "Yes, always"
+msgstr ""
+
+#: $string['rootsettingenrolments_never']
+msgid "No, restore users as manual enrolments"
+msgstr ""
+
+#: $string['rootsettingenrolments_withusers']
+msgid "Yes, but only if users are included"
+msgstr ""
+
+#: $string['rootsettingfilters']
+msgctxt "$string['rootsettingfilters']"
+msgid "Include filters"
+msgstr ""
+
+#: $string['rootsettinggradehistories']
+msgid "Include grade history"
+msgstr ""
+
+#: $string['rootsettinggroups']
+msgctxt "$string['rootsettinggroups']"
+msgid "Include groups and groupings"
+msgstr ""
+
+#: $string['rootsettingimscc1']
+msgid "Convert to IMS Common Cartridge 1.0"
+msgstr ""
+
+#: $string['rootsettingimscc11']
+msgid "Convert to IMS Common Cartridge 1.1"
+msgstr ""
+
+#: $string['rootsettinglogs']
+msgid "Include course logs"
+msgstr ""
+
+#: $string['rootsettingquestionbank']
+msgctxt "$string['rootsettingquestionbank']"
+msgid "Include question bank"
+msgstr ""
+
+#: $string['rootsettingroleassignments']
+msgid "Include user role assignments"
+msgstr ""
+
+#: $string['rootsettings']
+msgctxt "$string['rootsettings']"
+msgid "Backup settings"
+msgstr ""
+
+#: $string['rootsettingusers']
+msgid "Include enrolled users"
+msgstr ""
+
+#: $string['rootsettinguserscompletion']
+msgid "Include user completion details"
+msgstr ""
+
+#: $string['sectionactivities']
+msgid "Activities"
+msgstr ""
+
+#: $string['sectioninc']
+msgid "Included in backup (no user information)"
+msgstr ""
+
+#: $string['sectionincanduser']
+msgid "Included in backup along with user information"
+msgstr ""
+
+#: $string['selectacategory']
+msgid "Select a category"
+msgstr ""
+
+#: $string['selectacourse']
+msgid "Select a course"
+msgstr ""
+
+#: $string['setting_course_fullname']
+msgid "Course name"
+msgstr ""
+
+#: $string['setting_course_shortname']
+msgid "Course short name"
+msgstr ""
+
+#: $string['setting_course_startdate']
+msgid "Course start date"
+msgstr ""
+
+#: $string['setting_keep_groups_and_groupings']
+msgid "Keep current groups and groupings"
+msgstr ""
+
+#: $string['setting_keep_roles_and_enrolments']
+msgid "Keep current roles and enrolments"
+msgstr ""
+
+#: $string['setting_overwrite_conf']
+msgid "Overwrite course configuration"
+msgstr ""
+
+#: $string['setting_overwrite_course_fullname']
+msgid "Overwrite course full name"
+msgstr ""
+
+#: $string['setting_overwrite_course_shortname']
+msgid "Overwrite course short name"
+msgstr ""
+
+#: $string['setting_overwrite_course_startdate']
+msgid "Overwrite course start date"
+msgstr ""
+
+#: $string['showtypes']
+msgid "Show type options"
+msgstr ""
+
+#: $string['sitecourseformatwarning']
+msgid ""
+"This is a front page backup, note that they can only be restored on the "
+"front page"
+msgstr ""
+
+#: $string['skiphidden']
+msgid "Skip hidden courses"
+msgstr ""
+
+#: $string['skiphiddenhelp']
+msgid "Choose whether or not to skip hidden courses"
+msgstr ""
+
+#: $string['skipmodifdays']
+msgid "Skip courses not modified since"
+msgstr ""
+
+#: $string['skipmodifdayshelp']
+msgid ""
+"Choose to skip courses that have not been modified since a number of days"
+msgstr ""
+
+#: $string['skipmodifprev']
+msgid "Skip courses not modified since previous backup"
+msgstr ""
+
+#: $string['skipmodifprevhelp']
+msgid ""
+"Choose whether to skip courses that have not been modified since the last "
+"automatic backup. This requires logging to be enabled."
+msgstr ""
+
+#: $string['storagecourseandexternal']
+msgid "Course backup filearea and the specified directory"
+msgstr ""
+
+#: $string['storagecourseonly']
+msgid "Course backup filearea"
+msgstr ""
+
+#: $string['storageexternalonly']
+msgid "Specified directory for automated backups"
+msgstr ""
+
+#: $string['timetaken']
+msgid "Time taken"
+msgstr ""
+
+#: $string['title']
+msgctxt "$string['title']"
+msgid "Title"
+msgstr ""
+
+#: $string['totalcategorysearchresults']
+msgid "Total categories: {$a}"
+msgstr ""
+
+#: $string['totalcoursesearchresults']
+msgid "Total courses: {$a}"
+msgstr ""
+
+#: $string['unnamedsection']
+msgid "Unnamed section"
+msgstr ""
+
+#: $string['userinfo']
+msgid "Userinfo"
+msgstr ""

@@ -1,0 +1,505 @@
+#. extracted from lang/en/recommend.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'recommend', language 'en', branch 'MOODLE_31_STABLE'
+#.  *
+#.  * @package   recommend
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['acceptrecommendation']
+msgid "Accept"
+msgstr ""
+
+#: $string['addquestion']
+msgid "Add question"
+msgstr ""
+
+#: $string['addrequest']
+msgid "Request recommendation"
+msgstr ""
+
+#: $string['allrequests']
+msgid "All requests"
+msgstr ""
+
+#: $string['areyousure_delete_request']
+msgid "Are you sure you want to completely delete this recommendation request?"
+msgstr ""
+
+#: $string['areyousure_reject_recommendation']
+msgid "Are you sure you want to reject this recommendation?"
+msgstr ""
+
+#: $string['completiononlyaccepted']
+msgid "Count only accepted recommendations"
+msgstr ""
+
+#: $string['completionrequired']
+msgid "Minimum number of completed recommendations:"
+msgstr ""
+
+#: $string['editquestion']
+msgid "Edit question"
+msgstr ""
+
+#: $string['editquestions']
+msgid "Edit questions"
+msgstr ""
+
+#: $string['error_cannotdeleterequest']
+msgid "Sorry, this request can not be deleted"
+msgstr ""
+
+#: $string['error_emailduplicated']
+msgid "Duplicate e-mail address"
+msgstr ""
+
+#: $string['error_emailmissing']
+msgid "E-mail for this recommendation is not specified"
+msgstr ""
+
+#: $string['error_emailnotvalid']
+msgid "E-mail address is not valid"
+msgstr ""
+
+#: $string['error_emailused']
+msgid "Request to this e-mail has already been sent"
+msgstr ""
+
+#: $string['error_questionnotfound']
+msgid "Question not found"
+msgstr ""
+
+#: $string['error_recommendationsubmitted']
+msgid "This recommendation is already submitted"
+msgstr ""
+
+#: $string['error_requestnotfound']
+msgid "Sorry we could not find this recommendation request"
+msgstr ""
+
+#: $string['eventquestioncreated']
+msgid "Recommendation question created"
+msgstr ""
+
+#: $string['eventquestiondeleted']
+msgid "Recommendation question deleted"
+msgstr ""
+
+#: $string['eventquestionupdated']
+msgid "Recommendation question updated"
+msgstr ""
+
+#: $string['eventrequestaccepted']
+msgctxt "$string['eventrequestaccepted']"
+msgid "Recommendation accepted"
+msgstr ""
+
+#: $string['eventrequestcompleted']
+msgctxt "$string['eventrequestcompleted']"
+msgid "Recommendation completed"
+msgstr ""
+
+#: $string['eventrequestcreated']
+msgid "Recommendation request created"
+msgstr ""
+
+#: $string['eventrequestdeclined']
+msgctxt "$string['eventrequestdeclined']"
+msgid "Recommendation request declined"
+msgstr ""
+
+#: $string['eventrequestdeleted']
+msgid "Recommendation request deleted"
+msgstr ""
+
+#: $string['eventrequestrejected']
+msgctxt "$string['eventrequestrejected']"
+msgid "Recommendation rejected"
+msgstr ""
+
+#: $string['eventrequestsent']
+msgctxt "$string['eventrequestsent']"
+msgid "Recommendation request sent"
+msgstr ""
+
+#: $string['labelcontents']
+msgid "Contents"
+msgstr ""
+
+#: $string['maxrequests']
+msgid "Maximum requests allowed"
+msgstr ""
+
+#: $string['maxrequests_help']
+msgid ""
+"Maximum number of requests a participant is allowed to send.\n"
+" It is reasonable to set this value low to encourage participants to pre-"
+"confirm with\n"
+" the recommending person and prevent them from bulk sending large number of "
+"requests.\n"
+" However different circumstances may prevent recommending person from "
+"filling out\n"
+" the form and participant should be allowed to send more requests than the "
+"required\n"
+" number of recommendations"
+msgstr ""
+
+#: $string['messageprovider:completed']
+msgid "Completed recommendation notification for graders"
+msgstr ""
+
+#: $string['messageprovider:statuschanged']
+msgid "Recommendation request status change notification"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Recommendation request"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"This module allows participants to request recommendations. Recommending "
+"person does not need to register on the site. The grader is able to view "
+"recommendations, accept or decline them."
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Recommendation requests"
+msgstr ""
+
+#: $string['norequests']
+msgid "No recommendation requests created"
+msgstr ""
+
+#: $string['notificationcompleted_body']
+msgid ""
+"Dear {$a->recipient},\n"
+"\n"
+"New recommendation was completed on {$a->site} and is now waiting to be "
+"accepted.\n"
+"\n"
+"Participant: {$a->participant}\n"
+"Name of the recommending person: {$a->name}\n"
+"\n"
+"To view recommendation follow the link:\n"
+"{$a->link}\n"
+"\n"
+"If you need help, please contact the site administrator,\n"
+"{$a->admin}"
+msgstr ""
+
+#: $string['notificationcompleted_short']
+msgid "New recommendation"
+msgstr ""
+
+#: $string['notificationcompleted_subject']
+msgid "{$a->courseshortname}: {$a->modulename}: New recommendation"
+msgstr ""
+
+#: $string['notificationstatuschanged_body']
+msgid ""
+"Dear {$a->recipient},\n"
+"\n"
+"This is to notify you about the change in the status of the recommendation "
+"you requested.\n"
+"Name of the recommending person: {$a->name}\n"
+"E-mail: {$a->email}\n"
+"New status: <b>{$a->status}</b>\n"
+"\n"
+"To view all your recommendation requests follow the link:\n"
+"{$a->link}\n"
+"\n"
+"If you need help, please contact the site administrator,\n"
+"{$a->admin}"
+msgstr ""
+
+#: $string['notificationstatuschanged_short']
+msgid ""
+"{$a->courseshortname}: {$a->modulename}: Your recommendation request status "
+"has changed"
+msgstr ""
+
+#: $string['notificationstatuschanged_subject']
+msgid "Your recommendation request status has changed"
+msgstr ""
+
+#: $string['options']
+msgid "Options"
+msgstr ""
+
+#: $string['options_help']
+msgid ""
+"Specify one option per line, prefix each line with the weight and / sign. "
+"All weights must be different, for "
+"example:<br><pre>1/Bad<br>3/Good<br>5/Excellent</pre>"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Recommendation request administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Recommendation request"
+msgstr ""
+
+#: $string['prefillwith']
+msgid "Prefill with:"
+msgstr ""
+
+#: $string['preview']
+msgid "Preview recommendation"
+msgstr ""
+
+#: $string['question']
+msgid "Question"
+msgstr ""
+
+#: $string['questiontype']
+msgid "Type"
+msgstr ""
+
+#: $string['recommend:accept']
+msgid "Accept and reject completed recommendations"
+msgstr ""
+
+#: $string['recommend:addinstance']
+msgid "Add a new Recommendation request activity"
+msgstr ""
+
+#: $string['recommendationaccepted']
+msgctxt "$string['recommendationaccepted']"
+msgid "Recommendation accepted"
+msgstr ""
+
+#: $string['recommendationfor']
+msgid "Recommendation for {$a}"
+msgstr ""
+
+#: $string['recommendationrejected']
+msgctxt "$string['recommendationrejected']"
+msgid "Recommendation rejected"
+msgstr ""
+
+#: $string['recommendationtitle']
+msgid "Recommendation {$a}"
+msgstr ""
+
+#: $string['recommendatorname']
+msgid "Name of the recommending person"
+msgstr ""
+
+#: $string['recommend:delete']
+msgid "Delete any request or recommendation"
+msgstr ""
+
+#: $string['recommend:editquestions']
+msgid "Edit questions in the recommendation"
+msgstr ""
+
+#: $string['recommendname']
+msgid "Name"
+msgstr ""
+
+#: $string['recommendname_help']
+msgid ""
+"Name of the activity as displayed on the course page. Not shown to the "
+"recommending person."
+msgstr ""
+
+#: $string['recommend:request']
+msgid "Request new recommendation"
+msgstr ""
+
+#: $string['recommend:viewdetails']
+msgid "View the recommendation details (requested and completed)"
+msgstr ""
+
+#: $string['rejectrecommendation']
+msgid "Reject"
+msgstr ""
+
+#: $string['requestdeleted']
+msgid "Request was deleted"
+msgstr ""
+
+#: $string['requestemailsubject']
+msgid "Request e-mail subject"
+msgstr ""
+
+#: $string['requestemailtemplate']
+msgid "Request e-mail template"
+msgstr ""
+
+#: $string['requestinstructions']
+msgid ""
+"Use this form to send requests to up to {$a} people who would be able to "
+"recommend you.\n"
+"Each recommending person will receive an e-mail with a link to an online "
+"recommendation form.\n"
+"Be careful when filling out this form, after recommendation request is sent "
+"you will not be able to make any changes."
+msgstr ""
+
+#: $string['requestinstructionsmult']
+msgid ""
+"You do not need to send all request at once, you can come back at send "
+"additional requests at any time."
+msgstr ""
+
+#: $string['requestscreated']
+msgid "Recommendation request(s) created."
+msgstr ""
+
+#: $string['requestsent']
+msgctxt "$string['requestsent']"
+msgid "Recommendation request sent"
+msgstr ""
+
+#: $string['requestssettings']
+msgid "Requests settings"
+msgstr ""
+
+#: $string['requesttemplatebody']
+msgid ""
+"Dear {NAME}\n"
+"\n"
+"{PARTICIPANT} has asked you for a recommendation on {SITE}.\n"
+"To fill the recommendation form online please follow the link:\n"
+"{LINK}\n"
+"\n"
+"If you need help, please contact the site administrator,\n"
+"{ADMIN}"
+msgstr ""
+
+#: $string['requesttemplatesubject']
+msgid "Recommendation request from {SITE}"
+msgstr ""
+
+#: $string['requiredrecommendgroup']
+msgid "Recommendations received"
+msgstr ""
+
+#: $string['requiredrecommendgroup_help']
+msgid ""
+"If the setting \"Count only accepted recommendations\" is unchecked, completed "
+"recommendations that have not yet been reviewed by the teacher will be "
+"counted. However if later the completed recommendation becomes rejected by "
+"the teacher the completed activity may become incomplete again."
+msgstr ""
+
+#: $string['resend']
+msgid "Re-send request"
+msgstr ""
+
+#: $string['selectquestiontype']
+msgid "Select question type"
+msgstr ""
+
+#: $string['sendnow']
+msgid "Send without delay"
+msgstr ""
+
+#: $string['status']
+msgid "Status"
+msgstr ""
+
+#: $string['status0']
+msgid "Scheduled"
+msgstr ""
+
+#: $string['status1']
+msgctxt "$string['status1']"
+msgid "Recommendation request sent"
+msgstr ""
+
+#: $string['status2']
+msgctxt "$string['status2']"
+msgid "Recommendation request declined"
+msgstr ""
+
+#: $string['status3']
+msgctxt "$string['status3']"
+msgid "Recommendation completed"
+msgstr ""
+
+#: $string['status4']
+msgctxt "$string['status4']"
+msgid "Recommendation rejected"
+msgstr ""
+
+#: $string['status5']
+msgctxt "$string['status5']"
+msgid "Recommendation accepted"
+msgstr ""
+
+#: $string['suredeletequestion']
+msgid ""
+"Are you sure you want to delete this question? All replies to this question "
+"in the existing recommendations will also be deleted"
+msgstr ""
+
+#: $string['taskname']
+msgid "Send scheduled recommendation requests"
+msgstr ""
+
+#: $string['thanksforrecommendation']
+msgid "Thank you, your recommendation has been processed."
+msgstr ""
+
+#: $string['timecompleted']
+msgid "Completed"
+msgstr ""
+
+#: $string['timerequested']
+msgid "Requested"
+msgstr ""
+
+#: $string['typelabel']
+msgid "Explanation text without input control"
+msgstr ""
+
+#: $string['typeradio']
+msgid "Collection of radio buttons"
+msgstr ""
+
+#: $string['typetextarea']
+msgid "Multiline text with editor"
+msgstr ""
+
+#: $string['typetextfield']
+msgid "Single line text field"
+msgstr ""
+
+#: $string['yourrecommendations']
+msgid "Your recommendations"
+msgstr ""

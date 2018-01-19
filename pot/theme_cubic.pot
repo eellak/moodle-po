@@ -1,0 +1,416 @@
+#. extracted from lang/en/theme_cubic.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'theme_cubic', language 'en', branch 'MOODLE_23_STABLE'
+#.  *
+#.  * @package   theme_cubic
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['activity_icons_view']
+msgid "Icons"
+msgstr ""
+
+#: $string['activity_list_view']
+msgid "List"
+msgstr ""
+
+#: $string['activity_view']
+msgid "Activities View"
+msgstr ""
+
+#: $string['activity_view_desc']
+msgid "Default activities view mode on course pages."
+msgstr ""
+
+#: $string['bar_border_color']
+msgid "Bar Border Color"
+msgstr ""
+
+#: $string['bar_border_color_desc']
+msgid "Bottom border color for the top bar."
+msgstr ""
+
+#: $string['bar_color']
+msgid "Bar Color"
+msgstr ""
+
+#: $string['bar_color_desc']
+msgid "Background color for the top bar."
+msgstr ""
+
+#: $string['bar_hover_color']
+msgid "Bar Hover Color"
+msgstr ""
+
+#: $string['bar_hover_color_desc']
+msgid "Hover color for the top bar buttons."
+msgstr ""
+
+#: $string['bar_logo']
+msgid "Bar Logo"
+msgstr ""
+
+#: $string['bar_logo_desc']
+msgid ""
+"URL for logo image in the top bar. This URL must reference a file inside "
+"this theme pix folder without its extension (For example: if you have the "
+"file \"/theme/cubic/pix/new_logo.png\", the value for this field must be "
+"\"new_logo\")."
+msgstr ""
+
+#: $string['bar_text_color']
+msgid "Bar Text Color"
+msgstr ""
+
+#: $string['bar_text_color_desc']
+msgid "Text color for the top bar."
+msgstr ""
+
+#: $string['borders_color']
+msgid "Borders Color"
+msgstr ""
+
+#: $string['borders_color_desc']
+msgid "Main borders color."
+msgstr ""
+
+#: $string['button_border_color']
+msgid "Buttons Border Color"
+msgstr ""
+
+#: $string['button_border_color_desc']
+msgid "Border color of all buttons."
+msgstr ""
+
+#: $string['button_bottom_color']
+msgid "Buttons Bottom Color"
+msgstr ""
+
+#: $string['button_bottom_color_desc']
+msgid "Bottom color of all buttons."
+msgstr ""
+
+#: $string['button_top_color']
+msgid "Buttons Top Color"
+msgstr ""
+
+#: $string['button_top_color_desc']
+msgid "Top color of all buttons."
+msgstr ""
+
+#: $string['choosereadme']
+msgid ""
+"<div class=\"clearfix\">\n"
+"\t\t<div class=\"theme_screenshot\">\n"
+"\t\t\t<h2>Cubic</h2>\n"
+"\t\t\t<img src=\"cubic/pix/screenshot.png\" />\n"
+"\t\t</div>\n"
+"\t\t<div class=\"theme_description\">\n"
+"\t\t\t<h2>About</h2>\n"
+"\t\t\t<p>Cubic is a fluid-width, three-column theme for Moodle 2.3. Its "
+"objective is to provide users with a more user-friendly interface, which "
+"provides several forms of social awareness and some new concepts.</p>\n"
+"\t\t\t<h2>Tweaks</h2>\n"
+"\t\t\t<p>This theme is a base theme for Moodle, which introduces some new "
+"concepts and which takes advantage of some new technologies like HTML5 and "
+"CSS3.</p>\n"
+"\t\t\t<p>On the top of every Moodle page, this theme introduces a user bar "
+"which provides users with several menus. Each of these menus contain "
+"information about the current user courses, activities, notifications, "
+"events, messages, settings, and others.</p>\n"
+"\t\t\t<p>Besides that, this theme is related to two new Moodle local plugins, "
+"which introduce the <a href=\"https://moodle.org/plugins/view.php?plugin=loca"
+"l_institutions\">Institutions</a> and the <a href=\"https://moodle.org/plugins"
+"/view.php?plugin=local_applications\">Applications</a> concepts in Moodle. On "
+"the user bar a menu for each of those concepts is displayed. Those menus "
+"allow the users to access institutional or applications web pages, "
+"respectively. Both the institutions and the applications pages can be "
+"accessed without leaving Moodle.</p>\n"
+"\t\t\t<p>Furthermore, this theme is also related to a new Moodle <a "
+"href=\"https://moodle.org/plugins/view.php?plugin=block_gchat\">block "
+"plugin</a> that introduces a chat service for Moodle that is available for "
+"everyone, a bit like Google Chat or Facebook Chat.</p>\n"
+"\t\t\t<p>Since the user bar contains a lot of useful information, the blocks "
+"are no longer required in some contexts. For example, when embedding a page, "
+"Cubic uses all horizontal and vertical space leaving only the user bar in "
+"the top.</p>\n"
+"\t\t\t<p>Finally, this theme also provides a settings page where you can change "
+"several properties like logos, colors, system name, and others. On this "
+"page you can also remove the institutions and applications menus from the "
+"user bar in case you don't want to use them.</p>\n"
+"\t\t\t<h2>Credits</h2>\n"
+"\t\t\t<p>This theme was coded and is maintained by <a "
+"href=\"http://pessoa.fct.unl.pt/b.sampaio/index.php?language=en\">Bruno "
+"Sampaio</a>. The decision to create this theme was made during his Master "
+"thesis, which was related with the use of new technologies on education, "
+"mainly video games. Moodle was chosen as a way to distribute educational "
+"games developed using <a href=\"http://epik.di.fct.unl.pt/epik\">Epik</a>, and "
+"since some studies pointed some problems with its user interface, it was "
+"decided to create a new theme to satisfy some of the Personal Learning "
+"Environments (PLEs) concepts.</p>\n"
+"\t\t\t<p>This theme wouldn't be so great without the help of <b>André Costa</b> "
+"which designed the Cubic logo and <b>Sónia Martins</b> which designed some "
+"of the icons used. Besides that some of the icons and scripts used are "
+"available on the internet.</p>\n"
+"\t\t\t<p>You can find the icons in the user bar <a "
+"href=\"http://www.iconfinder.com/search/15/?q=iconset%3Asuper-mono-"
+"reflection\">here</a> (created by <a "
+"href=\"http://www.doublejdesign.co.uk/\">Double-J Design</a>) and the mono "
+"chromatic icons <a href=\"http://www.iconfinder.com/search/?q=iconset%"
+"3Acc_mono_icon_set\">here</a> (created by <a "
+"href=\"http://www.gentleface.com/\">GentleFace</a>), both under the <a "
+"href=\"http://creativecommons.org/licenses/by-nc/3.0/\">Creative Commons</a> "
+"license.</p>\n"
+"\t\t\t<p>The Javascript scripts used were the jQuery framework found <a "
+"href=\"http://jquery.com/\">here</a>, the jQuery UI found <a "
+"href=\"http://jqueryui.com/\">here</a> and the jQuery Custom Scrollbar found "
+"<a href=\"http://manos.malihu.gr/jquery-custom-content-"
+"scroller\">here</a>.</p>\n"
+"\t\t\t<p>If you need help about anything related with this theme just send an "
+"e-mail to b.sampaio@campus.fct.unl.pt and I'll try to answer the faster I "
+"can.</p>\n"
+"\t\t\t<h2>Extras</h2>\n"
+"\t\t\t<p>In addition to this theme were also created two blocks. One to display "
+"the user favorite Applications. And other with a Global Chat, similar to "
+"the one provided by Google and Facebook, for example.</p>\n"
+"\t\t</div>\n"
+"\t</div>"
+msgstr ""
+
+#: $string['configtitle']
+msgctxt "$string['configtitle']"
+msgid "Cubic"
+msgstr ""
+
+#: $string['custom_css']
+msgid "Custom CSS"
+msgstr ""
+
+#: $string['custom_css_desc']
+msgid "Set custom CSS rules here."
+msgstr ""
+
+#: $string['empty-activities']
+msgid "You haven't Activities"
+msgstr ""
+
+#: $string['empty-applications']
+msgid "You haven't Applications"
+msgstr ""
+
+#: $string['empty-courses']
+msgid "You are not enrolled to any Course"
+msgstr ""
+
+#: $string['empty-events']
+msgid "You haven't new Events"
+msgstr ""
+
+#: $string['empty-institutions']
+msgid "There aren't Institutions"
+msgstr ""
+
+#: $string['empty-messages']
+msgid "You haven't new Messages"
+msgstr ""
+
+#: $string['empty-notifications']
+msgid "You haven't Notifications"
+msgstr ""
+
+#: $string['feedback_desc']
+msgid ""
+"URL for feedback page (by providing this URL a button for Feedback will be "
+"displayed on the right side of all Moodle pages)."
+msgstr ""
+
+#: $string['guest']
+msgid "Guest"
+msgstr ""
+
+#: $string['hover_color']
+msgid "Hover Color"
+msgstr ""
+
+#: $string['hover_color_desc']
+msgid "Main hover color for page elements."
+msgstr ""
+
+#: $string['links_color']
+msgid "Links Color"
+msgstr ""
+
+#: $string['links_color_desc']
+msgid "Color of all links."
+msgstr ""
+
+#: $string['logo']
+msgid "Logo"
+msgstr ""
+
+#: $string['logo_desc']
+msgid "URL for main logo image."
+msgstr ""
+
+#: $string['menu-activities']
+msgid "Activities"
+msgstr ""
+
+#: $string['menu_all_color']
+msgid "Menu Bottom Section Background Color"
+msgstr ""
+
+#: $string['menu_all_color_desc']
+msgid "Background color for the bottom section in some menus."
+msgstr ""
+
+#: $string['menu-applications']
+msgid "Applications"
+msgstr ""
+
+#: $string['menu-courses']
+msgid "Courses"
+msgstr ""
+
+#: $string['menu-events']
+msgid "Events"
+msgstr ""
+
+#: $string['menu-info']
+msgid "You"
+msgstr ""
+
+#: $string['menu-intitutions']
+msgid "Institutions"
+msgstr ""
+
+#: $string['menu-languages']
+msgid "Languages"
+msgstr ""
+
+#: $string['menu-messages']
+msgid "Messages"
+msgstr ""
+
+#: $string['menu-notifications']
+msgid "Notifications"
+msgstr ""
+
+#: $string['menu-settings']
+msgid "Settings"
+msgstr ""
+
+#: $string['nouser-info']
+msgid "Limited access."
+msgstr ""
+
+#: $string['plugin-missing']
+msgid ""
+"To use this component you need to install another plugin that can be found "
+"here:"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Cubic"
+msgstr ""
+
+#: $string['plugin-note']
+msgid ""
+"You can also remove this component from the user bar on theme settings page."
+msgstr ""
+
+#: $string['region-side-post']
+msgid "Right"
+msgstr ""
+
+#: $string['region-side-pre']
+msgid "Left"
+msgstr ""
+
+#: $string['see-all']
+msgid "See All"
+msgstr ""
+
+#: $string['settings-edit']
+msgid "Edit Profile"
+msgstr ""
+
+#: $string['settings-login']
+msgid "Login"
+msgstr ""
+
+#: $string['settings-logout']
+msgid "Logout"
+msgstr ""
+
+#: $string['settings-msg']
+msgid "Messaging"
+msgstr ""
+
+#: $string['settings-password']
+msgid "Change Password"
+msgstr ""
+
+#: $string['settings-reset']
+msgid "Recover Password"
+msgstr ""
+
+#: $string['show_applications']
+msgid "Show Applications"
+msgstr ""
+
+#: $string['show_applications_desc']
+msgid "Show applications section on user bar."
+msgstr ""
+
+#: $string['show_institutions']
+msgid "Show Institutions"
+msgstr ""
+
+#: $string['show_institutions_desc']
+msgid "Show institutions section on user bar."
+msgstr ""
+
+#: $string['text_color']
+msgid "Text Color"
+msgstr ""
+
+#: $string['text_color_desc']
+msgid "Color for all headings and paragraphs."
+msgstr ""
+
+#: $string['title']
+msgid "Title"
+msgstr ""
+
+#: $string['title_desc']
+msgid "Name to appear on the footer."
+msgstr ""

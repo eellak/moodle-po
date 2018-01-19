@@ -1,0 +1,200 @@
+#. extracted from lang/en/block_sharing_cart.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_sharing_cart', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   block_sharing_cart
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['backup']
+msgid "Copy to Sharing Cart"
+msgstr ""
+
+#: $string['bulkdelete']
+msgid "Bulk delete"
+msgstr ""
+
+#: $string['clipboard']
+msgid "Copying this shared item"
+msgstr ""
+
+#: $string['confirm_backup']
+msgid "Are you sure you want to copy this activity/resource into Sharing Cart?"
+msgstr ""
+
+#: $string['confirm_backup_section']
+msgid ""
+"Do you want to copy this course section and its activities / resources into "
+"Sharing Cart?"
+msgstr ""
+
+#: $string['confirm_delete']
+msgid "Are you sure you want to delete?"
+msgstr ""
+
+#: $string['confirm_delete_selected']
+msgid "Are you sure you want to delete all selected items?"
+msgstr ""
+
+#: $string['confirm_restore']
+msgid "Are you sure you want to copy this item to course?"
+msgstr ""
+
+#: $string['confirm_userdata']
+msgid ""
+"Do you want to include user data in a copy of this activity/resource?\n"
+"OK - Copy *with* user data\n"
+"Cancel - Copy *without* user data"
+msgstr ""
+
+#: $string['confirm_userdata_section']
+msgid ""
+"Do you want to include user data in a copy of these activities/resources?\n"
+"OK - Copy *with* user data\n"
+"Cancel - Copy *without* user data"
+msgstr ""
+
+#: $string['copyhere']
+msgid "Copy here"
+msgstr ""
+
+#: $string['forbidden']
+msgid "You don't have any permissions to access this shared item"
+msgstr ""
+
+#: $string['inprogess_pleasewait']
+msgid "Please wait…"
+msgstr ""
+
+#: $string['invalidoperation']
+msgid "An invalid operation detected"
+msgstr ""
+
+#: $string['movedir']
+msgid "Move into folder"
+msgstr ""
+
+#: $string['notarget']
+msgid "Target not found"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Sharing Cart"
+msgstr ""
+
+#: $string['recordnotfound']
+msgid "Shared item not found"
+msgstr ""
+
+#: $string['requireajax']
+msgid "Sharing Cart requires AJAX"
+msgstr ""
+
+#: $string['requirejs']
+msgid "Sharing Cart requires JavaScript enabled in your browser"
+msgstr ""
+
+#: $string['restore']
+msgid "Copy to course"
+msgstr ""
+
+#: $string['settings:userdata_copyable_modtypes']
+msgid "User data copyable module types"
+msgstr ""
+
+#: $string['settings:userdata_copyable_modtypes_desc']
+msgid ""
+"While copying an activity into the Sharing Cart,\n"
+"a dialog shows an option whether a copy of an activity includes its user "
+"data or not,\n"
+"if its module type is checked in the above and an operator has "
+"<strong>moodle/backup:userinfo</strong>,\n"
+"<strong>moodle/backup:anonymise</strong> and "
+"<strong>moodle/restore:userinfo</strong> capabilities.\n"
+"(By default, only manager role has those capabilities.)"
+msgstr ""
+
+#: $string['settings:workaround_qtypes']
+msgid "Workaround for question types"
+msgstr ""
+
+#: $string['settings:workaround_qtypes_desc']
+msgid ""
+"The workaround for question restore issue will be performed if its question "
+"type is checked.\n"
+"When the questions to be restored already exist, however, those data look "
+"like inconsistent,\n"
+"this workaround will try to make another duplicates instead of reusing "
+"existing data.\n"
+"It may be useful for avoiding some restore errors, such as "
+"<i>error_question_match_sub_missing_in_db</i>."
+msgstr ""
+
+#: $string['sharing_cart']
+msgctxt "$string['sharing_cart']"
+msgid "Sharing Cart"
+msgstr ""
+
+#: $string['sharing_cart:addinstance']
+msgid "Add a new Sharing Cart block"
+msgstr ""
+
+#: $string['sharing_cart_help']
+msgid ""
+"<h2 class=\"helpheading\">Operation</h2>\n"
+"<dl style=\"margin-left:0.5em;\">\n"
+"<dt>Copying from course to Sharing Cart</dt>\n"
+"    <dd>You will notice a small \"Copy to Sharing Cart\" icon which appears "
+"after each\n"
+"        resource or activity in a course.\n"
+"        Click on that icon to send a copy of that resource/activity into "
+"Sharing Cart.\n"
+"        Only the activity itself, without user data, will be cloned.</dd>\n"
+"<dt>Copying from Sharing Cart to course</dt>\n"
+"    <dd>Click a \"Copy to course\" icon in Sharing Cart and select one of "
+"target markers on each section.\n"
+"        Or click \"Cancel\" icon which is above those.</dd>\n"
+"<dt>Making folders inside Sharing Cart</dt>\n"
+"    <dd>Click a \"Move into folder\" icon in a Sharing Cart item.\n"
+"        An input box for new folder name will appear if there's no folder.\n"
+"        Or you can select an existing folder in drop-down list.\n"
+"        Which will be replaced with an input box if you click \"Edit\" "
+"icon.</dd>\n"
+"</dl>"
+msgstr ""
+
+#: $string['unexpectederror']
+msgid "An unexpected error occurred"
+msgstr ""
+
+#: $string['variouscourse']
+msgid "from various courses"
+msgstr ""

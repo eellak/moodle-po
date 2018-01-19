@@ -1,0 +1,2992 @@
+#. extracted from lang/en/block_moodletxt.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_moodletxt', language 'en', branch 'MOODLE_29_STABLE'
+#.  *
+#.  * @package   block_moodletxt
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addcontactsuccessful']
+msgid "Contact added successfully."
+msgstr ""
+
+#: $string['addressbookupdated']
+msgid "The address book was updated successfully."
+msgstr ""
+
+#: $string['addressfragnodest']
+msgid "Nowhere - delete the contacts"
+msgstr ""
+
+#: $string['addresslblmove']
+msgid "Move contacts in this book to:"
+msgstr ""
+
+#: $string['addresstitle']
+msgid "Address Books for"
+msgstr ""
+
+#: $string['adminaccountadded']
+msgid "Account was added successfully."
+msgstr ""
+
+#: $string['adminaccountbutupdateall']
+msgid "Update Credit Info For All Accounts"
+msgstr ""
+
+#: $string['adminaccountconfirmupdate']
+msgid ""
+"moodletxt will now connect to the ConnectTxt server and poll each registered "
+"account for updated data. If you have a large number of ConnectTxt accounts "
+"registered in moodletxt then this can take a significant amount of time. Do "
+"you wish to continue?"
+msgstr ""
+
+#: $string['adminaccountctxtinstance']
+msgid "ConnectTxt instance"
+msgstr ""
+
+#: $string['adminaccountfragloading']
+msgid "Updating account..."
+msgstr ""
+
+#: $string['adminaccountfragneverupdated']
+msgid "Never Updated"
+msgstr ""
+
+#: $string['adminaccountintropara1']
+msgid ""
+"This page displays details about the ConnectTxt server used by moodletxt.  "
+"To enable or disable inbound/outbound access on a given account, find the "
+"account's entry in the table below, and click the appropriate icon.  This "
+"will toggle access as required."
+msgstr ""
+
+#: $string['adminaccountintropara2']
+msgid ""
+"Clicking the \"Update Credit Info\" button will synchronise credit information "
+"for the accounts listed with the ConnectTxt server.  Please note that this "
+"task is normally taken care of at regular intervals by the Moodle system, "
+"and as such is not normally necessary"
+msgstr ""
+
+#: $string['adminaccountinvoicedaccount']
+msgid "Invoiced account"
+msgstr ""
+
+#: $string['adminaccountprocessedfrag']
+msgid "Processed"
+msgstr ""
+
+#: $string['adminaccountupdatefailed']
+msgid "Update error"
+msgstr ""
+
+#: $string['adminaccountupdatesuccess']
+msgid "Updated OK"
+msgstr ""
+
+#: $string['adminaccounturl']
+msgid "ConnectTxt instance URL"
+msgstr ""
+
+#: $string['adminbutaddaccount']
+msgid "Add Account"
+msgstr ""
+
+#: $string['adminbutaddfolder']
+msgid "Add Folder"
+msgstr ""
+
+#: $string['adminbutadduserfilter']
+msgctxt "$string['adminbutadduserfilter']"
+msgid "Add Filter"
+msgstr ""
+
+#: $string['adminbutdelfolder']
+msgid "Delete Folder"
+msgstr ""
+
+#: $string['adminbutdeluserfilter']
+msgid "Remove Filter"
+msgstr ""
+
+#: $string['adminbutremovefilterusers']
+msgid "Remove selected users from filter"
+msgstr ""
+
+#: $string['adminbutsavefilterusers']
+msgid "Save the filter"
+msgstr ""
+
+#: $string['adminbutupdatepass']
+msgid "Update Account"
+msgstr ""
+
+#: $string['adminbutupdatesettings']
+msgid "Update Settings"
+msgstr ""
+
+#: $string['admindescdefaultname']
+msgid ""
+"The default name moodletxt should assign to message recipients that it "
+"cannot identify."
+msgstr ""
+
+#: $string['admindescdefaultprefix']
+msgid "The international prefix for phone numbers within your country."
+msgstr ""
+
+#: $string['admindescdefnatprefix']
+msgid "The default prefix for phone numbers within your country."
+msgstr ""
+
+#: $string['admindescdisablewarn']
+msgid "Should moodletxt display warnings when SSL connections are not enabled?"
+msgstr ""
+
+#: $string['admindesceventaccount']
+msgid ""
+"Which ConnectTxt account to use when sending messages generated in response "
+"to Moodle system events. This is required for the moodletxt+ messaging "
+"plugin to work."
+msgstr ""
+
+#: $string['admindescmiscsettings']
+msgid ""
+"These are the various system settings that don't fit under any other "
+"heading, such as update notifications, interface tweaks, etc."
+msgstr ""
+
+#: $string['admindescphonesource']
+msgid ""
+"Which of Moodle's profile fields moodletxt should use as a number source."
+msgstr ""
+
+#: $string['admindescprotocol']
+msgid ""
+"Which protocol moodletxt should use for connections to ConnectTxt. Only use "
+"HTTP if SSL is not available"
+msgstr ""
+
+#: $string['admindescproxyaddress']
+msgid "The address of your proxy server."
+msgstr ""
+
+#: $string['admindescproxypassword']
+msgid ""
+"The password moodletxt should use to connect to your proxy server (if "
+"required)."
+msgstr ""
+
+#: $string['admindescproxyport']
+msgid "The port your proxy server listens on."
+msgstr ""
+
+#: $string['admindescproxysettings']
+msgid ""
+"If you want moodletxt to connect via a proxy server, enter its details here. "
+"Please note that moodletxt currently only supports proxy servers using "
+"BASIC authentication, or no authentication."
+msgstr ""
+
+#: $string['admindescproxyusername']
+msgid ""
+"The username moodletxt should use to connect to your proxy server (if "
+"required)."
+msgstr ""
+
+#: $string['admindescrecipsettings']
+msgid ""
+"These settings change where/how moodletxt sources recipient phone numbers, "
+"along with how recipient data is handled."
+msgstr ""
+
+#: $string['admindescrssexpire']
+msgid ""
+"How long a new RSS update should be displayed for on the admin page after "
+"being published."
+msgstr ""
+
+#: $string['admindescrssupdate']
+msgid ""
+"How often moodletxt should check for new updates to the moodletxt RSS feed."
+msgstr ""
+
+#: $string['admindescsendreceive']
+msgid ""
+"These settings are used to control the sending and receiving of messages "
+"within the block, and how updates/inbound messages are received."
+msgstr ""
+
+#: $string['admindescsetautoinbound']
+msgid ""
+"Should moodletxt connect to fetch inbound messages when a user's inbox page "
+"is opened?"
+msgstr ""
+
+#: $string['admindescsetautoupdate']
+msgid ""
+"Should moodletxt connect to fetch status updates when the message details "
+"page is opened?"
+msgstr ""
+
+#: $string['admindescsetxmlpass']
+msgid ""
+"The password ConnectTxt should use when sending messages/status updates to "
+"you via XML push. This is not your ConnectTxt password."
+msgstr ""
+
+#: $string['admindescsetxmluser']
+msgid ""
+"The username ConnectTxt should use when sending messages/status updates to "
+"you via XML push. This is not your ConnectTxt username."
+msgstr ""
+
+#: $string['admindescshowinbound']
+msgid ""
+"Controls whether or not the source phone number/student name should be shown "
+"with inbound messages on the inbox page. If you are using moodletxt in "
+"classroom situations, you may wish to hide inbound sources so that messages "
+"displayed are anonymous. Please note that as of moodletxt 3.0, this can be "
+"overridden by individuals users, so your selection here will become the "
+"default setting."
+msgstr ""
+
+#: $string['adminerrorpara1']
+msgid ""
+"The following errors were encountered when trying to send the text message:"
+msgstr ""
+
+#: $string['adminerrorpara2']
+msgid ""
+"Please try again later.  If the problem persists, please contact the system "
+"administrator."
+msgstr ""
+
+#: $string['adminheaderaccess']
+msgid "User Access"
+msgstr ""
+
+#: $string['adminheaderaccounts']
+msgctxt "$string['adminheaderaccounts']"
+msgid "ConnectTxt Accounts"
+msgstr ""
+
+#: $string['adminheaderaccountslist']
+msgid "ConnectTxt Account List"
+msgstr ""
+
+#: $string['adminheaderfilters']
+msgctxt "$string['adminheaderfilters']"
+msgid "Inbound Message Filters"
+msgstr ""
+
+#: $string['adminheaderinfo']
+msgid "Useful Information"
+msgstr ""
+
+#: $string['adminheaderlinks']
+msgid "Account and Filter Settings"
+msgstr ""
+
+#: $string['adminheadermiscsettings']
+msgid "Miscellaneous Settings"
+msgstr ""
+
+#: $string['adminheaderproxysettings']
+msgid "Proxy Settings"
+msgstr ""
+
+#: $string['adminheaderrecipsettings']
+msgid "Recipient Settings"
+msgstr ""
+
+#: $string['adminheaderrssupdate']
+msgid "Latest moodletxt News"
+msgstr ""
+
+#: $string['adminheadersendreceive']
+msgid "Send/Receive Settings"
+msgstr ""
+
+#: $string['adminheaderserversetting']
+msgid "ConnectTxt Server Setting"
+msgstr ""
+
+#: $string['adminheadersslfailed']
+msgid "Warning: Could not establish secure connection"
+msgstr ""
+
+#: $string['adminheadersslwarning']
+msgid "Warning: Secure transmissions not enabled"
+msgstr ""
+
+#: $string['adminheading']
+msgctxt "$string['adminheading']"
+msgid "Change Admin Options"
+msgstr ""
+
+#: $string['admininfocontactemail']
+msgid "E-mail:"
+msgstr ""
+
+#: $string['admininfocontactfax']
+msgid "Fax:"
+msgstr ""
+
+#: $string['admininfocontacttel']
+msgid "Telephone:"
+msgstr ""
+
+#: $string['admininfocontactweb']
+msgid "Visit bbconnecttxt.com"
+msgstr ""
+
+#: $string['admininfoheader1']
+msgid "Automatically Updating Status Information"
+msgstr ""
+
+#: $string['admininfoheader2']
+msgid "ConnectTxt contact information"
+msgstr ""
+
+#: $string['admininfopara1']
+msgid ""
+"If your Moodle system can accept incoming connections from outside your "
+"institution on port 443 (HTTPS),then by providing ConnectTxt with some basic "
+"connection info, you can have status updates and inbound messages "
+"automatically sent to your moodletxt installation.  This will provide you "
+"with instantly up-to-date information, without requiring you to fetch it "
+"manually."
+msgstr ""
+
+#: $string['admininfopara2']
+msgid ""
+"To use XML push facilities, you need to create a username and password for "
+"the ConnectTxt system to use when connecting. Use the form at the top right "
+"of the page to store these details, then contact ConnectTxt support with the "
+"username, password, and the address shown below.  Once this is done you can "
+"disable automatic fetching in the system settings - again, using the form "
+"at the top right."
+msgstr ""
+
+#: $string['admininfopara3']
+msgid ""
+"If your system cannot accept SSL connections on port 443, but can accept "
+"standard HTTP connections on port 80, you can still use XML push.  Simply "
+"use the alternate address shown below."
+msgstr ""
+
+#: $string['admininfopara4']
+msgid ""
+"If your Moodle system cannot accept incoming outside connections, but is "
+"capable of running scheduled tasks (also known as \"cron jobs\"), then by "
+"setting the file shown below to run at regular intervals, you can keep your "
+"status information up-to-date for immediate availability."
+msgstr ""
+
+#: $string['admininfopara5']
+msgid ""
+"If you have any questions regarding the ConnectTxt system, or need help "
+"using the moodletxt system, feel free to contact the ConnectTxt support team "
+"via any of the methods shown below."
+msgstr ""
+
+#: $string['adminintroheader1']
+msgid "No ConnectTxt Accounts Found"
+msgstr ""
+
+#: $string['adminintroheader2']
+msgid "Users with existing ConnectTxt accounts"
+msgstr ""
+
+#: $string['adminintroheader3']
+msgid "Users without existing ConnectTxt accounts"
+msgstr ""
+
+#: $string['adminintropara1']
+msgid ""
+"You are most likely seeing this message because you have just installed "
+"moodletxt.  moodletxt requires at least one bbconnecttxt.com account to be "
+"registered on the moodletxt system in order to run."
+msgstr ""
+
+#: $string['adminintropara2']
+msgid ""
+"Users with existing ConnectTxt accounts should first make sure that any "
+"account they wish to use with the moodletxt system has been enabled.  You "
+"can do this by contacting ConnectTxt at <a href=\"mailto:connecttxtsupport@bl"
+"ackboard.com\">connecttxtsupport@blackboard.com</a>, or by phone on +44 (0) "
+"113 234 2111.  Activation takes just a few minutes."
+msgstr ""
+
+#: $string['adminintropara3']
+msgid ""
+"Once your account(s) have been activated, please enter the details of the "
+"first account you wish to use with moodletxt into the form below.  This will "
+"activate your moodletxt installation, and you will then be able to use the "
+"system."
+msgstr ""
+
+#: $string['adminintropara4']
+msgid ""
+"If you do not already have a ConnectTxt account registered, you can obtain "
+"one by contacting ConnectTxt at <a "
+"href=\"mailto:txttoolssales@blackboard.com\">txttoolssales@blackboard.com</a>, "
+"or by phone on +44 (0) 113 234 2111.  <b>Remember to mention that you will "
+"be using the account with moodletxt, so that your account can be activated "
+"for use with it.</b>"
+msgstr ""
+
+#: $string['adminintropara5']
+msgid ""
+"Once you have obtained a ConnectTxt account, please enter its details into "
+"the form below.  This will activate moodletxt, and you will be immediately "
+"able to use the system."
+msgstr ""
+
+#: $string['adminlabelaccdesc']
+msgid "Account Description:"
+msgstr ""
+
+#: $string['adminlabelaccinbox']
+msgid "Default Inbox:"
+msgstr ""
+
+#: $string['adminlabelaccpassword']
+msgid "Account Password:"
+msgstr ""
+
+#: $string['adminlabelaccpassword2']
+msgid "Confirm Password:"
+msgstr ""
+
+#: $string['adminlabelaccusername']
+msgid "Account Username:"
+msgstr ""
+
+#: $string['adminlabeladdaccount']
+msgid "Add a New Account"
+msgstr ""
+
+#: $string['adminlabelchangepass']
+msgid "Change Password:"
+msgstr ""
+
+#: $string['adminlabelcoursename']
+msgid "Course name:"
+msgstr ""
+
+#: $string['adminlabelcreatenew']
+msgid "Create new"
+msgstr ""
+
+#: $string['adminlabeldefaultname']
+msgid "Default Recipient Name:"
+msgstr ""
+
+#: $string['adminlabeldefaultprefix']
+msgid "Default International Prefix:"
+msgstr ""
+
+#: $string['adminlabeldefnatprefix']
+msgid "National Prefix:"
+msgstr ""
+
+#: $string['adminlabeldisablewarn']
+msgid "Display SSL security warnings."
+msgstr ""
+
+#: $string['adminlabeleventaccount']
+msgid "Event Messaging Account:"
+msgstr ""
+
+#: $string['adminlabelexistingacc']
+msgid "Available ConnectTxt accounts:"
+msgstr ""
+
+#: $string['adminlabelexistingfilters']
+msgid "Existing filters"
+msgstr ""
+
+#: $string['adminlabelfilteracc']
+msgid "Select an account to add filter to:"
+msgstr ""
+
+#: $string['adminlabelfilteraddusers']
+msgid "Add users to filter"
+msgstr ""
+
+#: $string['adminlabelfilterkeyword']
+msgid "Keyword:"
+msgstr ""
+
+#: $string['adminlabelfilterphone']
+msgid "Phone no:"
+msgstr ""
+
+#: $string['adminlabelfilterskeyword']
+msgid "Existing keyword filters"
+msgstr ""
+
+#: $string['adminlabelfiltersphone']
+msgid "Existing phone number filters"
+msgstr ""
+
+#: $string['adminlabelfilterusersearch']
+msgid "Enter user name here..."
+msgstr ""
+
+#: $string['adminlabelhideproxy']
+msgid "Hide proxy settings"
+msgstr ""
+
+#: $string['adminlabelphonesource']
+msgid "Take phone numbers from:"
+msgstr ""
+
+#: $string['adminlabelprotocol']
+msgid "Connection Protocol:"
+msgstr ""
+
+#: $string['adminlabelproxyaddress']
+msgid "Proxy Address:"
+msgstr ""
+
+#: $string['adminlabelproxypassword']
+msgid "Proxy Password:"
+msgstr ""
+
+#: $string['adminlabelproxyport']
+msgid "Proxy Port:"
+msgstr ""
+
+#: $string['adminlabelproxyusername']
+msgid "Proxy Username:"
+msgstr ""
+
+#: $string['adminlabelrssexpire']
+msgid "RSS items expire after:"
+msgstr ""
+
+#: $string['adminlabelrssupdate']
+msgid "RSS Update Interval:"
+msgstr ""
+
+#: $string['adminlabelselectacc']
+msgid "Select a ConnectTxt account..."
+msgstr ""
+
+#: $string['adminlabelserverlocation']
+msgid "Server Location:"
+msgstr ""
+
+#: $string['adminlabelserverlocationUK']
+msgid "United Kingdom"
+msgstr ""
+
+#: $string['adminlabelserverlocationUSA']
+msgid "United States of America"
+msgstr ""
+
+#: $string['adminlabelsetautoinbound']
+msgid "Automatically get inbound messages on Inbox page"
+msgstr ""
+
+#: $string['adminlabelsetautoupdate']
+msgid "Automatically get status updates on \"View Message\" page"
+msgstr ""
+
+#: $string['adminlabelsetxmlpass']
+msgid "XML Push Password:"
+msgstr ""
+
+#: $string['adminlabelsetxmluser']
+msgid "XML Push Username:"
+msgstr ""
+
+#: $string['adminlabelshowinbound']
+msgid "Show source names/numbers in inbox (Default)"
+msgstr ""
+
+#: $string['adminlinkaccounts']
+msgctxt "$string['adminlinkaccounts']"
+msgid "ConnectTxt Accounts"
+msgstr ""
+
+#: $string['adminlinkfilters']
+msgctxt "$string['adminlinkfilters']"
+msgid "Inbound Message Filters"
+msgstr ""
+
+#: $string['adminlinkserver']
+msgctxt "$string['adminlinkserver']"
+msgid "ConnectTxt Server"
+msgstr ""
+
+#: $string['adminnoaccount']
+msgid "No accounts found to display"
+msgstr ""
+
+#: $string['adminnoticefilterdeleted']
+msgid "Removed filter from system."
+msgstr ""
+
+#: $string['adminnoticefilterupdated']
+msgid "Filter updated successfully."
+msgstr ""
+
+#: $string['adminselecteventsdisabled']
+msgid "Disabled - No active account selected."
+msgstr ""
+
+#: $string['adminselectphone1']
+msgid "Phone 1"
+msgstr ""
+
+#: $string['adminselectphone2']
+msgid "Phone 2"
+msgstr ""
+
+#: $string['adminselectprotocolhttp']
+msgid "HTTP - standard unencrypted"
+msgstr ""
+
+#: $string['adminselectprotocolssl']
+msgid "SSL - secure encrypted"
+msgstr ""
+
+#: $string['adminselectrssdaily']
+msgid "Daily"
+msgstr ""
+
+#: $string['adminselectrssexday']
+msgid "After 24 Hours"
+msgstr ""
+
+#: $string['adminselectrssexmonth']
+msgid "After 28 Days"
+msgstr ""
+
+#: $string['adminselectrssexweek']
+msgid "After 7 Days"
+msgstr ""
+
+#: $string['adminselectrsshourly']
+msgid "Hourly"
+msgstr ""
+
+#: $string['adminselectrssmonthly']
+msgid "Every 28 Days"
+msgstr ""
+
+#: $string['adminselectrssweekly']
+msgid "Weekly"
+msgstr ""
+
+#: $string['adminserverintropara1']
+msgid ""
+"This page displays details about the ConnectTxt server used by moodletxt"
+msgstr ""
+
+#: $string['adminserverintropara2']
+msgid ""
+"It is necessary to select the correct server serving location. Different "
+"serving location servers have different capability, which affects moodletxt "
+"capability and the geographic area served."
+msgstr ""
+
+#: $string['adminsettingsupdated']
+msgid "Settings updated successfully."
+msgstr ""
+
+#: $string['adminsslfailedpara1']
+msgid ""
+"While testing your system for compatibility, moodletxt was unable to "
+"establish a secure connection with the ConnectTxt server.  This may be due "
+"to a network problem, or your server may not be configured for use with "
+"Secure Socket Layer (SSL) connections."
+msgstr ""
+
+#: $string['adminsslfailedpara2']
+msgid ""
+"As a result, moodletxt has been set to use standard, unencrypted HTTP "
+"connections for sending messages.  If this change has been made in error, or "
+"you later change your server configuration to use SSL, then you may use the "
+"moodletxt admin panel to re-enable secure connections."
+msgstr ""
+
+#: $string['adminsslwarnpara1']
+msgid ""
+"moodletxt is currently using standard unencrypted transmissions to send text "
+"messages.  It is recommended that you set up your server to allow encrypted "
+"Secure Socket Layer (SSL) connections, for greater security."
+msgstr ""
+
+#: $string['adminsslwarnpara2']
+msgid ""
+"If your server is now capable of SSL connections, you can re-enable SSL "
+"using the System Settings panel at the bottom right of this page.  "
+"Alternatively, if SSL compatibility is not possible on your server, you can "
+"use the same panel to disable this warning message."
+msgstr ""
+
+#: $string['admintitleaccountlist']
+msgid "Account List"
+msgstr ""
+
+#: $string['admintitlefilters']
+msgctxt "$string['admintitlefilters']"
+msgid "Inbound Message Filters"
+msgstr ""
+
+#: $string['admintitleserversetting']
+msgid "Server Setting"
+msgstr ""
+
+#: $string['alertconfirmdeletemessages']
+msgid "Are you sure you wish to delete the selected message(s)?"
+msgstr ""
+
+#: $string['alertconfirmdeletetemplate']
+msgid "Are you sure you wish to delete this template?"
+msgstr ""
+
+#: $string['alertnomessagesselected']
+msgid "You have not selected any messages."
+msgstr ""
+
+#: $string['alertnotemplateselected']
+msgid "Please select a template."
+msgstr ""
+
+#: $string['altaccessdenied']
+msgid "Access Denied"
+msgstr ""
+
+#: $string['altaccessedit']
+msgid "Edit Access"
+msgstr ""
+
+#: $string['altaccessinbound']
+msgid "Inbound Active"
+msgstr ""
+
+#: $string['altaccessoutbound']
+msgid "Outbound Active"
+msgstr ""
+
+#: $string['altaccountedit']
+msgid "Edit Account"
+msgstr ""
+
+#: $string['altaddfilter']
+msgctxt "$string['altaddfilter']"
+msgid "Add Filter"
+msgstr ""
+
+#: $string['altaddressbook']
+msgid "Addressbook(s)"
+msgstr ""
+
+#: $string['altaddtag']
+msgid "Add Tag"
+msgstr ""
+
+#: $string['altarrow']
+msgid "Arrow"
+msgstr ""
+
+#: $string['altcancelfilter']
+msgid "Cancel Filter"
+msgstr ""
+
+#: $string['altcompose']
+msgctxt "$string['altcompose']"
+msgid "Compose Message"
+msgstr ""
+
+#: $string['altdelete']
+msgctxt "$string['altdelete']"
+msgid "Delete"
+msgstr ""
+
+#: $string['altinbox']
+msgctxt "$string['altinbox']"
+msgid "Inbox"
+msgstr ""
+
+#: $string['altpreferences']
+msgctxt "$string['altpreferences']"
+msgid "Preferences"
+msgstr ""
+
+#: $string['altreply']
+msgid "Reply"
+msgstr ""
+
+#: $string['altsentmessages']
+msgctxt "$string['altsentmessages']"
+msgid "Sent Messages"
+msgstr ""
+
+#: $string['altsettings']
+msgid "Settings"
+msgstr ""
+
+#: $string['altstats']
+msgid "Usage Stats"
+msgstr ""
+
+#: $string['altstatusblacklisted']
+msgid "Recipient is blacklisted"
+msgstr ""
+
+#: $string['altstatusdelivered']
+msgid "Message Delivered"
+msgstr ""
+
+#: $string['altstatusfailed']
+msgid "Delivery Failed"
+msgstr ""
+
+#: $string['altstatustransit']
+msgid "Message in Transit"
+msgstr ""
+
+#: $string['billingtypeinvoiced']
+msgid "Invoiced"
+msgstr ""
+
+#: $string['billingtypeprepaid']
+msgid "Pre-paid"
+msgstr ""
+
+#: $string['blockfooter']
+msgid "Powered by <a href=\"http://www.bbconnecttxt.com\">ConnectTxt</a>"
+msgstr ""
+
+#: $string['blocklinkaddressbook']
+msgid "Address Book"
+msgstr ""
+
+#: $string['blocklinkinbox']
+msgctxt "$string['blocklinkinbox']"
+msgid "Received Messages"
+msgstr ""
+
+#: $string['blocklinkpreferences']
+msgctxt "$string['blocklinkpreferences']"
+msgid "Preferences"
+msgstr ""
+
+#: $string['blocklinksend']
+msgid "Compose a Message"
+msgstr ""
+
+#: $string['blocklinksent']
+msgctxt "$string['blocklinksent']"
+msgid "Sent Messages"
+msgstr ""
+
+#: $string['blocklinksettings']
+msgctxt "$string['blocklinksettings']"
+msgid "Change Admin Options"
+msgstr ""
+
+#: $string['blocklinkstats']
+msgid "View user stats"
+msgstr ""
+
+#: $string['blockname']
+msgctxt "$string['blockname']"
+msgid "moodletxt"
+msgstr ""
+
+#: $string['blocktitle']
+msgid "moodletxt 3.1.0"
+msgstr ""
+
+#: $string['buttonadd']
+msgid "Add"
+msgstr ""
+
+#: $string['buttoncancel']
+msgctxt "$string['buttoncancel']"
+msgid "Cancel"
+msgstr ""
+
+#: $string['buttoncheckall']
+msgid "Check all"
+msgstr ""
+
+#: $string['buttoncontactadd']
+msgid "Add contact and add another"
+msgstr ""
+
+#: $string['buttoncontactaddreturn']
+msgid "Add contact and return to address book"
+msgstr ""
+
+#: $string['buttondeletenotselected']
+msgid "Delete all records except those currently selected"
+msgstr ""
+
+#: $string['buttondeleteormerge']
+msgid "Delete/Merge"
+msgstr ""
+
+#: $string['buttondeleteselected']
+msgid "Delete the selected records"
+msgstr ""
+
+#: $string['buttongroupadd']
+msgid "Add Group"
+msgstr ""
+
+#: $string['buttongroupdelete']
+msgid "Delete Group"
+msgstr ""
+
+#: $string['buttongroupedit']
+msgid "Update Group"
+msgstr ""
+
+#: $string['buttonremove']
+msgid "Remove"
+msgstr ""
+
+#: $string['buttonremoveusers']
+msgid "Remove User(s)"
+msgstr ""
+
+#: $string['buttonsave']
+msgid "Save"
+msgstr ""
+
+#: $string['buttonsendmessage']
+msgid "Send Message"
+msgstr ""
+
+#: $string['buttontagfirstname']
+msgctxt "$string['buttontagfirstname']"
+msgid "First Name"
+msgstr ""
+
+#: $string['buttontagfullname']
+msgid "Full Name"
+msgstr ""
+
+#: $string['buttontaglastname']
+msgctxt "$string['buttontaglastname']"
+msgid "Last Name"
+msgstr ""
+
+#: $string['buttontemplatedelete']
+msgid "Delete Template"
+msgstr ""
+
+#: $string['buttontemplateedit']
+msgid "Edit Template"
+msgstr ""
+
+#: $string['buttonuncheckall']
+msgid "Uncheck all"
+msgstr ""
+
+#: $string['buttonupdate']
+msgid "Update"
+msgstr ""
+
+#: $string['cancel']
+msgctxt "$string['cancel']"
+msgid "Cancel"
+msgstr ""
+
+#: $string['configdefaultrecipient']
+msgctxt "$string['configdefaultrecipient']"
+msgid "Moodler"
+msgstr ""
+
+#: $string['configdefaultsource']
+msgctxt "$string['configdefaultsource']"
+msgid "Moodler"
+msgstr ""
+
+#: $string['configtitle']
+msgid "Enter a title for the block:"
+msgstr ""
+
+#: $string['desccontactsdelete']
+msgid "Deletes the addressbook and deletes all contacts and groups in it."
+msgstr ""
+
+#: $string['desccontactsmerge']
+msgid "Deletes the addressbook and moves all its contacts and groups into:"
+msgstr ""
+
+#: $string['descgroupdelleavecontacts']
+msgid "Delete the group, leave contacts in address book"
+msgstr ""
+
+#: $string['descgroupdelmerge']
+msgid "Delete the group and merge its contacts into"
+msgstr ""
+
+#: $string['descgroupdelnukecontacts']
+msgid "Delete the group and all contacts in it"
+msgstr ""
+
+#: $string['editbookcontactsperpage']
+msgid "contacts per page"
+msgstr ""
+
+#: $string['erroraccountexists']
+msgid "The account name entered already exists."
+msgstr ""
+
+#: $string['erroraccountinsertfailed']
+msgid ""
+"There was an error when attempting to add the account.  Please try again "
+"later."
+msgstr ""
+
+#: $string['erroraddcontactfailed']
+msgid ""
+"Unable to add contact to the database. Please try again later. If the "
+"problem persists, contact your system administrator."
+msgstr ""
+
+#: $string['errorbadbookid']
+msgid ""
+"The address book selected was invalid, or you do not own the address book "
+"you are attempting to edit."
+msgstr ""
+
+#: $string['errorbadcontactid']
+msgid ""
+"The contact you are trying to update could not be found in the database."
+msgstr ""
+
+#: $string['errorbadcourseid']
+msgid "Course ID was incorrect"
+msgstr ""
+
+#: $string['errorbadinstanceid']
+msgid ""
+"No block instance ID found - please access the page via the moodletxt block."
+msgstr ""
+
+#: $string['errorbadmessageid']
+msgid ""
+"The message ID given does not exist, or does not belong to the user ID "
+"found. Please select a valid message to view."
+msgstr ""
+
+#: $string['errorbookaddfailed']
+msgid "Failed to add the address book.  Please try again later."
+msgstr ""
+
+#: $string['errorbooknameexists']
+msgid "The address book name already exists"
+msgstr ""
+
+#: $string['errorbooknamelength']
+msgid ""
+"The address book name is too long.  Names cannot be longer than 50 "
+"characters."
+msgstr ""
+
+#: $string['errorbooknotdeleted']
+msgid ""
+"There was an error when deleting the address book.  If selected, contacts "
+"and groups have already been moved to the target address book.  Please "
+"contact your system administrator for further assistance."
+msgstr ""
+
+#: $string['errorbooknotowned']
+msgid "You are attempting to edit or delete an address book you do not own."
+msgstr ""
+
+#: $string['errorconn401']
+msgid ""
+"Moodletxt was not granted access to the bbconnecttxt.com system. Reason "
+"unknown. This is not a user authentication error. HTTP error code:"
+msgstr ""
+
+#: $string['errorconn404']
+msgid ""
+"Moodletxt could not find the XML connector on the ConnectTxt server. This "
+"may be due to a temporary loss of service, or your Moodletxt version may be "
+"out of date.  Please contact ConnectTxt support for more information."
+msgstr ""
+
+#: $string['errorconn500']
+msgid ""
+"There was an internal error on the ConnectTxt server that prevented the XML "
+"request from being processed.  This error should be temporary.  Please "
+"contact ConnectTxt support for more information."
+msgstr ""
+
+#: $string['errorconn503']
+msgid ""
+"The ConnectTxt XML service is currently unavailable.  Please try again "
+"later.  If the problem persists, please contact ConnectTxt support."
+msgstr ""
+
+#: $string['errorconn601']
+msgid ""
+"The username and password for your ConnectTxt account were rejected by the "
+"ConnectTxt server. Please check that your ConnectTxt username and password "
+"have been saved correctly within moodletxt."
+msgstr ""
+
+#: $string['errorconn602']
+msgid ""
+"One or more fields specified when connecting to the ConnectTxt server had no "
+"value set. This may be a result of modifying moodletxt, or your moodletxt "
+"version may be out of date. Please contact ConnectTxt if you require "
+"assistnace."
+msgstr ""
+
+#: $string['errorconn603']
+msgid ""
+"An error was encountered during transmission to ConnectTxt.  Please retry "
+"shortly. If the problem persists, please contact ConnectTxt for assistance."
+msgstr ""
+
+#: $string['errorconn604']
+msgid ""
+"The XML sent to ConnectTxt could not be parsed correctly. This may be a "
+"result of modifying moodletxt, or your moodletxt version may be out of date. "
+"Please contact ConnectTxt if you require assistance."
+msgstr ""
+
+#: $string['errorconn606']
+msgid ""
+"ConnectTxt encountered an error when attempting to process your request. "
+"Please retry shortly.  If the problem persists, please contact ConnectTxt "
+"for assistance."
+msgstr ""
+
+#: $string['errorconn607']
+msgid ""
+"An invalid message charge type was sent when communicating with the "
+"ConnectTxt server. This may be a result of modifying moodletxt, or your "
+"moodletxt version may be out of date. Please contact ConnectTxt if you "
+"require assistnace."
+msgstr ""
+
+#: $string['errorconn608']
+msgid ""
+"An invalid XML header was sent when communicating with the ConnectTxt "
+"server. This may be a result of modifying moodletxt, or your moodletxt "
+"version may be out of date. Please contact ConnectTxt if you require "
+"assistnace."
+msgstr ""
+
+#: $string['errorconn700']
+msgid ""
+"The JSON sent through to moodletxt was not defined, or not of a valid "
+"structure. Please correct your code."
+msgstr ""
+
+#: $string['errorconn701']
+msgid ""
+"The account ID sent through via JSON was not set or was invalid. Please only "
+"send valid account IDs."
+msgstr ""
+
+#: $string['errorconnadmin']
+msgid ""
+"The following errors occurred during communication with the ConnectTxt "
+"server:"
+msgstr ""
+
+#: $string['errorconndefault']
+msgid ""
+"An error occurred during communication with the ConnectTxt SMS system. If "
+"this persists, please contact your administrator for assistance."
+msgstr ""
+
+#: $string['errorconnnosocket']
+msgid ""
+"XML connector error: Could not open socket to ConnectTxt. Please ensure your "
+"moodletxt installation has outbound access through your firewall."
+msgstr ""
+
+#: $string['errorconnrss401']
+msgid ""
+"Moodletxt was not granted access to the moodletxt.co.uk system. Reason "
+"unknown. This is not a user authentication error. HTTP error code:"
+msgstr ""
+
+#: $string['errorconnrss404']
+msgid ""
+"Moodletxt could not find the RSS feed on the moodletxt server. This may be "
+"due to a temporary loss of service, or your moodletxt version may be out of "
+"date.  Please contact ConnectTxt support for more information."
+msgstr ""
+
+#: $string['errorconnrss500']
+msgid ""
+"There was an internal error on the ConnectTxt server that prevented the feed "
+"request from being processed.  This error should be temporary.  Please "
+"contact ConnectTxt support for more information."
+msgstr ""
+
+#: $string['errorconnrss503']
+msgid ""
+"The ConnectTxt RSS service is currently unavailable.  Please try again "
+"later.  If the problem persists, please contact ConnectTxt support."
+msgstr ""
+
+#: $string['errorconnrssdefault']
+msgid ""
+"An error occurred when attempting to contact the moodletxt RSS service.  The "
+"HTTP response code was:"
+msgstr ""
+
+#: $string['errordestbooknotowned']
+msgid ""
+"Form hacking detected: You do not own the destination address book.  Please "
+"select a valid destination for contacts."
+msgstr ""
+
+#: $string['errordestbooknull']
+msgid ""
+"You have selected to merge contacts into another address book. Please select "
+"the address book to merge contacts into."
+msgstr ""
+
+#: $string['errordestbooksame']
+msgid ""
+"The destination address book for contacts is the same as the one being "
+"deleted."
+msgstr ""
+
+#: $string['errordestfoldersame']
+msgid ""
+"The destination folder for messages is the same as the folder being deleted."
+msgstr ""
+
+#: $string['errordestgroupinvalid']
+msgid "The destination group for contacts is invalid, or you do not own it."
+msgstr ""
+
+#: $string['errordestgroupsame']
+msgid ""
+"The destination group for contacts is the same as the one being deleted."
+msgstr ""
+
+#: $string['errordocbrown']
+msgid ""
+"The date/time entered for scheduling is in the past!  Doc Brown says \"no!\""
+msgstr ""
+
+#: $string['errorfilterexists']
+msgid "A filter of that type and value already exists within the database."
+msgstr ""
+
+#: $string['errorfilternoaccount']
+msgid "Please select a valid account on which to create/edit filters."
+msgstr ""
+
+#: $string['errorfilternotselected']
+msgid ""
+"Please select a valid filter to modify, or create a new one, before "
+"assigning users."
+msgstr ""
+
+#: $string['errorfilternousers']
+msgid "Please select users to add to the new filter."
+msgstr ""
+
+#: $string['errorfolderaddfailed']
+msgid "Folder could not be added.  Please try again later."
+msgstr ""
+
+#: $string['errorfolderexists']
+msgid "A folder with this name already exists.  Please enter a new name."
+msgstr ""
+
+#: $string['errorfoldernametoolong']
+msgid "Folder names cannot be more than 30 characters in length."
+msgstr ""
+
+#: $string['errorformhackaccount']
+msgid ""
+"Form hacking detected.  You are not authorised to use the ConnectTxt account "
+"selected."
+msgstr ""
+
+#: $string['errorformhacktemplate']
+msgid "The template ID entered was invalid.  Quit hacking the form."
+msgstr ""
+
+#: $string['errorglobalbooknotallowed']
+msgid ""
+"You do not have the necessary permissions to create global address books."
+msgstr ""
+
+#: $string['errorgroupnameexists']
+msgid ""
+"The name you have specified for the new group already exists within your "
+"address book."
+msgstr ""
+
+#: $string['errorgroupnotadded']
+msgid ""
+"The group could not be added. Please try again later. If the problem "
+"persists, please contact your system administrator."
+msgstr ""
+
+#: $string['errorgroupsmakechoice']
+msgid ""
+"Please indicate what moodletxt should do with contacts within the group to "
+"be deleted."
+msgstr ""
+
+#: $string['errorinboxcantconnect']
+msgid ""
+"One or more of your ConnectTxt accounts could not connect to check for new "
+"messages.  Please ask an administrator to check your account details in the "
+"moodletxt control panel."
+msgstr ""
+
+#: $string['errorinvalidaccount']
+msgid ""
+"No valid account was selected from the list.  Please select an account to "
+"modify."
+msgstr ""
+
+#: $string['errorinvalidaccountid']
+msgid "An invalid account ID was provided."
+msgstr ""
+
+#: $string['errorinvalidbookid']
+msgid "Form hacking detected. The address book ID is invalid."
+msgstr ""
+
+#: $string['errorinvalidbooktype']
+msgid ""
+"Form hacking detected.  The book type entered on the form was invalid.  "
+"Please select a valid book type."
+msgstr ""
+
+#: $string['errorinvaliddate']
+msgid ""
+"The date/time entered for scheduling is invalid.  Please enter a valid date."
+msgstr ""
+
+#: $string['errorinvalidfolder']
+msgid ""
+"The folder ID selected was not valid. Either the folder selected for "
+"deletion does not exist inside your inbox, or you are attempting to delete a "
+"system folder. Please select a valid folder for deletion."
+msgstr ""
+
+#: $string['errorinvalidgroupchoice']
+msgid ""
+"You did not indicate what should happen to contacts within this address book "
+"group. Please make a valid selection from the options shown."
+msgstr ""
+
+#: $string['errorinvalidgroupid']
+msgid "Please select a valid group from the list provided."
+msgstr ""
+
+#: $string['errorinvalidjson']
+msgid ""
+"The JSON sent to the server was invalid or  did not contain a correct mode "
+"switch."
+msgstr ""
+
+#: $string['errorinvalidlocationorurl']
+msgid "No ConnectTxt instance or custom URL was provided."
+msgstr ""
+
+#: $string['errorinvalidnumber']
+msgid "The phone number provided was invalid."
+msgstr ""
+
+#: $string['errorinvaliduserid']
+msgid ""
+"The Moodle user ID provided was invalid. Please provide the ID of a valid "
+"Moodle user account."
+msgstr ""
+
+#: $string['errorlabel']
+msgid "The following errors were encountered:"
+msgstr ""
+
+#: $string['errormessagetoolong']
+msgid ""
+"The message entered was too long.  The message must be 1600 characters or "
+"less to be sent."
+msgstr ""
+
+#: $string['errormovecontactsfailed']
+msgid ""
+"The system was unable to move contacts from one address book to the other.  "
+"Delete cancelled. Please contact your system administrator."
+msgstr ""
+
+#: $string['errormovegroupsfailed']
+msgid ""
+"The system was unable to move contact groups from one address book to the "
+"other.  Delete cancelled.  Individual contacts have already been moved.  "
+"Please contact your system administrator."
+msgstr ""
+
+#: $string['errornoaccountselected']
+msgid "No ConnectTxt account was selected to send the message from."
+msgstr ""
+
+#: $string['errornoaccountspresent']
+msgid ""
+"No ConnectTxt accounts have been added to moodletxt. The system "
+"administrator must link moodletxt to one or more ConnectTxt accounts before "
+"messages can be sent."
+msgstr ""
+
+#: $string['errornobookname']
+msgid "No address book name was entered"
+msgstr ""
+
+#: $string['errornofirstname']
+msgid "No first name was entered."
+msgstr ""
+
+#: $string['errornofoldername']
+msgid "You must enter a name for the new folder."
+msgstr ""
+
+#: $string['errornogroupname']
+msgid "You must enter a name for the new group"
+msgstr ""
+
+#: $string['errornogroupselected']
+msgid ""
+"No group was selected to send to.  Please select a valid group from the "
+"list."
+msgstr ""
+
+#: $string['errornolastname']
+msgid "No last name was entered."
+msgstr ""
+
+#: $string['errornomessage']
+msgid "No message was entered to send!"
+msgstr ""
+
+#: $string['errornonameorcompany']
+msgid "You must enter either a name or company name for this contact."
+msgstr ""
+
+#: $string['errornonewpassword']
+msgid ""
+"No new password was entered.  Please enter a new password for the account."
+msgstr ""
+
+#: $string['errornonumber']
+msgid "You must enter a phone number to send to."
+msgstr ""
+
+#: $string['errornopassword']
+msgid "No password was entered for the ConnectTxt account."
+msgstr ""
+
+#: $string['errornopasswordmatch']
+msgid "The two passwords entered do not match."
+msgstr ""
+
+#: $string['errornopermission']
+msgid "You do not have permission to view this page."
+msgstr ""
+
+#: $string['errornopermissioncourse']
+msgid "You do not have permission to send text messages on this course."
+msgstr ""
+
+#: $string['errornopermissionmessage']
+msgid "You are not authorised to view this message."
+msgstr ""
+
+#: $string['errornorecipients']
+msgid ""
+"No recipients were found for this message.  It was not received.  The most "
+"likely reason is that there was an error when attempting to send the "
+"message.  Please contact your administrator for more information."
+msgstr ""
+
+#: $string['errornorecipientsselected']
+msgid ""
+"No recipients were selected to send to.  Please select individuals or groups "
+"from the list provided, or enter additional contact details at the bottom "
+"of the form."
+msgstr ""
+
+#: $string['errornorecipienttype']
+msgid ""
+"No recipient type was selected.  Please indicate whether you wish to send to "
+"an individual or a group"
+msgstr ""
+
+#: $string['errornoscheduling']
+msgid ""
+"No scheduling option was selected.  Please indicate when you want the "
+"message to be sent."
+msgstr ""
+
+#: $string['errornotemplate']
+msgid "You must enter a template"
+msgstr ""
+
+#: $string['errornottagowner']
+msgid "You are attempting to delete a tag you do not own."
+msgstr ""
+
+#: $string['errornourl']
+msgid "No URL was entered for the ConnectTxt account."
+msgstr ""
+
+#: $string['errornousername']
+msgid "No username was entered for the ConnectTxt account."
+msgstr ""
+
+#: $string['errornovalidnumbers']
+msgid ""
+"None of the contacts selected to send to have valid mobile phone numbers "
+"stored in their profiles.  Please add valid phone numbers to their profiles, "
+"or select new contacts to send to."
+msgstr ""
+
+#: $string['erroroperationinprogress']
+msgid "Another operation is currently in progress. Please wait."
+msgstr ""
+
+#: $string['errorpasswordtooshort']
+msgid "ConnectTxt passwords must be a minimum of 8 characters."
+msgstr ""
+
+#: $string['errorprefsupdatefail']
+msgid "Preferences could not be updated.  Please try again later."
+msgstr ""
+
+#: $string['errorsetinvalidnatprefix']
+msgid ""
+"National prefix entered was invalid.  National prefixes must contain only "
+"numbers."
+msgstr ""
+
+#: $string['errorsetinvalidprefix']
+msgid ""
+"Default International Prefix entered was invalid.  International prefixes "
+"must start with a + sign and contain only numbers after that."
+msgstr ""
+
+#: $string['errorsettingsupdatefail']
+msgid "System settings could not be updated."
+msgstr ""
+
+#: $string['errorsigtoolong']
+msgid "Your signature is too long.  Please amend it to be under 25 characters."
+msgstr ""
+
+#: $string['errortagnotfound']
+msgid "The specified tag was not found in the database."
+msgstr ""
+
+#: $string['errortemplatedeletefail']
+msgid "The template could not be deleted.  Please try again later."
+msgstr ""
+
+#: $string['errortemplateinsertfail']
+msgid "The template could not be added to the system. Please try again later."
+msgstr ""
+
+#: $string['errortemplateupdatefail']
+msgid "The template could not be updated.  Please try again later."
+msgstr ""
+
+#: $string['errorupdatecontactfailed']
+msgid "The contact could not be updated. Please try again later."
+msgstr ""
+
+#: $string['exportsheetcontacts']
+msgid "moodletxt_addressbook_contacts"
+msgstr ""
+
+#: $string['exportsheetinbox']
+msgid "moodletxt_received_messages"
+msgstr ""
+
+#: $string['exportsheetsent']
+msgid "moodletxt_sent_messages"
+msgstr ""
+
+#: $string['exporttitlecontacts']
+msgid "Addressbook Contacts from Moodletxt"
+msgstr ""
+
+#: $string['exporttitleinbox']
+msgid "Messages Received in Moodletxt"
+msgstr ""
+
+#: $string['exporttitlesent']
+msgid "Messages Sent from Moodletxt"
+msgstr ""
+
+#: $string['fragloading']
+msgctxt "$string['fragloading']"
+msgid "Loading..."
+msgstr ""
+
+#: $string['fragsystem']
+msgid "Moodle System"
+msgstr ""
+
+#: $string['fragunknown']
+msgctxt "$string['fragunknown']"
+msgid "Unknown"
+msgstr ""
+
+#: $string['fragunknownname']
+msgctxt "$string['fragunknownname']"
+msgid "Unknown"
+msgstr ""
+
+#: $string['fraguser']
+msgctxt "$string['fraguser']"
+msgid "User"
+msgstr ""
+
+#: $string['headeraccountedit']
+msgid "Edit account"
+msgstr ""
+
+#: $string['headeraccountrestrictionsfor']
+msgid "Outbound Access Restrictions for:"
+msgstr ""
+
+#: $string['headeraddaccount']
+msgid "Adding a new ConnectTxt account to moodletxt"
+msgstr ""
+
+#: $string['headeraddressbookadd']
+msgid "Add a new address book"
+msgstr ""
+
+#: $string['headeraddressbookdelete']
+msgid "Delete an existing address book"
+msgstr ""
+
+#: $string['headeraddressbookedit']
+msgid "Editing Address Book"
+msgstr ""
+
+#: $string['headeraddressbooks']
+msgid "Your Address Books"
+msgstr ""
+
+#: $string['headeraddressbooksexisting']
+msgid "Your existing address books"
+msgstr ""
+
+#: $string['headercomposemessagebody']
+msgctxt "$string['headercomposemessagebody']"
+msgid "Compose Message"
+msgstr ""
+
+#: $string['headercontactadd']
+msgctxt "$string['headercontactadd']"
+msgid "Add a Contact"
+msgstr ""
+
+#: $string['headercontactdetails']
+msgid "Contact Details"
+msgstr ""
+
+#: $string['headerfilters']
+msgid "Manage Inbound Message Filters"
+msgstr ""
+
+#: $string['headergroupadd']
+msgid "Add a Group"
+msgstr ""
+
+#: $string['headergroupdelete']
+msgid "Delete a Group"
+msgstr ""
+
+#: $string['headergroupedit']
+msgid "Update Group Members"
+msgstr ""
+
+#: $string['headergroupmembership']
+msgid "Group Membership"
+msgstr ""
+
+#: $string['headergroupsmanage']
+msgid "Manage Groups"
+msgstr ""
+
+#: $string['headerinboundprefs']
+msgid "My Inbox Preferences"
+msgstr ""
+
+#: $string['headerinstanceconfig']
+msgid "Instance Settings for moodletxt"
+msgstr ""
+
+#: $string['headermessagedetails']
+msgid "Message Details"
+msgstr ""
+
+#: $string['headermessageoptions']
+msgid "Message Options"
+msgstr ""
+
+#: $string['headernewinstall']
+msgid "moodletxt - New Installation Detected"
+msgstr ""
+
+#: $string['headerpreferences']
+msgctxt "$string['headerpreferences']"
+msgid "My Preferences"
+msgstr ""
+
+#: $string['headerreceivedmessages']
+msgid "Your Received Messages"
+msgstr ""
+
+#: $string['headerselectrecipients']
+msgid "Select Recipients"
+msgstr ""
+
+#: $string['headersend']
+msgctxt "$string['headersend']"
+msgid "Send a Text Message"
+msgstr ""
+
+#: $string['headersendreview']
+msgid "Review and Send"
+msgstr ""
+
+#: $string['headersent']
+msgid "Your Sent moodletxt Messages"
+msgstr ""
+
+#: $string['headersignature']
+msgid "My Signature"
+msgstr ""
+
+#: $string['headerstatus']
+msgid "Sent Message Status"
+msgstr ""
+
+#: $string['headerstatuskey']
+msgid "Status Key"
+msgstr ""
+
+#: $string['headertags']
+msgid "Your Tags"
+msgstr ""
+
+#: $string['headertemplatesedit']
+msgid "Edit Existing Template"
+msgstr ""
+
+#: $string['headertemplatesexist']
+msgid "My Message Templates"
+msgstr ""
+
+#: $string['headertemplatesnew']
+msgid "Add New Template"
+msgstr ""
+
+#: $string['imgtitleaddressbook']
+msgid "View and edit your addressbook(s)"
+msgstr ""
+
+#: $string['imgtitlecompose']
+msgid "Compose a new message and send it"
+msgstr ""
+
+#: $string['imgtitleinbox']
+msgid "View all your received messages"
+msgstr ""
+
+#: $string['imgtitlepreferences']
+msgid "Change your user-specific settings"
+msgstr ""
+
+#: $string['imgtitlesentmessages']
+msgid "View your previously sent messages"
+msgstr ""
+
+#: $string['imgtitlesettings']
+msgid "Administer the moodletxt block"
+msgstr ""
+
+#: $string['imgtitlestats']
+msgid "View moodletxt usage statistics"
+msgstr ""
+
+#: $string['inboxfolderinbox']
+msgctxt "$string['inboxfolderinbox']"
+msgid "Inbox"
+msgstr ""
+
+#: $string['inboxfoldersadd']
+msgid "Add a new folder"
+msgstr ""
+
+#: $string['inboxfoldersadded']
+msgid "Folder was added successfully."
+msgstr ""
+
+#: $string['inboxfoldersdel']
+msgid "Delete an existing folder"
+msgstr ""
+
+#: $string['inboxfoldersdeleted']
+msgid "Folder was deleted successfully."
+msgstr ""
+
+#: $string['inboxfoldersexisting']
+msgid "Your existing folders"
+msgstr ""
+
+#: $string['inboxfoldersheader']
+msgid "Your Inbox Folders"
+msgstr ""
+
+#: $string['inboxfolderslbldest']
+msgid "Move messages in this folder to:"
+msgstr ""
+
+#: $string['inboxfolderslblkill']
+msgid "Select folder to delete:"
+msgstr ""
+
+#: $string['inboxfolderslblname']
+msgid "Folder name:"
+msgstr ""
+
+#: $string['inboxfolderstitle']
+msgid "MoodletTxt Inbox folders for"
+msgstr ""
+
+#: $string['inboxfoldertrash']
+msgid "Trash Can"
+msgstr ""
+
+#: $string['inboxtableheadermessage']
+msgctxt "$string['inboxtableheadermessage']"
+msgid "Message Text"
+msgstr ""
+
+#: $string['inboxtableheadername']
+msgid "Source Name"
+msgstr ""
+
+#: $string['inboxtableheaderoptions']
+msgid "Options"
+msgstr ""
+
+#: $string['inboxtableheaderphone']
+msgctxt "$string['inboxtableheaderphone']"
+msgid "Phone Number"
+msgstr ""
+
+#: $string['inboxtableheadertags']
+msgid "Tags"
+msgstr ""
+
+#: $string['inboxtableheaderticket']
+msgid "Ticket No"
+msgstr ""
+
+#: $string['inboxtableheadertime']
+msgid "Time Received"
+msgstr ""
+
+#: $string['labelactions']
+msgid "Actions:"
+msgstr ""
+
+#: $string['labeladditionalfirstname']
+msgid "Enter first name:"
+msgstr ""
+
+#: $string['labeladditionallastname']
+msgid "Enter last name:"
+msgstr ""
+
+#: $string['labeladditionalnumber']
+msgid "Enter number here (eg +44123456789):"
+msgstr ""
+
+#: $string['labeladdressbookdelete']
+msgid "Select address book to delete:"
+msgstr ""
+
+#: $string['labeladdressbookname']
+msgid "Address book name:"
+msgstr ""
+
+#: $string['labeladdressbooktype']
+msgid "Address book type:"
+msgstr ""
+
+#: $string['labeladdresscontacts']
+msgid "Address Book Contacts:"
+msgstr ""
+
+#: $string['labeladdressgroups']
+msgid "Address Book Groups:"
+msgstr ""
+
+#: $string['labeladdsignature']
+msgctxt "$string['labeladdsignature']"
+msgid "Add signature:"
+msgstr ""
+
+#: $string['labelblocktitle']
+msgid "Block title"
+msgstr ""
+
+#: $string['labelcharspermessage']
+msgid "Characters per message:"
+msgstr ""
+
+#: $string['labelcharsremaining']
+msgid "Characters remaining:"
+msgstr ""
+
+#: $string['labelcharsused']
+msgid "Characters/messages used:"
+msgstr ""
+
+#: $string['labelcompanyname']
+msgid "Company Name:"
+msgstr ""
+
+#: $string['labelcontactsdelete']
+msgctxt "$string['labelcontactsdelete']"
+msgid "Delete Contacts"
+msgstr ""
+
+#: $string['labelcontactsmerge']
+msgctxt "$string['labelcontactsmerge']"
+msgid "Merge Contacts"
+msgstr ""
+
+#: $string['labelcontactspotential']
+msgid "Potential group members:"
+msgstr ""
+
+#: $string['labelcontactsselected']
+msgid "Selected group members:"
+msgstr ""
+
+#: $string['labelfinalrecipients']
+msgid "Message Recipients"
+msgstr ""
+
+#: $string['labelfirstname']
+msgid "First Name:"
+msgstr ""
+
+#: $string['labelfolderjump']
+msgid "Jump to:"
+msgstr ""
+
+#: $string['labelgroupdelleavecontacts']
+msgid "Preserve Contacts"
+msgstr ""
+
+#: $string['labelgroupdelmerge']
+msgctxt "$string['labelgroupdelmerge']"
+msgid "Merge Contacts"
+msgstr ""
+
+#: $string['labelgroupdelnukecontacts']
+msgctxt "$string['labelgroupdelnukecontacts']"
+msgid "Delete Contacts"
+msgstr ""
+
+#: $string['labelgroupdesc']
+msgid "Group Description:"
+msgstr ""
+
+#: $string['labelgroupname']
+msgid "Group Name:"
+msgstr ""
+
+#: $string['labelgroupsselect']
+msgid "Select group:"
+msgstr ""
+
+#: $string['labelhideinboundsources']
+msgid "Hide sources on inbox page:"
+msgstr ""
+
+#: $string['labelinboundliveinterval']
+msgid "How often to check with Moodle for new messages:"
+msgstr ""
+
+#: $string['labelinterval10min']
+msgid "10 minutes"
+msgstr ""
+
+#: $string['labelinterval15min']
+msgid "15 minutes"
+msgstr ""
+
+#: $string['labelinterval1min']
+msgid "1 minute"
+msgstr ""
+
+#: $string['labelinterval2min']
+msgid "2 minutes"
+msgstr ""
+
+#: $string['labelinterval5min']
+msgid "5 minutes"
+msgstr ""
+
+#: $string['labellastname']
+msgid "Last Name:"
+msgstr ""
+
+#: $string['labelmergetags']
+msgid "Insert into the message:"
+msgstr ""
+
+#: $string['labelmessageauthor']
+msgid "Message Author:"
+msgstr ""
+
+#: $string['labelmessagetext']
+msgid "Message Text:"
+msgstr ""
+
+#: $string['labelnewtag']
+msgid "New Tag:"
+msgstr ""
+
+#: $string['labelpasswordnew']
+msgid "New Password:"
+msgstr ""
+
+#: $string['labelphonenumber']
+msgid "Phone No:"
+msgstr ""
+
+#: $string['labelpotentialgroups']
+msgid "Addressbook Groups"
+msgstr ""
+
+#: $string['labelpotentialrecipients']
+msgid "Potential Recipients:"
+msgstr ""
+
+#: $string['labelrecipients']
+msgid "Recipients:"
+msgstr ""
+
+#: $string['labelrecipienttypeselect']
+msgid "Show:"
+msgstr ""
+
+#: $string['labelrestrictedusers']
+msgid "Allowed Users:"
+msgstr ""
+
+#: $string['labelscheduledfor']
+msgid "Scheduled For:"
+msgstr ""
+
+#: $string['labelschedulelater']
+msgid "Schedule to send later"
+msgstr ""
+
+#: $string['labelschedulenow']
+msgid "Send now"
+msgstr ""
+
+#: $string['labelscheduletime']
+msgid "Schedule time"
+msgstr ""
+
+#: $string['labelsearchusers']
+msgid "Search Users:"
+msgstr ""
+
+#: $string['labelselectedgroups']
+msgid "Add contact to:"
+msgstr ""
+
+#: $string['labelselectedrecipients']
+msgid "Selected Recipients"
+msgstr ""
+
+#: $string['labelshowmessagebygenerator']
+msgid "Messages to show:"
+msgstr ""
+
+#: $string['labelshowmessagesforuser']
+msgid "User to view:"
+msgstr ""
+
+#: $string['labelsignature']
+msgid "Signature:"
+msgstr ""
+
+#: $string['labelstatusblacklisted']
+msgid "Message has not been sent. The recipient has opted out."
+msgstr ""
+
+#: $string['labelstatusdelivered']
+msgid "Message delivery confirmed as received by the mobile phone."
+msgstr ""
+
+#: $string['labelstatusfailed']
+msgid ""
+"Message delivery has failed and will not be delivered to the mobile phone."
+msgstr ""
+
+#: $string['labelstatustransit']
+msgid ""
+"Message has been sent. No errors or handset delivery confirmation received."
+msgstr ""
+
+#: $string['labelsuppressunicodeno']
+msgid "Send full unicode messages"
+msgstr ""
+
+#: $string['labelsuppressunicodenodesc']
+msgid ""
+"(default - messages containing non-GSM characters are restricted to 70 "
+"characters)"
+msgstr ""
+
+#: $string['labelsuppressunicodeyes']
+msgid "Restrict message to GSM character set only"
+msgstr ""
+
+#: $string['labelsuppressunicodeyesdesc']
+msgid "(all messages are 160 characters long)"
+msgstr ""
+
+#: $string['labeltagdraganddrop']
+msgid "Drag and drop tags to and from messages."
+msgstr ""
+
+#: $string['labeltemplates']
+msgid "Message Templates:"
+msgstr ""
+
+#: $string['labeltemplatesexist']
+msgid "Existing Templates"
+msgstr ""
+
+#: $string['labeltemplatetext']
+msgid "Template Text:"
+msgstr ""
+
+#: $string['labeltimesent']
+msgid "Time Sent:"
+msgstr ""
+
+#: $string['labeltxttoolsaccount']
+msgid "ConnectTxt account:"
+msgstr ""
+
+#: $string['labelusergroups']
+msgid "Moodle User Groups:"
+msgstr ""
+
+#: $string['labeluserlist']
+msgid "Moodle Users:"
+msgstr ""
+
+#: $string['labelwithselected']
+msgid "With Selected:"
+msgstr ""
+
+#: $string['linkaddaccount']
+msgid "Add New Account"
+msgstr ""
+
+#: $string['linkaddcontact']
+msgid "Add a contact"
+msgstr ""
+
+#: $string['linkmanagegroups']
+msgid "Manage groups"
+msgstr ""
+
+#: $string['loadtoken']
+msgctxt "$string['loadtoken']"
+msgid "Loading..."
+msgstr ""
+
+#: $string['logxmlblockcreated']
+msgid "Created XML request block:"
+msgstr ""
+
+#: $string['logxmlblocksent']
+msgid "Sending packet to ConnectTxt through XML connector:"
+msgstr ""
+
+#: $string['logxmlparsedobjects']
+msgid "Parsed inbound objects:"
+msgstr ""
+
+#: $string['logxmlresponse']
+msgid "Raw response from ConnectTxt:"
+msgstr ""
+
+#: $string['mangroupscontactsdeleted']
+msgid "Group and contacts deleted."
+msgstr ""
+
+#: $string['mangroupslbldelete']
+msgid "Group to delete:"
+msgstr ""
+
+#: $string['mangroupsmerged']
+msgid "Group successfully merged."
+msgstr ""
+
+#: $string['moodletxt:addinstance']
+msgid "Add a new Moodletxt block"
+msgstr ""
+
+#: $string['moodletxt:addressbooks']
+msgid "Create Addressbooks"
+msgstr ""
+
+#: $string['moodletxt:adminsettings']
+msgid "Administer System Settings"
+msgstr ""
+
+#: $string['moodletxt:adminusers']
+msgid "View/Change User Settings"
+msgstr ""
+
+#: $string['moodletxt:defaultinbox']
+msgid "Receive Unfiltered Messages"
+msgstr ""
+
+#: $string['moodletxt:globaladdressbooks']
+msgid "Create Global Addressbooks"
+msgstr ""
+
+#: $string['moodletxt:personalsettings']
+msgid "Can create templates/change own settings"
+msgstr ""
+
+#: $string['moodletxt:receivemessages']
+msgid "Receive Inbound Messages"
+msgstr ""
+
+#: $string['moodletxt:sendmessages']
+msgid "Send Messages"
+msgstr ""
+
+#: $string['moodletxt:viewstats']
+msgid "View user statistics"
+msgstr ""
+
+#: $string['navaccounts']
+msgctxt "$string['navaccounts']"
+msgid "ConnectTxt Accounts"
+msgstr ""
+
+#: $string['navaddressbookedit']
+msgid "Edit Addressbook"
+msgstr ""
+
+#: $string['navaddressbooks']
+msgid "Addressbooks"
+msgstr ""
+
+#: $string['navcontactadd']
+msgctxt "$string['navcontactadd']"
+msgid "Add a Contact"
+msgstr ""
+
+#: $string['navfilters']
+msgid "Inbound Filters"
+msgstr ""
+
+#: $string['navmoodletxt']
+msgctxt "$string['navmoodletxt']"
+msgid "moodletxt"
+msgstr ""
+
+#: $string['navnewaccount']
+msgid "Adding a New Account"
+msgstr ""
+
+#: $string['navnewinstall']
+msgid "New Installation"
+msgstr ""
+
+#: $string['navpreferences']
+msgctxt "$string['navpreferences']"
+msgid "My Preferences"
+msgstr ""
+
+#: $string['navreceivedmessages']
+msgctxt "$string['navreceivedmessages']"
+msgid "Received Messages"
+msgstr ""
+
+#: $string['navsend']
+msgid "Send a Message"
+msgstr ""
+
+#: $string['navsent']
+msgctxt "$string['navsent']"
+msgid "Sent Messages"
+msgstr ""
+
+#: $string['navserver']
+msgctxt "$string['navserver']"
+msgid "ConnectTxt Server"
+msgstr ""
+
+#: $string['navslidemessage']
+msgid "Step 2: Compose message"
+msgstr ""
+
+#: $string['navslidemessageopts']
+msgid "Step 3: Message Options"
+msgstr ""
+
+#: $string['navsliderecipients']
+msgid "Step 1: Select recipients"
+msgstr ""
+
+#: $string['navslidereview']
+msgid "Step 4: Review &amp; Send"
+msgstr ""
+
+#: $string['navstatus']
+msgid "Viewing Message Status"
+msgstr ""
+
+#: $string['nexttoken']
+msgctxt "$string['nexttoken']"
+msgid "Next"
+msgstr ""
+
+#: $string['notifyaddressbookadded']
+msgid "The address book was added successfully."
+msgstr ""
+
+#: $string['notifyaddressbookdeleted']
+msgid "The address book was deleted successfully."
+msgstr ""
+
+#: $string['notifycontactadded']
+msgid "The contact was added to the addressbook successfully."
+msgstr ""
+
+#: $string['notifydoubleclickcontact']
+msgid "Double click on a contact entry to edit it."
+msgstr ""
+
+#: $string['notifygroupadded']
+msgid "Group added successfully."
+msgstr ""
+
+#: $string['notifygroupdeleted']
+msgid "Group successfully deleted"
+msgstr ""
+
+#: $string['notifygroupupdated']
+msgid "Group updated."
+msgstr ""
+
+#: $string['notifyprefsupdated']
+msgid "Preferences saved to system."
+msgstr ""
+
+#: $string['notifytemplateadded']
+msgid "The template was added to the system."
+msgstr ""
+
+#: $string['notifytemplatedeleted']
+msgid "The template was deleted successfully."
+msgstr ""
+
+#: $string['notifytemplateupdated']
+msgid "The template was successfully updated."
+msgstr ""
+
+#: $string['ok']
+msgid "OK"
+msgstr ""
+
+#: $string['optionaddressbookglobal']
+msgid "Global"
+msgstr ""
+
+#: $string['optionaddressbookprivate']
+msgid "Private"
+msgstr ""
+
+#: $string['optionallusers']
+msgid "All Users"
+msgstr ""
+
+#: $string['optionchoosetemplate']
+msgid "Choose a template..."
+msgstr ""
+
+#: $string['optioncopy']
+msgid "Copy to..."
+msgstr ""
+
+#: $string['optiondelete']
+msgctxt "$string['optiondelete']"
+msgid "Delete"
+msgstr ""
+
+#: $string['optioneventhide']
+msgid "Hide event-generated messages"
+msgstr ""
+
+#: $string['optioneventonly']
+msgid "Show only event-generated messages"
+msgstr ""
+
+#: $string['optioneventshow']
+msgid "Show both event-generated and user-generated messages"
+msgstr ""
+
+#: $string['optionfolders']
+msgid "Your folders..."
+msgstr ""
+
+#: $string['optionmove']
+msgid "Move to..."
+msgstr ""
+
+#: $string['optionwithselected']
+msgid "With selected..."
+msgstr ""
+
+#: $string['parserinvalidlogin']
+msgid ""
+"The ConnectTxt account details used are invalid.  Either the username or "
+"password entered are invalid, or the account selected has not been enabled "
+"for use with moodletxt.  Please check your ConnectTxt account details and "
+"try again.  If you still encounter problems, please contact ConnectTxt to "
+"make sure your account has been activated."
+msgstr ""
+
+#: $string['parserinvalidxml']
+msgid ""
+"The connection to the ConnectTxt system was rejected because the data sent "
+"was invalid.  You may be using a version of moodletxt that is out of date.  "
+"Please contact bbconnecttxt.com for more information."
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "moodletxt"
+msgstr ""
+
+#: $string['previoustoken']
+msgid "Previous"
+msgstr ""
+
+#: $string['redirectaccountsfound']
+msgid "ConnectTxt accounts found, redirecting to account admin..."
+msgstr ""
+
+#: $string['redirectcontactadded']
+msgid "Contact added, returning you to the address book..."
+msgstr ""
+
+#: $string['redirectmessagesent']
+msgid "Message sent. We are now taking you to the sent page. Hold tight!"
+msgstr ""
+
+#: $string['redirectnoaccountsfound']
+msgid ""
+"No ConnectTxt accounts found. Taking you to the new installation page..."
+msgstr ""
+
+#: $string['sendconfirmcharacters']
+msgid "characters"
+msgstr ""
+
+#: $string['sendconfirmmessage']
+msgctxt "$string['sendconfirmmessage']"
+msgid "Message:"
+msgstr ""
+
+#: $string['sendconfirmschedule']
+msgid "The message will be sent"
+msgstr ""
+
+#: $string['sendconfirmsms']
+msgid "SMS messages per contact"
+msgstr ""
+
+#: $string['sendfragnext']
+msgctxt "$string['sendfragnext']"
+msgid "Next"
+msgstr ""
+
+#: $string['sendfragprev']
+msgid "Back"
+msgstr ""
+
+#: $string['sendheading']
+msgctxt "$string['sendheading']"
+msgid "Send a Text Message"
+msgstr ""
+
+#: $string['sendkeyab']
+msgid "Address book contact"
+msgstr ""
+
+#: $string['sendkeyabgroup']
+msgid "Address book group"
+msgstr ""
+
+#: $string['sendkeyadd']
+msgid "Additional number"
+msgstr ""
+
+#: $string['sendkeyuser']
+msgid "Moodle user"
+msgstr ""
+
+#: $string['sendkeyusergroup']
+msgid "Moodle user group"
+msgstr ""
+
+#: $string['sendlabelaccountdesc']
+msgid "Account description:"
+msgstr ""
+
+#: $string['sendlabeladdsig']
+msgctxt "$string['sendlabeladdsig']"
+msgid "Add signature:"
+msgstr ""
+
+#: $string['sendlabelchooseaccount']
+msgid "Please choose one"
+msgstr ""
+
+#: $string['sendlabelcolourkey']
+msgid "Colour key:"
+msgstr ""
+
+#: $string['sendlabelerrorsfound']
+msgid ""
+"Errors were found on the highlighted slides. Please correct these and try "
+"again."
+msgstr ""
+
+#: $string['sendlabelgroups']
+msgid "Group"
+msgstr ""
+
+#: $string['sendlabelindividuals']
+msgid "Individual"
+msgstr ""
+
+#: $string['sendlabelmessage']
+msgctxt "$string['sendlabelmessage']"
+msgid "Message:"
+msgstr ""
+
+#: $string['sendlabelnotemplates']
+msgid "No templates found"
+msgstr ""
+
+#: $string['sendlabelrecipienttype']
+msgid "Choose..."
+msgstr ""
+
+#: $string['sendlabelservertime']
+msgid "Current server time is"
+msgstr ""
+
+#: $string['sendlabeltemplates']
+msgid "Templates"
+msgstr ""
+
+#: $string['sendlegendaccounts']
+msgctxt "$string['sendlegendaccounts']"
+msgid "ConnectTxt Accounts"
+msgstr ""
+
+#: $string['sendlegendschedule']
+msgid "Scheduling"
+msgstr ""
+
+#: $string['sendlegendunicode']
+msgid "Unicode Messaging Options"
+msgstr ""
+
+#: $string['sendmultipleaccounts']
+msgid ""
+"You may have access to more than one ConnectTxt account on this course.  "
+"Please select which one to use when sending this text message."
+msgstr ""
+
+#: $string['sendtabs1']
+msgid "Moodle Users"
+msgstr ""
+
+#: $string['sendtabs2']
+msgid "Address Books"
+msgstr ""
+
+#: $string['sendtabs3']
+msgid "Additional"
+msgstr ""
+
+#: $string['sendtitle']
+msgid "Send a message from"
+msgstr ""
+
+#: $string['sentnoticefrag1']
+msgid "sent messages and"
+msgstr ""
+
+#: $string['sentnoticefrag2']
+msgid "recipients were found in the database."
+msgstr ""
+
+#: $string['sentnoticefrag3']
+msgid "of the messages sent originated from this account."
+msgstr ""
+
+#: $string['sentnoticestatslink']
+msgid "Go back to the stats page"
+msgstr ""
+
+#: $string['settingsaddressbooklink']
+msgid "Go to your address books"
+msgstr ""
+
+#: $string['settingsedittemplate']
+msgid "Update Template"
+msgstr ""
+
+#: $string['settingsinboxlink']
+msgid "Go to your inbox"
+msgstr ""
+
+#: $string['settingssendtextlink']
+msgid "Send a text message from"
+msgstr ""
+
+#: $string['settingssentmessageslink']
+msgid "View your sent messages"
+msgstr ""
+
+#: $string['settingssubmittemplate']
+msgid "Add Template"
+msgstr ""
+
+#: $string['statsheader']
+msgid "Viewing moodletxt User Statistics"
+msgstr ""
+
+#: $string['statslabelmodebutton']
+msgid "Change mode"
+msgstr ""
+
+#: $string['statslabelswitchmode']
+msgid "Statistics mode:"
+msgstr ""
+
+#: $string['statsmodealldates']
+msgid "Show number sent by date"
+msgstr ""
+
+#: $string['statsmodeallusers']
+msgid "Show number sent by user"
+msgstr ""
+
+#: $string['statspara1']
+msgid ""
+"This page allows you to view statstics on the number of messages sent "
+"through moodletxt.  You can view message statistics by user or by date - "
+"select your choice from the drop-down menu on the right.  You can also click "
+"on a particular user/date's message count to view all messages sent by that "
+"user/on that date."
+msgstr ""
+
+#: $string['statstableheaderdate']
+msgid "Date"
+msgstr ""
+
+#: $string['statstableheadermessages']
+msgid "Number of messages sent"
+msgstr ""
+
+#: $string['statstableheaderuser']
+msgctxt "$string['statstableheaderuser']"
+msgid "User"
+msgstr ""
+
+#: $string['statstitle']
+msgid "moodletxt User Statistics"
+msgstr ""
+
+#: $string['statuskeyfailedalt']
+msgid "Failed"
+msgstr ""
+
+#: $string['statuskeyfailedtitle']
+msgid "Delivery has failed"
+msgstr ""
+
+#: $string['statuskeyreceivedalt']
+msgid "Delivered"
+msgstr ""
+
+#: $string['statuskeyreceivedtitle']
+msgid "Message received"
+msgstr ""
+
+#: $string['statuskeysentalt']
+msgid "Sent"
+msgstr ""
+
+#: $string['statuskeysenttitle']
+msgid "Message sent, but not yet confirmed"
+msgstr ""
+
+#: $string['tableheaderaccounttype']
+msgid "Account Type"
+msgstr ""
+
+#: $string['tableheaderallowinbound']
+msgid "Allow Inbound"
+msgstr ""
+
+#: $string['tableheaderallowoutbound']
+msgid "Allow Outbound"
+msgstr ""
+
+#: $string['tableheadercompany']
+msgid "Company Name"
+msgstr ""
+
+#: $string['tableheadercontactid']
+msgid "Contact ID"
+msgstr ""
+
+#: $string['tableheadercreditsleft']
+msgid "Credits Remaining"
+msgstr ""
+
+#: $string['tableheadercreditsused']
+msgid "Credits Used"
+msgstr ""
+
+#: $string['tableheaderdescription']
+msgid "Description"
+msgstr ""
+
+#: $string['tableheaderdestination']
+msgid "Destination Number"
+msgstr ""
+
+#: $string['tableheadereditaccess']
+msgid "Access"
+msgstr ""
+
+#: $string['tableheaderfirstname']
+msgctxt "$string['tableheaderfirstname']"
+msgid "First Name"
+msgstr ""
+
+#: $string['tableheadergeneration']
+msgid "Created by"
+msgstr ""
+
+#: $string['tableheaderlastname']
+msgctxt "$string['tableheaderlastname']"
+msgid "Last Name"
+msgstr ""
+
+#: $string['tableheaderlastupdate']
+msgid "Last Update"
+msgstr ""
+
+#: $string['tableheaderlocation']
+msgid "Location"
+msgstr ""
+
+#: $string['tableheadermessages']
+msgid "Messages Sent"
+msgstr ""
+
+#: $string['tableheadermessagetext']
+msgctxt "$string['tableheadermessagetext']"
+msgid "Message Text"
+msgstr ""
+
+#: $string['tableheaderphoneno']
+msgctxt "$string['tableheaderphoneno']"
+msgid "Phone Number"
+msgstr ""
+
+#: $string['tableheaderrecipient']
+msgid "Recipient"
+msgstr ""
+
+#: $string['tableheaderstatus']
+msgid "Message Status"
+msgstr ""
+
+#: $string['tableheadertimesent']
+msgid "Time Sent"
+msgstr ""
+
+#: $string['tableheadertimeupdated']
+msgid "Time of Update"
+msgstr ""
+
+#: $string['tableheadertxttoolsaccount']
+msgid "ConnectTxt Account"
+msgstr ""
+
+#: $string['tableheaderurl']
+msgid "URL"
+msgstr ""
+
+#: $string['tableheaderuser']
+msgid "Moodle User"
+msgstr ""
+
+#: $string['tableheaderusername']
+msgid "Username"
+msgstr ""
+
+#: $string['titleaccountadd']
+msgid "moodletxt - Add a New ConnectTxt Account"
+msgstr ""
+
+#: $string['titleaccountedit']
+msgid "Editing a ConnectTxt Account"
+msgstr ""
+
+#: $string['titleaccountrestrictions']
+msgid "Outbound Account Restrictions"
+msgstr ""
+
+#: $string['titleaddressbookedit']
+msgid "Editing a moodletxt address book"
+msgstr ""
+
+#: $string['titleaddressbooks']
+msgid "moodletxt Addressbooks for"
+msgstr ""
+
+#: $string['titlecontactadd']
+msgid "moodletxt - Add a Contact in"
+msgstr ""
+
+#: $string['titlefilters']
+msgid "Manage Filters"
+msgstr ""
+
+#: $string['titlegroupsmanage']
+msgid "Manage Groups in"
+msgstr ""
+
+#: $string['titlenewinstall']
+msgid "moodletxt - New Installation"
+msgstr ""
+
+#: $string['titlepreferences']
+msgid "moodletxt - My Preferences"
+msgstr ""
+
+#: $string['titlereceivedmessages']
+msgid "moodletxt Inbox for"
+msgstr ""
+
+#: $string['titlesend']
+msgid "Sending a Text Message from"
+msgstr ""
+
+#: $string['titlesent']
+msgid "moodletxt History for"
+msgstr ""
+
+#: $string['titlestatus']
+msgid "Viewing a Message in"
+msgstr ""
+
+#: $string['viewunknownlink']
+msgctxt "$string['viewunknownlink']"
+msgid "Unknown"
+msgstr ""
+
+#: $string['warnunicode']
+msgid ""
+"The message you are writing contains characters outside the default SMS "
+"alphabet. Messages sent using these characters can only be a maximum of 70 "
+"characters long, rather than the usual 160. The number of message credits "
+"used may be affected as a result. In addition, the receiving phone may not "
+"support these characters.  Please be certain you wish to send a unicode "
+"message."
+msgstr ""
+
+#: $string['warnunicodesuppressed']
+msgid ""
+"The message you are writing contains characters outside the default SMS "
+"alphabet, but unicode suppression is switched on. Any characters in this "
+"message that do not fall within the GSM character set may not appear "
+"correctly on the receiving phone. To correct this, edit the non-GSM "
+"characters out of your message, or turn off unicode suppression under "
+"message options."
+msgstr ""

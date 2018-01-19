@@ -1,0 +1,270 @@
+#. extracted from lang/en/enrol_database.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'enrol_database', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   enrol_database
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['database:config']
+msgid "Configure database enrol instances"
+msgstr ""
+
+#: $string['database:unenrol']
+msgid "Unenrol suspended users"
+msgstr ""
+
+#: $string['dbencoding']
+msgid "Database encoding"
+msgstr ""
+
+#: $string['dbhost']
+msgid "Database host"
+msgstr ""
+
+#: $string['dbhost_desc']
+msgid ""
+"Type database server IP address or host name. Use a system DSN name if using "
+"ODBC. Use a PDO DSN if using PDO."
+msgstr ""
+
+#: $string['dbname']
+msgid "Database name"
+msgstr ""
+
+#: $string['dbname_desc']
+msgid "Leave empty if using a DSN name in database host."
+msgstr ""
+
+#: $string['dbpass']
+msgid "Database password"
+msgstr ""
+
+#: $string['dbsetupsql']
+msgid "Database setup command"
+msgstr ""
+
+#: $string['dbsetupsql_desc']
+msgid ""
+"SQL command for special database setup, often used to setup communication "
+"encoding - example for MySQL and PostgreSQL: <em>SET NAMES 'utf8'</em>"
+msgstr ""
+
+#: $string['dbsybasequoting']
+msgid "Use sybase quotes"
+msgstr ""
+
+#: $string['dbsybasequoting_desc']
+msgid ""
+"Sybase style single quote escaping - needed for Oracle, MS SQL and some "
+"other databases. Do not use for MySQL!"
+msgstr ""
+
+#: $string['dbtype']
+msgid "Database driver"
+msgstr ""
+
+#: $string['dbtype_desc']
+msgid "ADOdb database driver name, type of the external database engine."
+msgstr ""
+
+#: $string['dbuser']
+msgid "Database user"
+msgstr ""
+
+#: $string['debugdb']
+msgid "Debug ADOdb"
+msgstr ""
+
+#: $string['debugdb_desc']
+msgid ""
+"Debug ADOdb connection to external database - use when getting empty page "
+"during login. Not suitable for production sites!"
+msgstr ""
+
+#: $string['defaultcategory']
+msgid "Default new course category"
+msgstr ""
+
+#: $string['defaultcategory_desc']
+msgid ""
+"The default category for auto-created courses. Used when no new category id "
+"specified or not found."
+msgstr ""
+
+#: $string['defaultrole']
+msgid "Default role"
+msgstr ""
+
+#: $string['defaultrole_desc']
+msgid ""
+"The role that will be assigned by default if no other role is specified in "
+"external table."
+msgstr ""
+
+#: $string['ignorehiddencourses']
+msgid "Ignore hidden courses"
+msgstr ""
+
+#: $string['ignorehiddencourses_desc']
+msgid ""
+"If enabled users will not be enrolled on courses that are set to be "
+"unavailable to students."
+msgstr ""
+
+#: $string['localcategoryfield']
+msgid "Local category field"
+msgstr ""
+
+#: $string['localcoursefield']
+msgid "Local course field"
+msgstr ""
+
+#: $string['localrolefield']
+msgid "Local role field"
+msgstr ""
+
+#: $string['localuserfield']
+msgid "Local user field"
+msgstr ""
+
+#: $string['newcoursecategory']
+msgid "New course category field"
+msgstr ""
+
+#: $string['newcoursefullname']
+msgid "New course full name field"
+msgstr ""
+
+#: $string['newcourseidnumber']
+msgid "New course ID number field"
+msgstr ""
+
+#: $string['newcourseshortname']
+msgid "New course short name field"
+msgstr ""
+
+#: $string['newcoursetable']
+msgid "Remote new courses table"
+msgstr ""
+
+#: $string['newcoursetable_desc']
+msgid ""
+"Specify of the name of the table that contains list of courses that should "
+"be created automatically. Empty means no courses are created."
+msgstr ""
+
+#: $string['pluginname']
+msgid "External database"
+msgstr ""
+
+#: $string['pluginname_desc']
+msgid ""
+"You can use an external database (of nearly any kind) to control your "
+"enrolments. It is assumed your external database contains at least a field "
+"containing a course ID, and a field containing a user ID. These are compared "
+"against fields that you choose in the local course and user tables."
+msgstr ""
+
+#: $string['remotecoursefield']
+msgid "Remote course field"
+msgstr ""
+
+#: $string['remotecoursefield_desc']
+msgid ""
+"The name of the field in the remote table that we are using to match entries "
+"in the course table."
+msgstr ""
+
+#: $string['remoteenroltable']
+msgid "Remote user enrolment table"
+msgstr ""
+
+#: $string['remoteenroltable_desc']
+msgid ""
+"Specify the name of the table that contains list of user enrolments. Empty "
+"means no user enrolment sync."
+msgstr ""
+
+#: $string['remoteotheruserfield']
+msgid "Remote Other User field"
+msgstr ""
+
+#: $string['remoteotheruserfield_desc']
+msgid ""
+"The name of the field in the remote table that we are using to flag \"Other "
+"User\" role assignments."
+msgstr ""
+
+#: $string['remoterolefield']
+msgid "Remote role field"
+msgstr ""
+
+#: $string['remoterolefield_desc']
+msgid ""
+"The name of the field in the remote table that we are using to match entries "
+"in the roles table."
+msgstr ""
+
+#: $string['remoteuserfield']
+msgid "Remote user field"
+msgstr ""
+
+#: $string['remoteuserfield_desc']
+msgid ""
+"The name of the field in the remote table that we are using to match entries "
+"in the user table."
+msgstr ""
+
+#: $string['settingsheaderdb']
+msgid "External database connection"
+msgstr ""
+
+#: $string['settingsheaderlocal']
+msgid "Local field mapping"
+msgstr ""
+
+#: $string['settingsheadernewcourses']
+msgid "Creation of new courses"
+msgstr ""
+
+#: $string['settingsheaderremote']
+msgid "Remote enrolment sync"
+msgstr ""
+
+#: $string['templatecourse']
+msgid "New course template"
+msgstr ""
+
+#: $string['templatecourse_desc']
+msgid ""
+"Optional: auto-created courses can copy their settings from a template "
+"course. Type here the shortname of the template course."
+msgstr ""

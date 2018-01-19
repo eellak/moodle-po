@@ -1,0 +1,612 @@
+#. extracted from lang/en/mediasite.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'mediasite', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   mediasite
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['actiondelete']
+msgid "Delete existing site"
+msgstr ""
+
+#: $string['actionedit']
+msgid "Edit existing site"
+msgstr ""
+
+#: $string['actiontblhder']
+msgid "Action"
+msgstr ""
+
+#: $string['admin_settings_body']
+msgid "Please use the plug-in <a href=\"{$a}\">configuration page</a>"
+msgstr ""
+
+#: $string['admin_settings_header']
+msgid "Configuration Page"
+msgstr ""
+
+#: $string['allowed_lti_catalog_embed_types']
+msgid "Catalog Embedding Formats"
+msgstr ""
+
+#: $string['allowed_lti_presentation_embed_types']
+msgid "Presentation Embedding Formats"
+msgstr ""
+
+#: $string['Always']
+msgid "Always"
+msgstr ""
+
+#: $string['BasicLTI']
+msgctxt "$string['BasicLTI']"
+msgid "Link"
+msgstr ""
+
+#: $string['basiclti_base_string']
+msgid "Basic LTI OAuth Base String"
+msgstr ""
+
+#: $string['basiclti_endpoint']
+msgid "Basic LTI Launch Endpoint"
+msgstr ""
+
+#: $string['basiclti_in_new_window']
+msgid "Your activity has opened in a new window"
+msgstr ""
+
+#: $string['basiclti_parameters']
+msgid "Basic LTI Launch Parameters"
+msgstr ""
+
+#: $string['catalog']
+msgid "Catalog"
+msgstr ""
+
+#: $string['catalog_iframe']
+msgid "iFrame"
+msgstr ""
+
+#: $string['catalog_link']
+msgctxt "$string['catalog_link']"
+msgid "Link"
+msgstr ""
+
+#: $string['courses7']
+msgid "Mediasite Courses"
+msgstr ""
+
+#: $string['course_settings']
+msgid "Mediasite Settings"
+msgstr ""
+
+#: $string['description']
+msgid "Description"
+msgstr ""
+
+#: $string['Disabled']
+msgid "Disabled"
+msgstr ""
+
+#: $string['duplicatesitename']
+msgid "{$a} is already in use. Please use a different site name."
+msgstr ""
+
+#: $string['error_course_misconfigured']
+msgid "Course is misconfigured"
+msgstr ""
+
+#: $string['error_course_module_id_incorrect']
+msgid "Course Module ID was incorrect"
+msgstr ""
+
+#: $string['error_course_module_incorrect']
+msgid "Course module is incorrect"
+msgstr ""
+
+#: $string['error_local_plugin_still_installed']
+msgid ""
+"Unstallation aborted: The \"Mediasite 7 Courses\" local plugin is still "
+"installed. Please uninstall it before uninstalling the Mediasite Content "
+"activity plugin."
+msgstr ""
+
+#: $string['feature_not_enabled']
+msgid "Feature not installed"
+msgstr ""
+
+#: $string['fixexistingconf']
+msgid "Use an existing configuration for the misconfigured instance"
+msgstr ""
+
+#: $string['fixnew']
+msgid "New Configuration"
+msgstr ""
+
+#: $string['fixnewconf']
+msgid "Define a new configuration for the misconfigured instance"
+msgstr ""
+
+#: $string['fixold']
+msgid "Use Existing"
+msgstr ""
+
+#: $string['form_data_invalid']
+msgid ""
+"This form should only be used after a resource has been selected by the "
+"search form."
+msgstr ""
+
+#: $string['iFrame']
+msgid "Embed"
+msgstr ""
+
+#: $string['incompleteconfiguration']
+msgid ""
+"Incomplete configuration. Did the site administrator save configuration "
+"changes?"
+msgstr ""
+
+#: $string['integration_catalog_not_enabled']
+msgid ""
+"Mediasite 7 Courses requires an additional local plugin to be installed. "
+"Please install the Mediasite 7 Courses local plugin."
+msgstr ""
+
+#: $string['integration_catalog_title']
+msgid "Mediasite 7 Courses Link Text"
+msgstr ""
+
+#: $string['integration_catalog_title_required']
+msgid ""
+"Mediasite 7 Courses Link Text is required when Mediasite 7 Courses is "
+"enabled."
+msgstr ""
+
+#: $string['invalidURL']
+msgid "Invalid URL format"
+msgstr ""
+
+#: $string['invalidURL_connection']
+msgid "Invalid URL, connection failed."
+msgstr ""
+
+#: $string['invalidURL_response']
+msgid "Invalid URL, expected: 'HTTP/1.1 302 Found', actual: '{$a}'."
+msgstr ""
+
+#: $string['launchsite']
+msgid "Select Mediasite"
+msgstr ""
+
+#: $string['longsitename']
+msgid "Site Name is too long"
+msgstr ""
+
+#: $string['lti_consumer_key']
+msgid "LTI Consumer Key"
+msgstr ""
+
+#: $string['lti_consumer_secret']
+msgid "LTI Consumer Secret"
+msgstr ""
+
+#: $string['lti_custom_parameters']
+msgid "LTI Custom Parameters"
+msgstr ""
+
+#: $string['lti_debug_launch']
+msgid "Show LTI Debug Information"
+msgstr ""
+
+#: $string['lti_debug_launch_postfix']
+msgid "<i>(Not recommended for use in production)</i>"
+msgstr ""
+
+#: $string['lti_embed_type_catalog_required']
+msgid "Please select at least one Catalog embedding format."
+msgstr ""
+
+#: $string['lti_embed_type_presentation_required']
+msgid "Please select at least one Presentation embedding format."
+msgstr ""
+
+#: $string['mbstring_required_embed_message']
+msgid ""
+"Moodle is not configured correctly for Mediasite Content. Not all content "
+"may be displayed. Please contact your administrator."
+msgstr ""
+
+#: $string['mbstring_required_message']
+msgid ""
+"Moodle is not configured correctly for Mediasite Content. The multibyte "
+"string PHP extension (mbstring) is required."
+msgstr ""
+
+#: $string['mediasite']
+msgid "Mediasite"
+msgstr ""
+
+#: $string['mediasite:addinstance']
+msgid "Add Mediasite content to a course"
+msgstr ""
+
+#: $string['mediasite:courses7']
+msgid "Use Mediasite Courses"
+msgstr ""
+
+#: $string['mediasite_courses_enabled']
+msgctxt "$string['mediasite_courses_enabled']"
+msgid "Enable Mediasite 7 Courses"
+msgstr ""
+
+#: $string['mediasite_integration_catalog_header']
+msgid "Mediasite 7 Courses"
+msgstr ""
+
+#: $string['mediasite:managesite']
+msgid "Manage Mediasite settings"
+msgstr ""
+
+#: $string['mediasite:mymediasite']
+msgid "Use My Mediasite"
+msgstr ""
+
+#: $string['mediasite:overridedefaults']
+msgid "Override default Mediasite settings"
+msgstr ""
+
+#: $string['mediasite_server_defaults']
+msgid "Mediasite Server Defaults"
+msgstr ""
+
+#: $string['mediasite_server_list']
+msgctxt "$string['mediasite_server_list']"
+msgid "Mediasite Content"
+msgstr ""
+
+#: $string['mediasite:view']
+msgid "View Mediasite content on course"
+msgstr ""
+
+#: $string['MetadataLight']
+msgid "Thumbnail"
+msgstr ""
+
+#: $string['MetadataOnly']
+msgid "Abstract Only"
+msgstr ""
+
+#: $string['MetadataPlusPlayer']
+msgctxt "$string['MetadataPlusPlayer']"
+msgid "Abstract + Player"
+msgstr ""
+
+#: $string['mode']
+msgid "Embedding Layout"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Mediasite Content"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"<p>Add Mediasite content to a Moodle course via the Mediasite Content "
+"activity plug-in. The activity plug-in enables searching for Mediasite "
+"presentations and Catalogs based on rights granted to the logged in user in "
+"Mediasite. The search can be embedded in a Moodle course via a variety of "
+"embed options.</p><p>Embedded Mediasite content can be delivered to users "
+"authorized to access instructional materials for the course, via the "
+"activity plug-in's Single Sign-On capabilities. Mediasite content embedded "
+"as presentations, can be played back in a secure fashion from Moodle's "
+"course pages. Likewise, Mediasite content embedded as catalogs, can be "
+"browsed  in a secure fashion from Moodle's course pages.</p><p>The activity "
+"plug-in also enables tracking of playback activity of the logged in user "
+"watching the embedded presentation.  Mediasite content embedded in Moodle "
+"course pages can be delivered on-demand or as live broadcasts, with all "
+"available Mediasite capabilities including Advanced Search and "
+"Interactivity.</p>"
+msgstr ""
+
+#: $string['modulenameplural']
+msgctxt "$string['modulenameplural']"
+msgid "Mediasite Content"
+msgstr ""
+
+#: $string['my_mediasite']
+msgctxt "$string['my_mediasite']"
+msgid "My Mediasite"
+msgstr ""
+
+#: $string['my_mediasite_course_menu']
+msgid "Course Menu"
+msgstr ""
+
+#: $string['my_mediasite_header']
+msgctxt "$string['my_mediasite_header']"
+msgid "My Mediasite"
+msgstr ""
+
+#: $string['my_mediasite_not_enabled']
+msgid ""
+"My Mediasite requires an additional local plugin to be installed. Please "
+"install the Mediasite 7 Courses local plugin."
+msgstr ""
+
+#: $string['my_mediasite_placement']
+msgid "Menu Placement"
+msgstr ""
+
+#: $string['my_mediasite_placement_hint']
+msgid ""
+"\"Course Menu\" adds this link to every course for enrolled users. \"Site Home\" "
+"is a more central location."
+msgstr ""
+
+#: $string['my_mediasite_site_pages']
+msgid "Site Home"
+msgstr ""
+
+#: $string['my_mediasite_title']
+msgid "My Mediasite Link Text"
+msgstr ""
+
+#: $string['my_mediasite_title_required']
+msgid "My Mediasite Link Text is required when My Mediasite is enabled."
+msgstr ""
+
+#: $string['nosites']
+msgid "There are no configured sites."
+msgstr ""
+
+#: $string['notauthorized']
+msgid "You are not authorized for this resource."
+msgstr ""
+
+#: $string['notfound']
+msgid "The selected Mediasite content was not found."
+msgstr ""
+
+#: $string['notypes']
+msgid ""
+"There are currently no LTI tools setup in Moodle. Click the Install link "
+"above to add some."
+msgstr ""
+
+#: $string['openaspopup']
+msgctxt "$string['openaspopup']"
+msgid "Open content in new window"
+msgstr ""
+
+#: $string['openaspopup_help']
+msgid "When viewing the resource should it be displayed as a pop-up or inline."
+msgstr ""
+
+#: $string['openaspopup_my_mediasite']
+msgctxt "$string['openaspopup_my_mediasite']"
+msgid "Open content in new window"
+msgstr ""
+
+#: $string['openaspopup_my_mediasite_postfix']
+msgctxt "$string['openaspopup_my_mediasite_postfix']"
+msgid ""
+msgstr ""
+
+#: $string['openpopup_integration_catalog']
+msgctxt "$string['openpopup_integration_catalog']"
+msgid "Open content in new window"
+msgstr ""
+
+#: $string['openpopup_integration_catalog_postfix']
+msgctxt "$string['openpopup_integration_catalog_postfix']"
+msgid ""
+msgstr ""
+
+#: $string['Opt-In']
+msgid "Opt-In"
+msgstr ""
+
+#: $string['Opt-Out']
+msgid "Opt-Out"
+msgstr ""
+
+#: $string['PlayerOnly']
+msgid "Player Only"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Mediasite Content administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Mediasite Content"
+msgstr ""
+
+#: $string['popupresource']
+msgid "This resource should appear in a popup window."
+msgstr ""
+
+#: $string['popupresourcelink']
+msgid "If it didn't, click here: {$a}"
+msgstr ""
+
+#: $string['presentation']
+msgid "Presentation"
+msgstr ""
+
+#: $string['presentation_abstract']
+msgid "Abstract"
+msgstr ""
+
+#: $string['presentation_abstract_plus_player']
+msgctxt "$string['presentation_abstract_plus_player']"
+msgid "Abstract + Player"
+msgstr ""
+
+#: $string['PresentationLink']
+msgid "Link Only"
+msgstr ""
+
+#: $string['presenters']
+msgid "Presenters"
+msgstr ""
+
+#: $string['press_to_submit']
+msgid "Press to launch this activity"
+msgstr ""
+
+#: $string['purge_all_caches_message']
+msgid ""
+"Mediasite Content in courses may be partially visible in courses for a brief "
+"time. Use Site administration > Development > Purge all caches to fix "
+"course content immediately."
+msgstr ""
+
+#: $string['requiredsitelti_consumer_key']
+msgid "An LTI Consumer Key is required."
+msgstr ""
+
+#: $string['requiredsitelti_consumer_secret']
+msgid "An LTI Consumer Secret is required."
+msgstr ""
+
+#: $string['requiredsitename']
+msgid "Site Name is required"
+msgstr ""
+
+#: $string['resource']
+msgid "Type of resource"
+msgstr ""
+
+#: $string['resourcetitle']
+msgctxt "$string['resourcetitle']"
+msgid "Title"
+msgstr ""
+
+#: $string['resourcetype']
+msgid "Content Type"
+msgstr ""
+
+#: $string['savechangebutton']
+msgid "Save changes"
+msgstr ""
+
+#: $string['searchnoresult']
+msgid "No results were found matching your search."
+msgstr ""
+
+#: $string['serverurl']
+msgid "Mediasite Root URL"
+msgstr ""
+
+#: $string['showdescription']
+msgid "Display description on course page"
+msgstr ""
+
+#: $string['show_integration_catalog']
+msgctxt "$string['show_integration_catalog']"
+msgid "Enable Mediasite 7 Courses"
+msgstr ""
+
+#: $string['show_integration_catalog_postfix']
+msgctxt "$string['show_integration_catalog_postfix']"
+msgid ""
+msgstr ""
+
+#: $string['show_my_mediasite']
+msgid "Enable My Mediasite"
+msgstr ""
+
+#: $string['show_my_mediasite_postfix']
+msgctxt "$string['show_my_mediasite_postfix']"
+msgid ""
+msgstr ""
+
+#: $string['siteaddbuttonlabel']
+msgid "Add site"
+msgstr ""
+
+#: $string['site_configuration_incomplete']
+msgid ""
+"The configuration of the Mediasite Content plug-in is incomplete. Please ask "
+"the system administrator to complete the LTI configuration."
+msgstr ""
+
+#: $string['site_deletion_inuse_confirmation']
+msgid ""
+"This site is used by {$a} course content items. Deleting the site will "
+"delete these content items. Are you sure you want to delete this site?"
+msgstr ""
+
+#: $string['site_deletion_unused_confirmation']
+msgid ""
+"The site is not referenced by any existing course content. Would you like to "
+"delete this site?"
+msgstr ""
+
+#: $string['sitename']
+msgctxt "$string['sitename']"
+msgid "Title"
+msgstr ""
+
+#: $string['sitenames']
+msgid "Select a default server"
+msgstr ""
+
+#: $string['sitenametblhder']
+msgid "Site Name"
+msgstr ""
+
+#: $string['siteroottblhder']
+msgid "Site Root"
+msgstr ""
+
+#: $string['siteselectionheader']
+msgid "Select a Mediasite Server"
+msgstr ""
+
+#: $string['sofotags']
+msgid "Tags"
+msgstr ""
+
+#: $string['toggle_debug_data']
+msgid "Toggle Debug Data"
+msgstr ""
+
+#: $string['unauthorized']
+msgid "Unauthorized"
+msgstr ""
+
+#: $string['viewsubmissions']
+msgid "View submissions and grading screen"
+msgstr ""

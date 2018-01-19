@@ -1,0 +1,328 @@
+#. extracted from lang/en/dmelearn.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'dmelearn', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   dmelearn
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['accessdenied']
+msgid "Access denied"
+msgstr ""
+
+#: $string['alwaysopen']
+msgid "Always open"
+msgstr ""
+
+#: $string['blankentry']
+msgid "Blank entry"
+msgstr ""
+
+#: $string['daysavailable']
+msgid "Days available"
+msgstr ""
+
+#: $string['dmelearn']
+msgctxt "$string['dmelearn']"
+msgid "DM e-Learning"
+msgstr ""
+
+#: $string['dmelearn:addentries']
+msgid "Add Digital Media e-Learning entries"
+msgstr ""
+
+#: $string['dmelearn:addinstance']
+msgid "Add Digital Media e-Learning instances"
+msgstr ""
+
+#: $string['dmelearncoursepath']
+msgid "Digital Media e-Learning Course"
+msgstr ""
+
+#: $string['dmelearncoursepath_help']
+msgid ""
+"Please select a course from the drop down menu.<br><br>\n"
+"<em>This list will display all courses that this Moodle Plugin has access "
+"to. If the course you require is not listed, please contact Digital "
+"Media.</em>"
+msgstr ""
+
+#: $string['dmelearnmail']
+msgid ""
+"{$a->teacher} has posted some feedback on your\n"
+"Digital Media e-Learning entry for '{$a->ELMO}'\n"
+"\n"
+"You can see it appended to your Digital Media e-Learning entry:\n"
+"\n"
+"    {$a->url}"
+msgstr ""
+
+#: $string['dmelearnmailhtml']
+msgid ""
+"{$a->teacher} has posted some feedback on your\n"
+"Digital Media e-Learning entry for '<i>{$a->ELMO}</i>'<br /><br />\n"
+"You can see it appended to your <a href=\"{$a->url}\">Digital Media e­Learning "
+"entry</a>."
+msgstr ""
+
+#: $string['dmelearn:manageentries']
+msgid "Manage Digital Media e-Learning entries"
+msgstr ""
+
+#: $string['dmelearnname']
+msgid "DM e-Learning Moodle Activity Name"
+msgstr ""
+
+#: $string['dmelearnname_help']
+msgid ""
+"Please enter a name for the Digital Media e-Learning course, this will be "
+"the title for the Moodle Activity."
+msgstr ""
+
+#: $string['dmelearnpreventearlierthanyear']
+msgid "Force Reset if course was previously completed before this year!"
+msgstr ""
+
+#: $string['dmelearnpreventearlierthanyear_help']
+msgid ""
+"e.g If you select 2016, any course completed in 2015 or earlier will not be "
+"synced to this activity. The user will be required to do a reset before "
+"starting the course within this activity.<br>Note: If set \"Force Reset After "
+"X Months Ago\" is ignored."
+msgstr ""
+
+#: $string['dmelearnquestion']
+msgid "Digital Media e-Learning question"
+msgstr ""
+
+#: $string['dmelearnsetting']
+msgid "Digital Media e-Learning settings"
+msgstr ""
+
+#: $string['dmelearnsetting_appname']
+msgid "ELMO application name"
+msgstr ""
+
+#: $string['dmelearnsetting_appname_help']
+msgid ""
+"The name of the application that has been specifically created for this "
+"Moodle"
+msgstr ""
+
+#: $string['dmelearnsetting_desc']
+msgid ""
+"Please fill in the following form with credentials provided to you by the "
+"administrators of your Digital Media e-Learning provider (ELMO API) that you "
+"wish to connect with."
+msgstr ""
+
+#: $string['dmelearnsetting_public_key']
+msgid "ELMO public key"
+msgstr ""
+
+#: $string['dmelearnsetting_public_key_help']
+msgid "The public key that has been provided to you"
+msgstr ""
+
+#: $string['dmelearnsetting_secret_key']
+msgid "ELMO secret key"
+msgstr ""
+
+#: $string['dmelearnsetting_secret_key_help']
+msgid "The secret key that has been provided to you"
+msgstr ""
+
+#: $string['dmelearnsetting_URL']
+msgid "ELMO API URL"
+msgstr ""
+
+#: $string['dmelearnsetting_URL_help']
+msgid "ELMO Endpoint URL with ending \"/\"  eg. http://example.com.au/"
+msgstr ""
+
+#: $string['dmelearntimeframemonths']
+msgid "Force Reset After X Months Ago <br>(0 = No course expiry limits)"
+msgstr ""
+
+#: $string['dmelearntimeframemonths_help']
+msgid ""
+"This options exists to prevent users that have completed a DM e-Learning "
+"course more than a certain amount of months ago (possibly via another "
+"website or Moodle) from syncing their completion percentage with this "
+"activities Moodle Grade.\n"
+"<br><br>If a users completion date is greater than the amount of months set "
+"here, they will be required to reset their course and complete the course "
+"assessments from the beginning.<br><br>If you do not need this feature set "
+"this field to 0."
+msgstr ""
+
+#: $string['editingended']
+msgid "Editing period has ended"
+msgstr ""
+
+#: $string['editingends']
+msgid "Editing period ends"
+msgstr ""
+
+#: $string['elmo']
+msgid "ELMO"
+msgstr ""
+
+#: $string['entries']
+msgid "Entries"
+msgstr ""
+
+#: $string['feedbackupdated']
+msgid "Feedback updated for {$a} entries"
+msgstr ""
+
+#: $string['mailsubject']
+msgid "Digital Media e-Learning feedback"
+msgstr ""
+
+#: $string['mfinstructions']
+msgid ""
+"<style>.mf-instruct{color:#2ca02c;font-weight:bold;}</style><div><span class"
+"=\"mf-instruct\">Instructions:</span> The form will let you add a DM "
+"e-Learning course into an activity within your Moodle Course.\n"
+"<ol><li>Select a DM e-Learning Course from the dropdown "
+"below.</li><li>OPTIONAL: Enter the number of months that you will allow "
+"access to a course after it has been 100% completed on DM e-Learning. If "
+"expired, users will need to reset the course and Moodle Grade before gaining "
+"access. (DEFAULT: 0 = No course expiry limits).</li>\n"
+"<li>Provide a name for the Moodle Activity.</li><li>Save your "
+"selection.</li></ol></div>"
+msgstr ""
+
+#: $string['mfnocourse']
+msgid "You must choose from one of the courses in the drop down."
+msgstr ""
+
+#: $string['mfnocourses']
+msgid ""
+"<style>.mf-info{color:#e32f0b;font-weight:bold;}</style><div><span class"
+"=\"mf-info\">Information:</span> The DM e-Learning server did not return any "
+"available courses. Please contact Digital Media for help.</div><br>"
+msgstr ""
+
+#: $string['mfselectcourse']
+msgid "Please select a course ..."
+msgstr ""
+
+#: $string['mftfwrong']
+msgid ""
+"You must enter either 0 or a number of months that a completed course will "
+"be accessible before needing to be reset."
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "DM e-Learning"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"This Digital Media e-Learning activity module enables e-Learning courses "
+"from the Digital Media e-Learning site to be loaded into Moodle.\n"
+"<br><br> To load a course from this site the activity module will need to be "
+"connected through the sites API using a key provided by it's administrators"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "DM e-Learning modules"
+msgstr ""
+
+#: $string['newdmelearnentries']
+msgid "New Digital Media e-Learning entries"
+msgstr ""
+
+#: $string['noentriesmanagers']
+msgid "There are no teachers"
+msgstr ""
+
+#: $string['noentry']
+msgid "No entry"
+msgstr ""
+
+#: $string['noratinggiven']
+msgid "No rating given"
+msgstr ""
+
+#: $string['notopenuntil']
+msgid "This Digital Media e-Learning won't be open until"
+msgstr ""
+
+#: $string['notstarted']
+msgid "You have not started this Digital Media e-Learning yet"
+msgstr ""
+
+#: $string['overallrating']
+msgid "Overall rating"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "DM e-Learning administration"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Digital Media e-Learning"
+msgstr ""
+
+#: $string['rate']
+msgid "Rate"
+msgstr ""
+
+#: $string['removeentries']
+msgid "Remove all entries"
+msgstr ""
+
+#: $string['saveallfeedback']
+msgid "Save all my feedback"
+msgstr ""
+
+#: $string['showoverview']
+msgid "Show Digital Media e-Learning overview on my moodle"
+msgstr ""
+
+#: $string['showrecentactivity']
+msgid "Show recent activity"
+msgstr ""
+
+#: $string['startoredit']
+msgid "Start or edit my Digital Media e-Learning entry"
+msgstr ""
+
+#: $string['viewallentries']
+msgid "View {$a} Digital Media e-Learning entries"
+msgstr ""
+
+#: $string['viewentries']
+msgid "View entries"
+msgstr ""

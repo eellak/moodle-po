@@ -1,0 +1,196 @@
+#. extracted from lang/en/enrol_dps.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'enrol_dps', language 'en', branch 'MOODLE_22_STABLE'
+#.  *
+#.  * @package   enrol_dps
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['assignrole']
+msgid "Assign role"
+msgstr ""
+
+#: $string['cost']
+msgid "Cost"
+msgstr ""
+
+#: $string['coursenotfound']
+msgid "Course not found"
+msgstr ""
+
+#: $string['currency']
+msgid "Currency"
+msgstr ""
+
+#: $string['defaultrole']
+msgid "Default role assignment"
+msgstr ""
+
+#: $string['defaultrole_desc']
+msgid "Select role which should be assigned to users during DPS enrolments"
+msgstr ""
+
+#: $string['dps:config']
+msgid "Configure DPS enrol instances"
+msgstr ""
+
+#: $string['dps:manage']
+msgid "Manage enrolled users"
+msgstr ""
+
+#: $string['dps:unenrol']
+msgid "Unenrol users from course"
+msgstr ""
+
+#: $string['dps:unenrolself']
+msgid "Unenrol self from the course"
+msgstr ""
+
+#: $string['enrolenddate']
+msgid "End date"
+msgstr ""
+
+#: $string['enrolenddate_help']
+msgid "If enabled, users can be enrolled until this date only."
+msgstr ""
+
+#: $string['enrolperiod']
+msgid "Enrolment duration"
+msgstr ""
+
+#: $string['enrolperiod_desc']
+msgid ""
+"Default length of time that the enrolment is valid (in seconds). If set to "
+"zero, the enrolment duration will be unlimited by default."
+msgstr ""
+
+#: $string['enrolperiod_help']
+msgid ""
+"Length of time that the enrolment is valid, starting with the moment the "
+"user is enrolled. If disabled, the enrolment duration will be unlimited."
+msgstr ""
+
+#: $string['enrolstartdate']
+msgid "Start date"
+msgstr ""
+
+#: $string['enrolstartdate_help']
+msgid "If enabled, users can be enrolled from this date onward only."
+msgstr ""
+
+#: $string['error_curlrequired']
+msgid "The PHP Curl extension is required for the DPS enrolment plugin."
+msgstr ""
+
+#: $string['error_dpscurrency']
+msgid "The course fee is not in a currency recognised by DPS."
+msgstr ""
+
+#: $string['error_dpsinitiate']
+msgid ""
+"could not initiate a transaction with the DPS payment server - please try "
+"again later."
+msgstr ""
+
+#: $string['error_enrolmentkey']
+msgid "That enrolment key was incorrect, please try again."
+msgstr ""
+
+#: $string['error_paymentfailure']
+msgid ""
+"Your payment was not successful. DPS Payment Express returned the following "
+"error: $a"
+msgstr ""
+
+#: $string['error_paymentunsucessful']
+msgid "Payment was not successful, please try again later."
+msgstr ""
+
+#: $string['error_txalreadyprocessed']
+msgid "DPS Payment Express: This transaction has already been processed."
+msgstr ""
+
+#: $string['error_txdatabase']
+msgid "Fatal: could not create the DPS transaction in the Moodle database."
+msgstr ""
+
+#: $string['error_txinvalid']
+msgid "DPS Payment Express: invalid transaction, please try again."
+msgstr ""
+
+#: $string['error_txnotfound']
+msgid "DPS Payment Express: corresponding Moodle transaction record not found."
+msgstr ""
+
+#: $string['error_usercourseempty']
+msgid "user or course empty"
+msgstr ""
+
+#: $string['key']
+msgid "DPS Key"
+msgstr ""
+
+#: $string['key_desc']
+msgid "This is the DPS private key that was issued with the user id."
+msgstr ""
+
+#: $string['nocost']
+msgid "There is no cost associated with enrolling in this course!"
+msgstr ""
+
+#: $string['pluginname']
+msgid "DPS Payment Gateway"
+msgstr ""
+
+#: $string['pluginname_desc']
+msgid ""
+"This plugin lets you configure courses to be paid for using the DPS credit "
+"card payment gateway."
+msgstr ""
+
+#: $string['status']
+msgid "Allow DPS enrolments"
+msgstr ""
+
+#: $string['status_desc']
+msgid "Allow users to use DPS to enrol into a course by default."
+msgstr ""
+
+#: $string['unavailabletoguest']
+msgid "This course requires payment and is unavailable to the guest user."
+msgstr ""
+
+#: $string['userid']
+msgid "DPS User ID"
+msgstr ""
+
+#: $string['userid_desc']
+msgid "The DPS User ID to use for credit card authorisation."
+msgstr ""

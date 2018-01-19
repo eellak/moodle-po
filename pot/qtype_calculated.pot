@@ -1,0 +1,608 @@
+#. extracted from lang/en/qtype_calculated.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qtype_calculated', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   qtype_calculated
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['additem']
+msgid "Add item"
+msgstr ""
+
+#: $string['addmoreanswerblanks']
+msgid "Add another answer blank."
+msgstr ""
+
+#: $string['addsets']
+msgid "Add set(s)"
+msgstr ""
+
+#: $string['answerdisplay']
+msgid "Answer display"
+msgstr ""
+
+#: $string['answerformula']
+msgid "Answer  {$a} formula"
+msgstr ""
+
+#: $string['answerhdr']
+msgid "Answer"
+msgstr ""
+
+#: $string['answerstoleranceparam']
+msgid "Answers tolerance parameters"
+msgstr ""
+
+#: $string['answerwithtolerance']
+msgid "{$a->answer} (±{$a->tolerance} {$a->tolerancetype})"
+msgstr ""
+
+#: $string['anyvalue']
+msgid "Any value"
+msgstr ""
+
+#: $string['atleastoneanswer']
+msgid "You need to provide at least one answer."
+msgstr ""
+
+#: $string['atleastonerealdataset']
+msgid "There should be at least one real dataset in question text"
+msgstr ""
+
+#: $string['atleastonewildcard']
+msgid ""
+"There should be at least one wild card in answer formula or question text"
+msgstr ""
+
+#: $string['calcdistribution']
+msgid "Distribution"
+msgstr ""
+
+#: $string['calclength']
+msgid "Decimal places"
+msgstr ""
+
+#: $string['calcmax']
+msgid "Maximum"
+msgstr ""
+
+#: $string['calcmin']
+msgid "Minimum"
+msgstr ""
+
+#: $string['choosedatasetproperties']
+msgid "Choose wildcards dataset properties"
+msgstr ""
+
+#: $string['choosedatasetproperties_help']
+msgid ""
+"A dataset is a set of values inserted in place of a wildcard. You can create "
+"a private dataset for a specific question, or a shared dataset that can be "
+"used for other calculated questions within the category."
+msgstr ""
+
+#: $string['correctanswerformula']
+msgid "Correct answer formula"
+msgstr ""
+
+#: $string['correctanswershows']
+msgid "Correct answer shows"
+msgstr ""
+
+#: $string['correctanswershowsformat']
+msgid "Format"
+msgstr ""
+
+#: $string['correctfeedback']
+msgid "For any correct response"
+msgstr ""
+
+#: $string['dataitemdefined']
+msgid "with {$a} numerical values already defined is available"
+msgstr ""
+
+#: $string['datasetrole']
+msgid ""
+"The wild cards <strong>{x..}</strong> will be substituted by a numerical "
+"value from their dataset"
+msgstr ""
+
+#: $string['decimals']
+msgctxt "$string['decimals']"
+msgid "with {$a}"
+msgstr ""
+
+#: $string['deleteitem']
+msgid "Delete item"
+msgstr ""
+
+#: $string['deletelastitem']
+msgid "Delete last item"
+msgstr ""
+
+#: $string['distributionoption']
+msgid "Select distribution option"
+msgstr ""
+
+#: $string['editdatasets']
+msgid "Edit the wildcards datasets"
+msgstr ""
+
+#: $string['editdatasets_help']
+msgid ""
+"Wildcard values may be created by entering a number in each wild card field "
+"then clicking the add button. To automatically generate 10 or more values, "
+"select the number of values required before clicking the add button. A "
+"uniform distribution means any value between the limits is equally likely to "
+"be generated; a loguniform distribution means that values towards the lower "
+"limit are more likely."
+msgstr ""
+
+#: $string['editdatasets_link']
+msgctxt "$string['editdatasets_link']"
+msgid "question/type/calculated"
+msgstr ""
+
+#: $string['existingcategory1']
+msgid "will use an already existing shared dataset"
+msgstr ""
+
+#: $string['existingcategory2']
+msgid ""
+"a file from an already existing set of files that are also used by other "
+"questions in this category"
+msgstr ""
+
+#: $string['existingcategory3']
+msgid ""
+"a link from an already existing set of links that are also used by other "
+"questions in this category"
+msgstr ""
+
+#: $string['forceregeneration']
+msgid "force regeneration"
+msgstr ""
+
+#: $string['forceregenerationall']
+msgid "forceregeneration of all wildcards"
+msgstr ""
+
+#: $string['forceregenerationshared']
+msgid "forceregeneration of only non-shared wildcards"
+msgstr ""
+
+#: $string['functiontakesatleasttwo']
+msgid "The function {$a} must have at least two arguments"
+msgstr ""
+
+#: $string['functiontakesnoargs']
+msgid "The function {$a} does not take any arguments"
+msgstr ""
+
+#: $string['functiontakesonearg']
+msgid "The function {$a} must have exactly one argument"
+msgstr ""
+
+#: $string['functiontakesoneortwoargs']
+msgid "The function {$a} must have either one or two arguments"
+msgstr ""
+
+#: $string['functiontakestwoargs']
+msgid "The function {$a} must have exactly two arguments"
+msgstr ""
+
+#: $string['generatevalue']
+msgid "Generate a new value between"
+msgstr ""
+
+#: $string['getnextnow']
+msgid "Get new 'Item to Add' now"
+msgstr ""
+
+#: $string['hexanotallowed']
+msgid ""
+"Dataset <strong>{$a->name}</strong> hexadecimal format value {$a->value} is "
+"not allowed"
+msgstr ""
+
+#: $string['illegalformulasyntax']
+msgid "Illegal formula syntax starting with '{$a}'"
+msgstr ""
+
+#: $string['incorrectfeedback']
+msgid "For any incorrect response"
+msgstr ""
+
+#: $string['itemno']
+msgid "Item {$a}"
+msgstr ""
+
+#: $string['itemscount']
+msgid "Items<br />Count"
+msgstr ""
+
+#: $string['itemtoadd']
+msgid "Item to add"
+msgstr ""
+
+#: $string['keptcategory1']
+msgid "will use the same existing shared dataset as before"
+msgstr ""
+
+#: $string['keptcategory2']
+msgid "a file from the same category reusable set of files as before"
+msgstr ""
+
+#: $string['keptcategory3']
+msgid "a link from the same category reusable set of links as before"
+msgstr ""
+
+#: $string['keptlocal1']
+msgid "will use the same existing private dataset as before"
+msgstr ""
+
+#: $string['keptlocal2']
+msgid "a file from the same question private set of files as before"
+msgstr ""
+
+#: $string['keptlocal3']
+msgid "a link from the same question private set of links as before"
+msgstr ""
+
+#: $string['lengthoption']
+msgid "Select length option"
+msgstr ""
+
+#: $string['loguniform']
+msgid "Loguniform"
+msgstr ""
+
+#: $string['loguniformbit']
+msgid "digits, from a loguniform distribution"
+msgstr ""
+
+#: $string['makecopynextpage']
+msgid "Next page (new question)"
+msgstr ""
+
+#: $string['mandatoryhdr']
+msgid "Mandatory wild cards present in answers"
+msgstr ""
+
+#: $string['max']
+msgid "Max"
+msgstr ""
+
+#: $string['min']
+msgid "Min"
+msgstr ""
+
+#: $string['minmax']
+msgid "Range of Values"
+msgstr ""
+
+#: $string['missingformula']
+msgid "Missing formula"
+msgstr ""
+
+#: $string['missingname']
+msgid "Missing question name"
+msgstr ""
+
+#: $string['missingquestiontext']
+msgid "Missing question text"
+msgstr ""
+
+#: $string['mustenteraformulaorstar']
+msgid "You must enter a formula or '*'."
+msgstr ""
+
+#: $string['newcategory1']
+msgid "will use a new shared dataset"
+msgstr ""
+
+#: $string['newcategory2']
+msgid ""
+"a file from a new set of files that may also be used by other questions in "
+"this category"
+msgstr ""
+
+#: $string['newcategory3']
+msgid ""
+"a link from a new set of links that may also be used by other questions in "
+"this category"
+msgstr ""
+
+#: $string['newlocal1']
+msgid "will use a new private dataset"
+msgstr ""
+
+#: $string['newlocal2']
+msgid "a file  from a new set of files that will only be used by this question"
+msgstr ""
+
+#: $string['newlocal3']
+msgid "a link from a new set of links that will only be used by this question"
+msgstr ""
+
+#: $string['newsetwildcardvalues']
+msgid "new set(s) of wild card(s) values"
+msgstr ""
+
+#: $string['nextitemtoadd']
+msgid "Next 'Item to Add'"
+msgstr ""
+
+#: $string['nextpage']
+msgid "Next page"
+msgstr ""
+
+#: $string['nocoherencequestionsdatyasetcategory']
+msgid ""
+"For question id {$a->qid}, the category id {$a->qcat} is not identical with "
+"the shared wild card {$a->name} category id {$a->sharedcat}. Edit the "
+"question."
+msgstr ""
+
+#: $string['nocommaallowed']
+msgid "The , cannot be used, use . as in 0.013 or 1.3e-2"
+msgstr ""
+
+#: $string['nodataset']
+msgid "nothing - it is not a wild card"
+msgstr ""
+
+#: $string['nosharedwildcard']
+msgid "No shared wild card in this category"
+msgstr ""
+
+#: $string['notvalidnumber']
+msgid "Wild card value is not a valid number"
+msgstr ""
+
+#: $string['oneanswertrueansweroutsidelimits']
+msgid ""
+"At least one correct answer outside the true value limits.<br />Modify the "
+"answers tolerance settings available as Advanced parameters"
+msgstr ""
+
+#: $string['param']
+msgid "Param {<strong>{$a}</strong>}"
+msgstr ""
+
+#: $string['partiallycorrectfeedback']
+msgid "For any partially correct response"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Calculated"
+msgstr ""
+
+#: $string['pluginnameadding']
+msgid "Adding a Calculated question"
+msgstr ""
+
+#: $string['pluginnameediting']
+msgid "Editing a Calculated question"
+msgstr ""
+
+#: $string['pluginname_help']
+msgid ""
+"Calculated questions enable individual numerical questions to be created "
+"using wildcards in curly brackets that are substituted with individual "
+"values when the quiz is taken. For example, the question \"What is the area "
+"of a rectangle of length {l} and width {w}?\" would have correct answer "
+"formula \"{l}*{w}\" (where * denotes multiplication)."
+msgstr ""
+
+#: $string['pluginname_link']
+msgctxt "$string['pluginname_link']"
+msgid "question/type/calculated"
+msgstr ""
+
+#: $string['pluginnamesummary']
+msgid ""
+"Calculated questions are like numerical questions but with the numbers used "
+"selected randomly from a set when the quiz is taken."
+msgstr ""
+
+#: $string['possiblehdr']
+msgid "Possible wild cards present only in the question text"
+msgstr ""
+
+#: $string['questiondatasets']
+msgid "Question datasets"
+msgstr ""
+
+#: $string['questiondatasets_help']
+msgid ""
+"Question datasets of wild cards that will be used in each individual "
+"question"
+msgstr ""
+
+#: $string['questionstoredname']
+msgid "Question stored name"
+msgstr ""
+
+#: $string['replacewithrandom']
+msgid "Replace with a random value"
+msgstr ""
+
+#: $string['reuseifpossible']
+msgid "reuse previous value if available"
+msgstr ""
+
+#: $string['setno']
+msgid "Set {$a}"
+msgstr ""
+
+#: $string['setwildcardvalues']
+msgid "set(s) of wild card(s) values"
+msgstr ""
+
+#: $string['sharedwildcard']
+msgid "Shared wild card {<strong>{$a}</strong>}"
+msgstr ""
+
+#: $string['sharedwildcardname']
+msgid "Shared wild card"
+msgstr ""
+
+#: $string['sharedwildcards']
+msgid "Shared wild cards"
+msgstr ""
+
+#: $string['showitems']
+msgid "Display"
+msgstr ""
+
+#: $string['significantfigures']
+msgctxt "$string['significantfigures']"
+msgid "with {$a}"
+msgstr ""
+
+#: $string['significantfiguresformat']
+msgid "significant figures"
+msgstr ""
+
+#: $string['synchronize']
+msgid ""
+"Synchronise the data from shared datasets with other questions in a quiz"
+msgstr ""
+
+#: $string['synchronizeno']
+msgid "Do not synchronise"
+msgstr ""
+
+#: $string['synchronizeyes']
+msgid "Synchronise"
+msgstr ""
+
+#: $string['synchronizeyesdisplay']
+msgid ""
+"Synchronise and display the shared datasets name as prefix of the question "
+"name"
+msgstr ""
+
+#: $string['tolerance']
+msgid "Tolerance &plusmn;"
+msgstr ""
+
+#: $string['tolerancetype']
+msgid "Type"
+msgstr ""
+
+#: $string['trueanswerinsidelimits']
+msgid "Correct answer : {$a->correct} inside limits of true value {$a->true}"
+msgstr ""
+
+#: $string['trueansweroutsidelimits']
+msgid ""
+"<span class=\"error\">ERROR Correct answer : {$a->correct} outside limits of "
+"true value {$a->true}</span>"
+msgstr ""
+
+#: $string['uniform']
+msgid "Uniform"
+msgstr ""
+
+#: $string['uniformbit']
+msgid "decimals, from a uniform distribution"
+msgstr ""
+
+#: $string['unsupportedformulafunction']
+msgid "The function {$a} is not supported"
+msgstr ""
+
+#: $string['updatecategory']
+msgid "Update the category"
+msgstr ""
+
+#: $string['updatedatasetparam']
+msgid "Update the datasets parameters"
+msgstr ""
+
+#: $string['updatetolerancesparam']
+msgid "Update the answers tolerance parameters"
+msgstr ""
+
+#: $string['updatewildcardvalues']
+msgid "Update the wild card(s) values"
+msgstr ""
+
+#: $string['useadvance']
+msgid "Use the advance button to see the errors"
+msgstr ""
+
+#: $string['usedinquestion']
+msgid "Used in Question"
+msgstr ""
+
+#: $string['wildcard']
+msgid "Wild card {<strong>{$a}</strong>}"
+msgstr ""
+
+#: $string['wildcardparam']
+msgid "Wild cards parameters used to generate the values"
+msgstr ""
+
+#: $string['wildcardrole']
+msgid ""
+"The wild cards <strong>{x..}</strong> will be substituted by a numerical "
+"value from the generated values"
+msgstr ""
+
+#: $string['wildcards']
+msgid "Wild cards {a}...{z}"
+msgstr ""
+
+#: $string['wildcardvalues']
+msgid "Wild card(s) values"
+msgstr ""
+
+#: $string['wildcardvaluesgenerated']
+msgid "Wild card(s) values generated"
+msgstr ""
+
+#: $string['youmustaddatleastoneitem']
+msgid ""
+"You must add at least one dataset item before you can save this question."
+msgstr ""
+
+#: $string['youmustaddatleastonevalue']
+msgid ""
+"You must add at least one set of wild card(s) values before you can save "
+"this question."
+msgstr ""
+
+#: $string['zerosignificantfiguresnotallowed']
+msgid "The correct answer cannot have zero significant figures!"
+msgstr ""

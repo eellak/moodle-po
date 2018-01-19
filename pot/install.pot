@@ -1,0 +1,801 @@
+#. extracted from lang/en/install.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'install', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   install
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['admindirerror']
+msgid "The admin directory specified is incorrect"
+msgstr ""
+
+#: $string['admindirname']
+msgid "Admin directory"
+msgstr ""
+
+#: $string['admindirsetting']
+msgctxt "$string['admindirsetting']"
+msgid ""
+"A very few webhosts use /admin as a special URL for you to access a\n"
+"    control panel or something.  Unfortunately this conflicts with the\n"
+"    standard location for the Moodle admin pages.  You can fix this by\n"
+"    renaming the admin directory in your installation, and putting that\n"
+"    new name here.  For example: <br /> <br /><b>moodleadmin</b><br /> <br "
+"/>\n"
+"    This will fix admin links in Moodle."
+msgstr ""
+
+#: $string['admindirsettinghead']
+msgid "Setting the admin directory ..."
+msgstr ""
+
+#: $string['admindirsettingsub']
+msgctxt "$string['admindirsettingsub']"
+msgid ""
+"A very few webhosts use /admin as a special URL for you to access a\n"
+"    control panel or something.  Unfortunately this conflicts with the\n"
+"    standard location for the Moodle admin pages.  You can fix this by\n"
+"    renaming the admin directory in your installation, and putting that\n"
+"    new name here.  For example: <br /> <br /><b>moodleadmin</b><br /> <br "
+"/>\n"
+"    This will fix admin links in Moodle."
+msgstr ""
+
+#: $string['availablelangs']
+msgid "Available language packs"
+msgstr ""
+
+#: $string['caution']
+msgid "Caution"
+msgstr ""
+
+#: $string['chooselanguage']
+msgctxt "$string['chooselanguage']"
+msgid "Choose a language"
+msgstr ""
+
+#: $string['chooselanguagehead']
+msgctxt "$string['chooselanguagehead']"
+msgid "Choose a language"
+msgstr ""
+
+#: $string['chooselanguagesub']
+msgid ""
+"Please choose a language for the installation. This language will also be "
+"used as the default language for the site, though it may be changed later."
+msgstr ""
+
+#: $string['cliadminemail']
+msgid "New admin user email address"
+msgstr ""
+
+#: $string['cliadminpassword']
+msgid "New admin user password"
+msgstr ""
+
+#: $string['cliadminusername']
+msgid "Admin account username"
+msgstr ""
+
+#: $string['clialreadyconfigured']
+msgid ""
+"The configuration file config.php already exists. Please use "
+"admin/cli/install_database.php to install Moodle for this site."
+msgstr ""
+
+#: $string['clialreadyinstalled']
+msgid ""
+"The configuration file config.php already exists. Please use "
+"admin/cli/install_database.php to upgrade Moodle for this site."
+msgstr ""
+
+#: $string['cliinstallfinished']
+msgid "Installation completed successfully."
+msgstr ""
+
+#: $string['cliinstallheader']
+msgid "Moodle {$a} command line installation program"
+msgstr ""
+
+#: $string['climustagreelicense']
+msgid ""
+"In non interactive mode you must agree to license by specifying --agree-"
+"license option"
+msgstr ""
+
+#: $string['cliskipdatabase']
+msgid "Skipping database installation."
+msgstr ""
+
+#: $string['clitablesexist']
+msgid "Database tables already present, cli installation can not continue."
+msgstr ""
+
+#: $string['compatibilitysettings']
+msgctxt "$string['compatibilitysettings']"
+msgid "Checking your PHP settings ..."
+msgstr ""
+
+#: $string['compatibilitysettingshead']
+msgctxt "$string['compatibilitysettingshead']"
+msgid "Checking your PHP settings ..."
+msgstr ""
+
+#: $string['compatibilitysettingssub']
+msgid "Your server should pass all these tests to make Moodle run properly"
+msgstr ""
+
+#: $string['configfilenotwritten']
+msgid ""
+"The installer script was not able to automatically create a config.php file "
+"containing your chosen settings, probably because the Moodle directory is "
+"not writeable. You can manually copy the following code into a file named "
+"config.php within the root directory of Moodle."
+msgstr ""
+
+#: $string['configfilewritten']
+msgid "config.php has been successfully created"
+msgstr ""
+
+#: $string['configurationcomplete']
+msgctxt "$string['configurationcomplete']"
+msgid "Configuration completed"
+msgstr ""
+
+#: $string['configurationcompletehead']
+msgctxt "$string['configurationcompletehead']"
+msgid "Configuration completed"
+msgstr ""
+
+#: $string['configurationcompletesub']
+msgid ""
+"Moodle made an attempt to save your configuration in a file in the root of "
+"your Moodle installation."
+msgstr ""
+
+#: $string['database']
+msgid "Database"
+msgstr ""
+
+#: $string['databasehead']
+msgid "Database settings"
+msgstr ""
+
+#: $string['databasehost']
+msgid "Database host"
+msgstr ""
+
+#: $string['databasename']
+msgid "Database name"
+msgstr ""
+
+#: $string['databasepass']
+msgid "Database password"
+msgstr ""
+
+#: $string['databaseport']
+msgid "Database port"
+msgstr ""
+
+#: $string['databasesocket']
+msgid "Unix socket"
+msgstr ""
+
+#: $string['databasetypehead']
+msgid "Choose database driver"
+msgstr ""
+
+#: $string['databasetypesub']
+msgid ""
+"Moodle supports several types of database servers. Please contact server "
+"administrator if you do not know which type to use."
+msgstr ""
+
+#: $string['databaseuser']
+msgid "Database user"
+msgstr ""
+
+#: $string['dataroot']
+msgid "Data directory"
+msgstr ""
+
+#: $string['datarooterror']
+msgid ""
+"The 'data directory' you specified could not be found or created.  Either "
+"correct the path or create that directory manually."
+msgstr ""
+
+#: $string['datarootpermission']
+msgid "Data directories permission"
+msgstr ""
+
+#: $string['datarootpublicerror']
+msgid ""
+"The 'data directory' you specified is directly accessible via web, you must "
+"use different directory."
+msgstr ""
+
+#: $string['dbconnectionerror']
+msgid ""
+"We could not connect to the database you specified. Please check your "
+"database settings."
+msgstr ""
+
+#: $string['dbcreationerror']
+msgid ""
+"Database creation error. Could not create the given database name with the "
+"settings provided"
+msgstr ""
+
+#: $string['dbhost']
+msgid "Host server"
+msgstr ""
+
+#: $string['dbpass']
+msgid "Password"
+msgstr ""
+
+#: $string['dbport']
+msgid "Port"
+msgstr ""
+
+#: $string['dbprefix']
+msgid "Tables prefix"
+msgstr ""
+
+#: $string['dbtype']
+msgid "Type"
+msgstr ""
+
+#: $string['directorysettings']
+msgid ""
+"<p>Please confirm the locations of this Moodle installation.</p>\n"
+"\n"
+"<p><b>Web address:</b>\n"
+"Specify the full web address where Moodle will be accessed.\n"
+"If your web site is accessible via multiple URLs then choose the\n"
+"most natural one that your students would use.  Do not include\n"
+"a trailing slash.</p>\n"
+"\n"
+"<p><b>Moodle directory:</b>\n"
+"Specify the full directory path to this installation\n"
+"Make sure the upper/lower case is correct.</p>\n"
+"\n"
+"<p><b>Data directory:</b>\n"
+"You need a place where Moodle can save uploaded files.  This\n"
+"directory should be readable AND WRITEABLE by the web server user\n"
+"(usually 'nobody' or 'apache'), but it must not be accessible\n"
+"directly via the web. The installer will try to create it if doesn't "
+"exist.</p>"
+msgstr ""
+
+#: $string['directorysettingshead']
+msgid "Please confirm the locations of this Moodle installation"
+msgstr ""
+
+#: $string['directorysettingssub']
+msgid ""
+"<b>Web address:</b>\n"
+"Specify the full web address where Moodle will be accessed.\n"
+"If your web site is accessible via multiple URLs then choose the\n"
+"most natural one that your students would use.  Do not include\n"
+"a trailing slash.\n"
+"<br />\n"
+"<br />\n"
+"<b>Moodle directory:</b>\n"
+"Specify the full directory path to this installation\n"
+"Make sure the upper/lower case is correct.\n"
+"<br />\n"
+"<br />\n"
+"<b>Data directory:</b>\n"
+"You need a place where Moodle can save uploaded files.  This\n"
+"directory must be readable AND WRITEABLE by the web server user\n"
+"(usually 'nobody' or 'apache'), but it must not be accessible\n"
+"directly via the web. The installer will try to create it if doesn't exist."
+msgstr ""
+
+#: $string['dirroot']
+msgid "Moodle directory"
+msgstr ""
+
+#: $string['dirrooterror']
+msgid ""
+"The 'Moodle directory' setting seems to be incorrect - we can't find a "
+"Moodle installation there. The value below has been reset."
+msgstr ""
+
+#: $string['download']
+msgid "Download"
+msgstr ""
+
+#: $string['downloadlanguagebutton']
+msgid "Download the &quot;{$a}&quot; language pack"
+msgstr ""
+
+#: $string['downloadlanguagehead']
+msgid "Download language pack"
+msgstr ""
+
+#: $string['downloadlanguagenotneeded']
+msgid ""
+"You may continue the installation process using the default language pack, "
+"\"{$a}\"."
+msgstr ""
+
+#: $string['downloadlanguagesub']
+msgid ""
+"You now have the option of downloading a language pack and continuing the "
+"installation process in this language.<br /><br />If you are unable to "
+"download the language pack, the installation process will continue in "
+"English. (Once the installation process is complete, you will have the "
+"opportunity to download and install additional language packs.)"
+msgstr ""
+
+#: $string['doyouagree']
+msgid "Do you agree ? (yes/no):"
+msgstr ""
+
+#: $string['environmenthead']
+msgid "Checking your environment ..."
+msgstr ""
+
+#: $string['environmentsub']
+msgid ""
+"We are checking if the various components of your system meet the system "
+"requirements"
+msgstr ""
+
+#: $string['environmentsub2']
+msgid ""
+"Each Moodle release has some minimum PHP version requirement and a number of "
+"mandatory PHP extensions.\n"
+"Full environment check is done before each install and upgrade. Please "
+"contact server administrator if you do not know how to install new version "
+"or enable PHP extensions."
+msgstr ""
+
+#: $string['errorsinenvironment']
+msgid "Environment check failed!"
+msgstr ""
+
+#: $string['fail']
+msgid "Fail"
+msgstr ""
+
+#: $string['fileuploads']
+msgid "File uploads"
+msgstr ""
+
+#: $string['fileuploadserror']
+msgid "This should be on"
+msgstr ""
+
+#: $string['fileuploadshelp']
+msgid ""
+"<p>File uploading seems to be disabled on your server.</p>\n"
+"\n"
+"<p>Moodle can still be installed, but without this ability, you will not be "
+"able\n"
+"   to upload course files or new user profile images.</p>\n"
+"\n"
+"<p>To enable file uploading you (or your system administrator) will need to\n"
+"   edit the main php.ini file on your system and change the setting for\n"
+"   <b>file_uploads</b> to '1'.</p>"
+msgstr ""
+
+#: $string['inputdatadirectory']
+msgid "Data directory:"
+msgstr ""
+
+#: $string['inputwebadress']
+msgid "Web address :"
+msgstr ""
+
+#: $string['inputwebdirectory']
+msgid "Moodle directory:"
+msgstr ""
+
+#: $string['installation']
+msgid "Installation"
+msgstr ""
+
+#: $string['langdownloaderror']
+msgid ""
+"Unfortunately the language \"{$a}\" could not be downloaded. The installation "
+"process will continue in English."
+msgstr ""
+
+#: $string['langdownloadok']
+msgid ""
+"The language \"{$a}\" was installed successfully. The installation process "
+"will continue in this language."
+msgstr ""
+
+#: $string['memorylimit']
+msgid "Memory limit"
+msgstr ""
+
+#: $string['memorylimiterror']
+msgid ""
+"The PHP memory limit is set quite low ... you may run into problems later."
+msgstr ""
+
+#: $string['memorylimithelp']
+msgid ""
+"<p>The PHP memory limit for your server is currently set to {$a}.</p>\n"
+"\n"
+"<p>This may cause Moodle to have memory problems later on, especially\n"
+"   if you have a lot of modules enabled and/or a lot of users.</p>\n"
+"\n"
+"<p>We recommend that you configure PHP with a higher limit if possible, like "
+"40M.\n"
+"   There are several ways of doing this that you can try:</p>\n"
+"<ol>\n"
+"<li>If you are able to, recompile PHP with <i>--enable-memory-limit</i>.\n"
+"    This will allow Moodle to set the memory limit itself.</li>\n"
+"<li>If you have access to your php.ini file, you can change the "
+"<b>memory_limit</b>\n"
+"    setting in there to something like 40M.  If you don't have access you "
+"might\n"
+"    be able to ask your administrator to do this for you.</li>\n"
+"<li>On some PHP servers you can create a .htaccess file in the Moodle "
+"directory\n"
+"    containing this line:\n"
+"    <blockquote><div>php_value memory_limit 40M</div></blockquote>\n"
+"    <p>However, on some servers this will prevent <b>all</b> PHP pages from "
+"working\n"
+"    (you will see errors when you look at pages) so you'll have to remove "
+"the .htaccess file.</p></li>\n"
+"</ol>"
+msgstr ""
+
+#: $string['mssqlextensionisnotpresentinphp']
+msgid ""
+"PHP has not been properly configured with the MSSQL extension so that it can "
+"communicate with SQL*Server.  Please check your php.ini file or recompile "
+"PHP."
+msgstr ""
+
+#: $string['mysqliextensionisnotpresentinphp']
+msgid ""
+"PHP has not been properly configured with the MySQLi extension for it to "
+"communicate with MySQL. Please check your php.ini file or recompile PHP."
+msgstr ""
+
+#: $string['nativemariadb']
+msgid "MariaDB (native/mariadb)"
+msgstr ""
+
+#: $string['nativemariadbhelp']
+msgid ""
+"<p>The database is where most of the Moodle settings and data are stored and "
+"must be configured here.</p>\n"
+"<p>The database name, username, and password are required fields; table "
+"prefix is optional.</p>\n"
+"<p>The database name may contain only alphanumeric characters, dollar ($) "
+"and underscore (_).</p>\n"
+"<p>If the database currently does not exist, and the user you specify has "
+"permission, Moodle will attempt to create a new database with the correct "
+"permissions and settings.</p>\n"
+"<p>This driver is not compatible with legacy MyISAM engine.</p>"
+msgstr ""
+
+#: $string['nativemssql']
+msgid "SQL*Server FreeTDS (native/mssql)"
+msgstr ""
+
+#: $string['nativemssqlhelp']
+msgctxt "$string['nativemssqlhelp']"
+msgid ""
+"Now you need to configure the database where most Moodle data will be "
+"stored.\n"
+"This database must already have been created and a username and password "
+"created to access it. Table prefix is mandatory."
+msgstr ""
+
+#: $string['nativemysqli']
+msgid "Improved MySQL (native/mysqli)"
+msgstr ""
+
+#: $string['nativemysqlihelp']
+msgid ""
+"<p>The database is where most of the Moodle settings and data are stored and "
+"must be configured here.</p>\n"
+"<p>The database name, username, and password are required fields; table "
+"prefix is optional.</p>\n"
+"<p>The database name may contain only alphanumeric characters, dollar ($) "
+"and underscore (_).</p>\n"
+"<p>If the database currently does not exist, and the user you specify has "
+"permission, Moodle will attempt to create a new database with the correct "
+"permissions and settings.</p>"
+msgstr ""
+
+#: $string['nativeoci']
+msgid "Oracle (native/oci)"
+msgstr ""
+
+#: $string['nativeocihelp']
+msgctxt "$string['nativeocihelp']"
+msgid ""
+"Now you need to configure the database where most Moodle data will be "
+"stored.\n"
+"This database must already have been created and a username and password "
+"created to access it. Table prefix is mandatory."
+msgstr ""
+
+#: $string['nativepgsql']
+msgid "PostgreSQL (native/pgsql)"
+msgstr ""
+
+#: $string['nativepgsqlhelp']
+msgid ""
+"<p>The database is where most of the Moodle settings and data are stored and "
+"must be configured here.</p>\n"
+"<p>The database name, username, password and table prefix are required "
+"fields.</p>\n"
+"<p>The database must already exist and the user must have access to both "
+"read, and write to it.</p>"
+msgstr ""
+
+#: $string['nativesqlsrv']
+msgid "SQL*Server Microsoft (native/sqlsrv)"
+msgstr ""
+
+#: $string['nativesqlsrvhelp']
+msgctxt "$string['nativesqlsrvhelp']"
+msgid ""
+"Now you need to configure the database where most Moodle data will be "
+"stored.\n"
+"This database must already have been created and a username and password "
+"created to access it. Table prefix is mandatory."
+msgstr ""
+
+#: $string['nativesqlsrvnodriver']
+msgid ""
+"Microsoft Drivers for SQL Server for PHP are not installed or not configured "
+"properly."
+msgstr ""
+
+#: $string['ociextensionisnotpresentinphp']
+msgid ""
+"PHP has not been properly configured with the OCI8 extension so that it can "
+"communicate with Oracle.  Please check your php.ini file or recompile PHP."
+msgstr ""
+
+#: $string['pass']
+msgid "Pass"
+msgstr ""
+
+#: $string['paths']
+msgid "Paths"
+msgstr ""
+
+#: $string['pathserrcreatedataroot']
+msgid "Data directory ({$a->dataroot}) cannot be created by the installer."
+msgstr ""
+
+#: $string['pathshead']
+msgid "Confirm paths"
+msgstr ""
+
+#: $string['pathsrodataroot']
+msgid "Dataroot directory is not writable."
+msgstr ""
+
+#: $string['pathsroparentdataroot']
+msgid ""
+"Parent directory ({$a->parent}) is not writeable. Data directory "
+"({$a->dataroot}) cannot be created by the installer."
+msgstr ""
+
+#: $string['pathssubadmindir']
+msgid ""
+"A very few webhosts use /admin as a special URL for you to access a\n"
+"control panel or something.  Unfortunately this conflicts with the standard "
+"location for the Moodle admin pages.  You can fix this by\n"
+"renaming the admin directory in your installation, and putting that  new "
+"name here.  For example: <em>moodleadmin</em>. This will fix admin links in "
+"Moodle."
+msgstr ""
+
+#: $string['pathssubdataroot']
+msgid ""
+"<p>A directory where Moodle will store all file content uploaded by "
+"users.</p>\n"
+"<p>This directory should be both readable and writeable by the web server "
+"user (usually 'www-data', 'nobody', or 'apache').</p>\n"
+"<p>It must not be directly accessible over the web.</p>\n"
+"<p>If the directory does not currently exist, the installation process will "
+"attempt to create it.</p>"
+msgstr ""
+
+#: $string['pathssubdirroot']
+msgid "<p>The full path to the directory containing the Moodle code.</p>"
+msgstr ""
+
+#: $string['pathssubwwwroot']
+msgid ""
+"<p>The full address where Moodle will be accessed i.e. the address that "
+"users will enter into the address bar of their browser to access Moodle.</p>\n"
+"<p>It is not possible to access Moodle using multiple addresses. If your "
+"site is accessible via multiple addresses then choose the easiest one and "
+"set up a permanent redirect for each of the other addresses.</p>\n"
+"<p>If your site is accessible both from the Internet, and from an internal "
+"network (sometimes called an Intranet), then use the public address "
+"here.</p>\n"
+"<p>If the current address is not correct, please change the URL in your "
+"browser's address bar and restart the installation.</p>"
+msgstr ""
+
+#: $string['pathsunsecuredataroot']
+msgid "Dataroot location is not secure"
+msgstr ""
+
+#: $string['pathswrongadmindir']
+msgid "Admin directory does not exist"
+msgstr ""
+
+#: $string['pgsqlextensionisnotpresentinphp']
+msgid ""
+"PHP has not been properly configured with the PGSQL extension so that it can "
+"communicate with PostgreSQL.  Please check your php.ini file or recompile "
+"PHP."
+msgstr ""
+
+#: $string['phpextension']
+msgid "{$a} PHP extension"
+msgstr ""
+
+#: $string['phpversion']
+msgid "PHP version"
+msgstr ""
+
+#: $string['phpversionhelp']
+msgid ""
+"<p>Moodle requires a PHP version of at least 5.6.5 or 7.1 (7.0.x has some "
+"engine limitations).</p>\n"
+"<p>You are currently running version {$a}.</p>\n"
+"<p>You must upgrade PHP or move to a host with a newer version of PHP.</p>"
+msgstr ""
+
+#: $string['releasenoteslink']
+msgid ""
+"For information about this version of Moodle, please see the release notes "
+"at {$a}"
+msgstr ""
+
+#: $string['safemode']
+msgid "Safe mode"
+msgstr ""
+
+#: $string['safemodeerror']
+msgid "Moodle may have trouble with safe mode on"
+msgstr ""
+
+#: $string['safemodehelp']
+msgid ""
+"<p>Moodle may have a variety of problems with safe mode on, not least is "
+"that\n"
+"   it probably won't be allowed to create new files.</p>\n"
+"\n"
+"<p>Safe mode is usually only enabled by paranoid public web hosts, so you "
+"may have\n"
+"   to just find a new web hosting company for your Moodle site.</p>\n"
+"\n"
+"<p>You can try continuing the install if you like, but expect a few problems "
+"later on.</p>"
+msgstr ""
+
+#: $string['sessionautostart']
+msgid "Session auto start"
+msgstr ""
+
+#: $string['sessionautostarterror']
+msgid "This should be off"
+msgstr ""
+
+#: $string['sessionautostarthelp']
+msgid ""
+"<p>Moodle requires session support and will not function without it.</p>\n"
+"\n"
+"<p>Sessions can be enabled in the php.ini file ... look for the "
+"session.auto_start parameter.</p>"
+msgstr ""
+
+#: $string['sqliteextensionisnotpresentinphp']
+msgid ""
+"PHP has not been properly configured with the SQLite extension.  Please "
+"check your php.ini file or recompile PHP."
+msgstr ""
+
+#: $string['upgradingqtypeplugin']
+msgid "Upgrading question/type plugin"
+msgstr ""
+
+#: $string['welcomep10']
+msgid "{$a->installername} ({$a->installerversion})"
+msgstr ""
+
+#: $string['welcomep20']
+msgid ""
+"You are seeing this page because you have successfully installed and\n"
+"    launched the <strong>{$a->packname} {$a->packversion}</strong> package "
+"in your computer. Congratulations!"
+msgstr ""
+
+#: $string['welcomep30']
+msgid ""
+"This release of the <strong>{$a->installername}</strong> includes the "
+"applications\n"
+"    to create an environment in which <strong>Moodle</strong> will operate, "
+"namely:"
+msgstr ""
+
+#: $string['welcomep40']
+msgid ""
+"The package also includes <strong>Moodle {$a->moodlerelease} "
+"({$a->moodleversion})</strong>."
+msgstr ""
+
+#: $string['welcomep50']
+msgid ""
+"The use of all the applications in this package is governed by their "
+"respective\n"
+"    licences. The complete <strong>{$a->installername}</strong> package is\n"
+"    <a href=\"http://www.opensource.org/docs/definition_plain.html\">open "
+"source</a> and is distributed\n"
+"    under the <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a> "
+"license."
+msgstr ""
+
+#: $string['welcomep60']
+msgid ""
+"The following pages will lead you through some easy to follow steps to\n"
+"    configure and set up <strong>Moodle</strong> on your computer. You may "
+"accept the default\n"
+"    settings or, optionally, amend them to suit your own needs."
+msgstr ""
+
+#: $string['welcomep70']
+msgid ""
+"Click the \"Next\" button below to continue with the set up of "
+"<strong>Moodle</strong>."
+msgstr ""
+
+#: $string['wwwroot']
+msgid "Web address"
+msgstr ""
+
+#: $string['wwwrooterror']
+msgid ""
+"The 'Web Address' does not appear to be valid - this Moodle installation "
+"doesn't appear to be there. The value below has been reset."
+msgstr ""

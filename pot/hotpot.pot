@@ -1,0 +1,1852 @@
+#. extracted from lang/en/hotpot.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'hotpot', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   hotpot
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['abandoned']
+msgid "Abandoned"
+msgstr ""
+
+#: $string['abandonhotpot']
+msgid ""
+"Your results so far will be saved but you cannot resume or restart this "
+"activity later."
+msgstr ""
+
+#: $string['activitycloses']
+msgid "Activity closes"
+msgstr ""
+
+#: $string['activitygrade']
+msgid "Activity grade"
+msgstr ""
+
+#: $string['activityopens']
+msgid "Activity opens"
+msgstr ""
+
+#: $string['added']
+msgid "Added"
+msgstr ""
+
+#: $string['addquizchain']
+msgid "Add quiz chain"
+msgstr ""
+
+#: $string['addquizchain_help']
+msgid ""
+"Should all the quizzes in a quiz chain be added?\n"
+"\n"
+"**No**\n"
+": only one quiz will be added to the course\n"
+"\n"
+"**Yes**\n"
+": if the source file is a **quiz file**, it is treated as the start of a "
+"chain of quizzes and all quizzes in the chain will be added to the course "
+"with identical settings. Each quiz in the chain must have a link to the next "
+"file in the chain.\n"
+"\n"
+"If the source file is a **folder**, all recognizable quizzes in the folder "
+"will be added to the course to form a chain of quizzes with identical "
+"settings.\n"
+"\n"
+"If the source file is a **unit file**, such as a Hot Potatoes masher file or "
+"index.html, quizzes listed in the unit file will be added to the course as "
+"a chain of quizzes with identical settings."
+msgstr ""
+
+#: $string['allowpaste']
+msgid "Allow paste"
+msgstr ""
+
+#: $string['allowpaste_help']
+msgid ""
+"If this setting is enabled, students will be allowed to copy, paste and drag "
+"text into text input boxes."
+msgstr ""
+
+#: $string['allowreview']
+msgid "Allow review"
+msgstr ""
+
+#: $string['allowreview_help']
+msgid ""
+"If enabled, students may review their quiz attempts after the quiz is "
+"closed."
+msgstr ""
+
+#: $string['analysisreport']
+msgid "Item Analysis"
+msgstr ""
+
+#: $string['attempted']
+msgid "Attempted"
+msgstr ""
+
+#: $string['attemptlimit']
+msgid "Attempt limit"
+msgstr ""
+
+#: $string['attemptlimit_help']
+msgid ""
+"The maximum number of attempts a student may have at this HotPot activity"
+msgstr ""
+
+#: $string['attemptnumber']
+msgid "Attempt number"
+msgstr ""
+
+#: $string['attempts']
+msgctxt "$string['attempts']"
+msgid "Attempts"
+msgstr ""
+
+#: $string['attemptscore']
+msgid "Attempt score"
+msgstr ""
+
+#: $string['attemptsunlimited']
+msgid "Unlimited attempts"
+msgstr ""
+
+#: $string['average']
+msgid "Average"
+msgstr ""
+
+#: $string['averagescore']
+msgid "Average score"
+msgstr ""
+
+#: $string['bodystyles']
+msgid "Body styles"
+msgstr ""
+
+#: $string['bodystylesbackground']
+msgid "Background color and image"
+msgstr ""
+
+#: $string['bodystylescolor']
+msgid "Text color"
+msgstr ""
+
+#: $string['bodystylesfont']
+msgid "Font size and family"
+msgstr ""
+
+#: $string['bodystylesmargin']
+msgid "Left and right margin"
+msgstr ""
+
+#: $string['cacherecords']
+msgid "HotPot cache records"
+msgstr ""
+
+#: $string['canrestarthotpot']
+msgid "Your results so far will be saved and you can redo \"{$a}\" later"
+msgstr ""
+
+#: $string['canresumehotpot']
+msgid "Your results so far will be saved and you can resume \"{$a}\" later."
+msgstr ""
+
+#: $string['checks']
+msgid "Checks"
+msgstr ""
+
+#: $string['checksomeboxes']
+msgid "Please check some boxes"
+msgstr ""
+
+#: $string['clearcache']
+msgid "Clear HotPot cache"
+msgstr ""
+
+#: $string['cleardetails']
+msgid "Clear HotPot details"
+msgstr ""
+
+#: $string['clearedcache']
+msgid "The HotPot cache has been cleared"
+msgstr ""
+
+#: $string['cleareddetails']
+msgid "The HotPot details have been cleared"
+msgstr ""
+
+#: $string['clickreporting']
+msgid "Enable click reporting"
+msgstr ""
+
+#: $string['clickreporting_help']
+msgid ""
+"If enabled, a separate record is kept each time a \"hint\", \"clue\" or \"check\" "
+"button is clicked. This allows the teacher to see a very detailed report "
+"showing the state of the quiz at each click. Otherwise, only one record per "
+"attempt at a quiz is kept."
+msgstr ""
+
+#: $string['clicktrailreport']
+msgid "Click trails"
+msgstr ""
+
+#: $string['closed']
+msgid "This activity has closed"
+msgstr ""
+
+#: $string['clues']
+msgid "Clues"
+msgstr ""
+
+#: $string['completed']
+msgid "Completed"
+msgstr ""
+
+#: $string['completioncompleted']
+msgid "Require completed status"
+msgstr ""
+
+#: $string['completionmingrade']
+msgid "Require minimum grade"
+msgstr ""
+
+#: $string['completionpass']
+msgid "Require passing grade"
+msgstr ""
+
+#: $string['completionwarning']
+msgid ""
+"These fields are disabled if the grade limit for this activity is \"No grade\" "
+"or the grade weighting is \"No weighting\""
+msgstr ""
+
+#: $string['configbodystyles']
+msgid ""
+"By default, Moodle theme styles will override HotPot activity styles. "
+"However, for any styles selected here, the HotPot activity styles will be "
+"given priority over the Moodle theme styles."
+msgstr ""
+
+#: $string['configenablecache']
+msgid ""
+"Maintaining a cache of HotPot quizzes can dramatically speed up the delivery "
+"of quizzes to the students."
+msgstr ""
+
+#: $string['configenablecron']
+msgid ""
+"Specify the hours in your time zone at which the HotPot cron script may run"
+msgstr ""
+
+#: $string['configenablemymoodle']
+msgid ""
+"This settings controls whether HotPots are listed on the MyMoodle page or "
+"not"
+msgstr ""
+
+#: $string['configenableobfuscate']
+msgid ""
+"Obfuscating the text strings and URLs in javascript code makes it more "
+"difficult to guess answers by viewing the source of the HTML page in the "
+"browser."
+msgstr ""
+
+#: $string['configenableswf']
+msgid ""
+"Allow embedding of SWF files in HotPot activities. If enabled, this setting "
+"overrides filter_mediaplugin_enable_swf."
+msgstr ""
+
+#: $string['configfile']
+msgid "Configuration file"
+msgstr ""
+
+#: $string['configframeheight']
+msgid ""
+"When a quiz is displayed within a frame, this value is the height (in "
+"pixels) of the top frame which contains the Moodle navigation bar."
+msgstr ""
+
+#: $string['configlocation']
+msgid "Configuration file location"
+msgstr ""
+
+#: $string['configlockframe']
+msgid ""
+"If this setting is enabled, then the navigation frame, if used, will be "
+"locked so that it is not scrollable, not resizeable and has no border"
+msgstr ""
+
+#: $string['configmaxeventlength']
+msgid ""
+"If a HotPot has both an open and a close time specified, and the difference "
+"between the two times is greater than the number of days specified here, "
+"then two separate calendar events will be added to the course calendar. For "
+"shorter durations, or when just one time is specified, only one calendar "
+"event will be added. If neither time is specified, no calendar event will be "
+"added."
+msgstr ""
+
+#: $string['configstoredetails']
+msgid ""
+"If this setting is enabled, then the raw XML details of attempts at HotPot "
+"quizzes will be stored in the hotpot_details table. This allows quiz "
+"attempts to be regraded in the future to reflect changes in the HotPot quiz "
+"scoring system. However, enabling this option on a busy site will cause the "
+"hotpot_details table to grow very quickly."
+msgstr ""
+
+#: $string['confirmdeleteattempts']
+msgid "Do you really want to delete these attempts?"
+msgstr ""
+
+#: $string['confirmstop']
+msgid "Are you sure you want to navigate away from this page?"
+msgstr ""
+
+#: $string['correct']
+msgid "Correct"
+msgstr ""
+
+#: $string['couldnotinsertsubmissionform']
+msgid "Could not insert submission form"
+msgstr ""
+
+#: $string['delay1']
+msgid "Delay 1"
+msgstr ""
+
+#: $string['delay1_help']
+msgid "The minimum delay between the first and second attempts."
+msgstr ""
+
+#: $string['delay1summary']
+msgid "Time delay between first and second attempt"
+msgstr ""
+
+#: $string['delay2']
+msgid "Delay 2"
+msgstr ""
+
+#: $string['delay2_help']
+msgid "The minimum delay between attempts after the second attempt."
+msgstr ""
+
+#: $string['delay2summary']
+msgid "Time delay between later attempts"
+msgstr ""
+
+#: $string['delay3']
+msgid "Delay 3"
+msgstr ""
+
+#: $string['delay3afterok']
+msgid "Wait till student clicks OK"
+msgstr ""
+
+#: $string['delay3disable']
+msgid "Do not continue automatically"
+msgstr ""
+
+#: $string['delay3_help']
+msgid ""
+"The setting specifies the delay between finishing the quiz and returning "
+"control of the display to Moodle.\n"
+"\n"
+"**Use specific delay**\n"
+": control will be returned to Moodle after the specified delay.\n"
+"\n"
+"**Use settings in source/template file**\n"
+": control will be returned to Moodle after the number of seconds specified "
+"in the source file or the template files for this output format.\n"
+"\n"
+"**Wait till student clicks OK**\n"
+": control will be returned to Moodle after the student clicks the OK button "
+"on the completion message in the quiz.\n"
+"\n"
+"**Do not continue automatically**\n"
+": control will not be returned to Moodle after the quiz is finished. The "
+"student will be free to navigate away from the quiz page.\n"
+"\n"
+"Note, the quiz results are always returned to Moodle immediately the quiz is "
+"completed or abandoned, regardless of this setting."
+msgstr ""
+
+#: $string['delay3specific']
+msgid "Use specific delay"
+msgstr ""
+
+#: $string['delay3summary']
+msgid "Time delay at the end of the quiz"
+msgstr ""
+
+#: $string['delay3template']
+msgctxt "$string['delay3template']"
+msgid "Use settings in source/template file"
+msgstr ""
+
+#: $string['deleteallattempts']
+msgid "Delete all attempts"
+msgstr ""
+
+#: $string['deleteattempts']
+msgid "Delete attempts"
+msgstr ""
+
+#: $string['detailsrecords']
+msgid "HotPot details records"
+msgstr ""
+
+#: $string['d_index']
+msgid "Discrimination index"
+msgstr ""
+
+#: $string['duration']
+msgid "Duration"
+msgstr ""
+
+#: $string['enablecache']
+msgid "Enable HotPot cache"
+msgstr ""
+
+#: $string['enablecron']
+msgid "Enable HotPot cron"
+msgstr ""
+
+#: $string['enablemymoodle']
+msgid "Show HotPots on MyMoodle"
+msgstr ""
+
+#: $string['enableobfuscate']
+msgid "Enable obfuscation of text and media players"
+msgstr ""
+
+#: $string['enableswf']
+msgid "Allow embedding of SWF files in HotPot activities"
+msgstr ""
+
+#: $string['entry_attempts']
+msgctxt "$string['entry_attempts']"
+msgid "Attempts"
+msgstr ""
+
+#: $string['entrycm']
+msgid "Previous activity"
+msgstr ""
+
+#: $string['entrycmcourse']
+msgid "Previous activity in this course"
+msgstr ""
+
+#: $string['entrycm_help']
+msgid ""
+"This setting specifies a Moodle activity and a minimum grade for that "
+"activity which must be achieved before this HotPot activity can be "
+"attempted.\n"
+"\n"
+"The teacher can select a specific activity,\n"
+"or one of the following general purpose settings:\n"
+"\n"
+"* Previous activity in this course\n"
+"* Previous activity in this section\n"
+"* Previous HotPot in this course\n"
+"* Previous HotPot in this section"
+msgstr ""
+
+#: $string['entrycmsection']
+msgid "Previous activity in this course section"
+msgstr ""
+
+#: $string['entrycompletionwarning']
+msgid "Before you start this activity, you must look at {$a}."
+msgstr ""
+
+#: $string['entry_dates']
+msgid "Dates"
+msgstr ""
+
+#: $string['entrygrade']
+msgid "Previous activity grade"
+msgstr ""
+
+#: $string['entrygradewarning']
+msgid ""
+"You cannot start this activity until you score {$a->entrygrade}% on "
+"{$a->entryactivity}. Currently, your grade for that activity is "
+"{$a->usergrade}%"
+msgstr ""
+
+#: $string['entry_grading']
+msgid "Grading"
+msgstr ""
+
+#: $string['entryhotpotcourse']
+msgid "Previous HotPot in this course"
+msgstr ""
+
+#: $string['entryhotpotsection']
+msgid "Previous HotPot in this course section"
+msgstr ""
+
+#: $string['entryoptions']
+msgid "Entry page options"
+msgstr ""
+
+#: $string['entryoptions_help']
+msgid ""
+"These check boxes enable and disable the display of items on the HotPot's "
+"entry page.\n"
+"\n"
+"**Unit name as title**\n"
+": if checked, the unit name will be displayed as the title of the entry "
+"page.\n"
+"\n"
+"**Grading**\n"
+": if checked, the HotPot's grading information will be displayed on the "
+"entry page.\n"
+"\n"
+"**Dates**\n"
+": if checked, the HotPot's open and close dates will be displayed on the "
+"entry page.\n"
+"\n"
+"**Attempts**\n"
+": if checked, a table showing details of a user's previous attempts at this "
+"HotPot will be displayed on the entry page. Attempts that may be resumed "
+"will have a resume button displayed in the rightmost column."
+msgstr ""
+
+#: $string['entrypage']
+msgid "Show entry page"
+msgstr ""
+
+#: $string['entrypagehdr']
+msgid "Entry page"
+msgstr ""
+
+#: $string['entrypage_help']
+msgid ""
+"Should the students be shown an initial page before starting the HotPot "
+"activity?\n"
+"\n"
+"**Yes**\n"
+": the students will be shown an entry page before starting the HotPot. The "
+"contents of the entry page are determined by the HotPot's entry page "
+"options.\n"
+"\n"
+"**No**\n"
+": the students will not be shown an entry page, and will start the HotPot "
+"immediately.\n"
+"\n"
+"An entry page is always shown to the teacher, in order to provide access to "
+"the reports and edit quizzes page"
+msgstr ""
+
+#: $string['entrytext']
+msgid "Entry page text"
+msgstr ""
+
+#: $string['entry_title']
+msgid "Unit name as title"
+msgstr ""
+
+#: $string['event_attempt_reviewed']
+msgid "HotPot attempt reviewed"
+msgstr ""
+
+#: $string['event_attempt_reviewed_description']
+msgid ""
+"The user with id \"{$a->userid}\" reviewed an attempt at the \"hotpot\" activity "
+"with course module id \"{$a->cmid}\""
+msgstr ""
+
+#: $string['event_attempt_reviewed_explanation']
+msgid "A user has just reviewed an attempt at a HotPot activity"
+msgstr ""
+
+#: $string['event_attempt_started']
+msgid "HotPot attempt started"
+msgstr ""
+
+#: $string['event_attempt_started_description']
+msgid ""
+"The user with id \"{$a->userid}\" started an attempt at the \"hotpot\" activity "
+"with course module id \"{$a->cmid}\""
+msgstr ""
+
+#: $string['event_attempt_started_explanation']
+msgid "A user has just started an attempt at a HotPot activity"
+msgstr ""
+
+#: $string['event_attempt_submitted']
+msgid "HotPot attempt submitted"
+msgstr ""
+
+#: $string['event_attempt_submitted_description']
+msgid ""
+"The user with id \"{$a->userid}\" submitted an attempt at the \"hotpot\" "
+"activity with course module id \"{$a->cmid}\""
+msgstr ""
+
+#: $string['event_attempt_submitted_explanation']
+msgid "A user has just submitted an attempt at a HotPot activity"
+msgstr ""
+
+#: $string['event_base']
+msgid "HotPot event detected"
+msgstr ""
+
+#: $string['event_base_description']
+msgid ""
+"The user with id \"{$a->userid}\" initiated an event in the \"hotpot\" activity "
+"with course module id \"{$a->cmid}\""
+msgstr ""
+
+#: $string['event_base_explanation']
+msgid "An event was  detected by the HotPot module"
+msgstr ""
+
+#: $string['event_report_viewed']
+msgid "HotPot report viewed"
+msgstr ""
+
+#: $string['event_report_viewed_description']
+msgid ""
+"The user with id \"{$a->userid}\" viewed a report on attempts at the \"hotpot\" "
+"activity with course module id \"{$a->cmid}\""
+msgstr ""
+
+#: $string['event_report_viewed_explanation']
+msgid "A user has just viewed a report about attempts at a HotPot activity"
+msgstr ""
+
+#: $string['exit_areyouok']
+msgid "Hello, are you still there?"
+msgstr ""
+
+#: $string['exit_attemptscore']
+msgid "Your score for that attempt was {$a}"
+msgstr ""
+
+#: $string['exitcm']
+msgid "Next activity"
+msgstr ""
+
+#: $string['exitcmcourse']
+msgid "Next activity in this course"
+msgstr ""
+
+#: $string['exitcm_help']
+msgid ""
+"This setting specifies a Moodle activity to be done after this HotPot "
+"activity is completed. The optional grade is the minimum grade for this "
+"HotPot activity that is required before the next activity is shown.\n"
+"\n"
+"The teacher can select a specific activity, or a one of the following "
+"general purpose settings:\n"
+"\n"
+"* Next activity in this course\n"
+"* Next activity in this section\n"
+"* Next HotPot activity in this course\n"
+"* Next HotPot activity in this section\n"
+"\n"
+"If other exit page options are disabled and the student has achieved the "
+"required grade on this HotPot activity, the next activity will be shown "
+"straight away. Otherwise, the student will be shown a link to the next "
+"activity, which they can click when they are ready."
+msgstr ""
+
+#: $string['exitcmsection']
+msgid "Next activity in this course section"
+msgstr ""
+
+#: $string['exit_course']
+msgid "Course"
+msgstr ""
+
+#: $string['exit_course_text']
+msgid "Return to the main course page"
+msgstr ""
+
+#: $string['exit_encouragement']
+msgid "Encouragement"
+msgstr ""
+
+#: $string['exit_excellent']
+msgid "Excellent!"
+msgstr ""
+
+#: $string['exit_feedback']
+msgid "Exit page feedback"
+msgstr ""
+
+#: $string['exit_feedback_help']
+msgid ""
+"These options enable and disable the display of feedback items on a HotPot's "
+"exit page.\n"
+"\n"
+"**Unit name as title**\n"
+": if checked, the unit name will be displayed as the title of the exit page.\n"
+"\n"
+"**Encouragement**\n"
+": if checked, some encouragement will displayed on the exit page. The "
+"encouragement depends on the HotPot grade:\n"
+": **&gt; 90%**: Excellent!\n"
+": **&gt; 60%**: Well done\n"
+": **&gt; 0%**: Good try\n"
+": **= 0%**: Are you OK?\n"
+"\n"
+"**Unit attempt grade**\n"
+": if checked, the grade for the unit attempt that has just been completed "
+"will be displayed on the exit page.\n"
+"\n"
+"**Unit grade**\n"
+": if checked the HotPot grade will be displayed on the exit page.\n"
+"\n"
+"In addition, if the unit grading method is highest a message to tell the "
+"user if the most recent attempt was equal to or better than their previous "
+"will be displayed."
+msgstr ""
+
+#: $string['exit_goodtry']
+msgid "Good try!"
+msgstr ""
+
+#: $string['exitgrade']
+msgid "Next activity grade"
+msgstr ""
+
+#: $string['exit_grades']
+msgid "Grades"
+msgstr ""
+
+#: $string['exit_grades_text']
+msgid "Look at your grades so far for this course"
+msgstr ""
+
+#: $string['exithotpotcourse']
+msgid "Next HotPot in this course"
+msgstr ""
+
+#: $string['exit_hotpotgrade']
+msgid "Your grade for this activity is {$a}"
+msgstr ""
+
+#: $string['exit_hotpotgrade_average']
+msgid "Your average grade so far for this activity is {$a}"
+msgstr ""
+
+#: $string['exit_hotpotgrade_highest']
+msgid "Your highest grade so far for this activity is {$a}"
+msgstr ""
+
+#: $string['exit_hotpotgrade_highest_equal']
+msgid "You equalled your previous best for this activity!"
+msgstr ""
+
+#: $string['exit_hotpotgrade_highest_previous']
+msgid "Your previous highest grade for this activity was {$a}"
+msgstr ""
+
+#: $string['exit_hotpotgrade_highest_zero']
+msgid "You have not scored higher than {$a} for this activity yet"
+msgstr ""
+
+#: $string['exithotpotsection']
+msgid "Next HotPot in this course section"
+msgstr ""
+
+#: $string['exit_index']
+msgid "Index"
+msgstr ""
+
+#: $string['exit_index_text']
+msgid "Go to the index of activities"
+msgstr ""
+
+#: $string['exit_links']
+msgid "Exit page links"
+msgstr ""
+
+#: $string['exit_links_help']
+msgid ""
+"These options enable and disable the display of certain navigation links on "
+"a HotPot's exit page.\n"
+"\n"
+"**Retry**\n"
+": if multiple attempts are allowed at this HotPot and the student still has "
+"some attempts left, a link to allow the student to retry the HotPot will be "
+"displayed\n"
+"\n"
+"**Index**\n"
+": if checked, a link to the HotPot index page will be displayed.\n"
+"\n"
+"**Course**\n"
+": if checked, a link to the Moodle course page will be displayed.\n"
+"\n"
+"**Grades**\n"
+": if checked, a link to the Moodle gradebook will be displayed."
+msgstr ""
+
+#: $string['exit_next']
+msgid "Next"
+msgstr ""
+
+#: $string['exit_next_text']
+msgid "Try the next activity"
+msgstr ""
+
+#: $string['exit_noscore']
+msgid "You have successfully completed this activity!"
+msgstr ""
+
+#: $string['exitoptions']
+msgid "Exit page options"
+msgstr ""
+
+#: $string['exitpage']
+msgid "Show exit page"
+msgstr ""
+
+#: $string['exitpagehdr']
+msgid "Exit page"
+msgstr ""
+
+#: $string['exitpage_help']
+msgid ""
+"Should a exit page displayed after the HotPot quiz has been completed?\n"
+"\n"
+"**Yes**\n"
+": the students will be shown an exit page when the HotPot is completed. The "
+"contents of the exit page are determined by the settings for the HotPot's "
+"exit page feedback and links.\n"
+"\n"
+"**No**\n"
+": the students will not be shown an exit page. Instead, they will either go "
+"immediately to the next activity or return to the Moodle course page."
+msgstr ""
+
+#: $string['exit_retry']
+msgid "Retry"
+msgstr ""
+
+#: $string['exit_retry_text']
+msgid "Retry this activity"
+msgstr ""
+
+#: $string['exittext']
+msgid "Exit page text"
+msgstr ""
+
+#: $string['exit_welldone']
+msgid "Well done!"
+msgstr ""
+
+#: $string['exit_whatnext_0']
+msgid "What would you like to do next?"
+msgstr ""
+
+#: $string['exit_whatnext_1']
+msgid "Choose your destiny ..."
+msgstr ""
+
+#: $string['exit_whatnext_default']
+msgid "Please choose one of the following:"
+msgstr ""
+
+#: $string['feedbackdiscuss']
+msgid "Discuss this quiz in a forum"
+msgstr ""
+
+#: $string['feedbackformmail']
+msgid "Feedback form"
+msgstr ""
+
+#: $string['feedbackmoodleforum']
+msgid "Moodle forum"
+msgstr ""
+
+#: $string['feedbackmoodlemessaging']
+msgid "Moodle messaging"
+msgstr ""
+
+#: $string['feedbacknone']
+msgctxt "$string['feedbacknone']"
+msgid "None"
+msgstr ""
+
+#: $string['feedbacksendmessage']
+msgid "Send a message to your instructor"
+msgstr ""
+
+#: $string['feedbackwebpage']
+msgid "Web page"
+msgstr ""
+
+#: $string['firstattempt']
+msgid "First attempt"
+msgstr ""
+
+#: $string['forceplugins']
+msgid "Force media plugins"
+msgstr ""
+
+#: $string['forceplugins_help']
+msgid ""
+"If enabled, Moodle-compatible media players will play files such as avi, "
+"mpeg, mpg, mp3, mov and wmv. Otherwise, Moodle will not change the settings "
+"of any media players in the quiz."
+msgstr ""
+
+#: $string['frameheight']
+msgid "Frame height"
+msgstr ""
+
+#: $string['giveup']
+msgid "Give Up"
+msgstr ""
+
+#: $string['grademethod']
+msgid "Grading method"
+msgstr ""
+
+#: $string['grademethod_help']
+msgid ""
+"This setting defines how the HotPot grade is calculated from the attempt "
+"scores.\n"
+"\n"
+"**Highest score**\n"
+": the grade will be set to the highest score for an attempt at this HotPot "
+"activity.\n"
+"\n"
+"**Average scsore**\n"
+": the grade will be set to the average score for attempts at this HotPot "
+"activity.\n"
+"\n"
+"**First attempt**\n"
+": the grade will be set to the score of the first attempt at this HotPot "
+"activity.\n"
+"\n"
+"**Last attempt**\n"
+": the grade will be set to the score of the most recent attempt at this "
+"HotPot activity."
+msgstr ""
+
+#: $string['gradeweighting']
+msgid "Grade weighting"
+msgstr ""
+
+#: $string['gradeweighting_help']
+msgid ""
+"Grades for this HotPot activity will be scaled to this number in the Moodle "
+"gradebook."
+msgstr ""
+
+#: $string['highestscore']
+msgid "Highest score"
+msgstr ""
+
+#: $string['hints']
+msgid "Hints"
+msgstr ""
+
+#: $string['hotpot:addinstance']
+msgid "Add a new HotPot activity"
+msgstr ""
+
+#: $string['hotpot:attempt']
+msgid "Attempt a HotPot activity and submit results"
+msgstr ""
+
+#: $string['hotpot:deleteallattempts']
+msgid "Delete any user's attempts at a HotPot activity"
+msgstr ""
+
+#: $string['hotpot:deletemyattempts']
+msgid "Delete your own attempts at a HotPot activity"
+msgstr ""
+
+#: $string['hotpot:ignoretimelimits']
+msgid "Ignores time limits on a HotPot activity"
+msgstr ""
+
+#: $string['hotpot:manage']
+msgid "Change the settings of a HotPot activity"
+msgstr ""
+
+#: $string['hotpotname']
+msgid "HotPot activity name"
+msgstr ""
+
+#: $string['hotpot:preview']
+msgid "Preview a HotPot activity"
+msgstr ""
+
+#: $string['hotpot:reviewallattempts']
+msgid "View any user's attempts at a HotPot activity"
+msgstr ""
+
+#: $string['hotpot:reviewmyattempts']
+msgid "View your own attempts at a HotPot activity"
+msgstr ""
+
+#: $string['hotpot:view']
+msgid "View the entry page of a HotPot activity"
+msgstr ""
+
+#: $string['ignored']
+msgid "Ignored"
+msgstr ""
+
+#: $string['inprogress']
+msgid "In progress"
+msgstr ""
+
+#: $string['isgreaterthan']
+msgid "is greater than"
+msgstr ""
+
+#: $string['islessthan']
+msgid "is less than"
+msgstr ""
+
+#: $string['lastaccess']
+msgid "Last access"
+msgstr ""
+
+#: $string['lastattempt']
+msgid "Last attempt"
+msgstr ""
+
+#: $string['lockframe']
+msgid "Lock frame"
+msgstr ""
+
+#: $string['maxeventlength']
+msgid "Maximum number of days for a single calendar event"
+msgstr ""
+
+#: $string['mediafilter_hotpot']
+msgid "HotPot media filter"
+msgstr ""
+
+#: $string['mediafilter_moodle']
+msgid "Moodle's standard media filters"
+msgstr ""
+
+#: $string['migratingfiles']
+msgid "Migrating Hot Potatoes quiz files"
+msgstr ""
+
+#: $string['migratinglogs']
+msgid "Migrating Hot Potatoes logs"
+msgstr ""
+
+#: $string['missingsourcetype']
+msgid "HotPot record is missing sourcetype"
+msgstr ""
+
+#: $string['modulename']
+msgid "HotPot"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"The HotPot module allows teachers to distribute interactive learning "
+"materials to their students via Moodle and view reports on the students' "
+"responses and results. .\n"
+"\n"
+"A single HotPot activity consists of an optional entry page, a single "
+"elearning exercise, and an optional exit page. The elearning exercise may be "
+"a static web page or an interactive web page which offers students text, "
+"audio and visual prompts and records their responses. The elearning exercise "
+"is created on the teacher's computer using authoring software and then "
+"uploaded to Moodle.\n"
+"\n"
+"A HotPot activity can handle exercises created with the following authoring "
+"software:\n"
+"\n"
+"* Hot Potatoes (version 6)\n"
+"* Qedoc\n"
+"* Xerte\n"
+"* iSpring\n"
+"* any HTML editor"
+msgstr ""
+
+#: $string['modulename_link']
+msgid "mod/hotpot/view"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "HotPots"
+msgstr ""
+
+#: $string['nameadd']
+msgctxt "$string['nameadd']"
+msgid "Name"
+msgstr ""
+
+#: $string['nameadd_help']
+msgid ""
+"The name can be specfic text entered by the teacher or it can be "
+"automatically generated.\n"
+"\n"
+"**Get from source file**\n"
+": the name will be extracted from the source file.\n"
+"\n"
+"**Use source file name**\n"
+": the source file name will be used as the name.\n"
+"\n"
+"**Use source file path**\n"
+": the source file path will be used as the name. Any slashes in the file "
+"path will be replaced by spaces.\n"
+"\n"
+"**Specific text**\n"
+": the specific text entered by the teacher will be used as the name."
+msgstr ""
+
+#: $string['nameedit']
+msgctxt "$string['nameedit']"
+msgid "Name"
+msgstr ""
+
+#: $string['nameedit_help']
+msgid "The specific text that is displayed to the students"
+msgstr ""
+
+#: $string['navigation']
+msgid "Navigation"
+msgstr ""
+
+#: $string['navigation_embed']
+msgid "Embedded web page"
+msgstr ""
+
+#: $string['navigation_frame']
+msgid "Moodle navigation frame"
+msgstr ""
+
+#: $string['navigation_give_up']
+msgid "A single &quot;Give Up&quot; button"
+msgstr ""
+
+#: $string['navigation_help']
+msgid ""
+"This setting specifies the navigation used in the quiz:\n"
+"\n"
+"**Moodle navigation bar**\n"
+": the Moodle navigation bar will be displayed in the same window as the quiz "
+"at the top of the page\n"
+"\n"
+"**Moodle navigation frame**\n"
+": the Moodle navigation bar will be displayed in a separate frame at the top "
+"of the quiz\n"
+"\n"
+"**Embedded web page**\n"
+": the Moodle navigation bar will be displayed in with the Hot Potatoes quiz "
+"embedded within the window\n"
+"\n"
+"**Original navigation aids**\n"
+": the quiz will be displayed with the navigation buttons, if any, defined in "
+"the quiz\n"
+"\n"
+"**A single \"Give Up\" button**\n"
+": the quiz will be displayed with a single \"Give Up\" button at the top of "
+"the page\n"
+"\n"
+"**None**\n"
+": the quiz will be displayed without any navigation aids, so when all "
+"questions have been answered correctly, depending on the \"Show next quiz?\" "
+"setting, Moodle will either return to the course page or display the next "
+"quiz"
+msgstr ""
+
+#: $string['navigation_moodle']
+msgid "Standard Moodle navigation bars (top and side)"
+msgstr ""
+
+#: $string['navigation_none']
+msgctxt "$string['navigation_none']"
+msgid "None"
+msgstr ""
+
+#: $string['navigation_original']
+msgid "Original navigation aids"
+msgstr ""
+
+#: $string['navigation_topbar']
+msgid "Top Moodle navigation bar only (no side bars)"
+msgstr ""
+
+#: $string['noactivity']
+msgid "No activity"
+msgstr ""
+
+#: $string['nohotpots']
+msgid "No HotPots found"
+msgstr ""
+
+#: $string['nomoreattempts']
+msgid "Sorry, you have no more attempts left at this activity"
+msgstr ""
+
+#: $string['noresponses']
+msgid "No information about individual questions and responses was found."
+msgstr ""
+
+#: $string['noreview']
+msgid "Sorry, you are not allowed to view details of this quiz attempt."
+msgstr ""
+
+#: $string['noreviewafterclose']
+msgid ""
+"Sorry, this quiz has closed. You are no longer allowed to view details of "
+"this quiz attempt."
+msgstr ""
+
+#: $string['noreviewbeforeclose']
+msgid "Sorry, you are not allowed to view details this quiz attempt until {$a}"
+msgstr ""
+
+#: $string['nosourcefilesettings']
+msgid "HotPot record is missing source file information"
+msgstr ""
+
+#: $string['notattemptedyet']
+msgid "Not attempted yet"
+msgstr ""
+
+#: $string['notavailable']
+msgid "Sorry, this activity is not currently available to you."
+msgstr ""
+
+#: $string['outputformat']
+msgctxt "$string['outputformat']"
+msgid "Output format"
+msgstr ""
+
+#: $string['outputformat_best']
+msgid "Best"
+msgstr ""
+
+#: $string['outputformat_help']
+msgid ""
+"The output format specifies how the content will be presented to the "
+"student.\n"
+"\n"
+"The output formats that are available depend on the type of the source file. "
+"Some types of source file have just one output format, while other types of "
+"source file have several output formats.\n"
+"\n"
+"The \"best\" setting will display the content using the optimal output format "
+"for the student's browser."
+msgstr ""
+
+#: $string['outputformat_hp_6_jcloze_html']
+msgid "JCloze (v6) from html"
+msgstr ""
+
+#: $string['outputformat_hp_6_jcloze_html_findit_a']
+msgid "FindIt (a) from html"
+msgstr ""
+
+#: $string['outputformat_hp_6_jcloze_html_findit_b']
+msgid "FindIt (b) from html"
+msgstr ""
+
+#: $string['outputformat_hp_6_jcloze_xml_anctscan']
+msgid "ANCT-Scan from HP6 JCloze xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jcloze_xml_dropdown']
+msgid "DropDown from HP6 JCloze xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jcloze_xml_findit_a']
+msgid "FindIt (a) from HP6 JCloze xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jcloze_xml_findit_b']
+msgid "FindIt (b) from HP6 JCloze xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jcloze_xml_jgloss']
+msgid "JGloss from HP6 JCloze xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jcloze_xml_v6']
+msgid "JCloze (v6) from HP6 xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jcloze_xml_v6_autoadvance']
+msgid "JCloze (v6) from HP6 xml (Auto-advance)"
+msgstr ""
+
+#: $string['outputformat_hp_6_jcross_html']
+msgid "JCross (v6) from html"
+msgstr ""
+
+#: $string['outputformat_hp_6_jcross_xml_v6']
+msgid "JCross (v6) from xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jmatch_html']
+msgid "JMatch (v6) from html"
+msgstr ""
+
+#: $string['outputformat_hp_6_jmatch_html_sort']
+msgid "JMatch Sort from html"
+msgstr ""
+
+#: $string['outputformat_hp_6_jmatch_xml_flashcard']
+msgid "JMatch (flashcard) from xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jmatch_xml_jmemori']
+msgid "JMemori from xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jmatch_xml_sort']
+msgid "JMatch Sort from xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jmatch_xml_v6']
+msgid "JMatch (v6) from xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jmatch_xml_v6_plus']
+msgid "JMatch (v6+) from xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jmix_html']
+msgid "JMix (v6) from html"
+msgstr ""
+
+#: $string['outputformat_hp_6_jmix_xml_v6']
+msgid "JMix (v6) from xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jmix_xml_v6_plus']
+msgid "JMix (v6+) from xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jmix_xml_v6_plus_deluxe']
+msgid "JMix (v6+ with prefix, suffix with distractors) from xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jmix_xml_v6_plus_keypress']
+msgid "JMix (v6+ with key press) from xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jquiz_html']
+msgid "JQuiz (v6) from html"
+msgstr ""
+
+#: $string['outputformat_hp_6_jquiz_xml_v6']
+msgid "JQuiz (v6) from xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_jquiz_xml_v6_autoadvance']
+msgid "JQuiz (v6) from xml (Auto-advance)"
+msgstr ""
+
+#: $string['outputformat_hp_6_jquiz_xml_v6_exam']
+msgid "JQuiz (v6) from xml (Exam)"
+msgstr ""
+
+#: $string['outputformat_hp_6_rhubarb_html']
+msgid "Rhubarb (v6) from html"
+msgstr ""
+
+#: $string['outputformat_hp_6_rhubarb_xml']
+msgid "Rhubarb (v6) from xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_sequitur_html']
+msgid "Sequitur (v6) from html"
+msgstr ""
+
+#: $string['outputformat_hp_6_sequitur_html_incremental']
+msgid "Sequitur (v6) from html, incremental scoring"
+msgstr ""
+
+#: $string['outputformat_hp_6_sequitur_xml']
+msgid "Sequitur (v6) from xml"
+msgstr ""
+
+#: $string['outputformat_hp_6_sequitur_xml_incremental']
+msgid "Sequitur (v6) from xml, incremental scoring"
+msgstr ""
+
+#: $string['outputformat_html_ispring']
+msgid "iSpring HTML file"
+msgstr ""
+
+#: $string['outputformat_html_xerte']
+msgid "Xerte HTML file"
+msgstr ""
+
+#: $string['outputformat_html_xhtml']
+msgid "Standard HTML file"
+msgstr ""
+
+#: $string['outputformat_qedoc']
+msgid "Qedoc file"
+msgstr ""
+
+#: $string['overviewreport']
+msgid "Overview"
+msgstr ""
+
+#: $string['penalties']
+msgid "Penalties"
+msgstr ""
+
+#: $string['percent']
+msgid "Percent"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "HotPot administration"
+msgstr ""
+
+#: $string['pluginname']
+msgid "HotPot module"
+msgstr ""
+
+#: $string['pressoktocontinue']
+msgid "Press OK to continue, or Cancel to stay on the current page."
+msgstr ""
+
+#: $string['questionshort']
+msgid "Q-{$a}"
+msgstr ""
+
+#: $string['quizname_help']
+msgid "help text for Quiz name"
+msgstr ""
+
+#: $string['quizzes']
+msgid "Quizzes"
+msgstr ""
+
+#: $string['responses']
+msgctxt "$string['responses']"
+msgid "Responses"
+msgstr ""
+
+#: $string['responsesreport']
+msgctxt "$string['responsesreport']"
+msgid "Responses"
+msgstr ""
+
+#: $string['reviewafterattempt']
+msgid "Allow review after attempt"
+msgstr ""
+
+#: $string['reviewafterclose']
+msgid "Allow review after HotPot closes"
+msgstr ""
+
+#: $string['reviewduringattempt']
+msgid "Allow review during attempt"
+msgstr ""
+
+#: $string['reviewoptions']
+msgid "Review options"
+msgstr ""
+
+#: $string['score']
+msgid "Score"
+msgstr ""
+
+#: $string['scoresreport']
+msgid "Scores"
+msgstr ""
+
+#: $string['selectattempts']
+msgid "Select attempts"
+msgstr ""
+
+#: $string['showerrormessage']
+msgid "HotPot error: {$a}"
+msgstr ""
+
+#: $string['sourcefile']
+msgctxt "$string['sourcefile']"
+msgid "Source file"
+msgstr ""
+
+#: $string['sourcefile_help']
+msgid ""
+"This setting specifies the file containing the content that will be shown to "
+"the students.\n"
+"\n"
+"Usually the source file will have been created outside of Moodle, and then "
+"uploaded to the files area of a Moodle course.\n"
+"It may be an html file, or it may be another kind of file that has been "
+"created with authoring software such as Hot Potatoes or Qedoc.\n"
+"\n"
+"The source file may be specified as a folder and file path in the Moodle "
+"course files area, or it may be a url beginning with http:// or https://\n"
+"\n"
+"For Qedoc materials, the source file must be the url of a Qedoc module that "
+"has been uploaded to the Qedoc server.\n"
+"\n"
+"* e.g. http://www.qedoc.net/library/ABCDE_123.zip\n"
+"* For information about uploading Qedoc modules see: [Qedoc documentation: U"
+"ploading_modules](http://www.qedoc.org/en/index.php?title=Uploading_modules)"
+msgstr ""
+
+#: $string['sourcefilenotfound']
+msgid "Source file not found (or empty): {$a}"
+msgstr ""
+
+#: $string['status']
+msgid "Status"
+msgstr ""
+
+#: $string['stopbutton']
+msgid "Show stop button"
+msgstr ""
+
+#: $string['stopbutton_help']
+msgid ""
+"If this setting is enabled, a stop button will be inserted into the quiz.\n"
+"\n"
+"If a student clicks the stop button, the results so far will be returned to "
+"Moodle and the status of the quiz attempt will be set to abandoned.\n"
+"\n"
+"The text that is displayed on the stop button can be one of the preset "
+"phrases from Moodle's language packs, or the teacher can specify their own "
+"text for the button."
+msgstr ""
+
+#: $string['stopbutton_langpack']
+msgid "From language pack"
+msgstr ""
+
+#: $string['stopbutton_specific']
+msgid "Use specific text"
+msgstr ""
+
+#: $string['stoptext']
+msgid "Stop button text"
+msgstr ""
+
+#: $string['storedetails']
+msgid "Store the raw XML details of HotPot quiz attempts"
+msgstr ""
+
+#: $string['studentfeedback']
+msgid "Student feedback"
+msgstr ""
+
+#: $string['studentfeedback_help']
+msgid ""
+"If enabled, a link to a pop-up feedback window will be displayed whenever "
+"the student clicks on the \"Check\" button. The feedback window allows "
+"students to discuss this quiz with their teacher and classmates in one of "
+"the following ways:\n"
+"\n"
+"**Web page**\n"
+": requires URL of the web page, for example "
+"http://myserver.com/feedbackform.html\n"
+"\n"
+"**Feedback form**\n"
+": requires URL of the form script, for example http://myserver.com/cgi-"
+"bin/formmail.pl\n"
+"\n"
+"**Moodle forum**\n"
+": the forum index for the course will be displayed\n"
+"\n"
+"**Moodle messaging**\n"
+": the Moodle instant messaging window will be displayed. If the course has "
+"several teachers, the student will be prompted to select a teacher before "
+"the messaging window appears."
+msgstr ""
+
+#: $string['submits']
+msgid "Submissions"
+msgstr ""
+
+#: $string['subplugintype_hotpotattempt']
+msgctxt "$string['subplugintype_hotpotattempt']"
+msgid "Output format"
+msgstr ""
+
+#: $string['subplugintype_hotpotattempt_plural']
+msgid "Output formats"
+msgstr ""
+
+#: $string['subplugintype_hotpotreport']
+msgid "Report"
+msgstr ""
+
+#: $string['subplugintype_hotpotreport_plural']
+msgid "Reports"
+msgstr ""
+
+#: $string['subplugintype_hotpotsource']
+msgctxt "$string['subplugintype_hotpotsource']"
+msgid "Source file"
+msgstr ""
+
+#: $string['subplugintype_hotpotsource_plural']
+msgid "Source files"
+msgstr ""
+
+#: $string['textsourcefile']
+msgid "Get from source file"
+msgstr ""
+
+#: $string['textsourcefilename']
+msgid "Use source file name"
+msgstr ""
+
+#: $string['textsourcefilepath']
+msgid "Use source file path"
+msgstr ""
+
+#: $string['textsourcequiz']
+msgid "Get from quiz"
+msgstr ""
+
+#: $string['textsourcespecific']
+msgid "Specific text"
+msgstr ""
+
+#: $string['timeclose']
+msgid "Available until"
+msgstr ""
+
+#: $string['timedout']
+msgid "Timed out"
+msgstr ""
+
+#: $string['timelimit']
+msgid "Time limit"
+msgstr ""
+
+#: $string['timelimitexpired']
+msgid "The time limit for this attempt has expired"
+msgstr ""
+
+#: $string['timelimit_help']
+msgid ""
+"This setting specifies the maximum duration of a single attempt.\n"
+"\n"
+"**Use settings in source/template file**\n"
+": the time limit will be taken from the source file or the template files "
+"for this output format\n"
+"\n"
+"**Use specific time**\n"
+": the time limit specified on the HotPot quiz settings page will be used as "
+"the time limit for an attempt at this quiz. This setting overrides time "
+"limits in the source file, configuration file, or template files for this "
+"output format.\n"
+"\n"
+"**Disable**\n"
+": no time limit will be set for attempts at this quiz.\n"
+"\n"
+"Note that if an attempt is resumed, the timer continues from where the "
+"attempt was previously paused."
+msgstr ""
+
+#: $string['timelimitspecific']
+msgid "Use specific time"
+msgstr ""
+
+#: $string['timelimitsummary']
+msgid "Time limit for one attempt"
+msgstr ""
+
+#: $string['timelimittemplate']
+msgctxt "$string['timelimittemplate']"
+msgid "Use settings in source/template file"
+msgstr ""
+
+#: $string['timeopen']
+msgid "Available from"
+msgstr ""
+
+#: $string['timeopenclose']
+msgid "Open and close times"
+msgstr ""
+
+#: $string['timeopenclose_help']
+msgid ""
+"You can specify times when the quiz is accessible for people to make "
+"attempts. Before the opening time, and after the closing time, the quiz will "
+"be unavailable."
+msgstr ""
+
+#: $string['title']
+msgid "Title"
+msgstr ""
+
+#: $string['title_help']
+msgid ""
+"This setting specifies the title to be displayed on the web page.\n"
+"\n"
+"**HotPot activity name**\n"
+": the name of this HotPot activity will be displayed as the web page title.\n"
+"\n"
+"**Get from source file**\n"
+": the title, if any, defined in the source file will be used as the web page "
+"title.\n"
+"\n"
+"**Use source file name**\n"
+": the source file name, excluding any folder names, will be used as the web "
+"page title.\n"
+"\n"
+"**Use source file path**\n"
+": the source file path, including any folder names, will be used as the web "
+"page title."
+msgstr ""
+
+#: $string['toolsindex']
+msgid "HotPot Tools index"
+msgstr ""
+
+#: $string['unitname_help']
+msgid "help text for unit name"
+msgstr ""
+
+#: $string['unrecognizedsourcefile']
+msgid ""
+"Sorry, the HotPot module could not detect the type of the source file: {$a}"
+msgstr ""
+
+#: $string['updated']
+msgid "Updated"
+msgstr ""
+
+#: $string['updatinggrades']
+msgid "Updating HotPot grades"
+msgstr ""
+
+#: $string['usefilters']
+msgid "Use filters"
+msgstr ""
+
+#: $string['usefilters_help']
+msgid ""
+"If this setting is enabled, the content will be passed through the Moodle "
+"filters before being sent to the browser."
+msgstr ""
+
+#: $string['useglossary']
+msgid "Use glossary"
+msgstr ""
+
+#: $string['useglossary_help']
+msgid ""
+"If this setting is enabled, the content will be passed through Moodle's "
+"Glossary Auto-linking filter before being sent to the browser.\n"
+"\n"
+"Note that this setting overrides the site administration setting to enable "
+"or disable the Glossary Auto-linking filter."
+msgstr ""
+
+#: $string['usemediafilter']
+msgid "Use media filter"
+msgstr ""
+
+#: $string['usemediafilter_help']
+msgid ""
+"This setting specifies the media filter to be used.\n"
+"\n"
+"**None**\n"
+": the content will not be passed through any media filters.\n"
+"\n"
+"**Moodle's standard media filters**\n"
+": the content will be passed through Moodle's standard media filters. These "
+"filters search for links to common types of sound and movie file, and "
+"convert those links to suitable media players.\n"
+"\n"
+"**HotPot media filter**\n"
+": the content will be passed through filters which detect links, images, "
+"sounds and movies to be specified using a square bracket notation.\n"
+"\n"
+"The square-bracket notation has the following syntax:\n"
+"<code>[url player width height options]</code>\n"
+"\n"
+"**url**\n"
+": the relative or absolute url of the media file\n"
+"\n"
+"**player** (optional)\n"
+": the name of the player to be inserted. The default value for this setting "
+"is \"moodle\". The standard version of the HotPot module also offers the "
+"following players:\n"
+": **dew**: an mp3 player\n"
+": **dyer**: mp3 player by Bernard Dyer\n"
+": **hbs**: mp3 player from Half-Baked Software\n"
+": **image**: insert an image into the web page\n"
+": **link**: insert a link to another web page\n"
+"\n"
+"**width** (optional)\n"
+": the required width of the player\n"
+"\n"
+"**height** (optional)\n"
+": the required height of the player. If omitted this value will be set to "
+"the same as the width setting.\n"
+"\n"
+"**options** (optional)\n"
+": a comma-separated list options to be passed to the player. Each option can "
+"be a simple on/off switch, or a name value pair.\n"
+": **name=value\n"
+": **name=\"some value with spaces\""
+msgstr ""
+
+#: $string['viewreports']
+msgid "View reports for {$a} user(s)"
+msgstr ""
+
+#: $string['views']
+msgid "Views"
+msgstr ""
+
+#: $string['weighting']
+msgid "Weighting"
+msgstr ""
+
+#: $string['wrong']
+msgid "Wrong"
+msgstr ""
+
+#: $string['zeroduration']
+msgid "No duration"
+msgstr ""
+
+#: $string['zeroscore']
+msgid "Zero score"
+msgstr ""

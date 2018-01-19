@@ -1,0 +1,315 @@
+#. extracted from lang/en/block_mhaairs.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_mhaairs', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   block_mhaairs
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['adminhelplabel']
+msgid "Admin documentation"
+msgstr ""
+
+#: $string['availableservices']
+msgctxt "$string['availableservices']"
+msgid "Available Services"
+msgstr ""
+
+#: $string['baseaddresslabel']
+msgid "Service Address"
+msgstr ""
+
+#: $string['block_mhaairs_get_completion']
+msgid "Returns course completion"
+msgstr ""
+
+#: $string['block_mhaairs_get_completions']
+msgid "Returns course activities completions"
+msgstr ""
+
+#: $string['blocknotconfig']
+msgid "The block requires further configuration. Please configure the block."
+msgstr ""
+
+#: $string['blocksettings']
+msgid "Block Settings"
+msgstr ""
+
+#: $string['cachehelp']
+msgctxt "$string['cachehelp']"
+msgid "Help links"
+msgstr ""
+
+#: $string['cacheservices']
+msgid "Services"
+msgstr ""
+
+#: $string['connected_displaylabel']
+msgid "ConnectEd"
+msgstr ""
+
+#: $string['conskeylabel']
+msgid "Consumer Key"
+msgstr ""
+
+#: $string['coursenotconfig']
+msgid ""
+"The course requires further configuration. Please contact your site admin."
+msgstr ""
+
+#: $string['customernumberlabel']
+msgid "Customer Number"
+msgstr ""
+
+#: $string['edit_prelabel']
+msgid "Links to Display"
+msgstr ""
+
+#: $string['error_invalid_course_param']
+msgid "Invalid course parameter passed!"
+msgstr ""
+
+#: $string['error_no_course']
+msgid "Course does not exist!"
+msgstr ""
+
+#: $string['error_no_course_completion']
+msgid "Completion is not enabled for this course!"
+msgstr ""
+
+#: $string['error_no_system_completion']
+msgid "Completion is not enabled on this instance!"
+msgstr ""
+
+#: $string['error_notsecuressl']
+msgid "Error: Connection must be secured with SSL."
+msgstr ""
+
+#: $string['error_no_user']
+msgid "User does not exist!"
+msgstr ""
+
+#: $string['error_tokeninvalid']
+msgid "Error: Token is invalid."
+msgstr ""
+
+#: $string['get_completion_activity_compl_desc']
+msgid "Activity completion status"
+msgstr ""
+
+#: $string['get_completion_activity_desc']
+msgid "Activity title"
+msgstr ""
+
+#: $string['get_completion_activity_type_desc']
+msgid "Activity type"
+msgstr ""
+
+#: $string['get_completion_completion_desc']
+msgid "Course Completion status"
+msgstr ""
+
+#: $string['get_completion_course_desc']
+msgid "Course for which to get the completion status"
+msgstr ""
+
+#: $string['get_completion_result_desc']
+msgid "get_completion resultset"
+msgstr ""
+
+#: $string['get_completions_result_desc']
+msgid "get_completions resultset"
+msgstr ""
+
+#: $string['get_completion_user_desc']
+msgid "User for which to get the completion status"
+msgstr ""
+
+#: $string['gradelog']
+msgid "Grade exchange log"
+msgstr ""
+
+#: $string['gradelogdesc']
+msgid ""
+"Log grade exchange raw data for debugging purporses.\n"
+"Should be disabled on production sites. Log files are stored in moodledata "
+"directory [moodledata]/mhaairs.\n"
+"Every individual web service request generates separate log file with "
+"filename format\n"
+"mhaairs_year-month-day_hour-min-sec_randomkey.log"
+msgstr ""
+
+#: $string['gradelogs']
+msgid "Grade exchange logs"
+msgstr ""
+
+#: $string['instructorhelplabel']
+msgid "Instructor documentation"
+msgstr ""
+
+#: $string['json']
+msgid "JSON"
+msgstr ""
+
+#: $string['linktype']
+msgid "Link Type"
+msgstr ""
+
+#: $string['linktypelabel']
+msgid "Link type:"
+msgstr ""
+
+#: $string['mhaairs']
+msgid "MH AAIRS"
+msgstr ""
+
+#: $string['mhaairs:addinstance']
+msgid "Add a new McGraw-Hill AAIRS block"
+msgstr ""
+
+#: $string['mhaairs_displayhelp']
+msgctxt "$string['mhaairs_displayhelp']"
+msgid "Help links"
+msgstr ""
+
+#: $string['mhaairs_displayhelpdesc']
+msgid ""
+"Select this option if you wish help links to appear in the block appropriate "
+"to admin and teacher roles."
+msgstr ""
+
+#: $string['mhaairs_displaylabel']
+msgid "McGraw-Hill Campus"
+msgstr ""
+
+#: $string['mhaairs:myaddinstance']
+msgid "Add an instance of McGraw-Hill AAIRS block to the my page."
+msgstr ""
+
+#: $string['mhaairs_syncgradebook']
+msgid "Gradebook Sync"
+msgstr ""
+
+#: $string['mhaairs_syncgradebookdesc']
+msgid ""
+"Gradebook Sync provides the ability to push scores from MH Campus directly "
+"to the Moodle gradebook. Note: If only Tegrity is enabled on your site, this "
+"is irrelevant."
+msgstr ""
+
+#: $string['mhaairs:viewadmindoc']
+msgid "View Administrator Documentation"
+msgstr ""
+
+#: $string['mhaairs:viewteacherdoc']
+msgid "View Teacher Documentation"
+msgstr ""
+
+#: $string['nocachefound']
+msgid "No cache found"
+msgstr ""
+
+#: $string['nogradelogs']
+msgid "There are no grade exchange logs."
+msgstr ""
+
+#: $string['nolinkdefined']
+msgid "No link type defined."
+msgstr ""
+
+#: $string['nolinktext']
+msgid "No link"
+msgstr ""
+
+#: $string['noservicesmsg']
+msgid ""
+"Available Services have not yet been configured for this site. Please "
+"contact your site admin."
+msgstr ""
+
+#: $string['pluginname']
+msgid "McGraw-Hill AAIRS"
+msgstr ""
+
+#: $string['resetcaches']
+msgid "Reset caches"
+msgstr ""
+
+#: $string['responseformat']
+msgid "Response format"
+msgstr ""
+
+#: $string['secretlabel']
+msgid "Shared Secret"
+msgstr ""
+
+#: $string['service_down_msg']
+msgid ""
+"One or more of the web services is currently down or your client access data "
+"are not correctly configured. Please contact McGraw-Hill help for further "
+"action."
+msgstr ""
+
+#: $string['services_desc']
+msgid ""
+"The services above will display as links in the MH AAIRS block. Select which "
+"system(s) should be available to courses on your site. The service(s) "
+"selected will appear as options in the block's instance settings."
+msgstr ""
+
+#: $string['services_displaylabel']
+msgctxt "$string['services_displaylabel']"
+msgid "Available Services"
+msgstr ""
+
+#: $string['simple']
+msgid "Username/Password"
+msgstr ""
+
+#: $string['sitenotconfig']
+msgid ""
+"The site requires further configuration. Please contact your site admin."
+msgstr ""
+
+#: $string['sslonlylabel']
+msgid "SSL Only"
+msgstr ""
+
+#: $string['tegrity_displaylabel']
+msgid "Tegrity Campus"
+msgstr ""
+
+#: $string['token']
+msgid "Token"
+msgstr ""
+
+#: $string['xml']
+msgid "XML"
+msgstr ""

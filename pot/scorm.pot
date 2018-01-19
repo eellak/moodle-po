@@ -1,0 +1,1752 @@
+#. extracted from lang/en/scorm.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'scorm', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   scorm
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['activation']
+msgid "Activation"
+msgstr ""
+
+#: $string['activityloading']
+msgid "You will be automatically redirected to the activity in"
+msgstr ""
+
+#: $string['activityoverview']
+msgid "You have SCORM packages that need attention"
+msgstr ""
+
+#: $string['activitypleasewait']
+msgid "Activity loading, please wait ..."
+msgstr ""
+
+#: $string['adminsettings']
+msgid "Admin settings"
+msgstr ""
+
+#: $string['advanced']
+msgid "Parameters"
+msgstr ""
+
+#: $string['aicchacpkeepsessiondata']
+msgid "AICC HACP session data"
+msgstr ""
+
+#: $string['aicchacpkeepsessiondata_desc']
+msgid ""
+"Length of time in days to keep the external AICC HACP session data (a high "
+"setting will fill up the table with old data but may be useful when "
+"debugging)"
+msgstr ""
+
+#: $string['aicchacptimeout']
+msgid "AICC HACP timeout"
+msgstr ""
+
+#: $string['aicchacptimeout_desc']
+msgid ""
+"Length of time in minutes that an external AICC HACP session can remain open"
+msgstr ""
+
+#: $string['aiccuserid']
+msgid "AICC pass numeric user id"
+msgstr ""
+
+#: $string['aiccuserid_desc']
+msgid ""
+"The AICC standard for usernames is very restrictive compared with Moodle, "
+"and allows for alphanumeric characters, dash and underscore only. Periods, "
+"spaces and the @ symbol are not permitted. If enabled, user ID numbers are "
+"passed to the AICC package instead of usernames."
+msgstr ""
+
+#: $string['aliasonly']
+msgid ""
+"When selecting an imsmanifest.xml file from a repository you must use an "
+"alias/shortcut for this file."
+msgstr ""
+
+#: $string['allowapidebug']
+msgid "Activate API debug and tracing (set the capture mask with apidebugmask)"
+msgstr ""
+
+#: $string['allowtypeaicchacp']
+msgid "Enable external AICC HACP"
+msgstr ""
+
+#: $string['allowtypeaicchacp_desc']
+msgid ""
+"If enabled this allows AICC HACP external communication without requiring "
+"user login for post requests from the external AICC package"
+msgstr ""
+
+#: $string['allowtypeexternal']
+msgid "Enable external package type"
+msgstr ""
+
+#: $string['allowtypeexternalaicc']
+msgid "Enable direct AICC URL"
+msgstr ""
+
+#: $string['allowtypeexternalaicc_desc']
+msgid "If enabled this allows a direct url to a simple AICC package"
+msgstr ""
+
+#: $string['allowtypelocalsync']
+msgid "Enable downloaded package type"
+msgstr ""
+
+#: $string['apidebugmask']
+msgid ""
+"API debug capture mask  - use a simple regex on "
+"&lt;username&gt;:&lt;activityname&gt; e.g. admin:.* will debug for admin "
+"user only"
+msgstr ""
+
+#: $string['areacontent']
+msgid "Content files"
+msgstr ""
+
+#: $string['areapackage']
+msgctxt "$string['areapackage']"
+msgid "Package file"
+msgstr ""
+
+#: $string['asset']
+msgid "Asset"
+msgstr ""
+
+#: $string['assetlaunched']
+msgid "Asset - Viewed"
+msgstr ""
+
+#: $string['attempt']
+msgid "Attempt"
+msgstr ""
+
+#: $string['attempt1']
+msgid "1 attempt"
+msgstr ""
+
+#: $string['attempts']
+msgid "Attempts"
+msgstr ""
+
+#: $string['attemptsmanagement']
+msgid "Attempts management"
+msgstr ""
+
+#: $string['attemptstatusall']
+msgid "Dashboard and entry page"
+msgstr ""
+
+#: $string['attemptstatusentry']
+msgid "Entry page only"
+msgstr ""
+
+#: $string['attemptstatusmy']
+msgid "Dashboard only"
+msgstr ""
+
+#: $string['attemptsx']
+msgid "{$a} attempts"
+msgstr ""
+
+#: $string['attr_error']
+msgid "Bad value for attribute ({$a->attr}) in tag {$a->tag}."
+msgstr ""
+
+#: $string['autocommit']
+msgid "Auto-commit"
+msgstr ""
+
+#: $string['autocommitdesc']
+msgid "Automatically save SCORM data if the SCORM package does not save it."
+msgstr ""
+
+#: $string['autocommit_help']
+msgid ""
+"If enabled, SCORM data is automaticaly saved to the database. Useful for "
+"SCORM objects which do not save their data regularly."
+msgstr ""
+
+#: $string['autocontinue']
+msgid "Auto-continue"
+msgstr ""
+
+#: $string['autocontinuedesc']
+msgctxt "$string['autocontinuedesc']"
+msgid ""
+"If enabled, subsequent learning objects are launched automatically, "
+"otherwise the Continue button must be used."
+msgstr ""
+
+#: $string['autocontinue_help']
+msgctxt "$string['autocontinue_help']"
+msgid ""
+"If enabled, subsequent learning objects are launched automatically, "
+"otherwise the Continue button must be used."
+msgstr ""
+
+#: $string['averageattempt']
+msgid "Average attempts"
+msgstr ""
+
+#: $string['badarchive']
+msgid "You must provide a valid zip file"
+msgstr ""
+
+#: $string['badimsmanifestlocation']
+msgid ""
+"An imsmanifest.xml file was found but it was not in the root of your zip "
+"file, please re-package your SCORM"
+msgstr ""
+
+#: $string['badmanifest']
+msgid "Some manifest errors: see errors log"
+msgstr ""
+
+#: $string['browse']
+msgid "Preview"
+msgstr ""
+
+#: $string['browsed']
+msgid "Browsed"
+msgstr ""
+
+#: $string['browsemode']
+msgid "Preview mode"
+msgstr ""
+
+#: $string['browserepository']
+msgid "Browse repository"
+msgstr ""
+
+#: $string['calculatedweight']
+msgid "Calculated weight"
+msgstr ""
+
+#: $string['calendarend']
+msgid "{$a} closes"
+msgstr ""
+
+#: $string['calendarstart']
+msgid "{$a} opens"
+msgstr ""
+
+#: $string['cannotaccess']
+msgid "You cannot call this script in that way"
+msgstr ""
+
+#: $string['cannotfindsco']
+msgid "Could not find SCO"
+msgstr ""
+
+#: $string['chooseapacket']
+msgid "Choose or update a package"
+msgstr ""
+
+#: $string['closebeforeopen']
+msgid "You have specified a close date before the open date."
+msgstr ""
+
+#: $string['collapsetocwinsize']
+msgid "Collapse TOC when window size below"
+msgstr ""
+
+#: $string['collapsetocwinsizedesc']
+msgid ""
+"This setting lets you specify the window size below which the TOC should "
+"automatically collapse."
+msgstr ""
+
+#: $string['compatibilitysettings']
+msgid "Compatibility settings"
+msgstr ""
+
+#: $string['completed']
+msgctxt "$string['completed']"
+msgid "Completed"
+msgstr ""
+
+#: $string['completionscorerequired']
+msgid "Require minimum score"
+msgstr ""
+
+#: $string['completionscorerequireddesc']
+msgid "Minimum score of {$a} is required for completion"
+msgstr ""
+
+#: $string['completionscorerequired_help']
+msgid ""
+"Enabling this setting will require a user to have at least the minimum score "
+"entered to be marked complete in this SCORM activity, as well as any other "
+"Activity Completion requirements."
+msgstr ""
+
+#: $string['completionstatusallscos']
+msgid "Require all scos to return completion status"
+msgstr ""
+
+#: $string['completionstatusallscos_help']
+msgid ""
+"Some SCORM packages contain multiple components or \"scos\" - when this is "
+"enabled all scos within the package must return the relevant lesson_status "
+"for this activity to be flagged complete."
+msgstr ""
+
+#: $string['completionstatus_completed']
+msgctxt "$string['completionstatus_completed']"
+msgid "Completed"
+msgstr ""
+
+#: $string['completionstatus_passed']
+msgctxt "$string['completionstatus_passed']"
+msgid "Passed"
+msgstr ""
+
+#: $string['completionstatusrequired']
+msgid "Require status"
+msgstr ""
+
+#: $string['completionstatusrequireddesc']
+msgid "Student must achieve at least one of the following statuses: {$a}"
+msgstr ""
+
+#: $string['completionstatusrequired_help']
+msgid ""
+"Checking one or more statuses will require a user to achieve at least one of "
+"the checked statuses in order to be marked complete in this SCORM activity, "
+"as well as any other Activity Completion requirements."
+msgstr ""
+
+#: $string['confirmloosetracks']
+msgid ""
+"WARNING: The package seems to be changed or modified. If the package "
+"structure is changed, some users tracks may be lost during update process."
+msgstr ""
+
+#: $string['contents']
+msgid "Contents"
+msgstr ""
+
+#: $string['coursepacket']
+msgid "Course package"
+msgstr ""
+
+#: $string['coursestruct']
+msgid "Course structure"
+msgstr ""
+
+#: $string['crontask']
+msgid "Background processing for SCORM"
+msgstr ""
+
+#: $string['currentwindow']
+msgid "Current window"
+msgstr ""
+
+#: $string['datadir']
+msgid "Filesystem error: Can't create course data directory"
+msgstr ""
+
+#: $string['defaultdisplaysettings']
+msgid "Default display settings"
+msgstr ""
+
+#: $string['defaultgradesettings']
+msgid "Default grade settings"
+msgstr ""
+
+#: $string['defaultothersettings']
+msgid "Other default settings"
+msgstr ""
+
+#: $string['deleteallattempts']
+msgid "Delete all SCORM attempts"
+msgstr ""
+
+#: $string['deleteattemptcheck']
+msgid "Are you absolutely sure you want to completely delete these attempts?"
+msgstr ""
+
+#: $string['deleteselected']
+msgid "Delete selected attempts"
+msgstr ""
+
+#: $string['deleteuserattemptcheck']
+msgid ""
+"Are you absolutely sure you want to completely delete all your attempts?"
+msgstr ""
+
+#: $string['details']
+msgid "Track details"
+msgstr ""
+
+#: $string['directories']
+msgid "Show the directory links"
+msgstr ""
+
+#: $string['disabled']
+msgid "Disabled"
+msgstr ""
+
+#: $string['display']
+msgid "Display package"
+msgstr ""
+
+#: $string['displayactivityname']
+msgid "Display activity name"
+msgstr ""
+
+#: $string['displayactivityname_help']
+msgid "Whether or not to display the activity name above the SCORM player."
+msgstr ""
+
+#: $string['displayattemptstatus']
+msgid "Display attempt status"
+msgstr ""
+
+#: $string['displayattemptstatusdesc']
+msgid ""
+"Whether a summary of the user's attempts is shown in the course overview "
+"block in Dashboard and/or the SCORM entry page."
+msgstr ""
+
+#: $string['displayattemptstatus_help']
+msgid ""
+"This preference allows a summary of the users attempts to show in the course "
+"overview block in Dashboard and/or the SCORM entry page."
+msgstr ""
+
+#: $string['displaycoursestructure']
+msgid "Display course structure on entry page"
+msgstr ""
+
+#: $string['displaycoursestructuredesc']
+msgctxt "$string['displaycoursestructuredesc']"
+msgid ""
+"If enabled, the table of contents is displayed on the SCORM outline page."
+msgstr ""
+
+#: $string['displaycoursestructure_help']
+msgctxt "$string['displaycoursestructure_help']"
+msgid ""
+"If enabled, the table of contents is displayed on the SCORM outline page."
+msgstr ""
+
+#: $string['displaydesc']
+msgid "Whether to display the SCORM package in a new window."
+msgstr ""
+
+#: $string['displaysettings']
+msgid "Display settings"
+msgstr ""
+
+#: $string['dnduploadscorm']
+msgid "Add a SCORM package"
+msgstr ""
+
+#: $string['domxml']
+msgid "DOMXML external library"
+msgstr ""
+
+#: $string['duedate']
+msgid "Due date"
+msgstr ""
+
+#: $string['element']
+msgid "Element"
+msgstr ""
+
+#: $string['enter']
+msgid "Enter"
+msgstr ""
+
+#: $string['entercourse']
+msgid "Enter course"
+msgstr ""
+
+#: $string['errorlogs']
+msgid "Errors log"
+msgstr ""
+
+#: $string['eventattemptdeleted']
+msgid "Attempt deleted"
+msgstr ""
+
+#: $string['eventinteractionsviewed']
+msgid "Interactions viewed"
+msgstr ""
+
+#: $string['eventreportviewed']
+msgid "Report viewed"
+msgstr ""
+
+#: $string['eventscolaunched']
+msgid "Sco launched"
+msgstr ""
+
+#: $string['eventscorerawsubmitted']
+msgid "Submitted SCORM raw score"
+msgstr ""
+
+#: $string['eventstatussubmitted']
+msgid "Submitted SCORM status"
+msgstr ""
+
+#: $string['eventtracksviewed']
+msgid "Tracks viewed"
+msgstr ""
+
+#: $string['eventuserreportviewed']
+msgid "User report viewed"
+msgstr ""
+
+#: $string['everyday']
+msgid "Every day"
+msgstr ""
+
+#: $string['everytime']
+msgid "Every time it's used"
+msgstr ""
+
+#: $string['exceededmaxattempts']
+msgid "You have reached the maximum number of attempts."
+msgstr ""
+
+#: $string['exit']
+msgid "Exit course"
+msgstr ""
+
+#: $string['exitactivity']
+msgid "Exit activity"
+msgstr ""
+
+#: $string['expired']
+msgid "Sorry, this activity closed on {$a} and is no longer available"
+msgstr ""
+
+#: $string['external']
+msgid "Update external packages timing"
+msgstr ""
+
+#: $string['failed']
+msgid "Failed"
+msgstr ""
+
+#: $string['finishscorm']
+msgid "If you have finished viewing this resource, {$a}"
+msgstr ""
+
+#: $string['finishscormlinkname']
+msgid "click here to return to the course page"
+msgstr ""
+
+#: $string['firstaccess']
+msgid "First access"
+msgstr ""
+
+#: $string['firstattempt']
+msgid "First attempt"
+msgstr ""
+
+#: $string['floating']
+msgid "Floating"
+msgstr ""
+
+#: $string['forcecompleted']
+msgid "Force completed"
+msgstr ""
+
+#: $string['forcecompleteddesc']
+msgid "This preference sets the default value for the force completed setting"
+msgstr ""
+
+#: $string['forcecompleted_help']
+msgid ""
+"If enabled, the status of the current attempt is forced to \"completed\". "
+"(Only applicable to SCORM 1.2 packages.)"
+msgstr ""
+
+#: $string['forcejavascript']
+msgid "Force users to enable JavaScript"
+msgstr ""
+
+#: $string['forcejavascript_desc']
+msgid ""
+"If enabled (recommended) this prevents access to SCORM objects when "
+"JavaScript is not supported/enabled in a users browser. If disabled the user "
+"may view the SCORM but API communication will fail and no grade information "
+"will be saved."
+msgstr ""
+
+#: $string['forcejavascriptmessage']
+msgid ""
+"JavaScript is required to view this object, please enable JavaScript in your "
+"browser and try again."
+msgstr ""
+
+#: $string['forcenewattempt']
+msgid "Force new attempt"
+msgstr ""
+
+#: $string['forcenewattemptdesc']
+msgid ""
+"This setting hides the \"Start new attempt\" checkbox and prevents review "
+"mode. SCORM allows a student to return to the same attempt at any point and "
+"a new attempt is not possible unless the previous attempt has been set as "
+"\"completed\", \"passed\" or \"failed\". If the SCORM package does not do this, "
+"the student will always re-enter the same attempt."
+msgstr ""
+
+#: $string['forcenewattempt_help']
+msgid ""
+"This setting hides the \"Start new attempt\" checkbox and prevents review "
+"mode.\n"
+"\n"
+"SCORM allows a student to return to the same attempt at any point and a new "
+"attempt is not possible unless the previous attempt has been set as "
+"\"completed\", \"passed\" or \"failed\". If the SCORM package does not do this, "
+"the student will always re-enter the same attempt."
+msgstr ""
+
+#: $string['found']
+msgid "Manifest found"
+msgstr ""
+
+#: $string['frameheight']
+msgid "The height of the stage frame or window."
+msgstr ""
+
+#: $string['framewidth']
+msgid "The width of the stage frame or window."
+msgstr ""
+
+#: $string['fromleft']
+msgid "From left"
+msgstr ""
+
+#: $string['fromtop']
+msgid "From top"
+msgstr ""
+
+#: $string['fullscreen']
+msgid "Fill the whole screen"
+msgstr ""
+
+#: $string['general']
+msgid "General data"
+msgstr ""
+
+#: $string['gradeaverage']
+msgid "Average grade"
+msgstr ""
+
+#: $string['gradeforattempt']
+msgid "Grade for attempt"
+msgstr ""
+
+#: $string['gradehighest']
+msgid "Highest grade"
+msgstr ""
+
+#: $string['grademethod']
+msgid "Grading method"
+msgstr ""
+
+#: $string['grademethoddesc']
+msgid ""
+"The grading method defines how the grade for a single attempt of the "
+"activity is determined."
+msgstr ""
+
+#: $string['grademethod_help']
+msgid ""
+"The grading method defines how the grade for a single attempt of the "
+"activity is determined.\n"
+"\n"
+"There are 4 grading methods:\n"
+"\n"
+"* Learning objects - The number of completed/passed learning objects\n"
+"* Highest grade - The highest score obtained in all passed learning objects\n"
+"* Average grade - The mean of all the scores\n"
+"* Sum grade - The sum of all the scores"
+msgstr ""
+
+#: $string['gradereported']
+msgid "Grade reported"
+msgstr ""
+
+#: $string['gradescoes']
+msgctxt "$string['gradescoes']"
+msgid "Learning objects"
+msgstr ""
+
+#: $string['gradesettings']
+msgid "Grade settings"
+msgstr ""
+
+#: $string['gradesum']
+msgid "Sum grade"
+msgstr ""
+
+#: $string['height']
+msgid "Height"
+msgstr ""
+
+#: $string['hidden']
+msgid "Hidden"
+msgstr ""
+
+#: $string['hidebrowse']
+msgid "Disable preview mode"
+msgstr ""
+
+#: $string['hidebrowsedesc']
+msgid ""
+"Preview mode allows a student to browse an activity before attempting it."
+msgstr ""
+
+#: $string['hidebrowse_help']
+msgid ""
+"Preview mode allows a student to browse an activity before attempting it. If "
+"preview mode is disabled, the preview button is hidden."
+msgstr ""
+
+#: $string['hideexit']
+msgid "Hide exit link"
+msgstr ""
+
+#: $string['hidereview']
+msgid "Hide review button"
+msgstr ""
+
+#: $string['hidetoc']
+msgid "Display course structure in player"
+msgstr ""
+
+#: $string['hidetocdesc']
+msgid ""
+"This setting specifies how the table of contents is displayed in the SCORM "
+"player."
+msgstr ""
+
+#: $string['hidetoc_help']
+msgid "How the table of contents is displayed in the SCORM player"
+msgstr ""
+
+#: $string['highestattempt']
+msgid "Highest attempt"
+msgstr ""
+
+#: $string['identifier']
+msgid "Question identifier"
+msgstr ""
+
+#: $string['incomplete']
+msgid "Incomplete"
+msgstr ""
+
+#: $string['indicator:cognitivedepth']
+msgid "SCORM cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepth_help']
+msgid ""
+"This indicator is based on the cognitive depth reached by the student in a "
+"SCORM activity."
+msgstr ""
+
+#: $string['indicator:socialbreadth']
+msgid "SCORM social"
+msgstr ""
+
+#: $string['indicator:socialbreadth_help']
+msgid ""
+"This indicator is based on the social breadth reached by the student in a "
+"SCORM activity."
+msgstr ""
+
+#: $string['info']
+msgid "Info"
+msgstr ""
+
+#: $string['interactions']
+msgid "Interactions"
+msgstr ""
+
+#: $string['invalidactivity']
+msgid "SCORM activity is incorrect"
+msgstr ""
+
+#: $string['invalidhacpsession']
+msgid "Invalid HACP session"
+msgstr ""
+
+#: $string['invalidmanifestname']
+msgid "Only imsmanifest.xml or .zip files may be selected"
+msgstr ""
+
+#: $string['invalidmanifestresource']
+msgid ""
+"WARNING: The following resources were referenced in your manifest but "
+"couldn't be found:"
+msgstr ""
+
+#: $string['invalidurl']
+msgid "Invalid URL specified"
+msgstr ""
+
+#: $string['invalidurlhttpcheck']
+msgid "Invalid URL specified. Debug message:<pre>{$a->cmsg}</pre>"
+msgstr ""
+
+#: $string['last']
+msgid "Last accessed on"
+msgstr ""
+
+#: $string['lastaccess']
+msgid "Last access"
+msgstr ""
+
+#: $string['lastattempt']
+msgid "Last completed attempt"
+msgstr ""
+
+#: $string['lastattemptlock']
+msgid "Lock after final attempt"
+msgstr ""
+
+#: $string['lastattemptlockdesc']
+msgctxt "$string['lastattemptlockdesc']"
+msgid ""
+"If enabled, a student is prevented from launching the SCORM player after "
+"using up all their allocated attempts."
+msgstr ""
+
+#: $string['lastattemptlock_help']
+msgctxt "$string['lastattemptlock_help']"
+msgid ""
+"If enabled, a student is prevented from launching the SCORM player after "
+"using up all their allocated attempts."
+msgstr ""
+
+#: $string['location']
+msgid "Show the location bar"
+msgstr ""
+
+#: $string['masteryoverride']
+msgid "Mastery score overrides status"
+msgstr ""
+
+#: $string['masteryoverridedesc']
+msgid "This preference sets the default for the mastery score override setting"
+msgstr ""
+
+#: $string['masteryoverride_help']
+msgid ""
+"If enabled and a mastery score is provided, when LMSFinish is called and a "
+"raw score has been set, status will be recalculated using the raw score and "
+"mastery score and any status provided by the SCORM (including \"incomplete\") "
+"will be overridden."
+msgstr ""
+
+#: $string['max']
+msgid "Max score"
+msgstr ""
+
+#: $string['maximumattempts']
+msgid "Number of attempts"
+msgstr ""
+
+#: $string['maximumattemptsdesc']
+msgid "This preference sets the default maximum attempts for an activity"
+msgstr ""
+
+#: $string['maximumattempts_help']
+msgid ""
+"This setting enables the number of attempts to be restricted. It is only "
+"applicable for SCORM 1.2 and AICC packages."
+msgstr ""
+
+#: $string['maximumgradedesc']
+msgid "This preference sets the default maximum grade for an activity"
+msgstr ""
+
+#: $string['menubar']
+msgid "Show the menu bar"
+msgstr ""
+
+#: $string['min']
+msgctxt "$string['min']"
+msgid "Minimum score"
+msgstr ""
+
+#: $string['missing_attribute']
+msgid "Missing attribute {$a->attr} in tag {$a->tag}"
+msgstr ""
+
+#: $string['missingparam']
+msgid "A required parameter is missing or wrong"
+msgstr ""
+
+#: $string['missing_tag']
+msgid "Missing tag {$a->tag}"
+msgstr ""
+
+#: $string['mode']
+msgid "Mode"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "SCORM package"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"A SCORM package is a collection of files which are packaged according to an "
+"agreed standard for learning objects. The SCORM activity module enables "
+"SCORM or AICC packages to be uploaded as a zip file and added to a course.\n"
+"\n"
+"Content is usually displayed over several pages, with navigation between the "
+"pages. There are various options for displaying content in a pop-up window, "
+"with a table of contents, with navigation buttons etc. SCORM activities "
+"generally include questions, with grades being recorded in the gradebook.\n"
+"\n"
+"SCORM activities may be used\n"
+"\n"
+"* For presenting multimedia content and animations\n"
+"* As an assessment tool"
+msgstr ""
+
+#: $string['modulename_link']
+msgid "mod/scorm/view"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "SCORM packages"
+msgstr ""
+
+#: $string['nav']
+msgid "Show Navigation"
+msgstr ""
+
+#: $string['navdesc']
+msgid ""
+"This setting specifies whether to show or hide navigation buttons and their "
+"position."
+msgstr ""
+
+#: $string['nav_help']
+msgid ""
+"This setting specifies whether to show or hide the navigation buttons and "
+"their position.\n"
+"\n"
+"There are 3 options:\n"
+"\n"
+"* No - Navigation buttons are not shown\n"
+"* Under content - Navigation buttons are shown below the SCORM package "
+"content\n"
+"* Floating - Navigation buttons are shown floating, with the position from "
+"the top and from the left determined by the package."
+msgstr ""
+
+#: $string['navigation']
+msgid "Navigation"
+msgstr ""
+
+#: $string['navpositionleft']
+msgid "Position of navigation buttons from left in pixels."
+msgstr ""
+
+#: $string['navpositiontop']
+msgid "Position of navigation buttons from top in pixels."
+msgstr ""
+
+#: $string['networkdropped']
+msgid ""
+"The SCORM player has determined that your Internet connection is unreliable "
+"or has been interrupted. If you continue in this SCORM activity, your "
+"progress may not be saved.<br />\n"
+"You should exit the activity now, and return when you have a dependable "
+"Internet connection."
+msgstr ""
+
+#: $string['newattempt']
+msgid "Start a new attempt"
+msgstr ""
+
+#: $string['next']
+msgid "Continue"
+msgstr ""
+
+#: $string['noactivity']
+msgid "Nothing to report"
+msgstr ""
+
+#: $string['noattemptsallowed']
+msgid "Number of attempts allowed"
+msgstr ""
+
+#: $string['noattemptsmade']
+msgid "Number of attempts you have made"
+msgstr ""
+
+#: $string['no_attributes']
+msgid "Tag {$a->tag} must have attributes"
+msgstr ""
+
+#: $string['no_children']
+msgid "Tag {$a->tag} must have children"
+msgstr ""
+
+#: $string['nolimit']
+msgid "Unlimited attempts"
+msgstr ""
+
+#: $string['nomanifest']
+msgid "Incorrect file package - missing imsmanifest.xml or AICC structure"
+msgstr ""
+
+#: $string['noprerequisites']
+msgid ""
+"Sorry but you don't have the required prerequisites to access this activity."
+msgstr ""
+
+#: $string['noreports']
+msgid "No report to display"
+msgstr ""
+
+#: $string['normal']
+msgid "Normal"
+msgstr ""
+
+#: $string['noscriptnoscorm']
+msgid ""
+"Your browser does not support JavaScript or it has JavaScript support "
+"disabled. This SCORM package may not play or save data correctly."
+msgstr ""
+
+#: $string['notattempted']
+msgid "Not attempted"
+msgstr ""
+
+#: $string['not_corr_type']
+msgid "Type mismatch for tag {$a->tag}"
+msgstr ""
+
+#: $string['notopenyet']
+msgid "Sorry, this activity is not available until {$a}"
+msgstr ""
+
+#: $string['objectives']
+msgid "Objectives"
+msgstr ""
+
+#: $string['openafterclose']
+msgid "You have specified an open date after the close date"
+msgstr ""
+
+#: $string['optallstudents']
+msgid "all users"
+msgstr ""
+
+#: $string['optattemptsonly']
+msgid "users with attempts only"
+msgstr ""
+
+#: $string['options']
+msgid "Options (Prevented by some browsers)"
+msgstr ""
+
+#: $string['optionsadv']
+msgid "Options (Advanced)"
+msgstr ""
+
+#: $string['optionsadv_desc']
+msgid "If checked the width and height will be listed as advanced settings."
+msgstr ""
+
+#: $string['optnoattemptsonly']
+msgid "users with no attempts only"
+msgstr ""
+
+#: $string['organization']
+msgid "Organisation"
+msgstr ""
+
+#: $string['organizations']
+msgid "Organisations"
+msgstr ""
+
+#: $string['othersettings']
+msgid "Additional settings"
+msgstr ""
+
+#: $string['package']
+msgctxt "$string['package']"
+msgid "Package file"
+msgstr ""
+
+#: $string['packagedir']
+msgid "Filesystem error: Can't create package directory"
+msgstr ""
+
+#: $string['packagefile']
+msgid "No package file specified"
+msgstr ""
+
+#: $string['packagehdr']
+msgid "Package"
+msgstr ""
+
+#: $string['package_help']
+msgid ""
+"The package file is a zip (or pif) file containing SCORM/AICC course "
+"definition files."
+msgstr ""
+
+#: $string['packageurl']
+msgid "URL"
+msgstr ""
+
+#: $string['packageurl_help']
+msgid ""
+"This setting enables a URL for the SCORM package to be specified, rather "
+"than choosing a file via the file picker."
+msgstr ""
+
+#: $string['page-mod-scorm-x']
+msgid "Any SCORM module page"
+msgstr ""
+
+#: $string['pagesize']
+msgid "Page size"
+msgstr ""
+
+#: $string['passed']
+msgctxt "$string['passed']"
+msgid "Passed"
+msgstr ""
+
+#: $string['php5']
+msgid "PHP 5 (DOMXML native library)"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "SCORM package administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "SCORM package"
+msgstr ""
+
+#: $string['popup']
+msgid "New window"
+msgstr ""
+
+#: $string['popuplaunched']
+msgid ""
+"This SCORM package has been launched in a popup window, If you have finished "
+"viewing this resource, click here to return to the course page"
+msgstr ""
+
+#: $string['popupmenu']
+msgid "In a drop down menu"
+msgstr ""
+
+#: $string['popupopen']
+msgid "Open package in a new window"
+msgstr ""
+
+#: $string['popupsblocked']
+msgid ""
+"It appears that popup windows are blocked, stopping this SCORM package from "
+"playing. Please check your browser settings before trying again."
+msgstr ""
+
+#: $string['position_error']
+msgid "The {$a->tag} tag can't be child of {$a->parent} tag"
+msgstr ""
+
+#: $string['preferencespage']
+msgid "Preferences just for this page"
+msgstr ""
+
+#: $string['preferencesuser']
+msgid "Preferences for this report"
+msgstr ""
+
+#: $string['prev']
+msgid "Previous"
+msgstr ""
+
+#: $string['protectpackagedownloads']
+msgid "Protect package downloads"
+msgstr ""
+
+#: $string['protectpackagedownloads_desc']
+msgid ""
+"If enabled, SCORM packages can be downloaded only if the user has the "
+"course:manageactivities capability. If disabled, SCORM packages can always "
+"be downloaded (by mobile or other means)."
+msgstr ""
+
+#: $string['raw']
+msgctxt "$string['raw']"
+msgid "Raw score"
+msgstr ""
+
+#: $string['regular']
+msgid "Regular manifest"
+msgstr ""
+
+#: $string['report']
+msgctxt "$string['report']"
+msgid "Report"
+msgstr ""
+
+#: $string['reportcountallattempts']
+msgid ""
+"{$a->nbattempts} attempts for {$a->nbusers} users, out of {$a->nbresults} "
+"results"
+msgstr ""
+
+#: $string['reportcountattempts']
+msgid "{$a->nbresults} results ({$a->nbusers} users)"
+msgstr ""
+
+#: $string['reports']
+msgctxt "$string['reports']"
+msgid "Reports"
+msgstr ""
+
+#: $string['repositorynotsupported']
+msgid ""
+"This repository does not support linking directly to an imsmanifest.xml "
+"file."
+msgstr ""
+
+#: $string['response']
+msgctxt "$string['response']"
+msgid "Response"
+msgstr ""
+
+#: $string['result']
+msgctxt "$string['result']"
+msgid "Result"
+msgstr ""
+
+#: $string['results']
+msgid "Results"
+msgstr ""
+
+#: $string['review']
+msgid "Review"
+msgstr ""
+
+#: $string['reviewmode']
+msgid "Review mode"
+msgstr ""
+
+#: $string['rightanswer']
+msgid "Right answer"
+msgstr ""
+
+#: $string['scoes']
+msgctxt "$string['scoes']"
+msgid "Learning objects"
+msgstr ""
+
+#: $string['score']
+msgid "Score"
+msgstr ""
+
+#: $string['scorm12standard']
+msgid "Enable SCORM 1.2 standard mode"
+msgstr ""
+
+#: $string['scorm12standarddesc']
+msgid ""
+"Disabling this setting allows Moodle to store more data than the SCORM 1.2 "
+"specification allows.\n"
+"If your SCORM packages allow users to enter large amounts of text or if your "
+"package tries to store large amounts of data in the suspend_data field "
+"disable this."
+msgstr ""
+
+#: $string['scorm:addinstance']
+msgid "Add a new SCORM package"
+msgstr ""
+
+#: $string['scormclose']
+msgid "Available to"
+msgstr ""
+
+#: $string['scormcourse']
+msgid "Learning course"
+msgstr ""
+
+#: $string['scorm:deleteownresponses']
+msgid "Delete own attempts"
+msgstr ""
+
+#: $string['scorm:deleteresponses']
+msgid "Delete SCORM attempts"
+msgstr ""
+
+#: $string['scormloggingoff']
+msgid "API logging is off"
+msgstr ""
+
+#: $string['scormloggingon']
+msgid "API logging is on"
+msgstr ""
+
+#: $string['scormopen']
+msgid "Available from"
+msgstr ""
+
+#: $string['scormresponsedeleted']
+msgid "Deleted user attempts"
+msgstr ""
+
+#: $string['scorm:savetrack']
+msgid "Save tracks"
+msgstr ""
+
+#: $string['scorm:skipview']
+msgid "Skip overview"
+msgstr ""
+
+#: $string['scormtype']
+msgctxt "$string['scormtype']"
+msgid "Type"
+msgstr ""
+
+#: $string['scormtype_help']
+msgid ""
+"This setting determines how the package is included in the course. There are "
+"up to 4 options:\n"
+"\n"
+"* Uploaded package - Enables a SCORM package to be chosen via the file "
+"picker\n"
+"* External SCORM manifest - Enables an imsmanifest.xml URL to be specified. "
+"Note: If the URL has a different domain name than your site, then "
+"\"Downloaded package\" is a better option, since otherwise grades are not "
+"saved.\n"
+"* Downloaded package - Enables a package URL to be specified. The package "
+"will be unzipped and saved locally, and updated when the external SCORM "
+"package is updated.\n"
+"* External AICC URL - this URL is the launch URL for a single AICC Activity. "
+" A psuedo package will be constructed around this."
+msgstr ""
+
+#: $string['scorm:viewreport']
+msgid "View reports"
+msgstr ""
+
+#: $string['scorm:viewscores']
+msgid "View scores"
+msgstr ""
+
+#: $string['scrollbars']
+msgid "Allow the window to be scrolled"
+msgstr ""
+
+#: $string['search:activity']
+msgid "SCORM package - activity information"
+msgstr ""
+
+#: $string['selectall']
+msgid "Select all"
+msgstr ""
+
+#: $string['selectnone']
+msgid "Deselect all"
+msgstr ""
+
+#: $string['show']
+msgid "Show"
+msgstr ""
+
+#: $string['sided']
+msgid "To the side"
+msgstr ""
+
+#: $string['skipview']
+msgid "Student skip content structure page"
+msgstr ""
+
+#: $string['skipviewdesc']
+msgid ""
+"This preference sets the default for when to skip content structure for a "
+"page"
+msgstr ""
+
+#: $string['skipview_help']
+msgid ""
+"This setting specifies whether the content structure page should ever be "
+"skipped (not displayed). If the package contains only one learning object, "
+"the content structure page can always be skipped."
+msgstr ""
+
+#: $string['slashargs']
+msgid ""
+"WARNING: slash arguments is disabled on this site and objects may not "
+"function as expected!"
+msgstr ""
+
+#: $string['stagesize']
+msgid "Stage size"
+msgstr ""
+
+#: $string['stagesize_help']
+msgid ""
+"These two settings specify the frame/window width and height for the "
+"learning objects."
+msgstr ""
+
+#: $string['started']
+msgid "Started on"
+msgstr ""
+
+#: $string['status']
+msgid "Status"
+msgstr ""
+
+#: $string['statusbar']
+msgid "Show the status bar"
+msgstr ""
+
+#: $string['student_response']
+msgctxt "$string['student_response']"
+msgid "Response"
+msgstr ""
+
+#: $string['subplugintype_scormreport']
+msgctxt "$string['subplugintype_scormreport']"
+msgid "Report"
+msgstr ""
+
+#: $string['subplugintype_scormreport_plural']
+msgctxt "$string['subplugintype_scormreport_plural']"
+msgid "Reports"
+msgstr ""
+
+#: $string['suspended']
+msgid "Suspended"
+msgstr ""
+
+#: $string['syntax']
+msgid "Syntax error"
+msgstr ""
+
+#: $string['tag_error']
+msgid "Unknown tag ({$a->tag}) with this content: {$a->value}"
+msgstr ""
+
+#: $string['time']
+msgctxt "$string['time']"
+msgid "Time"
+msgstr ""
+
+#: $string['title']
+msgid "Title"
+msgstr ""
+
+#: $string['toc']
+msgid "TOC"
+msgstr ""
+
+#: $string['toolbar']
+msgid "Show the toolbar"
+msgstr ""
+
+#: $string['too_many_attributes']
+msgid "Tag {$a->tag} has too many attributes"
+msgstr ""
+
+#: $string['too_many_children']
+msgid "Tag {$a->tag} has too many children"
+msgstr ""
+
+#: $string['totaltime']
+msgctxt "$string['totaltime']"
+msgid "Time"
+msgstr ""
+
+#: $string['trackcorrectcount']
+msgid "Correct count"
+msgstr ""
+
+#: $string['trackcorrectcount_help']
+msgid "Number of correct results for the question"
+msgstr ""
+
+#: $string['trackid']
+msgid "Id"
+msgstr ""
+
+#: $string['trackid_help']
+msgid ""
+"This is the identifier set by your SCORM package for this question, the "
+"SCORM specification doesn't allow the full question text to be provided."
+msgstr ""
+
+#: $string['trackingloose']
+msgid "WARNING: The tracking data of this package will be lost!"
+msgstr ""
+
+#: $string['tracklatency']
+msgid "Latency"
+msgstr ""
+
+#: $string['tracklatency_help']
+msgid ""
+"The time elapsed between the time the question was made available to the "
+"learner for a response and the time of the first response."
+msgstr ""
+
+#: $string['trackpattern']
+msgid "Pattern"
+msgstr ""
+
+#: $string['trackpattern_help']
+msgid ""
+"This is what a correct response to this question would be, it does not show "
+"the learners response."
+msgstr ""
+
+#: $string['trackresponse']
+msgctxt "$string['trackresponse']"
+msgid "Response"
+msgstr ""
+
+#: $string['trackresponse_help']
+msgid "This is the response made by the learner for this question"
+msgstr ""
+
+#: $string['trackresult']
+msgctxt "$string['trackresult']"
+msgid "Result"
+msgstr ""
+
+#: $string['trackresult_help']
+msgid "Shows if the learner entered a correct response."
+msgstr ""
+
+#: $string['trackscoremax']
+msgid "Maximum score"
+msgstr ""
+
+#: $string['trackscoremax_help']
+msgid "Maximum value that can be assigned for the raw score"
+msgstr ""
+
+#: $string['trackscoremin']
+msgctxt "$string['trackscoremin']"
+msgid "Minimum score"
+msgstr ""
+
+#: $string['trackscoremin_help']
+msgid "Minimum value that can be assigned for the raw score"
+msgstr ""
+
+#: $string['trackscoreraw']
+msgctxt "$string['trackscoreraw']"
+msgid "Raw score"
+msgstr ""
+
+#: $string['trackscoreraw_help']
+msgid ""
+"Number that reflects the performance of the learner relative to the range "
+"bounded by the values of min and max"
+msgstr ""
+
+#: $string['tracksuspenddata']
+msgid "Suspend data"
+msgstr ""
+
+#: $string['tracksuspenddata_help']
+msgid "Provides space to store and retrieve data between learner sessions"
+msgstr ""
+
+#: $string['tracktime']
+msgctxt "$string['tracktime']"
+msgid "Time"
+msgstr ""
+
+#: $string['tracktime_help']
+msgid "Time at which the attempt was started"
+msgstr ""
+
+#: $string['tracktype']
+msgctxt "$string['tracktype']"
+msgid "Type"
+msgstr ""
+
+#: $string['tracktype_help']
+msgid "Type of the question, for example \"choice\" or \"shortanswer\"."
+msgstr ""
+
+#: $string['trackweight']
+msgid "Weight"
+msgstr ""
+
+#: $string['trackweight_help']
+msgid "Weight assigned to the question when calculating score."
+msgstr ""
+
+#: $string['type']
+msgctxt "$string['type']"
+msgid "Type"
+msgstr ""
+
+#: $string['typeaiccurl']
+msgid "External AICC URL"
+msgstr ""
+
+#: $string['typeexternal']
+msgid "External SCORM manifest"
+msgstr ""
+
+#: $string['typelocal']
+msgid "Uploaded package"
+msgstr ""
+
+#: $string['typelocalsync']
+msgid "Downloaded package"
+msgstr ""
+
+#: $string['undercontent']
+msgid "Under content"
+msgstr ""
+
+#: $string['unziperror']
+msgid "An error occurs during package unzip"
+msgstr ""
+
+#: $string['updatefreq']
+msgid "Auto-update frequency"
+msgstr ""
+
+#: $string['updatefreqdesc']
+msgid "This preference sets the default auto-update frequency of an activity"
+msgstr ""
+
+#: $string['updatefreq_error']
+msgid ""
+"Auto-update frequency can only be set when the package file is hosted "
+"externally"
+msgstr ""
+
+#: $string['updatefreq_help']
+msgid ""
+"This allows the external package to be automatically downloaded and updated"
+msgstr ""
+
+#: $string['validateascorm']
+msgid "Validate a package"
+msgstr ""
+
+#: $string['validation']
+msgid "Validation result"
+msgstr ""
+
+#: $string['validationtype']
+msgid ""
+"This preference set the DOMXML library used for validating SCORM Manifest. "
+"If you don't know leave the selected choice."
+msgstr ""
+
+#: $string['value']
+msgid "Value"
+msgstr ""
+
+#: $string['versionwarning']
+msgid "The manifest version is older than 1.3, warning at {$a->tag} tag"
+msgstr ""
+
+#: $string['viewallreports']
+msgid "View reports for {$a} attempts"
+msgstr ""
+
+#: $string['viewalluserreports']
+msgid "View reports for {$a} users"
+msgstr ""
+
+#: $string['whatgrade']
+msgid "Attempts grading"
+msgstr ""
+
+#: $string['whatgradedesc']
+msgid ""
+"Whether the highest, average (mean), first or last completed attempt is "
+"recorded in the gradebook if multiple attempts are allowed."
+msgstr ""
+
+#: $string['whatgrade_help']
+msgid ""
+"If multiple attempts are allowed, this setting specifies whether the "
+"highest, average (mean), first or last completed attempt is recorded in the "
+"gradebook. The last completed attempt option does not include attempts with "
+"a 'failed' status.\n"
+"\n"
+"Notes on handling of multiple attempts:\n"
+"\n"
+"* The option to start a new attempt is provided by a checkbox above the "
+"Enter button on the content structure page, so be sure you're providing "
+"access to that page if you want to allow more than one attempt.\n"
+"* Some SCORM packages are intelligent about new attempts, many are not. What "
+"this means is that if the learner re-enters an existing attempt, if the "
+"SCORM content does not have internal logic to avoid overwriting previous "
+"attempts they can be overwritten, even though the attempt was 'completed' or "
+"'passed'.\n"
+"* The settings \"Force completed\", \"Force new attempt\" and \"Lock after final "
+"attempt\" also provide further management of multiple attempts."
+msgstr ""
+
+#: $string['width']
+msgid "Width"
+msgstr ""
+
+#: $string['window']
+msgid "Window"
+msgstr ""
+
+#: $string['youmustselectastatus']
+msgid "You must select a status to require"
+msgstr ""

@@ -1,0 +1,1098 @@
+#. extracted from lang/en/calendar.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'calendar', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   calendar
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['activityevent']
+msgid "Activity event"
+msgstr ""
+
+#: $string['addevent']
+msgid "Add events"
+msgstr ""
+
+#: $string['advancedoptions']
+msgid "Advanced options"
+msgstr ""
+
+#: $string['allday']
+msgid "All day"
+msgstr ""
+
+#: $string['annually']
+msgid "Annually"
+msgstr ""
+
+#: $string['calendar']
+msgctxt "$string['calendar']"
+msgid "Calendar"
+msgstr ""
+
+#: $string['calendarheading']
+msgid "{$a} Calendar"
+msgstr ""
+
+#: $string['calendarpreferences']
+msgid "Calendar preferences"
+msgstr ""
+
+#: $string['calendartypes']
+msgid "Calendar types"
+msgstr ""
+
+#: $string['calendarurl']
+msgid "Calendar URL: {$a}"
+msgstr ""
+
+#: $string['categoryevent']
+msgctxt "$string['categoryevent']"
+msgid "Category event"
+msgstr ""
+
+#: $string['categoryevents']
+msgid "Category events"
+msgstr ""
+
+#: $string['clickhide']
+msgid "click to hide"
+msgstr ""
+
+#: $string['clickshow']
+msgid "click to show"
+msgstr ""
+
+#: $string['colactions']
+msgid "Actions"
+msgstr ""
+
+#: $string['colcalendar']
+msgctxt "$string['colcalendar']"
+msgid "Calendar"
+msgstr ""
+
+#: $string['collastupdated']
+msgid "Last updated"
+msgstr ""
+
+#: $string['colpoll']
+msgid "Update"
+msgstr ""
+
+#: $string['commontasks']
+msgid "Options"
+msgstr ""
+
+#: $string['confirmeventdelete']
+msgid "Are you sure you want to delete the \"{$a}\" event?"
+msgstr ""
+
+#: $string['confirmeventseriesdelete']
+msgid ""
+"The \"{$a->name}\" event is part of a series. Do you want to delete just this "
+"event, or all {$a->count} events in the series?"
+msgstr ""
+
+#: $string['course']
+msgid "Course"
+msgstr ""
+
+#: $string['courseevent']
+msgctxt "$string['courseevent']"
+msgid "Course event"
+msgstr ""
+
+#: $string['courseevents']
+msgid "Course events"
+msgstr ""
+
+#: $string['courses']
+msgid "Courses"
+msgstr ""
+
+#: $string['customexport']
+msgid "Custom range ({$a->timestart} - {$a->timeend})"
+msgstr ""
+
+#: $string['daily']
+msgid "Daily"
+msgstr ""
+
+#: $string['daynext']
+msgid "Next day"
+msgstr ""
+
+#: $string['dayprev']
+msgid "Previous day"
+msgstr ""
+
+#: $string['dayviewfor']
+msgid "Day view for:"
+msgstr ""
+
+#: $string['dayviewtitle']
+msgid "Day view: {$a}"
+msgstr ""
+
+#: $string['daywithnoevents']
+msgid "There are no events this day."
+msgstr ""
+
+#: $string['default']
+msgid "Default"
+msgstr ""
+
+#: $string['deleteallevents']
+msgid "Delete all events"
+msgstr ""
+
+#: $string['deleteevent']
+msgctxt "$string['deleteevent']"
+msgid "Delete event"
+msgstr ""
+
+#: $string['deleteevents']
+msgid "Delete events"
+msgstr ""
+
+#: $string['deleteoneevent']
+msgid "Delete this event"
+msgstr ""
+
+#: $string['detailedmonthviewfor']
+msgid "Detailed month view for:"
+msgstr ""
+
+#: $string['detailedmonthviewtitle']
+msgid "Detailed month view: {$a}"
+msgstr ""
+
+#: $string['durationminutes']
+msgid "Duration in minutes"
+msgstr ""
+
+#: $string['durationnone']
+msgid "Without duration"
+msgstr ""
+
+#: $string['durationuntil']
+msgid "Until"
+msgstr ""
+
+#: $string['editevent']
+msgid "Editing event"
+msgstr ""
+
+#: $string['erroraddingevent']
+msgid "Failed to add event"
+msgstr ""
+
+#: $string['errorbadsubscription']
+msgid "Calendar subscription not found."
+msgstr ""
+
+#: $string['errorbeforecoursestart']
+msgid "Cannot set event before course start date"
+msgstr ""
+
+#: $string['errorcannotimport']
+msgid "You cannot set up a calendar subscription at this time."
+msgstr ""
+
+#: $string['errorhasuntilandcount']
+msgid ""
+"Either UNTIL or COUNT may appear in a recurrence rule, but UNTIL and COUNT "
+"MUST NOT occur in the same recurrence rule."
+msgstr ""
+
+#: $string['errorinvalidbydayprefix']
+msgid ""
+"Integer values preceding BYDAY rules can only be present for a MONTHLY or "
+"YEARLY recurrence rule."
+msgstr ""
+
+#: $string['errorinvalidbydaysuffix']
+msgid ""
+"Valid values for the day of the week parts of the BYDAY rule are MO, TU, WE, "
+"TH, FR, SA and SU"
+msgstr ""
+
+#: $string['errorinvalidbyhour']
+msgid "Valid values for the BYHOUR rule are 0 to 23."
+msgstr ""
+
+#: $string['errorinvalidbyminute']
+msgid "Valid values for the BYMINUTE rule are 0 to 59."
+msgstr ""
+
+#: $string['errorinvalidbymonth']
+msgid "Valid values for the BYMONTH rule are 1 to 12."
+msgstr ""
+
+#: $string['errorinvalidbymonthday']
+msgid "Valid values for the BYMONTHDAY rule are 1 to 31 or -31 to -1."
+msgstr ""
+
+#: $string['errorinvalidbysecond']
+msgid "Valid values for the BYSECOND rule are 0 to 59."
+msgstr ""
+
+#: $string['errorinvalidbysetpos']
+msgid "Valid values for the BYSETPOS rule are 1 to 366 or -366 to -1."
+msgstr ""
+
+#: $string['errorinvalidbyweekno']
+msgid "Valid values for the BYWEEKNO rule are 1 to 53 or -53 to -1."
+msgstr ""
+
+#: $string['errorinvalidbyyearday']
+msgid "Valid values for the BYYEARDAY rule are 1 to 366 or -366 to -1."
+msgstr ""
+
+#: $string['errorinvaliddate']
+msgid "Invalid date"
+msgstr ""
+
+#: $string['errorinvalidicalurl']
+msgid "The given iCal URL is invalid."
+msgstr ""
+
+#: $string['errorinvalidinterval']
+msgid "The value for the INTERVAL rule must be a positive integer."
+msgstr ""
+
+#: $string['errorinvalidminutes']
+msgid "Specify duration in minutes by giving a number between 1 and 999."
+msgstr ""
+
+#: $string['errorinvalidrepeats']
+msgid "Specify the number of events by giving a number between 1 and 99."
+msgstr ""
+
+#: $string['errormustbeusedwithotherbyrule']
+msgid ""
+"The BYSETPOS rule must only be used in conjunction with another BYxxx rule "
+"part."
+msgstr ""
+
+#: $string['errornodescription']
+msgid "Description is required"
+msgstr ""
+
+#: $string['errornoeventname']
+msgid "Name is required"
+msgstr ""
+
+#: $string['errornonyearlyfreqwithbyweekno']
+msgid "The BYWEEKNO rule is only valid for YEARLY rules."
+msgstr ""
+
+#: $string['errorrequiredurlorfile']
+msgid "Either a URL or a file is required to import a calendar."
+msgstr ""
+
+#: $string['errorrrule']
+msgid "The passed recurrence rule seems incorrect."
+msgstr ""
+
+#: $string['errorrruleday']
+msgid "The recurrence rule has an invalid day parameter."
+msgstr ""
+
+#: $string['errorrrulefreq']
+msgid "The recurrence rule has an invalid frequency parameter."
+msgstr ""
+
+#: $string['eventcalendareventcreated']
+msgid "Calendar event created"
+msgstr ""
+
+#: $string['eventcalendareventdeleted']
+msgid "Calendar event deleted"
+msgstr ""
+
+#: $string['eventcalendareventupdated']
+msgid "Calendar event updated"
+msgstr ""
+
+#: $string['eventdate']
+msgid "Date"
+msgstr ""
+
+#: $string['eventdescription']
+msgid "Description"
+msgstr ""
+
+#: $string['eventduration']
+msgid "Duration"
+msgstr ""
+
+#: $string['eventendtime']
+msgid "End time"
+msgstr ""
+
+#: $string['eventendtimewrapped']
+msgid "{$a} (End time)"
+msgstr ""
+
+#: $string['eventinstanttime']
+msgctxt "$string['eventinstanttime']"
+msgid "Time"
+msgstr ""
+
+#: $string['eventkind']
+msgid "Type of event"
+msgstr ""
+
+#: $string['eventname']
+msgid "Event title"
+msgstr ""
+
+#: $string['eventnameandcategory']
+msgid "{$a->category}: {$a->name}"
+msgstr ""
+
+#: $string['eventnameandcourse']
+msgid "{$a->course}: {$a->name}"
+msgstr ""
+
+#: $string['eventnone']
+msgid "No events"
+msgstr ""
+
+#: $string['eventrepeat']
+msgid "Repeats"
+msgstr ""
+
+#: $string['eventsall']
+msgid "All events"
+msgstr ""
+
+#: $string['eventsdeleted']
+msgid "Events deleted"
+msgstr ""
+
+#: $string['eventsfor']
+msgctxt "$string['eventsfor']"
+msgid "{$a} events"
+msgstr ""
+
+#: $string['eventsimported']
+msgid "Events imported: {$a}"
+msgstr ""
+
+#: $string['eventskey']
+msgid "Events key"
+msgstr ""
+
+#: $string['eventsource']
+msgid "Event source"
+msgstr ""
+
+#: $string['eventspersonal']
+msgid "My personal events"
+msgstr ""
+
+#: $string['eventsrelatedtocourses']
+msgid "Events related to courses"
+msgstr ""
+
+#: $string['eventsrelatedtogroups']
+msgid "Events related to groups"
+msgstr ""
+
+#: $string['eventstarttime']
+msgid "Start time"
+msgstr ""
+
+#: $string['eventstoexport']
+msgid "Events to export"
+msgstr ""
+
+#: $string['eventsubscriptioncreated']
+msgid "Calendar subscription created"
+msgstr ""
+
+#: $string['eventsubscriptiondeleted']
+msgid "Calendar subscription deleted"
+msgstr ""
+
+#: $string['eventsubscriptioneditwarning']
+msgid ""
+"This calendar event is part of a subscription.  Any changes you make to this "
+"event will be lost if the subscription is deleted."
+msgstr ""
+
+#: $string['eventsubscriptionupdated']
+msgid "Calendar subscription updated"
+msgstr ""
+
+#: $string['eventsupdated']
+msgid "Events updated: {$a}"
+msgstr ""
+
+#: $string['eventtime']
+msgctxt "$string['eventtime']"
+msgid "Time"
+msgstr ""
+
+#: $string['eventtype']
+msgid "Event type"
+msgstr ""
+
+#: $string['eventtypecategory']
+msgid "category"
+msgstr ""
+
+#: $string['eventtypecourse']
+msgid "course"
+msgstr ""
+
+#: $string['eventtypeglobal']
+msgctxt "$string['eventtypeglobal']"
+msgid "global"
+msgstr ""
+
+#: $string['eventtypegroup']
+msgid "group"
+msgstr ""
+
+#: $string['eventtypemodule']
+msgid "module"
+msgstr ""
+
+#: $string['eventtypesite']
+msgctxt "$string['eventtypesite']"
+msgid "global"
+msgstr ""
+
+#: $string['eventtypeuser']
+msgid "user"
+msgstr ""
+
+#: $string['eventview']
+msgid "Event details"
+msgstr ""
+
+#: $string['expired']
+msgid "Expired"
+msgstr ""
+
+#: $string['explain_site_timeformat']
+msgid ""
+"You can choose to see times in either 12 or 24 hour format for the whole "
+"site. If you choose \"default\", then the format will be automatically chosen "
+"according to the language you use in the site. This setting can be "
+"overridden by user preferences."
+msgstr ""
+
+#: $string['export']
+msgctxt "$string['export']"
+msgid "Export"
+msgstr ""
+
+#: $string['exportbutton']
+msgctxt "$string['exportbutton']"
+msgid "Export"
+msgstr ""
+
+#: $string['exportcalendar']
+msgid "Export calendar"
+msgstr ""
+
+#: $string['exporthelp']
+msgid ""
+"How do I subscribe to this calendar from a calendar application "
+"(Google/Outlook/Other)?"
+msgstr ""
+
+#: $string['for']
+msgid "for"
+msgstr ""
+
+#: $string['forcecalendartype']
+msgid "Force calendar"
+msgstr ""
+
+#: $string['fri']
+msgid "Fri"
+msgstr ""
+
+#: $string['friday']
+msgid "Friday"
+msgstr ""
+
+#: $string['generateurlbutton']
+msgid "Get calendar URL"
+msgstr ""
+
+#: $string['global']
+msgid "Global"
+msgstr ""
+
+#: $string['globalevent']
+msgid "Global event"
+msgstr ""
+
+#: $string['globalevents']
+msgid "Global events"
+msgstr ""
+
+#: $string['gotoactivity']
+msgid "Go to activity"
+msgstr ""
+
+#: $string['gotocalendar']
+msgid "Go to calendar"
+msgstr ""
+
+#: $string['group']
+msgid "Group"
+msgstr ""
+
+#: $string['groupevent']
+msgctxt "$string['groupevent']"
+msgid "Group event"
+msgstr ""
+
+#: $string['groupevents']
+msgid "Group events"
+msgstr ""
+
+#: $string['hidecourseevents']
+msgid "Hide course events"
+msgstr ""
+
+#: $string['hideeventtype']
+msgid "Hide {$a} events"
+msgstr ""
+
+#: $string['hideglobalevents']
+msgid "Hide global events"
+msgstr ""
+
+#: $string['hidegroupsevents']
+msgid "Hide group events"
+msgstr ""
+
+#: $string['hideuserevents']
+msgid "Hide user events"
+msgstr ""
+
+#: $string['hourly']
+msgid "Hourly"
+msgstr ""
+
+#: $string['ical']
+msgid "iCal"
+msgstr ""
+
+#: $string['importcalendar']
+msgid "Import calendar"
+msgstr ""
+
+#: $string['importcalendarfrom']
+msgid "Import from"
+msgstr ""
+
+#: $string['importcalendarheading']
+msgid "Import calendar..."
+msgstr ""
+
+#: $string['importfromfile']
+msgid "Calendar file (.ics)"
+msgstr ""
+
+#: $string['importfrominstructions']
+msgid "Please provide either a URL to a remote calendar, or upload a file."
+msgstr ""
+
+#: $string['importfromurl']
+msgid "Calendar URL"
+msgstr ""
+
+#: $string['invalideventtype']
+msgid "The event type you have selected is invalid."
+msgstr ""
+
+#: $string['invalidtimedurationminutes']
+msgid ""
+"The duration in minutes you have entered is invalid. Please enter the "
+"duration in minutes greater than 0 or select no duration."
+msgstr ""
+
+#: $string['invalidtimedurationuntil']
+msgid ""
+"The date and time you selected for duration until is before the start time "
+"of the event. Please correct this before proceeding."
+msgstr ""
+
+#: $string['iwanttoexport']
+msgctxt "$string['iwanttoexport']"
+msgid "Export"
+msgstr ""
+
+#: $string['less']
+msgid "Less"
+msgstr ""
+
+#: $string['managesubscriptions']
+msgid "Manage subscriptions"
+msgstr ""
+
+#: $string['manyevents']
+msgctxt "$string['manyevents']"
+msgid "{$a} events"
+msgstr ""
+
+#: $string['mon']
+msgid "Mon"
+msgstr ""
+
+#: $string['monday']
+msgid "Monday"
+msgstr ""
+
+#: $string['monthly']
+msgid "Monthly"
+msgstr ""
+
+#: $string['monthlyview']
+msgid "Monthly view"
+msgstr ""
+
+#: $string['monthnext']
+msgid "Next month"
+msgstr ""
+
+#: $string['monthprev']
+msgid "Previous month"
+msgstr ""
+
+#: $string['monththis']
+msgid "This month"
+msgstr ""
+
+#: $string['more']
+msgid "More"
+msgstr ""
+
+#: $string['namewithsource']
+msgid "{$a->name} ({$a->source})"
+msgstr ""
+
+#: $string['never']
+msgid "Never"
+msgstr ""
+
+#: $string['newevent']
+msgid "New event"
+msgstr ""
+
+#: $string['nocalendarsubscriptions']
+msgid "You have no calendar subscriptions."
+msgstr ""
+
+#: $string['notitle']
+msgid "no title"
+msgstr ""
+
+#: $string['noupcomingevents']
+msgid "There are no upcoming events"
+msgstr ""
+
+#: $string['oneevent']
+msgid "1 event"
+msgstr ""
+
+#: $string['pollinterval']
+msgid "Update interval"
+msgstr ""
+
+#: $string['pollinterval_help']
+msgid "How often you would like the calendar to update with new events."
+msgstr ""
+
+#: $string['preferences']
+msgid "Preferences"
+msgstr ""
+
+#: $string['preferences_available']
+msgid "Your personal preferences"
+msgstr ""
+
+#: $string['preferredcalendar']
+msgid "Preferred calendar"
+msgstr ""
+
+#: $string['pref_lookahead']
+msgid "Upcoming events look-ahead"
+msgstr ""
+
+#: $string['pref_lookahead_help']
+msgid ""
+"This sets the (maximum) number of days in the future that an event has to "
+"start in in order to be displayed as an upcoming event. Events that start "
+"beyond this will never be displayed as upcoming. Please note that "
+"<strong>there is no guarantee</strong> that all events starting in this time "
+"frame will be displayed; if there are too many (more than the \"Maximum "
+"upcoming events\" preference) then the most distant events will not be shown."
+msgstr ""
+
+#: $string['pref_maxevents']
+msgid "Maximum upcoming events"
+msgstr ""
+
+#: $string['pref_maxevents_help']
+msgid ""
+"This sets the maximum number of upcoming events that can be displayed. If "
+"you pick a large number here it is possible that upcoming events displays "
+"will take up a lot of space on your screen."
+msgstr ""
+
+#: $string['pref_persistflt']
+msgid "Remember filter settings"
+msgstr ""
+
+#: $string['pref_persistflt_help']
+msgid ""
+"If this is enabled, then Moodle will remember your last event filter "
+"settings and automatically restore them each time you login."
+msgstr ""
+
+#: $string['pref_startwday']
+msgid "First day of week"
+msgstr ""
+
+#: $string['pref_startwday_help']
+msgid ""
+"Calendar weeks will be shown as starting on the day that you select here."
+msgstr ""
+
+#: $string['pref_timeformat']
+msgid "Time display format"
+msgstr ""
+
+#: $string['pref_timeformat_help']
+msgid ""
+"You can choose to see times in either 12 or 24 hour format. If you choose "
+"\"default\", then the format will be automatically chosen according to the "
+"language you use in the site."
+msgstr ""
+
+#: $string['quickdownloadcalendar']
+msgid "Quick download / subscribe to calendar"
+msgstr ""
+
+#: $string['recentupcoming']
+msgid "Recent and next 60 days"
+msgstr ""
+
+#: $string['repeatedevents']
+msgid "Repeated events"
+msgstr ""
+
+#: $string['repeateditall']
+msgid "Also apply changes to the other {$a} events in this repeat series"
+msgstr ""
+
+#: $string['repeateditthis']
+msgid "Apply changes to this event only"
+msgstr ""
+
+#: $string['repeatevent']
+msgid "Repeat this event"
+msgstr ""
+
+#: $string['repeatnone']
+msgid "No repeats"
+msgstr ""
+
+#: $string['repeatweeksl']
+msgid "Repeat weekly, creating altogether"
+msgstr ""
+
+#: $string['repeatweeksr']
+msgid "events"
+msgstr ""
+
+#: $string['sat']
+msgid "Sat"
+msgstr ""
+
+#: $string['saturday']
+msgid "Saturday"
+msgstr ""
+
+#: $string['showcourseevents']
+msgid "Show course events"
+msgstr ""
+
+#: $string['showeventtype']
+msgid "Show {$a} events"
+msgstr ""
+
+#: $string['showglobalevents']
+msgid "Show global events"
+msgstr ""
+
+#: $string['showgroupsevents']
+msgid "Show group events"
+msgstr ""
+
+#: $string['shown']
+msgid "shown"
+msgstr ""
+
+#: $string['showuserevents']
+msgid "Show user events"
+msgstr ""
+
+#: $string['siteevents']
+msgid "Site events"
+msgstr ""
+
+#: $string['spanningevents']
+msgid "Events underway"
+msgstr ""
+
+#: $string['subscriptionname']
+msgid "Calendar name"
+msgstr ""
+
+#: $string['subscriptionremoved']
+msgid "Calendar subscription {$a} removed"
+msgstr ""
+
+#: $string['subscriptions']
+msgid "Subscriptions"
+msgstr ""
+
+#: $string['subscriptionsource']
+msgid "Event source: {$a}"
+msgstr ""
+
+#: $string['subscriptionupdated']
+msgid "Calendar subscription {$a} updated"
+msgstr ""
+
+#: $string['subsource']
+msgid "Event source: {$a->name}"
+msgstr ""
+
+#: $string['sun']
+msgid "Sun"
+msgstr ""
+
+#: $string['sunday']
+msgid "Sunday"
+msgstr ""
+
+#: $string['thu']
+msgid "Thu"
+msgstr ""
+
+#: $string['thursday']
+msgid "Thursday"
+msgstr ""
+
+#: $string['timeformat_12']
+msgid "12-hour (am/pm)"
+msgstr ""
+
+#: $string['timeformat_24']
+msgid "24-hour"
+msgstr ""
+
+#: $string['timeperiod']
+msgid "Time period"
+msgstr ""
+
+#: $string['today']
+msgid "Today"
+msgstr ""
+
+#: $string['todayplustitle']
+msgid "Today {$a}"
+msgstr ""
+
+#: $string['tomorrow']
+msgid "Tomorrow"
+msgstr ""
+
+#: $string['tt_deleteevent']
+msgctxt "$string['tt_deleteevent']"
+msgid "Delete event"
+msgstr ""
+
+#: $string['tt_editevent']
+msgid "Edit event"
+msgstr ""
+
+#: $string['tt_hidecourse']
+msgid "Course events are shown (click to hide)"
+msgstr ""
+
+#: $string['tt_hideglobal']
+msgid "Global events are shown (click to hide)"
+msgstr ""
+
+#: $string['tt_hidegroups']
+msgid "Group events are shown (click to hide)"
+msgstr ""
+
+#: $string['tt_hideuser']
+msgid "User events are shown (click to hide)"
+msgstr ""
+
+#: $string['tt_showcourse']
+msgid "Course events are hidden (click to show)"
+msgstr ""
+
+#: $string['tt_showglobal']
+msgid "Global events are hidden (click to show)"
+msgstr ""
+
+#: $string['tt_showgroups']
+msgid "Group events are hidden (click to show)"
+msgstr ""
+
+#: $string['tt_showuser']
+msgid "User events are hidden (click to show)"
+msgstr ""
+
+#: $string['tue']
+msgid "Tue"
+msgstr ""
+
+#: $string['tuesday']
+msgid "Tuesday"
+msgstr ""
+
+#: $string['typecategory']
+msgctxt "$string['typecategory']"
+msgid "Category event"
+msgstr ""
+
+#: $string['typeclose']
+msgid "Close event"
+msgstr ""
+
+#: $string['typecourse']
+msgctxt "$string['typecourse']"
+msgid "Course event"
+msgstr ""
+
+#: $string['typedue']
+msgid "Due event"
+msgstr ""
+
+#: $string['typegradingdue']
+msgid "Grading due event"
+msgstr ""
+
+#: $string['typegroup']
+msgctxt "$string['typegroup']"
+msgid "Group event"
+msgstr ""
+
+#: $string['typeopen']
+msgid "Open event"
+msgstr ""
+
+#: $string['typesite']
+msgid "Site event"
+msgstr ""
+
+#: $string['typeuser']
+msgctxt "$string['typeuser']"
+msgid "User event"
+msgstr ""
+
+#: $string['upcomingevents']
+msgid "Upcoming events"
+msgstr ""
+
+#: $string['upcomingeventsfor']
+msgid "Upcoming events for:"
+msgstr ""
+
+#: $string['urlforical']
+msgid "URL for iCalendar export, for subscribing to calendar"
+msgstr ""
+
+#: $string['user']
+msgid "User"
+msgstr ""
+
+#: $string['userevent']
+msgctxt "$string['userevent']"
+msgid "User event"
+msgstr ""
+
+#: $string['userevents']
+msgid "User events"
+msgstr ""
+
+#: $string['wed']
+msgid "Wed"
+msgstr ""
+
+#: $string['wednesday']
+msgid "Wednesday"
+msgstr ""
+
+#: $string['weekly']
+msgid "Weekly"
+msgstr ""
+
+#: $string['weeknext']
+msgid "Next week"
+msgstr ""
+
+#: $string['weekthis']
+msgid "This week"
+msgstr ""
+
+#: $string['when']
+msgid "When"
+msgstr ""
+
+#: $string['yesterday']
+msgid "Yesterday"
+msgstr ""
+
+#: $string['youcandeleteallrepeats']
+msgid ""
+"This event is part of a repeating event series. You can delete this event "
+"only, or all {$a} events in the series at once."
+msgstr ""

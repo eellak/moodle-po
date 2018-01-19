@@ -1,0 +1,180 @@
+#. extracted from lang/en/block_simple_clock.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_simple_clock', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   block_simple_clock
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['after_noon']
+msgid "pm"
+msgstr ""
+
+#: $string['before_noon']
+msgid "am"
+msgstr ""
+
+#: $string['clock_separator']
+msgid ":"
+msgstr ""
+
+#: $string['clock_title_default']
+msgid "Clock"
+msgstr ""
+
+#: $string['config_clock_visibility']
+msgid "Visible clocks"
+msgstr ""
+
+#: $string['config_clock_visibility_help']
+msgid ""
+"<p>With this setting, you can control whether the user will see:</p>\n"
+"<ul>\n"
+"    <li>time on the server,</li>\n"
+"    <li>time on their own machine, or</li>\n"
+"    <li>both.</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['config_day']
+msgid "Show day name"
+msgstr ""
+
+#: $string['config_day_help']
+msgid ""
+"<p>Showing the day name adds additional information for students who may be "
+"in a timezone a day earlier or later.</p>"
+msgstr ""
+
+#: $string['config_header']
+msgid "Show header"
+msgstr ""
+
+#: $string['config_header_help']
+msgid ""
+"<p>With this setting, you can control whether the block header, including "
+"the title, will be shown.</p>\n"
+"<p style=\"background:yellow;border:3px dashed "
+"black;padding:10px;\"><strong>Note</strong><br />\n"
+"While \"Editing\" is turned on, the header of the block will be shown to "
+"teachers/administrators.\n"
+"When \"Editing\" is turned off, the header will be hidden.\n"
+"While this setting set to No, students will not see the header, regardless "
+"of whether \"Editing\" is on or off.</p>"
+msgstr ""
+
+#: $string['config_icons']
+msgid "Show icons"
+msgstr ""
+
+#: $string['config_icons_help']
+msgid ""
+"<p>With this setting, you can control whether icons are shown next to each "
+"clock label.</p>\n"
+"<p>The site icon is shown next to the \"server\" label. The user's icon image "
+"is shown next to their clock.</p>"
+msgstr ""
+
+#: $string['config_seconds']
+msgid "Show seconds"
+msgstr ""
+
+#: $string['config_seconds_help']
+msgid ""
+"<p>Showing seconds will show users the time including seconds on all visible "
+"clocks.</p>\n"
+"<p style=\"background:yellow;border:3px dashed "
+"black;padding:10px;\"><strong>Warning</strong><br />\n"
+"The initial time shown is the time when the page was created.\n"
+"When this page content arrives at the user's browser, the time difference "
+"will include a delay\n"
+"(usually a few seconds). This is often acceptable as any interaction with "
+"Moodle will\n"
+"involve a delay, but the delay will be more evident with seconds shown.</p>"
+msgstr ""
+
+#: $string['config_show_both_clocks']
+msgid "Show clocks for both server and user"
+msgstr ""
+
+#: $string['config_show_server_clock']
+msgid "Show clock for server only"
+msgstr ""
+
+#: $string['config_show_user_clock']
+msgid "Show clock for user only"
+msgstr ""
+
+#: $string['config_title']
+msgid "Alternate title"
+msgstr ""
+
+#: $string['config_title_help']
+msgid ""
+"<p>This setting allows the block title to be changed.</p>\n"
+"<p>If no alternate is provided, the default title is used.</p>\n"
+"<p>If the block header is hidden, the title will not appear.</p>"
+msgstr ""
+
+#: $string['config_twenty_four_hour_time']
+msgid "Show 24hr time"
+msgstr ""
+
+#: $string['day_names']
+msgid "Sun,Mon,Tue,Wed,Thu,Fri,Sat"
+msgstr ""
+
+#: $string['javascript_disabled']
+msgid "To allow the clocks to update, enable JavaScript in your browser."
+msgstr ""
+
+#: $string['loading']
+msgid "Loading..."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Simple Clock"
+msgstr ""
+
+#: $string['server']
+msgid "Server"
+msgstr ""
+
+#: $string['simple_clock:addinstance']
+msgid "Add a new Simple Clock block"
+msgstr ""
+
+#: $string['simple_clock:myaddinstance']
+msgid "Add a new Simple Clock block to the My Moodle page"
+msgstr ""
+
+#: $string['you']
+msgid "You"
+msgstr ""
