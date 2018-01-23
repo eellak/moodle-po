@@ -1,0 +1,1473 @@
+#. extracted from lang/en/local_amos.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'local_amos', language 'en', branch 'MOODLE_27_STABLE'
+#.  *
+#.  * @package   local_amos
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['about']
+msgid ""
+"<p>AMOS is a central repository of Moodle strings and their history. It "
+"tracks the addition of English strings into Moodle code, gathers "
+"translations, handles common translation tasks and generates language "
+"packages to be deployed on Moodle servers.</p>\n"
+"<p>See <a href=\"http://docs.moodle.org/en/AMOS\">AMOS documentation</a> for "
+"more information.</p>"
+msgstr ""
+
+#: $string['amos']
+msgid "AMOS translation toolkit"
+msgstr ""
+
+#: $string['amos:changecontriblang']
+msgid "Change language of contributed strings"
+msgstr ""
+
+#: $string['amos:commit']
+msgid "Commit the staged strings into the main repository"
+msgstr ""
+
+#: $string['amos:execute']
+msgid "Execute the given AMOScript"
+msgstr ""
+
+#: $string['amos:importfile']
+msgid "Import translations from uploaded file and stage them"
+msgstr ""
+
+#: $string['amos:importstrings']
+msgid ""
+"Import strings (including the English ones) directly into the main "
+"repository"
+msgstr ""
+
+#: $string['amos:manage']
+msgid "Manage AMOS portal"
+msgstr ""
+
+#: $string['amos:stage']
+msgid "Use AMOS translation tool and stage the strings"
+msgstr ""
+
+#: $string['amos:stash']
+msgid "Store the current stage into the persistent stash"
+msgstr ""
+
+#: $string['amos:usegoogle']
+msgid "Use Google Translate services"
+msgstr ""
+
+#: $string['commitbutton']
+msgid "Commit"
+msgstr ""
+
+#: $string['commitkeepstaged']
+msgid "Keep strings staged"
+msgstr ""
+
+#: $string['commitmessage']
+msgid "Commit message"
+msgstr ""
+
+#: $string['commitmessageempty']
+msgid "Please fill the commit message"
+msgstr ""
+
+#: $string['commitstage']
+msgid "Commit staged strings"
+msgstr ""
+
+#: $string['commitstage_help']
+msgid ""
+"Permanently store all staged translations in AMOS repository. Stage is "
+"automatically pruned and rebased before it is committed. Only committable "
+"strings are stored. That means that only translations below highlighted in "
+"green will be stored. The stage is cleared after the commit."
+msgstr ""
+
+#: $string['committableall']
+msgid "all languages"
+msgstr ""
+
+#: $string['committablenone']
+msgid "no languages allowed - please contact AMOS manager"
+msgstr ""
+
+#: $string['componentsall']
+msgctxt "$string['componentsall']"
+msgid "All"
+msgstr ""
+
+#: $string['componentsenlarge']
+msgid "Enlarge"
+msgstr ""
+
+#: $string['componentsnone']
+msgctxt "$string['componentsnone']"
+msgid "None"
+msgstr ""
+
+#: $string['componentsstandard']
+msgid "Standard"
+msgstr ""
+
+#: $string['confirmaction']
+msgid "This can not be undone. Are you sure?"
+msgstr ""
+
+#: $string['contribaccept']
+msgid "Accept"
+msgstr ""
+
+#: $string['contribactions']
+msgid "Contributed translation actions"
+msgstr ""
+
+#: $string['contribactions_help']
+msgid ""
+"Depending on your rights and the contribution workflow, you can have some of "
+"the following actions available:\n"
+"\n"
+"* Apply - copy the contributed translation into your stage, does not modify "
+"the contribution record\n"
+"* Assign to me - set yourself as the contribution assignee, that is the "
+"person resposible for the contribution review and integration\n"
+"* Unassign - set nobody as the contribution assignee\n"
+"* Start review - assign the new contribution to yourself, set its status to "
+"'In review' and copy the submitted translation into your stage\n"
+"* Accept - mark the contribution as accepted\n"
+"* Reject - mark the contribution as rejected, please describe the reasons in "
+"a comment.\n"
+"\n"
+"The contributor is informed by email whenever the status of his contribution "
+"changes."
+msgstr ""
+
+#: $string['contribactions_link']
+msgctxt "$string['contribactions_link']"
+msgid "AMOS#Contributing_to_a_language_pack"
+msgstr ""
+
+#: $string['contribapply']
+msgctxt "$string['contribapply']"
+msgid "Apply"
+msgstr ""
+
+#: $string['contribassignee']
+msgid "Assignee"
+msgstr ""
+
+#: $string['contribassigneenone']
+msgid "-"
+msgstr ""
+
+#: $string['contribassigntome']
+msgid "Assign to me"
+msgstr ""
+
+#: $string['contribauthor']
+msgid "Author"
+msgstr ""
+
+#: $string['contribclosedno']
+msgid "Hide resolved contributions"
+msgstr ""
+
+#: $string['contribclosedyes']
+msgid "Show resolved contributions"
+msgstr ""
+
+#: $string['contribcomponents']
+msgctxt "$string['contribcomponents']"
+msgid "Components"
+msgstr ""
+
+#: $string['contribid']
+msgid "ID"
+msgstr ""
+
+#: $string['contribincomingnone']
+msgid "No incoming contributions"
+msgstr ""
+
+#: $string['contribincomingsome']
+msgid "Incoming contributions ({$a})"
+msgstr ""
+
+#: $string['contriblanguage']
+msgctxt "$string['contriblanguage']"
+msgid "Language"
+msgstr ""
+
+#: $string['contriblanguagebutton']
+msgid "Convert"
+msgstr ""
+
+#: $string['contriblanguagechange']
+msgid "Fixing wrong contribution language"
+msgstr ""
+
+#: $string['contriblanguagechange_help']
+msgid ""
+"If the contribution has been submitted to the wrong language pack by "
+"mistake, select the correct language in the dropdown menu below then click "
+"the Convert button."
+msgstr ""
+
+#: $string['contriblanguagereport']
+msgid "Reporting wrong contribution language"
+msgstr ""
+
+#: $string['contriblanguagereport_help']
+msgid ""
+"If this contribution has been submitted to the wrong language pack by "
+"mistake, please copy and paste the contribution URL into an email to "
+"`translation@moodle.org`. The contribution will then be moved to the correct "
+"language."
+msgstr ""
+
+#: $string['contriblanguagewrong']
+msgid "Wrong language?"
+msgstr ""
+
+#: $string['contribnotif']
+msgid "[AMOS] Contribution notification (#{$a->id})"
+msgstr ""
+
+#: $string['contribnotifaccepted']
+msgid ""
+"{$a->fullname} has accepted your contributed translation\n"
+"#{$a->id} {$a->subject}\n"
+"\n"
+"---------------------------------------------------------------------\n"
+"Contribution page: {$a->contriburl}"
+msgstr ""
+
+#: $string['contribnotifcommented']
+msgid ""
+"{$a->fullname} has commented on the contributed translation\n"
+"#{$a->id} {$a->subject}\n"
+"---------------------------------------------------------------------\n"
+"\n"
+"{$a->message}\n"
+"\n"
+"---------------------------------------------------------------------\n"
+"Contribution page: {$a->contriburl}"
+msgstr ""
+
+#: $string['contribnotifconverted']
+msgid ""
+"{$a->fullname} has converted your contributed translation\n"
+"#{$a->id} {$a->subject}\n"
+"\n"
+"Thanks for your contribution. However, it seems it was submitted to the "
+"wrong\n"
+"language pack by mistake. Thus your contribution has been rejected from the\n"
+"wrong language pack and moved to the correct language pack for review by the\n"
+"language pack maintainer. No action from you is required.\n"
+"\n"
+"In future, please double-check that you have selected your own language "
+"before\n"
+"you start translating strings.\n"
+"\n"
+"---------------------------------------------------------------------\n"
+"Original contribution page: {$a->contriborigurl}\n"
+"New contribution page: {$a->contribnewurl}"
+msgstr ""
+
+#: $string['contribnotifpending']
+msgid ""
+"There is a pending contributed translation requiring your action\n"
+"#{$a->id} {$a->subject}\n"
+"\n"
+"As the language pack maintainer, you are supposed to review and eventually\n"
+"commit all submitted contributions. When done, please mark them as accepted "
+"or\n"
+"rejected.\n"
+"\n"
+"See {$a->docsurl} for more details.\n"
+"---------------------------------------------------------------------\n"
+"Contribution page: {$a->contriburl}"
+msgstr ""
+
+#: $string['contribnotifrejected']
+msgid ""
+"{$a->fullname} has rejected your contributed translation\n"
+"#{$a->id} {$a->subject}\n"
+"\n"
+"---------------------------------------------------------------------\n"
+"Contribution page: {$a->contriburl}"
+msgstr ""
+
+#: $string['contribnotifsubmitted']
+msgid ""
+"{$a->fullname} has submitted a new contributed translation\n"
+"#{$a->id} {$a->subject}\n"
+"---------------------------------------------------------------------\n"
+"\n"
+"{$a->message}\n"
+"\n"
+"* Language: {$a->language}\n"
+"* Components: {$a->components}\n"
+"* Strings: {$a->strings}\n"
+"\n"
+"---------------------------------------------------------------------\n"
+"Contribution page: {$a->contriburl}"
+msgstr ""
+
+#: $string['contribreject']
+msgid "Reject"
+msgstr ""
+
+#: $string['contribresign']
+msgid "Unassign"
+msgstr ""
+
+#: $string['contribstaged']
+msgid ""
+"Staged contribution <a href=\"contrib.php?id={$a->id}\">#{$a->id}</a> by "
+"{$a->author}"
+msgstr ""
+
+#: $string['contribstagedinfo']
+msgid "Staged contribution"
+msgstr ""
+
+#: $string['contribstagedinfo_help']
+msgid ""
+"The stage contains strings that were contributed by a community member. The "
+"language pack maintainers are supposed to review them and then set their "
+"status to either Accepted (if there were committed) or Rejected (if they "
+"can't be included in the official language pack for some reason)."
+msgstr ""
+
+#: $string['contribstagedinfo_link']
+msgctxt "$string['contribstagedinfo_link']"
+msgid "AMOS#Contributing_to_a_language_pack"
+msgstr ""
+
+#: $string['contribstartreview']
+msgid "Start review"
+msgstr ""
+
+#: $string['contribstatus']
+msgid "Status"
+msgstr ""
+
+#: $string['contribstatus0']
+msgid "New"
+msgstr ""
+
+#: $string['contribstatus10']
+msgid "In review"
+msgstr ""
+
+#: $string['contribstatus20']
+msgid "Rejected"
+msgstr ""
+
+#: $string['contribstatus30']
+msgid "Accepted"
+msgstr ""
+
+#: $string['contribstatus_help']
+msgid ""
+"Workflow of a contributed translation consists of following states:\n"
+"\n"
+"* New - the contribution has been submitted but it was not reviewed yet\n"
+"* In review - the contribution has been assigned to a language pack "
+"maintainer and was staged for review\n"
+"* Rejected - the language pack maintainer has rejected the contribution and "
+"probably left an explanation in a comment\n"
+"* Accepted - the contribution has been accepted by the language pack "
+"maintainer"
+msgstr ""
+
+#: $string['contribstatus_link']
+msgctxt "$string['contribstatus_link']"
+msgid "AMOS#Contributing_to_a_language_pack"
+msgstr ""
+
+#: $string['contribstrings']
+msgctxt "$string['contribstrings']"
+msgid "Strings"
+msgstr ""
+
+#: $string['contribstringseq']
+msgid "{$a->orig} new"
+msgstr ""
+
+#: $string['contribstringsnone']
+msgid "{$a->orig} (all of them are already translated in the lang pack)"
+msgstr ""
+
+#: $string['contribstringssome']
+msgid "{$a->orig} ({$a->same} of them already have more recent translation)"
+msgstr ""
+
+#: $string['contribsubject']
+msgctxt "$string['contribsubject']"
+msgid "Subject"
+msgstr ""
+
+#: $string['contribsubmittednone']
+msgid "No submitted contributions"
+msgstr ""
+
+#: $string['contribsubmittedsome']
+msgid "Your contributions ({$a})"
+msgstr ""
+
+#: $string['contribtimemodified']
+msgid "Modified"
+msgstr ""
+
+#: $string['contribute']
+msgid "Contribute"
+msgstr ""
+
+#: $string['contributenow']
+msgid "Contribute now!"
+msgstr ""
+
+#: $string['contributestats']
+msgid ""
+"Total of <strong>{$a->count}</strong> strings translated by community "
+"members have been submitted into AMOS so far."
+msgstr ""
+
+#: $string['contributethanks']
+msgid "Many thanks to {$a->listcontributors} for their recent contributions!"
+msgstr ""
+
+#: $string['contributions']
+msgid "Contributions"
+msgstr ""
+
+#: $string['creditsaddcontributor']
+msgid "Add contributor"
+msgstr ""
+
+#: $string['creditsaddmaintainer']
+msgid "Add maintainer"
+msgstr ""
+
+#: $string['creditscontact']
+msgid "Send message"
+msgstr ""
+
+#: $string['creditscontributors']
+msgid "Other contributors"
+msgstr ""
+
+#: $string['creditsdelcontributor']
+msgid "Remove contributor"
+msgstr ""
+
+#: $string['creditsdelmaintainer']
+msgid "Remove maintainer"
+msgstr ""
+
+#: $string['creditsmaintainedby']
+msgid "Maintained by"
+msgstr ""
+
+#: $string['creditsnomaintainer']
+msgid "No maintainer at the moment. <a href=\"{$a->url}\">Become one!</a>"
+msgstr ""
+
+#: $string['creditsthanks']
+msgid ""
+"On this page, we wish to thank everyone who has contributed to Moodle "
+"translations. Their work has made the spread of Moodle across the world  "
+"possible."
+msgstr ""
+
+#: $string['creditstitlelong']
+msgid "Language pack maintainers and contributors"
+msgstr ""
+
+#: $string['creditstitleshort']
+msgid "Credits"
+msgstr ""
+
+#: $string['diff']
+msgid "Compare"
+msgstr ""
+
+#: $string['diffaction']
+msgid "If a difference is detected"
+msgstr ""
+
+#: $string['diffaction1']
+msgid "Stage both translations on their branches"
+msgstr ""
+
+#: $string['diffaction2']
+msgid "Stage the more recent translation on both branches"
+msgstr ""
+
+#: $string['diffmode']
+msgid "Stage strings if"
+msgstr ""
+
+#: $string['diffmode1']
+msgid "English strings have changed but translated ones have not"
+msgstr ""
+
+#: $string['diffmode2']
+msgid "English strings have not changed but translated ones have"
+msgstr ""
+
+#: $string['diffmode3']
+msgid "Either English or translated strings have changed (but not both)"
+msgstr ""
+
+#: $string['diffmode4']
+msgid "Both English and translated strings have changed"
+msgstr ""
+
+#: $string['diffprogress']
+msgid "Comparing selected branches"
+msgstr ""
+
+#: $string['diffprogressdone']
+msgid "Total of {$a} differences found"
+msgstr ""
+
+#: $string['diffstringmode']
+msgid "Switch diff mode"
+msgstr ""
+
+#: $string['diffstrings']
+msgid "Compare strings at two branches"
+msgstr ""
+
+#: $string['diffstrings_help']
+msgid ""
+"This will compare all strings at the two selected branches. If there is "
+"difference in strings on the branches, both versions are staged. You can "
+"then use \"Edit staged strings\" feature to review and fix the changes as "
+"needed."
+msgstr ""
+
+#: $string['diffversions']
+msgctxt "$string['diffversions']"
+msgid "Versions"
+msgstr ""
+
+#: $string['err_exception']
+msgid "Error: {$a}"
+msgstr ""
+
+#: $string['err_invalidlangcode']
+msgid "Invalid language code"
+msgstr ""
+
+#: $string['err_parser']
+msgid "Parsing error: {$a}"
+msgstr ""
+
+#: $string['filtercmp']
+msgctxt "$string['filtercmp']"
+msgid "Components"
+msgstr ""
+
+#: $string['filtercmp_desc']
+msgid "Show strings of these components"
+msgstr ""
+
+#: $string['filtercmpnothingselected']
+msgid "Please select some component"
+msgstr ""
+
+#: $string['filterlng']
+msgctxt "$string['filterlng']"
+msgid "Languages"
+msgstr ""
+
+#: $string['filterlng_desc']
+msgid "Display translations in these languages"
+msgstr ""
+
+#: $string['filterlngnothingselected']
+msgid "Please select some language"
+msgstr ""
+
+#: $string['filtermis']
+msgid "Miscellaneous"
+msgstr ""
+
+#: $string['filtermis_desc']
+msgid "Additional conditions on strings to display"
+msgstr ""
+
+#: $string['filtermisfglo']
+msgid "greylisted strings only"
+msgstr ""
+
+#: $string['filtermisfhas']
+msgid "translated strings only"
+msgstr ""
+
+#: $string['filtermisfhlp']
+msgid "help strings only"
+msgstr ""
+
+#: $string['filtermisfmis']
+msgid "missing and outdated strings only"
+msgstr ""
+
+#: $string['filtermisfout']
+msgid "outdated strings only"
+msgstr ""
+
+#: $string['filtermisfstg']
+msgid "staged strings only"
+msgstr ""
+
+#: $string['filtermisfwog']
+msgid "without greylisted strings"
+msgstr ""
+
+#: $string['filtersid']
+msgctxt "$string['filtersid']"
+msgid "String identifier"
+msgstr ""
+
+#: $string['filtersid_desc']
+msgid "The key in the array of strings"
+msgstr ""
+
+#: $string['filtersidpartial']
+msgid "partial match"
+msgstr ""
+
+#: $string['filtertxt']
+msgid "Substring"
+msgstr ""
+
+#: $string['filtertxtcasesensitive']
+msgid "case-sensitive"
+msgstr ""
+
+#: $string['filtertxt_desc']
+msgid "String must contain given text"
+msgstr ""
+
+#: $string['filtertxtregex']
+msgid "regex"
+msgstr ""
+
+#: $string['filterver']
+msgctxt "$string['filterver']"
+msgid "Versions"
+msgstr ""
+
+#: $string['filterver_desc']
+msgid "Show strings from these Moodle versions"
+msgstr ""
+
+#: $string['filtervernothingselected']
+msgid "Please select some version"
+msgstr ""
+
+#: $string['found']
+msgid ""
+"Found: {$a->found} &nbsp;&nbsp;&nbsp; Missing: {$a->missing} "
+"({$a->missingonpage})"
+msgstr ""
+
+#: $string['foundinfo']
+msgid "Number of found strings"
+msgstr ""
+
+#: $string['foundinfo_help']
+msgid ""
+"Shows the total number of rows in the translator table, number of missing "
+"translations and number of missing translations at the current page."
+msgstr ""
+
+#: $string['googletranslate']
+msgid "ask google"
+msgstr ""
+
+#: $string['gotofirst']
+msgid "go to the first page"
+msgstr ""
+
+#: $string['gotoprevious']
+msgid "go to the previous page"
+msgstr ""
+
+#: $string['greylisted']
+msgid "Greylisted strings"
+msgstr ""
+
+#: $string['greylisted_help']
+msgid ""
+"For legacy reasons, a Moodle language pack may contain strings that are no "
+"longer used but have not yet been deleted. These strings are 'greylisted'. "
+"Once it has been confirmed that a greylisted string is no longer used, it is "
+"removed from the language pack.\n"
+"\n"
+"If you notice a greylisted string which is still being used in Moodle, "
+"please inform us by a forum post in Translating Moodle course at this site. "
+"Otherwise, you can save valuable time by translating strings which are most "
+"likely used in Moodle and ignoring greylisted strings."
+msgstr ""
+
+#: $string['greylistedwarning']
+msgid "greylisted"
+msgstr ""
+
+#: $string['importfile']
+msgid "Import translated strings from file"
+msgstr ""
+
+#: $string['importfile_help']
+msgid ""
+"If you have your strings translated offline, you can stage them via this "
+"form.\n"
+"\n"
+"* The file must be valid Moodle PHP strings definition file. Look at "
+"`/lang/en/` directory of your Moodle installation for examples.\n"
+"* Name of the file must match the one with English strings definitons for "
+"the given component (like `moodle.php`, `assignment.php` or "
+"`enrol_manual.php`).\n"
+"\n"
+"All strings found in the file will be staged for the selected version and "
+"language.\n"
+"\n"
+"Multiple PHP files can be processed at once if you put them into a ZIP file."
+msgstr ""
+
+#: $string['importfile_link']
+msgid "local/amos/importfile"
+msgstr ""
+
+#: $string['language']
+msgctxt "$string['language']"
+msgid "Language"
+msgstr ""
+
+#: $string['languages']
+msgctxt "$string['languages']"
+msgid "Languages"
+msgstr ""
+
+#: $string['languagesall']
+msgctxt "$string['languagesall']"
+msgid "All"
+msgstr ""
+
+#: $string['languagesnone']
+msgctxt "$string['languagesnone']"
+msgid "None"
+msgstr ""
+
+#: $string['log']
+msgid "Log"
+msgstr ""
+
+#: $string['logfilterbranch']
+msgctxt "$string['logfilterbranch']"
+msgid "Versions"
+msgstr ""
+
+#: $string['logfiltercommithash']
+msgid "git hash"
+msgstr ""
+
+#: $string['logfiltercommitmsg']
+msgid "Commit message contains"
+msgstr ""
+
+#: $string['logfiltercommits']
+msgid "Commit filter"
+msgstr ""
+
+#: $string['logfiltercommittedafter']
+msgid "Committed after"
+msgstr ""
+
+#: $string['logfiltercommittedbefore']
+msgid "Committer before"
+msgstr ""
+
+#: $string['logfiltercomponent']
+msgctxt "$string['logfiltercomponent']"
+msgid "Components"
+msgstr ""
+
+#: $string['logfilterlang']
+msgctxt "$string['logfilterlang']"
+msgid "Languages"
+msgstr ""
+
+#: $string['logfiltershow']
+msgid "Show filtered commits and strings"
+msgstr ""
+
+#: $string['logfiltersource']
+msgid "Source"
+msgstr ""
+
+#: $string['logfiltersourceamos']
+msgid "amos (web based translator)"
+msgstr ""
+
+#: $string['logfiltersourceautomerge']
+msgid "automerge (translation copied from another branch)"
+msgstr ""
+
+#: $string['logfiltersourcebot']
+msgid "bot (bulk operations executed by a script)"
+msgstr ""
+
+#: $string['logfiltersourcecommitscript']
+msgid "commitscript (AMOScript in the commit message)"
+msgstr ""
+
+#: $string['logfiltersourcefixdrift']
+msgid "fixdrift (fixed AMOS-git drift)"
+msgstr ""
+
+#: $string['logfiltersourcegit']
+msgid "git (git mirror of Moodle source code and 1.x packs)"
+msgstr ""
+
+#: $string['logfiltersourceimport']
+msgid "import (imported strings for a contributed plugin)"
+msgstr ""
+
+#: $string['logfiltersourcerevclean']
+msgid "revclean (reverse clean-up process)"
+msgstr ""
+
+#: $string['logfilterstringid']
+msgctxt "$string['logfilterstringid']"
+msgid "String identifier"
+msgstr ""
+
+#: $string['logfilterstrings']
+msgid "String filter"
+msgstr ""
+
+#: $string['logfilterusergrp']
+msgid "Committer"
+msgstr ""
+
+#: $string['logfilterusergrpor']
+msgid "or"
+msgstr ""
+
+#: $string['maintainers']
+msgid "Maintainers"
+msgstr ""
+
+#: $string['markuptodate']
+msgid "Marking the translation as up-to-date"
+msgstr ""
+
+#: $string['markuptodate_help']
+msgid ""
+"AMOS detected that the string may be outdated as the English version was "
+"modified after it had been translated. Review the translation. If you find "
+"it up-to-date, click the checkbox. Edit it otherwise."
+msgstr ""
+
+#: $string['markuptodatelabel']
+msgid "Mark as up-to-date"
+msgstr ""
+
+#: $string['markuptodate_link']
+msgid "local/amos/outdatedstrings"
+msgstr ""
+
+#: $string['merge']
+msgid "Merge"
+msgstr ""
+
+#: $string['mergestrings']
+msgid "Merge strings from another branch"
+msgstr ""
+
+#: $string['mergestrings_help']
+msgid ""
+"This will pick and stage all strings from the source branch that are not "
+"translated yet in the target branch and are used there. You can use this "
+"tool to copy a translated string into all other versions of the pack. Only "
+"language pack maintainers can use this tool."
+msgstr ""
+
+#: $string['mergestrings_link']
+msgid "local/amos/merge"
+msgstr ""
+
+#: $string['messageprovider:checker']
+msgid "Language pack checker results"
+msgstr ""
+
+#: $string['messageprovider:contribution']
+msgid "Contributed translations"
+msgstr ""
+
+#: $string['morefilteringoptions']
+msgid "More options"
+msgstr ""
+
+#: $string['newlanguage']
+msgid "New language"
+msgstr ""
+
+#: $string['nodiffs']
+msgid "No differences found"
+msgstr ""
+
+#: $string['nofiletoimport']
+msgid "Please provide a file to import from."
+msgstr ""
+
+#: $string['nologsfound']
+msgid "No strings found, please modify filters"
+msgstr ""
+
+#: $string['nostringsfound']
+msgid "No strings found"
+msgstr ""
+
+#: $string['nostringsfoundonpage']
+msgid "No strings found on page {$a}"
+msgstr ""
+
+#: $string['nostringtoimport']
+msgid ""
+"No valid string found in the file. Make sure the file has correct filename "
+"and is properly formatted."
+msgstr ""
+
+#: $string['nothingtomerge']
+msgid ""
+"The source branch does not contain any new strings that would be missing at "
+"the target branch. Nothing to merge."
+msgstr ""
+
+#: $string['nothingtostage']
+msgid "The operation did not return any string that could be staged."
+msgstr ""
+
+#: $string['novalidzip']
+msgid "Unable to extract the ZIP file."
+msgstr ""
+
+#: $string['numofcommitsabovelimit']
+msgid ""
+"Found {$a->found} commits matching the commit filter, using {$a->limit} most "
+"recent"
+msgstr ""
+
+#: $string['numofcommitsunderlimit']
+msgid "Found {$a->found} commits matching the commit filter"
+msgstr ""
+
+#: $string['numofmatchingstrings']
+msgid ""
+"Within that, {$a->strings} modifications in {$a->commits} commits match the "
+"string filter"
+msgstr ""
+
+#: $string['outdatednotcommitted']
+msgid "Outdated string"
+msgstr ""
+
+#: $string['outdatednotcommitted_help']
+msgid ""
+"AMOS detected that the string may be outdated as the English version was "
+"modified after it had been translated. Please review the translation."
+msgstr ""
+
+#: $string['outdatednotcommittedwarning']
+msgid "Outdated"
+msgstr ""
+
+#: $string['ownstashactions']
+msgid "Stash actions"
+msgstr ""
+
+#: $string['ownstashactions_help']
+msgid ""
+"* Apply - copy the translated strings from the stash into the stage and keep "
+"the stash unmodified. If the string is already in the stage, it is "
+"overwritten with the stashed one.\n"
+"* Pop - move the translated strings from the stash into the stage and drop "
+"the stash (that is Apply and Drop).\n"
+"* Drop - throw away the stashed strings.\n"
+"* Submit - opens a form for submitting the stash to the official language "
+"maintainers so they can include your contribution in the official language "
+"pack."
+msgstr ""
+
+#: $string['ownstashes']
+msgid "Your stashes"
+msgstr ""
+
+#: $string['ownstashes_help']
+msgid "This is a list of all your stashes."
+msgstr ""
+
+#: $string['ownstashesnone']
+msgid "No own stashes found"
+msgstr ""
+
+#: $string['permalink']
+msgid "Permalink"
+msgstr ""
+
+#: $string['placeholder']
+msgid "Placeholders"
+msgstr ""
+
+#: $string['placeholder_help']
+msgid ""
+"Placeholders are special statements like `{$a}` or `{$a->something}` within "
+"the string. They are replaced with a value when the string is actually "
+"printed.\n"
+"\n"
+"It is important to copy them exactly as they are in the original string. Do "
+"not translate them nor change their left-to-right orientation."
+msgstr ""
+
+#: $string['placeholderwarning']
+msgid "placeholders"
+msgstr ""
+
+#: $string['pluginclasscore']
+msgctxt "$string['pluginclasscore']"
+msgid "Core subsystems"
+msgstr ""
+
+#: $string['pluginclassnonstandard']
+msgctxt "$string['pluginclassnonstandard']"
+msgid "Non-standard plugins"
+msgstr ""
+
+#: $string['pluginclassstandard']
+msgctxt "$string['pluginclassstandard']"
+msgid "Standard plugins"
+msgstr ""
+
+#: $string['pluginname']
+msgid "AMOS"
+msgstr ""
+
+#: $string['presetcommitmessage']
+msgid "Contributed translation #{$a->id} by {$a->author}"
+msgstr ""
+
+#: $string['presetcommitmessage2']
+msgid "Merged missing strings from {$a->source} to {$a->target} branch"
+msgstr ""
+
+#: $string['presetcommitmessage3']
+msgid "Fixing differences between {$a->versiona} and {$a->versionb}"
+msgstr ""
+
+#: $string['privileges']
+msgid "Your privileges"
+msgstr ""
+
+#: $string['privilegesnone']
+msgid "You have read-only access to public information."
+msgstr ""
+
+#: $string['processing']
+msgid "Processing ..."
+msgstr ""
+
+#: $string['propagate']
+msgid "Propagate translations"
+msgstr ""
+
+#: $string['propagatednone']
+msgid "No translations propagated"
+msgstr ""
+
+#: $string['propagatedsome']
+msgid "{$a} staged translations propagated"
+msgstr ""
+
+#: $string['propagate_help']
+msgid ""
+"Staged translations can be propagated to selected branches. AMOS iterates "
+"over the list of staged translations and tries to apply them to each "
+"selected target branch. Propagation is not possible if:\n"
+"\n"
+"* the English originals of the string are different on the source and target "
+"branches,\n"
+"* the string is staged several times with different translation"
+msgstr ""
+
+#: $string['propagaterun']
+msgid "Propagate"
+msgstr ""
+
+#: $string['quicklinks']
+msgid "Quick links"
+msgstr ""
+
+#: $string['quicklinks_amos']
+msgid "AMOS translator"
+msgstr ""
+
+#: $string['quicklinks_forum']
+msgid "Translation forum"
+msgstr ""
+
+#: $string['quicklinks_manual']
+msgid "User manual"
+msgstr ""
+
+#: $string['quicklinks_newcomers']
+msgid "Help for newcomers"
+msgstr ""
+
+#: $string['requestactions']
+msgid "Action"
+msgstr ""
+
+#: $string['requestactions_help']
+msgid ""
+"* Apply - copy the translated strings from the pull request into your stage. "
+"If the string is already in the stage, it is overwritten with the stashed "
+"one.\n"
+"* Hide - blocks the pull request so that it is not displayed to you any "
+"more."
+msgstr ""
+
+#: $string['savefilter']
+msgid "Save filter settings"
+msgstr ""
+
+#: $string['script']
+msgid "AMOScript"
+msgstr ""
+
+#: $string['scriptexecute']
+msgid "Execute and stage result"
+msgstr ""
+
+#: $string['script_help']
+msgid ""
+"AMOScript is a set of instructions to execute over the strings repository."
+msgstr ""
+
+#: $string['sourceversion']
+msgid "Source version"
+msgstr ""
+
+#: $string['stage']
+msgid "Stage"
+msgstr ""
+
+#: $string['stageactions']
+msgid "Stage actions"
+msgstr ""
+
+#: $string['stageactions_help']
+msgid ""
+"* Edit staged strings - modifies the translator filter settings so that only "
+"staged translations are displayed.\n"
+"* Prune non-committable strings - unstage all translations that you are not "
+"allowed to commit. Stage is pruned automatically before it is committed.\n"
+"* Rebase - unstage all translations that either do not modify the current "
+"translation or are older than the most recent translation in the repository. "
+"Stage is rebased automatically before it is committed.\n"
+"* Unstage all - clears the stage, all staged translations are lost."
+msgstr ""
+
+#: $string['stageedit']
+msgid "Edit staged strings"
+msgstr ""
+
+#: $string['stageprune']
+msgid "Prune non-committable"
+msgstr ""
+
+#: $string['stagerebase']
+msgid "Rebase"
+msgstr ""
+
+#: $string['stagestringsnocommit']
+msgid "There are {$a->staged} staged strings"
+msgstr ""
+
+#: $string['stagestringsnone']
+msgid "There are no staged strings"
+msgstr ""
+
+#: $string['stagestringssome']
+msgid ""
+"There are {$a->staged} staged strings, {$a->committable} of them can be "
+"committed"
+msgstr ""
+
+#: $string['stagesubmit']
+msgid "Send strings to language pack maintainers"
+msgstr ""
+
+#: $string['stagetoolopen']
+msgid "Go to the stage"
+msgstr ""
+
+#: $string['stagetranslation']
+msgctxt "$string['stagetranslation']"
+msgid "Translation"
+msgstr ""
+
+#: $string['stagetranslation_help']
+msgid ""
+"Displays the staged translation to be committed. The background color of the "
+"cell means:\n"
+"\n"
+"* Green - you have added a missing translation and you are allowed to commit "
+"it.\n"
+"* Yellow - you have modified a string and you are allowed to commit the "
+"change.\n"
+"* Blue - you have modified the translation or added a missing translation "
+"but you are not allowed to commit it into the given language.\n"
+"* No color - the staged translation is the same as the current one and "
+"therefore will not be committed."
+msgstr ""
+
+#: $string['stageunstageall']
+msgid "Unstage all"
+msgstr ""
+
+#: $string['stashactions']
+msgid "Save work in progress"
+msgstr ""
+
+#: $string['stashactions_help']
+msgid ""
+"Stash is a snapshot of the current stage. Stashes can be submitted to the "
+"official language pack maintainers for inclusion into the language pack."
+msgstr ""
+
+#: $string['stashapply']
+msgctxt "$string['stashapply']"
+msgid "Apply"
+msgstr ""
+
+#: $string['stashautosave']
+msgid "Automatically saved backup stash"
+msgstr ""
+
+#: $string['stashautosave_help']
+msgid ""
+"This stash contains the most recent snapshot of your stage. You can use it "
+"as a backup for cases when all strings are unstaged by accident, for "
+"example. Use 'Apply' action to copy all stashed strings back into the stage "
+"(will overwrite the string if it is already staged)."
+msgstr ""
+
+#: $string['stashcomponents']
+msgid "<span>Components:</span> {$a}"
+msgstr ""
+
+#: $string['stashdrop']
+msgid "Drop"
+msgstr ""
+
+#: $string['stashes']
+msgid "Stashes"
+msgstr ""
+
+#: $string['stashlanguages']
+msgid "<span>Languages:</span> {$a}"
+msgstr ""
+
+#: $string['stashpop']
+msgid "Pop"
+msgstr ""
+
+#: $string['stashpush']
+msgid "Push all staged strings into a new stash"
+msgstr ""
+
+#: $string['stashstrings']
+msgid "<span>Number of strings:</span> {$a}"
+msgstr ""
+
+#: $string['stashsubmit']
+msgid "Submit to maintainers"
+msgstr ""
+
+#: $string['stashsubmitdetails']
+msgid "Submitting details"
+msgstr ""
+
+#: $string['stashsubmitmessage']
+msgid "Message"
+msgstr ""
+
+#: $string['stashsubmitsubject']
+msgctxt "$string['stashsubmitsubject']"
+msgid "Subject"
+msgstr ""
+
+#: $string['stashtitle']
+msgid "Stash title"
+msgstr ""
+
+#: $string['stashtitledefault']
+msgid "Work in progress - {$a->time}"
+msgstr ""
+
+#: $string['stringhistory']
+msgid "History"
+msgstr ""
+
+#: $string['strings']
+msgctxt "$string['strings']"
+msgid "Strings"
+msgstr ""
+
+#: $string['submitting']
+msgid "Submitting a contribution"
+msgstr ""
+
+#: $string['submitting_help']
+msgid ""
+"This will send translated strings to official language maintainers. They "
+"will be able to apply your work into their stage, review it and eventually "
+"commit. Please provide a message for them describing your work and why you "
+"would like to see your contribution included."
+msgstr ""
+
+#: $string['targetversion']
+msgid "Target version"
+msgstr ""
+
+#: $string['timeline']
+msgid "timeline"
+msgstr ""
+
+#: $string['translatortool']
+msgid "Translator"
+msgstr ""
+
+#: $string['translatortoolopen']
+msgid "Open AMOS translator"
+msgstr ""
+
+#: $string['translatortranslation']
+msgctxt "$string['translatortranslation']"
+msgid "Translation"
+msgstr ""
+
+#: $string['translatortranslation_help']
+msgid ""
+"Click the cell to turn it into the input editor. Insert the translation and "
+"click outside the cell to stage the translation. The background color of the "
+"cell means:\n"
+"\n"
+"* Green - the string is already translated, you can eventually modify the "
+"translation.\n"
+"* Yellow - the string may be out-dated. The English original was probably "
+"modified after the string had been translated.\n"
+"* Red - the string is not translated yet.\n"
+"* Blue - you have modified the translation and it is now staged.\n"
+"* Grey - AMOS can't be used to translate this string. For example strings "
+"for Moodle 1.9 must be edited via the legacy CVS access only.\n"
+"\n"
+"Language pack maintainers can see a small red symbol in the corner of the "
+"cells they are allowed to commit."
+msgstr ""
+
+#: $string['typecontrib']
+msgctxt "$string['typecontrib']"
+msgid "Non-standard plugins"
+msgstr ""
+
+#: $string['typecore']
+msgctxt "$string['typecore']"
+msgid "Core subsystems"
+msgstr ""
+
+#: $string['typestandard']
+msgctxt "$string['typestandard']"
+msgid "Standard plugins"
+msgstr ""
+
+#: $string['unableenfixaddon']
+msgid "English fixes allowed for standard plugins only"
+msgstr ""
+
+#: $string['unableenfixcountries']
+msgid "Country names are copied from ISO 3166-1"
+msgstr ""
+
+#: $string['unstage']
+msgid "Unstage"
+msgstr ""
+
+#: $string['unstageconfirm']
+msgid "Really?"
+msgstr ""
+
+#: $string['unstaging']
+msgid "Unstaging"
+msgstr ""
+
+#: $string['untranslate']
+msgid "untranslate"
+msgstr ""
+
+#: $string['untranslateconfirm']
+msgid ""
+"<p>You are going to remove existing translation of the string "
+"<code>{$a->stringid}</code>, component <code>{$a->component}</code>, from "
+"all the versions of the language pack <code>{$a->language}</code>.</p><p>Are "
+"you sure?</p>"
+msgstr ""
+
+#: $string['untranslatetitle']
+msgid "Removing translation from the language pack"
+msgstr ""
+
+#: $string['untranslating']
+msgid "Untranslating"
+msgstr ""
+
+#: $string['version']
+msgid "Version"
+msgstr ""

@@ -1,0 +1,271 @@
+#. extracted from lang/en/amvonetroom.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'amvonetroom', language 'en', branch 'MOODLE_28_STABLE'
+#.  *
+#.  * @package   amvonetroom
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['amvonetroom:moderator']
+msgctxt "$string['amvonetroom:moderator']"
+msgid "Moderator"
+msgstr ""
+
+#: $string['error']
+msgid "{$a}"
+msgstr ""
+
+#: $string['error_backup_fail']
+msgid ""
+"An error occurred during back up of the {$a->session} session. Please "
+"contact {$a->support_begin}support{$a->support_end}."
+msgstr ""
+
+#: $string['error_backup_fail_with_msg']
+msgid ""
+"An error occurred during back up of the {$a->session} session: {$a->message}"
+msgstr ""
+
+#: $string['error_backup_space_limit_reached']
+msgid ""
+"Backup space limit is reached. Please contact your school administrator and "
+"report about this problem."
+msgstr ""
+
+#: $string['error_key_not_defined']
+msgid "AMVONET Room module isn't registered."
+msgstr ""
+
+#: $string['error_limit_reached']
+msgid ""
+"Limits are reached. Please contact your school administrator and report "
+"about this problem."
+msgstr ""
+
+#: $string['error_school_bad_request']
+msgid ""
+"master.amvonet.com reported bad request. Please call to AMVONET technical "
+"support."
+msgstr ""
+
+#: $string['error_school_forbidden']
+msgid ""
+"master.amvonet.com declined request. Please call to AMVONET technical "
+"support."
+msgstr ""
+
+#: $string['error_school_not_registered']
+msgid "The school isn't registered on master.amvonet.com"
+msgstr ""
+
+#: $string['error_session_restoring']
+msgid "Unable to backup, session is being restored now. Please, try later."
+msgstr ""
+
+#: $string['error_storage_space_limit_reached']
+msgid ""
+"Disk space limit is reached. Please contact your school administrator and "
+"report about this problem."
+msgstr ""
+
+#: $string['error_unavailable']
+msgid "master.amvonet.com is temporary unavailable."
+msgstr ""
+
+#: $string['error_version_incompatible']
+msgid ""
+"master.amvonet.com doesn't support current version of AMVONET Room module. "
+"Please call to AMVONET technical support."
+msgstr ""
+
+#: $string['error_version_too_old']
+msgid "AMVONET Room module has too old version. Please update module."
+msgstr ""
+
+#: $string['formatdate']
+msgid "Y-m-d h:i"
+msgstr ""
+
+#: $string['introduction_text']
+msgid "Introduction text"
+msgstr ""
+
+#: $string['key_caption']
+msgid "Registration key"
+msgstr ""
+
+#: $string['key_hint']
+msgid ""
+"Register your AMVONET Room module on master.amvonet.com and get your key."
+msgstr ""
+
+#: $string['label_domain']
+msgid "Domain"
+msgstr ""
+
+#: $string['label_status']
+msgid "Status"
+msgstr ""
+
+#: $string['label_version']
+msgid "Version"
+msgstr ""
+
+#: $string['label_version_enterprise']
+msgid "Enterprise"
+msgstr ""
+
+#: $string['label_version_lite']
+msgid "Lite"
+msgstr ""
+
+#: $string['label_version_pro']
+msgid "Pro"
+msgstr ""
+
+#: $string['label_version_type_com']
+msgctxt "$string['label_version_type_com']"
+msgid "Commercial"
+msgstr ""
+
+#: $string['label_version_type_direct_sale']
+msgctxt "$string['label_version_type_direct_sale']"
+msgid "Commercial"
+msgstr ""
+
+#: $string['label_version_type_free']
+msgid "Free"
+msgstr ""
+
+#: $string['label_version_type_testing']
+msgid "Testing"
+msgstr ""
+
+#: $string['label_version_type_trial']
+msgid "Trial"
+msgstr ""
+
+#: $string['label_warning']
+msgid "Warning"
+msgstr ""
+
+#: $string['link_account']
+msgid "My Account"
+msgstr ""
+
+#: $string['link_buy']
+msgid "Buy"
+msgstr ""
+
+#: $string['link_register']
+msgid "Register plugin"
+msgstr ""
+
+#: $string['link_support']
+msgid "Support"
+msgstr ""
+
+#: $string['message_firewall_not_configured']
+msgid ""
+"Sorry, requested operation has been failed due to misconfiguration. You can "
+"find the most possible reasons and solutions by visiting {$a->kb_begin}THE "
+"FOLLOWING URL{$a->kb_end}. In the meantime please feel free to contact our "
+"{$a->support_begin}support{$a->support_end} if you need an assistance."
+msgstr ""
+
+#: $string['moderator']
+msgctxt "$string['moderator']"
+msgid "Moderator"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "AMVONET Room"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"The AMVONET Room is used for the creation of webinars and creation of "
+"interactive presentations. You can also edit the recordings using this tool."
+msgstr ""
+
+#: $string['modulenameplural']
+msgctxt "$string['modulenameplural']"
+msgid "AMVONET Room"
+msgstr ""
+
+#: $string['name_live_this_session']
+msgid "Name of this room"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "AMVONET Room Administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "AMVONET Room"
+msgstr ""
+
+#: $string['status_active']
+msgid "Active"
+msgstr ""
+
+#: $string['status_active_till']
+msgid "till"
+msgstr ""
+
+#: $string['status_blocked']
+msgid "Blocked"
+msgstr ""
+
+#: $string['status_blocked_since']
+msgid "since"
+msgstr ""
+
+#: $string['status_no_key']
+msgid "Not Registered"
+msgstr ""
+
+#: $string['warn_missed_plugin']
+msgid "AMVONET Room module requires {$a} PHP extension. Please install it."
+msgstr ""
+
+#: $string['warn_missed_plugins']
+msgid ""
+"AMVONET Room module requires the following PHP extensions: {$a}. Please "
+"install them."
+msgstr ""
+
+#: $string['warn_no_crossdomain']
+msgid ""
+"Cross-domain policy isn't set up properly. Refer to Installation Guide for "
+"details."
+msgstr ""

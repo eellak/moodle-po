@@ -1,0 +1,400 @@
+#. extracted from lang/en/block_admin_presets.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:07+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_admin_presets', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   block_admin_presets
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['accessdenied']
+msgid "Access denied"
+msgstr ""
+
+#: $string['actionbase']
+msgid "Presets"
+msgstr ""
+
+#: $string['actiondelete']
+msgid "Delete preset"
+msgstr ""
+
+#: $string['actionexport']
+msgid "Export settings"
+msgstr ""
+
+#: $string['actionimport']
+msgid "Import settings"
+msgstr ""
+
+#: $string['actionload']
+msgid "Load settings"
+msgstr ""
+
+#: $string['actionrollback']
+msgid "Revert applied changes"
+msgstr ""
+
+#: $string['actualvalue']
+msgid "Actual value"
+msgstr ""
+
+#: $string['admin_presets:addinstance']
+msgid "Add a new admin presets block"
+msgstr ""
+
+#: $string['adminsettings']
+msgid "Admin settings"
+msgstr ""
+
+#: $string['author']
+msgid "Author"
+msgstr ""
+
+#: $string['autohidesensiblesettings']
+msgid "Auto exclude sensitive settings"
+msgstr ""
+
+#: $string['baseshow']
+msgid "list presets"
+msgstr ""
+
+#: $string['created']
+msgid "Created"
+msgstr ""
+
+#: $string['deleteexecute']
+msgid "execution"
+msgstr ""
+
+#: $string['deletepreset']
+msgid "Preset {$a} will be deleted, are you sure?"
+msgstr ""
+
+#: $string['deletepreviouslyapplied']
+msgid ""
+"This preset has been previously applied, if you delete it you can not return "
+"to the previous state"
+msgstr ""
+
+#: $string['deleteshow']
+msgid "confirm"
+msgstr ""
+
+#: $string['errordeleting']
+msgid "Error deleting from DB"
+msgstr ""
+
+#: $string['errorinserting']
+msgid "Error inserting into DB"
+msgstr ""
+
+#: $string['errornopreset']
+msgid "It doesn't exists a preset with that name"
+msgstr ""
+
+#: $string['errorupgradetablenames']
+msgid ""
+"admin_presets upgrade failed, upgrade Moodle in order to upgrade "
+"admin_presets. You can restore the previous blocks/admin_presets code until "
+"then"
+msgstr ""
+
+#: $string['errorupgradetablenamesdebug']
+msgid ""
+"The table names exceeds the limit of allowed characters, this is solved "
+"using the latest Moodle 2.0, Moodle 2.1 and Moodle 2.2 releases"
+msgstr ""
+
+#: $string['eventpresetdeleted']
+msgid "Preset deleted"
+msgstr ""
+
+#: $string['eventpresetdownloaded']
+msgid "Preset downloaded"
+msgstr ""
+
+#: $string['eventpresetexported']
+msgid "Preset exported"
+msgstr ""
+
+#: $string['eventpresetimported']
+msgctxt "$string['eventpresetimported']"
+msgid "Preset imported"
+msgstr ""
+
+#: $string['eventpresetloaded']
+msgid "Preset loaded"
+msgstr ""
+
+#: $string['eventpresetpreviewed']
+msgid "Preset previewed"
+msgstr ""
+
+#: $string['eventpresetreverted']
+msgid "Preset reverted"
+msgstr ""
+
+#: $string['eventpresetslisted']
+msgid "Presets have been listed"
+msgstr ""
+
+#: $string['exportexecute']
+msgid "saving"
+msgstr ""
+
+#: $string['exportshow']
+msgctxt "$string['exportshow']"
+msgid "select settings"
+msgstr ""
+
+#: $string['falseaction']
+msgid "Action not supported in this version"
+msgstr ""
+
+#: $string['falsemode']
+msgid "Mode not supported in this version"
+msgstr ""
+
+#: $string['headingload']
+msgid "Select settings to load"
+msgstr ""
+
+#: $string['imported']
+msgid "Imported"
+msgstr ""
+
+#: $string['importexecute']
+msgid "importing"
+msgstr ""
+
+#: $string['importshow']
+msgid "select file"
+msgstr ""
+
+#: $string['load']
+msgid "load"
+msgstr ""
+
+#: $string['loadexecute']
+msgid "applied changes"
+msgstr ""
+
+#: $string['loadpreview']
+msgid "preview preset"
+msgstr ""
+
+#: $string['loadselected']
+msgid "Load selected settings"
+msgstr ""
+
+#: $string['loadshow']
+msgctxt "$string['loadshow']"
+msgid "select settings"
+msgstr ""
+
+#: $string['markedasadvanced']
+msgid "marked as advanced"
+msgstr ""
+
+#: $string['markedasforced']
+msgid "marked as forced"
+msgstr ""
+
+#: $string['markedaslocked']
+msgid "marked as locked"
+msgstr ""
+
+#: $string['markedasnonadvanced']
+msgid "marked as non advanced"
+msgstr ""
+
+#: $string['markedasnonforced']
+msgid "marked as non forced"
+msgstr ""
+
+#: $string['markedasnonlocked']
+msgid "marked as non locked"
+msgstr ""
+
+#: $string['newvalue']
+msgid "New setting value"
+msgstr ""
+
+#: $string['noparamtype']
+msgid "There are no param type for that setting"
+msgstr ""
+
+#: $string['nopresets']
+msgid "You don't have presets"
+msgstr ""
+
+#: $string['nothingloaded']
+msgid "All preset settings skipped, they are already loaded"
+msgstr ""
+
+#: $string['notpreviouslyapplied']
+msgid "Preset not previously applied"
+msgstr ""
+
+#: $string['novalidsettings']
+msgid "No valid settings"
+msgstr ""
+
+#: $string['novalidsettingsselected']
+msgid "No valid settings selected"
+msgstr ""
+
+#: $string['oldvalue']
+msgid "Old setting value"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Admin presets"
+msgstr ""
+
+#: $string['presetmoodlerelease']
+msgid "Moodle release"
+msgstr ""
+
+#: $string['presetname']
+msgid "Preset name"
+msgstr ""
+
+#: $string['presetsettings']
+msgid "Preset settings"
+msgstr ""
+
+#: $string['preview']
+msgid "preview"
+msgstr ""
+
+#: $string['previewpreset']
+msgid "Preview preset"
+msgstr ""
+
+#: $string['renamepreset']
+msgid "Rename preset"
+msgstr ""
+
+#: $string['rollback']
+msgid "revert"
+msgstr ""
+
+#: $string['rollbackexecute']
+msgid "return to previous state"
+msgstr ""
+
+#: $string['rollbackfailures']
+msgid ""
+"The following settings can not be restored, the actual values differs from "
+"the values applied by the preset"
+msgstr ""
+
+#: $string['rollbackresults']
+msgid "Settings successfully restored"
+msgstr ""
+
+#: $string['rollbackshow']
+msgid "preset applications list"
+msgstr ""
+
+#: $string['selectedvalues']
+msgid "setting selected values"
+msgstr ""
+
+#: $string['selectfile']
+msgid "Select file"
+msgstr ""
+
+#: $string['sensiblesettings']
+msgid ""
+"Sensitive setting to skip if \"Auto exclude sensitive settings\" is checked"
+msgstr ""
+
+#: $string['sensiblesettingstext']
+msgid "Add elements separating by ',' and with format SETTINGNAME@@PLUGINNAME"
+msgstr ""
+
+#: $string['settingname']
+msgid "Setting name"
+msgstr ""
+
+#: $string['settingsapplied']
+msgid "Settings applied"
+msgstr ""
+
+#: $string['settingsnotapplicable']
+msgid "Settings not applicable to this Moodle version"
+msgstr ""
+
+#: $string['settingsnotapplied']
+msgid "Settings skipped, they are all already loaded"
+msgstr ""
+
+#: $string['settingvalue']
+msgid "with value"
+msgstr ""
+
+#: $string['site']
+msgid "Site"
+msgstr ""
+
+#: $string['successimported']
+msgctxt "$string['successimported']"
+msgid "Preset imported"
+msgstr ""
+
+#: $string['timeapplied']
+msgid "Time applied"
+msgstr ""
+
+#: $string['toexportclick']
+msgid "To export your settings click {$a}"
+msgstr ""
+
+#: $string['toimportclick']
+msgid "To import a admin preset click {$a}"
+msgstr ""
+
+#: $string['value']
+msgid "setting value"
+msgstr ""
+
+#: $string['voidvalue']
+msgid "that setting does not have a value"
+msgstr ""
+
+#: $string['wrongfile']
+msgid "Wrong file"
+msgstr ""
+
+#: $string['wrongid']
+msgid "Wrong id"
+msgstr ""

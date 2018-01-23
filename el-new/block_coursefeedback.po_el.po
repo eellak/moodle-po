@@ -1,0 +1,444 @@
+#. extracted from lang/en/block_coursefeedback.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_coursefeedback', language 'en', branch 'MOODLE_31_STABLE'
+#.  *
+#.  * @package   block_coursefeedback
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['adminpage_html_activefeedbacka']
+msgid "Current survey:"
+msgstr ""
+
+#: $string['adminpage_html_activefeedbackb']
+msgid ""
+"Choose a questionnaire. This will be provided for evaluation in block "
+"\"Course feedback\".<br />You can change the available questions under "
+"\"edit/create survey\"."
+msgstr ""
+
+#: $string['adminpage_html_allowhidinga']
+msgid "Allow hiding"
+msgstr ""
+
+#: $string['adminpage_html_allowhidingb']
+msgid "If enabled, teachers can eidt the visibility of the block."
+msgstr ""
+
+#: $string['adminpage_html_defaultlanguagea']
+msgid "Default language"
+msgstr ""
+
+#: $string['adminpage_html_defaultlanguageb']
+msgid ""
+"Questions in the default language will be shown, if other languages fail to "
+"load (i.e. if questions in a user-prefered language aren't defined). That "
+"means you must at least define all questions in the default language!"
+msgstr ""
+
+#: $string['adminpage_html_notinstalled']
+msgid "'{$a}' (not installed)"
+msgstr ""
+
+#: $string['adminpage_html_ratingtresholda']
+msgid "Rating treshold"
+msgstr ""
+
+#: $string['adminpage_html_ratingtresholdb']
+msgid ""
+"The number of responses required until an overall rating is displayed in the "
+"block."
+msgstr ""
+
+#: $string['adminpage_html_setstickya']
+msgid "Stick it"
+msgstr ""
+
+#: $string['adminpage_html_setstickyb']
+msgid ""
+"If enabled, an instance of this block, which cannot be deleted by the "
+"teachers, appears in each course main page."
+msgstr ""
+
+#: $string['adminpage_link_feedbackedit']
+msgid "edit/create survey"
+msgstr ""
+
+#: $string['caution']
+msgid "Warning"
+msgstr ""
+
+#: $string['copyof']
+msgid "Copy of \"{$a}\""
+msgstr ""
+
+#: $string['coursefeedback:addinstance']
+msgid "Add this block to course site"
+msgstr ""
+
+#: $string['coursefeedback:download']
+msgid "Save result of the current coursefeedback into a file"
+msgstr ""
+
+#: $string['coursefeedback:evaluate']
+msgid "Evaluate current coursefeedback"
+msgstr ""
+
+#: $string['coursefeedback:managefeedbacks']
+msgid "Edit global settings of the coursefeedback block"
+msgstr ""
+
+#: $string['coursefeedback:myaddinstance']
+msgid ""
+"Add this block to \"My home\"  page (since it is useless there, it should be "
+"forbidden for everyone)"
+msgstr ""
+
+#: $string['coursefeedback:viewanswers']
+msgid "See the analysis of the current coursefeedback"
+msgstr ""
+
+#: $string['download_html_filename']
+msgid "Results"
+msgstr ""
+
+#: $string['download_thead_questions']
+msgid "Question"
+msgstr ""
+
+#: $string['eventevaluated']
+msgid "Course evaluated"
+msgstr ""
+
+#: $string['eventviewed']
+msgid "Results viewed"
+msgstr ""
+
+#: $string['form_area_questiontext']
+msgid "Edit text"
+msgstr ""
+
+#: $string['form_header_addlang']
+msgid "Add a text for another language"
+msgstr ""
+
+#: $string['form_header_confirm']
+msgid "Confirmation necessary"
+msgstr ""
+
+#: $string['form_header_deleteanswers']
+msgid "Delete user answers"
+msgstr ""
+
+#: $string['form_header_deletelang']
+msgctxt "$string['form_header_deletelang']"
+msgid "Delete language(s)"
+msgstr ""
+
+#: $string['form_header_editfeedback']
+msgid "Edit survey"
+msgstr ""
+
+#: $string['form_header_editquestion']
+msgid "Edit question"
+msgstr ""
+
+#: $string['form_header_newfeedback']
+msgid "New survey"
+msgstr ""
+
+#: $string['form_header_newquestion']
+msgid "New question"
+msgstr ""
+
+#: $string['form_header_question']
+msgid "Question {$a}"
+msgstr ""
+
+#: $string['form_html_currentlang']
+msgid "You are editting {$a}"
+msgstr ""
+
+#: $string['form_html_deleteanswerstext']
+msgid ""
+"The questionaire cannot be edited at present, as user answers exist already. "
+"You can delete all responses now or copy the feedback."
+msgstr ""
+
+#: $string['form_html_deleteanswerswarning']
+msgid ""
+"This data will be irretrievably lost upo deletion of the user answers. "
+"<br/>Please ensure yourself that this data is not required anymore"
+msgstr ""
+
+#: $string['form_html_nolangimplemented']
+msgid "This feedback has no implemented languages."
+msgstr ""
+
+#: $string['form_html_notextendable']
+msgid ""
+"You cannot extend this question, because there are no additional languages "
+"available."
+msgstr ""
+
+#: $string['form_select_changepos']
+msgid "Determine new position"
+msgstr ""
+
+#: $string['form_select_confirmyesno']
+msgid "Do you really want to delete?"
+msgstr ""
+
+#: $string['form_select_deleteanswers']
+msgid "Delete user answers?"
+msgstr ""
+
+#: $string['form_select_newlang']
+msgid "Language"
+msgstr ""
+
+#: $string['form_select_unwantedlang']
+msgid ""
+"Choose language <br/><span style=\"font-size: x-small;\">(multiple choise "
+"possible)<span>"
+msgstr ""
+
+#: $string['form_submit_feedbacksubmit']
+msgid "Save evaluation"
+msgstr ""
+
+#: $string['page_headline_admin']
+msgid "Course feedback Administration"
+msgstr ""
+
+#: $string['page_headline_listoffeedbacks']
+msgid "List of surveys"
+msgstr ""
+
+#: $string['page_headline_listofquestions']
+msgid "Questionnaire of '{$a}\\"
+msgstr ""
+
+#: $string['page_html_activated']
+msgid "Course feedback ({$a}) has been registered as the current survey."
+msgstr ""
+
+#: $string['page_html_answersdeleted']
+msgid "The user answers have been deleted."
+msgstr ""
+
+#: $string['page_html_courserating']
+msgid "Course rating"
+msgstr ""
+
+#: $string['page_html_editallquestions']
+msgid "Apply to all languages"
+msgstr ""
+
+#: $string['page_html_evalintro']
+msgid ""
+"The course can be evaluated here. Only courses and not the contents of the "
+"course can be evaluated. The survey is conducted anonymously and the summary "
+"of results are only visible to the appropricate course trainer."
+msgstr ""
+
+#: $string['page_html_evaluated']
+msgid "You have already evaluated this course."
+msgstr ""
+
+#: $string['page_html_intronotifications']
+msgid "This feedback has to fullfill the following condition(s):"
+msgstr ""
+
+#: $string['page_html_nofeedbackactive']
+msgid "Surveys have been deactivated."
+msgstr ""
+
+#: $string['page_html_nolinks']
+msgid "You are not allowed to participate in this feedback."
+msgstr ""
+
+#: $string['page_html_noquestions']
+msgid "No questions available."
+msgstr ""
+
+#: $string['page_html_norelations']
+msgid "All questions have to be defined in at least one common language."
+msgstr ""
+
+#: $string['page_html_saveerr']
+msgid "An error has occurred while saving your evaluation."
+msgstr ""
+
+#: $string['page_html_servedefaultlang']
+msgid "All questions should be defined in default language."
+msgstr ""
+
+#: $string['page_html_thx']
+msgid "Many thanks for your course evaluation."
+msgstr ""
+
+#: $string['page_html_viewintro']
+msgid ""
+"Survey analysis. The result shows the number of votes for each grade and the "
+"average."
+msgstr ""
+
+#: $string['page_html_viewnavbar']
+msgid "Analysis of the survey"
+msgstr ""
+
+#: $string['page_link_backtoconfig']
+msgid "Back to website administration"
+msgstr ""
+
+#: $string['page_link_backtofeedbackview']
+msgid "Back to overview"
+msgstr ""
+
+#: $string['page_link_deletelanguage']
+msgctxt "$string['page_link_deletelanguage']"
+msgid "Delete language(s)"
+msgstr ""
+
+#: $string['page_link_download']
+msgid "Save results as {$a}-file"
+msgstr ""
+
+#: $string['page_link_evaluate']
+msgid "Evaluate course"
+msgstr ""
+
+#: $string['page_link_newlanguage']
+msgid "Add different language"
+msgstr ""
+
+#: $string['page_link_newquestion']
+msgid "Add new question"
+msgstr ""
+
+#: $string['page_link_newtemplate']
+msgid "Create new survey"
+msgstr ""
+
+#: $string['page_link_noquestion']
+msgid "No questions available - create a new question."
+msgstr ""
+
+#: $string['page_link_settings']
+msgid "Adminstration"
+msgstr ""
+
+#: $string['page_link_showlistofquestions']
+msgid "Edit questions"
+msgstr ""
+
+#: $string['page_link_use']
+msgid "Use"
+msgstr ""
+
+#: $string['page_link_view']
+msgid "Analysis"
+msgstr ""
+
+#: $string['perm_header_editnotpermitted']
+msgid "The survey can not be changed due to the following reasons:"
+msgstr ""
+
+#: $string['perm_html_answersexists']
+msgid "This feedback has already been completed by users."
+msgstr ""
+
+#: $string['perm_html_danswerslink']
+msgid ""
+"To create a new survey with the same questions, you can <a "
+"href=\"admin.php?fid={$a}&mode=feedback&action=new\">copy the feedback</a> or "
+"<a href=\"admin.php?fid={$a}&mode=feedback&action=danswers\">delete the user "
+"answers</a>."
+msgstr ""
+
+#: $string['perm_html_duplicatelink']
+msgid ""
+"To create a new survey with the same questions, you can <a "
+"href=\"admin.php?fid={$a}&mode=feedback&action=new\">copy the survey</a> or "
+"register another questionnaire as the current survey."
+msgstr ""
+
+#: $string['perm_html_erroractive']
+msgid "You can not change the current survey."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Course feedback"
+msgstr ""
+
+#: $string['table_header_abstain']
+msgid "No rating"
+msgstr ""
+
+#: $string['table_header_bad']
+msgid "Poor"
+msgstr ""
+
+#: $string['table_header_good']
+msgid "Very good"
+msgstr ""
+
+#: $string['table_header_languages']
+msgid "Available languages"
+msgstr ""
+
+#: $string['table_header_questions']
+msgid "Questions"
+msgstr ""
+
+#: $string['table_html_abstain']
+msgid "Abstain"
+msgstr ""
+
+#: $string['table_html_average']
+msgid "Average"
+msgstr ""
+
+#: $string['table_html_nofeedback']
+msgid "No survey"
+msgstr ""
+
+#: $string['table_html_undefinedlang']
+msgid "Translation missing. Language '{$a}' unavailable."
+msgstr ""
+
+#: $string['table_html_votes']
+msgid "Number of votes :"
+msgstr ""
+
+#: $string['untitled']
+msgid "Untitled"
+msgstr ""

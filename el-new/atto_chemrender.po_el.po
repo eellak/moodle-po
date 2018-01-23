@@ -1,0 +1,155 @@
+#. extracted from lang/en/atto_chemrender.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'atto_chemrender', language 'en', branch 'MOODLE_27_STABLE'
+#.  *
+#.  * @package   atto_chemrender
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['browserepositories']
+msgid "Browse repositories..."
+msgstr ""
+
+#: $string['chemdoodle']
+msgid "ChemDoodle"
+msgstr ""
+
+#: $string['enterfilename']
+msgid "Enter a filename"
+msgstr ""
+
+#: $string['enterurl']
+msgid "Enter a molecule file (.mol, .pdb, .cml, etc.) or spectrum file (.jdx)"
+msgstr ""
+
+#: $string['height']
+msgid "Height"
+msgstr ""
+
+#: $string['jmol']
+msgid "JMol"
+msgstr ""
+
+#: $string['jmoloptions']
+msgid "JMol Options"
+msgstr ""
+
+#: $string['optionaxis']
+msgid "Axis labels for spectrum"
+msgstr ""
+
+#: $string['optionconsolecommand']
+msgid "Console commands"
+msgstr ""
+
+#: $string['optionconsolecommandhelp']
+msgid "Jmol console command help"
+msgstr ""
+
+#: $string['optionconsolecommand_help']
+msgid ""
+"Customize molecule display using console commands.\n"
+"\n"
+"* Command documentation: http://chemapps.stolaf.edu/jmol/docs\n"
+"* Colors: http://jmol.sourceforge.net/jscolors\n"
+"\n"
+"Examples:\n"
+"\n"
+"* \"select all; label on; select hydrogen; label off;\"\n"
+"\n"
+"    Label all atoms with their atomic symbols and atom number, except for "
+"hydrogen atoms.\n"
+"\n"
+"* \"restrict :a; spacefill; color temperature;\"\n"
+"\n"
+"    Render atoms as shaded spheres with color based on temperature property.\n"
+"\n"
+"* \"ribbon only; select all; color group;\"\n"
+"\n"
+"    Render as ribbons and color based on group.\n"
+"\n"
+"* \"select all; wireframe off; spacefill off; select protein or dna; cartoons "
+"on; color chain; select cd; spacefill on; color FFD98F;\"\n"
+"\n"
+"    Render protein or dna as cartoons with color based on chain. Render "
+"Cadmium (Cd) atoms as shaded spheres with a cadmium yellow color.\n"
+"\n"
+"* \"spin on;\"\n"
+"\n"
+"    Make molecule spin."
+msgstr ""
+
+#: $string['optiondownloadlink']
+msgid "Show download link"
+msgstr ""
+
+#: $string['optionhelplink']
+msgid "Show help link"
+msgstr ""
+
+#: $string['optionlabel']
+msgid "Show label on/off option"
+msgstr ""
+
+#: $string['optionspin']
+msgid "Show spin on/off option"
+msgstr ""
+
+#: $string['optionstyleselect']
+msgid "Show style selection"
+msgstr ""
+
+#: $string['optionxaxis']
+msgid "xAxis label"
+msgstr ""
+
+#: $string['optionyaxis']
+msgid "yAxis label"
+msgstr ""
+
+#: $string['pluginname']
+msgid "ChemRender"
+msgstr ""
+
+#: $string['preview']
+msgid "Preview"
+msgstr ""
+
+#: $string['rendererselection']
+msgid "Select renderer"
+msgstr ""
+
+#: $string['submit']
+msgid "Submit"
+msgstr ""
+
+#: $string['width']
+msgid "Width"
+msgstr ""

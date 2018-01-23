@@ -1,0 +1,1288 @@
+#. extracted from lang/en/hvp.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'hvp', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   hvp
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['action']
+#, fuzzy
+msgid "Action"
+msgstr "Ενέργειες"
+
+#: $string['addedandupdatedpp']
+msgid "Added {$a->%new} new H5P libraries and updated {$a->%old} old ones."
+msgstr ""
+
+#: $string['addedandupdatedps']
+msgid "Added {$a->%new} new H5P libraries and updated {$a->%old} old one."
+msgstr ""
+
+#: $string['addedandupdatedsp']
+msgid "Added {$a->%new} new H5P library and updated {$a->%old} old ones."
+msgstr ""
+
+#: $string['addedandupdatedss']
+msgid "Added {$a->%new} new H5P library and updated {$a->%old} old one."
+msgstr ""
+
+#: $string['addednewlibraries']
+msgid "Added {$a->%new} new H5P libraries."
+msgstr ""
+
+#: $string['addednewlibrary']
+msgid "Added {$a->%new} new H5P library."
+msgstr ""
+
+#: $string['addlibraries']
+msgid "Add libraries"
+msgstr ""
+
+#: $string['ajaxfailed']
+msgid "Failed to load data."
+msgstr ""
+
+#: $string['attribution']
+msgid "Attribution 4.0"
+msgstr ""
+
+#: $string['attributionnc']
+msgid "Attribution-NonCommercial 4.0"
+msgstr ""
+
+#: $string['attributionncnd']
+msgid "Attribution-NonCommercial-NoDerivs 4.0"
+msgstr ""
+
+#: $string['attributionncsa']
+msgid "Attribution-NonCommercial-ShareAlike 4.0"
+msgstr ""
+
+#: $string['attributionnd']
+msgid "Attribution-NoDerivs 4.0"
+msgstr ""
+
+#: $string['attributionsa']
+msgid "Attribution-ShareAlike 4.0"
+msgstr ""
+
+#: $string['author']
+msgid "Author"
+msgstr ""
+
+#: $string['by']
+msgid "by"
+msgstr ""
+
+#: $string['cancellabel']
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: $string['close']
+msgid "Close"
+msgstr ""
+
+#: $string['confirmdialogbody']
+msgid "Please confirm that you wish to proceed. This action is not reversible."
+msgstr ""
+
+#: $string['confirmdialogheader']
+msgid "Confirm action"
+msgstr ""
+
+#: $string['confirmlabel']
+msgid "Confirm"
+msgstr ""
+
+#: $string['contentchanged']
+msgid "This content has changed since you last used it."
+msgstr ""
+
+#: $string['contentstatefrequency']
+msgid "Save content state frequency"
+msgstr ""
+
+#: $string['contentstatefrequency_help']
+msgid ""
+"In seconds, how often do you wish the user to auto save their progress. "
+"Increase this number if you're having issues with many ajax requests"
+msgstr ""
+
+#: $string['contenttypecacheheader']
+msgid "Content Type Cache"
+msgstr ""
+
+#: $string['copyright']
+msgid "Rights of use"
+msgstr ""
+
+#: $string['copyrightinfo']
+msgid "Copyright information"
+msgstr ""
+
+#: $string['copyrightstring']
+msgid "Copyright"
+msgstr ""
+
+#: $string['copyrighttitle']
+msgid "View copyright information for this content."
+msgstr ""
+
+#: $string['couldnotcopy']
+msgid "Could not copy file."
+msgstr ""
+
+#: $string['couldnotsave']
+msgid "Could not save file."
+msgstr ""
+
+#: $string['create']
+msgid "Create"
+msgstr ""
+
+#: $string['ctcachebuttonlabel']
+msgctxt "$string['ctcachebuttonlabel']"
+msgid "Update content type cache"
+msgstr ""
+
+#: $string['ctcacheconnectionfailed']
+msgid "Couldn't communicate with the H5P Hub. Please try again later."
+msgstr ""
+
+#: $string['ctcachedescription']
+msgid ""
+"Making sure the content type cache is up to date will ensure that you can "
+"view, download and use the latest libraries. This is different from updating "
+"the libraries themselves."
+msgstr ""
+
+#: $string['ctcachelastupdatelabel']
+msgid "Last update"
+msgstr ""
+
+#: $string['ctcacheneverupdated']
+msgid "Never"
+msgstr ""
+
+#: $string['ctcachenolibraries']
+msgid ""
+"No content types were received from the H5P Hub. Please try again later."
+msgstr ""
+
+#: $string['ctcachesuccess']
+msgid "Library cache was successfully updated!"
+msgstr ""
+
+#: $string['ctcachetaskname']
+msgctxt "$string['ctcachetaskname']"
+msgid "Update content type cache"
+msgstr ""
+
+#: $string['currentpage']
+msgid "Page $current of $total"
+msgstr ""
+
+#: $string['dataviewreportlabel']
+msgid "View Answers"
+msgstr ""
+
+#: $string['disablefileextensioncheck']
+msgid "Disable file extension check"
+msgstr ""
+
+#: $string['disablefileextensioncheckwarning']
+msgid ""
+"Warning! Disabling the file extension check may have security implications "
+"as it allows for uploading of php files. That in turn could make it possible "
+"for attackers to execute malicious code on your site. Please make sure you "
+"know exactly what you're uploading."
+msgstr ""
+
+#: $string['disablefullscreen']
+msgid "Disable fullscreen"
+msgstr ""
+
+#: $string['disablehubconfirmationmsg']
+msgid "Do you still want to enable the hub ?"
+msgstr ""
+
+#: $string['disablehubdescription']
+msgid ""
+"It's strongly encouraged to keep this option enabled. The H5P Hub provides "
+"an easy interface for getting new content types and keeping existing content "
+"types up to date. In the future, it will also make it easier to share and "
+"reuse content. If this option is disabled you'll have to install and update "
+"content types through file upload forms."
+msgstr ""
+
+#: $string['displayoptionalwaysshow']
+msgid "Always show"
+msgstr ""
+
+#: $string['displayoptionauthoroff']
+msgid "Controlled by author, default is off"
+msgstr ""
+
+#: $string['displayoptionauthoron']
+msgid "Controlled by author, default is on"
+msgstr ""
+
+#: $string['displayoptionnevershow']
+msgid "Never show"
+msgstr ""
+
+#: $string['displayoptionpermissions']
+msgid "Show only if user has permissions to export H5P"
+msgstr ""
+
+#: $string['displayoptionpermissionsembed']
+msgid "Show only if user has permissions to embed H5P"
+msgstr ""
+
+#: $string['displayoptions']
+msgid "Display Options"
+msgstr ""
+
+#: $string['download']
+msgid "Download"
+msgstr "Λήψη"
+
+#: $string['downloadfailed']
+msgid "Downloading the requested library failed."
+msgstr ""
+
+#: $string['downloadtitle']
+msgid "Download this content as a H5P file."
+msgstr ""
+
+#: $string['editor']
+msgid "Editor"
+msgstr ""
+
+#: $string['embed']
+msgid "Embed"
+msgstr ""
+
+#: $string['embedloginfailed']
+msgid "You do not have access to this content. Try logging in."
+msgstr ""
+
+#: $string['embedtitle']
+msgid "View the embed code for this content."
+msgstr ""
+
+#: $string['empty']
+msgid "No results available"
+msgstr ""
+
+#: $string['enableabout']
+msgid "About H5P button"
+msgstr ""
+
+#: $string['enablecopyright']
+msgid "Copyright button"
+msgstr ""
+
+#: $string['enabledlrscontenttypes']
+msgid "Enable LRS dependent content types"
+msgstr ""
+
+#: $string['enabledlrscontenttypes_help']
+msgid ""
+"Makes it possible to use content types that rely upon a Learning Record "
+"Store to function properly, like the Questionnaire content type."
+msgstr ""
+
+#: $string['enabledownload']
+msgid "Download button"
+msgstr ""
+
+#: $string['enableembed']
+msgid "Embed button"
+msgstr ""
+
+#: $string['enableframe']
+msgid "Display action bar and frame"
+msgstr ""
+
+#: $string['enablehublabel']
+msgid "Use H5P Hub"
+msgstr ""
+
+#: $string['enablejavascript']
+msgid "Please enable JavaScript."
+msgstr ""
+
+#: $string['enablesavecontentstate']
+msgid "Save content state"
+msgstr ""
+
+#: $string['enablesavecontentstate_help']
+msgid ""
+"Automatically save the current state of interactive content for each user. "
+"This means that the user may pick up where he left off."
+msgstr ""
+
+#: $string['failedtodownloadh5p']
+msgid "Failed to download the requested H5P."
+msgstr ""
+
+#: $string['filenotfoundonserver']
+msgid "File not found on server. Check file upload settings."
+msgstr ""
+"Αδυναμία εύρεσης αρχείου στο διακομιστή. Ελέγξτε τις ρυθμίσεις μεταφόρτωσης "
+"αρχείου."
+
+#: $string['filenotimage']
+msgid "File is not an image."
+msgstr "Το αρχείο δεν είναι εικόνα."
+
+#: $string['filetypenotallowed']
+msgid "File type isn't allowed."
+msgstr ""
+
+#: $string['finished']
+msgid "Finished"
+msgstr ""
+
+#: $string['fullscreen']
+msgid "Fullscreen"
+msgstr ""
+
+#: $string['gpl']
+msgid "General Public License v3"
+msgstr ""
+
+#: $string['h5pfile']
+msgid "H5P File"
+msgstr ""
+
+#: $string['h5ptitle']
+msgid "Visit H5P.org to check out more cool content."
+msgstr ""
+
+#: $string['hide']
+msgid "Hide"
+msgstr ""
+
+#: $string['hideadvanced']
+msgid "Hide advanced"
+msgstr ""
+
+#: $string['hubcommunicationdisabled']
+msgid ""
+"H5P hub communication has been disabled because one or more H5P requirements "
+"failed."
+msgstr ""
+
+#: $string['hubisdisabled']
+msgid "The hub is disabled. You can re-enable it in the H5P settings."
+msgstr ""
+
+#: $string['hubisdisableduploadlibraries']
+msgid ""
+"The H5P Hub has been disabled until this problem can be resolved. You may "
+"still upload libraries through the \"H5P Libraries\" page."
+msgstr ""
+
+#: $string['hubsettingsheader']
+msgid "Content Types"
+msgstr ""
+
+#: $string['hvp:addinstance']
+msgid "Create new H5P activites"
+msgstr ""
+
+#: $string['hvp:getcachedassets']
+msgid "Required for viewing H5P activities"
+msgstr ""
+
+#: $string['hvp:getembedcode']
+msgid "View H5P embed code when 'controlled by permission' option is set"
+msgstr ""
+
+#: $string['hvp:getexport']
+msgid "Download .h5p file when 'controlled by permission' option is set"
+msgstr ""
+
+#: $string['hvp:installrecommendedh5plibraries']
+msgid "Install new safe H5P content types recommended by H5P.org"
+msgstr ""
+
+#: $string['hvp:manage']
+msgid "Edit existing H5P activites"
+msgstr ""
+
+#: $string['hvp:restrictlibraries']
+msgid "Restrict access to certain H5P content types"
+msgstr ""
+
+#: $string['hvp:savecontentuserdata']
+msgid "Save the users's progress for H5P activities"
+msgstr ""
+
+#: $string['hvp:saveresults']
+msgid "Save the results from completed H5P activities"
+msgstr ""
+
+#: $string['hvp:updatelibraries']
+msgid "Install new H5P content types or update existing ones"
+msgstr ""
+
+#: $string['hvp:userestrictedlibraries']
+msgid "Use restricted H5P content types"
+msgstr ""
+
+#: $string['hvp:view']
+msgid "See and interact with H5P activities"
+msgstr ""
+
+#: $string['hvp:viewallresults']
+msgid "View all results for completed H5P activites"
+msgstr ""
+
+#: $string['hvp:viewresults']
+msgid "View own results for completed H5P activities"
+msgstr ""
+
+#: $string['installdenied']
+msgid ""
+"You do not have permission to install content types. Contact the "
+"administrator of your site."
+msgstr ""
+
+#: $string['installedlibraries']
+msgid "Installed libraries"
+msgstr ""
+
+#: $string['intro']
+msgid "Introduction"
+msgstr ""
+
+#: $string['invalidaudioformat']
+msgid "Invalid audio file format. Use mp3 or wav."
+msgstr ""
+
+#: $string['invalidcontentfolder']
+msgid "Invalid content folder"
+msgstr ""
+
+#: $string['invalidcontenttype']
+msgid "The chosen content type is invalid."
+msgstr ""
+
+#: $string['invalidfieldtype']
+msgid "Invalid field type."
+msgstr ""
+
+#: $string['invalidfile']
+msgid ""
+"File \"{$a->%filename}\" not allowed. Only files with the following extensions "
+"are allowed: {$a->%files-allowed}."
+msgstr ""
+
+#: $string['invalidh5ppost']
+msgid "Could not get posted H5P."
+msgstr ""
+
+#: $string['invalidimageformat']
+msgid "Invalid image file format. Use jpg, png or gif."
+msgstr ""
+
+#: $string['invalidlanguagefile']
+msgid "Invalid language file {$a->%file} in library {$a->%library}"
+msgstr ""
+
+#: $string['invalidlanguagefile2']
+msgid ""
+"Invalid language file {$a->%languageFile} has been included in the library "
+"{$a->%name}"
+msgstr ""
+
+#: $string['invalidlibrary']
+msgid "Invalid library"
+msgstr ""
+
+#: $string['invalidlibrarydata']
+msgid "Invalid data provided for {$a->%property} in {$a->%library}"
+msgstr ""
+
+#: $string['invalidlibrarydataboolean']
+msgid ""
+"Invalid data provided for {$a->%property} in {$a->%library}. Boolean "
+"expected."
+msgstr ""
+
+#: $string['invalidlibraryname']
+msgid "Invalid library name: {$a->%name}"
+msgstr ""
+
+#: $string['invalidlibrarynamed']
+msgid "The H5P library {$a->%library} used in the content is not valid"
+msgstr ""
+
+#: $string['invalidlibraryoption']
+msgid "Illegal option {$a->%option} in {$a->%library}"
+msgstr ""
+
+#: $string['invalidlibraryproperty']
+msgid "Can't read the property {$a->%property} in {$a->%library}"
+msgstr ""
+
+#: $string['invalidmainjson']
+msgid "A valid main h5p.json file is missing"
+msgstr ""
+
+#: $string['invalidmultiselectoption']
+msgid "Invalid selected option in multi-select."
+msgstr ""
+
+#: $string['invalidparameters']
+msgid "Invalid Parameters"
+msgstr ""
+
+#: $string['invalidselectoption']
+msgid "Invalid selected option in select."
+msgstr ""
+
+#: $string['invalidsemanticsjson']
+msgid ""
+"Invalid semantics.json file has been included in the library {$a->%name}"
+msgstr ""
+
+#: $string['invalidsemanticstype']
+msgid ""
+"H5P internal error: unknown content type \"{$a->@type}\" in semantics. "
+"Removing content!"
+msgstr ""
+
+#: $string['invalidstring']
+msgid ""
+"Provided string is not valid according to regexp in semantics. (value: "
+"\\\"{$a->%value}\\\", regexp: \\\"{$a->%regexp}\\\")"
+msgstr ""
+
+#: $string['invalidtoken']
+msgid "Invalid security token."
+msgstr ""
+
+#: $string['invalidvideoformat']
+msgid "Invalid video file format. Use mp4 or webm."
+msgstr ""
+
+#: $string['invalidxapiresult']
+msgid ""
+"No xAPI results were found for the given content and user id combination"
+msgstr ""
+
+#: $string['javascriptloading']
+msgid "Waiting for JavaScript..."
+msgstr ""
+
+#: $string['libraries']
+msgid "H5P Libraries"
+msgstr ""
+
+#: $string['librarydirectoryerror']
+msgid ""
+"Library directory name must match machineName or machineName-"
+"majorVersion.minorVersion (from library.json). (Directory: {$a->%"
+"directoryName} , machineName: {$a->%machineName}, majorVersion: {$a->%"
+"majorVersion}, minorVersion: {$a->%minorVersion})"
+msgstr ""
+
+#: $string['librarylistactions']
+msgid "Actions"
+msgstr "Ενέργειες"
+
+#: $string['librarylistinstancedependencies']
+msgid "Instance dependencies"
+msgstr ""
+
+#: $string['librarylistinstances']
+msgid "Instances"
+msgstr ""
+
+#: $string['librarylistlibrarydependencies']
+msgid "Library dependencies"
+msgstr ""
+
+#: $string['librarylistrestricted']
+msgid "Restricted"
+msgstr ""
+
+#: $string['librarylisttitle']
+msgctxt "$string['librarylisttitle']"
+msgid "Title"
+msgstr "Τίτλος"
+
+#: $string['librarynotselected']
+msgid "You must select a content type."
+msgstr ""
+
+#: $string['license']
+msgid "License"
+msgstr ""
+
+#: $string['licenseCC010']
+msgid "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
+msgstr ""
+
+#: $string['licenseCC010U']
+msgid "CC0 1.0 Universal"
+msgstr ""
+
+#: $string['licenseCC10']
+msgid "1.0 Generic"
+msgstr ""
+
+#: $string['licenseCC20']
+msgid "2.0 Generic"
+msgstr ""
+
+#: $string['licenseCC25']
+msgid "2.5 Generic"
+msgstr ""
+
+#: $string['licenseCC30']
+msgid "3.0 Unported"
+msgstr ""
+
+#: $string['licenseCC40']
+msgid "4.0 International"
+msgstr ""
+
+#: $string['licenseGPL']
+msgid "General Public License"
+msgstr ""
+
+#: $string['licenseV1']
+msgid "Version 1"
+msgstr ""
+
+#: $string['licenseV2']
+msgid "Version 2"
+msgstr ""
+
+#: $string['licenseV3']
+msgid "Version 3"
+msgstr ""
+
+#: $string['licenseversion']
+msgid "License Version"
+msgstr ""
+
+#: $string['loadingdata']
+msgid "Loading data."
+msgstr ""
+
+#: $string['lookforupdates']
+msgid "Look for H5P updates"
+msgstr ""
+
+#: $string['maximumgrade']
+msgid "Maximum grade"
+msgstr ""
+
+#: $string['maximumgradeerror']
+msgid ""
+"Please enter a valid positive integer as the max points available for this "
+"activity"
+msgstr ""
+
+#: $string['maxpostsizetoosmall']
+msgid ""
+"Your PHP max post size is quite small. With your current setup, you may not "
+"upload files larger than {$a->%number} MB. This might be a problem when "
+"trying to upload H5Ps, images and videos. Please consider to increase it to "
+"more than 5MB"
+msgstr ""
+
+#: $string['maxscore']
+msgid "Maximum Score"
+msgstr ""
+
+#: $string['maxuploadsizetoosmall']
+msgid ""
+"Your PHP max upload size is quite small. With your current setup, you may "
+"not upload files larger than {$a->%number} MB. This might be a problem when "
+"trying to upload H5Ps, images and videos. Please consider to increase it to "
+"more than 5MB."
+msgstr ""
+
+#: $string['missingcontentfolder']
+msgid "A valid content folder is missing"
+msgstr ""
+
+#: $string['missingcontentuserdata']
+msgid "Error: Could not find content user data"
+msgstr ""
+
+#: $string['missingcoreversion']
+msgid ""
+"The system was unable to install the <em>{$a->%component}</em> component "
+"from the package, it requires a newer version of the H5P plugin. This site "
+"is currently running version {$a->%current}, whereas the required version is "
+"{$a->%required} or higher. You should consider upgrading and then try "
+"again."
+msgstr ""
+
+#: $string['missingdependency']
+msgid "Missing dependency {$a->@dep} required by {$a->@lib}."
+msgstr ""
+
+#: $string['missinglibrary']
+msgid "Missing required library {$a->@library}"
+msgstr ""
+
+#: $string['missinglibraryfile']
+msgid "The file \"{$a->%file}\" is missing from library: \"{$a->%name}\""
+msgstr ""
+
+#: $string['missinglibraryjson']
+msgid ""
+"Could not find library.json file with valid json format for library {$a->%"
+"name}"
+msgstr ""
+
+#: $string['missinglibraryproperty']
+msgid "The required property {$a->%property} is missing from {$a->%library}"
+msgstr ""
+
+#: $string['missingmbstring']
+msgid ""
+"The mbstring PHP extension is not loaded. H5P need this to function properly"
+msgstr ""
+
+#: $string['missingparameters']
+msgid "Missing parameters"
+msgstr ""
+
+#: $string['missinguploadpermissions']
+msgid ""
+"Note that the libraries may exist in the file you uploaded, but you're not "
+"allowed to upload new libraries. Contact the site administrator about this."
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Interactive Content"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"The H5P activity module enables you to create interactive content such as "
+"Interactive Videos, Question Sets, Drag and Drop Questions, Multi-Choice "
+"Questions, Presentations and much more.\n"
+"\n"
+"In addition to being an authoring tool for rich content, H5P enables you to "
+"import and export H5P files for effective reuse and sharing of content.\n"
+"\n"
+"User interactions and scores are tracked using xAPI and are available "
+"through the Moodle Gradebook.\n"
+"\n"
+"You add interactive H5P content by creating content using the built-in "
+"authoring tool or uploading H5P files found on other H5P enabled sites."
+msgstr ""
+
+#: $string['modulename_link']
+msgid "https://h5p.org/moodle-more-help"
+msgstr ""
+
+#: $string['modulenameplural']
+msgctxt "$string['modulenameplural']"
+msgid "Interactive Content"
+msgstr ""
+
+#: $string['nextpage']
+msgid "Next page"
+msgstr ""
+
+#: $string['nocontent']
+msgid "Could not find or parse the content.json file"
+msgstr ""
+
+#: $string['nocontenttype']
+msgid "No content type was specified."
+msgstr ""
+
+#: $string['nocopyright']
+msgid "No copyright information available for this content."
+msgstr ""
+
+#: $string['nodata']
+msgid "There's no data available that matches your criteria."
+msgstr ""
+
+#: $string['noextension']
+msgid ""
+"The file you uploaded is not a valid HTML5 Package (It does not have the "
+".h5p file extension)"
+msgstr ""
+
+#: $string['noh5ps']
+msgid "There's no interactive content available for this course."
+msgstr ""
+
+#: $string['nojson']
+msgid "The main h5p.json file is not valid"
+msgstr ""
+
+#: $string['noparameters']
+msgid "No parameters"
+msgstr ""
+
+#: $string['noparse']
+msgid "Could not parse the main h5p.json file"
+msgstr ""
+
+#: $string['nopermissiontorestrict']
+msgid "You do not have permission to restrict libraries."
+msgstr ""
+
+#: $string['nopermissiontosavecontentuserdata']
+msgid "You do not have permission to save content user data."
+msgstr ""
+
+#: $string['nopermissiontosaveresult']
+msgid "You do not have permission to save result for this content."
+msgstr ""
+
+#: $string['nopermissiontoupgrade']
+msgid "You do not have permission to upgrade libraries."
+msgstr ""
+
+#: $string['nopermissiontouploadcontent']
+msgid "You do not have permission to upload content here."
+msgstr ""
+
+#: $string['nopermissiontouploadfiles']
+msgid "You do not have permission to upload files here."
+msgstr ""
+
+#: $string['nopermissiontoviewcontenttypes']
+msgid "You do not have permission to view the content types."
+msgstr ""
+
+#: $string['nopermissiontoviewresult']
+msgid "You do not have permission to view results for this content."
+msgstr ""
+
+#: $string['nosuchlibrary']
+msgid "No such library"
+msgstr ""
+
+#: $string['notapplicable']
+msgid "N/A"
+msgstr ""
+
+#: $string['nounzip']
+msgid ""
+"The file you uploaded is not a valid HTML5 Package (We are unable to unzip "
+"it)"
+msgstr ""
+
+#: $string['noversionattribution']
+msgid "Attribution"
+msgstr ""
+
+#: $string['noversionattributionnc']
+msgid "Attribution-NonCommercial"
+msgstr ""
+
+#: $string['noversionattributionncnd']
+msgid "Attribution-NonCommercial-NoDerivs"
+msgstr ""
+
+#: $string['noversionattributionncsa']
+msgid "Attribution-NonCommercial-ShareAlike"
+msgstr ""
+
+#: $string['noversionattributionnd']
+msgid "Attribution-NoDerivs"
+msgstr ""
+
+#: $string['noversionattributionsa']
+msgid "Attribution-ShareAlike"
+msgstr ""
+
+#: $string['nowriteaccess']
+msgid ""
+"A problem with the server write access was detected. Please make sure that "
+"your server can write to your data folder."
+msgstr ""
+
+#: $string['noziparchive']
+msgid "Your PHP version does not support ZipArchive."
+msgstr ""
+
+#: $string['oldphpversion']
+msgid ""
+"Your PHP version is outdated. H5P requires version 5.2 to function properly. "
+"Version 5.6 or later is recommended."
+msgstr ""
+
+#: $string['onlyupdate']
+msgid "Only update existing libraries"
+msgstr ""
+
+#: $string['options']
+msgid "Options"
+msgstr ""
+
+#: $string['pd']
+msgid "Public Domain"
+msgstr "Δημόσιος Τομέας"
+
+#: $string['pddl']
+msgid "Public Domain Dedication and Licence"
+msgstr ""
+
+#: $string['pdm']
+msgid "Public Domain Mark"
+msgstr ""
+
+#: $string['pluginadministration']
+msgctxt "$string['pluginadministration']"
+msgid "H5P"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "H5P"
+msgstr ""
+
+#: $string['postmessagerequired']
+msgid "A post message is required to access the given endpoint"
+msgstr ""
+
+#: $string['previouspage']
+msgid "Previous page"
+msgstr ""
+
+#: $string['removeoldlogentries']
+msgid "Remove old H5P log entries"
+msgstr ""
+
+#: $string['removetmpfiles']
+msgid "Remove old H5P temporary files"
+msgstr ""
+
+#: $string['reportingscaledscoredelimiter']
+msgid ","
+msgstr ""
+
+#: $string['reportingscaledscorelabel']
+msgid "Gradebook score:"
+msgstr ""
+
+#: $string['reportingscoredelimiter']
+msgid "out of"
+msgstr ""
+
+#: $string['reportingscorelabel']
+msgid "Score:"
+msgstr ""
+
+#: $string['reportnotsupported']
+msgid "Not supported"
+msgstr ""
+
+#: $string['resizescript']
+msgid ""
+"Include this script on your website if you want dynamic sizing of the "
+"embedded content:"
+msgstr ""
+
+#: $string['reveal']
+msgid "Reveal"
+msgstr ""
+
+#: $string['reviseserversetupandretry']
+msgid ""
+"When you have revised your server setup you may re-enable H5P hub "
+"communication in H5P Settings."
+msgstr ""
+
+#: $string['score']
+msgid "Score"
+msgstr ""
+
+#: $string['search']
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: $string['sendusagestatistics']
+msgid "Contribute usage statistics"
+msgstr ""
+
+#: $string['sendusagestatistics_help']
+msgid ""
+"Usage statistics numbers will automatically be reported to help the "
+"developers better understand how H5P is used and to determine potential "
+"areas of improvement. Read more about which <a {$a}>data is collected on "
+"h5p.org</a>."
+msgstr ""
+
+#: $string['settings']
+msgid "H5P Settings"
+msgstr ""
+
+#: $string['showadvanced']
+msgid "Show advanced"
+msgstr ""
+
+#: $string['showless']
+msgid "Show less"
+msgstr "Εμφάνιση λιγότερων"
+
+#: $string['showmore']
+msgid "Show more"
+msgstr "Εμφάνιση περισσότερων"
+
+#: $string['sitecouldnotberegistered']
+msgid ""
+"Site could not be registered with the hub. Please contact your site "
+"administrator."
+msgstr ""
+
+#: $string['sitekey']
+msgid "Site Key"
+msgstr ""
+
+#: $string['sitekeydescription']
+msgid ""
+"The site key is a secret that uniquely identifies this site with the Hub."
+msgstr ""
+
+#: $string['sitekeyregistered']
+msgid ""
+"You have been provided a unique key that identifies you with the Hub when "
+"receiving new updates. The key is available for viewing in the \"H5P "
+"Settings\" page."
+msgstr ""
+
+#: $string['size']
+msgid "Size"
+msgstr ""
+
+#: $string['source']
+msgid "Source"
+msgstr ""
+
+#: $string['sslnotenabled']
+msgid ""
+"Your server does not have SSL enabled. SSL should be enabled to ensure a "
+"secure connection with the H5P hub."
+msgstr ""
+
+#: $string['startingover']
+msgid "You'll be starting over."
+msgstr ""
+
+#: $string['sublevel']
+msgid "Sublevel"
+msgstr ""
+
+#: $string['successfullyregisteredwithhub']
+msgid "Your site was successfully registered with the H5P Hub."
+msgstr ""
+
+#: $string['thumbnail']
+msgid "Thumbnail"
+msgstr ""
+
+#: $string['title']
+msgctxt "$string['title']"
+msgid "Title"
+msgstr "Τίτλος"
+
+#: $string['unabletocreatedir']
+msgid "Unable to create directory."
+msgstr ""
+
+#: $string['unabletogetfieldtype']
+msgid "Unable to get field type."
+msgstr ""
+
+#: $string['undisclosed']
+msgid "Undisclosed"
+msgstr ""
+
+#: $string['updatedlibraries']
+msgid "Updated {$a->%old} H5P libraries."
+msgstr ""
+
+#: $string['updatedlibrary']
+msgid "Updated {$a->%old} H5P library."
+msgstr ""
+
+#: $string['updatelibraries']
+msgid "Update All Libraries"
+msgstr ""
+
+#: $string['upgrade']
+msgid "Upgrade H5P"
+msgstr ""
+
+#: $string['upgradebuttonlabel']
+msgid "Upgrade"
+msgstr ""
+
+#: $string['upgradedone']
+msgid "You have successfully upgraded {$a} content instance(s)."
+msgstr ""
+
+#: $string['upgradeerror']
+msgid "An error occurred while processing parameters:"
+msgstr ""
+
+#: $string['upgradeerrorcontent']
+msgid "Could not upgrade content %id:"
+msgstr ""
+
+#: $string['upgradeerrordata']
+msgid "Could not load data for library %lib."
+msgstr ""
+
+#: $string['upgradeerrorparamsbroken']
+msgid "Parameters are broken."
+msgstr ""
+
+#: $string['upgradeerrorscript']
+msgid "Could not load upgrades script for %lib."
+msgstr ""
+
+#: $string['upgradeheading']
+msgid "Upgrade {$a} content"
+msgstr ""
+
+#: $string['upgradeinprogress']
+msgid "Upgrading to %ver..."
+msgstr ""
+
+#: $string['upgradeinvalidtoken']
+msgid "Error: Invalid security token!"
+msgstr ""
+
+#: $string['upgradelibrarycontent']
+msgid "Upgrade library content"
+msgstr ""
+
+#: $string['upgradelibrarymissing']
+msgid "Error: Your library is missing!"
+msgstr ""
+
+#: $string['upgrademessage']
+msgid ""
+"You are about to upgrade {$a} content instance(s). Please select upgrade "
+"version."
+msgstr ""
+
+#: $string['upgradenoavailableupgrades']
+msgid "There are no available upgrades for this library."
+msgstr ""
+
+#: $string['upgradenothingtodo']
+msgid "There's no content instances to upgrade."
+msgstr ""
+
+#: $string['upgradereturn']
+msgid "Return"
+msgstr ""
+
+#: $string['upload']
+msgid "Upload"
+msgstr ""
+
+#: $string['uploadlibraries']
+msgid "Upload Libraries"
+msgstr ""
+
+#: $string['uploadsizelargerthanpostsize']
+msgid ""
+"Your PHP max upload size is bigger than your max post size. This is known to "
+"cause issues in some installations."
+msgstr ""
+
+#: $string['user']
+msgid "User"
+msgstr ""
+
+#: $string['validatingh5pfailed']
+msgid "Validating h5p package failed."
+msgstr ""
+
+#: $string['validationfailed']
+msgid "The requested H5P was not valid"
+msgstr ""
+
+#: $string['viewreportlabel']
+msgid "Report"
+msgstr ""
+
+#: $string['welcomecommunity']
+msgid ""
+"We hope you will enjoy H5P and get engaged in our growing community through "
+"our <a {$a->forums}>forums</a>."
+msgstr ""
+
+#: $string['welcomecontactus']
+msgid ""
+"If you have any feedback, don't hesitate to <a {$a}>contact us</a>. We take "
+"feedback very seriously and are dedicated to making H5P better every day!"
+msgstr ""
+
+#: $string['welcomegettingstarted']
+msgid ""
+"To get started with H5P and Moodle take a look at our <a "
+"{$a->moodle_tutorial}>tutorial</a> and check out the <a "
+"{$a->example_content}>example content</a> at H5P.org for inspiration."
+msgstr ""
+
+#: $string['welcomeheader']
+msgid "Welcome to the world of H5P!"
+msgstr ""
+
+#: $string['wrongversion']
+msgid ""
+"The version of the H5P library {$a->%machineName} used in this content is "
+"not valid. Content contains {$a->%contentLibrary}, but it should be {$a->%"
+"semanticsLibrary}."
+msgstr ""
+
+#: $string['year']
+msgid "Year"
+msgstr ""
+
+#: $string['years']
+msgid "Year(s)"
+msgstr ""

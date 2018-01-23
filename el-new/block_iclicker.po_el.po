@@ -1,0 +1,746 @@
+#. extracted from lang/en/block_iclicker.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:07+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_iclicker', language 'en', branch 'MOODLE_29_STABLE'
+#.  *
+#.  * @package   block_iclicker
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addpage']
+msgid "Add a Page"
+msgstr ""
+
+#: $string['admin.activate.success.false']
+msgid "Disabled clicker ({$a->cid}) registration for {$a->user}"
+msgstr ""
+
+#: $string['admin.activate.success.true']
+msgid "Reactivated clicker ({$a->cid}) registration for {$a->user}"
+msgstr ""
+
+#: $string['admin.config.domainurl']
+msgctxt "$string['admin.config.domainurl']"
+msgid "Domain URL"
+msgstr ""
+
+#: $string['admin.config.header']
+msgid "i>clicker plugin configuration"
+msgstr ""
+
+#: $string['admin.config.ssoenabled']
+msgid "Single Sign On Enabled"
+msgstr ""
+
+#: $string['admin.config.ssosharedkey']
+msgid "Shared Key"
+msgstr ""
+
+#: $string['admin.config.syncenabled']
+msgid "National sync enabled"
+msgstr ""
+
+#: $string['admin.config.synchour']
+msgid "Sync runs at hour"
+msgstr ""
+
+#: $string['admin.config.usewebservices']
+msgid "Use National Webservices"
+msgstr ""
+
+#: $string['admin.config.workspacepagetitle']
+msgid "Workspace Tool Title"
+msgstr ""
+
+#: $string['admin.controls.header']
+msgid "Controls"
+msgstr ""
+
+#: $string['admin.csv.download']
+msgid "Download CSV file of all clicker registrations"
+msgstr ""
+
+#: $string['admin.delete.success']
+msgid "Deleted clicker ({$a->cid}) registration ({$a->rid}) for {$a->user}"
+msgstr ""
+
+#: $string['admin.errors.header']
+msgid "Most Recent Failures"
+msgstr ""
+
+#: $string['admin.no.regs']
+msgid "No registrations"
+msgstr ""
+
+#: $string['admin.paging']
+msgid "Paging:"
+msgstr ""
+
+#: $string['admin.purge.success']
+msgid "Successfully purged {$a} clicker registrations"
+msgstr ""
+
+#: $string['admin.regs.table.summary']
+msgid ""
+"Lists the registered clickers for all users for the admin; user name, "
+"clickerId, date registered, and controls"
+msgstr ""
+
+#: $string['admin.remove.submit.alt']
+msgid "Remove this registration permanently"
+msgstr ""
+
+#: $string['admin.search.end']
+msgid "End:"
+msgstr ""
+
+#: $string['admin.search.id']
+msgid "i>clicker/Remote ID:"
+msgstr ""
+
+#: $string['admin.search.purge']
+msgid "Purge"
+msgstr ""
+
+#: $string['admin.search.purge.confirm']
+msgid ""
+"Are you sure you want to permanently purge {$a} clicker registrations based "
+"on the current search?"
+msgstr ""
+
+#: $string['admin.search.reset']
+msgid "Reset"
+msgstr ""
+
+#: $string['admin.search.search']
+msgid "Search"
+msgstr ""
+
+#: $string['admin.search.start']
+msgid "Start:"
+msgstr ""
+
+#: $string['admin.title']
+msgid "Admin Control"
+msgstr ""
+
+#: $string['admin.username.header']
+msgid "User name"
+msgstr ""
+
+#: $string['app.activate']
+msgid "Activate"
+msgstr ""
+
+#: $string['app.allowed']
+msgid "Allowed"
+msgstr ""
+
+#: $string['app.disable']
+msgid "Disable"
+msgstr ""
+
+#: $string['app.iclicker']
+msgid "i>clicker"
+msgstr ""
+
+#: $string['app.register']
+msgid "Register"
+msgstr ""
+
+#: $string['app.remove']
+msgid "Remove"
+msgstr ""
+
+#: $string['app.title']
+msgctxt "$string['app.title']"
+msgid "i>clicker Moodle integrate"
+msgstr ""
+
+#: $string['config_allow_sharing']
+msgid "i>clicker remote sharing"
+msgstr ""
+
+#: $string['config_allow_sharing_desc']
+msgid ""
+"Allow students to share i>clicker remotes, DEFAULT: false (sharing not "
+"allowed - only 1 student can register each remote)"
+msgstr ""
+
+#: $string['config_disable_alternateid']
+msgid "Alternate Id disabled"
+msgstr ""
+
+#: $string['config_disable_alternateid_desc']
+msgid ""
+"Whether to disable the use of alternate clicker IDs, DEFAULT: false (enable "
+"alternate clicker IDs)"
+msgstr ""
+
+#: $string['config_disable_sync']
+msgid "Disable WebServices Sync"
+msgstr ""
+
+#: $string['config_disable_sync_desc']
+msgid ""
+"Disable the national webservices automatic synchronization, DEFAULT: false "
+"(sync enabled)"
+msgstr ""
+
+#: $string['config_domain_url']
+msgctxt "$string['config_domain_url']"
+msgid "Domain URL"
+msgstr ""
+
+#: $string['config_domain_url_desc']
+msgid ""
+"The i>clicker domain URL, leave blank for DEFAULT: the Moodle server URL "
+"(e.g. http://your.server.edu)"
+msgstr ""
+
+#: $string['config_enable_shortname']
+msgid "Enable Course Short Name"
+msgstr ""
+
+#: $string['config_enable_shortname_desc']
+msgid ""
+"Enable use of the course short name as part of the displayed course name in "
+"the iclicker app"
+msgstr ""
+
+#: $string['config_general']
+msgid "General"
+msgstr ""
+
+#: $string['config_max_courses']
+msgid "Control Maximum Courses Fetched"
+msgstr ""
+
+#: $string['config_max_courses_desc']
+msgid ""
+"Controls the maximum number of courses that are fetched for an instructor by "
+"the iclicker app.  WARNING: Increasing this value may result in performance "
+"issues"
+msgstr ""
+
+#: $string['config_notify_emails']
+msgid "Failure notification email"
+msgstr ""
+
+#: $string['config_notify_emails_desc']
+msgid ""
+"The email addresses to send notifications to on failures. Blank indicates "
+"disabled."
+msgstr ""
+
+#: $string['config_notify_emails_disabled']
+msgid "DISABLED"
+msgstr ""
+
+#: $string['config_notify_emails_enabled']
+msgid "Emails will be sent to {$a}"
+msgstr ""
+
+#: $string['config_shared_key']
+msgid "SSO Shared Key"
+msgstr ""
+
+#: $string['config_shared_key_desc']
+msgid ""
+"Enable Single Sign On support by setting a shared key (must be at least 10 "
+"chars long). Set this to blank to disable SSO support"
+msgstr ""
+
+#: $string['config_sso']
+msgid "Single Sign On"
+msgstr ""
+
+#: $string['config_sso_disabled']
+msgid ""
+"Single Sign On support is currently disabled. Enter a key below to enable "
+"SSO support."
+msgstr ""
+
+#: $string['config_sso_enabled']
+msgid "Single Sign On support is enabled."
+msgstr ""
+
+#: $string['config_use_national_ws']
+msgid "Enable WebServices"
+msgstr ""
+
+#: $string['config_use_national_ws_desc']
+msgid "Whether to use the webservices to store clicker registrations"
+msgstr ""
+
+#: $string['config_webservices']
+msgid "WebServices"
+msgstr ""
+
+#: $string['config_webservices_password']
+msgid "WebServices Password"
+msgstr ""
+
+#: $string['config_webservices_password_desc']
+msgid ""
+"The webservices password, leave blank for the DEFAULT national webservices "
+"password"
+msgstr ""
+
+#: $string['config_webservices_url']
+msgid "WebServices URL"
+msgstr ""
+
+#: $string['config_webservices_url_desc']
+msgid ""
+"The webservices URL, leave blank for DEFAULT: the URL for the national "
+"i>clicker webservices server"
+msgstr ""
+
+#: $string['config_webservices_username']
+msgid "WebServices Username"
+msgstr ""
+
+#: $string['config_webservices_username_desc']
+msgid ""
+"The webservices username, leave blank for the DEFAULT national webservices "
+"username"
+msgstr ""
+
+#: $string['confirmdelete']
+msgid "Confirm Delete"
+msgstr ""
+
+#: $string['deletepage']
+msgid "Do you really want to delete '{$a}\\"
+msgstr ""
+
+#: $string['iclicker:addinstance']
+msgid "Add a new i>clicker block"
+msgstr ""
+
+#: $string['iclicker:myaddinstance']
+msgid "Add a new i>clicker block to the My Moodle page"
+msgstr ""
+
+#: $string['inserterror']
+msgid "Insert failed"
+msgstr ""
+
+#: $string['inst.all.courses']
+msgid "All Courses"
+msgstr ""
+
+#: $string['inst.course']
+msgid "Course"
+msgstr ""
+
+#: $string['inst.courses.header']
+msgid "Courses Listing"
+msgstr ""
+
+#: $string['inst.courses.table.summary']
+msgid ""
+"Lists the courses taught by this instructor; title, link to students listing"
+msgstr ""
+
+#: $string['inst.course.view.students']
+msgid "View Students"
+msgstr ""
+
+#: $string['inst.no.courses']
+msgid "No courses"
+msgstr ""
+
+#: $string['inst.sso.disabled']
+msgid "SSO is not enabled, you cannot access or generate a Security Key"
+msgstr ""
+
+#: $string['inst.sso.generated.new.key']
+msgid "New Security Key generated"
+msgstr ""
+
+#: $string['inst.sso.generate.key']
+msgid "Generate New Key"
+msgstr ""
+
+#: $string['inst.sso.instructions']
+msgid ""
+"This installation of Moodle is configured to use Single Sign-On. When "
+"synchronizing with i>clicker, you must enter the security key shown here "
+"instead of your password."
+msgstr ""
+
+#: $string['inst.sso.key.message']
+msgid "Your Security Key"
+msgstr ""
+
+#: $string['inst.sso.link']
+msgid "SSO Security Key"
+msgstr ""
+
+#: $string['inst.sso.message']
+msgid ""
+"Single Sign On is enabled for this Moodle installation. You will need to use "
+"a Security Key with i>clicker instead of your password."
+msgstr ""
+
+#: $string['inst.sso.title']
+msgid "Single Sign-On Security Key"
+msgstr ""
+
+#: $string['inst.student.email.header']
+msgid "Email"
+msgstr ""
+
+#: $string['inst.student.name.header']
+msgid "Name"
+msgstr ""
+
+#: $string['inst.student.registered.false']
+msgid "Not registered"
+msgstr ""
+
+#: $string['inst.student.registered.true']
+msgctxt "$string['inst.student.registered.true']"
+msgid "Registered"
+msgstr ""
+
+#: $string['inst.students']
+msgid "Students"
+msgstr ""
+
+#: $string['inst.students.table.summary']
+msgid ""
+"Lists the students in the selected course; name, email, registration status"
+msgstr ""
+
+#: $string['inst.student.status.header']
+msgid "Status"
+msgstr ""
+
+#: $string['inst.title']
+msgid "Instructor Report"
+msgstr ""
+
+#: $string['invalidcourse']
+msgid "Invalid CourseID:"
+msgstr ""
+
+#: $string['leaveblanktohide']
+msgid "leave blank to hide"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "i>clicker Moodle integrate"
+msgstr ""
+
+#: $string['reg.activate.registrationId.empty']
+msgid "The registrationId cannot be empty, internal error in the form"
+msgstr ""
+
+#: $string['reg.activate.success.false']
+msgid "Disabled clicker ({$a}) registration"
+msgstr ""
+
+#: $string['reg.activate.success.true']
+msgid "Reactivated clicker ({$a}) registration"
+msgstr ""
+
+#: $string['reg.disable.submit.alt']
+msgid "Disable this registration"
+msgstr ""
+
+#: $string['reg.reactivate.submit.alt']
+msgid "Reactivate this registration"
+msgstr ""
+
+#: $string['reg.register.clickers']
+msgid "Register additional clickers"
+msgstr ""
+
+#: $string['reg.registered.below.duplicate']
+msgid ""
+"You have already successfully registered this clicker ({$a}) and it is tied "
+"to your user ID."
+msgstr ""
+
+#: $string['reg.registered.below.duplicate.noshare']
+msgid ""
+"Someone else has already registered this clicker ({$a}) and you cannot "
+"register it as well."
+msgstr ""
+
+#: $string['reg.registered.below.success']
+msgid ""
+"Congratulations; you've successfully registered your i>clicker! All of your "
+"voting data (previously recorded and future votes) will now be tied to your "
+"ID."
+msgstr ""
+
+#: $string['reg.registered.clickerId.duplicate']
+msgid "Clicker ID ({$a}) is already registered"
+msgstr ""
+
+#: $string['reg.registered.clickerId.duplicate.notowned']
+msgid ""
+"Your clicker ({$a}) has already been registered, but to another student. "
+"This could be a result of two possibilities: 1) You are sharing a clicker "
+"remote with another student in the same course. You may share your i>clicker "
+"remote with another student on campus as long as s/he is not in the same "
+"course. You cannot share i>clicker remotes with students in the same "
+"course/section. 2) You simply mis-entered your remote ID. Please try again. "
+"If you receive this message a second time, contact support@iclicker.com for "
+"additional help."
+msgstr ""
+
+#: $string['reg.registered.clickerId.empty']
+msgid "The clicker ID cannot be empty, please fill in the box and try again"
+msgstr ""
+
+#: $string['reg.registered.clickerId.failure']
+msgid ""
+"General error trying to verify i>clicker Remote ID ({$a}). Please contact "
+"support"
+msgstr ""
+
+#: $string['reg.registered.clickerId.go.invalid']
+msgid ""
+"This i>clicker ID ({$a}) is not valid. Please enter a valid i>clicker ID."
+msgstr ""
+
+#: $string['reg.registered.clickerId.go.wrong.lastname']
+msgid ""
+"This i>clicker ID is assigned to a student with a different name. Please "
+"check that your name in your i>clicker account matches your name in this LMS "
+"and try again."
+msgstr ""
+
+#: $string['reg.registered.clickerId.invalid']
+msgid ""
+"This i>clicker Remote ID ({$a}) is not valid. Please enter a valid i>clicker "
+"ID."
+msgstr ""
+
+#: $string['reg.registered.clickerId.wrong.length']
+msgid ""
+"i>clicker Remote IDs must be 8 characters in length. Please check your entry "
+"and try again."
+msgstr ""
+
+#: $string['reg.registered.date.header']
+msgctxt "$string['reg.registered.date.header']"
+msgid "Registered"
+msgstr ""
+
+#: $string['reg.registered.instructions']
+msgid ""
+"You have successfully registered your i>clicker remote ID with the system. "
+"If you lose or need to tie a second clicker to your student/user ID, you can "
+"do so here by adding another clicker ID to your registration. As with your "
+"other registration, to locate your clicker ID, see the back of your remote "
+"and enter the series of numbers (and perhaps letters) on the white sticker "
+"on the bottom of your clicker."
+msgstr ""
+
+#: $string['reg.registered.success']
+msgid "Registered an i>clicker ID ({$a})"
+msgstr ""
+
+#: $string['reg.register.submit.alt']
+msgid "Register the clickerId"
+msgstr ""
+
+#: $string['reg.registration.instructions']
+msgid ""
+"To locate your clicker ID, see the back of your remote and enter the series "
+"of numbers (and perhaps letters) on the white sticker on the bottom of your "
+"clicker."
+msgstr ""
+
+#: $string['reg.registration.table.summary']
+msgid ""
+"Lists the registered clickers for the current user; clickerId, date "
+"registered, and controls"
+msgstr ""
+
+#: $string['reg.remote.faq1.answer']
+msgid ""
+"Your i>clicker remote ID is printed on a sticker located on the back of your "
+"remote. The ID is the 8-character code below the barcode. Newer original "
+"i>clicker remotes have a secondary ID location behind the battery "
+"compartment and i>clicker 2 remotes display the ID upon power up. The remote "
+"ID will only contain letters A-F and numbers 0-9."
+msgstr ""
+
+#: $string['reg.remote.faq1.image.alt']
+msgid ""
+"I-clicker Sample Remote showing the back of the remote with the location of "
+"the ID"
+msgstr ""
+
+#: $string['reg.remote.faq1.question']
+msgid "Where do I find my remote ID?"
+msgstr ""
+
+#: $string['reg.remote.faq2.answer']
+msgid ""
+"If your remote ID has rubbed off or is illegible and you do not have a "
+"secondary ID location on your remote, go to support.iclicker.com/ for "
+"troubleshooting instructions."
+msgstr ""
+
+#: $string['reg.remote.faq2.question']
+msgid "What do I do if I cannot read the ID printed on my remote?"
+msgstr ""
+
+#: $string['reg.remote.faq3.answer']
+msgid ""
+"Your remote ID is an 8-character code that should only contain letters A-F "
+"and numbers 0-9. Make sure you are not entering the letter \"O\" for the "
+"number \"0\" or the letter \"I\" for the number \"1.\""
+msgstr ""
+
+#: $string['reg.remote.faq3.question']
+msgid "Why do I get an \"Invalid Remote ID\" error when I try to register?"
+msgstr ""
+
+#: $string['reg.remote.faq4.answer']
+msgid ""
+"Yes, you may register multiple remotes for any reason. i>clicker will link "
+"both remotes to your name so that you receive credit for votes you made with "
+"either remote."
+msgstr ""
+
+#: $string['reg.remote.faq4.question']
+msgid "I've lost/broken my remote. Can I register another remote?"
+msgstr ""
+
+#: $string['reg.remote.faq5.answer']
+msgid ""
+"No, registering remote does not automatically mean you will be able to use "
+"it in your classes. Your instructor must allow i>clicker and register his or "
+"her course to communicate with i>clicker servers. Also, some campuses or "
+"classrooms may not have the infrastructure to support i>clicker use. Check "
+"with your instructor to be sure that i>clicker is allowed and supported for "
+"your course."
+msgstr ""
+
+#: $string['reg.remote.faq5.question']
+msgid ""
+"If I register remote in my LMS, does that automatically mean I can use it in "
+"all my classes?"
+msgstr ""
+
+#: $string['reg.remote.faq6.answer']
+msgid ""
+"Your instructor needs to synchronize his or her gradebook to get the latest "
+"registration information. It may be that your instructor has not done this "
+"since you registered. Your in-class votes were recorded by i>clicker and, "
+"once you register your remote, these votes will be associated with you the "
+"next time your instructor syncs the course gradebook or roster."
+msgstr ""
+
+#: $string['reg.remote.faq6.question']
+msgid ""
+"I registered my remote, why is my registration still not appearing in class?"
+msgstr ""
+
+#: $string['reg.remote.faq7.answer']
+msgid ""
+"No, you only need to register in one location. Once registered, your "
+"information will automatically apply to all of the classes in which you are "
+"enrolled and using i>clicker."
+msgstr ""
+
+#: $string['reg.remote.faq7.question']
+msgid ""
+"I use my remote for multiple classes. Do I need to register my information "
+"for each class?"
+msgstr ""
+
+#: $string['reg.remote.faq8.answer']
+msgid ""
+"If you register a wrong i>clicker ID, simply remove the incorrect entry and "
+"register again with the correct information."
+msgstr ""
+
+#: $string['reg.remote.faq8.question']
+msgid ""
+"What do I do if I accidentally registered the wrong remote/i>clicker ID?"
+msgstr ""
+
+#: $string['reg.remote.faq9.answer']
+msgid ""
+"Yes, your votes still count. Your in-class votes were recorded by i>clicker "
+"and, once you register your remote/i>clicker account, these votes will be "
+"associated with you the next time your instructor syncs the course gradebook "
+"or roster."
+msgstr ""
+
+#: $string['reg.remote.faq9.question']
+msgid ""
+"I've already used my remote/i>clicker account in class before registering it "
+"in my LMS. Will I still receive credit for my votes?"
+msgstr ""
+
+#: $string['reg.remote.faqs']
+msgid "Student Registration FAQs"
+msgstr ""
+
+#: $string['reg.remote.id.enter']
+msgid "Enter Your i>clicker Remote ID"
+msgstr ""
+
+#: $string['reg.remote.id.header']
+msgid "i>clicker ID"
+msgstr ""
+
+#: $string['reg.remote.instructions']
+msgid ""
+"Enter your 8-character i>clicker Remote ID below. You may register multiple "
+"remotes or remove a registration entry at any time."
+msgstr ""
+
+#: $string['reg.remove.submit.alt']
+msgid "Remove this registration"
+msgstr ""
+
+#: $string['reg.remove.success']
+msgid "Removed i>clicker ID ({$a}) registration"
+msgstr ""
+
+#: $string['reg.title']
+msgid "Student Registration"
+msgstr ""
+
+#: $string['updateerror']
+msgid "Update failed"
+msgstr ""

@@ -1,0 +1,239 @@
+#. extracted from lang/en/block_dukreminder.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_dukreminder', language 'en', branch 'MOODLE_28_STABLE'
+#.  *
+#.  * @package   block_dukreminder
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['blockstring']
+msgctxt "$string['blockstring']"
+msgid "Course Completion Reminder"
+msgstr ""
+
+#: $string['criteria_all']
+msgctxt "$string['criteria_all']"
+msgid "All"
+msgstr ""
+
+#: $string['criteria_completion']
+msgid "Course completion"
+msgstr ""
+
+#: $string['criteria_enrolment']
+msgid "Course subscription"
+msgstr ""
+
+#: $string['criteria_error']
+msgid "Deadline and the subscription criteria can not be combined."
+msgstr ""
+
+#: $string['criteria_error2']
+msgid "Deadline and the all criteria can not be combined"
+msgstr ""
+
+#: $string['daterelative_error']
+msgid "Negative values are permitted!"
+msgstr ""
+
+#: $string['email_teacher_notification']
+msgid ""
+"{$a->amount} students in the course {$a->course} have just been reminded:"
+msgstr ""
+
+#: $string['form_criteria']
+msgid "Reminder criteria"
+msgstr ""
+
+#: $string['form_criteria_help']
+msgid ""
+"Different reminder criteria are available. For additional descriptions "
+"please look up the Block documentation"
+msgstr ""
+
+#: $string['form_dateabsolute']
+msgid "Deadline"
+msgstr ""
+
+#: $string['form_dateabsolute_help']
+msgid "The reminders will be sent on the deadline"
+msgstr ""
+
+#: $string['form_daterelative']
+msgctxt "$string['form_daterelative']"
+msgid "Time"
+msgstr ""
+
+#: $string['form_daterelative_completion']
+msgid "Send reminder after course completion"
+msgstr ""
+
+#: $string['form_daterelative_help']
+msgid ""
+"The time defines after which amount of time the reminder will be sent after "
+"fullfiling the chosen criteria"
+msgstr ""
+
+#: $string['form_delete']
+msgid "Are you sure?"
+msgstr ""
+
+#: $string['form_header_criteria']
+msgid "Criteria"
+msgstr ""
+
+#: $string['form_header_general']
+msgid "General"
+msgstr ""
+
+#: $string['form_header_groups']
+msgid "Group filtering"
+msgstr ""
+
+#: $string['form_header_report']
+msgid "Settings"
+msgstr ""
+
+#: $string['form_header_time']
+msgctxt "$string['form_header_time']"
+msgid "Time"
+msgstr ""
+
+#: $string['form_mailssent']
+msgid "Already sent reminders"
+msgstr ""
+
+#: $string['form_placeholder']
+msgid "Placeholder"
+msgstr ""
+
+#: $string['form_subject']
+msgid "Email subject"
+msgstr ""
+
+#: $string['form_subject_help']
+msgid "Subject of the reminder email"
+msgstr ""
+
+#: $string['form_text']
+msgid "Emailtext for the student"
+msgstr ""
+
+#: $string['form_text_help']
+msgid ""
+"Here you can define the text that the studens will recieve. The following "
+"placeholders can be used: ###username### will be replaced with the student, "
+"###usermail### with his mail and ###coursename### with the current course "
+"name."
+msgstr ""
+
+#: $string['form_text_teacher']
+msgid "Emailtext for the teachers"
+msgstr ""
+
+#: $string['form_text_teacher_help']
+msgid ""
+"Here you can define the text that the course teachers will recieve.. The "
+"following placeholders can be used: ###coursename### for the current course "
+"name. ###users### is the list of reminded users, and ###usercount### is the "
+"amount of reminded students"
+msgstr ""
+
+#: $string['form_title']
+msgid "Internal description"
+msgstr ""
+
+#: $string['form_to_groups']
+msgid "Recievers"
+msgstr ""
+
+#: $string['form_to_mail']
+msgid "Report to additional users"
+msgstr ""
+
+#: $string['form_to_mail_help']
+msgid ""
+"Here you can add additional users that will recieve the report. Insert their "
+"email addresses, seperated with a ;"
+msgstr ""
+
+#: $string['form_to_reportsuperior']
+msgid "Report to superiors"
+msgstr ""
+
+#: $string['form_to_reporttrainer']
+msgid "Report to course teachers"
+msgstr ""
+
+#: $string['form_to_reporttrainer_help']
+msgid "If ticked, a report will be sent to the course teachers"
+msgstr ""
+
+#: $string['form_to_status']
+msgid "Course completion state"
+msgstr ""
+
+#: $string['form_to_status_all']
+msgctxt "$string['form_to_status_all']"
+msgid "All"
+msgstr ""
+
+#: $string['form_to_status_completed']
+msgid "With course completion"
+msgstr ""
+
+#: $string['form_to_status_notcompleted']
+msgid "Without course completion"
+msgstr ""
+
+#: $string['newblock:addinstance']
+msgid "Add a block"
+msgstr ""
+
+#: $string['newblock:myaddinstance']
+msgid "Add a block to my moodle"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Course Completion Reminder"
+msgstr ""
+
+#: $string['tab_course_reminders']
+msgid "Course reminders"
+msgstr ""
+
+#: $string['tab_new_reminder']
+msgid "New reminder"
+msgstr ""
+
+#: $string['to_mail_error']
+msgid "Invalid email! The mail addresses must be seperated by ;"
+msgstr ""

@@ -1,0 +1,195 @@
+#. extracted from lang/en/block_horario.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_horario', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   block_horario
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['access_allowed']
+msgid "Access allowed only in specified times"
+msgstr ""
+
+#: $string['access_denied']
+msgid "Access denied in specified times"
+msgstr ""
+
+#: $string['admin_title']
+msgid "Admin courses schedules"
+msgstr ""
+
+#: $string['blocksettings_warning']
+msgid "You must create a cohort at least to enable this restriction options"
+msgstr ""
+"Θα πρέπει να δημιουργήσετε μια ομάδα χρηστών τουλάχιστον για να "
+"ενεργοποιήσετε αυτές τις επιλογές περιορισμού"
+
+#: $string['cohorts']
+msgid "Cohorts"
+msgstr "Ομάδες χρηστών"
+
+#: $string['config_cohorts']
+msgid "Cohorts used"
+msgstr "Ομάδες χρηστών που χρησιμοποιούνται"
+
+#: $string['config_cohorts_help']
+msgid "Symtem cohorts used to restrict or allow user access."
+msgstr ""
+"Ομάδες χρηστών συστήματος που χρησιμοποιούνται για να περιοριστεί ή να "
+"επιτραπεί η πρόσβαση χρηστών."
+
+#: $string['config_scheduling_mode']
+msgid "Scheduling mode"
+msgstr ""
+
+#: $string['config_scheduling_mode_help']
+msgid ""
+"Set scheduling mode: allow access in the selected time range or deny access "
+"in the selected time range."
+msgstr ""
+
+#: $string['config_show_block']
+msgid "Show schedule information"
+msgstr ""
+
+#: $string['config_show_block_help']
+msgid "No course admin user can view schedule information in block."
+msgstr ""
+
+#: $string['configureblock']
+msgid "Configure {$a} block"
+msgstr "Ρύθμιση μπλοκ {$a}"
+
+#: $string['courses']
+msgid "Courses"
+msgstr ""
+
+#: $string['days']
+msgid "Days"
+msgstr ""
+
+#: $string['error_allowed_mode']
+msgid "You can not access the course at the moment. Allowed schedule: {$a}"
+msgstr ""
+
+#: $string['error_restricted_mode']
+msgid "You can not access the course at the moment. Restricted schedule: {$a}"
+msgstr ""
+
+#: $string['friday']
+msgid "Friday"
+msgstr ""
+
+#: $string['from_to_interval_error']
+msgid "To time must be greater than from time"
+msgstr ""
+
+#: $string['granted_access']
+msgid "Granted access:"
+msgstr ""
+
+#: $string['hideblock']
+msgid "Hide {$a} block"
+msgstr "Απόκρυψη μπλοκ {$a}"
+
+#: $string['horario:addinstance']
+msgid "Add a new course schedules block"
+msgstr ""
+
+#: $string['hour_from']
+msgid "From hour:"
+msgstr ""
+
+#: $string['hour_to']
+msgid "To hour:"
+msgstr ""
+
+#: $string['minute_from']
+msgid "From minute:"
+msgstr ""
+
+#: $string['missingcohorts']
+msgid "You must select a cohort at least"
+msgstr "Θα πρέπει να επιλέξετε τουλάχιστον μια ομάδα χρηστών"
+
+#: $string['missingdays']
+#, fuzzy
+msgid "You must select a day at least"
+msgstr "Θα πρέπει να επιλέξετε τουλάχιστον μια ομάδα χρηστών"
+
+#: $string['monday']
+msgid "Monday"
+msgstr ""
+
+#: $string['page_heading']
+msgctxt "$string['page_heading']"
+msgid "Course not available at this moment"
+msgstr ""
+
+#: $string['page_title']
+msgctxt "$string['page_title']"
+msgid "Course not available at this moment"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Course schedules"
+msgstr ""
+
+#: $string['restricted_access']
+msgid "Restricted access:"
+msgstr ""
+
+#: $string['saturday']
+msgid "Saturday"
+msgstr ""
+
+#: $string['showblock']
+msgid "Show {$a} block"
+msgstr "Εμφάνιση μπλοκ {$a}"
+
+#: $string['show_block']
+msgid "Show block to students"
+msgstr ""
+
+#: $string['sunday']
+msgid "Sunday"
+msgstr ""
+
+#: $string['thursday']
+msgid "Thursday"
+msgstr ""
+
+#: $string['tuesday']
+msgid "Tuesday"
+msgstr ""
+
+#: $string['wednesday']
+msgid "Wednesday"
+msgstr ""

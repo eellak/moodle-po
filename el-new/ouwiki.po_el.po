@@ -1,0 +1,1639 @@
+#. extracted from lang/en/ouwiki.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'ouwiki', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   ouwiki
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['actionheading']
+msgid "Actions"
+msgstr ""
+
+#: $string['add']
+msgid "Add"
+msgstr ""
+
+#: $string['addannotation']
+msgid "Add annotation"
+msgstr ""
+
+#: $string['addedbegins']
+msgid "[Added text follows]"
+msgstr ""
+
+#: $string['addedends']
+msgid "[End of added text]"
+msgstr ""
+
+#: $string['addnewsection']
+msgid "Add new section to this page"
+msgstr ""
+
+#: $string['addnewsection1']
+msgid "Add new section"
+msgstr ""
+
+#: $string['advice_annotate']
+msgid ""
+"<p>Annotate the page below, then click <strong>Save changes</strong>.</p>\n"
+"<ul>\n"
+"<li>To annotate click one of the annotation markers and enter the required "
+"text.</li>\n"
+"<li>New and existing annotations can be deleted by removing all the text in "
+"the form below.</li>\n"
+"<li>The numbers in brackets refer to annotations.</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['advice_diff']
+msgid ""
+"The older version is shown on the\n"
+"left<span class='accesshide'> under the heading Older version</span>, where\n"
+"deleted text is highlighted. Added text is indicated in the newer version on\n"
+"the right<span class='accesshide'> under the heading Newer\n"
+"version</span>.<span class='accesshide'> Each change is indicated by a pair\n"
+"of images before and after the added or deleted text, with appropriate\n"
+"alternative text.</span>"
+msgstr ""
+
+#: $string['advice_edit']
+msgid ""
+"<p>Edit the page below.</p>\n"
+"<ul>\n"
+"<li>Make a link to another page by typing the page name in double square "
+"brackets: [[page name]]. The link will become active once you save "
+"changes.</li>\n"
+"<li>To create a new page, first make a link to it in the same way. {$a}</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['advice_history']
+msgid ""
+"<p>The table below displays all changes that have been made to <a "
+"href=\"{$a}\">the current page</a>.</p>\n"
+"<p>You can view old versions or see what changed in a particular version. If "
+"you want to compare any two versions, select the relevant checkboxes and "
+"click 'Compare selected'.</p>"
+msgstr ""
+
+#: $string['advice_missingpage']
+msgid "This page is linked to, but has not yet been created."
+msgstr ""
+
+#: $string['advice_missingpages']
+msgid "These pages are linked to, but have not yet been created."
+msgstr ""
+
+#: $string['advice_viewdeleted']
+msgid "You are viewing a deleted version of this page."
+msgstr ""
+
+#: $string['advice_viewold']
+msgid "You are viewing an old version of this page."
+msgstr ""
+
+#: $string['advice_wikirecentchanges_changes']
+msgid ""
+"<p>The table below lists all changes to any page on this wiki, beginning "
+"with the latest changes. The most recent version of each page is "
+"highlighted.</p>\n"
+"<p>Using the links you can view a page as it looked after a particular "
+"change, or see what changed at that moment.</p>"
+msgstr ""
+
+#: $string['advice_wikirecentchanges_changes_nohighlight']
+msgid ""
+"<p>The table below lists all changes to any page on this wiki, beginning "
+"with the latest changes.</p>\n"
+"<p>Using the links you can view a page as it looked after a particular "
+"change, or see what changed at that moment.</p>"
+msgstr ""
+
+#: $string['advice_wikirecentchanges_pages']
+msgid ""
+"<p>This table shows when each page was added to the wiki, beginning with the "
+"most recently-created page.</p>"
+msgstr ""
+
+#: $string['ajaxnotenabled']
+msgid "AJAX not enabled in your profile."
+msgstr ""
+
+#: $string['allowediting_help']
+msgid ""
+"<p>\n"
+"If you enable this option the wiki enters read-only mode until the given "
+"date. In read-only mode\n"
+"users can see pages, navigate between them, view history, and participate in "
+"discussions, but they\n"
+"cannot edit pages.\n"
+"</p>\n"
+"\n"
+"<h2>Prevent editing from</h2>\n"
+"\n"
+"<p>\n"
+"If you enable this option the wiki enters read-only mode from the given date "
+"onwards.\n"
+"</p>"
+msgstr ""
+
+#: $string['allowimport']
+msgid "Link to import pages"
+msgstr ""
+
+#: $string['allowimport_help']
+msgid ""
+"Checking the box will add the ability to 'import' pages from other wikis in "
+"the course into the current wiki"
+msgstr ""
+
+#: $string['annotate']
+msgctxt "$string['annotate']"
+msgid "Annotate"
+msgstr ""
+
+#: $string['annotatingpage']
+msgid "Annotating page"
+msgstr ""
+
+#: $string['annotationmarker']
+msgid "Annotation marker"
+msgstr ""
+
+#: $string['annotations']
+msgid "Annotations"
+msgstr ""
+
+#: $string['annotationsystem']
+msgid "Annotation system"
+msgstr ""
+
+#: $string['annotationsystem_help']
+msgid ""
+"Enables the Annotation tab, for users with the appropriate permission..\n"
+"\n"
+"With this tab you can add inline annotations to wiki pages (for example, "
+"teacher comments on student work)."
+msgstr ""
+
+#: $string['attachments']
+msgid "Attachments"
+msgstr ""
+
+#: $string['brokenimage']
+msgid ""
+"<span class=\"imgremoved\"> Missing image, not included in template. </span>"
+msgstr ""
+
+#: $string['cancel']
+msgid "Cancel"
+msgstr ""
+
+#: $string['cannotlockpage']
+msgid "The page could not be locked, your changes have not been saved."
+msgstr ""
+
+#: $string['changebutton']
+msgid "Change"
+msgstr ""
+
+#: $string['changedby']
+msgid "Changed by"
+msgstr ""
+
+#: $string['changedifferences']
+msgid "Change differences"
+msgstr ""
+
+#: $string['changes']
+msgid "changes"
+msgstr ""
+
+#: $string['changesnav']
+msgid "Changes"
+msgstr ""
+
+#: $string['collapseallannotations']
+msgid "Collapse annotations"
+msgstr ""
+
+#: $string['collapseannotation']
+msgid "Collapse annotation"
+msgstr ""
+
+#: $string['compare']
+msgid "Compare"
+msgstr ""
+
+#: $string['compareselected']
+msgid "Compare selected"
+msgstr ""
+
+#: $string['completionedits']
+msgid "User must make edits:"
+msgstr ""
+
+#: $string['completioneditsgroup']
+msgid "Require edits"
+msgstr ""
+
+#: $string['completioneditshelp']
+msgid "requiring edits to complete"
+msgstr ""
+
+#: $string['completion_help']
+msgid ""
+"<ul>\n"
+"<li>\n"
+"If you choose \"Require new pages\" then the wiki will be marked as complete "
+"for\n"
+"a user once they have created the specified number of pages. With this "
+"option,\n"
+"users have to create pages from scratch; if somebody else creates the page "
+"and\n"
+"they then edit it, it doesn't count.\n"
+"</li>\n"
+"\n"
+"<li>\n"
+"If you choose \"Require edits\" then the wiki will be marked as complete for a\n"
+"user once they make a certain number of edits. The user could be editing\n"
+"lots of pages, or editing the same page lots of times; either counts.\n"
+"</li>\n"
+"</ul>\n"
+"\n"
+"<p>\n"
+"Note that\n"
+"writing the first version of a page also counts as an edit, so if you want\n"
+"somebody to create a page <i>and</i> make at least one edit other than that,\n"
+"set pages to 1 and edits to 2.\n"
+"</p>"
+msgstr ""
+
+#: $string['completionpages']
+msgid "User must create new pages:"
+msgstr ""
+
+#: $string['completionpagesgroup']
+msgid "Require new pages"
+msgstr ""
+
+#: $string['completionpageshelp']
+msgid "requiring new pages to complete"
+msgstr ""
+
+#: $string['contributions']
+msgid ""
+"<strong>{$a->pages}</strong> new page{$a->pagesplural}, "
+"<strong>{$a->changes}</strong> other change{$a->changesplural}."
+msgstr ""
+
+#: $string['contributionsbyuser']
+msgid "Contributions by user"
+msgstr ""
+
+#: $string['contributionsgrouplabel']
+msgid "Group"
+msgstr ""
+
+#: $string['countdowntext']
+msgid ""
+"This wiki allows only {$a} minutes for editing. Make your changes and click "
+"Save or Cancel before the remaining time (to right) reaches zero."
+msgstr ""
+
+#: $string['countdownurgent']
+msgid ""
+"Please finish or cancel your edit now. If you do not save before time runs "
+"out, your changes will be saved automatically."
+msgstr ""
+
+#: $string['create']
+msgid "Create"
+msgstr ""
+
+#: $string['createdbyon']
+msgid "created by {$a->name} on {$a->date}"
+msgstr ""
+
+#: $string['createlinkedwiki']
+msgid "Creating a new page"
+msgstr ""
+
+#: $string['createlinkedwiki_help']
+msgid ""
+"While editing, you can type a link to a page that doesn&rsquo;t exist yet, "
+"such as [[Frogs]]. Then save this page and click on the &lsquo;Frogs&rsquo; "
+"link to create the new page.\n"
+"\n"
+"It is also possible to create new pages from the &lsquo;View&rsquo; tab "
+"using the &lsquo;Create new page&rsquo; box."
+msgstr ""
+
+#: $string['createnewpage']
+msgid "Create new page"
+msgstr ""
+
+#: $string['createpage']
+msgid "Create page"
+msgstr ""
+
+#: $string['csvdownload']
+msgid "Download in spreadsheet format (UTF-8 .csv)"
+msgstr ""
+
+#: $string['current']
+msgid "current"
+msgstr ""
+
+#: $string['currentversion']
+msgid "Current version"
+msgstr ""
+
+#: $string['currentversionof']
+msgid "Current version of"
+msgstr ""
+
+#: $string['deletedbegins']
+msgid "[Deleted text follows]"
+msgstr ""
+
+#: $string['deletedends']
+msgid "[End of deleted text]"
+msgstr ""
+
+#: $string['deleteorphanedannotations']
+msgid "Delete lost annotations"
+msgstr ""
+
+#: $string['deleteversionerror']
+msgid "Error deleting page version"
+msgstr ""
+
+#: $string['deleteversionerrorversion']
+msgid "Cannot delete nonexistent page version"
+msgstr ""
+
+#: $string['detail']
+msgid "detail"
+msgstr ""
+
+#: $string['diff_nochanges']
+msgid ""
+"This edit did not make changes to the actual text, so no differences are\n"
+"highlighted below. There may be changes to appearance."
+msgstr ""
+
+#: $string['diff_someannotations']
+msgid ""
+"This edit did not make changes to the actual text, so no differences are\n"
+"highlighted below, however annotations have been changed. There may also be "
+"changes to appearance."
+msgstr ""
+
+#: $string['displayversion']
+msgid "OU wiki version: <strong>{$a}</strong>"
+msgstr ""
+
+#: $string['downloadcsv']
+msgid "Comma separated values text file"
+msgstr ""
+
+#: $string['downloadspreadsheet']
+msgid "Download as spreadsheet"
+msgstr ""
+
+#: $string['duplicatepagetitle']
+msgid ""
+"The new page title must not be the same as one of the existing page titles."
+msgstr ""
+
+#: $string['editbegin']
+msgid "Allow editing from"
+msgstr ""
+
+#: $string['editbegin_help']
+msgid ""
+"<p>If you enable this option the wiki enters read-only mode until the given "
+"date. In read-only mode users can see pages, navigate between them, view "
+"history, and participate in discussions, but they cannot edit pages.</p>"
+msgstr ""
+
+#: $string['editedby']
+msgid "Edited by {$a}"
+msgstr ""
+
+#: $string['editend']
+msgid "Prevent editing from"
+msgstr ""
+
+#: $string['editend_help']
+msgid ""
+"If you enable this option the wiki enters read-only mode from the given date "
+"onwards."
+msgstr ""
+
+#: $string['editingpage']
+msgid "Editing page"
+msgstr ""
+
+#: $string['editingsection']
+msgid "Editing section: {$a}"
+msgstr ""
+
+#: $string['editpage']
+msgid "Edit page"
+msgstr ""
+
+#: $string['editsection']
+msgid "Edit section"
+msgstr ""
+
+#: $string['emptypagetitle']
+msgid "The new page title must not be blank."
+msgstr ""
+
+#: $string['emptysectiontitle']
+msgid "The new section name must not be blank."
+msgstr ""
+
+#: $string['endannotation']
+msgid "End of annotation"
+msgstr ""
+
+#: $string['entirewiki']
+msgid "Entire wiki"
+msgstr ""
+
+#: $string['errorcoursesubwiki']
+msgid ""
+"Must be &lsquo;No groups&rsquo; unless sub-wikis option is &lsquo;One wiki "
+"per group&rsquo;"
+msgstr ""
+
+#: $string['error_export']
+msgid "An error occurred while exporting wiki data."
+msgstr ""
+
+#: $string['errorgroupssubwiki']
+msgid ""
+"Must be enabled when sub-wikis option is &lsquo;One wiki per group&rsquo;"
+msgstr ""
+
+#: $string['event:ouwikidelete']
+msgid "ouwiki version delete"
+msgstr ""
+
+#: $string['event:ouwikipagecreated']
+msgid "ouwiki page created"
+msgstr ""
+
+#: $string['event:ouwikipageupdated']
+msgid "ouwiki page updated"
+msgstr ""
+
+#: $string['event:ouwikiundelete']
+msgid "ouwiki version undelete"
+msgstr ""
+
+#: $string['event:ouwikiviewed']
+msgid "ouwiki view"
+msgstr ""
+
+#: $string['event:pagelock']
+msgid "ouwiki lock"
+msgstr ""
+
+#: $string['event:pageunlock']
+msgid "ouwiki unlock"
+msgstr ""
+
+#: $string['event:savefailed']
+msgid "Session fail on page save"
+msgstr ""
+
+#: $string['excelcsvdownload']
+msgid "Download in Excel-compatible format (.csv)"
+msgstr ""
+
+#: $string['expandallannotations']
+msgid "Expand annotations"
+msgstr ""
+
+#: $string['expandannotation']
+msgid "Expand annotation"
+msgstr ""
+
+#: $string['externaldashboardadd']
+msgid "Add wiki to dashboard"
+msgstr ""
+
+#: $string['externaldashboardremove']
+msgid "Remove wiki from dashboard"
+msgstr ""
+
+#: $string['feedalt']
+msgid "Subscribe to Atom feed"
+msgstr ""
+
+#: $string['feedchange']
+msgid "Changed by {$a->name} (<a href='{$a->url}'>view change</a>)"
+msgstr ""
+
+#: $string['feeddescriptionchanges']
+msgid ""
+"Lists all changes made to the wiki. Subscribe to this feed if you want to be "
+"updated whenever the wiki changes."
+msgstr ""
+
+#: $string['feeddescriptionhistory']
+msgid ""
+"Lists all changes to this individual wiki page. Subscribe to this feed if "
+"you want to be updated whenever someone edits this page."
+msgstr ""
+
+#: $string['feeddescriptionpages']
+msgid ""
+"Lists all new pages on the wiki. Subscribe to this feed if you want to be "
+"updated whenever someone creates a new page."
+msgstr ""
+
+#: $string['feeditemdescriptiondate']
+msgid "{$a->main} on {$a->date}."
+msgstr ""
+
+#: $string['feeditemdescriptionnodate']
+msgid "{$a->main}."
+msgstr ""
+
+#: $string['feednewpage']
+msgid "Created by {$a->name}"
+msgstr ""
+
+#: $string['feedsubscribe']
+msgid ""
+"You can subscribe to a feed containing this information: <a "
+"href='{$a->atom}'>Atom</a> or <a href='{$a->rss}'>RSS</a>."
+msgstr ""
+
+#: $string['feedtitle']
+msgid "{$a->course} wiki: {$a->name} - {$a->subtitle}"
+msgstr ""
+
+#: $string['format_html']
+msgid "View online"
+msgstr ""
+
+#: $string['format_rtf']
+msgid "Download in word processor format"
+msgstr ""
+
+#: $string['format_template']
+msgid "Download as wiki template file"
+msgstr ""
+
+#: $string['frompage']
+msgid "from {$a}"
+msgstr ""
+
+#: $string['frompages']
+msgid "from {$a}..."
+msgstr ""
+
+#: $string['gradesupdated']
+msgid "Grades updated"
+msgstr ""
+
+#: $string['hideannotationicons']
+msgid "Hide annotations"
+msgstr ""
+
+#: $string['historycompareaccessibility']
+msgid "Select {$a->lastdate} {$a->createdtime}"
+msgstr ""
+
+#: $string['historyfor']
+msgid "History for"
+msgstr ""
+
+#: $string['import']
+msgid "Import pages"
+msgstr ""
+
+#: $string['import_confirm']
+msgid "Confirm import"
+msgstr ""
+
+#: $string['import_confirm_conflicts']
+msgid "Page conflicts:"
+msgstr ""
+
+#: $string['import_confirm_conflicts_instruct']
+msgid ""
+"Page 'conflicts' have been identified where the listed imported page names "
+"are the same as an existing page."
+msgstr ""
+
+#: $string['import_confirm_conflicts_label']
+msgid "Merge setting:"
+msgstr ""
+
+#: $string['import_confirm_conflicts_locked']
+msgid "Page {$a} is locked"
+msgstr ""
+
+#: $string['import_confirm_conflicts_lockedwarn']
+msgid ""
+"A page to be overwritten is currently locked. Check you are able to edit "
+"this page before trying again."
+msgstr ""
+
+#: $string['import_confirm_conflicts_notlocked']
+msgid "Page not locked"
+msgstr ""
+
+#: $string['import_confirm_conflicts_option1']
+msgid "Merge page content"
+msgstr ""
+
+#: $string['import_confirm_conflicts_option2']
+msgid "Replace existing page content"
+msgstr ""
+
+#: $string['import_confirm_from']
+msgid "Import from:"
+msgstr ""
+
+#: $string['import_confirm_infoheader']
+msgid "Import information"
+msgstr ""
+
+#: $string['import_confirm_linkfrom']
+msgid "Add links to new pages to:"
+msgstr ""
+
+#: $string['import_confirm_linkfrom_help']
+msgid ""
+"Select a page in which links to the top level of the new pages will be "
+"added."
+msgstr ""
+
+#: $string['import_confirm_linkfrom_newpage']
+msgid "New page"
+msgstr ""
+
+#: $string['import_confirm_linkfrom_startpage']
+msgid "Use imported Start page:"
+msgstr ""
+
+#: $string['import_confirm_linkfrom_startpage1']
+msgid "Merge into existing Start page content"
+msgstr ""
+
+#: $string['import_confirm_linkfrom_startpage2']
+msgid "Create new page from imported Start page"
+msgstr ""
+
+#: $string['import_confirm_linkheader']
+msgid "Page links"
+msgstr ""
+
+#: $string['import_confirm_mergeheader']
+msgid "Page conflicts"
+msgstr ""
+
+#: $string['import_confirm_pages']
+msgid "Import pages:"
+msgstr ""
+
+#: $string['import_confirm_pages_help']
+msgid ""
+"Pages you selected to import, plus any additional pages linked from these."
+msgstr ""
+
+#: $string['import_confirm_pages_none']
+msgid "No pages selected for import."
+msgstr ""
+
+#: $string['importedfrom']
+msgid "Imported from:"
+msgstr ""
+
+#: $string['importedpages']
+msgid "Imported pages"
+msgstr ""
+
+#: $string['importedstartpage']
+msgid "Imported start page"
+msgstr ""
+
+#: $string['import_lockedpage']
+msgid "Page locked"
+msgstr ""
+
+#: $string['import_nocontent']
+msgid "This wiki activity contains no available content to import."
+msgstr ""
+
+#: $string['import_process']
+msgid "Importing pages"
+msgstr ""
+
+#: $string['import_process_locked']
+msgid ""
+"A page that is to have content imported into is currently locked;\n"
+"Either permanently to prevent editing, or temporarily whilst another user is "
+"editing content."
+msgstr ""
+
+#: $string['import_process_startpage_locked']
+msgid ""
+"The start page that is to have content imported into is currently locked;\n"
+"Either permanently to prevent editing, or temporarily whilst another user is "
+"editing content."
+msgstr ""
+
+#: $string['import_process_summary']
+msgctxt "$string['import_process_summary']"
+msgid "Summary"
+msgstr ""
+
+#: $string['import_process_summary_imported']
+msgctxt "$string['import_process_summary_imported']"
+msgid "Pages imported"
+msgstr ""
+
+#: $string['import_process_summary_success']
+msgid "The import completed successfully."
+msgstr ""
+
+#: $string['import_process_summary_updated']
+msgid "Pages updated"
+msgstr ""
+
+#: $string['import_process_summary_warn']
+msgid "The import completed with warnings."
+msgstr ""
+
+#: $string['import_selectsubwiki']
+msgid "Select wiki"
+msgstr ""
+
+#: $string['import_selectsubwiki_help']
+msgid ""
+"Choose from available wikis. Wikis that do not have any content will not be "
+"listed."
+msgstr ""
+
+#: $string['import_selectwiki']
+msgid "Import from {$a}"
+msgstr ""
+
+#: $string['index']
+msgid "Wiki index"
+msgstr ""
+
+#: $string['jsajaxrequired']
+msgid ""
+"This Annotate page requires Javascript to be enabled in your browser and the "
+"AJAX and Javascript setting in your user profile to be set to Yes: use "
+"advanced web features."
+msgstr ""
+
+#: $string['jsnotenabled']
+msgid "Javascript is not enabled in your browser."
+msgstr ""
+
+#: $string['lastchange']
+msgid "Last change: {$a->date} / {$a->userlink}"
+msgstr ""
+
+#: $string['lastmodified']
+msgid "Last edit: {$a}"
+msgstr ""
+
+#: $string['linkedfrom']
+msgid "Pages that link to this one"
+msgstr ""
+
+#: $string['linkedfromsingle']
+msgid "Page that links to this one"
+msgstr ""
+
+#: $string['lockcancelled']
+msgid ""
+"Your editing lock has been overridden and somebody else is now editing this "
+"page. If you wish to keep your changes, please select and copy them before "
+"clicking Cancel; then try to edit again."
+msgstr ""
+
+#: $string['lockediting']
+msgid "Lock wiki - no editing"
+msgstr ""
+
+#: $string['lockpage']
+msgid "Lock page"
+msgstr ""
+
+#: $string['missingpages']
+msgid "Missing pages"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "OU wiki"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"<p>\n"
+"A wiki is a web-based system that lets users edit a set of linked pages. In "
+"Moodle, you would normally\n"
+"use a wiki when you want your students to create content.\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"The OU wiki has a variety of options. Please see the individual help by each "
+"item for more information.\n"
+"</p>"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "OU wikis"
+msgstr ""
+
+#: $string['mustspecify2']
+msgid "You must specify exactly two versions to compare."
+msgstr ""
+
+#: $string['myparticipation']
+msgid "My participation"
+msgstr ""
+
+#: $string['newerversion']
+msgid "Newer version"
+msgstr ""
+
+#: $string['newpage']
+msgid "first version"
+msgstr ""
+
+#: $string['next']
+msgid "Older changes"
+msgstr ""
+
+#: $string['nextversion']
+msgid "Next: {$a}"
+msgstr ""
+
+#: $string['noattachments']
+msgid "No attachments"
+msgstr ""
+
+#: $string['nochanges']
+msgid "Users who made no contribution"
+msgstr ""
+
+#: $string['nojsbrowser']
+msgid "Our apologies, but you are using a browser we do not fully support."
+msgstr ""
+
+#: $string['nojsdisabled']
+msgid "You have disabled JavaScript in your browser settings."
+msgstr ""
+
+#: $string['nojswarning']
+msgid ""
+"As a result, we can only hold this page for you for {$a->minutes} minutes. "
+"Please ensure that you save your changes by {$a->deadline} (it is currently "
+"{$a->now}). Otherwise, somebody else might edit the page and your changes "
+"could be lost"
+msgstr ""
+
+#: $string['noparticipation']
+msgid "No participation to show."
+msgstr ""
+
+#: $string['note']
+msgid "Note:"
+msgstr ""
+
+#: $string['nousersingroup']
+msgid "The selected group contains no users."
+msgstr ""
+
+#: $string['nowikipages']
+msgid "This wiki does not have any pages."
+msgstr ""
+
+#: $string['numedits']
+msgid "{$a} edits"
+msgstr ""
+
+#: $string['numwords']
+msgid "Words: {$a}"
+msgstr ""
+
+#: $string['olderversion']
+msgid "Older version"
+msgstr ""
+
+#: $string['oldversion']
+msgid "Old version"
+msgstr ""
+
+#: $string['onepageview']
+msgid ""
+"You can view all pages of this wiki at once for convenient printing or "
+"permanent reference."
+msgstr ""
+
+#: $string['orphanedannotations']
+msgid "Lost annotations"
+msgstr ""
+
+#: $string['orphanpages']
+msgid "Unlinked pages"
+msgstr ""
+
+#: $string['ouwiki:addinstance']
+msgid "Add a new OU wiki"
+msgstr ""
+
+#: $string['ouwiki:annotate']
+msgid "Allowed to annotate"
+msgstr ""
+
+#: $string['ouwiki:annotateothers']
+msgid "Annotate any sub-wiki that can be viewed"
+msgstr ""
+
+#: $string['ouwikicrontask']
+msgid "OU wiki maintenance jobs"
+msgstr ""
+
+#: $string['ouwiki:deletepage']
+msgid "Delete wiki pages"
+msgstr ""
+
+#: $string['ouwiki:edit']
+msgid "Edit wiki pages"
+msgstr ""
+
+#: $string['ouwiki:editothers']
+msgid "Edit the content of any sub-wiki that can be viewed"
+msgstr ""
+
+#: $string['ouwiki:grade']
+msgid "Grade users who have have access to wiki"
+msgstr ""
+
+#: $string['ouwiki:lock']
+msgid "Allowed to lock and unlock pages"
+msgstr ""
+
+#: $string['ouwiki:overridelock']
+msgid "Override locked pages"
+msgstr ""
+
+#: $string['ouwiki:view']
+msgid "View wikis"
+msgstr ""
+
+#: $string['ouwiki:viewallindividuals']
+msgid "Per-user subwikis: view all"
+msgstr ""
+
+#: $string['ouwiki:viewcontributions']
+msgid "View list of contributions organised by user"
+msgstr ""
+
+#: $string['ouwiki:viewgroupindividuals']
+msgid "Per-user subwikis: view same group"
+msgstr ""
+
+#: $string['ouwiki:viewparticipation']
+msgid "View participation of all enrolled users who have access to wiki"
+msgstr ""
+
+#: $string['overridelock']
+msgid "Override lock"
+msgstr ""
+
+#: $string['overviewnumentrysince']
+msgid "new wiki entries since last login."
+msgstr ""
+
+#: $string['overviewnumentrysince1']
+msgid "new wiki entry since last login."
+msgstr ""
+
+#: $string['page']
+msgid "Page"
+msgstr ""
+
+#: $string['pagecheckboxlabel']
+msgid "Import page, {$a}"
+msgstr ""
+
+#: $string['pagedeletedinfo']
+msgid ""
+"Some deleted versions are shown in the list below. These are visible only to "
+"users with permission to delete versions. Ordinary users do not see them at "
+"all."
+msgstr ""
+
+#: $string['pagedoesnotexist']
+msgid "This page does not yet exist in the wiki."
+msgstr ""
+
+#: $string['pageedits']
+msgid "Page edits"
+msgstr ""
+
+#: $string['pagelockeddetails']
+msgid ""
+"{$a->name} started editing this page at {$a->lockedat}, and was\n"
+"still editing it as of {$a->seenat}. You cannot edit it until they finish."
+msgstr ""
+
+#: $string['pagelockeddetailsnojs']
+msgid ""
+"{$a->name} started editing this page at {$a->lockedat}. They\n"
+"have until {$a->nojs} to edit. You cannot edit it until they finish."
+msgstr ""
+
+#: $string['pagelockedoverride']
+msgid ""
+"You have special access to cancel their edit and unlock the page.\n"
+"If you do this, whatever they have entered will be lost! Please think "
+"carefully before clicking\n"
+"the Override button."
+msgstr ""
+
+#: $string['pagelockedtimeout']
+msgid "Their editing slot finishes at {$a}."
+msgstr ""
+
+#: $string['pagelockedtitle']
+msgid "This page is being edited by somebody else."
+msgstr ""
+
+#: $string['pagenameisstartpage']
+msgid "The page name is the same as the start page. Use a different page name."
+msgstr ""
+
+#: $string['pagenametoolong']
+msgid "The page name is too long. Use a shorter page name."
+msgstr ""
+
+#: $string['pagescreated']
+msgid "Pages created"
+msgstr ""
+
+#: $string['pagesimported']
+msgctxt "$string['pagesimported']"
+msgid "Pages imported"
+msgstr ""
+
+#: $string['participation']
+msgid "Participation"
+msgstr ""
+
+#: $string['participationbyuser']
+msgid "Participation by user"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "OU wiki administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "OU wiki"
+msgstr ""
+
+#: $string['preview']
+msgid "Preview"
+msgstr ""
+
+#: $string['previewwarning']
+msgid ""
+"The following preview of your changes has not yet been saved.\n"
+"<strong>If you do not save changes, your work will be lost.</strong> Save "
+"using the button\n"
+"at the end of the page."
+msgstr ""
+
+#: $string['previous']
+msgid "Newer changes"
+msgstr ""
+
+#: $string['previousversion']
+msgid "Previous: {$a}"
+msgstr ""
+
+#: $string['recentchanges']
+msgid "Latest edits"
+msgstr ""
+
+#: $string['returntohistory']
+msgid "(<a href='{$a}'>Return to history view</a>.)"
+msgstr ""
+
+#: $string['returntopage']
+msgid "Return to wiki page"
+msgstr ""
+
+#: $string['returntoview']
+msgid "View current page"
+msgstr ""
+
+#: $string['revert']
+msgctxt "$string['revert']"
+msgid "Revert"
+msgstr ""
+
+#: $string['reverterrorcapability']
+msgid "You do not have permission to revert to an earlier version"
+msgstr ""
+
+#: $string['reverterrorversion']
+msgid "Cannot revert to nonexistent page version"
+msgstr ""
+
+#: $string['revertversion']
+msgctxt "$string['revertversion']"
+msgid "Revert"
+msgstr ""
+
+#: $string['revertversionconfirm']
+msgid ""
+"<p>This page will be returned to the state it was in as of {$a}, discarding "
+"all changes made since then. However, the discarded changes\n"
+"will still be available in the page history.</p><p>Are you sure you want to "
+"revert to this version of the page?</p>"
+msgstr ""
+
+#: $string['savedat']
+msgid "Saved at {$a}"
+msgstr ""
+
+#: $string['savedby']
+msgid "saved by {$a}"
+msgstr ""
+
+#: $string['savefailcontent']
+msgid ""
+"Your version of the page is shown below so that you can copy and paste\n"
+"the relevant parts into another program. If you put your changes back on the "
+"wiki later, be careful\n"
+"you don't overwrite somebody else's work."
+msgstr ""
+
+#: $string['savefaildesynch']
+msgid ""
+"While you were editing this page, somebody else managed to make a change.\n"
+"(This could happen in various situations such as if you are using an unusual "
+"browser or have\n"
+"Javascript turned off.) Unfortunately, your changes cannot be saved because "
+"that would overwrite the\n"
+"other person's changes."
+msgstr ""
+
+#: $string['savefaillocked']
+msgid ""
+"While you were editing this page, somebody else obtained the page lock.\n"
+"(This could happen in various situations such as if you are using an unusual "
+"browser or have\n"
+"Javascript turned off.) Unfortunately, your changes cannot be saved at this "
+"time."
+msgstr ""
+
+#: $string['savefailnetwork']
+msgid ""
+"<p>Unfortunately, your changes cannot be saved at this time. This is due to "
+"a\n"
+"network error; the website is temporarily unavailable or you have been "
+"signed out. </p><p>Saving has been disabled\n"
+"on this page. In order to retain any changes you must copy the edited page "
+"content, access the Edit page again and then paste in your changes.</p>"
+msgstr ""
+
+#: $string['savefailtitle']
+msgid "Page cannot be saved"
+msgstr ""
+
+#: $string['savegrades']
+msgid "Save grades"
+msgstr ""
+
+#: $string['savetemplate']
+msgid "Save wiki as template"
+msgstr ""
+
+#: $string['search']
+msgid "Search this wiki"
+msgstr ""
+
+#: $string['search_help']
+msgid ""
+"Type your search term and press Enter or click the button.\n"
+"\n"
+"To search for exact phrases use quote marks.\n"
+"\n"
+"To exclude a word insert a hyphen immediately before the word.\n"
+"\n"
+"Example: the search term <tt>picasso -sculpture &quot;early works&quot;</tt> "
+"will return results for &lsquo;picasso&rsquo; or the phrase &lsquo;early "
+"works&rsquo; but will exclude items containing &lsquo;sculpture&rsquo;."
+msgstr ""
+
+#: $string['seedetails']
+msgid "full history"
+msgstr ""
+
+#: $string['showannotationicons']
+msgid "Show annotations"
+msgstr ""
+
+#: $string['showwordcounts']
+msgid "Show word counts"
+msgstr ""
+
+#: $string['showwordcounts_help']
+msgid ""
+"If switched on then word counts for the pages will be calculated and "
+"displayed at the bottom of the main content."
+msgstr ""
+
+#: $string['sizewarning']
+msgid ""
+"This wiki page is very large and may operate slowly.\n"
+"If possible, please split the content into logical chunks and\n"
+"place it on separate linked pages."
+msgstr ""
+
+#: $string['startannotation']
+msgid "Start of annotation"
+msgstr ""
+
+#: $string['startpage']
+msgid "Start page"
+msgstr ""
+
+#: $string['startpagedoesnotexist']
+msgid "This wiki's start page has not yet been created."
+msgstr ""
+
+#: $string['strftimerecent']
+msgid "%d %B %y, %H:%M"
+msgstr ""
+
+#: $string['subwikiexist']
+msgid ""
+"Sub-wiki's have already been created. Adding a template file only affects\n"
+"newly created and empty sub-wiki's, existing content will remain as at "
+"present."
+msgstr ""
+
+#: $string['subwikis']
+msgid "Sub-wikis"
+msgstr ""
+
+#: $string['subwikis_groups']
+msgid "One wiki per group"
+msgstr ""
+
+#: $string['subwikis_help']
+msgid ""
+"<ul>\n"
+"<li><strong>Single wiki for course</strong><br />\n"
+"This wiki behaves as one single wiki. Everybody on the course sees the same "
+"pages.</li>\n"
+"<li><strong>One wiki per group</strong><br />\n"
+"Members of each group see an entirely separate copy of the wiki (sub-wiki) "
+"specific to their\n"
+"group. You can only see pages created by people in the same group. If you "
+"are in\n"
+"more than one group, or you have permissions that allow you to view all "
+"groups,\n"
+"you get a dropdown to choose a group.</li>\n"
+"<li><strong>Separate wiki for every user</strong><br />\n"
+"Every single user gets an entirely different wiki. You can only see your own "
+"wiki unless\n"
+"you have permissions that allow you to view others, when you get a dropdown "
+"to choose\n"
+"a user. (This can be used as a way for students to contribute work, although "
+"you should\n"
+"consider other ways to achieve this such as the Assessment activity.)</li>\n"
+"</ul>\n"
+"\n"
+"<p>\n"
+"Note that the group option works with the chosen grouping. It will ignore "
+"groups in other\n"
+"groupings.\n"
+"</p>"
+msgstr ""
+
+#: $string['subwikis_individual']
+msgid "Separate wiki for every user"
+msgstr ""
+
+#: $string['subwikis_single']
+msgid "Single wiki for course"
+msgstr ""
+
+#: $string['summary']
+msgctxt "$string['summary']"
+msgid "Summary"
+msgstr ""
+
+#: $string['summary_help']
+msgid ""
+"<p>\n"
+"If you enter a summary it will appear on the start page of the wiki. The "
+"summary appears\n"
+"above the normal, editable wiki text and cannot itself be edited by users.\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"Summaries are entirely optional and your wiki may not need one. If you don't "
+"need a\n"
+"summary, just leave the box blank.\n"
+"</p>"
+msgstr ""
+
+#: $string['system']
+msgid "the system"
+msgstr ""
+
+#: $string['tab_annotate']
+msgctxt "$string['tab_annotate']"
+msgid "Annotate"
+msgstr ""
+
+#: $string['tab_discuss']
+msgid "Discuss"
+msgstr ""
+
+#: $string['tab_edit']
+msgid "Edit"
+msgstr ""
+
+#: $string['tab_history']
+msgid "History"
+msgstr ""
+
+#: $string['tab_index_alpha']
+msgid "Alphabetical"
+msgstr ""
+
+#: $string['tab_index_changes']
+msgid "All changes"
+msgstr ""
+
+#: $string['tab_index_pages']
+msgid "New pages"
+msgstr ""
+
+#: $string['tab_index_tree']
+msgid "Structure"
+msgstr ""
+
+#: $string['tab_view']
+msgid "View"
+msgstr ""
+
+#: $string['template']
+msgid "Template"
+msgstr ""
+
+#: $string['templatefileexists']
+msgid "A template file '{$a}' is already in use."
+msgstr ""
+
+#: $string['template_help']
+msgid ""
+"<p>\n"
+"A template is a predefined set of wiki pages. When a template is set, the "
+"wiki starts off\n"
+"with the content defined in the template.\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"The template applies to each subwiki; in \"One wiki per group\" mode, for "
+"example, each\n"
+"group's wiki is initialised with the pages in the template.\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"To create a template, write the pages you want on any wiki, then visit the "
+"Index page and\n"
+"click the \"Save wiki as template\" button. (You can also manually create "
+"templates in other\n"
+"software; it is an extremely simple XML format. Look at a saved template to "
+"see the format.)\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"You can add the template after the wiki has been created. Adding a template "
+"only affects\n"
+"newly created sub-wiki's, existing ones will remain as at present. </p>"
+msgstr ""
+
+#: $string['thispageislocked']
+msgid "This wiki page is locked and cannot be edited."
+msgstr ""
+
+#: $string['timelocked_after']
+msgid "This wiki is currently locked and can no longer be edited."
+msgstr ""
+
+#: $string['timelocked_before']
+msgid "This wiki is currently locked. It can be edited from {$a}."
+msgstr ""
+
+#: $string['timeout']
+msgid "Time allowed for edit"
+msgstr ""
+
+#: $string['timeout_help']
+msgid ""
+"<p>\n"
+"If you select a timeout, people editing the wiki are only allowed to edit it "
+"for a given time.\n"
+"The wiki locks pages while they are being edited (so that two people can't "
+"edit the same page\n"
+"at once), so setting a timeout prevents the wiki becoming locked for others.\n"
+"</p>\n"
+"\n"
+"<h3>What users see</h3>\n"
+"\n"
+"<p>\n"
+"When timeout is enabled, users see a countdown when they edit a page. If the "
+"countdown reaches\n"
+"zero, their browser will automatically save any changes and stop editing.\n"
+"</p>\n"
+"\n"
+"<h3>Users without Javascript enabled</h3>\n"
+"\n"
+"<p>\n"
+"This option has no effect on users who don't have Javascript enabled or who "
+"have old browsers.\n"
+"A fifteen-minute timeout always applies to these users. When they edit a "
+"page, it displays the time\n"
+"by which they must save it; if they do not, they might lose their work.\n"
+"</p>\n"
+"\n"
+"<h3>Why you might not need this option</h3>\n"
+"\n"
+"<p>\n"
+"Even when this option is turned off, locks are automatically discarded in "
+"the following situations after\n"
+"a user has begun to edit a page:\n"
+"</p>\n"
+"\n"
+"<ul>\n"
+"<li>Without saving changes or cancelling, the user moves to a different "
+"page.</li>\n"
+"<li>The user closes their browser.</li>\n"
+"<li>The user's computer crashes.</li>\n"
+"<li>The user loses their Internet connection.</li>\n"
+"</ul>\n"
+"\n"
+"<p>\n"
+"In these situations the lock is automatically removed after about two "
+"minutes.\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"In addition, tutors and course staff have (by default) the ability to "
+"override any lock at any time.\n"
+"</p>\n"
+"\n"
+"<h3>What this option doesn't do</h3>\n"
+"\n"
+"<p>\n"
+"This option doesn't stop somebody holding on to a page and preventing other "
+"users from editing it if\n"
+"they are very determined. They could edit a page and wait until the timeout "
+"is about to expire before\n"
+"saving changes then very quickly editing it again.\n"
+"</p>"
+msgstr ""
+
+#: $string['timeout_none']
+msgid "No timeout"
+msgstr ""
+
+#: $string['tryagain']
+msgid "Try again"
+msgstr ""
+
+#: $string['typeinpagename']
+msgid "Type page name here"
+msgstr ""
+
+#: $string['typeinsectionname']
+msgid "Type section title here"
+msgstr ""
+
+#: $string['unabletoimport']
+msgid "No wiki's available to import from."
+msgstr ""
+
+#: $string['undelete']
+msgid "Undelete"
+msgstr ""
+
+#: $string['unlockpage']
+msgid "Unlock page"
+msgstr ""
+
+#: $string['userdetails']
+msgid "Detail for {$a}"
+msgstr ""
+
+#: $string['usergrade']
+msgid "User grade"
+msgstr ""
+
+#: $string['userparticipation']
+msgid "User participation"
+msgstr ""
+
+#: $string['viewdeletedversionerrorcapability']
+msgid "Error viewing page version"
+msgstr ""
+
+#: $string['viewparticipationerrror']
+msgid "Cannot view user participation."
+msgstr ""
+
+#: $string['viewwikichanges']
+msgid "Changes for {$a}"
+msgstr ""
+
+#: $string['viewwikistartpage']
+msgid "View {$a}"
+msgstr ""
+
+#: $string['wikifor']
+msgid "Viewing wiki for:"
+msgstr ""
+
+#: $string['wikifullchanges']
+msgid "View full change list"
+msgstr ""
+
+#: $string['wikirecentchanges']
+msgid "Wiki changes"
+msgstr ""
+
+#: $string['wikirecentchanges_from']
+msgid "Wiki changes (page {$a})"
+msgstr ""
+
+#: $string['words']
+msgid "Words"
+msgstr ""
+
+#: $string['wordsadded']
+msgid "Words added"
+msgstr ""
+
+#: $string['wordsdeleted']
+msgid "Words deleted"
+msgstr ""
+
+#: $string['wouldyouliketocreate']
+msgid "Would you like to create it?"
+msgstr ""

@@ -1,0 +1,295 @@
+#. extracted from lang/en/movilquizlite.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:07+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'movilquizlite', language 'en', branch 'MOODLE_21_STABLE'
+#.  *
+#.  * @package   movilquizlite
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['attempts_title']
+msgid "Grades (Plus) - Last Students Attempts"
+msgstr ""
+
+#: $string['dashboardadmin_title']
+msgid "MovilQuiz Admin Dashboard"
+msgstr ""
+
+#: $string['default_label']
+msgid "Default"
+msgstr ""
+
+#: $string['grade_category_label']
+msgid "Grade Category"
+msgstr ""
+
+#: $string['grade_category_label_help']
+msgid "Grade Category to filter quizzes"
+msgstr ""
+
+#: $string['grade_feature']
+msgid "<p>Review attempts from students. Select quiz to review</p>"
+msgstr ""
+
+#: $string['grade_title']
+msgid "Grades (Plus)"
+msgstr ""
+
+#: $string['list_attempts_title']
+msgid "Grades (Plus) - Detailed Student Attempts"
+msgstr ""
+
+#: $string['mail_message']
+msgid "Send passwords to students"
+msgstr ""
+
+#: $string['mail_message_text']
+msgid ""
+"<p>Dear Student <b>{$a->fullname}</b>,<p><p>You can now begin using "
+"Movilquiz from your cellphone.\n"
+"Your account details are the following:</p> <p>course shortname: "
+"{$a->shortname}</p><p>user: {$a->user}</p><p>password: {$a->password}</p>"
+msgstr ""
+
+#: $string['mail_title']
+msgid "Mail"
+msgstr ""
+
+#: $string['message_back']
+msgid "Back Admin Dashboard"
+msgstr ""
+
+#: $string['message_back_lsa']
+msgid "Back to Grades (Plus) - Last Students Attempts"
+msgstr ""
+
+#: $string['message_back_uq']
+msgid "back to Grades (Plus) - Quizzes"
+msgstr ""
+
+#: $string['message_convert_quizzes_plural']
+msgid "Convert remaining <b>{$a}</b> quizzes."
+msgstr ""
+
+#: $string['message_error_convert_quizzes']
+msgid "An error ocurred during convert quizzes"
+msgstr ""
+
+#: $string['message_error_generate_passwords']
+msgid "An error occurred during key generation"
+msgstr ""
+
+#: $string['message_error_send_passwords']
+msgid "An error ocurred during sending access details"
+msgstr ""
+
+#: $string['message_list_attempts']
+msgid ""
+"<p>A continuación se muestra la lista de intentos realizados por el alumno "
+"<b>{$a->fullname}</b>.</p>"
+msgstr ""
+
+#: $string['message_no_quizzes']
+msgid ""
+"There are <b>0</b> quizzes in the category <b>{$a->categoryname}</b>, please "
+"add quizzes"
+msgstr ""
+
+#: $string['message_no_students_enrolled']
+msgid ""
+"There are <b>0</b> students enrolled in this course, please add students"
+msgstr ""
+
+#: $string['message_num_quizzes']
+msgid ""
+"There is <b>{$a->numquizzes}</b> quiz in the category "
+"<b>{$a->categoryname}</b>"
+msgstr ""
+
+#: $string['message_num_quizzes_converted_plural']
+msgid "There are <b>{$a}</b> quizzes converted."
+msgstr ""
+
+#: $string['message_num_quizzes_plural']
+msgid ""
+"There are <b>{$a->numquizzes}</b> quizzes in the category "
+"<b>{$a->categoryname}</b>"
+msgstr ""
+
+#: $string['message_quizzes_convert_again']
+msgid "Convert all quizzes again"
+msgstr ""
+
+#: $string['message_quizzes_converted_complete']
+msgid "All quizzes have been converted"
+msgstr ""
+
+#: $string['message_students_assigned']
+msgid "There is <b>{$a}</b> student with password assigned"
+msgstr ""
+
+#: $string['message_students_assigned_complete']
+msgid "All students have password assigned"
+msgstr ""
+
+#: $string['message_students_assigned_plural']
+msgid "There are <b>{$a}</b> students with password assigned"
+msgstr ""
+
+#: $string['message_students_enrolled']
+msgid "There is <b>{$a}</b> student enrolled in this course"
+msgstr ""
+
+#: $string['message_students_enrolled_plural']
+msgid "There are <b>{$a}</b> students enrolled in this course"
+msgstr ""
+
+#: $string['message_students_generate_password']
+msgid "Generate password(s) for remaining <b>{$a}</b> students"
+msgstr ""
+
+#: $string['message_student_view_quizzes']
+msgid ""
+"<p>A continuación se muestran los cuestionarios disponibles. Seleccione uno "
+"para ver los intentos realizados."
+msgstr ""
+
+#: $string['message_successfully']
+msgid "Action was successfull"
+msgstr ""
+
+#: $string['message_view_attempts']
+msgid ""
+"<p>Below is a list of the latest attempts by the students.\n"
+"To see the efforts of each student, click on the student's name.</p>"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "movilquiz"
+msgstr ""
+
+#: $string['modulenameplural']
+msgctxt "$string['modulenameplural']"
+msgid "movilquiz"
+msgstr ""
+
+#: $string['movilquiz']
+msgctxt "$string['movilquiz']"
+msgid "movilquiz"
+msgstr ""
+
+#: $string['movilquizname']
+msgid "Name"
+msgstr ""
+
+#: $string['movilquizname_help']
+msgid "Name of module."
+msgstr ""
+
+#: $string['movilquiz_url']
+msgid "http://www.movilquiz.com"
+msgstr ""
+
+#: $string['newmodulefieldset']
+msgid "Custom example fieldset"
+msgstr ""
+
+#: $string['none_label']
+msgid "None"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "movilquiz administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "movilquiz"
+msgstr ""
+
+#: $string['quizzes']
+msgid "quizzes"
+msgstr ""
+
+#: $string['quizzes_title']
+msgid "Quizzes"
+msgstr ""
+
+#: $string['resolution_feature']
+msgid "<p>Available in MovilQuiz Plus</p>"
+msgstr ""
+
+#: $string['resolution_title']
+msgid "Resolutions Review (Plus)"
+msgstr ""
+
+#: $string['table_header_ca']
+msgid "Correct"
+msgstr ""
+
+#: $string['table_header_fg']
+msgid "Grade"
+msgstr ""
+
+#: $string['table_header_ia']
+msgid "Wrong"
+msgstr ""
+
+#: $string['table_header_na']
+msgid "Not Answered"
+msgstr ""
+
+#: $string['table_header_student']
+msgid "Student"
+msgstr ""
+
+#: $string['user_attempts_title']
+msgid "Grades (Plus) - Attempts"
+msgstr ""
+
+#: $string['userpanel_title']
+msgid "User Panel"
+msgstr ""
+
+#: $string['user_quizzes_title']
+msgid "Grades (Plus) - Quizzes"
+msgstr ""
+
+#: $string['users_title']
+msgid "Users"
+msgstr ""
+
+#: $string['view_last_attempts']
+msgid "View last attempts of"
+msgstr ""
+
+#: $string['view_quiz_attempts']
+msgid "View attempts of"
+msgstr ""

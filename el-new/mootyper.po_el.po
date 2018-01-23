@@ -1,0 +1,787 @@
+#. extracted from lang/en/mootyper.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'mootyper', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   mootyper
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['allstring']
+msgid "All"
+msgstr ""
+
+#: $string['average']
+msgid "Average"
+msgstr ""
+
+#: $string['bymootyper']
+msgid "by exercise"
+msgstr ""
+
+#: $string['byuser']
+msgid "by user"
+msgstr ""
+
+#: $string['cancel']
+msgid "Cancel"
+msgstr ""
+
+#: $string['charttitleallgrades']
+msgid "All Grades"
+msgstr ""
+
+#: $string['charttitlemyowngrades']
+msgid "My Own Grades"
+msgstr ""
+
+#: $string['chere']
+msgid "Click here to start"
+msgstr ""
+
+#: $string['closebeforeopen']
+msgid ""
+"Could not update the MooTyper. You have specified a close date before the "
+"open date."
+msgstr ""
+
+#: $string['configdateformat']
+msgid ""
+"This defines how dates are shown in grade reports. The default value, \"M d, "
+"Y G:i\" is Month, day, year and 24 hour format time. Refer to Date in the PHP "
+"manual for more examples and predefined date constants."
+msgstr ""
+
+#: $string['configpassword_desc']
+msgid "Whether a password is required in order to access the lesson."
+msgstr ""
+
+#: $string['configrequirepassword']
+msgid "Configure password"
+msgstr "Διαμόρφωση κωδικού πρόσβασης"
+
+#: $string['configtimelimit_desc']
+msgid ""
+"If a time limit is set, a warning is displayed at the beginning of the "
+"lesson and there is a countdown timer. If set to zero, then there is no time "
+"limit."
+msgstr ""
+
+#: $string['continue']
+msgctxt "$string['continue']"
+msgid "Continue"
+msgstr ""
+
+#: $string['continuoustype']
+msgid "Continuous typing"
+msgstr ""
+
+#: $string['continuoustype_help']
+msgid "If enabled, a mistyped character does not have to be corrected."
+msgstr ""
+
+#: $string['countmistypedspaces']
+msgid "Count mistyped spaces"
+msgstr ""
+
+#: $string['countmistypedspaces_help']
+msgid "If enabled, a mistyped space is counted as a mistake."
+msgstr ""
+
+#: $string['course_exercises_viewed']
+msgid "Viewed exercises"
+msgstr ""
+
+#: $string['csvexport']
+msgid "Export to .csv"
+msgstr "Εξαγωγή σε .csv"
+
+#: $string['dateformat']
+msgid "Default date format"
+msgstr ""
+
+#: $string['defaultlayout']
+msgid "Default keyboard layout"
+msgstr ""
+
+#: $string['defaultprecision']
+msgid "Default typing precision %"
+msgstr ""
+
+#: $string['eaccess0']
+msgid "Any teacher"
+msgstr ""
+
+#: $string['eaccess1']
+msgctxt "$string['eaccess1']"
+msgid "Teacher inside this course"
+msgstr ""
+
+#: $string['eaccess2']
+msgctxt "$string['eaccess2']"
+msgid "Only me"
+msgstr ""
+
+#: $string['eaddnew']
+msgid "Add new exercise / category"
+msgstr ""
+
+#: $string['editable']
+msgid "Can edit"
+msgstr ""
+
+#: $string['editexercises']
+msgid "Export / edit exercises"
+msgstr ""
+
+#: $string['eeditlabel']
+msgid "Edit"
+msgstr ""
+
+#: $string['eheading']
+msgid "Manage MooTyper Exercises"
+msgstr ""
+
+#: $string['emanage']
+msgid "To manage exercises and categories click here"
+msgstr ""
+
+#: $string['emptypassword']
+msgid "Password cannot be empty"
+msgstr ""
+
+#: $string['ename']
+msgid "Exercise:"
+msgstr ""
+
+#: $string['endlesson']
+msgid "End of the category / lesson"
+msgstr ""
+
+#: $string['enterpassword']
+msgid "Please enter the password:"
+msgstr ""
+
+#: $string['eremove']
+msgid "Remove"
+msgstr ""
+
+#: $string['etext']
+msgid "Text"
+msgstr ""
+
+#: $string['etitle']
+msgid "MooTyper exercises"
+msgstr ""
+
+#: $string['eventlessonexport']
+msgid "Exported lesson"
+msgstr ""
+
+#: $string['examdone']
+msgid "Exam already taken."
+msgstr ""
+
+#: $string['excategory']
+msgid "Exercises category"
+msgstr ""
+
+#: $string['excategory_help']
+msgid "Pick a Lesson name to use for this MooTyper."
+msgstr ""
+
+#: $string['exercise']
+msgid "Exercise {$a} of"
+msgstr ""
+
+#: $string['exercise_added']
+msgid "Added exercise/category"
+msgstr ""
+
+#: $string['exercise_edited']
+msgid "Edited exercise"
+msgstr ""
+
+#: $string['exercise_removed']
+msgid "Removed an exercise"
+msgstr ""
+
+#: $string['export']
+msgid "Export"
+msgstr "Εξαγωγή"
+
+#: $string['exportconfirm']
+msgid "Confirm you want to export"
+msgstr ""
+
+#: $string['failbgc_colour']
+msgid "#FF6C6C"
+msgstr ""
+
+#: $string['failbgc_descr']
+msgid "This sets the background color for a failing grade."
+msgstr ""
+
+#: $string['failbgc_title']
+msgid "Failing grade background color"
+msgstr ""
+
+#: $string['fconfirm']
+msgid "Confirm"
+msgstr ""
+
+#: $string['fcontinue']
+msgctxt "$string['fcontinue']"
+msgid "Continue"
+msgstr ""
+
+#: $string['fexercise']
+msgid "Exercise"
+msgstr ""
+
+#: $string['flesson']
+msgctxt "$string['flesson']"
+msgid "Lesson"
+msgstr ""
+
+#: $string['fmode']
+msgid "Mode"
+msgstr ""
+
+#: $string['fmode_help']
+msgid ""
+"Lesson mode will present each exercise in a Lesson/Category until all are "
+"completed. Exam mode will show only the selected exercise for the exam. Once "
+"you click Save and display, you cannot change the mode."
+msgstr ""
+
+#: $string['fnewexercise']
+msgid "Exercise will be a part of"
+msgstr ""
+
+#: $string['fnewlesson']
+msgid "create new lesson/category"
+msgstr ""
+
+#: $string['fsecurity']
+msgid "Security"
+msgstr ""
+
+#: $string['fsettings']
+msgid "Settings"
+msgstr ""
+
+#: $string['fsetup']
+msgctxt "$string['fsetup']"
+msgid "Setup"
+msgstr ""
+
+#: $string['fullhits']
+msgid "All hits"
+msgstr ""
+
+#: $string['grade_removed']
+msgid "Removed a grade"
+msgstr ""
+
+#: $string['gradesfilename']
+msgid "grades.csv"
+msgstr ""
+
+#: $string['gviewmode']
+msgctxt "$string['gviewmode']"
+msgid "View"
+msgstr ""
+
+#: $string['hitsperminute']
+msgid "Hits/minute"
+msgstr ""
+
+#: $string['invalidaccess']
+msgid "You do not have permission to view this page."
+msgstr ""
+
+#: $string['isexamtext']
+msgid "Exam"
+msgstr ""
+
+#: $string['kblimportadd']
+msgid "layout was successfully added to the database."
+msgstr ""
+
+#: $string['kblimportnotadd']
+msgid "layout already in the database. Nothing to do."
+msgstr ""
+
+#: $string['keybdbgc']
+msgctxt "$string['keybdbgc']"
+msgid "Keyboard background color"
+msgstr ""
+
+#: $string['keybdbgc_help']
+msgid ""
+"This sets the background color around keyboard keys. You can enter a hex "
+"color or named color. e.g. #95fc89 or green"
+msgstr ""
+
+#: $string['keyboardbgc_colour']
+msgid "#DDDDDD"
+msgstr ""
+
+#: $string['keyboardbgc_descr']
+msgid "This sets the background color around keyboard keys."
+msgstr ""
+
+#: $string['keyboardbgc_title']
+msgctxt "$string['keyboardbgc_title']"
+msgid "Keyboard background color"
+msgstr ""
+
+#: $string['keytopbgc']
+msgctxt "$string['keytopbgc']"
+msgid "Key top color"
+msgstr ""
+
+#: $string['keytopbgc_help']
+msgid ""
+"This sets the color of key tops except homerow keys. You can enter a hex "
+"color or named color. e.g. #95fc89 or green"
+msgstr ""
+
+#: $string['layout']
+msgid "Keyboard layout"
+msgstr ""
+
+#: $string['layout_help']
+msgid ""
+"You can select a Keyboard layout to be shown when the Show keyboard option "
+"is set to Yes."
+msgstr ""
+
+#: $string['layout_imported']
+msgid "Keyboard layout imported"
+msgstr ""
+
+#: $string['lesson_export']
+msgid "Lesson export setting"
+msgstr ""
+
+#: $string['lesson_exported']
+msgid "Exported lesson/category"
+msgstr ""
+
+#: $string['lesson_export_filename']
+msgid "Lesson export filename"
+msgstr ""
+
+#: $string['lesson_export_filenameconfig']
+msgid ""
+"Add GMT as part of exported lesson filenames for simple versioning system."
+msgstr ""
+
+#: $string['lesson_imported']
+msgid "Imported lesson/category"
+msgstr ""
+
+#: $string['lesson_removed']
+msgid "Removed a lesson and its exercises"
+msgstr ""
+
+#: $string['loginfail']
+msgid "Login failed, please try again..."
+msgstr ""
+
+#: $string['lsnimport']
+msgid "Import lesson / KB layout"
+msgstr ""
+
+#: $string['lsnimportadd']
+msgid "was successfully added to the database."
+msgstr ""
+
+#: $string['lsnimportnotadd']
+msgid "already in the database. Nothing to do."
+msgstr ""
+
+#: $string['lsnname']
+msgid "category name"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "MooTyper"
+msgstr ""
+
+#: $string['modulename_help']
+msgid "The mootyper module allows us to learn how to type"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "MooTypers"
+msgstr ""
+
+#: $string['mootyper']
+msgid "mootyper"
+msgstr ""
+
+#: $string['mootyper:addinstance']
+msgid "Add instance"
+msgstr ""
+
+#: $string['mootyper:aftersetup']
+msgid "After setup"
+msgstr ""
+
+#: $string['mootyperclosed']
+msgid "This MooTyper closed on {$a}."
+msgstr ""
+
+#: $string['mootyperclosetime']
+msgid "Close time"
+msgstr ""
+
+#: $string['mootyper:editall']
+msgid "Edit all"
+msgstr ""
+
+#: $string['mootyperfieldset']
+msgid "Custom example fieldset"
+msgstr ""
+
+#: $string['mootypername']
+msgid "Test title"
+msgstr ""
+
+#: $string['mootypername_help']
+msgid ""
+"Because of the variety of lessons and exercises you can have, the name "
+"should make it clear which MooTyper lesson or exam this acitivity is set "
+"for. Markdown syntax is supported."
+msgstr ""
+
+#: $string['mootyperopen']
+msgid "This MooTyper will be open on {$a}."
+msgstr ""
+
+#: $string['mootyperopentime']
+msgid "Open time"
+msgstr ""
+
+#: $string['mootyper:setup']
+msgctxt "$string['mootyper:setup']"
+msgid "Setup"
+msgstr ""
+
+#: $string['mootyper:view']
+msgctxt "$string['mootyper:view']"
+msgid "View"
+msgstr ""
+
+#: $string['mootyper:viewgrades']
+msgctxt "$string['mootyper:viewgrades']"
+msgid "View all grades"
+msgstr ""
+
+#: $string['mootyper:viewmygrades']
+msgctxt "$string['mootyper:viewmygrades']"
+msgid "View my grades"
+msgstr ""
+
+#: $string['nogrades']
+msgid "No grades yet..."
+msgstr ""
+
+#: $string['normalkeytops_colour']
+msgctxt "$string['normalkeytops_colour']"
+msgid "#CCCCCC"
+msgstr ""
+
+#: $string['normalkeytops_descr']
+msgid "This sets the color of key tops except homerow keys."
+msgstr ""
+
+#: $string['normalkeytops_title']
+msgctxt "$string['normalkeytops_title']"
+msgid "Key top color"
+msgstr ""
+
+#: $string['notavailable']
+msgid "<b>Not currently available!<br></b>"
+msgstr ""
+
+#: $string['noteditablebyme']
+msgid "Not editable by me."
+msgstr ""
+
+#: $string['notreadyyet']
+msgid "Not ready yet...please try again later."
+msgstr ""
+
+#: $string['options']
+msgid "Options"
+msgstr ""
+
+#: $string['overview']
+msgid "Overview"
+msgstr ""
+
+#: $string['overview_help']
+msgid ""
+"MooTyper is an activity for learning to type using a computer keyboard. Some "
+"lessons with multiple exercises are included and teachers, managers, and "
+"admins can add more. Lessons can be downloaded for backup or transfer to "
+"other Moodle users. Lessons can also be uploaded to augment those already "
+"installed."
+msgstr ""
+
+#: $string['passbgc_colour']
+msgid "#7FEF6C"
+msgstr ""
+
+#: $string['passbgc_descr']
+msgid "This sets the background color for a passing grade."
+msgstr ""
+
+#: $string['passbgc_title']
+msgid "Passing grade background color"
+msgstr ""
+
+#: $string['password']
+msgid "Password"
+msgstr "Κωδικός πρόσβασης"
+
+#: $string['passwordprotectedlesson']
+msgid "{$a} is a password protected MooTyper activity."
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "MooTyper Administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "MooTyper"
+msgstr ""
+
+#: $string['precision']
+msgid "Precision"
+msgstr ""
+
+#: $string['removeall']
+msgid "Remove all from"
+msgstr ""
+
+#: $string['removeexconfirm']
+msgid "Confirm you are about to remove an exercise from"
+msgstr ""
+
+#: $string['removelsnconfirm']
+msgid "Confirm you are about to completly remove"
+msgstr ""
+
+#: $string['reqfield']
+msgid "Required field"
+msgstr ""
+
+#: $string['requiredgoal']
+msgid "Required precision"
+msgstr ""
+
+#: $string['requiredgoal_help']
+msgid "Enter precision required for successful completion of an exercise."
+msgstr ""
+
+#: $string['requirepassword']
+msgid "Require password"
+msgstr ""
+
+#: $string['resetmootyperall']
+msgid "Reset all MooTyper attempts and grades."
+msgstr ""
+
+#: $string['returnto']
+msgid "Return to {$a}"
+msgstr ""
+
+#: $string['rhitspermin']
+msgid "Hits per minute:"
+msgstr ""
+
+#: $string['rmistakes']
+msgid "Mistakes:"
+msgstr ""
+
+#: $string['rprecision']
+msgid "Precision:"
+msgstr ""
+
+#: $string['rprogress']
+msgid "Progress:"
+msgstr ""
+
+#: $string['rtime']
+msgid "Time:"
+msgstr ""
+
+#: $string['sflesson']
+msgctxt "$string['sflesson']"
+msgid "Lesson"
+msgstr ""
+
+#: $string['showkeyboard']
+msgid "Show keyboard"
+msgstr ""
+
+#: $string['showkeyboard_help']
+msgid ""
+"If enabled, a visual representation of the currently selected keyboard "
+"layout will be shown while a user is typing an exercise."
+msgstr ""
+
+#: $string['showrecentactivity']
+msgid "Show recent activity"
+msgstr ""
+
+#: $string['showrecentactivityconfig']
+msgid "Everyone can see notifications in recent activity reports."
+msgstr ""
+
+#: $string['statsbgc']
+msgid "Statistics background color"
+msgstr ""
+
+#: $string['statsbgc_help']
+msgid ""
+"This sets the background color of the statistics bar. You can enter a hex "
+"color or named color. e.g. #95fc89 or green"
+msgstr ""
+
+#: $string['statscolor_colour']
+msgctxt "$string['statscolor_colour']"
+msgid "#CCCCCC"
+msgstr ""
+
+#: $string['statscolor_descr']
+msgid "This sets the background color of the statistics bar."
+msgstr ""
+
+#: $string['statscolor_title']
+msgid "Statistics bar background color"
+msgstr ""
+
+#: $string['student']
+msgid "Student"
+msgstr ""
+
+#: $string['suspicion_colour']
+msgid "#FFFF00"
+msgstr ""
+
+#: $string['suspicion_descr']
+msgid "This sets the marker color for a grade with suspicious results."
+msgstr ""
+
+#: $string['suspicion_title']
+msgid "Suspicious grade warning color"
+msgstr ""
+
+#: $string['testing']
+msgid "Testing code"
+msgstr ""
+
+#: $string['timeinseconds']
+msgid "Elapsed time"
+msgstr ""
+
+#: $string['timeisup']
+msgid "Time is up"
+msgstr ""
+
+#: $string['timelimit']
+msgid "Time limit"
+msgstr ""
+
+#: $string['timelimit_help']
+msgid ""
+"If enabled, a warning about the time limit is displayed at the beginning of "
+"the exercise and a countdown timer is displayed. Letters typed after time is "
+"elapsed aren't counted"
+msgstr ""
+
+#: $string['timetaken']
+msgid "Completed"
+msgstr ""
+
+#: $string['usepassword']
+msgid "Password protected lesson"
+msgstr ""
+
+#: $string['usepassword_help']
+msgid "If enabled, a password is required in order to access the lesson."
+msgstr ""
+
+#: $string['vaccess0']
+msgid "All teachers"
+msgstr ""
+
+#: $string['vaccess1']
+msgctxt "$string['vaccess1']"
+msgid "Teacher inside this course"
+msgstr ""
+
+#: $string['vaccess2']
+msgctxt "$string['vaccess2']"
+msgid "Only me"
+msgstr ""
+
+#: $string['viewgrades']
+msgctxt "$string['viewgrades']"
+msgid "View all grades"
+msgstr ""
+
+#: $string['viewmygrades']
+msgctxt "$string['viewmygrades']"
+msgid "View my grades"
+msgstr ""
+
+#: $string['visibility']
+msgid "Category visible to"
+msgstr ""
+
+#: $string['vmistakes']
+msgid "Mistakes"
+msgstr ""
+
+#: $string['wpm']
+msgid "WPM"
+msgstr ""
+
+#: $string['xaxislabel']
+msgid "Range"
+msgstr ""

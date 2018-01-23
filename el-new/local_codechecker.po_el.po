@@ -1,0 +1,148 @@
+#. extracted from lang/en/local_codechecker.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'local_codechecker', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   local_codechecker
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['check']
+msgid "Check code"
+msgstr ""
+
+#: $string['clihelp']
+msgid ""
+"Check some PHP code against the Moodle coding guidelines.\n"
+"Options:\n"
+"  --interactive, -i Stops after every file allowing to continue with the "
+"next\n"
+"                    file or to repeat the check against the same one.\n"
+"  --help, -h        Shows this information\n"
+"Example:\n"
+"  php run.php local/codechecker"
+msgstr ""
+
+#: $string['error_find']
+msgid "Folder search failed"
+msgstr ""
+
+#: $string['exclude']
+msgid "Exclude"
+msgstr ""
+
+#: $string['filesfound']
+msgid "Files found: {$a}"
+msgstr ""
+
+#: $string['filesummary']
+msgid "{$a->path} - {$a->count}"
+msgstr ""
+
+#: $string['includewarnings']
+msgid "Include warnings"
+msgstr ""
+
+#: $string['info']
+msgid ""
+"<p>Checks code against some aspects of the {$a->link}.</p>\n"
+"<p>Enter a path relative to the Moodle code root, for example: "
+"{$a->path}.</p>\n"
+"<p>You can enter either a specific PHP file, or to a folder to check all the "
+"files it contains.</p>\n"
+"<p>To exclude files, a comma separated list of substr matching paths can be "
+"used, for example: {$a->excludeexample}. Asterisks are allowed as wildchars "
+"at any place.</p>"
+msgstr ""
+
+#: $string['invalidpath']
+msgid "Invalid path {$a}"
+msgstr ""
+
+#: $string['moodlecodingguidelines']
+msgid "Moodle coding guidelines"
+msgstr ""
+
+#: $string['numerrorswarnings']
+msgid "{$a->errors} error(s) and {$a->warnings} warning(s)"
+msgstr ""
+
+#: $string['other_crlf']
+msgid ""
+"Windows (CRLF) line ending instead of just LF (reporting only first "
+"occurrence)"
+msgstr ""
+
+#: $string['other_eol']
+msgid "Whitespace at end of line"
+msgstr ""
+
+#: $string['other_extralfs']
+msgid "Extra blank line(s) at end of file (use exactly one)"
+msgstr ""
+
+#: $string['other_missinglf']
+msgid "Missing LF at end of file (use exactly one)"
+msgstr ""
+
+#: $string['other_ratherlong']
+msgid "Line longer than recommended 132 characters"
+msgstr ""
+
+#: $string['other_tab']
+msgid "Tab character not permitted"
+msgstr ""
+
+#: $string['other_toolong']
+msgid "Line longer than maximum 180 characters"
+msgstr ""
+
+#: $string['path']
+msgid "Path to check"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Code checker"
+msgstr ""
+
+#: $string['recheckfile']
+msgid "Re-check just this file"
+msgstr ""
+
+#: $string['success']
+msgid "Well done!"
+msgstr ""
+
+#: $string['summary']
+msgid "Total: {$a}"
+msgstr ""
+
+#: $string['wholefile']
+msgid "File"
+msgstr ""

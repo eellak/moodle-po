@@ -1,0 +1,3055 @@
+#. extracted from lang/en/forumng.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'forumng', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   forumng
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addanewdiscussion']
+msgid "Start a new discussion"
+msgstr ""
+
+#: $string['advancedsearch']
+msgid "Advanced search"
+msgstr ""
+
+#: $string['afterenddate']
+msgid ""
+"You can read any posts within this forum, but not submit your own posts.\n"
+"This forum closed for posting on {$a}."
+msgstr ""
+
+#: $string['afterenddatecapable']
+msgid ""
+"Students can read any posts within this forum, but not submit\n"
+"their own posts since the forum closed on {$a}. You still have access to "
+"submit posts."
+msgstr ""
+
+#: $string['alert_condition1']
+msgid "It is abusive"
+msgstr ""
+
+#: $string['alert_condition2']
+msgid "It is harassment"
+msgstr ""
+
+#: $string['alert_condition3']
+msgid "It contains obscene content such as pornography"
+msgstr ""
+
+#: $string['alert_condition4']
+msgid "It is libellous or defamatory"
+msgstr ""
+
+#: $string['alert_condition5']
+msgid "It infringes copyright"
+msgstr ""
+
+#: $string['alert_condition6']
+msgid "It is against the rules for some other reason"
+msgstr ""
+
+#: $string['alert_conditionmore']
+msgid "Other information (optional)"
+msgstr ""
+
+#: $string['alert_emailappendix']
+msgid ""
+"You are receiving this email because your email address has been\n"
+"used on the ForumNG for reporting unacceptable email."
+msgstr ""
+
+#: $string['alert_emailpreface']
+msgid ""
+"A forum post has been reported by {$a->fullname} ({$a->username},\n"
+"{$a->email}) {$a->url}"
+msgstr ""
+
+#: $string['alert_emailsubject']
+msgid "Alert F{$a->postid}: {$a->coursename} {$a->forumname}"
+msgstr ""
+
+#: $string['alert_feedback']
+msgid ""
+"Your report has been sent successfully. A member of staff will\n"
+"investigate this issue."
+msgstr ""
+
+#: $string['alert_info']
+msgid ""
+"The 'Report' feature can send this post to a staff member who will\n"
+"investigate. <strong>Please use this feature only if you think the post "
+"breaks the\n"
+"rules</strong>."
+msgstr ""
+
+#: $string['alert_intro']
+msgid ""
+"You can use the Report post link if you need to bring a post in this forum "
+"to the attention of a moderator."
+msgstr ""
+
+#: $string['alert_link']
+msgctxt "$string['alert_link']"
+msgid "Report post"
+msgstr ""
+
+#: $string['alert_linktitle']
+msgid "Report post as unacceptable"
+msgstr ""
+
+#: $string['alert_notcurrentpost']
+msgid "This post has already been deleted."
+msgstr ""
+
+#: $string['alert_note']
+msgid "Please note: This email has also been sent to {$a}"
+msgstr ""
+
+#: $string['alert_pagename']
+msgid "Report a post as unacceptable"
+msgstr ""
+
+#: $string['alert_reasons']
+msgid "Reasons for reporting post"
+msgstr ""
+
+#: $string['alert_reporterdetail']
+msgid "{$a->fullname} ({$a->username}; {$a->email}; {$a->ip})"
+msgstr ""
+
+#: $string['alert_reporterinfo']
+msgid "<strong>Reporter's details</strong>:"
+msgstr ""
+
+#: $string['alert_submit']
+msgid "Send report"
+msgstr ""
+
+#: $string['alert_turnedoff']
+msgid "The alert function is not available."
+msgstr ""
+
+#: $string['allowsubscribe']
+msgid "Allow people to subscribe"
+msgstr ""
+
+#: $string['allsubscribe']
+msgid "Subscribe to all forums"
+msgstr ""
+
+#: $string['allunsubscribe']
+msgctxt "$string['allunsubscribe']"
+msgid "Unsubscribe from all forums"
+msgstr ""
+
+#: $string['alt_discussion_deleted']
+msgid "Deleted discussion"
+msgstr ""
+
+#: $string['alt_discussion_locked']
+msgid "Discussion is read-only"
+msgstr ""
+
+#: $string['alt_discussion_moderator']
+msgid "Discussion is moderated"
+msgstr ""
+
+#: $string['alt_discussion_sticky']
+msgid "This discussion always appears at top of list"
+msgstr ""
+
+#: $string['alt_discussion_timeout']
+msgid "Not currently visible to users (time limit)"
+msgstr ""
+
+#: $string['anonymousmoderator']
+msgid "Anonymous moderator"
+msgstr ""
+
+#: $string['archive_errorgrouping']
+msgid ""
+"The forum that receives old discussions has a different group\n"
+"setting. Please update the forum and change the <strong>Remove old "
+"discussions</strong> options."
+msgstr ""
+
+#: $string['archive_errortargetforum']
+msgid ""
+"The forum that used to receive old discussions no longer\n"
+"exists. Please update the forum and change the <strong>Remove old "
+"discussions</strong> options."
+msgstr ""
+
+#: $string['asmoderator']
+msgid "Post as?"
+msgstr ""
+
+#: $string['asmoderator_anon']
+msgid "Identify self as moderator (name hidden from students)"
+msgstr ""
+
+#: $string['asmoderator_help']
+msgid ""
+"This option will enable certain users to be able to identify themselves as a "
+"forum\n"
+"moderator or post as a moderator with their profile hidden from students."
+msgstr ""
+
+#: $string['asmoderator_post']
+msgid "Standard Post"
+msgstr ""
+
+#: $string['asmoderator_self']
+msgid "Identify self as moderator"
+msgstr ""
+
+#: $string['atom']
+msgid "Atom"
+msgstr ""
+
+#: $string['attachment']
+msgid "Attachment"
+msgstr ""
+
+#: $string['attachmentmaxbytes']
+msgid "Maximum attachment size"
+msgstr ""
+
+#: $string['attachmentmaxbytes_help']
+msgid ""
+"This is the maximum <i>total</i> size for all attachments on\n"
+"a single post."
+msgstr ""
+
+#: $string['attachmentnum']
+msgid "Attachment {$a}"
+msgstr ""
+
+#: $string['attachments']
+msgid "Attachments"
+msgstr ""
+
+#: $string['author']
+msgid "author: &lsquo;{$a}&rsquo;"
+msgstr ""
+
+#: $string['authorname']
+msgid "Author name"
+msgstr ""
+
+#: $string['authorname_help']
+msgid ""
+"You can type a first name (Jane), a surname (Brown), the whole name (jane "
+"brown), or the first part of any of these (Ja, bro, Jane B). Searches are "
+"not case sensitive.\n"
+"\n"
+"You can also type a username (jb001).\n"
+"\n"
+"If you leave this blank, posts from all authors will be included."
+msgstr ""
+
+#: $string['autolockedmessage']
+msgid ""
+"This discussion has been closed automatically as the maximum time permitted "
+"to be open has passed."
+msgstr ""
+
+#: $string['automaticallylock']
+msgid "Automatically lock"
+msgstr ""
+
+#: $string['averagerating']
+msgid "Average rating: {$a->avg} (from {$a->num})"
+msgstr ""
+
+#: $string['badbrowser']
+msgid ""
+"<h3>Reduced forum features</h3>&nbsp;<p>You are using {$a}. If you'd\n"
+"like a better experience when using these forums, please consider upgrading "
+"to a more recent\n"
+"version of <a href='http://www.microsoft.com/windows/internet-"
+"explorer/'>Internet Explorer</a>\n"
+"or <a href='http://www.mozilla.com/firefox/'>Firefox</a>.</p>"
+msgstr ""
+
+#: $string['beforeenddate']
+msgid "This forum closes for new posts on {$a}."
+msgstr ""
+
+#: $string['beforeenddatecapable']
+msgid "This forum closes for new student posts on {$a}."
+msgstr ""
+
+#: $string['beforestartdate']
+msgid ""
+"You can read any posts within this forum, but not submit your own\n"
+"posts. This forum opens for posting on {$a}."
+msgstr ""
+
+#: $string['beforestartdatecapable']
+msgid ""
+"Students can read any posts within this forum, but not submit\n"
+"their own posts until {$a}. You have access to submit posts before this "
+"time."
+msgstr ""
+
+#: $string['canpostanon']
+msgid "Enable anonymous moderator posts"
+msgstr ""
+
+#: $string['canpostanon_help']
+msgid ""
+"Allows users that have postanon capability to make their post anonymous by "
+"hiding their name from students."
+msgstr ""
+
+#: $string['choosefile']
+msgid "1. Choose file"
+msgstr ""
+
+#: $string['clearflag']
+msgid "Remove flag"
+msgstr ""
+
+#: $string['clicktoadd']
+msgid "2. Add it"
+msgstr ""
+
+#: $string['collapseall']
+msgid "Collapse all posts"
+msgstr ""
+
+#: $string['completiondiscussions']
+msgid "User must create discussions:"
+msgstr ""
+
+#: $string['completiondiscussionsgroup']
+msgid "Require discussions"
+msgstr ""
+
+#: $string['completiondiscussionsgroup_help']
+msgid ""
+"If ticked, the forum will be marked complete for a\n"
+"student once they have started the required number of new discussions (and "
+"met any other\n"
+"conditions)."
+msgstr ""
+
+#: $string['completionposts']
+msgid "User must post discussions or replies:"
+msgstr ""
+
+#: $string['completionpostsgroup']
+msgid "Require posts"
+msgstr ""
+
+#: $string['completionpostsgroup_help']
+msgid ""
+"If ticked, the forum will be marked complete for a student\n"
+"once they have created the required number of discussions/replies, counting "
+"each discussion or\n"
+"reply as one (and met any other conditions)."
+msgstr ""
+
+#: $string['completionreplies']
+msgid "User must post replies:"
+msgstr ""
+
+#: $string['completionrepliesgroup']
+msgid "Require replies"
+msgstr ""
+
+#: $string['completionrepliesgroup_help']
+msgid ""
+"If ticked, the forum will be marked complete for a\n"
+"student once they have made the required number of replies to existing "
+"discussions (and met any\n"
+"other conditions)."
+msgstr ""
+
+#: $string['configattachmentmaxbytes']
+msgid ""
+"Default maximum size for all forum attachments on the site\n"
+"(subject to course limits and other local settings)"
+msgstr ""
+
+#: $string['configdiscussionsperpage']
+msgid "Maximum number of discussions shown in a forum per page"
+msgstr ""
+
+#: $string['configdonotmailafter']
+msgid ""
+"To prevent causing a mail flood if the server cron does not run\n"
+"for a time, the forum will not send out emails for posts that are older than "
+"this many hours."
+msgstr ""
+
+#: $string['configemailafter']
+msgid "Email post to subscribed users with a delay after post creation."
+msgstr ""
+
+#: $string['configenableadvanced']
+msgid ""
+"This option enables advanced forum features which may be\n"
+"unnecessarily complex for many installations. Currently, this just enables "
+"forum sharing, but we might add more later."
+msgstr ""
+
+#: $string['configenablerssfeeds']
+msgid ""
+"This switch will enable the possibility of RSS feeds for all\n"
+"forums.  You will still need to turn feeds on manually in the settings for "
+"each forum, or below."
+msgstr ""
+
+#: $string['configfeeditems']
+msgid "Number of recent messages that are included in a feed."
+msgstr ""
+
+#: $string['configfeedtype']
+msgid "Select the information to include in all forum RSS feeds."
+msgstr ""
+
+#: $string['confighousekeepingstarthour']
+msgid ""
+"Archiving tasks, such as deleting old discussions, will\n"
+"begin from this hour each day."
+msgstr ""
+
+#: $string['confighousekeepingstophour']
+msgid "Archiving tasks will stop on this hour."
+msgstr ""
+
+#: $string['configpermanentdeletion']
+msgid ""
+"After this time period, deleted posts and old versions of\n"
+"edited posts are permanently wiped from the database."
+msgstr ""
+
+#: $string['configreadafterdays']
+msgid ""
+"After this number of days, posts are considered to have been read\n"
+"by all users."
+msgstr ""
+
+#: $string['configreplytouser']
+msgid ""
+"When a forum post is mailed out, should it contain the user's\n"
+"email address so that recipients can reply personally rather than via the "
+"forum? Even if set to\n"
+"'Yes' users can choose in their profile to keep their email address secret."
+msgstr ""
+
+#: $string['configreportunacceptable']
+msgid ""
+"This email address is for reporting offensive post from\n"
+"ForumNG at site level. If this email is left blank, then the alert function "
+"will be switched off\n"
+"unless it have been turned on at the forum level."
+msgstr ""
+
+#: $string['configshowidnumber']
+msgid ""
+"Include ID numbers in reports related to the\n"
+"forum, which may be seen by moderators [but not ordinary students]"
+msgstr ""
+
+#: $string['configshowusername']
+msgid ""
+"Include usernames in reports related to the\n"
+"forum, which may be seen by moderators [but not ordinary students]"
+msgstr ""
+
+#: $string['configsubscription']
+msgid "Control email subscription options on all forums across the site."
+msgstr ""
+
+#: $string['configtrackreadposts']
+msgid "Set to 'yes' if you want to track read/unread for each user."
+msgstr ""
+
+#: $string['configusebcc']
+msgid ""
+"Leave this value at 0 to use Moodle default mail handling (safest). Set\n"
+"to a number (e.g. 50)  to group forum emails together using the BCC header "
+"so that Moodle only has\n"
+"to send a single email which your mail server delivers to many subscribers. "
+"This can improve\n"
+"performance of email in forum cron, but does not have some features of "
+"standard Moodle email such\n"
+"as charset options and bounce handling."
+msgstr ""
+
+#: $string['confirmbulkunsubscribe']
+msgid ""
+"Are you sure you want to unsubscribe the users in the list\n"
+"below? (This cannot be undone.)"
+msgstr ""
+
+#: $string['confirmdelete']
+msgid "Are you sure you want to delete this post?"
+msgstr ""
+
+#: $string['confirmdeletediscuss']
+msgctxt "$string['confirmdeletediscuss']"
+msgid "Delete discussion"
+msgstr ""
+
+#: $string['confirmdeletedraft']
+msgid "Are you sure you want to delete this draft post (shown below)?"
+msgstr ""
+
+#: $string['confirmdelete_notdiscussion']
+msgid ""
+"Deleting this post will not delete the discussion. If\n"
+"you want to delete the discussion, use the controls at bottom of the "
+"discussion page."
+msgstr ""
+
+#: $string['confirmselection']
+msgid "Confirm selection"
+msgstr ""
+
+#: $string['confirmundelete']
+msgid "Are you sure you want to undelete this post?"
+msgstr ""
+
+#: $string['convert_hide']
+msgid "Leave created forums hidden"
+msgstr ""
+
+#: $string['convert_info']
+msgid ""
+"The conversion process can work on one or more old-style forums; at\n"
+"the moment, only 'general' forums are supported, not the other forum types. "
+"Use the Ctrl key\n"
+"to select multiple forums from the list if required."
+msgstr ""
+
+#: $string['convert_newforum']
+msgid "new forum"
+msgstr ""
+
+#: $string['convert_nodata']
+msgid "Do not include user data (posts, subscriptions, etc.)"
+msgstr ""
+
+#: $string['convert_noforums']
+msgid "There are no old forums on this course to convert."
+msgstr ""
+
+#: $string['convert_noneselected']
+msgid ""
+"No forums selected for conversion! Please select one or more\n"
+"forums."
+msgstr ""
+
+#: $string['convert_process_assignments']
+msgid "Updating role assignments..."
+msgstr ""
+
+#: $string['convert_process_complete']
+msgid "Conversion complete in {$a->seconds}s (view {$a->link})."
+msgstr ""
+
+#: $string['convert_process_dashboard']
+msgid "Converting dashboard favourites..."
+msgstr ""
+
+#: $string['convert_process_dashboard_done']
+msgid "done (OK {$a->yay}, failed {$a->nay})."
+msgstr ""
+
+#: $string['convert_process_discussions']
+msgid "Converting discussions..."
+msgstr ""
+
+#: $string['convert_process_init']
+msgid "Creating forum structure..."
+msgstr ""
+
+#: $string['convert_process_overrides']
+msgid "Updating role overrides..."
+msgstr ""
+
+#: $string['convert_process_search']
+msgid "Regenerating search data..."
+msgstr ""
+
+#: $string['convert_process_show']
+msgid "Making forum visible..."
+msgstr ""
+
+#: $string['convert_process_state_done']
+msgid "done."
+msgstr ""
+
+#: $string['convert_process_subscriptions_initial']
+msgid "Converting initial subscriptions..."
+msgstr ""
+
+#: $string['convert_process_subscriptions_normal']
+msgid "Converting normal subscriptions..."
+msgstr ""
+
+#: $string['convert_process_update_subscriptions']
+msgid "Converting to group subscriptions..."
+msgstr ""
+
+#: $string['convert_title']
+msgid "Convert forums"
+msgstr ""
+
+#: $string['convert_warning']
+msgid ""
+"<p>When you click Convert, the selected forums will be converted.\n"
+"This includes all posts and\n"
+"discussions, and may take some time. Forums will be unavailable during "
+"conversion.</p><ul>\n"
+"<li>Old forums being converted are hidden as soon as the conversion process "
+"for\n"
+"that forum begins. This ensures that no new messages are posted and\n"
+"'missed out' of the conversion.</li>\n"
+"<li>New forums being created are initially hidden, and revealed only once "
+"the\n"
+"conversion process for that forum is complete.</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['copytoself']
+msgid "Send a copy to yourself"
+msgstr ""
+
+#: $string['createdbymoderator']
+msgid ""
+"This is a post created by moderator {$a} with their name hidden from "
+"students."
+msgstr ""
+
+#: $string['crondebug']
+msgid "Cron debug output"
+msgstr ""
+
+#: $string['crondebugdesc']
+msgid ""
+"FOR TESTING PUPOSES ONLY -- Tick to include debugging output in the\n"
+"cron logs"
+msgstr ""
+
+#: $string['currentpost']
+msgid "Current version of post"
+msgstr ""
+
+#: $string['date_asc']
+msgid "oldest first"
+msgstr ""
+
+#: $string['date_desc']
+msgid "recent first"
+msgstr ""
+
+#: $string['daterangefrom']
+msgid "Date range from"
+msgstr ""
+
+#: $string['daterangefrom_help']
+msgid ""
+"Use the dates to restrict your search to only include posts\n"
+"within the given time range.\n"
+"\n"
+"If you don&rsquo;t specify dates, posts from any date will be included in "
+"the results."
+msgstr ""
+
+#: $string['daterangemismatch']
+msgid "To date is before From date."
+msgstr ""
+
+#: $string['daterangeto']
+msgid "Date range to"
+msgstr ""
+
+#: $string['delete']
+msgid "Delete<span class='accesshide'> post {$a}</span>"
+msgstr ""
+
+#: $string['deleteandemail']
+msgid "Delete and email author"
+msgstr ""
+
+#: $string['deleteattachments']
+msgid "Delete existing attachments"
+msgstr ""
+
+#: $string['deletedbyauthor']
+msgid "This post was deleted by the author on {$a}."
+msgstr ""
+
+#: $string['deletedbymoderator']
+msgid "This post was deleted by a moderator on {$a}."
+msgstr ""
+
+#: $string['deletedbyuser']
+msgid "This post was deleted by {$a->user} on {$a->date}."
+msgstr ""
+
+#: $string['deletedforumpost']
+msgid "Your post has been deleted"
+msgstr ""
+
+#: $string['deletedpost']
+msgid "Deleted post."
+msgstr ""
+
+#: $string['deletedraft']
+msgid "Delete draft post"
+msgstr ""
+
+#: $string['deleteemailpostbutton']
+msgid "Delete and email"
+msgstr ""
+
+#: $string['deletepermanently']
+msgid "Delete permanently"
+msgstr ""
+
+#: $string['deletepost']
+msgid "Delete post: {$a}"
+msgstr ""
+
+#: $string['deletepostbutton']
+msgid "Delete"
+msgstr ""
+
+#: $string['digestmailheader']
+msgid ""
+"This is your daily digest of new posts from the {$a->sitename}\n"
+"forums. To change your forum email preferences, go to {$a->userprefs}."
+msgstr ""
+
+#: $string['digestmailprefs']
+msgid "your user profile"
+msgstr ""
+
+#: $string['digestmailsubject']
+msgid "{$a}: forum digest"
+msgstr ""
+
+#: $string['directlink']
+msgid "Permalink<span class='accesshide'> to post {$a}</span>"
+msgstr ""
+
+#: $string['directlinktitle']
+msgid "Direct link to this post"
+msgstr ""
+
+#: $string['disallowsubscribe']
+msgid "Subscriptions are not permitted"
+msgstr ""
+
+#: $string['discussion']
+msgid "Discussion"
+msgstr ""
+
+#: $string['discussionoptions']
+msgid "Discussion options"
+msgstr ""
+
+#: $string['discussions']
+msgid "Discussions"
+msgstr ""
+
+#: $string['discussionsperpage']
+msgid "Discussions per page"
+msgstr ""
+
+#: $string['discussionsunread']
+msgid "Discussions (unread)"
+msgstr ""
+
+#: $string['discussiontags']
+msgid "Discussion tags"
+msgstr ""
+
+#: $string['discussiontags_help']
+msgid "To add tags to a discussion enter the tags separated by commas"
+msgstr ""
+
+#: $string['displayperiod']
+msgid "Display period"
+msgstr ""
+
+#: $string['displayperiod_help']
+msgid ""
+"You can hide this discussion from students until, or after, a\n"
+"certain date.\n"
+"\n"
+"While hidden, students do not see the discussion at all. For moderators, it "
+"shows on the\n"
+"discussion list in grey and with a clock icon."
+msgstr ""
+
+#: $string['displayversion']
+msgid "ForumNG version: <strong>{$a}</strong>"
+msgstr ""
+
+#: $string['donotmailafter']
+msgid "Do not mail after (hours)"
+msgstr ""
+
+#: $string['draft']
+msgid "Draft"
+msgstr ""
+
+#: $string['draft_cannotreply']
+msgid ""
+"<p>It is not currently possible to add a reply for the post that\n"
+"your draft relates to. {$a}</p><p>You can use the X button beside this draft "
+"on the main forum\n"
+"page to see the full text of your draft (so you can copy and paste it "
+"somewhere else) and to\n"
+"delete it.</p>"
+msgstr ""
+
+#: $string['draftexists']
+msgid ""
+"A draft version of this post ({$a}) has been saved. If you don't finish\n"
+"the post now, you can retrieve the draft from the main page of this forum."
+msgstr ""
+
+#: $string['draft_inreplyto']
+msgid "(reply to {$a})"
+msgstr ""
+
+#: $string['draft_mismatch']
+msgid ""
+"Error accessing draft post (either it does not belong to you, or is\n"
+"not part of the required disussion)."
+msgstr ""
+
+#: $string['draft_newdiscussion']
+msgid "(new discussion)"
+msgstr ""
+
+#: $string['draft_noedit']
+msgid "The draft feature cannot be used when editing posts."
+msgstr ""
+
+#: $string['drafts']
+msgid "Unfinished drafts"
+msgstr ""
+
+#: $string['drafts_help']
+msgid ""
+"When you save a post as draft, it appears on this list. Click on the\n"
+"draft to resume working on it.\n"
+"\n"
+"If you want to delete the draft, click the delete icon next to it. There is "
+"a confirmation screen.\n"
+"\n"
+"In some cases it may not be possible to continue your draft (for example if "
+"it is in reply to a\n"
+"discussion which has since been deleted). In this situation, you can "
+"retrieve the contents of\n"
+"your draft by clicking the delete icon."
+msgstr ""
+
+#: $string['edit']
+msgid "Edit<span class='accesshide'> post {$a}</span>"
+msgstr ""
+
+#: $string['editbyother']
+msgid "Edited by {$a->name} on {$a->date}"
+msgstr ""
+
+#: $string['editbyself']
+msgid "Edited by the author on {$a}"
+msgstr ""
+
+#: $string['editdiscussionoptions']
+msgid "Edit discussion options: {$a}"
+msgstr ""
+
+#: $string['editedforumpost']
+msgid "Your post has been edited"
+msgstr ""
+
+#: $string['editlimited']
+msgid ""
+"Warning: You must save any changes to this post before {$a}. After that\n"
+"time you will no longer be allowed to edit the post."
+msgstr ""
+
+#: $string['edit_locked']
+msgid "This discussion is currently locked."
+msgstr ""
+
+#: $string['edit_nopermission']
+msgid "You don't have permission to edit this kind of post."
+msgstr ""
+
+#: $string['edit_notcurrentpost']
+msgid "You cannot edit deleted posts or previous post versions."
+msgstr ""
+
+#: $string['edit_notdeleted']
+msgid "You cannot undelete a post that isn't deleted."
+msgstr ""
+
+#: $string['edit_notlocked']
+msgid "This discussion is not currently locked."
+msgstr ""
+
+#: $string['edit_notyours']
+msgid "You cannot edit somebody else's post."
+msgstr ""
+
+#: $string['editpost']
+msgid "Edit post: {$a}"
+msgstr ""
+
+#: $string['edit_readonly']
+msgid "This forum is currently read-only so posts cannot be edited."
+msgstr ""
+
+#: $string['edit_rootpost']
+msgid "This action cannot apply to a post that starts a discussion."
+msgstr ""
+
+#: $string['edit_timeout']
+msgid ""
+"You are no longer permitted to edit this post; the permitted editing\n"
+"time has run out."
+msgstr ""
+
+#: $string['edit_wronggroup']
+msgid "You cannot make changes to posts outside your group."
+msgstr ""
+
+#: $string['emailafter']
+msgid "Email after delay"
+msgstr ""
+
+#: $string['emailauthor']
+msgid "Email author"
+msgstr ""
+
+#: $string['emailauthor_help']
+msgid ""
+"Send an email to the post's author informing them that you have edited their "
+"post"
+msgstr ""
+
+#: $string['emailcontenthtml']
+msgid ""
+"This is a notification to advise you that your forum post with the\n"
+" following details has been deleted by '{$a->firstname} {$a->lastname}':<br "
+"/>\n"
+"<br />\n"
+"Subject: {$a->subject}<br />\n"
+"Forum: {$a->forum}<br />\n"
+"Module: {$a->course}<br/>\n"
+"<br/>\n"
+"<a href=\"{$a->deleteurl}\" title=\"view deleted post\">View the discussion</a>"
+msgstr ""
+
+#: $string['emailcontentplain']
+msgid ""
+"This is a notification to advise you that your forum post with the\n"
+" following details has been deleted by '{$a->firstname} {$a->lastname}':\n"
+"\n"
+"Subject: {$a->subject}\n"
+"Forum: {$a->forum}\n"
+"Module: {$a->course}\n"
+"\n"
+"To view the discussion visit {$a->deleteurl}"
+msgstr ""
+
+#: $string['emaileditedcontenthtml']
+msgid ""
+"This is a notification to advise you that your forum post with the\n"
+"following details has been edited by '{$a->editinguser}':<br />\n"
+"<br />\n"
+"Subject: {$a->subject}<br />\n"
+"Forum: {$a->forum}<br />\n"
+"Module: {$a->course}<br/>\n"
+"<br/>\n"
+"<a href=\"{$a->editurl}\" title=\"view deleted post\">View the discussion</a>"
+msgstr ""
+
+#: $string['emailerror']
+msgid "There was an error sending the email"
+msgstr ""
+
+#: $string['emailmessage']
+msgctxt "$string['emailmessage']"
+msgid "Message"
+msgstr ""
+
+#: $string['enableadvanced']
+msgid "Enable advanced features"
+msgstr ""
+
+#: $string['enablelimit']
+msgid "Limit user posting"
+msgstr ""
+
+#: $string['enablelimit_help']
+msgid ""
+"This option limits discussions and replies made by students\n"
+"(specifically, any users who do not have the "
+"<tt>mod/forumng:ignorethrottling</tt> capability).\n"
+"\n"
+"When a student is only permitted 3 more posts, a warning displays in the "
+"post form. After their\n"
+"limit runs out, the system displays the time at which they&rsquo;ll be able "
+"to post again."
+msgstr ""
+
+#: $string['enableratings']
+msgid "Allow posts to be rated"
+msgstr ""
+
+#: $string['enableratings_help']
+msgid ""
+"If enabled, forum posts can be given ratings using a numeric or\n"
+"defined Moodle scale. One or more people can rate the post and the displayed "
+"rating is the average\n"
+"(mean) of those ratings.\n"
+"\n"
+"If you use a numeric scale up to 5 (or fewer) then a nice &lsquo;star&rsquo; "
+"display is used.\n"
+"Otherwise it&rsquo;s a dropdown.\n"
+"\n"
+"The capabilities system controls who can rate posts and see ratings. By "
+"default, only teachers can\n"
+"rate posts, and students can only see ratings on their own posts."
+msgstr ""
+
+#: $string['enabletagging']
+msgid "Enable discussion tagging"
+msgstr ""
+
+#: $string['error_cannotchangediscussionsubscription']
+msgid ""
+"You are not permitted to subscribe to, or\n"
+"unsubscribe from, this discussion."
+msgstr ""
+
+#: $string['error_cannotchangegroupsubscription']
+msgid ""
+"You are not permitted to subscribe to, or\n"
+"unsubscribe from your selected group."
+msgstr ""
+
+#: $string['error_cannotchangesubscription']
+msgid ""
+"You are not permitted to subscribe to, or unsubscribe\n"
+"from, this forum."
+msgstr ""
+
+#: $string['error_cannotmanagediscussion']
+msgid "You do not have permission to manage this discussion."
+msgstr ""
+
+#: $string['error_cannotmarkread']
+msgid ""
+"You are not permitted to mark discussions as read in this\n"
+"forum."
+msgstr ""
+
+#: $string['error_cannotsubscribetogroup']
+msgid ""
+"You are not permitted to subscribe to your selected\n"
+"group."
+msgstr ""
+
+#: $string['error_cannotunsubscribefromgroup']
+msgid ""
+"You are not permitted to unsubscribe from your\n"
+"selected group."
+msgstr ""
+
+#: $string['error_cannotviewdiscussion']
+msgid "You do not have permission to view this discussion."
+msgstr ""
+
+#: $string['error_draftnotfound']
+msgid ""
+"Unable to find draft message. The draft may have already been posted or "
+"deleted."
+msgstr ""
+
+#: $string['error_duplicate']
+msgid ""
+"You have already created a post using the previous form. (This error\n"
+"sometimes occurs if you click the post button twice. In that case, your post "
+"has probably been\n"
+"saved.)"
+msgstr ""
+
+#: $string['error_exception']
+msgid ""
+"A forum error occurred. Please try again later, or try something\n"
+"else.<div class='forumng-errormessage'>Error message: {$a}</div>"
+msgstr ""
+
+#: $string['error_feedlogin']
+msgid "Error completing user login"
+msgstr ""
+
+#: $string['error_fileexception']
+msgid ""
+"A file processing error occurred. This is likely to be caused by\n"
+"system problems. You may wish to try again later."
+msgstr ""
+
+#: $string['errorfindinglastpost']
+msgid "Error recalculating last post (database inconsistent?)"
+msgstr ""
+
+#: $string['error_forwardemail']
+msgid ""
+"There was an error sending email to <strong>{$a}</strong>. Email\n"
+"could not be sent."
+msgstr ""
+
+#: $string['error_identityinsubject_discussion']
+msgid ""
+"You have set the subject line to your login details. (This may have been "
+"done automatically by your browser or password manager.) To continue, change "
+"the subject text."
+msgstr ""
+
+#: $string['error_identityinsubject_reply']
+msgid ""
+"You have set the subject line to your login details. (This may have been "
+"done automatically by your browser or password manager.) To continue, delete "
+"or change the subject text."
+msgstr ""
+
+#: $string['errorinvalidforum']
+msgid ""
+"The target forum for archiving old discussions no longer exists.\n"
+"Please choose a different forum."
+msgstr ""
+
+#: $string['error_invalidsubscriptionrequest']
+msgid "Your subscription request is invalid."
+msgstr ""
+
+#: $string['error_makebig']
+msgid ""
+"The course only has {$a->users} users, but you've asked for\n"
+"{$a->readusers} to read each discussion. Create some more users."
+msgstr ""
+
+#: $string['error_markreadparams']
+msgid "Parameters incorrect: requires either id or d."
+msgstr ""
+
+#: $string['error_nopermission']
+msgid "You are not permitted to carry out this request."
+msgstr ""
+
+#: $string['error_nosharedforum']
+msgid ""
+"Forum <strong>{$a->name}</strong>: Could not restore as shared\n"
+"forum; ID number {$a->idnumber} not found. Restored forum is an independent "
+"forum."
+msgstr ""
+
+#: $string['error_notwhensharing']
+msgid "This option is not available when sharing the forum."
+msgstr ""
+
+#: $string['error_portfoliosave']
+msgid "An error occurred while saving this data to MyStuff."
+msgstr ""
+
+#: $string['error_ratingrequired']
+msgid "Grading chosen to be based on ratings, but ratings not enabled"
+msgstr ""
+
+#: $string['error_ratingthreshold']
+msgid "Rating threshold must be a positive number."
+msgstr ""
+
+#: $string['error_sendalert']
+msgid ""
+"There was an error sending your report to {$a}.\n"
+"Report could not be sent."
+msgstr ""
+
+#: $string['error_sharingidnumbernotfound']
+msgid ""
+"When using a shared forum, you must enter an ID number\n"
+"that exactly matches one previously entered in a forum that is shared."
+msgstr ""
+
+#: $string['error_sharinginuse']
+msgid ""
+"You cannot turn sharing off for this forum because there are\n"
+"already forums that share it. If necessary, delete these other forums first."
+msgstr ""
+
+#: $string['error_sharingrequiresidnumber']
+msgid ""
+"When sharing the forum, you must enter an ID number\n"
+"which is unique across the entire system."
+msgstr ""
+
+#: $string['error_subscribeparams']
+msgid "Parameters incorrect: requires either id or course or d."
+msgstr ""
+
+#: $string['error_system']
+msgid "A system error occurred: {$a}"
+msgstr ""
+
+#: $string['error_unknownsort']
+msgid "Unknown sort option."
+msgstr ""
+
+#: $string['event:discussioncreated']
+msgid "Add discussion"
+msgstr ""
+
+#: $string['event:discussiondeleted']
+msgctxt "$string['event:discussiondeleted']"
+msgid "Delete discussion"
+msgstr ""
+
+#: $string['event:discussionlocked']
+msgid "Lock discussion"
+msgstr ""
+
+#: $string['event:discussionmerged']
+msgid "Merge discussion"
+msgstr ""
+
+#: $string['event:discussionpermdeleted']
+msgid "Permanently delete discussion"
+msgstr ""
+
+#: $string['event:discussionundeleted']
+msgid "Undelete discussion"
+msgstr ""
+
+#: $string['event:discussionunlocked']
+msgid "Unlock discussion"
+msgstr ""
+
+#: $string['event:discussionviewed']
+msgid "View discussion"
+msgstr ""
+
+#: $string['event:mailsent']
+msgid "Mail sent ok"
+msgstr ""
+
+#: $string['event:postcreated']
+msgid "Add reply"
+msgstr ""
+
+#: $string['event:postdeleted']
+msgid "Delete post"
+msgstr ""
+
+#: $string['event:postreported']
+msgctxt "$string['event:postreported']"
+msgid "Report post"
+msgstr ""
+
+#: $string['event:postsplit']
+msgid "Split post"
+msgstr ""
+
+#: $string['event:postundeleted']
+msgctxt "$string['event:postundeleted']"
+msgid "Undelete post"
+msgstr ""
+
+#: $string['event:postupdated']
+msgid "Edit post"
+msgstr ""
+
+#: $string['event:savefailed']
+msgid "Session fail on post save"
+msgstr ""
+
+#: $string['event:subscriptioncreated']
+msgid "Subscription created"
+msgstr ""
+
+#: $string['event:subscriptiondeleted']
+msgid "Subscription removed"
+msgstr ""
+
+#: $string['existingattachments']
+msgid "Existing attachments"
+msgstr ""
+
+#: $string['expand']
+msgid "Expand<span class='accesshide'> post {$a}</span>"
+msgstr ""
+
+#: $string['expandall']
+msgid "Expand all posts"
+msgstr ""
+
+#: $string['expand_text']
+msgid "Expand post"
+msgstr ""
+
+#: $string['exportedtitle']
+msgid "Forum discussion &lsquo;{$a->subject}&rsquo; exported on {$a->date}"
+msgstr ""
+
+#: $string['exportword']
+msgid "Export to Word"
+msgstr ""
+
+#: $string['externaldashboardadd']
+msgid "Add forum to dashboard"
+msgstr ""
+
+#: $string['externaldashboardremove']
+msgid "Remove forum from dashboard"
+msgstr ""
+
+#: $string['extra_emails']
+msgid "Email address of other recipients"
+msgstr ""
+
+#: $string['extra_emails_help']
+msgid "Enter one or more email address(es) separated by spaces or semicolons."
+msgstr ""
+
+#: $string['feeditems']
+msgid "Recent items in feeds"
+msgstr ""
+
+#: $string['feeditems_help']
+msgid ""
+"The number of items included in the Atom/RSS feeds. If this is set\n"
+"low, then users who don&rsquo;t check the feed frequently might miss some "
+"messages."
+msgstr ""
+
+#: $string['feed_nopermission']
+msgid "You do not have permission to access this feed."
+msgstr ""
+
+#: $string['feed_notavailable']
+msgid "This feed is not available."
+msgstr ""
+
+#: $string['feeds']
+msgid "Feeds"
+msgstr ""
+
+#: $string['feedtype']
+msgid "Feed contents"
+msgstr ""
+
+#: $string['feedtype_all_posts']
+msgid "Contains all posts"
+msgstr ""
+
+#: $string['feedtype_discussions']
+msgid "Contains discussions only"
+msgstr ""
+
+#: $string['feedtype_help']
+msgid ""
+"If enabled, users can subscribe to the forum using an Atom or RSS feed\n"
+"reader. You can set the feed to include only top-level discussions and not "
+"replies, or to include\n"
+"all posts."
+msgstr ""
+
+#: $string['feedtype_none']
+msgid "Feed disabled"
+msgstr ""
+
+#: $string['filterdiscussions']
+msgid "View discussions with tag"
+msgstr ""
+
+#: $string['flaggeddiscussions']
+msgid "Flagged discussions"
+msgstr ""
+
+#: $string['flaggeddiscussions_help']
+msgid ""
+"Flagged discussions appear in this list. To jump to a flagged discussion,\n"
+"click on it.\n"
+"\n"
+"To remove the flag from a discussion, click on the flag icon (here or the "
+"'Remove flag' button in the discussion)."
+msgstr ""
+
+#: $string['flaggeddiscussionslink']
+msgid "{$a} flagged discussions"
+msgstr ""
+
+#: $string['flaggedposts']
+msgid "Flagged posts"
+msgstr ""
+
+#: $string['flaggedposts_help']
+msgid ""
+"Flagged posts appear in this list. To jump to a flagged post,\n"
+"click on it.\n"
+"\n"
+"To remove the flag from a post, click on the flag icon (here or in the "
+"post)."
+msgstr ""
+
+#: $string['flaggedpostslink']
+msgid "{$a} flagged posts"
+msgstr ""
+
+#: $string['flagoff']
+msgid "Not flagged"
+msgstr ""
+
+#: $string['flagon']
+msgid "You have flagged this post"
+msgstr ""
+
+#: $string['flagpost']
+msgid "Flag post"
+msgstr ""
+
+#: $string['forbidattachments']
+msgid "Attachments not permitted"
+msgstr ""
+
+#: $string['forcesubscribe']
+msgid "Force everyone to be (and stay) subscribed"
+msgstr ""
+
+#: $string['forum']
+msgid "Forum"
+msgstr ""
+
+#: $string['forumdescription']
+msgid ""
+"Forum description (shown beside links to this forum, if the option below is "
+"on)"
+msgstr ""
+
+#: $string['forumintro']
+msgid "Forum introduction (shown above the list of discussions)"
+msgstr ""
+
+#: $string['forumname']
+msgid "Forum name"
+msgstr ""
+
+#: $string['forumng:addinstance']
+msgid "Add a new ForumNG"
+msgstr ""
+
+#: $string['forumng:addtag']
+msgid "Allow user to set tags for a discussion"
+msgstr ""
+
+#: $string['forumng:copydiscussion']
+msgid "Copy discussion"
+msgstr ""
+
+#: $string['forumng:createattachment']
+msgid "Create attachments"
+msgstr ""
+
+#: $string['forumngcrontaskdaily']
+msgid "Forumng daily maintenance job"
+msgstr ""
+
+#: $string['forumngcrontaskdigest']
+msgid "Forumng email digest job"
+msgstr ""
+
+#: $string['forumngcrontaskemails']
+msgid "Forumng email sending job"
+msgstr ""
+
+#: $string['forumng:deleteanypost']
+msgid "Delete any post"
+msgstr ""
+
+#: $string['forumngdiscusstagfilter']
+msgid "View forum discussions by tag"
+msgstr ""
+
+#: $string['forumngdiscusstagfilter_help']
+msgid "Select a tag option to view/filter forum discussions by"
+msgstr ""
+
+#: $string['forumng:editanypost']
+msgid "Edit any post"
+msgstr ""
+
+#: $string['forumng:forwardposts']
+msgid "Forward posts"
+msgstr ""
+
+#: $string['forumng:grade']
+msgid "Grade posts"
+msgstr ""
+
+#: $string['forumng:ignorepostlimits']
+msgid "Ignore post count limits"
+msgstr ""
+
+#: $string['forumng:mailnow']
+msgid "Mail posts before editing timeout"
+msgstr ""
+
+#: $string['forumng:managediscussions']
+msgid "Manage discussion options"
+msgstr ""
+
+#: $string['forumng:managesubscriptions']
+msgid "Manage subscriptions"
+msgstr ""
+
+#: $string['forumng:movediscussions']
+msgid "Move discussions"
+msgstr ""
+
+#: $string['forumng:postanon']
+msgid "Post as anonymous moderator"
+msgstr ""
+
+#: $string['forumng:postasmoderator']
+msgid "Indentify self as moderator in post"
+msgstr ""
+
+#: $string['forumng:rate']
+msgid "Rate posts"
+msgstr ""
+
+#: $string['forumngratingsobsolete']
+msgid "Forumng ratings (obsolete)"
+msgstr ""
+
+#: $string['forumng:replypost']
+msgid "Reply to posts"
+msgstr ""
+
+#: $string['forumng:setimportant']
+msgctxt "$string['forumng:setimportant']"
+msgid "Mark posts as important"
+msgstr ""
+
+#: $string['forumng:splitdiscussions']
+msgid "Split discussions"
+msgstr ""
+
+#: $string['forumng:startdiscussion']
+msgid "Start new discussions"
+msgstr ""
+
+#: $string['forumng:view']
+msgid "View forum"
+msgstr ""
+
+#: $string['forumng:viewallposts']
+msgid "View hidden and deleted posts"
+msgstr ""
+
+#: $string['forumng:viewallratings']
+msgid "View all raw ratings given by individuals"
+msgstr ""
+
+#: $string['forumng:viewanyrating']
+msgid "View any ratings"
+msgstr ""
+
+#: $string['forumng:viewdiscussion']
+msgid "View discussions"
+msgstr ""
+
+#: $string['forumng:viewrating']
+msgid "View ratings of own posts"
+msgstr ""
+
+#: $string['forumng:viewreadinfo']
+msgid "See who has read a post"
+msgstr ""
+
+#: $string['forumng:viewsubscribers']
+msgctxt "$string['forumng:viewsubscribers']"
+msgid "View subscribers"
+msgstr ""
+
+#: $string['forums']
+msgid "Forums"
+msgstr ""
+
+#: $string['forumsubscription']
+msgid "Forum subscription"
+msgstr ""
+
+#: $string['forumtype']
+msgid "Forum type"
+msgstr ""
+
+#: $string['forumtype_help']
+msgid ""
+"Different types of forum are available for specific purposes or\n"
+"teaching methods. The standard forum type is appropriate for all normal use."
+msgstr ""
+
+#: $string['forumtype_link']
+msgid "mod/forumng/forumtypes"
+msgstr ""
+
+#: $string['from']
+msgid "from: {$a}"
+msgstr ""
+
+#: $string['grade']
+msgctxt "$string['grade']"
+msgid "Grade"
+msgstr ""
+
+#: $string['grading']
+msgctxt "$string['grading']"
+msgid "Grade"
+msgstr ""
+
+#: $string['grading_average']
+msgid "Average of ratings"
+msgstr ""
+
+#: $string['grading_count']
+msgid "Count of ratings"
+msgstr ""
+
+#: $string['grading_help']
+msgid ""
+"If you select this option, a grade for this forum will be added to the\n"
+"course gradebook and calculated automatically. Leave this off for a non-"
+"assessed forum, or one you\n"
+"plan to assess manually.\n"
+"\n"
+"The different ways to calculate grading are fairly self-explanatory; in each "
+"case, the grade for\n"
+"each student is calculated based on all ratings for all posts they have "
+"made. Grades are limited to\n"
+"the scale; for example if the scale is 0-3, the grading method is set to "
+"&lsquo;count&rsquo; and\n"
+"the student&rsquo;s posts have received 17 ratings, their grade will be 3."
+msgstr ""
+
+#: $string['grading_max']
+msgid "Maximum rating"
+msgstr ""
+
+#: $string['grading_min']
+msgid "Minimum rating"
+msgstr ""
+
+#: $string['grading_none']
+msgid "No grade"
+msgstr ""
+
+#: $string['gradingscale']
+msgid "Grading scale"
+msgstr ""
+
+#: $string['grading_sum']
+msgid "Sum of ratings"
+msgstr ""
+
+#: $string['group']
+msgid "Group"
+msgstr ""
+
+#: $string['hasunreadposts']
+msgid "(Unread posts)"
+msgstr ""
+
+#: $string['hidelater']
+msgid "Don't show these instructions again"
+msgstr ""
+
+#: $string['history']
+msgid "History"
+msgstr ""
+
+#: $string['historypage']
+msgid "History: {$a}"
+msgstr ""
+
+#: $string['housekeepingstarthour']
+msgid "Start hour of archiving"
+msgstr ""
+
+#: $string['housekeepingstophour']
+msgid "Stop hour of archiving"
+msgstr ""
+
+#: $string['important']
+msgid "Important post"
+msgstr ""
+
+#: $string['inappropriatedateortime']
+msgid "From date cannot be after present."
+msgstr ""
+
+#: $string['includepost']
+msgid "Include post"
+msgstr ""
+
+#: $string['initialsubscribe']
+msgid "Automatically subscribe everyone"
+msgstr ""
+
+#: $string['inreplyto']
+msgid "In reply to"
+msgstr ""
+
+#: $string['invalidalert']
+msgid "You need to specify the reason for reporting this post."
+msgstr ""
+
+#: $string['invalidalertcheckbox']
+msgid "You need to tick at least one of the boxes."
+msgstr ""
+
+#: $string['invalidemail']
+msgid "This email address is not valid. Please enter a single email address."
+msgstr ""
+
+#: $string['invalidemails']
+msgid ""
+"This email address is not valid. Please enter one or more email\n"
+"addresses, separated by spaces or semicolons."
+msgstr ""
+
+#: $string['invalidforum']
+msgid "This forum no longer exists"
+msgstr ""
+
+#: $string['js_clicktoclearrating']
+msgid "Click to remove your rating."
+msgstr ""
+
+#: $string['js_clicktosetrating']
+msgid "Click to give this post # stars."
+msgstr ""
+
+#: $string['js_clicktosetrating1']
+msgid "Click to give this post 1 star."
+msgstr ""
+
+#: $string['jserr_alter']
+msgid ""
+"There was an error altering the post.\n"
+"\n"
+"Reload this page and try again."
+msgstr ""
+
+#: $string['jserr_attachments']
+msgid ""
+"There was an error loading the attachment editor.\n"
+"\n"
+"Reload this page and try again."
+msgstr ""
+
+#: $string['jserr_load']
+msgid ""
+"There was an error obtaining the post.\n"
+"\n"
+"Reload this page and try again."
+msgstr ""
+
+#: $string['jserr_save']
+msgid ""
+"There was an error saving the post.\n"
+"\n"
+"Copy the text into another program to make sure you don't lose it, then "
+"reload this page and try again."
+msgstr ""
+
+#: $string['js_nopublicrating']
+msgid "Not yet rated."
+msgstr ""
+
+#: $string['js_nouserrating']
+msgid "Not rated by you."
+msgstr ""
+
+#: $string['js_nratings']
+msgid "(# ratings)"
+msgstr ""
+
+#: $string['js_nratings1']
+msgid "(1 rating)"
+msgstr ""
+
+#: $string['js_outof']
+msgid "(Out of #.)"
+msgstr ""
+
+#: $string['js_publicrating']
+msgid "Average rating: #."
+msgstr ""
+
+#: $string['js_userrating']
+msgid "Your rating: #."
+msgstr ""
+
+#: $string['jumpnext']
+msgid "Next unread"
+msgstr ""
+
+#: $string['jumpparent']
+msgid "Parent"
+msgstr ""
+
+#: $string['jumpprevious']
+msgid "Previous unread"
+msgstr ""
+
+#: $string['jumppreviousboth']
+msgid "previous"
+msgstr ""
+
+#: $string['jumpto']
+msgid "Jump to:"
+msgstr ""
+
+#: $string['lastpost']
+msgid "Last post"
+msgstr ""
+
+#: $string['limitposts']
+msgid "Limit posts"
+msgstr ""
+
+#: $string['lockedtitle']
+msgid "This discussion is now closed"
+msgstr ""
+
+#: $string['mailnow']
+msgid "Mail soon"
+msgstr ""
+
+#: $string['mailnow_help']
+msgid ""
+"Send your post to email subscribers more quickly.\n"
+"\n"
+"Unless you choose this option, the system waits for some time before sending "
+"the post so that any edits you might make can be included in the email."
+msgstr ""
+
+#: $string['managepostalerts']
+msgid "Manage reported post alerts"
+msgstr ""
+
+#: $string['markdiscussionread']
+msgid "Mark all posts in this discussion read."
+msgstr ""
+
+#: $string['markpostread']
+msgid "Mark post read"
+msgstr ""
+
+#: $string['message']
+msgctxt "$string['message']"
+msgid "Message"
+msgstr ""
+
+#: $string['moderator']
+msgid "Moderator"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "ForumNG"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"ForumNG is a replacement for standard Moodle forum with most of\n"
+"the same features plus additional ones and a more dynamic user interface.\n"
+"\n"
+"NG stands for 'Next Generation'."
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "ForumNGs"
+msgstr ""
+
+#: $string['move_nogroups']
+msgid "You do not have access to any groups in the selected target forum."
+msgstr ""
+
+#: $string['move_notselected']
+msgid ""
+"You must select a target forum from the dropdown before clicking\n"
+"the Move button."
+msgstr ""
+
+#: $string['newdiscussion']
+msgid "New discussion"
+msgstr ""
+
+#: $string['nextresults']
+msgid "Find more results"
+msgstr ""
+
+#: $string['nodiscussions']
+msgid "There are no discussions in this forum yet."
+msgstr ""
+
+#: $string['noguestsubscribe']
+msgid ""
+"Sorry, guests are not allowed to subscribe to receive forum postings\n"
+"by email."
+msgstr ""
+
+#: $string['noratings']
+msgid "No ratings"
+msgstr ""
+
+#: $string['nosearchcriteria']
+msgid "No search criteria. Please use one or more of the criteria below."
+msgstr ""
+
+#: $string['nosubscribers']
+msgid "There are no subscribers yet for this forum."
+msgstr ""
+
+#: $string['nosubscribersgroup']
+msgid "Nobody in the group is subscribed to this forum yet."
+msgstr ""
+
+#: $string['notext']
+msgid "(no text)"
+msgstr ""
+
+#: $string['nothingfound']
+msgid "Could not find any matching results. Try using different query."
+msgstr ""
+
+#: $string['nothingtodisplay']
+msgid "<h3>Nothing to display</h3>"
+msgstr ""
+
+#: $string['numberofdiscussion']
+msgid "{$a} discussion"
+msgstr ""
+
+#: $string['numberofdiscussions']
+msgid "{$a} discussions"
+msgstr ""
+
+#: $string['numeric_asc']
+msgid "lowest first"
+msgstr ""
+
+#: $string['numeric_desc']
+msgid "highest first"
+msgstr ""
+
+#: $string['numposts']
+msgid "{$a} post(s)"
+msgstr ""
+
+#: $string['offerconvert']
+msgid ""
+"If you want to create a new ForumNG that is a copy of an old-style\n"
+"forum, do not use this form. Instead, <a href='{$a}'>convert your forum</a>."
+msgstr ""
+
+#: $string['olderversions']
+msgid "Older versions (most recent first)"
+msgstr ""
+
+#: $string['onemonth']
+msgid "1 month"
+msgstr ""
+
+#: $string['optionalsubject']
+msgid "Change subject (optional)"
+msgstr ""
+
+#: $string['partialsubscribed']
+msgid "Partial"
+msgstr ""
+
+#: $string['pastediscussion']
+msgid "Paste discussion"
+msgstr ""
+
+#: $string['pastediscussion_cancel']
+msgid "Cancel paste"
+msgstr ""
+
+#: $string['pastediscussions']
+msgid "Paste discussions"
+msgstr ""
+
+#: $string['perforumoption']
+msgid "Configured separately for each forum"
+msgstr ""
+
+#: $string['permanentdeletion']
+msgid "Wipe unused data after"
+msgstr ""
+
+#: $string['permanentdeletion_never']
+msgid "Never (do not wipe unused data)"
+msgstr ""
+
+#: $string['permanentdeletion_soon']
+msgid "Wipe as soon as possible"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "ForumNG administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "ForumNG"
+msgstr ""
+
+#: $string['post']
+msgid "Post"
+msgstr ""
+
+#: $string['postby']
+msgid "(by {$a})"
+msgstr ""
+
+#: $string['postdiscussion']
+msgid "Post discussion"
+msgstr ""
+
+#: $string['postedasmoderator']
+msgid "Posted as moderator"
+msgstr ""
+
+#: $string['postedasmoderator_help']
+msgid ""
+"Search for posts that have been identified as being created by a moderator"
+msgstr ""
+
+#: $string['postinfo_deleted']
+msgid "deleted"
+msgstr ""
+
+#: $string['postinfo_short']
+msgid "summarised"
+msgstr ""
+
+#: $string['postinfo_unread']
+msgid "unread"
+msgstr ""
+
+#: $string['postingfrom']
+msgid "Posting only allowed from"
+msgstr ""
+
+#: $string['postinguntil']
+msgid "Posting only allowed until"
+msgstr ""
+
+#: $string['postmailinfo']
+msgid ""
+"This is a copy of a message posted on the {$a} website.\n"
+"\n"
+"To add your reply via the website, click on this link:"
+msgstr ""
+
+#: $string['postnum']
+msgid "Post {$a->num}"
+msgstr ""
+
+#: $string['postnumreply']
+msgid "Post {$a->num}{$a->info} in reply to {$a->parent}"
+msgstr ""
+
+#: $string['postreply']
+msgid "Post reply"
+msgstr ""
+
+#: $string['posts']
+msgid "Posts"
+msgstr ""
+
+#: $string['postsper']
+msgid "posts per"
+msgstr ""
+
+#: $string['previousresults']
+msgid "Back to results {$a}"
+msgstr ""
+
+#: $string['quotaleft_plural']
+msgid ""
+"You may only make <strong>{$a->posts}</strong> more posts in the\n"
+"current {$a->period}."
+msgstr ""
+
+#: $string['quotaleft_singular']
+msgid ""
+"You may only make <strong>{$a->posts}</strong> more post in the\n"
+"current {$a->period}."
+msgstr ""
+
+#: $string['rate']
+msgid "Rate"
+msgstr ""
+
+#: $string['rate_nopermission']
+msgid "You do not have permission to rate this post ({$a})."
+msgstr ""
+
+#: $string['ratingfrom']
+msgid "Rate only posts from"
+msgstr ""
+
+#: $string['ratings']
+msgid "Ratings"
+msgstr ""
+
+#: $string['ratingthreshold']
+msgid "Required ratings"
+msgstr ""
+
+#: $string['ratingthreshold_help']
+msgid ""
+"If you set this option to 3, then the rating for a post will\n"
+"not be shown until at least 3 people have rated it.\n"
+"\n"
+"This can help reduce the effect of a single rating on the average."
+msgstr ""
+
+#: $string['ratingtime']
+msgid "Restrict ratings to posts with dates in this range:"
+msgstr ""
+
+#: $string['ratinguntil']
+msgid "Rate only posts until"
+msgstr ""
+
+#: $string['re']
+msgid "Re: {$a}"
+msgstr ""
+
+#: $string['readafterdays']
+msgid "Read after days"
+msgstr ""
+
+#: $string['readdata']
+msgid "Read data"
+msgstr ""
+
+#: $string['remove']
+msgid "Remove"
+msgstr ""
+
+#: $string['removefiltering']
+msgid "Viewing discussions with tag '{$a}\\"
+msgstr ""
+
+#: $string['removeolddiscussions']
+msgid "Manage old discussions"
+msgstr ""
+
+#: $string['removeolddiscussionsafter']
+msgid "Manage old discussions after"
+msgstr ""
+
+#: $string['removeolddiscussionsdefault']
+msgid "Never remove"
+msgstr ""
+
+#: $string['removeolddiscussions_help']
+msgid ""
+"The system can automatically remove discussions if they\n"
+"have not had any new replies for a certain length of time."
+msgstr ""
+
+#: $string['replies']
+msgid "Replies"
+msgstr ""
+
+#: $string['reply']
+msgid "Reply<span class='accesshide'> to post {$a}</span>"
+msgstr ""
+
+#: $string['reply_missing']
+msgid "You cannot reply because the system can&rsquo;t find the post."
+msgstr ""
+
+#: $string['reply_nopermission']
+msgid "You don't have permission to reply here."
+msgstr ""
+
+#: $string['reply_notcurrentpost']
+msgid "You cannot reply to deleted posts or previous post versions."
+msgstr ""
+
+#: $string['reply_postquota']
+msgid ""
+"You can't reply to posts at the moment because you have reached the\n"
+"posting limit."
+msgstr ""
+
+#: $string['reply_readonly']
+msgid "This forum is currently read-only so new replies cannot be added."
+msgstr ""
+
+#: $string['replytopost']
+msgid "Reply to post: {$a}"
+msgstr ""
+
+#: $string['replytouser']
+msgid "Use email address in reply"
+msgstr ""
+
+#: $string['reply_typelimit']
+msgid ""
+"Because of the type of this forum, you are not currently allowed to\n"
+"reply to this post."
+msgstr ""
+
+#: $string['reply_wronggroup']
+msgid ""
+"You cannot reply to posts in this discussion because you are not in\n"
+"the right group."
+msgstr ""
+
+#: $string['reportingemail']
+msgid "Email for reporting offensive posts"
+msgstr ""
+
+#: $string['reportingemail_help']
+msgid ""
+"If this email address is supplied, then a Report link appears\n"
+"next to each post. Users can click the link to report offensive posts. The "
+"information will be sent to this address.\n"
+"\n"
+"If this email is left blank then the Report feature will not be shown "
+"(unless a site-level\n"
+"reporting  address has been supplied).\n"
+"\n"
+"More than one email address can be added so long as they are separated by a "
+"semi-colon"
+msgstr ""
+
+#: $string['reportunacceptable']
+msgid "Email for reporting offensive post"
+msgstr ""
+
+#: $string['saveallratings']
+msgid "Save all ratings"
+msgstr ""
+
+#: $string['savedposts_all']
+msgid "{$a}"
+msgstr ""
+
+#: $string['savedposts_all_tag']
+msgid "Forum discussion"
+msgstr ""
+
+#: $string['savedposts_one']
+msgid "{$a->name}: {$a->subject}"
+msgstr ""
+
+#: $string['savedposts_one_tag']
+msgid "Forum post"
+msgstr ""
+
+#: $string['savedposts_original']
+msgid "Original source discussion"
+msgstr ""
+
+#: $string['savedposts_selected']
+msgid "{$a} (selected posts)"
+msgstr ""
+
+#: $string['savedposts_selected_tag']
+msgid "Forum posts"
+msgstr ""
+
+#: $string['savedraft']
+msgid "Save as draft"
+msgstr ""
+
+#: $string['savedtoportfolio']
+msgid "The selected information has been saved to MyStuff."
+msgstr ""
+
+#: $string['savefailnetwork']
+msgid ""
+"<p>Unfortunately, your changes cannot be saved at this time. This is due to "
+"a\n"
+"network error; the website is temporarily unavailable or you have been "
+"signed out. </p><p>Saving has been disabled\n"
+"on this page. In order to retain any changes you must copy the post content, "
+"access this page again and then paste in your changes.</p>"
+msgstr ""
+
+#: $string['savefailtitle']
+msgid "Post save failed"
+msgstr ""
+
+#: $string['savetoportfolio']
+msgid "Save to MyStuff"
+msgstr ""
+
+#: $string['searchallforums']
+msgid "Search all forums"
+msgstr ""
+
+#: $string['searchresults']
+msgid "Search results: <strong>{$a}</strong>"
+msgstr ""
+
+#: $string['searchthisforum']
+msgctxt "$string['searchthisforum']"
+msgid "Search this forum"
+msgstr ""
+
+#: $string['searchthisforum_help']
+msgid ""
+"Type your search term and press Enter or click the button.\n"
+"\n"
+"To search for exact phrases use quote marks.\n"
+"\n"
+"To exclude a word insert a hyphen immediately before the word.\n"
+"\n"
+"Example: the search term <tt>picasso -sculpture &quot;early works&quot;</tt> "
+"will return results for &lsquo;picasso&rsquo; or the phrase &lsquo;early "
+"works&rsquo; but will exclude items containing &lsquo;sculpture&rsquo;.\n"
+"\n"
+"To search by author or date use Advanced search. Access this directly by not "
+"entering a search term."
+msgstr ""
+
+#: $string['searchthisforumlink']
+msgctxt "$string['searchthisforumlink']"
+msgid "Search this forum"
+msgstr ""
+
+#: $string['searchthisforumlink_help']
+msgid ""
+"Type your search term and press Enter or click the button.\n"
+"\n"
+"To search for exact phrases use quote marks.\n"
+"\n"
+"To exclude a word insert a hyphen immediately before the word.\n"
+"\n"
+"Example: the search term <tt>picasso -sculpture &quot;early works&quot;</tt> "
+"will return results for &lsquo;picasso&rsquo; or the phrase &lsquo;early "
+"works&rsquo; but will exclude items containing &lsquo;sculpture&rsquo;.\n"
+"\n"
+"To search by author or date, click &lsquo;More options&rsquo;."
+msgstr ""
+
+#: $string['searchtime']
+msgid "Search time: {$a} s"
+msgstr ""
+
+#: $string['search_update_count']
+msgid "{$a} forums to process."
+msgstr ""
+
+#: $string['selectdiscintro']
+msgid ""
+"Tick the box beside each discussion you want to include. When you&rsquo;re "
+"done,\n"
+"scroll to the bottom and click &lsquo;Confirm selection&rsquo;."
+msgstr ""
+
+#: $string['selectedposts']
+msgid "Selected posts"
+msgstr ""
+
+#: $string['selectintro']
+msgid ""
+"Tick the box beside each post you want to include. When you&rsquo;re done,\n"
+"scroll to the bottom and click &lsquo;Confirm selection&rsquo;."
+msgstr ""
+
+#: $string['selectlabel']
+msgid "Select post {$a}"
+msgstr ""
+
+#: $string['selectorall']
+msgid "Do you want to include the entire discussion, or only selected posts?"
+msgstr ""
+
+#: $string['selectoralldisc']
+msgid "All discussions shown"
+msgstr ""
+
+#: $string['selectordiscall']
+msgid ""
+"Do you want to include all discussions listed on this page, or only selected "
+"discussions?"
+msgstr ""
+
+#: $string['selectorselectdisc']
+msgid "Select discussion"
+msgstr ""
+
+#: $string['selectorselecteddisc']
+msgid "Selected discussions"
+msgstr ""
+
+#: $string['sendanddelete']
+msgid "Send and delete"
+msgstr ""
+
+#: $string['set']
+msgctxt "$string['set']"
+msgid "Set"
+msgstr ""
+
+#: $string['setflag']
+msgid "Flag this post for future reference"
+msgstr ""
+
+#: $string['setforumtags']
+msgid "Set tags for forum"
+msgstr ""
+
+#: $string['setimportant']
+msgctxt "$string['setimportant']"
+msgid "Mark posts as important"
+msgstr ""
+
+#: $string['settag_label']
+msgctxt "$string['settag_label']"
+msgid "Set"
+msgstr ""
+
+#: $string['settags']
+msgid "Set discussion tags"
+msgstr ""
+
+#: $string['settags_help']
+msgid ""
+"Enter forum wide 'Set' tags for use in discussions by entering tags "
+"separated by commas"
+msgstr ""
+
+#: $string['shared']
+msgid "Allow forum to be shared"
+msgstr ""
+
+#: $string['shared_help']
+msgid ""
+"Tick this box, and set the ID number field below, to enable this forum\n"
+"to be shared.\n"
+"\n"
+"If you prefix the ID number with the prefix of AUTO_ it means that any clone "
+"forums will automatically look\n"
+"for the latest version of a master forum on restore.\n"
+"\n"
+"If the forum is backed up and restored if not unique it will add _1 to end\n"
+"(if already has _number at end then increment that number e.g. _2).\n"
+"\n"
+"This forum will become the original forum. You can then create one or more "
+"copies of this forum\n"
+"by choosing <strong>Use existing shared forum</strong>, and typing in the "
+"same ID number, when\n"
+"creating each copy."
+msgstr ""
+
+#: $string['sharedinfo']
+msgid ""
+"This is a shared forum. The access settings here are not shared, and\n"
+"apply only to students who access the shared forum from this particular "
+"course. If you want to\n"
+"edit other settings for the forum, please <a href='{$a}'>edit the original "
+"forum setttings</a>\n"
+"instead."
+msgstr ""
+
+#: $string['sharedviewinfoclone']
+msgid ""
+"<strong>This is a shared forum</strong>. The\n"
+"<a href='{$a->url}'>original forum</a> is in {$a->shortname}."
+msgstr ""
+
+#: $string['sharedviewinfolist']
+msgid "It is included in the following: {$a}."
+msgstr ""
+
+#: $string['sharedviewinfonone']
+msgid "It is not currently included in any other course."
+msgstr ""
+
+#: $string['sharedviewinfooriginal']
+msgid ""
+"<strong>This forum is shared</strong> under the name\n"
+"<strong>{$a}</strong> for use in other courses."
+msgstr ""
+
+#: $string['sharing']
+msgid "Forum sharing"
+msgstr ""
+
+#: $string['show_all']
+msgid "Show all"
+msgstr ""
+
+#: $string['showidnumber']
+msgid "Show ID numbers"
+msgstr ""
+
+#: $string['showusername']
+msgid "Show usernames"
+msgstr ""
+
+#: $string['skipstickydiscussions']
+msgid "Skip sticky discussions"
+msgstr ""
+
+#: $string['skiptofirstunread']
+msgid "Skip to first unread post"
+msgstr ""
+
+#: $string['sortby']
+msgid "Sort by {$a}"
+msgstr ""
+
+#: $string['sorted']
+msgid "sorted {$a}"
+msgstr ""
+
+#: $string['split']
+msgid "Split<span class='accesshide'> post {$a}</span>"
+msgstr ""
+
+#: $string['splitinfo']
+msgid ""
+"Splitting this post will remove it, and all its replies, from the current\n"
+"discussion. A new discussion will be created (shown below)."
+msgstr ""
+
+#: $string['splitpost']
+msgid "Split post: {$a}"
+msgstr ""
+
+#: $string['splitpostbutton']
+msgid "Split post as new discussion"
+msgstr ""
+
+#: $string['standardratings']
+msgid "Ratings (standard)"
+msgstr ""
+
+#: $string['startdiscussion_groupaccess']
+msgid ""
+"You don't have permission to start a new discussion in\n"
+"this group."
+msgstr ""
+
+#: $string['startdiscussion_nopermission']
+msgid ""
+"You don't have permission to start a new discussion\n"
+"here."
+msgstr ""
+
+#: $string['startdiscussion_postquota']
+msgid ""
+"You can't start a new discussion at the moment because you\n"
+"have reached the posting limit."
+msgstr ""
+
+#: $string['startedby']
+msgid "Started by"
+msgstr ""
+
+#: $string['sticky']
+msgid "Sticky discussion?"
+msgstr ""
+
+#: $string['sticky_help']
+msgid ""
+"This option can make the discussion stay on top of the list, even\n"
+"after newer discussions are posted.\n"
+"\n"
+"Sticky discussions are displayed with an up-arrow icon on the discussion "
+"list. You can have more\n"
+"than one sticky discussion."
+msgstr ""
+
+#: $string['sticky_no']
+msgid "Discussion is sorted normally"
+msgstr ""
+
+#: $string['sticky_yes']
+msgid "Discussion stays on top of list"
+msgstr ""
+
+#: $string['studyadvice_noquestions']
+msgid ""
+"Nobody has started any discussions yet in this study advice\n"
+"forum."
+msgstr ""
+
+#: $string['studyadvice_noyourquestions']
+msgid ""
+"You have not yet started any discussions in this study\n"
+"advice forum."
+msgstr ""
+
+#: $string['subject']
+msgid "Subject"
+msgstr ""
+
+#: $string['subscribe']
+msgid "Subscribe to this forum"
+msgstr ""
+
+#: $string['subscribe_already']
+msgid "You are already subscribed."
+msgstr ""
+
+#: $string['subscribe_already_group']
+msgid "You are already subscribed to this group."
+msgstr ""
+
+#: $string['subscribe_confirm']
+msgid "You have been subscribed."
+msgstr ""
+
+#: $string['subscribe_confirm_group']
+msgid "You have been subscribed to the group."
+msgstr ""
+
+#: $string['subscribed']
+msgid "Subscribed"
+msgstr ""
+
+#: $string['subscribeddiscussionall']
+msgid "All"
+msgstr ""
+
+#: $string['subscribediscussion']
+msgid "Subscribe to discussion"
+msgstr ""
+
+#: $string['subscribedthisgroup']
+msgid "This group"
+msgstr ""
+
+#: $string['subscribegroup']
+msgid "Subscribe to this group's forum"
+msgstr ""
+
+#: $string['subscribelong']
+msgid "Subscribe to whole forum"
+msgstr ""
+
+#: $string['subscribers']
+msgid "Subscribers"
+msgstr ""
+
+#: $string['subscribers_nopermission']
+msgid "You do not have permission to view the subscriber list."
+msgstr ""
+
+#: $string['subscribeshort']
+msgid "Subscribe to forum"
+msgstr ""
+
+#: $string['subscribestart']
+msgid "Send me email copies of posts to this forum"
+msgstr ""
+
+#: $string['subscribestate_discussionsubscribed']
+msgid ""
+"You receive messages from this discussion via\n"
+"email to {$a}."
+msgstr ""
+
+#: $string['subscribestate_discussionunsubscribed']
+msgid ""
+"You do not currently receive messages from this\n"
+"discussion by email. If you would like to, click &lsquo;Subscribe to "
+"discussion&rsquo;."
+msgstr ""
+
+#: $string['subscribestate_forced']
+msgid "(This forum does not allow you to unsubscribe.)"
+msgstr ""
+
+#: $string['subscribestate_groups_partiallysubscribed']
+msgid ""
+"You receive messages from some groups in\n"
+"this forum via email to {$a}."
+msgstr ""
+
+#: $string['subscribestate_info']
+msgid "Your email preferences{$a}:"
+msgstr ""
+
+#: $string['subscribestate_info_link']
+msgid "change"
+msgstr ""
+
+#: $string['subscribestate_no_access']
+msgid ""
+"You do not have access to subscribe to this forum by\n"
+"email."
+msgstr ""
+
+#: $string['subscribestate_not_permitted']
+msgid "This forum does not allow email subscription."
+msgstr ""
+
+#: $string['subscribestate_partiallysubscribed']
+msgid ""
+"You receive messages from some discussions in\n"
+"this forum via email to {$a}."
+msgstr ""
+
+#: $string['subscribestate_partiallysubscribed_thisgroup']
+msgid ""
+"You receive messages from some\n"
+"discussions in this group via email to {$a}."
+msgstr ""
+
+#: $string['subscribestate_subscribed']
+msgid "You receive messages from this forum via email to {$a}."
+msgstr ""
+
+#: $string['subscribestate_subscribed_notinallgroup']
+msgid ""
+"Click &lsquo;Unsubscribe&rsquo; to unsubscribe\n"
+"from the forum."
+msgstr ""
+
+#: $string['subscribestate_subscribed_thisgroup']
+msgid ""
+"You receive messages from this group via email\n"
+"to {$a}."
+msgstr ""
+
+#: $string['subscribestate_unsubscribed']
+msgid ""
+"You do not currently receive messages from this forum by\n"
+"email. If you would like to, click &lsquo;Subscribe to forum&rsquo;."
+msgstr ""
+
+#: $string['subscribestate_unsubscribed_thisgroup']
+msgid ""
+"You do not currently receive messages from this\n"
+"group by email. If you would like to, click &lsquo;Subscribe to this "
+"group&rsquo;."
+msgstr ""
+
+#: $string['subscribestop']
+msgid "I don't want email copies of posts to this forum"
+msgstr ""
+
+#: $string['subscription']
+msgid "Email subscription"
+msgstr ""
+
+#: $string['subscription_forced']
+msgid "Force everyone to be subscribed"
+msgstr ""
+
+#: $string['subscription_help']
+msgid ""
+"You can force everyone to be subscribed, or set them be subscribed\n"
+"initially; the difference is that in the latter case, they can choose to "
+"unsubscribe themselves.\n"
+"\n"
+"These options include all users (students and staff) who are enrolled on the "
+"course. Users who do\n"
+"not belong to the course (such as administrators) can still optionally "
+"subscribe."
+msgstr ""
+
+#: $string['subscription_initially_subscribed']
+msgid "Everyone is initially subscribed"
+msgstr ""
+
+#: $string['subscription_not_permitted']
+msgid "Subscription is not permitted"
+msgstr ""
+
+#: $string['subscription_permitted']
+msgid "Everyone can choose to be subscribed"
+msgstr ""
+
+#: $string['subscriptions']
+msgid "Subscriptions"
+msgstr ""
+
+#: $string['switchto_simple_link']
+msgid "Switch to simple view."
+msgstr ""
+
+#: $string['switchto_simple_text']
+msgid ""
+"The standard view of this forum does not always work well with\n"
+"assistive technology. We also provide a simpler view, which still contains "
+"all features."
+msgstr ""
+
+#: $string['switchto_standard_link']
+msgid "Switch to standard view."
+msgstr ""
+
+#: $string['switchto_standard_text']
+msgid ""
+"You are using the simple view of this forum, which should work\n"
+"better with assistive technology."
+msgstr ""
+
+#: $string['tagarea_forumng']
+msgctxt "$string['tagarea_forumng']"
+msgid "Forumng activity"
+msgstr ""
+
+#: $string['tagarea_forumng_discussions']
+msgctxt "$string['tagarea_forumng_discussions']"
+msgid "Forumng discussions"
+msgstr ""
+
+#: $string['tagarea_groups']
+msgid "Forumng activity groups"
+msgstr ""
+
+#: $string['tagcollection_forumng_discussions']
+msgctxt "$string['tagcollection_forumng_discussions']"
+msgid "Forumng discussions"
+msgstr ""
+
+#: $string['tagcollection_forumng_group_set']
+msgid "Forumng activity group"
+msgstr ""
+
+#: $string['tagcollection_forumng_set']
+msgctxt "$string['tagcollection_forumng_set']"
+msgid "Forumng activity"
+msgstr ""
+
+#: $string['tagging']
+msgid "Tagging"
+msgstr ""
+
+#: $string['tagging_help']
+msgid ""
+"Enable tagging in discussions for this forum and also allow forum wide tags "
+"to be enabled"
+msgstr ""
+
+#: $string['teacher_grades_students']
+msgid "Teacher grades students"
+msgstr ""
+
+#: $string['text_asc']
+msgid "A-Z"
+msgstr ""
+
+#: $string['text_desc']
+msgid "Z-A"
+msgstr ""
+
+#: $string['timeend']
+msgid "Only show until end"
+msgstr ""
+
+#: $string['timestart']
+msgid "Only show from"
+msgstr ""
+
+#: $string['to']
+msgid "to: {$a}"
+msgstr ""
+
+#: $string['tooltip_show_features']
+msgid "Show other options"
+msgstr ""
+
+#: $string['trackreadposts']
+msgid "Track unread posts"
+msgstr ""
+
+#: $string['undelete']
+msgid "Undelete"
+msgstr ""
+
+#: $string['undeletepost']
+msgid "Undelete post: {$a}"
+msgstr ""
+
+#: $string['undeletepostbutton']
+msgctxt "$string['undeletepostbutton']"
+msgid "Undelete post"
+msgstr ""
+
+#: $string['unread']
+msgid "Unread"
+msgstr ""
+
+#: $string['unsubscribe']
+msgid "Unsubscribe from this forum"
+msgstr ""
+
+#: $string['unsubscribeall']
+msgctxt "$string['unsubscribeall']"
+msgid "Unsubscribe from all forums"
+msgstr ""
+
+#: $string['unsubscribe_already']
+msgid "You are already unsubscribed."
+msgstr ""
+
+#: $string['unsubscribe_already_group']
+msgid "You are already unsubscribed from this group."
+msgstr ""
+
+#: $string['unsubscribe_confirm']
+msgid "You have been unsubscribed."
+msgstr ""
+
+#: $string['unsubscribe_confirm_group']
+msgid "You have been unsubscribed from the group."
+msgstr ""
+
+#: $string['unsubscribediscussion']
+msgid "Unsubscribe from discussion"
+msgstr ""
+
+#: $string['unsubscribegroup']
+msgid "Unsubscribe from this group's forum"
+msgstr ""
+
+#: $string['unsubscribegroup_partial']
+msgid "Unsubscribe from discussions in this group"
+msgstr ""
+
+#: $string['unsubscribelong']
+msgid "Unsubscribe from the forum"
+msgstr ""
+
+#: $string['unsubscribe_nopermission']
+msgid "You do not have permission to unsubscribe other users."
+msgstr ""
+
+#: $string['unsubscribeselected']
+msgid "Unsubscribe selected users"
+msgstr ""
+
+#: $string['unsubscribeshort']
+msgid "Unsubscribe"
+msgstr ""
+
+#: $string['usebcc']
+msgid "Send emails with BCC"
+msgstr ""
+
+#: $string['useshared']
+msgid "Clone existing forum"
+msgstr ""
+
+#: $string['useshared_help']
+msgid ""
+"If you want to create a clone of an existing forum, use this tickbox\n"
+"and type the ID number of the original forum (which must allow sharing).\n"
+"\n"
+"When this is selected, most other options on this form will be ignored "
+"because you are not really\n"
+"creating a new forum, only a link to an existing one. The exception is "
+"availability and (manual\n"
+"only) completion options."
+msgstr ""
+
+#: $string['viewsubscribers']
+msgctxt "$string['viewsubscribers']"
+msgid "View subscribers"
+msgstr ""
+
+#: $string['withremoveddiscussions']
+msgid "Action or move discussions to"
+msgstr ""
+
+#: $string['withremoveddiscussions_help']
+msgid ""
+"You have three options for managing old discussions:\n"
+"<ul><li>Delete them permanently; unlike the standard delete feature, these "
+"cannot be undeleted.\n"
+"This option could be used to save space in the database.</li>\n"
+"<li>Automatically lock (make read-only) them</li>\n"
+"<li>Move them to another forum; for example, you might have an "
+"&lsquo;archive forum&rsquo;.\n"
+"You can select any forum on the same course.</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['words']
+msgid "Search for"
+msgstr ""
+
+#: $string['words_help']
+msgid ""
+"Type your search term here.\n"
+"\n"
+"To search for exact phrases use quote marks.\n"
+"\n"
+"To exclude a word insert a hyphen immediately before the word.\n"
+"\n"
+"Example: the search term <tt>picasso -sculpture &quot;early works&quot;</tt> "
+"will return results for &lsquo;picasso&rsquo; or the phrase &lsquo;early "
+"works&rsquo; but will exclude items containing &lsquo;sculpture&rsquo;.\n"
+"\n"
+"If you leave this box blank, then all posts that match the author and/or "
+"date criteria will be returned, regardless of their content."
+msgstr ""
+
+#: $string['yourrating']
+msgid "Your rating:"
+msgstr ""

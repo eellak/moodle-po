@@ -1,0 +1,121 @@
+#. extracted from lang/en/message_telegram.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'message_telegram', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   message_telegram
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['configsitebotname']
+msgctxt "$string['configsitebotname']"
+msgid "This will be filled in automatically when you save the bot token."
+msgstr ""
+
+#: $string['configsitebottoken']
+msgid "Enter the site bot token from Botfather here."
+msgstr ""
+
+#: $string['configsitebotusername']
+msgctxt "$string['configsitebotusername']"
+msgid "This will be filled in automatically when you save the bot token."
+msgstr ""
+
+#: $string['connectinstructions']
+msgid ""
+"Once you have clicked the link below, you will need to allow the link to "
+"open in Telegram with\n"
+"your Telegram account. In Telegram, click the \"Start\" button in the \"{$a}\" "
+"chat that opens to connect your account to Moodle.\n"
+"Once completed, come back to this page and click \"Save changes\". Full "
+"documentation\n"
+"<a href=\"https://docs.moodle.org/33/en/Telegram_message_processor#Configurin"
+"g_user_preferences\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: $string['connectme']
+msgid "Connect my account to Telegram."
+msgstr ""
+
+#: $string['notconfigured']
+msgid ""
+"The Telegram server hasn't been configured so Telegram messages cannot be "
+"sent"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Telegram"
+msgstr ""
+
+#: $string['removetelegram']
+msgid "Remove Telegram connection"
+msgstr ""
+
+#: $string['requirehttps']
+msgid "Site must use HTTPS for Telegram's webhook function."
+msgstr ""
+
+#: $string['setupinstructions']
+msgid ""
+"Create a new Telegram Bot using Botfather. Click the Botfather link below "
+"and open it in Telegram.\n"
+"Use the \"/newbot\" command in Telegram to start creating the bot. You will "
+"need to specify a botname, for example \"{$a->name}\", and a\n"
+"unique bot username, for example \"{$a->username}\". Full documentation\n"
+"<a href=\"https://docs.moodle.org/33/en/Telegram_message_processor\" "
+"target=\"_blank\">here</a>."
+msgstr ""
+
+#: $string['setwebhook']
+msgid "Setup Telegram webhook"
+msgstr ""
+
+#: $string['sitebotname']
+msgid "Bot name for site"
+msgstr ""
+
+#: $string['sitebottoken']
+msgid "Bot token for site"
+msgstr ""
+
+#: $string['sitebottokennotsetup']
+msgid "Bot token for site must be specified in plugin settings."
+msgstr ""
+
+#: $string['sitebotusername']
+msgid "Bot username for site"
+msgstr ""
+
+#: $string['telegrambottoken']
+msgid "Telegram bot token"
+msgstr ""
+
+#: $string['telegramchatid']
+msgid "Telegram chat id"
+msgstr ""

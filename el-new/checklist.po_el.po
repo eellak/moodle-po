@@ -1,0 +1,700 @@
+#. extracted from lang/en/checklist.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'checklist', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   checklist
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addcomments']
+msgid "Add comments"
+msgstr "Προσθήκη σχολίων"
+
+#: $string['additem']
+msgid "Add"
+msgstr "Προσθήκη"
+
+#: $string['additemalt']
+msgid "Add a new item to the list"
+msgstr ""
+
+#: $string['additemhere']
+msgid "Insert new item after this one"
+msgstr ""
+
+#: $string['addownitems']
+msgid "Add your own items"
+msgstr ""
+
+#: $string['addownitems-stop']
+msgid "Stop adding your own items"
+msgstr ""
+
+#: $string['allowmodulelinks']
+msgid "Allow module links"
+msgstr ""
+
+#: $string['anygrade']
+msgid "Any"
+msgstr ""
+
+#: $string['anygrouping']
+msgid "Any grouping"
+msgstr ""
+
+#: $string['autopopulate']
+msgid "Show course modules in checklist"
+msgstr ""
+
+#: $string['autopopulate_help']
+msgid ""
+"This will automatically add a list of all the resources and activities in "
+"the current course into the checklist.<br />\n"
+"This list will be updated with any changes in the course, whenever you visit "
+"the 'Edit' page for the checklist.<br />\n"
+"Items can be hidden from the list, by clicking on the 'hide' icon beside "
+"them.<br />\n"
+"To remove the automatic items from the list, change this option back to "
+"'No', then click on 'Remove course module items' on the 'Edit' page."
+msgstr ""
+
+#: $string['autoupdate']
+msgid "Check-off when modules complete"
+msgstr ""
+
+#: $string['autoupdate2']
+msgid "Check-off when courses or modules complete"
+msgstr ""
+
+#: $string['autoupdate2_help']
+msgid ""
+"This will automatically check-off items in your checklist when you complete "
+"the relevant activity in the course.<br />\n"
+"If completion tracking is switched on for a particular activity, that will "
+"be used to tick-off the item in the list<br>\n"
+"Otherwise, 'completing' an activity varies from one activity to another - "
+"'view' a resource, 'submit' a quiz or assignment, 'post' to a forum or join "
+"in with a chat, etc. (for details of exactly what causes an activity to be "
+"marked as 'complete', ask your site administrator to look in the file "
+"'mod/checklist/classes/local/autoupdate.php')<br>\n"
+"If an item is linked to a course and that course has completion enabled for "
+"it, then the item will be updated when that course is marked as complete."
+msgstr ""
+
+#: $string['autoupdate_help']
+msgid ""
+"This will automatically check-off items in your checklist when you complete "
+"the relevant activity in the course.<br />\n"
+"If completion tracking is switched on for a particular activity, that will "
+"be used to tick-off the item in the list<br>\n"
+"Otherwise, 'completing' an activity varies from one activity to another - "
+"'view' a resource, 'submit' a quiz or assignment, 'post' to a forum or join "
+"in with a chat, etc. (for details of exactly what causes an activity to be "
+"marked as 'complete', ask your site administrator to look in the file "
+"'mod/checklist/classes/local/autoupdate.php')<br>"
+msgstr ""
+
+#: $string['autoupdatenote']
+msgid ""
+"It is the 'student' mark that is automatically updated - no updates will be "
+"displayed for 'Teacher only' checklists"
+msgstr ""
+
+#: $string['autoupdatewarning_both']
+msgid ""
+"There are items on this list that will be automatically updated (as students "
+"complete the related activity). However, as this is a 'student and teacher' "
+"checklist the progress bars will not update until a teacher agrees the "
+"marks given."
+msgstr ""
+
+#: $string['autoupdatewarning_student']
+msgctxt "$string['autoupdatewarning_student']"
+msgid ""
+"There are items on this list that will be automatically updated (as students "
+"complete the related activity)."
+msgstr ""
+
+#: $string['autoupdatewarning_teacher']
+msgctxt "$string['autoupdatewarning_teacher']"
+msgid ""
+"There are items on this list that will be automatically updated (as students "
+"complete the related activity)."
+msgstr ""
+
+#: $string['calendardescription']
+msgid "This event was added by the checklist: {$a}"
+msgstr ""
+
+#: $string['canceledititem']
+msgctxt "$string['canceledititem']"
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: $string['changetextcolour']
+msgid "Next text colour"
+msgstr ""
+
+#: $string['checkeditemsdeleted']
+msgid "Checked items deleted"
+msgstr ""
+
+#: $string['checklist']
+msgid "checklist"
+msgstr ""
+
+#: $string['checklist:addinstance']
+msgid "Add a new checklist"
+msgstr ""
+
+#: $string['checklistautoupdate']
+msgid "Allow checklists to automatically update"
+msgstr ""
+
+#: $string['checklist:edit']
+msgid "Create and edit checklists"
+msgstr ""
+
+#: $string['checklist:emailoncomplete']
+msgid "Receive completion emails"
+msgstr ""
+
+#: $string['checklistfor']
+msgid "Checklist for"
+msgstr ""
+
+#: $string['checklistintro']
+msgid "Introduction"
+msgstr ""
+
+#: $string['checklist:preview']
+msgid "Preview a checklist"
+msgstr ""
+
+#: $string['checklistsettings']
+msgid "Settings"
+msgstr ""
+
+#: $string['checklist:updatelocked']
+msgid "Update locked checklist marks"
+msgstr ""
+
+#: $string['checklist:updateother']
+msgid "Update students' checklist marks"
+msgstr ""
+
+#: $string['checklist:updateown']
+msgid "Update your checklist marks"
+msgstr ""
+
+#: $string['checklist:viewmenteereports']
+msgid "View mentee progress (only)"
+msgstr ""
+
+#: $string['checklist:viewreports']
+msgid "View students' progress"
+msgstr ""
+
+#: $string['checks']
+msgid "Check marks"
+msgstr ""
+
+#: $string['choosecourse']
+msgid "Choose course..."
+msgstr ""
+
+#: $string['comments']
+msgid "Comments"
+msgstr "Σχόλια"
+
+#: $string['completionpercent']
+msgid "Percentage of items that should be checked-off:"
+msgstr ""
+
+#: $string['completionpercentgroup']
+msgid "Require checked-off"
+msgstr ""
+
+#: $string['configchecklistautoupdate']
+msgid ""
+"Before allowing this you must make a few changes to the core Moodle code, "
+"please see mod/checklist/README.txt for details"
+msgstr ""
+
+#: $string['configshowcompletemymoodle']
+msgid ""
+"If this is unchecked then completed Checklists will be hidden from the 'My "
+"Moodle' page"
+msgstr ""
+
+#: $string['configshowmymoodle']
+msgid ""
+"If this is unchecked then Checklist activities (with progress bars) will no "
+"longer appear on the 'My Moodle' page"
+msgstr ""
+
+#: $string['configshowupdateablemymoodle']
+msgid ""
+"If this is checked then only updatable Checklists will be shown from the 'My "
+"Moodle' page"
+msgstr ""
+
+#: $string['confirmdeleteitem']
+msgid "Are you sure you want to permanently delete this checklist item?"
+msgstr ""
+
+#: $string['deleteitem']
+msgid "Delete this item"
+msgstr ""
+
+#: $string['duedatesoncalendar']
+msgid "Add due dates to calendar"
+msgstr ""
+
+#: $string['edit']
+msgid "Edit checklist"
+msgstr ""
+
+#: $string['editchecks']
+msgid "Edit checks"
+msgstr ""
+
+#: $string['editdatesstart']
+msgid "Edit dates"
+msgstr ""
+
+#: $string['editdatesstop']
+msgid "Stop editing dates"
+msgstr ""
+
+#: $string['edititem']
+msgid "Edit this item"
+msgstr ""
+
+#: $string['emailoncomplete']
+msgid "Email when checklist is complete:"
+msgstr ""
+
+#: $string['emailoncompletebody']
+msgid ""
+"User {$a->user} has completed checklist '{$a->checklist}' in the course "
+"'{$a->coursename}'\n"
+"View the checklist here:"
+msgstr ""
+
+#: $string['emailoncompletebodyown']
+msgid ""
+"You have completed checklist '{$a->checklist}' in the course "
+"'{$a->coursename}'\n"
+"View the checklist here:"
+msgstr ""
+
+#: $string['emailoncomplete_help']
+msgid ""
+"When a checklist is complete, a notification email can be sent: to the "
+"student who completed it, to all the teachers on the course or to both.<br "
+"/>\n"
+"An administrator can control who receives this email using the capability "
+"'mod:checklist/emailoncomplete' - by default all teachers and non-editing "
+"teachers have this capability."
+msgstr ""
+
+#: $string['emailoncompletesubject']
+msgid "User {$a->user} has completed checklist '{$a->checklist}\\"
+msgstr ""
+
+#: $string['emailoncompletesubjectown']
+msgid "You have completed checklist '{$a->checklist}\\"
+msgstr ""
+
+#: $string['enterurl']
+msgid "Enter url ..."
+msgstr ""
+
+#: $string['eventchecklistcomplete']
+msgid "Checklist complete"
+msgstr ""
+
+#: $string['eventeditpageviewed']
+msgid "Edit page viewed"
+msgstr ""
+
+#: $string['eventreportviewed']
+msgid "Report viewed"
+msgstr ""
+
+#: $string['eventstudentchecksupdated']
+msgid "Student checks updated"
+msgstr ""
+
+#: $string['eventteacherchecksupdated']
+msgid "Teacher checks updated"
+msgstr ""
+
+#: $string['export']
+msgid "Export items"
+msgstr "Εξαγωγή στοιχείων"
+
+#: $string['forceupdate']
+msgid "Update checks for all automatic items"
+msgstr ""
+
+#: $string['gradetocomplete']
+msgid "Grade to complete:"
+msgstr ""
+
+#: $string['grouping']
+msgid "Visible to grouping"
+msgstr ""
+
+#: $string['guestsno']
+msgid "You do not have permission to view this checklist"
+msgstr ""
+
+#: $string['headingitem']
+msgid "This item is a heading - it will not have a checkbox beside it"
+msgstr ""
+
+#: $string['import']
+#, fuzzy
+msgid "Import items"
+msgstr "Εξαγωγή στοιχείων"
+
+#: $string['importfile']
+msgid "Choose file to import"
+msgstr ""
+
+#: $string['importfromcourse']
+msgid "Whole course"
+msgstr ""
+
+#: $string['importfromsection']
+msgid "Current section"
+msgstr ""
+
+#: $string['indentitem']
+msgid "Indent item"
+msgstr ""
+
+#: $string['itemcomplete']
+msgid "Completed"
+msgstr "Ολοκληρωμένο"
+
+#: $string['items']
+msgid "Checklist items"
+msgstr ""
+
+#: $string['linkcourses']
+msgid "Allow linking items to courses"
+msgstr ""
+
+#: $string['linkcourses_desc']
+msgid ""
+"When enabled, checklist items can be linked to courses within Moodle - being "
+"marked as complete when the associated course is completed. Enabling this "
+"may have some performance implications when editing checkist items on sites "
+"with a large number of courses."
+msgstr ""
+
+#: $string['linkto']
+msgid "Link to"
+msgstr ""
+
+#: $string['linktocourse']
+msgid "Course associated with this item"
+msgstr ""
+
+#: $string['linktomodule']
+msgid "Activity associated with this item"
+msgstr ""
+
+#: $string['linktourl']
+msgid "Link associated with this item"
+msgstr ""
+
+#: $string['lockteachermarks']
+msgid "Lock teacher marks"
+msgstr ""
+
+#: $string['lockteachermarks_help']
+msgid ""
+"When this setting is enabled, once a teacher has saved a 'Yes' mark, they "
+"will be unable to change it. Users with the capability "
+"'mod/checklist:updatelocked' will still be able to change the mark."
+msgstr ""
+
+#: $string['lockteachermarkswarning']
+msgid ""
+"Note: Once you have saved these marks, you will be unable to change any "
+"'Yes' marks"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Checklist"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"The checklist module allows a teacher to create a checklist / todo list / "
+"task list for their students to work through."
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Checklists"
+msgstr ""
+
+#: $string['moveitemdown']
+msgid "Move item down"
+msgstr ""
+
+#: $string['moveitemup']
+msgid "Move item up"
+msgstr ""
+
+#: $string['noitems']
+msgid "No items in the checklist"
+msgstr ""
+
+#: $string['onlyenrolled']
+msgid "Only active users"
+msgstr ""
+
+#: $string['onlyenrolleddesc']
+msgid ""
+"When selected, only users with active enrolments are shown in checklists "
+"(deselect to return to the old behaviour)"
+msgstr ""
+
+#: $string['optionalhide']
+msgid "Hide optional items"
+msgstr ""
+
+#: $string['optionalitem']
+msgid "This item is optional"
+msgstr ""
+
+#: $string['optionalshow']
+msgid "Show optional items"
+msgstr ""
+
+#: $string['or']
+msgid "OR"
+msgstr ""
+
+#: $string['percentcomplete']
+msgid "Required items"
+msgstr ""
+
+#: $string['percentcompleteall']
+msgid "All items"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Checklist administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Checklist"
+msgstr ""
+
+#: $string['preview']
+msgid "Preview"
+msgstr "Προεπισκόπηση"
+
+#: $string['progress']
+msgid "Progress"
+msgstr ""
+
+#: $string['removeauto']
+msgid "Remove course module items"
+msgstr ""
+
+#: $string['report']
+msgid "View progress"
+msgstr ""
+
+#: $string['reporttablesummary']
+msgid ""
+"Table showing the items on the checklist that each student has completed"
+msgstr ""
+
+#: $string['requireditem']
+msgid "This item is required - it must be completed"
+msgstr ""
+
+#: $string['resetchecklistprogress']
+msgid "Reset checklist progress and user items"
+msgstr ""
+
+#: $string['savechecks']
+#, fuzzy
+msgctxt "$string['savechecks']"
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: $string['showcompletemymoodle']
+msgid "Show completed Checklists on 'My Moodle' page"
+msgstr ""
+
+#: $string['showfulldetails']
+msgid "Show full details"
+msgstr ""
+
+#: $string['showhidechecked']
+msgid "Show/hide selected items"
+msgstr ""
+
+#: $string['showmymoodle']
+msgid "Show Checklists on 'My Moodle' page"
+msgstr ""
+
+#: $string['showprogressbars']
+msgid "Show progress bars"
+msgstr ""
+
+#: $string['showupdateablemymoodle']
+msgid "Show only updatable Checklists on 'My Moodle' page"
+msgstr ""
+
+#: $string['teacheralongsidecheck']
+msgid "Student and teacher"
+msgstr ""
+
+#: $string['teachercomments']
+msgid "Teachers can add comments"
+msgstr "Οι διδάσκοντες μπορούν να προσθέσουν σχόλια"
+
+#: $string['teacherdate']
+msgid "Date a teacher last updated this item"
+msgstr ""
+
+#: $string['teacheredit']
+msgid "Updates by"
+msgstr ""
+
+#: $string['teacherid']
+msgid "The teacher who last updated this mark"
+msgstr ""
+
+#: $string['teachermarkno']
+msgid "Teacher states that you have NOT completed this"
+msgstr ""
+
+#: $string['teachermarkundecided']
+msgid "Teacher has not yet marked this"
+msgstr ""
+
+#: $string['teachermarkyes']
+msgid "Teacher states that you have completed this"
+msgstr ""
+
+#: $string['teachernoteditcheck']
+msgid "Student only"
+msgstr ""
+
+#: $string['teacheroverwritecheck']
+msgid "Teacher only"
+msgstr ""
+
+#: $string['theme']
+msgid "Checklist display theme"
+msgstr ""
+
+#: $string['togglecolumn']
+msgid "Toggle Column"
+msgstr ""
+
+#: $string['toggledates']
+msgid "Toggle names & dates"
+msgstr ""
+
+#: $string['togglerow']
+msgid "Toggle Row"
+msgstr ""
+
+#: $string['unindentitem']
+msgid "Unindent item"
+msgstr ""
+
+#: $string['updatecompletescore']
+msgid "Save completion grades"
+msgstr ""
+
+#: $string['updateitem']
+msgid "Update"
+msgstr ""
+
+#: $string['userdate']
+msgid "Date the user last updated this item"
+msgstr ""
+
+#: $string['useritemsallowed']
+msgid "User can add their own items"
+msgstr ""
+
+#: $string['useritemsdeleted']
+msgid "User items deleted"
+msgstr ""
+
+#: $string['view']
+msgid "View checklist"
+msgstr ""
+
+#: $string['viewall']
+msgid "View all students"
+msgstr ""
+
+#: $string['viewallcancel']
+msgctxt "$string['viewallcancel']"
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: $string['viewallsave']
+msgctxt "$string['viewallsave']"
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: $string['viewsinglereport']
+msgid "View progress for this user"
+msgstr ""
+
+#: $string['viewsingleupdate']
+msgid "Update progress for this user"
+msgstr ""
+
+#: $string['yesnooverride']
+msgid "Yes, cannot override"
+msgstr ""
+
+#: $string['yesoverride']
+msgid "Yes, can override"
+msgstr ""

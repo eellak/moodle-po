@@ -1,0 +1,145 @@
+#. extracted from lang/en/enrol_flatfile.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'enrol_flatfile', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   enrol_flatfile
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['encoding']
+msgid "File encoding"
+msgstr "Κωδικοποίηση αρχείου"
+
+#: $string['expiredaction']
+msgid "Enrolment expiry action"
+msgstr ""
+
+#: $string['expiredaction_help']
+msgid ""
+"Select action to carry out when user enrolment expires. Please note that "
+"some user data and settings are purged from course during course "
+"unenrolment."
+msgstr ""
+"Επιλέξτε την ενέργεια που θα εκτελεστεί όταν λήξει η εγγραφή του χρήστη. "
+"Παρακαλώ σημειώστε ότι ορισμένα δεδομένα χρήστη και ρυθμίσεις εκκαθαρίζονται "
+"από το μάθημα κατά την ακύρωση εγγραφής στο μάθημα."
+
+#: $string['filelockedmail']
+msgid ""
+"The text file you are using for file-based enrolments ({$a}) can not be "
+"deleted by the cron process.  This usually means the permissions are wrong "
+"on it.  Please fix the permissions so that Moodle can delete the file, "
+"otherwise it might be processed repeatedly."
+msgstr ""
+"Το αρχείο κειμένου που χρησιμοποιείτε για εγγραφές βασισμένες σε αρχεία "
+"({$a}) δεν μπορεί να διαγραφεί από την διαδικασία cron. Αυτό συνήθως "
+"σημαίνει ότι τα δικαιώματα σε αυτήν είναι λάθος. Παρακαλώ διορθώστε τα "
+"δικαιώματα ώστε το ΠΗΛΕΑΣ να διαγράψει το αρχείο αυτό, ειδάλλως ίσως να "
+"εκτελείται επανειλημμένα."
+
+#: $string['filelockedmailsubject']
+msgid "Important error: Enrolment file"
+msgstr "Σημαντικό σφάλμα: Αρχείο εγγραφής"
+
+#: $string['flatfile:manage']
+msgid "Manage user enrolments manually"
+msgstr ""
+
+#: $string['flatfilesync']
+msgid "Flat file enrolment sync"
+msgstr ""
+
+#: $string['flatfile:unenrol']
+msgid "Unenrol users from the course manually"
+msgstr ""
+
+#: $string['location']
+msgid "File location"
+msgstr "Τοποθεσία αρχείου"
+
+#: $string['location_desc']
+msgid ""
+"Specify full path to the enrolment file. The file is automatically deleted "
+"after processing."
+msgstr ""
+
+#: $string['mapping']
+msgid "Flat file role mapping"
+msgstr ""
+
+#: $string['messageprovider:flatfile_enrolment']
+msgid "Flat file enrolment messages"
+msgstr ""
+
+#: $string['notifyadmin']
+msgid "Notify administrator"
+msgstr ""
+
+#: $string['notifyenrolled']
+msgid "Notify enrolled users"
+msgstr ""
+
+#: $string['notifyenroller']
+msgid "Notify user responsible for enrolments"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Flat file (CSV)"
+msgstr "Επίπεδο αρχείο (CSV)"
+
+#: $string['pluginname_desc']
+msgid ""
+"This method will repeatedly check for and process a specially-formatted text "
+"file in the location that you specify.\n"
+"The file is a comma separated file assumed to have four or six fields per "
+"line:\n"
+"\n"
+"    operation, role, user idnumber, course idnumber [, starttime [, "
+"endtime]]\n"
+"\n"
+"where:\n"
+"\n"
+"* operation - add | del\n"
+"* role - student | teacher | teacheredit\n"
+"* user idnumber - idnumber in the user table NB not id\n"
+"* course idnumber - idnumber in the course table NB not id\n"
+"* starttime - start time (in seconds since epoch) - optional\n"
+"* endtime - end time (in seconds since epoch) - optional\n"
+"\n"
+"It could look something like this:\n"
+"<pre class=\"informationbox\">\n"
+"   add, student, 5, CF101\n"
+"   add, teacher, 6, CF101\n"
+"   add, teacheredit, 7, CF101\n"
+"   del, student, 8, CF101\n"
+"   del, student, 17, CF101\n"
+"   add, student, 21, CF101, 1091115000, 1091215000\n"
+"</pre>"
+msgstr ""

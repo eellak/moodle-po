@@ -1,0 +1,293 @@
+#. extracted from lang/en/repository_capture.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'repository_capture', language 'en', branch 'MOODLE_26_STABLE'
+#.  *
+#.  * @package   repository_capture
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['btn_audio']
+msgid "Record audio"
+msgstr ""
+
+#: $string['btn_help']
+msgid "Recording Help"
+msgstr ""
+
+#: $string['btn_help_help']
+msgid ""
+"Recording instructions:<br>\n"
+"<ol>\n"
+"<li>Use the recording button to record your sound or video</li>\n"
+"<li>You can replay the recording with the play button</li>\n"
+"<li>Use the two triangular handles to trim the beginning and end of the "
+"video recording</li>\n"
+"<li>Once you have completed the editing, click on the Save button to send "
+"your recording to Moodle. (Processing can take a while depending on length, "
+"bandwidth and server processing speed.)</li>\n"
+"</ol>"
+msgstr ""
+
+#: $string['btn_photo']
+msgctxt "$string['btn_photo']"
+msgid "Take a picture"
+msgstr ""
+
+#: $string['btn_play']
+msgid "Play/Pause"
+msgstr ""
+
+#: $string['btn_record']
+msgid "Record"
+msgstr ""
+
+#: $string['btn_record_photo']
+msgctxt "$string['btn_record_photo']"
+msgid "Take a picture"
+msgstr ""
+
+#: $string['btn_reset']
+msgid "Try again"
+msgstr ""
+
+#: $string['btn_save']
+msgid "Save"
+msgstr ""
+
+#: $string['btn_settings']
+msgid "Recording settings"
+msgstr ""
+
+#: $string['btn_stop']
+msgid "Stop"
+msgstr ""
+
+#: $string['btn_video']
+msgid "Record video"
+msgstr ""
+
+#: $string['capture:audio']
+msgid "Use Capture audio mode in file picker"
+msgstr ""
+
+#: $string['capture:photo']
+msgid "Use Capture photo mode in file picker"
+msgstr ""
+
+#: $string['capture:video']
+msgid "Use Capture video mode in file picker"
+msgstr ""
+
+#: $string['capture:view']
+msgid "Use Capture in file picker"
+msgstr ""
+
+#: $string['configplugin']
+msgid "Configuration for Capture plugin"
+msgstr ""
+
+#: $string['default_filename']
+msgid "Recording"
+msgstr ""
+
+#: $string['download']
+msgid "Download"
+msgstr ""
+
+#: $string['err_no_hardware']
+msgid ""
+"Camera or microphone is missing. Please connect your device and refresh the "
+"page (depending on your browser, you may need to restart your browser)"
+msgstr ""
+
+#: $string['err_record_ffmpeg_exec']
+msgid ""
+"Execution of the ffmpeg path failed. Please check the path and try again."
+msgstr ""
+
+#: $string['err_record_file_not_exists']
+msgid ""
+"The recording does not exist. There is probably a problem with the server "
+"configuration. Verify that the temp folder is writable and that FFMPEG is "
+"properly installed."
+msgstr ""
+
+#: $string['err_record_fps_range']
+msgid "Value must be between 10 - 60"
+msgstr ""
+
+#: $string['err_record_quality_range']
+msgid "Value must be between 20 - 100"
+msgstr ""
+
+#: $string['head_index']
+msgctxt "$string['head_index']"
+msgid "Capture"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Capture"
+msgstr ""
+
+#: $string['pluginname_help']
+msgid ""
+"Record an audio or video directly in Moodle and upload it into the Moodle "
+"file system."
+msgstr ""
+
+#: $string['radio_no']
+msgid "No"
+msgstr ""
+
+#: $string['radio_yes']
+msgid "Yes"
+msgstr ""
+
+#: $string['record_audio']
+msgid "Allow audio recording"
+msgstr ""
+
+#: $string['record_audio_help']
+msgid ""
+"Select yes if you want to allow users to record audio with their microphone"
+msgstr ""
+
+#: $string['record_ffmpeg']
+msgid "FFMPEG exec path"
+msgstr ""
+
+#: $string['record_ffmpeg_help']
+msgid ""
+"The path to ffmpeg (or avconv depending on your system). Generally "
+"<b>ffmpeg</b> is enough but on some servers, you need to specify the full "
+"path like <b>\"C:\\Program Files\\ffmpeg\\bin\\ffmpeg.exe\"</b> (quotes are "
+"important if there are spaces in the path)"
+msgstr ""
+
+#: $string['record_fps']
+msgid "The framerate"
+msgstr ""
+
+#: $string['record_fps_help']
+msgid ""
+"Set the framerate in frames per second. <b>Default = 15</b>.<br>\n"
+"<b>Note</b>: The more frames per seconds,the bigger the video size and the "
+"rendering becomes slower. Max FPS 60"
+msgstr ""
+
+#: $string['record_photo']
+msgid "Allow taking pictures from the webcam"
+msgstr ""
+
+#: $string['record_photo_help']
+msgid "Select yes if you want to allow users to take a picture from the webcam"
+msgstr ""
+
+#: $string['record_quality']
+msgid "Record Quality (in %)"
+msgstr ""
+
+#: $string['record_quality_help']
+msgid ""
+"Default 70%. 100% for best quality.<br>\n"
+"<b>Note</b>: The higher the quality, the more time it will take to encode "
+"the video"
+msgstr ""
+
+#: $string['record_video']
+msgid "Allow video recording"
+msgstr ""
+
+#: $string['record_video_help']
+msgid ""
+"Select yes if you want to allow users to record video with the webcam and "
+"microphone"
+msgstr ""
+
+#: $string['saveas']
+msgid "File name:"
+msgstr ""
+
+#: $string['setauthor']
+msgid "Author:"
+msgstr ""
+
+#: $string['setlicense']
+msgid "Choose license:"
+msgstr ""
+
+#: $string['title_audio']
+msgid "Audio"
+msgstr ""
+
+#: $string['title_audio_help']
+msgid "Click on Record an audio to use your microphone to add a new mp3 file"
+msgstr ""
+
+#: $string['title_info']
+msgid "Information"
+msgstr ""
+
+#: $string['title_info_help']
+msgid "Complete the following information in order to save the file"
+msgstr ""
+
+#: $string['title_photo']
+msgid "Photo"
+msgstr ""
+
+#: $string['title_photo_help']
+msgid ""
+"Choose your picture size and click on \"Take a picture\" to use your webcam to "
+"add a new jpg file"
+msgstr ""
+
+#: $string['title_video']
+msgid "Video"
+msgstr ""
+
+#: $string['title_video_help']
+msgid ""
+"Choose your video size and click on Record video to use your webcam and "
+"microphone to add a new mp4 file"
+msgstr ""
+
+#: $string['video_conversion_processing']
+msgid "Processing..."
+msgstr ""
+
+#: $string['video_height']
+msgid "- Height:"
+msgstr ""
+
+#: $string['video_width']
+msgid "Width:"
+msgstr ""

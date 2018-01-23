@@ -1,0 +1,373 @@
+#. extracted from lang/en/auth_antihammer.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'auth_antihammer', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   auth_antihammer
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['action:confirm-delete-hammer']
+msgctxt "$string['action:confirm-delete-hammer']"
+msgid "Delete hammering item"
+msgstr ""
+
+#: $string['action:confirm-delete-log']
+msgctxt "$string['action:confirm-delete-log']"
+msgid "Delete log item"
+msgstr ""
+
+#: $string['action:delete:hammeritem']
+msgctxt "$string['action:delete:hammeritem']"
+msgid "Delete hammering item"
+msgstr ""
+
+#: $string['action:delete:logitem']
+msgctxt "$string['action:delete:logitem']"
+msgid "Delete log item"
+msgstr ""
+
+#: $string['action:view:logitem']
+msgid "View log details"
+msgstr ""
+
+#: $string['addcfgipblock']
+msgid "Add blocked IP to site configuration"
+msgstr ""
+
+#: $string['addcfgipblock_desc']
+msgid ""
+"Check this option if you wish to add a blocked IP to the global list of <a "
+"href=\"{$a}\">blocked IP addresses</a>."
+msgstr ""
+
+#: $string['antihammer:administration']
+msgid "Administer auth antihammer"
+msgstr ""
+
+#: $string['antihammer:delete']
+msgid "Remove records"
+msgstr ""
+
+#: $string['ap:log']
+msgctxt "$string['ap:log']"
+msgid "Antihammer logs"
+msgstr ""
+
+#: $string['ap:logdetails']
+msgid "Antihammer log detail"
+msgstr ""
+
+#: $string['ap:report']
+msgctxt "$string['ap:report']"
+msgid "Antihammer reports"
+msgstr ""
+
+#: $string['attemptcounter']
+msgid "Attempts timespan"
+msgstr ""
+
+#: $string['attempts']
+msgctxt "$string['attempts']"
+msgid "Maximum number of attempts"
+msgstr ""
+
+#: $string['auth_antihammer']
+msgid "antihammer Anti-hammering / Login blocker"
+msgstr ""
+
+#: $string['auth_antihammerdescription']
+msgid ""
+"Users can not sign in. This auth module serves as a blocking system for "
+"login attempts"
+msgstr ""
+
+#: $string['auth_antihammer_ipblocksettings']
+msgid "Add IP blocking to site configuration?"
+msgstr ""
+
+#: $string['auth_antihammer_ipblocksettings_desc']
+msgid ""
+"WARNING! You almost never ever want to enable the option below.<br/>\n"
+"Chances are VERY real you will exclude yourself on this site, especially if "
+"you run a network where a lot of people share the same main IP address.<br/>\n"
+"If, for ANY reason, you really want to enable this option, make sure there's "
+"at least one IP address specifically allowed, and enable the global option\n"
+"to allow the allow list to be processed BEFORE the blocking list. Failing to "
+"do so can truly lock administrators out."
+msgstr ""
+
+#: $string['auth_antihammer_ipsettings']
+msgid "IP blocking settings"
+msgstr ""
+
+#: $string['auth_antihammer_ipsettings_desc']
+msgctxt "$string['auth_antihammer_ipsettings_desc']"
+msgid ""
+msgstr ""
+
+#: $string['auth_antihammer_messagesettings']
+msgid "Messaging / notification settings"
+msgstr ""
+
+#: $string['auth_antihammer_messagesettings_desc']
+msgctxt "$string['auth_antihammer_messagesettings_desc']"
+msgid ""
+msgstr ""
+
+#: $string['auth_antihammer_miscsettings']
+msgid "Miscelaneous settings"
+msgstr ""
+
+#: $string['auth_antihammer_miscsettings_desc']
+msgctxt "$string['auth_antihammer_miscsettings_desc']"
+msgid ""
+msgstr ""
+
+#: $string['auth_antihammer_usersettings']
+msgid "User blocking settings"
+msgstr ""
+
+#: $string['auth_antihammer_usersettings_desc']
+msgctxt "$string['auth_antihammer_usersettings_desc']"
+msgid ""
+msgstr ""
+
+#: $string['autocleanlog']
+msgid "Automatically clean logs?"
+msgstr ""
+
+#: $string['autocleanlog_after']
+msgid "Automatically clear logs older than"
+msgstr ""
+
+#: $string['autoclear_ipblock']
+msgid "Autoclear blocked IPs?"
+msgstr ""
+
+#: $string['autoclear_ipblock_after']
+msgid "Autoclear IP block after"
+msgstr ""
+
+#: $string['autoclear_userblock']
+msgid "Autoclear blocked users?"
+msgstr ""
+
+#: $string['autoclear_userblock_after']
+msgid "Autoclear blocked users after"
+msgstr ""
+
+#: $string['blockip']
+msgid "Block by IP addresses?"
+msgstr ""
+
+#: $string['blockpage']
+msgid "Page to display when someone is blocked"
+msgstr ""
+
+#: $string['blockusername']
+msgid "Block by username?"
+msgstr ""
+
+#: $string['config:autocleanlog:disabled']
+msgid ""
+"Automatic cleaning of antihammer logs is disabled in the global "
+"configuration"
+msgstr ""
+
+#: $string['err:blocked:ip']
+msgid "Hammering detected: IP address = {$a->ip} (IP is blocked)"
+msgstr ""
+
+#: $string['err:blocked:user']
+msgid ""
+"Hammering detected: Username= {$a->username} IP address = {$a->ip} (IP "
+"and/or username is blocked)"
+msgstr ""
+
+#: $string['err:sqltable:set_sql']
+msgid ""
+"set_sql() is disabled. This table defines it's own and is not customomizable"
+msgstr ""
+
+#: $string['ip_attemptcounter']
+msgid "IP attempts timespan"
+msgstr ""
+
+#: $string['ip_attempts']
+msgctxt "$string['ip_attempts']"
+msgid "Maximum number of attempts"
+msgstr ""
+
+#: $string['log:info:blocked']
+msgid "Blocked: {$a}"
+msgstr ""
+
+#: $string['mail:blocking:message']
+msgid ""
+"<p>Dear {$a->firstname} {$a->lastname}</p>\n"
+"<p>A block has been set as a result of too many login attempts</p>\n"
+"<p>The block is made active for IP address {$a->ip}, username "
+"{$a->username}</p>\n"
+"<p>Kind regards,<br/>Support system</p>"
+msgstr ""
+
+#: $string['mail:blocking:subject']
+msgid "Login Anti-hammering: user or IP address blocked"
+msgstr ""
+
+#: $string['messageprovider:antihammerblocking']
+msgid "Notification of IP/account blocking"
+msgstr ""
+
+#: $string['notifymainadmin']
+msgid "Always notify main administrator?"
+msgstr "Να ενημέρωνεται πάντα ο κύριος διαχειριστής"
+
+#: $string['notifymainadmin_desc']
+msgid ""
+"Check this option if you always want to notify the main Moodle administrator "
+"by e-mail.<br/>\n"
+"NOTE: The main administrator <i>might</i> receive two notifications if the "
+"above option is enabled and they also have\n"
+"the option to receive messages through email enabled!"
+msgstr ""
+"Ενεργοποιήστε αυτή την επιλογή αν θέλετε πάντα να ενημέρωνεται ο κύριος "
+"διαχειριστής του Moodle μέσω ηλεκτρονικού ταχυσδρομείου.<br/>\n"
+"ΣΗΜΕΙΩΣΗ: Ο κύριος διαχειριστής <i> ενδέχεται </i> να λάβει δύο ειδοποιήσεις "
+"αν η παραπάνω επιλογή είναι ενεργοποιημένη και έχουν επίσης ενεργοποιημένη "
+"την επιλογή λήψης μηνυμάτων μέσω ηλεκτρονικού ταχυδρομείου !"
+
+#: $string['pluginname']
+msgid "Anti-hammering / Login blocker"
+msgstr ""
+
+#: $string['promo']
+msgid "Anti-hammering / loginblocker authentication plugin for Moodle"
+msgstr ""
+
+#: $string['promodesc']
+msgid ""
+"This plugin is written by Sebsoft Managed Hosting & Software Development\n"
+"    (<a href='http://www.sebsoft.nl/' "
+"target='_new'>http://sebsoft.nl</a>).<br /><br />\n"
+"    {$a}<br /><br />"
+msgstr ""
+
+#: $string['str:blocked:page']
+msgid "Your account and/or IP address has been blocked."
+msgstr ""
+
+#: $string['task:logcleaner']
+msgid "Antihammer log cleaner"
+msgstr ""
+
+#: $string['thead:action']
+msgid "action"
+msgstr ""
+
+#: $string['thead:blocked']
+msgid "blocked"
+msgstr ""
+
+#: $string['thead:blocktime']
+msgid "time blockage"
+msgstr ""
+
+#: $string['thead:code']
+msgid "code"
+msgstr ""
+
+#: $string['thead:count']
+msgid "detection count"
+msgstr ""
+
+#: $string['thead:datecreated']
+msgid "date created"
+msgstr ""
+
+#: $string['thead:firstattempt']
+msgid "first attempt"
+msgstr ""
+
+#: $string['thead:ip']
+msgid "IP"
+msgstr ""
+
+#: $string['thead:module']
+msgid "module"
+msgstr ""
+
+#: $string['thead:msg']
+msgid "message"
+msgstr "μήνυμα"
+
+#: $string['thead:type']
+msgid "type"
+msgstr ""
+
+#: $string['thead:userid']
+msgid "userid"
+msgstr ""
+
+#: $string['thead:username']
+msgid "username"
+msgstr ""
+
+#: $string['title:report:hammer']
+msgctxt "$string['title:report:hammer']"
+msgid "Antihammer reports"
+msgstr ""
+
+#: $string['title:report:logs']
+msgctxt "$string['title:report:logs']"
+msgid "Antihammer logs"
+msgstr ""
+
+#: $string['type:info']
+msgid "Information"
+msgstr ""
+
+#: $string['type:ip']
+msgid "IP block"
+msgstr ""
+
+#: $string['type:user']
+msgid "User block"
+msgstr ""
+
+#: $string['usemessaging']
+msgid "use messaging API?"
+msgstr ""
+
+#: $string['usemessaging_desc']
+msgid ""
+"Check this option if you want the messaging API to be used to inform "
+"applicable recipients"
+msgstr ""

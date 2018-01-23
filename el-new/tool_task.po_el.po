@@ -1,0 +1,207 @@
+#. extracted from lang/en/tool_task.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'tool_task', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   tool_task
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['asap']
+msgid "ASAP"
+msgstr ""
+
+#: $string['backtoscheduledtasks']
+msgid "Back to scheduled tasks"
+msgstr ""
+
+#: $string['blocking']
+msgid "Blocking"
+msgstr ""
+
+#: $string['component']
+msgid "Component"
+msgstr "Συστατικό"
+
+#: $string['corecomponent']
+msgid "Core"
+msgstr ""
+
+#: $string['default']
+msgid "Default"
+msgstr ""
+
+#: $string['disabled']
+msgid "Disabled"
+msgstr ""
+
+#: $string['disabled_help']
+msgid ""
+"Disabled scheduled tasks are not executed from cron, however they can still "
+"be executed manually via the CLI tool."
+msgstr ""
+
+#: $string['edittaskschedule']
+msgid "Edit task schedule: {$a}"
+msgstr ""
+
+#: $string['enablerunnow']
+msgid "Allow 'Run now' for scheduled tasks"
+msgstr ""
+
+#: $string['enablerunnow_desc']
+msgid ""
+"Allows administrators to run a single scheduled task immediately, rather "
+"than waiting for it to run as scheduled. The task runs on the web server, so "
+"some sites may wish to disable this feature to avoid potential performance "
+"issues."
+msgstr ""
+
+#: $string['faildelay']
+msgid "Fail delay"
+msgstr ""
+
+#: $string['lastruntime']
+msgid "Last run"
+msgstr ""
+
+#: $string['nextruntime']
+msgid "Next run"
+msgstr ""
+
+#: $string['plugindisabled']
+msgid "Plugin disabled"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Scheduled task configuration"
+msgstr ""
+
+#: $string['resettasktodefaults']
+msgid "Reset task schedule to defaults"
+msgstr ""
+
+#: $string['resettasktodefaults_help']
+msgid ""
+"This will discard any local changes and revert the schedule for this task "
+"back to its original settings."
+msgstr ""
+
+#: $string['runnow']
+msgid "Run now"
+msgstr ""
+
+#: $string['runnow_confirm']
+msgid ""
+"Are you sure you want to run this task '{$a}' now? The task will run on the "
+"web server and may take some time to complete."
+msgstr ""
+
+#: $string['runpattern']
+msgid "Run pattern"
+msgstr ""
+
+#: $string['scheduledtaskchangesdisabled']
+msgid ""
+"Modifications to the list of scheduled tasks have been prevented in Moodle "
+"configuration"
+msgstr ""
+
+#: $string['scheduledtasks']
+msgid "Scheduled tasks"
+msgstr ""
+
+#: $string['taskdisabled']
+msgid "Task disabled"
+msgstr ""
+
+#: $string['taskscheduleday']
+msgid "Day"
+msgstr ""
+
+#: $string['taskscheduleday_help']
+msgid ""
+"Day of month field for task schedule. The field uses the same format as unix "
+"cron. Some examples are:<br/><ul><li><strong>*</strong> Every "
+"day</li><li><strong>*/2</strong> Every 2nd day</li><li><strong>1</strong> "
+"The first of every month</li><li><strong>1,15</strong> The first and "
+"fifteenth of every month</li></ul>"
+msgstr ""
+
+#: $string['taskscheduledayofweek']
+msgid "Day of week"
+msgstr ""
+
+#: $string['taskscheduledayofweek_help']
+msgid ""
+"Day of week field for task schedule. The field uses the same format as unix "
+"cron. Some examples are:<br/><ul><li><strong>*</strong> Every "
+"day</li><li><strong>0</strong> Every Sunday</li><li><strong>6</strong> Every "
+"Saturday</li><li><strong>1,5</strong> Every Monday and Friday</li></ul>"
+msgstr ""
+
+#: $string['taskschedulehour']
+msgid "Hour"
+msgstr ""
+
+#: $string['taskschedulehour_help']
+msgid ""
+"Hour field for task schedule. The field uses the same format as unix cron. "
+"Some examples are:<br/><ul><li><strong>*</strong> Every "
+"hour</li><li><strong>*/2</strong> Every 2 "
+"hours</li><li><strong>2-10</strong> Every hour from 2am until 10am "
+"(inclusive)</li><li><strong>2,6,9</strong> 2am, 6am and 9am</li></ul>"
+msgstr ""
+
+#: $string['taskscheduleminute']
+msgid "Minute"
+msgstr ""
+
+#: $string['taskscheduleminute_help']
+msgid ""
+"Minute field for task schedule. The field uses the same format as unix cron. "
+"Some examples are:<br/><ul><li><strong>*</strong> Every "
+"minute</li><li><strong>*/5</strong> Every 5 "
+"minutes</li><li><strong>2-10</strong> Every minute between 2 and 10 past the "
+"hour (inclusive)</li><li><strong>2,6,9</strong> 2 6 and 9 minutes past the "
+"hour</li></ul>"
+msgstr ""
+
+#: $string['taskschedulemonth']
+msgid "Month"
+msgstr ""
+
+#: $string['taskschedulemonth_help']
+msgid ""
+"Month field for task schedule. The field uses the same format as unix cron. "
+"Some examples are:<br/><ul><li><strong>*</strong> Every "
+"month</li><li><strong>*/2</strong> Every second "
+"month</li><li><strong>1</strong> Every January</li><li><strong>1,5</strong> "
+"Every January and May</li></ul>"
+msgstr ""

@@ -1,0 +1,220 @@
+#. extracted from lang/en/webex.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'webex', language 'en', branch 'MOODLE_24_STABLE'
+#.  *
+#.  * @package   webex
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['chat:addinstance']
+msgid "Add a new WebEX meeting"
+msgstr ""
+
+#: $string['chooseavariable']
+msgid "Choose a variable..."
+msgstr ""
+
+#: $string['clicktoopen']
+msgid "Click {$a} here to go the meeting."
+msgstr ""
+
+#: $string['configdisplayoptions']
+msgid ""
+"Select all options that should be available, existing settings are not "
+"modified. Hold CTRL key to select multiple fields."
+msgstr ""
+
+#: $string['configframesize']
+msgid ""
+"When a web page or an uploaded file is displayed within a frame, this value "
+"is the height (in pixels) of the top frame (which contains the navigation)."
+msgstr ""
+
+#: $string['configrolesinparams']
+msgid ""
+"Enable if you want to include localized role names in list of available "
+"parameter variables."
+msgstr ""
+
+#: $string['configsecretphrase']
+msgid ""
+"This secret phrase is used to produce encrypted code value that can be sent "
+"to some servers as a parameter.  The encrypted code is produced by an md5 "
+"value of the current user IP address concatenated with your secret phrase. "
+"ie code = md5(IP.secretphrase). Please note that this is not reliable "
+"because IP address may change and is often shared by different computers."
+msgstr ""
+
+#: $string['contentheader']
+msgid "Content"
+msgstr ""
+
+#: $string['displayoptions']
+msgid "Available display options"
+msgstr ""
+
+#: $string['displayselect']
+msgid "Display"
+msgstr ""
+
+#: $string['displayselectexplain']
+msgid ""
+"Choose display type, unfortunately not all types are suitable for all "
+"WebExs."
+msgstr ""
+
+#: $string['displayselect_help']
+msgid ""
+"This setting determines how the WebEx is displayed. Options may include:\n"
+"\n"
+"* Open - Only the WebEx is displayed in the browser window\n"
+"* In pop-up - The WebEx is displayed in a new browser window without menus "
+"or an address bar\n"
+"* In frame - The WebEx is displayed within a frame below the the navigation "
+"bar and WebEx description\n"
+"* New window - The WebEx is displayed in a new browser window with menus and "
+"an address bar"
+msgstr ""
+
+#: $string['externalurl']
+msgid "Your site"
+msgstr ""
+
+#: $string['framesize']
+msgid "Frame height"
+msgstr ""
+
+#: $string['invalidstoredwebex']
+msgid "Cannot display this resource, WebEx is invalid."
+msgstr ""
+
+#: $string['invalidwebex']
+msgid "Entered WebEx is invalid"
+msgstr ""
+
+#: $string['mettingkey']
+msgid "Session Number"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "WebEx"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "WebExs"
+msgstr ""
+
+#: $string['neverseen']
+msgid "Never seen"
+msgstr ""
+
+#: $string['optionsheader']
+msgid "Options"
+msgstr ""
+
+#: $string['page-mod-webex-x']
+msgid "Any WebEx module page"
+msgstr ""
+
+#: $string['parameterinfo']
+msgid "&amp;parameter=variable"
+msgstr ""
+
+#: $string['parametersheader']
+msgid "Session Information"
+msgstr ""
+
+#: $string['parametersheader_help']
+msgid ""
+"Type the session number and the password for this session into each text "
+"box(es)."
+msgstr ""
+
+#: $string['password']
+msgid "Password"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "WebEx module administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "WebEx"
+msgstr ""
+
+#: $string['popupheight']
+msgid "Popup height (in pixels)"
+msgstr ""
+
+#: $string['popupheightexplain']
+msgid "Specifies default height of popup windows."
+msgstr ""
+
+#: $string['popupwidth']
+msgid "Popup width (in pixels)"
+msgstr ""
+
+#: $string['popupwidthexplain']
+msgid "Specifies default width of popup windows."
+msgstr ""
+
+#: $string['printheading']
+msgid "Display WebEx name"
+msgstr ""
+
+#: $string['printheadingexplain']
+msgid ""
+"Display WebEx name above content? Some display types may not display WebEx "
+"name even if enabled."
+msgstr ""
+
+#: $string['printintro']
+msgid "Display WebEx description"
+msgstr ""
+
+#: $string['printintroexplain']
+msgid ""
+"Display WebEx description bellow content? Some display types may not display "
+"description even if enabled."
+msgstr ""
+
+#: $string['rolesinparams']
+msgid "Include role names in parameters"
+msgstr ""
+
+#: $string['serverwebex']
+msgid "Server WebEx"
+msgstr ""
+
+#: $string['webex:view']
+msgid "View WebEx"
+msgstr ""

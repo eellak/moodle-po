@@ -1,0 +1,326 @@
+#. extracted from lang/en/analytics.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'analytics', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   analytics
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['analysablenotused']
+msgid "Analysable {$a->analysableid} not used: {$a->errors}"
+msgstr ""
+
+#: $string['analysablenotvalidfortarget']
+msgid ""
+"Analysable {$a->analysableid} is not valid for this target: {$a->result}"
+msgstr ""
+
+#: $string['analysisinprogress']
+msgid "Still being analysed by a previous execution"
+msgstr ""
+
+#: $string['analytics']
+msgid "Analytics"
+msgstr ""
+
+#: $string['analyticslogstore']
+msgid "Log store used for analytics"
+msgstr ""
+
+#: $string['analyticslogstore_help']
+msgid ""
+"The log store that will be used by the analytics API to read users' activity"
+msgstr ""
+
+#: $string['analyticssettings']
+msgid "Analytics settings"
+msgstr ""
+
+#: $string['coursetoolong']
+msgid "The course is too long"
+msgstr ""
+
+#: $string['disabledmodel']
+msgid "Disabled model"
+msgstr ""
+
+#: $string['enabledtimesplittings']
+msgid "Time splitting methods"
+msgstr ""
+
+#: $string['erroralreadypredict']
+msgid "File {$a} has already been used to generate predictions."
+msgstr ""
+
+#: $string['errorcannotreaddataset']
+msgid "Dataset file {$a} can not be read"
+msgstr ""
+
+#: $string['errorcannotwritedataset']
+msgid "Dataset file {$a} cannot be written"
+msgstr ""
+
+#: $string['errorendbeforestart']
+msgid "The end date ({$a}) is before the course start date."
+msgstr ""
+
+#: $string['errorinvalidindicator']
+msgid "Invalid {$a} indicator"
+msgstr ""
+
+#: $string['errorinvalidtimesplitting']
+msgid ""
+"Invalid time splitting; please ensure you add the class fully qualified "
+"class name."
+msgstr ""
+
+#: $string['errornoindicators']
+msgid "This model does not have any indicators."
+msgstr ""
+
+#: $string['errornopredictresults']
+msgid ""
+"No results returned from the predictions processor. Check the output "
+"directory contents for more information."
+msgstr ""
+
+#: $string['errornoroles']
+msgid ""
+"Student or teacher roles have not been defined. Define them in the analytics "
+"settings page."
+msgstr ""
+
+#: $string['errornotarget']
+msgid "This model does not have any target."
+msgstr ""
+
+#: $string['errornotimesplittings']
+msgid "This model does not have any time-splitting method."
+msgstr ""
+
+#: $string['errorpredictioncontextnotavailable']
+msgid "This prediction context is not available anymore."
+msgstr ""
+
+#: $string['errorpredictionformat']
+msgid "Wrong prediction calculations format"
+msgstr ""
+
+#: $string['errorpredictionnotfound']
+msgid "Prediction not found"
+msgstr ""
+
+#: $string['errorpredictionsprocessor']
+msgid "Predictions processor error: {$a}"
+msgstr ""
+
+#: $string['errorpredictwrongformat']
+msgid "The predictions processor return cannot be decoded: \"{$a}\""
+msgstr ""
+
+#: $string['errorprocessornotready']
+msgid "The selected predictions processor is not ready: {$a}"
+msgstr ""
+
+#: $string['errorsamplenotavailable']
+msgid "The predicted sample is not available anymore"
+msgstr ""
+
+#: $string['errorunexistingmodel']
+msgid "Non-existing model {$a}"
+msgstr ""
+
+#: $string['errorunexistingtimesplitting']
+msgid "The selected time-splitting method is not available."
+msgstr ""
+
+#: $string['errorunknownaction']
+msgid "Unknown action"
+msgstr ""
+
+#: $string['eventinsightsviewed']
+msgid "Insights viewed"
+msgstr ""
+
+#: $string['eventpredictionactionstarted']
+msgid "Prediction process started"
+msgstr ""
+
+#: $string['fixedack']
+msgid "Acknowledged"
+msgstr ""
+
+#: $string['insightinfomessage']
+msgid "The system generated some insights for you: {$a}"
+msgstr ""
+
+#: $string['insightinfomessagehtml']
+msgid "The system generated some insights for you: <a href=\"{$a}\">{$a}</a>."
+msgstr ""
+
+#: $string['insightmessagesubject']
+msgid "New insight for \"{$a->contextname}\": {$a->insightname}"
+msgstr ""
+
+#: $string['invalidanalysablefortimesplitting']
+msgid "It cannot be analysed using {$a} time-splitting method."
+msgstr ""
+
+#: $string['invalidtimesplitting']
+msgid ""
+"Model with ID {$a} needs a time-splitting method before it can be used to "
+"train."
+msgstr ""
+
+#: $string['modeloutputdir']
+msgid "Models output directory"
+msgstr ""
+
+#: $string['modeloutputdirinfo']
+msgid ""
+"Directory where prediction processors store all evaluation info. Useful for "
+"debugging and research."
+msgstr ""
+
+#: $string['modeltimelimit']
+msgid "Analysis time limit per model"
+msgstr ""
+
+#: $string['modeltimelimitinfo']
+msgid ""
+"This setting limits the time each model spends analysing the site contents."
+msgstr ""
+
+#: $string['nocourses']
+msgid "No courses to analyse"
+msgstr ""
+
+#: $string['nodata']
+msgid "No data to analyse"
+msgstr ""
+
+#: $string['noevaluationbasedassumptions']
+msgid "Models based on assumptions cannot be evaluated."
+msgstr ""
+
+#: $string['noinsights']
+msgid "No insights reported"
+msgstr ""
+
+#: $string['noinsightsmodel']
+msgid "This model does not generate insights"
+msgstr ""
+
+#: $string['nonewdata']
+msgid "No new data available"
+msgstr ""
+
+#: $string['nonewranges']
+msgid "No new predictions yet"
+msgstr ""
+
+#: $string['nonewtimeranges']
+msgid "No new time ranges; nothing to predict."
+msgstr ""
+
+#: $string['nopredictionsyet']
+msgid "No predictions available yet"
+msgstr ""
+
+#: $string['noranges']
+msgid "No predictions yet"
+msgstr ""
+
+#: $string['notrainingbasedassumptions']
+msgid "Models based on assumptions do not need training"
+msgstr ""
+
+#: $string['notuseful']
+msgid "Not useful"
+msgstr ""
+
+#: $string['novaliddata']
+msgid "No valid data available"
+msgstr ""
+
+#: $string['novalidsamples']
+msgid "No valid samples available"
+msgstr ""
+
+#: $string['onlycli']
+msgid "Analytics processes execution via command line only"
+msgstr ""
+
+#: $string['onlycliinfo']
+msgid ""
+"Analytics processes like evaluating models, training machine learning "
+"algorithms or getting predictions can take some time, they will run as cron "
+"tasks and they can be forced via command line. Disable this setting if you "
+"want your site managers to be able to run these processes manually via web "
+"interface"
+msgstr ""
+
+#: $string['predictionsprocessor']
+msgid "Predictions processor"
+msgstr ""
+
+#: $string['predictionsprocessor_help']
+msgid ""
+"A predictions processor is the machine-learning backend that processes the "
+"datasets generated by calculating models' indicators and targets. All "
+"trained algorithms and predictions will be deleted if you change to another "
+"predictions processor."
+msgstr ""
+
+#: $string['processingsitecontents']
+msgid "Processing site contents"
+msgstr ""
+
+#: $string['successfullyanalysed']
+msgid "Successfully analysed"
+msgstr ""
+
+#: $string['timesplittingmethod']
+msgid "Time-splitting method"
+msgstr ""
+
+#: $string['timesplittingmethod_help']
+msgid ""
+"The time-splitting method divides the course duration into parts; the "
+"predictions engine will run at the end of these parts. It is recommended "
+"that you only enable the time-splitting methods you may be interested in "
+"using. The evaluation process will iterate through all enabled time-spitting "
+"methods, so the more time-splitting methods enabled, the slower the "
+"evaluation process will be."
+msgstr ""
+
+#: $string['viewprediction']
+msgid "View prediction details"
+msgstr ""

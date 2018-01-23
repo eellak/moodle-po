@@ -1,0 +1,143 @@
+#. extracted from lang/en/editor_atto.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'editor_atto', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   editor_atto
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['autosavefailed']
+msgid ""
+"Could not connect to the server. If you submit this page now, your changes "
+"may be lost."
+msgstr ""
+
+#: $string['autosavefrequency']
+msgid "Autosave frequency"
+msgstr ""
+
+#: $string['autosavefrequency_desc']
+msgid ""
+"This is the number of seconds between auto save attempts. Atto will "
+"automatically save the text in the editor according to this setting, so that "
+"text can be automatically restored when the same user returns to the same "
+"form."
+msgstr ""
+
+#: $string['autosavesucceeded']
+msgid "Draft saved."
+msgstr ""
+
+#: $string['editor_command_keycode']
+msgid "Cmd + {$a}"
+msgstr ""
+
+#: $string['editor_control_keycode']
+msgid "Ctrl + {$a}"
+msgstr ""
+
+#: $string['errorcannotparseline']
+msgid "The line '{$a}' is not in the correct format."
+msgstr ""
+
+#: $string['errorgroupisusedtwice']
+msgid "The group '{$a}' is defined twice; group names must be unique."
+msgstr ""
+
+#: $string['errornopluginsorgroupsfound']
+msgid "No plugins or groups found; please add some groups and plugins."
+msgstr ""
+
+#: $string['errorpluginisusedtwice']
+msgid "The plugin '{$a}' is used twice; plugins can only be defined once."
+msgstr ""
+
+#: $string['errorpluginnotfound']
+msgid "The plugin '{$a}' cannot be used; it does not appear to be installed."
+msgstr ""
+
+#: $string['errortextrecovery']
+msgid "Unfortunately the draft version could not be restored."
+msgstr ""
+
+#: $string['infostatus']
+msgid "Information"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Atto HTML editor"
+msgstr ""
+
+#: $string['plugin_title_shortcut']
+msgid "{$a->title} [{$a->shortcut}]"
+msgstr ""
+
+#: $string['recover']
+msgid "Recover"
+msgstr ""
+
+#: $string['settings']
+msgid "Atto toolbar settings"
+msgstr ""
+
+#: $string['subplugintype_atto']
+msgid "Atto plugin"
+msgstr ""
+
+#: $string['subplugintype_atto_plural']
+msgid "Atto plugins"
+msgstr ""
+
+#: $string['taskautosavecleanup']
+msgid "Delete expired autosave drafts from the database."
+msgstr ""
+
+#: $string['textrecovered']
+msgid "A draft version of this text was automatically restored."
+msgstr ""
+
+#: $string['toolbarconfig']
+msgid "Toolbar config"
+msgstr ""
+
+#: $string['toolbarconfig_desc']
+msgid ""
+"The list of plugins and the order they are displayed can be configured here. "
+"The configuration consists of groups (one per line) followed by the ordered "
+"list of plugins for that group. The group is separated from the plugins "
+"with an equals sign and the plugins are separated with commas. The group "
+"names must be unique and should indicate what the buttons have in common. "
+"Button and group names should not be repeated and may only contain "
+"alphanumeric characters."
+msgstr ""
+
+#: $string['warningstatus']
+msgid "Warning"
+msgstr ""

@@ -1,0 +1,194 @@
+#. extracted from lang/en/videofile.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'videofile', language 'en', branch 'MOODLE_27_STABLE'
+#.  *
+#.  * @package   videofile
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['captions']
+msgctxt "$string['captions']"
+msgid "Captions"
+msgstr ""
+
+#: $string['captions_help']
+msgid ""
+"Add transcriptions of the dialogue in WebVTT format here.\\n\\nYou can add "
+"several files in order to provide multilingual captions. The file names, "
+"without extensions, will be used for the video caption option titles. If the "
+"files are named according to ISO 6392 (e.g. eng.vtt and swe.vtt) the "
+"options will be shown as the corresponding full language names according to "
+"the user's language preferences (e.g. English and Swedish, assuming the "
+"user's preferred language is set to English)."
+msgstr ""
+
+#: $string['err_positive']
+msgid "You must enter a positive number here."
+msgstr ""
+
+#: $string['filearea_captions']
+msgctxt "$string['filearea_captions']"
+msgid "Captions"
+msgstr ""
+
+#: $string['filearea_posters']
+msgid "Posters"
+msgstr ""
+
+#: $string['filearea_videos']
+msgctxt "$string['filearea_videos']"
+msgid "Videos"
+msgstr ""
+
+#: $string['height']
+msgid "Height"
+msgstr ""
+
+#: $string['height_explain']
+msgid "Specifies the default height of the video player."
+msgstr ""
+
+#: $string['height_help']
+msgid ""
+"Enter the height of the video here (e.g. 500 for a height of 500 pixels)."
+msgstr ""
+
+#: $string['limitdimensions']
+msgid "Limit size in responsive mode?"
+msgstr ""
+
+#: $string['limitdimensions_explain']
+msgid ""
+"Specifies if width and height should be used as maximum size during "
+"responsive mode."
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Videofile"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"Use the videofile module for adding html5 videos with flash fallback (using "
+"video.js). This module also allows for multi-language captions."
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Videofiles"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Videofile administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Videofile"
+msgstr ""
+
+#: $string['posters']
+msgid "Poster Image"
+msgstr ""
+
+#: $string['posters_help']
+msgid ""
+"Add an image here that will be displayed before the video begins playing."
+msgstr ""
+
+#: $string['responsive']
+msgid "Responsive?"
+msgstr ""
+
+#: $string['responsive_explain']
+msgid "Specifies if responsive mode should be set as default or not."
+msgstr ""
+
+#: $string['responsive_help']
+msgid ""
+"Check to make the video automatically resize with the browser window "
+"size.\\n\\nUse the width and height fields to define the video proportions "
+"(e.g. 16/9 or 800/450)."
+msgstr ""
+
+#: $string['responsive_label']
+msgctxt "$string['responsive_label']"
+msgid ""
+msgstr ""
+
+#: $string['video_fieldset']
+msgid "Video"
+msgstr ""
+
+#: $string['videofile:addinstance']
+msgid "Add a new videofile"
+msgstr ""
+
+#: $string['videofile_defaults_heading']
+msgid "Default values for videofile settings"
+msgstr ""
+
+#: $string['videofile_defaults_text']
+msgid ""
+"The values you set here define the default values that are used in the "
+"videofile settings form when you create a new videofile."
+msgstr ""
+
+#: $string['videofile:view']
+msgid "View videofile"
+msgstr ""
+
+#: $string['video_not_playing']
+msgid "Video not playing? Try {$a}."
+msgstr ""
+
+#: $string['videos']
+msgctxt "$string['videos']"
+msgid "Videos"
+msgstr ""
+
+#: $string['videos_help']
+msgid ""
+"Add the video file here.\\n\\nYou can add alternative formats in order to be "
+"sure it can play regardless of which browser is being used (usually .mp4, "
+".ogv and .webm covers it.)"
+msgstr ""
+
+#: $string['width']
+msgid "Width"
+msgstr ""
+
+#: $string['width_explain']
+msgid "Specifies the default width of the video player."
+msgstr ""
+
+#: $string['width_help']
+msgid "Enter the width of the video here (e.g. 800 for a width of 800 pixels)."
+msgstr ""

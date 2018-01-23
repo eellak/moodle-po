@@ -1,0 +1,505 @@
+#. extracted from lang/en/plagiarism_unicheck.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'plagiarism_unicheck', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   plagiarism_unicheck
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['api_secret']
+msgid "API Secret"
+msgstr ""
+
+#: $string['api_secret_help']
+msgid ""
+"API Secret provided by Unicheck to access the API you can find it on <a href"
+"=\"https://unicheck.com/profile/apisettings\">https://unicheck.com/profile/api"
+"settings</a>"
+msgstr ""
+
+#: $string['attempts']
+msgid "Attempts made"
+msgstr ""
+
+#: $string['check_all_submitted_assignments']
+msgid "Check already submitted assignments"
+msgstr ""
+
+#: $string['check_all_submitted_assignments_help']
+msgid ""
+"Use this option to manually run a bulk check of all submitted assignments in "
+"current activity. Check will start in about 10 minutes after updating "
+"assignment settings."
+msgstr ""
+
+#: $string['check_confirm']
+msgid "Are you sure you want start checking by Unicheck plagiarism plugin?"
+msgstr ""
+
+#: $string['check_file']
+msgid "Start a scan"
+msgstr ""
+
+#: $string['check_start']
+msgid "Unicheck originality grading in progress"
+msgstr ""
+
+#: $string['check_type']
+msgid "Sources to check"
+msgstr ""
+
+#: $string['check_type_help']
+msgid ""
+"Internet source - billions of articles, pages, files available on Internet. "
+"This includes academic and scientific articles (open access), blog posts and "
+"news.\n"
+"Library source - institution's Unicheck database which includes recorded "
+"past student submissions except for 'drafts'.\n"
+msgstr ""
+
+#: $string['client_id']
+msgid "Client ID"
+msgstr ""
+
+#: $string['client_id_help']
+msgid ""
+"ID of Client provided by Unicheck to access the API you can find it on <a hr"
+"ef=\"https://unicheck.com/profile/apisettings\">https://unicheck.com/profile/a"
+"pisettings</a>"
+msgstr ""
+
+#: $string['cronwarning']
+msgid ""
+"The <a href=\"../../admin/cron.php\">cron.php</a> maintenance script has not "
+"been run for at least 30 min - Cron must be configured to allow Unicheck to "
+"function correctly."
+msgstr ""
+
+#: $string['defaultsdesc']
+msgid ""
+"Configure defaults for Assignment activity. Teachers can adjust settings in "
+"the individual assignments"
+msgstr ""
+
+#: $string['defaultupdated']
+msgid "Default values updated"
+msgstr ""
+
+#: $string['delete']
+msgid "Delete"
+msgstr ""
+
+#: $string['deletedwarning']
+msgid "This file could not be found - it may have been deleted by the user"
+msgstr ""
+
+#: $string['draft_submit']
+msgid "When should the file be submitted to Unicheck"
+msgstr ""
+
+#: $string['exclude_citations']
+msgid "Identify citations and references"
+msgstr ""
+
+#: $string['exclude_citations_help']
+msgid ""
+"Enable this option to filter properly cited material and a references block. "
+"Unicheck identifies citations according to rules described in APA, MLA, "
+"Chicago, Turabian, Harvard guides. Citations will be marked with blue color "
+"and references will be marked with violet color. Such items will be excluded "
+"from total similarity score."
+msgstr ""
+
+#: $string['exclude_self_plagiarism']
+msgid "Exclude self-plagiarism"
+msgstr ""
+
+#: $string['explainerrors']
+msgid ""
+"This page lists any files that are currently in an error state. <br/>When "
+"files are deleted on this page they will not be able to be resubmitted and "
+"errors will no longer display to teachers or students"
+msgstr ""
+
+#: $string['external_database']
+msgid "Doc vs External Database"
+msgstr ""
+
+#: $string['file']
+msgid "File"
+msgstr ""
+
+#: $string['filedeleted']
+msgid "File deleted from queue"
+msgstr ""
+
+#: $string['filereset']
+msgid "A file has been reset for re-submission to Unicheck"
+msgstr ""
+
+#: $string['fileresubmitted']
+msgid "File Queued for resubmission"
+msgstr ""
+
+#: $string['generalinfo']
+msgid "General information"
+msgstr ""
+
+#: $string['getscore']
+msgid "Get score"
+msgstr ""
+
+#: $string['heldevents']
+msgid "Held events"
+msgstr ""
+
+#: $string['heldeventsdescription']
+msgid ""
+"These are events that did not complete on the first attempt and were queued "
+"for resubmission - this prevents subsequent events from completing and may "
+"need further investigation. Some of these events may not be relevant to "
+"Unicheck."
+msgstr ""
+
+#: $string['id']
+msgid "ID"
+msgstr ""
+
+#: $string['identifier']
+msgid "Identifier"
+msgstr ""
+
+#: $string['max_100000_words']
+msgid ""
+"File(s) should have no more than 100 000 words and be not larger than 70MB"
+msgstr ""
+
+#: $string['max_supported_archive_files_count']
+msgid "Max supported archive files"
+msgstr ""
+
+#: $string['max_supported_archive_files_count_help']
+msgid ""
+"The maximum number of supported files that will be extracted from the "
+"archives"
+msgstr ""
+
+#: $string['min_30_words']
+msgid "At least 30 words are required"
+msgstr ""
+
+#: $string['module']
+msgid "Module"
+msgstr ""
+
+#: $string['my_library']
+msgid "Doc vs Library"
+msgstr ""
+
+#: $string['name']
+msgid "Name"
+msgstr ""
+
+#: $string['no_index_files']
+msgid "Draft assignment"
+msgstr ""
+
+#: $string['no_index_files_help']
+msgid ""
+"Use this option to mark an assignment as 'draft' if you create separate "
+"assignments for draft and final submissions.\n"
+"Drafts will not be saved in the institution's Unicheck database."
+msgstr ""
+
+#: $string['noreceiver']
+msgid "No receiver address was specified"
+msgstr ""
+
+#: $string['pending']
+msgid "This file is pending submission to Unicheck"
+msgstr ""
+
+#: $string['plagiarism']
+msgid "Potential plagiarism"
+msgstr ""
+
+#: $string['plagiarism_run_success']
+msgid "File sent for plagiarism scan"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Unicheck plagiarism plugin"
+msgstr ""
+
+#: $string['previouslysubmitted']
+msgid "Previously submitted as"
+msgstr ""
+
+#: $string['processing']
+msgid ""
+"This file has been submitted to Unicheck, now waiting for the analysis to be "
+"available"
+msgstr ""
+
+#: $string['progress']
+msgid "Unicheck scan"
+msgstr ""
+
+#: $string['receivernotvalid']
+msgid "This is not a valid receiver address."
+msgstr ""
+
+#: $string['refresh']
+msgid "Refresh page to see results"
+msgstr ""
+
+#: $string['report']
+msgid "View full report"
+msgstr ""
+
+#: $string['reportready']
+msgid "Report ready"
+msgstr ""
+
+#: $string['resubmit']
+msgid "Resubmit"
+msgstr ""
+
+#: $string['savedconfigfailed']
+msgid ""
+"An incorrect Client ID/API Secret combination has been entered. Unicheck has "
+"been disabled, please try again."
+msgstr ""
+
+#: $string['savedconfigsuccess']
+msgid "Plagiarism detection settings saved"
+msgstr ""
+
+#: $string['scoreavailable']
+msgid "This file has been processed by Unicheck and a report is now available."
+msgstr ""
+
+#: $string['scorenotavailableyet']
+msgid "This file has not been processed by Unicheck yet."
+msgstr ""
+
+#: $string['show_student_report']
+msgid "Show similarity reports to students"
+msgstr ""
+
+#: $string['show_student_report_help']
+msgid ""
+"Students only see similarity reports for their own submissions and do not "
+"see reports of other students."
+msgstr ""
+
+#: $string['show_student_score']
+msgid "Show similarity scores to students"
+msgstr ""
+
+#: $string['show_student_score_help']
+msgid ""
+"Students only see similarity scores for their own submissions and do not see "
+"scores of other students."
+msgstr ""
+
+#: $string['showwhenclosed']
+msgid "When Activity closed"
+msgstr ""
+
+#: $string['similarity']
+msgid "Similarity"
+msgstr ""
+
+#: $string['similarity_sensitivity']
+msgid "Hide sources with a match less than (%)"
+msgstr ""
+
+#: $string['similarity_sensitivity_help']
+msgid ""
+"Specify minimum total % match for a source. Such sources will not be shown "
+"in the list of sources and will be excluded from total similarity score."
+msgstr ""
+
+#: $string['similarity_words_sensitivity']
+msgid "Hide sources with a match less than (words)"
+msgstr ""
+
+#: $string['similarity_words_sensitivity_help']
+msgid ""
+"Specify minimum total word count match for a source. Such sources will not "
+"be shown in the list of sources and will be excluded from total similarity "
+"score."
+msgstr ""
+
+#: $string['status']
+msgid "Status"
+msgstr ""
+
+#: $string['studentdisclosure']
+msgid "Familiarize students with the Unicheck Privacy Policy"
+msgstr ""
+
+#: $string['studentdisclosuredefault']
+msgid ""
+"All  uploaded files will be submitted to the plagiarism detection system "
+"Unicheck."
+msgstr ""
+
+#: $string['studentdisclosure_help']
+msgid "This text will be displayed to all students on the file upload page."
+msgstr ""
+
+#: $string['studentemailcontent']
+msgid ""
+"The file you submitted to {$a->modulename} in {$a->coursename} has already "
+"been processed by the plagiarism detection system Unicheck\n"
+"{$a->modulelink}"
+msgstr ""
+
+#: $string['studentemailsubject']
+msgid "File processed by Unicheck"
+msgstr ""
+
+#: $string['submitondraft']
+msgid "Submit file when first uploaded"
+msgstr ""
+
+#: $string['submitonfinal']
+msgid "Submit file when student sends it for grading"
+msgstr ""
+
+#: $string['toolarge']
+msgid "This file is too large for Unicheck to process"
+msgstr ""
+
+#: $string['ufiles']
+msgid "Unicheck Files"
+msgstr ""
+
+#: $string['unicheck']
+msgctxt "$string['unicheck']"
+msgid "Unicheck plagiarism plugin"
+msgstr ""
+
+#: $string['unicheckdebug']
+msgid "Debugging"
+msgstr ""
+
+#: $string['unicheckdefaults']
+msgid "Unicheck defaults"
+msgstr ""
+
+#: $string['unicheck_enable']
+msgid "Enable Unicheck plugin"
+msgstr ""
+
+#: $string['unicheck:enable']
+msgid "Allow the teacher to enable/disable Unicheck inside an activity"
+msgstr ""
+
+#: $string['unicheck_enableplugin']
+msgid "Enable in {$a} activity"
+msgstr ""
+
+#: $string['unicheck_lang']
+msgid "Language"
+msgstr ""
+
+#: $string['unicheck_lang_help']
+msgid "Language code provided by Unicheck"
+msgstr ""
+
+#: $string['unicheck:resetfile']
+msgid ""
+"Allow the teacher to resubmit the file to Unicheck after an error occurred"
+msgstr ""
+
+#: $string['unicheck_settings_url_text']
+msgid "Open unicheck.com admin account to view/copy Client ID/API Secret"
+msgstr ""
+
+#: $string['unicheck:vieweditreport']
+msgid "Allow the teacher to view and edit the full report from Unicheck"
+msgstr ""
+
+#: $string['unicheck:viewreport']
+msgid "Allow the teacher to view the full report from Unicheck"
+msgstr ""
+
+#: $string['unknownwarning']
+msgid "An error occurred when trying to send this file to Unicheck"
+msgstr ""
+
+#: $string['unsupportedfiletype']
+msgid "This filetype is not supported by Unicheck"
+msgstr ""
+
+#: $string['uploading']
+msgid "Uploading"
+msgstr ""
+
+#: $string['use_assign_desc_param']
+msgid "To unlock Unicheck settings"
+msgstr ""
+
+#: $string['use_assign_desc_value']
+msgid "Set Submissions settings → Require students click submit button = Yes"
+msgstr ""
+
+#: $string['use_unicheck']
+msgid "Auto check new submissions"
+msgstr ""
+
+#: $string['use_unicheck_help']
+msgid ""
+"When enabled, student assignments will be checked in real-time, right after "
+"submission. Otherwise, you will need to either manually kick start check for "
+"selected submissions or use \"Check already submitted assignments\" option."
+msgstr ""
+
+#: $string['waitingevents']
+msgid ""
+"There are {$a->countallevents} events waiting for cron and {$a->countheld} "
+"events are being held for resubmission"
+msgstr ""
+
+#: $string['web']
+msgid "Doc vs Internet"
+msgstr ""
+
+#: $string['web_and_my_lib_and_external_db']
+msgid "Doc vs Internet + Library + DB"
+msgstr ""
+
+#: $string['web_and_my_library']
+msgid "Doc vs Internet + Library"
+msgstr ""

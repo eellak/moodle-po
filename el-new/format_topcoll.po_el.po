@@ -1,0 +1,1366 @@
+#. extracted from lang/en/format_topcoll.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'format_topcoll', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   format_topcoll
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addsection']
+#, fuzzy
+msgid "Add section"
+msgstr "Απόκρυψη ενότητας"
+
+#: $string['arrow']
+msgid "Arrow"
+msgstr "Βέλος"
+
+#: $string['bulb']
+msgid "Bulb"
+msgstr "Λάμπα"
+
+#: $string['center']
+msgid "Centre"
+msgstr "Κέντρο"
+
+#: $string['cloud']
+msgid "Cloud"
+msgstr "Σύννεφο"
+
+#: $string['colourrule']
+msgid "Please enter a valid RGB colour, six hexadecimal digits."
+msgstr "Παρακαλώ εισάγετε ένα έγκυρο RGB χρώμα, σε έξι δεκαεξαδικά ψηφία."
+
+#: $string['columnhorizontal']
+msgid "Horizontal"
+msgstr "Οριζόντια"
+
+#: $string['columnvertical']
+msgid "Vertical"
+msgstr "Κάθετα"
+
+#: $string['configurationheadingsub']
+msgid "Configuration"
+msgstr ""
+
+#: $string['configurationheadingsubdesc']
+msgid "Configuration settings"
+msgstr ""
+
+#: $string['ctreset']
+msgid "Collapsed Topics reset options"
+msgstr "Επιλογές επαναφοράς Συμπτυγμένων Θεμάτων"
+
+#: $string['ctreset_help']
+msgid "Reset to Collapsed Topics defaults."
+msgstr "Επαναφορά στις αρχικές ρυθμίσεις των Συμπτυγμένων Θεμάτων."
+
+#: $string['currentsection']
+msgid "This section"
+msgstr "Παρούσα ενότητα"
+
+#: $string['defaultcoursedisplay']
+msgid "Course display"
+msgstr "Προεπιλεγμένη εμφάνιση μαθήματος"
+
+#: $string['defaultcoursedisplay_desc']
+msgid ""
+"Either show all the sections on a single page or section zero and the chosen "
+"section on page."
+msgstr ""
+"Εμφάνιση όλων των ενοτήτων σε μία μόνο σελίδα ή την ενότητα μηδέν και τις "
+"επιλεγμένες ενότητες στη σελίδα."
+
+#: $string['defaultdisplayinstructions']
+msgid "Display instructions to users"
+msgstr "Εμφάνιση οδηγιών στον χρήστη"
+
+#: $string['defaultdisplayinstructions_desc']
+msgid ""
+"Display instructions to users informing them how to use the toggles.  Can be "
+"yes or no."
+msgstr ""
+"Εμφάνιση οδηγιών στους χρήστες ενημερώνοντας τους πώς μπορούν να "
+"χρησιμοποιήσουν τα κουμπιά εναλλαγής. Μπορεί να είναι ναι ή όχι."
+
+#: $string['defaultheadingsub']
+#, fuzzy
+msgid "Defaults"
+msgstr "Προεπιλογή"
+
+#: $string['defaultheadingsubdesc']
+msgid "Default settings"
+msgstr ""
+
+#: $string['defaultlayoutcolumnorientation']
+msgctxt "$string['defaultlayoutcolumnorientation']"
+msgid "Column orientation"
+msgstr "Προεπιλεγμένος προσανατολισμός στηλών"
+
+#: $string['defaultlayoutcolumnorientation_desc']
+msgid "The default column orientation: Vertical or Horizontal."
+msgstr "Ο προεπιλεγμένος προσανατολισμός στηλών: Κάθετα ή Οριζόντια."
+
+#: $string['defaultlayoutcolumns']
+msgid "Number of columns"
+msgstr "Προεπιλεγμένος αριθμός στηλών"
+
+#: $string['defaultlayoutcolumns_desc']
+msgid "Number of columns between one and four."
+msgstr "Αριθμός στηλών ανάμεσα σε μία και τέσσερις."
+
+#: $string['defaultlayoutelement']
+msgctxt "$string['defaultlayoutelement']"
+msgid "Layout"
+msgstr "Διάταξη"
+
+#: $string['defaultlayoutelement_desc']
+msgid ""
+"The layout setting can be one of:<br />'Default' with everything "
+"displayed.<br />No 'Topic x' / 'Week x' / 'Day x'.<br />No section "
+"number.<br />No 'Topic x' / 'Week x' / 'Day x' and no section number.<br "
+"/>No 'Toggle' word.<br />No 'Toggle' word and no 'Topic x' / 'Week x' / 'Day "
+"x'.<br />No 'Toggle' word, no 'Topic x' / 'Week x' / 'Day x' and no section "
+"number."
+msgstr ""
+"Η ρύθμιση διάταξης μπορεί να είναι:\n"
+"\n"
+"'Προεπιλεγμένη' όπου εμφανίζονται τα πάντα.\n"
+"\n"
+"Όχι 'Θέμα x' / 'Εβδομάδα x' / 'Μέρα x'.\n"
+"\n"
+"Όχι αριθμός ενότητας.\n"
+"\n"
+"Όχι 'Θέμα x' / 'Εβδομάδα x' / 'Μέρα x' και όχι αριθμό ενότητας.\n"
+"\n"
+"Όχι λέξη 'Εναλλαγή' .\n"
+"\n"
+"Όχι λέξη 'Εναλλαγή' και  όχι 'Θέμα x' / 'Εβδομάδα x' / 'Μέρα x'.\n"
+"\n"
+"Όχι λέξη 'Εναλλαγή' , όχι 'Θέμα x' / 'Εβδομάδα x' / 'Μέρα x' και όχι αριθμός "
+"ενότητας."
+
+#: $string['defaultlayoutelement_descpositive']
+msgid ""
+"The layout setting can be one of:<br />Toggle word, 'Topic x' / 'Week x' / "
+"'Day x' and section number.<br />Toggle word and 'Topic x' / 'Week x' / 'Day "
+"x'.<br />Toggle word and section number.<br />'Topic x' / 'Week x' / 'Day "
+"x' and section number.<br />Toggle word.<br />'Topic x' / 'Week x' / 'Day "
+"x'.<br />Section number.<br />No additions."
+msgstr ""
+"Η ρύθμιση διάταξης μπορεί να είναι:\n"
+"\n"
+"Λέξη εναλλαγής, 'Θέμα x' / 'Εβδομάδα x' / 'Μέρα x' και αριθμός ενότητας.\n"
+"\n"
+"Λέξη εναλλαγής και 'Θέμα x' / 'Εβδομάδα x' / 'Μέρα x'.\n"
+"\n"
+"Λέξη εναλλαγής και αριθμός ενότητας.\n"
+"\n"
+"'Θέμα x' / 'Εβδομάδα x' / 'Μέρα x' και αριθμός ενότητας.\n"
+"\n"
+"Λέξη εναλλαγής.\n"
+"\n"
+"'Θέμα x' / 'Εβδομάδα x' / 'Μέρα x'.\n"
+"\n"
+"Αριθμός ενότητας.\n"
+"\n"
+"Καμία προσθήκη."
+
+#: $string['defaultlayoutstructure']
+msgid "Structure configuration"
+msgstr "Προεπιλεγμένη ρύθμιση διάταξης"
+
+#: $string['defaultlayoutstructure_desc']
+msgid ""
+"The structure setting can be one of:<br />Topic<br />Week<br />Latest Week "
+"First<br />Current Topic First<br />Day"
+msgstr ""
+"Η ρύθμιση διάταξης μπορεί να είναι:\n"
+"\n"
+"Θεματική\n"
+"\n"
+"Εβδομαδιαία\n"
+"\n"
+"Τελευταία Εβδομάδα πρώτη\n"
+"\n"
+"Τρέχον Θέμα Πρώτο\n"
+"\n"
+"Μέρα"
+
+#: $string['defaultonesection']
+#, fuzzy
+msgctxt "$string['defaultonesection']"
+msgid "One section"
+msgstr "Απόκρυψη ενότητας"
+
+#: $string['defaultonesection_desc']
+msgctxt "$string['defaultonesection_desc']"
+msgid ""
+"States if only one section should be open at any given time.  Note: Ignored "
+"when editing to allow activities and resources to be moved around the "
+"sections."
+msgstr ""
+
+#: $string['defaultshowsectionsummary']
+msgctxt "$string['defaultshowsectionsummary']"
+msgid "Show the section summary when collapsed"
+msgstr "Εμφάνιση σύνοψης ενότητας κατά τη σύμπτυξη"
+
+#: $string['defaultshowsectionsummary_desc']
+#, fuzzy
+msgctxt "$string['defaultshowsectionsummary_desc']"
+msgid ""
+"States if the section summary will always be shown regardless of toggle "
+"state."
+msgstr ""
+"Αναφέρει αν η περίληψη του τομέα θα εμφανίζεται πάντα ανεξάρτητα από την "
+"κατάσταση του κουμπιού επιλογής"
+
+#: $string['defaulttgbgcolour']
+msgid "Toggle background colour"
+msgstr "Προεπιλεγμένο χρώμα παρασκηνίου για την εναλλαγή"
+
+#: $string['defaulttgbgcolour_desc']
+msgid "Toggle background colour in hexidecimal RGB."
+msgstr ""
+"Προεπιλεγμένο χρώμα παρασκηνίου για την εναλλαγή σε δεκαεξαδική μορφή RGB."
+
+#: $string['defaulttgbghvrcolour']
+msgid "Toggle background hover colour"
+msgstr "Προεπιλεγμένο χρώμα παρασκηνίου για hover στην εναλλαγή"
+
+#: $string['defaulttgbghvrcolour_desc']
+msgid "Toggle background hover colour in hexidecimal RGB."
+msgstr ""
+"Προεπιλεγμένο χρώμα παρασκηνίου για hover στην εναλλαγή σε δεκαεξαδική μορφή "
+"RGB."
+
+#: $string['defaulttgbghvropacity']
+#, fuzzy
+msgctxt "$string['defaulttgbghvropacity']"
+msgid "Toggle background hover opacity"
+msgstr "Προεπιλεγμένο χρώμα παρασκηνίου για hover στην εναλλαγή"
+
+#: $string['defaulttgbghvropacity_desc']
+msgid "Toggle background on hover opacity between 0 and 1 in 0.1 increments."
+msgstr ""
+
+#: $string['defaulttgbgopacity']
+msgctxt "$string['defaulttgbgopacity']"
+msgid "Toggle background opacity"
+msgstr ""
+
+#: $string['defaulttgbgopacity_desc']
+msgid "Toggle background opacity between 0 and 1 in 0.1 increments."
+msgstr ""
+
+#: $string['defaulttgfgcolour']
+msgid "Toggle foreground colour"
+msgstr "Προεπιλεγμένο χρώμα προσκηνίου για την εναλλαγή"
+
+#: $string['defaulttgfgcolour_desc']
+msgid "Toggle foreground colour in hexidecimal RGB."
+msgstr "Χρώμα προσκηνίου για την εναλλαγή σε δεκαεξαδική μορφή RGB."
+
+#: $string['defaulttgfghvrcolour']
+msgid "Toggle foreground hover colour"
+msgstr "Προεπιλεγμένο χρώμα προσκηνίου για hover στην εναλλαγή"
+
+#: $string['defaulttgfghvrcolour_desc']
+msgid "Toggle foreground hover colour in hexidecimal RGB."
+msgstr "Χρώμα προσκηνίου για hover στην εναλλαγή σε δεκαεξαδική μορφή RGB."
+
+#: $string['defaulttgfghvropacity']
+#, fuzzy
+msgctxt "$string['defaulttgfghvropacity']"
+msgid "Toggle foreground hover opacity"
+msgstr "Προεπιλεγμένο χρώμα προσκηνίου για hover στην εναλλαγή"
+
+#: $string['defaulttgfghvropacity_desc']
+msgid ""
+"Toggle foreground text on hover opacity between 0 and 1 in 0.1 increments."
+msgstr ""
+
+#: $string['defaulttgfgopacity']
+msgctxt "$string['defaulttgfgopacity']"
+msgid "Toggle foreground opacity"
+msgstr ""
+
+#: $string['defaulttgfgopacity_desc']
+msgid "Toggle foreground text opacity between 0 and 1 in 0.1 increments."
+msgstr ""
+
+#: $string['defaulttogglealignment']
+msgctxt "$string['defaulttogglealignment']"
+msgid "Toggle text alignment"
+msgstr "Προεπιλεγμένη ευθυγράμμιση κειμένου εναλλαγής"
+
+#: $string['defaulttogglealignment_desc']
+msgid "'Left', 'Centre' or 'Right'."
+msgstr "'Αριστερά', 'Κέντρο' ή 'Δεξιά'."
+
+#: $string['defaulttoggleallhover']
+msgid "Toggle all icon hovers"
+msgstr "Προεπιλογή hover για εναλλαγή όλων των εικονιδίων"
+
+#: $string['defaulttoggleallhover_desc']
+msgid "'No' or 'Yes'."
+msgstr "'Όχι' ή 'Ναι'."
+
+#: $string['defaulttoggleborderradiusbl']
+msgid "Toggle bottom left border radius"
+msgstr ""
+
+#: $string['defaulttoggleborderradiusbl_desc']
+msgid "Border bottom left radius of the toggle."
+msgstr ""
+
+#: $string['defaulttoggleborderradiusbr']
+msgid "Toggle bottom right border radius"
+msgstr ""
+
+#: $string['defaulttoggleborderradiusbr_desc']
+msgid "Border bottom right radius of the toggle."
+msgstr ""
+
+#: $string['defaulttoggleborderradiustl']
+msgid "Toggle top left border radius"
+msgstr ""
+
+#: $string['defaulttoggleborderradiustl_desc']
+msgid "Border top left radius of the toggle."
+msgstr ""
+
+#: $string['defaulttoggleborderradiustr']
+msgid "Toggle top right border radius"
+msgstr ""
+
+#: $string['defaulttoggleborderradiustr_desc']
+msgid "Border top right radius of the toggle."
+msgstr ""
+
+#: $string['defaulttoggleiconposition']
+msgctxt "$string['defaulttoggleiconposition']"
+msgid "Icon position"
+msgstr "Θέση εικονιδίου"
+
+#: $string['defaulttoggleiconposition_desc']
+msgid ""
+"States if the icon should be on the left or the right of the toggle text."
+msgstr ""
+"Ορίζει έαν το εικονίδιο θα πρέπει να είναι στα αριστερά ή στα δεξιά του "
+"κειμένου εναλλαγής."
+
+#: $string['defaulttoggleiconset']
+msgctxt "$string['defaulttoggleiconset']"
+msgid "Toggle icon set"
+msgstr "Προεπιλεγμένο σύνολο εικονιδίων εναλλαγής"
+
+#: $string['defaulttoggleiconset_desc']
+msgid ""
+"'Arrow'                => Arrow icon set.<br />'Bulb'                 => "
+"Bulb icon set.<br />'Cloud'                => Cloud icon set.<br />'Eye' "
+"                 => Eye icon set.<br />'Light Emitting Diode' => LED icon "
+"set.<br />'Point'                => Point icon set.<br />'Power' "
+"               => Power icon set.<br />'Radio'                => Radio icon "
+"set.<br />'Smiley'               => Smiley icon set.<br />'Square' "
+"              => Square icon set.<br />'Sun / Moon'           => Sun / Moon "
+"icon set.<br />'Switch'               => Switch icon set."
+msgstr ""
+"'Βέλος'                => Σύνολο εικονιδίων βέλους.\n"
+"\n"
+"'Λάμπα'                 => Σύνολο εικονιδίων λάμπας.\n"
+"\n"
+"'Σύννεφο'                => Σύνολο εικονιδίων σύννεφου.\n"
+"\n"
+"'Μάτι'                  => Σύνολο εικονιδίων ματιού.\n"
+"\n"
+"'Οπτοηλεκτρονική Δίοδος LED' => Σύνολο εικονιδίων LED.\n"
+"\n"
+"'Τελεία'                => Σύνολο εικονιδίων τελείας.\n"
+"\n"
+"'Ρεύμα'                => Σύνολο εικονιδίων ρεύματος.\n"
+"\n"
+"'Ραδιόφωνο'                => Σύνολο εικονιδίων ραδιοφώνου.\n"
+"\n"
+"'Χαμόγελο'               => Σύνολο εικονιδίων χαμόγελου.\n"
+"\n"
+"'Τετράγωνο'               => Σύνολο εικονιδίων τετραγώνου.\n"
+"\n"
+"'Ήλιος / Φεγγάρι'           => Σύνολο εικονιδίων ήλιου / φεγγαριού.\n"
+"\n"
+"'Διακόπτης'               => Σύνολο εικονιδίων διακόπτη."
+
+#: $string['defaulttoggleiconsize']
+#, fuzzy
+msgid "Toggle icon size"
+msgstr "Προεπιλεγμένο σύνολο εικονιδίων εναλλαγής"
+
+#: $string['defaulttoggleiconsize_desc']
+msgid "Icon size: Small = 16px, Medium = 24px and Large = 32px."
+msgstr ""
+
+#: $string['defaulttogglepersistence']
+msgid "Toggle persistence"
+msgstr "Εναλλαγή διατήρησης ρυθμίσεων"
+
+#: $string['defaulttogglepersistence_desc']
+msgid ""
+"'On' or 'Off'.  Turn off for an AJAX performance increase but user toggle "
+"selections will not be remembered on page refresh or revisit.<br />Note: "
+"When turning persistence off, please remove any rows containing "
+"'topcoll_toggle_x' in the 'name' field of the 'user_preferences' table in "
+"the database.  Where the 'x' in 'topcoll_toggle_x' will be a course id.  "
+"This is to save space if you do not intend to turn it back on."
+msgstr ""
+"'Ενεργή' ή 'Ανενεργή'.  Μπορεί να επιθυμείτε να απενεργοποιήσετε για  αύξηση "
+"της απόδοσης ενός AJAX αλλά οι επιλογές χρήστη σχετικά με την εναλλαγή δεν "
+"θα επανακληθούν σε ανανέωση σελίδας ή επανεπίσκεψη.\n"
+"\n"
+"Σημείωση: Σε περίπτωση απενεργοποίησης του toggle persistence αφαιρέστε "
+"σειρές που περιέχουν 'topcoll_toggle_x' στο πεδίο 'name'\n"
+"      από τον πίνακα 'user_preferences' στην βάση.  Όπου το 'x' στο "
+"'topcoll_toggle_x' θα είναι το id του μαθήματος."
+
+#: $string['defaultuserpreference']
+msgid "Initial toggle state"
+msgstr ""
+"Τι να συμβεί με τις εναλλαγές όταν ο χρήστης εισέρχεται για πρώτη φορά στο "
+"μάθημα, προσθέτει περισσότερες ενότητες ή η διατήρηση ρυθμίσεων είναι "
+"απενεργοποιημένη"
+
+#: $string['defaultuserpreference_desc']
+msgid ""
+"States what to do with the toggles when the user first accesses the course, "
+"the state of additional sections when they are added or toggle persistence "
+"is off."
+msgstr ""
+"Ορίζει τι να συμβεί με τα κουμπιά εναλλαγής όταν ο χρήστης εισέρχεται για "
+"πρώτη φορά στο μάθημα ή στις επιπρόσθετες ενότητες όταν αυτές προστίθενται."
+
+#: $string['deletesection']
+msgid "Delete section"
+msgstr ""
+
+#: $string['displayinstructions']
+msgctxt "$string['displayinstructions']"
+msgid "Display instructions"
+msgstr "Εμφάνιση οδηγιών"
+
+#: $string['displayinstructions_help']
+msgid "States that the instructions should be displayed to the user or not."
+msgstr "Ορίζει αν οι οδηγίες πρέπει να εμφανίζονται στον χρήστη ή όχι."
+
+#: $string['donotshowdate']
+msgid "Do not show the date"
+msgstr ""
+
+#: $string['donotshowdate_help']
+msgid ""
+"Do not show the date when using a weekly based structure and 'Use default "
+"section name' has been un-ticked."
+msgstr ""
+
+#: $string['editsection']
+#, fuzzy
+msgid "Edit section"
+msgstr "Παρούσα ενότητα"
+
+#: $string['editsectionname']
+msgid "Edit section name"
+msgstr ""
+
+#: $string['em0_0']
+msgid "0.0em"
+msgstr ""
+
+#: $string['em0_1']
+msgid "0.1em"
+msgstr ""
+
+#: $string['em0_2']
+msgid "0.2em"
+msgstr ""
+
+#: $string['em0_3']
+msgid "0.3em"
+msgstr ""
+
+#: $string['em0_4']
+msgid "0.4em"
+msgstr ""
+
+#: $string['em0_5']
+msgid "0.5em"
+msgstr ""
+
+#: $string['em0_6']
+msgid "0.6em"
+msgstr ""
+
+#: $string['em0_7']
+msgid "0.7em"
+msgstr ""
+
+#: $string['em0_8']
+msgid "0.8em"
+msgstr ""
+
+#: $string['em0_9']
+msgid "0.9em"
+msgstr ""
+
+#: $string['em1_0']
+msgid "1.0em"
+msgstr ""
+
+#: $string['em1_1']
+msgid "1.1em"
+msgstr ""
+
+#: $string['em1_2']
+msgid "1.2em"
+msgstr ""
+
+#: $string['em1_3']
+msgid "1.3em"
+msgstr ""
+
+#: $string['em1_4']
+msgid "1.4em"
+msgstr ""
+
+#: $string['em1_5']
+msgid "1.5em"
+msgstr ""
+
+#: $string['em1_6']
+msgid "1.6em"
+msgstr ""
+
+#: $string['em1_7']
+msgid "1.7em"
+msgstr ""
+
+#: $string['em1_8']
+msgid "1.8em"
+msgstr ""
+
+#: $string['em1_9']
+msgid "1.9em"
+msgstr ""
+
+#: $string['em2_0']
+msgid "2.0em"
+msgstr ""
+
+#: $string['em2_1']
+msgid "2.1em"
+msgstr ""
+
+#: $string['em2_2']
+msgid "2.2em"
+msgstr ""
+
+#: $string['em2_3']
+msgid "2.3em"
+msgstr ""
+
+#: $string['em2_4']
+msgid "2.4em"
+msgstr ""
+
+#: $string['em2_5']
+msgid "2.5em"
+msgstr ""
+
+#: $string['em2_6']
+msgid "2.6em"
+msgstr ""
+
+#: $string['em2_7']
+msgid "2.7em"
+msgstr ""
+
+#: $string['em2_8']
+msgid "2.8em"
+msgstr ""
+
+#: $string['em2_9']
+msgid "2.9em"
+msgstr ""
+
+#: $string['em3_0']
+msgid "3.0em"
+msgstr ""
+
+#: $string['em3_1']
+msgid "3.1em"
+msgstr ""
+
+#: $string['em3_2']
+msgid "3.2em"
+msgstr ""
+
+#: $string['em3_3']
+msgid "3.3em"
+msgstr ""
+
+#: $string['em3_4']
+msgid "3.4em"
+msgstr ""
+
+#: $string['em3_5']
+msgid "3.5em"
+msgstr ""
+
+#: $string['em3_6']
+msgid "3.6em"
+msgstr ""
+
+#: $string['em3_7']
+msgid "3.7em"
+msgstr ""
+
+#: $string['em3_8']
+msgid "3.8em"
+msgstr ""
+
+#: $string['em3_9']
+msgid "3.9em"
+msgstr ""
+
+#: $string['em4_0']
+msgid "4.0em"
+msgstr ""
+
+#: $string['eye']
+msgid "Eye"
+msgstr "Μάτι"
+
+#: $string['folder']
+msgid "Folder"
+msgstr ""
+
+#: $string['formatresponsive']
+msgid "Format responsive"
+msgstr ""
+
+#: $string['formatresponsive_desc']
+msgid ""
+"Turn on if you are using a non-responsive theme and the format will adjust "
+"to the screen size / device.  Turn off if you are using a responsive theme. "
+" Bootstrap 2.3.2 support is built in, for other frameworks and versions, "
+"override the methods 'get_row_class()' and 'get_column_class()' in "
+"renderer.php."
+msgstr ""
+
+#: $string['formatsettings']
+msgid "Format reset settings"
+msgstr "Ρυθμίσεις επαναφοράς μορφής"
+
+#: $string['formatsettingsinformation']
+msgid ""
+"<br />To reset the settings of the course format to the defaults, click on "
+"the icon to the right."
+msgstr ""
+"<br />Για να επαναφέρετε τις ρυθμίσεις της μορφής του μαθήματος στις "
+"αρχικές, πατήστε το εικονίδιο στα δεξιά."
+
+#: $string['formattopcoll']
+msgctxt "$string['formattopcoll']"
+msgid "Collapsed Topics"
+msgstr "Συμπτυγμένα Θέματα"
+
+#: $string['four']
+msgid "Four"
+msgstr "Τέσσερις"
+
+#: $string['groundsignal']
+msgid "Ground signal"
+msgstr ""
+
+#: $string['hidefromothers']
+msgid "Hide section"
+msgstr "Απόκρυψη ενότητας"
+
+#: $string['instructions']
+msgid ""
+"Instructions: Clicking on the section name will show / hide the section."
+msgstr ""
+"Οδηγίες: Πατώντας πάνω στο όνομα της ενότητας θα εμφανιστεί / κρυφτεί η "
+"ενότητα."
+
+#: $string['large']
+msgid "Large"
+msgstr ""
+
+#: $string['led']
+msgid "Light emitting diode"
+msgstr "Οπτοηλεκτρονική δίοδος LED"
+
+#: $string['left']
+msgid "Left"
+msgstr "Αριστερά"
+
+#: $string['maincoursepage']
+msgid "Main course page"
+msgstr "Αρχική σελίδα μαθήματος"
+
+#: $string['markedthissection']
+msgid "This section is highlighted as the current section"
+msgstr ""
+
+#: $string['markthissection']
+msgid "Highlight this section as the current section"
+msgstr ""
+
+#: $string['medium']
+msgid "Medium"
+msgstr ""
+
+#: $string['nametopcoll']
+msgctxt "$string['nametopcoll']"
+msgid "Collapsed Topics"
+msgstr "Συμπτυγμένα Θέματα"
+
+#: $string['newsectionname']
+msgid "New name for section {$a}"
+msgstr ""
+
+#: $string['numbersections']
+msgid "Number of sections"
+msgstr "Αριθμός Ενοτήτων"
+
+#: $string['off']
+msgid "Off"
+msgstr "Απενεργοποιημένο"
+
+#: $string['on']
+msgid "On"
+msgstr "Ενεργοποιημένο"
+
+#: $string['one']
+msgid "One"
+msgstr "Μία"
+
+#: $string['onesection']
+#, fuzzy
+msgctxt "$string['onesection']"
+msgid "One section"
+msgstr "Απόκρυψη ενότητας"
+
+#: $string['onesection_help']
+msgctxt "$string['onesection_help']"
+msgid ""
+"States if only one section should be open at any given time.  Note: Ignored "
+"when editing to allow activities and resources to be moved around the "
+"sections."
+msgstr ""
+
+#: $string['page-course-view-topcoll']
+msgid "Any course main page in the collapsed topics format"
+msgstr "Οποιαδήποτε κύρια σελίδα μαθήματος σε μορφή συμπτυγμένων θεμάτων"
+
+#: $string['page-course-view-topcoll-x']
+msgid "Any course page in the collapsed topics format"
+msgstr "Οποιαδήποτε σελίδα μαθήματος σε μορφή συμπτυγμένων θεμάτων"
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Collapsed Topics"
+msgstr "Συμπτυγμένα Θέματα"
+
+#: $string['point']
+msgid "Point"
+msgstr "Τελεία"
+
+#: $string['power']
+msgid "Power"
+msgstr "Ρεύμα"
+
+#: $string['radio']
+msgid "Radio"
+msgstr "Ραδιόφωνο"
+
+#: $string['readme_desc']
+msgid ""
+"Please click on '{$a->url}' for lots more information about Collapsed "
+"Topics."
+msgstr ""
+"Παρακαλώ δείτε στο  '{$a->url}' για περισσότερες πληροφορίες σχετικά με τα "
+"Συμπτυγμένα Θέματα."
+
+#: $string['readme_title']
+msgid "Collapsed Topics read-me"
+msgstr "Συμπτυγμένα Θέματα διάβασέ-με"
+
+#: $string['resetallcolour']
+msgid "Colours"
+msgstr "Χρώματα"
+
+#: $string['resetallcolour_help']
+msgid ""
+"Resets the colours and opacities to the default values for all courses so it "
+"will be the same as a course the first time it is in the 'Collapsed Topics' "
+"format."
+msgstr ""
+"Επαναφέρει τα χρώματα στις προεπιλεγμένες τιμές για όλα τα μαθήματα έτσι "
+"ώστε να είναι ίδια με ένα μάθημα την πρώτη φορά σε μορφή 'Συμπτυγμένα "
+"Θέματα'."
+
+#: $string['resetalldisplayinstructions']
+msgctxt "$string['resetalldisplayinstructions']"
+msgid "Display instructions"
+msgstr "Εμφάνιση οδηγιών"
+
+#: $string['resetalldisplayinstructions_help']
+msgid ""
+"Resets the display instructions to the default value for all courses so it "
+"will be the same as a course the first time it is in the Collapsed Topics "
+"format."
+msgstr ""
+"Επαναφέρει την εμφάνιση οδηγιών στις προεπιλεγμένες τιμές για όλα τα "
+"μαθήματα έτσι ώστε να είναι ίδιες με ένα μάθημα την πρώτη φορά σε μορφή "
+"'Συμπτυγμένα Θέματα'."
+
+#: $string['resetallgrp']
+msgid "Reset all:"
+msgstr "Επαναφορά όλων:"
+
+#: $string['resetalllayout']
+msgid "Layouts"
+msgstr "Διατάξεις"
+
+#: $string['resetalllayout_help']
+msgid ""
+"Resets the layout element, structure, columns, icon position, one section "
+"and shown section summary to the default values for all courses so it will "
+"be the same as a course the first time it is in the 'Collapsed Topics "
+"'format."
+msgstr ""
+"Επαναφέρει την εμφάνιση στις προεπιλεγμένες τιμές για όλα τα μαθήματα έτσι "
+"ώστε να είναι ίδια με ένα μάθημα την πρώτη φορά σε μορφή 'Συμπτυγμένα "
+"Θέματα'."
+
+#: $string['resetalltogglealignment']
+msgid "Toggle alignments"
+msgstr "Ευθυγραμμίσεις εναλλαγής"
+
+#: $string['resetalltogglealignment_help']
+msgid ""
+"Resets the toggle alignment to the default values for all courses so it will "
+"be the same as a course the first time it is in the 'Collapsed Topics' "
+"format."
+msgstr ""
+"Επαναφέρει την εναλλαγή ευθυγράμμισης στις προεπιλεγμένες τιμές για όλα τα "
+"μαθήματα έτσι ώστε να είναι ίδια με ένα μάθημα την πρώτη φορά σε μορφή "
+"'Συμπτυγμένα Θέματα'."
+
+#: $string['resetalltoggleiconset']
+msgid "Toggle icon sets"
+msgstr "Σύνολα εικονιδίων εναλλαγής"
+
+#: $string['resetalltoggleiconset_help']
+msgid ""
+"Resets the toggle icon set and toggle all hover to the default values for "
+"all courses so it will be the same as a course the first time it is in the "
+"'Collapsed Topics' format."
+msgstr ""
+"Επαναφέρει το σύνολο εικονιδίων εναλλαγής και το hover για το \"εναλλαγή "
+"όλων\" στις προεπιλεγμένες τιμές  έτσι ώστε να είναι ίδιες με ένα μάθημα την "
+"πρώτη φορά σε μορφή 'Συμπτυγμένα Θέματα'."
+
+#: $string['resetcolour']
+msgctxt "$string['resetcolour']"
+msgid "Colour"
+msgstr "Χρώμα"
+
+#: $string['resetcolour_help']
+msgid ""
+"Resets the colours and opacities to the default values so it will be the "
+"same as a course the first time it is in the 'Collapsed Topics' format."
+msgstr ""
+"Επαναφέρει τα χρώματα στις προεπιλεγμένες τιμές έτσι ώστε να είναι τα ίδια "
+"με ένα μάθημα την πρώτη φορά σε μορφή 'Συμπτυγμένα Θέματα'."
+
+#: $string['resetdisplayinstructions']
+msgctxt "$string['resetdisplayinstructions']"
+msgid "Display instructions"
+msgstr "Εμφάνιση οδηγιών"
+
+#: $string['resetdisplayinstructions_help']
+msgid ""
+"Resets the display instructions to the default value so it will be the same "
+"as a course the first time it is in the Collapsed Topics format."
+msgstr ""
+"Επαναφέρει την εμφάνιση οδηγιών στις προεπιλεγμένες τιμές έτσι ώστε να είναι "
+"ίδιες με ένα μάθημα την πρώτη φορά σε μορφή 'Συμπτυγμένα Θέματα'."
+
+#: $string['resetgrp']
+msgid "Reset:"
+msgstr "Επαναφορά:"
+
+#: $string['resetlayout']
+msgctxt "$string['resetlayout']"
+msgid "Layout"
+msgstr "Διάταξη"
+
+#: $string['resetlayout_help']
+msgid ""
+"Resets the layout element, structure, columns, icon position, one section "
+"and shown section summary to the default values so it will be the same as a "
+"course the first time it is in the 'Collapsed Topics' format."
+msgstr ""
+"Επαναφέρει το στοιχείο διάταξης, τη δομή, τις στήλες, τη θέση του εικονιδίου "
+"και την εμφανιζόμενη σύνοψη ενότητας στις προεπιλεγμένες τιμές ώστε να  "
+"είναι  οι ίδιες με ένα μάθημα την πρώτη φορά σε μορφή 'Συμπτυγμένα Θέματα'."
+
+#: $string['resettogglealignment']
+msgid "Toggle alignment"
+msgstr "Εναλλαγή ευθυγράμμισης"
+
+#: $string['resettogglealignment_help']
+msgid ""
+"Resets the toggle alignment to the default values so it will be the same as "
+"a course the first time it is in the 'Collapsed Topics' format."
+msgstr ""
+"Επαναφέρει την εναλλαγή ευθυγράμμισης στις αρχικές ρυθμίσεις έτσι ώστε  να "
+"είναι ίδια με αυτά ενός μαθήματος την πρώτη φορά την Μορφή Αναδιπλούμενων "
+"Θεμάτων."
+
+#: $string['resettoggleiconset']
+msgctxt "$string['resettoggleiconset']"
+msgid "Toggle icon set"
+msgstr "Σύνολο εικονιδίων εναλλαγής"
+
+#: $string['resettoggleiconset_help']
+msgid ""
+"Resets the toggle icon set and toggle all hover to the default values so it "
+"will be the same as a course the first time it is in the 'Collapsed Topics' "
+"format."
+msgstr ""
+"Επαναφέρει το σύνολο εικονιδίων εναλλαγής και το hover για το \"εναλλαγή "
+"όλων\" στις αρχικές ρυθμίσεις  έτσι ώστε να είναι ίδιες με ενός μαθήματος την "
+"πρώτη φορά στην Μορφή Αναδιπλούμενων Θεμάτων."
+
+#: $string['right']
+msgid "Right"
+msgstr "Δεξιά"
+
+#: $string['section0name']
+msgid "General"
+msgstr "Γενικά"
+
+#: $string['sectionname']
+msgid "Section"
+msgstr "Ενότητα"
+
+#: $string['setcolour']
+msgctxt "$string['setcolour']"
+msgid "Colour"
+msgstr "Ρύθμιση Χρώματος"
+
+#: $string['setcolour_help']
+msgid ""
+"Contains the settings to do with the colour of the format within the course."
+msgstr ""
+"Περιλαμβάνει τις ρυθμίσεις σχετικά με το χρώμα της μορφοποίησης μέσα στο "
+"μάθημα."
+
+#: $string['setlayout']
+msgid "Set layout"
+msgstr "Ορισμός διάταξης"
+
+#: $string['setlayout_all']
+msgid "Toggle word, 'Topic x' / 'Week x' / 'Day x' and section number"
+msgstr ""
+"Εναλλαγή λέξης, 'Θέμα x' / 'Εβδομάδα x' / 'Ημέρα x' και αριθμός ενότητας"
+
+#: $string['setlayoutcolumnorientation']
+msgctxt "$string['setlayoutcolumnorientation']"
+msgid "Column orientation"
+msgstr "Ρύθμιση προσανατολισμού στήλης"
+
+#: $string['setlayoutcolumnorientation_help']
+msgid ""
+"Vertical - Sections go top to bottom.<br />Horizontal - Sections go left to "
+"right."
+msgstr ""
+"Κάθετα - Οι ενότητες ξεκινάνε από πάνω προς τα κάτω.\n"
+"\n"
+"Οριζόντια - Οι ενότητες ξεκινάνε από τα αριστερά προς τα δεξιά."
+
+#: $string['setlayoutcolumns']
+msgid "Columns"
+msgstr "Ρύθμιση στηλών"
+
+#: $string['setlayoutcolumns_help']
+msgid "How many columns to use."
+msgstr "Πόσες στήλες να χρησιμοποιηθούν."
+
+#: $string['setlayout_default']
+msgid "Default"
+msgstr "Προεπιλογή"
+
+#: $string['setlayoutelements']
+msgid "Elements"
+msgstr "Ορισμός στοιχείων"
+
+#: $string['setlayoutelements_help']
+msgid ""
+"How much information about the toggles / sections you wish to be displayed."
+msgstr ""
+"Ποιές πληροφορίες σχετικά με τις εναλλαγές/ ενότητες επιθυμείτε να "
+"εμφανίζονται."
+
+#: $string['setlayout_help']
+msgid ""
+"Contains the settings to do with the layout of the format within the course."
+msgstr ""
+"Περιλαμβάνει τις ρυθμίσεις σχετικά με την εμφάνιση της διάρθρωσης μέσα στο "
+"μάθημα."
+
+#: $string['setlayout_no_additions']
+msgid "No additions"
+msgstr "Καμία προσθήκη"
+
+#: $string['setlayout_no_section_no']
+msgid "No section number"
+msgstr "Ενότητα χωρίς αριθμό"
+
+#: $string['setlayout_no_toggle_section_x']
+msgid "No toggle section x"
+msgstr "Ενότητα χωρίς εναλλαγή x"
+
+#: $string['setlayout_no_toggle_section_x_section_no']
+msgid "No toggle section x and section number"
+msgstr "Ενότητα χωρίς εναλλαγή x και αριθμός ενότητας"
+
+#: $string['setlayout_no_toggle_word']
+msgid "No toggle word"
+msgstr "Λέξη χωρίς εναλλαγή"
+
+#: $string['setlayout_no_toggle_word_toggle_section_x']
+msgid "No toggle word and toggle section x"
+msgstr "Λέξη χωρίς εναλλαγή και εναλλαγή ενότητας x"
+
+#: $string['setlayout_no_toggle_word_toggle_section_x_section_no']
+msgid "No toggle word, toggle section x and section number"
+msgstr "Λέξη χωρίς εναλλαγή, εναλλαγή ενότητας x και αριθμού ενότητας"
+
+#: $string['setlayout_section_number']
+msgid "Section number"
+msgstr "Αριθμός ενοτήτων"
+
+#: $string['setlayoutstructure']
+msgid "Structure"
+msgstr "Ορισμός δομής"
+
+#: $string['setlayoutstructurecurrenttopicfirst']
+msgid "Current topic first"
+msgstr "Τρέχον Θέμα Πρώτο"
+
+#: $string['setlayoutstructureday']
+msgid "Day"
+msgstr "Ημέρα"
+
+#: $string['setlayoutstructure_help']
+msgid ""
+"The layout structure of the course.  You can choose between:<br />'Topics' - "
+"where each section is presented as a topic in section number order.<br "
+"/>'Weeks' - where each section is presented as a week in ascending week "
+"order from the start date of the course.<br />'Current week first' - which "
+"is the same as weeks but the current week is shown at the top and preceding "
+"weeks in descending order are displayed below except in editing mode where "
+"the structure is the same as 'Weeks'.<br />'Current topic first' - which is "
+"the same as 'Topics' except that the current topic is shown at the top if it "
+"has been set.<br />'Day' - where each section is presented as a day in "
+"ascending day order from the start date of the course."
+msgstr ""
+"Δομή της εμφάνισης του μαθήματος. Μπορείτε να επιλέξετε ανάμεσα σε:\n"
+"\n"
+"'Θεματική' - Όπου κάθε ενότητα παρουσιάζεται ως ένα θέμα στην αριθμημένη "
+"ενότητα.\n"
+"\n"
+"'Εβδομάδιαία' - Όπου κάθε ενότητα παρουσιάζεται ως μια εβδομάδα σε αύξουσα "
+"χρονολογική σειρά από την ημερομηνία έναρξης του μαθήματος.\n"
+"\n"
+"'Τρέχουσα Εβδομάδα Πρώτη' - η οποία είναι η ίδια με την 'Εβδομαδιαία' αλλά η "
+"τρέχουσα εβδομάδα εμφανίζεται στην κορυφή και οι προηγούμενες εβδομάδες "
+"εμφανίζονται πιο κάτω σε φθίνουσα ημερολογιακή σειρά, εκτός από όταν "
+"βρίσκεστε σε λειτουργία επεξεργασίας όπου η δομή είναι η ίδια με την "
+"'Εβδομαδιαία'.\n"
+"\n"
+"'Τρέχον Θέμα Πρώτο' - το οποίο είναι το ίδιο με την 'θεματική' εκτός του ότι "
+"το τρέχον θέμα εμφανίζεται στην κορυφή.\n"
+"\n"
+"'Ημερήσια' - όπου κάθε ενότητα παρσουσιάζεται ως μια μέρα σε αύξουσα "
+"ημερολογιακή σειρά από την μέρα έναρξης του μαθήματος."
+
+#: $string['setlayoutstructurelatweekfirst']
+msgid "Current week first"
+msgstr "Τρέχουσα Εβδομάδα Πρώτη"
+
+#: $string['setlayoutstructuretopic']
+msgid "Topic"
+msgstr "Θέμα"
+
+#: $string['setlayoutstructureweek']
+msgid "Week"
+msgstr "Εβδομάδα"
+
+#: $string['setlayout_toggle_section_x']
+msgid "'Topic x' / 'Week x' / 'Day x'"
+msgstr "'Θέμα x' / 'Εβδομάδα x' / 'Μέρα x'"
+
+#: $string['setlayout_toggle_section_x_section_number']
+msgid "'Topic x' / 'Week x' / 'Day x' and section number"
+msgstr "'Θέμα x' / 'Εβδομάδα x' / 'Μέρα x' and αριθμός ενότητας"
+
+#: $string['setlayout_toggle_word']
+msgid "Toggle word"
+msgstr "Εναλλαγή λέξης"
+
+#: $string['setlayout_toggle_word_section_number']
+msgid "Toggle word and section number"
+msgstr "Εναλλαγή λέξης και αριθμού ενότητας"
+
+#: $string['setlayout_toggle_word_section_x']
+msgid "Toggle word and 'Topic x' / 'Week x' / 'Day x'"
+msgstr "Εναλλαγή λέξης και 'Θέμα x' / 'Εβδομάδα x' / 'Ημέρα x'"
+
+#: $string['setshowsectionsummary']
+msgctxt "$string['setshowsectionsummary']"
+msgid "Show the section summary when collapsed"
+msgstr "Εμφάνιση σύνοψης ενότητας κατά τη σύμπτυξη"
+
+#: $string['setshowsectionsummary_help']
+msgctxt "$string['setshowsectionsummary_help']"
+msgid ""
+"States if the section summary will always be shown regardless of toggle "
+"state."
+msgstr ""
+"Αναφέρει αν η περίληψη του τομέα θα εμφανίζεται πάντα ανεξάρτητα από την "
+"κατάσταση του κουμπιού επιλογής"
+
+#: $string['settogglealignment']
+msgctxt "$string['settogglealignment']"
+msgid "Toggle text alignment"
+msgstr "Ρύθμιση ευθυγράμμισης κειμένου εναλλαγής"
+
+#: $string['settogglealignment_help']
+msgid "Sets the alignment of the text in the toggle."
+msgstr "Ρύθμιση ευθυγράμμισης του κειμένου μέσα στο κουμπί \"εναλλαγή\"."
+
+#: $string['settoggleallhover']
+msgid "Toggle all icon hover"
+msgstr "Ορίζει το hover για την εναλλαγή όλων των εικονιδίων"
+
+#: $string['settoggleallhover_help']
+msgid ""
+"Sets if the toggle all icons will change when the mouse moves over them."
+msgstr ""
+"Ορίζει εάν το \"εναλλαγή όλων των εικονιδίων\" θα αλλάζει όταν ο κέρσορας "
+"περνάει από πάνω τους."
+
+#: $string['settogglebackgroundcolour']
+msgid "Toggle background"
+msgstr "Φόντο κουμπιού \"εναλλαγή\""
+
+#: $string['settogglebackgroundcolour_help']
+msgid "Sets the background colour of the toggle."
+msgstr "Ρυθμίζει το χρώμα φόντου στο κουμπί \"εναλλαγή\"."
+
+#: $string['settogglebackgroundhovercolour']
+msgid "Toggle background hover"
+msgstr "Hover φόντου για το κουμπί \"εναλλαγή\""
+
+#: $string['settogglebackgroundhovercolour_help']
+msgid "Sets the background colour of the toggle when the mouse moves over it."
+msgstr ""
+"Ρυθμίζει το χρώμα φόντου στο κουμπί \"εναλλαγή\" όταν ο κέρσορας περνάει από "
+"πάνω του."
+
+#: $string['settogglebackgroundhoveropacity']
+#, fuzzy
+msgctxt "$string['settogglebackgroundhoveropacity']"
+msgid "Toggle background hover opacity"
+msgstr "Προεπιλεγμένο χρώμα παρασκηνίου για hover στην εναλλαγή"
+
+#: $string['settogglebackgroundhoveropacity_help']
+msgid ""
+"Sets the opacity of the background on hover on the toggle between 0 and 1 in "
+"0.1 increments."
+msgstr ""
+
+#: $string['settogglebackgroundopacity']
+msgctxt "$string['settogglebackgroundopacity']"
+msgid "Toggle background opacity"
+msgstr ""
+
+#: $string['settogglebackgroundopacity_help']
+msgid ""
+"Sets the opacity of the background on the toggle between 0 and 1 in 0.1 "
+"increments."
+msgstr ""
+
+#: $string['settoggleforegroundcolour']
+msgid "Toggle foreground"
+msgstr "Εναλλαγή προσκηνίου"
+
+#: $string['settoggleforegroundcolour_help']
+msgid "Sets the colour of the text on the toggle."
+msgstr "Ρυθμίζει το χρώμα του κειμένου στο κουμπί \"εναλλαγή\" ."
+
+#: $string['settoggleforegroundhovercolour']
+msgid "Toggle foreground hover"
+msgstr "Hover προσκηνίου για το κουμπί \"εναλλαγή\""
+
+#: $string['settoggleforegroundhovercolour_help']
+msgid "Sets the colour of the text on the toggle when the mouse moves over it."
+msgstr ""
+"Ρυθμίζει το χρώμα του κειμένου στο κουμπί \"εναλλαγή\" όταν ο κέρσορας περνάει "
+"από πάνω του."
+
+#: $string['settoggleforegroundhoveropacity']
+#, fuzzy
+msgctxt "$string['settoggleforegroundhoveropacity']"
+msgid "Toggle foreground hover opacity"
+msgstr "Προεπιλεγμένο χρώμα προσκηνίου για hover στην εναλλαγή"
+
+#: $string['settoggleforegroundhoveropacity_help']
+msgid ""
+"Sets the opacity of the text on hover on the toggle between 0 and 1 in 0.1 "
+"increments."
+msgstr ""
+
+#: $string['settoggleforegroundopacity']
+msgctxt "$string['settoggleforegroundopacity']"
+msgid "Toggle foreground opacity"
+msgstr ""
+
+#: $string['settoggleforegroundopacity_help']
+msgid ""
+"Sets the opacity of the text on the toggle between 0 and 1 in 0.1 "
+"increments."
+msgstr ""
+
+#: $string['settoggleiconposition']
+msgctxt "$string['settoggleiconposition']"
+msgid "Icon position"
+msgstr "Ρύθμιση θέσης εικονιδίου"
+
+#: $string['settoggleiconposition_help']
+msgid ""
+"States that the icon should be on the left or the right of the toggle text."
+msgstr ""
+"Ορίζει ότι το εικονίδιο θα πρέπει να είναι στα αριστερά ή στα δεξιά του "
+"κειμένου εναλλαγής."
+
+#: $string['settoggleiconset']
+msgid "Icon set"
+msgstr "Ορίζει το σύνολο των εικονιδίων"
+
+#: $string['settoggleiconset_help']
+msgid "Sets the icon set of the toggle."
+msgstr "Ορίζει το σύνολο των εικονιδίων για το κουμπί \"εναλλαγή\"."
+
+#: $string['showfromothers']
+msgid "Show section"
+msgstr "Εμφάνιση ενότητας"
+
+#: $string['small']
+msgid "Small"
+msgstr "Μικρό"
+
+#: $string['smiley']
+msgid "Smiley"
+msgstr "Χαμόγελο"
+
+#: $string['square']
+msgid "Square"
+msgstr "Τετράγωνο"
+
+#: $string['sunmoon']
+msgid "Sun / Moon"
+msgstr "Ήλιος / Φεγγάρι"
+
+#: $string['switch']
+msgid "Switch"
+msgstr "Διακόπτης"
+
+#: $string['three']
+msgid "Three"
+msgstr "Τρείς"
+
+#: $string['topcollall']
+msgid "sections."
+msgstr "ενότητες."
+
+#: $string['topcoll:changecolour']
+msgid "Change or reset the colour"
+msgstr "Αλλαγή ή επαναφορά χρώματος"
+
+#: $string['topcoll:changelayout']
+msgid "Change or reset the layout"
+msgstr "Αλλαγή ή επαναφορά διάταξης"
+
+#: $string['topcoll:changetogglealignment']
+msgid "Change or reset the toggle alignment"
+msgstr "Αλλαγή ή επαναφορά της εναλλαγής ευθυγράμμισης"
+
+#: $string['topcoll:changetoggleiconset']
+msgid "Change or reset the toggle icon set"
+msgstr "Αλλαγή ή επαναφορά των εικονιδίων εναλλαγής"
+
+#: $string['topcollclosed']
+msgid "Close all"
+msgstr "Κλείσιμο όλων"
+
+#: $string['topcollopened']
+msgid "Open all"
+msgstr "Εμφάνιση όλων"
+
+#: $string['topcollsidewidthlang']
+msgid "en-28px"
+msgstr ""
+
+#: $string['topcolltoggle']
+msgid "Toggle"
+msgstr "κουμπί \"Εναλλαγή\""
+
+#: $string['two']
+msgid "Two"
+msgstr "Δύο"
+
+#: $string['viewonly']
+msgid "View only '{$a->sectionname}\\"
+msgstr ""

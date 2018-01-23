@@ -1,0 +1,531 @@
+#. extracted from lang/en/block_stash.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_stash', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   block_stash
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['accept']
+msgid "Accept"
+msgstr ""
+
+#: $string['additem']
+msgid "Add an item"
+msgstr ""
+
+#: $string['addnewdrop']
+msgid "Add new location"
+msgstr ""
+
+#: $string['addnewtradeitem']
+msgid "Add new item to this trade"
+msgstr ""
+
+#: $string['addtoinventory']
+msgid "Add an item to the inventory."
+msgstr ""
+
+#: $string['addtrade']
+msgid "Add a trade widget"
+msgstr ""
+
+#: $string['addtradeitem']
+msgid "Add a trade item"
+msgstr ""
+
+#: $string['aftercreatinglocationhelp']
+msgid ""
+"Once you have created the item and the location, you need to add a code "
+"snippet to your course for the item to be displayed. After customising how "
+"the item will be displayed to your students, copy the snippet below and "
+"paste it in your content, in the description of an assignment for instance."
+msgstr ""
+
+#: $string['appearance']
+msgid "Appearance"
+msgstr ""
+
+#: $string['backtostart']
+msgid "Back to the main screen"
+msgstr "Επιστροφή στην κύρια οθόνη"
+
+#: $string['buttontext']
+msgid "Button text"
+msgstr ""
+
+#: $string['copypaste']
+msgid ""
+"Copy and paste this into an editor in different activities around your "
+"course."
+msgstr ""
+
+#: $string['copytoclipboard']
+msgid "Copy to clipboard"
+msgstr ""
+
+#: $string['cost']
+msgid "Cost"
+msgstr ""
+
+#: $string['deletedrop']
+msgctxt "$string['deletedrop']"
+msgid "Delete {$a}"
+msgstr ""
+
+#: $string['deleteitem']
+msgctxt "$string['deleteitem']"
+msgid "Delete {$a}"
+msgstr ""
+
+#: $string['dropa']
+msgid "Location '{$a}\\"
+msgstr ""
+
+#: $string['dropname']
+msgid "Location"
+msgstr ""
+
+#: $string['dropname_help']
+msgid ""
+"The name of the location is only useful for you to organise them, it will "
+"not be displayed to the students."
+msgstr ""
+
+#: $string['drops']
+msgctxt "$string['drops']"
+msgid "Locations"
+msgstr ""
+
+#: $string['drops_help']
+msgid ""
+"<p>Locations are places where your items are in the <em>virtual world</em>. "
+"Without a <em>location</em> an item cannot be picked up by a student.</p>\n"
+"<p>Locations come with a few options, including the number of times a single "
+"student can pick them up, and how often they reappear after being picked "
+"up.</p>\n"
+"<p>For instance, if your students need a <em>key item</em> to access an "
+"activity, you will most likely set it so that your students can only pick it "
+"up once in that location.</p>\n"
+"<p>But if they need <em>5 coins</em> to access another one, you may set this "
+"coin to reappear each day to encourage them to visit the course "
+"everyday.</p>\n"
+"<p>Note that items do not magically appear in your course, you will have to "
+"add a special code to your content in order for the item to be "
+"displayed.</p>"
+msgstr ""
+
+#: $string['dropslist']
+msgid "List of locations"
+msgstr ""
+
+#: $string['dropsnippet']
+msgid "Snippet for '{$a}\\"
+msgstr ""
+
+#: $string['dropsummary']
+msgid "Location summary"
+msgstr "Σύνοψη τοποθεσίας"
+
+#: $string['edit']
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: $string['editdrop']
+msgid "Edit location '{$a}\\"
+msgstr ""
+
+#: $string['edititem']
+msgid "Edit item '{$a}\\"
+msgstr ""
+
+#: $string['edittrade']
+msgid "Edit trade widget '{$a}\\"
+msgstr ""
+
+#: $string['edittradeitem']
+msgid "Edit trade item '{$a}\\"
+msgstr ""
+
+#: $string['eginthecastle']
+msgid "E.g. In the castle"
+msgstr ""
+
+#: $string['eventitemacquired']
+msgid "An item was acquired."
+msgstr ""
+
+#: $string['filterstashnotactive']
+msgid ""
+"The filter plugin is installed but not yet enabled for this course. Visit <a "
+"href=\"{$a->activeurl}\" target=\"_blank\">this page</a> to enable it for this "
+"course."
+msgstr ""
+
+#: $string['filterstashnotenabled']
+msgid ""
+"The filter plugin is installed but not yet <a href=\"{$a->enableurl}\" "
+"target=\"_blank\">enabled</a>."
+msgstr ""
+
+#: $string['filterstashnotinstalled']
+msgid ""
+"We recommend that you install and enable the <a href=\"{$a->installurl}\" "
+"target=\"_blank\">filter plugin for Stash</a>. It makes it easier and more "
+"reliable to use the snippets. It also enables trading."
+msgstr ""
+
+#: $string['filterstashwrongversion']
+msgid ""
+"The filter plugin that you have installed is an early version and does not "
+"work with trading. Please visit <a href=\"{$a}\" target=\"_blank\">this page</a> "
+"to get the latest version."
+msgstr ""
+
+#: $string['gain']
+msgid "Gain"
+msgstr ""
+
+#: $string['gainloss']
+msgid "Gain or lose"
+msgstr ""
+
+#: $string['gaintitle']
+msgid "Gain title"
+msgstr ""
+
+#: $string['gaintitle_help']
+msgid "Title for the column of items the user will acquire in this trade."
+msgstr ""
+
+#: $string['image']
+msgctxt "$string['image']"
+msgid "Image"
+msgstr ""
+
+#: $string['imageandbutton']
+msgid "Image and button"
+msgstr ""
+
+#: $string['item']
+msgid "Item"
+msgstr ""
+
+#: $string['itemdetail']
+msgid "Details"
+msgstr ""
+
+#: $string['itemdetail_help']
+msgid "Details about the item."
+msgstr ""
+
+#: $string['itemimage']
+msgctxt "$string['itemimage']"
+msgid "Image"
+msgstr ""
+
+#: $string['itemimage_help']
+msgid ""
+"This image will be used to display the item. The recommended size is 100x100 "
+"pixels."
+msgstr ""
+
+#: $string['itemname']
+msgid "Item name"
+msgstr ""
+
+#: $string['itemname_help']
+msgid "The name of the item, this will be displayed to the students."
+msgstr ""
+
+#: $string['items']
+msgctxt "$string['items']"
+msgid "Items"
+msgstr ""
+
+#: $string['itemslist']
+msgid "List of items"
+msgstr ""
+
+#: $string['locations']
+msgctxt "$string['locations']"
+msgid "Locations"
+msgstr ""
+
+#: $string['loss']
+msgid "Loss"
+msgstr ""
+
+#: $string['losstitle']
+msgid "Loss title"
+msgstr ""
+
+#: $string['losstitle_help']
+msgid "Title for the column of items the user will surrender in this trade."
+msgstr ""
+
+#: $string['maxnumber']
+msgid "Maximum collectible"
+msgstr ""
+
+#: $string['maxpickup']
+msgid "Supplies"
+msgstr ""
+
+#: $string['maxpickup_help']
+msgid ""
+"The number of times the item can be picked up by each students in this "
+"location. For instance, if you set this to '1' the item will only be "
+"available once per student. If you set it to '5', each student can acquire "
+"the item five times in this location. A value different than '1' is better "
+"used in combination with the 'Collection interval'."
+msgstr ""
+
+#: $string['navdrops']
+msgctxt "$string['navdrops']"
+msgid "Locations"
+msgstr ""
+
+#: $string['navinventory']
+msgid "Stash items"
+msgstr ""
+
+#: $string['navitems']
+msgctxt "$string['navitems']"
+msgid "Items"
+msgstr ""
+
+#: $string['navreport']
+msgctxt "$string['navreport']"
+msgid "Report"
+msgstr ""
+
+#: $string['navtrade']
+msgctxt "$string['navtrade']"
+msgid "Trade"
+msgstr ""
+
+#: $string['none']
+msgid "None"
+msgstr "Κανένα"
+
+#: $string['number']
+msgid "Number"
+msgstr ""
+
+#: $string['pickupa']
+msgid "Pick up '{$a}\\"
+msgstr ""
+
+#: $string['pickupinterval']
+msgid "Collection interval"
+msgstr ""
+
+#: $string['pickupinterval_help']
+msgid ""
+"This defines the time required for the item to re-appear to students who "
+"already picked this item up. For instance, if you created an item 'cake' you "
+"could set its collection interval to 24 hours to simulate the time it takes "
+"for the baker to bake another one. It is important to note that students "
+"are not affected by the pickups of other students. This setting has no "
+"effect when 'Supplies' is set to '1'."
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Stash"
+msgstr ""
+
+#: $string['quantity']
+msgid "Quantity"
+msgstr ""
+
+#: $string['reallydeletedrop']
+msgid "Are you sure you want to delete this location?"
+msgstr ""
+
+#: $string['reallydeleteitem']
+msgid "Are you sure you want to delete this item?"
+msgstr ""
+
+#: $string['reallyresetstashof']
+msgid "Are you sure you want to completely reset the stash of {$a}?"
+msgstr ""
+
+#: $string['report']
+msgctxt "$string['report']"
+msgid "Report"
+msgstr ""
+
+#: $string['resetstashof']
+msgid "Reset the stash of {$a}"
+msgstr ""
+
+#: $string['saveandnext']
+msgid "Save and next"
+msgstr ""
+
+#: $string['savechanges']
+msgid "Save changes"
+msgstr "Αποθήκευση αλλαγών"
+
+#: $string['settings']
+msgid "Settings"
+msgstr ""
+
+#: $string['setup']
+msgid "Setup"
+msgstr ""
+
+#: $string['snippet']
+msgid "Snippet"
+msgstr ""
+
+#: $string['stash']
+msgctxt "$string['stash']"
+msgid "Stash"
+msgstr ""
+
+#: $string['stash:acquireitems']
+msgid "User is able to acquire items"
+msgstr ""
+
+#: $string['stash:addinstance']
+msgid "Add a the block to a page"
+msgstr ""
+
+#: $string['stashdisabled']
+msgid "The stash is not enabled. Was the block added to the course?"
+msgstr ""
+
+#: $string['stash:view']
+msgid "View the stash and its content"
+msgstr ""
+
+#: $string['text']
+msgid "Text"
+msgstr ""
+
+#: $string['thedrophasbeendeleted']
+msgid "The location '{$a}' has been deleted"
+msgstr ""
+
+#: $string['theitemhasbeendeleted']
+msgid "The item '{$a}' has been deleted"
+msgstr ""
+
+#: $string['thestashofhasbeenreset']
+msgid "The stash of {$a} has been reset"
+msgstr ""
+
+#: $string['thetradehasbeendeleted']
+msgid "The trade widget '{$a}' has been deleted"
+msgstr ""
+
+#: $string['thetradeitemhasbeendeleted']
+msgid "The trade item has been deleted"
+msgstr ""
+
+#: $string['title']
+msgid "Title"
+msgstr ""
+
+#: $string['trade']
+msgctxt "$string['trade']"
+msgid "Trade"
+msgstr ""
+
+#: $string['tradecreated']
+msgid "Created trade '{$a}\\"
+msgstr ""
+
+#: $string['tradeitem']
+msgid "Trade item"
+msgstr ""
+
+#: $string['tradeitems']
+msgid "Trade items"
+msgstr ""
+
+#: $string['tradelist']
+msgid "List of trade widgets"
+msgstr ""
+
+#: $string['tradename']
+msgid "Trade name"
+msgstr ""
+
+#: $string['tradename_help']
+msgid "The name of the trade widget, this may be displayed to the students."
+msgstr ""
+
+#: $string['tradewidget']
+msgid "Creating a trade."
+msgstr ""
+
+#: $string['tradewidget_help']
+msgid ""
+"<p>This trade widget allows gaining items from the left column in exchange "
+"for losing items in the right column.</p><p>Click the + symbol at the bottom "
+"of the box to add items to that column.</p><p>The quantity of an item must "
+"be a positive number.</p>"
+msgstr ""
+
+#: $string['unlimited']
+msgid "Unlimited"
+msgstr ""
+
+#: $string['whataredrops']
+msgid "What are locations?"
+msgstr ""
+
+#: $string['whatisadrophelp']
+msgid "A location is a place where you intend to display your item."
+msgstr ""
+
+#: $string['whatisatradedrophelp']
+msgid "A location is a place where you intend to display your trade widget."
+msgstr ""
+
+#: $string['whatisthisthing']
+msgid "What is this thing? I am certain you can find a use for it!"
+msgstr ""
+
+#: $string['whatsnext']
+msgid "What's next?"
+msgstr ""
+
+#: $string['whatsthis']
+msgid "What's this?"
+msgstr ""
+
+#: $string['yourinventoryisempty']
+msgid "Your inventory is empty."
+msgstr ""

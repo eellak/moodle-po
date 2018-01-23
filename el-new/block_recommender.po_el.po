@@ -1,0 +1,433 @@
+#. extracted from lang/en/block_recommender.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_recommender', language 'en', branch 'MOODLE_25_STABLE'
+#.  *
+#.  * @package   block_recommender
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['activity_filter_activities']
+msgid "All module activities"
+msgstr ""
+
+#: $string['activity_filter_activity']
+msgid "Type of item"
+msgstr ""
+
+#: $string['activity_filter_activity_help']
+msgid ""
+"<p>You can filter the results in the table below by controlling the resource "
+"and/or activity included.</p> <p>By default all activities and resources "
+"will be included within the results table.</p> <p>If you wish to only view "
+"resources that have been viewed (these would be files and resource pages) or "
+"only activities (these would be for example a forum, wiki, glossary or "
+"blog) you can use the drop down list to choose from the following three "
+"options:</p> <ol><li>All</li><li>All module resources</li><li>All module "
+"activities</li></ol><p>Please note that if your website does not include "
+"either of the above types of resource or activity the filter option will not "
+"be available.</p> <p>If you navigate away from the page your filter options "
+"will return to the default options.</p>"
+msgstr ""
+
+#: $string['activity_filter_all']
+msgid "All"
+msgstr ""
+
+#: $string['activity_filter_apply']
+msgid "Apply"
+msgstr ""
+
+#: $string['activity_filter_daterange']
+msgid "Date range"
+msgstr ""
+
+#: $string['activity_filter_daterange_help']
+msgid ""
+"<p>You can filter the results in the table below by controlling the date "
+"range over which the activity and/or resource is included.</p> <p>By default "
+"the date range is either since the user last visited the website, or since "
+"last month; whichever is the most recent date. Therefore, if you visit the "
+"website regularly you will see activity based on your last visit; if you do "
+"not visit regularly the default will be based on the activity over the last "
+"month.</p><p> Use the drop down list to choose from the following four "
+"options:</p><ol><li>Since you last visited this website</li><li>Since last "
+"month</li><li>Since last week</li><li>Since yesterday</li></ol> <p> Once you "
+"have selected the option you require the results will be updated, showing "
+"only those results that fall within the date range you have chosen.</p><p> "
+"If you navigate away from the page your filter options will return to the "
+"default options.</p>"
+msgstr ""
+
+#: $string['activity_filter_resources']
+msgid "All module resources"
+msgstr ""
+
+#: $string['activity_filter_sort']
+msgid "Sort by"
+msgstr ""
+
+#: $string['activity_filter_sort_az']
+msgid "A to Z"
+msgstr ""
+
+#: $string['activity_filter_sort_help']
+msgid ""
+"<p>You can sort the results in the table below.</p>\n"
+"<p>By default the results are ordered with the most popular activities and "
+"resources at the top. These would be the results with the highest number "
+"within the ‘Views’ column.</p>\n"
+"<p>You can also select the least viewed results, or the most or least "
+"contributions (participations), or to reorder the items alphabetically.</p>\n"
+"<p>If you navigate away from the page your filter options will return to the "
+"default options.</p>"
+msgstr ""
+
+#: $string['activity_filter_sort_leastp']
+msgid "Least contributions"
+msgstr ""
+
+#: $string['activity_filter_sort_leastviewed']
+msgid "Least viewed"
+msgstr ""
+
+#: $string['activity_filter_sort_mostp']
+msgid "Most contributions"
+msgstr ""
+
+#: $string['activity_filter_sort_mostviewed']
+msgid "Most viewed"
+msgstr ""
+
+#: $string['activity_filter_sort_za']
+msgid "Z to A"
+msgstr ""
+
+#: $string['activity_items']
+msgid "Items"
+msgstr ""
+
+#: $string['activity_lastmonth']
+msgid "Since last month"
+msgstr ""
+
+#: $string['activity_lastvisit']
+msgid "Since you last visited this website"
+msgstr ""
+
+#: $string['activity_lastweek']
+msgid "Since last week"
+msgstr ""
+
+#: $string['activity_moduleincluded']
+msgid "{$a->modname} included"
+msgstr ""
+
+#: $string['activity_more']
+msgid "More popular items"
+msgstr ""
+
+#: $string['activity_participateactions']
+msgid "Participate actions"
+msgstr ""
+
+#: $string['activity_participations']
+msgid "Participations"
+msgstr ""
+
+#: $string['activity_popularactivitiestitle']
+msgid "Popular activities"
+msgstr ""
+
+#: $string['activity_servicetitle']
+msgid "Popular activities and resources"
+msgstr ""
+
+#: $string['activity_sort']
+msgid "Results"
+msgstr ""
+
+#: $string['activity_viewactions']
+msgid "View actions"
+msgstr ""
+
+#: $string['activity_views']
+msgid "Views"
+msgstr ""
+
+#: $string['activity_yesterday']
+msgid "Since yesterday"
+msgstr ""
+
+#: $string['add']
+msgid "Add"
+msgstr ""
+
+#: $string['bookmark_addbookmark']
+msgid "Add Bookmark"
+msgstr ""
+
+#: $string['bookmark_bookmarktitle']
+msgid "Bookmarks"
+msgstr ""
+
+#: $string['bookmark_category']
+msgid "Category"
+msgstr ""
+
+#: $string['bookmark_categoryn_description']
+msgid "The title to use for category {$a}"
+msgstr ""
+
+#: $string['bookmark_categoryn_title']
+msgctxt "$string['bookmark_categoryn_title']"
+msgid "Category {$a}"
+msgstr ""
+
+#: $string['bookmark_categorytitlen']
+msgctxt "$string['bookmark_categorytitlen']"
+msgid "Category {$a}"
+msgstr ""
+
+#: $string['bookmark_confirmdeletionfull']
+msgid ""
+"Are you sure that you wish to remove the link '{$a->title}' ({$a->url})?"
+msgstr ""
+
+#: $string['bookmark_create']
+msgid "create"
+msgstr ""
+
+#: $string['bookmark_create_alt']
+msgid "Create a new shared bookmark"
+msgstr ""
+
+#: $string['bookmark_createbookmark_text']
+msgid "You may also {$a} a new bookmark"
+msgstr ""
+
+#: $string['bookmark_defaultcategory']
+msgid "Default Category"
+msgstr ""
+
+#: $string['bookmark_delete']
+msgid "Delete bookmark"
+msgstr ""
+
+#: $string['bookmark_deletetitle']
+msgid "Delete Bookmark"
+msgstr ""
+
+#: $string['bookmark_displaytype_categoryn']
+msgid "The top links from category {$a}"
+msgstr ""
+
+#: $string['bookmark_displaytype_defaultcategory']
+msgid "The top links from the default category"
+msgstr ""
+
+#: $string['bookmark_displaytype_description']
+msgid "Which links should be shown in the block"
+msgstr ""
+
+#: $string['bookmark_displaytype_title']
+msgid "Display"
+msgstr ""
+
+#: $string['bookmark_displaytype_top']
+msgid "The top link from each category"
+msgstr ""
+
+#: $string['bookmark_edit']
+msgid "Edit bookmark"
+msgstr ""
+
+#: $string['bookmark_editbookmark']
+msgid "Edit Bookmark"
+msgstr ""
+
+#: $string['bookmark_errormoving']
+msgid "Error moving bookmark item."
+msgstr ""
+
+#: $string['bookmark_more']
+msgid "More bookmarks"
+msgstr ""
+
+#: $string['bookmark_more_title']
+msgid "Bookmark Details"
+msgstr ""
+
+#: $string['bookmark_move']
+msgid "Move bookmark"
+msgstr ""
+
+#: $string['bookmark_movehere']
+msgid "Move bookmark here"
+msgstr ""
+
+#: $string['bookmark_servicetitle']
+msgid "Shared bookmarks"
+msgstr ""
+
+#: $string['bookmark_title']
+msgid "Title"
+msgstr ""
+
+#: $string['bookmark_titleinuse']
+msgid "This title is already used with the URL '{$a->url}' within this course"
+msgstr ""
+
+#: $string['bookmark_url']
+msgid "URL"
+msgstr ""
+
+#: $string['bookmark_urlinuse']
+msgid ""
+"This url is already used for the bookmark '{$a->title}' within this course"
+msgstr ""
+
+#: $string['bookmark_urlinvalid']
+msgid "This url is invalid"
+msgstr ""
+
+#: $string['course_course_shortname_pattern_description']
+msgid "This regular expression is applied to the course shortname"
+msgstr ""
+
+#: $string['course_course_shortname_pattern_title']
+msgid "Shortname Regular Expression"
+msgstr ""
+
+#: $string['course_course_url_description']
+msgid ""
+"The URL to use if a match is found in the course shortname. Any matches "
+"found in the pattern can be used within the URL using the $1 notation."
+msgstr ""
+
+#: $string['course_course_url_title']
+msgid "Link URL"
+msgstr ""
+
+#: $string['course_role']
+msgid "Popular Courses Role"
+msgstr ""
+
+#: $string['course_roledescription']
+msgid "Which role should be used to assess if a course is popular"
+msgstr ""
+
+#: $string['course_servicetitle']
+msgid "Popular websites"
+msgstr ""
+
+#: $string['enabledservices']
+msgid "Enabled services"
+msgstr ""
+
+#: $string['errorcallingservice']
+msgid "Error calling service '{$a}'."
+msgstr ""
+
+#: $string['erroremptyfield']
+msgid "Field '{$a}' is empty."
+msgstr ""
+
+#: $string['errormissingfield']
+msgid "Field '{$a}' is missing."
+msgstr ""
+
+#: $string['errornosuchservice']
+msgid "Service '{$a}' does not exist."
+msgstr ""
+
+#: $string['notifynoenabledservices']
+msgid ""
+"At least one service should be enabled in the {$a} to make this block "
+"useful."
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Recommender"
+msgstr ""
+
+#: $string['recommender:addbookmark']
+msgid "Add item to Bookmarks service"
+msgstr ""
+
+#: $string['recommender:addinstance']
+msgid "Add a new recommender block"
+msgstr ""
+
+#: $string['recommender:myaddinstance']
+msgid "Recommended My screen capability"
+msgstr ""
+
+#: $string['recommendertitle']
+msgctxt "$string['recommendertitle']"
+msgid "Recommender"
+msgstr ""
+
+#: $string['recommendertitle_help']
+msgid ""
+"<p>This block allows you to look at the most recent activity by\n"
+"other users of this website. You can view the most popular resources and "
+"activities that have been\n"
+"viewed and, if appropriate, participated in within the website.</p>\n"
+"<p>If you click on the ‘Popular activities and resources’ link below you "
+"will see the top three\n"
+"results (you can click on these titles to take you directly to the resource "
+"or activity listed) and\n"
+"a ‘more’ link where you can access a page where all the results for this "
+"website will be listed.</p>\n"
+"<p>You will be able to filter the results by date range, item type, and by "
+"the\n"
+"number of views and participations.</p>"
+msgstr ""
+
+#: $string['recommender:viewactivity']
+msgid "View Popular Activities service"
+msgstr ""
+
+#: $string['recommender:viewbookmark']
+msgid "View Bookmarks service"
+msgstr ""
+
+#: $string['recommender:viewcourse']
+msgid "View Popular Courses service"
+msgstr ""
+
+#: $string['servicedisabled']
+msgid "The '{$a->servicename}' service is currently disabled"
+msgstr ""
+
+#: $string['sortby']
+msgid ".  Sort by"
+msgstr ""

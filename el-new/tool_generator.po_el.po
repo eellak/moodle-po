@@ -1,0 +1,330 @@
+#. extracted from lang/en/tool_generator.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'tool_generator', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   tool_generator
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['bigfile']
+msgid "Big file {$a}"
+msgstr ""
+
+#: $string['courseexplanation']
+msgid ""
+"This tool creates standard test courses that include many\n"
+"sections, activities, and files.\n"
+"\n"
+"This is intended to provide a standardised measure for checking the "
+"reliability\n"
+"and performance of various system components (such as backup and restore).\n"
+"\n"
+"This test is important because there have been many cases previously where,\n"
+"faced with real-life use cases (e.g. a course with 1,000 activities), the "
+"system\n"
+"does not work.\n"
+"\n"
+"Courses created using this feature can occupy a large amount of database and\n"
+"filesystem space (tens of gigabytes). You will need to delete the courses\n"
+"(and wait for various cleanup runs) to release this space again.\n"
+"\n"
+"**Do not use this feature on a live system**. Use only on a developer "
+"server.\n"
+"(To avoid accidental use, this feature is disabled unless you have also "
+"selected\n"
+"DEVELOPER debugging level.)"
+msgstr ""
+
+#: $string['coursesize_0']
+msgid "XS (~10KB; create in ~1 second)"
+msgstr ""
+
+#: $string['coursesize_1']
+msgid "S (~10MB; create in ~30 seconds)"
+msgstr ""
+
+#: $string['coursesize_2']
+msgid "M (~100MB; create in ~2 minutes)"
+msgstr ""
+
+#: $string['coursesize_3']
+msgid "L (~1GB; create in ~30 minutes)"
+msgstr ""
+
+#: $string['coursesize_4']
+msgid "XL (~10GB; create in ~2 hours)"
+msgstr ""
+
+#: $string['coursesize_5']
+msgid "XXL (~20GB; create in ~4 hours)"
+msgstr ""
+
+#: $string['coursewithoutusers']
+msgid "The selected course has no users"
+msgstr ""
+
+#: $string['createcourse']
+msgid "Create course"
+msgstr ""
+
+#: $string['createtestplan']
+msgid "Create test plan"
+msgstr ""
+
+#: $string['creating']
+msgid "Creating course"
+msgstr ""
+
+#: $string['done']
+msgid "done ({$a}s)"
+msgstr ""
+
+#: $string['downloadtestplan']
+msgid "Download test plan"
+msgstr ""
+
+#: $string['downloadusersfile']
+msgid "Download users file"
+msgstr ""
+
+#: $string['error_nocourses']
+msgid "There are no courses to generate the test plan"
+msgstr ""
+
+#: $string['error_noforumdiscussions']
+msgid "The selected course does not contain forum discussions"
+msgstr ""
+
+#: $string['error_noforuminstances']
+msgid "The selected course does not contain forum module instances"
+msgstr ""
+
+#: $string['error_noforumreplies']
+msgid "The selected course does not contain forum replies"
+msgstr ""
+
+#: $string['error_nonexistingcourse']
+msgid "The specified course does not exist"
+msgstr ""
+
+#: $string['error_nopageinstances']
+msgid "The selected course does not contain page module instances"
+msgstr ""
+
+#: $string['error_notdebugging']
+msgid "Not available on this server because debugging is not set to DEVELOPER"
+msgstr ""
+
+#: $string['error_nouserspassword']
+msgid ""
+"You need to set $CFG->tool_generator_users_password in config.php to "
+"generate the test plan"
+msgstr ""
+
+#: $string['fullname']
+msgid "Test course: {$a->size}"
+msgstr ""
+
+#: $string['maketestcourse']
+msgid "Make test course"
+msgstr ""
+
+#: $string['maketestplan']
+msgid "Make JMeter test plan"
+msgstr ""
+
+#: $string['notenoughusers']
+msgid "The selected course does not have enough users"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Development data generator"
+msgstr ""
+
+#: $string['progress_checkaccounts']
+msgid "Checking user accounts ({$a})"
+msgstr ""
+
+#: $string['progress_coursecompleted']
+msgid "Course completed ({$a}s)"
+msgstr ""
+
+#: $string['progress_createaccounts']
+msgid "Creating user accounts ({$a->from} - {$a->to})"
+msgstr ""
+
+#: $string['progress_createassignments']
+msgid "Creating assignments ({$a})"
+msgstr ""
+
+#: $string['progress_createbigfiles']
+msgid "Creating big files ({$a})"
+msgstr ""
+
+#: $string['progress_createcourse']
+msgid "Creating course {$a}"
+msgstr ""
+
+#: $string['progress_createforum']
+msgid "Creating forum ({$a} posts)"
+msgstr ""
+
+#: $string['progress_createpages']
+msgid "Creating pages ({$a})"
+msgstr ""
+
+#: $string['progress_createsmallfiles']
+msgid "Creating small files ({$a})"
+msgstr ""
+
+#: $string['progress_enrol']
+msgid "Enrolling users into course ({$a})"
+msgstr ""
+
+#: $string['progress_sitecompleted']
+msgid "Site completed ({$a}s)"
+msgstr ""
+
+#: $string['shortsize_0']
+msgid "XS"
+msgstr ""
+
+#: $string['shortsize_1']
+msgid "S"
+msgstr ""
+
+#: $string['shortsize_2']
+msgid "M"
+msgstr ""
+
+#: $string['shortsize_3']
+msgid "L"
+msgstr ""
+
+#: $string['shortsize_4']
+msgid "XL"
+msgstr ""
+
+#: $string['shortsize_5']
+msgid "XXL"
+msgstr ""
+
+#: $string['sitesize_0']
+msgid "XS (~10MB; 3 courses, created in ~30 seconds)"
+msgstr ""
+
+#: $string['sitesize_1']
+msgid "S (~50MB; 8 courses, created in ~2 minutes)"
+msgstr ""
+
+#: $string['sitesize_2']
+msgid "M (~200MB; 73 courses, created in ~10 minutes)"
+msgstr ""
+
+#: $string['sitesize_3']
+msgid "L (~1'5GB; 277 courses, created in ~1'5 hours)"
+msgstr ""
+
+#: $string['sitesize_4']
+msgid "XL (~10GB; 1065 courses, created in ~5 hours)"
+msgstr ""
+
+#: $string['sitesize_5']
+msgid "XXL (~20GB; 4177 courses, created in ~10 hours)"
+msgstr ""
+
+#: $string['size']
+msgid "Size of course"
+msgstr ""
+
+#: $string['smallfiles']
+msgid "Small files"
+msgstr ""
+
+#: $string['targetcourse']
+msgid "Test target course"
+msgstr ""
+
+#: $string['testplanexplanation']
+msgid ""
+"This tool creates a JMeter test plan file along with the user credentials "
+"file.\n"
+"\n"
+"This test plan is designed to work along with {$a}, which makes easier to "
+"run the test plan in a specific Moodle environment, gathers information "
+"about the runs and compares the results, so you will need to download it and "
+"use it's test_runner.sh script or follow the installation and usage "
+"instructions.\n"
+"\n"
+"You need to set a password for the course users in config.php (e.g. "
+"$CFG->tool_generator_users_password = 'moodle\\"
+msgstr ""
+
+#: $string['testplansize_0']
+msgid ""
+"XS ({$a->users} users, {$a->loops} loops and {$a->rampup} rampup period)"
+msgstr ""
+
+#: $string['testplansize_1']
+msgid "S ({$a->users} users, {$a->loops} loops and {$a->rampup} rampup period)"
+msgstr ""
+
+#: $string['testplansize_2']
+msgid "M ({$a->users} users, {$a->loops} loops and {$a->rampup} rampup period)"
+msgstr ""
+
+#: $string['testplansize_3']
+msgid "L ({$a->users} users, {$a->loops} loops and {$a->rampup} rampup period)"
+msgstr ""
+
+#: $string['testplansize_4']
+msgid ""
+"XL ({$a->users} users, {$a->loops} loops and {$a->rampup} rampup period)"
+msgstr ""
+
+#: $string['testplansize_5']
+msgid ""
+"XXL ({$a->users} users, {$a->loops} loops and {$a->rampup} rampup period)"
+msgstr ""
+
+#: $string['updateuserspassword']
+msgid "Update course users password"
+msgstr ""
+
+#: $string['updateuserspassword_help']
+msgid ""
+"JMeter needs to login as the course users, you can set the users password "
+"using $CFG->tool_generator_users_password in config.php; this setting "
+"updates the course user's password according to "
+"$CFG->tool_generator_users_password. It can be useful in case you are using "
+"a course not generated by tool_generator or "
+"$CFG->tool_generator_users_password was not set when you created the test "
+"courses."
+msgstr ""

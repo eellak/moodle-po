@@ -1,0 +1,606 @@
+#. extracted from lang/en/block_quickmailsms.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_quickmailsms', language 'en', branch 'MOODLE_30_STABLE'
+#.  *
+#.  * @package   block_quickmailsms
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['actions']
+msgid "Actions"
+msgstr ""
+
+#: $string['add_all']
+msgid "Add All"
+msgstr ""
+
+#: $string['add_button']
+msgid "Add"
+msgstr ""
+
+#: $string['addionalemail']
+msgid "Allow SMSs to external email addresses"
+msgstr ""
+
+#: $string['addionalemail_desc']
+msgid ""
+"If this option is enabled quickmailsms texts are also sent so external test "
+"adresses the user entered within the form."
+msgstr ""
+
+#: $string['additional_emails']
+msgid "Additional SMSs"
+msgstr ""
+
+#: $string['additional_emails_help']
+msgid ""
+"Other SMS addresses you would like the message sent to, in a comma or "
+"semicolon separated list. Example:\n"
+"\n"
+" SMS1@example.com, SMS2@example.com"
+msgstr ""
+
+#: $string['admin_email_send_receipt']
+msgid "Admin SMS Send Receipt"
+msgstr ""
+
+#: $string['allowstudents']
+msgid "Allow students to use QuickmailSMS"
+msgstr ""
+
+#: $string['allowstudentsdesc']
+msgid ""
+"Allow students to use QuickmailSMS. If you choose \"Never\", the block cannot "
+"be configured to allow students access at the course level."
+msgstr ""
+
+#: $string['all_sections']
+msgid "All Groups"
+msgstr ""
+
+#: $string['allusers']
+msgid "All Users"
+msgstr ""
+
+#: $string['alternate']
+msgid "Alternate SMSs"
+msgstr ""
+
+#: $string['alternate_body']
+msgid ""
+"<p>\n"
+"{$a->fullname} added {$a->address} as an alternate sending address for "
+"{$a->course}.\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"The purpose of this SMS was to verify that this address exists, and the "
+"owner\n"
+"of this address has the appropriate permissions in Moodle.\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"If you wish to complete the verification process, please continue by "
+"directing\n"
+"your browser to the following url: {$a->url}.\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"If the description of this SMS does not make any sense to you, then you may "
+"have\n"
+"received it by mistake. Simply discard this message.\n"
+"</p>\n"
+"\n"
+"Thank you."
+msgstr ""
+
+#: $string['alternate_from']
+msgid "Moodle: QuickmailSMS"
+msgstr ""
+
+#: $string['alternate_new']
+msgid "Add Alternate Address"
+msgstr ""
+
+#: $string['alternate_subject']
+msgid "Alternate SMS address verification"
+msgstr ""
+
+#: $string['approved']
+msgid "Approved"
+msgstr ""
+
+#: $string['are_you_sure']
+msgid ""
+"Are you sure you want to delete {$a->title}? This action\n"
+"cannot be reversed."
+msgstr ""
+
+#: $string['attachment']
+msgid "Attachment(s)"
+msgstr ""
+
+#: $string['backup_block_configuration']
+msgid ""
+"Backup QuickmailSMS Block Level Configuration Settings (Such as [Allow "
+"Students to use QuickmailSMS])"
+msgstr ""
+
+#: $string['backup_history']
+msgid "Include QuickmailSMS History"
+msgstr ""
+
+#: $string['body']
+msgid "Body"
+msgstr ""
+
+#: $string['composenew']
+msgid "Compose New SMS"
+msgstr ""
+
+#: $string['config']
+msgid "Configuration"
+msgstr ""
+
+#: $string['courseferpa']
+msgid "Respect Course Mode"
+msgstr ""
+
+#: $string['courselayout']
+msgid "Course Layout"
+msgstr ""
+
+#: $string['courselayout_desc']
+msgid ""
+"Use _Course_ page layout  when rendering the QuickmailSMS block pages. "
+"Enable this setting, if you are getting Moodle form fixed width issues."
+msgstr ""
+
+#: $string['default_flag']
+msgid "Default"
+msgstr ""
+
+#: $string['delete_confirm']
+msgid ""
+"Are you sure you want to delete message with the following details: {$a}"
+msgstr ""
+
+#: $string['delete_failed']
+msgid "Failed to delete SMS"
+msgstr ""
+
+#: $string['download_all']
+msgid "Download All"
+msgstr ""
+
+#: $string['download_auth_only']
+msgid "Authorized Users Only"
+msgstr ""
+
+#: $string['download_open']
+msgid "Open Downloads"
+msgstr ""
+
+#: $string['downloads']
+msgid "Require login for attachments"
+msgstr ""
+
+#: $string['downloads_desc']
+msgid ""
+"This setting determines if attachments are available only to logged in "
+"Moodle users"
+msgstr ""
+
+#: $string['drafts']
+msgid "View Drafts"
+msgstr ""
+
+#: $string['draftssuccess']
+msgid "Draft"
+msgstr ""
+
+#: $string['email']
+msgid "SMS"
+msgstr ""
+
+#: $string['email_error']
+msgid "Could not SMS: {$a->firstname} {$a->lastname} ({$a->SMS})"
+msgstr ""
+
+#: $string['email_error_field']
+msgid "Can not have an empty: {$a}"
+msgstr ""
+
+#: $string['entry_activated']
+msgid "Alternate SMS {$a->address} can now be used in {$a->course}."
+msgstr ""
+
+#: $string['entry_failure']
+msgid ""
+"An SMS could not be sent to {$a->address}. Please verify that {$a->address} "
+"exists, and try again."
+msgstr ""
+
+#: $string['entry_key_not_valid']
+msgid ""
+"Activation link is no longer valid for {$a->address}. Continue to resend "
+"activation link."
+msgstr ""
+
+#: $string['entry_saved']
+msgid "Alternate address {$a->address} has been saved."
+msgstr ""
+
+#: $string['entry_success']
+msgid ""
+"An SMS to verify that the address is valid has been sent to {$a->address}. "
+"Instructions on how to activate the address is contained in its contents."
+msgstr ""
+
+#: $string['eventalternateemailadded']
+msgid "Alternate Sms added"
+msgstr ""
+
+#: $string['failed_to_send_to']
+msgid "failed to send to"
+msgstr ""
+
+#: $string['ferpa']
+msgid "FERPA Mode"
+msgstr ""
+
+#: $string['ferpa_desc']
+msgid ""
+"Allows the system to behave either according to the course groupmode "
+"setting, ignoring the groupmode setting but separating groups, or ignoring "
+"groups altogether."
+msgstr ""
+
+#: $string['from']
+msgid "From"
+msgstr ""
+
+#: $string['history']
+msgctxt "$string['history']"
+msgid "View History"
+msgstr ""
+
+#: $string['log']
+msgctxt "$string['log']"
+msgid "View History"
+msgstr ""
+
+#: $string['logsuccess']
+msgctxt "$string['logsuccess']"
+msgid "all messages sent successfully"
+msgstr ""
+
+#: $string['message']
+msgid "Message"
+msgstr ""
+
+#: $string['message_body_as_follows']
+msgid "message body as follows"
+msgstr ""
+
+#: $string['message_failure']
+msgid "some users did not get message"
+msgstr ""
+
+#: $string['messageprovider:broadcast']
+msgid "Send broadcast messages using Admin SMS."
+msgstr ""
+
+#: $string['message_sent_to']
+msgid "Message sent to"
+msgstr ""
+
+#: $string['moodle_attachments']
+msgid "Moodle Attachments ({$a})"
+msgstr ""
+
+#: $string['no_agreement']
+msgid "User did not agree to receive SMS messages."
+msgstr ""
+
+#: $string['no_alternates']
+msgid "No alternate SMSs found for {$a->fullname}. Continue to make one."
+msgstr ""
+
+#: $string['no_course']
+msgid "Invalid Course with id of {$a}"
+msgstr ""
+
+#: $string['no_drafts']
+msgid "You have no SMS drafts."
+msgstr ""
+
+#: $string['no_email']
+msgid "Could not SMS {$a->firstname} {$a->lastname}."
+msgstr ""
+
+#: $string['no_email_address']
+msgid "Could not SMS {$a}"
+msgstr ""
+
+#: $string['noferpa']
+msgid "No Group Respect"
+msgstr ""
+
+#: $string['no_filter']
+msgid "No filter"
+msgstr ""
+
+#: $string['no_log']
+msgid "You have no SMS history yet."
+msgstr ""
+
+#: $string['no_permission']
+msgid "You do not have permission to send SMSs with QuickmailSMS."
+msgstr ""
+
+#: $string['noreply']
+msgid "No-Reply"
+msgstr ""
+
+#: $string['no_section']
+msgid "Not in a group"
+msgstr ""
+
+#: $string['no_selected']
+msgid "You must select some users for SMSing."
+msgstr ""
+
+#: $string['no_subject']
+msgid "You must have a subject"
+msgstr ""
+
+#: $string['not_valid']
+msgid "This is not a valid SMS log viewer type: {$a}"
+msgstr ""
+
+#: $string['not_valid_action']
+msgid "You must provide a valid action: {$a}"
+msgstr ""
+
+#: $string['not_valid_typeid']
+msgid "You must provide a valid SMS for {$a}"
+msgstr ""
+
+#: $string['not_valid_user']
+msgid "You can not view other SMS history."
+msgstr ""
+
+#: $string['no_type']
+msgid ""
+"{$a} is not in the acceptable type viewer. Please use the applciation "
+"correctly."
+msgstr ""
+
+#: $string['no_usergroups']
+msgid "There are no users in your group capable of being SMSed."
+msgstr ""
+
+#: $string['no_users']
+msgid "There are no users you are capable of SMSing."
+msgstr ""
+
+#: $string['overwrite_history']
+msgid "Overwrite QuickmailSMS History"
+msgstr ""
+
+#: $string['pluginname']
+msgid "QuickmailSMS"
+msgstr ""
+
+#: $string['potential_sections']
+msgid "Potential Groups"
+msgstr ""
+
+#: $string['potential_users']
+msgid "Potential Recipients"
+msgstr ""
+
+#: $string['prepend_class']
+msgid "Prepend Course name"
+msgstr ""
+
+#: $string['prepend_class_desc']
+msgid ""
+"Prepend the course shortname to the subject of\n"
+"the SMS."
+msgstr ""
+
+#: $string['qm_contents']
+msgid "Download File Contents"
+msgstr ""
+
+#: $string['quickmailsms:addinstance']
+msgid "Add a new QuickmailSMS block to a course page"
+msgstr ""
+
+#: $string['quickmailsms:allowalternate']
+msgid "Allows users to add an alternate SMS for courses."
+msgstr ""
+
+#: $string['quickmailsms:canconfig']
+msgid "Allows users to configure QuickmailSMS instance."
+msgstr ""
+
+#: $string['quickmailsms:candelete']
+msgid "Allows users to delete SMS from history."
+msgstr ""
+
+#: $string['quickmailsms:canimpersonate']
+msgid "Allows users to log in as other users and view history."
+msgstr ""
+
+#: $string['quickmailsms:cansend']
+msgid "Allows users to send SMS through QuickmailSMS"
+msgstr ""
+
+#: $string['quickmailsms:myaddinstance']
+msgid "Add a new QuickmailSMS block to the /my page"
+msgstr ""
+
+#: $string['receipt']
+msgid "Receive a copy"
+msgstr ""
+
+#: $string['receipt_help']
+msgid "Receive a copy of the SMS being sent"
+msgstr ""
+
+#: $string['remove_all']
+msgid "Remove All"
+msgstr ""
+
+#: $string['remove_button']
+msgid "Remove"
+msgstr ""
+
+#: $string['required']
+msgid "Please fill in the required fields."
+msgstr ""
+
+#: $string['reset']
+msgid "Restore System Defaults"
+msgstr ""
+
+#: $string['restore_history']
+msgid "Restore QuickmailSMS History"
+msgstr ""
+
+#: $string['role_filter']
+msgid "Role Filter"
+msgstr ""
+
+#: $string['save_draft']
+msgid "Save Draft"
+msgstr ""
+
+#: $string['seconds']
+msgid "seconds"
+msgstr ""
+
+#: $string['selected']
+msgid "Selected Recipients"
+msgstr ""
+
+#: $string['select_groups']
+msgid "Select Sections ..."
+msgstr ""
+
+#: $string['select_roles']
+msgid "Roles to filter by"
+msgstr ""
+
+#: $string['select_users']
+msgid "Select Users ..."
+msgstr ""
+
+#: $string['sendadmin']
+msgid "Send Admin SMS"
+msgstr ""
+
+#: $string['send_again']
+msgid "send again"
+msgstr ""
+
+#: $string['send_email']
+msgid "Send SMS"
+msgstr ""
+
+#: $string['sent_success']
+msgctxt "$string['sent_success']"
+msgid "all messages sent successfully"
+msgstr ""
+
+#: $string['sent_successfully_to_the_following_users']
+msgid "sent successfully to the following users:"
+msgstr ""
+
+#: $string['sig']
+msgid "Signature"
+msgstr ""
+
+#: $string['signature']
+msgid "Signatures"
+msgstr ""
+
+#: $string['something_broke']
+msgid ""
+"It looks like you either have SMS sending disabled or things are very broken"
+msgstr ""
+
+#: $string['status']
+msgid "status"
+msgstr ""
+
+#: $string['strictferpa']
+msgid "Always Separate Groups"
+msgstr ""
+
+#: $string['subject']
+msgid "Subject"
+msgstr ""
+
+#: $string['sure']
+msgid ""
+"Are you sure you want to delete {$a->address}? This action cannot be undone."
+msgstr ""
+
+#: $string['time_elapsed']
+msgid "Time Elapsed:"
+msgstr ""
+
+#: $string['title']
+msgid "Title"
+msgstr ""
+
+#: $string['user']
+msgid "user"
+msgstr ""
+
+#: $string['users']
+msgid "users"
+msgstr ""
+
+#: $string['valid']
+msgid "Activation Status"
+msgstr ""
+
+#: $string['waiting']
+msgid "Waiting"
+msgstr ""
+
+#: $string['warnings']
+msgid "Warnings"
+msgstr ""

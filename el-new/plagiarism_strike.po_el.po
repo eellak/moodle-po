@@ -1,0 +1,604 @@
+#. extracted from lang/en/plagiarism_strike.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'plagiarism_strike', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   plagiarism_strike
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addrefauto']
+msgid "Automatically add document references after checking"
+msgstr ""
+
+#: $string['addrefmanual']
+msgid "Manually add document references after checking"
+msgstr ""
+
+#: $string['allowallsupportedfiles']
+msgid "Allow all supported file types"
+msgstr ""
+
+#: $string['allowallsupportedfiles_help']
+msgid ""
+"This allows the teacher to restrict which file types will be sent to "
+"StrikePlagiarism.com for processing. It does not prevent students from "
+"uploading different file types to the assignment."
+msgstr ""
+
+#: $string['analysis:auto']
+msgid "automated"
+msgstr ""
+
+#: $string['analysis:awaitchoice']
+msgid "awaiting choice"
+msgstr ""
+
+#: $string['analysis:manual']
+msgid "manual"
+msgstr ""
+
+#: $string['apidebuggingemail']
+msgid "Enable email debugging?"
+msgstr ""
+
+#: $string['apidebuggingemailaddress']
+msgid "Email debugging recipient."
+msgstr ""
+
+#: $string['apidebuggingemail_help']
+msgid ""
+"Enable this option if you want to receive the API debugging output in your "
+"email.<br/>\n"
+"If you enable this, the trace output will be send to the specified email "
+"address.<br/>\n"
+"NOTE: This can cause a lot of emails to be sent.<br/>\n"
+"NOTE 2: This method makes use of the default mail() function, and will not "
+"alway be available. It works outside of the Moodle mail functions."
+msgstr ""
+
+#: $string['apidebuggingerrorlog']
+msgid "Enable error_log debugging?"
+msgstr ""
+
+#: $string['apidebuggingerrorlog_help']
+msgid ""
+"Enable this option if you want to see the API debugging output as error_log "
+"output.<br/>\n"
+"If you enable this, the trace output will be visible in webserver / php "
+"error_log.<br/>\n"
+"NOTE: This will not always be visible depending on how your webserver or PHP "
+"is configured."
+msgstr ""
+
+#: $string['apidebuggingmtrace']
+msgid "Enable mtrace debugging?"
+msgstr ""
+
+#: $string['apidebuggingmtrace_help']
+msgid ""
+"Enable this option if you want to see the API debugging output as mtrace() "
+"output.<br/>\n"
+"If you enable this, the trace output will be visible in your background task "
+"output (CRON)."
+msgstr ""
+
+#: $string['awaitanalysischoice']
+msgid "Awaiting choice to submit to StrikePlagiarism.com for analysis"
+msgstr ""
+
+#: $string['cmoverview']
+msgid "Strike course module submission status"
+msgstr ""
+
+#: $string['config:defaults']
+msgid "StrikePlagiarism.com plagiarism module configuration defaults"
+msgstr ""
+
+#: $string['config:plagiarism']
+msgid "Global plagiarism configuration values"
+msgstr ""
+
+#: $string['deletereportkeep']
+msgid "Keep old similarity reports for deleted/updated submissions"
+msgstr ""
+
+#: $string['deletereportremove']
+msgid "Remove old similarity reports for deleted/updated submissions"
+msgstr ""
+
+#: $string['deletestrikefile']
+msgid "Delete local StrikePlagiarism.com file reference"
+msgstr ""
+
+#: $string['docsendingall']
+msgid "Send all documents for analysis"
+msgstr ""
+
+#: $string['docsendingchoose']
+msgid "Choose documents to send for analysis"
+msgstr ""
+
+#: $string['docsendmode']
+msgid "Document sending"
+msgstr ""
+
+#: $string['docsendmode_help']
+msgid ""
+"Choose the method to send document for analysis. This can be either by "
+"choice (meaning the teacher selects documents to send for analysis) or all "
+"(meaning all documents are sent for analysis by default)"
+msgstr ""
+
+#: $string['enableapidebugging']
+msgid "Enable API debugging"
+msgstr ""
+
+#: $string['enableapidebugging_help']
+msgid ""
+"Turn this option on if you want extended debugging provided by the "
+"StrikePlagiarism.com API.<br/>\n"
+"Multiple debugging methods are available. Do note the debugging will "
+"<i>only</i> consist of communication/traffic information on the "
+"StrikePlagiarism.com API."
+msgstr ""
+
+#: $string['filereset']
+msgid "A file has been reset for re-submission to StrikePlagiarism.com"
+msgstr ""
+
+#: $string['fileresetfailed']
+msgid ""
+"Error: file has not been reset for re-submission to StrikePlagiarism.com"
+msgstr ""
+
+#: $string['form:desc:defaults']
+msgid ""
+"Below you can enter all default settings that will be used when a new "
+"activity module is created and has to be configured.<br/>\n"
+"The values entered here will serve as default values for the "
+"StrikePlagiarism configuration for that activity module."
+msgstr ""
+
+#: $string['indexdocument']
+msgid "Include submission to StrikePlagiarism.com database"
+msgstr ""
+
+#: $string['label:actions']
+msgid "Action(s)"
+msgstr ""
+
+#: $string['label:analysisstatus']
+msgid "Analysis status"
+msgstr ""
+
+#: $string['label:author']
+msgid "Author"
+msgstr ""
+
+#: $string['label:filename']
+msgid "Filename"
+msgstr ""
+
+#: $string['label:modname']
+msgid "Module"
+msgstr ""
+
+#: $string['label:reportstatus']
+msgid "Report status"
+msgstr ""
+
+#: $string['label:status']
+msgid "Status"
+msgstr ""
+
+#: $string['label:timesubmitted']
+msgid "Submitted on"
+msgstr ""
+
+#: $string['label:user']
+msgid "User"
+msgstr ""
+
+#: $string['messageprovider:strikenotification']
+msgid "StrikePlagiarism.com error notifications"
+msgstr ""
+
+#: $string['notification:errormessage']
+msgid ""
+"<p>Dear {$a->fullname}<p>\n"
+"<p>An error occured in the StrikePlagiarism.com plagiarism plugin in "
+"'{$a->instancename}' in course '{$a->coursefullname}'.<br/>\n"
+"The error raised was: {$a->errormessage}.</p>\n"
+"<p>Below are the file details:<br/>\n"
+"Author: {$a->strikefileauthor}<br/>\n"
+"Coordinator: {$a->strikefilecoordinator}<br/>\n"
+"Title: {$a->strikefiletitle}<br/>\n"
+"Filename: {$a->strikefilename}<br/>\n"
+"GUID: {$a->strikefileguid}<br/>\n"
+"Time created: {$a->strikefiletimecreated}\n"
+"</p>\n"
+"<p>Please go to <a href=\"{$a->contexturl}\">{$a->contexturlname}</a> for more "
+"details</p>\n"
+"<p>Regards,<br/>{$a->signoff}</p>"
+msgstr ""
+
+#: $string['notification:subject']
+msgid "StrikePlagiarism.com plagiarism message [{$a}]"
+msgstr ""
+
+#: $string['notifyteachers']
+msgid "Notify teacher(s)"
+msgstr ""
+
+#: $string['pending']
+msgid "File is pending submission to StrikePlagiarism.com"
+msgstr ""
+
+#: $string['pluginname']
+msgid "StrikePlagiarism.com"
+msgstr ""
+
+#: $string['previouslysubmitted']
+msgid "Previously submitted as"
+msgstr ""
+
+#: $string['processing']
+msgid ""
+"File has been submitted to StrikePlagiarism.com and is awaiting analysis to "
+"complete"
+msgstr ""
+
+#: $string['report']
+msgid "StrikePlagiarism report"
+msgstr ""
+
+#: $string['report:available']
+msgid "Available"
+msgstr ""
+
+#: $string['reportclick']
+msgid "Link to StrikePlagiarism report"
+msgstr ""
+
+#: $string['report:na']
+msgid "N/A"
+msgstr ""
+
+#: $string['report:ready']
+msgid "Ready"
+msgstr ""
+
+#: $string['restrictcontent']
+msgid "Submit attached files and in-line text"
+msgstr ""
+
+#: $string['restrictcontentfiles']
+msgid "Only submit attached files"
+msgstr ""
+
+#: $string['restrictcontent_help']
+msgid ""
+"StrikePlagiarism.com can process uploaded files but can also process in-line "
+"text from forum posts and text from the online text assignment submission "
+"type. You can decide which components to send to StrikePlagiarism.com."
+msgstr ""
+
+#: $string['restrictcontentno']
+msgid "Submit everything"
+msgstr ""
+
+#: $string['restrictcontenttext']
+msgid "Only submit in-line text"
+msgstr ""
+
+#: $string['restrictfiles']
+msgid "File types to submit"
+msgstr ""
+
+#: $string['sendforanalysis']
+msgid "Add submission to StrikePlagiarism.com for analysis"
+msgstr ""
+
+#: $string['showwhenclosed']
+msgid "When Activity closed"
+msgstr ""
+
+#: $string['similarity1']
+msgid "Similarity Coefficient 1"
+msgstr ""
+
+#: $string['similarity2']
+msgid "Similarity Coefficient 2"
+msgstr ""
+
+#: $string['similarity3']
+msgid "Similarity Coefficient 3"
+msgstr ""
+
+#: $string['similarity4']
+msgid "Similarity Coefficient 4"
+msgstr ""
+
+#: $string['similarity5']
+msgid "Similarity Coefficient 5"
+msgstr ""
+
+#: $string['str:debug']
+msgid "Strike Debug"
+msgstr ""
+
+#: $string['str:defaults']
+msgid "Strike Defaults"
+msgstr ""
+
+#: $string['str:dump']
+msgid "Strike Dump"
+msgstr ""
+
+#: $string['strike']
+msgid "StrikePlagiarism.com plugin"
+msgstr ""
+
+#: $string['strike_addref_method']
+msgid "Add reference method."
+msgstr ""
+
+#: $string['strike_addref_method_help']
+msgid ""
+"This defines the way documents that are checked by StrikePlagiarism.com are "
+"added to the reference database.<br/>\n"
+"It is highly adviced to set this to AUTOMATIC, so checked documents are "
+"automatically added to the reference database."
+msgstr ""
+
+#: $string['strike_defaultlang']
+msgid "Default document language"
+msgstr ""
+
+#: $string['strike_defaultlang_help']
+msgid ""
+"This is the default language used to send documents to StrikePlagiarism.com. "
+"It is a mandatory parameter to their API, however Moodle does not know this "
+"type of information"
+msgstr ""
+
+#: $string['strike_deletereport_method']
+msgid "Similarity report deletion."
+msgstr ""
+
+#: $string['strike_deletereport_method_help']
+msgid ""
+"This defines the way similarity reports are deleted whenever a submission is "
+"deleted or updated.<br/>\n"
+"Possible methods are:\n"
+"<ul>\n"
+"<li>keep: Keeps old similarity reports</li>\n"
+"<li>remove: Removes old similarity reports</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['strike_draft_submit']
+msgid "When should the file be submitted"
+msgstr ""
+
+#: $string['strike_enableplugin']
+msgid "Enable StrikePlagiarism.com for {$a}"
+msgstr ""
+
+#: $string['strikeexplain']
+msgid ""
+"For more information on this antiplagiarism system and how it works see: <a "
+"href=\"http://www.strikeplagiarism.com\">www.StrikePlagiarism.com</a>"
+msgstr ""
+
+#: $string['strikekey']
+msgid "Strike API Key"
+msgstr ""
+
+#: $string['strikekey_help']
+msgid ""
+"API Key to use with strike<br/>You need to obtain an StrikePlagiarism.com ID "
+"key to use this plugin. For more information please contact us via website "
+"contact form on <a "
+"href=\"http://www.strikeplagiarism.com\">www.StrikePlagiarism.com</a>"
+msgstr ""
+
+#: $string['strikeplagiarism']
+msgid "Strike plagiarism"
+msgstr ""
+
+#: $string['strikeserver']
+msgid "Strike API Host"
+msgstr ""
+
+#: $string['strikeserver_help']
+msgid ""
+"Strike server hostname or ip address. Enter StrikePlagiarism.com IP address "
+"with http or https"
+msgstr ""
+
+#: $string['strike_show_student_report']
+msgid "Show similarity report to student"
+msgstr ""
+
+#: $string['strike_show_student_report_help']
+msgid ""
+"The similarity report gives a breakdown on what parts of the submission were "
+"plagiarised and the location that StrikePlagiarism.com first saw this "
+"content"
+msgstr ""
+
+#: $string['strike_show_student_score']
+msgid "Show similarity score to student"
+msgstr ""
+
+#: $string['strike_show_student_score_help']
+msgid ""
+"The similarity score is the percentage of the submission that has been "
+"matched with other content."
+msgstr ""
+
+#: $string['strike_show_student_status']
+msgid "Show StrikePlagiarism.com status to student"
+msgstr ""
+
+#: $string['strike_show_student_status_help']
+msgid ""
+"The status allows students to see the status of submissions to "
+"StrikePlagiarism.com."
+msgstr ""
+
+#: $string['strikestudentdisclosure']
+msgctxt "$string['strikestudentdisclosure']"
+msgid ""
+"I agree that all files which I uploaded might be submitted to the Internet "
+"Antiplagiarism System StrikePlagiarism.com in order to check oryginality of "
+"the text"
+msgstr ""
+
+#: $string['strike_studentemail']
+msgid "Send student email"
+msgstr ""
+
+#: $string['strike_studentemail_help']
+msgid ""
+"This will send an e-mail to the student when a file has been processed to "
+"let them know that a report is available, the e-mail also includes the opt-"
+"out link."
+msgstr ""
+
+#: $string['str:settings']
+msgid "Strike Settings"
+msgstr ""
+
+#: $string['studentdisclosure']
+msgid "Student Disclosure"
+msgstr ""
+
+#: $string['studentdisclosuredefault']
+msgctxt "$string['studentdisclosuredefault']"
+msgid ""
+"I agree that all files which I uploaded might be submitted to the Internet "
+"Antiplagiarism System StrikePlagiarism.com in order to check oryginality of "
+"the text"
+msgstr ""
+
+#: $string['studentdisclosure_help']
+msgid ""
+"This text will be displayed to all students on the file upload page. It has "
+"to be agreed on in order to proceed with submission."
+msgstr ""
+
+#: $string['studentemailcontent']
+msgid ""
+"<p>Dear {$a->firstname} {$a->lastname},</p>\n"
+"The file you submitted to {$a->modulename} in {$a->coursename} has now been "
+"processed by StrikePlagiarism.com.<br/>\n"
+"{$a->modulelink}<br/>\n"
+"Regards,\n"
+"{$a->admin}"
+msgstr ""
+
+#: $string['studentemailsubject']
+msgid "Submission processed by StrikePlagiarism.com Plagiarism"
+msgstr ""
+
+#: $string['submitondraft']
+msgid "Submit file when first uploaded"
+msgstr ""
+
+#: $string['submitonfinal']
+msgid "Submit file when student sends for marking"
+msgstr ""
+
+#: $string['task:getreports']
+msgid "Synchronize StrikePlagiarism.com plagiarism reports"
+msgstr ""
+
+#: $string['task:sendfiles']
+msgid "Send files to StrikePlagiarism.com plagiarism API"
+msgstr ""
+
+#: $string['task:syncreport']
+msgid "Synchronize StrikePlagiarism.com report for plagiarism document"
+msgstr ""
+
+#: $string['toolarge']
+msgid "File is too big to be submitted to StrikePlagiarism.com"
+msgstr ""
+
+#: $string['unknownwarning']
+msgid "There was an error submitting this file to StrikePlagiarism.com"
+msgstr ""
+
+#: $string['unsupported']
+msgctxt "$string['unsupported']"
+msgid "File type is not supported by StrikePlagiarism.com"
+msgstr ""
+
+#: $string['unsupportedfiletype']
+msgctxt "$string['unsupportedfiletype']"
+msgid "File type is not supported by StrikePlagiarism.com"
+msgstr ""
+
+#: $string['useadminnotifications']
+msgid "Notify admin about errors?"
+msgstr ""
+
+#: $string['useadminnotifications_help']
+msgid ""
+"Notifies admin about errors when various errors occur (e.g. when "
+"communicating with the StrikePlagiarism.com API)"
+msgstr ""
+
+#: $string['usestrike']
+msgid "Use strike plagiarism plugin"
+msgstr ""
+
+#: $string['useteachernotifications']
+msgid "Notify teacher(s) about errors?"
+msgstr ""
+
+#: $string['useteachernotifications_help']
+msgid ""
+"Notifies teacher(s) about errors when various errors occur (e.g. when "
+"communicating with the StrikePlagiarism.com API)"
+msgstr ""
+
+#: $string['wordcount']
+msgid "Minimum word count"
+msgstr ""
+
+#: $string['wordcount_help']
+msgid ""
+"This sets a minimum limit on the number of words that are required for in-"
+"line text (forum posts and online assignment type) before the content will "
+"be sent to StrikePlagiarism.com."
+msgstr ""

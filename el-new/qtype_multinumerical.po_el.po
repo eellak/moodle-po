@@ -1,0 +1,193 @@
+#. extracted from lang/en/qtype_multinumerical.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qtype_multinumerical', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   qtype_multinumerical
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['answer']
+msgid "Your answer: {$a}"
+msgstr ""
+
+#: $string['badfeedbackperconditionsyntax']
+msgid ""
+"Each line must be of the form : &quot;Feedback if condition true | Feedback "
+"if condition false&quot;"
+msgstr ""
+
+#: $string['badnumfeedbackperconditions']
+msgid ""
+"The number of per constraint feedbacks can not be higher than the number of "
+"constraints"
+msgstr ""
+
+#: $string['binarygrade']
+msgid "Grade calculation"
+msgstr ""
+
+#: $string['conditionnotverified']
+msgid "Unverified constraint"
+msgstr ""
+
+#: $string['conditions']
+msgid "Constraints"
+msgstr ""
+
+#: $string['conditionverified']
+msgid "Verified constraint"
+msgstr ""
+
+#: $string['displaycalc']
+msgid "Display calculation result"
+msgstr ""
+
+#: $string['feedbackperconditions']
+msgid "Per constraint feedback"
+msgstr ""
+
+#: $string['gradebinary']
+msgid "All or nothing"
+msgstr ""
+
+#: $string['gradefractional']
+msgid "Fractional"
+msgstr ""
+
+#: $string['helponquestionoptions']
+msgid ""
+"For more information on this question type and the behaviour of the "
+"following options, please click the help button at the top of this form."
+msgstr ""
+
+#: $string['noncomputable']
+msgid "(correct answers not computable automatically)"
+msgstr ""
+
+#: $string['onlyforcalculations']
+msgid "Only for calculations"
+msgstr ""
+
+#: $string['parameters']
+msgid "Parameters"
+msgstr ""
+
+#: $string['pleaseenterananswer']
+msgid "Please enter an answer"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Multinumerical"
+msgstr ""
+
+#: $string['pluginnameadding']
+msgid "Adding a Multinumerical question"
+msgstr ""
+
+#: $string['pluginnameediting']
+msgid "Editing a Multinumerical question"
+msgstr ""
+
+#: $string['pluginname_help']
+msgid ""
+"<h2>How this works</h2>\n"
+"<p>A multinumerical question allows to ask students for an answer made of "
+"several (numeric) parameters.</p>\n"
+"<p><strong>Example:</strong> find <span style=\"font-"
+"family:monospace\">X</span> and <span style=\"font-family:monospace\">Y</span> "
+"such that </p>\n"
+"<ul><li>X + Y &lt; 20</li><li>X * Y &gt; 35</li></ul>\n"
+"<p>There are <em>possibly</em> several correct answers to this question, and "
+"any answer satisfying these conditions should be considered correct.</p>\n"
+"<p>This question type allows then to define the parameters we're looking for "
+"(here, <span style=\"font-family:monospace\">X</span> and <span style=\"font-"
+"family:monospace\">Y</span>) and the given constraints.</p>\n"
+"<h2>Usage</h2>\n"
+"<ul>\n"
+"\t<li>Enter a list of comma-separated parameters (in our example &quot;<span "
+"style=\"font-family:monospace\">X,Y</span>&quot;).<br />\n"
+"\t<strong>Note :</strong> units may be entered after each parameter:\n"
+"\t&quot;<span style=\"font-family:monospace\">X [m],Y [h]</span>&quot; (a blank "
+"space has to exist between the parameter and its unit).</li>\n"
+"\t<li>Enter the constraints, one per line; in our example: <pre>X + Y &lt; 20\n"
+"X * Y &gt; 35</pre>(empty lines will be ignored)\n"
+"    <p>Available operators are : <ul>\n"
+"        <li>&quot;<span style=\"font-family:monospace\">=</span>&quot; "
+"(equality)</li>\n"
+"        <li>&quot;<span style=\"font-family:monospace\">&lt;</span>&quot; "
+"(less than)</li>\n"
+"        <li>&quot;<span style=\"font-family:monospace\">&lt;=</span>&quot; "
+"(less or equal)</li>\n"
+"        <li>&quot;<span style=\"font-family:monospace\">&gt;</span>&quot; "
+"(greater than)</li>\n"
+"        <li>&quot;<span style=\"font-family:monospace\">&gt;=</span>&quot; "
+"(greater or equal)</li>\n"
+"        <li>intervals:\n"
+"            <pre><span style=\"font-family:monospace\">X = [1;5]</span></pre> "
+"(closed)\n"
+"            <pre><span style=\"font-family:monospace\">X = ]1;5[</span></pre> "
+"(open)\n"
+"        </li>\n"
+"    </ul></p></li>\n"
+"\t<li>Enter if desired a feedback for each constraint. In our example, one "
+"could enter:\n"
+"    <pre>OK : X + Y &lt; 20 | No, X + Y &gt;= 20 !\n"
+"OK : X * Y &gt; 35 | No, X + Y &lt;= 35 !</pre>\n"
+"    </li>\n"
+"    <li>If &quot;Display calculation result&quot; is checked, the feedback "
+"will display a numerical evaluation of each of the constraints.\n"
+"    This is only displayed if the feedback for this constraint is not "
+"empty.<br />\n"
+"    If &quot;Only for calculations&quot; is checked, this will not be "
+"displayed for non-calculated constraints (such as <span style=\"font-"
+"family:monospace\">X&nbsp;>&nbsp;5</span>), in order to not give away the "
+"answer to the learner.</li>\n"
+"    <li>The &quot;Grade calculation&quot; option defines whether a partially "
+"correct answer yields a fraction of the grade, or the null grade.</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['pluginname_link']
+msgid "question/type/multinumerical"
+msgstr ""
+
+#: $string['pluginnamesummary']
+msgid ""
+"Allows to create a question whose correct answers may be many, governed by "
+"equations or inequations."
+msgstr ""
+
+#: $string['qtypeoptions']
+msgid "Multinumerical question type specific options"
+msgstr ""
+
+#: $string['usecolorforfeedback']
+msgid "Use color for per constraint feedback"
+msgstr ""

@@ -1,0 +1,789 @@
+#. extracted from lang/en/tool_inspire.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'tool_inspire', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   tool_inspire
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['accuracy']
+msgid "Accuracy"
+msgstr ""
+
+#: $string['allindicators']
+msgid "All indicators"
+msgstr ""
+
+#: $string['analysablenotused']
+msgid "Analysable {$a->analysableid} not used: {$a->errors}"
+msgstr ""
+
+#: $string['analysablenotvalidfortarget']
+msgid ""
+"Analysable {$a->analysableid} is not valid for this target: {$a->result}"
+msgstr ""
+
+#: $string['analysingsitedata']
+msgid "Analysing the site"
+msgstr ""
+
+#: $string['bettercli']
+msgid ""
+"Models' evaluation and execution are heavy processes, it is better to run "
+"them through command line interface"
+msgstr ""
+
+#: $string['cantguessenddate']
+msgid "Can't guess the end date"
+msgstr ""
+
+#: $string['cantguessstartdate']
+msgid "Can't guess the start date"
+msgstr ""
+
+#: $string['clienablemodel']
+msgid ""
+"You can enable the model by selecting a time splitting method by its id. "
+"Note that you can also enable it later using the web interface ('none' to "
+"exit)"
+msgstr ""
+
+#: $string['coursenotyetfinished']
+msgid "The course is not yet finished"
+msgstr ""
+
+#: $string['coursenotyetstarted']
+msgid "The course is not yet started"
+msgstr ""
+
+#: $string['coursetoolong']
+msgid "Duration is more than 1 year"
+msgstr ""
+
+#: $string['disabledmodel']
+msgid "Sorry, this model has been disabled by the administrator"
+msgstr ""
+
+#: $string['editmodel']
+msgid "Edit model {$a}"
+msgstr ""
+
+#: $string['edittrainedwarning']
+msgid ""
+"This model has already been trained, note that changing its indicators or "
+"its time splitting method will delete its previous predictions and start "
+"generating the new ones"
+msgstr ""
+
+#: $string['enabled']
+msgid "Enabled"
+msgstr ""
+
+#: $string['enabledtimesplittings']
+msgid "Time splitting methods"
+msgstr ""
+
+#: $string['enabledtimesplittings_help']
+msgctxt "$string['enabledtimesplittings_help']"
+msgid ""
+"The time splitting method divides the course duration in parts, the "
+"predictions engine will run at the end of these parts. It is recommended "
+"that you only enable the time splitting methods you could be interested on "
+"using; the evaluation process will iterate through all of them so the more "
+"time splitting methods to go through the slower the evaluation process will "
+"be."
+msgstr ""
+
+#: $string['erroralreadypredict']
+msgid "{$a} file has already been used to predict"
+msgstr ""
+
+#: $string['errorcantenablenotimesplitting']
+msgid "You need to select a time splitting method before enabling the model"
+msgstr ""
+
+#: $string['errordisabledmodel']
+msgid "{$a} model is disabled and can not be used to predict"
+msgstr ""
+
+#: $string['errorinvalidindicator']
+msgid "Invalid {$a} indicator"
+msgstr ""
+
+#: $string['errorinvalidtimesplitting']
+msgid ""
+"Invalid time splitting, please ensure you added the class fully qualified "
+"class name"
+msgstr ""
+
+#: $string['errornoenabledandtrainedmodels']
+msgid "There are not enabled and trained models to predict"
+msgstr ""
+
+#: $string['errornoenabledmodels']
+msgid "There are not enabled models to train"
+msgstr ""
+
+#: $string['errornoindicators']
+msgid "This model does not have any indicator"
+msgstr ""
+
+#: $string['errornopredictresults']
+msgid ""
+"No results returned from the predictions processor, check the output "
+"directory contents for more info"
+msgstr ""
+
+#: $string['errornoroles']
+msgid ""
+"Student or teacher roles have not been defined. Define them in inspire "
+"plugin settings page."
+msgstr ""
+
+#: $string['errornorunrecord']
+msgid "Couldn't locate the current run record in the database"
+msgstr ""
+
+#: $string['errornotarget']
+msgid "This model does not have any target"
+msgstr ""
+
+#: $string['errornotimesplittings']
+msgid "This model does not have any time splitting method"
+msgstr ""
+
+#: $string['errornottrainedmodel']
+msgid "{$a} model has not been trained yet"
+msgstr ""
+
+#: $string['errorpredictionformat']
+msgid "Wrong prediction calculations format"
+msgstr ""
+
+#: $string['errorpredictionnotfound']
+msgid "Prediction not found"
+msgstr ""
+
+#: $string['errorpredictionsprocessor']
+msgid "Predictions processor error: {$a}"
+msgstr ""
+
+#: $string['errorpredictwrongformat']
+msgid "The predictions processor return can not be decoded: \"{$a}\""
+msgstr ""
+
+#: $string['errorprocessornotready']
+msgid "The selected predictions processor is not ready: {$a}"
+msgstr ""
+
+#: $string['errorsamplenotavailable']
+msgid "The predicted sample is not available anymore"
+msgstr ""
+
+#: $string['errorunexistingtimesplitting']
+msgid "The selected time splitting method is not available"
+msgstr ""
+
+#: $string['errorunknownaction']
+msgid "Unknown action"
+msgstr ""
+
+#: $string['evaluate']
+msgid "Evaluate"
+msgstr ""
+
+#: $string['evaluatemodel']
+msgid "Evaluate model"
+msgstr ""
+
+#: $string['evaluationinbatches']
+msgid ""
+"The site contents are calculated and stored in batches, during evaluation "
+"you can stop the process at any moment, the next time you run it it will "
+"continue from the point you stopped it."
+msgstr ""
+
+#: $string['eventactionclicked']
+msgid "Prediction action clicked"
+msgstr ""
+
+#: $string['executemodel']
+msgid "Execute"
+msgstr ""
+
+#: $string['executingmodel']
+msgid "Training model and calculating predictions"
+msgstr ""
+
+#: $string['executionresults']
+msgid "Results using {$a->name} course duration splitting"
+msgstr ""
+
+#: $string['executionresultscli']
+msgid "Results using {$a->name} (id: {$a->id}) course duration splitting"
+msgstr ""
+
+#: $string['extrainfo']
+msgctxt "$string['extrainfo']"
+msgid "Info"
+msgstr ""
+
+#: $string['generalerror']
+msgid "Evaluation error. Status code {$a}"
+msgstr ""
+
+#: $string['goodmodel']
+msgid ""
+"This is a good model and it can be used to predict, enable it and execute it "
+"to start getting predictions."
+msgstr ""
+
+#: $string['indicator:accessesafterend']
+msgid "Accesses after the end date"
+msgstr ""
+
+#: $string['indicator:accessesbeforestart']
+msgid "Accesses before the start date"
+msgstr ""
+
+#: $string['indicator:anywrite']
+msgid "Any write action"
+msgstr ""
+
+#: $string['indicator:cognitivedepthassign']
+msgid "Assignment cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepthbook']
+msgid "Book cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepthchat']
+msgid "Chat cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepthchoice']
+msgid "Choice cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepthdata']
+msgid "Database cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepthfeedback']
+msgid "Feedback cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepthfolder']
+msgid "Folder cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepthforum']
+msgid "Forum cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepthglossary']
+msgid "Glossary cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepthimscp']
+msgid "IMS content packages' cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepthlabel']
+msgid "Label cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepthlesson']
+msgid "Lesson cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepthlti']
+msgid "LTI cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepthpage']
+msgid "Page cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepthquiz']
+msgid "Quiz cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepthresource']
+msgid "File cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepthscorm']
+msgid "SCORM cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepthsurvey']
+msgid "Survey cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepthurl']
+msgid "URL cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepthwiki']
+msgid "Wiki cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepthworkshop']
+msgid "Workshop cognitive"
+msgstr ""
+
+#: $string['indicator:completeduserprofile']
+msgid "User profile is completed"
+msgstr ""
+
+#: $string['indicator:readactions']
+msgid "Read actions amount"
+msgstr ""
+
+#: $string['indicators']
+msgid "Indicators"
+msgstr ""
+
+#: $string['indicator:socialbreadthassign']
+msgid "Assignment social"
+msgstr ""
+
+#: $string['indicator:socialbreadthbook']
+msgid "Book social"
+msgstr ""
+
+#: $string['indicator:socialbreadthchat']
+msgid "Chat social"
+msgstr ""
+
+#: $string['indicator:socialbreadthchoice']
+msgid "Choice social"
+msgstr ""
+
+#: $string['indicator:socialbreadthdata']
+msgid "Database social"
+msgstr ""
+
+#: $string['indicator:socialbreadthfeedback']
+msgid "Feedback social"
+msgstr ""
+
+#: $string['indicator:socialbreadthfolder']
+msgid "Folder social"
+msgstr ""
+
+#: $string['indicator:socialbreadthforum']
+msgid "Forum social"
+msgstr ""
+
+#: $string['indicator:socialbreadthglossary']
+msgid "Glossary social"
+msgstr ""
+
+#: $string['indicator:socialbreadthimscp']
+msgid "IMS content packages' social"
+msgstr ""
+
+#: $string['indicator:socialbreadthlabel']
+msgid "Label social"
+msgstr ""
+
+#: $string['indicator:socialbreadthlesson']
+msgid "Lesson social"
+msgstr ""
+
+#: $string['indicator:socialbreadthlti']
+msgid "LTI social"
+msgstr ""
+
+#: $string['indicator:socialbreadthpage']
+msgid "Page social"
+msgstr ""
+
+#: $string['indicator:socialbreadthquiz']
+msgid "Quiz social"
+msgstr ""
+
+#: $string['indicator:socialbreadthresource']
+msgid "File social"
+msgstr ""
+
+#: $string['indicator:socialbreadthscorm']
+msgid "SCORM social"
+msgstr ""
+
+#: $string['indicator:socialbreadthsurvey']
+msgid "Survey social"
+msgstr ""
+
+#: $string['indicator:socialbreadthurl']
+msgid "URL social"
+msgstr ""
+
+#: $string['indicator:socialbreadthwiki']
+msgid "Wiki social"
+msgstr ""
+
+#: $string['indicator:socialbreadthworkshop']
+msgid "Workshop social"
+msgstr ""
+
+#: $string['indicator:userforumstracking']
+msgid "User is tracking forums"
+msgstr ""
+
+#: $string['info']
+msgctxt "$string['info']"
+msgid "Info"
+msgstr ""
+
+#: $string['insightinfo']
+msgid "{$a->insightname} - {$a->contextname}"
+msgstr ""
+
+#: $string['insightinfomessage']
+msgid "There are some insights you may find useful. Check out {$a}"
+msgstr ""
+
+#: $string['insightmessagesubject']
+msgid "New insight for \"{$a->contextname}\": {$a->insightname}"
+msgstr ""
+
+#: $string['insights']
+msgid "Insights"
+msgstr ""
+
+#: $string['inspire:listinsights']
+msgid "List insights"
+msgstr ""
+
+#: $string['inspire:managemodels']
+msgid "Manage models"
+msgstr ""
+
+#: $string['inspiremodels']
+msgid "Inspire models"
+msgstr ""
+
+#: $string['invalidanalysablefortimesplitting']
+msgid "It can not be analysed using {$a} time splitting method"
+msgstr ""
+
+#: $string['invalidtimesplitting']
+msgid ""
+"Model with id {$a} needs a time splitting method before it can be used to "
+"train"
+msgstr ""
+
+#: $string['labelstudentdropoutno']
+msgid "Not at risk"
+msgstr ""
+
+#: $string['labelstudentdropoutyes']
+msgid "Student at risk of dropping out"
+msgstr ""
+
+#: $string['loginfo']
+msgid "Log extra info"
+msgstr ""
+
+#: $string['lowaccuracy']
+msgid "The model accuracy is low"
+msgstr ""
+
+#: $string['messageprovider:insights']
+msgid "Insights generated by prediction models"
+msgstr ""
+
+#: $string['modeloutputdir']
+msgid "Models output directory"
+msgstr ""
+
+#: $string['modeloutputdirinfo']
+msgid ""
+"Directory where prediction processors store all evaluation info. Useful for "
+"debugging and research."
+msgstr ""
+
+#: $string['modelresults']
+msgid "{$a} results"
+msgstr ""
+
+#: $string['modelslist']
+msgid "Models list"
+msgstr ""
+
+#: $string['modeltimesplitting']
+msgid "Time splitting"
+msgstr ""
+
+#: $string['nocompletiondetection']
+msgid ""
+"No method available to detect course completion (no completion nor "
+"competencies nor course grade pass)"
+msgstr ""
+
+#: $string['nocourseactivity']
+msgid "Not enough course activity between the start and the end of the course"
+msgstr ""
+
+#: $string['nocourseendtime']
+msgid "The course does not have an end time"
+msgstr ""
+
+#: $string['nocourses']
+msgid "No courses to analyse"
+msgstr ""
+
+#: $string['nocoursesections']
+msgid "No course sections"
+msgstr ""
+
+#: $string['nocoursestudents']
+msgid "No students"
+msgstr ""
+
+#: $string['nodata']
+msgid "No data available"
+msgstr ""
+
+#: $string['nodatatoevaluate']
+msgid "There is no data to evaluate the model"
+msgstr ""
+
+#: $string['nodatatopredict']
+msgid "There is no data to use for predictions"
+msgstr ""
+
+#: $string['nodatatotrain']
+msgid "There is no data to use as training data"
+msgstr ""
+
+#: $string['nonewdata']
+msgid "No new data available"
+msgstr ""
+
+#: $string['nonewtimeranges']
+msgid "No new time ranges, nothing to predict"
+msgstr ""
+
+#: $string['nopredictionsyet']
+msgid "No predictions available yet"
+msgstr ""
+
+#: $string['notdefined']
+msgid "Not yet defined"
+msgstr ""
+
+#: $string['novaliddata']
+msgid "No valid data available"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Inspire"
+msgstr ""
+
+#: $string['prediction']
+msgid "Prediction"
+msgstr ""
+
+#: $string['predictiondetails']
+msgid "Prediction details"
+msgstr ""
+
+#: $string['predictionprocessfinished']
+msgid "Prediction process finished"
+msgstr ""
+
+#: $string['predictionresults']
+msgid "Prediction results"
+msgstr ""
+
+#: $string['predictions']
+msgid "Predictions"
+msgstr ""
+
+#: $string['predictionsprocessor']
+msgctxt "$string['predictionsprocessor']"
+msgid "Predictions processor"
+msgstr ""
+
+#: $string['predictionsprocessor_help']
+msgid ""
+"Prediction processors are the machine learning backends that process the "
+"datasets generated by calculating models' indicators and targets."
+msgstr ""
+
+#: $string['predictmodels']
+msgid "Predict models"
+msgstr ""
+
+#: $string['predictorresultsin']
+msgid "Predictor logged information in {$a} directory"
+msgstr ""
+
+#: $string['processingsitecontents']
+msgid "Processing site contents"
+msgstr ""
+
+#: $string['sameenddate']
+msgid "Current end date is good"
+msgstr ""
+
+#: $string['samestartdate']
+msgid "Current start date is good"
+msgstr ""
+
+#: $string['selectotherinsights']
+msgid "Select other insights..."
+msgstr ""
+
+#: $string['skippingcourse']
+msgid "Skipping course {$a}"
+msgstr ""
+
+#: $string['studentroles']
+msgid "Student roles"
+msgstr ""
+
+#: $string['subplugintype_predict']
+msgctxt "$string['subplugintype_predict']"
+msgid "Predictions processor"
+msgstr ""
+
+#: $string['subplugintype_predict_plural']
+msgid "Predictions processors"
+msgstr ""
+
+#: $string['successfullyanalysed']
+msgid "Successfully analysed"
+msgstr ""
+
+#: $string['target']
+msgid "Target"
+msgstr ""
+
+#: $string['target:coursedropout']
+msgid "Students at risk of dropping out"
+msgstr ""
+
+#: $string['target:coursedropoutinfo']
+msgid "Here you can find a list of students at risk of dropping out."
+msgstr ""
+
+#: $string['teacherroles']
+msgid "Teacher roles"
+msgstr ""
+
+#: $string['timemodified']
+msgid "Last modification"
+msgstr ""
+
+#: $string['timesplitting:deciles']
+msgid "Deciles"
+msgstr ""
+
+#: $string['timesplitting:decilesaccum']
+msgid "Deciles accumulative"
+msgstr ""
+
+#: $string['timesplittingmethod']
+msgid "Time splitting method"
+msgstr ""
+
+#: $string['timesplittingmethod_help']
+msgctxt "$string['timesplittingmethod_help']"
+msgid ""
+"The time splitting method divides the course duration in parts, the "
+"predictions engine will run at the end of these parts. It is recommended "
+"that you only enable the time splitting methods you could be interested on "
+"using; the evaluation process will iterate through all of them so the more "
+"time splitting methods to go through the slower the evaluation process will "
+"be."
+msgstr ""
+
+#: $string['timesplitting:nosplitting']
+msgid "No time splitting"
+msgstr ""
+
+#: $string['timesplitting:quarters']
+msgid "Quarters"
+msgstr ""
+
+#: $string['timesplitting:quartersaccum']
+msgid "Quarters accumulative"
+msgstr ""
+
+#: $string['timesplitting:singlerange']
+msgid "Single range"
+msgstr ""
+
+#: $string['timesplitting:weekly']
+msgid "Weekly"
+msgstr ""
+
+#: $string['timesplitting:weeklyaccum']
+msgid "Weekly accumulative"
+msgstr ""
+
+#: $string['trainingprocessfinished']
+msgid "Training process finished"
+msgstr ""
+
+#: $string['trainingresults']
+msgid "Training results"
+msgstr ""
+
+#: $string['trainmodels']
+msgid "Train models"
+msgstr ""
+
+#: $string['viewlog']
+msgid "Log"
+msgstr ""
+
+#: $string['viewprediction']
+msgid "View prediction details"
+msgstr ""
+
+#: $string['viewpredictions']
+msgid "View model predictions"
+msgstr ""
+
+#: $string['weeksenddateautomaticallyset']
+msgid ""
+"End date automatically set based on start date and the number of sections"
+msgstr ""
+
+#: $string['weeksenddatedefault']
+msgid "End date would be automatically calculated from the course start date"
+msgstr ""

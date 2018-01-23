@@ -1,0 +1,201 @@
+#. extracted from lang/en/block_massaction.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_massaction', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   block_massaction
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['action_clone']
+msgid "Duplicate to section"
+msgstr ""
+
+#: $string['action_delete']
+msgid "Delete"
+msgstr ""
+
+#: $string['action_hide']
+msgid "Hide"
+msgstr ""
+
+#: $string['action_indent']
+msgid "Indent (move right)"
+msgstr ""
+
+#: $string['action_move']
+msgid "Move to section"
+msgstr ""
+
+#: $string['action_outdent']
+msgid "Outdent (move left)"
+msgstr ""
+
+#: $string['action_show']
+msgid "Show"
+msgstr ""
+
+#: $string['allitems']
+msgid "Select all in section:"
+msgstr ""
+
+#: $string['blockname']
+msgctxt "$string['blockname']"
+msgid "Mass Actions"
+msgstr "Μαζικές Ενέργειες"
+
+#: $string['blocktitle']
+msgctxt "$string['blocktitle']"
+msgid "Mass Actions"
+msgstr "Μαζικές Ενέργειες"
+
+#: $string['confirmation']
+msgid "Are you sure you want to delete {$a} items?"
+msgstr ""
+
+#: $string['confirmdeletiontext']
+msgid "Are you sure you want to delete the following module(s)?"
+msgstr ""
+
+#: $string['confirmdeletiontitle']
+msgid "Confirm mass deletion"
+msgstr ""
+
+#: $string['invalidaction']
+msgid "Unknown action: {$a}"
+msgstr ""
+
+#: $string['invalidcourseid']
+msgid "Invalid course ID"
+msgstr ""
+
+#: $string['invalidcoursemodule']
+msgid "Invalid course module"
+msgstr ""
+
+#: $string['invalidmoduleid']
+msgid "Invalid module ID: {$a}"
+msgstr ""
+
+#: $string['itemsin']
+msgid "items in"
+msgstr ""
+
+#: $string['jsdisabled']
+msgid "You must enable Javascript to use this block."
+msgstr ""
+
+#: $string['massaction:addinstance']
+msgid "Add a new Mass Actions block"
+msgstr ""
+
+#: $string['massaction:use']
+msgid "Use the Mass Actions block"
+msgstr ""
+
+#: $string['missingparam']
+msgid "Error coding: missing required JSON param \"{$a}\""
+msgstr ""
+
+#: $string['moduledeletionname']
+msgid "Module name"
+msgstr ""
+
+#: $string['moduledeletiontype']
+msgid "Module type"
+msgstr ""
+
+#: $string['noaction']
+msgid "No action specified"
+msgstr ""
+
+#: $string['noitemselected']
+msgid "Please select at least one item to apply the mass-action"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Mass action block"
+msgstr ""
+
+#: $string['section']
+msgctxt "$string['section']"
+msgid "Topic"
+msgstr ""
+
+#: $string['sectionnotexist']
+msgid "Target section does not exist"
+msgstr ""
+
+#: $string['section_zero']
+msgid "General"
+msgstr ""
+
+#: $string['selectall']
+msgid "Select all"
+msgstr ""
+
+#: $string['selectnone']
+msgid "Deselect all"
+msgstr ""
+
+#: $string['selecttarget']
+msgid "Please select a target section to move items to"
+msgstr ""
+
+#: $string['topic']
+msgctxt "$string['topic']"
+msgid "Topic"
+msgstr ""
+
+#: $string['usage']
+msgid "Mass Actions Help"
+msgstr ""
+
+#: $string['usage_help']
+msgid ""
+"<p>This block allows instructors to perform actions upon multiple resources "
+"or activities in the class view, rather than having to perform repeated "
+"actions on individual items.</p>\n"
+"<p>To use this block, Javascript must be enabled in your browser, you must "
+"be in editing mode in the course home page, and AJAX must be disabled. Only "
+"the courses in the Week or Topics formats are supported.</p>\n"
+"<p>Supported actions include mass deletion, mass hiding, mass showing, and "
+"mass moving. To select items to perform actions on, simply click the "
+"checkbox to the right of it in the course home page, or you may select all "
+"items, or select all items in a section using the block. To perform actions, "
+"click the action you would like to perform inside the block.</p>"
+msgstr ""
+
+#: $string['week']
+msgid "W"
+msgstr ""
+
+#: $string['withselected']
+msgid "With selected"
+msgstr ""

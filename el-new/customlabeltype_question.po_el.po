@@ -1,0 +1,128 @@
+#. extracted from lang/en/customlabeltype_question.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'customlabeltype_question', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   customlabeltype_question
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['answertext']
+msgid "Answer text"
+msgstr ""
+
+#: $string['configtypename']
+msgid "Enable subtype Question"
+msgstr ""
+
+#: $string['family']
+msgid "pedagogic"
+msgstr ""
+
+#: $string['hint']
+msgid "Hint"
+msgstr ""
+
+#: $string['hintinitiallyvisible']
+msgid "Hint initially visible"
+msgstr ""
+
+#: $string['initiallyvisible']
+msgid "Answer initially visible"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Course element: Question"
+msgstr ""
+
+#: $string['question:addinstance']
+msgid "Can add an instance"
+msgstr "Προσθήκη στιγμιότυπου"
+
+#: $string['questiontext']
+msgid "Question text"
+msgstr ""
+
+#: $string['question:view']
+msgid "Can view the question"
+msgstr ""
+
+#: $string['template']
+msgid ""
+"<table class=\"custombox-question\" cellspacing=\"0\" width=\"100%\">\n"
+"<tr valign=\"top\">\n"
+"    <td class=\"custombox-header-thumb question\" style=\"background-image : "
+"url(<%%icon%%>);\" width=\"2%\" rowspan=\"6\">\n"
+"    </td>\n"
+"    <td class=\"custombox-header-caption question\" width=\"96%\">\n"
+"        Question !\n"
+"    </td>\n"
+"</tr>\n"
+"<tr valign=\"top\">\n"
+"    <td class=\"custombox-content questiontext\">\n"
+"        <%%questiontext%%>\n"
+"    </td>\n"
+"</tr>\n"
+"<%if %%hint%% %>\n"
+"<tr>\n"
+"    <td class=\"custombox-header-collapser question\" align=\"left\" >\n"
+"        <a href=\"javascript:togglecustom('<%%customid%%>hint', '<%%wwwroot%%"
+">')\"><img id=\"customctl<%%customid%%>hint\" src=\"<%%hintinitialcontrolimage%%"
+">\" /></a> Hint\n"
+"    </td>\n"
+"</tr>\n"
+"<tr valign=\"top\" id=\"custom<%%customid%%>hint\">\n"
+"    <td class=\"custombox-content hint\">\n"
+"        <%%hint%%>\n"
+"    </td>\n"
+"</tr>\n"
+"<%endif %>\n"
+"<tr>\n"
+"    <td class=\"custombox-header-collapser question\" align=\"left\">\n"
+"        <a href=\"javascript:togglecustom('<%%customid%%>', '<%%wwwroot%%"
+">')\"><img id=\"customctl<%%customid%%>\" src=\"<%%initialcontrolimage%%>\" "
+"/></a> Solution\n"
+"    </td>\n"
+"</tr>\n"
+"<tr valign=\"top\" id=\"custom<%%customid%%>\">\n"
+"    <td class=\"custombox-content questiontext\">\n"
+"        <%%answertext%%>\n"
+"    </td>\n"
+"</tr>\n"
+"</table>\n"
+"<script type=\"text/javascript\">\n"
+"setupcustom('<%%customid%%>', '<%%initiallyvisible%%>', '<%%wwwroot%%>');\n"
+"setupcustom('<%%customid%%>hint', '<%%hintinitiallyvisible%%>', '<%%wwwroot%"
+"%>');\n"
+"</script>"
+msgstr ""
+
+#: $string['typename']
+msgid "Question"
+msgstr ""

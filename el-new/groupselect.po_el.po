@@ -1,0 +1,405 @@
+#. extracted from lang/en/groupselect.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'groupselect', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   groupselect
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['action']
+msgid "Action"
+msgstr ""
+
+#: $string['assignedteacher']
+msgid "Supervisor"
+msgstr ""
+
+#: $string['assigngroup']
+msgid "Assign supervisors to groups"
+msgstr ""
+
+#: $string['assigngroup_confirm']
+msgid ""
+"This will assign supervisors to groups, overriding possible previous "
+"assignment irreversibly. Are you sure?"
+msgstr ""
+
+#: $string['assigngroup_help']
+msgid ""
+"If set, enables a button which assigns supervisors to groups (if course has "
+"supervisors). Assigned supervisors are not group members, but they show up "
+"in export file and in the main view (if set). Useful if course uses "
+"assistants to handle groups."
+msgstr ""
+
+#: $string['cannotselectclosed']
+msgid "You can not become group member any more."
+msgstr ""
+
+#: $string['cannotselectmaxed']
+msgid "You can not join group {$a} - maximum number of members reached."
+msgstr ""
+
+#: $string['cannotselectnocap']
+msgid "You are not allowed to select group."
+msgstr ""
+
+#: $string['cannotselectnoenrol']
+msgid "You need to be enrolled into course in order to become a group member."
+msgstr ""
+
+#: $string['cannotunselectclosed']
+msgid "You can not leave group any more"
+msgstr ""
+
+#: $string['creategroup']
+msgid "Create a new group"
+msgstr ""
+
+#: $string['deleteemptygroups']
+msgid "Delete group when last student leaves"
+msgstr ""
+
+#: $string['deleteemptygroups_help']
+msgid "If set, automatically deletes group when last student leaves from it"
+msgstr ""
+
+#: $string['description']
+msgid "Group description"
+msgstr ""
+
+#: $string['edittooltip']
+msgid "Click to edit"
+msgstr ""
+
+#: $string['eventexportlinkcreated']
+msgid "Export link created"
+msgstr ""
+
+#: $string['eventgroupteacheradded']
+msgid "Supervisor teacher added"
+msgstr ""
+
+#: $string['export']
+msgid "Create a download link for group data file (CSV)"
+msgstr ""
+
+#: $string['export_download']
+msgid "Download CSV-file"
+msgstr ""
+
+#: $string['fromallgroups']
+msgid "All groups"
+msgstr ""
+
+#: $string['globalpassword_help']
+msgid ""
+"Set a global password for group joining. Overrides student set passwords."
+msgstr ""
+
+#: $string['groupid']
+msgid "Group ID"
+msgstr ""
+
+#: $string['groupselect:addinstance']
+msgid "Add a new group self-selection"
+msgstr ""
+
+#: $string['groupselect:assign']
+msgid "Allow to assign supervisors to groups"
+msgstr ""
+
+#: $string['groupselect:create']
+msgid "Allow creating of group"
+msgstr ""
+
+#: $string['groupselect:export']
+msgid "Allow export of group members"
+msgstr ""
+
+#: $string['groupselect:select']
+msgid "Allow becoming of group member"
+msgstr ""
+
+#: $string['groupselect:unselect']
+msgid "Allow leaving of group"
+msgstr ""
+
+#: $string['hidefullgroups']
+msgid "Hide full groups from the main view"
+msgstr ""
+
+#: $string['hidefullgroups_help']
+msgid ""
+"If set, hides all groups, which have reached max member count, from the main "
+"list view (excluding user's own group). May be useful if the activity has "
+"lots of groups."
+msgstr ""
+
+#: $string['incorrectpassword']
+msgid "Incorrect password"
+msgstr ""
+
+#: $string['managegroups']
+msgid "Manage groups"
+msgstr ""
+
+#: $string['maxcharlenreached']
+msgid "Maximum character number reached"
+msgstr ""
+
+#: $string['maxgroupmembership']
+msgid "Maximum number of groups to participate in"
+msgstr ""
+
+#: $string['maxgroupmembership_error_low']
+msgid "Error: At least 1 group needs to be selectable!"
+msgstr ""
+
+#: $string['maxlimitreached']
+msgid "Maximum number reached"
+msgstr ""
+
+#: $string['maxmembers']
+msgid "Max members per group"
+msgstr ""
+
+#: $string['maxmembers_error_low']
+msgid "Error: Use 0 to indicate for unlimited group size!"
+msgstr ""
+
+#: $string['maxmembers_error_smaller_minmembers']
+msgid "Error: Needs to be greater than the minimum participants per group!"
+msgstr ""
+
+#: $string['maxmembers_help']
+msgid "Maximum number of members per group, 0 for unlimited."
+msgstr ""
+
+#: $string['maxmembers_icon']
+msgid "Group has too many members"
+msgstr ""
+
+#: $string['maxmembers_notification']
+msgid "Your group has too many members! Maximum is {$a}."
+msgstr ""
+
+#: $string['member']
+msgid "Member"
+msgstr ""
+
+#: $string['membercount']
+msgid "Count"
+msgstr ""
+
+#: $string['membershidden']
+msgid "Member list not available"
+msgstr ""
+
+#: $string['memberslist']
+msgid "Members"
+msgstr ""
+
+#: $string['minmembers']
+msgid "Min members per group"
+msgstr ""
+
+#: $string['minmembers_error_bigger_maxmembers']
+msgid ""
+"Error: The minimum group size needs to be smaller than the maximum "
+"participants per group!"
+msgstr ""
+
+#: $string['minmembers_error_low']
+msgid "Error: Negative numbers are not allowed for the minimum group size!"
+msgstr ""
+
+#: $string['minmembers_help']
+msgid ""
+"Minimum number of members per group. Adds notifications for members of "
+"groups which are under this limit. Default is 0 (disabled)."
+msgstr ""
+
+#: $string['minmembers_icon']
+msgid "Group has less members than required"
+msgstr ""
+
+#: $string['minmembers_notification']
+msgid "Your group has less members than required! Minimum is {$a}."
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Group self-selection"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"<p>Lets students create and select groups. Features: </p><ul><li>Students "
+"can create groups, give them a description and set them password protected, "
+"if wanted</li><li>Students can select and join groups</li><li>Supervisors "
+"may be assigned to groups</li><li>Teacher can export course group list as a "
+"csv-file</li><li>Full compatibility with basic Moodle groups: groups may be "
+"created by other means if needed, supports group assignment submissions "
+"etc.</li></ul>"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Group self-selections"
+msgstr ""
+
+#: $string['nogroups']
+msgid "No groups available to select from, sorry."
+msgstr ""
+
+#: $string['notavailableanymore']
+msgid "Group selection is not available anymore, sorry (since {$a})."
+msgstr ""
+
+#: $string['notavailableyet']
+msgid "Group selection will be available on {$a}."
+msgstr ""
+
+#: $string['notifyexpiredselection']
+msgid "Show message, if the open until date is reached"
+msgstr ""
+
+#: $string['notifyexpiredselection_help']
+msgid "If set, a message will appear if the open until date is reached"
+msgstr ""
+
+#: $string['ok']
+msgid "OK"
+msgstr ""
+
+#: $string['password']
+msgid "Requires password"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Module administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Group self-selection"
+msgstr ""
+
+#: $string['saving']
+msgid "Saving..."
+msgstr ""
+
+#: $string['select']
+msgid "Become member of {$a}"
+msgstr ""
+
+#: $string['selectconfirm']
+msgid "Do you really want to become member of the group <em>{$a}</em>?"
+msgstr ""
+
+#: $string['showassignedteacher']
+msgid "Show assigned supervisors"
+msgstr ""
+
+#: $string['showassignedteacher_help']
+msgid ""
+"If set, assigned supervisors will show up in group members. Useful if "
+"students need to know their assigned teacher"
+msgstr ""
+
+#: $string['studentcancreate']
+msgid "Students can create groups"
+msgstr ""
+
+#: $string['studentcancreate_help']
+msgid "If set, students without group (in selected grouping) can create groups"
+msgstr ""
+
+#: $string['studentcansetdesc']
+msgid "Students can set and edit group description"
+msgstr ""
+
+#: $string['studentcansetdesc_help']
+msgid ""
+"If set, student can set a a group description when creating one and group "
+"members can edit it"
+msgstr ""
+
+#: $string['studentcansetenrolmentkey']
+msgid "Students can set passwords for joining groups"
+msgstr ""
+
+#: $string['studentcansetenrolmentkey_help']
+msgid "If set, students can set an enrolment key for joining groups"
+msgstr ""
+
+#: $string['studentcansetgroupname']
+msgid "Students can set the name of new groups"
+msgstr ""
+
+#: $string['studentcansetgroupname_help']
+msgid "If set, students can set the group names"
+msgstr ""
+
+#: $string['supervisionrole']
+msgid "Supervisor role"
+msgstr ""
+
+#: $string['supervisionrole_help']
+msgid "Define the role for supervisors (formally non-editing teachers)"
+msgstr ""
+
+#: $string['targetgrouping']
+msgid "Select groups from grouping"
+msgstr ""
+
+#: $string['timeavailable']
+msgid "Open from"
+msgstr ""
+
+#: $string['timeavailable_error_past_timedue']
+msgid "Error: Cannot start after due date!"
+msgstr ""
+
+#: $string['timedue']
+msgid "Open until"
+msgstr ""
+
+#: $string['timedue_error_pre_timeavailable']
+msgid "Error: Cannot end before start date!"
+msgstr ""
+
+#: $string['unselect']
+msgid "Leave group {$a}"
+msgstr ""
+
+#: $string['unselectconfirm']
+msgid "Do you really want to leave the group <em>{$a}</em>?"
+msgstr ""

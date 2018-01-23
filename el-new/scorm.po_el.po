@@ -1,0 +1,2012 @@
+#. extracted from lang/en/scorm.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'scorm', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   scorm
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['activation']
+msgid "Activation"
+msgstr "Ενεργοποίηση"
+
+#: $string['activityloading']
+msgid "You will be automatically redirected to the activity in"
+msgstr "Θα μεταφερθείτε αυτόματα στη δραστηριότητα σε"
+
+#: $string['activityoverview']
+msgid "You have SCORM packages that need attention"
+msgstr "Υπάρχουν SCORM πακέτα που χρήζουν παρακολούθησης"
+
+#: $string['activitypleasewait']
+msgid "Activity loading, please wait ..."
+msgstr "Η δραστηριότητα φορτώνει, παρακαλώ περιμένετε..."
+
+#: $string['adminsettings']
+msgid "Admin settings"
+msgstr "Ρυθμίσεις διαχειριστή"
+
+#: $string['advanced']
+msgid "Parameters"
+msgstr "Παράμετροι"
+
+#: $string['aicchacpkeepsessiondata']
+msgid "AICC HACP session data"
+msgstr "Δεδομένα συνεδρίας AICC HACP"
+
+#: $string['aicchacpkeepsessiondata_desc']
+msgid ""
+"Length of time in days to keep the external AICC HACP session data (a high "
+"setting will fill up the table with old data but may be useful when "
+"debugging)"
+msgstr ""
+"Χρονικό διάστημα σε ημέρες για τη διατήρηση εξωτερικών δεδομένων συνεδρίας "
+"AICC HACP (υψηλή ρύθμιση θα γεμίσει τον πίνακα με παλιά δεδομένα, αλλά "
+"μπορεί να είναι χρήσιμο κατά την αποσφαλμάτωση)"
+
+#: $string['aicchacptimeout']
+msgid "AICC HACP timeout"
+msgstr "Τέλος χρόνου AICC HACP"
+
+#: $string['aicchacptimeout_desc']
+msgid ""
+"Length of time in minutes that an external AICC HACP session can remain open"
+msgstr ""
+"Χρονικό διάστημα σε λεπτά όπου μια εξωτερική συνεδρία AICC HACP μπορεί να "
+"παραμείνει ανοιχτή"
+
+#: $string['aiccuserid']
+msgid "AICC pass numeric user id"
+msgstr "Μεταβίβαση αριθμητικού αναγνωριστικού χρήστη στο AICC"
+
+#: $string['aiccuserid_desc']
+msgid ""
+"The AICC standard for usernames is very restrictive compared with Moodle, "
+"and allows for alphanumeric characters, dash and underscore only. Periods, "
+"spaces and the @ symbol are not permitted. If enabled, user ID numbers are "
+"passed to the AICC package instead of usernames."
+msgstr ""
+"Το πρότυπο AICC για τα ονόματα χρήστη είναι πολύ περιοριστικό σε σχέση με το "
+"Moodle, και επιτρέπει μόνο αλφαριθμητικούς χαρακτήρες, παύλα και κάτω "
+"παύλα. Τελείες, κενά και το σύμβολο @ δεν επιτρέπονται. Αν ενεργοποιηθεί, "
+"μεταβιβάζονται τα αριθμητικά αναγνωριστικά χρήστη στο πακέτο AICC αντί για "
+"ονόματα χρήστη."
+
+#: $string['aliasonly']
+msgid ""
+"When selecting an imsmanifest.xml file from a repository you must use an "
+"alias/shortcut for this file."
+msgstr ""
+"Όταν επιλέγετε ένα αρχείο imsmanifest.xml από ένα αποθετήριο θα πρέπει να "
+"χρησιμοποιήσετε ένα ψευδώνυμο / συντόμευση για αυτό το αρχείο."
+
+#: $string['allowapidebug']
+msgid "Activate API debug and tracing (set the capture mask with apidebugmask)"
+msgstr ""
+"Ενεργοποίηση API αποσφαλμάτωσης και παρακολούθησης (καθορίστε τη μάσκα "
+"καταγραφής με το apidebugmask)"
+
+#: $string['allowtypeaicchacp']
+msgid "Enable external AICC HACP"
+msgstr "Ενεργοποίηση εξωτερικού AICC HACP"
+
+#: $string['allowtypeaicchacp_desc']
+msgid ""
+"If enabled this allows AICC HACP external communication without requiring "
+"user login for post requests from the external AICC package"
+msgstr ""
+"Αν ενεργοποιηθεί επιτρέπει την εξωτερική επικοινωνία AICC HACP χωρίς να "
+"απαιτείται σύνδεση του χρήστη για την αποστολή αιτημάτων από το εξωτερικό "
+"πακέτο AICC"
+
+#: $string['allowtypeexternal']
+msgid "Enable external package type"
+msgstr "Να επιτρέπονται τα πακέτα εξωτερικού τύπου"
+
+#: $string['allowtypeexternalaicc']
+msgid "Enable direct AICC URL"
+msgstr "Ενεργοποίηση απευθείας URL AICC"
+
+#: $string['allowtypeexternalaicc_desc']
+msgid "If enabled this allows a direct url to a simple AICC package"
+msgstr ""
+"Αν ενεργοποιηθεί επιτρέπει τη χρήση απευθείας URL σε ένα απλό πακέτο AICC"
+
+#: $string['allowtypelocalsync']
+msgid "Enable downloaded package type"
+msgstr "Να επιτρέπονται τα κατεβασμένα πακέτα"
+
+#: $string['apidebugmask']
+msgid ""
+"API debug capture mask  - use a simple regex on "
+"&lt;username&gt;:&lt;activityname&gt; e.g. admin:.* will debug for admin "
+"user only"
+msgstr ""
+"Μάσκα καταγραφής API αποσφαλμάτωσης (regex στα πεδία "
+"&lt;username&gt;:&lt;activityname&gt;)"
+
+#: $string['areacontent']
+msgid "Content files"
+msgstr "Αρχεία περιεχομένου"
+
+#: $string['areapackage']
+msgctxt "$string['areapackage']"
+msgid "Package file"
+msgstr "Αρχείο πακέτου"
+
+#: $string['asset']
+msgid "Asset"
+msgstr "Στοιχείο"
+
+#: $string['assetlaunched']
+msgid "Asset - Viewed"
+msgstr "Στοιχείο - Προβλήθηκε"
+
+#: $string['attempt']
+msgid "Attempt"
+msgstr "Προσπάθεια"
+
+#: $string['attempt1']
+msgid "1 attempt"
+msgstr "1 προσπάθεια"
+
+#: $string['attempts']
+msgid "Attempts"
+msgstr "Προσπάθειες"
+
+#: $string['attemptsmanagement']
+msgid "Attempts management"
+msgstr "Διαχείριση προσπαθειών"
+
+#: $string['attemptstatusall']
+msgid "Dashboard and entry page"
+msgstr "Η αρχική μου και σελίδα εισόδου"
+
+#: $string['attemptstatusentry']
+msgid "Entry page only"
+msgstr "Μόνο σελίδα εισόδου"
+
+#: $string['attemptstatusmy']
+msgid "Dashboard only"
+msgstr "Μόνο σελίδα Η αρχική μου"
+
+#: $string['attemptsx']
+msgid "{$a} attempts"
+msgstr "{$a} προσπάθειες"
+
+#: $string['attr_error']
+msgid "Bad value for attribute ({$a->attr}) in tag {$a->tag}."
+msgstr "Εσφαλμένη τιμή για την ιδιότητα {$a->attr} στην ετικέτα {$a->tag}."
+
+#: $string['autocommit']
+msgid "Auto-commit"
+msgstr "Αυτόματη δέσμευση"
+
+#: $string['autocommitdesc']
+msgid "Automatically save SCORM data if the SCORM package does not save it."
+msgstr ""
+"Αυτόματη αποθήκευση των δεδομένων SCORM αν το πακέτο SCORM δεν τα "
+"αποθηκεύει."
+
+#: $string['autocommit_help']
+msgid ""
+"If enabled, SCORM data is automaticaly saved to the database. Useful for "
+"SCORM objects which do not save their data regularly."
+msgstr ""
+"Αν ενεργοποιηθεί, τα δεδομένα SCORM θα αποθηκεύονται αυτόματα στη βάση "
+"δεδομένων. Χρήσιμο για αντικείμενα SCORM που δεν αποθηκεύουν τα δεδομένα "
+"τους σε τακτική βάση."
+
+#: $string['autocontinue']
+msgid "Auto-continue"
+msgstr "Αυτόματη συνέχιση"
+
+#: $string['autocontinuedesc']
+msgctxt "$string['autocontinuedesc']"
+msgid ""
+"If enabled, subsequent learning objects are launched automatically, "
+"otherwise the Continue button must be used."
+msgstr ""
+"Η ρύθμιση αυτή χρησιμοποιείται σαν εξ' ορισμού τιμή για την αυτόματη "
+"συνέχιση στη δραστηριότητα"
+
+#: $string['autocontinue_help']
+msgctxt "$string['autocontinue_help']"
+msgid ""
+"If enabled, subsequent learning objects are launched automatically, "
+"otherwise the Continue button must be used."
+msgstr ""
+"<p><b>Αυτόματη-συνέχεια</b></p>\n"
+"\n"
+"<p>Εάν ΝΑΙ, όταν ένα Γνωστικό Αντικείμενο καλέσει την μέθοδο &quot;κλειστή "
+"επικοινωνία&quot;,το επόμενο διαθέσιμο γνωστικό αντικείμενο ανοίγει.</p>\n"
+"\n"
+"<p>Εάν ΟΧΙ, οι χρήστες πρέπει να πατήσουν το κουμπί \"Συνέχεια\".</p>"
+
+#: $string['averageattempt']
+msgid "Average attempts"
+msgstr "Μέσος όρος προσπαθειών"
+
+#: $string['badarchive']
+msgid "You must provide a valid zip file"
+msgstr "Θα πρέπει να δώσετε ένα έγκυρο συμπιεσμένο αρχείο"
+
+#: $string['badimsmanifestlocation']
+msgid ""
+"An imsmanifest.xml file was found but it was not in the root of your zip "
+"file, please re-package your SCORM"
+msgstr ""
+"Βρέθηκε ένα αρχείο imsmanifest.xml, αλλά δεν ήταν στη ρίζα του συμπιεσμένου "
+"αρχείο, παρακαλούμε πακετάρετε ξανά το SCORM"
+
+#: $string['badmanifest']
+msgid "Some manifest errors: see errors log"
+msgstr "Υπήρξαν σφάλματα: δείτε τα αρχεία καταγραφής σφαλμάτων"
+
+#: $string['browse']
+msgid "Preview"
+msgstr "Προεπισκόπιση"
+
+#: $string['browsed']
+msgid "Browsed"
+msgstr "Προβλήθηκε"
+
+#: $string['browsemode']
+msgid "Preview mode"
+msgstr "Φάση Προεπισκόπισης"
+
+#: $string['browserepository']
+msgid "Browse repository"
+msgstr "Εξέταση αποθήκης"
+
+#: $string['calculatedweight']
+msgid "Calculated weight"
+msgstr "Υπολογιζόμενο βάρος"
+
+#: $string['calendarend']
+msgid "{$a} closes"
+msgstr ""
+
+#: $string['calendarstart']
+msgid "{$a} opens"
+msgstr ""
+
+#: $string['cannotaccess']
+msgid "You cannot call this script in that way"
+msgstr "Δεν είναι δυνατή η κλήση του σεναρίου με αυτό τον τρόπο"
+
+#: $string['cannotfindsco']
+msgid "Could not find SCO"
+msgstr "Δεν ήταν δυνατό να βρεθεί το SCO"
+
+#: $string['chooseapacket']
+msgid "Choose or update a package"
+msgstr "Επιλογή ή ενημέρωση πακέτου"
+
+#: $string['closebeforeopen']
+msgid "You have specified a close date before the open date."
+msgstr "Έχετε δηλώσει ημερομηνία λήξη προγενέστερη της ημερομηνίας έναρξης"
+
+#: $string['collapsetocwinsize']
+msgid "Collapse TOC when window size below"
+msgstr ""
+"Σύμπτυξη πίνακα περιεχομένων όταν το μέγεθος του παραθύρου είναι κάτω από"
+
+#: $string['collapsetocwinsizedesc']
+msgid ""
+"This setting lets you specify the window size below which the TOC should "
+"automatically collapse."
+msgstr ""
+"Αυτή η ρύθμιση σας επιτρέπει να καθορίσετε το μέγεθος του παραθύρου κάτω από "
+"το οποίο ο πίνακας περιεχομένων θα πρέπει να συμπτυχθεί αυτόματα."
+
+#: $string['compatibilitysettings']
+msgid "Compatibility settings"
+msgstr "Ρυθμίσεις συμβατότητας"
+
+#: $string['completed']
+msgctxt "$string['completed']"
+msgid "Completed"
+msgstr "Ολοκληρωμένο"
+
+#: $string['completionscorerequired']
+msgid "Require minimum score"
+msgstr "Απαιτείται ελάχιστη βαθμολογία"
+
+#: $string['completionscorerequireddesc']
+msgid "Minimum score of {$a} is required for completion"
+msgstr ""
+
+#: $string['completionscorerequired_help']
+msgid ""
+"Enabling this setting will require a user to have at least the minimum score "
+"entered to be marked complete in this SCORM activity, as well as any other "
+"Activity Completion requirements."
+msgstr ""
+"Η ενεργοποίηση αυτής της ρύθμισης απαιτεί ο χρήστης να καλύπτει τουλάχιστον "
+"την ελάχιστη βαθμολογία προκειμένου να επισημανθεί ως ολοκληρωμένη η "
+"δραστηριότητα SCORM, καθώς και τις όποιες άλλες απαιτήσεις Ολοκλήρωσης "
+"Δραστηριότητας."
+
+#: $string['completionstatusallscos']
+msgid "Require all scos to return completion status"
+msgstr "Απαιτείται όλα τα scos να επιστρέφουν κατάσταση ολοκλήρωσης"
+
+#: $string['completionstatusallscos_help']
+msgid ""
+"Some SCORM packages contain multiple components or \"scos\" - when this is "
+"enabled all scos within the package must return the relevant lesson_status "
+"for this activity to be flagged complete."
+msgstr ""
+"Μερικά πακέτα SCORM περιέχουν πολλαπλά συστατικά ή \"scos\" - όταν είναι "
+"ενεργοποιημένη η ρύθμιση όλα τα scos εντός του πακέτου πρέπει να επιστρέφουν "
+"το σχετικό lesson_status προκειμένου η δραστηριότητα να επισημανθεί ως "
+"ολοκληρωμένη."
+
+#: $string['completionstatus_completed']
+msgctxt "$string['completionstatus_completed']"
+msgid "Completed"
+msgstr "Ολοκληρωμένο"
+
+#: $string['completionstatus_passed']
+msgctxt "$string['completionstatus_passed']"
+msgid "Passed"
+msgstr "Πέρασε"
+
+#: $string['completionstatusrequired']
+msgid "Require status"
+msgstr "Απαιτείται κατάσταση"
+
+#: $string['completionstatusrequireddesc']
+msgid "Student must achieve at least one of the following statuses: {$a}"
+msgstr ""
+
+#: $string['completionstatusrequired_help']
+msgid ""
+"Checking one or more statuses will require a user to achieve at least one of "
+"the checked statuses in order to be marked complete in this SCORM activity, "
+"as well as any other Activity Completion requirements."
+msgstr ""
+"Επιλέγοντας μια ή περισσότερες καταστάσεις ο χρήστης θα πρέπει να επιτύχει "
+"τουλάχιστον μια από τις επιλεγμένες καταστάσεις, προκειμένου να επισημανθεί "
+"ως ολοκληρωμένη η δραστηριότητα SCORM, καθώς και οι όποιες άλλες απαιτήσεις "
+"Ολοκλήρωσης Δραστηριότητας."
+
+#: $string['confirmloosetracks']
+msgid ""
+"WARNING: The package seems to be changed or modified. If the package "
+"structure is changed, some users tracks may be lost during update process."
+msgstr ""
+"ΠΡΟΣΟΧΗ: Το πακέτο έχει αλλαχθεί ή τροποποιηθεί. Αν η δομή του πακέτου έχει "
+"αλλάξει, κάποια στοιχεία χρηστών πιθανώς να χαθούν κατά τη διαδικασία "
+"ενημέρωσης."
+
+#: $string['contents']
+msgid "Contents"
+msgstr "Περιεχόμενα"
+
+#: $string['coursepacket']
+msgid "Course package"
+msgstr "Πακέτο μαθήματος"
+
+#: $string['coursestruct']
+msgid "Course structure"
+msgstr "Δομή μαθήματος"
+
+#: $string['crontask']
+msgid "Background processing for SCORM"
+msgstr ""
+
+#: $string['currentwindow']
+msgid "Current window"
+msgstr "Τρέχον παράθυρο"
+
+#: $string['datadir']
+msgid "Filesystem error: Can't create course data directory"
+msgstr ""
+"Σφάλμα αρχείου συστήματος: Δεν δημιουργήθηκε φάκελος δεδομένων μαθήματος"
+
+#: $string['defaultdisplaysettings']
+msgid "Default display settings"
+msgstr "Προεπιλεγμένες ρυθμίσεις εμφάνισης"
+
+#: $string['defaultgradesettings']
+msgid "Default grade settings"
+msgstr "Προεπιλεγμένες ρυθμίσεις βαθμολόγησης"
+
+#: $string['defaultothersettings']
+msgid "Other default settings"
+msgstr "Άλλες προεπιλεγμένες ρυθμίσεις"
+
+#: $string['deleteallattempts']
+msgid "Delete all SCORM attempts"
+msgstr "Διαγραφή όλων των προσπαθειών"
+
+#: $string['deleteattemptcheck']
+msgid "Are you absolutely sure you want to completely delete these attempts?"
+msgstr ""
+"Είστε απολύτως βέβαιοι ότι θέλετε να διαγράψετε εντελώς τις προσπάθειες;"
+
+#: $string['deleteselected']
+msgid "Delete selected attempts"
+msgstr "Διαγραφή επιλεγμένων προσπαθειών"
+
+#: $string['deleteuserattemptcheck']
+msgid ""
+"Are you absolutely sure you want to completely delete all your attempts?"
+msgstr ""
+"Είστε απολύτως βέβαιοι ότι θέλετε να διαγράψετε εντελώς όλες τις "
+"προσπάθειες;"
+
+#: $string['details']
+msgid "Track details"
+msgstr "Παρακολούθηση λεπτομερειών"
+
+#: $string['directories']
+msgid "Show the directory links"
+msgstr "Εμφάνιση των συνδέσμων του φακέλου"
+
+#: $string['disabled']
+msgid "Disabled"
+msgstr "Απενεργοποιημένο"
+
+#: $string['display']
+msgid "Display package"
+msgstr "Εμφάνιση πακέτου"
+
+#: $string['displayactivityname']
+msgid "Display activity name"
+msgstr "Εμφάνιση ονόματος δρστηριότητας"
+
+#: $string['displayactivityname_help']
+msgid "Whether or not to display the activity name above the SCORM player."
+msgstr ""
+"Αν θα εμφανίζεται ή όχι το όνομα της δραστηριότητας πάνω από τον "
+"αναπαραγωγέα SCORM"
+
+#: $string['displayattemptstatus']
+msgid "Display attempt status"
+msgstr "Εμφάνιση κατάστασης προσπαθειών"
+
+#: $string['displayattemptstatusdesc']
+msgid ""
+"Whether a summary of the user's attempts is shown in the course overview "
+"block in Dashboard and/or the SCORM entry page."
+msgstr ""
+"Η ρύθμιση αυτή χρησιμοποιείται σαν εξ' ορισμού τιμή για την εμφάνιση "
+"κατάστασης προσπαθειών"
+
+#: $string['displayattemptstatus_help']
+msgid ""
+"This preference allows a summary of the users attempts to show in the course "
+"overview block in Dashboard and/or the SCORM entry page."
+msgstr ""
+"Αυτή η προτίμηση επιτρέπει την εμφάνιση μιας περίληψης των προσπαθειών των "
+"χρηστών στο μπλοκ επισκόπηση μαθημάτων στη σελίδα Η αρχική μου ή / και στη "
+"σελίδα εισόδου στο SCORM."
+
+#: $string['displaycoursestructure']
+msgid "Display course structure on entry page"
+msgstr "Εμφάνιση δομής μαθήματος"
+
+#: $string['displaycoursestructuredesc']
+msgctxt "$string['displaycoursestructuredesc']"
+msgid ""
+"If enabled, the table of contents is displayed on the SCORM outline page."
+msgstr ""
+"Η ρύθμιση αυτή χρησιμοποιείται σαν εξ' ορισμού τιμή για την προβολή δομής "
+"μαθήματος"
+
+#: $string['displaycoursestructure_help']
+msgctxt "$string['displaycoursestructure_help']"
+msgid ""
+"If enabled, the table of contents is displayed on the SCORM outline page."
+msgstr ""
+"Αν ενεργοποιηθεί, ο πίνακας περιεχομένων εμφανίζεται στη σελίδα "
+"περιγράμματος του SCORM."
+
+#: $string['displaydesc']
+msgid "Whether to display the SCORM package in a new window."
+msgstr ""
+"Η ρύθμιση αυτή χρησιμοποιείται σαν εξ' ορισμού τιμή για την προβολή ή όχι "
+"του πακέτου για κάποια δραστηριότητα"
+
+#: $string['displaysettings']
+msgid "Display settings"
+msgstr "Ρυθμίσεις εμφάνισης"
+
+#: $string['dnduploadscorm']
+msgid "Add a SCORM package"
+msgstr "Προσθήκη πακέτου SCORM"
+
+#: $string['domxml']
+msgid "DOMXML external library"
+msgstr "Εξωτερική βιβλιοθήκη DOMXML"
+
+#: $string['duedate']
+msgid "Due date"
+msgstr "Ημερομηνία εκπνοής"
+
+#: $string['element']
+msgid "Element"
+msgstr "Στοιχείο"
+
+#: $string['enter']
+msgid "Enter"
+msgstr "Είσοδος"
+
+#: $string['entercourse']
+msgid "Enter course"
+msgstr "Εισαγωγή"
+
+#: $string['errorlogs']
+msgid "Errors log"
+msgstr "Αρχείο καταγραφής σφαλμάτων"
+
+#: $string['eventattemptdeleted']
+msgid "Attempt deleted"
+msgstr "Η προσπάθεια διαγράφηκε"
+
+#: $string['eventinteractionsviewed']
+msgid "Interactions viewed"
+msgstr "Προβολή αλληλεπιδράσεων"
+
+#: $string['eventreportviewed']
+msgid "Report viewed"
+msgstr "Προβολή αναφοράς"
+
+#: $string['eventscolaunched']
+msgid "Sco launched"
+msgstr "Εκκίνηση sco"
+
+#: $string['eventscorerawsubmitted']
+msgid "Submitted SCORM raw score"
+msgstr "Υποβλήθηκε ανεπεξέργαστη βαθμολογία SCORM"
+
+#: $string['eventstatussubmitted']
+msgid "Submitted SCORM status"
+msgstr "Υποβλήθηκε κατάσταση SCORM"
+
+#: $string['eventtracksviewed']
+msgid "Tracks viewed"
+msgstr "Προβολή παρακολούθησης"
+
+#: $string['eventuserreportviewed']
+msgid "User report viewed"
+msgstr "Προβολή αναφοράς χρήστη"
+
+#: $string['everyday']
+msgid "Every day"
+msgstr "Κάθε μέρα"
+
+#: $string['everytime']
+msgid "Every time it's used"
+msgstr "Κάθε φορά που χρησιμοποιείται"
+
+#: $string['exceededmaxattempts']
+msgid "You have reached the maximum number of attempts."
+msgstr "Έχετε φτάσει το όριο του επιτρεπόμενου αριθμού προσπαθειών."
+
+#: $string['exit']
+msgid "Exit course"
+msgstr "Έξοδος από το μάθημα"
+
+#: $string['exitactivity']
+msgid "Exit activity"
+msgstr "Έξοδος από τη δραστηριότητα"
+
+#: $string['expired']
+msgid "Sorry, this activity closed on {$a} and is no longer available"
+msgstr ""
+"Λυπάμαι, αλλά η δραστηριότητα αυτή έκλεισε στις {$a} και δεν είναι πλέον "
+"διαθέσιμη"
+
+#: $string['external']
+msgid "Update external packages timing"
+msgstr "Χρόνος ενημέρωσης εξωτερικών πακέτων"
+
+#: $string['failed']
+msgid "Failed"
+msgstr "Απέτυχε"
+
+#: $string['finishscorm']
+msgid "If you have finished viewing this resource, {$a}"
+msgstr "Αν ολοκληρώσατε την παρακολούθηση του πόρου, {$a}"
+
+#: $string['finishscormlinkname']
+msgid "click here to return to the course page"
+msgstr "πατήστε εδώ για επιστροφή στη σελίδα του μαθήματος"
+
+#: $string['firstaccess']
+msgid "First access"
+msgstr "Πρώτη προσπέλαση"
+
+#: $string['firstattempt']
+msgid "First attempt"
+msgstr "Πρώτη προσπάθεια"
+
+#: $string['floating']
+msgid "Floating"
+msgstr "Κινούμενο"
+
+#: $string['forcecompleted']
+msgid "Force completed"
+msgstr "Επιβολή ολοκλήρωσης"
+
+#: $string['forcecompleteddesc']
+msgid "This preference sets the default value for the force completed setting"
+msgstr ""
+"Η ρύθμιση αυτή χρησιμοποιείται σαν εξ' ορισμού τιμή για την επιβολή "
+"ολοκλήρωσης"
+
+#: $string['forcecompleted_help']
+msgid ""
+"If enabled, the status of the current attempt is forced to \"completed\". "
+"(Only applicable to SCORM 1.2 packages.)"
+msgstr ""
+"Αν ενεργοποιηθεί, η κατάσταση της τρέχουσας προσπάθειας θα οριστεί "
+"υποχρεωτικά ως \"ολοκληρώθηκε\". (Ισχύει μόνο για πακέτα SCORM 1.2.)"
+
+#: $string['forcejavascript']
+msgid "Force users to enable JavaScript"
+msgstr "Υποχρέωση χρηστών να ενεργοποιήσουν την JavaScript"
+
+#: $string['forcejavascript_desc']
+msgid ""
+"If enabled (recommended) this prevents access to SCORM objects when "
+"JavaScript is not supported/enabled in a users browser. If disabled the user "
+"may view the SCORM but API communication will fail and no grade information "
+"will be saved."
+msgstr ""
+"Αν είναι ενεργοποιημένο (προτείνεται), εμποδίζει την πρόσβαση σε αντικείμενα "
+"SCORM όταν η JavaScript δεν υποστηρίζεται / είναι ενεργοποιημένη στο "
+"πρόγραμμα περιήγησης του χρήστη. Αν είναι απενεργοποιημένο ο χρήστης μπορεί "
+"να δει το SCORM αλλά η επικοινωνία API θα αποτύχει και δεν θα αποθηκευτούν "
+"πληροφορίες βαθμολόγησης."
+
+#: $string['forcejavascriptmessage']
+msgid ""
+"JavaScript is required to view this object, please enable JavaScript in your "
+"browser and try again."
+msgstr ""
+"Απαιτείται JavaScript για να δείτε αυτό το αντικείμενο, παρακαλούμε "
+"ενεργοποιήσετε την JavaScript στο πρόγραμμα περιήγησης και δοκιμάστε ξανά."
+
+#: $string['forcenewattempt']
+msgid "Force new attempt"
+msgstr "Επιβολή νέας προσπάθειας"
+
+#: $string['forcenewattemptdesc']
+msgid ""
+"This setting hides the \"Start new attempt\" checkbox and prevents review "
+"mode. SCORM allows a student to return to the same attempt at any point and "
+"a new attempt is not possible unless the previous attempt has been set as "
+"\"completed\", \"passed\" or \"failed\". If the SCORM package does not do this, "
+"the student will always re-enter the same attempt."
+msgstr ""
+"Η ρύθμιση αυτή χρησιμοποιείται σαν εξ' ορισμού τιμή για την επιβολή νέας "
+"προσπάθειας"
+
+#: $string['forcenewattempt_help']
+msgid ""
+"This setting hides the \"Start new attempt\" checkbox and prevents review "
+"mode.\n"
+"\n"
+"SCORM allows a student to return to the same attempt at any point and a new "
+"attempt is not possible unless the previous attempt has been set as "
+"\"completed\", \"passed\" or \"failed\". If the SCORM package does not do this, "
+"the student will always re-enter the same attempt."
+msgstr ""
+"Αυτή η ρύθμιση αποκρύπτει το πλαίσιο \"Εκκίνηση νέας προσπάθειας\" και "
+"εμποδίζει την ανασκόπηση.\n"
+"<br/><br/>Το SCORM επιτρέπει σε ένα μαθητή να επιστρέψουν στην ίδια "
+"προσπάθεια οποιαδήποτε στιγμή και μια νέα προσπάθεια δεν είναι δυνατή, εκτός "
+"αν η προηγούμενη προσπάθεια έχει οριστεί ως \"ολοκληρώθηκε\", \"πέρασε\" ή "
+"\"απέτυχε\". Αν το πακέτο SCORM δεν το κάνει αυτό, ο μαθητής θα εισέρχεται "
+"πάντα στην ίδια προσπάθεια."
+
+#: $string['found']
+msgid "Manifest found"
+msgstr "Βρέθηκε αρχείο καταγραφής"
+
+#: $string['frameheight']
+msgid "The height of the stage frame or window."
+msgstr ""
+"Αυτή η επιλογή καθορίζει το προεπιλεγμένο ύψος του πλαισίου ή του παραθύρου"
+
+#: $string['framewidth']
+msgid "The width of the stage frame or window."
+msgstr ""
+"Αυτή η επιλογή καθορίζει το προεπιλεγμένο πλάτος του πλαισίου ή του "
+"παραθύρου"
+
+#: $string['fromleft']
+msgid "From left"
+msgstr "Από αριστερά"
+
+#: $string['fromtop']
+msgid "From top"
+msgstr "Από επάνω"
+
+#: $string['fullscreen']
+msgid "Fill the whole screen"
+msgstr "Γέμισμα όλης της οθόνης"
+
+#: $string['general']
+msgid "General data"
+msgstr "Γενικά δεδομένα"
+
+#: $string['gradeaverage']
+msgid "Average grade"
+msgstr "Μέσος βαθμός"
+
+#: $string['gradeforattempt']
+msgid "Grade for attempt"
+msgstr "Βαθμός προσπάθειας"
+
+#: $string['gradehighest']
+msgid "Highest grade"
+msgstr "Υψηλότερος βαθμός"
+
+#: $string['grademethod']
+msgid "Grading method"
+msgstr "Μέθοδος βαθμολόγησης"
+
+#: $string['grademethoddesc']
+msgid ""
+"The grading method defines how the grade for a single attempt of the "
+"activity is determined."
+msgstr ""
+"Η ρύθμιση αυτή χρησιμοποιείται σαν εξ' ορισμού τιμή για τη μέθοδο "
+"βαθμολόγησης"
+
+#: $string['grademethod_help']
+msgid ""
+"The grading method defines how the grade for a single attempt of the "
+"activity is determined.\n"
+"\n"
+"There are 4 grading methods:\n"
+"\n"
+"* Learning objects - The number of completed/passed learning objects\n"
+"* Highest grade - The highest score obtained in all passed learning objects\n"
+"* Average grade - The mean of all the scores\n"
+"* Sum grade - The sum of all the scores"
+msgstr ""
+"<p><b>Τρόποι Βαθμολόγησης</b></p>\n"
+"\n"
+"<p>Τα αποτελέσματα μιας δράσης SCORM/AICC βαθμολογούνται με τους παρακάτω "
+"τρόπους:\n"
+"    <ul>\n"
+"    <li><b>Πλήθος αντικειμένων</b><br />Πρόκειται για αριθμό που δηλώνει σε "
+"πόσα αντικείμενα μιας εκπαιδευτικής δράσης έχει εξετασθεί με επιτυχία ο "
+"διδασκόμενος. Η μέγιστη τιμή του αριθμού αυτού είναι ο συνολικός αριθμός των "
+"διδαχθέντων αντικειμένων στα πλαίσια της δράσης.</li>\n"
+"    <li><b>Υψηλότερη βαθμολογία</b><br />Εμφανίζεται η υψηλότερη βαθμολογία "
+"των διδασκομένων σε όλα τα εξετασθέντα διδακτικά αντικείμενα.</li>\n"
+"    <li><b>Μέσος όρος</b><br /> Η επιλογή αυτού του τρόπου βαθμολόγησης "
+"υπολογίζει το μέσο όρο όλων των επιδόσεων.</li>\n"
+"    <li><b>Συνολική βαθμολογία</b><br />’θροισμα όλων των επιμέρους "
+"επιδόσεων.</li>\n"
+"</p>"
+
+#: $string['gradereported']
+msgid "Grade reported"
+msgstr "Βαθμολογία"
+
+#: $string['gradescoes']
+msgctxt "$string['gradescoes']"
+msgid "Learning objects"
+msgstr "Μαθησιακά αντικείμενα"
+
+#: $string['gradesettings']
+msgid "Grade settings"
+msgstr "Ρυθμίσεις βαθμολόγησης"
+
+#: $string['gradesum']
+msgid "Sum grade"
+msgstr "Άθροισμα βαθμού"
+
+#: $string['height']
+msgid "Height"
+msgstr "Ύψος"
+
+#: $string['hidden']
+msgid "Hidden"
+msgstr "Κρυμμένο"
+
+#: $string['hidebrowse']
+msgid "Disable preview mode"
+msgstr "Απενεργοποίηση προεπισκόπισης"
+
+#: $string['hidebrowsedesc']
+msgid ""
+"Preview mode allows a student to browse an activity before attempting it."
+msgstr ""
+"Η ρύθμιση αυτή χρησιμοποιείται σαν εξ' ορισμού τιμή για την απενεργοποίηση "
+"προεπισκόπισης"
+
+#: $string['hidebrowse_help']
+msgid ""
+"Preview mode allows a student to browse an activity before attempting it. If "
+"preview mode is disabled, the preview button is hidden."
+msgstr ""
+"Η προεπισκόπηση επιτρέπει στο μαθητή να πλοηγηθεί σε μια δραστηριότητα "
+"πρότου κάνει προσπάθεια. Αν η προεπισκόπηση είναι απενεργοποιημένη, το "
+"κουμπί προεπισκόπηση είναι κρυμμένο."
+
+#: $string['hideexit']
+msgid "Hide exit link"
+msgstr "Απόκρυψη συνδέσμου εξόδου"
+
+#: $string['hidereview']
+msgid "Hide review button"
+msgstr "Απόκρυψη κουμπιού αναθεώρησης"
+
+#: $string['hidetoc']
+msgid "Display course structure in player"
+msgstr "Εμφάνιση πίνακα περιεχομένων"
+
+#: $string['hidetocdesc']
+msgid ""
+"This setting specifies how the table of contents is displayed in the SCORM "
+"player."
+msgstr ""
+"Η ρύθμιση αυτή χρησιμοποιείται σαν εξ' ορισμού τιμή για την εμφάνιση πίνακα "
+"περιεχομένων"
+
+#: $string['hidetoc_help']
+msgid "How the table of contents is displayed in the SCORM player"
+msgstr "Ο τρόπος εμφάνισης του πίνακα περιεχομένων στον αναπαραγωγέα SCORM"
+
+#: $string['highestattempt']
+msgid "Highest attempt"
+msgstr "Υψηλότερη βαθμολογία"
+
+#: $string['identifier']
+msgid "Question identifier"
+msgstr "Αναγνωριστικό Ερώτησης"
+
+#: $string['incomplete']
+msgid "Incomplete"
+msgstr "Μη ολοκληρωμένο"
+
+#: $string['indicator:cognitivedepth']
+msgid "SCORM cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepth_help']
+msgid ""
+"This indicator is based on the cognitive depth reached by the student in a "
+"SCORM activity."
+msgstr ""
+
+#: $string['indicator:socialbreadth']
+msgid "SCORM social"
+msgstr ""
+
+#: $string['indicator:socialbreadth_help']
+msgid ""
+"This indicator is based on the social breadth reached by the student in a "
+"SCORM activity."
+msgstr ""
+
+#: $string['info']
+msgid "Info"
+msgstr "Πληροφορίες"
+
+#: $string['interactions']
+msgid "Interactions"
+msgstr "Διαδράσεις"
+
+#: $string['invalidactivity']
+msgid "SCORM activity is incorrect"
+msgstr "Η δραστηριότητα SCORM είναι εσφαλμένη"
+
+#: $string['invalidhacpsession']
+msgid "Invalid HACP session"
+msgstr "Μη έγκυρη συνεδρία HACP"
+
+#: $string['invalidmanifestname']
+msgid "Only imsmanifest.xml or .zip files may be selected"
+msgstr "Μπορεί να γίνει επιλογή μόνο imsmanifest.xml ή .zip αρχείων"
+
+#: $string['invalidmanifestresource']
+msgid ""
+"WARNING: The following resources were referenced in your manifest but "
+"couldn't be found:"
+msgstr ""
+"ΠΡΟΣΟΧΗ: Οι παρακάτω πόροι αναφέρονται στο manifest, αλλά δεν είναι εφικτή η "
+"εύρεση τους:"
+
+#: $string['invalidurl']
+msgid "Invalid URL specified"
+msgstr "Μη έγκυρο URL"
+
+#: $string['invalidurlhttpcheck']
+msgid "Invalid URL specified. Debug message:<pre>{$a->cmsg}</pre>"
+msgstr "Μη έγκυρο URL. Μήνυμα αποσφαλμάτωσης:<pre>{$a->cmsg}</pre>"
+
+#: $string['last']
+msgid "Last accessed on"
+msgstr "Τελευταία πρόσβαση στις"
+
+#: $string['lastaccess']
+msgid "Last access"
+msgstr "Τελευταία πρόσβαση"
+
+#: $string['lastattempt']
+msgid "Last completed attempt"
+msgstr "Τελευταία προσπάθεια"
+
+#: $string['lastattemptlock']
+msgid "Lock after final attempt"
+msgstr "Κλείδωμα μετά την τελευταία προσπάθεια"
+
+#: $string['lastattemptlockdesc']
+msgctxt "$string['lastattemptlockdesc']"
+msgid ""
+"If enabled, a student is prevented from launching the SCORM player after "
+"using up all their allocated attempts."
+msgstr ""
+"Η ρύθμιση αυτή χρησιμοποιείται σαν εξ' ορισμού τιμή για το κλείδωμα μετά την "
+"τελευταία προσπάθεια"
+
+#: $string['lastattemptlock_help']
+#, fuzzy
+msgctxt "$string['lastattemptlock_help']"
+msgid ""
+"If enabled, a student is prevented from launching the SCORM player after "
+"using up all their allocated attempts."
+msgstr ""
+"Η ρύθμιση αυτή χρησιμοποιείται σαν εξ' ορισμού τιμή για το κλείδωμα μετά την "
+"τελευταία προσπάθεια"
+
+#: $string['location']
+msgid "Show the location bar"
+msgstr "Εμφάνιση της γραμμής διευθύνσεως"
+
+#: $string['masteryoverride']
+msgid "Mastery score overrides status"
+msgstr ""
+
+#: $string['masteryoverridedesc']
+msgid "This preference sets the default for the mastery score override setting"
+msgstr ""
+
+#: $string['masteryoverride_help']
+msgid ""
+"If enabled and a mastery score is provided, when LMSFinish is called and a "
+"raw score has been set, status will be recalculated using the raw score and "
+"mastery score and any status provided by the SCORM (including \"incomplete\") "
+"will be overridden."
+msgstr ""
+
+#: $string['max']
+msgid "Max score"
+msgstr "Μέγιστος βαθμός"
+
+#: $string['maximumattempts']
+msgid "Number of attempts"
+msgstr "Μέγιστος αριθμός προσπαθειών"
+
+#: $string['maximumattemptsdesc']
+msgid "This preference sets the default maximum attempts for an activity"
+msgstr ""
+"Η ρύθμιση αυτή χρησιμοποιείται σαν εξ' ορισμού τιμή για τον μέγιστο αριθμό "
+"προσπαθειών"
+
+#: $string['maximumattempts_help']
+msgid ""
+"This setting enables the number of attempts to be restricted. It is only "
+"applicable for SCORM 1.2 and AICC packages."
+msgstr ""
+"Αυτή η ρύθμιση δίνει την δυνατότητα να περιοριστεί ο αριθμός των "
+"προσπαθειών. Εφαρμόζεται μόνο για πακέτα SCORM 1.2  και AICC."
+
+#: $string['maximumgradedesc']
+msgid "This preference sets the default maximum grade for an activity"
+msgstr ""
+"Η ρύθμιση αυτή χρησιμοποιείται σαν εξ' ορισμού τιμή για τον μέγιστο βαθμό"
+
+#: $string['menubar']
+msgid "Show the menu bar"
+msgstr "Εμφάνιση της γραμμής μενού"
+
+#: $string['min']
+msgctxt "$string['min']"
+msgid "Minimum score"
+msgstr "Ελάχιστος βαθμός"
+
+#: $string['missing_attribute']
+msgid "Missing attribute {$a->attr} in tag {$a->tag}"
+msgstr "Απούσα ιδιότητα {$a->attr} στην ετικέτα {$a->tag}"
+
+#: $string['missingparam']
+msgid "A required parameter is missing or wrong"
+msgstr "A required is missing or wrong"
+
+#: $string['missing_tag']
+msgid "Missing tag {$a->tag}"
+msgstr "Απούσα ετικέτα  {$a->tag}"
+
+#: $string['mode']
+msgid "Mode"
+msgstr "Φάση"
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "SCORM package"
+msgstr "SCORM/AICC"
+
+#: $string['modulename_help']
+msgid ""
+"A SCORM package is a collection of files which are packaged according to an "
+"agreed standard for learning objects. The SCORM activity module enables "
+"SCORM or AICC packages to be uploaded as a zip file and added to a course.\n"
+"\n"
+"Content is usually displayed over several pages, with navigation between the "
+"pages. There are various options for displaying content in a pop-up window, "
+"with a table of contents, with navigation buttons etc. SCORM activities "
+"generally include questions, with grades being recorded in the gradebook.\n"
+"\n"
+"SCORM activities may be used\n"
+"\n"
+"* For presenting multimedia content and animations\n"
+"* As an assessment tool"
+msgstr ""
+"Ένα πακέτο SCORM είναι μια συλλογή αρχείων που είναι συσκευασμένα σύμφωνα με "
+"ένα συμφωνημένο πρότυπο για την μαθησιακά αντικείμενα. Η δραστηριότητα "
+"SCORM επιτρέπει SCORM ή AICC πακέτα να ανεβαίνουν ως αρχείο zip και να "
+"προστίθενται σε ένα μάθημα.\n"
+"\n"
+"Το περιεχόμενο συνήθως εμφανίζεται σε διάφορες σελίδες, με πλοήγηση μεταξύ "
+"των σελίδων. Υπάρχουν διάφορες επιλογές για την εμφάνιση περιεχομένου σε ένα "
+"αναδυόμενο pop-up παράθυρο, με έναν πίνακα περιεχομένων, με πλήκτρα "
+"πλοήγησης κλπ. δραστηριότητες SCORM περιλαμβάνουν γενικά περιλαμβάνουν "
+"ερωτήσεις, με τους βαθμούς να καταγράφονται στο βαθμολόγιο.\n"
+"\n"
+"Οι δραστηριότητες SCORM μπορεί να χρησιμοποιηθούν\n"
+"\n"
+"* Για την παρουσίαση πολυμεσικού περιεχομένου και κινουμένων σχεδίων\n"
+"* Ως εργαλείο αξιολόγησης"
+
+#: $string['modulename_link']
+msgid "mod/scorm/view"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "SCORM packages"
+msgstr "SCORMs/AICCs"
+
+#: $string['nav']
+msgid "Show Navigation"
+msgstr "Εμφάνιση Πλοήγησης"
+
+#: $string['navdesc']
+msgid ""
+"This setting specifies whether to show or hide navigation buttons and their "
+"position."
+msgstr ""
+"Αυτή η ρύθμιση καθορίζει αν θα εμφανίζονται ή θα γίνονται απόκρυψη τα "
+"πλήκτρα πλοήγησης και η θέση τους."
+
+#: $string['nav_help']
+msgid ""
+"This setting specifies whether to show or hide the navigation buttons and "
+"their position.\n"
+"\n"
+"There are 3 options:\n"
+"\n"
+"* No - Navigation buttons are not shown\n"
+"* Under content - Navigation buttons are shown below the SCORM package "
+"content\n"
+"* Floating - Navigation buttons are shown floating, with the position from "
+"the top and from the left determined by the package."
+msgstr ""
+
+#: $string['navigation']
+msgid "Navigation"
+msgstr "Πλοήγηση"
+
+#: $string['navpositionleft']
+msgid "Position of navigation buttons from left in pixels."
+msgstr "Θέση πλήκτρων πλοήγησης από αριστερα σε pixels."
+
+#: $string['navpositiontop']
+msgid "Position of navigation buttons from top in pixels."
+msgstr "Θέση πλήκτρων πλοήγησης από επάνω σε pixels."
+
+#: $string['networkdropped']
+msgid ""
+"The SCORM player has determined that your Internet connection is unreliable "
+"or has been interrupted. If you continue in this SCORM activity, your "
+"progress may not be saved.<br />\n"
+"You should exit the activity now, and return when you have a dependable "
+"Internet connection."
+msgstr ""
+"Ο αναπαραγωγέας SCORM έχει διαπιστώσει ότι η σύνδεσή σας στο Διαδίκτυο είναι "
+"αναξιόπιστη ή έχει διακοπεί. Αν συνεχίσετε σε αυτή την δραστηριότητα SCORM, "
+"η πρόοδος σας μπορεί να μην σωθεί. <br />\n"
+"Θα πρέπει να βγείτε από τη δραστηριότητα τώρα, και να επιστρέψει όταν θα "
+"έχετε μια αξιόπιστη σύνδεση στο Διαδίκτυο."
+
+#: $string['newattempt']
+msgid "Start a new attempt"
+msgstr "Έναρξη νέας προσπάθειας"
+
+#: $string['next']
+msgid "Continue"
+msgstr "Συνέχεια"
+
+#: $string['noactivity']
+msgid "Nothing to report"
+msgstr "Τίποτα προς αναφορά"
+
+#: $string['noattemptsallowed']
+msgid "Number of attempts allowed"
+msgstr "Επιτρεπόμενος αριθμός προσπαθειών"
+
+#: $string['noattemptsmade']
+msgid "Number of attempts you have made"
+msgstr "Αριθμός προσπαθειών που κάνατε"
+
+#: $string['no_attributes']
+msgid "Tag {$a->tag} must have attributes"
+msgstr "Η ετικέτα {$a->tag} πρέπει να έχει ιδιότητες"
+
+#: $string['no_children']
+msgid "Tag {$a->tag} must have children"
+msgstr "Η ετικέτα {$a->tag} πρέπει να έχει παιδιά"
+
+#: $string['nolimit']
+msgid "Unlimited attempts"
+msgstr "Απεριόριστες προσπάθειες"
+
+#: $string['nomanifest']
+msgid "Incorrect file package - missing imsmanifest.xml or AICC structure"
+msgstr "Δεν βρέθηκαν αρχεία καταγραφής"
+
+#: $string['noprerequisites']
+msgid ""
+"Sorry but you don't have the required prerequisites to access this activity."
+msgstr ""
+"Συγνώμη, δεν έχετε τις απαιτούμενες προϋποθέσεις για να προσπελάσετε αυτό το "
+"μαθησιακό αντικείμενο"
+
+#: $string['noreports']
+msgid "No report to display"
+msgstr "Καμία αναφορά για προβολή"
+
+#: $string['normal']
+msgid "Normal"
+msgstr "Κανονικό"
+
+#: $string['noscriptnoscorm']
+msgid ""
+"Your browser does not support JavaScript or it has JavaScript support "
+"disabled. This SCORM package may not play or save data correctly."
+msgstr ""
+"Το πρόγραμμα πλοήγησής σας δεν υποστηρίζει τη Javascript ή την έχει "
+"απενεργοποιημένη."
+
+#: $string['notattempted']
+msgid "Not attempted"
+msgstr "Δεν δοκιμάστηκε"
+
+#: $string['not_corr_type']
+msgid "Type mismatch for tag {$a->tag}"
+msgstr "Αναντιστοιχία τύπου για την ετικέτα {$a->tag}"
+
+#: $string['notopenyet']
+msgid "Sorry, this activity is not available until {$a}"
+msgstr "Λυπάμαι, η δραστηριότητα αυτή δεν είναι διαθέσιμη πριν τις {$a}"
+
+#: $string['objectives']
+msgid "Objectives"
+msgstr "Στόχοι"
+
+#: $string['openafterclose']
+msgid "You have specified an open date after the close date"
+msgstr ""
+
+#: $string['optallstudents']
+msgid "all users"
+msgstr "όλοι οι χρήστες"
+
+#: $string['optattemptsonly']
+msgid "users with attempts only"
+msgstr "χρήστες με προσπάθειες μόνο"
+
+#: $string['options']
+msgid "Options (Prevented by some browsers)"
+msgstr "Επιλογές"
+
+#: $string['optionsadv']
+msgid "Options (Advanced)"
+msgstr "Επιλογές (Προχωρημένες)"
+
+#: $string['optionsadv_desc']
+msgid "If checked the width and height will be listed as advanced settings."
+msgstr ""
+"Αν είναι επιλεγμένο το ύψος και το πλάτος θα εμφανίζονται ως προχωρημένες  "
+"επιλογές."
+
+#: $string['optnoattemptsonly']
+msgid "users with no attempts only"
+msgstr "χρήστες χωρίς προσπάθειες μόνο"
+
+#: $string['organization']
+msgid "Organisation"
+msgstr "Οργανισμός"
+
+#: $string['organizations']
+msgid "Organisations"
+msgstr "Οργανισμοί"
+
+#: $string['othersettings']
+msgid "Additional settings"
+msgstr "Επιπλέον ρυθμίσεις"
+
+#: $string['package']
+msgctxt "$string['package']"
+msgid "Package file"
+msgstr "Περιεχόμενο πακέτου"
+
+#: $string['packagedir']
+msgid "Filesystem error: Can't create package directory"
+msgstr "Σφάλμα αρχείων συστήματος: Δεν δημιουργήθηκε φάκελος πακέτου"
+
+#: $string['packagefile']
+msgid "No package file specified"
+msgstr "Δεν καθορίστηκε αρχείο πακέτου"
+
+#: $string['packagehdr']
+msgid "Package"
+msgstr "Πακέτο"
+
+#: $string['package_help']
+msgid ""
+"The package file is a zip (or pif) file containing SCORM/AICC course "
+"definition files."
+msgstr ""
+"<p><b>Αρχείο πακέτων</b></p>\n"
+"\n"
+"<p>Ένα πακέτο αρχείων είναι ένα ειδικό αρχείο με προέκταση <b>zip</b> (ή "
+"pif), το οποίο περιέχει ενεργά\n"
+"αρχεία ορισμού μαθήματος τύπου AICC ή SCORM (έγκυρα αρχεία προσδιορισμού "
+"μαθήματος AICC ή SCORM).</p>\n"
+"\n"
+"<p>Ένα πακέτο τύπου <b>SCORM</b> πρέπει να εμπεριέχει αρχείο με το όνομα "
+"<b>imsmanifest.xml</b>. Το αρχείο αυτό\n"
+"ορίζει τη δομή του μαθήματος τύπου SCORM, την τοποθεσία των πηγών δεδομένων "
+"και άλλα πράγματα.</p>\n"
+"\n"
+"<p>Ένα πακέτο τύπου <b>AICC</b> ορίζεται από μερικά αρχεία (από 4 ως 7 "
+"αρχεία) με συγκεκριμένες προεκτάσεις,\n"
+"που σημαίνουν:</p>\n"
+"   <ul>\n"
+"    <li>CRS - Course Description file (υποχρεωτικό) - αρχείο περιγραφής "
+"μαθήματος</li>\n"
+"    <li>AU  - Assignable Unit file (υποχρεωτικό) - αρχείο εκχωρητέας "
+"ενότητας</li>\n"
+"    <li>DES - Descriptor file (υποχρεωτικό) - αρχείο περιγραφέας </li>\n"
+"    <li>CST - Course Structure file (υποχρεωτικό) - αρχεία δομής "
+"μαθήματος</li>\n"
+"    <li>ORE - Objective Relationship file (προαιρετικό) - αρχείο "
+"αντικειμενικής σχέσης</li>\n"
+"    <li>PRE - Prerequisites file (προαιρετικό) - αρχείο με τις αναγκαίες "
+"προϋποθέσεις</li>\n"
+"    <li>CMP - Completition Requirements file (προαιρετικό) - αρχείο "
+"απαιτήσεων ολοκλήρωσης</li>\n"
+"   </ul>"
+
+#: $string['packageurl']
+msgid "URL"
+msgstr "URL"
+
+#: $string['packageurl_help']
+msgid ""
+"This setting enables a URL for the SCORM package to be specified, rather "
+"than choosing a file via the file picker."
+msgstr ""
+"Αυτή η ρύθμιση επιτρέπει να οριστεί ένα URL για το πακέτο SCORM, αντί να "
+"γίνει επιλογή ενός αρχείου μέσω του επιλογέα αρχείων."
+
+#: $string['page-mod-scorm-x']
+msgid "Any SCORM module page"
+msgstr "Οποιαδήποτε σελίδα του SCORM"
+
+#: $string['pagesize']
+msgid "Page size"
+msgstr "Μέγεθος σελίδας"
+
+#: $string['passed']
+msgctxt "$string['passed']"
+msgid "Passed"
+msgstr "Πέρασε"
+
+#: $string['php5']
+msgid "PHP 5 (DOMXML native library)"
+msgstr "PHP 5 (βιβλιοθήκη DOMXML)"
+
+#: $string['pluginadministration']
+msgid "SCORM package administration"
+msgstr "Διαχείριση πακέτου SCORM"
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "SCORM package"
+msgstr "πακέτο SCORM"
+
+#: $string['popup']
+msgid "New window"
+msgstr "Νέο παράθυρο"
+
+#: $string['popuplaunched']
+msgid ""
+"This SCORM package has been launched in a popup window, If you have finished "
+"viewing this resource, click here to return to the course page"
+msgstr ""
+"Αυτό το πακέτο SCORM έχει ανοίξει σε αναδυόμενο παράθυρο. Αν έχετε τελειώσει "
+"με την παρακολούθηση του πόρου, πατήστε εδώ για να επιστρέψετε στη σελίδα "
+"του μαθήματος"
+
+#: $string['popupmenu']
+msgid "In a drop down menu"
+msgstr "Σε αναδυόμενο μενού"
+
+#: $string['popupopen']
+msgid "Open package in a new window"
+msgstr "Άνοιξε το πακέτο σε νέο παράθυρο"
+
+#: $string['popupsblocked']
+msgid ""
+"It appears that popup windows are blocked, stopping this SCORM package from "
+"playing. Please check your browser settings before trying again."
+msgstr ""
+"Φαίνεται ότι τα αναδυόμενα παράθυρα αποκλείονται, εμποδίζοντας την "
+"αναπαραγωγή του πακέτου SCORM. Παρακαλώ ελέγξτε τις ρυθμίσεις του "
+"προγράμματος περιήγησης και δοκιμάστε ξανά."
+
+#: $string['position_error']
+msgid "The {$a->tag} tag can't be child of {$a->parent} tag"
+msgstr ""
+"Η ετικέτα {$a->tag}  δεν μπορεί να είναι παιδί της ετικέτας {$a->parent}"
+
+#: $string['preferencespage']
+msgid "Preferences just for this page"
+msgstr "Προτιμήσεις μόνο για αυτή τη σελίδα"
+
+#: $string['preferencesuser']
+msgid "Preferences for this report"
+msgstr "Προτιμήσεις για αυτή την αναφορά"
+
+#: $string['prev']
+msgid "Previous"
+msgstr "Προηγούμενο"
+
+#: $string['protectpackagedownloads']
+msgid "Protect package downloads"
+msgstr "Προστασία κατεβάσματος πακέτου"
+
+#: $string['protectpackagedownloads_desc']
+msgid ""
+"If enabled, SCORM packages can be downloaded only if the user has the "
+"course:manageactivities capability. If disabled, SCORM packages can always "
+"be downloaded (by mobile or other means)."
+msgstr ""
+"Αν ενεργοποιηθεί, τα πακέτα SCORM μπορούν να κατέβουν μόνο αν ο χρήστης έχει "
+"τη δυνατότητα course:manageactivities. Αν απενεργοποιηθεί, τα πακέτα SCORM "
+"μπορούν να κατέβουν χωρίς περιορισμό (από κινητό ή άλλα μέσα)."
+
+#: $string['raw']
+msgctxt "$string['raw']"
+msgid "Raw score"
+msgstr "Ωμός βαθμός"
+
+#: $string['regular']
+msgid "Regular manifest"
+msgstr "Κανονικά αρχεία καταγραφής"
+
+#: $string['report']
+msgctxt "$string['report']"
+msgid "Report"
+msgstr "Αναφορά"
+
+#: $string['reportcountallattempts']
+msgid ""
+"{$a->nbattempts} attempts for {$a->nbusers} users, out of {$a->nbresults} "
+"results"
+msgstr ""
+"{$a->nbattempts} προσπάθειες από {$a->nbusers} χρήστες, από {$a->nbresults} "
+"αποτελέσματα"
+
+#: $string['reportcountattempts']
+msgid "{$a->nbresults} results ({$a->nbusers} users)"
+msgstr "{$a->nbresults} αποτελέσματα ({$a->nbusers} χρήστες)"
+
+#: $string['reports']
+msgctxt "$string['reports']"
+msgid "Reports"
+msgstr "Αναφορές"
+
+#: $string['repositorynotsupported']
+msgid ""
+"This repository does not support linking directly to an imsmanifest.xml "
+"file."
+msgstr ""
+"Αυτό το αποθετήριο δεν υποστηρίζει σύνδεση απευθείας σε ένα αρχείο "
+"imsmanifest.xml."
+
+#: $string['response']
+#, fuzzy
+msgctxt "$string['response']"
+msgid "Response"
+msgstr "Απάντηση"
+
+#: $string['result']
+msgctxt "$string['result']"
+msgid "Result"
+msgstr "Αποτέλεσμα"
+
+#: $string['results']
+msgid "Results"
+msgstr "Αποτελέσματα"
+
+#: $string['review']
+msgid "Review"
+msgstr "Ανασκόπηση"
+
+#: $string['reviewmode']
+msgid "Review mode"
+msgstr "Φάση ανασκόπησης"
+
+#: $string['rightanswer']
+msgid "Right answer"
+msgstr "Σωστή απάντηση"
+
+#: $string['scoes']
+msgctxt "$string['scoes']"
+msgid "Learning objects"
+msgstr "Μαθησιακά Αντικείμενα"
+
+#: $string['score']
+msgid "Score"
+msgstr "Βαθμός"
+
+#: $string['scorm12standard']
+msgid "Enable SCORM 1.2 standard mode"
+msgstr "Ενεργοποίηση τυπικής λειτουργίας SCORM 1.2"
+
+#: $string['scorm12standarddesc']
+msgid ""
+"Disabling this setting allows Moodle to store more data than the SCORM 1.2 "
+"specification allows.\n"
+"If your SCORM packages allow users to enter large amounts of text or if your "
+"package tries to store large amounts of data in the suspend_data field "
+"disable this."
+msgstr ""
+"Η απενεργοποίηση αυτής της ρύθμισης επιτρέπει στο Moodle να αποθηκεύει "
+"περισσότερα δεδομένα από ό,τι επιτρέπει η προδιαγραφή SCORM 1.2.<br/>\n"
+"Αν τα πακέτα SCORM επιτρέπουν στους χρήστες να εισάγουν μεγάλα κείμενα ή αν "
+"το πακέτο προσπαθεί να αποθηκεύσει μεγάλο αριθμό δεδομένων στο πεδίο "
+"suspend_data απενεργοποιήστε."
+
+#: $string['scorm:addinstance']
+msgid "Add a new SCORM package"
+msgstr "Προσθήκη νέου SCORM πακέτου"
+
+#: $string['scormclose']
+msgid "Available to"
+msgstr "Μέχρι"
+
+#: $string['scormcourse']
+msgid "Learning course"
+msgstr "Εκπαιδευτική Διαδικασία"
+
+#: $string['scorm:deleteownresponses']
+msgid "Delete own attempts"
+msgstr "Διαγραφή των προσπαθειών σας"
+
+#: $string['scorm:deleteresponses']
+msgid "Delete SCORM attempts"
+msgstr "Διαγραφή προσπαθειών"
+
+#: $string['scormloggingoff']
+msgid "API logging is off"
+msgstr "Η καταγραφή του API είναι απενεργοποιημένη"
+
+#: $string['scormloggingon']
+msgid "API logging is on"
+msgstr "Η καταγραφή του API είναι ενεργοποιημένη"
+
+#: $string['scormopen']
+msgid "Available from"
+msgstr "Ανοιχτό"
+
+#: $string['scormresponsedeleted']
+msgid "Deleted user attempts"
+msgstr "Οι προσπάθειες των χρηστών διαγράφηκαν"
+
+#: $string['scorm:savetrack']
+msgid "Save tracks"
+msgstr "Αποθήκευση tracks"
+
+#: $string['scorm:skipview']
+msgid "Skip overview"
+msgstr "Προσπεράστε την σύνοψη"
+
+#: $string['scormtype']
+msgctxt "$string['scormtype']"
+msgid "Type"
+msgstr "Τύπος"
+
+#: $string['scormtype_help']
+msgid ""
+"This setting determines how the package is included in the course. There are "
+"up to 4 options:\n"
+"\n"
+"* Uploaded package - Enables a SCORM package to be chosen via the file "
+"picker\n"
+"* External SCORM manifest - Enables an imsmanifest.xml URL to be specified. "
+"Note: If the URL has a different domain name than your site, then "
+"\"Downloaded package\" is a better option, since otherwise grades are not "
+"saved.\n"
+"* Downloaded package - Enables a package URL to be specified. The package "
+"will be unzipped and saved locally, and updated when the external SCORM "
+"package is updated.\n"
+"* External AICC URL - this URL is the launch URL for a single AICC Activity. "
+" A psuedo package will be constructed around this."
+msgstr ""
+
+#: $string['scorm:viewreport']
+msgid "View reports"
+msgstr "Προβολή αναφορών"
+
+#: $string['scorm:viewscores']
+msgid "View scores"
+msgstr "Προβολή των βαθμολογιών"
+
+#: $string['scrollbars']
+msgid "Allow the window to be scrolled"
+msgstr "Εμφάνιση γραμμών κύλισης"
+
+#: $string['search:activity']
+msgid "SCORM package - activity information"
+msgstr "πακέτο SCORM - πληροφορίες δραστηριότητας"
+
+#: $string['selectall']
+msgid "Select all"
+msgstr "Επιλογή όλων"
+
+#: $string['selectnone']
+msgid "Deselect all"
+msgstr "Αποεπιλογή όλων"
+
+#: $string['show']
+msgid "Show"
+msgstr "Εμφάνιση"
+
+#: $string['sided']
+msgid "To the side"
+msgstr "Στην αριστερή μεριά"
+
+#: $string['skipview']
+msgid "Student skip content structure page"
+msgstr "Μη προβολή σελίδας δομής περιεχομένου"
+
+#: $string['skipviewdesc']
+msgid ""
+"This preference sets the default for when to skip content structure for a "
+"page"
+msgstr ""
+"Η ρύθμιση αυτή χρησιμοποιείται σαν εξ' ορισμού τιμή για τη μη προβολή "
+"σελίδας δομής περιεχομένου"
+
+#: $string['skipview_help']
+msgid ""
+"This setting specifies whether the content structure page should ever be "
+"skipped (not displayed). If the package contains only one learning object, "
+"the content structure page can always be skipped."
+msgstr ""
+
+#: $string['slashargs']
+msgid ""
+"WARNING: slash arguments is disabled on this site and objects may not "
+"function as expected!"
+msgstr ""
+"ΠΡΟΣΟΧΗ: Η επιλογή slash arguments είναι απενεργοποιημένη στο Moodle και "
+"μπορεί το SCORM να μη λειτουργεί σωστά!"
+
+#: $string['stagesize']
+msgid "Stage size"
+msgstr "Μέγεθος σκηνής"
+
+#: $string['stagesize_help']
+msgid ""
+"These two settings specify the frame/window width and height for the "
+"learning objects."
+msgstr ""
+
+#: $string['started']
+msgid "Started on"
+msgstr "Ξεκίνησε στις"
+
+#: $string['status']
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: $string['statusbar']
+msgid "Show the status bar"
+msgstr "Εμφάνιση της γραμμής κατάστασης"
+
+#: $string['student_response']
+msgctxt "$string['student_response']"
+msgid "Response"
+msgstr "Απόκριση"
+
+#: $string['subplugintype_scormreport']
+msgctxt "$string['subplugintype_scormreport']"
+msgid "Report"
+msgstr "Αναφορά"
+
+#: $string['subplugintype_scormreport_plural']
+msgctxt "$string['subplugintype_scormreport_plural']"
+msgid "Reports"
+msgstr "Αναφορές"
+
+#: $string['suspended']
+msgid "Suspended"
+msgstr "Αναστέλλεται"
+
+#: $string['syntax']
+msgid "Syntax error"
+msgstr "Συντακτικό λάθος"
+
+#: $string['tag_error']
+msgid "Unknown tag ({$a->tag}) with this content: {$a->value}"
+msgstr "Άγνωστη ετικέτα ({$a->tag}) με αυτό το περιεχόμενο: {$a->value}"
+
+#: $string['time']
+#, fuzzy
+msgctxt "$string['time']"
+msgid "Time"
+msgstr "Χρόνος"
+
+#: $string['title']
+msgid "Title"
+msgstr "Τίτλος"
+
+#: $string['toc']
+msgid "TOC"
+msgstr "Πίνακας περιεχομένων"
+
+#: $string['toolbar']
+msgid "Show the toolbar"
+msgstr "Δείξε την εργαλειοθήκη"
+
+#: $string['too_many_attributes']
+msgid "Tag {$a->tag} has too many attributes"
+msgstr "Η ετικέτα ({$a->tag}) έχει υπερβολικά πολλές ιδιότητες"
+
+#: $string['too_many_children']
+msgid "Tag {$a->tag} has too many children"
+msgstr "Η ετικέτα ({$a->tag}) έχει υπερβολικά πολλά παιδιά"
+
+#: $string['totaltime']
+msgctxt "$string['totaltime']"
+msgid "Time"
+msgstr "Συνολικός Χρόνος"
+
+#: $string['trackcorrectcount']
+msgid "Correct count"
+msgstr "Καταμέτρηση σωστών απαντήσεων"
+
+#: $string['trackcorrectcount_help']
+msgid "Number of correct results for the question"
+msgstr "Αριθμός σωστών απαντήσεων για την ερώτηση"
+
+#: $string['trackid']
+msgid "Id"
+msgstr "Αναγνωριστικό"
+
+#: $string['trackid_help']
+msgid ""
+"This is the identifier set by your SCORM package for this question, the "
+"SCORM specification doesn't allow the full question text to be provided."
+msgstr ""
+"Αυτό είναι το αναγνωριστικό που ορίζεται από το πακέτο SCORM για την "
+"ερώτηση, η προδιαγραφή SCORM δεν επιτρέπει την εμφάνιση του πλήρους κειμένου "
+"της ερώτησης."
+
+#: $string['trackingloose']
+msgid "WARNING: The tracking data of this package will be lost!"
+msgstr "ΠΡΟΣΟΧΗ: Τα tracking δεδομένα αυτού του πακέτου θα χαθούν!"
+
+#: $string['tracklatency']
+msgid "Latency"
+msgstr "Χρόνος αναμονής"
+
+#: $string['tracklatency_help']
+msgid ""
+"The time elapsed between the time the question was made available to the "
+"learner for a response and the time of the first response."
+msgstr ""
+"Το χρονικό διάστημα που μεσολάβησε μεταξύ του χρόνου διάθεσης της ερώτησης "
+"στο μαθητή για απάντηση και ο χρόνος της πρώτης απάντησης."
+
+#: $string['trackpattern']
+msgid "Pattern"
+msgstr "Πρότυπο"
+
+#: $string['trackpattern_help']
+msgid ""
+"This is what a correct response to this question would be, it does not show "
+"the learners response."
+msgstr ""
+"Ποια θα ήταν μια σωστή απάντηση σε αυτή την ερώτηση, δεν εμφανίζει την "
+"απάντηση των μαθητών."
+
+#: $string['trackresponse']
+msgctxt "$string['trackresponse']"
+msgid "Response"
+msgstr "Απάντηση"
+
+#: $string['trackresponse_help']
+msgid "This is the response made by the learner for this question"
+msgstr "Αυτή είναι η απάντηση που έδωσε ο μαθητής στην ερώτηση"
+
+#: $string['trackresult']
+msgctxt "$string['trackresult']"
+msgid "Result"
+msgstr "Αποτέλεσμα"
+
+#: $string['trackresult_help']
+msgid "Shows if the learner entered a correct response."
+msgstr "Εμφανίζει αν ο μαθητής έδωσε τη σωστή απάντηση"
+
+#: $string['trackscoremax']
+msgid "Maximum score"
+msgstr "Μέγιστη βαθμολογία"
+
+#: $string['trackscoremax_help']
+msgid "Maximum value that can be assigned for the raw score"
+msgstr "Η μέγιστη τιμή που μπορεί να δοθεί για την ανεπεξέργαστη βαθμολογία"
+
+#: $string['trackscoremin']
+msgctxt "$string['trackscoremin']"
+msgid "Minimum score"
+msgstr "Ελάχιστη βαθμολογία"
+
+#: $string['trackscoremin_help']
+msgid "Minimum value that can be assigned for the raw score"
+msgstr "Η ελάχιστη τιμή που μπορεί να δοθεί για την ανεπεξέργαστη βαθμολογία"
+
+#: $string['trackscoreraw']
+msgctxt "$string['trackscoreraw']"
+msgid "Raw score"
+msgstr "Ανεπεξεργαστή βαθμολογία"
+
+#: $string['trackscoreraw_help']
+msgid ""
+"Number that reflects the performance of the learner relative to the range "
+"bounded by the values of min and max"
+msgstr ""
+"Ο αριθμός που αντικατοπτρίζει την απόδοση του μαθητή σε σχέση με το εύρος "
+"που ορίζεται από τις τιμές της ελάχιστης και μέγιστης βαθμολογίας"
+
+#: $string['tracksuspenddata']
+msgid "Suspend data"
+msgstr "Αναστολή δεδομένων"
+
+#: $string['tracksuspenddata_help']
+msgid "Provides space to store and retrieve data between learner sessions"
+msgstr ""
+"Παρέχει χώρο για την αποθήκευση και ανάκτηση δεδομένων μεταξύ των συνεδριών "
+"του μαθητή"
+
+#: $string['tracktime']
+msgctxt "$string['tracktime']"
+msgid "Time"
+msgstr "Χρόνος"
+
+#: $string['tracktime_help']
+msgid "Time at which the attempt was started"
+msgstr "Η ώρα που ξεκίνησε η προσπάθεια"
+
+#: $string['tracktype']
+msgctxt "$string['tracktype']"
+msgid "Type"
+msgstr "Τύπος"
+
+#: $string['tracktype_help']
+msgid "Type of the question, for example \"choice\" or \"shortanswer\"."
+msgstr "Ο τύπος της ερώτησης, για παράδειγμα \"επιλογής\" ή \"σύντομης απάντησης\""
+
+#: $string['trackweight']
+msgid "Weight"
+msgstr "Βαρύτητα"
+
+#: $string['trackweight_help']
+msgid "Weight assigned to the question when calculating score."
+msgstr ""
+"Η βαρύτητα που έχει ανατεθεί στην ερώτηση κατα τον υπολογισμό της "
+"βαθμολογίας."
+
+#: $string['type']
+msgctxt "$string['type']"
+msgid "Type"
+msgstr "Τύπος"
+
+#: $string['typeaiccurl']
+msgid "External AICC URL"
+msgstr "URL Εξωτερικού AICC"
+
+#: $string['typeexternal']
+msgid "External SCORM manifest"
+msgstr "Εξωτερικό πακέτο SCORM"
+
+#: $string['typelocal']
+msgid "Uploaded package"
+msgstr "Μεταφορτωμένο πακέτο"
+
+#: $string['typelocalsync']
+msgid "Downloaded package"
+msgstr "Κατεβασμένο πακέτο"
+
+#: $string['undercontent']
+msgid "Under content"
+msgstr "Κάτω από το περιεχομένο"
+
+#: $string['unziperror']
+msgid "An error occurs during package unzip"
+msgstr "Εμφανίστηκε σφάλμα κατά την αποσυμπίεση του πακέτου"
+
+#: $string['updatefreq']
+msgid "Auto-update frequency"
+msgstr "Συχνότητα αυτόμετων ενημερώσεων"
+
+#: $string['updatefreqdesc']
+msgid "This preference sets the default auto-update frequency of an activity"
+msgstr ""
+"Η ρύθμιση αυτή καθορίζει τη συχνότητα αυτόμετων ενημερώσεων της "
+"δραστηριότητας"
+
+#: $string['updatefreq_error']
+msgid ""
+"Auto-update frequency can only be set when the package file is hosted "
+"externally"
+msgstr ""
+"Η συχνότητα αυτόματης ενημέρωσης μπορεί να οριστεί μόνο όταν το αρχείο του "
+"πακέτου φιλοξενείται εξωτερικά"
+
+#: $string['updatefreq_help']
+msgid ""
+"This allows the external package to be automatically downloaded and updated"
+msgstr ""
+"Επιτρέπει το εξωτερικό πακέτο να κατεβαίνει  και να ενημερώνεται αυτόματα"
+
+#: $string['validateascorm']
+msgid "Validate a package"
+msgstr "Επικύρωση πακέτου"
+
+#: $string['validation']
+msgid "Validation result"
+msgstr "Αποτελέσμα επικύρωσης"
+
+#: $string['validationtype']
+msgid ""
+"This preference set the DOMXML library used for validating SCORM Manifest. "
+"If you don't know leave the selected choice."
+msgstr ""
+"Αυτή η ρύθμιση ορίζει τη βιβλιοθήκη DOMXML που χρησιμοποιείται για την "
+"επικύρωση των αρχείων καταγραφής SCORM. Αν δε γνωρίζετε αφήστε την "
+"επιλεγμένη ρύθμιση."
+
+#: $string['value']
+msgid "Value"
+msgstr "Τιμή"
+
+#: $string['versionwarning']
+msgid "The manifest version is older than 1.3, warning at {$a->tag} tag"
+msgstr ""
+"Η έκδοση των αρχείων καταγραφής είναι παλαιότερη της 1.3, προσοχή στην "
+"ετικέτα {$a->tag}"
+
+#: $string['viewallreports']
+msgid "View reports for {$a} attempts"
+msgstr "Εμφάνιση αναφορών για {$a} προσπάθειες"
+
+#: $string['viewalluserreports']
+msgid "View reports for {$a} users"
+msgstr "Εμφάνιση αναφορών για {$a} χρήστες"
+
+#: $string['whatgrade']
+msgid "Attempts grading"
+msgstr "Βαθμολόγηση προσπαθειών"
+
+#: $string['whatgradedesc']
+msgid ""
+"Whether the highest, average (mean), first or last completed attempt is "
+"recorded in the gradebook if multiple attempts are allowed."
+msgstr ""
+"Η ρύθμιση αυτή χρησιμοποιείται σαν εξ' ορισμού τιμή για τη βαθμολόγηση "
+"προσπαθειών"
+
+#: $string['whatgrade_help']
+msgid ""
+"If multiple attempts are allowed, this setting specifies whether the "
+"highest, average (mean), first or last completed attempt is recorded in the "
+"gradebook. The last completed attempt option does not include attempts with "
+"a 'failed' status.\n"
+"\n"
+"Notes on handling of multiple attempts:\n"
+"\n"
+"* The option to start a new attempt is provided by a checkbox above the "
+"Enter button on the content structure page, so be sure you're providing "
+"access to that page if you want to allow more than one attempt.\n"
+"* Some SCORM packages are intelligent about new attempts, many are not. What "
+"this means is that if the learner re-enters an existing attempt, if the "
+"SCORM content does not have internal logic to avoid overwriting previous "
+"attempts they can be overwritten, even though the attempt was 'completed' or "
+"'passed'.\n"
+"* The settings \"Force completed\", \"Force new attempt\" and \"Lock after final "
+"attempt\" also provide further management of multiple attempts."
+msgstr ""
+"Αν επιτρέπονται πολλαπλές προσπάθειες, αυτή η ρύθμιση καθορίζει αν η "
+"υψηλότερη, ο μέσος όρος, η πρώτη ή η τελευταία ολοκληρωμένη προσπάθεια "
+"καταγράφεται στο βαθμολόγιο. Η επιλογή της τελευταίας ολοκληρωμένης "
+"προσπάθειας δεν περιλαμβάνει απόπειρες σε κατάσταση 'απέτυχε'.<br/><br/>\n"
+"Σημειώνεται σχετικά με το χειρισμό των πολλαπλών προσπαθειών:\n"
+"<br/><br/>\n"
+"* Η επιλογή για να ξεκινήσει μια νέα προσπάθεια παρέχεται από ένα πλαίσιο "
+"ελέγχου πάνω από το πλήκτρο Enter στη σελίδα δομή του περιεχομένου, οπότε "
+"επιβεβαιώστε ότι υπάρχει πρόσβαση σε αυτή τη σελίδα, αν θέλετε να επιτρέψετε "
+"περισσότερες από μία προσπάθειες.<br/>\n"
+"* Μερικά πακέτα SCORM είναι έξυπνα σχετικά με τις νέες προσπάθειες ενώ άλλα "
+"δεν είναι. Αυτό σημαίνει ότι αν ο μαθητής εισέλθει εκ νέου σε μια υπάρχουσα "
+"προσπάθεια, αν το περιεχόμενο SCORM δεν έχει εσωτερική λογική για την "
+"αποφυγή αντικατάστασης προηγούμενων προσπαθειών μπορούν να αντικατασταθούν, "
+"ακόμα και αν η προσπάθεια ήταν 'ολοκληρώθηκε' ή 'πέρασε'.<br/>\n"
+"* Οι ρυθμίσεις \"Επιβολή ολοκλήρωσης\", \"Επιβολή νέας προσπάθειας\" και "
+"\"Κλείδωμα μετά την τελική προσπάθεια\" μπορούν επίσης να παρέχουν περαιτέρω "
+"διαχείριση των πολλαπλών προσπαθειών."
+
+#: $string['width']
+msgid "Width"
+msgstr "Πλάτος"
+
+#: $string['window']
+msgid "Window"
+msgstr "Παράθυρο"
+
+#: $string['youmustselectastatus']
+msgid "You must select a status to require"
+msgstr "Θα πρέπει να επιλέξετε μια απαιτούμενη κατάσταση"

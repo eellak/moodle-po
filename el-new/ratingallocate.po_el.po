@@ -1,0 +1,1021 @@
+#. extracted from lang/en/ratingallocate.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'ratingallocate', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   ratingallocate
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['algorithm_already_running']
+msgid ""
+"Another instance of the allocation algorithm is already running. Please wait "
+"a few minutes and refresh the page."
+msgstr ""
+
+#: $string['algorithm_scheduled_for_cron']
+msgid ""
+"The allocation algorithm run is scheduled for immediate execution by the "
+"cron job. Please wait a few minutes and refresh the page."
+msgstr ""
+
+#: $string['algorithmtimeout']
+msgid "Algorithm timeout"
+msgstr ""
+
+#: $string['allocation_manual_explain_all']
+msgid "Select a choice to be assigned to a user."
+msgstr ""
+
+#: $string['allocation_manual_explain_only_raters']
+msgid ""
+"Select a choice to be assigned to a user.\n"
+"Only users who rated at least one choice and who are not allocated yet are "
+"listed."
+msgstr ""
+
+#: $string['allocation_notification_message']
+msgid ""
+"Concerning the \"{$a->ratingallocate}\", you have been assigned to the choice "
+"\"{$a->choice} ({$a->explanation})\"."
+msgstr ""
+
+#: $string['allocation_notification_message_subject']
+msgid "Notification of finished allocation for {$a}"
+msgstr ""
+
+#: $string['allocation_statistics']
+msgid "Allocation Statistics"
+msgstr ""
+
+#: $string['allocation_statistics_description']
+msgid ""
+"This table gives an impression of the overall satisfaction of the "
+"allocation.\n"
+"It is counting the allocations according to the rating the user has given to "
+"the respective choice.\n"
+"In this case {$a->users} out of {$a->total} users got a choice they rated "
+"with \"{$a->rating}\".\n"
+"For {$a->unassigned} users no choice has been allocated yet."
+msgstr ""
+
+#: $string['allocation_statistics_description_no_alloc']
+msgid ""
+"This statistic gives an impression of the overall satisfaction of the "
+"allocation.\n"
+"It is counting the allocations according to the rating the user has given to "
+"the respective choice.\n"
+"There are no allocations yet. Currently {$a->unassigned} users have given "
+"their rating."
+msgstr ""
+
+#: $string['at_least_one_rateable_choices_needed']
+msgid "You need at least one rateable choice."
+msgstr ""
+
+#: $string['choice_active']
+msgid "Choice is active"
+msgstr ""
+
+#: $string['choice_active_help']
+msgid ""
+"Only active choices are displayed to the user. Inactive choices are not "
+"displayed."
+msgstr ""
+
+#: $string['choice_added_notification']
+msgid "Choice saved."
+msgstr ""
+
+#: $string['choice_deleted_notification']
+msgid "Choice \"{$a}\" was deleted."
+msgstr ""
+
+#: $string['choice_deleted_notification_error']
+msgid "Choice requested for deletion could not be found."
+msgstr ""
+
+#: $string['choice_explanation']
+msgid "Description (optional)"
+msgstr ""
+
+#: $string['choice_maxsize']
+msgid "Max. number of participants"
+msgstr ""
+
+#: $string['choice_maxsize_display']
+msgid "Maximum number of students"
+msgstr ""
+
+#: $string['choicestatusheading']
+msgid "Status"
+msgstr ""
+
+#: $string['choice_table_active']
+msgid "Active"
+msgstr ""
+
+#: $string['choice_table_explanation']
+msgid "Description"
+msgstr ""
+
+#: $string['choice_table_maxsize']
+msgid "Max. Size"
+msgstr ""
+
+#: $string['choice_table_title']
+msgctxt "$string['choice_table_title']"
+msgid "Title"
+msgstr "Τίτλος"
+
+#: $string['choice_table_tools']
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: $string['choice_title']
+msgctxt "$string['choice_title']"
+msgid "Title"
+msgstr "Τίτλος"
+
+#: $string['choice_title_help']
+msgid ""
+"Title of the choice. *Attention* all active choices will be displayed while "
+"ordered by title."
+msgstr ""
+
+#: $string['configalgorithmtimeout']
+msgid ""
+"The time in seconds after which the algorithm is assumed to be stuck.\n"
+"The current run is terminated and marked as failed."
+msgstr ""
+
+#: $string['confirm_start_distribution']
+msgid ""
+"Running the algorithm will delete all existing allocations, if any. Are you "
+"sure to continue?"
+msgstr ""
+
+#: $string['create_moodle_groups']
+msgid "Create Groups From Allocation"
+msgstr ""
+
+#: $string['crontask']
+msgid "Automated allocation for Fair Allocation"
+msgstr ""
+
+#: $string['deletechoice']
+msgctxt "$string['deletechoice']"
+msgid "Delete choice"
+msgstr ""
+
+#: $string['delete_choice']
+msgctxt "$string['delete_choice']"
+msgid "Delete choice"
+msgstr ""
+
+#: $string['deleteconfirm']
+msgid "Do you really want to delete the choice \"{$a}\"?"
+msgstr ""
+
+#: $string['delete_rating']
+msgid "Delete Rating"
+msgstr ""
+
+#: $string['distribution_algorithm']
+msgid "Distribution Algorithm"
+msgstr ""
+
+#: $string['distribution_published']
+msgid "Allocation has been published."
+msgstr ""
+
+#: $string['distribution_saved']
+msgid "Distribution saved (in {$a}s)."
+msgstr ""
+
+#: $string['distribution_table']
+msgid "Distribution Table"
+msgstr ""
+
+#: $string['download_problem_mps_format']
+msgid "Download Equation (mps/txt)"
+msgstr ""
+
+#: $string['edit_choice']
+msgid "Edit choice"
+msgstr ""
+
+#: $string['edit_rating']
+msgid "Edit Rating"
+msgstr ""
+
+#: $string['err_maximum']
+msgid "The maximum value for this field is {$a}."
+msgstr ""
+
+#: $string['err_minimum']
+msgid "The minimum value for this field is {$a}."
+msgstr ""
+
+#: $string['err_positivnumber']
+msgid "You must supply a positive number here."
+msgstr ""
+
+#: $string['err_required']
+msgid "You need to provide a value for this field."
+msgstr ""
+
+#: $string['export_choice_alloc_suffix']
+msgid "- Allocation"
+msgstr ""
+
+#: $string['export_choice_text_suffix']
+msgid "- Text"
+msgstr ""
+
+#: $string['export_options']
+msgid "Export Options"
+msgstr "Επιλογές Εξαγωγής"
+
+#: $string['filter_hide_users_without_rating']
+msgid "Hide users without rating"
+msgstr ""
+
+#: $string['filter_show_alloc_necessary']
+msgid "Hide users with allocation"
+msgstr ""
+
+#: $string['groupingname']
+msgid "Created from Fair Allocation \"{$a}\""
+msgstr ""
+
+#: $string['invalid_dates']
+msgid "Dates are invalid. Starting date must be before ending date."
+msgstr ""
+
+#: $string['invalid_publishdate']
+msgid ""
+"Publication date is invalid. Publication date must be after the end of "
+"rating."
+msgstr ""
+
+#: $string['is_published']
+msgid "Published"
+msgstr ""
+
+#: $string['last_algorithm_run_date']
+msgid "Last algorithm run at"
+msgstr ""
+
+#: $string['last_algorithm_run_date_none']
+msgctxt "$string['last_algorithm_run_date_none']"
+msgid "-"
+msgstr ""
+
+#: $string['last_algorithm_run_status']
+msgid "Status of last run"
+msgstr ""
+
+#: $string['last_algorithm_run_status_0']
+msgid "Not started"
+msgstr ""
+
+#: $string['last_algorithm_run_status_1']
+msgid "Running"
+msgstr ""
+
+#: $string['last_algorithm_run_status_-1']
+msgid "Failed"
+msgstr ""
+
+#: $string['last_algorithm_run_status_2']
+msgid "Successful"
+msgstr ""
+
+#: $string['log_allocation_published']
+msgid "Allocation published"
+msgstr ""
+
+#: $string['log_allocation_published_description']
+msgid ""
+"The user with id \"{$a->userid}\" published the allocation for the Fair "
+"Allocation with id \"{$a->ratingallocateid}\"."
+msgstr ""
+
+#: $string['log_allocation_statistics_viewed']
+msgid "Allocation statistics viewed"
+msgstr ""
+
+#: $string['log_allocation_statistics_viewed_description']
+msgid ""
+"The user with id \"{$a->userid}\" viewed the allocation statistics for the "
+"Fair Allocation with id \"{$a->ratingallocateid}\"."
+msgstr ""
+
+#: $string['log_allocation_table_viewed']
+msgid "Allocation table viewed"
+msgstr ""
+
+#: $string['log_allocation_table_viewed_description']
+msgid ""
+"The user with id \"{$a->userid}\" viewed the allocation table for the Fair "
+"Allocation with id \"{$a->ratingallocateid}\"."
+msgstr ""
+
+#: $string['log_distribution_triggered']
+msgid "Distribution triggered"
+msgstr ""
+
+#: $string['log_distribution_triggered_description']
+msgid ""
+"The user with id \"{$a->userid}\" triggered the distribution for the Fair "
+"Allocation with id \"{$a->ratingallocateid}\". The algorithm needed "
+"{$a->time_needed}sec."
+msgstr ""
+
+#: $string['log_index_viewed']
+msgid "User viewed all instances of Fair Allocation"
+msgstr ""
+
+#: $string['log_index_viewed_description']
+msgid ""
+"The user with id \"{$a->userid}\" viewed all instances of Fair Allocation in "
+"this course."
+msgstr ""
+
+#: $string['log_manual_allocation_saved']
+msgid "Manual allocation saved"
+msgstr ""
+
+#: $string['log_manual_allocation_saved_description']
+msgid ""
+"The user with id \"{$a->userid}\" saved a manual allocation for the Fair "
+"Allocation with id \"{$a->ratingallocateid}\"."
+msgstr ""
+
+#: $string['log_ratingallocate_viewed']
+msgid "Ratingallocate viewed"
+msgstr ""
+
+#: $string['log_ratingallocate_viewed_description']
+msgid ""
+"The user with id \"{$a->userid}\" viewed the Fair Allocation with id "
+"\"{$a->ratingallocateid}\"."
+msgstr ""
+
+#: $string['log_rating_deleted']
+msgid "User rating deleted"
+msgstr ""
+
+#: $string['log_rating_deleted_description']
+msgid ""
+"The user with id \"{$a->userid}\" deleted his rating for the Fair Allocation "
+"with id \"{$a->ratingallocateid}\"."
+msgstr ""
+
+#: $string['log_rating_saved']
+msgid "User rating saved"
+msgstr ""
+
+#: $string['log_rating_saved_description']
+msgid ""
+"The user with id \"{$a->userid}\" saved his rating for the Fair Allocation "
+"with id \"{$a->ratingallocateid}\"."
+msgstr ""
+
+#: $string['log_rating_viewed']
+msgid "User rating viewed"
+msgstr ""
+
+#: $string['log_rating_viewed_description']
+msgid ""
+"The user with id \"{$a->userid}\" viewed his rating for the Fair Allocation "
+"with id \"{$a->ratingallocateid}\"."
+msgstr ""
+
+#: $string['manual_allocation']
+msgid "Manual Allocation"
+msgstr ""
+
+#: $string['manual_allocation_form']
+msgid "Manual Allocation Form"
+msgstr ""
+
+#: $string['manual_allocation_nothing_to_be_saved']
+msgid "There was nothing to be saved."
+msgstr ""
+
+#: $string['manual_allocation_saved']
+msgid "Your manual allocation has been saved."
+msgstr ""
+
+#: $string['messageprovider:notifyalloc']
+msgid "Notification of option allocation"
+msgstr ""
+
+#: $string['modify_allocation_group']
+msgid "Modify Allocation"
+msgstr ""
+
+#: $string['modify_allocation_group_desc_published']
+msgid ""
+"The allocations have been published.\n"
+"You should only alter them with care.\n"
+"If you do so, please inform the students about the changes manually!"
+msgstr ""
+
+#: $string['modify_allocation_group_desc_rating_in_progress']
+msgid ""
+"The rating phase is currently running. You can start the allocation process "
+"after the rating phase has ended."
+msgstr ""
+
+#: $string['modify_allocation_group_desc_ready']
+msgid ""
+"The rating phase has ended. You can now run the algorithm for an automatic "
+"allocation."
+msgstr ""
+
+#: $string['modify_allocation_group_desc_ready_alloc_started']
+msgid ""
+"The rating phase has ended. Some allocations have already been created.\n"
+"Rerunning the algorithm will delete all current allocations.\n"
+"You can now modify the allocations manually or proceed to publishing the "
+"allocations."
+msgstr ""
+
+#: $string['modify_allocation_group_desc_too_early']
+msgid ""
+"The rating phase has not yet started. You can start the allocation process "
+"after the rating phase has ended."
+msgstr ""
+
+#: $string['modify_choices']
+msgid "Edit Choices"
+msgstr ""
+
+#: $string['modify_choices_explanation']
+msgid ""
+"Shows the list of all choices. Here, the choices can be hidden, altered and "
+"deleted."
+msgstr ""
+
+#: $string['modify_choices_group']
+msgid "Choices"
+msgstr ""
+
+#: $string['modify_choices_group_desc_published']
+msgid ""
+"The allocations have been published, it is no longer recommended to alter "
+"the choices."
+msgstr ""
+
+#: $string['modify_choices_group_desc_rating_in_progress']
+msgid ""
+"The rating is in progress, you should not change the set of available "
+"choices in this step."
+msgstr ""
+
+#: $string['modify_choices_group_desc_ready']
+msgctxt "$string['modify_choices_group_desc_ready']"
+msgid ""
+"The rating phase is over, you can now modify the amount of students of each "
+"choice or deactivate some choices to variate the outcome of the "
+"distribution."
+msgstr ""
+
+#: $string['modify_choices_group_desc_ready_alloc_started']
+msgctxt "$string['modify_choices_group_desc_ready_alloc_started']"
+msgid ""
+"The rating phase is over, you can now modify the amount of students of each "
+"choice or deactivate some choices to variate the outcome of the "
+"distribution."
+msgstr ""
+
+#: $string['modify_choices_group_desc_too_early']
+msgid ""
+"Here, the choices can be specified, which should be available to the "
+"students."
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Fair Allocation"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"The Fair Allocation module lets you define choices your participants can "
+"then rate. The participants can then be distributed automatically to the "
+"available choices according to their ratings."
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Fair Allocations"
+msgstr ""
+
+#: $string['moodlegroups_created']
+msgid "The corresponding Moodle groups and groupings have been created."
+msgstr ""
+
+#: $string['newchoice']
+msgid "Add new choice"
+msgstr ""
+
+#: $string['newchoicetitle']
+msgid "New choice {$a}"
+msgstr ""
+
+#: $string['no_choice_to_rate']
+msgid "There are no choices to rate!"
+msgstr ""
+
+#: $string['no_id_or_m_error']
+msgid "You must specify a course_module ID or an instance ID"
+msgstr ""
+
+#: $string['no_rating_given']
+msgid "Unrated"
+msgstr ""
+
+#: $string['no_rating_possible']
+msgid "Currently, there is no rating possible!"
+msgstr ""
+
+#: $string['no_user_to_allocate']
+msgid "There is no user you could allocate"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Fair Allocation administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Fair Allocation"
+msgstr ""
+
+#: $string['publish_allocation']
+msgctxt "$string['publish_allocation']"
+msgid "Publish Allocation"
+msgstr ""
+
+#: $string['publish_allocation_group']
+msgctxt "$string['publish_allocation_group']"
+msgid "Publish Allocation"
+msgstr ""
+
+#: $string['publish_allocation_group_desc_published']
+msgid ""
+"The allocations are already published.\n"
+"You can choose to create groups within your course for all allocations.\n"
+"If the same groups have already been created by this plugin, they will be "
+"purged before refilling them."
+msgstr ""
+
+#: $string['publish_allocation_group_desc_rating_in_progress']
+msgid ""
+"The rating phase is in progress. Please wait till the rating phase has ended "
+"and then start to create allocations, first."
+msgstr ""
+
+#: $string['publish_allocation_group_desc_ready']
+msgid "There are no allocations yet. Please see the modify allocation section."
+msgstr ""
+
+#: $string['publish_allocation_group_desc_ready_alloc_started']
+msgid ""
+"The allocations can now be published.\n"
+"After publishing the allocations they can no longer be altered.\n"
+"Please have a look at the current allocations by following the link in the "
+"reports section.\n"
+"You can choose to create groups within your course for all allocations.\n"
+"If the same groups have already been created by this plugin, they will be "
+"purged before refilling them.\n"
+"This can be done before and after publishing the allocations."
+msgstr ""
+
+#: $string['publish_allocation_group_desc_too_early']
+msgid ""
+"The rating phase has not started yet. Please wait till the rating phase has "
+"ended and then start to create allocations, first."
+msgstr ""
+
+#: $string['publishdate']
+msgctxt "$string['publishdate']"
+msgid "Estimated publication date"
+msgstr ""
+
+#: $string['publishdate_estimated']
+msgctxt "$string['publishdate_estimated']"
+msgid "Estimated publication date"
+msgstr ""
+
+#: $string['rateable_choices']
+msgid "Rateable Choices"
+msgstr ""
+
+#: $string['rated']
+msgid "rated {$a}"
+msgstr ""
+
+#: $string['ratingallocate']
+msgctxt "$string['ratingallocate']"
+msgid "Fair Allocation"
+msgstr ""
+
+#: $string['ratingallocate:addinstance']
+msgid "Add new instance of Fair Allocation"
+msgstr ""
+
+#: $string['ratingallocate:export_ratings']
+msgid "Ability to export the user ratings"
+msgstr ""
+
+#: $string['ratingallocate:give_rating']
+msgid "Create or edit choice"
+msgstr ""
+
+#: $string['ratingallocate:modify_choices']
+msgid ""
+"Ability to modify, edit or delete the set of choices of a Fair Allocation"
+msgstr ""
+
+#: $string['ratingallocatename']
+msgid "Name of this Fair Allocation"
+msgstr ""
+
+#: $string['ratingallocatename_help']
+msgid "Please choose a name for this Fair Allocation activity."
+msgstr ""
+
+#: $string['ratingallocate:start_distribution']
+msgid "Start allocation of users to choices"
+msgstr ""
+
+#: $string['ratingallocate:view']
+msgid "View instances of Fair Allocation"
+msgstr ""
+
+#: $string['rating_begintime']
+msgid "Rating begins at"
+msgstr ""
+
+#: $string['rating_endtime']
+msgid "Rating ends at"
+msgstr ""
+
+#: $string['rating_is_over']
+msgid "The rating is over."
+msgstr ""
+
+#: $string['rating_raw']
+msgid "{$a}"
+msgstr ""
+
+#: $string['ratings_deleted']
+msgid "Your ratings have been deleted."
+msgstr ""
+
+#: $string['ratings_saved']
+msgid "Your ratings have been saved."
+msgstr ""
+
+#: $string['ratings_table']
+msgid "Ratings and Allocations"
+msgstr ""
+
+#: $string['ratings_table_sum_allocations']
+msgid "Number of allocations / Maximum"
+msgstr ""
+
+#: $string['ratings_table_sum_allocations_value']
+msgid "{$a->sum} / {$a->max}"
+msgstr ""
+
+#: $string['ratings_table_user']
+msgid "User"
+msgstr ""
+
+#: $string['reports_group']
+msgid "Reports"
+msgstr "Αναφορές"
+
+#: $string['results_not_yet_published']
+msgid "Results have not yet been published."
+msgstr ""
+
+#: $string['runalgorithmbycron']
+msgid "Automatic allocation after rating period"
+msgstr ""
+
+#: $string['runalgorithmbycron_help']
+msgid ""
+"Automatically runs the allocation algorithm after the rating period ended. "
+"However, the results have to be published manually."
+msgstr ""
+
+#: $string['saveandcontinue']
+msgid "Save and Continue"
+msgstr ""
+
+#: $string['saveandnext']
+msgid "Save and add next"
+msgstr ""
+
+#: $string['select_strategy']
+msgid "Rating strategy"
+msgstr ""
+
+#: $string['select_strategy_help']
+msgid ""
+"Choose a rating strategy:\n"
+"\n"
+"* **Accept-Deny** The user can decide for each choice to accept or deny it.\n"
+"* **Accept-Neutral-Deny** The user can decide for each choice to accept or "
+"deny or to be neutral about it.\n"
+"* **Likert Scale** The user can rate each choice with a number from a "
+"defined range. The range of numbers can be defined individually (beginning "
+"with 0). A high number corresponds to a high preference.\n"
+"* **Give Points** The user can rate the choices by assigning a number of "
+"points. The maximum number of points can be defined individually. A high "
+"number of points corresponds to a high preference.\n"
+"* **Rank Choices** The user has to rank the available choices. How many "
+"choices need to be rated can be defined individually.\n"
+"* **Tick Accept**  The user can state for each choice whether it is "
+"acceptable for him/her."
+msgstr ""
+
+#: $string['show_allocation_statistics']
+msgid "Show Allocation Statistics"
+msgstr ""
+
+#: $string['show_choices_header']
+msgid "List of all choices"
+msgstr ""
+
+#: $string['show_table']
+msgid "Show Ratings and Allocations"
+msgstr ""
+
+#: $string['start_distribution']
+msgid "Run Allocation Algorithm"
+msgstr ""
+
+#: $string['start_distribution_explanation']
+msgid ""
+"An algorithm will automatically try to fairly allocate the users according "
+"to their given ratings."
+msgstr ""
+
+#: $string['strategy_lickert_max_no']
+msgctxt "$string['strategy_lickert_max_no']"
+msgid "You may only assign 0 points to at most {$a} choice(s)."
+msgstr ""
+
+#: $string['strategy_lickert_name']
+msgid "Likert Scale"
+msgstr ""
+
+#: $string['strategy_lickert_rating_biggestwish']
+msgid "{$a} - Highly appreciated"
+msgstr ""
+
+#: $string['strategy_lickert_rating_exclude']
+msgid "{$a} - Exclude"
+msgstr ""
+
+#: $string['strategy_lickert_setting_maxlickert']
+msgid "Highest number on the likert scale (3, 5 or 7 are common values)"
+msgstr ""
+
+#: $string['strategy_lickert_setting_maxno']
+msgid "Maximum number of choices the user can rate with 0"
+msgstr ""
+
+#: $string['strategyname']
+msgid "Strategy is \"{$a}\""
+msgstr ""
+
+#: $string['strategy_not_specified']
+msgid "You have to select a strategy."
+msgstr ""
+
+#: $string['strategyoptions_for_strategy']
+msgid "Options for Strategy \"{$a}\""
+msgstr ""
+
+#: $string['strategy_order_choice_none']
+msgid "Please select a choice"
+msgstr ""
+
+#: $string['strategy_order_explain_choices']
+msgid ""
+"Select one choice in each select-box. The first choice receives the highest "
+"priority, and so on."
+msgstr ""
+
+#: $string['strategy_order_header_description']
+msgid "Available Choices"
+msgstr ""
+
+#: $string['strategy_order_name']
+msgid "Rank Choices"
+msgstr ""
+
+#: $string['strategy_order_no_choice']
+msgid "{$a}. Choice"
+msgstr ""
+
+#: $string['strategy_order_setting_countoptions']
+msgid ""
+"Number of fields the user is presented to vote on (smaller than number of "
+"choices!)"
+msgstr ""
+
+#: $string['strategy_order_use_only_once']
+msgid "Choices cannot be selected twice and must be unique."
+msgstr ""
+
+#: $string['strategy_points_explain_distribute_points']
+msgid ""
+"Give points to each choice, you have a total of {$a} points to distribute. "
+"Prioritize the best choice by giving the most points."
+msgstr ""
+
+#: $string['strategy_points_explain_max_zero']
+msgctxt "$string['strategy_points_explain_max_zero']"
+msgid "You may only assign 0 points to at most {$a} choice(s)."
+msgstr ""
+
+#: $string['strategy_points_incorrect_totalpoints']
+msgid "Incorrect total number of points. The sum of all points has to be {$a}."
+msgstr ""
+
+#: $string['strategy_points_max_count_zero']
+msgid "You have to assign more than 0 points to at least {$a} choice(s)."
+msgstr ""
+
+#: $string['strategy_points_name']
+msgid "Give Points"
+msgstr ""
+
+#: $string['strategy_points_setting_maxzero']
+msgid "Maximum number of choices to which the user can give 0 points"
+msgstr ""
+
+#: $string['strategy_points_setting_totalpoints']
+msgid "Total number of points the user can assign"
+msgstr ""
+
+#: $string['strategy_settings_label']
+msgid "Designation for \"{$a}\""
+msgstr ""
+
+#: $string['strategy_tickyes_accept']
+msgctxt "$string['strategy_tickyes_accept']"
+msgid "Accept"
+msgstr ""
+
+#: $string['strategy_tickyes_error_mintickyes']
+msgid "You have to tick at least {$a} boxes."
+msgstr ""
+
+#: $string['strategy_tickyes_explain_mintickyes']
+msgid "You have to tick a minimum of {$a} boxes."
+msgstr ""
+
+#: $string['strategy_tickyes_name']
+msgid "Tick Accept"
+msgstr ""
+
+#: $string['strategy_tickyes_not_accept']
+msgctxt "$string['strategy_tickyes_not_accept']"
+msgid "-"
+msgstr ""
+
+#: $string['strategy_tickyes_setting_mintickyes']
+msgid "Minimum number of choices to accept"
+msgstr ""
+
+#: $string['strategy_yesmaybeno_max_count_no']
+msgctxt "$string['strategy_yesmaybeno_max_count_no']"
+msgid "You may only assign \"Deny\" to at most {$a} choice(s)."
+msgstr ""
+
+#: $string['strategy_yesmaybeno_max_no']
+msgctxt "$string['strategy_yesmaybeno_max_no']"
+msgid "You may only assign \"Deny\" to {$a} choice(s)."
+msgstr ""
+
+#: $string['strategy_yesmaybeno_name']
+msgid "Accept-Neutral-Deny"
+msgstr ""
+
+#: $string['strategy_yesmaybeno_rating_maybe']
+msgid "Neutral"
+msgstr ""
+
+#: $string['strategy_yesmaybeno_rating_no']
+msgctxt "$string['strategy_yesmaybeno_rating_no']"
+msgid "Deny"
+msgstr ""
+
+#: $string['strategy_yesmaybeno_rating_yes']
+msgctxt "$string['strategy_yesmaybeno_rating_yes']"
+msgid "Accept"
+msgstr ""
+
+#: $string['strategy_yesmaybeno_setting_maxno']
+msgctxt "$string['strategy_yesmaybeno_setting_maxno']"
+msgid "Maximum number of choices the user can rate with \"Deny\""
+msgstr ""
+
+#: $string['strategy_yesno_maximum_crossout']
+msgctxt "$string['strategy_yesno_maximum_crossout']"
+msgid "You may only assign \"Deny\" to at most {$a} choice(s)."
+msgstr ""
+
+#: $string['strategy_yesno_max_no']
+msgctxt "$string['strategy_yesno_max_no']"
+msgid "You may only assign \"Deny\" to {$a} choice(s)."
+msgstr ""
+
+#: $string['strategy_yesno_name']
+msgid "Accept-Deny"
+msgstr ""
+
+#: $string['strategy_yesno_rating_choose']
+msgctxt "$string['strategy_yesno_rating_choose']"
+msgid "Accept"
+msgstr ""
+
+#: $string['strategy_yesno_rating_crossout']
+msgctxt "$string['strategy_yesno_rating_crossout']"
+msgid "Deny"
+msgstr ""
+
+#: $string['strategy_yesno_setting_crossout']
+msgctxt "$string['strategy_yesno_setting_crossout']"
+msgid "Maximum number of choices the user can rate with \"Deny\""
+msgstr ""
+
+#: $string['timeremaining']
+msgid "Time remaining"
+msgstr ""
+
+#: $string['too_early_to_distribute']
+msgid "Too early to distribute. Rating is not over yet."
+msgstr ""
+
+#: $string['too_early_to_rate']
+msgid "It is too early to rate."
+msgstr ""
+
+#: $string['too_few_choices_to_rate']
+msgid ""
+"There are too few choices to rate! Students have to rank at least {$a} "
+"choices!"
+msgstr ""
+
+#: $string['unassigned_users']
+msgid "Unassigned Users"
+msgstr ""
+
+#: $string['update_filter']
+msgid "Update Filter"
+msgstr ""
+
+#: $string['your_allocated_choice']
+msgid "Your Allocation"
+msgstr ""
+
+#: $string['your_rating']
+msgid "Your Rating"
+msgstr ""

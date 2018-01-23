@@ -1,0 +1,696 @@
+#. extracted from lang/en/block_panopto.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_panopto', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   block_panopto
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['add_to_panopto']
+msgid "Add this course to Panopto (re-add to sync user lists)"
+msgstr ""
+
+#: $string['api_manager_unavailable']
+msgid ""
+"Unable to create the {$a} manager api client! (Is the Panopto server "
+"available, if so are the instance name and application key correct?)"
+msgstr ""
+
+#: $string['application_key']
+msgid "Application key"
+msgstr ""
+
+#: $string['attempted_import_course_id']
+msgid "Moodle Id of the source import course"
+msgstr ""
+
+#: $string['attempted_moodle_course_id']
+msgid "Attempted Moodle course ID"
+msgstr ""
+
+#: $string['attempted_panopto_server']
+msgid "Attempted Panopto Server"
+msgstr ""
+
+#: $string['attempted_target_course_id']
+msgid "Moodle Id of the target course"
+msgstr ""
+
+#: $string['attempt_provision_course']
+msgid "Attempting to provision a Panopto folder with an External Id of: {$a}."
+msgstr ""
+
+#: $string['attempt_sync_user']
+msgid "Attempting to sync a user with and Id of {$a} to Panopto."
+msgstr ""
+
+#: $string['attempt_sync_user_server']
+msgid "Target server of the attempted sync is {$a}."
+msgstr ""
+
+#: $string['back_to_config']
+msgid "Back to config"
+msgstr ""
+
+#: $string['back_to_course']
+msgid "Back to course"
+msgstr "Επιστροφή στο μάθημα"
+
+#: $string['begin_folder_upgrade']
+msgid "Begin upgrading folders"
+msgstr ""
+
+#: $string['begin_reinitializing_imports']
+msgid "Begin Reinitializing Imports"
+msgstr ""
+
+#: $string['block_edit_error']
+msgid ""
+"Cannot configure block instance: Global configuration incomplete. Please "
+"contact your system administrator."
+msgstr ""
+
+#: $string['block_edit_header']
+msgid "Select the Panopto course folder to display in this block."
+msgstr ""
+
+#: $string['block_edit_header_help']
+msgid ""
+"Choose an existing Panopto course folder or provision a new Panopto course "
+"folder for this block"
+msgstr ""
+
+#: $string['block_global_add_courses']
+msgid "Add Moodle courses to Panopto"
+msgstr ""
+
+#: $string['block_global_application_key']
+msgid "Application Key"
+msgstr ""
+
+#: $string['block_global_application_key_desc']
+msgid "Enter the Application Key from the Panopto Identity Providers page."
+msgstr ""
+
+#: $string['block_global_hostname']
+msgid "Panopto Server Hostname"
+msgstr ""
+
+#: $string['block_global_hostname_desc']
+msgid "Enter the FQDN of your Panopto server."
+msgstr ""
+
+#: $string['block_global_instance_desc']
+msgid "Enter the Instance Name from the Panopto Identity Providers page."
+msgstr ""
+
+#: $string['block_global_instance_name']
+msgid "Moodle Instance Name"
+msgstr ""
+
+#: $string['block_global_reinitialize_all_imports']
+msgid "Reinitialize all Panopto folder imports"
+msgstr ""
+
+#: $string['block_global_upgrade_all_folders']
+msgid "Upgrade all existing folders and imports"
+msgstr ""
+
+#: $string['block_panopto_any_creator_can_view_folder_settings']
+msgid ""
+"Allow all users with creator roles to view Panopto folder settings links"
+msgstr ""
+
+#: $string['block_panopto_any_creator_can_view_folder_settings_desc']
+msgid ""
+"By default only teachers for the course can view the course settings link. "
+"If you desire anyone with a creator role to be able to view this link select "
+"this option."
+msgstr ""
+
+#: $string['block_panopto_anyone_view_recorder_links']
+msgid "Allow all roles to view recorder download links"
+msgstr ""
+
+#: $string['block_panopto_anyone_view_recorder_links_desc']
+msgid ""
+"By default only users with creator/provisioning access on a folder can view "
+"the download links. If you wish viewers to be able to view the recorder "
+"download links through the block then enable this option."
+msgstr ""
+
+#: $string['block_panopto_async_tasks']
+msgid "Asynchronous sync tasks"
+msgstr ""
+
+#: $string['block_panopto_async_tasks_desc']
+msgid ""
+"Enable this option to allow the enrolment, unenrolment, and delete user "
+"tasks to happen asynchronously (may have a short delay before running)"
+msgstr ""
+
+#: $string['block_panopto_auto_provision']
+msgid "Automatically provision newly created courses"
+msgstr ""
+
+#: $string['block_panopto_auto_provision_desc']
+msgid ""
+"Enable this option to automatically provision a Panopto course folder when a "
+"course is created."
+msgstr ""
+
+#: $string['block_panopto_auto_sync_imports']
+msgid "Automatically grant permissions when importing a course"
+msgstr ""
+
+#: $string['block_panopto_auto_sync_imports_desc']
+msgid ""
+"Enable this option to allow Panopto to automatically grant viewer "
+"permissions when importing a course."
+msgstr ""
+
+#: $string['block_panopto_check_server_status']
+msgid "Check server health before loading block"
+msgstr ""
+
+#: $string['block_panopto_check_server_status_desc']
+msgid ""
+"This checks if the target Panopto server is up at the beginning to avoid "
+"possible long timeout calls when the server is unreachable. This is set to "
+"false by default because it uses platform / OS dependent feature. It should "
+"be set to true only when Panopto support recommends it."
+msgstr ""
+
+#: $string['block_panopto_creator_mapping']
+msgid "Creator role mapping"
+msgstr ""
+
+#: $string['block_panopto_creator_mapping_desc']
+msgid ""
+"Select which course roles are set as creators in new Panopto course folders."
+msgstr ""
+
+#: $string['block_panopto_non_editing_teacher_provision']
+msgid "Allow non-editing teacher to provision"
+msgstr ""
+
+#: $string['block_panopto_non_editing_teacher_provision_desc']
+msgid ""
+"Enable this option to allow non-editing teachers to provision Panopto course "
+"folders."
+msgstr ""
+
+#: $string['block_panopto_prefix_new_folder_shortnames']
+msgid ""
+"Prefix new Panopto folder display names with the Moodle course's shortname"
+msgstr ""
+
+#: $string['block_panopto_prefix_new_folder_shortnames_desc']
+msgid ""
+"Enable this option to add the provisioned course shortname to the beginning "
+"of newly made Panopto folder's display name."
+msgstr ""
+
+#: $string['block_panopto_print_log_to_file']
+msgid "Redirect error logs to text file"
+msgstr ""
+
+#: $string['block_panopto_print_log_to_file_desc']
+msgid ""
+"This option will redirect any panopto logging from the PHP error_log to a "
+"PanoptoLogs.txt file inside the base moodle directory. It should only be set "
+"to true when Panopto support recommends it."
+msgstr ""
+
+#: $string['block_panopto_print_verbose_logs']
+msgid "Print verbose logs"
+msgstr ""
+
+#: $string['block_panopto_print_verbose_logs_desc']
+msgid ""
+"This option will add more logs to the panopto php error_log, this flag "
+"should only be turned on for debugging purposes."
+msgstr ""
+
+#: $string['block_panopto_publisher_mapping']
+msgid "Publisher role mapping"
+msgstr ""
+
+#: $string['block_panopto_publisher_mapping_desc']
+msgid ""
+"Select which course roles are set as publishers in new Panopto course "
+"folders."
+msgstr ""
+
+#: $string['block_panopto_publisher_system_role_mapping']
+msgid "System roles with provisioning permissions"
+msgstr ""
+
+#: $string['block_panopto_publisher_system_role_mapping_desc']
+msgid ""
+"Select which system roles can provision new Panopto course folders. Adding "
+"roles to this setting may have a performance impact on larger systems."
+msgstr ""
+
+#: $string['block_panopto_server_number_desc']
+msgid "Click 'Save Changes' to update number of servers."
+msgstr ""
+
+#: $string['block_panopto_server_number_name']
+msgid "Number of Panopto Servers"
+msgstr ""
+
+#: $string['block_panopto_sync_after_provisioning']
+msgid "Sync enroled users after successfully provisioning"
+msgstr ""
+
+#: $string['block_panopto_sync_after_provisioning_desc']
+msgid ""
+"Syncs all users enroled in a course after it has been provisioned. Turn on "
+"this option only if you have a problem with the default behavior which syncs "
+"a user's permission when each user accesses this block in one of the "
+"enroled courses."
+msgstr ""
+
+#: $string['block_panopto_sync_on_enrolment']
+msgid "Sync users after class enrolment"
+msgstr ""
+
+#: $string['block_panopto_sync_on_enrolment_desc']
+msgid ""
+"This feature will fire a sync operation on a student any time they are "
+"enroled into a course with a valid Panopto folder. Turn on this option only "
+"if you have a problem with the default behavior which syncs a user's "
+"permission when each user accesses this block in one of the enroled courses."
+msgstr ""
+
+#: $string['completed_recordings']
+msgid "Completed Recordings"
+msgstr ""
+
+#: $string['course']
+msgid "Course"
+msgstr ""
+
+#: $string['course_already_provisioned']
+msgid ""
+"This course has already been provisioned to  folder with a public Id of: "
+"{$a}."
+msgstr ""
+
+#: $string['course_name']
+msgid "Course Name"
+msgstr "Όνομα μαθήματος"
+
+#: $string['course_settings']
+msgid "Course Settings"
+msgstr ""
+
+#: $string['creator']
+msgid "Creator"
+msgstr ""
+
+#: $string['creator_help']
+msgid "A Creator can create and edit content in Panopto"
+msgstr ""
+
+#: $string['creators']
+msgid "Creators"
+msgstr ""
+
+#: $string['download_recorder']
+msgid "Download Recorder"
+msgstr ""
+
+#: $string['error_retrieving']
+msgid "Error retrieving Panopto course folder."
+msgstr ""
+
+#: $string['existing_course']
+msgid "Select an existing Panopto folder:"
+msgstr ""
+
+#: $string['fetching_content']
+msgid "Fetching Panopto Content..."
+msgstr ""
+
+#: $string['folder_not_found_error']
+msgid ""
+"The folder currenty provisioned to the target Moodle course on the Panopto "
+"server could not be found, was it deleted? Provisioning will continue by "
+"linking to the default Moodle folder or creating one if it does not already "
+"exist."
+msgstr ""
+
+#: $string['get_provisioning_info']
+msgid ""
+"Attempting to get provisioning info for a course with the Moodle Id: {$a}."
+msgstr ""
+
+#: $string['import_access_error']
+msgid ""
+"Course target course is provisioned to a folder the user does not have "
+"access to."
+msgstr ""
+
+#: $string['import_error']
+msgid ""
+"Error importing course, make sure the Moodle course and Panopto folder being "
+"imported still exist."
+msgstr ""
+
+#: $string['import_not_mapped']
+msgid ""
+"The imported course was not provisioned to a Panopto folder! (no "
+"session_group_id set in block_panopto_foldermap)"
+msgstr ""
+
+#: $string['import_status']
+msgid "Import attempt status"
+msgstr ""
+
+#: $string['import_success']
+msgid "Successfully imported course."
+msgstr ""
+
+#: $string['init_import_source']
+msgid "Attempted import source Moodle course Id: {$a}."
+msgstr ""
+
+#: $string['init_import_target']
+msgid "Attempted import target Moodle course Id: {$a}."
+msgstr ""
+
+#: $string['links']
+msgid "Links"
+msgstr ""
+
+#: $string['live_sessions']
+msgid "Live Sessions"
+msgstr ""
+
+#: $string['missing_moodle_required_version']
+msgid ""
+"Panopto block requires a Moodle version newer than {$a->requiredversion}, "
+"your current Moodle version is: {$a->currentversion}"
+msgstr ""
+
+#: $string['missing_required_version']
+msgid ""
+"API call failed to return a response, this could be because the Panopto "
+"server you attempted to use does not meet the minimum required version to "
+"support this version of the Moodle Panopto Block. This could also be caused "
+"by the server being unavailable."
+msgstr ""
+
+#: $string['moodle_course_not_exist']
+msgid "Moving row to old foldermap, course did not exist inside Moodle."
+msgstr ""
+
+#: $string['no_access']
+msgid "You do not have access to view this Panopto folder."
+msgstr ""
+
+#: $string['no_completed_recordings']
+msgid "No Completed Recordings"
+msgstr ""
+
+#: $string['no_course_selected']
+msgid "No Panopto course folder selected"
+msgstr ""
+
+#: $string['no_creators']
+msgid "No creators."
+msgstr ""
+
+#: $string['no_live_sessions']
+msgid "No Live Sessions"
+msgstr ""
+
+#: $string['no_publishers']
+msgid "No publishers."
+msgstr ""
+
+#: $string['no_server']
+msgid ""
+"There are no servers set up for provisioning. Please contact system "
+"administrator."
+msgstr ""
+
+#: $string['no_students']
+msgid "No students."
+msgstr ""
+
+#: $string['no_users_synced']
+msgid "No Users synced with folder yet"
+msgstr ""
+
+#: $string['no_users_synced_desc']
+msgid ""
+"With new API all users enroled in this course will be synced with Panopto "
+"when they attempt to access a Panopto block through Moodle."
+msgstr ""
+
+#: $string['or']
+msgid "OR"
+msgstr ""
+
+#: $string['panopto:addinstance']
+msgid "Add a new Panopto block"
+msgstr "Προσθήκη νέου μπλοκ Panopto"
+
+#: $string['panopto:myaddinstance']
+msgid "Add a new Panopto block to my page"
+msgstr "Προσθήκη νέου μπλοκ Panopto στη σελίδα Η αρχική μου"
+
+#: $string['panopto:provision_aspublisher']
+msgid "Provision as a publisher"
+msgstr ""
+
+#: $string['panopto:provision_asteacher']
+msgid "Provision as a teacher"
+msgstr ""
+
+#: $string['panopto:provision_course']
+msgid "Provision a course"
+msgstr ""
+
+#: $string['panopto:provision_multiple']
+msgid "Provision multiple courses at once"
+msgstr ""
+
+#: $string['panopto_server_error']
+msgid ""
+"Panopto server {$a} returned with server error, will try again on next sign "
+"in."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Panopto"
+msgstr ""
+
+#: $string['podcast_audio']
+msgid "Audio Podcast"
+msgstr ""
+
+#: $string['podcast_feeds']
+msgid "Podcast Feeds"
+msgstr ""
+
+#: $string['podcast_video']
+msgid "Video Podcast"
+msgstr ""
+
+#: $string['provision']
+msgid "Provision"
+msgstr ""
+
+#: $string['provision_access_error']
+msgid ""
+"Course already provisioned to a Panopto folder and the current user does not "
+"have access to perform operations on that folder (User needs at least "
+"viewer access to target Panopto folder)."
+msgstr ""
+
+#: $string['provision_course_link_text']
+msgid "Provision Course"
+msgstr ""
+
+#: $string['provision_courses']
+msgid "Provision Courses"
+msgstr ""
+
+#: $string['provisioncourseselect']
+msgid "Select Courses to Provision."
+msgstr ""
+
+#: $string['provisioncourseselect_help']
+msgid ""
+"Multiple selections are possible by Ctrl-clicking (Windows) or Cmd-clicking "
+"(Mac)."
+msgstr ""
+
+#: $string['provision_error']
+msgid "Error provisioning course."
+msgstr ""
+
+#: $string['provision_successful']
+msgid "Successfully provisioned course with Id: {$a}"
+msgstr ""
+
+#: $string['publisher']
+msgid "Publisher"
+msgstr ""
+
+#: $string['publisher_help']
+msgid "A Publisher can approve content submitted by Creators"
+msgstr ""
+
+#: $string['publishers']
+msgid "Publishers"
+msgstr ""
+
+#: $string['reinitialize_import_finished']
+msgid "finished reininitialize import."
+msgstr ""
+
+#: $string['reinitialize_import_started']
+msgid "Beginning to reininitialize import."
+msgstr ""
+
+#: $string['removing_corrupt_folder_row']
+msgid ""
+"Foldermap entry appears corrupted, moving entry to old_foldermap for user "
+"reference. Corrupted row used for course with Moodle Id:"
+msgstr ""
+
+#: $string['require_panopto_version_title']
+msgid ""
+"Minimum Panopto version required for this version of the Moodle Panopto "
+"block"
+msgstr ""
+
+#: $string['result']
+msgid "Result"
+msgstr ""
+
+#: $string['role_map_header']
+msgid "Change Panopto Role Mappings"
+msgstr ""
+
+#: $string['role_map_header_help']
+msgid ""
+"Choose how Moodle roles map to Panopto roles. Unmapped Moodle roles will be "
+"assigned the Viewer role in Panopto"
+msgstr ""
+
+#: $string['select_server']
+msgid "Select a Panopto server"
+msgstr ""
+
+#: $string['select_server_help']
+msgid "Choose the Panopto server where the course folders will be provisioned."
+msgstr ""
+
+#: $string['server_info_not_valid']
+msgid ""
+"The server name or application key are not valid, below are attempted "
+"values."
+msgstr ""
+
+#: $string['server_name']
+msgid "Server name"
+msgstr ""
+
+#: $string['server_not_available']
+msgid "The Panopto server {$a} was not available. Server may be down"
+msgstr ""
+
+#: $string['show_all']
+msgid "Show All"
+msgstr ""
+
+#: $string['show_less']
+msgid "Show Less"
+msgstr ""
+
+#: $string['students']
+msgid "Students"
+msgstr ""
+
+#: $string['take_notes']
+msgid "Take Notes"
+msgstr ""
+
+#: $string['target_invalid_panopto_data']
+msgid ""
+"The panopto data living in the foldermap table associated with the target "
+"course of this import was either corrupted or no longer exists, removing "
+"Panopto relation and moving on."
+msgstr ""
+
+#: $string['target_moodle_course_deleted']
+msgid ""
+"The course that this import was associated with no longer exists, removing "
+"panopto relation and moving on."
+msgstr ""
+
+#: $string['unconfigured']
+msgid ""
+"Global configuration incomplete. Please contact your system administrator."
+msgstr ""
+
+#: $string['unknown_provisioning_error']
+msgid "An unknown error has occurred."
+msgstr ""
+
+#: $string['unprovisioned']
+msgid "This course has not yet been provisioned."
+msgstr ""
+
+#: $string['upgrade_panopto_required_version']
+msgid ""
+"A Panopto server you are using does not meet the minimum required version to "
+"support this version of the Moodle Panopto Block. The upgrade will be "
+"blocked from succeeding until all Panopto servers in use meet miniumum "
+"version requirements."
+msgstr ""
+
+#: $string['upgrade_provision_access_error']
+msgid ""
+"UPGRADE BLOCKED: The user {$a} does not have access to a provisioned Panopto "
+"course folder. Upgrading user must have at least viewer access to all "
+"Panopto course folders. It is highly reccommended that the upgrading user is "
+"an Administrator on Panopto."
+msgstr ""
+
+#: $string['watch_live']
+msgid "Watch Live"
+msgstr ""

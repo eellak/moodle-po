@@ -1,0 +1,472 @@
+#. extracted from lang/en/local_mass_enroll.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'local_mass_enroll', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   local_mass_enroll
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['creategroupings']
+msgid "Create  grouping(s) if needed"
+msgstr ""
+
+#: $string['creategroups']
+msgid "Create group(s) if needed"
+msgstr ""
+
+#: $string['email_sent']
+msgid "email sent to {$a}"
+msgstr ""
+
+#: $string['enablemassenrol']
+msgid "Allow mass enrolment from course administration"
+msgstr ""
+
+#: $string['enablemassenrol_help']
+msgid ""
+"Check this option to allow extension for mass enrolment in the course "
+"administration tree"
+msgstr ""
+
+#: $string['enablemassunenrol']
+msgid "Allow mass unenrolment from course administration"
+msgstr ""
+
+#: $string['enablemassunenrol_help']
+msgid ""
+"Check this option to allow extension for mass unenrolment in the course "
+"administration tree"
+msgstr ""
+
+#: $string['enroll']
+msgid "Enrol them to my course"
+msgstr ""
+
+#: $string['firstcolumn']
+msgid "First column contains"
+msgstr ""
+
+#: $string['idnumber']
+msgid "Id number"
+msgstr ""
+
+#: $string['im:already_in']
+msgid "{$a} already enroled"
+msgstr ""
+
+#: $string['im:already_in_g']
+msgid "already in group {$a}"
+msgstr ""
+
+#: $string['im:and_added_g']
+msgid "and added to Moodle's  group  {$a}"
+msgstr ""
+
+#: $string['im:enrolled_ok']
+msgctxt "$string['im:enrolled_ok']"
+msgid "{$a} enroled"
+msgstr ""
+
+#: $string['im:err_opening_file']
+msgid "error opening file {$a}"
+msgstr ""
+
+#: $string['im:error_addg']
+msgid "error adding group {$a->groupe}  to course {$a->courseid}"
+msgstr ""
+
+#: $string['im:error_add_g_grp']
+msgid "error adding group {$a->groupe} to grouping {$a->groupe}"
+msgstr ""
+
+#: $string['im:error_add_grp']
+msgid "error adding grouping {$a->groupe} to course {$a->courseid}"
+msgstr ""
+
+#: $string['im:error_adding_u_g']
+msgid "error adding to group  {$a}"
+msgstr ""
+
+#: $string['im:error_g_unknown']
+msgid "error unkown group {$a}"
+msgstr ""
+
+#: $string['im:error_in']
+msgid "error enroling {$a}"
+msgstr ""
+
+#: $string['im:error_out']
+msgid "error unenroling {$a}"
+msgstr ""
+
+#: $string['im:not_in']
+msgid "{$a} NOT enroled"
+msgstr ""
+
+#: $string['im:opening_file']
+msgid "Opening file : {$a}"
+msgstr ""
+
+#: $string['im:stats_g']
+msgid "{$a->nb} group(s) created : {$a->what}"
+msgstr ""
+
+#: $string['im:stats_grp']
+msgid "{$a->nb} grouping(s) created : {$a->what}"
+msgstr ""
+
+#: $string['im:stats_i']
+msgctxt "$string['im:stats_i']"
+msgid "{$a} enroled"
+msgstr ""
+
+#: $string['im:stats_ui']
+msgctxt "$string['im:stats_ui']"
+msgid "{$a} unenroled"
+msgstr ""
+
+#: $string['im:unenrolled_ok']
+msgctxt "$string['im:unenrolled_ok']"
+msgid "{$a} unenroled"
+msgstr ""
+
+#: $string['im:user_unknown']
+msgid "{$a} unknown - skipping line"
+msgstr ""
+
+#: $string['im:using_role']
+msgid "Enroling users as : {$a}"
+msgstr ""
+
+#: $string['localmassenrolldefaults']
+msgid "Mass enrol default settings"
+msgstr ""
+
+#: $string['localmassenrollextensions']
+msgid "Menu extension settings"
+msgstr ""
+
+#: $string['mail_enrolment']
+msgid ""
+"Hello,\n"
+"You just enroled the following list of users to your course '{$a->course}'.\n"
+"Here is a report of operations :\n"
+"{$a->report}\n"
+"Sincerly."
+msgstr ""
+
+#: $string['mail_enrolment_subject']
+msgid "Bulk enrolments on {$a}"
+msgstr ""
+
+#: $string['mailreport']
+msgid "Send me a mail report"
+msgstr ""
+
+#: $string['mailreportdefault']
+msgid "Send reports default"
+msgstr ""
+
+#: $string['mailreportdefault_help']
+msgid ""
+"Configure the default setting for sending reports for the bulk (un)enrolment "
+"forms"
+msgstr ""
+
+#: $string['mail_unenrolment']
+msgid ""
+"Hello,\n"
+"You just unenroled the following list of users to your course "
+"'{$a->course}'.\n"
+"Here is a report of operations :\n"
+"{$a->report}\n"
+"Sincerly."
+msgstr ""
+
+#: $string['mail_unenrolment_subject']
+msgid "Bulk unenrolments on {$a}"
+msgstr ""
+
+#: $string['mass_enroll']
+msgid "Bulk enrolments"
+msgstr ""
+
+#: $string['mass_enroll:enrol']
+msgid "Enrol users to a course by CSV file"
+msgstr ""
+
+#: $string['mass_enroll_help']
+msgid ""
+"<h1>Bulk enrolments</h1>\n"
+"\n"
+"<p>\n"
+"With this option you are going to enrol a list of known users from a file "
+"with one account per line\n"
+"</p>\n"
+"<p>\n"
+"<b> The firstline </b> the empty lines or unknown accounts will be skipped. "
+"</p>\n"
+"\n"
+"<p>\n"
+"The file may contains one or two columns, separated by a comma, a semi-"
+"column or a tabulation.\n"
+"\n"
+"You should prepare it from your usual spreadsheet program from official "
+"lists of students, for example,\n"
+"and add if needed a column with groups to which you want these users to be "
+"added. Finally export it as CSV. (*)</p>\n"
+"\n"
+"<p>\n"
+"<b> The first one must contains a unique account identifier </b>: idnumber "
+"(by default) login or email  of the target user. (**). </p>\n"
+"\n"
+"<p>\n"
+"The second <b>if present,</b> contains the group name in wich you want that "
+"user to be added. </p>\n"
+"\n"
+"<p>\n"
+"If the group name does not exist, it will be created in your course, "
+"together with a grouping of the same name to which the group will be added.\n"
+".<br/>\n"
+"This is due to the fact that in Moodle, activities can be restricted to "
+"groupings (group of groups), not groups,\n"
+" so it will make your life easier. (this requires that groupings are enabled "
+"by your site administrator).\n"
+"\n"
+"<p>\n"
+"You may have in the same file different target groups or no groups for some "
+"accounts\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"You may unselect options to create groups and groupings if you are sure that "
+"they already exist in the course.\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"By default the users will be enroled as students but you may select other "
+"roles that you are allowed to manage (teacher, non editing teacher\n"
+"or any custom roles)\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"You may repeat this operation at will without dammages, for example if you "
+"forgot or mispelled the target group.\n"
+"</p>\n"
+"\n"
+"\n"
+"<h2> Sample files </h2>\n"
+"\n"
+"Id numbers and a group name to be created in needed in the course (*)\n"
+"<pre>\n"
+"\"idnumber\";\"group\"\n"
+"\" 2513110\";\" 4GEN\"\n"
+"\" 2512334\";\" 4GEN\"\n"
+"\" 2314149\";\" 4GEN\"\n"
+"\" 2514854\";\" 4GEN\"\n"
+"\" 2734431\";\" 4GEN\"\n"
+"\" 2514934\";\" 4GEN\"\n"
+"\" 2631955\";\" 4GEN\"\n"
+"\" 2512459\";\" 4GEN\"\n"
+"\" 2510841\";\" 4GEN\"\n"
+"</pre>\n"
+"\n"
+"only idnumbers (**)\n"
+"<pre>\n"
+"idnumber\n"
+"2513110\n"
+"2512334\n"
+"2314149\n"
+"2514854\n"
+"2734431\n"
+"2514934\n"
+"2631955\n"
+"</pre>\n"
+"\n"
+"only emails (**)\n"
+"<pre>\n"
+"email\n"
+"toto@insa-lyon.fr\n"
+"titi@]insa-lyon.fr\n"
+"tutu@insa-lyon.fr\n"
+"</pre>\n"
+"\n"
+"usernames and groups, separated by a tab :\n"
+"\n"
+"<pre>\n"
+"username\t group\n"
+"ppollet      groupe_de_test              will be in that group\n"
+"codet        groupe_de_test              also him\n"
+"astorck      autre_groupe                will be in another group\n"
+"yjayet                                   no group for this one\n"
+"                                         empty line skipped\n"
+"unknown                                  unknown account skipped\n"
+"</pre>\n"
+"\n"
+"<p>\n"
+"<span <font color='red'>(*) </font></span>: double quotes and spaces, added "
+"by some spreadsheet programs will be removed.\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"<span <font color='red'>(**) </font></span>: target account must exist in "
+"Moodle ; this is normally the case if Moodle is synchronized with\n"
+"some external directory (LDAP...)\n"
+"</p>"
+msgstr ""
+
+#: $string['mass_enroll_info']
+msgid ""
+"<p>\n"
+"With this option you are going to enrol a list of known users from a file "
+"with one account per line\n"
+"</p>\n"
+"<p>\n"
+"<b> The firstline </b> the empty lines or unknown accounts will be skipped. "
+"</p>\n"
+"<p>\n"
+"The file may contains several columns, separated by a comma, a semi-column "
+"or a tabulation.\n"
+"<br/>\n"
+"<b>The first one must contains a unique account identifier : idnumber (by "
+"default) login or email  </b> of the target user. <br/>\n"
+"\n"
+"The second <b>if present,</b> contains the group name in wich you want that "
+"user be be added. <br/>\n"
+"\n"
+"You may repeat this operation at will without damages, for example if you "
+"forgot the group for some users.\n"
+"</p>"
+msgstr ""
+
+#: $string['massenrollsettings']
+msgid "Mass enrol settings"
+msgstr ""
+
+#: $string['mass_enroll:unenrol']
+msgid "Unenrol users from a course by CSV file"
+msgstr ""
+
+#: $string['mass_unenroll']
+msgid "Bulk unenrolments"
+msgstr ""
+
+#: $string['mass_unenroll_help']
+msgid ""
+"<h1>Bulk unenrolments</h1>\n"
+"\n"
+"<p>\n"
+"With this option you are going to unenrol a list of users from a file with "
+"one account per line\n"
+"</p>\n"
+"<p>\n"
+"<b> The firstline </b> the empty lines or unknown accounts will be skipped. "
+"</p>\n"
+"\n"
+"<p>\n"
+"The file may contains several columns, separated by a comma, a semi-column "
+"or a tabulation.\n"
+"\n"
+"You should prepare it from your usual spreadsheet program from an official "
+"lists of students, for example,\n"
+"by exporting the course gradebook to CSV, or use the very same file as the "
+"one used to mass enrol users. (*)</p>\n"
+"\n"
+"<p>\n"
+"<b> The first one must contains a unique account identifier </b>: idnumber "
+"(by default) login or email  of the target user. (**). </p>\n"
+"\n"
+"<p>\n"
+"All other columns will be ignored. </p>\n"
+"\n"
+"\n"
+"<p>\n"
+"By default the users will be enroled as students but you may select other "
+"roles that you are allowed to manage (teacher, non editing teacher\n"
+"or any custom roles)\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"You may repeat this operation at will without dammages, for example if you "
+"forgot some users to unenrol.\n"
+"</p>\n"
+"\n"
+"\n"
+"<p>\n"
+"<span <font color='red'>(*) </font></span>: double quotes and spaces, added "
+"by some spreadsheet programs will be removed.\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"<span <font color='red'>(**) </font></span>: target account must exist in "
+"Moodle and be enrolled to this course.\n"
+"</p>"
+msgstr ""
+
+#: $string['mass_unenroll_info']
+msgid ""
+"<p>\n"
+"With this option you are going to unenrol a list on users from a file with "
+"one account per line.\n"
+"</p>\n"
+"<p>\n"
+"<b> The firstline </b> the empty lines or unknown accounts will be skipped. "
+"</p>\n"
+"</p>\n"
+"<p>\n"
+"The file may contains several columns, separated by a comma, a semi-column "
+"or a tabulation.\n"
+"<br/>\n"
+"<b>The first one must contains a unique account identifier : idnumber (by "
+"default) login or email  </b> of the target user. <br/>\n"
+"\n"
+"Other columns, if present, will be ignored. Thus the file can be the same as "
+"the one user to mass enrol users into this course.<br/>\n"
+"\n"
+"You may repeat this operation at will without damages, for example if you "
+"forgot some users to unenroll.\n"
+"</p>"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Mass enrolments"
+msgstr ""
+
+#: $string['roleassign']
+msgid "Role to assign"
+msgstr ""
+
+#: $string['unenroll']
+msgid "Unenrol them from my course"
+msgstr ""
+
+#: $string['username']
+msgid "Login"
+msgstr ""

@@ -1,0 +1,382 @@
+#. extracted from lang/en/jclic.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'jclic', language 'en', branch 'MOODLE_31_STABLE'
+#.  *
+#.  * @package   jclic
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['actions']
+msgid "Actions"
+msgstr ""
+
+#: $string['activity']
+msgid "Activity"
+msgstr ""
+
+#: $string['activitydone']
+msgid "Activities done"
+msgstr ""
+
+#: $string['activitysolved']
+msgid "Activities completed successfully"
+msgstr ""
+
+#: $string['attempts']
+msgid "Attempts"
+msgstr ""
+
+#: $string['availabledate']
+msgid "Available from"
+msgstr ""
+
+#: $string['avaluation']
+msgid "Evaluation criteria"
+msgstr ""
+
+#: $string['avaluation_score']
+msgid "Achieving this global score"
+msgstr ""
+
+#: $string['avaluation_solved']
+msgid "Solving this number of different activities"
+msgstr ""
+
+#: $string['closebeforeopen']
+msgid ""
+"Could not update the jclic. You have specified a due date before the "
+"available date."
+msgstr ""
+
+#: $string['contentheader']
+msgid "Content"
+msgstr ""
+
+#: $string['deleteallsessions']
+msgid "Delete all sessions"
+msgstr ""
+
+#: $string['description']
+msgid "Description"
+msgstr ""
+
+#: $string['duedate']
+msgid "Due date"
+msgstr ""
+
+#: $string['event_course_module_viewed']
+msgid "Course module viewed"
+msgstr ""
+
+#: $string['event_instances_list_viewed']
+msgid "Instances list viewed"
+msgstr ""
+
+#: $string['exiturl']
+msgid "Exit URL"
+msgstr ""
+
+#: $string['exiturl_help']
+msgid ""
+"This is the URL that appears when students finish the last JClic activity.\n"
+"\n"
+"To make work this redirection it's necessary to associate to the last "
+"activity in the Sequences tab the action \"Exit JClic\" in the Forward arrow "
+"section."
+msgstr ""
+
+#: $string['expired']
+msgid "Sorry, this activity closed on {$a} and is no longer available"
+msgstr ""
+
+#: $string['filetype']
+msgid "Type"
+msgstr ""
+
+#: $string['filetypeexternal']
+msgid "External URL"
+msgstr ""
+
+#: $string['filetype_help']
+msgid ""
+"This setting determines how the JClic activity is included in the course. "
+"There are up to 2 options:\n"
+"\n"
+"* Uploaded JClic - Enables a valid \".jclic.zip\" package to be chosen by the "
+"file picker.\n"
+"* External URL - Enables a URL to be specified. Note: The URL must start "
+"with http(s) or www and contain a valid \"jclic.zip\" or \".jclic\" file."
+msgstr ""
+
+#: $string['filetypelocal']
+msgid "Uploaded JClic"
+msgstr ""
+
+#: $string['height']
+msgid "Height"
+msgstr ""
+
+#: $string['invalidjclicfile']
+msgid "Invalid JClic specified. It must have the \".jclic.zip\" extension."
+msgstr ""
+
+#: $string['invalidurl']
+msgid ""
+"Invalid URL specified. It must start with http(s) and has to be a valid "
+"\".jclic.zip\" or \".jclic\" file."
+msgstr ""
+
+#: $string['jclic']
+msgctxt "$string['jclic']"
+msgid "JClic"
+msgstr ""
+
+#: $string['jclic:addinstance']
+msgid "Add JClic"
+msgstr ""
+
+#: $string['jclicfile']
+msgid "JClic file"
+msgstr ""
+
+#: $string['jclicfile_help']
+msgid "The .jclic.zip file containing the JClic files."
+msgstr ""
+
+#: $string['jclic:grade']
+msgid "Grade JClic"
+msgstr ""
+
+#: $string['jclicjarbase']
+msgid "Jar base"
+msgstr ""
+
+#: $string['jclicjarbase_help']
+msgid "Web address where to locate all the JClic jar files"
+msgstr ""
+
+#: $string['jclicjs']
+msgid "jclic.js file URL"
+msgstr ""
+
+#: $string['jclicjs_help']
+msgid "URL where to find jclic.js needed for the non-Java player.."
+msgstr ""
+
+#: $string['jclic:submit']
+msgid "Submit JClic"
+msgstr ""
+
+#: $string['jclicurl']
+msgctxt "$string['jclicurl']"
+msgid "URL"
+msgstr ""
+
+#: $string['jclicurl_help']
+msgid ""
+"This setting enables a URL for the JClic package to be specified, rather "
+"than choosing a file via the file picker."
+msgstr ""
+
+#: $string['jclic:view']
+msgid "View JClic"
+msgstr ""
+
+#: $string['lang']
+msgid "Language"
+msgstr ""
+
+#: $string['lap']
+msgid "Lap"
+msgstr ""
+
+#: $string['lap_help']
+msgid "Time between client-server transactions (in seconds)"
+msgstr ""
+
+#: $string['lastaccess']
+msgid "Last visited"
+msgstr ""
+
+#: $string['maxattempts']
+msgid "Maximum number of trials"
+msgstr ""
+
+#: $string['maxgrade']
+msgid "Score/activities that must be achieved"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "JClic"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"<a href=\"http://clic.xtec.cat\" target=\"_blank\">JClic</a> is a project of the "
+"Catalan Ministry of Education.\n"
+"    It consists of a set of open source software applications that allow the "
+"creation of several types of multimedia educational activities: puzzles, "
+"association games, text activities, crosswords, wordsearch games and more.\n"
+"    Besides, the <a href=\"http://clic.xtec.cat/db/listact_ca.jsp\" "
+"target=\"_blank\">ClicZone</a> offers a repository where more than a thousand "
+"activities are displayed.\n"
+"    It has been created by teachers and other professionals who want to "
+"share their work with others.\n"
+"\n"
+"This module allows teachers to add JClick activities to any course and to "
+"track pupils' results (time spent on each of the activities, number of "
+"tries, score...)."
+msgstr ""
+
+#: $string['modulenameplural']
+msgctxt "$string['modulenameplural']"
+msgid "JClic"
+msgstr ""
+
+#: $string['msg_noattempts']
+msgid "You have tried this activity the maximum number of times"
+msgstr ""
+
+#: $string['msg_nosessions']
+msgid "This JClic activity hasn't yet any session"
+msgstr ""
+
+#: $string['notopenyet']
+msgid "Sorry, this activity is not available until {$a}"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "JClic administration"
+msgstr ""
+
+#: $string['pluginjs']
+msgid "JClic plugin js file url"
+msgstr ""
+
+#: $string['pluginjs_help']
+msgid ""
+"URL where to find jclicplugin.js needed to work. If empty, it will use the "
+"file on the module."
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "JClic"
+msgstr ""
+
+#: $string['preview_jclic']
+msgid "Preview JClic activity"
+msgstr ""
+
+#: $string['report_details']
+msgid "Detailed results with all the sessions"
+msgstr ""
+
+#: $string['report_normal']
+msgid "Summary results"
+msgstr ""
+
+#: $string['results']
+msgid "Results"
+msgstr ""
+
+#: $string['return_results']
+msgid "Return to results"
+msgstr ""
+
+#: $string['score']
+msgid "Score"
+msgstr ""
+
+#: $string['sessions']
+msgid "Sessions"
+msgstr ""
+
+#: $string['show_my_results']
+msgid "Show my results"
+msgstr ""
+
+#: $string['size']
+msgid "Size"
+msgstr ""
+
+#: $string['skin']
+msgid "Skin"
+msgstr ""
+
+#: $string['solved']
+msgid "Correct"
+msgstr ""
+
+#: $string['solveddone']
+msgid "Activities solved / done"
+msgstr ""
+
+#: $string['starttime']
+msgid "Date started"
+msgstr ""
+
+#: $string['time']
+msgid "Time"
+msgstr ""
+
+#: $string['timing']
+msgid "Timing"
+msgstr ""
+
+#: $string['totals']
+msgid "Totals"
+msgstr ""
+
+#: $string['totaltime']
+msgid "Total time"
+msgstr ""
+
+#: $string['unlimited']
+msgid "Unlimited"
+msgstr ""
+
+#: $string['url']
+msgctxt "$string['url']"
+msgid "URL"
+msgstr ""
+
+#: $string['urledit']
+msgid "JClic activity file"
+msgstr ""
+
+#: $string['urledit_help']
+msgid "The \"jclic.zip\" file where you will find the JClic activity package."
+msgstr ""
+
+#: $string['width']
+msgid "Width"
+msgstr ""

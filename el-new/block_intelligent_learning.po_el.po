@@ -1,0 +1,500 @@
+#. extracted from lang/en/block_intelligent_learning.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_intelligent_learning', language 'en', branch 'MOODLE_27_STABLE'
+#.  *
+#.  * @package   block_intelligent_learning
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addcutoff']
+msgid "Add cutoff"
+msgstr ""
+
+#: $string['addedactivity']
+msgid "Added {$a->modname} by {$a->fullname}"
+msgstr ""
+
+#: $string['attendancedaily']
+msgid "Daily Attendance"
+msgstr ""
+
+#: $string['attendancepid']
+msgctxt "$string['attendancepid']"
+msgid "Attendance process ID"
+msgstr ""
+
+#: $string['attendancepiddesc']
+msgctxt "$string['attendancepiddesc']"
+msgid "Attendance process ID"
+msgstr ""
+
+#: $string['attendancetab']
+msgid "Attendance"
+msgstr ""
+
+#: $string['backtodatatel']
+msgid "Back to Portal"
+msgstr ""
+
+#: $string['categorycutoff']
+msgid "Category grade cutoff"
+msgstr ""
+
+#: $string['categorycutoffdesc']
+msgid ""
+"You can define one or more cutoff dates, after which midterm grades and "
+"final grades will no longer be visible in either the ILP integration block "
+"or the grading form. A cutoff date is associated with a course category, and "
+"applies to all courses in that category and its subcategories, unless you "
+"define a separate cutoff date for a subcategory."
+msgstr ""
+
+#: $string['categorycutoff_help']
+msgid ""
+"<p>You can define one or more cutoff dates, after which midterm grades and "
+"final grades will no\n"
+"    longer be visible in either the ILP integration block or the grading "
+"form. A cutoff date is associated with a course category,\n"
+"    and applies to all courses in that category and its subcategories, "
+"unless you define a separate cutoff date for a subcategory.</p>\n"
+"\n"
+"<p>Example: A category has been defined for each term, with subcategories "
+"for each department. Course sites exist under the categories\n"
+"    SP2010/English, SP2010/Math, and SP2010/History. A cutoff date defined "
+"for the SP2010 category would apply to all courses in those\n"
+"    categories. However, a separate cutoff date could be defined for the "
+"SP2010/Math category, and would apply to all courses in that category.</p>\n"
+"\n"
+"<p>To add a new cutoff: Choose the course category, enter a date, and click "
+"Add cutoff.</p>\n"
+"<p>To delete an existing cutoff: Select the Delete check box next to that "
+"cutoff and click Save Changes at the bottom of the form.</p>"
+msgstr ""
+
+#: $string['checkatleastone']
+msgid "Please check the checkbox next to a user's name to update their grades"
+msgstr ""
+
+#: $string['configure']
+msgid "Configure"
+msgstr ""
+
+#: $string['confirmunsaveddata']
+msgid ""
+"You are about to change the group and will lose unsaved data.  Are you sure "
+"you want to continue without saving?"
+msgstr ""
+
+#: $string['couldnotsave']
+msgid "A record could not be saved"
+msgstr ""
+
+#: $string['currentgrade']
+msgid "Current Grade"
+msgstr ""
+
+#: $string['dailyattendancelink']
+msgid "Daily attendance link"
+msgstr ""
+
+#: $string['dailyattendancelinkdesc']
+msgid "Display the daily attendance link?"
+msgstr ""
+
+#: $string['datatelwebserviceendpoints']
+msgid "Ellucian Web Service Endpoints"
+msgstr ""
+
+#: $string['dateformat']
+msgid "Date format"
+msgstr ""
+
+#: $string['dateformatdesc']
+msgid ""
+"This determines the format of the date for date entry boxes.  The YYYY "
+"represents the four digit year, MM represents the two digit month and DD "
+"represents the two digit day."
+msgstr ""
+
+#: $string['deletedactivity']
+msgid "Deleted {$a->modname} by {$a->fullname}"
+msgstr ""
+
+#: $string['expiredate']
+msgid "Expire Date"
+msgstr ""
+
+#: $string['extraletters']
+msgid "Additional Grade Letters"
+msgstr ""
+
+#: $string['extralettersdesc']
+msgid ""
+"Enter additional letter grades, separated by commas, that can be submitted "
+"for mid-term or final grades."
+msgstr ""
+
+#: $string['failedtoconvert']
+msgid ""
+"Failed to convert date entered to UNIX timestamp for {$a->date}.  Valid "
+"format: {$a->format}"
+msgstr ""
+
+#: $string['finalgrade']
+msgid "Final Grade"
+msgstr ""
+
+#: $string['finalgrades']
+msgctxt "$string['finalgrades']"
+msgid "Final Grades"
+msgstr ""
+
+#: $string['finalgrades_help']
+msgid ""
+"<p>The Final Grades form allows a user to edit the students' final grades "
+"and last date of attendance or the never attended flag.  Each student's "
+"current grade (decimal and letter) is displayed after their name.</p>"
+msgstr ""
+
+#: $string['finalgradestab']
+msgctxt "$string['finalgradestab']"
+msgid "Final Grades"
+msgstr ""
+
+#: $string['gotogrades']
+msgid "Grader Report"
+msgstr ""
+
+#: $string['gradebookapp']
+msgid "Gradebook Application"
+msgstr ""
+
+#: $string['gradebookappdesc']
+msgid "Application handling the grade reporting"
+msgstr ""
+
+#: $string['gradebookapperror']
+msgid "The Gradebook Application is not set to Moodle."
+msgstr ""
+
+#: $string['gradelock']
+msgid "Lock Grades"
+msgstr ""
+
+#: $string['gradelockdesc']
+msgid "Allow faculty to modify Final grades after submission?"
+msgstr ""
+
+#: $string['gradematrixtab']
+msgid "Midterm/Final Grades"
+msgstr ""
+
+#: $string['gradessubmitted']
+msgid "Grades submitted"
+msgstr ""
+
+#: $string['helptextfinalgrades']
+msgctxt "$string['helptextfinalgrades']"
+msgid ""
+msgstr ""
+
+#: $string['helptextlastattendance']
+msgctxt "$string['helptextlastattendance']"
+msgid ""
+msgstr ""
+
+#: $string['helptextmidtermgrades']
+msgctxt "$string['helptextmidtermgrades']"
+msgid ""
+msgstr ""
+
+#: $string['helptextretentionalert']
+msgctxt "$string['helptextretentionalert']"
+msgid ""
+msgstr ""
+
+#: $string['ilpgradebook']
+msgid "ST Gradebook"
+msgstr ""
+
+#: $string['ilpst']
+msgid "ILP ST"
+msgstr ""
+
+#: $string['ilpurl']
+msgid "ILP URL"
+msgstr ""
+
+#: $string['ilpurldesc']
+msgid "URL to the ILP Portal site"
+msgstr ""
+
+#: $string['intelligent_learning:addinstance']
+msgid "Add a new ILP Integration block"
+msgstr ""
+
+#: $string['intelligent_learning:edit']
+msgid "Edit"
+msgstr ""
+
+#: $string['invalidday']
+msgid ""
+"The entered date has an invalid day: {$a->date}.  Valid format: {$a->format}"
+msgstr ""
+
+#: $string['invalidmonth']
+msgid ""
+"The entered date has an invalid month: {$a->date}.  Valid format: "
+"{$a->format}"
+msgstr ""
+
+#: $string['invalidyear']
+msgid ""
+"The entered date has an invalid year: {$a->date}.  Valid format: "
+"{$a->format}"
+msgstr ""
+
+#: $string['lastattendance']
+msgctxt "$string['lastattendance']"
+msgid "Last Date of Attendance"
+msgstr ""
+
+#: $string['lastattendance_help']
+msgid ""
+"<p>The Last Date of Attendance form allows a user to edit the students' last "
+"date of attendance.</p>"
+msgstr ""
+
+#: $string['lastattendancetab']
+msgctxt "$string['lastattendancetab']"
+msgid "Last Date of Attendance"
+msgstr ""
+
+#: $string['lastattendancetableheader']
+msgctxt "$string['lastattendancetableheader']"
+msgid "Last Date of Attendance"
+msgstr ""
+
+#: $string['ldasubmitted']
+msgid "LDA Submitted"
+msgstr ""
+
+#: $string['lettergradetoolong']
+msgid "The grade letter \\\"{$a}\\\" must be less than three characters long."
+msgstr ""
+
+#: $string['midterm']
+msgid "Midterm {$a}"
+msgstr ""
+
+#: $string['midtermgradecolumns']
+msgctxt "$string['midtermgradecolumns']"
+msgid "Midterm Grades"
+msgstr ""
+
+#: $string['midtermgradecolumnsdesc']
+msgid "Number of midterm grades to display"
+msgstr ""
+
+#: $string['midtermgrades']
+msgctxt "$string['midtermgrades']"
+msgid "Midterm Grades"
+msgstr ""
+
+#: $string['midtermgrades_help']
+msgid ""
+"<p>The Midterm Grades form allows a user to edit the students' midterm "
+"grades and last date of attendance.  Each student's current grade (decimal "
+"and letter) is displayed after their name.</p>"
+msgstr ""
+
+#: $string['midtermgradestab']
+msgctxt "$string['midtermgradestab']"
+msgid "Midterm Grades"
+msgstr ""
+
+#: $string['missingmonthdayoryear']
+msgid ""
+"The entered date is missing either day, month or year: {$a->date}. Valid "
+"format: {$a->format}"
+msgstr ""
+
+#: $string['moodle']
+msgid "Moodle"
+msgstr ""
+
+#: $string['needsadminsetup']
+msgid "The ILP Integration block needs to be configured by an administrator"
+msgstr ""
+
+#: $string['neverattended']
+msgid "Never Attended"
+msgstr ""
+
+#: $string['neverattenderror']
+msgid ""
+"Both the last date of attendance and the never attend flag cannot be set at "
+"the same time"
+msgstr ""
+
+#: $string['nocheckboxwarning']
+msgid ""
+"No checkboxes were checked.  Please check the checkbox in the rows that "
+"should be saved."
+msgstr ""
+
+#: $string['nogradebookusers']
+msgid "There are no users in this course with gradebook roles"
+msgstr ""
+
+#: $string['nogradebookusersandgroups']
+msgid ""
+"There are no users in this course with gradebook roles and this group "
+"assignment"
+msgstr ""
+
+#: $string['notavailable']
+msgid "The grading period has expired."
+msgstr ""
+
+#: $string['notvalidgrade']
+msgid "{$a} is not a valid grade"
+msgstr ""
+
+#: $string['outsideoflimits']
+msgid ""
+"Failed to convert date entered for {$a->date}.  Valid format: {$a->format}"
+msgstr ""
+
+#: $string['pluginname']
+msgid "ILP Integration"
+msgstr ""
+
+#: $string['populatefinalgrade']
+msgid "Populate with course grade..."
+msgstr ""
+
+#: $string['populatemidterm']
+msgid "Populate midterm with course grade..."
+msgstr ""
+
+#: $string['retentionalert']
+msgctxt "$string['retentionalert']"
+msgid "Retention Alert"
+msgstr ""
+
+#: $string['retentionalert_help']
+msgid ""
+"<p>Click the Retention Alert link next to a student's name to enter "
+"retention information for that student in WebAdvisor. Clicking the link will "
+"open a new browser window with the appropriate Retention Alert page "
+"displayed in WebAdvisor in the Colleague Portal.</p>"
+msgstr ""
+
+#: $string['retentionalertlink']
+msgid "Retention alert link"
+msgstr ""
+
+#: $string['retentionalertlinkdesc']
+msgid "Display the retention alert links?"
+msgstr ""
+
+#: $string['retentionalertlinkerror']
+msgid "Retention alert has not been enabled"
+msgstr ""
+
+#: $string['retentionalertpid']
+msgctxt "$string['retentionalertpid']"
+msgid "Retention alert process ID"
+msgstr ""
+
+#: $string['retentionalertpiddesc']
+msgctxt "$string['retentionalertpiddesc']"
+msgid "Retention alert process ID"
+msgstr ""
+
+#: $string['retentionalerttab']
+msgctxt "$string['retentionalerttab']"
+msgid "Retention Alert"
+msgstr ""
+
+#: $string['showlastattendance']
+msgid "Show last attendance"
+msgstr ""
+
+#: $string['showlastattendancedesc']
+msgid "Display Last Date of Attendance links"
+msgstr ""
+
+#: $string['stgradebookpid']
+msgctxt "$string['stgradebookpid']"
+msgid "ST Gradebook process ID"
+msgstr ""
+
+#: $string['stgradebookpiddesc']
+msgctxt "$string['stgradebookpiddesc']"
+msgid "ST Gradebook process ID"
+msgstr ""
+
+#: $string['submitgrades']
+msgid "Submit Grades"
+msgstr ""
+
+#: $string['submitlda']
+msgid "Submit LDA"
+msgstr ""
+
+#: $string['updatedactivity']
+msgid "Updated {$a->modname} by {$a->fullname}"
+msgstr ""
+
+#: $string['webserviceendpoints']
+msgid "Web Service Endpoints"
+msgstr ""
+
+#: $string['webservices_ipaddresses']
+msgid "IP Addresses"
+msgstr ""
+
+#: $string['webservices_ipaddressesdesc']
+msgid ""
+"IP addresses can be a comma separated list of subnet definitions. Subnet "
+"definitions can be in one of the following three "
+"formats:<ol><li>xxx.xxx.xxx.xxx/xx</li><li>xxx.xxx</li><li>xxx.xxx.xxx.xxx-"
+"xxx (A range)</li></ol>"
+msgstr ""
+
+#: $string['webservices_token']
+msgid "Token"
+msgstr ""
+
+#: $string['webservices_tokendesc']
+msgid "Token that should be passed along with web service requests"
+msgstr ""

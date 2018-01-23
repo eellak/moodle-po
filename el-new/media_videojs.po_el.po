@@ -1,0 +1,122 @@
+#. extracted from lang/en/media_videojs.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'media_videojs', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   media_videojs
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['audiocssclass']
+msgid "CSS class for audio"
+msgstr ""
+
+#: $string['audioextensions']
+msgid "Audio file extensions"
+msgstr ""
+
+#: $string['configaudiocssclass']
+msgid "A CSS class that will be added to the &lt;audio&gt; element."
+msgstr ""
+
+#: $string['configaudioextensions']
+msgid ""
+"A comma-separated list of supported audio file extensions. VideoJS will try "
+"to use the browser's native video player when available, and fall back to a "
+"Flash player for other formats if Flash is supported by the browser and "
+"Flash fallback is enabled below."
+msgstr ""
+
+#: $string['configlimitsize']
+msgid ""
+"If enabled, and width and height are not specified, the video will display "
+"with default width and height. Otherwise it will stretch to the maximum "
+"possible width."
+msgstr ""
+
+#: $string['configuseflash']
+msgid ""
+"Use Flash player if video format is not natively supported by the browser. "
+"If enabled, VideoJS will be engaged for any file extension from the above "
+"list without browser check. Please note that Flash is not available in "
+"mobile browsers and discouraged in many desktop ones."
+msgstr ""
+
+#: $string['configvideocssclass']
+msgid ""
+"A CSS class that will be added to the &lt;video&gt; element. For example, "
+"the CSS class \"vjs-big-play-centered\" will place the play button in the "
+"middle. For details, including how to set a custom skin, see "
+"docs.videojs.com."
+msgstr ""
+
+#: $string['configvideoextensions']
+msgid ""
+"A comma-separated list of supported video file extensions. VideoJS will try "
+"to use the browser's native video player when available, and fall back to a "
+"Flash player for other formats if Flash is supported by the browser and "
+"Flash fallback is enabled below."
+msgstr ""
+
+#: $string['configyoutube']
+msgid ""
+"Use VideoJS to play YouTube videos. Note that YouTube playlists are not yet "
+"supported by VideoJS."
+msgstr ""
+
+#: $string['limitsize']
+msgid "Limit size"
+msgstr ""
+
+#: $string['pluginname']
+msgid "VideoJS player"
+msgstr ""
+
+#: $string['pluginname_help']
+msgid ""
+"A JavaScript wrapper for video files played by the browser's native video "
+"player with a Flash player fallback. (Format support depends on the "
+"browser.)"
+msgstr ""
+
+#: $string['useflash']
+msgid "Use Flash fallback"
+msgstr ""
+
+#: $string['videocssclass']
+msgid "CSS class for video"
+msgstr ""
+
+#: $string['videoextensions']
+msgid "Video file extensions"
+msgstr ""
+
+#: $string['youtube']
+msgid "YouTube videos"
+msgstr ""

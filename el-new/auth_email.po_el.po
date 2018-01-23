@@ -1,0 +1,80 @@
+#. extracted from lang/en/auth_email.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'auth_email', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   auth_email
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['auth_emaildescription']
+msgid ""
+"<p>Email-based self-registration enables a user to create their own account "
+"via a 'Create new account' button on the login page. The user then receives "
+"an email containing a secure link to a page where they can confirm their "
+"account. Future logins just check the username and password against the "
+"stored values in the Moodle database.</p><p>Note: In addition to enabling "
+"the plugin, email-based self-registration must also be selected from the "
+"self registration drop-down menu on the 'Manage authentication' page.</p>"
+msgstr ""
+"Η επιβεβαίωση μέσω ηλ. ταχυδρομείου είναι η προκαθορισμένη μέθοδος "
+"πιστοποίησης. Όταν ο χρήστης συνδεθεί επιλέγοντας το δικό του όνομα χρήστη "
+"και συνθηματικό, αποστέλεται στην ηλ. διεύθυνσή του ένα μήνυμα ηλεκτρονικού "
+"ταχυδρομείου για επιβεβαίωση. Αυτό το μήνυμα περιέχει έναν ασφαλή σύνδεσμο "
+"για μία σελίδα όπου ο χρήστης μπορεί να επιβεβαιώσει τον λογαριασμό του. Σε "
+"κάθε μελλοντική σύνδεση, απλά ελέγχεται το όνομα χρήστη και το συνθηματικό "
+"σε σχέση με τις αποθηκευμένες τιμές στη βάση δεδομένων του ΠΗΛΕΑΣ."
+
+#: $string['auth_emailnoemail']
+msgid "Tried to send you an email but failed!"
+msgstr "Tried to send you an email but failed!"
+
+#: $string['auth_emailrecaptcha']
+msgid ""
+"Adds a visual/audio confirmation form element to the sign-up page for email "
+"self-registering users. This protects your site against spammers and "
+"contributes to a worthwhile cause. See http://www.google.com/recaptcha for "
+"more details."
+msgstr ""
+"Adds a visual/audio confirmation form element to the signup page for email "
+"self-registering users. This protects your site against spammers and "
+"contributes to a worthwhile cause. See http://recaptcha.net/learnmore.html "
+"for more details. <br /><em>PHP cURL extension is required.</em>"
+
+#: $string['auth_emailrecaptcha_key']
+msgid "Enable reCAPTCHA element"
+msgstr "Enable reCAPTCHA element"
+
+#: $string['auth_emailsettings']
+msgid "Settings"
+msgstr "Settings"
+
+#: $string['pluginname']
+msgid "Email-based self-registration"
+msgstr "Πιστοποίηση βασισμένη στο ηλ. ταχυδρομείο."

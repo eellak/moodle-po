@@ -1,0 +1,301 @@
+#. extracted from lang/en/auth_saml2.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'auth_saml2', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   auth_saml2
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['alterlogout']
+msgid "Alternative Logout URL"
+msgstr ""
+
+#: $string['alterlogout_help']
+msgid "The URL to redirect a user after all internal logout mechanisms are run"
+msgstr ""
+
+#: $string['anyauth']
+msgid "Allowed any auth type"
+msgstr ""
+
+#: $string['anyauth_help']
+msgid ""
+"Yes: Allow SAML login for all users? No: Only users who have saml2 as their "
+"type."
+msgstr ""
+
+#: $string['auth_saml2description']
+msgid "Authenticate with a SAML2 IdP"
+msgstr ""
+
+#: $string['autocreate']
+msgid "Auto create users"
+msgstr ""
+
+#: $string['autocreate_help']
+msgid "If users are in the IdP but not in moodle create a moodle account."
+msgstr ""
+
+#: $string['certificate']
+msgid "Regenerate certificate"
+msgstr ""
+
+#: $string['certificatedetails']
+msgid "Certificate details"
+msgstr ""
+
+#: $string['certificatedetailshelp']
+msgid ""
+"<h1>SAML2 auto generated public certificate contents</h1>\n"
+"<p>The path for the cert is here:</p>"
+msgstr ""
+
+#: $string['certificate_help']
+msgid ""
+"Regenerate the Private Key and Certificate used by this SP. | <a "
+"href='{$a}'>View SP certificate</a>"
+msgstr ""
+
+#: $string['certificatelock']
+msgid "Lock certificate"
+msgstr ""
+
+#: $string['certificatelock_help']
+msgid ""
+"Locking the certificates will prevent them from being overwritten once "
+"generated."
+msgstr ""
+
+#: $string['certificatelock_locked']
+msgid "The certificate is locked"
+msgstr ""
+
+#: $string['certificatelock_warning']
+msgid ""
+"Warning. You are about to lock the certificates, are you sure you want to do "
+"this?"
+msgstr ""
+
+#: $string['commonname']
+msgid "Common Name"
+msgstr ""
+
+#: $string['countryname']
+msgid "Country"
+msgstr "Χώρα"
+
+#: $string['debug']
+msgid "Debugging"
+msgstr ""
+
+#: $string['debug_help']
+msgid ""
+"<p>This adds extra debugging to the normal moodle log | <a href='{$a}'>View "
+"SSP config</a></p>"
+msgstr ""
+
+#: $string['duallogin']
+msgid "Dual login"
+msgstr ""
+
+#: $string['duallogin_help']
+msgid ""
+"<p>If on, then users will see both manual and a SAML login button. If off "
+"they will always be taken directly to the IdP login page.</p>\n"
+"<p>If off, then admins can still see the manual login page via "
+"/login/index.php?saml=off</p>\n"
+"<p>If on, then external pages can deep link into moodle using saml eg "
+"/course/view.php?id=45&saml=on</p>"
+msgstr ""
+
+#: $string['expirydays']
+msgid "Expiry in Days"
+msgstr ""
+
+#: $string['idpmetadata']
+msgid "IdP metadata xml OR public xml URL"
+msgstr ""
+
+#: $string['idpmetadata_badurl']
+msgid "The url didn't return any data"
+msgstr ""
+
+#: $string['idpmetadata_help']
+msgid "eg XML containing an EntityDescriptor element"
+msgstr ""
+
+#: $string['idpmetadata_invalid']
+msgid "The IdP XML isn't valid"
+msgstr ""
+
+#: $string['idpmetadata_noentityid']
+msgid "The IdP XML has no entityID"
+msgstr ""
+
+#: $string['idpname']
+msgid "IdP label override"
+msgstr ""
+
+#: $string['idpnamedefault']
+msgid "Login via SAML2"
+msgstr ""
+
+#: $string['idpname_help']
+msgid ""
+"eg myUNI - this is detected from the metadata and will show on the dual "
+"login page (if enabled)"
+msgstr ""
+
+#: $string['localityname']
+msgid "Locality"
+msgstr ""
+
+#: $string['mapping']
+msgid "IdP to Moodle mapping"
+msgstr ""
+
+#: $string['mapping_help']
+msgid "What attribute in the IdP should match which field in Moodle?"
+msgstr ""
+
+#: $string['mcryptnotfound']
+msgid ""
+"ERROR: The mcrypt php library is required and isn't installed. Please refer "
+"to:<br><a href=\"https://github.com/catalyst/moodle-"
+"auth_saml2#installation\">https://github.com/catalyst/moodle-"
+"auth_saml2#installation</a>"
+msgstr ""
+
+#: $string['noattribute']
+msgid ""
+"You have logged in succesfully but we could not find your '{$a}' attribute "
+"to associate you to an account in Moodle."
+msgstr ""
+
+#: $string['nouser']
+msgid ""
+"You have logged in succesfully as '{$a}' but do not have an account in "
+"Moodle."
+msgstr ""
+
+#: $string['nullprivatecert']
+msgid "Creation of Private Certificate failed."
+msgstr ""
+
+#: $string['nullpubliccert']
+msgid "Creation of Public Certificate failed."
+msgstr ""
+
+#: $string['organizationalunitname']
+msgid "Organisational Unit"
+msgstr ""
+
+#: $string['organizationname']
+msgid "Organisation"
+msgstr ""
+
+#: $string['pluginname']
+msgid "SAML2"
+msgstr ""
+
+#: $string['regenerate_submit']
+msgid "Regenerate"
+msgstr ""
+
+#: $string['required']
+msgid "This field is required"
+msgstr ""
+
+#: $string['requireint']
+msgid "This field is required and needs to be a positive integer"
+msgstr ""
+
+#: $string['showidplink']
+msgid "Display IdP link"
+msgstr ""
+
+#: $string['showidplink_help']
+msgid "This will display the IdP link when the site is configured."
+msgstr ""
+
+#: $string['spmetadata']
+msgid "SP Metadata"
+msgstr ""
+
+#: $string['spmetadata_help']
+msgid ""
+"<a href='{$a}'>View Service Provider Metadata</a> | <a "
+"href='{$a}?download=1'>Download SP Metadata</a>\n"
+"<p>You may need to give this to the IdP admin to whitelist you.</p>"
+msgstr ""
+
+#: $string['spmetadatasign']
+msgid "SP Metadata signature"
+msgstr ""
+
+#: $string['spmetadatasign_help']
+msgid "Sign the SP Metadata."
+msgstr ""
+
+#: $string['sspversion']
+msgid "SimpleSAMLphp version"
+msgstr ""
+
+#: $string['stateorprovincename']
+msgid "State or Province"
+msgstr ""
+
+#: $string['suspendeduser']
+msgid ""
+"You have logged in succesfully as '{$a}' but your account has been suspended "
+"in Moodle."
+msgstr ""
+
+#: $string['test_auth']
+msgid "<a href=\"{$a}\">Test isAuthenticated and login</a>"
+msgstr ""
+
+#: $string['test_passive']
+msgid "<a href=\"{$a}\">Test using isPassive</a>"
+msgstr ""
+
+#: $string['tolower']
+msgid "Lowercase"
+msgstr ""
+
+#: $string['tolower_help']
+msgid "Apply lowercase to IdP attribute before matching?"
+msgstr ""
+
+#: $string['wrongauth']
+msgid ""
+"You have logged in succesfully as '{$a}' but are not authorized to access "
+"Moodle."
+msgstr ""

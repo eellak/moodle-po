@@ -1,0 +1,90 @@
+#. extracted from lang/en/cachestore_file.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'cachestore_file', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   cachestore_file
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['autocreate']
+msgid "Auto create directory"
+msgstr ""
+
+#: $string['autocreate_help']
+msgid ""
+"If enabled the directory specified in path will be automatically created if "
+"it does not already exist."
+msgstr ""
+
+#: $string['path']
+msgid "Cache path"
+msgstr ""
+
+#: $string['path_help']
+msgid ""
+"The directory that should be used to store files for this cache store. If "
+"left blank (default) a directory will be automatically created in the "
+"moodledata directory. This can be used to point a file store towards a "
+"directory on a better performing drive (such as one in memory)."
+msgstr ""
+
+#: $string['pluginname']
+msgid "File cache"
+msgstr ""
+
+#: $string['prescan']
+msgid "Prescan directory"
+msgstr ""
+
+#: $string['prescan_help']
+msgid ""
+"If enabled the directory is scanned when the cache is first used and "
+"requests for files are first checked against the scan data. This can help if "
+"you have a slow file system and are finding that file operations are "
+"causing you a bottle neck."
+msgstr ""
+
+#: $string['singledirectory']
+msgid "Single directory store"
+msgstr ""
+
+#: $string['singledirectory_help']
+msgid ""
+"If enabled files (cached items) will be stored in a single directory rather "
+"than being broken up into multiple directories.<br />\n"
+"Enabling this will speed up file interactions but comes at the cost of "
+"increased risk of hitting file system limitations.<br />\n"
+"It is advisable to only turn this on if the following is true:<br />\n"
+"  - If you know the number of items in the cache is going to be small enough "
+"that it won't cause issues on the file system you are running with.<br />\n"
+"  - The data being cached is not expensive to generate. If it is then "
+"sticking with the default may still be the better option as it reduces the "
+"chance of issues."
+msgstr ""

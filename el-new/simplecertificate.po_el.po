@@ -1,0 +1,760 @@
+#. extracted from lang/en/simplecertificate.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'simplecertificate', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   simplecertificate
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['allusers']
+msgid "All users"
+msgstr ""
+
+#: $string['awardedsubject']
+msgid ""
+"Awarded certificate notification: {$a->certificate} issued to {$a->student}"
+msgstr ""
+
+#: $string['awardedto']
+msgid "Awarded To"
+msgstr ""
+
+#: $string['bulkaction']
+msgid "Choose a Bulk Operation"
+msgstr ""
+
+#: $string['bulkbuttonlabel']
+msgid "Send"
+msgstr ""
+
+#: $string['bulkview']
+msgid "Bulk operations"
+msgstr ""
+
+#: $string['cantdeleteissue']
+msgid "Error removing issued certificates"
+msgstr ""
+
+#: $string['cantissue']
+msgid ""
+"The certificate can't be issued, because the user hasn't met activity "
+"conditions"
+msgstr ""
+
+#: $string['certificatecopy']
+msgid "COPY"
+msgstr ""
+
+#: $string['certificateimage']
+msgid "Certificate Image File"
+msgstr ""
+
+#: $string['certificateimage_help']
+msgid "This is the picture that will be used in the certificate"
+msgstr ""
+
+#: $string['certificatename']
+msgctxt "$string['certificatename']"
+msgid "Certificate Name"
+msgstr ""
+
+#: $string['certificatename_help']
+msgctxt "$string['certificatename_help']"
+msgid "Certificate Name"
+msgstr ""
+
+#: $string['certificatenot']
+msgid "Simple certificate instance not found"
+msgstr ""
+
+#: $string['certificatetext']
+msgid "Certificate Text"
+msgstr ""
+
+#: $string['certificatetext_help']
+msgid ""
+"This is the text that will be used in the certificate back, some special "
+"words will be replaced with variables such as course name, student's name, "
+"grade ...\n"
+"These are:\n"
+"<ul>\n"
+"<li>{USERNAME} -> Full user name</li>\n"
+"<li>{COURSENAME} -> Full course name (or a defined alternate course "
+"name)</li>\n"
+"<li>{GRADE} -> Formatted Grade</li>\n"
+"<li>{DATE} -> Formatted Date</li>\n"
+"<li>{OUTCOME} -> Outcomes</li>\n"
+"<li>{TEACHERS} -> Teachers List</li>\n"
+"<li>{IDNUMBER} -> User id number</li>\n"
+"<li>{FIRSTNAME} -> User first name</li>\n"
+"<li>{LASTNAME} -> User last name</li>\n"
+"<li>{EMAIL} -> User e-mail</li>\n"
+"<li>{ICQ} -> User ICQ</li>\n"
+"<li>{SKYPE} -> User Skype</li>\n"
+"<li>{YAHOO} -> User yahoo messenger</li>\n"
+"<li>{AIM} -> User AIM</li>\n"
+"<li>{MSN} -> User MSN</li>\n"
+"<li>{PHONE1} -> User 1° Phone Number</li>\n"
+"<li>{PHONE2} -> User 2° Phone Number</li>\n"
+"<li>{INSTITUTION} -> User institution</li>\n"
+"<li>{DEPARTMENT} -> User department</li>\n"
+"<li>{ADDRESS} -> User address</li>\n"
+"<li>{CITY} -> User city</li>\n"
+"<li>{COUNTRY} -> User country</li>\n"
+"<li>{URL} -> User Home-page</li>\n"
+"<li>{CERTIFICATECODE} -> Unique certificate code text</li>\n"
+"<li>{USERROLENAME} -> User role name in course</li>\n"
+"<li>{TIMESTART} -> User Enrollment start date in course</li>\n"
+"<li>{USERIMAGE} -> User profile image</li>\n"
+"<li>{USERRESULTS} -> User results (grade) in others course activities</li>\n"
+"<li>{PROFILE_xxxx} -> User custom profile fields</li>\n"
+"</ul>\n"
+"In order to use custom profiles fields you must use \"PORFILE_\" prefix, for "
+"example: you has created a custom profile with shortname of \"birthday,\" so "
+"the text mark used on certificate must be {PROFILE_BIRTHDAY}.\n"
+"The text can use basic html, basic fonts, tables,  but avoid any position "
+"definition."
+msgstr ""
+
+#: $string['certificatetextx']
+msgid "Certificate Text Horizontal Position"
+msgstr ""
+
+#: $string['certificatetexty']
+msgid "Certificate Text Vertical Position"
+msgstr ""
+
+#: $string['certificateverification']
+msgid "Certificate Verification"
+msgstr ""
+
+#: $string['certlifetime']
+msgid "Keep issued certificates for: (in Months)"
+msgstr ""
+
+#: $string['certlifetime_help']
+msgid ""
+"This specifies the length of time you want to keep issued certificates. "
+"Issued certificates that are older than this age are automatically deleted."
+msgstr ""
+
+#: $string['code']
+msgid "Code"
+msgstr ""
+
+#: $string['codex']
+msgid "Certificate QR Code Horizontal Position"
+msgstr ""
+
+#: $string['codey']
+msgid "Certificate QR Code Vertical Position"
+msgstr ""
+
+#: $string['completedusers']
+msgid "Users that met the activity conditions"
+msgstr ""
+
+#: $string['completiondate']
+msgid "Course Completion"
+msgstr ""
+
+#: $string['coursegrade']
+msgid "Course Grade"
+msgstr ""
+
+#: $string['coursename']
+msgctxt "$string['coursename']"
+msgid "Alternative Course Name"
+msgstr ""
+
+#: $string['coursename_help']
+msgctxt "$string['coursename_help']"
+msgid "Alternative Course Name"
+msgstr ""
+
+#: $string['coursenotfound']
+msgid "Course not found"
+msgstr "Αδυναμία εύρεσης μαθήματος"
+
+#: $string['coursestartdate']
+msgid "Course Start Date"
+msgstr ""
+
+#: $string['coursetimereq']
+msgid "Required minutes in course"
+msgstr ""
+
+#: $string['coursetimereq_help']
+msgid ""
+"Enter here the minimum amount of time, in minutes, that a student must be "
+"logged into the course before they will be able to receive the certificate."
+msgstr ""
+
+#: $string['datefmt']
+msgid "Date Format"
+msgstr ""
+
+#: $string['datefmt_help']
+msgctxt "$string['datefmt_help']"
+msgid ""
+"Enter a valid PHP date format pattern (<a "
+"href=\"http://www.php.net/manual/en/function.strftime.php\"> Date "
+"Formats</a>). Or, leave it empty to use the format of the user's chosen "
+"language."
+msgstr ""
+
+#: $string['defaultcertificatetextx']
+msgid "Default Horizontal Text Position"
+msgstr ""
+
+#: $string['defaultcertificatetexty']
+msgid "Default Vertical Text Position"
+msgstr ""
+
+#: $string['defaultcodex']
+msgid "Default Horizontal QR code Position"
+msgstr ""
+
+#: $string['defaultcodey']
+msgid "Default Vertical QR code Position"
+msgstr ""
+
+#: $string['defaultheight']
+msgid "Default Height"
+msgstr ""
+
+#: $string['defaultperpage']
+msgid "Per page"
+msgstr ""
+
+#: $string['defaultperpage_help']
+msgid "Number of certificate to show per page (Max. 200)"
+msgstr ""
+
+#: $string['defaultwidth']
+msgid "Default Width"
+msgstr ""
+
+#: $string['deleteall']
+msgid "Delete All"
+msgstr ""
+
+#: $string['deleteselected']
+msgid "Delete Selected"
+msgstr ""
+
+#: $string['deletissuedcertificates']
+msgid "Delete issued certificates"
+msgstr ""
+
+#: $string['delivery']
+msgid "Delivery"
+msgstr ""
+
+#: $string['delivery_help']
+msgid ""
+"Choose here how you would like your students to get their certificate.\n"
+"<ul>\n"
+"<li>Open in Browser: Opens the certificate in a new browser window.</li>\n"
+"<li>Force Download: Opens the browser file download window.</li>\n"
+"<li>Email Certificate: Choosing this option sends the certificate to the "
+"student as an email attachment.</li>\n"
+"<li>After a user receives their certificate, if they click on the "
+"certificate link from the course homepage, they will see the date they "
+"received their certificate and will be able to review their received "
+"certificate.</li>\n"
+"</ul>"
+msgstr ""
+"Επιλέξτε εδώ πώς θέλετε οι μαθητές να λάβουν το πιστοποιητικό τους.\n"
+"<ul>\n"
+"<li>Άνοιγμα στο πρόγραμμα περιήγησης: Το πιστοποιητικό ανοίγει σε ένα νέο "
+"παράθυρο του προγράμματος περιήγησης.</li>\n"
+"<li>Επιβολή λήψης: Ανοίγει το παράθυρο λήψης αρχείων του προγράμματος "
+"περιήγησης./li>\n"
+"<li>Αποστολή πιστοποιητικού μέσω ηλεκτρονικού ταχυδρομείου: Γίνεται αποστολή "
+"του πιστοποιητικού στον μαθητή ως συνημμένο ηλεκτρονικού ταχυδρομείου.\n"
+"Αφού ένας χρήστης λάβει το πιστοποιητικό του, αν πατήσει στο σύνδεσμο του "
+"πιστοποιητικού από την αρχική σελίδα του μαθήματος, θα δει την ημερομηνία "
+"που έλαβε το πιστοποιητικό και θα μπορεί να ελέγξει το πιστοποιητικό που "
+"έλαβε.</li>\n"
+"</ul>"
+
+#: $string['designoptions']
+msgid "Design Options"
+msgstr ""
+
+#: $string['download']
+msgid "Force download"
+msgstr ""
+
+#: $string['emailcertificate']
+msgid "Email"
+msgstr ""
+
+#: $string['emailfrom']
+msgid "Email From name"
+msgstr ""
+
+#: $string['emailfrom_help']
+msgid "Alternate email form name"
+msgstr ""
+
+#: $string['emailothers']
+msgid "Email Others"
+msgstr ""
+
+#: $string['emailothers_help']
+msgid ""
+"Enter the email addresses here, separated by a comma, of those who should be "
+"alerted with an email whenever students receive a certificate."
+msgstr ""
+
+#: $string['emailsent']
+msgid "The emails have been sent"
+msgstr ""
+
+#: $string['emailstudentsubject']
+msgid "Your certificate for {$a->course}"
+msgstr ""
+
+#: $string['emailstudenttext']
+msgid ""
+"Hello {$a->username},\n"
+"\n"
+"\t\tAttached is your certificate for {$a->course}.\n"
+"\n"
+"\n"
+"THIS IS AN AUTOMATED MESSAGE - PLEASE DO NOT REPLY"
+msgstr ""
+
+#: $string['emailteachermail']
+msgid ""
+"{$a->student} has received their certificate: '{$a->certificate}'\n"
+"for {$a->course}.\n"
+"\n"
+"You can review it here:\n"
+"\n"
+"    {$a->url}"
+msgstr ""
+
+#: $string['emailteachermailhtml']
+msgid ""
+"{$a->student} has received their certificate: '<i>{$a->certificate}</i>'\n"
+"for {$a->course}.\n"
+"\n"
+"You can review it here:\n"
+"\n"
+"    <a href=\"{$a->url}\">Certificate Report</a>."
+msgstr ""
+
+#: $string['emailteachers']
+msgid "Email Teachers"
+msgstr ""
+
+#: $string['emailteachers_help']
+msgid ""
+"If enabled, then teachers are alerted with an email whenever students "
+"receive a certificate."
+msgstr ""
+
+#: $string['enablesecondpage']
+msgid "Enable Certificate Back page"
+msgstr ""
+
+#: $string['enablesecondpage_help']
+msgid ""
+"Enable Certificate Back page edition, if is disabled, only certificate QR "
+"code will be printed in back page (if the QR code is enabled)"
+msgstr ""
+
+#: $string['eventcertificate_verified']
+msgid "Certificate verified"
+msgstr ""
+
+#: $string['eventcertificate_verified_description']
+msgid ""
+"The user with id {$a->userid} verified the certificate with id "
+"{$a->certificateid}, issued to user with id {$a->certiticate_userid}."
+msgstr ""
+
+#: $string['filenotfound']
+msgid "File not Found"
+msgstr "Αδυναμία εύρεσης αρχείου"
+
+#: $string['getcertificate']
+msgid "Get Certificate"
+msgstr ""
+
+#: $string['grade']
+msgid "Grade"
+msgstr ""
+
+#: $string['gradefmt']
+msgid "Grade Format"
+msgstr ""
+
+#: $string['gradefmt_help']
+msgid ""
+"There are three available formats if you choose to print a grade on the "
+"certificate:\n"
+"<ul>\n"
+"<li>Percentage Grade: Prints the grade as a percentage.</li>\n"
+"<li>Points Grade: Prints the point value of the grade.</li>\n"
+"<li>Letter Grade: Prints the percentage grade as a letter.</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['gradeletter']
+msgid "Letter Grade"
+msgstr ""
+
+#: $string['gradepercent']
+msgid "Percentage Grade"
+msgstr ""
+
+#: $string['gradepoints']
+msgid "Points Grade"
+msgstr ""
+
+#: $string['height']
+msgid "Certificate Height"
+msgstr ""
+
+#: $string['hours']
+msgid "hours"
+msgstr ""
+
+#: $string['intro']
+msgid "Introduction"
+msgstr ""
+
+#: $string['invalidcode']
+msgid "Invalid certificate code"
+msgstr ""
+
+#: $string['issued']
+msgid "Issued"
+msgstr ""
+
+#: $string['issuedcertificatenotfound']
+msgid "Issued certificate not found"
+msgstr ""
+
+#: $string['issueddate']
+msgid "Date Issued"
+msgstr ""
+
+#: $string['issueddownload']
+msgid "Issued certificate [id: {$a}] downloaded"
+msgstr ""
+
+#: $string['issuedview']
+msgid "Issued certificates"
+msgstr ""
+
+#: $string['issueoptions']
+msgid "Issue Options"
+msgstr ""
+
+#: $string['keywords']
+msgid "certificate, course, pdf, moodle"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Simple Certificate"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"The simple certificate activity module enables the teacher to create a "
+"custom certificate that can be issued to participants who have completed the "
+"teacher’s specified requirements."
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Simple Certificates"
+msgstr ""
+
+#: $string['multipdf']
+msgid "Download certificates in a zip file"
+msgstr ""
+
+#: $string['neverdeleteoption']
+msgid "Never delete"
+msgstr ""
+
+#: $string['nocertificatesissued']
+msgid "There are no certificates that have been issued"
+msgstr ""
+
+#: $string['nodelivering']
+msgid "No delivering, user will receive this certificate using others ways"
+msgstr ""
+
+#: $string['notreceived']
+msgid "No issued certificate"
+msgstr ""
+
+#: $string['onepdf']
+msgid "Download certificates in a one pdf file"
+msgstr ""
+
+#: $string['openbrowser']
+msgid "Open in new window"
+msgstr "Άνοιγμα σε νέο παράθυρο"
+
+#: $string['opendownload']
+msgid "Click the button below to save your certificate to your computer."
+msgstr ""
+
+#: $string['openemail']
+msgid ""
+"Click the button below and your certificate will be sent to you as an email "
+"attachment."
+msgstr ""
+"Πατήστε στο παρακάτω κουμπί και το πιστοποιητικό σας θα σας αποσταλεί ως "
+"συνημμένο ηλεκτρονικού ταχυδρομείου."
+
+#: $string['openwindow']
+msgid ""
+"Click the button below to open your certificate in a new browser window."
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Certificate administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Simple Certificate"
+msgstr ""
+
+#: $string['printdate']
+msgid "Print Date"
+msgstr ""
+
+#: $string['printdate_help']
+msgid ""
+"This is the date that will be printed, if a print date is selected. If the "
+"course completion date is selected but the student has not completed the "
+"course, the date received will be printed. You can also choose to print the "
+"date based on when an activity was graded. If a certificate is issued before "
+"that activity is graded, the date received will be printed."
+msgstr ""
+
+#: $string['printgrade']
+msgid "Print Grade"
+msgstr ""
+
+#: $string['printgrade_help']
+msgid ""
+"You can choose any available course grade items from the gradebook to print "
+"the user's grade received for that item on the certificate.  The grade items "
+"are listed in the order in which they appear in the gradebook. Choose the "
+"format of the grade below."
+msgstr ""
+
+#: $string['printoutcome']
+msgid "Print Outcome"
+msgstr ""
+
+#: $string['printoutcome_help']
+msgid ""
+"You can choose any course outcome to print the name of the outcome and the "
+"user's received outcome on the certificate.  An example might be: Assignment "
+"Outcome: Proficient."
+msgstr ""
+
+#: $string['printqrcode']
+msgid "Print Certificate QR Code"
+msgstr ""
+
+#: $string['printqrcode_help']
+msgid "Print (or not) certificate QR Code"
+msgstr ""
+
+#: $string['qrcodefirstpage']
+msgctxt "$string['qrcodefirstpage']"
+msgid "Print QR Code in the first page"
+msgstr ""
+
+#: $string['qrcodefirstpage_help']
+msgctxt "$string['qrcodefirstpage_help']"
+msgid "Print QR Code in the first page"
+msgstr ""
+
+#: $string['qrcodeposition']
+msgid "Certificate QR Code Position"
+msgstr ""
+
+#: $string['qrcodeposition_help']
+msgid ""
+"These are the XY coordinates (in millimeters) of the certificate QR Code"
+msgstr ""
+
+#: $string['receiveddate']
+msgid "Date Received"
+msgstr ""
+
+#: $string['report']
+msgid "Report"
+msgstr ""
+
+#: $string['requiredtimenotmet']
+msgid ""
+"You must have at least {$a->requiredtime} minutes in this course to issue "
+"this certificate"
+msgstr ""
+
+#: $string['secondimage']
+msgid "Certificate Back Image file"
+msgstr ""
+
+#: $string['secondimage_help']
+msgid "This is the picture that will be used in the back of certificate"
+msgstr ""
+
+#: $string['secondpageoptions']
+msgid "Certificate Back page"
+msgstr ""
+
+#: $string['secondpagetext']
+msgid "Certificate Back Text"
+msgstr ""
+
+#: $string['secondpagex']
+msgid "Certificate Back Text Horizontal Position"
+msgstr ""
+
+#: $string['secondpagey']
+msgid "Certificate Back Text Vertical Position"
+msgstr ""
+
+#: $string['secondtextposition']
+msgid "Certificate Back Text Position"
+msgstr ""
+
+#: $string['secondtextposition_help']
+msgid ""
+"These are the XY coordinates (in millimeters) of the certificate back page "
+"text"
+msgstr ""
+
+#: $string['sendtoemail']
+msgid "Send to user's email"
+msgstr ""
+
+#: $string['showusers']
+msgid "Show"
+msgstr ""
+
+#: $string['simplecertificate:addinstance']
+msgid "Add Simple Certificate Activity"
+msgstr ""
+
+#: $string['simplecertificate:manage']
+msgid "Manage Simple Certificate Activity"
+msgstr ""
+
+#: $string['simplecertificate:view']
+msgid "View Simple Certificate Activity"
+msgstr ""
+
+#: $string['size']
+msgid "Certificate Size"
+msgstr ""
+
+#: $string['size_help']
+msgid ""
+"These are the Width and Height size (in millimetres) of the certificate, "
+"Default size is A4 Landscape"
+msgstr ""
+
+#: $string['standardview']
+msgid "Issue a test certificate"
+msgstr ""
+
+#: $string['summaryofattempts']
+msgid "Summary of Previously Received Certificates"
+msgstr ""
+
+#: $string['textposition']
+msgid "Certificate Text Position"
+msgstr ""
+
+#: $string['textposition_help']
+msgid "These are the XY coordinates (in millimetres) of the certificate text"
+msgstr ""
+
+#: $string['timestartdatefmt']
+msgid "Enrollment start date format"
+msgstr ""
+
+#: $string['timestartdatefmt_help']
+msgctxt "$string['timestartdatefmt_help']"
+msgid ""
+"Enter a valid PHP date format pattern (<a "
+"href=\"http://www.php.net/manual/en/function.strftime.php\"> Date "
+"Formats</a>). Or, leave it empty to use the format of the user's chosen "
+"language."
+msgstr ""
+
+#: $string['upgradeerror']
+msgid "Error while upgrading $a"
+msgstr ""
+
+#: $string['usercontextnotfound']
+msgid "User context not found"
+msgstr ""
+
+#: $string['userdateformat']
+msgid "User's Language Date Format"
+msgstr ""
+
+#: $string['usernotfound']
+msgid "User not found"
+msgstr "Αδυναμία εύρεσης χρήστη"
+
+#: $string['variablesoptions']
+msgid "Others Options"
+msgstr ""
+
+#: $string['verifycertificate']
+msgid "Verify Certificate"
+msgstr ""
+
+#: $string['viewcertificateviews']
+msgid "View {$a} issued certificates"
+msgstr ""
+
+#: $string['width']
+msgid "Certificate Width"
+msgstr ""

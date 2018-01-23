@@ -1,0 +1,220 @@
+#. extracted from lang/en/auth_unilogin.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'auth_unilogin', language 'en', branch 'MOODLE_28_STABLE'
+#.  *
+#.  * @package   auth_unilogin
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['application_id']
+msgid "Application ID"
+msgstr ""
+
+#: $string['application_id_description']
+msgid "Each application has a unique ID used to identify to UNI C"
+msgstr ""
+
+#: $string['application_info_description']
+msgid ""
+"Basic information about your application. You get this infromation by "
+"registering with UNI C"
+msgstr ""
+
+#: $string['application_info_header']
+msgid "Application info"
+msgstr ""
+
+#: $string['application_secret']
+msgid "Application secret"
+msgstr ""
+
+#: $string['application_secret_description']
+msgid ""
+"The secret that is used, together with the application ID to identify to UNI "
+"C"
+msgstr ""
+
+#: $string['application_settings_description']
+msgid "Settings for how the user should login"
+msgstr ""
+
+#: $string['application_settings_header']
+msgid "Login settings"
+msgstr ""
+
+#: $string['auth_unilogindescription']
+msgid "A plugin to login users using the Danish UNI Login service."
+msgstr ""
+
+#: $string['fieldlocks']
+msgid "Select what should happen to each user field."
+msgstr ""
+
+#: $string['login_behaviour']
+msgid "Login behaviour"
+msgstr ""
+
+#: $string['login_behaviour_description']
+msgid ""
+"How should the page behave when the user clicks on \"login\"? Link means that "
+"a link with the\n"
+" text \"UNI•Login\" will be inserted into the page before the regular moodle "
+"login form. The link-text can be changed with the\n"
+" setting below. Redirect means that the user will be sent directly to the "
+"UNI•Login page. This also means that regular\n"
+" moodle logins will no longer work, since the user will always be redirected "
+"to UNI•Login. However, for administrative access and the like,\n"
+" the regular moodle login form can still be accessed on: "
+"{$a}/login/index.php?unilogin=false."
+msgstr ""
+
+#: $string['login_behaviour_link']
+msgid "Link"
+msgstr ""
+
+#: $string['login_behaviour_link_selector']
+msgid "Link insertion selector"
+msgstr ""
+
+#: $string['login_behaviour_link_selector_default']
+msgid "#login"
+msgstr ""
+
+#: $string['login_behaviour_link_selector_description']
+msgid ""
+"The selector to insert the login link into. The login link will be placed in "
+"as the last child of the selected element. With the bootstrap theme, this "
+"means that #login will insert it after the \"forgot your password\" link"
+msgstr ""
+
+#: $string['login_behaviour_link_text']
+msgid "Link text"
+msgstr ""
+
+#: $string['login_behaviour_link_text_default']
+msgid "UNI•Login"
+msgstr ""
+
+#: $string['login_behaviour_link_text_description']
+msgid ""
+"The text used to display a link to the UNI•Login page. The string is sent "
+"through\n"
+" [`format_string`](https://docs.moodle.org/dev/Output_functions#format_strin"
+"g.28.29) before being output, so it supports\n"
+" [Multi-language strings](https://docs.moodle.org/28/en/Multi-"
+"language_content_filter)"
+msgstr ""
+
+#: $string['login_behaviour_redirect']
+msgid "Redirect"
+msgstr ""
+
+#: $string['login_type']
+msgid "Login type"
+msgstr ""
+
+#: $string['login_type_description']
+msgid ""
+"How the login procedure should work for users. Single Sign On (SSO) means, "
+"that if the user is\n"
+" already logged in to another service that uses UNI C the user will not be "
+"required to enter their password, while Single Login (SLI)\n"
+" means that users will always be required to enter their password, even "
+"though they are signed into other UNI C services that use SSO."
+msgstr ""
+
+#: $string['login_type_sli']
+msgid "Single Login"
+msgstr ""
+
+#: $string['login_type_sso']
+msgid "Single Sign On"
+msgstr ""
+
+#: $string['pluginname']
+msgid "UNI Login"
+msgstr ""
+
+#: $string['ticketvalidationerror']
+msgid ""
+"The ticket returned by UNI•Login could not be validated. It has either "
+"expired, or already been used."
+msgstr ""
+
+#: $string['validatetime']
+msgid "Validation time limit"
+msgstr ""
+
+#: $string['validatetime_description']
+msgid "The maximum age in seconds for a ticket to be considered valid."
+msgstr ""
+
+#: $string['validation_behaviour']
+msgid "Validation behaviour"
+msgstr ""
+
+#: $string['validation_behaviour_db']
+msgid "Database"
+msgstr ""
+
+#: $string['validation_behaviour_description']
+msgid ""
+"How should tickets returned from UNI C be validated? Database saves tickets "
+"in a table\n"
+" in the DB to ensure that each ticket is only used once, while time ensures "
+"that the ticket has been issued within the last x seconds\n"
+" (see option below)"
+msgstr ""
+
+#: $string['validation_behaviour_time']
+msgid "Time"
+msgstr ""
+
+#: $string['webserviceerror']
+msgid "There was en error contacting the UNI•Login webservice"
+msgstr ""
+
+#: $string['ws_id']
+msgid "Webservice ID"
+msgstr ""
+
+#: $string['ws_id_description']
+msgid "Each application has a unique used to identify to the UNI C webservice"
+msgstr ""
+
+#: $string['ws_secret']
+msgid "Webservice secret"
+msgstr ""
+
+#: $string['ws_secret_description']
+msgid ""
+"The secret that is used, together with the webservice ID to identify to the "
+"UNI C webservice"
+msgstr ""

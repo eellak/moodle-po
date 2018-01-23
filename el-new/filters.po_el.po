@@ -1,0 +1,292 @@
+#. extracted from lang/en/filters.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'filters', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   filters
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['actfilterhdr']
+msgid "Active filters"
+msgstr "Ενεργά φίλτρα"
+
+#: $string['addfilter']
+msgid "Add filter"
+msgstr "Προσθήκη φίλτρου"
+
+#: $string['anycategory']
+msgid "any category"
+msgstr "οποιαδήποτε κατηγορία"
+
+#: $string['anycourse']
+msgid "any course"
+msgstr "οποιοδήποτε μάθημα"
+
+#: $string['anyfield']
+msgid "any field"
+msgstr "οποιοδήποτε πεδίο"
+
+#: $string['anyrole']
+msgid "any role"
+msgstr "οποιοσδήποτε ρόλος"
+
+#: $string['anyvalue']
+msgid "any value"
+msgstr "οποιαδήποτε τιμή"
+
+#: $string['applyto']
+msgid "Apply to"
+msgstr "Εφαρμογή σε"
+
+#: $string['categoryrole']
+msgid "Category role"
+msgstr "Ρόλος κατηγορίας"
+
+#: $string['contains']
+msgid "contains"
+msgstr "περιέχει"
+
+#: $string['content']
+msgid "Content"
+msgstr "Περιεχόμενο"
+
+#: $string['contentandheadings']
+msgid "Content and headings"
+msgstr "Περιεχόμενο και τίτλοι"
+
+#: $string['coursecategory']
+msgid "course category"
+msgstr "κατηγορία μαθήματος"
+
+#: $string['courserole']
+msgid "Course role"
+msgstr "Ρόλος μαθήματος"
+
+#: $string['courserolelabel']
+msgid ""
+"{$a->label} is {$a->rolename} in {$a->coursename} from {$a->categoryname}"
+msgstr ""
+"{$a->label} είναι {$a->rolename} στο {$a->coursename} από {$a->categoryname}"
+
+#: $string['courserolelabelerror']
+msgid "{$a->label} error: course {$a->coursename} does not exist"
+msgstr "Σφάλμα {$a->label}: το μάθημα {$a->coursename} δεν υπάρχει"
+
+#: $string['coursevalue']
+msgid "course value"
+msgstr ""
+
+#: $string['datelabelisafter']
+msgid "{$a->label} is after {$a->after}"
+msgstr "{$a->label} είναι μετά {$a->after}"
+
+#: $string['datelabelisbefore']
+msgid "{$a->label} is before {$a->before}"
+msgstr "{$a->label} είναι πριν {$a->before}"
+
+#: $string['datelabelisbetween']
+msgid "{$a->label} is between {$a->after} and {$a->before}"
+msgstr "{$a->label} είναι μεταξύ {$a->after} και {$a->before}"
+
+#: $string['defaultx']
+msgid "Default ({$a})"
+msgstr "Προεπιλογή ({$a})"
+
+#: $string['disabled']
+msgid "Disabled"
+msgstr "Απενεργοποιημένο"
+
+#: $string['doesnotcontain']
+msgid "doesn't contain"
+msgstr "δεν περιέχει"
+
+#: $string['endswith']
+msgid "ends with"
+msgstr "τελειώνει με"
+
+#: $string['filterallwarning']
+msgid ""
+"Applying filters to headings as well as content can greatly increase the "
+"load on your server. Please use that 'Apply to' settings sparingly. The main "
+"use is with the multilang filter."
+msgstr ""
+"Εφαρμόζοντας φίλτρα σε τίτλους καθώς και σε περιεχόμενο μπορεί να αυξήσεί "
+"σημαντικά τις επιδόσεις στον server σας. Παρακαλώ χρησιμοποιήστε τη ρύθμιση "
+"\"Εφαρμογή σε\" με φειδώ. Η κύρια χρήση είναι με το φίλτρο multilang."
+
+#: $string['filtersettings']
+msgid "Filter settings"
+msgstr "Ρυθμίσεις φίλτρου"
+
+#: $string['filtersettingsforin']
+msgid "Filter settings for {$a->filter} in {$a->context}"
+msgstr ""
+
+#: $string['filtersettings_help']
+msgid ""
+"This page lets you turn filters on or off in a particular part of the site.\n"
+"\n"
+"Some filters may also let you set local settings, in which case there will "
+"be a settings link next to their name."
+msgstr ""
+"Αυτή η σελίδα σας επιτρέπει να μετατρέψετε τα φίλτρα σε ενεργά ή ανενεργά σε "
+"ένα συγκεκριμένο τμήμα του ιστοτόπου. Μερικά φίλτρα μπορούν επίσης να σας "
+"επιτρέπουν να ορίσετε τοπικές ρυθμίσεις. Σε αυτήν περίπτωση αυτή θα υπάρχει "
+"ένας σύνδεσμος ρυθμίσεων δίπλα στο όνομα τους."
+
+#: $string['filtersettingsin']
+msgid "Filter settings in {$a}"
+msgstr "Ρυθμίσεις φίλτρου σε {$a}"
+
+#: $string['firstaccess']
+msgid "First access"
+msgstr "Πρώτη πρόσβαση"
+
+#: $string['globalrolelabel']
+msgid "{$a->label} is {$a->value}"
+msgstr "{$a->label} είναι {$a->value}"
+
+#: $string['isactive']
+msgid "Active?"
+msgstr "Ενεργό;"
+
+#: $string['isafter']
+msgid "is after"
+msgstr "είναι μετά"
+
+#: $string['isanyvalue']
+msgid "is any value"
+msgstr "είναι οποιαδήποτε τιμή"
+
+#: $string['isbefore']
+msgid "is before"
+msgstr "είναι πριν"
+
+#: $string['isdefined']
+msgid "is defined"
+msgstr "είναι ορισμένο"
+
+#: $string['isempty']
+msgid "is empty"
+msgstr "είναι άδειο"
+
+#: $string['isequalto']
+msgid "is equal to"
+msgstr "είναι ίσο με"
+
+#: $string['isnotdefined']
+msgid "isn't defined"
+msgstr "δεν είναι ορισμένο"
+
+#: $string['isnotequalto']
+msgid "isn't equal to"
+msgstr "δεν είναι ίσο με"
+
+#: $string['limiterfor']
+msgid "{$a} field limiter"
+msgstr ""
+
+#: $string['neveraccessed']
+msgid "Never accessed"
+msgstr "Δεν εισήλθε ποτέ"
+
+#: $string['nevermodified']
+msgid "Never modified"
+msgstr "Δεν έγινε ποτέ τροποποίηση"
+
+#: $string['newfilter']
+msgid "New filter"
+msgstr "Νέο φίλτρο"
+
+#: $string['nofiltersenabled']
+msgid "No filter plugins have been enabled on this site."
+msgstr ""
+
+#: $string['off']
+msgid "Off"
+msgstr "Απενεργοποιημένο"
+
+#: $string['offbutavailable']
+msgid "Off, but available"
+msgstr "Απενεργοποιημένο, αλλά διαθέσιμο"
+
+#: $string['on']
+msgid "On"
+msgstr "Ενεργοποιημένο"
+
+#: $string['profilefilterfield']
+msgid "Profile field name"
+msgstr ""
+
+#: $string['profilefilterlimiter']
+msgid "Profile field operator"
+msgstr ""
+
+#: $string['profilelabel']
+msgid "{$a->label}: {$a->profile} {$a->operator} {$a->value}"
+msgstr "{$a->label}: {$a->profile} {$a->operator} {$a->value}"
+
+#: $string['profilelabelnovalue']
+msgid "{$a->label}: {$a->profile} {$a->operator}"
+msgstr "{$a->label}: {$a->profile} {$a->operator}"
+
+#: $string['removeall']
+msgid "Remove all filters"
+msgstr "Αφαίρεση όλων των φίλτρων"
+
+#: $string['removeselected']
+msgid "Remove selected"
+msgstr "Αφαίρεση επιλεγμένων"
+
+#: $string['selectlabel']
+msgctxt "$string['selectlabel']"
+msgid "{$a->label} {$a->operator} {$a->value}"
+msgstr "{$a->label} {$a->operator} {$a->value}"
+
+#: $string['startswith']
+msgid "starts with"
+msgstr "ξεκινάει με"
+
+#: $string['tablenosave']
+msgid "Changes in table above are saved automatically."
+msgstr "Οι αλλαγές στον παραπάνω πίνακα αποθηκεύονται αυτόματα."
+
+#: $string['textlabel']
+msgctxt "$string['textlabel']"
+msgid "{$a->label} {$a->operator} {$a->value}"
+msgstr "{$a->label} {$a->operator} {$a->value}"
+
+#: $string['textlabelnovalue']
+msgid "{$a->label} {$a->operator}"
+msgstr "{$a->label} {$a->operator}"
+
+#: $string['valuefor']
+msgid "{$a} value"
+msgstr ""

@@ -1,0 +1,308 @@
+#. extracted from lang/en/qformat_wordtable.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qformat_wordtable', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   qformat_wordtable
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['cannotopentempfile']
+msgid "Cannot open temporary file <b>{$a}</b>"
+msgstr ""
+
+#: $string['cannotreadzippedfile']
+msgid "Cannot read Zipped file <b>{$a}</b>"
+msgstr ""
+
+#: $string['cannotwritetotempfile']
+msgid "Cannot write to temporary file <b>{$a}</b>"
+msgstr ""
+
+#: $string['cloze_distractor_column_label']
+msgid "Distractors"
+msgstr ""
+
+#: $string['cloze_feedback_column_label']
+msgid "Distractor Feedback"
+msgstr ""
+
+#: $string['cloze_instructions']
+msgid ""
+"Use <strong>bold</strong> for Multichoice, <em>italic</em> for Short Answer, "
+"and <u>Underline</u> for Numerical questions."
+msgstr ""
+
+#: $string['cloze_mcformat_label']
+msgid "Orientation (D = dropdown; V = vertical, H = horizontal radio buttons)"
+msgstr ""
+
+#: $string['description_instructions']
+msgid ""
+"This is not actually a question. Instead it is a way to add some "
+"instructions, rubric or other content to the activity. This is similar to "
+"the way that labels can be used to add content to the course page."
+msgstr ""
+
+#: $string['docnotsupported']
+msgid ""
+"Files in Word 2003 format not supported: <b>{$a}</b>, use Moodle2Word 3.x "
+"instead"
+msgstr ""
+
+#: $string['essay_instructions']
+msgid ""
+"Allows a response of a few sentences or paragraphs. This must then be graded "
+"manually."
+msgstr ""
+
+#: $string['export_type_set']
+msgid "The question export type has been set to"
+msgstr ""
+
+#: $string['htmldocnotsupported']
+msgid ""
+"Incorrect Word format: please use <i>File>Save As...</i> to save <b>{$a}</b> "
+"in native Word 2010 (.docx) format and import again"
+msgstr ""
+
+#: $string['htmlnotsupported']
+msgid "Files in HTML format not supported: <b>{$a}</b>"
+msgstr ""
+
+#: $string['interface_language_mismatch']
+msgid ""
+"No questions imported because the language of the labels in the Word file "
+"does not match your current Moodle interface language."
+msgstr ""
+
+#: $string['multichoice_instructions']
+msgid ""
+"Allows the selection of a single or multiple responses from a pre-defined "
+"list."
+msgstr ""
+
+#: $string['noquestions']
+msgid "No questions to export"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Microsoft Word 2010 table format (wordtable)"
+msgstr ""
+
+#: $string['pluginname_help']
+msgid ""
+"This is a front-end for converting Microsoft Word 2010 files into Moodle "
+"Question XML format for import, and converting Moodle Question XML format "
+"into a format suitable for editing in Microsoft Word."
+msgstr ""
+
+#: $string['pluginname_link']
+msgid "qformat/wordtable"
+msgstr ""
+
+#: $string['preview_question_not_found']
+msgid "Preview question not found, name / course ID: {$a}"
+msgstr ""
+
+#: $string['stylesheetunavailable']
+msgid "XSLT Stylesheet <b>{$a}</b> is not available"
+msgstr ""
+
+#: $string['tempfile']
+msgid "Temporary XML file: <b>{$a}</b>"
+msgstr ""
+
+#: $string['templateunavailable']
+msgid "Word-compatible XHTML template <b>{$a}</b> is not available"
+msgstr ""
+
+#: $string['transformationfailed']
+msgid "XSLT transformation failed (<b>{$a}</b>)"
+msgstr ""
+
+#: $string['truefalse_instructions']
+msgid "Set grade '100' to the correct answer."
+msgstr ""
+
+#: $string['unsupported_instructions']
+msgid "Importing this question type is not supported."
+msgstr ""
+
+#: $string['word_about_moodle2word']
+msgid "About Moodle2Word"
+msgstr ""
+
+#: $string['word_about_moodle2word_screentip']
+msgid "About the Moodle2Word Word templates and Moodle plug-in"
+msgstr ""
+
+#: $string['word_addcategory_supertip']
+msgid "Category names use the Heading 1 style"
+msgstr ""
+
+#: $string['word_conversionfailed']
+msgid "Question import failed"
+msgstr ""
+
+#: $string['word_conversionsucceeded']
+msgid ""
+"Question import <b>succeeded</b>, <br>click the <b>'Close'</b> button to "
+"continue."
+msgstr ""
+
+#: $string['word_conversionsucceeded2']
+msgid ""
+"Question import <b>succeeded</b>, <br>click the 'Continue' button to "
+"continue."
+msgstr ""
+
+#: $string['word_convert_images']
+msgid "Convert Images"
+msgstr ""
+
+#: $string['word_convert_images_screentip']
+msgid "Import image data in exported questions"
+msgstr ""
+
+#: $string['word_convert_images_supertip']
+msgid "Embed images into Word file"
+msgstr ""
+
+#: $string['word_currentquestion']
+msgid "(Current Question)"
+msgstr ""
+
+#: $string['word_import_mathtype']
+msgid "Import MathType Images"
+msgstr ""
+
+#: $string['word_import_mathtype_screentip']
+msgid "Import MathType Equation images"
+msgstr ""
+
+#: $string['word_import_mathtype_supertip']
+msgid "Run afer MathType 'Export Equations' command"
+msgstr ""
+
+#: $string['word_import_screentip']
+msgid "Upload and import all the questions to your Moodle server"
+msgstr ""
+
+#: $string['word_login_supertip']
+msgid "Choose your own Moodle server"
+msgstr ""
+
+#: $string['word_multiple_answer']
+msgid "Multiple answer"
+msgstr ""
+
+#: $string['word_new_question_file']
+msgid "New Question File"
+msgstr ""
+
+#: $string['word_new_question_file_screentip']
+msgid "Questions must be saved in Word 2010 (.docx) format"
+msgstr ""
+
+#: $string['word_new_question_file_supertip']
+msgid "Each Word file may contain multiple categories"
+msgstr ""
+
+#: $string['word_preview']
+msgid "Preview Current Question"
+msgstr ""
+
+#: $string['word_preview_screentip']
+msgid "Upload the current question to Moodle for preview"
+msgstr ""
+
+#: $string['word_preview_supertip']
+msgid "The cursor must be inside a table"
+msgstr ""
+
+#: $string['word_setunset_assessment_screentip']
+msgid "Reformat questions for a printed assessment"
+msgstr ""
+
+#: $string['word_setunset_assessment_supertip']
+msgid ""
+"Set question metadata (name, correct answer indicators, feedback, etc.) to "
+"hidden"
+msgstr ""
+
+#: $string['word_setunset_assessment_view']
+msgid "Set/Unset Assessment View"
+msgstr ""
+
+#: $string['word_showhide_assessment_screentip']
+msgid "Show question metadata to edit, hide to preview printed assessment"
+msgstr ""
+
+#: $string['word_showhide_assessment_supertip']
+msgid "Shows or hides the hidden text"
+msgstr ""
+
+#: $string['word_showhide_assessment_view']
+msgid "Show/Hide Assessment View"
+msgstr ""
+
+#: $string['word_shuffle_screentip']
+msgid "Shuffle the answers to MCQ/TF/MA questions"
+msgstr ""
+
+#: $string['word_shuffle_supertip']
+msgid "A few shuffles is better than 1"
+msgstr ""
+
+#: $string['wordtable']
+msgctxt "$string['wordtable']"
+msgid "Microsoft Word 2010 table format (wordtable)"
+msgstr ""
+
+#: $string['wordtable_help']
+msgid ""
+"This is a front-end for converting Microsoft Word 2010 files into Moodle "
+"Question XML format for import, and converting Moodle Question XML format "
+"into an enhanced XHTML format for exporting into a format suitable for "
+"editing in Microsoft Word."
+msgstr ""
+
+#: $string['word_view']
+msgid "View"
+msgstr ""
+
+#: $string['xmlnotsupported']
+msgid "Files in XML format not supported: <b>{$a}</b>"
+msgstr ""
+
+#: $string['xsltunavailable']
+msgid "You need the XSLT library installed in PHP to save this Word file"
+msgstr ""

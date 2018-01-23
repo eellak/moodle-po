@@ -1,0 +1,562 @@
+#. extracted from lang/en/qtype_correctwriting.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qtype_correctwriting', language 'en', branch 'MOODLE_31_STABLE'
+#.  *
+#.  * @package   qtype_correctwriting
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['absenthintpenaltyfactor']
+msgid "Penalty factor for absent token mistake hints"
+msgstr ""
+
+#: $string['absenthintpenaltyfactor_help']
+msgid ""
+"For hints, revealing a token text, absent token mistake is a special case. "
+"Other mistakes means student at least tried to typed anything close to this "
+"token anywhere in response, but absent token means he does not type it at "
+"all. So for that particular mistake hints will reveal more information. The "
+"factor allows you to increase penalty for such hints. If resulting penalty "
+"will exceed 1, the hint will be disabled."
+msgstr ""
+
+#: $string['absentmistakemessage']
+msgid "{$a} is missing"
+msgstr ""
+
+#: $string['absentmistakeweight']
+msgid "Penalty for missing token"
+msgstr ""
+
+#: $string['absentmistakeweight_help']
+msgid ""
+"Penalty for each missing token in student's response, if the number of "
+"mistakes not exceed maximum mistake percentage."
+msgstr ""
+
+#: $string['addedmistakemessage']
+msgid "there is extra \"{$a}\""
+msgstr ""
+
+#: $string['addedmistakemessage_notexist']
+msgid "{$a} should not be in response"
+msgstr ""
+
+#: $string['addedmistakeweight']
+msgid "Penalty for extra token"
+msgstr ""
+
+#: $string['addedmistakeweight_help']
+msgid ""
+"Penalty for each extra token in student's response, if the number of "
+"mistakes not exceed maximum mistake percentage."
+msgstr ""
+
+#: $string['allowinvalidsyntaxanswers']
+msgid "Whether invalid syntax is allowed in answers"
+msgstr ""
+
+#: $string['allowinvalidsyntaxanswers_help']
+msgid ""
+"Checks and reports if you have invalid syntax in your answers. Applied only "
+"if tree coverage analysis is used."
+msgstr ""
+
+#: $string['analyzersaredisabled']
+msgid "You must enable token sequence analysis or typo analysis, or both"
+msgstr ""
+
+#: $string['analyzersrequirevalidsyntaxtree']
+msgid ""
+"Analysis of enumerations require answer to be syntactically correct. You "
+"have an error in your answer near: <br /> {$a}"
+msgstr ""
+
+#: $string['and']
+msgid "and"
+msgstr ""
+
+#: $string['answersinstruct']
+msgid ""
+"Enter one or more correct answers. When you try to save the questions, "
+"answers will be tokenized using rules of selected language and you will be "
+"given an option to enter descriptions for each token. Token description is "
+"used instead of token text in mistake messages and hints to not disclose to "
+"the student actual value of the token. If you leave description empty, token "
+"value will be used instead. But you must enter correct number of empty "
+"strings as descriptions to be sure you don't just forget to enter "
+"descriptions when adding new answer."
+msgstr ""
+
+#: $string['caseno']
+msgid "No, case is unimportant"
+msgstr ""
+
+#: $string['casesensitive']
+msgid "Case sensitivity"
+msgstr ""
+
+#: $string['caseyes']
+msgid "Yes, case is important"
+msgstr ""
+
+#: $string['clanguagemulticharliteral']
+msgid ""
+"There are several characters in character literal at "
+"{$a->linestart}:{$a->colstart}"
+msgstr ""
+
+#: $string['correctwriting']
+msgctxt "$string['correctwriting']"
+msgid "Correct writing"
+msgstr ""
+
+#: $string['enterlexemedescriptions']
+msgid "Please enter token descriptions"
+msgstr ""
+
+#: $string['enum_analyzer']
+msgid "Analysis of enumerations"
+msgstr ""
+
+#: $string['enum_analyzer_help']
+msgid ""
+"Analysis of enumerations allows some of parts of teacher's answer be moved "
+"in order to make it more flexible, when testing against student orders. The "
+"parts will be moved, only if this allowed. At the moment, moving parts is "
+"supported only for C++ language."
+msgstr ""
+
+#: $string['enumanalyzerisincompatiblewithlang']
+msgid ""
+"Enumeration analysis is incompatible with this language. Please, use C++ "
+"language"
+msgstr ""
+
+#: $string['enumanalyzerrequiresequenceanalyzer']
+msgid "Enumeration analysis requires token sequence analysis to be enabled"
+msgstr ""
+
+#: $string['enumeditoraddenumeration']
+msgid "Add enumeration"
+msgstr ""
+
+#: $string['enumeditoranswer']
+msgid "Answer:"
+msgstr ""
+
+#: $string['enumeditordetermineenumerations']
+msgid "Auto determine enumerations"
+msgstr ""
+
+#: $string['enumeditorelements']
+msgid "Elements:"
+msgstr ""
+
+#: $string['enumeditorenumerations']
+msgid "Enumerations:"
+msgstr ""
+
+#: $string['enumeditorremoveenumeration']
+msgid "Remove enumeration"
+msgstr ""
+
+#: $string['err_expose_validator']
+msgctxt "$string['err_expose_validator']"
+msgid ""
+msgstr ""
+
+#: $string['foundlexicalerrors']
+msgid ""
+"There are lexical errors in your answer. Please consider fixing following "
+"errors:"
+msgstr ""
+
+#: $string['foundmistake']
+msgid "There is mistake in your response:"
+msgstr ""
+
+#: $string['foundmistakes']
+msgid "There are mistakes in your response:"
+msgstr ""
+
+#: $string['foundsyntaxerrors']
+msgid ""
+"There are syntax errors in your answer. Please consider fixing following "
+"errors:"
+msgstr ""
+
+#: $string['hintgradeborder']
+msgid "Minimum grade for answer to display mistakes"
+msgstr ""
+
+#: $string['hintgradeborder_help']
+msgid ""
+"Only answers with grade greater or equal this grade will be considered "
+"correct and display mistakes and hints. An answers with the lower grades "
+"will be used only when exactly matched. You could use an answers with the "
+"lower grade to give a special feedback for some mistakes."
+msgstr ""
+
+#: $string['hinting']
+msgid "Hinting options"
+msgstr ""
+
+#: $string['hinting_help']
+msgid ""
+"Hinting options allows you to set availability and penalties for various "
+"hints. To disable any hint type, just set its penalty above 1."
+msgstr ""
+
+#: $string['howtofixpic']
+msgid "how to fix {$a} (image)"
+msgstr ""
+
+#: $string['howtofixpichintpenalty']
+msgid "Penalty for \"how to fix\" picture hint"
+msgstr ""
+
+#: $string['howtofixpichintpenalty_help']
+msgid ""
+"\"How to fix\" picture hint shows student a picture visualising correcting "
+"typos inside token or missing separator between two tokens. Setting penalty "
+"above 1 will disable the hint."
+msgstr ""
+
+#: $string['imageanswer']
+msgid "Correct answer:"
+msgstr ""
+
+#: $string['imageresponse']
+msgid "Your response:"
+msgstr ""
+
+#: $string['inthiscase']
+msgctxt "$string['inthiscase']"
+msgid ""
+msgstr ""
+
+#: $string['inyouranswer']
+msgctxt "$string['inyouranswer']"
+msgid ""
+msgstr ""
+
+#: $string['langid']
+msgid "Language of the answer"
+msgstr ""
+
+#: $string['langid_help']
+msgid ""
+"This language will be used to tokenize answers and responses to the "
+"question."
+msgstr ""
+
+#: $string['lexemedescriptions']
+msgid "Descriptions for the tokens"
+msgstr ""
+
+#: $string['lexical_analyzer']
+msgid "Typo analysis"
+msgstr ""
+
+#: $string['lexical_analyzer_help']
+msgid ""
+"Typo analysis assumes, that student can have mistakes inside of tokens. Turn "
+"it off if any mistakes inside of lexemes should be treated other lexemes"
+msgstr ""
+
+#: $string['lexicalanalyzerlistsettingdescription']
+msgid ""
+"Some lexemes should be processed by special rules, when performing "
+"correcting lexical mistakes. Set this list, if some tokens require this."
+msgstr ""
+
+#: $string['lexicalanalyzerlistsettingname']
+msgid ""
+"Lists of tokens for determining special mistakes, when correcting lexical "
+"mistakes is performed"
+msgstr ""
+
+#: $string['lexical_analyzer_required_for_howtofixpic']
+msgid "Typo analysis is required for \"how to fix\" picture hint"
+msgstr ""
+
+#: $string['lexicalerrorthreshold']
+msgid "Lexical error threshold"
+msgstr ""
+
+#: $string['lexicalerrorthreshold_help']
+msgid ""
+"A maximum <a href = \"http://en.wikipedia.org/wiki/Damerau%E2%80%"
+"93Levenshtein_distance\">Damerau-Levenshtein distance</a> between correct and "
+"incorrect words for incorrect word to be considered a typo. Enter it as a "
+"fraction of the length of the correct word."
+msgstr ""
+
+#: $string['lexicalerrorweight']
+msgid "Penalty for lexical mistake"
+msgstr ""
+
+#: $string['lexicalerrorweight_help']
+msgid ""
+"Penalty for each lexical mistake in student's response: a typo, an extra or "
+"absent separator etc."
+msgstr ""
+
+#: $string['maxmistakepercentage']
+msgid "Maximum percent of mistakes"
+msgstr ""
+
+#: $string['maxmistakepercentage_help']
+msgid ""
+"Maximum allowed number of mistakes in student's response as a percent of the "
+"number of the tokens in the answer. If the number of mistakes exceed that, "
+"answer will be considered not matched at all."
+msgstr ""
+
+#: $string['maxorderscount']
+msgid "Maximum count of enumerations orders to analyze"
+msgstr ""
+
+#: $string['maxorderscountlabel']
+msgid "Max count of analyze orders"
+msgstr ""
+
+#: $string['maxtemplcssettingdescription']
+msgid ""
+"When searching for mistakes in token order, plugin uses recursive algorithm "
+"to determine all longest common subsequences. This algorithm could generate "
+"a lot of temporary common subsequences, which can consume time and memory. "
+"In such cases, decrease value of this setting. Note, that if value is too "
+"low, odd mistakes could be generated."
+msgstr ""
+
+#: $string['maxtemplcssettingname']
+msgid "Maximum count of temporary common sequences"
+msgstr ""
+
+#: $string['mistakentokens']
+msgid "mistaken tokens"
+msgstr ""
+
+#: $string['movedmistakemessage']
+msgid "{$a} misplaced"
+msgstr ""
+
+#: $string['movedmistakemessagenodescription']
+msgid "the \"{$a->value}\" at {$a->line}:{$a->position} is misplaced"
+msgstr ""
+
+#: $string['movedmistakeweight']
+msgid "Penalty for misplaced token"
+msgstr ""
+
+#: $string['movedmistakeweight_help']
+msgid ""
+"Penalty for each misplaced token in student's response, if the number of "
+"mistakes not exceed maximum mistake percentage."
+msgstr ""
+
+#: $string['objectname']
+msgid "question"
+msgstr ""
+
+#: $string['parseerror']
+msgid ""
+"Ошибка при синтаксическом разборе! Пожалуйста, проверьте свой ответ еще раз "
+"и исправьте её"
+msgstr ""
+
+#: $string['pleaseenterananswer']
+msgid "Please enter an answer."
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Correct writing"
+msgstr ""
+
+#: $string['pluginnameadding']
+msgid "Adding a correct writing question"
+msgstr ""
+
+#: $string['pluginnameediting']
+msgid "Editing a correct writing question"
+msgstr ""
+
+#: $string['pluginname_help']
+msgid ""
+"Enter the question and correct answer(s). When you try to save question, "
+"answer will be breaked down to the smallest meaningful parts of selectet "
+"languges - the <b>tokens</b>. You need to write grammatical role of these "
+"tokens to be shown in the mistake message. If you leave description string "
+"empty, token text will be used in mistake message instead."
+msgstr ""
+
+#: $string['pluginname_link']
+msgid "question/type/correctwriting"
+msgstr ""
+
+#: $string['pluginnamesummary']
+msgid ""
+"Question type that can automatically find mistakes in the string response "
+"and grade it with penalties. It currently supports token sequence errors: "
+"finding misplaced, absent and extra tokens."
+msgstr ""
+
+#: $string['questioneditingheading']
+msgid "Question editing settings"
+msgstr ""
+
+#: $string['sequence_analyzer']
+msgid "Token sequence analysis"
+msgstr ""
+
+#: $string['sequence_analyzer_help']
+msgid ""
+"Token sequence analysis assumes that order of tokens in the answer is "
+"important. It can find and report misplaced tokens to the student. Turn it "
+"off if tokens from the correct answer could be given by student in any "
+"order."
+msgstr ""
+
+#: $string['syntax_analyzer']
+msgid "Tree coverage analysis"
+msgstr ""
+
+#: $string['syntax_analyzer_help']
+msgid ""
+"Tree coverage analysis can be used if language supports parsing for reducing "
+"amount of mistakes, shown to student. Note, that it would not be ran, if "
+"language does not support parsing"
+msgstr ""
+
+#: $string['syntaxanalyzerisdisabled']
+msgid ""
+"Tree coverage analysis is unavailable at the moment. Please set this setting "
+"to be disabled"
+msgstr ""
+
+#: $string['syntaxanalyzerisincompatiblewithlang']
+msgid ""
+"Tree coverage analysis requires language, that can be parsed. Please, try "
+"another language"
+msgstr ""
+
+#: $string['syntaxanalyzerrequiresequenceanalyzer']
+msgid "Tree coverage analysis requires token sequence analysis to be enabled"
+msgstr ""
+
+#: $string['tokens']
+msgid "Tokens"
+msgstr ""
+
+#: $string['toobigfloatvalue']
+msgid "This value should be no more than {$a}"
+msgstr ""
+
+#: $string['toosmallfloatvalue']
+msgid "This value should be not less than {$a}"
+msgstr ""
+
+#: $string['usesomething']
+msgid "Use {$a}"
+msgstr ""
+
+#: $string['whatis']
+msgid "what is {$a}"
+msgstr ""
+
+#: $string['whatishint']
+msgid "the {$a->tokendescr} is \"{$a->tokenvalue}\""
+msgstr ""
+
+#: $string['whatishintpenalty']
+msgid "Penalty for \"what is\" hint"
+msgstr ""
+
+#: $string['whatishintpenalty_help']
+msgid ""
+"\"What is\" hint allows student to see token value instead of description in "
+"mistake message in adaptive behaviour. Setting penalty above 1 will disable "
+"the hint."
+msgstr ""
+
+#: $string['wherepichint']
+msgid "where {$a} should be (picture)"
+msgstr ""
+
+#: $string['wherepichintpenalty']
+msgid "Penalty for \"where\" picture hint"
+msgstr ""
+
+#: $string['wherepichintpenalty_help']
+msgid ""
+"\"Where\" picture hint shows student a picture about a place (between what "
+"tokens?) should be placed a missing or misplaced token. Token descriptions "
+"are used when possible, token value otherwise. Setting penalty above 1 will "
+"disable the hint."
+msgstr ""
+
+#: $string['wheretxtafter']
+msgid "the {$a->token} could be placed after {$a->after}"
+msgstr ""
+
+#: $string['wheretxtbefore']
+msgid "the {$a->token} could be placed before {$a->before}"
+msgstr ""
+
+#: $string['wheretxtbetween']
+msgid "the {$a->token} could be placed between {$a->after} and {$a->before}"
+msgstr ""
+
+#: $string['wheretxthint']
+msgid "where {$a} should be"
+msgstr ""
+
+#: $string['wheretxthintpenalty']
+msgid "Penalty for \"where\" text hint"
+msgstr ""
+
+#: $string['wheretxthintpenalty_help']
+msgid ""
+"\"Where\" text hint shows student a text message about a place (between what "
+"tokens?) should be placed a missing or misplaced token. Token descriptions "
+"are used when possible, token value otherwise. Setting penalty above 1 will "
+"disable the hint."
+msgstr ""
+
+#: $string['writelessdescriptions']
+msgid "Supplied amount of descriptions are more than amount of tokens"
+msgstr ""
+
+#: $string['writemoredescriptions']
+msgid "Supplied amount of descriptions are less than amount of tokens"
+msgstr ""

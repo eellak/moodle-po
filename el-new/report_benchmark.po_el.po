@@ -1,0 +1,265 @@
+#. extracted from lang/en/report_benchmark.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'report_benchmark', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   report_benchmark
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['adminreport']
+msgid "System Benchmark"
+msgstr ""
+
+#: $string['benchfail']
+msgid "<b>Watch out!</b><br />Your Moodle seems to have some difficulties."
+msgstr ""
+
+#: $string['benchmark']
+msgid "Benchmark"
+msgstr ""
+
+#: $string['benchmark:view']
+msgid "View the report Benchmark"
+msgstr ""
+
+#: $string['benchshare']
+msgid "Share my score on the forum"
+msgstr ""
+
+#: $string['benchsuccess']
+msgid "<b>Congratulations!</b><br />Your Moodle seems to work perfectly."
+msgstr ""
+
+#: $string['cloadmoreinfo']
+msgid "Run the configuration file &laquo;config.php&raquo;"
+msgstr ""
+
+#: $string['cloadname']
+msgid "Moodle loading time"
+msgstr ""
+
+#: $string['coursereadmoreinfo']
+msgid "Test the read speed to read a course"
+msgstr ""
+
+#: $string['coursereadname']
+msgid "Reading course"
+msgstr ""
+
+#: $string['coursewritemoreinfo']
+msgid "Test the database speed to write a course"
+msgstr ""
+
+#: $string['coursewritename']
+msgid "Writing course"
+msgstr ""
+
+#: $string['description']
+msgid "Description"
+msgstr ""
+
+#: $string['during']
+msgid "Time in seconds"
+msgstr ""
+
+#: $string['filereadmoreinfo']
+msgid "Test the read speed in Moodle's temporary folder"
+msgstr ""
+
+#: $string['filereadname']
+msgid "Reading files"
+msgstr ""
+
+#: $string['filewritemoreinfo']
+msgid "Test the write speed in Moodle's temporary folder"
+msgstr ""
+
+#: $string['filewritename']
+msgid "Creating files"
+msgstr ""
+
+#: $string['info']
+msgid ""
+"This benchmark has to last no more than 1 minute; it stops at 2 minutes. "
+"Please wait until results show up."
+msgstr ""
+
+#: $string['infoaverage']
+msgid "We invite you to take this test several times to have the average."
+msgstr ""
+
+#: $string['infodisclamer']
+msgid "It isn't advisable to run this benchmark on a platform in production."
+msgstr ""
+
+#: $string['limit']
+msgid "Acceptable limit"
+msgstr ""
+
+#: $string['loginguestmoreinfo']
+msgid "Measuring the time to load the login page with the guest account"
+msgstr ""
+
+#: $string['loginguestname']
+msgid "Time to connect with the guest account"
+msgstr ""
+
+#: $string['loginusermoreinfo']
+msgid "Measuring the time to load the login page with a fake user account"
+msgstr ""
+
+#: $string['loginusername']
+msgid "Time to connect with a fake user account"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Moodle Benchmark"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Moodle Benchmarks"
+msgstr ""
+
+#: $string['over']
+msgid "Critical limit"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Moodle Benchmark"
+msgstr ""
+
+#: $string['points']
+msgid "{$a} points"
+msgstr ""
+
+#: $string['processormoreinfo']
+msgid "A function is called in a loop to test processor speed"
+msgstr ""
+
+#: $string['processorname']
+msgid "Function called many times"
+msgstr ""
+
+#: $string['querytype1moreinfo']
+msgctxt "$string['querytype1moreinfo']"
+msgid "Test the database speed to execute a complex request"
+msgstr ""
+
+#: $string['querytype1name']
+msgid "Complex request (n°1)"
+msgstr ""
+
+#: $string['querytype2moreinfo']
+msgctxt "$string['querytype2moreinfo']"
+msgid "Test the database speed to execute a complex request"
+msgstr ""
+
+#: $string['querytype2name']
+msgid "Complex request (n°2)"
+msgstr ""
+
+#: $string['redo']
+msgid "Start the test again"
+msgstr ""
+
+#: $string['score']
+msgid "Score"
+msgstr ""
+
+#: $string['scoremsg']
+msgid "Benchmark Score :"
+msgstr ""
+
+#: $string['seconde']
+msgid "{$a} sec."
+msgstr ""
+
+#: $string['slowdatabaselabel']
+msgid "The database is too slow."
+msgstr ""
+
+#: $string['slowdatabasesolution']
+msgid ""
+"<ul><li>Check <a "
+"href=\"http://dev.mysql.com/doc/refman/5.7/en/mysqlcheck.html\" "
+"target=\"_blank\">the database integrity</a></li><li>Optimze <a "
+"href=\"http://dev.mysql.com/doc/refman/5.7/en/server-parameters.html\" "
+"target=\"_blank\">the database</a></li></ul>"
+msgstr ""
+
+#: $string['slowharddrivelabel']
+msgid "The harddrive is too slow."
+msgstr ""
+
+#: $string['slowharddrivesolution']
+msgid ""
+"<ul><li>Check the harddrive state / temp folder</li><li>Change your "
+"harddrive or the temporary folder</li></ul>"
+msgstr ""
+
+#: $string['slowprocessorlabel']
+msgid "Your processor is too slow."
+msgstr ""
+
+#: $string['slowprocessorsolution']
+msgid "<ul><li>Check that the equipment is enough to run Moodle.</li></ul>"
+msgstr ""
+
+#: $string['slowserverlabel']
+msgid "Your web server is too slow."
+msgstr ""
+
+#: $string['slowserversolution']
+msgid ""
+"<ul><li>Set your Apache in <a "
+"href=\"https://httpd.apache.org/docs/2.4/en/mpm.html\" target=\"_blank\">multi-"
+"processing</a> mode or switch on <a href=\"https://nginx.org/\" "
+"target=\"_blank\">NGinx</a>.</li><li>If your Moodle is installed on your "
+"computer, you can try to deactivate your antivirus where Moodle is located. "
+"Do it with precaution.</li></ul>"
+msgstr ""
+
+#: $string['slowweblabel']
+msgid "The page is too slow to upload."
+msgstr ""
+
+#: $string['slowwebsolution']
+msgid "<ul><li>Clear the Moodle cache</a></li></ul>"
+msgstr ""
+
+#: $string['start']
+msgid "Start the test"
+msgstr ""
+
+#: $string['total']
+msgid "Total time"
+msgstr ""

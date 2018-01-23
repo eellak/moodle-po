@@ -1,0 +1,210 @@
+#. extracted from lang/en/myeducationpath.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'myeducationpath', language 'en', branch 'MOODLE_24_STABLE'
+#.  *
+#.  * @package   myeducationpath
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addlinklabel']
+msgid "Add another linked activity option"
+msgstr ""
+
+#: $string['addlinktitle']
+msgid "Click to add another linked activity option"
+msgstr ""
+
+#: $string['apikey']
+msgid "MyEducationPath.com API key"
+msgstr ""
+
+#: $string['areaintro']
+msgid "MyEducationPath.com introduction"
+msgstr ""
+
+#: $string['category']
+msgid "Category"
+msgstr ""
+
+#: $string['category_help']
+msgid "Category where the course will be added on MyEducationPath.com"
+msgstr ""
+
+#: $string['choosecategory']
+msgid "-- choose category --"
+msgstr ""
+
+#: $string['configapikey']
+msgid ""
+"Set there your API key from your MyEducationPath.com profile. Without this "
+"key the plugin will not work."
+msgstr ""
+
+#: $string['configenableintegration']
+msgid ""
+"If this is No then any interaction with MyEducationPath.com will be "
+"disabled. Any data from this Moodle site will not be transfered to the "
+"directory."
+msgstr ""
+
+#: $string['enableintegration']
+msgid ""
+"Enable integration with <a href=\"http://MyEducationPath.com/\" "
+"target=\"_blank\">http://MyEducationPath.com</a>"
+msgstr ""
+
+#: $string['imageurl']
+msgid "Image URI"
+msgstr ""
+
+#: $string['imageurl_help']
+msgid ""
+"This is the link to course image. THis is optional. You can provider the "
+"link to an image associated with the course. This image will be displayed in "
+"course description on the MyEducationPath.com directory."
+msgstr ""
+
+#: $string['intro']
+msgid "Introduction"
+msgstr ""
+
+#: $string['intro_help']
+msgid ""
+"Add some text to ask your students to leave feedback about the course. This "
+"is optional."
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "My Education Path"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"The MyEducationPath activity module enables integration with <a "
+"href=\"http://myeducationpath.com/courses\" "
+"target=\"_blank\">http://MyEducationPath.com/courses</a> directory."
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "myeducationpath"
+msgstr ""
+
+#: $string['myeducationpath:manage']
+msgctxt "$string['myeducationpath:manage']"
+msgid "MyEducationPath.com"
+msgstr ""
+
+#: $string['myeducationpath:printteacher']
+msgctxt "$string['myeducationpath:printteacher']"
+msgid "MyEducationPath.com"
+msgstr ""
+
+#: $string['myeducationpath:student']
+msgctxt "$string['myeducationpath:student']"
+msgid "MyEducationPath.com"
+msgstr ""
+
+#: $string['myeducationpath:view']
+msgctxt "$string['myeducationpath:view']"
+msgid "MyEducationPath.com"
+msgstr ""
+
+#: $string['name']
+msgid "My Education Path publish and feedback"
+msgstr ""
+
+#: $string['name_help']
+msgid ""
+"This is the name of activity in the course. If you plan to make this visible "
+"to students then give a name like \"COurse feedback\" or \"Give your comments\""
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "My Education Path administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "My Education Path"
+msgstr ""
+
+#: $string['settingsdescription']
+msgid ""
+"Configure MyEducationPath.com integration. <br>This plugin is used to add "
+"your courses to online courses directory <a "
+"href=\"http://MyEducationPath.com/courses\" "
+"target=\"_blank\">http://MyEducationPath.com/courses</a> and getting feedback "
+"from your students (in form of comments for your course in the "
+"directory).<br>If you decide to add a course to the directory then go to "
+"course and add new activity \"MyEducationPath\" to any section (recomended to "
+"last section).Once an activity as added you need to decide if you want your "
+"students leave comments about a course. If <b>Yes</b> then make the activity "
+"visible for students. If <b>No</b> then hide the activity and students will "
+"not see it (but the course still can be added to "
+"MyEducationPath.com)<br><br>The integration can work in two modes - "
+"<b>Active</b> and <b>Passive</b>.<br><b>Active</b> mode means for every "
+"course you need to open the activity as admin/teacher and confirm \"Add the "
+"course to the directory\". Only after this the course will be added.<br>In "
+"<b>Passive</b> mode you need to get import URI, go to your "
+"MyEducationPath.com profile settings and save the URI.  After this "
+"MyEducationPath.com will check your Moodle courses regularry and import all "
+"new/updated courses (only courses where this module is added as activity). "
+"Your import URI is <b>http://youmoodlesite.com/pathtomoodle/mod/myeducationp"
+"ath/import.php</b><br>\"Active\" mode is always enabled. \"Passive\" will work "
+"only if you save import URI in your MyEducationPath.com profile settings "
+"page.<br>To start using your integration you need to <a "
+"href=\"http://myeducationpath.com/page/register.htm?acctype=v\" "
+"target=\"_blank\">register</a> on MyEducationPath.com as Online Courses Vendor "
+"and get API key (on profile page).<br><br>\tNOTE. Only couses where this "
+"activity is added will be added to MyEducationPath.com directory. For every "
+"course folowing data is posted to the directory: course name, description, "
+"instructors names (teachers), price, start date (if is set). No any "
+"sensitive information is posted."
+msgstr ""
+
+#: $string['tags']
+msgid "Tags"
+msgstr ""
+
+#: $string['tags_help']
+msgid "Comma separated list of tags"
+msgstr ""
+
+#: $string['visible']
+msgid "Visibility"
+msgstr ""
+
+#: $string['visible_help']
+msgid ""
+"If the activity is not visible then the course still can be added to "
+"MyEducationPath.com directory but students will not see the activity and "
+"will not leave the feedback"
+msgstr ""

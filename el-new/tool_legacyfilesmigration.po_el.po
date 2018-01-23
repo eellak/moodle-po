@@ -1,0 +1,185 @@
+#. extracted from lang/en/tool_legacyfilesmigration.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'tool_legacyfilesmigration', language 'en', branch 'MOODLE_30_STABLE'
+#.  *
+#.  * @package   tool_legacyfilesmigration
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['backtoindex']
+msgid "Back to index"
+msgstr ""
+
+#: $string['batchmigrate']
+msgid "Migrate legacy files for multiple courses"
+msgstr ""
+
+#: $string['batchoperations']
+msgid "Batch operations"
+msgstr ""
+
+#: $string['confirmbatchmigrate']
+msgid "Confirm batch migrate courses"
+msgstr ""
+
+#: $string['courseid']
+msgid "Course id"
+msgstr ""
+
+#: $string['coursenotfound']
+msgid "course {$a} not found"
+msgstr ""
+
+#: $string['coursidnotcollapse']
+msgid "courseid column must be uncollapsed!"
+msgstr ""
+
+#: $string['empty_owner']
+msgid "Default owner username to replace empty owner"
+msgstr ""
+
+#: $string['foldername']
+msgid "folder name generated in private user repository"
+msgstr ""
+
+#: $string['foldername_desc']
+msgid ""
+"folder name generated in private user repository that will be evaluated with "
+"php eval using $course and $usercontext objects"
+msgstr ""
+
+#: $string['listnotmigrated']
+msgid "List courses that contains legacy files to be migrated"
+msgstr ""
+
+#: $string['listnotmigrated_desc']
+msgid "You can migrate legacy files for individual courses from here"
+msgstr ""
+
+#: $string['migrateall']
+msgid "Migrate legacy files for all courses"
+msgstr ""
+
+#: $string['migrateallconfirm']
+msgid "Migrate legacy files for all courses?"
+msgstr ""
+
+#: $string['migratecoursesuccess']
+msgid "Result: Migrate legacy files successful"
+msgstr ""
+
+#: $string['migratecoursesummary']
+msgid ""
+"Migrate legacy files for course with id id {$a->id} and name "
+"\"{$a->fullname}\" :"
+msgstr ""
+
+#: $string['migrateprogress']
+msgid "Migrate legacy files for courses n° {$a->current} of {$a->total}"
+msgstr ""
+
+#: $string['migrateselected']
+msgid "Migrate legacy files for selected courses"
+msgstr ""
+
+#: $string['migrateselectedcount']
+msgid "Migrate legacy files for the {$a} selected courses?"
+msgstr ""
+
+#: $string['migratetable']
+msgid "Migrate table"
+msgstr ""
+
+#: $string['migrationfailed']
+msgid ""
+"The legacy files migration was not successful.<br/>The log from the upgrade "
+"was: <br />{$a}"
+msgstr ""
+
+#: $string['nocoursesselected']
+msgid "No courses selected"
+msgstr ""
+
+#: $string['nocoursestoupgrade']
+msgid "There are no courses that require legacy files migration"
+msgstr ""
+
+#: $string['notmigratedintro']
+msgid ""
+"List of courses that contains legacy files to migrate to private user files"
+msgstr ""
+
+#: $string['notmigratedtitle']
+msgid "Courses that contains legacy files to migrate"
+msgstr ""
+
+#: $string['notsupported']
+msgid "not supported"
+msgstr ""
+
+#: $string['owner']
+msgid "Owner"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Legacy files migration"
+msgstr ""
+
+#: $string['preselect_owner']
+msgid "Preselect and fill owner"
+msgstr ""
+
+#: $string['select']
+msgid "Select"
+msgstr ""
+
+#: $string['supported']
+msgid "Migrate"
+msgstr ""
+
+#: $string['toollegacyfilesmigrationsettings']
+msgid "Legacy files migration settings"
+msgstr ""
+
+#: $string['unchoosenowner']
+msgid "Please choose a user for course with id {$a}"
+msgstr ""
+
+#: $string['unknown']
+msgid "unknown"
+msgstr ""
+
+#: $string['usernotfound']
+msgid "user {$a} not found"
+msgstr ""
+
+#: $string['viewcourse']
+msgid "View the course with the migrated legacy files"
+msgstr ""

@@ -1,0 +1,502 @@
+#. extracted from lang/en/lightboxgallery.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'lightboxgallery', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   lightboxgallery
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['acceptablefiletypebriefing']
+msgid ""
+"If you wish to upload multiple files at a time, you can submit a zip file "
+"with images inside it and all valid images inside the zip archive will be "
+"added to the gallery."
+msgstr ""
+
+#: $string['addcomment']
+msgid "Add comment"
+msgstr "Προσθήκη σχολίου"
+
+#: $string['addimage']
+msgctxt "$string['addimage']"
+msgid "Add images"
+msgstr ""
+
+#: $string['addimage_help']
+msgid ""
+"Browse for an image on your local machine to add to the current gallery.\n"
+"\n"
+"You can also select a zip archive containing multiple images, which will be "
+"extracted into the image directory after being uploaded."
+msgstr ""
+
+#: $string['allowcomments']
+msgid "Allow comments"
+msgstr "Να επιτρέπονται σχόλια"
+
+#: $string['allowrss']
+msgid "Allow RSS feeds"
+msgstr ""
+
+#: $string['allpluginsdisabled']
+msgid "Sorry, all the editing plugins are currently disabled."
+msgstr ""
+
+#: $string['autoresize']
+msgid "Automatically resize"
+msgstr ""
+
+#: $string['autoresize_help']
+msgid ""
+"You can control if and how gallery images are resized. The following methods "
+"are available when configuring a gallery:\n"
+"\n"
+"* Screen: images that are bigger than the users screen will be scaled down "
+"to fit inside the screen.\n"
+"* Upload: images will be resized to specified dimensions when they are "
+"uploaded through the 'Add image' option.\n"
+"\n"
+"There is also an image resizing plugin included in the image editor, where "
+"you can manually resize images."
+msgstr ""
+
+#: $string['backtogallery']
+msgid "Back to Gallery"
+msgstr "Επιστροφή στην Γκάλερι"
+
+#: $string['captionfull']
+msgid "Display full caption text?"
+msgstr ""
+
+#: $string['captionpos']
+msgid "Caption Position"
+msgstr ""
+
+#: $string['commentadded']
+msgid "Your comment has been posted to the gallery"
+msgstr ""
+
+#: $string['commentcount']
+msgid "{$a} comments"
+msgstr "{$a} σχόλια"
+
+#: $string['commentdelete']
+msgid "Confirm comment deletion?"
+msgstr "Επιβεβαίωση διαγραφής σχολίου;"
+
+#: $string['configdisabledplugins']
+msgid "Disabled plugins"
+msgstr ""
+
+#: $string['configdisabledpluginsdesc']
+msgid "Select the image editing plugins you want to disable."
+msgstr ""
+
+#: $string['configenablerssfeeds']
+msgid "Enable RSS feeds"
+msgstr ""
+
+#: $string['configenablerssfeedsdesc']
+msgid "Allow RSS feeds to be generated from galleries."
+msgstr ""
+
+#: $string['configimagelifetime']
+msgid "Image lifetime"
+msgstr ""
+
+#: $string['configimagelifetimedesc']
+msgid "Length of time (in seconds) for images to remain in the browser cache."
+msgstr ""
+
+#: $string['configoverwritefiles']
+msgid "Overwrite files"
+msgstr "Αντικατάσταση αρχείων"
+
+#: $string['configoverwritefilesdesc']
+msgid "Overwrite images when new images are uploaded with the same filename."
+msgstr ""
+"Αντικατάσταση εικόνων όταν ανεβαίνουν νέες εικόνες με το ίδιο όνομα αρχείου."
+
+#: $string['configstrictfilenames']
+msgid "Use strict filenames"
+msgstr ""
+
+#: $string['configstrictfilenamesdesc']
+msgid ""
+"Force image editor to clean file names according to Moodle naming rules."
+msgstr ""
+
+#: $string['currentsize']
+msgid "Current size"
+msgstr ""
+
+#: $string['dimensions']
+msgid "Dimensions"
+msgstr ""
+
+#: $string['dirdown']
+msgid "Down"
+msgstr ""
+
+#: $string['dirleft']
+msgid "Left"
+msgstr ""
+
+#: $string['dirright']
+msgid "Right"
+msgstr ""
+
+#: $string['dirup']
+msgid "Up"
+msgstr ""
+
+#: $string['displayinggallery']
+msgid "Showing gallery: {$a}"
+msgstr ""
+
+#: $string['edit_caption']
+msgid "Caption"
+msgstr ""
+
+#: $string['edit_choose']
+msgid "Choose..."
+msgstr ""
+
+#: $string['edit_crop']
+msgid "Crop"
+msgstr ""
+
+#: $string['edit_delete']
+msgid "Delete"
+msgstr ""
+
+#: $string['edit_flip']
+msgid "Flip"
+msgstr ""
+
+#: $string['editimage']
+msgid "Edit image"
+msgstr ""
+
+#: $string['edit_resize']
+msgid "Resize"
+msgstr ""
+
+#: $string['edit_resizescale']
+msgid "Scale"
+msgstr ""
+
+#: $string['edit_rotate']
+msgid "Rotate"
+msgstr ""
+
+#: $string['edit_tag']
+msgid "Tag"
+msgstr ""
+
+#: $string['edit_thumbnail']
+msgid "Thumbnail"
+msgstr ""
+
+#: $string['errornofile']
+msgid "The requested file was not found: {$a}"
+msgstr "Αδυναμία εύρεσης αρχείου: {$a}"
+
+#: $string['errornoimages']
+msgid "No images were found in this gallery"
+msgstr ""
+
+#: $string['errornosearchresults']
+msgid "Your search query returned no images"
+msgstr ""
+
+#: $string['erroruploadimage']
+msgid "The file you upload must be an image file"
+msgstr ""
+
+#: $string['eventgallerycommentcreated']
+msgid "Comment created"
+msgstr ""
+
+#: $string['eventgallerysearched']
+msgid "Gallery searched"
+msgstr ""
+
+#: $string['eventimageupdated']
+msgid "Image updated"
+msgstr ""
+
+#: $string['eventviewed']
+msgid "Lightbox gallery viewed"
+msgstr ""
+
+#: $string['extendedinfo']
+msgid "Show extended image info"
+msgstr ""
+
+#: $string['imageadd']
+msgctxt "$string['imageadd']"
+msgid "Add images"
+msgstr ""
+
+#: $string['imagecount']
+msgid "Image count"
+msgstr ""
+
+#: $string['imagecounta']
+msgid "{$a} images"
+msgstr ""
+
+#: $string['imagedirectory']
+msgid "Image directory"
+msgstr ""
+
+#: $string['imagedirectory_help']
+msgid ""
+"Select the directory that contains the images you want to display in the "
+"gallery. When using the 'Add image' gallery option, uploaded images will be "
+"places in this directory."
+msgstr ""
+
+#: $string['imagedownload']
+msgid "Download image"
+msgstr "Λήψη εικόνας"
+
+#: $string['imageresized']
+msgid "Image resized: {$a}"
+msgstr ""
+
+#: $string['images']
+msgid "Images"
+msgstr ""
+
+#: $string['imagesperpage']
+msgid "Images per page"
+msgstr ""
+
+#: $string['imagesperrow']
+msgid "Images per row"
+msgstr ""
+
+#: $string['imageuploaded']
+msgid "Uploaded image: {$a}"
+msgstr ""
+
+#: $string['invalidlightboxgalleryid']
+msgid "Invalid lightboxgallery ID"
+msgstr ""
+
+#: $string['lightboxgallery']
+msgctxt "$string['lightboxgallery']"
+msgid "Lightbox Gallery"
+msgstr ""
+
+#: $string['lightboxgallery:addcomment']
+msgid "Add comment to lightbox gallery"
+msgstr ""
+
+#: $string['lightboxgallery:addimage']
+msgid "Add image to lightbox gallery"
+msgstr ""
+
+#: $string['lightboxgallery:addinstance']
+msgid "Add a new lightbox gallery"
+msgstr ""
+
+#: $string['lightboxgallery:edit']
+msgid "Edit a lightbox gallery"
+msgstr ""
+
+#: $string['lightboxgallery:submit']
+msgid "Submit a lightbox gallery"
+msgstr ""
+
+#: $string['lightboxgallery:viewcomments']
+msgid "View lightbox gallery comments"
+msgstr ""
+
+#: $string['makepublic']
+msgid "Make public"
+msgstr ""
+
+#: $string['metadata']
+msgid "Meta data"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Lightbox Gallery"
+msgstr ""
+
+#: $string['modulenameadd']
+msgid "Lightbox gallery"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"The Lightbox Gallery resource module enables participants to view a gallery "
+"of images.\n"
+"\n"
+"This resource allows you to create 'Lightbox' enabled image galleries within "
+"your Moodle course.\n"
+"\n"
+"As a course teacher, you are able to create, edit and delete galleries. "
+"Small thumbnails will then be generated, which are used for the thumbnail "
+"view of the gallery.\n"
+"Clicking on any of the thumbnails brings that image into focus, and allows "
+"you to scroll through the gallery at your leisure. Using the Lightbox "
+"scripts creates nice transition effects when loading and scrolling through "
+"the images.\n"
+"\n"
+"If enabled, users are able to leave comments on your gallery."
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Lightbox Galleries"
+msgstr ""
+
+#: $string['modulenameshort']
+msgid "Gallery"
+msgstr ""
+
+#: $string['newgallerycomments']
+msgid "New gallery comments"
+msgstr ""
+
+#: $string['nocomments']
+msgid "No comments"
+msgstr "Χωρίς σχόλια"
+
+#: $string['norssfeedavailable']
+msgid "Feed not available"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Lightbox Gallery administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Lightbox Gallery"
+msgstr ""
+
+#: $string['position_bottom']
+msgid "Bottom"
+msgstr ""
+
+#: $string['position_top']
+msgid "Top"
+msgstr ""
+
+#: $string['resizeto']
+msgid "Resize to"
+msgstr ""
+
+#: $string['rsssubscribe']
+msgid "Gallery RSS feed"
+msgstr ""
+
+#: $string['saveimage']
+msgid "Save {$a}"
+msgstr ""
+
+#: $string['screen']
+msgid "Screen"
+msgstr ""
+
+#: $string['search:activity']
+msgid "Lightboxgallery - activity information"
+msgstr ""
+
+#: $string['selectflipmode']
+msgid "Select flip mode"
+msgstr ""
+
+#: $string['selectrotation']
+msgid "Select rotation angle"
+msgstr ""
+
+#: $string['selectthumbpos']
+msgid "Thumbnail offset (from centre)"
+msgstr ""
+
+#: $string['setasindex']
+msgid "Set as index image"
+msgstr ""
+
+#: $string['showall']
+msgid "Show all"
+msgstr ""
+
+#: $string['tagscurrent']
+msgid "Current tags"
+msgstr ""
+
+#: $string['tagsdisabled']
+msgid "Tagging editor is disabled"
+msgstr ""
+
+#: $string['tagsimport']
+msgid "Import tags"
+msgstr ""
+
+#: $string['tagsimportconfirm']
+msgid "Are you sure you want to import tags from every image in this gallery?"
+msgstr ""
+
+#: $string['tagsimportfinish']
+msgid "Finished importing {$a->tags} tags from {$a->images} images"
+msgstr ""
+
+#: $string['tagsiptc']
+msgid "IPTC tags"
+msgstr ""
+
+#: $string['tagspopular']
+msgid "Popular tags"
+msgstr ""
+
+#: $string['tagsrelated']
+msgid "Related tags"
+msgstr ""
+
+#: $string['thumbnailoffset']
+msgid "Offset"
+msgstr ""
+
+#: $string['zipextracted']
+msgid "Zip file extracted: {$a}"
+msgstr ""
+
+#: $string['zipnonewfiles']
+msgid ""
+"No new images were found - make sure images are in the root directory of the "
+"archive"
+msgstr ""

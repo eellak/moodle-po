@@ -1,0 +1,152 @@
+#. extracted from lang/en/assignfeedback_offline.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:07+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'assignfeedback_offline', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   assignfeedback_offline
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['confirmimport']
+msgid "Confirm grades import"
+msgstr ""
+
+#: $string['default']
+msgid "Enabled by default"
+msgstr "Ενεργοποιημένο από προεπιλογή"
+
+#: $string['default_help']
+msgid ""
+"If set, offline grading with worksheets will be enabled by default for all "
+"new assignments."
+msgstr ""
+
+#: $string['downloadgrades']
+msgid "Download grading worksheet"
+msgstr ""
+
+#: $string['enabled']
+msgctxt "$string['enabled']"
+msgid "Offline grading worksheet"
+msgstr ""
+
+#: $string['enabled_help']
+msgid ""
+"If enabled, the teacher will be able to download and upload a worksheet with "
+"student grades when marking the assignments."
+msgstr ""
+
+#: $string['feedbackupdate']
+msgid "Set field \"{$a->field}\" for \"{$a->student}\" to \"{$a->text}\""
+msgstr ""
+
+#: $string['gradelockedingradebook']
+msgid "The grade has been locked in the gradebook for {$a}"
+msgstr ""
+
+#: $string['graderecentlymodified']
+msgid ""
+"The grade has been modified in Moodle more recently than in the grading "
+"worksheet for {$a}"
+msgstr ""
+
+#: $string['gradesfile']
+msgid "Grading worksheet (csv format)"
+msgstr ""
+
+#: $string['gradesfile_help']
+msgid ""
+"Grading worksheet with modified grades. This file must be a csv file that "
+"has been downloaded from this assignment and must contain columns for the "
+"student grade, and identifier. The encoding for the file must be "
+"&quot;UTF-8&quot;"
+msgstr ""
+
+#: $string['gradeupdate']
+msgid "Set grade for {$a->student} to {$a->grade}"
+msgstr ""
+
+#: $string['ignoremodified']
+msgid ""
+"Allow updating records that have been modified more recently in Moodle than "
+"in the spreadsheet."
+msgstr ""
+
+#: $string['ignoremodified_help']
+msgid ""
+"When the grading worksheet is downloaded from Moodle it contains the last "
+"modified date for each of the grades. If any of the grades are updated in "
+"Moodle after this worksheet is downloaded, by default Moodle will refuse to "
+"overwrite this updated information when importing the grades. By selecting "
+"this option Moodle will disable this safety check and it may be possible for "
+"multiple markers to overwrite each others grades."
+msgstr ""
+
+#: $string['importgrades']
+msgid "Confirm changes in grading worksheet"
+msgstr ""
+
+#: $string['invalidgradeimport']
+msgid ""
+"Moodle could not read the uploaded worksheet. Make sure it is saved in comma "
+"separated value format (.csv) and try again."
+msgstr ""
+
+#: $string['nochanges']
+msgid "No modified grades found in uploaded worksheet"
+msgstr ""
+
+#: $string['offlinegradingworksheet']
+msgid "Grades"
+msgstr "Βαθμοί"
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Offline grading worksheet"
+msgstr ""
+
+#: $string['processgrades']
+msgid "Import grades"
+msgstr "Εισαγωγή βαθμών"
+
+#: $string['skiprecord']
+msgid "Skip record"
+msgstr ""
+
+#: $string['updatedgrades']
+msgid "Updated {$a} grades and feedback"
+msgstr ""
+
+#: $string['updaterecord']
+msgid "Update record"
+msgstr ""
+
+#: $string['uploadgrades']
+msgid "Upload grading worksheet"
+msgstr ""

@@ -1,0 +1,220 @@
+#. extracted from lang/en/block_skypeweb.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_skypeweb', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   block_skypeweb
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['chat_message']
+msgid ""
+"Ability to receive chat, audio, and video invitations is not available in "
+"the current release."
+msgstr ""
+
+#: $string['email_placeholder']
+msgid "someone@example.com"
+msgstr ""
+
+#: $string['lbl_button']
+msgid "Open Chat"
+msgstr ""
+
+#: $string['lbl_chat']
+msgid "Chat Service"
+msgstr ""
+
+#: $string['lbl_contact']
+msgid "Find Contact"
+msgstr ""
+
+#: $string['lbl_contact_go']
+msgid "Go"
+msgstr ""
+
+#: $string['lbl_email']
+msgid "Email"
+msgstr ""
+
+#: $string['lbl_group']
+msgid "Groups"
+msgstr ""
+
+#: $string['lbl_self']
+msgid "Self"
+msgstr ""
+
+#: $string['lbl_title']
+msgid "Title"
+msgstr ""
+
+#: $string['lbl_userfound']
+msgid "Found User"
+msgstr ""
+
+#: $string['location_placeholder']
+msgid "Enter a Location"
+msgstr ""
+
+#: $string['option_available']
+msgid "Available"
+msgstr ""
+
+#: $string['option_away']
+msgid "Appear away"
+msgstr ""
+
+#: $string['option_back']
+msgid "Be right back"
+msgstr ""
+
+#: $string['option_busy']
+msgid "Busy"
+msgstr ""
+
+#: $string['option_disturb']
+msgid "Do not disturb"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Skype Web"
+msgstr ""
+
+#: $string['settings_clientid']
+msgid "Client ID"
+msgstr ""
+
+#: $string['settings_clientid_desc']
+msgid "Your Azure Active Directory application client ID."
+msgstr ""
+
+#: $string['setup_desc']
+msgid ""
+"There are a few setup steps you will need to perform to set up this plugin.\n"
+"    <br /><br />\n"
+"<b>If you are currently using the Moodle / Microsoft Office 365 integration "
+"plugins:</b>\n"
+"<ol>\n"
+"    <li>Navigate to your registered Azure Active Directory application in "
+"the <a href=\"https://portal.azure.com\" target=\"_blank\">Azure "
+"Portal</a>.</li>\n"
+"    <li>Click \"All settings\", then \"Reply URLs\".</li>\n"
+"    <li>Add <b>{$a->wwwroot}/blocks/skypeweb/skypeloginreturn.php</b> to the "
+"list of reply URLs for the application. Click Save.</li>\n"
+"    <li>Follow the steps in the last section to add Skype permissions.</li>\n"
+"</ol>\n"
+"<br />\n"
+"<b>If you are not using the Moodle / Microsoft Office 365 integration "
+"plugins, and do not have an Azure Active Directory application set up:</b>\n"
+"<ol>\n"
+"    <li>Navigate to the <a href=\"https://portal.azure.com\" "
+"target=\"_blank\">Azure Portal</a>, click on \"Azure Active Directory\", then "
+"\"App registrations\".</li>\n"
+"    <li>Click \"New application registration\".</li>\n"
+"    <li>Enter a name of your choosing, and use "
+"<b>{$a->wwwroot}/blocks/skypeweb/skypeloginreturn.php</b> as the \"Sign-on "
+"URL\".</li>\n"
+"    <li>Click \"Create\".</li>\n"
+"    <li>Click the name of your application in the list of registered "
+"applications.</li>\n"
+"    <li>Copy the value for \"Application ID\" into the \"Client ID\" setting "
+"above, and click \"Save changes\" on this page.</li>\n"
+"    <li>Follow the steps in the next section.</li>\n"
+"</ol>\n"
+"<br />\n"
+"<b>Add Skype permissions to your Azure Active Directory application:</b>\n"
+"<ol>\n"
+"    <li>Navigate to your registered Azure Active Directory application.</li>\n"
+"    <li>Click \"Manifest\", and change \"oauth2AllowImplicitFlow\" from false to "
+"true. Click Save.</li>\n"
+"    <li>Click \"All settings\", then \"Required permissions\".</li>\n"
+"    <li>Click \"Add\", then \"Select an API\".</li>\n"
+"    <li>Find \"Skype for Business Online\" in the list, click it, and click "
+"\"Select\" at the bottom of the screen.</li>\n"
+"    <li>Enable all of the permissions in the \"Delegated Permissions\" "
+"section, and click \"Select\" at the bottom of the screen.</li>\n"
+"    <li>Click the \"Done\" button.</li>\n"
+"</ol>\n"
+"When your Azure Active Directory application has been set up and you have "
+"entered a value for the \"Client ID\" setting above, you can add the Skype\n"
+"Web block to any Moodle page, just like a regular block. If you are not "
+"signed in, the block will show a sign-in button. If you are\n"
+"signed in, you will see your Skype information displayed."
+msgstr ""
+
+#: $string['setup_title']
+msgid "Setup Instructions"
+msgstr ""
+
+#: $string['signinerror']
+msgid "Can't sign in, please check the user name and password."
+msgstr ""
+
+#: $string['skypelogin_button']
+msgid "Login To Skype"
+msgstr ""
+
+#: $string['skypesdkurl']
+msgid "https://swx.cdn.skype.com/shared/v/1.2.9/SkypeBootstrap.js"
+msgstr ""
+
+#: $string['skypeweb']
+msgctxt "$string['skypeweb']"
+msgid "Skype Web"
+msgstr ""
+
+#: $string['skypeweb:addinstance']
+msgid "Add a new Skype Web block"
+msgstr ""
+
+#: $string['skypeweb:myaddinstance']
+msgid "Add a new Skype Web block to the My Moodle page"
+msgstr ""
+
+#: $string['start_tooltip']
+msgid "Start Instant Messaging"
+msgstr ""
+
+#: $string['status_placeholder']
+msgid "What's happening today?"
+msgstr ""
+
+#: $string['stop_tooltip']
+msgid "Stop Instant Messaging"
+msgstr ""
+
+#: $string['type_placeholder']
+msgid "Type a message here"
+msgstr ""
+
+#: $string['waitmessage']
+msgid "Please wait while system redirects to moodle ...!"
+msgstr ""

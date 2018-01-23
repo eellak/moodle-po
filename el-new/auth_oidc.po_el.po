@@ -1,0 +1,571 @@
+#. extracted from lang/en/auth_oidc.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'auth_oidc', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   auth_oidc
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['auth_oidcdescription']
+msgid ""
+"The OpenID Connect plugin provides single-sign-on functionality using "
+"configurable identity providers."
+msgstr ""
+
+#: $string['cfg_authendpoint_desc']
+msgid ""
+"The URI of the Authorization endpoint from your identity provider to use."
+msgstr ""
+
+#: $string['cfg_authendpoint_key']
+msgid "Authorization Endpoint"
+msgstr ""
+
+#: $string['cfg_autoappend_desc']
+msgid ""
+"Automatically append this string when logging in users using the \"Resource "
+"Owner Password Credentials\" authentication method. This is useful when your "
+"identity provider requires a common domain, but don't want to require users "
+"to type it in when logging in. For example, if the full OpenID Connect user "
+"is \"james@example.com\" and you enter \"@example.com\" here, the user will only "
+"have to enter \"james\" as their username. <br /><b>Note:</b> In the case "
+"where conflicting usernames exist - i.e. a Moodle user exists wth the same "
+"name, the priority of the authentication plugin is used to determine which "
+"user wins out."
+msgstr ""
+
+#: $string['cfg_autoappend_key']
+msgid "Auto-Append"
+msgstr ""
+
+#: $string['cfg_clientid_desc']
+msgid "Your registered Client ID on the identity provider"
+msgstr ""
+
+#: $string['cfg_clientid_key']
+msgid "Client ID"
+msgstr ""
+
+#: $string['cfg_clientsecret_desc']
+msgid ""
+"Your registered Client Secret on the identity provider. On some providers, "
+"it is also referred to as a key."
+msgstr ""
+
+#: $string['cfg_clientsecret_key']
+msgid "Client Secret"
+msgstr ""
+
+#: $string['cfg_customicon_desc']
+msgid ""
+"If you'd like to use your own icon, upload it here. This overrides any icon "
+"chosen above. <br /><br /><b>Notes on using custom icons:</b><ul><li>This "
+"image will <b>not</b> be resized on the login page, so we recommend "
+"uploading an image no bigger than 35x35 pixels.</li><li>If you have uploaded "
+"a custom icon and want to go back to one of the stock icons, click the "
+"custom icon in the box above, then click \"Delete\", then click \"OK\", then "
+"click \"Save Changes\" at the bottom of this form. The selected stock icon "
+"will now appear on the Moodle login page.</li></ul>"
+msgstr ""
+
+#: $string['cfg_customicon_key']
+msgid "Custom Icon"
+msgstr ""
+
+#: $string['cfg_debugmode_desc']
+msgid ""
+"If enabled, information will be logged to the Moodle log that can help in "
+"identifying problems."
+msgstr ""
+
+#: $string['cfg_debugmode_key']
+msgid "Record debug messages"
+msgstr ""
+
+#: $string['cfg_domainhint_desc']
+msgid ""
+"When using the \"Authorization Code\" authentication method, pass this value "
+"as the \"domain_hint\" parameter. \"domain_hint\" is used by some OpenID Connect "
+"providers to make the login process easier for users. Check with your "
+"provider to see whether they support this parameter."
+msgstr ""
+
+#: $string['cfg_domainhint_key']
+msgid "Domain Hint"
+msgstr ""
+
+#: $string['cfg_err_invalidauthendpoint']
+msgid "Invalid Authorization Endpoint"
+msgstr ""
+
+#: $string['cfg_err_invalidclientid']
+msgid "Invalid client ID"
+msgstr ""
+
+#: $string['cfg_err_invalidclientsecret']
+msgid "Invalid client secret"
+msgstr ""
+
+#: $string['cfg_err_invalidtokenendpoint']
+msgid "Invalid Token Endpoint"
+msgstr ""
+
+#: $string['cfg_iconalt_check']
+msgid "Checkmark icon"
+msgstr ""
+
+#: $string['cfg_iconalt_go']
+msgid "Green circle"
+msgstr ""
+
+#: $string['cfg_iconalt_group']
+msgid "Group icon"
+msgstr ""
+
+#: $string['cfg_iconalt_group2']
+msgid "Group icon alternate"
+msgstr ""
+
+#: $string['cfg_iconalt_key']
+msgid "Key icon"
+msgstr ""
+
+#: $string['cfg_iconalt_lock']
+msgid "Lock icon"
+msgstr ""
+
+#: $string['cfg_iconalt_locked']
+msgid "Locked icon"
+msgstr ""
+
+#: $string['cfg_iconalt_mnet']
+msgid "MNET icon"
+msgstr ""
+
+#: $string['cfg_iconalt_o365']
+msgid "Office 365 icon"
+msgstr ""
+
+#: $string['cfg_iconalt_plus']
+msgid "Plus icon"
+msgstr ""
+
+#: $string['cfg_iconalt_rightarrow']
+msgid "Right-facing arrow icon"
+msgstr ""
+
+#: $string['cfg_iconalt_stop']
+msgid "Red circle"
+msgstr ""
+
+#: $string['cfg_iconalt_user']
+msgid "User icon"
+msgstr ""
+
+#: $string['cfg_iconalt_user2']
+msgid "User icon alternate"
+msgstr ""
+
+#: $string['cfg_iconalt_userlock']
+msgid "User with lock icon"
+msgstr ""
+
+#: $string['cfg_icon_desc']
+msgid "An icon to display next to the provider name on the login page."
+msgstr ""
+
+#: $string['cfg_icon_key']
+msgid "Icon"
+msgstr ""
+
+#: $string['cfg_loginflow_authcode']
+msgid "Authorization Code Flow (recommended)"
+msgstr ""
+
+#: $string['cfg_loginflow_authcode_desc']
+msgid ""
+"Using this flow, the user clicks the name of the identity provider (See "
+"\"Provider Name\" above) on the Moodle login page and is redirected to the "
+"provider to log in. Once successfully logged in, the user is redirected back "
+"to Moodle where the Moodle login takes place transparently. This is the "
+"most standardized, secure way for the user log in."
+msgstr ""
+
+#: $string['cfg_loginflow_key']
+msgid "Authentication Method"
+msgstr "Μέθοδος αυθεντικοποίησης"
+
+#: $string['cfg_loginflow_rocreds']
+msgid "Resource Owner Password Credentials Grant"
+msgstr ""
+
+#: $string['cfg_loginflow_rocreds_desc']
+msgid ""
+"Using this flow, the user enters their username and password into the Moodle "
+"login form like they would with a manual login. This will authorize the "
+"user with the identity provider, but will not create a session on the "
+"identity provider's site. For example, if using Office 365 with OpenID "
+"Connect, the user will be logged in to Moodle but not the Office 365 web "
+"applications. Using the authorization request is recommended if you want "
+"users to be logged in to both Moodle and the identity provider.  Note that "
+"not all identity providers support this flow. This option should only be "
+"used when other authorization grant types are not available."
+msgstr ""
+
+#: $string['cfg_oidcresource_desc']
+msgid "The OpenID Connect resource for which to send the request."
+msgstr ""
+
+#: $string['cfg_oidcresource_key']
+msgid "Resource"
+msgstr ""
+
+#: $string['cfg_opname_desc']
+msgid ""
+"This is an end-user-facing label that identifies the type of credentials the "
+"user must use to login. This label is used throughout the user-facing "
+"portions of this plugin to identify your provider."
+msgstr ""
+
+#: $string['cfg_opname_key']
+msgid "Provider Name"
+msgstr ""
+
+#: $string['cfg_redirecturi_desc']
+msgid ""
+"This is the URI to register as the \"Redirect URI\". Your OpenID Connect "
+"identity provider should ask for this when registering Moodle as a client. "
+"<br /><b>NOTE:</b> You must enter this in your OpenID Connect provider "
+"*exactly* as it appears here. Any difference will prevent logins using "
+"OpenID Connect."
+msgstr ""
+
+#: $string['cfg_redirecturi_key']
+msgid "Redirect URI"
+msgstr ""
+
+#: $string['cfg_tokenendpoint_desc']
+msgid "The URI of the token endpoint from your identity provider to use."
+msgstr ""
+
+#: $string['cfg_tokenendpoint_key']
+msgid "Token Endpoint"
+msgstr ""
+
+#: $string['cfg_userrestrictions_desc']
+msgid ""
+"Only allow users to log in that meet certain restrictions. <br /><b>How to "
+"use user restrictions: </b> <ul><li>Enter a <a "
+"href=\"https://en.wikipedia.org/wiki/Regular_expression\">regular "
+"expression</a> pattern that matches the usernames of users you want to "
+"allow.</li><li>Enter one pattern per line</li><li>If you enter multiple "
+"patterns a user will be allowed if they match ANY of the "
+"patterns.</li><li>The character \"/\" should be escaped with \"\\\".</li><li>If "
+"you don't enter any restrictions above, all users that can log in to the "
+"OpenID Connect provider will be accepted by Moodle.</li><li>Any user that "
+"does not match any entered pattern(s) will be prevented from logging in "
+"using OpenID Connect.</li></ul>"
+msgstr ""
+
+#: $string['cfg_userrestrictions_key']
+msgid "User Restrictions"
+msgstr ""
+
+#: $string['errorauthdisconnectemptypassword']
+msgid "Password cannot be empty"
+msgstr "Ο κωδικός πρόσβασης δεν επιτρέπεται να είναι κενός"
+
+#: $string['errorauthdisconnectemptyusername']
+msgid "Username cannot be empty"
+msgstr "Το όνομα χρήστης δεν επιτρέπεται να είναι κενό"
+
+#: $string['errorauthdisconnectifmanual']
+msgid "If using the manual login method, enter credentials below."
+msgstr ""
+
+#: $string['errorauthdisconnectinvalidmethod']
+msgid "Invalid login method received."
+msgstr ""
+
+#: $string['errorauthdisconnectnewmethod']
+msgid "Use Login Method"
+msgstr ""
+
+#: $string['errorauthdisconnectusernameexists']
+msgid "That username is already taken. Please choose a different one."
+msgstr ""
+
+#: $string['errorauthgeneral']
+msgid ""
+"There was a problem logging you in. Please contact your administrator for "
+"assistance."
+msgstr ""
+
+#: $string['errorauthinvalididtoken']
+msgid "Invalid id_token received."
+msgstr ""
+
+#: $string['errorauthloginfailednouser']
+msgid ""
+"Invalid login: User not found in Moodle. If this site has the "
+"\"authpreventaccountcreation\" setting enabled, this may mean you need an "
+"administrator to create an account for you first."
+msgstr ""
+
+#: $string['errorauthnoauthcode']
+msgid ""
+"No authorization code was received from the identity server. The error logs "
+"may have more information."
+msgstr ""
+
+#: $string['errorauthnocreds']
+msgid "Please configure OpenID Connect client credentials."
+msgstr ""
+
+#: $string['errorauthnoendpoints']
+msgid "Please configure OpenID Connect server endpoints."
+msgstr ""
+
+#: $string['errorauthnohttpclient']
+msgid "Please set an HTTP client."
+msgstr ""
+
+#: $string['errorauthnoidtoken']
+msgid "OpenID Connect id_token not received."
+msgstr ""
+
+#: $string['errorauthunknownstate']
+msgid "Unknown state."
+msgstr ""
+
+#: $string['errorauthuseralreadyconnected']
+msgid "You're already connected to a different OpenID Connect user."
+msgstr ""
+
+#: $string['errorauthuserconnectedtodifferent']
+msgid ""
+"The OpenID Connect user that authenticated is already connected to a Moodle "
+"user."
+msgstr ""
+
+#: $string['errorbadloginflow']
+msgid ""
+"Invalid authentication type specified. Note: If you are receiving this after "
+"a recent installation or upgrade, please clear your Moodle cache."
+msgstr ""
+
+#: $string['errorinvalidredirect_message']
+msgid "The URL you are trying to redirect to does not exist."
+msgstr ""
+
+#: $string['errorjwtbadpayload']
+msgid "Could not read JWT payload."
+msgstr ""
+
+#: $string['errorjwtcouldnotreadheader']
+msgid "Could not read JWT header"
+msgstr ""
+
+#: $string['errorjwtempty']
+msgid "Empty or non-string JWT received."
+msgstr ""
+
+#: $string['errorjwtinvalidheader']
+msgid "Invalid JWT header"
+msgstr ""
+
+#: $string['errorjwtmalformed']
+msgid "Malformed JWT received."
+msgstr ""
+
+#: $string['errorjwtunsupportedalg']
+msgid "JWS Alg or JWE not supported"
+msgstr ""
+
+#: $string['errorlogintoconnectedaccount']
+msgid ""
+"This Office 365 user is connected to a Moodle account, but OpenID Connect "
+"login is not enabled for this Moodle account. Please log in to the Moodle "
+"account using the account's defined authentication method to use Office 365 "
+"features"
+msgstr ""
+
+#: $string['errornodisconnectionauthmethod']
+msgid ""
+"Cannot disconnect because there is no enabled authentication plugin to fall "
+"back to. (either user's previous login method or the manual login method)."
+msgstr ""
+
+#: $string['erroroidccall']
+msgid "Error in OpenID Connect. Please check logs for more information."
+msgstr ""
+
+#: $string['erroroidccall_message']
+msgid "Error in OpenID Connect: {$a}"
+msgstr ""
+
+#: $string['erroroidcclientinsecuretokenendpoint']
+msgid "The token endpoint must be using SSL/TLS for this."
+msgstr ""
+
+#: $string['erroroidcclientinvalidendpoint']
+msgid "Invalid Endpoint URI received."
+msgstr ""
+
+#: $string['erroroidcclientnoauthendpoint']
+msgid "No authorization endpoint set. Please set with $this->setendpoints"
+msgstr ""
+
+#: $string['erroroidcclientnocreds']
+msgid "Please set client credentials with setcreds"
+msgstr ""
+
+#: $string['erroroidcclientnotokenendpoint']
+msgid "No token endpoint set. Please set with $this->setendpoints"
+msgstr ""
+
+#: $string['erroroidcnotenabled']
+msgid "The OpenID Connect authentication plugin is not enabled."
+msgstr ""
+
+#: $string['errorrestricted']
+msgid ""
+"This site has restrictions in place on the users that can log in with OpenID "
+"Connect. These restrictions currently prevent you from completing this "
+"login attempt."
+msgstr ""
+
+#: $string['errorucpinvalidaction']
+msgid "Invalid action received."
+msgstr ""
+
+#: $string['event_debug']
+msgid "Debug message"
+msgstr "Μήνυμα αποσφαλμάτωσης"
+
+#: $string['eventuserauthed']
+msgid "User Authorized with OpenID Connect"
+msgstr ""
+
+#: $string['eventuserconnected']
+msgid "User connected to OpenID Connect"
+msgstr ""
+
+#: $string['eventusercreated']
+msgid "User created with OpenID Connect"
+msgstr ""
+
+#: $string['eventuserdisconnected']
+msgid "User disconnected from OpenID Connect"
+msgstr ""
+
+#: $string['eventuserloggedin']
+msgid "User Logged In with OpenID Connect"
+msgstr ""
+
+#: $string['oidc:manageconnection']
+msgid "Allow OpenID Connection and Disconnection"
+msgstr ""
+
+#: $string['oidc:manageconnectionconnect']
+msgid "Allow OpenID Connection"
+msgstr ""
+
+#: $string['oidc:manageconnectiondisconnect']
+msgid "Allow OpenID Disconnection"
+msgstr ""
+
+#: $string['pluginname']
+msgid "OpenID Connect"
+msgstr ""
+
+#: $string['ucp_disconnect_details']
+msgid ""
+"This will disconnect your Moodle account from {$a}. You'll need to create a "
+"username and password to log in to Moodle."
+msgstr ""
+
+#: $string['ucp_disconnect_title']
+msgid "{$a} Disconnection"
+msgstr ""
+
+#: $string['ucp_general_intro']
+msgid ""
+"Here you can manage your connection to {$a}. If enabled, you will be able to "
+"use your {$a} account to log in to Moodle instead of a separate username "
+"and password. Once connected, you'll no longer have to remember a username "
+"and password for Moodle, all log-ins will be handled by {$a}."
+msgstr ""
+
+#: $string['ucp_login_start']
+msgid "Start using {$a} to log in to Moodle"
+msgstr ""
+
+#: $string['ucp_login_start_desc']
+msgid ""
+"This will switch your account to use {$a} to log in to Moodle. Once enabled, "
+"you will log in using your {$a} credentials - your current Moodle username "
+"and password will not work. You can disconnect your account at any time and "
+"return to logging in normally."
+msgstr ""
+
+#: $string['ucp_login_status']
+msgid "{$a} login is:"
+msgstr ""
+
+#: $string['ucp_login_stop']
+msgid "Stop using {$a} to log in to Moodle"
+msgstr ""
+
+#: $string['ucp_login_stop_desc']
+msgid ""
+"You are currently using {$a} to log in to Moodle. Clicking \"Stop using {$a} "
+"login\" will disconnect your Moodle account from {$a}. You will no longer be "
+"able to log in to Moodle with your {$a} account. You'll be asked to create a "
+"username and password, and from then on you will then be able to log in to "
+"Moodle directly."
+msgstr ""
+
+#: $string['ucp_o365accountconnected']
+msgid ""
+"This Office 365 account is already connected with another Moodle account."
+msgstr ""
+
+#: $string['ucp_status_disabled']
+msgid "Disabled"
+msgstr ""
+
+#: $string['ucp_status_enabled']
+msgid "Enabled"
+msgstr "Ενεργοποιημένο"
+
+#: $string['ucp_title']
+msgid "{$a} Management"
+msgstr ""

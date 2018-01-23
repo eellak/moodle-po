@@ -1,0 +1,299 @@
+#. extracted from lang/en/enrol_stripepayment.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'enrol_stripepayment', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   enrol_stripepayment
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addtogroup']
+msgid "Add to group"
+msgstr ""
+
+#: $string['addtogroup_help']
+msgid ""
+"If you select a group here, then when a user completes the payment process "
+"and is enrolled in this course, they will be added to this group."
+msgstr ""
+
+#: $string['assignrole']
+msgid "Assign role"
+msgstr ""
+
+#: $string['assignrole_help']
+msgid ""
+"If you select a role here, then when a user completes the payment process "
+"and is enrolled in this course, they will be assigned this role."
+msgstr ""
+
+#: $string['billingaddress']
+msgid "Require users to enter their billing address"
+msgstr ""
+
+#: $string['billingaddress_desc']
+msgid ""
+"This sets the Stripe payment option for whether the user should be asked to "
+"input their billing address. It is off by default, but it is a good idea to "
+"turn it on."
+msgstr ""
+
+#: $string['canntenrol']
+msgid "Enrolment is disabled or inactive"
+msgstr ""
+
+#: $string['charge_description1']
+msgid "create customer for email receipt"
+msgstr ""
+
+#: $string['charge_description2']
+msgid "Charge for Course Enrolment Cost."
+msgstr ""
+
+#: $string['cost']
+msgid "Enrol cost"
+msgstr ""
+
+#: $string['costerror']
+msgid "The enrolment cost is not numeric"
+msgstr ""
+
+#: $string['costorkey']
+msgid "Please choose one of the following methods of enrolment."
+msgstr ""
+
+#: $string['currency']
+msgid "Currency"
+msgstr ""
+
+#: $string['customwelcomemessage']
+msgid "Custom welcome message"
+msgstr ""
+
+#: $string['customwelcomemessage_help']
+msgid ""
+"If you enter some text here, it will be shown instead of the standard text "
+"\"This course requires a payment for entry.\" on the Enrolment options page "
+"that students see when they attempt to access a course they are not enrolled "
+"in. If you leave this blank, the standard text will be used."
+msgstr ""
+
+#: $string['defaultrole']
+msgid "Default role assignment"
+msgstr ""
+
+#: $string['defaultrole_desc']
+msgid "Select role which should be assigned to users during Stripe enrolments"
+msgstr ""
+
+#: $string['enrolenddate']
+msgid "End date"
+msgstr ""
+
+#: $string['enrolenddate_help']
+msgid "If enabled, users can be enrolled until this date only."
+msgstr ""
+
+#: $string['enrolenddaterror']
+msgid "Enrolment end date cannot be earlier than start date"
+msgstr ""
+
+#: $string['enrolperiod']
+msgid "Enrolment duration"
+msgstr "Διάρκεια εγγραφής"
+
+#: $string['enrolperiod_desc']
+msgid ""
+"Default length of time that the enrolment is valid. If set to zero, the "
+"enrolment duration will be unlimited by default."
+msgstr ""
+
+#: $string['enrolperiod_help']
+msgid ""
+"Length of time that the enrolment is valid, starting with the moment the "
+"user is enrolled. If disabled, the enrolment duration will be unlimited."
+msgstr ""
+
+#: $string['enrolstartdate']
+msgid "Start date"
+msgstr ""
+
+#: $string['enrolstartdate_help']
+msgid "If enabled, users can be enrolled from this date onward only."
+msgstr ""
+
+#: $string['expiredaction']
+msgid "Enrolment expiration action"
+msgstr ""
+
+#: $string['expiredaction_help']
+msgid ""
+"Select action to carry out when user enrolment expires. Please note that "
+"some user data and settings are purged from course during course "
+"unenrolment."
+msgstr ""
+"Επιλέξτε την ενέργεια που θα εκτελεστεί όταν λήξει η εγγραφή του χρήστη. "
+"Παρακαλώ σημειώστε ότι ορισμένα δεδομένα χρήστη και ρυθμίσεις εκκαθαρίζονται "
+"από το μάθημα κατά την ακύρωση εγγραφής στο μάθημα."
+
+#: $string['mailadmins']
+msgid "Notify admin"
+msgstr ""
+
+#: $string['mailstudents']
+msgid "Notify students"
+msgstr ""
+
+#: $string['mailteachers']
+msgid "Notify teachers"
+msgstr ""
+
+#: $string['maxenrolled']
+msgid "Max enrolled users"
+msgstr ""
+
+#: $string['maxenrolled_help']
+msgid ""
+"Specifies the maximum number of users that can stripepayment enrol. 0 means "
+"no limit."
+msgstr ""
+
+#: $string['maxenrolledreached']
+msgid ""
+"Maximum number of users allowed to stripepayment-enrol was already reached."
+msgstr ""
+
+#: $string['messageprovider:stripe_enrolment']
+msgid "Stripe enrolment messages"
+msgstr ""
+
+#: $string['messageprovider:stripepayment_enrolment']
+msgid "Message Provider"
+msgstr ""
+
+#: $string['nocost']
+msgid "There is no cost associated with enrolling in this course!"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Stripe Payment"
+msgstr ""
+
+#: $string['pluginname_desc']
+msgid ""
+"The Stripe module allows you to set up paid courses.  If the cost for any "
+"course is zero, then students are not asked to pay for entry.  There is a "
+"site-wide cost that you set here as a default for the whole site and then a "
+"course setting that you can set for each course individually. The course "
+"cost overrides the site cost."
+msgstr ""
+
+#: $string['publishablekey']
+msgid "Stripe Publishable Key"
+msgstr ""
+
+#: $string['publishablekey_desc']
+msgid "The API Publishable Key of Stripe account"
+msgstr ""
+
+#: $string['secretkey']
+msgid "Stripe Secret Key"
+msgstr ""
+
+#: $string['secretkey_desc']
+msgid "The API Secret Key of Stripe account"
+msgstr ""
+
+#: $string['sendpaymentbutton']
+msgid "Send payment via Stripe"
+msgstr ""
+
+#: $string['status']
+msgid "Allow Stripe enrolments"
+msgstr ""
+
+#: $string['status_desc']
+msgid "Allow users to use Stripe to enrol into a course by default."
+msgstr ""
+
+#: $string['stripeaccepted']
+msgid "Stripe payments accepted"
+msgstr ""
+
+#: $string['stripe:config']
+msgid "Configure Stripe enrol instances"
+msgstr ""
+
+#: $string['stripe:manage']
+msgid "Manage enrolled users"
+msgstr ""
+
+#: $string['stripepayment:config']
+msgid "Configure stripepayment"
+msgstr ""
+
+#: $string['stripepayment:manage']
+msgid "Manage stripepayment"
+msgstr ""
+
+#: $string['stripepayment:unenrol']
+msgid "Unenrol stripepayment"
+msgstr ""
+
+#: $string['stripepayment:unenrolself']
+msgid "Unenrolself stripepayment"
+msgstr ""
+
+#: $string['stripe_sorry']
+msgid "Sorry, you can not use the script that way."
+msgstr ""
+
+#: $string['stripe:unenrol']
+msgid "Unenrol users from course"
+msgstr "Ακύρωση εγγραφής χρηστών στο μάθημα"
+
+#: $string['stripe:unenrolself']
+msgid "Unenrol self from the course"
+msgstr "Ακύρωση εγγραφής στο μάθημα"
+
+#: $string['unenrolselfconfirm']
+msgid "Do you really want to unenrol yourself from course \"{$a}\"?"
+msgstr ""
+"Είστε βεβαιοι ότι θέλετε να ακυρώσετε την εγγραφή σας στο μάθημα \"{$a}\";"
+
+#: $string['validatezipcode']
+msgid "Validate the billing postal code"
+msgstr ""
+
+#: $string['validatezipcode_desc']
+msgid ""
+"This sets the Stripe payment option for whether the billing address should "
+"be verified as part of processing the payment. They strongly recommend that "
+"this option should be on, to reduce fraud."
+msgstr ""

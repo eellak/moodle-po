@@ -1,0 +1,1670 @@
+#. extracted from lang/en/data.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'data', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   data
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['action']
+msgid "Action"
+msgstr "Ενέργεια"
+
+#: $string['add']
+msgid "Add entry"
+msgstr "Προσθήκη καταχώρησης"
+
+#: $string['addcomment']
+msgid "Add comment"
+msgstr "Προσθήκη σχολίου"
+
+#: $string['addentries']
+msgid "Add entries"
+msgstr "Προσθήκη καταχωρήσεων"
+
+#: $string['addtemplate']
+msgid "Add template"
+msgstr "Προσθήκη προτύπου"
+
+#: $string['advancedsearch']
+msgid "Advanced search"
+msgstr "Advanced search"
+
+#: $string['allowcomments']
+msgid "Allow comments on entries"
+msgstr "Να επιτρέπονται τα σχόλια στις εγγραφές"
+
+#: $string['alttext']
+msgid "Alternative text"
+msgstr "Εναλλακτικό κείμενο"
+
+#: $string['approvalstatus']
+msgid "Approval status"
+msgstr ""
+
+#: $string['approve']
+msgid "Approve"
+msgstr "Έγκριση"
+
+#: $string['approved']
+msgid "Approved"
+msgstr "Εγκρίθηκε"
+
+#: $string['areacontent']
+msgctxt "$string['areacontent']"
+msgid "Fields"
+msgstr "Πεδία"
+
+#: $string['ascending']
+msgid "Ascending"
+msgstr "Αύξουσα"
+
+#: $string['asearchtemplate']
+msgid "Advanced search template"
+msgstr "Προχωρημένο πρότυπο αναζήτησης"
+
+#: $string['atmaxentry']
+msgid "You have entered the maximum number of entries allowed!"
+msgstr "Έχετε εισαγάγει το μέγιστο επιτρεπόμενο αριθμό καταχωρήσεων!"
+
+#: $string['authorfirstname']
+msgid "Author first name"
+msgstr "Όνομα συγγραφέα"
+
+#: $string['authorlastname']
+msgid "Author surname"
+msgstr "Επίθετο συγγραφέα"
+
+#: $string['autogenallforms']
+msgid "Generate all default templates"
+msgstr "Δημιουργία όλων των προκαθορισμένων προτύπων"
+
+#: $string['autolinkurl']
+msgid "Autolink the URL"
+msgstr "Αυτόματη σύνδεση στο URL"
+
+#: $string['availablefromdate']
+msgid "Available from"
+msgstr "Διαθέσιμο από"
+
+#: $string['availabletags']
+msgid "Available tags"
+msgstr "Διαθέσιμες ετικέτες"
+
+#: $string['availabletags_help']
+msgid ""
+"Tags are placeholders in the template, which will be replaced by data or "
+"other items, such as an edit icon, when entries are edited or viewed.\n"
+"\n"
+"Fields have the format [[fieldname]]. All other tags have the format "
+"##sometag##.\n"
+"\n"
+"Only the tags that are in the \"Available tags\" list may be used for the "
+"current template."
+msgstr ""
+"<p align=\"center\"><strong>Διαθέσιμες ετικέτες</strong></p>\n"
+"<p>Με την ενεργοποίηση αυτής της επιλογής, τα στοιχειά αντικαθιστούνται από "
+"κουμπιά και πεδία όταν οι καταχωρήσεις εμφανίζονται ή τυγχάνουν "
+"επεξεργασίας.</p>\n"
+"<p>Τα πεδία έχουν την εξής μορφή: [[πεδίο]]</p>\n"
+"<p>Τα κουμπιά έχουν την εξής μορφή: ##κουμπί##</p>\n"
+"<p>Μόνο τα στοιχειά που είναι στη λίστα διαθέσιμων μπορούν να "
+"χρησιμοποιηθούν στο πρότυπο.</p>"
+
+#: $string['availabletodate']
+msgid "Available to"
+msgstr "Διαθέσιμο στο"
+
+#: $string['availabletodatevalidation']
+msgid "The available to date cannot be before the available from date."
+msgstr ""
+
+#: $string['blank']
+msgid "Blank"
+msgstr "Κενό"
+
+#: $string['buttons']
+msgid "Actions"
+msgstr "Ενέργειας"
+
+#: $string['bynameondate']
+msgid "by {$a->name} - {$a->date}"
+msgstr "από {$a->name} - {$a->date}"
+
+#: $string['calendarend']
+msgid "{$a} closes"
+msgstr ""
+
+#: $string['calendarstart']
+msgid "{$a} opens"
+msgstr ""
+
+#: $string['cancel']
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: $string['cannotaccesspresentsother']
+msgid "You are not allowed to access presets from other users"
+msgstr "Δε σας επιτρέπεται η πρόσβαση σε προκαθορισμένες τιμές άλλων χρηστών"
+
+#: $string['cannotadd']
+msgid "Can not add entries!"
+msgstr "Δεν είναι δυνατή η προσθήκη καταχωρήσεων!"
+
+#: $string['cannotdeletepreset']
+msgctxt "$string['cannotdeletepreset']"
+msgid "Error deleting a preset!"
+msgstr "Σφάλμα κατά τη διαγραφή του προτύπου!"
+
+#: $string['cannotoverwritepreset']
+msgid "Error overwriting preset"
+msgstr ""
+
+#: $string['cannotunziptopreset']
+msgid "Cannot unzip to the preset directory"
+msgstr "Δεν είναι δυνατή η αποσυμπίεση στον προκαθορισμένο κατάλογο"
+
+#: $string['checkbox']
+msgid "Checkbox"
+msgstr "Κουμπί επιλογής"
+
+#: $string['chooseexportfields']
+msgid "Choose the fields you wish to export:"
+msgstr "Επιλέξτε τα πεδία που επιθυμείτε να εξαγάγετε:"
+
+#: $string['chooseexportformat']
+msgid "Choose the format you wish to export to:"
+msgstr "Επιλέξτε το φορμάτ στο οποίο θέλετε να εξαγάγετε:"
+
+#: $string['chooseorupload']
+msgid "Choose file"
+msgstr "Επιλέξτε ένα αρχείο"
+
+#: $string['closebeforeopen']
+msgid "You have specified an end date before the start date."
+msgstr ""
+
+#: $string['columns']
+msgid "columns"
+msgstr "στήλες"
+
+#: $string['comment']
+msgid "Comment"
+msgstr "Σχόλιο"
+
+#: $string['commentdeleted']
+msgid "Comment deleted"
+msgstr "Το σχόλιο διαγράφηκε"
+
+#: $string['commentempty']
+msgid "Comment was empty"
+msgstr "Δεν γράψατε τίποτα στην περιοχή των σχολίων"
+
+#: $string['comments']
+msgid "Comments"
+msgstr "Σχόλια"
+
+#: $string['commentsaved']
+msgid "Comment saved"
+msgstr "Τα σχόλια αποθηκεύτηκαν"
+
+#: $string['commentsn']
+msgid "{$a} comment(s)"
+msgstr "{$a} σχόλιο(α)"
+
+#: $string['commentsoff']
+msgid "Comments feature is not enabled"
+msgstr ""
+
+#: $string['completionentries']
+msgid "Require entries"
+msgstr ""
+
+#: $string['completionentriescount']
+msgid "Count of entries"
+msgstr ""
+
+#: $string['completionentriesdesc']
+msgid "Minimum number of entries required: {$a}"
+msgstr ""
+
+#: $string['configenablerssfeeds']
+msgid ""
+"This switch will enable the possibility of RSS feeds for all databases. You "
+"will still need to turn feeds on manually in the settings for each database."
+msgstr ""
+"Αυτή η ρύθμιση θα ενεργοποιήσει την δυνατότητα RSS feeds για όλες τις βάσεις "
+"δεδομένων. Θα χρειαστεί να ενεργοποιήσετε τα feeds και χειροκίνητα για κάθε "
+"μία από τις βάσεις."
+
+#: $string['confirmdeletefield']
+msgid "You are about to delete this field, are you sure?"
+msgstr "Θα διαγραφεί το πεδίο, είστε σίγουρος/η;"
+
+#: $string['confirmdeleterecord']
+msgid "Are you sure you want to delete this entry?"
+msgstr "Σίγουρα θέλετε να διαγραφεί αυτή η καταχώρηση;"
+
+#: $string['confirmdeleterecords']
+#, fuzzy
+msgid "Are you sure you want to delete these entries?"
+msgstr "Σίγουρα θέλετε να διαγραφεί αυτή η καταχώρηση;"
+
+#: $string['csstemplate']
+msgid "CSS template"
+msgstr "Πρότυπο CSS"
+
+#: $string['csvfailed']
+msgid "Unable to read the raw data from the CSV file"
+msgstr "Δεν είναι δυνατή η ανάγνωση ακατέργαστων δεδομένων από το αρχείο CSV"
+
+#: $string['csvfile']
+msgid "CSV file"
+msgstr "CSV αρχείο"
+
+#: $string['csvimport']
+msgid "CSV file import"
+msgstr "Εισαγωγή αρχείου CSV"
+
+#: $string['csvimport_help']
+msgid ""
+"Entries may be imported via a plain text file with a list of field names as "
+"the first line, then the data, with one record per line."
+msgstr ""
+"<p align=\"center\"><strong>Εισαγωγή από αρχείο τύπου CSV </strong></p>\n"
+"\n"
+"<p>CSV σημαίνει Comma-Separated-Values (τιμές χωρισμένες με κόμμα). Αποτελεί "
+"συνηθισμένο\n"
+"τύπο αρχείου που περιέχει δεδομένα σε μορφή κειμένου προς εναλλαγή.</p>\n"
+"\n"
+"<p>Η δομή του αρχείου συνήθως είναι αρχείο απλού κειμένου (plain text file), "
+"όπου η πρώτη γραμμή\n"
+"αναγράφει τους τίτλους κάθε στήλης στη σειρά τον ένα μετά τον άλλο "
+"χωρισμένους με κόμμα. Στις επόμενες\n"
+"γραμμές αναγράφονται τα δεδομένα με τον ίδιο τρόπο.</p>\n"
+"\n"
+"<p>Οι στήλες δεδομένων χωρίζονται με κόμμα, ενώ δεν ορίζεται προεπιλεγμένος "
+"'field enclosure'\n"
+"(με τον όρο 'field enclosures' εννοούνται οι χαρακτήρες που περιβάλλουν το "
+"περιεχόμενο μιας στήλης σε μια γραμμή).</p>\n"
+"\n"
+"<p>Οι γραμμές δεδομένων συνήθως χωρίζονται η μια από την άλλη με το πάτημα "
+"του πλήκτρου RETURN ή ENTER.\n"
+"Διάκενα (tabs) ορίζονται με t και νέες γραμμές με n.</p>\n"
+"\n"
+"<p>Παράδειγμα αρχείου CSV:</p>\n"
+"\n"
+"<pre>\n"
+"  όνομα,ύψος,βάρος\n"
+"  Καίτη,170cm,65kg\n"
+"  Κλειώ,160cm,60kg\n"
+"  Κώστας,190cm,87kg\n"
+"</pre>\n"
+"\n"
+"\n"
+"<p>Προσοχή: ίσως να μην υποστηρίζονται όλοι οι σχετικοί τύποι δεδομένων στις "
+"στήλες.</p>"
+
+#: $string['csvwithselecteddelimiter']
+msgid ""
+"<acronym title=\"Comma Separated Values\">CSV</acronym> text with selected "
+"delimiter:"
+msgstr ""
+"<acronym title=\"Τιμές διαχωρισμένες με κόμμα\">CSV</acronym> κείμενο με "
+"επιλεγμένο διαχωριστικό:"
+
+#: $string['data:addinstance']
+msgid "Add a new database"
+msgstr "Προσθήκη νέας βάσης δεδομένων"
+
+#: $string['data:approve']
+msgid "Approve and undo approved entries"
+msgstr "Έγκριση μη-εγκεκριμένων καταχωρήσεων"
+
+#: $string['data:comment']
+msgid "Write comments"
+msgstr "Καταγραφή σχολίων"
+
+#: $string['data:exportallentries']
+msgid "Export all database entries"
+msgstr "Εξαγωγή όλων των καταχωρήσεων στη βάση"
+
+#: $string['data:exportentry']
+msgid "Export a database entry"
+msgstr "Εξαγωγή μιας καταχώρησης στη βάση"
+
+#: $string['data:exportownentry']
+msgid "Export own database entry"
+msgstr "Εξαγωγή ιδίας καταχώρησης στης βάση"
+
+#: $string['data:exportuserinfo']
+msgid "Export user information"
+msgstr ""
+
+#: $string['data:managecomments']
+msgid "Manage comments"
+msgstr "Διαχείρηση σχολίων"
+
+#: $string['data:manageentries']
+msgid "Manage entries"
+msgstr "Διαχείριση καταχωρήσεων"
+
+#: $string['data:managetemplates']
+msgid "Manage templates"
+msgstr "Διαχείριση προτύπων"
+
+#: $string['data:manageuserpresets']
+msgid "Manage all template presets"
+msgstr "Διαχείριση των ρυθμίσεων όλων των προτύπων"
+
+#: $string['data:rate']
+msgid "Rate entries"
+msgstr "Βαθμολόγηση καταχωρήσεων"
+
+#: $string['data:readentry']
+msgid "Read entries"
+msgstr "Ανάγνωση καταχωρήσεων"
+
+#: $string['data:view']
+msgid "View database activity"
+msgstr ""
+
+#: $string['data:viewallratings']
+msgid "View all raw ratings given by individuals"
+msgstr "Εμφάνιση όλων των πρώτων αξιολογήσεων που δόθηκαν ατομικά"
+
+#: $string['data:viewalluserpresets']
+msgid "View presets from all users"
+msgstr "Εμφάνιση προτύπων άλλων χρηστών"
+
+#: $string['data:viewanyrating']
+msgid "View total ratings that anyone received"
+msgstr "Εμφάνιση όλων των συνολικών αξιολογήσεων που έλαβε κάποιος"
+
+#: $string['data:viewentry']
+msgid "View entries"
+msgstr "Εμφάνιση καταχωρήσεων"
+
+#: $string['data:viewrating']
+msgid "View the total rating you received"
+msgstr "Εμφάνιση βαθμολογιών"
+
+#: $string['data:writeentry']
+msgid "Write entries"
+msgstr "Εγγραφή καταχωρήσεων"
+
+#: $string['date']
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: $string['dateentered']
+msgid "Date entered"
+msgstr "Η ημερομηνία καταχωρήθηκε"
+
+#: $string['defaultfielddelimiter']
+msgid "(default is the comma character)"
+msgstr "(το κόμμα είναι ο προεπιλεγμένος χαρακτήρας)"
+
+#: $string['defaultfieldenclosure']
+msgid "(default is none)"
+msgstr "(το προεπιλεγμένο είναι το none)"
+
+#: $string['defaultsortfield']
+msgid "Default sort field"
+msgstr "Προεπιλεγμένο πεδίο ταξινόμησης"
+
+#: $string['delcheck']
+msgid "Bulk delete checkbox"
+msgstr ""
+
+#: $string['delete']
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: $string['deleteallentries']
+msgid "Delete all entries"
+msgstr "Διαγραφή όλων των εγγραφών"
+
+#: $string['deletecomment']
+msgid "Are you sure you want to delete this comment?"
+msgstr "Είστε σίγουρος/η ότι θέλετε να διαγράψετε αυτό το σχόλιο;"
+
+#: $string['deleted']
+msgid "deleted"
+msgstr "διαγράφηκε"
+
+#: $string['deletefield']
+msgid "Delete an existing field"
+msgstr "Διαγραφή υπάρχοντος πεδίου"
+
+#: $string['deletenotenrolled']
+msgid "Delete entries by users not enrolled"
+msgstr "Διαγραφή καταχωρήσεων από μη εγγεγραμμένους χρήστες"
+
+#: $string['deletewarning']
+msgid "Are you sure you want to delete this preset?"
+msgstr "Σίγουρα θέλετε να διαγράψετε αυτές τις ρυθμίσεις;"
+
+#: $string['descending']
+msgid "Descending"
+msgstr "Φθίνουσα"
+
+#: $string['directorynotapreset']
+msgid "{$a->directory} Not a preset: missing files: {$a->missing_files}"
+msgstr ""
+"Ο κατάλογος {$a->directory} δεν περιέχει πρότυπο: λείπουν αρχεία: "
+"{$a->missing_files}"
+
+#: $string['disapprove']
+msgid "Undo approval"
+msgstr ""
+
+#: $string['download']
+msgid "Download"
+msgstr "Κατέβασμα"
+
+#: $string['edit']
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: $string['editcomment']
+msgid "Edit comment"
+msgstr "Επεξεργασία σχολίου"
+
+#: $string['editentry']
+msgid "Edit entry"
+msgstr "Επεξεργασία καταχώρησης"
+
+#: $string['editordisable']
+msgid "Disable editor"
+msgstr "Απενεργοποίηση επεξεργαστή κειμένου"
+
+#: $string['editorenable']
+msgid "Enable editor"
+msgstr "Ενεργοποίηση επεξεργαστή κειμένου"
+
+#: $string['emptyadd']
+msgid "The Add template is empty, generating a default form..."
+msgstr ""
+"Η προσθήκη πρότυπου είναι άδεια, δημιουργία της προεπιλεγμένης φόρμας..."
+
+#: $string['emptyaddform']
+msgid "You did not fill out any fields!"
+msgstr "Δεν συμπληρώσατε κανένα από τα πεδία!"
+
+#: $string['enabletemplateeditorcheck']
+msgid ""
+"Are you sure you want to enable the editor? This may result in content being "
+"altered when the template is saved."
+msgstr ""
+
+#: $string['entries']
+msgid "Entries"
+msgstr "Καταχωρήσεις"
+
+#: $string['entrieslefttoadd']
+msgid ""
+"You must add {$a->entriesleft} more entry/entries in order to complete this "
+"activity"
+msgstr ""
+"Πρέπει να προσθέσετε {$a->entriesleft} περισσότερες καταχωρήσεις ώστε να "
+"ολοκληρώσετε αυτήν τη δραστηριότητα"
+
+#: $string['entrieslefttoaddtoview']
+msgid ""
+"You must add {$a->entrieslefttoview} more entry/entries before you can view "
+"other participants' entries."
+msgstr ""
+"Πρέπει να προσθέσετε {$a->entrieslefttoview} περισσότερες καταχωρήσεις πριν "
+"να μπορέσετε να δείτε τις καταχωρήσεις άλλων χρηστών."
+
+#: $string['entry']
+msgid "Entry"
+msgstr "Καταχώρηση"
+
+#: $string['entrysaved']
+msgid "Your entry has been saved"
+msgstr "Η καταχώρησή σας αποθηκεύτηκε"
+
+#: $string['errormustbeteacher']
+msgid "You need to be a teacher to use this page!"
+msgstr "Πρέπει να είστε καθηγητής για να χρησιμοποιήσετε αυτή την σελίδα!"
+
+#: $string['errormustsupplyvalue']
+msgid "You must supply a value here."
+msgstr ""
+
+#: $string['errorpresetexists']
+msgid "There is already a preset with the selected name"
+msgstr ""
+
+#: $string['eventfieldcreated']
+#, fuzzy
+msgid "Field created"
+msgstr "Το πεδίο ανανεώθηκε"
+
+#: $string['eventfielddeleted']
+#, fuzzy
+msgctxt "$string['eventfielddeleted']"
+msgid "Field deleted"
+msgstr "Το πεδίο διαγράφθηκε"
+
+#: $string['eventfieldupdated']
+#, fuzzy
+msgctxt "$string['eventfieldupdated']"
+msgid "Field updated"
+msgstr "Το πεδίο ανανεώθηκε"
+
+#: $string['eventrecordcreated']
+msgid "Record created"
+msgstr ""
+
+#: $string['eventrecorddeleted']
+msgid "Record deleted"
+msgstr ""
+
+#: $string['eventrecordupdated']
+msgid "Record updated"
+msgstr ""
+
+#: $string['eventtemplateupdated']
+#, fuzzy
+msgid "Template updated"
+msgstr "Το πρότυπο αποθηκεύτηκε"
+
+#: $string['eventtemplateviewed']
+msgid "Templates viewed"
+msgstr ""
+
+#: $string['example']
+msgid "Database module example"
+msgstr "Παράδειγμα αρθρώματος βάσης δεδομένων"
+
+#: $string['excel']
+msgid "Excel"
+msgstr "Excel"
+
+#: $string['expired']
+msgid "Sorry, this activity closed on {$a} and is no longer available"
+msgstr ""
+
+#: $string['export']
+msgid "Export"
+msgstr "Εξαγωγή"
+
+#: $string['exportaszip']
+msgid "Export as zip"
+msgstr "Εξαγωγή ως συμπιεσμένο αρχείο"
+
+#: $string['exportaszip_help']
+msgid ""
+"The export as zip feature allows you to save the templates and fields as a "
+"preset zip for download. The zip may then be imported to another course."
+msgstr ""
+"<p align=\"center\"><strong>Εξαγωγή σε αρχείο zip</strong></p>\n"
+"<p>Με τη λειτουργία αυτή μπορείτε να εξάγετε τη αυτή τη βάσης δεδομένων σε "
+"ένα αρχείο, το οποίο στη συνέχεια μπορεί να μεταφερθεί και να εισαχθεί σε "
+"άλλη βάση δεδομένων με τη λειτουργία \"Εισαγωγή από αρχείο zip\".</p>"
+
+#: $string['exportedtozip']
+msgid "Exported to temporary zip..."
+msgstr "Εξήχθη σε προσωρινό συμπιεσμένο αρχείο..."
+
+#: $string['exportentries']
+msgid "Export entries"
+msgstr "Εξαγωγή καταχωρίσεων"
+
+#: $string['exportownentries']
+msgid "Export your own entries only? ({$a->mine}/{$a->all})"
+msgstr ""
+
+#: $string['failedpresetdelete']
+msgctxt "$string['failedpresetdelete']"
+msgid "Error deleting a preset!"
+msgstr "Σφάλμα κατά τη διαγραφή προτύπου!"
+
+#: $string['fieldadded']
+msgid "Field added"
+msgstr "Προστέθηκε πεδίο"
+
+#: $string['fieldallowautolink']
+msgid "Allow autolink"
+msgstr "Να επιτρέπεται η αυτόματη σύνδεση"
+
+#: $string['fielddeleted']
+msgctxt "$string['fielddeleted']"
+msgid "Field deleted"
+msgstr "Το πεδίο διαγράφθηκε"
+
+#: $string['fielddelimiter']
+msgid "Field delimiter"
+msgstr "Περιορισμός πεδίου"
+
+#: $string['fielddescription']
+msgid "Field description"
+msgstr "Περιγραφή πεδίου"
+
+#: $string['fieldenclosure']
+msgid "Field enclosure"
+msgstr "Εσώκλειστο πεδίο"
+
+#: $string['fieldheight']
+msgid "Height"
+msgstr "Ύψος"
+
+#: $string['fieldheightlistview']
+msgid "Height in list view"
+msgstr "Ύψος στην προβολή λίστας"
+
+#: $string['fieldheightsingleview']
+msgid "Height in single view"
+msgstr "Ύψος στην ατομική προβολή"
+
+#: $string['fieldids']
+msgid "Field ids"
+msgstr "Field ids"
+
+#: $string['fieldmappings']
+msgid "Field mappings"
+msgstr "Χαρτογραφήσεις πεδίων"
+
+#: $string['fieldmappings_help']
+msgid ""
+"This menu allows you to keep the data from the existing database. To "
+"preserve the data in a field, you must map it to a new field, where the data "
+"will appear. Any field can also be left blank, with no infomation copied "
+"into it. Any old field not mapped to a new one will be lost and all it's "
+"data removed.\n"
+"You can only map fields of the same type, so each dropdown will have "
+"different fields in it. Also, you must be careful not to try and map one old "
+"field to more than one new field."
+msgstr ""
+"<p align=\"center\"><strong>Αντιστοιχίσεις πεδίων</strong></p>\n"
+"<p> Για την διατήρηση των δεδομένων σε ένα πεδίο, πρέπει να γίνει "
+"αντιστοίχιση στο νέο πεδίο που τα δεδομένα θα εμφανιστούν. Τα πεδία μπορούν "
+"να μείνουν κενά. Ένα παλιό πεδίο, το όποιο δεν αντιστοιχεί σε ένα νέο, θα "
+"εξαφανιστεί με όλα τα δεδομένα που περιέχει.</p>\n"
+"<p>\n"
+"Είναι δυνατή μονό η αντιστοίχιση πεδίων του ίδιου τύπου. Χρειάζεται προσοχή, "
+"ώστε να μην αντιστοιχίζεται ένα παλιό πεδίο σε παραπάνω από ένα νέο πεδίο.\n"
+"</p>"
+
+#: $string['fieldname']
+msgid "Field name"
+msgstr "Όνομα πεδίου"
+
+#: $string['fieldnotmatched']
+msgid "The following fields in your file are not known in this database: {$a}"
+msgstr "Τα παρακάτω πεδία στο αρχείο σας δε βρίσκονται στη βάση: {$a}"
+
+#: $string['fieldoptions']
+msgid "Options (one per line)"
+msgstr "Ρυθμίσεις (μια ανά γραμμή)"
+
+#: $string['fields']
+msgctxt "$string['fields']"
+msgid "Fields"
+msgstr "Πεδία"
+
+#: $string['fieldupdated']
+msgctxt "$string['fieldupdated']"
+msgid "Field updated"
+msgstr "Το πεδίο ανανεώθηκε"
+
+#: $string['fieldwidth']
+msgid "Width"
+msgstr "Πλάτος"
+
+#: $string['fieldwidthlistview']
+msgid "Width in list view"
+msgstr "Πλάτος στην προβολή λίστας"
+
+#: $string['fieldwidthsingleview']
+msgid "Width in single view"
+msgstr "Πλάτος στην ατομική προβολή"
+
+#: $string['file']
+msgid "File"
+msgstr "Αρχείο"
+
+#: $string['fileencoding']
+msgid "Encoding"
+msgstr "Κωδικοποίηση"
+
+#: $string['filesnotgenerated']
+msgid "Not all files were generated: {$a}"
+msgstr "Δεν παρήχθησαν όλα τα αρχεία: {$a}"
+
+#: $string['filtername']
+msgid "Database auto-linking"
+msgstr "Αυτόματη σύνδεση βάσης δεδομένων"
+
+#: $string['footer']
+msgid "Footer"
+msgstr "Υποσέλιδο"
+
+#: $string['forcelinkname']
+msgid "Forced name for the link"
+msgstr "Επιβεβλημένο όνομα για τον σύνδεσμο"
+
+#: $string['foundnorecords']
+msgid "No records found (<a href=\"{$a->reseturl}\">Reset filters</a>)"
+msgstr "Δε βρέθηκαν εγγραφές (<a href=\"{$a->reseturl}\">Επανορισμός φίλτρων</a>)"
+
+#: $string['foundrecords']
+msgid ""
+"Found records: {$a->num}/{$a->max} (<a href=\"{$a->reseturl}\">Reset "
+"filters</a>)"
+msgstr ""
+"Βρέθηκαν οι εγγραφές: {$a->num}/{$a->max} (<a "
+"href=\"{$a->reseturl}\">Επανορισμός φίλτρων</a>)"
+
+#: $string['fromfile']
+msgid "Import from zip file"
+msgstr "Εισαφωγή από αρχείο zip"
+
+#: $string['fromfile_help']
+msgid ""
+"The import from zip file feature allows you to browse for and upload a "
+"preset zip of templates and fields."
+msgstr ""
+"<p align='center'><strong>Εισαγωγή από αρχείο zip</strong></p>\n"
+"<p>Χρησιμοποιήστε αυτή την επιλογή για να φορτώσετε περιεχόμενα στη βάση "
+"δεδομένων με μία κίνηση. Τα περιεχόμενα θα πρέπει να είναι ήδη διαθέσιμα σαν "
+"αρχείο zip που προήλθε από τη χρήση της λειτουργίας \"Εξαγωγή σε αρχείο "
+"zip\".</p>"
+
+#: $string['generateerror']
+msgid "Not all files generated!"
+msgstr "Δεν παρήχθησαν όλα τα αρχεία!"
+
+#: $string['header']
+msgid "Header"
+msgstr "Επικεφαλίδα"
+
+#: $string['headeraddtemplate']
+msgid "Defines the interface when editing entries"
+msgstr "Ορίζει τη διεπαφή κατά την επεξεργασία των καταχωρήσεων"
+
+#: $string['headerasearchtemplate']
+msgid "Defines the interface for Advanced Searches"
+msgstr "Ορίζει τη διεπαφή για Προχωρημένες Αναζητήσεις"
+
+#: $string['headercsstemplate']
+msgid "Defines local CSS styles for the other templates"
+msgstr "Ορίζει τα τοπικά CSS στυλ από τα άλλα πρότυπα"
+
+#: $string['headerjstemplate']
+msgid "Defines custom Javascript for the other templates"
+msgstr "Ορίζει προσωπικά ορισμένο Javascipt από τα άλλα πρότυπα"
+
+#: $string['headerlisttemplate']
+msgid "Defines browsing interface for multiple entries"
+msgstr "Ορίζει την διεπαφή πλοήγησης για πολλαπλές καταχωρήσεις"
+
+#: $string['headerrsstemplate']
+msgid "Defines appearance of entries in RSS feeds"
+msgstr "Ορίζει την εμφάνιση των καταχωρήσεων στα RSS feeds"
+
+#: $string['headersingletemplate']
+msgid "Defines browsing interface for a single entry"
+msgstr "Ορίζει την διεπαφή πλοήγησης για μια καταχώρηση"
+
+#: $string['importentries']
+#, fuzzy
+msgid "Import entries"
+msgstr "Εξαγωγή καταχωρίσεων"
+
+#: $string['importsuccess']
+msgid "The preset has been successfully applied."
+msgstr "Οι ρυθμίσεις εφαρμόστηκαν με επιτυχία."
+
+#: $string['includeapproval']
+msgid "Include approval status"
+msgstr ""
+
+#: $string['includetags']
+msgid "Include tags"
+msgstr ""
+
+#: $string['includetime']
+msgid "Include time added/modified"
+msgstr "Συμπερίληψη ώρας προσθήκης / τροποποίησης"
+
+#: $string['includeuserdetails']
+msgid "Include user details"
+msgstr ""
+
+#: $string['indicator:cognitivedepth']
+msgid "Database cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepth_help']
+msgid ""
+"This indicator is based on the cognitive depth reached by the student in a "
+"Database activity."
+msgstr ""
+
+#: $string['indicator:socialbreadth']
+msgid "Database social"
+msgstr ""
+
+#: $string['indicator:socialbreadth_help']
+msgid ""
+"This indicator is based on the social breadth reached by the student in a "
+"Database activity."
+msgstr ""
+
+#: $string['insufficiententries']
+msgid "more entries needed to view this database"
+msgstr ""
+"περισσότερες καταχωρήσεις απαιτούνται για την εμφάνιση αυτής της βάσης "
+"δεδομένων"
+
+#: $string['intro']
+msgid "Description"
+msgstr "Εισαγωγή"
+
+#: $string['invalidaccess']
+msgid "This page was not accessed correctly"
+msgstr "Η πρόσβαση σε αυτήν τη σελίδα δεν είναι σωστή"
+
+#: $string['invalidfieldid']
+msgid "Field ID is incorrect"
+msgstr "Το πεδίο ID είναι λανθασμένο"
+
+#: $string['invalidfieldname']
+msgid "Please choose another name for this field"
+msgstr "Παρακαλώ επιλέξτε ένα άλλο όνομα για αυτό το πεδίο"
+
+#: $string['invalidfieldtype']
+msgid "Field type is incorrect"
+msgstr "Το πεδίο Type είναι λανθασμένο"
+
+#: $string['invalidid']
+msgid "Incorrect data ID"
+msgstr "Λανθασμένο ID δεδομένων"
+
+#: $string['invalidpreset']
+msgid "{$a} is not a preset."
+msgstr "Το {$a} δεν είναι πρότυπο."
+
+#: $string['invalidrecord']
+msgid "Incorrect record"
+msgstr "Λανθασμένη εγγραφή"
+
+#: $string['invalidurl']
+msgid "The URL you just entered is not valid"
+msgstr "Το URL που εισαγάγατε δεν είναι έγκυρο"
+
+#: $string['jstemplate']
+msgid "Javascript template"
+msgstr "Πρότυπο Javascript"
+
+#: $string['latitude']
+msgid "Latitude"
+msgstr "Γεωγραφικό πλάτος"
+
+#: $string['latlong']
+msgid "Latitude/longitude"
+msgstr "Γεωγραφικό πλάτος/μήκος"
+
+#: $string['latlongboth']
+msgid "Both latitude and longitude are required."
+msgstr ""
+
+#: $string['latlongdownloadallhint']
+msgid "Download link for all entries as KML"
+msgstr "Λήψη σύνδεσης για όλες τις καταχωρήσεις ως KML"
+
+#: $string['latlongkmllabelling']
+msgid "How to label items in KML files (Google Earth)"
+msgstr "Πως να χαρακτηρίζονται τα αντικείμενα στα KML αρχεία (Google Earth)"
+
+#: $string['latlonglinkservicesdisplayed']
+msgid "Link-out services to display"
+msgstr "Υπηρεσίες link-out προς εμφάνιση"
+
+#: $string['latlongotherfields']
+msgid "Other fields"
+msgstr "Άλλα πεδία"
+
+#: $string['list']
+msgid "View list"
+msgstr "Προβολή λίστας"
+
+#: $string['listtemplate']
+msgid "List template"
+msgstr "Πρότυπο λίστας"
+
+#: $string['longitude']
+msgid "Longitude"
+msgstr "Γεωγραφικό μήκος"
+
+#: $string['manageapproved']
+msgid "Allow editing of approved entries"
+msgstr ""
+
+#: $string['manageapproved_help']
+msgid ""
+"If disabled, approved entries are no longer editable or deletable by the "
+"user who added them. This setting has no effect unless 'Approval required' "
+"is enabled."
+msgstr ""
+
+#: $string['mapexistingfield']
+msgid "Map to {$a}"
+msgstr ""
+
+#: $string['mapnewfield']
+#, fuzzy
+msgctxt "$string['mapnewfield']"
+msgid "Create a new field"
+msgstr "Δημιουργία νέου πεδίου"
+
+#: $string['mappingwarning']
+msgid ""
+"All old fields not mapped to a new field will be lost and all data in that "
+"field will be removed."
+msgstr ""
+"Όλα τα παλιά πεδία που δεν έχουν αντιστοιχηθεί σε καινούργια πεδία θα χαθούν "
+"και τα δεδομένα των πεδίων αυτών θα αφαιρεθούν."
+
+#: $string['maxentries']
+msgid "Maximum number of entries"
+msgstr "Μέγιστες καταχωρήσεις"
+
+#: $string['maxentries_help']
+msgid ""
+"The maximum number of entries a student is allowed to submit for this "
+"activity."
+msgstr ""
+"<title>Μέγιστος αριθμός καταχωρήσεων </title>\n"
+"<p align=\"center\"><strong>Μέγιστος αριθμός καταχωρήσεων </strong></p>\n"
+"\n"
+"<p>Ο μέγιστος αριθμός καταχωρήσεων που κάθε μαθητής μπορεί να υποβάλλει σ' "
+"αυτή τη βάση δεδομένων.</p>"
+
+#: $string['maxsize']
+msgid "Maximum size"
+msgstr "Μέγιστο μέγεθος"
+
+#: $string['menu']
+msgid "Menu"
+msgstr "Μενού"
+
+#: $string['menuchoose']
+msgid "Choose..."
+msgstr "Επιλέξτε...."
+
+#: $string['missingdata']
+msgid "Data id or object must be provided to field class"
+msgstr "Πρέπει να οριστεί το id δεδομένων ή αντικειμένου στην κλάση πεδίου"
+
+#: $string['missingfield']
+msgid ""
+"Programmer error: You must specify field and/or data when defining field "
+"class."
+msgstr ""
+"Προγραμματιστικό λάθος: Πρέπει να ορίσετε το πεδίο και/ή δεδομένα κατά τον "
+"ορισμό της κλάσης πεδίου."
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Database"
+msgstr "Βάση δεδομένων"
+
+#: $string['modulename_help']
+msgid ""
+"The database activity module enables participants to create, maintain and "
+"search a collection of entries (i.e. records).  The structure of the entries "
+"is defined by the teacher as a number of fields. Field types include "
+"checkbox, radio buttons, dropdown menu, text area, URL, picture and uploaded "
+"file.\n"
+"\n"
+"The visual layout of information when listing, viewing or editing database "
+"entries may be controlled by database templates. Database activities may be "
+"shared between courses as presets and a teacher may also import and export "
+"database entries.\n"
+"\n"
+"If the database auto-linking filter is enabled, any entries in a database "
+"will be automatically linked where the words or phrases appear within the "
+"course.\n"
+"\n"
+"A teacher can allow comments on entries. Entries can also be rated by "
+"teachers or students (peer evaluation). Ratings can be aggregated to form a "
+"final grade which is recorded in the gradebook.\n"
+"\n"
+"Database activities have many uses, such as\n"
+"\n"
+"* A collaborative collection of web links, books, book reviews, journal "
+"references etc\n"
+"* For displaying student-created photos, posters, websites or poems for peer "
+"comment and review"
+msgstr ""
+
+#: $string['modulename_link']
+msgid "mod/data/view"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Databases"
+msgstr "Βάσεις δεδομένων"
+
+#: $string['more']
+msgid "More"
+msgstr "Περισσότερα"
+
+#: $string['moreurl']
+msgid "More URL"
+msgstr "Περισσότερα URL"
+
+#: $string['movezipfailed']
+msgid "Can't move zip"
+msgstr "Δεν είναι δυνατή η μετακίνηση του συμπιεσμένου αρχείου"
+
+#: $string['multientry']
+msgid "Repeated entry"
+msgstr "Επαναλαμβανόμενη καταχώρηση"
+
+#: $string['multimenu']
+msgid "Menu (Multi-select)"
+msgstr "Μενού (Πολλαπλή επιλογή)"
+
+#: $string['multipletags']
+msgid "Multiple tags found! Template not saved"
+msgstr "Βρέθηκαν πολλαπλές ετικέτες! Το πρότυπο δεν αποθηκεύτηκε"
+
+#: $string['namecheckbox']
+msgid "Checkbox field"
+msgstr "Πεδίο κουμπιού επιλογής"
+
+#: $string['namedate']
+msgid "Date field"
+msgstr "Πεδίο ημερομηνίας"
+
+#: $string['namefile']
+msgid "File field"
+msgstr "Πεδίο αρχείου"
+
+#: $string['namelatlong']
+msgid "Latitude/longitude field"
+msgstr "Πεδίο γεωγραφικού πλάτους/μήκους"
+
+#: $string['namemenu']
+msgid "Menu field"
+msgstr "Πεδίο μενού"
+
+#: $string['namemultimenu']
+msgid "Multiple-selection menu field"
+msgstr "Πεδίο μενού πολλαπλών επιλογών"
+
+#: $string['namenumber']
+msgid "Number field"
+msgstr "Πεδίο αριθμών"
+
+#: $string['namepicture']
+msgid "Picture field"
+msgstr "Πεδίο εικόνων"
+
+#: $string['nameradiobutton']
+msgid "Radio button field"
+msgstr "Πεδίο radio button"
+
+#: $string['nametext']
+msgid "Text field"
+msgstr "Πεδίο κειμένου"
+
+#: $string['nametextarea']
+msgid "Textarea field"
+msgstr "Πεδίο χώρου κειμένου"
+
+#: $string['nameurl']
+msgid "URL field"
+msgstr "Πεδίο URL"
+
+#: $string['newentry']
+msgid "New entry"
+msgstr "Νέα καταχώρηση"
+
+#: $string['newfield']
+msgctxt "$string['newfield']"
+msgid "Create a new field"
+msgstr "Δημιουργία νέου πεδίου"
+
+#: $string['newfield_help']
+msgid ""
+"A field allows the input of data. Each entry in a database activity can have "
+"multiple fields of multiple types such as a date field, which allows "
+"participants to select a day, month and year from a dropdown list, a picture "
+"field, which allows participants to upload an image file, or a checkbox "
+"field, which allows participants to select one or more options.\n"
+"\n"
+"Each field must have a unique field name. The field description is optional."
+msgstr ""
+"<p align=\"center\"><strong>Πεδία</strong></p>\n"
+"\n"
+"<p>Δημιουργία πεδίων της βάσης δεδομένων. Κάθε πεδίο δέχεται διαφορετικούς "
+"τύπους δεδομένων.</p>"
+
+#: $string['noaccess']
+msgid "You do not have access to this page"
+msgstr "Δεν έχετε πρόσβαση σε αύτην την σελίδα"
+
+#: $string['nodefinedfields']
+msgid "New preset has no defined fields!"
+msgstr "Το νέο προεπιλεγμένο δεν έχει ορισμένη κλάση!"
+
+#: $string['nofieldcontent']
+msgid "Field content not found"
+msgstr "Δε βρέθηκαν περιεχόμενα πεδίου"
+
+#: $string['nofieldindatabase']
+msgid "There are no fields defined for this database."
+msgstr "Δεν έχουν οριστεί πεδία για αυτήν τη βάση δεδομένων"
+
+#: $string['nolisttemplate']
+msgid "List template is not yet defined"
+msgstr "Το πρότυπο λίστας δεν έχει οριστεί ακόμα"
+
+#: $string['nomatch']
+msgid "No matching entries found!"
+msgstr "Δεν βρέθηκαν καταχωρήσεις που να ταιριάζουν!"
+
+#: $string['nomaximum']
+msgid "No maximum"
+msgstr "Χωρίς μέγιστο"
+
+#: $string['norecords']
+msgid "No entries in database"
+msgstr "Δεν υπάρχουν καταχωρήσεις στη βάση δεδομένων"
+
+#: $string['nosingletemplate']
+msgid "Single template is not yet defined"
+msgstr "Το ατομικό πρότυπο δεν έχει οριστεί ακόμα"
+
+#: $string['notapproved']
+msgid "Entry is not approved yet."
+msgstr ""
+
+#: $string['notinjectivemap']
+msgid "Not an injective map"
+msgstr "Δεν είναι injective map"
+
+#: $string['notopenyet']
+msgid "Sorry, this activity is not available until {$a}"
+msgstr "Συγνώμη, αυτή η δραστηριότητα δεν είναι διαθέσιμη μέχρι {$a}"
+
+#: $string['number']
+msgid "Number"
+msgstr "Αριθμός"
+
+#: $string['numberrssarticles']
+msgid "Entries in the RSS feed"
+msgstr "RSS Άρθρα"
+
+#: $string['numnotapproved']
+msgid "Pending"
+msgstr "Εκκρεμεί"
+
+#: $string['numrecords']
+msgid "{$a} entries"
+msgstr "{$a} καταχωρήσεις"
+
+#: $string['ods']
+msgid "<acronym title=\"OpenDocument Spreadsheet\">ODS</acronym> (OpenOffice)"
+msgstr "<acronym title=\"OpenDocument Spreadsheet\">ODS</acronym> (OpenOffice)"
+
+#: $string['openafterclose']
+msgid "You have specified an open date after the close date"
+msgstr ""
+
+#: $string['optionaldescription']
+msgid "Short description (optional)"
+msgstr "Μικρή περιγραφή (προαιρετικό)"
+
+#: $string['optionalfilename']
+msgid "Filename (optional)"
+msgstr "Όνομα αρχείου (προαιρετικό)"
+
+#: $string['other']
+msgid "Other"
+msgstr "Άλλο"
+
+#: $string['overrwritedesc']
+msgid "Overwrite the preset if it already exists"
+msgstr "Αντικατάσταση προκαθορισμένου αν υπάρχει ήδη"
+
+#: $string['overwrite']
+msgid "Overwrite"
+msgstr "Επικάλυψη"
+
+#: $string['overwritesettings']
+msgid "Overwrite current settings"
+msgstr "Επικάλυψη τρέχουσας ρύθμισης"
+
+#: $string['page-mod-data-x']
+msgid "Any database activity module page"
+msgstr ""
+
+#: $string['pagesize']
+msgid "Entries per page"
+msgstr "Καταχωρήσεις ανά σελίδα"
+
+#: $string['participants']
+msgid "Participants"
+msgstr "Συμμετέχοντες"
+
+#: $string['picture']
+msgid "Picture"
+msgstr "Εικόνα"
+
+#: $string['pleaseaddsome']
+msgid ""
+"Please create some below or <a href=\"{$a}\">choose a predefined set</a> to "
+"get started."
+msgstr ""
+"Παρακαλώ δημιουργήστε μερικά παρακάτω ή <a href=\"{$a}\"> επιλέξετε ένα ήδη "
+"ορισμένο σετ</a> για να ξεκινήσετε."
+
+#: $string['pluginadministration']
+msgid "Database activity administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Database"
+msgstr "Βάση δεδομένων"
+
+#: $string['portfolionotfile']
+msgid "Export to a portfolio rather than a file (csv and leap2a only)"
+msgstr "Εξαγωγή σε χαρτοφυλάκιο αντί αρχείου (μόνο csv)"
+
+#: $string['presetinfo']
+msgid ""
+"Saving as a preset will publish this template. Other users may be able to "
+"use it in their databases."
+msgstr ""
+"Η αποθήκευση ως πρότυπο θα έχει σαν αποτέλεσμα άλλοι χρήστες να μπορούν να "
+"το χρησιμοποιήσουν στις βάσεις δεδομένων τους."
+
+#: $string['presets']
+msgctxt "$string['presets']"
+msgid "Presets"
+msgstr "Προεπιλεγμένα"
+
+#: $string['radiobutton']
+msgid "Radio buttons"
+msgstr "Κουμπί μοναδικής επιλογής"
+
+#: $string['recordapproved']
+msgid "Entry approved"
+msgstr "Η καταχώρηση εγκρίθηκε"
+
+#: $string['recorddeleted']
+msgid "Entry deleted"
+msgstr "Η καταχώρηση διαγράφθηκε"
+
+#: $string['recorddisapproved']
+#, fuzzy
+msgid "Entry unapproved"
+msgstr "Η καταχώρηση εγκρίθηκε"
+
+#: $string['recordsnotsaved']
+msgid "No entry was saved. Please check the format of the uploaded file."
+msgstr ""
+"Δεν αποθηκεύτηκε καμία καταχώρηση. Ελέγξτε την μορφή του αρχείου που "
+"ανεβάσατε."
+
+#: $string['recordssaved']
+msgid "entries saved"
+msgstr "καταχωρήσεις αποθηκεύτηκαν"
+
+#: $string['removealldatatags']
+msgid "Remove all database tags"
+msgstr ""
+
+#: $string['requireapproval']
+msgid "Approval required"
+msgstr "Απαιτείται έγκριση καθηγητή"
+
+#: $string['requireapproval_help']
+msgid ""
+"If enabled, entries require approving by a teacher before they are viewable "
+"by everyone."
+msgstr ""
+"<p align=\"center\"><strong>Απαίτηση έγκρισης</strong></p>\n"
+"\n"
+"<p>Αν ενεργοποιήσετε αυτή την επιλογή, όλες οι καταχωρήσεις που γίνονται από "
+"μαθητές θα πρέπει να εγκρίνονται από τον καθηγητή πριν εμφανιστούν σε "
+"άλλους χρήστες. Αυτό είναι χρήσιμο για τη διαχείριση περιεχομένου που μπορεί "
+"να είναι ακατάλληλο ή προσβλητικό.</p>"
+
+#: $string['required']
+msgid "Required"
+msgstr ""
+
+#: $string['requiredentries']
+msgid "Entries required for completion (old)"
+msgstr "Απαιτούμενες καταχωρήσεις"
+
+#: $string['requiredentries_help']
+msgid ""
+"If set, a message is displayed stating the number of entries required for "
+"completion. Note that this setting is not connected to activity completion.\n"
+"\n"
+"For entries required for activity completion, the new Activity completion "
+"setting 'Require entries' should be used. To remove this setting completely, "
+"set to none, then save changes.\n"
+"Please use the Entries required fields in the Activity completion section "
+"instead."
+msgstr ""
+"<p align=\"center\"><strong>Απαιτούμενες καταχωρήσεις</strong></p>\n"
+"\n"
+"<p>Ο αριθμός των καταχωρήσεων που απαιτούνται από κάθε μαθητή να εισάγει. Οι "
+"μαθητές θα δουν ένα μήνυμα υπενθύμισηςεάν δεν έχουν εισάγει τον απαοτύμενο "
+"αριθμό εγγραφών.</p>\n"
+"\n"
+"<p>Η διαδικασία δε θα ολοκληρωθεί αν δεν εισαχθούν όλες οι απαιτούμενες "
+"καταχωρήσεις.</p>"
+
+#: $string['requiredentriestoview']
+msgid "Entries required before viewing"
+msgstr "Απαιτούμενες καταχωρήσεις πριν την προβολή"
+
+#: $string['requiredentriestoview_help']
+msgid ""
+"The number of entries a student is required to submit before they can view "
+"entries from other students.\n"
+"\n"
+"Note: If entries are required before viewing, the database auto-linking "
+"filter should be disabled. This is because the database auto-linking filter "
+"can't determine whether a user has submitted the required number of entries."
+msgstr ""
+"<p align=\"center\"><strong>Απαιτούμενες καταχωρήσεις για προβολή</strong></p>\n"
+"\n"
+"<p>Ο αριθμός των καταχωρήσεων που ο συμμετέχοντας πρέπει να εισάγει προτού "
+"του επιτραπεί να δει άλλες καταχωρήσεις αυτής της δραστηριότητας.</p>"
+
+#: $string['requiredentrieswarning']
+msgid ""
+"This setting has been replaced by an Activity completion setting \"Require "
+"entries\""
+msgstr ""
+
+#: $string['requiredfield']
+msgid "Required field"
+msgstr ""
+
+#: $string['resetsettings']
+msgid "Reset filters"
+msgstr "Επανορισμός φίλτρων"
+
+#: $string['resettemplate']
+msgid "Reset template"
+msgstr "Επαναρύθμιση προτύπου"
+
+#: $string['resizingimages']
+msgid "Resizing image thumbnails..."
+msgstr "Τροποποίηση μεγέθους των σελιδοδεικτών..."
+
+#: $string['rows']
+msgid "rows"
+msgstr "γραμμές"
+
+#: $string['rssglobaldisabled']
+msgid "Disabled. See site configuration variables."
+msgstr "Απενεργοποιήθηκε. Δείτε τις μεταβλητές ρύθμισης της σελίδας."
+
+#: $string['rsstemplate']
+msgid "RSS template"
+msgstr "RSS πρότυπο"
+
+#: $string['rsstitletemplate']
+msgid "RSS title template"
+msgstr "RSS πρότυπο τίτλου"
+
+#: $string['save']
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: $string['saveandadd']
+msgid "Save and add another"
+msgstr "Αποθήκευση και προσθήκη και άλλου"
+
+#: $string['saveandview']
+msgid "Save and view"
+msgstr "Αποθήκευση και προβολή"
+
+#: $string['saveaspreset']
+msgid "Save as preset"
+msgstr "Αποθήκευση ως πρότυπο"
+
+#: $string['saveaspreset_help']
+msgid ""
+"The save as preset feature publishes the templates and fields as a preset "
+"which others on the site can then use. (You may delete it from the list of "
+"presets at any time.)"
+msgstr ""
+"<p align=\"center\"><strong>Αποθήκευση ως πρότυπο</strong></p>\n"
+"<p>Με τη λειτουργία αυτή, η τρέχουσα δομή της βάσης δεδομένων αποθηκεύεται "
+"στο Moodle ως πρότυπο και μπορεί να χρησιμοποιηθεί από οποιονδήποτε για τη "
+"δημιουργία μιας νέας βάσης δεδομένων με την ίδια ακριβώς δομή. Μπορείτε να "
+"αφαιρέσετε αυτό ή άλλο πρότυπο οποιαδήποτε στιγμή θέλετε.</p>"
+
+#: $string['savesettings']
+msgid "Save settings"
+msgstr "Αποθήκευση ρυθμίσεων"
+
+#: $string['savesuccess']
+msgid "Saved successfully. Your preset will now be available across the site."
+msgstr ""
+"Επιτυχής αποθήκευση. Το πρότυπό σας θα είναι διαθέσιμο σε όλη την "
+"ιστοσελίδα."
+
+#: $string['savetemplate']
+msgid "Save template"
+msgstr "Αποθήκευση προτύπου"
+
+#: $string['search']
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: $string['search:activity']
+msgid "Database - activity information"
+msgstr ""
+
+#: $string['search:entry']
+msgid "Database - entries"
+msgstr ""
+
+#: $string['selectedrequired']
+msgid "All selected required"
+msgstr "Απαιτούνται όλα τα επιλεγμένα"
+
+#: $string['showall']
+msgid "Show all entries"
+msgstr "Προβολή όλων των καταχωρήσεων"
+
+#: $string['single']
+msgid "View single"
+msgstr "Προβολή μοναδιαίας"
+
+#: $string['singletemplate']
+msgid "Single template"
+msgstr "Μονό πρότυπο"
+
+#: $string['subplugintype_datafield']
+#, fuzzy
+msgid "Database field type"
+msgstr "Τύποι πεδίων βάσης δεδομένων"
+
+#: $string['subplugintype_datafield_plural']
+msgid "Database field types"
+msgstr "Τύποι πεδίων βάσης δεδομένων"
+
+#: $string['subplugintype_datapreset']
+#, fuzzy
+msgid "Preset"
+msgstr "Προεπιλεγμένα"
+
+#: $string['subplugintype_datapreset_plural']
+msgctxt "$string['subplugintype_datapreset_plural']"
+msgid "Presets"
+msgstr "Προεπιλεγμένα"
+
+#: $string['tagarea_data_records']
+msgid "Data records"
+msgstr ""
+
+#: $string['tags']
+msgid "Tags"
+msgstr "Ετικέτες"
+
+#: $string['tagsdeleted']
+msgid "Database tags have been deleted"
+msgstr ""
+
+#: $string['teachersandstudents']
+msgid "{$a->teachers} and {$a->students}"
+msgstr "{$a->teachers} και {$a->students}"
+
+#: $string['templates']
+msgid "Templates"
+msgstr "Πρότυπα"
+
+#: $string['templatesaved']
+msgid "Template saved"
+msgstr "Το πρότυπο αποθηκεύτηκε"
+
+#: $string['text']
+msgid "Text"
+msgstr "Κείμενο"
+
+#: $string['textarea']
+msgid "Textarea"
+msgstr "Περιοχή κειμένου"
+
+#: $string['timeadded']
+msgid "Time added"
+msgstr "Προστέθηκε χρόνος"
+
+#: $string['timemodified']
+msgid "Time modified"
+msgstr "Ο χρόνος μεταβλήθηκε"
+
+#: $string['todatabase']
+msgid "to this database."
+msgstr "σε αυτή τη βάση δεδομένων."
+
+#: $string['type']
+msgid "Field type"
+msgstr "Τύπος πεδίου"
+
+#: $string['undefinedprocessactionmethod']
+msgid "No action method defined in Data_Preset to handle action \"{$a}\"."
+msgstr ""
+"Δεν έχει οριστεί μέθοδος ενέργειας στο Data_Preset ώστε να χειριστεί την "
+"ενέργεια \"{$a}\"."
+
+#: $string['unsupportedexport']
+msgid "({$a->fieldtype}) cannot be exported."
+msgstr "Το ({$a->fieldtype}) δε γίνεται να εξαχθεί."
+
+#: $string['updatefield']
+msgid "Update an existing field"
+msgstr "Ανανέωση ενός υπάρχοντος πεδίου"
+
+#: $string['uploadfile']
+msgid "Upload file"
+msgstr "Ανέβασμα αρχείου"
+
+#: $string['uploadrecords']
+msgid "Upload entries from a file"
+msgstr "Ανέβασμα καταχωρήσεων από αρχείο"
+
+#: $string['uploadrecords_help']
+msgid ""
+"Entries may be uploaded via text file. The format of the file should be as "
+"follows:\n"
+"\n"
+"* Each line of the file contains one record\n"
+"* Each record is a series of data separated by commas (or other delimiters)\n"
+"* The first record contains a list of fieldnames defining the format of the "
+"rest of the file\n"
+"\n"
+"The field enclosure is a character that surrounds each field in each record. "
+"It can normally be left unset."
+msgstr ""
+
+#: $string['uploadrecords_link']
+msgid "mod/data/import"
+msgstr ""
+
+#: $string['url']
+msgid "Url"
+msgstr "Url"
+
+#: $string['usedate']
+msgid "Include in search."
+msgstr ""
+
+#: $string['usestandard']
+msgid "Use a preset"
+msgstr "Χρήση προτύπου"
+
+#: $string['usestandard_help']
+msgid ""
+"To use a preset available to the whole site, select it from the list. (If "
+"you have added a preset to the list using the save as preset feature then "
+"you have the option of deleting it.)"
+msgstr ""
+"<p align=\"center\"><strong>Χρήση προτύπου</strong></p>\n"
+"<p>Με τη λειτουργία αυτή μπορείτε να επιλέξετε ένα έτοιμο πρότυπο για τη "
+"δομή της βάσης δεδομένων, κάτι που σας απαλλάσσει από την ανάγκη να "
+"καθορίσετε τη δομή χειροκίνητα.</p>\n"
+"<p>Επίσης, μπορείτε να διαγράψετε όσα πρότυπα έχετε προσθέσει στη λίστα "
+"έτοιμων προτύπων.</p>"
+
+#: $string['viewfromdate']
+msgid "Read only from"
+msgstr "Ορατό από"
+
+#: $string['viewtodate']
+msgid "Read only to"
+msgstr "Ορατό σε"
+
+#: $string['viewtodatevalidation']
+msgid "The read only to date cannot be before the read only from date."
+msgstr ""
+
+#: $string['wrongdataid']
+msgid "Wrong data id provided"
+msgstr "Έχουν δοθεί λάθος δεδομένα"

@@ -1,0 +1,89 @@
+#. extracted from lang/en/engagement.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'engagement', language 'en', branch 'MOODLE_27_STABLE'
+#.  *
+#.  * @package   engagement
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['cachettl']
+msgid "Cache TTL"
+msgstr ""
+
+#: $string['cachingdisabled']
+msgid "Caching Disabled"
+msgstr ""
+
+#: $string['configcachettl']
+msgid ""
+"This setting specifies the Time To Live for cached\n"
+"engagement data.  If this is set, risk calculations displayed in the\n"
+"block will not necessarily reflect live data, but will instead will be\n"
+"calculated over the cached information.  Eg. new assignment submissions, "
+"logins\n"
+"etc will not be detected until the cached data expires.  This setting is\n"
+"important for performance reasons, so as to not overload the database with\n"
+"queries on high-traffic sites."
+msgstr ""
+
+#: $string['engagement:addinstance']
+msgid "Add an engagement instance"
+msgstr ""
+
+#: $string['incorrectlyconfigured']
+msgid ""
+"This plugin has been incorrectly configured. It is not intended to be added "
+"to a course in\n"
+"this fashion. Please contact your system administrator to set the "
+"mod_engagement plugin as hidden."
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Engagement analytics"
+msgstr ""
+
+#: $string['modulenameplural']
+msgctxt "$string['modulenameplural']"
+msgid "Engagement analytics"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Engagement analytics"
+msgstr ""
+
+#: $string['riskscore']
+msgid "Risk score"
+msgstr ""
+
+#: $string['roles_desc']
+msgid "The roles to report on in the engagement block and reports"
+msgstr ""

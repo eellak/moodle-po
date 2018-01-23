@@ -1,0 +1,448 @@
+#. extracted from lang/en/tool_uploadcourse.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'tool_uploadcourse', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   tool_uploadcourse
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['allowdeletes']
+msgid "Allow deletes"
+msgstr "Να επιτρέπονται διαγραφές"
+
+#: $string['allowdeletes_help']
+msgid "Whether the delete field is accepted or not."
+msgstr ""
+
+#: $string['allowrenames']
+msgid "Allow renames"
+msgstr "Να επιτρέπονται μετονομασίες"
+
+#: $string['allowrenames_help']
+msgid "Whether the rename field is accepted or not."
+msgstr ""
+
+#: $string['allowresets']
+msgid "Allow resets"
+msgstr "Να επιτρέπονται επαναφορές"
+
+#: $string['allowresets_help']
+msgid "Whether the reset field is accepted or not."
+msgstr ""
+
+#: $string['cachedef_helper']
+msgid "Helper caching"
+msgstr ""
+
+#: $string['cannotdeletecoursenotexist']
+msgid "Cannot delete a course that does not exist"
+msgstr ""
+
+#: $string['cannotgenerateshortnameupdatemode']
+msgid "Cannot generate a shortname when updates are allowed"
+msgstr ""
+
+#: $string['cannotreadbackupfile']
+msgid "Cannot read the backup file"
+msgstr ""
+
+#: $string['cannotrenamecoursenotexist']
+msgid "Cannot rename a course that does not exist"
+msgstr ""
+
+#: $string['cannotrenameidnumberconflict']
+msgid ""
+"Cannot rename the course, the ID number conflicts with an existing course"
+msgstr ""
+
+#: $string['cannotrenameshortnamealreadyinuse']
+msgid "Cannot rename the course, the shortname is already used"
+msgstr ""
+
+#: $string['cannotupdatefrontpage']
+msgid "It is forbidden to modify the front page"
+msgstr ""
+
+#: $string['canonlyrenameinupdatemode']
+msgid "Can only rename a course when update is allowed"
+msgstr ""
+
+#: $string['canonlyresetcourseinupdatemode']
+msgid "Can only reset a course in update mode"
+msgstr ""
+
+#: $string['couldnotresolvecatgorybyid']
+msgid "Could not resolve category by ID"
+msgstr ""
+
+#: $string['couldnotresolvecatgorybyidnumber']
+msgid "Could not resolve category by ID number"
+msgstr ""
+
+#: $string['couldnotresolvecatgorybypath']
+msgid "Could not resolve category by path"
+msgstr ""
+
+#: $string['coursecreated']
+msgid "Course created"
+msgstr ""
+
+#: $string['coursedeleted']
+msgid "Course deleted"
+msgstr ""
+
+#: $string['coursedeletionnotallowed']
+msgid "Course deletion is not allowed"
+msgstr ""
+
+#: $string['coursedoesnotexistandcreatenotallowed']
+msgid "The course does not exist and creating course is not allowed"
+msgstr ""
+
+#: $string['courseexistsanduploadnotallowed']
+msgid "The course exists and update is not allowed"
+msgstr ""
+
+#: $string['coursefile']
+msgid "File"
+msgstr "Αρχείο"
+
+#: $string['coursefile_help']
+msgid "This file must be a CSV file."
+msgstr ""
+
+#: $string['courseidnumberincremented']
+msgid "Course ID number incremented {$a->from} -> {$a->to}"
+msgstr ""
+
+#: $string['courseprocess']
+msgid "Course process"
+msgstr ""
+
+#: $string['courserenamed']
+msgid "Course renamed"
+msgstr ""
+
+#: $string['courserenamingnotallowed']
+msgid "Course renaming is not allowed"
+msgstr ""
+
+#: $string['coursereset']
+msgid "Course reset"
+msgstr ""
+
+#: $string['courseresetnotallowed']
+msgid "Course reset now allowed"
+msgstr ""
+
+#: $string['courserestored']
+msgid "Course restored"
+msgstr ""
+
+#: $string['coursescreated']
+msgid "Courses created: {$a}"
+msgstr ""
+
+#: $string['coursesdeleted']
+msgid "Courses deleted: {$a}"
+msgstr ""
+
+#: $string['courseserrors']
+msgid "Courses errors: {$a}"
+msgstr ""
+
+#: $string['courseshortnamegenerated']
+msgid "Course shortname generated: {$a}"
+msgstr ""
+
+#: $string['courseshortnameincremented']
+msgid "Course shortname incremented {$a->from} -> {$a->to}"
+msgstr ""
+
+#: $string['coursestotal']
+msgid "Courses total: {$a}"
+msgstr ""
+
+#: $string['coursesupdated']
+msgid "Courses updated: {$a}"
+msgstr ""
+
+#: $string['coursetemplatename']
+msgid "Restore from this course after upload"
+msgstr ""
+
+#: $string['coursetemplatename_help']
+msgid ""
+"Enter an existing course shortname to use as a template for the creation of "
+"all courses."
+msgstr ""
+
+#: $string['coursetorestorefromdoesnotexist']
+msgid "The course to restore from does not exist"
+msgstr ""
+
+#: $string['courseupdated']
+msgid "Course updated"
+msgstr ""
+
+#: $string['createall']
+msgid "Create all, increment shortname if needed"
+msgstr ""
+
+#: $string['createnew']
+msgid "Create new courses only, skip existing ones"
+msgstr ""
+
+#: $string['createorupdate']
+msgid "Create new courses, or update existing ones"
+msgstr ""
+
+#: $string['csvdelimiter']
+msgid "CSV delimiter"
+msgstr "Διαχωριστικό CSV"
+
+#: $string['csvdelimiter_help']
+msgid "CSV delimiter of the CSV file."
+msgstr "Διαχωριστικό αρχείου CSV."
+
+#: $string['csvfileerror']
+msgid ""
+"There is something wrong with the format of the CSV file. Please check the "
+"number of headings and columns match, and that the delimiter and file "
+"encoding are correct: {$a}"
+msgstr ""
+
+#: $string['csvline']
+msgid "Line"
+msgstr ""
+
+#: $string['defaultvalues']
+msgid "Default course values"
+msgstr ""
+
+#: $string['encoding']
+msgid "Encoding"
+msgstr "Κωδικοποίηση"
+
+#: $string['encoding_help']
+msgid "Encoding of the CSV file."
+msgstr "Κωδικοποίηση αρχείου CSV."
+
+#: $string['errorwhiledeletingcourse']
+msgid "Error while deleting the course"
+msgstr ""
+
+#: $string['errorwhilerestoringcourse']
+msgid "Error while restoring the course"
+msgstr ""
+
+#: $string['generatedshortnamealreadyinuse']
+msgid "The generated shortname is already in use"
+msgstr ""
+
+#: $string['generatedshortnameinvalid']
+msgid "The generated shortname is invalid"
+msgstr ""
+
+#: $string['id']
+msgid "ID"
+msgstr ""
+
+#: $string['idnumberalreadyinuse']
+msgid "ID number already used by a course"
+msgstr ""
+
+#: $string['importoptions']
+msgid "Import options"
+msgstr "Επιλογές εισαγωγής"
+
+#: $string['invalidbackupfile']
+msgid "Invalid backup file"
+msgstr ""
+
+#: $string['invalidcourseformat']
+msgid "Invalid course format"
+msgstr "Μη έγκυρος τύπος μαθήματος"
+
+#: $string['invalidcsvfile']
+msgid "Invalid input CSV file"
+msgstr ""
+
+#: $string['invalidencoding']
+msgid "Invalid encoding"
+msgstr ""
+
+#: $string['invalideupdatemode']
+msgid "Invalid update mode selected"
+msgstr ""
+
+#: $string['invalidmode']
+msgid "Invalid mode selected"
+msgstr ""
+
+#: $string['invalidroles']
+msgid "Invalid role names: {$a}"
+msgstr ""
+
+#: $string['invalidshortname']
+msgid "Invalid shortname"
+msgstr ""
+
+#: $string['missingmandatoryfields']
+msgid "Missing value for mandatory fields: {$a}"
+msgstr ""
+
+#: $string['missingshortnamenotemplate']
+msgid "Missing shortname and shortname template not set"
+msgstr ""
+
+#: $string['mode']
+msgid "Upload mode"
+msgstr "Τρόπος ανεβάσματος"
+
+#: $string['mode_help']
+msgid "This allows you to specify if courses can be created and/or updated."
+msgstr ""
+
+#: $string['nochanges']
+msgid "No changes"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Course upload"
+msgstr ""
+
+#: $string['preview']
+msgid "Preview"
+msgstr "Προεπισκόπηση"
+
+#: $string['reset']
+msgid "Reset course after upload"
+msgstr ""
+
+#: $string['reset_help']
+msgid "Whether to reset the course after creating/updating it."
+msgstr ""
+
+#: $string['restoreafterimport']
+msgid "Restore after import"
+msgstr ""
+
+#: $string['result']
+msgid "Result"
+msgstr ""
+
+#: $string['rowpreviewnum']
+msgid "Preview rows"
+msgstr "Προεπισκόπηση γραμμών"
+
+#: $string['rowpreviewnum_help']
+msgid ""
+"Number of rows from the CSV file that will be previewed in the next page. "
+"This option exists in\n"
+"order to limit the next page size."
+msgstr ""
+
+#: $string['shortnametemplate']
+msgid "Template to generate a shortname"
+msgstr ""
+
+#: $string['shortnametemplate_help']
+msgid ""
+"The short name of the course is displayed in the navigation. You may use "
+"template syntax here (%f = fullname, %i = idnumber), or enter an initial "
+"value that is incremented."
+msgstr ""
+
+#: $string['templatefile']
+msgid "Restore from this file after upload"
+msgstr ""
+
+#: $string['templatefile_help']
+msgid "Select a file to use as a template for the creation of all courses."
+msgstr ""
+
+#: $string['unknownimportmode']
+msgid "Unknown import mode"
+msgstr ""
+
+#: $string['updatemissing']
+msgid "Fill in missing items from CSV data and defaults"
+msgstr ""
+
+#: $string['updatemode']
+msgid "Update mode"
+msgstr "Τρόπος ενημέρωσης"
+
+#: $string['updatemodedoessettonothing']
+msgid "Update mode does not allow anything to be updated"
+msgstr "Ο τρόπος ενημέρωσης δεν επιτρέπει την ενημέρωση"
+
+#: $string['updatemode_help']
+msgid ""
+"If you allow courses to be updated, you also have to tell the tool what to "
+"update the courses with."
+msgstr ""
+
+#: $string['updateonly']
+msgid "Only update existing courses"
+msgstr ""
+
+#: $string['updatewithdataonly']
+msgid "Update with CSV data only"
+msgstr ""
+
+#: $string['updatewithdataordefaults']
+msgid "Update with CSV data and defaults"
+msgstr ""
+
+#: $string['uploadcourses']
+msgid "Upload courses"
+msgstr "Ανέβασμα μαθημάτων"
+
+#: $string['uploadcourses_help']
+msgid ""
+"Courses may be uploaded via text file. The format of the file should be as "
+"follows:\n"
+"\n"
+"* Each line of the file contains one record\n"
+"* Each record is a series of data separated by commas (or other delimiters)\n"
+"* The first record contains a list of fieldnames defining the format of the "
+"rest of the file\n"
+"* Required fieldnames are shortname, fullname, and category"
+msgstr ""
+
+#: $string['uploadcoursespreview']
+msgid "Upload courses preview"
+msgstr "Προεπισκόπηση μαθημάτων που ανέβηκαν"
+
+#: $string['uploadcoursesresult']
+msgid "Upload courses results"
+msgstr "Αποτελέσματα μαθημάτων που ανέβηκαν"

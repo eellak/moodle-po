@@ -1,0 +1,216 @@
+#. extracted from lang/en/block_dedication.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_dedication', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   block_dedication
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['access_button']
+msgid "Dedication tool"
+msgstr "Εργαλείο αφοσίωσης"
+
+#: $string['access_info']
+msgid "Only for teachers:"
+msgstr "Μόνο για καθηγητές:"
+
+#: $string['connectionratiorow']
+msgid "Connections per day"
+msgstr "Συνδέσεις / ημέρα"
+
+#: $string['dedication:addinstance']
+msgid "Allow to add Course dedication block"
+msgstr "Δυνατότητα προσθήκης μπλοκ αφοσίωσης"
+
+#: $string['dedicationall']
+msgid ""
+"All course members dedication. Click on any name to see a detailed course "
+"dedication for it."
+msgstr ""
+"Προβολή της αφοσίωσης όλων των μελών του μαθήματος. Κάντε κλικ σε "
+"οποιοδήποτε όνομα για λεπτομέρειες αφοσίωσης."
+
+#: $string['dedication_estimation']
+msgid "Your estimated dedication time is"
+msgstr "Ο εκτιμώμενος χρόνος αφοσίωσης είναι"
+
+#: $string['dedicationgroup']
+msgid ""
+"All group <em>{$a}</em> members dedication. Choose any member to see a "
+"detailed course dedication for it."
+msgstr ""
+"Προβολή αφοσίωσης όλων των μελών του group <em>{$a}</em>. Επιλέξτε κάποιο "
+"μέλος για λεπτομέρειες αφοσίωσης."
+
+#: $string['dedicationrow']
+msgctxt "$string['dedicationrow']"
+msgid "Course dedication"
+msgstr "Αφοσίωση μαθήματος"
+
+#: $string['dedication:use']
+msgid "Allow to use Course dedication"
+msgstr "Να επιτραπεί η χρήση αφοσίωσης μαθήματος"
+
+#: $string['form']
+msgid "Course dedication configuration"
+msgstr "Ρυθμίσεις αφοσίωσης μαθήματος"
+
+#: $string['form_help']
+msgid ""
+"Time is estimated based in the concepts of Session and Session duration "
+"applied to log entries.\n"
+"\n"
+"<strong>Click:</strong> Every time that a user access to a page in Moodle a "
+"log entry is stored.\n"
+"\n"
+"<strong>Session:</strong> set of two or more consecutive clicks in which the "
+"elapsed time\n"
+"between every pair of consecutive clicks does not overcome an established "
+"maximum time.\n"
+"\n"
+"<strong>Session duration:</strong> elapsed time between the first and the "
+"last click of the session.\n"
+"\n"
+"<strong>Dedication time:</strong> the sum of all session duration for a "
+"user."
+msgstr ""
+"Ο χρόνος προσδιορίζεται με βάση το Session που περιέχεται στο ημερολόγιο "
+"καταγραφής. <strong>Click:</strong> Κάθε φορά που ένας χρήστης επισκέπτεται "
+"μια σελίδα στο Moodle, γίνεται εγγραφή στο ημερολόγιο καταγραφής. "
+"<strong>Session:</strong> Σύνολο 2 ή περισσότερων κλικ κατά το οποίο ο "
+"χρόνος μεταξύ των κλικ δεν ξεπερνά το καθορισμένο μέγιστο διάστημα. "
+"<strong>Session duration:</strong> ο χρόνος μεταξύ του πρώτου και του "
+"τελευταίου κλικ του session. <strong>Dedication time:</strong> το σύνολο "
+"όλων των sessions για ένα χρήστη."
+
+#: $string['form_text']
+msgid ""
+"Select the range of dates and the maximum time between clicks of the same "
+"session."
+msgstr ""
+"Επιλέξτε το εύρος των ημερομηνιών και το μέγιστο χρόνο μεταξύ των κλικ του "
+"ίδιου session."
+
+#: $string['limit']
+msgid "Limit between clicks (in minutes)"
+msgstr "Όριο μεταξύ κλικ (σε λεπτά)"
+
+#: $string['limit_help']
+msgid ""
+"The limit between clicks defines if two clicks are part of the same session "
+"or not"
+msgstr ""
+"Το όριο μεταξύ κλικ ορίζει το αν 2 κλικ είναι μέρος του ίδιου session ή όχι"
+
+#: $string['maxtime']
+msgid "End of the period"
+msgstr "Τέλος περιόδου"
+
+#: $string['maxtime_help']
+msgid "Consider only log entries ending before this date"
+msgstr ""
+"Λαμβάνει υπόψη εγγραφές του ημερολογίου καταγραφής που τελειώνουν πριν από "
+"αυτήν την ημερομηνία"
+
+#: $string['meandedication']
+msgid "<strong>Mean dedication:</strong> {$a}"
+msgstr "<strong>Μέση αφοσίωση:</strong> {$a}"
+
+#: $string['mintime']
+msgid "Start of the period"
+msgstr "Αρχή περιόδου"
+
+#: $string['mintime_help']
+msgid "Consider only log entries after this date"
+msgstr ""
+"Λαμβάνει υπόψη εγγραφές του ημερολογίου καταγραφής που τελειώνουν μετά από "
+"αυτήν την ημερομηνία"
+
+#: $string['pagetitle']
+msgid "{$a}: course dedication"
+msgstr "{$a}: αφοσίωση μαθήματος"
+
+#: $string['period']
+msgid "Period since <em>{$a->mintime}</em> to <em>{$a->maxtime}</em>"
+msgstr "Περίοδος από <em>{$a->mintime}</em> έως <em>{$a->maxtime}</em>"
+
+#: $string['perioddiff']
+msgid "<strong>Elapsed time:</strong>  {$a}"
+msgstr "<strong>Elapsed time:</strong> {$a}"
+
+#: $string['perioddiffrow']
+msgid "Elapsed time"
+msgstr "Χρόνος που πέρασε"
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Course dedication"
+msgstr "Αφοσίωση μαθήματος"
+
+#: $string['sessionduration']
+msgid "Duration"
+msgstr "Διάρκεια"
+
+#: $string['sessionstart']
+msgid "Session start"
+msgstr "Αρχή session"
+
+#: $string['show_dedication']
+msgid "Show dedication time to students"
+msgstr "Εμφάνιση χρόνου αφοσίωσης στους μαθητές"
+
+#: $string['show_dedication_help']
+msgid ""
+"By default, dedication time can only be viewed by teachers. This setting "
+"allow students to see their dedication time in the block."
+msgstr ""
+"Εξ'ορισμού, ο χρόνος αφοσίωσης μπορεί να εμφανιστεί μόνο στους καθηγητές. Η "
+"ρύθμιση αυτή επιτρέπει στους μαθητές να δουν το χρόνο αφοσίωσής τους στο "
+"block."
+
+#: $string['sincerow']
+msgid "Since"
+msgstr "Από"
+
+#: $string['submit']
+msgid "Calculate"
+msgstr "Υπολογισμός"
+
+#: $string['torow']
+msgid "To"
+msgstr "Έως"
+
+#: $string['totaldedication']
+msgid "<strong>Total dedication:</strong> {$a}"
+msgstr "<strong>Συνολική αφοσίωση:</strong> {$a}"
+
+#: $string['userdedication']
+msgid "Detailed course dedication of <em>{$a}</em>."
+msgstr "Λεπτομέρειες αφοσίωσης μαθήματος για το χρήστη <em>{$a}</em>."

@@ -1,0 +1,314 @@
+#. extracted from lang/en/gradingform_rubric.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'gradingform_rubric', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   gradingform_rubric
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addcriterion']
+msgid "Add criterion"
+msgstr ""
+
+#: $string['alwaysshowdefinition']
+msgid ""
+"Allow users to preview rubric (otherwise it will only be displayed after "
+"grading)"
+msgstr ""
+
+#: $string['backtoediting']
+msgid "Back to editing"
+msgstr "Επιστροφή στην επεξεργασία"
+
+#: $string['confirmdeletecriterion']
+msgid "Are you sure you want to delete this criterion?"
+msgstr ""
+
+#: $string['confirmdeletelevel']
+msgid "Are you sure you want to delete this level?"
+msgstr ""
+
+#: $string['criterion']
+msgid "Criterion {$a}"
+msgstr ""
+
+#: $string['criterionaddlevel']
+msgid "Add level"
+msgstr "Προσθήκη επιπέδου"
+
+#: $string['criteriondelete']
+msgid "Delete criterion"
+msgstr ""
+
+#: $string['criterionduplicate']
+msgid "Duplicate criterion"
+msgstr ""
+
+#: $string['criterionempty']
+msgid "Click to edit criterion"
+msgstr ""
+
+#: $string['criterionmovedown']
+msgid "Move down"
+msgstr ""
+
+#: $string['criterionmoveup']
+msgid "Move up"
+msgstr ""
+
+#: $string['criterionremark']
+msgid "Remark for criterion {$a->description}: {$a->remark}"
+msgstr ""
+
+#: $string['definerubric']
+msgid "Define rubric"
+msgstr ""
+
+#: $string['description']
+msgid "Description"
+msgstr ""
+
+#: $string['enableremarks']
+msgid "Allow grader to add text remarks for each criterion"
+msgstr ""
+
+#: $string['err_mintwolevels']
+msgid "Each criterion must have at least two levels"
+msgstr ""
+
+#: $string['err_nocriteria']
+msgid "Rubric must contain at least one criterion"
+msgstr ""
+
+#: $string['err_nodefinition']
+msgid "Level definition can not be empty"
+msgstr ""
+
+#: $string['err_nodescription']
+msgid "Criterion description can not be empty"
+msgstr ""
+
+#: $string['err_novariations']
+msgid "Criterion levels cannot all be worth the same number of points"
+msgstr ""
+
+#: $string['err_scoreformat']
+msgid "Number of points for each level must be a valid number"
+msgstr ""
+
+#: $string['err_totalscore']
+msgid ""
+"Maximum number of points possible when graded by the rubric must be more "
+"than zero"
+msgstr ""
+
+#: $string['gradingof']
+msgid "{$a} grading"
+msgstr ""
+
+#: $string['level']
+msgid "Level {$a->definition}, {$a->score} points."
+msgstr ""
+
+#: $string['leveldefinition']
+msgid "Level {$a} definition"
+msgstr ""
+
+#: $string['leveldelete']
+msgid "Delete level {$a}"
+msgstr ""
+
+#: $string['levelempty']
+msgid "Click to edit level"
+msgstr ""
+
+#: $string['levelsgroup']
+msgid "Levels group"
+msgstr ""
+
+#: $string['lockzeropoints']
+msgid "Calculate grade based on the rubric having a minimum score of 0"
+msgstr ""
+
+#: $string['lockzeropoints_help']
+msgid ""
+"This setting only applies if the sum of the minimum number of points for "
+"each criterion is greater than 0. If ticked, the minimum achievable grade "
+"for the rubric will be greater than 0. If unticked, the minimum possible "
+"score for the rubric will be mapped to the minimum grade available for the "
+"activity (which is 0 unless a scale is used)."
+msgstr ""
+
+#: $string['name']
+msgid "Name"
+msgstr ""
+
+#: $string['needregrademessage']
+msgid ""
+"The rubric definition was changed after this student had been graded. The "
+"student can not see this rubric until you check the rubric and update the "
+"grade."
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Rubric"
+msgstr ""
+
+#: $string['previewrubric']
+msgid "Preview rubric"
+msgstr ""
+
+#: $string['regrademessage1']
+msgid ""
+"You are about to save changes to a rubric that has already been used for "
+"grading. Please indicate if existing grades need to be reviewed. If you set "
+"this then the rubric will be hidden from students until their item is "
+"regraded."
+msgstr ""
+
+#: $string['regrademessage5']
+msgid ""
+"You are about to save significant changes to a rubric that has already been "
+"used for grading. The gradebook value will be unchanged, but the rubric will "
+"be hidden from students until their item is regraded."
+msgstr ""
+
+#: $string['regradeoption0']
+msgid "Do not mark for regrade"
+msgstr ""
+
+#: $string['regradeoption1']
+msgid "Mark for regrade"
+msgstr "Σημείωση για αναβαθμολόγηση"
+
+#: $string['restoredfromdraft']
+msgid ""
+"NOTE: The last attempt to grade this person was not saved properly so draft "
+"grades have been restored. If you want to cancel these changes use the "
+"'Cancel' button below."
+msgstr ""
+
+#: $string['rubric']
+msgctxt "$string['rubric']"
+msgid "Rubric"
+msgstr ""
+
+#: $string['rubricmapping']
+msgid "Score to grade mapping rules"
+msgstr ""
+
+#: $string['rubricmappingexplained']
+msgid ""
+"The minimum possible score for this rubric is <b>{$a->minscore} points</b>. "
+"It will be converted to the minimum grade available for the activity (which "
+"is 0 unless a scale is used). The maximum score of <b>{$a->maxscore} "
+"points</b> will be converted to the maximum grade. Intermediate scores will "
+"be converted respectively.\n"
+"\n"
+"If a scale is used for grading, the score will be rounded and converted to "
+"the scale elements as if they were consecutive integers.\n"
+"\n"
+"This grade calculation may be changed by editing the form and ticking the "
+"box 'Calculate grade based on the rubric having a minimum score of 0'."
+msgstr ""
+
+#: $string['rubricnotcompleted']
+msgid "Please choose something for each criterion"
+msgstr ""
+
+#: $string['rubricoptions']
+msgid "Rubric options"
+msgstr ""
+
+#: $string['rubricstatus']
+msgid "Current rubric status"
+msgstr ""
+
+#: $string['save']
+msgid "Save"
+msgstr ""
+
+#: $string['saverubric']
+msgid "Save rubric and make it ready"
+msgstr ""
+
+#: $string['saverubricdraft']
+msgid "Save as draft"
+msgstr ""
+
+#: $string['scoreinputforlevel']
+msgid "Score input for level {$a}"
+msgstr ""
+
+#: $string['scorepostfix']
+msgid "{$a}points"
+msgstr ""
+
+#: $string['showdescriptionstudent']
+msgid "Display rubric description to those being graded"
+msgstr ""
+
+#: $string['showdescriptionteacher']
+msgid "Display rubric description during evaluation"
+msgstr ""
+
+#: $string['showremarksstudent']
+msgid "Show remarks to those being graded"
+msgstr ""
+
+#: $string['showscorestudent']
+msgid "Display points for each level to those being graded"
+msgstr ""
+
+#: $string['showscoreteacher']
+msgid "Display points for each level during evaluation"
+msgstr ""
+
+#: $string['sortlevelsasc']
+msgid "Sort order for levels:"
+msgstr ""
+
+#: $string['sortlevelsasc0']
+msgid "Descending by number of points"
+msgstr ""
+
+#: $string['sortlevelsasc1']
+msgid "Ascending by number of points"
+msgstr ""
+
+#: $string['zerolevelsabsent']
+msgid ""
+"Warning: The minimum possible score for this rubric is not 0; this can "
+"result in unexpected grades for the activity. To avoid this, each criterion "
+"should have a level with 0 points.<br>\n"
+"This warning may be ignored if a scale is used for grading, and the minimum "
+"levels in the rubric correspond to the minimum value of the scale."
+msgstr ""

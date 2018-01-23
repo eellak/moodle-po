@@ -1,0 +1,685 @@
+#. extracted from lang/en/report_security.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'report_security', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   report_security
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['check_configrw_details']
+msgid ""
+"<p>It is recommended that the file permissions of config.php are changed "
+"after installation so that the file cannot be modified by the web server.\n"
+"Please note that this measure does not improve security of the server "
+"significantly, though it may slow down or limit general exploits.</p>"
+msgstr ""
+"<p>Σας συνιστούμε να αλλάξετε τα δικαιώματα του αρχείου config.php μετά την "
+"εγκατάσταση ώστε το αρχείο να μην μπορεί να τροποποιηθεί από τον εξυπηρετητή "
+"ιστού.\n"
+"Παρακαλούμε σημειώστε δεν βελτιώνει την ασφάλεια του εξυπηρετητή σημαντικά, "
+"αν και μπορεί να καθυστερήσει ή και να περιορίσει τις τυπικές κακόβουλες "
+"επιθέσεις.</p>"
+
+#: $string['check_configrw_name']
+msgid "Writable config.php"
+msgstr "Εγγράψιμο config.php"
+
+#: $string['check_configrw_ok']
+msgid "config.php can not be modified by PHP scripts."
+msgstr "Το αρχείο config.php δεν μπορεί να τροποποιηθεί από σενάρια PHP."
+
+#: $string['check_configrw_warning']
+msgid "PHP scripts may modify config.php."
+msgstr "Σενάρια PHP μπορούν να τροποποιήσουν το αρχείο config.php."
+
+#: $string['check_cookiesecure_details']
+msgid ""
+"<p>If you enable https communication it is recommended that you also enable "
+"secure cookies. You should also add permanent redirection from http to "
+"https. Ideally also serve HSTS headers well.</p>"
+msgstr ""
+"<p>Εάν ενεργοποιήσετε την επικοινωνία https τότε σας συνιστούμε να "
+"ενεργοποιήσετε επίσης και τα ασφαλή cookies. Θα ήταν καλό επίσης να "
+"προσθέσετε μόνιμη ανακατεύθυνση από το http σε https.</p>"
+
+#: $string['check_cookiesecure_error']
+msgid "Please enable secure cookies"
+msgstr "Παρακαλούμε ενεργοποίηστε τα ασφαλή cookies"
+
+#: $string['check_cookiesecure_name']
+msgid "Secure cookies"
+msgstr "Ασφαλή cookies"
+
+#: $string['check_cookiesecure_ok']
+msgid "Secure cookies enabled."
+msgstr "Τα ασφαλή cookies είναι ενεργοποιημένα."
+
+#: $string['check_defaultuserrole_details']
+msgid ""
+"<p>All logged in users are given capabilities of the default user role. "
+"Please make sure no risky capabilities are allowed in this role.</p>\n"
+"<p>The only supported legacy type for the default user role is "
+"<em>Authenticated user</em>. The course view capability must not be "
+"enabled.</p>"
+msgstr ""
+"<p>Σε όλους τους συνδεδεμένους χρήστες δίνονται ικανότητες του "
+"προεπιλεγμένου ρόλου χρήστη. Παρακαλούμε εξασφαλίστε οτι δεν επιτρέπονται "
+"ριψοκίνδυνες ικανότητες για αυτό το ρόλο.</p>\n"
+"<p>Ο μόνος απαρχαιωμένος τύπος που επιτρέπεται για τον προεπιλεγμένο ρόλο "
+"χρήστη είναι ο <em>Πιστοποιημένος χρήστης</em>. Η ικανότητα όψης μαθήματος "
+"δεν θα πρέπει να είναι ενεργοποιημένη.</p>"
+
+#: $string['check_defaultuserrole_error']
+msgid "The default user role \"{$a}\" is incorrectly defined!"
+msgstr "Ο προεπιλεγμένος ρόλος χρήστη \"{$a}\" δεν είναι σωστά ορισμένος!"
+
+#: $string['check_defaultuserrole_name']
+msgid "Default role for all users"
+msgstr "Προεπιλεγμένος ρόλος για όλους τους χρήστες"
+
+#: $string['check_defaultuserrole_notset']
+msgid "Default role is not set."
+msgstr "Ο προεπιλεγμένος ρόλος δεν έχει οριστεί."
+
+#: $string['check_defaultuserrole_ok']
+msgid "Default role for all users definition is OK."
+msgstr ""
+"Ο ορισμός του προεπιλεγμένου ρόλου για όλους τους χρήστες είναι εντάξει."
+
+#: $string['check_displayerrors_details']
+msgid ""
+"<p>Enabling the PHP setting <code>display_errors</code> is not recommended "
+"on production sites because error messages can reveal sensitive information "
+"about your server.</p>"
+msgstr ""
+"<p>Ενεργοποιώντας την ρύθμιση της PHP <code>display_errors</code> δεν "
+"συνίσταται σε ιστοχώρους παραγωγής γιατί τα μηνύματα λάθους μπορούν να "
+"αποκαλύψουν ευαίσθητες πληροφορίες σχετικά με τον εξυπηρετητή σας.</p>"
+
+#: $string['check_displayerrors_error']
+msgid ""
+"The PHP setting to display errors is enabled. It is recommended that this is "
+"disabled."
+msgstr ""
+"Η ρύθμιση της PHP για την εμφάνιση μηνυμάτων σφάλματος είναι ενεργοποιημένη. "
+"Συνίσταται να την απενεργοποιήσετε."
+
+#: $string['check_displayerrors_name']
+msgid "Displaying of PHP errors"
+msgstr "Εμφάνιση των σφαλμάτων PHP"
+
+#: $string['check_displayerrors_ok']
+msgid "Displaying of PHP errors disabled."
+msgstr "Η εμφάνιση των σφαλμάτων PHP είναι απενεργοποιημένη."
+
+#: $string['check_emailchangeconfirmation_details']
+msgid ""
+"<p>It is recommended that an email confirmation step is required when users "
+"change their email address in their profile. If disabled, spammers may try "
+"to exploit the server to send spam.</p>\n"
+"<p>Email field may be also locked from authentication plugins, this "
+"possibility is not considered here.</p>"
+msgstr ""
+"<p>Συνίσταται η ύπαρξη ενός βήματος επιβεβαίωσης μέσω ηλεκτρονικού "
+"ταχυδρομείου όταν οι χρήστες αλλάζουν την δι/νση ηλεκτρονικού ταχυδρομείου "
+"στο προφίλ τους. Εάν αυτό το βήμα είναι απενεργοποιημένο τότε κακόβουλοι "
+"χρήστες μπορεί να εκμεταλευτούν τον εξυπηρετητή για να στείλουν μαζικά "
+"ενοχλητικά μηνύματα.</p>\n"
+"<p>Το πεδίο δι/νσης ηλεκτρονικού ταχυδρομείου μπορεί επίσης να κλειδωθεί από "
+"υπομονάδες λογισμικού για πιστοποίηση, αυτή η δυνατότητα δεν εξετάζεται "
+"εδώ.</p>"
+
+#: $string['check_emailchangeconfirmation_error']
+msgid "Users may enter any email address."
+msgstr ""
+"Οι χρήστες μπορούν να εισάγουν οποιαδήποτε δι/νση ηλεκτρονικού ταχυδρομείου."
+
+#: $string['check_emailchangeconfirmation_info']
+msgid "Users may enter email addresses from allowed domains only."
+msgstr ""
+"Οι χρήστες μπορούν να εισάγουν μόνο δι/νσεις ηλεκτρονικού ταχυδρομείου που "
+"ανήκουν σε τομείς για τους οποίους έχει επιτραπεί η πρόσβαση."
+
+#: $string['check_emailchangeconfirmation_name']
+msgid "Email change confirmation"
+msgstr "Επιβεβαίωση αλλαγής δι/νσης ηλεκτρονικού ταχυδρομείου"
+
+#: $string['check_emailchangeconfirmation_ok']
+msgid "Confirmation of change of email address in user profile."
+msgstr ""
+"Επιβεβαίωση αλλαγής δι/νσης ηλεκτρονικού ταχυδρομείου στο προφίλ του χρήστη."
+
+#: $string['check_embed_details']
+msgid ""
+"<p>Unlimited object embedding is very dangerous - any registered user may "
+"launch an XSS attack against other server users. This setting should be "
+"disabled on production servers.</p>"
+msgstr ""
+"<p>Η άνευ ορίου ενσωμάτωση αντικειμένων σε σελίδες είναι πολύ επικίνδυνη - "
+"κάθε εγγεγραμένος χρήστης μπορεί να ξεκινήσει μια επίθεση XSS εναντίον "
+"χρηστών άλλου εξυπηρετητή. Αυτή η ρύθμιση θα πρέπει να απενεργοποιείται σε "
+"εξυπηρετητές παραγωγής.</p>"
+
+#: $string['check_embed_error']
+msgid ""
+"Unlimited object embedding enabled - this is very dangerous for the majority "
+"of servers."
+msgstr ""
+"Η άνευ ορίου ενσωμάτωση αντικειμένων σε σελίδες είναι ενεργοποιημένη - αυτό "
+"είναι πολύ επικίνδυνο για την πλειονότητα των εξυπηρετητών."
+
+#: $string['check_embed_name']
+msgid "Allow EMBED and OBJECT"
+msgstr "Επιτρέπονται οι οδηγίες EMBED και OBJECT"
+
+#: $string['check_embed_ok']
+msgid "Unlimited object embedding is not allowed."
+msgstr "Η άνευ ορίου ενσωμάτωση αντικειμένων σε σελίδες δεν επιτρέπεται."
+
+#: $string['check_frontpagerole_details']
+msgid ""
+"<p>The default frontpage role is given to all registered users for frontpage "
+"activities. Please make sure no risky capabilities are allowed for this "
+"role.</p>\n"
+"<p>It is recommended that a special role is created for this purpose and a "
+"legacy type role is not used.</p>"
+msgstr ""
+"<p>Ο προεπιλεγμένος ρόλος αρχικής σελίδας δίνεται σε όλους τους "
+"εγγεγραμμένους χρήστες για δραστηριότητες αρχικής σελίδας. Παρακαλούμε "
+"εξασφαλίστε οτι δεν επιτρέπονται ριψοκίνδυνες ικανότητες για αυτό το "
+"ρόλο.</p>\n"
+"<p>Συνίσταται η δημιουργία ενός ειδικού ρόλου για αυτό το σκοπό και να μην "
+"χρησιμοποιηθεί κάποιος απαρχαιωμένος ρόλος.</p>"
+
+#: $string['check_frontpagerole_error']
+msgid "Incorrectly defined frontpage role \"{$a}\" detected!"
+msgstr ""
+"Εντόπιστήκε λαθος ορισμένος προεπιλεγμένος ρόλος αρχικής σελίδας \"{$a}\"!"
+
+#: $string['check_frontpagerole_name']
+msgid "Frontpage role"
+msgstr "Ρόλος αρχικής σελίδας"
+
+#: $string['check_frontpagerole_notset']
+msgid "Frontpage role is not set."
+msgstr "Ο ρόλος αρχικής σελίδας δεν έχει οριστεί."
+
+#: $string['check_frontpagerole_ok']
+msgid "Frontpage role definition is OK."
+msgstr "Ο ορισμός του ρόλου αρχικής σελίδας είναι εντάξει."
+
+#: $string['check_google_details']
+msgid ""
+"<p>The Open to Google setting enables search engines to enter courses with "
+"guest access. There is no point in enabling this setting if guest login is "
+"not allowed.</p>"
+msgstr ""
+"<p>Η ρύθμιση Open to Google επιτρέπει στις μηχανές αναζήτησης να συνδέονται "
+"σε μαθήματα με δικαιώματα επισκέπτη. Δεν υπάρχει λόγος ενεργοποίησης αυτής "
+"της ρύθμισης εάν δεν επιτρέπονται συνδέσεις επισκεπτών.</p>"
+
+#: $string['check_google_error']
+msgid "Search engine access is allowed but guest access is disabled."
+msgstr ""
+"Η πρόσβαση στις μηχανές αναζήτησης επιτρέπεται παρόλο που δεν επιτρέπεται η "
+"σύνδεση επισκεπτών."
+
+#: $string['check_google_info']
+msgid "Search engines may enter as guests."
+msgstr "Οι μηχανές αναζήτησης μπορούν να συνδέονται σαν επισκέπτες."
+
+#: $string['check_google_name']
+msgid "Open to Google"
+msgstr "Open to Google"
+
+#: $string['check_google_ok']
+msgid "Search engine access is not enabled."
+msgstr "Η πρόσβαση στις μηχανές αναζήτησης δεν επιτρέπεται."
+
+#: $string['check_guestrole_details']
+msgid ""
+"<p>The guest role is used for guests, not logged in users and temporary "
+"guest course access. Please make sure no risky capabilities are allowed in "
+"this role.</p>\n"
+"<p>The only supported legacy type for guest role is <em>Guest</em>.</p>"
+msgstr ""
+"<p>Ο ρόλος επισκέπτη χρησιμοποιείται για επισκέπτες, μη συνδεδεμένους "
+"χρήστες και προσωρινή πρόσβαση επισκέπτη σε μαθήματα. Παρακαλούμε "
+"εξασφαλίστε οτι δεν επιτρέπονται ριψοκίνδυνες ικανότητες για αυτό το "
+"ρόλο.</p>\n"
+"<p>Ο μόνος απαρχαιωμένος τύπος για ρόλο επισκέπτη είναι ο "
+"<em>Επισκέπτης</em>.</p>"
+
+#: $string['check_guestrole_error']
+msgid "The guest role \"{$a}\" is incorrectly defined!"
+msgstr "Ο ρόλος επισκέπτη \"{$a}\" δεν είναι σωστά ορισμένος!"
+
+#: $string['check_guestrole_name']
+msgid "Guest role"
+msgstr "Ρόλος Επισκέπτη"
+
+#: $string['check_guestrole_notset']
+msgid "Guest role is not set."
+msgstr "Ο ρόλος Επισκέπτης δεν έχει ρυθμιστεί."
+
+#: $string['check_guestrole_ok']
+msgid "Guest role definition is OK."
+msgstr "Ο ορισμός του ρόλου Επισκέπτη είναι εντάξει."
+
+#: $string['check_mediafilterswf_details']
+msgid ""
+"<p>Automatic swf embedding is very dangerous - any registered user may "
+"launch an XSS attack against other server users. Please disable it on "
+"production servers.</p>"
+msgstr ""
+"<p>Η αυτόματη ενσωματωση αρχείων swf σε σελίδες είναι πολύ επικίνδυνη - "
+"οποιοσδήποτε εγγεγραμμένος χρήστης μπορεί να ξεκινήσει μια επίθεση XSS "
+"εναντίον χρηστών άλλου εξυπηρετητή. Παρακαλούμε απενεργοποιήστε το σε "
+"εξυπηρετητές παραγωγής.</p>"
+
+#: $string['check_mediafilterswf_error']
+msgid ""
+"Flash media filter is enabled - this is very dangerous for the majority of "
+"servers."
+msgstr ""
+"Το φίλτρο πολυμέσων Flash είναι ενεργοποιημένο - αυτό είναι πολύ επικίνδυνο "
+"για τη πλειονότητα των εξυπηρετητών."
+
+#: $string['check_mediafilterswf_name']
+msgid "Enabled .swf media filter"
+msgstr "Το φίλτρο πολυμέσων .swf είναι ενεργοποιημένο"
+
+#: $string['check_mediafilterswf_ok']
+msgid "Flash media filter is not enabled."
+msgstr "Το φίλτρο πολυμέσων Flash δεν είναι ενεργοποιημένο."
+
+#: $string['check_noauth_details']
+msgid ""
+"<p>The <em>No authentication</em> plugin is not intended for production "
+"sites. Please disable it unless this is a development test site.</p>"
+msgstr ""
+"<p>Η υπομονάδα λογισμικού <em>Χωρίς Πιστοποίηση</em> δεν προορίζεται για "
+"ιστοχώρους παραγωγής. Παρακαλούμε απενεργοποιήστε το εκτός και εάν αυτός "
+"είναι ένας δοκιμαστικός ιστοχώρος.</p>"
+
+#: $string['check_noauth_error']
+msgid "The No authentication plugin cannot be used on production sites."
+msgstr ""
+"Η υπομονάδα λογισμικού Χωρίς Πιστοποίηση δεν μπορεί να χρησιμοποιείται σε "
+"ιστοχώρους παραγωγής."
+
+#: $string['check_noauth_name']
+msgid "No authentication"
+msgstr "Χωρίς Πιστοποίηση"
+
+#: $string['check_noauth_ok']
+msgid "No authentication plugin is disabled."
+msgstr "Η υπομονάδα λογισμικού Χωρίς Πιστοποίηση είναι απεργοποιημένη."
+
+#: $string['check_nodemodules_details']
+msgid ""
+"<p>The directory <em>{$a->path}</em> contains Node.js modules and their "
+"dependencies, typically installed by the NPM utility. These modules may be "
+"needed for local Moodle development, such as for using the grunt framework. "
+"They are not needed to run a Moodle site in production and they can contain "
+"potentially dangerous code exposing your site to remote attacks.</p><p>It is "
+"strongly recommended to remove the directory if the site is available via a "
+"public URL, or at least prohibit web access to it in your webserver "
+"configuration.</p>"
+msgstr ""
+
+#: $string['check_nodemodules_info']
+msgid "The node_modules directory should not be present on public sites."
+msgstr ""
+
+#: $string['check_nodemodules_name']
+msgid "Node.js modules directory"
+msgstr ""
+
+#: $string['check_openprofiles_details']
+msgid ""
+"Open user profiles can be abused by spammers. It is recommended that either "
+"<code>Force users to log in for profiles</code> or <code>Force users to log "
+"in</code> are enabled."
+msgstr ""
+"<p>Τα ανοιχτά προφίλ χρηστών μπορούν να γίνουν αντικείμενο εκμετάλευσης από "
+"κακόβουλους χρήστες. Συνίσταται να ενεργοποιείτε τη ρύθμιση "
+"<code>Υποχρεώτική σύνδεση χρηστών για προφίλ</code> ή τη ρύθμιση "
+"<code>Υποχρεωτική σύνδεση χρηστών</code>.</p>"
+
+#: $string['check_openprofiles_error']
+msgid "Anyone can may view user profiles without logging in."
+msgstr ""
+"Οποιοσδήποτε μπορεί να δει τα προφίλ των χρηστών χωρίς να χρειάζεται να "
+"συνδεθεί."
+
+#: $string['check_openprofiles_name']
+msgid "Open user profiles"
+msgstr "Ανοιχτά προφίλ χρηστών"
+
+#: $string['check_openprofiles_ok']
+msgid "Login is required before viewing user profiles."
+msgstr "Απαιτείται είσοδος για την εμφάνιση των προφίλ των χρηστών."
+
+#: $string['check_passwordpolicy_details']
+msgid ""
+"<p>It is recommended that a password policy is set, since password guessing "
+"is very often the easiest way to gain unauthorised access.\n"
+"Do not make the requirements too strict though, as this can result in users "
+"not being able to remember their passwords and either forgetting them or "
+"writing them down.</p>"
+msgstr ""
+"<p>Συνίσταται να οριστεί μια πολιτική για τα συνθηματικά, καθότι το μάντεμα "
+"των συνθηματικών είναι πολύ συχνά ο πιο εύκολος τρόπος για να αποκτήσει "
+"κάποιος μη εξουσιοδοτημένη πρόσβαση.\n"
+"Παρόλα αυτά μη κάνετε τις απαιτήσεις πολυ αυστηρές, καθώς αυτό μπορεί να "
+"οδηγήσει σε καταστάσεις όπου οι χρήστες δεν μπορούν να θυμηθούν το "
+"συνθηματικό τους και ή τα ξεχνάνε ή τα σημειώνουν κάπου.</p>"
+
+#: $string['check_passwordpolicy_error']
+msgid "Password policy not set."
+msgstr "Δεν έχει οριστεί πολιτική ασφαλείας για τα συνθηματικά."
+
+#: $string['check_passwordpolicy_name']
+msgid "Password policy"
+msgstr "Πολιτική ασφαλείας συνθηματικών"
+
+#: $string['check_passwordpolicy_ok']
+msgid "Password policy enabled."
+msgstr "Η πολιτική ασφαλείας συνθηματικών έχει ενεργοποιηθεί."
+
+#: $string['check_preventexecpath_details']
+msgid ""
+"<p>Allowing executable paths to be set via the Admin GUI is a vector for "
+"privilege escalation.</p>"
+msgstr ""
+
+#: $string['check_preventexecpath_name']
+msgid "Executable paths"
+msgstr ""
+
+#: $string['check_preventexecpath_ok']
+msgid "Executable paths only settable in config.php."
+msgstr ""
+
+#: $string['check_preventexecpath_warning']
+msgid "Executable paths can be set in the Admin GUI."
+msgstr ""
+
+#: $string['check_riskadmin_detailsok']
+msgid "<p>Please verify the following list of system administrators:</p>{$a}"
+msgstr ""
+"<p>Παρακαλούμε επιβεβαιώστε την ακόλουθη λίστα από διαχειριστές "
+"συστήματος:</p>{$a}"
+
+#: $string['check_riskadmin_detailswarning']
+msgid ""
+"<p>Please verify the following list of system "
+"administrators:</p>{$a->admins}\n"
+"<p>It is recommended to assign administrator role in the system context "
+"only. The following users have (unsupported) admin role assignments in other "
+"contexts:</p>{$a->unsupported}"
+msgstr ""
+"<p>Παρακαλούμε επιβεβαιώστε την ακόλουθη λίστα από διαχειριστές "
+"συστήματος:</p>{$a->admins}\n"
+"<p>Συνίσταται να αναθέτετε το ρόλο του διαχειριστή στο πλαίσιο του "
+"συστήματος μόνο. Οι ακόλουθοι χρήστες έχουν μη υποστηριζόμενες αναθέσεις "
+"ρόλου διαχειριστή:</p>{$a->unsupported}"
+
+#: $string['check_riskadmin_name']
+msgid "Administrators"
+msgstr "Διαχειριστές"
+
+#: $string['check_riskadmin_ok']
+msgid "Found {$a} server administrator(s)."
+msgstr "Βρέθηκαν {$a} διαχειριστές συστήματος."
+
+#: $string['check_riskadmin_unassign']
+msgid ""
+"<a href=\"{$a->url}\">{$a->fullname} ({$a->email}) review role assignment</a>"
+msgstr ""
+"<a href=\"{$a->url}\">{$a->fullname} ({$a->email}) επισκόπηση ανάθεσης "
+"ρόλου</a>"
+
+#: $string['check_riskadmin_warning']
+msgid ""
+"Found {$a->admincount} server administrators and {$a->unsupcount} "
+"unsupported admin role assignments."
+msgstr ""
+"Βρέθηκαν {$a->admincount} διαχειριστές συστήματος και {$a->unsupcount} μη "
+"υποστηριζόμενες αναθέσεις ρόλου διαχειριστή."
+
+#: $string['check_riskbackup_detailsok']
+msgid ""
+"No roles explicitly allow backup of user data.  However, note that admins "
+"with the \"doanything\" capability are still likely to be able to do this."
+msgstr ""
+
+#: $string['check_riskbackup_details_overriddenroles']
+msgid ""
+"<p>These active overrides give users the ability to include user data in "
+"backups. Please make sure this permission is necessary.</p> {$a}"
+msgstr ""
+
+#: $string['check_riskbackup_details_systemroles']
+msgid ""
+"<p>The following system roles currently allow users to include user data in "
+"backups.  Please make sure this permission is necessary.</p> {$a}"
+msgstr ""
+
+#: $string['check_riskbackup_details_users']
+msgid ""
+"<p>Because of the above roles or local overrides, the following user "
+"accounts currently have permission to make backups containing private data "
+"from any users enrolled in their course.  Make sure they are (a) trusted and "
+"(b) protected by strong passwords:</p> {$a}"
+msgstr ""
+
+#: $string['check_riskbackup_editoverride']
+msgid "<a href=\"{$a->url}\">{$a->name} in {$a->contextname}</a>"
+msgstr ""
+
+#: $string['check_riskbackup_editrole']
+msgid "<a href=\"{$a->url}\">{$a->name}</a>"
+msgstr ""
+
+#: $string['check_riskbackup_name']
+msgid "Backup of user data"
+msgstr ""
+
+#: $string['check_riskbackup_ok']
+msgid "No roles explicitly allow backup of user data"
+msgstr ""
+
+#: $string['check_riskbackup_unassign']
+msgid ""
+"<a href=\"{$a->url}\">{$a->fullname} ({$a->email}) in {$a->contextname}</a>"
+msgstr ""
+
+#: $string['check_riskbackup_warning']
+msgid ""
+"Found {$a->rolecount} roles, {$a->overridecount} overrides and "
+"{$a->usercount} users with the ability to backup user data."
+msgstr ""
+
+#: $string['check_riskxss_details']
+msgid ""
+"<p>RISK_XSS denotes all dangerous capabilities that only trusted users may "
+"use.</p>\n"
+"<p>Please verify the following list of users and make sure that you trust "
+"them completely on this server:</p><p>{$a}</p>"
+msgstr ""
+"<p>Το RISK_XSS υποδηλώνει όλες τις επικίνδυνες ικανότητες που μόνο οι "
+"έμπιστοι χρήστες μπορούν να χρησιμοποιήσουν.</p>\n"
+"<p>Παρακαλούμε επιβεβαιώστε την ακόλουθη λίστα από χρήστες και εξασφαλίστε "
+"οτι τους εμπιστέυεστε εντελώς σε αυτόν τον εξυπηρετητή:</p><p>{$a}</p>"
+
+#: $string['check_riskxss_name']
+msgid "XSS trusted users"
+msgstr "Χρήστες εμπιστοσύνης XSS"
+
+#: $string['check_riskxss_warning']
+msgid "RISK_XSS - found {$a} users that have to be trusted."
+msgstr "RISK_XSS - βρέθηκαν {$a} χρήστες που πρέπει να είναι εμπιστοσύνης."
+
+#: $string['check_unsecuredataroot_details']
+msgid ""
+"<p>The dataroot directory must not be accessible via web. The best way to "
+"make sure the directory is not accessible is to use a directory outside the "
+"public web directory.</p>\n"
+"<p>If you move the directory, you need to update the "
+"<code>$CFG->dataroot</code> setting in <code>config.php</code> "
+"accordingly.</p>"
+msgstr ""
+"<p>Ο αρχικός κατάλογος των δεδομένων (dataroot) δεν πρέπει να είναι "
+"προσβάσιμος μέσω του ιστού. Ο καλύτερος τρόπος για να εξασφαλίσετε οτι ο "
+"κατάλογος δεν είναι προσβάσιμος είναι να χρησιμοποιήσετε έναν κατάλογο εκτός "
+"του προσβάσιμου μέσω ιστού δημόσιου καταλόγου .</p>\n"
+"<p>Εάν μετακινήσετε τον κατάλογο, θα πρέπει να ενημερώσετε κατάλληλα την "
+"ρύθμιση <code>$CFG->dataroot</code> στο αρχείο <code>config.php</code>.</p>"
+
+#: $string['check_unsecuredataroot_error']
+msgid ""
+"Your dataroot directory <code>{$a}</code> is in the wrong location and is "
+"exposed to the web!"
+msgstr ""
+"Ο αρχικός κατάλογος των δεδομένων (dataroot) <code>{$a}</code> είναι σε "
+"λάθος τοποθεσία και είναι εκτεθιμένος μέσω πρόσβασης ιστού!"
+
+#: $string['check_unsecuredataroot_name']
+msgid "Insecure dataroot"
+msgstr "Μη ασφαλής αρχικός κατάλογος δεδομένων (dataroot)"
+
+#: $string['check_unsecuredataroot_ok']
+msgid "Dataroot directory must not be accessible via the web."
+msgstr ""
+"Ο αρχικός κατάλογος των δεδομένων (dataroot) δεν πρέπει να είναι προσβάσιμος "
+"μέσω του ιστού."
+
+#: $string['check_unsecuredataroot_warning']
+msgid ""
+"Your dataroot directory <code>{$a}</code> is in the wrong location and might "
+"be exposed to the web."
+msgstr ""
+"Ο αρχικός κατάλογος των δεδομένων (dataroot) <code>{$a}</code> είναι σε "
+"λάθος τοποθεσία και είναι πιθανώς εκτεθιμένος μέσω πρόσβασης ιστού."
+
+#: $string['check_vendordir_details']
+msgid ""
+"<p>The directory <em>{$a->path}</em> contains various third-party libraries "
+"and their dependencies, typically installed by the PHP Composer. These "
+"libraries may be needed for local Moodle development, such as for installing "
+"the PHPUnit framework. They are not needed to run a Moodle site in "
+"production and they can contain potentially dangerous code exposing your "
+"site to remote attacks.</p><p>It is strongly recommended to remove the "
+"directory if the site is available via a public URL, or at least prohibit "
+"web access to it in your webserver configuration.</p>"
+msgstr ""
+
+#: $string['check_vendordir_info']
+msgid "The vendor directory should not be present on public sites."
+msgstr ""
+
+#: $string['check_vendordir_name']
+msgid "Vendor directory"
+msgstr ""
+
+#: $string['check_webcron_details']
+msgid ""
+"<p>Running the cron from a web browser can expose privileged information to "
+"anonymous users. It is recommended to only run the cron from the command "
+"line or set a cron password for remote access.</p>"
+msgstr ""
+
+#: $string['check_webcron_name']
+msgid "Web cron"
+msgstr ""
+
+#: $string['check_webcron_ok']
+msgid "Anonymous users can not access cron."
+msgstr ""
+
+#: $string['check_webcron_warning']
+msgid "Anonymous users can access cron."
+msgstr ""
+
+#: $string['configuration']
+msgid "Configuration"
+msgstr "Ρύθμιση"
+
+#: $string['description']
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: $string['details']
+msgid "Details"
+msgstr "Λεπτομέρειες"
+
+#: $string['issue']
+msgid "Issue"
+msgstr "Θέμα"
+
+#: $string['pluginname']
+msgid "Security overview"
+msgstr "Επισκόπηση ασφάλειας"
+
+#: $string['security:view']
+msgid "View security report"
+msgstr "Εμφάνιση αναφοράς ασφάλειας"
+
+#: $string['status']
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: $string['statuscritical']
+msgid "Critical"
+msgstr "Κρίσιμη"
+
+#: $string['statusinfo']
+msgid "Information"
+msgstr "Πληροφορία"
+
+#: $string['statusok']
+msgid "OK"
+msgstr "Εντάξει"
+
+#: $string['statusserious']
+msgid "Serious"
+msgstr "Σοβαρή"
+
+#: $string['statuswarning']
+msgid "Warning"
+msgstr "Προειδοποίηση"
+
+#: $string['timewarning']
+msgid "Data processing may take a long time, please be patient..."
+msgstr ""
+"Η επεξεργασία των δεδομένων μπορεί να πάρει αρκετή ώρα, παρακαλούμε να είστε "
+"υπομονετικοί..."

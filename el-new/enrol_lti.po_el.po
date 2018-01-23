@@ -1,0 +1,306 @@
+#. extracted from lang/en/enrol_lti.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'enrol_lti', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   enrol_lti
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['allowframeembedding']
+msgid ""
+"Note: It is recommended that the site administration setting 'Allow frame "
+"embedding' is enabled, so that tools are displayed within a frame rather "
+"than in a new window."
+msgstr ""
+
+#: $string['authltimustbeenabled']
+msgid ""
+"Note: This plugin requires the LTI authentication plugin to be enabled too."
+msgstr ""
+
+#: $string['cartridgeurl']
+msgid "Cartridge URL"
+msgstr ""
+
+#: $string['couldnotestablishproxy']
+msgid "Could not establish proxy with consumer."
+msgstr ""
+
+#: $string['enrolenddate']
+msgid "End date"
+msgstr ""
+
+#: $string['enrolenddateerror']
+msgid "Enrolment end date cannot be earlier than start date"
+msgstr ""
+
+#: $string['enrolenddate_help']
+msgid "If enabled, users can access until this date only."
+msgstr ""
+
+#: $string['enrolisdisabled']
+msgid "The 'Publish as LTI tool' plugin is disabled."
+msgstr ""
+
+#: $string['enrolmentfinished']
+msgid "Enrolment finished."
+msgstr ""
+
+#: $string['enrolmentnotstarted']
+msgid "Enrolment has not started."
+msgstr ""
+
+#: $string['enrolperiod']
+msgid "Enrolment duration"
+msgstr ""
+
+#: $string['enrolperiod_help']
+msgid ""
+"Length of time that the enrolment is valid, starting with the moment the "
+"user enrols themselves from the remote system. If disabled, the enrolment "
+"duration will be unlimited."
+msgstr ""
+
+#: $string['enrolstartdate']
+msgid "Start date"
+msgstr ""
+
+#: $string['enrolstartdate_help']
+msgid "If enabled, users can access from this date onward only."
+msgstr ""
+
+#: $string['failedrequest']
+msgid "Failed request. Reason: {$a->reason}"
+msgstr ""
+
+#: $string['frameembeddingnotenabled']
+msgid "To access the tool, please follow the link below."
+msgstr ""
+
+#: $string['gradesync']
+msgid "Grade synchronisation"
+msgstr ""
+
+#: $string['gradesync_help']
+msgid ""
+"Whether grades from the tool are sent to the remote system (LTI consumer)."
+msgstr ""
+
+#: $string['incorrecttoken']
+msgid ""
+"The token was incorrect. Please check the URL and try again, or contact the "
+"administrator of this tool."
+msgstr ""
+
+#: $string['invalidrequest']
+msgid "Invalid request"
+msgstr ""
+
+#: $string['invalidtoolconsumer']
+msgid "Invalid tool consumer."
+msgstr ""
+
+#: $string['launchdetails']
+msgid "Launch details"
+msgstr ""
+
+#: $string['launchdetails_help']
+msgid ""
+"A cartridge URL (also called configuration URL) plus secret are required for "
+"configuring the tool."
+msgstr ""
+
+#: $string['lti:config']
+msgid "Configure 'Publish as LTI tool' instances"
+msgstr ""
+
+#: $string['lti:unenrol']
+msgid "Unenrol users from the course"
+msgstr "Ακύρωση εγγραφής χρηστών στο μάθημα"
+
+#: $string['maxenrolled']
+msgid "Maximum enrolled users"
+msgstr ""
+
+#: $string['maxenrolled_help']
+msgid ""
+"The maximum number of remote users who can access the tool. If set to zero, "
+"the number of enrolled users is unlimited."
+msgstr ""
+
+#: $string['maxenrolledreached']
+msgid ""
+"The maximum number of remote users allowed to access the tool has been "
+"reached."
+msgstr ""
+
+#: $string['membersync']
+msgid "User synchronisation"
+msgstr ""
+
+#: $string['membersync_help']
+msgid ""
+"Whether a scheduled task synchronises enrolled users in the remote system "
+"with enrolments in this course, creating an account for each remote user as "
+"necessary, and enrolling or unenrolling them as required.\n"
+"\n"
+"If set to no, at the moment when a remote user accesses the tool, an account "
+"will be created for them and they will be automatically enrolled."
+msgstr ""
+
+#: $string['membersyncmode']
+msgid "User synchronisation mode"
+msgstr ""
+
+#: $string['membersyncmodeenrolandunenrol']
+msgid "Enrol new and unenrol missing users"
+msgstr ""
+
+#: $string['membersyncmodeenrolnew']
+msgid "Enrol new users"
+msgstr "Εγγραφή νέων χρηστών"
+
+#: $string['membersyncmode_help']
+msgid ""
+"Whether remote users should be enrolled and/or unenrolled from this course."
+msgstr ""
+
+#: $string['membersyncmodeunenrolmissing']
+msgid "Unenrol missing users"
+msgstr ""
+
+#: $string['notoolsprovided']
+msgid "No tools provided"
+msgstr ""
+
+#: $string['opentool']
+msgid "Open tool"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Publish as LTI tool"
+msgstr ""
+
+#: $string['pluginname_desc']
+msgid ""
+"The 'Publish as LTI tool' plugin, together with the LTI authentication "
+"plugin, allows remote users to access selected courses and activities. In "
+"other words, Moodle functions as an LTI tool provider."
+msgstr ""
+
+#: $string['registration']
+msgid "Published tool registration"
+msgstr ""
+
+#: $string['registrationurl']
+msgid "Registration URL"
+msgstr ""
+
+#: $string['registrationurl_help']
+msgid ""
+"If a registration URL (also called proxy URL) is used, then the tool is "
+"automatically configured."
+msgstr ""
+
+#: $string['remotesystem']
+msgid "Remote system"
+msgstr ""
+
+#: $string['requirecompletion']
+msgid "Require course or activity completion prior to grade synchronisation"
+msgstr ""
+
+#: $string['returnurlnotset']
+msgid "Return URL was not set."
+msgstr ""
+
+#: $string['roleinstructor']
+msgid "Role for teacher"
+msgstr ""
+
+#: $string['roleinstructor_help']
+msgid "The role assigned in the tool to the remote teacher."
+msgstr ""
+
+#: $string['rolelearner']
+msgid "Role for student"
+msgstr ""
+
+#: $string['rolelearner_help']
+msgid "The role assigned in the tool to the remote student."
+msgstr ""
+
+#: $string['secret']
+msgid "Secret"
+msgstr ""
+
+#: $string['secret_help']
+msgid ""
+"A string of characters which is shared with the remote system (LTI consumer) "
+"to provide access to the tool."
+msgstr ""
+
+#: $string['sharedexternaltools']
+msgid "Published as LTI tools"
+msgstr ""
+
+#: $string['successfulregistration']
+msgid "Successful registration"
+msgstr ""
+
+#: $string['tasksyncgrades']
+msgid "Publish as LTI tool grade sync"
+msgstr ""
+
+#: $string['tasksyncmembers']
+msgid "Publish as LTI tool users sync"
+msgstr ""
+
+#: $string['toolsprovided']
+msgid "Published tools"
+msgstr ""
+
+#: $string['toolsprovided_help']
+msgid ""
+"A tool may be shared with another site by providing either launch details or "
+"a registration URL."
+msgstr ""
+
+#: $string['tooltobeprovided']
+msgid "Tool to be published"
+msgstr ""
+
+#: $string['toolurl']
+msgid "Tool URL"
+msgstr ""
+
+#: $string['userdefaultvalues']
+msgid "User default values"
+msgstr ""

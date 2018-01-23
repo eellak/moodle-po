@@ -1,0 +1,101 @@
+#. extracted from lang/en/customlabeltype_soluce.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'customlabeltype_soluce', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   customlabeltype_soluce
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['configtypename']
+msgid "Enable subtype Soluce"
+msgstr ""
+
+#: $string['family']
+msgid "pedagogic"
+msgstr ""
+
+#: $string['initiallyvisible']
+msgid "Initially visible"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Course element : Soluce"
+msgstr ""
+
+#: $string['soluce']
+msgctxt "$string['soluce']"
+msgid "Soluce"
+msgstr ""
+
+#: $string['soluce:addinstance']
+msgid "Can add an indstance"
+msgstr "Προσθήκη στιγμιότυπου"
+
+#: $string['soluce:view']
+msgid "Can view the content"
+msgstr ""
+
+#: $string['template']
+msgid ""
+"<table class=\"custombox-soluce\" cellspacing=\"0\" width=\"100%\">\n"
+"<tr valign=\"top\">\n"
+"    <td class=\"custombox-header-thumb soluce\" style=\"background-image : "
+"url(<%%icon%%>);\" width=\"2%\" rowspan=\"2\">\n"
+"    </td>\n"
+"    <td class=\"custombox-header-caption soluce\" width=\"98%\">\n"
+"        Soluce...\n"
+"    </td>\n"
+"    <td class=\"custombox-header-collapser soluce\" align=\"right\" width=\"2%\">\n"
+"        <a href=\"javascript:togglecustom('<%%customid%%>', '<%%wwwroot%%"
+">')\"><img id=\"customctl<%%customid%%>\" src=\"<%%initialcontrolimage%%>\" "
+"/></a>\n"
+"    </td>\n"
+"</tr>\n"
+"<tr>\n"
+"    <td colspan=\"2\">\n"
+"        <table id=\"custom<%%customid%%>\" cellspacing=\"0\" width=\"100%\">\n"
+"        <tr>\n"
+"            <td class=\"custombox-content soluce\" colspan=\"2\">\n"
+"                <%%soluce%%>\n"
+"            </td>\n"
+"        </tr>\n"
+"        </table>\n"
+"    </td>\n"
+"</tr>\n"
+"</table>\n"
+"<script type=\"text/javascript\">\n"
+"setupcustom('<%%customid%%>', '<%%initiallyvisible%%>', '<%%wwwroot%%>');\n"
+"</script>"
+msgstr ""
+
+#: $string['typename']
+msgctxt "$string['typename']"
+msgid "Soluce"
+msgstr ""

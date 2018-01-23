@@ -1,0 +1,966 @@
+#. extracted from lang/en/webservice.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'webservice', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   webservice
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['accessexception']
+msgid "Access control exception"
+msgstr ""
+
+#: $string['actwebserviceshhdr']
+msgid "Active web service protocols"
+msgstr "Ενεργά πρωτόκολλα διαδικτυακών υπηρεσιών"
+
+#: $string['addaservice']
+#, fuzzy
+msgid "Add service"
+msgstr "Επεξεργασία υπηρεσίας"
+
+#: $string['addcapabilitytousers']
+msgid "Check users capability"
+msgstr ""
+
+#: $string['addcapabilitytousersdescription']
+msgid ""
+"Users should have two capabilities - webservice:createtoken and a capability "
+"matching the protocols used, for example webservice/rest:use, "
+"webservice/soap:use. To achieve this, create a web services role with the "
+"appropriate capabilities allowed and assign it to the web services user as a "
+"system role."
+msgstr ""
+
+#: $string['addfunction']
+msgid "Add function"
+msgstr ""
+
+#: $string['addfunctionhelp']
+msgid "Select the function to add to the service."
+msgstr ""
+
+#: $string['addfunctions']
+msgid "Add functions"
+msgstr ""
+
+#: $string['addfunctionsdescription']
+msgid "Select required functions for the newly created service."
+msgstr ""
+
+#: $string['addrequiredcapability']
+msgid "Assign/unassign the required capability"
+msgstr ""
+
+#: $string['addservice']
+msgid "Add a new service: {$a->name} (id: {$a->id})"
+msgstr ""
+
+#: $string['addservicefunction']
+msgid "Add functions to the service \"{$a}\""
+msgstr ""
+
+#: $string['allusers']
+msgid "All users"
+msgstr "Όλοι οι χρήστες"
+
+#: $string['apiexplorer']
+msgid "API explorer"
+msgstr ""
+
+#: $string['apiexplorernotavalaible']
+msgid "API explorer not available yet."
+msgstr ""
+
+#: $string['arguments']
+msgid "Arguments"
+msgstr ""
+
+#: $string['authmethod']
+msgid "Authentication method"
+msgstr "Μέθοδος αυθεντικοποίησης"
+
+#: $string['callablefromajax']
+msgid "Callable from AJAX"
+msgstr ""
+
+#: $string['cannotcreatetoken']
+msgid "No permission to create web service token for the service {$a}."
+msgstr ""
+
+#: $string['cannotgetcoursecontents']
+msgid "Cannot get course contents"
+msgstr ""
+
+#: $string['checkusercapability']
+msgid "Check user capability"
+msgstr ""
+
+#: $string['checkusercapabilitydescription']
+msgid ""
+"The user should have appropriate capabilities according to the protocols "
+"used, for example webservice/rest:use, webservice/soap:use. To achieve this, "
+"create a web services role with protocol capabilities allowed and assign it "
+"to the web services user as a system role."
+msgstr ""
+
+#: $string['configwebserviceplugins']
+msgid "For security reasons, only protocols that are in use should be enabled."
+msgstr ""
+"Για λόγους ασφαλείας, μόνο τα πρωτόκολλα που χρησιμοποιούνται πρέπει να "
+"είναι ενεργοποιημένα."
+
+#: $string['context']
+msgid "Context"
+msgstr ""
+
+#: $string['createservicedescription']
+msgid ""
+"A service is a set of web service functions. You will allow the user to "
+"access to a new service. On the <strong>Add service</strong> page check "
+"'Enable' and 'Authorised users' options. Select 'No required capability'."
+msgstr ""
+
+#: $string['createserviceforusersdescription']
+msgid ""
+"A service is a set of web service functions. You will allow users to access "
+"to a new service. On the <strong>Add service</strong> page check 'Enable' "
+"and uncheck 'Authorised users' options. Select 'No required capability'."
+msgstr ""
+
+#: $string['createtoken']
+msgid "Create token"
+msgstr "Δημιουργία οντότητας (token)"
+
+#: $string['createtokenforuser']
+msgid "Create a token for a user"
+msgstr ""
+
+#: $string['createtokenforuserdescription']
+msgid "Create a token for the web services user."
+msgstr ""
+
+#: $string['createuser']
+msgid "Create a specific user"
+msgstr ""
+
+#: $string['createuserdescription']
+msgid ""
+"A web services user is required to represent the system controlling Moodle."
+msgstr ""
+
+#: $string['criteriaerror']
+msgid "Missing permissions to search on a criterion."
+msgstr ""
+
+#: $string['default']
+msgid "Default to \"{$a}\""
+msgstr ""
+
+#: $string['deleteaservice']
+msgid "Delete service"
+msgstr ""
+
+#: $string['deleteservice']
+msgid "Delete the service: {$a->name} (id: {$a->id})"
+msgstr ""
+
+#: $string['deleteserviceconfirm']
+msgid ""
+"Deleting a service will also delete the tokens related to this service. Do "
+"you really want to delete external service \"{$a}\"?"
+msgstr ""
+
+#: $string['deletetokenconfirm']
+msgid ""
+"Do you really want to delete this web service token for "
+"<strong>{$a->user}</strong> on the service <strong>{$a->service}</strong>?"
+msgstr ""
+
+#: $string['disabledwarning']
+msgid ""
+"All web service protocols are disabled.  The \"Enable web services\" setting "
+"can be found in Advanced features."
+msgstr ""
+
+#: $string['doc']
+msgid "Documentation"
+msgstr ""
+
+#: $string['docaccessrefused']
+msgid "You are not allowed to see the documentation for this token"
+msgstr ""
+
+#: $string['documentation']
+msgid "web service documentation"
+msgstr ""
+
+#: $string['downloadfiles']
+msgid "Can download files"
+msgstr ""
+
+#: $string['downloadfiles_help']
+msgid ""
+"If enabled, any user can download files with their security keys. Of course "
+"they are restricted to the files they are allowed to download in the site."
+msgstr ""
+
+#: $string['editaservice']
+msgid "Edit service"
+msgstr "Επεξεργασία υπηρεσίας"
+
+#: $string['editservice']
+msgid "Edit the service: {$a->name} (id: {$a->id})"
+msgstr ""
+
+#: $string['enabled']
+msgid "Enabled"
+msgstr "Ενεργοποιημένο"
+
+#: $string['enabledocumentation']
+msgid "Enable developer documentation"
+msgstr ""
+
+#: $string['enabledocumentationdescription']
+msgid "Detailed web services documentation is available for enabled protocols."
+msgstr ""
+
+#: $string['enableprotocols']
+#, fuzzy
+msgid "Enable protocols"
+msgstr "Διαχείριση πρωτοκόλλων"
+
+#: $string['enableprotocolsdescription']
+msgid ""
+"At least one protocol should be enabled. For security reasons, only "
+"protocols that are to be used should be enabled."
+msgstr ""
+
+#: $string['enablews']
+msgid "Enable web services"
+msgstr ""
+
+#: $string['enablewsdescription']
+msgid "Web services must be enabled in Advanced features."
+msgstr ""
+
+#: $string['entertoken']
+msgid "Enter a security key/token:"
+msgstr ""
+
+#: $string['error']
+msgid "Error: {$a}"
+msgstr ""
+
+#: $string['errorcatcontextnotvalid']
+msgid ""
+"You cannot execute functions in the category context (category "
+"id:{$a->catid}). The context error message was: {$a->message}"
+msgstr ""
+
+#: $string['errorcodes']
+msgid "Error message"
+msgstr "Μήνυμα σφάλματος"
+
+#: $string['errorcoursecontextnotvalid']
+msgid ""
+"You cannot execute functions in the course context (course "
+"id:{$a->courseid}). The context error message was: {$a->message}"
+msgstr ""
+
+#: $string['errorinvalidparam']
+msgid "The param \"{$a}\" is invalid."
+msgstr ""
+
+#: $string['errornotemptydefaultparamarray']
+msgid ""
+"The web service description parameter named '{$a}' is an single or multiple "
+"structure. The default can only be empty array. Check web service "
+"description."
+msgstr ""
+
+#: $string['erroroptionalparamarray']
+msgid ""
+"The web service description parameter named '{$a}' is an single or multiple "
+"structure. It can not be set as VALUE_OPTIONAL. Check web service "
+"description."
+msgstr ""
+
+#: $string['eventwebservicefunctioncalled']
+msgid "Web service function called"
+msgstr ""
+
+#: $string['eventwebserviceloginfailed']
+msgid "Web service login failed"
+msgstr ""
+
+#: $string['eventwebserviceservicecreated']
+msgid "Web service service created"
+msgstr ""
+
+#: $string['eventwebserviceservicedeleted']
+msgid "Web service service deleted"
+msgstr ""
+
+#: $string['eventwebserviceserviceupdated']
+msgid "Web service service updated"
+msgstr ""
+
+#: $string['eventwebserviceserviceuseradded']
+msgid "Web service service user added"
+msgstr ""
+
+#: $string['eventwebserviceserviceuserremoved']
+msgid "Web service service user removed"
+msgstr ""
+
+#: $string['eventwebservicetokencreated']
+msgid "Web service token created"
+msgstr ""
+
+#: $string['eventwebservicetokensent']
+msgid "Web service token sent"
+msgstr ""
+
+#: $string['execute']
+msgid "Execute"
+msgstr ""
+
+#: $string['executewarnign']
+msgid ""
+"WARNING: If you press execute your database will be modified and changes can "
+"not be reverted automatically!"
+msgstr ""
+
+#: $string['externalservice']
+msgid "External service"
+msgstr "Εξωτερική υπηρεσία"
+
+#: $string['externalservicefunctions']
+msgid "External service functions"
+msgstr ""
+
+#: $string['externalservices']
+msgid "External services"
+msgstr "Εξωτερικές υπηρεσίες"
+
+#: $string['externalserviceusers']
+#, fuzzy
+msgid "External service users"
+msgstr "Εξωτερικές υπηρεσίες"
+
+#: $string['failedtolog']
+msgid "Failed to log"
+msgstr ""
+
+#: $string['filenameexist']
+msgid "File name already exists: {$a}"
+msgstr ""
+
+#: $string['forbiddenwsuser']
+msgid ""
+"Can not create token for an unconfirmed, deleted, suspended or guest user."
+msgstr ""
+"Αδυναμία δημιουργίας αδειοπλαισίου για μη επιβεβαιωμένο, διεγραμμένο, σε "
+"αναστολή χρήστη ή επισκέπτη."
+
+#: $string['function']
+#, fuzzy
+msgid "Function"
+msgstr "Λειτουργίες"
+
+#: $string['functions']
+msgid "Functions"
+msgstr "Λειτουργίες"
+
+#: $string['generalstructure']
+msgid "General structure"
+msgstr ""
+
+#: $string['information']
+msgid "Information"
+msgstr ""
+
+#: $string['installexistingserviceshortnameerror']
+msgid ""
+"A web service with the shortname \"{$a}\" already exists. Can not "
+"install/update a different web service with this shortname."
+msgstr ""
+
+#: $string['installserviceshortnameerror']
+msgid ""
+"Coding error: the service shortname \"{$a}\" should have contains numbers, "
+"letters  and _-.. only."
+msgstr ""
+
+#: $string['invalidextparam']
+msgid "Invalid external api parameter: {$a}"
+msgstr ""
+
+#: $string['invalidextresponse']
+msgid "Invalid external api response: {$a}"
+msgstr ""
+
+#: $string['invalidiptoken']
+msgid "Invalid token - your IP is not supported"
+msgstr ""
+
+#: $string['invalidtimedtoken']
+msgid "Invalid token - token expired"
+msgstr ""
+
+#: $string['invalidtoken']
+msgid "Invalid token - token not found"
+msgstr ""
+
+#: $string['iprestriction']
+msgid "IP restriction"
+msgstr "Περιορισμοί IP"
+
+#: $string['iprestriction_help']
+msgid ""
+"The user will need to call the web service from the listed IPs (separated by "
+"commas)."
+msgstr ""
+
+#: $string['key']
+msgid "Key"
+msgstr "Κλειδί"
+
+#: $string['keyshelp']
+msgid ""
+"The keys are used to access your Moodle account from external applications."
+msgstr ""
+
+#: $string['loginrequired']
+msgid "Restricted to logged-in users"
+msgstr ""
+
+#: $string['manageprotocols']
+msgid "Manage protocols"
+msgstr "Διαχείριση πρωτοκόλλων"
+
+#: $string['managetokens']
+msgid "Manage tokens"
+msgstr "Διαχείριση οντοτήτων (tokens)"
+
+#: $string['missingcaps']
+msgid "Missing capabilities"
+msgstr ""
+
+#: $string['missingcaps_help']
+msgid ""
+"List of required capabilities for the service which the selected user does "
+"not have. Missing capabilities must be added to the user's role in order to "
+"use the service."
+msgstr ""
+
+#: $string['missingpassword']
+msgid "Missing password"
+msgstr ""
+
+#: $string['missingrequiredcapability']
+msgid "The capability {$a} is required."
+msgstr ""
+
+#: $string['missingusername']
+msgid "Missing username"
+msgstr ""
+
+#: $string['missingversionfile']
+msgid "Coding error: version.php file is missing for the component {$a}"
+msgstr ""
+
+#: $string['nameexists']
+msgid "This name is already in use by another service"
+msgstr ""
+
+#: $string['nocapabilitytouseparameter']
+msgid ""
+"The user does not have the required capability to use the parameter {$a}"
+msgstr ""
+
+#: $string['nofunctions']
+msgid "This service has no functions."
+msgstr ""
+
+#: $string['norequiredcapability']
+msgid "No required capability"
+msgstr ""
+
+#: $string['notoken']
+msgid "The token list is empty."
+msgstr "Η λίστα οντοτήτων (tokens) είναι άδεια."
+
+#: $string['onesystemcontrolling']
+msgid "Allow an external system to control Moodle"
+msgstr ""
+
+#: $string['onesystemcontrollingdescription']
+msgid ""
+"The following steps help you to set up the Moodle web services to allow an "
+"external system to interact with Moodle. This includes setting up a token "
+"(security key) authentication method."
+msgstr ""
+
+#: $string['onlyseecreatedtokens']
+msgid ""
+"Any token can be deleted, though you can only view tokens that you created."
+msgstr ""
+
+#: $string['operation']
+msgid "Operation"
+msgstr "Λειτουργία"
+
+#: $string['optional']
+msgid "Optional"
+msgstr ""
+
+#: $string['passwordisexpired']
+msgid "Password is expired."
+msgstr ""
+
+#: $string['phpparam']
+msgctxt "$string['phpparam']"
+msgid "XML-RPC (PHP structure)"
+msgstr ""
+
+#: $string['phpresponse']
+msgctxt "$string['phpresponse']"
+msgid "XML-RPC (PHP structure)"
+msgstr ""
+
+#: $string['postrestparam']
+msgid "PHP code for REST (POST request)"
+msgstr ""
+
+#: $string['potusers']
+msgid "Not authorised users"
+msgstr ""
+
+#: $string['potusersmatching']
+msgid "Not authorised users matching"
+msgstr ""
+
+#: $string['print']
+msgid "Print all"
+msgstr ""
+
+#: $string['protocol']
+msgid "Protocol"
+msgstr "Πρωτόκολλο"
+
+#: $string['removefunction']
+msgid "Remove"
+msgstr ""
+
+#: $string['removefunctionconfirm']
+msgid ""
+"Do you really want to remove function \"{$a->function}\" from service "
+"\"{$a->service}\"?"
+msgstr ""
+
+#: $string['requireauthentication']
+msgid "This method requires authentication with xxx permission."
+msgstr ""
+
+#: $string['required']
+msgid "Required"
+msgstr ""
+
+#: $string['requiredcapability']
+msgid "Required capability"
+msgstr ""
+
+#: $string['requiredcapability_help']
+msgid "If set, only users with the required capability can access the service."
+msgstr ""
+
+#: $string['requiredcaps']
+msgid "Required capabilities"
+msgstr ""
+
+#: $string['resettokenconfirm']
+msgid ""
+"Do you really want to reset this web service key for "
+"<strong>{$a->user}</strong> on the service <strong>{$a->service}</strong>?"
+msgstr ""
+
+#: $string['resettokenconfirmsimple']
+msgid ""
+"Do you really want to reset this key? Any saved links containing the old key "
+"will not work anymore."
+msgstr ""
+
+#: $string['response']
+msgid "Response"
+msgstr ""
+
+#: $string['restcode']
+msgctxt "$string['restcode']"
+msgid "REST"
+msgstr ""
+
+#: $string['restexception']
+msgctxt "$string['restexception']"
+msgid "REST"
+msgstr ""
+
+#: $string['restoredaccountresetpassword']
+msgid "Restored account need to reset password before getting a token."
+msgstr ""
+
+#: $string['restparam']
+msgid "REST (POST parameters)"
+msgstr ""
+
+#: $string['restrictedusers']
+msgid "Authorised users only"
+msgstr "Εξουσιοδοτημένοι χρήστες μόνο"
+
+#: $string['restrictedusers_help']
+msgid ""
+"This setting determines whether all users with the permission to create a "
+"web services token can generate a token for this service via their security "
+"keys page or whether only authorised users can do so."
+msgstr ""
+"Αυτή η ρύθμιση καθορίζει αν όλοι οι χρήστες με άδεια να δημιουργήσουν μια "
+"οντότητα (token) διαδικτυακής υπηρεσίας μπορούν να δημιουργήσουν μια "
+"οντότητα (token) για αυτή την υπηρεσία μέσω της σελίδας κλειδιών ασφαλείας ή "
+"μόνο εξουσιοδοτημένοι χρήστες μπορούν να το κάνουν."
+
+#: $string['securitykey']
+msgid "Security key (token)"
+msgstr ""
+
+#: $string['securitykeys']
+msgid "Security keys"
+msgstr "Κλειδία ασφαλείας"
+
+#: $string['selectauthorisedusers']
+msgid "Select authorised users"
+msgstr ""
+
+#: $string['selectedcapability']
+msgid "Selected"
+msgstr ""
+
+#: $string['selectedcapabilitydoesntexit']
+msgid ""
+"The currently set required capability ({$a}) doesn't exist any more. Please "
+"change it and save the changes."
+msgstr ""
+
+#: $string['selectservice']
+msgid "Select a service"
+msgstr ""
+
+#: $string['selectspecificuser']
+msgid "Select a specific user"
+msgstr ""
+
+#: $string['selectspecificuserdescription']
+msgid "Add the web services user as an authorised user."
+msgstr ""
+
+#: $string['service']
+msgid "Service"
+msgstr "Υπηρεσία"
+
+#: $string['servicehelpexplanation']
+msgid ""
+"A service is a set of functions. A service can be accessed by all users or "
+"just specified users."
+msgstr ""
+"Μια υπηρεσία είναι ένα σύνολο λειτουργιών. Μια υπηρεσία μπορεί να "
+"προσπελαστεί από όλους τους χρήστες ή μόνο από ορισμένους χρήστες."
+
+#: $string['servicename']
+msgid "Service name"
+msgstr ""
+
+#: $string['servicenotavailable']
+msgid "Web service is not available (it doesn't exist or might be disabled)"
+msgstr ""
+
+#: $string['servicesbuiltin']
+msgid "Built-in services"
+msgstr "Κατασκευασμένο με υπηρεσίες"
+
+#: $string['servicescustom']
+msgid "Custom services"
+msgstr ""
+
+#: $string['serviceusers']
+#, fuzzy
+msgid "Authorised users"
+msgstr "Εξουσιοδοτημένοι χρήστες μόνο"
+
+#: $string['serviceusersettings']
+msgid "User settings"
+msgstr ""
+
+#: $string['serviceusersmatching']
+msgid "Authorised users matching"
+msgstr ""
+
+#: $string['serviceuserssettings']
+msgid "Change settings for the authorised users"
+msgstr ""
+
+#: $string['shortnametaken']
+msgid "Short name is already used for another service ({$a})"
+msgstr ""
+
+#: $string['simpleauthlog']
+msgid "Simple authentication login"
+msgstr ""
+
+#: $string['step']
+msgid "Step"
+msgstr ""
+
+#: $string['supplyinfo']
+msgid "More details"
+msgstr ""
+
+#: $string['testauserwithtestclientdescription']
+msgid ""
+"Simulate external access to the service using the web service test client. "
+"Before doing so, log in as a user with the moodle/webservice:createtoken "
+"capability and obtain the security key (token) via the user's preferences "
+"page. You will use this token in the test client. In the test client, also "
+"choose an enabled protocol with the token authentication. <strong>WARNING: "
+"The functions that you test WILL BE EXECUTED for this user, so be careful "
+"what you choose to test!</strong>"
+msgstr ""
+
+#: $string['testclient']
+msgid "Web service test client"
+msgstr ""
+
+#: $string['testclientdescription']
+msgid ""
+"* The web service test client <strong>executes</strong> the functions for "
+"<strong>REAL</strong>. Do not test functions that you don't know. <br/>* All "
+"existing web service functions are not yet implemented into the test "
+"client. <br/>* In order to check that a user cannot access some functions, "
+"you can test some functions that you didn't allow.<br/>* To see clearer "
+"error messages set the debugging to <strong>{$a->mode}</strong> into "
+"{$a->atag}."
+msgstr ""
+
+#: $string['testwithtestclient']
+msgid "Test the service"
+msgstr ""
+
+#: $string['testwithtestclientdescription']
+msgid ""
+"Simulate external access to the service using the web service test client. "
+"Use an enabled protocol with token authentication. <strong>WARNING: The "
+"functions that you test WILL BE EXECUTED, so be careful what you choose to "
+"test!</strong>"
+msgstr ""
+
+#: $string['token']
+msgid "Token"
+msgstr ""
+
+#: $string['tokenauthlog']
+msgid "Token authentication"
+msgstr ""
+
+#: $string['tokencreatedbyadmin']
+msgid "Can only be reset by administrator (*)"
+msgstr ""
+
+#: $string['tokencreator']
+msgid "Creator"
+msgstr ""
+
+#: $string['unknownoptionkey']
+msgid "Unknown option key ({$a})"
+msgstr ""
+
+#: $string['unnamedstringparam']
+msgid "A string parameter is unnamed."
+msgstr ""
+
+#: $string['updateusersettings']
+msgid "Update"
+msgstr ""
+
+#: $string['uploadfiles']
+msgid "Can upload files"
+msgstr ""
+
+#: $string['uploadfiles_help']
+msgid ""
+"If enabled, any user can upload files with their security keys to their own "
+"private files area or a draft file area. Any user file quotas apply."
+msgstr ""
+
+#: $string['userasclients']
+msgid "Users as clients with token"
+msgstr ""
+
+#: $string['userasclientsdescription']
+msgid ""
+"The following steps help you to set up the Moodle web service for users as "
+"clients. These steps also help to set up the recommended token (security "
+"keys) authentication method. In this use case, the user will generate their "
+"token from the security keys page via their preferences page."
+msgstr ""
+
+#: $string['usermissingcaps']
+msgid "Missing capabilities: {$a}"
+msgstr ""
+
+#: $string['usernameorid']
+msgid "Username / User id"
+msgstr ""
+
+#: $string['usernameorid_help']
+msgid "Enter a username or a user id."
+msgstr ""
+
+#: $string['usernameoridnousererror']
+msgid "No users were found with this username/user id."
+msgstr ""
+
+#: $string['usernameoridoccurenceerror']
+msgid ""
+"More than one user was found with this username. Please enter the user id."
+msgstr ""
+
+#: $string['usernotallowed']
+msgid ""
+"The user is not allowed for this service. First you need to allow this user "
+"on the {$a}'s allowed users administration page."
+msgstr ""
+
+#: $string['userservices']
+msgid "User services: {$a}"
+msgstr ""
+
+#: $string['usersettingssaved']
+msgid "User settings saved"
+msgstr ""
+
+#: $string['validuntil']
+msgid "Valid until"
+msgstr "Έγκυρο μέχρι"
+
+#: $string['validuntil_help']
+msgid "If set, the service will be inactivated after this date for this user."
+msgstr ""
+
+#: $string['webservice']
+msgid "Web service"
+msgstr ""
+
+#: $string['webservices']
+msgid "Web services"
+msgstr ""
+
+#: $string['webservicesoverview']
+msgid "Overview"
+msgstr ""
+
+#: $string['webservicetokens']
+msgid "Web service tokens"
+msgstr ""
+
+#: $string['wrongusernamepassword']
+msgid "Wrong username or password"
+msgstr ""
+
+#: $string['wsaccessuserdeleted']
+#, fuzzy
+msgid "Refused web service access for deleted username: {$a}"
+msgstr ""
+"Απαγόρευση πρόσβασης στη διαδικτυακή υπηρεσία για το όνομα χρήστη σε "
+"αναστολή: {$a}"
+
+#: $string['wsaccessuserexpired']
+#, fuzzy
+msgid "Refused web service access for password expired username: {$a}"
+msgstr ""
+"Απαγόρευση πρόσβασης στη διαδικτυακή υπηρεσία για το όνομα χρήστη σε "
+"αναστολή: {$a}"
+
+#: $string['wsaccessusernologin']
+msgid "Refused web service access for nologin authentication username: {$a}"
+msgstr ""
+
+#: $string['wsaccessusersuspended']
+msgid "Refused web service access for suspended username: {$a}"
+msgstr ""
+"Απαγόρευση πρόσβασης στη διαδικτυακή υπηρεσία για το όνομα χρήστη σε "
+"αναστολή: {$a}"
+
+#: $string['wsaccessuserunconfirmed']
+#, fuzzy
+msgid "Refused web service access for unconfirmed username: {$a}"
+msgstr ""
+"Απαγόρευση πρόσβασης στη διαδικτυακή υπηρεσία για το όνομα χρήστη σε "
+"αναστολή: {$a}"
+
+#: $string['wsclientdoc']
+msgid "Moodle web service client documentation"
+msgstr ""
+
+#: $string['wsdocapi']
+msgid "API Documentation"
+msgstr ""
+
+#: $string['wsdocumentation']
+msgid "Web service documentation"
+msgstr ""
+
+#: $string['wsdocumentationdisable']
+msgid "Web service documentation is disabled."
+msgstr ""
+
+#: $string['wsdocumentationintro']
+msgid "To create a client we advise you to read the {$a->doclink}"
+msgstr ""
+
+#: $string['wsdocumentationlogin']
+msgid "or enter your web service username and password:"
+msgstr ""
+
+#: $string['wspassword']
+msgid "Web service password"
+msgstr ""
+
+#: $string['wsusername']
+msgid "Web service username"
+msgstr ""

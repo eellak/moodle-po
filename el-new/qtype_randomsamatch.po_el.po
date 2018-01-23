@@ -1,0 +1,117 @@
+#. extracted from lang/en/qtype_randomsamatch.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qtype_randomsamatch', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   qtype_randomsamatch
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['insufficientoptions']
+msgid ""
+"Insufficient selection options are available for this question, therefore it "
+"is not available in  this quiz. Please inform your teacher."
+msgstr ""
+
+#: $string['nosaincategory']
+msgid ""
+"There are no short answer questions in the category that you chose "
+"'{$a->catname}'. Choose a different category, make some questions in this "
+"category."
+msgstr ""
+"Δεν υπάρχουν ερωτήσεις με σύντομη απάντηση στην κατηγορία που επιλέξατε "
+"'{$a->catname}'. Επιλέξτε μια άλλη κατηγορία, δημιουργήστε μερικές ερωτήσεις "
+"σε αυτή την κατηγορία."
+
+#: $string['notenoughsaincategory']
+msgid ""
+"There is/are only {$a->nosaquestions} short answer questions in the category "
+"that you chose '{$a->catname}'. Choose a different category, make some more "
+"questions in this category or reduce the amount of questions you've "
+"selected."
+msgstr ""
+"Υπάρχει/υπάρχουν μόνο {$a->nosaquestions} ερωτήσεις σύντομης απάντησης στην "
+"κατηγορία που επιλέξατε '{$a->catname}'. Επιλέξτε μια άλλη κατηγορία, "
+"δημιουργήστε μερικές ερωτήσεις σε αυτή την κατηγορία ή μειώστε τον αριθμό "
+"των ερωτήσεων που επιλέξατε."
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Random short-answer matching"
+msgstr ""
+
+#: $string['pluginnameadding']
+msgid "Adding a Random short-answer matching question"
+msgstr ""
+
+#: $string['pluginnameediting']
+msgid "Editing a Random short-answer matching question"
+msgstr ""
+
+#: $string['pluginname_help']
+msgid ""
+"From the student perspective, this looks just like a matching question. The "
+"difference is that the list of names or statements (questions) for matching "
+"are drawn randomly from the short answer questions in the current category. "
+"There should be sufficient unused short answer questions in the category, "
+"otherwise an error message will be displayed."
+msgstr ""
+
+#: $string['pluginname_link']
+msgid "question/type/randomsamatch"
+msgstr ""
+
+#: $string['pluginnamesummary']
+msgid ""
+"Like a Matching question, but created randomly from the short answer "
+"questions in a particular category."
+msgstr ""
+
+#: $string['randomsamatch']
+msgctxt "$string['randomsamatch']"
+msgid "Random short-answer matching"
+msgstr ""
+
+#: $string['randomsamatchintro']
+msgid ""
+"For each of the following questions, select the matching answer from the "
+"menu."
+msgstr ""
+
+#: $string['randomsamatchnumber']
+msgid "Number of questions to select"
+msgstr ""
+
+#: $string['subcats']
+msgid "Include subcategories"
+msgstr ""
+
+#: $string['subcats_help']
+msgid "If checked, questions will be choosen from subcategories too."
+msgstr ""

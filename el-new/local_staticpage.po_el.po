@@ -1,0 +1,231 @@
+#. extracted from lang/en/local_staticpage.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'local_staticpage', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   local_staticpage
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['apacherewrite']
+msgid "Force Apache mod_rewrite"
+msgstr ""
+
+#: $string['apacherewrite_desc']
+msgid ""
+"Serve static pages only with a clean URL, rewritten by Apache mod_rewrite. "
+"See README file for details."
+msgstr ""
+
+#: $string['available']
+msgid "Available"
+msgstr ""
+
+#: $string['cleanhtml']
+msgid "Clean HTML code"
+msgstr ""
+
+#: $string['cleanhtml_desc']
+msgid ""
+"Configure if the static page's HTML code should be cleaned (and thereby "
+"special tags like &lt;iframe&gt; being removed). See README for details."
+msgstr ""
+
+#: $string['cleanhtmlno']
+msgid "No, don't clean HTML code"
+msgstr ""
+
+#: $string['cleanhtmlyes']
+msgid "Yes, clean HTML code"
+msgstr ""
+
+#: $string['documentheadingsource']
+msgid "Data source of document heading"
+msgstr ""
+
+#: $string['documentheadingsource_desc']
+msgid "The data source of the static page's document heading"
+msgstr ""
+
+#: $string['documentnavbarsource']
+msgid "Data source of breadcrumb item title"
+msgstr ""
+
+#: $string['documentnavbarsource_desc']
+msgid ""
+"The data source of the static page's breadcrumb item title (used in the "
+"Moodle \"Navbar\")"
+msgstr ""
+
+#: $string['documents']
+msgid "Documents"
+msgstr ""
+
+#: $string['documents_desc']
+msgid ""
+"The .html files with the static pages' HTML code. See README file for "
+"details."
+msgstr ""
+
+#: $string['documenttitlesource']
+msgid "Data source of document title"
+msgstr ""
+
+#: $string['documenttitlesource_desc']
+msgid ""
+"The data source of the static page's document title (used in the browser "
+"titlebar)"
+msgstr ""
+
+#: $string['documenttitlesourceh1']
+msgid ""
+"First h1 tag in HTML code (usually located shortly after opening the body "
+"tag)"
+msgstr ""
+
+#: $string['documenttitlesourcehead']
+msgid "First title tag in HTML code (usually located within the head tag)"
+msgstr ""
+
+#: $string['forcelogin']
+msgid "Force login"
+msgstr ""
+
+#: $string['forcelogin_desc']
+msgid ""
+"Serve static pages only to logged in users or also to non-logged in "
+"visitors. This behaviour can be set specifically for static pages or can be "
+"set to respect Moodle's global forcelogin setting. See README for details."
+msgstr ""
+
+#: $string['forceloginglobal']
+msgid "Respect the global setting $CFG->forcelogin"
+msgstr ""
+
+#: $string['notavailable']
+msgid "Not available"
+msgstr ""
+
+#: $string['pagenotfound']
+msgid "Page not found"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Static Pages"
+msgstr ""
+
+#: $string['processcontent']
+msgid "Process content"
+msgstr ""
+
+#: $string['processfilters']
+msgid "Process filters"
+msgstr ""
+
+#: $string['processfilters_desc']
+msgid ""
+"Configure if Moodle filters (especially the multilanguage filter) should be "
+"processed when serving the static page's content. See README for details."
+msgstr ""
+
+#: $string['processfiltersno']
+msgid "No, don't process filters"
+msgstr ""
+
+#: $string['processfiltersyes']
+msgid "Yes, process filters"
+msgstr ""
+
+#: $string['settingspagelist']
+msgid "List of static pages"
+msgstr ""
+
+#: $string['settingspagelistentryfilename']
+msgid "The following document file was found:<br /><strong>{$a}</strong>"
+msgstr ""
+
+#: $string['settingspagelistentrypagename']
+msgid ""
+"From the document file's filename, Moodle derived the following pagename:<br "
+"/><strong>{$a}</strong>"
+msgstr ""
+
+#: $string['settingspagelistentryrewritefail']
+msgid ""
+"The static page should be available to at the following clean URL, but "
+"actually a browser won't be able to download and view it (perhaps there is "
+"something wrong with your webserver or mod_rewrite configuration - see "
+"README file for details):<br /><strong>{$a}</strong>"
+msgstr ""
+
+#: $string['settingspagelistentryrewritesuccess']
+msgid ""
+"The static page is available and can be linked to at the following clean "
+"URL:<br /><strong>{$a}</strong>"
+msgstr ""
+
+#: $string['settingspagelistentrystandardfail']
+msgid ""
+"The static page should be available at the following standard URL, but "
+"actually a browser won't be able to download and view it (perhaps there is "
+"something wrong with your webserver configuration - see README file for "
+"details):<br /><strong>{$a}</strong>"
+msgstr ""
+
+#: $string['settingspagelistentrystandardsuccess']
+msgid ""
+"The static page is available and can be linked to at the following standard "
+"URL:<br /><strong>{$a}</strong>"
+msgstr ""
+
+#: $string['settingspagelistinstruction']
+msgid ""
+"This list shows all static pages which have been uploaded into the <a "
+"href=\"{$a}\">static pages document area</a> and their URLs"
+msgstr ""
+
+#: $string['settingspagelistnofiles']
+msgid ""
+"There are no .html files in the <a href=\"{$a}\">static pages document "
+"area</a>, therefore there are no static pages to be delivered. See README "
+"file for details."
+msgstr ""
+
+#: $string['upgrade_notice_2016020307']
+msgid ""
+"<strong>UPGRADE NOTICE:</strong> The static page document files were moved "
+"to the new filearea within Moodle. You can delete the legacy documents "
+"directory {$a} now. For more upgrade instructions, especially if you have "
+"been using the multilanguage features of this plugin, see README file."
+msgstr ""
+"<strong>ΑΝΑΚΟΙΝΩΣΗ ΑΝΑΒΑΘΜΙΣΗΣ:</strong> Τα αρχεία εγγράφων στατικής σελίδας "
+"μεταφέρθηκαν στη νέα περιοχή αρχείων στο Moodle. Μπορείτε να διαγράψετε τον "
+"παλιό κατάλογο εγγράφων {$a} τώρα. Για περισσότερες οδηγίες αναβάθμισης, "
+"ειδικά αν έχετε χρησιμοποιήσει τις πολυγλωσσικές δυνατότητες αυτού του "
+"πρόσθετου, ανατρέξτε στο αρχείο README."

@@ -1,0 +1,251 @@
+#. extracted from lang/en/block_filtered_course_list.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_filtered_course_list', language 'en', branch 'MOODLE_31_STABLE'
+#.  *
+#.  * @package   block_filtered_course_list
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['adminview']
+msgid "Admin view"
+msgstr ""
+
+#: $string['allcourses']
+msgid "Admin user sees all courses"
+msgstr ""
+
+#: $string['blockname']
+msgctxt "$string['blockname']"
+msgid "Filtered course list"
+msgstr ""
+
+#: $string['categories']
+msgid "Current category"
+msgstr ""
+
+#: $string['categorysettings']
+msgid "Category settings"
+msgstr ""
+
+#: $string['categorysettingsinfo']
+msgid "These settings apply only when using the category filter type."
+msgstr ""
+
+#: $string['collapsible']
+msgid "Collapsible sections"
+msgstr ""
+
+#: $string['configadminview']
+msgid ""
+"What should the admin see in the course list block? Note that admins who are "
+"not enrolled in any courses will still see the generic list."
+msgstr ""
+
+#: $string['configcategories']
+msgid "Select the category you want to display as current."
+msgstr ""
+
+#: $string['configcollapsible']
+msgid "Should the course groupings be collapsible?"
+msgstr ""
+
+#: $string['configcurrentshortname']
+msgid ""
+"Enter the string that designates the current term. <br>This must be part of "
+"the course shortname."
+msgstr ""
+
+#: $string['configcustomlabel']
+msgid ""
+"Enter a custom section title under which to organize courses. <br />[No "
+"HTML.]"
+msgstr ""
+
+#: $string['configcustomshortname']
+msgid "Enter a shortname string match for the corresponding custom label."
+msgstr ""
+
+#: $string['configexpanded']
+msgid "Check to expand this rubric by default when using collapsible rubrics."
+msgstr ""
+
+#: $string['configfiltertype']
+msgid "Select the type of course filter you would like to use."
+msgstr ""
+
+#: $string['configfutureshortname']
+msgid ""
+"Enter the string that designates the next term. <br>This must be part of the "
+"course shortname."
+msgstr ""
+
+#: $string['confighideallcourseslink']
+msgid ""
+"Hide \"All courses\" link at the bottom of the block. <br>Link hiding does not "
+"affect Admin's view"
+msgstr ""
+
+#: $string['confighidefromguests']
+msgid "Hide the block from guests and anonymous visitors."
+msgstr ""
+
+#: $string['confighideothercourses']
+msgid "Hide \"Other courses\" in the block."
+msgstr ""
+
+#: $string['configlabelscount']
+msgid "Change and save in order to apply to this page."
+msgstr ""
+
+#: $string['configmaxallcourse']
+msgid ""
+"On a site with only one category, admins and guests will see all courses, "
+"<br />but above this number they will see a category link instead. <br "
+"/>[Choose an integer between 0 and 999.]"
+msgstr ""
+
+#: $string['configtitle']
+msgid "Block title"
+msgstr ""
+
+#: $string['configuseregex']
+msgid ""
+"Check this box if you want to use regex for shortname matches. Note that "
+"backticks (`) will be stripped from regex searches and that regex matching "
+"is case sensitive, unlike non-regex matching. For details about regex syntax "
+"please see <a "
+"href=\"http://php.net/manual/en/reference.pcre.pattern.syntax.php\" target=\"_b"
+"lank\">http://php.net/manual/en/reference.pcre.pattern.syntax.php</a>"
+msgstr ""
+
+#: $string['currentcourses']
+msgid "Current courses"
+msgstr ""
+
+#: $string['currentshortname']
+msgid "Current shortname"
+msgstr ""
+
+#: $string['customlabel']
+msgid "Custom label"
+msgstr ""
+
+#: $string['customshortname']
+msgid "Custom shortname"
+msgstr ""
+
+#: $string['expanded']
+msgid "Expand by default"
+msgstr ""
+
+#: $string['filtercategories']
+msgid "Category"
+msgstr ""
+
+#: $string['filtercustom']
+msgid "Custom"
+msgstr ""
+
+#: $string['filtered_course_list:addinstance']
+msgid "Add a new Filtered course list block"
+msgstr ""
+
+#: $string['filtered_course_list:myaddinstance']
+msgid "Add a new Filtered course list block to My home"
+msgstr ""
+
+#: $string['filtershortname']
+msgid "Shortname"
+msgstr ""
+
+#: $string['filtertype']
+msgid "Filter type"
+msgstr ""
+
+#: $string['futurecourses']
+msgid "Future courses"
+msgstr ""
+
+#: $string['futureshortname']
+msgid "Future shortname"
+msgstr ""
+
+#: $string['generalsettings']
+msgid "General settings"
+msgstr ""
+
+#: $string['hideallcourseslink']
+msgid "Hide \"All courses\" link"
+msgstr ""
+
+#: $string['hidefromguests']
+msgid "Hide from guests"
+msgstr ""
+
+#: $string['hideothercourses']
+msgid "Hide other courses"
+msgstr ""
+
+#: $string['labelscount']
+msgid "Number of custom labels"
+msgstr ""
+
+#: $string['maxallcourse']
+msgid "Max for single category"
+msgstr ""
+
+#: $string['othercourses']
+msgid "Other courses"
+msgstr ""
+
+#: $string['owncourses']
+msgid "Admin user sees own courses"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Filtered course list"
+msgstr ""
+
+#: $string['shortnamesettings']
+msgid "Shortname settings"
+msgstr ""
+
+#: $string['shortnamesettingsinfo']
+msgid "These settings apply only when using the shortname filter type."
+msgstr ""
+
+#: $string['top']
+msgid "Top"
+msgstr ""
+
+#: $string['useregex']
+msgid "Use regex"
+msgstr ""

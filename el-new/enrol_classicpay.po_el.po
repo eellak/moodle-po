@@ -1,0 +1,1151 @@
+#. extracted from lang/en/enrol_classicpay.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'enrol_classicpay', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   enrol_classicpay
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['admin:page:legal']
+msgid ""
+"<p>Classic Pay and Classic Pay Plus have been developed by Sebsoft.</p>\n"
+"<p>However, Sebsoft can <i>not</i>, in any way, be held responsible or "
+"liable for processing transactions through the use of this system.<br/>\n"
+"All liability claims will get rejected a priori.</p>\n"
+"<p>You as merchant (or website owner) will be bound to Pay.nl by means of a "
+"(lawful) contract for the purpose of obtaining your collected funds (i.e. "
+"the payments done).<br/>\n"
+"The payout will be provided by \"Stichting Derdengelden Pay.nl\", the legal "
+"company that's responsible for managing your funds.<br/>\n"
+"Sebsoft will send you an invoice for all transactions made and/or generated "
+"invoices (applicable for ClassicPay Plus).</p>"
+msgstr ""
+
+#: $string['api:notconfigured']
+msgid ""
+"You do not have a PAYNL Merchant token configured yet.<br/>\n"
+"Please configure your settings to include a PAYNL Merchant token or <a "
+"href=\"{$a}\">apply here</a>"
+msgstr ""
+
+#: $string['apply:addsignee']
+msgid "Add a signee"
+msgstr ""
+
+#: $string['apply:addsignee_help']
+msgid "If you want to add a signee, complete the following fields."
+msgstr ""
+
+#: $string['apply:alreadyconfigured']
+msgid "You already have a PAYNL Merchant token configured."
+msgstr ""
+
+#: $string['apply:authorizedtosign']
+msgid "Authorized to sign"
+msgstr ""
+
+#: $string['apply:authorizedtosign_help']
+msgid "Indicates if you are authorised to sign. If unknown, leave option to NO"
+msgstr ""
+
+#: $string['apply:authorizedtosign:no']
+msgid "No"
+msgstr ""
+
+#: $string['apply:authorizedtosign:shared']
+msgid "Shared authorized to sign"
+msgstr ""
+
+#: $string['apply:authorizedtosign:yes']
+msgid "Authorized to sign independently"
+msgstr ""
+
+#: $string['apply:bankaccountnumber']
+msgid "Bankaccount Number (IBAN)"
+msgstr ""
+
+#: $string['apply:bankaccountnumber_help']
+msgid "Bank account number. This should be an IBAN number for Europe."
+msgstr ""
+
+#: $string['apply:bankaccountowner']
+msgid "Bankaccount Owner"
+msgstr ""
+
+#: $string['apply:bankaccountowner_help']
+msgid "Owner's name of the bank account"
+msgstr ""
+
+#: $string['apply:bankcity']
+msgid "Bank city"
+msgstr ""
+
+#: $string['apply:bankcity_help']
+msgid "Name of the city your bank is located."
+msgstr ""
+
+#: $string['apply:bankdocument']
+msgid "Copy bankaccount balance"
+msgstr ""
+
+#: $string['apply:bankdocument_help']
+msgid ""
+"Latest copy of your bankaccount balance. We need this for validation "
+"purposes.<br/>\n"
+"Any payment details are allowed to be made unreadable, as long as the "
+"account details are visible."
+msgstr ""
+
+#: $string['apply:bankname']
+msgid "Bank name"
+msgstr ""
+
+#: $string['apply:bankname_help']
+msgid "Name of your bank, e.g. Rabobank, ING, ..."
+msgstr ""
+
+#: $string['apply:bic']
+msgid "BIC / Swift"
+msgstr ""
+
+#: $string['apply:bic_help']
+msgid "BIC or SWIFT code"
+msgstr ""
+
+#: $string['apply:button:addsignee']
+msgid "Add {no} signee(s) to the form"
+msgstr ""
+
+#: $string['apply:city']
+msgid "City"
+msgstr ""
+
+#: $string['apply:city_help']
+msgid "City where the organisation is located"
+msgstr ""
+
+#: $string['apply:cocdocument']
+msgid "COC Excerpt"
+msgstr ""
+
+#: $string['apply:cocdocument_help']
+msgid ""
+"Excerpt of your Chamber of Commerce registration. We need this for "
+"validation purposes."
+msgstr ""
+
+#: $string['apply:cocnumber']
+msgid "COC Number"
+msgstr ""
+
+#: $string['apply:cocnumber_help']
+msgid "Your Chamber of Commerce registration number"
+msgstr ""
+
+#: $string['apply:companyname']
+msgid "Organisation Name"
+msgstr ""
+
+#: $string['apply:companyname_help']
+msgid "Your organisation name"
+msgstr ""
+
+#: $string['apply:countrycode']
+msgid "Country Code"
+msgstr ""
+
+#: $string['apply:countrycode_help']
+msgid "Country where the organisation is located"
+msgstr ""
+
+#: $string['apply:cpp:error']
+msgid "Error toggling Classic Pay plus: {$a}"
+msgstr ""
+
+#: $string['apply:cpp:fail']
+msgid "Failure toggling Classic Pay plus"
+msgstr ""
+
+#: $string['apply:cpp:success']
+msgid "Successfully toggled Classic Pay plus"
+msgstr ""
+
+#: $string['apply:email']
+msgid "Email address"
+msgstr "Διεύθυνση ηλεκτρονικού ταχυδρομείου"
+
+#: $string['apply:email_help']
+msgid ""
+"Email address. This is needed to apply for PAYNL get in contact with you "
+"regarding your application."
+msgstr ""
+
+#: $string['apply:fail']
+msgid ""
+"<div><p>Registration failure:</p><p>{$a->errcode}: "
+"{$a->error}</p><p>{$a->info}</p></div>"
+msgstr ""
+
+#: $string['apply:firstname']
+msgid "First Name"
+msgstr ""
+
+#: $string['apply:firstname_help']
+msgid "Your first name"
+msgstr ""
+
+#: $string['apply:gender']
+msgid "Gender"
+msgstr ""
+
+#: $string['apply:gender:female']
+msgid "Female"
+msgstr ""
+
+#: $string['apply:gender_help']
+msgid "Your gender"
+msgstr ""
+
+#: $string['apply:gender:male']
+msgid "Male"
+msgstr ""
+
+#: $string['apply:header:details']
+msgid "Registration information"
+msgstr ""
+
+#: $string['apply:header:paymentprofiles']
+msgid "Applicable payment methods for the application"
+msgstr ""
+
+#: $string['apply:header:signees']
+msgid "Optional extra signees for the application"
+msgstr ""
+
+#: $string['apply:housenumber']
+msgid "Housenumber"
+msgstr ""
+
+#: $string['apply:housenumber_help']
+msgid "house number of the organisation"
+msgstr ""
+
+#: $string['apply:iddocument']
+msgid "Identification document"
+msgstr ""
+
+#: $string['apply:iddocument_help']
+msgid ""
+"Latest copy of your ID (passport or ID card), or a copy of your driver's "
+"license."
+msgstr ""
+
+#: $string['apply:information']
+msgid ""
+"<div class=\"enrol-classicpay-info\"><strong>Important application "
+"information.</strong><br/>\n"
+"Please be careful to read the instructions very well before proceeding to "
+"apply.<br/>\n"
+"<ul>\n"
+"<li>Make sure to fill out this form to your best knowledge and honesty.</li>\n"
+"<li>Double check this form before submitting.</li>\n"
+"<li>Take note of the fact <b>all</b> documents are in fact required for your "
+"application.</li>\n"
+"<li>Uploading every required document will speed up your application.</li>\n"
+"<li>Your application will not be halted when you do not upload the required "
+"documents.<br/>\n"
+"You will be able to start immediately, provided your application is "
+"successful<br/>\n"
+"However, we will get in contact with you regarding the required documents "
+"and you will still have to provide them.<br/>\n"
+"Failing to do so, or any type of abuse will lead to suspension of your "
+"account.</li>\n"
+"<li>Any abuse or misuse will be reported to the authorities and can lead to "
+"your account being discontinued or blacklisted, either by us or by the "
+"payment service provider.</li>\n"
+"<li>Any indication of forgery in or falsification of required documents will "
+"lead to you being reported to the authorities, either by us or by the "
+"payment service provider.</li>\n"
+"<li><b><i>Unless all documents have been approved, your funds will not be "
+"released by the payment service provider.</i></b></li>\n"
+"</ul></div>"
+msgstr ""
+
+#: $string['apply:invoiceinterval_help']
+msgid "How often do you want invoices to be processed?"
+msgstr ""
+
+#: $string['apply:languageid']
+msgid "Language ID"
+msgstr ""
+
+#: $string['apply:languageid_help']
+msgid "Preferred language for your account"
+msgstr ""
+
+#: $string['apply:lastname']
+msgid "Last Name"
+msgstr ""
+
+#: $string['apply:lastname_help']
+msgid "You last name"
+msgstr ""
+
+#: $string['apply:nav']
+msgid "PAYNL Merchant application."
+msgstr ""
+
+#: $string['apply:page:heading']
+msgid "Apply for a PAYNL Merchant token."
+msgstr ""
+
+#: $string['apply:paymentprofile']
+msgid "Payment method(s)"
+msgstr ""
+
+#: $string['apply:phone']
+msgid "Phone number"
+msgstr ""
+
+#: $string['apply:phone2']
+msgid "Alternate phone number"
+msgstr ""
+
+#: $string['apply:phone2_help']
+msgid "Secondary phonenumber. If not needed, you can leave this blank"
+msgstr ""
+
+#: $string['apply:phone_help']
+msgid ""
+"Phone number where you can be reached. We will try and contact you if there "
+"are any problems regarding the application"
+msgstr ""
+
+#: $string['apply:sendemail_help']
+msgid "Indicates if you want to receive a registration email and what type."
+msgstr ""
+
+#: $string['apply:settlebalance_help']
+msgid "??"
+msgstr ""
+
+#: $string['apply:sitename']
+msgid "Site name"
+msgstr ""
+
+#: $string['apply:sitename_help']
+msgid "Site name. We need this for program registration purposes."
+msgstr ""
+
+#: $string['apply:siteurl']
+msgid "Site url"
+msgstr ""
+
+#: $string['apply:siteurl_help']
+msgid "Site url. We need this for program registration purposes."
+msgstr ""
+
+#: $string['apply:street']
+msgid "Street"
+msgstr ""
+
+#: $string['apply:street_help']
+msgid "Street address of the organisation"
+msgstr ""
+
+#: $string['apply:submit']
+msgid "Apply"
+msgstr ""
+
+#: $string['apply:success']
+msgid ""
+"<div><p>Registration successfully received and "
+"processed</p><p>{$a->info}</p>"
+msgstr ""
+
+#: $string['apply:ubo']
+msgctxt "$string['apply:ubo']"
+msgid "UBO"
+msgstr ""
+
+#: $string['apply:ubo_help']
+msgctxt "$string['apply:ubo_help']"
+msgid "UBO"
+msgstr ""
+
+#: $string['apply:usecompanyauth_help']
+msgid "Use organisation authentication?"
+msgstr ""
+
+#: $string['apply:vatnumber']
+msgid "VAT number"
+msgstr ""
+
+#: $string['apply:vatnumber_help']
+msgid "Possible VAT Registration number for the organisation"
+msgstr ""
+
+#: $string['apply:zipcode']
+msgid "Zipcode"
+msgstr ""
+
+#: $string['apply:zipcode_help']
+msgid "Zip code of the organisation"
+msgstr ""
+
+#: $string['assignrole']
+msgid "Assign role"
+msgstr ""
+
+#: $string['button:cppo:update']
+msgid "Update payment methods"
+msgstr ""
+
+#: $string['button:pay']
+msgid "Pay"
+msgstr ""
+
+#: $string['checkcode']
+msgid "Check coupon code"
+msgstr ""
+
+#: $string['classicpay:config']
+msgid "Configure classicpay"
+msgstr ""
+
+#: $string['classicpay:createcoupon']
+msgid "Create coupons"
+msgstr ""
+
+#: $string['classicpay:deletecoupon']
+msgid "Delete coupons"
+msgstr ""
+
+#: $string['classicpay:editcoupon']
+msgid "Edit coupons"
+msgstr ""
+
+#: $string['classicpay:manage']
+msgid "Manage classicpay"
+msgstr ""
+
+#: $string['classicpay:plus:description']
+msgid ""
+"<div class=\"enrol-classicpay-info\">When requesting a Classicpay Plus "
+"account, it effectively means you're applying to create / request "
+"invoices.<br/>\n"
+"This does bring a few extra costs, but it has the advantage both you and the "
+"enduser will automatically receive an invoice from our service when a "
+"course has been purchased.<br/>\n"
+"By enabling Classicpay Plus you automatically agree with us billing you 10 "
+"cent, on top of the transactions costs, per transaction.<br/>\n"
+"These will periodically be billed to you by us. You will receive an invoice "
+"for the number of generated invoices.<br/>\n"
+"The first date of generating an invoice is leading. It isn't necessarily the "
+"case the number of transactions within a certain period is the same as the "
+"number of billed generated invoices.</div>"
+msgstr ""
+
+#: $string['classicpay:plus:status:error']
+msgid "Error while checking classicpay plus account: {$a}"
+msgstr ""
+
+#: $string['classicpay:plus:status:invalid']
+msgid "You do not have a classicpay plus account"
+msgstr ""
+
+#: $string['classicpay:plus:status:valid']
+msgid "You have a classicpay plus account"
+msgstr ""
+
+#: $string['classicpay:unenrol']
+msgid "Unenrol users"
+msgstr "Ακύρωση εγγραφής χρηστών"
+
+#: $string['classicpay:unenrolself']
+msgid "Unenrol self"
+msgstr "Ακύρωση εγγραφής"
+
+#: $string['cost']
+msgid "Enrol cost"
+msgstr ""
+
+#: $string['couponcode']
+msgid "Couponcode"
+msgstr ""
+
+#: $string['couponcodeexists']
+msgid "Coupon code already exists"
+msgstr ""
+
+#: $string['couponcodemissing']
+msgid "Couponcode must be set"
+msgstr ""
+
+#: $string['coupon:delete']
+msgid "Delete Coupon"
+msgstr ""
+
+#: $string['coupon:deleted']
+msgid "Coupon successfully deleted"
+msgstr ""
+
+#: $string['coupon:delete:warn']
+msgid ""
+"<p>You are about to remove a coupon with the following details.</p>\n"
+"<p>Course: <i>{$a->course}</i><br/>Couponcode: "
+"<i>{$a->code}</i><br/>Validity: <i>{$a->validfrom} - {$a->validto}</i></p>\n"
+"<p>Are you sure you want to do this?</p>"
+msgstr ""
+
+#: $string['coupon:details']
+msgid "Coupon details"
+msgstr ""
+
+#: $string['coupon:edit']
+msgid "Edit existing coupon"
+msgstr ""
+
+#: $string['coupon:expired']
+msgid "Coupon code has expired"
+msgstr ""
+
+#: $string['coupon:invalid']
+msgid "Invalid coupon code"
+msgstr ""
+
+#: $string['coupon:invoice']
+msgid "Re-request invoice"
+msgstr ""
+
+#: $string['coupon:new']
+msgid "Add a new coupon"
+msgstr "Προσθήκη νέου κουπονιού"
+
+#: $string['coupon:newprice']
+msgid ""
+"Discount: {$a->percentage}<br/>Discount: {$a->currency} "
+"{$a->discount}<br/>New price: <b>{$a->currency} {$a->newprice}</b>"
+msgstr ""
+
+#: $string['coupon:saved']
+msgid "Coupon successfully inserted"
+msgstr ""
+
+#: $string['coupons:backtooverview']
+msgid "Back to coupon list"
+msgstr ""
+
+#: $string['coupon:status:active']
+msgid "ACTIVE"
+msgstr ""
+
+#: $string['coupon:status:expired']
+msgid "EXPIRED"
+msgstr ""
+
+#: $string['coupon:status:impending']
+msgid "IMPENDING"
+msgstr ""
+
+#: $string['coupon:status:maxused']
+msgid "MAXUSED"
+msgstr ""
+
+#: $string['coupontype']
+msgctxt "$string['coupontype']"
+msgid "Type"
+msgstr ""
+
+#: $string['coupontype:percentage']
+msgctxt "$string['coupontype:percentage']"
+msgid "Percentage"
+msgstr ""
+
+#: $string['coupontype:value']
+msgctxt "$string['coupontype:value']"
+msgid "Value"
+msgstr ""
+
+#: $string['coupon:updated']
+msgid "Coupon data successfully updated"
+msgstr ""
+
+#: $string['cp:apply']
+msgid "Merchant Application"
+msgstr ""
+
+#: $string['cp:coupons']
+msgid "Manage coupons"
+msgstr ""
+
+#: $string['cp:legal']
+msgid "Liability information"
+msgstr ""
+
+#: $string['cppapply:disable']
+msgid "Disable Classicpay Plus"
+msgstr ""
+
+#: $string['cppapply:enable']
+msgid "Enable Classicpay Plus"
+msgstr ""
+
+#: $string['cppapply:header']
+msgid "Classicpay Plus account status"
+msgstr ""
+
+#: $string['cp:paynlconnection']
+msgid "Classicpay Service Info"
+msgstr ""
+
+#: $string['cppoapply:header:paymentprofiles']
+msgid "Your configured payment methods"
+msgstr ""
+
+#: $string['cppoapply:paymentprofiles:setting']
+msgid ""
+"<div class=\"enrol-classicpay-info\"><span style=\"color:red\">*&nbsp;</span>The "
+"following methods require you to supply extra account information.<br/>\n"
+"Upon selecting these you will receive a confirmation email that should tell "
+"you we'll get in touch with you regarding the details.<br/></div>"
+msgstr ""
+
+#: $string['cppoapply:paymentprofiles:simple']
+msgid ""
+"<div class=\"enrol-classicpay-info\">Freely available methods.<br/>\n"
+"These methods can be switched on or off without need for extra "
+"details.</div>"
+msgstr ""
+
+#: $string['cp:subscriptions']
+msgid "Enrolments"
+msgstr ""
+
+#: $string['cp:transactions']
+msgid "Transactions"
+msgstr ""
+
+#: $string['currency']
+msgid "Currency"
+msgstr ""
+
+#: $string['defaultrole']
+msgid "Default role assignment"
+msgstr ""
+
+#: $string['defaultrole_desc']
+msgid ""
+"Select role which should be assigned to users during ClassicPay enrolments"
+msgstr ""
+
+#: $string['enablecoupon']
+msgid "Enable coupons?"
+msgstr ""
+
+#: $string['enablecoupon_help']
+msgid ""
+"Check this option to enable entering of coupons by default in the payment "
+"screen.\n"
+"You can enable or disable it on a per enrolment instance level."
+msgstr ""
+
+#: $string['enabled']
+msgid "Enabled"
+msgstr ""
+
+#: $string['enabled_desc']
+msgid "Status of the gateway if this can be used to create a transaction"
+msgstr ""
+
+#: $string['enrol:already']
+msgid "You have already been enrolled for course: {$a->fullname}"
+msgstr ""
+
+#: $string['enrolenddate']
+msgid "End date"
+msgstr ""
+
+#: $string['enrolenddate_help']
+msgid "If enabled, users can be enrolled until this date only."
+msgstr ""
+
+#: $string['enrolenddaterror']
+msgid "Enrolment end date cannot be earlier than start date"
+msgstr ""
+
+#: $string['enrol:fail']
+msgid "You have not been enrolled to this course."
+msgstr ""
+
+#: $string['enrol:fail:tx']
+msgid "Your transaction status is: {$a->statusname}."
+msgstr ""
+
+#: $string['enrol:ok']
+msgid ""
+"Thanks for your purchase.<br> You have now been enrolled for course: "
+"{$a->fullname}"
+msgstr ""
+
+#: $string['enrolperiod']
+msgid "Enrolment duration"
+msgstr ""
+
+#: $string['enrolperiod_desc']
+msgid ""
+"Default length of time that the enrolment is valid. If set to zero, the "
+"enrolment duration will be unlimited by default."
+msgstr ""
+
+#: $string['enrolperiod_help']
+msgid ""
+"Length of time that the enrolment is valid, starting with the moment the "
+"user is enrolled. If disabled, the enrolment duration will be unlimited."
+msgstr ""
+
+#: $string['enrolstartdate']
+msgid "Start date"
+msgstr ""
+
+#: $string['enrolstartdate_help']
+msgid "If enabled, users can be enrolled from this date onward only."
+msgstr ""
+
+#: $string['entiresite']
+msgid "Entire site / any course"
+msgstr ""
+
+#: $string['err:getserviceprofiles']
+msgid "Error loading Payment options: {$a->error}"
+msgstr ""
+
+#: $string['err:percentage-exceed']
+msgid "Discount percentage can't exceed 100%"
+msgstr ""
+
+#: $string['err:percentage-negative']
+msgid "Discount percentage can't be negative"
+msgstr ""
+
+#: $string['err:setserviceprofiles']
+msgid "Error updating Payment options: {$a->error}"
+msgstr ""
+
+#: $string['err:value-negative']
+msgid "Discount can't be negative"
+msgstr ""
+
+#: $string['event:payment:complete']
+msgid "Classicpay payment completed"
+msgstr ""
+
+#: $string['event:payment:started']
+msgid "Classicpay payment started"
+msgstr ""
+
+#: $string['expiredaction']
+msgid "Enrolment expiration action"
+msgstr ""
+
+#: $string['expiredaction_help']
+msgid ""
+"Select action to carry out when user enrolment expires. Please note that "
+"some user data and settings are purged from course during course "
+"unenrolment."
+msgstr ""
+"Επιλέξτε την ενέργεια που θα εκτελεστεί όταν λήξει η εγγραφή του χρήστη. "
+"Παρακαλώ σημειώστε ότι ορισμένα δεδομένα χρήστη και ρυθμίσεις εκκαθαρίζονται "
+"από το μάθημα κατά την ακύρωση εγγραφής στο μάθημα."
+
+#: $string['expirymessageenrolledbody']
+msgid ""
+"Dear {$a->user},\n"
+"\n"
+"This is a notification that your enrolment in the course '{$a->course}' is "
+"due to expire on {$a->timeend}.\n"
+"\n"
+"If you need help, please contact {$a->enroller}."
+msgstr ""
+
+#: $string['expirymessageenrolledsubject']
+msgctxt "$string['expirymessageenrolledsubject']"
+msgid "Enrolment expiry notification"
+msgstr ""
+
+#: $string['expirymessageenrollerbody']
+msgid ""
+"Enrolment in the course '{$a->course}' will expire within the next "
+"{$a->threshold} for the following users:\n"
+"\n"
+"{$a->users}\n"
+"\n"
+"To extend their enrolment, go to {$a->extendurl}"
+msgstr ""
+
+#: $string['expirymessageenrollersubject']
+msgctxt "$string['expirymessageenrollersubject']"
+msgid "Enrolment expiry notification"
+msgstr ""
+
+#: $string['gettokentime']
+msgid "Time on remote API: {$a}"
+msgstr ""
+
+#: $string['invoice:requested']
+msgid "Your request to process the invoice has succesfully been processed"
+msgstr ""
+
+#: $string['mailadmins']
+msgid "Notify admin"
+msgstr ""
+
+#: $string['mailstudents']
+msgid "Notify students"
+msgstr ""
+
+#: $string['mailteachers']
+msgid "Notify teachers"
+msgstr ""
+
+#: $string['maximum']
+msgid "Maximum"
+msgstr ""
+
+#: $string['maxusage']
+msgid "Maximum usage"
+msgstr ""
+
+#: $string['maxusage_help']
+msgid ""
+"Maximum number of times this coupon code can be used.<br/>\n"
+"If 0 is entered, it means unlimited usage."
+msgstr ""
+
+#: $string['minimum']
+msgid "Minimum"
+msgstr ""
+
+#: $string['name']
+msgid "Name"
+msgstr ""
+
+#: $string['nocost']
+msgid "There is no cost associated with enrolling in this course!"
+msgstr ""
+
+#: $string['page:title:spapply']
+msgid "Apply for a PAYNL Merchant"
+msgstr ""
+
+#: $string['paylogin']
+msgid "Login to PAYNL"
+msgstr ""
+
+#: $string['payment:cancelled']
+msgid "You have cancelled your payment for course: {$a->fullname}"
+msgstr ""
+
+#: $string['paynlapitoken']
+msgid "PAYNL API token"
+msgstr ""
+
+#: $string['paynlapitoken_desc']
+msgid "The token is needed for communicating with the PAYNL API"
+msgstr ""
+
+#: $string['paynlconn:remote:error']
+msgid "Error while calling remote PAY API: {$a}"
+msgstr ""
+
+#: $string['paynlmerchantid']
+msgid "PAYNL Merchant ID"
+msgstr ""
+
+#: $string['paynlmerchantid_desc']
+msgid "The Merchant ID is needed to identify the merchant on the PAYNL API"
+msgstr ""
+
+#: $string['paynlserviceid']
+msgid "PAYNL Service ID"
+msgstr ""
+
+#: $string['paynlserviceid_desc']
+msgid "The Service ID is needed to identify the service on the PAYNL API"
+msgstr ""
+
+#: $string['paynlsettings']
+msgid "PAYNL Account merchant settings"
+msgstr ""
+
+#: $string['paynlsettings_apply']
+msgid "<a href=\"\">Apply for PAYNL</a>"
+msgstr ""
+
+#: $string['paynlsettings_desc']
+msgid ""
+"Below you will need to set the PAYNL merchant settings that wil enable you "
+"to initialize and utilize payments."
+msgstr ""
+
+#: $string['percentage']
+msgctxt "$string['percentage']"
+msgid "Percentage"
+msgstr ""
+
+#: $string['percentagemissing']
+msgid "Percentage must be given"
+msgstr ""
+
+#: $string['pluginname']
+msgid "ClassicPay"
+msgstr ""
+
+#: $string['pluginname_desc']
+msgid "This plugin allows you to purchase a course with the PAYNL gateway"
+msgstr ""
+
+#: $string['promo']
+msgid "ClassicPay enrolment plugin for Moodle"
+msgstr ""
+
+#: $string['promodesc']
+msgid ""
+"This plugin is written by Sebsoft Managed Hosting & Software Development\n"
+"(<a href='http://www.sebsoft.nl/' target='_new'>http://sebsoft.nl</a>).<br "
+"/><br />\n"
+"{$a}<br /><br />"
+msgstr ""
+
+#: $string['purchase']
+msgid "Purchase course"
+msgstr ""
+
+#: $string['registrationcancelled']
+msgid "Registration cancelled. You are now being redirected to the homepage."
+msgstr ""
+
+#: $string['setserviceprofiles:success']
+msgid "Successfully updated Payment options:<br/>{$a}"
+msgstr ""
+
+#: $string['settings']
+msgid "Settings"
+msgstr ""
+
+#: $string['status']
+msgid "Allow ClassicPay enrolments"
+msgstr ""
+
+#: $string['status_desc']
+msgid "Allow users to use ClassicPay to enrol into a course by default."
+msgstr ""
+
+#: $string['task:process_pending_orders']
+msgid ""
+"Synchronises pending payment order status in case we missed exchange "
+"requests"
+msgstr ""
+
+#: $string['task:request_invoices']
+msgid "Synchronise invoice request queue"
+msgstr ""
+
+#: $string['task:sync_cpplus']
+msgid "Synchronise whether or not we have a classicpay PLUS account"
+msgstr ""
+
+#: $string['th:action']
+msgid "Action(s)"
+msgstr ""
+
+#: $string['th:code']
+msgid "Code"
+msgstr ""
+
+#: $string['th:cost']
+msgid "Cost"
+msgstr ""
+
+#: $string['th:courseid']
+msgid "Course"
+msgstr ""
+
+#: $string['th:discount']
+msgid "Discount"
+msgstr ""
+
+#: $string['th:maxusage']
+msgid "Max usage"
+msgstr ""
+
+#: $string['th:numused']
+msgid "#Used"
+msgstr ""
+
+#: $string['th:paymentcreated']
+msgid "Transaction started"
+msgstr ""
+
+#: $string['th:paymentmodified']
+msgid "Last updated"
+msgstr ""
+
+#: $string['th:percentage']
+msgctxt "$string['th:percentage']"
+msgid "Percentage"
+msgstr ""
+
+#: $string['th:rawcost']
+msgid "Course Price"
+msgstr ""
+
+#: $string['th:status']
+msgid "Status"
+msgstr ""
+
+#: $string['th:txid']
+msgid "Transaction ID"
+msgstr ""
+
+#: $string['th:type']
+msgctxt "$string['th:type']"
+msgid "Type"
+msgstr ""
+
+#: $string['th:user']
+msgid "User"
+msgstr ""
+
+#: $string['th:validfrom']
+msgctxt "$string['th:validfrom']"
+msgid "Valid from"
+msgstr ""
+
+#: $string['th:validto']
+msgctxt "$string['th:validto']"
+msgid "Valid to"
+msgstr ""
+
+#: $string['th:value']
+msgctxt "$string['th:value']"
+msgid "Value"
+msgstr ""
+
+#: $string['title:cancelpage']
+msgid "Payment cancelled"
+msgstr ""
+
+#: $string['title:couponedit']
+msgid "ClassicPay - Edit coupon"
+msgstr ""
+
+#: $string['title:couponmanager']
+msgid "Coupon management"
+msgstr ""
+
+#: $string['title:couponmanager:delete']
+msgid "Coupon manager - removal"
+msgstr ""
+
+#: $string['title:couponmanager:details']
+msgid "Coupon manager details"
+msgstr ""
+
+#: $string['title:couponmanager:edit']
+msgid "Coupon manager - edit"
+msgstr ""
+
+#: $string['title:enrolments']
+msgid "Classicpay - enrolments"
+msgstr ""
+
+#: $string['title:legal']
+msgid "Classicpay - liability information"
+msgstr ""
+
+#: $string['title:returnpage']
+msgid "Payment Status"
+msgstr ""
+
+#: $string['title:service']
+msgid "Classicpay - account information"
+msgstr ""
+
+#: $string['title:transactions']
+msgid "ClassicPay - Transactions"
+msgstr ""
+
+#: $string['validfrom']
+msgctxt "$string['validfrom']"
+msgid "Valid from"
+msgstr ""
+
+#: $string['validfromhigherthanvalidto']
+msgid "Validity from data is past validity to date"
+msgstr ""
+
+#: $string['validfrommissing']
+msgid "Start date of validity must be set"
+msgstr ""
+
+#: $string['validto']
+msgctxt "$string['validto']"
+msgid "Valid to"
+msgstr ""
+
+#: $string['validtomissing']
+msgid "End date for validity must be set"
+msgstr ""
+
+#: $string['value']
+msgctxt "$string['value']"
+msgid "Value"
+msgstr ""
+
+#: $string['valuemissing']
+msgid "A value must be given"
+msgstr ""
+
+#: $string['vat']
+msgid "VAT"
+msgstr ""
+
+#: $string['vat_help']
+msgid "VAT percentage of course cost (note: course cost is including VAT)."
+msgstr ""
+
+#: $string['warn:servicepage']
+msgid ""
+"<div class=\"enrol-classicpay-warn\">Every action you perform on this page "
+"will be performed on our classicpay service.<br/>\n"
+"Be careful to read and fully understand the comments before "
+"proceeding.</div>"
+msgstr ""

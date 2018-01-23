@@ -1,0 +1,242 @@
+#. extracted from lang/en/ipal.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'ipal', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   ipal
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['anonymousmess']
+msgid "Your answer is recorded anonymously"
+msgstr ""
+
+#: $string['attendancequestion']
+msgid "Are you here today"
+msgstr ""
+
+#: $string['attendancequestion2']
+msgid ""
+"If so, please type the posted attendance code\n"
+"    in the text box and submit it so that you can be counted present."
+msgstr ""
+
+#: $string['basicideasofipal']
+msgid "The basic ideas of selecting questions for in-class polling"
+msgstr ""
+
+#: $string['editingipal']
+msgid "Adding (selecting) ipal questions"
+msgstr ""
+
+#: $string['editingipal_ex']
+msgid "Editing ipal: {$a}"
+msgstr ""
+
+#: $string['editingipal_help']
+msgid ""
+"When selecting questions for ipal, the main concepts are:\n"
+"\n"
+"* Select questions you might want to use from the questions bank, from "
+"ComPADRE, or create new questions.\n"
+"* The order of questions is not important since you can send them in any "
+"order.\n"
+"* When polling you can send the same question more than once."
+msgstr ""
+
+#: $string['eventeditpageviewed']
+msgid "Ipal edit page viewed"
+msgstr ""
+
+#: $string['introduction']
+msgid "Description"
+msgstr ""
+
+#: $string['ipal']
+msgctxt "$string['ipal']"
+msgid "ipal"
+msgstr ""
+
+#: $string['ipal:addinstance']
+msgid "Add a new ipal"
+msgstr ""
+
+#: $string['ipal_analytics']
+msgid "improve analytics"
+msgstr ""
+
+#: $string['ipal_analytics_help']
+msgid ""
+"If this is selected the student polling data, identified only by the Moodle "
+"student userID, will be sent to\n"
+"     the ComPADRE site so that an analysis of the data can be done.\n"
+"     Only authorized people at your institution can access the data and "
+"identify the user names or actual names of any student.\n"
+"     and these authorized people can only view the results of the analysis "
+"for their own school.\n"
+"     <br />If this is not selected, no data is sent to the ComPADRE site."
+msgstr ""
+
+#: $string['ipal_autocreate_generic']
+msgid "Auto-create generic questions"
+msgstr ""
+
+#: $string['ipal_autocreate_generic_help']
+msgid ""
+"If this is selected, generic multichoice and essay questions will be "
+"automatically created when the teacher first chooses to select\n"
+"\t the questions for an IPAL instance."
+msgstr ""
+
+#: $string['ipal_enable_compadre']
+msgid "Enable retrieval of questions from ComPADRE"
+msgstr ""
+
+#: $string['ipal_enable_compadre_help']
+msgid ""
+"If this is selected, the teacher can choose to import ready-to-use peer-"
+"reviewed questions.\n"
+"\t The initial set of questions includes hundreds of introductory physics "
+"questions from the ConcepTest questions, authored\n"
+"\t by Physics Professor Eric Mazur and his group from Harvard University. "
+"These questions are housed at <a href=\"http://www.compadre.org/\" "
+"target=\"_blank\">ComPADRE</a>, a National\n"
+"\t Physics and Astronomy Digital Library."
+msgstr ""
+
+#: $string['ipalfieldset']
+msgid "Custom example fieldset"
+msgstr ""
+
+#: $string['ipal:manage']
+msgid "Manage ipals"
+msgstr ""
+
+#: $string['ipalmobile']
+msgid "Enable clickers (Mobile Apps)"
+msgstr ""
+
+#: $string['ipalmobile_error']
+msgid "You must choose between No and Mobile App"
+msgstr ""
+
+#: $string['ipalmobile_help']
+msgid ""
+"Choose Mobile App to allow students to respond using a Mobile App. This "
+"displays the IPAL access code for the teacher on the IPAL polling page."
+msgstr ""
+
+#: $string['ipalname']
+msgid "IPAL Name"
+msgstr ""
+
+#: $string['ipalname_help']
+msgid ""
+"This is the content of the help tooltip associated with the ipalname field. "
+"Markdown syntax is supported."
+msgstr ""
+
+#: $string['ipal:preview']
+msgid "Preview ipals"
+msgstr ""
+
+#: $string['ipalsettings']
+msgid "ipal settings"
+msgstr ""
+
+#: $string['ipaltype']
+msgid "IPAL Type"
+msgstr ""
+
+#: $string['ipaltype_error']
+msgid "You must choose between anonymous and non-anonymous"
+msgstr ""
+
+#: $string['ipaltype_help']
+msgid ""
+"Choose to record student ID in spreadsheet with answers (non-anonymous) or "
+"not. Ipal type cannot be modified after an answer is recorded."
+msgstr ""
+
+#: $string['ipal:view']
+msgid "View ipal information"
+msgstr ""
+
+#: $string['ipal:viewreports']
+msgid "View ipal reports"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "ipal"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"The ipal (In-class Polling for All Learners) activity module enables a "
+"teacher to design and set polling sessions consisting of multiple choice, "
+"true-false, and essay question types. IPAL questions may be used in a quiz "
+"and vice versa. Ready to use questions may also be obtained from the "
+"ComPADRE database.\n"
+"\n"
+"The dynamic graphs displayed below the questions can be toggled from "
+"spreadsheet view (including student names) to an anonymous display of the "
+"answers for the active question -- a histogram for multiple choice questions "
+"and a one-line display for essay questions. While polling is on, a question "
+"may be answered multiple times until a second question is sent or polling "
+"is turned off.\n"
+"\n"
+"A question may be sent more than once. The spreadsheet view displays the "
+"most recent answer submitted at any time.\n"
+"\n"
+"Polling may be used\n"
+"* To increase student involvement and participation\n"
+"* To gauge student understanding and guide the pace of the class.\n"
+"* To promote greater verbal classroom discussion.\n"
+"\n"
+"<a href=\"https://www.compadre.org/iPAL/webdocs/Guide.cfm\">more</a>"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "ipals"
+msgstr ""
+
+#: $string['nonanonymousmess']
+msgctxt "$string['nonanonymousmess']"
+msgid ""
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "ipal administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "ipal"
+msgstr ""

@@ -1,0 +1,1002 @@
+#. extracted from lang/en/block_xp.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_xp', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   block_xp
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['actions']
+msgid "Actions"
+msgstr "Ενέργειες"
+
+#: $string['activityoresourceis']
+msgid "The activity or resource is {$a}"
+msgstr ""
+
+#: $string['addacondition']
+msgid "Add a condition"
+msgstr ""
+
+#: $string['addarule']
+msgid "Add a rule"
+msgstr "Προσθήκη κανόνα"
+
+#: $string['addrulesformhelp']
+msgid ""
+"The last column defines the amount of experience points gained when the "
+"criteria is met."
+msgstr ""
+
+#: $string['admindefaultrulesintro']
+msgid ""
+"The following rules will be used as default for courses in which the block "
+"is added."
+msgstr ""
+
+#: $string['admindefaultsettingsintro']
+msgid ""
+"The settings below will be used as defaults when the block is newly added to "
+"a course."
+msgstr ""
+
+#: $string['admindefaultvisualsintro']
+msgid ""
+"The following will be used as defaults when the block is newly added to a "
+"course."
+msgstr ""
+
+#: $string['anonymity']
+msgid "Anonymity"
+msgstr ""
+
+#: $string['anonymity_help']
+msgid ""
+"This setting controls whether participants can see each other's name and "
+"avatar."
+msgstr ""
+
+#: $string['awardaxpwhen']
+msgid "<strong>{$a}</strong> points are earned when:"
+msgstr ""
+
+#: $string['basexp']
+msgid "Algorithm base"
+msgstr ""
+
+#: $string['blockappearance']
+msgid "Block appearance"
+msgstr ""
+
+#: $string['cachedef_filters']
+msgid "Level filters"
+msgstr ""
+
+#: $string['cachedef_ruleevent_eventslist']
+msgid "List of some events"
+msgstr ""
+
+#: $string['cannotshowblockconfig']
+msgid ""
+"I would usually display the appearance settings here, but I could not find "
+"your block. To change the block's appearance, head back [here]({$a}) (or "
+"where you added the block), turn editing mode on, and follow the \"Configure\" "
+"option in the block's dropdown. If you cannot find the block, add it to "
+"your course again."
+msgstr ""
+
+#: $string['cannotshowblockconfigsys']
+msgid ""
+"I would usually display the appearance settings here, but I could not find "
+"your block. It may be missing from the [front page]({$a->fp}) and the "
+"[default dashboard]({$a->mysys}) of your users, or present in both. To edit "
+"the settings from here, make sure it only appears in one of them."
+msgstr ""
+
+#: $string['changelevelformhelp']
+msgid ""
+"If you change the number of levels, the custom level badges will be "
+"temporarily disabled to prevent levels without badges. If you change the "
+"level count go to the page 'Visuals' to re-enable the custom badges once you "
+"have saved this form."
+msgstr ""
+
+#: $string['cheatguard']
+msgid "Cheat guard"
+msgstr ""
+
+#: $string['coefxp']
+msgid "Algorithm coefficient"
+msgstr ""
+
+#: $string['colon']
+msgid "{$a->a}: {$a->b}"
+msgstr ""
+
+#: $string['configdescription']
+msgid "Introduction"
+msgstr ""
+
+#: $string['configdescription_help']
+msgid ""
+"A short introduction displayed in the block, below the student's level. "
+"Students have the ability to dismiss the message, in which case they won't "
+"see it again."
+msgstr ""
+
+#: $string['configheader']
+msgctxt "$string['configheader']"
+msgid "Settings"
+msgstr ""
+
+#: $string['configrecentactivity']
+msgid "Display recent rewards"
+msgstr ""
+
+#: $string['configrecentactivity_help']
+msgid ""
+"When enabled, the block will display a short list of recent events which "
+"rewarded the student with points."
+msgstr ""
+
+#: $string['configtitle']
+msgid "Title"
+msgstr "Τίτλος"
+
+#: $string['configtitle_help']
+msgid "The title of the block."
+msgstr ""
+
+#: $string['congratulationsyouleveledup']
+msgid "Congratulations!"
+msgstr ""
+
+#: $string['coolthanks']
+msgid "Cool, thanks!"
+msgstr ""
+
+#: $string['courselog']
+msgid "Course log"
+msgstr ""
+
+#: $string['coursereport']
+msgid "Course report"
+msgstr ""
+
+#: $string['courserules']
+msgid "Course rules"
+msgstr ""
+
+#: $string['coursesettings']
+msgid "Course settings"
+msgstr ""
+
+#: $string['coursevisuals']
+msgid "Course visuals"
+msgstr ""
+
+#: $string['customizelevels']
+msgid "Customize the levels"
+msgstr ""
+
+#: $string['dangerzone']
+msgid "Danger zone"
+msgstr ""
+
+#: $string['defaultlevels']
+msgid "Default levels"
+msgstr ""
+
+#: $string['defaultrules']
+msgid "Default rules"
+msgstr ""
+
+#: $string['defaultrulesformhelp']
+msgid ""
+"Those are the default rules provided by the plugin, they automatically give "
+"default points and ignore some redundant events. Your own rules take "
+"precedence over them."
+msgstr ""
+
+#: $string['defaultsettings']
+msgid "Default settings"
+msgstr ""
+
+#: $string['defaultvisuals']
+msgid "Default visuals"
+msgstr ""
+
+#: $string['deletecondition']
+msgid "Delete condition"
+msgstr ""
+
+#: $string['deleterule']
+msgid "Delete rule"
+msgstr ""
+
+#: $string['description']
+msgid "Description"
+msgstr ""
+
+#: $string['difference']
+msgid "Diff."
+msgstr ""
+
+#: $string['discoverlevelupplus']
+msgid "Discover Level up! Plus"
+msgstr ""
+
+#: $string['dismissnotice']
+msgid "Dismiss notice"
+msgstr ""
+
+#: $string['displayeveryone']
+msgid "Display everyone"
+msgstr ""
+
+#: $string['displaynneighbours']
+msgid "Display {$a} neighbours"
+msgstr ""
+
+#: $string['displayoneneigbour']
+msgid "Display one neighbour"
+msgstr ""
+
+#: $string['displayparticipantsidentity']
+msgid "Display participants identity"
+msgstr ""
+
+#: $string['displayrank']
+msgid "Display rank"
+msgstr ""
+
+#: $string['displayrelativerank']
+msgid "Display a relative rank"
+msgstr ""
+
+#: $string['enablecheatguard']
+msgid "Enable cheat guard"
+msgstr ""
+
+#: $string['enablecheatguard_help']
+msgid ""
+"The cheat guard offers a simple inexpensive mechanism for preventing "
+"students to abuse the system using obvious techniques, such as refreshing "
+"the same page endlessly, or repeating the same action over and over again."
+msgstr ""
+
+#: $string['enableinfos']
+msgid "Enable info page"
+msgstr ""
+
+#: $string['enableinfos_help']
+msgid ""
+"When set to 'No', students will not be able to view the information page."
+msgstr ""
+
+#: $string['enableladder']
+msgid "Enable the ladder"
+msgstr ""
+
+#: $string['enableladder_help']
+msgid "When set to 'No', students will not be able to view the ladder."
+msgstr ""
+
+#: $string['enablelevelupnotif']
+msgid "Enable level up notification"
+msgstr ""
+
+#: $string['enablelevelupnotif_help']
+msgid ""
+"When set to 'Yes', students will be displayed a popup congratulating them "
+"for the new level reached."
+msgstr ""
+
+#: $string['enablelogging']
+msgid "Enable logging"
+msgstr ""
+
+#: $string['enablexpgain']
+msgid "Enable points gain"
+msgstr ""
+
+#: $string['enablexpgain_help']
+msgid ""
+"When set to 'No', nobody will earn points in the course. This is useful to "
+"freeze the points gained, or to enable it at a certain point in time.\n"
+"\n"
+"Please note that this can also be controlled more granularly using the "
+"capability _block/xp:earnxp_."
+msgstr ""
+
+#: $string['errorformvalues']
+msgid "There are some issues in the form values, please fix them."
+msgstr ""
+
+#: $string['errorlevelsincorrect']
+msgid "The minimum number of levels is 2"
+msgstr ""
+
+#: $string['errornotalllevelsbadgesprovided']
+msgid "Not all the level badges have been provided. Missing: {$a}"
+msgstr ""
+
+#: $string['errorunknownevent']
+msgid "Error: unknown event"
+msgstr ""
+
+#: $string['errorunknownmodule']
+msgid "Error: unknown module"
+msgstr ""
+
+#: $string['errorxprequiredlowerthanpreviouslevel']
+msgid "The points required are lower than or equal to the previous level."
+msgstr ""
+
+#: $string['eventis']
+msgid "The event is {$a}"
+msgstr ""
+
+#: $string['eventname']
+msgctxt "$string['eventname']"
+msgid "Event name"
+msgstr ""
+
+#: $string['eventproperty']
+msgctxt "$string['eventproperty']"
+msgid "Event property"
+msgstr ""
+
+#: $string['eventtime']
+msgid "Event time"
+msgstr ""
+
+#: $string['event_user_leveledup']
+msgid "User leveled up"
+msgstr ""
+
+#: $string['for1day']
+msgid "For 1 day"
+msgstr ""
+
+#: $string['for1month']
+msgid "For a month"
+msgstr ""
+
+#: $string['for1week']
+msgid "For a week"
+msgstr ""
+
+#: $string['for3days']
+msgid "For 3 days"
+msgstr ""
+
+#: $string['forever']
+msgid "Forever"
+msgstr ""
+
+#: $string['forthewholesite']
+msgid "For the whole site"
+msgstr ""
+
+#: $string['give']
+msgid "give"
+msgstr ""
+
+#: $string['hideparticipantsidentity']
+msgid "Hide participants identity"
+msgstr ""
+
+#: $string['hiderank']
+msgid "Hide rank"
+msgstr ""
+
+#: $string['incourses']
+msgid "In courses"
+msgstr ""
+
+#: $string['infos']
+msgid "Information"
+msgstr ""
+
+#: $string['invalidxp']
+msgid "Invalid points value"
+msgstr ""
+
+#: $string['keeplogs']
+msgid "Keep logs"
+msgstr ""
+
+#: $string['ladder']
+msgctxt "$string['ladder']"
+msgid "Ladder"
+msgstr ""
+
+#: $string['ladderadditionalcols']
+msgid "Additional columns"
+msgstr ""
+
+#: $string['ladderadditionalcols_help']
+msgid ""
+"This setting determines which additional columns are displayed on the "
+"ladder. Press the CTRL or CMD key while clicking to select more than one "
+"column, or to unselect a selected column."
+msgstr ""
+
+#: $string['level']
+msgid "Level"
+msgstr ""
+
+#: $string['levelbadges']
+msgid "Level badges"
+msgstr ""
+
+#: $string['levelbadgesformhelp']
+msgid ""
+"Name the files [level].[file extension], for instance: 1.png, 2.jpg, etc... "
+"The recommended image size is 100x100."
+msgstr ""
+
+#: $string['levelcount']
+msgid "Level count"
+msgstr ""
+
+#: $string['leveldesc']
+msgid "Level description"
+msgstr ""
+
+#: $string['levels']
+msgctxt "$string['levels']"
+msgid "Levels"
+msgstr ""
+
+#: $string['levelswillbereset']
+msgid "Warning! Saving this form will recalculate the levels of everyone!"
+msgstr ""
+
+#: $string['levelup']
+msgctxt "$string['levelup']"
+msgid "Level up!"
+msgstr ""
+
+#: $string['levelupplus']
+msgid "Level up! Plus"
+msgstr ""
+
+#: $string['levelx']
+msgid "Level #{$a}"
+msgstr ""
+
+#: $string['likenotice']
+msgid ""
+"<strong>Do you like the plugin?</strong> Please take a moment to <a "
+"href=\"{$a->moodleorg}\" target=\"_blank\">add it to your favourites</a> on "
+"Moodle.org and <a href=\"{$a->github}\" target=\"_blank\">star it on GitHub</a>."
+msgstr ""
+
+#: $string['limitparticipants']
+msgid "Limit participants"
+msgstr ""
+
+#: $string['limitparticipants_help']
+msgid ""
+"This setting controls who is displayed in the leaderboard. Neighbours are "
+"the participants ranked above and below the current user. For instance, when "
+"choosing 'Display 2 neighbours', only the two participants ranked directly "
+"higher and lower than the current user will be displayed."
+msgstr ""
+
+#: $string['logging']
+msgid "Logging"
+msgstr ""
+
+#: $string['maxactionspertime']
+msgid "Max. actions in time frame"
+msgstr ""
+
+#: $string['maxactionspertime_help']
+msgid ""
+"The maximum number of actions that will count for points during the time "
+"frame given. Any subsequent action will be ignored. When this value is "
+"empty, or equals to zero, it does not apply."
+msgstr ""
+
+#: $string['movecondition']
+msgid "Move condition"
+msgstr ""
+
+#: $string['moverule']
+msgid "Move rule"
+msgstr ""
+
+#: $string['navinfos']
+msgid "Info"
+msgstr ""
+
+#: $string['navladder']
+msgctxt "$string['navladder']"
+msgid "Ladder"
+msgstr ""
+
+#: $string['navlevels']
+msgctxt "$string['navlevels']"
+msgid "Levels"
+msgstr ""
+
+#: $string['navlog']
+msgid "Log"
+msgstr ""
+
+#: $string['navpromo']
+msgid "Plus"
+msgstr ""
+
+#: $string['navreport']
+msgid "Report"
+msgstr ""
+
+#: $string['navrules']
+msgid "Rules"
+msgstr ""
+
+#: $string['navsettings']
+msgctxt "$string['navsettings']"
+msgid "Settings"
+msgstr ""
+
+#: $string['navvisuals']
+msgid "Visuals"
+msgstr ""
+
+#: $string['participant']
+msgid "Participant"
+msgstr "Συμμετέχοντας"
+
+#: $string['participatetolevelup']
+msgid "Participate in the course to gain experience points and level up!"
+msgstr ""
+
+#: $string['pickaconditiontype']
+msgid "Pick a condition type"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Level up!"
+msgstr ""
+
+#: $string['pointsintimelinker']
+msgid "per"
+msgstr ""
+
+#: $string['pointsrequired']
+msgid "Points required"
+msgstr ""
+
+#: $string['progress']
+msgid "Progress"
+msgstr ""
+
+#: $string['promocontactintro']
+msgid "Contact us for more information. We don't bite and we reply quickly!"
+msgstr ""
+
+#: $string['promocontactus']
+msgid "Get in touch"
+msgstr ""
+
+#: $string['promoemailusat']
+msgid "E-mail us at _levelup@branchup.tech_."
+msgstr ""
+"Αποστείλετε μήνυμα ηλεκτρονικού ταχυδρομείου στο _levelup@branchup.tech_."
+
+#: $string['promoerrorsendingemail']
+msgid ""
+"Ouch! We could not send the message... please e-mail us directly at: {$a}. "
+"Thanks!"
+msgstr ""
+
+#: $string['promoifpreferemailusat']
+msgid "Psst! If you prefer, e-mail us directly at _{$a}_."
+msgstr ""
+
+#: $string['promointro']
+msgid "The add-on for _Level up!_ that unleashes its full potential!"
+msgstr ""
+
+#: $string['promoyourmessagewassent']
+msgid "Thank you, your message was sent. We will get back to you very shortly."
+msgstr ""
+
+#: $string['property:action']
+msgid "Event action"
+msgstr ""
+
+#: $string['property:component']
+msgid "Event component"
+msgstr ""
+
+#: $string['property:crud']
+msgid "Event CRUD"
+msgstr ""
+
+#: $string['property:eventname']
+msgctxt "$string['property:eventname']"
+msgid "Event name"
+msgstr ""
+
+#: $string['property:target']
+msgid "Event target"
+msgstr ""
+
+#: $string['rank']
+msgid "Rank"
+msgstr ""
+
+#: $string['ranking']
+msgid "Ranking"
+msgstr ""
+
+#: $string['ranking_help']
+msgid ""
+"The rank is the absolute position of the current user in the ladder. The "
+"relative rank is the difference in experience points between a user and "
+"their neighbours."
+msgstr ""
+
+#: $string['reallyresetdata']
+msgid "Really reset the levels and points of everyone in this course?"
+msgstr ""
+
+#: $string['reallyresetgroupdata']
+msgid "Really reset the levels and points of everyone in this group?"
+msgstr ""
+
+#: $string['reallyreverttopluginsdefaults']
+msgid ""
+"Really reset the default rules to the defaults suggested by the plugin? This "
+"action is not reversible."
+msgstr ""
+
+#: $string['recentrewards']
+msgid "Recent rewards"
+msgstr ""
+
+#: $string['requires']
+msgid "Requires"
+msgstr ""
+
+#: $string['resetcoursedata']
+msgid "Reset course data"
+msgstr ""
+
+#: $string['resetgroupdata']
+msgid "Reset group data"
+msgstr ""
+
+#: $string['reverttopluginsdefaults']
+msgid "Revert to plugin's defaults"
+msgstr ""
+
+#: $string['reverttopluginsdefaultsintro']
+msgid ""
+"Use the button below if you would like to revert to the plugin's defaults."
+msgstr ""
+
+#: $string['reward']
+msgid "Reward"
+msgstr ""
+
+#: $string['rule']
+msgid "Rule"
+msgstr ""
+
+#: $string['rulecm']
+msgid "Activity or resource"
+msgstr ""
+
+#: $string['rulecmdesc']
+msgid "The activity or resource is '{$a->contextname}'."
+msgstr ""
+
+#: $string['rule:contains']
+msgid "contains"
+msgstr ""
+
+#: $string['rule:eq']
+msgid "is equal to"
+msgstr ""
+
+#: $string['rule:eqs']
+msgid "is strictly equal to"
+msgstr ""
+
+#: $string['ruleevent']
+msgid "Specific event"
+msgstr ""
+
+#: $string['ruleeventdesc']
+msgid "The event is '{$a->eventname}\\"
+msgstr ""
+
+#: $string['rule:gt']
+msgid "is greater than"
+msgstr ""
+
+#: $string['rule:gte']
+msgid "is greater or equal to"
+msgstr ""
+
+#: $string['rule:lt']
+msgid "is less than"
+msgstr ""
+
+#: $string['rule:lte']
+msgid "is less or equal to"
+msgstr ""
+
+#: $string['ruleproperty']
+msgctxt "$string['ruleproperty']"
+msgid "Event property"
+msgstr ""
+
+#: $string['rulepropertydesc']
+msgid "The property '{$a->property}' {$a->compare} '{$a->value}'."
+msgstr ""
+
+#: $string['rule:regex']
+msgid "matches the regex"
+msgstr ""
+
+#: $string['ruleset']
+msgid "Set of conditions"
+msgstr ""
+
+#: $string['ruleset:all']
+#, fuzzy
+msgid "ALL of the conditions are true"
+msgstr "ΚΑΜΙΑ από τις συνθήκες δεν είναι αληθής"
+
+#: $string['ruleset:any']
+#, fuzzy
+msgid "ANY of the conditions are true"
+msgstr "ΚΑΜΙΑ από τις συνθήκες δεν είναι αληθής"
+
+#: $string['ruleset:none']
+msgid "NONE of the conditions are true"
+msgstr "ΚΑΜΙΑ από τις συνθήκες δεν είναι αληθής"
+
+#: $string['rulesformhelp']
+msgid ""
+"<p>This plugin is making use of the events to attribute points to actions "
+"performed by the students. You can use the form below to add your own rules "
+"and view the default ones.</p>\n"
+"<p>It is advised to check the plugin's <a href=\"{$a->log}\">log</a> to "
+"identify what events are triggered as you perform actions in the course, and "
+"also to read more about events themselves: <a href=\"{$a->list}\">list of all "
+"events</a>, <a href=\"{$a->doc}\">developer documentation</a>.</p>\n"
+"<p>Finally, please note that the plugin always ignores:\n"
+"<ul>\n"
+"    <li>The actions performed by administrators, guests or non-logged in "
+"users.</li>\n"
+"    <li>The actions performed by users not having the capability "
+"<em>block/xp:earnxp</em>.</li>\n"
+"    <li>Repeated actions within a short time interval, to prevent "
+"cheating.</li>\n"
+"    <li>Events that are flagged as <em>anonymous</em>, e.g. in an anonymous "
+"Feedback.</li>\n"
+"    <li>And the events of educational level not equal to "
+"<em>Participating</em>.</li>\n"
+"</ul>\n"
+"</p>"
+msgstr ""
+
+#: $string['send']
+msgid "Send"
+msgstr ""
+
+#: $string['someoneelse']
+msgid "Someone else"
+msgstr ""
+
+#: $string['somethinghappened']
+msgid "Something happened"
+msgstr ""
+
+#: $string['taskcollectionloggerpurge']
+msgid "Purge collection logs"
+msgstr ""
+
+#: $string['timebetweensameactions']
+msgid "Time required between identical actions"
+msgstr ""
+
+#: $string['timebetweensameactions_help']
+msgid ""
+"The minimum time required before an action that already happened previously "
+"is accepted again. An action is considered identical if it was placed in the "
+"same context and object, reading a forum post will be considered "
+"identifical if the same post is read again. When this value is empty, or "
+"equals to zero, it does not apply."
+msgstr ""
+
+#: $string['timeformaxactions']
+msgid "Time frame for max. actions"
+msgstr ""
+
+#: $string['timeformaxactions_help']
+msgid ""
+"The time frame (in seconds) during which the user should not exceed a "
+"maximum number of actions."
+msgstr ""
+
+#: $string['tinytimedays']
+msgid "{$a}d"
+msgstr ""
+
+#: $string['tinytimehours']
+msgid "{$a}h"
+msgstr ""
+
+#: $string['tinytimeminutes']
+msgid "{$a}m"
+msgstr ""
+
+#: $string['tinytimenow']
+msgid "now"
+msgstr ""
+
+#: $string['tinytimeolderyearformat']
+msgid "%b %Y"
+msgstr ""
+
+#: $string['tinytimeseconds']
+msgid "{$a}s"
+msgstr ""
+
+#: $string['tinytimeweeks']
+msgid "{$a}w"
+msgstr ""
+
+#: $string['tinytimewithinayearformat']
+msgid "%b %e"
+msgstr ""
+
+#: $string['total']
+msgid "Total"
+msgstr ""
+
+#: $string['unknowneventa']
+msgid "Unknown event ({$a})"
+msgstr ""
+
+#: $string['updateandpreview']
+msgid "Update and preview"
+msgstr ""
+
+#: $string['urlaccessdeprecated']
+msgid "Access via this URL is deprecated, please update your links."
+msgstr ""
+
+#: $string['usealgo']
+msgid "Use the algorithm"
+msgstr ""
+
+#: $string['usecustomlevelbadges']
+msgid "Use custom level badges"
+msgstr ""
+
+#: $string['usecustomlevelbadges_help']
+msgid "When set to yes, you must provide an image for each level."
+msgstr ""
+
+#: $string['value']
+msgid "Value"
+msgstr ""
+
+#: $string['valuessaved']
+msgid "The values have been successfully saved."
+msgstr ""
+
+#: $string['viewtheladder']
+msgid "View the ladder"
+msgstr ""
+
+#: $string['visualsintro']
+msgid "Upload images to customise the appearance of the levels."
+msgstr ""
+
+#: $string['wewillreplyat']
+msgid "We will reply at: _{$a}_."
+msgstr ""
+
+#: $string['when']
+msgid "When"
+msgstr ""
+
+#: $string['wherearexpused']
+msgid "Where are points used?"
+msgstr ""
+
+#: $string['wherearexpused_desc']
+msgid ""
+"When set to 'In courses', the points gained will only account for the course "
+"in which the block was added to. When set to 'For the whole site', a user "
+"will \"level up\" in the site rather than selectively per course, all the "
+"points gained throughout the site will be used."
+msgstr ""
+
+#: $string['whoops']
+msgid "Whoops!"
+msgstr ""
+
+#: $string['xp']
+msgid "Experience points"
+msgstr ""
+
+#: $string['xp:addinstance']
+msgid "Add a new block"
+msgstr ""
+
+#: $string['xp:earnxp']
+msgid "Earning points"
+msgstr ""
+
+#: $string['xpgaindisabled']
+msgid "Points gain disabled"
+msgstr ""
+
+#: $string['xp:myaddinstance']
+msgid "Add the block to my dashboard"
+msgstr ""
+
+#: $string['xprequired']
+msgid "XP required"
+msgstr ""
+
+#: $string['xptogo']
+msgid "[[{$a}]] to go"
+msgstr ""
+
+#: $string['xp:view']
+msgid "View the block and its related pages"
+msgstr ""
+
+#: $string['youreachedlevela']
+msgid "You have reached level {$a}!"
+msgstr ""
+
+#: $string['yourmessage']
+msgid "Your message"
+msgstr ""
+
+#: $string['yourownrules']
+msgid "Your own rules"
+msgstr ""

@@ -1,0 +1,147 @@
+#. extracted from lang/en/bulkusers.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'bulkusers', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   bulkusers
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addall']
+msgid "Add all"
+msgstr "Προσθήκη όλων"
+
+#: $string['addsel']
+msgid "Add to selection"
+msgstr "Προσθήκη στους επιλεγμένους"
+
+#: $string['allfilteredusers']
+msgid "All filtered ({$a->count}/{$a->total})"
+msgstr "Όλοι όσοι ταιριάζουν ({$a->count}/{$a->total})"
+
+#: $string['allselectedusers']
+msgid "All selected ({$a->count}/{$a->total})"
+msgstr "Όλοι οι επιλεγμένοι ({$a->count}/{$a->total})"
+
+#: $string['allusers']
+msgid "All users ({$a})"
+msgstr "Όλοι οι χρήστες ({$a})"
+
+#: $string['available']
+msgid "Available"
+msgstr "Διαθέσιμοι"
+
+#: $string['confirmmessage']
+msgid ""
+"Do you really want to send the message above to all these users?<br />{$a}"
+msgstr ""
+"Θέλετε σίγουρα να στείλετε το παραπάνω μήνυμα σε όλους αυτούς τους "
+"χρήστες;<br />{$a}"
+
+#: $string['nofilteredusers']
+msgid "No users found (0/{$a})"
+msgstr "Δε βρέθηκαν χρήστες"
+
+#: $string['noselectedusers']
+msgid "No users selected"
+msgstr "Δεν επιλέχθηκαν χρήστες"
+
+#: $string['removeall']
+msgid "Remove all"
+msgstr "Αφαίρεση όλων"
+
+#: $string['removesel']
+msgid "Remove from selection"
+msgstr "Αφαίρεση όλων από τους επιλεγμένους"
+
+#: $string['selected']
+msgid "Selected"
+msgstr "Επιλεγμένοι"
+
+#: $string['selectedlist']
+msgid "Selected user list..."
+msgstr "Λίστα επιλεγμένων χρηστών..."
+
+#: $string['selectedlist_help']
+msgid ""
+"Users can be added or removed from the selected users list by clicking on "
+"the users' names then clicking on an appropriate button. Multiple users may "
+"be selected by holding down the Apple or Ctrl key whilst clicking on the "
+"users' names."
+msgstr ""
+"<h2>Με τους επιλεγμένους χρήστες...</h2>\n"
+"\n"
+"<ul>\n"
+"<li>Προσθήκη στους επιλεγμένους - προσθέτει τους χρήστες που επιλέξατε από "
+"τη λίστα Διαθέσιμοι στη λίστα Επιλεγμένοι.\n"
+"Μπορείτε να επιλέξετε πολλούς χρήστες μαζί κρατώντας πατημένο το πλήκτρο "
+"Ctrl καθώς κάνετε κλικ στα ονόματά τους.</li>\n"
+"<li>Προσθήκη όλων στους επιλεγμένους - προσθέτει όλους τους χρήστες από τη "
+"λίστα Διαθέσιμοι στη λίστα Επιλεγμένοι.</li>\n"
+"<li>Αφαίρεση από τους επιλεγμένους - αφαιρεί τους χρήστες που επιλέξατε από "
+"τη λίστα Διαθέσιμοι από τη λίστα Επιλεγμένοι, αν βρίσκονται εκεί.</li>\n"
+"<li>Αφαίρεση όλων από τους επιλεγμένους - αφαιρεί όλους τους χρήστες από τη "
+"λίστα Επιλεγμένοι.</li>\n"
+"</ul>"
+
+#: $string['users']
+msgid "Users"
+msgstr "Χρήστες"
+
+#: $string['usersfound']
+msgid "{$a} user(s) found."
+msgstr "Βρέθηκαν {$a} χρήστες."
+
+#: $string['users_help']
+msgid ""
+"All users who passed the active filters are listed in the available box. If "
+"no filter is set, all site users are listed."
+msgstr ""
+"<h2>Λίστες χρηστών</h2>\n"
+"\n"
+"<p>Η λίστα <strong>Διαθέσιμοι</strong> συμπεριλαμβάνει τους χρήστες που "
+"ταιριάζουν στα τρέχοντα κριτήρια αναζήτησης. Για παράδειγμα, αν υπάρχει μόνο "
+"ένα ενεργό κριτήριο αναζήτησης για χρήστες των οποίων η χώρα είναι η "
+"Ρουμανία, τότε η λίστα Διαθέσιμοι θα περιλαμβάνει μόνο όσους χρήστες έχουν "
+"επιλέξει τη Ρουμανία σαν χώρα διαμονής από το προφίλ τους.</p>\n"
+"\n"
+"<p>Η λίστα <strong>Επιλεγμένοι</strong> συμπεριλαμβάνει τους χρήστες που "
+"έχουν προστεθεί σ' αυτή από εσάς, με τη χρήση των επιλογών από το μενού "
+"<em>Λίστα επιλεγμένων χρηστών...</em>. Όταν πατηθεί το κουμπί "
+"<em>Εκτέλεση</em> από την περιοχή <em>Με τους επιλεγμένους χρήστες...</em>, "
+"η λειτουργία που επιλέξατε στην περιοχή αυτή θα διενεργηθεί σε όλους τους "
+"χρήστες που βρίσκονται σ' αυτή τη λίστα.</p>"
+
+#: $string['usersinlist']
+msgid "Users in list"
+msgstr "Χρήστες στη λίστα"
+
+#: $string['usersselected']
+msgid "{$a} user(s) selected."
+msgstr "Επιλέχθηκαν {$a} χρήστες."

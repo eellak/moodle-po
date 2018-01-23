@@ -1,0 +1,292 @@
+#. extracted from lang/en/qtype_geogebra.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qtype_geogebra', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   qtype_geogebra
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addconstraints']
+msgid "Add constraints (conditions) to variables."
+msgstr ""
+
+#: $string['addmorevarblanks']
+msgid "Blanks for {no} more variable(s)"
+msgstr ""
+
+#: $string['answerinvalid']
+msgid "The answer-string in the response is invalid. This should not happen."
+msgstr ""
+
+#: $string['answermissing']
+msgid ""
+"The answer in the response is missing. Probably JavaScript isn't turned on "
+"in the Browser or an unknown error occurred"
+msgstr ""
+
+#: $string['answervar']
+msgid "Variables for automatic grading"
+msgstr ""
+
+#: $string['answervar_help']
+msgid ""
+"For automatic grading: A name of a boolean object in GeoGebra which is true "
+"if the student solved the question (partly). Sums up all grades for all "
+"boolean variables. The question is correct if any combination exceeds 100%, "
+"but there should be at least one combination which sums up to exactly 100%. "
+"Leave blank for manual grading."
+msgstr ""
+
+#: $string['applet_advanced_settings']
+msgid "Advanced Settings..."
+msgstr ""
+
+#: $string['constraints']
+msgid "Constraints (conditions)"
+msgstr ""
+
+#: $string['constraints_help']
+msgid ""
+"Are there any constraints for variables, such as a < b, which could not be "
+"declared using the slider options? Comma separated. Supported relations are: "
+"<, <=, >, >=. If you need an equality you have to use the same variable "
+"when creating the GeoGebra worksheet. Dynamic ranges, ie using variables for "
+"slider min/max are not supported."
+msgstr ""
+
+#: $string['constraintswrongortoohard']
+msgid ""
+"{$a->inequalities} are wrong or too hard to meet, we tried (brute force) "
+"{$a->tries} times in {$a->time} seconds. Maybe we'll use a better method in "
+"the future..."
+msgstr ""
+
+#: $string['dragndrop']
+msgid "Drag and drop a GeoGebra file anywhere on the GeoGebra Applet section"
+msgstr ""
+
+#: $string['enable_label_drags']
+msgid "Enable Dragging of Labels"
+msgstr ""
+
+#: $string['enable_right_click']
+msgid "Enable Right Click and Keyboard Editing"
+msgstr ""
+
+#: $string['enable_shift_drag_zoom']
+msgid "Enable Shift-Drag & Zoom"
+msgstr ""
+
+#: $string['feedback']
+msgid "Feedback when the variable is true"
+msgstr ""
+
+#: $string['feedback_help']
+msgid ""
+"The feedback is automatically taken from caption of the variable in the "
+"GeoGebra file."
+msgstr ""
+
+#: $string['geogebraapplet']
+msgid "GeoGebra Applet"
+msgstr ""
+
+#: $string['getvars']
+msgid "Get variables which can be randomized from the applet"
+msgstr ""
+
+#: $string['ggbfilemissing']
+msgid ""
+"The base64 string in the response is missing. Probably JavaScript isn't "
+"turned on in the Browser or an unknown error occurred"
+msgstr ""
+
+#: $string['ggbturl']
+msgid "URL or ID of GeoGebra Worksheet"
+msgstr ""
+
+#: $string['ggbturl_help']
+msgid ""
+"You could either use the share button on GeoGebra and copy and paste the "
+"link or use the GeoGebra repository. The applet and parameters are stored in "
+"the database, the applet will not be reloaded from GeoGebra unless "
+"requested. Just providing the ID or sharing key of the Applet is also "
+"supported."
+msgstr ""
+
+#: $string['ggbxmlmissing']
+msgid ""
+"The XML string in the response is missing. Probably JavaScript isn't turned "
+"on in the Browser or an unknown error occurred"
+msgstr ""
+
+#: $string['invalidinequality']
+msgid "{$a} is invalid"
+msgstr ""
+
+#: $string['isexercise']
+msgid "Use GeoGebra-Exercise for checking the question"
+msgstr ""
+
+#: $string['isexercise_help']
+msgid ""
+"The applet contains user-defined tools which can be used for automatic "
+"checking of the exercise.\\nBeware: All answers below are not applicable in "
+"this case!"
+msgstr ""
+
+#: $string['israndomized']
+msgid "Are there any variables which should be randomized?"
+msgstr ""
+
+#: $string['loadapplet']
+msgid "(Re)load and show applet"
+msgstr ""
+
+#: $string['loadapplet_help']
+msgid ""
+"(Re)load the applet from GeoGebra and store the new version from GeoGebra in "
+"the database."
+msgstr ""
+
+#: $string['mineqmax']
+msgid ""
+"Min and Max for the randomization aren't specified properly for variable "
+"{$a}, either you haven't specified the slider’s min and max or the element "
+"isn't a slider at all. You probably have to correct this in your GeoGebra "
+"file."
+msgstr ""
+
+#: $string['minplusstepgtmax']
+msgid ""
+"Min plus increment is greater than Max for variable {$a}, you probably have "
+"to correct this in your GeoGebra file."
+msgstr ""
+
+#: $string['noappletloaded']
+msgid ""
+"No Applet loaded! Check if URL is correct and if you see an applet after "
+"choosing a link or (re)loading the applet"
+msgstr ""
+
+#: $string['nofractionsumeq1']
+msgid "At least one combination of grades must sum to 100%"
+msgstr ""
+
+#: $string['pluginname']
+msgid "GeoGebra"
+msgstr ""
+
+#: $string['pluginnameadding']
+msgid "Adding a GeoGebra question"
+msgstr ""
+
+#: $string['pluginnameediting']
+msgid "Editing a GeoGebra question"
+msgstr ""
+
+#: $string['pluginname_help']
+msgid "Questions where the student can solve the question using GeoGebra"
+msgstr ""
+
+#: $string['pluginname_link']
+msgid "question/type/geogebra"
+msgstr ""
+
+#: $string['pluginnamesummary']
+msgid ""
+"A version of calculated questions which uses GeoGebra to show the question "
+"and verify the answer when the quiz is taken."
+msgstr ""
+
+#: $string['randomizedbutnovars']
+msgid ""
+"You have selected that the question should be randomized, but you didn't "
+"specify any valid variables to be randomized."
+msgstr ""
+
+#: $string['randomizedvar']
+msgid "Variables to be randomized"
+msgstr ""
+
+#: $string['randomizedvar_help']
+msgid ""
+"Variables which should be randomized (comma separated). Use the slider "
+"options in GeoGebra to declare Min, Max and Increment. These variables can "
+"also be used in the question text by enclosing them with curly braces, for "
+"example: {a}"
+msgstr ""
+
+#: $string['show_algebra_input']
+msgid "Show Input Bar"
+msgstr ""
+
+#: $string['show_menu_bar']
+msgid "Show Menu"
+msgstr ""
+
+#: $string['show_reset_icon']
+msgid "Show Icon to Reset Construction"
+msgstr ""
+
+#: $string['show_tool_bar']
+msgid "Show Toolbar"
+msgstr ""
+
+#: $string['stepzero']
+msgid ""
+"Increment is 0 for variable {$a}; either you haven't specified the slider’s "
+"increment or the element isn't a slider at all. You probably have to correct "
+"this in your GeoGebra file."
+msgstr ""
+
+#: $string['useafile']
+msgid "... or use a ggb-file"
+msgstr ""
+
+#: $string['valuecheckedfor']
+msgid "Boolean Object in GeoGebra which is used to check correctness."
+msgstr ""
+
+#: $string['variablenamewrong']
+msgid "A variable with that name could not be found in the GeoGebra file."
+msgstr ""
+
+#: $string['variableno']
+msgid "Variable {$a}"
+msgstr ""
+
+#: $string['variables']
+msgid "Variables"
+msgstr ""
+
+#: $string['willbereadfromfile']
+msgid "Will be read from GeoGebra... (see help button)"
+msgstr ""

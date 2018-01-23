@@ -1,0 +1,344 @@
+#. extracted from lang/en/qtype_opaque.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qtype_opaque', language 'en', branch 'MOODLE_31_STABLE'
+#.  *
+#.  * @package   qtype_opaque
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['accessoutofsequence']
+msgid ""
+"You have accessed this page out of sequence. Please do not use the Back "
+"button when attempting questions."
+msgstr ""
+
+#: $string['addengine']
+msgid "Add another engine"
+msgstr ""
+
+#: $string['cannotaccessfile']
+msgid "You are not allowed to access this file."
+msgstr ""
+
+#: $string['configuredquestionengines']
+msgid "Configured question engines"
+msgstr ""
+
+#: $string['configuredquestionengines_help']
+msgid ""
+"Opaque is a way of connecting other compatible question engines into Moodle. "
+"For Moodle to use another question engine, it needs to be set up here. This "
+"screen lists all the question engines that have been configured. Lets you "
+"edit their configurations, delete configurations, and create new ones."
+msgstr ""
+
+#: $string['couldnotconnect']
+msgid "Could not connect to the opaque server {$a}."
+msgstr ""
+
+#: $string['couldnotgetengineinfo']
+msgid "Could not get the remote server information for engine id {$a}."
+msgstr ""
+
+#: $string['couldnotgetquestionmetadata']
+msgid ""
+"The question engine was not able to return the maximum grades for this "
+"question. Are you sure the remote id and version are correct? (Technical "
+"information: {$a})"
+msgstr ""
+
+#: $string['couldnotloadenginename']
+msgid "Could not load the engine name from the database for engine id {$a}."
+msgstr ""
+
+#: $string['couldnotloadengineservers']
+msgid "Could not load the servers list from the database for engine id {$a}."
+msgstr ""
+
+#: $string['couldnotsaveengineinfo']
+msgid "Could not save the details of the question engine to the database."
+msgstr ""
+
+#: $string['deleteconfigareyousure']
+msgid "Are you sure you want to delete the configuration of engine {$a}?"
+msgstr ""
+
+#: $string['deletefailed']
+msgid "Error when trying to delete the engine configuration."
+msgstr ""
+
+#: $string['editquestionengine']
+msgid "Editing Opaque question engine configuration"
+msgstr ""
+
+#: $string['editquestionengine_help']
+msgid ""
+"Each remote system you configure must have a name, which will be used to "
+"identify it within Moodle. You must specify at least one question engine "
+"URL. You can also specify question bank URLs, if your remote question engine "
+"uses a separate question bank. When specifying URLs, you may specify "
+"several, one per line. Do this when you have several load-balanced servers. "
+"Calls to the question engines will be distributed approximately evenly over "
+"the different remote servers."
+msgstr ""
+
+#: $string['editquestionengineshort']
+msgid "Editing engine"
+msgstr ""
+
+#: $string['enginecannotbedeleted']
+msgid "This engine cannot be deleted. It is in use by some questions."
+msgstr ""
+
+#: $string['enginedeleted']
+msgid "Engine configuration deleted."
+msgstr ""
+
+#: $string['enginename']
+msgid "Engine name"
+msgstr ""
+
+#: $string['enginenotused']
+msgid "{$a->name} (Not used)"
+msgstr ""
+
+#: $string['engineusedby']
+msgid "{$a->name} (Used by {$a->count} questions)"
+msgstr ""
+
+#: $string['eventengine_created']
+msgid "Question engine configuration created"
+msgstr ""
+
+#: $string['eventengine_deleted']
+msgid "Question engine configuration deleted"
+msgstr ""
+
+#: $string['eventengine_edited']
+msgid "Question engine configuration edited"
+msgstr ""
+
+#: $string['getmetadatacallfailed']
+msgid ""
+"Failed to retrieve the metadata for this question.  Are you sure the remote "
+"id and version are correct?"
+msgstr ""
+
+#: $string['invalidquestionidsyntax']
+msgid "This does not match the syntax for a question id"
+msgstr ""
+
+#: $string['invalidquestionversionsyntax']
+msgid ""
+"The question version should be of the form major.minor, where major and "
+"minor are integers."
+msgstr ""
+
+#: $string['managequestionengines']
+msgid "Manage the list of installed question engines."
+msgstr ""
+
+#: $string['maxgradenotreturned']
+msgid ""
+"The question engine was not able to return the maximum grades for this "
+"question. Are you sure the remote id and version are correct?"
+msgstr ""
+
+#: $string['missingenginedetailsinimport']
+msgid "Missing engine details when importing an Opaque question."
+msgstr ""
+
+#: $string['missingenginename']
+msgid "Missing engine name"
+msgstr ""
+
+#: $string['missingengineurls']
+msgid "Missing question engine URLs"
+msgstr ""
+
+#: $string['missingremoteidinimport']
+msgid "Missing remote id in import file."
+msgstr ""
+
+#: $string['missingremoteversioninimport']
+msgid "Missing remote version in import file."
+msgstr ""
+
+#: $string['noengines']
+msgid "Currenly, there are no configured remote engines."
+msgstr ""
+
+#: $string['notcompleted']
+msgid "[Not completed]"
+msgstr ""
+
+#: $string['onequestionperpage']
+msgid ""
+"For technical reasons, this question cannot be shown here at this time. "
+"(Only one one question of this type can be displayed on each screen.) Please "
+"review one question at a time by clicking on the question number in the "
+"navigation panel."
+msgstr ""
+
+#: $string['passkey']
+msgid "Pass key"
+msgstr ""
+
+#: $string['passkey_help']
+msgid ""
+"A pass key is a security measure that some question engines implement. You "
+"will only be able to connect to that question engine if you know the pass "
+"key. Consult the documentation for the particular type of question engine "
+"you are trying to connect to."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Opaque"
+msgstr ""
+
+#: $string['pluginnameadding']
+msgid "Adding an Opaque question"
+msgstr ""
+
+#: $string['pluginnameediting']
+msgid "Editing an opaque question"
+msgstr ""
+
+#: $string['pluginname_help']
+msgid ""
+"Opaque is a way of connecting other compatible question engines into Moodle. "
+"This screen lets you create an Opaque question by identifying which remote "
+"question engine to connect to, and giving the identity of the question on "
+"that remote engine, as explained in the Opaque documentation. Question "
+"engines need to be configured on the question engine configuration admin "
+"screen."
+msgstr ""
+
+#: $string['pluginnamesummary']
+msgid "Use a question provided by another question engine system."
+msgstr ""
+
+#: $string['processcallfailed']
+msgid "Failed to process a response. {$a}"
+msgstr ""
+
+#: $string['questionbankurls']
+msgid "Question bank URLs"
+msgstr ""
+
+#: $string['questionengine']
+msgid "Question engine"
+msgstr ""
+
+#: $string['questionengine_help']
+msgid ""
+"Select the remote question engine that hosts the question you wish to use."
+msgstr ""
+
+#: $string['questionengineurls']
+msgid "Question engine URLs"
+msgstr ""
+
+#: $string['questionid']
+msgid "Question id"
+msgstr ""
+
+#: $string['questionid_help']
+msgid ""
+"Opaque questions are identified by both a question id and a question version "
+"number. The person who created the question you are trying to refer to will "
+"be able to tell you these."
+msgstr ""
+
+#: $string['questionversion']
+msgid "Question version"
+msgstr ""
+
+#: $string['startcallfailed']
+msgid "Failed to start a question session. {$a}"
+msgstr ""
+
+#: $string['stopcallfailed']
+msgid "Failed to close question session. {$a}"
+msgstr ""
+
+#: $string['testconnection']
+msgid "Test connection"
+msgstr ""
+
+#: $string['testconnectionfailed']
+msgid "Connection test failed."
+msgstr ""
+
+#: $string['testconnectionpassed']
+msgid "Connection test passed."
+msgstr ""
+
+#: $string['testconnectionto']
+msgid "Test connection to question engine {$a}"
+msgstr ""
+
+#: $string['testconnectionunknownreturn']
+msgid "Connection test returned an unrecognised response."
+msgstr ""
+
+#: $string['testingengine']
+msgid "Testing question engine"
+msgstr ""
+
+#: $string['timeout']
+msgid "Connection time-out (seconds)"
+msgstr ""
+
+#: $string['timeout_help']
+msgid ""
+"The time-out controls how long Moodle will wait for the question engine to "
+"respond. If you set this time too short, errors will be reported when "
+"actually things would have worked eventually. If you set this time too long, "
+"then when the question engine is not responding, Moodle will sit there for "
+"a long time waiting for it. So, the right value is a balance between the "
+"two."
+msgstr ""
+
+#: $string['timeoutmustbepositive']
+msgid "The time-out must be a postive integer."
+msgstr ""
+
+#: $string['unknownengine']
+msgid "Unknown engine. {$a}"
+msgstr ""
+
+#: $string['unrecognisedservertype']
+msgid "Unrecognised server type read from the database."
+msgstr ""
+
+#: $string['urlsinvalid']
+msgid "You must enter a list of URLs, one per line."
+msgstr ""

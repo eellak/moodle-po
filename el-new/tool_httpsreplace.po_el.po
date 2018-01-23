@@ -1,0 +1,131 @@
+#. extracted from lang/en/tool_httpsreplace.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'tool_httpsreplace', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   tool_httpsreplace
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['complete']
+msgid "Completed"
+msgstr ""
+
+#: $string['count']
+msgid "Number of embedded content items"
+msgstr ""
+
+#: $string['disclaimer']
+msgid "I understand the risks of this operation"
+msgstr ""
+
+#: $string['doclink']
+msgctxt "$string['doclink']"
+msgid "HTTPS conversion tool"
+msgstr ""
+
+#: $string['doit']
+msgid "Perform conversion"
+msgstr ""
+
+#: $string['domain']
+msgid "Problematic domain"
+msgstr ""
+
+#: $string['domainexplain']
+msgid ""
+"When a site is moved from HTTP to HTTPS, all embeded HTTP content will stop "
+"working. This tool allows you to automatically convert HTTP content to "
+"HTTPS.\n"
+"\n"
+"Before performing the conversion, content will be scanned to find any URLs "
+"which may not work after conversion. You may want to check each one has "
+"HTTPS available, or find alternative resources."
+msgstr ""
+
+#: $string['domainexplainhelp']
+msgid ""
+"These domains are found in your content, but do not appear to support HTTPS "
+"content. After switching to HTTPS, the content included from these sites "
+"will no longer display within Moodle for users with secure modern browsers. "
+"It is possible that these sites are temporarily or permanently unavailable "
+"and will not work with either security setting. Proceed only after reviewing "
+"these results and determining if this externally-hosted content is non-"
+"essential. Note: This content would no longer work upon switching to HTTPS "
+"anyway."
+msgstr ""
+
+#: $string['httpwarning']
+msgid ""
+"This instance is still running on HTTP. You can still run this tool and "
+"external content will be changed to HTTPS, but internal content will remain "
+"on HTTP. You will need to run this script again after switching to HTTPS to "
+"convert internal content."
+msgstr ""
+
+#: $string['notimplemented']
+msgid "Sorry, this feature is not implemented in your database driver."
+msgstr ""
+
+#: $string['oktoprocede']
+msgid ""
+"The scan finds no issues with your content. You can proceed to upgrade any "
+"HTTP content to use HTTPS."
+msgstr ""
+
+#: $string['pageheader']
+msgid "Upgrade externally-hosted content URLs to HTTPS"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "HTTPS conversion tool"
+msgstr ""
+
+#: $string['replacing']
+msgid "Replacing HTTP content with HTTPS..."
+msgstr ""
+
+#: $string['searching']
+msgid "Searching {$a}"
+msgstr ""
+
+#: $string['takeabackupwarning']
+msgid ""
+"Warning: After running this tool, changes cannot be reverted. It is "
+"recommended that a site backup is made before proceeding, as there is a "
+"small risk of wrong content being replaced."
+msgstr ""
+
+#: $string['toolintro']
+msgid ""
+"If you are planning on converting your site to HTTPS, you can use the <a "
+"href=\"{$a}\">HTTPS conversion tool</a> to convert your embedded content to "
+"HTTPS."
+msgstr ""

@@ -1,0 +1,425 @@
+#. extracted from lang/en/quiz_statistics.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'quiz_statistics', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   quiz_statistics
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['actualresponse']
+msgid "Actual response"
+msgstr ""
+
+#: $string['allattempts']
+msgctxt "$string['allattempts']"
+msgid "all attempts"
+msgstr "όλες οι προσπάθειες"
+
+#: $string['allattemptsavg']
+msgid "Average grade of all attempts"
+msgstr "Μέση βαθμολογία όλων των προσπαθειών"
+
+#: $string['allattemptscount']
+msgid "Total number of complete graded attempts"
+msgstr "Συνολικός αριθμός προσπαθειών"
+
+#: $string['analysisnameonly']
+msgid "\"{$a->name}\""
+msgstr ""
+
+#: $string['analysisno']
+msgid "({$a->number}) \"{$a->name}\""
+msgstr ""
+
+#: $string['analysisnovariant']
+msgid "({$a->number}) \"{$a->name}\" variant {$a->variant}"
+msgstr ""
+
+#: $string['analysisofresponses']
+msgid "Analysis of responses"
+msgstr "Ανάλυση των απαντήσεων"
+
+#: $string['analysisofresponsesfor']
+msgid "Analysis of responses for {$a}"
+msgstr "Ανάλυση των απαντήσεων για {$a}."
+
+#: $string['analysisvariant']
+msgid "\"{$a->name}\" variant {$a->variant}"
+msgstr ""
+
+#: $string['attempts']
+msgid "Attempts"
+msgstr "Προσπάθειες"
+
+#: $string['attemptsall']
+msgctxt "$string['attemptsall']"
+msgid "all attempts"
+msgstr "όλες οι προσπάθειες"
+
+#: $string['attemptsfirst']
+msgid "first attempt"
+msgstr "πρώτη προσπάθεια"
+
+#: $string['backtoquizreport']
+msgid "Back to main statistics report page."
+msgstr "Επιστροφή στην κύρια σελίδα αναφοράς στατιστικών."
+
+#: $string['calculatefrom']
+msgid "Calculate statistics from"
+msgstr "Υπολογισμός στατιστικών από"
+
+#: $string['calculatingallstats']
+msgid "Calculating statistics for quiz, questions and analysing response data"
+msgstr ""
+
+#: $string['cic']
+msgid "Coefficient of internal consistency (for {$a})"
+msgstr "Συντελεστής εσωτερικής συνοχής (για {$a})"
+
+#: $string['completestatsfilename']
+msgid "completestats"
+msgstr ""
+
+#: $string['count']
+msgid "Count"
+msgstr "Μέτρημα"
+
+#: $string['counttryno']
+msgid "Count Try {$a}"
+msgstr ""
+
+#: $string['coursename']
+msgid "Course name"
+msgstr "Όνομα μαθήματος"
+
+#: $string['detailedanalysis']
+msgid "More detailed analysis of the responses to this question"
+msgstr "Λεπτομερέστερη ανάλυση των απαντήσεων σε αυτή την ερώτηση"
+
+#: $string['detailedanalysisforvariant']
+#, fuzzy
+msgid ""
+"More detailed analysis of the responses to variant {$a} of this question"
+msgstr "Λεπτομερέστερη ανάλυση των απαντήσεων σε αυτή την ερώτηση"
+
+#: $string['discrimination_index']
+msgid "Discrimination index"
+msgstr "Δείκτης διάκρισης"
+
+#: $string['discriminative_efficiency']
+msgid "Discriminative efficiency"
+msgstr "Αποδοτικότητα διάκρισης"
+
+#: $string['downloadeverything']
+msgid "Download full report as"
+msgstr "Μεταφόρτωση της πλήρους αναφοράς σαν"
+
+#: $string['duration']
+msgid "Open for"
+msgstr "Άνοιγμα για"
+
+#: $string['effective_weight']
+msgid "Effective weight"
+msgstr "Ισχύον βάρος"
+
+#: $string['errordeleting']
+msgid "Error deleting old {$a} records."
+msgstr "Σφάλμα διαγραφής παλαιών {$a} εγγραφών."
+
+#: $string['errormedian']
+msgid "Error fetching median"
+msgstr "Σφάλμα λήψεως διάμεσου"
+
+#: $string['errorpowerquestions']
+msgid "Error fetching data to calculate variance for question grades"
+msgstr ""
+"Σφάλμα κατά τη λήψη των δεδομένων για τον υπολογισμό της διακύμανσης των "
+"βαθμών της ερώτησης"
+
+#: $string['errorpowers']
+msgid "Error fetching data to calculate variance for quiz grades"
+msgstr ""
+"Σφάλμα κατά τη λήψη των δεδομένων για τον υπολογισμό της διακύμανσης των "
+"βαθμών του κουίζ"
+
+#: $string['errorrandom']
+msgid "Error getting sub item data"
+msgstr "Σφάλμα κατά τη λήψη των δεδομένων του υπόστοιχείου"
+
+#: $string['errorratio']
+msgid "Error ratio (for {$a})"
+msgstr "Αναλογία σφαλμάτων (για {$a})"
+
+#: $string['errorstatisticsquestions']
+msgid "Error fetching data to calculate statistics for question grades"
+msgstr ""
+"Σφάλμα κατά τη λήψη των δεδομένων για τον υπολογισμό των στατιστικών των "
+"βαθμών της ερώτησης"
+
+#: $string['facility']
+msgid "Facility index"
+msgstr "Δείκτης διευκόλυνσης"
+
+#: $string['firstattempts']
+msgid "first attempts"
+msgstr "πρώτες προσπάθειες"
+
+#: $string['firstattemptsavg']
+msgid "Average grade of first attempts"
+msgstr "Μέσος όρος βαθμολογιών των πρώτων προσπαθειών"
+
+#: $string['firstattemptscount']
+msgid "Number of complete graded first attempts"
+msgstr "Αριθμός πρώτων προσπαθειών"
+
+#: $string['frequency']
+msgid "Frequency"
+msgstr "Συχνότητα"
+
+#: $string['highestattempts']
+msgid "highest graded attempt"
+msgstr ""
+
+#: $string['highestattemptsavg']
+msgid "Average grade of highest graded attempts"
+msgstr ""
+
+#: $string['intended_weight']
+msgid "Intended weight"
+msgstr "Προτιθέμενο βάρος"
+
+#: $string['kurtosis']
+msgid "Score distribution kurtosis (for {$a})"
+msgstr "Κύρτωση διανομής του σκορ (για {$a})"
+
+#: $string['lastattempts']
+#, fuzzy
+msgid "last attempt"
+msgstr "πρώτη προσπάθεια"
+
+#: $string['lastattemptsavg']
+#, fuzzy
+msgid "Average grade of last attempts"
+msgstr "Μέσος όρος βαθμολογιών των πρώτων προσπαθειών"
+
+#: $string['lastcalculated']
+msgid ""
+"Last calculated {$a->lastcalculated} ago there have been {$a->count} "
+"attempts since then."
+msgstr ""
+"Τελευταία υπολογισμένη {$a->lastcalculated} και από τότε υπήρξαν {$a->count} "
+"προσπάθειες."
+
+#: $string['maximumfacility']
+msgid "Maximum facility"
+msgstr ""
+
+#: $string['median']
+msgid "Median grade (for {$a})"
+msgstr "Διάμεσος βαθμός (για {$a})"
+
+#: $string['medianfacility']
+msgid "Median facility"
+msgstr ""
+
+#: $string['minimumfacility']
+msgid "Minimum facility"
+msgstr ""
+
+#: $string['modelresponse']
+msgid "Model response"
+msgstr ""
+
+#: $string['nameforvariant']
+msgid "Variant {$a->variant} of {$a->name}"
+msgstr ""
+
+#: $string['negcovar']
+msgid "Negative covariance of grade with total attempt grade"
+msgstr "Αρνητική συνδιακύμανση του βαθμού με βαθμό συνολικής προσπάθειας"
+
+#: $string['negcovar_help']
+msgid ""
+"This question's grade for this set of attempts on the quiz varies in an "
+"opposite way to the overall attempt grade. This means overall attempt grade "
+"tends to be below average when the grade for this question is above average "
+"and vice-versa.\n"
+"\n"
+"Our equation for effective question weight cannot be calculated in this "
+"case. The calculations for effective question weight for other questions in "
+"this quiz are the effective question weight for these questions if the "
+"highlighted questions with a negative covariance are given a maximum grade "
+"of zero.\n"
+"\n"
+"If you edit a quiz and give these question(s) with negative covariance a max "
+"grade of zero then the effective question weight of these questions will be "
+"zero and the real effective question weight of other questions will be as "
+"calculated now."
+msgstr ""
+
+#: $string['nogradedattempts']
+msgid ""
+"No attempts have been made at this quiz, or all attempts have questions that "
+"need manual grading."
+msgstr ""
+
+#: $string['nostudentsingroup']
+msgid "There are no students in this group yet"
+msgstr "Δεν υπάρχουν μαθητές σε αυτή την ομάδα ακόμα"
+
+#: $string['optiongrade']
+msgid "Partial credit"
+msgstr "Μερικός έπαινος"
+
+#: $string['partofquestion']
+msgid "Part of question"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Statistics"
+msgstr "Στατιστικά"
+
+#: $string['position']
+msgid "Position"
+msgstr "Θέση"
+
+#: $string['positions']
+msgid "Position(s)"
+msgstr "Θέση(εις)"
+
+#: $string['questioninformation']
+msgid "Question information"
+msgstr "Πληροφορίες ερώτησης"
+
+#: $string['questionname']
+msgid "Question name"
+msgstr "Όνομα ερώτησης"
+
+#: $string['questionnumber']
+msgid "Q#"
+msgstr "Q#"
+
+#: $string['questionstatistics']
+msgid "Question statistics"
+msgstr "Στατιστικά ερώτησης"
+
+#: $string['questionstatsfilename']
+msgid "questionstats"
+msgstr ""
+
+#: $string['questiontype']
+msgid "Question type"
+msgstr "Τύπος ερώτησης"
+
+#: $string['quizinformation']
+msgid "Quiz information"
+msgstr "Πληροφορίες Κουίζ"
+
+#: $string['quizname']
+msgid "Quiz name"
+msgstr "Όνομα κουίζ"
+
+#: $string['quizoverallstatistics']
+msgid "Quiz overall statistics"
+msgstr "Γενικά στατιστικά κουίζ"
+
+#: $string['quizstructureanalysis']
+msgid "Quiz structure analysis"
+msgstr "Ανάλυση δομής του κουίζ"
+
+#: $string['random_guess_score']
+msgid "Random guess score"
+msgstr "Σκορ τυχαίας εικασίας"
+
+#: $string['recalculatenow']
+msgid "Recalculate now"
+msgstr "Επαναβαθμολόγηση τώρα"
+
+#: $string['reportsettings']
+msgid "Statistics calculation settings"
+msgstr ""
+
+#: $string['response']
+msgid "Response"
+msgstr "Απάντηση"
+
+#: $string['skewness']
+msgid "Score distribution skewness (for {$a})"
+msgstr "Λοξότητα διανομής του σκορ (για {$a})"
+
+#: $string['slotstructureanalysis']
+msgid "Structural analysis for question number {$a}"
+msgstr ""
+
+#: $string['standarddeviation']
+msgid "Standard deviation (for {$a})"
+msgstr "Τυπική απόκλιση (για {$a})"
+
+#: $string['standarddeviationq']
+msgid "Standard deviation"
+msgstr "Τυπική απόκλιση"
+
+#: $string['standarderror']
+msgid "Standard error (for {$a})"
+msgstr "Τυπικό σφάλμα (για {$a})"
+
+#: $string['statistics']
+msgctxt "$string['statistics']"
+msgid "Statistics"
+msgstr "Στατιστικά"
+
+#: $string['statistics:componentname']
+msgid "Quiz statistics report"
+msgstr "Αναφορά στατιστικών του κουίζ"
+
+#: $string['statisticsreport']
+msgid "Statistics report"
+msgstr "Αναφορά στατιστικών"
+
+#: $string['statisticsreportgraph']
+msgid "Statistics for question positions"
+msgstr "Στατιστικά για τη θέση των ερωτήσεων"
+
+#: $string['statistics:view']
+msgid "View statistics report"
+msgstr "Εμφάνιση αναφοράς στατιστικών"
+
+#: $string['statsfor']
+msgid "Quiz statistics (for {$a})"
+msgstr "Στατιστικά κουίζ (για {$a})"
+
+#: $string['variant']
+msgid "Variant"
+msgstr ""
+
+#: $string['whichtries']
+msgid "Analyze responses for"
+msgstr ""

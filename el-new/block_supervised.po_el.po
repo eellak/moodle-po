@@ -1,0 +1,770 @@
+#. extracted from lang/en/block_supervised.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_supervised', language 'en', branch 'MOODLE_29_STABLE'
+#.  *
+#.  * @package   block_supervised
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['active']
+msgid "Use this classroom in sessions?"
+msgstr ""
+
+#: $string['active_help']
+msgid "If enabled, you can start and plan new sessions in this classroom"
+msgstr ""
+
+#: $string['activesessionsstudenttitle']
+msgid "You have {$a} active session(s)"
+msgstr ""
+
+#: $string['activesessiontitle']
+msgid "You have an active session"
+msgstr ""
+
+#: $string['addclassroom']
+msgid "Add a classroom ..."
+msgstr ""
+
+#: $string['addclassroomnavbar']
+msgctxt "$string['addclassroomnavbar']"
+msgid "Add classroom"
+msgstr ""
+
+#: $string['addclassroompagetitle']
+msgctxt "$string['addclassroompagetitle']"
+msgid "Add classroom"
+msgstr ""
+
+#: $string['addingnewclassroom']
+msgid "Adding new classroom"
+msgstr ""
+
+#: $string['addingnewlessontype']
+msgid "Adding new lesson type"
+msgstr ""
+
+#: $string['addingnewsession']
+msgctxt "$string['addingnewsession']"
+msgid "Plan new session"
+msgstr ""
+
+#: $string['addlessontype']
+msgid "Add a lesson type ..."
+msgstr ""
+
+#: $string['addlessontypenavbar']
+msgctxt "$string['addlessontypenavbar']"
+msgid "Add lesson type"
+msgstr ""
+
+#: $string['addlessontypepagetitle']
+msgctxt "$string['addlessontypepagetitle']"
+msgid "Add lesson type"
+msgstr ""
+
+#: $string['addsessionpagetitle']
+msgctxt "$string['addsessionpagetitle']"
+msgid "Plan new session"
+msgstr ""
+
+#: $string['allclassrooms']
+msgid "All classrooms"
+msgstr ""
+
+#: $string['allgroups']
+msgid "All groups"
+msgstr ""
+
+#: $string['alllessontypes']
+msgid "All lesson types"
+msgstr ""
+
+#: $string['allstates']
+msgid "All states"
+msgstr ""
+
+#: $string['allsupervisers']
+msgid "All supervisers"
+msgstr ""
+
+#: $string['allusers']
+msgid "All users"
+msgstr ""
+
+#: $string['blocktitle']
+msgctxt "$string['blocktitle']"
+msgid "Supervised"
+msgstr ""
+
+#: $string['cannotdeleteclassroom']
+msgid ""
+"There were sessions in this classroom. Delete sessions using this classroom "
+"first. You can hide classroom"
+msgstr ""
+
+#: $string['cannotdeletelessontype']
+msgid ""
+"You can not delete this lesson type, because it's used in sessions or "
+"quizzes"
+msgstr ""
+
+#: $string['classroom']
+msgid "Classroom"
+msgstr ""
+
+#: $string['classroomsbreadcrumb']
+msgctxt "$string['classroomsbreadcrumb']"
+msgid "Classrooms"
+msgstr ""
+
+#: $string['classroomsdefinition']
+msgid "Classrooms definition"
+msgstr ""
+
+#: $string['classroomsdefinition_help']
+msgid ""
+"Any supervised sessions takes place somewhere - i.e. in the classroom. The "
+"classroom is defined by an IP subnet (ask you admin for IP range for you "
+"classroom, if you don't know what it is). Only students working on computers "
+"with specified IPs participate in supervised session, so students from the "
+"group can not cheat you acessing site from other places when you supervise "
+"their classmates in some classroom. Classrooms are acessible from all "
+"courses."
+msgstr ""
+
+#: $string['classroomsheader']
+msgctxt "$string['classroomsheader']"
+msgid "Classrooms list"
+msgstr ""
+
+#: $string['classroomspagetitle']
+msgctxt "$string['classroomspagetitle']"
+msgid "Classrooms list"
+msgstr ""
+
+#: $string['classroomsurl']
+msgctxt "$string['classroomsurl']"
+msgid "Classrooms"
+msgstr ""
+
+#: $string['coursesettings']
+msgid "Course specific settings"
+msgstr ""
+
+#: $string['createclassroom']
+msgid ""
+"To plan or start a session you must create (or make visible) at least one "
+"classroom!"
+msgstr ""
+
+#: $string['deleteclassroomcheck']
+msgid ""
+"Are you sure you want to completely delete this classroom from every course "
+"on the site?"
+msgstr ""
+
+#: $string['deletelessontypecheck']
+msgid "Are you sure you want to completely delete this lesson type?"
+msgstr ""
+
+#: $string['deletesessionnavbar']
+msgid "Delete session?"
+msgstr ""
+
+#: $string['duration']
+msgid "Duration (min)"
+msgstr ""
+
+#: $string['durationvalidationerror']
+msgid "Duration must be greater than zero value."
+msgstr ""
+
+#: $string['editclassroomnavbar']
+msgctxt "$string['editclassroomnavbar']"
+msgid "Edit classroom"
+msgstr ""
+
+#: $string['editclassroompagetitle']
+msgctxt "$string['editclassroompagetitle']"
+msgid "Edit classroom"
+msgstr ""
+
+#: $string['editingclassroom']
+msgid "Editing classroom"
+msgstr ""
+
+#: $string['editinglessontype']
+msgid "Editing lesson type"
+msgstr ""
+
+#: $string['editingsession']
+msgid "Editing session"
+msgstr ""
+
+#: $string['editlessontypenavbar']
+msgctxt "$string['editlessontypenavbar']"
+msgid "Edit lesson type"
+msgstr ""
+
+#: $string['editlessontypepagetitle']
+msgctxt "$string['editlessontypepagetitle']"
+msgid "Edit lesson type"
+msgstr ""
+
+#: $string['editsessionnavbar']
+msgid "Edit session"
+msgstr ""
+
+#: $string['editsessionpagetitle']
+msgid "Edit planned session"
+msgstr ""
+
+#: $string['emaildeletesessionurl']
+msgid "You can delete this session: {$a}"
+msgstr ""
+
+#: $string['emaileditedsession']
+msgid ""
+"Hi {$a->teachername},\n"
+"\n"
+"Your session at '{$a->sitename}' has been edited.\n"
+"Editor:        {$a->editorname}\n"
+"\n"
+"Updated session information:\n"
+"{$a->sessioninfo}\n"
+"\n"
+"{$a->editsession}\n"
+"{$a->deletesession}\n"
+"\n"
+"{$a->haveaniceday}"
+msgstr ""
+
+#: $string['emaileditedsessionsubject']
+msgid "{$a->sitename}: session has been edited on {$a->timestart}"
+msgstr ""
+
+#: $string['emaileditsessionurl']
+msgid "You can edit this session: {$a}"
+msgstr ""
+
+#: $string['emailnewsession']
+msgid ""
+"Hi {$a->teachername},\n"
+"\n"
+"A new session has been created for you at '{$a->sitename}'.\n"
+"Creator:        {$a->creatorname}\n"
+"\n"
+"{$a->sessioninfo}\n"
+"\n"
+"{$a->editsession}\n"
+"{$a->deletesession}\n"
+"\n"
+"{$a->haveaniceday}"
+msgstr ""
+
+#: $string['emailnewsessionsubject']
+msgid "{$a->sitename}: new session on {$a->timestart}"
+msgstr ""
+
+#: $string['emailremovedsession']
+msgid ""
+"Hi {$a->teachername},\n"
+"\n"
+"Your session at '{$a->sitename}' has been removed.\n"
+"Remover:        {$a->removername}\n"
+"\n"
+"{$a->sessioninfo}\n"
+"\n"
+"{$a->custommessage}\n"
+"\n"
+"{$a->haveaniceday}"
+msgstr ""
+
+#: $string['emailremovedsessionmsg']
+msgid ""
+"A person who removed this session leaved a message for you:\n"
+"--------------------------------------------------\n"
+"{$a}\n"
+"--------------------------------------------------"
+msgstr ""
+
+#: $string['emailremovedsessionsubject']
+msgid "{$a->sitename}: session has been removed on {$a->timestart}"
+msgstr ""
+
+#: $string['emailsessioncomment']
+msgid ""
+"Session comment:\n"
+"--------------------------------------------------\n"
+"{$a}\n"
+"--------------------------------------------------"
+msgstr ""
+
+#: $string['emailsessioninfo']
+msgid ""
+"Course:         {$a->course}\n"
+"Classroom:      {$a->classroom}\n"
+"Group:          {$a->group}\n"
+"Lesson type:    {$a->lessontype}\n"
+"Time start:     {$a->timestart}\n"
+"Duration (min): {$a->duration}\n"
+"Time end:       {$a->timeend}\n"
+"\n"
+"{$a->comment}"
+msgstr ""
+
+#: $string['enrollteacher']
+msgid ""
+"To plan a session you must enroll at least one user with ability to "
+"supervise sessions in the course!"
+msgstr ""
+
+#: $string['eventaddclassroom']
+msgid "New classroom has been added"
+msgstr ""
+
+#: $string['eventaddlessontype']
+msgid "New lessontype has been added"
+msgstr ""
+
+#: $string['eventaddsession']
+msgid "New session has been added"
+msgstr ""
+
+#: $string['eventdeleteclassroom']
+msgid "Classroom has been deleted"
+msgstr ""
+
+#: $string['eventdeletelessontype']
+msgid "Lessontype has been deleted"
+msgstr ""
+
+#: $string['eventdeletesession']
+msgid "Session has been deleted"
+msgstr ""
+
+#: $string['eventfinishsession']
+msgid "Session has been finished"
+msgstr ""
+
+#: $string['eventhideclassroom']
+msgid "Classroom was hidden"
+msgstr ""
+
+#: $string['eventstartplannedsession']
+msgid "Planned session has been started"
+msgstr ""
+
+#: $string['eventstartsession']
+msgid "Session has been started"
+msgstr ""
+
+#: $string['eventunhideclassroom']
+msgid "Classroom was unhidden"
+msgstr ""
+
+#: $string['eventupdateactivesession']
+msgid "Active session has been updated"
+msgstr ""
+
+#: $string['eventupdateclassroom']
+msgid "Classroom has been updated"
+msgstr ""
+
+#: $string['eventupdatelessontype']
+msgid "Lessontype has been updated"
+msgstr ""
+
+#: $string['eventupdatesession']
+msgid "Session has been updated"
+msgstr ""
+
+#: $string['filterlogsbyuser']
+msgid "Filter logs by user"
+msgstr ""
+
+#: $string['finishedstate']
+msgid "Finished"
+msgstr ""
+
+#: $string['finishsession']
+msgid "Finish session"
+msgstr ""
+
+#: $string['gotoclassrooms']
+msgid "Go to classrooms page"
+msgstr ""
+
+#: $string['gotoenrollment']
+msgid "Go to user enrollment page"
+msgstr ""
+
+#: $string['haveaniceday']
+msgid "Have a nice day!"
+msgstr ""
+
+#: $string['increaseduration']
+msgid "Session time end must be greater than current time."
+msgstr ""
+
+#: $string['insertclassroomerror']
+msgid "Database error! Can not insert classroom into database"
+msgstr ""
+
+#: $string['insertlessontypeerror']
+msgid "Database error! Can not insert lesson type into database"
+msgstr ""
+
+#: $string['insertsessionerror']
+msgid "Database error! Can not insert session into database"
+msgstr ""
+
+#: $string['invalidclassroomid']
+msgid "You are trying to use an invalid classroom ID"
+msgstr ""
+
+#: $string['invalidlessontypeid']
+msgid "You are trying to use an invalid lesson type ID"
+msgstr ""
+
+#: $string['invalidsessionid']
+msgid "You are trying to use an invalid session ID"
+msgstr ""
+
+#: $string['iplist']
+msgid "IP list"
+msgstr ""
+
+#: $string['iplist_help']
+msgid ""
+"IP list is a comma separated string of subnet definitions.\n"
+"\n"
+"Subnet strings can be in one of those formats:\n"
+"\n"
+"* xxx.xxx.xxx.xxx     (full IP address)\n"
+"\n"
+"* xxx.xxx.xxx.xxx/nn  (number of bits in net mask)\n"
+"\n"
+"* xxx.xxx.xxx.xxx-yyy (a range of IP addresses in the last group)\n"
+"\n"
+"* xxx.xxx or xxx.xxx. (incomplete address)"
+msgstr ""
+
+#: $string['lessontype']
+msgid "Lesson type"
+msgstr ""
+
+#: $string['lessontypesbreadcrumb']
+msgctxt "$string['lessontypesbreadcrumb']"
+msgid "Lesson types"
+msgstr ""
+
+#: $string['lessontypesdefinition']
+msgid "Lesson types definition"
+msgstr ""
+
+#: $string['lessontypesdefinition_help']
+msgid ""
+"Consider you have several different lesson types in the courses (i.e. exam, "
+"colloquim etc), and want certaing things only on certain lessons (i.e. exam "
+"quiz shoudn't be accessible on colloquim). You can use lesson types to sort "
+"them out. Session creates always for some lesson type. You can limit quiz "
+"acessibility and other features to the sessions of certain lesson type. "
+"Unlike classrooms, lesson types created separately for each course."
+msgstr ""
+
+#: $string['lessontypespagetitle']
+msgctxt "$string['lessontypespagetitle']"
+msgid "Lesson types"
+msgstr ""
+
+#: $string['lessontypesurl']
+msgctxt "$string['lessontypesurl']"
+msgid "Lesson types"
+msgstr ""
+
+#: $string['lessontypesview']
+msgid "Lesson types in current course"
+msgstr ""
+
+#: $string['logsbreadcrumb']
+msgctxt "$string['logsbreadcrumb']"
+msgid "Session logs"
+msgstr ""
+
+#: $string['logspagetitle']
+msgctxt "$string['logspagetitle']"
+msgid "Session logs"
+msgstr ""
+
+#: $string['logsview']
+msgctxt "$string['logsview']"
+msgid "Session logs"
+msgstr ""
+
+#: $string['messageforteacher']
+msgid "Message for the superviser"
+msgstr ""
+
+#: $string['nosessionsstudenttitle']
+msgid "You don't have any active session..."
+msgstr ""
+
+#: $string['nosessionstitle']
+msgid ""
+"You don't have any planned or active sessions. You can start new session "
+"right now"
+msgstr ""
+
+#: $string['notifyteacher']
+msgid "Notify superviser by e-mail"
+msgstr ""
+
+#: $string['notifyteacher_help']
+msgid ""
+"If checked, selected superviser will be notified about creation, removing "
+"and any changes in his session. If the superviser will be changed, both will "
+"be notified."
+msgstr ""
+
+#: $string['notspecified']
+msgid "Not specified"
+msgstr ""
+
+#: $string['pagesizevalidationerror']
+msgid "Page size must be greater than zero value."
+msgstr ""
+
+#: $string['plannedsessiontitle']
+msgid "You have a planned session"
+msgstr ""
+
+#: $string['plannedstate']
+msgid "Planned"
+msgstr ""
+
+#: $string['plansession']
+msgid "Plan a new session ..."
+msgstr ""
+
+#: $string['plansessionnavbar']
+msgid "Plan session"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Supervised"
+msgstr ""
+
+#: $string['sessiondeleteerror']
+msgid "You can't delete active session. End session first."
+msgstr ""
+
+#: $string['sessiondeleteheader']
+msgid "Do you want to delete this session?"
+msgstr ""
+
+#: $string['sessiondeletetitle']
+msgid "Delete session"
+msgstr ""
+
+#: $string['sessiondurationcourse']
+msgid "Default value for session duration in this course (min)"
+msgstr ""
+
+#: $string['sessionediterror']
+msgid "You can edit only planned sessions"
+msgstr ""
+
+#: $string['sessionendsbefore']
+msgid "Session ends before"
+msgstr ""
+
+#: $string['sessioninfo']
+msgid "Session information"
+msgstr ""
+
+#: $string['sessionlogserror']
+msgid "You can't view logs of planned session - there is nothing to view"
+msgstr ""
+
+#: $string['sessionsbreadcrumb']
+msgctxt "$string['sessionsbreadcrumb']"
+msgid "Sessions"
+msgstr ""
+
+#: $string['sessionsdefinition']
+msgid "Sessions definition"
+msgstr ""
+
+#: $string['sessionsdefinition_help']
+msgid ""
+"The course superviser creates sessions specifying the group, lesson type "
+"(e.g. laboratory work, exam, etc.), classroom and duration. After that "
+"students will be able to start quizzes from this course according next "
+"conditions:\n"
+"\n"
+"- the session is active;\n"
+"\n"
+"- student is in a group for which the session was created;\n"
+"\n"
+"- student is in session's classroom (the superviser can specify the ip "
+"subnet for each classroom);\n"
+"\n"
+"- the session was created for the lesson type which is specified for the "
+"quiz (go to quiz settings -> Extra restrictions on attempts)."
+msgstr ""
+
+#: $string['sessionsheader']
+msgid "Sessions list"
+msgstr ""
+
+#: $string['sessionspagetitle']
+msgctxt "$string['sessionspagetitle']"
+msgid "Sessions"
+msgstr ""
+
+#: $string['sessionstartsafter']
+msgid "Session starts after"
+msgstr ""
+
+#: $string['sessionsurl']
+msgctxt "$string['sessionsurl']"
+msgid "Sessions"
+msgstr ""
+
+#: $string['settingsdayspastdesc']
+msgid "Default time interval for sessions table in days (from current day)."
+msgstr ""
+
+#: $string['settingsdayspasttitle']
+msgid "Number of days to show sessions"
+msgstr ""
+
+#: $string['settingsdurationdesc']
+msgid "Default session time in minutes."
+msgstr ""
+
+#: $string['settingsdurationtitle']
+msgid "Session time"
+msgstr ""
+
+#: $string['showlogs']
+msgctxt "$string['showlogs']"
+msgid "Show logs"
+msgstr ""
+
+#: $string['showlogsbutton']
+msgctxt "$string['showlogsbutton']"
+msgid "Show logs"
+msgstr ""
+
+#: $string['showsessions']
+msgid "Show sessions"
+msgstr ""
+
+#: $string['startsession']
+msgid "Start session"
+msgstr ""
+
+#: $string['supervised:addinstance']
+msgid "Add a new Supervised block"
+msgstr ""
+
+#: $string['supervised:besupervised']
+msgid "Participate in the supervised session (intended for students etc)"
+msgstr ""
+
+#: $string['supervised:editclassrooms']
+msgid "Edit classrooms"
+msgstr ""
+
+#: $string['supervised:editlessontypes']
+msgid "Edit lesson types"
+msgstr ""
+
+#: $string['supervised:manageallsessions']
+msgid "Manage all sessions: plan, edit and remove unfinished sessions"
+msgstr ""
+
+#: $string['supervised:managefinishedsessions']
+msgid "Remove finished sessions"
+msgstr ""
+
+#: $string['supervised:manageownsessions']
+msgid "Manage own sessions: plan, edit and remove unfinished sessions"
+msgstr ""
+
+#: $string['supervisedsettings']
+msgid "Supervised settings"
+msgstr ""
+
+#: $string['supervised:supervise']
+msgid ""
+"Ability to supervised sessions: start planned and new ones, edit and finish "
+"active ones, view logs."
+msgstr ""
+
+#: $string['supervised:viewallsessions']
+msgid "View all sessions (planned, active and finished) and their logs"
+msgstr ""
+
+#: $string['supervised:viewownsessions']
+msgid "View own sessions (planned, active and finished) and their logs"
+msgstr ""
+
+#: $string['superviser']
+msgid "Superviser"
+msgstr ""
+
+#: $string['teacherhassession']
+msgid "Superviser already has a session in this time."
+msgstr ""
+
+#: $string['teachervalidationerror']
+msgid "You can plan session only for yourself."
+msgstr ""
+
+#: $string['timeend']
+msgid "Time end"
+msgstr ""
+
+#: $string['timeendvalidationerror']
+msgid "The session must be active before {$a} at least."
+msgstr ""
+
+#: $string['timestart']
+msgid "Time start"
+msgstr ""
+
+#: $string['timetovalidationerror']
+msgid "Session's end must be greater or equal to session's start."
+msgstr ""

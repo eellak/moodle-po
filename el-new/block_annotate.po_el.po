@@ -1,0 +1,201 @@
+#. extracted from lang/en/block_annotate.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_annotate', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   block_annotate
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['access_default_msg']
+msgid "Individual (Default). This can be changed in config."
+msgstr ""
+
+#: $string['access_set_to_msg']
+msgid "Document access in Annotate set to:"
+msgstr ""
+
+#: $string['access_shareuser_msg']
+msgid "Document owner:"
+msgstr ""
+
+#: $string['access_shareuser_msg_dft']
+msgid "Not set yet. Use config."
+msgstr ""
+
+#: $string['annotate:accessannotate']
+msgid "Access Annotate"
+msgstr ""
+
+#: $string['annotate:addinstance']
+msgid "Add the Annotate block"
+msgstr ""
+
+#: $string['annotate_api_key_default']
+msgctxt "$string['annotate_api_key_default']"
+msgid ""
+msgstr ""
+
+#: $string['annotate_api_key_lbl']
+msgid "API key for the user"
+msgstr ""
+
+#: $string['annotate_api_key_msg']
+msgid ""
+"The API key can be found at the bottom of the settings page when logged in "
+"to Annotate as an user with API access."
+msgstr ""
+
+#: $string['annotate_api_user_default']
+msgctxt "$string['annotate_api_user_default']"
+msgid ""
+msgstr ""
+
+#: $string['annotate_api_user_lbl']
+msgid "API user email"
+msgstr ""
+
+#: $string['annotate_api_user_msg']
+msgid ""
+"Email of Annotate user with API access. This is often the user to whom the "
+"license has been issued."
+msgstr ""
+
+#: $string['annotate_header_config']
+msgid "Annotate server settings"
+msgstr ""
+
+#: $string['annotate_header_description']
+msgid ""
+"Here you can enter the necessary parameters to connect to your Annotate "
+"server."
+msgstr ""
+
+#: $string['annotate_moodleId_lbl']
+msgid "Moodle Installation Identifier"
+msgstr ""
+
+#: $string['annotate_moodleId_msg']
+msgid ""
+"In order to separate the workspaces based on the Moodle install location."
+msgstr ""
+
+#: $string['annotate:myaddinstance']
+msgid "Add the Annotate block to My home page"
+msgstr ""
+
+#: $string['annotate_server_uri_default']
+msgid "http://localhost/annotate"
+msgstr ""
+
+#: $string['annotate_server_uri_lbl']
+msgid "Annotate Server URI"
+msgstr ""
+
+#: $string['annotate_server_uri_msg']
+msgid ""
+"Set this to your Annotate server. For testing, if you have a default "
+"Annotate installation on the same server as Moodle try "
+"\"http://localhost/annotate\". If both servers are on the same local "
+"subnetwork you can use their local ip addresses here too, as long as each is "
+"configured to know its own address."
+msgstr ""
+
+#: $string['annotate_wsuser_token_default']
+msgctxt "$string['annotate_wsuser_token_default']"
+msgid ""
+msgstr ""
+
+#: $string['annotate_wsuser_token_lbl']
+msgid "Web Services user token"
+msgstr ""
+
+#: $string['annotate_wsuser_token_msg']
+msgid ""
+"A specific Moodle Web Services user must be created to allow Annotate to "
+"fetch files from the Moodle server. Instructions on this can be found in "
+"https://moodle.org/plugins/block_annotate"
+msgstr ""
+
+#: $string['config_access_label']
+msgid "Access"
+msgstr ""
+
+#: $string['config_access_label_help']
+msgid ""
+"With \"Individual\" access each user will get an independent instance of each "
+"resource they access and notes will be private unless they explicitly share "
+"the document in Annotate. With \"Group\" access there is one copy for the "
+"group which is owned by the specified user below. Students can still make "
+"private notes but they can also make Shared notes visible to other users."
+msgstr ""
+
+#: $string['config_group_access']
+msgid "Group"
+msgstr ""
+
+#: $string['config_header_label']
+msgid "Document sharing options"
+msgstr ""
+
+#: $string['config_individual_access']
+msgid "Individual"
+msgstr ""
+
+#: $string['config_shareuser_label']
+msgid "Document owner (Group only)"
+msgstr ""
+
+#: $string['config_shareuser_label_help']
+msgid ""
+"For \"Group\" access, the email of the user who will own the document in "
+"Annotate must be provided. This is often set to the course instructor."
+msgstr ""
+
+#: $string['enter_email_msg']
+msgid "Enter email"
+msgstr ""
+
+#: $string['invalid_email_msg']
+msgid "Invalid email"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Annotate"
+msgstr ""
+
+#: $string['transfer_error']
+msgid "Error"
+msgstr ""
+
+#: $string['transfer_error_msg']
+msgid ""
+"There was a problem transferring to Annotate to view the document. Please "
+"contact your server administrator."
+msgstr ""

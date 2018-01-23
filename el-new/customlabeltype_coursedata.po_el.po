@@ -1,0 +1,259 @@
+#. extracted from lang/en/customlabeltype_coursedata.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'customlabeltype_coursedata', language 'en', branch 'MOODLE_32_STABLE'
+#.  *
+#.  * @package   customlabeltype_coursedata
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['concepts']
+msgid "Key concepts"
+msgstr "Βασικές έννοιες"
+
+#: $string['configtypename']
+msgid "Enable subtype Course information"
+msgstr ""
+
+#: $string['coursedata:addinstance']
+msgid "Can add an instance"
+msgstr "Προσθήκη στιγμιότυπου"
+
+#: $string['coursedata:view']
+msgid "Can view the content"
+msgstr ""
+
+#: $string['duration']
+msgid "Duration"
+msgstr "Διάρκεια"
+
+#: $string['family']
+msgid "meta"
+msgstr ""
+
+#: $string['followers']
+msgid "Following courses"
+msgstr ""
+
+#: $string['goals']
+msgid "Goals"
+msgstr "Στόχοι"
+
+#: $string['learningmethod']
+msgid "Learning method"
+msgstr ""
+
+#: $string['leftcolumnratio']
+msgid "Left column ratio"
+msgstr ""
+
+#: $string['objectives']
+msgid "Learner's objectives"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Course element : Course Information"
+msgstr ""
+
+#: $string['prerequisites']
+msgid "Prerequisites"
+msgstr "Προαπαιτούμενα"
+
+#: $string['showconcepts']
+msgid "Show Key concepts"
+msgstr "Εμφάνιση βασικών εννοιών"
+
+#: $string['showduration']
+msgid "Show Duration"
+msgstr "Εμφάνιση Διάρκειας"
+
+#: $string['showfollowers']
+msgid "Show Following courses"
+msgstr ""
+
+#: $string['showgoals']
+msgid "Show Goals"
+msgstr "Εμφάνιση Στόχων"
+
+#: $string['showlearningmethod']
+msgid "Show Learning method"
+msgstr ""
+
+#: $string['showobjectives']
+msgid "Show Learner's objectives"
+msgstr ""
+
+#: $string['showprerequisites']
+msgid "Show Prerequisites"
+msgstr "Εμφάνιση Προαπαιτούμενων"
+
+#: $string['showtarget']
+msgid "Show Target"
+msgstr "Εμφάνιση Στόχου"
+
+#: $string['showteachingorganization']
+msgid "Show Pedagogic organisation"
+msgstr ""
+
+#: $string['tablecaption']
+msgid "Table caption"
+msgstr ""
+
+#: $string['target']
+msgid "Target"
+msgstr "Στόχος"
+
+#: $string['teachingorganization']
+msgid "Pedagogic organisation"
+msgstr ""
+
+#: $string['template']
+msgid ""
+"<table class=\"custombox-coursedata\">\n"
+"    <%if %%tablecaption%% %>\n"
+"    <tr valign=\"top\">\n"
+"        <th class=\"custombox-title coursedata\" colspan=\"2\">\n"
+"            <%%tablecaption%%>\n"
+"        </th>\n"
+"    </tr>\n"
+"    <%endif %>\n"
+"    <%if %%showidnumber%% %>\n"
+"    <tr valign=\"top\">\n"
+"        <td class=\"custombox-param coursedata\" width=\"<%%leftcolumnratio%%"
+">\">\n"
+"            Training ID:\n"
+"        </td>\n"
+"        <td class=\"custombox-value coursedata\" width=\"<%%rightcolumnratio%%"
+">\">\n"
+"            <%%idnumber%%>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <%endif %>\n"
+"    <%if %%showtarget%% %>\n"
+"    <tr valign=\"top\">\n"
+"        <td class=\"custombox-param coursedata\" width=\"<%%leftcolumnratio%%"
+">\">\n"
+"            People concerned:\n"
+"        </td>\n"
+"        <td class=\"custombox-value coursedata\" width=\"<%%rightcolumnratio%%"
+">\">\n"
+"            <%%target%%>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <%endif %>\n"
+"    <%if %%showgoals%% %>\n"
+"    <tr valign=\"top\">\n"
+"        <td class=\"custombox-param coursedata\" width=\"<%%leftcolumnratio%%"
+">\">\n"
+"            Goals:\n"
+"        </td>\n"
+"        <td class=\"custombox-value coursedata\" width=\"<%%rightcolumnratio%%"
+">\">\n"
+"            <%%goals%%>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <%endif %>\n"
+"    <%if %%showobjectives%% %>\n"
+"    <tr valign=\"top\">\n"
+"        <td class=\"custombox-param coursedata\" width=\"<%%leftcolumnratio%%"
+">\">\n"
+"            Acquisitions:\n"
+"        </td>\n"
+"        <td class=\"custombox-value coursedata\" width=\"<%%rightcolumnratio%%"
+">\">\n"
+"            <%%objectives%%>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <%endif %>\n"
+"    <%if %%showconcepts%% %>\n"
+"    <tr valign=\"top\">\n"
+"        <td class=\"custombox-param coursedata\" width=\"<%%leftcolumnratio%%"
+">\">\n"
+"            Concepts:\n"
+"        </td>\n"
+"        <td class=\"custombox-value coursedata\" width=\"<%%rightcolumnratio%%"
+">\">\n"
+"            <%%concepts%%>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <%endif %>\n"
+"    <%if %%showduration%% %>\n"
+"    <tr valign=\"top\">\n"
+"        <td class=\"custombox-param coursedata\" width=\"<%%leftcolumnratio%%"
+">\">\n"
+"            Duration:\n"
+"        </td>\n"
+"        <td class=\"custombox-value coursedata\" width=\"<%%rightcolumnratio%%"
+">\">\n"
+"            <%%duration%%>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <%endif %>\n"
+"    <%if %%showteachingorganization%% %>\n"
+"    <tr valign=\"top\">\n"
+"        <td class=\"custombox-param coursedata\" width=\"<%%leftcolumnratio%%"
+">\">\n"
+"            Teaching organization:\n"
+"        </td>\n"
+"        <td class=\"custombox-value coursedata\" width=\"<%%rightcolumnratio%%"
+">\">\n"
+"            <%%teachingorganization%%>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <%endif %>\n"
+"    <%if %%showprerequisites%% %>\n"
+"    <tr valign=\"top\">\n"
+"        <td class=\"custombox-param coursedata\" width=\"<%%leftcolumnratio%%"
+">\">\n"
+"            Prerequisites:\n"
+"        </td>\n"
+"        <td class=\"custombox-value coursedata\" width=\"<%%rightcolumnratio%%"
+">\">\n"
+"            <%%prerequisites%%>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <%endif %>\n"
+"    <%if %%showfollowers%% %>\n"
+"    <tr valign=\"top\">\n"
+"        <td class=\"custombox-param coursedata\" width=\"<%%leftcolumnratio%%"
+">\">\n"
+"            Following courses:\n"
+"        </td>\n"
+"        <td class=\"custombox-value coursedata\" width=\"<%%rightcolumnratio%%"
+">\">\n"
+"            <%%followers%%>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <%endif %>\n"
+"</table>"
+msgstr ""
+
+#: $string['typename']
+msgid "Course information"
+msgstr "Πληροφορίες μαθήματος"

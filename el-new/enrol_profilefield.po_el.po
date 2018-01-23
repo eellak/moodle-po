@@ -1,0 +1,202 @@
+#. extracted from lang/en/enrol_profilefield.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'enrol_profilefield', language 'en', branch 'MOODLE_24_STABLE'
+#.  *
+#.  * @package   enrol_profilefield
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['assignrole']
+msgid "Assign role"
+msgstr ""
+
+#: $string['badprofile']
+msgid ""
+"You may be disapointed, but your profile information forbids you enrolling "
+"in this course. However, if you have a good reason to be here, please "
+"contact an administrator who will alter your profile consequently."
+msgstr ""
+
+#: $string['course']
+msgid "Course : $a"
+msgstr ""
+
+#: $string['defaultnotification']
+msgid ""
+"Dear <%%TEACHER%%>,\n"
+"\n"
+"the new user <%%USERNAME%%> has enrolled himself (profile agreed) in your "
+"course <%%COURSE%%>.\n"
+"\n"
+"You can check his profile <a href=\"<%%URL%%>\">here</a> after loggin in."
+msgstr ""
+
+#: $string['enrolenddate']
+msgid "End date"
+msgstr ""
+
+#: $string['enrolenddate_help']
+msgid "If enabled, users can be enrolled until this date only."
+msgstr ""
+
+#: $string['enrolenddaterror']
+msgid "Enrolment end date cannot be earlier than start date"
+msgstr ""
+
+#: $string['enrolme']
+msgid "Enrol me in the course"
+msgstr ""
+
+#: $string['enrolmentconfirmation']
+msgid ""
+"Be welcome. Your profile information allows you to enroll in this course. "
+"Proceed ?"
+msgstr ""
+
+#: $string['enrolname']
+msgctxt "$string['enrolname']"
+msgid "Profile Field Enrolment"
+msgstr ""
+
+#: $string['enrolperiod']
+msgid "Enrolment duration"
+msgstr ""
+
+#: $string['enrolperiod_desc']
+msgid ""
+"Default length of time that the enrolment is valid (in seconds). If set to "
+"zero, the enrolment duration will be unlimited by default."
+msgstr ""
+
+#: $string['enrolperiod_help']
+msgid ""
+"Length of time that the enrolment is valid, starting with the moment the "
+"user is enrolled. If disabled, the enrolment duration will be unlimited."
+msgstr ""
+
+#: $string['enrol/profilefield:unenrolself']
+msgid "Can unenrol self from course"
+msgstr ""
+
+#: $string['enrolstartdate']
+msgid "Start date"
+msgstr ""
+
+#: $string['enrolstartdate_help']
+msgid "If enabled, users can be enrolled from this date onward only."
+msgstr ""
+
+#: $string['grouppassword']
+msgid "Password to enter a group, if it is known."
+msgstr ""
+
+#: $string['newcourseenrol']
+msgid "A new participant has enrolled in course {$a}"
+msgstr ""
+
+#: $string['nonexistantprofilefielderror']
+msgid "This field is not defined in user profile extensions"
+msgstr ""
+
+#: $string['notificationtext']
+msgid "Notification template"
+msgstr ""
+
+#: $string['notificationtext_help']
+msgid ""
+"The content of the mail can be written here, using &lt;%%USERNAME%%&gt;, "
+"&lt;%%COURSE%%&gt;, &lt;%%URL%%&gt; and &lt;%%TEACHER%%&gt; placeholders. "
+"Note that any multilanguage span tag will be processed based on the actual "
+"language of the recipient."
+msgstr ""
+
+#: $string['notifymanagers']
+msgid "Notify managers?"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Profile Field Enrolment"
+msgstr ""
+
+#: $string['pluginname_desc']
+msgid ""
+"This method allows direct enrolment in course if user has a profile field "
+"set to the expected value"
+msgstr ""
+
+#: $string['profilefield']
+msgid "User profile field"
+msgstr ""
+
+#: $string['profilefield:config']
+msgid "Can configure the enrolment instance"
+msgstr ""
+
+#: $string['profilefield_desc']
+msgid "A pointer to a custom user field"
+msgstr ""
+
+#: $string['profilefield:enrol']
+msgid "Can enrol using profile field method"
+msgstr ""
+
+#: $string['profilefield:manage']
+msgid "Can manage enrolments on profile fields"
+msgstr ""
+
+#: $string['profilefield:unenrol']
+msgid "Can unenrol people enrolled on profile fields"
+msgstr ""
+
+#: $string['profilefield:unenrolself']
+msgid "Can unenrol self when enrolled on profile fields"
+msgstr ""
+
+#: $string['profilevalue']
+msgid "Expected value"
+msgstr ""
+
+#: $string['profilevalue_desc']
+msgctxt "$string['profilevalue_desc']"
+msgid ""
+msgstr ""
+
+#: $string['status']
+msgid "Allow using profile to enrol"
+msgstr ""
+
+#: $string['unenrolself']
+msgid "Unenroll from course \"{$a}\"?"
+msgstr ""
+
+#: $string['unenrolselfconfirm']
+msgid "Do you really want to unenrol yourself from course \"{$a}\"?"
+msgstr ""

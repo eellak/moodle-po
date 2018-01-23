@@ -1,0 +1,2438 @@
+#. extracted from lang/en/facetoface.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'facetoface', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   facetoface
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addingsession']
+msgid "Adding a new session in {$a}"
+msgstr ""
+
+#: $string['addmanageremailaddress']
+msgid "Add manager email address"
+msgstr ""
+
+#: $string['addmanageremailinstruction']
+msgid ""
+"You have not previously entered your manager's email address. Please enter "
+"it below to sign-up for this session."
+msgstr ""
+
+#: $string['addnewfield']
+msgid "Add a new custom field"
+msgstr ""
+
+#: $string['addnewfieldlink']
+msgid "Create a new custom field"
+msgstr ""
+
+#: $string['addnewnotice']
+msgid "Add a new site notice"
+msgstr ""
+
+#: $string['addnewnoticelink']
+msgid "Create a new site notice"
+msgstr ""
+
+#: $string['addremoveattendees']
+msgid "Add/remove attendees"
+msgstr ""
+
+#: $string['addsession']
+msgid "Add a new session"
+msgstr ""
+
+#: $string['addstudent']
+msgid "Add student"
+msgstr ""
+
+#: $string['alllocations']
+msgid "All locations"
+msgstr ""
+
+#: $string['allowcancellations']
+msgid "Allow sign-up cancellations"
+msgstr ""
+
+#: $string['allowcancellationsdefault']
+msgid "Allow sign-up cancellations default"
+msgstr ""
+
+#: $string['allowcancellationsdefault_help']
+msgid ""
+"If checked, the default setting, when creating new sessions for this "
+"activity, will be to allow sign-up cancellations"
+msgstr ""
+
+#: $string['allowcancellations_help']
+msgid "If checked, session attendees will be able to cancel their signups"
+msgstr ""
+
+#: $string['allowoverbook']
+msgid "Allow overbooking"
+msgstr ""
+
+#: $string['allowoverbook_help']
+msgid ""
+"When \"Allow overbooking\" is checked, learners will be able to sign up for a "
+"Face-to-Face session even if it is already full.<br />\n"
+"\n"
+"When a learner signs up for a session that is already full, they will "
+"receive an email advising that they have been waitlisted for the session and "
+"will be notified when a booking becomes available."
+msgstr ""
+
+#: $string['allsessionsin']
+msgid "All sessions in {$a}"
+msgstr ""
+
+#: $string['alreadysignedup']
+msgid "You have already signed-up for this Face-to-Face activity."
+msgstr ""
+
+#: $string['answer']
+msgid "Sign in"
+msgstr ""
+
+#: $string['answercancel']
+msgid "Sign out"
+msgstr ""
+
+#: $string['approvalreqd']
+msgid "Approval required"
+msgstr ""
+
+#: $string['approvalreqd_help']
+msgid ""
+"When \"Approval required\" is checked, a learner will need approval from their "
+"manager to be permitted to attend a Face-to-Face session."
+msgstr ""
+
+#: $string['approve']
+msgid "Approve"
+msgstr ""
+
+#: $string['assessmentyour']
+msgid "Your assessment"
+msgstr ""
+
+#: $string['attendance']
+msgid "Attendance"
+msgstr ""
+
+#: $string['attendanceinstructions']
+msgid "Select users who attended the session:"
+msgstr ""
+
+#: $string['attendedsession']
+msgid "Attended session"
+msgstr ""
+
+#: $string['attendees']
+msgid "Attendees"
+msgstr ""
+
+#: $string['attendeestablesummary']
+msgid "People planning on or having attended this session."
+msgstr ""
+
+#: $string['booked']
+msgctxt "$string['booked']"
+msgid "Booked"
+msgstr ""
+
+#: $string['bookingcancelled']
+msgid "Your booking has been cancelled."
+msgstr ""
+
+#: $string['bookingcompleted']
+msgid "Your booking has been completed."
+msgstr ""
+
+#: $string['bookingfull']
+msgid "Booking full"
+msgstr ""
+
+#: $string['bookingopen']
+msgid "Booking open"
+msgstr ""
+
+#: $string['bookingstatus']
+msgctxt "$string['bookingstatus']"
+msgid "You are booked for the following session"
+msgstr ""
+
+#: $string['calendareventdescriptionbooking']
+msgid "You are booked for this <a href=\"{$a}\">Face-to-Face session</a>."
+msgstr ""
+
+#: $string['calendareventdescriptionsession']
+msgid "You have created this <a href=\"{$a}\">Face-to-Face session</a>."
+msgstr ""
+
+#: $string['calendaroptions']
+msgid "Calendar options"
+msgstr ""
+
+#: $string['cancelbooking']
+msgid "Cancel booking"
+msgstr ""
+
+#: $string['cancelbookingfor']
+msgid "Cancel booking for {$a}"
+msgstr ""
+
+#: $string['cancellation']
+msgid "Cancellation"
+msgstr ""
+
+#: $string['cancellationconfirm']
+msgid "Are you sure you want to cancel your booking to this session?"
+msgstr ""
+
+#: $string['cancellationinstrmngr']
+msgctxt "$string['cancellationinstrmngr']"
+msgid "# Notice for manager"
+msgstr ""
+
+#: $string['cancellationinstrmngr_help']
+msgid ""
+"When **Send notice to manager** is checked, the text in the **Notice for "
+"manager** field is sent to a learner's manager advising that they have "
+"cancelled a Face-to-Face booking."
+msgstr ""
+
+#: $string['cancellationmessage']
+msgctxt "$string['cancellationmessage']"
+msgid "Cancellation message"
+msgstr ""
+
+#: $string['cancellationmessage_help']
+msgid ""
+"This message is sent out whenever users cancel their booking for a session."
+msgstr ""
+
+#: $string['cancellations']
+msgid "Cancellations"
+msgstr ""
+
+#: $string['cancellationsent']
+msgid "You should immediately receive a cancellation email."
+msgstr ""
+
+#: $string['cancellationsentmgr']
+msgid "You and your manager should immediately receive a cancellation email."
+msgstr ""
+
+#: $string['cancellationstablesummary']
+msgid "List of people who have cancelled their session signups."
+msgstr ""
+
+#: $string['cancelreason']
+msgid "Reason"
+msgstr ""
+
+#: $string['cannotapproveatcapacity']
+msgid "You cannot approve any more attendees as this session is full."
+msgstr ""
+
+#: $string['cannotsignupsessioninprogress']
+msgid "You cannot sign up, this session is in progress"
+msgstr "Δεν είναι δυνατή η εγγραφή, αυτή η συνεδρία είναι σε εξέλιξη"
+
+#: $string['cannotsignupsessionover']
+#, fuzzy
+msgid "You cannot sign up, this session is over."
+msgstr "Δεν είναι δυνατή η εγγραφή, αυτή η συνεδρία είναι σε εξέλιξη"
+
+#: $string['capacity']
+msgid "Capacity"
+msgstr ""
+
+#: $string['capacity_help']
+msgid ""
+"**Capacity** is the number of seats available in a session.\n"
+"\n"
+"When a face-to-Face session reaches capacity the session details do not "
+"appear on the course page. The details will appear greyed out on the 'View "
+"all sessions' page and the learner cannot enrol on the session.\n"
+"&nbsp;"
+msgstr ""
+
+#: $string['changemanageremailaddress']
+msgid "Change manager email address"
+msgstr ""
+
+#: $string['changemanageremailinstruction']
+msgid "Please enter the email address for your current manager below."
+msgstr ""
+
+#: $string['clearall']
+msgid "Clear all"
+msgstr ""
+
+#: $string['closed']
+msgid "Closed"
+msgstr ""
+
+#: $string['conditions']
+msgid "Conditions"
+msgstr ""
+
+#: $string['conditionsexplanation']
+msgid ""
+"All of these criteria must be met for the notice to be shown on the training "
+"calendar:"
+msgstr ""
+
+#: $string['confirm']
+msgid "Confirm"
+msgstr ""
+
+#: $string['confirmanager']
+msgid "Confirm manager's email address"
+msgstr ""
+
+#: $string['confirmation']
+msgid "Confirmation"
+msgstr ""
+
+#: $string['confirmationinstrmngr']
+msgctxt "$string['confirmationinstrmngr']"
+msgid "# Notice for manager"
+msgstr ""
+
+#: $string['confirmationinstrmngr_help']
+msgid ""
+"When \"Send notice to manager\" is checked, the text in the \"Notice for "
+"manager\" field is sent to a manager advising that a staff member has signed "
+"up for a Face-to-Face session."
+msgstr ""
+
+#: $string['confirmationmessage']
+msgctxt "$string['confirmationmessage']"
+msgid "Confirmation message"
+msgstr ""
+
+#: $string['confirmationmessage_help']
+msgid "This message is sent out whenever users sign up for a session."
+msgstr ""
+
+#: $string['confirmationsent']
+msgid "You should immediately receive a confirmation email."
+msgstr ""
+
+#: $string['confirmationsentmgr']
+msgid "You and your manager should immediately receive a confirmation email."
+msgstr ""
+
+#: $string['confirmmanageremailaddress']
+msgid "Confirm manager email address"
+msgstr ""
+
+#: $string['confirmmanageremailaddressquestion']
+msgid "Is <b>{$a}</b> still your manager's email address?"
+msgstr ""
+
+#: $string['confirmmanageremailinstruction1']
+msgid "You previously entered the following as your manager's email address:"
+msgstr ""
+
+#: $string['confirmmanageremailinstruction2']
+msgid "Is this still your manager's email address?"
+msgstr ""
+
+#: $string['continuetologin']
+msgid "Click continue to login"
+msgstr ""
+
+#: $string['copy']
+msgid "Copy"
+msgstr ""
+
+#: $string['copyingsession']
+msgid "Copying as a new session in {$a}"
+msgstr ""
+
+#: $string['copysession']
+msgid "Copy session"
+msgstr ""
+
+#: $string['cost']
+msgid "Cost"
+msgstr ""
+
+#: $string['costheading']
+msgid "Session Cost"
+msgstr ""
+
+#: $string['crontask']
+msgid "Face-to-Face maintenance jobs"
+msgstr ""
+
+#: $string['currentstatus']
+msgid "Current status"
+msgstr ""
+
+#: $string['customfieldsheading']
+msgid "Custom Session Fields"
+msgstr ""
+
+#: $string['date']
+msgid "Date"
+msgstr ""
+
+#: $string['dateadd']
+msgid "Add a new date"
+msgstr ""
+
+#: $string['dateremove']
+msgid "Remove this date"
+msgstr ""
+
+#: $string['datesignedup']
+msgid "Date Signed Up"
+msgstr ""
+
+#: $string['datetext']
+msgid "You are signed in for date"
+msgstr ""
+
+#: $string['datetimeknownhinttext']
+msgctxt "$string['datetimeknownhinttext']"
+msgid ""
+msgstr ""
+
+#: $string['decidelater']
+msgid "Decide Later"
+msgstr ""
+
+#: $string['decline']
+msgid "Decline"
+msgstr ""
+
+#: $string['delete']
+msgid "Delete"
+msgstr ""
+
+#: $string['deleteall']
+msgid "Delete all"
+msgstr ""
+
+#: $string['deletesession']
+msgid "Delete session"
+msgstr ""
+
+#: $string['deletesessionconfirm']
+msgid ""
+"Are you completely sure you want to delete this session and all sign-ups for "
+"this session?"
+msgstr ""
+
+#: $string['deletingsession']
+msgid "Deleting session in {$a}"
+msgstr ""
+
+#: $string['description']
+msgid "Introduction text"
+msgstr ""
+
+#: $string['description_help']
+msgid ""
+"**Description** is the course description that displays when a learner "
+"enrols on a Face-to-Face session.\n"
+"\n"
+"The **Description** also displays in the training calendar."
+msgstr ""
+
+#: $string['details']
+msgid "Details"
+msgstr ""
+
+#: $string['details_help']
+msgid ""
+"Details are tracked per session basis.\n"
+"If text is populated in the details field, the details text will be "
+"displayed on the user signup page.\n"
+"By default, the details text also appears in the confirmation, reminder, "
+"waitlist and cancellation email messages."
+msgstr ""
+
+#: $string['discountcode']
+msgid "Discount code"
+msgstr ""
+
+#: $string['discountcode_help']
+msgid ""
+"Discount code is the code required for the discount cost to be tracked for "
+"the training of a staff member.\n"
+"If the staff member does not enter the discount code, the normal cost "
+"appears in the training record."
+msgstr ""
+
+#: $string['discountcodelearner']
+msgid "Discount Code"
+msgstr ""
+
+#: $string['discountcodelearner_help']
+msgid ""
+"If you know the discount code enter it here. If you leave this field blank "
+"you will be charged the normal cost for this event"
+msgstr ""
+
+#: $string['discountcost']
+msgid "Discount cost"
+msgstr ""
+
+#: $string['discountcost_help']
+msgid ""
+"Discount cost is the dollar amount charged to staff members who have a "
+"membership id.\n"
+"If a staff member enters a membership id when signing-up for a session, the "
+"discount cost will appear in the cost column in the course's gradebook."
+msgstr ""
+
+#: $string['discountcosthinttext']
+msgctxt "$string['discountcosthinttext']"
+msgid ""
+msgstr ""
+
+#: $string['due']
+msgid "due"
+msgstr ""
+
+#: $string['duration']
+msgid "Duration"
+msgstr "Διάρκεια"
+
+#: $string['duration_help']
+msgid ""
+"**Duration** is the total length of the training in hours.\n"
+"For example:\n"
+"* \"2 hours\" is enters as **2** or **2:00**\n"
+"* \"1 hour and 30 minutes\" is entered as **1:30**\n"
+"* \"45 minutes\" is entered as **0:45**\n"
+"* \"20 minutes\" is entered as **0:20**.\n"
+"\n"
+"If the training occurs over two or more time periods, the duration is the "
+"combined total."
+msgstr ""
+
+#: $string['early']
+msgid "{$a} early"
+msgstr ""
+
+#: $string['edit']
+msgid "Edit"
+msgstr ""
+
+#: $string['editingsession']
+msgid "Editing session in {$a}"
+msgstr ""
+
+#: $string['editsession']
+msgid "Edit session"
+msgstr ""
+
+#: $string['email:instrmngr']
+msgid "Notice for manager"
+msgstr ""
+
+#: $string['emailmanager']
+msgid "Send notice to manager"
+msgstr ""
+
+#: $string['emailmanagercancellation']
+msgctxt "$string['emailmanagercancellation']"
+msgid "# Send notice to manager"
+msgstr ""
+
+#: $string['emailmanagercancellation_help']
+msgid ""
+"When \"Send notice to manager\" is checked, an email will be sent to the "
+"learner's manager advising them that the Face-to-Face booking has been "
+"cancelled."
+msgstr ""
+
+#: $string['emailmanagerconfirmation']
+msgctxt "$string['emailmanagerconfirmation']"
+msgid "# Send notice to manager"
+msgstr ""
+
+#: $string['emailmanagerconfirmation_help']
+msgid ""
+"When \"Send notice to manager\" is checked, a confirmation email will be sent "
+"to the learner's manager when the learner signs up for a Face-to-Face "
+"session."
+msgstr ""
+
+#: $string['emailmanagerreminder']
+msgctxt "$string['emailmanagerreminder']"
+msgid "# Send notice to manager"
+msgstr ""
+
+#: $string['emailmanagerreminder_help']
+msgid ""
+"When \"Send notice to manager\" is checked, a reminder message will be sent to "
+"the learner's manager a few days before the start date of the Face-to-Face "
+"session."
+msgstr ""
+
+#: $string['email:message']
+msgid "Message"
+msgstr ""
+
+#: $string['email:subject']
+msgid "Subject"
+msgstr ""
+
+#: $string['emptylocation']
+msgid "Location was empty"
+msgstr ""
+
+#: $string['enrolled']
+msgid "enrolled"
+msgstr ""
+
+#: $string['error:addalreadysignedupattendee']
+msgid "{$a} is already signed-up for this Face-to-Face activity."
+msgstr ""
+
+#: $string['error:addattendee']
+msgid "Could not add {$a} to the session."
+msgstr ""
+
+#: $string['error:cancelbooking']
+msgid "There was a problem cancelling your booking"
+msgstr ""
+
+#: $string['error:cancellationsnotallowed']
+msgid "You are not allowed to cancel this sign-up."
+msgstr ""
+
+#: $string['error:cannotemailmanager']
+msgid ""
+"Sent reminder mail for submission id {$a->submissionid} to user "
+"{$a->userid}, but could not send the message for the user's manager email "
+"address ({$a->manageremail})."
+msgstr ""
+
+#: $string['error:cannotemailuser']
+msgid ""
+"Could not send out mail for submission id {$a->submissionid} to user "
+"{$a->userid} ({$a->useremail})."
+msgstr ""
+
+#: $string['error:cannotsendconfirmationmanager']
+msgid ""
+"A confirmation message was sent to your email account, but there was a "
+"problem sending the confirmation messsage to your manager's email address."
+msgstr ""
+
+#: $string['error:cannotsendconfirmationthirdparty']
+msgid ""
+"A confirmation message was sent to your email account and your manager's "
+"email account, but there was a problem sending the confirmation messsage to "
+"the third party's email address."
+msgstr ""
+
+#: $string['error:cannotsendconfirmationuser']
+msgid ""
+"There was a problem sending the confirmation message to your email account."
+msgstr ""
+
+#: $string['error:cannotsendconfirmationusermanager']
+msgid ""
+"A confirmation message could not be sent to your email address and to your "
+"manager's email address."
+msgstr ""
+
+#: $string['error:cannotsendrequestmanager']
+msgid ""
+"There was a problem sending the signup request message to your manager's "
+"email account."
+msgstr ""
+
+#: $string['error:cannotsendrequestuser']
+msgid ""
+"There was a problem sending the signup request message to your email "
+"account."
+msgstr ""
+
+#: $string['error:canttakeattendanceforunstartedsession']
+msgid "Can not take attendance for a session that has yet to start."
+msgstr ""
+
+#: $string['error:couldnotaddfield']
+msgid "Could not add custom session field."
+msgstr ""
+
+#: $string['error:couldnotaddnotice']
+msgid "Could not add site notice."
+msgstr ""
+
+#: $string['error:couldnotaddsession']
+msgid "Could not add session"
+msgstr ""
+
+#: $string['error:couldnotaddtrainer']
+msgid "Could not save new Face-to-Face session trainer"
+msgstr ""
+
+#: $string['error:couldnotcopysession']
+msgid "Could not copy session"
+msgstr ""
+
+#: $string['error:couldnotdeletefield']
+msgid "Could not delete custom session field"
+msgstr ""
+
+#: $string['error:couldnotdeletenotice']
+msgid "Could not delete site notice"
+msgstr ""
+
+#: $string['error:couldnotdeletesession']
+msgid "Could not delete session"
+msgstr ""
+
+#: $string['error:couldnotdeletetrainer']
+msgid "Could not delete a Face-to-Face session trainer"
+msgstr ""
+
+#: $string['error:couldnotfindsession']
+msgid "Could not find the newly inserted session"
+msgstr ""
+
+#: $string['error:couldnotsavecustomfield']
+msgid "Could not save custom field"
+msgstr ""
+
+#: $string['error:couldnotupdatecalendar']
+msgid "Could not update session event in the calendar."
+msgstr ""
+
+#: $string['error:couldnotupdatef2frecord']
+msgid "Could not update Face-to-Face signup record in database"
+msgstr ""
+
+#: $string['error:couldnotupdatefield']
+msgid "Could not update custom session field."
+msgstr ""
+
+#: $string['error:couldnotupdatemanageremail']
+msgid "Could not update manager email address."
+msgstr ""
+
+#: $string['error:couldnotupdatenotice']
+msgid "Could not update site notice."
+msgstr ""
+
+#: $string['error:couldnotupdatesession']
+msgid "Could not update session"
+msgstr ""
+
+#: $string['error:coursemisconfigured']
+msgid "Course is misconfigured"
+msgstr ""
+
+#: $string['error:cronprefix']
+msgid "Error: Face-to-Face cron:"
+msgstr ""
+
+#: $string['error:emptylocation']
+msgid "Location was empty."
+msgstr ""
+
+#: $string['error:emptymanageremail']
+msgid "Manager email address empty."
+msgstr ""
+
+#: $string['error:emptyvenue']
+msgid "Venue was empty."
+msgstr ""
+
+#: $string['error:enrolmentfailed']
+msgid "Could not enrol {$a} into the course."
+msgstr ""
+
+#: $string['error:eventoccurred']
+msgid "You cannot cancel an event that has already occurred."
+msgstr ""
+
+#: $string['error:f2ffailedupdatestatus']
+msgid "Face-to-Face failed to update the user's status"
+msgstr ""
+
+#: $string['error:fieldidincorrect']
+msgid "Field ID is incorrect: {$a}"
+msgstr ""
+
+#: $string['error:incorrectcoursemodule']
+msgid "Course module is incorrect"
+msgstr ""
+
+#: $string['error:incorrectcoursemoduleid']
+msgid "Course Module ID was incorrect"
+msgstr ""
+
+#: $string['error:incorrectcoursemodulesession']
+msgid "Course Module Face-to-Face Session was incorrect"
+msgstr ""
+
+#: $string['error:incorrectfacetofaceid']
+msgid "Face-to-Face ID was incorrect"
+msgstr ""
+
+#: $string['error:incorrectnotificationtype']
+msgid "Incorrect notification type supplied"
+msgstr ""
+
+#: $string['error:invaliduserid']
+msgid "Invalid user ID"
+msgstr ""
+
+#: $string['error:manageremailaddressmissing']
+msgid ""
+"You are currently not assigned to a manager in the system. Please contact "
+"the site administrator."
+msgstr ""
+
+#: $string['error:mustspecifycoursemodulefacetoface']
+msgid "Must specify a course module or a Face-to-Face ID"
+msgstr ""
+
+#: $string['error:nomanageremail']
+msgid "You didn't provide an email address for your manager"
+msgstr ""
+
+#: $string['error:nomanagersemailset']
+msgid "No manager email is set"
+msgstr ""
+
+#: $string['error:nopermissiontosignup']
+msgid "You don't have permission to signup to this Face-to-Face session."
+msgstr ""
+
+#: $string['error:noticeidincorrect']
+msgid "Notice ID is incorrect: {$a}"
+msgstr ""
+
+#: $string['error:problemsigningup']
+msgid "There was a problem signing you up."
+msgstr ""
+
+#: $string['error:removeattendee']
+msgid "Could not remove {$a} from the session."
+msgstr ""
+
+#: $string['error:sessionstartafterend']
+msgid "Session start date/time is after end."
+msgstr ""
+
+#: $string['error:shortnametaken']
+msgid "Custom field with this short name already exists."
+msgstr ""
+
+#: $string['error:signedupinothersession']
+msgid ""
+"You are already signed up in another session for this activity. You can only "
+"sign up for one session per Face-to-Face activity."
+msgstr ""
+
+#: $string['error:unknownbuttonclicked']
+msgid "No action associated with the button that was clicked"
+msgstr ""
+
+#: $string['eventaddsession']
+msgid "Session added"
+msgstr ""
+
+#: $string['eventaddsessionfailed']
+msgid "Session add (FAILED)"
+msgstr ""
+
+#: $string['eventapproverequests']
+msgid "Session approve requests"
+msgstr ""
+
+#: $string['eventattendancetaken']
+msgid "Session attendance taken"
+msgstr ""
+
+#: $string['eventattendeesviewed']
+msgid "Session attendees viewed"
+msgstr ""
+
+#: $string['eventcancelbooking']
+msgid "Session cancel booking"
+msgstr ""
+
+#: $string['eventcancelbookingfailed']
+msgid "Session cancel booking (FAILED)"
+msgstr ""
+
+#: $string['eventcoursef2fviewed']
+msgid "Course Face-to-Face instances viewed"
+msgstr ""
+
+#: $string['eventcoursemoduleviewed']
+msgid "Face-to-Face module instance viewed"
+msgstr ""
+
+#: $string['eventdeletesession']
+msgid "Session deleted"
+msgstr ""
+
+#: $string['eventdeletesessionfailed']
+msgid "Session delete (FAILED)"
+msgstr ""
+
+#: $string['eventsignup']
+msgid "Session signup"
+msgstr ""
+
+#: $string['eventsignupfailed']
+msgid "Session signup (FAILED)"
+msgstr ""
+
+#: $string['eventtakeattendancefailed']
+msgid "Session take attendance (FAILED)"
+msgstr ""
+
+#: $string['eventupdatemanageremailfailed']
+msgid "Update manager email (FAILED)"
+msgstr ""
+
+#: $string['eventupdatesession']
+msgid "Session updated"
+msgstr ""
+
+#: $string['eventupdatesessionfailed']
+msgid "Session update (FAILED)"
+msgstr ""
+
+#: $string['excelformat']
+msgid "Excel"
+msgstr ""
+
+#: $string['export']
+msgid "Export"
+msgstr "Εξαγωγή"
+
+#: $string['exportattendance']
+msgid "Export attendance"
+msgstr ""
+
+#: $string['exporttofile']
+msgid "Export to file"
+msgstr "Εξαγωγή σε αρχείο"
+
+#: $string['facetoface']
+msgctxt "$string['facetoface']"
+msgid "Face-to-Face"
+msgstr ""
+
+#: $string['facetoface:addattendees']
+msgid "Add attendees to a Face-to-Face session"
+msgstr ""
+
+#: $string['facetoface:addinstance']
+msgid "Add instance"
+msgstr ""
+
+#: $string['facetofacebooking']
+msgid "Face-to-Face booking"
+msgstr ""
+
+#: $string['facetoface:configurecancellation']
+msgid ""
+"Allow the configuration of sign-up cancellations, upon adding/editing a "
+"face-to-face activity."
+msgstr ""
+
+#: $string['facetoface:editsessions']
+msgid "Add, edit, copy and delete Face-to-Face sessions"
+msgstr ""
+
+#: $string['facetofacename']
+msgid "Face-to-Face name"
+msgstr ""
+
+#: $string['facetoface:overbook']
+msgid "Sign-up to full sessions."
+msgstr ""
+
+#: $string['facetoface:removeattendees']
+msgid "Remove attendees from a Face-to-Face session"
+msgstr ""
+
+#: $string['facetofacesession']
+msgid "Face-to-Face session"
+msgstr ""
+
+#: $string['facetoface:signup']
+msgid "Sign-up for a session"
+msgstr ""
+
+#: $string['facetoface:takeattendance']
+msgctxt "$string['facetoface:takeattendance']"
+msgid "Take attendance"
+msgstr ""
+
+#: $string['facetoface:view']
+msgid "View Face-to-Face activities and sessions"
+msgstr ""
+
+#: $string['facetoface:viewattendees']
+msgid "View attendance list and attendees"
+msgstr ""
+
+#: $string['facetoface:viewcancellations']
+msgid "View cancellations"
+msgstr ""
+
+#: $string['facetoface:viewemptyactivities']
+msgid "View empty Face-to-Face activities"
+msgstr ""
+
+#: $string['feedback']
+msgid "Feedback"
+msgstr ""
+
+#: $string['feedbackupdated']
+msgid "Feedback updated for \\{$a} people"
+msgstr ""
+
+#: $string['fielddeleteconfirm']
+msgid "Delete field '{$a}' and all session data associated with it?"
+msgstr ""
+
+#: $string['field:multiselect']
+msgid "Multiple selection"
+msgstr ""
+
+#: $string['field:select']
+msgid "Menu of choices"
+msgstr ""
+
+#: $string['field:text']
+msgid "Text"
+msgstr ""
+
+#: $string['floor']
+msgid "Floor"
+msgstr ""
+
+#: $string['format']
+msgid "Format"
+msgstr ""
+
+#: $string['full']
+msgid "Date is fully occupied"
+msgstr ""
+
+#: $string['goback']
+msgid "Go back"
+msgstr ""
+
+#: $string['guestsno']
+msgid "Sorry, guests are not allowed to sign up for sessions."
+msgstr ""
+
+#: $string['icalendarheading']
+msgid "iCalendar Attachments"
+msgstr ""
+
+#: $string['import']
+msgid "Import"
+msgstr ""
+
+#: $string['info']
+msgid "Info"
+msgstr ""
+
+#: $string['late']
+msgid "\\{$a} late"
+msgstr ""
+
+#: $string['location']
+msgid "Location"
+msgstr ""
+
+#: $string['location_help']
+msgid ""
+"**Location** describes the vicinity of the session (city, county, region, "
+"etc).\n"
+"\n"
+"**Location** displays on the course page, 'Sign-up page', the 'View all "
+"sessions' page, and in all email notifications.\n"
+"\n"
+"On the 'View all sessions' page, the listed sessions can be filtered by "
+"location."
+msgstr ""
+
+#: $string['lookfor']
+msgid "Search"
+msgstr ""
+
+#: $string['manageradded']
+msgid "Your manager's email address has been accepted."
+msgstr ""
+
+#: $string['managerchanged']
+msgid "Your manager's email address has been changed."
+msgstr ""
+
+#: $string['manageremail']
+msgid "Manager's email"
+msgstr ""
+
+#: $string['manageremailaddress']
+msgctxt "$string['manageremailaddress']"
+msgid "Manager's email address"
+msgstr ""
+
+#: $string['manageremailformat']
+msgid "The email address must be of the format '{$a}' to be accepted."
+msgstr ""
+
+#: $string['manageremailheading']
+msgid "Manager Emails"
+msgstr ""
+
+#: $string['manageremailinstruction']
+msgid ""
+"In order to sign-up for a training session, a confirmation email must be "
+"sent to your email address and copied to your manager's email address."
+msgstr ""
+
+#: $string['manageremailinstructionconfirm']
+msgid "Please confirm that this is your manager's email address:"
+msgstr ""
+
+#: $string['managername']
+msgid "Manager's name"
+msgstr ""
+
+#: $string['managerupdated']
+msgid "Your manager's email address has been updated."
+msgstr ""
+
+#: $string['maximumpoints']
+msgid "Maximum number of points"
+msgstr ""
+
+#: $string['maximumsize']
+msgid "Maximum number of attendees"
+msgstr ""
+
+#: $string['message']
+msgid ""
+"Change in booking in the course {$a->coursename}!\n"
+"\n"
+"There has been a free place in the session on {$a->duedate} ({$a->name}) in "
+"the course {$a->coursename}.\n"
+"You have been registered. If the date does not suit you anymore, please "
+"unregister at <a href='{$a->url}'>{$a->url}</a>."
+msgstr ""
+
+#: $string['mods_help']
+msgid ""
+"Face-to-Face activities are used to keep track of in-person trainings which "
+"require advance booking.\n"
+"\n"
+"Each activity is offered in one or more identical sessions. These sessions "
+"can be given over multiple days.\n"
+"\n"
+"Reminder messages are sent to users and their managers a few days before the "
+"session is scheduled to start. Confirmation messages are sent when users "
+"sign-up for a session or cancel."
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Face-to-Face"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"The Face-to-Face activity module enables a teacher to set up a voluntary "
+"booking system for one or many in-person/classroom based sessions.\n"
+"\n"
+"Each session within a Face-to-Face activity can have customised settings "
+"around location, venue, start time, finish time, cost, capacity, etc. These "
+"can be set to run over multiple days or to allow for unscheduled and "
+"waitlisted sessions.\n"
+"\n"
+"An Activity may be set to require manager approval and teachers can "
+"configure automated notifications and session reminders for attendees.\n"
+"\n"
+"Students can view and sign-up for sessions with their attendance tracked and "
+"recorded within the Grades area."
+msgstr ""
+
+#: $string['modulenameplural']
+msgctxt "$string['modulenameplural']"
+msgid "Face-to-Face"
+msgstr ""
+
+#: $string['moreinfo']
+msgid "More info"
+msgstr ""
+
+#: $string['multidate']
+msgid "(multi-date)"
+msgstr ""
+
+#: $string['newmanageremailaddress']
+msgctxt "$string['newmanageremailaddress']"
+msgid "Manager's email address"
+msgstr ""
+
+#: $string['noactionableunapprovedrequests']
+msgid "No actionable unapproved requests"
+msgstr ""
+
+#: $string['nocustomfields']
+msgid "<p>No custom fields are defined.</p>"
+msgstr ""
+
+#: $string['nofacetofaces']
+msgid "There are no Face-to-Face activities"
+msgstr ""
+
+#: $string['none']
+msgid "none"
+msgstr ""
+
+#: $string['noremindersneedtobesent']
+msgid "No reminders need to be sent."
+msgstr ""
+
+#: $string['normalcost']
+msgid "Normal cost"
+msgstr ""
+
+#: $string['normalcost_help']
+msgid ""
+"Normal cost is the dollar amount charged to staff members who do not have a "
+"membership id.\n"
+"\n"
+"The normal cost will appear in the cost column in the course's gradebook for "
+"each staff member who attends the session (unless a discount cost is "
+"entered and the staff member enters a membership id when signing of the "
+"session)."
+msgstr ""
+
+#: $string['normalcosthinttext']
+msgctxt "$string['normalcosthinttext']"
+msgid ""
+msgstr ""
+
+#: $string['nosignedupusers']
+msgid "No users have signed-up for this session."
+msgstr ""
+
+#: $string['nositenotices']
+msgid "<p>No site notices are defined.</p>"
+msgstr ""
+
+#: $string['note']
+msgid "Note"
+msgstr ""
+
+#: $string['notefull']
+msgid ""
+"Even if the Session is fully booked you can still register. You will be "
+"queued (marked in red). If someone signs out, the first student in the queue "
+"will be moved into registeres students and a notification will be sent to "
+"him/her by mail."
+msgstr ""
+
+#: $string['noticedeleteconfirm']
+msgid ""
+"Delete site notice '{$a->name}'?<br/><blockquote>{$a->text}</blockquote>"
+msgstr ""
+
+#: $string['noticetext']
+msgid "Notice text"
+msgstr ""
+
+#: $string['notificationboth']
+msgid "Email Notification and iCalendar Appointment"
+msgstr ""
+
+#: $string['notificationemail']
+msgid "Email Notification only"
+msgstr ""
+
+#: $string['notificationical']
+msgid "iCalendar Appointment only"
+msgstr ""
+
+#: $string['notificationtype']
+msgid "Notification Type"
+msgstr ""
+
+#: $string['notificationtype_help']
+msgid ""
+"Notification Type allows the learner to select how they would like to be "
+"notified of their booking.\n"
+"\n"
+"* iCalendar appointment only\n"
+"* Email notification only\n"
+"* Email notification and iCalendar appointment"
+msgstr ""
+
+#: $string['notsignedup']
+msgid "You are not signed up for this session."
+msgstr ""
+
+#: $string['notsubmittedyet']
+msgid "Not yet evaluated"
+msgstr ""
+
+#: $string['noupcoming']
+msgid "<p><i>No upcoming sessions</i></p>"
+msgstr ""
+
+#: $string['odsformat']
+msgid "OpenDocument"
+msgstr ""
+
+#: $string['onehour']
+msgid "1 hour"
+msgstr ""
+
+#: $string['oneminute']
+msgid "1 minute"
+msgstr ""
+
+#: $string['options']
+msgid "Options"
+msgstr ""
+
+#: $string['or']
+msgid "or"
+msgstr ""
+
+#: $string['order']
+msgid "Order"
+msgstr ""
+
+#: $string['place']
+msgctxt "$string['place']"
+msgid "Room"
+msgstr "Αίθουσα"
+
+#: $string['placeholder:alldates']
+msgid "[alldates]"
+msgstr ""
+
+#: $string['placeholder:attendeeslink']
+msgid "[attendeeslink]"
+msgstr ""
+
+#: $string['placeholder:cost']
+msgid "[cost]"
+msgstr ""
+
+#: $string['placeholder:details']
+msgid "[details]"
+msgstr ""
+
+#: $string['placeholder:duration']
+msgid "[duration]"
+msgstr "[διάρκεια]"
+
+#: $string['placeholder:facetofacename']
+msgid "[facetofacename]"
+msgstr ""
+
+#: $string['placeholder:finishtime']
+msgid "[finishtime]"
+msgstr ""
+
+#: $string['placeholder:firstname']
+msgid "[firstname]"
+msgstr ""
+
+#: $string['placeholder:lastname']
+msgid "[lastname]"
+msgstr ""
+
+#: $string['placeholder:reminderperiod']
+msgid "[reminderperiod]"
+msgstr ""
+
+#: $string['placeholder:sessiondate']
+msgid "[sessiondate]"
+msgstr ""
+
+#: $string['placeholder:starttime']
+msgid "[starttime]"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Face-to-Face administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Face-to-Face"
+msgstr ""
+
+#: $string['points']
+msgctxt "$string['points']"
+msgid "Points"
+msgstr ""
+
+#: $string['pointsplural']
+msgctxt "$string['pointsplural']"
+msgid "Points"
+msgstr ""
+
+#: $string['potentialattendees']
+msgid "Potential Attendees"
+msgstr ""
+
+#: $string['previoussessions']
+msgid "Previous sessions"
+msgstr ""
+
+#: $string['previoussessionslist']
+msgid "List of all past sessions for this Face-to-Face activity"
+msgstr ""
+
+#: $string['printversionid']
+msgid "Print version: without name"
+msgstr ""
+
+#: $string['printversionname']
+msgid "Print version: with name"
+msgstr ""
+
+#: $string['really']
+msgid "Do you really want to delete all results for this Face-to-Face?"
+msgstr ""
+
+#: $string['registeredon']
+msgid "Registered On"
+msgstr ""
+
+#: $string['registrations']
+msgid "Registrations"
+msgstr ""
+
+#: $string['reminder']
+msgid "Reminder"
+msgstr ""
+
+#: $string['reminderinstrmngr']
+msgid "# Notice for Manager"
+msgstr ""
+
+#: $string['reminderinstrmngr_help']
+msgid ""
+"When **Send notice to manager** is checked, the text in the **Notice for "
+"Manager** field is sent to a learner's manager advising that they have "
+"signed up for a Face-to-Face session."
+msgstr ""
+
+#: $string['remindermessage']
+msgctxt "$string['remindermessage']"
+msgid "Reminder message"
+msgstr ""
+
+#: $string['remindermessage_help']
+msgid "This message is sent out a few days before a session's start date."
+msgstr ""
+
+#: $string['reminderperiod']
+msgid "Days before message is sent"
+msgstr ""
+
+#: $string['reminderperiod_help']
+msgid ""
+"The reminder message will be sent this many days before the start of the "
+"session."
+msgstr ""
+
+#: $string['requestmessage']
+msgid "Request message"
+msgstr ""
+
+#: $string['requestmessage_help']
+msgid ""
+"When **Approval required** is enabled, the **Request message** section is "
+"available.\n"
+"\n"
+"The **Request message** section displays the notices sent to the learner and "
+"their manager regarding the approval process for the learner to attend the "
+"Face-to-Face session.\n"
+"\n"
+"**Subject:** is the subject line that appears on the request approval emails "
+"sent to the manager and the learner.\n"
+"\n"
+"**Message:** is the email text sent to the learner advising them that their "
+"request to attend the Face-to-Face session has been sent to their manager "
+"for approval.\n"
+"\n"
+"**Notice for manager:** is the email text sent to the learner's manager "
+"requesting approval to attend the Face-to-Face session."
+msgstr ""
+
+#: $string['requeststablesummary']
+msgid "People requesting to attended this session."
+msgstr ""
+
+#: $string['room']
+msgctxt "$string['room']"
+msgid "Room"
+msgstr "Αίθουσα"
+
+#: $string['room_help']
+msgid ""
+"**Room** is the name/number/identifier of the room being used for the "
+"training session.\n"
+"\n"
+"The **Room** displays on the 'Sign-up' page, the 'View all sessions' page "
+"and in all email notifications."
+msgstr ""
+
+#: $string['saveallfeedback']
+msgid "Save all responses"
+msgstr ""
+
+#: $string['saveattendance']
+msgid "Save attendance"
+msgstr ""
+
+#: $string['scheduledsession']
+msgid "Scheduled session"
+msgstr ""
+
+#: $string['scheduledsessions']
+msgid "Scheduled sessions"
+msgstr ""
+
+#: $string['search:activity']
+msgid "Facetoface activities"
+msgstr ""
+
+#: $string['seatsavailable']
+msgid "Seats available"
+msgstr ""
+
+#: $string['seeattendees']
+msgid "See attendees"
+msgstr ""
+
+#: $string['sentremindermanager']
+msgid "Sent reminder email to user manager"
+msgstr ""
+
+#: $string['sentreminderuser']
+msgid "Sent reminder email to user"
+msgstr ""
+
+#: $string['sessiondate']
+msgid "Session date is the date on which the session occurs."
+msgstr ""
+
+#: $string['sessiondatetime']
+msgid "Session date/time"
+msgstr ""
+
+#: $string['sessiondatetimeknown']
+msgid "Session date/time known"
+msgstr ""
+
+#: $string['sessiondatetimeknown_help']
+msgid ""
+"**If a session's date/time is known**\n"
+"\n"
+"If \"Yes\" is entered for this setting, the session date and time will be "
+"displayed on the course page (if the session is upcoming and available), the "
+"\"View all sessions page\", the session sign-up page, as well as all email "
+"notifications related to the session.\n"
+"\n"
+"When a staff member signs up for a session with a known date and time:\n"
+"\n"
+"* The staff member and the staff member's manager will be sent a "
+"confirmation email (i.e., the one formatted per the \"Confirmation message\" "
+"section of the Face-to-Face instance's settings).\n"
+"* The staff member will be sent a reminder email message (i.e., the one "
+"formatted per the \"Reminder message\" section of the Face-to-Face instance's "
+"settings). The reminder will be sent a number of days before the session, "
+"according to the \"Days before message is sent\" setting also found in the "
+"\"Reminder message\" section of the Face-to-Face instance's settings.\n"
+"\n"
+"**If a session's date/time is not known (or wait-listed)**\n"
+"\n"
+"If \"No\" is entered for this setting, the text \"wait-listed\" will be "
+"displayed on the course page, the \"View all sessions page\", the session "
+"sign-up page, as well as all email notifications related to the session.\n"
+"\n"
+"When a staff member signs up for a wait-listed session:\n"
+"\n"
+"* The staff member will be sent a confirmation email (i.e. the one formatted "
+"per the \"Wait-listed message\" section of the Face-to-Face instance's "
+"settings).\n"
+"* The staff member will not be sent a reminder email message.\n"
+"* The staff member's manager will not be sent confirmation and cancellation "
+"email messages."
+msgstr ""
+
+#: $string['sessionfinishtime']
+msgid "Session finish time"
+msgstr ""
+
+#: $string['sessioninprogress']
+msgid "session in progress"
+msgstr "συνεδρία σε εξέλιξη"
+
+#: $string['sessionisfull']
+msgid ""
+"This session is now full. You will need to pick another time or talk to the "
+"instructor."
+msgstr ""
+
+#: $string['sessionover']
+msgid "session over"
+msgstr ""
+
+#: $string['sessionrequiresmanagerapproval']
+msgid "This session requires manager approval to book."
+msgstr ""
+
+#: $string['sessionroles']
+msgid "Session roles"
+msgstr ""
+
+#: $string['sessions']
+msgid "Sessions"
+msgstr ""
+
+#: $string['sessionsdetailstablesummary']
+msgid "Full description of the current session."
+msgstr ""
+
+#: $string['sessionsoncoursepage']
+msgid "Sessions displayed on course page"
+msgstr ""
+
+#: $string['sessionsoncoursepage_help']
+msgid ""
+"This is the number of sessions for each Face-to-Face activity that will be "
+"shown on the main course page."
+msgstr ""
+
+#: $string['sessionstartdate']
+msgid "Session start date"
+msgstr ""
+
+#: $string['sessionstartdateandtime']
+msgid ""
+"{$a->startdate}, {$a->starttime} - {$a->endtime} (time zone: {$a->timezone})"
+msgstr ""
+
+#: $string['sessionstartdateandtimewithouttimezone']
+msgid "{$a->startdate}, {$a->starttime} - {$a->endtime}"
+msgstr ""
+
+#: $string['sessionstartfinishdateandtime']
+msgid ""
+"{$a->startdate} - {$a->enddate}, {$a->starttime} - {$a->endtime} (time zone: "
+"{$a->timezone})"
+msgstr ""
+
+#: $string['sessionstartfinishdateandtimewithouttimezone']
+msgid "{$a->startdate} - {$a->enddate}, {$a->starttime} - {$a->endtime}"
+msgstr ""
+
+#: $string['sessionstarttime']
+msgid "Session start time"
+msgstr ""
+
+#: $string['sessionvenue']
+msgid "Session venue"
+msgstr ""
+
+#: $string['setting:addchangemanageremail']
+msgctxt "$string['setting:addchangemanageremail']"
+msgid "Ask users for their manager's email address."
+msgstr ""
+
+#: $string['setting:addchangemanageremail_caption']
+msgid "Manager's email:"
+msgstr ""
+
+#: $string['setting:addchangemanageremaildefault']
+msgctxt "$string['setting:addchangemanageremaildefault']"
+msgid "Ask users for their manager's email address."
+msgstr ""
+
+#: $string['setting:defaultcancellationinstrmngr']
+msgid "Default cancellation message sent to managers."
+msgstr ""
+
+#: $string['setting:defaultcancellationinstrmngr_caption']
+msgid "Cancellation message (managers)"
+msgstr ""
+
+#: $string['setting:defaultcancellationinstrmngrdefault']
+msgid ""
+"*** Advice only ****\n"
+"\n"
+"This is to advise that [firstname] [lastname] is no longer signed-up for the "
+"following course and listed you as their Team Leader / Manager.\n"
+"\n"
+"*** [firstname] [lastname]'s booking cancellation is copied below ****"
+msgstr ""
+
+#: $string['setting:defaultcancellationmessage']
+msgid "Default cancellation message sent to the user."
+msgstr ""
+
+#: $string['setting:defaultcancellationmessage_caption']
+msgctxt "$string['setting:defaultcancellationmessage_caption']"
+msgid "Cancellation message"
+msgstr ""
+
+#: $string['setting:defaultcancellationmessagedefault']
+msgid ""
+"This is to advise that your booking on the following course has been "
+"cancelled:\n"
+"\n"
+"***BOOKING CANCELLED***\n"
+"\n"
+"Participant:   [firstname] [lastname]\n"
+"Course:   [facetofacename]\n"
+"\n"
+"Duration:   [duration]\n"
+"Date(s):\n"
+"[alldates]\n"
+"\n"
+"Location:   [session:location]\n"
+"Venue:   [session:venue]\n"
+"Room:   [session:room]"
+msgstr ""
+
+#: $string['setting:defaultcancellationsubject']
+msgid "Default subject line for cancellation emails."
+msgstr ""
+
+#: $string['setting:defaultcancellationsubject_caption']
+msgid "Cancellation subject"
+msgstr ""
+
+#: $string['setting:defaultcancellationsubjectdefault']
+msgid "Course booking cancellation"
+msgstr ""
+
+#: $string['setting:defaultconfirmationinstrmngr']
+msgid "Default confirmation message sent to managers."
+msgstr ""
+
+#: $string['setting:defaultconfirmationinstrmngr_caption']
+msgid "Confirmation message (managers)"
+msgstr ""
+
+#: $string['setting:defaultconfirmationinstrmngrdefault']
+msgid ""
+"*** Advice only ****\n"
+"\n"
+"This is to advise that [firstname] [lastname] has been booked for the "
+"following course and listed you as their Team Leader / Manager.\n"
+"\n"
+"If you are not their Team Leader / Manager and believe you have received "
+"this email by mistake please reply to this email.  If have concerns about "
+"your staff member taking this course please discuss this with them directly.\n"
+"\n"
+"*** [firstname] [lastname]'s booking confirmation is copied below ****"
+msgstr ""
+
+#: $string['setting:defaultconfirmationmessage']
+msgid "Default confirmation message sent to users."
+msgstr ""
+
+#: $string['setting:defaultconfirmationmessage_caption']
+msgctxt "$string['setting:defaultconfirmationmessage_caption']"
+msgid "Confirmation message"
+msgstr ""
+
+#: $string['setting:defaultconfirmationmessagedefault']
+msgid ""
+"This is to confirm that you are now booked on the following course:\n"
+"\n"
+"Participant:   [firstname] [lastname]\n"
+"Course:   [facetofacename]\n"
+"Cost:   [cost]\n"
+"\n"
+"Duration:    [duration]\n"
+"Date(s):\n"
+"[alldates]\n"
+"\n"
+"Location:   [session:location]\n"
+"Venue:   [session:venue]\n"
+"Room:   [session:room]\n"
+"\n"
+"***Please arrive ten minutes before the course starts***\n"
+"\n"
+"To re-schedule or cancel your booking\n"
+"To re-schedule your booking you need to cancel this booking and then re-book "
+"a new session.  To cancel your booking, return to the site, then to the "
+"page for this course, and then select 'cancel' from the booking information "
+"screen.\n"
+"\n"
+"[details]\n"
+"\n"
+"You will receive a reminder [reminderperiod] business days before this "
+"course."
+msgstr ""
+
+#: $string['setting:defaultconfirmationsubject']
+msgid "Default subject line for confirmation emails."
+msgstr ""
+
+#: $string['setting:defaultconfirmationsubject_caption']
+msgid "Confirmation subject"
+msgstr ""
+
+#: $string['setting:defaultconfirmationsubjectdefault']
+msgid ""
+"Course booking confirmation: [facetofacename], [starttime]-[finishtime], "
+"[sessiondate]"
+msgstr ""
+
+#: $string['setting:defaultreminderinstrmngr']
+msgid "Default reminder message sent to managers."
+msgstr ""
+
+#: $string['setting:defaultreminderinstrmngr_caption']
+msgid "Reminder message (managers)"
+msgstr ""
+
+#: $string['setting:defaultreminderinstrmngrdefault']
+msgid ""
+"*** Reminder only ****\n"
+"\n"
+"Your staff member [firstname] [lastname] is booked to attend and above "
+"course and has also received this reminder email.\n"
+"\n"
+"If you are not their Team Leader / Manager and believe you have received "
+"this email by mistake please reply to this email.\n"
+"\n"
+"*** [firstname] [lastname]'s reminder email is copied below ****"
+msgstr ""
+
+#: $string['setting:defaultremindermessage']
+msgid "Default reminder message sent to users."
+msgstr ""
+
+#: $string['setting:defaultremindermessage_caption']
+msgctxt "$string['setting:defaultremindermessage_caption']"
+msgid "Reminder message"
+msgstr ""
+
+#: $string['setting:defaultremindermessagedefault']
+msgid ""
+"This is a reminder that you are booked on the following course:\n"
+"\n"
+"Participant:   [firstname] [lastname]\n"
+"Course:   [facetofacename]\n"
+"Cost:   [cost]\n"
+"\n"
+"Duration:   [duration]\n"
+"Date(s):\n"
+"[alldates]\n"
+"\n"
+"Location:   [session:location]\n"
+"Venue:   [session:venue]\n"
+"Room:   [session:room]\n"
+"\n"
+"***Please arrive ten minutes before the course starts***\n"
+"\n"
+"To re-schedule or cancel your booking\n"
+"To re-schedule your booking you need to cancel this booking and then re-book "
+"a new session.  To cancel your booking, return to the site, then to the "
+"page for this course, and then select 'cancel' from the booking information "
+"screen.\n"
+"\n"
+"[details]"
+msgstr ""
+
+#: $string['setting:defaultremindersubject']
+msgid "Default subject line for reminder emails."
+msgstr ""
+
+#: $string['setting:defaultremindersubject_caption']
+msgid "Reminder subject"
+msgstr ""
+
+#: $string['setting:defaultremindersubjectdefault']
+msgid ""
+"Course booking reminder: [facetofacename], [starttime]-[finishtime], "
+"[sessiondate]"
+msgstr ""
+
+#: $string['setting:defaultrequestinstrmngrdefault']
+msgid ""
+"This is to advise that [firstname] [lastname] has requested to be booked "
+"into the following course, and you are listed as their Team Leader / "
+"Manager.\n"
+"\n"
+"Course:   [facetofacename]\n"
+"Cost:   [cost]\n"
+"\n"
+"Duration:   [duration]\n"
+"Date(s):\n"
+"[alldates]\n"
+"\n"
+"Location:   [session:location]\n"
+"Venue:   [session:venue]\n"
+"Room:   [session:room]\n"
+"\n"
+"Please follow the link below to approve the request:\n"
+"[attendeeslink]#unapproved\n"
+"\n"
+"\n"
+"*** [firstname] [lastname]'s booking request is copied below ****"
+msgstr ""
+
+#: $string['setting:defaultrequestmessagedefault']
+msgid ""
+"Your request to book into the following course has been sent to your "
+"manager:\n"
+"\n"
+"Participant:   [firstname] [lastname]\n"
+"Course:   [facetofacename]\n"
+"Cost:   [cost]\n"
+"\n"
+"Duration:   [duration]\n"
+"Date(s):\n"
+"[alldates]\n"
+"\n"
+"Location:   [session:location]\n"
+"Venue:   [session:venue]\n"
+"Room:   [session:room]"
+msgstr ""
+
+#: $string['setting:defaultrequestsubjectdefault']
+msgid "Course booking request: [facetofacename], [starttime]-[finishtime]"
+msgstr ""
+
+#: $string['setting:defaultvalue']
+msgid "Default value"
+msgstr ""
+
+#: $string['setting:defaultwaitlistedmessage']
+msgid "Default wait-listed message sent to users."
+msgstr ""
+
+#: $string['setting:defaultwaitlistedmessage_caption']
+msgctxt "$string['setting:defaultwaitlistedmessage_caption']"
+msgid "Wait-listed message"
+msgstr ""
+
+#: $string['setting:defaultwaitlistedmessagedefault']
+msgid ""
+"This is to advise that you have been added to the waitlist for:\n"
+"\n"
+"Course:   [facetofacename]\n"
+"Location:  [session:location]\n"
+"Participant:   [firstname] [lastname]\n"
+"\n"
+"***Please note this is not a course booking confirmation***\n"
+"\n"
+"By waitlisting you have registered your interest in this course and will be "
+"contacted directly when sessions become available.\n"
+"\n"
+"To remove yourself from this waitlist please return to this course and click "
+"Cancel Booking. Please note there is no waitlist removal confirmation "
+"email."
+msgstr ""
+
+#: $string['setting:defaultwaitlistedsubject']
+msgid "Default subject line for wait-listed emails."
+msgstr ""
+
+#: $string['setting:defaultwaitlistedsubject_caption']
+msgid "Wait-listed subject"
+msgstr ""
+
+#: $string['setting:defaultwaitlistedsubjectdefault']
+msgid "Waitlisting advice for [facetofacename]"
+msgstr ""
+
+#: $string['setting:disableicalcancel']
+msgid "Disable cancellation emails with an iCalendar attachment."
+msgstr ""
+
+#: $string['setting:disableicalcancel_caption']
+msgid "Disable iCalendar cancellations:"
+msgstr ""
+
+#: $string['setting:fromaddress']
+msgid ""
+"What will appear in the From field of email reminders sent by this module."
+msgstr ""
+
+#: $string['setting:fromaddress_caption']
+msgid "Sender address:"
+msgstr ""
+
+#: $string['setting:fromaddressdefault']
+msgid "moodle@example.com"
+msgstr ""
+
+#: $string['setting:hidecost']
+msgid "Hide the cost and discount code fields."
+msgstr ""
+
+#: $string['setting:hidecost_caption']
+msgid "Hide cost and discount:"
+msgstr ""
+
+#: $string['setting:hidediscount']
+msgid "Hide only the discount code field."
+msgstr ""
+
+#: $string['setting:hidediscount_caption']
+msgid "Hide discount:"
+msgstr ""
+
+#: $string['setting:isfilter']
+msgid "Display as a filter"
+msgstr ""
+
+#: $string['setting:manageraddressformat']
+msgid ""
+"Suffix which must be present in the email address of the manager in order to "
+"be considered valid."
+msgstr ""
+
+#: $string['setting:manageraddressformat_caption']
+msgid "Required suffix:"
+msgstr ""
+
+#: $string['setting:manageraddressformatdefault']
+msgctxt "$string['setting:manageraddressformatdefault']"
+msgid ""
+msgstr ""
+
+#: $string['setting:manageraddressformatreadable']
+msgid ""
+"Short description of the restrictions on a manager's email address.  This "
+"setting has no effect if the previous one is not set."
+msgstr ""
+
+#: $string['setting:manageraddressformatreadable_caption']
+msgid "Format example:"
+msgstr ""
+
+#: $string['setting:manageraddressformatreadabledefault']
+msgid "firstname.lastname@company.com"
+msgstr ""
+
+#: $string['setting:oneemailperday']
+msgid "Send multiple confirmation emails for multi-day events."
+msgstr ""
+
+#: $string['setting:oneemailperday_caption']
+msgid "One message per day:"
+msgstr ""
+
+#: $string['setting:possiblevalues']
+msgid "List of possible values"
+msgstr ""
+
+#: $string['setting:sessionroles']
+msgid ""
+"Users assigned to the selected roles in a course can be tracked with each "
+"Face-to-Face session"
+msgstr ""
+
+#: $string['setting:sessionroles_caption']
+msgid "Session roles:"
+msgstr ""
+
+#: $string['setting:showinsummary']
+msgid "Show in exports and lists"
+msgstr ""
+
+#: $string['setting:type']
+msgid "Field type"
+msgstr ""
+
+#: $string['shortname']
+msgid "# Short Name"
+msgstr ""
+
+#: $string['shortname_help']
+msgid ""
+"**Short name** is the description of the session that appears on the "
+"training calendar when **Show on the calendar** is enabled."
+msgstr ""
+
+#: $string['showbylocation']
+msgid "Show by location"
+msgstr ""
+
+#: $string['showoncalendar']
+msgid "Calendar display settings"
+msgstr ""
+
+#: $string['showoncalendar_help']
+msgid ""
+"When **Site** is selected the Face-to-Face activity sessions will be "
+"displayed on the site calendar as a Global Event.  All site users will be "
+"able to view these sessions.\n"
+"\n"
+"When **Course** is selected all of the Face-to-Face activity sessions will "
+"be displayed on the course calendar and as Course Event on the site level "
+"calendar and visible to all users enrolled in the course.\n"
+"\n"
+"When **None** is selected, Face-to-Face activity sessions will only be "
+"displayed as User Events on a confirmed attendee's calendar, provided the "
+"**Show on user's calendar** option has been selected."
+msgstr ""
+
+#: $string['signup']
+msgid "Sign-up"
+msgstr ""
+
+#: $string['signupfor']
+msgid "Sign-up for {$a}"
+msgstr ""
+
+#: $string['signupforsession']
+msgid "Sign-up for an available upcoming session"
+msgstr ""
+
+#: $string['signupforthissession']
+msgid "Sign-up for this Face-to-Face session"
+msgstr ""
+
+#: $string['signups']
+msgctxt "$string['signups']"
+msgid "Sign-ups"
+msgstr ""
+
+#: $string['sign-ups']
+msgctxt "$string['sign-ups']"
+msgid "Sign-ups"
+msgstr ""
+
+#: $string['sitenoticesheading']
+msgid "Site Notices"
+msgstr ""
+
+#: $string['status']
+msgid "Status"
+msgstr ""
+
+#: $string['status_approved']
+msgid "Approved"
+msgstr ""
+
+#: $string['status_booked']
+msgctxt "$string['status_booked']"
+msgid "Booked"
+msgstr ""
+
+#: $string['status_declined']
+msgid "Declined"
+msgstr ""
+
+#: $string['status_fully_attended']
+msgid "Fully attended"
+msgstr ""
+
+#: $string['status_no_show']
+msgid "No show"
+msgstr ""
+
+#: $string['status_partially_attended']
+msgid "Partially attended"
+msgstr ""
+
+#: $string['status_requested']
+msgid "Requested"
+msgstr ""
+
+#: $string['status_session_cancelled']
+msgid "Session Cancelled"
+msgstr ""
+
+#: $string['status_user_cancelled']
+msgid "User Cancelled"
+msgstr ""
+
+#: $string['status_waitlisted']
+msgctxt "$string['status_waitlisted']"
+msgid "Wait-listed"
+msgstr ""
+
+#: $string['subject']
+msgid "Change in booking in the course {$a->coursename} ({$a->duedate})"
+msgstr ""
+
+#: $string['submissions']
+msgid "Submissions"
+msgstr ""
+
+#: $string['submit']
+msgid "Submit"
+msgstr ""
+
+#: $string['submitted']
+msgid "Submitted"
+msgstr ""
+
+#: $string['summary']
+msgid "Summary"
+msgstr ""
+
+#: $string['suppressemail']
+msgid "Suppress email notification"
+msgstr ""
+
+#: $string['suppressemail_help']
+msgid ""
+"Use this option if you want to silently add/remove users from a Face-to-Face "
+"session. When this option is toggled, the usual email\n"
+"  confirmation is not sent to the selected users."
+msgstr ""
+
+#: $string['takeattendance']
+msgctxt "$string['takeattendance']"
+msgid "Take attendance"
+msgstr ""
+
+#: $string['thirdpartyemailaddress']
+msgid "Third-party email address(es)"
+msgstr ""
+
+#: $string['thirdpartyemailaddress_help']
+msgid ""
+"**Third-party email address(es)** is an optional field used to specify the "
+"email address of a third-party (such as an external instructor) who will "
+"then receive confirmation messages whenever a user signs-up for a session.\n"
+"When entering **multiple email addresses**, separate each address with a "
+"comma. For example: bob@example.com,joe@example.com"
+msgstr ""
+
+#: $string['thirdpartywaitlist']
+msgid "Notify third-party about wait-listed sessions"
+msgstr ""
+
+#: $string['thirdpartywaitlist_help']
+msgid ""
+"When **Notify third-party about wait-listed sessions** is selected the "
+"third-party(s) will be notified when a learner signs up for a wait-listed "
+"session. When\n"
+"\n"
+"**Notify third-party about wait-listed sessions** is not enabled third-"
+"party(s) will only be notified when a user signs up (or cancels) for a "
+"scheduled session."
+msgstr ""
+
+#: $string['time']
+msgid "Time"
+msgstr ""
+
+#: $string['timecancelled']
+msgid "Time Cancelled"
+msgstr ""
+
+#: $string['timedue']
+msgid "Registration deadline"
+msgstr ""
+
+#: $string['timefinish']
+msgid "Finish time"
+msgstr ""
+
+#: $string['timefinish_help']
+msgid "Finish time is the time when the session ends."
+msgstr ""
+
+#: $string['timerequested']
+msgid "Time Requested"
+msgstr ""
+
+#: $string['timesignedup']
+msgid "Time Signed Up"
+msgstr ""
+
+#: $string['timestart']
+msgid "Start time"
+msgstr "Ώρα έναρξης"
+
+#: $string['timestart_help']
+msgid "Start time is the time when the session begins."
+msgstr ""
+
+#: $string['unapprovedrequests']
+msgid "Unapproved Requests"
+msgstr ""
+
+#: $string['unknowndate']
+msgid "(unknown date)"
+msgstr ""
+
+#: $string['unknowntime']
+msgid "(unknown time)"
+msgstr ""
+
+#: $string['upcomingsessions']
+msgid "Upcoming sessions"
+msgstr ""
+
+#: $string['upcomingsessionslist']
+msgid "List of all upcoming sessions for this Face-to-Face activity"
+msgstr ""
+
+#: $string['updaterequests']
+msgid "Update requests"
+msgstr ""
+
+#: $string['upgradeprocessinggrades']
+msgid ""
+"Processing Face-to-Face grades, this may take a while if there are many "
+"sessions..."
+msgstr ""
+
+#: $string['usercalentry']
+msgid "Show entry on user's calendar"
+msgstr ""
+
+#: $string['usercalentry_help']
+msgid ""
+"When active this setting adds a User Event entry to the calendar of an "
+"attendee of a Face-to-Face session. When turned off this prevents a "
+"duplicate event appearing in a session attendee's calendar, where you have "
+"calendar display settings set to Course or Site."
+msgstr ""
+
+#: $string['usercancelledon']
+msgid "User cancelled on {$a}"
+msgstr ""
+
+#: $string['userdeletedcancel']
+msgid "User has been deleted"
+msgstr ""
+
+#: $string['usernotsignedup']
+msgid "Status: not signed up"
+msgstr ""
+
+#: $string['usersignedup']
+msgid "Status: signed up"
+msgstr ""
+
+#: $string['usersignedupon']
+msgid "User signed up on {$a}"
+msgstr ""
+
+#: $string['userwillbewaitlisted']
+msgid ""
+"This session is currently full. By clicking the \"Sign-up\" button, you will "
+"be placed on the sessions's wait-list."
+msgstr ""
+
+#: $string['validation:needatleastonedate']
+msgid ""
+"You need to provide at least one date or mark the session as wait-listed."
+msgstr ""
+
+#: $string['venue']
+msgid "Venue"
+msgstr ""
+
+#: $string['venue_help']
+msgid ""
+"**Venue** is the building the session will be held in.\n"
+"\n"
+"The **Venue** displays on the 'Sign-up' page, the 'View all sessions' page "
+"and in all email notifications."
+msgstr ""
+
+#: $string['viewallsessions']
+msgid "View all sessions"
+msgstr ""
+
+#: $string['viewsubmissions']
+msgid "View submissions"
+msgstr ""
+
+#: $string['wait-list']
+msgid "Wait-list"
+msgstr ""
+
+#: $string['wait-listed']
+msgctxt "$string['wait-listed']"
+msgid "Wait-listed"
+msgstr ""
+
+#: $string['waitlistedmessage']
+msgctxt "$string['waitlistedmessage']"
+msgid "Wait-listed message"
+msgstr ""
+
+#: $string['waitlistedmessage_help']
+msgid ""
+"This message is sent out whenever users sign-up for a wait-listed session."
+msgstr ""
+
+#: $string['waitliststatus']
+msgid "You have a place on the waitlist of the following session"
+msgstr ""
+
+#: $string['xhours']
+msgid "{$a} hours"
+msgstr ""
+
+#: $string['xminutes']
+msgid "{$a} minutes"
+msgstr ""
+
+#: $string['youarebooked']
+msgctxt "$string['youarebooked']"
+msgid "You are booked for the following session"
+msgstr ""
+
+#: $string['youremailaddress']
+msgid "Your email address"
+msgstr ""

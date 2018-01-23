@@ -1,0 +1,181 @@
+#. extracted from lang/en/etherpadlite.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'etherpadlite', language 'en', branch 'MOODLE_28_STABLE'
+#.  *
+#.  * @package   etherpadlite
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['adminguests']
+msgctxt "$string['adminguests']"
+msgid "Guests allowed to write?"
+msgstr ""
+
+#: $string['adminguestsdesc']
+msgid ""
+"With this set, users who are allowed to configure a specific etherpadlite "
+"module can allow guests to write in this specific etherpadlite module"
+msgstr ""
+
+#: $string['apikey']
+msgid "API Key"
+msgstr ""
+
+#: $string['apikeydesc']
+msgid ""
+"This is the API Key which this module needs to communicate with your "
+"etherpadlite server. This API key is stored on your etherpadliste server and "
+"can be copied from there."
+msgstr ""
+
+#: $string['checkssl']
+msgid "Verify HTTPS cert"
+msgstr ""
+
+#: $string['checkssldesc']
+msgid ""
+"With this set, the HTTPS certificate of the etherpadlite server will be "
+"checked, to prevent man in the middle attacks"
+msgstr ""
+
+#: $string['cookiedomain']
+msgid "Cookie Domain"
+msgstr ""
+
+#: $string['cookiedomaindesc']
+msgid ""
+"Here you can enter the domain, which should be stored in the session cookie, "
+"so that the etherpadlite server recognize it. When moodle runs on the "
+"domain moodle.example.com and your etherpadlite server on "
+"etherpadlite.example.com, then your cookie domain should be .example.com."
+msgstr ""
+
+#: $string['cookietime']
+msgid "Session elapse time"
+msgstr ""
+
+#: $string['cookietimedesc']
+msgid ""
+"Here you have to enter the time (in seconds) until the etherpadlite session "
+"should be valid"
+msgstr ""
+
+#: $string['etherpadlite']
+msgctxt "$string['etherpadlite']"
+msgid "Etherpad Lite"
+msgstr ""
+
+#: $string['etherpadlite:addinstance']
+msgid "Add new pad"
+msgstr ""
+
+#: $string['etherpadliteintro']
+msgid "Etherpadlite Intro"
+msgstr ""
+
+#: $string['etherpadlitename']
+msgid "Etherpadlite Name"
+msgstr ""
+
+#: $string['guestsallowed']
+msgctxt "$string['guestsallowed']"
+msgid "Guests allowed to write?"
+msgstr ""
+
+#: $string['guestsallowed_help']
+msgid ""
+"This determines if guests are allowed to write in this pad. If not, they "
+"will be only able to read the content of the pad."
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Etherpad Lite"
+msgstr ""
+
+#: $string['modulename_help']
+msgid ""
+"The Etherpad Lite module enables students and teachers to write text in a "
+"collaborative way. The text is synced automatically as they type.\n"
+"\n"
+"(The etherpadlite server, which stands behind this module, is still in beta "
+"stage. That's why problems might occur in rare circumstances, but aren't "
+"expected)"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Etherpad Lites"
+msgstr ""
+
+#: $string['padname']
+msgid "Padname for all instances"
+msgstr ""
+
+#: $string['padnamedesc']
+msgid ""
+"A general padname can be helpful, if you want to find all pads from this "
+"Moodle installation on your etherpadlite server. Pad groups are generated "
+"autmatically."
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Etherpad Lite administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Etherpad Lite"
+msgstr ""
+
+#: $string['ssl']
+msgid "HTTPS Redirect"
+msgstr ""
+
+#: $string['ssldesc']
+msgid ""
+"With this set, your site will redirect itself to HTTPS, if an etherpadlite "
+"is opened (eye candy for the user)"
+msgstr ""
+
+#: $string['summaryguest']
+msgid ""
+"You are logged in as guest. That's why you can only see the readonly version "
+"of this Pad. Reload the page to get new changes."
+msgstr ""
+
+#: $string['url']
+msgid "Server URL"
+msgstr ""
+
+#: $string['urldesc']
+msgid ""
+"This is the URL to your Etherpadlite server in the form: "
+"http[s]://host[:port]/[subDir/]"
+msgstr ""

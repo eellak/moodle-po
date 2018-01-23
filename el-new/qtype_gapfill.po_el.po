@@ -1,0 +1,330 @@
+#. extracted from lang/en/qtype_gapfill.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'qtype_gapfill', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   qtype_gapfill
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['additemsettings']
+msgid "Add Gap settings"
+msgstr ""
+
+#: $string['answerdisplay']
+msgid "Display Answers"
+msgstr ""
+
+#: $string['answerdisplay_help']
+msgid ""
+"Dragdrop shows a list of words that can be dragged into the gaps, gapfill "
+"shows gaps with no word options, dropdown shows the same list of correct "
+"(and possibly incorrect) answers for each field"
+msgstr ""
+
+#: $string['blank']
+msgid "blank"
+msgstr ""
+
+#: $string['cannotimport']
+msgid "cannotimport"
+msgstr ""
+
+#: $string['casesensitive']
+msgid "Case Sensitive"
+msgstr ""
+
+#: $string['casesensitive_help']
+msgid ""
+"When this is checked, if the correct answer is CAT, cat will be flagged as a "
+"wrong answer"
+msgstr ""
+
+#: $string['casesensitive_text']
+msgid "An answer of CAT will will be treated as different to cat"
+msgstr ""
+
+#: $string['correct']
+msgid "Feedback for correct."
+msgstr ""
+
+#: $string['correctanswer']
+msgid "Correct answer"
+msgstr ""
+
+#: $string['course']
+msgid "Import help"
+msgstr ""
+
+#: $string['coursenotfound']
+msgid "Course not found, check the course shortname"
+msgstr ""
+
+#: $string['courseshortname']
+msgid "Course Shortname"
+msgstr ""
+
+#: $string['courseshortname_help']
+msgid ""
+"Enter the shortname of the course to import question to. This does a "
+"standard xml question import from the file example_questions.xml in the "
+"gapfill question type folder."
+msgstr ""
+
+#: $string['delimitchars']
+msgid "Delimit characters"
+msgstr ""
+
+#: $string['delimitchars_help']
+msgid ""
+"Change the characters that delimit a field from the default [ ], useful for "
+"programming language questions"
+msgstr ""
+
+#: $string['delimitset']
+msgid "Delimit Chars"
+msgstr ""
+
+#: $string['delimitset_text']
+msgid ""
+"Sets the delimiters for gaps, so you could add % % for The %cat% sat on the "
+"%mat%"
+msgstr ""
+
+#: $string['disableregex']
+msgid "Disable Regex"
+msgstr ""
+
+#: $string['disableregex_help']
+msgid ""
+"Disable regular expression processing and perform a standard string "
+"comparison. This can be useful for html quesitons where the angle brackets "
+"(&lt; and &gt;) should be treated literally and maths where symbols such as "
+"* should be seen literally rather than as expressions"
+msgstr ""
+
+#: $string['disableregexset_text']
+msgid "Disable regular expression processing of responses"
+msgstr ""
+
+#: $string['displaydragdrop']
+msgid "dragdrop"
+msgstr ""
+
+#: $string['displaydropdown']
+msgid "dropdown"
+msgstr ""
+
+#: $string['displaygapfill']
+msgid "gapfill"
+msgstr ""
+
+#: $string['distractor1']
+msgctxt "$string['distractor1']"
+msgid "blue,shoe,small"
+msgstr ""
+
+#: $string['distractor2']
+msgctxt "$string['distractor2']"
+msgid "blue,shoe,small"
+msgstr ""
+
+#: $string['duplicatepartialcredit']
+msgid "Credit is partial because you have duplicate answers"
+msgstr ""
+
+#: $string['editquestiontext']
+msgid "Edit question text"
+msgstr ""
+
+#: $string['example1']
+msgid "Drag the verbs into the gaps. He [laughed] and [sat] down"
+msgstr ""
+
+#: $string['example2']
+msgid "Select the verbs from the dropdowns. He [laughed] and [sat] down"
+msgstr ""
+
+#: $string['example3']
+msgid ""
+"Where does the kangaroo come from? [Australia]. The next gap will acceps "
+"either cat or dog [cat|dog]"
+msgstr ""
+
+#: $string['fixedgapsize']
+msgid "Fixed Gap Size"
+msgstr ""
+
+#: $string['fixedgapsize_help']
+msgid ""
+"When attempting the question all gaps will be set to the same size as the "
+"largest gap. This removes gap size as a clue to the correct answer, e.g. if "
+"the gaps are [red] and [yellow] it would be clear that the yellow went in "
+"the biggest gap"
+msgstr ""
+
+#: $string['fixedgapsizeset_text']
+msgid "Sets the size of every gap to that of the biggest gap"
+msgstr ""
+
+#: $string['gapfill']
+msgid "Gapfill."
+msgstr ""
+
+#: $string['importexamples']
+msgid "Import"
+msgstr ""
+
+#: $string['incorrect']
+msgid "Feedback for incorrect."
+msgstr ""
+
+#: $string['itemsettingsbutton']
+msgid "Gap settings"
+msgstr ""
+
+#: $string['itemsettings_button']
+msgid "Item settings"
+msgstr ""
+
+#: $string['itemsettings_button_help']
+msgid ""
+"Clicking this toggles settings mode for entering per-gap settings such as "
+"feedback for correct or incorrect responses. Click on a delimited gap word "
+"to popup the settings form"
+msgstr ""
+
+#: $string['itemsettingserror']
+msgid "Only works with Atto editor. Go to Editor preferences to switch to Atto"
+msgstr ""
+
+#: $string['moreoptions']
+msgid "More Options."
+msgstr ""
+
+#: $string['noduplicates']
+msgid "No Duplicates"
+msgstr ""
+
+#: $string['noduplicates_help']
+msgid ""
+"When checked, each answer must be unique, useful where each field has a | "
+"operator, i.e. what are the colours of the Olympic medals and each field has "
+"[gold|silver|bronze], if the student enters gold in every field only the "
+"first will get a mark (the others will still get a tick though). It is "
+"really more like discard duplicate answers for marking purposes"
+msgstr ""
+
+#: $string['optionsaftertext']
+msgid "Options after text"
+msgstr ""
+
+#: $string['optionsaftertext_help']
+msgid ""
+"Draggable answer options will be displayed after the body of text rather "
+"than above"
+msgstr ""
+
+#: $string['optionsaftertext_text']
+msgid "Set draggables to be after the body of text"
+msgstr ""
+
+#: $string['or']
+msgid "or"
+msgstr ""
+
+#: $string['pleaseenterananswer']
+msgid "Please enter an answer."
+msgstr ""
+
+#: $string['pluginname']
+msgid "Gapfill"
+msgstr ""
+
+#: $string['pluginnameadding']
+msgid "Adding a Gap Fill Question."
+msgstr ""
+
+#: $string['pluginnameediting']
+msgid "Editing Gap Fill."
+msgstr ""
+
+#: $string['pluginname_help']
+msgid ""
+"Place the words to be completed within square brackets e.g. The [cat] sat on "
+"the [mat].  If mat or rug are acceptable use [mat|rug]. Dropdown and "
+"Dragdrop modes allows for a shuffled list of answers to be displayed which "
+"can include optional wrong/distractor answers."
+msgstr ""
+
+#: $string['pluginname_link']
+msgid "question/type/gapfill"
+msgstr ""
+
+#: $string['pluginnamesummary']
+msgid ""
+"A fill in the gaps style question. Allows drag drop or dropdown answers with "
+"distractors. Very easy to learn syntax"
+msgstr ""
+
+#: $string['questioncatnotfound']
+msgid ""
+"Question category not found, click click <a href={$a}>here</a> to "
+"initialise, then the browser back button"
+msgstr ""
+
+#: $string['questionsmissing']
+msgid "You have not included any fields in your question text"
+msgstr ""
+
+#: $string['questiontext']
+msgid "Question text"
+msgstr ""
+
+#: $string['questiontext_help']
+msgid "Put delimiters around the words that will become the text"
+msgstr ""
+
+#: $string['visitquestions']
+msgid "Click <a href={$a}>here</a> to visit the questions"
+msgstr ""
+
+#: $string['wronganswers']
+msgid "Distractors."
+msgstr ""
+
+#: $string['wronganswers_help']
+msgid ""
+"List of incorrect words designed to distract from the correct answers. Each "
+"word is separated by commas, only applies in dragdrop/dropdowns mode"
+msgstr ""
+
+#: $string['yougotnrightcount']
+msgid "Your number of correctly filled in gaps is {$a->num}."
+msgstr ""

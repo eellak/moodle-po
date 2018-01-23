@@ -1,0 +1,1149 @@
+#. extracted from lang/en/block_user_preferences.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_user_preferences', language 'en', branch 'MOODLE_24_STABLE'
+#.  *
+#.  * @package   block_user_preferences
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['add']
+msgid "Add More Attributes"
+msgstr ""
+
+#: $string['add_help']
+msgid ""
+"For language/knowledge attributes, aims and interests of a learner multiple "
+"attributes can be entered which each one belongs to a single "
+"language/aim/interest/... <br/>With the form in the lower part of the page "
+"additional of these attributes can be added to the personal preferences of a "
+"learner."
+msgstr ""
+
+#: $string['choose_user']
+msgid "Choose User"
+msgstr ""
+
+#: $string['choose_user_help']
+msgid ""
+"<p>Tutors and administrators can not only view and modify their own personal "
+"preferences but also the preferences of any participant (learner) in the "
+"selected course. Whose attributes a tutor or an administrator can view "
+"(which participants?) they can choose in the upper part of the web "
+"page.</p><p>With this function for viewing and editing learner preferences "
+"tutors can check if learner data is correct for all learners in a course and "
+"they can correct incorrect data if neccessary. Only by entering correct "
+"personal preferences iLMS application can optimize the course structure for "
+"each learner correctly, leading to learning success.</p>"
+msgstr ""
+
+#: $string['edit_button_add']
+msgid "Add this"
+msgstr ""
+
+#: $string['edit_button_choose_user']
+msgid "Choose"
+msgstr ""
+
+#: $string['edit_button_delete']
+msgid "Delete"
+msgstr ""
+
+#: $string['edit_button_modify']
+msgid "Modify"
+msgstr ""
+
+#: $string['edit_continue']
+msgid "Continue ..."
+msgstr ""
+
+#: $string['edit_footer']
+msgctxt "$string['edit_footer']"
+msgid ""
+msgstr ""
+
+#: $string['edit_label_choose_user']
+msgid "Learner/User:"
+msgstr ""
+
+#: $string['edit_legend_add']
+msgid "Add new certificates, personal aims and interests"
+msgstr ""
+
+#: $string['edit_legend_choose_user']
+msgid "Choose course member"
+msgstr ""
+
+#: $string['edit_legend_preferences']
+msgid "Current preferences"
+msgstr ""
+
+#: $string['editlink']
+msgctxt "$string['editlink']"
+msgid "(No English Version)"
+msgstr ""
+
+#: $string['editlink_help']
+msgctxt "$string['editlink_help']"
+msgid "<p>(No Text in English)</p>"
+msgstr ""
+
+#: $string['editlink_zwo']
+msgctxt "$string['editlink_zwo']"
+msgid "(No English Version)"
+msgstr ""
+
+#: $string['editlink_zwo_help']
+msgctxt "$string['editlink_zwo_help']"
+msgid "<p>(No Text in English)</p>"
+msgstr ""
+
+#: $string['edit_nopermission']
+msgid "Learner preferences are not available until you are logged in."
+msgstr ""
+
+#: $string['edit_novalues']
+msgid "No learner preferences are assigned for you."
+msgstr ""
+
+#: $string['edit_title']
+msgid "Modify learner preferences"
+msgstr ""
+
+#: $string['edit_title2']
+msgid "Modify your personal preferences/settings"
+msgstr ""
+
+#: $string['error_invalid_course']
+msgid ""
+"Invalid course ID.<br/>You cannot show oder modify the preferences of the "
+"members of this course because the specified course does not exist."
+msgstr ""
+
+#: $string['error_invalid_sql_add']
+msgid "SQL database error while adding the new attribute"
+msgstr ""
+
+#: $string['error_invalid_sql_delete']
+msgid "SQL database error while delete the chosen attribute"
+msgstr ""
+
+#: $string['error_invalid_sql_select']
+msgid "SQL dabase error while reading attribute values"
+msgstr ""
+
+#: $string['error_invalid_sql_set']
+msgid "SQL database error while modifying the current attribute"
+msgstr ""
+
+#: $string['error_invalid_user']
+msgid ""
+"Invalid user ID.<br/>You cannot modify the preferences of the specified user "
+"because it does not exist."
+msgstr ""
+
+#: $string['error_no_definitions']
+msgid ""
+"Error: This block seems to be installed incompletely. An administrator "
+"should check the configuration of this block before all functions will work "
+"correctly."
+msgstr ""
+
+#: $string['error_session_timeout']
+msgid "Login error: Session timeout"
+msgstr ""
+
+#: $string['footer']
+msgctxt "$string['footer']"
+msgid ""
+msgstr ""
+
+#: $string['learner_ability']
+msgctxt "$string['learner_ability']"
+msgid "Ability"
+msgstr ""
+
+#: $string['learner_ability_help']
+msgctxt "$string['learner_ability_help']"
+msgid "-"
+msgstr ""
+
+#: $string['learner_ability_level1']
+msgid "rarely able"
+msgstr ""
+
+#: $string['learner_ability_level2']
+msgctxt "$string['learner_ability_level2']"
+msgid "poor"
+msgstr ""
+
+#: $string['learner_ability_level3']
+msgctxt "$string['learner_ability_level3']"
+msgid "average"
+msgstr ""
+
+#: $string['learner_ability_level4']
+msgctxt "$string['learner_ability_level4']"
+msgid "good"
+msgstr ""
+
+#: $string['learner_ability_level5']
+msgctxt "$string['learner_ability_level5']"
+msgid "excellent"
+msgstr ""
+
+#: $string['learner_age']
+msgid "Age"
+msgstr ""
+
+#: $string['learner_age_help']
+msgid "How is your age (in years)?"
+msgstr ""
+
+#: $string['learner_aim']
+msgctxt "$string['learner_aim']"
+msgid "Aim"
+msgstr ""
+
+#: $string['learner_aim_help']
+msgctxt "$string['learner_aim_help']"
+msgid "-"
+msgstr ""
+
+#: $string['learner_aim_level1']
+msgid "unimportant"
+msgstr ""
+
+#: $string['learner_aim_level2']
+msgid "less important"
+msgstr ""
+
+#: $string['learner_aim_level3']
+msgid "average important"
+msgstr ""
+
+#: $string['learner_aim_level4']
+msgid "mostly important"
+msgstr ""
+
+#: $string['learner_aim_level5']
+msgid "neccessary"
+msgstr ""
+
+#: $string['learner_certificate']
+msgid "Certificate"
+msgstr ""
+
+#: $string['learner_certificate_help']
+msgctxt "$string['learner_certificate_help']"
+msgid "-"
+msgstr ""
+
+#: $string['learner_certificate_level1']
+msgctxt "$string['learner_certificate_level1']"
+msgid "not aquired"
+msgstr ""
+
+#: $string['learner_certificate_level2']
+msgctxt "$string['learner_certificate_level2']"
+msgid "poor"
+msgstr ""
+
+#: $string['learner_certificate_level3']
+msgctxt "$string['learner_certificate_level3']"
+msgid "average"
+msgstr ""
+
+#: $string['learner_certificate_level4']
+msgctxt "$string['learner_certificate_level4']"
+msgid "good"
+msgstr ""
+
+#: $string['learner_certificate_level5']
+msgctxt "$string['learner_certificate_level5']"
+msgid "excellent"
+msgstr ""
+
+#: $string['learner_difficulty']
+msgid "Course-specific knowledge"
+msgstr ""
+
+#: $string['learner_difficulty_help']
+msgid "How good is your subject-specific knowledge for this course?"
+msgstr ""
+
+#: $string['learner_difficulty_level1']
+msgid "not started"
+msgstr ""
+
+#: $string['learner_difficulty_level2']
+msgctxt "$string['learner_difficulty_level2']"
+msgid "beginner"
+msgstr ""
+
+#: $string['learner_difficulty_level3']
+msgctxt "$string['learner_difficulty_level3']"
+msgid "advanced"
+msgstr ""
+
+#: $string['learner_difficulty_level4']
+msgctxt "$string['learner_difficulty_level4']"
+msgid "professional"
+msgstr ""
+
+#: $string['learner_difficulty_level5']
+msgctxt "$string['learner_difficulty_level5']"
+msgid "excellent"
+msgstr ""
+
+#: $string['learner_emotional_requirement_help']
+msgctxt "$string['learner_emotional_requirement_help']"
+msgid "-"
+msgstr ""
+
+#: $string['learner_expected_grade']
+msgid "Expected grade"
+msgstr ""
+
+#: $string['learner_expected_grade_help']
+msgctxt "$string['learner_expected_grade_help']"
+msgid "-"
+msgstr ""
+
+#: $string['learner_expected_grade_level1']
+msgid "just pass"
+msgstr ""
+
+#: $string['learner_expected_grade_level2']
+msgctxt "$string['learner_expected_grade_level2']"
+msgid "average"
+msgstr ""
+
+#: $string['learner_expected_grade_level3']
+msgctxt "$string['learner_expected_grade_level3']"
+msgid "good"
+msgstr ""
+
+#: $string['learner_expected_grade_level4']
+msgid "very good"
+msgstr ""
+
+#: $string['learner_expected_grade_level5']
+msgctxt "$string['learner_expected_grade_level5']"
+msgid "excellent"
+msgstr ""
+
+#: $string['learner_experience']
+msgid "General experience"
+msgstr ""
+
+#: $string['learner_experience_help']
+msgid ""
+"<p>How good is your general experience (in comparison with different age "
+"people)?</p><p>This question is relevant to guess your experience compared "
+"with the average experience of people in your age. People sitting at home "
+"lonely will have not so much experience in life compared to others while "
+"people travelling around and have seen a lot of different things will have a "
+"larger amount of experience.</p>"
+msgstr ""
+
+#: $string['learner_experience_level1']
+msgid "small girl/boy"
+msgstr ""
+
+#: $string['learner_experience_level2']
+msgid "average teenager"
+msgstr ""
+
+#: $string['learner_experience_level3']
+msgid "average adult"
+msgstr ""
+
+#: $string['learner_experience_level4']
+msgctxt "$string['learner_experience_level4']"
+msgid "professional"
+msgstr ""
+
+#: $string['learner_experience_level5']
+msgid "scientist"
+msgstr ""
+
+#: $string['learner_general_knowledge']
+msgid "General knowledge"
+msgstr ""
+
+#: $string['learner_general_knowledge_help']
+msgid "How good is your general general knowledge in average?"
+msgstr ""
+
+#: $string['learner_general_knowledge_level1']
+msgctxt "$string['learner_general_knowledge_level1']"
+msgid "poor"
+msgstr ""
+
+#: $string['learner_general_knowledge_level2']
+msgctxt "$string['learner_general_knowledge_level2']"
+msgid "below average"
+msgstr ""
+
+#: $string['learner_general_knowledge_level3']
+msgctxt "$string['learner_general_knowledge_level3']"
+msgid "average"
+msgstr ""
+
+#: $string['learner_general_knowledge_level4']
+msgctxt "$string['learner_general_knowledge_level4']"
+msgid "good"
+msgstr ""
+
+#: $string['learner_general_knowledge_level5']
+msgctxt "$string['learner_general_knowledge_level5']"
+msgid "excellent"
+msgstr ""
+
+#: $string['learner_hobby']
+msgctxt "$string['learner_hobby']"
+msgid "Hobby"
+msgstr ""
+
+#: $string['learner_hobby_help']
+msgctxt "$string['learner_hobby_help']"
+msgid "-"
+msgstr ""
+
+#: $string['learner_hobby_level1']
+msgid "not practised"
+msgstr ""
+
+#: $string['learner_hobby_level2']
+msgid "practised a few times"
+msgstr ""
+
+#: $string['learner_hobby_level3']
+msgid "regularly practised"
+msgstr ""
+
+#: $string['learner_hobby_level4']
+msgid "often practised"
+msgstr ""
+
+#: $string['learner_hobby_level5']
+msgid "practised as often as possible"
+msgstr ""
+
+#: $string['learner_interest']
+msgctxt "$string['learner_interest']"
+msgid "Interest"
+msgstr ""
+
+#: $string['learner_interest_help']
+msgctxt "$string['learner_interest_help']"
+msgid "-"
+msgstr ""
+
+#: $string['learner_interest_level1']
+msgid "not interested"
+msgstr ""
+
+#: $string['learner_interest_level2']
+msgid "hardly interested"
+msgstr ""
+
+#: $string['learner_interest_level3']
+msgid "interested"
+msgstr ""
+
+#: $string['learner_interest_level4']
+msgid "very interested"
+msgstr ""
+
+#: $string['learner_interest_level5']
+msgctxt "$string['learner_interest_level5']"
+msgid "enthusiastic"
+msgstr ""
+
+#: $string['learner_learningstyle_input']
+msgid "Preferred learning content"
+msgstr ""
+
+#: $string['learner_learningstyle_input_help']
+msgid ""
+"What input do you like more:<br/> <em>visual</em> (pictures, diagrams, "
+"graphs, demonstrations) or <em>auditory</em> (discussions, lectures, "
+"sounds)?"
+msgstr ""
+
+#: $string['learner_learningstyle_input_level1']
+msgid "preferred visual"
+msgstr ""
+
+#: $string['learner_learningstyle_input_level2']
+msgid "rather visual than verbal"
+msgstr ""
+
+#: $string['learner_learningstyle_input_level3']
+msgctxt "$string['learner_learningstyle_input_level3']"
+msgid "both equal"
+msgstr ""
+
+#: $string['learner_learningstyle_input_level4']
+msgid "rather verbal than visual"
+msgstr ""
+
+#: $string['learner_learningstyle_input_level5']
+msgid "preferred verbal"
+msgstr ""
+
+#: $string['learner_learningstyle_organization']
+msgid "Preferred organization style"
+msgstr ""
+
+#: $string['learner_learningstyle_organization_help']
+msgid ""
+"Which organization of information is most comfortable for you:<br/> "
+"<em>deductive</em> (general principles first, consequences and examples "
+"later) or <em>inductive</em> (facts are given first, underlying principles "
+"are inferred)?"
+msgstr ""
+
+#: $string['learner_learningstyle_organization_level1']
+msgid "preferred deductive"
+msgstr ""
+
+#: $string['learner_learningstyle_organization_level2']
+msgid "rather deductive than inductive"
+msgstr ""
+
+#: $string['learner_learningstyle_organization_level3']
+msgctxt "$string['learner_learningstyle_organization_level3']"
+msgid "both equal"
+msgstr ""
+
+#: $string['learner_learningstyle_organization_level4']
+msgid "rather inductive than deductive"
+msgstr ""
+
+#: $string['learner_learningstyle_organization_level5']
+msgid "preferred inductive"
+msgstr ""
+
+#: $string['learner_learningstyle_perception']
+msgid "Perception"
+msgstr ""
+
+#: $string['learner_learningstyle_perception_help']
+msgid ""
+"What kind of information do you preferentially perceive:<br/> "
+"<em>sensory</em> (sights, sounds, physical sensations) or <em>intuitive</em> "
+"(possibilities, insights, hunches)?"
+msgstr ""
+
+#: $string['learner_learningstyle_perception_level1']
+msgid "almost sensing"
+msgstr ""
+
+#: $string['learner_learningstyle_perception_level2']
+msgid "rather sensing than intuitive"
+msgstr ""
+
+#: $string['learner_learningstyle_perception_level3']
+msgctxt "$string['learner_learningstyle_perception_level3']"
+msgid "both equal"
+msgstr ""
+
+#: $string['learner_learningstyle_perception_level4']
+msgid "rather intuitive than sensing"
+msgstr ""
+
+#: $string['learner_learningstyle_perception_level5']
+msgid "almost intuitive"
+msgstr ""
+
+#: $string['learner_learningstyle_perspective']
+msgid "Preferred perspective"
+msgstr ""
+
+#: $string['learner_learningstyle_perspective_help']
+msgid ""
+"How do you understand learning material better:<br/> Progressing "
+"<em>sequentially</em> in continues steps from one material to the next or "
+"progressing <em>globally</em>, in large jumps"
+msgstr ""
+
+#: $string['learner_learningstyle_perspective_level1']
+msgid "perferred global"
+msgstr ""
+
+#: $string['learner_learningstyle_perspective_level2']
+msgid "rather global than sequencial"
+msgstr ""
+
+#: $string['learner_learningstyle_perspective_level3']
+msgctxt "$string['learner_learningstyle_perspective_level3']"
+msgid "both equal"
+msgstr ""
+
+#: $string['learner_learningstyle_perspective_level4']
+msgid "rather sequencial than global"
+msgstr ""
+
+#: $string['learner_learningstyle_perspective_level5']
+msgid "perferred sequencial"
+msgstr ""
+
+#: $string['learner_learningstyle_processing']
+msgid "Thinking style"
+msgstr ""
+
+#: $string['learner_learningstyle_processing_help']
+msgid ""
+"What is your way of thinking:<br/><em>Active</em> (through engagement in "
+"physical activity or discussion) or <em>reflective</em> (through "
+"introspection)"
+msgstr ""
+
+#: $string['learner_learningstyle_processing_level1']
+msgid "mostly active"
+msgstr ""
+
+#: $string['learner_learningstyle_processing_level2']
+msgid "rather active than reflective"
+msgstr ""
+
+#: $string['learner_learningstyle_processing_level3']
+msgctxt "$string['learner_learningstyle_processing_level3']"
+msgid "both equal"
+msgstr ""
+
+#: $string['learner_learningstyle_processing_level4']
+msgid "rather reflective than active"
+msgstr ""
+
+#: $string['learner_learningstyle_processing_level5']
+msgid "mostly reflective"
+msgstr ""
+
+#: $string['learner_license']
+msgid "Licences"
+msgstr ""
+
+#: $string['learner_license_help']
+msgctxt "$string['learner_license_help']"
+msgid "-"
+msgstr ""
+
+#: $string['learner_license_level1']
+msgctxt "$string['learner_license_level1']"
+msgid "not aquired"
+msgstr ""
+
+#: $string['learner_license_level2']
+msgctxt "$string['learner_license_level2']"
+msgid "poor"
+msgstr ""
+
+#: $string['learner_license_level3']
+msgctxt "$string['learner_license_level3']"
+msgid "average"
+msgstr ""
+
+#: $string['learner_license_level4']
+msgctxt "$string['learner_license_level4']"
+msgid "good"
+msgstr ""
+
+#: $string['learner_license_level5']
+msgctxt "$string['learner_license_level5']"
+msgid "excellent"
+msgstr ""
+
+#: $string['learner_linguistic_requirement']
+msgid "Linguistic abilities"
+msgstr ""
+
+#: $string['learner_linguistic_requirement_help']
+msgctxt "$string['learner_linguistic_requirement_help']"
+msgid "-"
+msgstr ""
+
+#: $string['learner_linguistic_requirement_level1']
+msgctxt "$string['learner_linguistic_requirement_level1']"
+msgid "poor"
+msgstr ""
+
+#: $string['learner_linguistic_requirement_level2']
+msgctxt "$string['learner_linguistic_requirement_level2']"
+msgid "below average"
+msgstr ""
+
+#: $string['learner_linguistic_requirement_level3']
+msgctxt "$string['learner_linguistic_requirement_level3']"
+msgid "average"
+msgstr ""
+
+#: $string['learner_linguistic_requirement_level4']
+msgctxt "$string['learner_linguistic_requirement_level4']"
+msgid "good"
+msgstr ""
+
+#: $string['learner_linguistic_requirement_level5']
+msgctxt "$string['learner_linguistic_requirement_level5']"
+msgid "excellent"
+msgstr ""
+
+#: $string['learner_logical_requirement']
+msgid "Mathmatical-logical abilities"
+msgstr ""
+
+#: $string['learner_logical_requirement_help']
+msgctxt "$string['learner_logical_requirement_help']"
+msgid "-"
+msgstr ""
+
+#: $string['learner_logical_requirement_level1']
+msgctxt "$string['learner_logical_requirement_level1']"
+msgid "poor"
+msgstr ""
+
+#: $string['learner_logical_requirement_level2']
+msgctxt "$string['learner_logical_requirement_level2']"
+msgid "below average"
+msgstr ""
+
+#: $string['learner_logical_requirement_level3']
+msgctxt "$string['learner_logical_requirement_level3']"
+msgid "average"
+msgstr ""
+
+#: $string['learner_logical_requirement_level4']
+msgctxt "$string['learner_logical_requirement_level4']"
+msgid "good"
+msgstr ""
+
+#: $string['learner_logical_requirement_level5']
+msgctxt "$string['learner_logical_requirement_level5']"
+msgid "excellent"
+msgstr ""
+
+#: $string['learner_motivation']
+msgid "Motivation"
+msgstr ""
+
+#: $string['learner_motivation_help']
+msgid "How is your motivation for learning today?"
+msgstr ""
+
+#: $string['learner_motivation_level1']
+msgid "frustrated"
+msgstr ""
+
+#: $string['learner_motivation_level2']
+msgid "bored"
+msgstr ""
+
+#: $string['learner_motivation_level3']
+msgctxt "$string['learner_motivation_level3']"
+msgid "average"
+msgstr ""
+
+#: $string['learner_motivation_level4']
+msgid "motivated"
+msgstr ""
+
+#: $string['learner_motivation_level5']
+msgctxt "$string['learner_motivation_level5']"
+msgid "enthusiastic"
+msgstr ""
+
+#: $string['learner_musical_requirement_help']
+msgctxt "$string['learner_musical_requirement_help']"
+msgid "-"
+msgstr ""
+
+#: $string['learner_pc_knowledge']
+msgid "PC knowledge"
+msgstr ""
+
+#: $string['learner_pc_knowledge_help']
+msgid ""
+"PC knowledge is a prerequisite to be successful in e-learning. How good are "
+"you with computers and the internet?"
+msgstr ""
+
+#: $string['learner_pc_knowledge_level1']
+msgctxt "$string['learner_pc_knowledge_level1']"
+msgid "beginner"
+msgstr ""
+
+#: $string['learner_pc_knowledge_level2']
+msgid "basic user knoweldge"
+msgstr ""
+
+#: $string['learner_pc_knowledge_level3']
+msgid "average user knoweldge"
+msgstr ""
+
+#: $string['learner_pc_knowledge_level4']
+msgid "advanced user knowledge"
+msgstr ""
+
+#: $string['learner_pc_knowledge_level5']
+msgid "advanced programmer knowledge"
+msgstr ""
+
+#: $string['learner_qualification']
+msgid "Qualification"
+msgstr ""
+
+#: $string['learner_qualification_help']
+msgctxt "$string['learner_qualification_help']"
+msgid "-"
+msgstr ""
+
+#: $string['learner_qualification_level1']
+msgctxt "$string['learner_qualification_level1']"
+msgid "not aquired"
+msgstr ""
+
+#: $string['learner_qualification_level2']
+msgctxt "$string['learner_qualification_level2']"
+msgid "poor"
+msgstr ""
+
+#: $string['learner_qualification_level3']
+msgctxt "$string['learner_qualification_level3']"
+msgid "average"
+msgstr ""
+
+#: $string['learner_qualification_level4']
+msgctxt "$string['learner_qualification_level4']"
+msgid "good"
+msgstr ""
+
+#: $string['learner_qualification_level5']
+msgctxt "$string['learner_qualification_level5']"
+msgid "excellent"
+msgstr ""
+
+#: $string['learner_reading']
+msgid "Reading ability"
+msgstr ""
+
+#: $string['learner_reading_help']
+msgctxt "$string['learner_reading_help']"
+msgid "-"
+msgstr ""
+
+#: $string['learner_reading_level1']
+msgid "not able to read"
+msgstr ""
+
+#: $string['learner_reading_level2']
+msgctxt "$string['learner_reading_level2']"
+msgid "poor"
+msgstr ""
+
+#: $string['learner_reading_level3']
+msgctxt "$string['learner_reading_level3']"
+msgid "average"
+msgstr ""
+
+#: $string['learner_reading_level4']
+msgctxt "$string['learner_reading_level4']"
+msgid "good"
+msgstr ""
+
+#: $string['learner_reading_level5']
+msgctxt "$string['learner_reading_level5']"
+msgid "excellent"
+msgstr ""
+
+#: $string['learner_social_requirement']
+msgid "Social/communication abilities"
+msgstr ""
+
+#: $string['learner_social_requirement_help']
+msgctxt "$string['learner_social_requirement_help']"
+msgid "-"
+msgstr ""
+
+#: $string['learner_social_requirement_level1']
+msgctxt "$string['learner_social_requirement_level1']"
+msgid "poor"
+msgstr ""
+
+#: $string['learner_social_requirement_level2']
+msgctxt "$string['learner_social_requirement_level2']"
+msgid "below average"
+msgstr ""
+
+#: $string['learner_social_requirement_level3']
+msgctxt "$string['learner_social_requirement_level3']"
+msgid "average"
+msgstr ""
+
+#: $string['learner_social_requirement_level4']
+msgctxt "$string['learner_social_requirement_level4']"
+msgid "good"
+msgstr ""
+
+#: $string['learner_social_requirement_level5']
+msgctxt "$string['learner_social_requirement_level5']"
+msgid "excellent"
+msgstr ""
+
+#: $string['learner_spatial_requirement_help']
+msgctxt "$string['learner_spatial_requirement_help']"
+msgid "-"
+msgstr ""
+
+#: $string['learner_spoken_language']
+msgid "Spoken language"
+msgstr ""
+
+#: $string['learner_spoken_language_help']
+msgctxt "$string['learner_spoken_language_help']"
+msgid "-"
+msgstr ""
+
+#: $string['learner_spoken_language_level1']
+msgid "not spoken"
+msgstr ""
+
+#: $string['learner_spoken_language_level2']
+msgctxt "$string['learner_spoken_language_level2']"
+msgid "poor"
+msgstr ""
+
+#: $string['learner_spoken_language_level3']
+msgctxt "$string['learner_spoken_language_level3']"
+msgid "average"
+msgstr ""
+
+#: $string['learner_spoken_language_level4']
+msgctxt "$string['learner_spoken_language_level4']"
+msgid "advanced"
+msgstr ""
+
+#: $string['learner_spoken_language_level5']
+msgid "mother tongue"
+msgstr ""
+
+#: $string['learner_writing']
+msgid "Writing ability"
+msgstr ""
+
+#: $string['learner_writing_help']
+msgctxt "$string['learner_writing_help']"
+msgid "-"
+msgstr ""
+
+#: $string['learner_writing_level1']
+msgid "not able to write"
+msgstr ""
+
+#: $string['learner_writing_level2']
+msgctxt "$string['learner_writing_level2']"
+msgid "poor"
+msgstr ""
+
+#: $string['learner_writing_level3']
+msgctxt "$string['learner_writing_level3']"
+msgid "average"
+msgstr ""
+
+#: $string['learner_writing_level4']
+msgctxt "$string['learner_writing_level4']"
+msgid "good"
+msgstr ""
+
+#: $string['learner_writing_level5']
+msgctxt "$string['learner_writing_level5']"
+msgid "excellent"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Learner preferences"
+msgstr ""
+
+#: $string['subtype']
+msgid "Subtype of Attribute"
+msgstr ""
+
+#: $string['subtype_help']
+msgid ""
+"For language/knowledge attributes, aims and interests of a learner multiple "
+"attributes can be entered which each one belongs to a single "
+"language/aim/interest/... <br/>In this field an specific description of the "
+"attribute can be given, for example &quot;English&quot; for a language, "
+"&quot;MBA$quot; as an expected grade or &quot;religion$quot; as an interest."
+msgstr ""
+
+#: $string['title_attribute']
+msgid "Attribute"
+msgstr ""
+
+#: $string['title_attribute_definition']
+msgid "Attribute definitions for Learner metadata"
+msgstr ""
+
+#: $string['title_group']
+msgid "Attribute group"
+msgstr ""
+
+#: $string['title_group_aims']
+msgid "Aims"
+msgstr ""
+
+#: $string['title_group_general']
+msgid "General"
+msgstr ""
+
+#: $string['title_group_interests']
+msgid "Interests"
+msgstr ""
+
+#: $string['title_group_knowledge']
+msgid "Knowledge/Certificates"
+msgstr ""
+
+#: $string['title_group_preferences']
+msgid "Personal preferences"
+msgstr ""
+
+#: $string['title_level']
+msgid "Level"
+msgstr ""
+
+#: $string['title_level1']
+msgid "Lowest level"
+msgstr ""
+
+#: $string['title_level2']
+msgid "2nd level"
+msgstr ""
+
+#: $string['title_level3']
+msgid "3rd level"
+msgstr ""
+
+#: $string['title_level4']
+msgid "4th level"
+msgstr ""
+
+#: $string['title_level5']
+msgid "Highest level"
+msgstr ""
+
+#: $string['title_subtype']
+msgid "Subtype"
+msgstr ""
+
+#: $string['title_subtype_ability']
+msgctxt "$string['title_subtype_ability']"
+msgid "Ability"
+msgstr ""
+
+#: $string['title_subtype_aim']
+msgctxt "$string['title_subtype_aim']"
+msgid "Aim"
+msgstr ""
+
+#: $string['title_subtype_certificate']
+msgid "Certificate description"
+msgstr ""
+
+#: $string['title_subtype_difficulty']
+msgid "Course"
+msgstr ""
+
+#: $string['title_subtype_expected_grade']
+msgid "Description of expected grade"
+msgstr ""
+
+#: $string['title_subtype_hobby']
+msgctxt "$string['title_subtype_hobby']"
+msgid "Hobby"
+msgstr ""
+
+#: $string['title_subtype_interest']
+msgctxt "$string['title_subtype_interest']"
+msgid "Interest"
+msgstr ""
+
+#: $string['title_subtype_license']
+msgid "License description"
+msgstr ""
+
+#: $string['title_subtype_qualification']
+msgid "Qualification description"
+msgstr ""
+
+#: $string['title_subtype_reading']
+msgctxt "$string['title_subtype_reading']"
+msgid "Language"
+msgstr ""
+
+#: $string['title_subtype_spoken_language']
+msgctxt "$string['title_subtype_spoken_language']"
+msgid "Language"
+msgstr ""
+
+#: $string['title_subtype_writing']
+msgctxt "$string['title_subtype_writing']"
+msgid "Language"
+msgstr ""
+
+#: $string['title_tracking']
+msgid "This property is adapted automatically via learner tracking processes"
+msgstr ""
+
+#: $string['title_type']
+msgid "Type"
+msgstr ""
+
+#: $string['title_type_number']
+msgid "Numeric value"
+msgstr ""
+
+#: $string['title_type_range']
+msgid "Classification"
+msgstr ""
+
+#: $string['title_value']
+msgid "Limit"
+msgstr ""
+
+#: $string['title_value2']
+msgid "Value"
+msgstr ""
+
+#: $string['title_values']
+msgid "Limits"
+msgstr ""

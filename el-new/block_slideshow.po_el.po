@@ -1,0 +1,278 @@
+#. extracted from lang/en/block_slideshow.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_slideshow', language 'en', branch 'MOODLE_31_STABLE'
+#.  *
+#.  * @package   block_slideshow
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['background']
+msgid "Background color <script> //test </script>"
+msgstr ""
+
+#: $string['background_help']
+msgid ""
+"Click in the textbox and a color picker tool will pop up. Find your color "
+"and click [Choose]."
+msgstr ""
+
+#: $string['blindX']
+msgid "Horizontal Blind"
+msgstr ""
+
+#: $string['blindY']
+msgid "Vertical Blind"
+msgstr ""
+
+#: $string['blindZ']
+msgid "Outward Blind"
+msgstr ""
+
+#: $string['blockbackgrounderror']
+msgid "Please enter only a valid 3 or 6 digit hex color code."
+msgstr ""
+
+#: $string['blockheight']
+msgid "Slideshow Height"
+msgstr ""
+
+#: $string['blockheighterror']
+msgctxt "$string['blockheighterror']"
+msgid "Please enter only numbers, no letters."
+msgstr ""
+
+#: $string['blockheight_help']
+msgid ""
+"Enter the height of the slideshow (in pixels).  Please enter only numbers, "
+"not units.<ul><li>Correct: <code>200</code></li><li>Incorrect: "
+"<code>200px</code></li></ul>Leave blank for auto height (i.e. height of "
+"largest slide)."
+msgstr ""
+
+#: $string['blocktitle']
+msgid "Title"
+msgstr ""
+
+#: $string['blocktitle_help']
+msgid "To completely remove the heading, leave this blank."
+msgstr ""
+
+#: $string['carousel']
+msgid "Carousel"
+msgstr ""
+
+#: $string['cover']
+msgid "Cover"
+msgstr ""
+
+#: $string['curtainX']
+msgid "Horizontal Curtain"
+msgstr ""
+
+#: $string['curtainY']
+msgid "Vertical Curtain"
+msgstr ""
+
+#: $string['descconfig']
+msgid "Use this form to set the global controls for the slideshow"
+msgstr ""
+
+#: $string['descmaxsize']
+msgid ""
+"Select the largest file size that can be uploaded to the slideshow.  Keep in "
+"mind that smaller sizes will restrict images to low quality but larger "
+"sizes will affect page load time."
+msgstr ""
+
+#: $string['descmaxslides']
+msgid "Use this to set the maximum number of slides in the show"
+msgstr ""
+
+#: $string['fade']
+msgid "Fade"
+msgstr ""
+
+#: $string['fadeout']
+msgid "Fade Out"
+msgstr ""
+
+#: $string['flipHorz']
+msgid "Flip Horizontal"
+msgstr ""
+
+#: $string['flipVert']
+msgid "Flip Vertical"
+msgstr ""
+
+#: $string['half']
+msgid "Half Second"
+msgstr ""
+
+#: $string['headerconfig']
+msgid "Global Slideshow Controls"
+msgstr ""
+
+#: $string['imagefile']
+msgid "Images"
+msgstr ""
+
+#: $string['imagefile_help']
+msgid ""
+"You can drag all your images at once into this block.  Alternatively, click "
+"the \"Add...\" button to add one file at a time."
+msgstr ""
+
+#: $string['labelmaxsize']
+msgid "Max File Size"
+msgstr ""
+
+#: $string['labelmaxslides']
+msgid "Maximum slides"
+msgstr ""
+
+#: $string['none']
+msgid "None"
+msgstr ""
+
+#: $string['normalblock']
+msgid "Display as Block"
+msgstr ""
+
+#: $string['normalblock_help']
+msgid ""
+"If this is checked, the slideshow will behave as a normal block: it will be "
+"displayed in the side columns and be able to be docked."
+msgstr ""
+
+#: $string['normalblocklabel']
+msgid "Check this to have the slideshow display in a block region"
+msgstr ""
+
+#: $string['onlynumbers']
+msgctxt "$string['onlynumbers']"
+msgid "Please enter only numbers, no letters."
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Slideshow"
+msgstr ""
+
+#: $string['quarter']
+msgid "Quarter Second"
+msgstr ""
+
+#: $string['scrollHorz']
+msgid "Scroll Horizontally"
+msgstr ""
+
+#: $string['scrollVert']
+msgid "Scroll Vertically"
+msgstr ""
+
+#: $string['second']
+msgid "Second"
+msgstr ""
+
+#: $string['seconds']
+msgid "Seconds"
+msgstr ""
+
+#: $string['shuffle']
+msgid "Shuffle"
+msgstr ""
+
+#: $string['slidedelay']
+msgid "Display time"
+msgstr ""
+
+#: $string['slidedelay_help']
+msgid ""
+"This is the time a slide is displayed.  However, if this value is set to a "
+"value lower than the transition speed, the transition speed will be added to "
+"it.  For example, if the Display time is 1 second and the Transition speed "
+"is 3 seconds, the slide will show for 4 seconds before it starts the "
+"transition."
+msgstr ""
+
+#: $string['slideshow']
+msgctxt "$string['slideshow']"
+msgid "Slideshow"
+msgstr ""
+
+#: $string['slideshow:addinstance']
+msgid "Add a new slideshow block"
+msgstr ""
+
+#: $string['slideshow:myaddinstance']
+msgid "Add a new slideshow HTML block to the My Moodle page"
+msgstr ""
+
+#: $string['slidespeed']
+msgid "Transitions Speed"
+msgstr ""
+
+#: $string['slidespeed_help']
+msgid "This value determines the speed of the actual transition."
+msgstr ""
+
+#: $string['tenth']
+msgid "Tenth Second"
+msgstr ""
+
+#: $string['tileBlind']
+msgid "Tile - Blinds"
+msgstr ""
+
+#: $string['tileSlide']
+msgid "Tile - Slide"
+msgstr ""
+
+#: $string['transition']
+msgid "Transition"
+msgstr ""
+
+#: $string['transition_help']
+msgid ""
+"For examples of these transitions, <a "
+"href=\"http://jquery.malsup.com/cycle2/demo\" target=\"_blank\">click here</a>"
+msgstr ""
+
+#: $string['transparent']
+msgid "Transparent"
+msgstr ""
+
+#: $string['transparent_help']
+msgid "If this is checked, the background color setting will have no effect"
+msgstr ""
+
+#: $string['transparentlabel']
+msgid "Check this to have the slideshow background be transparent"
+msgstr ""

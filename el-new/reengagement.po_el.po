@@ -1,0 +1,364 @@
+#. extracted from lang/en/reengagement.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'reengagement', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   reengagement
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['activitycompleted']
+msgid "This activity has been marked as complete"
+msgstr ""
+
+#: $string['afterdelay']
+msgid "After delay"
+msgstr ""
+
+#: $string['completeattimex']
+msgid "This activity will complete at {$a}"
+msgstr ""
+
+#: $string['completion']
+msgid "Completion"
+msgstr ""
+
+#: $string['completiontime']
+msgid "Completion time"
+msgstr ""
+
+#: $string['completionwillturnon']
+msgid ""
+"Note that adding this activity to the course will enable activity "
+"completion."
+msgstr ""
+
+#: $string['crontask']
+msgid "Reengagement cron task"
+msgstr ""
+
+#: $string['days']
+msgid "Days"
+msgstr ""
+
+#: $string['duration']
+msgid "Duration"
+msgstr "Διάρκεια"
+
+#: $string['duration_help']
+msgid ""
+"<p>The reengagement duration is the period of time between a user starting a "
+"reengagement, and being marked as finished.\n"
+"The reengagement duration is specified as a period length (eg Weeks) and "
+"number of period (eg 7).</p>\n"
+"\n"
+"<p>This example would mean that a user starting a reengagement period now "
+"would be marked as compete in 7 weeks time.</p>"
+msgstr ""
+
+#: $string['emailcontent']
+msgid "Email content (User)"
+msgstr ""
+
+#: $string['emailcontentdefaultvalue']
+msgid "This is a reminder email from course %coursename%."
+msgstr ""
+
+#: $string['emailcontent_help']
+msgid ""
+"When the module sends a user an email, it takes the email content from this "
+"field."
+msgstr ""
+
+#: $string['emailcontentmanager']
+msgid "Email content (Manager)"
+msgstr ""
+
+#: $string['emailcontentmanagerdefaultvalue']
+msgctxt "$string['emailcontentmanagerdefaultvalue']"
+msgid ""
+"This is a reminder email from course %coursename%, regarding user %"
+"userfirstname% %userlastname%."
+msgstr ""
+
+#: $string['emailcontentmanager_help']
+msgid ""
+"When the module sends a user's manager an email, it takes the email content "
+"from this field."
+msgstr ""
+
+#: $string['emailcontentthirdparty']
+msgid "Email content (Third-party)"
+msgstr ""
+
+#: $string['emailcontentthirdpartydefaultvalue']
+msgctxt "$string['emailcontentthirdpartydefaultvalue']"
+msgid ""
+"This is a reminder email from course %coursename%, regarding user %"
+"userfirstname% %userlastname%."
+msgstr ""
+
+#: $string['emailcontentthirdparty_help']
+msgid ""
+"When the module sends a third-party an email, it takes the email content "
+"from this field."
+msgstr ""
+
+#: $string['emaildelay']
+msgid "Email delay"
+msgstr ""
+
+#: $string['emaildelay_help']
+msgid ""
+"When module is set to email users \"after delay\", this setting controls how "
+"long the delay is."
+msgstr ""
+
+#: $string['emailrecipient']
+msgid "Email recipient(s)"
+msgstr ""
+
+#: $string['emailrecipient_help']
+msgid ""
+"When an email needs to be sent out to prompt a user's re-engagement with the "
+"course, this setting controls if an email is sent to the user, their "
+"manager, or both."
+msgstr ""
+
+#: $string['emailsubject']
+msgid "Email subject (User)"
+msgstr ""
+
+#: $string['emailsubject_help']
+msgid ""
+"When the module sends a user an email, it takes the email subject from this "
+"field."
+msgstr ""
+
+#: $string['emailsubjectmanager']
+msgid "Email subject (Manager)"
+msgstr ""
+
+#: $string['emailsubjectmanager_help']
+msgid ""
+"When the module sends a user's manager an email, it takes the email subject "
+"from this field."
+msgstr ""
+
+#: $string['emailsubjectthirdparty']
+msgid "Email subject (Third-party)"
+msgstr ""
+
+#: $string['emailsubjectthirdparty_help']
+msgid ""
+"When the module sends a third-party an email, it takes the email subject "
+"from this field."
+msgstr ""
+
+#: $string['emailtime']
+msgid "Email time"
+msgstr ""
+
+#: $string['emailuser']
+msgid "Email user"
+msgstr ""
+
+#: $string['emailuser_help']
+msgid ""
+"When the activity should email users: <ul>\n"
+"<li>Never: Don't email users.</li>\n"
+"<li>On reengagement completion: Email the user when the reengagement "
+"activity is completed.</li>\n"
+"<li>After Delay: Email the user a set time after they have started the "
+"module.</li>\n"
+"</ul>"
+msgstr ""
+
+#: $string['frequencytoohigh']
+msgid "The maximum reminder count with the delay period you have set is {$a}."
+msgstr ""
+
+#: $string['hours']
+msgid "Hours"
+msgstr ""
+
+#: $string['introdefaultvalue']
+msgid ""
+"This is a reengagement activity.  Its purpose is to enforce a time lapse "
+"between the activities which preceed it, and the activities which follow it."
+msgstr ""
+
+#: $string['minutes']
+msgid "Minutes"
+msgstr ""
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Reengagement"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Reengagements"
+msgstr ""
+
+#: $string['never']
+msgid "Never"
+msgstr ""
+
+#: $string['noemailattimex']
+msgid ""
+"Message scheduled for {$a} will not be sent because you have completed the "
+"target activity"
+msgstr ""
+
+#: $string['nosuppresstarget']
+msgid "No target activity selected"
+msgstr ""
+
+#: $string['oncompletion']
+msgid "On reengagement completion"
+msgstr ""
+
+#: $string['periodtoolow']
+msgid "The delay is too low - it must be at least 5 minutes."
+msgstr ""
+
+#: $string['pluginadministration']
+msgctxt "$string['pluginadministration']"
+msgid ""
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Reengagement"
+msgstr ""
+
+#: $string['receiveemailattimex']
+msgid "Message will be sent on {$a}."
+msgstr ""
+
+#: $string['receiveemailattimexunless']
+msgid "Message will be sent on {$a} unless you complete target activity."
+msgstr ""
+
+#: $string['reengagement']
+msgid "reengagement"
+msgstr ""
+
+#: $string['reengagement:addinstance']
+msgid "reengagement:addinstance"
+msgstr ""
+
+#: $string['reengagementduration']
+msgid "Reengagement duration"
+msgstr ""
+
+#: $string['reengagement:editreengagementduration']
+msgid "Edit Reengagement Duration"
+msgstr ""
+
+#: $string['reengagementfieldset']
+msgid "Reengagement details"
+msgstr ""
+
+#: $string['reengagement:getnotifications']
+msgid "Receive notification of reengagement completions"
+msgstr ""
+
+#: $string['reengagementintro']
+msgid "Reengagement intro"
+msgstr ""
+
+#: $string['reengagementname']
+msgid "Reengagement name"
+msgstr ""
+
+#: $string['reengagementsinprogress']
+msgid "Reengagements in progress"
+msgstr ""
+
+#: $string['reengagement:startreengagement']
+msgid "Start Reengagement"
+msgstr ""
+
+#: $string['remindercount']
+msgid "Reminder count"
+msgstr ""
+
+#: $string['remindercount_help']
+msgid ""
+"This is the number of times an e-mail is sent after each delay period. There "
+"are some limits to the values you can use<ul>\n"
+"<li>less than 24 hrs - limit of 2 reminders.</li>\n"
+"<li>less than 5 days - limit of 10 reminders.</li>\n"
+"<li>less than 15 days - limit of 26 reminders.</li>\n"
+"<li>over 15 days - maximum limit of 40 reminders.</li></ul>"
+msgstr ""
+
+#: $string['search:activity']
+msgid "Reengagement - activity information"
+msgstr ""
+
+#: $string['suppressemail']
+msgid "Suppress email if target activity complete"
+msgstr ""
+
+#: $string['suppressemail_help']
+msgid ""
+"This option instructs the activity to suppress emails to users where a named "
+"activity is complete."
+msgstr ""
+
+#: $string['suppresstarget']
+msgid "Target activity."
+msgstr ""
+
+#: $string['suppresstarget_help']
+msgid ""
+"Use this dropdown to choose which activity should be checked for completion "
+"before sending the reminder email."
+msgstr ""
+
+#: $string['thirdpartyemails']
+msgid "Third-party recipients"
+msgstr ""
+
+#: $string['thirdpartyemails_help']
+msgid ""
+"A comma-separated list of email addresses for third-parties that should be "
+"receiving an email when the user does."
+msgstr ""
+
+#: $string['userandmanager']
+msgid "User and Manager"
+msgstr ""
+
+#: $string['weeks']
+msgid "Weeks"
+msgstr ""

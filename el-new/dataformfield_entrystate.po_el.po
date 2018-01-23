@@ -1,0 +1,118 @@
+#. extracted from lang/en/dataformfield_entrystate.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'dataformfield_entrystate', language 'en', branch 'MOODLE_30_STABLE'
+#.  *
+#.  * @package   dataformfield_entrystate
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['allowedto']
+msgctxt "$string['allowedto']"
+msgid "Allowed to"
+msgstr ""
+
+#: $string['allowedto_help']
+msgctxt "$string['allowedto_help']"
+msgid "Allowed to"
+msgstr ""
+
+#: $string['alreadyinstate']
+msgid ""
+"The entry ({$a->entryid}) is already in the requested state {$a->newstate}."
+msgstr ""
+
+#: $string['entrystate:addinstance']
+msgid "Add a new Entry state dataformfield"
+msgstr ""
+
+#: $string['incorrectstate']
+msgid "The requested state {$a} could not be found."
+msgstr ""
+
+#: $string['instatingdenied']
+msgid "You are not permitted to change the state of this entry."
+msgstr ""
+
+#: $string['notify']
+msgctxt "$string['notify']"
+msgid "Notify"
+msgstr ""
+
+#: $string['notify_help']
+msgctxt "$string['notify_help']"
+msgid "Notify"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Entry state"
+msgstr ""
+
+#: $string['state']
+msgid "State"
+msgstr ""
+
+#: $string['statechanged']
+msgid "The state of entry id {$a->id} has changed from {$a->old} to {$a->new}."
+msgstr ""
+
+#: $string['stateicon']
+msgctxt "$string['stateicon']"
+msgid "State Icon"
+msgstr ""
+
+#: $string['stateicon_help']
+msgctxt "$string['stateicon_help']"
+msgid "State Icon"
+msgstr ""
+
+#: $string['states']
+msgid "States"
+msgstr ""
+
+#: $string['states_help']
+msgid ""
+"State names, one per line. Example:<p>Draft<br />Submitted<br "
+"/>Approved</p>The list of states should be saved before transitions can "
+"added."
+msgstr ""
+
+#: $string['transition']
+msgid "Transition"
+msgstr ""
+
+#: $string['transition_help']
+msgid ""
+"A list of states that can be advanced to from this state. Each state in a "
+"new line."
+msgstr ""
+
+#: $string['transitions']
+msgid "Transitions"
+msgstr ""

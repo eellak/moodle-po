@@ -1,0 +1,301 @@
+#. extracted from lang/en/gradereport_gradedist.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'gradereport_gradedist', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   gradereport_gradedist
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['a']
+msgid "(absolute)"
+msgstr ""
+
+#: $string['absolut']
+msgid "Absolute"
+msgstr ""
+
+#: $string['actcoverage']
+msgid "Items not included by current letters:"
+msgstr ""
+
+#: $string['actualcolumns']
+msgid "current grade letters"
+msgstr ""
+
+#: $string['actualgrade']
+msgid "Grade (current)"
+msgstr ""
+
+#: $string['boundaryerror']
+msgid ""
+"Some entries for new grade letters may be invalid. There must be input on "
+"each field"
+msgstr ""
+
+#: $string['category']
+msgid "Gradecategory"
+msgstr ""
+
+#: $string['changeletters']
+msgctxt "$string['changeletters']"
+msgid "Change grade letters"
+msgstr ""
+
+#: $string['chart']
+msgid "Chart"
+msgstr ""
+
+#: $string['columns']
+msgid "Bars"
+msgstr ""
+
+#: $string['confirm']
+msgctxt "$string['confirm']"
+msgid "Change grade letters"
+msgstr ""
+
+#: $string['confirmationtableviewed']
+msgid "Confirmation table viewed"
+msgstr ""
+
+#: $string['confirmationtableviewed_description']
+msgid ""
+"The user with id {$a->userid} viewed the grade distribution confirmation "
+"table."
+msgstr ""
+
+#: $string['contextbuttontitle']
+msgid "Chart context menu"
+msgstr ""
+
+#: $string['coursesum']
+msgid "Sum for the course"
+msgstr ""
+
+#: $string['coverage']
+msgid "The new grade distribution does not cover all grades!"
+msgstr ""
+
+#: $string['coverage_export']
+msgid "Items not included by letters:"
+msgstr ""
+
+#: $string['decimals']
+msgid ""
+"The lower boundary has to be a number from 0 to 100. Maximum two decimal "
+"places are allowed."
+msgstr ""
+
+#: $string['description']
+msgid "Labelling"
+msgstr ""
+
+#: $string['download']
+msgid "Download"
+msgstr "Λήψη"
+
+#: $string['downloadjpeg']
+msgid "Download JPEG image"
+msgstr "Λήψη εικόνας JPEG"
+
+#: $string['downloadpdf']
+msgid "Download PDF document"
+msgstr "Λήψη εγγράφου PDF"
+
+#: $string['downloadpng']
+msgid "Download PNG image"
+msgstr "Λήψη εικόνας PNG"
+
+#: $string['downloadsvg']
+msgid "Download SVG vector image"
+msgstr "Λήψη διανυσματικής εικόνας SVG"
+
+#: $string['export']
+msgid "Download data as"
+msgstr "Λήψη δεδομένων ως"
+
+#: $string['gradeboundary']
+msgid "Lower boundary in %"
+msgstr ""
+
+#: $string['gradeboundary_help']
+msgid ""
+"The setting determines the minimum percentage over which grades will be "
+"assigned to the grade letter."
+msgstr ""
+
+#: $string['gradeboundary_new']
+msgid "New lower boundary in %"
+msgstr ""
+
+#: $string['gradeboundary_new_help']
+msgid ""
+"You can see the effects of new lower boundaries on the distribution of "
+"grades. Lower boundaries have to be numbers with max. 2 decimal points."
+msgstr ""
+
+#: $string['gradedistdownloaded']
+msgid "Current grade distribution downloaded"
+msgstr ""
+
+#: $string['gradedistdownloaded_description']
+msgid ""
+"The user with id {$a->userid} downloaded the current grade distribution."
+msgstr ""
+
+#: $string['gradedist:edit']
+msgid "Manage grade distribution"
+msgstr ""
+
+#: $string['gradedist:view']
+msgid "View grade distribution"
+msgstr ""
+
+#: $string['gradedistviewed']
+msgid "Grade distribution viewed"
+msgstr ""
+
+#: $string['gradedistviewed_description']
+msgid "The user with id {$a->userid} viewed the grade distribution."
+msgstr ""
+
+#: $string['gradeitem']
+msgid "Grading column"
+msgstr ""
+
+#: $string['gradeletter']
+msgid "Grade letters"
+msgstr ""
+
+#: $string['highchartsmissing']
+msgid ""
+"To view the diagram download version 4.x of the Highcharts library from <a "
+"href=\"http://code.highcharts.com/\">http://code.highcharts.com/</a>. Copy "
+"both together, the core module highcharts.src.js and the exporting.src.js "
+"module, or alternatively if you prefer their minified versions highcharts.js "
+"and exporting.js respectively, into the directory "
+"moodleroot/grade/report/gradedist/js."
+msgstr ""
+
+#: $string['interval']
+msgid "The lower boundary has to be in between 0 and 100."
+msgstr ""
+
+#: $string['labelgroup']
+msgid "Focus view on group"
+msgstr ""
+
+#: $string['labelgrouping']
+msgid "Focus view on grouping"
+msgstr ""
+
+#: $string['newcolumns']
+msgid "new grade letters"
+msgstr ""
+
+#: $string['newcoverage']
+msgid "Items not included by new letters:"
+msgstr ""
+
+#: $string['newgrade']
+msgid "Grade (new)"
+msgstr ""
+
+#: $string['newletterssubmitted']
+msgid "New grade letters submitted"
+msgstr ""
+
+#: $string['newletterssubmitted_description']
+msgid "The user with id {$a->userid} submitted the new grade letters."
+msgstr ""
+
+#: $string['nogroupingentry']
+msgid "No grouping"
+msgstr ""
+
+#: $string['notification']
+msgid ""
+"Note: The definition of grade letters applies to all grade items in the "
+"course."
+msgstr ""
+
+#: $string['p']
+msgid "(%)"
+msgstr ""
+
+#: $string['percent']
+msgid "Percent"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Grade distribution"
+msgstr ""
+
+#: $string['pluginname_help']
+msgid ""
+"This report shows the distribution of grades over a particular grade item "
+"depending on the lower bounds defined for the grade letters. The preview "
+"functionality allows you to see immediately how changes to the lower "
+"boundaries of grade letters affect the grade distribution. If you are "
+"satisfied with the new lower boundaries the definitions of the grade letters "
+"can be permanently changed.\n"
+"Note: The definition of grade letters applies to all grade items in the "
+"course."
+msgstr ""
+
+#: $string['points']
+msgid "Points ({$a})"
+msgstr ""
+
+#: $string['predecessor']
+msgid ""
+"The lower boundary of a grade letter has to be smaller than the boundary of "
+"his predecessor."
+msgstr ""
+
+#: $string['printchart']
+msgid "Print chart"
+msgstr ""
+
+#: $string['saved']
+msgid "Grade letters successfully changed."
+msgstr ""
+
+#: $string['showgradeitem']
+msgid "Display grade item"
+msgstr ""
+
+#: $string['showgradeitem_description']
+msgid "Show grade display type as choice for grade item."
+msgstr ""
+
+#: $string['sum']
+msgid "Sum"
+msgstr ""

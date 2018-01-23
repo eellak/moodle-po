@@ -1,0 +1,215 @@
+#. extracted from lang/en/auth_saml2sso.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'auth_saml2sso', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   auth_saml2sso
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['auth_saml2ssodescription']
+msgid "Users can login using SAML2 Identity Provider"
+msgstr ""
+
+#: $string['error_create_user']
+msgid ""
+"A error occured when create a user account. Please, contact the "
+"administrator."
+msgstr ""
+
+#: $string['error_entityid']
+msgid "A SP source name must be given"
+msgstr ""
+
+#: $string['error_field_idp_firstname']
+msgid "The Firstname field from IdP is mandatory"
+msgstr ""
+
+#: $string['error_field_idp_lastname']
+msgid "The lastname field from IdP is mandatory"
+msgstr ""
+
+#: $string['error_idpattr']
+msgid "A Username mapping attribute must be given"
+msgstr ""
+
+#: $string['error_lockconfig_field_map_email']
+msgid "The Email address in Data mapping fields is mandatory"
+msgstr ""
+
+#: $string['error_lockconfig_field_map_firstname']
+msgid "The First name in Data mapping fields is mandatory"
+msgstr ""
+
+#: $string['error_lockconfig_field_map_lastname']
+msgid "The Surname in Data mapping fields is mandatory"
+msgstr ""
+
+#: $string['error_sp_path']
+msgid "A SAML2 Service Provider (SP) path must be given in config"
+msgstr ""
+
+#: $string['help_autocreate']
+msgid "Allow create new users?"
+msgstr ""
+
+#: $string['help_dual_login']
+msgid ""
+"Define if users can log-in directly to Moodle. To bypass IdP you should add "
+"saml=off parameter. Ex.: /login/index.php?saml=off"
+msgstr ""
+
+#: $string['help_edit_profile']
+msgid "If users cannot edit profile, they won't see the link to profile"
+msgstr ""
+
+#: $string['help_entityid']
+msgid "SP source name available in /config/authsources.php"
+msgstr ""
+
+#: $string['help_field_idp_firstname']
+msgid "Field from IdP containing the user first name"
+msgstr ""
+
+#: $string['help_field_idp_fullname']
+msgid ""
+"The username from IdP is a single field? If yes, fill with the same value in "
+"the fields firstname and lastname below"
+msgstr ""
+
+#: $string['help_field_idp_lastname']
+msgid "Field from IdP containing the user last name"
+msgstr ""
+
+#: $string['help_idpattr']
+msgid "Which attribute from IdP should be used for username?"
+msgstr ""
+
+#: $string['help_logout_url_redir']
+msgid ""
+"URL to redirect users on logout. If the URL is invalid or empty, it will "
+"redirect to Moodle main page. (ex.: https://go.to/another/url)"
+msgstr ""
+
+#: $string['help_moodle_mapping']
+msgid ""
+"Where to check if the username exists? If using idnumber, remember to "
+"mapping in Data mapping below"
+msgstr ""
+
+#: $string['help_single_signoff']
+msgid "Single Sign Off users from Moodle and IdP?"
+msgstr ""
+
+#: $string['help_sp_path']
+msgid "Absolute path to SP installation. Ex.: /var/www/simplesamlphp/"
+msgstr ""
+
+#: $string['label_autocreate']
+msgid "Auto create users"
+msgstr ""
+
+#: $string['label_dual_login']
+msgid "Dual login"
+msgstr ""
+
+#: $string['label_edit_profile']
+msgid "Can user edit profile?"
+msgstr ""
+
+#: $string['label_entityid']
+msgid "SP source name"
+msgstr ""
+
+#: $string['label_field_idp_firstname']
+msgid "Firstname field from IdP"
+msgstr ""
+
+#: $string['label_field_idp_fullname']
+msgid "Full name from IdP"
+msgstr "Πλήρες όνομα από IdP"
+
+#: $string['label_field_idp_lastname']
+msgid "Lastname field from IdP"
+msgstr ""
+
+#: $string['label_idpattr']
+msgid "Username mapping"
+msgstr ""
+
+#: $string['label_instructions_p1']
+msgid ""
+"<p>You must fill the following Data mapping fields as:</p><ul><li>Firstname "
+"=> givenName</li><li>Surname => surname</li><li>Email address: => "
+"email</li></ul><p>You can change this in <code>$stringMapping</code> array "
+"in <code>auth.php</code></p>"
+msgstr ""
+
+#: $string['label_instructions_title']
+msgid "Instructions"
+msgstr ""
+
+#: $string['label_logout']
+msgid "Click here to logout"
+msgstr ""
+
+#: $string['label_logout_url_redir']
+msgid "Logout URL"
+msgstr ""
+
+#: $string['label_moodle_mapping']
+msgid "Username checking"
+msgstr ""
+
+#: $string['label_single_signoff']
+msgid "Single Sign Off"
+msgstr ""
+
+#: $string['label_sp_path']
+msgid "SAML2 Service Provider (SP)"
+msgstr ""
+
+#: $string['nouser']
+msgid ""
+"There's no user with the provided Id and auto signup is not allowed. The "
+"provided Id is:"
+msgstr ""
+
+#: $string['pluginname']
+msgid "SAML2 SSO Auth"
+msgstr ""
+
+#: $string['settings_saml2sso']
+msgctxt "$string['settings_saml2sso']"
+msgid ""
+msgstr ""
+
+#: $string['success_config']
+msgid "All the config fields were saved successfully"
+msgstr ""

@@ -1,0 +1,1246 @@
+#. extracted from lang/en/block_workflow.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_workflow', language 'en', branch 'MOODLE_31_STABLE'
+#.  *
+#.  * @package   block_workflow
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['activetasktitle']
+msgid "Currently active task"
+msgstr ""
+
+#: $string['addanotherworkflow']
+msgid "Add another workflow"
+msgstr ""
+
+#: $string['addaworkflow']
+msgid "Add a workflow"
+msgstr ""
+
+#: $string['addemail']
+msgid "Add email template"
+msgstr ""
+
+#: $string['addroletostep']
+msgid "Add role to step"
+msgstr ""
+
+#: $string['addstep']
+msgid "Add an additional step to this workflow"
+msgstr ""
+
+#: $string['addstepafter']
+msgid "Add a step after this point"
+msgstr ""
+
+#: $string['addtask']
+msgid "Add task"
+msgstr ""
+
+#: $string['any']
+msgid "Any"
+msgstr ""
+
+#: $string['appliesto']
+msgid "Applies to"
+msgstr ""
+
+#: $string['atendfinishworkflow']
+msgid "finish the workflow"
+msgstr ""
+
+#: $string['atendgobackatworkflowcreate']
+msgid ""
+"An atendgobacktostep setting cannot be specified at workflow creation as no "
+"steps exist to reference"
+msgstr ""
+
+#: $string['atendgobacktostep']
+msgid "At the end of step {$a}"
+msgstr ""
+
+#: $string['atendgobacktostepinfo']
+msgid ""
+"After step {$a->stepcount}, go back to step number {$a->atendgobacktostep}."
+msgstr ""
+
+#: $string['atendgobacktostepno']
+msgid "go back to step {$a->stepno} ({$a->name})"
+msgstr ""
+
+#: $string['atendstop']
+msgid "After step {$a->stepcount}, this workflow will end."
+msgstr ""
+
+#: $string['automaticallyfinish']
+msgid "Automatically finish"
+msgstr ""
+
+#: $string['cannotdeleteworkflowinuseby']
+msgid "Cannot delete, this workflow is used in {$a} places."
+msgstr ""
+
+#: $string['cannotremoveemailinuse']
+msgid "Unable to remove email template -- this template is currently in use"
+msgstr ""
+
+#: $string['cannotremoveonlystep']
+msgid "Unable to remove step. This is the only workflow in the step"
+msgstr ""
+
+#: $string['cannotremovestepsinuse']
+msgid "Unable to remove step. This step is currently active in {$a} workflows"
+msgstr ""
+
+#: $string['cannotremoveworkflowinuse']
+msgid "Unable to remove workflow -- this workflow is currently in use"
+msgstr ""
+
+#: $string['cannotstepflowinuse']
+msgid "Unable to remove step -- this step is currently in use"
+msgstr ""
+
+#: $string['clone']
+msgid "Clone"
+msgstr ""
+
+#: $string['clonedname']
+msgid "{$a} (cloned)"
+msgstr ""
+
+#: $string['clonedshortname']
+msgid "{$a}_cloned"
+msgstr ""
+
+#: $string['cloneworkflow']
+msgid "Clone workflow"
+msgstr ""
+
+#: $string['cloneworkflowinstructions']
+msgid "Clone workflow instructions"
+msgstr ""
+
+#: $string['cloneworkflowname']
+msgid "Clone workflow '{$a}\\"
+msgstr ""
+
+#: $string['commentlabel']
+msgid "Update workflow comment"
+msgstr ""
+
+#: $string['comments']
+msgid "Comments"
+msgstr ""
+
+#: $string['confirm']
+msgid "Confirm"
+msgstr ""
+
+#: $string['confirmemaildeletetitle']
+msgid "Delete email template '{$a}'?"
+msgstr ""
+
+#: $string['confirmfinishstep']
+msgid "Are you sure that you want to mark this step ({$a}) as complete?"
+msgstr ""
+
+#: $string['confirmjumptostep']
+msgid ""
+"Are you sure that you want to jump to step {$a->stepno} ({$a->stepname})?"
+msgstr ""
+
+#: $string['confirmstepdeletetitle']
+msgid "Delete step '{$a}'?"
+msgstr ""
+
+#: $string['confirmworkflowdeletetitle']
+msgid "Delete workflow '{$a}'?"
+msgstr ""
+
+#: $string['contexthasactiveworkflow']
+msgid "This context already has an active workflow."
+msgstr ""
+
+#: $string['coursestartdate']
+msgid "the course start date"
+msgstr ""
+
+#: $string['coursestudentclose']
+msgid "the course is closed to students"
+msgstr ""
+
+#: $string['coursestudentopen']
+msgid "the course is opened to students"
+msgstr ""
+
+#: $string['coursetutorclose']
+msgid "the course is closed to tutors"
+msgstr ""
+
+#: $string['coursetutoropen']
+msgid "the course is opened to tutors"
+msgstr ""
+
+#: $string['create']
+msgid "Create"
+msgstr ""
+
+#: $string['createemail']
+msgid "Create new email template"
+msgstr ""
+
+#: $string['createstep']
+msgid "Create step"
+msgstr ""
+
+#: $string['createstepinstructions']
+msgid "Some instructions on how to create a step"
+msgstr ""
+
+#: $string['createstepname']
+msgid "Create new step for workflow '{$a}\\"
+msgstr ""
+
+#: $string['createtask']
+msgid "Creating new task for step {$a}"
+msgstr ""
+
+#: $string['createtemplate']
+msgid "Create template"
+msgstr ""
+
+#: $string['createworkflow']
+msgid "Create new workflow"
+msgstr ""
+
+#: $string['crontaskautostepfinisher']
+msgid "Workflow step finisher"
+msgstr ""
+
+#: $string['crontaskextranotify']
+msgid "Workflow step extra notify"
+msgstr ""
+
+#: $string['currentlyinuseby']
+msgid "This workflow is currently in use by"
+msgstr ""
+
+#: $string['dayafter']
+msgid "{$a} day after"
+msgstr ""
+
+#: $string['dayas']
+msgid "same day as"
+msgstr ""
+
+#: $string['daybefore']
+msgid "{$a} day before"
+msgstr ""
+
+#: $string['days']
+msgid "Days"
+msgstr ""
+
+#: $string['daysafter']
+msgid "{$a} days after"
+msgstr ""
+
+#: $string['daysbefore']
+msgid "{$a} days before"
+msgstr ""
+
+#: $string['defaultonactivescript']
+msgid ""
+"# You may place a set of actions to complete when marking this step active "
+"here"
+msgstr ""
+
+#: $string['defaultoncompletescript']
+msgid ""
+"# You may place a set of actions to complete when marking this step finished "
+"here"
+msgstr ""
+
+#: $string['defaultonextranotifyscript']
+msgid ""
+"# You may place a set of actions to  marking this step send notification"
+msgstr ""
+
+#: $string['defaultstepdescription']
+msgid "A description for this step should go here"
+msgstr ""
+
+#: $string['defaultstepinstructions']
+msgid "Do x, then y, then z."
+msgstr ""
+
+#: $string['defaultstepname']
+msgid "First step"
+msgstr ""
+
+#: $string['defaultworkflowdescription']
+msgid "A description for this workflow"
+msgstr ""
+
+#: $string['delete']
+msgid "Delete"
+msgstr ""
+
+#: $string['deleteemail']
+msgid "Delete email"
+msgstr ""
+
+#: $string['deleteemailcheck']
+msgid ""
+"Are you absolutely sure that you want to completely delete the email "
+"template '{$a}'?"
+msgstr ""
+
+#: $string['deletestep']
+msgid "Delete step"
+msgstr ""
+
+#: $string['deletestepcheck']
+msgid ""
+"Are you absolutely sure that you want to completely delete the step '{$a}'?"
+msgstr ""
+
+#: $string['deletetask']
+msgid "Delete task"
+msgstr ""
+
+#: $string['deletetaskcheck']
+msgid ""
+"Are you sure you wish to delete the task '{$a->taskname}' from step "
+"'{$a->stepname}'?"
+msgstr ""
+
+#: $string['deletetasktitle']
+msgid "Delete task '{$a->taskname}' for step '{$a->stepname}' confirmation"
+msgstr ""
+
+#: $string['deletetemplate']
+msgid "Delete template"
+msgstr ""
+
+#: $string['deleteworkflow']
+msgid "Delete workflow"
+msgstr ""
+
+#: $string['deleteworkflowcheck']
+msgid ""
+"Are you absolutely sure that you want to completely delete the workflow "
+"{$a}?"
+msgstr ""
+
+#: $string['description']
+msgid "Description"
+msgstr ""
+
+#: $string['disabled']
+msgid "Disabled"
+msgstr ""
+
+#: $string['disableworkflow']
+msgid "Disable workflow"
+msgstr ""
+
+#: $string['doerstitle']
+msgctxt "$string['doerstitle']"
+msgid "Roles"
+msgstr ""
+
+#: $string['doertitle']
+msgid "Roles responsible for this step"
+msgstr ""
+
+#: $string['donotautomaticallyfinish']
+msgid "Do not automatically finish"
+msgstr ""
+
+#: $string['donotnotify']
+msgid "Do not send extra notification"
+msgstr ""
+
+#: $string['edit']
+msgid "Edit"
+msgstr ""
+
+#: $string['editcomments']
+msgid "Edit comments"
+msgstr ""
+
+#: $string['editemail']
+msgid "Edit email template '{$a}\\"
+msgstr ""
+
+#: $string['editingcommentfor']
+msgid "Editing comment for '{$a->stepname}' on {$a->contextname}"
+msgstr ""
+
+#: $string['editstep']
+msgid "Edit step"
+msgstr ""
+
+#: $string['editstepinstructions']
+msgid ""
+"Some instructions on what this page is for and a general page introduction. "
+"Mention the scripts, but their help files should give more information on "
+"how they work."
+msgstr ""
+
+#: $string['editstepname']
+msgid "Editing step '{$a}\\"
+msgstr ""
+
+#: $string['editsteps']
+msgid "Edit steps for workflow '{$a}\\"
+msgstr ""
+
+#: $string['edittask']
+msgid "Edit task"
+msgstr ""
+
+#: $string['edittemplate']
+msgid "Edit template"
+msgstr ""
+
+#: $string['edittemplateinstructions']
+msgid "Some instructions on how to create an email template"
+msgstr ""
+
+#: $string['editworkflow']
+msgid "Editing workflow '{$a}\\"
+msgstr ""
+
+#: $string['editworkflowinstructions']
+msgid "Edit workflow instructions"
+msgstr ""
+
+#: $string['emaildescription']
+msgid "E-mail templates may be used by the various scripts in a workflow step"
+msgstr ""
+
+#: $string['emailfrom']
+msgid "{$a} workflow system"
+msgstr ""
+
+#: $string['emaillist']
+msgid "Email email templates"
+msgstr ""
+
+#: $string['emailmessage']
+msgid "Message"
+msgstr ""
+
+#: $string['emailsettings']
+msgid "E-mail template settings"
+msgstr ""
+
+#: $string['emailsubject']
+msgid "Subject"
+msgstr ""
+
+#: $string['emailtemplateexists']
+msgid ""
+"Email template '{$a}' which was attempted to import already exists. Existing "
+"template is preserved."
+msgstr ""
+
+#: $string['emptyfield']
+msgid "The required field is empty: {$a}"
+msgstr ""
+
+#: $string['enabled']
+msgctxt "$string['enabled']"
+msgid "Enabled"
+msgstr ""
+
+#: $string['enabledworkflow']
+msgctxt "$string['enabledworkflow']"
+msgid "Enabled"
+msgstr ""
+
+#: $string['enableworkflow']
+msgid "Enable workflow"
+msgstr ""
+
+#: $string['export']
+msgid "Export"
+msgstr ""
+
+#: $string['exportworkflow']
+msgid "Export workflow"
+msgstr ""
+
+#: $string['finish']
+msgid "Finish"
+msgstr ""
+
+#: $string['finishstep']
+msgid "Finish step"
+msgstr ""
+
+#: $string['finishstepautomatically']
+msgid "This step was automatically finished by workflow system at {$a}."
+msgstr ""
+
+#: $string['finishstepfor']
+msgid "Finish step '{$a->stepname}' on {$a->contextname}"
+msgstr ""
+
+#: $string['finishstepinstructions']
+msgid ""
+"You are about to mark this step as complete, and move to the next step in "
+"the workflow. A summary of the step is shown below -- you may wish to update "
+"the comment below."
+msgstr ""
+
+#: $string['format_html']
+msgid "html"
+msgstr ""
+
+#: $string['format_plain']
+msgid "plain"
+msgstr ""
+
+#: $string['format_unknown']
+msgid "unknown"
+msgstr ""
+
+#: $string['general']
+msgid "General"
+msgstr ""
+
+#: $string['hidetask']
+msgid "Disable task"
+msgstr ""
+
+#: $string['importfile']
+msgid "File"
+msgstr ""
+
+#: $string['importsuccess']
+msgid ""
+"Importing was sucessful. You will be redirected to workflow editing page "
+"shortly."
+msgstr ""
+
+#: $string['importworkflow']
+msgid "Import workflow"
+msgstr ""
+
+#: $string['instructions']
+msgctxt "$string['instructions']"
+msgid "Instructions"
+msgstr ""
+
+#: $string['inuseby']
+msgid "It is currently in use in {$a} locations."
+msgstr ""
+
+#: $string['invalidactivitysettingcolumn']
+msgid "The column specified ({$a}) does not exist."
+msgstr ""
+
+#: $string['invalidappliestomodule']
+msgid "An invalid appliesto value was specified"
+msgstr ""
+
+#: $string['invalidappliestotable']
+msgid ""
+"The database table for {$a} was not found. It may not be possible to use "
+"this command for this type of workflow"
+msgstr ""
+
+#: $string['invalidbody']
+msgid "An invalid body was specified"
+msgstr ""
+
+#: $string['invalidcapability']
+msgid "Invalid capability specified."
+msgstr ""
+
+#: $string['invalidclearmustendcommand']
+msgid "There should be nothing after the word 'clear'."
+msgstr ""
+
+#: $string['invalidcommand']
+msgid ""
+"An invalid command was specified in the script. The command used was {$a}"
+msgstr ""
+
+#: $string['invalidemailemail']
+msgid "An invalid email email was specified. The email specified was '{$a}\\"
+msgstr ""
+
+#: $string['invalidemailshortname']
+msgid "Invalid shortname specified ({$a})"
+msgstr ""
+
+#: $string['invalidfield']
+msgid "An invalid field was specified in the data. The field was '{$a}\\"
+msgstr ""
+
+#: $string['invalidformat']
+msgid "Invalid format has been specified: {$a}"
+msgstr ""
+
+#: $string['invalidid']
+msgid "An invalid id was specified"
+msgstr ""
+
+#: $string['invalidinstructions']
+msgid "Invalid step instructions were specified"
+msgstr ""
+
+#: $string['invalidmissingvalue']
+msgid "Invalid command, value is missing."
+msgstr ""
+
+#: $string['invalidname']
+msgid "An invalid name was specified"
+msgstr ""
+
+#: $string['invalidobsoletesetting']
+msgid "An invalid obsolete value was specified. Valid settings are 0, or 1"
+msgstr ""
+
+#: $string['invalidpermission']
+msgid ""
+"Invalid permission specified. The valid permissions are inherit, allow, "
+"prevent, or prohibit."
+msgstr ""
+
+#: $string['invalidrole']
+msgid "An invalid role ({$a}) was specified whilst processing the script"
+msgstr ""
+
+#: $string['invalidscript']
+msgid "The script you specified was invalid. {$a}"
+msgstr ""
+
+#: $string['invalidshortname']
+msgid "An invalid shortname was specified"
+msgstr ""
+
+#: $string['invalidstate']
+msgid "Invalid state"
+msgstr ""
+
+#: $string['invalidstep']
+msgid "Invalid step specified."
+msgstr ""
+
+#: $string['invalidstepid']
+msgid "Invalid step id specified."
+msgstr ""
+
+#: $string['invalidstepno']
+msgid "Invalid step number specified."
+msgstr ""
+
+#: $string['invalidsubject']
+msgid "An invalid subject was specified"
+msgstr ""
+
+#: $string['invalidsyntaxmissingto']
+msgid "Invalid command syntax - missing to component"
+msgstr ""
+
+#: $string['invalidsyntaxmissingx']
+msgid "Invalid command syntax - missing '{$a}'."
+msgstr ""
+
+#: $string['invalidtarget']
+msgid "Invalid activity target"
+msgstr ""
+
+#: $string['invalidtodo']
+msgid "Invalid todo specified"
+msgstr ""
+
+#: $string['invalidvisibilitysetting']
+msgid ""
+"An invalid visibility option was specified. Valid options are visible and "
+"hidden. You specified {$a}."
+msgstr ""
+
+#: $string['invalidwordnotclearorset']
+msgid "Expected 'clear' or 'set'."
+msgstr ""
+
+#: $string['invalidworkflow']
+msgid "Invalid workflow specified."
+msgstr ""
+
+#: $string['invalidworkflowid']
+msgid "An invalid workflow was specified"
+msgstr ""
+
+#: $string['invalidworkflowname']
+msgid "An invalid workflow name was specified"
+msgstr ""
+
+#: $string['invalidworkflowstepno']
+msgid "The specified step number could not be found in this workflow"
+msgstr ""
+
+#: $string['jumpstep']
+msgctxt "$string['jumpstep']"
+msgid "Jump to step"
+msgstr ""
+
+#: $string['jumptostep']
+msgctxt "$string['jumptostep']"
+msgid "Jump to step"
+msgstr ""
+
+#: $string['jumptostepcheck']
+msgid ""
+"Are you sure you wish to jump from step '{$a->fromstep}' to step "
+"'{$a->tostep}' for the workflow on {$a->workflowon}?"
+msgstr ""
+
+#: $string['jumptostepcommentaddition']
+msgid ""
+"<p>[Note: the workflow just jumped from step '{$a->fromstep}'. This comment "
+"may seem out-of-context.]</p>{$a->comment}"
+msgstr ""
+
+#: $string['jumptostepon']
+msgid "Jump to step '{$a->stepname}' on {$a->contextname}"
+msgstr ""
+
+#: $string['jumptosteptitle']
+msgid "Jump to step '{$a->tostep}' for '{$a->workflowon}' confirmation"
+msgstr ""
+
+#: $string['lastmodified']
+msgid "Last modified"
+msgstr "Τελευταία Τροποποίηση"
+
+#: $string['managedescription']
+msgid ""
+"On this page you can create end edit workflows and the email templates that "
+"they use."
+msgstr ""
+
+#: $string['manageemails']
+msgid "Manage email templates"
+msgstr ""
+
+#: $string['manageworkflows']
+msgid "Manage workflows"
+msgstr ""
+
+#: $string['messageprovider:notification']
+msgid "Workflow notifications and alerts"
+msgstr ""
+
+#: $string['missingfield']
+msgid "The required field is missing: {$a}"
+msgstr ""
+
+#: $string['movedown']
+msgid "Move down"
+msgstr ""
+
+#: $string['moveup']
+msgid "Move up"
+msgstr ""
+
+#: $string['name']
+msgid "Name"
+msgstr ""
+
+#: $string['nameinuse']
+msgid "The name specified is already in use. Names must be unique"
+msgstr ""
+
+#: $string['nameshortname']
+msgid "{$a->name} ({$a->shortname})"
+msgstr ""
+
+#: $string['noactiveworkflow']
+msgid "There is currently no active workflow."
+msgstr ""
+
+#: $string['nocomment']
+msgid "No comment yet..."
+msgstr ""
+
+#: $string['nocomments']
+msgid "No comments have been made about this step yet"
+msgstr ""
+
+#: $string['nomorestepsleft']
+msgid "The workflow has been completed."
+msgstr ""
+
+#: $string['norolesspecified']
+msgid "No roles were specified"
+msgstr ""
+
+#: $string['nosuchrole']
+msgid "Role {$a} does not exist"
+msgstr ""
+
+#: $string['notacourse']
+msgid "This is not a course"
+msgstr ""
+
+#: $string['notallowedtodothisstep']
+msgid "You do not have permission to make changes to this step at present"
+msgstr ""
+
+#: $string['notanactivity']
+msgid "The command {$a} may only be used with an activity"
+msgstr ""
+
+#: $string['notaworkflow']
+msgid "This is not a valid workflow file"
+msgstr ""
+
+#: $string['notcurrentlyinuse']
+msgid "It is currently not in use."
+msgstr ""
+
+#: $string['notificationdate']
+msgid "Notification date"
+msgstr ""
+
+#: $string['notuniquestep']
+msgid "Step {$a} is not unique"
+msgstr ""
+
+#: $string['notutfencoding']
+msgid "This file is not UTF-8 encoded"
+msgstr ""
+
+#: $string['noworkflow']
+msgid "There is currently no workflow assigned for this page"
+msgstr ""
+
+#: $string['noworkflows']
+msgid "There are currently no available workflows"
+msgstr ""
+
+#: $string['obsoleteworkflow']
+msgid "Obsoleted"
+msgstr ""
+
+#: $string['onactivescript']
+msgid "On step activation"
+msgstr ""
+
+#: $string['oncompletescript']
+msgid "On step completion"
+msgstr ""
+
+#: $string['onextranotifyscript']
+msgid "Notify while step is active"
+msgstr ""
+
+#: $string['overview']
+msgid "Overview"
+msgstr ""
+
+#: $string['overviewtitle']
+msgid "Overview of {$a->workflowname} workflow on {$a->contexttitle}"
+msgstr ""
+
+#: $string['percentcomplete']
+msgid "{$a}% complete"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Workflows"
+msgstr ""
+
+#: $string['quizclosedate']
+msgid "the quiz close date"
+msgstr ""
+
+#: $string['quizopendate']
+msgid "the quiz open date"
+msgstr ""
+
+#: $string['remove']
+msgid "Remove"
+msgstr ""
+
+#: $string['removerolefromstep']
+msgid "Remove role from step"
+msgstr ""
+
+#: $string['removestep']
+msgid "Remove step"
+msgstr ""
+
+#: $string['removetask']
+msgid "Remove task"
+msgstr ""
+
+#: $string['removeworkflow']
+msgid "Remove workflow"
+msgstr ""
+
+#: $string['removeworkflowcheck']
+msgid ""
+"Are you sure that you wish to remove the workflow '{$a->workflowname}' from "
+"{$a->contexttitle}? This action removes all associated data, and cannot be "
+"reversed!"
+msgstr ""
+
+#: $string['removeworkflowfromcontext']
+msgid "Remove workflow '{$a->workflowname}' from {$a->contexttitle}?"
+msgstr ""
+
+#: $string['roles']
+msgctxt "$string['roles']"
+msgid "Roles"
+msgstr ""
+
+#: $string['shortname']
+msgid "Shortname"
+msgstr ""
+
+#: $string['shortnameinuse']
+msgid "The shortname specified is already in use. Shortnames must be unique"
+msgstr ""
+
+#: $string['shortnametaken']
+msgid "This short name is already in use by another workflow ({$a})"
+msgstr ""
+
+#: $string['shortnametakenemail']
+msgid "This shortname is already in use by another email template ({$a})"
+msgstr ""
+
+#: $string['shownamesx']
+msgid "Show names ({$a})"
+msgstr ""
+
+#: $string['showpeoplecandotask']
+msgid "People who can do this task"
+msgstr ""
+
+#: $string['showtask']
+msgid "Enable task"
+msgstr ""
+
+#: $string['state']
+msgid "State"
+msgstr ""
+
+#: $string['state_aborted']
+msgctxt "$string['state_aborted']"
+msgid "Aborted"
+msgstr ""
+
+#: $string['state_active']
+msgid "Active"
+msgstr ""
+
+#: $string['state_completed']
+msgid "Complete"
+msgstr ""
+
+#: $string['state_history']
+msgid "History"
+msgstr ""
+
+#: $string['state_history_aborted']
+msgctxt "$string['state_history_aborted']"
+msgid "Aborted"
+msgstr ""
+
+#: $string['state_history_active']
+msgid "Activated"
+msgstr ""
+
+#: $string['state_history_completed']
+msgid "Completed"
+msgstr ""
+
+#: $string['state_history_detail']
+msgid "{$a->newstate} by {$a->user} at {$a->time}."
+msgstr ""
+
+#: $string['state_notstarted']
+msgid "Not started"
+msgstr ""
+
+#: $string['status']
+msgid "Current status"
+msgstr ""
+
+#: $string['step']
+msgid "Step"
+msgstr ""
+
+#: $string['stepactivation']
+msgctxt "$string['stepactivation']"
+msgid "Step activation"
+msgstr ""
+
+#: $string['stepactivation_help']
+msgctxt "$string['stepactivation_help']"
+msgid "Step activation"
+msgstr ""
+
+#: $string['stepactivation_link']
+msgctxt "$string['stepactivation_link']"
+msgid "block/workflow"
+msgstr ""
+
+#: $string['stepcompletion']
+msgctxt "$string['stepcompletion']"
+msgid "Step completion"
+msgstr ""
+
+#: $string['stepcompletion_help']
+msgctxt "$string['stepcompletion_help']"
+msgid "Step completion"
+msgstr ""
+
+#: $string['stepcompletion_link']
+msgctxt "$string['stepcompletion_link']"
+msgid "block/workflow"
+msgstr ""
+
+#: $string['stepextranotify']
+msgid "Step extra notification"
+msgstr ""
+
+#: $string['stepextranotify_help']
+msgid ""
+"Set up email notification to be sent automatically to the chosen recipients "
+"on selected notification date."
+msgstr ""
+
+#: $string['stepextranotify_link']
+msgctxt "$string['stepextranotify_link']"
+msgid "block/workflow"
+msgstr ""
+
+#: $string['stepfinishconfirmation']
+msgid ""
+"The step was successfully finished. You have completed all of the required "
+"work at this stage"
+msgstr ""
+
+#: $string['stepinstructions']
+msgctxt "$string['stepinstructions']"
+msgid "Instructions"
+msgstr ""
+
+#: $string['stepname']
+msgid "Step name"
+msgstr ""
+
+#: $string['stepno']
+msgid "Step No."
+msgstr ""
+
+#: $string['stepnotexist']
+msgid "Step to go at the end does not exist in the imported data: {$a}"
+msgstr ""
+
+#: $string['steps']
+msgid "Steps"
+msgstr ""
+
+#: $string['stepsettings']
+msgid "Step settings"
+msgstr ""
+
+#: $string['task']
+msgctxt "$string['task']"
+msgid "Task"
+msgstr ""
+
+#: $string['taskcomplete']
+msgid "Task complete"
+msgstr ""
+
+#: $string['tasknotspecified']
+msgid "No task was specified"
+msgstr ""
+
+#: $string['thisworkflowappliesto']
+msgid "This workflow applies to"
+msgstr ""
+
+#: $string['tobecompletedby']
+msgid "To be completed by"
+msgstr ""
+
+#: $string['todocannotchangestepid']
+msgid "It is not possible to change the stepid for an existing todo task"
+msgstr ""
+
+#: $string['tododone']
+msgid "Marked {$a} as complete"
+msgstr ""
+
+#: $string['todolisttitle']
+msgid "Tasks for completion"
+msgstr ""
+
+#: $string['todotask']
+msgctxt "$string['todotask']"
+msgid "Task"
+msgstr ""
+
+#: $string['todotitle']
+msgid "Items to complete for this step"
+msgstr ""
+
+#: $string['todoundone']
+msgid "Marked {$a} as incomplete"
+msgstr ""
+
+#: $string['updatecomment']
+msgid "Update comment"
+msgstr ""
+
+#: $string['vieweditemail']
+msgid "View/Edit email"
+msgstr ""
+
+#: $string['vieweditworkflow']
+msgid "View/Edit workflow"
+msgstr ""
+
+#: $string['workflow']
+msgid "Workflow"
+msgstr ""
+
+#: $string['workflowactive']
+msgid ""
+"This workflow is currently enabled (<a href=\"{$a}\" title=\"Disable this "
+"workflow\">disable it</a>)."
+msgstr ""
+
+#: $string['workflow:addinstance']
+msgid "Add a new workflow block"
+msgstr ""
+
+#: $string['workflowalreadyassigned']
+msgid ""
+"A workflow is already assigned to this context. Only one workflow may be "
+"assigned to any one context at a time."
+msgstr ""
+
+#: $string['workflowalreadyset']
+msgid ""
+"A workflow has already been set for this step. Steps cannot be reassigned to "
+"a different workflow"
+msgstr ""
+
+#: $string['workflow:dostep']
+msgid "Permission to perform a step"
+msgstr ""
+
+#: $string['workflow:editdefinitions']
+msgid "Permission to edit workflow details"
+msgstr ""
+
+#: $string['workflowimport']
+msgid "Workflow importing"
+msgstr ""
+
+#: $string['workflowinformation']
+msgid "Workflow information"
+msgstr ""
+
+#: $string['workflowlist']
+msgctxt "$string['workflowlist']"
+msgid "Workflows"
+msgstr ""
+
+#: $string['workflow:manage']
+msgid "Permission to manage workflows"
+msgstr ""
+
+#: $string['workflownotassigned']
+msgid ""
+"The '{$a->workflowname}' workflow is not assigned to the specified context"
+msgstr ""
+
+#: $string['workflownotassignedtocontext']
+msgid "The '{$a->workflowname}' workflow is not assigned to {$a->contexttitle}"
+msgstr ""
+
+#: $string['workflowobsolete']
+msgid ""
+"This workflow is currently marked as disabled (<a href=\"{$a}\" title=\"Re-"
+"enable this workflow\">enable it</a>)."
+msgstr ""
+
+#: $string['workflowoverview']
+msgid "Workflow overview"
+msgstr ""
+
+#: $string['workflowsettings']
+msgid "Workflow settings"
+msgstr ""
+
+#: $string['workflowstatus']
+msgid "Workflow status"
+msgstr ""
+
+#: $string['workflowsteps']
+msgid "Workflow steps"
+msgstr ""
+
+#: $string['workflowusage']
+msgid "Workflow usage"
+msgstr ""
+
+#: $string['workflow:view']
+msgid "Permission to view workflow information"
+msgstr ""
+
+#: $string['xmlloadfailed']
+msgid "Failed loading XML with following problems:"
+msgstr ""
+
+#: $string['youandanyother']
+msgid "You, or any other"
+msgstr ""
+
+#: $string['youor']
+msgid ", or"
+msgstr ""

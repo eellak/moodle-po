@@ -1,0 +1,179 @@
+#. extracted from lang/en/portfolio_mahara.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'portfolio_mahara', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   portfolio_mahara
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['enableleap2a']
+msgid "Enable Leap2A portfolio support (requires Mahara 1.3 or higher)"
+msgstr ""
+
+#: $string['err_invalidhost']
+msgid "Invalid MNet host"
+msgstr ""
+"Αυτή η υπομονάδα λογισμικού είναι ρυθμισμένη λάθος και δείχνει σε έναν μη "
+"έγκυρο (ή διεγραμμένο) υπολογιστή mnet.  Αυτή η υπομονάδα λογισμικού "
+"εξαρτάται από ομότιμους Moodle Networking με δημοσιευμένο SSO IDP , με "
+"εγγραφή χαρτοφυλακίου και SSO_SP."
+
+#: $string['err_invalidhost_help']
+msgid ""
+"This plugin is misconfigured to point to an invalid (or deleted) MNet host. "
+" This plugin relies on Moodle Networking peers with SSO IDP published, "
+"SSO_SP subscribed, and portfolio subscribed <b>and</b> published."
+msgstr ""
+
+#: $string['err_networkingoff']
+msgid "MNet is off"
+msgstr ""
+"Το Moodle Networking είναι εξολοκλήρου απενεργοποιημένο. Παρακαλούμε "
+"ενεργοποιήστε το προτού προσπαθήσετε να ρυθμίσετε αυτή την υπομονάδα "
+"λογισμικού.  Κάθε στιγμιότυπο αυτής της υπομονάδας λογισμικού έχει ρυθμιστεί "
+"ως μη μέχρι να κάνετε τις διορθώσεις - θα πρέπει να τα ρυθμίσετε "
+"χειροκίνητα ως ορατά αργότερα.  Δεν μπορούν να χρησιμοποιηθούν μέχρι να "
+"γίνει αυτό."
+
+#: $string['err_networkingoff_help']
+msgid ""
+"MNet is off entirely. Please enable it before trying to configure this "
+"plugin.  Any instances of this plugin have been set to not visible until "
+"this is fixed - you will need to set them to visible again manully.  They "
+"cannot be used until this happens"
+msgstr ""
+
+#: $string['err_nomnetauth']
+msgid "The MNet authentication plugin is disabled"
+msgstr ""
+"Η υπομονάδα λογισμικού πιστοποίησης mnet είναι απενεργοποιημένη, αλλά είναι "
+"απαραίτητη για αυτή την υπηρεσία"
+
+#: $string['err_nomnetauth_help']
+msgid ""
+"The MNet authentication plugin is disabled, but is required for this service"
+msgstr ""
+"Το πρόσθετο αυθεντικοποίησης MNet είναι απενεργοποιημένο, αλλά είναι "
+"απαραίτητο για αυτή την υπηρεσία"
+
+#: $string['err_nomnethosts']
+msgid "Relies on MNet"
+msgstr ""
+"Αυτή η υπομονάδα λογισμικού εξαρτάται από ομότιμους Moodle Networking με "
+"δημοσιευμένο SSO IDP , με εγγραφή χαρτοφυλακίου και SSO_SP καθώς και στην "
+"υπομονάδα λογισμικού πιστοποίησης mnet.  Κάθε στιγμιότυπο αυτής της "
+"υπομονάδας λογισμικού έχει ρυθμιστεί ως μη μέχρι να κάνετε τις διορθώσεις - "
+"θα πρέπει να τα ρυθμίσετε χειροκίνητα ως ορατά αργότερα.  Δεν μπορούν να "
+"χρησιμοποιηθούν μέχρι να γίνει αυτό."
+
+#: $string['err_nomnethosts_help']
+msgid ""
+"This plugin relies on MNet peers with SSO IDP published, SSO SP subscribed, "
+"portfolio services published <b>and</b> subscribed as well as the MNet "
+"authentication plugin.  Any instances of this plugin have been hidden until "
+"these conditions are met. They will then manually need setting to visible "
+"again."
+msgstr ""
+
+#: $string['failedtojump']
+msgid "Failed to start communication with remote server"
+msgstr "Αποτυχία εκκίνησης επικοινωνίας με τον απομακρυσμένο εξυπηρετητή"
+
+#: $string['failedtoping']
+msgid "Failed to start communication with remote server: {$a}"
+msgstr "Αποτυχία εκκίνησης επικοινωνίας με τον απομακρυσμένο εξυπηρετητή: {$a}"
+
+#: $string['mnethost']
+msgid "MNet host"
+msgstr "Υπολογιστής Moodle Networking"
+
+#: $string['mnet_nofile']
+msgid "Could not find file in transfer object - weird error"
+msgstr ""
+"Αποτυχία εύρεσης του αρχείου στο αντικείμενο μεταφοράς - περίεργο σφάλμα"
+
+#: $string['mnet_nofilecontents']
+msgid ""
+"Found file in transfer object, but could not get contents - weird error: "
+"{$a}"
+msgstr ""
+"Το αρχείο βρέθηκε στο αντικείμενο μεταφοράς, αλλά δεν ήταν δυνατόν να ληφθεί "
+"το περιεχόμενο - περίεργο σφάλμα: {$a}"
+
+#: $string['mnet_noid']
+msgid "Could not find the matching transfer record for this token"
+msgstr ""
+"Αποτυχία εύρεσης της αντίστοιχης εγγραφής μεταφοράς για αυτό το τεκμήριο"
+
+#: $string['mnet_notoken']
+msgid "Could not find token matching this transfer"
+msgstr "Αποτυχία εύρεσης τεκμηρίων που αντιστοιχούν σε αυτή τη μεταφορά"
+
+#: $string['mnet_wronghost']
+msgid "Remote host did not match the transfer record for this token"
+msgstr ""
+"Ο απομακρυσμένος υπολογιστής δεν αντιστοιχεί στην εγγραφή μεταφοράς για αυτό "
+"το τεκμήριο"
+
+#: $string['pf_description']
+msgid ""
+"Allow users to push Moodle content to this host<br />Subscribe to <b>and</b> "
+"publish this service to allow authenticated users in your site to push "
+"content to {$a}<br /><ul><li><em>Dependency</em>: You must also "
+"<strong>publish</strong> the SSO (Identify Provider) service to "
+"{$a}.</li><li><em>Dependency</em>: You must also <strong>subscribe</strong> "
+"to the SSO (Service Provider) service on {$a}</li><li><em>Dependency</em>: "
+"You must also enable the MNet authentication plugin.</li></ul><br />"
+msgstr ""
+"Οι χρήστες επιτρέπεται να προωθούν περιεχόμενο του Moodle σε αυτό τον "
+"υπολογιστή<br />Γραφτείτε σε αυτή την υπηρεσία για να επιτρέπετε στους "
+"πιστοποιημένους χρήστες του ιστοχώρου σας να προωθούν περιεχόμενο στο "
+"{$a}<br /><ul><li><em>Προαπαιτούμενο</em>: Επίσης πρέπει να "
+"<strong>δημοσιεύσετε</strong> την υπηρεσία SSO (Πάροχος Αναγνώρισης) στο "
+"{$a}.</li><li><em>Προαπαιτούμενο</em>: Επίσης πρέπει να "
+"<strong>εγγραφείτε</strong> στην υπηρεσία SSO (Πάροχος Υπηρεσίας) στο "
+"{$a}</li><li><em>Προαπαιτούμενο</em>: Πρέπει επίσης να ενεργοποιήσετε την "
+"υπομονάδα λογισμικού πιστοποίησης mnet.</li></ul><br />"
+
+#: $string['pf_name']
+msgid "Portfolio services"
+msgstr "Υπηρεσίες Χαρτοφυλακίου"
+
+#: $string['pluginname']
+msgid "Mahara ePortfolio"
+msgstr "Ηλεκτρονικό Χαρτοφυλάκιο Mahara"
+
+#: $string['senddisallowed']
+msgid "You cannot transfer files to Mahara at this time"
+msgstr "Δεν μπορείτε να μεταφέρετε αρχεία στο Mahara αυτή τη στιγμή"
+
+#: $string['url']
+msgid "URL"
+msgstr "URL"

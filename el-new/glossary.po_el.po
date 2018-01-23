@@ -1,0 +1,1476 @@
+#. extracted from lang/en/glossary.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'glossary', language 'en', branch 'MOODLE_35_STABLE'
+#.  *
+#.  * @package   glossary
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['addcomment']
+msgid "Add comment"
+msgstr "Προσθήκη σχολίου"
+
+#: $string['addentry']
+msgid "Add a new entry"
+msgstr "Προσθήκη νέας εγγραφής"
+
+#: $string['addingcomment']
+msgid "Add a comment"
+msgstr "Προσθήκη ενός σχολίου"
+
+#: $string['alias']
+msgid "Keyword"
+msgstr "Λέξη κλειδί"
+
+#: $string['aliases']
+msgid "Keyword(s)"
+msgstr "Λέξεις κλειδιά"
+
+#: $string['aliases_help']
+msgid ""
+"Each glossary entry can have an associated list of keywords (or aliases). If "
+"the entry is auto-linked, then any keywords will also be auto-linked.\n"
+"\n"
+"Enter each keyword on a new line (not separated by commas)."
+msgstr ""
+"<p align=\"center\"><b>Λέξεις κλειδιά</b></p>\n"
+"\n"
+"<p> Κάθε καταχώρηση στο λεξιλόγιο μπορεί να είναι συσχετιζόμενη με μια λίστα "
+"λέξεων κλειδιών.</p>\n"
+"\n"
+"<p><b>Κάθε ψευδώνυμο μπαίνει σε νέα γραμμή</b> (δε διαχωρίζεται από "
+"κόμμα).</p>\n"
+"\n"
+"<p> Οι ψευδείς λέξεις και φράσεις μπορούν να χρησιμοποιηθούν ως εναλλακτικοί "
+"τρόποι αναφοράς μιας εισαγωγής. Για παράδειγμα, εάν χρησιμοποιηθεί το "
+"φίλτρο αυτόματης σύνδεσης του λεξιλογίου, τότε τα ψευδώνυμα θα εμφανιστούν "
+"(καθώς και το κύριο όνομα της εισαγωγής) όταν αποφασιστεί ποιες λέξεις θα "
+"συνδεθούν με την εγγραφή αυτή. </p>"
+
+#: $string['allcategories']
+msgid "All categories"
+msgstr "Όλες οι κατηγορίες"
+
+#: $string['allentries']
+msgid "ALL"
+msgstr "ΟΛΑ"
+
+#: $string['allowcomments']
+msgid "Allow comments on entries"
+msgstr "Να επιτρέπονται τα σχόλια στις εγγραφές"
+
+#: $string['allowcomments_help']
+msgid ""
+"If enabled, all participants with permission to create comments will be able "
+"to add comments to glossary entries."
+msgstr ""
+"<p align=\"center\"><b>Επιτρέπονται τα σχόλια στις καταχωρήσεις</b></p>\n"
+"\n"
+"<p>Οι μαθητές ανάλογα με την πρόσβαση που τους δίδεται μπορούν να προσθέσουν "
+"σχόλια στις καταχωρήσεις λεξιλογίου.</p>\n"
+"\n"
+"<p>Οι καθηγητές μπορούν πάντα να προσθέσουν σχόλια στις καταχωρήσεις "
+"λεξιλογίου.</p>"
+
+#: $string['allowduplicatedentries']
+msgid "Duplicate entries allowed"
+msgstr "Επιτρέπονται οι διπλές εγγραφές"
+
+#: $string['allowduplicatedentries_help']
+msgid "If enabled, multiple entries can have the same concept name."
+msgstr ""
+"<p align=\"center\"><b>Επιτρέπονται οι διπλές καταχωρήσεις</b></p>\n"
+"\n"
+"<p>Εάν ενεργοποιηθεί αυτή η επιλογή, τότε πολλαπλές καταχωρήσεις μπορούν να "
+"χρησιμοποιήσουν την ίδια έννοια.</p>"
+
+#: $string['allowprintview']
+msgid "Allow print view"
+msgstr "Να επιτρέπεται η προεπισκόπιση εκτύπωσης"
+
+#: $string['allowprintview_help']
+msgid ""
+"If enabled, students are provided with a link to a printer-friendly version "
+"of the glossary. The link is always available to teachers."
+msgstr ""
+"<p align=\"center\"><b>Επιτρέπεται η επισκόπηση εκτύπωσης</b></p>\n"
+"\n"
+"<p>Οι μαθητές ανάλογα με την πρόσβαση που τους δίδεται μπορούν να κάνουν "
+"επισκόπηση εκτύπωσης λεξιλογίου.</p>\n"
+"\n"
+"<p>Οι καθηγητές μπορούν πάντα να χρησιμοποιήσουν την επισκόπηση "
+"εκτύπωσης.</p>"
+
+#: $string['andmorenewentries']
+msgid "and {$a} more new entries."
+msgstr ""
+
+#: $string['answer']
+msgid "Answer"
+msgstr "Απάντηση"
+
+#: $string['approvaldisplayformat']
+msgid "Approval display format"
+msgstr ""
+
+#: $string['approvaldisplayformat_help']
+msgid ""
+"When approving glossary items you may wish to use a different display format"
+msgstr ""
+
+#: $string['approve']
+msgid "Approve"
+msgstr "Αποδοχή"
+
+#: $string['areaattachment']
+msgid "Attachments"
+msgstr "Συνημμένα"
+
+#: $string['areaentry']
+msgctxt "$string['areaentry']"
+msgid "Definitions"
+msgstr "Ορισμοί"
+
+#: $string['areyousuredelete']
+msgid "Are you sure you want to delete this entry?"
+msgstr "Σίγουρα θέλετε να διαγράψετε αυτήν την εγγραφή;"
+
+#: $string['areyousuredeletecomment']
+msgid "Are you sure you want to delete this comment?"
+msgstr "Σίγουρα θέλετε να διαγράψετε αυτό το σχόλιο;"
+
+#: $string['areyousureexport']
+msgid "Are you sure you want to export this entry to"
+msgstr "Σίγουρα θέλετε να εξάγετε αυτήν την εγγραφή στο"
+
+#: $string['ascending']
+msgid "ascending"
+msgstr "(αύξουσα)"
+
+#: $string['attachment']
+msgid "Attachment"
+msgstr "Επισυναπτόμενο"
+
+#: $string['attachment_help']
+msgid "You can optionally attach one or more files to a glossary entry."
+msgstr ""
+"<p align=\"center\"><b>Επισυναπτόμενα για καταχωρήσεις</b></p>\n"
+"\n"
+"<p>Προαιρετικά, είναι δυνατή η επισύναψη μόνο ΕΝΟΣ αρχείου σε οποιαδήποτε "
+"καταχώρηση λεξιλογίου.</p>\n"
+"\n"
+"<p>Είναι χρήσιμο όταν κάποιος θέλει να διαμοιράσει π.χ. μια εικόνα ή ένα "
+"Word αρχείο.</p>\n"
+"\n"
+"<p> Αυτό το αρχείο μπορεί να είναι οποιαδήποτε τύπου, αλλά προτείνεται η "
+"κατάληξη να ακολουθεί διαδικτυακά πρότυπα π.χ. .jpg ή .doc που μπορούν να "
+"προβληθούν από εξερευνητές ιστού.</p>\n"
+"\n"
+"<p>Εάν γίνει επεξεργασία εκ νέου μιας εγγραφής και επισύναψη ενός νέου "
+"αρχείου, τότε τα παλιά αρχεία αντικαθίστανται.</p>\n"
+"\n"
+"<p> Εάν γίνει επεξεργασία εκ νέου ενός επισυναπτομένου αρχείου και μείνει "
+"κενό, τότε το αυθεντικό αρχείο παραμένει.</p>"
+
+#: $string['author']
+msgid "author"
+msgstr "συγγραφέας"
+
+#: $string['authorview']
+msgid "Browse by Author"
+msgstr "Προβολή ανά συγγραφέα"
+
+#: $string['back']
+msgid "Back"
+msgstr "Πίσω"
+
+#: $string['cachedef_concepts']
+msgid "Concept linking"
+msgstr ""
+
+#: $string['cantinsertcat']
+msgid "Can't insert category"
+msgstr "Δεν είναι δυνατή η εισαγωγή κατηγορίας"
+
+#: $string['cantinsertrec']
+msgid "Can't insert record"
+msgstr "Δεν είναι δυνατή η εισαγωγή εγγραφής"
+
+#: $string['cantinsertrel']
+msgid "Can't insert relation category-entry"
+msgstr "Δεν είναι δυνατή η εισαγωγή σχέσης κατηγορίας-εγγραφής"
+
+#: $string['casesensitive']
+msgid "This entry is case sensitive"
+msgstr "Αυτή η εγγραφή είναι ευαίσθητη σε μικρά/κεφαλαία"
+
+#: $string['casesensitive_help']
+msgid ""
+"This setting specifies whether matching exact upper and lower case is "
+"necessary when auto-linking to an entry."
+msgstr ""
+"<p align=\"center\"><b>Ευαισθησία κατά το ταίριασμα χαρακτήρων</b></p>\n"
+"\n"
+"<p>Καθορίζει εάν το ακριβές ταίριασμα κεφαλαίων η μικρών χαρακτήρων είναι "
+"απαραίτητο όταν πραγματοποιείται αυτόματη διασύνδεση στις εγγραφές αυτές.\n"
+"\n"
+"<p>Για παράδειγμα, όταν ενεργοποιείται, η λέξη &quot;html&quot; δεν θα "
+"συνδεθεί με την εγγραφή &quot;HTML&quot; του λεξιλογίου.</p>"
+
+#: $string['cat']
+msgid "cat"
+msgstr "κατηγορία"
+
+#: $string['categories']
+msgid "Categories"
+msgstr "Κατηγορίες"
+
+#: $string['category']
+msgid "Category"
+msgstr "Κατηγορία"
+
+#: $string['categorydeleted']
+msgid "Category deleted"
+msgstr "Διαγράφηκε η κατηγορία"
+
+#: $string['categoryview']
+msgid "Browse by category"
+msgstr "Προβολή ανά κατηγορία"
+
+#: $string['changeto']
+msgid "change to {$a}"
+msgstr "αλλαγή σε {$a}"
+
+#: $string['cnfallowcomments']
+msgid "Define if a glossary will accept comments on entries by default"
+msgstr "Ορίστε εάν ένα λεξικό θα δέχεται σχόλια στις εγγραφές εξ ορισμού"
+
+#: $string['cnfallowdupentries']
+msgid "Define if a glossary will allows duplicated entries by default"
+msgstr "Ορίστε εάν ένα λεξικό θα επιτρέπει τις διπλές εγγραφές εξ ορισμού"
+
+#: $string['cnfapprovalstatus']
+msgid "Define the approval status by default of an entry posted by a student"
+msgstr ""
+"Ορίστε την εξ ορισμού κατάσταση αποδοχής μιας εγγραφής που αναρτήθηκε από "
+"φοιτητή"
+
+#: $string['cnfcasesensitive']
+msgid "Define if an entry, when linked, is case sensitive by default"
+msgstr ""
+"Ορίστε εάν μια εγγραφή, όταν είναι σύνδεσμος, είναι ευαίσθητη σε "
+"μικρά/κεφαλαία εξ ορισμού"
+
+#: $string['cnfdefaulthook']
+msgid "Select the default selection to show when the glossary is first viewed"
+msgstr ""
+"Επιλέξτε την προκαθορισμένη επιλογή για προβολή όταν εμφανίζεται το λεξικό "
+"για πρώτη φορά"
+
+#: $string['cnfdefaultmode']
+msgid "Select the default frame to show when the glossary is first viewed."
+msgstr ""
+"Επιλέξτε το προκαθορισμένο πλαίσιο για προβολή όταν εμφανίζεται το λεξικό "
+"για πρώτη φορά"
+
+#: $string['cnffullmatch']
+msgid ""
+"Define if an entry, when linked, should match the case in the target text by "
+"default"
+msgstr ""
+"Ορίστε εάν μια εγγραφή, όταν είναι σύνδεσμος, θα πρέπει να ταιριάζει τα "
+"πεζά-κεφαλαίο του κειμένου προορισμού εξ ορισμού"
+
+#: $string['cnflinkentry']
+msgid "Define if an entry should be automatically linked by default"
+msgstr "Ορίστε εάν μια εγγραφή θα πρέπει να είναι αυτόματα σύνδεσμος εξ ορισμού"
+
+#: $string['cnflinkglossaries']
+msgid "Define if a glossary should be automatically linked by default"
+msgstr "Ορίστε εάν ένα λεξικό θα πρέπει να είναι αυτόματα σύνδεσμος εξ ορισμού"
+
+#: $string['cnfrelatedview']
+msgid ""
+"Select the display format to be used for automatic linking and entry view."
+msgstr ""
+"Επιλέξτε τη μορφή εμφάνισης που θα χρησιμοποιείται για αυτόματο σύνδεσμο και "
+"προβολή εγγραφής."
+
+#: $string['cnfshowgroup']
+msgid "Specify if the group break should be shown or not."
+msgstr "Προσδιορίστε εάν θα εμφανίζεται ο διαχωριστής της ομάδας."
+
+#: $string['cnfsortkey']
+msgid "Select the sorting key by default."
+msgstr "Επιλέξτε το προκαθορισμένο πλήκτρο ταξινόμησης."
+
+#: $string['cnfsortorder']
+msgid "Select the sorting order by default."
+msgstr "Επιλέξτε την προκαθορισμένη σειρά ταξινόμησης."
+
+#: $string['cnfstudentcanpost']
+msgid "Define if the students can or cannot post entries by default"
+msgstr "Ορίστε εάν οι φοιτητές μπορούν ή όχι να αναρτήσουν εγγραφές εξ ορισμού"
+
+#: $string['cnftabs']
+msgid "Select visible tabs for this glossary format"
+msgstr ""
+
+#: $string['comment']
+msgid "Comment"
+msgstr "Σχόλιο"
+
+#: $string['commentdeleted']
+msgid "The comment has been deleted."
+msgstr "Το σχόλιο διαγράφηκε."
+
+#: $string['comments']
+msgid "Comments"
+msgstr "Σχόλια"
+
+#: $string['commentson']
+msgid "Comments on"
+msgstr "Σχόλια για"
+
+#: $string['commentupdated']
+msgid "The comment has been updated."
+msgstr "Το σχόλιο ενημερώθηκε."
+
+#: $string['completionentries']
+msgid "Student must create entries:"
+msgstr ""
+
+#: $string['completionentriesdesc']
+msgid "Student must create at least {$a} entry/entries"
+msgstr ""
+
+#: $string['completionentriesgroup']
+msgid "Require entries"
+msgstr ""
+
+#: $string['concept']
+msgid "Concept"
+msgstr "Έννοια"
+
+#: $string['concepts']
+msgid "Concepts"
+msgstr "Έννοιες"
+
+#: $string['configenablerssfeeds']
+msgid ""
+"This switch will enable the possibility of RSS feeds for all glossaries.  "
+"You will still need to turn feeds on manually in the settings for each "
+"glossary."
+msgstr ""
+"Αυτή η ρύθμιση ενεργοποιεί τη δυνατότητα τροφοδοτήσεων RSS για όλα τα "
+"λεξικά. Εξακολουθεί να απαιτείται η ενεργοποίηση των τροφοδοτήσεων στις "
+"ρυθμίσεις κάθε λεξικού ξεχωριστά."
+
+#: $string['current']
+msgid "Currently sorted {$a}"
+msgstr "Ταξινομημένα προς το παρόν {$a}"
+
+#: $string['currentglossary']
+msgid "Current glossary"
+msgstr "Τρέχον λεξικό"
+
+#: $string['date']
+msgid "date"
+msgstr "ημερομηνία"
+
+#: $string['dateview']
+msgid "Browse by date"
+msgstr "Προβολή ανα ημερομηνία"
+
+#: $string['defaultapproval']
+msgid "Approved by default"
+msgstr "Αποδοχή εξ ορισμού"
+
+#: $string['defaultapproval_help']
+msgid ""
+"If set to no, entries require approving by a teacher before they are "
+"viewable by everyone."
+msgstr ""
+"<p align=\"center\"><strong>Εγκεκριμένο εξ ορισμού</strong></p>\n"
+"\n"
+"<p align=\"center\"><br />\n"
+"  Αυτή η ρύθμιση επιτρέπει στον καθηγητή να καθορίσει τι θα ισχύει στις νέες\n"
+"  καταχωρήσεις που προστίθενται από τους σπουδαστές. Μπορούν να τεθούν "
+"αυτόματα\n"
+"  στην διάθεση του καθενός, διαφορετικά ο δάσκαλος θα πρέπει να τις εγκρίνει "
+"μία\n"
+"  μία.</p>"
+
+#: $string['defaulthook']
+msgid "Default hook"
+msgstr "Προεπιλεγμένο άγκιστρο"
+
+#: $string['defaultmode']
+msgid "Default mode"
+msgstr "Προεπιλεγμένη κατάσταση"
+
+#: $string['defaultsortkey']
+msgid "Default sort key"
+msgstr "Προεπιλεγμένο κλειδί ταξινόμησης"
+
+#: $string['defaultsortorder']
+msgid "Default sort order"
+msgstr "Προεπιλεγμένη σειρά ταξινόμησης"
+
+#: $string['definition']
+msgid "Definition"
+msgstr "Ορισμός"
+
+#: $string['definitions']
+msgctxt "$string['definitions']"
+msgid "Definitions"
+msgstr "Ορισμοί"
+
+#: $string['deleteentry']
+msgid "Delete entry"
+msgstr "Διαγραφή εγγραφής"
+
+#: $string['deleteentrya']
+msgid "Delete entry: {$a}"
+msgstr ""
+
+#: $string['deletenotenrolled']
+msgid "Delete entries by users not enrolled"
+msgstr "Διαγραφή των καταχωρήσεων από χρήστες που δεν έχουν εγγραφεί στο μάθημα"
+
+#: $string['deletingcomment']
+msgid "Deleting comment"
+msgstr "Διαγραφή σχολίου"
+
+#: $string['deletingnoneemptycategory']
+msgid ""
+"Deleting this category will not delete the entries it contains - they will "
+"be marked as uncategorised."
+msgstr ""
+"Διαγράφοντας αυτήν την κατηγορία δεν θα διαγραφούν οι εγγραφές που περιέχει- "
+"θα χαρακτηριστούν ως μη κατηγοριοποιημένες."
+
+#: $string['descending']
+msgid "descending"
+msgstr "(φθίνουσα)"
+
+#: $string['destination']
+msgid "Destination of imported entries"
+msgstr "Προορισμός"
+
+#: $string['destination_help']
+msgid ""
+"Entries can either be imported and added to the current glossary or to a new "
+"glossary, in which case a new glossary will be created based on information "
+"in the XML file."
+msgstr ""
+"<p align=\"center\"><strong>Καθορισμός του προορισμού των εισαγομένων "
+"καταχωρήσεων</strong></p>\n"
+"\n"
+"<p align=\"center\"><br />\n"
+"  Μπορείτε να καθορίσετε που θέλετε να γίνει η εισαγωγή των δικών σας\n"
+"  καταχωρήσεων:</p>\n"
+"<ul type=\"disc\">\n"
+"  <li><strong>Τρέχον λεξιλόγιο:</strong> Θα επισυνάψει τις εισαγόμενες\n"
+"    καταχωρήσεις στο τρέχον χρησιμοποιούμενο λεξιλόγιο. </li>\n"
+"  <li><strong>Νέο λεξιλόγιο:</strong> Θα δημιουργήσει ένα καινούργιο "
+"λεξιλόγιο\n"
+"    βασισμένο στις πληροφορίες που θα βρει στο φάκελο εισαγωγής και θα "
+"εισαγάγει\n"
+"    τις καινούριες καταχωρήσεις σε αυτόν. </li>\n"
+"</ul>"
+
+#: $string['disapprove']
+msgid "Undo approval"
+msgstr ""
+
+#: $string['displayformat']
+msgid "Display format"
+msgstr "Μορφή προβολής"
+
+#: $string['displayformatcontinuous']
+msgid "Continuous without author"
+msgstr "Συνεχής χωρίς συγγραφέα"
+
+#: $string['displayformatdefault']
+msgid "Default to same as display format"
+msgstr ""
+
+#: $string['displayformatdictionary']
+msgid "Simple, dictionary style"
+msgstr "Απλό, στυλ λεξικού"
+
+#: $string['displayformatencyclopedia']
+msgid "Encyclopedia"
+msgstr "Εγκυκλοπαίδεια"
+
+#: $string['displayformatentrylist']
+msgid "Entry list"
+msgstr "Λίστα εγγραφών"
+
+#: $string['displayformatfaq']
+msgid "FAQ"
+msgstr "Συχνές Ερωτήσεις"
+
+#: $string['displayformatfullwithauthor']
+msgid "Full with author"
+msgstr "Πλήρης με συγγραφέα"
+
+#: $string['displayformatfullwithoutauthor']
+msgid "Full without author"
+msgstr "Πλήρης χωρίς συγγραφέα"
+
+#: $string['displayformat_help']
+msgid ""
+"There are 7 display formats:\n"
+"\n"
+"* Simple, dictionary style - No authors are displayed and attachments are "
+"shown as links\n"
+"* Continuous without author - Entries are displayed one after another "
+"without any separation apart from the editing icons\n"
+"* Full with author - A forum-like display format showing the author's data "
+"and with attachments shown as links\n"
+"* Full without author - A forum-like display format without authors and with "
+"attachments shown as links\n"
+"* Encyclopedia - As for \"Full with author\" but attached images are shown "
+"inline\n"
+"* Entry list - Concepts are listed as links\n"
+"* FAQ - The words QUESTION and ANSWER are appended to the concept and "
+"definition respectively"
+msgstr ""
+"<p align=\"center\"><strong>Διάταξη Εμφάνισης</strong></p>\n"
+"\n"
+"<p align=\"left\"><br />\n"
+"  Αυτή η ρύθμιση καθορίζει τον τρόπο με τον οποίο θα εμφανίζονται τα "
+"στοιχεία που\n"
+"  περνάμε μέσα στο λεξιλόγιο. Οι προεπιλεγμένες διατάξεις&nbsp; είναι:<br />\n"
+"  <strong>Απλό λεξικό</strong>: <br />\n"
+"  μοιάζει με ένα συμβατικό λεξικό με κάθε λήμμα χωριστά. Δεν εμφανίζεται το "
+"όνομα\n"
+"  κανενός συντάκτη και οι επισυνάψεις παρουσιάζονται ως συνδέσεις. <br />\n"
+"  <strong>Συνεχής</strong>: <br />\n"
+"  παρουσιάζει τις καταχωρήσεις τη μία μετά την άλλη, χωρίς κανένα είδος\n"
+"  διαχωρισμού μεταξύ τους, παρά μόνο τα εικονίδια τροποποίησης. <br />\n"
+"  <strong>Ολόκληρο μαζί με το Συντάκτη</strong>: <br />\n"
+"  Μία εμφάνιση σε στυλ φόρουμ που παρουσιάζει τα στοιχεία του συντάκτη. Οι\n"
+"  επισυνάψεις παρουσιάζονται ως συνδέσεις. <br />\n"
+"  <strong>Ολόκληρο χωρίς το συντάκτη</strong>: <br />\n"
+"  Μία εμφάνιση σε στυλ φόρουμ που δεν παρουσιάζει τα στοιχεία του συντάκτη. "
+"Οι\n"
+"  επισυνάψεις παρουσιάζονται ως συνδέσεις. <br />\n"
+"  <strong>Εγκυκλοπαίδεια</strong>: <br />\n"
+"  Όπως &quot;<strong>Ολόκληρο μαζί με το Συντάκτη</strong>&quot; αλλά τις "
+"συνημμένες εικόνες\n"
+"  τις παρουσιάζει στην ίδια σειρά. <br />\n"
+"  <strong>FAQ (συνηθέστερες απορίες)</strong>: <br />\n"
+"  Χρήσιμος για την εμφάνιση κατηγοριών FAQ &quot;συνηθέστερων αποριών - "
+"ερωτήσεων&quot;. Επισυνάπτει αυτόματα τις\n"
+"  λέξεις ΕΡΩΤΗΣΗ και ΑΠΑΝΤΗΣΗ στο θέμα και στην εξήγηση αντίστοιχα. </p>\n"
+"<p>Οι διαχειριστές του Moodle μπορούν να δημιουργήσουν νέες διατάξεις "
+"εμφάνισης\n"
+"  ακολουθώντας τις οδηγίες που θα βρουν στο αρχείο <strong>mod/</strong><str"
+"ong>glossary/</strong><strong>formats/</strong><strong>README.</strong><stro"
+"ng>txt</strong>.</p>"
+
+#: $string['displayformats']
+msgid "Display formats"
+msgstr "Μορφές προβολής"
+
+#: $string['displayformatssetup']
+msgid "Display formats setup"
+msgstr "Ρύθμιση Μορφών προβολής"
+
+#: $string['duplicatecategory']
+msgid "Duplicate category"
+msgstr ""
+
+#: $string['duplicateentry']
+msgid "Duplicate entry"
+msgstr "Διπλή εγγραφή"
+
+#: $string['editalways']
+msgid "Always allow editing"
+msgstr "Πάντα επεξεργασία"
+
+#: $string['editalways_help']
+msgid ""
+"This setting specifies whether entries are always editable or whether "
+"students can only edit their entries during a configured editing time "
+"(usually 30 minutes)."
+msgstr ""
+"<p align=\"center\"><strong>Τροποποίηση πάντα</strong></p>\n"
+"\n"
+"<p align=\"center\">Αυτή η επιλογή σας επιτρέπει να αποφασίσετε εάν οι "
+"σπουδαστές μπορούν να\n"
+"  τροποποιήσουν τις καταχωρήσεις τους οποιαδήποτε στιγμή.</p>\n"
+"<p align=\"left\">Μπορείτε να επιλέξετε:</p>\n"
+"<ul type=\"disc\">\n"
+"  <li><strong>Ναι:</strong> Οι καταχωρήσεις μπορούν πάντα να τροποποιηθούν. "
+"</li>\n"
+"  <li><strong>Όχι:</strong> Οι καταχωρήσεις μπορούν να τροποποιηθούν μέσα σε\n"
+"    κάποιο καθορισμένο χρονικό διάστημα. </li>\n"
+"</ul>"
+
+#: $string['editcategories']
+msgid "Edit categories"
+msgstr "Επεξεργασία κατηγοριών"
+
+#: $string['editentry']
+msgid "Edit entry"
+msgstr "Επεξεργασία εγγραφών"
+
+#: $string['editentrya']
+msgid "Edit entry: {$a}"
+msgstr ""
+
+#: $string['editingcomment']
+msgid "Editing comment"
+msgstr "Επεξεργασία σχολίου"
+
+#: $string['entbypage']
+msgid "Entries shown per page"
+msgstr "Εγγραφές ανά σελίδα"
+
+#: $string['entries']
+msgid "Entries"
+msgstr "Εγγραφές"
+
+#: $string['entrieswithoutcategory']
+msgid "Entries without category"
+msgstr "Εγγραφές χωρίς κατηγορία"
+
+#: $string['entry']
+msgid "Entry"
+msgstr "Εγγραφή"
+
+#: $string['entryalreadyexist']
+msgid "Entry already exists"
+msgstr "Εγγραφή υπάρχει ήδη"
+
+#: $string['entryapproved']
+msgid "This entry has been approved"
+msgstr "Αυτή η εγγραφή έχει εγκριθεί"
+
+#: $string['entrydeleted']
+msgid "Entry deleted"
+msgstr "Εγγραφή διαγράφηκε"
+
+#: $string['entryexported']
+msgid "Entry successfully exported"
+msgstr "Εγγραφή εξάχθηκε επιτυχώς"
+
+#: $string['entryishidden']
+msgid "(this entry is currently hidden)"
+msgstr "(αυτή η εγγραφή είναι προς το παρόν κρυμμένη)"
+
+#: $string['entryleveldefaultsettings']
+msgid "Entry level default settings"
+msgstr "Προκαθορισμένες Ρυθμίσεις Επιπέδου Εγγραφής"
+
+#: $string['entrylink']
+msgid "Entry link: {$a}"
+msgstr ""
+
+#: $string['entrysaved']
+msgid "This entry has been saved"
+msgstr "Αυτή η εγγραφή αποθηκεύτηκε"
+
+#: $string['entryupdated']
+msgid "This entry has been updated"
+msgstr "Αυτή η εγγραφή ενημερώθηκε"
+
+#: $string['entryusedynalink']
+msgid "This entry should be automatically linked"
+msgstr "Αυτή η εγγραφή θα πρέπει να γίνει αυτόματα σύνδεσμος"
+
+#: $string['entryusedynalink_help']
+#, fuzzy
+msgid ""
+"If site-wide glossary auto-linking has been enabled by an administrator and "
+"this checkbox is ticked, the entry will be automatically linked wherever the "
+"concept words and phrases appear throughout the rest of the course."
+msgstr ""
+"Αν η αυτόματη σύνδεση εγγραφών λεξικού είναι ενεργοποιημένη από τον "
+"διαχειριστή και αυτή η ρύθμιση έιναι ενεργοποιημένη, η φόρμα \"Πρόσθεσε μια "
+"νέα εγγραφή\" περιλαμβάνει την επιλογή να συνδέονται αυτόματα οπουδήποτε "
+"εμφανίζονται οι λέξεις και οι φράσεις σε ολόκληρο το μάθημα."
+
+#: $string['errcannoteditothers']
+msgid "You cannot edit other people's entries."
+msgstr "Δεν μπορείτε να επεξεργαστείτε τις καταχωρήσεις άλλων χρηστών."
+
+#: $string['errconceptalreadyexists']
+msgid "This concept already exists. No duplicates allowed in this glossary."
+msgstr ""
+"Αυτή η έννοια υπάρχει ήδη. Δεν επιτρέπονται διπλότυπα σε αυτό το λεξικό."
+
+#: $string['errdeltimeexpired']
+msgid "You can't delete this. Time expired!"
+msgstr "Δεν μπορείτε να το διαγράψετε αυτό. Ο χρόνος έληξε!"
+
+#: $string['erredittimeexpired']
+msgid "The editing time for this entry has expired."
+msgstr "Ο χρόνος επεξεργασίας αυτής της καταχώρησης έληξε."
+
+#: $string['errorparsingxml']
+msgid ""
+"Errors occurred while parsing the file. Make sure it is valid XML syntax."
+msgstr ""
+"Συνέβησαν σφάλματα κατά την ανάλυση αυτού του αρχείου. Σιγουρευτείτε οτι η "
+"σύνταξη του είναι έγκυρη XML."
+
+#: $string['eventcategorycreated']
+msgid "Category has been created"
+msgstr ""
+
+#: $string['eventcategorydeleted']
+msgid "Category has been deleted"
+msgstr ""
+
+#: $string['eventcategoryupdated']
+msgid "Category has been updated"
+msgstr ""
+
+#: $string['evententryapproved']
+#, fuzzy
+msgid "Entry has been approved"
+msgstr "Αυτή η εγγραφή έχει εγκριθεί"
+
+#: $string['evententrycreated']
+msgid "Entry has been created"
+msgstr ""
+
+#: $string['evententrydeleted']
+msgid "Entry has been deleted"
+msgstr ""
+
+#: $string['evententrydisapproved']
+msgid "Entry has been disapproved"
+msgstr ""
+
+#: $string['evententryupdated']
+#, fuzzy
+msgid "Entry has been updated"
+msgstr "Αυτή η εγγραφή ενημερώθηκε"
+
+#: $string['evententryviewed']
+msgid "Entry has been viewed"
+msgstr ""
+
+#: $string['explainaddentry']
+msgid ""
+"Add a new entry to the current glossary.<br />Concept and definition are "
+"mandatory fields."
+msgstr ""
+"Προσθέστε μια νέα εγγραφή στο τρέχον λεξικό.<br /> Η έννοια και ο ορισμός "
+"είναι υποχρεωτικά πεδία."
+
+#: $string['explainall']
+msgid "Shows ALL entries on one page"
+msgstr "Εμφανίζει όλες τις εγγραφές σε μια σελίδα"
+
+#: $string['explainalphabet']
+msgid "Browse the glossary using this index"
+msgstr "Προβολή του λεξικού χρησιμοποιώντας αυτό το ευρετήριο"
+
+#: $string['explainexport']
+msgid ""
+"Click on the button below to export glossary entries.<br />You can import it "
+"anytime you wish in this or other course.<p>Please note that attachments "
+"(e.g. images) and authors are not exported.</p>"
+msgstr ""
+"Πατήστε το κουμπί παρακάτω για τα εξάγετε τις εγγραφές λεξιλογίου.<br /> "
+"Μπορείτε να το εισάγετε όποτε θελήσετε σε αυτό ή σε άλλο μάθημα.<p> Παρακαλώ "
+"σημειώστε πως τα επισυναπτόμενα (π.χ. εικόνες) και οι συγγραφείς δεν "
+"εξάγονται. </p>"
+
+#: $string['explainimport']
+msgid ""
+"You must specify the file to import and define the criteria of the "
+"process.<p>Submit your request and review the results.</p>"
+msgstr ""
+"Πρέπει να προσδιορίσετε το αρχείο εισαγωγής και να ορίσετε τα κριτήρια της "
+"διαδικασίας.<p> Υποβάλετε το αίτημά σας και δείτε τα αποτελέσματα. </p>"
+
+#: $string['explainspecial']
+msgid "Shows entries that do not begin with a letter"
+msgstr "Εμφάνιση εγγραφών που δεν ξεκινάνε με γράμμα"
+
+#: $string['exportedentry']
+msgid "Exported entry"
+msgstr "Εξαγόμενη εγγραφή"
+
+#: $string['exportentries']
+msgctxt "$string['exportentries']"
+msgid "Export entries"
+msgstr "Εξαγωγή εγγραφών"
+
+#: $string['exportentriestoxml']
+msgid "Export entries to XML file"
+msgstr "Εξαγωγή καταχωρήσεων σε αρχείο XML"
+
+#: $string['exportfile']
+msgid "Export entries to file"
+msgstr "Εξαγωγή εγγραφών σε αυτό το αρχείο"
+
+#: $string['exportglossary']
+msgid "Export glossary"
+msgstr "Εξαγωγή λεξικού"
+
+#: $string['exporttomainglossary']
+msgid "Export to main glossary"
+msgstr "Εξαγωγή στο κύριο λεξικό"
+
+#: $string['filetoimport']
+msgid "File to import"
+msgstr "Αρχείο για εισαγωγή"
+
+#: $string['filetoimport_help']
+msgid ""
+"Browse for and select the XML file on your computer which contains the "
+"entries to import."
+msgstr ""
+"<p align=\"center\"><b>Αρχείο για εισαγωγή</b></p>\n"
+"\n"
+"<p>Επιλογή του XML αρχείου που περιέχει τα στοιχειά για εισαγωγή.</p>"
+
+#: $string['fillfields']
+msgid "Concept and definition are mandatory fields."
+msgstr "Η έννοια και ο ορισμός είναι υποχρεωτικά πεδία."
+
+#: $string['filtername']
+msgid "Glossary auto-linking"
+msgstr "Αυτόματοι σύνδεσμοι για το λεξικό"
+
+#: $string['fullmatch']
+msgid "Match whole words only"
+msgstr "Ταίριασμα ολόκληρων λέξεων μόνο"
+
+#: $string['fullmatch_help']
+msgid ""
+"This setting specifies whether only whole words will be linked, for example, "
+"a glossary entry named \"construct\" will not create a link inside the word "
+"\"constructivism\"."
+msgstr ""
+"<p align=\"center\"><b>Ταύτιση / σύνδεση ολόκληρων λέξεων</b></p>\n"
+"\n"
+"<p>Αν η αυτόματη ταύτιση/σύνδεση είναι ενεργοποιημένη, με την εφαρμογή της "
+"ρύθμισης θα ταυτίζονται/συνδέονται μόνο ολόκληρες λέξεις.\n"
+"</p>\n"
+"\n"
+"<p>Για παράδειγμα, αν εισάγουμε τη λέξη &quot;και&quot;, δεν πρόκειται να "
+"γίνει σύνδεση με τη λέξη &quot;καιρός&quot;, παρά το γεγονός ότι το "
+"&quot;και&quot; εμπεριέχεται στο &quot;καιρός&quot;.</p>"
+
+#: $string['glossary:addinstance']
+msgid "Add a new glossary"
+msgstr ""
+
+#: $string['glossary:approve']
+msgid "Approve and undo approved entries"
+msgstr "Αποδοχή μη εγκεκριμένων εγγραφών"
+
+#: $string['glossary:comment']
+msgid "Create comments"
+msgstr "Δημιουργία σχολίων"
+
+#: $string['glossary:export']
+msgctxt "$string['glossary:export']"
+msgid "Export entries"
+msgstr "Εξαγωγή εγγραφών"
+
+#: $string['glossary:exportentry']
+msgid "Export single entry"
+msgstr "Εξαγωγή μονής καταχώρησης"
+
+#: $string['glossary:exportownentry']
+msgid "Export single entry of yours"
+msgstr "Εξαγωγή μια μονής καταχώρησης σας"
+
+#: $string['glossary:import']
+msgctxt "$string['glossary:import']"
+msgid "Import entries"
+msgstr "Εισαγωγή εγγραφών"
+
+#: $string['glossaryleveldefaultsettings']
+msgid "Glossary level default settings"
+msgstr "Προκαθορισμένες Ρυθμίσεις Επιπέδου Λεξικού"
+
+#: $string['glossary:managecategories']
+msgid "Manage categories"
+msgstr "Διαχείριση κατηγοριών"
+
+#: $string['glossary:managecomments']
+msgid "Manage comments"
+msgstr "Διαχείριση σχολίων"
+
+#: $string['glossary:manageentries']
+msgid "Manage entries"
+msgstr "Διαχείριση εγγραφών"
+
+#: $string['glossary:rate']
+msgid "Rate entries"
+msgstr "Βαθμολόγιση εγγραφών"
+
+#: $string['glossarytype']
+msgid "Glossary type"
+msgstr "Τύπος λεξικού"
+
+#: $string['glossarytype_help']
+msgid ""
+"A main glossary is a glossary in which entries from secondary glossaries can "
+"be imported. There can only be one main glossary in a course. If glossary "
+"entry import is not required, all glossaries in the course can be secondary "
+"glossaries."
+msgstr ""
+"<p align=\"center\"><strong>Καθορισμός του κύριου λεξιλογίου του "
+"Μαθήματος.</strong></p>\n"
+"<p align=\"left\">Το σύστημα του λεξιλογίου σας επιτρέπει να εξαγάγετε   "
+"καταχωρήσεις από οποιοδήποτε δευτερεύον λεξιλόγιο στο κυρίως λεξιλόγιο του "
+"  μαθήματος.</p>\n"
+"<p align=\"left\">Προκειμένου να γίνει αυτό, πρέπει να διευκρινίσετε ποιο   "
+"λεξιλόγιο είναι το κύριο.</p>\n"
+"<p align=\"left\"><em>Σημείωση: </em>Μπορείτε να έχετε μόνο ένα κύριο λεξικό "
+"ανά   μάθημα και μόνο οι διδάσκοντες έχουν την δυνατότητα να το "
+"ενημερώσουν.</p>"
+
+#: $string['glossary:view']
+msgid "View glossary"
+msgstr "Προβολή λεξικού"
+
+#: $string['glossary:viewallratings']
+msgid "View all raw ratings given by individuals"
+msgstr "Εμφάνιση όλων των πρώτων αξιολογήσεων που δόθηκαν ατομικά"
+
+#: $string['glossary:viewanyrating']
+msgid "View total ratings that anyone received"
+msgstr "Εμφάνιση όλων των συνολικών αξιολογήσεων που έλαβε κάποιος"
+
+#: $string['glossary:viewrating']
+msgid "View the total rating you received"
+msgstr "Προβολή βαθμολογιών"
+
+#: $string['glossary:write']
+msgid "Create new entries"
+msgstr "Δημιουργία νέων εγγραφών"
+
+#: $string['guestnoedit']
+msgid "Guests are not allowed to edit glossaries"
+msgstr "Οι επισκέπτες δεν επιτρέπεται να επεξεργάζονται λεξικά"
+
+#: $string['importcategories']
+msgid "Import categories"
+msgstr "Εισαγωγή κατηγοριών"
+
+#: $string['importedcategories']
+msgid "Imported categories"
+msgstr "Εισαγόμενες κατηγορίες"
+
+#: $string['importedentries']
+msgid "Imported entries"
+msgstr "Εισαγόμενες εγγραφές"
+
+#: $string['importentries']
+msgctxt "$string['importentries']"
+msgid "Import entries"
+msgstr "Εισαγωγή εγγραφών"
+
+#: $string['importentriesfromxml']
+msgid "Import entries from XML file"
+msgstr "Εισαγωγή καταχωρλησεων από αρχείο XML"
+
+#: $string['includegroupbreaks']
+msgid "Include group breaks"
+msgstr "Περιλαμβάνονται οι διαχωριστές ομάδων"
+
+#: $string['indicator:cognitivedepth']
+msgid "Glossary cognitive"
+msgstr ""
+
+#: $string['indicator:cognitivedepth_help']
+msgid ""
+"This indicator is based on the cognitive depth reached by the student in a "
+"Glossary activity."
+msgstr ""
+
+#: $string['indicator:socialbreadth']
+msgid "Glossary social"
+msgstr ""
+
+#: $string['indicator:socialbreadth_help']
+msgid ""
+"This indicator is based on the social breadth reached by the student in a "
+"Glossary activity."
+msgstr ""
+
+#: $string['isglobal']
+msgid "Is this glossary global?"
+msgstr "Είναι αυτό το λεξικό παγκόσμιο;"
+
+#: $string['isglobal_help']
+msgid ""
+"A global glossary has entries which are linked to from throughout the site, "
+"rather than only in the course that the glossary is in. Only administrators "
+"can set a glossary as global."
+msgstr ""
+"<p align=\"center\"><b>Ορισμός γενικού λεξιλογίου όρων</b></p>\n"
+"\n"
+"<p>Οι Γενικοί Διαχειριστές (administrators) μπορούν να ορίσουν ένα λεξιλόγιο "
+"όρων ως γενικό.</p>\n"
+"\n"
+"<p>Τέτοια λεξιλόγια όρων μπορούν να βρίσκονται σε κάθε τμήμα κάθε ενότητας "
+"ενός μαθήματος, ιδιαίτερα όμως στην πρώτη σελίδα του μαθήματος.</p>\n"
+"\n"
+"<p>Τα γενικά λεξιλόγια όρων διαφοροποιούνται από τα επιμέρους λεξιλόγια όρων "
+"στο ότι τα λήμματά τους\n"
+"συνδέονται αυτόματα όχι μόνο εντός του εκάστοτε μαθήματος αλλά σε όλο τον "
+"διαδικτυακό τόπο.</p>"
+
+#: $string['letter']
+msgid "letter"
+msgstr "γράμμα"
+
+#: $string['linkcategory']
+msgid "Automatically link this category"
+msgstr "Αυτόματοι σύνδεσμοι για αυτή την κατηγορία"
+
+#: $string['linkcategory_help']
+msgid ""
+"If glossary auto-linking has been enabled and this setting is enabled, the "
+"category name will be automatically linked wherever it appears throughout "
+"the rest of the course. When a participant follows a category name link, "
+"they will be taken to the \"Browse by category\" page of the glossary."
+msgstr ""
+"<p align=\"center\"><strong>Αυτόματη σύνδεση κατηγοριών.</strong></p>\n"
+"\n"
+"<p align=\"left\">Μπορείτε να ορίσετε εάν θέλετε τις κατηγορίες να συνδέονται "
+"  μεταξύ τους αυτόματα ή όχι.</p>\n"
+"<p align=\"left\"><em>Σημείωση:</em> Οι κατηγορίες συνδέονται βασιζόμενες σε "
+"  αντιστοιχία ολόκληρης της λέξης και σε αντιστοιχία κεφαλαίων-μικρών.</p>"
+
+#: $string['linking']
+msgid "Auto-linking"
+msgstr "Αυτόματοι σύνδεσμοι"
+
+#: $string['mainglossary']
+msgid "Main glossary"
+msgstr "Κύριο λεξικό"
+
+#: $string['maxtimehaspassed']
+msgid "Sorry, but the maximum time for editing this comment ({$a}) has passed!"
+msgstr ""
+"Συγνώμη, αλλά ο μέγιστος χρόνος για την επεξεργασία αυτού του σχολίου ({$a}) "
+"έχει περάσει!"
+
+#: $string['modulename']
+msgctxt "$string['modulename']"
+msgid "Glossary"
+msgstr "Λεξικό"
+
+#: $string['modulename_help']
+msgid ""
+"The glossary activity module enables participants to create and maintain a "
+"list of definitions, like a dictionary, or to collect and organise resources "
+"or information.\n"
+"\n"
+"A teacher can allow files to be attached to glossary entries. Attached "
+"images are displayed in the entry. Entries can be searched or browsed "
+"alphabetically or by category, date or author. Entries can be approved by "
+"default or require approval by a teacher before they are viewable by "
+"everyone.\n"
+"\n"
+"If the glossary auto-linking filter is enabled, entries will be "
+"automatically linked where the concept words and/or phrases appear within "
+"the course.\n"
+"\n"
+"A teacher can allow comments on entries. Entries can also be rated by "
+"teachers or students (peer evaluation). Ratings can be aggregated to form a "
+"final grade which is recorded in the gradebook.\n"
+"\n"
+"Glossaries have many uses, such as\n"
+"\n"
+"* A collaborative bank of key terms\n"
+"* A ‘getting to know you’ space where new students add their name and "
+"personal details\n"
+"* A ‘handy tips’ resource of best practice in a practical subject\n"
+"* A sharing area of useful videos, images or sound files\n"
+"* A revision resource of facts to remember"
+msgstr ""
+
+#: $string['modulename_link']
+msgid "mod/glossary/view"
+msgstr ""
+
+#: $string['modulenameplural']
+msgid "Glossaries"
+msgstr "Λεξικά"
+
+#: $string['newentries']
+msgid "New glossary entries"
+msgstr "Νέες εγγραφές λεξικού"
+
+#: $string['newglossary']
+msgid "New glossary"
+msgstr "Νέο λεξικό"
+
+#: $string['newglossarycreated']
+msgid "New glossary created."
+msgstr "Νέο λεξικό δημιουργήθηκε."
+
+#: $string['newglossaryentries']
+msgid "New glossary entries:"
+msgstr "Νέες εγγραφές λεξικού:"
+
+#: $string['nocomment']
+msgid "No comment found"
+msgstr "Δε βρέθηκε σχόλιο"
+
+#: $string['nocomments']
+msgid "(No comments found on this entry)"
+msgstr "(Δε βρέθηκαν σχόλια για αυτή την εγγραφή)"
+
+#: $string['noconceptfound']
+msgid "No concept or definition found."
+msgstr "Δε βρέθηκε έννοια ή ορισμός."
+
+#: $string['noentries']
+msgid "No entries found in this section"
+msgstr "Δε βρέθηκαν εγγραφές σε αυτό το τμήμα"
+
+#: $string['noentry']
+msgid "No entry found."
+msgstr "Δε βρέθηκε εγγραφή."
+
+#: $string['nopermissiontodelcomment']
+msgid "You can't delete other people's comments!"
+msgstr "Δεν μπορείτε να επεξεργαστείτε τα σχόλια άλλων χρηστών!"
+
+#: $string['nopermissiontodelinglossary']
+msgid "You can't comments in this glossary!"
+msgstr "Δεν μπορείτε να σχολιάσετε σε αυτό το λεξικό!"
+
+#: $string['nopermissiontoviewresult']
+msgid "You can only look at results for your own entries"
+msgstr "Μπορείτε μόνο να δείτε τα αποτελέσματα για τις δικές σας καταχωρήσεις"
+
+#: $string['notapproved']
+msgid "glossary entry is not approved yet."
+msgstr ""
+
+#: $string['notcategorised']
+msgid "Not categorised"
+msgstr "Μη κατηγοριοποιημένο"
+
+#: $string['numberofentries']
+msgid "Number of entries"
+msgstr "Πλήθος εγγραφών"
+
+#: $string['onebyline']
+msgid "(one per line)"
+msgstr "(μια ανα γραμμή)"
+
+#: $string['page-mod-glossary-edit']
+msgid "Glossary add/edit entry page"
+msgstr ""
+
+#: $string['page-mod-glossary-view']
+msgid "View glossary edit page"
+msgstr ""
+
+#: $string['page-mod-glossary-x']
+msgid "Any glossary module page"
+msgstr ""
+
+#: $string['pluginadministration']
+msgid "Glossary administration"
+msgstr ""
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Glossary"
+msgstr "Λεξικό"
+
+#: $string['popupformat']
+msgid "Popup format"
+msgstr "Μορφή αναδυόμενου"
+
+#: $string['print']
+msgid "Print"
+msgstr ""
+
+#: $string['printerfriendly']
+msgid "Printer-friendly version"
+msgstr "Έκδοση φιλική για τον εκτυπωτή"
+
+#: $string['printviewnotallowed']
+msgid "Print view isn't allowed"
+msgstr "Η προβολή εκτύπωσης δεν επιτρέπεται"
+
+#: $string['question']
+msgid "Question"
+msgstr "Ερώτηση"
+
+#: $string['rejectedentries']
+msgid "Rejected entries"
+msgstr "Εγγραφές που απορρίφθηκαν"
+
+#: $string['rejectionrpt']
+msgid "Rejection report"
+msgstr "Αναφορά απορρίψεων"
+
+#: $string['removeallglossarytags']
+msgid "Remove all glossary tags"
+msgstr ""
+
+#: $string['resetglossaries']
+msgid "Delete entries from"
+msgstr "Διαγραφή καταχωρήσεων από"
+
+#: $string['resetglossariesall']
+msgid "Delete entries from all glossaries"
+msgstr "Διαγραφή καταχωρήσεων από όλα τα λεξικά"
+
+#: $string['rssarticles']
+msgid "Number of RSS recent articles"
+msgstr ""
+
+#: $string['rssarticles_help']
+msgid ""
+"This setting specifies the number of glossary entry concepts to include in "
+"the RSS feed. Between 5 and 20 generally acceptable."
+msgstr ""
+"<p align=\"center\"><b>Αριθμός των RSS πρόσφατων άρθρων</b></p>\n"
+"\n"
+"<p>Αυτή η επιλογή σας επιτρέπει να επιλέξετε τον αριθμό των άρθρων που θα "
+"περιλαμβάνονται σε μια τροφοδοσία RSS ειδήσεων.</p>\n"
+"\n"
+"<p>Ένας αριθμός μεταξύ του 5 και 20 θα ήταν λογικός για τα περισσότερα "
+"γλωσσάρια Αυξήστε τον αριθμό όταν το γλωσσάρι ανανεώνεται συχνά.</p>"
+
+#: $string['rsssubscriberss']
+msgid "Display the RSS feed for '{$a}' concepts"
+msgstr "Εμφανίστε τη τρόφοδότηση RSS για '{$a}' έννοιες"
+
+#: $string['rsstype']
+msgid "RSS feed for this activity"
+msgstr ""
+
+#: $string['rsstype_help']
+msgid ""
+"To enable the RSS feed for this activity, select either concepts with author "
+"or concepts without author to be included in the feed."
+msgstr ""
+"<p align=\"center\"><b>RSS Τροφοδοσία για αύτό το γλοσσάρι</b></p>\n"
+"\n"
+"<p>Αυτή η επιλογή σας επιτρέπει να ενεργοποιείτε την τροφοδοσία  RSS από "
+"αυτό το γλωσσάρι.</p>\n"
+"\n"
+"<p>Μπορείτε να επιλέξετε ανάμεσα σε 2 τύπους τροφοδίας:</p>\n"
+"\n"
+"<ul>\n"
+"<li><b>Με συγγραφέα:</b> Η τροφοδοσία του κάθε ένα άρθρου θα περιλαμβάνει "
+"και το όνομα του στγγραφέα σε κάθε καταχώρηση.</li>\n"
+"\n"
+"<li><b>Χωρίς συγγραφέα:</b> Η τροφοδοσία του κάθε ένα άρθρου δε θα "
+"περιλαμβάνει και το όνομα του στγγραφέα σε κάθε καταχώρηση.</li>\n"
+"</ul>"
+
+#: $string['search:activity']
+msgid "Glossary - activity information"
+msgstr ""
+
+#: $string['search:entry']
+msgid "Glossary - entries"
+msgstr ""
+
+#: $string['searchindefinition']
+msgid "Search full text"
+msgstr "Αναζήτηση πλήρους κειμένου"
+
+#: $string['secondaryglossary']
+msgid "Secondary glossary"
+msgstr "Δευτερεύον λεξικό"
+
+#: $string['showall']
+msgid "Show 'ALL' link"
+msgstr "Εμφάνιση συνδέσμου 'ΌΛΑ'"
+
+#: $string['showall_help']
+msgid "If enabled, participants can browse all entries at once."
+msgstr ""
+"<p align=\"center\"><b>Επιλογές στην προβολή του Αλφάβητου</b></p>\n"
+"\n"
+"<p>Μπορείτε να προσαρμόσετε τον τρόοπο που ένας χρήστης μπορεί να "
+"χρησιμοποιήσει ένα γλωσσάρι. πλοήγηση και αναζήτηση είναι πάντα διαθέσιμα "
+"αλλά μπορείτε να ορίσετε 3 ακόμη επιλογές:</p>\n"
+"\n"
+"<p><b>SHOW SPECIAL</b> Ενεργοποιήστε η απενεργοποιήστε την πλοήγηση ειδικών "
+"χαρακτήρων όπως @, #, etc.</p>\n"
+"\n"
+"<p><b>SHOW ALPHABET</b> Ενεργοποιήστε η απενεργοποιήστε την πλοήγηση "
+"γραμμάτων του αλφάβητου.</p>\n"
+"\n"
+"<p><b>SHOW ALL</b> Ενεργοποιήστε η απενεργοποιήστε την πλοήγηση όλων των "
+"καταχωρήσεων.</p>"
+
+#: $string['showalphabet']
+msgid "Show alphabet links"
+msgstr "Εμφάνιση αλφάβητου"
+
+#: $string['showalphabet_help']
+msgid ""
+"If enabled, participants can browse the glossary by letters of the alphabet."
+msgstr ""
+"<p align=\"center\"><b>Επιλογές στην προβολή του Αλφάβητου</b></p>\n"
+"\n"
+"<p>Μπορείτε να προσαρμόσετε τον τρόοπο που ένας χρήστης μπορεί να "
+"χρησιμοποιήσει ένα γλωσσάρι. πλοήγηση και αναζήτηση είναι πάντα διαθέσιμα "
+"αλλά μπορείτε να ορίσετε 3 ακόμη επιλογές:</p>\n"
+"\n"
+"<p><b>SHOW SPECIAL</b> Ενεργοποιήστε η απενεργοποιήστε την πλοήγηση ειδικών "
+"χαρακτήρων όπως @, #, etc.</p>\n"
+"\n"
+"<p><b>SHOW ALPHABET</b> Ενεργοποιήστε η απενεργοποιήστε την πλοήγηση "
+"γραμμάτων του αλφάβητου.</p>\n"
+"\n"
+"<p><b>SHOW ALL</b> Ενεργοποιήστε η απενεργοποιήστε την πλοήγηση όλων των "
+"καταχωρήσεων.</p>"
+
+#: $string['showspecial']
+msgid "Show 'Special' link"
+msgstr "Εμφάνιση συνδέσμου 'Ειδικά'"
+
+#: $string['showspecial_help']
+msgid ""
+"If enabled, participants can browse the glossary by special characters, such "
+"as @ and #."
+msgstr ""
+"<p align=\"center\"><b>Επιλογές στην προβολή του Αλφάβητου</b></p>\n"
+"\n"
+"<p>Μπορείτε να προσαρμόσετε τον τρόοπο που ένας χρήστης μπορεί να "
+"χρησιμοποιήσει ένα γλωσσάρι. πλοήγηση και αναζήτηση είναι πάντα διαθέσιμα "
+"αλλά μπορείτε να ορίσετε 3 ακόμη επιλογές:</p>\n"
+"\n"
+"<p><b>SHOW SPECIAL</b> Ενεργοποιήστε η απενεργοποιήστε την πλοήγηση ειδικών "
+"χαρακτήρων όπως @, #, etc.</p>\n"
+"\n"
+"<p><b>SHOW ALPHABET</b> Ενεργοποιήστε η απενεργοποιήστε την πλοήγηση "
+"γραμμάτων του αλφάβητου.</p>\n"
+"\n"
+"<p><b>SHOW ALL</b> Ενεργοποιήστε η απενεργοποιήστε την πλοήγηση όλων των "
+"καταχωρήσεων.</p>"
+
+#: $string['sortby']
+msgid "Sort by"
+msgstr "Ταξινόμηση κατά"
+
+#: $string['sortbycreation']
+msgid "By creation date"
+msgstr "Κατά ημερομηνία δημιουργίας"
+
+#: $string['sortbylastupdate']
+msgid "By last update"
+msgstr "Κατά τελευταία ενημέρωση"
+
+#: $string['sortchronogically']
+msgid "Sort chronologically"
+msgstr "Ταξινόμηση χρονολογικά"
+
+#: $string['special']
+msgid "Special"
+msgstr "Ειδικά"
+
+#: $string['standardview']
+msgid "Browse by alphabet"
+msgstr "Προβολή ανά αλφάβητο"
+
+#: $string['studentcanpost']
+msgid "Students can add entries"
+msgstr "Οι φοιτητές μπορούν να προσθέσουν εγγραφές"
+
+#: $string['tagarea_glossary_entries']
+#, fuzzy
+msgid "Glossary entries"
+msgstr "Νέες εγγραφές λεξικού"
+
+#: $string['tagsdeleted']
+msgid "Glossary tags have been deleted"
+msgstr ""
+
+#: $string['totalentries']
+msgid "Total entries"
+msgstr "Συνολικές εγγραφές"
+
+#: $string['usedynalink']
+msgid "Automatically link glossary entries"
+msgstr "Αυτόματη σύνδεση εγγραφών λεξικού"
+
+#: $string['usedynalink_help']
+msgid ""
+"If site-wide glossary auto-linking has been enabled by an administrator and "
+"this setting is enabled, the \"Add a new entry\" form includes the option to "
+"automatically link the entry wherever the concept words and phrases appear "
+"throughout the rest of the course."
+msgstr ""
+"Αν η αυτόματη σύνδεση εγγραφών λεξικού είναι ενεργοποιημένη από τον "
+"διαχειριστή και αυτή η ρύθμιση έιναι ενεργοποιημένη, η φόρμα \"Πρόσθεσε μια "
+"νέα εγγραφή\" περιλαμβάνει την επιλογή να συνδέονται αυτόματα οπουδήποτε "
+"εμφανίζονται οι λέξεις και οι φράσεις σε ολόκληρο το μάθημα."
+
+#: $string['visibletabs']
+msgid "Visible tabs"
+msgstr ""
+
+#: $string['waitingapproval']
+msgid "Waiting approval"
+msgstr "Αναμονή αποδοχής"
+
+#: $string['warningstudentcapost']
+msgid "(Applies only if the glossary is not the main one)"
+msgstr "(Ισχύει μόνο εάν το λεξικό δεν είναι το κύριο)"
+
+#: $string['withauthor']
+msgid "Concepts with author"
+msgstr "Έννοιες με συγγραφέα"
+
+#: $string['withoutauthor']
+msgid "Concepts without author"
+msgstr "Έννοιες χωρίς συγγραφέα"
+
+#: $string['writtenby']
+msgid "by"
+msgstr "από"
+
+#: $string['youarenottheauthor']
+msgid ""
+"You are not the author of this comment, so you are not allowed to edit it."
+msgstr ""
+"Δεν είσαστε ο συγγραφέας αυτού του σχολίου, άρα δε σας επιτρέπεται η "
+"επεξεργασία του."

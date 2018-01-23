@@ -1,0 +1,196 @@
+#. extracted from lang/en/block_eledia_course_archiving.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'block_eledia_course_archiving', language 'en', branch 'MOODLE_33_STABLE'
+#.  *
+#.  * @package   block_eledia_course_archiving
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['archive']
+msgid "Start Archiving"
+msgstr "Έναρξη Αρχειοθέτησης"
+
+#: $string['configure_description']
+msgid ""
+"Here you can configure the archiving process. Archiving means the course "
+"will be set invisible,\n"
+"moved to the confiruged archive category and all student users will be "
+"unenroled.\n"
+"All courses which are located directly in the source categories will be "
+"checked against the choosen timestamp.\n"
+"Depending on the timestamp setting there will be the follwoing flow.<br />\n"
+"\n"
+"Course start date:<br />\n"
+"If the date is within the timespan of now and the choosen days in the past,\n"
+"the course will be archived. In a second step all courses in archive "
+"categorie are checked.\n"
+"If it is more than the chosen number of days in the past the course will be "
+"deleted.<br />\n"
+"<br />\n"
+"Last course activity:<br />\n"
+"If the date is more than the choosne days in the past , the courses will be "
+"archived.\n"
+"In a second step all courses in archive categorie are checked.\n"
+"If the courses there are inactive for more than the double number of days in "
+"the setting the coruses will be finally deleted.<br />\n"
+"<br />\n"
+"The process can be initiated through a form which is linked in the block. "
+"The block can be added to the main page only.\n"
+"As alternative you can set the process to run as a cron job."
+msgstr ""
+"Εδώ μπορείτε να ρυθμίσετε τη διαδικασία αρχειοθέτησης. Αρχειοθέτηση σημαίνει "
+"ότι το μάθημα θα γίνει αόρατο, θα μεταφερθεί στην ορισμένη κατηγορία "
+"αρχειοθέτησης και θα γίνει ακύρωση της εγγραφής στο μάθημα όλων των μαθητών.\n"
+"Όλα τα μαθήματα που βρίσκονται άμεσα στις κατηγορίες πηγών θα ελεγχθούν με "
+"βάση την επιλεγμένη χρονική σήμανση.\n"
+"Ανάλογα με τη χρονική σήμανση θα υπάρχει η ακόλουθη ροή.<br />\n"
+"\n"
+"Ημερομηνία έναρξης μαθήματος: <br />\n"
+"Αν η ημερομηνία είναι εντός του χρονικού διαστήματος μεταξυ της τρέχουσας "
+"ημερομηνίας και των επιλεγμένων ημερών κατά το παρελθόν, το μάθημα θα "
+"αρχειοθετείται. Σε δεύτερο στάδιο όλα τα μαθήματα στις κατηγορίες "
+"αρχειοθέτησης ελέγχονται.\n"
+"Αν είναι προγενέστερο από τον επιλεγμένο αριθμό ημερών κατά το παρελθόν το "
+"μάθημα θα διαγραφεί.<br />\n"
+"<br />\n"
+"Τελευταία δραστηριότητα μαθήματος:<br />\n"
+"Αν η ημερομηνία είναι προγενέστερη από τις επιλεγμένες ημέρες στο παρελθόν, "
+"τα μαθήματα θα αρχειοθετηθούν.\n"
+"Σε δεύτερο στάδιο όλα τα μαθήματα στις κατηγορίες αρχειοθέτησης ελέγχονται.\n"
+"Αν τα μαθήματα υπάρχουν ανενεργά για περισσότερο από το διπλάσιο αριθμό "
+"ημερών στη ρύθμιση τα μαθήματα θα διαγραφούν οριστικά.<br />\n"
+"<br />\n"
+"Η διαδικασία μπορεί να ξεκινήσει μέσα από μία φόρμα η οποία είναι "
+"συνδεδεμένη στο μπλοκ. Το μπλοκ μπορεί να προστεθεί μόνο στην κεντρική "
+"σελίδα.\n"
+"Ως εναλλακτική λύση, μπορείτε να ρυθμίσετε τη διαδικασία για να τρέξει ως "
+"μια εργασία cron."
+
+#: $string['confirm_archiving']
+msgid ""
+"The follwoing courses will be archived:<br />\n"
+"<br />\n"
+"{$a->archived}<br />\n"
+"<br />\n"
+"The follwoing courses will be deleted:<br />\n"
+"<br />\n"
+"{$a->deleted}"
+msgstr ""
+"Θα αρχειοθετηθούν τα ακόλουθα μαθήματα:<br />\n"
+"<br />\n"
+"{$a->archived}<br />\n"
+"<br />\n"
+"Θα διαγραφούν τα ακόλουθα μαθήματα:<br />\n"
+"<br />\n"
+"{$a->deleted}"
+
+#: $string['confirm_header']
+msgid "Confirm Archiving"
+msgstr "Επιβεβαίωση Αρχειοθέτησης"
+
+#: $string['course_archiving_task']
+msgid "Archiving courses"
+msgstr "Αρχειοθέτηση μαθημάτων"
+
+#: $string['days']
+msgid "Number of days to archive"
+msgstr "Αριθμός ημερών για αρχειοθέτηση"
+
+#: $string['eledia_course_archiving:addinstance']
+msgid "add course archiving block"
+msgstr "προσθήκη μπλοκ αρχειοθέτηση μαθήματος"
+
+#: $string['eledia_course_archiving:use']
+msgid "use course archiving block"
+msgstr "χρήση μπλοκ αρχειοθέτηση μαθήματος"
+
+#: $string['include_subcategories']
+msgid "Include all subcategories"
+msgstr "Συμπερίληψη όλων των υποκατηγοριών"
+
+#: $string['last_activity']
+msgid "last course activity"
+msgstr "τελευταία δραστηριότητα μαθήματος"
+
+#: $string['nothing_to_archive']
+msgid "no courses to archive or to delete"
+msgstr "δεν υπάρχουν μαθήματα για αρχειοθέτηση ή διαγραφή"
+
+#: $string['notice']
+msgid ""
+"The follwoing courses were archived:<br />\n"
+"<br />\n"
+"{$a->archived}<br />\n"
+"<br />\n"
+"The follwoing courses where deleted:<br />\n"
+"<br />\n"
+"{$a->deleted}"
+msgstr ""
+"Τα ακόλουθα μαθήματα αρχειοθετήθηκαν:<br />\n"
+"<br />\n"
+"{$a->archived}<br />\n"
+"<br />\n"
+"Τα ακόλουθα μαθήματα διαγράφηκαν:<br />\n"
+"<br />\n"
+"{$a->deleted}"
+
+#: $string['pluginname']
+msgctxt "$string['pluginname']"
+msgid "Course Archiving"
+msgstr "Αρχειοθέτηση Μαθήματος"
+
+#: $string['remove_error']
+msgid "- Errors while removing"
+msgstr "- Σφάλματα κατά την αφαίρεση"
+
+#: $string['remove_success']
+msgid "- Successful removed"
+msgstr "- Αφαιρέθηκε επιτυχώς"
+
+#: $string['run_cron']
+msgid "activate cron task for archivation"
+msgstr "ενεργοποίηση εργασίας cron για αρχειοθέτηση"
+
+#: $string['sourcecat']
+msgid "Categories to archivate"
+msgstr "Κατηγορίες για αρχειοθέτηση"
+
+#: $string['targetcat']
+msgid "Archive categorie"
+msgstr "Αρχειοθέτηση κατηγορίας"
+
+#: $string['targettimestamp']
+msgid "Timestamp to check"
+msgstr "Χρονικό αποτύπωμα για έλεγχο"
+
+#: $string['title']
+msgctxt "$string['title']"
+msgid "Course Archiving"
+msgstr "Αρχειοθέτηση Μαθήματος"

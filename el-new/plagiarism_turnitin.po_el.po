@@ -1,0 +1,809 @@
+#. extracted from lang/en/plagiarism_turnitin.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'plagiarism_turnitin', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   plagiarism_turnitin
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['allownonor']
+msgid "Allow submission of any file type?"
+msgstr ""
+
+#: $string['allownonor_help']
+msgid ""
+"This setting will allow any file type to be submitted. With this option set "
+"to &#34;Yes&#34;, submissions will be checked for originality where "
+"possible, submissions will be available for download and GradeMark feedback "
+"tools will be available where possible."
+msgstr ""
+
+#: $string['anonblindmarkingnote']
+msgid ""
+"Note: The separate Turnitin anonymous marking setting has been removed. "
+"Turnitin will use Moodle's blind marking setting to determine the anonymous "
+"marking setting."
+msgstr ""
+
+#: $string['assigngeterror']
+msgid "Could not get turnitintooltwo data"
+msgstr ""
+
+#: $string['attachrubric']
+msgid "Attach a rubric to this assignment"
+msgstr ""
+
+#: $string['attachrubricnote']
+msgid ""
+"Note: students will be able to view attached rubrics and their content prior "
+"to submitting."
+msgstr ""
+
+#: $string['because']
+msgid ""
+"This was because an administrator deleted the pending assignment from the "
+"processing queue and aborted the submission to Turnitin.<br /><strong>The "
+"file still exists in Moodle, please contact your instructor.</strong><br "
+"/>Please see below for any error codes:"
+msgstr ""
+
+#: $string['changerubricwarning']
+msgid ""
+"Changing or detaching a rubric will remove all existing rubric scoring from "
+"papers in this assignment, including scorecards which have previously been "
+"marked. Overall grades for previously graded papers will remain."
+msgstr ""
+
+#: $string['checkagainstnote']
+msgid ""
+"Note: If you do not select \"Yes\" for at least one of the \"Check against...\" "
+"options below then an Originality report will NOT be generated."
+msgstr ""
+
+#: $string['classupdateerror']
+msgid "Could not update Turnitin Class data"
+msgstr ""
+
+#: $string['closebutton']
+msgid "Close"
+msgstr ""
+
+#: $string['code']
+msgid "Code"
+msgstr ""
+
+#: $string['compareinstitution']
+msgid "Compare submitted files with papers submitted within this institution"
+msgstr ""
+
+#: $string['config']
+msgid "Configuration"
+msgstr ""
+
+#: $string['configupdated']
+msgid "Configuration updated"
+msgstr ""
+
+#: $string['configureerror']
+msgid ""
+"You must configure this module fully as Administrator before using it within "
+"a course. Please contact your Moodle administrator."
+msgstr ""
+
+#: $string['connecttesterror']
+msgid ""
+"There was an error connecting to Turnitin the return error message is "
+"below:<br />"
+msgstr ""
+
+#: $string['course']
+msgid "Course"
+msgstr ""
+
+#: $string['coursegeterror']
+msgid "Could not get course data"
+msgstr ""
+
+#: $string['cronsubmittedsuccessfully']
+msgid ""
+"Submission: {$a->title} (TII ID: {$a->submissionid}) for the assignment "
+"{$a->assignmentname} on the course {$a->coursename} was successfully "
+"submitted to Turnitin."
+msgstr ""
+"Υποβολή: {$a->title} (TII ID: {$a->submissionid}) για την εργασία "
+"{$a->assignmentname} στο μάθημα {$a->coursename} υποβλήθηκε επιτυχώς στην "
+"υπηρεσία Turnitin."
+
+#: $string['defaultinserterror']
+msgid ""
+"There was an error when trying to insert a default setting value into the "
+"database"
+msgstr ""
+
+#: $string['defaults']
+msgid "Default Settings"
+msgstr ""
+
+#: $string['defaultsdesc']
+msgid ""
+"The following settings are the defaults set when enabling Turnitin within an "
+"Activity Module"
+msgstr ""
+
+#: $string['defaultupdated']
+msgid "Turnitin defaults updated"
+msgstr ""
+
+#: $string['defaultupdateerror']
+msgid ""
+"There was an error when trying to update a default setting value in the "
+"database"
+msgstr ""
+
+#: $string['deleteconfirm']
+msgid ""
+"Are you sure you want to delete this submission?\\n\\nThis action cannot be "
+"undone."
+msgstr ""
+
+#: $string['deleted']
+msgid "Deleted"
+msgstr ""
+
+#: $string['deletesubmission']
+msgid "Delete Submission"
+msgstr ""
+
+#: $string['digitalreceipt']
+msgid "Digital Receipt"
+msgstr ""
+
+#: $string['digital_receipt_subject']
+msgid "This is your Turnitin Digital Receipt"
+msgstr ""
+
+#: $string['draftsubmit']
+msgid "When should the file be submitted to Turnitin?"
+msgstr ""
+
+#: $string['erater']
+msgid "Enable e-rater grammar check"
+msgstr ""
+
+#: $string['erater_categories']
+msgid "e-rater Categories"
+msgstr ""
+
+#: $string['erater_dictionary']
+msgid "e-rater Dictionary"
+msgstr ""
+
+#: $string['erater_dictionary_en']
+msgid "Both US and UK English Dictionaries"
+msgstr ""
+
+#: $string['erater_dictionary_engb']
+msgid "UK English Dictionary"
+msgstr ""
+
+#: $string['erater_dictionary_enus']
+msgid "US English Dictionary"
+msgstr ""
+
+#: $string['erater_grammar']
+msgid "Grammar"
+msgstr ""
+
+#: $string['erater_handbook']
+msgid "ETS&copy; Handbook"
+msgstr ""
+
+#: $string['erater_handbook_advanced']
+msgid "Advanced"
+msgstr ""
+
+#: $string['erater_handbook_elementary']
+msgid "Elementary School"
+msgstr ""
+
+#: $string['erater_handbook_highschool']
+msgid "High School"
+msgstr ""
+
+#: $string['erater_handbook_learners']
+msgid "English Learners"
+msgstr ""
+
+#: $string['erater_handbook_middleschool']
+msgid "Middle School"
+msgstr ""
+
+#: $string['erater_mechanics']
+msgid "Mechanics"
+msgstr ""
+
+#: $string['erater_spelling']
+msgid "Spelling"
+msgstr ""
+
+#: $string['erater_style']
+msgid "Style"
+msgstr ""
+
+#: $string['erater_usage']
+msgid "Usage"
+msgstr ""
+
+#: $string['errorcode0']
+msgctxt "$string['errorcode0']"
+msgid ""
+"This file has not been submitted to Turnitin, please consult your system "
+"administrator"
+msgstr ""
+
+#: $string['errorcode1']
+msgid ""
+"This file has not been sent to Turnitin as it does not have enough content "
+"to produce an Originality Report."
+msgstr ""
+
+#: $string['errorcode10']
+msgid ""
+"This file has not been submitted to Turnitin because there is a problem "
+"creating the class in Turnitin which is preventing submissions, please "
+"consult your API logs for further information"
+msgstr ""
+
+#: $string['errorcode11']
+msgid "This file has not been submitted to Turnitin because it is missing data"
+msgstr ""
+
+#: $string['errorcode12']
+msgid ""
+"This file has not been submitted to Turnitin because it belongs to an "
+"assignment in which the course was deleted. Row ID: ({$a->id}) | Course "
+"Module ID: ({$a->cm}) | User ID: ({$a->userid})"
+msgstr ""
+
+#: $string['errorcode2']
+msgid ""
+"This file will not be submitted to Turnitin as it exceeds the maximum size "
+"of {$a} allowed"
+msgstr ""
+
+#: $string['errorcode3']
+msgid ""
+"This file has not been submitted to Turnitin because the user has not "
+"accepted the Turnitin End User Licence Agreement."
+msgstr ""
+"Το αρχείο δεν έχει υποβληθεί στην υπηρεσία Turnitin διότι ο χρήστης δεν έχει "
+"αποδεχτεί τους όρους χρήσης του Turnitin."
+
+#: $string['errorcode4']
+msgid ""
+"You must upload a supported file type for this assignment. Accepted file "
+"types are; .doc, .docx, .ppt, .pptx, .pps, .ppsx, .pdf, .txt, .htm, .html, "
+".hwp, .odt, .wpd, .ps and .rtf"
+msgstr ""
+"Πρέπει να μεταφορτώσετε έναν αποδεκτό τύπο αρχείου για την εργασία αυτή. "
+"Αποδεκτοί τύποι αρχείου είναι: .doc, .docx, .ppt, .pptx, .pps, .ppsx, .pdf, "
+".txt, .htm, .html, .hwp, .odt, .wpd, .ps και.rtf"
+
+#: $string['errorcode5']
+msgid ""
+"This file has not been submitted to Turnitin because there is a problem "
+"creating the module in Turnitin which is preventing submissions, please "
+"consult your API logs for further information"
+msgstr ""
+
+#: $string['errorcode6']
+msgid ""
+"This file has not been submitted to Turnitin because there is a problem "
+"editing the module settings in Turnitin which is preventing submissions, "
+"please consult your API logs for further information"
+msgstr ""
+
+#: $string['errorcode7']
+msgid ""
+"This file has not been submitted to Turnitin because there is a problem "
+"creating the user in Turnitin which is preventing submissions, please "
+"consult your API logs for further information"
+msgstr ""
+
+#: $string['errorcode8']
+msgid ""
+"This file has not been submitted to Turnitin because there is a problem "
+"creating the temp file. The most likely cause is an invalid file name. "
+"Please rename the file and re-upload using Edit Submission."
+msgstr ""
+
+#: $string['errorcode9']
+msgid ""
+"The file cannot be submitted as there is no accessible content in the file "
+"pool to submit."
+msgstr ""
+
+#: $string['errors']
+msgid "Errors"
+msgstr ""
+
+#: $string['excludebiblio']
+msgid "Exclude Bibliography"
+msgstr ""
+
+#: $string['excludepercent']
+msgid "Percent"
+msgstr ""
+
+#: $string['excludequoted']
+msgid "Exclude Quoted Material"
+msgstr ""
+
+#: $string['excludevalue']
+msgid "Exclude Small Matches"
+msgstr ""
+
+#: $string['excludewords']
+msgid "Words"
+msgstr ""
+
+#: $string['faultcode']
+msgid "Fault Code"
+msgstr ""
+
+#: $string['filedoesnotexist']
+msgid "File has been deleted"
+msgstr ""
+
+#: $string['genduedate']
+msgid "Generate reports on due date (resubmissions are allowed until due date)"
+msgstr ""
+
+#: $string['genimmediately1']
+msgid "Generate reports immediately (resubmissions are not allowed)"
+msgstr ""
+
+#: $string['genimmediately2']
+msgid "Generate reports immediately (resubmissions are allowed until due date)"
+msgstr ""
+
+#: $string['genspeednote']
+msgid ""
+"Note: Originality Report generation for resubmissions is subject to a "
+"twenty-four hour delay."
+msgstr ""
+
+#: $string['grademark']
+msgid "GradeMark"
+msgstr ""
+
+#: $string['id']
+msgid "Id"
+msgstr ""
+
+#: $string['institutionalrepository']
+msgid "Institutional Repository (Where Applicable)"
+msgstr ""
+
+#: $string['internetcheck']
+msgid "Check against internet"
+msgstr ""
+
+#: $string['journalcheck']
+msgid "Check against journals,<br />periodicals and publications"
+msgstr ""
+
+#: $string['launchpeermarkmanager']
+msgid "Launch Peermark Manager"
+msgstr ""
+
+#: $string['launchpeermarkreviews']
+msgid "Launch Peermark Reviews"
+msgstr ""
+
+#: $string['launchquickmarkmanager']
+msgid "Launch Quickmark Manager"
+msgstr ""
+
+#: $string['launchrubricmanager']
+msgid "Launch Rubric Manager"
+msgstr ""
+
+#: $string['launchrubricview']
+msgid "View the Rubric used for marking"
+msgstr ""
+
+#: $string['line']
+msgid "Line"
+msgstr ""
+
+#: $string['loadingdv']
+msgid "Loading Turnitin Document Viewer..."
+msgstr ""
+
+#: $string['locked_message']
+msgid "Locked message"
+msgstr ""
+
+#: $string['locked_message_default']
+msgid "This setting is locked at the site level"
+msgstr ""
+
+#: $string['locked_message_help']
+msgid "If any settings are locked, this message is shown to say why."
+msgstr ""
+
+#: $string['message']
+msgid "Message"
+msgstr "Μήνυμα"
+
+#: $string['messageprovider:submission']
+msgid "Turnitin Plagiarism Plugin Digital Receipt notifications"
+msgstr ""
+
+#: $string['module']
+msgid "Module"
+msgstr ""
+
+#: $string['norepository']
+msgid "No Repository"
+msgstr ""
+
+#: $string['norubric']
+msgid "No rubric"
+msgstr ""
+
+#: $string['noscriptula']
+msgid ""
+"(As you do not have javascript enabled you will have to manually refresh "
+"this page before you can make a submission after accepting the Turnitin User "
+"Agreement)"
+msgstr ""
+
+#: $string['notavailableyet']
+msgid "Not available"
+msgstr ""
+
+#: $string['notorcapable']
+msgid "It is not possible to produce an Originality Report for this file."
+msgstr ""
+
+#: $string['otherrubric']
+msgid "Use rubric belonging to other instructor"
+msgstr ""
+
+#: $string['pending']
+msgid "Pending"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Turnitin plagiarism plugin"
+msgstr ""
+
+#: $string['pp_configuredesc']
+msgid ""
+"You must configure this module within the turnitintooltwo module. Please "
+"click <a "
+"href={$a}/admin/settings.php?section=modsettingturnitintooltwo>here</a> to "
+"configure this plugin"
+msgstr ""
+
+#: $string['pp_createsubmissionerror']
+msgid "There was an error trying to create the submission in Turnitin"
+msgstr ""
+
+#: $string['ppcronsubmissionlimitreached']
+msgid ""
+"No further submissions will be sent to Turnitin by this cron execution as "
+"only {$a} are processed per run"
+msgstr ""
+
+#: $string['pp_digital_receipt_message']
+msgid ""
+"Dear {$a->firstname} {$a->lastname},<br /><br />You have successfully "
+"submitted the file <strong>{$a->submission_title}</strong> to the assignment "
+"<strong>{$a->assignment_name}{$a->assignment_part}</strong> in the class "
+"<strong>{$a->course_fullname}</strong> on "
+"<strong>{$a->submission_date}</strong>. Your submission id is "
+"<strong>{$a->submission_id}</strong>. Your full digital receipt can be "
+"viewed and printed from the print/download button in the Document Viewer.<br "
+"/><br />Thank you for using Turnitin,<br /><br />The Turnitin Team"
+msgstr ""
+"Αγαπητέ/ή {$a->firstname} {$a->lastname},<br /><br />Έχετε υποβάλλει "
+"επιτυχώς το αρχείο <strong>{$a->submission_title}</strong> στην εργασία "
+"<strong>{$a->assignment_name}{$a->assignment_part}</strong> του μαθήματος "
+"<strong>{$a->course_fullname}</strong> στις "
+"<strong>{$a->submission_date}</strong>. Ο αριθμός υποβoλής είναι "
+"<strong>{$a->submission_id}</strong>. Το ψηφιακό αποδεικτικό μπορείτε να το "
+"δείτε και να το εκτυπώσετε από την επιλογή \"Download\" στο  Document Viewer "
+"του Turnitin.<br /><br />Ευχαριστούμε που χρησιμοποιήσετε την υπηρεσία "
+"Turnitin,<br /><br />The Turnitin Team"
+
+#: $string['pperrorsdesc']
+msgid ""
+"There has been a problem in trying to upload the files below to Turnitin. To "
+"resubmit, select the files you wish to resubmit and press the resubmit "
+"button. These will then be processed the next time the cron is run."
+msgstr ""
+
+#: $string['pperrorsfail']
+msgid ""
+"There was a problem with some of the files you selected, A new cron event "
+"could not be created for them."
+msgstr ""
+
+#: $string['pperrorssuccess']
+msgid ""
+"The files you selected have been resubmitted and will be processed by the "
+"cron."
+msgstr ""
+
+#: $string['ppeventsfailedconnection']
+msgid ""
+"No events will be processed by the Turnitin plagiarism plugin by this cron "
+"execution as a connection to Turnitin can not be established."
+msgstr ""
+
+#: $string['ppqueuesize']
+msgid "Number of events in the Plagiarism Plugin events queue"
+msgstr ""
+
+#: $string['pp_submission_error']
+msgid "Turnitin has returned an error with your submission:"
+msgstr ""
+
+#: $string['ppsubmissionerrorseelogs']
+msgctxt "$string['ppsubmissionerrorseelogs']"
+msgid ""
+"This file has not been submitted to Turnitin, please consult your system "
+"administrator"
+msgstr ""
+
+#: $string['ppsubmissionerrorstudent']
+msgid ""
+"This file has not been submitted to Turnitin, please consult your tutor for "
+"further details"
+msgstr ""
+
+#: $string['pp_updatesubmissionerror']
+msgid "There was an error trying to resubmit your submission to Turnitin"
+msgstr ""
+
+#: $string['queued']
+msgid "Queued"
+msgstr ""
+
+#: $string['reportgenspeed']
+msgid "Report Generation Speed"
+msgstr ""
+
+#: $string['resubmitselected']
+msgid "Resubmit Selected Files"
+msgstr ""
+
+#: $string['resubmitting']
+msgid "Resubmitting"
+msgstr ""
+
+#: $string['resubmittoturnitin']
+msgid "Resubmit to Turnitin"
+msgstr ""
+
+#: $string['saveusage']
+msgid "Save Data Dump"
+msgstr ""
+
+#: $string['semptytable']
+msgid "No results found."
+msgstr ""
+
+#: $string['sendqueuedsubmissions']
+msgid "Send Queued Files from the Turnitin Plagiarism Plugin"
+msgstr ""
+
+#: $string['sharedrubric']
+msgid "Shared Rubric"
+msgstr ""
+
+#: $string['showusage']
+msgid "Show Data Dump"
+msgstr ""
+
+#: $string['similarity']
+msgid "Similarity"
+msgstr ""
+
+#: $string['spapercheck']
+msgid "Check against stored student papers"
+msgstr ""
+
+#: $string['standardrepository']
+msgid "Standard Repository"
+msgstr ""
+
+#: $string['student']
+msgid "Student"
+msgstr ""
+
+#: $string['student_notread']
+msgid "The student has not viewed this paper."
+msgstr ""
+
+#: $string['student_read']
+msgid "The student viewed the paper on:"
+msgstr ""
+
+#: $string['studentreports']
+msgid "Display Originality Reports to Students"
+msgstr ""
+
+#: $string['studentreports_help']
+msgid ""
+"Allows you to display Turnitin originality reports to student users. If set "
+"to yes the originality report generated by Turnitin are available for the "
+"student to view."
+msgstr ""
+
+#: $string['submitondraft']
+msgid "Submit file when first uploaded"
+msgstr ""
+
+#: $string['submitonfinal']
+msgid "Submit file when student sends for marking"
+msgstr ""
+
+#: $string['submitpapersto']
+msgid "Store Student Papers"
+msgstr ""
+
+#: $string['submitpapersto_help']
+msgid ""
+"This setting provides instructors with the ability to select whether papers "
+"are stored in a Turnitin student paper repository. The benefit of submitting "
+"papers to the student paper repository is that student papers submitted to "
+"the assignment are checked against other students\\&#39; submissions within "
+"your current and previous classes. If you select &#34;no repository&#34;, "
+"your students\\&#39; papers will not be stored in the Turnitin student paper "
+"repository."
+msgstr ""
+
+#: $string['tiiassignmentgeterror']
+msgid "There was an error when trying to get an assignment from Turnitin"
+msgstr ""
+
+#: $string['tiiexplain']
+msgid ""
+"Turnitin is a commercial product and you must have a paid subscription to "
+"use this service for more information see <a href=http://docs.moodle.org/en/"
+"Turnitin_administration>http://docs.moodle.org/en/Turnitin_administration</a"
+">"
+msgstr ""
+
+#: $string['tii_submission_failure']
+msgid "Please consult your tutor or system administrator for further details"
+msgstr ""
+
+#: $string['tiisubmissiongeterror']
+msgid "There was an error when trying to get a submission from Turnitin"
+msgstr ""
+
+#: $string['tiisubmissionsgeterror']
+msgid ""
+"There was an error when trying to get submissions for this assignment from "
+"Turnitin"
+msgstr ""
+
+#: $string['transmatch']
+msgid "Translated Matching"
+msgstr ""
+
+#: $string['turnitin']
+msgid "Turnitin"
+msgstr ""
+
+#: $string['turnitinconfig']
+msgid "Turnitin Plagiarism Plugin Configuration"
+msgstr ""
+
+#: $string['turnitindefaults']
+msgid "Turnitin plagiarism plugin default settings"
+msgstr ""
+
+#: $string['turnitindeletionerror']
+msgid ""
+"Turnitin submission deletion failed. The local Moodle copy was removed but "
+"the submission in Turnitin could not be deleted."
+msgstr ""
+
+#: $string['turnitin:enable']
+msgctxt "$string['turnitin:enable']"
+msgid "Enable Turnitin"
+msgstr ""
+
+#: $string['turnitinid']
+msgid "Turnitin ID"
+msgstr ""
+
+#: $string['turnitinpluginsettings']
+msgid "Turnitin plagiarism plugin settings"
+msgstr ""
+
+#: $string['turnitinppulapost']
+msgid ""
+"Your file has not been submitted to Turnitin. Please click here to accept "
+"our EULA."
+msgstr ""
+
+#: $string['turnitinppulapre']
+msgid ""
+"To submit a file to Turnitin you must first accept our EULA. Choosing to not "
+"accept our EULA will submit your file to Moodle only. Click here to accept."
+msgstr ""
+"Για να υποβάλλετε αρχείο στην υπηρεσία Turnitin, πρέπει πρώτα να αποδεχτείτε "
+"τους Όρους Χρήσης (EULA). Επιλέγοντας τη μη αποδοχή τους, το αρχείο θα "
+"υποβληθεί στη μόνο στη πλατφόρμα moodle. Επιλέξτε εδώ για την αποδοχή των "
+"Όρων Χρήσης."
+
+#: $string['turnitinrefreshingsubmissions']
+msgid "Refreshing Submissions"
+msgstr ""
+
+#: $string['turnitinrefreshsubmissions']
+msgid "Refresh Submissions"
+msgstr ""
+
+#: $string['turnitinstatus']
+msgid "Turnitin status"
+msgstr ""
+
+#: $string['turnitintoolofflineerror']
+msgid "We are experiencing a temporary problem. Please try again shortly."
+msgstr ""
+
+#: $string['turnitintooltwo']
+msgid "Turnitin Tool"
+msgstr ""
+
+#: $string['turnitin:viewfullreport']
+msgid "View Originality Report"
+msgstr ""
+
+#: $string['updatereportscores']
+msgid "Update Report Scores for Turnitin Plagiarism Plugin"
+msgstr ""
+
+#: $string['useturnitin']
+msgctxt "$string['useturnitin']"
+msgid "Enable Turnitin"
+msgstr ""
+
+#: $string['useturnitin_mod']
+msgid "Enable Turnitin for {$a}"
+msgstr ""

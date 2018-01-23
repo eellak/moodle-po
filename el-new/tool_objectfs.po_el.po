@@ -1,0 +1,337 @@
+#. extracted from lang/en/tool_objectfs.php
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-10 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#. // This file is part of Moodle - http://moodle.org/
+#. //
+#. // Moodle is free software: you can redistribute it and/or modify
+#. // it under the terms of the GNU General Public License as published by
+#. // the Free Software Foundation, either version 3 of the License, or
+#. // (at your option) any later version.
+#. //
+#. // Moodle is distributed in the hope that it will be useful,
+#. // but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. // GNU General Public License for more details.
+#. //
+#. // You should have received a copy of the GNU General Public License
+#. // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+#. /**
+#.  * Strings for component 'tool_objectfs', language 'en', branch 'MOODLE_34_STABLE'
+#.  *
+#.  * @package   tool_objectfs
+#.  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+#.  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+#.  */
+#: $string['delete_local_objects_task']
+msgid "Object file system delete local objects task"
+msgstr ""
+
+#: $string['generate_status_report_task']
+msgid "Object status report generator task"
+msgstr ""
+
+#: $string['not_enabled']
+msgid ""
+"The object file system background tasks are not enabled. No objects will "
+"move location until you do."
+msgstr ""
+
+#: $string['object_status:files']
+msgid "Objects"
+msgstr ""
+
+#: $string['object_status:last_run']
+msgid "This report was generated on {$a}"
+msgstr ""
+
+#: $string['object_status:location']
+msgid "Object location"
+msgstr ""
+
+#: $string['object_status:location:duplicated']
+msgid "Duplicated in filedir and external storage"
+msgstr ""
+
+#: $string['object_status:location:error']
+msgid "Missing from filedir and external storage"
+msgstr ""
+
+#: $string['object_status:location:external']
+msgid "Only in external storage"
+msgstr ""
+
+#: $string['object_status:location:local']
+msgid "Only in filedir"
+msgstr ""
+
+#: $string['object_status:location:total']
+msgid "Total"
+msgstr ""
+
+#: $string['object_status:location:unknown']
+msgid "Unknown object location"
+msgstr ""
+
+#: $string['object_status:never_run']
+msgid "The task to generate this report has not been run."
+msgstr ""
+
+#: $string['object_status:page']
+msgid "Object status"
+msgstr ""
+
+#: $string['object_status:size']
+msgid "Total size"
+msgstr ""
+
+#: $string['pluginname']
+msgid "Object storage file system"
+msgstr ""
+
+#: $string['pull_objects_from_storage_task']
+msgid "Object file system download objects task"
+msgstr ""
+
+#: $string['push_objects_to_storage_task']
+msgid "Object file system upload task"
+msgstr ""
+
+#: $string['recover_error_objects_task']
+msgid "Object error recovery task"
+msgstr ""
+
+#: $string['settings']
+msgid "Settings"
+msgstr ""
+
+#: $string['settings:aws:bucket']
+msgid "Bucket"
+msgstr ""
+
+#: $string['settings:aws:bucket_help']
+msgid "Amazon S3 bucket to store files in."
+msgstr ""
+
+#: $string['settings:aws:header']
+msgid "Amazon S3 Settings"
+msgstr ""
+
+#: $string['settings:aws:key']
+msgid "Key"
+msgstr ""
+
+#: $string['settings:aws:key_help']
+msgid "Amazon S3 key credential."
+msgstr ""
+
+#: $string['settings:aws:region']
+msgid "region"
+msgstr ""
+
+#: $string['settings:aws:region_help']
+msgid "Amazon S3 API gateway region."
+msgstr ""
+
+#: $string['settings:aws:secret']
+msgid "Secret"
+msgstr ""
+
+#: $string['settings:aws:secret_help']
+msgid "Amazon S3 secret credential."
+msgstr ""
+
+#: $string['settings:azure:accountname']
+msgid "Account name"
+msgstr ""
+
+#: $string['settings:azure:accountname_help']
+msgid "The name of the storage account."
+msgstr ""
+
+#: $string['settings:azure:container']
+msgid "Container name"
+msgstr ""
+
+#: $string['settings:azure:container_help']
+msgid "The name of the container that will store the blobs."
+msgstr ""
+
+#: $string['settings:azure:header']
+msgid "Azure Blob Storage Settings"
+msgstr ""
+
+#: $string['settings:azure:sastoken']
+msgid "Shared Access Signature"
+msgstr ""
+
+#: $string['settings:azure:sastoken_help']
+msgid ""
+"This Shared Access Signature should have the following two capabilites only. "
+"Read, write."
+msgstr ""
+
+#: $string['settings:clientnotavailable']
+msgid ""
+"The configured client '{$a}' is not available. Please install the required "
+"dependencies."
+msgstr ""
+
+#: $string['settings:clientselection:header']
+msgid "Storage File System Selection"
+msgstr ""
+
+#: $string['settings:clientselection:matchfilesystem']
+msgid "This setting matches $CFG->alternative_file_system_class"
+msgstr ""
+
+#: $string['settings:clientselection:mismatchfilesystem']
+msgid "This setting does not match $CFG->alternative_file_system_class"
+msgstr ""
+
+#: $string['settings:clientselection:title']
+msgid "Storage File System"
+msgstr ""
+
+#: $string['settings:clientselection:title_help']
+msgid ""
+"The storage file system. This is also the active file system for the "
+"background tasks."
+msgstr ""
+
+#: $string['settings:connectionfailure']
+msgid "Could not establish connection to the external object storage."
+msgstr ""
+
+#: $string['settings:connectionsuccess']
+msgid "Could establish connection to the external object storage."
+msgstr ""
+
+#: $string['settings:consistencydelay']
+msgid "Consistency delay"
+msgstr ""
+
+#: $string['settings:consistencydelay_help']
+msgid ""
+"How long an object must have existed after being transfered to external "
+"object storage before they are a candidate for deletion locally."
+msgstr ""
+
+#: $string['settings:deleteerror']
+msgid "Could not delete object from the external object storage."
+msgstr ""
+
+#: $string['settings:deletelocal']
+msgid "Delete local objects"
+msgstr ""
+
+#: $string['settings:deletelocal_help']
+msgid ""
+"Delete local objects once they are in external object storage after the "
+"consistency delay."
+msgstr ""
+
+#: $string['settings:deletesuccess']
+msgid ""
+"Could delete object from the external object storage - It is not recommended "
+"for the user to have delete permissions."
+msgstr ""
+
+#: $string['settings:enablelogging']
+msgid "Enable real time logging"
+msgstr ""
+
+#: $string['settings:enablelogging_help']
+msgid ""
+"Enable or disable file system logging. Will output diagnostic information to "
+"the php error log."
+msgstr ""
+
+#: $string['settings:enabletasks']
+msgid "Enable transfer tasks"
+msgstr ""
+
+#: $string['settings:enabletasks_help']
+msgid ""
+"Enable or disable the object file system tasks which move files between the "
+"filedir and external object storage."
+msgstr ""
+
+#: $string['settings:filetransferheader']
+msgid "File Transfer Settings"
+msgstr ""
+
+#: $string['settings:generalheader']
+msgid "General Settings"
+msgstr ""
+
+#: $string['settings:handlernotset']
+msgid ""
+"$CFG->alternative_file_system_class is not set, the file system will not be "
+"able to read from the external object storage. Background tasks can still "
+"function."
+msgstr ""
+
+#: $string['settings:maxtaskruntime']
+msgid "Maximum transfer task runtime"
+msgstr ""
+
+#: $string['settings:maxtaskruntime_help']
+msgid ""
+"Background tasks handle the transfer of objects to and from external object "
+"storage. This setting controlls the maximum runtime for all object transfer "
+"related tasks."
+msgstr ""
+
+#: $string['settings:minimumage']
+msgid "Minimum age"
+msgstr ""
+
+#: $string['settings:minimumage_help']
+msgid ""
+"Minimum age that a object must exist on the local filedir before it will be "
+"considered for transfer."
+msgstr ""
+
+#: $string['settings:permissioncheckpassed']
+msgid "Permissions check passed."
+msgstr ""
+
+#: $string['settings:preferexternal']
+msgid "Prefer external objects"
+msgstr ""
+
+#: $string['settings:preferexternal_help']
+msgid ""
+"If a file is stored both locally and in external object storage, read from "
+"external\\. This is setting is mainly for testing purposes and introduces "
+"overhead to check the location."
+msgstr ""
+
+#: $string['settings:readfailure']
+msgid "Could not read object from the external object storage."
+msgstr ""
+
+#: $string['settings:sizethreshold']
+msgid "Minimum size threshold (KB)"
+msgstr ""
+
+#: $string['settings:sizethreshold_help']
+msgid ""
+"Minimum size threshold for transfering objects to external object storage. "
+"If objects are over this size they will be transfered."
+msgstr ""
+
+#: $string['settings:writefailure']
+msgid "Could not write object to the external object storage."
+msgstr ""
