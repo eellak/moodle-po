@@ -10,7 +10,7 @@ HOW TO CONVERT MOODLE PHP FILES INTO PO-GETTEXT FORMAT
 -Now you have two directories with the php files from each language
 
 - 1st step > create the .pot files from the english translation with the command
-$ php2po -P en pot  
+ $ php2po -P en pot  
 
 - 2nd step > create the .po files that have already translated strings in your language with the command 
 $ php2po -t en el po-el
